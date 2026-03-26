@@ -1,0 +1,67 @@
+# CaTxGNN - Canada Drug Repurposing Prediction System
+# Jekyll Configuration
+
+title: CaTxGNN - Canada Drug Repurposing Predictions
+description: >-
+  Drug repurposing predictions for Health Canada approved medications
+  using TxGNN knowledge graph and deep learning methods.
+
+url: "https://catxgnn.yao.care"
+baseurl: ""
+
+# Language and region
+lang: en-CA
+country_code: CA
+country_name: Canada
+regulatory_agency: "Health Canada"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-sitemap
+
+# Include FHIR resources
+include:
+  - fhir
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Collections
+collections:
+  drugs:
+    output: true
+    permalink: /drugs/:slug/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "drugs"
+    values:
+      layout: "drug"
+
+# FHIR Server Configuration
+fhir:
+  base_url: "https://catxgnn.yao.care/fhir"
+  version: "4.0.1"
+  jurisdiction: "CA"
+
+# Disclaimer (required for YMYL content)
+disclaimer: >-
+  This content is for research purposes only. Predictions are computational
+  and not validated for clinical use. Always consult healthcare professionals
+  before making any medical decisions.
+
+# SEO
+twitter:
+  card: summary
+
+social:
+  name: Yao.Care
+  links:
+    - https://github.com/yao-care/CaTxGNN

@@ -1,0 +1,51 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db00499",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://go.drugbank.com/drugs",
+        "code": "DB00499",
+        "display": "DB00499"
+      }
+    ],
+    "text": "DB00499"
+  },
+  "synonym": [],
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "CA",
+          "display": "Canada"
+        }
+      ]
+    }
+  ],
+  "regulatory": [
+    {
+      "regulatoryAuthority": {
+        "display": "Health Canada"
+      },
+      "identifier": [
+        {
+          "system": "https://catxgnn.yao.care/ca-din",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://catxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    }
+  ]
+}

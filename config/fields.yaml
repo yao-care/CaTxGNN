@@ -1,0 +1,65 @@
+country_code: CA
+language: en
+regulatory_agency: Health Canada
+regulatory_agency_url: https://www.canada.ca/en/health-canada
+
+data_source:
+  name: "Drug Product Database (DPD)"
+  url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html"
+  format: "CSV (pipe-separated values with quotes)"
+  encoding: "UTF-8"
+
+# File column definitions (0-indexed)
+drug_file:
+  name: "drug.txt"
+  columns:
+    - DRUG_CODE
+    - PRODUCT_CATEGORIZATION
+    - CLASS
+    - DRUG_IDENTIFICATION_NUMBER
+    - BRAND_NAME
+    - DESCRIPTOR
+    - PEDIATRIC_FLAG
+    - ACCESSION_NUMBER
+    - NUMBER_OF_AIS
+    - LAST_UPDATE_DATE
+    - AI_GROUP_NO
+    - CLASS_F
+    - BRAND_NAME_F
+    - DESCRIPTOR_F
+
+ingredient_file:
+  name: "ingred.txt"
+  columns:
+    - DRUG_CODE
+    - ACTIVE_INGREDIENT_CODE
+    - INGREDIENT
+    - INGREDIENT_SUPPLIED_IND
+    - STRENGTH
+    - STRENGTH_UNIT
+    - STRENGTH_TYPE
+    - DOSAGE_VALUE
+    - BASE
+    - DOSAGE_UNIT
+    - NOTES
+    - INGREDIENT_F
+    - STRENGTH_UNIT_F
+    - STRENGTH_TYPE_F
+    - DOSAGE_UNIT_F
+
+therapeutic_file:
+  name: "ther.txt"
+  columns:
+    - DRUG_CODE
+    - TC_ATC_NUMBER
+    - TC_ATC
+    - TC_AHFS
+
+field_mapping:
+  license_id: DRUG_IDENTIFICATION_NUMBER
+  brand_name_local: BRAND_NAME
+  ingredients: INGREDIENT
+  atc_code: TC_ATC_NUMBER
+
+# No indication field in Canadian data
+has_indication: false
