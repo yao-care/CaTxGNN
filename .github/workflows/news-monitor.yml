@@ -32,8 +32,8 @@ jobs:
             python scripts/generate_news_keywords.py
           fi
 
-      # Step 2: Fetch news from Hong Kong sources
-      - name: Fetch Hong Kong news
+      # Step 2: Fetch news from Canada sources
+      - name: Fetch Canada news
         run: python scripts/fetchers/ca_news.py
 
       # Step 3: Process and generate pages
