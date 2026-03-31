@@ -1,26 +1,31 @@
 # CaTxGNN - Canada Drug Repurposing Predictions
 
-Drug repurposing predictions for Canada using the TxGNN knowledge graph.
+[![Website](https://img.shields.io/badge/Website-catxgnn.yao.care-blue)](https://catxgnn.yao.care)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Data Source
-
-- **Regulatory Agency**: Health Canada
-- **Database**: Drug Product Database (DPD)
-- **URL**: https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html
-
-## Usage
-
-```bash
-# Install dependencies
-uv sync
-
-# Prepare external data
-uv run python scripts/prepare_external_data.py
-
-# Run KG prediction
-uv run python scripts/run_kg_prediction.py
-```
+Drug repurposing predictions for Canada using the TxGNN model.
 
 ## Disclaimer
 
-This project is for research purposes only. Predictions are not validated for clinical use.
+- The results of this project are for research purposes only and do not constitute medical advice.
+- Drug repurposing candidates require clinical validation before application.
+
+## Project Overview
+
+| Item | Count |
+|------|-------|
+| **Drug Reports** | 1,254 |
+| **Total Predictions** | 21,488,614 |
+
+## Prediction Methods
+
+### Knowledge Graph Method
+Direct querying of drug-disease relationships in the TxGNN knowledge graph, identifying potential repurposing candidates based on existing connections in the biomedical network.
+
+### Deep Learning Method
+Uses the TxGNN pre-trained neural network model to compute prediction scores, evaluating the likelihood of new therapeutic indications for approved drugs.
+
+## Links
+
+- Website: https://catxgnn.yao.care
+- TxGNN Paper: https://doi.org/10.1038/s41591-023-02233-x
