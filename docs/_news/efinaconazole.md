@@ -3,7 +3,7 @@ layout: default
 title: "Efinaconazole 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Efinaconazole 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Efinaconazole 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/efinaconazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/efinaconazole/
 ---
 
 <p class="key-answer" data-question="Efinaconazole 有什麼相關新聞？">
-<strong>Efinaconazole</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Efinaconazole</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/efinaconazole/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>astigmatism (disease)（50.0%）</li>
-<li>dermatitis, atopic（50.0%）</li>
-<li>dislocated elbows, bowed tibias, scoliosis, deafness, cataract, microcephaly, and intellectual disability（50.0%）</li>
-<li>nasal cavity olfactory neuroblastoma（50.0%）</li>
-<li>apraxia of eyelid opening（50.0%）</li>
-<li>spastic paraplegia, optic atrophy, microcephaly, and 10Y sex reversal（50.0%）</li>
-<li>craniosynostosis-anal anomalies-porokeratosis syndrome（50.0%）</li>
-<li>macular degeneration（50.0%）</li>
-<li>tumor suppressor gene on chromosome 11（50.0%）</li>
-<li>nasal cavity lymphoma（50.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/efinaconazole/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

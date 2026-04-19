@@ -3,7 +3,7 @@ layout: default
 title: "Tralokinumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Tralokinumab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Tralokinumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/tralokinumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tralokinumab/
 ---
 
 <p class="key-answer" data-question="Tralokinumab 有什麼相關新聞？">
-<strong>Tralokinumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Tralokinumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/tralokinumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>diabetic cataract（98.7%）</li>
-<li>immature cataract（98.6%）</li>
-<li>diabetes mellitus type 2 associated cataract（98.6%）</li>
-<li>tetanic cataract（98.6%）</li>
-<li>mature cataract（98.6%）</li>
-<li>craniostenosis cataract（98.6%）</li>
-<li>cortical cataract（98.6%）</li>
-<li>nuclear senile cataract（98.6%）</li>
-<li>senile cataract（98.5%）</li>
-<li>diabetic retinopathy（98.4%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tralokinumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

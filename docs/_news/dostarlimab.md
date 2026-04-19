@@ -3,7 +3,7 @@ layout: default
 title: "Dostarlimab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Dostarlimab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Dostarlimab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/dostarlimab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dostarlimab/
 ---
 
 <p class="key-answer" data-question="Dostarlimab 有什麼相關新聞？">
-<strong>Dostarlimab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Dostarlimab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/dostarlimab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>cervical adenofibroma（50.0%）</li>
-<li>vulvar alveolar soft part sarcoma（50.0%）</li>
-<li>LAMA5-related multisystemic syndrome（50.0%）</li>
-<li>primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome（50.0%）</li>
-<li>bile duct cystadenoma（50.0%）</li>
-<li>clear cell hidradenoma（50.0%）</li>
-<li>infantile hypotonia-oculomotor anomalies-hyperkinetic movements-developmental delay syndrome（50.0%）</li>
-<li>fallopian tube papillary adenocarcinoma（50.0%）</li>
-<li>bladder clear cell adenocarcinoma（50.0%）</li>
-<li>O'nyong'nyong fever（50.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dostarlimab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

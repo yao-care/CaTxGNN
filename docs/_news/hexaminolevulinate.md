@@ -3,7 +3,7 @@ layout: default
 title: "Hexaminolevulinate 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Hexaminolevulinate 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Hexaminolevulinate 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/hexaminolevulinate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hexaminolevulinate/
 ---
 
 <p class="key-answer" data-question="Hexaminolevulinate 有什麼相關新聞？">
-<strong>Hexaminolevulinate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Hexaminolevulinate</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/hexaminolevulinate/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>bronchitis（99.1%）</li>
-<li>colonic neoplasm（98.6%）</li>
-<li>severe nonproliferative diabetic retinopathy（98.6%）</li>
-<li>cecum villous adenoma（98.4%）</li>
-<li>rectosigmoid junction neoplasm（98.4%）</li>
-<li>cecum neuroendocrine tumor G1（98.4%）</li>
-<li>colonic lymphangioma（98.4%）</li>
-<li>lipoma of colon（98.4%）</li>
-<li>cecal disease（98.4%）</li>
-<li>cavernous hemangioma of colon（98.4%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/hexaminolevulinate/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

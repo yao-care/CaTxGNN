@@ -3,7 +3,7 @@ layout: default
 title: "Carbon monoxide 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Carbon monoxide 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Carbon monoxide 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/carbon_monoxide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carbon_monoxide/
 ---
 
 <p class="key-answer" data-question="Carbon monoxide 有什麼相關新聞？">
-<strong>Carbon monoxide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Carbon monoxide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/carbon_monoxide/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>sclerosing cholangitis（99.8%）</li>
-<li>ventricular tachycardia（99.6%）</li>
-<li>obsolete bundle branch block（99.5%）</li>
-<li>catecholaminergic polymorphic ventricular tachycardia（99.3%）</li>
-<li>potassium deficiency disease（99.2%）</li>
-<li>neovascular glaucoma（99.2%）</li>
-<li>angle-closure glaucoma（99.2%）</li>
-<li>pulmonary hypertension（99.2%）</li>
-<li>traumatic glaucoma（99.2%）</li>
-<li>aqueous misdirection（99.2%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/carbon_monoxide/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

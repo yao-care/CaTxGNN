@@ -3,7 +3,7 @@ layout: default
 title: "Nusinersen 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Nusinersen 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Nusinersen 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/nusinersen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nusinersen/
 ---
 
 <p class="key-answer" data-question="Nusinersen 有什麼相關新聞？">
-<strong>Nusinersen</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Nusinersen</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/nusinersen/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>neoplasm of immature B and T cells（50.0%）</li>
-<li>myeloid/lymphoid neoplasms associated with eosinophilia and abnormality of PDGFRA, PDGFRB, FGFR1 or JAK2（50.0%）</li>
-<li>exanthem (disease)（50.0%）</li>
-<li>cytomegalovirus infection（50.0%）</li>
-<li>malignant teratoma of mediastinum（50.0%）</li>
-<li>papilloma of buccal mucosa（50.0%）</li>
-<li>neoplasm of mature T-cells or NK-cells（50.0%）</li>
-<li>drug-induced localized lipodystrophy（50.0%）</li>
-<li>leiomyoma of ciliary body（50.0%）</li>
-<li>isolated asymptomatic elevation of creatine phosphokinase（50.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nusinersen/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

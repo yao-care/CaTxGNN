@@ -3,7 +3,7 @@ layout: default
 title: "Dornase alfa 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Dornase alfa 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Dornase alfa 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/dornase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dornase_alfa/
 ---
 
 <p class="key-answer" data-question="Dornase alfa 有什麼相關新聞？">
-<strong>Dornase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Dornase alfa</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/dornase_alfa/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>paroxysmal Hemicrania（50.0%）</li>
-<li>xanthoma disseminatum（50.0%）</li>
-<li>xanthogranuloma（50.0%）</li>
-<li>benign cephalic histiocytosis（50.0%）</li>
-<li>generalized eruptive histiocytosis（50.0%）</li>
-<li>Langerhans cell histiocytosis（50.0%）</li>
-<li>trigeminal autonomic cephalalgia（50.0%）</li>
-<li>phacolytic glaucoma（50.0%）</li>
-<li>congenital epulis（50.0%）</li>
-<li>necrobiotic xanthogranuloma（50.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dornase_alfa/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

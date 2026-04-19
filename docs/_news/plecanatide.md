@@ -3,7 +3,7 @@ layout: default
 title: "Plecanatide 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Plecanatide 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Plecanatide 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/plecanatide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/plecanatide/
 ---
 
 <p class="key-answer" data-question="Plecanatide 有什麼相關新聞？">
-<strong>Plecanatide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Plecanatide</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/plecanatide/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>hypertrichosis (disease)（100.0%）</li>
-<li>Ambras type hypertrichosis universalis congenita（100.0%）</li>
-<li>malformation syndrome with odontal and/or periodontal component（100.0%）</li>
-<li>isolated genetic hair shaft abnormality（100.0%）</li>
-<li>syndrome with a Dandy-Walker malformation as major feature（100.0%）</li>
-<li>idiopathic spontaneous coronary artery dissection（100.0%）</li>
-<li>vascular disease（100.0%）</li>
-<li>venous thoracic outlet syndrome（100.0%）</li>
-<li>arterial thoracic outlet syndrome（100.0%）</li>
-<li>phaeochromocytoma（100.0%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/plecanatide/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

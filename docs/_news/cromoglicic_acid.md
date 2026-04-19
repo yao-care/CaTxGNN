@@ -3,7 +3,7 @@ layout: default
 title: "Cromoglicic acid 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Cromoglicic acid 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Cromoglicic acid 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/cromoglicic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cromoglicic_acid/
 ---
 
 <p class="key-answer" data-question="Cromoglicic acid 有什麼相關新聞？">
-<strong>Cromoglicic acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Cromoglicic acid</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/cromoglicic_acid/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>ulcerative proctosigmoiditis（100.0%）</li>
-<li>nocardiosis（100.0%）</li>
-<li>rosacea conjunctivitis（100.0%）</li>
-<li>cap polyposis（100.0%）</li>
-<li>cutaneous photosensitivity-lethal colitis syndrome（100.0%）</li>
-<li>undetermined colitis（100.0%）</li>
-<li>pneumocystosis（100.0%）</li>
-<li>osteoarthritis（100.0%）</li>
-<li>allergic urticaria（100.0%）</li>
-<li>neonatal inflammatory skin and bowel disease（99.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cromoglicic_acid/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

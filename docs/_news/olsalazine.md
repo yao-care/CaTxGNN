@@ -3,7 +3,7 @@ layout: default
 title: "Olsalazine 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Olsalazine 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
+description: "Olsalazine 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
 permalink: /news/olsalazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/olsalazine/
 ---
 
 <p class="key-answer" data-question="Olsalazine 有什麼相關新聞？">
-<strong>Olsalazine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
+<strong>Olsalazine</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,6 @@ permalink: /news/olsalazine/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
-<li><strong>預測適應症</strong>（10 個）：<ul>
-<li>myelodysplastic syndrome（99.9%）</li>
-<li>hypotrichosis simplex of the scalp（99.9%）</li>
-<li>congenital hypotrichosis milia（99.9%）</li>
-<li>alopecia（99.9%）</li>
-<li>diffuse alopecia areata（99.9%）</li>
-<li>partial deletion of the long arm of chromosome 5（99.9%）</li>
-<li>unclassified myelodysplastic syndrome（99.9%）</li>
-<li>refractory cytopenia of childhood（99.9%）</li>
-<li>aregenerative anemia（99.9%）</li>
-<li>severe congenital hypochromic anemia with ringed sideroblasts（99.9%）</li>
-</ul></li>
 </ul>
 <p><a href="{{ '/drugs/olsalazine/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
