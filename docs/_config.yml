@@ -17,8 +17,9 @@ regulatory_agency: "Health Canada"
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: just-the-docs/just-the-docs
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
 
 # Include FHIR resources
