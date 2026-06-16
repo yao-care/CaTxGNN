@@ -3,7 +3,7 @@ layout: default
 title: "Evolocumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Evolocumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Evolocumab 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
 permalink: /news/evolocumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/evolocumab/
 ---
 
 <p class="key-answer" data-question="Evolocumab 有什麼相關新聞？">
-<strong>Evolocumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Evolocumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ permalink: /news/evolocumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（10 個）：<ul>
+<li>Symptomatic hemophilia in female carriers | 99.82% | Very low | No PCSK9–coagulation factor link（99.0%）</li>
+<li>Familial apolipoprotein C-II deficiency | 99.50% | Low | TG/VLDL axis, not LDL axis（99.0%）</li>
+<li>Thrombocytopenic purpura | 99.42% | Very low | Autoimmune/TMA, not lipid-mediated（99.0%）</li>
+<li>Factor XI deficiency | 99.29% | Very low | Intrinsic coagulation pathway defect（99.0%）</li>
+<li>Hemophilia A with vascular abnormality | 99.22% | Indirect only | LDL lowering may reduce CV risk in this subgroup — but this is an extension of existing indication, not true repurposing（99.0%）</li>
+<li>Disease of catalytic activity | 99.08% | None (ontological artifact) | PCSK9 is a serine protease; KG mis-links（99.0%）</li>
+<li>Hemorrhagic disease of newborn | 98.89% | Very low | Vitamin K-dependent clotting, unrelated to PCSK9（99.0%）</li>
+<li>X-linked ichthyosis (without STS deficiency) | 98.84% | Very low | Cholesterol sulfate pathway ≠ systemic LDL-R regulation（99.0%）</li>
+<li>Inherited thrombophilia | 98.82% | Low–moderate (theoretical) | Highest relative biological rationale among the 10; high LDL can potentiate thrombotic risk, but no Evolocumab-specific trial evidence（99.0%）</li>
+<li>Disorder of vitamins/cofactors metabolism | 98.80% | Very low (ontological) | LDL carries fat-soluble vitamins — highly speculative（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/evolocumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

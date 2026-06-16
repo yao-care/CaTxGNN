@@ -3,7 +3,7 @@ layout: default
 title: "Enfortumab vedotin 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Enfortumab vedotin 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Enfortumab vedotin 的相關健康新聞報導。原適應症：。預測適應症 10 個。"
 permalink: /news/enfortumab_vedotin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/enfortumab_vedotin/
 ---
 
 <p class="key-answer" data-question="Enfortumab vedotin 有什麼相關新聞？">
-<strong>Enfortumab vedotin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Enfortumab vedotin</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 10 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ permalink: /news/enfortumab_vedotin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（10 個）：<ul>
+<li>Leprosy | Mycobacterial infection — no known link to Nectin-4 or MMAE mechanism（99.0%）</li>
+<li>Multiple endocrine neoplasia | RET/MEN1-driven tumours; minimal Nectin-4 expression evidence（99.0%）</li>
+<li>Cytomegalovirus infection | DNA virus; measles virus (not CMV) uses Nectin-4 as cell entry receptor — likely KG node confusion（99.0%）</li>
+<li>Candidiasis | Fungal infection; only literature found is an ADC safety/FAERS adverse event report, not efficacy data（99.0%）</li>
+<li>Cerebral infarction | Ischemic vascular disease; MMAE causes peripheral neurotoxicity, not neuroprotection（99.0%）</li>
+<li>HIV infectious disease | CD4+ T-cell–targeting retrovirus; no Nectin-4 antiviral rationale exists（99.0%）</li>
+<li>Homozygous familial hypercholesterolemia | LDL receptor gene disease; no mechanistic intersection with Nectin-4 signalling（99.0%）</li>
+<li>Infectious bovine rhinotracheitis | **Veterinary disease (BoHV-1 in cattle)** — cross-species KG leakage（99.0%）</li>
+<li>Malignant catarrh | **Veterinary disease (ruminant herpesvirus)** — cross-species KG leakage（99.0%）</li>
+<li>HER2-positive breast carcinoma | ✓ Mechanistically plausible — see full analysis below（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/enfortumab_vedotin/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>

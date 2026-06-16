@@ -3,7 +3,7 @@ layout: default
 title: "Alirocumab 相關新聞"
 parent: 健康新聞
 nav_exclude: true
-description: "Alirocumab 的相關健康新聞報導。原適應症：。預測適應症 0 個。"
+description: "Alirocumab 的相關健康新聞報導。原適應症：。預測適應症 2 個。"
 permalink: /news/alirocumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alirocumab/
 ---
 
 <p class="key-answer" data-question="Alirocumab 有什麼相關新聞？">
-<strong>Alirocumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 0 個。
+<strong>Alirocumab</strong> 目前有 <strong>0 則</strong>相關新聞報導，預測適應症 2 個。
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,10 @@ permalink: /news/alirocumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>預測適應症</strong>（2 個）：<ul>
+<li>Xanthomatosis | 99.37% | L5 | Research Question（99.0%）</li>
+<li>Cholesterol catabolic process disease | 99.36% | L3 | Research Question（99.0%）</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alirocumab/' | relative_url }}">查看完整藥物報告 →</a></p>
 </div>
