@@ -2,7 +2,7 @@
 layout: default
 title: Clavulanic Acid
 parent: 僅模型預測 (L5)
-nav_order: 170
+nav_order: 181
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Estradiol
 parent: 僅模型預測 (L5)
-nav_order: 267
+nav_order: 302
 evidence_level: L5
 indication_count: 0
 ---

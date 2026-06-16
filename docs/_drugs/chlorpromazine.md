@@ -2,7 +2,7 @@
 layout: default
 title: Chlorpromazine
 parent: 僅模型預測 (L5)
-nav_order: 154
+nav_order: 165
 evidence_level: L5
 indication_count: 10
 ---

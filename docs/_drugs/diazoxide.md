@@ -2,7 +2,7 @@
 layout: default
 title: Diazoxide
 parent: 僅模型預測 (L5)
-nav_order: 223
+nav_order: 238
 evidence_level: L5
 indication_count: 10
 ---

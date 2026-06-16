@@ -2,7 +2,7 @@
 layout: default
 title: Deoxycholic Acid
 parent: 僅模型預測 (L5)
-nav_order: 209
+nav_order: 224
 evidence_level: L5
 indication_count: 3
 ---

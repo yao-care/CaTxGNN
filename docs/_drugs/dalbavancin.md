@@ -2,7 +2,7 @@
 layout: default
 title: Dalbavancin
 parent: 僅模型預測 (L5)
-nav_order: 195
+nav_order: 210
 evidence_level: L5
 indication_count: 10
 ---
