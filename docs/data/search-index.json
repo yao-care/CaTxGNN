@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-16",
-  "drug_count": 1590,
-  "indication_count": 295,
+  "generated": "2026-07-13",
+  "drug_count": 1654,
+  "indication_count": 355,
   "drugs": [
     {
       "name": "Abacavir",
@@ -328658,6 +328658,429 @@
       "indications": []
     },
     {
+      "name": "Fluoxetine",
+      "slug": "fluoxetine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Flupentixol",
+      "slug": "flupentixol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Flurbiprofen",
+      "slug": "flurbiprofen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Flutamide",
+      "slug": "flutamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fluticasone Furoate",
+      "slug": "fluticasone_furoate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fluvastatin",
+      "slug": "fluvastatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Folic Acid",
+      "slug": "folic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fomepizole",
+      "slug": "fomepizole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fosaprepitant",
+      "slug": "fosaprepitant",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fosfomycin",
+      "slug": "fosfomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fostamatinib",
+      "slug": "fostamatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fremanezumab",
+      "slug": "fremanezumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Frovatriptan",
+      "slug": "frovatriptan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fulvestrant",
+      "slug": "fulvestrant",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Fusidic Acid",
+      "slug": "fusidic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Exposure Keratitis | 99.95% | L4 | Hold | No direct evidence; sole publication addresses an unrelated pathogen",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Non-human Animal Disease | 99.86% | L5 | N/A | Out of scope for clinical repurposing framework",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Otitis Externa | 99.84% | L4 | Research Question | Mechanistic support exists; evidence is primarily veterinary",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Postinfectious Vasculitis | 99.83% | L5 | Hold | Immune complex–mediated pathology; antibacterial MOA does not apply",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Post-infectious Syndrome | 99.82% | L5 | Hold | Neuroimmune dysregulation; no mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Infective Urethral Stricture | 99.81% | L5 | Hold | Gram-negative pathogens; outside fusidic acid's spectrum",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chagas Cardiomyopathy | 99.80% | L5 | Hold | Protozoan (*T. cruzi*) disease; antibacterial MOA entirely irrelevant",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Infection-related HUS | 99.79% | L5 | Hold | STEC-mediated; antibiotics generally contraindicated in this context",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Parasitic Eyelid Infestation | 99.65% | L5 | Hold | Arthropod/parasitic infection; outside antibacterial spectrum entirely",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Gadodiamide",
+      "slug": "gadodiamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Gadoteridol",
+      "slug": "gadoteridol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Galantamine",
+      "slug": "galantamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Psychogenic movement disorders | 99.89% | L5 | Hold | Functional neurological origin; cholinergic mechanism irrelevant",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chronic tic disorder | 99.89% | L5 | Hold | Only 1 narrative review from 1980; no galantamine-specific data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary orthostatic tremor | 99.89% | L5 | Hold | Brainstem-cerebellar oscillation circuit; no cholinergic basis",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Extrapyramidal and movement disease | 99.88% | L4 | Research Question | 2 completed trials + 4 publications; endpoints indirect",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign shuddering attacks | 99.88% | L5 | Hold | Self-limiting developmental phenomenon; likely KG proximity artifact",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Tremor-nystagmus-duodenal ulcer syndrome | 99.88% | L5 | Hold | AChEI may **worsen** duodenal ulcer — active safety concern",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign paroxysmal tonic upgaze of childhood with ataxia | 99.88% | L5 | Hold | Rare pediatric syndrome; no AChEI rationale",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acute intermittent porphyria | 99.71% | L5 | Hold | AChEI may trigger cholinergic crisis during AIP neurological attacks — **contraindication to investigate**",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Galcanezumab",
+      "slug": "galcanezumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ganirelix",
+      "slug": "ganirelix",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Aromatase excess syndrome (AEXS) | S1 – Research Question | GnRH antagonist → ↓LH → ↓gonadal androgen substrate → ↓CYP19A1 conversion → ↓estrogen (indirect; standard therapy remains aromatase inhibitors)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Central precocious puberty (CPP) | S1 – Research Question | Direct GnRH receptor blockade → rapid LH/FSH suppression; class effect already demonstrated for degarelix and relugolix; advantage over GnRH agonists: no initial flare",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Gefitinib",
+      "slug": "gefitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Gemcitabine",
+      "slug": "gemcitabine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Gemfibrozil",
+      "slug": "gemfibrozil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Gilteritinib",
+      "slug": "gilteritinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Givosiran",
+      "slug": "givosiran",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Glatiramer",
+      "slug": "glatiramer",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Glecaprevir",
+      "slug": "glecaprevir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Glimepiride",
+      "slug": "glimepiride",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Glucagon",
+      "slug": "glucagon",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Glutamic Acid",
+      "slug": "glutamic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Glycine",
+      "slug": "glycine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Golimumab",
+      "slug": "golimumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Goserelin",
+      "slug": "goserelin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Granisetron",
+      "slug": "granisetron",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Guaiacol",
+      "slug": "guaiacol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Guaifenesin",
+      "slug": "guaifenesin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Guanfacine",
+      "slug": "guanfacine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Guselkumab",
+      "slug": "guselkumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Drug-induced osteoporosis | 99.84% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Severe nonproliferative diabetic retinopathy | 99.80% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diabetic retinopathy | 99.74% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Renal osteodystrophy | 99.73% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
       "name": "Mefenamic Acid",
       "slug": "mefenamic_acid",
       "brands": [],
@@ -328728,6 +329151,403 @@
       "original": "",
       "level": "L5",
       "indications": []
+    },
+    {
+      "name": "Methotrexate",
+      "slug": "methotrexate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Pulmonary blastoma | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary pulmonary lymphoma | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Small cell lung carcinoma | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Well-differentiated fetal adenocarcinoma of the lung | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rhabdomyosarcoma | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pregerminal center CLL/SLL | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "CLL/SLL with IGHV somatic hypermutation | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Parameningeal embryonal rhabdomyosarcoma | L4 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Botryoid-type embryonal RMS of the vagina | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Methotrimeprazine",
+      "slug": "methotrimeprazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Methoxsalen",
+      "slug": "methoxsalen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Methyl Aminolevulinate",
+      "slug": "methyl_aminolevulinate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Hereditary hemochromatosis | 99.86% | L5 | Hold | Knowledge graph artefact; no biological plausibility",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Seborrheic keratosis | 99.84% | L5 | Hold | No evidence in dataset; external literature search advised",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Vulvar inverted follicular keratosis | 99.80% | L5 | Hold | Rare disease; no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Psoriasis | 99.44% | L3 | Research Question | Literature only; nail psoriasis niche may be viable",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Common wart | 99.42% | L3 | Research Question | MAL-PDT for recalcitrant warts; case series evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Drug-induced osteoporosis | 99.24% | L5 | Hold | No mechanistic plausibility",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pityriasis lichenoides | 99.13% | L5 | Hold | Theoretical basis; no studies identified",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Wilson disease | 99.11% | L5 | Hold | Metal metabolism artefact; no plausibility",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Iron metabolism disease | 99.09% | L5 | Hold | Same graph-topology artefact as rank 1",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Methylene Blue",
+      "slug": "methylene_blue",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Methylprednisolone",
+      "slug": "methylprednisolone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Metolazone",
+      "slug": "metolazone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Metreleptin",
+      "slug": "metreleptin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Metronidazole",
+      "slug": "metronidazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Micafungin",
+      "slug": "micafungin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Midazolam",
+      "slug": "midazolam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Miglustat",
+      "slug": "miglustat",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Milrinone",
+      "slug": "milrinone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Minocycline",
+      "slug": "minocycline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Minoxidil",
+      "slug": "minoxidil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Mirtazapine",
+      "slug": "mirtazapine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Mirvetuximab Soravtansine",
+      "slug": "mirvetuximab_soravtansine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Misoprostol",
+      "slug": "misoprostol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Mitomycin",
+      "slug": "mitomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Mitoxantrone",
+      "slug": "mitoxantrone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Moclobemide",
+      "slug": "moclobemide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Modafinil",
+      "slug": "modafinil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Mogamulizumab",
+      "slug": "mogamulizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Prostatic urethra urothelial carcinoma | 99.44% | Hold | CCR4+ Treg depletion mechanistically plausible for TME; extremely rare subtype with zero CCR4-specific data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Kidney pelvis sarcomatoid transitional cell carcinoma | 99.42% | Hold | Upper urinary tract UCC shares Treg biology; sarcomatoid variant-specific CCR4 data entirely absent",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Infiltrating bladder urothelial carcinoma sarcomatoid variant | 99.40% | Hold | Bladder TME Treg infiltration linked to poor prognosis; no clinical data for sarcomatoid variant",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Renal pelvis papillary urothelial carcinoma | 99.37% | Hold | Molecular features shared with bladder TCC; score likely driven by urothelial graph cluster effect",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Human herpesvirus 8-related tumor | 99.24% | **Research Question** | CCR4 expressed on HHV-8-infected T-cells and some PEL cell lines; ADCC + Treg depletion conceptually plausible",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ectomesenchymoma | 99.15% | Hold | Extremely rare pediatric tumor; no known CCR4 association; likely knowledge graph false positive",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant cutaneous granular cell skin tumor | 99.15% | Hold | Cutaneous location superficially resembles CTCL setting; completely different neural cell origin, no CCR4 data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Middle ear neuroendocrine tumor | 98.99% | Hold | Treg infiltration reported in some NETs, but CCR4-specific data absent; prediction likely topological noise",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Transitional cell carcinoma | 98.98% | **Research Question** | Broader disease category; in vitro evidence for Treg depletion + PD-1 synergy in urothelial cancer worth exploring",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Richter syndrome | 98.56% | **Research Question** | CLL→DLBCL transformation with CCR4+ Treg-rich TME; partial CCR4 expression on transformed cells; highest mechanistic specificity and unmet need among all predictions",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Montelukast",
+      "slug": "montelukast",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Moroctocog Alfa",
+      "slug": "moroctocog_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Moxifloxacin",
+      "slug": "moxifloxacin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Polyclonal Hyperviscosity Syndrome | 99.98% | L5 | Hold | No mechanistic link to antibiotic MOA; likely KG neighbourhood effect",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hyperamylasemia | 99.98% | L5 | Hold | ⚠️ Possible reverse causality — moxifloxacin has amylase-elevation ADR",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital Analbuminemia | 99.97% | L5 | Hold | 1 case report (PMID 32181025) unrelated to moxifloxacin; false positive",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Blood Group Incompatibility | 99.96% | L5 | Hold | Immune-mediated haemolysis; no mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Premalignant Hematological Disease | 99.95% | L5 | Hold | No clinical or preclinical evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Monoclonal Gammopathy | 99.95% | L4 | Hold | Moxifloxacin treats secondary infections, not the clonal B-cell disease itself",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hematological Disease with Peripheral Neuropathy | 99.94% | L5 | Hold | ⚠️ **Contraindicated** — FDA Black Box Warning for irreversible peripheral neuropathy",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital Hematological Disorder | 99.91% | L4 | Hold | Antibiotic supportive role only; ⚠️ QT prolongation risk in cardiac-vulnerable patients",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hematopoietic/Lymphoid Neoplasm | 99.67% | L5 | Hold | No antitumour activity data; topoisomerase selectivity differs from oncology agents",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
     }
   ],
   "indications": [
@@ -328886,6 +329706,17 @@
       ]
     },
     {
+      "name": "Acute intermittent porphyria | 99.71% | L5 | Hold | AChEI may trigger cholinergic crisis during AIP neurological attacks — **contraindication to investigate**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Galantamine",
+          "slug": "galantamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Adenoid Cystic Carcinoma of the Cervix Uteri | 99.91% | L5 | Hold | None",
       "drug_count": 1,
       "drugs": [
@@ -329018,12 +329849,45 @@
       ]
     },
     {
+      "name": "Aromatase excess syndrome (AEXS) | S1 – Research Question | GnRH antagonist → ↓LH → ↓gonadal androgen substrate → ↓CYP19A1 conversion → ↓estrogen (indirect; standard therapy remains aromatase inhibitors)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ganirelix",
+          "slug": "ganirelix",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Autosomal Dominant Macrothrombocytopenia | 99.04% | Very Weak — inherited megakaryocyte differentiation defect | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Belimumab",
           "slug": "belimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign paroxysmal tonic upgaze of childhood with ataxia | 99.88% | L5 | Hold | Rare pediatric syndrome; no AChEI rationale",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Galantamine",
+          "slug": "galantamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign shuddering attacks | 99.88% | L5 | Hold | Self-limiting developmental phenomenon; likely KG proximity artifact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Galantamine",
+          "slug": "galantamine",
           "score": 99.0
         }
       ]
@@ -329084,6 +329948,17 @@
       ]
     },
     {
+      "name": "Blood Group Incompatibility | 99.96% | L5 | Hold | Immune-mediated haemolysis; no mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Blood group incompatibility | 99.22% | L5 | **Biologically implausible** — ABO/Rh immune reaction; no antibacterial relevance",
       "drug_count": 1,
       "drugs": [
@@ -329112,6 +329987,17 @@
         {
           "drug": "Everolimus",
           "slug": "everolimus",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Botryoid-type embryonal RMS of the vagina | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
           "score": 99.0
         }
       ]
@@ -329195,6 +330081,17 @@
       ]
     },
     {
+      "name": "CLL/SLL with IGHV somatic hypermutation | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Candidiasis | Fungal infection; only literature found is an ADC safety/FAERS adverse event report, not efficacy data",
       "drug_count": 1,
       "drugs": [
@@ -329239,6 +330136,17 @@
       ]
     },
     {
+      "name": "Central precocious puberty (CPP) | S1 – Research Question | Direct GnRH receptor blockade → rapid LH/FSH suppression; class effect already demonstrated for degarelix and relugolix; advantage over GnRH agonists: no initial flare",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ganirelix",
+          "slug": "ganirelix",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Cerebral Artery Occlusion | 99.89% | L3 | Research Question | 5 animal studies; 5 indirect clinical trials",
       "drug_count": 1,
       "drugs": [
@@ -329256,6 +330164,17 @@
         {
           "drug": "Enfortumab Vedotin",
           "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Chagas Cardiomyopathy | 99.80% | L5 | Hold | Protozoan (*T. cruzi*) disease; antibacterial MOA entirely irrelevant",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
           "score": 99.0
         }
       ]
@@ -329294,6 +330213,28 @@
       ]
     },
     {
+      "name": "Chronic tic disorder | 99.89% | L5 | Hold | Only 1 narrative review from 1980; no galantamine-specific data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Galantamine",
+          "slug": "galantamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Common wart | 99.42% | L3 | Research Question | MAL-PDT for recalcitrant warts; case series evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Common wart | 99.46% | 6 | 20 | **L2** | **Proceed with Guardrails**",
       "drug_count": 1,
       "drugs": [
@@ -329327,12 +330268,34 @@
       ]
     },
     {
+      "name": "Congenital Analbuminemia | 99.97% | L5 | Hold | 1 case report (PMID 32181025) unrelated to moxifloxacin; false positive",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Congenital Factor V Deficiency | 99.30% | L5 | 0 | 0 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Defibrotide",
           "slug": "defibrotide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital Hematological Disorder | 99.91% | L4 | Hold | Antibiotic supportive role only; ⚠️ QT prolongation risk in cardiac-vulnerable patients",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
           "score": 99.0
         }
       ]
@@ -329426,6 +330389,17 @@
       ]
     },
     {
+      "name": "Diabetic retinopathy | 99.74% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Guselkumab",
+          "slug": "guselkumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Diffuse Scleroderma | 99.87% | L4 | Research Question | 2 publications; dual mechanism hypothesis (antifibrotic + SIBO)",
       "drug_count": 1,
       "drugs": [
@@ -329476,6 +330450,39 @@
         {
           "drug": "Evolocumab",
           "slug": "evolocumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Drug-induced osteoporosis | 99.24% | L5 | Hold | No mechanistic plausibility",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Drug-induced osteoporosis | 99.84% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Guselkumab",
+          "slug": "guselkumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ectomesenchymoma | 99.15% | Hold | Extremely rare pediatric tumor; no known CCR4 association; likely knowledge graph false positive",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
           "score": 99.0
         }
       ]
@@ -329580,12 +330587,34 @@
       ]
     },
     {
+      "name": "Exposure Keratitis | 99.95% | L4 | Hold | No direct evidence; sole publication addresses an unrelated pathogen",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Extrahepatic bile duct RMS | 99.49% | L4 | Research Question",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Dactinomycin",
           "slug": "dactinomycin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Extrapyramidal and movement disease | 99.88% | L4 | Research Question | 2 completed trials + 4 publications; endpoints indirect",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Galantamine",
+          "slug": "galantamine",
           "score": 99.0
         }
       ]
@@ -329956,6 +330985,28 @@
       ]
     },
     {
+      "name": "Hematological Disease with Peripheral Neuropathy | 99.94% | L5 | Hold | ⚠️ **Contraindicated** — FDA Black Box Warning for irreversible peripheral neuropathy",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hematopoietic/Lymphoid Neoplasm | 99.67% | L5 | Hold | No antitumour activity data; topoisomerase selectivity differs from oncology agents",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hemophilia A with vascular abnormality | 99.22% | Indirect only | LDL lowering may reduce CV risk in this subgroup — but this is an extension of existing indication, not true repurposing",
       "drug_count": 1,
       "drugs": [
@@ -330033,6 +331084,17 @@
       ]
     },
     {
+      "name": "Hereditary hemochromatosis | 99.86% | L5 | Hold | Knowledge graph artefact; no biological plausibility",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hereditary thrombocytopenia with normal platelets | 99.995% | L4 | Research Question | Normal platelet size excludes MYH9; transcription factor mutation subtypes (RUNX1, ANKRD26, ETV6) may respond to TPO-RA. Eltrombopag positive in ANKRD26-related cases.",
       "drug_count": 1,
       "drugs": [
@@ -330050,6 +331112,17 @@
         {
           "drug": "Enfortumab Vedotin",
           "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Human herpesvirus 8-related tumor | 99.24% | **Research Question** | CCR4 expressed on HHV-8-infected T-cells and some PEL cell lines; ADCC + Treg depletion conceptually plausible",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
           "score": 99.0
         }
       ]
@@ -330094,6 +331167,17 @@
         {
           "drug": "Ciprofloxacin",
           "slug": "ciprofloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hyperamylasemia | 99.98% | L5 | Hold | ⚠️ Possible reverse causality — moxifloxacin has amylase-elevation ADR",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
           "score": 99.0
         }
       ]
@@ -330154,6 +331238,17 @@
       ]
     },
     {
+      "name": "Infection-related HUS | 99.79% | L5 | Hold | STEC-mediated; antibiotics generally contraindicated in this context",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Infectious Otitis Media | 99.30% | L4 | Hold | Narrow mechanistic link; cefoxitin covers few typical pathogens; MRSA/NTM angle only",
       "drug_count": 1,
       "drugs": [
@@ -330176,12 +331271,34 @@
       ]
     },
     {
+      "name": "Infective Urethral Stricture | 99.81% | L5 | Hold | Gram-negative pathogens; outside fusidic acid's spectrum",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Infiltrating Bladder Urothelial Carcinoma, Sarcomatoid Variant | 99.98% | L3 | Hold | 2 trials (Phase 2 terminated; Early Phase 1)",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Durvalumab",
           "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Infiltrating bladder urothelial carcinoma sarcomatoid variant | 99.40% | Hold | Bladder TME Treg infiltration linked to poor prognosis; no clinical data for sarcomatoid variant",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
           "score": 99.0
         }
       ]
@@ -330220,12 +331337,34 @@
       ]
     },
     {
+      "name": "Iron metabolism disease | 99.09% | L5 | Hold | Same graph-topology artefact as rank 1",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Kidney Pelvis Sarcomatoid Transitional Cell Carcinoma | 99.98% | L3 | Hold | 1 trial (Early Phase 1)",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Durvalumab",
           "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Kidney pelvis sarcomatoid transitional cell carcinoma | 99.42% | Hold | Upper urinary tract UCC shares Treg biology; sarcomatoid variant-specific CCR4 data entirely absent",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
           "score": 99.0
         }
       ]
@@ -330374,6 +331513,17 @@
       ]
     },
     {
+      "name": "Malignant cutaneous granular cell skin tumor | 99.15% | Hold | Cutaneous location superficially resembles CTCL setting; completely different neural cell origin, no CCR4 data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Malignant epithelioid mesothelioma | 99.14% | L5 | Hold | Same as #4 — no biological basis",
       "drug_count": 1,
       "drugs": [
@@ -330429,6 +331579,17 @@
       ]
     },
     {
+      "name": "Middle ear neuroendocrine tumor | 98.99% | Hold | Treg infiltration reported in some NETs, but CCR4-specific data absent; prediction likely topological noise",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Migraine | No plausible β1-adrenergic / meningeal vascular mechanism; identified literature (PMID 17103145) studies dobutamine as a pharmacological comparator, not a treatment candidate",
       "drug_count": 1,
       "drugs": [
@@ -330457,6 +331618,17 @@
         {
           "drug": "Ciprofloxacin",
           "slug": "ciprofloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Monoclonal Gammopathy | 99.95% | L4 | Hold | Moxifloxacin treats secondary infections, not the clonal B-cell disease itself",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
           "score": 99.0
         }
       ]
@@ -330528,6 +331700,17 @@
       ]
     },
     {
+      "name": "Non-human Animal Disease | 99.86% | L5 | N/A | Out of scope for clinical repurposing framework",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Non-keratinizing sinonasal squamous cell carcinoma | 99.99% | L4 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -330545,6 +331728,17 @@
         {
           "drug": "Darunavir",
           "slug": "darunavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Otitis Externa | 99.84% | L4 | Research Question | Mechanistic support exists; evidence is primarily veterinary",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
           "score": 99.0
         }
       ]
@@ -330660,6 +331854,17 @@
       ]
     },
     {
+      "name": "Parameningeal embryonal rhabdomyosarcoma | L4 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Paraneoplastic Cerebellar Degeneration | 97.99% | L4 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -330693,6 +331898,28 @@
       ]
     },
     {
+      "name": "Parasitic Eyelid Infestation | 99.65% | L5 | Hold | Arthropod/parasitic infection; outside antibacterial spectrum entirely",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pityriasis lichenoides | 99.13% | L5 | Hold | Theoretical basis; no studies identified",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Polyclonal Hyperviscosity Syndrome | 99.63% | L5 | Hold | No mechanistic link; likely topological false positive from blood/infection node clustering in knowledge graph",
       "drug_count": 1,
       "drugs": [
@@ -330710,6 +331937,17 @@
         {
           "drug": "Ciprofloxacin",
           "slug": "ciprofloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Polyclonal Hyperviscosity Syndrome | 99.98% | L5 | Hold | No mechanistic link to antibiotic MOA; likely KG neighbourhood effect",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
           "score": 99.0
         }
       ]
@@ -330792,6 +332030,17 @@
       ]
     },
     {
+      "name": "Post-infectious Syndrome | 99.82% | L5 | Hold | Neuroimmune dysregulation; no mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Post-infectious neuralgia | 99.25% | 12 | 0 | L3 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -330814,6 +332063,28 @@
       ]
     },
     {
+      "name": "Postinfectious Vasculitis | 99.83% | L5 | Hold | Immune complex–mediated pathology; antibacterial MOA does not apply",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Fusidic Acid",
+          "slug": "fusidic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pregerminal center CLL/SLL | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Premalignant Haematological System Disease | 99.29% | L5 | Hold | MDS/CHIP/SMM require targeted or watch-and-wait strategies; no antibiotic mechanism relevant",
       "drug_count": 1,
       "drugs": [
@@ -330831,6 +332102,17 @@
         {
           "drug": "Ciprofloxacin",
           "slug": "ciprofloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Premalignant Hematological Disease | 99.95% | L5 | Hold | No clinical or preclinical evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Moxifloxacin",
+          "slug": "moxifloxacin",
           "score": 99.0
         }
       ]
@@ -330902,6 +332184,28 @@
       ]
     },
     {
+      "name": "Primary orthostatic tremor | 99.89% | L5 | Hold | Brainstem-cerebellar oscillation circuit; no cholinergic basis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Galantamine",
+          "slug": "galantamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Primary pulmonary lymphoma | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Proctitis | 99.60% | L5 | Research Question | Plausible mucosal repair mechanism (pantothenic acid → NF-κB suppression), but zero clinical evidence; proof-of-concept animal model study recommended first",
       "drug_count": 1,
       "drugs": [
@@ -330946,6 +332250,17 @@
       ]
     },
     {
+      "name": "Prostatic urethra urothelial carcinoma | 99.44% | Hold | CCR4+ Treg depletion mechanistically plausible for TME; extremely rare subtype with zero CCR4-specific data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Pseudo-Von Willebrand Disease | 99.91% | L5 | 0 | 0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -330979,6 +332294,28 @@
       ]
     },
     {
+      "name": "Psoriasis | 99.44% | L3 | Research Question | Literature only; nail psoriasis niche may be viable",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Psychogenic movement disorders | 99.89% | L5 | Hold | Functional neurological origin; cholinergic mechanism irrelevant",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Galantamine",
+          "slug": "galantamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Pulmonary Hypertension (Lung Disease/Hypoxia) | 99.91% | L5 | **Hold** | Non-specific literature; known safety concern (see Safety section)",
       "drug_count": 1,
       "drugs": [
@@ -330997,6 +332334,17 @@
           "drug": "Ambrisentan",
           "slug": "ambrisentan",
           "score": 99.41
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary blastoma | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
+          "score": 99.0
         }
       ]
     },
@@ -331100,12 +332448,56 @@
       ]
     },
     {
+      "name": "Renal osteodystrophy | 99.73% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Guselkumab",
+          "slug": "guselkumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Renal pelvis papillary urothelial carcinoma | 99.37% | Hold | Molecular features shared with bladder TCC; score likely driven by urothelial graph cluster effect",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Rhabdomyosarcoma | 99.74% | L2 | Proceed with Guardrails",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Everolimus",
           "slug": "everolimus",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rhabdomyosarcoma | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Richter syndrome | 98.56% | **Research Question** | CLL→DLBCL transformation with CCR4+ Treg-rich TME; partial CCR4 expression on transformed cells; highest mechanistic specificity and unmet need among all predictions",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
           "score": 99.0
         }
       ]
@@ -331139,6 +332531,17 @@
         {
           "drug": "Emicizumab",
           "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Seborrheic keratosis | 99.84% | L5 | Hold | No evidence in dataset; external literature search advised",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
           "score": 99.0
         }
       ]
@@ -331199,6 +332602,17 @@
       ]
     },
     {
+      "name": "Severe nonproliferative diabetic retinopathy | 99.80% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Guselkumab",
+          "slug": "guselkumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Signet Ring Cell Gastric Adenocarcinoma | 99.94% | L2 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -331227,6 +332641,17 @@
         {
           "drug": "Darunavir",
           "slug": "darunavir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Small cell lung carcinoma | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
           "score": 99.0
         }
       ]
@@ -331409,6 +332834,28 @@
       ]
     },
     {
+      "name": "Transitional cell carcinoma | 98.98% | **Research Question** | Broader disease category; in vitro evidence for Treg depletion + PD-1 synergy in urothelial cancer worth exploring",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Mogamulizumab",
+          "slug": "mogamulizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Tremor-nystagmus-duodenal ulcer syndrome | 99.88% | L5 | Hold | AChEI may **worsen** duodenal ulcer — active safety concern",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Galantamine",
+          "slug": "galantamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Unclassified renal cell carcinoma | 99.72% | L2 | Proceed with Guardrails",
       "drug_count": 1,
       "drugs": [
@@ -331585,6 +333032,17 @@
       ]
     },
     {
+      "name": "Vulvar inverted follicular keratosis | 99.80% | L5 | Hold | Rare disease; no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Vulvar inverted follicular keratosis | 99.82% | L5 | **Hold** | Low — benign proliferative lesion; no inflammatory target for corticosteroids",
       "drug_count": 1,
       "drugs": [
@@ -331602,6 +333060,28 @@
         {
           "drug": "Acyclovir",
           "slug": "acyclovir",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Well-differentiated fetal adenocarcinoma of the lung | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methotrexate",
+          "slug": "methotrexate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Wilson disease | 99.11% | L5 | Hold | Metal metabolism artefact; no plausibility",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Methyl Aminolevulinate",
+          "slug": "methyl_aminolevulinate",
           "score": 99.0
         }
       ]
