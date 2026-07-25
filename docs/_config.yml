@@ -41,6 +41,9 @@ collections:
   drugs:
     output: true
     permalink: /drugs/:slug/
+  news:
+    output: true
+    permalink: /news/:slug/
 
 # Default front matter
 defaults:
@@ -72,4 +75,5 @@ social:
     - https://github.com/yao-care/CaTxGNN
 
 footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). This report is for research purposes only and does not constitute medical advice."
+
 
