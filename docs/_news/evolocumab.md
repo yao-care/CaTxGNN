@@ -24,6 +24,7 @@ permalink: /news/evolocumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L5</li>
 <li><strong>預測適應症</strong>（10 個）：<ul>
 <li>Symptomatic hemophilia in female carriers | 99.82% | Very low | No PCSK9–coagulation factor link（99.0%）</li>
 <li>Familial apolipoprotein C-II deficiency | 99.50% | Low | TG/VLDL axis, not LDL axis（99.0%）</li>

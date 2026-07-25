@@ -24,6 +24,7 @@ permalink: /news/alirocumab/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L5</li>
 <li><strong>預測適應症</strong>（2 個）：<ul>
 <li>Xanthomatosis | 99.37% | L5 | Research Question（99.0%）</li>
 <li>Cholesterol catabolic process disease | 99.36% | L3 | Research Question（99.0%）</li>

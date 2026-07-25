@@ -24,6 +24,7 @@ permalink: /news/enfortumab_vedotin/
 <div class="drug-info-card">
 <strong>藥物資訊</strong>
 <ul>
+<li><strong>證據等級</strong>：L5</li>
 <li><strong>預測適應症</strong>（10 個）：<ul>
 <li>Leprosy | Mycobacterial infection — no known link to Nectin-4 or MMAE mechanism（99.0%）</li>
 <li>Multiple endocrine neoplasia | RET/MEN1-driven tumours; minimal Nectin-4 expression evidence（99.0%）</li>
