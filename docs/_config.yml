@@ -6,6 +6,10 @@ description: >-
   Drug repurposing predictions for Health Canada approved medications
   using TxGNN knowledge graph and deep learning methods.
 
+author:
+  name: 藥提醒科技有限公司 (yao.care)
+  url: https://www.yao.care/
+
 url: "https://catxgnn.yao.care"
 baseurl: ""
 
@@ -63,6 +67,9 @@ twitter:
   card: summary
 
 social:
-  name: Yao.Care
+  name: 藥提醒科技有限公司 (yao.care)
   links:
     - https://github.com/yao-care/CaTxGNN
+
+footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). This report is for research purposes only and does not constitute medical advice."
+
