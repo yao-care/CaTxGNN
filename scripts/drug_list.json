@@ -1,6 +1,6 @@
 {
-  "total": 1654,
-  "generated_at": "2026-08-27T06:24:19.653539",
+  "total": 1690,
+  "generated_at": "2026-08-27T21:30:37.755934",
   "drugs": [
     {
       "name": "Abacavir",
@@ -11336,6 +11336,188 @@
       "predicted_indication": ""
     },
     {
+      "name": "Haloperidol",
+      "file": "haloperidol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hemin",
+      "file": "hemin.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Heparin",
+      "file": "heparin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hexaminolevulinate",
+      "file": "hexaminolevulinate.md",
+      "evidence_level": "L3",
+      "indication_count": 10,
+      "predicted_indication": "Colonic Neoplasm（大腸贅生病灶）"
+    },
+    {
+      "name": "Histidine",
+      "file": "histidine.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Human Immunoglobulin G",
+      "file": "human_immunoglobulin_g.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hyaluronidase",
+      "file": "hyaluronidase.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hydrocortisone",
+      "file": "hydrocortisone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hydrocortisone Acetate",
+      "file": "hydrocortisone_acetate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hydroquinone",
+      "file": "hydroquinone.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hydroxocobalamin",
+      "file": "hydroxocobalamin.md",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hydroxyurea",
+      "file": "hydroxyurea.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Hypromellose",
+      "file": "hypromellose.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Ibuprofen",
+      "file": "ibuprofen.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lisinopril",
+      "file": "lisinopril.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lithium Carbonate",
+      "file": "lithium_carbonate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lodoxamide",
+      "file": "lodoxamide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lomitapide",
+      "file": "lomitapide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lomustine",
+      "file": "lomustine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lopinavir",
+      "file": "lopinavir.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lorazepam",
+      "file": "lorazepam.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lorlatinib",
+      "file": "lorlatinib.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Loteprednol Etabonate",
+      "file": "loteprednol_etabonate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lovastatin",
+      "file": "lovastatin.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Loxapine",
+      "file": "loxapine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Lumacaftor",
+      "file": "lumacaftor.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
       "name": "Mefenamic Acid",
       "file": "mefenamic_acid.md",
       "evidence_level": "L5",
@@ -11578,6 +11760,76 @@
       "file": "moxifloxacin.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Potassium Citrate",
+      "file": "potassium_citrate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Povidone",
+      "file": "povidone.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pralatrexate",
+      "file": "pralatrexate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Prasterone",
+      "file": "prasterone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Prasugrel",
+      "file": "prasugrel.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Prednicarbate",
+      "file": "prednicarbate.md",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Prednisolone",
+      "file": "prednisolone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Prednisolone Acetate",
+      "file": "prednisolone_acetate.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Prednisone",
+      "file": "prednisone.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Pregabalin",
+      "file": "pregabalin.md",
+      "evidence_level": "L5",
+      "indication_count": 6,
       "predicted_indication": ""
     }
   ]
