@@ -2,7 +2,7 @@
 layout: default
 title: Menthol
 parent: 僅模型預測 (L5)
-nav_order: 384
+nav_order: 412
 evidence_level: L5
 indication_count: 0
 ---

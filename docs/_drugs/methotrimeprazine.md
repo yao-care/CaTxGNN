@@ -2,7 +2,7 @@
 layout: default
 title: Methotrimeprazine
 parent: 僅模型預測 (L5)
-nav_order: 387
+nav_order: 415
 evidence_level: L5
 indication_count: 7
 ---

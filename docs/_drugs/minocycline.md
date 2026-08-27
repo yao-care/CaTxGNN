@@ -2,7 +2,7 @@
 layout: default
 title: Minocycline
 parent: 僅模型預測 (L5)
-nav_order: 399
+nav_order: 427
 evidence_level: L5
 indication_count: 2
 ---
