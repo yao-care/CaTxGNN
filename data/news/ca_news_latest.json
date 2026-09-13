@@ -1,72 +1,71 @@
 {
-  "fetched_at": "2026-09-13T10:46:36.747803",
+  "fetched_at": "2026-09-13T15:16:17.147644",
   "statistics": {
-    "total_fetched": 72,
-    "relevant": 26,
+    "total_fetched": 68,
+    "relevant": 23,
     "by_source": {
+      "The Conversation": 1,
+      "canada.ca": 3,
+      "Toronto Star": 1,
+      "cigionline.org": 1,
+      "Global News": 1,
+      "Canadian Medical Association | CMA": 4,
       "CBC": 5,
-      "canada.ca": 2,
-      "Global News": 2,
-      "Centre for International Governance Innovation": 1,
-      "cma.ca": 4,
+      "CUPE": 1,
       "Inside Halton": 2,
-      "cupe.ca": 1,
-      "loblaw.ca": 1,
-      "Substack": 1,
-      "C.D. Howe Institute": 1,
+      "Loblaw Companies": 1,
       "Medicine Hat News": 1,
-      "insauga.com": 1,
       "med.ubc.ca": 1,
+      "INsauga": 1,
       "CityNews Toronto": 1,
-      "604 Now": 1,
-      "University of Toronto": 1,
-      "McGill University": 1,
-      "CTV News": 4,
+      "CMAJ | Journal": 1,
+      "CTV News": 3,
       "Generics and Biosimilars Initiative": 1,
-      "Lexpert": 1,
-      "fasken.com": 2,
+      "lexpert.ca": 1,
+      "Fasken": 2,
       "WestCentralOnline": 1,
-      "Radio-Canada": 2,
+      "Radio-Canada": 3,
       "Policy Alternatives": 3,
-      "The Globe and Mail": 5,
+      "The Globe and Mail": 4,
+      "604 Now": 1,
       "hospitalnews.com": 1,
       "Unity Health Toronto": 1,
       "Canadian Plastics": 1,
       "rbc.com": 1,
-      "hamiltonhealthsciences.ca": 1,
-      "The Record from Recorded Future News": 1,
+      "Hamilton Health Sciences": 1,
+      "therecord.media": 1,
       "Financial Post": 1,
       "Northumberland Hills Hospital": 1,
       "IQAir": 1,
-      "CMAJ | Journal": 1,
       "GlobeNewswire": 1,
       "munichre.com": 1,
-      "sencanada.ca": 1,
+      "SenCanada.ca": 1,
+      "PR Newswire Canada": 1,
       "TVA Nouvelles": 1,
       "Le Journal de Montréal": 1,
       "Business of Cannabis": 1,
       "CP24": 1,
       "24heures.ca": 1,
       "iris-recherche.qc.ca": 1,
-      "BioSpace": 1,
-      "biomb.ca": 1,
+      "biospace.com": 1,
       "Pharmaceutical Technology": 1,
+      "biomb.ca": 1,
       "The Hill Times": 1,
-      "Yahoo News Canada": 1,
-      "WXII": 1,
-      "BNN Bloomberg": 1
+      "Yahoo News Canada": 1
     }
   },
   "articles": {
     "all": [
       {
-        "title": "Provinces are turning to U.S. health-care workers to help with shortages. And it’s working - CBC",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaWtmdVU3cFl1ejNHUGVUbkp3dnBJMm1PckRQMVY1VU9CNmlOal9yXzM2RGlVNEhERGJTak1lTEVoUnp6Zi1GZkxNTEZBZkdTQVhKcVRhbVpULXZKQWFBM1B3bGRwbV9XcU0yTVZIQ0t1YnZiMERFM3VYNkdwczU4SVJoQm9zY2ppU2V3S3U4Z2FFZw?oc=5",
-        "source": "CBC",
-        "published_date": "Sun, 13 Sep 2026 08:00:00 GMT",
+        "title": "Canada’s new strategy won’t solve food insecurity or the health issues it creates - The Conversation",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQanhKaW9qU3RiYmJ4LXcta045YXpRNnZjdk96bi1HWVVsTmpMbFZVTkI5T1RSdm9WcXZFamJoX1d0NmpqUnZGc3VRTFpjTDMwTnBfMXFXd0FWaUx6YU81S2NUN3NpRmRPTkpENno2NUVGa3RLU0pfY254Y1JSenZtM2gwaDNOTE9Vdks0Qk1zNVpJNW5qSTdDQzlsWXJ2alV0STF6dTI2Yy16UWdRUHdmXzk1UmM?oc=5",
+        "source": "The Conversation",
+        "published_date": "Sun, 13 Sep 2026 12:06:15 GMT",
         "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.435498"
+        "keywords": [
+          "rheumatoid arthritis"
+        ],
+        "fetched_at": "2026-09-13T15:16:13.993981"
       },
       {
         "title": "Message from the Minister of Health on World Suicide Prevention Day - canada.ca",
@@ -75,7 +74,27 @@
         "published_date": "Thu, 10 Sep 2026 14:01:05 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.435533"
+        "fetched_at": "2026-09-13T15:16:13.994027"
+      },
+      {
+        "title": "This cancer drug is saving lives. It’s also threatening to break Canadian health-care budgets - Toronto Star",
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPVEFJZk1VbHFSc00yWHZ3ZkVUZUUtajAzWnFaS2JjRXNtWDYyb085UVk1bFlEOFlralcyUHN2blh2R25VZ2tEYnZzd2lYVTdTVDlMX3lrbG5iWHI1d1o4SVVfc1ZMQ04xbDB6ODI0cy0wT01QbTBjVWZSaGtDMTM0a0hNaGRHb1VQa0JEeU1Cdzg1bTI3R0E3TzIwQjlHLXZWczZXRnU0d3FyODRiYmNzbFV6eHlON3pWaVhIRGRhd3ByY0VNTWtyQVZYeEdYVkV1SlF4LTdvUHhGWDNQX0Q4NjRyMWFONEEzRHFvcDNQZFJSb3o0R2VaWjg0TmxFcWtQV0hRRzFaZkxRbXZLXzlvYlQ1NTA?oc=5",
+        "source": "Toronto Star",
+        "published_date": "Sun, 13 Sep 2026 11:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:13.994073"
+      },
+      {
+        "title": "Canada’s AI Strategy for Health Care Won't Work without Oversight to Match - cigionline.org",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbWdKSWJvdzhyNEZwV1pXUW5ZaENQclBtaWZ3bHBWS0FJRzZCMmZEQmpVYnlBZ2pBcWJ2YVNLXzF0OHJZUURNZmY2YllLcVFsX25oWDRxY01BRXZ4dmVvd2otUG5lNVRUdDZLcTA0SHBoMi10T0hOODU4VmpwMW52TkxPQUl0UmZ1RE9NLTVqX01nZ21TWGU5ZDFnaHNLMEFtb2R6alpleTFRYzRncHc?oc=5",
+        "source": "cigionline.org",
+        "published_date": "Thu, 10 Sep 2026 13:00:00 GMT",
+        "summary": null,
+        "keywords": [
+          "rheumatoid arthritis"
+        ],
+        "fetched_at": "2026-09-13T15:16:13.994112"
       },
       {
         "title": "Health Canada is recalling this generic acetaminophen - Global News",
@@ -86,27 +105,36 @@
         "keywords": [
           "acetaminophen"
         ],
-        "fetched_at": "2026-09-13T10:46:33.435557"
+        "fetched_at": "2026-09-13T15:16:13.994145"
       },
       {
-        "title": "Canada’s AI Strategy for Health Care Won't Work without Oversight to Match - Centre for International Governance Innovation",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbWdKSWJvdzhyNEZwV1pXUW5ZaENQclBtaWZ3bHBWS0FJRzZCMmZEQmpVYnlBZ2pBcWJ2YVNLXzF0OHJZUURNZmY2YllLcVFsX25oWDRxY01BRXZ4dmVvd2otUG5lNVRUdDZLcTA0SHBoMi10T0hOODU4VmpwMW52TkxPQUl0UmZ1RE9NLTVqX01nZ21TWGU5ZDFnaHNLMEFtb2R6alpleTFRYzRncHc?oc=5",
-        "source": "Centre for International Governance Innovation",
-        "published_date": "Thu, 10 Sep 2026 13:00:00 GMT",
+        "title": "What's the Canadian Dental Care Plan and who qualifies? - Canadian Medical Association | CMA",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeGJjOC1kWlFXX19ESDJQb1l4d0Iwdnc2UGhtYlVJVm1wWjNveG5yaXctbkloM3MyeDFyLTFNNTFNaGJfemszME8tXzZPNE9HclFnY0lHNXN5MGNUOTV1OXlHaFROaklyX2pvREg4Y3c0eUVaZENzWFhyeU1HTUhzTjdIV1huUC0xbndxSEtpOW5sZw?oc=5",
+        "source": "Canadian Medical Association | CMA",
+        "published_date": "Wed, 09 Sep 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:13.994179"
+      },
+      {
+        "title": "Health study begins examining potential oilsands impacts on Fort Chipewyan - CBC",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM0JHSmRhSHFKU0hKS1pvZ2lNdGVhaGREWWg1T1hNZ0lwMFN6TzlDWFJ3bzhFRlNIRm96TzVJZlZ1a0RqVFNiOFhSNlR1Vk1VZ0tpNUhSN3BPS29KTVBzQXFWYzdhZWppYnpQQ1ZUWC1oWTNwNzVHcmhaYzFzUnhZaDdSZVMwdHhCLVBISk5HcUNudUJnNWJ2R2N3?oc=5",
+        "source": "CBC",
+        "published_date": "Thu, 10 Sep 2026 13:50:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:13.994211"
+      },
+      {
+        "title": "CUPE pushes to strengthen workers’ rights in submission to upcoming 2026 Federal budget - CUPE",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkZWdy1ObEdkcjNRVTFpTEU0eU9MUkozakd3dlJEQm0waHlRZjdqUndnY1BHM3FCMWZsMV9DMUZ1OHdqRG4zTUkwNWVBOGZXaU10MHlqMXBoeHo2LW5fRWtSdWpaWVB4TS1vT215NHZhVWpXOTl6c1lJdEw4U3cwcDNkTGdNVVV6bmFFTWlFUUNYMXlrN1FRemZrdlJGcFE?oc=5",
+        "source": "CUPE",
+        "published_date": "Thu, 10 Sep 2026 16:10:04 GMT",
         "summary": null,
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:33.435593"
-      },
-      {
-        "title": "What's the Canadian Dental Care Plan and who qualifies? - cma.ca",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeGJjOC1kWlFXX19ESDJQb1l4d0Iwdnc2UGhtYlVJVm1wWjNveG5yaXctbkloM3MyeDFyLTFNNTFNaGJfemszME8tXzZPNE9HclFnY0lHNXN5MGNUOTV1OXlHaFROaklyX2pvREg4Y3c0eUVaZENzWFhyeU1HTUhzTjdIV1huUC0xbndxSEtpOW5sZw?oc=5",
-        "source": "cma.ca",
-        "published_date": "Wed, 09 Sep 2026 07:00:00 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.435631"
+        "fetched_at": "2026-09-13T15:16:13.994255"
       },
       {
         "title": "Acetaminophen, gas ranges, kitchen stools and more: New drug and product recalls Ontario shoppers should know - Inside Halton",
@@ -118,54 +146,25 @@
           "rheumatoid arthritis",
           "acetaminophen"
         ],
-        "fetched_at": "2026-09-13T10:46:33.435661"
+        "fetched_at": "2026-09-13T15:16:13.994292"
       },
       {
-        "title": "CUPE pushes to strengthen workers’ rights in submission to upcoming 2026 Federal budget - cupe.ca",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkZWdy1ObEdkcjNRVTFpTEU0eU9MUkozakd3dlJEQm0waHlRZjdqUndnY1BHM3FCMWZsMV9DMUZ1OHdqRG4zTUkwNWVBOGZXaU10MHlqMXBoeHo2LW5fRWtSdWpaWVB4TS1vT215NHZhVWpXOTl6c1lJdEw4U3cwcDNkTGdNVVV6bmFFTWlFUUNYMXlrN1FRemZrdlJGcFE?oc=5",
-        "source": "cupe.ca",
-        "published_date": "Thu, 10 Sep 2026 16:10:04 GMT",
-        "summary": null,
-        "keywords": [
-          "rheumatoid arthritis"
-        ],
-        "fetched_at": "2026-09-13T10:46:33.435692"
-      },
-      {
-        "title": "PC Health puts trusted health answers within reach - loblaw.ca",
+        "title": "PC Health puts trusted health answers within reach - Loblaw Companies",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPemktcGJ6SWFodUlyeEQyVlZmR2dIT0FzWm5PbGE0UGpZSXhQekQ1WC03ODZVU0lnZTBBWkNocVpEQVJsWnAxU2N4Y0kzWk1TSVA0SVNzWDJaUkNUaHRnc2wyaGxKYzZjRFZYYkNfRTNqdENudUZBdDN0MjdqYmRRMVV3?oc=5",
-        "source": "loblaw.ca",
+        "source": "Loblaw Companies",
         "published_date": "Thu, 10 Sep 2026 11:01:04 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.435723"
+        "fetched_at": "2026-09-13T15:16:13.994322"
       },
       {
-        "title": "Nenshi delivers health care pitch days before Calgary-Shaw by-election - Substack",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11bVE2YWYwVXZxeW1GRVR2YVN3WmtTak9vSzdtdEMweGxXOWxnaVRxNXBHblVDdmVLdjJxWWIxWW4xVGc3TmtNOExVazh4VVJNSzFEUFoxTDdOR0xGVnR1WU9OX1U5RHN0ZEI5TWkwZGpkeUUy?oc=5",
-        "source": "Substack",
-        "published_date": "Sat, 12 Sep 2026 20:57:20 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.435753"
-      },
-      {
-        "title": "Canada Built the AI. Now Build the Market. - C.D. Howe Institute",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KcjZyVmhFSEMyeWZnZVhmNWl2T3pJTUtQMWxCeGYybkhLRTBfT2QwWmZwbjZUUjdDeGNJSHY3SVVpS3YwVkNYT2l2SnRSMjVzbkg1UHJvSnVkdnpOUUJnWWZ3MFpKWW0yQmFDcWl1bUVnYlBsY19LV2IxeG0?oc=5",
-        "source": "C.D. Howe Institute",
-        "published_date": "Tue, 08 Sep 2026 12:30:51 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.435780"
-      },
-      {
-        "title": "Can you get GLP‑1 drugs in Canada? | CMA - cma.ca",
+        "title": "Can you get GLP‑1 drugs in Canada? | CMA - Canadian Medical Association | CMA",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5McE40YUNsTXlSdTdWRGw5YVdOdTVYRHpsT1hIUm1mTXV3STRHT21JNWJYeWdEQ1NzUm8yOXBoNDVWbEZiS0JzSWI1UTNoOFdyYzRYUldBRFVkNlpQWVd6bGkzY0lVVmNGYURFU1RZQVJTSXNuY2kzTw?oc=5",
-        "source": "cma.ca",
+        "source": "Canadian Medical Association | CMA",
         "published_date": "Wed, 09 Sep 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.925213"
+        "fetched_at": "2026-09-13T15:16:14.461634"
       },
       {
         "title": "Unbeaten Canada bumps off Puerto Rico in men’s continental volleyball championship - Medicine Hat News",
@@ -174,16 +173,7 @@
         "published_date": "Sun, 13 Sep 2026 02:02:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.925255"
-      },
-      {
-        "title": "Recall: Popular medicine pulled from shelves in Canada - insauga.com",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObG9DV256SGUwejBiSHdCQW1wX1dhUWp0bm11eFl2T2IyZ3RXd283X0JNRzFzWlFya0JNdEFxTVpRRlp2ZWNFSUx5bXRGdjB2Qkc5TG5uVWFhN1VJcDZBVC1LNk5hdnhoUFJrMXR3dkxwM3VLa3dsc2tYLWpOQW5RM0p4Yzc?oc=5",
-        "source": "insauga.com",
-        "published_date": "Fri, 11 Sep 2026 17:50:35 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.925281"
+        "fetched_at": "2026-09-13T15:16:14.461733"
       },
       {
         "title": "UBC Medicine welcomes three world-renowned scientists appointed Eddie Goldenberg Research Chairs of Canada - med.ubc.ca",
@@ -192,25 +182,16 @@
         "published_date": "Thu, 03 Sep 2026 22:46:12 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.925311"
+        "fetched_at": "2026-09-13T15:16:14.461774"
       },
       {
-        "title": "How do I become a doctor in Canada? - cma.ca",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9idnhzQ3ktcFY2RUVpWnVUaDVEWEotQTZ6TE02SHU1TDgyVVBzakFBMFp6dE9idmx6OWRWRlRNaGcwMGh0UW5yV2VZaFlHTTUtX25hOG9GTGpybzFGNHctX1B1ZnNEaHd4dlRWZ2cxRG5saVNOMk1z?oc=5",
-        "source": "cma.ca",
-        "published_date": "Wed, 09 Sep 2026 07:00:00 GMT",
+        "title": "Recall: Popular medicine pulled from shelves in Canada - INsauga",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObG9DV256SGUwejBiSHdCQW1wX1dhUWp0bm11eFl2T2IyZ3RXd283X0JNRzFzWlFya0JNdEFxTVpRRlp2ZWNFSUx5bXRGdjB2Qkc5TG5uVWFhN1VJcDZBVC1LNk5hdnhoUFJrMXR3dkxwM3VLa3dsc2tYLWpOQW5RM0p4Yzc?oc=5",
+        "source": "INsauga",
+        "published_date": "Fri, 11 Sep 2026 17:50:35 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.925332"
-      },
-      {
-        "title": "Alberta First Nation wants to set up safe haven for gender-affirming care - CBC",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT0JiWjlZVHc1Y1VmM3ZvRWVGcE1EcUlPeksyLWxfYVgzdmItMGNPTjFkSlJSbF9feG1kLVFzdlZNcExKdFY0d0Rjc2pBMU9va1lEXzFiRDJJaTdKZlJEbl9jcnVvY254ZkQ3ZWhKS01RcnlGU05BczFVdVIwNW9Uc1ZJcjJ0VHN4QTBjcmttNGZNeVdCYmdpY3ZaZzM4ZnpuY21qQnNpVEh5aU5IYno1QlExZ2lKaXVQbkZmMnJ1Z3E?oc=5",
-        "source": "CBC",
-        "published_date": "Thu, 10 Sep 2026 22:05:07 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.925356"
+        "fetched_at": "2026-09-13T15:16:14.461805"
       },
       {
         "title": "EXCLUSIVE: U.S. policy compelling some drug companies to stall medicine rollouts in Canada - CityNews Toronto",
@@ -219,38 +200,43 @@
         "published_date": "Mon, 17 Aug 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.925383"
+        "fetched_at": "2026-09-13T15:16:14.461840"
       },
       {
-        "title": "‘Immediately Stop Using’: Health Canada Issues Recall For Medicine Sold Across Country - 604 Now",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mRG1ubzNBaklVMGNxT2R0UkViQUM2STZKRmdzSnRCQVN0MEFyWjczYk85bDFzU2UwVHhPdmRzaDdNT1RkQi1uaGt6dG9nRnJpZ2NsTTRhTmQ0UUpOMnBlSmo0QUlUa21MalFKTEEtRTk?oc=5",
-        "source": "604 Now",
-        "published_date": "Fri, 11 Sep 2026 16:57:57 GMT",
+        "title": "Emergency physician burnout and attrition in Canada: a longitudinal study - CMAJ | Journal",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2MEdZeVdrallXYl9qa0RWQzZ1UWlrTVlGMmFDWGpJS2R5c01RODJ4THRmZ000SFJXR0l0YXVJYjYxcFd1dm5NWXBSNE9DeU1xc2c?oc=5",
+        "source": "CMAJ | Journal",
+        "published_date": "Mon, 27 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:33.925414"
+        "fetched_at": "2026-09-13T15:16:14.461872"
       },
       {
-        "title": "‘Canada’s innovation advantage’: 6 leading researchers join U of T via federal initiative to draw world-class talent - University of Toronto",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM28zYnFINkJIMlY5ak0tMDRmZGpZNW1OTXVSVkxWS2d0U0ZmNGl5Sm9VTkE5STRTenlaa1I2TkM4QzVSOVNFREZ6NlN5bWM5WDAwMHN0YkNVc2lYSjhBWFBETnRndzNNUVB0NkhRbGtGNFZlbEJRQWtSTXFpaU1TWEtFYU9ja0ZKNWwzajJWWm4za2lvVzRhN1lIUkk5MUV4X0xRQXdBQ1FrakxmZGRWOFpjS2Qwa284SnFj?oc=5",
-        "source": "University of Toronto",
-        "published_date": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "title": "How do I become a doctor in Canada? - Canadian Medical Association | CMA",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9idnhzQ3ktcFY2RUVpWnVUaDVEWEotQTZ6TE02SHU1TDgyVVBzakFBMFp6dE9idmx6OWRWRlRNaGcwMGh0UW5yV2VZaFlHTTUtX25hOG9GTGpybzFGNHctX1B1ZnNEaHd4dlRWZ2cxRG5saVNOMk1z?oc=5",
+        "source": "Canadian Medical Association | CMA",
+        "published_date": "Wed, 09 Sep 2026 07:00:00 GMT",
         "summary": null,
-        "keywords": [
-          "rheumatoid arthritis"
-        ],
-        "fetched_at": "2026-09-13T10:46:33.925450"
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:14.461901"
       },
       {
-        "title": "McGill University attracts six leading researchers thanks to Government of Canada’s $1 billion program | Newsroom - McGill University",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX3RpcWZhWm5RTUZCVTFWMV9rcnpmTnZvb1hUYnJEZVVrb1FzTllpQWtUaUpPNGswOXVHN2xQcTZFd25ycXVoWkVIZTczU2pqVmdhcFRkbUtxcFR4T3dRbDVkXzN2Zi1NVVFQbzFqdW1rTXRaaVdXdVZKSEhVbmpmU0tuZWs1S3dhcURzdmd4cVh1dWo3LUVFZWZweTdjWVRqN2VXajhQZXI0RWJrWVo0andvTWRzYWFSM1hidzVQWlI0bDJ6XzlHRmQtelB1STNReGVoNk91Q3FYZ1BEM25N?oc=5",
-        "source": "McGill University",
-        "published_date": "Mon, 31 Aug 2026 07:00:00 GMT",
+        "title": "Alberta First Nation wants to set up safe haven for gender-affirming care - CBC",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT0JiWjlZVHc1Y1VmM3ZvRWVGcE1EcUlPeksyLWxfYVgzdmItMGNPTjFkSlJSbF9feG1kLVFzdlZNcExKdFY0d0Rjc2pBMU9va1lEXzFiRDJJaTdKZlJEbl9jcnVvY254ZkQ3ZWhKS01RcnlGU05BczFVdVIwNW9Uc1ZJcjJ0VHN4QTBjcmttNGZNeVdCYmdpY3ZaZzM4ZnpuY21qQnNpVEh5aU5IYno1QlExZ2lKaXVQbkZmMnJ1Z3E?oc=5",
+        "source": "CBC",
+        "published_date": "Thu, 10 Sep 2026 22:05:07 GMT",
         "summary": null,
-        "keywords": [
-          "rheumatoid arthritis"
-        ],
-        "fetched_at": "2026-09-13T10:46:33.925485"
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:14.461931"
+      },
+      {
+        "title": "Government of Canada announces additional investment to support the Canadian Critical Drug Initiative - canada.ca",
+        "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOMUlMLWlpVHY5ZWxMU3VSWFQwaHhVS2NVQkxhQmtUenZscGFYWW4xUFNvWG5nZGJZSTcydnpaQnJVdDNVMmpTY2lnazBIbUtTRjlHZWJhUkNFRGpoY3Z4VW5CcllwSU13NDhIY3lyOGdULWIxUXNiTDJsNVBERE9TOGotRmQtam9EM3plWkk5MmpnMENMUmNSdGZLTmpwWlZJOFZDM3JVVm9rWGNEUFVjVmxwaFp3WWJLejV1cndETUdyRnMwSWR0UGliZUdSYUVlYndwaWpkRmZNNUNzRkpsSG9TVWY1QnBUTW9zYTJUZGlsdW44bElKM21FTUpkLThGTjdVLQ?oc=5",
+        "source": "canada.ca",
+        "published_date": "Fri, 10 Apr 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:14.461967"
       },
       {
         "title": "Health Canada approves drug that treats hot flashes for use by breast cancer patients - CTV News",
@@ -261,7 +247,7 @@
         "keywords": [
           "breast cancer"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381570"
+        "fetched_at": "2026-09-13T15:16:14.974017"
       },
       {
         "title": "Canada eliminates phase III trial requirement for biosimilar approvals - Generics and Biosimilars Initiative",
@@ -270,27 +256,27 @@
         "published_date": "Tue, 25 Aug 2026 15:19:31 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:34.381652"
+        "fetched_at": "2026-09-13T15:16:14.974091"
       },
       {
-        "title": "Biosimilars gain ground as Health Canada streamlines approval process - Lexpert",
+        "title": "Biosimilars gain ground as Health Canada streamlines approval process - lexpert.ca",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUVJRUUU0TklLZ08tXzdUNGIwQkoxY0dTRHNXVnV6Wk5ReHpsZ2hCNW5VbnZ1ejRyczdVQkc1bXpCZFpiSTVXSlNDZHVVcHg2MkFNYWlvdEdrM1FwMkFWcVZ0UC0yUUxpZUJhekJieVlDLWw2ZXVmZVVHWmw5VF9rM2Q2R2ZZdnRYOFp6NEJiaVlyYU9WbU96RHViXzhaNGdpQVVtRVZmdkRKSFprQUl2bDE2R1lfY1VrWnhySnpBdGlEZw?oc=5",
-        "source": "Lexpert",
+        "source": "lexpert.ca",
         "published_date": "Wed, 08 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:34.381677"
+        "fetched_at": "2026-09-13T15:16:14.974123"
       },
       {
-        "title": "Health Canada’s New Draft Guidance on Foreign Regulatory Reliance for Certain Drugs - fasken.com",
+        "title": "Health Canada’s New Draft Guidance on Foreign Regulatory Reliance for Certain Drugs - Fasken",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdkx4ZEJFbk93UW96QjRVMFlCOW8yMmR0VUREMTVPSGNpdldNeDg5eVF2bGt6QmxNSUFIYlBoU1F5WVNCSUdmSi1zM0pDVTlUWV9XRjF6YXVuQ2twU2picVEwNm04TU95aDZpakJIaFktMG9jVEg0VHFmcE04cnIwNjNZYVQ3UkxXTlRzaTAtTVlFaExVS3BqYWVQY2N3TWxhNF9LTWw3bFpXakE5eXZJa0VBekZBY1MySTkyXzkxMl9EWE9W?oc=5",
-        "source": "fasken.com",
+        "source": "Fasken",
         "published_date": "Fri, 17 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381710"
+        "fetched_at": "2026-09-13T15:16:14.974165"
       },
       {
         "title": "Health Canada moves to speed approvals for drugs and medical devices - WestCentralOnline",
@@ -301,7 +287,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381735"
+        "fetched_at": "2026-09-13T15:16:14.974198"
       },
       {
         "title": "Weight-loss drug approved to treat sleep apnea in Canada - Radio-Canada",
@@ -312,7 +298,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381757"
+        "fetched_at": "2026-09-13T15:16:14.974228"
       },
       {
         "title": "The federal government is prioritizing Canada’s pharma company profits - Policy Alternatives",
@@ -323,7 +309,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381788"
+        "fetched_at": "2026-09-13T15:16:14.974270"
       },
       {
         "title": "Despite approval from Health Canada, delay in cancer drug funding leaves patients in limbo - The Globe and Mail",
@@ -332,7 +318,7 @@
         "published_date": "Tue, 30 Jun 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:34.381815"
+        "fetched_at": "2026-09-13T15:16:14.974304"
       },
       {
         "title": "Generic acetaminophen pills recalled due to possible 'foreign material' contamination - CBC",
@@ -343,16 +329,7 @@
         "keywords": [
           "acetaminophen"
         ],
-        "fetched_at": "2026-09-13T10:46:34.805799"
-      },
-      {
-        "title": "Unauthorized drugs seized from Montreal store by Health Canada - Global News",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZncwWVhObzNOVzNMMzMwLVF0TmN6X0lsSHgtNmpBWTQ3STJ6RkhPMG9ZLXIxckJIUmFzazFzQVZrVzJCRVZfX25LZUdzQlZjQkh2aXhxVjFsV3RRLXN3dW44MzNHSDRhZE9NM2Q2dGVLT1c0NEphaGJ4aUw4Yi11cHNBOHpCUUdtemRhVDd3?oc=5",
-        "source": "Global News",
-        "published_date": "Tue, 18 Aug 2026 07:00:00 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:34.805825"
+        "fetched_at": "2026-09-13T15:16:15.411525"
       },
       {
         "title": "Health Canada backlog of generic drug applications doubled over past year - The Globe and Mail",
@@ -361,7 +338,7 @@
         "published_date": "Wed, 05 Aug 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:34.805851"
+        "fetched_at": "2026-09-13T15:16:15.411589"
       },
       {
         "title": "Acetaminophen distributed in Canada has been recalled - Inside Halton",
@@ -372,7 +349,16 @@
         "keywords": [
           "acetaminophen"
         ],
-        "fetched_at": "2026-09-13T10:46:34.805875"
+        "fetched_at": "2026-09-13T15:16:15.411621"
+      },
+      {
+        "title": "‘Immediately Stop Using’: Health Canada Issues Recall For Medicine Sold Across Country - 604 Now",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mRG1ubzNBaklVMGNxT2R0UkViQUM2STZKRmdzSnRCQVN0MEFyWjczYk85bDFzU2UwVHhPdmRzaDdNT1RkQi1uaGt6dG9nRnJpZ2NsTTRhTmQ0UUpOMnBlSmo0QUlUa21MalFKTEEtRTk?oc=5",
+        "source": "604 Now",
+        "published_date": "Fri, 11 Sep 2026 16:57:57 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:15.411703"
       },
       {
         "title": "‘Reduce red tape’: Health Canada order to expedite drug approvals - CTV News",
@@ -381,16 +367,16 @@
         "published_date": "Thu, 16 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:34.805993"
+        "fetched_at": "2026-09-13T15:16:15.411772"
       },
       {
-        "title": "Why do doctors work at more than one hospital? - cma.ca",
+        "title": "Why do doctors work at more than one hospital? - Canadian Medical Association | CMA",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOF9HTjd0bjcxV2FuNVpJb2dpWmVuX2lVZWtacWNhM0RLMW8wYWxQblZSdXIydW5UQlJjWEgwdi1adUtYVTBBTnUxckJsVHI3d2plUWQwdlNhOTZHMF85S19ndG5GWkh6Tk8zUENOWkNYaHRsdk5XWEJYUzI2VlNRemtJdVN0anJtRW0zb2NiODVwNk9ISmpDa0x6bUxYeUZMY2pDTg?oc=5",
-        "source": "cma.ca",
+        "source": "Canadian Medical Association | CMA",
         "published_date": "Fri, 21 Aug 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414338"
+        "fetched_at": "2026-09-13T15:16:15.862249"
       },
       {
         "title": "Hospitals should be part of Canada’s buy-Canadian strategy - hospitalnews.com",
@@ -401,7 +387,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:35.414384"
+        "fetched_at": "2026-09-13T15:16:15.862300"
       },
       {
         "title": "Healthcare leaders from across Canada gather at St. Michael’s Hospital for launch of Vital, a national health data platform - Unity Health Toronto",
@@ -410,7 +396,7 @@
         "published_date": "Thu, 25 Jun 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414427"
+        "fetched_at": "2026-09-13T15:16:15.862368"
       },
       {
         "title": "Flexahopper Donates To Alberta Cardiac Hospital - Canadian Plastics",
@@ -419,7 +405,7 @@
         "published_date": "Tue, 25 Aug 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414453"
+        "fetched_at": "2026-09-13T15:16:15.862402"
       },
       {
         "title": "How RBC is investing $30 million to help strengthen Canadian healthcare - rbc.com",
@@ -428,25 +414,25 @@
         "published_date": "Fri, 29 May 2026 20:40:01 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414479"
+        "fetched_at": "2026-09-13T15:16:15.862434"
       },
       {
-        "title": "World-first burn treatment with “absolutely remarkable” results performed at leading Canadian hospital - hamiltonhealthsciences.ca",
+        "title": "World-first burn treatment with “absolutely remarkable” results performed at leading Canadian hospital - Hamilton Health Sciences",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPelZFakRMcEI4U194MXp6VU1rOUNfUkhUeE1RMkRyaV9ycmFRbmRwdURtZ0c3anpVYzVyYkpZTGVabzIyVVp4NkozZHN6eHBZS0N0YW5UbkkyNWQ5clNzNVo3clZmOTNTY2RrWUZDcDQxUWNvejA3aXZUc18zZTRvUQ?oc=5",
-        "source": "hamiltonhealthsciences.ca",
+        "source": "Hamilton Health Sciences",
         "published_date": "Mon, 15 Jun 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414519"
+        "fetched_at": "2026-09-13T15:16:15.862480"
       },
       {
-        "title": "Canada’s Hospital for Sick Children attacked by cybercriminals again as employee data stolen - The Record from Recorded Future News",
+        "title": "Canada’s Hospital for Sick Children attacked by cybercriminals again as employee data stolen - therecord.media",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdDEzVUJLVExfSUdwMlRTbkpXR1FRTjdBaFZoaTZCRm84OEUxVUd2UmR4WVI3UkxIQ3Rwa19IUDN1eTJRTnlfYlVGeGFaeTRTa1hVaXBVcVg0Sm90c2NPUTFCR0FMYmd5OU1FYkhqeWtSTkdIZDZzV2dfZ2Z2Q093X1c0eVpSQW9LZzRMNE9Fcw?oc=5",
-        "source": "The Record from Recorded Future News",
+        "source": "therecord.media",
         "published_date": "Fri, 21 Aug 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414556"
+        "fetched_at": "2026-09-13T15:16:15.862522"
       },
       {
         "title": "Opinion: Canada's hospitals do poorly in online reviews - Financial Post",
@@ -455,7 +441,7 @@
         "published_date": "Thu, 30 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414580"
+        "fetched_at": "2026-09-13T15:16:15.862554"
       },
       {
         "title": "1 in 10 emergency physicians leaving Canadian ERs, national survey suggests - CBC",
@@ -464,7 +450,7 @@
         "published_date": "Mon, 27 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414606"
+        "fetched_at": "2026-09-13T15:16:15.862586"
       },
       {
         "title": "Northumberland Hills Hospital awarded ‘Exemplary Standing’ from Accreditation Canada for the second consecutive time - Northumberland Hills Hospital",
@@ -473,7 +459,7 @@
         "published_date": "Tue, 21 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.414659"
+        "fetched_at": "2026-09-13T15:16:15.862634"
       },
       {
         "title": "Air quality in Cap-Sante - IQAir",
@@ -482,30 +468,18 @@
         "published_date": "Fri, 11 Sep 2026 11:54:21 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.860992"
+        "fetched_at": "2026-09-13T15:16:16.322857"
       },
       {
-        "title": "Invisible threat on ice: 4 youth hockey teams’ exposure to carbon monoxide - CMAJ | Journal",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xUFF0UFBOVGI0UXlIRFM1ODRVRlFIanNZZTBXSVpoRnFJS3hkVzlSUERrS2lDSlg1bDl5U20xemdWbWxiaC15MzUzWmVpQWs3a0E?oc=5",
-        "source": "CMAJ | Journal",
-        "published_date": "Tue, 08 Sep 2026 12:09:14 GMT",
+        "title": "As 1st election debate approaches, Quebec party leaders talk transport, health - CBC",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTVJ1eUpjYlpFN2pJNUJMY2ZMaE5Yb01SQmFpNWxlaDdUUzI2Z2o4cGtWT0lOckduN2VZTlNZSGNUaURhTXh6akd1NV90STlSN3luN2wxdTVUQ3R1d25OdU5qVVRfUnYzOEhrbmtPdm9IZ0tPOEZZX2xxR2h3Z1BRc1kydDNvQXYyMHlFSGRRX1k5VG9TcFFleFNDaXlaVFhjQU1veU9vQk1PR3c?oc=5",
+        "source": "CBC",
+        "published_date": "Sat, 12 Sep 2026 22:12:07 GMT",
         "summary": null,
         "keywords": [
-          "multiple sclerosis"
+          "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:35.861037"
-      },
-      {
-        "title": "Quebec party leaders talk transport, health care on campaign trail as first debate looms - The Globe and Mail",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM0R3U3RibE5YbzE0Nnp2UW43TzNSODdiaTBScFVSVnRpbm5DRGI5SGlxZDRSYnNJbmZSY3F0M1gySnBlR0NCcGFmcXMwRDVSMVZ2alFGVWNrVzFuZEFPZnRvc3NrVWJCazJNUnphcVpza3hLMlNJVGw2NHVFZDZNUkgzdzQ5LTctUUZRWnhiSU1hOHcwZmZ5WVZqQ01Gd25iTlItbTdLTGd6ZzN5VllOaUdaOWhKZ1h0?oc=5",
-        "source": "The Globe and Mail",
-        "published_date": "Sat, 12 Sep 2026 22:26:33 GMT",
-        "summary": null,
-        "keywords": [
-          "rheumatoid arthritis",
-          "multiple sclerosis"
-        ],
-        "fetched_at": "2026-09-13T10:46:35.861066"
+        "fetched_at": "2026-09-13T15:16:16.322900"
       },
       {
         "title": "The Government of Canada introduces legislation to build a more connected health care system - canada.ca",
@@ -514,7 +488,7 @@
         "published_date": "Wed, 04 Feb 2026 08:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.861095"
+        "fetched_at": "2026-09-13T15:16:16.322938"
       },
       {
         "title": "Health questions? “Ask Away.” PC Health™ launches new “Built in Canada for Canadians” AI-powered health chat - GlobeNewswire",
@@ -523,16 +497,7 @@
         "published_date": "Thu, 10 Sep 2026 10:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.861131"
-      },
-      {
-        "title": "Sudbury researchers calling for more supports to prevent nurse suicide - CBC",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5feUVPV0JVd1Bza2dSWldKNFVjRER2YjhNd0E1dS10N0NQazU3Z0F3YmhIQmlwVDc3YjgyWl9qTGRfcXlvZmVremRpWW1yWU5yOHRXUHl2by1YajVRcEdSN1kwdW5CeUU4Rnl1VTMyTFp6ZmlIRlFlUTR3?oc=5",
-        "source": "CBC",
-        "published_date": "Fri, 11 Sep 2026 22:16:23 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.861155"
+        "fetched_at": "2026-09-13T15:16:16.322986"
       },
       {
         "title": "Public versus private health care spending in Canada - Policy Alternatives",
@@ -541,7 +506,7 @@
         "published_date": "Tue, 28 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.861179"
+        "fetched_at": "2026-09-13T15:16:16.323019"
       },
       {
         "title": "Canada’s health data revolution: New federal legislation may transform risk assessment and underwriting practices - munichre.com",
@@ -552,7 +517,16 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:35.861215"
+        "fetched_at": "2026-09-13T15:16:16.323066"
+      },
+      {
+        "title": "Breaking Down Language Barriers in Health Care: For Equitable, Safe and Quality Health Care and Health Services - SenCanada.ca",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaExDTEo5NkgzUkZVTkp3YUxRa3gySzNWMzJma3JXV3pGblp4Y2NOTkphUFMyNkFsSFJnNmNMNHpMbDNJLTVvd2V5LWJZR0p4eGlDYUxuSExfTmt0NGc5M2ptYXN5Vl9kUHdybk9qS0hucGF6TlZsaEM3cXBnREpJQm8yZEFWdTBVeFVUSHFxcEpoTUdMS0szOS1JN3lta1B0aEFNZ210RnBmLV84YmozS29laENWakE?oc=5",
+        "source": "SenCanada.ca",
+        "published_date": "Thu, 12 Feb 2026 08:00:00 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:16.323107"
       },
       {
         "title": "Advocates call on Quebec to adapt workplaces for extreme heat - CTV News",
@@ -561,16 +535,27 @@
         "published_date": "Thu, 10 Sep 2026 20:57:56 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.861239"
+        "fetched_at": "2026-09-13T15:16:16.323137"
       },
       {
-        "title": "Breaking Down Language Barriers in Health Care: For Equitable, Safe and Quality Health Care and Health Services - sencanada.ca",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaExDTEo5NkgzUkZVTkp3YUxRa3gySzNWMzJma3JXV3pGblp4Y2NOTkphUFMyNkFsSFJnNmNMNHpMbDNJLTVvd2V5LWJZR0p4eGlDYUxuSExfTmt0NGc5M2ptYXN5Vl9kUHdybk9qS0hucGF6TlZsaEM3cXBnREpJQm8yZEFWdTBVeFVUSHFxcEpoTUdMS0szOS1JN3lta1B0aEFNZ210RnBmLV84YmozS29laENWakE?oc=5",
-        "source": "sencanada.ca",
-        "published_date": "Thu, 12 Feb 2026 08:00:00 GMT",
+        "title": "Canada Life to Acquire Santé Circle Health, a Leader in Disability Management - PR Newswire Canada",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaHdma0RkMld4RTNRRkYxRWdDdmM3aEhSM0VObkZVUmdLRWY5QzM1b3c5UURFTWJlOFItQ1Y4c2xsWkpyLWt6YXlTZDBRdFVLd2tudEVKOUcwQ0RIRXNNZUlwZWhXS1ZMcmZqWXNlUG54d3VqNVVNWFJPRGNuSi1ZOVBVdHRWUThYdXNsclllc0YtdVRkNHpCUzVJT2pfdXhQZWc3enBnaXVDQjQzWU5xcUJPYVhldzJ5M0xiRVBsSGk4eDNaSURUdQ?oc=5",
+        "source": "PR Newswire Canada",
+        "published_date": "Tue, 19 May 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:35.861267"
+        "fetched_at": "2026-09-13T15:16:16.323173"
+      },
+      {
+        "title": "Santé Québec poursuivie pour « contrefaçon » informatique - Radio-Canada",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdlZCNFBYR0JpelU1T1hPdm9wMkZ4ZGFNMzZwRGhCdGFtQ29ROWZ1Y1l6Vnlxb0RTeVUyUzdRM2VtLUY0Y2l2S1B6U0RZOTFxeTd6MTVZMFpMQmRSdG05ZDBab2hoa0NjdzVZeVU5YkdTa3dXel9tUmxMRm1rWnJOaGZ0QUxsVlhzM1NzdWRn?oc=5",
+        "source": "Radio-Canada",
+        "published_date": "Thu, 30 Jul 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [
+          "rheumatoid arthritis"
+        ],
+        "fetched_at": "2026-09-13T15:16:16.323204"
       },
       {
         "title": "Santé Canada autorise un premier générique d’Ozempic au pays - TVA Nouvelles",
@@ -579,7 +564,7 @@
         "published_date": "Tue, 28 Apr 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.237246"
+        "fetched_at": "2026-09-13T15:16:16.688500"
       },
       {
         "title": "Red Bull et Biphentin, un cocktail qui peut tuer - Radio-Canada",
@@ -590,7 +575,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.237281"
+        "fetched_at": "2026-09-13T15:16:16.688540"
       },
       {
         "title": "Pourquoi tant d’années de vie perdues en attente de nouveaux médicaments contre le cancer? - Le Journal de Montréal",
@@ -599,7 +584,7 @@
         "published_date": "Sun, 18 Jan 2026 08:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.237319"
+        "fetched_at": "2026-09-13T15:16:16.688590"
       },
       {
         "title": "Germany Now Represents 62% of Canadian Cannabis Flower Exports as Portugal’s Share Collapses - Business of Cannabis",
@@ -608,7 +593,7 @@
         "published_date": "Mon, 13 Apr 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.237353"
+        "fetched_at": "2026-09-13T15:16:16.688634"
       },
       {
         "title": "First generic weight-loss injection approved in Canada - CP24",
@@ -617,7 +602,7 @@
         "published_date": "Mon, 29 Jun 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.237376"
+        "fetched_at": "2026-09-13T15:16:16.688665"
       },
       {
         "title": "Health Canada’s drug approval process is not actually broken - Policy Alternatives",
@@ -626,7 +611,7 @@
         "published_date": "Tue, 03 Mar 2026 08:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.237407"
+        "fetched_at": "2026-09-13T15:16:16.688705"
       },
       {
         "title": "«Une présentation d'Ozempic et de Wegovy»: les Jeux olympiques célèbrent le sport et... la minceur? - 24heures.ca",
@@ -635,7 +620,7 @@
         "published_date": "Thu, 19 Feb 2026 08:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.237435"
+        "fetched_at": "2026-09-13T15:16:16.688742"
       },
       {
         "title": "Generics of Ozempic and Wegovy expected to lower insurance costs for employers and workers - The Globe and Mail",
@@ -646,7 +631,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.237461"
+        "fetched_at": "2026-09-13T15:16:16.688777"
       },
       {
         "title": "Budget fédéral 2025: un Canada assujetti au secteur privé et à l’industrie militaire - iris-recherche.qc.ca",
@@ -657,19 +642,28 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.237494"
+        "fetched_at": "2026-09-13T15:16:16.688821"
       },
       {
-        "title": "SKYRIZI® (risankizumab) Secures Listing on Ontario and Alberta Formularies in Ulcerative Colitis - BioSpace",
+        "title": "SKYRIZI® (risankizumab) Secures Listing on Ontario and Alberta Formularies in Ulcerative Colitis - biospace.com",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMl9xeTJ0QUN5THpOZS1IRVh4SERnYWYyRDVaaVR0SXlXdVVTenhNLU9oY2NXQURNNGYwbWxtTllBeExyN0VveTZfMkhQSnpfc19vRER2X0M3dkdhY2U2amNaQl9HTDZFY3ZlWkpIem5iZlBMVVNxckRQZzBJaldObXUtR1MtMW03Z3VmOXpxNmpTRDZyd1ZIVUdkNXJJSGl6aEdWYWQ3ZlFwbGFiUkxSWDlENEVBZklxcXJ3UFpyVWxGNEItZmI1c3JPWnlhdw?oc=5",
-        "source": "BioSpace",
+        "source": "biospace.com",
         "published_date": "Mon, 04 May 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [
           "rheumatoid arthritis",
           "inflammatory bowel disease"
         ],
-        "fetched_at": "2026-09-13T10:46:36.237522"
+        "fetched_at": "2026-09-13T15:16:16.688858"
+      },
+      {
+        "title": "Evonik Drug Product Manufacturing Facility, Vancouver, Canada - Pharmaceutical Technology",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZHYtdWNaT082emFuMkYta3hrT3JrR0tmQzdNdFNqaDlvRHQ5VHRNcmtraXFjdGRGLUhGcFVkQlJwb1ZVVG4wcXRVUThibkVkWk43UFVYa2tQNUZMUTY0TmN6UklxOS0zZ0F5Q2hCY3pvbExWQ3BHZ3V6a0FrckQ3SXpic1dvTGlJMFFJTDNJdzFnbEtSOTc1dXZkXzItM2JZbFdSNGZpWmNhSGhhWUxzTA?oc=5",
+        "source": "Pharmaceutical Technology",
+        "published_date": "Thu, 10 Sep 2026 03:25:09 GMT",
+        "summary": null,
+        "keywords": [],
+        "fetched_at": "2026-09-13T15:16:17.147288"
       },
       {
         "title": "New data confirms innovative pharmaceutical industry is a major economic engine for Canada - biomb.ca",
@@ -680,16 +674,7 @@
         "keywords": [
           "multiple sclerosis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.747350"
-      },
-      {
-        "title": "Evonik Drug Product Manufacturing Facility, Vancouver, Canada - Pharmaceutical Technology",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZHYtdWNaT082emFuMkYta3hrT3JrR0tmQzdNdFNqaDlvRHQ5VHRNcmtraXFjdGRGLUhGcFVkQlJwb1ZVVG4wcXRVUThibkVkWk43UFVYa2tQNUZMUTY0TmN6UklxOS0zZ0F5Q2hCY3pvbExWQ3BHZ3V6a0FrckQ3SXpic1dvTGlJMFFJTDNJdzFnbEtSOTc1dXZkXzItM2JZbFdSNGZpWmNhSGhhWUxzTA?oc=5",
-        "source": "Pharmaceutical Technology",
-        "published_date": "Thu, 10 Sep 2026 03:25:09 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.747420"
+        "fetched_at": "2026-09-13T15:16:17.147325"
       },
       {
         "title": "UHN calls on governments, private sector to boost investment in life science - The Globe and Mail",
@@ -698,7 +683,7 @@
         "published_date": "Thu, 10 Sep 2026 10:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.747453"
+        "fetched_at": "2026-09-13T15:16:17.147374"
       },
       {
         "title": "Pharmascience and AstraZeneca Canada among most active in pharma lobbying for 2026 - The Hill Times",
@@ -709,7 +694,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.747488"
+        "fetched_at": "2026-09-13T15:16:17.147441"
       },
       {
         "title": "Trump touts deals with nine more pharmaceutical companies - Yahoo News Canada",
@@ -718,52 +703,43 @@
         "published_date": "Mon, 31 Aug 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.747576"
+        "fetched_at": "2026-09-13T15:16:17.147472"
       },
       {
-        "title": "Triad experts weigh in on the Canadian and US trade war and how it could affect pharmaceuticals - WXII",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMEhiYUEtT3FzNEt1THRPbkU0eXNnZnY3R2JBSTZ0N3M5VFpvSGhtckx6QURXQ19EX3V1UlpaR0Q0YWVXbUlTMUxteEEwYTFRbXg1Q1ZOZXp1XzJZYktrdUtkal9ad01zUHZDUWJsMmhncjVneFZkcjUzTWl4dHVLNV85bGF2dW9XVTFETWV5anhnWlB5U1pnTUJlckstRzhFSnNjSjd4a0pqSVBSbWFzeXlvZHB4c0FRZklfRjR5VDA5R0tlMlJPVnhWbw?oc=5",
-        "source": "WXII",
-        "published_date": "Fri, 11 Sep 2026 03:28:00 GMT",
-        "summary": null,
-        "keywords": [
-          "rheumatoid arthritis"
-        ],
-        "fetched_at": "2026-09-13T10:46:36.747606"
-      },
-      {
-        "title": "Pharmaceutical and Life Sciences Sector Federal Task Force Releases Final Report - fasken.com",
+        "title": "Pharmaceutical and Life Sciences Sector Federal Task Force Releases Final Report - Fasken",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUWI0ekVDdmJNbm16NEhoaHJZZmVfX3Q5S19HUmF0T1BXMkVlcVpCaEh1WmV0WlU2NERZUXhZOFA3bl8tTzUwcm5yd1pQRWx4YnpXWGZOcVZKekVmSlJzcmNXVWoxTXR2eTFCQndHUGVKbEt2U2xfWXBzbHNqSm5FQ242bU1aVU1fUkJ2VnlBOVk5aFRZMHFmVU1Ca0EwQXRfZmF1R2ZnU0xmazIxSXJqbE1NYlJGWTlNeERtSzhZU2dsdw?oc=5",
-        "source": "fasken.com",
+        "source": "Fasken",
         "published_date": "Tue, 04 Aug 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.747644"
-      },
-      {
-        "title": "Trump threatens new tariffs on generic drug makers to take effect in two years - BNN Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLTVFYVpsdDMxYTBQVV9rNnRfWXQ3VmZtZVd3U1VPR1hVSlZxVFNaYUxOQ0VzX3RQdGhwUUF0TjY1Y21PajAwYUd4WFVQUDFpbTZ3X2FkNVJaWlc0M0gzdk03cFI1SkxQc01QSnNjTUdVMExLSTJkWUhsaHRyVDVMSzRQaTNKME8tN1VqUFVobXluWVU1Z1F6RTd2WDNWdmdobDhrTmFJV2dQMURfM2ZGUlRrdlIySjhERjEyajlmTjZoQ0NK?oc=5",
-        "source": "BNN Bloomberg",
-        "published_date": "Wed, 22 Jul 2026 07:00:00 GMT",
-        "summary": null,
-        "keywords": [],
-        "fetched_at": "2026-09-13T10:46:36.747673"
-      },
-      {
-        "title": "Drugmaker warns Canadians about ‘unapproved and illegal’ obesity medication - CTV News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObHhicHVSXzBqVkI2dVVnWXM1VTBmUWFaelVjdVZIdHhpMHIyeERIbURRVTh5WEttMFh3Szl2YTM2LS1aSlFYaDlpT254eUxHTW9SUEdMR1pjbnF5Qmk4WVNVX1FBRXlmN09nSWl5MndMZXpoaXp6aTlBclZHeThnXzhMOWFqS0pucmN4SjFnOTZMMjNZQkl3MDl6dDNucmJjS3dwTVBrdzVKUkFiVXloQUdR?oc=5",
-        "source": "CTV News",
-        "published_date": "Tue, 18 Aug 2026 07:00:00 GMT",
-        "summary": null,
-        "keywords": [
-          "obesity"
-        ],
-        "fetched_at": "2026-09-13T10:46:36.747711"
+        "fetched_at": "2026-09-13T15:16:17.147504"
       }
     ],
     "relevant": [
+      {
+        "title": "Canada’s new strategy won’t solve food insecurity or the health issues it creates - The Conversation",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQanhKaW9qU3RiYmJ4LXcta045YXpRNnZjdk96bi1HWVVsTmpMbFZVTkI5T1RSdm9WcXZFamJoX1d0NmpqUnZGc3VRTFpjTDMwTnBfMXFXd0FWaUx6YU81S2NUN3NpRmRPTkpENno2NUVGa3RLU0pfY254Y1JSenZtM2gwaDNOTE9Vdks0Qk1zNVpJNW5qSTdDQzlsWXJ2alV0STF6dTI2Yy16UWdRUHdmXzk1UmM?oc=5",
+        "source": "The Conversation",
+        "published_date": "Sun, 13 Sep 2026 12:06:15 GMT",
+        "summary": null,
+        "keywords": [
+          "rheumatoid arthritis"
+        ],
+        "fetched_at": "2026-09-13T15:16:13.993981"
+      },
+      {
+        "title": "Canada’s AI Strategy for Health Care Won't Work without Oversight to Match - cigionline.org",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbWdKSWJvdzhyNEZwV1pXUW5ZaENQclBtaWZ3bHBWS0FJRzZCMmZEQmpVYnlBZ2pBcWJ2YVNLXzF0OHJZUURNZmY2YllLcVFsX25oWDRxY01BRXZ4dmVvd2otUG5lNVRUdDZLcTA0SHBoMi10T0hOODU4VmpwMW52TkxPQUl0UmZ1RE9NLTVqX01nZ21TWGU5ZDFnaHNLMEFtb2R6alpleTFRYzRncHc?oc=5",
+        "source": "cigionline.org",
+        "published_date": "Thu, 10 Sep 2026 13:00:00 GMT",
+        "summary": null,
+        "keywords": [
+          "rheumatoid arthritis"
+        ],
+        "fetched_at": "2026-09-13T15:16:13.994112"
+      },
       {
         "title": "Health Canada is recalling this generic acetaminophen - Global News",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4dTZ3S1d1ZTduaWN6ck5yZFdhNFhlZmRRd2RCakFLQzNfWXRnTVlqbTVER1B1YmZOZkp2NHlDdi0yY1RhOGpBQVhMeTNvel9OdnNOMjVMeUtpcHVPaGdqb3JxOXJFQV9zTUFIOGc1aElsdzBVdWR1NTNjYw?oc=5",
@@ -773,18 +749,18 @@
         "keywords": [
           "acetaminophen"
         ],
-        "fetched_at": "2026-09-13T10:46:33.435557"
+        "fetched_at": "2026-09-13T15:16:13.994145"
       },
       {
-        "title": "Canada’s AI Strategy for Health Care Won't Work without Oversight to Match - Centre for International Governance Innovation",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbWdKSWJvdzhyNEZwV1pXUW5ZaENQclBtaWZ3bHBWS0FJRzZCMmZEQmpVYnlBZ2pBcWJ2YVNLXzF0OHJZUURNZmY2YllLcVFsX25oWDRxY01BRXZ4dmVvd2otUG5lNVRUdDZLcTA0SHBoMi10T0hOODU4VmpwMW52TkxPQUl0UmZ1RE9NLTVqX01nZ21TWGU5ZDFnaHNLMEFtb2R6alpleTFRYzRncHc?oc=5",
-        "source": "Centre for International Governance Innovation",
-        "published_date": "Thu, 10 Sep 2026 13:00:00 GMT",
+        "title": "CUPE pushes to strengthen workers’ rights in submission to upcoming 2026 Federal budget - CUPE",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkZWdy1ObEdkcjNRVTFpTEU0eU9MUkozakd3dlJEQm0waHlRZjdqUndnY1BHM3FCMWZsMV9DMUZ1OHdqRG4zTUkwNWVBOGZXaU10MHlqMXBoeHo2LW5fRWtSdWpaWVB4TS1vT215NHZhVWpXOTl6c1lJdEw4U3cwcDNkTGdNVVV6bmFFTWlFUUNYMXlrN1FRemZrdlJGcFE?oc=5",
+        "source": "CUPE",
+        "published_date": "Thu, 10 Sep 2026 16:10:04 GMT",
         "summary": null,
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:33.435593"
+        "fetched_at": "2026-09-13T15:16:13.994255"
       },
       {
         "title": "Acetaminophen, gas ranges, kitchen stools and more: New drug and product recalls Ontario shoppers should know - Inside Halton",
@@ -796,40 +772,7 @@
           "rheumatoid arthritis",
           "acetaminophen"
         ],
-        "fetched_at": "2026-09-13T10:46:33.435661"
-      },
-      {
-        "title": "CUPE pushes to strengthen workers’ rights in submission to upcoming 2026 Federal budget - cupe.ca",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkZWdy1ObEdkcjNRVTFpTEU0eU9MUkozakd3dlJEQm0waHlRZjdqUndnY1BHM3FCMWZsMV9DMUZ1OHdqRG4zTUkwNWVBOGZXaU10MHlqMXBoeHo2LW5fRWtSdWpaWVB4TS1vT215NHZhVWpXOTl6c1lJdEw4U3cwcDNkTGdNVVV6bmFFTWlFUUNYMXlrN1FRemZrdlJGcFE?oc=5",
-        "source": "cupe.ca",
-        "published_date": "Thu, 10 Sep 2026 16:10:04 GMT",
-        "summary": null,
-        "keywords": [
-          "rheumatoid arthritis"
-        ],
-        "fetched_at": "2026-09-13T10:46:33.435692"
-      },
-      {
-        "title": "‘Canada’s innovation advantage’: 6 leading researchers join U of T via federal initiative to draw world-class talent - University of Toronto",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM28zYnFINkJIMlY5ak0tMDRmZGpZNW1OTXVSVkxWS2d0U0ZmNGl5Sm9VTkE5STRTenlaa1I2TkM4QzVSOVNFREZ6NlN5bWM5WDAwMHN0YkNVc2lYSjhBWFBETnRndzNNUVB0NkhRbGtGNFZlbEJRQWtSTXFpaU1TWEtFYU9ja0ZKNWwzajJWWm4za2lvVzRhN1lIUkk5MUV4X0xRQXdBQ1FrakxmZGRWOFpjS2Qwa284SnFj?oc=5",
-        "source": "University of Toronto",
-        "published_date": "Thu, 27 Aug 2026 07:00:00 GMT",
-        "summary": null,
-        "keywords": [
-          "rheumatoid arthritis"
-        ],
-        "fetched_at": "2026-09-13T10:46:33.925450"
-      },
-      {
-        "title": "McGill University attracts six leading researchers thanks to Government of Canada’s $1 billion program | Newsroom - McGill University",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX3RpcWZhWm5RTUZCVTFWMV9rcnpmTnZvb1hUYnJEZVVrb1FzTllpQWtUaUpPNGswOXVHN2xQcTZFd25ycXVoWkVIZTczU2pqVmdhcFRkbUtxcFR4T3dRbDVkXzN2Zi1NVVFQbzFqdW1rTXRaaVdXdVZKSEhVbmpmU0tuZWs1S3dhcURzdmd4cVh1dWo3LUVFZWZweTdjWVRqN2VXajhQZXI0RWJrWVo0andvTWRzYWFSM1hidzVQWlI0bDJ6XzlHRmQtelB1STNReGVoNk91Q3FYZ1BEM25N?oc=5",
-        "source": "McGill University",
-        "published_date": "Mon, 31 Aug 2026 07:00:00 GMT",
-        "summary": null,
-        "keywords": [
-          "rheumatoid arthritis"
-        ],
-        "fetched_at": "2026-09-13T10:46:33.925485"
+        "fetched_at": "2026-09-13T15:16:13.994292"
       },
       {
         "title": "Health Canada approves drug that treats hot flashes for use by breast cancer patients - CTV News",
@@ -840,18 +783,18 @@
         "keywords": [
           "breast cancer"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381570"
+        "fetched_at": "2026-09-13T15:16:14.974017"
       },
       {
-        "title": "Health Canada’s New Draft Guidance on Foreign Regulatory Reliance for Certain Drugs - fasken.com",
+        "title": "Health Canada’s New Draft Guidance on Foreign Regulatory Reliance for Certain Drugs - Fasken",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdkx4ZEJFbk93UW96QjRVMFlCOW8yMmR0VUREMTVPSGNpdldNeDg5eVF2bGt6QmxNSUFIYlBoU1F5WVNCSUdmSi1zM0pDVTlUWV9XRjF6YXVuQ2twU2picVEwNm04TU95aDZpakJIaFktMG9jVEg0VHFmcE04cnIwNjNZYVQ3UkxXTlRzaTAtTVlFaExVS3BqYWVQY2N3TWxhNF9LTWw3bFpXakE5eXZJa0VBekZBY1MySTkyXzkxMl9EWE9W?oc=5",
-        "source": "fasken.com",
+        "source": "Fasken",
         "published_date": "Fri, 17 Jul 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381710"
+        "fetched_at": "2026-09-13T15:16:14.974165"
       },
       {
         "title": "Health Canada moves to speed approvals for drugs and medical devices - WestCentralOnline",
@@ -862,7 +805,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381735"
+        "fetched_at": "2026-09-13T15:16:14.974198"
       },
       {
         "title": "Weight-loss drug approved to treat sleep apnea in Canada - Radio-Canada",
@@ -873,7 +816,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381757"
+        "fetched_at": "2026-09-13T15:16:14.974228"
       },
       {
         "title": "The federal government is prioritizing Canada’s pharma company profits - Policy Alternatives",
@@ -884,7 +827,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:34.381788"
+        "fetched_at": "2026-09-13T15:16:14.974270"
       },
       {
         "title": "Generic acetaminophen pills recalled due to possible 'foreign material' contamination - CBC",
@@ -895,7 +838,7 @@
         "keywords": [
           "acetaminophen"
         ],
-        "fetched_at": "2026-09-13T10:46:34.805799"
+        "fetched_at": "2026-09-13T15:16:15.411525"
       },
       {
         "title": "Acetaminophen distributed in Canada has been recalled - Inside Halton",
@@ -906,7 +849,7 @@
         "keywords": [
           "acetaminophen"
         ],
-        "fetched_at": "2026-09-13T10:46:34.805875"
+        "fetched_at": "2026-09-13T15:16:15.411621"
       },
       {
         "title": "Hospitals should be part of Canada’s buy-Canadian strategy - hospitalnews.com",
@@ -917,30 +860,18 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:35.414384"
+        "fetched_at": "2026-09-13T15:16:15.862300"
       },
       {
-        "title": "Invisible threat on ice: 4 youth hockey teams’ exposure to carbon monoxide - CMAJ | Journal",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xUFF0UFBOVGI0UXlIRFM1ODRVRlFIanNZZTBXSVpoRnFJS3hkVzlSUERrS2lDSlg1bDl5U20xemdWbWxiaC15MzUzWmVpQWs3a0E?oc=5",
-        "source": "CMAJ | Journal",
-        "published_date": "Tue, 08 Sep 2026 12:09:14 GMT",
+        "title": "As 1st election debate approaches, Quebec party leaders talk transport, health - CBC",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTVJ1eUpjYlpFN2pJNUJMY2ZMaE5Yb01SQmFpNWxlaDdUUzI2Z2o4cGtWT0lOckduN2VZTlNZSGNUaURhTXh6akd1NV90STlSN3luN2wxdTVUQ3R1d25OdU5qVVRfUnYzOEhrbmtPdm9IZ0tPOEZZX2xxR2h3Z1BRc1kydDNvQXYyMHlFSGRRX1k5VG9TcFFleFNDaXlaVFhjQU1veU9vQk1PR3c?oc=5",
+        "source": "CBC",
+        "published_date": "Sat, 12 Sep 2026 22:12:07 GMT",
         "summary": null,
         "keywords": [
-          "multiple sclerosis"
+          "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:35.861037"
-      },
-      {
-        "title": "Quebec party leaders talk transport, health care on campaign trail as first debate looms - The Globe and Mail",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM0R3U3RibE5YbzE0Nnp2UW43TzNSODdiaTBScFVSVnRpbm5DRGI5SGlxZDRSYnNJbmZSY3F0M1gySnBlR0NCcGFmcXMwRDVSMVZ2alFGVWNrVzFuZEFPZnRvc3NrVWJCazJNUnphcVpza3hLMlNJVGw2NHVFZDZNUkgzdzQ5LTctUUZRWnhiSU1hOHcwZmZ5WVZqQ01Gd25iTlItbTdLTGd6ZzN5VllOaUdaOWhKZ1h0?oc=5",
-        "source": "The Globe and Mail",
-        "published_date": "Sat, 12 Sep 2026 22:26:33 GMT",
-        "summary": null,
-        "keywords": [
-          "rheumatoid arthritis",
-          "multiple sclerosis"
-        ],
-        "fetched_at": "2026-09-13T10:46:35.861066"
+        "fetched_at": "2026-09-13T15:16:16.322900"
       },
       {
         "title": "Canada’s health data revolution: New federal legislation may transform risk assessment and underwriting practices - munichre.com",
@@ -951,7 +882,18 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:35.861215"
+        "fetched_at": "2026-09-13T15:16:16.323066"
+      },
+      {
+        "title": "Santé Québec poursuivie pour « contrefaçon » informatique - Radio-Canada",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdlZCNFBYR0JpelU1T1hPdm9wMkZ4ZGFNMzZwRGhCdGFtQ29ROWZ1Y1l6Vnlxb0RTeVUyUzdRM2VtLUY0Y2l2S1B6U0RZOTFxeTd6MTVZMFpMQmRSdG05ZDBab2hoa0NjdzVZeVU5YkdTa3dXel9tUmxMRm1rWnJOaGZ0QUxsVlhzM1NzdWRn?oc=5",
+        "source": "Radio-Canada",
+        "published_date": "Thu, 30 Jul 2026 07:00:00 GMT",
+        "summary": null,
+        "keywords": [
+          "rheumatoid arthritis"
+        ],
+        "fetched_at": "2026-09-13T15:16:16.323204"
       },
       {
         "title": "Red Bull et Biphentin, un cocktail qui peut tuer - Radio-Canada",
@@ -962,7 +904,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.237281"
+        "fetched_at": "2026-09-13T15:16:16.688540"
       },
       {
         "title": "Generics of Ozempic and Wegovy expected to lower insurance costs for employers and workers - The Globe and Mail",
@@ -973,7 +915,7 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.237461"
+        "fetched_at": "2026-09-13T15:16:16.688777"
       },
       {
         "title": "Budget fédéral 2025: un Canada assujetti au secteur privé et à l’industrie militaire - iris-recherche.qc.ca",
@@ -984,19 +926,19 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.237494"
+        "fetched_at": "2026-09-13T15:16:16.688821"
       },
       {
-        "title": "SKYRIZI® (risankizumab) Secures Listing on Ontario and Alberta Formularies in Ulcerative Colitis - BioSpace",
+        "title": "SKYRIZI® (risankizumab) Secures Listing on Ontario and Alberta Formularies in Ulcerative Colitis - biospace.com",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMl9xeTJ0QUN5THpOZS1IRVh4SERnYWYyRDVaaVR0SXlXdVVTenhNLU9oY2NXQURNNGYwbWxtTllBeExyN0VveTZfMkhQSnpfc19vRER2X0M3dkdhY2U2amNaQl9HTDZFY3ZlWkpIem5iZlBMVVNxckRQZzBJaldObXUtR1MtMW03Z3VmOXpxNmpTRDZyd1ZIVUdkNXJJSGl6aEdWYWQ3ZlFwbGFiUkxSWDlENEVBZklxcXJ3UFpyVWxGNEItZmI1c3JPWnlhdw?oc=5",
-        "source": "BioSpace",
+        "source": "biospace.com",
         "published_date": "Mon, 04 May 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [
           "rheumatoid arthritis",
           "inflammatory bowel disease"
         ],
-        "fetched_at": "2026-09-13T10:46:36.237522"
+        "fetched_at": "2026-09-13T15:16:16.688858"
       },
       {
         "title": "New data confirms innovative pharmaceutical industry is a major economic engine for Canada - biomb.ca",
@@ -1007,7 +949,7 @@
         "keywords": [
           "multiple sclerosis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.747350"
+        "fetched_at": "2026-09-13T15:16:17.147325"
       },
       {
         "title": "Pharmascience and AstraZeneca Canada among most active in pharma lobbying for 2026 - The Hill Times",
@@ -1018,40 +960,18 @@
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.747488"
+        "fetched_at": "2026-09-13T15:16:17.147441"
       },
       {
-        "title": "Triad experts weigh in on the Canadian and US trade war and how it could affect pharmaceuticals - WXII",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMEhiYUEtT3FzNEt1THRPbkU0eXNnZnY3R2JBSTZ0N3M5VFpvSGhtckx6QURXQ19EX3V1UlpaR0Q0YWVXbUlTMUxteEEwYTFRbXg1Q1ZOZXp1XzJZYktrdUtkal9ad01zUHZDUWJsMmhncjVneFZkcjUzTWl4dHVLNV85bGF2dW9XVTFETWV5anhnWlB5U1pnTUJlckstRzhFSnNjSjd4a0pqSVBSbWFzeXlvZHB4c0FRZklfRjR5VDA5R0tlMlJPVnhWbw?oc=5",
-        "source": "WXII",
-        "published_date": "Fri, 11 Sep 2026 03:28:00 GMT",
-        "summary": null,
-        "keywords": [
-          "rheumatoid arthritis"
-        ],
-        "fetched_at": "2026-09-13T10:46:36.747606"
-      },
-      {
-        "title": "Pharmaceutical and Life Sciences Sector Federal Task Force Releases Final Report - fasken.com",
+        "title": "Pharmaceutical and Life Sciences Sector Federal Task Force Releases Final Report - Fasken",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUWI0ekVDdmJNbm16NEhoaHJZZmVfX3Q5S19HUmF0T1BXMkVlcVpCaEh1WmV0WlU2NERZUXhZOFA3bl8tTzUwcm5yd1pQRWx4YnpXWGZOcVZKekVmSlJzcmNXVWoxTXR2eTFCQndHUGVKbEt2U2xfWXBzbHNqSm5FQ242bU1aVU1fUkJ2VnlBOVk5aFRZMHFmVU1Ca0EwQXRfZmF1R2ZnU0xmazIxSXJqbE1NYlJGWTlNeERtSzhZU2dsdw?oc=5",
-        "source": "fasken.com",
+        "source": "Fasken",
         "published_date": "Tue, 04 Aug 2026 07:00:00 GMT",
         "summary": null,
         "keywords": [
           "rheumatoid arthritis"
         ],
-        "fetched_at": "2026-09-13T10:46:36.747644"
-      },
-      {
-        "title": "Drugmaker warns Canadians about ‘unapproved and illegal’ obesity medication - CTV News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObHhicHVSXzBqVkI2dVVnWXM1VTBmUWFaelVjdVZIdHhpMHIyeERIbURRVTh5WEttMFh3Szl2YTM2LS1aSlFYaDlpT254eUxHTW9SUEdMR1pjbnF5Qmk4WVNVX1FBRXlmN09nSWl5MndMZXpoaXp6aTlBclZHeThnXzhMOWFqS0pucmN4SjFnOTZMMjNZQkl3MDl6dDNucmJjS3dwTVBrdzVKUkFiVXloQUdR?oc=5",
-        "source": "CTV News",
-        "published_date": "Tue, 18 Aug 2026 07:00:00 GMT",
-        "summary": null,
-        "keywords": [
-          "obesity"
-        ],
-        "fetched_at": "2026-09-13T10:46:36.747711"
+        "fetched_at": "2026-09-13T15:16:17.147504"
       }
     ]
   }
