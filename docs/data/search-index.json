@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-10",
-  "drug_count": 1942,
-  "indication_count": 5086,
+  "generated": "2026-09-14",
+  "drug_count": 2009,
+  "indication_count": 5146,
   "drugs": [
     {
       "name": "Abacavir",
@@ -229003,6 +229003,850 @@
       "original": "",
       "level": "L5",
       "indications": []
+    },
+    {
+      "name": "Sacituzumab Govitecan",
+      "slug": "sacituzumab_govitecan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sacubitril",
+      "slug": "sacubitril",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Safinamide",
+      "slug": "safinamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Salbutamol",
+      "slug": "salbutamol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Salicylic Acid",
+      "slug": "salicylic_acid",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Salmeterol",
+      "slug": "salmeterol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sebelipase Alfa",
+      "slug": "sebelipase_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selenium",
+      "slug": "selenium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selexipag",
+      "slug": "selexipag",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "PAH associated with congenital heart disease | 98.03% | L2 | S2 | Proceed with Guardrails | Primary indication in this report; 2 trials, no dedicated literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary arteriovenous malformation | 98.00% | L5 | S0 | Hold | Structural vascular malformation, mechanistically unrelated; no trials/literature — likely embedding artifact",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "PAH associated with connective tissue disease (CTD-PAH) | 97.78% | L1 | S3 | Proceed with Guardrails | **Strongest evidence in this screen** — GRIPHON pivotal RCT subgroup + multiple real-world registries (EXPOSURE, SPHERE); recommend prioritizing over the top-ranked candidate",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "PAH associated with HIV infection | 97.78% | L4 | S1 | Research Question | Same WHO Group 1 mechanism, but no dedicated trial/literature in this dataset",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "PAH associated with schistosomiasis | 97.78% | L3 | S1 | Research Question | 1 Phase 2 trial (status unknown) + 1 not-yet-recruiting trial; evidence still emerging",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "PAH associated with chronic haemolytic anaemia | 97.78% | L5 | S0 | Hold | Mechanistically plausible (WHO Group 1) but zero trials/literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypotrichosis simplex of the scalp | 97.11% | L5 | S0 | Hold | Wrong receptor subtype (FP vs IP); no mechanistic basis",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital hypotrichosis with milia | 96.30% | L5 | S0 | Hold | Same as above; no mechanistic basis",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diffuse alopecia areata | 95.98% | L5 | S0 | Hold | Autoimmune mechanism unrelated to IP-receptor pharmacology",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malformation syndrome with odontal/periodontal component | 93.77% | L5 | S0 | Hold | 20 literature hits are all generic periodontitis papers with no mention of selexipag — confirmed false-positive text-mining signal",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Selinexor",
+      "slug": "selinexor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Selpercatinib",
+      "slug": "selpercatinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Migraine disorder | 99.17% | No trials, no literature | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Migraine with brainstem aura | 99.05% | No trials, no literature | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Selumetinib",
+      "slug": "selumetinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Familial generalized lentiginosis | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Gastrocutaneous syndrome | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rhabdoid tumor | 99.96% | L3 | S1 | Research Question (1 basket trial, 1 preclinical paper)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acromelanosis | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Moynahan syndrome (LEOPARD syndrome) | 99.96% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Leukonychia totalis-acanthosis nigricans-like lesions-abnormal hair syndrome | 99.95% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Osteopathia striata-pigmentary dermopathy-white forelock syndrome | 99.95% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Microcystic/reticular schwannoma | 99.95% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Sennosides",
+      "slug": "sennosides",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Serine",
+      "slug": "serine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sertraline",
+      "slug": "sertraline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sevoflurane",
+      "slug": "sevoflurane",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Prinzmetal angina | 99.78% | L5 | No trials, no literature — pure model prediction",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Tourette syndrome | 99.50% | L5 | No trials, no literature — pure model prediction",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Fibromyalgia | 99.42% | L4 | 1 case report on anesthetizing an FM patient (not FM treatment)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Tendinitis | 99.41% | L4 | 11 papers, all on perioperative anesthesia for tendon/orthopedic surgery, not tendinitis treatment",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Idiopathic granulomatous myositis | 99.41% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myositis fibrosa | 99.41% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Nephrogenic SIAD | 99.40% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trichotillomania | 99.33% | L5 | No trials, no literature",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Migraine disorder | 99.23% | L4 | 1 trial on postoperative headache (side effect, not migraine treatment) + 1 pediatric MRI sedation cohort",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Inclusion body myositis | 99.09% | L4 | 1 case report on anesthetizing an IBM patient (not IBM treatment)",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Silodosin",
+      "slug": "silodosin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Siltuximab",
+      "slug": "siltuximab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Simvastatin",
+      "slug": "simvastatin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sincalide",
+      "slug": "sincalide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Malignant catarrh | 99.96% | L5 | 0 | Cattle disease; likely ontology mismatch",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Infectious bovine rhinotracheitis | 99.96% | L5 | 0 | Cattle disease; likely ontology mismatch",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cytomegalovirus infection | 99.96% | L5 | 1 | Sole paper studies CCK's role in acinar cell exocytosis, unrelated to antiviral activity",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombotic disease | 99.94% | L5 | 0 | No known CCK–coagulation link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hyperthyroidism | 99.93% | **L4** | 3 | Papers show thyroid status affects response to CCK-8 as a secretagogue — direction reversed (thyroid affects drug response, not drug treats thyroid disease)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "TR-β resistance to thyroid hormone | 99.92% | L5 | 0 | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hyperthyroxinemia | 99.88% | L5 | 0 | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Homozygous familial hypercholesterolemia | 99.85% | L5 | 0 | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Prinzmetal angina | 99.84% | L5 | 0 | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Amenorrhea (disease) | 99.83% | L5 | 0 | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Siponimod",
+      "slug": "siponimod",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sirolimus",
+      "slug": "sirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Acetate",
+      "slug": "sodium_acetate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Citrate",
+      "slug": "sodium_citrate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Oxybate",
+      "slug": "sodium_oxybate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Sulfate",
+      "slug": "sodium_sulfate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Tetradecyl Sulfate",
+      "slug": "sodium_tetradecyl_sulfate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Zirconium Cyclosilicate",
+      "slug": "sodium_zirconium_cyclosilicate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sofosbuvir",
+      "slug": "sofosbuvir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Solriamfetol",
+      "slug": "solriamfetol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sonidegib",
+      "slug": "sonidegib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sorafenib",
+      "slug": "sorafenib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sorbitol",
+      "slug": "sorbitol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sotatercept",
+      "slug": "sotatercept",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Soybean Oil",
+      "slug": "soybean_oil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Spironolactone",
+      "slug": "spironolactone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Streptomycin",
+      "slug": "streptomycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sucralfate",
+      "slug": "sucralfate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sulfamethoxazole",
+      "slug": "sulfamethoxazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sulfasalazine",
+      "slug": "sulfasalazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sulindac",
+      "slug": "sulindac",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sumatriptan",
+      "slug": "sumatriptan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sunitinib",
+      "slug": "sunitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tacrolimus",
+      "slug": "tacrolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tadalafil",
+      "slug": "tadalafil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tafamidis",
+      "slug": "tafamidis",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tafasitamab",
+      "slug": "tafasitamab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Severe nonproliferative diabetic retinopathy | 97.34% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Diabetic retinopathy | 95.40% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "HER2 positive breast carcinoma | 94.51% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Psoriasis | 94.03% | L5 | **Research Question**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Progesterone-receptor positive breast cancer | 93.00% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Normal breast-like subtype of breast carcinoma | 93.00% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Breast tumor luminal A or B | 92.91% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Progesterone-receptor negative breast cancer | 92.67% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pityriasis lichenoides | 92.29% | L4 | Hold (adverse-effect signal, not efficacy)",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Tamoxifen",
+      "slug": "tamoxifen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tapentadol",
+      "slug": "tapentadol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tazarotene",
+      "slug": "tazarotene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tazobactam",
+      "slug": "tazobactam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Telmisartan",
+      "slug": "telmisartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Telotristat Ethyl",
+      "slug": "telotristat_ethyl",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temazepam",
+      "slug": "temazepam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temozolomide",
+      "slug": "temozolomide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temsirolimus",
+      "slug": "temsirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenapanor",
+      "slug": "tenapanor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenecteplase",
+      "slug": "tenecteplase",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenofovir Alafenamide",
+      "slug": "tenofovir_alafenamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teplizumab",
+      "slug": "teplizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teprotumumab",
+      "slug": "teprotumumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Terazosin",
+      "slug": "terazosin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Migraine disorder | 99.92% | L3 | Small open-label trial (PMID [7911406](https://pubmed.ncbi.nlm.nih.gov/7911406/), 1994, n=46) and a case-series commentary (PMID [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/), 1997) on alpha-1 blockers for migraine prophylaxis; no follow-up large-scale trials since.",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Raynaud disease | 99.83% | L3 | Small clinical study (PMID [9273472](https://pubmed.ncbi.nlm.nih.gov/9273472/), 1997) reporting reduced vasospastic attack frequency/severity with terazosin; mechanistically plausible via alpha-1-mediated vasoconstriction blockade.",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Terconazole",
+      "slug": "terconazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teriflunomide",
+      "slug": "teriflunomide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teriparatide",
+      "slug": "teriparatide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tetrabenazine",
+      "slug": "tetrabenazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tetracaine",
+      "slug": "tetracaine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Acrodermatitis chronica atrophicans | 99.93% | L5 | S0 (Hold) | No mechanistic link; likely graph artifact",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Neonatal dermatomyositis | 99.92% | L5 | S0 (Hold) | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Bronchitis | 99.92% | L4 | S0 (Hold) | Single 1988 non-treatment physiology study",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Secondary ILD (childhood, connective tissue disease) | 99.92% | L5 | S0 (Hold) | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hydroa vacciniforme, familial | 99.91% | L5 | S0 (Hold) | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Amyopathic dermatomyositis | 99.90% | L5 | S0 (Hold) | No mechanistic link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cauda equina syndrome | 99.55% | L4 | S0 (Hold) | ⚠️ **Safety signal, not opportunity** — 9 papers show tetracaine as causative agent",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Irritable bowel syndrome | 99.41% | L5 | S0 (Hold) | Speculative mechanism only, no evidence",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
     }
   ],
   "indications": [
@@ -230612,6 +231456,28 @@
       ]
     },
     {
+      "name": "Acrodermatitis chronica atrophicans | 99.93% | L5 | S0 (Hold) | No mechanistic link; likely graph artifact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tetracaine",
+          "slug": "tetracaine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acromelanosis | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Actinomycetales infectious disease | KG + DL",
       "drug_count": 3,
       "drugs": [
@@ -230973,6 +231839,17 @@
       ]
     },
     {
+      "name": "Amenorrhea (disease) | 99.83% | L5 | 0 | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Amenorrhea | 99.83% | L5 | Hold | No mechanistic link, no evidence",
       "drug_count": 1,
       "drugs": [
@@ -230990,6 +231867,17 @@
         {
           "drug": "Butamben",
           "slug": "butamben",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Amyopathic dermatomyositis | 99.90% | L5 | S0 (Hold) | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tetracaine",
+          "slug": "tetracaine",
           "score": 99.0
         }
       ]
@@ -232459,6 +233347,17 @@
       ]
     },
     {
+      "name": "Breast tumor luminal A or B | 92.91% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Brenner tumor | KG + DL",
       "drug_count": 49,
       "drugs": [
@@ -232532,6 +233431,17 @@
         {
           "drug": "Butamben",
           "slug": "butamben",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Bronchitis | 99.92% | L4 | S0 (Hold) | Single 1988 non-treatment physiology study",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tetracaine",
+          "slug": "tetracaine",
           "score": 99.0
         }
       ]
@@ -233142,6 +234052,17 @@
       ]
     },
     {
+      "name": "Cauda equina syndrome | 99.55% | L4 | S0 (Hold) | ⚠️ **Safety signal, not opportunity** — 9 papers show tetracaine as causative agent",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tetracaine",
+          "slug": "tetracaine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Cavernous hemangioma of colon | 98.42% | L5 | Hold | 血管畸形病灶，非增生性組織，機轉不匹配",
       "drug_count": 1,
       "drugs": [
@@ -233740,6 +234661,28 @@
       ]
     },
     {
+      "name": "Congenital hypotrichosis with milia | 96.30% | L5 | S0 | Hold | Same as above; no mechanistic basis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Conventional fibrosarcoma | 99.93% | L2 | S2 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -234103,6 +235046,17 @@
       ]
     },
     {
+      "name": "Cytomegalovirus infection | 99.96% | L5 | 1 | Sole paper studies CCK's role in acinar cell exocytosis, unrelated to antiviral activity",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Cytomegalovirus infection | DNA virus; measles virus (not CMV) uses Nectin-4 as cell entry receptor — likely KG node confusion",
       "drug_count": 1,
       "drugs": [
@@ -234410,6 +235364,17 @@
       ]
     },
     {
+      "name": "Diabetic retinopathy | 95.40% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Diabetic retinopathy | 99.14% | Very Low — same neuroprotection extrapolation as Rank #2 | None",
       "drug_count": 1,
       "drugs": [
@@ -234484,6 +235449,17 @@
         {
           "drug": "Ciprofloxacin",
           "slug": "ciprofloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Diffuse alopecia areata | 95.98% | L5 | S0 | Hold | Autoimmune mechanism unrelated to IP-receptor pharmacology",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
           "score": 99.0
         }
       ]
@@ -235396,6 +236372,17 @@
       ]
     },
     {
+      "name": "Familial generalized lentiginosis | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Familial rhabdoid tumor | 99.83% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -235468,6 +236455,17 @@
         {
           "drug": "Desonide",
           "slug": "desonide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Fibromyalgia | 99.42% | L4 | 1 case report on anesthetizing an FM patient (not FM treatment)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
           "score": 99.0
         }
       ]
@@ -235736,6 +236734,17 @@
         {
           "drug": "Capecitabine",
           "slug": "capecitabine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Gastrocutaneous syndrome | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
           "score": 99.0
         }
       ]
@@ -236194,6 +237203,17 @@
         {
           "drug": "Potassium Phosphate Monobasic",
           "slug": "db09413",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "HER2 positive breast carcinoma | 94.51% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
           "score": 99.0
         }
       ]
@@ -236891,6 +237911,17 @@
       ]
     },
     {
+      "name": "Homozygous familial hypercholesterolemia | 99.85% | L5 | 0 | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Homozygous familial hypercholesterolemia | LDL receptor gene disease; no mechanistic intersection with Nectin-4 signalling",
       "drug_count": 1,
       "drugs": [
@@ -237023,6 +238054,17 @@
       ]
     },
     {
+      "name": "Hydroa vacciniforme, familial | 99.91% | L5 | S0 (Hold) | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tetracaine",
+          "slug": "tetracaine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hyperamylasemia | 99.52% | L5 | **Biologically implausible** — metabolic marker; beta-lactams may cause this as a side effect, not treat it",
       "drug_count": 1,
       "drugs": [
@@ -237089,6 +238131,17 @@
       ]
     },
     {
+      "name": "Hyperthyroidism | 99.93% | **L4** | 3 | Papers show thyroid status affects response to CCK-8 as a secretagogue — direction reversed (thyroid affects drug response, not drug treats thyroid disease)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hyperthyroxinemia | 98.78% | L5 | Hold | No evidence",
       "drug_count": 1,
       "drugs": [
@@ -237106,6 +238159,17 @@
         {
           "drug": "Propylthiouracil",
           "slug": "propylthiouracil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hyperthyroxinemia | 99.88% | L5 | 0 | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
           "score": 99.0
         }
       ]
@@ -237173,6 +238237,17 @@
           "drug": "Ambrisentan",
           "slug": "ambrisentan",
           "score": 99.15
+        }
+      ]
+    },
+    {
+      "name": "Hypotrichosis simplex of the scalp | 97.11% | L5 | S0 | Hold | Wrong receptor subtype (FP vs IP); no mechanistic basis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
+          "score": 99.0
         }
       ]
     },
@@ -237271,6 +238346,17 @@
         {
           "drug": "Latanoprostene Bunod",
           "slug": "db11660",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Idiopathic granulomatous myositis | 99.41% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
           "score": 99.0
         }
       ]
@@ -237850,6 +238936,17 @@
       ]
     },
     {
+      "name": "Inclusion body myositis | 99.09% | L4 | 1 case report on anesthetizing an IBM patient (not IBM treatment)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Indian tick typhus | KG + DL",
       "drug_count": 3,
       "drugs": [
@@ -237899,6 +238996,17 @@
         {
           "drug": "Enfortumab Vedotin",
           "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Infectious bovine rhinotracheitis | 99.96% | L5 | 0 | Cattle disease; likely ontology mismatch",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
           "score": 99.0
         }
       ]
@@ -237976,6 +239084,17 @@
         {
           "drug": "Methyl Aminolevulinate",
           "slug": "methyl_aminolevulinate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Irritable bowel syndrome | 99.41% | L5 | S0 (Hold) | Speculative mechanism only, no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tetracaine",
+          "slug": "tetracaine",
           "score": 99.0
         }
       ]
@@ -239360,6 +240479,17 @@
       ]
     },
     {
+      "name": "Leukonychia totalis-acanthosis nigricans-like lesions-abnormal hair syndrome | 99.95% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Lewy body dementia | KG + DL",
       "drug_count": 11,
       "drugs": [
@@ -240044,6 +241174,17 @@
       ]
     },
     {
+      "name": "Malformation syndrome with odontal/periodontal component | 93.77% | L5 | S0 | Hold | 20 literature hits are all generic periodontitis papers with no mention of selexipag — confirmed false-positive text-mining signal",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Malignant Gastric Granular Cell Tumor | 99.89% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -240072,6 +241213,17 @@
         {
           "drug": "Enfortumab Vedotin",
           "slug": "enfortumab_vedotin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Malignant catarrh | 99.96% | L5 | 0 | Cattle disease; likely ontology mismatch",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
           "score": 99.0
         }
       ]
@@ -240310,6 +241462,17 @@
       ]
     },
     {
+      "name": "Microcystic/reticular schwannoma | 99.95% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Microinvasive Gastric Cancer | 99.94% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -240349,6 +241512,50 @@
         {
           "drug": "Carbetocin",
           "slug": "db01282",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine disorder | 99.17% | No trials, no literature | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selpercatinib",
+          "slug": "selpercatinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine disorder | 99.23% | L4 | 1 trial on postoperative headache (side effect, not migraine treatment) + 1 pediatric MRI sedation cohort",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine disorder | 99.92% | L3 | Small open-label trial (PMID [7911406](https://pubmed.ncbi.nlm.nih.gov/7911406/), 1994, n=46) and a case-series commentary (PMID [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/), 1997) on alpha-1 blockers for migraine prophylaxis; no follow-up large-scale trials since.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Terazosin",
+          "slug": "terazosin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine with brainstem aura | 99.05% | No trials, no literature | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selpercatinib",
+          "slug": "selpercatinib",
           "score": 99.0
         }
       ]
@@ -240643,6 +241850,17 @@
       ]
     },
     {
+      "name": "Moynahan syndrome (LEOPARD syndrome) | 99.96% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Moynahan syndrome | KG + DL",
       "drug_count": 15,
       "drugs": [
@@ -240832,6 +242050,17 @@
       ]
     },
     {
+      "name": "Myositis fibrosa | 99.41% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "NAA10-related syndrome | KG + DL",
       "drug_count": 8,
       "drugs": [
@@ -241005,12 +242234,34 @@
       ]
     },
     {
+      "name": "Neonatal dermatomyositis | 99.92% | L5 | S0 (Hold) | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tetracaine",
+          "slug": "tetracaine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Neonatal thyrotoxicosis | 99.40% | L3 | S2 | Proceed with Guardrails",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Propylthiouracil",
           "slug": "propylthiouracil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nephrogenic SIAD | 99.40% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
           "score": 99.0
         }
       ]
@@ -241126,6 +242377,17 @@
         {
           "drug": "Hyaluronidase",
           "slug": "hyaluronidase",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Normal breast-like subtype of breast carcinoma | 93.00% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
           "score": 99.0
         }
       ]
@@ -241350,6 +242612,17 @@
       ]
     },
     {
+      "name": "Osteopathia striata-pigmentary dermopathy-white forelock syndrome | 99.95% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Otitis Externa | 99.84% | L4 | Research Question | Mechanistic support exists; evidence is primarily veterinary",
       "drug_count": 1,
       "drugs": [
@@ -241445,6 +242718,61 @@
         {
           "drug": "Cortisone Acetate",
           "slug": "db01380",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "PAH associated with HIV infection | 97.78% | L4 | S1 | Research Question | Same WHO Group 1 mechanism, but no dedicated trial/literature in this dataset",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "PAH associated with chronic haemolytic anaemia | 97.78% | L5 | S0 | Hold | Mechanistically plausible (WHO Group 1) but zero trials/literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "PAH associated with congenital heart disease | 98.03% | L2 | S2 | Proceed with Guardrails | Primary indication in this report; 2 trials, no dedicated literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "PAH associated with connective tissue disease (CTD-PAH) | 97.78% | L1 | S3 | Proceed with Guardrails | **Strongest evidence in this screen** — GRIPHON pivotal RCT subgroup + multiple real-world registries (EXPOSURE, SPHERE); recommend prioritizing over the top-ranked candidate",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "PAH associated with schistosomiasis | 97.78% | L3 | S1 | Research Question | 1 Phase 2 trial (status unknown) + 1 not-yet-recruiting trial; evidence still emerging",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
           "score": 99.0
         }
       ]
@@ -242226,6 +243554,17 @@
       ]
     },
     {
+      "name": "Pityriasis lichenoides | 92.29% | L4 | Hold (adverse-effect signal, not efficacy)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Pityriasis lichenoides | 99.13% | L5 | Hold | Theoretical basis; no studies identified",
       "drug_count": 1,
       "drugs": [
@@ -242749,6 +244088,28 @@
       ]
     },
     {
+      "name": "Prinzmetal angina | 99.78% | L5 | No trials, no literature — pure model prediction",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Prinzmetal angina | 99.84% | L5 | 0 | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Prinzmetal angina | KG + DL",
       "drug_count": 102,
       "drugs": [
@@ -242811,6 +244172,28 @@
         {
           "drug": "Dexpanthenol",
           "slug": "dexpanthenol",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Progesterone-receptor negative breast cancer | 92.67% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Progesterone-receptor positive breast cancer | 93.00% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
           "score": 99.0
         }
       ]
@@ -242948,6 +244331,17 @@
       ]
     },
     {
+      "name": "Psoriasis | 94.03% | L5 | **Research Question**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Psoriasis | 99.44% | L3 | Research Question | Literature only; nail psoriasis niche may be viable",
       "drug_count": 1,
       "drugs": [
@@ -242988,6 +244382,17 @@
           "drug": "Ambrisentan",
           "slug": "ambrisentan",
           "score": 99.41
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary arteriovenous malformation | 98.00% | L5 | S0 | Hold | Structural vascular malformation, mechanistically unrelated; no trials/literature — likely embedding artifact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selexipag",
+          "slug": "selexipag",
+          "score": 99.0
         }
       ]
     },
@@ -243313,6 +244718,17 @@
       ]
     },
     {
+      "name": "Raynaud disease | 99.83% | L3 | Small clinical study (PMID [9273472](https://pubmed.ncbi.nlm.nih.gov/9273472/), 1997) reporting reduced vasospastic attack frequency/severity with terazosin; mechanistically plausible via alpha-1-mediated vasoconstriction blockade.",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Terazosin",
+          "slug": "terazosin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Raynaud disease | KG + DL",
       "drug_count": 35,
       "drugs": [
@@ -243541,6 +244957,17 @@
         {
           "drug": "Rifaximin",
           "slug": "db01220",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Rhabdoid tumor | 99.96% | L3 | S1 | Research Question (1 basket trial, 1 preclinical paper)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Selumetinib",
+          "slug": "selumetinib",
           "score": 99.0
         }
       ]
@@ -244045,6 +245472,17 @@
       ]
     },
     {
+      "name": "Secondary ILD (childhood, connective tissue disease) | 99.92% | L5 | S0 (Hold) | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tetracaine",
+          "slug": "tetracaine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Senior-Boichis syndrome | KG + DL",
       "drug_count": 4,
       "drugs": [
@@ -244157,6 +245595,17 @@
         {
           "drug": "Belimumab",
           "slug": "belimumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Severe nonproliferative diabetic retinopathy | 97.34% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Tafasitamab",
+          "slug": "tafasitamab",
           "score": 99.0
         }
       ]
@@ -245019,6 +246468,17 @@
       ]
     },
     {
+      "name": "TR-β resistance to thyroid hormone | 99.92% | L5 | 0 | No mechanistic link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "TSH producing pituitary tumor | KG + DL",
       "drug_count": 1,
       "drugs": [
@@ -245136,6 +246596,17 @@
       ]
     },
     {
+      "name": "Tendinitis | 99.41% | L4 | 11 papers, all on perioperative anesthesia for tendon/orthopedic surgery, not tendinitis treatment",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Tenosynovitis | 99.80% | L2 | Proceed with Guardrails | Prednisone is already standard therapy for RA/PMR/ICI-induced inflammatory tenosynovitis — this reflects established practice, not a novel repurposing signal.",
       "drug_count": 1,
       "drugs": [
@@ -245202,6 +246673,17 @@
       ]
     },
     {
+      "name": "Thrombotic disease | 99.94% | L5 | 0 | No known CCK–coagulation link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sincalide",
+          "slug": "sincalide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Thyroid hormone resistance (THRB mutation) | 99.30% | L5 | Hold | No evidence; rare monogenic disease unrelated to CDK4/6",
       "drug_count": 1,
       "drugs": [
@@ -245240,6 +246722,17 @@
         {
           "drug": "Trientine Hydrochloride",
           "slug": "db06824",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Tourette syndrome | 99.50% | L5 | No trials, no literature — pure model prediction",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
           "score": 99.0
         }
       ]
@@ -245411,6 +246904,17 @@
           "drug": "Risperidone",
           "slug": "risperidone",
           "score": 99.51
+        }
+      ]
+    },
+    {
+      "name": "Trichotillomania | 99.33% | L5 | No trials, no literature",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sevoflurane",
+          "slug": "sevoflurane",
+          "score": 99.0
         }
       ]
     },
