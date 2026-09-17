@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lidocaine
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 465
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Lidocaine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Lidocaine is a well-established amide-type local anesthetic and Class Ib antiarr
 | Predicted New Indication | Conjunctival Disorder (best-evidenced candidate; see note below on TxGNN's top-scored but unsupported prediction) |
 | TxGNN Prediction Score | 99.84% (rank 3,700 of full prediction list) |
 | Evidence Level | L3 |
-| Canada Market Status | 未上市 (Not marketed) |
+| Canada Market Status | Not marketed (Not marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 
@@ -99,7 +99,7 @@ In short, the actionable hypothesis is narrower and more specific than "conjunct
 
 ## Canada Market Information
 
-Lidocaine is not currently marketed in Canada under this evidence pack's data source (market status: 未上市), and no DIN/license records are available.
+Lidocaine is not currently marketed in Canada under this evidence pack's data source (market status: Not marketed), and no DIN/license records are available.
 
 ---
 

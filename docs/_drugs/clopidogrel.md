@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clopidogrel
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 188
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -120,7 +120,7 @@ The CANOA Phase 4 RCT (n=220, published in JAMA 2015 and JAMA Cardiology 2021) p
 
 **To proceed, the following is needed:**
 
-- **Regulatory verification:** Confirm Clopidogrel's actual Canadian DIN status via the Health Canada Drug Product Database — current data showing "未上市" (not marketed) is inconsistent with known market availability and requires correction
+- **Regulatory verification:** Confirm Clopidogrel's actual Canadian DIN status via the Health Canada Drug Product Database — current data showing "Not marketed" (not marketed) is inconsistent with known market availability and requires correction
 - **Safety review:** Obtain and review the full package insert for approved warnings, contraindications (especially active bleeding disorders and hypersensitivity), and drug-drug interactions (notably PPIs via CYP2C19 competition, NSAIDs, anticoagulants)
 - **Pharmacogenomics:** CYP2C19 genotyping is clinically significant — poor metabolizers (~15–30% of East Asians, 2–5% of Europeans) show substantially reduced Clopidogrel activation; efficacy in migraine may be genotype-dependent
 - **Patient selection criteria:** Define the target subpopulation — patients with **confirmed PFO or right-to-left shunt** and **migraine with brainstem aura refractory to ≥2 standard preventive agents** represent the most evidence-backed candidates

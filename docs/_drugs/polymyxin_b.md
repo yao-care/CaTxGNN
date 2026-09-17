@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Polymyxin B
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Polymyxin B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -33,14 +33,14 @@ indication_count: 3
 
 ## One-Sentence Summary
 
-Polymyxin B is a polymyxin-class antibacterial agent; TFDA records show it currently holds **no marketing authorization in Taiwan** (未上市), so no approved local indication is on file. TxGNN predicts three new indications — **Conjunctivitis**, **Bronchitis**, and **Laryngotracheitis** — but the evidence backing them differs sharply: conjunctivitis is supported by **3 clinical trials and 20 publications (including 4 Tier-1 RCTs)**, bronchitis by **14 publications and no trials**, and laryngotracheitis by **no trials or literature at all** (model prediction only).
+Polymyxin B is a polymyxin-class antibacterial agent; TFDA records show it currently holds **no marketing authorization in Taiwan** (Not marketed), so no approved local indication is on file. TxGNN predicts three new indications — **Conjunctivitis**, **Bronchitis**, and **Laryngotracheitis** — but the evidence backing them differs sharply: conjunctivitis is supported by **3 clinical trials and 20 publications (including 4 Tier-1 RCTs)**, bronchitis by **14 publications and no trials**, and laryngotracheitis by **no trials or literature at all** (model prediction only).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not available — no approved indication text on file (drug not marketed in Taiwan) |
-| Taiwan (TFDA) Market Status | ✗ Not Marketed (未上市) |
+| Taiwan (TFDA) Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Marketing Authorizations | 0 |
 | Candidate 1 — Conjunctivitis | TxGNN 99.06% · Evidence Level **L1** · Decision Stage S3 · **Proceed with Guardrails** |
 | Candidate 2 — Bronchitis | TxGNN 99.87% · Evidence Level **L4** · Decision Stage S1 · **Hold** |
@@ -113,7 +113,7 @@ Currently no related literature available
 
 ## Taiwan Market Information
 
-Polymyxin B currently holds **zero marketing authorizations** in Taiwan (market status: 未上市 / Not Marketed). No license records, product names, dosage forms, or approved-indication text are available.
+Polymyxin B currently holds **zero marketing authorizations** in Taiwan (market status: Not marketed / Not Marketed). No license records, product names, dosage forms, or approved-indication text are available.
 
 ## Safety Considerations
 

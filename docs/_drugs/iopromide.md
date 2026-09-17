@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iopromide
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Iopromide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -41,11 +41,11 @@ Iopromide 是一種非離子型低滲透壓碘化顯影劑，原始用途為 CT�
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 顯影造影劑（CT／血管攝影影像增強），非治療性用途；加拿大未上市，無核准適應症紀錄 |
+| 原始適應症 | 顯影造影劑（CT／血管攝影影像增強），非治療性用途；加拿大Not marketed，無核准適應症紀錄 |
 | 預測新適應症 | Osteoarthritis susceptibility（骨關節炎易感性） |
 | TxGNN 預測分數 | 99.57%（排名第 8382） |
 | 證據等級 | L5（僅模型預測，無任何實際研究） |
-| 加拿大市場狀態 | 未上市 |
+| 加拿大市場狀態 | Not marketed |
 | DIN 數量 | 0 |
 | 建議決策 | Hold（暫緩） |
 
@@ -75,7 +75,7 @@ Iopromide 是一種非離子型低滲透壓碘化顯影劑，原始用途為 CT�
 
 ## 加拿大市場資訊
 
-Iopromide 目前在加拿大**未上市**，無有效藥品許可證（DIN）紀錄，故無法提供核准適應症或劑型資訊。
+Iopromide 目前在加拿大**Not marketed**，無有效藥品許可證（DIN）紀錄，故無法提供核准適應症或劑型資訊。
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loteprednol Etabonate
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Loteprednol Etabonate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ but this prediction is currently supported by **0 clinical trials** and **0 publ
 | Predicted New Indication | Serous Conjunctivitis (Non-Viral) |
 | TxGNN Prediction Score | 99.69% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed (未上市) |
+| Canada Market Status | ✗ Not Marketed (Not marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 

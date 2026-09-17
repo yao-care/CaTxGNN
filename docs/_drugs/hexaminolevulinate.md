@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hexaminolevulinate
-parent: 中證據等級 (L3-L4)
+parent: Moderate Evidence (L3-L4)
 nav_order: 380
 evidence_level: L3
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Hexaminolevulinate
 {: .fs-9 }
 
-證據等級: **L3** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -49,7 +49,7 @@ indication_count: 10
 | 預測新適應症 | Colonic Neoplasm（大腸贅生病灶） |
 | TxGNN 預測分數 | 98.64% |
 | 證據等級 | L3 |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -91,7 +91,7 @@ Hexaminolevulinate 目前**未於台灣上市**，無許可證核發紀錄（tot
 
 請參閱藥品仿單以獲取安全性資訊。
 
-*（資料缺口 DG001：TFDA 仿單警語/禁忌尚未取得，嚴重度為 Blocking，此為進入 S1 安全性初評前必須補齊的項目。）*
+*（資料缺口 DG001：Health Canada package insert warnings/contraindications尚未取得，嚴重度為 Blocking，此為進入 S1 安全性初評前必須補齊的項目。）*
 
 ---
 
@@ -103,7 +103,7 @@ Hexaminolevulinate 目前**未於台灣上市**，無許可證核發紀錄（tot
 現有證據僅為 Phase 1/2 早期概念驗證等級（1 件完成、1 件因收案不足終止、1 件招募失敗撤回），尚無 Phase 3 隨機對照試驗或已發表文獻佐證；同時關鍵的安全性仿單資料（DG001，Blocking）與正式作用機轉紀錄（DG002，High）皆為缺口，尚不足以支持進入下一階段評估。
 
 **若要繼續推進，需要補齊：**
-- TFDA 仿單警語/禁忌資料（DG001，Blocking，須下載並解析官方仿單 PDF）
+- Health Canada package insert warnings/contraindications資料（DG001，Blocking，須下載並解析官方仿單 PDF）
 - 經 DrugBank API 查證之正式作用機轉（MOA）紀錄（DG002）
 - 針對大腸贅生病灶偵測之更大規模、完整收案的 Phase 2/3 臨床試驗
 - 獨立同儕審查文獻以佐證現有臨床試驗發現

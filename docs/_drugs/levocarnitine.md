@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Levocarnitine
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Levocarnitine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -33,7 +33,7 @@ indication_count: 10
 
 ## One-Sentence Summary
 
-Levocarnitine (DB00583) has no Taiwan/Canada regulatory license or original-indication record in this evidence pack (it is currently **未上市 / not marketed** in Canada, 0 DINs), so its established clinical use cannot be sourced here — it is generally known as the endogenous mitochondrial fatty-acid transport cofactor. TxGNN scored **10 candidate indications** at very high but closely clustered confidence (99.4–99.9%); when cross-checked against real clinical trial and PubMed evidence, three stand out as genuinely actionable — **rheumatoid arthritis**, **congestive heart failure**, and **diabetic nephropathy** — while the other seven (including the single highest-scored disease) have **zero or irrelevant evidence** and appear to be model noise.
+Levocarnitine (DB00583) has no Taiwan/Canada regulatory license or original-indication record in this evidence pack (it is currently **Not marketed / not marketed** in Canada, 0 DINs), so its established clinical use cannot be sourced here — it is generally known as the endogenous mitochondrial fatty-acid transport cofactor. TxGNN scored **10 candidate indications** at very high but closely clustered confidence (99.4–99.9%); when cross-checked against real clinical trial and PubMed evidence, three stand out as genuinely actionable — **rheumatoid arthritis**, **congestive heart failure**, and **diabetic nephropathy** — while the other seven (including the single highest-scored disease) have **zero or irrelevant evidence** and appear to be model noise.
 
 ---
 
@@ -45,7 +45,7 @@ Levocarnitine (DB00583) has no Taiwan/Canada regulatory license or original-indi
 |------|------|
 | Original Indication | Not available — `original_indications` is empty and no Taiwan/Canada license record exists in this pack |
 | Original MOA | Not directly documented (Data Gap DG002); mechanism inferred below from the literature captured in this evidence base |
-| Canada Market Status | 未上市 (Not marketed) |
+| Canada Market Status | Not marketed (Not marketed) |
 | Number of DINs | 0 |
 | Predicted Indications Evaluated | 10 (TxGNN top-ranked candidates) |
 | Indications with Actionable Evidence (≥L3) | 3 — Diabetic Nephropathy (L3), Rheumatoid Arthritis (L2), Congestive Heart Failure (L2) |
@@ -182,7 +182,7 @@ By contrast, the top-ranked prediction (a rare hematuria/retinal-tortuosity synd
 
 ## Canada Market Information
 
-Levocarnitine is **not marketed** in Canada under this evidence pack (`market_status: 未上市`, `total_licenses: 0`). No DIN or product-level licensing data is available, so the standard authorization table is omitted.
+Levocarnitine is **not marketed** in Canada under this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No DIN or product-level licensing data is available, so the standard authorization table is omitted.
 
 ---
 

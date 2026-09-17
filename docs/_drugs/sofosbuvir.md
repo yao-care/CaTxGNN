@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 728
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -91,7 +91,7 @@ One direct exception exists: a Phase 2 open-label pilot study (NCT03312023 / PMI
 
 ## Canada Market Information
 
-Sofosbuvir is currently **not marketed in Canada** under this evidence pack (market status: 未上市 / Not Marketed), with **0 Drug Identification Numbers (DINs)** on file. No product license or approved-indication data is available to summarize.
+Sofosbuvir is currently **not marketed in Canada** under this evidence pack (market status: Not marketed / Not Marketed), with **0 Drug Identification Numbers (DINs)** on file. No product license or approved-indication data is available to summarize.
 
 ---
 

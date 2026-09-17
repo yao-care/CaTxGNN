@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pimecrolimus
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 620
-evidence_level: L5
+evidence_level: L2
 indication_count: 4
 ---
 
 # Pimecrolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ with **1 clinical trial** and **18 publications** — including two systematic r
 | Predicted New Indication | Seborrheic Dermatitis |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L2 |
-| Canada Market Status | 未上市 (Not Marketed) |
+| Canada Market Status | Not marketed (Not Marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -92,7 +92,7 @@ A completed Phase 2 RCT plus two systematic reviews of RCTs (L2 evidence) suppor
 **To proceed, the following is needed:**
 - Health Canada product monograph warnings/contraindications (DG001, blocking)
 - Detailed mechanism of action confirmation from DrugBank/primary sources (DG002, high)
-- Assessment of a Canadian market/access pathway given 未上市 status (0 DIN)
+- Assessment of a Canadian market/access pathway given Not marketed status (0 DIN)
 - Independent evidence review for the lower-confidence secondary predictions (dermatitis, exanthem, acrodermatitis chronica atrophicans) before any broader indication claims
 ## Disclaimer
 

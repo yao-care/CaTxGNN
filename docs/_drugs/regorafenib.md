@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Regorafenib
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 672
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Regorafenib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Regorafenib is an oral multikinase inhibitor (VEGFR1-3, TIE2, PDGFR-β, FGFR, KI
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L2 (direct RCT evidence exists, but is negative for this specific subtype) |
-| Canada Market Status | 未上市 (Not Marketed) |
+| Canada Market Status | Not marketed (Not Marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 
@@ -87,7 +87,7 @@ However, the direct clinical evidence undercuts the mechanistic rationale for th
 
 ## Canada Market Information
 
-Regorafenib is currently **not marketed in Canada** (`market_status: 未上市`, 0 DINs on file). No Health Canada license records are available for this drug.
+Regorafenib is currently **not marketed in Canada** (`market_status: Not marketed`, 0 DINs on file). No Health Canada license records are available for this drug.
 
 ---
 

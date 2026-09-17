@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Heparin
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 379
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Heparin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -81,7 +81,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-No Health Canada authorization (DIN) records were found for Heparin in this dataset (`total_licenses: 0`, `market_status: 未上市`). This indicates either a data-collection gap or that the product is not currently marketed under the queried identifiers — this should be confirmed directly against the Health Canada Drug Product Database before proceeding further.
+No Health Canada authorization (DIN) records were found for Heparin in this dataset (`total_licenses: 0`, `market_status: Not marketed`). This indicates either a data-collection gap or that the product is not currently marketed under the queried identifiers — this should be confirmed directly against the Health Canada Drug Product Database before proceeding further.
 
 ---
 

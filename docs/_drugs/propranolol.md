@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Propranolol
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Propranolol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Propranolol is a non-selective beta-adrenergic blocker with long-established car
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 99.40% |
 | Evidence Level | L5 |
-| Canada Market Status | 未上市 (Not Marketed) |
+| Canada Market Status | Not marketed (Not Marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Currently no related literature available
 
 ## Canada Market Information
 
-Propranolol has no active Health Canada drug licenses on file in this evidence pack (`total_licenses: 0`, market status: 未上市 / Not Marketed). No DIN-level product or indication data is available.
+Propranolol has no active Health Canada drug licenses on file in this evidence pack (`total_licenses: 0`, market status: Not marketed / Not Marketed). No DIN-level product or indication data is available.
 
 ---
 

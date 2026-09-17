@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Selinexor
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Selinexor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -43,11 +43,11 @@ indication_count: 1
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple Myeloma / DLBCL（國際核准適應症，非加拿大官方藥證資料，加拿大未上市） |
+| Original Indication | Multiple Myeloma / DLBCL（國際核准適應症，非加拿大官方藥證資料，加拿大Not marketed） |
 | Predicted New Indication | Drug-Induced Osteoporosis |
 | TxGNN Prediction Score | 99.22% |
 | Evidence Level | L5 |
-| Canada Market Status | 未上市 |
+| Canada Market Status | Not marketed |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 
@@ -108,7 +108,7 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-此預測證據等級僅為 L5（無臨床試驗、無文獻支持），且機轉分析明確指出 XPO1 抑制與骨代謝保護無已知關聯、甚至可能因全身性副作用加重骨質流失，判斷為極可能的假陽性。此外藥品於加拿大尚未上市，安全性資料（仿單警語、禁忌症）為 Blocking 等級缺口，尚無法進入下一階段評估。
+此預測證據等級僅為 L5（無臨床試驗、無文獻支持），且機轉分析明確指出 XPO1 抑制與骨代謝保護無已知關聯、甚至可能因全身性副作用加重骨質流失，判斷為極可能的假陽性。此外藥品於加拿大尚Not marketed，安全性資料（仿單警語、禁忌症）為 Blocking 等級缺口，尚無法進入下一階段評估。
 
 **To proceed, the following is needed:**
 - 補齊 DrugBank MOA 正式資料（DG002）

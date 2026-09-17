@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Liothyronine
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 468
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Liothyronine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -46,7 +46,7 @@ Among TxGNN's top 10 predictions, only **Nodular Goiter** is backed by real-worl
 | Predicted New Indication | Nodular Goiter (disease) |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L3 |
-| Canada Market Status | 未上市 (Not marketed) |
+| Canada Market Status | Not marketed (Not marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 
@@ -92,7 +92,7 @@ Neither trial directly tests liothyronine in nodular goiter; both are mechanism-
 
 ## Canada Market Information
 
-Liothyronine currently has **no Health Canada market authorization** in this dataset (0 DINs, market status: 未上市/Not marketed). No product license records are available to summarize.
+Liothyronine currently has **no Health Canada market authorization** in this dataset (0 DINs, market status: Not marketed/Not marketed). No product license records are available to summarize.
 
 ---
 

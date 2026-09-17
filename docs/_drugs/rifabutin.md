@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rifabutin
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 677
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Rifabutin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Rifabutin is a rifamycin-class antibacterial, historically used to prevent and t
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L1 |
-| Canada Market Status | 未上市 (Not marketed) |
+| Canada Market Status | Not marketed (Not marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ In other words, the high TxGNN score and L1 evidence tier are real, but they lar
 
 ## Canada Market Information
 
-Rifabutin currently has **no active drug licenses in Canada** (market status: 未上市 / not marketed, 0 DINs on record). No product/DIN-level information is available to summarize.
+Rifabutin currently has **no active drug licenses in Canada** (market status: Not marketed / not marketed, 0 DINs on record). No product/DIN-level information is available to summarize.
 
 ---
 

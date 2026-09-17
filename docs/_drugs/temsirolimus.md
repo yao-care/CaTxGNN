@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Temsirolimus
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 755
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
 ---
 
 # Temsirolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Temsirolimus (Torisel) is an intravenous mTOR inhibitor originally developed and
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L2 |
-| Canada Market Status | ✗ Not marketed (未上市) |
+| Canada Market Status | ✗ Not marketed (Not marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 

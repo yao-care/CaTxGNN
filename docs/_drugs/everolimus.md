@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Everolimus
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 313
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Everolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -84,7 +84,7 @@ This mechanistic convergence has been directly translated into an active clinica
 
 ## Taiwan Market Information
 
-Everolimus currently holds no approved drug licenses in Taiwan (未上市) and has no registered products on record. International regulatory approvals exist from the FDA and EMA for renal cell carcinoma, HR+/HER2− breast cancer (postmenopausal), pancreatic neuroendocrine tumors, tuberous sclerosis complex-associated tumors, and transplant rejection prevention. A dedicated Taiwan regulatory filing process would be required before any domestic clinical use.
+Everolimus currently holds no approved drug licenses in Taiwan (Not marketed) and has no registered products on record. International regulatory approvals exist from the FDA and EMA for renal cell carcinoma, HR+/HER2− breast cancer (postmenopausal), pancreatic neuroendocrine tumors, tuberous sclerosis complex-associated tumors, and transplant rejection prevention. A dedicated Taiwan regulatory filing process would be required before any domestic clinical use.
 
 ---
 

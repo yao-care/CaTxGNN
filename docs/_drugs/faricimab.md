@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Faricimab
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Faricimab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidence Level: **L5** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -46,7 +46,7 @@ Faricimab（DrugBank ID：DB15303）在本次 Evidence Pack 中**無原適應症
 | 預測新適應症 | 無預測結果 |
 | TxGNN 預測分數 | N/A |
 | 證據等級 | N/A（無預測資料） |
-| 市場狀態 | 未上市 |
+| 市場狀態 | Not marketed |
 | 核准許可證數量 | 0 |
 | 建議決策 | **Hold** |
 
@@ -63,8 +63,8 @@ Faricimab（DrugBank ID：DB15303）在本次 Evidence Pack 中**無原適應症
 
 | 優先級 | 缺口 ID | 缺少資料 | 修補方式 |
 |--------|---------|---------|---------|
-| 🔴 Blocking | DG001 | 原廠仿單警語與禁忌 | 從 TFDA 官網下載仿單 PDF 並解析 |
-| 🟠 High | DG002 | 作用機轉（MOA） | 查詢 DrugBank API（DB15303） |
+| 🔴 Blocking | DG001 | 原廠仿單警語與禁忌 | 從 Health Canada websiteDownload and parse the package insert PDF |
+| 🟠 High | DG002 | 作用機轉（MOA） | Query the DrugBank API（DB15303） |
 | 🟠 High | — | 原始核准適應症（`original_indications` 為空） | 補齊 DrugBank / 藥品仿單中的核准適應症 |
 | 🟠 High | — | TxGNN 預測結果（`predicted_indications` 為空陣列） | 確認 FARICIMAB 已納入預測管線並重新執行 |
 | 🟡 Medium | — | DDI 資料（查詢無結果） | 確認藥物英文名/別名後重新查詢 |

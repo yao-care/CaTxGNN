@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Phenytoin
-parent: 僅模型預測 (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 618
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Phenytoin is a long-established antiepileptic drug used for seizure disorders. W
 | Predicted New Indication | Trigeminal Neuralgia |
 | TxGNN Prediction Score | 99.97% (rank 1119 of predictions) |
 | Evidence Level | L3 |
-| Canada Market Status | Not marketed (未上市) |
+| Canada Market Status | Not marketed (Not marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -78,7 +78,7 @@ Trigeminal neuralgia is a paroxysmal facial pain syndrome driven by aberrant, hi
 
 ## Canada Market Information
 
-Phenytoin currently has **no active Health Canada drug identification numbers (DINs) recorded in this evidence pack** — market status is "未上市" (Not marketed), with 0 total licenses. No product/dosage-form table can be generated from this data.
+Phenytoin currently has **no active Health Canada drug identification numbers (DINs) recorded in this evidence pack** — market status is "Not marketed" (Not marketed), with 0 total licenses. No product/dosage-form table can be generated from this data.
 
 ## Safety Considerations
 

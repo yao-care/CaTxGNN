@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Laronidase
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Laronidase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Laronidase (recombinant human alpha-L-iduronidase) is the enzyme replacement the
 | Predicted New Indication | Lysosomal storage disease with skeletal involvement |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L3 (observational/cohort evidence; no completed RCTs specific to this label) |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Licenses | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

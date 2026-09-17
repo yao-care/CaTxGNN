@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Haloperidol
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 377
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -100,7 +100,7 @@ Of the remaining 9 TxGNN-predicted candidates in this evidence pack (rare congen
 
 ## Canada Market Information
 
-Haloperidol currently has **no active product licenses on file** in this dataset — `market_status` is "未上市" (Not Marketed) with `total_licenses = 0`. No DIN-level product table can be produced from this Evidence Pack. This should be independently verified against Health Canada's Drug Product Database before any regulatory-facing decision, since haloperidol is a long-marketed generic in many jurisdictions and absence here may reflect a data collection gap rather than true non-availability.
+Haloperidol currently has **no active product licenses on file** in this dataset — `market_status` is "Not marketed" (Not Marketed) with `total_licenses = 0`. No DIN-level product table can be produced from this Evidence Pack. This should be independently verified against Health Canada's Drug Product Database before any regulatory-facing decision, since haloperidol is a long-marketed generic in many jurisdictions and absence here may reflect a data collection gap rather than true non-availability.
 
 ---
 

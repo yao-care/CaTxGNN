@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Latanoprostene Bunod
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Latanoprostene Bunod
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -43,7 +43,7 @@ Latanoprostene bunod is a nitric oxide (NO)-donating prostaglandin analog used i
 | Predicted New Indication | Visceral Calciphylaxis |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L5 |
-| Canada Market Status | 未上市 (Not Marketed) |
+| Canada Market Status | Not marketed (Not Marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 
@@ -65,7 +65,7 @@ Currently no related literature available
 
 ## Canada Market Information
 
-This drug is not currently authorized for sale in Canada — market status is "未上市" (not marketed) with 0 DINs on record. No product licenses are available to summarize.
+This drug is not currently authorized for sale in Canada — market status is "Not marketed" (not marketed) with 0 DINs on record. No product licenses are available to summarize.
 
 ## Safety Considerations
 

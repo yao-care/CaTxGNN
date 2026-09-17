@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Riluzole
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 680
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Riluzole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -59,7 +59,7 @@ Riluzole's original indication is not recorded in this dataset, but it is global
 
 Detailed mechanism-of-action data is not on file in the regulatory record for this drug (data gap). However, the evidence pack's own repurposing rationale supplies the mechanistic basis: riluzole inhibits presynaptic glutamate release and blocks voltage-gated sodium channels, reducing glutamate-mediated excitotoxicity in motor neurons — one of the three core pathophysiological mechanisms of ALS (alongside oxidative stress and mitochondrial dysfunction).
 
-Because riluzole is already the internationally approved standard-of-care drug for ALS, this "predicted new indication" is not a novel repurposing signal — it is TxGNN correctly re-identifying the drug's own established use. The "未上市 / Not marketed" status in this dataset most plausibly reflects that riluzole has not yet obtained a market authorization in this jurisdiction, not an absence of efficacy evidence.
+Because riluzole is already the internationally approved standard-of-care drug for ALS, this "predicted new indication" is not a novel repurposing signal — it is TxGNN correctly re-identifying the drug's own established use. The "Not marketed / Not marketed" status in this dataset most plausibly reflects that riluzole has not yet obtained a market authorization in this jurisdiction, not an absence of efficacy evidence.
 
 By contrast, the other top-ranked-by-score predictions in this batch (bilateral parasagittal parieto-occipital polymicrogyria, axial spondylometaphyseal dysplasia, trichomegaly-retina pigmentary degeneration-dwarfism syndrome, lethal arthrogryposis-anterior horn cell disease syndrome, autosomal dominant mitochondrial myopathy) involve developmental, skeletal, or metabolic pathology with no known connection to glutamate excitotoxicity or sodium-channel blockade. The evidence pack itself labels these as likely model noise, with zero supporting trials or literature.
 

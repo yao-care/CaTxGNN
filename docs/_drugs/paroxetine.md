@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paroxetine
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 598
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Paroxetine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Paroxetine (DrugBank ID DB00715) is a selective serotonin reuptake inhibitor (SS
 | Predicted New Indication | Ohdo Syndrome and Variants |
 | TxGNN Prediction Score | 99.11% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not Marketed (未上市) |
+| Taiwan Market Status | Not Marketed (Not marketed) |
 | Number of Licenses | 0 |
 | Recommended Decision | Hold |
 

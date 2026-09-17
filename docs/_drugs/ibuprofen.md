@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ibuprofen
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Ibuprofen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -42,11 +42,11 @@ The TxGNN model predicts it may be relevant to **Acromesomelic Dysplasia, Hunter
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from Canadian regulatory data (no licenses on file; drug currently 未上市/Not Marketed in Canada). Ibuprofen is universally known as an NSAID for pain, fever, and inflammation, but this is general pharmacological knowledge, not sourced from the regulatory dataset. |
+| Original Indication | Not available from Canadian regulatory data (no licenses on file; drug currently Not marketed/Not Marketed in Canada). Ibuprofen is universally known as an NSAID for pain, fever, and inflammation, but this is general pharmacological knowledge, not sourced from the regulatory dataset. |
 | Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L5 (model prediction only — no clinical trials, no literature) |
-| Canada Market Status | ✗ Not Marketed (未上市) |
+| Canada Market Status | ✗ Not Marketed (Not marketed) |
 | Number of DINs | 0 |
 | Recommended Decision | **Hold** |
 
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-No active Health Canada market authorizations (DINs) were found for Ibuprofen in this dataset — market status is recorded as **未上市 (Not Marketed)**, with 0 total licenses on file.
+No active Health Canada market authorizations (DINs) were found for Ibuprofen in this dataset — market status is recorded as **Not marketed (Not Marketed)**, with 0 total licenses on file.
 
 ---
 
