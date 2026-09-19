@@ -29,76 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iopromide：從顯影造影劑到骨關節炎易感性（Osteoarthritis Susceptibility）
+# Iopromide: From Contrast Agent to Osteoarthritis Susceptibility
 
-## 一句話摘要
+## One-sentence Summary
 
-Iopromide 是一種非離子型低滲透壓碘化顯影劑，原始用途為 CT／血管攝影等影像檢查時的顯影增強，並非治療特定疾病的藥物。TxGNN 模型預測其可能與**骨關節炎易感性（Osteoarthritis Susceptibility）**相關，惟目前**0 篇臨床試驗、0 篇文獻**支持此關聯，證據等級最低，且高分疑似為知識圖譜混淆所致的偽陽性。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 顯影造影劑（CT／血管攝影影像增強），非治療性用途；加拿大Not marketed，無核准適應症紀錄 |
-| 預測新適應症 | Osteoarthritis susceptibility（骨關節炎易感性） |
-| TxGNN 預測分數 | 99.57%（排名第 8382） |
-| 證據等級 | L5（僅模型預測，無任何實際研究） |
-| 加拿大市場狀態 | Not marketed |
-| DIN 數量 | 0 |
-| 建議決策 | Hold（暫緩） |
+Iopromide is a nonionic, low-osmolarity iodinated contrast agent whose original purpose is contrast enhancement in imaging procedures such as CT and angiography, not a drug for treating specific diseases. The TxGNN model predicts a possible association with **osteoarthritis susceptibility**, but currently **0 clinical trials and 0 literature reports** support this association. The evidence level is lowest, and the high score is suspected to be a false positive resulting from knowledge graph confusion.
 
 ---
 
-## 為何此預測看似合理？
+## Quick Overview
 
-目前尚無詳細的作用機轉（MOA）資料。根據現有資訊，Iopromide 屬於非離子型低滲透壓碘化顯影劑家族，其臨床應用僅限於 CT、血管攝影等影像診斷時的對比增強，並無已知的藥理治療機轉，也未被核准用於治療任何疾病。
-
-從機轉角度看，顯影劑與骨關節炎之間沒有已知的生物學連結——骨關節炎的病理機轉涉及軟骨退化、關節發炎與骨贅生成，而顯影劑僅作用於 X 光衰減特性以利影像判讀，不具抗發炎、軟骨保護或修復相關藥理活性。
-
-證據包內同一藥物針對 rank 2（osteoarthritis）的預測理由已明確指出：TxGNN 給出的高分很可能源自知識圖譜混淆——顯影劑因大量用於「疾病影像診斷」相關文獻中，與各種疾病病名高頻共現，被模型誤判為治療性關聯，而非真正的療效訊號。此一混淆模式同樣適用於本項排名第一的 osteoarthritis susceptibility 預測，且該項目連一篇共現文獻都沒有，機轉合理性更為薄弱。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
+| Item | Content |
+|------|---------|
+| Original indication | Contrast agent (CT/angiography image enhancement), non-therapeutic use; Not marketed in Canada, no approved indication records |
+| Predicted new indication | Osteoarthritis susceptibility |
+| TxGNN prediction score | 99.57% (rank 8382) |
+| Evidence level | L5 (model prediction only, no actual research) |
+| Canadian market status | Not marketed |
+| DIN count | 0 |
+| Recommended decision | Hold |
 
 ---
 
-## 文獻證據
+## Why Might This Prediction Appear Reasonable?
 
-目前無相關文獻資料。
+Currently, there is no detailed mechanism of action (MOA) data available. Based on available information, iopromide belongs to the nonionic, low-osmolarity iodinated contrast agent family, with clinical applications limited to contrast enhancement in imaging diagnosis such as CT and angiography. It has no known pharmacological therapeutic mechanism and has not been approved for treatment of any disease.
 
----
+From a mechanistic perspective, there is no known biological link between contrast agents and osteoarthritis—the pathophysiology of osteoarthritis involves cartilage degeneration, joint inflammation, and osteophyte formation, whereas contrast agents only act on X-ray attenuation properties to facilitate image interpretation and lack anti-inflammatory, cartilage-protective, or repair-related pharmacological activity.
 
-## 加拿大市場資訊
-
-Iopromide 目前在加拿大**Not marketed**，無有效藥品許可證（DIN）紀錄，故無法提供核准適應症或劑型資訊。
+The prediction rationale within the evidence package for the same drug regarding rank 2 (osteoarthritis) has already clearly indicated that the high score given by TxGNN likely originates from knowledge graph confusion—because contrast agents are frequently used in literature related to "disease imaging diagnosis" and co-occur at high frequency with various disease names, the model misinterprets them as therapeutic associations rather than genuine therapeutic signals. This pattern of confusion equally applies to the present rank-1 osteoarthritis susceptibility prediction, and moreover, this item lacks even a single co-occurrence literature citation, making mechanistic plausibility even weaker.
 
 ---
 
-## 安全性考量
+## Clinical Trial Evidence
 
-請參考藥品仿單以獲取安全性資訊。
-
-（補充：本證據包標記一項阻斷級資料缺口 DG001——TFDA 仿單警語／禁忌尚未取得，此為進入安全性初評的必要前提，詳見下方「後續所需」。）
+Currently, there are no relevant clinical trial registrations.
 
 ---
 
-## 結論與後續建議
+## Literature Evidence
 
-**決策：Hold（暫緩）**
+Currently, there are no relevant literature data.
 
-**理由：**
-Iopromide 為顯影造影劑而非治療性藥物，機轉上與骨關節炎易感性無合理連結；該預測缺乏任何臨床試驗或文獻佐證（0/0），且證據等級為最低的 L5，同批預測中類似的高分項目已被證實可能是知識圖譜混淆的偽陽性訊號。另外值得注意的是，同一藥物在 hemoglobinopathy（rank 9）方向反而出現**方向相反的安全性訊號**——文獻報告低滲透壓靜脈顯影劑可能於鐮刀型細胞疾病患者誘發腦血管閉塞事件，提示此類顯影劑用於老藥新用評估時應格外謹慎。
+---
 
-**若要繼續推進，需要補充：**
-- TFDA／加拿大官方仿單之警語與禁忌資料（DG001，阻斷級，須先解決才可進入安全性初評）
-- 完整作用機轉（MOA）資料（DG002）
-- 獨立的機轉假說或臨床前實驗數據，證明顯影劑與骨關節炎病理生理之間存在合理連結
-- 針對 TxGNN 高分是否為顯影劑／影像文獻共現造成之知識圖譜混淆，進行專門的訊號驗證分析
+## Canadian Market Information
+
+Iopromide is currently **Not marketed** in Canada, with no valid drug license (DIN) records, so information on approved indications or dosage forms cannot be provided.
+
+---
+
+## Safety Considerations
+
+Please refer to the drug product monograph for safety information.
+
+(Note: This evidence package marks a blocking-level data gap DG001—TFDA product monograph warnings/contraindications have not yet been obtained, which is a necessary prerequisite for entering preliminary safety assessment; see "Follow-up Requirements" below.)
+
+---
+
+## Conclusion and Follow-up Recommendations
+
+**Decision: Hold**
+
+**Rationale:**
+Iopromide is a contrast agent and not a therapeutic drug, with no reasonable mechanistic link to osteoarthritis susceptibility; this prediction lacks any clinical trial or literature support (0/0), and the evidence level is the lowest L5. Similar high-scoring items in the same batch of predictions have been shown to potentially be false positive signals due to knowledge graph confusion. Additionally, it is noteworthy that the same drug shows **opposing safety signals** in the hemoglobinopathy (rank 9) direction—literature reports that low-osmolarity intravenous contrast agents may trigger cerebrovascular occlusion events in patients with sickle cell disease, suggesting that such contrast agents warrant extra caution when used in drug repurposing assessments.
+
+**To proceed further, the following need to be supplemented:**
+- TFDA/Canadian official product monograph warnings and contraindication data (DG001, blocking-level, must be resolved before entry into preliminary safety assessment)
+- Complete mechanism of action (MOA) data (DG002)
+- Independent mechanistic hypotheses or preclinical experimental data demonstrating a reasonable link between contrast agents and osteoarthritis pathophysiology
+- Specialized signal validation analysis to determine whether the TxGNN high score is a knowledge graph confusion resulting from co-occurrence of contrast agent/imaging literature
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

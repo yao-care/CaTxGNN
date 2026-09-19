@@ -29,47 +29,47 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Faricimab (DB15303): 資料不足，無法完成老藥新用評估
+# Faricimab (DB15303): Insufficient Data to Complete Drug Repurposing Assessment
 
 ## One-Sentence Summary
 
-Faricimab（DrugBank ID：DB15303）在本次 Evidence Pack 中**無原適應症記錄**，亦**無 TxGNN 預測結果**。
-關鍵資料包括作用機轉（MOA）、安全性資訊及法規核准紀錄均缺失，**本報告目前無法進行有效的老藥新用評估**。
+Faricimab (DrugBank ID: DB15303) has **no original indication records** in this Evidence Pack and **no TxGNN prediction results**. Critical data including mechanism of action (MOA), safety information, and regulatory approval records are all missing; **this report currently cannot perform an effective drug repurposing assessment**.
 
 ---
 
 ## Quick Overview
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 無資料 |
-| 預測新適應症 | 無預測結果 |
-| TxGNN 預測分數 | N/A |
-| 證據等級 | N/A（無預測資料） |
-| 市場狀態 | Not marketed |
-| 核准許可證數量 | 0 |
-| 建議決策 | **Hold** |
+| Item | Content |
+|------|---------|
+| Original Indication | No data |
+| Predicted New Indications | No prediction results |
+| TxGNN Prediction Score | N/A |
+| Evidence Level | N/A (No prediction data) |
+| Market Status | Not marketed |
+| Number of Regulatory Approvals | 0 |
+| Recommended Decision | **Hold** |
 
 ---
 
-## 結論與後續步驟
+## Conclusion and Next Steps
 
 **Decision: Hold**
 
-**理由：**
-本次 Evidence Pack 存在多項關鍵資料缺口（見下表），TxGNN 預測管線未產生任何候選適應症，安全性與法規資訊亦均缺失，目前**無法啟動老藥新用評估流程**。
+**Rationale:**
+This Evidence Pack contains multiple critical data gaps (see table below). The TxGNN prediction pipeline has not generated any candidate indications, and safety and regulatory information are also both missing. **We currently cannot initiate the drug repurposing assessment process.**
 
-**進入下一階段前，需補齊以下資料：**
+**Before proceeding to the next stage, the following data must be supplemented:**
 
-| 優先級 | 缺口 ID | 缺少資料 | 修補方式 |
-|--------|---------|---------|---------|
-| 🔴 Blocking | DG001 | 原廠仿單警語與禁忌 | 從 Health Canada websiteDownload and parse the package insert PDF |
-| 🟠 High | DG002 | 作用機轉（MOA） | Query the DrugBank API（DB15303） |
-| 🟠 High | — | 原始核准適應症（`original_indications` 為空） | 補齊 DrugBank / 藥品仿單中的核准適應症 |
-| 🟠 High | — | TxGNN 預測結果（`predicted_indications` 為空陣列） | 確認 FARICIMAB 已納入預測管線並重新執行 |
-| 🟡 Medium | — | DDI 資料（查詢無結果） | 確認藥物英文名/別名後重新查詢 |
+| Priority | Gap ID | Missing Data | Remediation Method |
+|----------|--------|--------------|-------------------|
+| 🔴 Blocking | DG001 | Manufacturer package insert warnings and contraindications | Download and parse the package insert PDF from Health Canada website |
+| 🟠 High | DG002 | Mechanism of action (MOA) | Query the DrugBank API (DB15303) |
+| 🟠 High | — | Original approved indications (`original_indications` is empty) | Supplement approved indications from DrugBank / product package inserts |
+| 🟠 High | — | TxGNN prediction results (`predicted_indications` is empty array) | Confirm FARICIMAB has been included in the prediction pipeline and re-run |
+| 🟡 Medium | — | DDI data (query returned no results) | Confirm drug English name/aliases and re-query |
 
-> **注意**：本報告結果僅供研究參考，不構成醫療建議。任何老藥新用候選均需經過臨床驗證方可應用。
+> **Note:** The results of this report are for research reference only and do not constitute medical advice. Any drug repurposing candidates must undergo clinical validation before application.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

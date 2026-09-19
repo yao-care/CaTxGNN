@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-> Selinexor（DB11942）為選擇性核輸出抑制劑（XPO1/CRM1 inhibitor），目前於國際上核准用於多發性骨髓瘤與瀰漫性大 B 細胞淋巴瘤，加拿大尚未取得藥證。
-> TxGNN 模型預測其可能對 **Drug-Induced Osteoporosis（藥物性骨質疏鬆症）** 有效，
-> 但目前**無任何臨床試驗、無任何文獻**支持此方向，證據等級為 L5，且機轉分析認為此預測極可能是假陽性。
+> Selinexor (DB11942) is a selective nuclear export inhibitor (XPO1/CRM1 inhibitor), currently approved internationally for multiple myeloma and diffuse large B-cell lymphoma, but has not yet obtained market approval in Canada.
+> The TxGNN model predicts it may be effective for **Drug-Induced Osteoporosis**,
+> but currently **there are no clinical trials and no literature** supporting this direction; evidence level is L5, and mechanistic analysis suggests this prediction is likely a false positive.
 
 ---
 
@@ -43,7 +43,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple Myeloma / DLBCL（國際核准適應症，非加拿大官方藥證資料，加拿大Not marketed） |
+| Original Indication | Multiple Myeloma / DLBCL (internationally approved indication, not Canada official drug approval data; Canada Not marketed) |
 | Predicted New Indication | Drug-Induced Osteoporosis |
 | TxGNN Prediction Score | 99.22% |
 | Evidence Level | L5 |
@@ -55,11 +55,11 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## Why is This Prediction Reasonable?
 
-目前 `original_moa` 欄位缺乏正式 DrugBank 機轉資料（Data Gap，見 DG002）。根據 evidence pack 中的機轉關聯分析，Selinexor 是選擇性核輸出抑制劑（SINE），標靶 XPO1/CRM1，透過抑制腫瘤抑制蛋白（p53、FOXO 等）的核外輸出來發揮抗腫瘤作用，目前核准用於多發性骨髓瘤與瀰漫性大 B 細胞淋巴瘤。
+The `original_moa` field currently lacks formal DrugBank mechanistic data (Data Gap, see DG002). Based on the mechanism-related association analysis in the evidence pack, selinexor is a selective nuclear export inhibitor (SINE) that targets XPO1/CRM1, exerting anti-tumor activity by inhibiting nuclear export of tumor suppressor proteins (p53, FOXO, etc.), and is currently approved for multiple myeloma and diffuse large B-cell lymphoma.
 
-然而此機轉與骨代謝調控（RANKL/OPG、Wnt 訊號路徑、蝕骨細胞活性抑制等）**無已知直接關聯**，也未見文獻支持 XPO1 抑制對藥物性骨質疏鬆症具保護或治療效果。反而 Selinexor 臨床上常伴隨體重下降、厭食、疲勞等全身性副作用，理論上可能**加重**而非改善骨質流失風險。
+However, this mechanism has **no known direct association** with bone metabolism regulation (RANKL/OPG, Wnt signaling pathway, osteoclast activity inhibition, etc.), and there is no literature supporting that XPO1 inhibition has protective or therapeutic effects on drug-induced osteoporosis. Rather, selinexor clinically is frequently accompanied by systemic side effects such as weight loss, anorexia, and fatigue, which in theory might **aggravate** rather than ameliorate bone loss risk.
 
-綜合判斷，此適應症僅為 TxGNN 知識圖譜的關聯評分，缺乏機轉支持證據，**極可能為假陽性預測**，不建議在現階段投入進一步驗證資源。
+In comprehensive assessment, this indication is merely an association score from the TxGNN knowledge graph, lacks mechanistic evidence support, and is **likely a false positive prediction**. It is not recommended to invest further verification resources at this stage.
 
 ---
 
@@ -77,17 +77,17 @@ Currently no related literature available
 
 ## Canada Market Information
 
-Selinexor 目前於加拿大**未取得藥證**（0 個 DIN），無可用授權資料可供列表。
+Selinexor has **not obtained market approval in Canada** (0 DINs), with no authorized product data available for listing.
 
 ---
 
 ## Cytotoxicity
 
-Selinexor 屬於抗腫瘤藥物（XPO1/CRM1 標靶抑制劑），故列出本節。
+Selinexor is an anti-tumor drug (XPO1/CRM1 targeting inhibitor), hence this section is provided.
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy（SINE, XPO1/CRM1 抑制劑） |
+| Cytotoxicity Classification | Targeted therapy (SINE, XPO1/CRM1 inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -99,7 +99,7 @@ Selinexor 屬於抗腫瘤藥物（XPO1/CRM1 標靶抑制劑），故列出本節
 
 Please refer to the package insert for safety information.
 
-（註：`safety.key_warnings`、`contraindications` 及 DDI 查詢結果均為 Data Gap，其中「產品仿單警語/禁忌」被標記為 **Blocking** 等級缺口，在補齊前無法進行 S1 安全性初評。）
+(Note: The `safety.key_warnings`, `contraindications`, and DDI query results are all Data Gaps, wherein "product package insert warnings/contraindications" is marked as **Blocking** level gap; a preliminary safety assessment at S1 cannot be conducted before this is filled.)
 
 ---
 
@@ -108,13 +108,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-此預測證據等級僅為 L5（無臨床試驗、無文獻支持），且機轉分析明確指出 XPO1 抑制與骨代謝保護無已知關聯、甚至可能因全身性副作用加重骨質流失，判斷為極可能的假陽性。此外藥品於加拿大尚Not marketed，安全性資料（仿單警語、禁忌症）為 Blocking 等級缺口，尚無法進入下一階段評估。
+This prediction has an evidence level of only L5 (no clinical trials, no literature support), and mechanistic analysis clearly indicates that XPO1 inhibition has no known association with bone metabolism protection and may even aggravate bone loss due to systemic side effects, suggesting a likely false positive. Additionally, the drug has not yet been marketed in Canada (Not marketed), with safety data (product package insert warnings, contraindications) as a Blocking level gap; it cannot proceed to the next stage of assessment.
 
 **To proceed, the following is needed:**
-- 補齊 DrugBank MOA 正式資料（DG002）
-- 取得官方產品仿單/藥品標籤中的警語與禁忌症資料（DG001，Blocking）
-- 尋找 XPO1 抑制劑與骨代謝相關的臨床前/機轉研究，以驗證或排除此關聯
-- 若無法找到支持性證據，建議標記此候選適應症為低優先級並關閉追蹤
+- Complete formal DrugBank MOA data (DG002)
+- Obtain official product insert/drug label warnings and contraindications data (DG001, Blocking)
+- Identify preclinical or mechanistic studies on XPO1 inhibitors and bone metabolism to verify or exclude this association
+- If no supporting evidence can be found, recommend marking this candidate indication as low priority and closing tracking
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
