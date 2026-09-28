@@ -3,7 +3,7 @@ layout: default
 title: "Bempedoic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bempedoic acid. Original indication: . 0 predicted indications."
+description: "Health news related to Bempedoic acid. Original indication: . 10 predicted indications."
 permalink: /news/bempedoic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bempedoic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Bempedoic acid?">
-<strong>Bempedoic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Bempedoic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Bempedoic acid with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hyperthyroidism (99.6%)</li>
+<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.6%)</li>
+<li>malignant catarrh (99.6%)</li>
+<li>infectious bovine rhinotracheitis (99.6%)</li>
+<li>cytomegalovirus infection (99.5%)</li>
+<li>homozygous familial hypercholesterolemia (99.5%)</li>
+<li>hyperthyroxinemia (99.3%)</li>
+<li>drug-induced osteoporosis (99.2%)</li>
+<li>multiple endocrine neoplasia (99.2%)</li>
+<li>pregnancy associated osteoporosis (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/bempedoic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>

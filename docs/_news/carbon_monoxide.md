@@ -3,7 +3,7 @@ layout: default
 title: "Carbon monoxide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Carbon monoxide. Original indication: . 0 predicted indications."
+description: "Health news related to Carbon monoxide. Original indication: . 10 predicted indications."
 permalink: /news/carbon_monoxide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carbon_monoxide/
 ---
 
 <p class="key-answer" data-question="What news is there about Carbon monoxide?">
-<strong>Carbon monoxide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Carbon monoxide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Carbon monoxide with the lat
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>sclerosing cholangitis (99.8%)</li>
+<li>ventricular tachycardia (99.6%)</li>
+<li>obsolete bundle branch block (99.5%)</li>
+<li>catecholaminergic polymorphic ventricular tachycardia (99.3%)</li>
+<li>potassium deficiency disease (99.2%)</li>
+<li>neovascular glaucoma (99.2%)</li>
+<li>angle-closure glaucoma (99.2%)</li>
+<li>pulmonary hypertension (99.2%)</li>
+<li>traumatic glaucoma (99.2%)</li>
+<li>aqueous misdirection (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/carbon_monoxide/' | relative_url }}">View full drug report →</a></p>
 </div>

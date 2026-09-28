@@ -3,7 +3,7 @@ layout: default
 title: "Triheptanoin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Triheptanoin. Original indication: . 0 predicted indications."
+description: "Health news related to Triheptanoin. Original indication: . 10 predicted indications."
 permalink: /news/triheptanoin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/triheptanoin/
 ---
 
 <p class="key-answer" data-question="What news is there about Triheptanoin?">
-<strong>Triheptanoin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Triheptanoin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Triheptanoin with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>craniostenosis cataract (100.0%)</li>
+<li>diabetes mellitus type 2 associated cataract (100.0%)</li>
+<li>mature cataract (100.0%)</li>
+<li>immature cataract (100.0%)</li>
+<li>tetanic cataract (100.0%)</li>
+<li>diabetic cataract (100.0%)</li>
+<li>cortical cataract (100.0%)</li>
+<li>nuclear senile cataract (100.0%)</li>
+<li>senile cataract (100.0%)</li>
+<li>antithrombin deficiency type 2 (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/triheptanoin/' | relative_url }}">View full drug report →</a></p>
 </div>

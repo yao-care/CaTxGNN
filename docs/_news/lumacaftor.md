@@ -3,7 +3,7 @@ layout: default
 title: "Lumacaftor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lumacaftor. Original indication: . 0 predicted indications."
+description: "Health news related to Lumacaftor. Original indication: . 10 predicted indications."
 permalink: /news/lumacaftor/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lumacaftor/
 ---
 
 <p class="key-answer" data-question="What news is there about Lumacaftor?">
-<strong>Lumacaftor</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Lumacaftor</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Lumacaftor with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>leprosy (99.4%)</li>
+<li>migraine with or without aura, susceptibility to (98.8%)</li>
+<li>migraine disorder (98.7%)</li>
+<li>rheumatoid arthritis (98.7%)</li>
+<li>pulmonary hypertension (98.7%)</li>
+<li>kyphoscoliotic heart disease (98.5%)</li>
+<li>migraine with brainstem aura (98.5%)</li>
+<li>multiple endocrine neoplasia (98.4%)</li>
+<li>brachydactyly-syndactyly syndrome (98.2%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (98.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lumacaftor/' | relative_url }}">View full drug report →</a></p>
 </div>

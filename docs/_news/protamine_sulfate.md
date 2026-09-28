@@ -3,7 +3,7 @@ layout: default
 title: "Protamine sulfate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Protamine sulfate. Original indication: . 0 predicted indications."
+description: "Health news related to Protamine sulfate. Original indication: . 10 predicted indications."
 permalink: /news/protamine_sulfate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/protamine_sulfate/
 ---
 
 <p class="key-answer" data-question="What news is there about Protamine sulfate?">
-<strong>Protamine sulfate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Protamine sulfate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Protamine sulfate with the l
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>marfanoid habitus-inguinal hernia-advanced bone age syndrome (50.0%)</li>
+<li>atypical Meigs syndrome (50.0%)</li>
+<li>pseudo-Meigs syndrome (50.0%)</li>
+<li>premature ejaculation (disease) (50.0%)</li>
+<li>Meigs syndrome (50.0%)</li>
+<li>Spigelian hernia-cryptorchidism syndrome (50.0%)</li>
+<li>ameloblastoma (50.0%)</li>
+<li>Xq12-q13.3 duplication syndrome (50.0%)</li>
+<li>7p22.1 microduplication syndrome (50.0%)</li>
+<li>primary progressive apraxia of speech (50.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/protamine_sulfate/' | relative_url }}">View full drug report →</a></p>
 </div>

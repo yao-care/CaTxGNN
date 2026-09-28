@@ -3,7 +3,7 @@ layout: default
 title: "Alpelisib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alpelisib. Original indication: . 0 predicted indications."
+description: "Health news related to Alpelisib. Original indication: . 10 predicted indications."
 permalink: /news/alpelisib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alpelisib/
 ---
 
 <p class="key-answer" data-question="What news is there about Alpelisib?">
-<strong>Alpelisib</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Alpelisib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Alpelisib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pulmonary hypertension (99.0%)</li>
+<li>migraine with or without aura, susceptibility to (99.0%)</li>
+<li>migraine disorder (98.9%)</li>
+<li>kyphoscoliotic heart disease (98.9%)</li>
+<li>rheumatoid arthritis (98.8%)</li>
+<li>leprosy (98.7%)</li>
+<li>migraine with brainstem aura (98.7%)</li>
+<li>thrombotic disease (98.6%)</li>
+<li>amyotrophic lateral sclerosis (98.4%)</li>
+<li>multiple endocrine neoplasia (98.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/alpelisib/' | relative_url }}">View full drug report →</a></p>
 </div>

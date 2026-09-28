@@ -3,7 +3,7 @@ layout: default
 title: "Olsalazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Olsalazine. Original indication: . 0 predicted indications."
+description: "Health news related to Olsalazine. Original indication: . 10 predicted indications."
 permalink: /news/olsalazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/olsalazine/
 ---
 
 <p class="key-answer" data-question="What news is there about Olsalazine?">
-<strong>Olsalazine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Olsalazine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Olsalazine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>myelodysplastic syndrome (99.9%)</li>
+<li>hypotrichosis simplex of the scalp (99.9%)</li>
+<li>congenital hypotrichosis milia (99.9%)</li>
+<li>alopecia (99.9%)</li>
+<li>diffuse alopecia areata (99.9%)</li>
+<li>partial deletion of the long arm of chromosome 5 (99.9%)</li>
+<li>unclassified myelodysplastic syndrome (99.9%)</li>
+<li>refractory cytopenia of childhood (99.9%)</li>
+<li>aregenerative anemia (99.9%)</li>
+<li>severe congenital hypochromic anemia with ringed sideroblasts (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/olsalazine/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Cromoglicic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cromoglicic acid. Original indication: . 0 predicted indications."
+description: "Health news related to Cromoglicic acid. Original indication: . 10 predicted indications."
 permalink: /news/cromoglicic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cromoglicic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Cromoglicic acid?">
-<strong>Cromoglicic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cromoglicic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cromoglicic acid with the la
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>ulcerative proctosigmoiditis (100.0%)</li>
+<li>nocardiosis (100.0%)</li>
+<li>rosacea conjunctivitis (100.0%)</li>
+<li>cap polyposis (100.0%)</li>
+<li>cutaneous photosensitivity-lethal colitis syndrome (100.0%)</li>
+<li>undetermined colitis (100.0%)</li>
+<li>pneumocystosis (100.0%)</li>
+<li>osteoarthritis (100.0%)</li>
+<li>allergic urticaria (100.0%)</li>
+<li>neonatal inflammatory skin and bowel disease (99.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cromoglicic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Iohexol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Iohexol. Original indication: . 0 predicted indications."
+description: "Health news related to Iohexol. Original indication: . 10 predicted indications."
 permalink: /news/iohexol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iohexol/
 ---
 
 <p class="key-answer" data-question="What news is there about Iohexol?">
-<strong>Iohexol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Iohexol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Iohexol with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (99.9%)</li>
+<li>anxiety (99.2%)</li>
+<li>rheumatoid arthritis (98.9%)</li>
+<li>antithrombin deficiency type 2 (98.8%)</li>
+<li>factor 5 excess with spontaneous thrombosis (98.7%)</li>
+<li>sleep disorder, initiating and maintaining sleep (98.6%)</li>
+<li>heparin cofactor 2 deficiency (98.6%)</li>
+<li>fibromyalgia (98.5%)</li>
+<li>conjunctivitis (98.5%)</li>
+<li>tendinitis (98.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/iohexol/' | relative_url }}">View full drug report →</a></p>
 </div>

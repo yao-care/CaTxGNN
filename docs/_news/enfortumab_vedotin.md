@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Enfortumab vedotin with the 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Leprosy | Mycobacterial infection — no known link to Nectin-4 or MMAE mechanism (99.0%)</li>
-<li>Multiple endocrine neoplasia | RET/MEN1-driven tumours; minimal Nectin-4 expression evidence (99.0%)</li>
-<li>Cytomegalovirus infection | DNA virus; measles virus (not CMV) uses Nectin-4 as cell entry receptor — likely KG node confusion (99.0%)</li>
-<li>Candidiasis | Fungal infection; only literature found is an ADC safety/FAERS adverse event report, not efficacy data (99.0%)</li>
-<li>Cerebral infarction | Ischemic vascular disease; MMAE causes peripheral neurotoxicity, not neuroprotection (99.0%)</li>
-<li>HIV infectious disease | CD4+ T-cell–targeting retrovirus; no Nectin-4 antiviral rationale exists (99.0%)</li>
-<li>Homozygous familial hypercholesterolemia | LDL receptor gene disease; no mechanistic intersection with Nectin-4 signalling (99.0%)</li>
-<li>Infectious bovine rhinotracheitis | **Veterinary disease (BoHV-1 in cattle)** — cross-species KG leakage (99.0%)</li>
-<li>Malignant catarrh | **Veterinary disease (ruminant herpesvirus)** — cross-species KG leakage (99.0%)</li>
-<li>HER2-positive breast carcinoma | ✓ Mechanistically plausible — see full analysis below (99.0%)</li>
+<li>leprosy (99.5%)</li>
+<li>multiple endocrine neoplasia (99.4%)</li>
+<li>cytomegalovirus infection (99.4%)</li>
+<li>candidiasis (99.3%)</li>
+<li>cerebral infarction (99.2%)</li>
+<li>HIV infectious disease (99.2%)</li>
+<li>homozygous familial hypercholesterolemia (99.2%)</li>
+<li>infectious bovine rhinotracheitis (99.1%)</li>
+<li>malignant catarrh (99.1%)</li>
+<li>HER2 positive breast carcinoma (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/enfortumab_vedotin/' | relative_url }}">View full drug report →</a></p>

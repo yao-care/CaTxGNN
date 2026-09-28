@@ -3,7 +3,7 @@ layout: default
 title: "Tezepelumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tezepelumab. Original indication: . 0 predicted indications."
+description: "Health news related to Tezepelumab. Original indication: . 10 predicted indications."
 permalink: /news/tezepelumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tezepelumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Tezepelumab?">
-<strong>Tezepelumab</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tezepelumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Tezepelumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>diabetic cataract (98.4%)</li>
+<li>tetanic cataract (98.3%)</li>
+<li>craniostenosis cataract (98.3%)</li>
+<li>immature cataract (98.3%)</li>
+<li>mature cataract (98.3%)</li>
+<li>diabetes mellitus type 2 associated cataract (98.3%)</li>
+<li>nuclear senile cataract (98.3%)</li>
+<li>cortical cataract (98.3%)</li>
+<li>senile cataract (98.2%)</li>
+<li>diabetic retinopathy (98.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tezepelumab/' | relative_url }}">View full drug report →</a></p>
 </div>

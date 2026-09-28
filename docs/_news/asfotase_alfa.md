@@ -3,7 +3,7 @@ layout: default
 title: "Asfotase alfa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Asfotase alfa. Original indication: . 0 predicted indications."
+description: "Health news related to Asfotase alfa. Original indication: . 10 predicted indications."
 permalink: /news/asfotase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/asfotase_alfa/
 ---
 
 <p class="key-answer" data-question="What news is there about Asfotase alfa?">
-<strong>Asfotase alfa</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Asfotase alfa</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Asfotase alfa with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (100.0%)</li>
+<li>Steel syndrome (99.9%)</li>
+<li>exocrine pancreatic insufficiency (99.9%)</li>
+<li>Scheie syndrome (99.8%)</li>
+<li>Hurler syndrome (99.8%)</li>
+<li>lysosomal storage disease with skeletal involvement (99.7%)</li>
+<li>familial apolipoprotein C-II deficiency (99.7%)</li>
+<li>esophageal varices with bleeding (99.7%)</li>
+<li>esophageal varices without bleeding (99.7%)</li>
+<li>cystinosis (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/asfotase_alfa/' | relative_url }}">View full drug report →</a></p>
 </div>

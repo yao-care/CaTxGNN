@@ -3,7 +3,7 @@ layout: default
 title: "Sotatercept News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sotatercept. Original indication: . 0 predicted indications."
+description: "Health news related to Sotatercept. Original indication: . 10 predicted indications."
 permalink: /news/sotatercept/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sotatercept/
 ---
 
 <p class="key-answer" data-question="What news is there about Sotatercept?">
-<strong>Sotatercept</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sotatercept</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sotatercept with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>acute lymphoblastic leukemia (disease) (99.8%)</li>
+<li>severe nonproliferative diabetic retinopathy (99.8%)</li>
+<li>diabetic retinopathy (99.7%)</li>
+<li>drug-induced osteoporosis (99.7%)</li>
+<li>diabetic cataract (99.5%)</li>
+<li>HER2 positive breast carcinoma (99.4%)</li>
+<li>transitional cell carcinoma (99.4%)</li>
+<li>prostatic urethra urothelial carcinoma (99.4%)</li>
+<li>kidney pelvis sarcomatoid transitional cell carcinoma (99.4%)</li>
+<li>infiltrating bladder urothelial carcinoma sarcomatoid variant (99.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sotatercept/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Evolocumab with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Symptomatic hemophilia in female carriers | 99.82% | Very low | No PCSK9–coagulation factor link (99.0%)</li>
-<li>Familial apolipoprotein C-II deficiency | 99.50% | Low | TG/VLDL axis, not LDL axis (99.0%)</li>
-<li>Thrombocytopenic purpura | 99.42% | Very low | Autoimmune/TMA, not lipid-mediated (99.0%)</li>
-<li>Factor XI deficiency | 99.29% | Very low | Intrinsic coagulation pathway defect (99.0%)</li>
-<li>Hemophilia A with vascular abnormality | 99.22% | Indirect only | LDL lowering may reduce CV risk in this subgroup — but this is an extension of existing indication, not true repurposing (99.0%)</li>
-<li>Disease of catalytic activity | 99.08% | None (ontological artifact) | PCSK9 is a serine protease; KG mis-links (99.0%)</li>
-<li>Hemorrhagic disease of newborn | 98.89% | Very low | Vitamin K-dependent clotting, unrelated to PCSK9 (99.0%)</li>
-<li>X-linked ichthyosis (without STS deficiency) | 98.84% | Very low | Cholesterol sulfate pathway ≠ systemic LDL-R regulation (99.0%)</li>
-<li>Inherited thrombophilia | 98.82% | Low–moderate (theoretical) | Highest relative biological rationale among the 10; high LDL can potentiate thrombotic risk, but no Evolocumab-specific trial evidence (99.0%)</li>
-<li>Disorder of vitamins/cofactors metabolism | 98.80% | Very low (ontological) | LDL carries fat-soluble vitamins — highly speculative (99.0%)</li>
+<li>symptomatic form of hemophilia in female carriers (99.8%)</li>
+<li>familial apolipoprotein C-II deficiency (99.5%)</li>
+<li>thrombocytopenic purpura (99.4%)</li>
+<li>factor XI deficiency (99.3%)</li>
+<li>hemophilia A with vascular abnormality (99.2%)</li>
+<li>disease of catalytic activity (99.1%)</li>
+<li>hemorrhagic disease of newborn (98.9%)</li>
+<li>ichthyosis, X-linked, without steroid sulfatase deficiency (98.8%)</li>
+<li>inherited thrombophilia (98.8%)</li>
+<li>disorder of other vitamins and cofactors metabolism and transport (98.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/evolocumab/' | relative_url }}">View full drug report →</a></p>
