@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sulfasalazine
-parent: Moderate Evidence (L3-L4)
-nav_order: 739
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 865
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Sulfasalazine: From Rheumatoid Arthritis to Osteoarthritis
+# Sulfasalazine: From an Anti-Inflammatory Agent to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-> Sulfasalazine is a sulfa-based disease-modifying antirheumatic drug (DMARD), originally used to treat rheumatoid arthritis and ulcerative colitis, though it is not currently marketed in Canada.
-> The TxGNN model predicts it may also be effective for **Osteoarthritis**,
-> with **2 clinical trials** and **8 relevant publications** currently supporting this direction — evidence that is largely preclinical and mechanistic rather than clinical.
+Sulfasalazine is an established anti-inflammatory drug marketed in Canada. The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a rare congenital limb malformation. This prediction has **0 clinical trials** and **0 publications** behind it, and no plausible mechanistic link has been identified, so it is a graph-based computational signal only.
 
 ---
 
@@ -43,61 +41,57 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis / Ulcerative colitis (based on internationally established use; no Canadian license record available) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 99.94% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sulfasalazine is a sulfa-based anti-inflammatory / disease-modifying antirheumatic drug (DMARD) that is metabolized into sulfapyridine and 5-aminosalicylic acid; its efficacy in rheumatoid arthritis and ulcerative colitis has been proven clinically, and mechanistically it may be applicable to osteoarthritis through anti-inflammatory and chondroprotective pathways.
+Detailed mechanism of action data is not available from the drug record. The Evidence Pack's rationale analysis describes sulfasalazine as acting through NF-kB inhibition, inhibition of system xc- (SLC7A11), and the anti-inflammatory activity of its 5-ASA component.
 
-Rheumatoid arthritis and osteoarthritis are both joint diseases characterized by synovial inflammation, cytokine-driven cartilage degradation, and metalloproteinase activity — even though RA is primarily autoimmune and OA is primarily degenerative, the downstream inflammatory cascade in the joint overlaps substantially. This mechanistic overlap is a plausible basis for the TxGNN model linking a rheumatoid arthritis drug to an osteoarthritis indication.
+None of these pathways connects to brachydactyly-syndactyly syndrome, a congenital limb malformation. The high TxGNN score therefore reflects a pattern in the knowledge graph, not a biological or clinical rationale. Without supporting studies, this prediction should not be treated as a credible repurposing lead.
 
-Several preclinical and mechanistic studies directly support this link: sulfasalazine has been shown to inhibit metalloproteinase (MMP/ADAMTS) release from cytokine-stimulated chondrocytes, block leukotriene/prostaglandin release from synovial tissue, and reduce cartilage degradation in rat models of osteoarthritis (monosodium iodoacetate and ACL-transection/menisectomy models). While these findings are biologically consistent with the TxGNN prediction, they have not yet been confirmed in a dedicated clinical trial of sulfasalazine for osteoarthritis.
+Among the other top-10 predictions, **osteoarthritis** (rank 5, score 99.64%) and **spondyloarthropathy susceptibility** (rank 8, score 99.53%) have some supporting material.
+
+- **Osteoarthritis:** preclinical work suggests sulfasalazine may reduce cytokine-induced cartilage breakdown in vitro and in animal models (for example, a sulfasalazine-containing hyaluronic acid system in a rat model). The evidence is rated L4.
+- **Spondyloarthropathy:** the literature is reviews and observational or genetic studies, with no trials. It is also rated L4.
+
+The remaining predictions in the top 10 have no evidence and no identified mechanistic link.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03975790](https://clinicaltrials.gov/study/NCT03975790) | N/A (retrospective cohort) | Completed | 479 | Real-world claims-based comparison of tofacitinib + MTX withdrawal vs. continuation in RA patients; not a direct sulfasalazine-OA trial but relevant to joint-disease treatment pattern context |
-| [NCT00551707](https://clinicaltrials.gov/study/NCT00551707) | Phase 2 | Completed | 51 | Evaluated CRx-102 (dipyridamole + low-dose prednisolone) vs. its components in active RA; proof-of-concept data referenced hand osteoarthritis benefit, supporting a joint-disease anti-inflammatory rationale but not testing sulfasalazine directly |
-
-*Note: Neither trial directly evaluates sulfasalazine in osteoarthritis; both are included for mechanistic/contextual relevance to inflammatory joint disease treatment.*
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26466556](https://pubmed.ncbi.nlm.nih.gov/26466556/) | 2016 | Preclinical | J Orthop Res | Sulfasalazine attenuated ACL-transection/menisectomy-induced cartilage destruction via inhibition of the cystine/glutamate antiporter (system Xc-) in a rat OA model |
-| [29548914](https://pubmed.ncbi.nlm.nih.gov/29548914/) | 2018 | Preclinical | Int J Biol Macromol | Sulfasalazine-loaded hyaluronic acid reduced inflammation and cartilage degradation in an MIA-induced rat OA model with sustained drug release over 60 days |
-| [19690126](https://pubmed.ncbi.nlm.nih.gov/19690126/) | 2009 | Mechanistic (in vitro) | Rheumatology (Oxford) | Sulfasalazine blocked proteoglycan/collagen release from cytokine-stimulated cartilage and downregulated MMPs/ADAMTS proteinases |
-| [24329131](https://pubmed.ncbi.nlm.nih.gov/24329131/) | 2014 | Mechanistic (in vitro) | Mod Rheumatol | Compared effects of sulfasalazine and tofacitinib on articular chondrocyte protein profiles |
-| [1673814](https://pubmed.ncbi.nlm.nih.gov/1673814/) | 1991 | Ex vivo (human tissue) | Wien Klin Wochenschr | Sulfasalazine and metabolites inhibited leukotriene C4 release from synovial tissue of OA, chondrocalcinosis, and RA patients |
-| [35958605](https://pubmed.ncbi.nlm.nih.gov/35958605/) | 2022 | Review | Front Immunol | Reviewed ferroptosis mechanisms across inflammatory arthritis types including osteoarthritis and RA |
-| [11478054](https://pubmed.ncbi.nlm.nih.gov/11478054/) | 2001 | Review | Hand Clin | Reviewed pharmacologic treatment options across OA and RA |
-| [9567207](https://pubmed.ncbi.nlm.nih.gov/9567207/) | 1998 | Review | Curr Opin Rheumatol | Overview of clinical trials in rheumatic diseases including OA and RA therapeutics |
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Sulfasalazine is currently **not marketed in Canada** (market status: Not Marketed; 0 DINs on record). No product authorization or approved indication text is available for extraction.
+| DIN | Product Name |
+|---------|------|
+| 598488 | PMS-SULFASALAZINE-E.C. TAB 500MG |
+| 598461 | PMS-SULFASALAZINE 500MG/TAB USP |
+| 2064480 | SALAZOPYRIN TAB 500MG |
+| 2544652 | JAMP SULFASALAZINE |
+| 2064472 | SALAZOPYRIN EN-TABS 500 MG |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data could not be retrieved for this evaluation (Health Canada/TFDA labeling data gap — flagged as a **Blocking** data gap that prevents formal safety screening).
+Please refer to the package insert for safety information.
 
 ---
 
@@ -106,14 +100,16 @@ Please refer to the package insert for safety information. Key warnings, contrai
 **Decision: Hold**
 
 **Rationale:**
-- Supporting evidence for the osteoarthritis prediction is limited to preclinical and mechanistic studies (L4); no completed clinical trial has directly evaluated sulfasalazine for osteoarthritis.
-- A **Blocking** data gap exists on official safety labeling (warnings/contraindications), which prevents the candidate from entering the S1 safety pre-screening stage. The drug is also not currently marketed in Canada, so no local regulatory or DIN pathway exists yet.
+The prediction has no clinical trials, no literature, and no plausible mechanistic link. It is a computational signal only (evidence level L5).
 
 **To proceed, the following is needed:**
-- Official TFDA/Health Canada labeling data (warnings, contraindications) to resolve the blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank to strengthen the mechanistic rationale (DG002)
-- A dedicated Phase 2 clinical trial (or systematic review of existing RA/OA cohorts) directly testing sulfasalazine in osteoarthritis populations
-- Clarification of the market-entry pathway in Canada, since the drug currently holds no active license
+- A credible mechanistic hypothesis linking sulfasalazine pharmacology to the pathogenesis of this syndrome
+- Any preclinical or clinical evidence specific to this condition
+- Health Canada package insert data on warnings and contraindications, which is currently missing and would block safety screening
+- Mechanism of action data from DrugBank
+- A decision to redirect review effort to osteoarthritis (rank 5), which has preclinical support. Its two registered trials are not clearly relevant to sulfasalazine, so human efficacy data for osteoarthritis are still lacking.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Dichlorobenzyl Alcohol
 parent: Model Prediction Only (L5)
-nav_order: 239
+nav_order: 276
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,82 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Dichlorobenzyl Alcohol: From Oral Antiseptic to Bronchitis
+# Dichlorobenzyl Alcohol: From Throat Lozenge Antiseptic to Bronchitis
 
 ## One-Sentence Summary
 
-Dichlorobenzyl alcohol (DCBA) is a broad-spectrum antimicrobial antiseptic, best recognized as an active ingredient in over-the-counter throat lozenges, with no formally registered pharmaceutical indication in Canada.
-The TxGNN model predicts it may be effective for **Bronchitis**, but the current evidence base consists of **0 clinical trials** and **1 peripherally related publication** that concerns a structurally analogous compound rather than DCBA itself.
-Given the complete absence of MOA data, regulatory registration, and direct clinical evidence, this prediction currently warrants a **Hold** decision.
-
----
+Dichlorobenzyl alcohol is a mild antiseptic marketed in Canada in throat lozenges (Cepacol and similar products).
+The TxGNN model predicts it may be effective for **bronchitis**, but there are **0 clinical trials** and only **1 publication**, which concerns a different compound, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No registered indication (used as antiseptic ingredient in OTC lozenges) |
+|------|------|
+| Original Indication | Not stated in the license records (marketed as throat lozenges) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.21% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available, and no original indication is recorded in the input. Dichlorobenzyl alcohol is generally known as a mild topical antiseptic in oropharyngeal lozenges. That gives a loose link to upper respiratory symptoms such as sore throat.
 
-Currently, detailed mechanism of action data is not available for dichlorobenzyl alcohol (DCBA). Based on known pharmacological properties reported in the general literature, DCBA is an aryl alcohol with broad-spectrum antimicrobial and antiseptic activity, believed to act primarily through disruption of bacterial cell membranes. It is most recognized as one of two active ingredients in widely available throat lozenge formulations (such as Strepsils), where it provides localized antiseptic action in the oropharynx.
+The link to bronchitis is weak. A lozenge acts locally in the mouth and throat and would not be expected to reach the bronchi. The high score (99.21%) is a knowledge-graph output. No mechanism or clinical data in this package supports it.
 
-Bronchitis — particularly acute bronchitis — is frequently triggered or complicated by bacterial or viral infection of the respiratory mucosa. There is a superficial mechanistic rationale that an antimicrobial agent with activity against common respiratory pathogens could reduce microbial burden at the airway surface. However, this is critically undermined by a key pharmacological barrier: DCBA is formulated exclusively for topical, localized oropharyngeal use, and there is no evidence that it achieves pharmacologically meaningful drug concentrations at the bronchial epithelium following any known route of administration.
-
-The TxGNN prediction score of 99.21% reflects high-confidence inference based on knowledge graph topology — specifically, the network proximity of DCBA to bronchitis-associated nodes. This should not be interpreted as biological plausibility or clinical evidence. Without any published MOA data directly linking DCBA to bronchitis pathophysiology (e.g., airway inflammation, mucociliary clearance, pathogen inhibition in the lower respiratory tract), this prediction remains speculative and does not yet meet the threshold for advancing to a repurposing programme.
-
----
+TxGNN also ranked **migraine disorder** second (score 99.02%). No plausible mechanistic link is apparent, since a topical antiseptic has no known action on migraine pathways (CGRP, serotonergic or trigeminovascular). No trials or literature were found. This looks like a knowledge-graph artifact and needs independent mechanistic support.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [1036939](https://pubmed.ncbi.nlm.nih.gov/1036939/) | 1976 | Observational / Adverse Event Report | Arzneimittel-Forschung | In 25 patients with **chronic bronchitis**, oral clenbuterol (NAB 365) — a beta-2 agonist bronchodilator whose chemical name contains "dichlorobenzyl alcohol" as a structural descriptor — was associated with elevated serum creatine kinase (MM isoenzyme), without other clinical signs |
-
-> **⚠️ Critical Caveat:** This publication concerns **clenbuterol** (4-amino-α-\[(tert-butylamino)methyl\]-3,5-dichlorobenzyl alcohol hydrochloride), a beta-2 adrenergic agonist broncholytic drug. Its retrieval appears to be the result of a string-match on "dichlorobenzyl alcohol" within the chemical name. Clenbuterol and DCBA are pharmacologically distinct compounds with entirely different mechanisms of action. This publication provides **no direct evidence** for DCBA in bronchitis and should not be counted as supporting literature.
-
----
+|------|-----|------|------|---------|
+| [1036939](https://pubmed.ncbi.nlm.nih.gov/1036939/) | 1976 | Clinical observation | Arzneimittel-Forschung | Reports raised serum creatine kinase in 25 chronic bronchitis patients given oral clenbuterol. Clenbuterol is a different, unrelated compound, so this paper does **not** support the prediction. |
 
 ## Canada Market Information
 
-Dichlorobenzyl alcohol currently has **no registered Drug Identification Numbers (DINs)** in Canada and is not marketed as a standalone pharmaceutical product. It may appear as an unlisted excipient or active ingredient in certain OTC formulations, but no formal Health Canada drug licence exists for this compound.
-
----
+| DIN | Product Name |
+|---------|------|
+| 2375567 | ANTIBACTERIAL THROAT LOZENGES |
+| 2382938 | CEPACOL SENSATIONS |
+| 2404982 | CEPACOL CHILDREN'S FRUITY STRAWBERRY |
+| 2388642 | CEPACOL SENSATIONS SORE THROAT & COUGH |
+| 2382881 | CEPACOL SENSATIONS SORE THROAT & BLOCKED NOSE |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction sits at Evidence Level L5 — model inference only — with zero applicable clinical trials, no directly relevant literature, and a complete absence of MOA data linking DCBA to bronchitis. The sole retrieved publication addresses a pharmacologically unrelated compound (clenbuterol) whose chemical name incidentally contains the search string; it contributes no meaningful evidence for this repurposing hypothesis.
+The prediction has no supporting clinical trials, and the only publication concerns a different drug. A locally acting lozenge is also unlikely to reach the bronchi, so the score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-
-- **Establish MOA**: Query DrugBank API and primary literature to document DCBA's mechanism of action and any known antimicrobial spectrum relevant to respiratory pathogens
-- **Pharmacokinetic/pharmacodynamic assessment**: Determine whether any route of administration (e.g., inhalation, oral) could achieve therapeutic DCBA concentrations at the bronchial mucosa
-- **Preclinical evidence search**: Conduct a targeted search for in vitro or in vivo studies testing DCBA against bronchitis-relevant pathogens (e.g., *Haemophilus influenzae*, *Streptococcus pneumoniae*) or airway inflammation models
-- **Safety documentation**: Download and parse the TFDA product monograph or equivalent Health Canada documents to identify warnings, contraindications, and known adverse effects before any Stage 1 safety review can proceed
-- **Regulatory pathway clarification**: Assess whether DCBA would require a new NDS submission or could be repositioned within an existing OTC monograph framework in Canada
+- Mechanism of action data for dichlorobenzyl alcohol
+- Health Canada product monograph warnings and contraindications
+- Any clinical or preclinical evidence in bronchitis that involves dichlorobenzyl alcohol itself
+- An assessment of whether a route or formulation could deliver the drug to the lower airways
+- Independent mechanistic support before pursuing the migraine prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

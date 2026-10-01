@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Treprostinil
-parent: High Evidence (L1-L2)
-nav_order: 798
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 932
+evidence_level: L3
 indication_count: 10
 ---
 
 # Treprostinil
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,15 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Treprostinil: From Pulmonary Arterial Hypertension to Connective Tissue Disease-Associated PAH
+# Treprostinil: From an Unspecified Original Indication to Pulmonary Arteriovenous Malformation
 
 ## One-Sentence Summary
 
-Treprostinil is a prostacyclin analog originally developed for pulmonary arterial hypertension (WHO Group 1).
-The TxGNN model predicts continued and reinforced efficacy in **Connective Tissue Disease-Associated Pulmonary Arterial Hypertension (CTD-PAH)** — a well-recognized clinical subgroup of the original indication —
-with **1 clinical trial** and **19 publications**, including a systematic review/meta-analysis and RCT subgroup data, currently supporting this direction.
-
-*(Note: TxGNN also flagged several additional Group 1 PAH subtypes — congenital heart disease-associated PAH, HIV-associated PAH — with weaker but non-trivial evidence, and a set of unrelated diseases such as hypotrichosis and periodontal malformation syndromes that appear to be knowledge-graph noise with no supporting mechanism or literature. CTD-PAH was selected as the headline candidate here because it has the strongest evidence level (L2) among all ranked predictions.)*
+Treprostinil is a prostacyclin analogue marketed in Canada as Remodulin. The supplied data do not state its original approved indication.
+The TxGNN model ranks **pulmonary arteriovenous malformation (PAVM)** as its top predicted new indication, but **0 clinical trials** and **0 publications** support it. This is a model prediction only, and there is a possible safety concern.
 
 ---
 
@@ -45,76 +42,79 @@ with **1 clinical trial** and **19 publications**, including a systematic review
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary Arterial Hypertension (WHO Group 1) |
-| Predicted New Indication | Pulmonary Arterial Hypertension Associated with Connective Tissue Disease (CTD-PAH) |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L2 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not available in the supplied data (approved indication text is empty on all licences) |
+| Predicted New Indication | Pulmonary arteriovenous malformation |
+| TxGNN Prediction Score | 99.70% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, a formal Health Canada/DrugBank mechanism-of-action record is not available for this candidate (flagged as a High-severity data gap). However, based on the mechanistic rationale documented alongside this prediction, treprostinil is a stable prostacyclin (PGI2) analog that activates the IP receptor, producing pulmonary vasodilation, inhibition of vascular smooth muscle remodeling, and suppression of platelet aggregation. This mechanism does not depend on the underlying etiology of pulmonary hypertension — it acts downstream on the shared pulmonary vascular pathology.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Treprostinil belongs to the prostacyclin analogue class. These drugs act on IP receptors to cause pulmonary vasodilation and to inhibit platelet aggregation and smooth muscle proliferation.
 
-CTD-PAH is not a distinct disease from the original indication in a mechanistic sense; it is a clinically defined etiological subgroup within WHO Group 1 PAH (most commonly arising in systemic sclerosis, followed by SLE and mixed connective tissue disease). Because treprostinil's original approval covers idiopathic/heritable Group 1 PAH, and CTD-PAH shares the identical obstructive pulmonary vascular pathobiology, the TxGNN prediction essentially reflects an established clinical practice pattern rather than a novel mechanistic leap.
-
-This is further reinforced by direct clinical evidence: a landmark RCT (Simonneau et al., 2002, PMID 11897647) established subcutaneous treprostinil's efficacy across the general PAH population, and a dedicated RCT subgroup analysis (Oudiz et al., 2004, PMID 15302727) specifically evaluated treprostinil in CTD-PAH patients. A 2024 systematic review and meta-analysis of CTD-PAH treatment (PMID 38378970) further consolidates this evidence base.
+The data do not support a mechanistic link between treprostinil and PAVM. The high score most likely reflects graph proximity through shared pulmonary vascular terms in the knowledge graph. PAVM is a structural abnormality with abnormal connections between pulmonary arteries and veins. A vasodilator could plausibly worsen intrapulmonary shunting and hypoxemia, so this prediction raises a possible safety concern rather than a therapeutic rationale.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02663895](https://clinicaltrials.gov/study/NCT02663895) | Phase 2 | Completed | 12 | Pilot open-label trial of oral treprostinil in systemic sclerosis-associated calcinosis (indirect evidence; primary endpoint was calcinosis reduction, not PAH hemodynamics) |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11897647](https://pubmed.ncbi.nlm.nih.gov/11897647/) | 2002 | RCT | Am J Respir Crit Care Med | Pivotal double-blind, placebo-controlled RCT establishing efficacy of continuous SC treprostinil in PAH |
-| [15302727](https://pubmed.ncbi.nlm.nih.gov/15302727/) | 2004 | RCT subgroup analysis | Chest | Efficacy and safety of SC treprostinil specifically in CTD-associated PAH patients |
-| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematic Review/Meta-analysis | Intern Emerg Med | Meta-analysis of RCTs reporting outcomes for CTD-PAH treatment |
-| [34462153](https://pubmed.ncbi.nlm.nih.gov/34462153/) | 2021 | Cohort/Case series | Rev Med Interne | Multicenter retrospective study characterizing CTD-PAH patients treated with prostanoids |
-| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Review | Pharmaceuticals (Basel) | Recent advances in treatment of CTD-associated PAH |
-| [41594679](https://pubmed.ncbi.nlm.nih.gov/41594679/) | 2026 | Review | Biomolecules | Current therapeutic strategies and future prospects for CTD-PAH |
-| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Review | Lupus | PAH associated with connective tissue diseases |
-| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Review | Drugs | Treatment of PAH in connective tissue disease |
-| [18473715](https://pubmed.ncbi.nlm.nih.gov/18473715/) | 2008 | Review | Expert Opin Pharmacother | Treprostinil for the treatment of pulmonary hypertension |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Review | JAMA | Diagnosis and treatment of pulmonary arterial hypertension |
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Treprostinil currently has no active Canadian drug identification numbers (DINs) or market authorizations on record — market status is **Not Marketed**, with 0 licenses.
+| DIN | Product Name |
+|---------|------|
+| 2246552 | REMODULIN |
+| 2246553 | REMODULIN |
+| 2246554 | REMODULIN |
+| 2246555 | REMODULIN |
+
+Dosage form, manufacturer and approved indication text are not provided for these licences.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Possible concern specific to this prediction**: As a vasodilator, treprostinil could worsen intrapulmonary shunting and hypoxemia in PAVM. This is a mechanistic concern, not an observed finding.
+
+Please refer to the package insert for warnings, contraindications and drug interactions. No drug interaction records were found in the supplied data.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Treprostinil's mechanism directly applies to CTD-PAH as an established WHO Group 1 PAH subgroup, and the evidence base (L2) includes a dedicated RCT subgroup analysis and a recent systematic review/meta-analysis — considerably stronger than the other ranked candidates in this evidence pack, most of which have no clinical trial or literature support. However, the drug is not currently marketed in Canada, and formal regulatory safety documentation is missing.
+The PAVM prediction rests on a model score alone, with no trials, no literature and no supported mechanism. A plausible safety concern (worsened shunting) argues against pursuing it.
+
+**Other predicted indications in this pack:**
+
+| Predicted Indication | Evidence Level | Recommendation | Note |
+|------|------|------|------|
+| PAH associated with connective tissue disease | L1 | Proceed with Guardrails | Two RCT publications (PMID 11897647, 15302727); verify study designs from full records, since the supplied trial records do not independently show a Phase 3 RCT |
+| PAH associated with congenital heart disease | L3 | Proceed with Guardrails | Small, terminated or observational studies; label scope needs verification |
+| PAH associated with HIV infection | L3 | Research Question | Indirect evidence only, not HIV-specific |
+| Schistosomiasis-associated PAH, chronic hemolytic anemia-associated PAH | L5 | Hold | No evidence supplied |
+| Hypotrichosis simplex of the scalp, congenital hypotrichosis milia, Ambras-type hypertrichosis, odontal/periodontal malformation syndrome | L5 | Hold | No mechanistic link; the periodontal literature retrieved is unrelated to treprostinil |
 
 **To proceed, the following is needed:**
-- Health Canada/TFDA-equivalent product monograph — key warnings and contraindications (Blocking data gap, DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (High-severity data gap, DG002)
-- Canadian market authorization pathway, since the drug currently has 0 DINs on file
-- Route-of-administration compatibility assessment (SC/IV/inhaled/oral), currently marked "pending" in the evidence pack
-- Drug-drug interaction data (current DDI query returned no results — status should be reconfirmed rather than treated as negative evidence)
+- Treprostinil's approved indications and mechanism of action (DrugBank, Health Canada product monograph)
+- Health Canada package insert warnings and contraindications, which block safety screening
+- For PAVM specifically: any clinical or physiological evidence on prostacyclin analogues in intrapulmonary shunting
+- For the CTD-PAH candidate: verification of the pivotal study designs and confirmation that the indication falls within the Canadian label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

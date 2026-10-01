@@ -2,7 +2,7 @@
 layout: default
 title: Lithium Carbonate
 parent: Model Prediction Only (L5)
-nav_order: 470
+nav_order: 548
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lithium carbonate is a long-established mood stabilizer used for bipolar disorder (mania), acting in part through inhibition of GSK-3β and downstream Wnt/β-catenin signaling. The TxGNN model predicts it may be effective for **Pseudoachondroplasia**, a rare skeletal dysplasia, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags the mechanistic rationale as speculative.
+Lithium carbonate is a long-established mood stabiliser (bipolar disorder is its general-knowledge use; the Canadian licence data provided do not list an indication). The TxGNN model predicts it may be effective for **pseudoachondroplasia**, a rare skeletal dysplasia, but **no clinical trials and no publications** currently support this prediction. It is a model output only.
 
 ---
 
@@ -41,23 +41,23 @@ Lithium carbonate is a long-established mood stabilizer used for bipolar disorde
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder (mood stabilizer) — based on established pharmacological knowledge; no Health Canada license/indication text was available in this dataset |
+| Original Indication | Not listed in the provided licence data (general knowledge: bipolar disorder) |
 | Predicted New Indication | Pseudoachondroplasia |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 9 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed, drug-specific mechanism-of-action data was not available in this evidence pack (flagged as a High-severity data gap requiring DrugBank verification). Based on general pharmacological knowledge, lithium carbonate is a mood-stabilizing agent whose efficacy in bipolar disorder is well established; one of its known cellular effects is inhibition of glycogen synthase kinase-3β (GSK-3β), which activates the Wnt/β-catenin signaling pathway — a pathway also involved in chondrocyte differentiation and cartilage development.
+Detailed mechanism of action data is not available in the Evidence Pack. Lithium is known to inhibit GSK-3β and modulate Wnt/β-catenin signalling. This pathway influences chondrocyte and growth-plate biology, which is the only plausible bridge to a skeletal disorder.
 
-This is the theoretical bridge TxGNN appears to be drawing on: bipolar disorder (a neuropsychiatric target of lithium) and pseudoachondroplasia (a skeletal dysplasia) are not obviously related clinically, but Wnt/β-catenin signaling touches both neuronal and skeletal biology, which may explain why the model assigns a very high similarity score (rank 825 out of the full candidate list).
+Pseudoachondroplasia is caused by COMP gene mutations that lead to protein misfolding and endoplasmic reticulum stress in chondrocytes. No direct link between this disease mechanism and lithium's pharmacology is documented in the provided data. The link is speculative.
 
-However, the evidence pack's own mechanistic assessment is candid that this link is weak: pseudoachondroplasia is caused primarily by mutations in the *COMP* gene, leading to misfolded cartilage oligomeric matrix protein accumulating in the endoplasmic reticulum and triggering chondrocyte apoptosis — a **structural protein-folding disorder**, not a signaling-pathway disorder. Lithium's GSK-3β/Wnt activity has no established role in correcting protein misfolding or ER stress of this type. As a result, this prediction should be treated as a high-scoring but mechanistically unproven hypothesis rather than a validated repurposing candidate.
+The score of 99.98% reflects the model's ranking (rank 825), not clinical evidence. The original psychiatric use and the new skeletal indication share no obvious pharmacological or clinical relationship.
 
 ---
 
@@ -69,19 +69,48 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for pseudoachondroplasia.
+
+---
+
+## Other Predicted Candidates
+
+All other candidates are also Hold. Only one has any literature, and it is a general review of genetic skeletal disorder therapies whose relevance to lithium is unconfirmed.
+
+| Rank | Predicted Indication | Score | Evidence Level | Notes |
+|------|------|------|------|------|
+| 2 | Acromesomelic dysplasia, Hunter-Thompson type | 99.96% | L5 | BMP/Wnt crosstalk only; no data |
+| 3 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.96% | L5 | No established link; teratogenicity concern |
+| 4 | Brachyolmia | 99.96% | L5 | Speculative Wnt link |
+| 5 | Myosclerosis | 99.96% | L5 | Hypothetical antifibrotic effect |
+| 6 | Brachyolmia-amelogenesis imperfecta syndrome | 99.96% | L4 | One review ([PMID 31888683](https://pubmed.ncbi.nlm.nih.gov/31888683/), 2019, *Orphanet J Rare Dis*); relevance needs full-text check |
+| 7 | Brachydactyly-syndactyly syndrome | 99.95% | L5 | Speculative; teratogenic risk |
+| 8 | Behr syndrome | 99.63% | L5 | Preclinical neuroprotection only |
+| 9 | WHIM syndrome | 99.56% | L5 | Neutrophil-raising effect; does not target CXCR4 defect |
+| 10 | Combined immunodeficiency due to moesin deficiency | 99.29% | L5 | Neutrophil effect only; safety concerns in immunodeficiency |
 
 ---
 
 ## Canada Market Information
 
-Lithium carbonate is currently listed as **not marketed** in this dataset, with 0 registered DINs and no license records. No Health Canada authorization or indication text is available for extraction.
+Nine licences are recorded. The five main ones are listed below. Dosage form and approved indication text are not available in the provided data.
+
+| DIN | Product Name |
+|---------|------|
+| 02011239 | CARBOLITH |
+| 00236683 | CARBOLITH |
+| 02216132 | PMS-LITHIUM CARBONATE - CAP 150MG |
+| 02242837 | APO-LITHIUM CARBONATE |
+| 00461733 | CARBOLITH |
 
 ---
 
 ## Safety Considerations
 
-Detailed prescribing information — including key warnings, contraindications, and drug interaction data — was not available for lithium carbonate in this evidence pack. Please refer to the package insert for safety information before any clinical consideration.
+- **Drug Interactions**: No interaction records were found in the queried source.
+- **Developmental caution**: Lithium is a known teratogen concern. This matters for the developmental and skeletal conditions predicted here.
+
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ---
 
@@ -90,15 +119,16 @@ Detailed prescribing information — including key warnings, contraindications, 
 **Decision: Hold**
 
 **Rationale:**
-Although TxGNN assigns pseudoachondroplasia a very high similarity score (99.98%), the evidence pack itself identifies the mechanistic rationale as speculative — pseudoachondroplasia is a structural protein-misfolding disease, not a signaling-pathway disorder that lithium's known GSK-3β/Wnt activity would be expected to address. With zero clinical trials, zero publications, and evidence level L5 (model prediction only), there is currently no empirical basis to support this specific indication.
+The prediction rests only on a model score, with no trials, no publications and no documented mechanistic link. Lithium's known teratogenic concern adds caution for developmental skeletal disorders.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for lithium carbonate from DrugBank (currently a data gap)
-- TFDA/Health Canada prescribing information (warnings, contraindications, DDI) — currently a blocking data gap for any safety assessment
-- Preclinical evidence evaluating whether Wnt/β-catenin modulation has any measurable effect on COMP-related chondrocyte apoptosis
-- Consideration of other candidates in this same prediction set with comparatively stronger mechanistic plausibility, which may warrant prioritization over pseudoachondroplasia:
-  - **WHIM syndrome** (rank 9) — lithium has well-documented, long-observed neutrophil-mobilizing effects (historically used for chemotherapy-induced neutropenia), which map more directly onto WHIM's CXCR4-driven neutrophil retention defect (myelokathexis) than the pseudoachondroplasia link does
-  - **Brachyolmia-amelogenesis imperfecta syndrome** (rank 6) — supported by one review-level publication ([PMID 31888683](https://pubmed.ncbi.nlm.nih.gov/31888683/)) and a biologically coherent rationale involving Wnt-pathway roles in both cartilage and enamel mineralization
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Mechanism of action data (for example, from DrugBank)
+- Targeted literature review on lithium and GSK-3β/Wnt modulation in COMP-related chondrocyte pathology
+- Preclinical evidence (for example, a pseudoachondroplasia cell or animal model) before any clinical consideration
+- Full-text check of the one retrieved review to confirm whether it mentions lithium
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Pegvisomant
 parent: Model Prediction Only (L5)
-nav_order: 606
+nav_order: 710
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,72 +33,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Pegvisomant is a growth hormone (GH) receptor antagonist originally developed to treat acromegaly by blocking GH/IGF-1 signaling.
-The TxGNN model predicts it may show activity in **borderline ovarian serous tumor**, but this prediction currently has **no supporting clinical trials and no supporting literature** — it rests entirely on knowledge-graph inference.
-
----
+Pegvisomant (brand name SOMAVERT) is a growth hormone receptor antagonist, originally used to treat acromegaly.
+The TxGNN model predicts it may be effective for **borderline ovarian serous tumor**, but **0 clinical trials** and **0 publications** currently support this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acromegaly (GH excess) — inferred from mechanism description; not separately confirmed in this evidence pack |
+| Original Indication | Acromegaly (general knowledge of the product; not stated in the provided license records) |
 | Predicted New Indication | Borderline ovarian serous tumor |
 | TxGNN Prediction Score | 98.63% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed, sourced mechanism-of-action data is not available for this drug in the current evidence pack (`original_moa` is a data gap). Based on contextual information captured alongside the prediction, Pegvisomant acts as a **GH receptor antagonist**, blocking GH/IGF-1 signal transduction — this is consistent with its known clinical role in acromegaly.
+Currently, detailed mechanism of action data is not available in the input. Pegvisomant is a growth hormone receptor antagonist that lowers IGF-1. Its efficacy in acromegaly is established, and mechanistically it might be applicable to tumors whose growth depends on GH/IGF-1 signaling.
 
-The rationale linking this mechanism to borderline ovarian serous tumor is purely theoretical: the GH/IGF-1 axis has been proposed in the general oncology literature as a contributor to proliferation in some ovarian tumors, so a GH-axis antagonist is hypothesized to plausibly slow growth. However, no tumor-specific mechanistic study, preclinical data, or clinical evidence currently supports this link for this specific tumor subtype.
+For ovarian epithelial tumors, a GH/IGF-1 hypothesis is plausible but unverified. No preclinical, clinical or literature evidence was provided to support it, so the high score (98.63%) should be read as a model output, not as proof of efficacy.
 
-The evidence pack itself flags this explicitly: the model's high similarity score most likely reflects a **structural association** between GH/IGF-1-related nodes and tumor-related nodes in the knowledge graph, rather than a validated causal relationship. This should be treated as a hypothesis-generating signal only.
+The other top-10 predictions are mostly benign or borderline ovarian tumors, all with scores around 98.5%. Two predictions have no plausible link to GH receptor antagonism:
+- **Pyelonephritis** is a bacterial infection treated with antimicrobials.
+- **Aleukemic mast cell leukemia** is typically driven by KIT mutations.
 
----
+These two are likely knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Pegvisomant is **not currently marketed in Canada** — no Drug Identification Numbers (DINs) are on record, and no license data is available in this evidence pack.
-
----
+| DIN | Product Name |
+|---------|------|
+| 2448858 | SOMAVERT |
+| 2272199 | SOMAVERT |
+| 2272210 | SOMAVERT |
+| 2272202 | SOMAVERT |
+| 2448831 | SOMAVERT |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+No drug interaction records were found in the queried database.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a knowledge-graph inference (L5) with zero clinical trials and zero publications; the mechanistic link to this specific ovarian tumor subtype is speculative and unconfirmed. There is no basis to advance this candidate beyond hypothesis stage.
+The prediction has no supporting clinical trials or literature (Evidence Level L5), and the GH/IGF-1 link to ovarian tumors is speculative. The Health Canada package insert is also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory label warnings and contraindications (currently blocking — flagged as a critical data gap)
-- Confirmed, sourced mechanism-of-action documentation (currently a data gap)
-- Preclinical or in-vitro evidence specifically linking GH/IGF-1 antagonism to borderline ovarian serous tumor biology
-- Any real-world case reports or registry signals, given the complete absence of trials and literature
-- Confirmation of original approved indication(s), since no license/indication text was available in this evidence pack
+- Health Canada package insert (warnings and contraindications), a blocking gap
+- Mechanism of action data from DrugBank
+- Preclinical or clinical evidence linking GH/IGF-1 signaling to ovarian serous borderline tumors
+- Assessment of route compatibility and similarity to the original indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

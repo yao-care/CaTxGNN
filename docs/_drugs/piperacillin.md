@@ -2,7 +2,7 @@
 layout: default
 title: Piperacillin
 parent: Model Prediction Only (L5)
-nav_order: 623
+nav_order: 733
 evidence_level: L5
 indication_count: 9
 ---
@@ -33,9 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-> Piperacillin is a broad-spectrum penicillin-class antibiotic; detailed original indication and mechanism-of-action data are not available in this Evidence Pack.
-> The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-> but the supporting **18 publications** are almost entirely case reports of bacterial infections occurring *in* RA patients who were treated with piperacillin(-tazobactam) — not evidence of any therapeutic effect on RA itself. No clinical trials support this prediction.
+Piperacillin is a beta-lactam antibiotic, marketed in Canada mainly as piperacillin/tazobactam for injection.
+The TxGNN model predicts it may be effective for **Rheumatoid Arthritis** (score 99.94%), but **no clinical trials** are registered and the **18 retrieved publications** are mostly incidental case reports, not evidence of efficacy.
 
 ---
 
@@ -43,62 +42,68 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in Evidence Pack (drug.original_indications is empty; Piperacillin is a ureidopenicillin antibacterial by drug class) |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Bacterial infections (antibacterial use; the Canadian licence records provided contain no indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 (model prediction only; no clinical trials; literature is incidental co-occurrence, not treatment evidence) |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (weak; the literature is incidental, with no efficacy data) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 16 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (Data Gap DG002, High severity). Based on known pharmacological class information, Piperacillin is a beta-lactam antibiotic that inhibits bacterial cell-wall synthesis by binding penicillin-binding proteins (PBPs). This mechanism targets bacterial cell division, not the autoimmune/inflammatory pathways (e.g., TNF-α, IL-6, RANKL) implicated in rheumatoid arthritis pathogenesis.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Piperacillin belongs to the beta-lactam class, which kills bacteria by inhibiting penicillin-binding proteins. Its established efficacy is in bacterial infections.
 
-The repurposing rationale attached to this candidate is explicit on this point: none of the retrieved literature describes piperacillin being used to treat RA disease activity. Instead, every relevant article describes RA patients (often on immunosuppressants such as methotrexate, etanercept, or JAK inhibitors) who developed a **secondary bacterial infection** — empyema, prosthetic joint infection, purulent pericarditis, osteomyelitis — for which piperacillin/tazobactam was administered as standard antibacterial therapy. This is a textbook example of **co-occurrence rather than causal/therapeutic association**, likely arising from shared keyword context in the knowledge graph (RA + antibiotic used for RA-related infection) rather than a genuine biological signal.
+No anti-inflammatory or immunomodulatory mechanism relevant to rheumatoid arthritis (RA) is established. The link between piperacillin and RA in the literature is incidental. RA patients are often immunosuppressed (methotrexate, glucocorticoids, TNF or JAK inhibitors), so they develop infections that are then treated with piperacillin/tazobactam. This shows the drug is used for complications in RA patients, not that it treats RA itself.
 
-Consequently, while the raw TxGNN embedding score is very high (99.94%), the qualitative evidence review does not support a plausible mechanistic link between piperacillin and RA treatment.
+The high TxGNN score (0.999) is not supported by any mechanistic or clinical evidence in the data provided. The other predicted indications are weaker still. They include rare congenital syndromes, sclerosing cholangitis, osteoarthritis susceptibility, diabetic nephropathy and WHIM syndrome. All are Hold, most with no trials or literature at all.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (ClinicalTrials.gov: 0 results; ICTRP: 0 results, per query_log).
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+None of the articles below tests piperacillin as a treatment for RA. The table lists the 10 most relevant of the 18 retrieved. There are no RCTs, so cohort studies come first, then case reports.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33987340](https://pubmed.ncbi.nlm.nih.gov/33987340/) | 2021 | Cohort | Annals of Translational Medicine | Evaluates antibiotic-associated drug-induced liver injury (DILI) prevalence; not RA-specific, no treatment relevance |
-| [41257433](https://pubmed.ncbi.nlm.nih.gov/41257433/) | 2025 | Cohort | British Journal of Clinical Pharmacology | Predictive model for eosinophilia risk with ampicillin/sulbactam or piperacillin/tazobactam therapy; a safety-signal study, not an RA efficacy study |
-| [22605835](https://pubmed.ncbi.nlm.nih.gov/22605835/) | 2012 | Case Report | BMJ Case Reports | RA patient on methotrexate/etanercept developed purulent pericarditis; piperacillin-tazobactam given empirically to treat the infection |
-| [36945293](https://pubmed.ncbi.nlm.nih.gov/36945293/) | 2023 | Case Report | Cureus | RA patient in remission developed recurrent pleural effusion; antibiotic treatment for a suspected infectious complication, not RA itself |
-| [37599303](https://pubmed.ncbi.nlm.nih.gov/37599303/) | 2023 | Case Report | Orthopädie (Heidelberg) | RA patient on upadacitinib developed prosthetic knee joint infection (H. influenzae); treated with piperacillin/tazobactam as part of infection management |
-| [30371923](https://pubmed.ncbi.nlm.nih.gov/30371923/) | 2019 | Case Report | Orthopedics | RA patient on long-term steroids developed E. coli emphysematous osteomyelitis; antibiotic-impregnated rods used, IV antibiotics for infection control |
-| [41268563](https://pubmed.ncbi.nlm.nih.gov/41268563/) | 2025 | Case Report | Frontiers in Immunology | Immunosuppressed RA patient developed atypical bullous erysipelas from E. coli with septic shock; treated with broad-spectrum antibiotics for infection |
-| [38343452](https://pubmed.ncbi.nlm.nih.gov/38343452/) | 2024 | Case Report (pending classification) | Proceedings (Baylor Univ. Medical Center) | RA patient on low-dose methotrexate developed pancytopenia toxicity; unrelated to piperacillin mechanism |
-| [34178513](https://pubmed.ncbi.nlm.nih.gov/34178513/) | 2021 | Case Report (pending classification) | Cureus | RA patient with methotrexate-induced pancytopenia; no piperacillin/RA treatment relationship |
-| [1921823](https://pubmed.ncbi.nlm.nih.gov/1921823/) | 1991 | Case Report (pending classification) | The Medical Journal of Australia | RA patient with methotrexate overdose causing pancytopenia; unrelated to piperacillin |
-
-**Note:** None of the above articles report piperacillin as a treatment for rheumatoid arthritis disease activity. Most describe antibiotic use for infections that occur secondary to RA immunosuppressive therapy.
+| [41257433](https://pubmed.ncbi.nlm.nih.gov/41257433/) | 2025 | Cohort | Br J Clin Pharmacol | Predictive risk model for eosinophilia in patients on ampicillin/sulbactam or piperacillin/tazobactam (a safety study, not RA efficacy) |
+| [33987340](https://pubmed.ncbi.nlm.nih.gov/33987340/) | 2021 | Cohort | Ann Transl Med | Prevalence and clinical features of antibiotic-associated drug-induced liver injury |
+| [37599303](https://pubmed.ncbi.nlm.nih.gov/37599303/) | 2023 | Case report | Orthopadie (Heidelberg) | RA patient on a JAK1 inhibitor developed a Haemophilus influenzae prosthetic knee infection; piperacillin/tazobactam was started for pneumonia |
+| [22605835](https://pubmed.ncbi.nlm.nih.gov/22605835/) | 2012 | Case report | BMJ Case Rep | Purulent pericarditis in an RA patient on etanercept and methotrexate; empirical piperacillin/tazobactam was used |
+| [19621776](https://pubmed.ncbi.nlm.nih.gov/19621776/) | 2009 | Case report | No Shinkei Geka | Hypertrophic pachymeningitis with raised CRP treated with several antibiotics, including piperacillin; minocycline had the notable effect |
+| [30371923](https://pubmed.ncbi.nlm.nih.gov/30371923/) | 2019 | Case report | Orthopedics | E. coli femoral osteomyelitis in an RA patient on long-term prednisone, treated with antibiotic cement rods and IV antibiotics |
+| [41268563](https://pubmed.ncbi.nlm.nih.gov/41268563/) | 2025 | Case report | Front Immunol | Severe atypical bullous erysipelas with septic shock in a patient with 20 years of RA on immunosuppressants |
+| [38343452](https://pubmed.ncbi.nlm.nih.gov/38343452/) | 2024 | Case report | Proc (Bayl Univ Med Cent) | Low-dose methotrexate toxicity causing pancytopenia in an RA patient, rescued with leucovorin |
+| [34178513](https://pubmed.ncbi.nlm.nih.gov/34178513/) | 2021 | Case report | Cureus | Pancytopenia from low-dose methotrexate in RA, presented as a diagnostic challenge |
+| [17576563](https://pubmed.ncbi.nlm.nih.gov/17576563/) | 2007 | Case report | Rheumatol Int | Disseminated candidiasis in a patient with Felty's syndrome and severe granulocytopenia |
 
 ---
 
 ## Canada Market Information
 
-No Canadian market authorizations (DINs) are currently on file for this candidate. `taiwan_regulatory.total_licenses = 0`, market status: **Not Marketed**.
+16 licences in total; 5 main authorizations are listed. Dosage form and approved-indication text are not recorded in the licence data provided.
+
+| DIN | Product Name |
+|---------|------|
+| 2402068 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION |
+| 2377748 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION |
+| 2528703 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION |
+| 2362627 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION |
+| 2521539 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-Note: Data Gap DG001 (TFDA/Health Canada product-monograph warnings and contraindications) is flagged as **Blocking severity** — this prevents the candidate from entering the S1 safety pre-assessment stage until resolved.
+Please refer to the package insert for safety information. No drug interaction records were found for this drug in the data provided.
 
 ---
 
@@ -107,13 +112,15 @@ Note: Data Gap DG001 (TFDA/Health Canada product-monograph warnings and contrain
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but the underlying evidence does not support a genuine drug-disease relationship — all 18 retrieved publications reflect incidental antibiotic use for infections in RA patients rather than any therapeutic effect on RA, there are zero clinical trials, and no plausible mechanism connects piperacillin's antibacterial action to RA pathophysiology. Evidence Level is L5 (model prediction only).
+The prediction rests on the model score alone. There are no registered trials, no mechanistic link to RA, and the literature only shows antibiotic use for infections in RA patients. The remaining predicted indications have equally little or no support.
 
 **To proceed, the following is needed:**
-- Verified Piperacillin mechanism of action (MOA) data from DrugBank to formally document the absence of an RA-relevant pathway (resolves DG002)
-- Official Health Canada product monograph for warnings/contraindications/DDI (resolves DG001, currently blocking)
-- Any RA-specific preclinical or mechanistic studies, if they exist, to re-evaluate whether a genuine (rather than co-occurrence-driven) signal is present
-- Given the current evidence quality, no further development action is recommended for this indication unless materially different evidence emerges
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data (for example from DrugBank) to test for any anti-inflammatory or immunomodulatory rationale in RA
+- Evidence that the drug itself, not the treatment of infections, has an effect on RA (preclinical or clinical)
+- Approved-indication text and dosage-form details for the Canadian licences
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

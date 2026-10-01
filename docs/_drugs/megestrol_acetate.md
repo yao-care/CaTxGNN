@@ -2,7 +2,7 @@
 layout: default
 title: Megestrol Acetate
 parent: High Evidence (L1-L2)
-nav_order: 493
+nav_order: 575
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Megestrol Acetate: From Breast Cancer to Uterine Corpus Endometrial Carcinoma
+# Megestrol Acetate: From an Unspecified Labeled Indication to Uterine Corpus Endometrial Carcinoma
 
 ## One-Sentence Summary
 
-Megestrol Acetate is a synthetic progestogen globally recognized for the treatment of breast cancer and cancer-related anorexia/cachexia, but is not currently marketed in Canada.
-The TxGNN model predicts it may be effective for **Uterine Corpus Endometrial Carcinoma**, with **3 clinical trials** currently supporting this direction.
-Detailed mechanism of action data and Canadian package insert information are not yet available, representing key data gaps that must be resolved before formal development can proceed.
+Megestrol acetate is a synthetic progestin (hormonal agent) marketed in Canada, but the Canadian license records supplied do not state its approved indication.
+The TxGNN model predicts it may be effective for **uterine corpus endometrial carcinoma**.
+**3 clinical trials** support this direction, of which 1 is a completed randomized Phase 2 trial. No publications were supplied for this specific indication.
 
 ---
 
@@ -43,23 +43,23 @@ Detailed mechanism of action data and Canadian package insert information are no
 
 | Item | Content |
 |------|------|
-| Original Indication | No Health Canada approvals on record (not marketed in Canada) |
-| Predicted New Indication | Uterine Corpus Endometrial Carcinoma |
+| Original Indication | Not stated in the supplied Canadian license records |
+| Predicted New Indication | Uterine corpus endometrial carcinoma |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L2 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacological knowledge, Megestrol Acetate belongs to the synthetic progestogen class and acts as a progesterone receptor (PR) agonist. It directly binds to PR — which is highly expressed in normal endometrial tissue and in the majority of low-grade endometrial cancers — thereby inhibiting cancer cell proliferation and promoting cellular differentiation. At higher doses, it also suppresses pituitary LH secretion, which in turn reduces ovarian estrogen production, an established driver of endometrial cancer growth.
+Detailed mechanism of action data is not available in the supplied record. Megestrol is a synthetic progestin. It acts through progesterone receptors to oppose estrogen-driven proliferation and promote differentiation in hormone-receptor-positive endometrial tumors. This is consistent with the very high TxGNN score.
 
-The predicted indication, uterine corpus endometrial carcinoma, is in fact the most globally studied oncological application of megestrol acetate. Multiple regulatory agencies outside Canada have approved or recognized progestogen therapy for this indication. The mechanistic link is direct and well-characterized: endometrial carcinomas that overexpress PR are biologically susceptible to progestogen-mediated growth suppression, making megestrol a mechanistically rational first-line hormonal option — particularly for patients with Grade 1 endometrioid histology who wish to preserve fertility.
+Estrogen drives the growth of many endometrial cancers, so a progestin is a biologically sensible treatment. The oral tablet is widely known for use in advanced endometrial carcinoma, but the supplied data lists no original indications. The local label should therefore be checked to see whether this is truly a "new" indication in Canada or already an approved one.
 
-The TxGNN model's 99.94% confidence score therefore reflects both strong biological plausibility and a broad supporting knowledge graph. That the drug is currently not marketed in Canada does not diminish its applicability; rather, it signals a regulatory gap where an internationally validated therapy has yet to be registered locally.
+Several other predictions for this drug (for example, ovarian cancer) also have hormonal rationales, but this report focuses on the top-ranked prediction.
 
 ---
 
@@ -67,41 +67,45 @@ The TxGNN model's 99.94% confidence score therefore reflects both strong biologi
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Phase 2 | Completed | 73 | Randomized trial comparing temsirolimus alone versus temsirolimus plus hormonal therapy (megestrol acetate + tamoxifen citrate) in women with advanced, persistent, or recurrent endometrial carcinoma; directly evaluates megestrol-containing combination hormonal therapy in this population |
-| [NCT04046185](https://clinicaltrials.gov/study/NCT04046185) | Early Phase 1 | Unknown | 60 | Compares PD-1 inhibitor combined with progesterone versus progesterone alone for fertility-sparing treatment of early-stage endometrial cancer; progesterone arm includes agents mechanistically identical to megestrol acetate |
-| [NCT00503581](https://clinicaltrials.gov/study/NCT00503581) | Phase 2 | Terminated | 9 | Directly evaluated continuous versus sequential megestrol acetate therapy in patients with endometrial intraepithelial neoplasia (EIN) or atypical endometrial hyperplasia wishing to preserve the uterus; mechanistic rationale fully aligned, but terminated early due to insufficient enrollment |
+| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Phase 2 | Completed | 73 | Randomized trial of temsirolimus alone or with hormonal therapy (megestrol acetate and tamoxifen) in advanced, persistent, or recurrent endometrial cancer. No results were supplied. |
+| [NCT04046185](https://clinicaltrials.gov/study/NCT04046185) | Early Phase 1 | Unknown | 60 | PD-1 inhibitor plus progesterone versus progesterone alone in early-stage endometrial cancer patients seeking fertility preservation. Exploratory; megestrol-specific attribution is unclear. |
+| [NCT00503581](https://clinicaltrials.gov/study/NCT00503581) | Phase 2 | Terminated | 9 | Continuous versus sequential progestin (megestrol) therapy in endometrial intraepithelial neoplasia / atypical hyperplasia. Terminated with only 9 patients, so it cannot support efficacy conclusions. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for uterine corpus endometrial carcinoma in the current evidence pack.
+Currently no related literature available for this indication.
 
 ---
 
 ## Canada Market Information
 
-Megestrol Acetate (DrugBank ID: DB00351) is not currently approved or marketed in Canada. No Drug Identification Numbers (DINs) are on record with Health Canada. There are no licensed products, dosage forms, or approved indications available for this drug in the Canadian regulatory database.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2195925 | MEGESTROL | Not listed | Not listed |
+| 2195917 | MEGESTROL | Not listed | Not listed |
 
 ---
 
 ## Cytotoxicity
 
-Megestrol Acetate is used as a hormonal antineoplastic agent for the treatment of hormone receptor-positive cancers. It is **not** a conventional cytotoxic drug; it belongs to the progestogen (hormonal therapy) class.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Hormonal / Endocrine therapy (Progestogen class) — not a conventional cytotoxic agent; classified as antineoplastic via hormonal mechanism |
-| Myelosuppression Risk | Low — hormonal mechanism of action is not associated with clinically significant myelosuppression |
-| Emetogenicity Classification | Minimal — oral progestogens are not associated with significant nausea or vomiting at standard doses |
-| Monitoring Items | Body weight and fluid retention (glucocorticoid-like effects at high doses), fasting blood glucose (risk of hyperglycemia), adrenal function tests (secondary adrenal suppression reported with high-dose and prolonged use), coagulation parameters (increased thromboembolic risk) |
-| Handling Protection | Standard medication handling precautions; dedicated cytotoxic drug handling facilities are not typically required for oral hormonal agents |
+| Cytotoxicity Classification | Hormonal therapy (progestin); not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: As megestrol acetate is not currently approved by Health Canada, no Canadian package insert is available. Prescribers and regulators should refer to the US FDA label (NDA 016267 / NDA 019559) or equivalent international monographs for warnings, contraindications, and drug interaction information pending local approval.
+- **Drug Interactions**: No interaction records were found in the queried source.
+- **Literature-noted concern**: Secondary adrenal suppression has been reported with megestrol therapy in patients with advanced cancer (PMID 10491532, cited in the ovarian cancer evidence for this drug). High-dose use has also been studied for effects on blood coagulation (PMID 11727356).
+
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -110,15 +114,13 @@ Please refer to the package insert for safety information. Note: As megestrol ac
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic case for megestrol acetate in uterine corpus endometrial carcinoma is strong and globally well-validated; a completed Phase 2 randomized trial directly testing megestrol-containing hormonal therapy in this indication provides Level 2 evidence, and the drug has received regulatory recognition for this use outside Canada. The primary barriers are a regulatory gap in Canada, missing safety data, and incomplete MOA documentation — none of which undermine biological plausibility.
+The mechanism is biologically plausible and the TxGNN score is very high. A completed randomized Phase 2 trial includes a megestrol-containing arm in endometrial cancer, but no results or publications were supplied. The other two trials are exploratory or terminated early, so the evidence is moderate at best.
 
 **To proceed, the following is needed:**
-- Retrieve mechanism of action and pharmacology data from DrugBank API (DB00351) to complete the mechanistic linkage analysis
-- Download and parse the TFDA or FDA package insert to complete safety screening (key warnings, contraindications, drug–drug interactions) — currently a blocking data gap
-- Document existing international regulatory approvals for endometrial carcinoma (FDA, EMA, PMDA) to support a Health Canada New Drug Submission or evidence-based formulary access request
-- Conduct a supplementary literature search specifically targeting completed Phase 2/3 megestrol acetate trials in endometrial carcinoma (the PubMed query for this indication returned zero results, suggesting the search strategy may require expansion)
-- Assess PR expression prevalence and patient selection criteria relevant to the Canadian population (e.g., Grade 1–2 endometrioid, PR-positive tumors) to define the target indication precisely
-- Note: TxGNN rank 8 (ovarian cancer) carries Level L1 evidence with 6 clinical trials and 20 publications, including multiple high-dose Phase 2 studies — this indication warrants a parallel evaluation as a secondary development candidate
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- The approved indication text, dosage form and manufacturer for both DINs, to confirm whether endometrial carcinoma is already labeled
+- Published results of NCT00729586, and confirmation of the megestrol arm's contribution
+- Detailed mechanism of action data (for example, from DrugBank)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

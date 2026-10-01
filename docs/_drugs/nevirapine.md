@@ -2,7 +2,7 @@
 layout: default
 title: Nevirapine
 parent: Moderate Evidence (L3-L4)
-nav_order: 547
+nav_order: 645
 evidence_level: L4
 indication_count: 3
 ---
@@ -33,27 +33,29 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally developed for HIV-1 infection. The TxGNN model predicts a possible link to **Simian Immunodeficiency Virus (SIV) Infection**, but this signal is supported only by **17 preclinical/mechanistic publications and zero clinical trials**, and closer reading suggests the literature cluster reflects HIV-1 drug-development animal models rather than a genuine human repurposing opportunity.
+Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used against HIV-1. The Canadian license records provided do not state the approved indication, so HIV-1 is inferred from the drug class. The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but there are **0 clinical trials** and only **preclinical literature** (in vitro and macaque studies), most of it indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (NNRTI antiretroviral therapy) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
+| Original Indication | HIV-1 infection (inferred from drug class; not stated in the license data provided) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L4 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Nevirapine is an NNRTI that binds directly and non-competitively to HIV-1 reverse transcriptase, blocking viral replication. This mechanism is highly specific to the HIV-1 enzyme's binding pocket.
+Nevirapine binds an allosteric pocket in HIV-1 reverse transcriptase. Detailed mechanism data was not available in the pack, so this description comes from the drug class. Because it targets the HIV-1 enzyme specifically, the mechanism does not obviously extend to SIV.
 
-SIV is a lentivirus closely related to HIV-1, which is why it is used as an animal model for anti-HIV drug development. However, the reverse transcriptase sequences of wild-type SIV and HIV-1 differ substantially, and the literature consistently shows that NNRTIs — including nevirapine — do not effectively inhibit wild-type SIV. Most of the supporting evidence instead uses chimeric SHIV constructs (SIV engineered to carry the HIV-1 reverse transcriptase gene) specifically so that HIV-1-targeted drugs like nevirapine *can* be tested in a macaque model.
+The mechanism actually argues against the prediction. Wild-type SIV and HIV-2 reverse transcriptases are generally intrinsically resistant to this class. The literature shows nevirapine is active against chimeric SHIV viruses that carry the HIV-1 RT gene (in vitro and in macaque models). In those studies nevirapine acts as a tool compound against the HIV-1 RT component, not as a treatment for SIV itself. SIV is also a nonhuman primate disease with no human indication.
 
-In other words, this evidence cluster is largely a byproduct of HIV-1 drug and vaccine research methodology (testing candidate NNRTIs in RT-SHIV/SHIV monkey models), not evidence that nevirapine treats naturally occurring SIV infection. It is also worth noting that humans are not susceptible to SIV, which limits the clinical relevance of this indication as a human repurposing candidate.
+The model's other top predictions are weak as well:
+- **Feline acquired immunodeficiency syndrome** (score 99.85%, L4): the only support is a 2023 biochemical and structural study of NNRTIs against feline and human immunodeficiency viruses (PMID 38031646). That study is indirect, and its abstract does not show how large any nevirapine effect is.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.82%, L5): there is no identifiable mechanistic link, no literature and no trials. This looks like a knowledge-graph artifact.
 
 ## Clinical Trial Evidence
 
@@ -63,37 +65,40 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro/Susceptibility profiling | Antiviral therapy | Evaluated 16 approved anti-HIV-1 drugs (including nevirapine) plus one experimental compound against HIV-2, SIV, and SHIV strains to inform treatment/PEP use |
-| [12234864](https://pubmed.ncbi.nlm.nih.gov/12234864/) | 2002 | In vitro/Mechanistic | Antimicrobial Agents and Chemotherapy | Diketo integrase inhibitor combined with zidovudine, nevirapine, or nelfinavir showed only subsynergistic activity against SIV(MAC251) |
-| [7541200](https://pubmed.ncbi.nlm.nih.gov/7541200/) | 1995 | In vitro/Resistance profiling | Biochemical and Biophysical Research Communications | Chimeric SIV carrying HIV-1 reverse transcriptase (RT-SHIV) was constructed specifically to test sensitivity to NNRTIs, since native SIV RT is not inhibited by this class |
-| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro/Preclinical | Journal of Virology | Characterized an SIV-HIV chimera expressing HIV-1 reverse transcriptase to study NNRTI antiviral resistance evolution in pigtail macaques |
-| [11375059](https://pubmed.ncbi.nlm.nih.gov/11375059/) | 2001 | Animal model | AIDS Research and Human Retroviruses | Cynomolgus monkeys infected with RT-SHIV (HIV-1 RT inserted into SIV) were treated to study in vivo resistance development to RT-targeted drugs |
-| [19195672](https://pubmed.ncbi.nlm.nih.gov/19195672/) | 2009 | Animal model | Virology | Characterized vaginal transmission of RT-SHIV (encoding HIV-1 reverse transcriptase) in rhesus macaques as a preclinical transmission model |
-| [16859727](https://pubmed.ncbi.nlm.nih.gov/16859727/) | 2006 | Mechanistic | Virology | Tested NRTIs and NNRTIs against endogenous reverse transcription of HIV-1 and SIV virions as a potential virucide strategy |
-| [27748043](https://pubmed.ncbi.nlm.nih.gov/27748043/) | 2017 | In vitro/Mechanistic | Chemical Biology & Drug Design | Novel small-molecule RT inhibitor blocked HIV-1 replication but explicitly did **not** inhibit SIV(mac), underscoring the poor cross-reactivity of HIV-1-targeted RT inhibitors against native SIV |
-| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro/Mechanistic | Antiviral Chemistry & Chemotherapy | Fluoroquinolone derivative K-12 shown active against HIV-1 (including resistant strains), HIV-2, and SIV; used nevirapine-class comparators for context |
-| [11020686](https://pubmed.ncbi.nlm.nih.gov/11020686/) | 2000 | Review | Annals of Emergency Medicine | Review of HIV post-exposure prophylaxis citing animal (including SIV) studies as indirect support for antiretroviral efficacy |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility study | Antiviral Therapy | Compared 16 approved anti-HIV drugs plus one experimental drug against HIV-2, SIV and SHIV strains. Relevant to which antiretrovirals work against SIV. The abstract provided does not give nevirapine-specific results. |
+| [7541200](https://pubmed.ncbi.nlm.nih.gov/7541200/) | 1995 | In vitro | Biochem Biophys Res Commun | A hybrid SIV carrying the HIV-1 RT gene (RT-SHIV) was markedly sensitive to NNRTIs. Plain SIV was not inhibited by this drug class. |
+| [11375059](https://pubmed.ncbi.nlm.nih.gov/11375059/) | 2001 | Animal model | AIDS Res Hum Retroviruses | Cynomolgus monkeys infected with RT-SHIV were used to study the development of drug resistance. |
+| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro | J Virol | Characterized an SIV/HIV-1 RT chimera as a model for studying NNRTI resistance in pigtail macaques. Notes that NNRTIs do not effectively inhibit SIV RT. |
+| [19195672](https://pubmed.ncbi.nlm.nih.gov/19195672/) | 2009 | Animal model | Virology | RT-SHIV transmitted efficiently by the vaginal route in rhesus macaques. This is a transmission model, not a treatment study. |
+| [16859727](https://pubmed.ncbi.nlm.nih.gov/16859727/) | 2006 | Not yet classified | Virology | Pretreating HIV-1 and SIV virions with NRTIs and NNRTIs, alone or with NERT-stimulating substances, was explored as a virucide approach. |
+| [11020686](https://pubmed.ncbi.nlm.nih.gov/11020686/) | 2000 | Review | Ann Emerg Med | HIV post-exposure prophylaxis in the emergency department. Cites animal SIV studies as indirect support, but concerns HIV-1, not SIV treatment. |
+| [12234864](https://pubmed.ncbi.nlm.nih.gov/12234864/) | 2002 | In vitro | Antimicrob Agents Chemother | Integrase inhibitors were subsynergistic with nevirapine. Nevirapine appears only as a combination partner. |
 
 ## Canada Market Information
 
-Nevirapine is currently **not marketed** in Canada under this evidence pack (0 DINs on file). No Health Canada license records are available to summarize dosage forms or approved indications.
+| DIN | Product Name |
+|---------|------|
+| 2387727 | MYLAN-NEVIRAPINE |
+| 2318601 | AURO-NEVIRAPINE |
+| 2405776 | JAMP NEVIRAPINE |
 
 ## Safety Considerations
 
-Detailed safety data (key warnings, contraindications, and drug interaction data) are not yet available for this candidate — please refer to the package insert for safety information. Note that the TFDA/Health Canada label warnings are flagged as a **blocking data gap (DG001)**, meaning this candidate cannot yet proceed to a formal S1 safety review.
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but the supporting literature is entirely preclinical/mechanistic (Evidence Level L4), consists largely of HIV-1 drug-development animal models rather than evidence of efficacy against natural SIV infection, and SIV is not a human disease — limiting real-world repurposing value. No clinical trials exist, and mechanism-of-action and regulatory safety data are both currently missing (data gaps DG001, DG002).
+The evidence is preclinical only (L4), there are no clinical trials, and SIV is a nonhuman primate disease with no human indication. Wild-type SIV is generally intrinsically resistant to NNRTIs, so the high TxGNN score is not supported by mechanism. The macaque work uses nevirapine against the HIV-1 RT component of chimeric viruses, not against SIV.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label warnings and contraindications (currently blocking)
-- Confirmed mechanism-of-action data from DrugBank
-- Clarification of clinical relevance, since SIV does not naturally infect humans
-- Note: the other two TxGNN-predicted indications for this drug (feline immunodeficiency-related syndrome, and an unrelated rare neurodevelopmental disorder) show similarly weak or absent evidence (L4/L5) and are likewise recommended for Hold pending further data.
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data (e.g., via the DrugBank API) to support any mechanistic-link analysis
+- Nevirapine-specific activity data against wild-type SIV, since the current literature mostly covers HIV-1 RT chimeras or other compounds
+- Confirmation of the approved indication text for the three Canadian DINs
+- A clear target-use case (veterinary or research tool), since SIV has no human indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

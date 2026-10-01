@@ -2,7 +2,7 @@
 layout: default
 title: Ponatinib
 parent: Model Prediction Only (L5)
-nav_order: 634
+nav_order: 746
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Ponatinib: Signals for Fibromatosis, Gingival and Liposarcoma
+# Ponatinib: Repurposing Prediction for Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Ponatinib is a multi-kinase inhibitor (BCR-ABL, FGFR1-3, PDGFRα, VEGFR2, SRC); its original approved indication is not recorded in this evidence pack, and the drug is currently **not marketed in Canada**.
-The TxGNN model's top prediction is **Fibromatosis, Gingival** (score 99.04%), but this has **no clinical trial or literature support**. A secondary prediction, **Liposarcoma** (score 99.00%), is backed by **1 preclinical publication** suggesting kinase-targetable vulnerabilities in this tumour type.
+Ponatinib is a multi-kinase inhibitor marketed in Canada as ICLUSIG, and the license data supplied does not state its approved indication.
+The TxGNN model predicts it may be effective for **Gingival Fibromatosis**, but **no clinical trials and no publications** currently support this prediction.
+It is a model-only signal (Evidence Level L5) and should be treated as a hypothesis, not a candidate ready for development.
 
 ---
 
@@ -42,47 +43,42 @@ The TxGNN model's top prediction is **Fibromatosis, Gingival** (score 99.04%), b
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no Canada license on file; original indication not recorded in evidence pack) |
-| Predicted New Indication | Fibromatosis, Gingival |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.04% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed original mechanism-of-action data is not available as a structured field in this evidence pack. However, the evidence pack's own analysis identifies ponatinib as a **multi-kinase inhibitor** targeting BCR-ABL, FGFR1-3, PDGFRα, VEGFR2, and SRC — consistent with its known use as a tyrosine kinase inhibitor (TKI).
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, ponatinib is a multi-kinase inhibitor, and a kinase-pathway effect could in principle be relevant to a proliferative tissue disorder.
 
-For the top-ranked prediction, **Fibromatosis, Gingival** — a benign fibroproliferative gum condition — there is no established mechanistic link to ponatinib's kinase inhibition profile. The 99.04% TxGNN score reflects a purely computational knowledge-graph association with no supporting clinical or preclinical evidence, which is why this candidate is scored L5 (model prediction only) and staged as **Hold**.
-
-For the secondary prediction, **Liposarcoma**, the mechanistic rationale is stronger: known FGFR/PDGFR pathway dysregulation in liposarcoma subtypes aligns with ponatinib's kinase inhibition spectrum. One in vitro drug-screening study (PMID 29132397) found kinase inhibitors, including candidates in ponatinib's target class, to have activity against liposarcoma cell lines — supporting a plausible but still preclinical (L4) hypothesis.
+Hereditary gingival fibromatosis is rare and largely genetic (for example, SOS1-related). The supplied data documents no kinase-pathway rationale linking ponatinib to this condition, so no mechanistic link can be established. The very high TxGNN score (0.990) is a statistical output of the knowledge-graph model. It is not biological or clinical confirmation.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (for either Fibromatosis, Gingival or Liposarcoma).
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-**For Fibromatosis, Gingival (top-ranked prediction):** Currently no related literature available.
-
-**For Liposarcoma (secondary prediction):**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/) | 2017 | Preclinical/Drug Screening (in vitro) | Journal of Hematology & Oncology | RNAi and drug screening in liposarcoma identified druggable kinase targets, supporting kinase inhibitor activity in this understudied tumour type |
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Ponatinib is currently not marketed in Canada — no active licenses (DINs) are on file.
+| DIN | Product Name |
+|---------|------|
+| 2437333 | ICLUSIG |
+
+Dosage form, manufacturer and approved indication text were not provided in the license record.
 
 ---
 
@@ -90,7 +86,7 @@ Ponatinib is currently not marketed in Canada — no active licenses (DINs) are 
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor / TKI, per known BCR-ABL/FGFR/PDGFR/VEGFR/SRC profile) |
+| Cytotoxicity Classification | Targeted therapy (kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -109,13 +105,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Fibromatosis, Gingival) has no clinical or literature support and is a pure model artifact (L5). A **Blocking** data gap also exists — Canada/TFDA regulatory warnings and contraindications are not on file, preventing a valid S1 safety evaluation for either candidate.
+The prediction rests only on a model score. There are no linked trials or publications, no mechanism of action data, and no plausible kinase-based rationale for a largely genetic, rare condition. The package insert safety data is also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Retrieve official prescribing information (warnings, contraindications, DDI) to resolve the blocking safety data gap
-- Confirm ponatinib's mechanism of action and original approved indication via DrugBank/regulatory sources
-- If pursuing the Liposarcoma signal, expand the literature search beyond the single preclinical study and monitor for emerging trial registrations
-- Given the weak mechanistic basis, do not advance the Fibromatosis, Gingival candidate without additional independent evidence
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Mechanism of action data, for example from DrugBank
+- A targeted literature and trial search on ponatinib in gingival fibromatosis
+- Confirmation of the approved indication and dosage form for DIN 2437333
+
+**Alternative lead:** The second-ranked prediction, **liposarcoma** (TxGNN score 99.00%, Evidence Level L4), has one linked preclinical kinase-profiling study (PMID 29132397, 2017). The supplied metadata does not show whether ponatinib was tested in that study, so the full text must be checked. It is currently classed as a research question, not a development candidate.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

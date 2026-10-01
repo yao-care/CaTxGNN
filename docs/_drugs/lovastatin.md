@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lovastatin
-parent: Moderate Evidence (L3-L4)
-nav_order: 478
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 558
+evidence_level: L5
 indication_count: 6
 ---
 
 # Lovastatin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,83 @@ Evidence Level: **L3** | Predicted Indications: **6**
 
 </div>
 
-# Lovastatin: From Hypercholesterolemia to Homozygous Familial Hypercholesterolemia
+# Lovastatin: From Statin Lipid-Lowering Therapy to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Lovastatin is a first-generation HMG-CoA reductase inhibitor (statin) originally used to treat hypercholesterolemia/dyslipidemia.
-The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**,
-with **3 clinical trials** and **19 publications** currently identified, though the evidence base is largely older cohort studies and case reports rather than lovastatin-specific randomized trials.
-
----
+Lovastatin is a statin (an HMG-CoA reductase inhibitor) used to lower cholesterol, and it is marketed in Canada. The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia (HoFH)** with a very high score. However, none of the **3 retrieved clinical trials** tests lovastatin, and the **19 publications** are mostly small or mixed case-level reports.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypercholesterolemia / dyslipidemia (as an HMG-CoA reductase inhibitor) — Canada-specific label indication text is unavailable because the product is not currently marketed |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
+| Original Indication | Not available in the provided licence data (indication text is empty) |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L3 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L3 (small clinical studies and case reports only; no completed lovastatin-specific Phase 3 RCT) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known pharmacological information, lovastatin is a first-generation HMG-CoA reductase inhibitor that lowers LDL cholesterol by blocking hepatic cholesterol biosynthesis, which in turn upregulates hepatic LDL receptor expression and increases LDL-C clearance from plasma. This mechanism has been proven effective in common (heterozygous) hypercholesterolemia, and on the surface it appears mechanistically applicable to Homozygous Familial Hypercholesterolemia (HoFH), which is caused by biallelic LDL receptor gene mutations.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, lovastatin inhibits HMG-CoA reductase, which lowers cholesterol synthesis in the liver. This upregulates hepatic LDL receptors and increases LDL clearance. HoFH is a severe inherited condition of extremely high LDL cholesterol, so a cholesterol-lowering statin is a natural candidate.
 
-However, the repurposing rationale for HoFH carries an important caveat: because HoFH patients have severely reduced or completely absent LDL receptor function, and lovastatin's cholesterol-lowering effect depends on compensatory *upregulation* of that same receptor, patients with a **receptor-negative** genotype are expected to derive limited benefit, while patients with a **receptor-defective** genotype (retaining some residual receptor activity) may show a partial response. In other words, the mechanistic link exists but is highly genotype-dependent rather than uniformly effective — this is directly reflected in the literature (e.g., PMID 3397806 found no reduction in LDL-C or LDL turnover in receptor-negative HoFH children on lovastatin).
+The mechanism has an important limit. Statins depend on residual LDL receptor (LDLR) function, and HoFH patients carry two faulty LDLR alleles. The effect is therefore expected to be weak or absent in receptor-negative patients and may be partial in receptor-defective ones. The lovastatin-specific evidence reflects this. One study of three receptor-negative children found no LDL-cholesterol reduction on lovastatin. Other reports describe lovastatin only as part of combination regimens.
 
-It is also worth noting that TxGNN's second-ranked prediction for this drug, hyperlipoproteinemia (Type IIa/IIb), is a well-established, already-approved statin indication with substantially stronger direct evidence (Level L1, including a Phase 4 lovastatin/niacin RCT). By comparison, the HoFH signal reviewed here is a genuinely novel, higher-risk repurposing hypothesis rather than a straightforward extension of existing statin use.
-
----
+The high TxGNN score is a graph-based prediction. It is not backed by lovastatin-specific controlled data.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | Long-term (24-month) open-label safety/tolerability of ezetimibe added to atorvastatin or simvastatin in HoFH. Not a lovastatin trial; statin-class background only. |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Parent efficacy/safety study of ezetimibe co-administered with atorvastatin or simvastatin in HoFH. Not a lovastatin trial. |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Efficacy/safety of alirocumab (PCSK9 inhibitor) in children/adolescents with HoFH. Different drug class; indication-level overlap only, not lovastatin-specific. |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | Long-term open-label safety of ezetimibe added to atorvastatin or simvastatin in HoFH (not lovastatin) |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Efficacy and safety of ezetimibe added to atorvastatin or simvastatin in HoFH (not lovastatin) |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Open-label alirocumab (PCSK9 inhibitor) in children and adolescents with HoFH (not lovastatin) |
 
-**Note:** None of the identified registered trials directly test lovastatin in HoFH — all three involve other lipid-lowering agents (ezetimibe, alirocumab) studied in the same disease population.
-
----
+None of these trials studies lovastatin. They only show that HoFH usually needs combination or add-on therapy.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3397806](https://pubmed.ncbi.nlm.nih.gov/3397806/) | 1988 | Cohort (small clinical study) | The Journal of Pediatrics | Lovastatin (2 mg/kg/day) produced no reduction in LDL-C levels or LDL turnover in 3 children with receptor-negative HoFH — direct evidence that efficacy depends on residual LDL receptor function. |
-| [1785747](https://pubmed.ncbi.nlm.nih.gov/1785747/) | 1991 | Cohort (LDL receptor correlation) | Anales Españoles de Pediatría | Lovastatin combined with probucol/cholestyramine reduced total cholesterol by ~41.7% in two HoFH patients characterized by LDL receptor analysis. |
-| [3534334](https://pubmed.ncbi.nlm.nih.gov/3534334/) | 1986 | Case Report | JAMA | A child with HoFH achieved normal cholesterol levels on lovastatin after liver transplantation restored ~60% of LDL receptor activity, suggesting lovastatin only becomes effective once some receptor function is present. |
-| [2252289](https://pubmed.ncbi.nlm.nih.gov/2252289/) | 1990 | Case Report | Anales Españoles de Pediatría | HoFH patient with residual (receptor-defective) activity responded to combined cholestyramine + lovastatin therapy. |
-| [2209665](https://pubmed.ncbi.nlm.nih.gov/2209665/) | 1990 | Case Report | European Journal of Pediatrics | 7-year-old girl with HoFH treated with LDL apheresis (HELP) with and without lovastatin; long-term treatment was well tolerated with regression of xanthomata. |
-| [8637439](https://pubmed.ncbi.nlm.nih.gov/8637439/) | 1996 | Case Report | Metabolism: Clinical and Experimental | In a girl with sitosterolemia plus heterozygous FH, lovastatin and cholestyramine had opposing effects on plasma sterol levels, illustrating variable/complex statin response in receptor-related lipid disorders. |
-| [29284604](https://pubmed.ncbi.nlm.nih.gov/29284604/) | 2018 | Case Series (genotype-phenotype) | Arteriosclerosis, Thrombosis, and Vascular Biology | HoFH patients with identical LDLR mutations show variable receptor expression, helping explain heterogeneous responses to statins and PCSK9 inhibitors (contextual, not lovastatin-specific). |
-| [12034651](https://pubmed.ncbi.nlm.nih.gov/12034651/) | 2002 | RCT (statin-class) | Circulation | Multicenter double-blind RCT (n=50) of ezetimibe plus atorvastatin/simvastatin in HoFH; supports statin-class background efficacy but not lovastatin directly. |
-| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clinical Therapeutics | Review of rosuvastatin noting HoFH as an approved statin-class indication, supporting the general statin-HoFH mechanistic rationale. |
-| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Review | American Journal of Cardiovascular Drugs | Review of ezetimibe, a non-statin cholesterol-absorption inhibitor used as HoFH adjunct therapy (contextual background only). |
-
----
+| [12034651](https://pubmed.ncbi.nlm.nih.gov/12034651/) | 2002 | RCT (other drug class) | Circulation | Ezetimibe added to atorvastatin or simvastatin in 50 HoFH patients (not lovastatin) |
+| [3397806](https://pubmed.ncbi.nlm.nih.gov/3397806/) | 1988 | Clinical study | J Pediatr | Three children with receptor-negative HoFH: lovastatin 2 mg/kg/day gave no LDL-cholesterol decrease |
+| [1785747](https://pubmed.ncbi.nlm.nih.gov/1785747/) | 1991 | Clinical study | An Esp Pediatr | Two HoFH patients: lovastatin combined with probucol and cholestyramine, with LDL receptor analysis |
+| [2209665](https://pubmed.ncbi.nlm.nih.gov/2209665/) | 1990 | Case report | Eur J Pediatr | A 7-year-old girl with HoFH: LDL apheresis (HELP) with and without lovastatin |
+| [3534334](https://pubmed.ncbi.nlm.nih.gov/3534334/) | 1986 | Case report | JAMA | A child with HoFH after liver transplantation: lovastatin brought cholesterol to normal levels |
+| [2252289](https://pubmed.ncbi.nlm.nih.gov/2252289/) | 1990 | Case report | An Esp Pediatr | A receptor-defective HoFH patient treated with cholestyramine plus lovastatin |
+| [12091863](https://pubmed.ncbi.nlm.nih.gov/12091863/) | 2002 | Case report | J Pediatr | 15 years of H.E.L.P. apheresis plus statins in a young woman with HoFH: 85% LDL-cholesterol reduction and xanthoma regression |
+| [29284604](https://pubmed.ncbi.nlm.nih.gov/29284604/) | 2018 | Cohort/Mechanistic | Arterioscler Thromb Vasc Biol | Variable LDLR expression explains variable evolocumab response in HoFH |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clin Ther | Rosuvastatin review, including its HoFH indication (not lovastatin) |
+| [7229037](https://pubmed.ncbi.nlm.nih.gov/7229037/) | 1981 | Preclinical | J Clin Invest | Compactin (an early statin) effects on sterol synthesis in HoFH patient fibroblasts |
 
 ## Canada Market Information
 
-Lovastatin is not currently marketed in Canada — no Drug Identification Numbers (DINs) are on record (0 licenses), so no product/dosage-form/indication table can be produced at this time.
+| DIN | Product Name |
+|---------|------|
+| 2220180 | LOVASTATIN |
+| 2220172 | LOVASTATIN |
 
----
+Dosage form and approved indication text were not provided for these authorizations.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note:** A Health Canada label / warnings-and-contraindications data gap has been flagged as **Blocking** (DG001) — this must be resolved before any formal safety pre-assessment (S1) can proceed for this candidate.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- A Blocking-severity data gap (DG001: no Health Canada label warnings/contraindications) currently prevents this candidate from entering the S1 safety pre-assessment stage, regardless of efficacy signal.
-- The HoFH efficacy evidence itself is Level L3 (older cohort studies and case reports, no lovastatin-specific completed RCT) and shows genotype-dependent effect — patients with receptor-negative HoFH appear largely unresponsive, limiting the population that could realistically benefit.
+The high TxGNN score is not supported by lovastatin-specific controlled evidence. The retrieved trials test other agents, and the lovastatin data are limited to small studies and case reports. The mechanism is expected to fail in receptor-negative HoFH, and one small pediatric study showed no effect.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph / label warnings and contraindications (resolves Blocking gap DG001)
-- Confirmed mechanism of action data via DrugBank API (resolves High-severity gap DG002)
-- Genotype-stratified clinical data distinguishing receptor-negative vs. receptor-defective HoFH patients to identify which subgroup, if any, could benefit
-- A regulatory pathway assessment given lovastatin's current non-marketed status in Canada (0 DINs)
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data (for example from DrugBank)
+- Confirmation of the current approved indication and dosage forms for the two DINs
+- Lovastatin-specific data stratified by LDLR genotype (receptor-negative vs receptor-defective), or a case for why HoFH should not simply be managed with other established therapies
+- Note that the same evidence pack shows stronger support (L1) for lovastatin in heterozygous familial hypercholesterolemia. That is a more promising direction to evaluate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

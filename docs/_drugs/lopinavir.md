@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lopinavir
-parent: Moderate Evidence (L3-L4)
-nav_order: 474
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 553
+evidence_level: L5
 indication_count: 3
 ---
 
 # Lopinavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,74 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-Using the evidence pack content directly (no fabricated data), here is the evaluation report:
-
----
-
-# Lopinavir: From HIV-1 Infection to Simian Immunodeficiency Virus (SIV) Infection
+# Lopinavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Lopinavir is an HIV-1 protease inhibitor, most familiar as a component of combination antiretroviral therapy for HIV-1 infection. The TxGNN model predicts a high similarity score for **Simian Immunodeficiency Virus (SIV) Infection**, but this "new indication" is not a human disease — it is the standard non-human primate model used to test HIV antiretrovirals — so the signal is currently supported only by **3 animal-model publications** and **zero clinical trials**.
-
----
+Lopinavir is an HIV protease inhibitor, marketed in Canada as KALETRA. The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, a nonhuman primate research model rather than a human indication. Support consists of **0 clinical trials** and **3 animal-model publications**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the evidence pack's regulatory data (no `taiwan_regulatory.licenses` entries); based on the mechanistic rationale supplied with the prediction, Lopinavir is an HIV-1 protease inhibitor used in antiretroviral therapy |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
+| Original Indication | HIV-1 infection (inferred from drug class; no approved indication text was provided in the Canadian licence records) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (animal and preclinical studies only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal mechanism-of-action data is not available in the evidence pack (flagged as data gap DG002). Based on the rationale accompanying the prediction, Lopinavir is an HIV-1 protease inhibitor, and SIV protease shares high sequence/structural homology with HIV-1 protease — which is precisely why SIV-infected macaques are routinely used as a **pre-clinical animal model** for testing HIV antiretroviral drugs, including protease inhibitors like Lopinavir.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Lopinavir is known as an HIV-1 protease inhibitor, and SIV is the nonhuman primate counterpart of HIV. Mechanistically, a protease inhibitor could plausibly act against SIV, although SIV protease is related to HIV-1 protease but not identical.
 
-However, this mechanistic link needs to be read carefully: SIV infection is **not a human disease**. It is a veterinary/research condition confined to non-human primates. The three supporting publications describe Lopinavir (often as part of combination antiretroviral regimens) being used to suppress SIV/SHIV replication in macaques as a *proxy* for studying HIV-1 dynamics — not as evidence of a genuinely novel, independently actionable human indication.
+The very high score (0.999) most likely reflects how close HIV and SIV sit in the knowledge graph. SIV infection is a laboratory model used to test antiretrovirals. It is not a human clinical indication, so this prediction is not a true repurposing signal.
 
-In effect, this candidate largely reconfirms Lopinavir's known antiretroviral mechanism via an animal-model term rather than surfacing a new treatable human condition. The two lower-ranked candidates in this evidence pack (feline acquired immunodeficiency syndrome, and a rare neurodevelopmental disorder) are similarly not clinically actionable: the former is a non-human disease with no supporting literature, and the latter shows no known biological pathway connecting HIV protease inhibition to neurodevelopmental pathology — both are flagged in the evidence pack as likely knowledge-graph embedding artifacts (L5, Hold) rather than real signals, and are not carried further in this report.
-
----
+The other two top predictions are also weak:
+- **Feline acquired immunodeficiency syndrome** (score 99.90%, evidence level L5): FIV is a lentivirus, so a protease-inhibitor link is plausible in principle. This is a veterinary condition, and no trials or literature were found.
+- **A rare neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.90%, evidence level L5): no plausible mechanistic link to antiviral protease inhibition was identified, and the score is likely a knowledge-graph artifact.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal Study | Journal of Virology | Quadruple antiretroviral therapy in SIVmac251-infected cynomolgus macaques produced rapid viral decay, used to model HIV-1 viral dynamics |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Animal Study | Microbes and Infection | Constructed a novel SHIV carrying the HIV-1 protease gene in rhesus macaques as an in vivo tool for testing protease inhibitor efficacy |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Animal Study | Journal of Virological Methods | Oral HAART (AZT + 3TC + Lopinavir/Ritonavir) evaluated for impact on CD8 T-cell subsets in SHIV(89.6P)-infected rhesus macaques |
+All three publications are animal studies (tier 3).
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|---------|---------|
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal study | J Virol | Four SIVmac251-infected cynomolgus macaques received a 7-day quadruple antiretroviral regimen, and viral decay was rapid. The available excerpt does not confirm that lopinavir was a component. |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Animal model development | Microbes Infect | A chimeric SHIV carrying the HIV-1 protease gene was built as a tool for testing protease inhibitors in vivo. It caused weak but long-lasting infection in rhesus macaques, and a peptide-analog protease inhibitor blocked its growth in cell culture. |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Animal study | J Virol Methods | Two SHIV 89.6P-infected rhesus macaques received oral AZT, 3TC and lopinavir/ritonavir for 28 days. The study examined effects on the peripheral CD8 subset. |
 
 ## Canada Market Information
 
-No Health Canada marketing authorizations (DINs) were found for this ingredient in the evidence pack — `total_licenses` = 0 and market status is recorded as **Not Marketed**.
+| DIN | Product Name |
+|---------|------|
+| 02285533 | KALETRA |
+| 02312301 | KALETRA |
+| 02243644 | KALETRA |
 
----
+Dosage form, manufacturer and approved indication text were not provided for these licences.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Note: the evidence pack flags the absence of product-monograph warnings/contraindications as a **Blocking** data gap — DG001 — meaning this candidate cannot yet enter safety pre-screening (S1) regardless of the efficacy signal above.)*
-
----
+Please refer to the package insert for safety information. No warnings, contraindications or drug-interaction records were available in the Evidence Pack.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication, SIV infection, is not a human disease and functions as an HIV-1 animal model rather than an independently actionable repurposing target; supporting evidence is limited to 3 animal studies (L4) with no clinical trials. Combined with the drug's non-marketed status in Canada (0 DINs) and a Blocking data gap on safety/product-monograph information (DG001), this candidate is not ready to advance past S0.
+The predicted indication is an animal research model, not a human disease, so it is not a genuine repurposing opportunity. Evidence is limited to three animal studies with no registered clinical trials. The same applies to the other top-ranked predictions, which have no supporting evidence.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Health Canada product monograph warnings/contraindications) — Blocking, required before any S1 safety pre-screening
-- Resolve DG002 (formal mechanism-of-action documentation from DrugBank)
-- Re-evaluate whether a clinically meaningful human indication (rather than the SIV animal-model term) should be pursued for this protease-inhibitor mechanism
-- If pursued, obtain human clinical evidence (trials/RCTs) rather than relying on animal-model literature alone
-- If repurposing is to move forward, assess the Health Canada regulatory pathway given the drug is currently not marketed in Canada
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Confirmed original indication and dosage form details for the three KALETRA DINs
+- Review of lower-ranked predictions for human indications with real clinical relevance
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

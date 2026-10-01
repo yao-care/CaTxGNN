@@ -2,7 +2,7 @@
 layout: default
 title: Memantine Hydrochloride
 parent: Model Prediction Only (L5)
-nav_order: 496
+nav_order: 579
 evidence_level: L5
 indication_count: 0
 ---

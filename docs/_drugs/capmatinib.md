@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Capmatinib
-parent: Moderate Evidence (L3-L4)
-nav_order: 137
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 152
+evidence_level: L5
 indication_count: 10
 ---
 
 # Capmatinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,81 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Capmatinib: From Non-Small Cell Lung Cancer to Rheumatoid Arthritis
+# Capmatinib: From MET-Driven Cancer to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Capmatinib (Tabrecta) is a selective MET/c-Met receptor tyrosine kinase inhibitor, originally approved for metastatic non-small cell lung cancer (NSCLC) harbouring MET exon 14 skipping mutations.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis (RA)**, with the mechanistic basis centred on pathological HGF/c-Met overactivation in RA synovial tissue.
-Currently, **0 clinical trials** and **1 tangentially related publication** support this direction — this remains an early-stage research hypothesis with no clinical validation.
-
----
+Capmatinib is a selective MET kinase inhibitor used in oncology and marketed in Canada as TABRECTA.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and only **1 general review article** (no RA-specific data), so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Non-small cell lung cancer (NSCLC) with MET exon 14 skipping mutations |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | MET-driven cancer (the licence records supplied contain no indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the retrieved dataset. Based on known pharmacological information, capmatinib is a highly selective small-molecule inhibitor of the MET receptor tyrosine kinase (c-Met). Its approved oncology indication exploits MET exon 14 skipping mutations, which eliminate a regulatory degradation signal and cause sustained MET kinase activation — driving tumour cell proliferation and survival in NSCLC.
+Detailed mechanism of action data is not available in the supplied record. Capmatinib is known to be a selective MET inhibitor, and its efficacy in MET-dysregulated tumours is the basis of its marketed use. Mechanistically, it may be applicable to rheumatoid arthritis, but this is speculative.
 
-In rheumatoid arthritis, the same HGF/c-Met signalling axis is pathologically dysregulated in a non-oncological context. c-Met is overexpressed in synovial fibroblasts (FLS), and HGF-driven MET signalling promotes FLS proliferation, invasion into articular cartilage, and pannus formation — the core tissue-destructive mechanism of RA joint damage. MET activation also upregulates RANKL, amplifying osteoclastogenesis and accelerating periarticular bone erosion.
-
-The conceptual bridge between cancer and RA therefore lies in a shared effector pathway: aberrant c-Met activity drives tissue invasion in both contexts, whether in tumour cells or synovial fibroblasts. This mechanistic rationale is biologically coherent and generates a testable hypothesis, but it remains entirely unvalidated in RA — no preclinical animal model studies or clinical trials with capmatinib have been published for this indication.
-
----
+MET/HGF signalling has been discussed in synovial inflammation and angiogenesis, both features of rheumatoid arthritis. This makes a link plausible. However, the only linked paper is a general review of FDA-approved kinase inhibitors, and it contains no RA-specific data for capmatinib. The high model score reflects a knowledge-graph prediction, not experimental or clinical support.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Capmatinib in Rheumatoid Arthritis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Narrative Review | Pharmacological Research | Comprehensive compendium of 62 FDA-approved small-molecule protein kinase inhibitors (2021 update); capmatinib is catalogued as a selective MET inhibitor — rheumatoid arthritis is not a focus of this article and no RA-specific data are presented |
-
----
+|------|-----|------|------|---------|
+| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Review | Pharmacological Research | 2021 update on the properties of FDA-approved small-molecule protein kinase inhibitors. It is a general overview and has no RA-specific data for capmatinib. |
 
 ## Canada Market Information
 
-Capmatinib currently has no Health Canada–issued Drug Identification Numbers (DINs) and is not commercially available in Canada as of the data cutoff (June 2026). No approved product listings are available to display.
-
----
+| DIN | Product Name |
+|---------|------|
+| 2527405 | TABRECTA |
+| 2527391 | TABRECTA |
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective MET receptor tyrosine kinase inhibitor (not conventional cytotoxic) |
-| Myelosuppression Risk | Low (peripheral oedema, nausea, fatigue, and dyspnoea are the predominant adverse effects; significant cytopenias are uncommon) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, serum creatinine, liver function tests (ALT/AST/bilirubin), peripheral oedema assessment, pulmonary symptoms (interstitial lung disease monitoring) |
-| Handling Protection | Should follow institutional cytotoxic/antineoplastic drug handling procedures for oral targeted agents |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (MET kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-No safety data (warnings, contraindications, or drug interactions) was retrieved for this candidate in the current Evidence Pack.
+- **Drug Interactions**: A completed Phase 1 study (NCT02626234, n=32) assessed the effect of capmatinib on the pharmacokinetics of digoxin and rosuvastatin in patients with MET-dysregulated solid tumours. Its results are not summarised in the supplied data, so please consult the source record.
+- **Class caution**: Kinase inhibitors can carry cardiac safety liabilities. This has not been assessed for capmatinib in RA.
 
-Please refer to the Tabrecta (capmatinib) full prescribing information and Health Canada product monograph for complete safety information.
-
----
+For all other safety information, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The HGF/c-Met pathway is mechanistically plausible in RA pathobiology, but no clinical trials or RA-directed preclinical studies have been published for capmatinib, the sole supporting literature is a general kinase compendium unrelated to RA, and the drug is not currently marketed in Canada — making further research groundwork a prerequisite before any development decision.
+The prediction score is high, but it rests on the model alone. There are no trials, and the only paper is a general kinase inhibitor review. The MET–RA link is biologically plausible but unsupported by any capmatinib-specific data.
 
 **To proceed, the following is needed:**
+- Preclinical evidence, such as arthritis models or synovial-tissue studies, testing MET inhibition or capmatinib in RA
+- Mechanism of action data for capmatinib
+- Health Canada package insert warnings and contraindications, for safety screening
+- Approved indication text for the two DINs, to confirm the original indication
 
-- **Preclinical validation**: In vitro FLS invasion/proliferation assays and in vivo RA model studies (e.g., collagen-induced arthritis mouse model) to confirm c-Met inhibition reduces synovial pathology at clinically achievable capmatinib concentrations
-- **MOA documentation**: Retrieve full mechanism of action data from DrugBank API and the current prescribing information to close data gap DG002
-- **Safety data retrieval**: Download and parse the Tabrecta product monograph for key warnings, contraindications, and clinically significant drug interactions (data gap DG001)
-- **Pharmacokinetic assessment**: Confirm whether oral capmatinib achieves adequate synovial tissue concentrations sufficient for anti-inflammatory effect in a non-oncology dosing context
-- **Competitive landscape review**: Assess differentiation potential against established RA biologics (TNF inhibitors, IL-6 inhibitors, JAK inhibitors) — particularly JAK inhibitors, which already target overlapping downstream kinase signalling and are approved for RA
+**Note on other candidates:** Among the other predictions, **heart disease** (score 98.64%) has slightly stronger support (Evidence Level L4). One preclinical mouse study (PMID 32333917) reports that capmatinib offset doxorubicin-induced cardiotoxicity and cisplatin nephrotoxicity. This evidence is indirect and limited to chemotherapy-induced toxicity. It is best treated as a research question rather than a treatment candidate. The remaining predictions (rare congenital syndromes and hyperthyroidism) have no supporting evidence.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

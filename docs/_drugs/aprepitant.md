@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: Model Prediction Only (L5)
-nav_order: 63
+nav_order: 68
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aprepitant: From Chemotherapy-Induced Nausea & Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Aprepitant: From Nausea and Vomiting Prevention to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Aprepitant is a selective neurokinin-1 (NK1) receptor antagonist approved in multiple major markets for prevention of chemotherapy-induced nausea and vomiting (CINV) and post-operative nausea and vomiting (PONV).
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, a rare X-linked disorder of constitutive vasopressin V2 receptor activation.
-However, **no clinical trials and no supporting publications** currently exist for this direction, placing this prediction at the lowest evidence tier (L5).
+Aprepitant is an NK1 (substance P) receptor antagonist, marketed in Canada as EMEND and EMEND TRI-PACK. The Evidence Pack does not list its approved indication, but it is generally known as an antiemetic for chemotherapy-induced nausea and vomiting. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | CINV/PONV prevention (approved in the US, EU, and other markets; not registered in Canada per available data) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+|------|------|
+| Original Indication | Not listed in the Evidence Pack (generally known: prevention of chemotherapy-induced nausea and vomiting) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 — Model prediction only, no actual studies |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, Aprepitant is a selective, high-affinity antagonist of the neurokinin-1 (NK1) receptor — the primary binding target for the neuropeptide Substance P (SP). Its clinical efficacy in CINV/PONV prevention is well-established and stems from blockade of NK1 receptors in the central emetic pathway (area postrema, nucleus tractus solitarius) and in peripheral tissues.
+Aprepitant blocks the NK1 receptor, the target of substance P. Detailed mechanism-of-action data from DrugBank are not available in the Evidence Pack, so this description relies on the mechanistic assessment supplied with the prediction.
 
-Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) is a rare, X-linked condition caused by constitutively activating mutations in the *AVPR2* gene, which encodes the vasopressin V2 receptor. The result is persistent, inappropriate water reabsorption in the renal collecting duct despite low or undetectable circulating vasopressin. The biological bridge that TxGNN may be exploiting is a proposed cross-talk between the NK1/Substance P signaling axis and the V2 receptor system: NK1 receptors are expressed in the renal collecting duct alongside V2 receptors, and Substance P has been reported in preclinical models to modulate tubular water transport via NO-dependent and cAMP-dependent mechanisms. Blocking NK1 might therefore theoretically reduce aberrant intracellular cAMP signaling downstream of the constitutively active V2 receptor.
+NSIAD is caused by gain-of-function mutations in the AVPR2 gene. These make the vasopressin V2 receptor constitutively active, so the kidney keeps retaining water. The disease therefore sits in a different signaling pathway from NK1 blockade, and no established link connects the two.
 
-However, this mechanistic bridge has not been experimentally validated in the context of NSIAD, and no human data exist. The prediction is hypothesis-generating at best. The rarity of NSIAD (fewer than 60 published cases worldwide as of 2025) further complicates clinical study design. Significant preclinical work — including in vitro studies using cells expressing gain-of-function AVPR2 variants and in vivo animal models — would be required before any human investigation could be ethically justified.
+The very high TxGNN score (99.97%, rank 1010 overall) most likely reflects proximity in the knowledge graph, not a demonstrated pharmacological rationale. The prediction should be treated as a hypothesis, not a supported candidate.
 
 ---
 
@@ -77,17 +75,19 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Aprepitant is not currently registered in Canada per the regulatory data available for this report (0 DINs found).
+| DIN | Product Name |
+|---------|------|
+| 2298813 | EMEND TRI-PACK |
+| 2298805 | EMEND |
+| 2298791 | EMEND |
 
-> **Note:** Aprepitant is marketed in the United States (EMEND® capsules and CINVANTI® injectable emulsion, Merck) and the European Union (EMEND®/IVEMEND®). If Health Canada's Drug Product Database contains an entry that was not captured in this query, it should be verified directly. This represents a potential data gap that affects the regulatory feasibility assessment.
+Dosage forms and approved indication text were not provided for these authorizations.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> Both key warnings/contraindications and drug interaction data are currently unavailable in this evidence pack (data gaps DG001 and DG002). Retrieval from the Health Canada product monograph and DrugBank API is required before any clinical feasibility assessment.
+Please refer to the package insert for safety information. No drug-interaction records were found for this drug in the Evidence Pack.
 
 ---
 
@@ -96,15 +96,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high algorithmic confidence score (99.97%) to this prediction, but there are zero clinical trials and zero directly relevant publications to support it. The mechanistic hypothesis — NK1 antagonism modulating constitutively active V2 receptor signaling in NSIAD — is biologically plausible at a theoretical level but entirely unvalidated. Combined with no Canadian market presence and two blocking data gaps (safety and MOA data), this candidate cannot move forward without foundational preclinical evidence.
+The prediction has no clinical, registry or literature support. The mechanism is also implausible: NK1 antagonism does not act on the constitutively active V2 receptor that drives NSIAD. A high model score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- **Resolve DG001 (Blocking):** Retrieve CINV product monograph warnings and contraindications from Health Canada or the US prescribing information to complete the safety profile
-- **Resolve DG002 (High):** Confirm full MOA data via DrugBank API to support mechanistic link analysis
-- **Verify Canada regulatory status:** Cross-check the Health Canada Drug Product Database directly to determine whether 0 DINs reflects true non-registration or a data retrieval gap
-- **Commission preclinical mechanistic study:** Test whether NK1 antagonism reduces cAMP accumulation or aquaporin-2 trafficking in cell lines expressing constitutively active AVPR2 mutants (e.g., R137C, R137L)
-- **NSIAD natural history consultation:** Given the extreme rarity of NSIAD, contact rare disease registries (e.g., RareConnect, European Reference Network) to assess patient availability for any future proof-of-concept trial
-- **Review broader NK1-renal axis literature:** A systematic search specifically on Substance P / NK1 in renal water handling (independent of the NSIAD query) may reveal foundational preclinical support not captured in this evidence pack
+- Any preclinical or clinical evidence linking NK1 antagonism to water balance, vasopressin signaling or renal function
+- Mechanism-of-action data from DrugBank, to support a mechanistic analysis
+- Health Canada package insert warnings and contraindications, so safety screening can begin
+- The Health Canada approved indication and dosage forms for each DIN
+
+**Other top-10 predictions:**
+- None of the other top-10 predictions has aprepitant-specific clinical evidence.
+- Pulmonary hypertension and subarachnoid hemorrhage are marked "Research Question" because a plausible NK1 mechanism exists in preclinical models, but neither has clinical support.
+- The publications retrieved for pulmonary hypertension and for the periodontal-related malformation syndrome are unrelated to aprepitant and should not be counted as evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

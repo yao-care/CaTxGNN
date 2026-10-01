@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenytoin
-parent: Moderate Evidence (L3-L4)
-nav_order: 618
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 726
+evidence_level: L5
 indication_count: 10
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,132 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Phenytoin: From Epilepsy to Trigeminal Neuralgia
-
-> **Note on methodology:** This evidence pack contains 10 TxGNN-predicted indications for phenytoin. The single highest-scoring candidate ("trigeminal nerve neoplasm," score 99.99%) is explicitly flagged in the pack's own rationale as a likely **TxGNN disease-entity confusion / false positive** — its literature actually discusses trigeminal *neuralgia* and Sturge-Weber syndrome, not neoplasm, and no clinical trials support it. Seven other top-ranked candidates (startle epilepsy, micturition-induced seizures, audiogenic seizures, thinking seizures, orgasm-induced seizures, eating seizures, reading seizures, beta-ketothiolase deficiency) are rare reflex-epilepsy phenomena or metabolic conditions with no or only animal-model evidence (L4–L5, all scored "Hold"). This report instead features **trigeminal neuralgia** (rank 9, score 99.97%), the only candidate in the pack with real clinical and observational evidence (L3, "Proceed with Guardrails") — the more clinically meaningful signal in this evidence set.
+# Phenytoin: From Seizure Control to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-Phenytoin is a long-established antiepileptic drug used for seizure disorders. Within this evidence pack, the TxGNN model's most credible new-indication signal points to **Trigeminal Neuralgia**, with **1 dedicated clinical study** and **19 related publications** — including a European neurology guideline and multi-institution cohort data — supporting the use of intravenous phenytoin for acute pain crises.
+Phenytoin is an established antiseizure drug, marketed in Canada under several brand and generic licences. The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but this is supported by **0 clinical trials** and only **5 publications**, none of which test phenytoin against a neoplasm. The best-supported candidate in the same prediction list is the neighbouring condition **trigeminal neuralgia**, with **1 completed trial** and about **19 publications**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy / seizure disorders (well-established clinical use; not captured as structured data in this evidence pack — see Safety/Data Gap note below) |
-| Predicted New Indication | Trigeminal Neuralgia |
-| TxGNN Prediction Score | 99.97% (rank 1119 of predictions) |
-| Evidence Level | L3 |
-| Canada Market Status | Not marketed (Not marketed) |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Seizure disorders (the Health Canada indication text is not included in the evidence pack) |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 8 |
+| Recommended Decision | Hold |
+| Best-Supported Candidate | Trigeminal neuralgia (99.97%, L3, Proceed with Guardrails) |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not provided as structured input for this evidence pack (flagged as data gap DG002). Based on the mechanistic reasoning captured for this candidate: phenytoin is a **voltage-gated sodium channel blocker**, which suppresses abnormal high-frequency neuronal firing. This is the same core mechanism as carbamazepine and oxcarbazepine, the guideline-recommended first-line drugs for trigeminal neuralgia (TN).
+Detailed mechanism-of-action data is not currently available for this drug. Phenytoin is known as a voltage-gated sodium-channel blocker, and its efficacy in seizure disorders is long established.
 
-Trigeminal neuralgia is a paroxysmal facial pain syndrome driven by aberrant, high-frequency discharge in the trigeminal nerve — pharmacologically analogous to epileptic discharge, which is why sodium-channel-blocking anticonvulsants are the mainstay of TN treatment. Because first-line oral agents (carbamazepine, oxcarbazepine) cannot be used during severe pain exacerbations when patients become dehydrated or anorectic, intravenous phenytoin has an established off-label niche as **acute rescue therapy** during TN crises, bridging patients back onto oral prophylaxis. This clinical practice pattern, documented in multiple retrospective cohorts, is the practical basis for the TxGNN association.
+For **trigeminal nerve neoplasm**, the prediction is probably driven by closeness in the knowledge graph to trigeminal neuralgia and other trigeminal-nerve nodes. The retrieved literature covers trigeminal neuralgia, Sturge-Weber syndrome and nerve fibre physiology, not tumour treatment. Nothing in the evidence supports an antitumour mechanism for phenytoin. Sodium-channel blockade may relieve neuralgic pain, but that is not a neoplasm indication.
+
+For **trigeminal neuralgia**, the mechanism is plausible. Reducing abnormal high-frequency firing in trigeminal afferents is the same mechanism class as carbamazepine, the standard first-line drug. Phenytoin is already used clinically as an intravenous rescue treatment during acute exacerbations.
+
+---
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials registered for the top-ranked indication (trigeminal nerve neoplasm).
+
+Trials linked to trigeminal neuralgia, the best-supported related candidate:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03712254](https://clinicaltrials.gov/study/NCT03712254) | N/A | Completed | 15 | Prospective systematic study of IV phenytoin for acute exacerbations of trigeminal neuralgia; addresses the treatment gap when oral first-line agents cannot be used during severe flares. |
+| [NCT03712254](https://clinicaltrials.gov/study/NCT03712254) | N/A | Completed | 15 | Prospective study of phenytoin for acute exacerbations of trigeminal neuralgia. It is directly on-indication, but small and non-phase, so it supports feasibility, not efficacy. |
+
+---
 
 ## Literature Evidence
 
+Literature linked to trigeminal nerve neoplasm. None of it addresses neoplasm treatment.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/) | 2019 | Guideline | European Journal of Neurology | European Academy of Neurology consensus guideline on TN diagnosis and management. |
-| [35469475](https://pubmed.ncbi.nlm.nih.gov/35469475/) | 2022 | Cohort | Cephalalgia | Retrospective analysis of 144 cases using IV lacosamide and phenytoin for acute TN exacerbations. |
-| [32981076](https://pubmed.ncbi.nlm.nih.gov/32981076/) | 2020 | Cohort/Case series | Headache | Retrospective cohort on IV phenytoin as acute rescue treatment for TN crisis. |
-| [28761370](https://pubmed.ncbi.nlm.nih.gov/28761370/) | 2017 | Retrospective comparison | Journal of Pain Research | Compares phenytoin and carbamazepine in TN: marketing-based vs. evidence-based treatment patterns. |
-| [39993829](https://pubmed.ncbi.nlm.nih.gov/39993829/) | 2024 | Clinical review | Clinical Medicine & Research | In-hospital management approaches for acute TN pain crises. |
-| [31908187](https://pubmed.ncbi.nlm.nih.gov/31908187/) | 2020 | Review | Molecular Pain | Pathophysiology-to-pharmacology overview of TN, including sodium-channel-targeted therapies. |
-| [29114270](https://pubmed.ncbi.nlm.nih.gov/29114270/) | 2017 | Review | Asian Journal of Neurosurgery | General overview of TN diagnosis, mechanisms, and treatment options. |
-| [19445753](https://pubmed.ncbi.nlm.nih.gov/19445753/) | 2009 | Review | BMJ Clinical Evidence | Evidence-based summary of TN treatment options. |
-| [38421578](https://pubmed.ncbi.nlm.nih.gov/38421578/) | 2024 | Review | CNS Drugs | Pharmacological approaches to neuropathic pain in multiple sclerosis, including TN. |
-| [15062534](https://pubmed.ncbi.nlm.nih.gov/15062534/) | 2004 | Review | Neurologic Clinics | Clinical review of TN and glossopharyngeal neuralgia management. |
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Rev Neurother | Overview of medical and surgical treatments for trigeminal neuralgia. |
+| [21751615](https://pubmed.ncbi.nlm.nih.gov/21751615/) | 2011 | Review | J Assoc Physicians India | Sturge-Weber syndrome (face, eye and leptomeningeal vascular malformation with seizures), with a case report. |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | An Esp Pediatr | 14 Sturge-Weber cases reviewed for clinical features, course and treatment response. |
+| [4155965](https://pubmed.ncbi.nlm.nih.gov/4155965/) | 1971 | Cohort | Birth Defects Orig Artic Ser | Skin disorders in institutionalised people with intellectual disability, including drug-induced effects. |
+| [5514358](https://pubmed.ncbi.nlm.nih.gov/5514358/) | 1970 | Preclinical/Physiology | Trans Am Neurol Assoc | Trigeminal root fibre size and pain conduction; analgesia without anaesthesia in trigeminal neuralgia. |
+
+Key trigeminal neuralgia literature, for the best-supported candidate:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35469475](https://pubmed.ncbi.nlm.nih.gov/35469475/) | 2022 | Cohort | Cephalalgia | Retrospective analysis of 144 cases of intravenous lacosamide and phenytoin for acute exacerbations. |
+| [32981076](https://pubmed.ncbi.nlm.nih.gov/32981076/) | 2020 | Case series | Headache | Retrospective cohort of responses to IV phenytoin in trigeminal neuralgia crisis. |
+| [28761370](https://pubmed.ncbi.nlm.nih.gov/28761370/) | 2017 | Review | J Pain Res | Phenytoin and carbamazepine in trigeminal neuralgia: marketing-based versus evidence-based treatment. |
+| [30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/) | 2019 | Guideline | Eur J Neurol | European Academy of Neurology guideline on trigeminal neuralgia. Its phenytoin recommendations should be verified in the full text. |
+
+---
 
 ## Canada Market Information
 
-Phenytoin currently has **no active Health Canada drug identification numbers (DINs) recorded in this evidence pack** — market status is "Not marketed" (Not marketed), with 0 total licenses. No product/dosage-form table can be generated from this data.
+Showing 5 of 8 licences. Dosage form and approved-indication text were not provided.
+
+| DIN | Product Name |
+|---------|------|
+| 2250896 | TARO-PHENYTOIN |
+| 23698 | DILANTIN INFATABS |
+| 22772 | DILANTIN |
+| 498335 | PHENYTOIN SODIUM INJECTION USP |
+| 22780 | DILANTIN |
+
+---
+
+## Other Predicted Indications
+
+| Rank | Indication | Score | Evidence Level | Decision | Note |
+|------|------|------|------|------|------|
+| 2 | Startle epilepsy | 99.98% | L4 | Hold | Case reports and a rat study only; the one treatment-focused item favours lamotrigine. |
+| 3 | Micturition-induced seizures | 99.98% | L5 | Hold | Prediction only. A single case report (PMID 21561835) used clobazam plus phenytoin. |
+| 4 | Audiogenic seizures | 99.98% | L4 | Hold | Mostly rodent studies in which phenytoin is a reference drug. |
+| 5 | Thinking seizures | 99.98% | L4 | Hold | Three unrelated trials (pharmacokinetic and TMS studies); indirect literature. |
+| 6 | Orgasm-induced seizures | 99.98% | L5 | Hold | Prediction only. |
+| 7 | Eating seizures | 99.98% | L4 | Hold | One healthy-volunteer pharmacokinetic trial; loosely related literature. |
+| 8 | Reading seizures | 99.97% | L5 | Hold | Prediction only. |
+| 9 | Trigeminal neuralgia | 99.97% | L3 | Proceed with Guardrails | Small prospective study plus several clinical series. |
+| 10 | Beta-ketothiolase deficiency | 99.95% | L5 | Hold | Prediction only; no plausible mechanism. |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-**Outstanding data gap (Blocking):** TFDA/Health Canada label warnings, contraindications, and DDI data were not available in this evidence pack (DG001), which blocks a formal S1 safety review. This must be resolved before clinical guardrails can be defined.
+The retrieved literature also reports these phenytoin-related concerns:
+- Gingival hyperplasia in roughly 50–60% of patients (PMID 11789440).
+- Total external ophthalmoplegia with drowsiness to coma at serum levels of 36–55 µg/mL (PMID 824568).
+- Fracture risk with long-term enzyme-inducing antiepileptics (PMID 21711263).
+- Congenital malformation risk with in-utero antiepileptic exposure (PMID 18929083).
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold** (for the top-ranked prediction, trigeminal nerve neoplasm)
 
 **Rationale:**
-Among the 10 TxGNN-predicted indications in this pack, trigeminal neuralgia is the only one backed by a dedicated clinical study, multiple retrospective cohorts, and a specialty guideline — reflecting an existing, real-world off-label practice pattern (IV phenytoin as acute TN rescue therapy) rather than a novel, unvalidated hypothesis. The evidence level (L3) supports cautious clinical use pending formal safety review.
+- The prediction is model-only (L5). There are no trials, and the linked literature concerns trigeminal neuralgia and related syndromes rather than tumours.
+- The related candidate **trigeminal neuralgia** is the only one that reaches **Proceed with Guardrails** (L3). It is limited to acute rescue use under monitoring, with cardiac and infusion-rate precautions and attention to long-term toxicity.
 
 **To proceed, the following is needed:**
-- Retrieve TFDA/Health Canada label warnings and contraindications (DG001, Blocking) to complete S1 safety assessment
-- Obtain formal DrugBank mechanism-of-action data (DG002) to fully document the sodium-channel rationale
-- Clarify and discard the top-ranked TxGNN candidate ("trigeminal nerve neoplasm") as a likely entity-confusion artifact before this candidate set is used for any automated downstream decisioning
-- Confirm route/dosage compatibility for IV administration in the acute-crisis use case (route_compatibility data currently marked "pending" in this pack)
+- Mechanism-of-action data from DrugBank.
+- Health Canada package insert warnings and contraindications, including approved indications and dosage forms for each DIN.
+- Confirmation of whether the "trigeminal nerve neoplasm" prediction is a graph artefact of the neuralgia link. If it is, re-prioritise trigeminal neuralgia as the lead candidate.
+- Full-text verification of the guideline (PMID 30860637) and the lacosamide comparison study (PMID 35469475).
+- For trigeminal neuralgia, a controlled study or systematic review of intravenous phenytoin against standard rescue options.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

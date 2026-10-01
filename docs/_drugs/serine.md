@@ -2,7 +2,7 @@
 layout: default
 title: Serine
 parent: Model Prediction Only (L5)
-nav_order: 713
+nav_order: 838
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,45 +29,57 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Serine: From No Established Indication to Familial Visceral Myopathy (AI-Predicted)
+# Serine: From Amino Acid Nutrition Component to Familial Visceral Myopathy
 
 ## One-Sentence Summary
 
-Serine is a non-essential amino acid with no approved therapeutic indication and no market presence in Canada; detailed mechanism-of-action data is currently unavailable.
-The TxGNN model predicts it may be effective for **Familial Visceral Myopathy**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a computational hypothesis only.
+Serine is an amino acid that appears in Canadian parenteral nutrition products such as Travasol and Clinimix, though no approved indication text is recorded.
+The TxGNN model predicts it may be effective for **familial visceral myopathy**.
+**No clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — Serine has no approved indication and is not currently marketed in Canada |
-| Predicted New Indication | Familial Visceral Myopathy |
+| Original Indication | Not recorded in the Health Canada licence data |
+| Predicted New Indication | Familial visceral myopathy |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Serine is not available in this evidence pack. Serine is a non-essential amino acid involved in protein biosynthesis, one-carbon metabolism, and neurotransmitter signaling (as a precursor of D-serine, an NMDA receptor co-agonist). However, there is no approved indication or Health Canada market authorization for this compound, so there is no established clinical use to anchor a mechanistic comparison to the predicted indication.
+Currently, detailed mechanism of action data is not available. Serine is marketed in Canada as part of amino acid nutrition products. Its original indication text is not recorded, so its relationship to familial visceral myopathy cannot be assessed.
 
-For the top-ranked prediction, familial visceral myopathy, no clinical trials or literature were retrieved at all. Per the evidence pack's own rationale, "no clinical or literature evidence exists, the original drug's MOA is a data gap, and the mechanistic relationship cannot be established — this ranking reflects TxGNN graph-embedding similarity only."
+The score of 0.9999 does not discriminate between candidates. The top 10 predictions all score between 0.9986 and 0.9999, and several share identical scores. Examples are the two intestinal pseudoobstruction entries, and traumatic glaucoma with aqueous misdirection. This suggests the model groups related disease nodes by graph neighbourhood rather than producing an independent signal for each. No mechanistic link between serine and this disease has been established.
 
-**Important caveat:** review of the evidence gathered for other top-ranked candidates in this same pack (rank 2, "intestinal obstruction"; rank 6, "angle-closure glaucoma") shows that essentially all associated clinical trials and literature are false-positive keyword matches — either topically unrelated trials (stroke, COVID-19, colorectal cancer) or genetic studies on the *PRSS56* ("serine protease 56") gene, which shares the word "serine" with the amino acid but has no established pharmacological relationship to Serine supplementation. This pattern indicates a systematic keyword-collision issue in the underlying evidence retrieval for this candidate, and reinforces that the familial visceral myopathy association should be treated strictly as an unverified computational hypothesis, not a mechanistically supported lead.
+The other top-10 predictions are intestinal obstruction, intestinal pseudoobstruction subtypes, neuronal intestinal dysplasia, angle-closure glaucoma, exercise-induced malignant hyperthermia, traumatic glaucoma and aqueous misdirection. None has credible supporting evidence.
+
+- **Intestinal obstruction:** The 9 retrieved trials cover stroke, COVID-19 cardiac pathology, oncology and healthy-volunteer nutrition. None tests serine.
+- **Angle-closure glaucoma:** The 11 papers concern the *PRSS56* serine protease gene, a protein class unrelated to the amino acid serine.
+- **Traumatic glaucoma:** The single mTOR signalling review gives only weak, indirect context.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Canada Market Information
 
-Serine currently holds no Health Canada market authorizations (0 DINs) and is not marketed in Canada. No product listings are available for review.
+Dosage form and approved indication text are not recorded for these licences. Five of the 20 are listed:
+
+| DIN | Product Name |
+|---------|------|
+| 872296 | TRAVASOL |
+| 2498448 | CLINIMIX |
+| 2498456 | CLINIMIX |
+| 2498464 | CLINIMIX |
+| 2510324 | ESSEPNA |
 
 ## Safety Considerations
 
@@ -78,13 +90,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-No clinical or literature evidence supports the top-ranked prediction (familial visceral myopathy); the compound has no established original indication, no confirmed mechanism of action, and no Canadian market presence, leaving no anchor points for a mechanistic plausibility assessment. Evidence retrieved for other top-ranked candidates in this evidence pack also appears to be false-positive keyword matches (e.g., *PRSS56* gene studies) rather than genuine support for repurposing.
+The prediction is model-only (L5), with no trials, no literature and no established mechanism. The very high score is shared across many unrelated candidates, so it carries little weight. Retrieved trials and papers for other candidate diseases are keyword-matching noise and should not raise the evidence level.
 
 **To proceed, the following is needed:**
-- Health Canada / regulatory product label with warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action for Serine
-- A targeted literature search verifying that hits genuinely concern amino-acid Serine (not the unrelated *PRSS56* gene) in the context of visceral myopathy or GI motility disorders
-- Preclinical or mechanistic rationale linking serine metabolism to visceral smooth muscle or enteric neuronal pathology, before any further evaluation stage is warranted
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to test any link to visceral smooth-muscle or enteric neuromuscular disease
+- Approved indication text and dosage forms for the Canadian licences
+- Targeted searches for serine (the amino acid) in visceral myopathy or intestinal pseudoobstruction, excluding serine protease and serine/threonine kinase hits
+- A route-compatibility assessment, which is still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

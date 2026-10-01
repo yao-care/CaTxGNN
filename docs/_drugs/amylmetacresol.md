@@ -2,7 +2,7 @@
 layout: default
 title: Amylmetacresol
 parent: Model Prediction Only (L5)
-nav_order: 52
+nav_order: 57
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amylmetacresol: From Throat Antiseptic to Cauda Equina Syndrome
+# Amylmetacresol: From Sore Throat Relief to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Amylmetacresol (AMC) is a phenolic antiseptic agent best known as an active ingredient in over-the-counter throat lozenges, used for sore throat relief and oral antimicrobial action.
-The TxGNN model predicts it may have relevance to **Cauda Equina Syndrome**, achieving a prediction score of **99.99%**; however, this is supported by **0 clinical trials** and **0 publications**, making this a model-only prediction with no empirical corroboration.
-
----
+Amylmetacresol is a topical antiseptic used in throat lozenges. The licence records do not state an approved indication, but the product names point to sore throat relief.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not formally registered in Taiwan; known internationally as an OTC throat antiseptic |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Not stated in the licence records (product names indicate throat lozenges for sore throat) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Licenses | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, Amylmetacresol is a phenol-derived compound that exerts antimicrobial activity primarily by disrupting bacterial cell membrane phospholipids, making it effective against gram-positive bacteria and certain viruses in the oropharyngeal environment. It is also reported to possess mild local anesthetic properties, attributed to partial sodium channel blockade, which in principle could modulate pain signal transmission in peripheral nerves.
+Currently, detailed mechanism of action data is not available. Based on known information, amylmetacresol is a locally acting antiseptic in throat lozenges. It shows in vitro antibacterial and antiviral activity in the oropharynx and is not used systemically.
 
-Cauda Equina Syndrome (CES) is a serious neurological emergency caused by mechanical compression of the cauda equina nerve roots at the base of the spinal cord. Its hallmark features — saddle anaesthesia, lower limb weakness, and bladder/bowel dysfunction — arise from physical impingement rather than from infection or a druggable biochemical pathway. While AMC's sodium channel activity has a tenuous theoretical connection to neurogenic pain, there is no established mechanism by which a topical mucosal antiseptic could address structural nerve root compression.
-
-The very high TxGNN score most likely reflects **knowledge graph node clustering effects** — AMC and CES occupy adjacent regions of the neurological disease subgraph — rather than an independent pharmacological signal. The prediction should be treated as a computational artifact requiring substantial experimental validation before any scientific hypothesis can be formed.
-
----
+No plausible pathway links this activity to cauda equina syndrome, a compressive neurological condition. The prediction score is high (99.99%), but it comes from the model alone, and no mechanistic or similarity analysis supports it. The remaining nine predictions have the same problem. They include obsolete neurogenic bladder, irritable bowel syndrome and a cluster of uveal-tract diseases (ciliary body disease, panuveitis, iris disease, uveitis and others). The uveal cluster likely reflects a shared graph-neighbourhood artifact rather than independent signals.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Canada Market Information
 
-## Taiwan Market Information
-
-Amylmetacresol is currently **not marketed in Taiwan**. No drug licenses are on record with the Taiwan FDA (TFDA). The drug has no approved indications, no registered dosage forms, and no DIN equivalents in the Taiwan regulatory database.
-
----
+| DIN | Product Name |
+|---------|------|
+| 2375567 | ANTIBACTERIAL THROAT LOZENGES |
+| 2382938 | CEPACOL SENSATIONS |
+| 2404982 | CEPACOL CHILDREN'S FRUITY STRAWBERRY |
+| 2388642 | CEPACOL SENSATIONS SORE THROAT & COUGH |
+| 2382881 | CEPACOL SENSATIONS SORE THROAT & BLOCKED NOSE |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** TFDA package insert warnings, contraindications, and drug interaction data were not retrieved as part of this evidence pack. Completing the safety profile is a **Blocking** requirement before this candidate can advance to any formal evaluation stage.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a pure model-derived prediction (Evidence Level L5) with zero supporting clinical trials, zero literature, and a mechanistically implausible link — Cauda Equina Syndrome is a mechanical compressive emergency, and Amylmetacresol has no known pharmacological pathway relevant to nerve root decompression or neuroprotection. The high TxGNN score is most likely an artifact of knowledge graph topology rather than a genuine drug-disease signal.
+The prediction rests only on the TxGNN model score (L5). There are no trials or publications, no mechanistic link, and no plausible route from a topical throat antiseptic to a compressive neurological condition.
 
 **To proceed, the following is needed:**
-
-- **Safety data (Blocking):** Retrieve TFDA package insert to complete warnings, contraindications, and drug interaction profile before any further evaluation
-- **MOA confirmation (High priority):** Query DrugBank API for complete mechanism of action, pharmacokinetic parameters (systemic bioavailability, CNS penetration), and toxicity profile
-- **KG topology audit:** Verify whether AMC's high scores across neurological and ophthalmic disease clusters (ranks 617–9,903) represent genuine drug-disease relationships or node proximity artifacts within the knowledge graph
-- **Biological plausibility review:** Obtain independent pharmacology expert opinion before allocating further research resources to any of the 10 predicted indications
-- **Broader indication screening:** Consider whether AMC's established antimicrobial activity supports repurposing into infectious disease indications (e.g., oral/mucosal infections) rather than the neurological and ophthalmic cluster currently predicted
-
----
-
-*This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank) to test whether any biological link exists
+- Approved indication text for the licensed products
+- Route compatibility assessment (lozenge vs. the systemic or local route the new indication would require)
+- Any preclinical or clinical evidence for the predicted indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

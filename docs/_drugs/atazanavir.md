@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Atazanavir
-parent: High Evidence (L1-L2)
-nav_order: 70
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 77
+evidence_level: L4
 indication_count: 6
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,68 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Atazanavir: From HIV-1 Infection to AIDS Related Complex
+# Atazanavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Atazanavir is an HIV-1 protease inhibitor used as part of combination antiretroviral therapy (cART) for HIV-1 infection across adults and pediatric populations.
-The TxGNN model predicts it may be effective for **AIDS Related Complex (ARC)** — the symptomatic, pre-AIDS stage of HIV-1 disease progression — with **2 completed Phase 3 clinical trials** and **3 publications** currently supporting this direction.
-Given that ARC is directly caused by the same HIV-1 virus that Atazanavir targets, the mechanistic basis for this prediction is exceptionally strong.
-
-> **Note on TxGNN Ranking:** The highest-scoring TxGNN prediction (score 99.98%, rank 1) was for *simian immunodeficiency virus (SIV) infection*, a non-human primate disease with no direct human clinical application. This report focuses on **AIDS Related Complex** (TxGNN score 99.71%), the highest-ranked *human clinical* indication with Level 1 evidence and an actionable recommendation.
-
----
+Atazanavir is an antiretroviral protease inhibitor used against HIV-1 infection. The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but this is an animal-model condition rather than a human indication. Support is limited to **0 clinical trials** and **1 publication**, a 2010 macaque study of combination antiretroviral therapy.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (combination antiretroviral therapy) |
-| Predicted New Indication | AIDS Related Complex |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | HIV-1 infection (inferred from the drug class; no approved indication text is available in the Health Canada records) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
+| TxGNN Prediction Score | 99.98% |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 11 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Complete mechanism of action data from DrugBank was not available at the time of this report. Based on established pharmacological knowledge, Atazanavir is an azapeptide HIV-1 protease inhibitor. It selectively binds to the catalytic site of the HIV-1 protease enzyme, preventing cleavage of the Gag-Pol polyprotein precursor into functional structural proteins and replication enzymes. Without this maturation step, newly assembled viral particles remain non-infectious — Atazanavir therefore suppresses HIV-1 plasma viral load at the post-assembly stage. This mechanism is typically combined with a pharmacokinetic booster (ritonavir or cobicistat) to maintain adequate drug exposure.
+Detailed mechanism of action data are not available for this drug. Atazanavir is an HIV-1 protease inhibitor. It blocks the enzyme that matures newly formed virus particles, so they cannot become infectious.
 
-AIDS Related Complex (ARC) describes the symptomatic, immune-suppressed interval in HIV-1 disease progression that precedes full AIDS. It is characterized by persistent lymphadenopathy, constitutional symptoms (fever, weight loss, night sweats), and declining CD4 T-cell counts. The underlying driver of ARC is active, ongoing HIV-1 viral replication — the precise biological process that Atazanavir inhibits. The mechanistic link is therefore not an extrapolation but a direct application: suppressing HIV-1 protease in ARC patients reduces viral load, slows immune deterioration, and may prevent progression to AIDS-defining illness.
-
-The TxGNN knowledge graph model captured this high-confidence relationship, assigning a score of 99.71%. This aligns with established clinical practice: protease inhibitor-based cART regimens are routinely used across the full HIV disease spectrum, including the ARC stage. NCT00035932, a Phase 3 trial directly evaluating Atazanavir-containing combination regimens in 571 treatment-experienced HIV subjects, represents the strongest direct evidence supporting this prediction.
-
----
+SIV is the primate counterpart of HIV, and its protease is structurally related to HIV-1 protease. Antiviral activity is therefore plausible. However, the only evidence is a macaque study of combination antiretroviral therapy (HAART), not atazanavir alone. It mainly confirms the drug's known antiretroviral mechanism. SIV infection is a research model, not a human patient population, so this signal is not a genuine repurposing opportunity.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00035932](https://clinicaltrials.gov/study/NCT00035932) | Phase 3 | Completed | 571 | Core Atazanavir efficacy trial: ATV/ritonavir or ATV/saquinavir vs. lopinavir/ritonavir, each combined with tenofovir and a nucleoside, in treatment-experienced HIV patients; assessed viral load reduction and long-term safety over multiple years |
-| [NCT01099579](https://clinicaltrials.gov/study/NCT01099579) | Phase 3 | Completed | 82 | PRINCE I study: international multicenter single-arm trial evaluating safety, efficacy, and pharmacokinetics of ATV powder boosted with ritonavir plus an optimized NRTI backbone in HIV-infected pediatric patients aged 3 months to 6 years |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28991888](https://pubmed.ncbi.nlm.nih.gov/28991888/) | 2018 | Retrospective Cohort | J Acquir Immune Defic Syndr | Evaluated differential effects of commonly prescribed cART regimens — including ATV-based regimens — on incidence of AIDS-defining neurological conditions; provides comparative effectiveness data across treatment stages relevant to ARC management |
-| [19290032](https://pubmed.ncbi.nlm.nih.gov/19290032/) | 2009 | Observational | AIDS Reviews | Reviewed the combined impact of HIV infection and ART (including Atazanavir) on gastrointestinal adverse events; directly relevant to tolerability in ARC patients, who frequently present with GI complaints |
-| [34978889](https://pubmed.ncbi.nlm.nih.gov/34978889/) | 2022 | In vitro / Medicinal Chemistry | Antimicrob Agents Chemother | Developed next-generation CNS-targeting HIV-1 protease inhibitors with improved blood-brain barrier penetration, reinforcing the role of the PI drug class in addressing HIV-associated CNS complications that commonly emerge during ARC progression |
-
----
+| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Preclinical animal study (macaque) | J Infect Dis | SIV-infected macaques on HAART had less viral replication and inflammation in the central nervous system, but viral DNA persisted. The study tested a regimen, and atazanavir is not confirmed as the specific agent. |
 
 ## Canada Market Information
 
-Atazanavir is currently **not marketed in Canada** and has no registered Drug Identification Numbers (DINs) on file with Health Canada. No approved indications are on record. If a Canadian market entry is planned, a full regulatory submission will be required.
+Health Canada lists 11 licences in total. Dosage form, manufacturer and approved indication text are not available for the licences shown below.
 
----
+| DIN | Product Name |
+|---------|------|
+| 2248611 | REYATAZ |
+| 2294176 | REYATAZ |
+| 2456893 | MYLAN-ATAZANAVIR |
+| 2513102 | JAMP ATAZANAVIR |
+| 2513110 | JAMP ATAZANAVIR |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Health Canada warnings, contraindications, and drug interaction data were not available at the time of this report. A blocking data gap has been identified: the TFDA package insert PDF requires download and parsing to enable a complete safety evaluation before this candidate can advance to Stage 1 safety screening.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Atazanavir is a well-established HIV-1 protease inhibitor with robust Phase 3 evidence (NCT00035932, n=571) directly evaluating its efficacy in HIV/AIDS patients. Because AIDS Related Complex is a clinical stage of the same HIV-1 disease that Atazanavir is mechanistically designed to treat, this is less a novel repurposing question and more a confirmation that Atazanavir's known therapeutic mechanism extends across the clinical continuum of HIV infection — a strong basis for proceeding.
+The only support is one preclinical macaque study of combination therapy. The predicted condition is a nonhuman primate model with no human clinical relevance, so it is not a practical repurposing target.
 
 **To proceed, the following is needed:**
-- Retrieve and parse the Health Canada package insert to complete the safety profile, including warnings, contraindications, and drug-drug interactions (currently a blocking data gap)
-- Query the DrugBank API to formally confirm the complete mechanism of action and drug class categorization
-- Clarify whether existing HIV-1 infection approvals in reference jurisdictions (FDA, EMA) already encompass ARC as a clinical staging of the same disease, or whether a separate indication filing would be required
-- Conduct a comprehensive drug interaction review for co-medications commonly used in the HIV/ARC population (e.g., NRTIs, integrase inhibitors, TB medications, antifungals)
-- Define a regulatory pathway for Health Canada DIN registration if Canadian market access is intended
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data from DrugBank
+- Approved indication text for the Canadian licences, to confirm the original indication
+- Attention on other predictions for this drug. HIV-related infection (AIDS related complex) is effectively the drug's established use, supported by two completed Phase 3 trials, and should be checked against the label before it is treated as new. Congenital HIV is a research question, with direct support limited to one Phase 1 pregnancy PK trial and observational cohorts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

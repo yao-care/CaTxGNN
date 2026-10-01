@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Loxapine
-parent: High Evidence (L1-L2)
-nav_order: 479
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 559
+evidence_level: L5
 indication_count: 10
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Loxapine: From Schizophrenia to Manic Bipolar Affective Disorder
+# Loxapine: From Antipsychotic Therapy to Manic Bipolar Affective Disorder
 
 ## One-Sentence Summary
 
-> Loxapine is a first-generation (typical) antipsychotic originally used to treat schizophrenia, with an inhaled formulation (Adasuve®) already approved abroad for acute agitation.
-> The TxGNN model predicts it may be effective for **Manic Bipolar Affective Disorder**,
-> a prediction reinforced by **20 supporting publications**, including pooled Phase III RCT data — though it is **not currently marketed in Canada**.
+Loxapine is a first-generation antipsychotic of the dibenzoxazepine class. The TxGNN model predicts it may be effective for **manic bipolar affective disorder**. No clinical trials are registered in the evidence pack, but **19 publications** support this direction, including two Phase III randomized trials (reported in the literature) of inhaled loxapine for agitation in bipolar I disorder and schizophrenia.
 
 ---
 
@@ -43,31 +41,29 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia (oral loxapine, first-generation/typical antipsychotic); inhaled formulation already approved in the US/EU for acute agitation |
-| Predicted New Indication | Manic Bipolar Affective Disorder (acute agitation associated with bipolar mania) |
+| Original Indication | Not specified in the Canadian license records (known class use: antipsychotic) |
+| Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L1 (based on literature reporting two Phase III RCTs, which studied agitation rather than the manic episode itself) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-The formal DrugBank mechanism-of-action record for loxapine is currently a data gap in this evidence pack (DG002). However, the literature captured here consistently describes loxapine as a dibenzoxazepine-class, first-generation antipsychotic that acts primarily as a **D2 dopamine / 5-HT2A serotonin receptor antagonist** — the same mechanism shared by other agents used to control acute psychiatric agitation and mania.
+Detailed mechanism of action data is not available in the source record. Loxapine is a first-generation antipsychotic, and its general pharmacology involves dopamine D2 and serotonin 5-HT2A receptor antagonism. This profile plausibly reduces agitation and psychomotor excitation, which are core features of bipolar mania.
 
-The proposed new indication is not a distant extrapolation: an inhaled formulation of loxapine (Adasuve®, using the Staccato® delivery system) has already been approved in the **United States and European Union** specifically for the acute treatment of agitation associated with **schizophrenia or bipolar I disorder**. This means the "predicted" indication substantially overlaps with an already-established, regulator-approved use elsewhere — the TxGNN signal here reflects a real, mechanistically coherent extension rather than a purely speculative association.
+The published literature focuses on **acute agitation associated with bipolar I disorder or schizophrenia**, especially with an inhaled formulation. This is closely related to a manic episode but not identical to it. Two placebo-controlled Phase III trials (NCT00628589 and NCT00721955, cited in PMID 29163985) enrolled 314 patients with bipolar I disorder and 344 with schizophrenia. The prediction is therefore reasonable, but the strongest evidence supports agitation control rather than treatment of mania as a whole.
 
-Two Phase III randomized, placebo-controlled trials (referenced across multiple publications, e.g. NCT00628589 and NCT00721955) enrolled patients with either schizophrenia or bipolar I disorder experiencing acute agitation, and a head-to-head PLACID trial compared inhaled loxapine against intramuscular aripiprazole in the same population. This gives the bipolar-mania prediction a materially stronger evidence base than the other candidates in this evidence pack.
-
-For transparency, nine additional TxGNN-predicted candidates (ranks 2–10, all scoring >99.8%) were also reviewed — including retinal dystrophy, hydranencephaly, X-linked myopia variants, a congenital glycosylation disorder, Charcot-Marie-Tooth type 1G, polymicrogyria, and atypical glycine encephalopathy. None have clinical trial or literature support, and none share a plausible mechanistic link to D2/5-HT2A antagonism (they are predominantly monogenic structural/metabolic disorders). All nine were scored **L5 / Hold** and are excluded from further evaluation in this report.
+The other nine TxGNN predictions for this drug (retinal dystrophy, hydranencephaly, X-linked myopia and others) have no clinical trials, no relevant literature and no plausible mechanistic link. They are graph-score predictions only and are rated Hold.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered in ClinicalTrials.gov or ICTRP for this specific drug–disease pair (structured trial records were not retrieved). Note: the Literature Evidence below discusses two pivotal Phase III RCTs (NCT00628589, NCT00721955) and the PLACID trial by publication, but these were not captured as discrete clinical-trial registry records in this evidence pack.
+Currently no related clinical trials registered.
 
 ---
 
@@ -75,31 +71,35 @@ Currently no related clinical trials registered in ClinicalTrials.gov or ICTRP f
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | RCT (pooled analysis, 2 Phase III trials) | Int J Clin Pract | Pooled effect-size analysis of two pivotal Phase III RCTs of inhaled loxapine for agitation in schizophrenia/bipolar disorder |
-| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | RCT | Eur Neuropsychopharmacol | PLACID trial: assessor-blind RCT comparing inhaled loxapine vs. IM aripiprazole in acutely agitated schizophrenia/bipolar I patients across 23 centres |
-| [28376877](https://pubmed.ncbi.nlm.nih.gov/28376877/) | 2017 | RCT (protocol/design) | BMC Psychiatry | Study design paper for the PLACID randomized trial |
-| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | RCT (responder analysis) | BJPsych Open | PANSS-EC responder analysis from two Phase III RCTs (344 schizophrenia, 314 bipolar I patients) |
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematic Review & Meta-analysis | Hum Psychopharmacol | Systematic review of short-term pharmacological interventions for agitation in schizophrenia/bipolar disorder |
-| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Review | Expert Rev Neurother | 50-year experience review of loxapine for rapid non-coercive tranquilization of acute behavioral disturbances |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatr Scand | Evidence-based review of treatment options and clinical suggestions for bipolar mania |
-| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Expert Review/Commentary | Drugs in R&D | Expert commentary on inhaled loxapine for acute agitation in bipolar disorder and schizophrenia |
-| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Review | Neuropsychiatr Dis Treat | Safety, efficacy, and patient acceptability review of inhaled loxapine for acute agitation in bipolar I/schizophrenia |
-| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Clinical Review | Int J Mol Sci | Narrative/clinical mini-review of efficacy and tolerability of inhaled loxapine for acute agitation |
+| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Pooled analysis of 2 Phase III RCTs | Int J Clin Pract | Effect sizes of inhaled loxapine for agitation in schizophrenia or bipolar disorder |
+| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | RCT (PLACID) | Eur Neuropsychopharmacol | Inhaled loxapine vs intramuscular aripiprazole in acutely agitated patients with schizophrenia or bipolar I disorder |
+| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | Responder analysis of 2 Phase III RCTs | BJPsych Open | PANSS-EC responder analyses of inhaled loxapine 5 or 10 mg vs placebo in bipolar I disorder and schizophrenia |
+| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematic review / meta-analysis | Hum Psychopharmacol | Short-term drug treatments for agitation associated with schizophrenia or bipolar disorder |
+| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Drug review | CNS Drugs | Inhaled loxapine reaches peak plasma levels in about 2 minutes; two Phase III placebo-controlled trials support acute agitation use |
+| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Review | Neuropsychiatr Dis Treat | Safety, efficacy and patient acceptability of inhaled loxapine for agitation in schizophrenia or bipolar I disorder |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatr Scand | Evidence-based options for managing bipolar mania, including the choice of mood stabilizer and antipsychotic |
+| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Review | Expert Opin Pharmacother | Pharmacotherapy of agitation in bipolar disorder, particularly during manic episodes |
+| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Review | Expert Rev Neurother | Fifty years of experience with loxapine for rapid non-coercive tranquilization of acute behavioral disturbances |
+| [27121764](https://pubmed.ncbi.nlm.nih.gov/27121764/) | 2016 | Review | Curr Med Res Opin | Inhaled loxapine for urgent treatment of acute agitation in schizophrenia or bipolar disorder |
 
 ---
 
 ## Canada Market Information
 
-Loxapine is currently **not marketed in Canada** — no Drug Identification Numbers (DINs) are on file (0 licenses recorded). Any Canadian development pathway for this indication would require a new submission rather than a label-extension of an existing authorization.
+| DIN | Product Name |
+|---------|------|
+| 2169991 | LOXAPAC IM |
+| 2230838 | XYLAC |
+| 2230839 | XYLAC |
+| 2242868 | XYLAC |
+
+Dosage form and approved indication text are not available in the current records for these licenses.
 
 ---
 
 ## Safety Considerations
 
-- **Key Warnings**: Formal Health Canada/TFDA label warnings have not yet been extracted for this drug (data gap, see below). However, the evidence pack's mechanistic rationale notes that the inhaled loxapine formulation (Adasuve®) carries a **boxed warning for bronchospasm** and is subject to a Risk Evaluation and Mitigation Strategy (REMS) in jurisdictions where it is approved — this should be treated as a material safety signal pending formal label confirmation.
-- **Drug Interactions**: No interaction data currently on file (query returned no results).
-
-> Please refer to the official package insert for complete safety information once available — formal contraindication and warning data for this drug have not yet been retrieved (see Conclusion below).
+Please refer to the package insert for safety information.
 
 ---
 
@@ -108,13 +108,13 @@ Loxapine is currently **not marketed in Canada** — no Drug Identification Numb
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The bipolar-mania prediction is supported by a coherent mechanistic story (D2/5-HT2A antagonism), an existing approved use for the same drug in the same patient population abroad (inhaled loxapine for agitation in bipolar I disorder/schizophrenia in the US/EU), and 10+ relevant publications including pooled and head-to-head Phase III RCT data (L1 evidence). This is one of the stronger repurposing signals in this evidence pack — the other nine TxGNN candidates (ranks 2–10) lack any clinical, literature, or mechanistic support and were held.
+Loxapine has an established antipsychotic profile and Phase III evidence for agitation in bipolar I disorder. However, that evidence concerns acute agitation, not treatment of the manic episode itself. Safety data and the approved indication are also missing.
 
 **To proceed, the following is needed:**
-- Resolve **DG001 (Blocking)**: obtain and parse the official Health Canada/TFDA-equivalent product label (warnings, contraindications) — this is currently blocking formal S1 safety screening.
-- Resolve **DG002**: confirm loxapine's formal DrugBank-sourced mechanism-of-action record to replace the rationale-derived MOA used in this report.
-- Since loxapine is not currently marketed in Canada, determine the regulatory pathway (new submission vs. leveraging existing US/EU Adasuve approval data) before advancing further.
-- Formal drug-interaction (DDI) profile, as the current query returned no results.
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication and dosage form for each Canadian license, to confirm route compatibility (the published evidence is mainly for inhaled loxapine)
+- Trial evidence specific to manic episodes rather than agitation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Trandolapril
 parent: Model Prediction Only (L5)
-nav_order: 789
+nav_order: 922
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,63 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Trandolapril: From Hypertension to Malignant Hypertensive Renal Disease
+# Trandolapril: From ACE Inhibitor Use to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Trandolapril is an angiotensin-converting enzyme (ACE) inhibitor established for the management of hypertension. The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**, but this prediction is currently supported by **zero clinical trials** and **zero publications** — it is a mechanism-based computational hypothesis only.
+Trandolapril is an ACE inhibitor that is marketed in Canada under 20 licences.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but **0 clinical trials** and **0 publications** currently support this prediction.
+The result is a model-only prediction (Evidence Level L5) and should be treated as a hypothesis.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension (ACE inhibitor class; specific labelled indication text not available — drug not marketed in Canada) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+|------|------|
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for trandolapril is not currently available in DrugBank. Based on information embedded in the prediction rationale, trandolapril belongs to the angiotensin-converting enzyme inhibitor (ACEi) class. ACE inhibitors suppress the renin-angiotensin-aldosterone system (RAAS), lowering systemic blood pressure and reducing intraglomerular pressure — a mechanism already recognized as a standard therapeutic approach for hypertensive kidney disease.
+Detailed mechanism of action data is not currently available. Based on known information, trandolapril belongs to the ACE inhibitor class. ACE inhibitors block the formation of angiotensin II, which lowers blood pressure and reduces pressure inside the kidney's filtering units (glomeruli).
 
-Malignant hypertensive renal disease is a severe manifestation of uncontrolled hypertension that causes rapid glomerular and vascular kidney damage. Because ACE inhibitors act directly on the RAAS pathway responsible for both systemic hypertension and glomerular hyperfiltration, there is a plausible mechanistic link between trandolapril's established antihypertensive effect and this new indication.
+Malignant hypertensive renal disease is kidney injury driven by severe, sustained high blood pressure. Lowering systemic and glomerular pressure through ACE inhibition is biologically plausible for this condition.
 
-However, this connection remains theoretical. The TxGNN score reflects structural/mechanistic similarity in the knowledge graph only — no clinical trial or published literature currently confirms trandolapril's efficacy specifically in malignant hypertensive renal disease. A closely related candidate in the same evidence pack (malignant renovascular hypertension) carries an explicit mechanistic warning: ACEi use in bilateral renal artery stenosis can precipitate acute kidney injury, illustrating that high TxGNN similarity scores within this disease cluster do not equate to safety or efficacy.
+The 99.92% TxGNN score reflects a knowledge-graph association, not clinical proof. No trials or publications were found for this drug–disease pair, so the mechanistic argument is still unverified.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-Trandolapril currently has no Health Canada Drug Identification Number (DIN) on file — the drug is marked as **Not Marketed** in Canada, with 0 registered licenses.
+The table shows 5 of the 20 authorizations. Dosage form, manufacturer and approved indication text were not provided for these entries.
+
+| DIN | Product Name |
+|---------|------|
+| 2325756 | SANDOZ TRANDOLAPRIL |
+| 2526581 | TRANDOLAPRIL |
+| 2325748 | SANDOZ TRANDOLAPRIL |
+| 2239267 | MAVIK |
+| 2471868 | AURO-TRANDOLAPRIL |
+
+---
 
 ## Safety Considerations
 
-- **Mechanism-Based Caution**: For a closely related predicted indication (malignant renovascular hypertension) in this evidence pack, ACE inhibitors are known to precipitate acute kidney injury in patients with bilateral renal artery stenosis by blocking angiotensin II–mediated efferent arteriolar constriction. This is a well-recognized class contraindication and should be weighed carefully before advancing trandolapril for any hypertensive renal indication.
+Please refer to the package insert for safety information.
 
-Beyond this, please refer to the package insert for full safety information — formal warnings, contraindications, and drug interaction data are not yet available in the evidence pack.
+One class-level concern relates to the related prediction for malignant renovascular hypertension. ACE inhibitors can precipitate acute renal failure in patients with bilateral renal artery stenosis. This should be weighed carefully before any use in renal vascular disease.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (malignant hypertensive renal disease) is supported only by TxGNN's model score, with no clinical trials or literature (L5, S1 "Research Question" stage). Combined with a Blocking data gap on Canadian product-label warnings/contraindications (DG001) and the drug's current "Not Marketed" status in Canada, there is insufficient evidence and regulatory groundwork to advance beyond a research hypothesis at this time.
+The prediction rests only on a model score, with no clinical trials or literature, and the safety and mechanism data are incomplete. The mechanistic argument is reasonable, but it is not yet evidence.
+
+**Other predictions in this pack:**
+- Malignant renovascular hypertension, pulmonary hypertension (two variants) and Braddock syndrome are also L5 / Hold.
+- The 10 papers retrieved for pulmonary hypertension owing to lung disease and/or hypoxia are general hypoxia biology (brain aging, cancer, keloid, multiple sclerosis, altitude). None concerns trandolapril, so they should not be counted as support.
+- Chronic pulmonary heart disease (score 99.19%) is the only prediction with any drug-specific study: a 1996 rat study of long-term trandolapril on vasoconstriction in chronic heart failure ([PMID 8989645](https://pubmed.ncbi.nlm.nih.gov/8989645/)). It is preclinical only and indirect, so it is rated L4 and labelled a Research Question.
 
 **To proceed, the following is needed:**
-- Health Canada / TFDA product label — warnings and contraindications (DG001, Blocking)
-- Detailed mechanism of action (MOA) data from DrugBank (DG002, High)
-- Preclinical or clinical evidence specific to malignant hypertensive renal disease (none currently registered)
-- Clarification of the regulatory pathway for a currently unmarketed drug in Canada
-- Careful exclusion of renal artery stenosis / renovascular pathology before any hypertensive-renal indication is pursued, given the class-level AKI risk flagged for the related candidate indication
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A systematic search for human clinical evidence on trandolapril in hypertensive renal disease
+- A similarity assessment against the original indication and a route-of-administration compatibility check
+- Confirmation of the animal model in PMID 8989645 if the chronic pulmonary heart disease direction is pursued
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

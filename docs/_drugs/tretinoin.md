@@ -2,7 +2,7 @@
 layout: default
 title: Tretinoin
 parent: Model Prediction Only (L5)
-nav_order: 799
+nav_order: 933
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tretinoin: From Acute Promyelocytic Leukemia to Rheumatoid Nodulosis
+# Tretinoin: From Acute Promyelocytic Leukemia and Acne to Rheumatoid Nodulosis
 
 ## One-Sentence Summary
 
-> Tretinoin (all-trans retinoic acid) is a retinoid best known for treating acute promyelocytic leukemia and, in topical form, acne.
-> The TxGNN model predicts a possible association with **Rheumatoid Nodulosis**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure knowledge-graph signal with no corroborating evidence.
-
----
+Tretinoin is a retinoid (a vitamin A derivative) sold in Canada as Vesanoid and Retin-A. The TxGNN model predicts it may be effective for **rheumatoid nodulosis**, but **no clinical trials and no publications** support this prediction. It is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (`original_indications` empty); commonly known use is Acute Promyelocytic Leukemia / topical acne |
-| Predicted New Indication | Rheumatoid Nodulosis |
+| Original Indication | Acute promyelocytic leukemia and acne (inferred from the marketed products Vesanoid and Retin-A; the supplied license records contain no indication text) |
+| Predicted New Indication | Rheumatoid nodulosis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 10 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the evidence pack (`original_moa: [Data Gap]`). Tretinoin is generally known as a RAR/RXR (retinoic acid receptor) agonist, and its efficacy in acute promyelocytic leukemia — via induction of leukemic cell differentiation — is well established in the literature outside this dataset.
+Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid, a class with general immunomodulatory activity, and its efficacy in its approved uses is established. Mechanistically, it may be applicable to inflammatory conditions, but the supplied data do not support a specific link to rheumatoid nodulosis.
 
-For the top-ranked prediction, rheumatoid nodulosis, no known biological pathway connects retinoid receptor signaling to the formation or resolution of rheumatoid nodules. The model's own rationale field states this explicitly: the score reflects only a knowledge-graph association (0.998), with no mechanistic or clinical support, and the absence of original-indication/MOA data makes it impossible to construct a credible mechanistic hypothesis at this time.
-
-It is worth noting that lower-ranked candidates in this dataset show more nuanced (and in one case, contradictory) mechanistic signals — for example, retinoic acid signaling has documented, but directionally inconsistent, effects on osteoarthritis (rank 7). This suggests the overall TxGNN output for this drug reflects graph proximity (e.g., shared pathway or receptor neighborhoods) rather than a validated therapeutic signal for rheumatoid nodulosis specifically.
-
----
+The high score most likely reflects the model's graph-neighbor patterns, not direct evidence. Related arthritis terms rank in the top 10 as well (juvenile idiopathic arthritis and its synonyms, rheumatoid factor-positive polyarticular JIA). Several of these are synonym-level overlaps, so they are not independent confirmations.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for rheumatoid nodulosis.
 
----
+### Best-evidenced alternative: Osteoarthritis (rank 7, score 99.44%, L4)
+
+This is the only predicted indication with any literature. All of it is genetic, preclinical or computational, and there are no trials.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36542696](https://pubmed.ncbi.nlm.nih.gov/36542696/) | 2022 | Genetic/mechanistic | Sci Transl Med | ALDH1A2 variants (key enzyme for all-trans retinoic acid synthesis) are linked to severe hand OA, suggesting an anti-inflammatory role for retinoic acid |
+| [37418291](https://pubmed.ncbi.nlm.nih.gov/37418291/) | 2023 | Genetic/computational | DNA Cell Biol | GWAS-to-drug analysis proposing retinoic acid metabolism blocking agents to suppress mechanoflammation in OA |
+| [40564983](https://pubmed.ncbi.nlm.nih.gov/40564983/) | 2025 | Preclinical/computational | Int J Mol Sci | RNA-seq and network pharmacology study of retinoic acid-induced OA, suggesting excess exposure may be harmful |
+| [15946654](https://pubmed.ncbi.nlm.nih.gov/15946654/) | 2005 | In vitro | Biochem Pharmacol | All-trans retinoic acid blocked cytokine-induced MMP production in human chondrocytes via JNK-AP-1 signaling |
+| [38302538](https://pubmed.ncbi.nlm.nih.gov/38302538/) | 2024 | In vitro | Sci Rep | Effect of a retinoic acid analogue on stem cell chondrogenesis |
+
+The direction of effect is conflicting: some studies suggest retinoic acid protects cartilage, others suggest it causes harm. Dose and route dependence are unresolved. Many of the other retrieved papers are not retinoid-specific and are omitted.
 
 ## Canada Market Information
 
-Tretinoin currently has no marketed Health Canada licenses in this dataset (`total_licenses: 0`, `market_status: Not marketed`). No DIN entries are available to list.
+Showing 5 of 10 authorizations. Dosage form and approved indication text were not supplied.
 
----
+| DIN | Product Name |
+|---------|------|
+| 2145839 | VESANOID |
+| 443794 | RETIN-A |
+| 2264633 | RETIN-A MICRO |
+| 2520036 | JAMP TRETINOIN |
+| 1926462 | VITAMIN A ACID |
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Retinoid, differentiation-inducing agent (oral use in leukemia); not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the supplied data.
 
----
+The prediction notes flag two concerns for new uses. Retinoid teratogenicity and bone effects would need review for any pediatric arthritis use. Retinoid effects on skeletal development would need review for the skeletal dysplasias (pseudoachondroplasia, acromesomelic dysplasia).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (rheumatoid nodulosis) has no clinical trials, no literature, and no mechanistic support beyond the raw TxGNN graph score — this is an L5, model-only signal (`decision_stage: S0`) and does not meet the bar to advance to safety or clinical evaluation.
+The top prediction, rheumatoid nodulosis, rests on the model score alone, with no trials, no literature and no supplied mechanism. The other nine predictions are also model-only (L5), except osteoarthritis, which has only preclinical and genetic evidence with conflicting direction. It is best treated as a research question, not a development candidate.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label warnings and contraindications (currently a **Blocking** data gap — DG001)
-- Confirmed mechanism of action data for tretinoin (currently a **High**-severity data gap — DG002)
-- Original indication documentation, to properly assess similarity between tretinoin's approved use and rheumatoid nodulosis
-- Preclinical or mechanistic studies specifically linking retinoid signaling to rheumatoid nodule pathophysiology, before this candidate can be considered for further evaluation
-
-*Note: If the goal is to evaluate tretinoin's most literature-supported repurposing signal in this dataset, rank 7 (osteoarthritis, L4/S1) has actual literature evidence — though the findings are directionally mixed and warrant a separate, dedicated evaluation rather than being treated as supportive of the top-ranked candidate above.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A targeted literature search for retinoid use in rheumatoid nodulosis and the arthritis subtypes
+- For osteoarthritis, resolution of the protective-versus-harmful direction, including dose and route, and a route compatibility assessment
+- Original indication text and dosage forms for the Canadian licenses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

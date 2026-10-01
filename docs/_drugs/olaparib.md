@@ -2,7 +2,7 @@
 layout: default
 title: Olaparib
 parent: Model Prediction Only (L5)
-nav_order: 576
+nav_order: 674
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Olaparib: From Ovarian Cancer to Female Breast Carcinoma
+# Olaparib: From an Unlisted Registered Indication to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Olaparib (DrugBank ID: DB09074) is a PARP1/2 inhibitor originally developed for BRCA-mutated, platinum-sensitive relapsed ovarian cancer. The TxGNN model predicts it may also be effective for **female breast carcinoma**, and this is not a purely theoretical extrapolation — it is already backed by **multiple completed Phase 3 RCTs** (OlympiAD, OlympiA) plus **20 supporting publications**, making this one of the strongest-evidenced candidates in this pipeline. The drug is currently **not marketed in Canada**, so regulatory data for this jurisdiction is not yet available.
+Olaparib (Lynparza) is an oral PARP inhibitor marketed in Canada, but the supplied data does not list its original approved indication.
+The TxGNN model predicts it may be effective for **female breast carcinoma**, and **50 clinical trials** and **20 publications** are linked to this direction.
+The strongest support comes from Phase 3 RCTs (OlympiA and OlympiAD) in germline BRCA1/2-mutated, HER2-negative breast cancer.
 
 ---
 
@@ -41,40 +43,44 @@ Olaparib (DrugBank ID: DB09074) is a PARP1/2 inhibitor originally developed for 
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (BRCA-mutated, platinum-sensitive relapsed) — per trial-level evidence in this pack; no Canadian license record exists |
-| Predicted New Indication | Female Breast Carcinoma |
+| Original Indication | Not listed in the supplied data (the Canadian licence records contain no indication text) |
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.09% |
-| Evidence Level | L1 (≥2 completed Phase 3 RCTs) |
-| Canada Market Status | Not currently marketed |
-| Number of DINs | 0 |
+| Evidence Level | L1 (based on the published Phase 3 RCTs OlympiA and OlympiAD) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Olaparib is a PARP1/2 (poly ADP-ribose polymerase) inhibitor. In tumor cells with BRCA1/2 mutations — which impair homologous recombination DNA repair (HRD) — PARP inhibition triggers a "synthetic lethality" effect, selectively killing the cancer cells while sparing normal cells with intact DNA repair. This mechanism is described directly in the evidence pack's repurposing rationale, and it has already been validated in multiple Phase 3 RCTs, not merely predicted.
+Detailed mechanism-of-action data is not available in the supplied record. The explanation below comes from the published literature.
 
-Ovarian cancer and breast cancer share substantial biological overlap: both are frequently associated with germline BRCA1/2 mutations, and the same DNA-repair deficiency that makes BRCA-mutated ovarian tumors sensitive to PARP inhibition applies equally to BRCA-mutated breast tumors. This is precisely why olaparib (Lynparza) has already received global regulatory approval for BRCA-mutated metastatic and early-stage breast cancer (OlympiAD, OlympiA trials) — the TxGNN prediction here is essentially recapitulating an already-established, guideline-supported indication.
+Olaparib inhibits PARP, an enzyme involved in repairing DNA single-strand breaks. Tumours with germline BRCA1/2 mutations cannot repair double-strand breaks by homologous recombination. Blocking PARP in these cells causes synthetic lethality, and the cancer cells die while normal cells are largely spared.
 
-Because efficacy is contingent on the underlying HRD/BRCA1/2 mutation status rather than tissue-of-origin, patient selection (germline BRCA1/2 testing or HRD status) is the critical guardrail for applying this mechanism safely and effectively in breast cancer.
+Breast cancers carrying BRCA1/2 mutations have exactly this repair defect. That is why the TxGNN prediction fits the clinical data. The pivotal trials enrolled patients with germline BRCA-mutated, HER2-negative disease, and the TxGNN score (0.99) agrees with those results.
+
+The benefit is established only in this biomarker-defined group. Evidence in wider homologous-recombination-deficient (HRD) populations comes from Phase 2 data (TBCRC 048) and is still suggestive. Because the original indication is missing from the data, the Health Canada label should be checked to confirm whether breast cancer is already an approved use or a true new indication.
 
 ---
 
 ## Clinical Trial Evidence
 
+The list below shows the 10 most relevant breast-cancer trials out of 50 retrieved. Most of them are early-phase combination studies, so the registered trials mainly support safety and early activity.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Phase 4 | Completed | 202 | Confirmatory real-world trial in Indian patients with platinum-sensitive relapsed ovarian cancer and germline BRCA1/2-mutated metastatic breast cancer, supporting approved indications |
-| [NCT04553926](https://clinicaltrials.gov/study/NCT04553926) | N/A (post-marketing) | Completed | 661 | Lynparza (olaparib) real-world post-marketing surveillance in South Korea, assessing safety and effectiveness per approved indications |
-| [NCT01445418](https://clinicaltrials.gov/study/NCT01445418) | Phase 1 | Completed | 103 | Early dose-finding of olaparib + carboplatin in BRCA1/2-mutated breast/ovarian cancer and sporadic triple-negative breast/ovarian cancer |
-| [NCT01623349](https://clinicaltrials.gov/study/NCT01623349) | Phase 1 | Completed | 118 | Olaparib combined with PI3K inhibitors (BKM120/BYL719) in recurrent triple-negative breast cancer or high-grade serous ovarian cancer |
-| [NCT06580314](https://clinicaltrials.gov/study/NCT06580314) | Phase 3 | Recruiting | 880 | Comparing 1 vs. 2 years of maintenance olaparib ± bevacizumab in BRCA1/2-mutated/HRD-positive ovarian cancer after first-line platinum chemotherapy |
-| [NCT06630325](https://clinicaltrials.gov/study/NCT06630325) | Phase 2 | Active, not recruiting | 30 | Precision-medicine adaptive treatment platform (SMMART-ACT) spanning sarcoma, prostate, breast, ovarian, and pancreatic cancer |
-| [NCT02624973](https://clinicaltrials.gov/study/NCT02624973) | Phase 2 | Active, not recruiting | 200 | PETREMAC — personalized treatment trial in high-risk breast cancer, directly testing olaparib in a breast cancer population |
-| [NCT05700669](https://clinicaltrials.gov/study/NCT05700669) | Phase 1/2 | Completed | 3 | Basket study of AsiDNA™ + olaparib in recurrent ovarian, breast, and prostate cancer progressing after prior PARP inhibitor therapy (small sample size) |
-| [NCT05238922](https://clinicaltrials.gov/study/NCT05238922) | Phase 1 | Recruiting | 604 | INCB123667 monotherapy/combination (including olaparib) in advanced solid tumors — early dose-escalation study |
-| [NCT03570437](https://clinicaltrials.gov/study/NCT03570437) | Phase 2 | Unknown | 124 | COPELIA — cediranib + paclitaxel or olaparib vs. paclitaxel in advanced/relapsed endometrial carcinoma |
+| [NCT05498155](https://clinicaltrials.gov/study/NCT05498155) | Phase 2 | Active, not recruiting | 50 | Neoadjuvant olaparib alone or with durvalumab in BRCA-mutated, early-stage HER2-negative breast cancer |
+| [NCT06201234](https://clinicaltrials.gov/study/NCT06201234) | Phase 2 | Recruiting | 176 | Elacestrant added to olaparib versus olaparib alone in HR-positive, HER2-negative, gBRCA1/2-mutated advanced breast cancer |
+| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Phase 2 | Completed | 99 | AZD2281 (olaparib) in BRCA-mutated or triple-negative breast cancer and in ovarian cancer, measuring response rate and response markers |
+| [NCT01116648](https://clinicaltrials.gov/study/NCT01116648) | Phase 1/2 | Active, not recruiting | 155 | Cediranib plus olaparib versus olaparib alone in recurrent triple-negative breast cancer and ovarian cancers |
+| [NCT05358639](https://clinicaltrials.gov/study/NCT05358639) | Phase 1 | Active, not recruiting | 36 | Olaparib plus navitoclax in BRCA1/2- or PALB2-mutated triple-negative breast cancer and high-grade serous ovarian cancer |
+| [NCT03109080](https://clinicaltrials.gov/study/NCT03109080) | Phase 1 | Completed | 24 | Olaparib with radiation therapy in triple-negative breast cancer |
+| [NCT02208375](https://clinicaltrials.gov/study/NCT02208375) | Phase 1 | Active, not recruiting | 159 | Olaparib with vistusertib or capivasertib in recurrent endometrial, triple-negative breast and ovarian cancers |
+| [NCT02624973](https://clinicaltrials.gov/study/NCT02624973) | Phase 2 | Active, not recruiting | 200 | PETREMAC personalised pre-surgical treatment of high-risk breast cancer (olaparib likely one of several biomarker-guided options) |
+| [NCT01445418](https://clinicaltrials.gov/study/NCT01445418) | Phase 1 | Completed | 103 | Olaparib plus carboplatin in BRCA1/2 carriers and sporadic triple-negative breast and ovarian cancer; dose-finding and early activity |
+| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Phase 4 | Completed | 202 | Olaparib in Indian patients with platinum-sensitive relapsed ovarian cancer and metastatic breast cancer with germline BRCA1/2 mutation |
 
 ---
 
@@ -82,42 +88,43 @@ Because efficacy is contingent on the underlying HRD/BRCA1/2 mutation status rat
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT | New England Journal of Medicine | OlympiA trial: adjuvant olaparib significantly reduces recurrence in BRCA1/2-mutated, high-risk early breast cancer (pivotal Phase 3) |
-| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT | New England Journal of Medicine | OlympiAD trial: olaparib monotherapy shows antitumor activity in germline BRCA-mutated metastatic breast cancer (pivotal Phase 3, basis for approval) |
-| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT | Annals of Oncology | OlympiAD final overall survival and tolerability results vs. chemotherapy of physician's choice |
-| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT | European Journal of Cancer | OlympiAD extended follow-up confirming long-term overall survival and safety profile |
-| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT | Annals of Oncology | OlympiA overall survival analysis for adjuvant olaparib in high-risk, early-stage BRCA-mutated breast cancer |
-| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | RCT | Journal of Clinical Oncology | TBCRC 048: Phase 2 study of olaparib in metastatic breast cancer with non-BRCA homologous recombination-related gene mutations |
-| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | RCT | Cancer Cell | I-SPY2: durvalumab + olaparib + paclitaxel improves pathologic complete response in high-risk HER2-negative breast cancer |
-| [31650727](https://pubmed.ncbi.nlm.nih.gov/31650727/) | 2020 | Review | Annals of Laboratory Medicine | Review of BRCA1/2 pathogenic variant breast cancer — treatment and prevention strategies |
-| [31218365](https://pubmed.ncbi.nlm.nih.gov/31218365/) | 2019 | Review | Annals of Oncology | A decade of clinical development of PARP inhibitors in perspective |
-| [32444794](https://pubmed.ncbi.nlm.nih.gov/32444794/) | 2020 | Mechanistic study | Nature Communications | High-throughput functional evaluation of BRCA2 variants of unknown significance, supporting BRCA–PARP inhibitor synthetic lethality rationale |
+| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT | N Engl J Med | OlympiA: adjuvant olaparib in BRCA1/2-mutated early breast cancer |
+| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT | Ann Oncol | OlympiA overall-survival analysis; the first interim analysis had shown a significant improvement in invasive disease-free survival with 1 year of olaparib versus placebo |
+| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT | N Engl J Med | OlympiAD: olaparib in metastatic breast cancer with a germline BRCA mutation |
+| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT | Ann Oncol | OlympiAD final overall survival versus physician's-choice chemotherapy, plus tolerability; median OS 19.3 vs 17.1 months (P = 0.513) |
+| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT | Eur J Cancer | OlympiAD extended follow-up for survival and safety |
+| [38588696](https://pubmed.ncbi.nlm.nih.gov/38588696/) | 2024 | RCT (Phase 2–3) | Nature | PARTNER: neoadjuvant carboplatin-paclitaxel with or without olaparib in 559 patients with germline BRCA wild-type triple-negative breast cancer |
+| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Phase 2 | J Clin Oncol | TBCRC 048: olaparib in metastatic breast cancer with somatic BRCA1/2 or other homologous-recombination gene mutations |
+| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | Phase 2 | Cancer Cell | I-SPY2: durvalumab plus olaparib plus paclitaxel raised pathologic complete response rates in HER2-negative stage II/III breast cancer |
+| [34518313](https://pubmed.ncbi.nlm.nih.gov/34518313/) | 2021 | Phase 1b | Clin Cancer Res | Olaparib plus capivasertib in recurrent endometrial, triple-negative breast and ovarian cancer; dose expansion and response markers |
+| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Review | Target Oncol | Overview of PARP inhibitors (olaparib and talazoparib) for breast cancer |
 
 ---
 
 ## Canada Market Information
 
-Olaparib currently has **no market authorization in Canada** (0 DINs on record in this evidence pack). No product listings, dosage forms, or approved indication text are available to summarize.
+| DIN | Product Name |
+|---------|------|
+| 2475200 | LYNPARZA |
+| 2475219 | LYNPARZA |
 
 ---
 
 ## Cytotoxicity
 
-Olaparib is an antineoplastic agent (targeted PARP inhibitor used in oncology), so this section applies.
+Olaparib is an antineoplastic drug.
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PARP inhibitor) — not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Monitoring required — the repurposing rationale explicitly flags a risk of myelodysplastic syndrome/acute myeloid leukemia (MDS/AML) with PARP inhibitor use; specific grading not provided in this pack |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC (with differential); germline BRCA1/2 mutation or HRD status confirmation as a patient-selection guardrail |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Cytotoxicity Classification | Targeted therapy (PARP inhibitor) |
+
+For myelosuppression risk, emetogenicity, monitoring items and handling protection, please refer to the package insert warnings and precautions.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not yet available in this evidence pack — flagged as DG001, a blocking data gap.)
+Please refer to the package insert for safety information. No interaction records were found for this drug in the queried source.
 
 ---
 
@@ -126,14 +133,14 @@ Please refer to the package insert for safety information. (Key warnings, contra
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Evidence strength is high (L1 — multiple completed Phase 3 RCTs: OlympiAD and OlympiA) and the mechanism is already clinically validated, not just model-predicted. However, olaparib is not currently marketed in Canada, and safety/label data (DG001) is a blocking gap, so real-world application requires biomarker-based patient selection (BRCA1/2/HRD status) and formal safety documentation before use.
+Phase 3 RCTs (OlympiA and OlympiAD) support olaparib in germline BRCA-mutated, HER2-negative breast cancer, and the TxGNN prediction agrees with the established synthetic-lethality mechanism. The benefit is limited to this biomarker-defined group, so use must be restricted to confirmed BRCA-mutated patients.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product monograph — key warnings, contraindications, and drug interaction data (DG001, blocking)
-- Formal mechanism of action (MOA) documentation from DrugBank or the manufacturer label (DG002)
-- Canadian market authorization status confirmation and DIN assignment, if/when filed
-- BRCA1/2 germline mutation or HRD testing infrastructure to support guardrailed patient selection
-- Long-term myelosuppression/MDS-AML monitoring protocol
+- Obtain the Health Canada product monograph (warnings and contraindications), a blocking gap for safety screening.
+- Confirm the approved indications on the Canadian label, to decide whether breast cancer is already approved or a true repurposing.
+- Require BRCA testing before use; evidence in wider HRD populations is still Phase 2 only.
+- Obtain DrugBank mechanism-of-action data to complete the mechanistic analysis.
+- Review the 30 trials still pending relevance grading, especially the breast-specific Phase 2 trials.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

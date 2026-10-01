@@ -2,7 +2,7 @@
 layout: default
 title: Nusinersen
 parent: Model Prediction Only (L5)
-nav_order: 566
+nav_order: 664
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Nusinersen is an antisense oligonucleotide whose only publicly documented approved use is spinal muscular atrophy (SMA); this information is **not captured in the current evidence pack**, since the original indication and mechanism-of-action fields are both flagged as data gaps. The TxGNN model's top-ranked new indication, **Neoplasm of Immature B and T Cells**, carries a prediction score of only **50%** — a value at the model's baseline, meaning it does not reflect a distinguishable signal — and is supported by **zero clinical trials and zero publications**. Across all 10 top-ranked candidates in this pack, every score is identically 0.5 and every recommendation is **Hold**, indicating this candidate set does not currently support any repurposing hypothesis.
+Nusinersen is an antisense oligonucleotide marketed in Canada as SPINRAZA, originally used for spinal muscular atrophy (SMA).
+The TxGNN model predicts it may be effective for **neoplasm of immature B and T cells**, but the score is only 50% (non-discriminative), and **0 clinical trials** and **0 publications** support this direction.
 
 ---
 
@@ -41,49 +42,51 @@ Nusinersen is an antisense oligonucleotide whose only publicly documented approv
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (no Health Canada license records; publicly known indication is Spinal Muscular Atrophy, unverified here) |
+| Original Indication | Spinal muscular atrophy (the licence record has no indication text, so this comes from the drug's known use) |
 | Predicted New Indication | Neoplasm of immature B and T cells |
-| TxGNN Prediction Score | 50.00% (baseline value — not a differentiated signal) |
+| TxGNN Prediction Score | 50% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed (Not marketed) |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Nusinersen in this evidence pack (data gap DG002, severity High). Based on general public knowledge, Nusinersen is a 2'-MOE-modified antisense oligonucleotide that modulates SMN2 pre-mRNA splicing to increase functional SMN protein, and it is administered intrathecally for spinal muscular atrophy — a mechanism specific to motor neuron biology with no established link to lymphoid or myeloid oncogenesis.
+Detailed mechanism of action data is not available in the Evidence Pack. Nusinersen is known to modulate splicing of SMN2 exon 7 to increase production of functional SMN protein, which is the basis of its use in SMA.
 
-For this specific candidate, "neoplasm of immature B and T cells," there is no mechanistic rationale, no clinical trial, and no literature evidence of any kind — the evidence base is entirely empty. A TxGNN score of exactly 0.5 corresponds to the model's baseline/near-random output, not a meaningfully elevated prediction, so no biological plausibility argument can be constructed from the data provided.
+No plausible mechanistic link to immature B/T-cell neoplasms has been identified. SMA is a motor neuron disease and the predicted indication is a haematological malignancy, and nothing in the data connects SMN2 splice modulation to the biology of these cancers. A score of 0.5 is not informative, and the prediction is best treated as a knowledge-graph artifact until independent evidence appears.
 
-It is also worth noting that all 10 top-ranked predictions in this pack share the identical 0.5 score. Two of the other candidates (myeloid/lymphoid neoplasms with JAK2/PDGFRA/PDGFRB/FGFR1 abnormalities; neoplasm of mature T-cells or NK-cells) returned 20 PubMed hits each, but per the rationale notes these are disease-biology review articles retrieved via keyword co-occurrence (e.g., JAK2 inhibitors, NK-cell immunology) — none mention Nusinersen or antisense oligonucleotides, so they do not constitute drug-specific evidence. The remaining candidates, including the top-ranked one, have no evidence at all.
+The other nine predicted indications (for example myeloid/lymphoid neoplasms with eosinophilia, cytomegalovirus infection, exanthem, mature T/NK-cell neoplasms) are in the same position. All are at L5 and Hold with the same 0.5 score. Two of them have retrieved literature (JAK2-driven neoplasms and NK-cell biology). That literature is disease background only and does not mention nusinersen.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Nusinersen is not currently marketed in Canada (0 licenses/DINs on record), so no product-level market table is available.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2465663 | SPINRAZA | — | — |
+
+The record in the Evidence Pack does not include a dosage form, manufacturer, or approved indication text.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are all flagged as data gaps in this evidence pack — including a Blocking-severity gap for TFDA label warnings/contraindications, DG001 — so no drug-specific safety statements can be made at this time.)*
 
 ---
 
@@ -92,13 +95,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication has a TxGNN score at model baseline (0.5), zero supporting clinical trials, and zero supporting literature. Across the entire top-10 candidate list, every score is identical and equally uninformative, and no mechanistic hypothesis can be built due to missing MOA data. There is no evidentiary basis to advance this candidate beyond a screening-stage hold.
+The prediction has no supporting trials or literature and no plausible mechanistic link. The drug's known mechanism (SMN2 splice modulation) is unrelated to immature B/T-cell neoplasms, so the evidence stays at L5.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain and parse the TFDA/Health Canada product label for warnings and contraindications
-- Resolve DG002 (High): retrieve confirmed mechanism-of-action data from DrugBank
-- Re-run or re-rank the TxGNN prediction, since a uniform 0.5 score across the top 10 candidates suggests these results are near the model's noise floor rather than genuine high-confidence predictions — higher-scoring candidates elsewhere in the ranked output should be evaluated instead
-- If pursuing candidates with literature hits (rank 2, rank 7), have a domain expert confirm whether the retrieved articles reflect genuine drug-disease relevance or are keyword-driven false positives, as currently assessed
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
+- Any independent preclinical or clinical evidence linking nusinersen or SMN2 splicing to this neoplasm
+- Confirmation of the approved indication text, dosage form, and route of administration for the Canadian licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

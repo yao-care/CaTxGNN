@@ -2,7 +2,7 @@
 layout: default
 title: Leucovorin
 parent: Model Prediction Only (L5)
-nav_order: 458
+nav_order: 534
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Leucovorin: From Folate Rescue Therapy to Primary Hyperoxaluria
+# Leucovorin: From Established Folate-Analogue Use to Primary Hyperoxaluria
 
 ## One-Sentence Summary
 
-Leucovorin (folinic acid, DB00650) is classically used as a folate-replacement / chemotherapy rescue agent (e.g., methotrexate toxicity, 5-FU potentiation), though this evidence pack has no confirmed original-indication or Canadian licensing record on file. The TxGNN model predicts possible activity in **Primary Hyperoxaluria** (and, as a secondary candidate, **Congenital Intrinsic Factor Deficiency**), but **no clinical trials and no literature** currently support either direction — this is a model-only prediction.
+Leucovorin (folinic acid) is a reduced folate marketed in Canada as an injectable calcium salt. The TxGNN model predicts it may be effective for **primary hyperoxaluria**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it rests on model prediction alone.
 
 ---
 
@@ -41,23 +41,28 @@ Leucovorin (folinic acid, DB00650) is classically used as a folate-replacement /
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file in this dataset (no approved indication text available; leucovorin is generally used as folate replacement / chemotherapy rescue) |
-| Predicted New Indication | Primary Hyperoxaluria |
-| TxGNN Prediction Score | 99.41% (rank 10,491) |
+| Original Indication | Not listed in the supplied licence data |
+| Predicted New Indication | Primary hyperoxaluria |
+| TxGNN Prediction Score | 99.41% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 9 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for leucovorin in this dataset. Based on general pharmacology, leucovorin (folinic acid / 5-formyl-THF) supplies reduced folate for one-carbon metabolism (methylation, purine/pyrimidine synthesis) and is used clinically as a rescue agent against dihydrofolate reductase inhibitors such as methotrexate.
+Currently, detailed mechanism of action data is not available. Leucovorin is a reduced folate that supports one-carbon metabolism and bypasses the DHFR enzyme. Whether that activity is relevant to primary hyperoxaluria cannot be verified from the supplied data.
 
-Primary Hyperoxaluria (PH1/2/3) is a genetic disorder of glyoxylate/glycine metabolism (AGXT, GRHPR, or HOGA1 defects) causing oxalate overproduction. The established cofactor therapy for the PH1 subtype is **pyridoxine (vitamin B6)**, not the folate pathway. The TxGNN score most likely reflects graph-level proximity between one-carbon metabolism nodes and the glycine–serine–glyoxylate pathway rather than a demonstrated pharmacological effect — there is currently no evidence that leucovorin reduces oxalate production or stone burden.
+Primary hyperoxaluria arises from defects in glyoxylate metabolism (for example AGXT, GRHPR or HOGA1 deficiency), which is not a known folate-dependent pathway. No direct mechanistic link to leucovorin is established, and any link would be speculative. The high TxGNN score (99.41%) is a knowledge-graph prediction and is not evidence of efficacy.
 
-A secondary candidate, **Congenital Intrinsic Factor Deficiency** (score 99.34%, rank 11,488), shows a similarly speculative link: this condition impairs ileal absorption of vitamin B12 and is treated with parenteral B12, not folate. Folate and B12 share a role in DNA synthesis and megaloblastic anemia pathways, but supplementing folate in B12 deficiency is a known clinical *risk* (it can mask the hematologic picture while neurologic damage progresses) rather than a therapeutic rationale. Both predictions appear to be graph-proximity artifacts rather than mechanistically grounded repurposing candidates.
+**Second-ranked prediction: congenital intrinsic factor deficiency (score 99.34%).**
+- This one has a plausible but indirect link through the cobalamin-folate axis. Intrinsic factor deficiency causes vitamin B12 malabsorption, and its megaloblastic anaemia overlaps with folate-pathway dysfunction.
+- In theory, leucovorin could correct the haematologic features by supplying reduced folate.
+- It would not treat the underlying B12 deficiency, and it may mask anaemia while neurologic damage progresses.
+- The standard of care is parenteral B12 replacement, so leucovorin would be adjunctive at most.
+- No trials or literature were supplied for this indication either.
 
 ---
 
@@ -75,25 +80,21 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-No Canadian marketing authorization (DIN) is on file for leucovorin in this dataset (market status: Not Marketed; total licenses: 0).
+Five of the nine authorizations are listed below. Dosage form and approved-indication text were not provided in the supplied records.
+
+| DIN | Product Name |
+|---------|------|
+| 2496925 | LEUCOVORIN CALCIUM INJECTION |
+| 2493357 | RIVA LEUCOVORIN |
+| 2087316 | LEUCOVORIN CALCIUM INJECTION |
+| 2548208 | JAMP LEUCOVORIN |
+| 2182998 | LEUCOVORIN CALCIUM INJECTION USP |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
-
-## Secondary Predicted Indication (for reference)
-
-| Item | Content |
-|------|------|
-| Disease | Congenital Intrinsic Factor Deficiency |
-| TxGNN Score | 99.34% (rank 11,488) |
-| Evidence | No clinical trials, no literature |
-| Rationale | Graph-proximity via folate/B12 megaloblastic-anemia pathway; no direct pharmacological support, and folate supplementation is a known confounder/risk in B12 deficiency |
-| Recommendation | Hold |
+Please refer to the package insert for safety information. No drug-interaction records were found in the queried source.
 
 ---
 
@@ -102,13 +103,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Both predictions are Evidence Level L5 (model prediction only) — no clinical trials, no literature, and the mechanistic rationale explicitly documented in this evidence pack describes the link as speculative graph proximity rather than a pharmacologically supported connection. There is also a blocking data gap on TFDA/Health Canada label warnings, which prevents any safety assessment.
+Both predictions are supported only by the TxGNN model (evidence level L5). There are no registered trials or publications, and no verifiable mechanistic link for primary hyperoxaluria. The intrinsic factor deficiency link is plausible but only adjunctive, and it carries a risk of masking B12 deficiency.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and mechanism of action (MOA) for leucovorin (currently missing)
-- Health Canada product monograph warnings/contraindications (blocking gap, DG001)
-- Preclinical or mechanistic studies directly linking folate metabolism to oxalate reduction (for Primary Hyperoxaluria) or to intrinsic factor/B12 absorption pathways (for Congenital Intrinsic Factor Deficiency)
-- Confirmation of current Canadian licensing/DIN status, since this dataset shows the drug as not marketed
+- Mechanism of action data (e.g., from DrugBank) to assess the mechanistic link
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Approved-indication and dosage-form data for the Canadian licences
+- A targeted literature and trial search for leucovorin in primary hyperoxaluria and intrinsic factor deficiency
+- For intrinsic factor deficiency, a clinical review of the risk of masking B12 deficiency
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

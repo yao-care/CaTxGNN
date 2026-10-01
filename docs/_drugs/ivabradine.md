@@ -2,7 +2,7 @@
 layout: default
 title: Ivabradine
 parent: Model Prediction Only (L5)
-nav_order: 428
+nav_order: 501
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Ivabradine: From Cardiac Rate Modulation (Original Indication Not on File) to Hypertrichosis (Disease)
+# Ivabradine: From Heart-Rate Control (HCN Channel Inhibition) to Hypertrichosis
 
 ## One-Sentence Summary
 
-Ivabradine's original approved indication could not be confirmed from available data — the evidence pack notes it as a selective HCN4/If-channel blocker that reduces heart rate at the sinoatrial node, but no formal indication or MOA record was retrieved. The TxGNN model's top prediction is **Hypertrichosis (disease)**, but this is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale states there is no known biological link between If-channel blockade and hair follicle growth regulation.
+Ivabradine is a cardiac drug that inhibits HCN channels (the cardiac If current) and is marketed in Canada under the brand LANCORA.
+The TxGNN model predicts it may be effective for **hypertrichosis** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this specific prediction.
+It is a model-only signal, and hypertrichosis may in fact be a safety signal rather than a treatment target.
 
 ---
 
@@ -41,23 +43,25 @@ Ivabradine's original approved indication could not be confirmed from available 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no approved indication on file; drug is not currently marketed in Canada |
-| Predicted New Indication | Hypertrichosis (disease) |
+| Original Indication | Not recorded in the Canadian licence data (no approved indication text) |
+| Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a Blocking/High-severity data gap in this evidence pack). Based on the limited information available, ivabradine is described as a selective HCN channel (If current) blocker acting on sinoatrial node pacemaker cells to reduce heart rate — a cardiac rate-control mechanism.
+Ivabradine inhibits HCN channels, which carry the cardiac If current, and this lowers heart rate. Detailed mechanism-of-action data was not available in the source record, so this description comes only from the pack's rationale notes.
 
-This mechanism has no known intersection with hair follicle growth regulation. The model's own rationale for the top-ranked prediction explicitly states the link is a pure knowledge-graph embedding similarity, with **no biological basis**: *"Ivabradine acts on the cardiac sinoatrial node HCN4 channel, with no known overlap with hair follicle growth regulatory pathways; this is purely a TxGNN graph embedding similarity prediction, lacking biological grounding."*
+No established mechanistic link connects HCN channel inhibition to hair growth regulation. The score is a knowledge-graph prediction only. It is likely driven by graph proximity to other hair-related disease nodes rather than by drug-specific evidence.
 
-The same pattern holds for the remaining five candidates in this evidence pack (Ambras-type hypertrichosis, periodontal malformation syndrome, Dandy-Walker malformation syndrome, hair shaft abnormality, and nephrogenic syndrome of inappropriate antidiuresis) — each rationale independently concludes there is no plausible pharmacological or pathophysiological connection to ivabradine's known cardiac mechanism. Notably, the periodontal candidate returned 20 PubMed co-occurrence hits, but the rationale confirms none of these actually study ivabradine in relation to periodontal disease; this is assessed as a knowledge-graph co-occurrence false positive (likely mediated indirectly through shared diabetes/cardiovascular comorbidity nodes).
+Directionality is also unclear. Hypertrichosis is more plausibly an adverse-effect or safety signal than a condition ivabradine would treat. Until that is clarified, the prediction should not be read as a therapeutic opportunity.
+
+The other five predictions are also unsupported (scores 99.1% to 99.7%). They include Ambras-type hypertrichosis universalis congenita, a malformation syndrome with odontal and/or periodontal component, a Dandy-Walker malformation syndrome, isolated genetic hair shaft abnormality, and nephrogenic syndrome of inappropriate antidiuresis. None has a plausible link to HCN inhibition, and none has trial or drug-specific literature evidence.
 
 ---
 
@@ -69,19 +73,26 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for hypertrichosis.
+
+The only literature retrieved in this pack (20 papers) belongs to the rank 3 prediction, a periodontal malformation syndrome. It consists of general periodontitis guidelines and reviews that do not mention ivabradine, so it is a non-specific keyword match and does not count as supporting evidence.
 
 ---
 
 ## Canada Market Information
 
-Ivabradine is not currently marketed in Canada under this evidence pack (market status: Not Marketed; 0 licenses/DINs on file). No product listing table is available.
+| DIN | Product Name |
+|---------|------|
+| 2459981 | LANCORA |
+| 2459973 | LANCORA |
+
+Dosage form and approved indication text are not recorded in the source data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the source data.
 
 ---
 
@@ -90,13 +101,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All six TxGNN-predicted indications for ivabradine in this evidence pack carry L5 evidence (model prediction only) with no supporting clinical trials and no literature directly studying the drug-disease relationship. The model's own mechanistic rationale explicitly rejects biological plausibility for the top-ranked candidate (hypertrichosis) and all others, indicating these are knowledge-graph embedding artifacts rather than credible repurposing signals.
+The prediction rests only on a knowledge-graph score, with no clinical trials, no drug-specific literature and no plausible mechanistic link. Hypertrichosis may be an adverse-effect signal rather than a therapeutic target, so the direction of effect is unresolved.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and regulatory history for ivabradine (currently missing from this evidence pack)
-- Mechanism of action data from DrugBank (flagged as High-severity data gap)
-- Health Canada / TFDA label warnings and contraindications (flagged as Blocking data gap — required before any S1 safety review)
-- A biologically plausible hypothesis linking HCN/If-channel blockade to any of the six predicted indications before further evaluation is warranted
+- Ivabradine's mechanism-of-action data from DrugBank
+- The Health Canada package insert (warnings, contraindications, approved indications) for the LANCORA products
+- A check of whether hypertrichosis is reported as an adverse effect of ivabradine
+- Preclinical or mechanistic evidence linking HCN channels to hair follicle biology, if the therapeutic direction is to be pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

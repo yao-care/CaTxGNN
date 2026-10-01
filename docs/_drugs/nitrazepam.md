@@ -2,7 +2,7 @@
 layout: default
 title: Nitrazepam
 parent: High Evidence (L1-L2)
-nav_order: 553
+nav_order: 651
 evidence_level: L2
 indication_count: 3
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-# Nitrazepam: From Benzodiazepine Sedative-Hypnotic to Insomnia
+# Nitrazepam: From a Marketed Benzodiazepine Hypnotic to Sleep Disorder (Initiating and Maintaining Sleep)
 
 ## One-Sentence Summary
 
-Nitrazepam is a benzodiazepine internationally known as a sedative-hypnotic (brand name Mogadon), though it currently holds no marketing authorization in Canada. The TxGNN model predicts it may be effective for **insomnia (sleep disorder, initiating and maintaining sleep)** — a use that aligns directly with its established pharmacological class — supported by **20 publications**, including one randomized controlled trial, though **no registered clinical trials** exist for this specific candidate.
+Nitrazepam is a long-established benzodiazepine sleep medicine, sold in Canada as Mogadon, although the license records list no approved indication.
+The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, with **0 registered clinical trials** and **20 publications** currently supporting this direction.
+This looks like the model recovering a known use rather than discovering a new one.
 
 ---
 
@@ -41,23 +43,27 @@ Nitrazepam is a benzodiazepine internationally known as a sedative-hypnotic (bra
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on record — Nitrazepam is not currently marketed in Canada; internationally it is a recognized benzodiazepine sedative-hypnotic (Mogadon) |
-| Predicted New Indication | Sleep disorder, initiating and maintaining sleep (Insomnia) |
+| Original Indication | Not stated in the license records (established use as a hypnotic) |
+| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L2 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, Nitrazepam is a benzodiazepine that enhances GABA-A receptor chloride-channel activity, producing sedative and hypnotic effects — this is its internationally recognized core indication (marketed abroad as Mogadon).
+Detailed mechanism of action data is not available in the Evidence Pack. Nitrazepam belongs to the benzodiazepine class, which enhances GABA-A receptor inhibition and produces sedative-hypnotic effects. That effect matches difficulty falling and staying asleep.
 
-Unlike many TxGNN candidates that link a drug to a genuinely novel disease area, this prediction essentially reconstructs the drug's own well-established therapeutic identity: a benzodiazepine hypnotic predicted to be useful for insomnia. The mechanistic link is therefore direct and pharmacologically self-evident rather than a speculative extrapolation, which is reflected in the relatively strong evidence level (L2) despite the absence of trials registered specifically against this candidate pairing.
+The original indication field is empty, so this is probably a data gap rather than true repurposing. Nitrazepam has been used as a hypnotic for decades, and the very high TxGNN score most likely reflects that known drug–disease link in the knowledge graph.
 
-The main gap is regulatory, not mechanistic: Nitrazepam has no current Canadian market presence (0 DINs), so this evidence pack should be read as confirming a known pharmacological identity for a product that would need a fresh regulatory pathway in Canada rather than as a repurposing discovery in the traditional sense.
+Two lower-ranked predictions have much weaker support:
+- **Acute encephalopathy with biphasic seizures and late reduced diffusion** (score 99.59%): GABA-A enhancement could plausibly help control seizures. However, there is no trial or literature evidence, and benzodiazepines are not known to alter the delayed injury process. Sedation may also confound neurological assessment.
+- **Wernicke-Korsakoff syndrome** (score 99.31%): the link likely comes from benzodiazepine use in alcohol withdrawal. Nitrazepam does not treat the underlying thiamine deficiency and may worsen confusion or mask encephalopathy signs.
+
+Both are evidence level L5 (model prediction only) and are treated as hypothesis-level.
 
 ---
 
@@ -71,43 +77,52 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT (double-blind cross-over) | Acta Psychiatrica Scandinavica | Nitrazepam 5mg compared with triazolam 0.25mg in 26 geriatric inpatients; similar sleep quantity/quality and psychomotor performance between drugs |
-| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Cohort/Review | British Medical Journal | Nitrazepam (Mogadon) shown safe even in acute overdosage (up to 80 tablets, only drowsiness observed); double-blind trial found it as effective as butobarbitone as a hypnotic |
-| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | PK study | Clinical Pharmacokinetics | Review of the clinical pharmacokinetic profile of nitrazepam |
-| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Case report/Review | The British Journal of Psychiatry | Describes dependence associated with long-term nitrazepam (Mogadon) use |
-| [238826](https://pubmed.ncbi.nlm.nih.gov/238826/) | 1975 | Review | Drugs | Reviews hypnotic drug efficacy in the context of sleep physiology and pathology (REM/NREM cycling) |
-| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clinical Evidence | Up to 40% of adults experience insomnia; prevalence rises with age, with psychological stress and hyperarousal as key risk factors |
-| [7725291](https://pubmed.ncbi.nlm.nih.gov/7725291/) | 1995 | Review | Tidsskrift for den Norske Laegeforening | Reviews classification, diagnosis, and treatment approaches for insomnia |
-| [20467592](https://pubmed.ncbi.nlm.nih.gov/20467592/) | 2010 | Review | Drugs of Today | Notes that benzodiazepine and non-benzodiazepine hypnotics improve sleep induction and maintenance, with differing effects on slow-wave and REM sleep |
-| [4712500](https://pubmed.ncbi.nlm.nih.gov/4712500/) | 1973 | Descriptive | British Medical Journal | Early observational report on nitrazepam's effects |
-| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | Review | Drugs | Zolpidem review noting its hypnotic efficacy is comparable to benzodiazepines including nitrazepam, flurazepam, temazepam, and triazolam |
+| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT | Acta Psychiatr Scand | Double-blind crossover in 26 geriatric inpatients: nitrazepam 5 mg and triazolam 0.25 mg gave similar sleep quantity, quality and psychomotor performance |
+| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Other (double-blind trial) | Br Med J | Nitrazepam was as effective as butobarbitone as a hypnotic; acute overdose in 27 patients caused no untoward effects except drowsiness |
+| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Review | Clin Pharmacokinet | Review of nitrazepam pharmacokinetics |
+| [238826](https://pubmed.ncbi.nlm.nih.gov/238826/) | 1975 | Review | Drugs | Hypnotic drugs assessed against the physiology of REM and non-REM sleep |
+| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clin Evid | Insomnia in the elderly: up to 40% of adults affected, prevalence rising with age |
+| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | Review | Drugs | Zolpidem's hypnotic efficacy is generally comparable to benzodiazepines including nitrazepam |
+| [3281819](https://pubmed.ncbi.nlm.nih.gov/3281819/) | 1988 | Review | Drugs | Brotizolam improved sleep similarly to nitrazepam 2.5 and 5 mg |
+| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Review | CNS Drugs | Residual "hangover" effects of hypnotics and related accident risk |
+| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Case report | Br J Psychiatry | Nitrazepam (Mogadon) dependence |
+| [32724021](https://pubmed.ncbi.nlm.nih.gov/32724021/) | 2020 | Review | Med Lett Drugs Ther | Lemborexant, an orexin antagonist, as a newer insomnia option |
 
 ---
 
 ## Canada Market Information
 
-Nitrazepam is not currently marketed in Canada — no DIN records exist in the Health Canada database.
+| DIN | Product Name |
+|---------|------|
+| 511536 | MOGADON |
+| 511528 | MOGADON |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Note: this evidence pack flags Canadian labeling warnings/contraindications and DDI data as outstanding data gaps — see Conclusion below.)
+No package insert warnings, contraindications or drug interaction data are available in the Evidence Pack. Please refer to the package insert for safety information.
+
+The published literature raises these points:
+- **Dependence and withdrawal**: reported with nitrazepam use (PMID 1125532).
+- **Next-day sedation**: the long half-life can cause residual daytime impairment and accident risk (PMID 15089115).
+- **Elderly patients**: falls and cognitive risk are a particular concern, so use should be short-term only.
+- **Alternatives**: newer agents such as orexin antagonists exist (PMID 32724021).
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (sleep disorder, initiating and maintaining sleep). The other two predicted indications are **Hold**.
 
 **Rationale:**
-The mechanistic link between nitrazepam's GABA-A agonism and insomnia is well-established pharmacologically and supported by one RCT plus a body of literature spanning five decades, justifying evidence level L2. However, the complete absence of Canadian market authorization, safety labeling, and DDI data means this cannot proceed without further regulatory and safety work.
+The hypnotic use is supported by a published double-blind RCT, comparative trials and decades of clinical experience. However, the evidence is old and small, and there are no registered trials. The apparent "repurposing" is largely a known use, and the dependence, residual sedation and elderly-safety concerns require strict guardrails. The encephalopathy and Wernicke-Korsakoff predictions rest on knowledge-graph inference alone.
 
 **To proceed, the following is needed:**
-- Canadian (or comparable jurisdiction) product labeling — key warnings, contraindications, and dosing guidance (currently a Blocking data gap)
-- Formal drug interaction (DDI) profile
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent primary source
-- A regulatory pathway assessment given the drug currently holds zero DINs in Canada
+- Health Canada package insert warnings and contraindications (currently blocking safety screening)
+- Mechanism of action data from DrugBank
+- Confirmation of the approved indication, dosage form and manufacturer for both Mogadon licenses
+- A short-term-use and elderly-patient safety plan, with comparison against newer hypnotics
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

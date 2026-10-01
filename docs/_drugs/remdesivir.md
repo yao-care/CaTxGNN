@@ -2,7 +2,7 @@
 layout: default
 title: Remdesivir
 parent: Model Prediction Only (L5)
-nav_order: 673
+nav_order: 794
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack as given — the top-ranked prediction (rank 1, "multiple endocrine neoplasia") has zero supporting evidence and the rationale itself flags it as a likely false positive, so the report reflects that honestly rather than dressing it up.
-
-# Remdesivir: From Antiviral Therapy (COVID-19/Ebola) to Multiple Endocrine Neoplasia
+# Remdesivir: From COVID-19 to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-> Remdesivir is a nucleotide-analog RNA-dependent RNA polymerase (RdRp) inhibitor originally developed for Ebola virus disease and later authorized internationally for COVID-19 treatment.
-> The TxGNN model assigns a high score (**99.50%**) to **Multiple Endocrine Neoplasia (MEN)** as a candidate new indication,
-> but this is **not supported by any clinical trials or literature** — the model's own rationale flags it as a probable false positive arising from knowledge-graph embedding similarity rather than biological plausibility.
+Remdesivir is an antiviral drug, and the evidence pack's own trials and literature describe its use for COVID-19. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, a hereditary endocrine tumour syndrome. There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not present in Canadian licensing data (drug not marketed in Canada); internationally known as an antiviral for Ebola virus disease and COVID-19 (SARS-CoV-2) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 99.50% (rank 9240) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Original Indication | COVID-19 (taken from the trial and literature context; the Health Canada licence record has no indication text) |
+| Predicted New Indication | Multiple endocrine neoplasia |
+| TxGNN Prediction Score | 99.50% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action data was not retrievable for this evaluation. Based on publicly established pharmacology, remdesivir is a nucleotide analog prodrug that inhibits the RNA-dependent RNA polymerase (RdRp) of RNA viruses (e.g., Filoviridae, Coronaviridae), blocking viral genome replication. Its proven efficacy is in acute viral infections such as COVID-19.
+Remdesivir is a nucleotide analog prodrug that inhibits viral RNA-dependent RNA polymerase. Detailed mechanism-of-action data from DrugBank are not currently available, so this description comes from the evidence pack's mechanistic notes.
 
-Multiple endocrine neoplasia (MEN) is a hereditary endocrine tumor syndrome driven by germline mutations in genes such as *RET* (MEN2) or *MEN1*, with a pathophysiology centered on tumor suppressor/oncogene signaling in endocrine tissue — entirely unrelated to viral RNA replication. There is no known or plausible mechanistic pathway connecting RdRp inhibition to MEN prevention or treatment.
+Multiple endocrine neoplasia is a hereditary tumour syndrome driven by host genetic mutations, not by a virus. No plausible link exists between inhibiting a viral polymerase and treating this disease. The high TxGNN score (0.995) reflects a pattern in the knowledge graph, not a biological rationale.
 
-The evidence pack's own rationale for this candidate states this directly: the high TxGNN score most likely reflects a knowledge-graph embedding artifact rather than a genuine biological signal, and no clinical trials, literature, or mechanistic studies exist to support it. This prediction should be treated as a **low-confidence, unvalidated model output**, not a credible repurposing lead.
+The mechanistic review of the other top-ranked predictions reached the same conclusion:
+- **HIV, feline AIDS and simian immunodeficiency virus infection:** these are retroviral infections that depend on reverse transcriptase, not on the RdRp that remdesivir targets.
+- **HIV trials and papers:** every retrieved item concerns COVID-19, not HIV, so the raw counts (23 trials, 20 papers) are retrieval artifacts and not evidence.
+- **Cytomegalovirus:** CMV is a DNA virus, and the literature only describes co-infection with COVID-19.
+- **Leprosy:** the retrieved papers show clofazimine, a leprosy drug, acting against coronaviruses. That is the reverse direction.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-Remdesivir currently has no Canadian licenses on record (0 DINs, market status: Not Marketed). No product/dosage-form/indication data is available to tabulate.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2502143 | VEKLURY | Not listed | Not listed |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Multiple Endocrine Neoplasia) has no clinical, literature, or mechanistic support, and the model's own reasoning identifies it as a likely false positive from graph-embedding similarity rather than a real pharmacological signal. No further action is warranted on this candidate at this time.
+The prediction has no clinical trials, no literature, and no mechanistic link to remdesivir's antiviral action. The high TxGNN score alone is not enough to justify further investment. The other top-ranked predictions are also unsupported or based on mismatched COVID-19 evidence.
 
 **To proceed, the following is needed:**
-- Confirmed DrugBank mechanism-of-action data for remdesivir (currently a data gap)
-- Any preclinical or mechanistic rationale specifically linking RdRp inhibition to MEN-associated tumor pathways, if one is ever proposed
-- TFDA/Health Canada labeling data (warnings, contraindications, DDI) before any safety-stage review can begin
-- Note: other candidates in this same batch (e.g., ranked #2 HIV, #8 leprosy, #10 CMV) returned clinical trial/literature hits, but on inspection nearly all of that retrieved evidence is actually about remdesivir's already-known COVID-19 use (or, in the leprosy case, about an unrelated anti-leprosy drug repurposed *for* COVID-19) rather than genuine evidence for the disease label assigned — worth flagging as a possible disease-mapping/retrieval issue in the pipeline before trusting evidence counts at face value for this drug.
+- Health Canada product monograph (warnings and contraindications) and the licensed indication text
+- Detailed mechanism-of-action data from DrugBank
+- A disease-specific biological rationale linking remdesivir to multiple endocrine neoplasia
+- A disease-specific search for trials and literature that is not confounded by drug-name matches
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

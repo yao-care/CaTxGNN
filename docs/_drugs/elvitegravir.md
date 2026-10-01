@@ -2,7 +2,7 @@
 layout: default
 title: Elvitegravir
 parent: Model Prediction Only (L5)
-nav_order: 275
+nav_order: 322
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,33 +33,33 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Elvitegravir is a human immunodeficiency virus integrase strand transfer inhibitor (INSTI), originally developed as part of combination antiretroviral therapy for the treatment of HIV-1 infection in adults.
-The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome (Feline AIDS)**,
-with **0 clinical trials** and **0 publications** currently supporting this specific direction.
+Elvitegravir is an HIV-1 integrase inhibitor sold in Canada as part of combination antiretroviral products. The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV infection)**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. It is a model prediction only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (integrase strand transfer inhibitor, combination ART) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
+|------|------|
+| Original Indication | HIV-1 infection (the license records provided contain no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this Evidence Pack. Based on known pharmacological classification, elvitegravir is an integrase strand transfer inhibitor (INSTI) that blocks HIV-1 replication by preventing the strand transfer step — the covalent insertion of reverse-transcribed viral DNA into the host cell genome. This mechanism is specific to lentiviral integrase enzymes.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, elvitegravir is an HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome, and this is its established use in HIV-1 treatment.
 
-Feline Acquired Immunodeficiency Syndrome is caused by Feline Immunodeficiency Virus (FIV), a lentivirus belonging to the same *Retroviridae* family as HIV-1. Because both FIV and HIV-1 encode a structurally related integrase enzyme, there is a theoretical basis for cross-species INSTI activity — the knowledge graph underlying TxGNN likely captures this shared lentiviral biology as an association signal.
+Feline immunodeficiency virus (FIV) is also a lentivirus and encodes its own integrase enzyme. Mechanistically, a drug that blocks HIV-1 integrase could plausibly act on FIV. The very high TxGNN score most likely reflects the drug's closeness to other retroviral-disease nodes in the knowledge graph. It is not evidence that elvitegravir inhibits FIV integrase or FIV replication.
 
-However, this link remains at the level of structural analogy and graph topology inference. No in vitro studies, animal experiments, or clinical data have verified elvitegravir's actual inhibitory activity or effective concentrations against FIV. In contrast, the second-ranked TxGNN prediction — Simian Immunodeficiency Virus (SIV) infection — carries 7 supporting publications documenting direct INSTI activity against SIV strains, making that indication far better characterized. The feline AIDS prediction should currently be treated as a hypothesis requiring primary biological validation.
+No trials or publications were provided for this indication. FIV is also a veterinary disease, while the Canadian licenses listed here are for human products. The prediction is therefore a hypothesis only.
+
+**Related finding:** The second-ranked prediction, simian immunodeficiency virus (SIV) infection, has 7 preclinical publications, mainly in vitro integrase-inhibitor susceptibility and resistance studies and macaque or mouse models. It is still indirect evidence and does not support a human clinical indication. Some of these papers may test other integrase inhibitors rather than elvitegravir, and this could not be confirmed from the truncated titles.
 
 ---
 
@@ -73,21 +73,20 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
-> **Note:** For the second-ranked prediction (Simian Immunodeficiency Virus infection, TxGNN score 99.89%, Evidence Level L3), 7 preclinical publications are available, including NHP macaque models and in vitro resistance mapping studies. If the clinical focus shifts toward SIV-related veterinary or translational research, that evidence base should be reviewed separately.
-
 ---
 
 ## Canada Market Information
 
-Elvitegravir is not currently authorized for sale in Canada. No Drug Identification Numbers (DINs) have been issued by Health Canada.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2449498 | GENVOYA | Not listed | Not listed |
+| 2397137 | STRIBILD | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> Safety data (key warnings, contraindications, and drug interactions) were not retrieved in this Evidence Pack. Full prescribing information should be consulted before any clinical or research application.
 
 ---
 
@@ -96,16 +95,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This prediction is based solely on the TxGNN model with no supporting clinical trials or published preclinical data specific to FIV, and elvitegravir has no market authorization in Canada — making clinical translation premature at this stage.
+The prediction rests on the model score and a plausible lentiviral-integrase similarity. No trials, literature, or mechanistic data show that elvitegravir acts against FIV. The indication is veterinary, and the available Canadian licenses are for human combination products.
 
 **To proceed, the following is needed:**
-- In vitro studies confirming elvitegravir's antiviral activity against FIV integrase (EC₅₀ against FIV strains)
-- Species-specific pharmacokinetic data in cats, including oral bioavailability and CNS penetration
-- Safety and tolerability assessment in feline species (hepatic/renal metabolism differs substantially from humans)
-- Identification of an appropriate veterinary dosage form and administration route
-- Retrieval of complete mechanism of action data from DrugBank (currently pending — DG002)
-- Full safety profile from the Health Canada or FDA package insert (currently pending — DG001)
-- Cross-review of the SIV infection evidence base (L3, 7 publications) to determine whether the non-human primate model provides a relevant mechanistic bridge
+- In vitro data showing elvitegravir inhibits FIV integrase or FIV replication
+- Mechanism of action data (MOA) and the original approved indication text from Health Canada
+- Package insert warnings and contraindications from Health Canada
+- A veterinary regulatory and formulation assessment, since the current licenses are for human products
+- Confirmation of which SIV-related papers actually test elvitegravir, if the SIV research-model question is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

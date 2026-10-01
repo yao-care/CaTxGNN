@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Model Prediction Only (L5)
-nav_order: 191
+nav_order: 217
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,77 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# COBICISTAT: From HIV-1 Treatment (Pharmacokinetic Booster) to Simian Immunodeficiency Virus Infection
+# Cobicistat: From HIV-1 Pharmacokinetic Boosting to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Cobicistat is a selective CYP3A inhibitor used as a pharmacokinetic (PK) booster within combination antiretroviral regimens for HIV-1 infection — it has no intrinsic antiviral activity of its own.
-The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This high-scoring prediction appears to reflect graph-based proximity between HIV-1 and SIV in the knowledge graph rather than any direct pharmacological evidence.
-
----
+Cobicistat is a CYP3A inhibitor used as a pharmacokinetic booster in HIV-1 antiretroviral combination products.
+The TxGNN model predicts it may be relevant to **simian immunodeficiency virus infection**, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (as a PK booster in combination antiretroviral therapy) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
+|------|------|
+| Original Indication | Pharmacokinetic booster in HIV-1 antiretroviral combinations (the Canadian licence records provide no indication text) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacological knowledge, cobicistat is a mechanism-based, selective inhibitor of CYP3A4 and CYP3A5. It does not possess intrinsic antiviral activity; rather, it functions purely as a pharmacokinetic enhancer — slowing the hepatic and intestinal metabolism of co-administered antiretroviral drugs (such as protease inhibitors and integrase strand transfer inhibitors) to increase their plasma exposure. It is approved as a component of fixed-dose combinations including elvitegravir/cobicistat/emtricitabine/tenofovir (Stribild, Genvoya) and darunavir/cobicistat (Prezcobix, Symtuza).
+Detailed mechanism of action data is not available in the Evidence Pack. Cobicistat is a mechanism-based CYP3A inhibitor. It has no antiviral activity of its own. It raises the exposure of co-administered antiretrovirals such as elvitegravir, darunavir and atazanavir.
 
-Simian Immunodeficiency Virus (SIV) is a lentivirus infecting non-human primates and is evolutionarily closely related to HIV-1, sharing the same viral family (Retroviridae: Lentivirus), CD4+ T cell tropism, and reverse transcriptase-dependent replication pathway. In the TxGNN knowledge graph, SIV and HIV-1 therefore share multiple high-weight neighboring nodes, which likely explains why the model assigns cobicistat a high prediction score for SIV — the graph proximity algorithm propagates cobicistat's HIV-1 association directly to SIV through these shared nodes.
+SIV is a lentivirus closely related to HIV-1. The high score most likely reflects proximity to HIV-1 therapeutics in the knowledge graph, not a direct effect on SIV. Any benefit in SIV would depend on a co-administered antiretroviral that is active against it. No SIV-specific preclinical or clinical evidence was provided.
 
-However, this mechanistic link is indirect and structurally weak. Cobicistat's entire therapeutic rationale rests on human hepatic CYP3A pharmacokinetics; whether CYP3A inhibition provides analogous PK boosting in non-human primate species — whose CYP enzyme profiles differ meaningfully from humans — has not been established. Furthermore, SIV infection is a veterinary and preclinical animal-model disease, not a human clinical target, making direct clinical translation uncertain at best.
-
----
+The other two predictions are weaker:
+- **Feline acquired immunodeficiency syndrome (FIV):** This is a veterinary lentiviral disease, not a human indication. The reasoning is the same as for SIV.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter:** No plausible mechanistic link can be identified. The score (about 99.91%) may be an artifact of sparse disease annotation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Cobicistat is not currently marketed in Canada as a standalone product (0 DINs on record). No Health Canada drug identification numbers are registered for cobicistat in this dataset. Note that cobicistat-containing fixed-dose combination products (e.g., Stribild, Genvoya, Prezcobix) may hold separate DINs under their combination brand names, which are not captured here.
+| DIN | Product Name |
+|---------|------|
+| 2426501 | PREZCOBIX |
+| 2473720 | SYMTUZA |
+| 2449498 | GENVOYA |
+| 2397137 | STRIBILD |
 
----
+Dosage form and approved indication text were not provided for these licences.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+The Evidence Pack contains no drug interaction records. Because cobicistat inhibits CYP3A, any use alongside other drugs requires an interaction review against the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN score (99.92%), this prediction is an artefact of graph-based proximity between HIV-1 and SIV rather than a genuine pharmacological signal — cobicistat has no antiviral activity, SIV is an animal disease rather than a human clinical indication, and there is zero supporting clinical or literature evidence.
+The prediction rests only on the model score (L5). Cobicistat has no intrinsic antiviral activity, and there are no SIV-specific trials or publications. The FIV prediction is veterinary, and the neurodevelopmental prediction has no identifiable mechanistic link.
 
 **To proceed, the following is needed:**
-- **Mechanistic clarification**: Determine whether any SIV-active antiviral agents are CYP3A substrates that could plausibly benefit from cobicistat-mediated PK boosting in non-human primates
-- **Non-human primate PK data**: Assess whether CYP3A inhibition by cobicistat translates to meaningful exposure enhancement in macaque or other relevant species
-- **MOA data retrieval**: Obtain full DrugBank MOA record (currently unavailable) to enable complete mechanism-based evaluation
-- **Regulatory pathway assessment**: Cobicistat is not marketed in Canada; any standalone regulatory submission pathway would need to be scoped before clinical application could be considered
-- **Reconsideration of indication target**: Given cobicistat's role as a booster, repurposing evaluation should focus on human diseases where CYP3A substrate drugs are underexposed, rather than novel disease indications driven solely by graph proximity
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- SIV-specific preclinical evidence for cobicistat combined with an active antiretroviral
+- Indication text and dosage forms for the four Canadian licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

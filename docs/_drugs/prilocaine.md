@@ -2,7 +2,7 @@
 layout: default
 title: Prilocaine
 parent: Model Prediction Only (L5)
-nav_order: 648
+nav_order: 762
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,70 +33,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Prilocaine is an amide-type local anesthetic, most widely known as a component of regional nerve blocks and topical anesthetic preparations (e.g., combined with lidocaine in EMLA cream). The TxGNN model predicts it may be effective for **Papillary Conjunctivitis**, but this specific prediction is currently supported by **no clinical trials** and **no published literature**, making it the weakest-evidenced candidate among the drug's top 10 predicted indications.
-
----
+Prilocaine is an amide local anesthetic, marketed in Canada in dental injections, a topical cream and an oral gel.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **0 clinical trials** and **0 publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — Prilocaine has no licensed products in Canada, so no approved indication text is on file |
-| Predicted New Indication | Papillary Conjunctivitis |
+| Original Indication | Local anesthesia (inferred from product types; approved indication text is not available in the Canadian records) |
+| Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| Canada Market Status | Not marketed (Not Marketed) |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Prilocaine is an amide-type local anesthetic, used alone via injection for regional/nerve block anesthesia or combined with lidocaine (as in EMLA cream) for topical anesthesia. Its efficacy in local anesthesia and pain blockade is well established across dental, dermatologic, and minor surgical procedures.
+Currently, detailed mechanism of action data is not available. Based on known information, prilocaine is a local anesthetic that is used in dental injections and in the lidocaine/prilocaine (EMLA) cream. It is generally understood to block voltage-gated sodium channels and so dampen nerve firing.
 
-Papillary conjunctivitis is an inflammatory/allergic ocular surface condition characterized by itching, irritation, and papillae formation on the palpebral conjunctiva, often driven by mast-cell and sensory nerve activation. A plausible — though currently unproven — mechanistic rationale is that local anesthetics can dampen sensory afferent signaling and reduce the itch/irritation response, similar to how prilocaine-containing preparations are used to blunt pain and hypersensitivity in cutaneous conditions elsewhere in the evidence base for this drug (e.g., allergic and neuropathic pain literature seen for other predicted indications).
+The only plausible link to papillary conjunctivitis is symptom relief. A topical anesthetic might ease discomfort on the ocular surface. This would not treat the underlying inflammatory or allergic process, so it is not a disease-modifying mechanism. No trials or publications were found to test the idea. The prediction is therefore a model output with no supporting evidence.
 
-However, this rationale is inferred from general pharmacology rather than direct evidence: no clinical trials, ICTRP records, or PubMed literature specific to prilocaine and papillary conjunctivitis were found. This prediction should be treated as a low-confidence, hypothesis-generating signal only.
-
----
+For context, other predictions for prilocaine are better supported than this top-ranked one. **Neuralgia** (score 99.34%, L3) has small, older reports of lidocaine/prilocaine cream in postherpetic neuralgia from 1989–1999. That evidence is for the combination product, not prilocaine alone. **Migraine** (L4) has nerve-block trials, but none clearly identifies prilocaine as the agent. Neuralgia is the more promising direction for follow-up.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Prilocaine currently has no marketed products or Drug Identification Numbers (DINs) in Canada (market status: Not Marketed, total licenses: 0).
+Dosage form and approved indication text are not available for these authorizations.
 
----
+| DIN | Product Name |
+|---------|------|
+| 2435276 | 4% Citanest Plain Dental |
+| 2325993 | Oraqix |
+| 2347695 | 4% Citanest Forte Dental with Epinephrine 1:200,000 |
+| 886858 | EMLA Cream |
+| 393746 | Prilocaine HCl 4% Epinephrine 1:200000 Injection |
+
+One further DIN is not listed above (6 in total).
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+Literature retrieved for other predicted indications reports serious events after topical EMLA (lidocaine/prilocaine) use on barrier-compromised skin. These include methemoglobinemia and seizures in a young child with atopic dermatitis, and purpura. Local anesthetic contact allergy, including to prilocaine, has also been reported. Any ocular or mucosal use would need separate safety assessment, because no ophthalmic product is among the Canadian authorizations.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.78%), the top-ranked indication (papillary conjunctivitis) has zero supporting clinical trials or literature (Evidence Level L5), and the drug is not currently marketed in Canada. Safety review is also blocked — product warnings and contraindications are a confirmed data gap (DG001, Blocking severity), which prevents any S1 safety initial assessment.
+The prediction rests on the model score alone. There are no trials or publications for papillary conjunctivitis, and the only plausible mechanism is symptomatic relief rather than treatment of the disease.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product monograph — warnings, contraindications, and precautions (DG001, blocking)
-- Confirmed mechanism of action data from DrugBank or equivalent source (DG002)
-- Targeted literature and clinical trial search specific to prilocaine in ophthalmic/allergic conjunctivitis applications, since none currently exist
-- Consider that lower-ranked candidates in this evidence pack — notably **neuralgia** (rank 5, 12 clinical trials, 20 publications) and **migraine disorder** (rank 4, 4 clinical trials, 1 publication) — have substantially stronger evidence bases and may be more actionable repurposing candidates than papillary conjunctivitis
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence for prilocaine in papillary conjunctivitis
+- Route compatibility assessment, since no ophthalmic formulation is currently authorized
+- Consideration of redirecting effort to neuralgia, which has the strongest supporting evidence among the predictions
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

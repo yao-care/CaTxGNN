@@ -2,15 +2,15 @@
 layout: default
 title: Ledipasvir
 parent: Moderate Evidence (L3-L4)
-nav_order: 451
-evidence_level: L3
+nav_order: 527
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ledipasvir
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,90 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# LEDIPASVIR: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# Ledipasvir: From Chronic Hepatitis C to Hepatitis B Virus Infection
 
 ## One-Sentence Summary
 
-Ledipasvir is an NS5A inhibitor marketed only as part of the Harvoni (ledipasvir/sofosbuvir) fixed-dose combination for chronic Hepatitis C virus (HCV) infection. The TxGNN model predicts it may also be effective for **Hepatitis B Virus (HBV) Infection**, with **21 clinical trials** and **20 publications** currently associated with this direction — though most of that evidence actually monitors HBV *reactivation risk* during HCV treatment rather than testing anti-HBV efficacy directly.
-
----
+Ledipasvir is a hepatitis C virus (HCV) antiviral, marketed in Canada as the fixed-dose combination HARVONI (ledipasvir/sofosbuvir).
+The TxGNN model predicts it may be useful for **hepatitis B virus infection**, and the pack lists **21 clinical trials** and **20 publications** for this pairing.
+Most of that evidence concerns treating HCV in patients who also have HBV, not treating HBV itself, so the evidence for a true new indication is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic Hepatitis C virus infection (as part of the Harvoni [ledipasvir/sofosbuvir] combination) |
-| Predicted New Indication | Hepatitis B Virus Infection |
+| Original Indication | Chronic hepatitis C (inferred from the HARVONI trial record; the Canadian licence entry has no indication text) |
+| Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L3 |
-| Canada Market Status | Not marketed (Not Marketed) |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed formal mechanism-of-action documentation for ledipasvir is not available in this evidence pack. Based on known pharmacology reflected in the underlying evidence base, ledipasvir is an inhibitor of the HCV NS5A protein, a component required for HCV replication-complex assembly. It has no established direct inhibitory activity against HBV polymerase or cccDNA formation — the two viruses belong to entirely different families (HCV: *Flaviviridae*; HBV: *Hepadnaviridae*) with distinct replication machinery.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Ledipasvir is known to inhibit the HCV NS5A protein, and it is used together with the NS5B polymerase inhibitor sofosbuvir. Its efficacy in chronic hepatitis C is well established. HBV and HCV both infect the liver and often occur together, which may explain why the knowledge graph links ledipasvir to HBV.
 
-The TxGNN signal for HBV most plausibly arises from network proximity rather than a shared drug target: HCV and HBV frequently co-occur in coinfected patients, and ledipasvir/sofosbuvir regimens have been extensively studied in HCV/HBV-coinfected populations — but primarily to monitor the risk of **HBV reactivation** during HCV treatment, not to test antiviral efficacy against HBV itself. The large trial and literature counts for this candidate are therefore driven mostly by safety-surveillance studies rather than efficacy studies.
+The mechanistic case is weak, however. HBV is a DNA virus that replicates through reverse transcription. It has no known NS5A counterpart, and no anti-HBV activity of ledipasvir is documented in the pack. The high score most likely reflects HCV/HBV co-occurrence in the knowledge graph rather than a shared drug target.
 
-One notable exception stands out: a small, open-label Phase 2 pilot (NCT03312023, n=21; published as PMID 36045503, 2023) directly tested ledipasvir/sofosbuvir's effect on HBsAg and HBV DNA decline in HBV-*monoinfected* subjects, motivated by a retrospective observation of modest HBsAg reduction in HCV/HBV-coinfected patients. This provides a genuine, if very preliminary, mechanistic rationale — but it is hypothesis-generating, not confirmatory. Notably, several other TxGNN-predicted indications for this drug (e.g., Hepatitis E, Hepatitis A, Omsk hemorrhagic fever, HIV, SIV, FIV) carry far weaker evidence (L4–L5, all "Hold"), reinforcing that this HBV signal — while comparatively better supported — still requires dedicated confirmatory study before it can be treated as a genuine repurposing lead.
-
----
+There is one small signal. A Phase 2 pilot in people with HBV alone (NCT03312023, 21 participants) tested the combination, because earlier retrospective data showed a modest drop in HBsAg in HBV/HCV coinfected patients. The pack does not include its results. Until they are reviewed, the prediction should be treated as a hypothesis.
 
 ## Clinical Trial Evidence
 
+The 21 trials matched to this prediction are mostly HCV studies. Only the trials below have a direct link to HBV or a large safety data set.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Completed | 21 | Open-label pilot directly testing ledipasvir/sofosbuvir in HBV-monoinfected subjects; primary endpoints were HBsAg and HBV DNA decline at Week 12 — the only trial testing direct anti-HBV efficacy |
-| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | Completed | 111 | LDV/SOF FDC for 12 weeks in HCV genotype 1/2 patients coinfected with HBV (Taiwan); HBV addressed as comorbidity, not primary endpoint |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Determines incidence/predisposing factors for HBV reactivation during DAA treatment of HCV/HBV coinfection |
-| [NCT02010255](https://clinicaltrials.gov/study/NCT02010255) | Phase 2 | Completed | 334 | LDV/SOF + ribavirin in advanced liver disease/post-liver-transplant HCV patients (genotype 1/4); HBV-related subgroup managed as comorbidity |
-| [NCT01938430](https://clinicaltrials.gov/study/NCT01938430) | Phase 2 | Completed | 339 | Same design as above, earlier cohort of advanced liver disease/post-transplant HCV patients |
-| [NCT01805882](https://clinicaltrials.gov/study/NCT01805882) | Phase 2 | Completed | 229 | Combination anti-HCV regimen pilot (GS-7977 + GS-5885/GS-9669/GS-9451); HCV-focused |
-| [NCT02421211](https://clinicaltrials.gov/study/NCT02421211) | Phase 2 | Completed | 41 | Pharmacokinetic interaction study of simeprevir + ledipasvir + sofosbuvir in treatment-naive HCV genotype 1 |
-| [NCT01384383](https://clinicaltrials.gov/study/NCT01384383) | Phase 2 | Terminated | 248 | GS-5885/GS-9451 + peginterferon/ribavirin in treatment-naive genotype 1 HCV with IL28B CC genotype |
-| [NCT02597166](https://clinicaltrials.gov/study/NCT02597166) | Phase 3 | Completed | 14 | Antiviral therapy effects on clinical status/survival in decompensated cirrhosis due to HCV genotype 1 |
-| [NCT01457768](https://clinicaltrials.gov/study/NCT01457768) | N/A | Completed | 570 | Long-term registry of HCV patients who failed to achieve sustained virologic response on Gilead OAVs |
+| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Completed | 21 | Open-label ledipasvir/sofosbuvir for 12 weeks in HBV infection. It tests HBsAg and HBV DNA decline; results are not in the pack. |
+| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Phase 3 | Completed | 111 | Ledipasvir/sofosbuvir for 12 weeks in Taiwanese adults with HCV genotype 1 or 2 and HBV coinfection. It tests HCV efficacy and safety, so it is not an HBV efficacy test. |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Direct-acting antivirals in HCV/HBV coinfection. HCV cure is the main goal, and HBV reactivation is tracked as a safety outcome. |
+| [NCT02768961](https://clinicaltrials.gov/study/NCT02768961) | Phase 4 | Completed | 64 | Prison screening and interferon-free HCV treatment programme. It also screens for HBV and HIV, but does not test HBV treatment. |
+| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Completed | 33,808 | Large observational safety comparison of direct-acting antivirals in HCV patients against untreated patients. It gives general safety data only. |
+| [NCT01805882](https://clinicaltrials.gov/study/NCT01805882) | Phase 2 | Completed | 229 | Pilot of anti-HCV combinations including a ledipasvir-type NS5A inhibitor. The link to HBV is at most coinfection. |
 
----
+The other 15 listed trials are HCV studies (different populations, retreatment, registries) with no HBV endpoint.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Phase 2 open-label trial | J Med Virol | Direct test of LDV/SOF effect on HBsAg/HBV DNA decline in HBV-monoinfected subjects — the only study targeting HBV as primary endpoint |
-| [34864948](https://pubmed.ncbi.nlm.nih.gov/34864948/) | 2022 | Cohort (108-wk follow-up) | Clin Infect Dis | HBV reactivation monitoring in Taiwan HCV/HBV coinfected patients treated with LDV/SOF |
-| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Cohort | J Clin Gastroenterol | Examines risk of HBV reactivation among patients treated with LDV/SOF for HCV |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Cohort | J Viral Hepat | HBV reactivation risk in cancer patients receiving DAAs for HCV, HBV/HCV coinfected |
-| [27486112](https://pubmed.ncbi.nlm.nih.gov/27486112/) | 2016 | Cohort | Clin Infect Dis | No evidence of HBV reactivation in Taiwan/Korea cohort (n=173) treated with LDV/SOF for HCV |
-| [29174546](https://pubmed.ncbi.nlm.nih.gov/29174546/) | 2018 | Prospective study | Gastroenterology | Prospective assessment of risks/outcomes of LDV/SOF for HCV in HBV-infected patients |
-| [27367295](https://pubmed.ncbi.nlm.nih.gov/27367295/) | 2016 | Pilot study | Antiviral Therapy | LDV/SOF suppresses HCV infection in HBV-coinfected patients (all-oral regimen feasibility) |
-| [37254310](https://pubmed.ncbi.nlm.nih.gov/37254310/) | 2024 | In silico modeling | J Biomol Struct Dyn | Molecular docking of antiviral compounds against HBx protein — not ledipasvir-specific |
-| [30982721](https://pubmed.ncbi.nlm.nih.gov/30982721/) | 2019 | Review | Lancet Gastroenterol Hepatol | General review of HCV infection in children/adolescents; background context, not HBV-specific |
-| [39497846](https://pubmed.ncbi.nlm.nih.gov/39497846/) | 2024 | pending | Frontiers in Medicine | HCV treatment delivery models for people who inject drugs in Kenya; not HBV-related |
-
----
+| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Phase 2 open-label | J Med Virol | Tests whether ledipasvir/sofosbuvir lowers HBsAg (primary) and HBV DNA (secondary) at week 12 in HBV mono-infection. The abstract excerpt gives no results. |
+| [27367295](https://pubmed.ncbi.nlm.nih.gov/27367295/) | 2016 | Cohort/Clinical study | Antivir Ther | Pilot study of whether the combination suppresses HCV in HBV-coinfected patients. |
+| [29174546](https://pubmed.ncbi.nlm.nih.gov/29174546/) | 2018 | Prospective study | Gastroenterology | Prospective study of risks and outcomes when HCV in HBV-infected patients is treated with ledipasvir/sofosbuvir. HBV reactivation was the main safety question. |
+| [34864948](https://pubmed.ncbi.nlm.nih.gov/34864948/) | 2022 | Follow-up study | Clin Infect Dis | Taiwanese HCV/HBV coinfected patients followed for 108 weeks after treatment to assess HBV reactivation. |
+| [27486112](https://pubmed.ncbi.nlm.nih.gov/27486112/) | 2016 | Cohort | Clin Infect Dis | Of 173 patients in Taiwan and Korea, 103 had prior HBV infection. None showed HBV reactivation. |
+| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Cohort | J Clin Gastroenterol | Examines the risk of HBV reactivation during or after direct-acting antiviral treatment in actively or previously infected patients. |
+| [29194858](https://pubmed.ncbi.nlm.nih.gov/29194858/) | 2018 | Cohort | J Viral Hepat | 25 HBV-coinfected and 765 resolved-HBV patients on direct-acting antivirals. The title reports a low incidence of HBV reactivation and subsequent hepatitis. |
+| [28585404](https://pubmed.ncbi.nlm.nih.gov/28585404/) | 2017 | Prospective cohort | Hepatol Res | Japanese cohort analysing how often HBV reactivation occurs, and its risk factors, in HCV patients on all-oral direct-acting antivirals. |
+| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospective observational | J Viral Hepat | Prospective study of HBV reactivation during direct-acting antiviral therapy in cancer patients with HBV/HCV coinfection. |
+| [37254310](https://pubmed.ncbi.nlm.nih.gov/37254310/) | 2024 | In silico | J Biomol Struct Dyn | Docking and molecular dynamics screening of antiviral compounds against the HBx protein. Computational only, so hypothesis-generating. |
 
 ## Canada Market Information
 
-Ledipasvir is currently **not marketed** (Not marketed) with 0 DINs/licenses on file — there is no product listing available to summarize.
+| DIN | Product Name |
+|---------|------|
+| 2432226 | HARVONI |
 
----
+The licence record has no dosage form, manufacturer or approved indication text.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+- **Package insert data:** Warnings and contraindications are not in the Evidence Pack. Please refer to the Health Canada product monograph.
+- **HBV reactivation:** Reactivation of HBV has been reported in patients treated with direct-acting antivirals for HCV, including ledipasvir/sofosbuvir. Reported rates vary between studies, and some cohorts saw none. This is a safety signal, not a therapeutic effect, and it matters for any use of the drug in HBV-infected patients.
+- **Drug interactions:** The drug-interaction query returned nothing. Other evidence in the pack notes that ledipasvir/sofosbuvir can raise tenofovir exposure, which is relevant because tenofovir is a mainstay of HBV therapy.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Regulatory safety labeling (warnings/contraindications) is a blocking data gap (DG001) that prevents any Stage S1 safety screening, and the bulk of the "HBV" evidence base is actually HBV-reactivation surveillance during HCV treatment rather than direct anti-HBV efficacy data. Only one small (n=21) Phase 2 pilot has directly tested antiviral activity against HBV, and the drug is not currently marketed in Taiwan/Canada.
+Ledipasvir has no documented anti-HBV mechanism, and nearly all supporting evidence is HCV treatment in HBV-coinfected patients, where HBV reactivation is the main concern. The single HBV-specific Phase 2 study (21 participants) has no results in the pack, so the high TxGNN score is not yet backed by efficacy data.
 
 **To proceed, the following is needed:**
-- Full TFDA/Health Canada product labeling (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism-of-action documentation (DG002)
-- Primary efficacy results from NCT03312023 (HBsAg/HBV DNA decline)
-- Clear separation of "HBV reactivation risk" evidence from genuine "anti-HBV efficacy" evidence across the literature, since most sources conflate the two
-- If evidence remains supportive, a dedicated HBV-monoinfection efficacy trial with virologic endpoints
+- Results of the Phase 2 HBV mono-infection study (NCT03312023 and PMID 36045503): HBsAg and HBV DNA change, and durability.
+- Laboratory data showing whether ledipasvir alone has any anti-HBV activity, so the contribution of ledipasvir can be separated from that of sofosbuvir.
+- The Health Canada product monograph warnings and contraindications (blocking data gap DG001), especially on HBV reactivation and interactions with HBV antivirals such as tenofovir.
+- Mechanism of action data from DrugBank (data gap DG002).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

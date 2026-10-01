@@ -2,7 +2,7 @@
 layout: default
 title: Octinoxate
 parent: Model Prediction Only (L5)
-nav_order: 571
+nav_order: 669
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Octinoxate: From No Approved Therapeutic Indication to Osteoarthritis
+# Octinoxate: From Sun Protection (UV Filter) to Osteoarthritis
 
 ## One-Sentence Summary
 
-Octinoxate (octyl methoxycinnamate) is a chemical UV-B absorber used in sunscreen and cosmetic formulations — it has no approved therapeutic indication and is not marketed as a drug in this jurisdiction. The TxGNN model predicts a possible link to **Osteoarthritis** with a very high similarity score, but this prediction is currently backed by **0 clinical trials** and **0 publications**, and the drug's mechanism of action is unknown.
+Octinoxate is a topical UVB-filter cinnamate ester, found in sunscreen and cosmetic products marketed in Canada.
+The TxGNN model predicts it may be effective for **osteoarthritis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it is a model-only signal.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | None on record — Octinoxate is a cosmetic-grade UV filter, not a marketed therapeutic drug |
+| Original Indication | Not listed in the Canadian licence records; used as a UVB sunscreen filter in topical products |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.93% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for Octinoxate (`[Data Gap]`). What is known is that Octinoxate is a chemical UV-B absorber used exclusively in sunscreen and cosmetic products — it has no established pharmacological role in human disease treatment, and no original therapeutic indication exists for comparison.
+Currently, detailed mechanism of action data is not available. Octinoxate is a topical UVB-filter cinnamate ester with low systemic exposure. Its established role is photoprotection of the skin, and no pathway to cartilage or joint inflammation has been established.
 
-Because there is no known MOA and no prior therapeutic use, there is no mechanistic bridge connecting Octinoxate to osteoarthritis, an inflammatory/degenerative joint disease. The TxGNN score of 98.93% reflects graph-embedding similarity within the knowledge graph, not a validated biological or pharmacological pathway.
+The high TxGNN score reflects a knowledge-graph prediction only. The other top predictions are mostly skeletal or joint conditions (osteoarthritis susceptibility, rheumatoid arthritis, pseudoachondroplasia, gout, brachyolmia and others), which suggests the model is picking up a shared graph neighbourhood rather than a pharmacological link. A small-molecule UV filter has no plausible way to modify genetic susceptibility or rare monogenic skeletal dysplasias.
 
-This concern is reinforced by the broader prediction set: all 10 top-ranked TxGNN candidates for this drug — spanning osteoarthritis, rheumatoid arthritis, gout, and several rare skeletal dysplasias (e.g., pseudoachondroplasia, brachyolmia, acromesomelic dysplasia) — carry similarly high scores but zero clinical trials or literature support across every one of them. This pattern is more consistent with a node in the knowledge graph that sits near several musculoskeletal-disease clusters by embedding proximity, rather than a true drug-repurposing signal.
+The one prediction with a conceptual angle is hepatic porphyria, where photoprotection might ease skin photosensitivity symptoms. Even that would be symptomatic rather than disease-modifying. Octinoxate absorbs mainly UVB, whereas porphyrin photosensitivity is driven largely by visible light, so protection would be limited.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-Octinoxate is not currently marketed in this jurisdiction (0 licenses on record), so no product/DIN information is available.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2457458 | LISE WATIER CC CREME FPS 25 SPF | Not listed | Not listed |
+| 2387018 | TRUE MATCH LUMI | Not listed | Not listed |
+| 2404842 | ANTI-AGING COMPLEX EYE TREATMENT BROAD SPECTRUM SPF 15 | Not listed | Not listed |
+| 2306441 | FLAWLESS EFFECT LIQUID FOUNDATION BROAD SPECTRUM SPF 15 | Not listed | Not listed |
+| 2355302 | PREVAGE ANTI-AGING EYE CREAM SPF 15 | Not listed | Not listed |
+
+Five of the 20 authorisations are shown. All are topical cosmetic or sun-protection products.
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Note: a TFDA-equivalent labeling/warnings review is currently blocked — see "To proceed" below.)*
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a TxGNN graph-similarity score with no clinical trial, literature, mechanistic, or market-authorization support — evidence level L5 and decision stage S0 for all 10 top candidate indications. Additionally, a blocking safety data gap (label warnings/contraindications) prevents even an initial S1 safety screen.
+The prediction rests only on a knowledge-graph score. No clinical trials or publications support it, and no mechanism links a topical UVB filter to osteoarthritis or any other predicted condition. The product is also a low-systemic-exposure topical agent, so route compatibility with joint disease is unresolved.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for Octinoxate
-- Official label warnings/contraindications (currently a Blocking data gap, DG001)
-- Independent literature or preclinical evidence linking Octinoxate to osteoarthritis or related musculoskeletal pathways
-- Clarification of regulatory/toxicology status, given Octinoxate's current use is cosmetic rather than therapeutic
+- Mechanism of action data (for example from DrugBank) to test any biological link to cartilage or joint inflammation
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Route and exposure compatibility assessment, since current products are topical with minimal systemic absorption
+- Preclinical or published evidence for at least one predicted indication before reconsidering
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

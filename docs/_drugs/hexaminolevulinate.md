@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hexaminolevulinate
-parent: Moderate Evidence (L3-L4)
-nav_order: 380
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 446
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hexaminolevulinate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,91 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Hexaminolevulinate: From Fluorescence Diagnosis of Bladder Cancer to Detection of Colonic Neoplasm
-
-> **Candidate Selection Explanation**: This Evidence Pack presents 10 predicted indications for Hexaminolevulinate (HAL) by TxGNN, but only **Colonic Neoplasm** has substantial clinical trial evidence (Decision Stage S1). Although the highest-ranked bronchitis (score 0.9906) has the highest score, the model's own mechanistic reasoning has been clearly noted as "false positive caused by TxGNN graph noise or indirect node connections" and lacks any clinical or literature evidence, making further investigation not recommended. Therefore, this report focuses on Colonic Neoplasm as the primary assessment target, with the remaining 8 low-evidence candidates summarized in the appendix table at the end for reference.
+# Hexaminolevulinate: From Bladder Cancer Detection to Bronchitis
 
 ## One-Sentence Summary
 
-> Hexaminolevulinate (HAL) is a fluorescence contrast agent whose approved use is for photodynamic diagnosis (PDD) via cystoscopy to detect bladder cancer lesions.
-> The TxGNN model predicts it may be applicable to fluorescent endoscopic detection of **colonic neoplasms**.
-> Currently **3 related clinical trials** (1 completed with 38 enrolled subjects) support this direction, however, there are no supporting literature reports yet.
+Hexaminolevulinate (marketed in Canada as CYSVIEW) is a photodiagnostic agent used for blue-light cystoscopy in bladder cancer.
+The TxGNN model's top-ranked prediction is **bronchitis**, but **no clinical trials and no publications** support it, and no plausible mechanism links the drug to it.
+The best-supported prediction is actually **colonic neoplasm** (rank 2), as a diagnostic imaging use backed by **3 early-phase trials**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original indication | Fluorescence imaging diagnosis of bladder cancer (from mechanistic description in evidence; formal package insert/indication record pending, see DG002) |
-| Predicted new indication | Colonic Neoplasm |
-| TxGNN prediction score | 98.64% |
-| Evidence level | L3 |
-| Taiwan market status | Not marketed |
-| Number of licenses | 0 |
-| Recommended decision | Hold |
+|------|------|
+| Original Indication | Blue-light cystoscopy for bladder cancer (the licence indication text on file is empty; this comes from the drug's established use) |
+| Predicted New Indication | Bronchitis |
+| TxGNN Prediction Score | 99.06% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-DrugBank currently does not provide complete mechanism of action (MOA) data (data gap DG002, severity High). According to the mechanistic description provided in the repurposing_rationale of the evidence package: HAL is a precursor of protoporphyrin IX (PpIX), which after administration selectively accumulates in rapidly proliferating/neoplastic tissues, and upon blue light excitation produces red fluorescence, thereby assisting in endoscopic lesion detection—this is precisely the mechanistic principle of its approved cystoscopic photodynamic diagnosis (PDD).
+Detailed mechanism of action data is not available in the Evidence Pack. Hexaminolevulinate is a photodiagnostic prodrug. It is converted to protoporphyrin IX, which accumulates preferentially in neoplastic tissue and glows red under blue light. This selective fluorescence is what makes tumours easier to see during cystoscopy.
 
-Although colonic neoplasms and bladder cancer belong to different organ systems, they share common pathophysiological characteristics: both are epithelial rapidly proliferating/neoplastic tissues that in theory should have the same fluorescence imaging properties of selective PpIX accumulation. Therefore, extending HAL from "cystoscopic fluorescence diagnosis" to "colonoscopic fluorescence diagnosis" is a reasonable extrapolation mechanistically of "same diagnostic platform, different detection sites," rather than a hypothesis of entirely new pharmacological mechanism, and the mechanistic relevance is relatively strong.
+**For bronchitis, the prediction is not mechanistically supported.** Bronchitis is an inflammatory airway disease, and the drug's tumour-selective fluorescence has no evident relevance to it. The high score (0.991) is a model output only, with no trials or literature behind it.
 
-It is worth noting that this is an extension of **diagnostic application** rather than drug repurposing for therapeutic indication—HAL itself is not an antitumor therapeutic drug. Its potential new indication value lies in "assisting detection" rather than "treating" colonic neoplasms, and this distinction needs to be particularly noted in subsequent safety and clinical positioning assessment.
+**The more credible prediction is colonic neoplasm (rank 2, score 98.64%).** Protoporphyrin IX accumulation in neoplastic epithelium should also apply in the colon. This would be a diagnostic imaging use (fluorescence endoscopy), not a therapeutic one.
+
+Other predictions in the top 10:
+- **Indirect support, worth exploring:** cecum villous adenoma and rectosigmoid junction neoplasm are colonic epithelial lesions covered by the same fluorescence-imaging approach. No site-specific study exists.
+- **Likely model artifacts:** severe nonproliferative diabetic retinopathy, cecum neuroendocrine tumor G1, colonic lymphangioma, lipoma of colon, cecal disease and cavernous hemangioma of colon. These are non-epithelial or benign non-neoplastic conditions with no supporting evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
+**Bronchitis (top prediction):** Currently no related clinical trials registered.
+
+**Colonic neoplasm (best-supported alternative, rank 2):**
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|--------------|-------|--------|------------|-------------|
-| [NCT00285701](https://clinicaltrials.gov/study/NCT00285701) | Phase 1/2 | Completed | 38 | Local/oral administration of HAL prior to colonoscopy for sensitization; blue light excitation produces red fluorescence in polyps and tumors, improving lesion detection rate; also tested different doses to identify optimal visualization conditions and tolerability |
-| [NCT01344902](https://clinicaltrials.gov/study/NCT01344902) | Phase 1/2 | Terminated | 13 | Open-label dose-escalation study evaluating oral HAL fluorescence technology for detection in patients with suspected/high-risk colonic neoplasms; terminated after enrolling only 13 subjects, limiting result interpretation |
-| [NCT03272659](https://clinicaltrials.gov/study/NCT03272659) | Phase 2 | Withdrawn (enrollment failed, 0 enrolled) | 0 | Originally planned to evaluate the correlation between pathology of colorectal cancer surgical specimens after neoadjuvant chemoradiation and photodynamic fluorescence (HAL rectal instillation for sensitization); withdrawn due to enrollment failure with no substantive data generated |
+|---------|------|------|------|---------|
+| [NCT00285701](https://clinicaltrials.gov/study/NCT00285701) | Phase 1/2 | Completed | 38 | Dose-finding study of fluorescence endoscopy with local and oral hexaminolevulinate for early detection of pre-malignant and malignant colon conditions; the strongest and most direct evidence, but early-phase and diagnostic |
+| [NCT01344902](https://clinicaltrials.gov/study/NCT01344902) | Phase 1/2 | Terminated | 13 | Open dose-finding study of oral hexaminolevulinate imaging in patients with suspected or high-risk colon neoplasia; ended early, so evidence on safety and feasibility is limited |
+| [NCT03272659](https://clinicaltrials.gov/study/NCT03272659) | Phase 2 | Withdrawn | 0 | Pilot study correlating fluorescence with colorectal cancer specimen pathology using an HAL enema; withdrawn with no participants, so it yields no data |
 
 ---
 
 ## Literature Evidence
 
-Currently no relevant literature available for reference.
+Currently no related literature available.
 
 ---
 
-## Taiwan Market Information
+## Canada Market Information
 
-Hexaminolevulinate is currently **not marketed in Taiwan**, with no license issuance records (total_licenses = 0).
+| DIN | Product Name |
+|---------|------|
+| 2436639 | CYSVIEW |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the drug package insert for safety information.
-
-*(Data gap DG001: Health Canada package insert warnings/contraindications not yet obtained, severity Blocking, this is an essential item to be completed before entering S1 initial safety assessment.)*
+Please refer to the package insert for safety information.
 
 ---
 
-## Conclusions and Next Steps
+## Conclusion and Next Steps
 
-**Recommended Decision: Hold**
+**Decision: Hold**
 
 **Rationale:**
-Existing evidence is only at Phase 1/2 early proof-of-concept level (1 completed, 1 terminated due to insufficient enrollment, 1 withdrawn due to enrollment failure), with no Phase 3 randomized controlled trial or published literature to support it; meanwhile, critical safety package insert data (DG001, Blocking) and formal mechanism of action record (DG002, High) are both data gaps, insufficient to support entry into the next phase of assessment.
+The top prediction, bronchitis, is supported only by the model score (L5), with no trials, no literature and no mechanistic link. The colonic neoplasm prediction is biologically coherent and has some early-phase trial activity, but none of it is randomized or Phase 3, so it is best treated as a research question, not a go decision. Blocking safety data is also missing.
 
-**To proceed further, the following gaps need to be filled:**
-- Health Canada package insert warnings/contraindications data (DG001, Blocking, must download and parse official package insert PDF)
-- Formal mechanism of action (MOA) record verified through DrugBank API (DG002)
-- Larger-scale, complete enrollment Phase 2/3 clinical trials for colonic neoplasm detection
-- Independent peer-reviewed literature to support existing clinical trial findings
-- Endoscopic administration routes (rectal instillation/oral) and compatibility assessment with current colonoscopy equipment
-
----
-
-## Appendix Table: Other TxGNN Predicted Candidates (Not to Proceed at This Time)
-
-The following 8 candidates all lack clinical trial or literature evidence support (Decision Stage S0), and the model's mechanistic reasoning also determines weak relevance or graph noise, making further investigation not recommended at this time:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Primary Judgment Rationale |
-|------|---------|-------------|----------------|----------------|---------------------------|
-| 1 | Bronchitis | 99.06% | L5 | Hold | Completely unrelated to HAL fluorescence imaging mechanism, likely a false positive |
-| 3 | Severe nonproliferative diabetic retinopathy | 98.60% | L5 | Hold | Disease pathophysiology (microvascular disease) has no direct association with neoplastic tissue fluorescence detection |
-| 4 | Cecum villous adenoma | 98.43% | L4 | Hold | In same spectrum as colonic neoplasm, can only be indirectly inferred, no direct evidence |
-| 5 | Rectosigmoid junction neoplasm | 98.43% | L4 | Hold | Same as above, only inference possible, no direct trial or literature |
-| 6 | Cecum neuroendocrine tumor G1 | 98.43% | L5 | Hold | Neuroendocrine tumors have different proliferation characteristics, mechanistic extension is speculative |
-| 7 | Colonic lymphangioma | 98.43% | L5 | Hold | Non-epithelial neoplastic lesion, weak mechanistic relevance |
-| 8 | Lipoma of colon | 98.43% | L5 | Hold | Benign tumor of mesenchymal origin, mechanism does not match |
-| 9 | Cecal disease | 98.42% | L5 | Hold | Disease definition too broad to establish clear mechanistic association |
-| 10 | Cavernous hemangioma of colon | 98.42% | L5 | Hold | Vascular malformation lesion, non-proliferative tissue, mechanism does not match |
-
----
-
-*This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.*
-
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- For colonic neoplasm: published results from the completed Phase 1/2 study (NCT00285701) and any larger, controlled diagnostic-accuracy studies
+- Confirmation of the dosage form, route and approved indication text for the Canadian licence, since route compatibility with colonic use (enema or oral) is still pending
+- Drop bronchitis, diabetic retinopathy and the other non-neoplastic predictions from further evaluation unless new evidence appears
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

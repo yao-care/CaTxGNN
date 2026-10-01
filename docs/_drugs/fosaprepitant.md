@@ -2,7 +2,7 @@
 layout: default
 title: Fosaprepitant
 parent: Model Prediction Only (L5)
-nav_order: 347
+nav_order: 408
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fosaprepitant: From Chemotherapy-Induced Nausea & Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fosaprepitant: From Chemotherapy-Induced Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Fosaprepitant is an intravenous prodrug of aprepitant, an NK1 receptor antagonist used internationally for prevention of chemotherapy-induced nausea and vomiting (CINV).
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, an ultra-rare X-linked genetic disorder caused by gain-of-function mutations in the AVPR2 receptor gene.
-Currently, there are **no clinical trials** and **no published literature** supporting this specific repurposing direction — the prediction is supported by model inference only.
-
----
+Fosaprepitant is an intravenous prodrug of aprepitant, an NK1 receptor antagonist used to prevent chemotherapy-induced nausea and vomiting.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Chemotherapy-induced nausea and vomiting (CINV) prevention |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+|------|------|
+| Original Indication | Prevention of chemotherapy-induced nausea and vomiting (the Canadian license text was not provided; this is taken from the evidence pack's description of the approved use) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known pharmacological information, fosaprepitant is the intravenous prodrug of aprepitant — a selective neurokinin-1 (NK1) receptor antagonist. It works by blocking substance P from binding to NK1 receptors in the central and peripheral nervous system, which is the established mechanism for suppressing chemotherapy-induced emesis.
+Detailed mechanism of action data is not currently available. Based on known information, fosaprepitant is converted in the body to aprepitant, which blocks the substance P / NK1 receptor. Its efficacy in preventing chemotherapy-induced nausea and vomiting is established.
 
-The connection to NSIAD is mechanistically indirect. NSIAD is caused by gain-of-function mutations in the *AVPR2* gene (arginine vasopressin receptor 2, located on the X chromosome), causing constitutive receptor activation and sustained antidiuretic signaling independent of vasopressin levels. While NK1 receptors theoretically participate in renal collecting duct neuromodulation, there is no established mechanistic bridge between NK1 antagonism and AVPR2-driven constitutive antidiuresis. The repurposing rationale notes that the predicted link likely arises from indirect knowledge graph paths connecting renal physiology nodes, not a direct mechanistic pathway.
-
-At this stage, this signal is best understood as a hypothesis-generating output from the model. The prediction does not yet rise to a level warranting clinical investigation without prior basic science validation.
-
----
+The link to the predicted indication is weak. NSIAD is caused by a gain-of-function mutation in the vasopressin V2 receptor (AVPR2), and NK1 receptor antagonism has no known role in that pathway. The high score comes from the knowledge-graph model alone, with no trials or literature behind it. At this stage the prediction should be treated as a hypothesis, not a mechanistically supported opportunity.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for fosaprepitant in nephrogenic syndrome of inappropriate antidiuresis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for fosaprepitant in nephrogenic syndrome of inappropriate antidiuresis.
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Fosaprepitant is currently not marketed in Canada. No DINs are registered for this drug.
-
-> **Note for context:** Across all 10 predicted indications in this evidence pack, the most mechanistically supported signal is **retinitis** (rank 7), where a 2021 experimental study (PMID [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/)) demonstrated that fosaprepitant blocks UVR-B–induced NKR-1 (NK1 receptor) upregulation in ocular tissues in a mouse model. This is the only indication with direct fosaprepitant-specific mechanistic data in the pack.
-
----
+| DIN | Product Name |
+|---------|------|
+| 2363356 | EMEND IV |
+| 2549379 | FOSAPREPITANT FOR INJECTION |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction rests entirely on TxGNN knowledge graph inference (L5) with no clinical trials, no published literature, and no established mechanistic link between NK1 receptor antagonism and the AVPR2 gain-of-function mechanism underlying NSIAD.
+The top prediction has a very high model score but no clinical, literature, or mechanistic support (L5). NK1 antagonism has no known connection to the AVPR2-driven pathology of NSIAD.
 
 **To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
+- A plausible pharmacological rationale, or any preclinical evidence, connecting NK1 antagonism to NSIAD
+- Confirmation of the Canadian approved indication text, which is missing from the licence records
 
-- Basic science investigation into whether NK1/substance P signaling modulates AVPR2 constitutive activity in renal collecting duct cells
-- Preclinical models of NSIAD (e.g., *AVPR2* gain-of-function knock-in mice) to test whether NK1 antagonism affects water reabsorption or plasma sodium
-- Mechanism of action data (MOA) from DrugBank or primary literature to characterize the full NK1 antagonist pharmacology
-- Safety and contraindication data from a product monograph or package insert (currently unavailable; classified as a blocking data gap)
-- Route compatibility assessment — fosaprepitant is IV-only and designed for short-term (1–3 day) perioperative/peri-chemotherapy use; NSIAD is a chronic condition requiring sustained management, representing a significant formulation barrier
+**Other candidates worth noting:** Among the other nine predictions, only retinitis (rank 7, L4) has any supporting evidence. A single 2021 preclinical mouse study reports that fosaprepitant blocks UVR-B-induced NK1R expression in ocular tissues. This is indirect and does not involve clinical retinitis, so it is best treated as a research question. The multiple endocrine neoplasia (rank 5) trials only test antiemetic supportive care and do not evaluate treatment of the disease.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Triethylenetetramine
 parent: Model Prediction Only (L5)
-nav_order: 802
+nav_order: 937
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triethylenetetramine: From Wilson's Disease to Thyroid Gland Undifferentiated (Anaplastic) Carcinoma
+# Triethylenetetramine: From Copper Chelation to Anaplastic Thyroid Carcinoma
 
 ## One-Sentence Summary
 
-Triethylenetetramine (trientine) is a copper-chelating agent developed for Wilson's disease, a rare disorder of copper metabolism.
-The TxGNN model predicts it may be effective for **Thyroid Gland Undifferentiated (Anaplastic) Carcinoma**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no direct evidence.
+Triethylenetetramine (trientine) is generally known as a copper-chelating drug. The supplied data does not state its approved indication.
+The TxGNN model predicts it may be effective for **thyroid gland undifferentiated (anaplastic) carcinoma**, but **0 clinical trials** and **0 publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Wilson's disease (copper metabolism disorder) — based on known drug class information; not confirmed via Canada regulatory filing, as the drug is not marketed |
+| Original Indication | Not stated in the supplied data (general pharmacology: copper overload, e.g. Wilson's disease) |
 | Predicted New Indication | Thyroid gland undifferentiated (anaplastic) carcinoma |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug. Based on known information, Triethylenetetramine (trientine) is a copper-chelating agent whose efficacy in Wilson's disease is well established, working by promoting urinary copper excretion and reducing intestinal copper absorption.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, trientine is a copper chelator, its role in copper-overload disease is well established, and mechanistically it may be applicable to some copper-dependent processes. Copper-dependent signaling and angiogenesis have been proposed as targets in some cancers, but the link to anaplastic thyroid carcinoma is speculative. The TxGNN score reflects knowledge-graph proximity, not clinical evidence.
 
-The mechanistic link to thyroid anaplastic carcinoma is indirect: copper is a required cofactor for tumor angiogenesis and several redox enzymes, and copper chelators as a drug class (e.g., tetrathiomolybdate) have shown anti-angiogenic potential in preclinical cancer models. However, there is no direct preclinical or clinical evidence for trientine specifically in undifferentiated thyroid carcinoma, which is a highly aggressive, rare cancer with very poor prognosis. This prediction should be treated as a class-level hypothesis rather than a drug-specific finding, and warrants significant caution.
+The other top predictions fall into two groups:
 
-Notably, among the other predicted indications in this evidence pack, "idiopathic copper-associated cirrhosis" (rank 6) shows a substantially stronger mechanistic rationale, as it directly aligns with trientine's known pharmacology of copper depletion in the liver — though it too currently lacks direct clinical or trial evidence.
+- **Idiopathic copper-associated cirrhosis (rank 6)** is the most biologically coherent prediction. Hepatic copper accumulation is its defining feature, which fits copper chelation. It is flagged as a **Research Question**, but no trials or literature were supplied.
+- **Other liver and vascular entities and rare renal cell carcinoma subtypes** (hepatopulmonary syndrome, portal hypertension-related conditions, hepatic porphyria and others) have no clear mechanistic rationale. Several share exactly the same score (0.9977 or 0.9878), which suggests a shared graph-neighborhood artifact rather than a disease-specific signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Canada Market Information
 
-This drug is currently not marketed in Canada (0 authorized DINs), so no Canada product licensing information is available.
+| DIN | Product Name |
+|---------|------|
+| 2515067 | WAYMADE-TRIENTINE |
+| 2504855 | MAR-TRIENTINE |
+
+Dosage form, manufacturer, and approved indication text were not provided for either authorization.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> Note: Key warnings, contraindications, and drug interaction data are currently unavailable (flagged as a blocking data gap). This must be resolved before any safety evaluation can proceed.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is based solely on the TxGNN model (Evidence Level L5) with no supporting clinical trials or literature, and the mechanistic link to thyroid anaplastic carcinoma is indirect and class-based rather than drug-specific. In addition, the drug is not currently marketed in Canada and safety labeling data (warnings/contraindications) is missing, which blocks progression to a safety evaluation stage.
+The prediction rests only on a model score, with no supporting trials or literature (L5), and the mechanistic link to anaplastic thyroid carcinoma is speculative. Safety information and mechanism data are also missing, so the candidate cannot move past initial screening.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) data from DrugBank or primary literature
-- TFDA/regulatory package insert warnings and contraindications (currently a blocking gap)
-- Preclinical or case-level evidence directly linking trientine to thyroid anaplastic carcinoma
-- Reassessment against the mechanistically stronger candidate, idiopathic copper-associated cirrhosis, before further investment in this indication
+- Health Canada product monograph (warnings, contraindications, approved indication) for the two DINs. This blocks safety screening.
+- Mechanism of action data, for example from DrugBank
+- A targeted literature and trial search on trientine or copper chelation in anaplastic thyroid carcinoma
+- Consider prioritizing idiopathic copper-associated cirrhosis for a focused evidence review, since it has the strongest mechanistic rationale
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

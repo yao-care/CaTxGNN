@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Model Prediction Only (L5)
-nav_order: 836
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 982
+evidence_level: L4
 indication_count: 6
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Zanubrutinib is a Bruton's tyrosine kinase (BTK) inhibitor used internationally for B-cell malignancies such as CLL/SLL, but it is not yet marketed in Canada. The TxGNN model predicts it may be effective for **Myeloid Leukemia**, with a prediction score of 99.65%, but currently only **2 clinical trials** (neither testing zanubrutinib directly for this indication) and **no dedicated literature** support this specific link. This is a model-only signal with a weak mechanistic rationale at this stage.
+Zanubrutinib (marketed in Canada as BRUKINSA) is a next-generation BTK inhibitor. The supplied literature shows it used for B-cell malignancies such as CLL/SLL and Waldenström's macroglobulinemia.
+The TxGNN model predicts it may be effective for **myeloid leukemia**, but the evidence is weak: **2 early-phase trials** that do not test zanubrutinib, and **no publications** on myeloid disease.
 
 ---
 
@@ -41,23 +42,23 @@ Zanubrutinib is a Bruton's tyrosine kinase (BTK) inhibitor used internationally 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established via Canada regulatory data (drug not marketed); internationally used for B-cell malignancies (e.g., CLL/SLL, per supporting literature) |
-| Predicted New Indication | Myeloid Leukemia |
+| Original Indication | B-cell malignancies (CLL/SLL, Waldenström's macroglobulinemia), inferred from the supplied literature. The Canadian license records contain no indication text. |
+| Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 99.65% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on supporting information from the evidence collected, zanubrutinib is a next-generation, highly selective BTK inhibitor whose pharmacology centers on blocking B-cell receptor (BCR) signaling. Its established clinical use is in **lymphoid** malignancies — CLL/SLL, Waldenström's macroglobulinemia (WM), and mantle cell lymphoma (MCL) — where BCR signaling drives disease pathogenesis.
+Zanubrutinib is a covalent inhibitor of Bruton's tyrosine kinase (BTK). It is more selective than ibrutinib or acalabrutinib. Detailed mechanism-of-action data are not available in the record. Based on known information, BTK is expressed in myeloid-lineage cells and has been proposed as a signaling node in some AML settings. This is only a hypothesis, and no clinical data supplied here support it.
 
-Myeloid leukemia arises from a distinct hematopoietic lineage with a fundamentally different set of driver pathways (e.g., FLT3, BCR-ABL1, epigenetic regulators), and BTK's pathogenic role in myeloid cells is not well established in the literature. The two clinical trials returned by the evidence search (NCT05665530, NCT04477291) both study **other** investigational agents (PRT2527, a CDK9 inhibitor; CG-806/luxeptinib, a multi-kinase inhibitor) in relapsed/refractory hematologic malignancies, and only reference zanubrutinib as a combination comparator or background context — not as monotherapy for myeloid leukemia. No literature record specifically evaluates zanubrutinib in myeloid leukemia.
+The original indications are lymphoid (B-cell) cancers, while the predicted indication is myeloid. The supplied literature covers only CLL/SLL and Waldenström's macroglobulinemia. The high TxGNN score (0.996) most likely reflects the drug's proximity to leukemia nodes in the knowledge graph, not myeloid-specific evidence.
 
-In short, the TxGNN score reflects a graph-based similarity signal rather than a validated mechanistic or clinical hypothesis. The mechanistic link between BTK inhibition and myeloid leukemia is currently considered weak, and this prediction should be treated as exploratory only.
+Five other predictions rank below myeloid leukemia: a rare congenital syndrome, ganglioneuroblastoma, retroperitoneal neoplasm, Ewing sarcoma and neuroblastoma. All have no trials and no relevant literature, and none has an identifiable BTK-dependent mechanism. They are model outputs only.
 
 ---
 
@@ -65,32 +66,39 @@ In short, the TxGNN score reflects a graph-based similarity signal rather than a
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | Completed | 86 | Studies PRT2527 (a CDK9 inhibitor), alone or combined with zanubrutinib/venetoclax, in relapsed/refractory hematologic malignancies. Zanubrutinib is a combination arm, not the primary study drug; not myeloid-leukemia-specific evidence for zanubrutinib. |
-| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Phase 1a/1b | Terminated | 45 | Evaluates CG-806 (luxeptinib), a multi-kinase/FLT3 inhibitor, in relapsed/refractory AML or high-risk MDS. Zanubrutinib is not the investigational agent; trial was terminated. |
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Phase 1 | Completed | 86 | Dose escalation of PRT2527 (a CDK9 inhibitor) alone or combined with zanubrutinib or venetoclax in relapsed/refractory hematologic malignancies. Zanubrutinib is only a combination partner, so this gives no direct evidence for it in myeloid leukemia. |
+| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Phase 1 | Terminated | 45 | Safety and activity of CG-806 (luxeptinib, a multi-kinase inhibitor with BTK and FLT3 activity) in relapsed/refractory AML or higher-risk MDS. A different drug, so at most a weak class-level hint. |
+
+Both trials are graded C for relevance, meaning neither tests zanubrutinib as the studied drug in myeloid leukemia.
 
 ---
 
 ## Literature Evidence
 
+None of the publications studies zanubrutinib in myeloid leukemia. All relate to lymphoid malignancies or general topics.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | 5-year follow-up of SEQUOIA phase 3 trial comparing zanubrutinib vs bendamustine+rituximab in treatment-naïve CLL/SLL — confirms zanubrutinib's established efficacy in lymphoid, not myeloid, malignancy. |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohort | Blood Advances | Updated results of phase 2 BGB-3111-215 study: zanubrutinib is well tolerated and effective in CLL/SLL patients intolerant of ibrutinib/acalabrutinib. |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Cohort | Lancet Haematol | Phase 2 single-arm study: zanubrutinib in B-cell malignancy patients intolerant of prior BTK inhibitors (ibrutinib/acalabrutinib), showing reduced treatment-related toxicity. |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Review | Blood Advances | Pooled analysis across SEQUOIA/ALPINE trials of zanubrutinib efficacy/safety in high-risk del(17p)/TP53-mutated CLL/SLL. |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Review | Pharmaceutics | Reviews the tyrosine kinase inhibitor era in chronic leukemias (CML, CLL), covering BCR-ABL1 and BCR pathway biology generally. |
-| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Review | Leukemia | Review of BTK inhibitor management (including zanubrutinib) in Waldenström's macroglobulinemia. |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Review | Clin Lymphoma Myeloma Leuk | Reviews hepatitis B reactivation risk in patients receiving BTK inhibitors (ibrutinib, acalabrutinib, zanubrutinib) for B-cell malignancies. |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Review | Anticancer Agents Med Chem | Reviews synthetic chemistry methodology of FDA-approved anticancer drugs (2018–2021), mentions zanubrutinib only in a synthesis context. |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Case Report | Front Immunol | Case report of coexisting Waldenström's macroglobulinemia and B-cell ALL with KMT2D/MECOM mutations; not related to myeloid leukemia or zanubrutinib treatment. |
-
-None of the retrieved literature directly evaluates zanubrutinib for myeloid leukemia; the corpus consistently supports its established lymphoid-malignancy indications instead.
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA phase 3, median 5-year follow-up: zanubrutinib vs bendamustine + rituximab in treatment-naïve CLL/SLL |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Cohort | Blood Adv | Updated phase 2 results: zanubrutinib is well tolerated and effective in CLL/SLL patients intolerant of ibrutinib/acalabrutinib |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Cohort | Blood Adv | Pooled analysis (N = 301) of efficacy and safety in CLL/SLL with del(17p) and/or TP53 mutations |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Phase 2 trial | Lancet Haematol | Single-arm study of zanubrutinib in B-cell malignancies intolerant of earlier BTK inhibitors |
+| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Review | Leukemia | Managing Waldenström's macroglobulinemia with BTK inhibitors |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Review | Pharmaceutics | Tyrosine kinase inhibitors in chronic leukemias (CML and CLL) |
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Review | Clin Lymphoma Myeloma Leuk | Hepatitis B virus reactivation in patients receiving BTK inhibitors |
+| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Review | Anticancer Agents Med Chem | Synthetic methods of FDA-approved anticancer drugs (2018–2021). Zanubrutinib is mentioned incidentally. |
+| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Case report | Front Immunol | Rare case of coexisting Waldenström's macroglobulinemia and B-cell ALL |
 
 ---
 
 ## Canada Market Information
 
-Zanubrutinib currently has **no Health Canada Drug Identification Number (DIN)** and is not marketed in Canada according to this Evidence Pack. No authorization records are available for review.
+| DIN | Product Name |
+|---------|------|
+| 2512963 | BRUKINSA |
+| 2554267 | BRUKINSA |
+
+Dosage form, manufacturer and approved indication text are not recorded for these licenses.
 
 ---
 
@@ -98,17 +106,19 @@ Zanubrutinib currently has **no Health Canada Drug Identification Number (DIN)**
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (BTK inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (BTK inhibitor), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions. Hepatitis B status deserves attention (see Safety Considerations). |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Hepatitis B reactivation**: The literature (PMID 37150651) reports HBV reactivation in patients receiving BTK inhibitors, including second-generation agents such as zanubrutinib. Screening and monitoring should be considered.
+
+No drug-interaction records were found. Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ---
 
@@ -117,14 +127,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score for myeloid leukemia is high, but this is currently a model-prediction-only signal (Evidence Level L5, Decision Stage S0) with no direct clinical trial or literature support, and the underlying mechanistic hypothesis (BTK's role in myeloid leukemia) is weak. Zanubrutinib is also not marketed in Canada, adding a regulatory gap on top of the evidentiary gap.
+The high model score is not backed by direct evidence. The two trials do not test zanubrutinib as the studied drug in myeloid leukemia, and the literature covers only B-cell malignancies. The other five predicted indications have no supporting evidence at all.
 
 **To proceed, the following is needed:**
-- Official mechanism of action (MOA) data from DrugBank or the product label
-- TFDA/Health Canada product monograph, including warnings, contraindications, and drug interactions (currently blocking per data gap DG001)
-- Preclinical or mechanistic studies establishing a BTK–myeloid leukemia pathogenic link
-- A clinical trial or case series testing zanubrutinib specifically in myeloid leukemia patients
-- Canada market entry/regulatory status confirmation, should this program advance
+- Health Canada package insert warnings and contraindications, which are required for safety screening
+- Detailed mechanism-of-action data from DrugBank
+- Preclinical or clinical data on BTK dependency in AML or other myeloid disease
+- Approved indication text, dosage forms and manufacturer for the two DINs
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

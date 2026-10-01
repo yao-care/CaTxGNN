@@ -2,7 +2,7 @@
 layout: default
 title: Ritonavir
 parent: Model Prediction Only (L5)
-nav_order: 687
+nav_order: 809
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,69 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-> Ritonavir is a well-established antiretroviral (HIV-1 protease inhibitor); this specific evidence pack does not carry formally recorded original-indication or Canada license data, but its role as an HIV-1 protease inhibitor is referenced throughout the underlying mechanistic evidence.
-> The TxGNN model's top-ranked prediction is **Feline Acquired Immunodeficiency Syndrome (FIV)** — a veterinary, not human, disease — supported by only **1 clinical trial** and **0 publications**, and that single trial is itself a human HIV-1 study, not an FIV study.
-> Evidence quality is weak (**L5**), and the pack's own relevance grading (Grade C) flags this prediction as a likely species-mismatch artifact in the knowledge graph rather than a genuine repurposing signal.
-
----
+Ritonavir is an HIV protease inhibitor, used mainly as a CYP3A4 booster in HIV-1 combination regimens and in products such as Kaletra and Paxlovid.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**.
+Only **1 clinical trial** (human HIV-1, indirect) and **0 publications** touch this indication, so the prediction is essentially model-driven.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in regulatory license data (0 licenses); mechanistic evidence in this pack describes ritonavir as an **HIV-1 protease inhibitor** used in antiretroviral therapy |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) — a veterinary disease |
+| Original Indication | HIV-1 infection (taken from the rationale text; the licence indication fields are empty) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (no feline or FIV study; the Evidence Pack scores it L4 based on indirect evidence only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 7 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for ritonavir is not available as a discrete field in this evidence pack. Based on the mechanistic notes accompanying the predictions, ritonavir is an **HIV-1 protease inhibitor**: it binds a site specific to the structure of HIV-1 protease, and its efficacy as part of antiretroviral therapy in HIV-1 infection is well established.
+Detailed mechanism of action data is not available in the Evidence Pack. Based on known information, ritonavir inhibits HIV-1 protease and strongly inhibits CYP3A4, which is why it is widely used to boost other protease inhibitors.
 
-The predicted new indication, however, is **feline immunodeficiency virus (FIV)-related disease** — a lentivirus infection in cats, not humans. FIV and HIV are both lentiviruses, but FIV protease sequence and active-site structure differ substantially from HIV-1 protease, and there is no known cross-inhibition evidence for ritonavir against FIV protease. The evidence pack itself flags this as a probable **species mismatch**: the only supporting clinical trial (NCT02770508) is a human HIV-1 trial comparing darunavir/ritonavir-based regimens, with no connection to cats or FIV, and its relevance to the predicted indication was graded **C** ("likely KG edge error or cross-species data contamination, not a genuine relevant trial").
+Feline acquired immunodeficiency syndrome is caused by feline immunodeficiency virus (FIV), a lentivirus related to HIV. The high score most likely reflects the shared lentivirus and protease-inhibitor neighborhood in the knowledge graph. This link is weak. FIV protease has different substrate specificity from HIV-1 protease, so cross-species activity cannot be assumed. No feline efficacy data are provided.
 
-In short, the mechanistic rationale that supports ritonavir's *known* action (HIV-1 protease inhibition) does not extend to the *predicted* indication (FIV) without direct evidence of cross-species protease inhibition, which is currently absent.
-
----
+A closely related prediction, simian immunodeficiency virus infection (rank 2), has more support. That support is preclinical only. In vitro, SIVmac239 was inhibited by ritonavir at 13 ± 5 nM, versus 25 ± 14 nM for HIV-1 (PMID 12709355). SIV in macaques is a research model for HIV, not a human clinical indication, and it does not establish activity against FIV.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Human HIV-1 trial comparing boosted darunavir + lamivudine vs. boosted darunavir + emtricitabine/tenofovir or lamivudine/tenofovir in treatment-naïve HIV-1 patients. **Not an FIV/feline study** — relevance to the predicted indication graded C (likely species-mismatched KG edge, not genuine supporting evidence). |
-
----
+| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Boosted darunavir + lamivudine vs boosted darunavir + tenofovir/emtricitabine or lamivudine in treatment-naïve HIV-1 patients. Humans, not cats; ritonavir is only the booster, so this gives no direct evidence for FIV (relevance grade C). |
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for feline acquired immunodeficiency syndrome.
 
----
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 02357593 | NORVIR |
+| 02523620 | AURO-RITONAVIR |
+| 02524031 | PAXLOVID |
+| 02312301 | KALETRA |
+| 02285533 | KALETRA |
+
+These are human-use authorizations. The Evidence Pack lists 7 DINs in total but includes only the 5 shown here. Dosage form and approved indication text are empty in the data.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L5 (model prediction only); the single associated clinical trial is a human HIV-1 study with no relevance to the predicted feline indication, and was independently graded C ("likely KG error / cross-species data contamination").
-- The predicted indication (Feline Acquired Immunodeficiency Syndrome) is a **veterinary disease**, outside the scope of human drug repurposing evaluation, and mechanistic extrapolation from HIV-1 protease inhibition to FIV protease has no supporting cross-inhibition data.
-- Ritonavir is not currently marketed in Canada under this evidence pack (0 DINs), and key safety/contraindication data (TFDA label, MOA) are flagged as data gaps (DG001 blocking, DG002 high severity).
+The high TxGNN score is not backed by any feline or FIV data. The only trial is an indirect human HIV-1 study in which ritonavir is just a booster. FIV protease differs from HIV-1 protease, and the Canadian licences cover human use only.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (product label warnings/contraindications) and DG002 (confirmed MOA) before any S1 safety screening can occur.
-- Investigate and correct the likely species-mismatched knowledge-graph edge linking ritonavir to FIV before treating this as a genuine repurposing signal.
-- If a human-relevant repurposing signal is sought, note that the pack's rank-2 prediction (simian immunodeficiency virus infection) has stronger preclinical support (L3, multiple in vitro/animal studies showing ritonavir activity against SIV/SHIV protease) — but SIV is itself an animal model of HIV, not a distinct human disease, so it likewise does not constitute a novel human indication and would only support translational/mechanistic research questions, not a Go decision.
+- In vitro FIV protease or antiviral susceptibility data for ritonavir
+- Feline pharmacokinetic and efficacy or safety data
+- Mechanism of action data (MOA) and original indication records in the Evidence Pack
+- Health Canada package insert warnings and contraindications
+- A veterinary regulatory pathway assessment, since the current Canadian licences are for human use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

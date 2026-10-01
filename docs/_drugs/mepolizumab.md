@@ -2,7 +2,7 @@
 layout: default
 title: Mepolizumab
 parent: Moderate Evidence (L3-L4)
-nav_order: 500
+nav_order: 585
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,31 +29,32 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Mepolizumab: From Hypereosinophilic Syndrome to Immune Thrombocytopenia
+# Mepolizumab: From Eosinophil-Driven Disease to Thrombocytopenia Due to Immune Destruction
 
 ## One-Sentence Summary
 
-Mepolizumab is an anti-IL-5 monoclonal antibody used clinically in eosinophil-mediated conditions such as hypereosinophilic syndrome (HES). The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**, but this direction is currently supported by only **1 case report** and **no clinical trials**.
+Mepolizumab is an anti-IL-5 monoclonal antibody marketed in Canada as NUCALA. It depletes eosinophils and is used for eosinophil-driven conditions; the license data provided do not list the approved indications.
+The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**, but there are **0 registered clinical trials** and only **1 publication** (a case report), so this remains a research question rather than an evidence-backed candidate.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypereosinophilic syndrome (HES) — inferred from supporting literature; not documented in the supplied Canada regulatory data |
+| Original Indication | Eosinophil-driven disease (background knowledge; not listed in the license data) |
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record (drug-level MOA is a documented data gap). Based on the supporting evidence, mepolizumab inhibits IL-5, depleting eosinophils, and is used to treat hypereosinophilic syndrome (HES).
+Detailed mechanism of action data is not available in the Evidence Pack. Based on general knowledge, mepolizumab blocks interleukin-5 (IL-5), which reduces eosinophil numbers and eosinophil-driven inflammation.
 
-The link to immune thrombocytopenia is indirect rather than mechanistic: in some HES patients, eosinophil-mediated processes drive secondary/consumptive platelet destruction, and resolving the underlying HES with mepolizumab can improve the resulting thrombocytopenia. This is a case of treating an upstream disease that secondarily resolves a downstream hematologic finding — it is **not** evidence that mepolizumab acts on the classic immune thrombocytopenia (ITP) pathway (autoantibody-mediated platelet clearance by splenic macrophages).
+The link to immune-mediated platelet destruction is weak. Platelet destruction in this condition is not primarily driven by eosinophils. The only connection is indirect: the single supporting publication describes a patient with steroid-resistant hypereosinophilic immune dysregulation and a mixed thrombotic microangiopathy. Mepolizumab was used there and the patient improved. That is a single-patient observation of a different disease process, not evidence for immune thrombocytopenia.
 
-Because the only supporting reference is a single case report of a complement-mediated, hypereosinophilic diathesis (not idiopathic ITP), the biological rationale for this indication is plausible in a narrow eosinophil-driven subgroup but should not be generalized to immune thrombocytopenia as a whole.
+The TxGNN score of 99.66% reflects a knowledge-graph prediction, not clinical evidence. It should be treated as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
@@ -63,28 +64,41 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case Report | Blood Cells, Molecules & Diseases | Steroid-resistant, hypereosinophilic immune diathesis (with mixed thrombotic microangiopathy) resolved with mepolizumab, alongside improvement in a concomitant platelet-consumption process |
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report (inferred from the title; not verified) | Blood Cells Mol Dis | A steroid-resistant hypereosinophilic immune dysregulation resolved with mepolizumab, alongside improvement of a mixed thrombotic microangiopathy in the setting of atypical hemolytic uremic syndrome |
 
-## Other TxGNN-Predicted Indications (Lower Priority)
+## Canada Market Information
 
-The same model run also surfaced four additional platelet-related diseases (primary platelet release disorder, pseudo-von Willebrand disease, autoimmune thrombocytopenia, Glanzmann thrombasthenia) with similarly high scores (99.3–99.6%). None have supporting clinical trials, and only one has a single tangential literature reference; all are staged as **Hold (S0)**. These conditions involve structural or intrinsic platelet defects with no known IL-5–related mechanism, and are most likely artifacts of embedding proximity within the platelet-disease node cluster rather than genuine repurposing signals.
+| DIN | Product Name |
+|---------|------|
+| 2530821 | NUCALA |
+| 2492997 | NUCALA |
+| 2492989 | NUCALA |
+
+Dosage form and approved indication text are not available for these licenses.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned no records for mepolizumab. This is not confirmation that no interactions exist.
+
+Please refer to the Health Canada product monograph (package insert) for warnings, contraindications, and other safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence is limited to a single case report describing an indirect, HES-specific mechanism rather than a direct effect on immune thrombocytopenia; there are no clinical trials, no Canada market presence, and safety/labeling data (TFDA warnings and contraindications) are marked as a **blocking** data gap.
+The prediction rests on a model score and one case report about a different condition, with no registered trials. The mechanistic link between IL-5/eosinophil depletion and immune-mediated platelet destruction is indirect and speculative.
 
 **To proceed, the following is needed:**
-- Health Canada / TFDA label data (warnings, contraindications) — currently blocking (DG001)
-- Confirmed original mechanism of action documentation (DG002)
-- Additional case series or a clinical study specifically evaluating mepolizumab in immune thrombocytopenia (not solely HES-associated cases)
-- Mechanistic work clarifying whether any direct IL-5/eosinophil pathway link to immune-mediated platelet destruction exists, versus a purely secondary effect of treating HES
+- The Health Canada product monograph, covering approved indications, warnings, and contraindications
+- Mechanism of action data from DrugBank
+- A targeted literature search on mepolizumab in immune thrombocytopenia, including any role of eosinophils or IL-5 in platelet destruction
+- Ontology review: "autoimmune thrombocytopenic" (rank 4) appears to overlap with this indication and could be consolidated with it
+- Preclinical or exploratory clinical data before any trial planning
+
+The other four predicted indications (primary release disorder of platelets, pseudo-von Willebrand disease, autoimmune thrombocytopenic, Glanzmann thrombasthenia) have no identified mechanistic rationale and no supporting trials, so they are not prioritized.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

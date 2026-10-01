@@ -2,7 +2,7 @@
 layout: default
 title: Chlorthalidone
 parent: Model Prediction Only (L5)
-nav_order: 166
+nav_order: 185
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# CHLORTHALIDONE: From Hypertension to Primary Hereditary Glaucoma
+# Chlorthalidone: From Hypertension (Thiazide-like Diuretic Use) to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Chlorthalidone is a long-acting thiazide-like diuretic classically used for hypertension and edema management.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-however, there are currently **no clinical trials** and **no publications** directly supporting this indication — evidence rests entirely on model prediction alone.
-
----
+Chlorthalidone is a marketed thiazide-like diuretic, generally used for hypertension and fluid retention (the dataset lists no approved indication text).
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, with a very high score of 99.92%.
+However, **0 clinical trials** and **0 publications** support this prediction, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension / Edema (not recorded in current evidence pack) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+|------|------|
+| Original Indication | Not listed in the dataset (general use: hypertension / edema) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 8 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Based on known information, chlorthalidone is a thiazide-like diuretic. Its efficacy in lowering blood pressure through natriuresis and volume reduction is established. Mechanistically, it has no clear route to primary hereditary glaucoma.
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, Chlorthalidone is a thiazide-like diuretic that acts primarily on the distal convoluted tubule, inhibiting sodium–chloride cotransporter (NCC) activity to reduce sodium and water reabsorption, resulting in decreased plasma volume and lowered blood pressure. Importantly, it also possesses weak carbonic anhydrase inhibitory (CAI) activity — a property shared with acetazolamide, a drug approved specifically for glaucoma.
-
-This weak CAI activity forms the theoretical mechanistic bridge to glaucoma: by reducing carbonic anhydrase activity in the ciliary epithelium, chlorthalidone could theoretically lower aqueous humor production and reduce intraocular pressure (IOP). Historical reports from the 1960s–1980s noted modest IOP-lowering effects with systemic thiazide-class agents, likely mediated through a combination of systemic diuresis and this weak CAI mechanism.
-
-However, primary hereditary glaucoma is fundamentally a genetic disease — driven by mutations in *MYOC*, *OPTN*, and *TBK1* — and the dominant pathology is structural outflow tract dysfunction, not excess aqueous production. Chlorthalidone's systemic diuretic mechanism cannot correct the underlying genetic defect, and modern glaucoma management relies on topical agents (prostaglandin analogues, β-blockers, and topical CAIs) that achieve far higher intraocular concentrations with lower systemic risk. The mechanistic relevance is therefore considered weak.
-
----
+One speculative link is carbonic anhydrase inhibition, which could reduce aqueous humor production and so lower intraocular pressure. No clinical data in this pack support this idea. Primary hereditary glaucoma is largely a structural or developmental disease of the eye's drainage system, so a systemic diuretic is unlikely to be relevant. A very high TxGNN score alone is not enough to justify further investment here.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Chlorthalidone currently has no approved products registered in Canada (0 DINs). No authorization data is available.
+| DIN | Product Name |
+|---------|------|
+| 2523809 | JAMP CHLORTHALIDONE |
+| 360279 | APO-CHLORTHALIDONE |
+| 2523817 | JAMP CHLORTHALIDONE |
+| 2523795 | JAMP CHLORTHALIDONE |
+| 2248763 | AA-ATENIDONE |
 
----
+Showing 5 of 8 authorizations. Dosage form and approved indication text are not available in the dataset.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or published literature evidence supporting chlorthalidone for primary hereditary glaucoma, and the mechanistic link is weak — weak CAI activity may theoretically lower IOP but cannot address the genetic mutations driving hereditary glaucoma. Furthermore, chlorthalidone is not marketed in Canada and has no existing DINs, adding a regulatory barrier on top of the evidence gap.
+The prediction rests only on the model score. There are no trials or publications, the mechanistic link is speculative, and the disease is structural, so a systemic diuretic is an unlikely fit. Established IOP-lowering agents already exist.
+
+**Other predictions in the pack (for context):**
+- All ten predicted indications remain at Hold or "Research Question".
+- The strongest is **chronic pulmonary heart disease** (score 99.82%, L3). Its only direct evidence is a 1967 clinical report of chlorthalidone in congestive heart failure due to chronic cor pulmonale. Use would be symptomatic decongestion only.
+- Hypertension-related predictions (malignant hypertensive renal disease, malignant renovascular hypertension) are plausible in principle but have no supporting evidence. They are typically emergencies managed with parenteral therapy.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (query DrugBank API for complete MOA profile)
-- Safety data including key warnings and contraindications (retrieve from package insert PDF)
-- Preclinical or in vivo data demonstrating measurable IOP reduction with systemic chlorthalidone
-- Comparative assessment against established topical CAIs (e.g., dorzolamide, brinzolamide) to evaluate whether systemic dosing could offer any clinical advantage
-- Regulatory pathway scoping for potential Canadian market entry
+- Health Canada package insert warnings and contraindications (this blocks safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text for the Canadian licenses
+- Any preclinical or clinical evidence linking chlorthalidone to glaucoma, such as IOP effects
+- Confirmation of the design and findings of the 1967 cor pulmonale report, if that indication is pursued
 
----
-
-> ⚠️ **Disclaimer:** This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

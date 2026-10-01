@@ -2,15 +2,15 @@
 layout: default
 title: Hydroquinone
 parent: Moderate Evidence (L3-L4)
-nav_order: 386
-evidence_level: L3
+nav_order: 453
+evidence_level: L4
 indication_count: 4
 ---
 
 # Hydroquinone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,15 +29,11 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-Using the report structure provided directly in your prompt (this is a document-generation task from a supplied Evidence Pack, not a coding/skill-triggering task, so no additional skill applies here). I read the JSON carefully — noting that `original_indications` and `licenses` are both empty, `original_moa` is a flagged data gap (DG002), and `taiwan_regulatory.market_status` (used here as Canada market status per the field description) is "Not marketed" (Not Marketed) with 0 DINs — before drafting the report below.
-
----
-
-# Hydroquinone: From Topical Hyperpigmentation Treatment to Seborrheic Keratosis
+# Hydroquinone: From Hyperpigmentation Treatment to Seborrheic Keratosis
 
 ## One-Sentence Summary
 
-> Hydroquinone is a well-established topical skin-depigmenting agent, historically used for hyperpigmentation and melasma — a use directly corroborated by the multiple hydroquinone-based melasma trials captured in this evidence pack (see Clinical Trial Evidence under the "exanthem (disease)" candidate). The TxGNN model predicts it may also be effective for **Seborrheic Keratosis**, but this direction is currently supported only by **0 clinical trials** and **2 tangentially related publications**, and a formal approved-indication record for the drug itself is not yet available.
+Hydroquinone is a topical skin-lightening agent. The Canadian license record lists no approved indication, but the trials and literature in the Evidence Pack use it for hyperpigmentation disorders such as melasma. The TxGNN model predicts it may help with **seborrheic keratosis**, but there are **0 clinical trials** and only **2 publications** (one prospective observational study and one review), so the evidence is weak.
 
 ---
 
@@ -45,29 +41,29 @@ Using the report structure provided directly in your prompt (this is a document-
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file in this dataset (DrugBank/regulatory records empty). Established dermatologic use as a topical tyrosinase-inhibiting depigmenting agent for hyperpigmentation/melasma is corroborated by trial data elsewhere in this pack. |
-| Predicted New Indication | Seborrheic Keratosis |
+| Original Indication | Not stated in the Canadian license record; generally used as a depigmenting agent for hyperpigmentation (e.g., melasma) |
+| Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L3 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, hydroquinone belongs to the class of topical phenolic skin-depigmenting agents (tyrosinase inhibitors), and its efficacy in treating hyperpigmentation and melasma has been demonstrated across multiple comparator-controlled clinical trials — several of which appear in this evidence pack under a different predicted-indication entry (e.g., NCT00669071, NCT02977507, NCT05969587, all using 4% hydroquinone as the active or reference treatment for melasma). Mechanistically, this depigmenting activity may also be applicable to seborrheic keratosis.
+Currently, detailed mechanism of action data is not available in the source record. Hydroquinone is known to inhibit tyrosinase, the enzyme that drives melanin synthesis. Because of this, it is widely used for pigmentary disorders.
 
-Seborrheic keratosis and melasma/hyperpigmentation are pathophysiologically related in that both present clinically as hyperpigmented epidermal lesions involving keratinocyte and melanocyte abnormalities. A drug that suppresses melanin synthesis (via tyrosinase inhibition) could plausibly lighten the pigmented component of seborrheic keratosis lesions, which is likely the shared-network signal TxGNN picked up on.
+Seborrheic keratosis, and its close relative dermatosis papulosa nigra (which is histologically not significantly different), are benign pigmented skin growths. Patients often seek treatment for cosmetic reasons. Mechanistically, hydroquinone could lighten the pigmentation of these lesions.
 
-That said, this is a mechanistic extrapolation rather than a directly demonstrated effect: no clinical trial in this pack tests hydroquinone specifically against seborrheic keratosis, and the two supporting publications discuss pigmentary disorders and dermatosis papulosa nigra (a seborrheic-keratosis-related condition) only in a general treatment-algorithm/review context, not as a targeted hydroquinone efficacy study.
+Hydroquinone would not remove the underlying overgrowth of epidermal cells, so any benefit is likely cosmetic rather than curative. The very high TxGNN score is a computational prediction and does not replace clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for hydroquinone in seborrheic keratosis.
+Currently no related clinical trials registered for seborrheic keratosis.
 
 ---
 
@@ -75,22 +71,22 @@ Currently no related clinical trials registered for hydroquinone in seborrheic k
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33046430](https://pubmed.ncbi.nlm.nih.gov/33046430/) | 2021 | Observational study | Journal of Plastic, Reconstructive & Aesthetic Surgery | Prospective observational study proposing a combination treatment algorithm for facial pigmentary disorders in Asian patients; relevant to depigmenting-agent use but not a dedicated seborrheic keratosis trial. |
-| [17373158](https://pubmed.ncbi.nlm.nih.gov/17373158/) | 2007 | Review | Journal of Drugs in Dermatology | Reviews treatment options for dermatosis papulosa nigra, histologically related to seborrheic keratosis; discusses removal approaches and procedural safety considerations rather than hydroquinone-specific efficacy data. |
+| [33046430](https://pubmed.ncbi.nlm.nih.gov/33046430/) | 2021 | Prospective observational study | J Plast Reconstr Aesthet Surg | Studied a combination treatment algorithm for facial pigmentary disorders in Asian patients. The available abstract excerpt does not report hydroquinone-specific results for seborrheic keratosis. |
+| [17373158](https://pubmed.ncbi.nlm.nih.gov/17373158/) | 2007 | Review | J Drugs Dermatol | Reviews treatment options for dermatosis papulosa nigra, which is histologically similar to seborrheic keratosis. Patients usually seek removal for aesthetic reasons, and care is needed to avoid complications. |
 
 ---
 
 ## Canada Market Information
 
-Hydroquinone is not currently marketed in Canada under this evidence pack — 0 DINs are on file, and `market_status` is recorded as "Not Marketed." No product licenses are available to summarize.
+| DIN | Product Name |
+|---------|------|
+| 2491702 | ERFA HYDROQUINONE |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Note: Key warnings, contraindications, and drug-interaction data for this product are currently unavailable in the source dataset — this is logged as a Blocking data gap (DG001) that prevents a full S1 initial safety assessment.)*
+Please refer to the package insert for safety information. No drug-interaction records were found for hydroquinone in the Evidence Pack.
 
 ---
 
@@ -99,14 +95,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- Evidence for the seborrheic keratosis indication specifically is limited to L3-level, indirect literature (no dedicated clinical trials), and the drug is not currently marketed in Canada (0 DINs).
-- A Blocking data gap (DG001: TFDA/Health Canada label warnings and contraindications) prevents this candidate from entering the S1 safety pre-screen at all, regardless of efficacy evidence strength.
+The prediction rests on a high model score and a plausible tyrosinase-inhibition mechanism. However, there are no clinical trials for seborrheic keratosis, and the two publications do not show hydroquinone efficacy in it. Any benefit would probably be cosmetic only, and the label and safety information are still missing.
 
 **To proceed, the following is needed:**
-- Official product label / package insert data (warnings, contraindications) to resolve DG001 before any safety screening can occur
-- DrugBank-sourced mechanism of action data (DG002) to substantiate the tyrosinase-inhibition rationale
-- Dedicated clinical or preclinical studies directly testing hydroquinone in seborrheic keratosis, rather than relying on adjacent-indication literature
-- Confirmation of Canadian market/regulatory pathway status, since the drug currently has no active DIN license on file
+- Health Canada product monograph (warnings and contraindications) for safety screening
+- Mechanism of action data from DrugBank
+- Dosage form and approved indication details for the Canadian license
+- Clinical data on hydroquinone in seborrheic keratosis or dermatosis papulosa nigra
+- Confirmation that a topical route is feasible for the target lesions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

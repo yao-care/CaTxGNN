@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pregabalin
-parent: Moderate Evidence (L3-L4)
-nav_order: 647
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 761
+evidence_level: L5
 indication_count: 6
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,97 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-Using the report as directly specified by your detailed prompt template (this is a content-generation task with a fully-specified format, not a coding/pipeline task, so no additional skill invocation is needed). Note upfront: this Evidence Pack is unusually data-poor — `original_moa`, `original_indications`, and all safety fields are flagged as gaps in `meta.data_gaps` (one of them **Blocking**), and Canada licensing data is empty. I've followed the prohibition against fabricating or printing literal "[Data Gap]" text, and omitted sections/rows with no underlying data.
-
----
-
-# Pregabalin: From Original Indication Not Documented to Tendinitis
+# Pregabalin: From Neuropathic Pain and Epilepsy to Tendinitis
 
 ## One-Sentence Summary
 
-The original approved indication for pregabalin (DrugBank DB00230) is not documented in this evidence pack, and the drug currently has no marketing authorization on record in this jurisdiction. The TxGNN model predicts a possible signal for **Tendinitis**, but this is currently supported only by **0 clinical trials** and **6 publications** (mostly case reports and mechanistically indirect studies), making it the weakest of the five candidates surfaced in this pack.
+Pregabalin is marketed in Canada, and the published literature describes it as approved for partial epilepsy and neuropathic pain.
+The TxGNN model predicts it may be effective for **tendinitis** with a high score (99.71%), but **no clinical trials** and **no studies directly on pregabalin for tendinitis** support this yet.
+The prediction currently rests mainly on the model score.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no license/label text available) |
+| Original Indication | Neuropathic pain and partial epilepsy (per published literature, PMID 30001248; the Canadian licence records contain no indication text) |
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (indirect evidence only; no tendinitis-specific studies) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for pregabalin is not available in this evidence pack (flagged as a High-severity data gap). Based on the mechanistic reasoning captured elsewhere in this pack's rationale fields, pregabalin acts through α2δ calcium-channel modulation, which underlies its known central analgesic and anticonvulsant effects.
+Detailed mechanism of action data is not available in the Evidence Pack. In general, pregabalin binds the alpha-2-delta subunit of voltage-gated calcium channels. This may reduce the release of excitatory neurotransmitters and dampen nociceptive and neuropathic pain signalling.
 
-Tendinitis, however, is primarily a peripheral soft-tissue inflammatory/degenerative condition rather than a neuropathic-pain process. Pregabalin's calcium-channel modulation can plausibly contribute central analgesic or opioid-sparing benefit as a *perioperative adjunct* (e.g., in patients undergoing arthroscopic rotator cuff repair), but this is a symptomatic pain-control effect, not a disease-modifying mechanism directed at the tendon inflammation itself. The mechanistic link between pregabalin and tendinitis as a *treatment target* is therefore weak and indirect — the model's high similarity score more likely reflects shared "pain/musculoskeletal" graph neighbors rather than a genuine disease-modifying pathway.
+Tendinitis is mainly a painful mechanical and inflammatory condition of the tendon. Pregabalin could at most relieve the pain component, particularly where nerve irritation is involved. It has no known effect on the tendon pathology itself.
 
-By contrast, this same evidence pack contains a considerably stronger secondary signal for **migraine disorder** (rank 5, L2 evidence, one Phase 3 RCT plus multiple completed pediatric/adult RCTs, and a coherent mechanistic story via α2δ-1 inhibition of cortical spreading depression). This is noted here because it materially changes how the overall repurposing opportunity for pregabalin should be prioritized (see Conclusion).
+The related literature is indirect. It covers pain control after arthroscopic rotator cuff repair surgery and nerve-related pain syndromes, not tendinitis treatment. The high TxGNN score should therefore be read as a hypothesis, not as confirmed efficacy.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
-*(0 trials were returned for the tendinitis query; the RCTs identified for pregabalin in this pack relate to perioperative pain control after rotator cuff surgery, not to treatment of tendinitis itself — these are listed under Literature Evidence below rather than as disease-targeted trials.)*
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT (retrospective cohort) | J Orthop Sci | Evaluated analgesic efficacy and opioid-sparing effect of pregabalin after arthroscopic rotator cuff repair; adjunct pain control, not tendinitis treatment |
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperative oral pregabalin produced pain scores equivalent to interscalene brachial plexus block after arthroscopic rotator cuff repair |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Case report | Praxis | Fluoroquinolone (ciprofloxacin)-associated tendinopathy/disability — describes tendon toxicity from a different drug class, not a pregabalin treatment study |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Editorial commentary | Arthroscopy | Discusses piriformis syndrome and sciatic/piriformis tendon release; not directly related to pregabalin or tendinitis treatment |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Case report | Pain Practice | Posterior femoral cutaneous nerve impingement from hamstring tendonitis in a marathon runner; does not evaluate pregabalin as treatment |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preclinical | Adv Pharmacol Pharm Sci | Plant extract (Cissus quadrangularis), not pregabalin, attenuates vincristine-induced peripheral neuropathy in rats |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperative oral pregabalin versus single-shot interscalene block after arthroscopic rotator cuff repair; compares postoperative pain, opioid use and adverse effects. This is a surgical setting, not tendinitis. |
+| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | Retrospective cohort | J Orthop Sci | Analgesic efficacy and opioid-sparing effect of pregabalin after rotator cuff repair; earlier studies gave conflicting results and evidence was described as limited. |
+| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Case report | Pain Pract | Posterior femoral cutaneous nerve impingement linked to hamstring tendonitis in a marathon runner. Nerve-pain context only. |
+| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Editorial | Arthroscopy | Commentary on piriformis syndrome (sciatic nerve compression) and its surgical management. |
+| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Case report | Praxis | Fluoroquinolone-associated disability after ciprofloxacin, including tendinopathy as a side effect. Not about pregabalin treatment. |
+| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preclinical (rat) | Adv Pharmacol Pharm Sci | Plant extract reduced vincristine-induced neuropathic pain in rats. Not related to pregabalin treatment of tendinitis. |
+
+Overall, none of these studies tests pregabalin for tendinitis. The only pregabalin studies are on postoperative pain after shoulder surgery.
+
+---
+
+## Canada Market Information
+
+20 licences (DINs) are on record. The five main ones are listed below. The records contain no dosage form or approved indication text for them.
+
+| DIN | Product Name |
+|---------|------|
+| 02268418 | LYRICA |
+| 02435977 | JAMP-PREGABALIN |
+| 02436019 | JAMP-PREGABALIN |
+| 02479133 | NRA-PREGABALIN |
+| 02494892 | NAT-PREGABALIN |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-**Important caveat:** the absence of listed warnings, contraindications, and drug-interaction data here is itself a **Blocking data gap (DG001)** in this evidence pack — it is explicitly recorded as preventing entry into the S1 safety initial-evaluation stage. This is not equivalent to "no known safety concerns"; it means the safety review has not yet been performed.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The mechanistic link between pregabalin and tendinitis is weak and indirect — no clinical trials target tendinitis directly, and the only RCTs available concern perioperative analgesic adjunct use, not disease treatment.
-- A Blocking-severity data gap (DG001: missing product-label warnings/contraindications) currently prevents this candidate from entering the S1 safety evaluation stage at all, regardless of efficacy evidence.
+The TxGNN score is very high, but there are no clinical trials and no direct studies of pregabalin in tendinitis. The related literature concerns post-surgical or nerve-related pain, so the evidence is indirect (L4).
+
+For comparison, among the other predictions for this drug, migraine disorder (L2, Research Question) has considerably more supporting evidence than tendinitis. That evidence includes pediatric RCTs and a follow-up study, although the dedicated Phase 3 trial was withdrawn.
 
 **To proceed, the following is needed:**
-- Retrieve official label warnings and contraindications (per DG001 remediation: source from the regulatory agency's label PDF)
-- Retrieve DrugBank mechanism-of-action data (per DG002 remediation: DrugBank API query)
-- Confirm original approved indication(s) and marketing/licensing status, currently absent from this pack
-- Consider redirecting repurposing evaluation effort toward **migraine disorder** (rank 5), which has substantially stronger supporting evidence (L2, one completed-intent Phase 3 RCT albeit withdrawn, several completed pediatric RCTs, and a coherent CSD-based mechanistic rationale) and may warrant its own dedicated evaluation report
+- Direct clinical or preclinical evidence of pregabalin in tendinitis or tendinopathy pain
+- Mechanism of action data (query DrugBank) to support the mechanistic-link analysis
+- Health Canada product monograph (warnings and contraindications) for the safety screening
+- Indication text, dosage form and route data for the Canadian licences, to assess route compatibility
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

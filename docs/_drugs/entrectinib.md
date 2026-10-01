@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Entrectinib
-parent: Moderate Evidence (L3-L4)
-nav_order: 283
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 331
+evidence_level: L5
 indication_count: 10
 ---
 
 # Entrectinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,80 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Entrectinib: From NTRK/ROS1-Positive Solid Tumors to Multiple Endocrine Neoplasia
+# Entrectinib: From NTRK Fusion-Positive Solid Tumours to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Entrectinib is a pan-TRK, ROS1, and ALK kinase inhibitor, developed internationally for the treatment of NTRK fusion-positive solid tumors and ROS1-rearranged malignancies.
-The TxGNN model predicts it may be effective for **Multiple Endocrine Neoplasia (MEN)**, with a model confidence score of 98.58%.
-However, only **2 clinical trials** were identified for this pairing — and critically, neither trial directly addresses MEN — meaning the biological rationale remains unvalidated at this time.
+Entrectinib is a kinase inhibitor (TRK, ROS1 and ALK) used in cancer treatment. The Evidence Pack refers to an existing tumour-agnostic indication for NTRK fusion-positive solid tumours, but the Canadian licence records list no indication text.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)** with a high score, but only **2 loosely related clinical trials** and **no publications** support this, and no clear mechanistic link exists.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not approved in Canada (no DINs on file) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+|------|------|
+| Original Indication | Not stated in the Canadian licence records; the Evidence Pack refers to a tumour-agnostic indication for NTRK fusion-positive solid tumours |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 98.58% |
-| Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on clinical trial descriptions within the pack, Entrectinib is a small-molecule inhibitor that selectively targets three receptor tyrosine kinases: TRK (encoded by NTRK1, NTRK2, NTRK3), ROS1, and ALK. Its established utility lies in tumors driven by gene fusions involving these kinases — including NTRK fusion-positive solid tumors across multiple histologies and ROS1-rearranged non-small cell lung cancer, as evidenced by the STARTRK-2 basket trial (NCT02568267, n=534).
+Detailed mechanism-of-action data are not available in the Evidence Pack. From the pack's rationale notes, entrectinib inhibits TRKA/B/C, ROS1 and ALK. It is used in tumours driven by these kinases, such as those carrying NTRK fusions.
 
-Multiple Endocrine Neoplasia is a syndrome driven by germline alterations in **RET** (MEN2A/2B), **MEN1** (MEN1 syndrome), and **CDKN1B** (MEN4) — none of which are primary targets of Entrectinib's TRK/ROS1/ALK inhibitory profile. A minority of MEN-associated tumor subtypes, such as papillary thyroid carcinoma occurring in MEN2 patients, may occasionally harbor NTRK fusions, but NTRK rearrangement is not a defining molecular feature of MEN as a syndrome.
+The link to multiple endocrine neoplasia is weak. The main driver of MEN2 is RET, which entrectinib does not target. The prediction is most likely driven by shared "neoplasia" or kinase-signalling nodes in the knowledge graph rather than a real pharmacological relationship.
 
-The high TxGNN prediction score most likely reflects indirect topological proximity in the knowledge graph: Entrectinib's connections to broad oncology pathways place it near multiple cancer-associated disease nodes, including MEN. This is a known limitation of graph-based predictions when the drug has wide coverage across cancer biology. The current evidence does not support a direct mechanistic hypothesis for Entrectinib in MEN.
+The two trials found for this prediction were probably matched on the word "endocrine". Neither enrolled a MEN population. This prediction should be treated as a model artefact until shown otherwise.
 
 ---
 
 ## Clinical Trial Evidence
 
-The following trials were retrieved for the Entrectinib × Multiple Endocrine Neoplasia query. **Neither trial directly targets MEN** — both represent semantic co-retrieval artifacts:
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04551495](https://clinicaltrials.gov/study/NCT04551495) | Phase 2 | Active, Not Recruiting | 65 | Neoadjuvant Entrectinib targeting ROS1 combined with endocrine therapy in ROS1+ invasive lobular breast carcinoma. The word "endocrine" in the trial title caused a semantic cross-match with MEN; this trial has no MEN-specific design or cohort. |
-| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | Terminated | 2 | SMMART PRIME basket trial exploring precision drug combinations in refractory solid tumors. Terminated early with only 2 participants enrolled; no MEN-specific design. No usable evidence. |
+| [NCT04551495](https://clinicaltrials.gov/study/NCT04551495) | Phase 2 | Active, not recruiting | 65 | Neoadjuvant ROS1-targeted therapy plus endocrine therapy in invasive lobular breast carcinoma. Not a MEN population; no results available. |
+| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | Terminated | 2 | SMMART PRIME precision-oncology platform trial. Not MEN-specific; no interpretable efficacy signal. |
+
+---
+
+## Literature Evidence
+
+Currently no related literature available.
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2495015 | ROZLYTREK |
+| 2495007 | ROZLYTREK |
+
+Dosage form and approved-indication text are not recorded in the licence data.
 
 ---
 
 ## Cytotoxicity
 
-Entrectinib is an antineoplastic kinase inhibitor used for solid tumor treatment.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (Pan-TRK / ROS1 / ALK kinase inhibitor) — not conventional cytotoxic |
-| Myelosuppression Risk | Low to Moderate — anemia and thrombocytopenia (Grade 3–4 ~5–8%) reported in basket trials; less severe than conventional chemotherapy |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, liver function tests (AST/ALT), serum creatinine, neurological assessment (cognitive function, dizziness — due to CNS penetration), QTc interval, body weight |
-| Handling Protection | Standard oncology targeted therapy precautions; does not require cytotoxic drug handling protocols applied to conventional chemotherapy |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (TRK/ROS1/ALK kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The pack notes kinase inhibitors more often cause cytopenias than treat them. |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the Evidence Pack.
 
 ---
 
@@ -99,14 +111,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-MEN is defined by RET/MEN1/CDKN1B germline mutations, none of which are targets of Entrectinib's TRK/ROS1/ALK inhibitory mechanism. The two retrieved clinical trials are semantically mismatched and provide no direct evidence for this indication. The TxGNN score reflects knowledge graph topology rather than a validated biological link.
+The prediction rests on a graph score alone. Entrectinib does not act on RET, the main MEN2 driver, and the two trials retrieved are not MEN studies and offer no efficacy signal. There is no supporting literature.
 
 **To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications, which are needed before any safety screening
+- Confirmed mechanism-of-action data from DrugBank
+- Preclinical or clinical evidence linking TRK/ROS1/ALK inhibition to MEN biology
+- Approved-indication text for the two ROZLYTREK DINs, to confirm the original indication
 
-- Systematic review of NTRK fusion prevalence in MEN-associated tumor subtypes (especially papillary thyroid carcinoma in MEN2 patients) to determine whether a molecularly-selected subpopulation exists
-- Retrieval of complete mechanism of action data from DrugBank (DB11986) to support or refute the mechanistic hypothesis
-- Review of FDA/EMA pharmacovigilance and registry data from approved Entrectinib indications for any MEN-related clinical signals
-- If NTRK fusion frequency in a MEN-associated tumor subtype is confirmed to be clinically meaningful (> ~1%), escalate to a feasibility assessment for a molecularly-selected basket trial cohort
+Among the other TxGNN candidates in this pack, **female breast carcinoma** is the only one with clinically relevant trials. These are the ROS1 Phase 2 trial in invasive lobular carcinoma (NCT04551495) and the STARTRK-2 basket study (NCT02568267). Supporting evidence is limited to biomarker-selected subsets, the Phase 2 studies are single-arm with no results in the pack, and NTRK fusion-positive tumours are already covered by the existing indication. It is better framed as a research question than as a repurposing decision.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

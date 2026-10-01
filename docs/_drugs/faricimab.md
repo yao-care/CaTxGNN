@@ -2,7 +2,7 @@
 layout: default
 title: Faricimab
 parent: Model Prediction Only (L5)
-nav_order: 320
+nav_order: 374
 evidence_level: L5
 indication_count: 0
 ---

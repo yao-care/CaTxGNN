@@ -2,7 +2,7 @@
 layout: default
 title: Anakinra
 parent: Model Prediction Only (L5)
-nav_order: 54
+nav_order: 59
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,37 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Anakinra: From Autoinflammatory Diseases to Extracutaneous Mastocytoma
+# Anakinra: From an IL-1 Receptor Antagonist to Extracutaneous Mastocytoma
 
 ## One-Sentence Summary
 
-Anakinra (Kineret) is a recombinant human IL-1 receptor antagonist (IL-1Ra) used for rheumatoid arthritis and IL-1-mediated autoinflammatory diseases; its original indication is not formally recorded in this Evidence Pack.
-The TxGNN model predicts it may be effective for **Extracutaneous Mastocytoma**,
-however, there are currently **0 clinical trials** and **0 publications** directly supporting this direction — making this a model-only prediction.
+Anakinra is an interleukin-1 (IL-1) receptor antagonist marketed in Canada as KINERET. The provided data do not state its approved indication.
+The TxGNN model predicts it may be effective for **extracutaneous mastocytoma**, but **0 clinical trials** and **0 publications** currently support this prediction.
+It is a model prediction only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available in Evidence Pack (known use: rheumatoid arthritis, autoinflammatory diseases) |
-| Predicted New Indication | Extracutaneous Mastocytoma |
+|------|------|
+| Original Indication | Not stated in the provided data (approved indication text is empty) |
+| Predicted New Indication | Extracutaneous mastocytoma |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not captured in this Evidence Pack. Based on established pharmacology, Anakinra is a recombinant human IL-1 receptor antagonist that competitively blocks the binding of both IL-1α and IL-1β to their shared receptor IL-1R1. By preventing IL-1 receptor engagement, Anakinra suppresses the downstream NF-κB signaling cascade and the release of secondary inflammatory mediators. It was developed specifically for diseases where IL-1β-driven inflammation is central to pathogenesis.
+Detailed mechanism of action data are not available in the record. Based on the analysis provided, anakinra blocks IL-1 signalling by acting as an IL-1 receptor antagonist.
 
-Extracutaneous mastocytoma is a rare neoplastic condition characterised by clonal mast cell accumulation in extracutaneous organs. Mast cells are capable of secreting IL-1β upon activation, and the theoretical rationale is that IL-1Ra blockade might dampen the local inflammatory microenvironment surrounding neoplastic mast cell infiltrates.
+The data do not support any link between IL-1 blockade and mast cell neoplasia. The high TxGNN score (99.93%, model rank 1931) reflects a computational association only. No trials or publications back it, and the similarity to the original indication has not been assessed.
 
-However, the biological link between IL-1 signaling and the oncogenic driver of extracutaneous mastocytoma (typically activating *KIT* mutations, e.g. D816V) has not been established in the literature. Unlike inflammasome-driven autoinflammatory diseases — where Anakinra's efficacy is well-documented — this is primarily a mast cell neoplasm rather than an IL-1-dependent inflammatory syndrome. The TxGNN prediction reflects network proximity in the knowledge graph and should be treated as a mechanistic hypothesis requiring experimental validation.
+This prediction should be treated as a hypothesis with no supporting evidence.
 
 ---
 
@@ -77,13 +77,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Anakinra is currently not marketed in Canada. No Drug Identification Numbers (DINs) are on record in this Evidence Pack.
+| DIN | Product Name |
+|---------|------|
+| 2245913 | KINERET |
+
+Dosage form, manufacturer and approved indication text are not provided in the record.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -92,18 +96,20 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported solely by TxGNN network-based inference (Evidence Level L5), with no clinical trials, observational studies, or publications directly evaluating Anakinra in extracutaneous mastocytoma. The mechanistic link via IL-1β secretion from neoplastic mast cells is biologically conceivable but entirely unvalidated, and the dominant oncogenic mechanism (*KIT* mutation) is independent of the IL-1 pathway.
+The prediction has no clinical trials and no literature behind it, so it stays at evidence level L5. The mechanistic rationale is absent, and the score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- Preclinical studies (in vitro / in vivo) measuring IL-1β levels in extracutaneous mastocytoma tissue and assessing IL-1Ra response in relevant mast cell neoplasm models
-- Literature review clarifying whether IL-1 signalling plays any functional role in *KIT*-mutant mast cell proliferation or survival
-- Full MOA documentation retrieved via DrugBank API to confirm Anakinra's classification and target profile
-- Health Canada / TFDA package insert review for complete warnings, contraindications, and drug interaction profile
-- Exploration of whether any case reports describe IL-1 inhibition in systemic mastocytosis variants (noting that aggressive systemic mastocytosis at rank 4 has marginal indirect case report evidence via Schnitzler syndrome)
+- Health Canada package insert data (warnings, contraindications, approved indication), which is currently a blocking gap for safety screening
+- Detailed mechanism of action data from DrugBank
+- Any preclinical or clinical evidence linking IL-1 blockade to mast cell neoplasia
 
----
+**Other candidates in the same prediction set (for prioritisation):**
+Predictions ranked lower by TxGNN score have stronger evidence than this one:
+- **Autosomal recessive familial Mediterranean fever** is at L4 and "Research Question". The IL-1 rationale is plausible, and the literature includes anakinra case reports (for example PMID 19033248, 20386914, 21931121). Most of the retrieved papers are reviews, though, and no trials were provided.
+- **Pyogenic autoinflammatory syndrome (PAPA/PASH/PAPASH spectrum)** is at L3 and "Research Question". It has an anakinra-specific scoping review (PMID 38259483) and a case report (PMID 39006661), both retrospective or case-level only.
+- **Unclassified autoinflammatory syndrome** is at L3 and "Research Question". It has a single-centre pediatric anakinra cohort (PMID 36589607).
 
-> **Disclaimer:** The results of this report are for research reference only and do not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+These entries are worth a full evidence review before the mastocytoma prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

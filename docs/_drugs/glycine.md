@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Glycine
-parent: Moderate Evidence (L3-L4)
-nav_order: 369
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 434
+evidence_level: L5
 indication_count: 2
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,77 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Glycine: From Nutritional Amino Acid to Nasal Cavity Disease
+# Glycine: From Unlisted Original Indication to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Glycine (DB00145) is a non-essential amino acid with endogenous roles in protein synthesis and neurotransmission, used primarily as a nutritional supplement with no formal approved therapeutic indications on record.
-The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, with **1 clinical trial** and **2 publications** currently identified — though neither directly evaluates glycine as a treatment for this condition.
-The overall evidence base is weak, and this candidate is currently rated **Hold** pending mechanistic validation.
+Glycine is an amino acid used in Canada mainly as an ingredient in irrigation solutions, a parenteral nutrition product (Clinimix) and a sterile diluent. Its approved indication text is not available in the data reviewed.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but the prediction rests on the model alone: **1 clinical trial** and **2 publications** were retrieved, and none of them tests glycine for this condition.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved therapeutic indication on record; used as nutritional amino acid supplement |
-| Predicted New Indication | Nasal Cavity Disease |
+|------|------|
+| Original Indication | Not specified in the available licence data |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Glycine is the simplest amino acid and the only non-chiral proteinogenic amino acid. It acts as an inhibitory neurotransmitter in the central nervous system through glycine receptors (GlyR), and has been studied for its anti-inflammatory properties — most notably its ability to suppress macrophage and neutrophil activation, inhibit NF-κB signalling, and reduce pro-inflammatory cytokine release. These immunomodulatory effects form the mechanistic basis for the TxGNN prediction.
+Currently, detailed mechanism of action data is not available. Glycine is a simple amino acid that appears in Canada as a component of irrigation solutions, nutrition products and a diluent. Its original indication is not recorded in the data supplied, so the prediction cannot be checked against known clinical use.
 
-The proposed link to nasal cavity disease rests on this anti-inflammatory rationale: glycine, by dampening innate immune cell activity via GlyR-mediated chloride influx, could theoretically reduce mucosal inflammation in the nasal cavity. Nasal cavity diseases (including rhinitis, nasal polyposis, and chronic rhinosinusitis) are characterised by persistent mucosal inflammation driven by the very pathways glycine is thought to modulate.
+Glycine is known to act on glycine-gated chloride channels on immune and epithelial cells. This gives it plausible general anti-inflammatory and cytoprotective properties, which could in theory relate to inflamed nasal mucosa. However, the supplied data show no specific mechanism linking glycine to nasal cavity disease.
 
-However, it must be emphasised that this mechanistic chain has not been validated in nasal tissue models or clinical studies. The connection is inferential — extrapolated from general glycine immunopharmacology rather than nasal-cavity-specific experimentation. No direct mechanistic or preclinical data establishing glycine's effect on nasal mucosa has been identified. This prediction should be treated as a hypothesis-generating signal, not a confirmed mechanistic pathway.
+The very high score (99.85%, model rank 3,614) reflects a pattern in the knowledge graph, not confirmed biology or clinical results. It should be treated as a hypothesis to test.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET/CT imaging study using 18F-FPPRGD2 (an RGD peptide tracer containing glycine as a backbone component) to assess αvβ3 integrin expression as a biomarker of angiogenesis in GBM, gynaecological cancers, and RCC. **Glycine is not the therapeutic agent in this trial; it is a structural component of the radiolabelled peptide. No relevance to nasal cavity disease treatment.** |
+|---------|------|------|------|---------|
+| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET imaging study of a radiotracer (18F-FPPRGD2) in glioblastoma, gynaecological cancer and renal cell carcinoma. It does not test glycine, and the link to this prediction is probably a keyword artifact (relevance grade C). |
 
-> **Note:** No clinical trials evaluating glycine as a therapeutic agent for nasal cavity disease were identified. The single trial retrieved is rated Grade C relevance.
+No registered trial tests glycine for nasal cavity disease.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Animal histochemistry study | Veterinary Pathology | Examined glycoconjugate composition of normal and BHV1-infected bovine nasal mucosa using lectin histochemistry. Investigates mucosal glycan changes following herpesvirus infection in cattle. Not a glycine treatment study; glycine is referenced only as part of the amino acid context of mucosal glycoproteins. |
-| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | In vitro / drug delivery study | Chemical & Pharmaceutical Bulletin | Evaluated oligoarginine-conjugated polymers as nasal mucosal adjuvants for influenza vaccination in mice. Arginine-based peptides (not glycine) are the active components. Glycine is not the study drug; findings are not directly applicable. |
+|------|-----|------|------|---------|
+| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic science (animal tissue) | Veterinary Pathology | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. It describes tissue glycoconjugates, not glycine treatment. |
+| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical formulation study | Chemical & Pharmaceutical Bulletin | Oligoarginine-polymer conjugates as a mucosal adjuvant for nasal vaccination in mice. It is unrelated to glycine as a therapy. |
 
-> **Note:** Neither publication directly evaluates glycine as a treatment for nasal cavity disease. Both are Tier 3 (animal or in vitro studies with indirect relevance).
+Neither publication provides clinical evidence for glycine in nasal cavity disease.
 
 ---
 
 ## Canada Market Information
 
-Glycine (DB00145) currently has **no Drug Identification Numbers (DINs)** issued by Health Canada and is not marketed as a pharmaceutical product in Canada.
+| DIN | Product Name |
+|---------|------|
+| 498793 | GLYCINE IRRIGATION USP |
+| 799955 | GLYCINE 1.5% IRRIGATION USP SOL |
+| 2443651 | PH 12 STERILE DILUENT FOR FLOLAN |
+| 2046709 | CLINIMIX |
+| 2013932 | CLINIMIX |
 
-It may be available as a natural health product or nutritional supplement under separate NHP regulations, which are outside the scope of this evaluation.
+Showing 5 of 20 authorizations. Dosage form and approved indication text are not available for these products.
 
 ---
 
 ## Safety Considerations
 
-Detailed prescribing information, Health Canada–approved warnings, and contraindications for glycine as a pharmaceutical product are not available in the current dataset (no Canadian DINs on file, no package insert retrieved).
-
-No drug–drug interactions were identified in the evidence pack query.
-
-> Please refer to any available product monograph or package insert for safety information. For high-dose glycine use (e.g., irrigation solutions in urological procedures), clinically relevant risks include hyponatraemia and neurotoxicity from systemic absorption — these should be considered if any non-oral route is under evaluation.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -107,15 +108,18 @@ No drug–drug interactions were identified in the evidence pack query.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high predictive score (99.85%), but the evidence base for glycine in nasal cavity disease consists only of mechanistic inference — no preclinical in vivo nasal models, no Phase 1 trials, and no published clinical studies directly testing this indication have been identified. The evidence level (L4) reflects this gap.
+The prediction is model-only (L5). The one retrieved trial and both publications are unrelated to glycine treatment, and there is no mechanistic or clinical support for nasal cavity disease. Safety data are also missing, so the candidate cannot move past the initial screening stage.
 
 **To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indications and dosage forms for the Canadian glycine products
+- Mechanism of action data, for example from DrugBank
+- Preclinical or clinical studies of glycine in nasal or upper airway inflammation
+- Assessment of whether a route suitable for nasal use exists, since the current products are irrigation, nutrition and diluent formulations
 
-- **Preclinical validation**: In vitro or animal studies demonstrating glycine's effect on nasal mucosal inflammation (e.g., nasal epithelial cell cultures, murine rhinosinusitis models) to establish biological plausibility.
-- **MOA data**: Formal mechanism-of-action characterisation from DrugBank or primary literature confirming glycine's anti-inflammatory pathway at therapeutically achievable concentrations.
-- **Route-of-administration assessment**: Clarification of whether intranasal delivery of glycine is feasible and at what concentration the anti-inflammatory effect is active locally.
-- **Regulatory classification review**: Determine whether glycine would be regulated as a drug or natural health product in Canada for this indication, as this affects the regulatory pathway.
-- **Safety profile**: Retrieve the Health Canada product monograph or equivalent regulatory document to complete the S1 safety screening that is currently blocked.
+**Note:** The second predicted indication, acute laryngopharyngitis (score 99.84%), is in the same position. It has no supporting trials, and its one retrieved publication concerns a different drug, so it is also on Hold.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

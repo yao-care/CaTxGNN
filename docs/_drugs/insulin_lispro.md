@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Lispro
 parent: Model Prediction Only (L5)
-nav_order: 410
+nav_order: 481
 evidence_level: L5
 indication_count: 9
 ---
@@ -33,67 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Insulin Lispro is a rapid-acting insulin analog used for glycemic control in diabetes mellitus. The TxGNN model predicts a possible link to **Autoimmune Oophoritis**, with a very high raw prediction score (99.78%), but **zero clinical trials** and **zero publications** currently support this specific drug-disease pair, and the underlying mechanistic rationale suggests the association may reflect disease comorbidity rather than a genuine treatment effect.
-
----
+Insulin lispro is a rapid-acting insulin analog used to control blood glucose in diabetes.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes Mellitus (glycemic control) — specific Health Canada label text not available in this evidence pack |
-| Predicted New Indication | Autoimmune Oophoritis |
+| Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 12 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known pharmacology, insulin lispro is a rapid-acting insulin analog that activates the insulin receptor to promote glucose uptake; its efficacy in diabetes mellitus is well established.
+Currently, detailed mechanism of action data is not available. Based on known information, insulin lispro is a rapid-acting insulin analog, and its efficacy in glycemic control in diabetes is well established. The evidence provided does not show a mechanistic link to autoimmune oophoritis.
 
-However, the mechanistic rationale supplied with this candidate is explicit that **no known mechanistic pathway connects insulin/insulin-receptor signaling to autoimmune oophoritis**. The two conditions co-occur only because both can appear within Autoimmune Polyglandular Syndrome (APS), where autoimmune oophoritis and Type 1 diabetes are sometimes seen in the same patient. This is a **comorbidity association, not a causal or treatment relationship** — the TxGNN score most likely reflects shared autoimmune-disease network proximity in the knowledge graph rather than a therapeutic signal.
+The high score (99.78%) most likely reflects proximity between autoimmune and endocrine nodes in the knowledge graph. It does not indicate a plausible effect of insulin on autoimmune attack of the ovary. Without trials or literature, this prediction should be treated as a hypothesis only.
 
-Given the absence of any supporting trial or literature evidence, and an explicit statement in the rationale that the link is non-causal, this prediction should be treated as exploratory only.
-
----
+The other eight predictions in the pack are also unsupported or weak, and none is a clear repurposing opportunity:
+- **Pancreatic agenesis** is the strongest of them (Evidence Level L4). Insulin replacement is physiologically rational and already standard care. The two retrieved articles cover type 2 diabetes, not this condition, so they are only indirect evidence.
+- **Thiamine-responsive dysfunction syndrome** and the **stiff-person spectrum** disorders (focal stiff limb syndrome and classic stiff person syndrome) are linked through comorbid diabetes. Insulin would only treat the diabetes, not the underlying disease.
+- **Drug-induced localized lipodystrophy**, **centrifugal lipodystrophy** and **pressure-induced localized lipoatrophy** should be read as adverse-effect signals. Injected insulin is a known cause of injection-site lipodystrophy and lipoatrophy.
+- **Opsismodysplasia** has only a speculative pathway link through SHIP2/PI3K signaling.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Canada Market Information
+
+12 authorizations are recorded. The main ones are listed below. Dosage form and approved indication text were not provided.
+
+| DIN | Product Name |
+|---------|------|
+| 02403412 | HUMALOG (KWIKPEN) |
+| 02469898 | ADMELOG |
+| 02469901 | ADMELOG |
+| 02439611 | HUMALOG 200 UNITS/ML KWIKPEN |
+| 02469871 | ADMELOG SOLOSTAR |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: TFDA/Health Canada label warnings and contraindications are recorded as a Blocking-severity data gap (DG001) — this prevents any formal safety pre-screening (S1) for this candidate.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked candidate (autoimmune oophoritis) has no clinical trial or literature support (Evidence Level L5), and its own mechanistic rationale indicates the TxGNN association is likely driven by disease comorbidity rather than a plausible treatment pathway. Combined with a Blocking data gap on product safety labeling, there is currently no basis to advance this candidate past model prediction.
+The prediction has no clinical trials or literature behind it (Evidence Level L5), and no plausible mechanism links insulin lispro to autoimmune oophoritis. The high TxGNN score most likely reflects graph proximity rather than biological effect.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label (warnings, contraindications) to close the Blocking data gap (DG001)
-- Confirmed mechanism-of-action data for insulin lispro (DG002)
-- Independent literature or preclinical validation specifically linking insulin/insulin-receptor signaling to autoimmune oophoritis pathophysiology
-
-**Additional note on other candidates in this evidence pack:** Among the 9 predicted indications for insulin lispro, one — *pancreatic agenesis* (rank 7, L3, 2 PubMed reviews) — is the most credible signal, but it reflects an existing clinical practice (insulin replacement in congenital neonatal diabetes) rather than a novel repurposing opportunity. Three others — *drug-induced localized lipodystrophy*, *centrifugal lipodystrophy*, and *pressure-induced localized lipoatrophy* — appear to have **reversed causality**: insulin injection is a known cause of these conditions, not a treatment for them, and should be excluded from further repurposing evaluation rather than pursued.
+- Mechanism of action data (MOA), for example from DrugBank
+- Health Canada package insert warnings and contraindications, which are needed for safety screening
+- Any preclinical or clinical evidence linking insulin to autoimmune oophoritis
+- Approved indication text and dosage forms for the Canadian licenses
+- Route compatibility assessment, which is still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

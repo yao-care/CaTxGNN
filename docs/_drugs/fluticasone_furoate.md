@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: Moderate Evidence (L3-L4)
-nav_order: 343
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 402
+evidence_level: L5
 indication_count: 8
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,105 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-# Fluticasone Furoate: From Asthma/COPD Maintenance to Atopic Eczema
+# Fluticasone Furoate: From Allergic Rhinitis and Asthma/COPD to Atopic Eczema
 
 ## One-Sentence Summary
 
-Fluticasone furoate (FF) is a next-generation inhaled corticosteroid (ICS) with high glucocorticoid receptor (GR) affinity, globally approved for asthma maintenance therapy (Arnuity Ellipta) and COPD (Breo Ellipta), though it is not currently marketed in Canada.
-The TxGNN model predicts it may be effective for **atopic eczema**, with **11 clinical trials** and **2 publications** currently supporting this direction — primarily through class evidence from the closely related compound fluticasone propionate (FP).
-Evidence is rated at **L3**, reflecting observational and comparative study data rather than completed Phase 3 RCTs for FF specifically in atopic eczema.
+Fluticasone furoate is a corticosteroid marketed in Canada as AVAMYS, ARNUITY ELLIPTA and BREO ELLIPTA, so its original uses are presumably nasal and inhaled treatment of allergic rhinitis, asthma and COPD.
+The TxGNN model predicts it may be effective for **atopic eczema**, with **10 clinical trials** and **2 publications** matched to this indication.
+All 10 trials test the related salt fluticasone propionate or are only loosely related, so the evidence supports a class effect, not direct proof for furoate.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Asthma maintenance; COPD (globally approved; not marketed in Canada) |
-| Predicted New Indication | Atopic Eczema |
+|------|------|
+| Original Indication | Allergic rhinitis and asthma/COPD (inferred from the marketed product names; no indication text in the Canadian licence records) |
+| Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 (weak: the Phase 3 trial was terminated and tested propionate, not furoate) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 7 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Fluticasone furoate is a high-affinity glucocorticoid receptor (GR) agonist that acts primarily through suppression of the Th2 inflammatory cascade — specifically inhibiting IL-4, IL-13, and TSLP cytokine signalling, and reducing mast cell degranulation and eosinophil infiltration. These are precisely the central pathological mechanisms driving atopic eczema (atopic dermatitis), making the mechanistic link between FF and this skin condition direct and biologically credible.
+Fluticasone furoate is a high-potency glucocorticoid receptor agonist. It suppresses NF-kB/AP-1 signalling and Th2 cytokine output. Atopic skin inflammation is driven by the same pathways, so the biological rationale is coherent. Topical corticosteroids are already a standard treatment for atopic dermatitis.
 
-The strongest indirect support comes from its structural analogue, fluticasone propionate (FP), which is approved under the brand name Cutivate as a topical cream and lotion specifically for atopic dermatitis. Multiple Phase 3/4 clinical trials have demonstrated FP's efficacy in both acute management and relapse prevention of atopic eczema across adult and paediatric populations. Since FF and FP share the same GR-agonist mechanism and are often considered within the same drug class, the class-level evidence for FP provides substantial indirect support for FF.
+The catch is that the supporting trials all use **fluticasone propionate**, a different salt, in topical or swallowed form. No topical dermatologic furoate product appears in the supplied data. The prediction therefore rests on the shared corticosteroid class, not on furoate-specific data.
 
-The key remaining challenge is formulation: FF currently has no approved topical dermatological preparation, and its existing dosage forms (inhaled dry-powder inhalers, nasal spray) are not suitable for skin application. Any clinical development pathway for FF in atopic eczema would require formulation development work to establish a topical preparation with appropriate penetration, stability, and safety profile — an additional regulatory and pharmaceutical step not required for FP.
+Two other points affect how to read the prediction:
+- "Atopic eczema" and "dermatitis, atopic" (rank 4) are the same disease concept with identical trials and literature. They should be merged, not counted twice.
+- Other high-scoring predictions are weaker. Bronchitis has more trials, including furoate-containing products such as RELVAR/BREO, but they mostly cover COPD, bronchiectasis and bronchiolitis obliterans. Several skin-related predictions (HEMA sensitization, occupational dermatitis, phototoxic dermatitis) and "asthma-related traits, susceptibility to" have no trials or literature at all.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | Completed | 577 | Tacrolimus 0.1% vs fluticasone 0.005% ointment in moderate-to-severe AD with "red face" lesions; patients applied treatment twice daily for 3 weeks, with option to continue once daily |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Active, not recruiting | 398 | SEAL Study: proactive twice-daily FP cream plus tri-lipid barrier cream vs reactive therapy in infants with AD at 12 weeks; aims to prevent food allergy by reducing AD severity |
-| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | Completed | 90 | Exploratory double-blind, vehicle-controlled study of pimecrolimus 1% cream combined with Cutivate 0.05% cream in severe AD; assessed synergistic anti-inflammatory effect |
-| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | Completed | 107 | Intermittent FP 0.05% cream twice weekly during maintenance phase combined with daily moisturisation in stabilised paediatric AD; assessed relapse prevention |
-| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | Completed | 487 | Tacrolimus 0.03% vs fluticasone 0.005% ointment in children ≥2 years with moderate-to-severe AD; treatment applied twice daily for 3 weeks |
-| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | Completed | 56 | Open-label multi-centre study of Cutivate (FP 0.05%) lotion in infants with AD; evaluated impact on hypothalamic-pituitary-adrenal (HPA) axis safety |
-| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | Terminated | 54 | Double-blind RCT of FP 0.05% cream twice weekly for 16-week maintenance in mild-to-moderate childhood AD after flare stabilisation; early termination limits conclusions |
-| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | Completed | 121 | Pilot RCT comparing EpiCream device vs FP 0.05% cream as standard of care in moderate-to-severe paediatric AD over 4 weeks twice-daily dosing |
-| [NCT03594565](https://clinicaltrials.gov/study/NCT03594565) | Early Phase 1 | Completed | 13 | Case series using topical nasal corticosteroids (potentially including FF nasal spray) for skin reactions to continuous glucose monitoring adhesives in children with Type 1 diabetes; rare direct FF skin-application signal |
-| [NCT04706559](https://clinicaltrials.gov/study/NCT04706559) | N/A | Completed | 98 | Probiotic mixture vs placebo in paediatric AD; assessed SCORAD improvement; fluticasone was not the investigational drug but provides AD population context |
+|---------|------|------|------|---------|
+| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | Terminated | 54 | Double-blind RCT of twice-weekly fluticasone propionate 0.05% cream to prevent relapse in children with mild to moderate atopic dermatitis. It is the closest design match, but it was stopped early and is small. |
+| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | Completed | 107 | Open-label randomized study of intermittent (twice-weekly) fluticasone propionate cream plus moisturizer in children with stabilized atopic dermatitis. |
+| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | Completed | 56 | Open-label, uncontrolled study of fluticasone propionate 0.05% lotion and its effect on the HPA axis in infants with atopic dermatitis. |
+| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | Completed | 577 | Tacrolimus 0.1% ointment versus fluticasone 0.005% ointment in adults with facial atopic dermatitis. Fluticasone is likely the comparator. |
+| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | Completed | 487 | Tacrolimus 0.03% ointment versus fluticasone 0.005% ointment in children with moderate to severe atopic dermatitis. Fluticasone is likely the comparator. |
+| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | Completed | 90 | Exploratory vehicle-controlled paired study of Elidel 1% plus Cutivate 0.05% in severe atopic dermatitis. |
+| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | Completed | 121 | Investigator-blind pilot comparing EpiCeram with mid-strength topical steroid (fluticasone propionate 0.05%) in children with moderate to severe atopic dermatitis. |
+| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Active, not recruiting | 398 | SEAL study of skin-barrier care plus proactive fluticasone propionate cream to prevent food allergy in infants with early atopic dermatitis. The focus is prevention. |
+| [NCT00426283](https://clinicaltrials.gov/study/NCT00426283) | Phase 2 | Completed | 42 | Placebo-controlled RCT of swallowed fluticasone propionate, most likely in eosinophilic esophagitis, so it is indirect for eczema. |
+| [NCT03594565](https://clinicaltrials.gov/study/NCT03594565) | Early Phase 1 | Completed | 13 | Case series of nasal steroids for skin reactions to continuous glucose monitors in children with type 1 diabetes. It is device-related contact reaction, not eczema. |
+
+One further matched trial, NCT04706559 (probiotics in children with atopic dermatitis), does not involve fluticasone and is omitted. It was matched only by disease term.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Reviews systemic effects of intranasal corticosteroids (including fluticasone formulations) on HPA axis; notes co-occurrence of allergic rhinitis with asthma and atopic dermatitis, and cumulative systemic steroid exposure concerns across multiple routes |
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case Report | Indian Journal of Otolaryngology and Head and Neck Surgery | Allergen immunotherapy in a patient with autoimmune disease; discusses AIT application in atopic dermatitis and its interaction with anti-inflammatory therapies; provides background on immunological mechanisms in atopic conditions |
+|------|-----|------|------|---------|
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Intranasal corticosteroids in allergic rhinitis, which often coexists with asthma and atopic dermatitis. It reviews HPA-axis suppression as a measure of systemic steroid effect. |
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case report | Indian J Otolaryngol Head Neck Surg | Allergen immunotherapy in a patient with autoimmune disease. Atopic dermatitis is mentioned only as an emerging use of immunotherapy, and fluticasone is not the subject. |
+
+Neither publication tests fluticasone furoate in atopic eczema.
 
 ---
 
 ## Canada Market Information
 
-Fluticasone furoate is not currently marketed in Canada and holds no Drug Identification Numbers (DINs). No Health Canada approved products were identified for this compound.
+Seven DINs are recorded. The five main authorizations are listed below. The records contain no dosage form or approved indication text.
 
-For reference, the closely related compound fluticasone propionate is available in Canada under product names including Cutivate (topical formulation for atopic dermatitis) and Flovent (inhaled formulation for asthma). Fluticasone furoate is globally marketed as Arnuity Ellipta (asthma maintenance) and as part of Breo Ellipta (COPD), but these formulations are inhaled and are not applicable to the atopic eczema indication.
+| DIN | Product Name |
+|---------|------|
+| 2298589 | AVAMYS |
+| 2446588 | ARNUITY ELLIPTA |
+| 2446561 | ARNUITY ELLIPTA |
+| 2444186 | BREO ELLIPTA |
+| 2408872 | BREO ELLIPTA |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No specific key warnings, contraindications, or drug-drug interaction data were available for fluticasone furoate in this evidence pack. When considering topical formulation development, the following general class-level considerations for topical corticosteroids apply:
-
-- **HPA axis suppression**: A recognized risk with prolonged or extensive topical corticosteroid use, particularly in infants and under occlusion. The NCT00546000 trial specifically studied this risk with FP lotion in paediatric AD.
-- **Skin atrophy**: Long-term topical corticosteroid use may cause epidermal thinning, particularly on sensitive areas (face, skin folds).
-- **Systemic absorption**: FF's high receptor-binding affinity may carry a risk of systemic effects even via the topical route; formal bioavailability studies for a topical FF formulation would be required.
+Please refer to the package insert for safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction is mechanistically well-supported — FF acts directly on the Th2 inflammatory pathways central to atopic eczema, and the class-level evidence from fluticasone propionate (Cutivate) establishes robust Phase 3/4 proof-of-concept for this indication. However, FF currently lacks any approved topical dermatological formulation, and the existing clinical trial evidence applies to FP rather than FF directly, warranting guardrails before committing to full development.
+The TxGNN score is very high (99.98%), and corticosteroids are a proven class for atopic dermatitis. However, every relevant trial used fluticasone propionate, the only Phase 3 RCT was terminated early with 54 patients, and no topical furoate product appears in the supplied data. The current evidence supports a class-level research question, not a furoate-specific repurposing case.
 
 **To proceed, the following is needed:**
-
-- **Topical formulation development**: A topical FF formulation (cream, ointment, or lotion) must be designed and characterised for skin penetration, stability, and tolerability — this is the most critical gap before any clinical evaluation.
-- **Direct FF safety data**: Obtain and review the full package insert for Arnuity Ellipta / Breo Ellipta to establish the baseline systemic safety profile of FF; evaluate whether high local potency raises additional risks in the dermatological route compared to FP.
-- **Bioavailability and HPA axis assessment**: Conduct formal pharmacokinetic studies for a candidate topical FF formulation to quantify systemic absorption and potential HPA axis suppression, particularly for paediatric populations.
-- **Phase 2 proof-of-concept trial**: Once a stable formulation is established, an RCT comparing topical FF to topical FP (Cutivate) and vehicle control in moderate-to-severe atopic eczema patients would provide direct evidence and define the potential differentiation (e.g., lower frequency dosing due to FF's longer receptor residence time).
-- **Regulatory pathway scoping**: Engage Health Canada regarding the pathway for a novel topical formulation of FF, given the absence of any existing Canadian DINs for this compound.
+- Furoate-specific evidence in atopic dermatitis, such as a topical formulation, dermal pharmacology data, or a controlled trial
+- Confirmation from the Health Canada package inserts of the approved indications, warnings and contraindications
+- Detailed mechanism of action data from DrugBank
+- A merged "atopic eczema" / "dermatitis, atopic" entry to avoid double counting
+- A safety plan covering HPA-axis suppression and use in children, since several trials examine this
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

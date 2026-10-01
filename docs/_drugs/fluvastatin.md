@@ -2,15 +2,15 @@
 layout: default
 title: Fluvastatin
 parent: High Evidence (L1-L2)
-nav_order: 344
-evidence_level: L1
+nav_order: 403
+evidence_level: L2
 indication_count: 10
 ---
 
 # Fluvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,17 +29,11 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-The `data-report` skill confirms the core principle of output fidelity — I'll present the Evidence Pack data faithfully without fabrication. Since the data is provided directly in the JSON (no CLI needed), I'll now generate the report following the Drug Repurposing Evaluation Report Prompt v5.
-
----
-
-# Fluvastatin: From Hypercholesterolemia to Hyperlipoproteinemia
+# Fluvastatin: From Lipid Lowering (Statin Therapy) to Hyperlipoproteinemia
 
 ## One-Sentence Summary
 
-Fluvastatin is the first fully synthetic statin (HMG-CoA reductase inhibitor), globally approved for the treatment of hypercholesterolemia and mixed dyslipidemia, though it currently holds no Drug Identification Number (DIN) in Canada.
-The TxGNN model predicts it may be effective for **Hyperlipoproteinemia**,
-with **5 clinical trials** and **20 publications** currently supporting this direction.
+Fluvastatin is a marketed statin (HMG-CoA reductase inhibitor) used to lower blood cholesterol. The TxGNN model predicts it may be effective for **hyperlipoproteinemia**, which is most likely an established use rather than true repurposing. The evidence base is **5 registered clinical trials** (none is a fluvastatin-specific efficacy trial) and **20 publications**, including several fluvastatin randomized trials.
 
 ---
 
@@ -47,23 +41,23 @@ with **5 clinical trials** and **20 publications** currently supporting this dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypercholesterolemia / Mixed Dyslipidemia (established global approval; no Canadian DIN on record) |
+| Original Indication | Not recorded in the Canadian licence data. Fluvastatin is a marketed lipid-lowering statin. |
 | Predicted New Indication | Hyperlipoproteinemia |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L2 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank feed included in this Evidence Pack (flagged as a high-severity data gap). Based on known information, Fluvastatin belongs to the statin class (HMG-CoA reductase inhibitors) — the first fully synthetic member of this drug family. It competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in hepatic cholesterol biosynthesis. By depleting intracellular cholesterol, it triggers compensatory upregulation of LDL receptors on hepatocytes, enhancing clearance of circulating LDL-C and triglycerides. This mechanism directly targets the pathological core of hyperlipoproteinemia.
+Fluvastatin inhibits HMG-CoA reductase, the rate-limiting enzyme of hepatic cholesterol synthesis. Lower intracellular cholesterol upregulates LDL receptors on liver cells, which clears more LDL cholesterol from the blood. This is the core statin mechanism and a direct fit for lipoprotein disorders. The DrugBank mechanism-of-action field is empty in this Evidence Pack, so this description comes from the pack's repurposing rationale.
 
-Hyperlipoproteinemia encompasses a spectrum of plasma lipoprotein elevation disorders — including Type IIa (isolated LDL elevation), Type IIb (combined LDL and VLDL elevation), and mixed dyslipidemias. Each subtype is mechanistically addressable by HMG-CoA reductase inhibition, explaining the strong alignment between Fluvastatin's primary pharmacology and the predicted indication. The statin class is already the first-line standard of care for most hyperlipoproteinemia subtypes globally.
+The link between the drug's known use and the predicted indication is very close. Hyperlipoproteinemia is a disorder of elevated blood lipoproteins, and lowering LDL-C is what fluvastatin is designed to do. Because the pack lists no original indications, the label wording has not been confirmed against the Canadian regulatory record.
 
-The mechanistic link is further reinforced by the breadth of clinical evidence reviewed: multiple completed RCTs and cohort studies demonstrate Fluvastatin's efficacy across Type IIa, Type IIb, familial hypercholesterolemia, and mixed hyperlipidemia populations — including in Chinese patients and pediatric cohorts. The TxGNN knowledge graph assigns this prediction a rank of 436 (top 0.5% of all disease–drug pairs), consistent with the strong biological plausibility.
+The evidence level is capped at L2 because none of the registered trials is a fluvastatin-specific Phase 3 RCT. The support comes from published fluvastatin trials, including randomized comparisons of fluvastatin formulations and of fluvastatin combined with fibrates.
 
 ---
 
@@ -71,44 +65,45 @@ The mechanistic link is further reinforced by the breadth of clinical evidence r
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00726362](https://clinicaltrials.gov/study/NCT00726362) | N/A | Completed | 3,270 | Large multi-centre surveillance study comparing several statins under routine clinical practice in hyperlipidemia patients, with fluvastatin explicitly included as one of the comparator agents; provides real-world efficacy and safety data |
-| [NCT04608474](https://clinicaltrials.gov/study/NCT04608474) | Phase 4 | Unknown | 120 | Evaluates PCSK9 inhibitor evolocumab for post-renal-transplant hyperlipidemia; contextually relevant to statin combination strategies in immunosuppressant-induced hyperlipoproteinemia |
-| [NCT01634906](https://clinicaltrials.gov/study/NCT01634906) | N/A | Completed | 55 | Non-randomized study measuring erythrocyte-bound apolipoprotein B (ery-apoB) at baseline and after statin (including fluvastatin) withdrawal; explores mechanistic cardiovascular pleiotropic effects of statins |
-| [NCT00532311](https://clinicaltrials.gov/study/NCT00532311) | Phase 3 | Terminated | 411 | Lapaquistat acetate (squalene synthase inhibitor) co-administered with statins in hypercholesterolemia; fluvastatin likely served as a background comparator agent; terminated early, limiting interpretability |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Alirocumab in pediatric homozygous FH (ages 8–17) on background lipid-lowering therapy; contextually relevant to severe hyperlipoproteinemia requiring combination approaches |
+| [NCT00726362](https://clinicaltrials.gov/study/NCT00726362) | N/A | Completed | 3270 | Surveillance of the efficacy of commercially available statins, fluvastatin among those named, in hyperlipidemia under routine practice. Most relevant registered study, but fluvastatin-specific results are not separated. |
+| [NCT04608474](https://clinicaltrials.gov/study/NCT04608474) | Phase 4 | Unknown | 120 | PCSK9 inhibitor (evolocumab) for lipid management in renal transplant recipients. Not a fluvastatin study. |
+| [NCT01634906](https://clinicaltrials.gov/study/NCT01634906) | N/A | Completed | 55 | Effect of statin withdrawal on erythrocyte-bound apolipoprotein B. Biomarker study with no fluvastatin efficacy readout. |
+| [NCT00532311](https://clinicaltrials.gov/study/NCT00532311) | Phase 3 | Terminated | 411 | Lapaquistat acetate vs placebo added to statins in hypercholesterolemia. Statins are background therapy only. |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Alirocumab in children and adolescents with homozygous familial hypercholesterolemia. Not a fluvastatin study. |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10856536](https://pubmed.ncbi.nlm.nih.gov/10856536/) | 2000 | RCT | Atherosclerosis | FACT study (n=333): multicentre double-blind RCT of fluvastatin 40mg alone vs. bezafibrate 400mg alone vs. combination in CAD patients with mixed hyperlipidemia; combination superior for comprehensive lipid correction |
-| [11219479](https://pubmed.ncbi.nlm.nih.gov/11219479/) | 2001 | RCT | Clinical Therapeutics | Randomized trial comparing fluvastatin XL 80mg once daily vs. immediate-release in primary hypercholesterolemia; extended-release formulation demonstrated equivalent lipid-lowering with improved dosing convenience |
-| [15598476](https://pubmed.ncbi.nlm.nih.gov/15598476/) | 2004 | Clinical Study | Clinical Therapeutics | 12-month double-blind RCT: fluvastatin + fenofibrate vs. fluvastatin monotherapy in combined hyperlipidemia, T2DM, and CHD; combination therapy improved LDL-C, triglycerides, and glycaemic parameters without safety concerns |
-| [7604789](https://pubmed.ncbi.nlm.nih.gov/7604789/) | 1995 | Clinical Study | Am J Cardiology | Fluvastatin 20–40mg in 31 Chinese hypercholesterolemia patients (including 6 with familial hypercholesterolemia and comorbid hypertension or T2DM); significant reductions in LDL-C and apolipoprotein B with favorable tolerability |
-| [9271817](https://pubmed.ncbi.nlm.nih.gov/9271817/) | 1997 | Clinical Study | Thrombosis Research | Fluvastatin 40mg once daily in 20 patients with Type IIa and IIb hyperlipidemia; assessed lipid-lowering alongside coagulation effects (tissue factor pathway inhibitor antigen levels) |
-| [17062478](https://pubmed.ncbi.nlm.nih.gov/17062478/) | 2006 | Clinical Study | Acta Paediatrica | Fluvastatin in children and adolescents with heterozygous familial hypercholesterolemia; early statin initiation favorably altered lipid profiles and vascular morphological markers |
-| [8192170](https://pubmed.ncbi.nlm.nih.gov/8192170/) | 1994 | Clinical Study | Am J Medicine | Comparison of fluvastatin-bezafibrate vs. fluvastatin-cholestyramine combination therapies in HeFH; both combinations reduced LDL-C significantly, with different tolerability profiles |
-| [10067240](https://pubmed.ncbi.nlm.nih.gov/10067240/) | 1998 | Cohort | Terapevticheskii Arkhiv | Comparative metabolic analysis of simvastatin vs. fluvastatin in primary hyperlipoproteinemia patients; tracked LCAT and cholesterol ester transfer activity, apoE levels, and lipoprotein subfraction changes |
-| [8768633](https://pubmed.ncbi.nlm.nih.gov/8768633/) | 1996 | Clinical Study | Arch Inst Cardiologia Mexico | Fluvastatin sodium 40mg once daily in 40 Type IIa dyslipidemia patients; total cholesterol reduced by 20.7% (p<0.01), LDL-C by 29.5% (p<0.01), with good tolerability |
-| [11347136](https://pubmed.ncbi.nlm.nih.gov/11347136/) | 2001 | Review | Nihon Rinsho | Japanese clinical medicine review covering fluvastatin pharmacology, clinical efficacy, and role in hyperlipoproteinemia management |
+|------|-----|------|---------|---------|
+| [10856536](https://pubmed.ncbi.nlm.nih.gov/10856536/) | 2000 | RCT | Atherosclerosis | FACT study: 333 patients with coronary artery disease and mixed hyperlipidaemia were randomized to fluvastatin, bezafibrate or their combination, testing lipid effects and safety. |
+| [11219479](https://pubmed.ncbi.nlm.nih.gov/11219479/) | 2001 | RCT | Clinical Therapeutics | Compared once-daily extended-release fluvastatin 80 mg with the immediate-release formulation in primary hypercholesterolemia. |
+| [15598476](https://pubmed.ncbi.nlm.nih.gov/15598476/) | 2004 | RCT | Clinical Therapeutics | 12-month double-blind trial of fluvastatin plus fenofibrate vs fluvastatin alone in combined hyperlipidemia with type 2 diabetes and coronary heart disease. |
+| [17062478](https://pubmed.ncbi.nlm.nih.gov/17062478/) | 2006 | Clinical trial | Acta Paediatrica | Fluvastatin in children and adolescents with heterozygous familial hypercholesterolaemia: effects on lipid profiles and vascular changes. |
+| [8192170](https://pubmed.ncbi.nlm.nih.gov/8192170/) | 1994 | Clinical study | Am J Med | Fluvastatin-bezafibrate vs fluvastatin-cholestyramine combinations in heterozygous familial hypercholesterolemia. |
+| [7604789](https://pubmed.ncbi.nlm.nih.gov/7604789/) | 1995 | Clinical study | Am J Cardiol | 31 Chinese patients with hypercholesterolemia were assessed for fluvastatin effects on lipid profile and apolipoproteins. |
+| [9271817](https://pubmed.ncbi.nlm.nih.gov/9271817/) | 1997 | Clinical study | Thromb Res | Open-label 8-week study of fluvastatin 40 mg in 20 patients with type IIa and IIb hyperlipidemia, measuring lipids and tissue factor pathway inhibitor. |
+| [10780315](https://pubmed.ncbi.nlm.nih.gov/10780315/) | 2000 | Clinical study | Thromb Haemost | FACT study follow-up on fibrinogen, PAI-1 and CRP with fluvastatin and bezafibrate, alone and combined, in mixed hyperlipidaemia. |
+| [24944371](https://pubmed.ncbi.nlm.nih.gov/24944371/) | 2003 | Clinical study | Curr Ther Res | 24-week open-label dose-increasing study of fluvastatin effects on LDL subfractions, oxidized LDL and adhesion molecules. |
+| [10067240](https://pubmed.ncbi.nlm.nih.gov/10067240/) | 1998 | Clinical study | Ter Arkh | Variability of the lipid-lowering effect of simvastatin and fluvastatin in primary hyperlipoproteinemia. |
 
 ---
 
 ## Canada Market Information
 
-Fluvastatin is currently **not marketed in Canada**. No Drug Identification Numbers (DINs) have been issued by Health Canada. There are no licensed products, approved indications, or regulatory submissions on record in this dataset.
+| DIN | Product Name |
+|---------|------|
+| 2299224 | TEVA-FLUVASTATIN |
+| 2299232 | TEVA-FLUVASTATIN |
 
-This is a notable regulatory gap: Fluvastatin (brand name Lescol/Lescol XL) holds marketing authorization in the United States (FDA), the European Union, Japan, and multiple other jurisdictions for the treatment of hypercholesterolemia and mixed dyslipidemia, including a pediatric indication for heterozygous familial hypercholesterolemia in patients 8 years and older (FDA approval 2002).
+Dosage form and approved indication text are not available in the current record.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** Safety data (key warnings, contraindications, and drug-drug interactions) were not retrievable from the data sources included in this Evidence Pack. These are flagged as blocking data gaps (DG001) that must be resolved before proceeding to full safety screening. Particular attention should be given to the statin class effects (myopathy, rhabdomyolysis risk, transaminase elevation) and Fluvastatin's CYP2C9 substrate status, which distinguishes it from most other statins and is relevant for drug-interaction profiling in Canadian patients receiving CYP2C9-modulating agents.
+Please refer to the package insert for safety information. No drug interaction records were found in the current data.
 
 ---
 
@@ -117,14 +112,13 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The TxGNN model predicts Fluvastatin for hyperlipoproteinemia with 99.99% confidence (rank 436 overall), and this prediction is fully supported by L1-level evidence: multiple completed RCTs — including the FACT study (n=333) and a large statin surveillance study (n=3,270) — confirm efficacy across the hyperlipoproteinemia spectrum. The mechanistic alignment is direct and well-established. The primary barrier to Canadian use is regulatory (no DIN), not evidential. Three additional predicted indications also reach L1 evidence (familial hypercholesterolemia) or L3 (HIV-associated dyslipidemia), with the pediatric HeFH indication carrying FDA approval as supporting precedent.
+Fluvastatin's mechanism directly matches lipoprotein disorders, and multiple published fluvastatin trials support lipid lowering. However, no registered trial is a fluvastatin-specific Phase 3 RCT for this indication. This is also probably an established use rather than a new one, so the label position needs to be confirmed.
 
 **To proceed, the following is needed:**
-- Obtain and parse the full package insert (TFDA or equivalent) to fill the blocking safety data gap (DG001): key warnings, contraindications, and DDI profile
-- Retrieve formal mechanism of action data from DrugBank API (DG002) to complete the mechanistic analysis section
-- Conduct a Health Canada regulatory pathway assessment: New Drug Submission (NDS) or eligibility for abbreviated review given existing global approvals
-- Define a pharmacovigilance plan addressing statin class effects (myopathy, rhabdomyolysis, transaminase elevation) and CYP2C9 drug-interaction profile specific to the Canadian formulary context
-- Consider prioritizing the pediatric heterozygous familial hypercholesterolemia indication as a regulatory entry point, given the existing FDA precedent and strong direct Phase 3 evidence (NCT00171236, n=84, Grade A)
+- Health Canada product monograph (warnings and contraindications), which is currently a blocking gap for safety screening
+- Confirmation of the approved indications for the two DINs (2299224, 2299232) to establish whether this is on-label
+- Detailed mechanism of action data from DrugBank
+- Fluvastatin-specific registered trial data, or a formal review of the published RCTs, to support raising the evidence level
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

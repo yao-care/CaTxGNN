@@ -2,7 +2,7 @@
 layout: default
 title: Lurbinectedin
 parent: Model Prediction Only (L5)
-nav_order: 481
+nav_order: 562
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,55 +31,54 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 # Lurbinectedin: From Small Cell Lung Cancer to Multiple Endocrine Neoplasia
 
-*(Original indication is not present in this evidence pack — DrugBank query returned no indication text. "Small cell lung cancer" reflects Lurbinectedin's known public labeling (Zepzelca®) and is not confirmed by the data below; see Data Gap DG002.)*
-
 ## One-Sentence Summary
 
-Lurbinectedin (DrugBank DB12674) is a marketed antineoplastic agent, but its original indication and mechanism of action are both missing from this evidence pack. TxGNN predicts a possible link to **multiple endocrine neoplasia** with a score of **99.44%**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model output with no corroborating evidence.
+Lurbinectedin is a cytotoxic anticancer drug approved for small cell lung cancer, a neuroendocrine carcinoma.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it so far.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (DrugBank query incomplete — see DG002) |
+| Original Indication | Small cell lung cancer (per the Evidence Pack's mechanistic rationale; the Canadian licence record has no indication text) |
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Lurbinectedin in this evidence pack (Data Gap DG002, High severity), and no original indication is recorded either. Without either piece of information, no mechanistic bridge between the drug and multiple endocrine neoplasia can be constructed from the available data.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Lurbinectedin is generally described as an alkylating agent that binds the DNA minor groove and inhibits oncogenic transcription. Its efficacy in small cell lung cancer is established, and mechanistically it may be applicable to other neuroendocrine tumours.
 
-The pack's own rationale for this candidate states: the ranking rests solely on the TxGNN knowledge-graph score (0.9944); there is no clinical trial or literature evidence, and because the drug's original indication and mechanism are both data gaps, no biological link to this endocrine tumour syndrome can currently be established.
+Small cell lung cancer is a neuroendocrine carcinoma. Tumours associated with multiple endocrine neoplasia (pancreatic neuroendocrine tumours, pituitary tumours and parathyroid tumours) are also neuroendocrine in origin. This gives a loose biological rationale for the prediction.
 
-The other nine candidates in this batch (HIV, rheumatoid arthritis, ALS, CMV infection, and several veterinary conditions such as feline immunodeficiency syndrome, malignant catarrh, and infectious bovine rhinotracheitis) show the same pattern — high raw TxGNN scores with zero supporting trials or literature, and in several cases the predicted "disease" is not even a human condition. This suggests the current prediction set for this drug should be treated as exploratory model output rather than a vetted repurposing shortlist.
+This link is speculative. No trial or publication in the dataset supports it. The high TxGNN score reflects knowledge-graph proximity, not clinical proof. The other nine predictions for this drug have the same evidence gap, and several are veterinary diseases, which suggests graph-propagation artefacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Canada Market Information
 
-Lurbinectedin is not currently marketed in Canada (0 DINs on file); no license records are available to summarize.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2520834 | ZEPZELCA | Not listed | Not listed |
 
 ## Cytotoxicity
 
-Lurbinectedin is a known antineoplastic (chemotherapy) agent, so this section is included. Detailed toxicity data was not returned in this evidence pack.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (DNA-binding agent), based on general drug classification — not confirmed within this evidence pack |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Cytotoxicity Classification | Conventional cytotoxic (alkylating-type agent that inhibits transcription) |
+| Myelosuppression Risk | Present. The Evidence Pack notes myelosuppression and neutropenia risk, but no grading is available. |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC (with differential) and liver function, based on the neutropenia and hepatotoxicity concerns noted in the pack |
+| Handling Protection | Please refer to the package insert warnings and precautions. Cytotoxic drug handling regulations would be expected to apply. |
 
 ## Safety Considerations
 
@@ -90,14 +89,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (multiple endocrine neoplasia) has Evidence Level L5 — a knowledge-graph score with zero clinical trials or literature — and the drug's own safety and mechanism data are flagged as a Blocking data gap (DG001), which by itself prevents entry into initial safety screening (S1).
+The prediction is model-only (L5). There are no registered trials or publications, and the only mechanistic support is a loose neuroendocrine-lineage analogy. The drug's cytotoxic and myelosuppressive profile also raises the bar for any new use.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada-equivalent label warnings and contraindications (DG001, Blocking)
-- Mechanism of action data from DrugBank API (DG002, High)
-- Confirmed original indication for this drug
-- At least preclinical or mechanistic evidence linking Lurbinectedin to multiple endocrine neoplasia before advancing past L5
-- Re-screening of the remaining 9 candidates to filter out non-human-disease predictions before further review
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Preclinical or case-level evidence in MEN-associated neuroendocrine tumours
+- A literature and trial search for lurbinectedin in neuroendocrine tumours, to confirm whether any evidence exists
+- Route compatibility and similarity-to-original-indication assessments (both currently pending)
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

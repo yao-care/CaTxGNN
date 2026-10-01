@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Sulfate
 parent: Model Prediction Only (L5)
-nav_order: 725
+nav_order: 850
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Sodium Sulfate (DB09472): From Osmotic Laxative Use to Predicted Dyspepsia Indication
+# Sodium Sulfate: From Bowel Cleansing to Dyspepsia
 
 ## One-Sentence Summary
 
-Sodium sulfate (DB09472) has no formally recorded original indication in this evidence pack, but it is clinically known as an osmotic laxative / bowel-preparation agent.
-The TxGNN model predicts it may be effective for **Dyspepsia**, with a prediction score of **99.09%**,
-but the supporting evidence — **3 clinical trials** and **4 publications** — is weak and largely mismatched to the actual drug.
+Sodium sulfate is an osmotic (saline) laxative used in bowel-cleansing products. The TxGNN model predicts it may be effective for **dyspepsia**, but the evidence is very weak: the **3 clinical trials** and **4 publications** retrieved do not test sodium sulfate for dyspepsia. The prediction rests on the model score alone.
 
 ---
 
@@ -43,60 +41,66 @@ but the supporting evidence — **3 clinical trials** and **4 publications** —
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on record in Health Canada data (drug not marketed in Canada); clinically known off-label/traditional use as osmotic laxative / bowel-preparation agent |
+| Original Indication | Not stated in the Canadian licence records; the products (e.g., PEGLYTE, COLYTE) are bowel-cleansing preparations |
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 99.09% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed (Not marketed) |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for sodium sulfate. Based on known information, sodium sulfate acts as an osmotic agent, drawing water into the intestinal lumen — a property exploited in bowel-preparation and laxative use. This mechanism has no established pharmacological link to dyspepsia, which involves upper GI motility, acid secretion, and visceral sensitivity rather than colonic osmotic effects.
+Detailed mechanism of action data is not currently available. Sodium sulfate is an osmotic laxative, so it draws water into the bowel and promotes evacuation. It is used in combination bowel-preparation products. Its original indication is not recorded in the Canadian licence data.
 
-Critically, the evidence pack itself flags this prediction as poorly supported. All three clinical trials were graded **"C" (low relevance)** by the evidence review — none actually test sodium sulfate for dyspepsia. More importantly, the literature evidence is largely a **keyword mismatch**: most publications refer to "Dextran Sodium Sulfate (DSS)," a chemical reagent used to induce colitis in animal models, which is an entirely different substance from the drug DB09472 (sodium sulfate). The repurposing rationale explicitly states there is **no valid mechanistic link** ("無有效機轉關聯") between this drug and dyspepsia.
-
-Given this, the prediction should be treated as a model-generated signal only, not as evidence of a genuine drug-disease relationship. It requires independent mechanistic and clinical validation before any further consideration.
+No credible mechanistic link to dyspepsia has been established. The high TxGNN score reflects a network-based model prediction, not clinical or mechanistic evidence. A laxative could plausibly worsen upper GI symptoms such as bloating, nausea, and cramping rather than relieve them. The prediction should therefore be treated as a hypothesis with low plausibility until supported by data.
 
 ---
 
 ## Clinical Trial Evidence
 
-> ⚠️ All trials below were graded **"C" (low relevance)** by evidence review — none directly test sodium sulfate for dyspepsia.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06339697](https://clinicaltrials.gov/study/NCT06339697) | Phase 4 | Completed | 194 | Compared bowel-preparation laxatives (PEG electrolyte solution vs. sodium picosulfate) on gut microbiome changes in colon polypectomy patients; endpoint was microbiome composition, not dyspepsia |
-| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | Phase 2/3 | Unknown | 150 | Compared oxycodone vs. pregabalin for preemptive postoperative analgesia; unrelated to sodium sulfate or dyspepsia |
-| [NCT07310927](https://clinicaltrials.gov/study/NCT07310927) | Phase 2/3 | Recruiting | 140 | Compared alginate vs. sucralfate for GERD symptom relief with PPIs; does not involve sodium sulfate |
+| [NCT06339697](https://clinicaltrials.gov/study/NCT06339697) | Phase 4 | Completed | 194 | Compares laxative bowel preparations (polyethylene glycol electrolyte vs. sodium picosulfate) and their effect on the gut microbiome in patients undergoing colon polypectomy. Dyspepsia is not studied. |
+| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | Phase 2/3 | Unknown | 150 | Oxycodone vs. pregabalin as preemptive analgesia for postoperative pain. Unrelated to sodium sulfate or dyspepsia; likely a spurious match. |
+| [NCT07310927](https://clinicaltrials.gov/study/NCT07310927) | Phase 2/3 | Recruiting | 140 | Alginate vs. sucralfate added to PPIs for GERD symptom relief. Upper GI condition, but sodium sulfate is not involved. |
+
+All three trials were graded C (indirect or irrelevant) and provide no support for repurposing.
 
 ---
 
 ## Literature Evidence
 
-> ⚠️ Most publications concern **Dextran Sodium Sulfate (DSS)**, a colitis-induction reagent used in animal models — a distinct substance from the drug sodium sulfate (DB09472). This appears to be a keyword-matching artifact rather than genuine pharmacological evidence.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33918638](https://pubmed.ncbi.nlm.nih.gov/33918638/) | 2021 | Animal model / PK study | Molecules (Basel, Switzerland) | Examined DSS-induced GI injury effects on donepezil pharmacokinetics and gastric myoelectric activity in pigs; dyspepsia mentioned only as a background donepezil side effect |
-| [34207410](https://pubmed.ncbi.nlm.nih.gov/34207410/) | 2021 | Animal model / PK study | Pharmaceuticals (Basel, Switzerland) | Examined DSS-induced GI injury effects on galantamine's impact on porcine gastric myoelectric activity |
-| [36614242](https://pubmed.ncbi.nlm.nih.gov/36614242/) | 2023 | Animal model | International Journal of Molecular Sciences | Tested atractylodin (an herbal compound, not sodium sulfate) in DSS-induced colitis mice; dyspepsia mentioned only as background indication for the herbal medicine source |
-| [40391232](https://pubmed.ncbi.nlm.nih.gov/40391232/) | 2025 | Animal model | Journal of Inflammation Research | Tested Si-Ni Decoction (TCM formula) in DSS-induced ulcerative colitis; dyspepsia mentioned only as background context, no sodium sulfate involvement |
+| [33918638](https://pubmed.ncbi.nlm.nih.gov/33918638/) | 2021 | Preclinical animal study | Molecules | Dextran sodium sulfate-induced gut injury in pigs altered donepezil pharmacokinetics and gastric myoelectric activity. |
+| [34207410](https://pubmed.ncbi.nlm.nih.gov/34207410/) | 2021 | Preclinical animal study | Pharmaceuticals (Basel) | Dextran sodium sulphate-induced gut injury aggravated the effect of galantamine on gastric myoelectric activity in pigs. |
+| [36614242](https://pubmed.ncbi.nlm.nih.gov/36614242/) | 2023 | Preclinical animal study | Int J Mol Sci | Atractylodin ameliorated DSS-induced colitis via PPARα agonism. |
+| [40391232](https://pubmed.ncbi.nlm.nih.gov/40391232/) | 2025 | Preclinical study | J Inflamm Res | Si-Ni Decoction was studied in a DSS colitis model (network pharmacology and in vivo validation). |
+
+These papers use dextran sodium sulfate (DSS), a chemical that induces colitis in animal models. It is a different compound from sodium sulfate, so they are keyword matches and do not support the prediction.
 
 ---
 
 ## Canada Market Information
 
-Sodium sulfate (DB09472) is currently **not marketed in Canada** — no DIN records or Health Canada product authorizations are on file.
+| DIN | Product Name |
+|---------|------|
+| 00777838 | PEGLYTE POWDER |
+| 02378329 | JAMPLYTE |
+| 00677442 | COLYTE |
+| 02552612 | JAMPLYTE + BISACODYL |
+| 02326302 | BI-PEGLYTE |
+
+Dosage form and approved indication text are not available in the retrieved records. Six licences are registered in total; five are listed above.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available for this drug in this evidence pack.
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ---
 
@@ -105,13 +109,17 @@ Please refer to the package insert for safety information. Key warnings, contrai
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L5 (model prediction only, no genuine supporting studies), no MOA data exists, and the retrieved literature/clinical trial evidence largely reflects a keyword mismatch between "sodium sulfate" and "dextran sodium sulfate" rather than actual pharmacological evidence for dyspepsia. The repurposing rationale itself explicitly concludes there is no valid mechanistic link.
+The prediction is supported only by the TxGNN score (L5). The retrieved trials are unrelated to dyspepsia, and the literature concerns DSS animal models, not sodium sulfate. A laxative mechanism also makes benefit in dyspepsia doubtful.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action for DB09472 — currently a High-severity data gap (DG002)
-- Re-run literature/trial search with stricter entity disambiguation to exclude Dextran Sodium Sulfate (DSS) mismatches
-- Genuine dyspepsia-specific pharmacological or clinical evidence for sodium sulfate, if any exists, before advancing beyond Hold
+- Health Canada package insert, including warnings and contraindications (currently blocking safety screening)
+- Mechanism of action data, for example from DrugBank
+- Confirmed original indication and approved indication text for each DIN
+- Clinical or mechanistic studies of sodium sulfate in functional or organic dyspepsia
+- Route and formulation compatibility assessment for a dyspepsia use
+- Assessment of whether osmotic laxative effects could worsen upper GI symptoms
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

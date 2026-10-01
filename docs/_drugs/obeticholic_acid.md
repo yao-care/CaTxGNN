@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Obeticholic Acid
-parent: Model Prediction Only (L5)
-nav_order: 568
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 666
+evidence_level: L4
 indication_count: 6
 ---
 
 # Obeticholic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Obeticholic acid (OCA) is a farnesoid X receptor (FXR) agonist approved for primary biliary cholangitis (PBC), a chronic cholestatic autoimmune liver disease.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but this direction is currently supported by **0 clinical trials** and only **3 loosely related publications**, none of which directly studies OCA in RA.
+Obeticholic acid (OCA) is an FXR agonist marketed in Canada as OCALIVA, and the retrieved literature describes its marketed use as primary biliary cholangitis.
+The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but there are **0 clinical trials** and **3 publications**, and none of those publications tests OCA in rheumatoid arthritis.
 
 ---
 
@@ -42,23 +42,23 @@ The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary Biliary Cholangitis (PBC) |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Primary biliary cholangitis (taken from the literature context; the license records contain no indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.67% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-OCA is an FXR agonist. Its approved mechanism centers on restoring bile acid homeostasis and exerting hepatic anti-inflammatory/anti-fibrotic effects — this is the basis for its PBC indication. There is no established pathway connecting FXR activation to the synovial autoimmune inflammation (TNF/IL-6-driven) that characterizes rheumatoid arthritis.
+Obeticholic acid activates the farnesoid X receptor (FXR). FXR signaling has reported anti-inflammatory and immunomodulatory effects, so a link to autoimmune disease is plausible. Primary biliary cholangitis is itself a chronic autoimmune liver disease, which gives the two conditions a loose conceptual connection.
 
-PBC and rheumatoid arthritis do share a broad "autoimmune disease" categorization, and a small body of literature explores indirect systemic immune effects of FXR activation. However, none of the three retrieved publications actually studies OCA in an RA context — they concern PBC diagnosis/management, autoimmune hepatitis animal models, and liver injury from an unrelated herbal compound used for RA. This pattern is consistent with the prediction arising from semantic proximity in the knowledge graph (both diseases tagged "autoimmune") rather than a genuine pharmacological signal.
+The supporting evidence is thin. The closest paper (PMID 33704005) shows that FXR activation reduces liver injury caused by *Tripterygium wilfordii* preparations, which are used to treat rheumatoid arthritis. That is a hepatoprotective effect in mice, not an anti-arthritic one. The other two papers cover primary biliary cholangitis and autoimmune hepatitis models, which are different diseases.
 
-Given the absence of both clinical and preclinical evidence directly linking OCA to RA, this candidate should be treated as a low-confidence, exploratory signal rather than a validated repurposing hypothesis.
+The very high TxGNN score is a model prediction only. It should not be read as clinical evidence.
 
 ---
 
@@ -72,9 +72,18 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32299307](https://pubmed.ncbi.nlm.nih.gov/32299307/) | 2020 | Review | United European Gastroenterology Journal | General review of PBC diagnosis and treatment; does not address OCA use in RA |
-| [35903109](https://pubmed.ncbi.nlm.nih.gov/35903109/) | 2022 | Review | Frontiers in Immunology | Reviews animal models for autoimmune hepatitis/PBC; treatment of cholestatic autoimmune liver disease relies on bile acid analogues, no RA linkage |
-| [33704005](https://pubmed.ncbi.nlm.nih.gov/33704005/) | 2021 | Preclinical/Animal | Xenobiotica | Shows FXR activation prevents liver injury from *Tripterygium wilfordii* preparations (a separate herbal RA treatment) in mice; does not study OCA efficacy in RA itself |
+| [32299307](https://pubmed.ncbi.nlm.nih.gov/32299307/) | 2020 | Review | United European Gastroenterology Journal | Diagnosis and treatment of primary biliary cholangitis. It covers OCA's marketed disease and does not address rheumatoid arthritis. |
+| [35903109](https://pubmed.ncbi.nlm.nih.gov/35903109/) | 2022 | Review | Frontiers in Immunology | Animal models of autoimmune hepatitis and other autoimmune liver diseases. It does not address rheumatoid arthritis. |
+| [33704005](https://pubmed.ncbi.nlm.nih.gov/33704005/) | 2021 | Preclinical | Xenobiotica | In mice, FXR activation prevented liver injury caused by *Tripterygium wilfordii* preparations, which are used for rheumatoid arthritis. This shows hepatoprotection, not an anti-arthritic effect. |
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2463148 | OCALIVA |
+| 2463121 | OCALIVA |
 
 ---
 
@@ -89,13 +98,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials exist for OCA in rheumatoid arthritis, and the available literature does not establish a direct mechanistic or clinical link — the prediction more likely reflects a knowledge-graph embedding artifact from shared "autoimmune disease" categorization than a real pharmacological signal. Combined with the drug's non-marketed status in Canada, there is insufficient basis to advance this candidate.
+The rheumatoid arthritis prediction rests on a model score and one preclinical liver-protection paper, with no trials and no direct evidence of efficacy. The other five predicted indications (conjunctivitis and four rare congenital or genetic syndromes) also have no meaningful supporting evidence and are rated L5.
 
 **To proceed, the following is needed:**
-- Confirmed detailed mechanism-of-action data for OCA (currently a data gap in the source record)
-- Preclinical studies directly testing FXR modulation in RA-relevant models (synovial inflammation, TNF/IL-6 pathways)
-- TFDA/Health Canada label warnings and contraindications (currently a data gap; flagged as Blocking for safety review)
-- Re-evaluation if future evidence directly linking FXR agonism to RA pathophysiology emerges
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Confirmation of the mechanism of action from DrugBank, to support analysis of the FXR–autoimmune link
+- Preclinical evidence of OCA activity in rheumatoid arthritis models, such as arthritis models measuring joint inflammation
+- Indication text and dosage forms for the two OCALIVA licenses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

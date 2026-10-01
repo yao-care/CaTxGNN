@@ -2,7 +2,7 @@
 layout: default
 title: Tisagenlecleucel
 parent: Model Prediction Only (L5)
-nav_order: 778
+nav_order: 910
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,88 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tisagenlecleucel: From B-Cell Malignancies to Crohn's Colitis
+# Tisagenlecleucel: From CD19-Directed CAR-T Therapy to Crohn's Colitis
 
 ## One-Sentence Summary
 
-> Tisagenlecleucel (Kymriah) is an anti-CD19 CAR-T cell therapy originally developed to eliminate CD19+ B cells in B-cell malignancies.
-> The TxGNN model predicts a possible application in **Crohn's Colitis**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-generated hypothesis.
-
----
+Tisagenlecleucel is a CD19-directed CAR-T cell therapy marketed in Canada as KYMRIAH.
+The TxGNN model predicts it may be effective for **Crohn's colitis**, but **no clinical trials and no publications** currently support this prediction, which rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | B-cell malignancies (CD19+) — derived from mechanistic description in evidence pack; not confirmed by Canadian regulatory filing |
-| Predicted New Indication | Crohn's Colitis |
+| Predicted New Indication | Crohn's colitis |
 | TxGNN Prediction Score | 91.39% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the drug-level record (`original_moa: [Data Gap]`). Based on the mechanistic description attached to the prediction itself, tisagenlecleucel is an anti-CD19 CAR-T cell therapy whose core mechanism is the elimination of CD19-expressing B cells, and it is used clinically in B-cell malignancies.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, tisagenlecleucel is a CAR-T therapy that targets CD19, a marker on B cells. Its effect is deep depletion of B cells.
 
-B cells do play a contributory role in some autoimmune conditions, which is the general biological rationale offered for CAR-T repurposing into immune-mediated disease. However, Crohn's colitis is primarily driven by Th1/Th17 T-cell activity and intestinal barrier dysfunction — B cells are not considered a core pathogenic pathway. The evidence pack itself flags this mechanistic link as "weak and purely inferential" (機轉關聯薄弱且純屬推論).
-
-No clinical trials, ICTRP registrations, or literature currently exist to support this specific indication. This places the candidate firmly at evidence level L5 (model prediction only), and it should be treated as a hypothesis-generation signal rather than a repurposing lead ready for further evaluation.
-
----
+Deep B-cell depletion has been explored in autoimmune and immune-mediated disease. This gives Crohn's colitis a speculative mechanistic link. The link is hypothetical only, because no trial or publication in the data tests it. Crohn's colitis is also not life-threatening in most patients, and CAR-T carries major toxicity (cytokine release syndrome, prolonged cytopenias, infection risk). The risk-benefit balance is therefore difficult to justify without evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Tisagenlecleucel currently has **0 DINs** and is **not marketed** in Canada per the available regulatory dataset. No authorized product, dosage form, or approved indication text is on file.
+| DIN | Product Name |
+|---------|------|
+| 2480514 | KYMRIAH |
 
----
+Dosage form and approved indication text are not recorded for this authorization.
 
-## Cytotoxicity (Antineoplastic Drugs Only)
+## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (autologous anti-CD19 CAR-T cell therapy) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Cytotoxicity Classification | Immunotherapy (genetically modified autologous cell therapy), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Prolonged cytopenias are a recognized concern for CAR-T therapy |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions. At minimum, CBC and signs of cytokine release syndrome and infection |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interactions were found in the queried data.
+- **Class-level concerns**: CAR-T therapy is associated with cytokine release syndrome, prolonged cytopenias and infection risk. These are especially important when considering a non-life-threatening condition such as Crohn's colitis.
 
----
+Please refer to the package insert for key warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is supported only by an unvalidated knowledge-graph score (L5), with no clinical trials or literature evidence, and the evidence pack's own mechanistic assessment describes the biological link to Crohn's colitis as weak. A blocking data gap (missing regulatory warnings/contraindications) also prevents this candidate from entering even a preliminary safety review (S1).
+The prediction has no trial or literature support (L5). The only basis is a model score of 91.39%, and the known toxicity of CAR-T is a serious obstacle for this condition. The other nine top-ranked predictions are also L5 and Hold. Several of them (for example endocrine neoplasia, mastocytosis and HER2-positive breast carcinoma) show no plausible CD19-related mechanism.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label data — package insert warnings and contraindications (DG001, blocking)
-- Confirmed mechanism of action and original approved indication from DrugBank (DG002)
-- At least preclinical or observational evidence directly linking anti-CD19 B-cell depletion to Crohn's colitis pathophysiology
-- Drug interaction (DDI) profile, currently unqueried/not found
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Clinical or preclinical evidence of CD19-directed B-cell depletion in Crohn's disease
+- A risk-benefit assessment against approved Crohn's disease therapies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

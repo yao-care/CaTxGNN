@@ -2,7 +2,7 @@
 layout: default
 title: Gemfibrozil
 parent: Moderate Evidence (L3-L4)
-nav_order: 361
+nav_order: 426
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,82 +29,74 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Gemfibrozil: From Hypertriglyceridemia to Rheumatoid Arthritis
+# Gemfibrozil: From Dyslipidemia to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Gemfibrozil is a fibrate-class lipid-lowering drug (PPAR-α agonist) with well-established use in treating hypertriglyceridemia and dyslipidemia.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-with **0 clinical trials** and **4 publications** currently supporting this direction.
-
----
+Gemfibrozil is a fibrate lipid-lowering drug, marketed in Canada as TEVA-GEMFIBROZIL. The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but the support is thin: **0 registered clinical trials** and **4 publications**, all preclinical or tangential. The signal is a research question, not a treatment candidate.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertriglyceridemia / Dyslipidemia |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | Not stated in the Canadian licence record; gemfibrozil is generally used for dyslipidemia (general pharmacology) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Research Question |
-
----
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the regulatory data on file. Based on published pharmacology, gemfibrozil is a fibrate-class drug that activates PPAR-α (peroxisome proliferator-activated receptor alpha), primarily lowering triglycerides and raising HDL cholesterol through hepatic lipid metabolism pathways. What is less widely recognized is that PPAR-α activation also carries significant anti-inflammatory downstream effects.
+Detailed mechanism-of-action data were not supplied in the Evidence Pack. From general pharmacology, gemfibrozil is a PPAR-alpha agonist. Its established effect is lowering triglycerides and raising HDL cholesterol.
 
-By activating PPAR-α, gemfibrozil can suppress the NF-κB signaling pathway, reducing transcription of pro-inflammatory cytokines including TNF-α, IL-6, and IL-1β. These are precisely the cytokines that drive synovial inflammation and joint destruction in rheumatoid arthritis, providing a mechanistically plausible bridge between gemfibrozil's known pharmacology and a potential RA application.
+The link to rheumatoid arthritis is plausible but indirect. PPAR-alpha activation can dampen NF-kB signaling and the Th17/Treg imbalance, both of which are involved in autoimmune joint inflammation. Support comes from two preclinical sources:
 
-Direct experimental support comes from a rat adjuvant-induced arthritis (AIA) model (PMID 30074417), where gemfibrozil combined with reduced-dose prednisolone achieved anti-arthritic outcomes comparable to full-dose steroid therapy — suggesting steroid-sparing potential. A related compound, bezafibrate (a pan-PPAR agonist), further demonstrated PPAR-γ-dependent attenuation of experimental RA in animals (PMID 41207105), providing class-effect biological plausibility across the fibrate family. Overall, evidence remains at an early preclinical stage with no formal human trials in RA.
+- A rat adjuvant-induced arthritis study, in which gemfibrozil combined with a reduced prednisolone dose gave a management picture similar to the full steroid dose.
+- A study of bezafibrate, a related fibrate, in experimental arthritis, which points to a class-level effect through PPAR activity.
 
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
+No human efficacy data for gemfibrozil in rheumatoid arthritis were found.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [30074417](https://pubmed.ncbi.nlm.nih.gov/30074417/) | 2019 | Animal Study (PPAR-α agonist + steroid taper) | Modern Rheumatology | Gemfibrozil (30 mg/kg) combined with reduced-dose prednisolone achieved similar anti-arthritic outcomes as full-dose steroid in rat AIA model; suggests steroid-sparing potential via PPAR-α activation |
-| [41207105](https://pubmed.ncbi.nlm.nih.gov/41207105/) | 2026 | Preclinical Animal Study | International Immunopharmacology | Bezafibrate (pan-PPAR agonist) attenuated experimental RA via PPAR-γ-dependent anti-inflammatory modulation; supports fibrate class-effect biological plausibility for RA |
-| [20083653](https://pubmed.ncbi.nlm.nih.gov/20083653/) | 2010 | Basic Research | Journal of Immunology | Nitric oxide-mediated reduction of Foxp3 expression in regulatory T cells following MBP priming; provides mechanistic context for fibrate-immune modulation pathways relevant to autoimmunity |
-| [18039017](https://pubmed.ncbi.nlm.nih.gov/18039017/) | 2007 | Review | American Journal of Clinical Dermatology | Palmar erythema review covering systemic pathology associations; indirect contextual reference only, limited direct relevance to RA repurposing |
+No clinical trials are registered for this indication. The four publications below are all preclinical or indirect.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [30074417](https://pubmed.ncbi.nlm.nih.gov/30074417/) | 2019 | Preclinical (rat model) | Modern Rheumatology | Gemfibrozil (30 mg/kg) plus reduced-dose prednisolone gave a management picture similar to the full steroid dose in adjuvant-induced arthritis. |
+| [41207105](https://pubmed.ncbi.nlm.nih.gov/41207105/) | 2026 | Preclinical (animal model, bezafibrate) | International Immunopharmacology | Bezafibrate, a pan-PPAR agonist, attenuated experimental rheumatoid arthritis through PPAR-dependent modulation of inflammatory pathways, with emphasis on PPAR-γ. Gemfibrozil was not the tested drug. |
+| [20083653](https://pubmed.ncbi.nlm.nih.gov/20083653/) | 2010 | Preclinical (mechanistic) | Journal of Immunology | Myelin basic protein priming reduced Foxp3 expression in regulatory T cells via nitric oxide. Only mechanistically related to autoimmunity. |
+| [18039017](https://pubmed.ncbi.nlm.nih.gov/18039017/) | 2007 | Review | American Journal of Clinical Dermatology | Review of palmar erythema as a marker of systemic disease. Tangential to this prediction. |
 
 ## Canada Market Information
 
-Gemfibrozil is currently not marketed in Canada. No Drug Identification Numbers (DINs) are on record.
+| DIN | Product Name |
+|---------|------|
+| 2142074 | TEVA-GEMFIBROZIL |
 
----
+The licence record does not include dosage form or approved indication text.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No warnings, contraindications, or drug interactions were retrieved for this report.
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score is high (99.90%), and a mechanistically plausible PPAR-α / NF-κB anti-inflammatory pathway connects gemfibrozil to rheumatoid arthritis. However, all available evidence is preclinical (animal models and basic research only), with no registered clinical trials and no human data specific to RA — placing this squarely at Evidence Level L4. The complete absence of Canada regulatory history adds an additional translational hurdle.
+Support for rheumatoid arthritis is limited to one rat study, one study of a related fibrate, and indirect papers. There are no registered trials and no human efficacy data. The high model score alone does not justify moving forward.
 
 **To proceed, the following is needed:**
-- Full mechanism of action documentation (DrugBank API query or published pharmacology review)
-- Safety data retrieval: package insert warnings, contraindications, and DDI profile (particularly CYP2C8 inhibition risk and interaction with statins/immunosuppressants relevant to RA treatment)
-- Systematic review of fibrate class anti-inflammatory effects in autoimmune conditions
-- Proof-of-concept clinical feasibility assessment — most actionable in RA patients with comorbid hypertriglyceridemia where gemfibrozil is already indicated
-- Regulatory pathway mapping for Canada, where gemfibrozil has no existing market authorization
+- The Health Canada product monograph (warnings, contraindications, approved indication).
+- Confirmation of gemfibrozil's mechanism of action from DrugBank.
+- Replication of the rat arthritis findings and a direct comparison with other fibrates on PPAR activity.
+- A safety review of gemfibrozil in patients on rheumatoid arthritis regimens, such as steroids, before any clinical study design.
+
+**Note on other predictions for this drug:** Two other predicted indications have stronger evidence than rheumatoid arthritis and may merit review first:
+- **HIV-associated dyslipidemia** (rank 3, L2, Proceed with Guardrails). This is supported by a randomized double-blind trial (PMID 12409741). The evidence covers protease-inhibitor-associated lipid abnormalities, not HIV infection itself.
+- **Hypoalphalipoproteinemia** (rank 4, L2, Proceed with Guardrails). This is supported by several small controlled lipid studies from 1989 to 2000.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

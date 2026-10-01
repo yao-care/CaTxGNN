@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Model Prediction Only (L5)
-nav_order: 278
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 325
+evidence_level: L4
 indication_count: 3
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Emtricitabine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+# Emtricitabine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Emtricitabine (FTC) is a nucleoside reverse transcriptase inhibitor (NRTI) belonging to the antiretroviral drug class, established as a cornerstone agent in combination HIV-1 treatment regimens in humans.
-The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome (FIV infection)**,
-with **4 human-context clinical trials** (all indirect) and **1 veterinary preclinical study** currently supporting this direction.
-Evidence is limited to the preclinical stage, and a Hold decision is recommended pending direct feline pharmacokinetic and efficacy data.
+Emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) used against HIV-1 infection in people. The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV in cats)**, but the support is thin: **4 human HIV clinical trials** (all indirect) and **1 feline preclinical publication**. This is a research question, not a treatment recommendation.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (antiretroviral background therapy; inferred from drug class; no Canada DIN on file) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV infection) |
+|------|------|
+| Original Indication | HIV-1 infection (general drug knowledge; the Canadian license text in the Evidence Pack is empty) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 — Preclinical/veterinary study only |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack (DrugBank query returned no MOA record). Based on established pharmacological knowledge, emtricitabine is a cytidine analogue NRTI: it is phosphorylated intracellularly to emtricitabine-5′-triphosphate, which competitively inhibits the RNA-dependent DNA polymerase (reverse transcriptase, RT) of retroviruses and terminates nascent viral DNA chain elongation once incorporated. Its proven efficacy in human HIV-1 infection is mechanistically grounded in this RT inhibition.
+Detailed mechanism-of-action data for emtricitabine is not available in the Evidence Pack. Based on known pharmacology, it is a nucleoside reverse transcriptase inhibitor that stops viral DNA synthesis by chain termination. Its efficacy against HIV-1 is well established.
 
-Feline Immunodeficiency Virus (FIV) and HIV-1 are both lentiviruses within the *Retroviridae* family, both depending on RT for replication. FTC, as a deoxycytidine analogue, can terminate DNA chain extension by FIV RT in an analogous fashion. This makes the mechanistic extrapolation from HIV-1 to FIV biologically plausible. However, important caveats apply: the catalytic domain of FIV RT differs structurally from HIV-1 RT, and the drug resistance mutation landscape (e.g., equivalent of M184V) may not be fully conserved, meaning efficacy and resistance profiles cannot be directly assumed.
+Feline immunodeficiency virus (FIV) is a lentivirus, like HIV. It causes progressive immune dysfunction in cats that closely resembles human HIV disease. Both viruses depend on reverse transcriptase, so inhibiting this enzyme is a plausible shared mechanism. The very high TxGNN score most likely reflects the drug's position in the HIV-related network neighborhood of the knowledge graph.
 
-One 2023 veterinary study (PMID 37112803) directly tested cART including emtricitabine (40 mg/kg) combined with dolutegravir and tenofovir in FIV-infected domestic cats, providing the first direct pharmacokinetic and clinical outcome evidence in the target species. While this supports the biological premise, the dataset remains insufficient for regulatory or clinical translation without dedicated controlled feline trials.
+Two limits apply. Activity and dosing in cats are not established by the supplied data. This is also a veterinary indication, not a new human use. A related prediction, simian immunodeficiency virus infection, has many macaque studies of emtricitabine combined with tenofovir for prevention. Those studies are useful for HIV prevention and cure research, but they are not a treatment indication.
 
 ---
 
 ## Clinical Trial Evidence
 
-> **Note:** All retrieved clinical trials are human HIV-1 trials where emtricitabine was used as a background NRTI component, not primary investigational agent. No clinical trial directly evaluating emtricitabine for FIV (feline AIDS) was identified. These trials are included for context on emtricitabine's safety and use in retroviral infections.
+None of the trials below tests emtricitabine in cats. All are human HIV-1 studies in which emtricitabine is only a background NRTI, so they are indirect evidence.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs. Raltegravir in ART-naïve HIV-1 adults; FTC used as background NRTI (TDF/FTC arm) over 96 weeks — establishes safety of FTC in long-term regimens |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dose-selection study for dolutegravir with TDF/FTC or ABC/3TC backbones in HIV-1 ART-naïve adults — indirect support of FTC tolerability |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + ABC/3TC vs. Efavirenz/FTC/TDF (Atripla) over 96 weeks in HIV-1 ART-naïve adults; FTC in comparator arm |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Boosted darunavir + lamivudine vs. boosted darunavir + FTC/TDF or 3TC/TDF in naïve HIV-1 patients — FTC as reference comparator |
+|---------|------|------|------|---------|
+| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs raltegravir, each with a dual NRTI backbone (ABC/3TC or TDF/FTC), in treatment-naive HIV-1 adults |
+| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + abacavir/lamivudine vs Atripla (efavirenz/emtricitabine/TDF) in treatment-naive HIV-1 adults |
+| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dose selection for dolutegravir with abacavir/lamivudine or tenofovir/emtricitabine in HIV-1 adults |
+| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Boosted darunavir + lamivudine vs boosted darunavir + emtricitabine/tenofovir or lamivudine/tenofovir in naive HIV-1 patients |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Veterinary/Preclinical | *Viruses* | Evaluated cART (dolutegravir 2.5 mg/kg + tenofovir 20 mg/kg + **emtricitabine 40 mg/kg**) pharmacokinetics and clinical outcomes in FIV-infected domestic cats; first direct evidence of FTC use in the target species |
+|------|-----|------|---------|---------|
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical/veterinary | Viruses | Evaluated pharmacokinetics and clinical outcomes of a combination antiretroviral regimen (dolutegravir 2.5 mg/kg, tenofovir 20 mg/kg, emtricitabine 40 mg/kg) in FIV-infected domestic cats. The abstract excerpt does not include the results. |
 
 ---
 
 ## Canada Market Information
 
-Emtricitabine currently has **no approved Drug Identification Numbers (DINs) in Canada** and is not marketed as a standalone product under this Evidence Pack. No license table can be generated.
+Dosage form and approved indication text were not provided for these licenses.
 
-> Emtricitabine is available in Canada as part of fixed-dose combination products (e.g., Truvada, Descovy, Biktarvy), but no standalone DIN data was captured in this evidence pack. Refer to Health Canada's Drug Product Database for current status of combination products.
+| DIN | Product Name |
+|---------|------|
+| 02490684 | AURO-EMTRICITABINE-TENOFOVIR |
+| 02452006 | APO-EMTRICITABINE-TENOFOVIR |
+| 02454424 | DESCOVY |
+| 02521547 | MINT-EMTRICITABINE/TENOFOVIR |
+| 02496356 | AG-EMTRICITABINE / TENOFOVIR DISOPROXIL FUMARATE |
+
+Showing 5 of 20 licenses.
 
 ---
 
 ## Safety Considerations
 
-No structured safety data was available in this Evidence Pack (TFDA/Health Canada package insert warnings, contraindications, and drug interaction records all returned as data gaps).
-
-> Please refer to the package insert for safety information. Key areas to review include: renal toxicity (when used with tenofovir), hepatic flare risk upon discontinuation in HBV co-infected patients, and lactic acidosis risk common to the NRTI class.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -106,16 +109,14 @@ No structured safety data was available in this Evidence Pack (TFDA/Health Canad
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic analogy between FIV and HIV-1 is biologically sound, and one 2023 preclinical veterinary study has directly evaluated emtricitabine-containing cART in FIV-infected cats with reported pharmacokinetic data. However, evidence remains at the L4 preclinical level with no controlled feline efficacy trial, no approved veterinary formulation, and no Canada regulatory pathway — insufficient to advance without further foundational data.
+The evidence is at L4 (preclinical and model prediction). The only clinical trials are human HIV studies that do not test emtricitabine in cats. The single feline publication has no results in the supplied excerpt. The high TxGNN score alone is not enough to move forward, and the target is a veterinary indication.
 
 **To proceed, the following is needed:**
-
-- **Pharmacokinetic data in cats**: Confirm adequate plasma/intracellular drug exposure at proposed doses (40 mg/kg per the 2023 study vs. human 200 mg/day equivalent); formal PK/PD modelling for FIV RT inhibition
-- **Controlled feline efficacy study**: Randomized trial in FIV-infected cats measuring viral load suppression, CD4+ T cell recovery, and clinical outcome scores
-- **FIV RT inhibition assays**: Biochemical confirmation that emtricitabine-triphosphate inhibits FIV RT with acceptable Ki values; characterize FIV M184-equivalent resistance mutation emergence
-- **Veterinary safety profile**: Identify species-specific toxicities (feline cytidine deaminase activity differs from humans); rule out myelosuppression and renal concerns in cats
-- **Regulatory pathway**: Determine whether a Canadian veterinary drug submission (Health Canada HVDD) or off-label use framework applies; assess availability of oral formulation suitable for feline dosing
-- **Full safety data gap resolution**: Obtain emtricitabine package insert (human) warnings and contraindications to complete S1 safety screen before any veterinary trial design
+- Full results of the FIV combination antiretroviral study (PMID 37112803), including efficacy and safety in cats, and whether emtricitabine adds benefit on its own
+- Emtricitabine-alone pharmacokinetics, dosing and safety data in cats
+- Mechanism-of-action data for emtricitabine, which is currently missing
+- Health Canada package insert warnings and contraindications, which are currently missing
+- A decision on whether the goal is veterinary use or use as a research model for HIV prevention and cure
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

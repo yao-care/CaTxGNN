@@ -2,7 +2,7 @@
 layout: default
 title: Sonidegib
 parent: Model Prediction Only (L5)
-nav_order: 730
+nav_order: 855
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,89 +33,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Sonidegib is an oral Smoothened (SMO) receptor antagonist originally developed for **locally advanced basal cell carcinoma**, a cancer driven by aberrant Hedgehog pathway activation.
-> TxGNN's top-ranked prediction suggests possible efficacy in **Medulloblastoma with Extensive Nodularity**, a Hedgehog-driven pediatric brain tumour subtype,
-> but this specific pairing currently has **zero clinical trials and zero publications** — it is a pure model/mechanistic inference (L5).
-
----
+Sonidegib (Odomzo) is an oral Hedgehog pathway inhibitor, approved for locally advanced basal cell carcinoma (BCC) according to the published literature in this dataset.
+The TxGNN model predicts it may be effective for **medulloblastoma with extensive nodularity**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Locally advanced basal cell carcinoma (laBCC) — inferred from supporting literature in this evidence pack; no structured license record exists for this market |
-| Predicted New Indication | Medulloblastoma with Extensive Nodularity |
+| Predicted New Indication | Medulloblastoma with extensive nodularity |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed (Not marketed) |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on supporting literature elsewhere in this evidence pack, sonidegib is an orally bioavailable, small-molecule Smoothened (SMO) receptor antagonist that blocks Hedgehog pathway signaling — its efficacy in advanced basal cell carcinoma, a cancer with near-universal Hedgehog pathway mutations, has been clinically established (see BOLT study evidence under the "skin cancer" candidate).
+Sonidegib blocks Smoothened (SMO), a key receptor in the Hedgehog signalling pathway. This pathway is abnormally activated in most basal cell carcinomas, which is the basis of sonidegib's use in that cancer. Detailed mechanism-of-action data are not available in the Evidence Pack, so this description comes from the published literature in the dataset.
 
-The SHH (Sonic Hedgehog) molecular subtype of medulloblastoma is likewise characterized by constitutive Hedgehog/SMO pathway activation, which gives the mechanistic rationale a degree of biological plausibility. However, this link is **theoretical only** — no clinical trial or published case has tested sonidegib specifically in medulloblastoma with extensive nodularity. Notably, the class-related SMO inhibitor vismodegib has shown concerning **growth-plate (bone) toxicity** when studied in pediatric medulloblastoma populations, a safety signal that would need direct evaluation before any sonidegib pediatric development could proceed.
-
----
+Medulloblastoma in the SHH (Sonic Hedgehog) subgroup is also driven by this pathway, so the prediction is biologically plausible. Still, no trial or publication in the dataset tests sonidegib in this tumour. The link is a computational prediction only. The "extensive nodularity" subtype also needs confirmation of whether it is SHH-driven.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-This drug currently has **no approved product licenses in Canada** (0 DINs; market status: not marketed). No dosage form or indication record is available in this evidence pack.
-
----
+| License Number | Product Name |
+|---------|------|
+| 2500337 | ODOMZO |
 
 ## Cytotoxicity
 
-*Sonidegib's original indication (advanced basal cell carcinoma) is antineoplastic, so this section is included.*
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (Smoothened/SMO receptor antagonist — Hedgehog pathway inhibitor, not conventional cytotoxic chemotherapy) |
+| Cytotoxicity Classification | Targeted therapy (Hedgehog/SMO inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
----
-
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug–drug interaction data are all currently flagged as data gaps — TFDA/equivalent label retrieval is a Blocking-severity item that must be resolved before any S1 safety review.)*
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction — medulloblastoma with extensive nodularity — has no clinical trial or literature support whatsoever; it rests entirely on TxGNN knowledge-graph embedding similarity (L5, decision stage S0). This is markedly weaker than the drug's already-established use in basal cell carcinoma (which appears further down this same prediction list, rank 6, backed by multiple completed Phase 2/3 RCTs including the pivotal BOLT trial) — a useful benchmark for how much evidence a "Go" recommendation would typically require. Given the known bone-toxicity signal for this drug class in pediatric brain tumour populations, proceeding without preclinical validation would be premature.
+The prediction has a very high TxGNN score (99.90%) and a plausible mechanism, but no clinical trials or literature support it (Evidence Level L5). A computational signal alone is not enough to move forward.
 
 **To proceed, the following is needed:**
-- Drug label / TFDA-equivalent warnings and contraindications (currently Blocking data gap, DG001)
-- Confirmed mechanism of action data from DrugBank (currently High-severity data gap, DG002)
-- Preclinical evidence of sonidegib activity specifically in SHH-subtype medulloblastoma models
-- Pediatric safety data, particularly growth-plate/bone toxicity, given the precedent seen with vismodegib in this drug class
-- Clarification of Canada regulatory pathway, since the drug is not currently marketed here (0 DINs)
+- Literature and trial searches specific to SHH-subgroup medulloblastoma, including preclinical data and the central nervous system penetration of sonidegib
+- Confirmation that the "extensive nodularity" subtype is Hedgehog-driven
+- Health Canada package insert warnings and contraindications, which are currently missing and block the safety screen
+- Detailed mechanism-of-action data from DrugBank
+- Approved indication text, dosage form and route for the Canadian licence
 
-*Note: Rank 2 (xeroderma pigmentosum) has one emerging 2026 case report and may warrant separate monitoring as evidence accumulates, despite currently being unclassified (pending).*
+**Note on other predictions:** The sixth-ranked prediction, **skin cancer** (score 99.76%), has much stronger support: a randomized double-blind Phase 2 trial (NCT01327053, n=230) and a 42-month BOLT follow-up. That evidence is specific to BCC and likely overlaps with the existing labelled use, so it may not be true repurposing. It should be reviewed as a separate candidate. The second-ranked prediction, xeroderma pigmentosum, has only a single case report, of sonidegib used for BCCs in that condition.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

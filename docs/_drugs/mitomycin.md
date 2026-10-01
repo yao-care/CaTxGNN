@@ -2,7 +2,7 @@
 layout: default
 title: Mitomycin
 parent: Model Prediction Only (L5)
-nav_order: 525
+nav_order: 619
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mitomycin: From Gastrointestinal Cancer to Osteoclastic Giant Cell Tumor of Pancreas
+# Mitomycin: From Cytotoxic Chemotherapy to Osteoclastic Giant Cell Tumor of Pancreas
 
 ## One-Sentence Summary
 
-Mitomycin (Mitomycin C) is a classic antineoplastic antibiotic historically used in combination chemotherapy regimens such as FAM (5-Fluorouracil + Adriamycin + Mitomycin) for gastrointestinal cancers including gastric and pancreatic cancer, and intravesically for bladder cancer.
-The TxGNN model predicts it may be effective for **Osteoclastic Giant Cell Tumor of Pancreas**, an extremely rare non-epithelial pancreatic malignancy of osteoclastic origin.
-However, there are currently **0 clinical trials** and **0 publications** directly supporting this specific indication — this is a model-only prediction.
+Mitomycin is a DNA-crosslinking cytotoxic agent marketed in Canada as an injectable. The provided licence records do not list an approved indication.
+The TxGNN model predicts it may be effective for **osteoclastic giant cell tumor of pancreas**, but there are currently **0 clinical trials** and **0 publications** for this specific disease, so the prediction rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available (Mitomycin is not currently approved in Canada) |
-| Predicted New Indication | Osteoclastic Giant Cell Tumor of Pancreas |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+|------|------|
+| Predicted New Indication | Osteoclastic giant cell tumor of pancreas |
+| TxGNN Prediction Score | 99.86% (model rank 3448) |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on contextual information in the repurposing rationale, Mitomycin C is a broad-spectrum DNA cross-linking alkylating agent (antitumor antibiotic) produced by *Streptomyces caespitosus*. It exerts cytotoxicity by forming covalent interstrand and intrastrand crosslinks in DNA, inhibiting replication in actively dividing cells. This mechanism is theoretically applicable to any rapidly proliferating malignancy.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Mitomycin is a cytotoxic agent that crosslinks DNA, which is a generic antitumour mechanism. That makes a link to pancreatic malignancy plausible, but only in a broad sense.
 
-Osteoclastic giant cell tumor of the pancreas is an extremely rare non-epithelial neoplasm characterized by osteoclast-like multinucleated giant cells of mesenchymal/osteoclastic differentiation — biologically distinct from the more common pancreatic ductal adenocarcinoma. Its proliferation kinetics and molecular drivers differ substantially from epithelial pancreatic cancers, making the mechanistic match with Mitomycin C uncertain. While MMC has a historical role in the FAM regimen (5-FU + Adriamycin + Mitomycin) used in 1980–90s pancreatic cancer treatment, this experience pertains to adenocarcinoma histology, not osteoclastic subtypes.
-
-Notably, all 10 TxGNN top predictions for Mitomycin cluster within pancreatic cancer subtypes. This likely reflects the drug's historical use in pancreatic cancer chemotherapy regimens being encoded in the knowledge graph. The high prediction score (99.86%) represents the model's structural confidence based on graph topology — not clinical efficacy.
+The model gives several pancreatic tumour subtypes almost identical scores (about 99.8% to 99.9%). This suggests the model is picking up a general "cytotoxic drug and pancreatic cancer" pattern rather than anything specific to this rare subtype. Osteoclastic giant cell tumor of pancreas is a very rare entity. No drug-specific or disease-specific evidence was provided to show that mitomycin works against it.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Mitomycin in osteoclastic giant cell tumor of pancreas.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Mitomycin in osteoclastic giant cell tumor of pancreas.
+Currently no related literature available for osteoclastic giant cell tumor of pancreas.
+
+Literature was found for other pancreatic predictions from the same drug. It is old and indirect:
+
+| PMID | Year | Type | Journal | Related Prediction | Key Findings |
+|------|-----|------|------|------|---------|
+| [2140281](https://pubmed.ncbi.nlm.nih.gov/2140281/) | 1990 | Review | Bull Cancer | Malignant exocrine pancreas neoplasm | Chemotherapy of exocrine pancreatic cancer has a poor response. 5-FU alone is the most active drug (20–30% response). Whether mitomycin was evaluated is not shown in the excerpt. |
+| [8361472](https://pubmed.ncbi.nlm.nih.gov/8361472/) | 1993 | Clinical study | Nihon Geka Gakkai Zasshi | Malignant exocrine pancreas neoplasm | Tamoxifen was added to immuno-chemotherapy (including mitomycin) after pancreatic cancer resection. The study focus is hormone therapy, not mitomycin. |
+| [10897253](https://pubmed.ncbi.nlm.nih.gov/10897253/) | 2000 | Review | Strahlenther Onkol | Pancreatic IPMN | Adjuvant and neoadjuvant radiochemotherapy in ductal pancreatic carcinoma, which is a different disease entity. |
+| [15983445](https://pubmed.ncbi.nlm.nih.gov/15983445/) | 2005 | Case report | Pancreatology | Pancreatic IPMN and IPMN carcinoma | Pseudomyxoma peritonei with pancreatic IPMN managed with intraperitoneal hyperthermic chemoperfusion. It does not show mitomycin efficacy against pancreatic IPMN. |
+| [2695183](https://pubmed.ncbi.nlm.nih.gov/2695183/) | 1989 | Review | Bull Cancer | Undifferentiated pancreatic carcinoma | Diagnosis and treatment of unknown primary tumours. It is indirect and not specific to mitomycin. |
 
 ---
 
 ## Canada Market Information
 
-Mitomycin is currently **not marketed in Canada**. No Drug Identification Numbers (DINs) are on record with Health Canada. This means there is no approved indication, no available dosage form, and no Canadian label information to draw upon for safety or dosing guidance.
+| DIN | Product Name |
+|---------|------|
+| 2230451 | MITOMYCIN FOR INJECTION |
+| 2464691 | MITOMYCIN FOR INJECTION USP |
+| 2531941 | MITOMYCIN FOR INJECTION, USP |
+
+Dosage form and approved indication text were not available in the provided records.
 
 ---
 
 ## Cytotoxicity
 
-Mitomycin C qualifies as an antineoplastic agent based on its mechanism of action (DNA cross-linking alkylation), its historical use in cancer combination chemotherapy, and its class membership as an antitumor antibiotic. The cytotoxicity section is therefore required.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Antitumor antibiotic / Alkylating agent (bifunctional) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (DNA-crosslinking antitumour antibiotic) |
+| Myelosuppression Risk | High (delayed and cumulative myelosuppression is expected with this class) |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | CBC with differential and platelets, renal function, liver function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
+
+These entries are class-level information. Please refer to the package insert warnings and precautions for product-specific details.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(No safety data is available in this Evidence Pack for Mitomycin. Health Canada package insert data, TFDA label warnings, contraindications, and drug interaction records were not retrieved.)*
 
 ---
 
@@ -108,14 +118,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Osteoclastic giant cell tumor of the pancreas is an extremely rare, non-epithelial malignancy with no clinical trial or literature evidence supporting Mitomycin C use. This is a pure model prediction (L5), and the biological mismatch between MMC's DNA cross-linking mechanism and the osteoclastic cell lineage further reduces the plausibility of direct applicability. Additionally, Mitomycin C is not currently marketed in Canada, and all safety information in this Evidence Pack is unavailable.
+The prediction for osteoclastic giant cell tumor of pancreas has no supporting trials or literature and only a generic mechanistic link (Evidence Level L5, model prediction only). It should not advance on the model score alone.
+
+Among the ten predictions, malignant exocrine pancreas neoplasm is the broadest and most clinically plausible category. It has been marked "Research Question" and should be prioritised for a modern literature and trial review before any pancreatic indication moves forward.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data from DrugBank (DG002: High severity gap)
-- Health Canada / TFDA package insert for safety warnings and contraindications (DG001: Blocking gap)
-- Preclinical data (in vitro or animal models) demonstrating MMC activity against osteoclastic giant cell tumor specifically
-- Histopathological and molecular profiling data for this tumor subtype to assess DNA replication dependency (Ki-67 index, proliferation markers)
-- Review of the broader pancreatic prediction cluster — notably, **Malignant Exocrine Pancreas Neoplasm** (Rank 8, L4 evidence, Stage S1: Research Question) has historical literature support for MMC in the FAM regimen and is the most clinically actionable of the 10 predictions; a focused evaluation of this indication should be prioritized alongside bladder cancer HIPEC contexts
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- A current search of ClinicalTrials.gov and PubMed for mitomycin in pancreatic cancer, including rare subtypes
+- Approved indication text for the three Canadian DINs, to establish the original indication and route compatibility
+- Expert review of whether evidence for broader pancreatic cancer can be extended to this rare subtype
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

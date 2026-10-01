@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Certolizumab Pegol
-parent: Model Prediction Only (L5)
-nav_order: 159
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 174
+evidence_level: L4
 indication_count: 6
 ---
 
 # Certolizumab Pegol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,100 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Certolizumab Pegol: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Certolizumab Pegol: From Inflammatory Autoimmune Disease to Rheumatoid Vasculitis
 
 ## One-Sentence Summary
 
-Certolizumab pegol (Cimzia®) is a PEGylated TNF-α inhibitor used globally for rheumatoid arthritis, psoriatic arthritis, axial spondyloarthritis, and Crohn's disease, though it is not currently marketed in Canada.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis** with a score of **99.78%**, a rare but serious extra-articular complication of long-standing RA driven by TNF-α-mediated vascular inflammation.
-Current evidence is limited to **1 therapeutic case report** and **several adverse-reaction case reports**, revealing a critical paradox: anti-TNF agents may both treat and trigger vasculitis — making this a research question requiring dedicated prospective investigation before any clinical application.
+Certolizumab pegol (Cimzia) is a PEGylated anti-TNF antibody fragment. The literature describes its use in inflammatory autoimmune diseases such as rheumatoid arthritis, psoriatic arthritis, axial spondyloarthritis and Crohn's disease.
+The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but the support is weak: **3 clinical trials** (none testing vasculitis) and **8 publications** (mostly case reports of anti-TNF-associated vasculitis).
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Rheumatoid arthritis (and related inflammatory autoimmune diseases) |
-| Predicted New Indication | Rheumatoid Vasculitis |
+|------|------|
+| Original Indication | Not stated in the Canadian license records; the literature describes use in RA, psoriatic arthritis, axial spondyloarthritis and Crohn's disease |
+| Predicted New Indication | Rheumatoid vasculitis |
 | TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 (case series and mechanistic studies only) |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Research Question |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Certolizumab pegol (CZP) is a PEGylated Fab' fragment of a recombinant human monoclonal antibody that selectively binds and neutralizes TNF-α. Uniquely among TNF inhibitors, CZP lacks the Fc region, which means it does not activate complement or trigger antibody-dependent cellular cytotoxicity (ADCC), and it exhibits minimal placental transfer. These structural properties distinguish CZP from other anti-TNF agents and may influence both its efficacy and safety profile in vascular inflammatory conditions.
+Detailed mechanism of action data is not available in the record. Based on the literature, certolizumab pegol is a PEGylated Fab fragment that neutralizes TNF-α. It has no Fc region, so it does not fix complement.
 
-Rheumatoid vasculitis (RV) is a rare but severe extra-articular manifestation of long-standing, seropositive rheumatoid arthritis. Its pathogenesis involves immune complex deposition in vessel walls combined with TNF-α-driven endothelial injury and leukocyte recruitment. Since TNF-α sits at the center of this inflammatory cascade, mechanistically blocking it with CZP represents a plausible therapeutic strategy. One published case report (PMID 34786446) describes apparent clinical benefit of CZP in leg ulcers due to confirmed rheumatoid vasculitis, providing a small but direct therapeutic signal.
+TNF drives inflammation in rheumatoid arthritis, and rheumatoid vasculitis is a severe extra-articular complication of the disease. This gives a plausible link between the two conditions. A 2021 case report describes certolizumab treatment for leg ulcers due to rheumatoid vasculitis.
 
-However, a critical and clinically important paradox must be acknowledged upfront: multiple case reports in this evidence set document certolizumab pegol itself — and the broader anti-TNF class — inducing drug-related vasculitis as a paradoxical adverse reaction (leukocytoclastic vasculitis, hypocomplementemic urticarial vasculitis, anti-TNF-related medium-vessel vasculitis). This bidirectional risk — where the same drug may suppress or provoke vasculitic inflammation — substantially complicates the risk-benefit balance and means a simple extrapolation from mechanism to clinical utility is insufficient. Careful patient selection, monitoring protocols, and formal prospective study design are essential before this indication can be pursued.
+The mechanism cuts both ways, though. Several case reports describe vasculitis that appeared during certolizumab or other anti-TNF treatment. These include leukocytoclastic vasculitis, hypocomplementemic urticarial vasculitis and medium-vessel vasculitis. So TNF blockade may treat rheumatoid vasculitis in some patients and trigger paradoxical vasculitis in others.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials specifically designed to evaluate certolizumab pegol in rheumatoid vasculitis were identified. The three trials retrieved are only peripherally related to the indication:
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A (Observational) | Completed | 184 | Real-world study of tocilizumab in RA patients failing prior DMARDs or biologics; may include vasculitis subgroup data but has no direct vasculitis efficacy endpoint and does not assess CZP |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Assesses perioperative immunosuppressant management in rheumatology patients undergoing elective shoulder arthroplasty; not relevant to vasculitis treatment efficacy |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A (Epidemiological) | Unknown | 750,000 | Large pharmacovigilance study on the incidence of new IMIDs in patients treated with biologics; provides indirect safety surveillance context for the broader anti-TNF class |
+|---------|------|------|------|---------|
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having shoulder arthroplasty; does not test vasculitis efficacy |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Observational study of tocilizumab in RA; no vasculitis-specific outcomes |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Registry of new immune-mediated inflammatory diseases after biologic treatment; a safety and epidemiology study, not an efficacy study |
+
+All three trials are only loosely related. None tests certolizumab for rheumatoid vasculitis.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case Report | JAAD Case Reports | **Only direct therapeutic evidence**: describes successful CZP treatment of leg ulcers caused by confirmed rheumatoid vasculitis |
-| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Cohort/Registry | RMD Open | Long-term follow-up of CZP in uveitis related to IMIDs (N=80); evaluates effectiveness and safety across IMID-related ocular vasculitic manifestations, offering mechanistic parallels |
-| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Retrospective Cohort | Clinical Medicine & Research | Single-center study of adverse cutaneous events with biologic agents; characterizes the spectrum of paradoxical vasculitic skin reactions including those associated with CZP |
-| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Case Report (ADR) | Cureus | Anti-TNF-induced medium-vessel vasculitis in a patient with seronegative RA switched to CZP after prior biologic failures; highlights paradoxical vasculitis induction risk |
-| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Case Report (ADR) | J Clin Pharmacy & Therapeutics | First reported case of hypocomplementemic urticarial vasculitis (HUV) developing during CZP treatment for RA; mechanism discussed as immune complex-mediated |
-| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Case Report (ADR) | Proceedings (Baylor Univ. Medical Center) | First documented case of leukocytoclastic vasculitis as a cutaneous drug reaction to certolizumab pegol |
-| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Case Report (ADR) | Modern Rheumatology Case Reports | Rapidly progressive glomerulonephritis after CZP initiation in an RA patient, consistent with TNF inhibitor-induced autoimmune renal vasculitis as a paradoxical reaction |
-| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Review | RMD Open | Comparative analysis of infection profiles from SmPCs of immune-modulatory drugs including CZP; provides broad safety benchmarking context across the biologic class |
+|------|-----|------|------|---------|
+| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Cohort (indirect) | RMD Open | Multicentre study of 80 patients with uveitis due to immune-mediated inflammatory diseases; evaluates effectiveness and safety of certolizumab, not vasculitis |
+| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Review | RMD Open | Compares infection profiles of immune-modulatory drugs from product labeling |
+| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case report | JAAD Case Reports | Certolizumab treatment for leg ulcers due to rheumatoid vasculitis (the only direct signal of benefit) |
+| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Case report | Cureus | Anti-TNF-induced medium-vessel vasculitis in a woman with seronegative RA after switching to certolizumab |
+| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Case report | Mod Rheumatol Case Rep | Rapidly progressive glomerulonephritis after starting certolizumab in RA |
+| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Case report | J Clin Pharm Ther | Hypocomplementemic urticarial vasculitis developing during certolizumab for RA |
+| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Retrospective cohort | Clin Med Res | Single-centre experience of cutaneous adverse events with biologic agents |
+| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Case report | Proc (Bayl Univ Med Cent) | Leukocytoclastic vasculitis drug reaction to certolizumab |
 
 ---
 
 ## Canada Market Information
 
-Certolizumab pegol is **not currently marketed in Canada**. No Drug Identification Numbers (DINs) are registered with Health Canada. Clinicians seeking safety and prescribing information should refer to regulatory labels from jurisdictions where CZP is approved (e.g., FDA label in the USA, EMA SmPC in the EU).
+| DIN | Product Name |
+|---------|------|
+| 2465574 | CIMZIA |
+| 2331675 | CIMZIA |
+
+The license records provided do not list dosage forms or approved indication text.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found.
+- **Literature signal**: Case reports link certolizumab and other anti-TNF agents to paradoxical vasculitis and glomerulonephritis. This matters directly when the target disease is itself a vasculitis, because worsening could be mistaken for disease progression.
 
-> **Clinical Alert — Paradoxical Vasculitis Risk**: Published literature documents that certolizumab pegol and other TNF inhibitors can paradoxically *induce* drug-related vasculitis (leukocytoclastic, urticarial, and medium-vessel subtypes) as an adverse reaction. Any proposal to use CZP for rheumatoid vasculitis must include a pre-specified protocol for distinguishing disease-activity-driven vasculitis flare from drug-induced paradoxical vasculitis during follow-up.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic link between TNF-α blockade and rheumatoid vasculitis is biologically plausible, and a high TxGNN prediction score (99.78%) supports theoretical relevance. However, the totality of available evidence — dominated by ADR case reports describing CZP-induced vasculitis — creates an ambiguous and paradoxical risk-benefit picture that precludes any clinical recommendation at this stage. The single therapeutic case report is encouraging but entirely insufficient to support a practice decision.
+The TxGNN score is very high, but the evidence is L4. There is one case report of benefit and several reports of anti-TNF-associated vasculitis. No trial tests certolizumab for rheumatoid vasculitis.
 
 **To proceed, the following is needed:**
-- A systematic review or registry-based cohort study specifically examining TNF inhibitor outcomes in rheumatoid vasculitis patients, with CZP as a subgroup of interest
-- Retrieval and analysis of the complete package insert (TFDA/FDA/EMA) to document key warnings, contraindications, and known vasculitis-related adverse events
-- Acquisition of detailed MOA data from DrugBank to formally support mechanistic rationale documentation
-- Development of a patient-selection framework to identify RV patients most likely to benefit and least likely to experience paradoxical drug-induced vasculitis (e.g., serology, skin biopsy type, disease duration)
-- Design of a pilot prospective observational study or case series registry with pre-defined endpoints distinguishing therapeutic response from paradoxical ADR
-- Consultation with dermatology and rheumatology specialists experienced in biologic-associated vasculitis before any off-label use is considered
+- The Canadian package insert (warnings, contraindications, approved indications)
+- Detailed mechanism of action data
+- Controlled or larger observational data in rheumatoid vasculitis, including a comparison of benefit against paradoxical vasculitis risk
+- A safety monitoring plan for vasculitis flares and renal involvement
+
+Other predictions in the pack are better supported. Inflammatory spondylopathy has Phase 3 RCT evidence in axial spondyloarthritis (L1). It is probably an existing labeled use, so check its regulatory status before treating it as repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

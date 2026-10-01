@@ -2,7 +2,7 @@
 layout: default
 title: Mirvetuximab Soravtansine
 parent: Model Prediction Only (L5)
-nav_order: 523
+nav_order: 617
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Mirvetuximab Soravtansine (ELAHERE™) is an antibody-drug conjugate (ADC) targeting folate receptor alpha (FRα/FOLR1), approved in the US and EU for platinum-resistant ovarian cancer.
-The TxGNN model predicts it may be effective for **Antithrombin Deficiency Type 2**, assigning a score of **97.95%** (top-ranked prediction).
-However, **no clinical trials or supporting publications** exist for this indication, and mechanistic analysis indicates this is most likely a knowledge graph false positive.
+Mirvetuximab soravtansine (ELAHERE) is a folate receptor alpha (FRα)-directed antibody-drug conjugate used for platinum-resistant ovarian cancer.
+The TxGNN model predicts it may be effective for **antithrombin deficiency type 2**, but **0 clinical trials** and **0 publications** support this prediction, and no plausible mechanistic link exists. The high score is most likely a knowledge-graph artifact.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Platinum-resistant ovarian cancer (FDA/EMA approved; not marketed in Canada) |
-| Predicted New Indication | Antithrombin Deficiency Type 2 |
+|------|------|
+| Original Indication | Platinum-resistant ovarian cancer (from the published literature in the pack; the Canadian license text was not supplied) |
+| Predicted New Indication | Antithrombin deficiency type 2 |
 | TxGNN Prediction Score | 97.95% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank record. Based on known published information, Mirvetuximab Soravtansine is an anti-FOLR1 antibody-drug conjugate in which the humanized anti-FRα antibody is linked to the maytansinoid cytotoxin DM4 (soravtansine). Its antitumour mechanism relies on selective binding to folate receptor alpha (FRα) overexpressed on epithelial tumour cell surfaces, receptor-mediated internalization, and intracellular release of DM4, which disrupts microtubule polymerization and triggers apoptosis. FRα is characteristically overexpressed in ovarian, endometrial, and certain lung cancers, but has no established functional role in haemostasis or coagulation biology.
+It is not well supported. Mirvetuximab soravtansine is an antibody-drug conjugate. The antibody binds FRα on tumour cells, and the conjugate delivers the DM4 microtubule-inhibitor payload, which kills the cell. Detailed mechanism data were not supplied in the input, so this description comes from the candidate's mechanistic assessment.
 
-Antithrombin Deficiency Type 2 is a hereditary thrombophilia caused by SERPINC1 gene mutations that impair antithrombin function, producing a hypercoagulable state. This condition is managed with anticoagulants (heparins, direct oral anticoagulants) or antithrombin concentrate — not cytotoxic agents. FRα is not expressed on coagulation proteins or the cell types implicated in this disease.
+Antithrombin deficiency type 2 is an inherited defect in a coagulation inhibitor. The disease is caused by a dysfunctional protein, not by proliferating FRα-positive cells. A cytotoxic ADC cannot correct that defect. Cytotoxic cancer therapy is also generally associated with increased thrombotic risk, which would work against patients with this condition.
 
-This prediction is assessed as a **model false positive**. The TxGNN knowledge graph score almost certainly reflects indirect graph connectivity between haematological system nodes, rather than a genuine mechanistic bridge between FOLR1-targeting ADC pharmacology and antithrombin deficiency. There is no published preclinical rationale, no registered clinical trial, and no supporting literature for this repurposing direction.
+The TxGNN score is high (rank 30,079 overall), but it reflects graph-based association rather than biological rationale. Other top-ranked predictions for this drug (heparin cofactor 2 deficiency, factor V excess, candidiasis, tinea corporis, thrombophilia) show the same pattern. None has a plausible mechanism or any supporting study.
 
 ---
 
@@ -77,25 +76,35 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Mirvetuximab Soravtansine is not approved or marketed in Canada (Health Canada DINs: 0). For reference, the drug holds FDA accelerated approval (November 2022) and full approval (March 2024) in the United States under the brand name ELAHERE™, for FRα-positive, platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer in adults who have received 1–3 prior systemic treatment regimens.
+| DIN | Product Name |
+|---------|------|
+| 2560771 | ELAHERE |
+
+Dosage form, manufacturer and approved indication text were not supplied for this license.
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted cytotoxic — Antibody-Drug Conjugate (anti-FOLR1 antibody × DM4 maytansinoid payload) |
-| Myelosuppression Risk | Moderate — thrombocytopenia and neutropenia reported in ADC/maytansinoid class; CBC monitoring required |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (each cycle), liver function, renal function, visual acuity and ocular symptoms (DM4 class ocular toxicity risk), peripheral neuropathy |
-| Handling Protection | Must follow cytotoxic drug handling regulations — biohazard and cytotoxic precautions apply to preparation, administration, and waste disposal |
+|------|------|
+| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic microtubule-inhibitor payload (DM4) |
+| Myelosuppression Risk | Myelosuppression is a recognised concern for this class. Please refer to the package insert for grading. |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Haematological parameters (CBC), ophthalmic examination, neurological assessment. Please refer to the package insert for the full schedule. |
+| Handling Protection | Follow institutional cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The Evidence Pack has no package insert warnings, contraindications or drug interaction records for this product. The candidate assessment does flag the following concerns:
+
+- **Ocular toxicity, peripheral neuropathy and myelosuppression** are the main toxicities of concern. Myelosuppression may also raise infection risk.
+- **Thrombotic risk** is generally increased with cytotoxic cancer therapy, which is relevant to any coagulation-related indication.
+- **Paediatric use** would be a serious concern given this toxicity profile.
+
+Please refer to the package insert for authoritative safety information.
 
 ---
 
@@ -104,13 +113,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score of 97.95% for antithrombin deficiency type 2 does not correspond to biological plausibility — FOLR1 and DM4 have no mechanistic relevance to the coagulation deficiency pathway, and this prediction is assessed as a knowledge graph artifact with zero clinical or preclinical supporting evidence.
+The prediction rests only on a model score. There are no trials or publications, the mechanism does not fit the disease, and the drug's toxicity and thrombotic-risk profile argue against use. All ten TxGNN predictions for this drug are currently Hold. The only one with any literature is plasma cell myeloma (L4). That literature consists of reviews of ADCs and immunotherapy, mostly in gynaecologic cancers, and does not test mirvetuximab in myeloma.
 
 **To proceed, the following is needed:**
-- Obtain full MOA data from the DrugBank API (DB12489) to formally document the FOLR1/DM4 mechanism
-- Obtain Health Canada or TFDA package insert to complete warnings and contraindications assessment
-- Consider redirecting analysis to **plasma cell myeloma (rank 5, score 97.61%)**, which carries partial mechanistic rationale (FOLR1 low-level expression has been reported in some plasma cell lines) and has 4 indirect literature references — it represents the most defensible repurposing hypothesis among all 10 predictions
-- Any further evaluation of Mirvetuximab in haematological indications should begin with FRα expression profiling in the target cell population before any clinical hypothesis is formed
+- Package insert warnings and contraindications from Health Canada (currently a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- Any preclinical or clinical evidence linking FRα-targeted delivery to antithrombin function. Without it, this candidate should not advance beyond model prediction.
+- If the team wants a more tractable candidate from this list, a preclinical FRα expression check in plasma cells would be the minimum step for the myeloma prediction.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

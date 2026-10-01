@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Deoxycholic Acid
-parent: Moderate Evidence (L3-L4)
-nav_order: 224
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 258
+evidence_level: L5
 indication_count: 3
 ---
 
 # Deoxycholic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,65 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Deoxycholic Acid: From Bile Acid Biology to Diabetic Nephropathy
-
-> **Report Note:** The TxGNN model's top two predicted indications—*autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome* (rank 1, 99.49%) and *brain small vessel disease 1 with or without ocular anomalies* (rank 2, 99.49%)—carry no supporting clinical trials or relevant literature, and the model's own rationale attributes both high scores to graph topology proximity rather than genuine mechanistic links. This report therefore focuses on the third-ranked prediction, **Diabetic Nephropathy** (99.32%), which is the most clinically actionable prediction with coherent mechanistic support and 20 relevant publications.
-
----
+# Deoxycholic Acid: From Submental Fat Reduction (Local Injection) to Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome
 
 ## One-Sentence Summary
 
-Deoxycholic acid (DCA) is a secondary bile acid and endogenous signaling molecule that acts as a partial agonist of the farnesoid X receptor (FXR) and the G protein-coupled receptor TGR5—two pathways with established renoprotective roles in the kidney. The TxGNN model predicts it may be effective for **Diabetic Nephropathy**, with **0 clinical trials** and **20 publications** providing mechanistic context, primarily from structurally related bile acids rather than DCA directly. Evidence currently sits at the preclinical/mechanistic level (L4), and this prediction warrants systematic investigation before any clinical advancement.
+Deoxycholic acid is a secondary bile acid that disrupts cell membranes. It is marketed in Canada as an injectable (BELKYRA) for local use under the chin.
+The TxGNN model predicts it may be effective for **autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome**, a rare inherited vascular disorder.
+There are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No registered indication in Canada; endogenous secondary bile acid metabolite |
-| Predicted New Indication | Diabetic Nephropathy |
-| TxGNN Prediction Score | 99.32% |
-| Evidence Level | L4 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+|------|------|
+| Original Indication | Not recorded in the Canadian license data (the marketed injectable is intended for local submental use) |
+| Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
+| TxGNN Prediction Score | 99.49% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Deoxycholic acid is produced by the intestinal microbiome through biotransformation of primary bile acids. Its chief pharmacological roles involve activation of the nuclear hormone receptor FXR and the membrane receptor TGR5 (GPBAR1). Both receptors are expressed in renal proximal tubular cells and podocytes, where they regulate metabolic homeostasis, inflammation, and fibrogenesis. The mechanistic case for DCA in diabetic nephropathy rests on four proposed pathways: (1) FXR activation suppresses the TGF-β/SMAD fibrotic cascade in tubular cells; (2) TGR5 activation improves renal tubular energy metabolism and reduces reactive oxygen species; (3) FXR/TGR5 signaling reduces lipid accumulation in the kidney; and (4) modulation of the gut–kidney axis lowers systemic inflammatory burden that drives glomerular damage.
+Detailed mechanism of action data is not available in the source record. Deoxycholic acid is a secondary bile acid. In its marketed injectable form it acts as a membrane-disrupting agent that destroys fat cells (adipocytolysis) at the injection site.
 
-This hypothesis is substantiated by a consistent body of preclinical evidence—not for DCA itself, but for structurally related bile acids. Ursodeoxycholic acid (UDCA) has demonstrated renoprotection across multiple diabetic animal models, attenuating albuminuria, podocyte apoptosis, endoplasmic reticulum stress, and SGLT2 upregulation. Tauroursodeoxycholic acid (TUDCA) has similarly reduced renal tubular injury and glomerular damage in db/db and STZ-induced diabetic mice. Critically, a dual FXR/TGR5 agonist (INT-767) directly targeting both receptors prevented nephropathy progression in two separate diabetic mouse models, providing the most direct mechanistic parallel to DCA's receptor pharmacology. A 2024 human metabolomics study further confirms that bile acid metabolism is progressively disrupted in patients with diabetic kidney disease, establishing the pathway's relevance in human pathophysiology.
+We could not identify a credible link between this pharmacology and the predicted disease. The predicted disease is a rare single-gene disorder of the small blood vessels and their surrounding basement membrane. Nothing in the known actions of deoxycholic acid connects to that biology. The high score (99.49%) is a graph-based prediction only. No trials or publications were found to support it, so it should be treated as a model output, not as evidence of benefit.
 
-However, important limitations apply. DCA is pharmacologically distinct from UDCA and TUDCA—it exhibits significantly greater membrane-disrupting (cytolytic) activity and can promote intestinal inflammation at higher doses. This property is purposefully used in submental fat reduction (Kybella/Belkyra) but represents a meaningful safety concern for systemic repurposing. No preclinical or clinical study has directly tested DCA in diabetic nephropathy. The available evidence therefore supports a plausible class effect inference but cannot be equated with drug-specific data for DCA. A dedicated in vivo safety and efficacy program would be the necessary next step.
+Two other predictions in the same analysis are worth noting:
+- **Brain small vessel disease 1 with or without ocular anomalies (99.49%):** This has the same problem. The 19 retrieved articles are general reviews of congenital eye anomalies. None mention deoxycholic acid or bile acids.
+- **Diabetic nephropathy (99.32%):** This is the most plausible of the three, but the link is indirect. Deoxycholic acid activates the bile acid receptors TGR5 (strongly) and FXR (weakly). Signaling through these receptors has been protective in animal models of diabetic kidney disease. However, the retrieved studies tested other agents, such as a synthetic FXR/TGR5 dual agonist, UDCA and herbal formulas. None tested deoxycholic acid itself. Deoxycholic acid is also cytotoxic and its levels are often raised in metabolic disease, so the direction of effect is uncertain.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials investigating deoxycholic acid in diabetic nephropathy are currently registered in ClinicalTrials.gov or international trial registries (ICTRP).
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-All publications below relate to bile acid receptor signaling in diabetic nephropathy. No studies directly test DCA; studies involve UDCA, TUDCA, FXR agonists, or FXR knockout models.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [29089371](https://pubmed.ncbi.nlm.nih.gov/29089371/) | 2018 | Animal Study | J Am Soc Nephrol | FXR/TGR5 dual agonist INT-767 prevents nephropathy progression in STZ-diabetic and db/db mice; demonstrates synergistic renoprotection through differential receptor-mediated pathways — most direct mechanistic parallel to DCA |
-| [28696246](https://pubmed.ncbi.nlm.nih.gov/28696246/) | 2017 | Animal Study | J Am Soc Nephrol | TUDCA (FXR agonist) protects against diabetic tubulopathy by reducing maladaptive ER stress signaling; proposes FXR activation as a viable add-on therapeutic target in diabetic nephropathy |
-| [39384774](https://pubmed.ncbi.nlm.nih.gov/39384774/) | 2024 | Clinical Cohort | Nutr Diabetes | Metabolomic profiling in human patients demonstrates step-wise disruption of bile acid metabolism correlating with diabetic kidney disease progression — supports bile acid pathway relevance in human disease |
-| [27193377](https://pubmed.ncbi.nlm.nih.gov/27193377/) | 2016 | Animal Study | Biol Pharm Bull | UDCA ameliorates diabetic nephropathy in db/db mice by attenuating hyperglycemia-induced oxidative stress and endoplasmic reticulum stress |
-| [26999661](https://pubmed.ncbi.nlm.nih.gov/26999661/) | 2016 | In vitro / Animal | Lab Invest | UDCA prevents ER stress-induced podocyte apoptosis in db/db mice, protecting glomerular cells against high-glucose-mediated injury; UDCA + 4-PBA combination evaluated |
-| [22429686](https://pubmed.ncbi.nlm.nih.gov/22429686/) | 2012 | Animal Study | Diabetes Res Clin Pract | UDCA treatment reduces SGLT2 expression and oxidative stress markers in kidneys of streptozotocin-induced diabetic rats |
-| [37790634](https://pubmed.ncbi.nlm.nih.gov/37790634/) | 2023 | Animal Study | PeerJ | FXR knockout in db/db mice accelerates dysregulated glucose metabolism and renal fibrosis, confirming FXR as a protective receptor in diabetic kidney disease |
-| [26655953](https://pubmed.ncbi.nlm.nih.gov/26655953/) | 2016 | Animal Study | J Biol Chem | FXR activation protects against obesity-induced kidney injury in uninephrectomized high-fat-diet mice via anti-fibrotic, lipid-lowering, and anti-inflammatory mechanisms |
-| [36690052](https://pubmed.ncbi.nlm.nih.gov/36690052/) | 2023 | Animal Study | Eur J Pharmacol | TUDCA evaluated as monotherapy and as add-on to telmisartan in STZ-induced diabetic kidney disease; ER stress inhibition identified as key mechanism |
-| [36996678](https://pubmed.ncbi.nlm.nih.gov/36996678/) | 2023 | Animal Study | Biomed Pharmacother | Relaxin's renoprotective effects in STZ-diabetic mice are accompanied by elevated endogenous bile acid levels, suggesting upregulation of the bile acid signaling axis as part of the protective mechanism |
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Deoxycholic acid (DB03619) has no registered products with Health Canada. There are currently **0 Drug Identification Numbers (DINs)** issued. The drug is not marketed in Canada under any dosage form or brand name.
+| DIN | Product Name |
+|---------|------|
+| 2443910 | BELKYRA |
 
 ---
 
 ## Safety Considerations
 
-No specific safety data—including key warnings, contraindications, or drug-drug interactions—was available in the current evidence pack.
-
 Please refer to the package insert for safety information.
-
-**Additional consideration for repurposing:** Deoxycholic acid has well-characterized membrane-disrupting (cytolytic) properties at therapeutic concentrations. This activity is intentionally leveraged in approved products for submental fat reduction (Kybella/Belkyra), where localized adipocyte lysis is the therapeutic goal. For systemic repurposing targeting renal disease, the safety window between FXR/TGR5-mediated efficacy (likely achieved at lower concentrations) and non-specific membrane cytotoxicity must be rigorously characterized before any dose selection.
 
 ---
 
@@ -111,15 +96,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic hypothesis for DCA in diabetic nephropathy is biologically coherent—FXR and TGR5 receptor activation has demonstrated renoprotective effects in multiple preclinical models using related bile acids, and bile acid pathway dysregulation has been confirmed in human diabetic kidney disease. However, no study has directly tested DCA in this indication, the drug is not registered in Canada, and DCA's inherent cytolytic properties introduce a non-trivial systemic safety concern that distinguishes it from safer bile acid analogues such as UDCA and TUDCA.
+The top-ranked prediction has no clinical trials, no literature and no identifiable mechanistic link, so the evidence level is L5 (model prediction only). The injectable product is designed for local use under the chin, not for systemic exposure, which further limits its relevance to a systemic vascular disease.
 
 **To proceed, the following is needed:**
-- Direct preclinical testing of DCA in validated diabetic nephropathy models (db/db or STZ-induced mice) at doses below cytolytic thresholds to establish proof of concept
-- Pharmacokinetic profiling to determine renal tissue DCA exposure and systemic plasma levels following oral or parenteral administration
-- Comparative safety evaluation of DCA versus UDCA and TUDCA at equivalent FXR/TGR5-activating doses, with emphasis on intestinal and renal toxicity
-- Full mechanism of action characterization from DrugBank and primary literature (currently a data gap)
-- Health Canada package insert and TFDA monograph review to identify any existing warnings or contraindications relevant to systemic use
-- Evaluation of whether a more selective, clinically advanced FXR agonist (e.g., obeticholic acid, TUDCA) would be a preferable repurposing candidate with a more favorable safety profile
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data for deoxycholic acid (for example, from DrugBank)
+- For diabetic nephropathy, which is best treated as a separate research question (evidence level L4): direct preclinical testing of deoxycholic acid, including its dose and its effect on TGR5 and FXR signaling, before any clinical consideration
+- A review of whether a local-use injectable can reach the exposure a systemic indication would need
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

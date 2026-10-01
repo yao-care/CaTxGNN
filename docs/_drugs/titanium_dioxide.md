@@ -2,7 +2,7 @@
 layout: default
 title: Titanium Dioxide
 parent: Model Prediction Only (L5)
-nav_order: 779
+nav_order: 911
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Titanium Dioxide: From Excipient Use to Drug-Induced Osteoporosis (Prediction Only)
+# Titanium Dioxide: From Pigment and UV Filter to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Titanium dioxide (DrugBank DB09536) has no approved therapeutic indication — it is used as a pharmaceutical excipient/coating pigment, not an active drug substance. The TxGNN model predicts a possible link to **Drug-Induced Osteoporosis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, with no known mechanism of action connecting titanium dioxide to bone metabolism.
+Titanium dioxide is mainly used as a pigment, UV filter and excipient, and it appears in many sunscreen and foundation products on the Canadian market.
+The TxGNN model predicts it may be effective for **drug-induced osteoporosis**,
+but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | N/A — titanium dioxide is a pharmaceutical excipient/pigment with no approved therapeutic indication |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.9998% (model rank #13) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Original Use | Pigment, UV filter and excipient (no formal approved indication text on file) |
+| Predicted New Indication | Drug-induced osteoporosis |
+| TxGNN Prediction Score | 99.9998% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for titanium dioxide as a therapeutic agent. Unlike the other candidates in this evidence pack, titanium dioxide is not a drug with an established pharmacological indication — it functions in pharmaceutical products as an excipient and white pigment/coating agent, not as an active ingredient with systemic pharmacodynamic activity.
+Currently, detailed mechanism of action data is not available. Based on known information, titanium dioxide is an inert pigment, UV filter and excipient rather than a drug with a defined therapeutic target. No known mechanism links it to bone metabolism or to osteoporosis caused by medications.
 
-There is no known biological rationale connecting titanium dioxide to bone metabolism or drug-induced osteoporosis. The repurposing rationale supplied with this prediction explicitly notes the absence of any known mechanism: TiO2 has no reported pharmacological activity related to bone turnover, osteoclast/osteoblast signaling, or corticosteroid-type bone loss pathways typically associated with drug-induced osteoporosis.
+The very high TxGNN score (about 99.9998%) is a knowledge-graph prediction. It is not backed by trials, literature or a documented biological rationale. Scores this high are common in the model's output and do not by themselves indicate real efficacy.
 
-Given the lack of mechanistic plausibility and the complete absence of clinical or literature evidence, this prediction should be interpreted as a graph-based statistical association from the TxGNN knowledge graph rather than a biologically grounded repurposing hypothesis. It does not currently meet the threshold for further pharmacological investigation.
+Other predictions for this drug are also weakly supported:
+- **Diabetic retinopathy** (rank 2) has five retrieved papers, but none shows TiO2 treating or preventing the disease. They cover analytical methods, an eye phantom, an imaging-agent study and a general nanoparticle review. At most they suggest a diagnostic or nanomedicine relevance.
+- **Cataract-related predictions** (ranks 3 to 10) have no trials or literature. Several share an identical score, which suggests a shared knowledge-graph neighborhood effect.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
-*Note: Lower-ranked candidates in this evidence pack (e.g., diabetic retinopathy, rank #2) do have associated PubMed literature, but those publications describe titanium dioxide nanoparticles as a diagnostic/analytical tool (extracellular vesicle purification, retinal imaging contrast agents) — not as a therapeutic agent for the disease itself.*
+---
 
 ## Canada Market Information
 
-Titanium dioxide is not currently marketed as a licensed drug product in Canada (0 DINs registered under this evidence pack). No authorization records are available to summarize.
+20 licenses are on record. The five main ones are listed below; none has approved indication text or dosage form data on file.
+
+| DIN | Product Name |
+|---------|------|
+| 2538482 | WEIGHTLESS SKIN FOUNDATION SPF 15 |
+| 2406926 | MARCELLE CC CREAM / CRÈME COMPLETE CORRECTION SPF 35 |
+| 2434016 | TEINT LUMIÈRE |
+| 2529130 | FLUID SPF 15 |
+| 2492970 | SUPERDEFENSE CITY BLOCK DAILY ENERGY + FACE PROTECTOR SPF 50 |
+
+These are topical sun-protection and cosmetic-type products. They give no support for a systemic bone indication.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. TFDA label warnings, contraindications, and drug-drug interaction data are currently unavailable (data gap DG001, flagged as **Blocking** — this must be resolved before any S1 safety assessment can proceed).
+Please refer to the package insert for safety information. No drug-drug interactions were found in the queried data.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is evidence level L5 (model output only), with no clinical trials, no supporting literature, and no plausible mechanism of action linking titanium dioxide to bone metabolism. Titanium dioxide's role as an inert excipient/pigment further weakens the biological rationale for pursuing this candidate.
+The prediction rests on a model score alone (Evidence Level L5). There are no clinical trials, no supporting literature and no plausible mechanism. The marketed products are topical sun-protection and cosmetic products, which do not match a systemic bone indication.
 
 **To proceed, the following is needed:**
-- TFDA-equivalent label/warning data (blocking gap DG001) to enable any safety evaluation
-- Verified mechanism of action (MOA) data from DrugBank or primary literature (gap DG002)
-- Mechanistic or preclinical evidence directly linking titanium dioxide exposure to bone metabolism/osteoporosis
-- Re-evaluation only if new clinical or mechanistic evidence emerges; otherwise this candidate should not advance past S0
+- Mechanism of action data and a plausible biological rationale linking TiO2 to bone metabolism
+- Preclinical studies (for example, bone-loss models) showing a therapeutic effect
+- Route and formulation compatibility assessment, since current products are topical and osteoporosis therapy is typically systemic
+- Health Canada package insert warnings and contraindications for a safety screen
+- A reassessment of the diabetic retinopathy prediction only if direct therapeutic evidence emerges
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

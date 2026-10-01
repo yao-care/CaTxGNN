@@ -2,7 +2,7 @@
 layout: default
 title: Tipiracil
 parent: Model Prediction Only (L5)
-nav_order: 777
+nav_order: 909
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tipiracil: From Metastatic Colorectal Cancer to Cecum Villous Adenoma
+# Tipiracil: From Metastatic Colorectal Cancer (Trifluridine/Tipiracil Combination) to Cecum Villous Adenoma
 
 ## One-Sentence Summary
 
-Tipiracil has no independent pharmacological activity on its own; combined with trifluridine as TAS-102 (Lonsurf), it is used internationally for refractory metastatic colorectal cancer. The TxGNN model's top prediction for tipiracil is **Cecum Villous Adenoma**, but this candidate currently has **no supporting clinical trials or literature**, and the evidence pack itself flags the mechanistic link as weak, since villous adenoma is a benign lesion rather than a typical chemotherapy target.
+Tipiracil is a component of the trifluridine/tipiracil combination (LONSURF), approved for refractory metastatic colorectal cancer.
+The TxGNN model predicts it may be effective for **cecum villous adenoma**, but **0 clinical trials** and **0 publications** support this specific prediction.
+This is a model-only (L5) signal, and the high score most likely reflects knowledge-graph proximity to colorectal terms rather than real therapeutic potential.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in Canadian regulatory filings (drug not marketed); internationally, tipiracil is used only as a component of trifluridine/tipiracil (TAS-102/Lonsurf) for metastatic colorectal cancer |
-| Predicted New Indication | Cecum Villous Adenoma |
-| TxGNN Prediction Score | 99.99% (rank 458) |
+| Original Indication | Refractory metastatic colorectal cancer (as the trifluridine/tipiracil combination; license indication text not provided) |
+| Predicted New Indication | Cecum villous adenoma |
+| TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Tipiracil itself has no independent pharmacological activity. It must be combined with trifluridine to form TAS-102, in which tipiracil inhibits thymidine phosphorylase, preventing degradation of trifluridine and allowing it to be incorporated into DNA to exert a cytotoxic effect. TAS-102 is used internationally for refractory metastatic colorectal cancer, a proliferative malignant disease driven by DNA replication.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Tipiracil is known to be a thymidine phosphorylase inhibitor. It has no cytotoxic activity on its own. Its role in the approved combination is to raise exposure to trifluridine, the cytotoxic partner.
 
-The predicted new indication, cecum villous adenoma, is anatomically located in the colon — the same organ system as the approved indication — but is a benign glandular polypoid lesion rather than an actively proliferating malignancy. Benign lesions are not standard targets of cytotoxic antimetabolite chemotherapy, since TAS-102's mechanism depends on incorporation into rapidly dividing malignant cell DNA.
+Cecum villous adenoma is a benign, premalignant lesion, and a cytotoxic combination is not a recognised treatment for it. Such lesions are normally managed by endoscopic or surgical removal. The model's score most likely reflects the closeness of "cecum" and "adenoma" to colorectal cancer terms in the knowledge graph, not a genuine mechanistic link. We therefore consider the prediction weak and do not recommend treating it as a repurposing lead.
 
-Per the evidence pack's own mechanistic assessment, this prediction most likely reflects TxGNN's knowledge-graph proximity between "colonic lesions" in general, rather than a genuine pharmacological rationale. No clinical trial or literature evidence directly supports this specific indication.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2472104 | LONSURF |
+| 2472112 | LONSURF |
+
+Dosage form and approved indication text were not provided for these licenses.
+
+---
+
 ## Cytotoxicity
 
-Tipiracil (as part of trifluridine/tipiracil, TAS-102) is an antineoplastic cytotoxic agent used in refractory metastatic colorectal cancer, meeting antineoplastic classification criteria (mechanism of action, indication, and drug class).
+Tipiracil itself is not cytotoxic. This section applies because it is used only in combination with the cytotoxic agent trifluridine, for colorectal cancer.
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — nucleoside antimetabolite (trifluridine/tipiracil, TAS-102) |
-| Myelosuppression Risk | High — reported adverse effects include leukopenia and neutropenia (PMID 30677817) |
-| Emetogenicity Classification | Moderate — vomiting reported as a common adverse effect (PMID 30677817) |
-| Monitoring Items | CBC with differential (leukopenia/neutropenia surveillance), liver and renal function |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+| Cytotoxicity Classification | Combination product with a conventional cytotoxic partner (trifluridine, a nucleoside antimetabolite); tipiracil acts as an enzyme inhibitor |
+| Myelosuppression Risk | Leukopenia and neutropenia are reported for the combination (PMID 30677817) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC with differential at minimum; please refer to the package insert for full monitoring requirements |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-**Reported Adverse Event Signal**: A published case report (PMID 30677817) describes trifluridine/tipiracil-induced leukocytoclastic vasculitis with late-onset Henoch-Schönlein purpura, in addition to labeled effects of leukopenia, neutropenia, fatigue, diarrhea, and vomiting.
+Please refer to the package insert for safety information.
 
-Formal key warnings, contraindications, and drug-drug interaction data are not currently available in this evidence pack (flagged as a Blocking data gap — TFDA/Health Canada label not yet retrieved); please refer to the official product label once available.
+Adverse effects reported for the combination in the literature include leukopenia, neutropenia, fatigue, diarrhoea and vomiting. A case of leukocytoclastic vasculitis with late-onset Henoch-Schönlein purpura has also been described. No drug interaction records were found.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (cecum villous adenoma) is supported only by a TxGNN score (L5, decision stage S0), with no clinical trial or literature evidence, and the mechanistic assessment itself flags it as a likely false positive due to poor biological plausibility (benign lesion vs. a cytotoxic antimetabolite mechanism targeting proliferating malignant DNA).
-- Across all 10 predicted candidates for tipiracil, only rank 6 ("cecal disease") reaches L4/S1 with literature support — but those 4 publications describe TAS-102 use in already-approved metastatic colorectal cancer, not a novel indication, and may be worth tracking separately as a "Research Question" rather than as new evidence for this candidate.
+The prediction rests only on a knowledge-graph score. There are no trials or publications for cecum villous adenoma, and the lesion is benign and not a plausible target for a cytotoxic combination. Several other top-ranked predictions are also benign colonic lesions with no mechanistic rationale. "Rectosigmoid junction neoplasm" largely restates the existing colorectal cancer indication, and "cecal disease" is supported only by case reports of the approved use.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label (warnings, contraindications) — currently Blocking gap
-- Formal DrugBank-sourced MOA confirmation
-- Any prospective clinical or preclinical evidence specifically addressing cecum villous adenoma (none currently exists)
-- If pursuing repurposing research further, consider re-scoping toward mCRC-adjacent colonic malignancies rather than benign lesions, given the drug's cytotoxic antimetabolite mechanism
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence specific to adenoma or premalignant colorectal lesions
+- Approved indication text and dosage form for the two LONSURF licenses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

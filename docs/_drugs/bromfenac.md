@@ -2,7 +2,7 @@
 layout: default
 title: Bromfenac
 parent: High Evidence (L1-L2)
-nav_order: 115
+nav_order: 127
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,103 +29,100 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Bromfenac: From Post-Cataract Ocular Inflammation to Broader Eye Disease
+# Bromfenac: From Postoperative Ocular Inflammation to Eye Disease
 
 ## One-Sentence Summary
 
-Bromfenac is a topical ophthalmic non-steroidal anti-inflammatory drug (NSAID) globally established for treating post-operative ocular inflammation and pain after cataract surgery, though it currently holds no Canadian market authorization.
-The TxGNN model predicts it may be effective across a broader spectrum of **Eye Disease** — encompassing conditions such as macular edema, age-related macular degeneration, dry eye disease, and pterygium,
-with **6+ completed Phase 3 RCTs**, additional Phase 4 post-marketing studies, and **20 publications** currently supporting this expanded direction.
-
----
+Bromfenac is a topical NSAID eye drop, marketed in Canada as PROLENSA and APO-BROMFENAC, and used mainly for inflammation and pain after cataract surgery.
+The TxGNN model predicts it may be effective for **eye disease**, a very broad term, with **50 clinical trials** and **20 publications** linked to this prediction.
+Most of the strong evidence covers the already-established post-cataract use. The genuine repurposing leads are neovascular AMD, dry eye, and other VEGF-driven maculopathies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Post-operative ocular inflammation and pain following cataract surgery (inferred from global clinical context; no Canadian DIN on file) |
-| Predicted New Indication | Eye Disease (broader ocular indications including macular edema, AMD, dry eye, pterygium) |
+| Original Indication | Postoperative ocular inflammation and pain after cataract surgery (inferred from trial evidence; Canadian licence indication text was not provided) |
+| Predicted New Indication | Eye disease (broad; sub-indication must be specified) |
 | TxGNN Prediction Score | 99.80% |
 | Evidence Level | L1 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on known published pharmacology, bromfenac is a topical ophthalmic NSAID of the aminonicotinic acid class that inhibits both cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2), thereby blocking prostaglandin synthesis (primarily PGE₂ and PGI₂) in ocular tissues. This mechanism directly suppresses the post-operative inflammatory cascade, which underpins its established use after cataract surgery in jurisdictions such as the United States (FDA-approved as Xibrom, Bromday, and Prolensa), Japan, and the European Union.
+Detailed mechanism of action data is not available in the input. From general pharmacology, bromfenac is a topical NSAID that inhibits COX-1 and COX-2. This lowers prostaglandin-mediated ocular inflammation, pain, and breakdown of the blood-aqueous barrier.
 
-The TxGNN prediction for "eye disease" as a broader category is mechanistically well-grounded because COX-mediated prostaglandin overproduction is a shared pathological thread across many ophthalmic conditions — including cystoid macular edema, diabetic macular edema, age-related macular degeneration, allergic conjunctivitis, pterygium, and dry eye disease. Beyond prostaglandin suppression, bromfenac has demonstrated additional biological activities that extend its clinical rationale: it directly inhibits TGF-β1-induced fibrotic effects in primary human pterygium and conjunctival fibroblasts (PMID 30908581), and reduces retinal gliosis and PGE₂ levels following optic nerve injury in animal models (PMID 27832276). A 2024 meta-analysis further confirms its adjunctive potential in VEGF-driven maculopathies such as neovascular AMD and diabetic macular edema (PMID 39180057).
+The label "eye disease" is very broad, so the prediction is best read as a signal toward inflammatory eye conditions. Phase 3 trials directly support postoperative inflammation after cataract surgery, but that is already a marketed use and not repurposing in the strict sense. The more genuine leads are:
 
-Taken together, the convergence of direct clinical trial evidence, mechanistic plausibility across multiple ocular disease subtypes, and the TxGNN knowledge graph signal strongly supports pursuing bromfenac's application beyond its original post-cataract niche into the broader "eye disease" landscape — particularly for macular edema prevention and anti-VEGF adjunctive therapy.
+- **Neovascular AMD:** a Phase 2 trial of bromfenac plus ranibizumab, and pilot studies with aflibercept and bevacizumab.
+- **VEGF-driven maculopathies:** a 2024 review and meta-analysis of bromfenac as an adjunct to anti-VEGF therapy.
+- **Dry eye disease:** a Phase 3 dose-ranging trial (n=840) and a clinical study in patients inadequately controlled on artificial tears.
+- **Pterygium and conjunctival fibrosis:** in-vitro evidence that bromfenac inhibits TGF-β1-induced fibrotic effects.
 
----
+The other nine ranked predictions (for example optic papillitis, seborrheic keratosis, and lagophthalmos) have little or no supporting evidence. Several also have no plausible delivery route from an eye drop. They should not be pursued on current data.
 
 ## Clinical Trial Evidence
 
+Ten of the 50 linked trials are listed below, chosen for relevance.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00198445](https://clinicaltrials.gov/study/NCT00198445) | Phase 3 | Completed | 527 | Large RCT demonstrating bromfenac ophthalmic solution 0.09% is efficacious and safe for post-operative ocular inflammation following cataract extraction and IOL implantation — highest-grade direct evidence |
-| [NCT01367249](https://clinicaltrials.gov/study/NCT01367249) | Phase 3 | Completed | 440 | Efficacy of bromfenac ophthalmic solution vs. placebo for ocular inflammation and pain associated with cataract surgery |
-| [NCT01774474](https://clinicaltrials.gov/study/NCT01774474) | Phase 3 | Completed | 1,127 | Large RCT evaluating prevention of cystoid macular edema after cataract surgery in both diabetic and non-diabetic patients; designed to generate evidence-based guidelines |
-| [NCT01212471](https://clinicaltrials.gov/study/NCT01212471) | Phase 3 | Completed | 840 | Dose-ranging study evaluating safety and efficacy of bromfenac ophthalmic solution across formulations in dry eye disease |
-| [NCT00703781](https://clinicaltrials.gov/study/NCT00703781) | Phase 3 | Completed | 126 | Phase 3 assessment of bromfenac efficacy and safety in the cataract surgery setting |
-| [NCT00704418](https://clinicaltrials.gov/study/NCT00704418) | Phase 3 | Completed | 156 | Additional Phase 3 confirmation of bromfenac efficacy and safety in cataract surgery |
-| [NCT07090044](https://clinicaltrials.gov/study/NCT07090044) | Phase 4 | Completed | 77 | Post-marketing study directly comparing bromfenac sodium, loteprednol, and artificial tears for alleviating pain after intravitreal injection over a 24-hour period |
-| [NCT03317847](https://clinicaltrials.gov/study/NCT03317847) | Phase 4 | Completed | 92 | Head-to-head comparison of bromfenac vs. dexamethasone eye drops for controlling anterior chamber inflammation after cataract surgery, measured by Laser Flare Photometry |
-| [NCT04022811](https://clinicaltrials.gov/study/NCT04022811) | Phase 4 | Completed | 60 | Bromfenac 0.1% twice daily evaluated for ocular inflammation and pain after pterygium excision with amniotic membrane transplantation |
-| [NCT00805233](https://clinicaltrials.gov/study/NCT00805233) | Phase 2 | Completed | 30 | Exploratory trial investigating bromfenac ophthalmic drops combined with ranibizumab intravitreal injection vs. ranibizumab alone for neovascular age-related macular degeneration |
-
----
+| [NCT00198445](https://clinicaltrials.gov/study/NCT00198445) | Phase 3 | Completed | 527 | Bromfenac 0.1% vs placebo for ocular inflammation after cataract surgery |
+| [NCT00703781](https://clinicaltrials.gov/study/NCT00703781) | Phase 3 | Completed | 126 | Efficacy and safety of bromfenac ophthalmic solution in cataract surgery |
+| [NCT01367249](https://clinicaltrials.gov/study/NCT01367249) | Phase 3 | Completed | 440 | Bromfenac vs placebo for ocular inflammation and pain after cataract surgery |
+| [NCT01212471](https://clinicaltrials.gov/study/NCT01212471) | Phase 3 | Completed | 840 | Dose-ranging study of bromfenac in dry eye disease |
+| [NCT00423007](https://clinicaltrials.gov/study/NCT00423007) | Phase 3 | Completed | 90 | Bromfenac vs placebo in subjects with a history of allergic conjunctivitis |
+| [NCT00805233](https://clinicaltrials.gov/study/NCT00805233) | Phase 2 | Completed | 30 | Ranibizumab plus bromfenac vs ranibizumab alone in neovascular AMD (open-label, randomized) |
+| [NCT06785090](https://clinicaltrials.gov/study/NCT06785090) | Phase 4 | Completed | 87 | Bromfenac for preventing cystoid macular edema and reducing macular thickness after phacoemulsification |
+| [NCT07090044](https://clinicaltrials.gov/study/NCT07090044) | Phase 4 | Completed | 77 | Bromfenac vs loteprednol vs artificial tears for pain after intravitreal injection (symptomatic outcome) |
+| [NCT01475877](https://clinicaltrials.gov/study/NCT01475877) | N/A | Completed | 20 | Bromfenac 0.09% vs nepafenac for pain and epithelial healing after PRK (small study) |
+| [NCT00758784](https://clinicaltrials.gov/study/NCT00758784) | Phase 2 | Completed | 38 | An ophthalmic solution in dry eye disease (bromfenac not named in the title; drug link needs verification) |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31343372](https://pubmed.ncbi.nlm.nih.gov/31343372/) | 2019 | RCT/Expert Review | Expert Opinion on Pharmacotherapy | Bromfenac 0.075% in DuraSite vehicle is efficacious and safe for cataract surgery pain/inflammation; slightly superior posterior segment bioavailability compared to other topical NSAIDs |
-| [30046541](https://pubmed.ncbi.nlm.nih.gov/30046541/) | 2018 | RCT/Comparative | International Journal of Ophthalmology | Three-arm comparative study of bromfenac 0.09% vs. nepafenac 0.1% vs. diclofenac 0.1% for CME prophylaxis after phacoemulsification — bromfenac demonstrated competitive efficacy |
-| [39180057](https://pubmed.ncbi.nlm.nih.gov/39180057/) | 2024 | Meta-analysis | BMC Ophthalmology | Topical bromfenac reduces treatment burden and improves outcomes of anti-VEGF therapy in neovascular AMD, diabetic macular edema, and retinal vein occlusions — supports expanded indications |
-| [17445902](https://pubmed.ncbi.nlm.nih.gov/17445902/) | 2007 | RCT | Ophthalmology | Pivotal Phase 3 trial (Xibrom) establishing bromfenac 0.09% efficacy and safety for post-cataract ocular inflammation and pain reduction |
-| [21762992](https://pubmed.ncbi.nlm.nih.gov/21762992/) | 2011 | RCT | Ophthalmology | Bromfenac 0.09% dosed once daily (Bromday) is safe and effective for post-cataract ocular inflammation, supporting simplified dosing regimen |
-| [19735215](https://pubmed.ncbi.nlm.nih.gov/19735215/) | 2009 | Review | Expert Opinion on Pharmacotherapy | Comprehensive review of ophthalmic utility; twice-daily bromfenac clearly superior to placebo for post-cataract outcomes with favorable COX-1/COX-2 inhibition profile |
-| [26068607](https://pubmed.ncbi.nlm.nih.gov/26068607/) | 2015 | Clinical Study | Asia-Pacific Journal of Ophthalmology | Bromfenac sodium ophthalmic solution effective in dry eye disease patients with inadequate response to artificial tears alone |
-| [30009640](https://pubmed.ncbi.nlm.nih.gov/30009640/) | 2018 | Comparative Study | Current Eye Research | Bromfenac 0.09% vs. diclofenac 0.1% as adjunctive therapy after cataract surgery — comparable anti-inflammatory efficacy with good tolerability profile |
-| [30908581](https://pubmed.ncbi.nlm.nih.gov/30908581/) | 2019 | In Vitro | Investigative Ophthalmology & Visual Science | Bromfenac directly inhibits TGF-β1-induced fibrotic effects in primary human pterygium and conjunctival fibroblasts — provides mechanistic rationale for anti-fibrotic applications |
-| [27832276](https://pubmed.ncbi.nlm.nih.gov/27832276/) | 2016 | Animal Study | Investigative Ophthalmology & Visual Science | Topical bromfenac reduces retinal gliosis, suppresses PGE₂ levels, and attenuates inflammation after complete optic nerve crush — extends mechanistic rationale to retinal disease |
-
----
+| [35196591](https://pubmed.ncbi.nlm.nih.gov/35196591/) | 2022 | RCT | Ophthalmology Glaucoma | Nepafenac 0.1% vs bromfenac 0.09% for inflammation after laser peripheral iridotomy |
+| [31343372](https://pubmed.ncbi.nlm.nih.gov/31343372/) | 2019 | Classified as RCT (abstract reads as a review) | Expert Opin Pharmacother | Bromfenac 0.075% in DuraSite for pain and inflammation in cataract surgery, with slightly better posterior segment bioavailability |
+| [39180057](https://pubmed.ncbi.nlm.nih.gov/39180057/) | 2024 | Meta-analysis | BMC Ophthalmology | Topical bromfenac as an adjunct to anti-VEGF therapy in VEGF-driven maculopathies |
+| [19735215](https://pubmed.ncbi.nlm.nih.gov/19735215/) | 2009 | Review | Expert Opin Pharmacother | Twice-daily topical bromfenac was clearly superior to placebo after cataract surgery |
+| [17445902](https://pubmed.ncbi.nlm.nih.gov/17445902/) | 2007 | Clinical trial | Ophthalmology | Bromfenac 0.09% (Xibrom) for postoperative inflammation and pain after cataract extraction |
+| [21762992](https://pubmed.ncbi.nlm.nih.gov/21762992/) | 2011 | Clinical trial | Ophthalmology | Once-daily bromfenac 0.09% (Bromday) for inflammation and pain after cataract surgery |
+| [26068607](https://pubmed.ncbi.nlm.nih.gov/26068607/) | 2015 | Clinical study | Asia Pac J Ophthalmol | Bromfenac in dry eye disease inadequately controlled by artificial tears |
+| [30046541](https://pubmed.ncbi.nlm.nih.gov/30046541/) | 2018 | Comparative study | Int J Ophthalmol | Bromfenac vs nepafenac vs diclofenac for preventing cystoid macular edema after phacoemulsification |
+| [26667262](https://pubmed.ncbi.nlm.nih.gov/26667262/) | 2015 | Pilot study | Med Sci Monit | Aflibercept plus bromfenac in exudative AMD (27 patients) |
+| [30908581](https://pubmed.ncbi.nlm.nih.gov/30908581/) | 2019 | Preclinical (in vitro) | Invest Ophthalmol Vis Sci | Bromfenac inhibited TGF-β1-induced fibrotic effects in pterygium and conjunctival fibroblasts |
 
 ## Canada Market Information
 
-Bromfenac currently has no Drug Identification Numbers (DINs) registered with Health Canada and is not marketed in Canada. There are no approved indications, licensed products, or dosage forms on file in the Canadian regulatory system.
-
-For reference, bromfenac ophthalmic solutions are approved in other major jurisdictions: in the United States (Xibrom 0.09%, Bromday 0.09%, Prolensa 0.07%) for post-cataract surgery ocular inflammation and pain; and in Japan (Bronuck 0.1%) with additional approved indications. Any Canadian commercialization pathway would require a new drug submission to Health Canada.
-
----
+| DIN | Product Name |
+|---------|------|
+| 2439123 | PROLENSA |
+| 2537788 | APO-BROMFENAC |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Corneal toxicity:** case reports describe corneal melting and perforation with topical bromfenac, in patients with Stevens-Johnson syndrome (PMID 17720085) and undiagnosed Sjögren's syndrome (PMID 30042108). Topical NSAIDs may impair corneal healing.
+- **Hypersensitivity:** a case of toxic epidermal necrolysis after bromfenac eye drops has been reported (PMID 38734855).
+- **Systemic history:** oral bromfenac was withdrawn from the market for hepatotoxicity (PMIDs 17023947, 12016548). This concerns the systemic formulation, not the ophthalmic one.
+- **Corneal sensitivity:** a study in healthy volunteers examined corneal sensitivity and tear secretion after one month of bromfenac instillation (PMID 23626458).
 
-> **Notable safety signals from included literature evidence:** Post-marketing case reports document rare but serious adverse events with topical bromfenac, including a case of toxic epidermal necrolysis (PMID 38734855) and bilateral corneal melting/perforation in a patient with pre-existing tear deficiency secondary to Stevens-Johnson syndrome (PMID 17720085). These events highlight that compromised ocular surface integrity represents a significant risk factor. Additionally, the oral formulation of bromfenac was withdrawn from the US market in 1998 due to severe hepatotoxicity (PMID 17023947); however, the ophthalmic formulation has minimal systemic absorption and this risk does not apply to topical use.
-
----
+These points come from the literature. Please refer to the Health Canada product monograph for official warnings, contraindications, and drug interactions.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence base for bromfenac in eye disease meets Level 1 criteria, with at least 6 completed Phase 3 RCTs directly evaluating its ophthalmic efficacy, a 2024 meta-analysis supporting its use as adjunct to anti-VEGF therapy in VEGF-driven maculopathies, and mechanistic evidence extending beyond COX inhibition to include anti-fibrotic and neuroprotective pathways. The primary barrier to Canadian use is regulatory — no DIN exists — rather than a lack of clinical evidence.
+Several completed Phase 3 placebo-controlled trials support bromfenac in postoperative ocular inflammation, so the evidence level is L1. However, that is already a marketed use, and "eye disease" is too broad to act on. Only the AMD, dry eye, and maculopathy signals are genuine repurposing leads, and they rest on small Phase 2 trials, pilot studies, and a meta-analysis.
 
 **To proceed, the following is needed:**
-- **Regulatory pathway:** Submit a New Drug Submission (NDS) to Health Canada to obtain DIN registration; reference US FDA approvals and Phase 3 data packages as the primary regulatory basis
-- **MOA documentation:** Retrieve full mechanism of action data from DrugBank API (DG002, currently High-severity data gap)
-- **Canadian prescribing information:** Obtain TFDA/Health Canada-equivalent package insert including complete contraindications, warnings, and drug-drug interaction profile (DG001, currently Blocking data gap)
-- **Risk management plan:** Develop a formal monitoring strategy for high-risk populations — particularly patients with dry eye disease, autoimmune ocular surface conditions (Sjögren syndrome, SJS), or prior corneal compromise — given rare but serious adverse events documented in post-marketing surveillance
-- **Indication prioritization:** Given the breadth of the "eye disease" prediction, prioritize the most commercially and clinically actionable sub-indications: (1) CME prevention post-cataract surgery, (2) diabetic macular edema as anti-VEGF adjunct, and (3) allergic conjunctivitis — all supported by Phase 2–4 data
+- A specific target sub-indication (for example, neovascular AMD as an anti-VEGF adjunct, or dry eye) in place of "eye disease".
+- Health Canada product monograph warnings and contraindications.
+- Mechanism of action data.
+- Adequately powered randomized trials in the chosen sub-indication.
+- A corneal safety monitoring plan (corneal melt or perforation) and hypersensitivity precautions, especially for patients with ocular surface disease.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

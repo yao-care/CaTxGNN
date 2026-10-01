@@ -2,7 +2,7 @@
 layout: default
 title: Teriparatide
 parent: Model Prediction Only (L5)
-nav_order: 764
+nav_order: 893
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,77 +33,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Teriparatide (DrugBank DB06285) is a recombinant PTH(1-34) analog generally known for osteoporosis / fracture-risk-reduction therapy, though this evidence pack contains no confirmed original-indication or MOA data.
-> The TxGNN model's top prediction is **Duodenal Ulcer**, but **0 clinical trials** and **0 publications** currently support this specific pairing, and the model's own rationale flags it as biologically implausible.
-
----
+Teriparatide is a parathyroid hormone (PTH 1-34) analogue, an anabolic bone agent marketed in Canada for osteoporosis.
+The TxGNN model predicts it may be effective for **duodenal ulcer**, but there are **0 clinical trials** and **0 publications** for this prediction, so it rests on the model score alone.
+Among the other predictions, **pregnancy-associated osteoporosis** is the only one with meaningful supporting literature (observational and review level).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoporosis / fracture-risk reduction (general drug knowledge — not confirmed by Canadian licensing data, as the drug is not marketed here) |
-| Predicted New Indication | Duodenal Ulcer (disease) |
+| Original Indication | Osteoporosis (not stated in the Canadian licence records; inferred from the drug class and the supplied literature) |
+| Predicted New Indication | Duodenal ulcer |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap, DG002). Teriparatide is broadly known as a recombinant fragment of human parathyroid hormone (PTH 1-34), acting on the PTH1 receptor to stimulate osteoblast activity and bone formation — this context is provided from general drug knowledge only, not from any Canadian regulatory source, since the product currently has no market presence or DIN in Canada.
+Detailed mechanism of action data is not available for this drug. Teriparatide is known to be a PTH1R agonist that stimulates osteoblast-mediated bone formation, and its efficacy in osteoporosis is established.
 
-The top-ranked prediction, duodenal ulcer, is a gastrointestinal mucosal disease with no established pharmacological connection to PTH signaling or bone metabolism. The evidence pack's own rationale is explicit on this point: there is no known mechanism supporting a PTH analog's efficacy against duodenal ulcer, and the high TxGNN score likely reflects statistical co-occurrence of calcium-homeostasis or gastrointestinal-related genes within the knowledge graph rather than genuine biological plausibility.
+For duodenal ulcer, the review found no plausible PTH1R-mediated pathway to ulcer healing. The score of 99.86% (graph rank 3,373) most likely reflects proximity within the knowledge graph rather than a biological rationale. The same applies to several other top-ranked predictions (esophageal malformation, duodenal obstruction, duodenogastric reflux), which are structural or gastrointestinal conditions an anabolic bone agent is unlikely to modify. This prediction should be treated as a hypothesis only.
 
-No clinical trials or literature support this specific drug–disease pairing. This is a pure knowledge-graph signal (Evidence Level L5) and would require substantial mechanistic and preclinical validation before any further consideration.
-
----
+By contrast, the **pregnancy-associated osteoporosis** prediction (rank 8, score 99.55%) has a clear biological rationale. PTH(1-34) builds bone, and that addresses the skeletal fragility in this condition. This is the most credible direction in this candidate set.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for duodenal ulcer.
 
----
+For the best-supported alternative prediction, pregnancy-associated osteoporosis, two registered trials were retrieved. Neither studies the condition directly, so both give only indirect support:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00277706](https://clinicaltrials.gov/study/NCT00277706) | Phase 1 | Completed | 40 | PTH(1-34) with periodontal surgery for oral bone regeneration; shows anabolic activity but does not address pregnancy-associated osteoporosis |
+| [NCT02440581](https://clinicaltrials.gov/study/NCT02440581) | NA | Completed | 141 | Renal osteodystrophy in chronic kidney disease; a different bone disease context |
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for duodenal ulcer.
 
----
+For pregnancy-associated osteoporosis, the retrieved literature is observational, case-series and review level. No RCT was found, and relevance was judged from titles and abstracts only:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [37708365](https://pubmed.ncbi.nlm.nih.gov/37708365/) | 2024 | Systematic review | J Clin Endocrinol Metab | Comparative effectiveness of interventions in pregnancy and lactation-associated osteoporosis |
+| [40205203](https://pubmed.ncbi.nlm.nih.gov/40205203/) | 2025 | Systematic review / meta-analysis | Osteoporos Int | 35 studies, 943 patients; treatment response analysis inconclusive due to limited data |
+| [34132853](https://pubmed.ncbi.nlm.nih.gov/34132853/) | 2021 | Cohort | Calcif Tissue Int | Retrospective multicentre study of teriparatide vs conventional management on bone density and trabecular bone score in premenopausal women |
+| [39008200](https://pubmed.ncbi.nlm.nih.gov/39008200/) | 2024 | Review | Endocrine | Strategies for pregnancy and lactation-associated osteoporosis, with a focus on teriparatide |
+| [35903718](https://pubmed.ncbi.nlm.nih.gov/35903718/) | 2022 | Case series | Geburtshilfe Frauenheilkd | Teriparatide and subsequent fractures and bone density in 47 women with vertebral fractures |
+| [34037833](https://pubmed.ncbi.nlm.nih.gov/34037833/) | 2021 | Retrospective | Calcif Tissue Int | Bone density after teriparatide discontinuation, with or without antiresorptive therapy |
 
 ## Canada Market Information
 
-Teriparatide is currently **not marketed in Canada** — there are 0 DINs on record in this evidence pack, so no authorization table can be generated.
+| DIN | Product Name |
+|---------|------|
+| 2254689 | FORTEO |
+| 2486423 | TEVA-TERIPARATIDE INJECTION |
+| 2495589 | OSNUVO |
+| 2498804 | APO-TERIPARATIDE INJECTION |
 
----
+Dosage form and approved indication text are not recorded for these licences.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Note: TFDA/Health Canada label warnings and contraindications are flagged as a **Blocking** data gap (DG001) — this must be resolved before any safety-stage [S1] review can proceed.)*
-
----
+One literature signal is worth noting. A 2016 case report (PMID 26992073) describes worsening of calcinosis cutis during teriparatide treatment in two osteoporotic patients with systemic autoimmune disease. For pregnancy-associated osteoporosis, safety around lactation and pregnancy planning would need guardrails.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked predicted indication (duodenal ulcer) has no clinical trial or literature support, and the model's own rationale states there is no known biological plausibility — Evidence Level L5.
-- The drug is not marketed in Canada (0 DINs), and mechanism-of-action and safety-label data are both flagged as data gaps, one of which (DG001) is **Blocking**.
+The duodenal ulcer prediction is supported only by a graph score. It has no trials, no literature and no plausible mechanism, so it should not be advanced. Most other top-ranked predictions are likely false positives, and Worth syndrome (a sclerosing bone disorder) is mechanistically counter-indicated for an anabolic bone agent. Pregnancy-associated osteoporosis (L3, "Research Question") is the one direction worth pursuing.
 
 **To proceed, the following is needed:**
-- Health Canada / manufacturer product monograph — warnings, contraindications (Blocking, DG001)
-- DrugBank or literature-sourced mechanism of action (High priority, DG002)
-- Preclinical or mechanistic rationale specifically linking PTH signaling to duodenal ulcer pathophysiology before this candidate can advance past S0
-
----
-
-**Additional Note:** Among the 10 candidates in this pack, rank #8 — *pregnancy and lactation-associated osteoporosis* — has substantially stronger real-world support than the top-ranked pairing: 2 registered clinical trials and 19 publications, several specifically evaluating teriparatide's clinical use and bone-density outcomes in this population (e.g., PMID 34132853, 35903718, 39156353). This is consistent with known off-label teriparatide use for PLO and may warrant a separate, dedicated evaluation rather than being treated as a low-ranked TxGNN signal.
+- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Abstract-level review of the pregnancy-associated osteoporosis literature, since the current assessment is based on titles and short abstracts
+- A decision on whether to re-prioritise the candidate from duodenal ulcer to pregnancy-associated osteoporosis
+- A lactation and pregnancy-planning safety assessment before any repurposing step for that indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

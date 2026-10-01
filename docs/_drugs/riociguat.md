@@ -2,7 +2,7 @@
 layout: default
 title: Riociguat
 parent: Model Prediction Only (L5)
-nav_order: 682
+nav_order: 804
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,25 +33,27 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Riociguat (Adempas) is a soluble guanylate cyclase (sGC) stimulator originally developed for pulmonary arterial hypertension (PAH) and chronic thromboembolic pulmonary hypertension (CTEPH). The TxGNN model's top-ranked prediction for this drug is **Ambras type hypertrichosis universalis congenita**, a rare congenital hair-growth disorder, but this prediction is currently supported by **zero clinical trials and zero publications** — it reflects a raw model score only, and the evidence pack's own analysis finds no identifiable mechanistic link between it and riociguat's known biology.
+Riociguat is a soluble guanylate cyclase (sGC) stimulator marketed in Canada, and the pack's rationale text places it in pulmonary arterial hypertension (PAH).
+The TxGNN model's top-ranked prediction is **Ambras type hypertrichosis universalis congenita**, a rare congenital hair-growth disorder.
+**No clinical trials and no publications** support this prediction, so it is a model output only and likely a knowledge-graph artifact.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary Arterial Hypertension (WHO Group 1) — based on known drug information; not present in this evidence pack |
+| Original Indication | Pulmonary arterial hypertension (taken from the pack's rationale text; the Canadian licence records contain no indication text) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 94.92% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, riociguat is a soluble guanylate cyclase (sGC) stimulator that enhances the NO–sGC–cGMP signaling pathway, producing pulmonary vasodilation; its efficacy in pulmonary arterial hypertension has been established through the pivotal PATENT-1/PATENT-2 program.
+Currently, detailed mechanism of action data is not available in the pack. Riociguat is described as an sGC stimulator that restores NO-sGC-cGMP signaling, which causes pulmonary vasodilation and antiproliferative effects. Its efficacy in PAH is the basis for its marketed use.
 
-For this specific prediction, however, the evidence pack's own repurposing rationale states there is **no identifiable mechanistic link**: the sGC–cGMP pathway has no known connection to the hair-growth regulation pathways implicated in Ambras type hypertrichosis universalis congenita (a rare genetic disorder involving abnormal hair follicle patterning). The prediction score reflects a TxGNN model association only, with no supporting clinical or literature evidence identified in searches performed for this drug–disease pair.
+The supplied data show **no plausible pathway** linking sGC stimulation to a congenital hair-growth disorder. The high score most likely reflects graph proximity to other hypertrichosis-related entries rather than a true therapeutic signal. The same applies to the other hair and malformation predictions (rank 3 to 5).
 
 ## Clinical Trial Evidence
 
@@ -61,27 +63,41 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 02533588 | SANDOZ RIOCIGUAT |
+| 02533561 | SANDOZ RIOCIGUAT |
+| 02412764 | ADEMPAS |
+| 02533618 | SANDOZ RIOCIGUAT |
+| 02533596 | SANDOZ RIOCIGUAT |
+
+Five of the 10 DINs are listed above. Dosage form and approved indication text are not available in the records.
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the pack.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (94.92% score) for Ambras type hypertrichosis universalis congenita has no clinical trial or literature support, and no plausible mechanistic link has been identified between riociguat's sGC-cGMP pathway and this condition. This is a model-score-only (L5) candidate and does not meet the bar for further evaluation.
+The prediction rests only on a model score, with no trials, no literature and no mechanistic plausibility. It should not be pursued as a repurposing candidate on this evidence.
+
+**Other predictions in the same run:**
+Two PAH subtypes have much stronger support and are rated "Proceed with Guardrails" (L1):
+- **PAH associated with congenital heart disease (rank 6, score 92.58%):** supported by a post hoc subgroup analysis of the Phase 3 PATENT-1/2 trials (PMID 26135803). The subgroup is small, and Eisenmenger/shunt physiology and specialist PAH-centre management need attention.
+- **PAH associated with connective tissue disease (rank 10, score 91.55%):** supported by a prospectively planned subgroup analysis of PATENT-1 (PMID 27457511) and open-label switching data from a PDE5 inhibitor (PMID 28671485). Riociguat must not be combined with PDE5 inhibitors or nitrates.
+
+Both fall within the already approved PAH (Group 1) population, so they are closer to extensions of the existing indication than to new repurposing.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory warnings and contraindications (currently a blocking data gap — required before any S1 safety screening can begin)
-- Detailed mechanism of action (MOA) data from DrugBank
-- Independent mechanistic or preclinical evidence linking sGC stimulation to hair follicle biology, if this candidate is to be pursued further
-
-**Note on other candidates in this evidence pack:** This pack contains 10 TxGNN-predicted indications for riociguat. Most (ranks 1–5, 7–9, including the indication above) are similarly unsupported (L5/Hold, no trials or literature). Two candidates, however, show materially stronger evidence and may warrant separate, priority evaluation:
-- **Pulmonary arterial hypertension associated with connective tissue disease** (L1, Proceed with Guardrails) — supported by a direct PATENT-1/PATENT-2 subgroup RCT (PMID 27457511) plus 11 additional publications.
-- **Pulmonary arterial hypertension associated with congenital heart disease** (L1, Proceed with Guardrails) — supported by a PATENT subgroup RCT (PMID 26135803) and an actively recruiting Phase 4 trial (NCT07356778).
-
-Both fall within riociguat's already-recognized WHO Group 1 PAH treatment scope and are substantially better evidenced than this report's headline candidate.
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text, dosage forms and manufacturers for the Canadian licences
+- For the Ambras prediction: any disease-specific mechanistic or preclinical evidence, without which it should stay on hold
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

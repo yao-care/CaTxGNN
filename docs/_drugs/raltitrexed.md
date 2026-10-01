@@ -2,7 +2,7 @@
 layout: default
 title: Raltitrexed
 parent: Model Prediction Only (L5)
-nav_order: 663
+nav_order: 784
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Raltitrexed: From Antineoplastic Chemotherapy to Sclerosing Cholangitis
+# Raltitrexed: From Antineoplastic Use to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Raltitrexed is a thymidylate synthase (TS) inhibitor — a cytotoxic antimetabolite chemotherapy agent — though this evidence pack does not record its specific original indication. The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as likely a graph-prediction artifact rather than a genuine signal.
+Raltitrexed is a thymidylate synthase-inhibiting antifolate cytotoxic drug, marketed in Canada as TOMUDEX.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, with a very high score (99.97%).
+However, there are currently **0 clinical trials** and **0 publications** supporting this direction, so it remains a model prediction only.
 
 ---
 
@@ -41,23 +43,29 @@ Raltitrexed is a thymidylate synthase (TS) inhibitor — a cytotoxic antimetabol
 
 | Item | Content |
 |------|------|
-| Original Indication | Antineoplastic chemotherapy (thymidylate synthase inhibitor); specific historical indication not recorded in this evidence pack |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not recorded in the source data |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (drug-level data gap DG002). Based on what is recorded elsewhere in the pack, Raltitrexed is a thymidylate synthase inhibitor — a cytotoxic antimetabolite chemotherapy agent whose principal toxicity is myelosuppression (neutropenia, thrombocytopenia).
+Currently, detailed mechanism of action data is not available in the source record. Based on known information, raltitrexed is a thymidylate synthase inhibitor (an antifolate cytotoxic agent). Its approved indication text was not captured, so the relationship between the original and new indication cannot be assessed directly.
 
-Sclerosing cholangitis is an autoimmune/inflammatory biliary disease. There is no established pathophysiological connection between TS inhibition and cholangitis, and the evidence pack's own rationale explicitly states there is "no known mechanistic link, no hypothesis, no clinical trials, and no literature support," describing this as likely knowledge-graph noise rather than a genuine repurposing signal.
+For sclerosing cholangitis, no clear mechanistic link exists. It is an immune-mediated fibroinflammatory disease of the bile ducts, and a cytotoxic antimetabolite has no established rationale there. Raltitrexed is also associated with transaminase elevations, which is a concern in cholestatic liver disease. The high TxGNN score is a model output with no supporting trials or literature.
 
-Given the absence of a mechanistic bridge and the total lack of corroborating trial or literature evidence, this specific prediction should be treated as low-confidence despite its high raw TxGNN score. Notably, the remaining 9 predicted indications in this pack (largely hematologic conditions such as myelodysplastic syndrome and sickle-cell variants) show the same pattern — high score, zero evidence, and in several cases an outright contradiction between the drug's myelosuppressive toxicity and the target disease's need for intact marrow function. This suggests a systemic scoring artifact for this drug rather than an isolated false positive.
+The model also produced nine further predictions for this drug. All are L5, with no trials or literature, and all are on Hold:
+
+| Predicted Indication | Score | Assessment |
+|------|------|------|
+| Myelodysplastic syndrome (MDS) | 99.97% | Weak theoretical plausibility: antimetabolites could target clonal proliferation. Raltitrexed myelosuppression could worsen existing cytopenias. |
+| Unclassified MDS, refractory cytopenia of childhood, partial deletion of the long arm of chromosome 5 | 99.96% | MDS-related subtypes and cytogenetic abnormality; likely propagated from the parent MDS node. There are no pediatric safety data. |
+| Five sickle cell disease subtypes (HbE, HbC, HbD, beta-thalassemia, hereditary persistence of fetal hemoglobin) | 99.96% | Speculative HbF-induction rationale, which is not established for thymidylate synthase inhibitors. Identical scores suggest propagation from a shared parent node rather than independent signals. Myelosuppression is a safety concern. |
 
 ---
 
@@ -75,7 +83,9 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Raltitrexed currently holds no Canadian market authorizations (0 DINs; market status: Not Marketed). No product-level licensing data is available to tabulate.
+| DIN | Product Name |
+|---------|------|
+| 2229566 | TOMUDEX |
 
 ---
 
@@ -83,17 +93,21 @@ Raltitrexed currently holds no Canadian market authorizations (0 DINs; market st
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (antimetabolite / thymidylate synthase inhibitor) |
-| Myelosuppression Risk | High — documented as the principal toxicity (neutropenia, thrombocytopenia) |
+| Cytotoxicity Classification | Conventional cytotoxic (antifolate, thymidylate synthase inhibitor) |
+| Myelosuppression Risk | Significant; myelosuppression is a dose-limiting toxicity |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential (neutrophils, platelets), liver and renal function |
-| Handling Protection | Cytotoxic drug handling precautions required |
+| Monitoring Items | CBC (with differential), liver function (transaminases), renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Hepatic**: Raltitrexed is associated with transaminase elevations, a concern in cholestatic liver disease such as sclerosing cholangitis.
+- **Haematological**: Myelosuppression could worsen cytopenias in MDS and sickle cell populations.
+- **Pediatric**: No pediatric safety data are available for the refractory cytopenia of childhood prediction.
+
+No drug interaction records were found. Please refer to the package insert for full safety information.
 
 ---
 
@@ -102,13 +116,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction carries a very high TxGNN similarity score but zero supporting clinical trials or literature (Evidence Level L5), and the pack's own rationale identifies the link as biologically implausible — a myelosuppressive cytotoxic agent proposed for a disease with no known connection to its mechanism. The same evidence gap and pattern of mechanistic contradiction recur across all 10 predicted indications for this drug, and Raltitrexed is not currently marketed in Canada.
+All ten predictions are L5, supported only by the TxGNN model with no trials or literature. The mechanistic rationale is absent or weak for every one, and the known hepatic and myelosuppressive toxicities raise safety concerns in the predicted populations.
 
 **To proceed, the following is needed:**
-- TFDA/Canadian product label warnings and contraindications (blocking gap DG001)
-- Confirmed mechanism of action from DrugBank API (gap DG002)
-- An independent mechanistic hypothesis linking TS inhibition to sclerosing cholangitis before any further evaluation stage is initiated
-- Preclinical or observational evidence, since no clinical or literature signal currently exists
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text and dosage form for the Canadian license
+- A literature and trial search for the top candidates, especially MDS
+- Confirmation of whether the sickle cell predictions are independent signals or propagated from a shared parent disease node
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

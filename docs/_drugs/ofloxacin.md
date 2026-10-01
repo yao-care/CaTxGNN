@@ -2,7 +2,7 @@
 layout: default
 title: Ofloxacin
 parent: Model Prediction Only (L5)
-nav_order: 574
+nav_order: 672
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ofloxacin is a fluoroquinolone antibacterial, historically used to treat bacterial infections (exact original indication not available in this evidence pack). The TxGNN model's top-ranked prediction for this drug is **Polyclonal Hyperviscosity Syndrome**, but currently **0 clinical trials** and **0 publications** support this specific pairing — it is a pure knowledge-graph score with no corroborating evidence.
+Ofloxacin is a fluoroquinolone antibacterial. The Canadian licence record lists the product OCUFLOX but gives no approved indication text.
+The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome** with a very high score (99.91%), but **no clinical trials and no publications** currently support this prediction.
 
 ---
 
@@ -41,23 +42,21 @@ Ofloxacin is a fluoroquinolone antibacterial, historically used to treat bacteri
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (fluoroquinolone class) — specific Canadian labeling text not available |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
+| Original Indication | Bacterial infections (antibacterial class use; indication text not listed in the Canadian licence record) |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for ofloxacin is not available in this evidence pack. Based on known information, ofloxacin belongs to the fluoroquinolone class of antibacterials, which act by inhibiting bacterial DNA gyrase and topoisomerase IV. This is a purely antibacterial mechanism with no established biological pathway connecting it to polyclonal hyperviscosity syndrome, a disorder driven by excess circulating immunoglobulins (typically seen in autoimmune or lymphoproliferative conditions).
+Currently, detailed mechanism of action data is not available in the record. Ofloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy is established for bacterial infections.
 
-The evidence pack's own rationale for this candidate is explicit: "No identifiable mechanistic link; this is purely a TxGNN knowledge-graph connectivity score, lacking clinical or literature support." Targeted searches against ClinicalTrials.gov, ICTRP, and PubMed for ofloxacin + polyclonal hyperviscosity syndrome all returned zero results.
-
-Given the absence of both a plausible mechanism and any supporting evidence, this candidate should be treated as an early-stage, model-generated hypothesis rather than a scientifically grounded repurposing lead.
+Nothing in the available data links this antibacterial mechanism to serum viscosity or to excess immunoglobulin, which are the features of polyclonal hyperviscosity syndrome. The high score is therefore a model output without biological or clinical support. It should be treated as a hypothesis-generating signal only.
 
 ---
 
@@ -75,7 +74,9 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Ofloxacin currently has no marketing authorizations (DINs) in Canada — market status is **Not Marketed**, with 0 licenses on record.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2143291 | OCUFLOX | Not listed | Not listed |
 
 ---
 
@@ -85,18 +86,33 @@ Please refer to the package insert for safety information.
 
 ---
 
+## Other Predicted Candidates for Ofloxacin
+
+The top-ranked prediction has no support, but two lower-ranked predictions have some evidence. Both come from the same model output.
+
+| Predicted Indication | Score | Evidence Level | Evidence Summary |
+|------|------|------|------|
+| Monoclonal gammopathy | 99.82% | L4 | The evidence is indirect. The TEAMM Phase 3 RCT ([PMID 31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/), *Lancet Oncol*, 2019) tested **levofloxacin**, not ofloxacin, for infection prophylaxis in newly diagnosed myeloma. This is supportive care, not treatment of the gammopathy, and the population is myeloma rather than MGUS. |
+| Septicemic plague | 99.79% | L4 | Experimental ofloxacin work is limited to animal studies, such as [PMID 16127904](https://pubmed.ncbi.nlm.nih.gov/16127904/) (2002, mouse plague model). Regulatory-grade primate data exist for ciprofloxacin and levofloxacin, not ofloxacin. There are no human trials, and this falls within the class's established antibacterial spectrum. |
+
+The remaining candidates (hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological system disease, hematological disease associated with an acquired peripheral neuropathy, congenital hematological disorder, punctate epithelial keratoconjunctivitis) have no clinical trials and only incidental or no literature. Fluoroquinolones are themselves associated with peripheral neuropathy, which argues against the neuropathy-related prediction.
+
+---
+
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Polyclonal Hyperviscosity Syndrome) has no clinical trials, no literature, and no plausible mechanistic link — it is a pure TxGNN model score (L5/S0) and does not meet the bar to advance.
+The top prediction is supported only by the model score. There is no trial, no publication, and no plausible mechanistic link between a bacterial topoisomerase inhibitor and serum hyperviscosity. The two better-supported candidates, monoclonal gammopathy and septicemic plague, rest on evidence about other fluoroquinolones or on animal studies. They are research questions, not repurposing leads for ofloxacin.
 
 **To proceed, the following is needed:**
-- TFDA/product-label warnings and contraindications for ofloxacin (currently blocking — flagged as DG001)
-- Mechanism of action (MOA) data from DrugBank (flagged as DG002)
-- Targeted literature or preclinical work specifically linking ofloxacin to polyclonal hyperviscosity syndrome, if this candidate is to be pursued further
-- Consider redirecting evaluation effort to stronger candidates already present in this same evidence pack — notably **septicemic plague** (rank 8, evidence level L3, "Proceed with Guardrails," supported by direct ofloxacin animal-efficacy literature) and **monoclonal gammopathy** (rank 6, evidence level L2, supported by a Phase 3 RCT on the closely related fluoroquinolone levofloxacin)
+- Health Canada package insert warnings and contraindications, which are currently a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Approved indication text and dosage form for the Canadian licence, to confirm the original indication and route compatibility
+- Evidence that ofloxacin itself (rather than levofloxacin or ciprofloxacin) is relevant to the monoclonal gammopathy or plague candidates, if either is to be pursued
+
+*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

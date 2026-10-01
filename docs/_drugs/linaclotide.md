@@ -2,7 +2,7 @@
 layout: default
 title: Linaclotide
 parent: Model Prediction Only (L5)
-nav_order: 467
+nav_order: 545
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,62 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Linaclotide: From Data-Gap Original Indication to Cauda Equina Syndrome
+# Linaclotide: From Gastrointestinal Disorders to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Linaclotide is a guanylate cyclase-C (GC-C) agonist that acts locally on the intestinal epithelium; its originally approved indication is not recorded in this evidence pack (data gap). TxGNN predicts it may be effective for **Cauda Equina Syndrome**, but **0 clinical trials** and **0 publications** currently support this direction, and the evidence pack's own mechanistic review flags the signal as likely a knowledge-graph artifact rather than a genuine pharmacological link.
+Linaclotide is a locally acting gut drug that is marketed in Canada as CONSTELLA.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but **0 clinical trials** and **0 publications** currently support this direction.
+The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (data gap — no indication or DIN records in this pack) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (original_moa: data gap). Based on the information captured in this pack, linaclotide's known pharmacology is a GC-C agonist that promotes intestinal fluid secretion by acting locally on gut epithelium; its systemic bioavailability is very low, so it is not expected to reach or act on central or non-gut tissue.
+Linaclotide is a minimally absorbed guanylate cyclase-C (GC-C) agonist. It acts locally on the intestinal lining, raising cGMP, increasing fluid secretion and gut transit, and dampening visceral pain signalling. Detailed mechanism data and the original approved indications are not recorded in the Evidence Pack.
 
-Cauda equina syndrome, however, is a neurosurgical emergency caused by nerve root compression (bladder/bowel/perineal sensorimotor dysfunction), requiring urgent surgical decompression — it is not a pathology treatable by any drug, let alone one confined to the gut lumen. The evidence pack's own rationale is explicit that linaclotide's GC-C mechanism has no plausible link to nerve compression itself, and at most could address a downstream secondary symptom (neurogenic constipation).
+The link to cauda equina syndrome is weak. Linaclotide has no known action on the cauda equina or on nerve-root compression or injury. The only plausible connection is indirect: it might ease the constipation and bowel dysfunction that can accompany the syndrome. That would be symptom management, not treatment of the underlying condition.
 
-Taken together with the model's rank/score, this looks like a case where TxGNN's high confidence score reflects proximity in the knowledge graph (shared "bowel dysfunction" or comorbidity nodes) rather than a real causal or mechanistic relationship. The same caveat applies to the other two ranked predictions for this drug (neurogenic bladder, insomnia), both of which the pack itself flags as mechanistically unsupported or graph-noise artifacts — reinforcing that this candidate should be treated as a low-confidence signal rather than a genuine repurposing opportunity.
+The very high TxGNN score (99.96%) is a knowledge-graph prediction. It has no clinical data behind it and should be read as a hypothesis, not as evidence of efficacy.
+
+**Other predictions in the pack (both L5, Hold):**
+- **Obsolete neurogenic bladder (disease):** score 99.89%. There is no direct mechanism, because linaclotide stays in the gut and is unlikely to affect bladder function. The disease term is also flagged as obsolete in the ontology.
+- **Insomnia (disease):** score 99.51%. There is no plausible pharmacological link, because linaclotide is not CNS-active. Any benefit would be indirect, through better GI symptoms.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Canada Market Information
 
-Linaclotide currently has no Canadian market authorizations recorded in this pack (market status: not marketed, 0 licenses).
+| DIN | Product Name |
+|---------|------|
+| 2469510 | CONSTELLA |
+| 2417162 | CONSTELLA |
+| 2417170 | CONSTELLA |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: TFDA/Health Canada label warnings and contraindications are marked as a **Blocking** data gap in this pack — this alone prevents progression to the S1 safety screening stage.)*
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a TxGNN model score (L5, S0) with zero supporting clinical trials or literature, and the pack's own mechanistic analysis concludes the drug-disease link is biologically implausible (likely a knowledge-graph proximity artifact rather than a real mechanism) for cauda equina syndrome, a surgical emergency not amenable to any drug therapy.
+The prediction has no supporting trials or literature (L5), and the mechanism does not plausibly reach the target condition. The high score alone does not justify moving forward.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action (MOA) documentation for linaclotide from DrugBank or primary literature
-- Independent mechanistic or preclinical evidence connecting GC-C agonism to any component of cauda equina pathology, before any further clinical evaluation
-- Given the weak plausibility across all three ranked predictions for this drug, consider deprioritizing this candidate relative to others with stronger mechanistic or evidentiary support
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action and original indication data from DrugBank
+- Any preclinical or clinical evidence linking GC-C agonism to cauda equina syndrome, or to neurogenic bowel dysfunction in that setting
+- Route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

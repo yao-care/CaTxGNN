@@ -2,7 +2,7 @@
 layout: default
 title: Beta Carotene
 parent: Moderate Evidence (L3-L4)
-nav_order: 96
+nav_order: 107
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,37 +29,33 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Beta Carotene: From Nutritional Supplement to Acne
+# Beta Carotene: From Prenatal Multivitamin Supplementation to Acne
 
 ## One-Sentence Summary
 
-Beta carotene is a provitamin A carotenoid found naturally in plant-based foods, widely used as a dietary antioxidant supplement with no currently registered therapeutic indications in Canada.
-The TxGNN model predicts it may be effective for **Acne**, with **0 clinical trials** and **7 publications** currently supporting this direction.
-Given the indirect mechanistic link and predominantly observational evidence, confidence in this prediction remains preliminary.
+Beta carotene, a vitamin A precursor and antioxidant, is marketed in Canada as a component of prenatal multivitamin products. The TxGNN model predicts it may be useful for **acne**, but there are **0 clinical trials** and only **7 publications** for this prediction. None of these publications tests beta carotene as an acne treatment.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved indications on record (provitamin A nutritional supplement) |
-| Predicted New Indication | Acne (disease) |
+|------|------|
+| Original Indication | Not stated in the licence records; marketed as a component of prenatal multivitamin products |
+| Predicted New Indication | Acne |
 | TxGNN Prediction Score | 99.999% |
 | Evidence Level | L4 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, beta carotene is a provitamin A carotenoid that serves as a dietary precursor to retinol (vitamin A). Its biological relevance to acne stems from two theoretical pathways: (1) conversion to retinol, which can be further metabolized to retinoic acid — a signalling molecule known to regulate keratinocyte proliferation and sebaceous gland activity; and (2) direct antioxidant activity, which may attenuate the local oxidative stress implicated in the pathogenesis of acne vulgaris.
+Currently, detailed mechanism of action data is not available. Beta carotene is a carotenoid antioxidant and a precursor of vitamin A. It is sold in Canada as part of prenatal multivitamin formulations, and its role there is nutritional supplementation rather than treatment of a skin disease.
 
-A critical mechanistic limitation must be acknowledged upfront. The conversion efficiency of beta carotene to active retinoic acid is estimated at approximately 1:12, far less potent than direct retinoids such as isotretinoin (13-cis-retinoic acid), which acts directly on retinoic acid receptors to suppress sebum production and normalize follicular keratinization. This fundamental gap means that beta carotene cannot be considered a functional equivalent of therapeutic retinoids for acne treatment.
-
-Supporting a cautious biological plausibility, observational studies (PMID 20049267; PMID 22517509) confirm that oxidant/antioxidant imbalance plays a measurable role in acne vulgaris, and that antioxidant vitamin levels including beta carotene are altered in acne patients and during retinoid therapy. This is consistent with a role for antioxidant supplementation in the disease biology — but falls well short of demonstrating therapeutic efficacy.
+The biological link to acne is plausible but indirect. Oxidative stress is implicated in acne, and vitamin A pathways matter for skin and sebaceous gland biology. The retrieved papers only report serum vitamin A and beta carotene levels or oxidative status in people with acne, plus in vitro plant-extract work. No study gives beta carotene to acne patients. The very high TxGNN score is therefore a model signal with no clinical support behind it.
 
 ---
 
@@ -72,28 +68,35 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [20049267](https://pubmed.ncbi.nlm.nih.gov/20049267/) | 2009 | Cross-sectional | Indian Journal of Dermatology | Evaluated oxidant/antioxidant status in obese adolescent females with acne vulgaris; found measurable alterations in antioxidant levels — including beta carotene — in acne patients, supporting a role for oxidative imbalance in disease pathogenesis |
-| [22517509](https://pubmed.ncbi.nlm.nih.gov/22517509/) | 2012 | Clinical Observational | Cell Biochemistry and Function | Investigated oxidative toxicity induced by isotretinoin (a direct retinoic acid analogue) in acne patients; antioxidant vitamins including beta carotene were measured before and after treatment, highlighting the retinoid–antioxidant axis in acne biology |
-| [7618499](https://pubmed.ncbi.nlm.nih.gov/7618499/) | 1995 | Narrative Review | Journal of the American Board of Family Practice | Broad review of vitamins used as therapeutic modalities in the 1990s, including dermatological applications of vitamin A precursors such as beta carotene |
-| [2073211](https://pubmed.ncbi.nlm.nih.gov/2073211/) | 1990 | Case Series | Australasian Journal of Dermatology | Documented elevated beta carotene levels in patients with anorexia nervosa; a subset unexpectedly developed acne, suggesting a potentially complex relationship between elevated carotenoid levels and acne presentation |
-| [4230169](https://pubmed.ncbi.nlm.nih.gov/4230169/) | 1967 | Cross-sectional | Dermatologische Wochenschrift | Compared serum vitamin A and beta carotene levels between individuals with and without skin diseases; early observational data on carotenoid status in dermatological conditions |
-| [39459015](https://pubmed.ncbi.nlm.nih.gov/39459015/) | 2024 | In vitro / Phytochemistry | Pharmaceuticals (Basel) | Investigated ylang-ylang essential oil for dermatological applications including acne; beta carotene cited as one of several antioxidant constituents relevant to skin health |
-| [23625436](https://pubmed.ncbi.nlm.nih.gov/23625436/) | 2013 | In vitro / Phytochemistry | Pakistan Journal of Pharmaceutical Sciences | Examined Helichrysum oligocephalum for acne and related conditions; antioxidant and antibacterial activities attributed in part to carotenoid-class compounds |
+|------|-----|------|------|---------|
+| [7618499](https://pubmed.ncbi.nlm.nih.gov/7618499/) | 1995 | Review | J Am Board Fam Pract | General overview of vitamins used as therapy. Not specific to acne or beta carotene |
+| [2073211](https://pubmed.ncbi.nlm.nih.gov/2073211/) | 1990 | Review | Australas J Dermatol | Skin findings in 14 anorexia nervosa patients. Beta carotene levels were elevated, and acne appeared in a small subset |
+| [4230169](https://pubmed.ncbi.nlm.nih.gov/4230169/) | 1967 | Observational | Dermatol Wochenschr | Compared serum vitamin A and beta carotene levels in people with and without skin diseases |
+| [20049267](https://pubmed.ncbi.nlm.nih.gov/20049267/) | 2009 | Case-control | Indian J Dermatol | Oxidant/antioxidant status in obese adolescent females with acne vulgaris |
+| [22517509](https://pubmed.ncbi.nlm.nih.gov/22517509/) | 2012 | Clinical pilot study | Cell Biochem Funct | Isotretinoin treatment induced oxidative toxicity in acne patients. Beta carotene was not the treatment |
+| [39459015](https://pubmed.ncbi.nlm.nih.gov/39459015/) | 2024 | In vitro | Pharmaceuticals (Basel) | Antioxidant and antibacterial properties of ylang-ylang essential oil. Not about beta carotene |
+| [23625436](https://pubmed.ncbi.nlm.nih.gov/23625436/) | 2013 | In vitro | Pak J Pharm Sci | Antioxidant and antibacterial activity of Helichrysum extract. Not about beta carotene |
+
+**Other predicted indications:** The pack also lists diabetic retinopathy (TxGNN score 99.992%, L4), which has the most supporting material. It has 1 registered trial, an observational nutrition study in macular degeneration that is not relevant to the prediction. It also has human observational studies of carotenoid status and animal studies, but no interventional human trial. The cataract-related predictions have weak or null support. The ATBC trial, an RCT of male smokers, found no reduction in cataract operations with beta carotene.
 
 ---
 
 ## Canada Market Information
 
-Beta carotene (DB06755) currently has **no Drug Identification Numbers (DINs)** issued in Canada. The drug is not marketed in Canada under any product authorization, and no approved indications, dosage forms, or product licences are on record.
+| DIN | Product Name |
+|---------|------|
+| 2535718 | PREGNANCY MULTIVITAMIN |
+| 2552620 | PREGVIT |
+| 2537478 | PREGNANCY MULTIVITAMIN FOLIC 5 |
+| 2552639 | PREGVIT FOLIC 5 |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Lung cancer risk in smokers:** Earlier trials (ATBC, CARET) found that beta carotene supplementation raised lung cancer risk in smokers. Any use in this population needs safety review.
 
-> **Note:** As beta carotene is not currently approved or marketed in Canada (0 DINs), no Canadian product monograph is available. Key safety signals that should be proactively investigated before any clinical development include: potential pro-oxidant effects at high supplementation doses; carotenodermia (reversible skin yellowing) at sustained high intake; and — most critically — the significantly increased risk of lung cancer in smokers documented in both the ATBC trial and the CARET trial with high-dose beta carotene supplementation. Any future development plan must clearly define the target population and exclude high-risk groups.
+Please refer to the package insert for the remaining safety information.
 
 ---
 
@@ -102,18 +105,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigned a very high prediction score (99.999%), but supporting evidence for the acne indication reaches only Level L4 — comprising observational and in vitro studies with indirect relevance, and no registered clinical trials. The biological link through provitamin A conversion is plausible in principle but functionally weaker than established retinoid therapies, and at least one case series raises the counterintuitive possibility that elevated beta carotene levels may associate with acne onset rather than prevention.
+The acne prediction rests on a model score alone. No trial exists, and the literature is limited to serum-level, oxidative-status and in vitro studies. All four Canadian products are prenatal multivitamins, and there is no dosing or route data for a skin indication.
 
 **To proceed, the following is needed:**
-- Retrieve detailed mechanism of action data from DrugBank (unresolved data gap DG002)
-- Conduct at least one controlled pilot clinical study evaluating beta carotene supplementation in an acne patient population with standardized outcome measures (e.g., lesion count, GAGS score)
-- Clarify the effective dose range required for meaningful retinol conversion in the target population, and benchmark against dietary intake levels
-- Conduct a full safety review with explicit exclusion criteria for smokers and populations at risk for hypervitaminosis A
-- Determine the regulatory pathway: would this be pursued as a nutraceutical/natural health product or as a pharmaceutical drug in Canada?
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Interventional evidence, for example a pilot RCT of beta carotene in acne, or a review of the retinopathy evidence
+- A safety review of the lung cancer signal for the intended population
 
----
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

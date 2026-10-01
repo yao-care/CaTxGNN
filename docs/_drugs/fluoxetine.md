@@ -2,7 +2,7 @@
 layout: default
 title: Fluoxetine
 parent: Moderate Evidence (L3-L4)
-nav_order: 339
+nav_order: 396
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# FLUOXETINE: From Major Depression to Schizotypal Personality Disorder
+# Fluoxetine: From Its Marketed Use to Schizotypal Personality Disorder
 
 ## One-Sentence Summary
 
-Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) widely used for major depressive disorder, OCD, bulimia nervosa, and panic disorder.
-The TxGNN model predicts it may be effective for **Schizotypal Personality Disorder (SPD)**,
-with **0 clinical trials** and **11 publications** currently supporting this direction.
+Fluoxetine is a marketed serotonergic drug (DrugBank DB00472); the Evidence Pack does not record its original indication.
+The TxGNN model predicts it may be effective for **schizotypal personality disorder**.
+This is supported by **0 registered clinical trials** and **11 retrieved publications**, of which only a few are directly relevant (one small open-label study and several reviews).
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Major depressive disorder (internationally established SSRI; Health Canada product data not retrieved in this dataset) |
-| Predicted New Indication | Schizotypal Personality Disorder |
+|------|------|
+| Predicted New Indication | Schizotypal personality disorder |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L3 |
-| Canada Market Status | Data gap (Health Canada DIN pipeline not yet completed for this drug) |
-| Number of DINs | 0 (data gap) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Fluoxetine is the prototypical SSRI: it blocks the presynaptic serotonin transporter (SERT), increasing synaptic 5-HT availability across limbic and cortical circuits. Although the formal MOA field was flagged as a data gap in this evidence pack, fluoxetine's pharmacology is well-characterized — it also carries moderate 5-HT2C affinity and, at higher doses, weak norepinephrine reuptake inhibition. Formal DrugBank retrieval is recommended to populate this field for future evaluations.
+Currently, detailed mechanism of action data is not available. Fluoxetine is a serotonergic agent, and serotonergic modulation of affective instability, obsessional traits and impulsivity is plausible in personality disorders. The original indication is not recorded in the Evidence Pack, so the link between it and the new indication cannot be assessed here.
 
-Schizotypal personality disorder is characterized by cognitive and perceptual distortions (magical thinking, ideas of reference), marked social anxiety, and impulsive dysregulation — a symptom cluster that significantly overlaps with borderline personality disorder. Both conditions share documented serotonergic dysregulation: reduced central 5-HT activity has been linked to impulsive aggression, self-injury, and interpersonal instability across Cluster A and Cluster B personality disorders. This provides a plausible mechanistic bridge: SSRI-mediated 5-HT enhancement may attenuate the affective and impulsive components of SPD, and 5-HT2A modulation may partially blunt cognitive-perceptual distortions.
+The most direct evidence is a 1991 open-label study of 22 patients with borderline and/or schizotypal personality disorder. It reported significant reductions in self-injury and symptom scores, but it had no control group and mixed the two diagnoses. Reviews of cluster A pharmacotherapy and a cohort of fluoxetine-treated depressed outpatients add context, but none shows an effect on core schizotypal features. Improvement cannot be separated from treatment of comorbid depression or anxiety.
 
-The most directly relevant evidence comes from a 1991 prospective open-label study (PMID 1853957, N=22) in which fluoxetine produced significant reductions in self-injury and global symptoms in patients meeting criteria for borderline or schizotypal personality disorder. However, the evidence base remains limited to small, non-blinded studies, and the quasi-psychotic features of SPD — which are more dopaminergically driven — may require antipsychotic augmentation beyond SSRI monotherapy. A documented adverse case of transient psychosis in a schizotypal patient on fluoxetine (PMID 9664779) further underscores the need for careful psychiatric monitoring.
+The 99.92% score is identical to the scores for the neighbouring histrionic, schizoid and paranoid personality disorder predictions. This suggests the score partly reflects shared graph structure rather than schizotypal-specific evidence, so it should not be read as strong support on its own.
 
 ---
 
@@ -72,17 +71,30 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/) | 1991 | Open-label study | Am J Psychiatry | 22-patient prospective trial; fluoxetine significantly reduced self-injury and Hopkins Symptom Checklist scores in borderline/schizotypal PD patients regardless of diagnosis — most direct evidence available |
-| [9448667](https://pubmed.ncbi.nlm.nih.gov/9448667/) | 1998 | Retrospective cohort | J Clin Psychiatry | Psychopharmacology review for BPD and SchPD; no single agent of choice, but SSRIs and other agents offer benefit depending on presenting symptom cluster (affective vs. cognitive) |
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Narrative Review | Ment Health Clin | Pharmacological treatment of Cluster A personality disorders (paranoid, schizoid, schizotypal); SSRIs mentioned for affective and impulsive symptoms, evidence overall sparse |
-| [8227492](https://pubmed.ncbi.nlm.nih.gov/8227492/) | 1993 | Expert Review | J Clin Psychopharmacol | Conceptual framework for PD pharmacotherapy; early clinical data supporting SSRIs for affective dysregulation in both BPD and ScPD subtypes |
-| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Review | Psychol Med | PD diagnoses assessed before and after fluoxetine treatment in depressed outpatients; stability of PD classification across treatment explored |
-| [7635854](https://pubmed.ncbi.nlm.nih.gov/7635854/) | 1995 | Clinical study | J Clin Psychiatry | Predictors of drug response in OCD; schizotypal features associated with reduced SSRI response — relevant safety/efficacy signal for SPD |
-| [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) | 1998 | Case report | Psychosomatics | Transient psychosis with psychogenic polydipsia in a schizotypal patient taking fluoxetine — important safety signal, suggests risk of serotonergic activation in quasi-psychotic presentations |
-| [15209835](https://pubmed.ncbi.nlm.nih.gov/15209835/) | 2004 | Cohort | Aust NZ J Psychiatry | Bipolar II disorder personality traits and treatment outcome; schizotypal PD as comorbidity assessed in treatment response context |
-| [33634761](https://pubmed.ncbi.nlm.nih.gov/33634761/) | 2021 | Case Report | CNS Neurol Disord Drug Targets | Asenapine treatment of catatonia in a schizotypal PD patient with COVID-19 septic shock; illustrates management complexity when SPD co-occurs with acute medical illness |
-| [37082034](https://pubmed.ncbi.nlm.nih.gov/37082034/) | 2021 | Case study | Postepy Psychiatr Neurol | OCD/anorexia nervosa comorbidity diagnostic challenges; fluoxetine used, indirectly relevant to SSRI use in complex psychiatric presentations |
+|------|-----|------|------|---------|
+| [1853957](https://pubmed.ncbi.nlm.nih.gov/1853957/) | 1991 | Open-label study | Am J Psychiatry | 22 patients with borderline and/or schizotypal PD, 12 weeks of fluoxetine. Significant reductions in self-injury and symptom-checklist scores regardless of diagnosis. Authors call for controlled trials. |
+| [9448667](https://pubmed.ncbi.nlm.nih.gov/9448667/) | 1998 | Review/cohort | J Clin Psychiatry | Psychopharmacologic outcomes in borderline and schizotypal PD. No agent of choice for either disorder. Different drug classes help selected patients depending on symptoms. |
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | Ment Health Clin | Pharmacologic treatment of cluster A personality disorders (paranoid, schizoid, schizotypal). |
+| [8227492](https://pubmed.ncbi.nlm.nih.gov/8227492/) | 1993 | Review | J Clin Psychopharmacol | Conceptual framework and efficacy data for medications in personality disorders. |
+| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Clinical study | Psychol Med | Personality disorder diagnoses in depressed outpatients before and after fluoxetine. Examines whether diagnoses change with depressive improvement. |
+| [9664779](https://pubmed.ncbi.nlm.nih.gov/9664779/) | 1998 | Case report (inferred from title) | Psychosomatics | Transient psychosis with psychogenic polydipsia in a schizotypal patient taking fluoxetine. No abstract available; a possible safety signal. |
+| [15209835](https://pubmed.ncbi.nlm.nih.gov/15209835/) | 2004 | Clinical samples | Aust N Z J Psychiatry | Personality traits and treatment outcome in bipolar II versus major depression (indirect). |
+
+The other retrieved items concern unrelated conditions or other drugs (for example a case report on asenapine) and are omitted.
+
+---
+
+## Canada Market Information
+
+20 licenses are listed; the first 5 are shown. Dosage form and approved-indication text are not available in the data.
+
+| DIN | Product Name |
+|---------|------|
+| 2216582 | TEVA-FLUOXETINE |
+| 2448424 | BIO-FLUOXETINE |
+| 2305461 | RIVA-FLUOXETINE |
+| 2385635 | AURO-FLUOXETINE |
+| 2529432 | M-FLUOXETINE |
 
 ---
 
@@ -90,7 +102,7 @@ Currently no related clinical trials registered.
 
 Please refer to the package insert for safety information.
 
-**Notable safety signal from literature:** PMID 9664779 documents a case of transient psychosis with psychogenic polydipsia in a schizotypal patient taking fluoxetine. This suggests that serotonergic activation may transiently worsen quasi-psychotic symptoms in SPD — psychiatric monitoring is warranted, particularly during early treatment initiation.
+One literature item, a case report of transient psychosis with polydipsia in a schizotypal patient on fluoxetine, is worth reviewing before any further work in this population.
 
 ---
 
@@ -99,16 +111,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The only direct evidence is a single small open-label trial from 1991 (N=22), and no registered clinical trials exist; the cognitive-perceptual core features of schizotypal personality disorder are more dopaminergically driven and may not respond adequately to SSRI monotherapy, limiting the translational value of the TxGNN prediction at this stage.
+There are no registered trials, and the direct evidence is a single small, uncontrolled study from 1991 in a mixed borderline/schizotypal sample. Safety data from the Canadian package insert are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Mechanism of action data and the original approved indications
+- Full-text review of the 1991 open-label study and the cluster A review to judge whether any benefit is specific to schizotypal features
+- A controlled study, or a search for one, that separates effects on schizotypal features from effects on comorbid depression or anxiety
 
-- At minimum a Phase 2 controlled trial specifically evaluating fluoxetine (or SSRI class) in schizotypal personality disorder with separate outcome tracking for affective vs. cognitive-perceptual symptom domains
-- Formal MOA data retrieval from DrugBank API (DG002) to substantiate mechanistic rationale
-- Health Canada package insert review for key warnings, contraindications, and drug interactions (DG001)
-- Clarification of whether the target symptom cluster is impulsive/affective (SSRI-responsive) vs. cognitive-perceptual (likely requires antipsychotic augmentation)
-- Health Canada DIN pipeline completion to accurately reflect Canada market status
-- Careful risk stratification for patients with prominent quasi-psychotic features given the documented psychosis case report (PMID 9664779)
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

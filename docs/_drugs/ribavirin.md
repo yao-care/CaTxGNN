@@ -2,7 +2,7 @@
 layout: default
 title: Ribavirin
 parent: Model Prediction Only (L5)
-nav_order: 675
+nav_order: 796
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,110 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the report structure directly from the Evidence Pack (RIBAVIRIN / DB00811, Taiwan candidate TW-DB00811-multi) — no additional research needed since all required fields are present in the pack itself.
-
 # Ribavirin: From Chronic Hepatitis C to Chronic Hepatitis B Virus Infection
 
 ## One-Sentence Summary
 
-Ribavirin is a nucleoside antiviral classically used in combination with peginterferon for chronic hepatitis C (HCV), an RNA virus infection. The TxGNN model predicts it may also be effective for **Chronic Hepatitis B Virus Infection**, with a very high similarity score (99.86%) and a large body of supporting trials/literature. However, close review of that evidence shows it comes almost entirely from HBV/HCV **co-infection** studies where ribavirin was treating the HCV component, not HBV itself — so the signal does not currently support real-world repurposing.
+Ribavirin is an antiviral that is mainly used together with peginterferon for chronic hepatitis C (the Canadian licence record does not list an indication text, so this is inferred from the trial context).
+The TxGNN model predicts it may be effective for **chronic hepatitis B virus infection**, but the **roughly 50 registered trials** found are almost all hepatitis C studies, and only **two enrol HBV/HCV co-infected patients**.
+The prediction is therefore supported only indirectly, and no study tests ribavirin in HBV monoinfection.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic Hepatitis C, combined with peginterferon (established use referenced throughout the evidence pack; not marketed in Taiwan so no official Taiwan label text exists) |
-| Predicted New Indication | Chronic Hepatitis B Virus Infection |
+| Original Indication | Not listed in the licence record (chronic hepatitis C inferred from the trial context) |
+| Predicted New Indication | Chronic hepatitis B virus infection |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 (mechanism/preclinical-level; supporting trials are confounded, not HBV-specific) |
-| Taiwan Market Status | Not marketed |
-| Number of Licenses (Taiwan) | 0 |
+| Evidence Level | L4 (indirect and mechanistic or co-infection evidence only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Ribavirin is a guanosine nucleoside analogue. Its established antiviral mechanism works through inhibition of IMPDH, interference with viral RNA-dependent RNA polymerase, and induction of lethal mutagenesis — mechanisms specific to **RNA** viruses such as HCV and RSV. Detailed mechanism-of-action documentation for this candidate is currently a data gap (DG002), but this general mechanism is consistently reflected in the supporting trial and literature evidence collected.
+Currently, detailed mechanism of action data is not available in the record. Based on general knowledge, ribavirin is a guanosine analogue that inhibits the host enzyme IMPDH and viral RNA polymerase. Its efficacy in hepatitis C, as a partner for peginterferon, is well established.
 
-The TxGNN model's top prediction, chronic hepatitis B, is mechanistically discordant with this profile: HBV is a **DNA** virus that replicates via reverse transcription of a cccDNA template, and standard HBV therapy relies on nucleos(t)ide reverse-transcriptase inhibitors or interferon — not ribavirin. When the clinical trial and literature evidence behind this candidate's high score was reviewed in detail, essentially all of it turned out to originate from **HBV/HCV co-infection** studies, where ribavirin (plus peginterferon) was treating the HCV component of a dual infection rather than HBV itself.
+HBV is a reverse-transcribing DNA virus, and ribavirin has no established anti-HBV activity. The very high TxGNN score most likely reflects closeness in the knowledge graph between hepatitis C, hepatitis B and HBV/HCV co-infection, not a direct antiviral mechanism against HBV.
 
-This is best understood as a labeling/confounding artifact in the underlying evidence rather than a genuine repurposing signal. The evidence pack itself reflects this: despite a near-maximal similarity score, the candidate is graded only L4 with a "Hold" recommendation. It is a useful reminder that a high model score should never be read as clinical evidence on its own — the actual content of the underlying trials and papers must be checked.
+The strongest link to HBV comes from co-infection. Reviews describe peginterferon plus ribavirin as an older option for patients with HCV/HBV co-infection who have detectable HCV RNA. In those patients, ribavirin acts against the HCV component rather than HBV.
+
+The other nine predicted indications for ribavirin (for example IgG4-related diseases, portal hypertension conditions and hepatopulmonary syndrome) have no clinical evidence and no plausible mechanism, so they are not discussed further here.
+
+---
 
 ## Clinical Trial Evidence
 
+Almost none of the trials test ribavirin against HBV. The two co-infection trials are listed first, followed by representative ribavirin-containing hepatitis C trials. Relevance grades below are as assigned in the Evidence Pack.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01623336](https://clinicaltrials.gov/study/NCT01623336) | Phase 2/3 | Unknown | 740 | Peginterferon alfa comparator trial; no direct ribavirin-HBV intervention design, and the enrolled population is not clearly restricted to HBV. |
-| [NCT01805882](https://clinicaltrials.gov/study/NCT01805882) | Phase 2 | Completed | 229 | Title explicitly describes an anti-HCV combination therapy pilot study, not an HBV indication. |
-| [NCT00630058](https://clinicaltrials.gov/study/NCT00630058) | Phase 1 | Completed | 20 | MP-424 + peginterferon alfa-2b + ribavirin triple therapy for genotype 1b hepatitis C. |
-| [NCT00493805](https://clinicaltrials.gov/study/NCT00493805) | Phase 4 | Terminated | 59 | Title explicitly targets chronic hepatitis C (CHC) genotype 1 with insulin resistance; unrelated to HBV. |
-| [NCT00031343](https://clinicaltrials.gov/study/NCT00031343) | Phase 2 | Completed | 128 | Studies HAART's impact on hepatitis C treatment response in HIV/HCV co-infected patients, not a primary HBV indication. |
-| [NCT00630084](https://clinicaltrials.gov/study/NCT00630084) | Phase 4 | Completed | 120 | Pegylated interferon + ribavirin combination therapy; conventional usage context is chronic hepatitis C. |
-| [NCT01858766](https://clinicaltrials.gov/study/NCT01858766) | Phase 2 | Completed | 379 | Sofosbuvir + GS-5816 (± ribavirin) study in chronic HCV genotypes 1–6; HCV-specific. |
-| [NCT02243280](https://clinicaltrials.gov/study/NCT02243280) | Phase 2 | Completed | 174 | ABT-493/ABT-530 ± ribavirin efficacy/PK study; drug class is HCV direct-acting antiviral (DAA) development. |
-| [NCT01995071](https://clinicaltrials.gov/study/NCT01995071) | Phase 2 | Completed | 89 | Dose-ranging study of ABT-493/ABT-530 in genotype 1 chronic HCV; HCV drug-development context. |
-| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | Phase 3 | Completed | 36 | Ombitasvir/Paritaprevir/Ritonavir/Dasabuvir + ribavirin (AbbVie 3D regimen) for decompensated cirrhosis in chronic HCV; unrelated to HBV. |
+| [NCT00154869](https://clinicaltrials.gov/study/NCT00154869) | Phase 3 | Unknown | 320 | Peginterferon alfa-2a plus ribavirin in HCV/HBV co-infection versus HCV monoinfection. It is the most directly relevant trial, but no results are available in the pack. |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Direct-acting antivirals in HCV/HBV co-infection, focused on HBV reactivation during anti-HCV therapy. Ribavirin is not the focus. |
+| [NCT01623336](https://clinicaltrials.gov/study/NCT01623336) | Phase 2/3 | Unknown | 740 | BIP48 (peginterferon alfa-2b) versus Pegasys, both with ribavirin, in chronic hepatitis C. HCV only. |
+| [NCT01805882](https://clinicaltrials.gov/study/NCT01805882) | Phase 2 | Completed | 229 | Pilot of multiple anti-HCV combination regimens. No HBV efficacy endpoint. |
+| [NCT00630084](https://clinicaltrials.gov/study/NCT00630084) | Phase 4 | Completed | 120 | Peginterferon plus ribavirin in chronic hepatitis C patients with non-liver cancers. HCV only. |
+| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | Phase 3 | Completed | 36 | Ombitasvir/paritaprevir/ritonavir plus dasabuvir with ribavirin in HCV with decompensated cirrhosis. Wrong disease for this prediction. |
+| [NCT00265395](https://clinicaltrials.gov/study/NCT00265395) | Phase 3 | Completed | 1428 | 72 versus 48 weeks of PEG-Intron plus Rebetol in slow-responding HCV genotype 1. HCV only. |
+| [NCT00394277](https://clinicaltrials.gov/study/NCT00394277) | Phase 4 | Completed | 1175 | Higher-dose Pegasys and Copegus in heavy patients with HCV genotype 1. HCV only. |
+| [NCT01858766](https://clinicaltrials.gov/study/NCT01858766) | Phase 2 | Completed | 379 | Sofosbuvir plus velpatasvir with or without ribavirin in HCV. HCV only. |
+| [NCT00100659](https://clinicaltrials.gov/study/NCT00100659) | Phase 3 | Completed | 114 | Peginterferon with or without ribavirin in children with chronic hepatitis C. HCV only. |
 
-*Note: These are the 10 trials with explicit relevance grading in the evidence pack (all graded "C" — low relevance to HBV). A further ~40 trials returned by the search were not yet graded ("pending") and are omitted here; based on their titles, the large majority also appear to be HCV-focused.*
+---
 
 ## Literature Evidence
 
+No randomised trials were found. The publications are reviews, mostly on HBV/HCV co-infection.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Review | Viruses | Reviews HCV/HBV co-infection management; recommends peginterferon + ribavirin for HCV-dominant co-infected patients, not HBV monoinfection. |
-| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Review | World J Gastroenterol | Updates on treatment/outcomes of dual chronic HCV/HBV infection; ribavirin's role is again tied to the HCV component. |
-| [18804888](https://pubmed.ncbi.nlm.nih.gov/18804888/) | 2008 | Review | J Hepatol | "Treatment of HBV and HCV co-infection: still a challenge for the hepatologist" — no abstract available; title confirms co-infection framing. |
-| [19669238](https://pubmed.ncbi.nlm.nih.gov/19669238/) | 2009 | Review | Hepatol Int | Discusses viral interaction dynamics in dual HBV/HCV infection under treated vs. untreated settings. |
-| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | Review | Expert Rev Anti Infect Ther | Reviews treatment options for chronic HBV and HCV in children as separate, standardized regimens. |
-| [15864105](https://pubmed.ncbi.nlm.nih.gov/15864105/) | 2005 | Review | Curr Opin Infect Dis | Overview of HBV vaccination, HCV transmission, and natural history/treatment efficacy in children. |
-| [27433078](https://pubmed.ncbi.nlm.nih.gov/27433078/) | 2016 | Review | World J Gastroenterol | Notes that interferon ± ribavirin was the prototype therapy for both HBV and HCV, but DAAs now differ by virus; HBV persists (cccDNA) even after treatment. |
-| [21538279](https://pubmed.ncbi.nlm.nih.gov/21538279/) | 2011 | Review/Genetic | Semin Liver Dis | Reviews host genetic determinants of HBV and HCV disease outcome; not a treatment-efficacy study. |
-| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | Genetic association study | World J Gastroenterol | IL28B polymorphism is linked to peginterferon+ribavirin response in HCV; its relevance to HBV outcomes (e.g., HBeAg seroconversion) remains unresolved. |
-| [26284971](https://pubmed.ncbi.nlm.nih.gov/26284971/) | 2015 | Genetic association study | Curr Opin Virol | IL28B genotype affects treatment-induced clearance in HCV (with peginterferon/ribavirin); effect on HBV is a separate, less-established association. |
+| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Review | Viruses | HCV/HBV co-infection carries a high risk of liver disease progression and should be treated aggressively. Older guidance recommended peginterferon plus ribavirin when HCV RNA is positive. |
+| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Review | World J Gastroenterol | Dually infected patients progress faster than monoinfected patients. Treatment is guided by the relative viral loads of HCV and HBV. |
+| [19669238](https://pubmed.ncbi.nlm.nih.gov/19669238/) | 2009 | Review | Hepatol Int | Dual HBV/HCV infection is common in endemic areas, and the viral interaction and its effect on long-term outcomes remain unresolved. |
+| [18804888](https://pubmed.ncbi.nlm.nih.gov/18804888/) | 2008 | Review | J Hepatol | Treating HBV/HCV co-infection remains a challenge for hepatologists (no abstract available). |
+| [27433078](https://pubmed.ncbi.nlm.nih.gov/27433078/) | 2016 | Review | World J Gastroenterol | Interferon-alpha with or without ribavirin was the prototype therapy for both viruses. Direct-acting antivirals can eliminate HCV, but HBV persists and needs long-term therapy. |
+| [10832679](https://pubmed.ncbi.nlm.nih.gov/10832679/) | 2000 | Not classified | J Gastroenterol | Titled "Is ribavirin treatment really effective for chronic hepatitis B?", which suggests doubt about ribavirin's benefit in HBV. No abstract is available, so the conclusion cannot be confirmed. |
+| [11160766](https://pubmed.ncbi.nlm.nih.gov/11160766/) | 2001 | Not classified | Annu Rev Med | Overview of treatment for chronic hepatitis B and C. For hepatitis B, interferon alfa-2b and lamivudine achieve response in a minority to a moderate share of patients. |
+| [25048716](https://pubmed.ncbi.nlm.nih.gov/25048716/) | 2015 | Not classified | Hepatology | Immune responses influence treatment-induced clearance of HBV and HCV. |
+| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | Review | Expert Rev Anti Infect Ther | Treatment options for chronic hepatitis B and C in children. |
+| [26284971](https://pubmed.ncbi.nlm.nih.gov/26284971/) | 2015 | Review | Curr Opin Virol | IL28B genotype predicts response to peginterferon plus ribavirin in HCV. Its relationship to HBV outcomes is less clear. |
 
-## Taiwan Market Information
+---
 
-Ribavirin is currently **not marketed in Taiwan** — the evidence pack contains no license records (`total_licenses: 0`), so no product/DIN table can be produced.
+## Canada Market Information
+
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2170140 | VIRAZOLE | — | — |
+
+The licence record does not include a dosage form or indication text.
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Key warnings, contraindications, and DDI data are all currently data gaps — DG001 flags TFDA label warnings/contraindications as a **blocking** gap that must be resolved before any safety pre-assessment can proceed.)*
+One signal from the literature is worth noting. Several case reports describe porphyria cutanea tarda emerging during peginterferon/ribavirin treatment in patients with hepatitis C. This is a possible adverse event and is not evidence of benefit.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN score (99.86%) for the top candidate, the supporting clinical trials and literature are almost entirely drawn from HBV/HCV co-infection studies where ribavirin was treating the HCV component — not genuine HBV-specific evidence. The remaining nine predicted indications in this pack have little or no supporting evidence (several show zero trials/literature and no plausible mechanistic link), and one (hepatic porphyria) is actually associated with ribavirin/interferon-*induced* porphyria cutanea tarda — a safety signal, not a treatment opportunity. Separately, blocking safety data (TFDA warnings/contraindications, DG001) and MOA documentation (DG002) are both missing, which alone prevents progression past S0.
+Ribavirin has no established anti-HBV activity, and the very high model score most likely reflects its link to hepatitis C. Nearly all registered trials are in hepatitis C. Only two small or incomplete co-infection studies exist, and none tests HBV monoinfection.
 
 **To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) to resolve blocking gap DG001
-- Verified mechanism-of-action documentation from DrugBank to resolve DG002
-- Re-run evidence collection with HBV/HCV co-infection studies explicitly excluded, to test whether any genuine HBV-specific signal remains
-- An independent mechanistic plausibility review of using an RNA-virus-targeted agent (ribavirin) against a DNA virus (HBV) before further investment
-- If revisited, the hepatic porphyria association should be reframed as a drug-safety/label item (risk of inducing porphyria cutanea tarda), not pursued as a repurposing indication
+- Results from the HCV/HBV co-infection trials (especially NCT00154869) that show an HBV-specific outcome.
+- Direct evidence in HBV monoinfection, such as in vitro anti-HBV activity or a controlled trial.
+- The approved indication text and mechanism of action data.
+- The Health Canada product monograph warnings and contraindications for a safety review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

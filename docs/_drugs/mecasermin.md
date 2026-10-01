@@ -2,7 +2,7 @@
 layout: default
 title: Mecasermin
 parent: Model Prediction Only (L5)
-nav_order: 489
+nav_order: 570
 evidence_level: L5
 indication_count: 5
 ---
@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Mecasermin is a recombinant human IGF-1 analogue, originally used to treat severe primary IGF-1 deficiency (growth hormone insensitivity syndromes such as Laron syndrome). The TxGNN model predicts it may be relevant to **Monosomy X (Turner syndrome)**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic link is indirect.
+Mecasermin (recombinant human IGF-1, marketed in Canada as INCRELEX) is used for severe primary IGF-1 deficiency, a growth-related condition.
+The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)**, but this is currently a **model prediction only**, with **0 clinical trials** and **0 publications** supplied as support.
 
 ---
 
@@ -41,23 +42,21 @@ Mecasermin is a recombinant human IGF-1 analogue, originally used to treat sever
 
 | Item | Content |
 |------|------|
-| Original Indication | Severe Primary IGF-1 Deficiency / GH insensitivity syndrome (e.g. Laron syndrome) — no official Canadian label text available, drug not marketed |
-| Predicted New Indication | Monosomy X (Turner syndrome) |
+| Original Indication | Severe primary IGF-1 deficiency (from the candidate's mechanistic rationale; the Canadian licence record supplied has no indication text) |
+| Predicted New Indication | Monosomy X |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed (Not marketed) |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known information, mecasermin is a recombinant human insulin-like growth factor-1 (IGF-1), whose efficacy in severe primary IGF-1 deficiency / GH insensitivity syndrome has been established, and mechanistically it may have theoretical relevance to other growth-related conditions.
+Currently, detailed mechanism of action data is not available. Based on known information, mecasermin is recombinant human IGF-1 and acts on the growth axis. Its efficacy in IGF-1 deficiency-related growth failure is established, and mechanistically it may be applicable to short stature in monosomy X.
 
-Monosomy X (Turner syndrome) commonly presents with growth failure, which is conventionally treated with growth hormone (GH) rather than IGF-1. Since IGF-1 is the downstream signaling effector of GH, there is a shared pathway rationale for considering it in growth disorders.
-
-However, the growth failure in Turner syndrome is primarily attributed to SHOX gene haploinsufficiency rather than a classic GH/IGF-1 deficiency state. The mechanistic link is therefore an indirect inference based on shared phenotype (growth impairment) rather than a confirmed shared etiology, and no clinical or literature evidence currently exists to support or refute it.
+Monosomy X (Turner syndrome) is characterized by short stature, which is why the model links it to a growth-axis drug. However, the link is indirect. Turner short stature is usually managed through the growth hormone (GH) pathway, not by IGF-1 replacement. Without MOA data, the high score (99.59%) cannot be cross-checked against a mechanism. No trials or literature were supplied, so the prediction stands on the model alone.
 
 ---
 
@@ -75,13 +74,19 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Mecasermin currently holds no Health Canada marketing authorization (0 DINs, market status: Not marketed). No product listings are available to summarize.
+| Licence Number | Product Name |
+|---------|------|
+| 2509733 | INCRELEX |
+
+Dosage form, manufacturer, and approved indication text are not available in the supplied record.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found in the queried database.
+
+Please refer to the package insert for warnings and contraindications. General concerns for IGF-1 therapy noted in the candidate analysis include hypoglycemia, fluid and tissue growth effects, and a theoretical neoplasia risk.
 
 ---
 
@@ -90,13 +95,19 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This prediction is evidence level L5 (model prediction only) — there are no clinical trials or publications supporting mecasermin for monosomy X, the mechanistic link is indirect (shared "growth failure" phenotype rather than shared etiology), and the drug is not currently marketed in Canada. All other TxGNN-ranked candidates for this drug (Wolman disease, GH insensitivity with immune dysregulation, esophageal varices with/without bleeding) are similarly L5 with no supporting evidence, and several show a plausible knowledge-graph comorbidity artifact rather than a true treatment signal.
+The prediction is supported only by the model score. No trials or literature exist in the supplied evidence, the mechanistic link is indirect, and the standard approach for Turner short stature is the GH pathway.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label warnings and contraindications (currently a Blocking data gap — required before any S1 safety assessment)
-- Confirmed mechanism of action data from DrugBank (currently a High-severity data gap)
-- Dedicated literature and clinical trial searches specific to monosomy X and IGF-1 pathway overlap
-- Endocrinology expert input on whether SHOX-driven growth failure is a biologically plausible target for exogenous IGF-1
+- Mechanism of action data (DrugBank) to cross-check the model score
+- Health Canada package insert warnings and contraindications
+- A targeted literature and trial registry search for mecasermin or IGF-1 in Turner syndrome
+- Approved indication text and dosage form for the Canadian licence
+
+**Other candidates:** Among the other four predictions, "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant" (score 99.06%) is the most mechanistically coherent. Growth hormone insensitivity causes low IGF-1 despite normal or high GH, and mecasermin directly replaces IGF-1. It is flagged as a Research Question and would need its own literature and registry search before any staging. The remaining candidates are on Hold: Wolman disease has no clear mechanistic connection, and the two esophageal varices entries look like duplicates with a weak, indirect rationale.
+
+---
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Celecoxib
-parent: High Evidence (L1-L2)
-nav_order: 155
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 170
+evidence_level: L5
 indication_count: 10
 ---
 
 # Celecoxib
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,84 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Celecoxib: From Osteoarthritis & Rheumatoid Arthritis to Inflammatory Spondylopathy
+# Celecoxib: From COX-2 Inhibitor NSAID to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Celecoxib (Celebrex®) is a selective COX-2 inhibitor globally approved for osteoarthritis, rheumatoid arthritis, and acute pain, though it currently holds no Taiwan FDA marketing license.
-The TxGNN model predicts it may be effective for **Inflammatory Spondylopathy** (encompassing ankylosing spondylitis and axial spondyloarthritis), with the highest evidence level (L1) among all ranked predictions — supported by **19 registered clinical trials**, including multiple completed Phase 3 and Phase 4 randomized controlled trials directly evaluating celecoxib in this indication.
+Celecoxib is a selective COX-2 inhibitor (NSAID) that is marketed in Canada. The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder. **No clinical trials and no publications** currently support this prediction, and no plausible mechanism has been identified.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Osteoarthritis, rheumatoid arthritis, acute pain (approved in multiple international jurisdictions; no Taiwan FDA license on record) |
-| Predicted New Indication | Inflammatory Spondylopathy (Ankylosing Spondylitis / Axial Spondyloarthritis) |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Licenses | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Not stated in the Canadian licence records provided |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN Prediction Score | 99.88% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, formal mechanism of action data is not available in this Evidence Pack (Data Gap DG002). Based on well-established pharmacology, celecoxib is a diarylheterocyclic compound that selectively inhibits cyclooxygenase-2 (COX-2) — the inducible isoform of the enzyme responsible for synthesizing pro-inflammatory prostaglandins, particularly PGE₂. Unlike non-selective NSAIDs, it spares COX-1 (the constitutive "housekeeping" isoform), which largely accounts for its superior gastrointestinal tolerability profile. This selectivity is the mechanistic cornerstone linking celecoxib to inflammatory musculoskeletal disease broadly.
+Detailed mechanism of action data is not available in the Evidence Pack. Celecoxib belongs to the COX-2 inhibitor class of NSAIDs, which reduce prostaglandin-mediated inflammation and pain.
 
-Inflammatory spondylopathy — including ankylosing spondylitis (AS) and non-radiographic axial spondyloarthritis (nr-axSpA) — is driven by chronic, immune-mediated axial skeletal inflammation. Downstream of IL-17 and TNF signaling, COX-2 is markedly upregulated in inflamed spinal and sacroiliac joint tissues, resulting in excess PGE₂ release that mediates spinal pain, morning stiffness, and enthesitis. Sustained inhibition of this pathway by celecoxib not only controls symptoms but has been associated in longitudinal studies with retardation of radiographic spinal progression — a finding that elevates celecoxib from a simple analgesic to a potentially disease-modifying agent in this context.
+Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by disruption of the CDMP1/GDF5 signalling pathway. It is not an inflammatory disease, and COX-2 inhibition has no known effect on this pathway. The high score therefore appears to come from knowledge-graph associations rather than a biological rationale.
 
-The alignment between the prediction and existing clinical reality is striking: celecoxib is already an approved therapy for ankylosing spondylitis in the United States, the European Union, Japan, and several other major regulatory jurisdictions. Multiple completed Phase 3 RCTs directly comparing celecoxib to standard-of-care diclofenac in AS patients, as well as Phase 4 trials combining celecoxib with biologics, constitute an unusually robust L1 evidentiary base. This makes inflammatory spondylopathy the most actionable and best-supported repurposing target among all TxGNN predictions for celecoxib in this analysis.
+In short, this prediction is best treated as a model output with no supporting evidence. It should not be read as a credible repurposing candidate on the current data.
 
 ---
 
 ## Clinical Trial Evidence
 
-19 trials were identified for inflammatory spondylopathy. The 10 most relevant are presented below, prioritized by grade and study design:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00762463](https://clinicaltrials.gov/study/NCT00762463) | Phase 3 | Completed | 240 | Randomized double-blind RCT in Chinese AS patients: celecoxib 200 mg QD vs. diclofenac 75 mg SR QD over 6 weeks with a 6-week extension at celecoxib 400 mg QD. Core pivotal evidence directly supporting AS indication. |
-| [NCT00648141](https://clinicaltrials.gov/study/NCT00648141) | Phase 3 | Completed | 458 | 12-week double-blind Phase 3 RCT comparing celecoxib 200 mg QD, celecoxib 200 mg BID, and diclofenac BID for AS symptom control and safety; the largest direct comparison study in this dataset. |
-| [NCT02528201](https://clinicaltrials.gov/study/NCT02528201) | Phase 4 | Completed | 330 | 12-week double-blind RCT (celecoxib 200 mg QD, 400 mg QD vs. diclofenac TID in AS), conducted to confirm results of the prior 6-week pivotal trial. |
-| [NCT01934933](https://clinicaltrials.gov/study/NCT01934933) | Phase 4 | Completed | 150 | Multi-center open-label randomized trial: celecoxib 200 mg BID alone vs. etanercept 50 mg QW alone vs. celecoxib + etanercept in active AS; primary endpoint was MRI SPARCC score of sacroiliac joints over 54 weeks. |
-| [NCT02758782](https://clinicaltrials.gov/study/NCT02758782) | Phase 4 | Completed | 156 | CONSUL trial: evaluated whether adding celecoxib to golimumab (anti-TNF) reduces AS spinal structural damage progression compared to golimumab alone over 2 years. |
-| [NCT04115098](https://clinicaltrials.gov/study/NCT04115098) | Phase 2 | Terminated | 42 | Individualized N-of-1 trial design directly comparing selective COX-2 vs. non-selective COX inhibitors in axial SpA adults; terminated early (n=42) but provides feasibility and initial comparative data. |
-| [NCT03190603](https://clinicaltrials.gov/study/NCT03190603) | Phase 4 | Completed | 12 | Pilot study using MRI to assess the effect of NSAID on inflammatory lesions in axial SpA; small sample limits generalizability, but provides imaging-based mechanistic support. |
-| [NCT02355236](https://clinicaltrials.gov/study/NCT02355236) | Phase 4 | Unknown | 106 | Double-blind RCT comparing Naxozol (naproxen/esomeprazole) vs. celecoxib in OA/RA/AS patients for gastroprotection and pain relief; indirect comparative gastrointestinal safety evidence. |
-| [NCT02456363](https://clinicaltrials.gov/study/NCT02456363) | Phase 2 | Unknown | 300 | Registry study comparing adalimumab + NSAID vs. adalimumab alone in AS; NSAID as background therapy component provides indirect evidence of celecoxib's role in combination treatment. |
-| [NCT01572675](https://clinicaltrials.gov/study/NCT01572675) | N/A | Completed | 547 | Real-world pharmacoepidemiology study of etoricoxib and celecoxib use in France; provides class-level real-world usage and safety context for COX-2 inhibitors in spondyloarthropathy. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature is directly catalogued in this Evidence Pack for inflammatory spondylopathy. The primary evidentiary basis for this indication rests on the completed Phase 3 and Phase 4 randomized controlled trials listed above — particularly the results from NCT00762463 and NCT00648141, whose published findings constitute the core of the L1 evidence classification.
+Currently no related literature available.
+
+---
+
+## Canada Market Information
+
+Dosage form and approved indication text were not provided in the licence records.
+
+| DIN | Product Name |
+|---------|------|
+| 2445670 | AURO-CELECOXIB |
+| 2418932 | APO-CELECOXIB |
+| 2495473 | M-CELECOXIB |
+| 2517124 | PMSC-CELECOXIB |
+| 2436302 | CELECOXIB |
+
+Five of the 20 authorizations are listed.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> Taiwan FDA package insert data (TFDA 仿單) was unavailable for this evaluation (Data Gap DG001). Formal warnings and contraindications should be obtained directly from the TFDA official website or from the Celebrex® prescribing information published by approved international regulatory authorities (FDA, EMA, PMDA).
-
-The following class-level safety signals are established for COX-2 selective inhibitors and should be considered in any risk management plan:
-
-- **Cardiovascular risk**: Increased risk of serious thrombotic cardiovascular events (myocardial infarction, stroke), especially with higher doses or prolonged use. The PRECISION trial specifically evaluated celecoxib's cardiovascular profile against ibuprofen and naproxen.
-- **Gastrointestinal**: Lower risk of GI ulceration and bleeding compared to non-selective NSAIDs, but the risk is not eliminated — particularly in elderly patients or those on concomitant antiplatelet agents or anticoagulants.
-- **Renal function**: Monitor renal function in patients with pre-existing renal impairment, dehydration, heart failure, or concurrent use of diuretics or ACE inhibitors/ARBs.
+Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were retrieved for this drug.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Celecoxib has an unusually robust L1-level clinical evidence base for inflammatory spondylopathy, anchored by multiple completed Phase 3 and Phase 4 RCTs with direct head-to-head comparisons in ankylosing spondylitis populations. It is already approved for this indication in the United States, the EU, and Japan, providing a clear regulatory precedent that substantially de-risks the pathway. The mechanistic alignment between selective COX-2 inhibition and axial inflammatory disease pathophysiology is well-characterized and clinically validated.
+The prediction has no clinical trials, no publications, and no plausible mechanistic link. This is a genetic skeletal disorder with no COX-2 involvement, so the score alone does not justify further investment.
 
 **To proceed, the following is needed:**
-
-- **Taiwan FDA regulatory strategy**: Determine whether a new drug application (NDA) or supplemental indication submission is required by TFDA; evaluate bridging data requirements given existing international AS approvals
-- **Package insert and safety data**: Retrieve and review the TFDA 仿單 or international prescribing information to complete the safety assessment and resolve Data Gap DG001 (Blocking severity)
-- **Formal MOA documentation**: Obtain DrugBank pharmacology data to support mechanism-based regulatory filing (Data Gap DG002)
-- **Cardiovascular risk management plan**: Define patient selection criteria, monitoring protocols, and contraindicated populations before initiating any clinical or market access activities
-- **Local population considerations**: Assess whether Taiwan-specific PK, efficacy, or disease epidemiology data is required by TFDA for label approval; the existing Chinese-patient RCT (NCT00762463, n=240) provides partial ethnic bridging evidence
+- A credible mechanistic hypothesis linking COX-2 inhibition to the GDF5/CDMP1 pathway, supported by preclinical data
+- Canadian package insert warnings and contraindications, and the approved indication text for each DIN
+- Mechanism of action data from DrugBank
+- A separate evaluation of the rank 9 prediction, **inflammatory spondylopathy**. It has 19 registered trials, including completed Phase 3 and Phase 4 celecoxib studies in ankylosing spondylitis, and would need its own assessment of celecoxib arms and label status. It is far better supported than this candidate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Triamterene
-parent: Moderate Evidence (L3-L4)
-nav_order: 800
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 935
+evidence_level: L5
 indication_count: 6
 ---
 
 # Triamterene
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Triamterene: From Potassium-Sparing Diuretic Therapy to Malignant Hypertensive Renal Disease
+# Triamterene: From Hypertension and Edema to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Triamterene is a collecting-duct ENaC-inhibiting, potassium-sparing diuretic; the evidence pack contains no on-file original indication or licensed product, as the drug is currently **not marketed in Canada**. The TxGNN model predicts a possible role in **Malignant Hypertensive Renal Disease**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal at the earliest screening stage.
+Triamterene is a potassium-sparing diuretic, generally used for hypertension and edema and usually combined with a thiazide.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. It rests on the model score alone.
 
 ---
 
@@ -41,49 +42,60 @@ Triamterene is a collecting-duct ENaC-inhibiting, potassium-sparing diuretic; th
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available on file (no DIN-licensed products; drug not marketed in Canada) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.89% (rank 2755) |
-| Evidence Level | L4 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Original Indication | Hypertension and edema (general pharmacology; the licence text does not state an indication) |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 99.89% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data (DrugBank MOA field) is not currently available for this candidate. Based on the mechanistic notes accompanying the prediction, triamterene is a collecting-duct epithelial sodium channel (ENaC) inhibitor and functions as a potassium-sparing diuretic — a class with an established, if adjunctive, role in blood pressure and fluid management.
+Currently, detailed mechanism of action data is not available. Based on known information, triamterene is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC). Its efficacy in hypertension and edema is established, and it may be mechanistically applicable to hypertensive kidney disease through sodium and volume reduction.
 
-The predicted indication, malignant hypertensive renal disease, is pathophysiologically driven by vascular endothelial injury and marked activation of the renin-angiotensin-aldosterone system (RAAS), not by sodium/volume overload alone. A potassium-sparing diuretic does not address this core disease mechanism, and the model's own rationale flags this as an indirect, class-level inference rather than a disease-specific mechanistic fit. No direct clinical or preclinical data linking triamterene to this indication were found.
-
-It is also worth noting that co-administration with RAAS-modifying agents (ACEi/ARB), which are typically central to managing this condition, carries a recognized hyperkalemia risk with potassium-sparing diuretics — a safety consideration that would need explicit evaluation if this direction were pursued further.
+The link to the new indication is plausible but weak. Malignant hypertension with renal involvement is a hypertensive emergency that needs rapid parenteral blood-pressure control, so a diuretic would at most be an adjunct. In impaired renal function, hyperkalemia and nephrotoxicity risk with a potassium-sparing diuretic is a major concern. The high score (0.9989) therefore reflects knowledge-graph proximity to other hypertension terms rather than clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+**Other predicted indications (for context):**
+
+| Predicted Indication | Score | Evidence Level | Trials / Papers | Note |
+|------|------|------|------|------|
+| Malignant renovascular hypertension | 99.89% | L5 | 0 / 0 | Model prediction only; hyperkalemia and kidney injury risk, especially with RAAS inhibitors |
+| Pulmonary hypertension, unclear multifactorial mechanism | 99.88% | L5 | 0 / 0 | No direct mechanistic rationale |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.88% | L5 | 0 / 20 | Retrieved papers concern general hypoxia biology and do not mention triamterene; not usable as support |
+| Braddock syndrome | 99.84% | L5 | 0 / 0 | No identifiable rationale; likely a knowledge-graph artifact |
+| Chronic pulmonary heart disease | 99.75% | L4 | 0 / 4 | Old papers (1976–1991) on diuretics and heart failure, including a small 1989 comparison of hydrochlorothiazide + triamterene vs digitalis. Evidence is indirect; marked as a research question |
 
 ---
 
 ## Canada Market Information
 
-Triamterene currently has no DIN-licensed products on file in Canada (`total_licenses = 0`, market status: Not Marketed). No approved indication text is therefore available for this candidate.
+| DIN | Product Name |
+|---------|------|
+| 441775 | APO-TRIAZIDE |
+| 532657 | TEVA-TRIAMTERENE/HCTZ |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **General pharmacology concern**: Hyperkalemia and nephrotoxicity risk in impaired renal function, particularly relevant to the predicted renal and renovascular indications and to co-administration with RAAS inhibitors.
 
-*(Key warnings, contraindications, and drug interaction data are not currently available in the evidence pack for this candidate; a DDI query returned no results.)*
+Please refer to the package insert for further safety information.
 
 ---
 
@@ -92,15 +104,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This candidate sits at decision stage S0 with L4 evidence — a mechanism-only inference with zero supporting clinical trials or literature, no confirmed MOA data, and no Canadian market presence to anchor a safety profile. There is currently no basis to advance beyond exploratory screening.
+The prediction has no supporting trials or literature (Evidence Level L5). The target conditions are hypertensive emergencies where a potassium-sparing diuretic has limited and potentially hazardous use. The only prediction with any indirect literature is chronic pulmonary heart disease, which is better handled as a separate research question.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (DrugBank API query, per data gap DG002)
-- Health Canada / product monograph warnings and contraindications (per data gap DG001, currently blocking safety review)
-- Disease-specific preclinical or clinical evidence connecting triamterene to malignant hypertensive renal disease (current literature is absent)
-- Hyperkalemia risk assessment for likely co-administration with RAAS-modifying agents in this patient population
-
-**Note:** Among the six candidates in this evidence pack, *chronic pulmonary heart disease* (rank 6) shows a comparatively stronger signal — it has reached decision stage S1 ("Research Question") with actual supporting literature on triamterene-containing diuretic combinations in chronic heart failure/cor pulmonale, whereas the top-ranked candidate here has none. That direction may warrant separate follow-up evaluation.
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- A targeted literature search for triamterene-specific studies in hypertensive renal disease and chronic pulmonary heart disease
+- A safety assessment for hyperkalemia and renal impairment in the target populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

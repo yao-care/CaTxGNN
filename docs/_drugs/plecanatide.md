@@ -2,7 +2,7 @@
 layout: default
 title: Plecanatide
 parent: Model Prediction Only (L5)
-nav_order: 627
+nav_order: 738
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,63 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Plecanatide: From Unrecorded Original Indication to Hypertrichosis
+# Plecanatide: From Chronic Idiopathic Constipation to Hypertrichosis
 
 ## One-Sentence Summary
 
-Plecanatide's original approved indication and detailed mechanism of action are not available in the current data pack (marked as data gaps), and the drug is not currently marketed in Canada. The TxGNN model predicts a possible signal for **Hypertrichosis (disease)** with a near-maximal score, but there are **0 clinical trials** and **0 publications** supporting this specific pairing, and the model's own mechanistic rationale flags the result as a likely statistical false positive.
-
----
+Plecanatide is a locally acting gut drug (a guanylate cyclase-C agonist) marketed in Canada as TRULANCE. The Evidence Pack does not record its approved indication, so the original use shown here (chronic idiopathic constipation) is general knowledge, not pack data. The TxGNN model predicts it may be effective for **hypertrichosis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it rests on a graph-based prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved indications on record for this drug) |
-| Predicted New Indication | Hypertrichosis (disease) |
+| Original Indication | Not recorded in the Canadian licence data (generally known as chronic idiopathic constipation) |
+| Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 99.998% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for this drug is not available in the current record (`original_moa` is marked as a data gap). However, the model's own rationale notes that plecanatide acts as a locally-restricted agonist of guanylate cyclase-C (GC-C) receptors on the apical surface of intestinal epithelial cells, with minimal systemic absorption — meaning its pharmacological activity is expected to stay largely confined to the gut lumen.
+Detailed mechanism-of-action data is not available in the input. Plecanatide is known to be a guanylate cyclase-C agonist that acts locally in the gut with minimal systemic absorption. It raises intestinal cGMP signalling.
 
-Hypertrichosis (excessive hair growth) is governed by hair follicle growth-cycle regulation, a physiological system with no established connection to intestinal GC-C/cGMP signaling. No shared receptor, pathway, or tissue overlap links the two. This absence of a plausible biological bridge is consistent with what the model's rationale itself concludes: the prediction is likely a statistical artifact of the knowledge-graph embedding space rather than a genuine pharmacological hypothesis.
+No plausible mechanism connects this action to hair follicle biology. Hypertrichosis is excess hair growth. Because plecanatide is barely absorbed, it is not expected to reach hair follicles in meaningful amounts. The high score (99.998%, model rank 111) is a statistical output of the knowledge graph, not evidence of a real drug-disease link.
 
-This concern is reinforced by the wider pattern in this prediction batch: multiple top-ranked candidates for the same drug (ranks 1, 2, and 4) are all hair/hair-follicle-related phenotypes with near-identical, extremely high scores despite zero supporting evidence. This clustering behavior — several unrelated but phenotypically similar diseases all scoring near 1.0 — is more indicative of embedding-space proximity than of a specific, drug-grounded signal, especially given that the drug's own original indication and MOA are undocumented, leaving the model without a real anchor for this drug.
-
----
+The other nine predictions in the pack show the same pattern. They include Ambras-type hypertrichosis, hair shaft abnormalities, a Dandy-Walker malformation syndrome, coronary artery dissection, vascular disease, thoracic outlet syndromes and phaeochromocytoma. All are L5 with no trials, and none has a plausible gut-restricted mechanism. Only the periodontal malformation prediction has literature, and those papers are general periodontitis papers that never mention plecanatide.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Plecanatide currently holds no drug identification numbers (DINs) in Canada and is not marketed (`market_status`: Not marketed / Not Marketed). No licensed products are on record.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2493012 | TRULANCE | — | — |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for plecanatide in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a near-maximal TxGNN score, this prediction has no clinical trial or literature support (L5 evidence), and the mechanistic pathway proposed by the model does not plausibly connect the drug's known intestinal-restricted GC-C activity to hair growth regulation. The pattern of multiple unrelated hair-related diseases scoring near-identically in this same batch further suggests an embedding artifact rather than a genuine signal.
+The prediction has no clinical, registry or literature support, and its mechanism is implausible for a gut-restricted drug with minimal systemic absorption. The score alone does not justify further investment.
 
 **To proceed, the following is needed:**
-- Original approved indication(s) and verified mechanism of action for the drug (currently data gaps, DG002)
-- TFDA/Health Canada label warnings and contraindications (currently a blocking data gap, DG001)
-- Independent pharmacological or preclinical rationale connecting GC-C agonism to hair follicle biology, if this candidate is to be pursued further
-- Re-screening of this drug's full prediction list for candidates with actual mechanistic plausibility and/or drug-specific clinical/literature evidence, since none of the top 10 ranked predictions in this batch currently meet that bar
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text, dosage form and manufacturer for the Canadian licence
+- Mechanism-of-action data from DrugBank
+- At least preclinical or mechanistic evidence linking GC-C/cGMP signalling to hair follicle biology
+- Evidence that systemic or topical exposure sufficient for a hair effect is achievable (route compatibility is currently unassessed)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

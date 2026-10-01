@@ -2,7 +2,7 @@
 layout: default
 title: Disopyramide
 parent: Model Prediction Only (L5)
-nav_order: 247
+nav_order: 290
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,42 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Disopyramide: From Cardiac Arrhythmia to Tourette Syndrome
+# Disopyramide: From Arrhythmia to Tourette Syndrome
 
 ## One-Sentence Summary
 
-Disopyramide is a Class Ia antiarrhythmic agent historically used for the treatment of ventricular and supraventricular cardiac arrhythmias.
-The TxGNN model predicts it may be effective for **Tourette Syndrome**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This prediction rests entirely on computational inference; no empirical evidence has been identified to date.
+Disopyramide is a class Ia antiarrhythmic drug, originally used to treat cardiac arrhythmias.
+The TxGNN model predicts it may be effective for **Tourette syndrome**, but **0 clinical trials** and **0 publications** currently support this direction.
+The prediction rests on the model score alone and is likely a knowledge-graph artifact.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available (drug not marketed in Taiwan; no approved indication on record) |
-| Predicted New Indication | Tourette Syndrome |
+|------|------|
+| Original Indication | Arrhythmia (the approved indication text is not recorded in the Canadian license data) |
+| Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Licenses | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, disopyramide is a Class Ia antiarrhythmic agent whose primary action is voltage-gated sodium channel blockade, reducing myocardial excitability and prolonging the effective refractory period. It also carries clinically significant anticholinergic (muscarinic antagonist) activity, which is responsible for many of its side effects (dry mouth, urinary retention, blurred vision).
+Currently, detailed mechanism of action data is not available in the record. Disopyramide is known to be a class Ia sodium channel blocker with anticholinergic activity, and its efficacy in arrhythmia is established.
 
-The speculative mechanistic connection to Tourette Syndrome runs through this anticholinergic component: cholinergic interneurons in the basal ganglia striatum are known to be dysregulated in tic disorders, and anticholinergic agents such as trihexyphenidyl have occasionally been used off-label for tic suppression. On this basis, a pharmacological class analogy can be drawn.
+We could not identify a credible mechanistic link to Tourette syndrome. Tourette syndrome is a neurodevelopmental tic disorder, usually treated by modulating dopamine and related neurotransmitter pathways. That is not what disopyramide does.
 
-However, this link is highly indirect and faces a critical biological barrier: disopyramide has poor central nervous system penetration, which severely limits its ability to exert meaningful pharmacological effects at basal ganglia cholinergic synapses. There is no published clinical evidence, animal model data, or mechanistic hypothesis in the literature supporting disopyramide's use in Tourette Syndrome. The high TxGNN score most likely reflects a pattern-based signal propagated through the knowledge graph via the anticholinergic class rather than a direct, drug-specific mechanism.
+The high score (0.9986) is most likely explained by shared neuro-receptor or ion-channel neighbors in the knowledge graph. No independent evidence supports it.
+
+**Other model predictions.** The other top-ranked predictions show the same pattern, mostly with scores above 99%:
+- Most have no trials or literature: ADHD and its inattentive subtype, trichotillomania, faciodigitogenital syndrome, specific developmental disorder, chondromyxoid fibroma and trigeminal nerve neoplasm. The two ADHD entries are likely one correlated signal, not independent evidence.
+- **Idiopathic neonatal atrial flutter** is biologically coherent for a class Ia antiarrhythmic, but has no evidence, and disopyramide's anticholinergic and negative inotropic effects are a safety concern in neonates.
+- **Multifocal atrial tachycardia** is coherent as well. Its only publication (PMID 7418495, 1980) concerns lorcainide, a different drug, in ventricular arrhythmias, so it is indirect evidence at best. It could be worth a literature review as a research question, but gives no basis for a recommendation.
 
 ---
 
@@ -75,9 +80,13 @@ Currently no related literature available.
 
 ---
 
-## Taiwan Market Information
+## Canada Market Information
 
-Disopyramide is not currently marketed in Taiwan. No approved drug licenses are on record with the Taiwan FDA (TFDA). Package insert warnings and contraindications are therefore not available from the local regulatory source and must be obtained from the originator's labelling or international references (e.g., FDA, EMA).
+| DIN | Product Name |
+|---------|------|
+| 2224801 | RYTHMODAN |
+
+Dosage form, manufacturer and approved indication text are not recorded for this license.
 
 ---
 
@@ -85,7 +94,7 @@ Disopyramide is not currently marketed in Taiwan. No approved drug licenses are 
 
 Please refer to the package insert for safety information.
 
-> **Note:** TFDA package insert data (warnings, contraindications) was identified as a blocking data gap (DG001) in this Evidence Pack. Full safety characterisation — including QT-prolongation risk, negative inotropy, and anticholinergic burden — cannot be completed without resolving this gap.
+Note from the candidate review: the anticholinergic and cardiac effects of disopyramide would be a particular concern in a pediatric or neurodevelopmental population such as Tourette syndrome.
 
 ---
 
@@ -94,17 +103,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.86%), the Tourette Syndrome indication is not supported by any registered clinical trials, published literature, or a pharmacologically plausible direct mechanism — and disopyramide's poor CNS penetration makes it an unlikely candidate for central tic-circuit modulation without substantial additional evidence.
+The prediction is model-derived only (L5), with no trials or publications and no plausible mechanistic link between a sodium channel blocker and tic disorders. The candidate does not currently justify further investment.
 
-**Noteworthy alternative within this candidate set:**
-Among the 10 TxGNN-predicted indications in this pack, **Idiopathic Neonatal Atrial Flutter** (Rank 7, score 99.42%, Evidence Level L4) carries the strongest mechanistic rationale: disopyramide's Class Ia sodium channel blockade directly addresses the macro-reentry circuit underlying atrial flutter. This candidate may warrant a focused research question evaluation, subject to neonatal pharmacokinetic and safety data review.
-
-**To proceed with any indication, the following is needed:**
-
-- **Resolve DG001 (Blocking):** Retrieve and parse the TFDA or originator package insert to obtain warnings, contraindications, and QT-prolongation / negative inotropic risk data before any further safety gating.
-- **Resolve DG002 (High):** Query DrugBank API for confirmed MOA, pharmacokinetic parameters, and BBB penetration data to enable mechanistic plausibility scoring.
-- **For Tourette Syndrome specifically:** Commission a targeted literature and preclinical landscape review to determine whether any Class Ia agents have demonstrated CNS tic-modulating activity; absence of such data would formally close this candidate.
-- **For Idiopathic Neonatal Atrial Flutter:** Conduct a neonatal pharmacokinetic review and consult paediatric cardiology literature (off-label use reports) before advancing to a formal research proposal.
+**To proceed, the following is needed:**
+- Health Canada product monograph (warnings and contraindications), required before any safety screening
+- Detailed mechanism of action data (for example, from DrugBank)
+- A targeted literature search for disopyramide or class Ia antiarrhythmics in tic disorders
+- The approved indication text for the Canadian license, to confirm the original indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

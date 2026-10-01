@@ -2,7 +2,7 @@
 layout: default
 title: Prucalopride
 parent: Model Prediction Only (L5)
-nav_order: 658
+nav_order: 775
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prucalopride: From Chronic Constipation (5-HT4 Agonist) to Amyloidosis-Related Gut Motility Dysfunction
-
-> **Note on indication selection**: TxGNN's top-ranked hit (hypoalphalipoproteinemia, score 99.82%) and three of the next four candidates (homozygous familial hypercholesterolemia, duodenal ulcer, oral candidiasis, HIV, strongyloidiasis) have **zero clinical trial or literature support**, and the evidence pack itself flags them as likely knowledge-graph noise with no mechanistic plausibility. This report instead focuses on **amyloidosis** (rank 6), the highest-ranked candidate that is actually backed by literature and a coherent mechanistic hypothesis.
+# Prucalopride: From Prokinetic GI Therapy to Hypoalphalipoproteinemia
 
 ## One-Sentence Summary
 
-Prucalopride's formal original-indication field is a data gap in this pack, but the model's own rationale identifies it as a selective 5-HT4 receptor agonist used for chronic bowel motility insufficiency (e.g., chronic constipation). TxGNN predicts potential relevance to **amyloidosis**-related gastrointestinal motility failure, but this is currently supported by only **2 case/cohort-level publications** and **no clinical trials**.
+Prucalopride is a selective 5-HT4 receptor agonist prokinetic that promotes gastrointestinal motility. The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia** (low HDL cholesterol) with a very high score. However, there are currently **0 clinical trials** and **0 publications** supporting this direction, and no plausible mechanistic link has been identified.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in Canadian regulatory data (drug not marketed in Canada); described in the model rationale as chronic constipation (5-HT4 agonist) |
-| Predicted New Indication | Amyloidosis (gastrointestinal motility dysfunction) |
-| TxGNN Prediction Score | 99.62% (rank 7664 of all candidates) |
-| Evidence Level | L4 (case report / cohort-review only, no clinical trials) |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Original Indication | Not listed in the Health Canada license data provided (general pharmacology: GI motility disorders) |
+| Predicted New Indication | Hypoalphalipoproteinemia |
+| TxGNN Prediction Score | 99.82% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 10 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Prucalopride is not available in this evidence pack (formal `original_moa` field is a data gap). However, the model's repurposing rationale independently notes that Prucalopride is a selective 5-HT4 receptor agonist, clinically used to stimulate insufficient bowel motility (e.g., chronic constipation).
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general pharmacology, prucalopride is a selective 5-HT4 receptor agonist that stimulates gut motility. Its established role is in GI motility disorders, not in lipid metabolism.
 
-Amyloidosis can infiltrate the gastrointestinal autonomic nerves and smooth muscle, leading to impaired motility and, in severe cases, chronic intestinal pseudo-obstruction (CIPO). A prokinetic 5-HT4 agonist could plausibly address this downstream motility deficit — this is a reasonable pharmacological hypothesis, but it is an **external inference**, not something directly validated by trial data within this dataset.
+The prediction is difficult to justify mechanistically. Prucalopride has no known role in HDL metabolism, and nothing links a 5-HT4 agonist prokinetic to low HDL cholesterol. The 99.82% score comes from the knowledge-graph model alone and is not backed by any trial or publication. High scores should therefore not be read as evidence of efficacy.
 
-Primary amyloidosis (rank 9) shares the same rationale and cites the same single publication, so it does not add independent evidentiary weight beyond the general amyloidosis candidate.
+Other top-ranked predictions show the same pattern. Most, such as homozygous familial hypercholesterolemia, oral candidiasis and strongyloidiasis, have no plausible link either. The only partly coherent ideas are the amyloidosis-related terms. There, a prokinetic might ease GI dysmotility symptoms, but it would not treat the underlying disease.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40376135](https://pubmed.ncbi.nlm.nih.gov/40376135/) | 2025 | Case Report | Cureus | Case of amyloidosis presenting as chronic intestinal pseudo-obstruction in a 61-year-old man; extensive workup for vascular, paraneoplastic, infectious, and autoimmune causes failed to explain recurrent dilated small bowel and multiple non-diagnostic laparotomies. |
-| [34231480](https://pubmed.ncbi.nlm.nih.gov/34231480/) | 2021 | Cohort/Review | Turkish Journal of Gastroenterology | Notes that specific GI motility disorders (gastroparesis, chronic intestinal pseudo-obstruction, colonic inertia) are commonly misdiagnosed as functional GI disorders due to low physician awareness in Asia; does not evaluate Prucalopride directly. |
+Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
-Prucalopride is not currently marketed in Canada — 0 DINs are registered in this evidence pack, so no approved-indication or product-level data is available.
+Ten licenses are on record in total; the five main ones are listed below. Dosage form and approved indication text are not available in the data provided.
+
+| DIN | Product Name |
+|---------|------|
+| 2491591 | APO-PRUCALOPRIDE |
+| 2493497 | JAMP PRUCALOPRIDE |
+| 2550377 | NRA-PRUCALOPRIDE |
+| 2377012 | RESOTRAN |
+| 2377020 | RESOTRAN |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the data provided.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The amyloidosis link rests on a single case report and a review that doesn't test Prucalopride directly — no clinical trials exist for this pairing, and the drug's own safety/label data (TFDA warnings and contraindications) is marked as a **Blocking** data gap (DG001), which by itself prevents any safety-stage evaluation regardless of indication.
+The prediction rests only on a model score. There are no trials or publications, and no plausible mechanism links a 5-HT4 agonist to HDL metabolism. Prioritising this indication is not justified at present.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label data (warnings, contraindications) — currently Blocking gap (DG001)
-- Confirmed original mechanism-of-action data from DrugBank (DG002)
-- Dedicated preclinical or case-series research specifically evaluating Prucalopride for amyloidosis-associated GI motility failure
-- If pursued, clarification of the Canadian access pathway given the drug's current "not marketed" status
+- Health Canada package insert warnings and contraindications (currently blocking safety screening)
+- Mechanism of action data from DrugBank
+- Any mechanistic or preclinical evidence connecting 5-HT4 agonism to HDL or lipid metabolism
+- Original approved indication text for the Canadian licenses
+- Optionally, a separate review of the amyloidosis-related predictions (rank 6, 9 and 10) as GI-symptom research questions. These are indirect and would not treat the underlying disease.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

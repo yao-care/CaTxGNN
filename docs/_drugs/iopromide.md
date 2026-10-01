@@ -2,7 +2,7 @@
 layout: default
 title: Iopromide
 parent: Model Prediction Only (L5)
-nav_order: 415
+nav_order: 486
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iopromide: From Contrast Agent to Osteoarthritis Susceptibility
+# Iopromide: From Diagnostic Contrast Imaging to Osteoarthritis Susceptibility
 
-## One-sentence Summary
+## One-Sentence Summary
 
-Iopromide is a nonionic, low-osmolarity iodinated contrast agent whose original purpose is contrast enhancement in imaging procedures such as CT and angiography, not a drug for treating specific diseases. The TxGNN model predicts a possible association with **osteoarthritis susceptibility**, but currently **0 clinical trials and 0 literature reports** support this association. The evidence level is lowest, and the high score is suspected to be a false positive resulting from knowledge graph confusion.
+Iopromide is an iodinated radiographic contrast agent, used to enhance visibility in imaging procedures rather than to treat disease.
+The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**, but **0 clinical trials** and **0 publications** support this specific prediction.
+The score is a graph-based signal only, and no therapeutic mechanism has been identified.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original indication | Contrast agent (CT/angiography image enhancement), non-therapeutic use; Not marketed in Canada, no approved indication records |
-| Predicted new indication | Osteoarthritis susceptibility |
-| TxGNN prediction score | 99.57% (rank 8382) |
-| Evidence level | L5 (model prediction only, no actual research) |
-| Canadian market status | Not marketed |
-| DIN count | 0 |
-| Recommended decision | Hold |
+|------|------|
+| Original Use | Iodinated contrast medium for diagnostic imaging (no approved indication text available in the record) |
+| Predicted New Indication | Osteoarthritis susceptibility |
+| TxGNN Prediction Score | 99.57% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Might This Prediction Appear Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, there is no detailed mechanism of action (MOA) data available. Based on available information, iopromide belongs to the nonionic, low-osmolarity iodinated contrast agent family, with clinical applications limited to contrast enhancement in imaging diagnosis such as CT and angiography. It has no known pharmacological therapeutic mechanism and has not been approved for treatment of any disease.
+Currently, detailed mechanism of action data is not available. Iopromide is a contrast agent for diagnostic imaging, and it has no known disease-modifying pharmacology.
 
-From a mechanistic perspective, there is no known biological link between contrast agents and osteoarthritis—the pathophysiology of osteoarthritis involves cartilage degeneration, joint inflammation, and osteophyte formation, whereas contrast agents only act on X-ray attenuation properties to facilitate image interpretation and lack anti-inflammatory, cartilage-protective, or repair-related pharmacological activity.
+The prediction does not appear to reflect a therapeutic relationship. The related osteoarthritis prediction (rank 2) has two retrieved papers. One describes CT-guided nerve block for hip pain, and the other measures cartilage with MRI after contrast injection. Both use contrast for imaging or procedural guidance and neither tests the drug as a treatment. The high score most likely reflects the drug's co-occurrence with musculoskeletal imaging in the knowledge graph.
 
-The prediction rationale within the evidence package for the same drug regarding rank 2 (osteoarthritis) has already clearly indicated that the high score given by TxGNN likely originates from knowledge graph confusion—because contrast agents are frequently used in literature related to "disease imaging diagnosis" and co-occur at high frequency with various disease names, the model misinterprets them as therapeutic associations rather than genuine therapeutic signals. This pattern of confusion equally applies to the present rank-1 osteoarthritis susceptibility prediction, and moreover, this item lacks even a single co-occurrence literature citation, making mechanistic plausibility even weaker.
+The other top predictions include rare skeletal dysplasias (brachyolmia, acromesomelic dysplasia, pseudoachondroplasia), alopecia and hemoglobinopathy. None has a plausible pharmacological link to iopromide. Until a mechanism is shown, these predictions should be treated as computational artifacts.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently, there are no relevant clinical trial registrations.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently, there are no relevant literature data.
+Currently no related literature available for osteoarthritis susceptibility.
+
+For reference, the closely related **osteoarthritis** prediction (score 99.53%, evidence level L4) has two indirect papers, both imaging-related:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [11419151](https://pubmed.ncbi.nlm.nih.gov/11419151/) | 2001 | Case series / procedural technique | European Radiology | CT-guided obturator nerve block for diagnosing and treating painful hip conditions. This is a procedural pilot study, not a test of the drug as a therapy. |
+| [9678042](https://pubmed.ncbi.nlm.nih.gov/9678042/) | 1998 | Methodological imaging study | Clinical Orthopaedics and Related Research | Accuracy of MRI cartilage volume and thickness measurements in cadaveric knees, validated against contrast-enhanced CT. It concerns measurement, not treatment. |
 
 ---
 
-## Canadian Market Information
+## Canada Market Information
 
-Iopromide is currently **Not marketed** in Canada, with no valid drug license (DIN) records, so information on approved indications or dosage forms cannot be provided.
+| DIN | Product Name |
+|---------|------|
+| 2078619 | ULTRAVIST 370 |
+| 2078600 | ULTRAVIST 300 |
+
+Dosage form and approved indication text are not recorded for these licenses.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the drug product monograph for safety information.
+- **Drug Interactions**: No interaction records were found for this drug.
+- **Literature safety signal**: A case report ([PMID 16628721](https://pubmed.ncbi.nlm.nih.gov/16628721/), 2006, American Journal of Hematology) describes a cerebral vaso-occlusive event after low-osmolar intravenous contrast in a patient with sickle cell disease. This was flagged in the hemoglobinopathy prediction and should be addressed before any repurposing hypothesis in that area.
 
-(Note: This evidence package marks a blocking-level data gap DG001—TFDA product monograph warnings/contraindications have not yet been obtained, which is a necessary prerequisite for entering preliminary safety assessment; see "Follow-up Requirements" below.)
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
-## Conclusion and Follow-up Recommendations
+## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Iopromide is a contrast agent and not a therapeutic drug, with no reasonable mechanistic link to osteoarthritis susceptibility; this prediction lacks any clinical trial or literature support (0/0), and the evidence level is the lowest L5. Similar high-scoring items in the same batch of predictions have been shown to potentially be false positive signals due to knowledge graph confusion. Additionally, it is noteworthy that the same drug shows **opposing safety signals** in the hemoglobinopathy (rank 9) direction—literature reports that low-osmolarity intravenous contrast agents may trigger cerebrovascular occlusion events in patients with sickle cell disease, suggesting that such contrast agents warrant extra caution when used in drug repurposing assessments.
+The prediction rests only on a graph-based score. There are no clinical trials and no literature testing iopromide for osteoarthritis susceptibility. The nearest evidence (osteoarthritis, hemoglobinopathy) is limited to imaging use, and one report is a safety signal.
 
-**To proceed further, the following need to be supplemented:**
-- TFDA/Canadian official product monograph warnings and contraindication data (DG001, blocking-level, must be resolved before entry into preliminary safety assessment)
-- Complete mechanism of action (MOA) data (DG002)
-- Independent mechanistic hypotheses or preclinical experimental data demonstrating a reasonable link between contrast agents and osteoarthritis pathophysiology
-- Specialized signal validation analysis to determine whether the TxGNN high score is a knowledge graph confusion resulting from co-occurrence of contrast agent/imaging literature
-
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to assess any biological link
+- Preclinical or mechanistic evidence for a therapeutic effect, since none currently exists
+- A review of why the knowledge graph links iopromide to these diseases, to confirm whether the association is only imaging co-occurrence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

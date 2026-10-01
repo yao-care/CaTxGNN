@@ -2,7 +2,7 @@
 layout: default
 title: Iron
 parent: Model Prediction Only (L5)
-nav_order: 420
+nav_order: 492
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,65 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Iron (DB01592): A Low-Confidence Signal for Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+# Iron: From Iron Replacement to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
 
 ## One-Sentence Summary
 
-Iron (DrugBank DB01592) has no documented original indication in this evidence pack, and it is not currently marketed in Canada (0 DINs on file).
-The TxGNN model predicts a possible link to **Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia**,
-but **zero clinical trials** and **zero publications** currently support this specific disease pairing.
+Iron is marketed in Canada under 12 licences, including several intravenous iron products. The TxGNN model predicts it may be effective for **vitamin B12- and folate-independent constitutional megaloblastic anemia**, but there are **0 clinical trials** and **0 publications** supporting this specific prediction. It is a model prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file — no approved indication text is recorded for this DrugBank entry |
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 12 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug entry, so the pharmacological rationale below relies on the disease definition itself rather than a confirmed MOA.
+Currently, detailed mechanism of action data is not available. Iron is needed for hemoglobin synthesis and for enzymes involved in DNA synthesis, which explains why a model would link it to anemia-related diseases.
 
-This predicted indication is, by clinical definition, a megaloblastic anemia that is *independent* of vitamin B12 and folate status — it is typically caused by mitochondrial metabolic defects or inherited nucleotide-synthesis gene mutations (e.g., TRMA-type syndromes), not by iron deficiency or microcytic anemia pathophysiology. There is no established biochemical pathway through which iron supplementation would correct this disorder.
+That link is weak here. This condition is defined by a megaloblastic defect that is independent of vitamin B12 and folate, and the supplied data show no pathway by which iron would correct it. The high score most likely reflects generic proximity to other anemia conditions in the knowledge graph, not a real therapeutic connection.
 
-The evidence pack's own repurposing rationale flags this directly: the high TxGNN score likely reflects co-occurrence of "anemia"-related nodes in the knowledge graph rather than a genuine mechanistic relationship. Absent any supporting clinical or preclinical data, this candidate should be treated as a graph-artifact hypothesis rather than a biologically grounded repurposing signal.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
-Iron (DB01592) has no licenses on file in this evidence pack — market status is "Not Marketed" with 0 total DINs recorded, so no product-level authorization table can be generated at this time.
+The pack lists 12 licences in total; the 5 main ones are shown below. Dosage form and approved indication text were not provided.
+
+| DIN | Product Name |
+|---------|------|
+| 2502917 | PMS-IRON SUCROSE |
+| 2243716 | VENOFER |
+| 2546078 | FERINJECT |
+| 2471574 | VELPHORO |
+| 2477777 | MONOFERRIC |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- No clinical trials or literature currently link iron to this specific megaloblastic anemia subtype, and the evidence pack's own rationale suggests the TxGNN score likely reflects spurious node co-occurrence rather than a real mechanistic relationship.
-- A blocking data gap (missing Health Canada/label warnings and contraindications) means this candidate cannot even clear the initial safety screening stage.
+The prediction rests on a model score alone. There are no trials or publications for this disease, and no plausible mechanism links iron to correcting a B12/folate-independent megaloblastic defect.
+
+Among the other predictions in the pack, **Plummer-Vinson syndrome** (score 99.89%) is far better supported. It has 19 publications, mostly reviews and case reports, describing iron repletion as first-line treatment. It is rated L4 with a "Proceed with Guardrails" recommendation, and it merits its own evaluation. The remaining predictions (non-syndromic esophageal malformation, biotin metabolic disease, vitamin deficiency disorder, esophageal disease) are also weak or indirect.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph — warnings, precautions, and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action data from DrugBank (currently a High-severity data gap)
-- Any preclinical or case-level evidence directly connecting iron therapy to this megaloblastic anemia subtype
-- A documented original indication for this drug entry, to establish a baseline for comparison
-
-**Note for reviewers:** within this same evidence pack, two other candidates for Iron show materially stronger support and may warrant priority review instead — *Plummer-Vinson syndrome* (L3, 19 literature citations, "Proceed with Guardrails") and *Vitamin Deficiency Disorder* (L2, extensive clinical-trial and literature support, "Proceed with Guardrails").
+- Mechanism of action data (MOA) from DrugBank
+- Health Canada package insert warnings and contraindications
+- Original approved indication text for the Canadian licences
+- Any biological or clinical evidence linking iron to this specific anemia subtype; without it, this indication should not advance
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Dorzolamide
 parent: High Evidence (L1-L2)
-nav_order: 254
+nav_order: 299
 evidence_level: L2
 indication_count: 10
 ---
@@ -33,55 +33,63 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dorzolamide is a topical carbonic anhydrase inhibitor (CAI) with established global efficacy in lowering intraocular pressure (IOP) for open-angle glaucoma and ocular hypertension, though it currently has no registered products in Canada.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-with **1 completed Phase 2 clinical trial** currently supporting this direction.
+Dorzolamide is a topical carbonic anhydrase inhibitor eye drop. The record lists no original indication, so open-angle glaucoma and ocular hypertension are inferred from the Canadian trial and literature evidence.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, with a very high score.
+Only **1 clinical trial** (Phase 2, 37 participants, tested in combination with latanoprost) and **0 publications** support this specific prediction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Open-angle glaucoma / Ocular hypertension (established global approval; no Canadian DINs on file) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+|------|------|
+| Original Indication | Not stated in the record (inferred: open-angle glaucoma / ocular hypertension) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L2 |
-| Canada Market Status | Not marketed (0 DINs) |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 11 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Dorzolamide is a sulfonamide-class carbonic anhydrase inhibitor that acts locally on the ciliary epithelium of the eye. By inhibiting carbonic anhydrase isoforms II and IV, it blocks bicarbonate and sodium secretion, reducing aqueous humor production by approximately 17–26%. When combined with timolol as a fixed formulation (Cosopt®), the synergistic IOP-lowering effect reaches approximately 33%. Although formal MOA data from DrugBank could not be retrieved for this report, the drug's pharmacological mechanism is extensively documented across decades of published literature and regulatory submissions.
+Detailed mechanism-of-action data is not available in the record. Dorzolamide is known to inhibit carbonic anhydrase II in the ciliary body. This reduces aqueous humor secretion and lowers intraocular pressure (IOP).
 
-Primary hereditary glaucoma (PHG; also known as primary congenital glaucoma, PCG) is a rare genetic disorder caused by developmental defects of the trabecular meshwork that impair aqueous humor outflow, leading to pathologically elevated IOP and progressive optic nerve damage. Surgical goniotomy or trabeculotomy remains first-line treatment, but adjunctive medical IOP reduction is critical for pre-surgical optimization, post-surgical management, and cases where surgery carries prohibitive risk. Because dorzolamide reduces aqueous production rather than improving outflow, it directly compensates for the outflow obstruction characteristic of PHG — a mechanistically coherent approach even when the anatomical route of drainage is compromised.
+Lowering IOP is the shared therapeutic target across glaucoma subtypes, so a benefit in hereditary (congenital or pediatric) glaucoma is biologically plausible.
 
-Dorzolamide's well-established pediatric tolerability profile, already observed in trials for juvenile and congenital glaucoma, further supports its applicability here. The IOP-lowering pathway shared between open-angle glaucoma and hereditary glaucoma makes this TxGNN prediction biologically plausible, even though the underlying genetic etiology of PHG (e.g., *CYP1B1*, *LTBP2* mutations) differs from acquired open-angle disease.
+The supporting evidence is thin. It is a single Phase 2 trial whose title is truncated. The exact patient population and the dorzolamide-specific effect cannot be confirmed, because dorzolamide was given together with latanoprost.
+
+The evidence for the broader open-angle glaucoma predictions (ranks 6 and 7) is much stronger. Those are established, marketed uses, so they confirm existing use and do not count as new repurposing evidence for this prediction.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assessed ocular hypotensive effects of latanoprost and dorzolamide in primary pediatric glaucoma (PG) refractory to surgical procedures; evaluated both IOP-lowering efficacy and safety in a pediatric population — the only completed Phase 2 trial directly targeting this glaucoma subtype using a CAI-class agent |
-
-Currently no ICTRP-registered trials are available for this indication.
+|---------|------|------|------|---------|
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assesses the IOP-lowering effect and safety of latanoprost plus dorzolamide in pediatric glaucoma refractory to surgery. Relevance grade B: the design is relevant, but the combination confounds attribution to dorzolamide. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature directly linking dorzolamide to primary hereditary glaucoma is available.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Dorzolamide has no registered Drug Identification Numbers (DINs) in Canada. There are no approved products or licensing records on file with Health Canada at this time. Patients requiring dorzolamide in Canada would need to access it through the Special Access Program (SAP) or via cross-border importation under physician oversight.
+Dosage form and approved indication text are not recorded for these licenses. Five of the 11 DINs are shown.
+
+| DIN | Product Name |
+|---------|------|
+| 2316307 | SANDOZ DORZOLAMIDE |
+| 2457210 | MED-DORZOLAMIDE |
+| 2522373 | DORZOLAMIDE |
+| 2240113 | COSOPT |
+| 2522020 | DORZOLAMIDE-TIMOLOL |
 
 ---
 
@@ -89,24 +97,23 @@ Dorzolamide has no registered Drug Identification Numbers (DINs) in Canada. Ther
 
 Please refer to the package insert for safety information.
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not retrievable from local regulatory sources for this report (Data Gaps DG001 and DG002). Remediation requires downloading the TFDA/Health Canada product monograph PDF and querying the DrugBank API for complete MOA and safety profiles.
-
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a near-maximum prediction score (99.99%), and dorzolamide's carbonic anhydrase inhibition mechanism directly addresses the core pathophysiology of elevated IOP in primary hereditary glaucoma. The one completed Phase 2 trial (NCT01527682) provides direct clinical evidence for the CAI drug class in pediatric glaucoma refractory to surgery. However, the overall evidence base for PHG specifically remains thin, and no Canadian regulatory authorization exists for any indication.
+The prediction score is very high and the mechanism is plausible. The only direct evidence is one small Phase 2 pediatric trial of a latanoprost plus dorzolamide combination, with no publications. That is not enough to isolate dorzolamide's effect in hereditary glaucoma.
 
 **To proceed, the following is needed:**
-- Resolve Data Gap DG001: Retrieve the product monograph / package insert (PDF) from TFDA or Health Canada to complete safety profiling (key warnings, contraindications)
-- Resolve Data Gap DG002: Query DrugBank API for formal MOA documentation (DB00869)
-- Retrieve and review the full published results from NCT01527682 (completed 2016) for specific efficacy and safety endpoints in the PHG population
-- Conduct a pediatric-specific risk assessment, including long-term ocular surface effects and systemic absorption in neonates and infants
-- Consult a pediatric ophthalmologist to assess whether filing a New Drug Submission (NDS) or using the Special Access Program (SAP) with Health Canada is the appropriate regulatory pathway
-- Consider whether a prospective registry study or dedicated Phase 3 trial in PHG patients is feasible given the orphan disease classification of this condition
+- Trial results and the exact enrolled population for NCT01527682, to confirm hereditary, congenital or pediatric glaucoma and the dorzolamide-specific effect
+- Health Canada package insert warnings and contraindications, including pediatric use
+- Mechanism-of-action data from DrugBank
+- The original approved indication text, which is empty in all Canadian license records
+- Publications on dorzolamide in pediatric or hereditary glaucoma
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

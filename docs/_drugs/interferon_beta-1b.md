@@ -2,7 +2,7 @@
 layout: default
 title: Interferon Beta-1B
 parent: Moderate Evidence (L3-L4)
-nav_order: 412
+nav_order: 483
 evidence_level: L3
 indication_count: 2
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-# Interferon Beta-1b: From Undocumented Original Indication to Hairy Cell Leukemia
+# Interferon Beta-1b: From Multiple Sclerosis to Hairy Cell Leukemia
 
 ## One-Sentence Summary
 
-Interferon beta-1b's original approved indication and mechanism of action are not documented in this evidence pack (both flagged as data gaps), and the drug currently has no market presence in Canada.
-The TxGNN model predicts it may be effective for **Hairy Cell Leukemia**,
-with **0 clinical trials** and **4 publications** — all retrospective case series or cohort studies from 1987–1990 — currently supporting this direction.
+Interferon beta-1b (marketed in Canada as Betaseron) is an immunomodulatory drug. The clinical evidence in this pack shows it is established in multiple sclerosis, but the licence record does not state the approved indication.
+The TxGNN model predicts it may be effective for **hairy cell leukemia**, but this is supported by **0 registered clinical trials** and only **4 small, old publications (1987-1990)**.
 
 ---
 
@@ -43,23 +42,27 @@ with **0 clinical trials** and **4 publications** — all retrospective case ser
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented — no Canada market license on file, and original MOA/indication are flagged as data gaps (DG001, DG002) |
-| Predicted New Indication | Hairy Cell Leukemia |
+| Original Indication | Not recorded in the licence data. Multiple sclerosis is inferred from the trial and literature evidence, not from the label |
+| Predicted New Indication | Hairy cell leukemia |
 | TxGNN Prediction Score | 99.16% |
 | Evidence Level | L3 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DG002). Based on the information present in this evidence pack, interferon beta-1b is a type I interferon with antiproliferative, antiviral, and immunomodulatory activity.
+Detailed mechanism of action data is not available in the source record. Interferon beta-1b is a type I interferon. Type I interferons act through the same receptor (IFNAR1/IFNAR2) as interferon alpha, which has proven antiproliferative and immunomodulatory activity in hairy cell leukemia. This class-level link is the main reason the prediction is plausible.
 
-Interferon alpha, a closely related type I interferon, is a historically established treatment option for hairy cell leukemia (HCL) — several of the retrospective studies below directly compare beta-interferon outcomes to the alpha-interferon experience in the same disease. Because interferon beta shares the same receptor family and downstream antiproliferative signaling as interferon alpha, it is mechanistically plausible that it would show similar activity in HCL.
+The 1987-1990 clinical reports support this link. Patients with hairy cell leukemia showed haematological improvement on a beta-serine form of interferon (see Literature Evidence).
 
-That said, the evidence pack does not contain data specific enough to distinguish beta-interferon's efficacy from alpha-interferon's in HCL, nor does it confirm interferon beta-1b's originally approved indication — so the mechanistic rationale here rests on interferon-class analogy rather than confirmed drug-specific pharmacology.
+Two points limit the practical relevance:
+- The evidence is old and consists of small series.
+- Purine analogs (cladribine, pentostatin) have since become standard of care in hairy cell leukemia. Interferon beta has no clear place against them.
+
+The TxGNN score is a model prediction, not clinical evidence.
 
 ---
 
@@ -73,24 +76,24 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Cohort (prospective comparison) | Cancer | 10 HCL patients treated with recombinant beta-ser-interferon (90×10⁶ U SC TIW); 63% showed normalization of peripheral blood counts and an additional 25% showed partial hematologic improvement, compared prospectively with alpha-interferon results |
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Cohort (institutional experience) | Leukemia | UCLA experience across 51 HCL patients on interferon trials; hematologic improvement seen in 96% on alpha-2b-interferon, 69% on lymphoblastoid alpha-N1, and 71% (5/7, early data) on recombinant beta-ser-interferon |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Case Series/Clinical Study | American Journal of Hematology | 12 HCL patients (10 previously treated) given IV beta-ser-interferon 90×10⁶ U TIW; bone marrow involvement 90–100% hairy cells at baseline, with response data reported after dose adjustments |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Case Series | American Journal of Clinical Oncology | Describes salvage therapy (2'-deoxycoformycin) after failure of interferon alpha or beta in HCL patients, including one patient who had failed beta-ser-interferon and achieved complete response with DCF |
+| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospective comparative study (non-randomized, small) | Cancer | 10 patients received recombinant beta-serine interferon (90 million units subcutaneously, three times weekly), compared prospectively with alpha interferon. Of 8 evaluable patients, 5 (63%) normalized peripheral blood counts and 2 (25%) improved in at least one variable. Hairy cells persisted in the bone marrow of all patients. |
+| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Case series | Am J Hematol | 12 patients (10 previously treated) received beta-serine interferon, 90 million units intravenously three times weekly. The authors report successful treatment. |
+| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Cohort (single-centre experience) | Leukemia | 51 patients on interferon trials at UCLA. Haematological improvement occurred in 5 (71%) of those starting beta-serine interferon. This compares with 96% on alpha-2b and 69% on alpha-N1. Follow-up was short. |
+| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Case series (indirect) | Am J Clin Oncol | Three patients who failed interferon alpha (2) or beta-serine (1) all achieved a complete response on deoxycoformycin. This shows a different drug working after interferon failure, not benefit from interferon beta. |
 
 ---
 
 ## Canada Market Information
 
-Interferon beta-1b currently has no active market authorization in Canada (0 DINs on file), so no product-level licensing table is available.
+| DIN | Product Name |
+|---------|------|
+| 2169649 | BETASERON |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*Note: this evidence pack flags the absence of TFDA/label warnings and contraindications data as a **Blocking** gap (DG001) — this currently prevents the candidate from entering formal safety (S1) evaluation.*
 
 ---
 
@@ -99,14 +102,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Supporting evidence for the hairy cell leukemia indication is limited to four small, retrospective case series/cohort studies from 1987–1990 (L3), with no registered clinical trials. In addition, the evidence pack's own scoring flags a **Blocking** data gap (DG001: missing TFDA label warnings/contraindications), which prevents the candidate from entering the S1 safety review stage regardless of efficacy evidence.
+The only support for hairy cell leukemia is a handful of small, non-randomized reports from 1987-1990, with no registered trials. Purine analogs have since become the standard of care. The pack classifies this as a research question rather than an actionable repurposing candidate.
+
+The second predicted indication, autoimmune disease of the central nervous system, is supported by 21 trials (including a completed Phase 3 extension of BENEFIT). This is very likely an on-label multiple sclerosis use rather than true repurposing.
 
 **To proceed, the following is needed:**
-- TFDA/product label warnings and contraindications (DG001, blocking — required before any safety evaluation)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Confirmation of interferon beta-1b's originally approved indication(s), since none are on file
-- Canada regulatory/market status update, as the drug currently has no licensed product in Canada
-- Updated, disease-specific clinical evidence for hairy cell leukemia (the existing literature predates 1991 and predominantly involves interferon alpha, not beta)
+- Health Canada package insert warnings and contraindications (blocks safety screening)
+- The approved indication text and dosage form for DIN 2169649, and the original indications and mechanism of action for DB00068 in the source data
+- A comparison against current standard therapy (cladribine, pentostatin) in hairy cell leukemia, since it is unclear whether interferon beta adds value
+- Any modern prospective data for interferon beta in hairy cell leukemia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

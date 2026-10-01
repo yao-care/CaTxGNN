@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Irbesartan
-parent: Moderate Evidence (L3-L4)
-nav_order: 418
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 490
+evidence_level: L5
 indication_count: 4
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,60 +29,95 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Irbesartan: From Antihypertensive Therapy to Malignant Hypertensive Renal Disease
+# Irbesartan: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Irbesartan is an Angiotensin II Type 1 (AT1) receptor blocker (ARB); detailed data on its originally approved indication was not captured in this evidence pack, though ARBs as a class are used to treat hypertension. The TxGNN model predicts potential efficacy in **Malignant Hypertensive Renal Disease** (score 99.31%), but currently **no clinical trials** and **no published literature** directly support this specific prediction — the case rests on drug-class mechanistic plausibility alone.
+Irbesartan is an angiotensin II receptor blocker, a class used mainly for hypertension and diabetic kidney disease. The original indication text was not provided in the Health Canada license records, so it is inferred from the drug class.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in current dataset (drug class: ARB, typically indicated for hypertension) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+| Original Indication | Not stated in the license data provided (hypertension and diabetic nephropathy are typical for this drug class) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for irbesartan was not available as a standalone field in this dataset. However, the repurposing rationale accompanying the prediction identifies irbesartan as an AT1 receptor blocker that inhibits the renin-angiotensin-aldosterone system (RAAS), lowering systemic blood pressure and exerting renal-protective effects — consistent with the well-established pharmacology of the ARB class.
+Irbesartan blocks the angiotensin II type 1 receptor. Malignant hypertension with kidney injury involves strong activation of the renin-angiotensin-aldosterone system (RAAS), so blocking this pathway is mechanistically coherent. The high TxGNN score (99.31%) is consistent with this link.
 
-Malignant hypertensive renal disease is a severe form of hypertensive nephropathy in which markedly elevated blood pressure drives acute microvascular kidney injury. Because irbesartan's core pharmacology directly targets the RAAS pathway implicated in both blood pressure elevation and glomerular hemodynamic injury, there is a plausible mechanistic link to this condition — analogous to how other ARBs (e.g., losartan) have shown renal-protective efficacy in large RCTs for diabetic nephropathy and hypertension-related kidney damage.
+Two caveats limit how much weight the prediction can carry:
+- The score is a model output only. No trials or publications support it.
+- Irbesartan is already used for hypertension and diabetic nephropathy. This prediction may therefore restate existing class use rather than reveal a truly new indication.
 
-This remains an extrapolation from drug-class pharmacology rather than direct evidence: no clinical trials or literature specific to irbesartan in malignant hypertensive renal disease were identified. The prediction should be treated as a research hypothesis (TxGNN rank 11,931 of the full candidate set) requiring further validation before it can inform any clinical decision.
+The next-ranked prediction, malignant renovascular hypertension, has an identical score (99.31%). This suggests the two share a disease-node neighborhood in the knowledge graph rather than representing independent evidence.
+
+The model also predicts two pulmonary hypertension indications (score 99.25%). The mechanistic link there is speculative, and the literature retrieved for it consisted of keyword matches on "hypoxia" with no irbesartan-specific studies. Both are rated Hold.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-Irbesartan currently holds no Health Canada drug identification numbers (DINs) in this dataset — market status is Not Marketed, so no product authorizations can be listed.
+Five of the 20 authorizations are listed below. The dosage form, manufacturer and approved indication text were not provided for these records.
+
+| DIN | Product Name |
+|---------|------|
+| 2365197 | IRBESARTAN |
+| 2237925 | AVAPRO |
+| 2328488 | SANDOZ IRBESARTAN |
+| 2372398 | IRBESARTAN |
+| 2524821 | M-IRBESARTAN |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+No structured warning, contraindication or interaction data was available. Please refer to the package insert for full safety information.
+
+The prediction rationale flags the following class-level guardrails:
+- ARBs are contraindicated or require caution in **bilateral renal artery stenosis**, or stenosis of a solitary kidney, where they can precipitate acute renal failure. This is a specific concern for the renovascular hypertension prediction.
+- Caution is also needed in **acute kidney injury** and **volume depletion**.
+- Any use in this setting would require close monitoring of **renal function and serum potassium**.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L4 (mechanism-based only) with zero clinical trials and zero literature directly supporting use in malignant hypertensive renal disease; the prediction currently rests solely on drug-class (ARB) mechanistic extrapolation despite a high TxGNN score.
+The mechanistic link is plausible, but the evidence is at L5 (model prediction only) with no trials or literature. The prediction may also overlap with irbesartan's existing use in hypertension.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label data (warnings, contraindications) — currently a blocking data gap
-- Confirmed original approved indication and formal mechanism-of-action documentation
-- Direct preclinical or clinical evidence of irbesartan (or class effect) specifically in malignant hypertensive renal disease
-- Drug-drug interaction and safety monitoring data before any S1→S2 advancement
+- The Health Canada product monograph, to confirm approved indications, warnings and contraindications. This is currently a blocking gap for safety screening.
+- Mechanism of action data from DrugBank, to strengthen the mechanistic analysis.
+- A targeted literature search for irbesartan or ARBs in malignant hypertension with renal involvement, and a check of whether current labeling already covers it.
+- A clear definition of how this indication differs from existing hypertension and nephropathy use.
+- A renal function and potassium monitoring plan, with screening for renal artery stenosis.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

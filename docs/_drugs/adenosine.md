@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Adenosine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 27
-evidence_level: L3
+evidence_level: L5
 indication_count: 2
 ---
 
 # Adenosine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,63 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-# Adenosine: From Supraventricular Tachycardia to Catecholaminergic Polymorphic Ventricular Tachycardia
+# Adenosine: From Supraventricular Tachycardia to Obsolete Bundle Branch Block
 
 ## One-Sentence Summary
 
-Adenosine is an endogenous purine nucleoside used clinically to terminate paroxysmal supraventricular tachycardia (SVT) and as a pharmacological stress agent in cardiac imaging. The TxGNN model's highest-ranked prediction — "obsolete bundle branch block" — is a deprecated ontology term and most likely a knowledge graph topological artifact; the second-ranked prediction, **Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)**, is mechanistically coherent and is supported by **1 ongoing Phase 2a clinical trial** and **13 publications** spanning case reports, basic science, and clinical reviews.
+Adenosine is an injectable antiarrhythmic used for supraventricular tachycardia and in diagnostic cardiac testing. The TxGNN model predicts it may be effective for **obsolete bundle branch block**, but the evidence is model prediction only: **0 clinical trials** and **0 publications** support this pairing. The disease term is flagged as obsolete in the ontology, so the prediction is likely a knowledge-graph artifact.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Supraventricular tachycardia (SVT); pharmacological cardiac stress testing — internationally established use; not currently marketed in Canada |
-| Predicted New Indication | Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT) |
-| TxGNN Prediction Score | 99.42% (Rank 2; Rank 1 is a deprecated disease ontology term and a likely KG artifact) |
-| Evidence Level | L3 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+|------|------|
+| Original Indication | Not stated in the license records; supraventricular tachycardia per the prediction rationale |
+| Predicted New Indication | Obsolete bundle branch block |
+| TxGNN Prediction Score | 99.94% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
-
-> **Note on Rank 1 ("obsolete bundle branch block"):** The TxGNN score is 99.94% but the "obsolete" prefix indicates this disease node has been retired from current clinical ontologies. Its presence with a high score is consistent with a graph topology artifact caused by an unremoved deprecated node — not a genuine clinical prediction. All substantive analysis in this report focuses on the Rank 2 prediction (CPVT).
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Adenosine acts on **A1 adenosine receptors** on cardiac cells to inhibit adenylyl cyclase, which reduces intracellular cyclic AMP (cAMP). Lower cAMP reduces protein kinase A (PKA) activity, which in turn decreases phosphorylation of the cardiac ryanodine receptor 2 (RyR2). In CPVT patients, RyR2 mutations cause abnormal spontaneous calcium leak from the sarcoplasmic reticulum (SR Ca²⁺ leak), particularly under adrenergic stimulation — this triggers delayed afterdepolarizations (DADs) that can degenerate into life-threatening bidirectional or polymorphic ventricular tachycardia.
+Currently, detailed mechanism of action data is not available from the source records. Based on the prediction rationale, adenosine acts on A1 receptors to slow conduction through the atrioventricular (AV) node. This is why it is used for supraventricular tachycardia and diagnostic testing.
 
-By suppressing the β-adrenergic/cAMP/PKA signalling cascade, adenosine directly counteracts the molecular trigger responsible for CPVT arrhythmias. This pathway is not merely theoretical: PMID 23747301 demonstrates that ATP (adenosine's metabolic precursor) physically interacts with the RyR2 central domain at CPVT mutation hotspots, and PMID 18313614 reports a clinical case in which intravenous ATP successfully terminated bidirectional ventricular tachycardia in a confirmed CPVT patient.
+That mechanism does not support treating bundle branch block, which is a conduction delay below the AV node. The source data give no mechanism for this pairing.
 
-The connection to adenosine's established indication in SVT is direct: both SVT and CPVT are supraventricular or ventricular arrhythmias in structurally normal hearts, and adenosine's antiarrhythmic mechanism — blunting catecholamine-driven electrical instability — is applicable across both contexts. The existence of an ongoing Phase 2a trial (NCT07263139) investigating AGP100, a compound targeting the same adenosine receptor pathway, further validates the mechanistic hypothesis even though the trial uses a derivative rather than native adenosine.
+The TxGNN score is very high (99.94%), but the disease term is marked as obsolete in the ontology. A high score on a retired term most likely reflects an artifact of the knowledge graph rather than a clinically meaningful indication. The prediction should not be read as a real repurposing signal.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---|---|---|---|---|
-| [NCT07263139](https://clinicaltrials.gov/study/NCT07263139) | Phase 2a | Recruiting | 10 | Investigates AGP100 (an adenosine receptor pathway agent) for safety, tolerability, and exploratory efficacy in CPVT. Current treatments often fail to prevent exercise/stress-induced arrhythmias; this trial targets that unmet need. Note: AGP100 is not native adenosine — it may be an A1/A2 receptor agonist or adenosine prodrug; drug identity parity requires verification. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [18313614](https://pubmed.ncbi.nlm.nih.gov/18313614/) | 2008 | Case Report | *Heart Rhythm* | **Most direct evidence.** Intravenous ATP terminated bidirectional ventricular tachycardia in a confirmed CPVT patient, providing clinical proof-of-concept that the adenosine/purinergic pathway can acutely suppress CPVT-type arrhythmias. |
-| [23747301](https://pubmed.ncbi.nlm.nih.gov/23747301/) | 2013 | Basic Science | *Biochim Biophys Acta* | ATP directly binds the RyR2 central domain at sites harbouring CPVT-causative mutations, providing a molecular-level mechanistic explanation for adenosine's relevance in CPVT. |
-| [40165484](https://pubmed.ncbi.nlm.nih.gov/40165484/) | 2025 | Consensus Statement | *Europace* | ESC/HRS/APHRS multi-society consensus on pharmacological provocation testing in cardiac electrophysiology, covering diagnosis of CPVT and related inherited arrhythmia syndromes where adenosine-type agents are referenced. |
-| [21699856](https://pubmed.ncbi.nlm.nih.gov/21699856/) | 2011 | Clinical Observational | *Heart Rhythm* | Demonstrates that electrophysiological studies in RyR2-mutation CPVT have limited diagnostic value, highlighting the need for pharmacological (including purinergic) approaches. |
-| [41691612](https://pubmed.ncbi.nlm.nih.gov/41691612/) | 2026 | In Vitro / Organoid | *J Physiology* | Using cardiac-neural microtissues, shows CPVT pathology involves sympathetic neurons in addition to cardiomyocytes — reinforcing that agents dampening adrenergic/cAMP signalling (such as adenosine) may have broader therapeutic targets. |
-| [38776406](https://pubmed.ncbi.nlm.nih.gov/38776406/) | 2024 | Preclinical | *Cardiovascular Research* | PDE2A/PDE4B gene therapy prevents heart failure and arrhythmias by improving subcellular cAMP compartmentation — indirectly validates adenosine's anti-arrhythmic mechanism via cAMP suppression in cardiomyocytes. |
-| [35577932](https://pubmed.ncbi.nlm.nih.gov/35577932/) | 2022 | Basic Science | *Communications Biology* | Characterises TECRL-deficiency CPVT, revealing mitochondrial dysfunction and calcium dysregulation — contextualises the complexity of CPVT pathophysiology beyond classic RyR2 mutations. |
-| [30209242](https://pubmed.ncbi.nlm.nih.gov/30209242/) | 2018 | Preclinical | *Science Translational Medicine* | SR Ca²⁺ leak via RyR2 contributes mechanistically to arrhythmia in pressure-overload and MI models; stabilising RyR2 (or reducing PKA-driven phosphorylation as adenosine does) reduces arrhythmia risk. |
-| [39148245](https://pubmed.ncbi.nlm.nih.gov/39148245/) | 2024 | Review / Clinical Guidance | *Paediatric Anaesthesia* | Reviews management of paediatric arrhythmias including CPVT, noting adenosine's role in differential diagnosis and acute management of narrow and wide complex tachycardias. |
-| [18368865](https://pubmed.ncbi.nlm.nih.gov/18368865/) | 2007 | Review | *J Assoc Physicians India* | Classifies and reviews idiopathic ventricular tachycardias in structurally normal hearts; adenosine responsiveness is cited as a diagnostic and therapeutic criterion for specific VT subtypes. |
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Adenosine currently has **no Drug Identification Numbers (DINs) issued in Canada**. The drug is not commercially marketed in Canada under any dosage form or brand name at this time.
-
-Adenosine is approved and widely marketed in other major jurisdictions (e.g., the United States — Adenocard® for SVT; Adenoscan® for cardiac stress imaging), suggesting that regulatory precedent exists for a Canadian filing if a new indication were pursued.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2457474 | ADENOSINE INJECTION | Not listed | Not listed |
+| 2457482 | ADENOSINE INJECTION | Not listed | Not listed |
+| 2267659 | ADENOSINE INJECTION | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Detailed Canadian labelling data (warnings, contraindications) are not available in this evidence pack.
-
-> Please refer to international package inserts and Health Canada drug product databases for complete safety information. Clinically, adenosine is known to cause transient bradycardia, AV block, flushing, and bronchospasm — factors that would require specific risk mitigation in any CPVT indication given the patient population (including paediatrics and young adults).
+Please refer to the package insert for safety information.
 
 ---
 
@@ -109,20 +94,17 @@ Detailed Canadian labelling data (warnings, contraindications) are not available
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic case for adenosine in CPVT is biologically coherent and supported by one pivotal case report (PMID 18313614) and basic science demonstrating direct ATP-RyR2 interaction; however, no completed clinical trial using native adenosine or a validated analogue exists, and the single ongoing Phase 2a trial (NCT07263139) uses AGP100 — a compound whose relationship to adenosine itself requires clarification. Evidence is currently at L3 (observational/mechanistic), which is insufficient to recommend proceeding to formulation or indication development without further data.
+The prediction is model output only (L5), with no trials or publications. It points to an obsolete disease term, and adenosine's known mechanism does not fit bundle branch block.
 
 **To proceed, the following is needed:**
+- Map the obsolete term to its current ontology replacement, and check whether the prediction still holds
+- Obtain the Health Canada package insert (warnings, contraindications, approved indications, dosage form)
+- Obtain mechanism of action data from DrugBank
 
-- **Confirm drug identity of AGP100**: Determine whether AGP100 is an adenosine prodrug, A1 receptor agonist, or a structurally distinct compound — this is critical to assess whether NCT07263139 results are transferable to native adenosine.
-- **Retrieve adenosine MOA from DrugBank** (DG002): Formal MOA data should replace the current data gap to support mechanistic dossier submission.
-- **Obtain Health Canada/TFDA labelling data** (DG001): Warnings and contraindications are needed before any safety evaluation stage (S1) can be initiated.
-- **Monitor NCT07263139 outcomes**: Projected completion June 2027; Phase 2a results will critically determine whether adenosine pathway agents show dose-response efficacy and acceptable safety in CPVT.
-- **Conduct a targeted literature review for adenosine + CPVT**: Search specifically for any completed pilot studies, compassionate use reports, or electrophysiology lab case series beyond PMID 18313614.
-- **Assess formulation feasibility**: Native adenosine has an extremely short plasma half-life (<10 seconds IV); a CPVT indication would likely require a sustained-release, oral prodrug, or subcutaneous delivery strategy — this is a significant pharmaceutical development consideration.
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+**Alternative lead (rank 2 prediction):** catecholaminergic polymorphic ventricular tachycardia (CPVT), score 99.42%, evidence level L4. It is a research question, not a recommendation.
+- The support is indirect. One case report describes ATP (an adenosine precursor) terminating bidirectional ventricular tachycardia in a CPVT patient, and one in vitro study reports ATP interacting with the CPVT-associated region of the cardiac ryanodine receptor.
+- The one registered trial (NCT07263139, Phase 2a, recruiting, n=10) tests a product named AGP100. Its link to adenosine is unconfirmed.
+- Adenosine can provoke arrhythmias in some settings, so safety would need separate assessment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

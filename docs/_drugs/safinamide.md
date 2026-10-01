@@ -2,7 +2,7 @@
 layout: default
 title: Safinamide
 parent: Model Prediction Only (L5)
-nav_order: 702
+nav_order: 825
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,58 +33,63 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Safinamide is a MAO-B inhibitor with anti-glutamatergic neuroprotective properties, originally developed as adjunct therapy for Parkinson's disease. The TxGNN model predicts it may be effective for **Rasmussen Subacute Encephalitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure computational hypothesis with no direct experimental or clinical backing.
+Safinamide is marketed in Canada as ONSTRYV and is used as add-on therapy in Parkinson's disease. The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (adjunct therapy) — not confirmed via Canadian regulatory filing; inferred from mechanism-of-action context in the evidence pack, as the drug is not currently marketed in Canada |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
-| TxGNN Prediction Score | 99.63% (rank 7,602 among candidates) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Original Indication | Parkinson's disease (add-on therapy; the Canadian licence records contain no indication text) |
+| Predicted New Indication | Rasmussen subacute encephalitis |
+| TxGNN Prediction Score | 99.63% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, structured mechanism-of-action data for safinamide is not available in this evidence pack (flagged as a High-severity data gap). Based on the pharmacological context provided, safinamide acts as a **MAO-B inhibitor** and also inhibits **glutamate release**, giving it a neuroprotective profile that has been leveraged in Parkinson's disease, where it reduces oxidative stress and excitotoxic neuronal damage.
+Detailed mechanism-of-action data are not available in the curated drug record. From known pharmacology, safinamide is a reversible MAO-B inhibitor that also blocks voltage-gated sodium channels and reduces glutamate release. In Parkinson's disease, MAO-B inhibition enhances dopaminergic signalling. The sodium channel and glutamate effects could plausibly dampen seizure activity.
 
-Rasmussen subacute encephalitis is a rare, progressive inflammatory brain disease driven in part by **anti-GluR3 antibodies**, which cause excessive activation of glutamate receptors and downstream excitotoxicity. The theoretical link to safinamide rests on the idea that inhibiting glutamate release could blunt this excitotoxic cascade and offer neuroprotection.
+Rasmussen encephalitis is a rare, progressive brain disorder characterised by intractable focal seizures. It is driven mainly by T-cell-mediated autoimmune inflammation, and none of safinamide's known mechanisms address that process. At best, safinamide might help with seizure symptoms. There is no basis to expect it to affect the underlying disease. The high score is therefore not corroborated by any clinical or mechanistic evidence.
 
-This is, however, a mechanistic inference rather than an evidence-based connection. The two diseases differ substantially in underlying pathology — Parkinson's disease is a neurodegenerative dopaminergic disorder, while Rasmussen encephalitis is an autoimmune/inflammatory encephalitis — and there is no direct experimental or clinical data confirming that safinamide's glutamate-modulating effect translates into benefit for this condition.
+Two other diseases were also predicted, and neither has any trials or publications:
+- **Myelitis** (score 99.46%): the rationale is speculative neuroprotection. Myelitis covers many inflammatory, infectious and autoimmune causes that safinamide does not treat, so a specific cause would need to be defined first.
+- **PLA2G6-associated neurodegeneration** (score 99.22%): this is the most biologically plausible of the three. It often presents with dystonia-parkinsonism, so safinamide might help parkinsonian symptoms, though there is no evidence it changes disease progression. It is flagged as a research question, and a preclinical or case-series study would be a reasonable first step.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Canada Market Information
 
-Safinamide currently holds no market authorization in Canada (0 DINs, market status: Not Marketed). No Canadian regulatory indication text is available for comparison.
+| DIN | Product Name |
+|---------|------|
+| 02484641 | ONSTRYV |
+| 02484668 | ONSTRYV |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note:** Core safety data (product label warnings and contraindications) are flagged as a **Blocking**-severity data gap in this evidence pack — this alone prevents the candidate from advancing past initial safety screening (S1), independent of the efficacy evidence gap.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature support (Evidence Level L5, decision stage S0) — the entire signal rests on a TxGNN similarity score and a plausible but unverified mechanistic rationale. Combined with the drug's absence from the Canadian market and a Blocking-severity gap in safety labeling data, there is no basis to proceed beyond hypothesis generation at this time.
+The prediction is model-only (L5). No trials or publications support it, and safinamide's known mechanisms do not target the autoimmune inflammation that drives Rasmussen encephalitis. Safety information is also incomplete.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label (warnings and contraindications) — currently a Blocking data gap
-- Confirmed mechanism-of-action data via DrugBank API — currently a High-severity data gap
-- Preclinical evidence (in vitro/in vivo) testing safinamide in an autoimmune/excitotoxic encephalitis model
-- Given the rarity of Rasmussen encephalitis, consider whether case-report or compassionate-use pathways are more appropriate than formal trial design before further investment
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Curated mechanism-of-action data from DrugBank
+- A literature and trial search with disease-specific terms for Rasmussen encephalitis
+- Preclinical or case-series evidence, with PLA2G6-associated neurodegeneration (symptomatic parkinsonism) as a possible first test case
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

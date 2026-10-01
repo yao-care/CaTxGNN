@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Procarbazine
-parent: High Evidence (L1-L2)
-nav_order: 650
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 766
+evidence_level: L3
 indication_count: 5
 ---
 
 # Procarbazine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **5** 
+Evidence Level: **L3** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 </div>
 
-# Procarbazine: From Hodgkin's Lymphoma to Follicular Lymphoma
+# Procarbazine: From Hodgkin Lymphoma to Follicular Lymphoma
 
 ## One-Sentence Summary
 
-Procarbazine is a historic oral alkylating agent whose established role has been in Hodgkin's lymphoma (as part of the MOPP/C-MOPP regimen). The TxGNN model predicts it may also be effective for **Follicular Lymphoma**, a non-Hodgkin's lymphoma subtype, with **3 clinical trials** and **20 literature references** currently identified — though none of the trials confirms a procarbazine-specific regimen in this indication.
+Procarbazine is an oral alkylating chemotherapy drug, best known for Hodgkin lymphoma regimens such as MOPP and BEACOPP. The TxGNN model predicts it may be effective for **follicular lymphoma**. Support is thin: **3 registered trials** (none clearly testing procarbazine) and **a few small clinical reports**, including a 2-patient case report of durable remissions.
 
 ---
 
@@ -41,23 +41,29 @@ Procarbazine is a historic oral alkylating agent whose established role has been
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin's lymphoma (historical use within the MOPP/C-MOPP combination; no structured indication record on file) |
-| Predicted New Indication | Follicular Lymphoma |
+| Original Indication | Not stated in the Canadian licence record. The drug is established in Hodgkin lymphoma by class knowledge. |
+| Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 99.46% |
-| Evidence Level | L2 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not formally on file for this drug (flagged as a data gap). Based on the available evidence, however, procarbazine is known to be an oral alkylating/DNA-methylating cytotoxic agent, and its role within the MOPP/C-MOPP regimen (cyclophosphamide/vincristine/procarbazine/prednisone or its mechlorethamine-based variant) for Hodgkin's lymphoma is well established.
+Detailed mechanism-of-action data is not available in the Evidence Pack. Procarbazine is a cytotoxic alkylating (methylating) agent, and its efficacy in Hodgkin lymphoma and other lymphoid malignancies is established. Mechanistically, DNA damage in rapidly dividing B-cell lymphoma cells is plausible.
 
-Hodgkin's lymphoma and follicular lymphoma are both lymphoid malignancies, and combination regimens containing procarbazine were historically used more broadly across non-Hodgkin's lymphomas (including follicular lymphoma) before falling out of favor with the advent of CHOP-based therapy. This provides a plausible mechanistic and historical bridge from the original indication to the predicted one.
+Hodgkin lymphoma and follicular lymphoma are both lymphoid cancers, which explains the high graph-based score. A 2006 report described two patients with relapsed or refractory follicular lymphoma who achieved complete and durable remission with prolonged daily procarbazine. Procarbazine-containing regimens fell out of favour for non-Hodgkin lymphoma after CHOP, and anti-CD20 immunochemotherapy is now standard. Any role for procarbazine would likely be historical or in low-intensity oral regimens for relapsed disease.
 
-That said, the clinical trials identified for follicular lymphoma do not explicitly name procarbazine in their treatment arms — the strongest direct support comes from a single review article describing durable remissions with prolonged daily procarbazine in relapsed/refractory follicular lymphoma. The overall case is therefore mechanistically reasonable but should be regarded as an indirect, class-level extrapolation rather than a confirmed regimen-specific finding.
+No trial in the dataset isolates procarbazine's contribution in follicular lymphoma.
+
+The other four TxGNN predictions are weak:
+- **Neuroblastoma:** only indirect literature, with no registered trials.
+- **Ganglioneuroblastoma:** no evidence.
+- **Retroperitoneal neoplasm:** only lymphoma-context papers, which overlap with the lymphoma indication.
+- **Vertebral anomalies with endocrine and T-cell dysfunction:** a rare congenital syndrome with no plausible mechanistic link, probably a knowledge-graph artifact.
 
 ---
 
@@ -65,9 +71,9 @@ That said, the clinical trials identified for follicular lymphoma do not explici
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00003113](https://clinicaltrials.gov/study/NCT00003113) | Phase 2 | Terminated | 6 | Oral combination chemotherapy plus G-CSF in elderly patients with intermediate/high-grade non-Hodgkin's lymphoma; oral multi-drug regimens of this era often included procarbazine, but the trial was terminated with only 6 patients enrolled |
-| [NCT01130194](https://clinicaltrials.gov/study/NCT01130194) | Phase 2 | Completed | 29 | Pilot study of sequential chemotherapy, radioimmunotherapy, and autologous stem cell transplant for follicular lymphoma; procarbazine not specified in the regimen |
-| [NCT00577993](https://clinicaltrials.gov/study/NCT00577993) | Phase 3 | Completed | 210 | FND (fludarabine/mitoxantrone/dexamethasone) ± rituximab for stage IV indolent lymphoma; same indication but a different drug regimen, offered here as comparative background evidence |
+| [NCT00003113](https://clinicaltrials.gov/study/NCT00003113) | Phase 2 | Terminated | 6 | Oral combination chemotherapy with G-CSF in elderly patients with intermediate- or high-grade non-Hodgkin lymphoma. Whether the regimen includes procarbazine needs verification. Single-arm and stopped early, so weak evidence. |
+| [NCT01130194](https://clinicaltrials.gov/study/NCT01130194) | Phase 2 | Completed | 29 | Pilot of sequential chemotherapy, radioimmunotherapy and autologous stem cell transplant in follicular lymphoma. Procarbazine involvement is not evident, so support is indirect. |
+| [NCT00577993](https://clinicaltrials.gov/study/NCT00577993) | Phase 3 | Completed | 210 | Fludarabine, mitoxantrone and dexamethasone plus rituximab in stage IV indolent lymphoma. No apparent procarbazine component. It should not count as Phase 3 evidence for this drug. |
 
 ---
 
@@ -75,55 +81,69 @@ That said, the clinical trials identified for follicular lymphoma do not explici
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16690522](https://pubmed.ncbi.nlm.nih.gov/16690522/) | 2006 | Review | Leukemia & Lymphoma | Directly relevant: describes two relapsed/refractory follicular lymphoma patients achieving complete, durable remission with prolonged daily oral procarbazine |
-| [16111588](https://pubmed.ncbi.nlm.nih.gov/16111588/) | 2005 | RCT | Int J Radiat Oncol Biol Phys | Prospective randomized comparison of central lymphatic irradiation vs. alternating triple chemotherapy in stage I-III follicular lymphoma |
-| [16230674](https://pubmed.ncbi.nlm.nih.gov/16230674/) | 2005 | Review | J Clin Oncol | Reviews how new treatment options have changed the natural history and survival of follicular lymphoma |
-| [12017536](https://pubmed.ncbi.nlm.nih.gov/12017536/) | 2002 | Review | Oncology (Williston Park) | Reviews the role of mitoxantrone-containing combination regimens in non-Hodgkin's lymphoma |
-| [1534616](https://pubmed.ncbi.nlm.nih.gov/1534616/) | 1992 | Review | Presse Médicale | Therapeutic indications and treatment approach overview for follicular lymphomas |
-| [11672513](https://pubmed.ncbi.nlm.nih.gov/11672513/) | 2001 | Clinical study | J Hematother Stem Cell Res | Compares chemotherapy plus interferon-alpha2b vs. chemotherapy alone in follicular lymphoma |
-| [9156664](https://pubmed.ncbi.nlm.nih.gov/9156664/) | 1997 | Clinical study | Leukemia & Lymphoma | Evaluates salvage treatment outcomes after failure or relapse of initial chemotherapy in follicular NHL |
-| [9248325](https://pubmed.ncbi.nlm.nih.gov/9248325/) | 1997 | Cohort | Rinsho Ketsueki | Prognostic factors and outcomes in 72 follicular lymphoma patients treated with combination chemotherapy |
-| [19654036](https://pubmed.ncbi.nlm.nih.gov/19654036/) | 2009 | Clinical study | Experimental Hematology | Retrospective analysis of fludarabine-induced myelotoxicity in 100 follicular lymphoma patients |
-| [12424193](https://pubmed.ncbi.nlm.nih.gov/12424193/) | 2003 | Clinical study | Blood | Examines how a diffuse growth component predicts inferior survival in grade 3 follicular lymphoma |
+| [16690522](https://pubmed.ncbi.nlm.nih.gov/16690522/) | 2006 | Clinical report / review | Leuk Lymphoma | Two patients with relapsed or refractory follicular lymphoma achieved complete, durable remission with prolonged daily procarbazine. This is the most direct evidence. |
+| [16111588](https://pubmed.ncbi.nlm.nih.gov/16111588/) | 2005 | RCT | Int J Radiat Oncol Biol Phys | Compared molecular response rates of central lymphatic irradiation versus alternating triple chemotherapy in stage I–III follicular lymphoma. Procarbazine involvement is not confirmed in the abstract. |
+| [22507790](https://pubmed.ncbi.nlm.nih.gov/22507790/) | 2012 | Review | Hematology | Metronomic low-dose oral combination chemotherapy (PEP-C) for refractory or relapsed lymphoma. |
+| [9156664](https://pubmed.ncbi.nlm.nih.gov/9156664/) | 1997 | Cohort | Leuk Lymphoma | Salvage treatment after failure or relapse of initial chemotherapy in follicular non-Hodgkin lymphoma. |
+| [11672513](https://pubmed.ncbi.nlm.nih.gov/11672513/) | 2001 | Comparative study | J Hematother Stem Cell Res | Chemotherapy plus interferon-alpha2b versus chemotherapy alone in follicular lymphoma. |
+| [9336721](https://pubmed.ncbi.nlm.nih.gov/9336721/) | 1997 | Review | Hematol Oncol Clin North Am | Treatment of localized low-grade lymphoma. Radiotherapy may cure 40–50% of stage I–II follicular cases, and randomized trials do not support adjuvant chemotherapy. |
+| [16230674](https://pubmed.ncbi.nlm.nih.gov/16230674/) | 2005 | Cohort | J Clin Oncol | Survival of follicular lymphoma patients improved with newer treatment options. |
+| [9248325](https://pubmed.ncbi.nlm.nih.gov/9248325/) | 1997 | Cohort | Rinsho Ketsueki | In 72 follicular lymphoma patients treated with combination chemotherapy, the complete remission rate was 83.3% and 5-year overall survival was 63.7%. |
+| [6366124](https://pubmed.ncbi.nlm.nih.gov/6366124/) | 1983 | Review | J Clin Oncol | Histologic conversion in non-Hodgkin lymphomas across prospective Stanford trials. |
+| [12424193](https://pubmed.ncbi.nlm.nih.gov/12424193/) | 2003 | Cohort | Blood | A significant diffuse component predicts inferior survival in grade 3 follicular lymphoma. |
+
+Most of these papers describe follicular lymphoma treatment in general and do not isolate procarbazine.
 
 ---
 
 ## Canada Market Information
 
-This drug is not currently marketed in Canada — no Health Canada license (DIN) records are on file.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 12750 (licence number as recorded) | MATULANE | Not specified | Not specified |
 
 ---
 
 ## Cytotoxicity
 
+Classification below is based on drug class. Please confirm against the package insert.
+
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (oral alkylating/MAO-inhibiting agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Cytotoxicity Classification | Conventional cytotoxic (alkylating/methylating agent) |
+| Myelosuppression Risk | Medium to high (leukopenia and thrombocytopenia are typical of this class) |
+| Emetogenicity Classification | Medium |
+| Monitoring Items | CBC with differential and platelets, liver and renal function |
+| Handling Protection | Follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+No warnings, contraindications or drug interaction records were found in the Evidence Pack. Please refer to the package insert for safety information.
+
+The retrieved literature raises these signals:
+- **Carcinogenicity:** a 1979 NCI bioassay of procarbazine for possible carcinogenicity in rats and mice (PMID 12844148). A National Toxicology Program database review lists procarbazine among chemicals producing nasal tumours in rats (PMID 9385384).
+- **Fertility:** the MOPP regimen, which contains procarbazine, was associated with azoospermia risk in male childhood cancer survivors (PMID 1327021).
+- **Secondary neoplasms:** reported in children with Hodgkin lymphoma treated with MOPP-type chemotherapy and radiotherapy (PMID 26377258).
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale (alkylating-agent activity, historical use in NHL regimens) and one directly supportive review are enough to justify a research-stage look, but no clinical trial explicitly tests procarbazine in follicular lymphoma, and this drug is not currently marketed in Canada.
+The prediction score is high, but direct evidence is limited to a 2-patient report from 2006. The three registered trials do not clearly test procarbazine, and the Phase 3 trial is a retrieval match that cannot count as L1 evidence. Anti-CD20 immunochemotherapy is the current standard, and the Health Canada safety data needed for screening is missing.
 
 **To proceed, the following is needed:**
-- Official product labeling / regulatory warnings and contraindications (currently a blocking data gap — required before any safety pre-assessment)
-- Confirmed mechanism of action documentation
-- A prospective or retrospective study specifically evaluating procarbazine (rather than historical MOPP-era combination regimens) in follicular lymphoma
-- Assessment of regulatory pathway, given the drug is not presently marketed in Canada
+- Health Canada package insert (warnings, contraindications, approved indication and dosage form), which blocks safety screening
+- Mechanism of action data from DrugBank
+- Verification of the regimen composition in NCT00003113 and of procarbazine's role in the PMID 16111588 and 22507790 regimens
+- A focused review of procarbazine-containing regimens in relapsed or refractory follicular lymphoma, compared against current standard therapy
+- A decision on whether the Canadian licence record can be cross-checked, since the recorded licence number and empty indication field need confirmation
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

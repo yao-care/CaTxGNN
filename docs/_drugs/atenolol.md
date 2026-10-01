@@ -2,15 +2,15 @@
 layout: default
 title: Atenolol
 parent: Moderate Evidence (L3-L4)
-nav_order: 71
-evidence_level: L4
+nav_order: 78
+evidence_level: L3
 indication_count: 9
 ---
 
 # Atenolol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,73 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-# Atenolol: From Hypertension to Posteroinferior Myocardial Infarction
-
----
+# Atenolol: From Its Approved Cardiovascular Use to Posteroinferior Myocardial Infarction
 
 ## One-Sentence Summary
 
-Atenolol is a well-established cardioselective β1-adrenergic receptor blocker, globally recognized for treating hypertension and angina pectoris, though no Health Canada DIN record was found in the current dataset.
-The TxGNN model predicts it may be effective for **Posteroinferior Myocardial Infarction**, with **0 clinical trials** and **1 publication** currently supporting this specific direction.
-The mechanistic rationale is scientifically plausible, but direct subtype-specific clinical evidence is very sparse, placing this prediction at an early exploratory stage.
-
----
+Atenolol is a beta-1 selective blocker marketed in Canada under 20 DINs. The TxGNN model predicts it may be effective for **posteroinferior myocardial infarction**, but the current evidence is thin: **0 clinical trials** and **1 publication**, a small 1985 crossover study.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not on record in Canada dataset; atenolol is globally indicated for hypertension and angina pectoris |
-| Predicted New Indication | Posteroinferior Myocardial Infarction |
+|------|------|
+| Predicted New Indication | Posteroinferior myocardial infarction |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Canada Market Status | Not marketed (0 DINs on record) |
-| Number of DINs | 0 |
+| Evidence Level | L3 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, atenolol is a selective β1-adrenergic receptor blocker. By occupying cardiac β1 receptors, it reduces heart rate, myocardial contractility, and oxygen consumption — the core mechanisms that limit ischemic myocardial injury and suppress post-infarction sympathetic overstimulation.
+Detailed mechanism of action data is not available in the Evidence Pack. Atenolol is a beta-1 selective blocker. It lowers heart rate, contractility and myocardial oxygen demand, so an anti-ischemic effect after myocardial infarction is biologically plausible. This is consistent with the very high TxGNN score.
 
-Posteroinferior myocardial infarction typically results from occlusion of the right coronary artery or the circumflex branch, leading to ischemia of the inferior and posterior left ventricular wall. In this context, β1 blockade theoretically reduces heart rate and myocardial oxygen demand, limits infarct extension, and lowers the risk of ventricular arrhythmias and remodelling — all well-established benefits of beta-blockers in the broader post-MI population. The high TxGNN score likely reflects the strong graph topology connection between atenolol and myocardial infarction nodes in the knowledge graph.
+The approved indications for the Canadian products were not provided, so the relationship between the original and predicted indications cannot be assessed. This prediction may reflect a class-level, already-known use of beta-blockers in ischemic heart disease rather than true repurposing. That should be checked against the Canadian label before calling it novel.
 
-However, posteroinferior MI carries a specific risk: right coronary artery occlusion frequently damages the sinoatrial and atrioventricular nodes, resulting in sinus bradycardia and AV conduction block. This makes the use of any beta-blocker in this MI subtype more complex than in anterior MI. While the general mechanistic support is strong, direct clinical evidence confirming that atenolol is effective and safe specifically in the posteroinferior subtype is essentially absent — the only identified publication dates to 1985 and was not powered to confirm this indication.
-
----
+The other top predictions follow the same pattern. Posterolateral myocardial infarction has an identical score and no supporting studies. Malignant renovascular hypertension and malignant hypertensive renal disease rest on plausible renin suppression and blood pressure lowering. Pulmonary hypertension has no clear mechanistic support, and beta-blockers are generally used cautiously there.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for posteroinferior myocardial infarction.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | Single-blind Randomized Cross-over | La Revue de médecine interne | Compared anti-ischemic activity of atenolol (200 mg) vs. diltiazem (240 mg) in 23 post-MI patients undergoing rehabilitation 4 weeks after limited posteroinferior or anterior MI with residual ischemia; computerized bicycle ergometer analysis (Case-Marquette system) |
+|------|-----|------|------|---------|
+| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | RCT (small, crossover, single-blind) | La Revue de médecine interne | Compared the anti-ischemic activity of atenolol (200 mg) and diltiazem (240 mg) in 23 patients 4 weeks after a limited posteroinferior or anterior MI. All had residual ischemia on exercise testing, and results were analyzed with a computerized exercise test. |
 
----
+This study is only indirect support. It pooled posteroinferior and anterior infarcts, it measured exercise-test ischemia rather than clinical outcomes, and it is small and single-blind.
 
 ## Canada Market Information
 
-No Health Canada Drug Identification Numbers (DINs) are recorded for atenolol in the current dataset.
+Of the 20 authorizations, the first five are listed. Dosage form and approved indication text were not provided for these products.
 
-> **Note:** This likely reflects a data gap rather than true non-availability. Atenolol is a long-established generic drug that has historically been available in Canada. A direct review of the Health Canada Drug Product Database (HCDPD) is strongly recommended to reconcile this discrepancy before any regulatory or formulary assessment proceeds.
-
----
+| DIN | Product Name |
+|---------|------|
+| 2266660 | TEVA-ATENOLOL |
+| 2171805 | TEVA-ATENOLOL |
+| 2466465 | ATENOLOL |
+| 2541564 | ATENOLOL |
+| 2277379 | RIVA-ATENOLOL |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** Key warnings, contraindications, and drug interaction data were not retrieved in this Evidence Pack. As a beta-blocker, atenolol carries well-known class-level risks including bradycardia, AV block, bronchospasm (particularly relevant in patients with COPD or asthma), and rebound hypertension on abrupt withdrawal. These are especially pertinent given the posteroinferior MI context, where AV conduction disturbances are common. Formal safety data retrieval from the Health Canada product monograph or equivalent source is required before clinical evaluation.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found in the Evidence Pack.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-While a plausible mechanistic basis exists for beta-blocker use in myocardial infarction broadly, direct clinical evidence for atenolol specifically in the posteroinferior MI subtype is limited to a single small cross-over study from 1985. The evidence level (L4) and the absence of any registered clinical trial for this specific indication preclude advancement without further investigation, particularly given the heightened AV block risk unique to this MI territory.
+The prediction score is high and the mechanism is plausible. However, there are no registered trials, and the only publication is a small 1985 crossover study of mixed infarct locations with indirect endpoints. Because the original indications are unknown, it is unclear whether this is genuine repurposing or an already-labelled use.
 
 **To proceed, the following is needed:**
-- Retrieve and confirm Canada DIN records via the Health Canada Drug Product Database
-- Obtain full MOA data from DrugBank (DrugBank ID: DB00335)
-- Extract safety data (key warnings, contraindications, drug interactions) from Health Canada product monograph or package insert
-- Conduct a broader literature search for beta-blocker evidence stratified by MI territory (inferior/posterior subtype) to assess indirect class-level support
-- Evaluate the AV conduction risk profile in posteroinferior MI before any prospective trial design is considered
-- Consider whether a broader cardiac indication (e.g., post-MI left ventricular dysfunction, general secondary prevention) would represent a more evidence-supported entry point for atenolol repurposing in Canada
+- Health Canada package insert (approved indications, warnings, contraindications), to confirm whether post-MI use is already labelled
+- Mechanism of action data from DrugBank
+- Contemporary evidence on beta-blockers after MI, such as the ongoing REDUCE-SWEDEHEART trial (NCT03278509), which is class-level and not atenolol-specific
+- Evidence specific to posteroinferior MI, rather than MI in general
 
----
-
-*This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

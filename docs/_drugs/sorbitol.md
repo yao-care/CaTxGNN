@@ -2,7 +2,7 @@
 layout: default
 title: Sorbitol
 parent: Model Prediction Only (L5)
-nav_order: 732
+nav_order: 857
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,65 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Sorbitol: From Osmotic Laxative Use to Exercise-Induced Malignant Hyperthermia
+# Sorbitol: From Osmotic and Irrigation Uses to Exercise-Induced Malignant Hyperthermia
 
 ## One-Sentence Summary
 
-Sorbitol is an osmotic sugar alcohol used clinically as a laxative, a dialysis fluid osmotic agent, and a pharmaceutical excipient — it has no formally listed therapeutic indication in this evidence pack and is not currently marketed in Canada.
-The TxGNN model predicts a possible association with **Exercise-Induced Malignant Hyperthermia** (score 99.40%), but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic rationale is assessed as weak.
-
----
+Sorbitol is a sugar alcohol used as an osmotic agent, sweetener and pharmaceutical excipient. In Canada it appears in irrigation-solution products. The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but there are currently **0 clinical trials** and **0 publications** supporting this, so the prediction rests on the model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally listed; per available data, Sorbitol is used clinically as an osmotic laxative, dialysis fluid additive, and pharmaceutical excipient |
-| Predicted New Indication | Exercise-Induced Malignant Hyperthermia |
+| Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 99.40% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Sorbitol is not available. Based on available information, Sorbitol is a polyol (sugar alcohol) whose known clinical roles are osmotic — as a laxative, a dialysis fluid osmotic agent, and a pharmaceutical excipient — rather than a pharmacologically targeted agent.
+Currently, detailed mechanism of action data is not available, and no approved indication text is recorded for the two Canadian products. Sorbitol is known as an osmotic laxative, sweetener and excipient. Its Canadian products are sorbitol/mannitol-type irrigation solutions.
 
-Exercise-induced malignant hyperthermia is caused by mutations in *RYR1*/*CACNA1S* that disrupt calcium release regulation in skeletal muscle sarcoplasmic reticulum — an ion-channel disorder. There is no known pharmacological activity of Sorbitol on RYR1, CACNA1S, or calcium homeostasis pathways.
+No supported mechanistic link between sorbitol and this condition was identified. Malignant hyperthermia and its exertional variants are generally attributed to dysregulated calcium release in skeletal muscle (for example, RYR1-related). Standard management is dantrolene plus supportive cooling. Sorbitol has no established action on this pathway.
 
-The TxGNN score of 99.40% reflects a statistical association within the knowledge graph rather than an interpretable molecular mechanism. Biological plausibility for this specific drug–disease pair is assessed as very low, and this prediction should be treated as hypothesis-generating only.
-
----
+The high score (0.994) is a knowledge-graph output, not clinical evidence. It may reflect graph artifacts, such as shared neighbours with other polyol or sugar compounds, or the broad connectivity of a common excipient. This explanation is an inference and has not been verified.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Sorbitol is not currently marketed in Canada (0 DINs registered; no license records available).
+| DIN | Product Name |
+|---------|------|
+| 498807 | SORBITOL MANNITOL IRRIGATION |
+| 799963 | CYSTOSOL W 3% HEXITOLS |
 
----
+Dosage form and approved indication text are not recorded for these products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried records.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is at evidence level L5 (model prediction only, with no supporting clinical trials or literature), the mechanistic link to malignant hyperthermia is assessed as biologically implausible, and the drug is not currently marketed in Canada. A blocking data gap (missing safety label / warnings and contraindications) also prevents this candidate from entering the S1 safety pre-assessment stage.
+The only support is a model score. There are no trials, no publications and no plausible mechanistic link to the calcium-handling pathway behind malignant hyperthermia, and established treatment (dantrolene) is unrelated to sorbitol.
 
 **To proceed, the following is needed:**
-- Regulatory-approved product labeling (warnings, contraindications) to resolve the Blocking data gap (DG001)
-- Confirmed mechanism of action data (DG002)
-- Independent mechanistic or preclinical evidence linking Sorbitol to RYR1/CACNA1S-mediated calcium dysregulation
-- At minimum, case reports or observational data before allocating further evaluation resources
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data and the original approved indications
+- Any preclinical or clinical evidence linking sorbitol or related polyols to this condition
+- Review of the knowledge-graph paths behind the prediction, to rule out excipient or polyol connectivity artifacts
+- Route compatibility assessment, once a credible rationale exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

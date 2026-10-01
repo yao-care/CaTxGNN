@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nilotinib
-parent: Moderate Evidence (L3-L4)
-nav_order: 548
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 646
+evidence_level: L5
 indication_count: 1
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,49 +29,67 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Nilotinib: From Chronic Myeloid Leukemia to Dermatofibrosarcoma Protuberans
+# Nilotinib: From Chronic Myeloid Leukaemia to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Nilotinib is a second-generation tyrosine kinase inhibitor originally developed for Philadelphia chromosome-positive chronic myeloid leukemia (BCR-ABL-driven disease). The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**, a PDGFRB-driven sarcoma, but this direction is currently supported by only **0 clinical trials** and **1 publication** (a mechanistic review) — evidence is still at the preclinical/rationale stage.
+Nilotinib is a tyrosine kinase inhibitor (TKI) that is generally known for treating BCR-ABL-driven leukaemia. The supplied licence records do not state its approved indication, so this is background knowledge rather than Evidence Pack data. The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**, but only **1 publication** (a mechanism-level review) and **no clinical trials** currently support this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic Myeloid Leukemia (BCR-ABL-positive) — based on known drug class; not present in the supplied regulatory dataset |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
+| Original Indication | Not stated in the supplied Canadian licence records (generally known as a BCR-ABL inhibitor for chronic myeloid leukaemia) |
+| Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (mechanism-level literature only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap). Based on well-established pharmacology, nilotinib is a second-generation tyrosine kinase inhibitor whose target spectrum covers BCR-ABL, PDGFR (α/β), and c-KIT — the same target class as imatinib, which is already approved for DFSP.
+Detailed mechanism-of-action data for nilotinib is not available in the supplied data. Based on general pharmacology, nilotinib inhibits several tyrosine kinases, including BCR-ABL, PDGFR and KIT.
 
-DFSP is driven almost exclusively by the COL1A1-PDGFB fusion gene, which causes constitutive activation of PDGFRB signaling. Because nilotinib directly inhibits PDGFRB, the mechanistic rationale for repurposing is biologically plausible: it mirrors the established imatinib-DFSP relationship and could theoretically serve as an alternative in imatinib-resistant or -intolerant cases.
+DFSP is typically driven by a COL1A1-PDGFB gene fusion. This fusion produces a growth signal that continuously activates the PDGFRB receptor. A PDGFR-blocking TKI is therefore biologically plausible for this tumour. Imatinib, which acts through the same class mechanism, is the established PDGFR inhibitor for DFSP, and nilotinib shares that target profile.
 
-This mechanistic overlap is the primary basis for the prediction score. However, it remains a target-class inference rather than direct clinical or in-vivo evidence for DFSP, which is why the evidence level is capped at L4 (mechanism-only).
+The TxGNN score of 0.993 is a computational prediction only and is not clinical evidence. No nilotinib-specific DFSP trial data were supplied. The mechanistic link is inferred from general pharmacology and has not been verified against nilotinib-specific studies.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews small-molecule PDGFR inhibitors (including nilotinib's target class) in neoplastic disease, describing PDGF/PDGFR signaling biology relevant to PDGFRB-driven tumors such as DFSP; does not report direct DFSP clinical data |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors in neoplastic disorders, covering PDGF biology and receptor signalling. It supports the PDGFR-inhibition rationale but is not nilotinib-specific clinical evidence. |
+
+---
 
 ## Canada Market Information
 
-Nilotinib is currently **not marketed** in Canada (0 licenses/DINs on file), so no product-level table is available.
+Six licences are recorded in total. The five below were supplied; dosage form and approved-indication text were not available in the records.
+
+| DIN | Product Name |
+|---------|------|
+| 2368250 | TASIGNA |
+| 2315874 | TASIGNA |
+| 2550903 | APO-NILOTINIB |
+| 2556634 | REDDY-NILOTINIB |
+| 2556642 | REDDY-NILOTINIB |
+
+---
 
 ## Cytotoxicity
-
-Nilotinib is an antineoplastic targeted therapy (tyrosine kinase inhibitor class), so this section applies.
 
 | Item | Content |
 |------|------|
@@ -81,22 +99,27 @@ Nilotinib is an antineoplastic targeted therapy (tyrosine kinase inhibitor class
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found for nilotinib in the queried source.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence is currently limited to a single mechanistic review article with no supporting clinical trials, and the drug is not yet marketed in Canada. The prediction rests on target-class analogy to imatinib rather than direct evidence in DFSP, which is insufficient to advance beyond the initial screening stage (S0).
+The prediction is mechanistically plausible, because DFSP is PDGFRB-driven and nilotinib inhibits PDGFR. However, the evidence is limited to a single mechanism-level review and a model score, with no nilotinib-specific clinical trials. The Health Canada safety information is also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Confirmed original-indication and MOA data (currently a High-severity data gap)
-- TFDA/product monograph safety warnings and contraindications (currently a Blocking data gap)
-- Preclinical or case-level evidence specific to DFSP (not just PDGFR-class rationale)
-- Initiation of clinical trial activity, or at minimum case reports, in PDGFRB-driven sarcomas
+- Health Canada product monograph (warnings, contraindications), obtained and parsed to unblock safety screening
+- Mechanism-of-action data for nilotinib (e.g., via the DrugBank API) and the approved indications from the licence records
+- A targeted search for nilotinib-specific DFSP evidence (case series, trials, ICTRP registries)
+- A comparison against imatinib, the established DFSP therapy, including imatinib-resistant or imatinib-intolerant populations
+- A safety and monitoring plan once the monograph data are available
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Trametinib
 parent: Model Prediction Only (L5)
-nav_order: 788
+nav_order: 921
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill — this is a direct report-generation task fully specified by the v5 prompt template; proceeding straight to the deliverable.
-
-# Trametinib: From Melanoma to Choroideremia
+# Trametinib: From BRAF V600 Melanoma to Choroideremia
 
 ## One-Sentence Summary
 
-Trametinib is a MEK1/2 inhibitor originally developed for BRAF V600E/K mutation-positive malignant melanoma; it is not currently licensed or marketed in Canada. The TxGNN model's **top-ranked** prediction is **Choroideremia**, a rare inherited retinal disease, but this candidate is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the score as a likely knowledge-graph embedding artifact rather than a real biological signal.
+Trametinib is a MEK inhibitor marketed in Canada as MEKINIST. The evidence pack indicates it is used for BRAF V600-mutant melanoma, though the licence records supplied contain no indication text.
+The TxGNN model predicts it may be effective for **choroideremia**, an inherited retinal degeneration, with a score of 99.31%.
+**No clinical trials and no publications** support this prediction, so it rests on the model alone.
 
 ---
 
@@ -43,23 +43,23 @@ Trametinib is a MEK1/2 inhibitor originally developed for BRAF V600E/K mutation-
 
 | Item | Content |
 |------|------|
-| Original Indication | Not licensed in Canada (0 DINs); globally developed for BRAF V600E/K mutation-positive malignant melanoma |
+| Original Indication | Not listed in the supplied licence data (the pack's rationale notes marketing for BRAF V600 melanoma) |
 | Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action (MOA) data for trametinib is not available in this evidence pack (data gap **DG002**, High severity — MOA lookup pending via DrugBank API). Based on descriptions embedded in the related clinical trial records, trametinib is "a reversible and highly selective allosteric inhibitor of MEK1 and MEK2 activation and kinase activity," developed for malignant melanoma — particularly BRAF V600E/K mutation-positive disease — and used both as monotherapy and in combination with BRAF inhibitors such as dabrafenib.
+Currently, detailed mechanism of action data is not available in the pack. Trametinib is known to be a reversible, allosteric inhibitor of MEK1 and MEK2 (as described in the trial records). It acts downstream of BRAF and RAS in the MAPK pathway, and its efficacy in BRAF-mutant melanoma is established.
 
-For the top-ranked predicted indication, **choroideremia**, the evidence pack's own mechanistic rationale states there is no known intersection between the MAPK/MEK pathway and the CHM gene (Rab escort protein 1) deficiency that underlies this inherited retinal degeneration. This prediction should be treated as an artifact of knowledge-graph embedding similarity rather than a genuine mechanistic signal — consistent with its own L5 evidence level and "Hold" classification.
+The link to choroideremia is weak. Choroideremia is an X-linked retinal degeneration caused by loss of function of the CHM gene (REP1 protein). The supplied data show no established connection between this disease and MAPK/MEK signaling. The high score (0.993) is most likely a knowledge-graph artifact, driven by ocular and melanoma-related neighbouring nodes rather than a real biological link.
 
-By contrast, several lower-ranked predictions in this evidence pack (e.g., non-cutaneous melanoma, rank 2, L1 evidence) are mechanistically coherent with trametinib's approved MAPK-pathway biology and are backed by substantial clinical trial data. This divergence illustrates why raw TxGNN score/rank alone should not be treated as a proxy for clinical plausibility — evidence review at the individual-candidate level remains essential.
+Safety also argues against this use. MEK inhibitors are known to cause ocular toxicity, including serous retinopathy and retinal vein occlusion. That is a concern in a retina that is already degenerating.
 
 ---
 
@@ -77,7 +77,11 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Trametinib currently has **0 DINs** and is **not marketed** in Canada. No product authorizations are available to list.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2409658 | MEKINIST | Not listed | Not listed |
+| 2409623 | MEKINIST | Not listed | Not listed |
+| 2539993 | MEKINIST | Not listed | Not listed |
 
 ---
 
@@ -85,17 +89,19 @@ Trametinib currently has **0 DINs** and is **not marketed** in Canada. No produc
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (MEK1/2 inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (MEK inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions. Ophthalmic examination is relevant given the ocular toxicity noted below |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Ocular toxicity (class effect):** MEK inhibitors can cause serous retinopathy and retinal vein occlusion. This is a particular concern in choroideremia, where the retina is already degenerating.
+
+Please refer to the package insert for the full warnings, contraindications and drug interactions. No interaction records were found in the supplied data.
 
 ---
 
@@ -104,13 +110,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (choroideremia) has zero supporting clinical trials or publications, and the model's own repurposing rationale explicitly identifies it as a likely knowledge-graph embedding artifact rather than a biologically plausible mechanism (evidence level L5). This does not meet the bar to advance past model-prediction-only status.
+The prediction has no trials or publications behind it, and there is no known biological link between MEK inhibition and CHM/REP1 loss. The ocular toxicity profile of MEK inhibitors is a further safety obstacle in a degenerating retina.
 
 **To proceed, the following is needed:**
-- Completion of DG001 (Health Canada label warnings/contraindications, Blocking severity) — required before any S1 safety evaluation can begin
-- Completion of DG002 (formal MOA data via DrugBank API, High severity) — required to properly assess mechanistic plausibility
-- A credible mechanistic hypothesis linking the MAPK/MEK pathway to choroideremia pathophysiology, or reprioritization toward better-supported candidates in this evidence pack (e.g., **non-cutaneous melanoma**, rank 2, L1 evidence, "Proceed with Guardrails" — though BRAF-mutation status in this subtype still needs confirmation)
-- Confirmation of Canadian regulatory pathway, since trametinib currently holds 0 DINs and is not marketed
+- Preclinical or mechanistic evidence that MAPK/MEK modulation is relevant to choroideremia
+- The Health Canada package insert, to complete the safety screening
+- Detailed mechanism of action data
+- An ocular safety assessment specific to retinal degeneration
+
+Other predicted indications in this pack have more support. Superficial spreading melanoma is graded L2 with "Proceed with Guardrails", but it is largely an on-label use rather than true repurposing. Non-cutaneous melanoma is graded L2 and acral lentiginous melanoma L3, both with a "Research Question" recommendation. These could be evaluated as separate candidates.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

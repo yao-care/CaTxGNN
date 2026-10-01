@@ -2,7 +2,7 @@
 layout: default
 title: Pyrazinamide
 parent: Model Prediction Only (L5)
-nav_order: 659
+nav_order: 777
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Pyrazinamide is a first-line antitubercular prodrug, standardly used as part of combination therapy against *Mycobacterium tuberculosis* infection. The TxGNN model predicts it may be effective for **Infectious Otitis Media**, but this specific prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure graph-based association with no direct evidence.
+Pyrazinamide is a first-line antitubercular drug. The TxGNN model predicts it may be effective for **infectious otitis media**, but there are currently **0 clinical trials** and **0 publications** directly supporting this prediction. It is a model-only signal and has not been tested in patients.
 
 ---
 
@@ -41,23 +41,22 @@ Pyrazinamide is a first-line antitubercular prodrug, standardly used as part of 
 
 | Item | Content |
 |------|------|
-| Original Indication | Tuberculosis (antitubercular combination therapy) |
-| Predicted New Indication | Infectious Otitis Media |
+| Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Formal, sourced mechanism-of-action documentation (e.g., a DrugBank MOA record) is currently a data gap. Based on the pharmacological description embedded in this evidence pack's own analysis, pyrazinamide is a prodrug converted by bacterial pyrazinamidase into pyrazinoic acid, which is bactericidal against *Mycobacterium tuberculosis* specifically in the acidic intracellular environment of granulomas and phagolysosomes. This is a narrow-spectrum, pathogen-specific mechanism rather than a general anti-infective or anti-inflammatory action.
+Currently, detailed mechanism of action data is not available. Pyrazinamide is a first-line antitubercular agent, and its efficacy in tuberculosis is well established. The Canadian licence record in the Evidence Pack contains no approved indication text, so the original indication here is based on the drug's known class use and still needs to be confirmed against the label.
 
-For the top-ranked prediction, "Infectious Otitis Media," no clinical trial or literature evidence links pyrazinamide to this indication directly — the model's high score is not corroborated by any real-world data for this specific disease label.
+A mechanistic link exists only for the **tuberculous subtype** of otitis media. In that setting, pyrazinamide's existing antimycobacterial activity would be applied at an ear site, which is not a new mechanism. It has no plausible activity against the common bacterial or viral causes of infectious otitis media. The high model score therefore most likely reflects network proximity in the knowledge graph rather than a pharmacological rationale for general otitis media.
 
-Notably, several closely related sibling predictions in this same evidence pack (middle ear disease, chronic otitis media, suppurative otitis media, infectious otitis interna) *do* carry supporting literature — but that literature consists exclusively of case reports and small case series describing **tuberculous otitis media (TOM)**, a rare extrapulmonary manifestation of tuberculosis treated with the standard four-drug anti-TB regimen (including pyrazinamide). This is mechanistically informative but is not equivalent to a novel repurposing signal: it reflects pyrazinamide treating an existing TB infection that happens to present in the ear, not a new pharmacological application against non-tuberculous otitis media. Whether "Infectious Otitis Media" as coded here refers to TB-related or general bacterial otitis media is itself unresolved and should be clarified before further evaluation.
+Related predicted indications do have case-level support. Tuberculous otitis media (listed under middle ear disease, chronic otitis media and suppurative otitis media) is documented in case reports and case series. In those reports, pyrazinamide was part of standard multidrug anti-TB therapy. This evidence applies only to the TB etiology.
 
 ---
 
@@ -73,6 +72,14 @@ Currently no related literature available.
 
 ---
 
+## Canada Market Information
+
+| Licence Number | Product Name |
+|---------|------|
+| 618810 | PDP-PYRAZINAMIDE |
+
+---
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
@@ -84,13 +91,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction ("Infectious Otitis Media") has no clinical trial or literature support (L5, model prediction only), and the drug is not currently marketed in Canada. While sibling predictions in this evidence pack show case-report-level evidence for tuberculous otitis media, that evidence describes existing TB treatment rather than a genuine new indication, and does not directly substantiate this specific prediction.
+The prediction rests on a model score alone, with no trials or literature, and the only plausible mechanism covers tuberculous otitis media rather than infectious otitis media in general. The tuberculous subtype is already treated with standard anti-TB regimens that include pyrazinamide, so it is better framed as a research question under the more specific predicted indications.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory label data (warnings, contraindications) — currently blocking (DG001)
-- Verified mechanism-of-action documentation from DrugBank or equivalent primary source (DG002)
-- Targeted literature/trial search to clarify whether "Infectious Otitis Media" refers to tuberculous or general bacterial etiology
-- If tuberculous etiology is confirmed, reclassify this as an extrapulmonary-TB treatment context rather than a novel repurposing candidate
+- Confirmation of the approved indication from the Health Canada product monograph
+- Safety information (warnings and contraindications) from the package insert, before any safety screening
+- Mechanism of action data for pyrazinamide
+- A decision on whether to reframe the candidate as tuberculous otitis media, supported by a systematic review of the existing case reports
+- Route compatibility assessment for ear-site disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

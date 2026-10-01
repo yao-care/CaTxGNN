@@ -2,15 +2,15 @@
 layout: default
 title: Erenumab
 parent: Moderate Evidence (L3-L4)
-nav_order: 290
-evidence_level: L3
+nav_order: 340
+evidence_level: L4
 indication_count: 1
 ---
 
 # Erenumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +33,77 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Erenumab (Aimovig) is a fully human monoclonal antibody targeting the CGRP receptor, globally approved for the prevention of episodic and chronic migraine.
-The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**,
-with **0 registered clinical trials** and **20 publications** currently supporting this direction.
-
----
+Erenumab is a CGRP-receptor monoclonal antibody, marketed as AIMOVIG for migraine prevention.
+The TxGNN model predicts it may be applicable to **migraine with brainstem aura**, but there are **no registered clinical trials** and **no publication isolating this subtype**. Support comes from **18 publications** on erenumab in migraine generally, including aura subgroup analyses.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Migraine prevention (episodic and chronic) — globally approved; not currently licensed in Canada |
-| Predicted New Indication | Migraine with Brainstem Aura |
+|------|------|
+| Original Indication | Migraine prevention (taken from the mechanistic rationale; the Canadian licence records carry no indication text) |
+| Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L3 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Erenumab selectively blocks the calcitonin gene-related peptide (CGRP) receptor. CGRP is a potent vasodilatory and pro-inflammatory neuropeptide released during migraine attacks from trigeminal nerve terminals. By antagonizing its receptor, erenumab dampens trigeminal neuroinflammation and vasodilation — the two key drivers of migraine pain — without affecting CGRP synthesis itself. This mechanism is directly evidenced by the drug's established Phase 3 efficacy in episodic and chronic migraine (PMID 30360965), including in patients who had failed multiple prior preventive therapies.
+Erenumab is a monoclonal antibody that blocks the CGRP receptor. CGRP signalling in the trigeminovascular system is a pathway shared across migraine subtypes, so activity in migraine with brainstem aura is biologically plausible.
 
-Migraine with brainstem aura (MBA, formerly basilar-type migraine) is characterized by aura symptoms attributable to the brainstem or both hemispheres simultaneously — vertigo, dysarthria, diplopia, tinnitus — followed by typical migraine headache. Its pathophysiology specifically involves activation of brainstem nuclei (nucleus trigeminalis caudalis, periaqueductal gray, locus coeruleus) and local CGRP release; all three nuclei express CGRP receptors. This mechanistic overlap directly supports the TxGNN prediction: the same receptor-blocking action that suppresses trigeminal activation in common migraine is theoretically applicable to the brainstem-originating cascade in MBA.
+The very high TxGNN score most likely reflects the association between erenumab and the parent disease (migraine), not subtype-specific data. Erenumab is already approved for migraine prevention. This prediction is therefore better read as **subtype applicability within an existing indication** than as true repurposing.
 
-A key historical safety concern was that CGRP blockade might impair compensatory vasodilation in the basilar and posterior cerebral circulation — precisely the territory involved in MBA aura. However, clinical evidence has not borne this out: erenumab did not alter cerebral vasomotor reactivity or flow-mediated dilation (PMID 32867533), and pooled long-term data showed no increase in cardiovascular or cerebrovascular events across vascular risk strata (PMID 36942409). Critically, no dedicated trial has enrolled MBA patients specifically; all available evidence is indirect extrapolation from migraine-with-aura subgroup analyses and real-world cohorts, placing this prediction at evidence level L3 pending prospective validation.
-
----
+Some related literature exists. A secondary analysis of randomized trials compared erenumab in patients with and without aura (PMID 34928306), and a pooled post hoc analysis looked at vascular risk in the same two groups (PMID 36942409). Neither isolates brainstem aura, so subtype-specific efficacy is unconfirmed.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Erenumab specifically in migraine with brainstem aura.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | Phase 3 RCT | Lancet | Erenumab significantly reduced monthly migraine days vs. placebo in patients who failed 2–4 prior preventives; establishes efficacy in treatment-resistant episodic migraine |
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT Secondary Analysis | JAMA Neurology | Erenumab was safe and effective in both migraine with and without aura; aura status did not meaningfully modify treatment response, directly relevant to MBA subtype |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematic Review | Int Immunopharmacol | Confirmed erenumab's preventive efficacy across episodic and chronic migraine in multiple RCTs; key basis for the L3 evidence rating applied here |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Prospective Cohort | Headache | Post-hoc pooled analysis: no increase in cardiovascular events with erenumab across all CV risk strata; critical vascular safety reassurance for a subtype with posterior circulation involvement |
-| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Prospective Cohort | J Headache Pain | REFORM study: elevated plasma suPAR (systemic inflammation marker, raised in migraine with aura) linked to CGRP-pathway activity and erenumab response; supports inflammatory–CGRP mechanistic bridge |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mechanistic Observational | Cephalalgia | Erenumab did not alter cerebral vasomotor reactivity or endothelial function in migraine without aura; addresses the key safety concern for a brainstem-aura subtype |
-| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Real-World Cohort | Clin Neurol Neurosurg | 6-month Croatian real-world data: erenumab effective and well-tolerated in treatment-resistant chronic migraine; supports generalizability beyond controlled trial populations |
-| [38850034](https://pubmed.ncbi.nlm.nih.gov/38850034/) | 2024 | Mechanistic RCT | Cephalalgia | Sildenafil (cGMP pathway) induced migraine attacks independently of CGRP receptor activation; clarifies that erenumab does not block all migraine triggers — relevant to understanding incomplete responders in MBA |
-| [33125303](https://pubmed.ncbi.nlm.nih.gov/33125303/) | 2021 | Retrospective Case Series | J Pain Palliat Care Pharmacother | Erenumab + onabotulinumtoxinA combination reduced migraine frequency in intractable chronic migraine; suggests combination approaches may be warranted in refractory MBA |
-| [40596876](https://pubmed.ncbi.nlm.nih.gov/40596876/) | 2025 | Single-arm Prospective | J Headache Pain | Switch from erenumab to fremanezumab was tolerable in patients with erenumab adverse events; informs treatment sequencing options when erenumab fails or is not tolerated in MBA |
+None of these publications isolates migraine with brainstem aura. Their relevance to this subtype is indirect.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (secondary analysis) | JAMA Neurology | Erenumab safety and efficacy in migraine with vs. without aura; motivated by the elevated vascular risk in patients with aura |
+| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (Phase 3b) | Lancet | Erenumab efficacy and tolerability in episodic migraine after 2-4 failed preventives |
+| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematic review | Int Immunopharmacol | Efficacy of erenumab in preventing episodic and chronic migraine |
+| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Post hoc pooled analysis | Headache | Cardiovascular safety of erenumab by vascular risk level, in patients with and without aura |
+| [35230406](https://pubmed.ncbi.nlm.nih.gov/35230406/) | 2022 | News/commentary | JAMA | Commentary titled "Erenumab Safe, Effective for Patients With Migraine With Aura" (no abstract available) |
+| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mechanistic physiological study | Cephalalgia | Erenumab's effect on cerebral vasomotor reactivity and endothelial function in migraine without aura; the title reports no alteration |
+| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Cohort | J Headache Pain | Plasma suPAR (elevated in migraine with aura) and its link to erenumab response |
+| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Real-world cohort | Clin Neurol Neurosurg | Six-month effectiveness and safety in treatment-resistant chronic migraine |
+| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Retrospective real-world study | J Headache Pain | Twelve-month safety, tolerability and adverse-event susceptibility with erenumab |
+| [38850034](https://pubmed.ncbi.nlm.nih.gov/38850034/) | 2024 | Experimental study | Cephalalgia | Sildenafil-induced migraine attacks in erenumab-pretreated patients; the title reports cGMP-mediated induction independent of CGRP-receptor activation |
 
 ## Canada Market Information
 
-Erenumab is not currently licensed in Canada. No DINs are registered in the Health Canada Drug Product Database.
+| DIN | Product Name |
+|---------|------|
+| 2487306 | AIMOVIG |
+| 2479613 | AIMOVIG |
 
-> **Note:** Erenumab (Aimovig) holds FDA approval (2018) and EMA authorization for migraine prevention in adults. Health Canada authorization status should be verified directly at the [Health Canada Drug Product Database](https://health-canada.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) prior to any regulatory planning.
-
----
+Dosage form and approved-indication text are not recorded for either authorization.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> Formal warnings, contraindications, and drug interaction data were not available in this evidence pack. Safety review against the Health Canada–approved product monograph (if/when licensed) or the FDA label is required before clinical use planning.
-
----
+The publications above include vascular and cardiovascular safety analyses in patients with aura (PMID 34928306, 36942409). These are relevant to any use in aura subtypes.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Erenumab's established CGRP receptor blockade mechanism aligns directly with the known brainstem-trigeminovascular pathophysiology of migraine with brainstem aura, and available evidence from migraine-with-aura subgroup analyses consistently shows no cerebrovascular harm. However, the complete absence of dedicated MBA clinical trials and the drug's unlicensed status in Canada require structured, monitored evaluation before broader application.
+The high model score most likely reflects the parent-disease (migraine) association. No trial or publication isolates migraine with brainstem aura, and no safety labelling data were available. Because erenumab is already marketed for migraine prevention, this is a subtype-applicability question, not a new-indication opportunity.
 
 **To proceed, the following is needed:**
-- Prospective clinical trial or registry study specifically enrolling patients with confirmed migraine with brainstem aura (ICHD-3 criteria) treated with erenumab
-- Health Canada regulatory submission and DIN registration (or Named Patient Programme pathway if urgent)
-- Formal MOA documentation from DrugBank or product monograph to fill the current data gap
-- Safety monitoring protocol specifically addressing posterior circulation hemodynamics and aura duration/frequency in MBA patients
-- Complete review of Health Canada or FDA product monograph for boxed warnings, contraindications, and drug interactions before institutional formulary consideration
+- Subtype-specific evidence, such as brainstem aura subgroup data from existing erenumab trials or a dedicated study
+- Approved indication text and dosage forms for the two Canadian DINs
+- Health Canada package insert warnings and contraindications, including vascular risk in aura patients
+- Confirmed mechanism-of-action data from DrugBank
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

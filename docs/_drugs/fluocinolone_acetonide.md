@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluocinolone Acetonide
-parent: Moderate Evidence (L3-L4)
-nav_order: 334
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 391
+evidence_level: L5
 indication_count: 4
 ---
 
 # Fluocinolone Acetonide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,61 +29,75 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Fluocinolone Acetonide: From Inflammatory Dermatoses to Hypertrophic Lichen Planus
+# Fluocinolone Acetonide: From Topical Corticosteroid Therapy to Hypertrophic Lichen Planus
 
 ## One-Sentence Summary
 
-Fluocinolone acetonide is a potent synthetic fluorinated glucocorticoid belonging to the topical corticosteroid class, established in clinical practice for a spectrum of inflammatory skin conditions. The TxGNN model predicts it may be effective for **Hypertrophic Lichen Planus**, yet **no clinical trials** and **no publications** specific to this subtype were identified in the current evidence search. The prediction rests on mechanistic plausibility (corticosteroid class effect in T-cell-mediated cutaneous inflammation) rather than direct clinical data.
+Fluocinolone acetonide is a potent topical glucocorticoid with anti-inflammatory and immunosuppressive activity.
+The TxGNN model predicts it may be effective for **hypertrophic lichen planus**, but **no clinical trials and no publications** currently support this prediction, so it remains a computational hypothesis only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved indication on record in Canada |
-| Predicted New Indication | Hypertrophic Lichen Planus |
+|------|------|
+| Predicted New Indication | Hypertrophic lichen planus |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L4 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
+
+Three other lichen planus variants were also predicted. All are L5 with no supporting trials or literature.
+
+| Rank | Predicted Indication | TxGNN Score |
+|------|------|------|
+| 1 | Hypertrophic lichen planus | 99.42% |
+| 2 | Lichen planus pigmentosus | 99.42% |
+| 3 | Annular atrophic lichen planus | 99.42% |
+| 4 | Lichen planus pemphigoides | 99.34% |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological classification, fluocinolone acetonide is a Class II–III high-potency topical glucocorticoid. Its anti-inflammatory activity is understood to operate through glucocorticoid receptor binding, leading to suppression of pro-inflammatory cytokines, inhibition of T-lymphocyte infiltration, and reduction of keratinocyte hyperproliferation — all of which are well-established effects of the corticosteroid class.
+Currently, detailed mechanism of action data is not available. Based on known information, fluocinolone acetonide is a potent topical glucocorticoid. Glucocorticoids are broadly anti-inflammatory and immunosuppressive, and mechanistically this may be applicable to lichen planus.
 
-Hypertrophic lichen planus (HLP) is a chronic, treatment-refractory subtype of lichen planus defined by thick, hyperkeratotic plaques driven by CD8+ T-cell-mediated cytotoxic interface dermatitis. Significant T-cell infiltration and epidermal hyperproliferation are the hallmarks of HLP pathology — precisely the cellular targets that topical corticosteroids are designed to suppress. Because conventional lichen planus is already a standard indication for moderate-to-high-potency topical corticosteroids, the mechanistic rationale extends naturally to the hypertrophic subtype, which often demands higher-potency agents or occlusive application to achieve adequate tissue penetration.
+Hypertrophic lichen planus is a T-cell-mediated inflammatory skin disease. A glucocorticoid-responsive mechanism is therefore plausible. This is class-level plausibility only. There is no drug-specific clinical evidence, and the high TxGNN score is a computational prediction, not clinical support.
 
-The TxGNN model assigned a score of 99.42% for this drug–disease pair, placing it at rank 10,394 among all model predictions. This reflects a robust indirect class-level signal rather than drug-specific clinical trial data. The prediction is best understood as an algorithm-generated hypothesis grounded in the known pharmacological overlap between corticosteroid mechanisms and LP immunopathology — an entirely plausible starting point for a prospective clinical question, pending direct evidence.
+The other three predictions likely come from the shared lichen planus neighborhood in the knowledge graph. Each has its own caveats:
+- **Lichen planus pigmentosus:** nothing in the data shows whether topical corticosteroids work in this pigmentary variant.
+- **Annular atrophic lichen planus:** this is a rare variant, and potent steroids carry a risk of skin atrophy.
+- **Lichen planus pemphigoides:** it involves autoimmune blistering, which topical fluocinolone acetonide alone may not address.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for fluocinolone acetonide in hypertrophic lichen planus.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for fluocinolone acetonide in hypertrophic lichen planus.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Fluocinolone acetonide currently has **no Drug Identification Numbers (DINs)** registered with Health Canada and is not marketed in Canada. No authorization records are available for review.
+| DIN | Product Name |
+|---------|------|
+| 2300559 | DERMOTIC OIL EAR DROPS |
+| 873292 | DERMA SMOOTHE/FS LIQ 0.01% |
+| 2459655 | OTIXAL |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> As a general class-level note: topical fluorinated corticosteroids carry recognised risks of skin atrophy with prolonged use, hypothalamic-pituitary-adrenal (HPA) axis suppression (amplified under occlusion or on large body surface areas), and disproportionate systemic absorption in paediatric patients. For hypertrophic lichen planus specifically, the use of occlusive dressings to enhance drug penetration through thickened plaques may increase the risk of both local atrophy and systemic absorption — a consideration relevant to the safety screening stage (S1) for this indication.
 
 ---
 
@@ -92,17 +106,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for hypertrophic lichen planus is mechanistically coherent given fluocinolone acetonide's established role as a potent topical anti-inflammatory agent targeting T-cell-driven dermatoses, but the evidence base is currently L4 — model prediction alone — with no supporting clinical trials or publications identified, and the drug carries no Health Canada regulatory footprint to anchor a repurposing pathway.
+The prediction rests only on a model score and class-level mechanistic plausibility. There are no trials or publications, and safety data are incomplete. Evidence is not yet sufficient to advance beyond a research question.
 
 **To proceed, the following is needed:**
-
-- **Literature verification**: Conduct a broader search for any topical or intralesional corticosteroid use in hypertrophic lichen planus (including triamcinolone acetonide as a class comparator) to establish whether indirect class-level evidence can elevate the evidence grade to L3
-- **MOA data retrieval**: Query the DrugBank API (DB00591) to obtain formal mechanism of action documentation and receptor-binding profile
-- **Safety profiling**: Download and parse the available package insert to populate key warnings and contraindications before advancing to safety screening stage S1
-- **Route and formulation assessment**: Evaluate whether currently available international formulations (cream, ointment, oil, intravitreal implant) align with the dermatological route required for HLP
-- **Regulatory pathway scoping**: Clarify whether a Health Canada DIN application or named-patient access framework would be required to support clinical use in Canada
-
-> **Note on additional predicted indications:** The model also predicted associations with lichen planus pigmentosus (rank 2, 99.42%), annular atrophic lichen planus (rank 3, 99.42% — **Hold** on safety grounds, as drug-induced skin atrophy may worsen a disease already characterised by atrophic lesions), and lichen planus pemphigoides (rank 4, 99.34%). All four predictions share L4 evidence status. Annular atrophic lichen planus should be deprioritised explicitly due to the mechanistic conflict between drug side-effect and disease pathology.
+- Health Canada package insert warnings and contraindications
+- Mechanism of action data (for example, from DrugBank)
+- A targeted search for clinical and literature evidence of topical corticosteroids in each lichen planus variant
+- Confirmation that the marketed formulations (currently ear drops and a topical liquid) match the route needed for skin lesions
+- Approved indication text for the Canadian products, to establish the original indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

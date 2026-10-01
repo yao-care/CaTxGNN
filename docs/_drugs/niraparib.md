@@ -2,7 +2,7 @@
 layout: default
 title: Niraparib
 parent: Model Prediction Only (L5)
-nav_order: 551
+nav_order: 649
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,90 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Niraparib: From Ovarian Cancer Maintenance Therapy to Epiglottis Neoplasm
+# Niraparib: From Ovarian Cancer to Epiglottis Neoplasm
 
 ## One-Sentence Summary
 
-Niraparib is a PARP1/2 inhibitor whose approved use — per trial and literature context found in this evidence pack — is maintenance treatment of recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer. The TxGNN model predicts it may also be effective for **Epiglottis Neoplasm**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no corroborating clinical or mechanistic evidence.
+Niraparib is a PARP inhibitor used in oncology; the Evidence Pack identifies ovarian cancer as an already marketed setting. The TxGNN model predicts it may be effective for **epiglottis neoplasm**, but this is a knowledge-graph prediction only, with **0 clinical trials** and **0 publications** supporting it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file in Canadian regulatory data (drug not marketed); trial/literature context indicates approval for maintenance treatment of recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer |
-| Predicted New Indication | Epiglottis Neoplasm |
+| Original Indication | Not listed in the supplied licence records (ovarian cancer is referenced as a marketed setting elsewhere in the pack) |
+| Predicted New Indication | Epiglottis neoplasm |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Niraparib is not available in this evidence pack (flagged as a High-severity data gap). Based on information found within the evidence pack itself — including trial and literature descriptions collected under other predicted indications — Niraparib is a PARP1/2 inhibitor that exploits synthetic lethality in tumors with homologous recombination deficiency (HRD), such as BRCA1/2-mutated disease, and is used as maintenance therapy in ovarian cancer.
+Niraparib inhibits PARP1 and PARP2, enzymes involved in repairing damaged DNA. In tumours that cannot repair DNA through homologous recombination, blocking PARP is "synthetically lethal" and kills the cancer cells. This is the basis for its use in ovarian cancer.
 
-Epiglottis neoplasm is a head-and-neck squamous tissue tumor with a biological profile that is generally not characterized by the HRD/BRCA-driven genomic instability that underlies PARP inhibitor efficacy. No clinical trials or publications in this evidence pack link Niraparib to epiglottis, laryngeal, or other head-and-neck neoplasms.
+For epiglottis neoplasm, no disease-specific rationale was provided. There is no biomarker data (such as homologous recombination deficiency or BRCA status), no preclinical work and no clinical evidence for this site. The high score comes only from the model's knowledge-graph patterns, so the prediction should be treated as a hypothesis rather than a finding.
 
-This ranking reflects the TxGNN model's statistical prediction score alone. Without mechanistic or clinical corroboration, the biological rationale for applying a PARP-inhibitor mechanism to this indication is currently weak.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
-Niraparib is not currently marketed in Canada (0 DINs registered; no active licenses on file).
+| DIN | Product Name |
+|---------|------|
+| 2530031 | ZEJULA |
+| 2538555 | AKEEGA |
+| 2538563 | AKEEGA |
+
+Dosage forms and approved indication text were not included in the supplied records.
+
+---
 
 ## Cytotoxicity
-
-Niraparib is an antineoplastic agent (PARP inhibitor class, referenced throughout this evidence pack in the context of ovarian and other cancers), so this section applies.
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted therapy (PARP inhibitor) |
-| Myelosuppression Risk | Not specified in this evidence pack — PARP inhibitors as a class are commonly associated with haematologic toxicity; please refer to the package insert |
+| Myelosuppression Risk | Myelosuppression is a recognised concern for this drug class; please refer to the package insert warnings and precautions for specifics |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential; renal and hepatic function (standard for PARP inhibitor therapy) |
-| Handling Protection | Cytotoxic drug handling precautions apply per institutional protocol |
+| Monitoring Items | Complete blood count is the usual baseline; please refer to the package insert for the full monitoring schedule |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No interaction records were found for niraparib in the queried source.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (Epiglottis Neoplasm) has zero clinical trials and zero publications in support, and the TxGNN score is the only available evidence (L5 — model prediction only). The known PARP-inhibitor mechanism has no established biological link to this tumor type, so the risk/benefit case cannot currently be assessed.
+The prediction rests on model output alone, with no trials, no literature and no disease-specific mechanistic rationale for epiglottis neoplasm. The Health Canada safety information has also not yet been obtained.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data from DrugBank (currently a data gap)
-- TFDA/Health Canada product label — warnings, contraindications, DDI (currently a Blocking-severity data gap)
-- Any preclinical or case-level evidence connecting PARP inhibition to head-and-neck/epiglottis tumor biology
-- Continued literature/trial surveillance, as no current evidence exists to re-evaluate against
-
-**Note:** Within this same evidence pack, a different candidate indication — *cystic neoplasm* (rank 2, score 99.99%, Evidence Level L2, recommendation "Proceed with Guardrails") — is backed by 3 clinical trials and 9 publications, largely reflecting real-world use of Niraparib in serous ovarian/endometrial carcinoma. That candidate represents a materially stronger repurposing signal and may warrant its own evaluation report.
+- Health Canada product monograph (warnings, contraindications, interactions) to complete safety screening
+- Disease-specific evidence for epiglottis neoplasm, such as HRD/BRCA prevalence in head and neck tumours and preclinical data
+- Approved indication text and dosage forms for the three Canadian DINs
+- For comparison, the rank 2 prediction (cystic neoplasm, a proxy for serous carcinomas) has a Phase 2 trial in endometrial serous carcinoma (NCT04716686, recruiting, 83 participants) and a stronger rationale (evidence level L3). It may be a better candidate for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

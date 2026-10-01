@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rifaximin
-parent: Moderate Evidence (L3-L4)
-nav_order: 678
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 800
+evidence_level: L5
 indication_count: 6
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Rifaximin: From Non-Absorbable Gut Antibiotic to Oral Candidiasis
+# Rifaximin: From Gut-Restricted Antibacterial Use to Oral Candidiasis
 
 ## One-Sentence Summary
 
-Rifaximin is an oral, non-absorbable antibiotic (original indication data not available in this evidence pack). The TxGNN model's top-ranked prediction is **Oral Candidiasis**, but the only supporting publication currently on file actually reports that rifaximin use *increases* the risk of drug-resistant Candida infection rather than treating it — so this signal should be read as a caution flag, not a therapeutic lead.
+Rifaximin is an oral, poorly absorbed antibacterial that acts mainly in the gut. The TxGNN model predicts it may be effective for **oral candidiasis**, but there are **0 registered clinical trials** and **1 publication**, and that publication reports a possible *adverse* link between rifaximin and resistant Candida infections. The prediction is not supported by current evidence.
 
 ---
 
@@ -41,21 +41,25 @@ Rifaximin is an oral, non-absorbable antibiotic (original indication data not av
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no license/indication data on file; original MOA also missing) |
-| Predicted New Indication | Oral Candidiasis |
+| Original Indication | Not stated in the Canadian licence record (rifaximin is a gut-restricted oral antibiotic) |
+| Predicted New Indication | Oral candidiasis |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (one cohort study, which signals risk rather than benefit) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on the literature retrieved for this candidate, rifaximin is described as "an oral and non-absorbable antibiotic," meaning it acts locally within the gut lumen rather than systemically — a property that would not obviously extend to an oral mucosal fungal infection like oral candidiasis.
+Detailed mechanism of action data is not available in the Evidence Pack. Rifaximin is an oral, non-absorbable antibiotic that works against bacteria in the gut. It has no known antifungal activity.
 
-More importantly, the single piece of literature evidence behind this prediction points in the opposite direction from what a repurposing signal would need. The cohort study (PMID 34180023) found that rifaximin use in allogeneic hematopoietic stem cell transplant recipients was associated with an *increased* incidence of micafungin-resistant Candida infections, consistent with rifaximin disrupting normal gut/mucosal microbial balance rather than treating candidiasis. The TxGNN model's high score (99.75%) likely reflects a strong graph-embedding relationship between rifaximin and candidiasis, but the model does not appear to distinguish the direction of that relationship (causing/favoring infection vs. treating it). This mismatch between a high prediction score and adverse-direction evidence is itself an important finding, not just a data gap.
+Oral candidiasis is a fungal infection of the mouth, so rifaximin's antibacterial mechanism does not fit it. The very high TxGNN score (0.997) most likely reflects closeness to oral-disease nodes in the knowledge graph rather than a real therapeutic link.
+
+The only publication points the opposite way. In allogeneic stem cell transplant recipients, rifaximin exposure was associated with infections by micafungin-resistant Candida species. A plausible explanation is disruption of the gut microbiota. This is a safety signal, not support for repurposing.
+
+The other top predictions (commissural lip fistula, osteoradionecrosis of the mandible, oral leukoedema, burning mouth syndrome) also have no plausible mechanism and no clinical evidence. They look like knowledge-graph artifacts.
 
 ---
 
@@ -69,19 +73,25 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohort | Annals of Hematology | Rifaximin use was associated with (favoured) micafungin-resistant Candida spp. infections in allogeneic HSCT recipients — an adverse association, not a therapeutic one |
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohort | Annals of Hematology | In allogeneic stem cell transplant recipients, rifaximin prophylaxis (given to reduce gut bacterial infections and graft-versus-host disease) was linked to infections by micafungin-resistant Candida species. |
+
+A related candidiasis prediction (rank 6) also cites a multicentre case-control study of candidaemia risk factors in hospitalized patients with liver cirrhosis ([PMID 32360775](https://pubmed.ncbi.nlm.nih.gov/32360775/), 2021). Whether rifaximin was a significant factor is unclear and needs full-text review.
 
 ---
 
 ## Canada Market Information
 
-Rifaximin is not currently marketed in Canada; no DIN records are on file for this evidence pack (0 licenses).
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2410702 | ZAXINE | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: TFDA label warnings/contraindications are flagged as a **blocking data gap (DG001)** — this must be resolved before any safety-based go decision can be made.
+Please refer to the package insert for safety information. No drug interaction records were found.
+
+The published cohort suggests that rifaximin use may favour resistant Candida infections in immunocompromised transplant patients. This should be treated as a risk to evaluate, not as evidence of benefit.
 
 ---
 
@@ -90,13 +100,13 @@ Please refer to the package insert for safety information. Note: TFDA label warn
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Oral Candidiasis) carries only Evidence Level L4, with zero clinical trials and a single cohort study whose finding actually contradicts a therapeutic role for rifaximin in candidiasis. Combined with a blocking gap on TFDA safety labeling and missing mechanism-of-action data, there is currently no basis to advance this candidate.
+Rifaximin has no known antifungal activity, and no trials support oral candidiasis. The only literature suggests a harmful association. The high model score is likely a graph artifact.
 
 **To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (blocking gap DG001)
-- Confirmed mechanism of action (DG002) to evaluate biological plausibility
-- Independent literature or trial evidence clarifying whether rifaximin is protective or causative for candidiasis before any further evaluation
-- Re-review of lower-ranked candidates (all currently L5, no evidence) only if new data emerges
+- Health Canada package insert warnings and contraindications
+- Mechanism of action data, to confirm there is no antifungal activity
+- Full-text review of PMID 34180023 and PMID 32360775 to assess the Candida resistance risk
+- Any in vitro or clinical evidence of antifungal or anti-oral-candidiasis effect, before further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

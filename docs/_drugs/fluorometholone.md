@@ -2,7 +2,7 @@
 layout: default
 title: Fluorometholone
 parent: Model Prediction Only (L5)
-nav_order: 337
+nav_order: 394
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,102 +29,61 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorometholone: From Ophthalmic Inflammation to Postinfectious Vasculitis
+# Fluorometholone: From Topical Ocular Corticosteroid to Postinfectious Vasculitis
 
 ## One-Sentence Summary
 
-Fluorometholone (FML) is a topical ophthalmic corticosteroid used for allergic and inflammatory eye conditions, not currently registered in Canada.
-The TxGNN model's top prediction is **Postinfectious Vasculitis** (score 99.91%), though this indication has **no clinical trial or literature support**.
-Across all 10 predicted indications, the strongest clinical evidence belongs to **Post-bacterial Disorder** (rank 2), backed by **2 clinical trials** totalling 328 patients.
-
----
+Fluorometholone is a topical ophthalmic corticosteroid with general anti-inflammatory activity.
+The TxGNN model predicts it may be effective for **postinfectious vasculitis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Canada; known ophthalmic anti-inflammatory use |
-| Predicted New Indication | Postinfectious Vasculitis (rank 1) |
+|------|------|
+| Predicted New Indication | Postinfectious vasculitis |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 (model prediction only — for rank 1) |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Hold (rank 1) / Proceed with Guardrails (rank 2) |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not currently available. Based on known information, fluorometholone is a topical ocular corticosteroid. Its anti-inflammatory effect is established in eye conditions, and mechanistically it could be relevant to inflammatory disease more broadly.
 
-Detailed mechanism of action data is not currently available in the dataset. Based on established pharmacology, fluorometholone is a fluorinated glucocorticoid formulated exclusively for ophthalmic topical use. It exerts anti-inflammatory effects primarily by suppressing the NF-κB signalling pathway and reducing pro-inflammatory cytokines (IL-1β, TNF-α), with a well-recognised advantage of lower intraocular pressure (IOP)-elevating potential compared to prednisolone acetate or dexamethasone.
-
-The TxGNN prediction of efficacy in postinfectious vasculitis draws on corticosteroids' general ability to suppress immune-mediated vascular inflammation. However, there is a fundamental pharmacokinetic mismatch: fluorometholone is designed as a topical ophthalmic preparation with negligible systemic bioavailability. It cannot achieve therapeutic plasma concentrations needed to treat systemic vascular conditions, making the rank 1 prediction mechanistically plausible at the class level but pharmacologically non-viable for this specific drug.
-
-The biologically coherent cluster among all 10 predictions centres on **post-infectious ocular inflammatory states** — particularly post-bacterial corneal disorders (rank 2) and punctate epithelial keratoconjunctivitis (rank 6) — where fluorometholone's known ophthalmic mechanism, route of administration, and tissue distribution directly align with the pathology.
-
----
+The link to postinfectious vasculitis is weak. Vasculitis is a systemic inflammatory condition, and ophthalmic use gives minimal systemic exposure, so a meaningful effect on it is speculative. The high TxGNN score (99.91%) reflects the model's pattern-matching in the knowledge graph. No trial or publication backs it up, and the route of administration does not fit the target disease.
 
 ## Clinical Trial Evidence
 
-> The following trials are drawn from **Post-bacterial Disorder (rank 2)**, the best-evidenced prediction. The top-ranked indication (postinfectious vasculitis) has no registered clinical trials.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07308938](https://clinicaltrials.gov/study/NCT07308938) | Phase 2 | Not Yet Recruiting | 174 | Fluorometholone 0.1% as adjunctive therapy to topical antibiotics for bacterial corneal ulcers; primary endpoint: best-corrected visual acuity (BCVA) at 3 months. Well-powered, mature design. |
-| [NCT01949454](https://clinicaltrials.gov/study/NCT01949454) | N/A | Completed | 154 | Perioperative fluorometholone following trachoma-related trichiasis surgery (Chlamydia trachomatis infection); evaluates whether post-operative anti-inflammatory therapy reduces recurrent trichiasis and scarring. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-> The following publications relate to **Punctate Epithelial Keratoconjunctivitis (rank 6)**, the only predicted indication with literature support.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35128186](https://pubmed.ncbi.nlm.nih.gov/35128186/) | 2021 | Observational / Diagnostic | Journal of Current Ophthalmology | AS-OCT imaging characterises epidemic keratoconjunctivitis (EKC) phases and demonstrates measurable impact of topical steroid on disease course |
-| [34011737](https://pubmed.ncbi.nlm.nih.gov/34011737/) | 2021 | Case Series / Review | Indian Journal of Ophthalmology | Characterises sequelae of microsporidial keratoconjunctivitis and outlines management including anti-inflammatory approaches |
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Fluorometholone is **not currently marketed in Canada** — no DINs are on record in the source dataset, and no approved indications are available for review.
-
-> **Note:** Fluorometholone ophthalmic preparations (e.g., FML® 0.1% eye drops) are marketed in multiple international jurisdictions including the United States. A direct query to Health Canada's Drug Product Database (DPD) is recommended to confirm whether any historical or current DIN exists, as this may represent a data gap rather than a true absence from the Canadian market.
-
----
+| DIN | Product Name |
+|---------|------|
+| 247855 | FML |
+| 432814 | SANDOZ FLUOROMETHOLONE |
 
 ## Safety Considerations
 
-Complete safety data is not available in the current dataset. The following considerations are based on drug class pharmacology and should be verified against the product monograph:
-
-- **Intraocular pressure elevation**: Steroid-induced ocular hypertension is a class risk for all ophthalmic corticosteroids. Fluorometholone has a lower IOP-elevating profile than prednisolone or dexamethasone, but IOP monitoring remains necessary for courses exceeding 10 days.
-- **Risk of masking infection**: Topical corticosteroids may suppress visible signs of ocular infection. Use without adequate antimicrobial coverage in bacterial or viral settings carries risk of infection spread or worsening.
-- **Contraindications (class-based)**: Generally contraindicated in active herpes simplex viral keratitis; use with caution in fungal or mycobacterial ocular infections.
-- **Safety signal for rank 7 (infection-related HUS) and rank 8 (Chagas cardiomyopathy)**: Corticosteroid use may worsen STEC-mediated toxin injury in HUS, and may promote Trypanosoma cruzi reactivation in Chagas disease. These predictions carry explicit safety concerns and should not be pursued.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold — Rank 1 (Postinfectious Vasculitis)**
+**Decision: Hold**
 
 **Rationale:**
-Fluorometholone's negligible systemic bioavailability makes it pharmacologically unsuitable for treating systemic vascular inflammation. The rank 1 TxGNN prediction is mechanistically coherent at the corticosteroid class level but non-viable for this specific topical formulation. No clinical or literature evidence exists to support further investigation.
+The prediction rests on a model score alone (L5). There are no trials or literature, and a topical ocular steroid has no plausible systemic effect on vasculitis. The other predictions in this pack are more promising. Post-bacterial disorder (bacterial corneal ulcers) has one Phase 2 trial, NCT07308938, which is not yet recruiting. Punctate epithelial keratoconjunctivitis has two indirect papers. Both are graded L4 and are better candidates for follow-up than this top-ranked one.
 
----
-
-**Secondary Decision: Proceed with Guardrails — Rank 2 (Post-bacterial Disorder)**
-
-**Rationale:**
-The most actionable repurposing opportunity is bacterial corneal ulcer adjunctive therapy (NCT07308938, Phase 2, n=174), directly aligned with fluorometholone's ophthalmic route and anti-inflammatory mechanism. This is a drug-in-class effect, and the trial design is statistically powered.
-
-**To proceed with rank 2 investigation, the following is needed:**
-- Confirm Health Canada DPD status (whether FML ophthalmic is registered under any DIN not captured in this dataset)
-- Retrieve full MOA data from DrugBank (data gap DG002)
-- Obtain TFDA package insert warnings and contraindications (data gap DG001)
-- Establish IOP monitoring guardrails for any protocol using fluorometholone beyond standard duration
-- Monitor NCT07308938 results (expected completion December 2030)
-- Review NCT01949454 full results for lessons on perioperative anti-inflammatory dosing in infectious disease contexts
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data, for example from DrugBank
+- Any trial or literature evidence directly linking fluorometholone to postinfectious vasculitis
+- A route and formulation compatibility assessment, since only ophthalmic products are marketed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

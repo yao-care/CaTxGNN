@@ -2,7 +2,7 @@
 layout: default
 title: Ibuprofen
 parent: Model Prediction Only (L5)
-nav_order: 390
+nav_order: 458
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Ibuprofen: From NSAID (Pain/Inflammation) to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ibuprofen: From Pain and Inflammation (NSAID) to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Ibuprofen is a globally established nonsteroidal anti-inflammatory drug (NSAID) that inhibits COX-1/COX-2 and is conventionally used for pain, fever, and inflammation; no Canadian market authorization record is present in this evidence pack.
-The TxGNN model predicts it may be relevant to **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare GDF5-gene-mutation skeletal dysplasia, but this is currently supported by **0 clinical trials** and **0 publications** — the prediction rests entirely on knowledge-graph embedding similarity, and the evidence pack's own mechanistic rationale states there is **no known biological connection** between COX inhibition and this structural/developmental disorder.
+Ibuprofen is a widely marketed non-steroidal anti-inflammatory drug (NSAID), generally used for pain and inflammation.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare skeletal disorder.
+Currently there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ---
 
@@ -42,23 +43,27 @@ The TxGNN model predicts it may be relevant to **Acromesomelic Dysplasia, Hunter
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from Canadian regulatory data (no licenses on file; drug currently Not marketed/Not Marketed in Canada). Ibuprofen is universally known as an NSAID for pain, fever, and inflammation, but this is general pharmacological knowledge, not sourced from the regulatory dataset. |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
+| Original Indication | Not listed in the license data (general NSAID use: pain and inflammation) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 (model prediction only — no clinical trials, no literature) |
-| Canada Market Status | ✗ Not Marketed (Not marketed) |
-| Number of DINs | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed, drug-specific mechanism-of-action documentation is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on well-established pharmacological knowledge, Ibuprofen acts as a **COX-1/COX-2 inhibitor**, blocking prostaglandin synthesis to reduce pain, fever, and inflammation.
+Currently, detailed mechanism of action data for ibuprofen is not available in the input. Ibuprofen is known as a non-selective COX inhibitor, and its use in pain and inflammation is well established. Based on the data provided, however, no supported mechanistic link to the predicted disease could be identified.
 
-Acromesomelic Dysplasia, Hunter-Thompson Type, however, is caused by mutations in **GDF5**, a gene governing cartilage and joint morphogenesis. Its pathology is structural/developmental (abnormal skeletal patterning), not inflammation-mediated. The evidence pack's own repurposing rationale is explicit on this point: there is **no known mechanistic link** between prostaglandin-pathway inhibition and GDF5-driven skeletal dysplasia.
+Acromesomelic dysplasia, Hunter-Thompson type is a rare skeletal dysplasia. It has been reported as linked to loss-of-function of CDMP1/GDF5, a growth factor in the BMP pathway. Ibuprofen has no known action on this pathway. The very high TxGNN score (0.997, model rank 5,670) is a graph-based association only. It is not independent pharmacological evidence.
 
-In other words, the high TxGNN score (99.74%) most likely reflects graph-embedding proximity (e.g., shared metadata, co-occurring nodes, or structural similarity in the knowledge graph) rather than a plausible pharmacological pathway. Because Ibuprofen's own original-indication and MOA records are themselves incomplete in this dataset, there is also no verified baseline to compare against. This prediction should be treated as a hypothesis-generating signal only, not as evidence of therapeutic relevance.
+The other top-ranked predictions show the same pattern. They are mostly rare skeletal or developmental disorders (brachyolmia, pseudoachondroplasia, brachydactyly-syndactyly syndrome and others), and none has supporting trials or literature.
+
+- **Pseudoachondroplasia:** A theoretical anti-inflammatory rationale exists, because COMP mutations cause chondrocyte stress and inflammatory signaling. Any use would be standard symptomatic care for joint pain, not a repurposing signal.
+- **Myosclerosis:** The link is weak and speculative. An NSAID might relieve symptoms, but there is no evidence of disease modification.
+- **Developmental syndromes:** NSAID use in a developmental context also raises safety questions that would need separate evaluation.
 
 ---
 
@@ -76,32 +81,21 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-No active Health Canada market authorizations (DINs) were found for Ibuprofen in this dataset — market status is recorded as **Not marketed (Not Marketed)**, with 0 total licenses on file.
+Ibuprofen has 20 authorizations in Canada. Dosage form and approved indication text are not available in the supplied data. Five main products are listed below.
+
+| DIN | Product Name |
+|---------|------|
+| 2242632 | MOTRIN 300MG |
+| 2376598 | IBUPROFEN LIQUID GEL CAPSULES |
+| 441643 | APO-IBUPROFEN |
+| 2248231 | ADVIL EXTRA STRENGTH LIQUI-GELS |
+| 2374226 | MUSCLE & JOINT |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-Note: TFDA/Health Canada label warnings and contraindications are recorded as a **Blocking** data gap (DG001) — this absence by itself prevents the candidate from entering the S1 safety pre-assessment stage, independent of the efficacy evidence discussed above.
-
----
-
-## Other Model-Predicted Candidates (Same Drug, Not Detailed Above)
-
-For context, TxGNN generated several similarly-scored rare skeletal/developmental disease predictions for Ibuprofen in this run, none of which have clinical trial or literature support and all of which carry the same "Hold" recommendation:
-
-| Rank | Predicted Disease | TxGNN Score | Evidence Level | Decision |
-|------|-------------------|-------------|-----------------|----------|
-| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.71% | L5 | Hold |
-| 3 | Myosclerosis | 99.68% | L5 | Hold |
-| 4 | Brachyolmia | 99.67% | L5 | Hold |
-| 5 | Brachydactyly-syndactyly syndrome | 99.66% | L5 | Hold |
-| 6 | Pseudoachondroplasia | 99.66% | L5 | Hold |
-| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.60% | L5 | Hold |
-
-The clustering of Ibuprofen's top predictions around rare structural/skeletal dysplasias — rather than inflammation-related conditions — further supports the interpretation that these scores reflect knowledge-graph artifacts rather than genuine mechanistic candidates.
+Please refer to the package insert for safety information. No drug interaction records were found in the queried data.
 
 ---
 
@@ -110,14 +104,16 @@ The clustering of Ibuprofen's top predictions around rare structural/skeletal dy
 **Decision: Hold**
 
 **Rationale:**
-- The prediction has no clinical trial or literature support (Evidence Level L5), and the evidence pack's own mechanistic rationale states there is no known biological link between Ibuprofen's COX-inhibition mechanism and this GDF5-driven skeletal dysplasia.
-- A Blocking-severity data gap (missing TFDA/Health Canada label warnings and contraindications) independently prevents this candidate from entering safety pre-assessment, and the drug currently has no active Canadian market authorization.
+The prediction is model-only (L5), with no clinical trials, no literature and no plausible COX-inhibition-dependent mechanism for this rare skeletal dysplasia. Ibuprofen's original mechanism and safety data are also missing, so the evaluation cannot progress to safety screening.
 
 **To proceed, the following is needed:**
-- Health Canada / TFDA product monograph data (warnings, contraindications) to resolve the Blocking data gap (DG001)
-- Confirmed original indication and MOA data for Ibuprofen (DG002)
-- Any preclinical or mechanistic studies specifically linking prostaglandin-pathway modulation to GDF5-related skeletal development, if such a hypothesis is to be pursued further
-- Given the consistent lack of mechanistic and empirical support across all top-ranked predictions for this drug, reprioritization toward other TxGNN candidates with plausible mechanistic rationale is recommended before committing further review resources here
+- Health Canada package insert warnings and contraindications (blocking gap for safety screening)
+- Detailed mechanism of action data (for example, from DrugBank)
+- Any preclinical or clinical evidence linking ibuprofen to GDF5/BMP-pathway or skeletal dysplasia biology
+- Confirmation of the approved indications and dosage forms for the Canadian DINs
+- A separate safety assessment of NSAID use in developmental or paediatric rare-disease populations
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

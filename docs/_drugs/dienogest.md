@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dienogest
-parent: Moderate Evidence (L3-L4)
-nav_order: 240
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 279
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dienogest
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,65 +33,77 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dienogest is a fourth-generation synthetic progestin internationally approved for the treatment of endometriosis (brand name: Visanne®), though it currently holds no Health Canada approval and is not marketed in Canada.
-The TxGNN model predicts it may be effective for **Amenorrhea**, with **4 clinical trials** and **6 publications** available to assess this direction.
-However, a critical mechanistic paradox exists: amenorrhea is a well-documented **pharmacological consequence** of Dienogest therapy — the drug reliably induces amenorrhea as part of its mechanism in endometriosis — rather than a condition it is designed to treat.
+Dienogest is a progestin used to treat endometriosis. The Canadian licence records in the Evidence Pack contain no indication text, so this is inferred from the linked trials and literature. The TxGNN model predicts it may be effective for **amenorrhea**, but **none of the 4 linked clinical trials and none of the 6 linked publications tests dienogest as a treatment for amenorrhea**. Amenorrhea is a known effect of dienogest, not a therapeutic target.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Endometriosis (established internationally; not approved in Canada) |
+|------|------|
+| Original Indication | Endometriosis (inferred from linked studies; licence indication text is empty) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (the Evidence Pack lists L4, but only indirect endometriosis studies are linked) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the formal database record for Dienogest. Based on known information from the clinical trial literature, Dienogest belongs to the fourth-generation progestin class with selective progesterone receptor agonist activity and minimal androgenic or estrogenic effects. Its efficacy in endometriosis has been well established across multiple Phase 3 trials and real-world studies. The drug works primarily by suppressing ovulation, reducing systemic and local estradiol levels, and inhibiting endometrial cell proliferation — collectively creating a hypoestrogenic, amenorrheic state that starves ectopic endometrial implants of the hormonal stimulation they require.
+Currently, detailed mechanism of action data is not available. Based on known pharmacology, dienogest is a progestin that suppresses ovulation and thins the endometrium. Its efficacy in endometriosis is established.
 
-The mechanistic link between endometriosis treatment and amenorrhea is therefore direct and established: the entire therapeutic strategy of Dienogest in endometriosis is to induce amenorrhea as a desired pharmacological effect. A 2026 pharmacological study (PMID: 41329046) explicitly states that the objective of endometriosis treatment with Dienogest is "inducing amenorrhea and a hypoestrogenic environment." In this sense, TxGNN has correctly identified the drug–amenorrhea connection.
+This is also why the prediction is doubtful. Amenorrhea is an expected effect of dienogest treatment and is often reported as an adverse effect in endometriosis patients. It is not a condition the drug treats. The high TxGNN score most likely reflects a drug-disease association in the knowledge graph (the drug causes or is linked to amenorrhea) rather than a therapeutic link.
 
-However, this connection presents a fundamental repurposing paradox. When amenorrhea is treated as the **target disease** rather than the **intended pharmacological tool**, the therapeutic logic inverts. Pathological amenorrhea — whether hypothalamic, pituitary, ovarian, or uterine in origin — requires identifying and correcting the underlying cause. A progestin that induces amenorrhea does not treat its pathological absence in secondary amenorrhea (e.g., hypothalamic dysfunction, PCOS-related anovulation) and is contraindicated in primary amenorrhea caused by hormonal insufficiency. The TxGNN model likely captured the mechanistic overlap in its knowledge graph without distinguishing between "causes amenorrhea" and "treats amenorrhea" — a distinction critical for clinical translation.
+Mechanistically, there is no evidence that suppressing menstruation would help a patient who already has amenorrhea. The prediction should be treated as a graph artifact until proven otherwise.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Phase 3 | Recruiting | 290 | Non-inferiority RCT comparing Indinol Forto® 200 mg vs Visanne® (Dienogest 2 mg) in endometriosis; amenorrhea induction rate available as secondary endpoint data |
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | Completed | 968 | Real-world observational study (VISANNE OS) of Dienogest for endometriosis; amenorrhea documented as a treatment-related outcome, not the study's primary therapeutic target |
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | Completed | 895 | Prospective observational cohort in Asian women with endometriosis; characterized quality of life, long-term safety, and menstrual pattern changes including amenorrhea rates |
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Active, Not Recruiting | 138 | Compares Dienogest + transdermal estradiol vs drospirenone for endometriosis; evaluates patient satisfaction and tolerability including bleeding pattern changes |
+All four linked trials study endometriosis, not amenorrhea.
 
-> **Note:** None of the identified trials were designed to treat pathological amenorrhea as a primary indication. Amenorrhea appears as a secondary outcome, adverse event record, or expected pharmacological effect within endometriosis studies.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A (observational) | Completed | 968 | Real-world dienogest (Visanne) treatment of endometriosis; amenorrhea is not the target |
+| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A (observational) | Completed | 895 | Quality-of-life and long-term safety of dienogest in Asian women with endometriosis |
+| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Phase 3 | Recruiting | 290 | Non-inferiority RCT of Indinol Forto vs Visanne 2 mg in endometriosis; no results yet |
+| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Active, not recruiting | 138 | Compares two progestin regimens including transdermal estradiol-dienogest in endometriosis, focused on patient satisfaction |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematic Review + Bayesian Analysis | BMC Pharmacology & Toxicology | Comprehensive summary of adverse events from Dienogest in endometriosis/adenomyosis; abnormal uterine bleeding and amenorrhea among the most prevalent treatment-related events |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Narrative Review | Reviews in Endocrine & Metabolic Disorders | Reviews hormonal treatment landscape for endometriosis; estrogen-dependency and progesterone-resistance identified as key pathogenetic mechanisms; supports progestin-induced amenorrhea as the core therapeutic strategy |
-| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Pharmacological/Translational Study | European Journal of Contraception & Reproductive Health Care | Reports high inhibition ratio and transformation index for Dienogest 2 mg; the stated treatment objective is explicitly "inducing amenorrhea and a hypoestrogenic environment" |
-| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Prospective Cohort | Reproductive Sciences | Long-term efficacy and safety of Dienogest in ovarian endometrioma (n=514, ≥12 months); documents amenorrhea rates longitudinally and recurrence prevention |
-| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Clinical Review | Journal of Pediatric & Adolescent Gynecology | Discusses advanced visualization for obstructive Müllerian anomalies; Dienogest used as bridging medical management for amenorrhea caused by outflow tract obstruction (indirect relevance only) |
-| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Case Report | Medicine | Ovarian granulosa cell tumor in a patient with PCOS; hormonal background relates to anovulation/amenorrhea but has no direct relevance to Dienogest repurposing |
+|------|-----|------|---------|---------|
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Systematic Review | BMC Pharmacol Toxicol | Bayesian analysis of adverse events with dienogest in endometriosis and adenomyosis |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | Endocrine background of hormonal treatments for endometriosis |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Retrospective cohort | Reprod Sci | Long-term efficacy and safety of dienogest in 514 women with ovarian endometrioma |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Other | Eur J Contracept Reprod Health Care | Supports 2 mg dienogest for endometriosis; notes treatment aims to induce amenorrhoea and a hypoestrogenic state |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Review | J Pediatr Adolesc Gynecol | 3-D and VR visualization for Müllerian anomalies; not about dienogest treatment |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Case report | Medicine | Ovarian granulosa cell tumor in a patient with PCOS; not about dienogest treatment |
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2374900 | VISANNE |
+| 2493055 | ASPEN-DIENOGEST |
+| 2498189 | JAMP DIENOGEST |
+| 2543613 | M-DIENOGEST |
+| 2551683 | MAR-DIENOGEST |
+
+Dosage form and approved indication text were not provided for these authorizations.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -100,16 +112,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score is high (99.71%), but it reflects a mechanistic artefact rather than a genuine repurposing opportunity: Dienogest reliably *causes* amenorrhea as part of its established mechanism of action in endometriosis, and no clinical evidence exists for its use in treating pathological amenorrhea as a primary condition. The evidence package (L4) documents this drug–amenorrhea association only as a pharmacological side effect or desired treatment outcome within endometriosis studies, not as a new therapeutic indication.
+No study tests dienogest as a treatment for amenorrhea, and amenorrhea is a known effect of the drug. The high TxGNN score most likely reflects a knowledge-graph association rather than a therapeutic link. The other nine predictions (primary ovarian failure, breast fibrocystic disease, isolated growth hormone deficiency, and others) are also Hold, with no supporting evidence or a contradictory mechanism.
 
 **To proceed, the following is needed:**
-- Define the specific type of amenorrhea being considered (hypothalamic, pituitary, ovarian, or uterine) — each subtype requires a fundamentally different therapeutic approach, and Dienogest may be inappropriate or contraindicated for most
-- Clarify whether the clinical question is "therapeutic amenorrhea induction" (e.g., in adolescents with severe dysmenorrhea or endometriosis who lack a formal endometriosis diagnosis) — if so, this is better framed as an expanded use of the existing endometriosis indication rather than true repurposing
-- Obtain full pharmacokinetic and MOA data from DrugBank to complete mechanistic analysis
-- Download and review the originator product (Visanne®) package insert for warnings and contraindications, particularly regarding amenorrhea-related endocrine effects
-- Before any advancement, conduct a structured literature review specifically targeting "Dienogest AND amenorrhea treatment" (not endometriosis) to confirm the absence of any prospective clinical evidence supporting this as a therapeutic target
-
-> ⚠️ **Research Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
+- Confirmation of the approved indication from Health Canada product monographs, since the licence records are empty
+- Health Canada package insert warnings and contraindications
+- Mechanism of action data from DrugBank
+- Any clinical evidence that dienogest treats amenorrhea, without which this candidate should not advance
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Danazol
-parent: High Evidence (L1-L2)
-nav_order: 211
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 244
+evidence_level: L3
 indication_count: 10
 ---
 
 # Danazol
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,87 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Danazol: From Endometriosis to Amenorrhea
+# Danazol: From Endometriosis to Amenorrhea (Menstrual Suppression)
 
 ## One-Sentence Summary
 
-Danazol is a synthetic attenuated androgen (derivative of 17α-ethinyltestosterone) historically used for endometriosis, fibrocystic breast disease, and hereditary angioedema, though it is not currently marketed in Canada.
-The TxGNN model predicts it may be effective for **Amenorrhea (disease)** as a formal therapeutic indication,
-with **0 registered clinical trials** and **20 publications** currently supporting this direction.
-
----
+Danazol is a synthetic androgen used for endometriosis, benign fibrocystic breast disease and hereditary angioedema.
+The TxGNN model predicts it may be useful for **amenorrhea**, which is better framed as **menstrual suppression**.
+Support consists of **0 registered clinical trials** and **20 publications**, mostly reviews, older comparative studies and one 2024 retrospective cohort.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Endometriosis, fibrocystic breast disease, hereditary angioedema (US FDA–approved; no Canadian DINs issued) |
-| Predicted New Indication | Amenorrhea (disease) |
+|------|------|
+| Original Indication | Endometriosis, benign fibrocystic breast disease, hereditary angioedema (from FDA labeling cited in the literature; the licence records supplied contain no indication text) |
+| Predicted New Indication | Amenorrhea (menstrual suppression) |
 | TxGNN Prediction Score | 99.9995% |
-| Evidence Level | L2 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L3 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on well-established pharmacological knowledge from the literature, Danazol is a synthetic impeded androgen that acts through multiple complementary pathways: it suppresses the hypothalamic-pituitary-ovarian (HPO) axis by inhibiting pulsatile LH and FSH secretion, directly reduces gonadal and adrenal steroidogenesis via specific enzyme systems, and binds androgen and progesterone receptors in endometrial tissue — collectively causing endometrial atrophy and a hypoestrogenic state. These actions reliably produce amenorrhea as a measurable pharmacodynamic endpoint (PMID 2404115, 6819580).
+Detailed mechanism of action data is not available in the input. Based on general pharmacology and the literature, danazol suppresses the pituitary-ovarian axis (lower FSH/LH, inhibited ovarian steroidogenesis) and causes endometrial atrophy.
 
-The relationship between Danazol's approved indications and amenorrhea is mechanistically direct rather than coincidental. In the treatment of endometriosis, amenorrhea is not a side effect to be managed but a therapeutic goal: estrogen-dependent endometrial lesions regress when deprived of hormonal stimulation during the anovulatory, amenorrheic state induced by Danazol (PMID 16280355). The same HPO suppression mechanism underlies its long-standing use in hereditary angioedema, where irregular menstruation is a documented consequence of the drug's systemic hormonal effects (PMID 2013670).
+Amenorrhea is therefore an expected pharmacological effect of danazol, and it is also the therapeutic goal in endometriosis. The prediction is consistent with known biology. It is less a new disease treatment than a new use of a known effect, as in the recent report of menstrual suppression in transgender and nonbinary patients.
 
-The TxGNN model's prediction is therefore pharmacologically highly plausible. The evidence base spans from classical RCTs in endometriosis (PMID 2140996, 2523321) to a contemporary retrospective cohort documenting deliberate amenorrhea induction with Danazol in transgender and nonbinary individuals (PMID 39051650, 2024). This modern use case demonstrates that the drug's amenorrheic effect is not only established but is being actively leveraged as a primary therapeutic target in clinical practice.
-
----
+Direct evidence for amenorrhea as a stand-alone indication is thin. The linked literature mostly concerns endometriosis, where amenorrhea is a treatment endpoint. The 2024 cohort also notes reversible androgenic side effects, which limit the risk-benefit case.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [2140996](https://pubmed.ncbi.nlm.nih.gov/2140996/) | 1990 | RCT | *Fertility and Sterility* | Double-blind RCT of nafarelin 400 µg/d vs danazol 600 mg/d in 82 endometriosis patients over 6 months; both produced significant active disease regression, with amenorrhea as the central pharmacodynamic endpoint |
-| [2523321](https://pubmed.ncbi.nlm.nih.gov/2523321/) | 1989 | RCT | *Fertility and Sterility* | RCT comparing gestrinone twice-weekly vs danazol 600 mg/d in 39 infertile patients with endometriosis; amenorrhea achievement was the primary treatment criterion, with dose escalation mandated if not attained within 1 month |
-| [36434439](https://pubmed.ncbi.nlm.nih.gov/36434439/) | 2023 | Systematic Review | *Archives of Gynecology and Obstetrics* | Systematic review and meta-analysis of gestrinone for endometriosis; contextualises amenorrhea induction as a shared mechanism of action with danazol class agents, supporting transferability of evidence |
-| [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | Retrospective Cohort | *Women's Health* | Multi-site cohort of transgender/nonbinary individuals using Danazol specifically for menstrual suppression; directly quantifies amenorrhea induction rates and androgenic side-effect profile in a modern clinical context |
-| [6819580](https://pubmed.ncbi.nlm.nih.gov/6819580/) | 1982 | Clinical Study | *Progress in Clinical and Biological Research* | Early foundational study demonstrating Danazol's suppression of ovarian function and gonadotropin secretion, with amenorrhea as the mechanism enabling endometriosis regression and subsequent fertility improvement |
-| [2404115](https://pubmed.ncbi.nlm.nih.gov/2404115/) | 1990 | Review | *The Journal of Reproductive Medicine* | Comprehensive mechanistic review: Danazol binds steroid transport proteins and tissue receptors, centrally inhibits gonadotropins, suppresses steroidogenesis, and exerts immunoregulatory effects — all contributing to the amenorrheic state |
-| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | *Journal of the Royal Army Medical Corps* | Comparative review of therapeutic amenorrhea induction methods; Danazol evaluated alongside GnRH analogues and continuous oral contraceptives for contexts requiring reliable menstrual suppression |
-| [16280355](https://pubmed.ncbi.nlm.nih.gov/16280355/) | 2006 | Review | *Human Reproduction Update* | Endometriosis lesions become inactive and regress during ovarian down-regulation states such as amenorrhea or menopause; frames danazol-induced amenorrhea as the mechanistic basis of efficacy |
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | *Menopause* | Evidence-based review of pharmacological options for abnormal uterine bleeding; Danazol cited as effective for heavy menstrual bleeding reduction and amenorrhea induction, with consideration of adverse effect profile |
-| [2013670](https://pubmed.ncbi.nlm.nih.gov/2013670/) | 1991 | Clinical Study | *Journal of Allergy and Clinical Immunology* | 13-year long-term follow-up of 56 hereditary angioedema patients on attenuated androgens (danazol ≤200 mg/d); irregular menstruation documented as a consistent systemic effect, confirming sustained HPO suppression at maintenance doses |
+The abstracts supplied are truncated, so amenorrhea-specific outcomes are not always visible. Study designs marked "not verified" could not be confirmed from the title or abstract.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2140996](https://pubmed.ncbi.nlm.nih.gov/2140996/) | 1990 | Double-blind randomized study | Fertil Steril | Nafarelin 400 µg/day vs danazol 600 mg/day for 6 months in 82 endometriosis patients. Both significantly reduced active disease but not adhesions. |
+| [6210867](https://pubmed.ncbi.nlm.nih.gov/6210867/) | 1982 | Double-blind dose comparison | Obstet Gynecol | Danazol 100, 200, 400 or 600 mg/day for 6 months in 27 women with endometriosis. Clinical improvement varied with dose. |
+| [2523321](https://pubmed.ncbi.nlm.nih.gov/2523321/) | 1989 | Randomized comparative study | Fertil Steril | Gestrinone vs danazol 600 mg/day for 6 months in 39 infertile women with endometriosis. Amenorrhea at 1 month determined dose escalation. |
+| [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | Retrospective multi-site cohort | Women's Health (Lond) | Danazol used for menstrual suppression in transgender individuals. It can induce amenorrhea and reversible androgenic effects such as vellus hair pigmentation and voice changes. |
+| [2404115](https://pubmed.ncbi.nlm.nih.gov/2404115/) | 1990 | Review | J Reprod Med | Danazol inhibits gonadotropins, suppresses gonadal and adrenal steroidogenesis, and has immunoregulatory effects. |
+| [16280355](https://pubmed.ncbi.nlm.nih.gov/16280355/) | 2006 | Review | Hum Reprod Update | Endometriosis lesions regress during ovarian down-regulation states such as amenorrhoea. |
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based overview of drug therapy for abnormal uterine bleeding. |
+| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | Reviews induction of amenorrhoea, including continuous oral contraceptives and a GnRH analogue. |
+| [36434439](https://pubmed.ncbi.nlm.nih.gov/36434439/) | 2023 | Systematic review and meta-analysis | Arch Gynecol Obstet | Concerns gestrinone, not danazol, so it is indirect evidence. Gestrinone induces endometrial atrophy and/or amenorrhea. |
+| [6819580](https://pubmed.ncbi.nlm.nih.gov/6819580/) | 1982 | Clinical study (design not verified) | Prog Clin Biol Res | Danazol in endometriosis and infertility. It suppresses ovarian function. |
 
 ## Canada Market Information
 
-Danazol is currently **not marketed in Canada**. Health Canada has issued no Drug Identification Numbers (DINs) for any formulation of Danazol. Any clinical use in Canada would require an importation authorization or a Special Access Programme (SAP) request.
+| DIN | Product Name |
+|---------|------|
+| 2018160 | CYCLOMEN |
+| 2018152 | CYCLOMEN |
 
----
+The licence records supplied contain no dosage form, manufacturer or approved indication text.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. Drug interaction records were not found.
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not available in this evidence pack. Clinicians should be aware that Danazol carries androgenic and anabolic effects (virilization, acne, voice changes), hepatotoxicity risk, and is absolutely contraindicated in pregnancy and breastfeeding. Drug interaction data with warfarin and statins (e.g., lovastatin — risk of rhabdomyolysis and pancreatitis, PMID 18691993) have been reported in the broader literature.
-
----
+From the literature only, not from labeling:
+- **Androgenic effects**: reversible vellus hair pigmentation and voice changes were reported when danazol was used for menstrual suppression (PMID 39051650).
+- **Drug interaction case report**: rhabdomyolysis and pancreatitis with danazol 600 mg/day plus lovastatin 40 mg/day (PMID 18691993).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction is mechanistically highly credible — amenorrhea is an established, deliberate pharmacodynamic outcome of Danazol therapy supported by RCT-level evidence and decades of clinical use, and contemporary literature documents active exploitation of this effect for menstrual suppression. However, Danazol is not currently marketed in Canada, formal regulatory and safety documentation is unavailable, and the specific amenorrhea subtype (functional hypothalamic, drug-induced suppression, or otherwise) requiring treatment must be defined before clinical translation.
+The link between danazol and amenorrhea is pharmacologically expected, but the evidence is L3 and largely indirect. There are no registered trials, and the studies are mostly older endometriosis work. Safety data from the package insert is missing, which blocks the safety screening step.
 
 **To proceed, the following is needed:**
-- Clarify the target amenorrhea subtype (e.g., functional hypothalamic amenorrhea vs. therapeutic menstrual suppression) to define the precise patient population
-- Assess Health Canada regulatory pathway: Special Access Programme, New Drug Submission, or indication-specific off-label framework
-- Retrieve complete Canadian product monograph or FDA prescribing information to populate safety warnings, contraindications, and drug interactions
-- Conduct a comparative effectiveness review vs. established alternatives (GnRH analogues, levonorgestrel IUD, combined oral contraceptives) for the target indication
-- Develop a pharmacovigilance and monitoring plan addressing androgenic adverse effects, hepatotoxicity, and teratogenicity risk in women of reproductive age
+- Health Canada package insert warnings and contraindications
+- Mechanism of action data from DrugBank
+- Approved indication text for the Canadian licences
+- Decision on whether the target is menstrual suppression or treatment of a disease, with attention to androgenic adverse effects
+- Full-text review of the 2024 cohort and the older comparative studies, to confirm designs and amenorrhea rates
+
+Among the other predictions, **benign mammary dysplasia** (L3, direct danazol studies including a randomized double-blind trial, PMID 3074777) and **breast adenosis** (L3) have stronger direct support and may deserve prioritization.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

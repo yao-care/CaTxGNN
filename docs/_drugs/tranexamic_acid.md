@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tranexamic Acid
-parent: Moderate Evidence (L3-L4)
-nav_order: 790
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 923
+evidence_level: L5
 indication_count: 1
 ---
 
 # Tranexamic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,65 +29,90 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Tranexamic Acid: From Antifibrinolytic Therapy to Amenorrhea
+# Tranexamic Acid: From Antifibrinolytic Use to Amenorrhea
 
 ## One-Sentence Summary
 
-Tranexamic acid is an antifibrinolytic agent; detailed original-indication and regulatory data are not available in the current evidence pack, and the drug is not currently marketed in Canada. The TxGNN model predicts possible relevance to **Amenorrhea**, but this direction is supported only by **2 review-level publications** and **no clinical trials**, and the mechanistic review embedded in this evidence pack flags the prediction as likely implausible.
+Tranexamic acid is an antifibrinolytic medicine marketed in Canada as injection and tablet products, and it is generally used to reduce bleeding.
+The TxGNN model predicts it may be relevant to **amenorrhea**, but there are **0 clinical trials** and only **2 indirect review publications** behind this prediction.
+The link is probably a knowledge-graph association with menstrual disorders, not a real therapeutic effect.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in current evidence pack (no regulatory license or indication text on file) |
+| Original Indication | Not listed in the Canadian licence records provided |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.19% |
-| Evidence Level | L4 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (as assigned in the Evidence Pack; only indirect narrative reviews, no trials) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 12 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-A structured mechanism/original-indication field is not available for this drug (blocking data gap). However, the evidence pack's mechanistic review confirms tranexamic acid's well-established pharmacology: it is an **antifibrinolytic** that competitively blocks the lysine-binding sites on plasminogen, preventing its conversion to plasmin and thereby reducing fibrin degradation. Clinically, this mechanism is used to **reduce bleeding** — e.g., in heavy menstrual bleeding (menorrhagia), surgical bleeding, and hereditary angioedema.
+Detailed mechanism of action data is not available in the input. Tranexamic acid is known as an antifibrinolytic that reduces blood loss, including menstrual blood loss. It does not suppress ovulation or the endometrial cycle.
 
-This mechanism points in the *opposite* pharmacological direction from the predicted indication. Amenorrhea is the absence of menstrual bleeding, whereas tranexamic acid's known clinical use is to control excessive bleeding. The two supporting literature items found also discuss tranexamic acid in the context of **menstrual suppression protocols in bleeding-risk patients** (e.g., hematologic cancer patients on cytotoxic therapy) and **abnormal uterine bleeding management** — i.e., tranexamic acid as an adjunct hemostatic agent, not as a treatment for absent menstruation.
+Amenorrhea means the absence of menstruation, which is a different outcome from reducing bleeding. The two retrieved publications cover abnormal uterine bleeding and menses suppression in general. In those settings, tranexamic acid is likely discussed as an adjunct for bleeding reduction, while amenorrhea is achieved with hormonal agents.
 
-The most likely explanation is that this is a **knowledge-graph embedding artifact**: "amenorrhea" and "menorrhagia/abnormal uterine bleeding" occupy adjacent regions of the disease embedding space (both are menstrual-cycle-related conditions), and the model may have confused these clinically opposite states. Mechanistic relevance to the predicted indication is therefore assessed as **low**.
+The 99.19% score therefore most likely reflects a link between tranexamic acid and menstrual disorders in the knowledge graph. The mechanism does not support inducing amenorrhea, so the prediction should be treated with caution. A more plausible related direction is heavy or abnormal menstrual bleeding.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause (New York, N.Y.) | Reviews pharmacological therapies for **abnormal uterine bleeding** (excess bleeding), not amenorrhea; tranexamic acid discussed as a nonhormonal option to reduce bleeding volume. |
-| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | Journal of Oncology Pharmacy Practice | Systematic approach to **menses prophylaxis and suppression** in pre-menopausal hematologic cancer patients; tranexamic acid used as adjunct for bleeding control in cytopenic patients, not as a primary amenorrhea-inducing or amenorrhea-treating agent. |
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based overview of drug therapy for abnormal uterine bleeding. Nonhormonal options such as NSAIDs reduce bleeding by about 25–35%. Choice of therapy depends on cause, bleeding amount, contraception needs, and side effects. |
+| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | J Oncol Pharm Pract | Systematic approach to menses prophylaxis and suppression in premenopausal women with blood cancers. Notes that data comparing these therapies are scarce. The full text was not available, so the study type and content could not be fully confirmed. |
 
-Both articles are reviews (Tier 2) discussing tranexamic acid's established use in bleeding management, not direct evidence for an amenorrhea indication.
+Both papers address menstrual bleeding control in general. Neither shows that tranexamic acid induces amenorrhea.
+
+---
 
 ## Canada Market Information
 
-Tranexamic acid currently holds no active Canadian market authorizations (DINs) on file — market status is **Not Marketed**, with 0 licenses recorded in this evidence pack.
+Five of the 12 authorizations are shown below. Dosage form and approved indication text were not provided for these products.
+
+| DIN | Product Name |
+|---------|------|
+| 02246365 | Tranexamic Acid Injection BP |
+| 02409097 | GD-Tranexamic Acid |
+| 02466015 | Tranexamic Acid Injection |
+| 02531208 | Tranexamic Acid Injection |
+| 02401231 | Tranexamic Acid Tablets |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The known antifibrinolytic mechanism of tranexamic acid runs counter to the predicted "amenorrhea" indication, the supporting literature discusses the opposite clinical problem (bleeding, not absent bleeding), and there are no clinical trials — evidence level is L4 with a plausible knowledge-graph mismatch. Blocking safety data gaps (regulatory warnings/contraindications) further preclude any progression.
+The score is high, but it is a model prediction with no clinical trial support. The mechanism (reducing bleeding) does not explain amenorrhea, and the two retrieved reviews are only indirectly related. The study of tranexamic acid in menstrual bleeding is better framed as heavy menstrual bleeding than as amenorrhea.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label data — key warnings and contraindications (currently a blocking data gap, DG001)
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent source (DG002)
-- Independent verification that this is not a disease-direction inversion error in the TxGNN embedding (i.e., re-check whether the intended prediction target was menorrhagia/abnormal uterine bleeding rather than amenorrhea)
-- Any primary clinical or case-level evidence directly addressing amenorrhea, if this direction is to be pursued further
+- Health Canada package insert warnings and contraindications (required before any safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text and dosage forms for the Canadian licences
+- Full text of the 2024 review (PMID 39043214) to confirm its content and study type
+- A re-examination of whether heavy menstrual bleeding, rather than amenorrhea, is the more appropriate target indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

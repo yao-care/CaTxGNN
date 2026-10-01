@@ -2,7 +2,7 @@
 layout: default
 title: Lumacaftor
 parent: Model Prediction Only (L5)
-nav_order: 480
+nav_order: 560
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lumacaftor is a CFTR (cystic fibrosis transmembrane conductance regulator) corrector, historically used as part of combination therapy for cystic fibrosis. The TxGNN model's top-ranked prediction is **Leprosy**, with a very high similarity score (**99.44%**), but **0 clinical trials** and **0 publications** currently support this specific pairing — and the evidence pack itself flags the prediction as lacking biological plausibility.
+Lumacaftor is a CFTR corrector marketed in Canada as ORKAMBI, used for cystic fibrosis.
+The TxGNN model predicts it may be effective for **leprosy** (score 99.44%), but **0 clinical trials** and **0 publications** support this prediction.
+It is a knowledge-graph prediction only, with no drug-specific evidence.
 
 ---
 
@@ -41,49 +43,55 @@ Lumacaftor is a CFTR (cystic fibrosis transmembrane conductance regulator) corre
 
 | Item | Content |
 |------|------|
-| Original Indication | Not confirmed via Canadian license data (no marketed licenses on file); evidence context identifies Lumacaftor as a CFTR corrector, the class historically indicated for Cystic Fibrosis |
+| Original Indication | Cystic fibrosis (inferred from the product ORKAMBI and its F508del-CFTR mechanism; the licence records contain no indication text) |
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only, no supporting clinical or literature data) |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for Lumacaftor is not available in the evidence pack (flagged as data gap **DG002**, High severity). Based on the context available, Lumacaftor is a CFTR corrector, typically combined with a CFTR potentiator (e.g., ivacaftor) for cystic fibrosis; its role is to correct misfolded CFTR protein trafficking and restore chloride-channel function at the epithelial cell membrane.
+Lumacaftor corrects the folding and trafficking of F508del-CFTR, the defective protein in cystic fibrosis. It works on human epithelial protein handling. It has no known antimycobacterial or immunomodulatory activity against *Mycobacterium leprae*.
 
-The top TxGNN-predicted indication, **leprosy**, has no established mechanistic connection to CFTR biology. The evidence pack's own rationale is explicit on this point: *"無已知機轉關聯。Lumacaftor 為 CFTR 矯正劑，與痲瘋桿菌感染的免疫/抗菌機轉無交集，僅為 TxGNN 圖譜嵌入相似度預測，缺乏生物學合理性"* — i.e., there is no known mechanistic link, and this is purely a knowledge-graph embedding similarity result lacking biological plausibility. Leprosy's pathophysiology (Mycobacterium leprae infection, host immune response, and peripheral nerve damage) sits in a therapeutic domain entirely distinct from CFTR-mediated chloride transport.
+The evidence review found **no mechanistic link** between the original indication and leprosy. Cystic fibrosis is a genetic epithelial disease, while leprosy is a chronic bacterial infection with a strong immune component. The high TxGNN score reflects patterns in the knowledge graph, not pharmacological or clinical support.
 
-For transparency: this candidate pack evaluated 10 TxGNN-predicted indications for Lumacaftor overall, and every single one carries an **L5 / Hold** verdict. Where corroborating data existed (e.g., 20 PubMed hits for "migraine with or without aura, susceptibility to," or 1 clinical trial for rheumatoid arthritis, or 1 publication for pulmonary hypertension), the evidence pack's own review judged them irrelevant — the literature concerned epilepsy genetics unrelated to Lumacaftor, and the trial/literature involved cystic fibrosis patients as a study population rather than evidence of therapeutic efficacy in the new indication. In short, no candidate in this scan currently rises above a pure model-prediction signal.
+The prediction is therefore not currently plausible on mechanistic grounds. Detailed mechanism of action data is not available beyond the CFTR corrector class.
+
+The other top-10 predictions (migraine subtypes, rheumatoid arthritis, pulmonary hypertension and others) also have no supporting evidence for lumacaftor. All are graded L5 and Hold. Literature retrieved for the migraine prediction was epilepsy and migraine genetics matched by disease-name keywords, not lumacaftor data.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Lumacaftor currently holds **no Health Canada market authorization** — 0 DINs on file, market status "Not Marketed." No product licenses are available to summarize.
+| DIN | Product Name |
+|---------|------|
+| 2451379 | ORKAMBI |
+| 2483831 | ORKAMBI |
+| 2463040 | ORKAMBI |
+| 2483858 | ORKAMBI |
+| 2537087 | ORKAMBI |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug interaction data are all marked as data gaps in this evidence pack. Notably, TFDA/Health Canada label warnings and contraindications are flagged as data gap **DG001**, Blocking severity — this must be resolved before any S1 safety pre-assessment can proceed.)*
 
 ---
 
@@ -92,13 +100,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score is high (99.44%), but it is unsupported by any clinical trial or literature evidence, and the evidence pack's own mechanistic review explicitly concludes there is no biological plausibility linking a CFTR corrector to leprosy pathophysiology. Combined with the drug's non-marketed status in Canada and missing safety/MOA data, this candidate does not meet the bar to advance past model-prediction stage (S0).
+The leprosy prediction has no clinical trials, no literature and no plausible mechanism. The score alone does not justify moving forward.
 
 **To proceed, the following is needed:**
-- Health Canada / TFDA label data — key warnings and contraindications (Blocking data gap DG001)
-- Verified mechanism-of-action documentation for Lumacaftor (High-priority data gap DG002)
-- Any preclinical or mechanistic study directly linking CFTR modulation to Mycobacterium leprae infection or leprosy-related neuropathy, should this hypothesis be pursued further
-- Given that all 10 predicted indications in this scan scored L5/Hold, consider deprioritizing this drug-candidate pack pending stronger corroborating evidence, or revisit lower-ranked candidates only if new clinical/literature data emerges
+- A testable mechanistic hypothesis linking CFTR correction to *M. leprae* infection or the host response, supported by preclinical data
+- Any in vitro or animal study of lumacaftor in leprosy
+- Health Canada package insert warnings and contraindications, and the full mechanism of action from DrugBank
+- Approved indication text and dosage forms for the five DINs
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

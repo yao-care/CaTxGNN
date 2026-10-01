@@ -2,7 +2,7 @@
 layout: default
 title: Cisatracurium
 parent: Model Prediction Only (L5)
-nav_order: 175
+nav_order: 196
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cisatracurium: From Neuromuscular Blockade (Anesthesia) to Cauda Equina Syndrome
-
----
+# Cisatracurium: From Anesthesia Adjunct (Neuromuscular Blockade) to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Cisatracurium is a non-depolarizing neuromuscular blocking agent (NMBA), widely used as an adjunct to general anesthesia and ICU mechanical ventilation facilitation via its peripheral neuromuscular junction (NMJ) blockade.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This prediction is assessed as a knowledge graph artifact rather than a genuine therapeutic signal, and all 10 predicted indications in this pack carry the same L5 / Hold verdict.
+Cisatracurium is a nondepolarizing neuromuscular blocker used in anesthesia.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**,
+but there are **0 clinical trials** and **0 publications** supporting this direction, and the pharmacology gives no plausible link. This is a graph-based prediction only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Neuromuscular blockade — adjunct to general anesthesia and ICU mechanical ventilation |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Not stated in the Canadian licence records (the drug is a neuromuscular blocker used in anesthesia) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | **Hold** |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not retrieved in this evidence pack. Based on established pharmacology, Cisatracurium is a benzylisoquinolinium NMBA that competitively antagonises nicotinic acetylcholine receptors (nAChR) at the skeletal muscle NMJ, producing dose-dependent, reversible paralysis. Its key clinical advantage is Hofmann elimination — spontaneous, organ-independent degradation at physiological pH and temperature — making it the agent of choice in hepatic or renal failure patients. It does not cross the blood-brain barrier and has no appreciable central nervous system activity at therapeutic doses.
+Cisatracurium is a nondepolarizing neuromuscular blocker that antagonizes nicotinic acetylcholine receptors at the neuromuscular junction. It is given by injection in operating rooms and intensive care units to produce skeletal muscle relaxation. Detailed mechanism-of-action data was not available in the source record, so this description comes from the pharmacological assessment attached to the prediction.
 
-Cauda equina syndrome (CES) is caused by mechanical compression of the lumbosacral nerve roots within the spinal canal, typically from a large disc herniation or tumour, and requires urgent surgical decompression. The pathophysiology is entirely mechanical and ischaemic at the nerve root level — a domain in which NMJ blockade plays no role. Cisatracurium has no spinal neuroprotective, anti-inflammatory, vasodilatory, or decompressive mechanism that could influence CES outcomes.
-
-The TxGNN model's near-perfect score (99.99%) for this pairing almost certainly reflects a **knowledge graph co-occurrence artefact**: cisatracurium is routinely used intraoperatively for spinal surgery, so anesthesia/NMBA nodes and spinal disease nodes are topologically proximate in the biomedical knowledge graph. This is a well-recognised limitation of graph neural network repurposing models — shared surgical context creates spurious high-confidence predictions that do not represent true therapeutic repurposing. The same pattern is observed across all 10 indications in this pack (preeclampsia, migraine, IBS, thrombotic disease, etc.), further supporting a systemic artefact rather than genuine pharmacological signals.
+Cauda equina syndrome is caused by compression of the lumbosacral nerve roots. Blocking neuromuscular transmission would not relieve that compression and would cause flaccid paralysis. We found no plausible mechanistic link between the original use and the predicted indication. The high TxGNN score reflects patterns in the knowledge graph, not biological or clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Cisatracurium in Cauda Equina Syndrome.
-
-> **Note on other indications:** Two clinical trials were retrieved for the preeclampsia pairing (NCT04645719, NCT04003688) and one for the thrombotic disease pairing (NCT03902470); however, all three studied **Magnesium Sulfate** or general anesthesia technique, not Cisatracurium as a treatment — these are data contamination artefacts and are excluded from this report.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Cisatracurium in Cauda Equina Syndrome.
-
-> **Note on other indications:** One case series (PMID [12565113](https://pubmed.ncbi.nlm.nih.gov/12565113/)) was retrieved for the thrombotic disease pairing; it is a paediatric liver transplant anesthesia report in which Cisatracurium was used as an intraoperative muscle relaxant, not as a treatment for thrombosis. Excluded as irrelevant.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Cisatracurium is **not currently marketed in Canada**. No Drug Identification Numbers (DINs) are registered, and no approved product monograph is available through Health Canada.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2563266 | Cisatracurium Besylate Injection USP Multi-Dose | Not listed | Not listed |
+| 2408813 | Cisatracurium Besylate Injection USP Multidose | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Full warning, contraindication, and drug interaction data were not retrieved in this evidence pack.
+Please refer to the package insert for safety information.
 
-> **Known clinical context (from general pharmacology):** Cisatracurium causes complete respiratory muscle paralysis and requires mechanical ventilatory support for the duration of its effect. Co-administration with Magnesium Sulfate (used in preeclampsia management) potentiates and prolongs neuromuscular blockade; dose reduction is required. Reversal with sugammadex or neostigmine/glycopyrrolate is standard practice.
+No drug-interaction records were found for this drug in the source data. Separately, magnesium sulfate, which is standard therapy in preeclampsia (another predicted indication), is known to potentiate neuromuscular blockers, so any obstetric anesthesia use needs monitoring.
 
 ---
 
@@ -100,14 +95,13 @@ Please refer to the package insert for safety information. Full warning, contrai
 **Decision: Hold**
 
 **Rationale:**
-All 10 predicted indications in this evidence pack are scored L5 (model prediction only) with zero supporting clinical trials or literature, and the mechanistic analysis confirms that Cisatracurium's exclusive peripheral NMJ mechanism of action is incompatible with the central, autonomic, vascular, or compressive pathophysiology of every predicted disease. The high TxGNN scores are best explained by systematic co-occurrence of NMBA use within surgical/procedural contexts in the knowledge graph, rather than any genuine repurposing signal.
+The prediction has no supporting trials or publications, and the pharmacology argues against benefit: neuromuscular blockade does not treat nerve-root compression. The other top-ranked predictions (for example preeclampsia, migraine, irritable bowel syndrome) are also L5 or weakly linked. The trials retrieved for preeclampsia and thrombotic disease study magnesium sulfate dosing and anesthesia techniques, not cisatracurium as a treatment.
 
 **To proceed, the following is needed:**
-
-- **Artefact investigation:** Audit the TxGNN knowledge graph to determine whether surgical co-occurrence nodes are driving false positives across all NMBA-class drugs; if confirmed, flag Cisatracurium as a low-priority repurposing candidate system-wide.
-- **Safety data retrieval:** Obtain the full cisatracurium package insert (Health Canada / FDA label) to complete S1 safety screening.
-- **MOA data retrieval:** Query DrugBank API for complete mechanism, targets, and enzyme interactions to enable rigorous mechanistic scoring.
-- **Alternative framing:** If a repurposing rationale is sought, a more biologically plausible hypothesis would explore whether Hofmann elimination kinetics confer any advantage in specific ICU disease states (e.g., multi-organ failure, ARDS) — a question distinct from any of the 10 predicted indications listed here.
+- A plausible mechanistic hypothesis, supported by preclinical data
+- Mechanism-of-action data from DrugBank
+- The approved indication text and Health Canada package insert warnings and contraindications
+- Evidence that a parenteral, hospital-only neuromuscular blocker could have any therapeutic role in the predicted condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Clascoterone
 parent: Model Prediction Only (L5)
-nav_order: 180
+nav_order: 201
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clascoterone: From Acne Vulgaris to Candidiasis
+# Clascoterone: From Acne to Candidiasis
 
 ## One-Sentence Summary
 
-Clascoterone is a topical androgen receptor (AR) antagonist approved in some international markets for acne vulgaris, but with no current Health Canada authorization.
-The TxGNN model predicts it may be effective for **Candidiasis**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This is a model-only prediction (L5) with limited mechanistic rationale and a recommendation to **Hold** pending further investigation.
+Clascoterone is a topical androgen receptor inhibitor developed for acne.
+The TxGNN model predicts it may be effective for **candidiasis**, but **no clinical trials and no publications** currently support this. The prediction rests on the model score alone, so it is best treated as a low-confidence hypothesis.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Acne vulgaris (topical AR antagonist; no Canadian DIN on file) |
+|------|------|
+| Original Indication | Acne (topical treatment; the Canadian licence text has no indication on file) |
 | Predicted New Indication | Candidiasis |
 | TxGNN Prediction Score | 94.82% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on available contextual information, Clascoterone is a topical androgen receptor (AR) antagonist (cortexolone 17α-propionate). It works by competitively blocking dihydrotestosterone (DHT) binding at AR in sebaceous glands and hair follicles, reducing sebum production and follicular inflammation — the established basis for its acne vulgaris indication in other regulatory jurisdictions.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Clascoterone is a locally acting topical agent that inhibits the androgen receptor in the skin's oil-gland (pilosebaceous) unit. It is a steroid derivative with minimal systemic absorption.
 
-Candidiasis is a fungal infection caused by *Candida* species and is managed primarily with antifungal agents targeting fungal cell wall or membrane synthesis. There is no direct mechanistic bridge between AR antagonism and antifungal activity. The internal repurposing rationale assessment flags that this TxGNN prediction likely originates from a knowledge graph artifact — the model may have traversed a negative association between topical corticosteroids and skin fungal infections and misread it as a positive repurposing signal, since Clascoterone shares structural features with steroid-class molecules.
+A plausible link between this mechanism and candidiasis is hard to find. Clascoterone has no known antifungal activity, and its target (the androgen receptor) plays no recognised role in fungal infection. Steroid-like agents may even raise the risk of local fungal overgrowth. The high TxGNN score (94.82%) most likely reflects proximity in the knowledge graph rather than biology.
 
-The known immunomodulatory effects of topical AR antagonists (local, minimal systemic exposure) do not plausibly support an anti-*Candida* hypothesis. This prediction should be interpreted as a model-generated false positive rather than a biologically grounded repurposing candidate.
+Other predicted indications are no better supported. Migraine-related conditions, leprosy, oral candidiasis, and multiple endocrine neoplasia have no mechanistic rationale. Two hypotheses are weakly plausible on mechanism alone, with no supporting data: atrophoderma vermiculata (a follicular skin disorder, given the drug's action on the pilosebaceous unit) and adrenal gland hyperfunction (because of the drug's steroid structure).
 
 ---
 
@@ -71,13 +70,19 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for candidiasis.
+
+Note that the 20 publications retrieved for another predicted indication (migraine susceptibility) are all about epilepsy and migraine genetics. None mention clascoterone, so they are not drug-specific evidence.
 
 ---
 
 ## Canada Market Information
 
-Clascoterone currently has no Health Canada authorizations and is not marketed in Canada. No DINs are on file.
+| DIN | Product Name |
+|---------|------|
+| 2538881 | WINLEVI |
+
+Dosage form and approved indication text are not available in the current data.
 
 ---
 
@@ -92,17 +97,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The candidiasis prediction carries no mechanistic support — Clascoterone is a topical AR antagonist with no antifungal activity, and the TxGNN signal most likely reflects a knowledge graph traversal artifact rather than a true therapeutic opportunity. The complete absence of clinical trial and published literature evidence further disqualifies this candidate from further development in this direction.
+The candidiasis prediction has no trials, no literature, and no plausible mechanism. Clascoterone has no antifungal activity, and steroid-like agents may increase fungal overgrowth risk. The high model score alone does not justify further investment.
 
 **To proceed, the following is needed:**
-- Obtain MOA data from DrugBank (DG002 remediation) to fully characterize AR/GR receptor binding profiles before evaluating any repurposing candidate
-- Obtain TFDA/Health Canada package insert warnings and contraindications (DG001 remediation) to complete the safety baseline
-- Prioritize mechanistically stronger repurposing candidates from the same prediction set over candidiasis — specifically **atrophoderma vermiculata** (rank 6; plausible AR-driven follicular keratinization mechanism) and **adrenal gland hyperfunction** (rank 9; dual AR/GR antagonism rationale with cortexolone structural basis)
-- Any candidiasis indication would require preclinical demonstration of anti-*Candida* activity as a prerequisite before any clinical investment is considered
-
----
-
-> ⚠️ **Disclaimer**: This report is intended for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical signal for clascoterone in fungal skin infection, which does not exist today
+- If the team wants to keep exploring this drug, atrophoderma vermiculata is the only candidate with a mechanistic hypothesis (topical action on the pilosebaceous unit). It would need a literature review before any decision.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

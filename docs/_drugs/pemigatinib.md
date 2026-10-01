@@ -2,7 +2,7 @@
 layout: default
 title: Pemigatinib
 parent: Model Prediction Only (L5)
-nav_order: 609
+nav_order: 713
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pemigatinib: Original Indication Not on File — Predicted Association with Multiple Endocrine Neoplasia
+# Pemigatinib: From FGFR-Driven Cancers to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Pemigatinib is an FGFR1-3 selective small-molecule inhibitor (identified from the model's own rationale text; not present in the formal MOA field), but this evidence pack contains no record of its original approved indication, and it is not currently marketed in Canada. The TxGNN model's top prediction links it to **Multiple Endocrine Neoplasia**, but this is a low-confidence, model-only association — supported by **0 clinical trials** and **0 publications** — and the model's own rationale states there is no known direct mechanistic link between FGFR signaling and MEN.
+Pemigatinib (marketed in Canada as PEMAZYRE) is a selective FGFR1-3 inhibitor, an oncology drug. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **0 clinical trials** and **0 publications** support this prediction. It rests on model output alone.
 
 ---
 
@@ -41,23 +41,28 @@ Pemigatinib is an FGFR1-3 selective small-molecule inhibitor (identified from th
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no original indication data on file for this drug in the current evidence pack |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+| Original Indication | Not listed in the Evidence Pack (Canadian license records contain no indication text). Pemigatinib is generally known as an FGFR inhibitor for FGFR-altered cancers. |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for pemigatinib is formally recorded as unavailable in this evidence pack. However, the model's own rationale text (used to justify other candidate indications in this same pack) identifies pemigatinib as an **FGFR1-3 (fibroblast growth factor receptor 1-3) selective inhibitor**, consistent with its known class as an antineoplastic targeted therapy.
+Pemigatinib is a selective inhibitor of FGFR1, FGFR2 and FGFR3. Detailed original mechanism-of-action data is not available in the Evidence Pack, so the analysis relies on its known target class.
 
-For the top-ranked prediction, Multiple Endocrine Neoplasia, the model's own rationale is explicitly skeptical: MEN is driven primarily by germline mutations in *RET* and *MEN1*, which have no known direct relationship to the FGFR1-3 pathway that pemigatinib targets. The rationale states the high TxGNN score likely reflects indirect co-occurrence of endocrine-tumor nodes within the knowledge graph, rather than a genuine mechanistic inference — i.e., this should be read as a graph-topology artifact rather than a biologically grounded hypothesis.
+The link to multiple endocrine neoplasia (MEN) is **speculative**. MEN syndromes are mainly driven by MEN1 or RET alterations, and FGFR signaling is not a known primary driver. The very high score (0.997) is a graph-based prediction, not a finding supported by trials or publications.
 
-Notably, this pattern is not isolated to rank 1. Of the ten predicted indications in this pack, several others also carry rationale text describing weak, reversed-direction, or species-mismatched mechanisms (e.g., an FGFR loss-of-function link to amenorrhea, veterinary diseases in cattle, and ALS pathophysiology pointing toward FGFR *activation* rather than inhibition). This lowers confidence in the overall ranking, not just the top entry.
+Among the other top-ranked predictions, only **HER2-positive breast carcinoma** has a plausible biological rationale. FGFR pathway activation is reported as one mechanism of resistance to HER2-targeted therapy, so FGFR inhibition could make sense in combination settings. Its only retrieved publication is a general review of kinase inhibitors, with no pemigatinib-specific clinical data.
+
+The remaining top-10 predictions are weak or likely artifacts of the knowledge graph:
+- **Veterinary diseases:** infectious bovine rhinotracheitis and malignant catarrh, which have no human relevance.
+- **ALS entries:** three overlapping amyotrophic lateral sclerosis terms with unclear direction of effect.
+- **Other predictions:** amenorrhea, cytomegalovirus infection, and axial spondylometaphyseal dysplasia, which have no supported mechanistic link or raise safety concerns.
 
 ---
 
@@ -69,26 +74,32 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature directly supports the top prediction (multiple endocrine neoplasia). The only publication retrieved across the top 10 predictions relates to HER2-positive breast carcinoma:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Review | Pharmacological Research | General review of FDA-approved small-molecule protein kinase inhibitors. It provides no indication-specific clinical evidence for pemigatinib. |
 
 ---
 
 ## Canada Market Information
 
-Pemigatinib is **not currently marketed in Canada** — 0 licenses/DINs are on file in this evidence pack, so no product/dosage-form table can be produced.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2519941 | PEMAZYRE | — | — |
+| 2519933 | PEMAZYRE | — | — |
+| 2519968 | PEMAZYRE | — | — |
 
 ---
 
 ## Cytotoxicity
 
-Pemigatinib's rationale text explicitly describes it as an antineoplastic targeted agent (FGFR inhibitor class), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (FGFR1-3 selective small-molecule inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (FGFR kinase inhibitor), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Serum phosphate (hyperphosphatemia is a known adverse effect); other items per package insert |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
@@ -97,6 +108,8 @@ Pemigatinib's rationale text explicitly describes it as an antineoplastic target
 
 Please refer to the package insert for safety information.
 
+Hyperphosphatemia and endocrine effects are known pemigatinib adverse effects, and these matter for any endocrine-related indication. In addition, no drug-interaction records were found in the queried source.
+
 ---
 
 ## Conclusion and Next Steps
@@ -104,13 +117,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- This candidate has no clinical trial or literature support (L5, model prediction only), and the model's own mechanistic rationale explicitly questions the biological plausibility of the FGFR–MEN link, describing it as likely graph-topology noise rather than a genuine signal.
+The prediction is supported only by a model score. It has no trials and no indication-specific literature, and the mechanistic link to multiple endocrine neoplasia is speculative. Evidence level is L5, at the earliest screening stage (S0).
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label warnings and contraindications (currently a Blocking data gap — required before any S1 safety screening)
-- Confirmed mechanism-of-action data for pemigatinib (currently a High-severity data gap affecting mechanistic-relevance analysis)
-- Original approved indication and regulatory history (currently absent from this evidence pack)
-- Any preclinical or case-level evidence specifically connecting FGFR1-3 inhibition to MEN pathophysiology, since none currently exists
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank, to support a mechanistic-link analysis
+- Original approved indication text, dosage forms and manufacturer for the three DINs
+- Preclinical evidence linking FGFR inhibition to MEN biology
+- If prioritizing, reviewing HER2-positive breast carcinoma (FGFR-mediated resistance) as a more plausible candidate than the top-ranked prediction
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

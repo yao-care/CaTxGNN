@@ -2,7 +2,7 @@
 layout: default
 title: Carbon Monoxide
 parent: Model Prediction Only (L5)
-nav_order: 141
+nav_order: 156
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,57 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbon Monoxide: From Investigational Agent to Sclerosing Cholangitis
+# Carbon Monoxide: From Lung Diffusion Test Gas to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Carbon monoxide (CO) is an endogenous gaseous signalling molecule (DrugBank DB11588) with no currently approved therapeutic indication; it is primarily being explored pharmacologically through CO-releasing molecules (CORMs) in preclinical settings.
-The TxGNN model predicts it may be effective for **Sclerosing Cholangitis** via the HO-1/CO anti-inflammatory axis,
-however, **no clinical trials and no published literature** currently support this specific direction, placing this prediction at the lowest evidence level (L5).
+Carbon monoxide (CO) is marketed in Canada only as components of gas mixtures whose product names indicate lung diffusion testing. The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model's graph-based score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | None (no approved therapeutic indications exist) |
-| Predicted New Indication | Sclerosing Cholangitis |
+|------|------|
+| Original Indication | Not stated in the regulatory data. Product names suggest diagnostic lung diffusion testing (inferred) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known biology, carbon monoxide is an endogenous gaseous mediator produced enzymatically by heme oxygenase-1 (HO-1) from heme catabolism. The HO-1/CO signalling axis is broadly cytoprotective: CO activates soluble guanylyl cyclase (sGC), raises intracellular cGMP, and suppresses NF-κB-driven inflammatory gene expression. It also promotes anti-proliferative and anti-oxidant responses, all of which have been characterised in cardiovascular and pulmonary vascular preclinical models.
+Currently, detailed mechanism of action data is not available for this drug. CO is not a conventional therapeutic drug in Canada. The listed products are multi-gas mixtures (CO with helium, neon, oxygen and nitrogen) whose names point to lung diffusion testing rather than treatment.
 
-Sclerosing cholangitis — both primary (PSC) and secondary forms — is driven by chronic biliary inflammation leading to concentric periductal fibrosis, progressive bile duct stricturing, and eventual cirrhotic liver failure. The theoretical appeal of CO here lies in its anti-fibrotic potential: HO-1-derived CO has been shown in other hepatic contexts to reduce stellate cell activation and collagen deposition. If a similar mechanism were operative in the biliary epithelium, CO or CO-releasing molecules (CORMs) might slow the fibroinflammatory cascade underlying sclerosing cholangitis.
+The only plausible link is speculative. The body produces CO through the heme oxygenase-1 (HO-1) pathway, and this pathway has anti-inflammatory and cytoprotective effects. This could in theory apply to inflammatory bile duct disease. However, no trials or publications retrieved for this indication support the idea. The 99.75% score reflects proximity in the knowledge graph, not clinical validation.
 
-However, this rationale is entirely speculative. No preclinical animal model studies (e.g., Mdr2-knockout mice, which develop PSC-like lesions) and no human clinical data exist for this indication. The TxGNN prediction most likely reflects indirect knowledge graph co-occurrence between CO-related biological pathways and cholangiopathy disease nodes, rather than a direct experimentally validated mechanistic link. This prediction must be treated as hypothesis-generating only.
+Inhaled CO is also toxic because it forms carboxyhemoglobin and reduces oxygen delivery. Any therapeutic use would need strict dose control.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for sclerosing cholangitis.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for sclerosing cholangitis.
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2154773 | CO-HE-O2-N2 MIXTURE |
+| 2014424 | CARBON MONOX, HELIUM, OXYGEN, NITROGEN L.D.M. |
+| 2182238 | CO-NE-O2-N2 MIXTURE |
+| 588075 | LUNG DIFFUSION TEST MIX NO NE CO |
+
+Dosage form and approved indication text are not available in the source data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found for this drug.
 
-> **Note for investigators:** Carbon monoxide is a potent cellular toxin at supraphysiological concentrations, causing haemoglobin saturation (carboxyhaeamoglobinaemia) and inhibiting cytochrome c oxidase. Any therapeutic development programme must establish a safe therapeutic window — most CORM and inhaled CO research uses concentrations of 250 ppm or below. Full toxicological profiling and a dedicated safety monitoring plan would be prerequisite before any first-in-human studies.
+Please refer to the package insert for other safety information.
 
 ---
 
@@ -88,14 +99,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Carbon monoxide has no approved therapeutic indication anywhere in the world, and there is a complete absence of clinical or preclinical evidence specifically addressing its use in sclerosing cholangitis; the TxGNN prediction at L5 represents model-inferred association only and cannot support any actionable development decision at this time.
+The prediction is model-only (L5), with no supporting trials or literature. CO's known toxicity and the absence of a therapeutic product in Canada argue against advancing it for sclerosing cholangitis.
 
 **To proceed, the following is needed:**
-- Retrieve complete mechanism of action data from DrugBank API and primary pharmacology literature to confirm or refute the HO-1/CO anti-fibrotic rationale in the biliary context
-- Commission or identify proof-of-concept preclinical studies using CORMs (e.g., CORM-2, CORM-3) or inhaled CO in established PSC animal models (Mdr2−/−, DDC-diet mice)
-- Define a safe therapeutic concentration window and delivery route (inhaled CO vs. CORM prodrug) before any investigational new drug (IND) pathway is considered
-- Consult Health Canada on regulatory classification of CO as a drug substance
-- **Prioritise the Rank 8 prediction (Pulmonary Hypertension, L4, "Research Question")** over this indication: it has direct mechanistic data (PMID 16908624 demonstrating CO reversing established PAH in animal models; PMID 35318039 on CO in hypertension-induced vascular smooth muscle injury) and at least one Phase 1 clinical signal (NCT01818843 — inhaled CO in neonatal pulmonary hypertension), making it a significantly more tractable near-term research question
+- Health Canada package insert warnings and contraindications
+- Mechanism of action data (for example, from DrugBank)
+- Preclinical evidence that CO or CO-releasing molecules affect cholangiopathy models
+- A clear route, dose and delivery approach that addresses carboxyhemoglobin toxicity
+
+**Other candidates worth a look:**
+The pulmonary hypertension prediction (score 99.15%) has more support at L4, rated "Research Question". It rests on preclinical work (for example PMID 16908624, CO reversing established pulmonary hypertension) and a small phase 1 inhaled-CO neonatal trial (NCT01818843, status unknown, 24 participants). Most other retrieved records concern DLCO as a diagnostic test, not CO as a therapy. The ventricular tachycardia and glaucoma hits point toward harm, not benefit.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

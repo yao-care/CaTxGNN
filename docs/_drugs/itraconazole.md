@@ -2,7 +2,7 @@
 layout: default
 title: Itraconazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 427
+nav_order: 500
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Itraconazole: From Fungal Infections to Pneumocystosis
+# Itraconazole: From Antifungal Therapy to Pneumocystosis
 
 ## One-Sentence Summary
 
-Itraconazole is a triazole antifungal originally developed for systemic and superficial fungal infections (e.g., aspergillosis, histoplasmosis, candidiasis). The TxGNN model predicts potential efficacy against **Pneumocystosis** (Pneumocystis jirovecii pneumonia), but this prediction is currently supported only by **20 publications** (mostly reviews and case reports) with **no dedicated clinical trials**, and the underlying mechanistic rationale itself raises a notable concern about target relevance.
+Itraconazole is an azole antifungal marketed in Canada. Its approved indication text is not available in the data provided.
+The TxGNN model predicts it may be effective for **pneumocystosis**, but **no clinical trials** are registered for this pairing, and the **20 publications** retrieved do not directly support it.
+Standard biology argues against the prediction, so the recommendation is **Hold**.
 
 ---
 
@@ -41,23 +43,23 @@ Itraconazole is a triazole antifungal originally developed for systemic and supe
 
 | Item | Content |
 |------|------|
-| Original Indication | Systemic/superficial fungal infections (not currently licensed in Canada, so formal indication text is unavailable) |
-| Predicted New Indication | Pneumocystosis (Pneumocystis pneumonia) |
+| Original Indication | Not stated in the local licence data (itraconazole is an antifungal) |
+| Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.34% |
 | Evidence Level | L4 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Itraconazole's established antifungal mechanism is inhibition of fungal lanosterol 14α-demethylase (CYP51), which blocks ergosterol synthesis and disrupts fungal cell membrane integrity. This mechanism underlies its efficacy against classic fungal pathogens such as *Aspergillus*, *Candida*, and *Histoplasma* species.
+Detailed mechanism-of-action data is not available in the Evidence Pack. Itraconazole is known to inhibit fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis in fungal membranes. That is the basis of its use against fungi such as Histoplasma, Aspergillus and Talaromyces.
 
-Pneumocystosis, caused by *Pneumocystis jirovecii*, has historically been grouped with fungal/opportunistic infections in immunocompromised patients (HIV, transplant recipients), which is likely why azole-class drugs and Pneumocystis-related diseases co-occur frequently in literature and knowledge graphs — a plausible driver of the high TxGNN score.
+The high TxGNN score (0.993) is **not supported biologically**. *Pneumocystis jirovecii* has little or no ergosterol in its membrane and uses cholesterol instead, so azoles are not expected to be active against it. A 2003 study of the Pneumocystis carinii Erg11 enzyme also describes the organism as intrinsically resistant to azole antifungals.
 
-However, the evidence review flags an important caveat: *Pneumocystis*'s cell membrane is composed predominantly of **cholesterol scavenged from the host**, not self-synthesized ergosterol, and its endogenous ergosterol-synthesis pathway is only weakly expressed. This means azole antifungals generally lack a reliable, direct mechanistic target in *Pneumocystis*, and one literature source in this evidence set (PMID 12606318) specifically characterizes the organism's demethylase enzyme in the context of azole resistance. The mechanistic link here should therefore be read as a **class-level inference** ("antifungal drug ↔ fungal-adjacent infection") rather than a target-specific rationale.
+The graph association most likely reflects co-mention in opportunistic-infection settings such as HIV and transplantation. In these settings itraconazole treats other fungi, while pneumocystosis is managed with trimethoprim-sulfamethoxazole. The prediction is therefore probably a literature-context artefact rather than a real therapeutic signal.
 
 ---
 
@@ -71,22 +73,37 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | RCT | HIV Medicine | Double-blind, placebo-controlled Phase III trial of itraconazole capsules for prevention of deep fungal infections in HIV-infected patients |
-| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Cohort | Indian J Med Microbiol | Compared respiratory fungal pathogen profiles and susceptibility in immunocompetent vs. immunocompromised hosts by CD4 count |
-| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohort | Transplantation Proceedings | Single-center experience of invasive fungal infections after kidney transplantation |
-| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Review | Drugs | Summarizes therapy/prophylaxis for *Pneumocystis carinii* and other systemic protozoan infections, including antifungal agent mechanisms |
-| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Review/Case series | Seminars in Respiratory Infections | Infection (including fungal) as a major cause of morbidity/mortality after lung transplantation |
-| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Review | Current Clinical Topics in Infectious Diseases | Prophylaxis and treatment of infection in bone marrow transplant recipients |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Review | BMJ Clinical Evidence | Primary and secondary prophylaxis for opportunistic infections in HIV, including Pneumocystis |
-| [12606318](https://pubmed.ncbi.nlm.nih.gov/12606318/) | 2003 | Mechanism study | Am J Respir Cell Mol Biol | Characterizes *Pneumocystis carinii*'s lanosterol 14α-demethylase (azole target) and notes intrinsic azole resistance |
-| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Case report | Frontiers in Immunology | Talaromyces marneffei and Pneumocystis jirovecii coinfection in a child with STAT1 mutation |
-| [8967681](https://pubmed.ncbi.nlm.nih.gov/8967681/) | 1996 | Case report | Annals of Internal Medicine | Uveitis associated with rifabutin prophylaxis and itraconazole therapy |
+| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | RCT | HIV Medicine | Double-blind, placebo-controlled phase III trial of itraconazole prophylaxis against deep fungal infections in HIV-infected patients. It is not specific to pneumocystosis. |
+| [12606318](https://pubmed.ncbi.nlm.nih.gov/12606318/) | 2003 | Mechanism study | Am J Respir Cell Mol Biol | Cloned the Pneumocystis carinii lanosterol 14-alpha-demethylase (Erg11), the azole target. The organism is described as intrinsically resistant to azoles. |
+| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Review | Drugs | Reviews therapy and prophylaxis of systemic protozoan infections, including Pneumocystis carinii. |
+| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Review | Semin Respir Infect | Infections after lung transplantation and their prevention and treatment. |
+| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Review | Curr Clin Top Infect Dis | Prophylaxis and treatment of infection in bone marrow transplant recipients. |
+| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Review | BMJ Clin Evid | Primary and secondary prophylaxis of opportunistic infections in HIV. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Review | Clin Pharmacokinet | Penetration of antifungal and other anti-infective agents into pulmonary epithelial lining fluid. |
+| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohort | Transplant Proc | Single-centre experience of invasive fungal infections after kidney transplantation. |
+| [30429396](https://pubmed.ncbi.nlm.nih.gov/30429396/) | 2018 | Cohort | Indian J Med Microbiol | Respiratory fungal pathogens in immunocompetent versus immunocompromised hosts, in relation to CD4 counts. |
+| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Case report | Front Immunol | Talaromyces marneffei and Pneumocystis jirovecii coinfection in a child with a STAT1 mutation. |
+
+None of these publications shows itraconazole treating pneumocystosis. Relevance screening of all retrieved articles is still pending.
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2495988 | ODAN ITRACONAZOLE |
+| 2047454 | SPORANOX |
+| 2484315 | JAMP ITRACONAZOLE ORAL SOLUTION |
+| 2462559 | MINT-ITRACONAZOLE |
+
+Dosage forms and approved-indication text are not available in the data provided, apart from the oral solution named in the JAMP product.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found in the queried source.
 
 ---
 
@@ -95,13 +112,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-No dedicated clinical trials support itraconazole for pneumocystosis, and the evidence level (L4) reflects literature/mechanism studies only. More importantly, the available evidence itself indicates that *Pneumocystis* relies on host-derived cholesterol rather than self-synthesized ergosterol, undermining the specificity of itraconazole's core antifungal mechanism for this pathogen.
+The high TxGNN score is not backed by biology. *Pneumocystis* lacks the ergosterol target of azoles and is intrinsically resistant, and no trial or study shows itraconazole benefit. The standard therapy and prophylaxis, trimethoprim-sulfamethoxazole, is well established.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label warnings and contraindications (currently a Blocking data gap — required before any S1 safety screening)
-- Confirmed mechanism of action data from DrugBank (currently a High-severity data gap)
-- Preclinical or in vitro data specifically evaluating itraconazole activity against *Pneumocystis jirovecii*
-- Drug-drug interaction profile, given itraconazole's well-known CYP3A4 interaction liability in the target immunocompromised population
+- The Health Canada package insert (warnings, contraindications and approved indications)
+- Mechanism-of-action data from DrugBank
+- Relevance screening of the retrieved literature
+- Any direct clinical or preclinical evidence of itraconazole activity against *Pneumocystis*. Without it, this candidate should not advance to safety screening.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

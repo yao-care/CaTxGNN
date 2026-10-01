@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sorafenib
-parent: High Evidence (L1-L2)
-nav_order: 731
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 856
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Sorafenib: From Renal Cell Carcinoma / Hepatocellular Carcinoma to Liposarcoma
+# Sorafenib: From Renal Cell Carcinoma to Liposarcoma
 
 ## One-Sentence Summary
 
-Sorafenib is a multi-target kinase inhibitor originally used to treat advanced renal cell carcinoma and hepatocellular carcinoma. The TxGNN model predicts it may also be effective for **Liposarcoma**, with **2 clinical trials** and **8 publications** currently supporting this direction — though most of the direct trial evidence covers soft tissue sarcoma broadly rather than liposarcoma specifically.
+Sorafenib is an oral multikinase inhibitor, described in the supplied trial records as registered for advanced renal cell carcinoma.
+The TxGNN model predicts it may be effective for **liposarcoma**.
+Support is thin and indirect: **1 sorafenib Phase 2 trial** in mixed soft tissue sarcomas (not liposarcoma-specific), **1 regorafenib trial** that gives class-level context only, and **8 publications**, mostly preclinical or review articles.
 
 ---
 
@@ -41,23 +43,25 @@ Sorafenib is a multi-target kinase inhibitor originally used to treat advanced r
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal Cell Carcinoma / Hepatocellular Carcinoma (referenced in supporting literature and trial rationale; no Canadian license record available) |
+| Original Indication | Renal cell carcinoma (from trial descriptions; the Canadian licence record has no indication text) |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| Canada Market Status | Not marketed (Not Marketed) |
-| Number of DINs | 0 |
+| Evidence Level | L2 as assigned in the Evidence Pack, but effectively weaker (see note below) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
+
+**Note on evidence level:** The only sorafenib trial in the liposarcoma record is a single-arm Phase 2 study in advanced soft tissue sarcomas. It is not an RCT, and no liposarcoma-specific results were supplied. The liposarcoma-specific literature is preclinical.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank is currently a data gap (DG002). Based on the trial and literature evidence collected, sorafenib is known to be a multi-target kinase inhibitor acting on RAF/MEK/ERK signaling as well as VEGFR, PDGFR, and KIT receptor tyrosine kinases. This broad kinase-inhibition profile is the basis for its established use in renal cell carcinoma and hepatocellular carcinoma, both of which are highly angiogenesis-dependent tumors.
+Sorafenib inhibits the RAF/MEK/ERK signaling pathway. It also inhibits the receptor tyrosine kinases VEGFR-2/3 and PDGFR-beta, which drive angiogenesis and tumor cell proliferation. This is the basis of its use in renal cell carcinoma, a highly vascular tumor.
 
-PDGFR and KIT signaling are also activated in a subset of soft tissue sarcomas, including some liposarcoma subtypes, which provides biological plausibility for extending sorafenib's activity into this tumor family. This is supported by a completed Phase 2 trial (SWOG S0505) that tested sorafenib directly in advanced soft tissue sarcomas.
+Soft tissue sarcomas, including liposarcoma, also depend on these pathways. Preclinical work in dedifferentiated liposarcoma models points to MAPK signaling and PTEN loss. A 2008 study tested sorafenib in malignant peripheral nerve sheath tumor cells and in two dedifferentiated liposarcoma cell lines (LS141 and DDLS). It reported growth and MAPK-signaling inhibition in the MPNST cells, but the supplied abstract excerpt does not show the liposarcoma results.
 
-However, liposarcoma is a highly heterogeneous group of tumors (well-differentiated, dedifferentiated, myxoid, pleomorphic), and historical clinical response rates to single-agent kinase inhibitors in this population have generally been modest. Most of the currently available evidence is preclinical (xenograft, cell-line) or narrative review rather than liposarcoma-specific prospective trial data, so the mechanistic rationale is reasonable but not yet clinically proven for this specific histology.
+Liposarcoma-specific clinical activity has not been shown in the supplied data. Current reviews describe histology-driven treatment of soft tissue sarcoma, with trabectedin and doxorubicin-based regimens highlighted for liposarcoma. Sorafenib is not highlighted for it. The prediction is therefore mechanistically plausible but unproven.
 
 ---
 
@@ -65,8 +69,8 @@ However, liposarcoma is a highly heterogeneous group of tumors (well-differentia
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Phase II trial of sorafenib (BAY 43-9006) in advanced soft tissue sarcomas; sorafenib may block tumor cell growth enzymes and tumor blood supply. |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 blanket protocol studying oral regorafenib (a sorafenib structural analog) across selected sarcoma subtypes, citing prior sorafenib activity in soft tissue sarcomas as rationale; not sorafenib itself, used only as supportive analogy. |
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Sorafenib (BAY 43-9006) in advanced soft tissue sarcomas. Direct drug evidence, but not liposarcoma-specific. No histology-level response breakdown was supplied. |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 tested **regorafenib**, not sorafenib, in selected sarcoma subtypes. It is a related multikinase inhibitor and gives class-level context only. |
 
 ---
 
@@ -74,14 +78,24 @@ However, liposarcoma is a highly heterogeneous group of tumors (well-differentia
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase 2 Trial (SWOG S0505) | Cancer | Phase 2 intergroup trial of sorafenib in advanced soft tissue sarcomas; direct clinical evidence for the drug in this tumor family. |
-| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase 1 Trial | Annals of Surgical Oncology | Neoadjuvant conformal radiotherapy plus sorafenib in locally advanced extremity soft tissue sarcoma; explores synergy between antiangiogenic therapy and radiotherapy. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | Review of sarcoma PDOX models identifying effective combination therapies with CDK inhibitors; sarcoma-wide targeted therapy context. |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | Review of soft tissue sarcoma treatment stratified by histological subtype, including targeted agents. |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Histology-driven and non-histology-driven therapy review for soft tissue sarcomas, including liposarcoma-specific agent activity. |
-| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclinical/Mechanistic | Molecular Cancer Therapeutics | Sorafenib inhibits growth and MAPK signaling in malignant peripheral nerve sheath and dedifferentiated liposarcoma cell lines. |
-| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preclinical (Xenograft) | The American Journal of Pathology | Dedifferentiated liposarcoma xenograft models reveal PTEN down-regulation as a malignant signature relevant to PI3K-pathway-targeted inhibition. |
-| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Case Report (different drug, trabectedin) | Anti-Cancer Drugs | Response to trabectedin in synovial sarcoma with lung metastases; included for liposarcoma-family context only, not sorafenib evidence. |
+| [21751200](https://pubmed.ncbi.nlm.nih.gov/21751200/) | 2012 | Phase 2 trial (SWOG S0505) | Cancer | Sorafenib in advanced soft tissue sarcomas. The supplied excerpt describes the rationale (raf, VEGFR, PDGFR, FLT3, c-kit inhibition) but no outcome data. |
+| [24554062](https://pubmed.ncbi.nlm.nih.gov/24554062/) | 2014 | Phase 1 trial | Ann Surg Oncol | Neoadjuvant conformal radiotherapy plus sorafenib in locally advanced extremity soft tissue sarcoma. |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magy Onkol | Treatment of soft tissue sarcomas by histological subtype. |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Ann Oncol | Histology-driven therapy. Trabectedin is highlighted for liposarcoma, especially the myxoid subtype. |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review (preclinical models) | Front Oncol | Patient-derived orthotopic xenograft (PDOX) sarcoma models and palbociclib combinations. Not sorafenib-specific. |
+| [18413802](https://pubmed.ncbi.nlm.nih.gov/18413802/) | 2008 | Preclinical | Mol Cancer Ther | Sorafenib inhibits growth and MAPK signaling in MPNST cells. Two dedifferentiated liposarcoma lines were also tested. |
+| [23416162](https://pubmed.ncbi.nlm.nih.gov/23416162/) | 2013 | Preclinical | Am J Pathol | Dedifferentiated liposarcoma xenograft models show PTEN down-regulation and response to PI3K pathway inhibition. Not a sorafenib study. |
+| [25075796](https://pubmed.ncbi.nlm.nih.gov/25075796/) | 2014 | Case report | Anti-Cancer Drugs | Trabectedin in synovial sarcoma. Not relevant to sorafenib. |
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2284227 | NEXAVAR |
+
+The licence record does not include the dosage form or approved indication text.
 
 ---
 
@@ -89,7 +103,7 @@ However, liposarcoma is a highly heterogeneous group of tumors (well-differentia
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor: RAF/MEK/ERK, VEGFR, PDGFR, KIT) |
+| Cytotoxicity Classification | Targeted therapy (multikinase inhibitor of RAF, VEGFR, and PDGFR) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -99,7 +113,9 @@ However, liposarcoma is a highly heterogeneous group of tumors (well-differentia
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings, contraindications, or drug-interaction records were found in the supplied data.
+
+One publication in the evidence set ([PMID 22016478](https://pubmed.ncbi.nlm.nih.gov/22016478/)) describes hand-foot skin reaction with sorafenib combined with cytotoxic chemotherapy. This is a known toxicity to plan for in any combination study.
 
 ---
 
@@ -108,13 +124,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high and one completed Phase 2 trial (SWOG S0505) directly supports biological plausibility in soft tissue sarcomas, but liposarcoma-specific clinical evidence is largely preclinical or narrative-review, and the drug's official label safety data (warnings, contraindications) remains an unresolved Blocking data gap, preventing a proper safety pre-assessment. Sorafenib is also not currently marketed in Canada.
+The mechanistic rationale is plausible, but there is no liposarcoma-specific clinical evidence. The only sorafenib trial covers mixed soft tissue sarcomas without a histology breakdown, and the liposarcoma-specific literature is preclinical. Canadian safety information is also missing.
 
 **To proceed, the following is needed:**
-- Official product label / regulatory safety data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed DrugBank mechanism of action record (DG002)
-- Liposarcoma-subtype-specific prospective trial data (current evidence is soft-tissue-sarcoma-wide, not liposarcoma-specific)
-- Canadian market/DIN pathway assessment if clinical development were to proceed
+- Subtype-level results from NCT00217620 and SWOG S0505 (PMID 21751200), to see whether any liposarcoma patients responded
+- Health Canada package insert warnings and contraindications
+- Mechanism-of-action data from DrugBank
+- A comparison against established liposarcoma options such as trabectedin and doxorubicin-based regimens, since sorafenib has no demonstrated advantage
+
+**Other predictions in this pack:** Several have more clinical activity than liposarcoma. Female breast carcinoma has more than 10 registered sorafenib trials, mostly early phase, with no confirmed benefit. Unclassified renal cell carcinoma has a completed Phase 3 trial in advanced renal cell carcinoma, but whether unclassified histology was analyzed separately is unconfirmed. These may merit separate evaluation.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

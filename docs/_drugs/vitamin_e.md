@@ -2,7 +2,7 @@
 layout: default
 title: Vitamin E
 parent: Moderate Evidence (L3-L4)
-nav_order: 830
+nav_order: 974
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Vitamin E: From Vitamin E Deficiency to Inborn Disorder of Bilirubin Metabolism
+# Vitamin E: From Multivitamin Supplementation to Inborn Disorder of Bilirubin Metabolism
 
 ## One-Sentence Summary
 
-> Vitamin E (DB00163) is classically used as a fat-soluble antioxidant supplement for vitamin E deficiency states.
-> The TxGNN model predicts it may be relevant for **Inborn Disorder of Bilirubin Metabolism**,
-> but only **3 clinical trials** (none directly testing Vitamin E in this population) and **2 publications** currently support this direction, making the evidence base exploratory rather than confirmatory.
+Vitamin E is a fat-soluble antioxidant vitamin, marketed in Canada as a component of multivitamin products.
+The TxGNN model predicts it may be effective for **inborn disorder of bilirubin metabolism**, but the retrieved evidence is weak: **3 clinical trials** (all graded as not relevant to vitamin E treatment) and **2 publications** (one old review and one case series on bile acid synthesis defects).
+This is a model-only signal with no direct support so far.
 
 ---
 
@@ -43,23 +43,23 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the Evidence Pack; classically used for vitamin E deficiency and as a general antioxidant |
-| Predicted New Indication | Inborn Disorder of Bilirubin Metabolism |
+| Original Indication | Not recorded in the license data (multivitamin products) |
+| Predicted New Indication | Inborn disorder of bilirubin metabolism |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 7 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Vitamin E is a fat-soluble antioxidant vitamin that protects cell membranes — including hepatocyte membranes — from oxidative damage caused by reactive lipid peroxidation.
+Currently, detailed mechanism of action data is not available. Based on known information, vitamin E is a lipid-soluble antioxidant that protects cell membranes from lipid peroxidation. It is supplied in Canada mainly within multivitamin products, and its role as a nutritional supplement is established. Mechanistically, it may be applicable to inborn disorder of bilirubin metabolism only indirectly.
 
-Inborn disorders of bilirubin metabolism (e.g., Crigler-Najjar syndrome, progressive familial intrahepatic cholestasis) frequently disrupt bile flow, which secondarily impairs absorption of fat-soluble vitamins including Vitamin E. In this context, Vitamin E supplementation is understood as **supportive/corrective therapy for a secondary deficiency**, not a treatment directed at the underlying bilirubin-processing defect itself.
+The link is indirect. Cholestatic and hyperbilirubinaemic conditions can cause oxidative liver injury and fat-soluble vitamin deficiency, so vitamin E may help as supportive supplementation. That is not the same as treating the underlying disorder. The very high TxGNN score (0.9999) is not matched by the retrieved evidence, which does not show vitamin E treating a bilirubin metabolism disorder.
 
-Mechanistically this is plausible but indirect — the model's high prediction score likely reflects the strong statistical association between "fat-soluble vitamin deficiency" and "cholestatic/bilirubin metabolism disease" nodes in the knowledge graph, rather than a specific disease-modifying pathway. This is reflected in the clinical evidence below, where none of the identified trials directly test Vitamin E as an intervention for this indication.
+Older literature does look at vitamin E and neonatal bilirubin. This evidence set does not give a clear signal for the inherited disorders in this category. Several other predicted indications on the list, such as bilirubin metabolism disease and drug-induced liver injury, have somewhat more literature, but it is also mostly indirect or preclinical.
 
 ---
 
@@ -67,11 +67,11 @@ Mechanistically this is plausible but indirect — the model's high prediction s
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03115086](https://clinicaltrials.gov/study/NCT03115086) | N/A | Active, not recruiting | 55 | Post-marketing observational registry for Cholbam (cholic acid); collects natural history data, does not test Vitamin E as an intervention |
-| [NCT06465810](https://clinicaltrials.gov/study/NCT06465810) | N/A | Recruiting | 1,850 | Multi-country real-world registry for ATTR amyloidosis; Vitamin E not an evaluated treatment |
-| [NCT01556906](https://clinicaltrials.gov/study/NCT01556906) | Phase 2 | Completed | 6 | Dose-escalation safety study of lomitapide (MTP inhibitor) in homozygous familial hypercholesterolemia; Vitamin E not the study drug |
+| [NCT03115086](https://clinicaltrials.gov/study/NCT03115086) | N/A | Active, not recruiting | 55 | Observational post-marketing registry of patients treated with Cholbam (cholic acid). No vitamin E intervention, so no efficacy evidence. |
+| [NCT06465810](https://clinicaltrials.gov/study/NCT06465810) | N/A | Recruiting | 1850 | Real-world study of transthyretin amyloidosis. No vitamin E intervention. |
+| [NCT01556906](https://clinicaltrials.gov/study/NCT01556906) | Phase 2 | Completed | 6 | Open-label dose-escalation of lomitapide in homozygous familial hypercholesterolaemia. Vitamin E is not shown as the intervention. |
 
-*Note: All three trials were graded "C" (low relevance) — none directly test Vitamin E as a treatment for this indication.*
+All three trials were graded C (low relevance). None tests vitamin E for a bilirubin metabolism disorder.
 
 ---
 
@@ -79,22 +79,28 @@ Mechanistically this is plausible but indirect — the model's high prediction s
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [803225](https://pubmed.ncbi.nlm.nih.gov/803225/) | 1975 | Review | New England Journal of Medicine | Overview of neonatal nonhemolytic jaundice; background pathophysiology, no direct Vitamin E intervention data |
-| [7915305](https://pubmed.ncbi.nlm.nih.gov/7915305/) | 1994 | Case report/Case series | Journal of Pediatrics | Describes 3β-hydroxy-C27-steroid dehydrogenase/isomerase deficiency as a cause of progressive intrahepatic cholestasis; mechanistic/diagnostic context only |
+| [803225](https://pubmed.ncbi.nlm.nih.gov/803225/) | 1975 | Review | N Engl J Med | Review of neonatal nonhemolytic jaundice. No abstract is available, so vitamin E findings could not be confirmed. |
+| [7915305](https://pubmed.ncbi.nlm.nih.gov/7915305/) | 1994 | Case report | J Pediatr | Screening of 30 children with progressive intrahepatic cholestasis identified 3β-hydroxy-C27-steroid dehydrogenase/isomerase deficiency, a bile acid synthesis defect. Vitamin E treatment is not reported in the available abstract. |
 
 ---
 
 ## Canada Market Information
 
-Vitamin E is currently **not marketed** under this candidate profile in the Canadian regulatory dataset (0 DINs on file). No licensed product records are available to summarize.
+Vitamin E has 7 licenses in Canada. The 5 main ones are listed below. Dosage form and approved indication text are not recorded in the license data.
+
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00586315 | MULTI 1000 | — | — |
+| 02100606 | MULTI 12 | — | — |
+| 02242529 | MULTI-12/K1 PEDIATRIC | — | — |
+| 02552639 | PREGVIT FOLIC 5 | — | — |
+| 02535718 | PREGNANCY MULTIVITAMIN | — | — |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are currently unavailable for this candidate — flagged as a Blocking data gap, see below.)*
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -103,14 +109,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- Evidence is L4 (preclinical/mechanistic plausibility only) — none of the three identified trials directly test Vitamin E for this indication, and the two literature citations provide background pathophysiology rather than interventional evidence.
-- A **Blocking** data gap (DG001: missing TFDA/product-label warnings and contraindications) prevents this candidate from entering the S1 safety review stage regardless of efficacy signal strength.
+The prediction is a computational signal only. The retrieved trials do not test vitamin E, and the two publications do not show it treating an inherited bilirubin metabolism disorder. The plausible role (antioxidant and fat-soluble vitamin support in cholestasis) is supportive rather than disease-modifying.
 
 **To proceed, the following is needed:**
-- Product monograph / label warnings and contraindications (Blocking gap, DG001)
-- Mechanism of action data from DrugBank (High priority gap, DG002)
-- A dedicated interventional trial evaluating Vitamin E specifically in patients with inborn bilirubin metabolism disorders
-- Consider evaluating the closely related broader term **"bilirubin metabolism disease"** (rank 2 in this Evidence Pack) separately — it carries stronger direct evidence (L2, one completed Phase 4 RCT: NCT04977661) and was scored "Proceed with Guardrails," suggesting it may be a more actionable near-term candidate than the specific inborn-disorder subtype evaluated here.
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Detailed mechanism of action data (for example, from DrugBank)
+- A targeted review of vitamin E use in neonatal hyperbilirubinaemia and inherited cholestatic or bilirubin disorders, including the full text of the 1975 review
+- A decision on whether to prioritize other predicted indications with more literature, such as bilirubin metabolism disease (rank 2) and drug-induced liver injury (rank 4)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

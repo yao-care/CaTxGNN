@@ -2,7 +2,7 @@
 layout: default
 title: Minoxidil
 parent: Moderate Evidence (L3-L4)
-nav_order: 521
+nav_order: 615
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,37 +29,34 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# MINOXIDIL: From Androgenetic Alopecia to Hypotrichosis Simplex of the Scalp
+# Minoxidil: From Hair Loss and Hypertension to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Minoxidil is a potassium channel opener with established use in androgenetic alopecia, acting by promoting perifollicular vasodilation and extending the hair follicle anagen phase.
-The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp** — a rare hereditary hair follicle density disorder — with a near-perfect prediction score of **99.99992%**.
-Current human evidence is limited to **0 clinical trials** and **3 case reports/series**, placing this candidate at **Evidence Level L4**.
+Minoxidil is a potassium channel opener, marketed in Canada as a topical hair-regrowth treatment (Rogaine and similar products) and as an oral tablet (Loniten). The Canadian licence records supplied here do not include indication text, so these uses are inferred from product names and general knowledge. The TxGNN model predicts it may be useful for **hypotrichosis simplex of the scalp**, a rare hereditary hair-thinning disorder. Support is thin: **0 registered clinical trials** and **3 small case reports**, all of which combine minoxidil with other treatments.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Androgenetic alopecia (international established use; no Canadian DINs on record) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
-| TxGNN Prediction Score | 99.99992% |
+|------|------|
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
+| TxGNN Prediction Score | 99.9999% (rank 1 of the model's predictions for this drug) |
 | Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 10 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this evidence pack. Based on known pharmacology, minoxidil acts as an ATP-sensitive potassium channel (K_ATP) opener. Activation of these channels in perifollicular vascular smooth muscle induces vasodilation, increasing blood flow to hair follicles. This upregulates vascular endothelial growth factor (VEGF) expression, prolongs the anagen (active growth) phase, and reduces the proportion of follicles in telogen (resting) phase. Minoxidil also exerts mild anti-androgenic and Wnt/β-catenin pathway modulatory effects, further supporting follicular activity.
+Detailed mechanism-of-action data are not available in the DrugBank field. The mechanism below comes from the evidence pack's repurposing rationale. Minoxidil sulfate, the active form, opens potassium channels. In hair follicles it is thought to prolong the growing (anagen) phase, shorten the resting (telogen) phase and improve follicular blood flow.
 
-Hypotrichosis Simplex of the Scalp (HSS) is a rare autosomal dominant condition caused by loss-of-function variants in the *CDSN* gene, which encodes corneodesmosin — a desmosomal protein critical for maintaining the structural integrity of hair follicles. The disease manifests as progressive reduction in scalp hair density, beginning in childhood, due to shortened anagen phases and follicular miniaturization. Because the underlying defect is functional rather than completely ablative (follicles are present but underperforming), minoxidil's anagen-prolonging mechanism maps directly onto the disease pathophysiology.
+Hypotrichosis simplex of the scalp is a rare inherited disorder in which hair fails to grow to normal length and density. Case reports link it to variants in the *CDSN* gene, which encodes a desmosome protein. Minoxidil's effect on the hair cycle is a plausible fit for a disorder of hair-growth quantity. However, the disease has a genetic structural cause, and minoxidil does not correct it. It could at best act as a growth-promoting adjunct.
 
-This mechanistic alignment is strengthened by clinical extrapolation: the same mechanism has been validated in multiple RCTs for androgenetic alopecia, another non-scarring alopecia driven by follicular miniaturization and anagen shortening. The TxGNN model's extremely high prediction score reflects this genuine biological overlap. However, HSS is a rare genetic disease with a distinct molecular etiology, and minoxidil cannot correct the *CDSN* gene defect — making it a symptomatic rather than disease-modifying intervention.
+The published cases all used combination regimens (minoxidil with growth factors, botanic extracts or platelet-rich plasma). The contribution of minoxidil alone cannot be separated out.
 
 ---
 
@@ -72,22 +69,32 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case Series | Dermatologic Therapy | Oral minoxidil combined with growth factors in hereditary HSS; demonstrates clinical feasibility of minoxidil as a therapeutic option for this orphan condition |
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case Report | Journal of Dermatological Treatment | 14-year-old HSS patient treated with combined platelet-rich plasma injections and topical minoxidil 2%; reports improvement in hair density and length |
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case Report | Frontiers in Genetics | Familial HSS in an 8-year-old male with confirmed *CDSN* mutation, treated with botanical extracts plus minoxidil; documents symptomatic hair improvement and supports minoxidil's role in genetically confirmed HSS |
+|------|-----|------|---------|---------|
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case report (combination therapy) | J Dermatol Treat | A 14-year-old with hereditary hypotrichosis simplex was reported as successfully treated with platelet-rich plasma injections plus topical minoxidil 2%. The authors note that no satisfactory treatment had been available. |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case report (combination therapy) | Front Genet | Familial case of an 8-year-old boy with a *CDSN* mutation, treated with botanic extracts plus minoxidil. The report notes there is no definitive, effective treatment for this disease. |
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case report/series | Dermatol Ther | Hereditary hypotrichosis simplex of the scalp treated with oral minoxidil plus growth factors. No abstract is available, so findings are taken from the title only. |
 
 ---
 
 ## Canada Market Information
 
-Minoxidil has no registered Drug Identification Numbers (DINs) in the Canadian regulatory database queried. The drug is recorded as not marketed in Canada per this dataset. Note: this may reflect a data gap, as minoxidil products are widely available internationally; verification against the Health Canada Drug Product Database directly is recommended.
+Ten authorizations are on record; five are listed below. The supplied records do not include dosage form, manufacturer or approved indication text.
+
+| DIN | Product Name |
+|---------|------|
+| 2551446 | MEN'S HAIR REGROWTH TREATMENT |
+| 708925 | MEN'S ROGAINE |
+| 2356597 | HAIR REGROWTH FORMULA |
+| 514500 | LONITEN 10MG |
+| 2529238 | JAMP MINOXIDIL SOLUTION |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+No warnings, contraindications or drug-interaction records were found for this drug. Please refer to the package insert for safety information.
+
+For context, the evidence pack notes that minoxidil's safety profile in hair loss is well characterized. It also notes that systemic (oral) minoxidil is associated with fluid retention, reflex tachycardia and pericardial effusion. Oral use for a paediatric hereditary condition would need a specific safety review.
 
 ---
 
@@ -96,15 +103,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Evidence supporting minoxidil for hypotrichosis simplex of the scalp is limited to 3 small case reports/series with no controlled trials, and the rare genetic nature of HSS makes large-scale evidence generation challenging. Although the mechanistic rationale is strong and biologically plausible, the absence of safety data in the evidence pack and the lack of any controlled clinical evidence prevent a recommendation to proceed at this stage.
+The model score is very high, and the mechanism is plausible, since minoxidil is already used for other forms of hair loss. However, the only supporting evidence is three small case reports of combination regimens, with no registered trials. The effect of minoxidil alone cannot be determined, so this stays a research question rather than an actionable repurposing candidate.
 
 **To proceed, the following is needed:**
-- Retrieve complete safety data (key warnings, contraindications, drug interactions) from Health Canada product monograph or international package inserts for both topical and oral minoxidil formulations
-- Verify Canada market status directly against the Health Canada Drug Product Database to resolve the data gap
-- Obtain mechanism of action documentation from DrugBank (DB00350) to support regulatory submissions
-- Design a prospective case series or pilot study (n ≥ 10 HSS patients) with standardized endpoints (e.g., hair density by phototrichogram, anagen:telogen ratio by trichoscopy)
-- Evaluate orphan drug designation eligibility given the rarity of HSS
-- Assess cardiac and hemodynamic monitoring requirements, particularly for oral minoxidil use in pediatric populations where HSS commonly presents
+- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
+- DrugBank mechanism-of-action data
+- Controlled or single-agent data that isolate minoxidil's effect in hypotrichosis simplex
+- A route and dose assessment (topical vs low-dose oral), including safety in children
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

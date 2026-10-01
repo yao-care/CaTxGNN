@@ -2,7 +2,7 @@
 layout: default
 title: Polyethylene Glycol 400
 parent: Model Prediction Only (L5)
-nav_order: 630
+nav_order: 742
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Polyethylene Glycol 400: From Pharmaceutical Excipient to Bronchitis
+# Polyethylene Glycol 400: From Ophthalmic Eye Drop Ingredient to Bronchitis
 
 ## One-Sentence Summary
 
-Polyethylene Glycol 400 (PEG 400, DrugBank DB11077) is not marketed in Canada as an independent therapeutic product and has no registered original indication — it is primarily used as a pharmaceutical excipient/solvent. The TxGNN model predicts a possible link to **Bronchitis** with a very high raw score, but on inspection the 5 "supporting" clinical trials are actually studies of a *different* drug (MIRCERA®, methoxy‑polyethylene glycol‑epoetin beta) for renal anemia — a false-positive match caused by the shared substring "polyethylene glycol." **No genuine clinical trial or literature evidence currently supports this prediction.**
+Polyethylene Glycol 400 (PEG 400) is a pharmaceutical excipient and solvent, marketed in Canada as an ingredient in eye drop products.
+The TxGNN model predicts it may be effective for **bronchitis**, but the evidence is weak: **0 relevant clinical trials** and **0 publications** support this direction.
+The five trials retrieved were keyword matches on "polyethylene glycol" and concern an unrelated PEGylated anaemia drug.
 
 ---
 
@@ -41,37 +43,37 @@ Polyethylene Glycol 400 (PEG 400, DrugBank DB11077) is not marketed in Canada as
 
 | Item | Content |
 |------|------|
-| Original Indication | Not applicable — PEG 400 has no registered original indication; it is used primarily as a pharmaceutical excipient/solvent |
+| Original Indication | Not recorded in the licence data. The products are eye drops (inferred from product names). |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DG002, MOA: Data Gap). PEG 400 has no known pharmacological mechanism that would plausibly explain an effect on bronchitis — it is a small-molecule polymer used as a solvent, vehicle, or osmotic agent in formulations, not an active therapeutic agent in its own right.
+Currently, detailed mechanism of action data is not available. PEG 400 is a pharmaceutical excipient, solvent and lubricant or humectant vehicle. It has no established anti-inflammatory, mucolytic or antimicrobial activity in the airway.
 
-More importantly, the clinical trial "evidence" retrieved for this candidate is a **data-quality artifact, not supporting evidence**. All 5 trials listed under this prediction actually study MIRCERA® (methoxy‑polyethylene glycol‑epoetin beta), a PEGylated erythropoiesis-stimulating biologic used to correct renal anemia in chronic kidney disease patients. This is an entirely different drug entity from PEG 400 (a small-molecule excipient); the two share only the text string "polyethylene glycol," which appears to have caused a false-positive match during evidence retrieval or knowledge-graph embedding. None of the retrieved trials studied bronchitis or any respiratory condition.
+The high TxGNN score (99.58%) is most likely a knowledge-graph artifact from polyethylene glycol name and structure associations, not biological evidence. No credible mechanism links PEG 400 to bronchitis.
 
-Given the absence of a mechanistic rationale and the fact that the only retrieved trials are mismatched to both the drug and the disease, this prediction should currently be treated as a **model-score-only hypothesis (L5)** rather than one with any corroborating clinical evidence.
+The second-ranked prediction, **congenital ichthyosiform erythroderma** (score 99.10%), is also speculative. PEG 400 is a humectant used in topical products and could in theory aid skin hydration, but that is not evidence of efficacy in a genetic keratinisation disorder. No trials or literature were found for it.
 
 ---
 
 ## Clinical Trial Evidence
 
-⚠️ **Note:** The trials below were retrieved by automated search but are **not actually relevant** — they study a different drug (MIRCERA®) for a different condition (renal anemia), not PEG 400 for bronchitis. Listed here for transparency/audit purposes only.
+The retrieved trials were all graded **not relevant**. They study Mircera (methoxy polyethylene glycol-epoetin beta), a PEGylated erythropoiesis-stimulating agent, in renal anaemia. None involves PEG 400 or bronchitis. They are listed for transparency only.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00559273](https://clinicaltrials.gov/study/NCT00559273) | Phase 3 | Completed | 307 | **Not relevant** — studies MIRCERA vs. darbepoetin for renal anemia in non-dialysis CKD, not PEG 400/bronchitis |
-| [NCT01519947](https://clinicaltrials.gov/study/NCT01519947) | Phase 4 | Completed | 87 | **Not relevant** — studies altitude effect on MIRCERA dosing for renal anemia |
-| [NCT01422824](https://clinicaltrials.gov/study/NCT01422824) | N/A (Observational) | Completed | 185 | **Not relevant** — observational safety/efficacy study of MIRCERA in hemodialysis patients |
-| [NCT01379963](https://clinicaltrials.gov/study/NCT01379963) | N/A (Observational) | Completed | 780 | **Not relevant** — retrospective hemoglobin-level reporting in MIRCERA-treated renal anemia patients |
-| [NCT01309295](https://clinicaltrials.gov/study/NCT01309295) | N/A (Observational) | Completed | 250 | **Not relevant** — prospective efficacy/safety study of MIRCERA in CKD pre-dialysis/dialysis patients |
+| [NCT00559273](https://clinicaltrials.gov/study/NCT00559273) | Phase 3 | Completed | 307 | Mircera vs darbepoetin in renal anaemia (CKD, not on dialysis). Not relevant. |
+| [NCT01519947](https://clinicaltrials.gov/study/NCT01519947) | Phase 4 | Completed | 87 | Effect of altitude on Mircera dosing in renal anaemia. Not relevant. |
+| [NCT01422824](https://clinicaltrials.gov/study/NCT01422824) | N/A (observational) | Completed | 185 | Safety and efficacy of Mircera in haemodialysis patients. Not relevant. |
+| [NCT01379963](https://clinicaltrials.gov/study/NCT01379963) | N/A (observational) | Completed | 780 | Retrospective haemoglobin levels in Mircera-treated patients. Not relevant. |
+| [NCT01309295](https://clinicaltrials.gov/study/NCT01309295) | N/A (observational) | Completed | 250 | Mircera in predialysis and dialysis CKD patients. Not relevant. |
 
 ---
 
@@ -83,30 +85,19 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Polyethylene Glycol 400 is currently **not marketed** in Canada as a standalone licensed product under this evidence pack (0 DINs on file).
+| DIN | Product Name |
+|---------|------|
+| 2518228 | RED EYE WORKPLACE |
+| 2518201 | RED EYE TRIPLE ACTION |
+| 2344319 | ADVANCED RELIEF EYE DROPS |
 
----
-
-## Additional Candidate Indication (Rank 2): Congenital Ichthyosiform Erythroderma
-
-The evidence pack also includes a second, lower-confidence candidate:
-
-| Item | Content |
-|------|------|
-| Predicted Indication | Congenital ichthyosiform erythroderma |
-| TxGNN Prediction Score | 99.10% |
-| Evidence Level | L5 |
-| Clinical Trials | Currently no related clinical trials registered |
-| Literature | Currently no related literature available |
-| Recommended Decision | Hold |
-
-**Rationale:** PEG 400 is commonly used as an emollient/humectant excipient in topical formulations, which offers a plausible (but unproven) theoretical basis for symptomatic skin-hydration benefit in ichthyosis. However, there is no direct pharmacological or clinical evidence of therapeutic effect on this condition — the link is model-score only.
+Dosage form, manufacturer and approved indication text are not recorded for these licences.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (TFDA/label warnings, contraindications, and DDI data are currently unavailable — DG001, flagged as Blocking for safety review.)
+Please refer to the package insert for safety information.
 
 ---
 
@@ -115,15 +106,14 @@ Please refer to the package insert for safety information. (TFDA/label warnings,
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (bronchitis) is not supported by genuine evidence — the retrieved clinical trials are a false-positive match to a different drug (MIRCERA®) caused by string overlap in "polyethylene glycol," and no relevant literature exists.
-- The second candidate (congenital ichthyosiform erythroderma) has a weak theoretical rationale (topical emollient use) but zero clinical trial or literature support.
-- Both candidates remain at Evidence Level L5 (model prediction only) and are correctly staged at S0 by the scoring pipeline.
+The prediction rests on model output alone (evidence level L5). There is no plausible mechanism, no relevant trial and no literature. PEG 400 is an excipient, so the high score is likely a naming artifact.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/Health Canada label warnings and contraindications before any safety screening can begin.
-- Resolve DG002: obtain confirmed mechanism-of-action data for PEG 400 as a small molecule (distinct from PEGylated biologics).
-- Re-run evidence retrieval with stricter drug-entity disambiguation to exclude PEGylated biologic products (e.g., MIRCERA, pegfilgrastim, PEG-interferon) from matching on the "polyethylene glycol" substring.
-- If pursuing the ichthyosis hypothesis, seek dermatology-specific preclinical or case-level evidence on PEG-based emollient formulations before advancing past S0.
+- Health Canada package insert warnings and contraindications, which block safety screening
+- Mechanism of action data from DrugBank, to check for any airway-relevant pathway
+- Original approved indication text for the three DINs
+- Relevant clinical or preclinical evidence for PEG 400 in bronchitis, or in congenital ichthyosiform erythroderma
+- A route-compatibility assessment, since current products are ophthalmic and a respiratory or systemic route has not been evaluated
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

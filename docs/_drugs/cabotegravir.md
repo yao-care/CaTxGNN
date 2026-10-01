@@ -2,7 +2,7 @@
 layout: default
 title: Cabotegravir
 parent: Model Prediction Only (L5)
-nav_order: 126
+nav_order: 141
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,61 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Cabotegravir: From HIV Infection to Rheumatoid Arthritis
+# Cabotegravir: From HIV-1 Infection to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Cabotegravir is an integrase strand transfer inhibitor (INSTI) approved internationally for HIV-1 infection treatment and pre-exposure prophylaxis (PrEP), though it holds no Health Canada Drug Identification Number (DIN) at present.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-however, **no clinical trials and no published literature** currently support this direction, placing this prediction at the lowest evidence tier.
+Cabotegravir is an antiretroviral marketed in Canada under the brand names APRETUDE, VOCABRIA and CABENUVA, generally known as an HIV-1 integrase strand transfer inhibitor.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but **0 clinical trials** and **0 publications** currently support this direction. This is a model prediction only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 Infection (treatment and PrEP; no Canadian DIN on file) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | HIV-1 infection (based on general drug knowledge; the record supplies no approved indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 (model prediction only — no supporting studies identified) |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, Cabotegravir belongs to the integrase strand transfer inhibitor (INSTI) class. It works by blocking HIV-1 integrase, the enzyme responsible for inserting viral DNA into the host cell genome. It is best known as the active component of long-acting injectable HIV regimens (cabotegravir + rilpivirine), administered monthly or bi-monthly.
+Currently, detailed mechanism of action data is not available. Cabotegravir is generally known as an HIV-1 integrase strand transfer inhibitor. Its efficacy in HIV-1 infection is established, but the provided data show no established link to the pathways involved in rheumatoid arthritis.
 
-The proposed mechanistic bridge to rheumatoid arthritis rests on a speculative hypothesis: certain studies have suggested that endogenous retroviruses (ERVs) and retrotransposons may contribute to synovial inflammation in RA. In theory, an integrase inhibitor could suppress ERV integration activity in synovial tissue, potentially dampening inflammatory signalling. However, this hypothesis has not been tested in any RA model, human or animal.
+The relationship between the original and predicted indications is also unassessed. Rheumatoid arthritis is an autoimmune joint disease, while cabotegravir acts on a viral enzyme. No biological rationale connecting the two was supplied.
 
-It is important to note that the mechanistic link between Cabotegravir and RA pathophysiology remains entirely unvalidated. Unlike the gastric-cancer-to-colorectal-cancer extrapolation seen in fluoropyrimidine repurposing, RA and HIV infection share no established pharmacological pathway. The high TxGNN score likely reflects broad network connectivity in the knowledge graph rather than a direct biological rationale.
+The high TxGNN score (0.995) is a knowledge-graph model output, not clinical evidence. It should be treated as a hypothesis to test, not as support for efficacy.
+
+Other top-ranked predictions are also L5 with no trials or publications. They are sclerosing cholangitis, bronchitis, colobomatous microphthalmia-rhizomelic dysplasia syndrome and severe nonproliferative diabetic retinopathy. For the ultra-rare genetic syndrome in particular, the score likely reflects knowledge-graph artifacts rather than clinical plausibility.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Cabotegravir in Rheumatoid Arthritis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Cabotegravir in Rheumatoid Arthritis.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Cabotegravir currently holds no Drug Identification Numbers (DINs) in Canada. No licensed products are on file.
+| DIN | Product Name |
+|---------|------|
+| 2547473 | APRETUDE |
+| 2547465 | APRETUDE |
+| 2497204 | VOCABRIA |
+| 2497247 | CABENUVA |
+| 2497220 | CABENUVA |
+
+Dosage form and approved indication text are not available in the record.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction data were available in the current Evidence Pack.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -92,15 +101,14 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (99.45%), but the score alone cannot justify advancement — there is zero clinical, observational, or preclinical evidence linking Cabotegravir to rheumatoid arthritis, and the proposed ERV-mediated mechanistic link is entirely hypothetical and unvalidated.
+The prediction rests only on a model score, with no trials, no literature and no supported mechanistic link between an HIV integrase inhibitor and rheumatoid arthritis. Evidence is at the lowest level (L5), so there is no basis to advance.
 
 **To proceed, the following is needed:**
-
-- **Mechanism validation:** Pre-clinical studies (in vitro or animal models) demonstrating that INSTI-class drugs modulate ERV expression or synovial inflammation in RA-relevant models.
-- **MOA data:** Retrieve full Cabotegravir pharmacology from DrugBank (DB11751) to confirm or refute the ERV suppression hypothesis.
-- **Safety data:** Obtain Health Canada package insert or international prescribing information (GSK/ViiV Healthcare) to assess warnings, contraindications, and drug interactions — currently a blocking data gap (DG001).
-- **Literature scoping:** Conduct a broader PubMed search using INSTI class terms (e.g., "integrase inhibitor AND rheumatoid arthritis", "endogenous retrovirus AND synovitis") to determine whether any class-level evidence exists beyond Cabotegravir specifically.
-- **Regulatory pathway:** If early evidence emerges, confirm Health Canada DIN pathway requirements and consider whether the long-acting injectable formulation is appropriate for a non-infectious, chronic inflammatory indication.
+- Health Canada package insert warnings and contraindications (currently blocking safety screening)
+- Mechanism of action data from DrugBank, to test any plausible link to rheumatoid arthritis pathways
+- Approved indication text for the Canadian licenses, to confirm the original indication
+- Preclinical or early clinical evidence in rheumatoid arthritis
+- Route and formulation compatibility assessment (currently pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

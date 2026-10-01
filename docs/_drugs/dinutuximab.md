@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dinutuximab
-parent: High Evidence (L1-L2)
-nav_order: 245
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 286
+evidence_level: L5
 indication_count: 4
 ---
 
 # Dinutuximab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,110 +29,128 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-# Dinutuximab: From High-Risk Neuroblastoma to Ganglioneuroblastoma
+# Dinutuximab: Repurposing Evaluation, Top Prediction "Vertebral Anomalies and Variable Endocrine and T-Cell Dysfunction" (Best-Supported Candidate: Ganglioneuroblastoma)
 
 ## One-Sentence Summary
 
-Dinutuximab is a chimeric anti-GD2 monoclonal antibody (ch14.18), originally FDA-approved for the treatment of paediatric high-risk neuroblastoma following multi-agent, multimodal first-line therapy.
-The TxGNN model predicts it may be effective for **Ganglioneuroblastoma**, a closely related neuroblastic tumour in the same biological spectrum,
-with **7 clinical trials** and **2 publications** currently supporting this direction.
+Dinutuximab is an anti-GD2 monoclonal antibody, marketed in Canada as UNITUXIN and used in neuroblastoma.
+The TxGNN model's top-ranked prediction is **vertebral anomalies and variable endocrine and T-cell dysfunction**, a rare developmental syndrome, but it has **0 clinical trials** and **0 publications** behind it.
+The best-supported candidate is the 2nd-ranked prediction, **ganglioneuroblastoma**, with **7 clinical trials** and **2 publications**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | High-risk neuroblastoma (FDA-approved; not marketed in Canada) |
-| Predicted New Indication | Ganglioneuroblastoma |
-| TxGNN Prediction Score | 99.39% |
-| Evidence Level | L2 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Not listed in the supplied Canadian licence data |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction (rank 1) |
+| TxGNN Prediction Score | 99.42% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
+| Recommended Decision | Hold |
+
+For comparison, the other predictions are:
+
+| Rank | Predicted Indication | Score | Evidence Level | Decision |
+|------|------|------|------|------|
+| 2 | Ganglioneuroblastoma | 99.39% | L2 | Proceed with Guardrails |
+| 3 | Retroperitoneal neoplasm | 99.35% | L5 | Hold |
+| 4 | Chronic myelogenous leukaemia, BCR-ABL1 positive | 99.31% | L5 | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Dinutuximab (ch14.18) is a chimeric monoclonal antibody that targets GD2, a disialoganglioside antigen highly expressed on the surface of neuroblastoma cells but present at very low levels on most normal tissues. Its core mechanism relies on antibody-dependent cellular cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC) directed against GD2-expressing tumour cells. Although detailed MOA documentation is not available in the current dataset, this mechanism is well-characterised in the published literature and forms the biological foundation for FDA approval in high-risk neuroblastoma.
+Detailed mechanism-of-action data is not available in the database. From general knowledge, dinutuximab is a chimeric antibody that binds the disialoganglioside GD2 on tumour cells. It kills them through antibody-dependent cellular cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC).
 
-Ganglioneuroblastoma belongs to the same neuroblastic tumour spectrum as neuroblastoma, sharing a common cellular origin in neural crest cells. GD2 overexpression has been confirmed in ganglioneuroblastoma, meaning dinutuximab's molecular target is directly present in both the approved and predicted indications — a Tier-1 mechanistic extension with strong biological plausibility. This is not a speculative leap; it is a direct extension of the same drug-target-disease axis.
+**Rank 1 (vertebral anomalies and endocrine/T-cell dysfunction):** No mechanistic rationale can be identified. This is a rare developmental syndrome with immune involvement and no known GD2-driven pathology. The 99.42% score is a graph-based prediction only, with no supporting trials or literature.
 
-Multiple active clinical trials already enrol ganglioneuroblastoma patients alongside neuroblastoma patients (notably NCT03126916 and NCT07375563), reflecting an established clinical understanding that these two diagnoses share therapeutic biology. The TxGNN model's high prediction score almost certainly reflects this known disease-family proximity within the knowledge graph, reinforcing rather than conflicting with clinical intuition.
+**Rank 2 (ganglioneuroblastoma):** The mechanism is directly plausible. Ganglioneuroblastoma sits in the neuroblastic tumour spectrum, whose cells express GD2, and GD2 targeting is the basis for dinutuximab's use in high-risk neuroblastoma. Two caveats apply:
+- The supplied trials enrol neuroblastoma populations, not ganglioneuroblastoma specifically. Differentiated, Schwannian-stroma-rich tumours may express less GD2, so histology-specific applicability needs confirmation.
+- Because the original indication is missing from the dataset, it is unclear whether this is on-label use or true repurposing. Verify against the Canadian label.
+
+**Ranks 3 and 4:** "Retroperitoneal neoplasm" is an anatomical category rather than a GD2-defined disease. The link likely arises because neuroblastoma can occur in the retroperitoneum. Chronic myelogenous leukaemia is driven by the BCR-ABL1 kinase and has no established GD2 dependence. Neither has trials or literature.
 
 ---
 
 ## Clinical Trial Evidence
 
+**Rank 1 (top prediction):** Currently no related clinical trials registered.
+
+**Ganglioneuroblastoma (rank 2, best-supported candidate):**
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT06172296](https://clinicaltrials.gov/study/NCT06172296) | Phase 3 | Recruiting | 478 | Pivotal trial adding dinutuximab to intensive multimodal induction therapy (chemotherapy, surgery, radiation, stem cell transplant) for newly diagnosed high-risk neuroblastoma; directly targets GD2 on tumour cells, serving as the likely registration-enabling study |
-| [NCT03126916](https://clinicaltrials.gov/study/NCT03126916) | Phase 3 | Recruiting | 750 | Largest ongoing Phase 3 study comparing 131I-MIBG vs ALK inhibitor (lorlatinib) added to standard therapy including dinutuximab; explicitly includes ganglioneuroblastoma patients and will provide the largest subgroup dataset for this indication |
-| [NCT07375563](https://clinicaltrials.gov/study/NCT07375563) | Phase 3 | Recruiting | 5 | Chemoimmunotherapy combined with autologous NK cell therapy for refractory/relapsed high-risk neuroblastoma **and ganglioneuroblastoma**; the only trial naming ganglioneuroblastoma directly in the title; currently in very early accrual |
-| [NCT01767194](https://clinicaltrials.gov/study/NCT01767194) | Phase 2 | Completed | 73 | COG ANBL1221: completed randomised Phase 2 trial of irinotecan/temozolomide + dinutuximab vs temsirolimus in relapsed/refractory neuroblastoma; results published in *Lancet Oncology* (PMID 28549783); the only completed and published RCT in this dataset |
-| [NCT04385277](https://clinicaltrials.gov/study/NCT04385277) | Phase 2 | Active, not recruiting | 41 | Pilot study of dinutuximab + GM-CSF + isotretinoin combined with irinotecan/temozolomide post-consolidation; accrual complete and awaiting results; safety and tolerability data for combination immunotherapy backbone |
-| [NCT03786783](https://clinicaltrials.gov/study/NCT03786783) | Phase 2 | Active, not recruiting | 42 | Pilot induction regimen incorporating dinutuximab + GM-CSF for newly diagnosed high-risk neuroblastoma; characterises early integration of dinutuximab into induction rather than consolidation/maintenance |
-| [NCT07437963](https://clinicaltrials.gov/study/NCT07437963) | Phase 1/2 | Not yet recruiting | 76 | Dose-optimisation study of dinutuximab/cyclophosphamide/topotecan/GM-CSF ± iberdomide (a cereblon-modulating immunomodulator) for relapsed/refractory neuroblastoma following prior chemoimmunotherapy; opens May 2026 |
+|---------|------|------|------|---------|
+| [NCT01767194](https://clinicaltrials.gov/study/NCT01767194) | Phase 2 | Completed | 73 | Randomised trial of irinotecan/temozolomide with temsirolimus or dinutuximab in relapsed/refractory neuroblastoma. Results published (PMID 28549783). Strongest completed clinical evidence. |
+| [NCT06172296](https://clinicaltrials.gov/study/NCT06172296) | Phase 3 | Recruiting | 478 | Adds dinutuximab to induction chemotherapy and multimodal therapy in newly diagnosed high-risk neuroblastoma. No results yet. |
+| [NCT03126916](https://clinicaltrials.gov/study/NCT03126916) | Phase 3 | Recruiting | 750 | Adds 131I-MIBG or an ALK inhibitor to intensive therapy in high-risk neuroblastoma or ganglioneuroblastoma. Dinutuximab is likely part of the backbone but is not the tested variable. |
+| [NCT04385277](https://clinicaltrials.gov/study/NCT04385277) | Phase 2 | Active, not recruiting | 41 | Pilot of dinutuximab, GM-CSF and isotretinoin with irinotecan/temozolomide after consolidation in high-risk neuroblastoma. |
+| [NCT03786783](https://clinicaltrials.gov/study/NCT03786783) | Phase 2 | Active, not recruiting | 42 | Pilot induction regimen incorporating ch14.18 (dinutuximab) and sargramostim in newly diagnosed high-risk neuroblastoma. |
+| [NCT07375563](https://clinicaltrials.gov/study/NCT07375563) | Phase 3 | Recruiting | 5 | Chemoimmunotherapy plus autologous NK cells in relapsed/refractory high-risk neuroblastoma and ganglioneuroblastoma. Very small enrolment. |
+| [NCT07437963](https://clinicaltrials.gov/study/NCT07437963) | Phase 1/2 | Not yet recruiting | 76 | Dinutuximab/cyclophosphamide/topotecan/GM-CSF with or without iberdomide in relapsed/refractory neuroblastoma. No data yet. |
 
 ---
 
 ## Literature Evidence
 
+**Rank 1 (top prediction):** Currently no related literature available.
+
+**Ganglioneuroblastoma (rank 2, best-supported candidate):**
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [28549783](https://pubmed.ncbi.nlm.nih.gov/28549783/) | 2017 | Phase 2 RCT | *The Lancet Oncology* | COG ANBL1221: randomised comparison of irinotecan-temozolomide + dinutuximab vs + temsirolimus in children with relapsed/refractory neuroblastoma; the highest-quality evidence piece in this dataset confirming activity of dinutuximab-based combination regimens |
-| [37929737](https://pubmed.ncbi.nlm.nih.gov/37929737/) | 2025 | Case Report + Review | *Current Pediatric Reviews* | Late relapse in neuroblastoma: case report with literature review contextualising the treatment landscape, including immunotherapy strategies for relapsed/refractory disease; documents evolving role of anti-GD2 therapy |
+|------|-----|------|------|---------|
+| [28549783](https://pubmed.ncbi.nlm.nih.gov/28549783/) | 2017 | RCT | The Lancet. Oncology | COG ANBL1221, an open-label randomised Phase 2 trial. Tested adding temsirolimus or dinutuximab to irinotecan-temozolomide in relapsed/refractory neuroblastoma. |
+| [37929737](https://pubmed.ncbi.nlm.nih.gov/37929737/) | 2025 | Case report / Review | Current Pediatric Reviews | Late relapse in neuroblastoma. Background on the poor outcomes of relapsed/refractory disease. |
 
 ---
 
 ## Canada Market Information
 
-Dinutuximab is **not marketed in Canada**. There are no Drug Identification Numbers (DINs) on record, and no Health Canada product licences have been issued.
+| DIN | Product Name |
+|---------|------|
+| 2483076 | UNITUXIN |
 
-> Dinutuximab (brand name: Unituxin®) holds FDA approval in the United States for paediatric patients with high-risk neuroblastoma who achieved at least a partial response to prior first-line multimodal therapy. Canadian access currently requires a **Special Access Programme (SAP)** application to Health Canada or participation in an active clinical trial.
+Dosage form, manufacturer and approved-indication text were not included in the supplied record.
 
 ---
 
 ## Cytotoxicity
 
-Dinutuximab is an antineoplastic immunotherapy agent targeting GD2-expressing malignancies, meeting criteria as an antineoplastic (original indication: neuroblastoma; drug class: anti-tumour monoclonal antibody).
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted immunotherapy (anti-GD2 chimeric monoclonal antibody; not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Low to moderate — primary haematologic toxicity derives from combination chemotherapy partners (e.g., irinotecan, temozolomide, cyclophosphamide), not dinutuximab itself; monitor CBC accordingly |
-| Emetogenicity Classification | Low — as a monoclonal antibody, dinutuximab itself has minimal emetogenic potential; emetogenicity in clinical practice is driven by concomitant chemotherapy agents |
-| Monitoring Items | Vital signs and infusion parameters (anaphylaxis/infusion reaction risk), CBC with differential, liver and renal function, electrolytes (capillary leak risk), neurological assessment (peripheral neuropathy, vision), pain scores during and after infusion |
-| Handling Protection | Standard aseptic technique for parenteral biological agents; institutional biosafety protocols apply; does not require the dedicated cytotoxic containment precautions mandated for conventional chemotherapy, but biohazard handling policies should be followed per site SOP |
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (anti-GD2 monoclonal antibody acting through ADCC/CDC) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Follow institutional handling procedures for antineoplastic biologics and the package insert |
 
 ---
 
 ## Safety Considerations
 
-Dinutuximab is not marketed in Canada or Taiwan, so a local package insert is unavailable. Based on FDA prescribing information and published trial data:
-
-- **Key Warnings**: Severe infusion-related reactions including anaphylaxis (pre-medication and resuscitation preparedness required); severe neuropathic pain necessitating IV opioid analgesia during infusion; capillary leak syndrome; hypotension; neurological toxicity (peripheral sensory neuropathy, transient cortical blindness reported)
-- **Contraindications**: History of anaphylaxis to dinutuximab; consult FDA label for full listing
-- **Drug Interactions**: No formal DDI data available in this dataset. Dinutuximab is consistently co-administered with GM-CSF, IL-2, isotretinoin, and various cytotoxic agents; interaction profiles should be reviewed for each specific combination partner via institutional pharmacy consultation
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold** for the top-ranked prediction (vertebral anomalies and variable endocrine and T-cell dysfunction).
 
 **Rationale:**
-Ganglioneuroblastoma and neuroblastoma share neural crest cell origin and confirmed GD2 overexpression, making dinutuximab's anti-GD2 mechanism directly applicable with strong biological plausibility. Multiple Phase 3 trials already enrol ganglioneuroblastoma patients, and one completed Phase 2 RCT in *Lancet Oncology* has demonstrated meaningful clinical activity of dinutuximab-based combinations — meeting the L2 evidence threshold for a conditional advance decision.
+- The score is high (99.42%), but there are no trials, no literature and no plausible GD2-related mechanism, so this is an unsupported graph prediction.
+- Ranks 3 and 4 are also Hold for the same reasons.
+- **Ganglioneuroblastoma** is the only prediction with meaningful support and would be **Proceed with Guardrails** (L2). It has a plausible GD2 mechanism, a completed randomised Phase 2 trial and several ongoing Phase 2/3 trials. Level L2 rather than L1 because the Phase 3 trials are still recruiting with no reported results.
 
 **To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications. This is a blocking gap for safety screening.
+- Mechanism-of-action data from DrugBank.
+- The approved indication text from the Canadian licence, to confirm whether ganglioneuroblastoma is on-label or a true repurposing case.
+- Evidence of GD2 expression in ganglioneuroblastoma, especially the differentiated, Schwannian-stroma-rich subtypes.
+- Results from the ongoing Phase 3 trials (NCT06172296, NCT03126916).
 
-- **GD2 expression data**: Systematic histopathological confirmation of GD2 expression rates in ganglioneuroblastoma subtypes (intermixed vs. nodular) to define the eligible patient population
-- **Subgroup extraction**: Request or await ganglioneuroblastoma-specific subgroup analyses from NCT03126916 (n=750), which is the most statistically powered ongoing dataset
-- **Regulatory pathway**: Initiate a Health Canada SAP application or identify an active Canadian trial site for NCT06172296 or NCT03126916 to enable access
-- **MOA documentation**: Retrieve complete mechanism of action data from DrugBank (DB09077) and FDA label to finalise the pharmacological profile
-- **Full safety profile**: Extract complete warnings, contraindications, and paediatric dosing guidance from the Unituxin® FDA prescribing information
-- **YMYL compliance**: Confirm all patient-facing materials include the required disclaimer — *"Results are for research reference only and do not constitute medical advice; repurposing candidates require clinical validation before use"*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

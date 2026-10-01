@@ -2,7 +2,7 @@
 layout: default
 title: Calaspargase Pegol
 parent: Model Prediction Only (L5)
-nav_order: 129
+nav_order: 144
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calaspargase Pegol: From Acute Lymphoblastic Leukemia to Insomnia
+# Calaspargase pegol: From Acute Lymphoblastic Leukemia to Insomnia
 
 ## One-Sentence Summary
 
-Calaspargase pegol (Asparlas) is a pegylated recombinant L-asparaginase enzyme used as part of chemotherapy regimens for Acute Lymphoblastic Leukemia (ALL) and lymphoblastic lymphoma in pediatric and young adult patients.
-The TxGNN model's top prediction identifies **insomnia** as a potential new indication (score 99.80%), yet there are **0 clinical trials** and **0 publications** supporting this direction.
-More critically, systematic review of all 10 predicted indications reveals a pattern of false positives and pharmacologically contradicted predictions — this entire prediction set is recommended as **Hold**.
+Calaspargase pegol is a pegylated asparaginase, an enzyme therapy that depletes circulating asparagine. It is used in acute lymphoblastic leukemia (ALL), based on the trial data in the Evidence Pack. The TxGNN model predicts it may be effective for **insomnia** with a very high score, but **no clinical trials and no publications** support this prediction, and no plausible mechanism is apparent.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Acute Lymphoblastic Leukemia (ALL) / Lymphoblastic Lymphoma |
+|------|------|
+| Original Indication | Not stated in the Canadian license record; the linked trials and drug class indicate acute lymphoblastic leukemia / lymphoblastic lymphoma |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, calaspargase pegol is a pegylated recombinant bacterial L-asparaginase. Its antitumor mechanism depends on depleting circulating L-asparagine: leukemic lymphoblasts lack the enzyme asparagine synthetase and cannot synthesize their own asparagine, so they die when the extracellular supply is exhausted. This is a highly tumor-specific mechanism with no established connection to central nervous system function, sleep regulation, or circadian biology.
+Currently, detailed mechanism of action data is not available in the input. Based on the drug class, calaspargase pegol is a pegylated asparaginase. It depletes circulating asparagine, which leukemic cells depend on, and this is the basis of its use in ALL.
 
-The prediction of insomnia is assessed in the evidence pack's own mechanistic analysis as a **false positive**. The proposed explanation is that the TxGNN knowledge graph contains confounding edges linking "ALL chemotherapy" to "fatigue and sleep disturbance" (well-known treatment side effects), causing the model to incorrectly infer a therapeutic — rather than adverse — relationship. In short, the model appears to have learned that this drug is associated with sleep-related nodes in the graph, but for the wrong reason.
+This mechanism has no evident connection to sleep regulation, and the Evidence Pack review found no plausible mechanistic link to insomnia. The score of 0.998 most likely reflects a knowledge-graph propagation artifact, not pharmacology. The near-duplicate prediction "sleep disorder, initiating and maintaining sleep" (rank 7) likely shares the same artifact.
 
-Across all 10 predicted indications, a serious systemic problem emerges. Four indications — Factor V excess with thrombosis, antithrombin deficiency type 2, heparin cofactor 2 deficiency, and thrombophilia — carry explicit **reverse mechanism warnings**: L-asparaginase is known to *cause* these conditions by suppressing hepatic protein synthesis, which simultaneously depletes coagulation factors (fibrinogen, antithrombin III, Protein C, Protein S, Factor V). Using this drug to treat conditions it pharmacologically induces would be clinically unsafe. The two clinical trials retrieved for the rank-10 prediction (thrombotic disease) are not evidence of therapeutic benefit — both studies investigate coagulation as a *safety monitoring* endpoint in ALL patients, confirming the drug's role as a thrombosis risk factor rather than a treatment.
+The wider prediction list points the same way. Many of the other top-ranked predictions are coagulation-related (thrombophilia, antithrombin deficiency type 2, heparin cofactor 2 deficiency, thrombotic disease) or hepatic (benign recurrent intrahepatic cholestasis). These appear to reflect known **adverse effects** of asparaginase, such as lowered antithrombin and fibrinogen, thrombosis and cholestasis, not therapeutic benefit. All ten predictions are L5 except thrombotic disease (L4).
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials related to insomnia are registered for calaspargase pegol.
+Currently no related clinical trials registered for insomnia.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature is available for calaspargase pegol in insomnia.
+Currently no related literature available for insomnia.
 
 ---
 
 ## Canada Market Information
 
-Calaspargase pegol is not currently approved or marketed in Canada. No Health Canada DINs are on file. For reference, the drug is FDA-approved in the United States (Asparlas, Jazz Pharmaceuticals) for ALL in patients aged 1 month to 21 years as part of a multi-agent chemotherapy regimen.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2542943 | ASPARLAS | — | — |
+
+The license record does not list a dosage form or approved indication text.
 
 ---
 
 ## Cytotoxicity
 
+This drug is used in leukemia, so it is treated as antineoplastic.
+
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Enzyme-based antineoplastic (L-asparaginase class) |
-| Myelosuppression Risk | Low as a primary effect; indirect marrow suppression may occur in combination regimens |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Coagulation panel (PT, aPTT, fibrinogen, antithrombin III), liver function tests (ALT, AST, bilirubin), serum amylase/lipase, blood glucose, CBC with differential |
-| Handling Protection | Handle as a hazardous pharmaceutical per cytotoxic drug handling regulations; standard PPE required |
+|------|------|
+| Cytotoxicity Classification | Enzyme-based antineoplastic (asparagine depletion), not a conventional DNA-damaging cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Coagulation parameters and liver function are relevant given the class effects noted below; full monitoring requirements are in the package insert |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings, contraindications and drug interaction data were not available for this report (the DDI query returned no results). Please refer to the package insert for these.
 
-Based on the mechanistic analysis contained within this evidence pack, the following drug-class safety concerns are documented in clinical literature and warrant attention regardless of indication:
+Class-level concerns noted in the Evidence Pack:
+- **Coagulation effects**: asparaginase lowers antithrombin, fibrinogen and other coagulation proteins and is associated with thrombosis.
+- **Hepatotoxicity**: hepatotoxicity and cholestasis are associated adverse effects.
 
-- **Coagulopathy**: Suppression of hepatic protein synthesis depletes antithrombin III, fibrinogen, and Protein C/S simultaneously, creating a paradoxical pro-thrombotic and pro-hemorrhagic state. Thromboembolic events (including cerebral sinus thrombosis) occur in approximately 1–3% of patients during treatment.
-- **Hepatotoxicity**: Elevated transaminases, hepatic steatosis, and cholestatic dysfunction are documented adverse effects and are particularly relevant given that several predicted indications (e.g., benign recurrent intrahepatic cholestasis) involve pre-existing liver pathology.
-- **Pancreatitis**: A known serious adverse reaction requiring immediate discontinuation if suspected.
-- **Hypersensitivity**: Anaphylactic reactions may occur, relevant to the pegylated formulation specifically.
+Repurposing this drug for a non-oncology condition such as insomnia would expose patients to these risks with no supporting benefit.
 
 ---
 
@@ -111,15 +114,13 @@ Based on the mechanistic analysis contained within this evidence pack, the follo
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for calaspargase pegol are classified at Evidence Level L5 (model prediction only, zero supporting studies). More importantly, mechanistic review demonstrates that the majority of high-scoring predictions are either false positives arising from graph artifact (sleep-related nodes), or represent conditions that calaspargase pegol is known to *cause* as adverse effects — making repurposing both scientifically unsupported and potentially dangerous. No indication in this prediction set offers a credible therapeutic rationale.
+The insomnia prediction rests on a model score alone. There are no trials or publications, and no plausible mechanism links asparagine depletion to sleep. The drug's known toxicity profile makes a non-oncology repurposing attempt hard to justify.
 
 **To proceed, the following is needed:**
-
-- Retrieve complete MOA data from DrugBank (DB14730) to enable proper mechanistic evaluation in future prediction cycles
-- Apply graph denoising or adversarial filtering to the TxGNN model to reduce side-effect node confounding, which appears to be driving the majority of these false-positive predictions
-- Obtain full Canadian product monograph (or U.S. FDA label) to populate the safety fields currently flagged as data gaps
-- Consider whether ALL / lymphoblastic lymphoma itself should be formally registered as the primary indication in future evidence pack versions to ground the repurposing evaluation
-- Do not advance any of the current 10 predicted indications to further evaluation without new mechanistic evidence; the reverse-mechanism warnings for thrombosis-related indications in particular should be flagged as contraindicated use cases in the knowledge graph
+- The Health Canada package insert, including warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
+- Any preclinical or clinical evidence linking asparaginase activity to sleep regulation, which does not currently exist in the input
+- Results from NCT07071051 (coagulation effects in pediatric ALL), which would help characterize the thrombosis risk, though it does not address insomnia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

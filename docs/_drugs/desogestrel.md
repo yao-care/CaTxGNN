@@ -2,15 +2,15 @@
 layout: default
 title: Desogestrel
 parent: Moderate Evidence (L3-L4)
-nav_order: 227
-evidence_level: L3
+nav_order: 262
+evidence_level: L4
 indication_count: 10
 ---
 
 # Desogestrel
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,74 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Desogestrel: From Oral Contraception to Amenorrhea
+# Desogestrel: From Hormonal Contraception to Amenorrhea
 
 ## One-Sentence Summary
 
-Desogestrel is a third-generation synthetic progestogen widely used as a component of combined oral contraceptives and as a progestogen-only pill (75 mcg/day) for contraception.
-The TxGNN model predicts it may be effective for **Amenorrhea**, with **2 clinical trials** and **16 publications** currently supporting this direction.
-However, the evidence is largely indirect — the drug is known to *induce* amenorrhea as a pharmacological side effect rather than directly treating the underlying condition.
+Desogestrel is a progestin used in oral contraceptives, both alone (75 µg progestin-only pill) and combined with ethinylestradiol.
+The TxGNN model predicts it may be effective for **amenorrhea**, but this rests on only **2 loosely related clinical trials** and **16 publications**, none of which show desogestrel treating amenorrhea directly.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Canada (widely known as oral contraceptive progestogen) |
+|------|------|
+| Original Indication | Hormonal contraception (inferred from the literature; the license records contain no indication text) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 12 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, desogestrel is a third-generation gonane progestogen and a prodrug; its active metabolite **etonogestrel** binds selectively to progesterone receptors with very low androgenic and estrogenic activity. It modulates the hypothalamic-pituitary-ovarian (HPO) axis primarily by suppressing the LH surge and inhibiting ovulation, while also exerting direct effects on the endometrium. These same HPO-suppressive properties underlie its potential connection to amenorrhea.
+Currently, detailed mechanism of action data is not available. Based on known information, desogestrel is a progestin that suppresses ovulation and acts on the endometrium. Its efficacy in contraception is well established, and mechanistically it may influence menstrual cycle regulation.
 
-The relationship between desogestrel and amenorrhea is well-established clinically — but in an important paradox: the desogestrel-only pill (75 mcg/day) *induces* amenorrhea in approximately 20–30% of users through potent endometrial suppression, rather than resolving it. Theoretically, this HPO axis modulation could be redirected therapeutically — for example, in hyperandrogenic amenorrhea (where restoring hormonal balance could trigger cycle resumption), or when used alongside estrogen in hypothalamic amenorrhea to protect the endometrium. A 2001 study (PMID 11725730) directly evaluated low-dose OC formulations including desogestrel-containing pills for bone preservation in hypothalamic amenorrheic women, providing the most direct evidence link.
-
-Overall, the TxGNN score of 99.96% most likely reflects strong graph-level co-occurrence between desogestrel and amenorrhea-related nodes in the knowledge graph (the drug causes amenorrhea; it is used clinically in populations with amenorrhea features such as PCOS and athletic menstrual suppression). A direct therapeutic application — treating pathological amenorrhea — would require a carefully framed clinical rationale and has no direct RCT support to date.
+The link to amenorrhea is weak and possibly reversed. Progestin-only use often *causes* amenorrhea rather than treating it. In combined pills, desogestrel may help regulate withdrawal bleeding. A therapeutic role in hypothalamic or athletic amenorrhea has not been established. The very high TxGNN score probably reflects a drug-disease association in the knowledge graph (amenorrhea as an effect of the drug) rather than a genuine therapeutic signal.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Completed | 121 | Evaluates estrogen therapy (transdermal vs. oral vs. none) in adolescent athletes with exercise-associated amenorrhea (athletic amenorrhea) to assess bone density outcomes; desogestrel not the study drug — indirect relevance through athletic amenorrhea population |
-| [NCT01588873](https://clinicaltrials.gov/study/NCT01588873) | Phase 4 | Unknown | 42 | 59-week comparison of oral combined contraceptive vs. hormonal vaginal ring on androgen, lipid, and metabolic parameters in PCOS women; amenorrhea not a primary endpoint; trial status unknown, limiting data reliability |
+|---------|------|------|------|---------|
+| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Completed | 121 | Hormonal and body-composition differences in young athletes with and without amenorrhea. Tests transdermal or oral estrogen versus none for bone density. Desogestrel is not shown as the studied drug, so this is not direct evidence. |
+| [NCT01588873](https://clinicaltrials.gov/study/NCT01588873) | Phase 4 | Unknown | 42 | Contraceptive pill versus vaginal ring on hormonal and metabolic parameters in women with PCOS. Endpoints are not amenorrhea treatment, and desogestrel is not confirmed as an arm. |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [18843653](https://pubmed.ncbi.nlm.nih.gov/18843653/) | 2008 | Cochrane Systematic Review | Cochrane Database Syst Rev | 20 mcg vs. >20 mcg estrogen COC comparison; amenorrhea and bleeding patterns analysed across multiple desogestrel-containing formulations (Mercilon, Marvelon) |
-| [21249657](https://pubmed.ncbi.nlm.nih.gov/21249657/) | 2011 | Cochrane Systematic Review (Update) | Cochrane Database Syst Rev | Updated analysis; confirms low-estrogen desogestrel pills have different amenorrhea and unscheduled bleeding profiles vs. higher-dose formulations |
-| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | Clinical Study | Gynecol Endocrinol | Desogestrel 75 mcg vs. drospirenone 4 mg POP in women with cardiovascular risk factors; desogestrel showed poorer cycle control with significantly higher amenorrhea rates over 9 cycles, confirming its endometrial suppression profile |
-| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | Clinical Study | J Reprod Med | OC therapy (including desogestrel-containing formulations) in young hypothalamic oligoamenorrheic women; evaluates whether different EE doses protect against bone loss — most direct evaluation of OC use in an amenorrheic population |
-| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Pharmacodynamic Study | Acta Obstet Gynecol Scand Suppl | Androgenicity comparison of progestogens; study population included PCO women with amenorrhea features; desogestrel demonstrated favourable anti-androgenic and HPO-modulating profile |
-| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | Comparative Clinical Study | Br J Obstet Gynaecol | Desogestrel 150 mcg with 20 mcg vs. 30 mcg EE head-to-head comparison; amenorrhea and breakthrough bleeding rates compared across dose groups |
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | RCT | Contraception | Implanon (etonogestrel implant, desogestrel's active metabolite) vs. Norplant over 2–4 years in 200 women; amenorrhea rates documented per 90-day reference periods, directly linking etonogestrel exposure to amenorrhea induction |
-| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | Clinical Tolerability Study | Am J Obstet Gynecol | Comprehensive tolerability profile of desogestrel/EE combination; non-contraceptive benefits including cycle regularity, dysmenorrhea reduction, and endometrial effects discussed |
-| [23221134](https://pubmed.ncbi.nlm.nih.gov/23221134/) | 2012 | Clinical Study | Georgian Med News | Pathogenetic management of central-genesis oligomenorrhea and amenorrhea in 159 infertile women; hormone therapy vs. standard approaches compared — provides context for hormonal treatment of amenorrhea |
-| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | Narrative Review | Obstet Gynecol Surv | Review of desogestrel, norgestimate, and gestodene; covers pharmacokinetics, HPO axis modulation, and clinical differentiation — relevant mechanistic background for amenorrhea prediction |
+|------|-----|------|------|---------|
+| [18843653](https://pubmed.ncbi.nlm.nih.gov/18843653/) | 2008 | Systematic review (Cochrane) | Cochrane Database Syst Rev | 20 µg versus >20 µg estrogen combined pills: effectiveness and bleeding patterns. Contraception focus, not amenorrhea treatment. |
+| [21249657](https://pubmed.ncbi.nlm.nih.gov/21249657/) | 2011 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Update of the review above, with the same contraception focus. |
+| [11725730](https://pubmed.ncbi.nlm.nih.gov/11725730/) | 2001 | Clinical study | J Reprod Med | Bone mineral density in young women with hypothalamic oligoamenorrhea on oral contraceptives with decreasing ethinylestradiol doses. |
+| [23221134](https://pubmed.ncbi.nlm.nih.gov/23221134/) | 2012 | Clinical study | Georgian Med News | Management of central oligomenorrhea and amenorrhea in 159 infertile women, compared with conventional hormone therapy. Desogestrel's role is not specified. |
+| [35261299](https://pubmed.ncbi.nlm.nih.gov/35261299/) | 2022 | Cohort/clinical study | Gynecol Endocrinol | Drospirenone-only pill versus desogestrel 75 µg on bleeding profile. Desogestrel showed poor cycle control, and progestin-only pills are associated with irregular bleeding including amenorrhea. |
+| [8218004](https://pubmed.ncbi.nlm.nih.gov/8218004/) | 1993 | Comparative clinical study | Br J Obstet Gynaecol | Two desogestrel pills (20 µg vs 30 µg ethinylestradiol) compared on reliability, cycle control and side effects. |
+| [3161265](https://pubmed.ncbi.nlm.nih.gov/3161265/) | 1985 | Pharmacodynamic study | Acta Obstet Gynecol Scand Suppl | Androgenicity of progestins, with focus on desogestrel alone and combined with ethinylestradiol. |
+| [8447356](https://pubmed.ncbi.nlm.nih.gov/8447356/) | 1993 | Clinical tolerability study | Am J Obstet Gynecol | Tolerability of desogestrel/ethinyl estradiol. Notes non-contraceptive benefits of oral contraceptives, such as reduced dysmenorrhea. |
+| [1436906](https://pubmed.ncbi.nlm.nih.gov/1436906/) | 1992 | Review | Obstet Gynecol Surv | Overview of pills containing gestodene, norgestimate and desogestrel. |
+| [2956054](https://pubmed.ncbi.nlm.nih.gov/2956054/) | 1987 | Clinical study | Contraception | Postponement of withdrawal bleeding using low-dose combined pills with an extended cycle. |
 
 ---
 
 ## Canada Market Information
 
-Desogestrel is currently **not marketed in Canada**. No Drug Identification Numbers (DINs) are registered under the Health Canada drug product database. No approved indications are available through the Canadian licensing system.
+| DIN | Product Name |
+|---------|------|
+| 2410257 | MIRVALA 28 |
+| 2272903 | LINESSA 21 |
+| 2257238 | LINESSA 28 |
+| 2556561 | MILEY 28 |
+| 2556553 | MILEY 21 |
+
+Dosage form and approved indication text are not available in the license records.
 
 ---
 
@@ -106,14 +111,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The evidence supporting desogestrel as a direct *treatment* for amenorrhea is at best L3 and predominantly indirect — desogestrel pharmacologically *induces* amenorrhea through HPO suppression rather than resolving its underlying pathology, and there are no direct RCTs evaluating it as a therapeutic agent for this indication. Additionally, with zero Health Canada DINs and no existing regulatory framework in Canada, proceeding requires establishing the drug's presence in the market before any repurposing effort can be structured.
+No study shows desogestrel treating amenorrhea. The two registered trials are indirect, and the literature mostly covers contraception, cycle control and tolerability. Progestin-only desogestrel commonly causes amenorrhea rather than treating it, so the high TxGNN score is likely a graph artifact.
 
 **To proceed, the following is needed:**
-- **Clarify the clinical question**: Distinguish between (a) *inducing controlled amenorrhea* for menorrhagia or endometriosis management, versus (b) *treating pathological amenorrhea* (e.g., functional hypothalamic amenorrhea or PCOS-associated amenorrhea) — these require entirely different development strategies
-- **Obtain full MOA data** from DrugBank (DrugBank ID: DB00304) to complete mechanistic analysis and strengthen the repurposing rationale
-- **Retrieve product monograph / prescribing information** (Health Canada or EMA) for complete safety assessment including key warnings, contraindications, and drug interactions
-- **Verify Canadian regulatory status**: Confirm whether desogestrel products (e.g., Cerazette/Azalia as progestogen-only pill, or Marvelon/Mercilon as combined OC) have any pending or historical Health Canada submissions
-- **Consider prioritising Rank 4 – Acne (Evidence Level L2)** for a stronger repurposing case: 1 completed Phase 4 RCT (n=201, NCT01466673) directly evaluates a desogestrel-containing formulation for acne vulgaris, supported by multiple clinical trials and over 20 publications with a clear anti-androgenic mechanistic basis
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Direct clinical evidence of desogestrel in amenorrhea, such as hypothalamic or athletic amenorrhea
+- Clarification of whether the effect comes from the combined-pill formulation (estrogen component) rather than desogestrel itself
+
+For reference, the same evidence pack shows stronger support for **acne** (L3, with a completed Phase 4 trial and several clinical studies of desogestrel/ethinylestradiol pills). That effect is mostly attributed to the combined formulation, so it may be a better candidate to evaluate first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

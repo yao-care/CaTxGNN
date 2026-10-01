@@ -2,7 +2,7 @@
 layout: default
 title: Salicylic Acid
 parent: Model Prediction Only (L5)
-nav_order: 704
+nav_order: 827
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salicylic Acid: From Undocumented Original Indication to Papillary Conjunctivitis
+# Salicylic Acid: From Topical Dermatologic Use to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salicylic acid (DrugBank DB00936) has no documented original indication or mechanism of action available in the current evidence pack.
-The TxGNN model predicts it may be effective for **Papillary Conjunctivitis** with a prediction score of 99.88%,
-but currently **0 clinical trials** and **0 publications** support this direction — this is a pure model prediction.
+Salicylic acid is a widely used topical agent, mainly as a keratolytic, and is marketed in Canada in several skin-treatment products.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
 
 ---
 
@@ -43,41 +43,51 @@ but currently **0 clinical trials** and **0 publications** support this directio
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in evidence pack |
-| Predicted New Indication | Papillary Conjunctivitis |
+| Original Indication | Topical keratolytic and dermatologic use (indication text is not available in the Canadian license records provided) |
+| Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 7 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for salicylic acid is not available in this evidence pack, and no original indication is documented either. This significantly limits our ability to assess the plausibility of the predicted new indication against established pharmacology.
+Currently, detailed mechanism of action data is not available. Based on known information, salicylic acid is a salicylate with keratolytic and anti-inflammatory activity. Its use in skin conditions is established, and mechanistically it might be applicable to inflammatory conditions of the ocular surface.
 
-The repurposing rationale attached to this prediction notes that salicylic acid has known keratolytic and anti-inflammatory properties, which are theoretically related to superficial inflammatory conjunctival lesions such as papillary conjunctivitis. However, this connection is described as indirect and speculative rather than evidence-based.
+The link between the original use and the predicted indication is weak. Papillary conjunctivitis is an inflammatory eye condition, and salicylic acid's anti-inflammatory properties offer only a loose connection. Salicylic acid is mainly applied to the skin, and putting it on the ocular surface raises irritation and safety concerns. The very high TxGNN score (0.9988) therefore reflects model prediction rather than demonstrated biology or clinical evidence.
 
-No ophthalmic formulation, safety data, or efficacy data supports systemic or topical ocular use of salicylic acid for this indication. The prediction should be treated as a knowledge-graph-derived hypothesis only, not a mechanistically validated repurposing candidate.
+Other predictions for this drug are weaker still. Most of the top 10 are rare congenital skeletal or developmental disorders (for example brachyolmia, pseudoachondroplasia, brachydactyly-syndactyly syndrome). No plausible mechanism for salicylic acid is evident for these, and they are likely knowledge-graph proximity artifacts. The one exception is spondyloarthropathy susceptibility (rank 10, L4). It has a class-level rationale through NSAID-type COX inhibition, but it is framed as genetic susceptibility rather than active disease and has no salicylic acid-specific data.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Salicylic acid currently has no marketing authorization or DIN records in Canada (market status: Not marketed / Not Marketed).
+Five of the seven authorizations are listed below.
+
+| DIN | Product Name |
+|---------|------|
+| 666114 | SEBCUR-T |
+| 578436 | DIPROSALIC |
+| 2428946 | ACTIKERALL |
+| 2402149 | ACNE TREATMENT SYSTEM |
+| 2245688 | RATIO-TOPISALIC |
+
+Dosage form and approved indication text were not provided for these products.
 
 ---
 
@@ -85,7 +95,7 @@ Salicylic acid currently has no marketing authorization or DIN records in Canada
 
 Please refer to the package insert for safety information.
 
-> **Note**: TFDA/regulatory warnings and contraindications data for this drug is flagged as a **Blocking** data gap (DG001) — this must be resolved before any safety evaluation (S1 stage) can proceed.
+Ocular application of salicylic acid raises irritation and safety concerns that would need to be addressed before any eye-related use.
 
 ---
 
@@ -94,14 +104,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported only by the TxGNN model score (Evidence Level L5) with no clinical trials or literature backing, and a blocking data gap exists for regulatory safety information (warnings/contraindications). The mechanistic rationale is explicitly noted as indirect and unproven in the evidence pack itself.
+The prediction rests only on the TxGNN model score, with no clinical trials or literature, and the mechanistic link to papillary conjunctivitis is weak. Ocular surface safety is a concern, and safety documentation for the Canadian products is not yet available.
 
 **To proceed, the following is needed:**
-- TFDA (or equivalent) package insert warnings and contraindications (Blocking gap, DG001)
-- Drug mechanism of action data via DrugBank API (High priority gap, DG002)
-- Documentation of the original approved indication(s) for this drug
-- Preclinical or mechanistic studies specifically evaluating salicylic acid in ophthalmic/conjunctival inflammatory conditions
-- Ophthalmic formulation and route-compatibility assessment, as no ocular dosage form data currently exists
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank)
+- Indication, dosage form, and route details for the Canadian products
+- A literature and trial search specific to salicylic acid in conjunctival or ocular surface inflammation
+- Ocular tolerability and formulation-route assessment, since current products are topical dermatologic
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

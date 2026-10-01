@@ -2,7 +2,7 @@
 layout: default
 title: Pibrentasvir
 parent: Model Prediction Only (L5)
-nav_order: 619
+nav_order: 727
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pibrentasvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# Pibrentasvir: From Chronic Hepatitis C to Hepatitis B Virus Infection
 
 ## One-Sentence Summary
 
-Pibrentasvir is the NS5A-inhibitor component of the fixed-dose combination glecaprevir/pibrentasvir (Mavyret/Maviret), used to treat chronic hepatitis C virus (HCV) genotype 1–6 infection. The TxGNN model predicts it may also be effective for **Hepatitis B Virus (HBV) infection**, with **14 clinical trials** and **20 publications** retrieved — however, essentially all of this evidence concerns HCV treatment rather than direct HBV efficacy, and the drug's own target (HCV NS5A protein) has no known homolog in HBV.
+Pibrentasvir is an HCV NS5A inhibitor, marketed in Canada as part of the glecaprevir/pibrentasvir combination (MAVIRET) for chronic hepatitis C.
+The TxGNN model predicts it may be effective for **hepatitis B virus infection**. Although **13 clinical trials** and **20 publications** were retrieved, they all concern hepatitis C, so **no direct HBV evidence** currently supports this prediction.
 
 ---
 
@@ -41,73 +42,82 @@ Pibrentasvir is the NS5A-inhibitor component of the fixed-dose combination gleca
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic Hepatitis C Virus (HCV) infection (as component of glecaprevir/pibrentasvir combination) |
-| Predicted New Indication | Hepatitis B Virus (HBV) infection |
+| Original Indication | Chronic hepatitis C (inferred from the trial and literature evidence; the licence records contain no indication text) |
+| Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (as assigned in the Evidence Pack; no HBV-specific study was found) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data for pibrentasvir was not available from the DrugBank extraction in this evidence pack. However, the clinical trial and literature evidence consistently describe pibrentasvir as an **NS5A inhibitor**, co-formulated with glecaprevir (an NS3/4A protease inhibitor) as glecaprevir/pibrentasvir (brand names Mavyret/Maviret), approved for chronic HCV genotype 1–6 infection, including in patients with renal impairment, compensated cirrhosis, and HIV co-infection.
+Currently, detailed mechanism of action data is not available. Based on known information, pibrentasvir is part of a fixed-dose combination with glecaprevir (an NS3/4A protease inhibitor). Its efficacy in hepatitis C has been established, but its applicability to hepatitis B is unproven.
 
-On the surface, HCV and HBV are both viral causes of chronic hepatitis and are frequently discussed together in clinical literature (shared elimination goals, co-infection screening, liver disease progression). This topical proximity is likely what drives the TxGNN knowledge-graph prediction.
+Hepatitis B and hepatitis C are both hepatotropic viral infections, which is probably why the model places them close together. The mechanistic link is weak, however. Pibrentasvir targets NS5A, a protein HBV does not have. No data in the supplied evidence show anti-HBV activity. The very high score (99.84%) most likely reflects proximity in the knowledge graph among liver-infecting viruses, not a demonstrated pharmacological effect.
 
-However, the mechanistic basis is weak: HCV belongs to *Flaviviridae* and NS5A is an HCV-specific non-structural protein, whereas HBV (*Hepadnaviridae*) is a reverse-transcribing DNA virus with no NS5A homolog or analogous drug target. The evidence pack's own mechanistic assessment states explicitly that **pibrentasvir's target does not exist in HBV**, and no cross-viral mechanistic rationale is established. This explains why, despite a high raw prediction score, none of the retrieved trials or literature demonstrate actual antiviral activity against HBV — the score most likely reflects graph-level co-occurrence of "viral hepatitis" concepts rather than pharmacological plausibility.
+HBV appears in the retrieved evidence only as a safety issue (HBV reactivation during direct-acting antiviral therapy for HCV) and in a vaccination commentary. Neither supports treating HBV with this drug.
 
 ---
 
 ## Clinical Trial Evidence
 
-*Note: All retrieved trials evaluate glecaprevir/pibrentasvir in HCV populations; none test efficacy against HBV specifically. Several are graded "low relevance (C)" for this reason.*
+All retrieved trials study pibrentasvir (usually with glecaprevir) in **hepatitis C**. None reports an HBV endpoint; the Evidence Pack's own relevance reviews that reached a grade rate them C (indirect at best).
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02707952](https://clinicaltrials.gov/study/NCT02707952) | Phase 3 | Completed | 295 | CERTAIN-1: G/P efficacy/safety in Japanese chronic HCV patients; not HBV-specific |
-| [NCT02723084](https://clinicaltrials.gov/study/NCT02723084) | Phase 3 | Completed | 136 | CERTAIN-2: G/P vs sofosbuvir+ribavirin in HCV genotype 2; not HBV-specific |
-| [NCT02243293](https://clinicaltrials.gov/study/NCT02243293) | Phase 2/3 | Completed | 694 | SURVEYOR-II: G/P efficacy/safety across HCV genotypes 2–6; not HBV-specific |
-| [NCT02640157](https://clinicaltrials.gov/study/NCT02640157) | Phase 3 | Completed | 506 | ENDURANCE-3: G/P vs sofosbuvir+daclatasvir in HCV genotype 3; not HBV-specific |
-| [NCT02640482](https://clinicaltrials.gov/study/NCT02640482) | Phase 3 | Completed | 304 | ENDURANCE-2: G/P safety/efficacy in HCV genotype 2; not HBV-specific |
-| [NCT02441283](https://clinicaltrials.gov/study/NCT02441283) | Phase 2/3 | Completed | 384 | Long-term follow-up of DAA resistance durability in prior HCV trial participants; not HBV-specific |
-| [NCT03092375](https://clinicaltrials.gov/study/NCT03092375) | Phase 3 | Completed | 177 | G/P ± ribavirin in HCV genotype 1 patients previously failing NS5A+sofosbuvir; not HBV-specific |
-| [NCT03219216](https://clinicaltrials.gov/study/NCT03219216) | Phase 3 | Completed | 100 | G/P in treatment-naïve Brazilian adults with HCV genotype 1–6; not HBV-specific |
-| [NCT02243280](https://clinicaltrials.gov/study/NCT02243280) | Phase 2 | Completed | 174 | SURVEYOR-I: G/P ± ribavirin in HCV genotype 1, 4, 5, 6; not HBV-specific |
-| [NCT02446717](https://clinicaltrials.gov/study/NCT02446717) | Phase 2/3 | Completed | 141 | G/P ± ribavirin in HCV patients who failed prior DAA therapy; not HBV-specific |
+| [NCT02640482](https://clinicaltrials.gov/study/NCT02640482) | Phase 3 | Completed | 304 | Placebo-controlled study in HCV genotype 2 (ENDURANCE-2); no HBV evidence |
+| [NCT02640157](https://clinicaltrials.gov/study/NCT02640157) | Phase 3 | Completed | 506 | Compared with sofosbuvir plus daclatasvir in HCV genotype 3 (ENDURANCE-3) |
+| [NCT02707952](https://clinicaltrials.gov/study/NCT02707952) | Phase 3 | Completed | 295 | Japanese adults with chronic HCV (CERTAIN-1); matched to HBV by drug name only |
+| [NCT02723084](https://clinicaltrials.gov/study/NCT02723084) | Phase 3 | Completed | 136 | Versus sofosbuvir plus ribavirin in Japanese HCV genotype 2 (CERTAIN-2) |
+| [NCT03092375](https://clinicaltrials.gov/study/NCT03092375) | Phase 3 | Completed | 177 | Glecaprevir/pibrentasvir ± ribavirin in HCV genotype 1 patients previously treated with NS5A inhibitor plus sofosbuvir |
+| [NCT03219216](https://clinicaltrials.gov/study/NCT03219216) | Phase 3 | Completed | 100 | Treatment-naïve HCV genotype 1–6 in Brazil; 8 or 12 weeks of therapy |
+| [NCT02243293](https://clinicaltrials.gov/study/NCT02243293) | Phase 2/3 | Completed | 694 | HCV genotypes 2–6, with or without ribavirin (SURVEYOR-II) |
+| [NCT02446717](https://clinicaltrials.gov/study/NCT02446717) | Phase 2/3 | Completed | 141 | HCV patients who failed a prior direct-acting antiviral regimen |
+| [NCT02243280](https://clinicaltrials.gov/study/NCT02243280) | Phase 2 | Completed | 174 | Open-label dose study in HCV genotype 1, 4, 5 and 6 (SURVEYOR-I); no HBV efficacy endpoint |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Completed | 87 | Cardiovascular outcomes after HCV eradication in HIV/HCV patients; unrelated to HBV |
 
 ---
 
 ## Literature Evidence
 
-*Note: Classification/relevance scoring for most records is still pending in the source data; content below is summarized directly from titles/abstracts. Only one record (PMID 29485084) directly addresses HBV in the context of HCV treatment.*
+No retrieved publication reports pibrentasvir treating HBV. The items below are the most relevant ones; all concern HCV, or HBV only as a comparison or safety context.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29485084](https://pubmed.ncbi.nlm.nih.gov/29485084/) | 2018 | Review | The Lancet Infectious Diseases | Discusses HBV vaccination strategy for patients after HCV treatment — most topically relevant record, but does not evaluate pibrentasvir against HBV directly |
-| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Review | World Journal of Gastroenterology | Reviews pediatric HBV and HCV management; HCV DAA (incl. G/P) discussed separately from HBV therapy, which "remains far from curative" |
-| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Cross-sectional | Annals of Hepatology | Compares global drug pricing for HBV and HCV antivirals; not an efficacy study |
-| [31981264](https://pubmed.ncbi.nlm.nih.gov/31981264/) | 2020 | Cohort | Journal of Viral Hepatitis | Real-world G/P effectiveness/safety in HCV patients with severe renal impairment (Taiwan); not HBV-related |
-| [31129632](https://pubmed.ncbi.nlm.nih.gov/31129632/) | 2019 | Case report | BMJ Case Reports | G/P-associated acute liver injury in non-cirrhotic HCV patient without HBV co-infection; notes liver injury risk historically associated with HBV co-infection |
-| [34344581](https://pubmed.ncbi.nlm.nih.gov/34344581/) | 2021 | Case report | Journal of Infection and Chemotherapy | G/P used to treat HCV exacerbation during chemotherapy; notes HBV reactivation is far more common than HCV exacerbation in this setting |
-| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Review | European Journal of General Practice | General primary-care review of chronic HCV diagnosis and treatment; not HBV-related |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Review | Clinical Pharmacokinetics | PK/PD review of HCV DAA regimens including G/P; not HBV-related |
-| [32296728](https://pubmed.ncbi.nlm.nih.gov/32296728/) | 2020 | Review | Open Forum Infectious Diseases | Review of HCV retreatment after multiple DAA failures; not HBV-related |
-| [30982721](https://pubmed.ncbi.nlm.nih.gov/30982721/) | 2019 | Review | The Lancet Gastroenterology & Hepatology | Review of pediatric/adolescent HCV infection and global elimination strategy; not HBV-related |
+| [29485084](https://pubmed.ncbi.nlm.nih.gov/29485084/) | 2018 | Review | The Lancet Infectious Diseases | Commentary on vaccinating against hepatitis B after hepatitis C treatment |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Review | World Journal of Gastroenterology | Pediatric HBV and HCV management; HCV has effective direct-acting antivirals, while HBV treatment is still far from curative |
+| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Review | European Journal of General Practice | Diagnosis and treatment of chronic HCV with direct-acting antivirals |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Review | Clinical Pharmacokinetics | Pharmacokinetic and pharmacodynamic update on HCV regimens, including glecaprevir/pibrentasvir |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Conference report | AIDS Reviews | Viral hepatitis conference summary covering HBV and HCV burden and new pan-genotypic HCV antivirals |
+| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospective study | Klinicka mikrobiologie a infekcni lekarstvi | Frequency, efficacy and tolerance of antiviral treatment for chronic HBV and HCV in children in Ostrava |
+| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Cross-sectional study | Annals of Hepatology | International price comparison of HBV and HCV antivirals |
+| [31981264](https://pubmed.ncbi.nlm.nih.gov/31981264/) | 2020 | Retrospective cohort | Journal of Viral Hepatitis | Real-world glecaprevir/pibrentasvir in 108 Taiwanese HCV patients with CKD stage 4–5; HCV only |
+| [34344581](https://pubmed.ncbi.nlm.nih.gov/34344581/) | 2021 | Case report | Journal of Infection and Chemotherapy | Glecaprevir/pibrentasvir for HCV exacerbation triggered by daratumumab therapy; mentions HBV reactivation only as a comparison |
+| [31129632](https://pubmed.ncbi.nlm.nih.gov/31129632/) | 2019 | Case report | BMJ Case Reports | Acute liver injury during glecaprevir/pibrentasvir in non-cirrhotic HCV patient without HBV co-infection |
 
 ---
 
 ## Canada Market Information
 
-Pibrentasvir is currently **not marketed in Canada** — no Drug Identification Numbers (DINs) are on file (`total_licenses: 0`).
+| DIN | Product Name |
+|---------|------|
+| 2522470 | MAVIRET |
+| 2467550 | MAVIRET |
+
+Dosage form and approved indication text were not provided in the licence records.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (No structured key warnings, contraindications, or drug interaction data were retrievable for this evidence pack; DG001 flags TFDA label warnings/contraindications as a Blocking data gap.)
+- **Drug Interactions**: No interaction records were found in the queried data.
+
+Please refer to the Health Canada package insert for warnings, contraindications and interaction details.
+
+The retrieved literature raises HBV reactivation during direct-acting antiviral therapy for HCV as a known safety concern. Any use in people with HBV would need dedicated safety evaluation.
 
 ---
 
@@ -116,13 +126,14 @@ Please refer to the package insert for safety information. (No structured key wa
 **Decision: Hold**
 
 **Rationale:**
-Despite a high raw TxGNN prediction score (99.84%), the evidence level is L5 (model prediction only) — no retrieved clinical trial or publication demonstrates pibrentasvir efficacy against HBV, and the drug's known target (HCV NS5A) has no counterpart in HBV, undermining mechanistic plausibility. The drug is also not currently marketed in Canada, and core safety/labeling data (DG001, Blocking) is missing.
+The prediction rests on a graph-proximity score alone. Every retrieved trial and publication addresses HCV, and pibrentasvir's NS5A target has no HBV counterpart. No direct evidence of anti-HBV activity exists. The other nine predicted indications (including HIV, HEV and HAV) are also rated Hold, mostly at the model-prediction-only level.
 
 **To proceed, the following is needed:**
-- TFDA/product label warnings and contraindications (DG001 — Blocking gap; required before any S1 safety review)
-- Confirmed mechanism-of-action data via DrugBank API (DG002)
-- A targeted literature/trial search specifically for HBV antiviral outcomes (current searches returned only HCV-focused co-occurrence results)
-- An independent virology/mechanistic review to assess whether any indirect pathway (e.g., host-factor modulation) could plausibly justify further investment, given the absence of a direct target
+- Mechanism of action data (currently a data gap)
+- In vitro anti-HBV activity data for pibrentasvir (for example in HBV replication cell models)
+- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Assessment of HBV reactivation risk and a monitoring plan for patients with HBV co-infection
+- Any HBV-specific clinical studies, if preclinical data show activity
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

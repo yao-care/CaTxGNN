@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Human Immunoglobulin G
-parent: Model Prediction Only (L5)
-nav_order: 382
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 448
+evidence_level: L4
 indication_count: 10
 ---
 
 # Human Immunoglobulin G
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Human Immunoglobulin G: Toward Severe Nonproliferative Diabetic Retinopathy
-
-*Note: This evidence pack does not include an on-file "original indication" for Human Immunoglobulin G (drug.original_indications is empty; taiwan_regulatory.licenses is empty). The title format below therefore reflects only the predicted new indication; the original-use context could not be populated from the data provided.*
+# Human Immunoglobulin G: From Approved Immunoglobulin Therapy to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Human Immunoglobulin G (DB00028) has no original indication or mechanism-of-action data on file in this evidence pack, and it is currently **not marketed** in the Canadian dataset reviewed (0 licenses/DINs).
-The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**, with a prediction score of **99.75%**, but this is supported by **0 clinical trials** and only **1 publication**, which is itself a biomarker/observational study rather than treatment evidence.
-Given the evidence level (**L5**) and a blocking data gap on regulatory safety information, the recommended decision at this stage is **Hold**.
-
----
+Human immunoglobulin G (IgG) is a pooled plasma-derived product marketed in Canada under brands such as Gammagard Liquid, Cuvitru, Hizentra and Gamunex.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but this is a graph-based prediction only.
+Currently **0 clinical trials** and **1 publication** (a biomarker study) relate to this indication, so the evidence is very weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no approved indication or license record on file) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 16 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Human Immunoglobulin G in this evidence pack (flagged as a High-severity data gap, DG002). Without MOA data and without a documented original indication, it is not possible to construct a pharmacological rationale linking this drug's established use to diabetic retinopathy.
+Currently, detailed mechanism of action data is not available. Based on known information, human IgG is a pooled immunoglobulin product with immune-modulating and replacement roles. The approved indication text was not provided in the data, so the link to the original use cannot be assessed.
 
-The only supporting literature identified (PMID 40204274) investigates serum IgG Fc N-glycosylation patterns as a potential *diagnostic biomarker* for distinguishing nonproliferative from proliferative diabetic retinopathy. This is a disease-staging correlation study, not a therapeutic intervention study — it shows that IgG glycosylation *changes* with disease state, not that administering IgG *treats* the disease. As the evidence pack's own mechanistic assessment notes, this is an observational/correlative finding and cannot be used to support therapeutic use of IgG in this indication.
-
-In short, the high TxGNN score (99.75%) appears to be driven by network-level embedding similarity rather than by any confirmed causal or mechanistic relationship. The prediction should be treated as a hypothesis-generating signal only, not as evidence of efficacy.
-
----
+The only literature is a 2025 study showing that the sugar-chain (Fc N-glycosylation) pattern of a patient's own serum IgG differs across stages of diabetic retinopathy. This makes IgG a possible **biomarker**. It does not show that infusing pooled IgG treats the disease. The direction of effect is unknown and could be harmful rather than protective. The high score (0.998) reflects a knowledge-graph association, not clinical support.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40204274](https://pubmed.ncbi.nlm.nih.gov/40204274/) | 2025 | Cross-sectional biomarker study | Molecular & Cellular Proteomics | Analyzed serum disease-specific IgG Fc N-glycosylation in 160 patients (47 non-diabetic retinopathy, 51 nonproliferative DR, 62 proliferative DR) to evaluate its potential as a diagnostic biomarker for distinguishing DR stages; does not evaluate IgG as a treatment. |
-
----
+| [40204274](https://pubmed.ncbi.nlm.nih.gov/40204274/) | 2025 | Biomarker/observational | Mol Cell Proteomics | In 160 patients (47 without DR, 51 NPDR, 62 PDR), serum IgG Fc glycosylation was studied as a diagnostic biomarker to distinguish DR stages. It is not a treatment study. |
 
 ## Canada Market Information
 
-Human Immunoglobulin G is currently **not marketed** in the dataset reviewed — total_licenses is 0 and no license records are available, so no product/DIN table can be generated.
+Five of the 16 authorizations are shown below. Dosage form and approved indication text were not available in the data.
 
----
+| DIN | Product Name |
+|---------|------|
+| 02279444 | GAMMAGARD LIQUID |
+| 02461692 | CUVITRU |
+| 02277921 | IGIVNEX |
+| 02498251 | HIZENTRA |
+| 02247724 | GAMUNEX |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried database.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L5 (model prediction only) — there are no clinical trials and only a single, non-interventional biomarker study supporting a link between IgG and severe nonproliferative diabetic retinopathy. Combined with the absence of mechanism-of-action data and the lack of any market/regulatory safety file, there is currently insufficient basis to advance this candidate beyond an early hypothesis.
+The indication has no registered trials and only one biomarker paper. The literature describes the patient's own IgG as a marker, not a therapeutic effect. The prediction is not supported by clinical evidence, and safety data are incomplete.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory label warnings and contraindications (Blocking data gap, DG001) — required before any Stage 1 safety screening can occur
-- Mechanism of action (MOA) data via DrugBank API (High-severity data gap, DG002) — needed to assess mechanistic plausibility
-- Interventional (not merely observational/biomarker) studies testing IgG administration in diabetic retinopathy
-- Confirmation of Canadian market/regulatory status and any available product information, since no licenses are currently on file
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data, for example from DrugBank
+- Approved indication text for the Canadian products, to define the original use
+- Preclinical or clinical evidence that exogenous IgG benefits diabetic retinopathy
+- Route compatibility assessment, since ocular use would differ from current intravenous or subcutaneous products
+
+Other predicted indications (drug-induced osteoporosis and several cataract types) are also at Hold. They have only L4–L5 evidence, with no mechanistic support.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

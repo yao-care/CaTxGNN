@@ -2,7 +2,7 @@
 layout: default
 title: Clarithromycin
 parent: Model Prediction Only (L5)
-nav_order: 179
+nav_order: 200
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,37 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Clarithromycin: From Bacterial Infections to Hyperamylasemia
+# Clarithromycin: From Antibacterial Use to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Clarithromycin is a macrolide antibiotic widely used to treat bacterial infections, including respiratory tract infections and *Mycobacterium* species such as *M. abscessus* and *M. avium* complex (MAC).
-The TxGNN model predicts it may be effective for **Hyperamylasemia**, with **0 clinical trials** and **1 publication** (a single 2004 case report) currently available to support this direction.
-The mechanistic connection between clarithromycin and elevated serum amylase is indirect and does not reflect a genuine therapeutic target.
+Clarithromycin is a macrolide antibiotic marketed in Canada under several brands, including Biaxin and Taro-Clarithromycin. The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are **0 registered clinical trials** and only **1 publication**, an unrelated case report. This prediction rests almost entirely on the model score and is not supported by clinical evidence.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available in current dataset |
+|------|------|
+| Original Indication | Not listed in the Canadian licence records provided (clarithromycin is a macrolide antibacterial) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.35% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed (per current dataset) |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only; the single case report does not support efficacy) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this Evidence Pack. Based on established pharmacological knowledge, clarithromycin is a macrolide antibiotic that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit, blocking peptide chain elongation. It is a first-line agent for *Mycobacterium abscessus* and MAC lung infections, community-acquired pneumonia, and *Helicobacter pylori* eradication regimens. It also carries documented immunomodulatory properties — notably suppression of IL-1β, IL-6, IL-8, and NF-κB — which have been explored in chronic airway inflammatory conditions.
+Currently, detailed mechanism of action data is not available. Clarithromycin is a macrolide antibiotic, and it is widely used against bacterial infections. No documented mechanism links it to hyperamylasemia (elevated blood amylase).
 
-Hyperamylasemia (persistently elevated serum amylase) is a laboratory finding rather than a disease in its own right. It can arise from acute pancreatitis, salivary gland disorders, renal insufficiency, or macroamylasemia — a benign condition in which amylase binds to immunoglobulins forming large complexes that cannot be cleared renally. The sole supporting publication (PMID 15228140) describes a 76-year-old man with *M. abscessus* lung infection who was incidentally found to have primary macroamylasemia. Clarithromycin was prescribed to treat the mycobacterial infection; the elevated amylase was a coincidental co-existing condition, not the therapeutic target.
-
-There is therefore no direct mechanistic rationale for clarithromycin to treat hyperamylasemia. The TxGNN model's high prediction score most likely reflects non-specific proximity in the knowledge graph — clarithromycin sits close to *M. abscessus* nodes, which in turn connect to the macroamylasemia case — rather than any genuine pharmacological opportunity. This prediction should be interpreted with caution.
+The only publication found is a 2004 Japanese case report of *Mycobacterium abscessus* lung infection in a patient who also had primary macroamylasemia. Clarithromycin is a common treatment for that kind of mycobacterial infection. It is most likely the treatment for the infection, not for the amylase abnormality. The very high score (99.35%) comes from knowledge-graph patterns and does not amount to evidence of benefit.
 
 ---
 
@@ -72,14 +68,22 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case Report | Nihon Kokyuki Gakkai Zasshi (Japanese Respiratory Society) | A 76-year-old man with *M. abscessus* lung infection was found to have co-existing primary macroamylasemia. Clarithromycin was used to treat the mycobacterial infection. The elevated serum amylase was an incidental finding, not the treatment target. No conclusion about clarithromycin's effect on amylase levels can be drawn from this case. |
+|------|-----|------|------|---------|
+| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case report | Nihon Kokyuki Gakkai Zasshi | A 76-year-old man with *M. abscessus* lung infection who also had primary macroamylasemia. The report describes co-occurrence, not clarithromycin efficacy for hyperamylasemia. |
 
 ---
 
 ## Canada Market Information
 
-According to the current dataset, clarithromycin has no active Drug Identification Numbers (DINs) recorded in Canada and is listed as not marketed. This finding is inconsistent with clarithromycin's well-established global availability (e.g., Biaxin® in North America) and likely reflects a gap in the data pipeline rather than the true regulatory status. Verification via the Health Canada Drug Product Database is strongly recommended before drawing any conclusions about market access.
+| DIN | Product Name |
+|---------|------|
+| 02361434 | TARO-CLARITHROMYCIN |
+| 02146908 | BIAXIN |
+| 02390450 | TARO-CLARITHROMYCIN |
+| 02244641 | BIAXIN |
+| 02126710 | BIAXIN BID |
+
+Dosage form and approved-indication text are not available in the records provided. Only 5 of the 20 licences are shown.
 
 ---
 
@@ -94,14 +98,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The only available evidence is a 2004 case report in which hyperamylasemia was a coincidental finding in a patient being treated for *M. abscessus* infection — it provides no clinical support for clarithromycin as a treatment for elevated amylase, and no clinical trials or mechanistic studies exist to justify further development in this indication.
+The prediction has no trials and no supporting literature. The only publication is a case report in which clarithromycin treated a different condition, and no plausible mechanism is documented. The model score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- **MOA data**: Retrieve detailed mechanism of action from DrugBank (DB01211) to determine whether any plausible direct effect on pancreatic or salivary amylase secretion exists
-- **Regulatory verification**: Confirm Canadian DIN status via the Health Canada Drug Product Database to obtain approved indications, labeling, and safety warnings
-- **Package insert review**: Retrieve TFDA or Health Canada monograph to identify contraindications and key drug interactions (currently blocking for safety assessment)
-- **Signal validation**: Investigate whether TxGNN's prediction reflects a biologically meaningful graph path or a topology artifact; if a hypothesis emerges, preclinical data (enzyme regulation models) would be the minimum threshold before any clinical consideration
-- **Broader indication scan**: Note that clarithromycin's rank-4 predicted indication — **punctate epithelial keratoconjunctivitis** (L4, Research Question) — has a stronger mechanistic rationale via its anti-*Staphylococcal* and anti-inflammatory properties in meibomitis-related keratoconjunctivitis, and may warrant a separate focused evaluation
+- Mechanism of action data and a credible pharmacological rationale for hyperamylasemia
+- Full-text review of PMID 15228140 to confirm whether clarithromycin had any effect on amylase levels
+- Health Canada package insert warnings and contraindications (required before any safety screening)
+- Approved indication text and dosage forms for the Canadian licences
+
+**Note on other predictions:** Among the other predicted indications, **punctate epithelial keratoconjunctivitis** has the most supporting evidence. It has one 2024 cohort study (PMID 38472959) on meibomitis-related keratoconjunctivitis, and macrolides are plausibly relevant through anti-inflammatory effects. It is graded L3 (provisional) and classed as a research question. Whether clarithromycin specifically was evaluated is unverified. It may be a better candidate to pursue than hyperamylasemia.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

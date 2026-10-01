@@ -2,7 +2,7 @@
 layout: default
 title: Threonine
 parent: Model Prediction Only (L5)
-nav_order: 770
+nav_order: 902
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Threonine: From No Approved Indication to Gastroparesis
+# Threonine: From Amino Acid Nutrition to Gastroparesis
 
 ## One-Sentence Summary
 
-> Threonine (DB00156) is an essential amino acid with no approved therapeutic indication and no marketed product in Canada.
-> The TxGNN model predicts it may be effective for **Gastroparesis**,
-> but this is currently supported only by **0 clinical trials** and **1 non-drug-specific mechanistic publication**.
+Threonine is an essential amino acid. In Canada it appears in parenteral nutrition amino acid products such as CLINIMIX and TRAVASOL.
+The TxGNN model predicts it may be effective for **gastroparesis**.
+This rests on the model score alone: **0 clinical trials** and **1 publication** are retrieved, and that publication does not test threonine.
 
 ---
 
@@ -43,21 +43,23 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 | Item | Content |
 |------|------|
-| Original Indication | None reported — no approved indication on file |
+| Original Indication | No approved indication text on file (the products are amino acid nutrition products) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.32% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only; the single paper is disease pathophysiology and does not test threonine) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Threonine is a proteinogenic essential amino acid rather than a conventional pharmacological agent, and it carries no approved indication and no marketed product in Canada. Without a defined MOA or an established original indication, there is no pharmacological baseline from which to assess plausibility for gastroparesis.
+Currently, detailed mechanism of action data is not available, and no original indications are recorded for threonine. Based on known information, threonine is an essential amino acid supplied as part of parenteral nutrition formulations. A mechanistic link to gastroparesis is plausible but unproven.
 
-The single supporting publication is a basic/mechanistic rat model study of diabetic gastroparesis that examines apoptosis and PI3K-AKT-mTOR / AMPK-mTOR signaling in gastric smooth muscle cells — it does not study threonine itself, and its relevance is marked as "pending." As stated directly in the evidence pack's rationale: the TxGNN score of 0.993 reflects knowledge-graph embedding similarity, not mechanistic evidence, and no meaningful mechanistic link between threonine and gastroparesis can currently be established.
+The one retrieved paper (PMID 28627597) studies gastric smooth muscle cell apoptosis and PI3K-AKT-mTOR and AMPK-mTOR signaling in a rat model of diabetic gastroparesis. It describes disease pathophysiology and does not evaluate threonine. mTOR signaling is amino-acid sensitive, which could connect threonine to this pathway. However, threonine is a much less characterized mTORC1 input than leucine or arginine. No evidence shows that threonine supplementation changes gastric smooth muscle signaling, gastric emptying, or symptoms.
+
+The high score (0.993) comes from a knowledge-graph prediction with no drug-specific rationale behind it. Treat it as hypothesis-generating only.
 
 ---
 
@@ -71,19 +73,27 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28627597](https://pubmed.ncbi.nlm.nih.gov/28627597/) | 2017 | Basic/Mechanistic (non-drug-specific) | Molecular Medicine Reports | Rat model of diabetic gastroparesis showing dynamic changes in gastric smooth muscle cell apoptosis and PI3K-AKT-mTOR / AMPK-mTOR signaling; does not evaluate threonine directly |
+| [28627597](https://pubmed.ncbi.nlm.nih.gov/28627597/) | 2017 | Preclinical (rat model) | Molecular Medicine Reports | Examined dynamic changes in gastric smooth muscle cell apoptosis and in PI3K-AKT-mTOR and AMPK-mTOR signaling in diabetic gastroparesis rats. Threonine was not evaluated. |
 
 ---
 
 ## Canada Market Information
 
-No Health Canada authorizations (DINs) are on file for threonine — the product is not currently marketed in Canada.
+Dosage form and approved indication text are not recorded for these licenses. Showing 5 of 20.
+
+| DIN | Product Name |
+|---------|------|
+| 02046709 | CLINIMIX |
+| 02013932 | CLINIMIX |
+| 02013940 | CLINIMIX |
+| 00872296 | TRAVASOL |
+| 02013886 | CLINIMIX |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -92,13 +102,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a TxGNN embedding score (Evidence Level L5), with zero clinical trials and only one non-drug-specific mechanistic publication whose relevance is unconfirmed. There is no established MOA, no approved indication, and no Canadian market presence to anchor a repurposing hypothesis.
+The only support is a knowledge-graph score. There are no registered trials, and the single paper does not test threonine. No mechanism of action or original indication data exists to anchor the prediction. The Health Canada safety data gap is also blocking.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for threonine relevant to gastric motility/gastroparesis pathophysiology
-- TFDA/Health Canada label warnings, contraindications, and DDI data (currently blocking safety review per data gap DG001)
-- Drug-specific preclinical or clinical evidence directly testing threonine in gastroparesis models
-- Confirmation of relevance for the existing mechanistic literature (PMID 28627597) before it can be counted as supporting evidence
+- Health Canada package insert warnings and contraindications (blocking)
+- Mechanism of action data from DrugBank
+- Direct evidence, preclinical or clinical, that threonine affects gastric motility or gastroparesis outcomes
+- Route compatibility assessment: the marketed products are parenteral nutrition formulations, and the route for a gastroparesis use is undefined
+- Approved indication text and dosage forms for the Canadian licenses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Nintedanib
 parent: Moderate Evidence (L3-L4)
-nav_order: 550
+nav_order: 648
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,70 +29,85 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Nintedanib: From Idiopathic Pulmonary Fibrosis/NSCLC to Dermatofibrosarcoma Protuberans
+# Nintedanib: From Its Approved Indication to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Nintedanib is a triple angiokinase inhibitor (VEGFR/FGFR/PDGFR) originally marketed for idiopathic pulmonary fibrosis and, in combination therapy, for non-small cell lung cancer — though this evidence pack itself does not record the original indication or mechanism of action (both flagged as data gaps). The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**, with **0 clinical trials** and **1 publication** currently supporting this direction.
+Nintedanib is a multi-target tyrosine kinase inhibitor already marketed in Canada.
+The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**,
+but there are currently **0 clinical trials** and only **1 publication** (a general review of PDGFR inhibitors), so this is an early research question rather than a validated lead.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (original_indications empty, original_moa flagged as data gap) |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
+| Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.15% |
 | Evidence Level | L4 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (original_moa: [Data Gap]). Based on the repurposing rationale provided, Nintedanib is a small-molecule triple angiokinase inhibitor that blocks VEGFR1-3, FGFR1-3, and PDGFRα/β — this characterization comes from the mechanistic rationale field, not from a verified DrugBank MOA record, and should be treated as supplementary background rather than confirmed evidence.
+Detailed mechanism of action data for nintedanib is not currently available in the source record. Based on known information, nintedanib inhibits several receptor tyrosine kinases, including PDGFR alpha/beta, FGFR and VEGFR.
 
-DFSP is characterized by a hallmark COL1A1-PDGFB fusion gene that drives constitutive PDGFR activation, and PDGFR inhibitors (notably imatinib) are already an established treatment option for this cancer. This provides a plausible mechanistic rationale for nintedanib's PDGFR-inhibitory activity to be relevant in DFSP. However, this connection is currently theoretical: no clinical trials, no ICTRP registrations, and only a single general review article touch on this drug-disease pair, and that review does not specifically discuss DFSP.
+DFSP is driven by a COL1A1-PDGFB fusion, which causes constitutive activation of PDGFR-beta. A drug that blocks PDGFR signalling is therefore biologically plausible for this tumour. Imatinib, another PDGFR inhibitor, is the established class precedent.
+
+No nintedanib-specific clinical data in DFSP are available. The high TxGNN score reflects a plausible mechanism and knowledge-graph proximity, not proof of efficacy.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological research | General review of small-molecule PDGFR inhibitors in neoplastic disease; discusses PDGF/PDGFR biology and inhibitor classes but does not specifically address nintedanib in DFSP |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors in neoplastic disorders and the PDGF/PDGFR signalling family. It is a class-level review and is not specific to nintedanib. |
+
+---
 
 ## Canada Market Information
 
-Nintedanib is not currently marketed in Canada — no DIN records are available in this evidence pack (total_licenses: 0).
+Six DINs are registered; the first five are shown below. Dosage form and approved indication text were not available in the source record.
 
-## Cytotoxicity
+| DIN | Product Name |
+|---------|------|
+| 2443066 | OFEV |
+| 2443074 | OFEV |
+| 2526891 | AURO-NINTEDANIB |
+| 2526905 | AURO-NINTEDANIB |
+| 2550849 | JAMP NINTEDANIB |
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase/angiokinase inhibitor targeting VEGFR1-3/FGFR1-3/PDGFRα,β), not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence is limited to a single non-specific review article (L4, mechanism-level only) with no clinical trials or registry entries for nintedanib in DFSP, and the drug is not currently marketed in this jurisdiction (0 DIN). A Blocking-severity data gap on regulatory safety warnings/contraindications (DG001) also prevents any S1 initial safety assessment.
+The prediction score is high and the PDGFR mechanism is plausible for DFSP. However, there are no clinical trials, no nintedanib-specific literature, and no safety data in hand. The package insert review is a blocking gap, so this stays at the research-question stage.
 
 **To proceed, the following is needed:**
-- Regulatory label warnings and contraindications (DG001, Blocking — requires sourcing from official label/PDF)
-- Confirmed mechanism of action via DrugBank API (DG002)
-- Preclinical or case-level evidence specific to DFSP (current literature is a general PDGFR-inhibitor review, not DFSP-specific)
-- Assessment of regulatory pathway, given the drug is not currently marketed in this jurisdiction
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Detailed mechanism of action data from DrugBank
+- Nintedanib-specific preclinical or clinical evidence in DFSP, compared against imatinib
+- Approved indication and dosage form details for the Canadian DINs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

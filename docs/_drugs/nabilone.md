@@ -2,7 +2,7 @@
 layout: default
 title: Nabilone
 parent: Model Prediction Only (L5)
-nav_order: 536
+nav_order: 632
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nabilone: From Chemotherapy-Induced Nausea and Vomiting to Migraine Disorder
+# Nabilone: From Its Current Marketed Use to Migraine Disorder
 
 ## One-Sentence Summary
 
-Nabilone is a synthetic cannabinoid (CB1/CB2 agonist) publicly known for treating chemotherapy-induced nausea and vomiting refractory to conventional antiemetics; however, this specific detail is not captured in the current Evidence Pack.
-The TxGNN model predicts it may be effective for **Migraine Disorder** (score 99.89%), but this is currently a **pure model prediction** — no clinical trials or published literature support this specific indication.
+Nabilone is a synthetic cannabinoid marketed in Canada under several brand names. The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no publications** in the provided data support this prediction, so it is a computational hypothesis only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chemotherapy-induced nausea and vomiting (public knowledge; not captured in Evidence Pack) |
-| Predicted New Indication | Migraine Disorder |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Nabilone is a synthetic cannabinoid and a member of the cannabinoid drug class; its efficacy in chemotherapy-induced nausea and vomiting has been established clinically, though this original-indication detail is not present in the source data used to build this Evidence Pack.
+Detailed mechanism of action data is not available in the record. Nabilone is a synthetic agonist of the cannabinoid receptors CB1 and CB2. The endocannabinoid system is proposed to modulate pain processing, including the trigeminovascular pathway thought to be involved in migraine, as well as central pain circuits.
 
-Mechanistically, the endocannabinoid system (CB1/CB2 receptors) is involved in modulating the trigeminovascular pathway and central pain processing, which provides a plausible biological rationale for cannabinoid activity in migraine. However, this rationale is theoretical — the Evidence Pack contains no clinical trials or literature specific to Nabilone in migraine disorder, so the mechanistic link remains unverified.
-
-It is also worth noting that among the other TxGNN-predicted indications for Nabilone in this Evidence Pack, Tourette syndrome (rank 10, evidence level L3) has meaningfully stronger supporting literature (6 publications, including a systematic review of RCTs in movement disorders), and may warrant separate evaluation as a more evidence-backed candidate.
+That reasoning is plausible but unproven here. The provided data contain no trials or literature on nabilone in migraine, so the very high TxGNN score reflects a pattern in the knowledge graph rather than clinical evidence. Related headache predictions in the same list (migraine with brainstem aura, trigeminal autonomic cephalalgia) rest on the same general cannabinoid pain-modulation idea and also lack supporting studies.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+One trial is linked to the neighbouring prediction "headache disorder", but it does not address headache. [NCT03422861](https://clinicaltrials.gov/study/NCT03422861) is an unknown-status, phase-NA trial with 80 patients. It tests nabilone for acute post-surgical pain in inflammatory bowel disease patients on chronic opioids. It shows nabilone is being studied for pain, but it is not evidence for migraine.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Canada Market Information
 
-Nabilone is not currently marketed in Canada under this Evidence Pack (0 licenses/DINs on record), so no product-level licensing information is available.
+Nine DINs are on record; five are listed below. Dosage form and approved indication text are not available for these entries.
+
+| DIN | Product Name |
+|---------|------|
+| 2380897 | PMS-NABILONE |
+| 2384892 | TEVA-NABILONE |
+| 2384884 | TEVA-NABILONE |
+| 2380900 | PMS-NABILONE |
+| 2392925 | TEVA-NABILONE |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-drug interactions were found in the queried data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score is high, but there is zero clinical trial or literature evidence specific to Nabilone in migraine disorder — this is an L5, model-only prediction with no independent corroboration.
+The prediction has a high model score but no supporting trials or publications for migraine (L5). The safety information and approved-indication data for Canadian products are also missing, so the candidate cannot move forward yet.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) documentation (currently a Blocking/High-severity data gap)
-- TFDA/Health Canada product label — key warnings and contraindications (currently a Blocking data gap)
-- Drug-drug interaction (DDI) data (currently not found)
-- Targeted literature/clinical trial search specifically on cannabinoids in migraine pathophysiology to test the mechanistic hypothesis
-- Consider evaluating the Tourette syndrome candidate (L3, S2 "Research Question") in parallel, given its stronger existing evidence base
+- A targeted literature and trial search for cannabinoids, and nabilone specifically, in migraine
+- The Health Canada product monograph (warnings, contraindications, approved indications)
+- Mechanism of action data from DrugBank
+- An assessment of neuropsychiatric and psychoactive safety risks in a migraine population
+
+Among the ten predictions, Tourette syndrome has the most literature (L4, "Research Question" stage). That literature is class-level cannabinoid evidence rather than nabilone-specific, so this candidate may be worth prioritising over migraine.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

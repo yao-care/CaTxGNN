@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lomustine
-parent: High Evidence (L1-L2)
-nav_order: 473
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 551
+evidence_level: L5
 indication_count: 10
 ---
 
 # Lomustine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Lomustine: From Malignant Glioma to Lymphosarcoma
+# Lomustine: From Cancer Chemotherapy (Original Indication Not Recorded) to Lymphosarcoma
 
 ## One-Sentence Summary
 
-Lomustine (CCNU) is a nitrosourea alkylating agent long used against brain tumours and Hodgkin lymphoma; detailed original-indication and MOA data are not on file for this evidence pack (Data Gaps DG001/DG002), and the drug is currently **not marketed in Canada**.
-The TxGNN model predicts it may be effective for **Lymphosarcoma**, with **16 clinical trials** and **20 publications** currently identified as supporting evidence, several of which directly describe lomustine-containing regimens used in lymphoma/NHL over more than four decades.
-Overall evidence strength is rated **L2**, and the recommended decision is **Proceed with Guardrails**, pending resolution of the blocking safety data gap (DG001).
+Lomustine is an oral nitrosourea alkylating agent used in cancer chemotherapy, and it is marketed in Canada as CEENU.
+The TxGNN model predicts it may be effective for **lymphosarcoma** (an older term for non-Hodgkin lymphoma), with **15 retrieved clinical trials** and **20 publications**.
+Most of the evidence is small phase 2 studies, older combination-regimen reports and veterinary or animal work, so it supports further research rather than clinical adoption.
 
 ---
 
@@ -43,23 +43,24 @@ Overall evidence strength is rated **L2**, and the recommended decision is **Pro
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file in this evidence pack — drug not marketed in Canada; nitrosourea class historically used for brain tumours (malignant glioma) and Hodgkin lymphoma (see rationale below) |
 | Predicted New Indication | Lymphosarcoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| TxGNN Prediction Score | 99.90% (model rank 2568) |
+| Evidence Level | L2 (weak: the only randomized phase 2 trial enrolled 7 patients) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
+| Recommended Decision | Hold |
+
+The approved indication text is empty in the input, so the original indication is not listed here.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data specific to this evidence pack is not available (Data Gap DG002). Based on known pharmacological classification, lomustine is a nitrosourea-class alkylating agent that cross-links DNA and inhibits DNA/RNA synthesis in rapidly dividing cells; it is highly lipid-soluble, allowing good penetration across biological barriers (including the blood-brain barrier). Its established use has centred on brain tumours (malignant glioma, medulloblastoma) and, historically, Hodgkin lymphoma — both reflected repeatedly in the evidence collected here (e.g., the "PCV" regimen [procarbazine, CCNU, vincristine] as a standard glioma treatment component, and CCNU vs. methyl-CCNU trials conducted jointly across Hodgkin's disease, lymphosarcoma, and reticulum cell sarcoma).
+Detailed mechanism-of-action data is not available in the input. Based on known information, lomustine is a lipophilic nitrosourea alkylating agent. It chloroethylates DNA, forms interstrand crosslinks and carbamoylates proteins. Lymphoid cancers are generally sensitive to this kind of DNA damage. Lomustine's lipophilicity also lets it cross the blood-brain barrier, which is relevant to primary CNS lymphoma.
 
-Lymphosarcoma and Hodgkin lymphoma/NHL belong to the same broad lymphoproliferative disease family that lomustine has already been applied to for decades, both as monotherapy and as a component of multi-drug oral regimens (LOPP, LEMP, PACET, DECC, CAMP, CIBO-P). This is not a purely novel extrapolation: the evidence base shows lomustine has an extensive, if largely older and non-randomized, track record specifically in lymphoma/NHL populations, including AIDS-related and primary CNS lymphoma settings.
+Lomustine has been used as one component of multi-drug lymphoma regimens for decades. Examples include LEMP, CAMP, PACET, CIBO-P, and an oral regimen of lomustine, etoposide, cyclophosphamide and procarbazine for AIDS-related lymphoma. It also appears in the procarbazine/methotrexate/lomustine backbone for elderly primary CNS lymphoma. This history makes the prediction biologically plausible.
 
-Mechanistically, lymphosarcoma cells — like glioma and Hodgkin lymphoma cells — are rapidly dividing and therefore susceptible to DNA alkylation/cross-linking damage, which is consistent with the repeated clinical use of lomustine-containing regimens across this disease spectrum. The main limitation is that supporting evidence is largely older, small-sample, or non-randomized (cohort/case-series), rather than confirmed by contemporary large Phase 3 RCTs specific to lymphosarcoma.
+The very high TxGNN score (0.999) does not distinguish this indication from the other nine predicted for lomustine, so it should not be read as extra confidence. No single-agent lomustine lymphoma data appear in the evidence, so the benefit cannot be separated from that of the companion drugs.
 
 ---
 
@@ -67,16 +68,15 @@ Mechanistically, lymphosarcoma cells — like glioma and Hodgkin lymphoma cells 
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01989052](https://clinicaltrials.gov/study/NCT01989052) | Phase 1 | Terminated | 9 | CTO alone or combined with lomustine in bevacizumab-naïve recurrent malignant glioma; direct lomustine treatment arm, but trial terminated early. |
-| [NCT00074191](https://clinicaltrials.gov/study/NCT00074191) | Phase 2 | Completed | 1 | Methotrexate/procarbazine/CCNU (lomustine) plus intraventricular cytarabine/methotrexate ± intra-ocular chemotherapy for primary CNS lymphoma; direct lomustine regimen but only 1 patient enrolled. |
-| [NCT00989352](https://clinicaltrials.gov/study/NCT00989352) | Phase 2 | Unknown | 56 | Rituximab + high-dose methotrexate + lomustine + procarbazine, followed by procarbazine maintenance, for primary CNS lymphoma in patients >65 years. |
-| [NCT00003113](https://clinicaltrials.gov/study/NCT00003113) | Phase 2 | Terminated | 6 | Oral combination chemotherapy + G-CSF for elderly patients with intermediate/high-grade non-Hodgkin's lymphoma; terminated with small sample size. |
-| [NCT00049439](https://clinicaltrials.gov/study/NCT00049439) | Phase 2 | Completed | 54 | Dose-modified oral chemotherapy including lomustine, etoposide, cyclophosphamide, and procarbazine for AIDS-related non-Hodgkin's lymphoma (US and Africa). |
-| [NCT01775475](https://clinicaltrials.gov/study/NCT01775475) | Phase 2 | Completed | 7 | Randomized CHOP vs. oral chemotherapy (including lomustine) with concurrent antiretroviral therapy for HIV-associated non-Hodgkin lymphoma in Sub-Saharan Africa. |
-| [NCT01954030](https://clinicaltrials.gov/study/NCT01954030) | Phase 1 | Terminated | 17 | CTO alone or with bevacizumab for recurrent malignant glioma post-bevacizumab failure; no confirmed lomustine treatment arm in this trial. |
-| [NCT03462095](https://clinicaltrials.gov/study/NCT03462095) | N/A | Unknown | 350 | Maintenance/auto-HSCT randomization for adult Ph-negative T-cell ALL; disease mismatch with lymphosarcoma and lomustine use unconfirmed. |
-| [NCT05518383](https://clinicaltrials.gov/study/NCT05518383) | Phase 4 | Recruiting | 300 | B-cell mature non-Hodgkin lymphoma treatment protocol in children/adolescents evaluating molecular characteristics and MRD; lomustine content not confirmed. |
-| [NCT03678883](https://clinicaltrials.gov/study/NCT03678883) | Phase 2 | Active, not recruiting | 350 | GSK-3β inhibitor 9-ING-41 alone or combined with chemotherapy for refractory hematologic malignancies/solid tumors; not specifically lomustine-directed. |
+| [NCT00049439](https://clinicaltrials.gov/study/NCT00049439) | Phase 2 | Completed | 54 | Dose-modified oral lomustine, etoposide, cyclophosphamide and procarbazine in AIDS-related non-Hodgkin lymphoma (US and Africa) |
+| [NCT00989352](https://clinicaltrials.gov/study/NCT00989352) | Phase 2 | Unknown | 56 | Rituximab, high-dose methotrexate, lomustine and procarbazine, then procarbazine maintenance, in primary CNS lymphoma over age 65 |
+| [NCT01775475](https://clinicaltrials.gov/study/NCT01775475) | Phase 2 | Completed | 7 | Randomized CHOP vs oral chemotherapy (including lomustine) with antiretroviral therapy in HIV-associated lymphoma in sub-Saharan Africa; too small to interpret |
+| [NCT00003114](https://clinicaltrials.gov/study/NCT00003114) | Phase 2 | Completed | 5 | Oral lomustine, etoposide, cyclophosphamide and procarbazine in AIDS-related Hodgkin disease |
+| [NCT00074191](https://clinicaltrials.gov/study/NCT00074191) | Phase 2 | Completed | 1 | Methotrexate, procarbazine and CCNU (lomustine) with intraventricular cytarabine in primary CNS lymphoma; a single patient gives no efficacy information |
+| [NCT00003113](https://clinicaltrials.gov/study/NCT00003113) | Phase 2 | Terminated | 6 | Oral combination chemotherapy plus G-CSF in elderly intermediate/high-grade non-Hodgkin lymphoma; the summary does not name lomustine |
+| [NCT00003929](https://clinicaltrials.gov/study/NCT00003929) | Phase 2 | Withdrawn | 0 | Lomustine, procarbazine, filgrastim and radiation in primary CNS lymphoma; never enrolled |
+
+These trials are mostly small, and several were terminated or withdrawn. None reports results in the input, and lomustine is always part of a combination.
 
 ---
 
@@ -84,58 +84,67 @@ Mechanistically, lymphosarcoma cells — like glioma and Hodgkin lymphoma cells 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [348294](https://pubmed.ncbi.nlm.nih.gov/348294/) | 1978 | RCT (CALGB) | Cancer | Randomized comparison of CCNU vs. methyl-CCNU in advanced Hodgkin's disease, lymphosarcoma, and reticulum cell sarcoma. |
-| [2259920](https://pubmed.ncbi.nlm.nih.gov/2259920/) | 1990 | Phase 2 | Seminars in Oncology | CAMP regimen (lomustine, cytarabine, mitoxantrone, prednisone) in doxorubicin-resistant intermediate/high-grade NHL; 27% complete response rate. |
-| [8436213](https://pubmed.ncbi.nlm.nih.gov/8436213/) | 1993 | Cohort | European Journal of Haematology | LEMP regimen (lomustine, etoposide, methotrexate, prednisone) for relapsed/refractory non-Hodgkin's lymphoma in 22 patients. |
-| [8422281](https://pubmed.ncbi.nlm.nih.gov/8422281/) | 1993 | Cohort | European Journal of Cancer | PACET regimen (prednisolone, cytarabine, lomustine/CCNU, etoposide, thioguanine) for relapsed/refractory NHL in 27 patients; 26% complete response. |
-| [21303800](https://pubmed.ncbi.nlm.nih.gov/21303800/) | 2011 | Cohort | Annals of Oncology | Rituximab + methotrexate + procarbazine + lomustine (R-MPL) for primary CNS lymphoma in elderly patients. |
-| [15803492](https://pubmed.ncbi.nlm.nih.gov/15803492/) | 2005 | Cohort | Cancer | Lomustine-ifosfamide-bleomycin-vincristine-cisplatin (CIBO-P) regimen effective in poor-prognosis refractory/recurrent aggressive NHL. |
-| [33336792](https://pubmed.ncbi.nlm.nih.gov/33336792/) | 2021 | Cohort | British Journal of Haematology | DECC (dexamethasone, etoposide, chlorambucil, lomustine) oral regimen in relapsed/refractory diffuse large B-cell lymphoma. |
-| [10711848](https://pubmed.ncbi.nlm.nih.gov/10711848/) | 1999 | Cohort | Drugs | Oral combination regimen with lomustine, etoposide, cyclophosphamide, and procarbazine in 38 patients with AIDS-related lymphoproliferative malignancies. |
-| [36503518](https://pubmed.ncbi.nlm.nih.gov/36503518/) | 2022 | Cohort (translational/veterinary) | Acta Veterinaria Scandinavica | 12-week combination chemotherapy followed by lomustine consolidation in canine B- and T-cell lymphoma; supports biological plausibility of lomustine activity in lymphoma. |
-| [22888657](https://pubmed.ncbi.nlm.nih.gov/22888657/) | 2012 | Preclinical (animal model) | Voprosy Onkologii | Combined gemcitabine + lomustine markedly increased survival in mice with intracranial transplanted lymphosarcoma (LIO-1) versus monotherapy. |
+| [348294](https://pubmed.ncbi.nlm.nih.gov/348294/) | 1978 | Randomized comparison | Cancer | CALGB trial of CCNU vs methyl-CCNU in advanced Hodgkin disease, lymphosarcoma and reticulum cell sarcoma; the provided excerpt gives the design but no results |
+| [8436213](https://pubmed.ncbi.nlm.nih.gov/8436213/) | 1993 | Phase 2 | Eur J Haematol | LEMP (lomustine, etoposide, methotrexate, prednisone) in 22 patients with relapsed or refractory non-Hodgkin lymphoma; results not in the provided excerpt |
+| [21303800](https://pubmed.ncbi.nlm.nih.gov/21303800/) | 2011 | Phase 2 pilot | Ann Oncol | Adding rituximab to methotrexate, procarbazine and lomustine (R-MCP) in elderly primary CNS lymphoma; results not in the provided excerpt |
+| [2259920](https://pubmed.ncbi.nlm.nih.gov/2259920/) | 1990 | Phase 2 | Semin Oncol | CAMP in 30 patients with doxorubicin-resistant intermediate/high-grade non-Hodgkin lymphoma: 27% complete and 20% partial remission |
+| [8422281](https://pubmed.ncbi.nlm.nih.gov/8422281/) | 1993 | Cohort | Eur J Cancer | PACET in 27 patients with relapsed or refractory non-Hodgkin lymphoma: 26% complete response, median survival 6 months, intensely myelosuppressive |
+| [15803492](https://pubmed.ncbi.nlm.nih.gov/15803492/) | 2005 | Clinical study | Cancer | CIBO-P regimen for refractory or recurrent aggressive non-Hodgkin lymphoma; reported as effective, details not in the excerpt |
+| [10711848](https://pubmed.ncbi.nlm.nih.gov/10711848/) | 1999 | Review | Drugs | Oral lomustine, etoposide, cyclophosphamide and procarbazine in 38 patients with AIDS-related lymphoma |
+| [30197327](https://pubmed.ncbi.nlm.nih.gov/30197327/) | 2018 | Cohort | J Cancer Res Ther | LACE conditioning (lomustine, cytarabine, cyclophosphamide, etoposide) before autologous transplant in relapsed or refractory lymphoma |
+| [17134114](https://pubmed.ncbi.nlm.nih.gov/17134114/) | 2006 | Review | Neurosurg Focus | High-dose methotrexate is the most effective drug for primary CNS lymphoma; lomustine is one of several combination partners |
+| [22888657](https://pubmed.ncbi.nlm.nih.gov/22888657/) | 2012 | Preclinical (mouse) | Vopr Onkol | Oral lomustine extended survival 1.6-fold, and combined with gemcitabine 3.3-fold, in mice with transplanted lymphosarcoma LIO-1 |
+
+Several further papers (PMIDs 28508557, 30117253, 34464024, 29380942, 36503518, 28222789) report lomustine-containing regimens such as LOPP in dogs with lymphoma. They are veterinary cohorts and do not establish efficacy in humans.
 
 ---
 
 ## Canada Market Information
 
-Lomustine currently holds **no active Health Canada drug identification numbers (DINs)** — market status is "Not Marketed" and `total_licenses = 0`. No product license or approved-indication text is available for review in this evidence pack. Access in Canada, if pursued, would need to proceed through an alternative regulatory pathway (e.g., Special Access Programme) rather than an existing marketed authorization.
+| DIN | Product Name |
+|---------|------|
+| 360422 | CEENU |
+| 360430 | CEENU |
+
+The approved indication text, dosage form and manufacturer are not recorded in the input.
 
 ---
 
 ## Cytotoxicity
 
-Lomustine is a nitrosourea alkylating agent and a conventional cytotoxic chemotherapeutic — this classification is well established from its drug class and mechanism, independent of the missing DrugBank/TFDA-style records in this pack (DG001/DG002).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (nitrosourea/alkylating agent) |
-| Myelosuppression Risk | High — nitrosoureas classically cause delayed and cumulative myelosuppression (thrombocytopenia and leukopenia typically nadir ~4–6 weeks post-dose); repeated dosing carries cumulative marrow toxicity risk |
-| Emetogenicity Classification | Moderate to high (oral nitrosourea class) |
-| Monitoring Items | CBC with differential (extended-interval monitoring given delayed nadir), pulmonary function (nitrosourea-associated pulmonary toxicity is documented in the literature evidence above, e.g., PMID 1470749), hepatic and renal function |
-| Handling Protection | Must follow standard cytotoxic/hazardous drug handling and disposal precautions |
+| Cytotoxicity Classification | Conventional cytotoxic (nitrosourea alkylating agent) |
+| Myelosuppression Risk | High; lomustine-containing regimens are described as intensely myelosuppressive, and bone marrow aplasia has been reported after overdose |
+| Emetogenicity Classification | Moderate to high (general class knowledge; confirm with the product monograph) |
+| Monitoring Items | CBC with differential and platelets, liver and renal function, and pulmonary status (nitrosourea lung toxicity is documented in the literature) |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
+
+The literature also links nitrosourea-containing regimens to secondary myelodysplastic syndrome and leukemia.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data were not available in this evidence pack (query status: not found), and this is flagged as a **Blocking** data gap (DG001) that must be resolved before a formal safety review (S1) can be completed.
+Please refer to the package insert for safety information. The Health Canada warnings and contraindications were not retrieved, and no drug interaction records were found.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The predicted lymphosarcoma indication is supported by a substantial, though largely older and non-randomized, body of clinical trial and literature evidence (L2) showing lomustine used across multiple lymphoma/NHL regimens for over four decades, including one prospective randomized trial directly spanning lymphosarcoma. However, the drug is not currently marketed in Canada, and critical safety/label data (DG001, Blocking) and formal MOA documentation (DG002, High) are missing, so guardrails are required before advancing further.
+Lomustine has a plausible mechanism and a long history in lymphoma combination regimens. The supporting trials, however, are small and often terminated or withdrawn, and the literature is older, veterinary or preclinical. Its own contribution cannot be separated from the companion drugs, and the Canadian safety data needed for screening are missing.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain official product labelling (warnings, contraindications) to complete the S1 safety initial review
-- Resolve DG002: confirm mechanism of action and original approved indication(s) via DrugBank or equivalent regulatory source
-- Determine a Canadian access pathway given current "Not Marketed" status (e.g., Special Access Programme, new drug submission)
-- Prioritize contemporary, ideally randomized, clinical evidence specific to lymphosarcoma/NHL to strengthen beyond the current cohort/case-series-heavy evidence base
-- Note: lower-ranked predicted indications (malignant tumor of meninges, spinal cord cancer, cerebral neuroblastoma, and others, L3–L5) are held at Research Question/Hold status and require substantially more evidence before consideration
+- The Health Canada product monograph (warnings, contraindications, approved indication, dosage form)
+- The original DrugBank mechanism-of-action data
+- Confirmation that the truncated-title trials (NCT00003113 and others) actually include lomustine, and their reported results
+- Controlled human data on lomustine-containing regimens in lymphoma, especially primary CNS lymphoma
+- A safety monitoring plan covering delayed myelosuppression, pulmonary toxicity and cumulative dosing
+
+*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

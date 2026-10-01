@@ -2,15 +2,15 @@
 layout: default
 title: Progesterone
 parent: Moderate Evidence (L3-L4)
-nav_order: 652
-evidence_level: L3
+nav_order: 768
+evidence_level: L4
 indication_count: 10
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,99 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Progesterone: From Endogenous Hormone Therapy to Amenorrhea
+# Progesterone: From Its Original Indication (Not Recorded) to Amenorrhea
 
 ## One-Sentence Summary
 
-Progesterone is a naturally occurring female steroid hormone widely used across reproductive endocrinology; however, this evidence pack contains no recorded original-indication or Canadian licensing data for the drug (it is not currently marketed in Canada). The TxGNN model predicts relevance to **Amenorrhea**, with **50 clinical trials** and **18 publications** identified, though most trials studied related reproductive-endocrine conditions or other compounds rather than progesterone itself as a direct amenorrhea treatment.
-
----
+Progesterone is a natural steroid hormone. It is marketed in Canada, but the record does not list an approved indication.
+The TxGNN model predicts it may be effective for **amenorrhea**.
+Among **50 listed clinical trials** and **18 publications**, none is a clear trial of progesterone as the treatment for amenorrhea, so the evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file — no Canadian license records exist for this drug in this evidence pack |
+| Original Indication | Not available (no approved indication text in the Canadian licence records) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.9996% (rank 25) |
-| Evidence Level | L3 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| TxGNN Prediction Score | 99.9996% |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 12 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack. Based on well-established pharmacology, progesterone is a naturally occurring female sex steroid hormone that regulates the menstrual cycle, drives secretory transformation of the endometrium, and maintains pregnancy. Its clinical use across reproductive endocrinology is longstanding, and mechanistically it is directly applicable to amenorrhea through the classic "progesterone withdrawal" principle (the progesterone challenge test): administering exogenous progesterone and then withdrawing it induces endometrial shedding and bleeding in women with adequate endogenous estrogen, a mechanism used both diagnostically and therapeutically in secondary amenorrhea.
+Detailed mechanism of action data is not currently available. Progesterone is the natural female sex steroid. A 2024 review (PMID 38652231) describes how it controls luteinizing hormone and follicle-stimulating hormone pulsatility through kisspeptin, neurokinin B and dynorphin neurons in the hypothalamus. It also works with estradiol to control cyclic changes in the endometrium.
 
-Because no original indication is recorded for this drug in the current data set, the relationship to amenorrhea cannot be framed as an indication extension from a documented use — it instead rests on progesterone's core, textbook reproductive physiology. Amenorrhea sits at the center of that physiology, which is why the biological plausibility of this prediction is high even without a formal Canadian regulatory anchor.
+Progesterone-induced withdrawal bleeding is a standard diagnostic and therapeutic step in estrogen-primed secondary amenorrhea. Several trials in the evidence set mention progesterone only in passing, for example to induce withdrawal bleeding in oligo/amenorrhea.
 
-That said, the supporting trial evidence in this pack is largely indirect: most of the 50 clinical trials involve other compounds (elagolix, relugolix, kisspeptin, romosozumab, mibavademab) studied in amenorrhea-adjacent populations rather than progesterone itself, and were graded "C" (low relevance) or left ungraded. Only a handful of trials — e.g., progesterone-induced withdrawal bleeding studies and medroxyprogesterone acetate trials — test progesterone directly against an amenorrhea-related endpoint. This is why the evidence level is rated L3 (observational/indirect) rather than L1/L2, despite the strong mechanistic rationale.
-
----
+Because no original indication is recorded, this may already be a labelled use rather than true repurposing. The product label should be checked before any further work.
 
 ## Clinical Trial Evidence
 
+The model linked 50 trials. None of the 10 most relevant trials below clearly tests progesterone as the intervention for amenorrhea. Relevance grades below are the preliminary ones assigned in the pack.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | Phase 4 | Completed | 42 | Tests whether progesterone-induced endometrial withdrawal bleeding is necessary before ovulation induction with clomiphene citrate in women with oligo-/amenorrhea |
-| [NCT02449161](https://clinicaltrials.gov/study/NCT02449161) | Phase 3 | Terminated | 60 | RCT of post-ablation medroxyprogesterone acetate and its effect on endometrial amenorrhea rates |
-| [NCT01942668](https://clinicaltrials.gov/study/NCT01942668) | Phase 3 | Completed | 1845 | Estradiol + progesterone combination for vasomotor symptoms in postmenopausal women; provides background safety data for progesterone co-therapy |
-| [NCT05967819](https://clinicaltrials.gov/study/NCT05967819) | N/A | Recruiting | 54 | Observational study of physical/psychosocial stress effects on reproductive hormones (including progesterone) and menstrual cycles in functional hypothalamic amenorrhea |
-| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Completed | 121 | Reproductive/endocrine function study in amenorrheic young athletes; evaluates estrogen (not progesterone) but relevant to disease population |
-| [NCT01674426](https://clinicaltrials.gov/study/NCT01674426) | N/A | Completed | 17 | Pilot RCT of cognitive behavior therapy vs. observation for functional hypothalamic amenorrhea |
-| [NCT06533865](https://clinicaltrials.gov/study/NCT06533865) | Phase 3 | Recruiting | 114 | Romosozumab plus transdermal estradiol and cyclic progesterone for bone density in functional hypothalamic amenorrhea |
-| [NCT07235917](https://clinicaltrials.gov/study/NCT07235917) | Phase 2 | Recruiting | 34 | Mibavademab safety/efficacy study in functional hypothalamic amenorrhea |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Phase 2 | Completed | 29 | Cardiovascular risk markers in functional hypothalamic amenorrhea (hypoestrogenemia) |
-| [NCT01927432](https://clinicaltrials.gov/study/NCT01927432) | N/A | Completed | 73 | Ultrasound characterization of ovarian follicle dynamics in women with amenorrhea |
-
----
+| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | Phase 4 | Completed | 42 | Whether withholding progesterone-induced withdrawal bleeding before clomiphene ovulation induction affects time to pregnancy in oligo/amenorrhea |
+| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Completed | 121 | Hormonal changes in young athletes with amenorrhea and the effect of transdermal or oral estrogen on bone density; the intervention needs manual review (graded B) |
+| [NCT01942668](https://clinicaltrials.gov/study/NCT01942668) | Phase 3 | Completed | 1845 | Estradiol plus progesterone for menopausal vasomotor symptoms; supports progesterone safety and endometrial protection, not amenorrhea efficacy |
+| [NCT03740204](https://clinicaltrials.gov/study/NCT03740204) | Phase 2 | Recruiting | 120 | Transdermal estradiol with cyclic progesterone versus placebo in hypoestrogenemic young women with eating disorders |
+| [NCT03309709](https://clinicaltrials.gov/study/NCT03309709) | Phase 3 | Unknown | 90 | Subcutaneous progesterone for endometrial polyps in premenopausal women; a different indication |
+| [NCT02744131](https://clinicaltrials.gov/study/NCT02744131) | N/A | Unknown | 100 | Oral contraceptive versus metformin in PCOS; progesterone may be added for withdrawal bleeding in amenorrhea of more than two months |
+| [NCT06533865](https://clinicaltrials.gov/study/NCT06533865) | Phase 3 | Recruiting | 114 | Romosozumab added to estrogen replacement for bone density in functional hypothalamic amenorrhea |
+| [NCT05967819](https://clinicaltrials.gov/study/NCT05967819) | N/A | Recruiting | 54 | Effects of exercise and psychosocial stress on reproductive hormones in functional hypothalamic amenorrhea; mechanistic, not a progesterone treatment trial |
+| [NCT05633966](https://clinicaltrials.gov/study/NCT05633966) | Phase 1 | Completed | 13 | Subcutaneous kisspeptin in women with hypothalamic amenorrhea; progesterone is not the intervention |
+| [NCT07224438](https://clinicaltrials.gov/study/NCT07224438) | Phase 2 | Recruiting | 20 | Subcutaneous kisspeptin in hypothalamic amenorrhea; progesterone is not the intervention |
 
 ## Literature Evidence
 
+No randomized trials appear in the retrieved literature, which is mostly narrative reviews.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38652231](https://pubmed.ncbi.nlm.nih.gov/38652231/) | 2024 | Review | Reviews in Endocrine & Metabolic Disorders | Diagnostic and therapeutic use of oral micronized progesterone in endocrinology, including its role via hypothalamic kisspeptin/neurokinin B/dynorphin neurons |
-| [35525789](https://pubmed.ncbi.nlm.nih.gov/35525789/) | 2022 | Review | Current Problems in Pediatric and Adolescent Health Care | Etiology and management of amenorrhea in adolescent/young adult women, centered on HPO-axis dysfunction affecting estrogen and progesterone |
-| [33716979](https://pubmed.ncbi.nlm.nih.gov/33716979/) | 2021 | Review | Frontiers in Endocrinology | Current understanding of etiology, symptoms, and treatment options for Premature Ovarian Insufficiency |
-| [32233689](https://pubmed.ncbi.nlm.nih.gov/32233689/) | 2020 | Review | Climacteric | Clinical management of vaginal bleeding in postmenopausal women; discusses estrogen/progesterone withdrawal physiology |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Reviews in Endocrine & Metabolic Disorders | Endocrine background of hormonal treatments for endometriosis, including progesterone-resistance mechanisms |
-| [28257537](https://pubmed.ncbi.nlm.nih.gov/28257537/) | 2017 | Review | Southern Medical Journal | Primary Ovarian Insufficiency: current concepts, including secondary amenorrhea and hormone replacement |
-| [22283375](https://pubmed.ncbi.nlm.nih.gov/22283375/) | 2012 | Review | Gynecological Endocrinology | Neuroendocrine control of ovulation; hypothalamic-pituitary-ovarian axis failure resulting in anovulation/amenorrhea |
-| [35463307](https://pubmed.ncbi.nlm.nih.gov/35463307/) | 2022 | Meta-analysis | Frontiers in Oncology | Chemotherapy-induced amenorrhea and its prognostic significance in premenopausal breast cancer patients |
-| [8629565](https://pubmed.ncbi.nlm.nih.gov/8629565/) | 1996 | Review | American Family Physician | Classic evaluation-of-amenorrhea review describing the progesterone challenge test in diagnostic work-up |
-| [945033](https://pubmed.ncbi.nlm.nih.gov/945033/) | 1976 | Case Series | Annals of Internal Medicine | Galactorrhea-amenorrhea syndromes: describes failure of ovulatory LH/progesterone peaks and response to treatment |
-
----
+| [38652231](https://pubmed.ncbi.nlm.nih.gov/38652231/) | 2024 | Review | Rev Endocr Metab Disord | Diagnostic and therapeutic use of oral micronized progesterone in endocrinology, including its hypothalamic control of gonadotropin secretion |
+| [35525789](https://pubmed.ncbi.nlm.nih.gov/35525789/) | 2022 | Review | Curr Probl Pediatr Adolesc Health Care | Etiology, diagnostic work-up and management of amenorrhea in adolescents and young women |
+| [28257537](https://pubmed.ncbi.nlm.nih.gov/28257537/) | 2017 | Review | South Med J | Primary ovarian insufficiency; secondary amenorrhea often requires hormone replacement therapy |
+| [33716979](https://pubmed.ncbi.nlm.nih.gov/33716979/) | 2021 | Review | Front Endocrinol | Etiology, symptoms and treatment options for premature ovarian insufficiency |
+| [22283375](https://pubmed.ncbi.nlm.nih.gov/22283375/) | 2012 | Review | Gynecol Endocrinol | Neuroendocrine control of ovulation; failure of the hypothalamic-pituitary-ovarian axis leads to anovulation and amenorrhea |
+| [8629565](https://pubmed.ncbi.nlm.nih.gov/8629565/) | 1996 | Review | Am Fam Physician | Evaluation of amenorrhea; rule out pregnancy, then check prolactin and TSH |
+| [945033](https://pubmed.ncbi.nlm.nih.gov/945033/) | 1976 | Clinical study | Ann Intern Med | 15 patients with galactorrhea-amenorrhea treated with bromocriptine; progesterone levels showed no ovulatory peaks before treatment |
+| [18756412](https://pubmed.ncbi.nlm.nih.gov/18756412/) | 2008 | Review | Semin Reprod Med | Intrauterine adhesions (Asherman syndrome), which can present with amenorrhea |
+| [36653588](https://pubmed.ncbi.nlm.nih.gov/36653588/) | 2023 | Review | Reprod Sci | Methods to repair injured endometrium; injury can cause amenorrhea |
+| [35463307](https://pubmed.ncbi.nlm.nih.gov/35463307/) | 2022 | Meta-analysis | Front Oncol | Chemotherapy-induced amenorrhea and its prognostic significance in breast cancer |
 
 ## Canada Market Information
 
-Progesterone is currently **not marketed in Canada** under this evidence pack — no Drug Identification Numbers (DINs) or license records were found (`total_licenses: 0`).
+| DIN | Product Name |
+|---------|------|
+| 02531828 | PROGESTERONE INJECTION, USP |
+| 02551268 | M-PROGESTERONE |
+| 02493578 | AURO-PROGESTERONE |
+| 02241013 | CRINONE |
+| 02166704 | PROMETRIUM |
 
----
+Showing 5 of 12 licences. Dosage form and approved indication text are not populated in the source record.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-interaction data were available in this evidence pack, and this is flagged as a **Blocking** data gap that prevents completion of an initial safety review (TFDA/product-label warnings and contraindications need to be sourced before evaluation can proceed).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic case for progesterone in amenorrhea is strong and textbook-grounded (progesterone withdrawal induces endometrial bleeding), but the supporting evidence in this pack is largely indirect — most trials involve other compounds or amenorrhea-adjacent populations rather than progesterone-specific efficacy data — and a **Blocking** data gap on regulatory safety information (warnings/contraindications) currently prevents even an initial safety assessment. The drug also has no active Canadian market presence (0 DINs) to anchor a repurposing pathway.
+The TxGNN score is very high, and withdrawal bleeding with progesterone is a recognized clinical practice in amenorrhea. However, none of the 50 linked trials clearly tests progesterone as the intervention, and the literature is largely narrative review. Because no original indication is recorded, this may be an existing labelled use rather than true repurposing.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory package-insert data (warnings, contraindications) to clear the Blocking data gap and enable an S1 safety review
-- Confirmed mechanism-of-action (MOA) documentation from DrugBank to support the mechanistic rationale
-- A focused literature/trial screen isolating studies that test progesterone itself (not co-administered hormones or unrelated compounds such as elagolix, relugolix, or kisspeptin) specifically for amenorrhea treatment efficacy
-- Clarification of the regulatory pathway if progesterone is intended for future use/marketing in Canada, given it currently holds no license
+- Check the Canadian product labels and monographs for the approved indications (for example, the PROMETRIUM and CRINONE labels) to see whether amenorrhea is already covered
+- Manual intervention-level review of NCT00946192 and NCT06533865, plus the other trials graded "pending"
+- Mechanism of action data from DrugBank
+- Health Canada package insert warnings and contraindications, to complete safety screening
+- Route and formulation compatibility assessment (not yet done)
+
+The other nine predictions for this drug (fibrocystic breast disease, benign mammary dysplasia, renal hypoplasia, endometriosis variants, apocrine adenosis and blunt duct adenosis) have weaker evidence (L4–L5) and are all on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Givosiran
 parent: Model Prediction Only (L5)
-nav_order: 363
+nav_order: 428
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,96 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Givosiran: From Acute Hepatic Porphyria to Porphyria due to ALA Dehydratase Deficiency
+# Givosiran: From Acute Hepatic Porphyria to Early-Onset Familial Noncirrhotic Portal Hypertension
 
 ## One-Sentence Summary
 
-Givosiran (Givlaari) is a GalNAc-conjugated siRNA therapeutic approved by the FDA (2019) for the prevention of acute attacks in Acute Hepatic Porphyria (AHP), primarily targeting ALAS1 — the first rate-limiting enzyme in hepatic heme biosynthesis.
-The TxGNN model generates 10 predictions; ranks 1–8 are assessed as knowledge graph (KG) structural false positives driven by liver-disease node clustering, with no mechanistic basis or clinical evidence.
-**Rank 9 — Porphyria due to ALA Dehydratase Deficiency (ALAD porphyria / Doss porphyria)** — is the single prediction with genuine mechanistic plausibility and literature support, backed by **0 dedicated clinical trials** and **8 publications** (including indirect Phase 3 ENVISION data and one critical negative case report).
+Givosiran is a liver-targeted siRNA drug used for acute hepatic porphyria. The Evidence Pack does not list an approved indication, so this is taken from the literature.
+The TxGNN model predicts it may be effective for **early-onset familial noncirrhotic portal hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+It rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Acute Hepatic Porphyria (AHP) — FDA approved 2019 (Givlaari) |
-| Predicted New Indication | Porphyria due to ALA Dehydratase Deficiency (ALAD porphyria, Rank 9) |
-| TxGNN Prediction Score | 99.91% (Rank 9 of 10; Ranks 1–8 assessed as KG false positives) |
-| Evidence Level | L3 (indirect Phase 3 data + negative case report; no dedicated ADP trials) |
-| Canada Market Status | ✗ Not Marketed (0 DINs) |
-| Number of DINs | 0 |
-| Recommended Decision | Hold (Research Question) |
-
-> **Note on ranks 1–8:** Early-onset familial noncirrhotic portal hypertension, primitive portal vein thrombosis, hepatoportal sclerosis, idiopathic copper-associated cirrhosis, hepatopulmonary syndrome, chronic HCV/HBV infection, glycogen storage disease, and phenylalanine metabolism disorder all score 99.93–99.99% but share identical or near-identical TxGNN scores — a hallmark of KG topological clustering around the "hepatic disease" node, not disease-specific pharmacological prediction. None has mechanistic support, clinical trials, or literature. All are assessed as **Hold (L5)** and are not featured in this report.
+|------|------|
+| Original Indication | Acute hepatic porphyria (from the literature; no approved indication text in the licence record) |
+| Predicted New Indication | Early-onset familial noncirrhotic portal hypertension |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Givosiran is a subcutaneously administered, GalNAc-conjugated small interfering RNA (siRNA) that is selectively taken up by hepatocytes via the asialoglycoprotein receptor. Inside the liver cell, it silences the mRNA of **ALAS1** (δ-aminolevulinic acid synthase 1), the first and rate-limiting enzyme in the heme biosynthesis pathway. By suppressing ALAS1, givosiran reduces production of the downstream neurotoxic intermediates **δ-aminolevulinic acid (ALA)** and porphobilinogen (PBG) — the metabolites responsible for the acute neurovisceral attacks of AHP.
+Givosiran is a GalNAc-conjugated small interfering RNA (siRNA) that is taken up by liver cells and silences hepatic ALAS1. This lowers the heme-synthesis precursors ALA and PBG, which are thought to drive the neurovisceral attacks of acute hepatic porphyria. Formal mechanism-of-action data were not provided in the record, so this description comes from the mechanistic notes and published literature.
 
-**ALAD porphyria (Doss porphyria)** is caused by autosomal recessive deficiency of ALA dehydratase (ALAD), the **second enzyme** in the heme biosynthesis pathway. Because ALAD is deficient, ALA cannot be converted to PBG, and ALA accumulates — the same neurotoxic intermediate that drives AHP attacks. In principle, givosiran could reduce this accumulation *upstream* by suppressing ALAS1 and thereby limiting the total ALA entering the pathway. This upstream bypass logic is mechanistically coherent. Notably, the FDA 2019 approval label explicitly includes ADP within the AHP indication umbrella.
+The evidence does not support a link between this mechanism and the predicted disease. Portal hypertension without cirrhosis is a disorder of the portal vasculature, and ALAS1 silencing does not address it. The high TxGNN score most likely reflects the drug and disease sitting close together in the knowledge graph, not a biological rationale.
 
-However, the picture is complicated. A documented case report (PMID 35991568) recorded a **complete lack of response** to givosiran in an ALAD porphyria patient. The proposed explanation is that in ADP, the metabolic bottleneck lies entirely at the ALAD step itself — meaning that even if ALAS1 produces less ALA, the severely deficient ALAD enzyme cannot clear what remains, and clinical benefit is not achieved. The Phase 3 ENVISION trial enrolled predominantly Acute Intermittent Porphyria (AIP) patients with very few ADP cases, leaving the ADP question statistically unresolved.
+The same is true of the other top-ranked predictions, which include portal vein thrombosis, hepatoportal sclerosis, hepatopulmonary syndrome and chronic viral hepatitis. None has a clinical trial or publication, and the assessments found no plausible mechanism for any of them. The one exception is rank 9, ALAD porphyria. It is a subtype of the acute hepatic porphyria family, so it is not a true repurposing case, and its only ALAD-specific report describes a lack of response to givosiran.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials specifically targeting givosiran in ALAD porphyria (Doss porphyria) are currently registered on ClinicalTrials.gov or ICTRP.
-
-The Phase 3 ENVISION trial (NCT03338816) is the pivotal study for givosiran across AHP subtypes, but ALAD porphyria patients were not the primary enrollment target. No dedicated ADP trial has been launched.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35067977](https://pubmed.ncbi.nlm.nih.gov/35067977/) | 2022 | RCT | J Intern Med | Givosiran significantly reduces AHP attack rates; primary AIP population, ADP subgroup not separately reported |
-| [36028858](https://pubmed.ncbi.nlm.nih.gov/36028858/) | 2022 | Phase 3 Clinical Data | Orphanet J Rare Dis | Phase 3 ENVISION post-hoc analysis; quantifies AHP disease burden; ADP included in AHP definition but not individually analyzed |
-| [35991568](https://pubmed.ncbi.nlm.nih.gov/35991568/) | 2022 | Case Report (NEGATIVE) | Front Genet | **Critical negative finding**: a documented ALAD porphyria (Doss porphyria) patient showed no response to givosiran; authors hypothesize ADP metabolic bottleneck is not at ALAS1 |
-| [35734365](https://pubmed.ncbi.nlm.nih.gov/35734365/) | 2022 | Review / Drug Development Analysis | Drug Des Dev Ther | Comprehensive review of givosiran siRNA mechanism and clinical development for AHP; discusses AHP subtype spectrum including ADP |
-| [37027823](https://pubmed.ncbi.nlm.nih.gov/37027823/) | 2023 | Review | Blood | RNA interference in AHPs; covers ALAS1 biology and givosiran mechanism; contextualizes ADP within the porphyria therapeutic landscape |
-| [39313028](https://pubmed.ncbi.nlm.nih.gov/39313028/) | 2024 | Clinical Practice Review | Rev Clin Esp | Therapeutic approach to acute hepatic porphyria crises; classifies ADP alongside AIP as an AHP subtype treatable with givosiran |
-| [40312531](https://pubmed.ncbi.nlm.nih.gov/40312531/) | 2025 | Phase 3 Subgroup | Sci Rep | Givosiran expanded access in 10 Japanese AHP patients; confirms subcutaneous monthly dosing (2.5 mg/kg) is safe and effective; AHP subtypes not individually broken down |
-| [36883675](https://pubmed.ncbi.nlm.nih.gov/36883675/) | 2023 | PK/PD Modeling | CPT Pharmacometr Syst Pharmacol | Semimechanistic PK/PD model of urinary ALA reduction across Phase I–III trials; informs dosing rationale for reducing ALA in AHP broadly |
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Givosiran (brand name: Givlaari, Alnylam Pharmaceuticals) is **not currently marketed in Canada**. No Drug Identification Numbers (DINs) have been issued by Health Canada as of the data cutoff (2026-06-21).
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2506343 | GIVLAARI | — | — |
 
-Givosiran holds FDA approval (USA, 2019) and EMA approval (Europe, 2020) for acute hepatic porphyria in adults. A Health Canada submission has not been identified in the public record.
+Dosage form and approved indication text are not recorded for this licence.
 
 ---
 
 ## Safety Considerations
 
-Package insert safety data was not available in the current evidence pack (Data Gap: TFDA/Health Canada label not retrieved). Based on published clinical trial reports and the FDA prescribing information:
-
-- **Key Warnings**: Hepatotoxicity (elevated alanine aminotransferase observed in Phase 3 ENVISION; monitor liver function); anaphylaxis risk (post-marketing reports)
-- **Drug Interactions**: Givosiran inhibits CYP1A2 and CYP2D6 — concomitant use of sensitive CYP1A2 substrates (e.g., theophylline, tizanidine) and CYP2D6 substrates (e.g., tamoxifen, some antidepressants) requires dose reduction or avoidance
-
-For complete safety information, please refer to the **Givlaari (givosiran) FDA package insert** (Alnylam Pharmaceuticals, 2021 revision).
+Please refer to the package insert for safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-Although ALAD porphyria falls within givosiran's FDA-approved AHP indication umbrella, the only documented clinical case of givosiran use specifically in ALAD porphyria showed no response — directly undermining the upstream ALAS1-suppression rationale. Phase 3 ENVISION evidence cannot be extrapolated to ADP without dedicated subgroup data. This is best classified as an open research question, not an actionable repurposing candidate, until the mechanism of treatment failure is resolved.
+The prediction has only a model score (L5), with no trials, no literature and no plausible mechanistic link between ALAS1 silencing and non-cirrhotic portal hypertension. Nothing currently justifies moving it forward.
 
 **To proceed, the following is needed:**
-- Prospective case series or dedicated expanded access program enrolling ALAD porphyria patients with systematic urinary ALA/PBG biomarker monitoring
-- Investigation into why the documented case showed no response: residual ALAD activity assay, ALA kinetics pre- and post-givosiran dosing
-- Reassessment of whether upstream ALAS1 suppression can meaningfully reduce intracellular ALA when the ALAD step is severely impaired
-- Health Canada regulatory review: ADP is mechanistically distinct from AIP and may require a separate indication filing despite being listed in the FDA label
+- Any mechanistic or preclinical evidence connecting hepatic ALAS1 or heme-precursor biology to portal vascular pathology
+- The Canadian package insert (warnings and contraindications), and the approved indication and dosage form for DIN 2506343
+- Formal mechanism-of-action data from DrugBank
+- If the goal is to prioritise within givosiran's predictions, a separate review of the ALAD porphyria signal (rank 9), given the contradictory case report
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Selexipag
-parent: High Evidence (L1-L2)
-nav_order: 708
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 833
+evidence_level: L5
 indication_count: 10
 ---
 
 # Selexipag
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,93 +33,70 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Selexipag is a selective oral prostacyclin (IP) receptor agonist originally developed for Pulmonary Arterial Hypertension (WHO Group 1). TxGNN's top-ranked prediction for this drug is efficacy in **PAH associated with congenital heart disease**, a recognized subtype of the same WHO Group 1 disease family, currently supported by **2 clinical trials** (one terminated, one large ongoing extension study) with **no dedicated literature** yet indexed for this specific subgroup.
-
----
+Selexipag is an oral drug used to treat pulmonary arterial hypertension (PAH). The TxGNN model predicts it may also be useful for **pulmonary arterial hypertension associated with congenital heart disease (CHD-PAH)**. Evidence is thin: **2 clinical trials** (one terminated with 9 participants, one long-term follow-up platform study) and **no publications** are currently registered for this specific indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension (WHO Group 1) — established via global labeling (Uptravi); not independently confirmed in this dataset, as Canadian regulatory records for this candidate are empty |
+| Original Indication | Pulmonary arterial hypertension (general PAH; the Canadian license records supplied contain no indication text) |
 | Predicted New Indication | Pulmonary arterial hypertension associated with congenital heart disease |
 | TxGNN Prediction Score | 98.03% |
-| Evidence Level | L2 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L3 (per the Evidence Pack scoring; see the note under Clinical Trial Evidence) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 8 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Selexipag is flagged as a data gap in the source registry (DG002). Based on well-established pharmacology, however, Selexipag is a selective, non-prostanoid small-molecule agonist at the IP (prostacyclin) receptor. Receptor activation raises intracellular cAMP in pulmonary vascular smooth muscle, producing vasodilation and inhibiting vascular remodeling/proliferation — the mechanism underlying its approved global use in Pulmonary Arterial Hypertension.
+Detailed mechanism-of-action data are not available in the supplied record. Based on general pharmacology, selexipag is an oral prodrug whose active metabolite is a selective prostacyclin (IP) receptor agonist. It relaxes pulmonary blood vessels and has antiproliferative effects.
 
-PAH associated with congenital heart disease (e.g., Eisenmenger syndrome) is itself a recognized **WHO Group 1** subtype, sharing the same underlying pathophysiology — pulmonary vascular smooth muscle proliferation and vasoconstriction — as idiopathic PAH. This prediction therefore does not represent extrapolation to an unrelated disease, but an extension within the same disease family to a specific aetiological subgroup, consistent with the very high TxGNN score.
+CHD-associated PAH belongs to Group 1 PAH, the same group as the drug's established use. It shares the pulmonary vasoconstriction and vascular remodeling that IP-receptor agonism targets, so the prediction is mechanistically plausible.
 
-Worth noting: within this same screening run, **connective tissue disease-associated PAH** (rank 3) shows substantially stronger, more mature evidence (L1, including a GRIPHON pivotal-trial subgroup analysis and multiple real-world registries) than the top-ranked congenital heart disease subgroup. See the "Other Candidate Indications" table below.
-
----
+The very high score (98%) most likely reflects selexipag's known link to PAH as a whole, not a signal specific to CHD. The score therefore should not be read as evidence of efficacy in this subtype.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04435782](https://clinicaltrials.gov/study/NCT04435782) | Phase 4 | Terminated | 9 | Assessed selexipag's effect on right ventricular remodeling in PAH via cardiac MRI; terminated early with only 9 participants enrolled — too small to support a robust conclusion, useful only as a safety signal |
-| [NCT05179876](https://clinicaltrials.gov/study/NCT05179876) | Phase 3 | Recruiting | 280 | Open-label long-term follow-up/platform study continuing treatment for participants from six parent PAH trials (NCT03422328, NCT03904693, NCT04565990, NCT02932410, NCT03492177, NCT04175600); designed to assess long-term safety, not efficacy in this subgroup specifically |
+| [NCT04435782](https://clinicaltrials.gov/study/NCT04435782) | Phase 4 | Terminated | 9 | Single-arm, open-label study of selexipag's effect on right ventricular function (cardiac MRI) in PAH. Stopped early with only 9 participants, so no efficacy or safety conclusion can be drawn. |
+| [NCT05179876](https://clinicaltrials.gov/study/NCT05179876) | Phase 3 | Recruiting | 280 | Open-label platform study giving continued access to, and long-term safety follow-up of, pulmonary hypertension patients from parent studies. It is not designed to test efficacy, and its CHD-specific content cannot be confirmed from the title. |
 
----
+Neither trial is a completed randomized efficacy study in CHD-PAH. The L3 level comes from the Evidence Pack's own scoring, and the actual support is weaker than that label suggests.
 
 ## Literature Evidence
 
-Currently no related literature available for this specific indication (PAH associated with congenital heart disease).
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Selexipag currently has **0 DIN records** in the Canadian regulatory dataset reviewed for this analysis, and the product is marked as **not marketed**. No authorization or product-level details are available to summarize.
+Dosage form, manufacturer and approved-indication text are blank in the supplied license records. Five of the 8 authorizations are listed.
 
----
+| DIN | Product Name |
+|---------|------|
+| 2451174 | UPTRAVI |
+| 2451220 | UPTRAVI |
+| 2451182 | UPTRAVI |
+| 2451158 | UPTRAVI |
+| 2451204 | UPTRAVI |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available in this dataset (flagged as **Blocking** data gap DG001 — TFDA/Health Canada label warnings and contraindications must be obtained before this candidate can proceed to a formal safety review, S1).
-
----
-
-## Other Candidate Indications from This Screen
-
-This evidence pack evaluated 10 candidate indications for Selexipag. For context, the full ranking is summarized below:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Note |
-|---|---|---|---|---|---|---|
-| 1 | PAH associated with congenital heart disease | 98.03% | L2 | S2 | Proceed with Guardrails | Primary indication in this report; 2 trials, no dedicated literature |
-| 2 | Pulmonary arteriovenous malformation | 98.00% | L5 | S0 | Hold | Structural vascular malformation, mechanistically unrelated; no trials/literature — likely embedding artifact |
-| 3 | PAH associated with connective tissue disease (CTD-PAH) | 97.78% | L1 | S3 | Proceed with Guardrails | **Strongest evidence in this screen** — GRIPHON pivotal RCT subgroup + multiple real-world registries (EXPOSURE, SPHERE); recommend prioritizing over the top-ranked candidate |
-| 4 | PAH associated with HIV infection | 97.78% | L4 | S1 | Research Question | Same WHO Group 1 mechanism, but no dedicated trial/literature in this dataset |
-| 5 | PAH associated with schistosomiasis | 97.78% | L3 | S1 | Research Question | 1 Phase 2 trial (status unknown) + 1 not-yet-recruiting trial; evidence still emerging |
-| 6 | PAH associated with chronic haemolytic anaemia | 97.78% | L5 | S0 | Hold | Mechanistically plausible (WHO Group 1) but zero trials/literature |
-| 7 | Hypotrichosis simplex of the scalp | 97.11% | L5 | S0 | Hold | Wrong receptor subtype (FP vs IP); no mechanistic basis |
-| 8 | Congenital hypotrichosis with milia | 96.30% | L5 | S0 | Hold | Same as above; no mechanistic basis |
-| 9 | Diffuse alopecia areata | 95.98% | L5 | S0 | Hold | Autoimmune mechanism unrelated to IP-receptor pharmacology |
-| 10 | Malformation syndrome with odontal/periodontal component | 93.77% | L5 | S0 | Hold | 20 literature hits are all generic periodontitis papers with no mention of selexipag — confirmed false-positive text-mining signal |
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The top-ranked indication (PAH-congenital heart disease) is mechanistically sound and within Selexipag's established WHO Group 1 disease family, but current trial evidence is limited to one terminated small study and one non-comparative long-term extension study. Meanwhile, the connective tissue disease-associated PAH candidate (rank 3) in this same screen already has L1-level evidence (pivotal RCT subgroup + real-world data) and should be evaluated in parallel, and likely prioritized, as it presents a materially stronger case for near-term action.
+For this indication, the only direct data are a terminated 9-patient single-arm study and a long-term follow-up platform study, and there is no supporting literature. A high model score alone is not enough to justify moving forward.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada approved label (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Formal drug-drug interaction profile (current query returned no results)
-- Detailed mechanism-of-action documentation from DrugBank (DG002)
-- Confirmation of Canadian market/regulatory status, as no DIN records currently exist for this product in this dataset
-- A dedicated efficacy/safety trial or subgroup analysis specific to the congenital heart disease-PAH population, given the small size and early termination of the only dedicated trial identified
+- Review the CHD (including Eisenmenger syndrome) subgroup data from the pivotal GRIPHON trial, which sits outside this dataset, and run a CHD-PAH-specific literature search.
+- Check whether NCT05179876 includes CHD-PAH participants and reports outcomes for them.
+- Obtain the Health Canada package insert (warnings, contraindications, drug interactions), which is currently missing and blocks safety screening.
+- Obtain mechanism-of-action data from DrugBank to replace the general-pharmacology reasoning used here.
+- Consider prioritizing **PAH associated with connective tissue disease** (rank 3) instead. It has a selexipag-specific GRIPHON subgroup analysis plus real-world series, giving it more evidence than CHD-PAH. It is the only predicted indication scored "Proceed with Guardrails".
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

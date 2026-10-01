@@ -2,7 +2,7 @@
 layout: default
 title: Propranolol
 parent: Model Prediction Only (L5)
-nav_order: 654
+nav_order: 771
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,76 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Propranolol: From Cardiovascular Indications to Distal Myopathy, Tateyama Type
+# Propranolol: From Established Beta-Blocker Use to Distal Myopathy, Tateyama Type
 
 ## One-Sentence Summary
 
-Propranolol is a non-selective beta-adrenergic blocker with long-established cardiovascular indications (this evidence pack contains no Canadian license or approved-indication text, as the drug is not currently marketed in Canada). The TxGNN model's top-ranked prediction for this drug is **Distal Myopathy, Tateyama Type**, a rare hereditary muscle disease, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
-
----
+Propranolol is a non-selective beta-blocker marketed in Canada, but the available licence records do not state its approved indications.
+The TxGNN model predicts it may be effective for **distal myopathy, Tateyama type**, a rare muscle disease.
+No clinical trials or publications currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file — Health Canada shows no license for propranolol; original indication data was not provided in this evidence pack |
+| Original Indication | Not stated in the available Canadian licence records |
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 99.40% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed (Not Marketed) |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 13 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap — DrugBank MOA lookup still pending). Propranolol is a non-selective β1/β2-adrenergic receptor antagonist, but without a confirmed MOA record in this pack, no formal statement can be made about how that mechanism connects to the predicted indication.
+Currently, detailed mechanism of action data is not available. Propranolol is a non-selective beta-adrenergic blocker, and it is widely marketed in Canada, including long-acting products.
 
-Distal myopathy, Tateyama type is a rare, autosomal-dominant hereditary muscle disorder linked to structural muscle-fiber genes, not to adrenergic signaling pathways. The repurposing rationale explicitly notes there is **no known pathophysiological link** between β-adrenergic blockade and this disease.
-
-The TxGNN score of 99.40% reflects knowledge-graph embedding similarity rather than any validated mechanistic or empirical relationship. In the absence of any supporting trials, literature, or biological rationale, this prediction should be treated as a hypothesis-generation artifact rather than a credible repurposing lead.
-
----
+For this specific prediction, the data do not support a mechanistic link. Beta-adrenergic blockade has no established connection to distal myopathy, Tateyama type. The high score most likely reflects proximity in the knowledge graph rather than a demonstrated biological rationale, so it should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
----
+## Other Predicted Indications for Propranolol
+
+Several lower-ranked predictions have more supporting evidence than the top-ranked one:
+
+| Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary | Recommendation |
+|------|------|------|------|------|
+| Cardiomyopathy | 99.12% | L2 | 3 registered trials (none testing efficacy) and about 20 publications, including a 1973 double-blind trial in hypertrophic cardiomyopathy ([PMID 4586631](https://pubmed.ncbi.nlm.nih.gov/4586631/)) | Proceed with Guardrails |
+| Cirrhotic cardiomyopathy | 99.12% | L4 | 5 publications. One reports propranolol correcting prolonged QT in cirrhosis ([PMID 38738176](https://pubmed.ncbi.nlm.nih.gov/38738176/)). Others raise safety concerns in advanced cirrhosis | Research Question |
+| Congenital myopathy with excess of thin filaments | 99.30% | L5 | None | Hold |
+| Hypertrophic cardiomyopathy due to intensive athletic training | 99.17% | L5 | None | Hold |
+| Chondroma | 99.14% | L5 | None | Hold |
+
+Key points on the cardiomyopathy signal:
+- The support is mainly for hypertrophic obstructive cardiomyopathy and is subtype-specific.
+- The trials found are deprescribing studies or address another condition.
+- Beta-blockers may be poorly tolerated in transthyretin amyloid cardiomyopathy.
+- Beta-blocker use in HCM may already be standard care, which limits repurposing novelty.
 
 ## Canada Market Information
 
-Propranolol has no active Health Canada drug licenses on file in this evidence pack (`total_licenses: 0`, market status: Not marketed / Not Marketed). No DIN-level product or indication data is available.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2491893 | LUPIN-PROPRANOLOL LA | Not listed | Not listed |
+| 2491915 | LUPIN-PROPRANOLOL LA | Not listed | Not listed |
+| 2550830 | PRZ-PROPRANOLOL | Not listed | Not listed |
+| 2491907 | LUPIN-PROPRANOLOL LA | Not listed | Not listed |
+| 740675 | TEVA-PROPRANOLOL | Not listed | Not listed |
 
----
+These are 5 of the 13 authorisations.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not yet available for this drug — DG001, TFDA label warnings/contraindications, is flagged as a Blocking data gap.)
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by TxGNN embedding similarity (Evidence Level L5, Decision Stage S0) with no clinical trials, no literature, and no established mechanistic connection between propranolol's β-blockade and this rare hereditary myopathy. There is insufficient evidence to advance this candidate.
+The prediction for distal myopathy, Tateyama type has no registered trials, no literature, and no plausible mechanistic link, so the evidence is model-only (L5). Among propranolol's other predicted indications, only cardiomyopathy reaches L2, and it should be limited to hypertrophic obstructive cardiomyopathy.
 
 **To proceed, the following is needed:**
-- Mechanism-of-action data for propranolol (DG002 — High severity)
-- TFDA/Health Canada label warnings and contraindications (DG001 — Blocking severity, required before any safety pre-screen)
-- Preclinical or genetic/pathophysiology evidence linking adrenergic signaling to Tateyama-type distal myopathy
-- Reassessment of Canadian market status, since propranolol currently has no active license in this dataset
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text and dosage forms for the Canadian licences
+- Any disease-specific evidence for distal myopathy, Tateyama type, such as case series or preclinical data
+- If advancing the cardiomyopathy candidate instead, a subtype-restricted review of HOCM evidence, with monitoring for bradycardia, hypotension and decompensation
 
-**Note:** This same evidence pack contains a much better-supported candidate for propranolol — **cardiomyopathy** (rank 6, Evidence Level L2, Decision Stage S2, "Proceed with Guardrails"), backed by 3 clinical trials and 20 publications, including RCT-level evidence in hypertrophic cardiomyopathy. If the goal is to identify a viable repurposing pathway for propranolol rather than evaluate the single top TxGNN-ranked hit, that candidate warrants a separate, dedicated evaluation report.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

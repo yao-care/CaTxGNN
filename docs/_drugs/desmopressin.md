@@ -2,7 +2,7 @@
 layout: default
 title: Desmopressin
 parent: Model Prediction Only (L5)
-nav_order: 226
+nav_order: 261
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desmopressin: From Hemostatic/Antidiuretic Therapy to Congenital Prothrombin Deficiency
+# Desmopressin: From an Unrecorded Original Indication to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Desmopressin is a synthetic analog of vasopressin (ADH), clinically established for central diabetes insipidus, nocturnal enuresis, and bleeding disorders such as mild hemophilia A and von Willebrand disease Type 1.
-The TxGNN model predicts it may be effective for **Congenital Prothrombin Deficiency**,
-however, with **0 clinical trials** and **0 publications** currently supporting this direction, and the mechanistic rationale assessed as a poor fit.
+Desmopressin is a synthetic vasopressin analogue that is marketed in Canada. The Evidence Pack does not record its original approved indications.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but **0 clinical trials** and **0 publications** support this prediction, and the proposed mechanism is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not listed in Canada regulatory data (known established uses: central diabetes insipidus, nocturnal enuresis, bleeding disorder prophylaxis) |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
+|------|------|
+| Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.70% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed (0 DINs on record) |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 10 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, Desmopressin (DDAVP) is a synthetic structural analog of arginine vasopressin. Its hemostatic effect is mediated primarily through V2 receptor stimulation on vascular endothelium, triggering rapid release of stored von Willebrand factor (vWF) and Factor VIII — thereby enhancing platelet adhesion and amplifying the intrinsic coagulation pathway. It is this mechanism that underpins its established use in mild hemophilia A and Type 1 von Willebrand disease.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Desmopressin is generally understood to release von Willebrand factor (VWF) and factor VIII from endothelial stores through V2 receptor signaling.
 
-Congenital prothrombin deficiency is a rare autosomal recessive bleeding disorder caused by mutations in the *F2* gene, resulting in reduced synthesis or impaired function of prothrombin (Factor II). Standard treatment is replacement therapy with fresh frozen plasma (FFP) or prothrombin complex concentrates (PCC). The mechanistic fit for Desmopressin is poor: its hemostatic action operates entirely through vWF and FVIII release, with no known direct or indirect regulatory effect on prothrombin synthesis or activity.
+Congenital prothrombin deficiency is a lack of factor II. Desmopressin does not raise prothrombin, so there is no clear mechanistic route to benefit. The high TxGNN score most likely reflects the drug's proximity to other coagulation-related nodes in the knowledge graph, not a real therapeutic link. This prediction should be treated as unsupported until evidence says otherwise.
 
-The high TxGNN score (99.70%) most likely reflects broad node-level similarity within the "hemorrhagic disorder" cluster of the knowledge graph, rather than a disease-specific mechanistic link. This is a recognized limitation of graph-based prediction: diseases sharing phenotypic similarity (bleeding tendency) can receive elevated scores even when their molecular pathologies — and therefore their therapeutic targets — are fundamentally different.
+Other top-ranked predictions vary in plausibility:
+
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 3 | Glanzmann thrombasthenia | 99.30% | Plausible but unproven; the missing receptor limits any benefit |
+| 4 | Primary release disorder of platelets | 99.26% | Plausible; secretion defects are a reasonable class in which to test it |
+| 9 | Bleeding diathesis due to a collagen receptor defect | 98.95% | Plausible but speculative |
+| 7 | "Flood factor deficiency" | 99.15% | Label looks garbled, probably von Willebrand factor deficiency; mapping needs verification |
+| 2, 5, 8 | Inherited thrombophilia, pseudo-von Willebrand disease, thrombocytopenic purpura | 98.9–99.4% | Safety concern: extra VWF release could worsen thrombosis or platelet clumping |
+| 6 | Scott syndrome | 99.16% | Any effect would be indirect and weak |
+| 10 | Hereditary thrombocytosis with transverse limb defect | 98.95% | No credible mechanistic link |
 
 ---
 
@@ -71,29 +79,31 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for congenital prothrombin deficiency.
+
+For reference, the only publication in the pack is linked to rank 7 ("flood factor deficiency"): [PMID 39054329](https://pubmed.ncbi.nlm.nih.gov/39054329/), a 2024 review titled "von Willebrand disease" in *Nature Reviews Disease Primers*. It is general background and not direct evidence for desmopressin.
 
 ---
 
 ## Canada Market Information
 
-No DIN records were found for Desmopressin in the current evidence pack.
+| DIN | Product Name |
+|---------|------|
+| 2513579 | BIPAZEN |
+| 873993 | DDAVP INJ 4MCG/ML |
+| 2284030 | APO-DESMOPRESSIN |
+| 2024179 | OCTOSTIM LIQ INJ. 15MCG/ML |
+| 2242465 | DESMOPRESSIN SPRAY |
 
-> **⚠️ Data Gap Notice**: Desmopressin is a long-established drug marketed internationally under brand names such as DDAVP, Stimate, Noctiva, and Nocdurna. The absence of Canadian DIN records likely reflects a gap in the data collection pipeline rather than the true regulatory status. It is strongly recommended to verify directly via Health Canada's Drug Product Database (DPD) before drawing conclusions about Canadian market availability.
+Dosage forms and approved indication text were not provided for these authorizations.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the pack.
 
-> **⚠️ Critical Safety Flags Identified During Multi-Indication TxGNN Analysis**
->
-> The following contraindication-level concerns were surfaced during mechanistic review of co-predicted indications and should be incorporated into any subsequent safety assessment:
->
-> - **Pseudo-von Willebrand Disease (Platelet-type vWD)**: Desmopressin is **absolutely contraindicated**. The GPIb gain-of-function mutation in this condition causes spontaneous vWF–platelet binding; administering Desmopressin to release additional vWF can precipitate massive platelet aggregation, thrombocytopenia, and thrombotic events.
-> - **Inherited Thrombophilia**: Desmopressin's pro-hemostatic, pro-thrombotic mechanism is directionally harmful in patients with hereditary hypercoagulable states and should not be considered.
-> - **Hereditary Thrombocytosis**: Elevated platelet counts combined with Desmopressin's hemostatic amplification may increase thrombotic risk.
+For some of the other predicted indications, the mechanism suggests a possible risk. In thrombophilia and thrombotic thrombocytopenic purpura, extra VWF and FVIII release could worsen thrombosis. In pseudo-von Willebrand disease, it could increase platelet clumping.
 
 ---
 
@@ -102,15 +112,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction of Desmopressin for congenital prothrombin deficiency represents a mechanistic mismatch — Desmopressin acts exclusively through the vWF/Factor VIII axis with no capacity to compensate for Factor II (prothrombin) deficiency, which requires direct replacement therapy. There is zero clinical trial or literature evidence to support this indication, and the high TxGNN score is attributable to non-specific graph topology rather than a clinically actionable connection.
+The top prediction has no clinical trials and no literature. Desmopressin does not increase prothrombin, so the high score is probably a graph-proximity artifact.
 
 **To proceed, the following is needed:**
-
-- **Resolve the data gap on MOA**: Retrieve the full mechanism of action from DrugBank API (DB00035) to support proper mechanistic reasoning.
-- **Resolve the data gap on safety profile**: Download and parse the package insert from Health Canada / TFDA to obtain formal warnings and contraindications.
-- **Verify Canada market status**: Cross-check against Health Canada's Drug Product Database directly to confirm whether Desmopressin holds active DINs.
-- **Consider re-ranking by mechanistic validity**: Among the 10 predicted indications, Glanzmann thrombasthenia (Rank 3) and primary release disorder of platelets (Rank 4) carry stronger mechanistic rationale and are more suitable for moving to a Research Question stage (S1), pending literature confirmation.
-- **Flag knowledge graph anomaly**: The "flood factor deficiency" node (Rank 7) appears to be a KG mapping artifact for von Willebrand disease — if confirmed, Desmopressin would represent an **L1-level established therapy** for that entity, warranting immediate re-classification to "Go."
+- Health Canada package insert warnings, contraindications and approved indications (currently blocking safety screening)
+- Mechanism of action data from DrugBank, to check the mechanistic links properly
+- Verification of the "flood factor deficiency" ontology mapping, and confirmation of whether desmopressin is already established for von Willebrand disease
+- A targeted literature and trial search for the more plausible candidates (Glanzmann thrombasthenia, platelet release disorders, collagen receptor defects), which are better suited as research questions than the rank 1 prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Rotigotine
 parent: Moderate Evidence (L3-L4)
-nav_order: 696
+nav_order: 819
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Rotigotine: From Parkinson's Disease/Restless Legs Syndrome to Attention-Deficit/Hyperactivity Disorder (ADHD)
+# Rotigotine: From Parkinson's Disease and Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-> Rotigotine is a non-ergot dopamine receptor agonist originally used to treat Parkinson's disease and restless legs syndrome (RLS).
-> The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)**,
-> but currently **0 clinical trials** and only **3 indirect publications** support this direction — none of them studied rotigotine in ADHD patients directly.
+Rotigotine is a dopamine agonist, used for Parkinson's disease and restless legs syndrome. The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**, but there are currently **0 registered clinical trials** and only **3 indirect publications** (2 reviews and 1 mechanistic study) supporting this direction.
 
 ---
 
@@ -43,23 +41,23 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease, Restless Legs Syndrome (per drug-class literature; formal `original_indications` field not populated) |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Parkinson's disease and restless legs syndrome (per the literature retrieved; the Canadian licence records contain no indication text) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
+| TxGNN Prediction Score | 99.997% |
 | Evidence Level | L4 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for rotigotine is flagged as a data gap in this evidence pack. However, the literature collected alongside the ADHD prediction independently confirms rotigotine's pharmacological class: it is a **non-ergot D1/D2/D3 dopamine receptor agonist with predominant D3 activity**, and is documented elsewhere as a "pan-agonist" across all five dopamine receptor subtypes, used clinically for Parkinson's disease and restless legs syndrome.
+Rotigotine is a non-ergoline dopamine agonist that acts on dopamine D1–D5 receptors. It also has agonist activity at 5-HT1A and antagonist activity at alpha2B adrenoceptors. A 2023 structural study (PMID 37221270) describes it as a pan-agonist of all five dopamine receptor subtypes and notes its use in Parkinson's disease and restless legs syndrome.
 
-ADHD pathophysiology is understood to involve insufficient dopaminergic signaling in the prefrontal cortex, particularly via the **D4 receptor**. One retrieved publication (PMID 34182128) examines heteromerization between D4 receptor variants and α2A adrenoceptors — a receptor system already targeted by ADHD drugs such as guanfacine — providing a plausible receptor-family rationale for dopaminergic agonists in ADHD. The remaining two publications discuss restless legs syndrome rather than ADHD directly.
+Dopaminergic and noradrenergic dysregulation is central to ADHD. A 2021 study found that variants of the dopamine D4 receptor, which has been linked to ADHD, form complexes with the α2A adrenoceptor. The α2A adrenoceptor is the target of guanfacine, an established ADHD drug. This gives a plausible mechanistic link to rotigotine's receptor profile.
 
-Overall, the mechanistic link is **indirect**: it relies on shared dopaminergic receptor biology between rotigotine's known indications and ADHD, rather than any direct preclinical or clinical study of rotigotine in ADHD. This places the evidence at a mechanistic/hypothesis-generating level only.
+This link is indirect. None of the retrieved papers tests rotigotine in ADHD. The two restless legs syndrome papers were probably retrieved because the two conditions overlap in children. They do not show that rotigotine treats ADHD. The prediction is therefore a research question, not an established use.
 
 ---
 
@@ -73,17 +71,29 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Mechanistic/Receptor pharmacology | Pharmacological Research | D4 receptor–α2A adrenoceptor heteromerization associated with ADHD-linked DRD4 polymorphisms; theoretical link to dopaminergic agonism |
-| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Review | Current Pharmaceutical Design | Review of pharmacological options for restless legs syndrome in children (no ADHD-specific data) |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | General review of restless legs syndrome pathophysiology and treatment (no ADHD-specific data) |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue neurologique | Overview of restless legs syndrome (about 2–3% of Western populations). Relevant only through the overlap between RLS and ADHD. |
+| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Review | Current Pharmaceutical Design | Review of restless legs syndrome in children and its pharmacological options. Relevant only through the overlap between RLS and ADHD. |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclinical/Mechanistic | Pharmacological Research | Dopamine D4 receptor variants form complexes with the α2A adrenoceptor. This links dopaminergic and noradrenergic signalling in ADHD and impulse-control disorders. |
+
+---
+
+## Canada Market Information
+
+Rotigotine is marketed in Canada under the brand name NEUPRO. The records show 6 licences in total, and 5 are listed below. Dosage form and approved-indication text are not recorded for these entries.
+
+| DIN | Product Name |
+|---------|------|
+| 02403927 | NEUPRO |
+| 02403897 | NEUPRO |
+| 02403919 | NEUPRO |
+| 02403900 | NEUPRO |
+| 02403943 | NEUPRO |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: TFDA/regulatory warnings and drug interaction data are recorded as blocking data gaps in this evidence pack — see Conclusion below.)*
 
 ---
 
@@ -92,13 +102,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The current evidence base for rotigotine in ADHD is limited to receptor-family-level mechanistic inference (L4), with no clinical trials, no ADHD-specific preclinical studies, and no direct pharmacological data on rotigotine in this indication. Two blocking/high-severity data gaps (regulatory warnings/contraindications and drug MOA) also prevent this candidate from entering a formal safety evaluation stage.
+The ADHD prediction rests on a plausible dopaminergic and noradrenergic mechanism, but no trials are registered and the literature is indirect. The evidence level is L4, and the prediction is best treated as a research question until direct data exist.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label data (warnings, contraindications, DDI) to clear the blocking data gap (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002)
-- Dedicated preclinical or clinical pharmacology study evaluating rotigotine specifically in ADHD populations
-- Canadian market/DIN status confirmation, since the drug currently shows no authorized products in this jurisdiction
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Detailed mechanism of action data confirmed against DrugBank
+- Preclinical or early clinical data testing rotigotine directly in ADHD
+- Review of the transdermal route and paediatric safety, since ADHD is mainly treated in children
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Octreotide
 parent: Model Prediction Only (L5)
-nav_order: 572
+nav_order: 670
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,56 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Octreotide: From Acromegaly/Neuroendocrine Indications to Vulvar Inverted Follicular Keratosis
+# Octreotide: From an Unspecified Original Indication to Vulvar Inverted Follicular Keratosis
 
 ## One-Sentence Summary
 
-Octreotide is a long-acting somatostatin analog most widely known for treating acromegaly and neuroendocrine tumour-related hormone excess (its original indication data was not provided in this evidence pack). The TxGNN model predicts it may be effective for **Vulvar Inverted Follicular Keratosis**, but currently **no clinical trials and no published literature** support this specific prediction — it is a pure model score with no mechanistic rationale identified.
+Octreotide is a somatostatin analog marketed in Canada, but the licence records provided do not state its approved indications.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not provided in evidence pack (no Canadian license data; drug is generically known for acromegaly / neuroendocrine tumour indications) |
-| Predicted New Indication | Vulvar Inverted Follicular Keratosis |
+| Original Indication | Not stated in the licence data provided |
+| Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 99.58% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 14 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Octreotide is generally known as a somatostatin analog that suppresses growth hormone (GH), ACTH, and various gastroenteropancreatic peptide hormones, and its efficacy in acromegaly and neuroendocrine tumour syndromes is well established.
+Currently, detailed mechanism of action data is not available. Octreotide is a somatostatin analog and is marketed in Canada in several products, including Sandostatin and injectable suspension formulations. The approved indication text is missing from the licence data, so the link between its original use and the predicted new indication cannot be assessed.
 
-However, the model's own repurposing rationale for this specific prediction is explicit: vulvar inverted follicular keratosis is an extremely rare benign skin lesion with **no known physiological connection** to the somatostatin pathway. There is no mechanistic hypothesis linking hormone/peptide suppression to this keratinocyte proliferative condition.
-
-This prediction should therefore be treated as a high-confidence numeric score from the model only, not as a mechanistically or clinically supported hypothesis. It sits at the bottom of the evidence hierarchy (L5) precisely because no trial, literature, or biological rationale exists to corroborate it.
+The data do not support a mechanistic link to vulvar inverted follicular keratosis. The high score (0.996) is a graph-based prediction only. Any role for somatostatin receptor signalling in skin or follicular epithelium would be speculative.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for this predicted indication.
+
+For context, the other top-ranked predictions are also weakly supported:
+- **Addison disease** (rank 4, score 98.74%, L4) has two relevant papers.
+  - [PMID 17984930](https://pubmed.ncbi.nlm.nih.gov/17984930/) (2007, case report) describes ACTH suppression in a probable corticotropic adenoma coexisting with Addison's disease. It does not show treatment of adrenal insufficiency.
+  - [PMID 1973178](https://pubmed.ncbi.nlm.nih.gov/1973178/) (1990, physiological study) found that octreotide and somatostatin did not acutely affect hypothalamic-pituitary-adrenal function, which argues against a therapeutic role.
+- **Adrenocortical insufficiency** (rank 8) has one pituitary pathology series, which is not a treatment study.
+- The remaining predictions have no trials or literature.
+
+## Canada Market Information
+
+Dosage form, manufacturer and approved indication text were not provided for these licences.
+
+| DIN | Product Name |
+|---------|------|
+| 2248640 | OCTREOTIDE ACETATE OMEGA |
+| 839191 | SANDOSTATIN |
+| 2248641 | OCTREOTIDE ACETATE OMEGA |
+| 2503778 | OCTREOTIDE FOR INJECTABLE SUSPENSION |
+| 2503751 | OCTREOTIDE FOR INJECTABLE SUSPENSION |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the data provided.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Vulvar Inverted Follicular Keratosis) has no supporting clinical trials, no literature, and no identified mechanistic link — it is a model score in isolation. The drug is also not currently marketed in Canada, and a Blocking data gap exists for product safety information (warnings/contraindications), which prevents any safety pre-screen.
+The prediction has no supporting trials or publications (L5) and no plausible mechanism in the available data. The package insert and mechanism of action data are also missing, so safety screening cannot start.
 
 **To proceed, the following is needed:**
-- Product monograph / regulatory safety data (key warnings, contraindications, DDI) to close the Blocking data gap
-- Confirmed original indication and mechanism-of-action data for this drug
-- A biological or pharmacological rationale connecting somatostatin pathway activity to this dermatologic condition before further evaluation
-- Note: within this same candidate set, **Addison disease** (rank 4, L4, 4 literature items) and **adrenocortical insufficiency** (rank 8, L4, 1 literature item) have comparatively better — though still preliminary — literature support and may warrant separate, dedicated evaluation instead of this top-ranked candidate
+- Health Canada package insert (warnings, contraindications, approved indications), which currently blocks safety screening
+- Mechanism of action data for octreotide (for example, from DrugBank)
+- A dedicated literature and trial search for vulvar inverted follicular keratosis, with a biological rationale for a somatostatin analog in this condition
+- Review of the other top-ranked predictions. Two nephrotic syndrome entries have identical scores (98.57%), which suggests a shared disease-node artifact.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Andexanet Alfa
 parent: Model Prediction Only (L5)
-nav_order: 56
+nav_order: 61
 evidence_level: L5
 indication_count: 4
 ---
@@ -33,50 +33,62 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Andexanet Alfa is a recombinant modified human Factor Xa decoy protein, approved internationally (as Andexxa/Ondexxya) as a specific antidote for life-threatening bleeding in patients taking Factor Xa inhibitors such as apixaban and rivaroxaban.
-The TxGNN model predicts it may be effective for **Glanzmann Thrombasthenia**, a rare inherited platelet disorder — however, with **0 clinical trials** and **0 publications** supporting this direction, and the mechanistic rationale assessed as biologically implausible, this prediction is most likely a knowledge graph artifact.
+Andexanet alfa is a recombinant antidote that neutralizes factor Xa (FXa) inhibitor anticoagulants. The TxGNN model predicts it may be useful for **Glanzmann thrombasthenia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, and no plausible mechanistic link has been identified.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Reversal of Factor Xa inhibitor anticoagulation in life-threatening or uncontrolled bleeding (approved in US/EU; not registered in Taiwan) |
-| Predicted New Indication | Glanzmann Thrombasthenia |
+|------|------|
+| Original Indication | Not listed in the Canadian licence data. Andexanet alfa is known as a reversal agent for FXa inhibitors. |
+| Predicted New Indication | Glanzmann thrombasthenia |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Licenses | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on published information, Andexanet Alfa is a catalytically inactive recombinant human Factor Xa variant. It acts as a high-affinity "decoy receptor" that binds and sequesters direct Factor Xa inhibitors — including apixaban and rivaroxaban — in the bloodstream, preventing them from blocking endogenous Factor Xa activity and thereby restoring thrombin generation along the coagulation cascade. This is a secondary hemostasis mechanism operating at the coagulation factor level.
+Currently, curated mechanism of action data is not available in the Evidence Pack. Based on the pack's rationale text, andexanet alfa is a recombinant, catalytically inactive FXa decoy. It binds and neutralizes FXa inhibitors, which restores the activity of the coagulation cascade.
 
-Glanzmann Thrombasthenia, by contrast, is a disorder of **primary hemostasis**. It is caused by loss-of-function mutations in the *ITGA2B* or *ITGB3* genes, resulting in deficiency or dysfunction of the GPIIb/IIIa (αIIbβ3) integrin receptor on the platelet surface. Without functional GPIIb/IIIa, platelets cannot bind fibrinogen and aggregate, causing a lifelong bleeding tendency that is entirely independent of the coagulation cascade.
+Glanzmann thrombasthenia is an inherited platelet aggregation defect. It is caused by deficient or dysfunctional GPIIb/IIIa (integrin alphaIIb-beta3). Andexanet alfa acts on the coagulation cascade, not on platelet function, so **no plausible mechanistic link was identified**. The high TxGNN score (0.998) is a knowledge-graph prediction only. No trial or publication backs it up, and the original MOA field is empty, so the prediction cannot be cross-checked.
 
-These two conditions operate at fundamentally different levels of the hemostatic system: Andexanet Alfa targets the coagulation waterfall (Factor Xa → thrombin), while Glanzmann Thrombasthenia is a platelet surface receptor defect. There is no recognized biological pathway by which a Factor Xa decoy protein could rescue or compensate for GPIIb/IIIa dysfunction. The very high TxGNN score (99.77%) most likely reflects non-specific similarity propagation — often called a "graph diffusion artifact" — among bleeding disorder nodes in the knowledge graph, rather than a genuine mechanistic connection.
+Other predicted indications show the same pattern:
+- **Primary release disorder of platelets** (99.76%): a platelet granule secretion defect, and andexanet has no known effect on it.
+- **Pseudo-von Willebrand disease** (99.65%): a GPIb-alpha gain-of-function defect, and andexanet does not act on the GPIb-VWF axis.
+- **Hemophilia** (99.10%): 10 publications were retrieved, but none evaluates andexanet as a hemophilia treatment. They cover anticoagulant-associated bleeding, DOAC interference in FVIII/FIX assays, and reviews of reversal agents. One speculative, unverified angle is that andexanet has been reported to bind TFPI, which is a validated hemostatic target in hemophilia. It would need dedicated preclinical work.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Andexanet Alfa in Glanzmann Thrombasthenia.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Andexanet Alfa in Glanzmann Thrombasthenia.
+Currently no related literature available for Glanzmann thrombasthenia.
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2538539 | ONDEXXYA |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Key Warnings**: Thromboembolic risk. This weighs against advancing the drug into conditions where it has no clear rationale.
+
+Please refer to the package insert for the full set of warnings, contraindications and drug interactions.
 
 ---
 
@@ -85,13 +97,12 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite the high TxGNN prediction score (99.77%), the biological mechanism of Andexanet Alfa (Factor Xa decoy receptor) is fundamentally incompatible with the pathophysiology of Glanzmann Thrombasthenia (GPIIb/IIIa platelet receptor defect); there is zero supporting clinical or preclinical evidence, placing this at the lowest evidence tier (L5), and the prediction is most likely a knowledge graph artifact rather than a genuine repurposing signal.
+The prediction rests only on a knowledge-graph score. It has no clinical or literature support and no plausible mechanistic link to platelet-function disorders. The thromboembolic risk warning further argues against advancing without a clear rationale.
 
-**To proceed, the following would be needed:**
-- A credible mechanistic hypothesis explaining how Factor Xa pathway modulation could influence GPIIb/IIIa function or platelet aggregation (none currently exists in the literature)
-- Preclinical data (in vitro or animal model) demonstrating any biological effect of Andexanet Alfa in GPIIb/IIIa-deficient models
-- Expert hemostologist consultation to formally evaluate whether any indirect pathway could plausibly link this drug's mechanism to this disease
-- Retrieval of the full package insert (TFDA or FDA/EMA label) to complete the safety profile before any further evaluation
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Curated mechanism of action data (for example from DrugBank)
+- Preclinical evidence of an effect on platelet function or hemostasis in the target disease (for example the TFPI-binding hypothesis for hemophilia)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

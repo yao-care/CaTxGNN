@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Glucagon
-parent: Moderate Evidence (L3-L4)
-nav_order: 367
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 432
+evidence_level: L5
 indication_count: 1
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +33,84 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Glucagon is a pancreatic polypeptide hormone classically used to treat severe hypoglycemia and to temporarily relax gastrointestinal smooth muscle during diagnostic procedures. The TxGNN model predicts it may be effective for **Irritable Bowel Syndrome (IBS)** with a score of **99.24%**; however, the **11 clinical trials** and **20 publications** retrieved pertain almost entirely to GLP-1 receptor agonists—a related but pharmacologically distinct class—rather than glucagon itself, raising significant questions about the validity of this prediction.
+Glucagon is a pancreatic peptide hormone. Its Canadian product, BAQSIMI, is a nasal glucagon used for severe hypoglycemia.
+The TxGNN model predicts it may be useful for **irritable bowel syndrome (IBS)**. However, none of the **10 clinical trials** or **20 publications** retrieved tests glucagon itself in IBS. They all concern related GLP-1 receptor agonists or general gut biology, so this is a research question rather than a supported indication.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Severe hypoglycemia; GI diagnostic aid (transient smooth muscle relaxation) |
-| Predicted New Indication | Irritable Bowel Syndrome (IBS) |
+|------|------|
+| Original Indication | Severe hypoglycemia (based on the BAQSIMI product; the licence record contains no indication text) |
+| Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 99.24% |
-| Evidence Level | L4 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (indirect evidence only; nothing tests glucagon in IBS) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Glucagon and GLP-1 (Glucagon-Like Peptide-1) are both encoded by the same proglucagon gene but are produced through differential post-translational processing in different tissues: pancreatic α-cells cleave proglucagon into glucagon (which acts on GCGR), while intestinal L-cells produce GLP-1 (which acts on GLP1R). This shared genetic origin is the most likely explanation for TxGNN's high prediction score—the model's graph-based feature representation may have captured proglucagon-family characteristics and attributed GLP-1-related therapeutic signals to glucagon, producing an overly optimistic prediction.
+Detailed mechanism-of-action data for glucagon is not available in the current record. Based on known information, glucagon and GLP-1 are both derived from proglucagon, and both slow gastrointestinal motility. Glucagon is also already used clinically as a short-acting gut antispasmodic. Since IBS involves disordered motility and visceral pain, a plausible link exists.
 
-GLP-1 has well-documented roles in gastrointestinal physiology that are genuinely relevant to IBS. It inhibits intestinal smooth muscle contraction, slows gut motility, reduces visceral hypersensitivity, and modulates the gut-brain axis. GLP-1 receptor agonists such as ROSE-010 and exendin-4 have demonstrated measurable symptom relief in IBS patients and animal models, and IBS-C patients have been found to carry significantly lower circulating GLP-1 levels—suggesting a pathophysiological role for the incretin pathway in this condition.
+The main caveat is that glucagon acts on the glucagon receptor, not the GLP-1 receptor. Nearly all the supporting signals come from GLP-1 receptor agonists:
 
-Crucially, however, glucagon acts on GCGR, not GLP1R—a pharmacologically and functionally distinct receptor. While glucagon does relax gastrointestinal smooth muscle (the basis of its diagnostic use in colonoscopy and barium enema preparation), this is a transient, pharmacological effect and is mechanistically unrelated to the sustained anti-nociceptive, motility-regulating, and neurohormonal actions that GLP-1 RAs exert in IBS. Without dedicated preclinical data showing that GCGR activation replicates GLP1R-mediated IBS benefits, the TxGNN score should be interpreted as a model artefact rather than a genuine repurposing signal.
+- ROSE-010, a GLP-1 analog, reduced pain during IBS attacks in clinical studies.
+- Native GLP-1 inhibits gastric and small-bowel motility in humans.
+- Exendin-4 improved GI dysfunction in a rat IBS model.
+
+These findings cannot be assumed to apply to glucagon. The 99.24% TxGNN score is a knowledge-graph prediction and should be read as a hypothesis, not as evidence of efficacy.
 
 ---
 
 ## Clinical Trial Evidence
 
+No trial tests glucagon in IBS. Only the trials with some relevance are listed below. The other retrieved trials (dietary, exercise, microbiota and obesity studies, plus one unrated organoid study) are unrelated to glucagon.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Completed | 52 | ROSE-010 (synthetic GLP-1 RA) delayed gastric emptying and enhanced gastric accommodation without retarding colonic transit in female IBS-C patients — the most directly relevant GLP-1-class intervention in IBS within this dataset |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Completed | 12 | Native GLP-1 (not glucagon) inhibited prandial antro-duodeno-jejunal motility in humans, confirmed by in vitro smooth muscle strip experiments; establishes the mechanistic basis for GLP-1-class motility effects |
-| [NCT04763564](https://clinicaltrials.gov/study/NCT04763564) | Phase 2 | Terminated | 8 | Liraglutide vs. placebo in IPAA patients with chronic high bowel frequency; terminated early due to very low enrolment — limited evidence value |
-| [NCT06408610](https://clinicaltrials.gov/study/NCT06408610) | N/A | Completed | 66 | Moderate vs. high-intensity exercise in pre-diabetic obese IBS patients; measured GLP-1 (not glucagon) as a secondary biomarker — indirect evidence only |
-| [NCT05249023](https://clinicaltrials.gov/study/NCT05249023) | N/A | Completed | 37 | Butyrate mode of action in human colon including IBS patients; mechanistically connected to L-cell GLP-1 secretion but no direct glucagon component |
-| [NCT00802971](https://clinicaltrials.gov/study/NCT00802971) | N/A | Completed | 12 | Idiopathic reactive hypoglycemia and fructo-oligosaccharide supplementation; glucagon appears as a counter-regulatory hormone rather than as a therapeutic agent for IBS |
-| [NCT06333717](https://clinicaltrials.gov/study/NCT06333717) | N/A | Completed | 33 | Fibre-rich rye bread, gut microbiota, and gut peptide release in healthy subjects; measures intestinal hormone response including GLP-1, no direct glucagon or IBS connection |
-| [NCT03256266](https://clinicaltrials.gov/study/NCT03256266) | N/A | Active, Not Recruiting | 375 | Small intestinal human organoids to evaluate therapeutic agents; an exploratory in vitro platform with no direct glucagon-IBS evidence reported yet |
-| [NCT04230655](https://clinicaltrials.gov/study/NCT04230655) | N/A | Unknown | 110 | Low-energy diet vs. intragastric balloon for obesity; measures metabolic hormones but has no direct relevance to glucagon as an IBS therapy |
-| [NCT06113146](https://clinicaltrials.gov/study/NCT06113146) | N/A | Completed | 41 | Eating rate of ultra-processed foods on energy intake and metabolic responses over two weeks; no connection to glucagon or IBS treatment |
+|---------|------|------|------|---------|
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Completed | 52 | ROSE-010 (a GLP-1 analog) effect on gastric, small-bowel and colonic motor function in women with constipation-predominant IBS. Most disease-relevant trial, but indirect (not glucagon). |
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Completed | 12 | Native GLP-1 vs ROSE-010 on stomach, duodenal and jejunal motility. Supports the motility-inhibition mechanism, but involves no glucagon or IBS patients. |
+| [NCT04763564](https://clinicaltrials.gov/study/NCT04763564) | Phase 2 | Terminated | 8 | Liraglutide vs placebo for chronic high bowel frequency after ileal pouch-anal anastomosis. Very weak indirect support. |
+| [NCT06408610](https://clinicaltrials.gov/study/NCT06408610) | N/A | Completed | 66 | Exercise training, gut dysbiosis and GLP-1 levels in IBS. A non-drug study with only a tangential incretin link. |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematic Review | Frontiers in Endocrinology | Meta-analysis confirms GLP-1 RAs improve IBS symptoms (pain, bloating, motility); ROSE-010 inhibits migrating motor complex and decreases GI motility in IBS — strongest pooled evidence for the GLP-1 pathway |
-| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Systematic Review | J Headache and Pain | Systematic review of GLP-1 RAs in headache and pain disorders; documents GLP-1's neuronal pathway activity relevant to IBS visceral hypersensitivity |
-| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Real-world/Observational | Annals of Gastroenterology | Real-world GLP-1 RA prescription and discontinuation patterns in IBS patients; GI adverse effects are prominent, highlighting tolerability challenges in functional GI disorders |
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Secondary Clinical Analysis | Scand J Gastroenterology | Cross-analysis of ROSE-010 trials in IBS identifies patient subgroups with greatest pain relief; supports GLP-1R pathway but not GCGR activation |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Review | Experimental Physiology | Proposes intestinal L-cells and GLP-1 secretion as central to IBS pathophysiology, responding to stress, bile acid profiles, microbial shifts, and gut permeability changes |
-| [28215540](https://pubmed.ncbi.nlm.nih.gov/28215540/) | 2017 | Observational | Clin Res Hepatol Gastroenterol | IBS-C patients had significantly lower serum GLP-1 levels inversely correlated with abdominal pain severity; reduced GLP-1R expression found in colonic biopsies — key biomarker evidence |
-| [31602785](https://pubmed.ncbi.nlm.nih.gov/31602785/) | 2020 | Preclinical | Neurogastroenterol Motility | GLP-1 RA exendin-4 ameliorated GI dysfunction in Wistar Kyoto rat IBS model by modulating myenteric neuronal activity — validated preclinical model for the GLP-1 pathway |
-| [41480755](https://pubmed.ncbi.nlm.nih.gov/41480755/) | 2026 | Review | J Clinical Investigation | Positions GLP-1 RAs and enteroendocrine cell-neural circuits as key to understanding gut-brain axis dysfunction in functional GI disorders including IBS |
-| [3617051](https://pubmed.ncbi.nlm.nih.gov/3617051/) | 1987 | Observational | Tohoku J Exp Medicine | Psychological stress altered colonic motility, autonomic tone, and gastrointestinal hormone levels in IBS patients — one of the few studies to directly measure glucagon (among other hormones) in an IBS clinical context |
-| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Experimental | Adv Exp Med Biol | Explores aerosolized GLP-1 administration as a dual-indication agent for diabetes and IBS; frames GLP-1 (not glucagon) as the active molecule — indirect framing of the IBS opportunity |
+|------|-----|------|------|---------|
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematic review / meta-analysis | Front Endocrinol | GLP-1 receptor agonists and IBS. GLP-1 and ROSE-010 inhibit GI motility in IBS patients. |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | RCT (secondary analysis) | Scand J Gastroenterol | Cross-analysis of ROSE-010 pain relief in IBS to identify the most suitable patient subgroup. |
+| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Cohort | Ann Gastroenterol | Prescription and discontinuation patterns of GLP-1 receptor agonists in IBS patients. |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Review | Exp Physiol | Explores the role of GLP-1-secreting L-cells in IBS pathophysiology. |
+| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Review | Adv Exp Med Biol | Aerosolized GLP-1 for diabetes and IBS. |
+| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Review | Expert Opin Investig Drugs | Novel investigational drugs for constipation-predominant IBS. |
+| [28215540](https://pubmed.ncbi.nlm.nih.gov/28215540/) | 2017 | Clinical study | Clin Res Hepatol Gastroenterol | Serum GLP-1 is decreased and correlates with abdominal pain in IBS-C. |
+| [31602785](https://pubmed.ncbi.nlm.nih.gov/31602785/) | 2020 | Animal study | Neurogastroenterol Motil | Exendin-4 ameliorated GI dysfunction in a rat IBS model. |
+| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Clinical study | Front Nutr | Circulating GLP-1 rose after a low-FODMAP diet in IBS patients. |
+| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Review | Cell Mol Gastroenterol Hepatol | Overview of the brain-gut-microbiome axis. |
+
+All of these concern GLP-1 or general IBS biology, not glucagon.
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2492415 | BAQSIMI |
+
+Dosage form and approved-indication text are not recorded in the current licence data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found.
 
 ---
 
@@ -106,14 +119,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score of 99.24% is almost certainly a model artefact: glucagon and GLP-1 share a proglucagon gene origin, and the model has likely misattributed GLP-1 receptor agonist evidence—which is substantial and growing—to glucagon itself. Glucagon acts on GCGR, a pharmacologically distinct receptor from GLP1R, and its documented gastrointestinal effect (transient smooth muscle relaxation for diagnostic use) does not translate into the sustained, receptor-mediated therapeutic mechanism that GLP-1 RAs deploy against IBS symptoms.
+The prediction is biologically plausible. However, all supporting clinical evidence involves GLP-1 receptor agonists, which act on a different receptor. There is no direct evidence for glucagon in IBS, so it remains a research question.
 
 **To proceed, the following is needed:**
-- Dedicated preclinical studies testing glucagon directly at GCGR in validated IBS models (e.g., Wistar Kyoto rat or intestinal organoid systems)
-- Receptor-level comparison of GCGR vs. GLP1R downstream signalling in enteric neurons and intestinal smooth muscle, specifically for motility and visceral pain endpoints
-- TxGNN model feature attribution analysis to determine whether the prediction derives from glucagon-specific molecular features or from shared proglucagon-family features (i.e., model interpretability audit)
-- Canada regulatory status clarification and full package insert review for up-to-date warnings, contraindications, and approved indications
-- If GCGR mechanistic studies show IBS-relevant activity, a Phase 1/2 dose-finding and tolerability study in a defined IBS subtype (preferably IBS-C, given GLP-1 pathway evidence) would be the logical next clinical step
+- Health Canada package insert warnings and contraindications
+- Detailed mechanism-of-action data for glucagon, and confirmation of its licensed indication
+- A mechanistic or pilot motility and pain study of glucagon in IBS patients
+- A safety assessment for this use, focusing on hyperglycemia, nausea and glucagon's short half-life
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: Model Prediction Only (L5)
-nav_order: 331
+nav_order: 387
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,33 +33,33 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Fluconazole is a triazole antifungal agent that works by blocking ergosterol biosynthesis in fungal cells, primarily used to treat systemic and superficial fungal infections.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis (PEK)**,
-however there are currently **no clinical trials** and **no publications** supporting this specific direction — the prediction rests on model inference alone.
+Fluconazole is an azole antifungal, but the supplied record lists no original indications, so its antifungal use here comes from general drug knowledge.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**.
+**No clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Fungal infections (no Canadian DIN on file; based on known pharmacology) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis (PEK) |
+|------|------|
+| Original Indication | Fungal infections (general drug class knowledge; not listed in the supplied record) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.24% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed (no DIN registered) |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Fluconazole is a triazole antifungal that inhibits fungal CYP51 (14α-lanosterol demethylase), blocking the biosynthesis of ergosterol — an essential component of the fungal cell membrane. By depleting ergosterol, fluconazole compromises membrane integrity and halts fungal replication. It is active against a broad range of *Candida* and *Cryptococcus* species, and is widely used systemically for candidiasis, cryptococcal meningitis, and dermatophyte infections.
+Detailed mechanism of action data is not available in the supplied record. Fluconazole is known to inhibit fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis and stops fungal cell membranes from forming properly.
 
-The theoretical link to PEK is narrow but not entirely implausible: PEK can occasionally arise from fungal etiologies, such as early-stage *Candida* keratitis, where scattered punctate epithelial lesions may precede deeper stromal infiltration. In this narrow subset of cases, systemic or topical antifungal therapy targeting the causative organism could theoretically resolve the epithelial disruption.
+Punctate epithelial keratoconjunctivitis is most often caused by adenovirus or by immune-mediated inflammation of the ocular surface. A direct antifungal mechanism therefore does not plausibly apply. The high score may come from indirect links in the knowledge graph to ocular surface or keratitis-related nodes, such as fungal keratitis. This cannot be confirmed from the data provided.
 
-However, this rationale has significant limitations. The overwhelming majority of PEK cases are non-fungal in origin — caused by adenoviral infection, dry eye disease, drug toxicity, or ultraviolet exposure. Furthermore, fluconazole is not the preferred agent for ocular surface fungal infections; voriconazole and natamycin have far better ocular penetration and established evidence in fungal keratitis. The TxGNN score of 99.24% reflects topological proximity in the knowledge graph, but with zero supporting clinical trials or literature, this prediction lacks the real-world corroboration needed to proceed.
+At present the link is computational only. No original indications or mechanism data were supplied, and similarity to the original indication has not been assessed.
 
 ---
 
@@ -77,9 +77,15 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-No Canadian drug licenses (DINs) are currently registered for fluconazole in this dataset.
+Five of the 20 authorizations are listed below. Dosage form and approved indication text are not available for these products.
 
-> **Note:** This may reflect a data pipeline gap. Fluconazole (e.g., Diflucan®) is generally available in many markets; please verify against the Health Canada Drug Product Database directly before drawing regulatory conclusions.
+| DIN | Product Name |
+|---------|------|
+| 02141442 | DIFLUCAN ONE |
+| 02310686 | PRO-FLUCONAZOLE |
+| 02241895 | APO-FLUCONAZOLE-150 |
+| 02245643 | PMS-FLUCONAZOLE |
+| 02547864 | JAMP FLUCONAZOLE 150 MG |
 
 ---
 
@@ -94,15 +100,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or published literature evidence linking fluconazole to punctate epithelial keratoconjunctivitis, and the mechanistic connection is limited to a narrow fungal-etiology subset of a condition that is predominantly non-fungal in practice. A high TxGNN score alone, at Evidence Level L5, is insufficient to justify advancement.
+The prediction has a high model score but no clinical trials or literature behind it (Evidence Level L5). The mechanism is also implausible for the likely causes of this condition, so there is not enough support to advance it.
 
 **To proceed, the following is needed:**
-
-- Verification of Canadian regulatory status via the Health Canada Drug Product Database (DIN lookup for fluconazole / Diflucan®)
-- Formal MOA documentation from DrugBank (DB00196) to complete the mechanism-of-action analysis
-- A targeted literature search for fluconazole use in fungal keratitis or keratoconjunctivitis, which represents the only plausible mechanistic bridge
-- Safety data retrieval (key warnings, contraindications, DDI profile) from the product monograph before any clinical feasibility discussion
-- If any supporting case reports or small studies are identified in a supplementary search, upgrade evidence level and reassess
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data confirmed from DrugBank
+- Original indication and approved indication text for the Canadian products
+- Any clinical or preclinical evidence linking fluconazole to punctate epithelial keratoconjunctivitis or a related ocular condition
+- A route-compatibility check, since ocular use may require a different formulation from the marketed products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

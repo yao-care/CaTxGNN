@@ -2,7 +2,7 @@
 layout: default
 title: Brigatinib
 parent: Model Prediction Only (L5)
-nav_order: 109
+nav_order: 121
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Brigatinib: From ALK-Positive NSCLC to Fibromatosis, Gingival
+# Brigatinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Brigatinib (ALUNBRIG®) is a next-generation anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor, approved in the United States since 2017 for ALK-positive metastatic non-small cell lung cancer (NSCLC) — both in the first-line setting and for patients who progressed on crizotinib.
-The TxGNN model predicts it may be effective for **Fibromatosis, Gingival** with a high prediction score of **99.89%**;
-however, **no clinical trials or supporting literature** have been identified for this specific indication, placing the overall evidence at **Level L5** with a recommendation to **Hold**.
+Brigatinib (marketed in Canada as ALUNBRIG) is a kinase inhibitor used to treat ALK-positive non-small cell lung cancer (NSCLC).
+The TxGNN model predicts it may be effective for **gingival fibromatosis**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | ALK-positive metastatic NSCLC (approved in the US/EU/Japan; not marketed in Canada) |
-| Predicted New Indication | Fibromatosis, Gingival |
+|------|------|
+| Original Indication | ALK-positive non-small cell lung cancer (NSCLC); the Health Canada indication text was not supplied, so this comes from the retrieved literature |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 — Model prediction only; no supporting studies identified |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Brigatinib is a second-generation ALK tyrosine kinase inhibitor designed to overcome crizotinib resistance. Its primary mechanism is inhibition of ALK fusion proteins — most commonly EML4-ALK — which are the oncogenic driver in approximately 3–5% of advanced NSCLC cases. Beyond ALK, brigatinib also inhibits ROS1, ErbB2 (HER2), FLT3, and EGFR at clinically relevant concentrations, giving it a broader kinase inhibition profile than first-generation agents. This multi-kinase activity is the basis for evaluating it in non-NSCLC indications such as NF2-related schwannomatosis (where ErbB2 suppression is the proposed mechanism).
+Detailed mechanism of action data is not currently available. Brigatinib is described in the data as an ALK/ROS1/EGFR kinase inhibitor. Its efficacy in ALK-positive NSCLC is well established, including in several Phase 3 trials (ALTA-1L, ALTA-3).
 
-Gingival fibromatosis is characterized by diffuse overgrowth of gingival connective tissue. Hereditary forms are driven primarily by mutations in the **RAS-MAPK pathway** (e.g., SOS1, PTPN11), while drug-induced forms (calcium channel blockers, phenytoin, cyclosporine) involve altered fibroblast proliferation through calcium- and mTOR-mediated mechanisms. There is no known intersection between the RAS-MAPK dysregulation underlying gingival fibromatosis and the ALK/ROS1/ErbB2 pathways that brigatinib targets.
+The provided data does not show a mechanistic link between kinase inhibition and gingival fibromatosis. The high TxGNN score (0.9989, model rank 2770) is a graph-based prediction only. No trial or publication addresses this condition, and the relationship to the original indication has not been assessed.
 
-The high TxGNN score most likely reflects a knowledge graph artifact: the "fibroproliferative process" or "connective tissue neoplasm" ontology nodes may be broadly linked to kinase inhibitors without discriminating between the specific molecular drivers of each fibroproliferative disease. In the absence of any biological rationale or supporting evidence, this prediction cannot be considered clinically actionable at this stage.
+This is the top-ranked prediction, but it is not the best-supported one among brigatinib's candidates.
+
+- **NF2-related schwannomatosis and NF2-deficient tumors:** a clinical case series (NEJM 2024) and preclinical work show brigatinib-associated tumor shrinkage.
+- **ALK-altered non-NSCLC tumors:** case reports and preclinical work in pheochromocytoma, lung large cell neuroendocrine carcinoma, and neuroblastoma.
+
+These signals came up under other predicted diseases (ranks 8 and 10). They are indirect and do not support gingival fibromatosis.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Brigatinib in Fibromatosis, Gingival.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Brigatinib in Fibromatosis, Gingival.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Brigatinib is currently **not marketed in Canada**. No Drug Identification Numbers (DINs) have been issued by Health Canada as of the data cutoff (April 5, 2026).
+| DIN | Product Name |
+|---------|------|
+| 2479214 | ALUNBRIG |
+| 2479206 | ALUNBRIG |
+| 2479222 | ALUNBRIG |
+| 2479230 | ALUNBRIG |
 
-> For reference: Brigatinib (ALUNBRIG®) has received regulatory approval in the United States (FDA accelerated approval April 2017; full approval May 2020), the European Union (EMA 2018), and Japan (PMDA). Canadian regulatory status should be confirmed via the Health Canada Drug Product Database.
+Dosage form and approved indication text were not supplied for these authorizations.
 
 ---
 
 ## Cytotoxicity
 
-Brigatinib is an antineoplastic agent (small-molecule TKI targeting ALK-positive malignancies); this section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Second-generation ALK / ROS1 / ErbB2 tyrosine kinase inhibitor (oral small molecule) |
-| Myelosuppression Risk | Low to Moderate — cytopenias (anemia, neutropenia) are reported but substantially less frequent than with conventional cytotoxic chemotherapy |
-| Emetogenicity Classification | Low (oral targeted agent; nausea reported in ~33% at 180 mg QD but rarely severe) |
-| Monitoring Items | CBC with differential; liver function tests (AST/ALT/bilirubin); creatine phosphokinase (CPK — myalgia and CPK elevation are common); pulmonary function and CT imaging (risk of early-onset interstitial lung disease/pneumonitis, especially in first 7 days); blood pressure; heart rate (bradycardia) |
-| Handling Protection | Standard oral antineoplastic handling precautions required; follow institutional cytotoxic drug-handling policies |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (ALK/ROS1/EGFR tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the queried source.
+
+One published case report describes **fatal tumour lysis syndrome** after brigatinib in a patient with ALK-rearranged lung adenocarcinoma who had received sequential ALK inhibitors (PMID 34987411). It is a single case in an oncology setting, but it shows that serious metabolic complications can occur.
 
 ---
 
@@ -108,14 +117,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The RAS-MAPK–driven pathogenesis of gingival fibromatosis has no established intersection with the ALK/ROS1/ErbB2 signaling axis that brigatinib targets, and no clinical or preclinical data support this predicted indication. The high TxGNN score is likely a knowledge graph artifact from broad ontological node linkage rather than a genuine mechanistic connection.
+The prediction is supported only by a model score, with no clinical trials, no relevant literature, and no demonstrated mechanistic link between brigatinib's kinase targets and gingival fibromatosis. Brigatinib is a marketed oncology drug with a known serious-toxicity profile, so a repurposing case needs direct evidence first.
 
 **To proceed, the following is needed:**
-- Molecular profiling studies of gingival fibromatosis tissue to determine whether ALK, ROS1, or ErbB2 pathway activation is present in any subtype
-- Preclinical studies (cell line or animal model) demonstrating brigatinib activity in fibroblastic gingival overgrowth
-- Retrieval and review of the official package insert (Health Canada / FDA monograph) to fill safety gaps (contraindications, key warnings)
-- Complete MOA data from DrugBank (DB12267) to enable a full mechanistic cross-indication analysis
-- Reassessment of whether the TxGNN knowledge graph correctly distinguishes between ALK-driven fibroproliferative malignancies and non-ALK connective tissue disorders before elevating this candidate's priority
+- Health Canada package insert warnings and contraindications
+- Detailed mechanism of action data, and an assessment of whether the relevant kinases play a role in gingival fibromatosis
+- Preclinical or case-level evidence specific to gingival fibromatosis
+- Evaluation of route and dosage-form compatibility (only oral use is implied by current data; this has not been confirmed)
+- Consideration of the better-supported NF2-related schwannomatosis signal as a separate repurposing candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

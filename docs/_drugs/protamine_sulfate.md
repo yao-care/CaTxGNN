@@ -2,7 +2,7 @@
 layout: default
 title: Protamine Sulfate
 parent: Model Prediction Only (L5)
-nav_order: 657
+nav_order: 774
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,44 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Protamine Sulfate: From Heparin Neutralization to Marfanoid Habitus–Inguinal Hernia–Advanced Bone Age Syndrome
+# Protamine Sulfate: From Heparin Neutralization to Marfanoid Habitus-Inguinal Hernia-Advanced Bone Age Syndrome
 
 ## One-Sentence Summary
 
-Protamine sulfate is a strongly basic protein historically used to neutralize the anticoagulant effect of heparin; no formal original indication or mechanism-of-action record is present in this Evidence Pack. The TxGNN model's top-ranked prediction — **marfanoid habitus-inguinal hernia-advanced bone age syndrome** — carries a score of **50.00%**, which the model itself flags as an undifferentiated baseline value (rank ~1.9 million out of the full candidate space), and is supported by **0 clinical trials** and **0 publications**.
+Protamine sulfate is a cationic peptide generally used to neutralize heparin (this comes from general pharmacology, since the Canadian licence records contain no indication text).
+The TxGNN model predicts it may be effective for **marfanoid habitus-inguinal hernia-advanced bone age syndrome**, but **no clinical trials and no publications** currently support this pairing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded (drug is pharmacologically known as a heparin-reversal agent; no `original_indications` or Canada license data available) |
+| Original Indication | Not stated in the licence data (generally heparin neutralization) |
 | Predicted New Indication | Marfanoid habitus-inguinal hernia-advanced bone age syndrome |
-| TxGNN Prediction Score | 50.00% (baseline/non-differentiating value — see below) |
+| TxGNN Prediction Score | 50% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available for this candidate (flagged as a Blocking/High data gap in the source pack). Based on general pharmacological knowledge referenced within the evidence pack itself, protamine sulfate acts by ionic binding to heparin, neutralizing its anticoagulant activity — a narrow, mechanistically specific action with no known relevance to connective-tissue or skeletal developmental pathways.
+It is not well supported. Detailed mechanism of action data is not available in the Evidence Pack. Protamine is an arginine-rich cationic peptide that binds and neutralizes heparin.
 
-The predicted indication, marfanoid habitus-inguinal hernia-advanced bone age syndrome, is a rare congenital connective-tissue/skeletal-development disorder. The evidence pack's own rationale explicitly states there is **no known mechanistic overlap** between protamine's heparin-binding activity and this syndrome's underlying genetic pathways, and that the 0.5 score represents an undifferentiated model baseline rather than a meaningful biological signal. The same pattern holds across all ten ranked candidates in this pack (Meigs syndrome variants, premature ejaculation, ameloblastoma, chromosomal microduplication syndromes, primary progressive apraxia of speech) — each scores exactly 0.5 with no distinguishing rationale and no supporting evidence.
+The predicted condition is a rare connective-tissue and skeletal syndrome with no known coagulation or heparin-related pathway. No credible mechanistic link between the two could be identified.
 
-**This candidate should be read as a non-signal.** None of the ten predictions clear the threshold for further evaluation; the ranking order among them is not meaningful given the identical, baseline-level scores.
+The TxGNN score of 0.5 (rank 1,904,837) is uninformative and does not distinguish this pairing from noise. The other nine top-ranked predictions all carry the same score of 0.5:
+
+- atypical Meigs syndrome
+- pseudo-Meigs syndrome
+- premature ejaculation
+- Meigs syndrome
+- Spigelian hernia-cryptorchidism syndrome
+- ameloblastoma
+- Xq12-q13.3 duplication syndrome
+- 7p22.1 microduplication syndrome
+- primary progressive apraxia of speech
+
+Each has no clinical or literature support and no plausible mechanistic link to heparin neutralization.
 
 ## Clinical Trial Evidence
 
@@ -62,6 +75,13 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 Currently no related literature available.
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2231674 | PROTAMINE SULFATE INJECTION USP |
+| 2139537 | PROTAMINE SULFATE INJECTION, USP |
 
 ## Safety Considerations
 
@@ -72,13 +92,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction scores at the model's undifferentiated baseline (0.5) with zero supporting clinical trials or literature, and the pack's own mechanistic analysis finds no plausible biological link to the predicted indication. This is not distinguishable from noise and does not meet the threshold to advance.
+The prediction rests only on a knowledge-graph score of 0.5, with no trials, no publications and no plausible mechanism. Evidence is at L5, the lowest level.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory label warnings and contraindications (currently a Blocking data gap)
-- Documented mechanism of action (currently a High-severity data gap)
-- Canada market/licensing status confirmation (currently 0 licenses on record)
-- If TxGNN is re-run, candidates with scores materially above the ~0.5 baseline and with at least preliminary literature or trial support should be prioritized over this set
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Detailed mechanism of action data, for example from DrugBank
+- A biological rationale linking heparin neutralization to the predicted syndrome, plus any supporting preclinical or clinical evidence
+- Approved indication and dosage form details for the two DINs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

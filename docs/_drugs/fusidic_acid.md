@@ -2,7 +2,7 @@
 layout: default
 title: Fusidic Acid
 parent: Moderate Evidence (L3-L4)
-nav_order: 353
+nav_order: 418
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,101 +29,64 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-The `txgnn-pipeline` skill covers pipeline operations, not report formatting — the full template is already established in the system prompt. Proceeding directly with the report generation.
-
----
-
-# Fusidic Acid: From Staphylococcal Skin Infection to Exposure Keratitis
+# Fusidic Acid: From Topical Antibacterial Use to Exposure Keratitis
 
 ## One-Sentence Summary
 
-Fusidic acid is a narrow-spectrum bacteriostatic antibiotic with well-established global use against *Staphylococcus aureus* infections, but it is currently not approved or marketed in Canada.
-The TxGNN model's top-ranked novel prediction is **Exposure Keratitis**, supported by only **0 clinical trials** and **1 indirect case series**; however, across all 10 predicted indications, the most evidence-backed finding is **Post-bacterial Disorder (ABSSSI)** at rank 5, supported by a **completed Phase 3 RCT (n = 716)**.
+Fusidic acid is an antibacterial, marketed in Canada in cream, ointment and ophthalmic products.
+The TxGNN model predicts it may be effective for **exposure keratitis**, but there are **0 clinical trials** and only **1 publication** (a case series that does not test fusidic acid) behind this prediction.
+The link is indirect and the evidence is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Canada |
-| Predicted New Indication | Exposure Keratitis |
+|------|------|
+| Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the submitted evidence pack. Based on established pharmacological knowledge, fusidic acid is a steroidal antibiotic that inhibits bacterial protein synthesis by binding to and stabilizing the EF-G elongation factor on the ribosome, thereby blocking translocation. This mechanism is highly selective for gram-positive organisms, with *Staphylococcus aureus* (including MRSA) as its primary target. It has no relevant activity against gram-negative bacteria or non-bacterial pathogens.
+Detailed mechanism of action data for fusidic acid is not available in the Evidence Pack. Fusidic acid is generally known to inhibit bacterial protein synthesis by blocking elongation factor G, with strong activity against *Staphylococcus aureus*.
 
-Exposure keratitis arises from incomplete eyelid closure (lagophthalmos), resulting in chronic corneal desiccation, epithelial breakdown, and heightened susceptibility to secondary bacterial superinfection — with *S. aureus* among the most common colonizers of the compromised ocular surface. Given fusidic acid's potent anti-staphylococcal activity, there is a coherent mechanistic rationale for preventing or treating staphylococcal superinfection in this context. Importantly, ophthalmic formulations of fusidic acid (e.g., Fucithalmic® viscous eye drops) are already approved in several European countries for conjunctivitis, providing formulation and regulatory precedent for ocular use.
+Exposure keratitis is mainly a non-infectious disorder of the corneal surface. Any benefit from fusidic acid would be indirect, by treating a secondary bacterial infection of the damaged cornea. The only retrieved publication is a case series of ocular *Tsukamurella* infections, which does not show that fusidic acid helps this disease. The high score therefore mostly reflects the knowledge-graph pattern, not clinical proof.
 
-That said, the sole literature item retrieved (PMID 31246677) describes *Tsukamurella* spp. ophthalmic infections — an entirely different pathogen well outside fusidic acid's antibacterial spectrum. There is no direct clinical evidence for this specific indication. The TxGNN prediction likely reflects knowledge-graph proximity between the drug's antibacterial spectrum and ocular surface infection nodes rather than a documented mechanistic chain. A **Hold** decision is appropriate until targeted evidence is developed.
+Among the other top-10 predictions, **otitis externa** has the most plausible link. *S. aureus* and *S. pseudintermedius* are common pathogens there, but the literature is mostly veterinary microbiology and does not report fusidic acid treatment outcomes.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials registered for exposure keratitis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case Series | *Cornea* | Largest reported case series of *Tsukamurella* spp. ophthalmic infections; highlights clinical spectrum and risk factors of opportunistic ocular infections, but does not evaluate fusidic acid and involves a pathogen outside its antibacterial spectrum — indirect relevance only |
-
----
-
-## All Predicted Indications — Summary
-
-This evidence pack covers 10 TxGNN-predicted indications. The full landscape is presented below:
-
-| Rank | Indication | TxGNN Score | Evidence Level | Decision | Key Reason |
-|------|-----------|-------------|----------------|---------|------------|
-| 1 | Exposure Keratitis | 99.95% | L4 | Hold | No direct evidence; sole publication addresses an unrelated pathogen |
-| 2 | Non-human Animal Disease | 99.86% | L5 | N/A | Out of scope for clinical repurposing framework |
-| 3 | Otitis Externa | 99.84% | L4 | Research Question | Mechanistic support exists; evidence is primarily veterinary |
-| 4 | Postinfectious Vasculitis | 99.83% | L5 | Hold | Immune complex–mediated pathology; antibacterial MOA does not apply |
-| **5** | **Post-bacterial Disorder (ABSSSI)** | **99.82%** | **L2** | **Proceed with Guardrails** | **Phase 3 RCT completed (NCT02570490, n = 716)** |
-| 6 | Post-infectious Syndrome | 99.82% | L5 | Hold | Neuroimmune dysregulation; no mechanistic link |
-| 7 | Infective Urethral Stricture | 99.81% | L5 | Hold | Gram-negative pathogens; outside fusidic acid's spectrum |
-| 8 | Chagas Cardiomyopathy | 99.80% | L5 | Hold | Protozoan (*T. cruzi*) disease; antibacterial MOA entirely irrelevant |
-| 9 | Infection-related HUS | 99.79% | L5 | Hold | STEC-mediated; antibiotics generally contraindicated in this context |
-| 10 | Parasitic Eyelid Infestation | 99.65% | L5 | Hold | Arthropod/parasitic infection; outside antibacterial spectrum entirely |
-
----
-
-### Clinical Trial Evidence — Post-bacterial Disorder / ABSSSI (Rank 5, Priority Finding)
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT02570490](https://clinicaltrials.gov/study/NCT02570490) | Phase 3 | Completed | 716 | Randomized, double-blind, multicenter RCT comparing oral sodium fusidate (CEM-102 loading dose) vs. oral linezolid in ABSSSI; the largest and highest-quality existing trial for systemic fusidic acid — pivotal evidence for efficacy and safety |
-| [NCT03173053](https://clinicaltrials.gov/study/NCT03173053) | NA | Terminated | 63 | Long-term *S. aureus* decolonization in home parenteral nutrition patients using topical ± systemic fusidic acid; terminated early at n = 63 — reason for early termination must be investigated before interpreting results |
-
-### Literature Evidence — Otitis Externa (Rank 3, Secondary Finding)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [807907](https://pubmed.ncbi.nlm.nih.gov/807907/) | 1975 | Veterinary Clinical Study | *Nordisk veterinaermedicin* | Evaluated a topical preparation containing Fucidin (fusidic acid), framycetin, nystatin, and prednisolone in 235 canine ears with otitis externa; bacteriological sensitivity assessment included |
-| [20434850](https://pubmed.ncbi.nlm.nih.gov/20434850/) | 2010 | Veterinary Microbiological Survey | *Veterinary Microbiology* | Combined case series/case-control study of coryneform bacteria in canine otitis externa across referral hospitals in Denmark and the US; fusidic acid is active against coryneforms |
-| [12542200](https://pubmed.ncbi.nlm.nih.gov/12542200/) | 2002 | Observational Survey | *Acta Oto-laryngologica* | Assessed prevalence of community-acquired MRSA in discharging human ears; highlights MRSA as a pathogen in otorrhoea — relevant to fusidic acid's MRSA coverage |
-| [12437801](https://pubmed.ncbi.nlm.nih.gov/12437801/) | 2002 | Observational/Bacteriology | *Journal of Laryngology and Otology* | Prospective bacteriological study of 161 patients with otorrhoea in Taiwan; *S. aureus* found in 43.5% of isolates, with increasing MRSA trend noted |
-| [41148721](https://pubmed.ncbi.nlm.nih.gov/41148721/) | 2025 | Veterinary AMR Survey | *Antibiotics (Basel)* | AMR profiles of *S. pseudintermedius* in canine otitis externa and healthy dogs; discusses fusidic acid resistance implications and zoonotic potential |
-| [41594059](https://pubmed.ncbi.nlm.nih.gov/41594059/) | 2025 | Veterinary AMR Survey | *Antibiotics (Basel)* | Retrospective review of bacterial etiology and AMR in canine otitis externa and pyoderma in Serbia (2017–2024); multidrug resistance patterns described |
+|------|-----|------|------|---------|
+| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Largest case series of *Tsukamurella* ophthalmic infections, covering clinical spectrum, risk factors, treatment and outcome. It does not evaluate fusidic acid for exposure keratitis. |
 
 ---
 
 ## Canada Market Information
 
-Fusidic acid is currently **not registered in Canada**. No Drug Identification Numbers (DINs) have been issued.
+| DIN | Product Name |
+|---------|------|
+| 2243862 | FUCITHALMIC |
+| 586668 | FUCIDIN CREAM 2% |
+| 586676 | FUCIDIN OINTMENT 2% |
+| 2528096 | TARO-FUSIDIC ACID |
+| 2474883 | FUCIBET |
 
-> Fusidic acid (as sodium fusidate) is approved and commercially available in numerous other jurisdictions, including the United Kingdom (Fucidin®), Australia, and multiple EU member states. Its ophthalmic formulation (Fucithalmic® viscous eye drops) is approved in several European countries. Any Canadian commercialization would require a full New Drug Submission (NDS) to Health Canada.
+The Evidence Pack lists 5 of the 6 licences and gives no dosage form or approved indication text for them.
 
 ---
 
@@ -131,48 +94,21 @@ Fusidic acid is currently **not registered in Canada**. No Drug Identification N
 
 Please refer to the package insert for safety information.
 
-> Health Canada package insert data (warnings, contraindications, and drug interactions) were not available in this evidence pack. Based on international labels, known safety concerns include hepatotoxicity with prolonged systemic use, contact sensitization with topical formulations, and the risk of resistance emergence when used as monotherapy against *S. aureus*. No drug interaction data was identified in this analysis.
-
 ---
 
 ## Conclusion and Next Steps
 
-### Primary Prediction: Exposure Keratitis (Rank 1)
-
 **Decision: Hold**
 
 **Rationale:**
-The sole retrieved publication addresses a pathogen (*Tsukamurella* spp.) with no mechanistic link to fusidic acid, and no clinical trials exist for this indication. Mechanistic plausibility exists via anti-staphylococcal ophthalmic use, but is currently unverified by direct clinical data.
+The prediction score is very high, but there are no clinical trials and the only publication does not address fusidic acid. The mechanism is only an indirect anti-infective link, since exposure keratitis is mainly non-infectious.
 
-**To advance this indication, the following is needed:**
-- Targeted clinical studies or retrospective analyses of fusidic acid ophthalmic formulation in exposure keratitis
-- MOA data from DrugBank (data gap DG002)
-- Health Canada package insert safety data (data gap DG001)
-- Assessment of European ophthalmic approval (Fucithalmic®) as a regulatory bridge
-
----
-
-### Priority Finding: Post-bacterial Disorder / ABSSSI (Rank 5)
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-NCT02570490 (Phase 3, n = 716, completed, double-blind, multicenter) provides L2-level evidence for oral sodium fusidate in ABSSSI — the highest-quality evidence in this entire evidence pack. Clinically, this represents validation of fusidic acid's established antibacterial indication rather than a true novel repurposing, which is important for framing the regulatory strategy. NCT03173053 was terminated early and its findings cannot be relied upon without knowing the reason for termination.
-
-**To proceed:**
-- Obtain the full clinical study report for NCT02570490 and confirm primary endpoint outcomes
-- Investigate the reason for early termination of NCT03173053
-- Engage a Health Canada regulatory consultant to assess NDS requirements for systemic sodium fusidate
-- Define the target patient population (e.g., MRSA skin infections as a linezolid/daptomycin alternative)
-
----
-
-### Secondary Research Question: Otitis Externa (Rank 3)
-
-**Decision: Research Question**
-
-**Rationale:**
-Fusidic acid covers the major otitis externa pathogens (*S. aureus*, CA-MRSA, coryneform bacteria), and otic formulations exist in some markets. However, the 6 retrieved publications are predominantly veterinary in origin, with only 2 addressing human otorrhoea bacteriology (without evaluating fusidic acid therapeutically). This is a viable research avenue, but requires a dedicated human clinical trial before a development decision can be made.
+**To proceed, the following is needed:**
+- Health Canada package insert data (warnings, contraindications, approved indications), which is currently blocking safety screening
+- Detailed mechanism of action data
+- Evidence that fusidic acid, especially the ophthalmic product, benefits corneal disease with secondary staphylococcal infection
+- Consideration of better-supported predictions, such as otitis externa, in a separate evaluation
+- Verification of the target condition of the completed Phase 3 oral sodium fusidate trial [NCT02570490](https://clinicaltrials.gov/study/NCT02570490). It was linked to a different prediction (post-bacterial disorder) and probably addresses skin infection, an existing use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

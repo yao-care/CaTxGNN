@@ -2,7 +2,7 @@
 layout: default
 title: Eflornithine
 parent: Model Prediction Only (L5)
-nav_order: 267
+nav_order: 314
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,60 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eflornithine: From African Trypanosomiasis to Esotropia
+# Eflornithine: From Its Marketed Use (Indication Not Recorded) to Esotropia
 
 ## One-Sentence Summary
 
-Eflornithine (DFMO, α-difluoromethylornithine) is an established treatment for late-stage Human African Trypanosomiasis, acting by irreversibly inhibiting ornithine decarboxylase (ODC) to block polyamine biosynthesis.
-The TxGNN model predicts it may be effective for **Esotropia** (a convergent form of strabismus),
-however **0 clinical trials** and **0 publications** currently exist to support this specific direction.
+Eflornithine is an irreversible inhibitor of ornithine decarboxylase (ODC) and is marketed in Canada as VANIQA, but the record does not state its approved indication.
+The TxGNN model predicts it may be effective for **esotropia**, but there are **0 clinical trials** and **0 publications** for this prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available from Canadian regulatory data (no DINs); known established use: Human African Trypanosomiasis |
+|------|------|
+| Original Indication | Not stated in the Canadian licence record |
 | Predicted New Indication | Esotropia |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known published information, Eflornithine is an irreversible, mechanism-based inhibitor of ornithine decarboxylase (ODC) — the rate-limiting enzyme in the polyamine biosynthetic pathway. By depleting intracellular polyamines (putrescine, spermidine, spermine), eflornithine suppresses cell proliferation and survival. In the context of African trypanosomiasis, this polyamine depletion is selectively lethal to *Trypanosoma brucei*, earning eflornithine the nickname "the resurrection drug." The same ODC-inhibiting mechanism has also been explored for cancer chemoprevention (e.g., colorectal cancer) and, in topical formulation, for reducing unwanted facial hair (hirsutism).
+Eflornithine irreversibly inhibits ODC, the rate-limiting enzyme in polyamine synthesis, and so lowers cellular polyamine levels. The evidence retrieved here also identifies it as an established treatment for late-stage Gambian human African trypanosomiasis. The record does not list its approved indication in Canada.
 
-Esotropia is a neuromuscular ocular motility disorder in which one or both eyes turn inward due to imbalance in extraocular muscle tone and the underlying neural control pathways. The biological link between ODC inhibition and esotropia is not immediately apparent from current data. Polyamines do play roles in neuronal development and synaptic signalling, which could theoretically influence neuromuscular control of the extraocular muscles — but this connection has not been studied experimentally.
-
-This TxGNN prediction most likely reflects structural relationships within the knowledge graph (e.g., shared molecular targets or pathway neighbours) rather than a well-established pharmacological rationale. At this stage, it should be treated as a hypothesis-generating signal worthy of exploratory investigation, not a clinically actionable repurposing candidate.
+**No plausible mechanistic link to esotropia was identified.** Esotropia is a disorder of ocular motor alignment, and ODC or polyamine biology has no known role in it. The very high TxGNN score (99.85%, rank 3,522) is therefore a statistical output of the knowledge graph. It has no supporting clinical, preclinical or mechanistic evidence. On this basis the prediction should not be treated as an actionable repurposing lead.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Eflornithine in esotropia.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Eflornithine in esotropia.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Eflornithine currently has no approved products in Canada. There are 0 Drug Identification Numbers (DINs) on file, and the drug is not marketed in this jurisdiction. Safety, efficacy, and regulatory data would need to be sourced from approved markets (e.g., US FDA, EMA) before any Canadian application could be considered.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2243837 | VANIQA | Not recorded | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction data were available in this evidence pack.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -92,15 +91,19 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN prediction score (99.85%), the evidence level is L5 — meaning this is a model prediction only, with no supporting clinical trials or peer-reviewed literature for eflornithine in esotropia. Additionally, no mechanistic link has been established between ODC inhibition and the pathophysiology of strabismus, and the drug is not currently marketed in Canada.
+The esotropia prediction has L5 evidence only: no trials, no literature and no plausible mechanism. A high model score alone does not justify further investment.
 
-**To proceed, the following is needed:**
-- Mechanism of action (MOA) documentation and pharmacological profile from DrugBank or the approved package insert
-- Full safety data: warnings, contraindications, and drug interactions from FDA/EMA-approved labelling
-- Basic science or preclinical evidence exploring whether polyamine pathway disruption influences extraocular muscle function or ocular motor neurology
-- A systematic literature review for eflornithine in any ophthalmic or neuromuscular indication
-- Regulatory pathway scoping for Canadian market entry (given 0 current DINs)
-- Expert consultation with an ophthalmologist or strabismus specialist to assess biological plausibility
+**Other predictions in the same run:**
+- **Bovine trypanosomiasis** and **monoclonal gammopathy** reached L4 (preclinical or mechanistic evidence only) and are labelled "Research Question".
+- Bovine trypanosomiasis is the more biologically plausible of the two, because eflornithine already treats human African trypanosomiasis. Its supporting papers cover related parasites and parasite enzymes, not bovine Trypanosoma itself.
+- The monoclonal gammopathy evidence is old myeloma cell-line work and does not address premalignant states.
+- Neither is a clinical-stage candidate.
+
+**To proceed with any indication, the following is needed:**
+- The approved indication and dosage form for the Canadian licence (DIN 2243837)
+- The Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Mechanism of action data confirmed from DrugBank
+- For esotropia specifically, a credible mechanistic hypothesis and preclinical support; otherwise, deprioritise it in favour of the L4 candidates
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

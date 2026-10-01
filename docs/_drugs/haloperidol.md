@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Haloperidol
-parent: High Evidence (L1-L2)
-nav_order: 377
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 443
+evidence_level: L5
 indication_count: 10
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,86 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-Using the standard repurposing-evaluation format below. Note upfront: this Evidence Pack contains **10** TxGNN-predicted indications for haloperidol, but 9 of them (congenital disorder of glycosylation, retinal dystrophy, hydranencephaly, X‑linked myopia variants, CMT1G, polymicrogyria, atypical glycine encephalopathy) are rank-1–9 by raw TxGNN score yet carry **no supporting evidence and explicit "no biological plausibility" rationale**, scored L5/Hold. Only rank 10 — **manic bipolar affective disorder** — has real clinical trial and literature support (L1, Proceed with Guardrails). As the reviewer, I am reporting on that one actionable candidate and noting the others were screened out, rather than mechanically reporting on the top TxGNN-score (but evidence-free) hit.
-
----
-
-# Haloperidol: From Psychotic Disorders to Manic Episodes in Bipolar Affective Disorder
+# Haloperidol: From Antipsychotic Therapy to Congenital Disorder of Glycosylation with Defective Fucosylation
 
 ## One-Sentence Summary
 
-Haloperidol is a first-generation (typical) antipsychotic historically used to treat schizophrenia and other psychotic disorders via central dopamine D2 receptor antagonism (this evidence pack's formal `original_indications`/`original_moa` fields are a data gap, but the mechanism is well documented in the supporting literature below). Among 10 TxGNN-predicted indications screened, only **manic bipolar affective disorder** clears initial evidence review, supported by **9 clinical trials** and **20 publications**, with haloperidol repeatedly used as an active comparator/add-on in Phase 2–3 RCTs of antimanic therapy. The other 9 TxGNN predictions (rare congenital/structural/metabolic disorders) were rejected at screening (Hold) for lack of any mechanistic plausibility or supporting evidence.
-
----
+Haloperidol is a dopamine D2-antagonist antipsychotic that is already marketed in Canada. The TxGNN model ranks **congenital disorder of glycosylation with defective fucosylation** as its top new-indication prediction. There are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the graph model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia / acute psychotic disorders (well-established use; formal indication text is a data gap in this pack) |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L1 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Not listed in the Canadian licence records provided |
+| Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
+| TxGNN Prediction Score | 99.91% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 9 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed formal mechanism-of-action data (DrugBank MOA field) is not available in this evidence pack — this is flagged as a High-severity data gap (DG002). However, the clinical trial and literature evidence collected for this candidate consistently describes haloperidol as a typical (first-generation) antipsychotic whose principal pharmacological action is central dopamine D2 receptor antagonism.
+Currently, detailed mechanism of action data is not available in the source record. Haloperidol is known to be a high-affinity dopamine D2 receptor antagonist, and its efficacy as an antipsychotic is well established.
 
-Acute mania is pathophysiologically associated with mesolimbic dopaminergic hyperactivity. D2 receptor blockade is a well-established strategy for rapidly controlling the core symptoms of mania — psychomotor agitation, racing thoughts, and irritability — and this mechanism is shared with other antipsychotics already approved for bipolar mania (risperidone, olanzapine, aripiprazole). Critically, the trial evidence below does not show haloperidol being *tested* for mania as a novel target — it shows haloperidol already serving as the **active comparator** in the pivotal registration trials of those newer antipsychotics, meaning its antimanic efficacy is long-established in clinical practice rather than a genuinely new discovery. The repurposing rationale in this pack explicitly flags this: it recommends verifying at the source whether haloperidol's local product label already includes acute mania/agitation control, since in most jurisdictions it likely does.
-
-Of the remaining 9 TxGNN-predicted candidates in this evidence pack (rare congenital glycosylation disorders, retinal dystrophies, hydranencephaly, X-linked myopia variants, Charcot-Marie-Tooth disease type 1G, polymicrogyria, atypical glycine encephalopathy), none have any supporting clinical trial or literature evidence, and each rationale explicitly states there is no biological plausibility connecting D2 antagonism to these structural/genetic/metabolic conditions — in some cases (myopia, CMT1G) the mechanistic direction is arguably unfavorable. These were correctly scored L5/Hold and are not carried further in this report.
-
----
+We found no plausible link between D2 antagonism and fucosylation pathways. The disease is a rare inherited defect in protein glycosylation, and nothing in the available data suggests haloperidol would alter it. The very high score (99.91%) reflects the knowledge-graph structure and is not evidence of biological plausibility. This prediction should be treated as a model artifact unless independent evidence emerges.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00129220](https://clinicaltrials.gov/study/NCT00129220) | Phase 3 | Completed | 224 | Placebo- and haloperidol-controlled trial confirming olanzapine efficacy in manic/mixed bipolar I episodes; haloperidol as active comparator (Grade A relevance) |
-| [NCT00253162](https://clinicaltrials.gov/study/NCT00253162) | Phase 3 | Completed | 439 | Risperidone vs. placebo vs. haloperidol in manic episodes of bipolar I disorder, including 12-week maintenance comparison vs. haloperidol (Grade A) |
-| [NCT00253149](https://clinicaltrials.gov/study/NCT00253149) | Phase 3 | Completed | 158 | Risperidone add-on to mood stabilizers vs. placebo vs. haloperidol in mania, establishing haloperidol's role as add-on comparator (Grade A) |
-| [NCT00097266](https://clinicaltrials.gov/study/NCT00097266) | Phase 3 | Completed | 615 | Aripiprazole monotherapy vs. placebo in acute mania; antipsychotic-class context supporting antimanic mechanism (Grade B) |
-| [NCT04327843](https://clinicaltrials.gov/study/NCT04327843) | Phase 3 | Completed | 22 | Long-acting injectable antipsychotic + adherence program for chronic psychotic disorders in Tanzania; small sample, haloperidol's role needs confirmation (Grade B) |
-| [NCT00126009](https://clinicaltrials.gov/study/NCT00126009) | Phase 2 | Completed | 120 | Open-label valproate-amisulpride vs. valproate-haloperidol in bipolar I manic episode (Grade C) |
-| [NCT00767715](https://clinicaltrials.gov/study/NCT00767715) | Phase 4 | Terminated | 11 | Olanzapine vs. conventional antipsychotics (incl. haloperidol) in acute mania; terminated for under-recruitment (Grade C) |
-| [NCT03541031](https://clinicaltrials.gov/study/NCT03541031) | N/A | Unknown | 120 | Micronutrient/fish oil adjunct in bipolar disorder; no direct haloperidol mechanism link (Grade C) |
-| [NCT06049953](https://clinicaltrials.gov/study/NCT06049953) | N/A | Recruiting | 200 | Observational study of antenatal antipsychotic exposure and maternal/infant outcomes; not an efficacy trial (Grade C) |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [22134043](https://pubmed.ncbi.nlm.nih.gov/22134043/) | 2012 | RCT | Journal of Affective Disorders | Randomized, double-blind, placebo- and haloperidol-controlled trial of olanzapine in Japanese patients with manic/mixed bipolar I episode |
-| [369472](https://pubmed.ncbi.nlm.nih.gov/369472/) | 1979 | RCT | Archives of General Psychiatry | Double-blind controlled trial of lithium + haloperidol vs. placebo + haloperidol in excited schizoaffective disorder |
-| [3312180](https://pubmed.ncbi.nlm.nih.gov/3312180/) | 1987 | RCT | The Journal of Clinical Psychiatry | Double-blind controlled comparison of clonazepam vs. lithium vs. haloperidol in acute mania |
-| [34642461](https://pubmed.ncbi.nlm.nih.gov/34642461/) | 2022 | Systematic Review / Network Meta-analysis | Molecular Psychiatry | Network meta-analysis of double-blind RCTs for acute bipolar mania across antipsychotics including haloperidol |
-| [10343182](https://pubmed.ncbi.nlm.nih.gov/10343182/) | 1999 | Clinical Study | Neuropsychobiology | Lithium and haloperidol treatments differentially affect leukocyte G-protein signaling in bipolar affective disorder |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatrica Scandinavica | Evidence-based treatment recommendations for acute mania, including antipsychotic mood-stabilizer combinations |
-| [36789916](https://pubmed.ncbi.nlm.nih.gov/36789916/) | 2023 | Review | BMJ Mental Health | Comparison of antipsychotic dose equivalents between acute mania and schizophrenia |
-| [22070611](https://pubmed.ncbi.nlm.nih.gov/22070611/) | 2012 | Review | CNS Neuroscience & Therapeutics | Refractory bipolar disorder treatment strategies; recommends adding haloperidol/other antipsychotics for partial responders |
-| [19454110](https://pubmed.ncbi.nlm.nih.gov/19454110/) | 2007 | Review | BMJ Clinical Evidence | General overview of bipolar disorder management, mood swings between depression and mania |
-| [18344731](https://pubmed.ncbi.nlm.nih.gov/18344731/) | 2008 | Systematic Review | Journal of Clinical Psychopharmacology | Extrapyramidal side effects of antipsychotics (including haloperidol) in bipolar disorder vs. schizophrenia |
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Haloperidol currently has **no active product licenses on file** in this dataset — `market_status` is "Not marketed" (Not Marketed) with `total_licenses = 0`. No DIN-level product table can be produced from this Evidence Pack. This should be independently verified against Health Canada's Drug Product Database before any regulatory-facing decision, since haloperidol is a long-marketed generic in many jurisdictions and absence here may reflect a data collection gap rather than true non-availability.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 363669 | TEVA-HALOPERIDOL | — | — |
+| 713449 | TEVA-HALOPERIDOL | — | — |
+| 2366010 | HALOPERIDOL INJECTION | — | — |
+| 363677 | TEVA-HALOPERIDOL | — | — |
+| 363685 | TEVA-HALOPERIDOL | — | — |
 
----
+The dosage form and approved-indication fields are blank in the records provided. Only 5 of the 9 licences are listed.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Note: `safety.key_warnings` and `safety.contraindications` are recorded as data gaps in this pack, and the DDI query returned no results. This is flagged in `meta.data_gaps` as DG001 — "TFDA/label warnings and contraindications" — with **Blocking** severity, meaning this candidate cannot yet clear a full safety pre-screen (S1) despite the favorable efficacy evidence.)*
+## Other Predicted Indications Worth Noting
 
----
+Only one of the ten predictions has real supporting evidence: **manic bipolar affective disorder** (rank 10, TxGNN score 99.83%, evidence level L1). The other nine, including the top-ranked one above, have no trials and no relevant literature. Several of the retrieved papers, such as those on the orbit and extraocular muscles for rank 2, look like keyword matches.
+
+The mania evidence comes mainly from trials in which haloperidol was a comparator arm:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00253149](https://clinicaltrials.gov/study/NCT00253149) | Phase 3 | Completed | 158 | Risperidone vs placebo vs haloperidol as add-on to mood stabilizers in bipolar mania |
+| [NCT00253162](https://clinicaltrials.gov/study/NCT00253162) | Phase 3 | Completed | 439 | Flexible-dose risperidone vs placebo or haloperidol in manic episodes of bipolar I |
+| [NCT00129220](https://clinicaltrials.gov/study/NCT00129220) | Phase 3 | Completed | 224 | Placebo- and haloperidol-controlled olanzapine trial in manic or mixed episodes |
+| [NCT00126009](https://clinicaltrials.gov/study/NCT00126009) | Phase 2 | Completed | 120 | Valproate-amisulpride vs valproate-haloperidol in bipolar I mania |
+
+Supporting literature includes a 2022 network meta-analysis of double-blind RCTs in bipolar mania ([34642461](https://pubmed.ncbi.nlm.nih.gov/34642461/), *Molecular Psychiatry*) and a Japanese placebo- and haloperidol-controlled olanzapine RCT ([22134043](https://pubmed.ncbi.nlm.nih.gov/22134043/), *Journal of Affective Disorders*).
+
+This is largely an already-recognized antimanic use and not a novel repurposing signal. Also, haloperidol is the comparator in these trials, not the primary study drug.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold** (for the top-ranked prediction, congenital disorder of glycosylation with defective fucosylation)
 
 **Rationale:**
-Haloperidol has strong, consistent trial and literature support (L1 evidence: ≥2 completed Phase 3 RCTs with haloperidol as active comparator) for a role in controlling acute mania in bipolar affective disorder, sharing a plausible D2-antagonism mechanism with already-approved antimanic antipsychotics. However, this likely reflects an **existing, well-established clinical use** rather than a novel repurposing opportunity, and a Blocking data gap on formal safety/label information (DG001) prevents full regulatory sign-off at this stage.
+The prediction has no clinical, literature or mechanistic support, and it sits at evidence level L5. The high TxGNN score alone does not justify further investment. The mania indication is better supported (Proceed with Guardrails), but it is not a new use.
 
 **To proceed, the following is needed:**
-- Retrieve official label warnings/contraindications for haloperidol (resolves Blocking gap DG001) before advancing past S1 safety pre-screen
-- Confirm DrugBank/formal MOA record (resolves High-severity gap DG002) to complete mechanistic documentation
-- Verify current Health Canada marketing/licensing status directly (this pack shows 0 licenses, which should be confirmed rather than assumed, given haloperidol's broad generic availability elsewhere)
-- Clarify whether "manic bipolar affective disorder" is already an approved/labeled indication in the relevant jurisdiction — if so, this is a label-extension/formulary confirmation exercise rather than a true repurposing case
-- No further action needed on the other 9 TxGNN-predicted indications in this pack; they remain correctly held at L5/Hold pending any future evidence
+- For the glycosylation disorder: a credible mechanistic hypothesis and preclinical data. Without these, the prediction should be deprioritized.
+- For mania: confirmation of Canadian labeling status. The original-indication fields are empty in the current records.
+- Health Canada package insert warnings and contraindications, which are missing and block safety screening.
+- Mechanism of action data from DrugBank.
+- A safety plan covering extrapyramidal symptoms, QT prolongation and tardive dyskinesia, using guideline-based dosing.
+
+*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,15 +2,15 @@
 layout: default
 title: Eptinezumab
 parent: Moderate Evidence (L3-L4)
-nav_order: 288
-evidence_level: L3
+nav_order: 338
+evidence_level: L4
 indication_count: 1
 ---
 
 # Eptinezumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,87 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Eptinezumab (Vyepti®) is an intravenous anti-CGRP monoclonal antibody approved by the FDA for preventive treatment of episodic and chronic migraine in adults, though it has not yet received Health Canada approval.
-The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura (MBA)**, a distinct migraine subtype characterized by brainstem-originating neurological symptoms preceding headache,
-with **no registered clinical trials** specifically targeting this subtype but **8 publications** — including 1 post-hoc RCT analysis directly evaluating eptinezumab in aura patients — currently supporting this direction.
+Eptinezumab (brand name VYEPTI) is an intravenous anti-CGRP monoclonal antibody used for migraine prevention.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
+but there are currently **0 registered clinical trials** and **7 publications** for this direction. None of the publications tests this specific subtype.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not approved in Canada; FDA-approved for episodic and chronic migraine prevention |
-| Predicted New Indication | Migraine with Brainstem Aura |
+|------|------|
+| Original Indication | Migraine prevention (the Canadian license records supplied contain no indication text) |
+| Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank query in this Evidence Pack. Based on known information from the retrieved literature, eptinezumab is a humanized IgG1 monoclonal antibody that targets calcitonin gene-related peptide (CGRP) — a potent neuropeptide vasodilator released from trigeminal nerve terminals during migraine attacks. By binding free circulating CGRP with high affinity before it can engage its receptor, eptinezumab interrupts the trigeminal neurovascular cascade that drives migraine pain. Its intravenous route achieves immediate therapeutic plasma concentrations, distinguishing it pharmacokinetically from subcutaneous CGRP antibodies and potentially providing more complete CGRP blockade in the early post-infusion window.
+Detailed mechanism of action data is not available in the input. Based on known information, eptinezumab is an intravenous monoclonal antibody that blocks CGRP (calcitonin gene-related peptide). CGRP is a central signalling molecule in migraine, and blocking it is the basis of its use in migraine prevention.
 
-Migraine with Brainstem Aura (formerly termed basilar-type migraine) is characterized by aura symptoms originating from the brainstem — including dysarthria, diplopia, tinnitus, vertigo, ataxia, and decreased consciousness — preceding headache. CGRP is well-established as a key mediator in brainstem trigeminal pathways, and cortical spreading depression-like activity in this region triggers CGRP release from trigeminal afferents. Because eptinezumab acts systemically by neutralizing circulating CGRP before it binds receptors, its mechanism is directly applicable to aura subtypes involving trigeminal CGRP release. A post-hoc analysis of the PROMISE-1 and PROMISE-2 phase 3 RCTs (PMID 35302389) showed eptinezumab was efficacious and safe in migraine patients with self-reported aura, providing the most direct human evidence for this prediction.
+Migraine with brainstem aura is a migraine subtype, so the prediction is plausible in principle. A post hoc analysis of the PROMISE-1 and PROMISE-2 trials suggests eptinezumab works in patients with self-reported aura. Case reports and reviews suggest anti-CGRP agents may also help in aura and in genetic migraine disorders.
 
-An important mechanistic caveat, however, is raised by a 2025 RCT (PMID 40229719): PACAP38-induced migraine attacks appear to occur via CGRP-independent pathways. This suggests a subset of MBA attacks — possibly those driven by PACAP38 — may not respond to anti-CGRP therapy. Additionally, the brainstem aura subtype was historically considered a relative contraindication to triptans (due to vasoconstrictive concerns in the basilar territory), a safety context that may warrant careful evaluation before extending eptinezumab use to this population. Overall, the mechanistic rationale is strong but carries unresolved subtype-specific uncertainty that prospective evidence would need to address.
+Two cautions apply:
+
+- **The score reflects graph proximity, not subtype evidence.** The very high TxGNN score most likely reflects closeness to the general migraine class in the knowledge graph. No supplied trial or paper tests eptinezumab specifically in brainstem aura.
+- **CGRP blockade may not cover every mechanism.** A randomized provocation study found that PACAP38-induced migraine attacks are independent of CGRP signalling, so CGRP blockade may not address every migraine pathway.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically for eptinezumab in migraine with brainstem aura are registered on ClinicalTrials.gov or ICTRP.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT | J Headache Pain | PACAP38-induced migraine attacks occur via CGRP-independent mechanisms; signals that some MBA attacks may fall outside the scope of anti-CGRP therapy |
-| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Post-hoc RCT Analysis | Cephalalgia | Eptinezumab demonstrated efficacy and safety for migraine prevention in patients with self-reported aura in PROMISE-1 and PROMISE-2; most direct evidence for aura subtype applicability |
-| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Clinical/Genetic Study | Headache | Two cases of genetic migraine disorders with chronic migraine and visual aura responded to CGRP antagonist therapy, supporting broader aura population applicability |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Case Reports + Literature Review | J Clin Medicine | Anti-CGRP mAbs including eptinezumab may reduce aura frequency alongside headache; cortical spreading depression inhibition proposed as secondary mechanism |
-| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Case Report | Rev Neurol | Eptinezumab successfully managed wearing-off effect in chronic migraine with aura refractory to two subcutaneous CGRP antibodies, demonstrating utility in aura patients who fail other CGRP agents |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handb Exp Pharmacol | Comprehensive review of CGRP's mechanistic role in migraine including aura subtypes and trigeminal neurovascular activation; foundational rationale for CGRP-targeted therapies |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Review | Pain Management | Positions eptinezumab within the landscape of new migraine preventive therapies, detailing CGRP neurovascular hypothesis and clinical trial data from PROMISE program |
-| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Review | Cureus | CGRP antagonists reviewed for episodic and chronic migraine with aura; eptinezumab highlighted among approved preventive options with favourable rapid-onset profile |
+|------|-----|------|------|---------|
+| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Post hoc analysis of RCTs | Cephalalgia | Post hoc subgroup analysis of PROMISE-1 and PROMISE-2 of eptinezumab efficacy and safety for migraine prevention in patients with self-reported aura |
+| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT (mechanistic provocation study) | J Headache Pain | PACAP38-induced migraine attacks appear independent of CGRP signalling, a caution that CGRP blockade may not cover every migraine mechanism |
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Case reports and literature review | J Clin Med | Reviews whether anti-CGRP antibodies help with migraine aura, noting scarce information on aura prevention |
+| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Observational / case series | Headache | Two cases of genetic conditions with prominent migraine (including MELAS with chronic migraine) that responded to CGRP antagonist therapy |
+| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Case report | Rev Neurol | A woman with migraine with aura, transformed to chronic migraine, had a wearing-off effect with subcutaneous CGRP antibodies and was managed with eptinezumab |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handb Exp Pharmacol | Reviews the role of CGRP in migraine pathophysiology |
+| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Review | Cureus | Reviews CGRP antagonists in episodic and chronic migraine |
 
 ---
 
 ## Canada Market Information
 
-Eptinezumab has not received Health Canada approval and currently has no Drug Identification Numbers (DINs) in Canada. There are no licensed products to list. Clinicians seeking prescribing information should refer to the FDA-approved Vyepti® US prescribing information or Health Canada's Special Access Programme for compassionate use.
+| DIN | Product Name |
+|---------|------|
+| 2542269 | VYEPTI |
+| 2510839 | VYEPTI |
 
 ---
 
 ## Safety Considerations
 
-Safety labelling data specific to a Health Canada submission is not available, as the drug is not approved in Canada. No drug-drug interactions were identified in the evidence pack query.
-
-Please refer to the FDA Vyepti® (eptinezumab-jjmr) package insert for current warnings, contraindications, and interaction data. Key areas to review include hypersensitivity reactions (anaphylaxis and angioedema have been reported post-infusion) and the historical caution around brainstem aura subtypes given older vasoconstrictive migraine therapies.
+Please refer to the package insert for safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Post-hoc analyses of two Phase 3 RCTs confirm eptinezumab's efficacy and safety in aura-positive migraine patients, and the CGRP mechanistic rationale extends logically to the brainstem aura subtype — however, no prospective trial has specifically enrolled MBA patients, a 2025 RCT reveals CGRP-independent attack pathways that could limit response in a subset of MBA cases, and the drug is not yet approved in Canada, creating regulatory and safety documentation gaps.
+The prediction is biologically plausible, since the drug is already marketed for migraine prevention and targets CGRP. However, no clinical trial or publication tests eptinezumab in migraine with brainstem aura. The evidence is limited to a post hoc aura subgroup analysis, case reports and reviews. This makes it a research question rather than an actionable candidate.
 
 **To proceed, the following is needed:**
-
-- **Prospective trial evidence**: Design or identify a registry or clinical trial specifically enrolling migraine with brainstem aura patients receiving eptinezumab, with brainstem aura frequency as a primary endpoint
-- **Health Canada regulatory pathway**: Initiate or track the New Drug Submission (NDS) process for eptinezumab in Canada; coordinate with Health Canada for labelling review
-- **Complete MOA documentation**: Retrieve full mechanism of action data from DrugBank API to support the mechanistic dossier
-- **CGRP vs. PACAP38 subtyping**: Identify biomarkers or clinical features that distinguish CGRP-driven MBA from PACAP38-driven MBA to define the optimal responding patient population
-- **Safety dossier for MBA subtype**: Review historical triptan contraindication rationale in brainstem aura to assess whether any analogous caution applies to CGRP pathway inhibition, and document Canadian-specific labelling requirements upon regulatory submission
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Detailed mechanism of action data, for example from DrugBank
+- Approved indication text for the two Canadian licences, to confirm the original indication
+- Subtype-specific evidence, such as subgroup data on brainstem aura from existing eptinezumab trials or a dedicated study
+- A review of the PACAP38 finding to judge which patients are unlikely to respond to CGRP blockade
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

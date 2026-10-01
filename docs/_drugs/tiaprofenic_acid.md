@@ -2,7 +2,7 @@
 layout: default
 title: Tiaprofenic Acid
 parent: Model Prediction Only (L5)
-nav_order: 773
+nav_order: 905
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tiaprofenic Acid: From NSAID Anti-Inflammatory Therapy to Brachydactyly-Syndactyly Syndrome
+# Tiaprofenic Acid: From Anti-Inflammatory (NSAID) Use to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-> Tiaprofenic acid is a propionic-acid class NSAID (COX-1/2 inhibitor), though its specific original approved indication is not captured in the current dataset.
-> The TxGNN model predicts a possible association with **Brachydactyly-Syndactyly Syndrome**, a rare congenital limb-development disorder,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+Tiaprofenic acid is a nonsteroidal anti-inflammatory drug (NSAID) that is currently marketed in Canada. The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a congenital limb malformation, but **0 clinical trials** and **0 publications** support this prediction. It is a computational signal only and is not credible on mechanistic grounds.
 
 ---
 
@@ -43,49 +41,51 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — drug is not marketed in Canada and no license/indication text exists in this dataset (drug class inferred as propionic-acid NSAID from evidence context) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug in the evidence pack. Based on contextual information embedded in the rationale fields, tiaprofenic acid belongs to the propionic-acid class of NSAIDs, acting through COX-1/2 inhibition — a mechanism typically applied to inflammatory and pain-related conditions.
+Currently, detailed mechanism of action data is not available. Tiaprofenic acid belongs to the NSAID class, which acts by inhibiting cyclooxygenase (COX). This is a class-level assumption, not confirmed by the supplied data. The Canadian licence records also contain no approved indication text.
 
-However, the evidence pack's own mechanistic assessment for the top-ranked prediction is explicitly negative: brachydactyly-syndactyly syndrome is a structural, genetically-driven limb-development disorder, and the rationale states there is **no plausible pathophysiological connection** to NSAID/COX-inhibition pharmacology. This pattern repeats across nearly all 10 ranked candidates in this pack — most are rare skeletal, ocular, or coagulation-related genetic syndromes with rationale text explicitly noting "no mechanistic relevance" or only weak, indirect associations (e.g., secondary joint pain in skeletal dysplasias). Only rank 6 (spondyloarthropathy susceptibility) and rank 10 (pseudoachondroplasia) note any plausible symptomatic rationale (joint pain/inflammation), and even these are caveated as lacking direct supporting evidence.
+On this basis the prediction is **not credible**. Brachydactyly-syndactyly syndrome is a congenital limb malformation of developmental genetic origin. An NSAID would not be expected to alter a structural developmental defect. The high score (0.9999, model rank 259) is most likely an artifact of the knowledge graph.
 
-In short, this set of predictions appears to reflect knowledge-graph embedding similarity rather than a biologically grounded repurposing signal. All 10 candidates are rated **L5 (model prediction only)**, with zero corroborating trials or literature.
+The other nine top-ranked predictions show the same pattern. Most are rare genetic skeletal or developmental disorders (such as brachyolmia and pseudoachondroplasia) or thrombophilias (factor 5 excess, heparin cofactor 2 deficiency). None has a plausible link to COX inhibition, and none has any trial or literature support.
+
+The one exception is **spondyloarthropathy, susceptibility to** (rank 6, score 99.99%). NSAIDs are widely used for symptom control in inflammatory spondyloarthropathies. However, this entry is a genetic susceptibility term rather than a treatable clinical condition, and the supplied data contain no evidence for tiaprofenic acid in it. It is flagged as a research question only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-This drug is not currently marketed in Canada (0 DINs on record). No license or product information is available in this dataset.
+| DIN | Product Name |
+|---------|------|
+| 2179679 | TEVA-TIAPROFENIC ACID |
+| 2179687 | TEVA-TIAPROFENIC ACID |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: Key warnings, contraindications, and drug-interaction data are flagged as a Blocking data gap in this evidence pack — see below.)*
 
 ---
 
@@ -94,13 +94,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All 10 ranked predictions are L5 evidence (model prediction only), with zero clinical trials or literature support, and the top-ranked candidate's own mechanistic rationale states there is no plausible pathophysiological link between the drug's NSAID mechanism and the predicted rare genetic syndrome. Combined with the drug's absence from the Canadian market and a Blocking-severity safety data gap, this candidate does not meet the threshold to advance past initial screening.
+The prediction is supported only by the TxGNN score, with no trials, no literature and no plausible mechanism for a congenital limb malformation. Evidence is at L5, the lowest level.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications, DDI) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (DG002)
-- Any preclinical or case-level evidence directly linking tiaprofenic acid to skeletal/connective-tissue or genetic-syndrome pathways, if this candidate is to be re-evaluated
-- Given the absence of supporting evidence across all 10 candidates, consider deprioritizing this drug in favor of candidates with higher evidence levels (L1–L3)
+- Health Canada package insert warnings and contraindications (a blocking gap for any safety screening)
+- Mechanism of action data from DrugBank
+- A targeted literature search on tiaprofenic acid in spondyloarthritis and ankylosing spondylitis, the only candidate with a plausible class-level rationale
+- Confirmation of the approved indications and dosage forms for the two Canadian DINs
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

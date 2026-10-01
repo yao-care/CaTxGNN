@@ -2,7 +2,7 @@
 layout: default
 title: Methotrimeprazine
 parent: Moderate Evidence (L3-L4)
-nav_order: 508
+nav_order: 596
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,99 +29,100 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Methotrimeprazine: From Psychiatric Agitation / Psychosis to Manic Bipolar Affective Disorder
+# Methotrimeprazine: From Antipsychotic Use to Manic Bipolar Affective Disorder
 
 ## One-Sentence Summary
 
-Methotrimeprazine (levomepromazine) is a first-generation phenothiazine antipsychotic with documented use in acute psychiatric agitation and psychotic disorders, though no current marketing authorization (DIN) is on record in Canada in this dataset.
-The TxGNN model predicts it may be effective for **Manic Bipolar Affective Disorder**, currently supported by **0 clinical trials** and **20 publications** — the majority of which are indirect, historical, or describe broad psychiatric agitation rather than confirmed bipolar mania.
-The mechanistic rationale is plausible given its D2 antagonism, but direct evidence for this specific indication remains at the preclinical/mechanistic level only.
+Methotrimeprazine (levomepromazine) is a phenothiazine-class psychotropic drug marketed in Canada, but the records provided list no approved indication text.
+The TxGNN model predicts it may be effective for **manic bipolar affective disorder**.
+Currently **0 registered clinical trials** and **20 publications** are linked to this prediction, mostly uncontrolled reports from the 1960s, so the evidence is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No formal Canada DIN on record; known pharmacological use in psychotic disorders and palliative sedation |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
+|------|------|
+| Original Indication | Not stated in the Health Canada license records provided |
+| Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L4 |
-| Canada Market Status | Not marketed (0 DINs) |
-| Number of DINs | 0 |
-| Recommended Decision | Research Question |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this dataset. Based on known pharmacological properties, methotrimeprazine is a phenothiazine derivative with broad receptor-blocking activity: it acts primarily as a D2 dopamine receptor antagonist, placing it in the same therapeutic class as haloperidol, chlorpromazine, and other first-generation antipsychotics. It also possesses significant H1 antihistamine and α1 adrenergic blocking activity, which account for its pronounced sedative and anxiolytic profile — a characteristic that distinguishes it within its class.
+Detailed mechanism of action data is not available in the input. Based on class knowledge, methotrimeprazine is a phenothiazine that blocks dopamine D2, serotonin 5-HT2A, histamine H1, alpha-1 adrenergic and muscarinic receptors. Antipsychotics with this profile are widely used to control acute mania and agitation, and the sedating H1 and alpha-1 activity is particularly relevant in agitated patients.
 
-Manic bipolar affective disorder (acute mania) is conventionally managed with D2 antagonists, including both typical antipsychotics (haloperidol) and atypical agents (olanzapine, quetiapine, aripiprazole). The pharmacological overlap is therefore mechanistically coherent: the same D2 blockade that underlies these approved antimanic treatments is present in methotrimeprazine. The added sedative burden from H1 and α1 blockade may offer an adjunctive advantage in controlling acute manic agitation, particularly in inpatient settings.
-
-However, the specificity of existing evidence is critically low. Most publications in this dataset were produced in the 1960s–1990s and describe broad psychiatric agitation, depressive conditions, or unspecified psychosis rather than confirmed bipolar mania. The TxGNN model's high prediction score most likely reflects class-level D2 pharmacological overlap with approved antimanic agents in the knowledge graph — not a validated efficacy signal derived from bipolar mania studies. An important safety flag also appears in this indication context: a case report (PMID 990658) documents fatal pancytopenia in a manic patient receiving levomepromazine combined with lithium and diazepam, which is directly relevant to typical co-medication scenarios in bipolar management.
+The literature retrieved for this prediction mostly covers "acutely disturbed" patients and mixed mood and psychotic conditions. Nothing found is a controlled study specific to mania. The prediction is mechanistically plausible, but the drug-specific evidence for mania is thin.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for methotrimeprazine in manic bipolar affective disorder.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+Only the publications most relevant to mania or mood disorders are listed below. Most have no abstract, so the findings are summarized from the titles.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [14129294](https://pubmed.ncbi.nlm.nih.gov/14129294/) | 1964 | Clinical Case Series | Am J Psychiatry | Methotrimeprazine used to control acutely disturbed psychiatric patients; describes sedative and antipsychotic effects in acute agitation contexts |
-| [14112288](https://pubmed.ncbi.nlm.nih.gov/14112288/) | 1963 | Systematic Pharmacological Study | J Neuropsychiatry | Broad systematic studies of levomepromazine across psychiatric indications; foundational pharmacological characterization |
-| [990658](https://pubmed.ncbi.nlm.nih.gov/990658/) | 1976 | Case Report (Safety) | Br J Psychiatry | Fatal pancytopenia in a manic patient treated with levomepromazine + lithium + diazepam; critical safety signal for bipolar co-treatment scenarios |
-| [1355693](https://pubmed.ncbi.nlm.nih.gov/1355693/) | 1992 | Prospective Safety Study | Br J Psychiatry | Prospective NMS risk study in 223 psychiatric inpatients; overall NMS incidence 2.2%; levomepromazine among implicated neuroleptics |
-| [2404521](https://pubmed.ncbi.nlm.nih.gov/2404521/) | 1990 | Clinical Study (indirect) | Biol Psychiatry | RS-86 in manic disorder; indirect pharmacological comparator study in a bipolar mania population |
-| [991806](https://pubmed.ncbi.nlm.nih.gov/991806/) | 1976 | Clinical Study (indirect) | L'Encéphale | Sequential neuroleptic–viloxazine association for melancholic/manic-depressive psychosis; neuroleptic used for manic state control |
-| [14116226](https://pubmed.ncbi.nlm.nih.gov/14116226/) | 1964 | Pharmacological Interaction Study | Compr Psychiatry | Phenothiazine potentiation by nylidrin; class-level mechanistic data applicable to methotrimeprazine |
-| [6127880](https://pubmed.ncbi.nlm.nih.gov/6127880/) | 1982 | Biomarker Study (indirect) | Acta Psychiatr Scand | Diurnal MHPG variation in bipolar vs unipolar depressives; noradrenergic context relevant to drug class effects in mood disorders |
-| [4773193](https://pubmed.ncbi.nlm.nih.gov/4773193/) | 1973 | Clinical Study (indirect) | Curr Med Res Opin | Lorazepam for severe anxiety and psychotic conditions; levomepromazine appears as comparator agent in psychotic agitation management |
-| [13711471](https://pubmed.ncbi.nlm.nih.gov/13711471/) | 1961 | Clinical Study | Orvosi Hetilap | Historical levomepromazine use in depressive states; earliest clinical series establishing use across mood-spectrum presentations |
+|------|-----|------|------|---------|
+| [14129294](https://pubmed.ncbi.nlm.nih.gov/14129294/) | 1964 | Clinical report | Am J Psychiatry | Methotrimeprazine for control of acutely disturbed patients (no abstract available) |
+| [14112288](https://pubmed.ncbi.nlm.nih.gov/14112288/) | 1963 | Clinical report | J Neuropsychiatry | Early systematic clinical studies with levomepromazine (no abstract available) |
+| [1355693](https://pubmed.ncbi.nlm.nih.gov/1355693/) | 1992 | Cohort | Br J Psychiatry | Prospective study of neuroleptic malignant syndrome in 223 psychiatric inpatients; full NMS incidence was 2.2% (5/223) |
+| [990658](https://pubmed.ncbi.nlm.nih.gov/990658/) | 1976 | Case report | Br J Psychiatry | Fatal pancytopenia in a patient with a manic episode treated with levomepromazine, diazepam and lithium |
+| [991806](https://pubmed.ncbi.nlm.nih.gov/991806/) | 1976 | Not classified | L'Encephale | Sequential neuroleptic-viloxazine treatment of melancholia in manic-depressive psychoses; quick and efficient in melancholic states |
+| [4419644](https://pubmed.ncbi.nlm.nih.gov/4419644/) | 1974 | Not classified | Ann Endocrinol | Water intoxication syndrome developing during a manic-depressive psychosis (no abstract available) |
+| [3605931](https://pubmed.ncbi.nlm.nih.gov/3605931/) | 1987 | Not classified | Ann Med Psychol | Clinical characteristics of mania of bereavement (no abstract available) |
+| [13711471](https://pubmed.ncbi.nlm.nih.gov/13711471/) | 1961 | Not classified | Orv Hetil | Therapy of depressive conditions with levomepromazine (no abstract available) |
 
 ---
 
 ## Canada Market Information
 
-No marketing authorizations for methotrimeprazine are on record in this dataset for Canada (0 DINs). The drug is not currently marketed.
-
-> **Note:** The repurposing rationale for the schizophrenia indication (Rank 4) references prior Canadian approval (alongside UK BNF listing and EU authorization). Any regulatory pathway analysis should verify whether historical DINs exist under the brand name Nozinan® or equivalent, as current database status may reflect voluntary market withdrawal rather than a lack of prior approval.
+| DIN | Product Name |
+|---------|------|
+| 2238406 | METHOPRAZINE |
+| 2238403 | METHOPRAZINE |
+| 1927698 | NOZINAN |
+| 2238405 | METHOPRAZINE |
+| 2238404 | METHOPRAZINE |
 
 ---
 
 ## Safety Considerations
 
-**Key safety signals identified from literature (no formal package insert data available for this dataset):**
+Please refer to the package insert for safety information. No drug interactions were found in the DrugBank query.
 
-- **Neuroleptic Malignant Syndrome (NMS):** A prospective study (PMID 1355693, n=223) documented a 2.2% NMS incidence in psychiatric inpatients treated with various neuroleptics including levomepromazine. NMS risk is a class-wide concern for all D2 antagonists and requires monitoring for hyperthermia, rigidity, altered consciousness, and autonomic instability.
-- **Fatal Pancytopenia:** A case report (PMID 990658) describes fatal pancytopenia in a manic patient receiving levomepromazine combined with lithium carbonate and diazepam. This is a directly relevant safety signal for the manic bipolar indication, where lithium co-administration is standard of care.
-- **Corneal Deposits and Lens Opacities:** Long-term phenothiazine use has been associated with anterior corneal and lens deposits (PMID 21060765), as confirmed in schizophrenia patients on extended methotrimeprazine therapy.
-- **Retrograde Ejaculation:** Reported as an adverse effect in male patients (PMID 22450639), relevant to shared prescribing decisions.
-
-Please refer to the package insert (currently not available in this dataset) for the full list of warnings, contraindications, and drug interactions. Health Canada product monograph review is required before any clinical consideration.
+Safety signals reported in the retrieved literature, not from labeling:
+- **Neuroleptic malignant syndrome**: reported with antipsychotics generally, including in a prospective inpatient study.
+- **Pancytopenia**: a fatal case with levomepromazine was reported in a manic patient, who was also taking diazepam and lithium.
+- **Ocular effects**: corneal deposits and cataract were reported in a case report.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-While the D2 antagonist mechanism of methotrimeprazine provides a theoretically coherent basis for antimanic activity, there are no registered clinical trials and no direct prospective studies addressing manic bipolar affective disorder. The 20 PubMed publications are predominantly historical (pre-1980s), methodologically weak, and address broad psychiatric agitation rather than confirmed bipolar mania. A specific safety signal — fatal pancytopenia with levomepromazine + lithium — directly relevant to this indication's standard co-treatment adds a Blocking concern. The drug is also not currently marketed in Canada.
+Support for the manic bipolar affective disorder prediction is a very high model score (99.90%) plus class-level mechanistic plausibility. There are no registered trials, and the literature is dated and uncontrolled, with no mania-specific efficacy data.
+
+Other predictions for this drug have stronger support:
+- **Schizophrenia** (L2): includes a randomized trial against risperidone and haloperidol and Cochrane reviews.
+- **Headache disorder** (L2): a randomized trial in severe migraine.
 
 **To proceed, the following is needed:**
-
-- **MOA clarification:** Query DrugBank API for receptor binding profile (D2, H1, α1, M1 affinity constants) to formally establish mechanistic link
-- **Safety data retrieval:** Download and parse the Health Canada product monograph (or equivalent international SPC, e.g., UK Nozinan® SmPC or French Nozinan® RCP) to identify formal contraindications, warnings, and DDI profile
-- **Literature audit:** Screen all 20 PubMed records for studies specifically enrolling DSM/ICD-confirmed bipolar I manic patients (vs. broad psychotic agitation) to reassess effective evidence count
-- **Lithium interaction assessment:** Formally evaluate the levomepromazine + lithium pancytopenia risk given lithium's central role in bipolar maintenance therapy
-- **Regulatory pathway review:** Confirm whether any historical Canadian DINs existed (e.g., Nozinan®) and whether a label extension pathway is viable vs. a new drug submission requirement
-- **Comparative positioning:** Consider whether the schizophrenia indication (Rank 4, L2 evidence, two Cochrane systematic reviews) offers a more viable initial regulatory target before pursuing the bipolar mania expansion
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening.
+- Mechanism of action data from DrugBank.
+- The approved indications for the 5 Canadian DINs, to confirm the original indication and any existing labeled use.
+- Controlled or modern comparative evidence in acute mania, and a plan for monitoring NMS and blood counts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Finasteride
 parent: Model Prediction Only (L5)
-nav_order: 330
+nav_order: 385
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,55 +29,63 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Finasteride: From Androgenetic Alopecia / BPH to Ambras Type Hypertrichosis Universalis Congenita
+# Finasteride: From Established Androgen-Dependent Uses to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Finasteride is a well-established 5-alpha reductase inhibitor (5-ARI) used globally for male androgenetic alopecia and benign prostatic hyperplasia (BPH), though no product is formally registered in this market based on available regulatory data.
-The TxGNN model predicts it may be effective for **Ambras Type Hypertrichosis Universalis Congenita** — a rare congenital condition of excessive whole-body hair growth — with **no clinical trials** and **no publications** currently supporting this direction.
-The mechanistic rationale is fundamentally contradictory: finasteride suppresses DHT-driven hair follicle activity (treating hair *loss*), while Ambras syndrome is a chromosomal structural disorder causing non-androgenic hair *overproduction*.
+Finasteride is a 5-alpha reductase inhibitor. The Evidence Pack does not list its approved indications, but its known hair-related use is in androgen-dependent conditions such as male pattern hair loss.
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+The mechanistic assessment suggests the prediction is unlikely to hold.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in this market (globally recognized for: androgenetic alopecia, BPH) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.994% |
-| Evidence Level | L5 — Model prediction only, no supporting studies |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+|------|------|
+| Original Indication | Not listed in the Evidence Pack (all Canadian license entries have empty indication text) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism-of-action data was not returned by the evidence collection pipeline for this candidate. Based on established pharmacology, finasteride is a competitive inhibitor of 5-alpha reductase type II (and type I at higher doses), the enzyme that converts testosterone to dihydrotestosterone (DHT). By reducing circulating and tissue DHT levels, finasteride slows androgen-driven follicular miniaturization in male pattern hair loss and reduces prostate gland volume in BPH. Its clinical efficacy in these indications is extensively documented and globally recognized.
+Detailed mechanism-of-action data is not available in the database. Based on general pharmacology, finasteride inhibits type II/III 5-alpha reductase and lowers scalp and serum dihydrotestosterone (DHT). This is why it is used in androgen-dependent hair and prostate conditions.
 
-Ambras Syndrome (hypertrichosis universalis congenita of the Ambras type) is a structurally distinct biological entity caused by a paracentric inversion of chromosome 8q22, leading to dysregulated overexpression of hair growth signalling genes. This mechanism operates entirely outside the androgen/DHT axis: the affected follicles are not DHT-sensitive, and the excessive hair growth is not driven by androgen receptor activity. Lowering DHT via 5-ARI inhibition would have no corrective effect on a chromosomally determined hair phenotype.
+The link to the predicted indication is weak. Ambras syndrome is a congenital condition associated with genomic rearrangements at 8q22 that alter TRPS1 regulation. It is not androgen-dependent, so lowering DHT is unlikely to reverse it. The high graph score probably reflects shared hair-related nodes in the knowledge graph rather than a real biological connection.
 
-The directional mismatch is fundamental: finasteride is specifically designed to *reduce* androgenic hair follicle stimulation (treating hair loss), while Ambras syndrome involves non-androgenic hair *overproduction* secondary to a chromosomal structural defect. The high TxGNN score almost certainly reflects statistical co-occurrence of hair-phenotype nodes in the biomedical knowledge graph rather than a genuine causal pathway. There is no mechanistic hypothesis, no pre-clinical model, no clinical trial, and no publication that supports this repurposing direction.
+Overall, the mechanistic plausibility is low, and the score should be read as a model artifact until evidence shows otherwise.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials related to finasteride and Ambras type hypertrichosis universalis congenita are currently registered.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-No literature related to finasteride and Ambras type hypertrichosis universalis congenita is currently available.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-No Health Canada–approved products for finasteride are present in the current regulatory dataset (0 DINs returned). This finding may reflect a data pipeline gap rather than the true regulatory status; finasteride is authorized in numerous jurisdictions under brand names including Proscar® (5 mg, BPH) and Propecia® (1 mg, androgenetic alopecia). Clinicians and researchers should independently verify the current status via the Health Canada Drug Product Database before drawing regulatory conclusions.
+Health Canada lists 20 licenses in total. Dosage form, manufacturer and indication text are not recorded for the entries below.
+
+| DIN | Product Name |
+|---------|------|
+| 2339471 | SANDOZ FINASTERIDE A |
+| 2389878 | MINT-FINASTERIDE |
+| 2348500 | TEVA-FINASTERIDE |
+| 2374404 | AG-FINASTERIDE |
+| 2322579 | SANDOZ FINASTERIDE |
 
 ---
 
@@ -92,14 +100,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is a fundamental directional contradiction between finasteride's DHT-suppressing mechanism of action and the chromosomal/genetic aetiology of Ambras syndrome, compounded by a complete absence of clinical trial, pre-clinical, or published literature evidence supporting this repurposing hypothesis.
+The prediction has no supporting trials or literature (L5). The proposed indication is a congenital, non-androgen-dependent condition, so finasteride's DHT-lowering mechanism offers no clear basis for benefit.
 
-**To proceed, the following would be needed:**
-- Identification of any plausible biological pathway linking 5-alpha reductase inhibition to the paracentric inversion at 8q22 and downstream gene dysregulation in Ambras syndrome
-- Pre-clinical studies (in vitro or animal model) demonstrating that finasteride or DHT suppression produces any measurable effect on the Ambras syndrome hair phenotype
-- A mechanistic hypothesis that resolves the directional contradiction before any human study is contemplated
-- Verification of Health Canada regulatory data through the Drug Product Database to confirm actual DIN and approval status
-- Retrieval of full TFDA/Health Canada prescribing information to complete the safety profile (currently blocking)
+The other predictions for this drug are no stronger:
+- **Hypertrichosis (rank 2):** Evidence is indirect (L4). The one registered trial (NCT04293822, Phase 4, n=60) studies topical cetirizine versus minoxidil in androgenetic alopecia, not finasteride. The four retrieved reviews cover hair disorders in general and do not show finasteride efficacy in hypertrichosis. Androgen-dependent hirsutism is the more plausible neighbouring target and would need to be separated from true hypertrichosis.
+- **Periodontal/dental malformation syndrome (rank 3):** The retrieved literature is general periodontitis material that never mentions finasteride, and no mechanistic link was found.
+- **Dandy-Walker syndrome, isolated genetic hair shaft abnormality and familial isolated trichomegaly (ranks 4–6):** Prediction only, with no plausible biological rationale.
+
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data from DrugBank
+- Approved indication text for the Canadian licenses, to confirm the original indication
+- For any follow-up, a drug-specific literature search for finasteride in hirsutism, which is a better-founded question than the top-ranked prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

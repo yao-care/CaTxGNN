@@ -2,7 +2,7 @@
 layout: default
 title: Lapatinib
 parent: Model Prediction Only (L5)
-nav_order: 444
+nav_order: 520
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,70 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Lapatinib: From HER2+ Breast Cancer to Dermatofibrosarcoma Protuberans
+# Lapatinib: From an Unrecorded Original Indication to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Lapatinib is a dual EGFR/HER2 tyrosine kinase inhibitor originally used for HER2-positive breast cancer. The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**, but currently **no clinical trials** and **no published literature** support this specific pairing.
+Lapatinib is a dual EGFR/HER2 tyrosine kinase inhibitor marketed in Canada as TYKERB, but no original indication is recorded in the supplied data.
+The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**.
+This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on a computational score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2+ Breast Cancer (noted in evidence rationale; formal MOA/indication fields are a data gap) |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans |
+| Original Indication | Not recorded in the supplied data |
+| Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.30% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (data gap). Based on the information that is available, Lapatinib is known as a dual EGFR/HER2 tyrosine kinase inhibitor, and its efficacy in HER2-positive breast cancer is well established.
+Currently, detailed mechanism of action data is not available in the curated record. Lapatinib is known to inhibit both EGFR and HER2 tyrosine kinases, but the record has no original indications to check against.
 
-DFSP, however, is driven by a distinct mechanism: the COL1A1-PDGFB fusion gene causes PDGFB overexpression, which activates PDGFR-β signaling. The clinically validated targeted therapy for DFSP is imatinib, a PDGFR inhibitor — not an EGFR/HER2 inhibitor. Lapatinib does not directly inhibit PDGFR-β, so its known pharmacology does not overlap meaningfully with the established driver mechanism of DFSP.
+The biological link to DFSP is weak. DFSP is driven mainly by the COL1A1-PDGFB fusion, which activates PDGFRB signaling, and its established targeted therapy is a PDGFR-directed inhibitor (imatinib). The supplied data documents no reason to think DFSP depends on EGFR or HER2.
 
-The high TxGNN score (99.30%) most likely reflects the knowledge graph's broad clustering of tyrosine kinase inhibitors as a drug class, rather than target-specific mechanistic evidence linking lapatinib to DFSP. Combined with the complete absence of clinical trials or literature, and the drug currently having no marketing authorization in Canada, the mechanistic case for this prediction is weak.
+The high score (0.993) is a computational output from the knowledge graph, not clinical evidence. The relationship remains speculative until someone shows that EGFR/HER2 expression or pathway activity is relevant in DFSP tissue.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
-Lapatinib currently has no marketing authorization (DIN) in Canada (market status: not marketed), so no license records are available to summarize.
+| DIN | Product Name |
+|---------|------|
+| 2326442 | TYKERB |
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (dual EGFR/HER2 tyrosine kinase inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found for this drug in the queried data.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a TxGNN model score (Evidence Level L5), with zero clinical trials or literature, a mechanistic pathway (EGFR/HER2) that does not clearly overlap with the established DFSP driver (PDGFR-β), and no current Canadian market authorization for the drug.
+The prediction has no supporting trials or publications (Evidence Level L5). The mechanistic link is also doubtful, because DFSP is a PDGFRB-driven tumour with an established PDGFR-directed therapy and no documented EGFR/HER2 dependence.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label warnings and contraindications (currently a Blocking data gap, DG001)
-- Confirmed mechanism of action data for lapatinib (High-priority data gap, DG002)
-- Preclinical or case-level evidence specifically linking EGFR/HER2 inhibition to DFSP biology
-- Ongoing monitoring for new clinical trials or publications on this drug-disease pair
+- The Health Canada package insert (warnings and contraindications), which is a blocking gap for safety screening
+- Curated original indications and mechanism of action from DrugBank
+- Independent biological validation, such as EGFR/HER2 expression or pathway activity in DFSP tissue
+- Preclinical or clinical evidence for lapatinib in DFSP, including a comparison against imatinib
+- Assessment of route compatibility and similarity to the original indication (both currently pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

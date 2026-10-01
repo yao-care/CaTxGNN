@@ -2,7 +2,7 @@
 layout: default
 title: Inclisiran
 parent: Model Prediction Only (L5)
-nav_order: 401
+nav_order: 471
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,56 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inclisiran: From Hypercholesterolemia (LDL-C Lowering) to Potassium Deficiency Disease
+# Inclisiran: From LDL-C Lowering to Potassium Deficiency Disease
 
 ## One-Sentence Summary
 
-Inclisiran is a PCSK9-targeted siRNA therapeutic whose established pharmacology lowers LDL cholesterol by silencing PCSK9 expression. The TxGNN model's top-ranked prediction points to **Potassium Deficiency Disease**, but this evidence pack itself flags the association as a likely knowledge-graph embedding artifact — **0 clinical trials** and **0 publications** support it, and no plausible mechanistic pathway connects PCSK9 inhibition to potassium/electrolyte metabolism.
+Inclisiran (marketed in Canada as LEQVIO) is a liver-targeted siRNA that silences PCSK9 synthesis and lowers LDL cholesterol.
+The TxGNN model predicts it may be effective for **potassium deficiency disease**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is a graph-based association only and has no mechanistic or clinical support.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (DrugBank query returned no `original_indications`; drug not marketed in Canada) |
-| Predicted New Indication | Potassium Deficiency Disease |
+| Original Indication | Not stated in the Canadian license data (mechanistically an LDL-C lowering agent) |
+| Predicted New Indication | Potassium deficiency disease |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Inclisiran is currently unavailable (flagged as a High-severity data gap, DG002). Based on information embedded in the evidence pack's own repurposing rationale, Inclisiran acts through the **PCSK9/LDLR pathway** as an siRNA agent that lowers LDL-C — a mechanism with no known physiological overlap with potassium or electrolyte homeostasis.
+Inclisiran is a small interfering RNA (siRNA) that acts in the liver. It silences PCSK9 synthesis, which increases LDL-receptor recycling and lowers circulating LDL-C. Detailed mechanism-of-action data from DrugBank is not available, so this description is based on the mechanistic assessment in the evidence pack.
 
-The evidence pack's own mechanistic assessment for this candidate states directly: *"電解質代謝疾病與 PCSK9 抑制無已知生理路徑重疊，機轉連結不存在，屬圖譜嵌入偽關聯"* (electrolyte metabolic disease shares no known physiological pathway with PCSK9 inhibition; the mechanistic link does not exist and this is judged a knowledge-graph embedding artifact). This is a candid, model-generated caveat rather than an independent clinical hypothesis, and it should be weighted heavily against this specific prediction.
+The prediction is **not mechanistically convincing**. Inclisiran has no known effect on potassium homeostasis, and the PCSK9/LDL-receptor pathway is unrelated to potassium handling. The very high TxGNN score (0.9993) most likely reflects proximity in the knowledge graph rather than a biological rationale. It should be treated as a hypothesis-generating signal only.
 
-By contrast, several lower-ranked candidates in this same pack (e.g., migraine disorder, rank 4; Raynaud disease, rank 10) at least carry an indirect, literature-adjacent hypothesis linking PCSK9 inhibition to vascular endothelial function — still speculative, but mechanistically more coherent than the top-ranked result reported here.
+The other top-ranked predictions show the same pattern. All 10 candidates are L5 (model prediction only), have no trials or literature, and were rated "Hold":
+
+| Rank | Predicted Indication | TxGNN Score |
+|------|------|------|
+| 1 | Potassium deficiency disease | 99.93% |
+| 2 | Esophageal disease | 99.87% |
+| 3 | Atypical coarctation of aorta | 99.86% |
+| 4 | Migraine disorder | 99.83% |
+| 5 | Non-syndromic esophageal malformation | 99.83% |
+| 6 | Migraine with brainstem aura | 99.78% |
+| 7 | Migraine with or without aura, susceptibility to | 99.78% |
+| 8 | Aortic malformation | 99.76% |
+| 9 | Esophageal ulcer | 99.73% |
+| 10 | Raynaud disease | 99.73% |
+
+Raynaud disease and migraine have only speculative, indirect vascular links. The congenital malformations (aortic, esophageal) have no plausible link to LDL-C lowering.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
+## Canada Market Information
+
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2518376 | LEQVIO | Not specified | Not specified |
+
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. Health Canada warnings and contraindications were not retrieved, and no drug-interaction records were found.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Potassium Deficiency Disease) is explicitly characterized within the evidence pack itself as a likely graph-embedding false positive with no known mechanistic pathway. Across 31 systematic queries (ClinicalTrials.gov, ICTRP, PubMed) spanning all 10 predicted indications for this drug, zero trials and zero publications were found. The drug is also not marketed in Canada, and TFDA/label safety data (warnings, contraindications) remain a Blocking data gap (DG001), preventing any S1 safety assessment.
+The prediction rests on a model score alone (L5). There is no plausible mechanistic link between PCSK9 silencing and potassium deficiency, and no trials or literature support it. Safety review also cannot proceed until the Canadian label data is obtained.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label — warnings, contraindications (DG001, blocking)
-- Confirmed mechanism-of-action documentation from DrugBank or primary literature (DG002)
-- Original indication data for Inclisiran (currently absent from this evidence pack)
-- If pursuing repurposing further, re-prioritize toward mechanistically plausible candidates (e.g., migraine disorder, Raynaud disease) rather than this top-ranked but graph-artifact-flagged prediction
+- Health Canada package insert (warnings, contraindications, approved indication, dosage form)
+- Mechanism-of-action data from DrugBank
+- A biological rationale linking PCSK9 silencing to potassium homeostasis, followed by preclinical or mechanistic studies
+- Any clinical or observational signal (for example, potassium changes in existing inclisiran trial data) before further evaluation
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

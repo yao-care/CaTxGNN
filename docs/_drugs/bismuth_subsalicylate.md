@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bismuth Subsalicylate
-parent: Moderate Evidence (L3-L4)
-nav_order: 105
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 116
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bismuth Subsalicylate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,37 +29,33 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Bismuth Subsalicylate: From Gastrointestinal Disorders to Paratyphoid Fever
+# Bismuth Subsalicylate: From Digestive Upset and Diarrhea to Paratyphoid Fever
 
 ## One-Sentence Summary
 
-Bismuth subsalicylate (BSS) is a well-established compound widely used for gastrointestinal disorders including traveler's diarrhea, nausea, and dyspepsia, though no formal Canadian regulatory authorization is currently on record.
-The TxGNN model predicts it may be effective for **Paratyphoid Fever**, ranked 836th with a prediction score of **99.98%**.
-No clinical trials or publications directly targeting this indication were identified; evidence rests on mechanistic inference from closely related *Salmonella* infections.
+Bismuth subsalicylate is a long-marketed gastrointestinal remedy (best known as Pepto-Bismol) used for digestive upset and diarrhea. The TxGNN model predicts it may be effective for **paratyphoid fever**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. The prediction rests on model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gastrointestinal disorders (traveler's diarrhea, dyspepsia) — no Canadian regulatory record available |
-| Predicted New Indication | Paratyphoid Fever |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Research Question |
+|------|------|
+| Original Indication | Not stated in the Canadian license records provided; the drug is widely used for digestive upset and diarrhea |
+| Predicted New Indication | Paratyphoid fever |
+| TxGNN Prediction Score | 99.98% (model rank 836) |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 14 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured dataset. Based on known information, bismuth subsalicylate is a dual-component compound (bismuth ion + salicylate anion) with well-documented antimicrobial and antisecretory properties. The bismuth ion disrupts bacterial outer membranes and inhibits bacterial adhesion to intestinal epithelial cells, while the salicylate component suppresses prostaglandin E2 (PGE2)-mediated intestinal hypersecretion — reducing fluid loss in secretory diarrhea. Together, these mechanisms underpin BSS's established clinical use against traveler's diarrhea, where *Salmonella* species are among the principal causative organisms.
+Currently, detailed mechanism of action data is not available. Bismuth subsalicylate is known to have antibacterial and anti-secretory activity in the gut, and it is established for gastrointestinal complaints such as traveler's diarrhea. Mechanistically, it may be applicable to enteric Salmonella infections by extension.
 
-Paratyphoid fever is caused by *Salmonella enterica* serovars Paratyphi A, B, and C — organisms that are phylogenetically and pathophysiologically close to *S. enteritidis* (implicated in salmonellosis) and *S. typhi* (typhoid fever). In vitro evidence confirms BSS exerts direct bactericidal activity against *Salmonella* species (PMID 2694949), providing a coherent mechanistic bridge. The TxGNN model likely captured this phylogenetic proximity and the shared gastrointestinal infection pathway in its knowledge graph, yielding a high prediction score.
-
-A key clinical limitation applies: *S. paratyphi* frequently causes systemic bacteremia during weeks 1–2 of illness. BSS acts locally in the gastrointestinal lumen and cannot substitute for systemic antibiotics (fluoroquinolones, azithromycin) required to manage invasive disease. Any plausible role for BSS would be adjunctive — reducing intestinal bacterial burden and ameliorating secretory symptoms — rather than curative. No modern clinical studies have evaluated this role specifically for paratyphoid fever.
+Paratyphoid fever is a systemic enteric infection caused by Salmonella. The link to the original use is plausible only at a general level, through activity against enteric bacteria. Bismuth is minimally absorbed, so its action stays largely in the gut lumen. That is unlikely to be enough to treat a systemic infection with tissue invasion. The high score (~0.9998) is a graph-based prediction, not clinical evidence.
 
 ---
 
@@ -77,7 +73,15 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Bismuth subsalicylate has no authorized products in Canada. No DINs (Drug Identification Numbers) have been issued under Health Canada.
+Fourteen authorizations are on record. The five main ones are listed below. Dosage form and approved-indication text were not available in the records provided.
+
+| DIN | Product Name |
+|---------|------|
+| 2313162 | Bismuth Subsalicylate Suspension |
+| 2468646 | Regular Strength Bismuth |
+| 2097079 | Pepto-Bismol |
+| 2534436 | Gastrovol Liquid Gels |
+| 2177994 | Pepto Bismol Caplet, 262 mg/caplet |
 
 ---
 
@@ -89,18 +93,19 @@ Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-TxGNN assigns a high prediction score (99.98%) grounded in the mechanistic and phylogenetic proximity between BSS's demonstrated anti-*Salmonella* activity and the *Salmonella paratyphi* etiology of paratyphoid fever; however, no direct preclinical or clinical evidence for this specific indication exists, and the systemic nature of paratyphoid fever substantially limits the utility of a locally acting agent.
+The prediction has no supporting trials or literature (L5). The oral, minimally absorbed product is mechanistically poorly suited to a systemic infection such as paratyphoid fever.
 
 **To proceed, the following is needed:**
-- In vitro bactericidal studies of BSS specifically against *Salmonella paratyphi* A, B, and C (distinct from existing *S. enteritidis* / *S. typhi* data)
-- Animal model studies (e.g., murine paratyphoid model) to evaluate intestinal burden reduction and adjunctive benefit alongside antibiotics
-- Formal MOA documentation from DrugBank API (Data Gap DG002) to support regulatory dossier preparation
-- Package insert and warning/contraindication data (Data Gap DG001) to enable safety pre-screening (currently blocking S1 assessment)
-- Assessment of appropriate dosage form and route of administration for the target indication
-- Health Canada pre-submission consultation if in vitro and in vivo data prove promising
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- Any clinical or observational evidence specific to paratyphoid fever
+
+**Note:** In the same prediction list, **salmonellosis** (score 99.95%) has more support and is rated L4, a research question. That support consists of in vitro bacterial binding and killing data and reviews on diarrheal disease, with no Salmonella-specific human trials. It would be a more practical starting point than paratyphoid fever, as a symptomatic or adjunctive role only, not a replacement for antimicrobial therapy.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

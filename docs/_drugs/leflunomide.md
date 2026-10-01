@@ -2,7 +2,7 @@
 layout: default
 title: Leflunomide
 parent: Model Prediction Only (L5)
-nav_order: 452
+nav_order: 528
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Leflunomide is a DHODH-inhibiting immunomodulator conventionally used to treat rheumatoid arthritis. The TxGNN model predicts potential efficacy for **Brachydactyly-Syndactyly Syndrome**, a congenital limb malformation disorder, but this prediction is currently supported by **zero clinical trials** and **zero publications** — the mechanism of action does not plausibly connect to the target disease's developmental biology.
+Leflunomide is an immunomodulating drug originally used to treat rheumatoid arthritis.
+The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a rare congenital limb malformation.
+The prediction currently has **0 clinical trials** and **0 publications** behind it, and the drug's known mechanism suggests possible harm rather than benefit.
 
 ---
 
@@ -41,23 +43,23 @@ Leflunomide is a DHODH-inhibiting immunomodulator conventionally used to treat r
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file for Canada (drug not marketed); clinically used for rheumatoid arthritis |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
-| TxGNN Prediction Score | 99.93% (rank 1959 among all candidates) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Original Indication | Rheumatoid arthritis (general drug knowledge; the Canadian license records supplied contain no indication text) |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 99.93% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 18 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Leflunomide is a DHODH (dihydroorotate dehydrogenase) inhibitor that blocks de novo pyrimidine synthesis, producing an antiproliferative and immunomodulatory effect used clinically to manage rheumatoid arthritis.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Leflunomide's active metabolite, teriflunomide, is known to inhibit dihydroorotate dehydrogenase (DHODH). This blocks pyrimidine synthesis and dampens the proliferation of activated lymphocytes. That mechanism explains its efficacy in autoimmune disease.
 
-Brachydactyly-syndactyly syndrome is a congenital limb malformation disorder (shortened digits fused together) arising from dysregulation of embryonic limb-patterning pathways (e.g., HOX, BMP, SHH signaling), not from inflammation or immune dysfunction. There is no established mechanistic link between pyrimidine-synthesis inhibition/lymphocyte suppression and limb morphogenesis pathways.
+The predicted indication is a congenital limb malformation, which has no autoimmune or inflammatory basis. DHODH and pyrimidine inhibition therefore have no plausible therapeutic role in it. Loss of DHODH function is known to cause limb malformations (Miller syndrome), and leflunomide is teratogenic and contraindicated in pregnancy. The mechanism points toward harm rather than benefit.
 
-Given the complete absence of clinical trials or literature connecting these two entities, the high TxGNN score most likely reflects sparse graph connectivity around this rare-disease node (an artifact of embedding distance in a data-poor region of the knowledge graph) rather than genuine biological plausibility. Notably, the rank-2 candidate (colobomatous microphthalmia-rhizomelic dysplasia syndrome, score 99.93%) shows the identical pattern — another rare congenital developmental syndrome with no trial or literature support — reinforcing that this is likely a systematic artifact rather than an isolated signal.
+The very high score most likely reflects a knowledge-graph artifact. Rare diseases with sparse graph connectivity can score high through proximity alone. The second predicted indication, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 99.93%), is another rare congenital syndrome with the same weaknesses: no evidence and no mechanistic rationale.
 
 ---
 
@@ -75,13 +77,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Leflunomide currently holds no Health Canada Drug Identification Numbers (DINs); market status is not marketed in Canada, so no product/dosage-form information is available.
+Leflunomide has 18 licenses in Canada. The records supplied do not include dosage form or approved indication text. The first 5 authorizations are listed below.
+
+| DIN | Product Name |
+|---------|------|
+| 02478862 | ACCEL-LEFLUNOMIDE |
+| 02351676 | LEFLUNOMIDE |
+| 02478870 | ACCEL-LEFLUNOMIDE |
+| 02256495 | APO-LEFLUNOMIDE |
+| 02261278 | TEVA-LEFLUNOMIDE |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Key Warnings**: Leflunomide is teratogenic, which is a particular concern for a congenital developmental disorder.
+- **Contraindications**: Pregnancy.
+
+Please refer to the package insert for the full safety information.
 
 ---
 
@@ -90,13 +103,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction sits at evidence level L5/decision stage S0 with no clinical, trial, or literature support, and the proposed mechanism (pyrimidine-synthesis inhibition/immunomodulation) has no known connection to the congenital limb-malformation pathophysiology of the target disease. The drug is also not marketed in Canada, so there is no regulatory pathway currently open.
+The only support is a model score, with no trials or literature. The known mechanism (DHODH inhibition) and the drug's teratogenicity argue against benefit in a congenital limb malformation. The score does not justify further investigation without independent mechanistic support.
 
 **To proceed, the following is needed:**
-- Confirmed drug label / official MOA documentation (currently a data gap)
-- Health Canada or TFDA safety labeling (warnings, contraindications) to clear the S1 safety gate
-- A mechanistic plausibility review by clinical genetics/developmental biology expertise before any preclinical or clinical follow-up is considered
-- Re-evaluation if new literature, case reports, or trials emerge linking DHODH-pathway modulation to limb-patterning disorders
+- Independent mechanistic evidence linking DHODH or pyrimidine-pathway modulation to therapeutic benefit in brachydactyly-syndactyly syndrome
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Complete mechanism of action data from DrugBank
+- Any preclinical or clinical evidence, since none currently exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

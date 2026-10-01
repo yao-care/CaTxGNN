@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: Moderate Evidence (L3-L4)
-nav_order: 837
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 983
+evidence_level: L5
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Zidovudine: From HIV/AIDS to Feline Acquired Immunodeficiency Syndrome
+# Zidovudine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-> Zidovudine (AZT) is a nucleoside reverse transcriptase inhibitor originally developed and approved for the treatment of human immunodeficiency virus (HIV) infection/AIDS.
-> The TxGNN model's top-ranked prediction links it to **Feline Acquired Immunodeficiency Syndrome (FIV/FAIDS)** — a veterinary lentiviral disease in cats —
-> with a **99.96% prediction score**, but currently supported only by **20 preclinical/veterinary literature reports** and **no clinical trials**.
+Zidovudine is a nucleoside reverse transcriptase inhibitor (NRTI) used against HIV. The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (feline AIDS)**. **0 clinical trials** and **20 publications** are linked to this prediction, and the publications are almost entirely animal and in vitro studies.
 
 ---
 
@@ -43,21 +41,23 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV/AIDS (human immunodeficiency virus infection) — based on general drug knowledge; no Canadian license record is available to confirm this |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV/FAIDS) |
+| Original Indication | HIV infection (inferred from the drug class; the Canadian licence records contain no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 (preclinical and animal-model evidence only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available in this Evidence Pack (Data Gap DG002). Based on general pharmacological knowledge, zidovudine is a thymidine-analogue nucleoside reverse transcriptase inhibitor (NRTI), and its efficacy against human immunodeficiency virus (HIV) has been well established since its original approval.
+Currently, detailed mechanism of action data is not available. Based on known information, zidovudine is an NRTI. Its efficacy in HIV infection is established. Mechanistically, it may be applicable to feline immunodeficiency virus (FIV) infection.
 
-The top-ranked predicted indication — feline acquired immunodeficiency syndrome — is caused by the feline immunodeficiency virus (FIV), a lentivirus whose reverse transcriptase is structurally homologous to HIV-1's. This shared enzymatic target is presumably why TxGNN's knowledge graph connects the two conditions: the underlying antiviral mechanism (reverse-transcriptase inhibition) is common to both. However, as the evidence pack's own rationale notes, FIV/FAIDS is a veterinary indication in cats, not a human clinical target. It is mechanistically informative — essentially an animal-model confirmation of zidovudine's antiretroviral activity — but it does not constitute a viable human drug-repurposing candidate.
+FIV is a lentivirus that causes an AIDS-like disease in cats. Its reverse transcriptase is similar enough to that of HIV-1 that FIV is used as a model for testing reverse transcriptase inhibitors. This is why the knowledge graph links the drug to the disease.
+
+Two caveats apply. First, the supporting literature is veterinary and preclinical. The results are mixed. Zidovudine lowered plasma virus titers and prevented early viremia in cats, but it did not prevent infection or alter the chronic course. Second, feline AIDS is not a human disease. The prediction therefore says little about new human uses of zidovudine.
 
 ---
 
@@ -71,30 +71,36 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | Preclinical model | Antimicrob Agents Chemother | Establishes FIV as a model for reverse-transcriptase-targeted chemotherapy of AIDS; compares FIV and HIV-1 reverse transcriptase |
-| [18550661](https://pubmed.ncbi.nlm.nih.gov/18550661/) | 2008 | Molecular epidemiology | J Virol | Phylogenetic analysis of FIV gag/pol/env genes in AZT-treated vs. treatment-naïve cats in Brazil |
-| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Animal study | Arch Virol | Zidovudine and cyclosporine reduced FIV plasma virus titer but not PBMC virus titer in infected cats |
-| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Animal model (SCID-feline mice) | Vet Immunol Immunopathol | AZT reduced provirus burden and enhanced humoral immune function in SCID-feline mice inoculated with FIV |
-| [9226004](https://pubmed.ncbi.nlm.nih.gov/9226004/) | 1997 | Drug delivery study | J Leukoc Biol | Erythrocyte-based targeted delivery system for phosphorylated nucleoside analogues (incl. AZT derivatives) to macrophages |
-| [15047505](https://pubmed.ncbi.nlm.nih.gov/15047505/) | 2004 | Topical prophylaxis study | Antimicrob Agents Chemother | AZT-derivative spermicide WHI-07 prevented vaginal and rectal FIV transmission in cats |
-| [8399067](https://pubmed.ncbi.nlm.nih.gov/8399067/) | 1993 | Animal study | J Immunother | Combined adoptive lymphocyte transfer, interferon-alpha, and zidovudine reversed feline leukemia virus infection |
-| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Animal study | Antimicrob Agents Chemother | Interferon-alpha2b + AZT combination evaluated in presymptomatic FeLV-induced immunodeficiency syndrome (FAIDS) cats |
-| [2164083](https://pubmed.ncbi.nlm.nih.gov/2164083/) | 1990 | Animal study | J Acquir Immune Defic Syndr | AZT + interferon-alpha + IL-2 as prophylactic therapy for FeLV-FAIDS; AZT inhibited FeLV replication in vitro |
-| [1666108](https://pubmed.ncbi.nlm.nih.gov/1666108/) | 1991 | Review / animal research | J Am Vet Med Assoc | Review of chemotherapy options, including zidovudine, for feline immunodeficiency virus infection |
+| [1666108](https://pubmed.ncbi.nlm.nih.gov/1666108/) | 1991 | Review | J Am Vet Med Assoc | Review of chemotherapy for FIV infection (no abstract available) |
+| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | Animal model study | Antimicrob Agents Chemother | FIV reverse transcriptase examined for similarity to HIV-1 reverse transcriptase, supporting FIV as a model for reverse transcriptase-targeted chemotherapy |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Animal study | J Acquir Immune Defic Syndr | Prophylactic zidovudine prevented early viremia and lymphocyte decline in FIV-inoculated cats but did not prevent primary infection |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Animal study | Arch Virol | Zidovudine lowered plasma virus titers at 2 weeks but not later, and did not prevent infection |
+| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Animal study (SCID-feline mice) | Vet Immunol Immunopathol | AZT reduced provirus burden and enhanced humoral immune function in FIV-inoculated mice |
+| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | In vitro and in vivo study | Vet Immunol Immunopathol | AZT/3TC was additive to synergistic against FIV in primary PBMC but not in chronically infected T-cell lines |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | In vitro study | Antiviral Res | Zidovudine, lamivudine and abacavir combination suppressed FIV replication in vitro |
+| [22816034](https://pubmed.ncbi.nlm.nih.gov/22816034/) | 2012 | Animal study | Viruses | Fozivudine tidoxil, a zidovudine-related compound, given as a single agent during acute FIV infection did not alter chronic infection |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Follow-up study | J Feline Med Surg | Long-term antiretroviral therapy, starting with zidovudine, was followed for 5–6 years in FIV-infected cats |
+| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Animal study (FeLV, a related retrovirus, not FIV) | Antimicrob Agents Chemother | Alpha interferon plus AZT was tested in presymptomatic cats with FeLV-induced immunodeficiency syndrome |
 
 ---
 
 ## Canada Market Information
 
-Zidovudine currently has **no marketing authorization in Canada** (market status: Not Marketed; total DINs: 0). No product license records are available in this Evidence Pack, so a licensed-product table cannot be generated.
+| DIN | Product Name |
+|---------|------|
+| 1946323 | APO-ZIDOVUDINE |
+| 1902652 | RETROVIR (AZT) |
+| 1902644 | RETROVIR (AZT) |
+| 2414414 | AURO-LAMIVUDINE/ZIDOVUDINE |
+| 2375540 | APO-LAMIVUDINE-ZIDOVUDINE |
+
+Six licences are on record. The five main ones are shown above. Dosage form and approved-indication text were not available in the source data.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug-interaction data are recorded as Data Gaps in this Evidence Pack — see DG001, a Blocking-severity gap that also prevents entry into the S1 safety pre-assessment stage.)*
 
 ---
 
@@ -103,14 +109,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked TxGNN prediction points to a veterinary lentiviral disease (FIV/FAIDS in cats), not a human-relevant indication, and is supported only by preclinical/animal literature (Evidence Level L4) with zero clinical trials — it does not meet the bar for human repurposing evaluation.
-- A Blocking data gap (DG001 — missing product label warnings/contraindications) prevents this candidate from even entering the S1 safety pre-assessment stage, and the drug is not currently marketed in Canada (0 DINs).
+The prediction score is very high, but the supporting evidence is limited to veterinary and preclinical studies with mixed results. There are no clinical trials, and feline AIDS is not a human indication. Zidovudine's marketed use in Canada is unaffected by this prediction.
+
+Two other predictions for this drug have more evidence: congenital HIV (rank 5) and AIDS-related complex (rank 6). Both look like existing HIV uses rather than true repurposing. Current guidelines favour combination regimens over zidovudine alone.
 
 **To proceed, the following is needed:**
-- Product label data (warnings, contraindications) to resolve the Blocking gap DG001 and enable S1 safety pre-assessment
-- Mechanism-of-action documentation (DG002) from DrugBank or equivalent source
-- Re-ranking or filtering of TxGNN predictions to prioritize disease candidates relevant to human clinical practice (e.g., items #5–#6 in this pack — congenital HIV and AIDS-related complex — which already show L1 evidence and a "Proceed with Guardrails" recommendation, though these largely reflect zidovudine's known original human HIV indication rather than a novel repurposing signal)
-- Canadian market-authorization data (DIN/product listing) if human repurposing in this market is pursued
+- A decision on whether a veterinary indication is in scope, since it falls outside human drug repurposing
+- The Health Canada product monograph (warnings, contraindications, approved indications) to complete safety screening
+- Mechanism of action data from DrugBank
+- If the human HIV-related predictions are pursued, a check of the original labelled indications to confirm whether they are on-label uses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

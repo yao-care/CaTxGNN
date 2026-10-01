@@ -2,7 +2,7 @@
 layout: default
 title: Beclomethasone Dipropionate
 parent: Moderate Evidence (L3-L4)
-nav_order: 88
+nav_order: 96
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,89 +29,86 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Beclomethasone Dipropionate: From Asthma to Atopic Eczema
+# Beclomethasone Dipropionate: From Respiratory and Allergic Conditions to Atopic Eczema
 
 ## One-Sentence Summary
 
-Beclomethasone Dipropionate (BDP) is a potent synthetic glucocorticoid currently used for inhaled asthma management and intranasal treatment of allergic rhinitis. The TxGNN model predicts it may be effective for **atopic eczema** — specifically via oral administration in refractory cases — with **0 registered clinical trials** and **18 publications** currently supporting this direction.
-
----
+Beclomethasone dipropionate is a corticosteroid marketed in Canada in inhaled, nasal and topical products. The supplied data do not list an approved indication, so this is inferred from the product names. The TxGNN model predicts it may be effective for **atopic eczema** (score 99.4%). Support is limited: **no registered clinical trials** and **18 publications**, of which only **1 is a small randomised trial** (1984).
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Asthma (inhaled); Allergic rhinitis (intranasal) |
-| Predicted New Indication | Atopic Eczema |
+|------|------|
+| Original Indication | Not listed in the supplied licence data (product names suggest asthma, allergic rhinitis and topical use) |
+| Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L3 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, formal mechanism of action data is not available in the structured dataset. Based on established pharmacological knowledge, Beclomethasone Dipropionate is a high-potency synthetic glucocorticoid. It acts by binding intracellular glucocorticoid receptors (GR), which in turn suppresses the NF-κB transcription factor and downregulates pro-inflammatory Th2 cytokines — including IL-4, IL-13, and IL-31.
+Detailed mechanism-of-action data are not available in the input. Based on known drug-class information, beclomethasone dipropionate is a glucocorticoid prodrug. It is hydrolysed to the active metabolite beclomethasone-17-monopropionate, which binds the glucocorticoid receptor. This suppresses NF-kB/AP-1-driven inflammatory cytokine transcription (for example IL-4, IL-5, IL-13 and TNF-alpha) and lowers eosinophil and T-cell activity.
 
-Atopic eczema is driven by precisely this Th2-skewed immune dysregulation, combined with impaired skin barrier function. The same cytokine cascade that BDP suppresses (IL-4, IL-13, IL-31) is responsible for the hallmark features of atopic eczema: intense pruritus, skin inflammation, and barrier breakdown. This mechanistic overlap makes the TxGNN prediction biologically well-grounded.
+Atopic eczema is driven by these same Th2-type inflammatory pathways. That makes the link biologically plausible and consistent with the high TxGNN score. Beclomethasone dipropionate has also been described in the literature as a potent topical corticosteroid.
 
-It is worth noting that topical corticosteroids (TCS) are already the established first-line treatment for atopic eczema — the novel repurposing angle here is specifically **oral BDP** for refractory, difficult-to-treat atopic eczema. This route potentially avoids heavier systemic immunosuppressants (e.g., cyclosporine) while leveraging BDP's gut-level immune modulation. Early clinical evidence from the 1980s–1990s demonstrated feasibility, though this administration route is not currently approved in Canada.
-
----
+This reasoning rests on class knowledge, not on data supplied in the Evidence Pack. The TxGNN score is a computational prediction and does not raise the evidence level.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [6434024](https://pubmed.ncbi.nlm.nih.gov/6434024/) | 1984 | RCT | British Medical Journal | Double-blind placebo-controlled crossover trial in 26 children with severe atopic eczema; combined oral + nasal BDP produced significant improvement over placebo across 4 weeks, with only mild adrenal suppression and no adverse effects observed |
-| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | Clinical Case Series | Acta Dermato-Venereologica | Oral BDP (mean 1,000 µg/day) achieved stable disease control in 10/14 children with difficult atopic dermatitis; growth deceleration noted at maintenance dose, raising pediatric safety considerations |
-| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | Formulation Study | AAPS PharmSciTech | Development and characterization of BDP-loaded mixed micelles incorporated into hydrogel for dermal delivery; sub-chronic dermatitis animal model confirms enhanced dermal BDP bioavailability via novel formulation |
-| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | Clinical Safety Study | Journal of Dermatological Treatment | Assessed effects of intensive steroid wet-wrap therapy on short-term growth and bone turnover in 8 prepubertal children with atopic eczema; provides critical safety reference data for corticosteroid-based atopic eczema regimens |
-| [8765824](https://pubmed.ncbi.nlm.nih.gov/8765824/) | 1996 | Clinical Study | Journal of Allergy and Clinical Immunology | Topical steroids in atopic dermatitis may paradoxically enhance in vitro IgE production; underscores the need for careful monitoring and the limitations of long-term corticosteroid use in atopic eczema |
-| [19874229](https://pubmed.ncbi.nlm.nih.gov/19874229/) | 2009 | Comparative Animal Study | Immunopharmacology and Immunotoxicology | Head-to-head comparison of BDP vs mometasone furoate in murine ear edema model; mometasone showed superior local anti-inflammatory potency with lower systemic HPA axis suppression relative to BDP |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Reviews HPA axis suppression risk from intranasal corticosteroids in patients with comorbid asthma and atopic dermatitis; directly relevant to systemic safety monitoring for patients on multi-route BDP |
-| [9463794](https://pubmed.ncbi.nlm.nih.gov/9463794/) | 1998 | Review | Drugs | Comprehensive review of mometasone (a 16α-methyl analogue of BDP) for inflammatory dermatoses including atopic dermatitis; confirms class-level efficacy of glucocorticoids in atopic eczema and provides a reference benchmark for BDP |
-| [11488426](https://pubmed.ncbi.nlm.nih.gov/11488426/) | 2001 | Review | Japanese Journal of Pharmacology | Broad review of glucocorticoids — specifically naming BDP and fluticasone — for allergic diseases; confirms mechanistic rationale and established anti-inflammatory efficacy across the Th2 disease spectrum |
-| [37023229](https://pubmed.ncbi.nlm.nih.gov/37023229/) | 2023 | Computational Study | Journal of Chemical Information and Modeling | Knowledge graph–based drug repurposing framework (DrugRep-KG) that validates computational prediction methodology; provides methodological context for interpreting TxGNN's BDP–atopic eczema association |
-
----
+|------|-----|------|------|---------|
+| [6434024](https://pubmed.ncbi.nlm.nih.gov/6434024/) | 1984 | RCT | Br Med J (Clin Res Ed) | Double-blind crossover trial in 26 children with severe atopic eczema. Four weeks of combined oral plus nasal beclomethasone improved significantly more than placebo. Urinary cortisol was slightly reduced. |
+| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | Clinical study (likely uncontrolled) | Acta Derm Venereol Suppl | Oral beclomethasone controlled difficult childhood atopic dermatitis in 10 of 14 patients. At the maintenance dose there was evidence of slowed linear growth and adrenal effects. |
+| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | Clinical study (safety/growth) | J Dermatolog Treat | Short-term growth and bone turnover in 8 children on steroid wet-wrap dressings for atopic eczema. |
+| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | Preclinical / formulation | AAPS PharmSciTech | Beclomethasone micelles in a hydrogel for dermal delivery were evaluated in a sub-chronic dermatitis animal model. |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Intranasal corticosteroids and adrenal suppression, in the context of allergic rhinitis coexisting with asthma and atopic dermatitis. |
+| [11488426](https://pubmed.ncbi.nlm.nih.gov/11488426/) | 2001 | Review | Jpn J Pharmacol | Overview of drugs for allergic diseases. Glucocorticoids are described as the most efficacious. |
+| [9463794](https://pubmed.ncbi.nlm.nih.gov/9463794/) | 1998 | Review | Drugs | Review of topical mometasone, a beclomethasone analogue, in dermatological disorders including atopic dermatitis. |
+| [19874229](https://pubmed.ncbi.nlm.nih.gov/19874229/) | 2009 | Preclinical (mouse) | Immunopharmacol Immunotoxicol | Mometasone furoate was compared with beclomethasone dipropionate for local anti-inflammatory versus systemic effects. |
+| [8765824](https://pubmed.ncbi.nlm.nih.gov/8765824/) | 1996 | Laboratory study | J Allergy Clin Immunol | Topical steroids enhanced in vitro spontaneous IgE production in atopic dermatitis patients. This is a cautionary signal. |
+| [374799](https://pubmed.ncbi.nlm.nih.gov/374799/) | 1979 | Comparative study | Nihon Hifuka Gakkai Zasshi | Systemic effects of topical beclomethasone dipropionate were compared with betamethasone valerate ointment and fluocinonide cream. |
 
 ## Canada Market Information
 
-Beclomethasone Dipropionate currently has **no Drug Identification Numbers (DINs) on record** and is not marketed in Canada under this active ingredient profile. No licensed products are available for review.
+| DIN | Product Name |
+|---------|------|
+| 02089602 | PROPADERM |
+| 02172712 | MYLAN-BECLO AQ |
+| 02242030 | QVAR |
+| 02238796 | APO-BECLOMETHASONE NASAL SPRAY |
+| 02242029 | QVAR |
 
----
+Dosage form and approved-indication text are not available in the supplied licence records.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings, contraindications and drug interaction data are not available in the input. Please refer to the package insert for safety information.
 
-> **Note:** Formal safety data (warnings, contraindications, and drug interactions) were not available in this evidence pack. Key known class-level concerns for glucocorticoids include HPA axis suppression, growth retardation in children, and adrenal suppression — particularly relevant given the oral route being explored.
-
----
+The supplied literature also raises these points:
+- **Adrenal suppression and growth**: Oral use in children was associated with slightly reduced urinary cortisol and slowed linear growth (PMID 6434024, 1476023). Intranasal corticosteroids have also been reviewed for adrenal suppression (PMID 19571596).
+- **Corticosteroid allergy**: Delayed contact allergy and occasionally immediate allergy to corticosteroids have been reported (PMID 14616123).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A 1984 double-blind RCT and a 1992 clinical case series provide early proof-of-concept for oral BDP in refractory atopic eczema, and the mechanistic rationale is strong; however, the absence of modern clinical trials, zero DIN registrations in Canada, and unresolved safety data gaps mean this candidate requires significant further validation before advancing.
+The prediction score is high and the mechanism is plausible. However, there are no registered trials, and the only randomised evidence is a small 1984 crossover study using an oral plus nasal regimen. Health Canada safety data are also missing, which blocks the safety screening stage.
 
 **To proceed, the following is needed:**
-- Retrieve and review the full prescribing information (package insert) to formally document warnings, contraindications, and drug interactions
-- Assess HPA axis suppression risk and growth impact at oral doses required for atopic eczema, particularly in pediatric patients
-- Evaluate the current clinical landscape: with dupilumab (IL-4/IL-13 blockade) now approved in Canada, determine whether an unmet need for oral BDP still exists in refractory atopic eczema
-- Conduct a systematic literature search for any post-1992 clinical data on oral BDP in atopic dermatitis
-- Define a regulatory pathway for a potential new DIN submission in Canada if evidence is deemed sufficient
-- Design a prospective pilot study protocol with growth monitoring and cortisol surveillance if a clinical investigation is planned
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Approved indications and dosage forms for each DIN, to check whether a topical route is available in Canada
+- Mechanism of action data from DrugBank
+- Contemporary controlled clinical evidence for atopic eczema, compared against established topical corticosteroids
+- A safety plan for adrenal suppression and growth in paediatric patients
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

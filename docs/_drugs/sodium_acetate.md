@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Acetate
 parent: Model Prediction Only (L5)
-nav_order: 722
+nav_order: 847
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Acetate: From Electrolyte/pH Buffer Therapy to Congenital Prothrombin Deficiency
+# Sodium Acetate: From Electrolyte Replenishment to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-> Sodium Acetate (DB09395) has no original indication documented in the evidence pack; it is generally known as an electrolyte/pH-buffering agent used as an intravenous fluid additive.
-> The TxGNN model's top-ranked prediction is **Congenital Prothrombin Deficiency**, but this prediction is supported by **zero clinical trials** and **zero publications**,
-> and the model's own rationale explicitly states there is no known mechanistic link between the drug and this disease.
+Sodium acetate is an electrolyte replenisher and alkalinizing agent, since acetate is metabolized to bicarbonate. The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but **0 clinical trials** and **0 publications** support this prediction. It is a model output only.
 
 ---
 
@@ -43,23 +41,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the evidence pack. Sodium acetate is generally classified as an electrolyte/pH-buffering agent used as an additive in IV fluid therapy. |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
+| Original Indication | Not stated in the licence records (generally an electrolyte replenisher / alkalinizing agent) |
+| Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for sodium acetate. Based on known information, it is generally used as an electrolyte and pH-buffering agent, commonly added to large-volume parenteral fluids to correct or prevent metabolic acidosis and electrolyte imbalance. No original clinical indication is recorded in this evidence pack, and no product is currently marketed in Canada under this DrugBank ID.
+Currently, detailed mechanism of action data is not available. Sodium acetate is used as an electrolyte replenisher and alkalinizing agent, and acetate is metabolized to bicarbonate in the body.
 
-For the top-ranked prediction — congenital prothrombin deficiency — the model's own evidence pack states explicitly that **no known mechanistic link exists**: sodium acetate acts as an electrolyte/pH buffer and has no established relationship with the coagulation-factor synthesis pathways underlying congenital prothrombin deficiency. This is a pure knowledge-graph signal (rank 855 of the model's output) with no corroborating clinical trials or literature, and should be treated as a low-confidence, exploratory signal rather than a credible repurposing candidate.
+Congenital prothrombin deficiency is a rare inherited bleeding disorder caused by too little functional prothrombin (coagulation factor II). Sodium acetate has no known role in coagulation factor synthesis or function, so no plausible mechanistic link to this disease can be identified.
 
-It is worth noting that two lower-ranked candidates in this evidence pack — **dyspepsia** (rank 7) and **gastroparesis** (rank 9) — carry a more coherent biological rationale: acetate is a short-chain fatty acid (SCFA), and literature indicates SCFAs can modulate gastric emptying rate and intestinal motility, which is mechanistically plausible for functional dyspepsia/gastroparesis pathophysiology. These candidates reached decision stage S1 ("Research Question") with L4 evidence, whereas the top-ranked congenital prothrombin deficiency prediction remains at S0 ("Hold") with L5 evidence. This discrepancy should be factored into any prioritization decision.
+The high TxGNN score (99.98%, model rank 855) reflects a pattern in the knowledge graph, not experimental or clinical support. The prediction should be treated as a hypothesis with no supporting evidence.
 
 ---
 
@@ -77,15 +75,21 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Sodium Acetate (DB09395) currently has **no Health Canada Drug Identification Numbers (DINs) on record** and is **not marketed** in Canada under this evidence pack (total licenses: 0).
+Sodium acetate has 20 authorizations in Canada. Five main ones are listed below. The records contain no dosage form or approved indication text.
+
+| DIN | Product Name |
+|---------|------|
+| 2139529 | Sodium Acetate Injection, USP |
+| 2181746 | Sodium Acetate Injection USP |
+| 39470 | Lactated Ringer's Injection |
+| 1931636 | Lactated Ringer's Injection USP |
+| 799971 | Lactated Ringer's Irrigation Solution |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: Key warnings, contraindications, and drug interaction data for this candidate are currently unavailable. This is flagged as a blocking data gap — TFDA/Health Canada label warnings and contraindications must be obtained before any safety-stage review can proceed.)*
 
 ---
 
@@ -94,13 +98,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (congenital prothrombin deficiency) has no supporting clinical trials, no literature, and an explicitly stated absence of mechanistic plausibility per the model's own rationale. Combined with missing MOA data, missing safety/label data, and no Canadian market presence, this candidate does not meet the threshold to advance past S0.
+The prediction rests on a model score alone, with no clinical trials, no literature, and no plausible mechanism linking sodium acetate to coagulation factor II deficiency. Other top-ranked predictions are also weak. Most are L5, and only dyspepsia and gastroparesis reach L4 as research questions. Even those involve acetate as a diagnostic tracer or physiological metabolite, not as a treatment.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for sodium acetate (currently a High-severity data gap, DG002)
-- Product label warnings/contraindications (currently a Blocking data gap, DG001) — required before any S1 safety screening
-- If prioritization continues, consider redirecting research focus to the dyspepsia/gastroparesis signals (L4 evidence, SCFA-gastric emptying mechanism), which show materially stronger biological plausibility than the top-ranked TxGNN output
-- Confirmation of whether sodium acetate is intended for development in Canada at all, given its current non-marketed status
+- A credible mechanistic hypothesis linking acetate to prothrombin synthesis or function, supported by preclinical data
+- Mechanism of action data from DrugBank
+- Health Canada package insert warnings and contraindications, to allow safety screening
+- Approved indication text and dosage forms for the Canadian licences
+- Any clinical or preclinical study testing sodium acetate in congenital prothrombin deficiency
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

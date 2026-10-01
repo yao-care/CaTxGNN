@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Decitabine
-parent: Model Prediction Only (L5)
-nav_order: 218
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 252
+evidence_level: L3
 indication_count: 1
 ---
 
 # Decitabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Decitabine: From Myelodysplastic Syndrome to Refractory Cytopenia of Childhood
+# Decitabine: From Adult Myelodysplastic Syndrome to Refractory Cytopenia of Childhood
 
 ## One-Sentence Summary
 
-Decitabine is a DNA hypomethylating agent (DNMT inhibitor) widely used in adult myelodysplastic syndrome (MDS) treatment, and referenced in the supporting literature as used in pediatric MDS settings. The TxGNN model predicts it may be effective for **Refractory Cytopenia of Childhood (RCC)**, a rare pediatric subtype of MDS, with **0 registered clinical trials** and **1 observational publication** currently supporting this direction.
-
----
+Decitabine is a hypomethylating agent. The supplied Health Canada records do not state its approved indication, but general pharmacology places it in adult myelodysplastic syndrome (MDS).
+The TxGNN model predicts it may be useful for **refractory cytopenia of childhood**, a pediatric MDS subtype.
+Support is limited to **0 registered clinical trials** and **1 publication**, a single-center cohort study.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Myelodysplastic Syndrome (based on clinical context; no formal Taiwan regulatory records available) |
-| Predicted New Indication | Refractory Cytopenia of Childhood (RCC) |
+|------|------|
+| Original Indication | Not stated in the Health Canada records supplied (adult MDS based on general pharmacology) |
+| Predicted New Indication | Refractory cytopenia of childhood |
 | TxGNN Prediction Score | 99.03% |
-| Evidence Level | L3 (1 retrospective single-center observational study) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Licenses | 0 |
+| Evidence Level | L3 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available in the supplied records. Based on general pharmacology, decitabine inhibits DNA methyltransferase, and hypomethylating agents are established treatments in adult MDS.
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, decitabine belongs to the DNA hypomethylating agent class. It inhibits DNA methyltransferase (DNMT), leading to hypomethylation of tumor suppressor gene promoters and restoration of normal cellular differentiation. Its efficacy in myelodysplastic syndrome has been established in adult populations, and mechanistically this may be applicable to refractory cytopenia of childhood.
+Refractory cytopenia of childhood is a pediatric MDS subtype. The biological proximity to adult MDS is consistent with the very high TxGNN score. However, the score is a model prediction, not clinical evidence.
 
-Refractory Cytopenia of Childhood (RCC) is classified under the 2016 WHO category of pediatric MDS. Like adult MDS, RCC is characterized by ineffective hematopoiesis and dysplastic bone marrow morphology. The underlying epigenetic dysregulation makes it a biologically plausible target for hypomethylating agents such as decitabine. The supporting publication specifically reports decitabine use as a bridge to allogeneic hematopoietic stem cell transplantation (allo-HSCT) in children with MDS — directly encompassing RCC cases.
-
-Given the rarity of RCC and the lack of approved pediatric-specific therapies, the high TxGNN prediction score (99.03%) is clinically plausible. The model's prediction aligns with the existing single-center clinical experience, suggesting that mechanistic extrapolation from adult MDS to pediatric RCC is scientifically grounded, though rigorous prospective evidence remains limited.
-
----
+The single publication found appears to use decitabine as part of a conditioning or bridging regimen before allogeneic hematopoietic stem cell transplantation (allo-HSCT). Any benefit in children may therefore be as an adjunct to transplant, not as standalone therapy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Decitabine in Refractory Cytopenia of Childhood.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Observational (single-center retrospective) | BMC Pediatrics | 10-year single-center experience with decitabine-combined minimally myelosuppressive regimen (DAC + MMR) as bridge to allo-HSCT in children with MDS, including RCC cases; reports outcomes with this novel pre-transplant approach |
+|------|-----|------|------|---------|
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Cohort | BMC Pediatrics | Ten-year single-center experience with decitabine plus a minimally myelosuppressive regimen as a bridge to allo-HSCT in pediatric MDS. The available abstract states only the objective, not outcomes. |
 
----
+## Canada Market Information
 
-## Taiwan Market Information
+| DIN | Product Name |
+|---------|------|
+| 2484811 | DEMYLOCAN |
+| 2501600 | INQOVI |
 
-Decitabine is currently **not marketed in Taiwan**. No drug licenses or approved indications on record.
-
----
+Dosage form and approved indication text were not provided in the records.
 
 ## Cytotoxicity
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — DNA Hypomethylating Agent (nucleoside analogue / DNMT inhibitor) |
-| Myelosuppression Risk | High — decitabine causes dose-dependent and cumulative myelosuppression; neutropenia, thrombocytopenia, and anemia are among the most common and serious adverse effects |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Complete Blood Count with differential (CBC-diff), liver function tests, renal function (serum creatinine), serum electrolytes; in pediatric patients, additional growth and developmental monitoring is advisable |
-| Handling Protection | Must follow cytotoxic drug handling regulations — preparation in biological safety cabinet, use of personal protective equipment (PPE), and safe disposal per institutional cytotoxic waste protocols are required |
+Decitabine is an antineoplastic agent. The supplied records contain no toxicity data, so the entries below reflect general drug-class knowledge. Please refer to the package insert warnings and precautions.
 
----
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (hypomethylating nucleoside analogue) |
+| Myelosuppression Risk | High (cytopenias are expected with this class) |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | CBC with differential, liver and renal function |
+| Handling Protection | Follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Detailed warnings, contraindications, and drug interaction data were not available in this evidence pack and represent a blocking data gap that must be resolved before clinical decision-making.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the supplied data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence base is currently insufficient for a repurposing decision: there are no registered clinical trials specific to decitabine in RCC, only one retrospective single-center observational study exists, and critical safety data (warnings, contraindications, drug interactions) are entirely absent. Additionally, decitabine is not marketed in Taiwan, presenting a significant access and regulatory pathway barrier.
+The prediction is biologically plausible, but support is one single-center cohort study with no registered trials. Health Canada safety information is missing, and it is a blocking gap for safety screening. The paper's design suggests decitabine may serve only as a bridge to transplant.
 
 **To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications
+- Mechanism of action data (for example from DrugBank)
+- The full text of PMID 35624441, to confirm outcomes and decitabine's role relative to transplant
+- Additional pediatric MDS trials or studies, including standalone use
+- Route and formulation compatibility for children, since the dosage forms of the two Canadian products are not listed
+- Review of the two Canadian products' approved indications, including whether any covers pediatric use
 
-- **Safety data resolution (Blocking):** Obtain and parse the full prescribing information (package insert / SmPC) to extract contraindications, black box warnings, and drug interactions — this is a prerequisite for any safety evaluation
-- **MOA documentation (High priority):** Retrieve structured mechanism of action data from DrugBank API (DB01262) to support mechanistic linkage analysis
-- **Expanded literature review:** Conduct a broader PubMed search for decitabine use in pediatric MDS subtypes (including RCC, RCMD-RS) to identify additional observational evidence or case series
-- **Clinical trial landscape review:** Search ClinicalTrials.gov and ICTRP with broader terms (e.g., "decitabine AND pediatric MDS", "hypomethylating agent AND childhood MDS") to identify any ongoing or completed trials not captured under the RCC-specific query
-- **Regulatory pathway assessment:** Evaluate whether an orphan drug designation or pediatric compassionate use pathway is feasible in Taiwan for this rare pediatric indication
-- **Expert consultation:** Engage pediatric hematology-oncology specialists to assess clinical feasibility given RCC's rarity and existing transplant-first treatment paradigm
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

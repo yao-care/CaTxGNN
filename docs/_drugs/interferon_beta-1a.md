@@ -2,7 +2,7 @@
 layout: default
 title: Interferon Beta-1A
 parent: Model Prediction Only (L5)
-nav_order: 411
+nav_order: 482
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,58 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Interferon Beta-1a: From Undocumented Original Indication to Jeune Syndrome Situs Inversus
+# Interferon beta-1a: From Multiple Sclerosis to Jeune Syndrome Situs Inversus
 
 ## One-Sentence Summary
 
-The evidence pack does not contain original-indication or mechanism-of-action data for Interferon beta-1a (DrugBank DB00060), and the drug is currently **not marketed in Canada** (0 DINs).
-The TxGNN model predicts a possible link to **Jeune syndrome situs inversus** (a rare skeletal ciliopathy with visceral transposition) with a score of **97.47%**,
-but this ranks at knowledge-graph position #36,121, and **no clinical trials or literature support this specific pairing** — the model's own rationale flags the score as likely embedding-similarity noise rather than a genuine mechanistic signal.
+Interferon beta-1a is an immunomodulatory protein drug, marketed in Canada as REBIF and AVONEX and known from the literature for treating multiple sclerosis.
+The TxGNN model predicts it may be effective for **Jeune syndrome situs inversus**, a congenital ciliopathy-type skeletal disorder.
+**No clinical trials and no relevant publications** currently support this prediction, so it rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no license or indication text in evidence pack |
+| Original Indication | Multiple sclerosis (based on the published literature; the Canadian licence records provide no indication text) |
 | Predicted New Indication | Jeune syndrome situs inversus |
 | TxGNN Prediction Score | 97.47% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Interferon beta-1a in this evidence pack (`original_moa: [Data Gap]`), and no original indication is on record. Based on general pharmacological knowledge captured in the evidence pack's own rationale, interferon beta-1a acts through type I interferon receptor–mediated antiviral and immunomodulatory signaling.
+Currently, detailed mechanism of action data is not available for interferon beta-1a. Based on general knowledge, the drug acts through immunomodulatory and antiviral signalling.
 
-Jeune syndrome situs inversus is a rare congenital ciliopathy characterized by skeletal dysplasia and abnormal visceral organ positioning — a structural/developmental disorder, not an immune- or virus-mediated condition. The evidence pack's repurposing rationale explicitly states there is **no known pathway relationship** between interferon beta-1a's mechanism and this disease, and assesses the unusually high TxGNN score (0.975) as most likely reflecting knowledge-graph embedding similarity noise rather than a real mechanistic inference.
+Jeune syndrome situs inversus is a congenital skeletal disorder of the ciliopathy type. It is not primarily driven by immune dysregulation or viral infection, and **no plausible mechanistic link was identified** between interferon signalling and this disease. The high score (0.975, rank 36,121) most likely reflects knowledge-graph neighbourhood similarity rather than a therapeutic mechanism.
 
-Given the absence of any supporting clinical trials or literature (confirmed by three independent zero-result queries against ClinicalTrials.gov, ICTRP, and PubMed — query IDs 2–4 in the query log), this prediction should be treated as a low-confidence model artifact rather than a credible repurposing hypothesis at this time.
+The other nine top-ranked predictions show the same pattern. They include Pierre Robin syndrome, chromosomal deletion syndromes, orofacial clefting, Laubry-Pezzi syndrome, a congenital glycosylation disorder and two ovarian tumours. All are L5 with no supporting trials. The two ovarian tumours have only a speculative link through interferons' antiproliferative activity.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+For transparency, the 20 publications retrieved for the rank-4 candidate (a glycosylation disorder) are also unrelated to that disease. They appear to have been matched on the drug name only and cover multiple sclerosis, COVID-19, COPD exacerbations, ARDS and other topics. They do not support any predicted indication.
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 02318261 | REBIF |
+| 02237319 | REBIF |
+| 02318253 | REBIF |
+| 02269201 | AVONEX |
+| 02237320 | REBIF |
+
+---
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction carries a high TxGNN similarity score but zero corroborating clinical or literature evidence (L5), and the evidence pack's own mechanistic assessment identifies no plausible biological pathway between interferon beta-1a and this rare structural/developmental syndrome — most consistent with a knowledge-graph noise artifact rather than a testable hypothesis.
+The prediction has no clinical, preclinical or mechanistic support. The disease is a congenital ciliopathy-type disorder with no plausible interferon-responsive pathway. The high TxGNN score alone does not justify further investment.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data from DrugBank (currently `[Data Gap]`, High severity gap DG002)
-- TFDA/regulatory label warnings and contraindications (currently `[Data Gap]`, **Blocking** gap DG001 — required before any S1 safety screening)
-- Original indication and Canada licensing status, since the drug currently shows 0 DINs and "not marketed"
-- Preclinical or mechanistic studies establishing a plausible pathway between type I interferon signaling and ciliopathy/skeletal dysplasia biology, before this candidate can advance beyond S0
+- Mechanism of action data for interferon beta-1a (for example from DrugBank)
+- Health Canada package insert warnings and contraindications, which are required for any safety screening
+- Preclinical or mechanistic evidence linking interferon beta signalling to ciliopathy or skeletal-development pathways
+- A review of the other nine candidates, which currently have no supporting evidence either. Only the two ovarian tumours have even a speculative link, through interferons' antiproliferative activity
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Axicabtagene Ciloleucel
 parent: Model Prediction Only (L5)
-nav_order: 79
+nav_order: 87
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,36 +29,41 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Axicabtagene Ciloleucel: From Large B-cell Lymphoma to Crohn's Colitis
+# Axicabtagene ciloleucel: From Large B-Cell Lymphoma to Crohn's Colitis
 
 ## One-Sentence Summary
 
-Axicabtagene ciloleucel (Axi-cel; brand name Yescarta) is a CD19-directed chimeric antigen receptor T-cell (CAR-T) therapy originally developed for relapsed or refractory large B-cell lymphoma and follicular lymphoma.
-The TxGNN model predicts it may be effective for **Crohn's Colitis**, with a prediction score of 91.39%; however, **no clinical trials and no publications** currently support this specific repurposing direction, and the mechanistic rationale is notably weak.
+Axicabtagene ciloleucel (Yescarta) is an autologous anti-CD19 CAR-T cell therapy, generally used for relapsed or refractory B-cell lymphoma. The TxGNN model predicts it may be effective for **Crohn's colitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model-only prediction, so the recommendation is **Hold**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Large B-cell Lymphoma / Follicular Lymphoma (per global regulatory approvals; no Canadian authorization on record) |
-| Predicted New Indication | Crohn's Colitis |
+|------|------|
+| Original Indication | Large B-cell lymphoma (general drug knowledge; the local record contains no approved indication text) |
+| Predicted New Indication | Crohn's colitis |
 | TxGNN Prediction Score | 91.39% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, axicabtagene ciloleucel is an autologous CAR-T cell therapy in which the patient's own T cells are genetically engineered to express a chimeric antigen receptor targeting **CD19** — a surface protein expressed on normal and malignant B cells. By redirecting cytotoxic T cells to eliminate CD19-positive cells, Axi-cel achieves deep B-cell depletion in lymphoma patients. Its approved indications are B-cell malignancies, where the target antigen is constitutively expressed on tumor cells.
+Currently, detailed mechanism of action data is not available in the record. Based on known information, axicabtagene ciloleucel is an autologous CD19-directed CAR-T cell therapy. Its efficacy in B-cell malignancies rests on eliminating CD19-expressing B cells, and mechanistically that deep B-cell depletion may be relevant to immune-mediated disease.
 
-The proposed extension to Crohn's colitis rests on a theoretical premise that B-cell elimination might modulate chronic intestinal inflammation. However, the mechanistic link is weak. Crohn's colitis is predominantly driven by aberrant CD4+ T-cell responses (Th1/Th17 axis) and dysregulated innate immunity at the mucosal barrier — not by B-cell overactivity. Unlike rheumatoid arthritis, where anti-CD20 rituximab has validated B-cell depletion as a meaningful therapeutic strategy, no comparable evidence supports this approach in Crohn's disease.
+The link to Crohn's colitis is only conceptual. CD19 CAR-T is being explored more broadly in autoimmune disease, but B-cell-directed therapy has shown limited benefit in Crohn's disease. The 0.914 TxGNN score is a graph-based prediction, and no trial or publication in the data supports it.
 
-An additional safety concern further undermines this prediction: the cytokine release syndrome (CRS) associated with CAR-T infusion could plausibly worsen intestinal inflammation rather than ameliorate it. The high TxGNN score (91.39%) most likely reflects network-level graph topology similarities within the knowledge graph rather than direct biological plausibility. The mechanistic relevance is assessed as **weak**, and this repurposing direction is not currently supported by available evidence.
+Lymphodepletion and cytokine release syndrome are major safety concerns for a non-malignant indication, so the risk-benefit balance is currently unfavorable.
+
+**Other candidates in the same prediction list** (all L5, all Hold):
+- The most plausible other candidate is rheumatoid vasculitis (86.24%), where B-cell depletion is biologically relevant, but no specific evidence exists.
+- Ankylosing spondylitis has only a weak link, because its disease drivers are the TNF and IL-17/IL-23 axes.
+- Several candidates have no plausible CD19 link and likely reflect graph-topology artifacts. These are multiple endocrine neoplasia, adrenal gland hyperfunction, HER2-positive breast carcinoma, and the mastocytosis-related diseases.
+- Idiopathic aplastic anemia is a particular concern, because CAR-T-related prolonged cytopenias would be dangerous in bone marrow failure.
 
 ---
 
@@ -76,29 +81,37 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Axicabtagene ciloleucel (Yescarta) is **not currently approved or marketed in Canada**. No Drug Identification Numbers (DINs) are on record with Health Canada.
-
-> For reference: Axi-cel has received marketing authorization in the United States (FDA, October 2017), the European Union (EMA, August 2018), and several other jurisdictions for large B-cell lymphoma and follicular lymphoma. A Canadian Health Canada submission and review would be required before any authorized use in Canada.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2485648 | YESCARTA | Not listed | Not listed in the local record |
 
 ---
 
 ## Cytotoxicity
 
-Axicabtagene ciloleucel is an antineoplastic cellular immunotherapy. This section applies.
+The record has no DrugBank category or toxicity data, so this classification is inferred from the drug type.
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Immunotherapy — CAR-T cell therapy (gene-modified autologous T-cell product); not a conventional cytotoxic agent |
-| Myelosuppression Risk | High — lymphodepletion conditioning (fludarabine + cyclophosphamide) is required prior to infusion; severe and prolonged cytopenias (neutropenia, thrombocytopenia, anemia) are common post-infusion |
-| Emetogenicity Classification | Low from Axi-cel infusion itself; Moderate from the conditioning chemotherapy regimen |
-| Monitoring Items | CBC with differential (daily during hospitalization period), comprehensive metabolic panel, serum ferritin, IL-6 (CRS monitoring), continuous neurological assessment (ICANS grading), vital signs, oxygen saturation |
-| Handling Protection | Requires specialized handling per cellular and gene therapy protocols; must be prepared and administered only at certified treatment centers equipped with tocilizumab, corticosteroids, and intensive care support on standby |
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (autologous CAR-T cell therapy) |
+| Myelosuppression Risk | Prolonged cytopenias are a recognized concern with CAR-T therapy |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; at minimum, CBC and monitoring for cytokine release syndrome and neurotoxicity |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+Safety concerns noted in the candidate rationale, which are not sourced from the label:
+- Cytokine release syndrome
+- Neurotoxicity
+- Prolonged cytopenias
+- Lymphodepletion-related risks
+
+No drug-interaction records were found.
 
 ---
 
@@ -107,15 +120,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score of 91.39%, the mechanistic basis for Axi-cel in Crohn's colitis is weak — Crohn's disease is a T-cell-predominant disorder where CD19-directed B-cell depletion lacks a clear therapeutic rationale, and the CRS risk profile may actively contraindicate use in an inflamed bowel setting. With zero supporting clinical trials and zero publications (Level L5 — model prediction only), there is insufficient basis to advance this candidate.
+The prediction rests only on a model score, with no clinical trials, literature, or established mechanism for Crohn's colitis. The serious toxicity profile of CAR-T therapy is hard to justify for a non-malignant indication without supporting evidence.
 
-**To proceed with any further evaluation, the following is needed:**
-
-- **MOA data**: Retrieve full mechanism of action and target profile from DrugBank (DB13915) to confirm CD19 specificity and off-target risks
-- **Health Canada product monograph**: Obtain the Canadian package insert equivalent for complete safety, contraindication, and DDI profiling
-- **Disease biology review**: Commission a literature review on B-cell involvement in specific Crohn's colitis endotypes (e.g., antibody-positive subgroups) to reassess mechanistic plausibility
-- **CRS risk assessment in IBD**: Evaluate whether intestinal inflammation constitutes a contraindication to CAR-T infusion in this patient population
-- **Re-prioritize candidates**: Consider advancing the three indications flagged as **"Research Question"** — **rheumatoid vasculitis** (moderate mechanistic link via B-cell axis, supported by indirect Schett et al. 2023–2024 autoimmune CAR-T data), **idiopathic aplastic anemia** (emerging class-effect signal), and **ankylosing spondylitis** (emerging autoimmune CAR-T field) — before investing further in Crohn's colitis
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any clinical or preclinical evidence of CD19 CAR-T in Crohn's disease, and a comparison against approved biologics
+- Approved indication text, dosage form, and manufacturer for the Canadian license
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

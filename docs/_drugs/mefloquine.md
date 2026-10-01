@@ -2,7 +2,7 @@
 layout: default
 title: Mefloquine
 parent: Model Prediction Only (L5)
-nav_order: 492
+nav_order: 574
 evidence_level: L5
 indication_count: 0
 ---

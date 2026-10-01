@@ -2,7 +2,7 @@
 layout: default
 title: Ceftolozane
 parent: Model Prediction Only (L5)
-nav_order: 152
+nav_order: 167
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,63 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceftolozane: From Complicated Urinary Tract Infections to Ureaplasma urethritis
+# Ceftolozane: From Complicated Gram-Negative Infections to Ureaplasma Urethritis
 
 ## One-Sentence Summary
 
-Ceftolozane is a novel cephalosporin antibiotic used internationally (in combination with tazobactam) for complicated urinary tract infections (cUTI) and complicated intra-abdominal infections (cIAI), with FDA and EMA approval since 2014–2015.
-The TxGNN model predicts it may be effective for **Ureaplasma urethritis**, however this is supported by **0 clinical trials** and **0 publications** — representing model-level prediction only.
-Critically, the mechanistic rationale actively argues against this prediction: Ureaplasma organisms lack the peptidoglycan cell wall that beta-lactam antibiotics require to exert their effect.
+Ceftolozane is a cephalosporin antibacterial, marketed in Canada as ZERBAXA, and the supplied record lists no approved indication text for it.
+The TxGNN model predicts it may be effective for **Ureaplasma urethritis**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+The mechanistic review finds the prediction biologically unsupported, so the high score is most likely a model artifact.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not marketed in Canada; approved internationally for complicated UTI and complicated intra-abdominal infections (ceftolozane/tazobactam combination) |
+|------|------|
+| Original Indication | Not listed in the Canadian license record (the rationale notes point to complicated Gram-negative infections, including complicated urinary tract infection) |
 | Predicted New Indication | Ureaplasma urethritis |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, ceftolozane is a fifth-generation cephalosporin that exerts its antibacterial effect by binding to penicillin-binding proteins (PBPs) on bacterial cell walls, thereby inhibiting peptidoglycan cross-linking and causing cell lysis. It is typically combined with the beta-lactamase inhibitor tazobactam (as Zerbaxa®) to combat drug-resistant Gram-negative organisms such as *Pseudomonas aeruginosa*.
+Detailed mechanism-of-action data is not available in the supplied record. Ceftolozane is a cephalosporin, and cephalosporins inhibit penicillin-binding proteins and bacterial cell wall synthesis. Ceftolozane is paired with tazobactam and was developed for Gram-negative rods such as *Pseudomonas* and Enterobacterales.
 
-However, the TxGNN prediction of Ureaplasma urethritis presents a fundamental mechanistic mismatch. *Ureaplasma urealyticum* belongs to the class Mollicutes, which entirely lacks a peptidoglycan cell wall — the very target through which beta-lactam antibiotics (including ceftolozane) work. Without PBP targets, ceftolozane has no established mechanism of action against Ureaplasma, and current standard-of-care guidelines recommend macrolides (azithromycin) or tetracyclines (doxycycline) for this pathogen.
+On this evidence, the prediction is **not reasonable**. *Ureaplasma* species have no cell wall, so beta-lactam antibiotics are intrinsically inactive against them. The high TxGNN score (99.89%) most likely reflects graph propagation from the antibacterial drug class, not a real biological signal.
 
-This prediction most likely arises from indirect knowledge graph node connections (e.g., ceftolozane → urinary tract infections → urethritis → Ureaplasma urethritis) rather than a genuine mechanistic or clinical relationship. The high TxGNN score (99.89%) reflects graph topology proximity, not biological plausibility.
+Other urogenital predictions from the same model were reviewed as well. Gonococcal urethritis is plausible only in general terms, and ceftriaxone already covers it. Uterine inflammatory disease is weak, because the infections are polymicrobial and involve atypical organisms and anaerobes that ceftolozane covers poorly. Urogenital tuberculosis is unlikely, because *M. tuberculosis* produces a beta-lactamase (BlaC) that breaks down most cephalosporins.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for ceftolozane and Ureaplasma urethritis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for ceftolozane and Ureaplasma urethritis.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Ceftolozane is currently not approved or marketed in Canada. No Drug Identification Numbers (DINs) are on record.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2446901 | ZERBAXA | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
-
-## Appendix: Additional Predicted Indications (Ranks 2–10)
-
-The following table summarizes the remaining TxGNN-predicted indications and their scientific viability, to provide a complete picture of the model's output for this drug.
-
-| Rank | Disease | Score | Evidence Level | Assessment |
-|------|---------|-------|---------------|------------|
-| 1 | Ureaplasma urethritis | 99.89% | L5 | **Biologically implausible** — Ureaplasma lacks cell wall (no PBP target for beta-lactams) |
-| 2 | Gonococcal urethritis | 99.89% | L5 | **Theoretically possible** but no MIC data or clinical trials; not in CDC/WHO STI guidelines |
-| 3 | Uterine inflammatory disease | 99.88% | L5 | **Incomplete coverage** — PID requires anaerobic cover; ceftolozane alone is insufficient |
-| 4 | Xanthogranulomatous pyelonephritis | 99.88% | L4 | **Indirect support only** — ceftolozane/tazobactam approved for cUTI; XGP usually requires surgery |
-| 5 | Polyclonal hyperviscosity syndrome | 99.52% | L5 | **Biologically implausible** — immunoglobulin disorder unrelated to antibacterial mechanism |
-| 6 | Hyperamylasemia | 99.52% | L5 | **Biologically implausible** — metabolic marker; beta-lactams may cause this as a side effect, not treat it |
-| 7 | Urogenital tuberculosis | 99.50% | L5 | **Biologically implausible** — MTB expresses BlaC beta-lactamase; ceftolozane not active against MTB |
-| 8 | Congenital analbuminemia | 99.44% | L5 | **Biologically implausible** — genetic albumin synthesis disorder; graph artifact via protein-binding nodes |
-| 9 | Blood group incompatibility | 99.22% | L5 | **Biologically implausible** — ABO/Rh immune reaction; no antibacterial relevance |
-| 10 | Premalignant hematological disease | 99.11% | L5 | **Biologically implausible** — clonal stem cell disorder; ceftolozane has no antiproliferative mechanism |
-
-> **Note:** Rank 4 (xanthogranulomatous pyelonephritis) is the only prediction with any indirect mechanistic support, given the established approval of ceftolozane/tazobactam for complicated UTI/acute pyelonephritis. However, XGP is a rare chronic condition typically requiring nephrectomy, and no XGP-specific trials exist. This could be considered a **Research Question** for case-report or retrospective study design.
+Please refer to the package insert for safety information. No drug interaction records were found in the queried database.
 
 ---
 
@@ -113,19 +94,16 @@ The following table summarizes the remaining TxGNN-predicted indications and the
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (Ureaplasma urethritis) is biologically implausible — ceftolozane's mechanism of action requires a peptidoglycan cell wall target that Ureaplasma organisms do not possess. Across all 10 predicted indications, 9 are rated L5 (model prediction only) with no supporting evidence, and several carry mechanistic arguments actively opposing the prediction. The one indication with marginal support (xanthogranulomatous pyelonephritis, L4) is a rare surgical condition where antibiotics play only an adjunctive role.
+The prediction has no trial or literature support (L5). It also conflicts with basic microbiology: *Ureaplasma* lacks a cell wall, so a cell-wall inhibitor is expected to be inactive.
 
 **To proceed, the following is needed:**
+- In vitro susceptibility data for ceftolozane against *Ureaplasma* species. Without this the prediction cannot advance.
+- Health Canada package insert warnings, contraindications and approved indications, which are missing from the current record.
+- Mechanism-of-action data from DrugBank.
 
-- **MOA data (DG002):** Obtain complete mechanism of action from DrugBank API to enable proper mechanistic link analysis
-- **Canada regulatory data:** Investigate Health Canada DPD for any ceftolozane/tazobactam (Zerbaxa®) submissions or compassionate-use programs
-- **Re-rank predictions:** Consider filtering out predictions with explicit mechanistic counter-evidence before investing in further evidence collection
-- **Refocus on rank 4 (XGP) if pursuing UTI space:** Conduct a targeted literature search for case reports of ceftolozane use in complex/recurrent pyelonephritis to assess if a retrospective case series is feasible
-- **Gonococcal urethritis (rank 2):** If pursuing STI indications, commission in vitro MIC susceptibility testing for *N. gonorrhoeae* as a minimal pre-clinical data requirement before any clinical hypothesis generation
+**Related lead:** Among the other predictions, xanthogranulomatous pyelonephritis (score 99.88%) is rated L4 and "Research Question". It is a chronic kidney infection related to the on-label complicated urinary tract infection use. The only supporting paper is a general review of febrile urinary tract infection and pyelonephritis (PMID [26658652](https://pubmed.ncbi.nlm.nih.gov/26658652/), 2016), which offers only indirect support. This is a more sensible direction to explore than Ureaplasma urethritis, though surgery remains the main treatment.
 
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

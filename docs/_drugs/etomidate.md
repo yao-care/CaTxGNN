@@ -2,7 +2,7 @@
 layout: default
 title: Etomidate
 parent: Model Prediction Only (L5)
-nav_order: 309
+nav_order: 363
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Carfilzomib
 parent: Model Prediction Only (L5)
-nav_order: 143
+nav_order: 158
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,91 +29,101 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Carfilzomib: From Multiple Myeloma to CMM7 (Cutaneous Malignant Melanoma 7)
+# Carfilzomib: From Multiple Myeloma to Melanoma (Lead Prediction: CMM7)
 
 ## One-Sentence Summary
 
-Carfilzomib is a second-generation irreversible proteasome inhibitor, originally approved for the treatment of relapsed or refractory multiple myeloma. The TxGNN model predicts it may be effective for **CMM7 (Cutaneous Malignant Melanoma 7)**, a genetic subtype of cutaneous malignant melanoma, with **0 clinical trials** and **0 publications** directly supporting this specific indication. Broader preclinical evidence for the general melanoma indication (TxGNN rank 5) comprises 5 publications, all at the in vitro or computational level, with no clinical data yet available.
+Carfilzomib is an irreversible proteasome inhibitor, marketed in Canada as KYPROLIS. It is known as a myeloma drug, although the Canadian licence records here contain no indication text.
+The TxGNN model predicts it may be effective for **CMM7** and four other melanoma-type conditions, each scoring above 99%.
+Evidence is thin: **0 clinical trials** for any prediction and **5 preclinical or computational publications**, all under the general "melanoma" prediction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Relapsed or Refractory Multiple Myeloma |
-| Predicted New Indication | CMM7 (Cutaneous Malignant Melanoma 7) |
+|------|------|
+| Original Indication | Not stated in the Canadian licence data. The literature describes carfilzomib as a frontline anti-myeloma drug (multiple myeloma) |
+| Predicted New Indication | CMM7 (a melanoma-related condition) |
 | TxGNN Prediction Score | 99.37% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 for CMM7 (model prediction only); L4 for the general "melanoma" prediction |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
+
+**All predictions returned (all melanoma-related):**
+
+| Rank | Predicted Indication | Score | Evidence Level | Recommendation |
+|------|------|------|------|------|
+| 1 | CMM7 | 99.37% | L5 | Hold |
+| 2 | Pediatric leptomeningeal melanoma | 99.30% | L5 | Hold |
+| 3 | Epithelioid cell uveal melanoma | 99.23% | L5 | Hold |
+| 4 | Vulvar melanoma | 99.19% | L5 | Hold |
+| 5 | Melanoma | 99.03% | L4 | Research Question |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on established pharmacological knowledge, Carfilzomib is a second-generation, selective, irreversible inhibitor of the 20S proteasome's chymotrypsin-like (β5), trypsin-like (β2), and caspase-like (β1) catalytic subunits. By blocking protein degradation, it causes accumulation of ubiquitinated proteins, triggers endoplasmic reticulum (ER) stress, and drives caspase-mediated apoptosis. This mechanism has been clinically validated in multiple myeloma, where malignant plasma cells are highly dependent on proteasome activity for survival.
+Detailed mechanism-of-action data are not available in the record. Carfilzomib is an irreversible inhibitor of the 20S proteasome. Its efficacy in myeloma is well known. Mechanistically, blocking proteasome-dependent survival pathways could also matter in melanoma.
 
-CMM7 is a genetic classification of cutaneous malignant melanoma. Melanoma cells, like myeloma cells, frequently exhibit upregulated proteasome activity and dependence on NF-κB pro-survival signaling — both of which are disrupted by proteasome inhibition. Preclinical in vitro evidence (PMID 33671902) demonstrates that carfilzomib, both alone and in combination with bortezomib, induces apoptosis in B16-F1 melanoma cells through activation of caspases 3, 8, 9, and 12. This mechanistic overlap provides the theoretical basis for the TxGNN model's prediction cluster across multiple melanoma subtypes (ranks 1–5).
+The only direct support is a 2021 cell-line study in murine B16-F1 melanoma cells. It reported that carfilzomib combined with bortezomib increased apoptosis, with caspase activation. This is preclinical and indirect. It does not show benefit in humans.
 
-However, solid tumors — including melanoma — generally show substantially lower sensitivity to proteasome inhibitors than hematologic malignancies. The CMM7 genetic subtype lacks any direct clinical or preclinical evidence in the current literature, and the prediction remains entirely model-driven for this specific subtype.
+For the specific predictions, the link is weaker:
+- **CMM7:** no CMM7-specific mechanism is supported by the data.
+- **Pediatric leptomeningeal melanoma:** CNS penetration is uncertain, and paediatric safety and pharmacokinetics cannot be assessed.
+- **Epithelioid cell uveal melanoma:** uveal melanoma is biologically different from cutaneous melanoma, so cutaneous preclinical data cannot be assumed to transfer.
+- **Vulvar melanoma:** the link rests on the shared melanoma ontology, with no mucosal-melanoma data.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials for Carfilzomib in CMM7 (Cutaneous Malignant Melanoma 7) are registered.
+Currently no related clinical trials registered, for CMM7 or for any of the other four predictions.
 
 ---
 
 ## Literature Evidence
 
-No literature directly addressing Carfilzomib in CMM7 is currently available.
-
-**Supplementary Context — Broader Melanoma Evidence (TxGNN Rank 5, Score 99.03%, Evidence Level L4)**
-
-The following preclinical publications are identified under the **melanoma** indication and provide indirect mechanistic context for the CMM7 prediction:
+Nothing was retrieved for CMM7. The five publications below were retrieved for the general **melanoma** prediction (rank 5).
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | In vitro | Biology | Carfilzomib + bortezomib induces apoptosis in B16-F1 melanoma cells via caspase 3/8/9/12 activation; provides direct evidence for proteasome inhibition in melanoma |
-| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Computational | J Biomol Struct Dyn | Molecular docking and MD simulation screening of clinical drugs against 18 cancer kinase targets including melanoma; carfilzomib identified as active |
-| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Preclinical mechanistic | Mol Cancer Res | ZANF2a (AIRAP) gene regulates cell survival in human melanoma via E3-ligase cIAP2 and the proteasome pathway; mechanistic link to proteasome dependency |
-| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Preclinical | Leukemia | PROTAC-mediated BRD4 degradation via proteasomal pathway is active in myeloma models; broader implication that proteasome pathway is druggable across cancer types |
-| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Preclinical mechanistic | Matrix Biol | Carfilzomib activates NF-κB to upregulate heparanase in tumor cells; potential unintended pro-tumorigenic effect on tumor microenvironment warrants monitoring |
-
-> ⚠️ All five publications are Tier 3 (in vitro, computational, or preclinical mechanistic). None constitute clinical evidence. The last publication (PMID 27016342) raises a cautionary signal: carfilzomib-induced NF-κB activation may paradoxically upregulate heparanase, potentially promoting angiogenesis and metastasis in solid tumors.
+|------|-----|------|------|---------|
+| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | In vitro (murine cell line) | Biology | Carfilzomib plus bortezomib induced apoptosis in B16-F1 melanoma cells, with activation of caspases 3, 8, 9 and 12 |
+| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Computational | J Biomol Struct Dyn | Docking and dynamics screening of clinical drugs against cancer kinase targets across ten cancer types, including melanoma. The direct link to carfilzomib is unclear from the available text |
+| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Preclinical mechanistic | Mol Cancer Res | The AIRAP-like gene (ZFAND2A) regulates cell survival in human melanoma via the E3 ligase cIAP2. The direct link to carfilzomib is unclear from the available text |
+| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Preclinical mechanistic | Leukemia | BET-targeting PROTACs, which degrade BET proteins via the proteasome, were active in multiple myeloma models. Melanoma relevance is indirect |
+| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Preclinical mechanistic | Matrix Biol | Bortezomib and carfilzomib activated NF-κB and raised heparanase expression in tumour cells, which is associated with a more aggressive phenotype. This is a possible resistance or safety signal |
 
 ---
 
 ## Canada Market Information
 
-Carfilzomib currently holds **no Drug Identification Numbers (DINs)** in Canada and is classified as not marketed. No regulatory license data is available in the current dataset.
+| DIN | Product Name |
+|---------|------|
+| 2459949 | KYPROLIS |
+| 2451034 | KYPROLIS |
+| 2459930 | KYPROLIS |
+
+Dosage form and approved indication text are not recorded for these licences.
 
 ---
 
 ## Cytotoxicity
 
-Carfilzomib is an antineoplastic agent classified as a targeted therapy. Its original indication (multiple myeloma) confirms antineoplastic status.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Second-generation irreversible proteasome inhibitor (Epoxyketone class) |
-| Myelosuppression Risk | High — Thrombocytopenia and anemia are common dose-limiting toxicities; neutropenia also reported |
-| Emetogenicity Classification | Low to Moderate |
-| Monitoring Items | CBC with differential (weekly during cycle 1), serum creatinine (renal function), cardiac function (LVEF by ECHO, blood pressure monitoring), pulmonary function (dyspnea assessment) |
-| Handling Protection | Must follow cytotoxic drug handling regulations; IV administration requires trained oncology nursing staff |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (proteasome inhibitor), used as an anticancer agent |
 
-> ⚠️ **Cardiac toxicity is a distinguishing safety concern for Carfilzomib** relative to other proteasome inhibitors. Cardiac failure, hypertension, and reduced LVEF have been reported. This is especially relevant if exploring use in solid tumor populations with different baseline cardiac risk profiles than myeloma patients.
+Please refer to the package insert warnings and precautions for myelosuppression risk, emetogenicity, monitoring items and handling protection.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found in the dataset.
 
-> Full prescribing information (warnings, contraindications) was not available in the current Evidence Pack. Retrieval of TFDA/Health Canada product monograph is identified as a blocking data gap (DG001) that must be resolved before any safety assessment can proceed.
+One preclinical signal is worth noting (PMID 27016342): proteasome inhibitors upregulated heparanase through NF-κB, which is linked to a more aggressive tumour phenotype.
 
 ---
 
@@ -122,15 +132,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model generates a high prediction score (99.37%) for CMM7, but no clinical trials or CMM7-specific publications have been identified, placing this at Evidence Level L5 (model prediction only). The mechanistic rationale is theoretically plausible — melanoma shares some proteasome dependence with myeloma — but solid tumors historically show poor clinical response to proteasome inhibitors, and the CMM7 genetic subtype adds an additional layer of specificity with no supporting data.
+The top four predictions are model signals only (L5), with no trials or literature. The general melanoma prediction has only preclinical or computational support (L4) and no human efficacy or safety data.
 
 **To proceed, the following is needed:**
-- Retrieve Health Canada / TFDA product monograph to resolve the blocking safety data gap (DG001) before any repurposing assessment can advance to S1 stage
-- Obtain complete Carfilzomib MOA and toxicity profile from DrugBank API (DG002)
-- Determine the molecular characteristics of CMM7 (specific mutations, pathway dependencies) to assess whether proteasome inhibition is mechanistically relevant to this subtype
-- Review in vitro sensitivity data for CMM7 cell lines (if available) to CMM7-specific proteasome inhibitor treatment
-- Evaluate the cautionary signal from PMID 27016342 (NF-κB/heparanase induction) before advancing any solid tumor study design
-- If proceeding to research stage, prioritize CMM7-specific in vitro experiments and consider combination strategies (e.g., with MEK or BRAF inhibitors where applicable) to overcome solid tumor resistance
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism-of-action data from DrugBank
+- Approved indication text and dosage forms for the three KYPROLIS DINs
+- Melanoma-specific preclinical work, in vivo where possible, testing carfilzomib alone rather than only in combination with bortezomib
+- Clarification of what "CMM7" refers to, and a subtype-specific rationale for the uveal, vulvar and paediatric leptomeningeal predictions
+- Route-of-administration compatibility assessment, including CNS penetration for the leptomeningeal setting
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

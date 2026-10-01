@@ -2,15 +2,15 @@
 layout: default
 title: Nitisinone
 parent: Moderate Evidence (L3-L4)
-nav_order: 552
-evidence_level: L3
+nav_order: 650
+evidence_level: L4
 indication_count: 10
 ---
 
 # Nitisinone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Nitisinone (NTBC) is an HPPD inhibitor whose established clinical role is managing hereditary tyrosinemia type 1 (HT-1), preventing accumulation of the toxic tyrosine-pathway metabolites that damage the liver and kidneys. The TxGNN model predicts a strong signal for **Renal Tubular Acidosis**, supported by **2 publications** and **0 registered clinical trials** — evidence that describes a known complication-improvement within HT-1 patients rather than an independent new disease population.
+Nitisinone (NTBC) is a marketed drug used to treat hereditary tyrosinemia type 1 (HT-1). The TxGNN model predicts it may be effective for **renal tubular acidosis**, with **0 clinical trials** and **2 publications** supporting this direction. Both publications concern HT-1 patients, so the evidence is indirect.
 
 ---
 
@@ -41,23 +41,23 @@ Nitisinone (NTBC) is an HPPD inhibitor whose established clinical role is managi
 
 | Item | Content |
 |------|------|
-| Original Indication | Hereditary Tyrosinemia Type 1 (HT-1) |
-| Predicted New Indication | Renal Tubular Acidosis |
+| Original Indication | Hereditary tyrosinemia type 1 (HT-1); inferred from the literature, as the license records contain no indication text |
+| Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 8 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD), blocking the tyrosine catabolic pathway upstream and preventing formation of toxic intermediates such as fumarylacetoacetate and succinylacetone.
+Detailed mechanism-of-action data is not available in the record. From the supporting analysis, nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase. This blocks formation of the toxic metabolites succinylacetone and maleylacetoacetate in HT-1.
 
-In untreated or inadequately treated HT-1 patients, these metabolites accumulate in the proximal renal tubules and cause Fanconi syndrome-type renal tubular acidosis, alongside the well-known hepatic toxicity. Because nitisinone blocks the metabolite generation directly, its renal tubular benefit is a pharmacologically direct and well-understood extension of its existing mechanism in HT-1 — not a mechanistically novel repurposing.
+HT-1 damages both the liver and the kidney, including a Fanconi-type proximal tubulopathy with acidosis. The two retrieved papers report that renal tubular dysfunction improved in HT-1 patients on nitisinone. This is a secondary tubulopathy that resolves once the underlying metabolic disease is controlled. It is only indirect evidence for primary or other forms of renal tubular acidosis.
 
-It is worth noting that this is fundamentally an improvement of an HT-1 disease complication in patients already being treated with nitisinone for their primary diagnosis, rather than a new indication in an unrelated disease population. The remaining TxGNN top-10 predictions (galactosemia, serpinopathy, C1 inhibitor deficiency, glycogen storage diseases, Griscelli syndrome, chronic granulomatous disease, ermine phenotype) have no supporting literature or trials and no plausible mechanistic link to HPPD inhibition — these most likely reflect knowledge-graph embedding similarity among rare metabolic/genetic disease nodes rather than genuine pharmacological relationships, and are appropriately scored L5/Hold.
+The high score, without any trials, is therefore best read as a research question about **HT-1-associated tubulopathy**, not general renal tubular acidosis repurposing. The other nine predicted indications (for example galactosemia, C1 inhibitor deficiency and glycogen storage diseases) have no identified mechanistic link and no clinical evidence. They are likely knowledge-graph proximity artifacts.
 
 ---
 
@@ -71,35 +71,44 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Cohort | Molecular Genetics and Metabolism | Describes early effect of NTBC on renal tubular dysfunction in HT-1 patients, evaluating whether nitisinone therapy improves proximal tubular function. |
-| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Case series | Indian Journal of Gastroenterology | Case series of 4 children with tyrosinemia treated with NTBC; those remaining on therapy showed normal liver function and no renal tubular complications. |
+| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Cohort | Molecular Genetics and Metabolism | Describes the early effect of NTBC on renal tubular dysfunction in HT-1 patients. Nitisinone has transformed HT-1 management, but its effect on the tubular disease had been poorly studied. |
+| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Case series | Indian Journal of Gastroenterology | Four children with tyrosinemia treated with NTBC. Three children on treatment for almost 3 years had normal liver function, undetectable urine succinylacetone and no portal hypertension. The abstract is truncated on renal outcomes. |
 
 ---
 
 ## Canada Market Information
 
-Nitisinone is not currently marketed in Canada (0 DINs on record). No product license data is available.
+| DIN | Product Name |
+|---------|------|
+| 2469693 | ORFADIN |
+| 2457733 | MDK-NITISINONE |
+| 2459728 | ORFADIN |
+| 2457725 | MDK-NITISINONE |
+| 2459698 | ORFADIN |
+
+Five of the 8 authorizations are shown. Dosage form and approved-indication text are not available in the record.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: the source safety data pack flags an unresolved **Blocking**-severity gap (Canadian labelled warnings/contraindications not yet obtained), which prevents a full safety pre-screen (S1) at this time.
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The HPPD-inhibition mechanism gives a clear, direct pharmacological basis for benefit in HT-1-associated renal tubular acidosis, and two cohort/case-series publications support it — but this describes a complication benefit within the existing HT-1 population, evidence is limited to non-RCT study designs (L3), and the drug is not currently marketed in Canada.
+No clinical trials exist, and the two supporting publications address renal tubulopathy secondary to HT-1, not renal tubular acidosis in general. The high model score alone does not justify moving forward, so the candidate stays a research question.
 
 **To proceed, the following is needed:**
-- Canadian product monograph / labelled warnings and contraindications (currently a Blocking data gap)
-- Formal confirmation of original mechanism of action and approved indication documentation
-- Clarification of regulatory pathway given the drug has 0 DINs / no current Canadian market presence
-- Additional prospective or controlled evidence beyond the existing cohort and case-series data
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data, for example from DrugBank, to support the mechanistic-link analysis
+- Verification of the study designs and full abstracts of the two papers, since classifications were inferred from titles and abstracts
+- A decision on whether to narrow the question to HT-1-associated tubulopathy, with a defined study population and outcome measures
+- Review of the approved indication text for the Canadian licenses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Tryptophan
 parent: Moderate Evidence (L3-L4)
-nav_order: 809
+nav_order: 947
 evidence_level: L3
 indication_count: 8
 ---
@@ -29,69 +29,96 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-# Tryptophan: From Dietary Supplement to Restless Legs Syndrome
+# Tryptophan: Predicted New Indication, Restless Legs Syndrome
 
 ## One-Sentence Summary
 
-> Tryptophan is an essential amino acid and serotonin precursor; specific original therapeutic indications and regulatory approval data for Canada are not currently available.
-> The TxGNN model predicts it may be effective for **Restless Legs Syndrome**,
-> with **0 clinical trials** and **8 publications** currently supporting this direction, most of which are older, small-scale, or indirect studies.
+Tryptophan is an essential amino acid and a precursor of serotonin and melatonin, and it is marketed in Canada under 20 licences.
+The TxGNN model predicts it may be effective for **Restless Legs Syndrome (RLS)**.
+Support is limited: **0 registered clinical trials** and **8 publications**, of which only two are small studies from the 1980s that directly examine tryptophan.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in regulatory data (no approved license on file); used generally as an essential amino acid / serotonin precursor |
-| Predicted New Indication | Restless Legs Syndrome |
+| Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 99.72% |
 | Evidence Level | L3 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Tryptophan is an essential amino acid classified as a dietary/nutritional supplement and serves as the metabolic precursor of serotonin (via 5-HTP) and subsequently melatonin. It is not currently marketed in Canada under an approved indication, so a direct comparison between an "original indication" and the predicted new indication cannot be made.
+Currently, detailed mechanism of action data is not available. Based on known information, tryptophan is the dietary precursor of serotonin and melatonin. Its role in sleep and mood regulation is well recognised, and mechanistically it may be applicable to restless legs syndrome.
 
-Mechanistically, restless legs syndrome (RLS) involves central monoaminergic and dopaminergic dysregulation, along with disturbances in iron metabolism. Since tryptophan is the biosynthetic precursor of serotonin, there is a plausible but indirect rationale for its involvement in RLS pathophysiology. However, the mainstream understanding of RLS centers on the dopaminergic system and iron metabolism rather than serotonin, and the literature identified for this prediction explicitly characterizes the serotonergic link as weak and indirect. The supporting evidence largely consists of small, decades-old clinical observations and unrelated case reports rather than a well-established causal pathway.
+RLS is thought to involve the dopaminergic system, and serotonergic and dopaminergic signalling interact. A related paper on DNAJC12 deficiency, an inherited disorder with impaired dopamine and serotonin neurotransmission, reports RLS as a feature. This supports a monoamine-pathway link, but it is not tryptophan-specific evidence.
+
+Direct clinical support is thin. It consists of two small 1980s studies: one on L-tryptophan in RLS (Sandyk, 1986) and one on periodic leg movements with L-dopa, 5-hydroxytryptophan and L-tryptophan (Guilleminault, 1987). No modern controlled trials were retrieved.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3953904](https://pubmed.ncbi.nlm.nih.gov/3953904/) | 1986 | Small clinical trial | The American Journal of Psychiatry | Early small-scale clinical trial evaluating L-tryptophan for the treatment of restless legs syndrome |
-| [3659737](https://pubmed.ncbi.nlm.nih.gov/3659737/) | 1987 | Small clinical study | Sleep | Compared periodic leg movement responses to L-dopa, 5-hydroxytryptophan, and L-tryptophan |
-| [33836477](https://pubmed.ncbi.nlm.nih.gov/33836477/) | 2021 | Systematic review | Sleep Medicine Reviews | RLS in chronic liver disease patients linked to elevated tryptophan, histamine, and dopamine turnover disturbances; also implicates iron metabolism changes |
-| [1305630](https://pubmed.ncbi.nlm.nih.gov/1305630/) | 1992 | Review | The International Journal of Neuroscience | Reviews L-tryptophan/serotonin involvement across neuropsychiatric conditions including motor disorders |
-| [2881477](https://pubmed.ncbi.nlm.nih.gov/2881477/) | 1987 | Review | American Family Physician | General review of insomnia diagnosis and treatment; tangential relevance to RLS as a differential diagnosis |
-| [32546134](https://pubmed.ncbi.nlm.nih.gov/32546134/) | 2020 | Pharmacovigilance/postmarketing | BMC Psychiatry | Postmarketing pharmacovigilance study assessing antidepressant classes' association with movement disorders |
-| [36897462](https://pubmed.ncbi.nlm.nih.gov/36897462/) | 2023 | Case report (genetic) | Neurological Sciences | RLS reported in a patient with DNAJC12 deficiency, a disorder affecting dopaminergic/serotoninergic neurotransmission |
-| [1777530](https://pubmed.ncbi.nlm.nih.gov/1777530/) | 1991 | Case report | Biological Psychiatry | Case report of RLS induced by lithium, illustrating monoamine-system involvement in RLS but unrelated to tryptophan |
+| [3953904](https://pubmed.ncbi.nlm.nih.gov/3953904/) | 1986 | Clinical study (small) | Am J Psychiatry | L-Tryptophan in the treatment of restless legs syndrome. This is the most direct evidence, but the study is small and old, and no abstract was available. |
+| [3659737](https://pubmed.ncbi.nlm.nih.gov/3659737/) | 1987 | Clinical study | Sleep | Periodic leg movement, L-dopa, 5-hydroxytryptophan and L-tryptophan compared. No abstract was available. |
+| [1305630](https://pubmed.ncbi.nlm.nih.gov/1305630/) | 1992 | Review | Int J Neurosci | L-tryptophan in neuropsychiatric disorders. Describes serotonin's role in sleep, mood and motor behaviour, and in movement disorders such as akathisia. |
+| [33836477](https://pubmed.ncbi.nlm.nih.gov/33836477/) | 2021 | Systematic review/meta-analysis | Sleep Med Rev | RLS in chronic liver disease. Mentions elevated tryptophan as one possible contributor to sleep disturbance, but is not tryptophan-specific. |
+| [36897462](https://pubmed.ncbi.nlm.nih.gov/36897462/) | 2023 | Case series | Neurol Sci | RLS in DNAJC12 deficiency, a disorder of dopaminergic and serotonergic neurotransmission. Indirect monoamine-pathway link. |
+| [32546134](https://pubmed.ncbi.nlm.nih.gov/32546134/) | 2020 | Pharmacovigilance | BMC Psychiatry | Antidepressant-associated movement disorders. Indirect link through serotonergic drugs. |
+| [1777530](https://pubmed.ncbi.nlm.nih.gov/1777530/) | 1991 | Case report | Biol Psychiatry | Lithium-induced RLS. Not tryptophan-directed. |
+| [2881477](https://pubmed.ncbi.nlm.nih.gov/2881477/) | 1987 | Review | Am Fam Physician | Diagnosis and treatment of insomnia. Only peripherally relevant. |
+
+---
 
 ## Canada Market Information
 
-Tryptophan currently has no marketed authorizations on file in Canada (0 DINs; market status: Not Marketed). No approved indication text is available for comparison.
+Tryptophan holds 20 licences in Canada. Five main authorisations are listed below. The records do not include dosage form or approved indication text.
+
+| DIN | Product Name |
+|---------|------|
+| 00654531 | TRYPTAN |
+| 02239327 | TRYPTAN |
+| 02458721 | APO-TRYPTOPHAN |
+| 00718149 | TRYPTAN |
+| 02240333 | TEVA-TRYPTOPHAN |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Key Warning**: L-tryptophan supplements contaminated during manufacture were linked to eosinophilia-myalgia syndrome (EMS), a serious and sometimes fatal condition. A safety review is needed before any new study. Related EMS clinical evaluation is registered as [NCT00001918](https://clinicaltrials.gov/study/NCT00001918).
+
+For other safety information, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link between tryptophan and RLS is explicitly characterized as weak and indirect in the underlying evidence, there are no clinical trials directly testing tryptophan in RLS, and the drug is not currently marketed in Canada with any approved indication. Combined with a complete absence of safety/regulatory label data, the evidence base does not yet support advancing beyond a research hypothesis stage.
+The TxGNN score is high, and a serotonin-dopamine mechanism is plausible. However, the only direct clinical data are two small studies from the 1980s, and no trials are registered. The EMS history also calls for a safety review before further work.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada package insert data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action (MOA) documentation from DrugBank or other authoritative source
-- A defined original indication and regulatory history for comparison
-- Dedicated clinical trials or controlled studies evaluating tryptophan specifically for RLS (current literature is largely observational, decades-old, or only tangentially related)
+- Mechanism of action data to support the serotonergic-dopaminergic link
+- Health Canada package insert warnings and contraindications
+- A review of the 1986 and 1987 studies, then a modern, adequately powered, placebo-controlled RLS trial if the findings hold up
+- A safety plan covering EMS and product quality or purity requirements
+
+Insomnia is another predicted indication for tryptophan, with stronger supporting evidence (L2). It may be a better first research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

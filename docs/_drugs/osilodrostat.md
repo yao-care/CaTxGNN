@@ -2,7 +2,7 @@
 layout: default
 title: Osilodrostat
 parent: Model Prediction Only (L5)
-nav_order: 583
+nav_order: 683
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the report template directly (this is a document-generation task from a provided Evidence Pack, not a coding task — no skill applies here).
-
-# Osilodrostat: From Cortisol-Synthesis Inhibition to Familial Generalized Lentiginosis
+# Osilodrostat: From Cortisol-Lowering Therapy (Cushing's Syndrome) to Familial Generalized Lentiginosis
 
 ## One-Sentence Summary
 
-Osilodrostat is a CYP11B1 (11β-hydroxylase) inhibitor that blocks adrenal cortisol synthesis; the evidence pack does not record its approved original indication directly, but its mechanism is consistent with use in endogenous hypercortisolism (e.g. Cushing's disease). The TxGNN model's top-ranked prediction is **familial generalized lentiginosis**, a rare pigmentation disorder with **no clinical trials and no literature** currently supporting the link, and the drug's own repurposing rationale explicitly states there is no known mechanistic connection between cortisol-synthesis inhibition and this condition.
+Osilodrostat is generally known as a cortisol-lowering drug that inhibits adrenal steroid synthesis. The TxGNN model predicts it may be effective for **familial generalized lentiginosis**, a rare pigmentary disorder. This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone and the mechanism points in a doubtful, possibly adverse direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (`original_indications` empty); mechanism (adrenal cortisol synthesis inhibition) is consistent with hypercortisolism/Cushing's disease |
+| Original Indication | Not listed in the Canadian license records; generally known as a treatment for endogenous Cushing's syndrome |
 | Predicted New Indication | Familial generalized lentiginosis |
 | TxGNN Prediction Score | 98.19% |
-| Evidence Level | L5 (model prediction only — no clinical trials, no literature) |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is marked as a data gap (DG002, High severity) in this evidence pack. Based on the mechanistic notes attached to the predictions themselves, Osilodrostat is a CYP11B1 (11β-hydroxylase) inhibitor acting on the adrenal cortisol biosynthesis pathway — the pharmacology underlying its known use in cortisol-excess conditions.
+Currently, detailed mechanism of action data is not available in the evidence pack. Osilodrostat is generally known as an 11-beta-hydroxylase (CYP11B1) inhibitor. By blocking this enzyme, it lowers cortisol production in the adrenal gland.
 
-Familial generalized lentiginosis is an autosomal pigmentation disorder with no established connection to cortisol synthesis or adrenal steroidogenesis. The evidence pack's own rationale is explicit on this point: the TxGNN score likely reflects proximity through indirect graph nodes (e.g. shared gene-regulation nodes) rather than any pharmacological mechanism.
+The link to the predicted indication is weak. Lowering cortisol raises ACTH through feedback, and higher ACTH can increase melanocortin signaling and skin pigmentation. For a pigmentary disorder like familial generalized lentiginosis, the expected effect could therefore be neutral or even harmful. No supported mechanistic link has been identified.
 
-This pattern repeats across all 10 ranked candidates in this pack (acromelanosis, several rare pigmentary/dysmorphic syndromes, and two oncology diagnoses — rhabdoid tumor and peripheral nerve schwannoma). Every candidate carries an evidence level of L5, decision stage S0, and an explicit "no known mechanistic link" statement. This is a case where the knowledge-graph model surfaced high similarity scores without any corroborating pharmacological, trial, or literature signal — the predictions should be treated as hypothesis-generating only.
+The high score most likely reflects similarity between pigmentation-related diseases in the knowledge graph, not a real pharmacological relationship. The other nine top predictions are also L5 and Hold. They include acromelanosis, Moynahan syndrome, rhabdoid tumor and peripheral nerve schwannoma. None has clinical evidence or a plausible pathway from adrenal steroidogenesis inhibition.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-Osilodrostat is not currently marketed in Canada (0 DINs on file), so no product listing table is available.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2558920 | ISTURISA | Not listed | Not listed |
+| 2558912 | ISTURISA | Not listed | Not listed |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all marked as blocking/unavailable in this evidence pack — DG001, Blocking severity — so no drug-specific safety statements can be made at this time.)
+Please refer to the package insert for safety information.
+
+No drug interaction records were found for this drug in the evidence pack.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature support, an explicit absence of mechanistic plausibility per the model's own rationale, and a blocking safety data gap (no TFDA/product-label warnings or contraindications available). Evidence level is L5 — score-only — which does not meet the bar to proceed even under guardrails.
+The prediction has no trials or literature, and the known mechanism (cortisol suppression with a compensatory ACTH rise) could worsen pigmentation instead of treating it. Safety data are also missing, so the candidate cannot move to safety screening.
 
 **To proceed, the following is needed:**
-- TFDA (or equivalent regulatory) product label with warnings and contraindications (DG001, blocking)
-- Confirmed mechanism of action and original approved indication (DG002)
-- Independent mechanistic rationale connecting cortisol-synthesis inhibition to pigmentation disorders, or reprioritization toward a candidate indication with biological plausibility
-- If pursued further, consider re-screening the remaining 9 ranked candidates in this pack — all currently share the same L5/Hold status and lack of mechanistic support
+- The Health Canada package insert (warnings, contraindications, approved indication, dosage forms)
+- Confirmed mechanism of action data from DrugBank
+- A mechanistic rationale showing a beneficial direction of effect in pigmentary disease
+- Any preclinical or clinical evidence for this indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

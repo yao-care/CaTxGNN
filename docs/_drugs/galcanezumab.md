@@ -2,7 +2,7 @@
 layout: default
 title: Galcanezumab
 parent: Model Prediction Only (L5)
-nav_order: 357
+nav_order: 422
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,35 +29,41 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Galcanezumab: From Migraine Prevention to Heparin Cofactor 2 Deficiency
+# Galcanezumab: From Migraine to Heparin Cofactor 2 Deficiency
 
 ## One-Sentence Summary
 
-Galcanezumab (Emgality) is a humanized anti-CGRP monoclonal antibody approved internationally for the preventive treatment of migraine and episodic cluster headache. The TxGNN model predicts it may be effective for **Heparin Cofactor 2 Deficiency**, with **0 clinical trials** and **0 publications** currently supporting this direction. The mechanistic link between CGRP blockade and coagulation pathway disorders remains highly indirect and biologically contradictory.
+Galcanezumab is an anti-CGRP monoclonal antibody used for migraine and cluster headache.
+The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency**, but there are **0 clinical trials** and **0 publications** supporting this, and no plausible mechanistic link was found.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Migraine prevention; episodic cluster headache (not marketed in Canada) |
-| Predicted New Indication | Heparin Cofactor 2 Deficiency |
+|------|------|
+| Original Indication | Migraine and cluster headache (taken from the prediction rationale; license indication text is not available) |
+| Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Galcanezumab is a humanized IgG4 monoclonal antibody that selectively binds calcitonin gene-related peptide (CGRP), a vasoactive neuropeptide released from trigeminal nerve endings during migraine attacks. By preventing CGRP from binding to its receptor on cranial blood vessels, galcanezumab reduces neurogenic vasodilation and inflammation — the mechanism underlying migraine prevention. Its pharmacological action is highly selective to the trigeminovascular system with no established role in haemostasis or coagulation.
+Galcanezumab is a monoclonal antibody that neutralizes calcitonin gene-related peptide (CGRP), a neuropeptide involved in migraine. Detailed mechanism of action data is not available from the source record, so this description comes from the prediction rationale.
 
-Heparin Cofactor II (HCII, encoded by SERPIND1) is a serine protease inhibitor that inactivates thrombin in the presence of heparin or dermatan sulphate. Deficiency of HCII theoretically impairs the auxiliary anticoagulant pathway, increasing thrombotic risk. The knowledge graph analysis proposes an indirect linkage through the sequence CGRP → vascular endothelial function → coagulation regulation; however, this is a three-or-more-step indirect connection for which no experimental or clinical evidence exists. Furthermore, there is a fundamental directional problem: galcanezumab *blocks* CGRP, whose physiological role includes vasodilation and mild inhibition of platelet aggregation — the net effect of CGRP blockade could theoretically be mildly pro-thrombotic, which would be contraindicated in a patient population already at higher thrombotic risk.
+**No plausible mechanistic link was found.** Heparin cofactor 2 deficiency is a hereditary loss of a serpin (SERPIND1) that inhibits thrombin. Blocking CGRP neither replaces nor restores this protein. The high score of 0.995 most likely reflects knowledge-graph topology rather than biology, and it cannot be checked against known pharmacology because the original MOA record is missing.
 
-The same directional contradiction applies to the second (antithrombin deficiency type 2) and third (factor 5 excess with spontaneous thrombosis) ranked predictions, both of which involve pro-coagulant or anti-anticoagulant states. The TxGNN high scores in all three cases most likely reflect shared network topology within the knowledge graph — adjacency to vascular and endothelial nodes — rather than genuine therapeutic relevance. These predictions are best treated as graph artefacts until mechanistic or empirical evidence emerges.
+The two next-ranked predictions show the same pattern:
+
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Antithrombin deficiency type 2 | 99.41% | No link. Anti-CGRP therapy acts on neuropeptide signalling, not the coagulation cascade. Likely a graph artifact. |
+| 3 | Factor 5 excess with spontaneous thrombosis | 99.41% | No link. Galcanezumab has no known effect on factor V, thrombin generation or platelet function. |
 
 ---
 
@@ -73,9 +79,23 @@ Currently no related literature available.
 
 ---
 
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2491087 | EMGALITY |
+| 2505134 | EMGALITY |
+| 2491060 | EMGALITY |
+
+Dosage form and approved indication text are not available in the source record.
+
+---
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+No drug interaction records were found. Any thrombosis-related concern with CGRP-pathway drugs would be a separate safety question, not a therapeutic indication.
 
 ---
 
@@ -84,14 +104,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All three TxGNN-predicted indications involve rare coagulation disorders, and the mechanism by which CGRP blockade could benefit any of these conditions is not only unsubstantiated but directionally contradictory — blocking a vasodilatory, mildly antithrombotic peptide in patients predisposed to thrombosis raises a theoretical safety concern rather than a treatment opportunity. With zero supporting clinical trials or publications (Evidence Level L5), there is insufficient basis to proceed.
+The prediction is a model output only (L5), with no trials, no literature and no plausible biological mechanism. The three predictions for this drug are all coagulation disorders with no shared pathway with CGRP, so they are likely knowledge-graph artifacts.
 
-**To proceed, the following would be needed:**
-- Formal MOA characterisation: Confirm whether galcanezumab has any off-target effects on coagulation factors, thrombin activity, or endothelial haemostatic function (in-vitro or preclinical data).
-- Mechanistic hypothesis validation: Identify a plausible, direct biological pathway — not merely a graph-adjacency path — linking CGRP antagonism to HCII, antithrombin, or Factor V regulation.
-- Safety signal review: Screen pharmacovigilance databases (FDA FAERS, EudraVigilance) for any reported thrombotic adverse events associated with galcanezumab or other anti-CGRP agents (erenumab, fremanezumab, eptinezumab), which would further inform whether CGRP blockade carries prothrombotic risk.
-- Canada regulatory filing: Galcanezumab currently holds no DINs in Canada; any repurposing development would require a de-novo regulatory pathway. Confirm whether Health Canada has received any investigational submissions for galcanezumab to date.
-- Evidence re-evaluation: If future mechanistic data reveals a plausible link, reassign to a new evidence-gathering cycle targeting these specific coagulation indications.
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications. This is currently a blocking gap for safety screening.
+- Mechanism of action data from DrugBank, to allow a formal mechanistic-link analysis.
+- Approved indication text, dosage forms and manufacturers for the three DINs.
+- Any preclinical or clinical evidence linking CGRP signalling to SERPIND1, thrombin inhibition or the coagulation cascade. Without it, this candidate should not advance beyond S0.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

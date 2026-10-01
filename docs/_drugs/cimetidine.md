@@ -2,7 +2,7 @@
 layout: default
 title: Cimetidine
 parent: Model Prediction Only (L5)
-nav_order: 173
+nav_order: 193
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,37 +29,37 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Cimetidine: From Peptic Ulcer Disease to Smouldering Systemic Mastocytosis
+# Cimetidine: From Acid-Related Gastric Conditions to Smouldering Systemic Mastocytosis
 
 ## One-Sentence Summary
 
-Cimetidine is a histamine H2-receptor antagonist with a decades-long history of use in peptic ulcer disease and conditions of gastric acid hypersecretion.
-The TxGNN model predicts it may be effective for **Smouldering Systemic Mastocytosis (SSM)**, ranking it as the top novel repurposing candidate with a prediction score of **99.80%**.
-However, **no clinical trials** and **no publications** were identified specifically supporting this indication, placing the entire evidence base at model-prediction level only.
+Cimetidine is an H2 receptor antagonist that reduces stomach acid, and it is best known for ulcer-type conditions.
+The TxGNN model predicts it may be effective for **Smouldering Systemic Mastocytosis**,
+but currently **0 clinical trials** and **0 publications** support this prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Peptic ulcer disease; gastric acid hypersecretion conditions |
-| Predicted New Indication | Smouldering Systemic Mastocytosis |
+|------|------|
+| Original Indication | Not stated in the supplied Canadian licence records (acid-related gastric conditions inferred from drug class) |
+| Predicted New Indication | Smouldering systemic mastocytosis |
 | TxGNN Prediction Score | 99.80% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this Evidence Pack. Based on contextual information embedded in the evidence records, cimetidine is a competitive antagonist at the histamine H2 receptor on gastric parietal cells. By blocking H2 receptors, it suppresses histamine-stimulated gastric acid secretion and reduces intragastric acidity — the core pharmacological action underlying its established use in peptic ulcer disease.
+Currently, detailed mechanism of action data is not available. Based on known information, cimetidine belongs to the H2 receptor antagonist class. Its efficacy in acid-related gastric disease is well established, and mechanistically it may be applicable to mast cell disease.
 
-In systemic mastocytosis, clonal mast cells accumulate in organs and continuously release histamine in large quantities. This triggers a cascade of H1- and H2-mediated symptoms including gastric acid hypersecretion, abdominal cramping, and diarrhoea. The mechanistic connection is therefore direct and logical: blocking H2 receptors should attenuate the acid hypersecretion component of mast cell mediator release. In clinical practice, combination H1 + H2 blockade is already a cornerstone of mastocytosis symptom management, making cimetidine's mechanistic fit conceptually sound.
+Mastocytosis involves excess mast cells that release histamine. Histamine drives gastric acid hypersecretion and gastrointestinal symptoms such as pain and reflux. Blocking H2 receptors could therefore ease these symptoms.
 
-Smouldering Systemic Mastocytosis (SSM) sits in the middle of the severity spectrum — higher mast cell burden than indolent mastocytosis, but without end-organ damage meeting the criteria for aggressive disease. Effective symptom control in SSM is therefore clinically meaningful. However, the TxGNN prediction remains at the hypothesis level for this specific subtype: no clinical trials or publications specific to cimetidine in SSM were retrieved. The prediction likely reflects graph-level proximity between the H2-receptor pharmacological node and histamine-driven disease nodes in the knowledge graph, rather than empirically validated efficacy.
+This would be symptom control, not disease modification. Nothing in the supplied data shows that cimetidine changes the course of smouldering systemic mastocytosis. The prediction is likely driven by shared mast cell and histamine biology, and no clinical data back it.
 
 ---
 
@@ -77,13 +77,20 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Cimetidine is not currently marketed in Canada. The regulatory query returned zero active Drug Identification Numbers (DINs) and no licence records. Should a repurposing programme for SSM be pursued, a full regulatory filing from first principles would be required in the Canadian market.
+| DIN | Product Name |
+|---------|------|
+| 584215 | CIMETIDINE |
+| 487872 | CIMETIDINE |
+
+Dosage form and approved indication text were not available for these two licences.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction database returned no records for cimetidine, which is probably a data gap rather than proof of no interactions. Separate pharmacokinetic studies in the wider literature report that cimetidine raised blood levels of proguanil and mefloquine (PMIDs 10701981, 11420885), which fits its known inhibition of drug metabolism.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -92,16 +99,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's mechanistic logic is coherent — cimetidine's H2 blockade directly addresses one of the primary pathophysiological drivers of mastocytosis symptoms — but the complete absence of clinical trial and published literature evidence for this specific subtype (SSM) means there is currently no empirical foundation on which to advance a repurposing decision.
+The prediction has a high model score (99.80%) but no supporting trials or publications. At best, the mechanism would give symptom relief, not disease control.
 
 **To proceed, the following is needed:**
-
-- **Retrieve the full product monograph / package insert** to complete the safety assessment, including warnings, contraindications, and drug interactions — currently a blocking data gap
-- **Confirm the mechanism of action** via DrugBank or an equivalent validated source — required for mechanistic link analysis
-- **Targeted literature review** for H2-receptor antagonists (cimetidine, ranitidine, famotidine) in systemic mastocytosis broadly, and SSM specifically, to determine whether existing clinical use already constitutes de facto evidence
-- **Guideline review** — confirm whether current mastocytosis management guidelines (e.g., ECNM, NCCN) already recommend H2 blockers as standard of care; if so, this is an established use rather than novel repurposing and the decision framework changes
-- **Comparative assessment against lower-ranked predictions**: Predictions at ranks 2–7 (particularly active peptic ulcer disease at L1, gastrojejunal ulcer at L3, and duodenogastric reflux at L3) carry substantially stronger evidence and may represent more actionable repurposing candidates in the near term
-- **Market access strategy**: Given zero current Canadian market presence, a parallel regulatory pathway analysis is needed before any development investment is committed
+- A targeted literature search on H2 blockers, including cimetidine, in mastocytosis
+- Mechanism of action data from DrugBank
+- The Health Canada package insert (warnings, contraindications, labeled indications)
+- A complete drug interaction check, since cimetidine is a known inhibitor of drug metabolism
+- A clear clinical question: symptom control in mast cell patients, or a disease-modifying claim (no evidence supplied)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

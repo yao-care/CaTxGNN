@@ -2,7 +2,7 @@
 layout: default
 title: Fluorouracil
 parent: Model Prediction Only (L5)
-nav_order: 338
+nav_order: 395
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorouracil: From Colorectal Cancer to Botryoid-type Embryonal Rhabdomyosarcoma of the Vagina
+# Fluorouracil: From Antimetabolite Chemotherapy to Botryoid-type Embryonal Rhabdomyosarcoma of the Vagina
 
 ## One-Sentence Summary
 
-Fluorouracil (5-FU) is a pyrimidine antimetabolite and foundational chemotherapy agent, used in combination regimens for colorectal, gastric, breast, and head and neck cancers worldwide.
-The TxGNN model predicts it may be effective for **Botryoid-type Embryonal Rhabdomyosarcoma of the Vagina**, an extremely rare pediatric soft tissue malignancy.
-This prediction is currently supported by **no clinical trials and no published literature**, placing it at evidence level L5 — hypothesis-generating only.
-
----
+Fluorouracil is a thymidylate synthase-inhibiting antimetabolite chemotherapy that is marketed in Canada.
+The TxGNN model predicts it may be effective for **botryoid-type embryonal rhabdomyosarcoma of the vagina**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Canada (no DINs found in regulatory database) |
+|------|------|
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 (model prediction only, no actual studies) |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 7 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Fluorouracil is a fluoropyrimidine antimetabolite that acts through two parallel pathways: (1) it inhibits thymidylate synthase (TS), blocking de novo thymidine biosynthesis and stalling DNA replication; and (2) it incorporates into RNA as a fraudulent nucleotide, disrupting RNA processing and protein synthesis. This dual DNA/RNA interference mechanism explains its broad cytotoxic activity and its role as the backbone of FOLFOX, FOLFIRI, and FOLFIRINOX regimens in gastrointestinal oncology.
+Detailed mechanism of action data is not available in the record. Fluorouracil is known as an antimetabolite that inhibits thymidylate synthase, giving it broad cytotoxic activity against rapidly dividing tumour cells. Mechanistically, it could be applicable to a fast-growing sarcoma such as rhabdomyosarcoma.
 
-Botryoid-type embryonal rhabdomyosarcoma (ERMS) of the vagina is an ultra-rare subtype occurring almost exclusively in young girls, and belongs to the rhabdomyosarcoma (RMS) family of soft tissue sarcomas. The established standard of care for RMS is VAC chemotherapy (vincristine + actinomycin-D + cyclophosphamide) with or without local therapy. While 5-FU's TS inhibition could theoretically suppress rapidly proliferating RMS cells, fluoropyrimidines have never appeared in IRS/COG RMS treatment guidelines, and no preclinical or mechanistic studies have investigated 5-FU in this histological subtype specifically.
+This prediction should be read cautiously. The score most likely reflects graph proximity among rhabdomyosarcoma subtypes rather than independent evidence. Standard rhabdomyosarcoma regimens do not centre on fluorouracil, and this rare vaginal subtype has no supporting trials or literature.
 
-The high TxGNN score (99.75%) for this indication most likely reflects indirect graph propagation within the knowledge graph — the model infers a path through "soft tissue tumor → chemotherapy-sensitive → pyrimidine metabolism" shared neighbors — rather than a direct biological link. The extreme rarity of botryoid vaginal ERMS, together with the complete absence of clinical or preclinical data, means this prediction should be treated as a hypothesis-generating signal only, not a clinical recommendation. Notably, all top-ranked predictions cluster into two biologically distinct groups: RMS subtypes (ranks 1–7) and sickle cell variants (ranks 8–10), with the sickle cell predictions showing identical TxGNN scores, strongly suggesting batch false-positives from a shared ancestor node in the knowledge graph.
-
----
+The same pattern appears in the other top-ranked predictions:
+- **Rhabdomyosarcoma subtypes** (parameningeal, prostate, extrahepatic bile duct): scores of about 99.7%, with no direct evidence. They appear to be graph-adjacent duplicates of the parent rhabdomyosarcoma prediction.
+- **Rhabdomyosarcoma (parent term)**: five retrieved papers from 1973–1991, all indirect (general paediatric sarcoma chemotherapy, nasopharyngeal carcinoma, head and neck intra-arterial chemotherapy). None shows a fluorouracil-specific benefit.
+- **Liver sarcoma**: five matched trials, but all concern colorectal cancer, hepatocellular carcinoma or general solid tumours, not sarcoma of the liver.
+- **Sickle cell syndromes** (three predictions, identical scores): likely a knowledge-graph artefact from hydroxyurea-like antimetabolite similarity. Fluorouracil's myelosuppression is a safety concern in these patients.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 12882 | FLUOROURACIL INJECTION |
+| 330582 | EFUDEX |
+| 2485346 | TOLAK |
+| 2473763 | FLUOROURACIL INJECTION |
+| 2473771 | FLUOROURACIL INJECTION |
+
+Seven authorizations are recorded in total; the five above are shown. Dosage form and approved indication text are not available in the records provided.
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic (Fluoropyrimidine class) |
-| Myelosuppression Risk | Moderate to High — leukopenia, thrombocytopenia, and anemia are common dose-limiting toxicities; life-threatening myelosuppression may occur in patients with dihydropyrimidine dehydrogenase (DPD) deficiency |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (weekly during treatment), liver function tests, renal function, electrolytes; DPYD genotyping or DPD enzyme phenotyping recommended before initiation to screen for deficiency |
-| Handling Protection | Must follow cytotoxic drug handling regulations; closed-system drug transfer devices (CSTDs) required for preparation and administration; personnel protective equipment mandatory |
-
----
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine antimetabolite) |
+| Myelosuppression Risk | Medium to high, depending on regimen (neutropenia and thrombocytopenia are common with systemic use) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | CBC with differential, liver and renal function, electrolytes |
+| Handling Protection | Follow cytotoxic drug handling regulations. Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score, this is an L5-level prediction with zero clinical trial or literature support; the model score reflects knowledge graph topology rather than validated biology. Botryoid vaginal ERMS is an ultra-rare tumor with an established VAC-based treatment standard, and fluoropyrimidines have no established role in any RMS guideline.
+The prediction is supported only by a high model score (99.75%) that likely reflects graph proximity among rhabdomyosarcoma subtypes. There are no trials or publications for this rare vaginal subtype, and fluorouracil is not a standard rhabdomyosarcoma agent.
 
 **To proceed, the following is needed:**
+- Full-text review of the rhabdomyosarcoma literature to confirm whether fluorouracil was actually studied in rhabdomyosarcoma patients
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Confirmed mechanism of action data from DrugBank
+- Approved indication text and dosage forms for the Canadian licenses, to assess route compatibility
+- Any registered or published evidence specific to embryonal rhabdomyosarcoma, or a decision to focus on the parent rhabdomyosarcoma prediction instead
 
-- **In vitro cytotoxicity profiling**: Establish 5-FU IC50 against representative RMS cell lines (RD, Rh30, SMS-CTR) to determine baseline sensitivity
-- **Biomarker assessment**: Thymidylate synthase (TS) expression and DPD enzyme activity profiling in pediatric ERMS tumor samples
-- **Preclinical in vivo data**: Xenograft model experiments in pediatric RMS mouse models before any clinical hypothesis is considered
-- **Safety data gap**: Obtain Health Canada–approved package insert for warnings, contraindications, and pediatric dosing guidance (currently a blocking data gap per DG001)
-- **MOA documentation**: Formal retrieval of DrugBank mechanism of action data (data gap DG002) to support mechanistic rationale
-- **Regulatory pathway assessment**: Pediatric oncology indications in Canada require special consideration under Health Canada's pediatric framework; early regulatory consultation is recommended before advancing any hypothesis
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

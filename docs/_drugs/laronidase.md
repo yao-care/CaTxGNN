@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Laronidase
-parent: Model Prediction Only (L5)
-nav_order: 445
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 521
+evidence_level: L4
 indication_count: 2
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Laronidase: From Mucopolysaccharidosis I to Lysosomal Storage Disease with Skeletal Involvement
+# Laronidase: From Mucopolysaccharidosis Type I to Lysosomal Storage Disease with Skeletal Involvement
 
 ## One-Sentence Summary
 
-Laronidase (recombinant human alpha-L-iduronidase) is the enzyme replacement therapy already used worldwide for Mucopolysaccharidosis I (MPS I). TxGNN's top prediction — "lysosomal storage disease with skeletal involvement" — is not a genuinely new indication but a near-synonym for the skeletal manifestations of MPS I itself, supported by **4 publications** (no dedicated clinical trials) rather than novel repurposing evidence. The drug is currently **not marketed in Taiwan** (0 licenses on file), so the practical question here is market access, not drug discovery.
+Laronidase is a recombinant human alpha-L-iduronidase enzyme replacement therapy, marketed in Canada as ALDURAZYME. The TxGNN model predicts it may be effective for **lysosomal storage disease with skeletal involvement**, but there are **0 registered clinical trials** and only **4 publications** (reviews, a case report and an in vitro study), none a skeletal-outcome trial. The prediction most likely restates the drug's existing MPS I use rather than a true new indication.
 
 ---
 
@@ -41,23 +41,23 @@ Laronidase (recombinant human alpha-L-iduronidase) is the enzyme replacement the
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in Taiwan regulatory data (drug unmarketed); internationally approved for Mucopolysaccharidosis I (MPS I, alpha-L-iduronidase deficiency) |
+| Original Indication | Not stated in the licence record; mucopolysaccharidosis type I (MPS I) inferred from the drug's mechanism |
 | Predicted New Indication | Lysosomal storage disease with skeletal involvement |
 | TxGNN Prediction Score | 99.31% |
-| Evidence Level | L3 (observational/cohort evidence; no completed RCTs specific to this label) |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Licenses | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-`original_moa` is marked as a data gap in the DrugBank record field, but the literature in this evidence pack directly describes the mechanism: laronidase is a recombinant form of human alpha-L-iduronidase, the lysosomal enzyme absent in MPS I. It is taken up by fibroblasts and osteoblasts mainly via mannose-6-phosphate receptors and transported to lysosomes, where it degrades the accumulated glycosaminoglycans (dermatan sulfate, heparan sulfate) responsible for the disease (PMID 18758061).
+Detailed mechanism-of-action data is not available in the supplied record. Laronidase is known to be recombinant alpha-L-iduronidase. It replaces the lysosomal enzyme that is deficient in MPS I (Hurler, Hurler-Scheie and Scheie syndromes). Without the enzyme, the glycosaminoglycans dermatan sulfate and heparan sulfate accumulate in tissues, and this accumulation drives skeletal disease (dysostosis multiplex).
 
-The predicted indication, "lysosomal storage disease with skeletal involvement," is essentially the same disease process laronidase was built for — skeletal dysplasia and joint stiffness are core, well-documented features of MPS I (PMID 25345091). This is best understood as the model **re-identifying an already-known indication** rather than proposing a new mechanistic hypothesis: the drug-disease link is direct and causal (enzyme replaces the missing enzyme), not inferential.
+The predicted indication is a broad category that overlaps heavily with MPS I skeletal disease. The prediction therefore probably maps onto the drug's existing MPS I use, so it is unlikely to be true repurposing. The empty original-indication field looks like a data-source omission, not evidence that the drug is unapproved for this use.
 
-TxGNN also flagged a second candidate, **Sanfilippo syndrome (MPS III)**, with a similar score (99.22%) but a much weaker rationale: Sanfilippo results from deficiency of different enzymes in the heparan sulfate pathway (SGSH/NAGLU/HGSNAT/GNS), not alpha-L-iduronidase. Every retrieved publication for this candidate actually discusses laronidase in MPS I, not Sanfilippo — none provide direct evidence of efficacy in Sanfilippo syndrome. This score is best explained by network similarity between lysosomal storage diseases rather than a real pharmacological link, and the corresponding recommendation is **Hold**.
+The literature supports the mechanism only. An in vitro study (PMID 18758061) shows that laronidase is taken up by cultured fibroblasts and osteoblasts, mainly through mannose 6-phosphate receptors. The enzyme then travels to lysosomes and cleaves accumulated substrate. This is consistent with a skeletal-tissue effect, but it is not clinical proof.
 
 ---
 
@@ -71,37 +71,41 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatric Endocrinology Reviews | Describes MPS I disease spectrum (Hurler, Scheie, Hurler-Scheie), including skeletal involvement; diagnosis via urine GAGs and enzyme assay |
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Review/Drug monograph | BioDrugs | BioMarin's development of laronidase as ERT for MPS I; received US/EU orphan drug designation and FDA fast-track status |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Cohort | Pediatric Neurology | 6.5-year follow-up of ERT in a Scheie syndrome patient, including skeletal radiographs; overall status declined despite treatment |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Mechanistic/In-vitro | Biological & Pharmaceutical Bulletin | Laronidase is taken up dose-dependently by MPS I fibroblasts/osteoblasts via mannose-6-phosphate receptors, confirming lysosomal delivery mechanism |
+| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Review | Pediatric Endocrinology Reviews | Overview of MPS I: alpha-L-iduronidase deficiency, glycosaminoglycan accumulation, and the Hurler, Hurler-Scheie and Scheie spectrum |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Drug review | BioDrugs | Early development profile of laronidase as MPS I enzyme replacement therapy, with orphan drug designation and fast-track review |
+| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Case report | Pediatric Neurology | 6.5-year follow-up of a boy with Scheie syndrome on enzyme replacement; overall status declined and the disease progressed despite treatment |
+| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | Preclinical (in vitro) | Biological & Pharmaceutical Bulletin | Laronidase was taken up by MPS I fibroblasts and osteoblasts via M6P receptors and reached lysosomes |
 
 ---
 
-## Taiwan Market Information
+## Canada Market Information
 
-Laronidase is not currently marketed in Taiwan — no licenses (許可證) are on file, and no product/dosage-form data is available.
+| DIN | Product Name |
+|---------|------|
+| 2254506 | ALDURAZYME |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: TFDA label warnings/contraindications could not be retrieved for this drug (data gap, Blocking severity) — this must be resolved before any safety pre-assessment (S1) can be completed.
+Please refer to the package insert for safety information. No drug interactions were found in the supplied data.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The top prediction is mechanistically sound because it is functionally the drug's already-established indication (MPS I with skeletal involvement) rather than a novel repurposing hypothesis, so pharmacological risk is low. However, this is currently unsupported by dedicated clinical trials in the evidence pack and the drug is unmarketed in Taiwan, so any path forward is a market-access/registration exercise, not new drug development. The second candidate, Sanfilippo syndrome, lacks mechanistic and evidentiary support and should be held.
+The TxGNN score is high (99.31%), but no clinical trials are registered for this indication and the literature is limited to reviews, a case report and in vitro work. The prediction also appears to overlap with the drug's existing MPS I use rather than represent new repurposing. Safety information from Health Canada is still missing.
+
+Note on the second-ranked prediction, Sanfilippo syndrome (score 99.22%): the link is weak and probably a knowledge-graph artifact. Sanfilippo syndrome (MPS III) involves deficiency of different enzymes, is mainly a CNS disease, and intravenous enzyme therapy has limited blood-brain barrier penetration. All supplied literature concerns MPS I, so it should stay on Hold.
 
 **To proceed, the following is needed:**
-- TFDA label data (warnings/contraindications) — currently a Blocking data gap preventing safety pre-assessment
-- Confirmed DrugBank/manufacturer mechanism-of-action documentation (to formally replace the current "[Data Gap]" MOA field)
-- Regulatory pathway assessment for Taiwan market entry (e.g., via existing Aldurazyme approvals in other jurisdictions)
-- No further action recommended on the Sanfilippo syndrome candidate absent disease-specific preclinical or clinical evidence
+- Confirm the approved indication on the Health Canada product monograph and check whether the prediction duplicates MPS I
+- Obtain warnings and contraindications from the Health Canada package insert
+- Obtain mechanism of action data from DrugBank
+- Search for clinical data on skeletal outcomes (e.g., joint range of motion, skeletal radiographs) in MPS I patients treated with laronidase
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

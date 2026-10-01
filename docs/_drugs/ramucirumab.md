@@ -2,7 +2,7 @@
 layout: default
 title: Ramucirumab
 parent: Model Prediction Only (L5)
-nav_order: 665
+nav_order: 786
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ramucirumab: From VEGFR2-Targeted Antiangiogenic Therapy to Uterine Ligament Adenocarcinoma
+# Ramucirumab: From Gastric/GEJ Adenocarcinoma to Uterine Ligament Adenocarcinoma
 
 ## One-Sentence Summary
 
-Ramucirumab (DB05578) is a VEGFR2-targeted monoclonal antibody that inhibits tumour angiogenesis; the evidence pack does not record a specific original indication or formal mechanism-of-action text (both flagged as data gaps).
-The TxGNN model predicts it may be effective for **uterine ligament adenocarcinoma**, but this is currently a **model-score-only prediction** — **0 clinical trials** and **0 publications** support this specific indication.
+Ramucirumab (marketed in Canada as CYRAMZA) is an anti-angiogenic cancer drug. The evidence pack's rationale text links it to gastric/gastroesophageal junction adenocarcinoma, but the Canadian licence data list no approved indication.
+The TxGNN model predicts it may be effective for **uterine ligament adenocarcinoma**, along with nine other gynecologic adenocarcinoma subtypes.
+This is a model prediction only: **0 clinical trials** and **0 publications** support it so far.
 
 ---
 
@@ -42,51 +43,62 @@ The TxGNN model predicts it may be effective for **uterine ligament adenocarcino
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in evidence pack (`original_indications` empty; MOA marked as data gap) |
+| Original Indication | Not listed in the Canadian licence data (the evidence pack's rationale text mentions gastric/GEJ adenocarcinoma) |
 | Predicted New Indication | Uterine ligament adenocarcinoma |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
+
+The other top-10 predictions are all gynecologic adenocarcinoma subtypes, scored 99.94–99.95%, and all sit at L5 with a Hold recommendation:
+- endocervical carcinoma
+- adenoid cystic carcinoma of the cervix uteri
+- uterine ligament serous adenocarcinoma
+- signet ring cell variant cervical mucinous adenocarcinoma
+- cervical adenosquamous carcinoma, glassy cell variant
+- uterine ligament endometrioid adenocarcinoma
+- uterine ligament clear cell adenocarcinoma
+- uterine ligament mucinous adenocarcinoma
+- intestinal variant cervical mucinous adenocarcinoma
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (marked as a data gap in the evidence pack). Based on the information that is available in the repurposing rationale, Ramucirumab is a VEGFR2 (vascular endothelial growth factor receptor 2) monoclonal antibody that inhibits tumour angiogenesis — a mechanism class shared with bevacizumab, which is already approved for cervical cancer.
+Currently, detailed mechanism of action data is not available in the supplied data. Based on known drug-class information, ramucirumab is a VEGFR2 antagonist, and anti-angiogenic therapy is biologically plausible in gynecologic adenocarcinomas. This reasoning comes from the drug's known class, not from the supplied data.
 
-Gynecologic adenocarcinomas, including uterine ligament and cervical adenocarcinoma subtypes, are generally considered to have high angiogenic dependence, which provides a plausible theoretical rationale for anti-VEGFR2 therapy in this setting. However, this link is drawn purely by mechanistic analogy — there is no direct clinical or preclinical data connecting Ramucirumab specifically to uterine ligament adenocarcinoma, and the drug's own original indication record is missing from this evidence pack, so the analogy cannot be cross-checked against its proven use.
+Blocking the VEGF pathway already has precedent in cervical cancer (bevacizumab). Ramucirumab is also used in gastric/GEJ adenocarcinoma, so there is a loose conceptual parallel to adenocarcinomas of the female genital tract. Some predicted histologies resemble gastrointestinal adenocarcinoma, such as the signet ring and intestinal variants. Anti-angiogenic therapy has also been explored in endometrial-type cancers.
 
-Given the rarity and pathological heterogeneity of the predicted indication (and related subtypes ranked #2–#10, all rare cervical/uterine ligament adenocarcinoma variants), the prediction should be treated as a hypothesis-generating signal rather than an evidence-supported candidate at this stage.
+The very high score probably reflects ontology proximity to related cervical and uterine carcinoma nodes rather than direct clinical evidence. Several of the predicted histologies are very rare, which makes the rationale indirect. The mechanistic link is a hypothesis only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Ramucirumab is currently **not marketed** in Canada under this evidence pack (`market_status: Not marketed`), with **0 DIN licenses** on record. No product listings are available to summarize.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2443805 | CYRAMZA | Not specified | Not specified |
 
 ---
 
 ## Cytotoxicity
 
-Ramucirumab is being evaluated exclusively against cancer indications (all top-10 predicted indications are adenocarcinoma subtypes), so this section is included.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (VEGFR2-targeted monoclonal antibody, anti-angiogenic) — inferred from the repurposing rationale text, not from a formal DrugBank category field |
+| Cytotoxicity Classification | Targeted therapy (VEGFR2 antagonist monoclonal antibody), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -105,13 +117,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.95%), there is zero clinical trial or literature support for this indication (Evidence Level L5), and a **Blocking**-severity data gap (TFDA labeling/warnings, DG001) prevents even an initial safety screen (S1). The drug is also unmarketed in Canada.
+The prediction is supported only by the TxGNN score (about 99.95%). There are no registered trials and no literature for any of the top 10 predicted indications. The mechanistic link is inferred from drug class, and no safety data are available.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory label with warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action data from DrugBank (DG002, High)
-- Confirmed original indication(s) for baseline mechanistic comparison
-- Any preclinical or early-phase evidence specific to uterine ligament/cervical adenocarcinoma subtypes before advancing past S0
+- Health Canada package insert warnings and contraindications (this blocks safety screening)
+- Mechanism of action data from DrugBank
+- The approved indication text and dosage form for DIN 2443805
+- A search of clinical trial registries and the literature for ramucirumab in cervical and uterine adenocarcinomas
+- A comparison of the predicted indications with the original indication, and a route-of-administration compatibility check
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

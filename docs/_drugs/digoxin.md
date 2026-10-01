@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Digoxin
-parent: Model Prediction Only (L5)
-nav_order: 242
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 281
+evidence_level: L4
 indication_count: 6
 ---
 
 # Digoxin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Digoxin: From Heart Failure to Prinzmetal Angina
+# Digoxin: From Cardiac Glycoside Therapy to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Digoxin is a well-established cardiac glycoside with decades of clinical use in managing heart failure and atrial fibrillation.
-The TxGNN model predicts it may be effective for **Prinzmetal Angina**, with **0 clinical trials** and **2 publications** currently supporting this direction.
-Critically, the available mechanistic evidence suggests this prediction may be **physiologically contraindicated** rather than beneficial — warranting a firm Hold recommendation.
-
----
+Digoxin is a cardiac glycoside marketed in Canada under 8 licences.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this rests on a graph-based score with **0 clinical trials** and only **2 loosely related publications**.
+Mechanistic reasoning suggests digoxin could be counterproductive in this condition.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available in Evidence Pack (Digoxin is classically used for heart failure and atrial fibrillation) |
-| Predicted New Indication | Prinzmetal Angina |
+|------|------|
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 8 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Digoxin is a cardiac glycoside that inhibits the Na⁺/K⁺-ATPase pump in cardiomyocytes, causing an accumulation of intracellular sodium. This in turn drives calcium influx via the Na⁺/Ca²⁺ exchanger, producing a positive inotropic effect that improves myocardial contractility in heart failure. Its vagotonic (parasympathomimetic) properties also slow the ventricular rate in atrial fibrillation.
+Detailed mechanism-of-action data is not available in the input. Based on known pharmacology, digoxin inhibits Na⁺/K⁺-ATPase, which raises intracellular calcium.
 
-Prinzmetal angina (variant angina) is caused by transient coronary artery *spasm* rather than fixed obstructive disease. First-line treatments — calcium channel blockers and nitrates — work by relaxing vascular smooth muscle to relieve and prevent vasospasm. Digoxin's mechanism of increasing intracellular calcium concentration may theoretically do the *opposite*, potentially intensifying smooth muscle contraction and worsening coronary vasospasm. The Evidence Pack's own mechanistic rationale explicitly states there is "no positive mechanistic support" for this repurposing, and that Digoxin may **aggravate** coronary artery spasm through both direct calcium effects and indirect sympathetic activation.
+Prinzmetal (vasospastic) angina is caused by spasm of coronary arteries. Higher intracellular calcium in vascular smooth muscle could increase vessel tone and worsen spasm rather than relieve it. No antispastic mechanism for digoxin has been established.
 
-The two retrieved publications address circadian pharmacology of antihypertensives and angina decubitus physiology — neither directly supports Digoxin as a therapy for Prinzmetal angina. This high TxGNN score most likely reflects a shared knowledge-graph node (e.g., cardiovascular disease ontology) rather than a genuine therapeutic signal. This prediction is likely a graph artifact and should not be pursued clinically.
-
----
+The very high TxGNN score (0.998) reflects a pattern in the knowledge graph, not clinical support. The mechanistic case for this prediction is weak.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta Physiologica et Pharmacologica Bulgarica | Overview of circadian rhythms and antihypertensive treatment timing — not specific to Digoxin or Prinzmetal angina |
-| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | Review / Mechanism | Chinese Medical Sciences Journal | Hemodynamic study of 30 patients with angina decubitus; identifies increased myocardial oxygen consumption before onset — not directly related to Digoxin or coronary vasospasm |
+|------|-----|------|------|---------|
+| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta Physiol Pharmacol Bulg | Overview of circadian rhythms and chronopharmacology in antihypertensive treatment. It does not show digoxin efficacy in Prinzmetal angina. |
+| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | Review | Chin Med Sci J | In 30 patients, angina decubitus was linked to severe coronary obstruction and higher myocardial oxygen consumption, so it was classed as effort angina. It is not vasospastic angina and does not address digoxin. |
 
----
+Neither paper directly supports digoxin for Prinzmetal angina.
 
 ## Canada Market Information
 
-Digoxin has no registered products (DINs) in the Canadian market according to this Evidence Pack.
+Dosage form and approved-indication text are not recorded for these licences. Five of the 8 licences are listed.
 
----
+| DIN | Product Name |
+|---------|------|
+| 02498510 | JAMP DIGOXIN |
+| 02335719 | PMS-DIGOXIN |
+| 02498502 | JAMP DIGOXIN |
+| 02335700 | PMS-DIGOXIN |
+| 02554402 | AURO-DIGOXIN |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.81%), the mechanistic rationale not only fails to support this repurposing — it raises an active safety concern. Digoxin's calcium-raising mechanism is directly contrary to the vasodilatory treatment principle required for Prinzmetal angina, and no clinical trials or disease-specific literature exist to counterbalance this risk.
+The prediction has no clinical trials and only tangentially related reviews. The known mechanism (raised intracellular calcium) may even be unfavourable in vasospastic angina.
+
+The other five predicted indications are also on Hold. Duodenal obstruction, duodenogastric reflux, obsolete susceptibility to ischemic stroke, and hypoalphalipoproteinemia are L5 (prediction only). Duodenal ulcer is L4, and its literature points to digoxin toxicity and drug interactions rather than benefit.
 
 **To proceed, the following is needed:**
-- Inspect the TxGNN knowledge-graph path connecting Digoxin to Prinzmetal angina to identify the likely spurious shared node driving this prediction
-- Obtain the complete safety profile for Digoxin, including package insert warnings, contraindications, and drug–drug interactions (all currently marked as Data Gap)
-- Retrieve Digoxin's mechanism of action from DrugBank (DB00390) to formally document the calcium-increasing pathway and its vascular implications
-- Commission an independent pharmacological review specifically addressing Digoxin's effects on coronary vasomotor tone before any further evaluation
-- If the graph-level investigation reveals an unexpected mechanistic pathway (e.g., HIF-1α inhibition, which has been explored for other cardiac glycosides), re-evaluate with a focused preclinical literature search
+- The Health Canada package insert (warnings, contraindications, approved indications)
+- Detailed mechanism-of-action data
+- Preclinical or clinical evidence specific to digoxin in vasospastic angina
+- A safety assessment of digoxin in coronary vasospasm
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

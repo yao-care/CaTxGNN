@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pantoprazole
-parent: High Evidence (L1-L2)
-nav_order: 596
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 698
+evidence_level: L5
 indication_count: 6
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Pantoprazole: From Undocumented Original Indication to Active Peptic Ulcer Disease
+# Pantoprazole: From Acid-Related Disorders (Label Not Recorded) to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Pantoprazole is a proton pump inhibitor (PPI); this evidence pack contains no record of its original indication or mechanism of action, and the drug is currently **not marketed** in this jurisdiction (0 licenses on file). The TxGNN model's top-ranked prediction is **Active Peptic Ulcer Disease**, supported by **3 clinical trials** and **19 publications** — but the model's own rationale flags this as confirmation of an already-established, globally approved PPI indication rather than a genuinely novel repurposing signal.
+Pantoprazole is a proton pump inhibitor (PPI) that suppresses gastric acid secretion, and it is marketed in Canada under 20 licences. The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **3 clinical trials** and **19 publications** linked to this prediction. This is probably an established use rather than true repurposing, so the Canadian label should be checked first.
 
 ---
 
@@ -41,23 +41,23 @@ Pantoprazole is a proton pump inhibitor (PPI); this evidence pack contains no re
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file — `original_indications` and Canada license records are both empty in this evidence pack (drug not marketed here) |
-| Predicted New Indication | Active Peptic Ulcer Disease |
+| Original Indication | Not recorded in the Canadian licence data |
+| Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.69% |
-| Evidence Level | L1 |
-| Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L2 (see note below) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Proceed with Guardrails |
+
+*Evidence level note: only one registered trial (NCT02084420, Phase 3, completed) meets the Phase 3 criterion, which gives L2 under the level rules. The upstream scoring lists L1, based on several published RCTs whose trial phase is not stated.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action data was not retrieved in this evidence pack (`original_moa: [Data Gap]`). Based on well-established pharmacology, however, pantoprazole is a benzimidazole-class proton pump inhibitor (PPI) that irreversibly binds the H+/K+-ATPase ("proton pump") on the gastric parietal cell, blocking the final step of gastric acid secretion. This is the standard mechanism underlying PPI use across the full spectrum of acid-related disorders — GERD, erosive esophagitis, gastric/duodenal ulcer, NSAID-associated ulceration, and *H. pylori* eradication regimens.
+Pantoprazole binds irreversibly and specifically to the gastric proton pump (H+/K+ ATPase), the final step of acid secretion. This lowers intragastric acidity, which allows ulcers to heal. In bleeding ulcers it also helps stabilise the clot. The drug has a relatively long duration of action and is less readily activated in mildly acidic body compartments.
 
-Because this mechanism directly targets acid secretion, it maps cleanly onto active peptic ulcer disease, and the supporting evidence base (below) is substantial and mature — spanning three decades of head-to-head PPI trials, *H. pylori* eradication studies, and bleeding-ulcer management trials.
-
-**Important caveat:** the model's own rationale for this candidate states explicitly that this is *"already an approved core indication for pantoprazole, not a novel repurposing signal"* (`repurposing_rationale.mechanistic_link`). In other words, the "new indication" here most likely reflects a **local/registration gap** — pantoprazole is not currently marketed in this jurisdiction (0 DINs) — rather than a scientific hypothesis requiring de novo validation. This reframes the decision from "is the biology plausible" to "should this product be registered here for an indication it already holds elsewhere."
+Peptic ulcers are acid-driven, so acid suppression is a direct and plausible treatment. Pantoprazole is also used in *H. pylori* eradication regimens, where it is combined with antibiotics. The input has no recorded original indications or mechanism data, so this prediction is most likely a labelled or well-established use. Confirm the label status before treating it as a repurposing candidate.
 
 ---
 
@@ -65,9 +65,9 @@ Because this mechanism directly targets acid secretion, it maps cleanly onto act
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Completed | 323 | Multicenter, randomized, double-blind, active-controlled trial comparing ilaprazole vs. pantoprazole triple therapy for *H. pylori* eradication in gastric and/or duodenal ulcer patients |
-| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Completed | 316 | Identified risk factors predicting poor stigmata fading or early rebleeding after endoscopic hemostasis plus high-dose PPI infusion in peptic ulcer bleeding |
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Completed | 320 | Evaluated whether PPIs (including pantoprazole) interfere with clopidogrel's antiplatelet effect in PCI patients — a drug-interaction study, not a direct ulcer-efficacy trial |
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Completed | 323 | Randomised, double-blind comparison of ilaprazole vs pantoprazole triple therapy for 7 days, measuring *H. pylori* eradication in gastric and/or duodenal ulcer patients |
+| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Completed | 320 | Effect of PPIs and statins on clopidogrel antiplatelet response after coronary stenting. This is an interaction study, not ulcer treatment |
+| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Completed | 316 | Risk factors for choosing second-look endoscopy in bleeding peptic ulcers after endoscopic haemostasis and high-dose PPI infusion. It does not test pantoprazole efficacy |
 
 ---
 
@@ -75,30 +75,38 @@ Because this mechanism directly targets acid secretion, it maps cleanly onto act
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Intermittent vs. continuous IV pantoprazole infusion showed comparable efficacy in preventing peptic ulcer rebleeding after endoscopic hemostasis |
-| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Aliment Pharmacol Ther | Compared three pantoprazole-based triple therapy regimens for *H. pylori* eradication and gastric ulcer healing |
-| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | J Gastroenterol Hepatol | Pantoprazole infusion as adjuvant to endoscopic therapy reduced rebleeding in high-risk peptic ulcer bleeding |
-| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Review | Clin Drug Investig | Overview of pantoprazole pharmacology: irreversible PPI, long duration of action, low drug-interaction potential |
-| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Study | Med Arch | PPI therapy is the cornerstone of medical management after endoscopic hemostasis in bleeding peptic ulcer; discusses role of *H. pylori* status |
-| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Study | Hepato-gastroenterology | Compared lansoprazole and pantoprazole for treatment of active duodenal ulcer and *H. pylori* eradication |
-| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | Study | Aliment Pharmacol Ther | Pantoprazole plus amoxicillin and either azithromycin or clarithromycin for *H. pylori* eradication in duodenal ulcer |
-| [10228801](https://pubmed.ncbi.nlm.nih.gov/10228801/) | 1999 | Study | Hepato-gastroenterology | Pantoprazole, amoxicillin and metronidazole produced rapid symptom improvement in *H. pylori*-positive duodenal ulcer patients |
-| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preclinical | Inflammopharmacology | Rat model: pantoprazole combined with mesenchymal stem cells improved gastric ulcer healing via reduced oxidative stress, inflammation, and apoptosis |
-| [9017763](https://pubmed.ncbi.nlm.nih.gov/9017763/) | 1997 | Study | Pharmacotherapy | Overview positioning PPIs (including pantoprazole) as more effective than H2-receptor antagonists for acid-related diseases |
-
-*(10 of 19 total publications shown, prioritized by RCT > Review > other study types and topical relevance to active peptic ulcer disease.)*
+| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Intermittent vs continuous pantoprazole infusion for rebleeding after endoscopic therapy in peptic ulcer bleeding |
+| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | J Gastroenterol Hepatol | Pantoprazole infusion as an add-on to endoscopic treatment in ulcer bleeding, to reduce rebleeding (about 20% after successful therapy) |
+| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | RCT | Aliment Pharmacol Ther | Pantoprazole and amoxycillin with azithromycin or clarithromycin for *H. pylori* eradication in duodenal ulcer |
+| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Aliment Pharmacol Ther | Three pantoprazole-based triple therapies for *H. pylori* eradication and gastric ulcer healing |
+| [11802510](https://pubmed.ncbi.nlm.nih.gov/11802510/) | 2001 | RCT | Wien Klin Wochenschr | Amoxycillin and clarithromycin with either sucralfate or pantoprazole for *H. pylori* eradication in duodenal ulcer |
+| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Comparative study | Hepato-gastroenterology | Lansoprazole vs pantoprazole in active duodenal ulcer treatment and *H. pylori* eradication |
+| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Clinical study | Med Arch | PPI efficacy after endoscopic haemostasis in bleeding ulcer, and the role of *H. pylori*. The authors note that controlled pantoprazole data are few |
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systematic review / network meta-analysis | Am J Gastroenterol | P-CAB vs PPI for healing grade C/D esophagitis. This is related acid-disease evidence rather than ulcer-specific |
+| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Review | Clin Drug Investig | Pharmacology overview of pantoprazole as a PPI, including its long duration of action and a lack of identified drug interactions in numerous studies |
+| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preclinical (rat) | Inflammopharmacology | Pantoprazole combined with mesenchymal stem cells in experimental gastric ulcer, examining oxidative stress, inflammation and apoptosis pathways |
 
 ---
 
 ## Canada Market Information
 
-Pantoprazole currently has **no market authorization on record** in this jurisdiction — `total_licenses = 0` and no license entries were returned. The drug is not marketed here at present.
+Twenty licences are on record. Five are shown below. Dosage form and approved indication text are not recorded for them.
+
+| DIN | Product Name |
+|---------|------|
+| 02481588 | AG-PANTOPRAZOLE SODIUM |
+| 02292920 | APO-PANTOPRAZOLE |
+| 02357054 | JAMP-PANTOPRAZOLE |
+| 02305046 | SPC-PANTOPRAZOLE |
+| 02285487 | TEVA-PANTOPRAZOLE |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+No drug interaction records were found in the Evidence Pack. The literature includes a pharmacodynamic study of PPIs with clopidogrel (NCT00930670), so interaction screening is worthwhile in patients on dual antiplatelet therapy.
 
 ---
 
@@ -107,13 +115,13 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The clinical trial and literature base for pantoprazole in peptic ulcer disease is deep and long-standing (multiple completed Phase 3 RCTs plus decades of *H. pylori* eradication and bleeding-ulcer trials), giving high confidence in efficacy. However, the model's own mechanistic note indicates this is very likely re-identification of an already-approved global PPI indication rather than a novel repurposing hypothesis — the real gap appears to be that pantoprazole is simply not yet registered/marketed in this jurisdiction.
+Peptic ulcer healing, ulcer rebleeding and *H. pylori* eradication regimens all have published RCTs involving pantoprazole, and the mechanism is direct. The registry evidence is thinner, with only one completed Phase 3 trial. The main uncertainty is whether this is already a labelled use, which would make it an established indication rather than a repurposing candidate.
 
 **To proceed, the following is needed:**
-- Mechanism-of-action and DrugBank safety data (currently flagged as data gaps: MOA, TFDA/product-label warnings and contraindications) — required before any S1 safety assessment
-- Confirmation of drug-drug interaction profile (DDI query returned no results)
-- A regulatory gap analysis: verify whether this represents a local registration opportunity (product already approved elsewhere for this indication) rather than a scientific repurposing case
-- If pursued as local registration, a standard market-entry regulatory dossier rather than a repurposing-specific evidence package
+- Health Canada product monograph (warnings, contraindications, approved indications) to confirm whether peptic ulcer is already labelled
+- Mechanism of action data from DrugBank
+- Confirmation of the arms and endpoints of NCT02084420, and of which PPI was used in the registered ulcer-bleeding trials
+- Dosage form and route information for the Canadian products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

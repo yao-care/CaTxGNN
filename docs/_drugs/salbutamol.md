@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Model Prediction Only (L5)
-nav_order: 703
+nav_order: 826
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the report template supplied to generate the pharmacist-facing evaluation for this candidate. This is a content-formatting task, not a coding/debugging task, so no other skill applies.
-
-# Salbutamol: From Asthma/Bronchospasm to Papillary Conjunctivitis
+# Salbutamol: From Obstructive Airway Disease to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salbutamol (DrugBank DB01001) is a short-acting β2-adrenergic agonist bronchodilator; specific original-indication and Canadian market-authorization data are not available in the current evidence pack (0 licenses recorded, "Not Marketed"). The TxGNN model predicts an extremely high association with **Papillary Conjunctivitis**, but as of today this signal is supported by **zero clinical trials and zero publications**, making it a purely model-driven prediction with no external evidence backing it.
+Salbutamol is a beta-2 agonist bronchodilator marketed in Canada; the Evidence Pack lists no approved indication text, so asthma/COPD use is inferred from the drug class.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis** with a very high score, but **0 clinical trials** and **0 publications** were retrieved for this indication.
+This is a model-only prediction (evidence level L5), and the Evidence Pack itself suggests it may be a graph-propagation artifact.
 
 ---
 
@@ -43,41 +43,49 @@ Salbutamol (DrugBank DB01001) is a short-acting β2-adrenergic agonist bronchodi
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (no Canadian licenses on file) |
-| Predicted New Indication | Papillary Conjunctivitis |
-| TxGNN Prediction Score | 99.996% |
+| Original Indication | Obstructive airway disease (asthma/COPD), inferred; Canadian licence indication texts are empty |
+| Predicted New Indication | Papillary conjunctivitis |
+| TxGNN Prediction Score | 99.996% (rank 160) |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 15 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on general pharmacological knowledge, salbutamol is a selective β2-adrenoceptor agonist whose established action is relaxation of bronchial smooth muscle, used clinically for relief of bronchospasm in obstructive airway conditions (this is reflected further down this same candidate's prediction list, e.g. bronchitis and obstructive lung disease, which carry much stronger evidence — see Data Gaps below).
+Currently, detailed mechanism of action data is not available. Based on known information, salbutamol is a beta-2 adrenoceptor agonist, its efficacy in airway obstruction is well established, and mechanistically it may be applicable to allergic ocular inflammation.
 
-For papillary conjunctivitis specifically, no known direct physiological pathway connects β2-adrenoceptor bronchodilation to papillary (typically contact-lens or allergic) conjunctival surface inflammation. The TxGNN knowledge-graph score is very high, but this appears to be a network-proximity artifact rather than a mechanistically grounded signal — there is no supporting clinical trial or literature evidence in this pack to corroborate it.
+The proposed link is that beta-2 agonism may stabilize mast cells and reduce allergic inflammation in the eye. A related preclinical finding supports this indirectly: topical salbutamol strongly suppressed immediate allergic conjunctivitis in a guinea pig model (PMID 3666475, 1987). That study concerned allergic conjunctivitis in general, not papillary conjunctivitis, and no human efficacy data exist.
 
-Given the absence of both a plausible mechanism and any corroborating evidence, this specific prediction should be treated as exploratory only.
+The TxGNN score is extremely high, yet no trial or publication was found. The Evidence Pack assessment is that this pattern more likely reflects propagation through allergic/atopic disease neighbours in the knowledge graph than a real therapeutic signal. The prediction should be treated as a hypothesis only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-No Health Canada drug licenses are recorded for salbutamol in this evidence pack. Market status is listed as **Not Marketed**, with **0 DINs** on file.
+Salbutamol has 15 Canadian authorizations. Five are listed below; dosage form and approved indication text were not provided for any of them.
+
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02208229 | PMS-SALBUTAMOL | — | — |
+| 02326450 | TEVA-SALBUTAMOL HFA | — | — |
+| 01926934 | TEVA-SALBUTAMOL STERINEBS P.F. | — | — |
+| 02173360 | TEVA-SALBUTAMOL STERINEBS P.F. | — | — |
+| 02243115 | VENTOLIN DISKUS | — | — |
 
 ---
 
@@ -92,16 +100,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has an extremely high TxGNN score but Evidence Level L5 — no clinical trials, no literature, and no plausible mechanistic link between β2-agonist bronchodilation and papillary conjunctivitis. There is currently nothing beyond the model score to act on.
+The prediction rests on a model score alone, with no trials, no literature and no human data for papillary conjunctivitis. Only indirect preclinical data in allergic conjunctivitis exist, and the score may be a graph artifact. There is no basis to advance this indication.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for salbutamol
-- Canadian regulatory/licensing data (currently 0 licenses on file — confirm whether the drug is genuinely unmarketed or the record is incomplete)
-- Original indication documentation to enable proper comparative rationale
-- Targeted literature/trial search specific to β2-agonists and ocular surface inflammation, to determine whether this is a true signal or a knowledge-graph artifact
-- TFDA/Health Canada label warnings and contraindications (currently missing — flagged as a blocking data gap for safety review)
+- A targeted search for human studies of topical beta-2 agonists in papillary or allergic conjunctivitis
+- Route compatibility assessment: an ophthalmic formulation would be needed, and the listed Canadian products appear to be inhalation products
+- Health Canada product monograph (warnings, contraindications, approved indications), which is currently missing and blocks safety screening
+- Mechanism of action data from DrugBank, and correction of the empty original-indication field upstream
 
-**Note:** This candidate's evidence pack contains several other predicted indications for salbutamol with substantially stronger support (e.g., *bronchitis* — L2, Proceed with Guardrails; *anaphylaxis* — L2, Proceed with Guardrails; *obstructive lung disease* — L1, Proceed with Guardrails). Those may warrant separate evaluation reports, as they represent materially different risk/evidence profiles than the top-ranked prediction covered here.
+**Other candidates in this pack (for reference):**
+- **Obstructive lung disease** (rank 10) is the only indication at L1 (Proceed with Guardrails). It is almost certainly an existing labelled use rather than true repurposing. Before relying on the Phase 3 trials, confirm that salbutamol was the study drug and not a rescue comparator.
+- **Bronchitis, anaphylaxis and atopic conjunctivitis** are flagged as research questions. For anaphylaxis, epinephrine remains first-line, and anaphylaxis to salbutamol itself has been reported.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

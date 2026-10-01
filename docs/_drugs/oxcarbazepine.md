@@ -2,15 +2,15 @@
 layout: default
 title: Oxcarbazepine
 parent: Moderate Evidence (L3-L4)
-nav_order: 587
-evidence_level: L3
+nav_order: 687
+evidence_level: L4
 indication_count: 10
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,87 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Oxcarbazepine: From Epilepsy (Partial-Onset Seizures) to Visual Epilepsy
+# Oxcarbazepine: From Focal Seizures to Visual Epilepsy
 
 ## One-Sentence Summary
 
-Oxcarbazepine is a well-established antiepileptic drug used for partial-onset and generalized tonic-clonic seizures, structurally related to carbamazepine. The TxGNN model predicts it may be effective for **Visual Epilepsy**, a rare reflex epilepsy subtype triggered by visual stimuli, with **1 clinical trial** and **19 publications** currently associated with this direction — though none of them studies this subtype specifically.
-
----
+Oxcarbazepine is an antiseizure medication, originally used for focal (partial-onset) seizures.
+The TxGNN model predicts it may be effective for **visual epilepsy**, but only **1 clinical trial** (a general epilepsy observational study) and **19 publications** were retrieved, and none of them is specific to this condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy, partial-onset (focal) seizures — established international use; no Health Canada product data available in this pack |
-| Predicted New Indication | Visual Epilepsy |
+| Original Indication | Focal seizures (taken from the evidence pack's mechanistic rationale; the licence indication text was not supplied) |
+| Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| Canada Market Status | Not marketed (Not Marketed) |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action data is not currently available (data gap, DG002). Based on established pharmacological knowledge, oxcarbazepine is a voltage-gated sodium channel blocker and a broad-spectrum antiepileptic drug (AED), structurally derived from carbamazepine, long used for partial-onset and generalized tonic-clonic seizures.
+Through its active metabolite MHD (10-monohydroxy derivative), oxcarbazepine blocks voltage-gated sodium channels and reduces glutamate release. This is the mechanism behind its use in focal seizures.
 
-Visual epilepsy is a rare reflex epilepsy subtype in which seizures are triggered by visual stimuli (e.g., flickering light). Like other focal and reflex epilepsies, it is believed to arise from abnormal cortical hyperexcitability — the same underlying process that sodium-channel blockers such as oxcarbazepine are designed to dampen.
+Visual reflex epilepsy is typically focal in onset, usually occipital or posterior. It therefore overlaps with the population in which oxcarbazepine already works, and sodium channel blockade is a plausible way to dampen the hyperexcitability.
 
-Because this mechanism is shared broadly across focal epilepsy subtypes, it is mechanistically plausible that oxcarbazepine could reduce seizure frequency in visual epilepsy. However, none of the evidence currently collected studies oxcarbazepine in visual epilepsy specifically — the supporting trial (LICEO) and literature evaluate AEDs and epilepsy broadly, not this reflex subtype. This is a meaningful evidentiary gap, not just a formality.
-
----
+This reasoning is theoretical. No visual-epilepsy-specific data were supplied, and the retrieved studies address epilepsy in general.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Prospective observational "LICEO" study assessing new AEDs (gabapentin, lamotrigine, levetiracetam, oxcarbazepine, pregabalin, tiagabine, topiramate) as first-choice bitherapy in focal epilepsy. Not specific to visual epilepsy (relevance grade C — general AED effectiveness only). |
-
----
+| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Liceo study: prospective observational study of new antiepileptic drugs, including oxcarbazepine, as first-choice combination therapy in focal epilepsy. Not specific to visual epilepsy, and an observational design gives no controlled efficacy evidence (relevance grade C). |
 
 ## Literature Evidence
 
+None of these publications addresses visual epilepsy directly. They cover oxcarbazepine or antiseizure drugs in epilepsy generally.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35429132](https://pubmed.ncbi.nlm.nih.gov/35429132/) | 2022 | Randomized Study | CNS Neuroscience & Therapeutics | Multicenter, open-label RCT comparing oxcarbazepine vs. levetiracetam monotherapy in newly diagnosed focal epilepsy (China); not visual-epilepsy specific. |
-| [39899099](https://pubmed.ncbi.nlm.nih.gov/39899099/) | 2025 | Review | Continuum (Minneap Minn) | Update on antiseizure medications, covering pharmacokinetics, indications, and modes of use for agents including oxcarbazepine. |
-| [35380580](https://pubmed.ncbi.nlm.nih.gov/35380580/) | 2022 | Review | JAMA | Overview of antiseizure medications for adults with epilepsy and treatment goals. |
-| [33334546](https://pubmed.ncbi.nlm.nih.gov/33334546/) | 2020 | Review | Seizure | Current role of carbamazepine and oxcarbazepine in epilepsy management relative to newer AEDs. |
-| [37092337](https://pubmed.ncbi.nlm.nih.gov/37092337/) | 2023 | Pharmacogenomics Review | Pharmacogenomics | Reviews genetic variation affecting oxcarbazepine efficacy/safety via metabolic enzymes and transporters. |
-| [26844734](https://pubmed.ncbi.nlm.nih.gov/26844734/) | 2016 | Review | Continuum (Minneap Minn) | Individual AED review including oxcarbazepine's spectrum of efficacy and clinical use. |
-| [22091603](https://pubmed.ncbi.nlm.nih.gov/22091603/) | 2012 | Clinical Study | Epilepsia | Efficacy, tolerability, and pharmacokinetics of oxcarbazepine oral loading in patients with epilepsy. |
-| [30636182](https://pubmed.ncbi.nlm.nih.gov/30636182/) | 2019 | PK Study | J Clin Pharm Ther | Population pharmacokinetics and dose simulation of oxcarbazepine in Chinese pediatric epilepsy patients. |
-| [12697143](https://pubmed.ncbi.nlm.nih.gov/12697143/) | 2003 | Cohort Study | Epilepsy & Behavior | Safety and tolerability of oxcarbazepine in elderly vs. younger adult epilepsy patients. |
-| [27845825](https://pubmed.ncbi.nlm.nih.gov/27845825/) | 2016 | Systematic Review (Cochrane, Withdrawn) | Cochrane Database Syst Rev | Oxcarbazepine as add-on therapy for drug-resistant partial epilepsy. |
-
-None of the above addresses visual epilepsy directly; all support oxcarbazepine's general efficacy and safety profile in focal/partial epilepsy.
-
----
+|------|-----|------|---------|---------|
+| [35429132](https://pubmed.ncbi.nlm.nih.gov/35429132/) | 2022 | RCT (open-label, multicentre) | CNS Neurosci Ther | Oxcarbazepine vs levetiracetam monotherapy in newly diagnosed focal epilepsy in China, comparing efficacy, quality of life and mental health |
+| [35380580](https://pubmed.ncbi.nlm.nih.gov/35380580/) | 2022 | Review | JAMA | Overview of antiseizure medications for adults with epilepsy |
+| [39899099](https://pubmed.ncbi.nlm.nih.gov/39899099/) | 2025 | Review | Continuum | Update on antiseizure medications: pharmacokinetics, indications and modes of use |
+| [33334546](https://pubmed.ncbi.nlm.nih.gov/33334546/) | 2020 | Review | Seizure | Current role of carbamazepine and oxcarbazepine in epilepsy management |
+| [37092337](https://pubmed.ncbi.nlm.nih.gov/37092337/) | 2023 | Review | Pharmacogenomics | Genetic variants affecting oxcarbazepine efficacy and safety across populations |
+| [16450324](https://pubmed.ncbi.nlm.nih.gov/16450324/) | 2006 | Review | Rev Neurol | Mechanism, efficacy, safety and clinical use of oxcarbazepine in epilepsy |
+| [11772334](https://pubmed.ncbi.nlm.nih.gov/11772334/) | 2002 | Review | Expert Opin Pharmacother | Efficacy in partial-onset seizures (adjunctive and monotherapy) and in trigeminal neuralgia; early results in other neuropathic pain and bipolar disorder |
+| [1379159](https://pubmed.ncbi.nlm.nih.gov/1379159/) | 1992 | Review | Drugs | Pharmacology and therapeutic potential in epilepsy, trigeminal neuralgia and affective disorders |
+| [12697143](https://pubmed.ncbi.nlm.nih.gov/12697143/) | 2003 | Cohort comparison | Epilepsy Behav | Safety and tolerability in 52 patients aged 65+ vs 1,574 adults aged 18–64: no significant difference in discontinuation due to adverse events |
+| [22091603](https://pubmed.ncbi.nlm.nih.gov/22091603/) | 2012 | Clinical study | Epilepsia | Efficacy, tolerability and pharmacokinetics of oral loading in 40 adults with recurrent seizures or after AED discontinuation |
 
 ## Canada Market Information
 
-Oxcarbazepine is currently **not marketed in Canada** — no active Health Canada Drug Identification Numbers (DINs) are on record in this evidence pack (`total_licenses: 0`). No product-specific dosage form or approved-indication text is available.
+Dosage form and approved-indication text were not available in the supplied licence records.
 
----
+| DIN | Product Name |
+|---------|------|
+| 02284294 | APO-OXCARBAZEPINE |
+| 02244673 | TRILEPTAL ORAL SUSPENSION |
+| 02242069 | TRILEPTAL 600 MG |
+| 02242068 | TRILEPTAL 300 MG |
+| 02284308 | APO-OXCARBAZEPINE |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No Health Canada product monograph warnings, contraindications, or drug interaction data are currently available in this evidence pack (DG001, blocking severity — required before any S1 safety screening can proceed).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Oxcarbazepine is not currently marketed in Canada (0 DINs) and the product-safety data gap (DG001) is rated Blocking, meaning a formal safety screen (S1) cannot yet be completed. Evidence strength for the specific predicted indication (visual epilepsy) is L3 — supported only by general AED trial/literature data, not by any study of this reflex subtype specifically.
+Visual epilepsy is supported only by model prediction, a mechanistic overlap with focal epilepsy, and indirect evidence: one general observational trial and non-specific literature. Health Canada safety data are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph — warnings, contraindications (DG001, blocking)
-- DrugBank mechanism-of-action detail (DG002)
-- Subtype-specific clinical evidence for visual/reflex epilepsy rather than general focal-epilepsy data
-- Completed drug-drug interaction (DDI) query — current status is "not found"
-- A safety monitoring plan addressing oxcarbazepine class risks noted in the broader literature (e.g., hyponatremia, HLA-associated cutaneous reactions), pending confirmation via the product monograph
+- Health Canada package insert warnings and contraindications (download and parse the monograph)
+- Approved indication text and dosage forms for the Canadian licences
+- Visual-epilepsy-specific evidence, such as case series or trials in photosensitive or visual reflex epilepsy
+- Formal relevance review of the retrieved literature, currently marked "pending"
+- A check for seizure-aggravation risk: sodium channel blockers can worsen generalized epilepsies, and visual reflex epilepsy can have generalized features
+
+This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

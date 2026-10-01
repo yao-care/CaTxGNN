@@ -2,7 +2,7 @@
 layout: default
 title: Efinaconazole
 parent: Model Prediction Only (L5)
-nav_order: 266
+nav_order: 313
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,64 +33,59 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Efinaconazole is a topical triazole antifungal (brand name Jublia®), approved for the treatment of distal and lateral subungual onychomycosis (nail fungal infection) in multiple markets, though it is not currently registered in Taiwan.
-The TxGNN model predicts it may be effective for **Astigmatism**, receiving a score of only **50%** (the minimum threshold), ranked **2,225,939th** among all predictions — with **0 clinical trials** and **0 relevant publications** supporting this direction.
-The overall evidence picture across all 10 predicted indications is uniformly weak, with every candidate returning the minimum prediction score and no supporting clinical data.
+Efinaconazole is a topical triazole antifungal marketed in Canada as JUBLIA, used for onychomycosis (fungal nail infection).
+The TxGNN model predicts it may be effective for **astigmatism**, but the score is a flat 50%, and there are **0 clinical trials** and **0 publications** supporting this direction.
+This prediction is most likely a knowledge-graph artifact.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Distal and lateral subungual onychomycosis (nail fungal infection) |
-| Predicted New Indication (Rank 1) | Astigmatism |
-| TxGNN Prediction Score | 50.00% (minimum threshold; rank 2,225,939) |
+|------|------|
+| Original Indication | Onychomycosis (the Canadian licence record has no indication text; this is taken from the published literature) |
+| Predicted New Indication | Astigmatism |
+| TxGNN Prediction Score | 50% |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not marketed (0 licensed products) |
-| Number of DINs | 0 |
-| Recommended Decision | **Hold** |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on published literature retrieved during evidence collection, efinaconazole is a topical triazole antifungal that works by inhibiting **sterol 14α-demethylase (CYP51)**, an enzyme essential for ergosterol biosynthesis in fungal cell membranes. By depleting ergosterol, it disrupts fungal membrane integrity and inhibits growth. Its 10% nail solution formulation is specifically designed with low surface tension and minimal keratin binding to improve nail penetration.
+Detailed mechanism-of-action data is not available in the record. The published literature describes efinaconazole as a topical triazole antifungal that inhibits sterol 14α-demethylase, an enzyme in fungal ergosterol synthesis. Its efficacy in onychomycosis is the basis of its approval.
 
-Astigmatism, the top-ranked predicted indication, is a refractive error caused by irregular curvature of the cornea or lens — a purely **anatomical and optical defect**. There is no known physiological pathway connecting CYP51 inhibition, ergosterol biosynthesis, or antifungal activity to corneal curvature. This mechanistic mismatch is fundamental, not peripheral.
+This mechanism does not plausibly extend to astigmatism. Astigmatism is an optical refractive error caused by uneven curvature of the cornea or lens, and it has no known fungal or ergosterol-related component. The score of exactly 0.5 does not discriminate between candidates. It has no trials or literature behind it and should be treated as a model artifact rather than a real signal.
 
-The TxGNN model score of 0.5 represents the **minimum possible output**, and the prediction rank of 2,225,939 places this candidate at the very bottom of the model's output space. This pattern strongly suggests a non-specific graph neural network output rather than a biologically meaningful signal. Importantly, the same minimum score (0.5) and similarly extreme ranks apply to **all 10 predicted indications** in this Evidence Pack, none of which have a plausible pharmacological link to a topical CYP51 inhibitor with negligible systemic absorption.
+The other nine predictions for this drug share the same flat 0.5 score and also lack any evidence. Atopic dermatitis is the only one with a speculative link, through fungal colonisation of the skin. Even there, the two retrieved papers do not address it: one is an onychomycosis drug review and the other is a conference report. One entry, "tumor suppressor gene on chromosome 11", is a genetic locus label rather than a disease, so it is not a valid indication and should be excluded from review.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials are currently registered for efinaconazole in any of the 10 predicted indications.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Only 2 publications were retrieved across all 10 predicted indications, both associated with the "dermatitis, atopic" prediction (Rank 2). Neither publication provides evidence for efinaconazole in atopic dermatitis — they concern its approved indication (onychomycosis).
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [24850511](https://pubmed.ncbi.nlm.nih.gov/24850511/) | 2014 | Review | Expert Review of Anti-infective Therapy | Comprehensive review of efinaconazole 10% nail solution for onychomycosis; describes CYP51 inhibition mechanism and MIC advantages over terbinafine, ciclopirox, itraconazole, and amorolfine against *T. rubrum*, *T. mentagrophytes*, and *C. albicans* |
-| [24691669](https://pubmed.ncbi.nlm.nih.gov/24691669/) | 2014 | Conference Proceedings | American Journal of Clinical Dermatology | Summary of 72nd Annual Meeting of the American Academy of Dermatology; not specific to efinaconazole or atopic dermatitis |
-
-> **Note:** Neither publication supports efinaconazole for atopic dermatitis. The indirect mechanistic hypothesis (antifungal targeting *Malassezia* as an AD trigger) remains unexplored for this specific drug.
+Currently no related literature available.
 
 ---
 
-## Taiwan Market Information
+## Canada Market Information
 
-Efinaconazole currently has **no approved products in Taiwan**. No DIN/license data is available.
+| DIN | Product Name |
+|---------|------|
+| 2413388 | JUBLIA |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction data were available in this Evidence Pack.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -99,15 +94,13 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for efinaconazole received the minimum possible prediction score (0.5) at extreme ranking positions (2,225,939–2,225,948), with zero supporting clinical trials and zero relevant literature for any new indication. The top prediction, astigmatism, has no pharmacologically plausible connection to a topical CYP51 inhibitor, and the uniform minimum-score pattern across all candidates suggests these are non-specific model outputs rather than actionable repurposing signals.
+The prediction is model-only (L5) with a non-discriminating score of 50%. It has no supporting trials or literature and no plausible mechanism, since a topical antifungal has no known target in refractive error.
 
-**To proceed, the following would be needed:**
-
-- **Reassess TxGNN inputs:** Verify that the drug node for efinaconazole in the knowledge graph is correctly linked to its known targets (CYP51/ERG11) and approved indication (onychomycosis); minimum scores across all predictions suggest a data pipeline or graph connectivity issue
-- **Mechanistic data (MOA):** Obtain full DrugBank profile including drug targets, pathways, and categories to enable proper mechanistic filtering
-- **Taiwan regulatory package insert:** Download from the TFDA website (if efinaconazole is approved in future) to complete safety screening — currently blocking entry to Stage S1
-- **Hypothesis-driven repurposing:** If investigating efinaconazole beyond onychomycosis, a rational starting point would be **Malassezia-associated dermatological conditions** (e.g., seborrheic dermatitis, pityriasis versicolor, or Malassezia-sensitive atopic dermatitis subtypes) where the antifungal mechanism has biological plausibility — this requires a separate, targeted evidence search
-- **Do not advance any current TxGNN prediction to clinical feasibility review** until model output quality is confirmed
+**To proceed, the following is needed:**
+- Health Canada package insert (warnings and contraindications) to complete the safety screening
+- Confirmation of the approved indication text and dosage form for DIN 2413388
+- Any mechanistic or clinical evidence linking efinaconazole to astigmatism; without it, no further investment is recommended
+- Exclusion of non-disease entries (e.g., "tumor suppressor gene on chromosome 11") from downstream candidate review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

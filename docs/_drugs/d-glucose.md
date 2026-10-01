@@ -2,7 +2,7 @@
 layout: default
 title: D-Glucose
 parent: Model Prediction Only (L5)
-nav_order: 206
+nav_order: 237
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# D-glucose: From Energy Supplementation to Non-Syndromic Esophageal Malformation
+# D-Glucose: From Approved Dextrose Injection Use to Non-syndromic Esophageal Malformation
 
 ## One-Sentence Summary
 
-D-glucose (dextrose) is the body's primary monosaccharide energy substrate, widely used in clinical settings for hypoglycemia management and parenteral nutritional support, with no formal approved indication recorded in this regulatory dataset.
-The TxGNN model predicts it may be effective for **Non-Syndromic Esophageal Malformation** with a prediction score of **84.11%**,
-however **no clinical trials** and **no publications** currently support this repurposing direction, placing the prediction at the lowest evidence tier (L5).
+D-glucose (dextrose) is marketed in Canada as dextrose injection products, but the Evidence Pack lists no approved indication text for them.
+The TxGNN model predicts it may be relevant to **non-syndromic esophageal malformation**.
+This prediction has **0 clinical trials** and **0 publications** behind it, so it is a model output only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not formally registered (clinically used for hypoglycemia treatment and parenteral nutrition) |
-| Predicted New Indication | Non-Syndromic Esophageal Malformation |
+|------|------|
+| Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 84.11% |
-| Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, D-glucose is the universal monosaccharide energy currency of cellular metabolism. It fuels glycolysis, the TCA cycle, oxidative phosphorylation, and multiple biosynthetic pathways across virtually all cell types. In clinical practice, it is administered intravenously to correct hypoglycaemia and serves as the primary carbohydrate source in parenteral nutrition formulations.
+Currently, detailed mechanism of action data is not available. D-glucose is an endogenous sugar and the body's main energy substrate. In Canada it is marketed as dextrose injection.
 
-Non-syndromic esophageal malformation encompasses structural congenital anomalies of the esophagus — most commonly esophageal atresia (with or without tracheoesophageal fistula) — arising from disrupted foregut morphogenesis during embryogenesis. These are fundamentally structural, developmental defects with no established pharmacological target that would be amenable to D-glucose intervention. The causal biology lies in transcription factor dysregulation (e.g., *SOX2*, *FOXA2*) and signalling pathway errors during organogenesis, not in postnatal energy metabolism.
+The data do not support a therapeutic link between D-glucose and non-syndromic esophageal malformation. This condition is a developmental abnormality of the esophagus. D-glucose has no known role in esophageal embryonic development, and nothing suggests it could correct a structural defect.
 
-The evidence pack's mechanistic rationale explicitly flags this prediction as probable model noise: the TxGNN model's high score (0.841) most likely reflects the ubiquity of glucose metabolic nodes in the knowledge graph, generating broad but non-specific associations. The current evidence pack contains zero supporting clinical trials and zero supporting publications for this indication. No plausible causal pathway exists by which exogenous D-glucose administration would correct or treat a structural esophageal developmental defect.
+The 84.11% score comes from knowledge-graph patterns, not from any study of glucose in this condition. Because glucose is so widely connected in biological networks, such scores can be high without pointing to a real treatment effect. The prediction should be treated as a model artefact until independent evidence appears.
 
 ---
 
@@ -75,6 +74,20 @@ Currently no related literature available.
 
 ---
 
+## Canada Market Information
+
+Five of the 20 authorizations are shown. Dosage form and approved indication text are not available in the records.
+
+| DIN | Product Name |
+|---------|------|
+| 2517132 | DEXTROSE INJECTION |
+| 1924281 | 5% DEXTROSE INJECTION USP |
+| 1924427 | 10% DEXTROSE INJECTION USP |
+| 2403536 | 5% DEXTROSE INJECTION |
+| 60364 | 10% DEXTROSE INJECTION, USP |
+
+---
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
@@ -86,14 +99,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is zero clinical or preclinical evidence supporting D-glucose as a therapeutic agent for non-syndromic esophageal malformation, and no mechanistically plausible pathway has been identified. This TxGNN prediction most likely represents a false-positive signal arising from the model's broad, non-specific representation of glucose metabolism nodes within the knowledge graph rather than a genuine drug-disease relationship.
+The prediction has no supporting trials or literature and no plausible mechanism. It sits at evidence level L5 and stage S0. The other top-ranked predictions (glaucoma, esophageal disease, biotin metabolic disease and others) also lack direct evidence for D-glucose as a treatment, so none offers a stronger alternative.
 
 **To proceed, the following is needed:**
-- Establish a biologically plausible mechanistic hypothesis linking D-glucose to esophageal malformation pathogenesis (e.g., through glucose-dependent developmental signalling or epigenetic regulation of foregut patterning genes)
-- Conduct preclinical studies (in vitro organoid or animal model) to empirically test any proposed mechanism before human translation
-- Obtain the full safety profile and package insert data, which are currently unavailable and constitute a blocking data gap
-- Consult developmental biologists and pediatric gastroenterologists to evaluate whether glucose signalling plays any meaningful role in foregut morphogenesis
-- Consider re-running TxGNN with structural anomaly-specific graph constraints to reduce noise-driven predictions for metabolically ubiquitous substrates like D-glucose
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- A credible biological rationale linking D-glucose to esophageal development, or clinical or preclinical evidence
+- Approved indication text for the Canadian dextrose products, to define the original use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Rasburicase
 parent: Model Prediction Only (L5)
-nav_order: 670
+nav_order: 791
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rasburicase: From Tumor Lysis Syndrome-Associated Hyperuricemia to Renal Hypouricemia
+# Rasburicase: From Uric Acid Lowering to Renal Hypouricemia
 
 ## One-Sentence Summary
 
-Rasburicase (DrugBank DB00049) is a recombinant urate oxidase internationally used to manage hyperuricemia associated with tumor lysis syndrome in cancer chemotherapy patients — though this original indication is not documented in the current Taiwan regulatory dataset, as the drug is not marketed there. The TxGNN model's top prediction is **Renal Hypouricemia**, but the evidence pack's own mechanistic analysis flags this specific prediction as pharmacologically implausible (the disease involves *too little* uric acid, while rasburicase further lowers it) and likely a knowledge-graph embedding artifact rather than a genuine signal. No clinical trials or literature currently support any of the model's top 10 predicted indications.
+Rasburicase is a recombinant urate oxidase enzyme that breaks down uric acid. The Evidence Pack does not state a formal original indication.
+The TxGNN model predicts it may be effective for **renal hypouricemia**, but **0 clinical trials** and **0 publications** support this, and the mechanism points in the opposite direction.
 
 ---
 
@@ -41,23 +42,29 @@ Rasburicase (DrugBank DB00049) is a recombinant urate oxidase internationally us
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in Taiwan regulatory data (drug not marketed); internationally approved for hyperuricemia associated with tumor lysis syndrome in haematologic malignancies |
-| Predicted New Indication | Renal Hypouricemia (rank 1) |
+| Original Indication | Not stated in the Evidence Pack (pharmacologically a uric acid-lowering agent) |
+| Predicted New Indication | Renal hypouricemia |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known pharmacology, rasburicase is a recombinant form of urate oxidase, an enzyme that catalyzes the oxidation of uric acid to allantoin, a more soluble compound that is readily excreted renally. It is used to lower elevated uric acid levels, most notably in the supportive management of tumor lysis syndrome during cancer chemotherapy.
+Detailed mechanism of action data is not available in DrugBank for this pack. Rasburicase is a recombinant urate oxidase that converts uric acid to allantoin and lowers plasma uric acid.
 
-The rank-1 prediction, **renal hypouricemia**, is a disorder characterized by pathologically *low* serum uric acid, typically caused by defective uric acid transporters (e.g., SLC22A12/URAT1). This is directionally opposite to rasburicase's pharmacology, which further reduces uric acid levels. The evidence pack's own `repurposing_rationale` explicitly identifies this mismatch and attributes the high TxGNN score to node-embedding similarity in the knowledge graph rather than a causal biological relationship — this prediction should be treated with skepticism rather than as a genuine repurposing lead.
+**The top prediction is not mechanistically plausible.** Renal hypouricemia is already a state of low uric acid, so lowering it further could be harmful. The high score is most likely a graph-proximity artifact from the uric acid pathway, not a real therapeutic link.
 
-A more mechanistically coherent (though still evidence-free) candidate appears at rank 2: **hypoxanthine-guanine phosphoribosyltransferase (HPRT) partial deficiency** (Kelley-Seegmiller syndrome), a purine salvage disorder that causes uric acid *overproduction* and consequent hyperuricemia/gout/nephrolithiasis. Since rasburicase's established mechanism directly reduces uric acid burden, this direction is biologically plausible, but it remains supported only by model prediction with zero clinical trials or publications identified to date.
+**Other predicted candidates (ranks 2-10):**
+- **HGPRT partial deficiency** (Lesch-Nyhan spectrum, score 99.97%) is the most mechanistically coherent. Purine overproduction causes hyperuricemia, so lowering uric acid is plausible.
+  - Rasburicase does not act on upstream hypoxanthine or xanthine, which can accumulate.
+  - It is a short-course intravenous protein with immunogenicity.
+  - It also carries G6PD-related hemolysis and methemoglobinemia risks.
+- **Hepatic porphyria, portal vein thrombosis, hepatopulmonary syndrome, familial noncirrhotic portal hypertension, copper-associated cirrhosis, hepatoportal sclerosis and phenylalanine metabolism disorders** have no identified mechanistic rationale. Several share an identical score, which suggests a shared graph neighborhood and not drug-specific biology.
+- **Renal tubular acidosis** has only a weak, indirect link through renal urate handling and crystal-related kidney injury.
 
 ---
 
@@ -75,13 +82,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Rasburicase is not currently marketed in Taiwan under the available regulatory dataset — no drug identification numbers (DINs) or license records are available (0 of 0 licenses).
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2248416 | FASTURTEC | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Risks noted in the candidate assessment**: G6PD-related hemolysis, methemoglobinemia, and immunogenicity of the intravenous protein.
+
+No Health Canada warnings, contraindications, or drug interaction data were retrieved. Please refer to the package insert for safety information.
 
 ---
 
@@ -90,13 +101,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All 10 predicted indications sit at evidence level L5 (model prediction only), with zero supporting clinical trials or literature across 31 source queries. The top-ranked prediction (renal hypouricemia) is flagged by the evidence pack's own mechanistic analysis as directionally implausible and likely a false signal from knowledge-graph embedding similarity, and the drug is not currently marketed in Taiwan (0 DINs).
+All 10 predicted indications are L5 (model prediction only) with no trials or literature. The top-ranked indication, renal hypouricemia, is mechanistically contradictory, and most others appear to be knowledge-graph artifacts.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer label data on warnings and contraindications (DG001, Blocking — currently prevents entry into S1 safety screening)
-- Confirmed mechanism of action data from DrugBank API (DG002)
-- Targeted literature/trial searches for the more mechanistically plausible rank-2 candidate (HPRT partial deficiency / Kelley-Seegmiller syndrome) rather than the rank-1 candidate
-- Independent pharmacological review to confirm or rule out the rank-1 prediction as a knowledge-graph artifact before any further evaluation
+- Health Canada package insert (warnings and contraindications) to allow safety screening
+- Mechanism of action data from DrugBank
+- A literature and trial search focused on HGPRT partial deficiency, the only mechanistically coherent candidate
+- Confirmation of the approved indication text for FASTURTEC
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

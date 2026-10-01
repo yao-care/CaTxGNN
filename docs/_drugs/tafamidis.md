@@ -2,7 +2,7 @@
 layout: default
 title: Tafamidis
 parent: Model Prediction Only (L5)
-nav_order: 745
+nav_order: 871
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tafamidis: From Transthyretin Amyloid Cardiomyopathy to Primary Release Disorder of Platelets
+# Tafamidis: From Transthyretin Amyloidosis to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Tafamidis is a transthyretin (TTR) stabilizer used to treat transthyretin amyloid cardiomyopathy (ATTR-CM), a progressive infiltrative heart disease well documented in the literature reviewed here.
-The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no biological plausibility identified.
+Tafamidis is a transthyretin (TTR) tetramer stabilizer, used to treat transthyretin amyloidosis.
+The TxGNN model ranks **primary release disorder of platelets** as its top prediction, but **0 clinical trials** and **0 publications** support it.
+No plausible biological link to this disease was found, so the high score is most likely a knowledge-graph artifact.
 
 ---
 
@@ -43,49 +43,46 @@ but this prediction is currently supported by **0 clinical trials** and **0 publ
 
 | Item | Content |
 |------|------|
-| Original Indication | Transthyretin Amyloid Cardiomyopathy (ATTR-CM) *(inferred from literature evidence; no Canadian label data available)* |
-| Predicted New Indication | Primary Release Disorder of Platelets |
+| Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 89.27% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on the literature collected for this drug, Tafamidis binds to transthyretin (TTR) and prevents tetramer dissociation, thereby stabilizing the protein and inhibiting amyloidogenesis — this is well established for ATTR-CM and ATTR-PN (polyneuropathy).
+Currently, detailed mechanism of action data is not available in the input record. From the evidence analysis, tafamidis binds the thyroxine-binding sites of the TTR tetramer. This prevents the tetramer from dissociating into amyloidogenic monomers, which is the rate-limiting step of TTR amyloid formation. The Canadian license record does not list an approved indication, so the original indication above comes from the supporting literature.
 
-However, for the top-ranked prediction (Primary Release Disorder of Platelets), the model's own rationale explicitly states: **there is no known mechanistic link**. Platelet release disorders involve platelet granule/secretion pathways, which do not intersect with TTR amyloid pathology. This appears to be a knowledge-graph embedding similarity artifact rather than a biologically grounded hypothesis, and it is not supported by any clinical trial or publication in the evidence pack.
-
-For context, lower-ranked candidates in this pack — particularly "primary amyloidosis" (rank 5) and "acquired amyloid peripheral neuropathy" (rank 6) — are mechanistically coherent with Tafamidis's known TTR-stabilizing action and are backed by extensive clinical trial and literature evidence. The rank-1 prediction discussed here, by contrast, should not be interpreted as a credible repurposing candidate.
+Primary release disorder of platelets is a defect in platelet granule secretion. No known pathway connects TTR stabilization to platelet release or granule secretion. The model's high score (rank 130,486 among all scored pairs) most likely reflects network proximity in the knowledge graph rather than a real pharmacological relationship. This prediction should not be treated as a repurposing lead without new mechanistic evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Tafamidis is currently **not marketed** in Canada (Health Canada market status: Not marketed / Not marketed), with 0 registered DINs. No product license or approved-indication text is available for extraction.
+| DIN | Product Name |
+|---------|------|
+| 2517841 | VYNDAMAX |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: Health Canada label warnings/contraindications for Tafamidis are a blocking data gap (DG001) — this drug cannot proceed to safety pre-screening (S1) until label data is obtained.)*
 
 ---
 
@@ -94,13 +91,19 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (Primary Release Disorder of Platelets) has a high TxGNN embedding score but zero supporting clinical trials or literature, and the model's own mechanistic rationale states there is no known biological link between TTR stabilization and platelet release physiology. This is an L5 (model-prediction-only) candidate and should not advance without independent mechanistic or preclinical justification.
+The prediction has no trials, no publications and no mechanistic rationale. Nothing supports moving it forward.
 
 **To proceed, the following is needed:**
-- Health Canada product label (warnings/contraindications) — currently blocking (DG001)
-- DrugBank/literature-derived mechanism of action detail (DG002)
-- Independent biological plausibility assessment for platelet release disorder, given the model rationale found none
-- Consider redirecting repurposing review toward higher-evidence candidates in this pack (e.g., primary amyloidosis, acquired amyloid peripheral neuropathy), which have substantial Phase 2–4 trial and literature support consistent with Tafamidis's established TTR-stabilizing mechanism
+- A credible mechanistic hypothesis linking TTR stabilization to platelet granule release
+- Preclinical or in vitro data in platelet function models
+- Health Canada package insert warnings and contraindications, for the safety screen
+- Mechanism of action data confirmed from DrugBank
+
+**Note on other predictions for this drug:** Two lower-ranked predictions have much stronger support and may be more useful to review first.
+- **Primary amyloidosis (rank 5):** Evidence Level L1, Proceed with Guardrails. It rests on the ATTR-ACT randomized trial (PMID 30145929), but that trial covers transthyretin amyloid cardiomyopathy, not light-chain (AL) amyloidosis. It is also an on-label use rather than true repurposing.
+- **Acquired amyloid peripheral neuropathy (rank 6):** Evidence Level L2, Proceed with Guardrails. The supporting evidence is for hereditary ATTR polyneuropathy, mainly in early-stage disease, and regulatory status for this use differs by region.
+
+This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

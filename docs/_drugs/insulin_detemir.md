@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Detemir
 parent: High Evidence (L1-L2)
-nav_order: 407
+nav_order: 477
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-Using the Evidence Pack as given. Note: for this candidate, `original_indications` is empty and `original_moa` is a data gap, and the "predicted" indication (T1DM) is actually insulin detemir's own established use — the pack's own `repurposing_rationale` flags this as a market-access case (drug unmarketed in Canada) rather than a novel mechanistic hypothesis. I've reflected that explicitly rather than forcing a false narrative.
-
 # Insulin Detemir: From Diabetes Mellitus (Basal Insulin Therapy) to Type 1 Diabetes Mellitus
 
 ## One-Sentence Summary
 
-Insulin detemir is a long-acting basal insulin analogue already used internationally for diabetes mellitus; detailed original-indication records are not on file for this jurisdiction. The TxGNN model scores it highly for **Type 1 Diabetes Mellitus**, but this is not a novel mechanistic hypothesis — it reflects the drug's own core approved use, which is currently **unmarketed in Canada**, with **50+ clinical trials** and **19 publications** already supporting efficacy/safety in T1DM globally.
+Insulin detemir is a long-acting basal insulin analog, marketed as Levemir and used to treat diabetes mellitus.
+The TxGNN model predicts it is effective for **type 1 diabetes mellitus**, backed by **50 clinical trials** and **19 publications**.
+This prediction matches the drug's established use, so it validates the model's recall and is **not a new repurposing finding**.
 
 ---
 
@@ -43,69 +43,75 @@ Insulin detemir is a long-acting basal insulin analogue already used internation
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file in this evidence pack; insulin detemir is internationally approved as a basal insulin for diabetes mellitus (type 1 and type 2) |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
+| Original Indication | Not stated in the Canadian license data (the literature describes basal insulin use in type 1 and type 2 diabetes) |
+| Predicted New Indication | Type 1 diabetes mellitus |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L1 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not recorded in this evidence pack (`original_moa` is missing), but the supporting literature is informative: insulin detemir is a soluble long-acting human insulin analogue acylated with a 14-carbon fatty acid, which allows it to reversibly bind albumin and thereby achieve slow, protracted absorption and a stable ~24-hour glucose-lowering profile (PMID 15516157, PMID 17326333).
+Detailed mechanism of action data is not available in the database. From the published literature, insulin detemir is a soluble long-acting human insulin analog acylated with a 14-carbon fatty acid. The fatty acid lets it bind reversibly to albumin, which slows absorption and gives a prolonged, more predictable glucose-lowering effect of up to 24 hours. It acts at the insulin receptor and replaces the endogenous insulin that is missing in type 1 diabetes.
 
-This mechanism is a direct, on-label replacement of endogenous insulin deficiency in Type 1 Diabetes Mellitus — it is not an indirect or repurposed pharmacological pathway. As the evidence pack's own rationale notes, this connection is a "direct mechanistic link" reflecting a standard, already-approved use rather than a genuine old-drug/new-use hypothesis.
+The predicted disease is the core condition this class of drug treats, so the model's high score is consistent with known clinical practice. Reviews report a more predictable profile than NPH insulin, with less within-patient variability and a lower risk of hypoglycaemia, especially nocturnal hypoglycaemia.
 
-The reason this candidate surfaces at all is regulatory, not mechanistic: insulin detemir is currently **not marketed in Canada** (0 licenses on file). The evaluation focus for this candidate should therefore be the market-authorization pathway (Health Canada submission status, product monograph availability) rather than mechanistic plausibility, which is already well established.
+**Guardrail:** The other nine predictions for this drug (for example autoimmune oophoritis, opsismodysplasia, stiff person spectrum disorders and lipodystrophies) have no trials or literature and rest on model prediction alone (L5). Several appear to reflect comorbidity, standard diabetes care, or known injection-site adverse effects rather than a therapeutic mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
+The pack lists 50 trials. The 10 most relevant are shown below.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00312104](https://clinicaltrials.gov/study/NCT00312104) | Phase 3 | Completed | 325 | Head-to-head RCT: detemir vs. glargine (both + aspart) in T1DM |
-| [NCT00095082](https://clinicaltrials.gov/study/NCT00095082) | Phase 3 | Completed | 447 | Detemir+aspart vs. glargine+aspart basal/bolus therapy in T1DM |
-| [NCT00659295](https://clinicaltrials.gov/study/NCT00659295) | N/A | Completed | 51,170 | PREDICTIVE™ global post-marketing safety study of Levemir® in T1DM/T2DM |
-| [NCT00655044](https://clinicaltrials.gov/study/NCT00655044) | N/A | Completed | 3,637 | European observational safety study of Levemir® in T1DM/T2DM |
-| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Completed | 470 | Detemir vs. NPH insulin (+aspart) in pregnant women with T1DM |
-| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Phase 3 | Completed | 362 | Degludec/aspart vs. detemir+aspart in children/adolescents with T1DM |
-| [NCT00604344](https://clinicaltrials.gov/study/NCT00604344) | Phase 3 | Completed | 401 | Detemir vs. NPH insulin in basal-bolus regimen, Japan |
-| [NCT01697657](https://clinicaltrials.gov/study/NCT01697657) | Phase 3 | Completed | 131 | Detemir vs. NPH: hypoglycaemic episode frequency in well-controlled T1DM |
-| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Completed | 114 | Detemir+aspart vs. NPH+aspart efficacy/safety in adults with T1DM |
-| [NCT00605137](https://clinicaltrials.gov/study/NCT00605137) | Phase 3 | Completed | 83 | Safety of detemir vs. NPH insulin in children with T1DM, Japan |
+| [NCT00312104](https://clinicaltrials.gov/study/NCT00312104) | Phase 3 | Completed | 325 | Twice-daily detemir vs once-daily glargine, each with mealtime aspart, in type 1 diabetes |
+| [NCT00095082](https://clinicaltrials.gov/study/NCT00095082) | Phase 3 | Completed | 447 | Detemir + aspart vs glargine + aspart in basal-bolus therapy; tests whether detemir is at least as effective |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Completed | 114 | Detemir + aspart vs NPH + aspart in adults with type 1 diabetes |
+| [NCT00271284](https://clinicaltrials.gov/study/NCT00271284) | Phase 3 | Completed | 88 | Crossover, glargine vs detemir with glulisine bolus; fasting glucose variability in type 1 diabetes |
+| [NCT01697657](https://clinicaltrials.gov/study/NCT01697657) | Phase 3 | Completed | 131 | Detemir vs NPH on hypoglycaemic episode frequency in well-controlled type 1 diabetes |
+| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Completed | 470 | Detemir vs NPH insulin in pregnant women with type 1 diabetes |
+| [NCT00604344](https://clinicaltrials.gov/study/NCT00604344) | Phase 3 | Completed | 401 | 48-week Japanese trial, detemir vs NPH on a basal-bolus regimen |
+| [NCT00605137](https://clinicaltrials.gov/study/NCT00605137) | Phase 3 | Completed | 83 | Safety of detemir vs NPH in children with type 1 diabetes (Japan) |
+| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Phase 3 | Completed | 362 | Degludec/aspart vs detemir + aspart in children and adolescents with type 1 diabetes |
+| [NCT00659295](https://clinicaltrials.gov/study/NCT00659295) | N/A (observational) | Completed | 51,170 | PREDICTIVE study: real-world incidence of serious adverse reactions across 26 countries |
 
 ---
 
 ## Literature Evidence
 
+The pack lists 19 publications. The 10 most relevant are shown below.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT trial: degludec non-inferior to detemir (both + aspart) in pregnant women with T1DM |
-| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systematic Review/Meta-analysis | Pol Arch Med Wewn | Detemir vs. NPH insulin in T1DM: glycaemic control benefits, mixed confirmation across studies |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematic Review/Network Meta-analysis | Value Health | Comparative efficacy/safety of basal insulin regimens (incl. detemir) in adults with T1DM |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Review/Meta-analysis | Clin Ther | Degludec vs. other long-acting analogues (glargine, detemir) in T1DM/T2DM |
-| [21361858](https://pubmed.ncbi.nlm.nih.gov/21361858/) | 2011 | Cost analysis | J Med Econ | Lifetime cost modelling of glargine vs. detemir in T1DM/T2DM patients **in Canada** |
-| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Review | Vasc Health Risk Manag | Update on T1DM/T2DM treatment, focused on insulin detemir |
-| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | Insulin detemir: pharmacology and use in T1DM/T2DM |
-| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vasc Health Risk Manag | Insulin detemir mechanism and use in T1DM/T2DM |
-| [23110609](https://pubmed.ncbi.nlm.nih.gov/23110609/) | 2012 | Review | Drugs | Insulin detemir review of use in diabetes mellitus management |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes Endocrinol | Update on management of T1DM in pregnancy (lifestyle, pharmacotherapy, technology) |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: non-inferiority trial of degludec vs detemir with aspart in pregnant women with type 1 diabetes |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Network meta-analysis | Value Health | Relative efficacy and safety of basal insulin regimens in adults with type 1 diabetes |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Meta-analysis | Clin Ther | Degludec vs other long-acting analogues, including detemir, in type 1 and type 2 diabetes |
+| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Meta-analysis | Pol Arch Med Wewn | Detemir vs NPH insulin in type 1 diabetes |
+| [23110609](https://pubmed.ncbi.nlm.nih.gov/23110609/) | 2012 | Review | Drugs | Detemir as basal insulin in type 1 and 2 diabetes; protracted action from self-association and albumin binding, with less variability than NPH |
+| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | More predictable, consistent effect than NPH, with less intra-patient variability |
+| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Review | Vasc Health Risk Manag | Effective option in type 1 and 2 diabetes; no significant HbA1c difference vs comparators, lower hypoglycaemia rate |
+| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vasc Health Risk Manag | Less variable pharmacokinetics than NPH or ultralente; reduced hypoglycaemia risk |
+| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes Endocrinol | Update on managing type 1 diabetes in pregnancy, including pharmacological treatment |
+| [21361858](https://pubmed.ncbi.nlm.nih.gov/21361858/) | 2011 | Cost analysis | J Med Econ | Lifetime cost comparison of glargine and detemir in Canada |
 
 ---
 
 ## Canada Market Information
 
-No Drug Identification Numbers (DINs) are currently on file for insulin detemir in this evidence pack — the product is recorded as **not marketed** in Canada (0 licenses).
+| DIN | Product Name |
+|---------|------|
+| 2271842 | LEVEMIR PENFILL |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Product-specific warnings, contraindications, and drug-interaction data were not available in this evidence pack (flagged as a **Blocking** data gap, DG001).
+Please refer to the package insert for safety information.
 
 ---
 
@@ -114,13 +120,15 @@ Please refer to the package insert for safety information. Product-specific warn
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Insulin detemir's efficacy and safety in Type 1 Diabetes Mellitus are robustly supported by multiple completed Phase 3 RCTs and large-scale post-marketing safety studies (meeting the L1 evidence bar), but this reflects the drug's already-established international use rather than a novel repurposing hypothesis. The open question is regulatory: the product is currently unmarketed in Canada, and product-specific label data (warnings/contraindications) is missing — a blocking gap for any S1 safety review.
+At least 8 completed Phase 3 trials in type 1 diabetes, including head-to-head comparisons with glargine and NPH insulin, support this indication (L1). The prediction reflects the drug's established use, so it should be counted as validation of the model, not as a new repurposing discovery.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph or equivalent label data (warnings, contraindications) — resolves DG001 (Blocking)
-- DrugBank-sourced mechanism-of-action documentation — resolves DG002 (High)
-- Confirmation of current Health Canada market-authorization/submission status for insulin detemir
-- Given the strength of existing evidence, treat this primarily as a **market-access review**, not a discovery candidate; ranks 2–10 in this pack (autoimmune oophoritis, opsismodysplasia, stiff-person-syndrome spectrum, lipodystrophy variants, etc.) are L5/Hold, with several likely reflecting reversed causality (insulin injection as a *cause* of localized lipoatrophy rather than a treatment) and should not be pursued without independent mechanistic verification
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data from DrugBank
+- Confirmation of the approved indication text for DIN 2271842, which is blank in the license record
+- Separate review of the lower-ranked predictions, which are L5 (Hold). Injection-site lipodystrophy should be handled as a safety signal, not a therapeutic candidate.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

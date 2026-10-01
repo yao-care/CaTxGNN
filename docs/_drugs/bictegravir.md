@@ -2,7 +2,7 @@
 layout: default
 title: Bictegravir
 parent: Model Prediction Only (L5)
-nav_order: 101
+nav_order: 112
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,31 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Bictegravir is a second-generation integrase strand transfer inhibitor (INSTI) used as a component of combination therapy (Biktarvy®) for the treatment of HIV-1 infection in adults and pediatric patients. The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome (FIV infection)**, based on the shared lentiviral architecture between FIV and HIV-1. Currently, **no clinical trials** and **no publications** directly support this repurposing direction, placing the prediction at evidence level **L5** with a **Hold** recommendation.
+Bictegravir is an HIV-1 integrase strand transfer inhibitor, marketed in Canada as BIKTARVY.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV infection)** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a model prediction only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (integrase strand transfer inhibitor) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
+|------|------|
+| Original Indication | Not listed in the Canadian license record (drug class: HIV-1 integrase strand transfer inhibitor) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Bictegravir acts by binding to the catalytic core (DDE motif) of the HIV-1 integrase enzyme, blocking the strand transfer step that inserts viral cDNA into the host cell genome. As a second-generation INSTI, it offers a higher genetic barrier to resistance than first-generation agents such as raltegravir and elvitegravir. Although detailed MOA data is not available in the current evidence pack, its mechanism is well-established in the HIV pharmacology literature and underpins all predictions in this report.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, bictegravir belongs to the integrase strand transfer inhibitor (INSTI) class, whose efficacy against HIV-1 is established, and mechanistically it may be applicable to related lentiviruses.
 
-Feline Immunodeficiency Virus (FIV) — the pathogen responsible for feline acquired immunodeficiency syndrome — belongs to the same *Lentivirus* genus as HIV-1 and similarly encodes an integrase enzyme with a conserved DDE catalytic triad. The conceptual basis for TxGNN's prediction is this shared enzymatic target: an integrase inhibitor active against HIV-1 might, in principle, inhibit a homologous lentiviral integrase in another species. The model's high score (99.82%) most likely reflects the tight topological proximity between HIV and FIV nodes in the knowledge graph rather than a validated mechanistic link.
+Feline immunodeficiency virus (FIV) is a lentivirus that, like HIV-1, encodes an integrase enzyme. That makes the prediction biologically plausible. However, this link is inferred from drug class alone. No data on bictegravir inhibiting FIV integrase were provided, and the high TxGNN score is a computational output, not experimental evidence.
 
-Critically, FIV integrase shares substantially lower amino acid sequence homology with HIV-1 integrase than do primate lentiviruses. No in vitro or in vivo data currently demonstrate that Bictegravir inhibits FIV integrase. By contrast, the second-ranked TxGNN prediction — **Simian Immunodeficiency Virus (SIV) infection** — rests on a firmer mechanistic footing: SIV integrase shares >85% amino acid identity with HIV-1, and a 2017 preclinical study ([PMID 28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/)) directly assayed Bictegravir's antiviral activity against integrase inhibitor-resistant SIVmac239. The FIV prediction therefore represents a **topology-driven hypothesis** and should be treated as a starting point for targeted in vitro validation rather than a translatable clinical candidate.
+Two other predictions for this drug are worth noting:
+- **Simian immunodeficiency virus (SIV) infection** (score 99.82%, evidence level L4): preclinical work supports the mechanism. An in vitro study (PMID 28923862) tested bictegravir against INSTI-resistant SIVmac239, and structural work on HIV/SIV intasomes (PMID 32506843) explains how INSTIs bind. SIV is a nonhuman primate pathogen, so its value is mainly as a preclinical model for HIV research, not as a human indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.76%, evidence level L5): no credible mechanistic link. This is a rare genetic disorder with no known viral or integrase-related cause, and the prediction is likely a false positive from knowledge-graph topology.
 
 ---
 
@@ -69,7 +72,15 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for feline acquired immunodeficiency syndrome.
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2478579 | BIKTARVY |
 
 ---
 
@@ -84,15 +95,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-While the prediction carries mechanistic plausibility at the conceptual level (lentiviral integrase conservation), no biochemical, in vitro, animal, or clinical data confirm Bictegravir activity against FIV integrase specifically. An L5 score indicates the prediction is entirely model-generated at this stage and does not yet meet the minimum evidentiary threshold to justify resource commitment.
+The prediction rests on model output and a class-based mechanistic inference, with no trials, no literature, and no cross-species enzyme inhibition data (evidence level L5). Feline AIDS is also a veterinary condition, so any development would follow a veterinary rather than human-drug pathway.
 
 **To proceed, the following is needed:**
-- Amino acid sequence alignment of FIV, SIV, and HIV-1 integrase DDE domains to quantify structural conservation and binding-pocket compatibility
-- In vitro FIV integrase strand transfer inhibition assay with Bictegravir to establish biochemical activity
-- Feline cell-based antiviral assay (e.g., FL-4 or Crandell-Reese feline kidney cells infected with FIV) if in vitro integrase data is positive
-- MOA data for Bictegravir retrieved from DrugBank (DB11799) or peer-reviewed sources to complete the mechanistic rationale
-- Package insert safety data to enable a basic S1 safety screen before any in vivo work is initiated
-- If the FIV hypothesis is to be deprioritized in favor of the better-supported SIV direction (L4, 3 preclinical publications), re-run this evaluation with `predicted_indications[1]` as the primary target
+- Mechanism of action data for bictegravir (e.g., from DrugBank)
+- In vitro data on bictegravir activity against FIV integrase or FIV replication
+- Health Canada package insert warnings and contraindications
+- Confirmation of the regulatory and development pathway for a veterinary indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

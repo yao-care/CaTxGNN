@@ -2,7 +2,7 @@
 layout: default
 title: Larotrectinib
 parent: Moderate Evidence (L3-L4)
-nav_order: 446
+nav_order: 522
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,75 +29,97 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Larotrectinib: From NTRK Fusion-Positive Solid Tumors to Multiple Endocrine Neoplasia
+# Larotrectinib: From NTRK-Fusion Solid Tumors to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Larotrectinib is a highly selective TRKA/B/C kinase inhibitor originally indicated for NTRK gene fusion-positive solid tumors, regardless of tissue origin. The TxGNN model predicts potential activity in **Multiple Endocrine Neoplasia (MEN)**, but this is currently supported by only **1 loosely related clinical trial** and **2 review/mechanistic publications**, none of which directly test larotrectinib in MEN patients.
+Larotrectinib is a selective TRK (NTRK1/2/3) inhibitor, marketed in Canada as VITRAKVI and used tumor-agnostically for NTRK-fusion solid tumors.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)**, but the support is thin: **1 clinical trial** (a broad basket trial, not MEN-specific) and **2 publications** (neither tests larotrectinib in MEN).
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | NTRK gene fusion-positive solid tumors (tissue-agnostic) |
-| Predicted New Indication | Multiple Endocrine Neoplasia (MEN) |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.24% |
 | Evidence Level | L4 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data (DrugBank MOA field) is not currently available for larotrectinib. Based on other information within the evidence pack, larotrectinib is described as a highly selective TRKA/B/C (tropomyosin receptor kinase) inhibitor, approved for solid tumors carrying an NTRK1/2/3 gene fusion, independent of the tumor's tissue of origin.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, larotrectinib is a selective inhibitor of the TRK receptor tyrosine kinases (NTRK1/2/3). Its efficacy is established in solid tumors that carry NTRK gene fusions.
 
-Multiple Endocrine Neoplasia (MEN), including MEN2 and its associated medullary thyroid carcinoma, is driven primarily by **RET** gene alterations rather than NTRK fusions. RET and NTRK are both receptor tyrosine kinases and are frequently discussed together in the kinase-inhibitor literature for thyroid malignancies, which likely explains why the knowledge graph places them near each other. However, this is an indirect, target-class-level association rather than a validated NTRK-driven mechanism in MEN.
+The link to MEN is indirect. MEN syndromes, especially MEN2, are driven mainly by **RET** mutations, not NTRK. The only shared ground is that both are receptor tyrosine kinase pathways in endocrine tumors. The supplied data show no direct RET activity or MEN-specific activity for larotrectinib.
 
-The supporting literature (a general review of kinase inhibitors in advanced thyroid cancer, and a mechanistic paper on RET-inhibitor resistance in medullary thyroid carcinoma) does not identify NTRK fusions as a driver in MEN, nor does it study larotrectinib directly. The single associated clinical trial (MATCH, NCT02465060) is a large, tumor-agnostic basket trial matching many genotypes to many targeted drugs — it is not a dedicated larotrectinib-in-MEN study. Overall, the mechanistic link is plausible only as a "kinase inhibitor / thyroid tumor neighborhood" association, not a validated NTRK-MEN pathway.
+The very high graph score (0.992) therefore reflects proximity in the knowledge graph rather than demonstrated biology. Any benefit would most plausibly be limited to the rare patient whose tumor carries an NTRK fusion.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | Active, not recruiting | 6,452 | Molecular Analysis for Therapy Choice (MATCH) — a large multi-arm basket trial matching genomically defined targeted therapies to refractory advanced solid tumors, lymphomas, and myelomas; not a larotrectinib-specific MEN trial (relevance grade C). |
+| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | Active, not recruiting | 6452 | NCI-MATCH: a single-arm, biomarker-directed basket trial in advanced, refractory solid tumors, lymphomas and myelomas. It is not MEN-specific, and a larotrectinib arm would apply only to NTRK-fusion tumors, so it offers no direct MEN evidence. |
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | Reviews kinase inhibitor therapy for advanced thyroid cancer, including mutation-specific approvals; does not address NTRK fusions in MEN specifically. |
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Cohort/Mechanistic | NPJ Precision Oncology | Describes acquired RET-inhibitor resistance mechanisms in RET-driven medullary thyroid carcinoma (a MEN2-associated tumor); focused on RET, not NTRK/larotrectinib. |
+| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | Overview of kinase inhibitor therapy for advanced thyroid cancer, including approved multikinase and mutation-specific agents. It is background for endocrine tumors, not evidence for larotrectinib in MEN. |
+| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Preclinical / case report | NPJ Precision Oncology | Off-target resistance mechanisms to selective RET inhibition (selpercatinib) in RET-driven medullary thyroid carcinoma. It concerns RET inhibitors, not larotrectinib. |
+
+---
 
 ## Canada Market Information
 
-Larotrectinib is **not currently marketed in Canada** — no Drug Identification Numbers (DINs) are registered (0 licenses on file).
+| DIN | Product Name |
+|---------|------|
+| 2490331 | VITRAKVI |
+| 2490315 | VITRAKVI |
+| 2490323 | VITRAKVI |
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (selective TRKA/B/C kinase inhibitor) |
-| Myelosuppression Risk | Low–moderate; thrombocytopenia is noted elsewhere in the evidence pack as a known adverse effect of larotrectinib per labeling, though not a primary dose-limiting toxicity |
+| Cytotoxicity Classification | Targeted therapy (TRK kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with platelet count, liver function tests |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic basis linking larotrectinib to MEN is indirect (RET-driven disease vs. an NTRK-targeted drug), and available evidence consists of one non-specific basket trial and two publications that do not test larotrectinib in MEN patients. This does not meet the bar to advance beyond hypothesis generation.
+The prediction rests on graph proximity rather than biology: MEN is RET-driven, and the only trial is a non-specific basket study. No study tests larotrectinib in MEN. The other nine predicted indications are weaker still. Most have no supporting evidence, and several (cytomegalovirus, bovine diseases) look like knowledge-graph artifacts. The one partial exception is PR-negative breast cancer, where the completed Phase 2 NTRK-fusion basket trial (NCT02576431) is relevant only to NTRK-fusion tumors.
 
 **To proceed, the following is needed:**
-- Confirmed DrugBank mechanism of action data (currently a blocking data gap, DG002)
-- TFDA/Health Canada label warnings and contraindications (currently a blocking data gap, DG001)
-- Evidence of NTRK fusion prevalence in MEN-associated tumors, to establish a genuine molecular rationale
-- A dedicated clinical trial or case series testing larotrectinib specifically in NTRK-fusion-positive MEN patients
+- Mechanism of action data (DrugBank) and any evidence of larotrectinib activity against RET or MEN-associated tumors
+- Health Canada package insert warnings and contraindications
+- Data on NTRK-fusion frequency in MEN-associated tumors, or reported cases of larotrectinib response in such patients
+- Approved indication text for the three DINs
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

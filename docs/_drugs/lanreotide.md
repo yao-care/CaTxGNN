@@ -2,7 +2,7 @@
 layout: default
 title: Lanreotide
 parent: Model Prediction Only (L5)
-nav_order: 442
+nav_order: 518
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,74 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Lanreotide: Original Indication Not Captured — Predicted New Indication: Hypertrichosis (Disease)
+# Lanreotide: From Somatostatin Analog Therapy to Hypertrichosis
 
 ## One-Sentence Summary
 
-Lanreotide (DrugBank DB06791) is a somatostatin analog; this evidence pack does not contain its approved original indication or a structured mechanism-of-action record. The TxGNN model assigns a very high score (99.97%) to a potential link with **Hypertrichosis (disease)**, but this candidate is currently supported by **zero clinical trials** and **zero relevant publications**, making it an unverified, model-only signal.
-
----
+Lanreotide is a somatostatin analog that is marketed in Canada (Somatuline Autogel, Mytolac). The TxGNN model predicts it may be effective for **hypertrichosis**, but this rests on a model score alone: **0 clinical trials** and **0 publications** currently support it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Canadian marketing licenses and no original indication text in this evidence pack |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.97% (rank 1054) |
-| Evidence Level | L5 — model prediction only, no supporting studies |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Predicted New Indication | Hypertrichosis |
+| TxGNN Prediction Score | 99.97% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for lanreotide is flagged as a data gap in this evidence pack (DG002, High severity). Based on the repurposing rationale accompanying the prediction, lanreotide is known to act as a **somatostatin analog**, binding SSTR2/SSTR5 receptors to suppress growth hormone, IGF-1, and various gastroenteropancreatic hormone secretion — this is consistent with its established clinical class, though the original approved indication itself is not recorded in this pack.
+Detailed mechanism of action data is not available in the input. Lanreotide is a somatostatin analog that suppresses growth hormone (GH) and IGF-1. Hypertrichosis appears in some GH-excess states, so an indirect link is conceivable.
 
-No pharmacological pathway connects somatostatin receptor agonism to hair follicle growth regulation, and the evidence pack's own rationale states the high TxGNN score is likely driven by **knowledge-graph node proximity rather than a genuine mechanistic relationship**. No clinical trials, ICTRP records, or PubMed literature specific to lanreotide and hypertrichosis were found in any of the three source queries.
+This link is speculative. The score of about 0.9997 is a model output, not clinical evidence. The input documents no direct biological rationale for using lanreotide against hypertrichosis.
 
-The same evidence pack also screened four additional top-ranked candidates (periodontal/odontal malformation syndrome, Dandy-Walker malformation syndrome, isolated genetic hair shaft abnormality, and Ambras-type congenital hypertrichosis universalis). All received the same L5/Hold classification. Notably, 20 PubMed articles matched the "periodontal malformation" candidate on keyword overlap, but manual title review found none actually discuss lanreotide or somatostatin analogs — a likely false-positive text-matching artifact rather than real evidence.
+Four other predictions have the same problem, and all are also L5 with no clinical trials:
 
----
+- Malformation syndrome with an odontal/periodontal component. Its 20 retrieved publications are general periodontitis papers that do not mention lanreotide or somatostatin analogs, so the match looks like a keyword artifact.
+- Syndrome with a Dandy-Walker malformation as a major feature.
+- Isolated genetic hair shaft abnormality.
+- Ambras type hypertrichosis universalis congenita. This is an ultra-rare congenital disorder, and the prediction likely reflects graph similarity to other hypertrichosis nodes.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-This drug currently has no marketing authorization (DIN) in Canada — `taiwan_regulatory.market_status` is "Not marketed" (Not Marketed) with 0 total licenses on record.
+Dosage form and approved indication text are not recorded for these licenses. Five of the six licenses are listed below.
 
----
+| DIN | Product Name |
+|---------|------|
+| 2555867 | MYTOLAC |
+| 2555883 | MYTOLAC |
+| 2283395 | SOMATULINE AUTOGEL |
+| 2283409 | SOMATULINE AUTOGEL |
+| 2283417 | SOMATULINE AUTOGEL |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the queried data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked candidate indication (Hypertrichosis) has no clinical trial, ICTRP, or literature support, and the pack's own rationale attributes the TxGNN score to knowledge-graph proximity rather than a plausible mechanism. Combined with the drug's unmarketed status in Canada and missing MOA/original-indication data, this candidate does not meet the bar to advance past S0.
+The prediction relies solely on a model score. There are no trials or literature for hypertrichosis, and the mechanistic link is speculative. The other four predicted indications are also L5.
 
 **To proceed, the following is needed:**
-- Confirmed original approved indication(s) and structured MOA data via DrugBank API (DG002)
-- TFDA/Health Canada label warnings and contraindications (DG001 — currently blocking safety review)
-- A genuine mechanistic hypothesis linking somatostatin receptor signaling to the candidate indication, reviewed by a clinical pharmacologist
-- Preclinical or case-level evidence before considering progression beyond S0/Hold
+- Mechanism of action data (for example from DrugBank), to assess whether GH/IGF-1 suppression plausibly affects hypertrichosis
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Approved indication and dosage form details for the Canadian licenses
+- Targeted literature and trial searches for lanreotide or somatostatin analogs in hypertrichosis, to see whether any real evidence exists
+- Route of administration compatibility, which is still pending
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

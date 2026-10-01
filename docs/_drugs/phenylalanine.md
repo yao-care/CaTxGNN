@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenylalanine
-parent: Model Prediction Only (L5)
-nav_order: 616
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 724
+evidence_level: L4
 indication_count: 2
 ---
 
 # Phenylalanine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,61 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Phenylalanine: From No Established Indication to Sclerosing Cholangitis
+# Phenylalanine: From Parenteral Amino Acid Component (Original Indication Not Recorded) to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Phenylalanine (DB00120) has no approved indication on record and is currently **not marketed in Canada** (0 DINs). The TxGNN model assigns a **99.43%** score linking it to **sclerosing cholangitis**, but the 4 supporting publications do not actually study free phenylalanine as a therapeutic agent — closer review suggests the signal is likely a **knowledge-graph entity confusion** (with tyrosine and with the unrelated peptide FMLP) rather than a genuine pharmacological finding.
+Phenylalanine is an amino acid that appears in marketed Canadian parenteral nutrition products (CLINIMIX and TRAVASOL). The Canadian records supplied do not state an approved indication.
+The TxGNN model predicts it may be relevant to **sclerosing cholangitis**, but there are **0 clinical trials** and only **4 publications**. None of the publications tests phenylalanine as a treatment.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — no approved indication or licensed product on record |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not recorded in the Canadian license data |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.43% |
-| Evidence Level | L5 (model prediction only, no supportive clinical/mechanistic studies) |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for phenylalanine is not available, and the drug has no recorded original indication or Canadian market authorization. Without a baseline MOA or approved-use context, there is no established pharmacological rationale to connect it to sclerosing cholangitis.
+Currently, detailed mechanism of action data is not available. Phenylalanine is an essential amino acid and the metabolic precursor of tyrosine. It is used as a nutritional component in amino acid infusion products. No therapeutic mechanism for sclerosing cholangitis has been established.
 
-Reviewing the underlying literature raises further doubt rather than support. Of the 4 publications retrieved, none actually test free phenylalanine as a treatment: one studies plasma **tyrosine** (a related but distinct amino acid) and fatigue in PBC/PSC; two study **FMLP** (N-formyl-methionyl-leucyl-phenylalanine), a synthetic bacterial chemotactic peptide with entirely different pharmacology, used in one case to *induce* cholangitis in rats rather than treat it; and one is a metabolomics panel in which phenylalanine appears only as one of many measured serum analytes in cholangiocarcinoma, not as an intervention. This pattern is consistent with the TxGNN knowledge graph conflating "phenylalanine" nodes with related but pharmacologically distinct entities (tyrosine metabolism, FMLP peptide fragments), producing a high score without genuine biological support.
+The only link in the retrieved literature is indirect. One cohort study connects plasma tyrosine levels with fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. The other papers cover formylated peptides containing phenylalanine or tyrosine in animal cholangitis models, and a serum metabolic signature of cholangiocarcinoma. None of them tests phenylalanine as a therapy.
 
-A second predicted indication in this evidence pack, congenital prothrombin deficiency (score 99.26%), shows the same pattern: its only linked trial (NCT06227429) studies Nitisinone — an unrelated drug for hereditary tyrosinemia type 1 — and was withdrawn with zero enrollment. Both candidates in this pack are therefore best interpreted as likely false positives requiring entity-mapping verification before any further evaluation.
+The high TxGNN score (0.994) is a knowledge-graph prediction. It should be treated as a hypothesis, not as evidence of benefit.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined plasma **tyrosine** (not phenylalanine) levels and their relation to fatigue in primary biliary cirrhosis and primary sclerosing cholangitis; not a phenylalanine intervention study |
-| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort/Metabolomics | Journal of Clinical and Experimental Hepatology | Serum metabolomic profiling in cholangiocarcinoma vs. benign hepatobiliary disease; phenylalanine appears only as one of many measured biomarkers, not as a treatment |
-| [8000512](https://pubmed.ncbi.nlm.nih.gov/8000512/) | 1994 | Animal study | Journal of Gastroenterology | The peptide FMLP (formyl-methionyl-leucyl-phenylalanine) was used to **induce** small duct cholangitis in rats — a disease model, not therapeutic evidence, and pharmacologically distinct from free phenylalanine |
-| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Other (assay method) | Journal of Gastroenterology and Hepatology | Describes a radioimmunoassay method for bacterial chemotactic peptides (F-met-oligopeptides) and their enterohepatic circulation; a methodology paper, not related to phenylalanine treatment |
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined amino acid patterns and their relation to fatigue in PBC and PSC. Plasma tyrosine was the focus. This is the closest indirect link, and phenylalanine was not tested as a treatment. |
+| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort | J Clin Exp Hepatol | Serum metabolomic profiling in cholangiocarcinoma versus benign hepatobiliary disease, aimed at pathogenesis and early biomarkers. |
+| [8000512](https://pubmed.ncbi.nlm.nih.gov/8000512/) | 1994 | Animal study | J Gastroenterol | In rats, a rectally given bacterial chemotactic peptide (fMLT) induced small duct cholangitis. This is a model of PSC pathogenesis. |
+| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Laboratory assay | J Gastroenterol Hepatol | A radioimmunoassay showed an enterohepatic circulation of bacterial formyl peptides in humans. |
+
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2046709 | CLINIMIX |
+| 2013932 | CLINIMIX |
+| 2013940 | CLINIMIX |
+| 872296 | TRAVASOL |
+| 2013886 | CLINIMIX |
+
+The supplied data lists 20 licenses in total, and 5 are shown here. Dosage form, manufacturer and approved indication text are not recorded for these entries.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: TFDA/Health Canada labeling data (warnings, contraindications) has not yet been obtained — this is flagged as a **blocking gap** that prevents any initial safety assessment (S1 stage) for this candidate.
+Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L5 (model prediction only), the retrieved literature does not actually study phenylalanine as a therapeutic agent for the predicted indication, and the pattern strongly suggests knowledge-graph entity confusion rather than a real pharmacological signal. The drug is also unmarketed in Canada with no available label or safety data.
+The prediction rests on a knowledge-graph score alone. No clinical trials exist, and the four publications are observational, animal or laboratory studies that do not test phenylalanine as a therapy. The second-ranked prediction (congenital prothrombin deficiency) has even weaker support: one withdrawn, non-interventional trial of a different drug and no identifiable mechanistic link.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label (warnings and contraindications) — currently a blocking gap preventing safety review
-- Verified mechanism of action data from DrugBank
-- Confirmation/correction of the TxGNN entity mapping (rule out confusion between phenylalanine, tyrosine, and the FMLP peptide)
-- Genuine clinical or preclinical evidence directly testing free phenylalanine — not confounded surrogate compounds — in sclerosing cholangitis or congenital prothrombin deficiency
+- Health Canada package insert warnings and contraindications (this blocks safety screening)
+- Mechanism of action data from DrugBank
+- The original approved indication for the Canadian products
+- A defined mechanistic hypothesis linking phenylalanine or tyrosine metabolism to cholestatic liver disease
+- Preclinical or clinical evidence that directly tests phenylalanine in sclerosing cholangitis
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

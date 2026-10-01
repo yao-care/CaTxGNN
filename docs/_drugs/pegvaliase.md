@@ -2,7 +2,7 @@
 layout: default
 title: Pegvaliase
 parent: Model Prediction Only (L5)
-nav_order: 605
+nav_order: 709
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,56 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pegvaliase: From Phenylketonuria (PKU) to Diabetic Retinopathy
+# Pegvaliase: From Phenylketonuria to Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Pegvaliase is a PEGylated phenylalanine ammonia lyase enzyme substitution therapy originally developed to lower blood phenylalanine levels in adults with phenylketonuria (PKU). The TxGNN model predicts it may be effective for **Diabetic Retinopathy**, but this direction is currently supported by **0 clinical trials** and **0 publications** — the prediction rests entirely on knowledge-graph embedding similarity with no independent evidence.
+Pegvaliase is a PEGylated phenylalanine ammonia lyase, marketed in Canada as PALYNZIQ and approved for phenylketonuria (PKU).
+The TxGNN model predicts it may be effective for **diabetic retinopathy** (score 99.2%), but **no clinical trials and no publications** currently support this direction. It is a model-only prediction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Phenylketonuria (PKU) *(from mechanistic-link narrative; not present in structured license data)* |
-| Predicted New Indication | Diabetic Retinopathy |
+| Original Indication | Phenylketonuria (taken from the prediction rationale, because the license records contain no indication text) |
+| Predicted New Indication | Diabetic retinopathy |
 | TxGNN Prediction Score | 99.17% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for pegvaliase is flagged as a data gap in the source evidence pack. Based on available pharmacological information, pegvaliase converts phenylalanine to trans-cinnamic acid and ammonia, reducing blood phenylalanine concentration in PKU patients — a pathway entirely unrelated to glucose metabolism.
+Currently, detailed mechanism of action data is not available. Pegvaliase is a PEGylated enzyme that breaks down phenylalanine, and its efficacy in PKU is the basis of its approval. No established mechanism connects it to diabetic retinopathy.
 
-Diabetic retinopathy is driven by chronic hyperglycemia acting through the polyol (aldose reductase–sorbitol) pathway, oxidative stress, and VEGF-mediated neovascularization. There is no known biochemical intersection between phenylalanine catabolism and these mechanisms.
+Any link would be speculative. One hypothesis is that changes in phenylalanine metabolism affect retinal vascular or metabolic stress. The prediction rests on the graph score alone, with no supporting trials or literature.
 
-**Assessment: this prediction does not have a credible mechanistic basis.** The evidence pack itself flags the link as a likely false positive, probably arising from shared "metabolic disease" or "ophthalmologic" nodes in the knowledge graph embedding rather than any genuine pharmacological relationship. The same caveat applies to the other 9 ranked candidates for this drug (severe nonproliferative diabetic retinopathy, and seven cataract subtypes), all of which score similarly (~99%) yet share the same absence of mechanistic rationale and zero supporting trials or literature — consistent with a clustered artifact around "diabetic/ophthalmic" disease nodes rather than nine independently plausible signals.
+The other nine top predictions are also weak:
+- **Severe nonproliferative diabetic retinopathy** is a sub-stage of the same disease, so it is not independent evidence.
+- **Seven cataract subtypes** (nuclear senile, cortical, mature, tetanic, immature, craniostenosis, and type 2 diabetes-associated) have identical or near-identical scores of about 0.990. This points to a shared graph-neighborhood artifact rather than disease-specific signals.
+- **Diabetic cataract** involves polyol pathway and osmotic lens injury, which pegvaliase's enzyme activity does not obviously address.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
+## Canada Market Information
+
+| DIN | Product Name |
+|---------|------|
+| 2526263 | PALYNZIQ |
+| 2526247 | PALYNZIQ |
+| 2526255 | PALYNZIQ |
+
+Dosage form and approved indication text are not recorded for these licenses.
+
+---
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+The prediction rationale notes that pegvaliase is a biologic with immunogenicity and anaphylaxis risk (a boxed warning). Any ocular benefit would have to be weighed against this risk.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is evidence level L5 — a pure model output with zero clinical trials, zero literature, and no plausible mechanistic link between phenylalanine metabolism and diabetic retinopathy pathophysiology. The source evidence pack itself assesses this as a probable false positive from embedding-space clustering rather than a genuine repurposing signal.
+All ten predicted indications are Evidence Level L5, supported only by graph scores. There are no trials or publications, and no plausible mechanism has been demonstrated. The anaphylaxis risk of this biologic raises the bar for any new use.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada package insert warnings and contraindications (currently blocking — flagged as DG001, Blocking severity)
-- Confirmed mechanism of action data from DrugBank (flagged as DG002, High severity)
-- Independent preclinical or mechanistic studies establishing any biological link between phenylalanine ammonia lyase activity and retinal microvascular or lens pathology, before this candidate can be considered for further evaluation
-- Given the clustering pattern across all 10 ranked indications, a review of whether this drug-disease pair reflects a systematic KG embedding artifact rather than treating each candidate independently
+- Mechanism of action data, to assess whether phenylalanine metabolism plausibly relates to retinal or lens disease
+- Health Canada package insert warnings and contraindications
+- Dosage form and approved indication text for the three licenses
+- Preclinical or literature evidence for diabetic retinopathy, such as retinal models of phenylalanine metabolism
+- Route compatibility and similarity-to-original-indication assessments (both still pending)
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

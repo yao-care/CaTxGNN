@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Midazolam
-parent: High Evidence (L1-L2)
-nav_order: 517
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 610
+evidence_level: L3
 indication_count: 1
 ---
 
 # Midazolam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **1** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,54 +29,55 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 </div>
 
-# Midazolam: From Procedural Sedation to Insomnia
+# Midazolam: From Sedation to Insomnia
 
 ## One-Sentence Summary
 
-Midazolam is a short-acting imidazobenzodiazepine widely used in clinical practice for procedural sedation, anaesthesia induction, and pre-operative anxiolysis.
-The TxGNN model predicts it may be effective for **Insomnia**, supported by **2 multicenter RCTs** directly studying its hypnotic efficacy in chronic insomnia patients, plus additional clinical trial evidence comparing its sleep-modifying properties against other sedatives.
-The prediction score of **99.74%** reflects the near-perfect mechanistic alignment between midazolam's GABA-A receptor action and the neurobiological substrate of insomnia.
+Midazolam is a short-acting benzodiazepine. The supplied Canadian licence records list no approved indications, so its sedative use comes from general pharmacology, not from the Evidence Pack. The TxGNN model predicts it may be effective for **insomnia**. Of the **32 clinical trials** and **12 publications** retrieved, only one trial is graded moderately relevant and none is a completed Phase 3 RCT. The strongest support is a set of **1981-1990 clinical studies** that already tested oral midazolam as a hypnotic. This looks more like a historical hypnotic use than a new repurposing finding.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Procedural sedation and anaesthesia induction |
+|------|------|
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.74% |
-| Evidence Level | L2 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 14 |
+| Recommended Decision | Hold |
+
+The original indication is not recorded in the Canadian licence data, so that row is omitted.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Midazolam is a positive allosteric modulator of the GABA-A receptor — the same molecular target underpinning the approved benzodiazepine hypnotics triazolam and temazepam. By binding to a distinct site on the GABA-A receptor complex, midazolam enhances chloride ion influx in response to endogenous GABA, producing dose-dependent central nervous system depression. At hypnotic doses, this translates directly into shortened sleep-onset latency, prolonged total sleep time, and an increase in NREM Stage 2 sleep, while suppressing REM sleep. The TxGNN knowledge graph score of 0.997 captures this link quantitatively: reduced GABAergic tone → cortical hyperarousal → insomnia is one of the most well-established pathological axes in sleep medicine, and midazolam acts precisely at that node.
+Detailed mechanism-of-action data are not available in the Evidence Pack. From general pharmacology, midazolam is a positive allosteric modulator of the GABA-A receptor. Enhancing GABA-mediated inhibition produces sedative-hypnotic effects. This is a well-established route to sleep induction and fits the very high TxGNN score.
 
-Crucially, this is not a speculative mechanistic leap but a class-effect application within an established pharmacological family. The repurposing rationale places midazolam alongside already-approved benzodiazepine hypnotics sharing identical receptor pharmacology. Clinical trials conducted in the 1980s and 1990s directly evaluated oral midazolam as a hypnotic agent in patients with chronic insomnia, reporting efficacy comparable to other benzodiazepines with a favourable tolerability profile relative to barbiturate-based comparators. This historical evidence precedes the TxGNN prediction and independently validates it.
+Sedation and insomnia treatment share the same pharmacology. Several older studies tested oral midazolam (10-30 mg) in patients with insomnia, including chronic insomnia. Because of this, the prediction is best read as confirming a historical hypnotic use, not opening a new therapeutic area.
 
-More recent studies have reinforced midazolam's sleep-modifying properties in peri-operative and critical care contexts — consistently using it as an active comparator against dexmedetomidine in trials where sleep quality is a primary or secondary endpoint. These trial designs reflect clinical consensus that midazolam's sedative effect meaningfully affects sleep architecture. The convergence of historical RCT data, contemporary peri-operative trial evidence, and a near-ceiling TxGNN score together support a well-grounded repurposing case.
+Whether oral midazolam is currently labeled for insomnia in Canada is not stated in the supplied data and needs to be checked.
 
 ---
 
 ## Clinical Trial Evidence
 
+Of 32 retrieved trials, most are only loosely related, such as anesthesia, ICU sedation, or unrelated conditions. None is a completed Phase 3 RCT of midazolam for insomnia. The most relevant are listed below.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Completed | 111 | Head-to-head RCT comparing midazolam vs dexmedetomidine combined with spinal anaesthesia on postoperative sleep quality in TURP patients; sleep quality is the primary endpoint — the most direct midazolam sleep dataset in this collection |
-| [NCT01050699](https://clinicaltrials.gov/study/NCT01050699) | Phase 4 | Completed | 90 | Dexmedetomidine vs standard sedation (midazolam as comparator) on sleep and inflammatory cytokines in ICU patients with acute lung injury/ARDS; provides midazolam reference data in a sleep-primary design |
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | N/A | Recruiting | 280 | Preoperative oral midazolam vs placebo in colorectal cancer patients with pre-existing sleep disturbance or anxiety; directly targets midazolam's hypnotic-anxiolytic profile as a therapeutic endpoint |
-| [NCT04149626](https://clinicaltrials.gov/study/NCT04149626) | Phase 2 | Unknown | 60 | Three-arm RCT (dexmedetomidine / midazolam / remifentanil) for sedation in orthopedic surgery under regional anaesthesia; sleep quality included as outcome measure |
-| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | N/A | Completed | 23 | Randomised double-blind pilot comparing midazolam vs dexmedetomidine to facilitate ICU extubation; includes sleep quality observation as secondary outcome |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Terminated | 5 | 24-hour polysomnographic comparison of midazolam vs dexmedetomidine on sleep stages and total sleep time in mechanically ventilated ICU patients; small sample terminated early |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminated | 6 | Polysomnographic study comparing GABA agonist (midazolam) vs α2 agonist (dexmedetomidine) on N2, N3, and total sleep time in ventilated patients; terminated due to enrolment challenges |
-| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Phase 3 | Not Yet Recruiting | 195 | Melatonin vs midazolam as premedication in children undergoing tonsillectomy; positions midazolam as the established hypnotic-sedative benchmark for comparison |
-| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Phase 3 | Unknown | 120 | Dexmedetomidine vs midazolam for sedation in critically ill ventilated children; addresses paediatric population with midazolam as the standard-of-care comparator |
-| [NCT05466279](https://clinicaltrials.gov/study/NCT05466279) | N/A | Completed | 131 | Remimazolam vs propofol+midazolam general anaesthesia in oncology patients; provides safety and recovery data relevant to midazolam's sedative-hypnotic profile |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Completed | 111 | Dexmedetomidine vs midazolam sedation with spinal anesthesia, comparing postoperative sleep quality after prostate resection. Graded B: sleep quality is a direct outcome, but the setting is postoperative, not chronic insomnia. |
+| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | N/A | Recruiting | 280 | Preoperative oral midazolam vs placebo on postoperative pain in colorectal cancer patients with sleep disturbance or anxiety. Sleep is a selection criterion, not the primary outcome. |
+| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Terminated | 5 | Dexmedetomidine vs midazolam on sleep quantity and quality (24-hour polysomnography) in mechanically ventilated ICU patients. Too small to draw conclusions. |
+| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminated | 6 | Polysomnography in ventilated patients sedated with α2 agonists vs GABA agonists. Terminated early. |
+| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Phase 3 | Not yet recruiting | 195 | Oral melatonin vs oral midazolam as premedication in children undergoing tonsillectomy. Anxiolysis, not insomnia. |
+| [NCT06498869](https://clinicaltrials.gov/study/NCT06498869) | N/A | Completed | 178 | Effect of ketamine on sleep quality after colonoscopy sedation. Midazolam is background sedation only. |
+| [NCT04879771](https://clinicaltrials.gov/study/NCT04879771) | N/A | Unknown | 100 | Morning vs afternoon painless GI endoscopy and postoperative sleep quality. Sedation timing study. |
+| [NCT06041711](https://clinicaltrials.gov/study/NCT06041711) | N/A | Completed | 66 | General vs regional anesthesia and sleep quality in hip arthroplasty patients. |
+| [NCT01050699](https://clinicaltrials.gov/study/NCT01050699) | Phase 4 | Completed | 90 | Dexmedetomidine sedation and sleep in ICU patients with acute lung injury. Graded C: midazolam is not the tested hypnotic. |
+| [NCT06493396](https://clinicaltrials.gov/study/NCT06493396) | N/A | Not yet recruiting | 88 | Opioid-free anesthesia and postoperative sleep in elderly patients. Graded C: midazolam is at most a perioperative agent. |
 
 ---
 
@@ -84,13 +85,27 @@ More recent studies have reinforced midazolam's sleep-modifying properties in pe
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT (Multicenter) | J Clin Psychopharmacol | Multicenter randomised double-blind study of flurazepam vs midazolam in patients with chronic insomnia; evaluated sleep parameters, performance, and plasma levels over 14 days — foundational Tier 1 RCT for midazolam as hypnotic |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | RCT (Multicenter) | J Clin Psychopharmacol | Executive summary of the same 14-day multicenter chronic insomnia trial; independently confirms the sleep-performance-plasma level findings across the full cohort |
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | Br J Clin Pharmacol | Double-blind parallel RCT: midazolam 15 mg vs Vesparax in 30 female insomnia patients; both effective hypnotics, but midazolam better tolerated with no hangover effect |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | RCT (Dose-Finding) | Arzneimittel-Forschung | Multicenter dose-finding RCT of oral midazolam 10–30 mg in 75 hospitalised patients with mild-to-moderate insomnia; established optimal dosing range for hypnotic use |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | Narrative review of clinical hypnotic use across the benzodiazepine class; confirms midazolam's efficacy for sleep onset and maintenance, contextualising its pharmacokinetic profile relative to other agents |
-| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Cohort | J Clin Med | Pilot cohort evaluating lemborexant for insomnia in high-risk pancreato-biliary patients post-endoscopy; explicitly contrasts with benzodiazepine class (including midazolam) regarding delirium risk, providing contemporary safety context |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orvosi Hetilap | Review of primary and secondary insomnia pathogenesis; describes the hyperarousal model underpinning GABAergic therapy rationale — supports the mechanistic basis for the TxGNN prediction |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Clinical study (double-blind) | Br J Clin Pharmacol | Midazolam 15 mg vs Vesparax in 30 women with insomnia secondary to neuromuscular disease. Both were effective hypnotics, and midazolam was better tolerated. |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | Clinical study (randomized, double-blind) | J Clin Psychopharmacol | Multicenter design comparing flurazepam and midazolam over 14 days in chronic insomniacs, looking at sleep, performance and plasma levels. This entry is the introduction to the study. |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | Clinical study | J Clin Psychopharmacol | Executive summary of the same 14-day multicenter flurazepam vs midazolam study. No abstract is available. |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | Clinical study (dose-finding) | Arzneimittel-Forschung | Oral midazolam 10-30 mg in 75 hospitalized patients with mild-to-moderate insomnia secondary to musculoskeletal disorders, nerve diseases or allergies. Used to establish the optimal dose range. |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatr Scand Suppl | Reviews the clinical use of benzodiazepine hypnotics and their differing pharmacokinetic and pharmacodynamic profiles. |
+| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Cohort | J Clin Med | Pilot study of lemborexant for insomnia and delirium after endoscopic procedures. Notes that benzodiazepines may increase delirium risk, which is a caution for midazolam. |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orv Hetil | Review of insomnia and cerebral hypoperfusion. Background on insomnia only. |
+
+---
+
+## Canada Market Information
+
+Health Canada records show 14 licences. The five below are the main ones. Dosage form and approved indication text are not recorded in the supplied data.
+
+| DIN | Product Name |
+|---------|------|
+| 2242905 | MIDAZOLAM INJECTION, USP |
+| 2559579 | BUCCOLAM |
+| 2559595 | BUCCOLAM |
+| 2498022 | MIDAZOLAM INJECTION USP |
+| 2382385 | MIDAZOLAM INJECTION USP |
 
 ---
 
@@ -98,24 +113,23 @@ More recent studies have reinforced midazolam's sleep-modifying properties in pe
 
 Please refer to the package insert for safety information.
 
-> **Note:** Health Canada prescribing information and contraindication data were not available at the time of this report (Data Gap DG001). Midazolam belongs to the benzodiazepine class; standard class-level cautions apply — including risks of dependence, respiratory depression, and cognitive impairment, particularly in elderly patients and those with concurrent CNS depressants. Independent safety review is required before any clinical application.
+From general pharmacology of the drug class, not from label data, the main concerns for a hypnotic use are dependence, tolerance, rebound insomnia after a short half-life drug, next-day psychomotor impairment, and respiratory depression.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic basis for midazolam as a hypnotic is essentially identical to approved benzodiazepine sleep agents, supported by multiple direct RCTs in insomnia patients dating to the 1980s and confirmed by contemporary peri-operative sleep quality trials — placing this repurposing case in a well-evidenced, pharmacologically coherent position. However, the complete absence of Health Canada regulatory filings, combined with missing safety and contraindication data, requires resolution before any formal development pathway is recommended.
+The prediction score is very high and the mechanism is plausible. However, the evidence is old, small, and mostly historical, and no recent controlled trial tests midazolam for insomnia. Safety data from the Health Canada package insert are also missing, which blocks safety screening. The signal looks more like an existing or past hypnotic use than a new repurposing opportunity.
 
 **To proceed, the following is needed:**
-
-- **Safety data retrieval (Blocking):** Obtain and review the Health Canada product monograph or equivalent labelling for midazolam (DG001); confirm contraindications, black box warnings, and special population restrictions before advancing to Stage 1 safety assessment
-- **MOA data formalisation (High):** Retrieve structured DrugBank MOA entry (DG002) to confirm receptor binding profile, half-life, and active metabolite data relevant to dosing strategy for insomnia indication
-- **Regulatory context clarification:** Confirm whether midazolam has any existing Health Canada DINs (e.g., as a hospital-only controlled drug) that did not surface in the database query; market absence may reflect a data pipeline gap rather than true non-availability
-- **Insomnia subtype scoping:** Define the target insomnia phenotype (e.g., acute vs. chronic; sleep-onset vs. sleep-maintenance) to align with an existing or prospective indication, given that chronic use of benzodiazepine hypnotics is subject to dependence risk and current prescribing guidelines recommend short-term use only
-- **Comparative positioning:** Clarify differentiation from already-approved benzodiazepine hypnotics (triazolam, temazepam) to establish whether a distinct regulatory or clinical niche exists for midazolam in this indication
+- Health Canada package insert (product monograph) for warnings, contraindications and approved indications
+- Confirmation of whether oral midazolam is already labeled for insomnia in Canada, and which dosage forms and routes are marketed
+- Mechanism-of-action data from DrugBank
+- Full-text review of the 1981-1990 insomnia studies
+- Comparison with currently used hypnotics on benefit and on dependence and next-day impairment risks
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

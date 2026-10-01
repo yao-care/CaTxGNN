@@ -2,7 +2,7 @@
 layout: default
 title: Empagliflozin
 parent: Model Prediction Only (L5)
-nav_order: 277
+nav_order: 324
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,81 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-The data-report skill governs CLI output — not applicable here since the Evidence Pack was provided directly. Proceeding with the evaluation report.
-
----
-
 # Empagliflozin: From Type 2 Diabetes to Classic Stiff Person Syndrome
+
+*Note: the supplied Canadian licence records list no approved indication text. The original indication above reflects the drug's general use as an SGLT2 inhibitor and is not taken from the Evidence Pack.*
 
 ## One-Sentence Summary
 
-Empagliflozin is a selective SGLT2 (sodium-glucose cotransporter-2) inhibitor approved globally for type 2 diabetes mellitus, heart failure, and chronic kidney disease, though it currently holds no registered product in Taiwan.
-The TxGNN model predicts it may be effective for **Classic Stiff Person Syndrome**,
-however, with **0 clinical trials** and **0 publications** currently supporting this direction, the evidence base consists of model prediction only.
-
----
+Empagliflozin is an SGLT2 inhibitor marketed in Canada as JARDIANCE and, in combination, as SYNJARDY.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Taiwan; globally approved for type 2 diabetes mellitus, heart failure, chronic kidney disease |
-| Predicted New Indication | Classic Stiff Person Syndrome |
+|------|------|
+| Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Licenses | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 8 |
 | Recommended Decision | Hold |
 
----
+Two other predictions have equally thin support:
+- Focal stiff limb syndrome: 99.06%, L5, Hold
+- Opsismodysplasia: 99.03%, L5, Hold
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Empagliflozin is a selective inhibitor of sodium-glucose cotransporter-2 (SGLT2) in the renal proximal tubule, which promotes urinary glucose excretion and reduces plasma glucose independently of insulin. Its downstream effects include ketone body elevation (particularly β-hydroxybutyrate), reduced inflammation via NF-κB inhibition, and lower circulating levels of IL-6 and TNF-α.
+Currently, detailed mechanism of action data is not available in the record. Empagliflozin is an SGLT2 inhibitor that acts on renal glucose reabsorption. Its efficacy is established in its original metabolic indication, but nothing in the supplied data ties SGLT2 inhibition to the biology of stiff person syndrome.
 
-Classic Stiff Person Syndrome (SPS) is a rare autoimmune neurological disorder driven by GAD65 antibodies that attack GABAergic inhibitory neurons, resulting in progressive axial rigidity and episodic painful spasms. The theoretical link proposed by the TxGNN knowledge graph is indirect: elevated β-hydroxybutyrate from SGLT2 inhibition may confer neuroprotective and HDAC inhibitory effects that could support GABA neurotransmission, while the anti-inflammatory profile of Empagliflozin might attenuate the neuroinflammatory component of SPS.
+Classic stiff person syndrome is an autoimmune disorder of GABAergic and glutamic acid decarboxylase (GAD65) neurotransmission. The only plausible link is indirect: the disease is often comorbid with autoimmune diabetes. That is a comorbidity association, not a therapeutic rationale. The high score should be read as a model signal that has not been corroborated.
 
-However, these proposed mechanisms do not address the core autoimmune pathology (anti-GAD65 antibody-mediated destruction of GABAergic neurons), making the mechanistic link highly speculative. The identical TxGNN scores for Classic SPS and Focal Stiff Limb Syndrome (both 0.9906) further indicate that these predictions share the same knowledge graph node cluster rather than representing independent, disease-specific signals. No preclinical cell, animal, or clinical studies have been conducted to support this hypothesis.
-
----
+The related predictions are no stronger:
+- **Focal stiff limb syndrome** is a localized variant of the same disease spectrum. Its score is identical (0.9906), which suggests both predictions come from the same graph neighbourhood rather than from independent signals.
+- **Opsismodysplasia** is a rare skeletal dysplasia, typically linked to INPPL1 (SHIP2) variants affecting PI3K/insulin-related signaling. No evidence connects SGLT2 inhibition to this pathway or to skeletal development. It is a paediatric genetic disease, and the safety of SGLT2 inhibitors in children adds further concern.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Empagliflozin in classic stiff person syndrome, focal stiff limb syndrome, or opsismodysplasia.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Empagliflozin in the predicted indications.
+Currently no related literature available.
 
----
+## Canada Market Information
 
-## Taiwan Market Information
+| DIN | Product Name |
+|---------|------|
+| 2443945 | JARDIANCE |
+| 2443937 | JARDIANCE |
+| 2456591 | SYNJARDY |
+| 2456575 | SYNJARDY |
+| 2456605 | SYNJARDY |
 
-Empagliflozin is not currently registered or marketed in Taiwan. No approved licenses or DIN records exist in the Taiwan regulatory database.
-
----
+Eight DINs are registered in total, and the five main authorizations are shown above. Dosage form and approved indication text are not included in the supplied records.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All three predicted indications (Classic Stiff Person Syndrome, Focal Stiff Limb Syndrome, Opsismodysplasia) are at evidence level L5 — model prediction only — with no supporting clinical trials, observational studies, or published literature, and the proposed mechanistic links are highly indirect and do not address the core disease pathophysiology of any predicted indication.
+The prediction is supported only by a model score, with no clinical trials, no literature and no plausible mechanistic link to an SGLT2 inhibitor. The identical scores for the two stiff-person-spectrum predictions suggest correlated rather than independent signals.
 
 **To proceed, the following is needed:**
-- Resolve Blocking data gap DG001: obtain TFDA package insert warnings and contraindications before any safety evaluation can begin
-- Resolve High-severity data gap DG002: retrieve confirmed MOA data from DrugBank to enable proper mechanistic plausibility assessment
-- Commission a systematic literature review of SGLT2 inhibitors in autoimmune neurological diseases as a minimum prerequisite for SPS hypothesis generation
-- Conduct preclinical studies (GAD65-antibody animal models) before any clinical development consideration for the SPS indications
-- Consider evaluating Empagliflozin's established indications (T2DM, heart failure, CKD) as scientifically better-grounded repurposing candidates if the goal is near-term clinical translation, rather than pursuing these KG-predicted rare disease associations at L5 evidence
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Mechanism of action data (for example, from the DrugBank API) to test whether any biological link exists to GAD65/GABAergic pathways or INPPL1/PI3K signaling
+- Independent preclinical or clinical evidence for the predicted indication
+- For opsismodysplasia, a paediatric safety assessment before any further consideration
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Vaborbactam
 parent: Model Prediction Only (L5)
-nav_order: 815
+nav_order: 954
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vaborbactam: From Unknown Original Indication to Osteoarthritis
+# Vaborbactam: From Complicated Urinary Tract Infection to Osteoarthritis
 
 ## One-Sentence Summary
 
-Vaborbactam is a boronic acid–based β-lactamase inhibitor; detailed original indication and mechanism-of-action data are not available in the current evidence pack.
-The TxGNN model predicts it may be effective for **Osteoarthritis**,
-but currently **no clinical trials** and **no publications** support this direction — the prediction is based on model inference alone.
+Vaborbactam is a beta-lactamase inhibitor given together with meropenem, originally used for complicated urinary tract infections.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but **0 clinical trials** and **0 publications** currently support this prediction. It is a computational finding only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (no `original_indications` or Canada license text available) |
+| Original Indication | Complicated urinary tract infection (the Canadian licence record has no indication text) |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.52% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, vaborbactam is a boronic-acid class β-lactamase inhibitor that is not administered alone — it is used as a combination-product component alongside meropenem (marketed internationally as Vabomere) to restore antibacterial activity against carbapenem-resistant Enterobacterales, primarily for complicated urinary tract infections. Its efficacy in this context is well established, but this evidence pack does not confirm whether vaborbactam is marketed in Canada or under what indication.
+Currently, detailed mechanism of action data is not available in DrugBank. Based on known information, vaborbactam is a cyclic boronic acid serine beta-lactamase inhibitor. It is combined with meropenem to treat complicated urinary tract infections. Its role is to protect the antibiotic from bacterial enzymes.
 
-There is no known pharmacological pathway connecting a β-lactamase inhibitor to osteoarthritis pathophysiology, which involves cartilage degradation, subchondral bone remodeling, and low-grade joint inflammation (e.g., IL-1β, MMP, prostaglandin pathways). Vaborbactam has no documented anti-inflammatory, chondroprotective, or immunomodulatory activity.
+**No mechanistic link has been established** between this activity and osteoarthritis. Vaborbactam has no known effect on cartilage, joint inflammation, or musculoskeletal targets. The high score (98.52%) most likely reflects the structure of the knowledge graph, not pharmacology.
 
-The TxGNN score of 98.52% likely reflects an indirect knowledge-graph path (e.g., shared protein or pathway nodes) rather than a validated biological mechanism. The `repurposing_rationale.mechanistic_link` field in the evidence pack explicitly notes this is an unvalidated, high-score prediction with no supporting hypothesis — consistent with the L5 evidence level and S0 decision stage.
+The other top predictions point the same way. They include osteoarthritis susceptibility, rheumatoid arthritis, gout, and several rare skeletal dysplasias. All are L5 with no supporting trials or literature. The cluster of musculoskeletal diseases suggests the model is following shared neighbours in the graph, not a real drug effect.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
-No Canada market authorization records are currently available for vaborbactam (0 licenses on file; market status: Not Marketed).
+| DIN | Product Name |
+|---------|------|
+| 2554151 | VABOMERE |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a TxGNN model score (Evidence Level L5, Decision Stage S0) with zero clinical trials or literature, and there is no plausible mechanistic link between a β-lactamase inhibitor and osteoarthritis pathophysiology. A blocking data gap also exists for TFDA/label safety information, which by itself prevents progression to safety pre-assessment (S1).
+The prediction has no clinical or literature support and no plausible mechanistic link. A beta-lactamase inhibitor has no known pharmacological connection to osteoarthritis, so this is not actionable at present.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- Product label warnings and contraindications (currently blocking gap, DG001)
-- At minimum preclinical or mechanistic evidence linking vaborbactam to joint/cartilage pathways before considering further investment
-- Confirmation of Canada market/regulatory status, since none is currently on file
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A mechanistic hypothesis connecting beta-lactamase inhibition to joint pathology, supported by preclinical data
+- Any registered clinical trials or publications on vaborbactam in osteoarthritis
+
+---
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Sebelipase Alfa
 parent: Model Prediction Only (L5)
-nav_order: 706
+nav_order: 830
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sebelipase Alfa: From Lysosomal Acid Lipase Deficiency to Scheie Syndrome
+# Sebelipase alfa: From Lysosomal Acid Lipase Deficiency to Scheie Syndrome
 
 ## One-Sentence Summary
 
-> Sebelipase alfa (Kanuma) is a recombinant human lysosomal acid lipase (LAL) enzyme replacement therapy, well established for treating **Lysosomal Acid Lipase Deficiency** (LAL-D, covering both Wolman disease and Cholesteryl Ester Storage Disease).
-> The TxGNN model's top-ranked new prediction is **Scheie syndrome**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the underlying enzyme defect is unrelated to LAL — this prediction should be treated as unvalidated model output rather than a genuine repurposing signal.
+Sebelipase alfa (marketed in Canada as KANUMA) is a recombinant human enzyme used for lysosomal acid lipase (LAL) deficiency.
+The TxGNN model's top-ranked prediction is **Scheie syndrome** (an attenuated form of MPS I), but **0 clinical trials** and **0 publications** support it, so it is a model prediction only.
 
 ---
 
@@ -42,59 +42,53 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Lysosomal Acid Lipase Deficiency (LAL-D; Wolman disease / Cholesteryl Ester Storage Disease) — derived from literature, not from Canadian regulatory filings (drug is not marketed in Canada) |
+| Original Indication | Lysosomal acid lipase deficiency (from the published literature; the Canadian label text is not in the supplied data) |
 | Predicted New Indication | Scheie syndrome |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L5 (model prediction only, no clinical or literature evidence) |
-| Canada Market Status | Not marketed (Not marketed) |
-| Number of DINs | 0 |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for sebelipase alfa is not available in this evidence pack (Data Gap). Based on literature evidence collected under other candidate indications in this pack, sebelipase alfa is a recombinant human lysosomal acid lipase that replaces deficient LAL enzyme activity, reducing lysosomal accumulation of cholesteryl esters and triglycerides in patients with LAL-D.
+Detailed mechanism of action data is not available in the supplied data. Sebelipase alfa is recombinant human LAL. It replaces the deficient enzyme and breaks down accumulated cholesteryl esters and triglycerides in LAL deficiency.
 
-Scheie syndrome is a mild form of Mucopolysaccharidosis type I (MPS I), caused by deficiency of **alpha-L-iduronidase**, an enzyme involved in glycosaminoglycan degradation — a completely different substrate and metabolic pathway from the cholesteryl ester/triglyceride pathway acted on by LAL. There is no shared molecular target, no shared pathway, and no cross-reactivity mechanism that would support sebelipase alfa having activity in Scheie syndrome.
+**This prediction is not mechanistically supported.** Scheie syndrome is caused by a deficiency of alpha-L-iduronidase, which degrades glycosaminoglycans. LAL does not act on this substrate, so there is no plausible LAL-mediated mechanism. The high score most likely reflects a shared "lysosomal storage disease / enzyme replacement therapy" signal in the knowledge graph.
 
-The evidence pack's own annotation for this candidate states directly: *"MPS I 輕型，缺陷酵素同 Hurler syndrome（alpha-L-iduronidase），與 LAL 無關。無任何臨床或文獻證據，純屬 TxGNN 預測分數"* — i.e., the high TxGNN score likely reflects a knowledge-graph feature confound (e.g., both diseases being categorized as "lysosomal storage disorders") rather than a real pharmacological relationship. This is a case of model score without mechanistic or empirical support.
+**Other predictions in the list.** The same pattern holds for most of the other entries:
+- Hurler syndrome, Gaucher disease, Tay-Sachs disease, and several non-specific or unrelated diseases have no mechanistic link to LAL replacement.
+- **Cholesteryl ester storage disease** (rank 4) and **Wolman disease** (rank 5) are the two phenotypes of LAL deficiency itself. They are probably the drug's existing labeled use, not true repurposing, so the empty original-indication field in the input is likely a data gap.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for Scheie syndrome.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Scheie syndrome.
 
 ---
 
 ## Canada Market Information
 
-Sebelipase alfa is **not currently marketed in Canada** (0 licenses/DINs on file). No Canadian product listing or approved-indication text is available to report.
+| DIN | Product Name |
+|---------|------|
+| 2469596 | KANUMA |
+
+Dosage form and approved-indication text were not available for this authorization.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/Health Canada label warnings and contraindications are flagged as a Blocking data gap (DG001) in this evidence pack — this must be resolved before any safety-stage evaluation (S1) can proceed.)*
-
----
-
-## Additional Note: Other Candidates in This Evidence Pack
-
-For transparency, the strongest clinical/literature evidence in this evidence pack (multiple completed Phase 2/3 RCTs, an FDA-approval-supporting literature base of ~15–20 publications) attaches to **Cholesteryl Ester Storage Disease (rank 4)** and **Wolman disease (rank 5)** — but these are not novel repurposing candidates: they are the drug's **already-approved indications** (sebelipase alfa/Kanuma is globally approved for LAL-D, which includes both phenotypes). The model is correctly re-identifying known efficacy rather than surfacing a new therapeutic direction.
-
-The remaining candidates (Hurler syndrome, Gaucher disease, Tay-Sachs disease, adrenal adenoma, etc.) are annotated in the evidence pack itself as mechanistically unrelated to LAL (different deficient enzymes/pathways) and are considered TxGNN prediction noise, likely arising from shared "lysosomal storage disease" category features in the knowledge graph rather than true drug-disease relationships.
-
-**Conclusion: no genuine, evidence-supported new repurposing indication for sebelipase alfa is present in this evidence pack.**
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -103,12 +97,15 @@ The remaining candidates (Hurler syndrome, Gaucher disease, Tay-Sachs disease, a
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (Scheie syndrome) has zero clinical or literature support and a mechanistically implausible rationale (different deficient enzyme/pathway than LAL). None of the 10 ranked candidates in this pack represent a credible novel repurposing opportunity — the only candidates with strong evidence (CESD, Wolman disease) are the drug's existing approved indications, not new ones.
+Scheie syndrome rests on a model score alone, with no trials, no literature, and no plausible mechanism, since LAL does not degrade glycosaminoglycans. There is no basis to advance this candidate.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product label (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Verified mechanism-of-action data from DrugBank (DG002)
-- If repurposing evaluation is to continue for this drug, re-run/re-rank TxGNN predictions with mechanistic filtering to exclude "lysosomal storage disease" category confounds, or manually screen lower-ranked candidates for genuine LAL-pathway overlap
+- Any evidence that links LAL replacement to iduronidase deficiency. None exists in the current data.
+- The Health Canada package insert, including approved indication, warnings, and contraindications.
+- Mechanism of action data from DrugBank.
+- A re-evaluation focused on the LAL deficiency entries (cholesteryl ester storage disease and Wolman disease). These have a completed Phase 3 randomized placebo-controlled trial (NCT01757184, n=66), several Phase 2 studies, and cohort and registry data, and are likely on-label use rather than repurposing. Confirm that the Wolman entry (a composite label including hypolipoproteinemia and acanthocytosis) maps to classic Wolman disease.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

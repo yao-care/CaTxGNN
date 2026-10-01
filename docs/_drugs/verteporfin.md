@@ -2,7 +2,7 @@
 layout: default
 title: Verteporfin
 parent: Model Prediction Only (L5)
-nav_order: 825
+nav_order: 966
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Verteporfin: From Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder
+# Verteporfin: From Its Current Approved Use to Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies
 
 ## One-Sentence Summary
 
-> Verteporfin is a photosensitizing agent established for photodynamic therapy in age-related macular degeneration, and separately known as a YAP/TAZ transcriptional co-activator inhibitor.
-> The TxGNN model predicts it may be relevant to **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-score-only signal with no verifiable mechanistic link.
+Verteporfin is marketed in Canada under the brand name VISUDYNE, but the available data does not state its approved indication.
+The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**.
+**No clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ---
 
@@ -43,49 +43,49 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 | Item | Content |
 |------|------|
-| Original Indication | Age-related macular degeneration (photodynamic therapy) — based on known clinical use; no formal license record exists since the drug is not marketed in Canada |
+| Original Indication | Not specified in the available data |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.49% (rank 9418) |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| TxGNN Prediction Score | 99.49% |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (original_moa: Data Gap) in the structured record. Based on known information, verteporfin acts as a photosensitizer used in photodynamic therapy for macular degeneration, and separately has been characterized as an inhibitor of the YAP/TAZ transcriptional co-activators.
+Currently, detailed mechanism of action data is not available, and no original indication is recorded in the data. The TxGNN score of 0.995 is a model output, not clinical evidence, and it is not a sufficient basis for a mechanistic argument.
 
-Neither of these known mechanisms provides an established biological pathway connecting verteporfin to nuclear-DNA-related defects in mitochondrial oxidative phosphorylation. The evidence pack's own repurposing rationale states explicitly that there is **no verifiable mechanistic link**: no literature supports a direct regulatory effect of verteporfin on the oxidative phosphorylation pathway in this disease context.
+From general pharmacology (not from the supplied data), verteporfin is a benzoporphyrin photosensitizer. When activated by light, it generates reactive oxygen species. Preclinical work also reports light-independent inhibition of YAP-TEAD signaling. Neither property has an established link to oxidative phosphorylation disorders caused by nuclear DNA anomalies.
 
-This prediction should therefore be treated as a pure knowledge-graph association score from TxGNN, without biological plausibility support at this stage. It is not reasonable to advance this candidate on mechanistic grounds alone.
+Light-activated ROS generation could even be counterproductive in a disease already marked by mitochondrial dysfunction and oxidative stress. Any link is therefore only a hypothesis. It would need testing in vitro or in patient-derived cell models before it could be considered plausible.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Verteporfin is not currently marketed in Canada under this evidence pack (0 licenses, market status: Not marketed/Not marketed). No DIN or product record is available.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2242367 | VISUDYNE | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug-interaction data are currently marked as data gaps in this evidence pack — including a Blocking-severity gap for regulatory warning/contraindication labeling — and cannot be summarized here.)*
+Please refer to the package insert for safety information. No drug-drug interaction records were found for verteporfin in the queried source.
 
 ---
 
@@ -94,13 +94,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a TxGNN association score (L5, decision stage S0) with zero clinical trials, zero literature, and no verifiable mechanistic link between verteporfin's known pharmacology and the predicted indication. A Blocking-severity data gap (regulatory warnings/contraindications) also prevents safety pre-screening (S1).
+The only support is a model prediction (L5). There are no trials or publications, and no supporting mechanism is documented. The drug's known photosensitizing, ROS-generating properties may even work against this condition.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label data (warnings, contraindications) to clear the Blocking data gap
-- Confirmed mechanism of action (MOA) data via DrugBank API to enable mechanistic-relevance analysis
-- Independent literature or preclinical search specifically on verteporfin and mitochondrial oxidative phosphorylation pathways, since none currently exists
-- Re-evaluation of route compatibility (currently "pending") given verteporfin is normally administered via IV infusion for photodynamic therapy, which may not suit a metabolic/mitochondrial disorder indication
+- Health Canada package insert warnings and contraindications. This is currently a blocking gap for safety screening.
+- Mechanism of action data, for example from DrugBank, to enable a proper mechanistic-link analysis.
+- The approved indication and dosage form for the VISUDYNE licence.
+- Preclinical validation, such as in vitro or patient-derived cell models of nuclear-DNA-driven oxidative phosphorylation disorders, including a check on whether ROS generation worsens the phenotype.
+- An assessment of route and formulation compatibility with the proposed indication.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

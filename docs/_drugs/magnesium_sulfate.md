@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Magnesium Sulfate
-parent: High Evidence (L1-L2)
-nav_order: 485
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 566
+evidence_level: L5
 indication_count: 10
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,122 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Sulfate: From Not Marketed in Canada to Preeclampsia/Eclampsia
+# Magnesium Sulfate: From Established Injectable Magnesium Therapy to Preeclampsia/Eclampsia
 
 ## One-Sentence Summary
 
-Magnesium sulfate (DrugBank DB00653) currently has no active market authorization or approved indication on file in Canada.
-The TxGNN model predicts it may be effective for **preeclampsia/eclampsia**,
-with **50 clinical trials** and **20 publications** currently supporting this direction — including a landmark large-scale RCT (the Magpie Trial) and a Cochrane systematic review.
+Magnesium sulfate is an injectable magnesium salt marketed in Canada under 8 licences, but the evidence pack contains no product-level approved indication text.
+The TxGNN model predicts it may be effective for **preeclampsia/eclampsia**, and this is already its standard-of-care use in obstetrics.
+The prediction is supported by **50 linked clinical trials** and **20 publications**, and most of the trials compare dosing regimens rather than test new efficacy.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented — drug has no license on file in Canada (0 DINs) |
-| Predicted New Indication | Preeclampsia/Eclampsia |
-| TxGNN Prediction Score | 99.9992% |
-| Evidence Level | L1 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Hold |
+| Predicted New Indication | Preeclampsia/eclampsia |
+| TxGNN Prediction Score | 99.999% (model rank 50) |
+| Evidence Level | L1 (see note below) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 8 |
+| Recommended Decision | Proceed with Guardrails |
+
+*Note on evidence level:* L1 rests mainly on the Magpie Trial (a large placebo-controlled RCT) and Cochrane reviews, which the pack files under the near-synonym entry "toxemia of pregnancy". Most trials listed under this indication are Phase N/A or Phase 4 regimen, duration or dose comparisons.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in DrugBank for this candidate. However, the clinical literature collected in this evidence pack itself describes a consistent pharmacological picture: magnesium sulfate acts centrally as an anticonvulsant (NMDA-receptor antagonism, reduction of hippocampal seizure activity — Cotton et al. 1992), and peripherally as a cerebral vasodilator that opposes calcium-dependent arterial vasospasm and reduces cerebral perfusion pressure (Sadeh 1989; Belfort et al. 2006). These mechanisms map directly onto the pathophysiology of eclamptic seizures, which are believed to involve cerebral vasospasm, endothelial dysfunction, and disrupted autoregulation of cerebral blood flow.
+Detailed mechanism-of-action data is not available in the drug record. The mechanism below comes from the evidence pack's repurposing analysis. Magnesium acts as an NMDA receptor antagonist and a calcium channel blocker, and it promotes cerebral vasodilation. Together these effects raise the seizure threshold and reduce cerebral vasospasm, which is thought to play a role in eclampsia.
 
-Magnesium sulfate is already widely reported in the literature as "the drug of choice" for seizure prophylaxis and treatment in preeclampsia/eclampsia (Sibai 1990; Witlin & Sibai 1998), a role reinforced by decades of accumulated RCT evidence, including the large multinational **Magpie Trial** and a **Cochrane systematic review** confirming its superiority over other anticonvulsants for this indication. Because this evidence base is so extensive and consistent, the TxGNN prediction aligns strongly with independently established real-world clinical use — even though this specific evidence pack lacks a documented "original indication" or formal MOA entry for the jurisdiction in question.
+Parenteral magnesium sulfate is described in the literature as the drug of choice for preventing and treating eclamptic seizures. The empty original-indication field in the input is a data gap, not evidence against the use. This prediction therefore mostly confirms an established practice rather than pointing to a new one.
+
+The linked trials mainly ask how best to give the drug. They cover 12-hour versus 24-hour postpartum duration, infusion rate, dosing in obesity, and delivery devices such as the Springfusor pump. They do not ask whether it works.
+
+---
 
 ## Clinical Trial Evidence
 
+Ten of the 50 linked trials are shown. The pack provides trial designs but no results, so the key-findings column describes what each trial tests.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00004399](https://clinicaltrials.gov/study/NCT00004399) | N/A | Completed | 2000 | Randomized comparison of nimodipine vs. magnesium sulfate for prevention of eclamptic seizures in severe preeclampsia |
-| [NCT01492608](https://clinicaltrials.gov/study/NCT01492608) | Phase 3 | Completed | 560 | MASP-STUDY: antenatal magnesium sulphate for prevention of cerebral palsy and death in preterm infants |
-| [NCT02317146](https://clinicaltrials.gov/study/NCT02317146) | Phase 2/3 | Completed | 280 | Novel postpartum magnesium sulfate protocol (6 vs 24 hours) in severe preeclampsia |
-| [NCT01911494](https://clinicaltrials.gov/study/NCT01911494) | N/A | Completed | 87,500 | CLIP cluster-RCT: community-level care package (including MgSO4 access) for hypertensive disorders of pregnancy |
-| [NCT04576364](https://clinicaltrials.gov/study/NCT04576364) | N/A | Completed | 280 | 12-hour vs 24-hour postpartum magnesium sulphate for preeclampsia with severe features |
-| [NCT00344058](https://clinicaltrials.gov/study/NCT00344058) | N/A | Completed | 200 | Abbreviated postpartum magnesium sulfate seizure prophylaxis: 12 vs 24 hour regimens |
-| [NCT01408979](https://clinicaltrials.gov/study/NCT01408979) | Phase 4 | Completed | 120 | Postpartum prophylaxis with short-course magnesium sulfate in severe preeclampsia |
-| [NCT02396030](https://clinicaltrials.gov/study/NCT02396030) | Phase 4 | Terminated | 62 | 1g/hour vs 2g/hour magnesium sulfate maintenance dose for eclampsia prevention |
-| [NCT03318211](https://clinicaltrials.gov/study/NCT03318211) | Phase 4 | Unknown | 100 | Continuation vs discontinuation of magnesium sulfate after delivery in severe preeclampsia |
-| [NCT02835339](https://clinicaltrials.gov/study/NCT02835339) | Phase 4 | Completed | 66 | Pharmacokinetics of magnesium sulfate in obese preeclamptic women |
+| [NCT06791668](https://clinicaltrials.gov/study/NCT06791668) | N/A | Recruiting | 400 | Observational (retrospective cohort) comparison of magnesium sulphate regimens in severe preeclampsia |
+| [NCT03549767](https://clinicaltrials.gov/study/NCT03549767) | NA | Unknown | 241 | Randomized comparison of Springfusor pump versus standard administration in preeclampsia/eclampsia |
+| [NCT03112551](https://clinicaltrials.gov/study/NCT03112551) | NA | Unknown | 100 | 12-hour versus 24-hour magnesium sulphate for eclampsia in a low-resource setting (Sudan) |
+| [NCT04576364](https://clinicaltrials.gov/study/NCT04576364) | NA | Completed | 280 | RCT of 12-hour versus 24-hour postpartum magnesium sulphate in severe preeclampsia |
+| [NCT02317146](https://clinicaltrials.gov/study/NCT02317146) | Phase 2/3 | Completed | 280 | 6 hours versus 24 hours postpartum magnesium sulfate when less than 8 hours were given before delivery |
+| [NCT00004399](https://clinicaltrials.gov/study/NCT00004399) | NA | Completed | 2000 | Nimodipine versus magnesium sulfate for preventing eclamptic seizures in severe preeclampsia |
+| [NCT02396030](https://clinicaltrials.gov/study/NCT02396030) | Phase 4 | Terminated | 62 | Maintenance dose of 1 g/h versus 2 g/h for eclampsia prevention |
+| [NCT03318211](https://clinicaltrials.gov/study/NCT03318211) | Phase 4 | Unknown | 100 | Continuing versus stopping magnesium sulfate after delivery in severe preeclampsia |
+| [NCT01408979](https://clinicaltrials.gov/study/NCT01408979) | Phase 4 | Completed | 120 | Short-course postpartum magnesium sulfate prophylaxis in severe preeclampsia |
+| [NCT02091401](https://clinicaltrials.gov/study/NCT02091401) | Phase 4 | Completed | 200 | Repeat-bolus Springfusor regimen versus continuous IV regimen, with serum magnesium concentrations |
+
+---
 
 ## Literature Evidence
 
+Ten of the 20 linked publications are shown. Randomized trials are listed first, then reviews and other work.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12057549](https://pubmed.ncbi.nlm.nih.gov/12057549/) | 2002 | RCT | Lancet | The Magpie Trial — landmark placebo-controlled RCT establishing magnesium sulfate's benefit for women with pre-eclampsia and their babies |
-| [12576241](https://pubmed.ncbi.nlm.nih.gov/12576241/) | 2003 | RCT | Obstetrics and Gynecology | Randomized controlled trial: magnesium sulfate in women with mild preeclampsia to prevent disease progression |
-| [38865319](https://pubmed.ncbi.nlm.nih.gov/38865319/) | 2024 | RCT | PLoS One | Springfusor pump vs standard-of-care MgSO4 administration — acceptability trial for preeclampsia/eclampsia |
-| [21069663](https://pubmed.ncbi.nlm.nih.gov/21069663/) | 2010 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Systematic review: magnesium sulphate and other anticonvulsants for women with pre-eclampsia |
-| [9794688](https://pubmed.ncbi.nlm.nih.gov/9794688/) | 1998 | Review | Obstetrics and Gynecology | Review of efficacy, benefits, and risks of magnesium sulfate seizure prophylaxis in preeclampsia/eclampsia |
-| [2288560](https://pubmed.ncbi.nlm.nih.gov/2288560/) | 1990 | Review | American Journal of Obstetrics and Gynecology | Magnesium sulfate as the ideal anticonvulsant in preeclampsia-eclampsia |
-| [16978425](https://pubmed.ncbi.nlm.nih.gov/16978425/) | 2006 | Review | Obstetrical & Gynecological Survey | Cerebral hemodynamics in preeclampsia and rationale for magnesium sulfate use |
-| [25353716](https://pubmed.ncbi.nlm.nih.gov/25353716/) | 2015 | Review | Acta Obstetricia et Gynecologica Scandinavica | Reducing maternal mortality from preeclampsia/eclampsia in low-resource countries |
-| [36413336](https://pubmed.ncbi.nlm.nih.gov/36413336/) | 2023 | Observational | Biological Trace Element Research | Incidence and risk factors of critical hypermagnesemia under MgSO4 regimen in severe preeclampsia |
-| [39110688](https://pubmed.ncbi.nlm.nih.gov/39110688/) | 2024 | Qualitative study | PLoS One | Nurse-midwife perspectives on providing magnesium sulfate for preeclampsia/eclampsia in Tanzania |
+| [38865319](https://pubmed.ncbi.nlm.nih.gov/38865319/) | 2024 | RCT | PLoS One | Acceptability of the Springfusor pump versus standard care, to avoid painful repeated intramuscular injections |
+| [12576241](https://pubmed.ncbi.nlm.nih.gov/12576241/) | 2003 | RCT | Obstet Gynecol | Tested whether magnesium sulfate prevents disease progression in women with mild preeclampsia |
+| [9794688](https://pubmed.ncbi.nlm.nih.gov/9794688/) | 1998 | Review | Obstet Gynecol | Efficacy, benefits and risks of magnesium sulfate seizure prophylaxis |
+| [2288560](https://pubmed.ncbi.nlm.nih.gov/2288560/) | 1990 | Review | Am J Obstet Gynecol | Describes magnesium sulfate as the ideal anticonvulsant, with efficacy and safety documented over 60 years |
+| [2672428](https://pubmed.ncbi.nlm.nih.gov/2672428/) | 1989 | Review | Stroke | Proposes that magnesium counters calcium-dependent arterial constriction and cerebral vasospasm |
+| [16978425](https://pubmed.ncbi.nlm.nih.gov/16978425/) | 2006 | Review | Obstet Gynecol Surv | Cerebral hemodynamics in preeclampsia and the rationale for an alternative to magnesium sulfate |
+| [1566765](https://pubmed.ncbi.nlm.nih.gov/1566765/) | 1992 | Preclinical | Am J Obstet Gynecol | Tests whether magnesium sulfate has central anticonvulsant effects on hippocampal seizures |
+| [36413336](https://pubmed.ncbi.nlm.nih.gov/36413336/) | 2023 | Observational | Biol Trace Elem Res | Incidence of critical hypermagnesemia and its risk factors in severe preeclampsia |
+| [31527059](https://pubmed.ncbi.nlm.nih.gov/31527059/) | 2019 | Implementation report | Glob Health Sci Pract | Magnesium sulfate alone cannot cut maternal mortality without a functioning health system |
+| [25353716](https://pubmed.ncbi.nlm.nih.gov/25353716/) | 2015 | Review | Acta Obstet Gynecol Scand | Interventions to reduce preeclampsia/eclampsia deaths in sub-Saharan Africa |
+
+The pivotal Magpie Trial ([PMID 12057549](https://pubmed.ncbi.nlm.nih.gov/12057549/), *Lancet*, 2002) and a Cochrane review ([PMID 21069663](https://pubmed.ncbi.nlm.nih.gov/21069663/), 2010) appear under the related "toxemia of pregnancy" entry. They support the efficacy case for this indication as well.
+
+---
 
 ## Canada Market Information
 
-Magnesium sulfate currently holds no active drug license (DIN) in Canada per the available regulatory data (market status: not marketed, 0 licenses on file). No approved Canadian indication text is therefore available for reference.
+The pack lists 8 licences and gives details for 5. Dosage form and approved-indication text are blank in the data.
+
+| DIN | Product Name |
+|---------|------|
+| 2139499 | Magnesium Sulfate Injection, USP |
+| 2513161 | Magnesium Sulfate Injection, BP 49.3% |
+| 2542153 | Magnesium Sulfate in Water for Injection |
+| 392618 | Magnesium Sulfate Injection USP |
+| 800007 | TIS-U-SOL Solution |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack — notably, TFDA/Health Canada label warnings and contraindications are flagged as a **Blocking** data gap (DG001), meaning this candidate cannot yet proceed to initial safety screening (S1).
+No warnings, contraindications or drug-interaction data were found for this drug (the interaction query returned no results). Please refer to the Health Canada package insert for safety information.
+
+The evidence pack's repurposing analysis and the linked literature suggest these practical safeguards:
+- Monitor serum magnesium, reflexes, respiratory rate and urine output.
+- Keep calcium gluconate available.
+- Adjust the dose in renal impairment.
+- Watch for hypermagnesemia. One study (PMID 36413336) examined its incidence and risk factors in severe preeclampsia.
+- Consider postpartum duration (12 h versus 24 h) and signals of obstetric hemorrhage risk (PMID 35704050).
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Efficacy evidence for magnesium sulfate in preeclampsia/eclampsia is exceptionally strong (L1: multiple completed Phase 2/3/4 RCTs, a landmark large-scale RCT, and a Cochrane systematic review). However, this candidate cannot advance because label warnings/contraindications data is marked as a **Blocking** gap, and the drug currently has no market authorization in Canada.
+Magnesium sulfate is already the standard seizure-prophylaxis agent in preeclampsia/eclampsia, backed by the Magpie RCT and Cochrane reviews. The remaining questions are about dosing, duration and safe administration rather than efficacy. Safety data for the Canadian products are missing, so use should stay under structured monitoring.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product monograph (warnings, contraindications, DDI) to complete S1 safety screening
-- Confirmed DrugBank mechanism of action data for formal mechanistic linkage analysis
-- Clarification of current Canadian regulatory/licensing pathway, since no DIN is currently on file
+- The Health Canada package insert warnings and contraindications. This is currently a blocking gap.
+- Mechanism-of-action data from DrugBank.
+- The approved indication text for each Canadian DIN, to confirm whether obstetric use is already on-label.
+- A defined monitoring and dosing protocol covering renal impairment, obesity, and 12-hour versus 24-hour postpartum duration.
+
+*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

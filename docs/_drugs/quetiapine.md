@@ -2,7 +2,7 @@
 layout: default
 title: Quetiapine
 parent: Model Prediction Only (L5)
-nav_order: 660
+nav_order: 779
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing report template directly (no additional skill needed — this is a single-pass writing task with a fully specified format).
-
-# Quetiapine: From Schizophrenia/Bipolar Disorder to Retinal Dystrophy with or without Extraocular Anomalies
+# Quetiapine: From Antipsychotic Use to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-> Quetiapine is a second-generation (atypical) antipsychotic historically indicated for schizophrenia, bipolar disorder, and as adjunctive therapy for major depressive disorder.
-> The TxGNN model's top-ranked prediction for this drug is **Retinal Dystrophy with or without Extraocular Anomalies**,
-> but this prediction has **0 clinical trials** and **no literature directly linking quetiapine to this disease** — the model itself flags this association as a likely knowledge-graph embedding artifact rather than a biologically grounded hypothesis.
-
----
+Quetiapine is an atypical antipsychotic that is already marketed in Canada. The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and **0 relevant publications** supporting this. The 15 retrieved papers are about congenital eye anomalies and never mention quetiapine, so this prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia / Bipolar Disorder (general drug knowledge — not present in this evidence pack; `original_indications` and Canada license data are empty) |
-| Predicted New Indication | Retinal Dystrophy with or without Extraocular Anomalies |
+| Original Indication | Not listed in the Canadian licence records provided (quetiapine is generally known as an atypical antipsychotic) |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed (Not marketed) |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on general pharmacological knowledge, quetiapine acts primarily as an antagonist at central dopamine D2, serotonin 5-HT2A, histamine H1, and α1-adrenergic receptors — a CNS receptor-modulation profile with proven efficacy in schizophrenia and bipolar disorder.
+Detailed mechanism of action data is not available in the Evidence Pack. Quetiapine acts mainly through 5-HT2A and D2 receptor antagonism, with additional H1 and alpha-1 activity. None of these actions is known to affect inherited retinal degeneration.
 
-Retinal dystrophy with or without extraocular anomalies is a structural/developmental ophthalmic disease with a genetic etiology. There is no established pharmacological pathway connecting quetiapine's CNS receptor activity to retinal structural development or degeneration.
+The reviewed rationale found **no credible mechanistic link** between quetiapine and retinal dystrophy. The retrieved literature appears to be keyword-matched noise. The score of 0.996 reflects a graph-based pattern in the knowledge graph, not biological or clinical evidence. This prediction should not be treated as a real repurposing lead.
 
-The evidence pack's own repurposing rationale is explicit on this point: *"No known mechanistic link. Quetiapine's CNS receptor targets (D2/5‑HT2A/H1/α1) have no pharmacological connection to the genetic/structural etiology of congenital retinal dystrophy. The high TxGNN score is likely an artifact of knowledge-graph embedding similarity rather than genuine biological plausibility."* This assessment should be taken at face value — the prediction is not currently actionable.
-
----
+**Worth noting:** among the other top-10 predictions, **trichotillomania** (rank 8, score 99.38%) is the only one with a plausible link. It is a body-focused repetitive behaviour disorder on the obsessive-compulsive spectrum. Seven publications address it, two of them directly about quetiapine, but all are case reports or narrative reviews, and one case report describes obsessive-compulsive symptoms emerging on quetiapine. It is graded L4 and flagged as a Research Question, and it deserves more attention than the rank 1 prediction.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+None of the 15 retrieved papers mentions quetiapine. The 10 shown below are all about congenital or orbital eye conditions and are not evidence for this prediction.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Orbital infection etiology and imaging; no mention of quetiapine or retinal dystrophy |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Clinical approach to diplopia; unrelated to drug therapy |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Congenital ptosis pathophysiology and management |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital lens shape anomalies |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case Report | American Journal of Ophthalmology | Unilateral cryptophthalmia case description |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case Report | Journal of Neuro-Ophthalmology | Congenital trochlear-oculomotor synkinesis |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome complex (vitreoretinal degeneration) |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging classification of pediatric orbital/ocular pathology |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case Report | Optometry and Vision Science | Congenital extraocular muscle fibrosis case |
-| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Case Report | Archives of Ophthalmology | Orbital arteriovenous malformation series |
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Orbital infections, mostly sinusitis-related; imaging and clinical features |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Systematic approach to evaluating diplopia |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis and associated eye findings |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens shape |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome complex (vitreoretinal degeneration with extraocular features) |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging of pediatric ocular pathologies |
+| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Review | Archives of Ophthalmology | Orbital arteriovenous malformations: features and outcomes |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | American Journal of Ophthalmology | Two cases of unilateral cryptophthalmia |
+| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | Journal of Neuro-Ophthalmology | Congenital trochlear-oculomotor synkinesis in a 6-year-old |
+| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optometry and Vision Science | Synergistic divergence in congenital fibrosis of the extraocular muscles |
 
-**Note:** None of these publications mention quetiapine. They surfaced via disease-side keyword overlap (retinal/ocular/congenital terminology) rather than any drug-disease co-occurrence, consistent with the "embedding artifact" assessment above.
+## Canada Market Information
 
----
+Showing 5 of 20 authorizations. Dosage form and indication text are not available in the records provided.
+
+| DIN | Product Name |
+|---------|------|
+| 02296594 | PMS-QUETIAPINE |
+| 02244107 | SEROQUEL |
+| 02317893 | QUETIAPINE |
+| 02321513 | SEROQUEL XR |
+| 02317370 | PRO-QUETIAPINE |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction lacks any mechanistic plausibility, clinical trial support, or relevant literature — the model's own rationale identifies it as a probable embedding artifact, and this drug is not currently marketed in Canada, so no regulatory/market foundation exists to build on.
+The prediction has no trials, no relevant literature and no plausible mechanism, so it rests on the model score alone (L5). The 15 retrieved papers are keyword noise and should not be read as support.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada label warnings and contraindications (currently blocking — data gap DG001)
-- Verified mechanism of action data from DrugBank (data gap DG002)
-- If pursuing this candidate at all, preclinical/mechanistic studies establishing a biological rationale connecting quetiapine to retinal dystrophy
-
-**Worth noting separately:** within the same prediction set, rank 8 — **trichotillomania** — has a materially stronger evidence base (7 PubMed publications, including case reports and reviews specifically on quetiapine's use in trichotillomania, evidence level L4, decision stage S1 "Research Question"). If the goal is identifying a viable repurposing candidate for this drug, that indication warrants evaluation ahead of the top-ranked but mechanistically unsupported retinal dystrophy prediction.
+- Any mechanistic or preclinical rationale linking quetiapine pharmacology to retinal degeneration. Without it, this candidate should not advance.
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening.
+- Detailed mechanism of action data from DrugBank.
+- Redirect effort to **trichotillomania** (rank 8). That would need a controlled study that monitors metabolic and sedative adverse effects and the risk of treatment-emergent obsessive-compulsive symptoms.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

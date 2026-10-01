@@ -2,7 +2,7 @@
 layout: default
 title: Isotretinoin
 parent: Model Prediction Only (L5)
-nav_order: 426
+nav_order: 499
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,60 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Isotretinoin: Original Indication Unavailable → Predicted New Indication: Malignant Renovascular Hypertension
+# Isotretinoin: From Severe Acne to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Isotretinoin's original approved indication and mechanism of action are not available in the current Evidence Pack (data gap, remediation pending via DrugBank API query). The TxGNN model predicts potential relevance to **Malignant Renovascular Hypertension** (and a near-duplicate signal, Malignant Hypertensive Renal Disease), but this is based **purely on knowledge-graph embedding similarity, with zero supporting clinical trials or literature**.
+Isotretinoin is a retinoid marketed in Canada under several brand names. The approved indication text was not supplied in the Evidence Pack, so its usual use, severe acne, is general knowledge and not taken from the pack.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so this is a model-only prediction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no licenses or indication data in Evidence Pack) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Not stated in the supplied data (commonly severe recalcitrant acne, per general knowledge) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.01% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 12 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for isotretinoin in this Evidence Pack ([Data Gap] DG002, High severity, pending DrugBank API remediation). No original indication data was returned either, so no pharmacological or clinical relationship between the original use and the predicted indication can be established at this time.
+Currently, detailed mechanism of action data is not available in the Evidence Pack, and the approved indication text for the Canadian licences is blank. No mechanistic link can be confirmed from the supplied data. The high TxGNN score (99.01%) reflects a knowledge-graph signal only.
 
-Based on the model's own rationale output, there is **no known mechanistic link** between isotretinoin (a retinoid) and malignant renovascular hypertension — the prediction shows no connection to renin-angiotensin pathways or renal vasculature pathophysiology. Notably, isotretinoin's known safety signal (potential elevation of triglycerides and lipid metabolism effects) runs **counter to**, rather than in support of, this indication direction. The TxGNN score of 99.01% reflects graph-embedding similarity only and does not constitute mechanistic or clinical evidence.
+One speculative link is that retinoid signalling may influence renin expression in preclinical settings. No evidence in this pack supports it, so it should be treated as a hypothesis to test, not a rationale.
 
-A second, near-identical candidate — **Malignant Hypertensive Renal Disease** (same score, adjacent KG rank) — appears to be a redundant signal from a neighboring graph node rather than an independent finding, and carries the same lack of mechanistic support.
+A second prediction, **malignant hypertensive renal disease**, has an identical score (99.01%) and probably reflects the same or an overlapping knowledge-graph signal. It should not count as independent support. Both diseases sit in the malignant hypertension cluster and should be reviewed together.
+
+Isotretinoin is not an established treatment for renovascular hypertension. Its known safety profile, including teratogenicity and lipid effects, would need careful review before any clinical consideration.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-Isotretinoin currently has no authorized products in Canada (0 DINs; market status: Not Marketed).
+Five of the 12 authorisations are listed below. Dosage form and approved-indication text were not provided for any of them.
+
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02396998 | EPURIS | Not listed | Not listed |
+| 02257955 | CLARUS | Not listed | Not listed |
+| 02257963 | CLARUS | Not listed | Not listed |
+| 02539071 | ABSORICA LD | Not listed | Not listed |
+| 00582344 | ACCUTANE | Not listed | Not listed |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available; a TFDA label warnings/contraindications gap is flagged as Blocking [DG001], pending PDF label parsing.)
+Please refer to the package insert for safety information. The Health Canada package insert warnings and contraindications have not yet been reviewed, and this must be done before any safety screening. No drug-interaction records were found in the queried source.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on TxGNN embedding similarity (L5, no clinical or literature support), and the model's own mechanistic rationale finds no biological link — with a known safety signal pointing the opposite direction. Combined with the absence of Canadian market presence and missing MOA/label data, there is no basis to advance this candidate.
+The prediction rests only on a knowledge-graph score. There are no trials, no publications, and no confirmed mechanism. The two predicted diseases are effectively one signal, and the known safety profile of isotretinoin raises concerns for any new use.
 
 **To proceed, the following is needed:**
-- Isotretinoin mechanism of action data (DrugBank API query, DG002)
-- TFDA/product label warnings and contraindications (Blocking gap DG001)
-- Any preclinical or mechanistic literature specifically linking retinoids to renal vascular/hypertensive pathology
-- Clarification on whether the two predicted indications (malignant renovascular hypertension vs. malignant hypertensive renal disease) should be treated as one signal or two
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- The approved indication text and dosage forms for the Canadian licences
+- Mechanism of action data, to test whether retinoid effects on renin or vascular pathways are plausible
+- A targeted literature and trial search for retinoids in renovascular or malignant hypertension
+- A safety review of teratogenicity and lipid effects against the proposed patient population
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

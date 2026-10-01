@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valsartan
-parent: High Evidence (L1-L2)
-nav_order: 818
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 957
+evidence_level: L4
 indication_count: 7
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,110 +29,71 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 </div>
 
-# Valsartan: From Hypertension/Heart Failure (ARB Class) to Chronic Pulmonary Heart Disease (Cor Pulmonale)
+# Valsartan: From Angiotensin Receptor Blocker Therapy to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Valsartan is an angiotensin II receptor blocker (ARB) that blocks the renin-angiotensin-aldosterone system (RAAS), historically used for hypertension and heart failure. Among seven TxGNN-predicted indications for this drug, **chronic pulmonary heart disease (cor pulmonale)** is the only one with meaningful supporting evidence — **7 clinical trials** and **20 publications**, largely derived from the sacubitril/valsartan (ARNI) heart-failure literature in patients with comorbid COPD/pulmonary hypertension. The other six predicted indications were screened and found to have weak, irrelevant, or pseudo-positive evidence.
-
----
+Valsartan is an angiotensin II type 1 (AT1) receptor blocker (ARB) that is marketed in Canada. The TxGNN model predicts it may be effective for **malignant renovascular hypertension**. Support is thin: **0 clinical trials** and **1 publication**, which is an animal study of AT1 blockade in general, not valsartan specifically.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack — Valsartan is not currently marketed in Canada (no DIN/license record). Internationally recognized as an ARB for hypertension and heart failure. |
-| Predicted New Indication | Chronic Pulmonary Heart Disease (Cor Pulmonale) |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L2 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Predicted New Indication | Malignant renovascular hypertension |
+| TxGNN Prediction Score | 99.97% |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed DrugBank mechanism-of-action data for valsartan is not available (data gap DG002). Based on the evidence contained in this pack, valsartan is an ARB that blocks the RAAS, the pharmacological mechanism underlying its established use in hypertension and heart failure with reduced ejection fraction (HFrEF).
+Detailed mechanism of action data is not available in the input. Valsartan is known to be an AT1 receptor antagonist. Activation of the renin-angiotensin system (RAS) is a main driver of malignant and renovascular hypertension, so blocking the AT1 receptor is biologically plausible for this condition.
 
-Chronic pulmonary heart disease (cor pulmonale) frequently develops secondary to left-sided heart failure and/or chronic obstructive pulmonary disease (COPD), rather than as an isolated pulmonary vascular disease. The evidence base here is built primarily on **sacubitril/valsartan (ARNI, brand LCZ696)**, a combination containing valsartan, studied extensively in HFrEF populations that commonly have COPD as a comorbidity (e.g., PARADIGM-HF and PARAGON-HF subgroup analyses).
-
-Mechanistically, this is plausible: one identified study (PMID 32552157) showed that angiotensin receptor–neprilysin inhibition attenuates right ventricular remodeling specifically in a pulmonary hypertension model — directly relevant to cor pulmonale pathophysiology, since RV remodeling is the hallmark of the disease. However, the existing evidence targets patients with HFrEF/COPD comorbidity, not cor pulmonale as a standalone diagnosis or Group 3 (hypoxia-driven) pulmonary hypertension. There is a meaningful risk of indication mismatch that should be clarified before advancing.
-
----
+The one retrieved paper is a 2001 *Circulation* study. It reports that AT1 receptor blockade prevented lethal malignant hypertension in an animal model, linked to reduced kidney inflammation. Its title suggests a preclinical design, and it may not have used valsartan itself. The evidence therefore supports the drug class, not valsartan in this disease.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02768298](https://clinicaltrials.gov/study/NCT02768298) | Phase 4 | Completed | 201 | LCZ696 (sacubitril/valsartan) vs. enalapril for exercise capacity in HFrEF |
-| [NCT06704633](https://clinicaltrials.gov/study/NCT06704633) | Phase 4 | Not yet recruiting | 238 | Health status after switching ACEi/ARB to sacubitril-valsartan in Tanzanian HFrEF patients |
-| [NCT06697353](https://clinicaltrials.gov/study/NCT06697353) | N/A | Completed | 4,936 | Real-world outcomes with vericiguat in Japanese HFrEF care (retrospective cohort; not valsartan-specific) |
-| [NCT05428631](https://clinicaltrials.gov/study/NCT05428631) | N/A | Recruiting | 10 | CardioMEMS hemodynamic monitoring tolerability in cardiorenal syndrome with severe renal impairment |
-| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | Phase 1 | Recruiting | 420 | Vascular function/rehabilitation study in hypertension, exercise & muscle afferent feedback |
-| [NCT05580510](https://clinicaltrials.gov/study/NCT05580510) | Phase 2/3 | Unknown | 160 | Empagliflozin + sacubitril/valsartan in adult congenital heart disease with HFrEF |
-| [NCT04735354](https://clinicaltrials.gov/study/NCT04735354) | N/A | Completed | 268 | Real-world sacubitril/valsartan use in Indian HFrEF patients (retrospective EMR) |
-
-**Note:** None of these trials directly enrolled a cor pulmonale population; relevance is indirect via HFrEF/COPD comorbidity.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32552157](https://pubmed.ncbi.nlm.nih.gov/32552157/) | 2020 | Preclinical/Mechanistic | J Am Heart Assoc | ARNI (sacubitril/valsartan) attenuates right ventricular remodeling in a pulmonary hypertension model |
-| [33522249](https://pubmed.ncbi.nlm.nih.gov/33522249/) | 2021 | Cohort (PARADIGM-HF subgroup) | J Am Heart Assoc | Sacubitril/valsartan outcomes in HFrEF patients with comorbid COPD |
-| [34796742](https://pubmed.ncbi.nlm.nih.gov/34796742/) | 2021 | Cohort (PARAGON-HF subgroup) | J Am Heart Assoc | Impact of COPD on outcomes in HFpEF patients treated with sacubitril/valsartan |
-| [33706551](https://pubmed.ncbi.nlm.nih.gov/33706551/) | 2021 | Cohort (combined PARAGON-HF + PARADIGM-HF) | Circ Heart Fail | Cardiac/non-cardiac comorbidity burden and treatment effect of sacubitril/valsartan |
-| [35413307](https://pubmed.ncbi.nlm.nih.gov/35413307/) | 2022 | Review/Guideline | Pharmacol Ther | Contemporary pharmacological therapy across the HF spectrum, including RAAS/ARNI agents |
-| [19176539](https://pubmed.ncbi.nlm.nih.gov/19176539/) | 2009 | Cohort (VALIANT subgroup) | Eur J Heart Fail | COPD as independent mortality predictor post-MI in valsartan trial population |
-| [18068611](https://pubmed.ncbi.nlm.nih.gov/18068611/) | 2007 | Cohort (Val-HeFT subgroup) | J Card Fail | COPD's prognostic contribution in chronic heart failure patients |
-| [39433052](https://pubmed.ncbi.nlm.nih.gov/39433052/) | 2025 | Epidemiological/Systematic Analysis | Lancet Respir Med | Global burden of pulmonary arterial hypertension, 1990–2021 |
-| [40689605](https://pubmed.ncbi.nlm.nih.gov/40689605/) | 2026 | Meta-analysis | Future Cardiol | ARNI vs. ACEi/ARB after acute decompensated heart failure |
-| [32319309](https://pubmed.ncbi.nlm.nih.gov/32319309/) | 2020 | Review | Future Cardiol | Current evidence and future perspectives of ARNI in cardiovascular disease |
-
----
+| [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) | 2001 | Preclinical (animal model) | Circulation | Tested whether AT1 receptor blockade can prevent malignant hypertension, even without a blood pressure-lowering effect. The title reports prevention of lethal malignant hypertension, linked to kidney inflammation. |
 
 ## Canada Market Information
 
-Valsartan is **not currently marketed in Canada** under this Evidence Pack (0 DINs, 0 licenses on record). No product/formulation data is available to assess route compatibility for the predicted indication.
+Five of the 20 authorizations are listed below. The input has no dosage form or approved indication text for these products.
 
----
-
-## Other Predicted Indications (Screened, Not Pursued)
-
-For completeness, six additional TxGNN-predicted indications for valsartan were reviewed and excluded due to insufficient or irrelevant evidence:
-
-| Disease | TxGNN Score | Evidence Level | Recommendation | Reason for Exclusion |
-|---|---|---|---|---|
-| Malignant renovascular hypertension | 99.97% | L4 | Research Question | Only preclinical/animal evidence; ARB not first-line in hypertensive emergency |
-| Malignant hypertensive renal disease | 99.97% | L5 | Hold | Sole literature reference studies a different drug class (endothelin antagonist), not an ARB |
-| Pulmonary hypertension owing to lung disease/hypoxia | 99.97% | L5 | Hold | Literature retrieval was a keyword mismatch (hypoxia cell biology/cancer, unrelated to ARB or PH treatment) |
-| Pulmonary hypertension, unclear mechanism | 99.97% | L5 | Hold | No clinical trials or literature; graph-based association only |
-| Braddock syndrome | 99.96% | L5 | Hold | Rare genetic syndrome with no known RAAS/ARB mechanistic link; likely knowledge-graph false positive |
-| Prinzmetal angina | 99.45% | L5 | Hold | Standard mechanism is coronary vasospasm (calcium channel blockers/nitrates); no ARB linkage; literature match is unrelated |
-
----
+| DIN | Product Name |
+|---------|------|
+| 2356643 | TEVA-VALSARTAN |
+| 2356678 | TEVA-VALSARTAN |
+| 2356759 | SANDOZ VALSARTAN |
+| 2356686 | TEVA-VALSARTAN |
+| 2384523 | VALSARTAN |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. **Note:** This Evidence Pack has a blocking data gap (DG001) — Health Canada product monograph warnings and contraindications for valsartan have not yet been retrieved, and drug-drug interaction data is also unavailable. This must be resolved before any safety initial screening (S1) can be completed.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Of seven TxGNN-predicted indications, only chronic pulmonary heart disease (cor pulmonale) is supported by consistent evidence — multiple RCT subgroup analyses (PARADIGM-HF, PARAGON-HF, VALIANT, Val-HeFT) showing sacubitril/valsartan benefit in HFrEF/HFpEF patients with comorbid COPD, plus a mechanistic study on right ventricular remodeling in pulmonary hypertension (L2). The remaining six candidates are Hold-level and should not be advanced.
+The prediction score is very high (99.97%), but no clinical trials exist for this indication. The only literature is a preclinical class-level study. The candidate remains a research question at the model-prediction stage.
+
+Other predicted indications are no stronger:
+- Hypertensive renal disease, pulmonary hypertension and Prinzmetal angina have no valsartan-specific evidence.
+- Chronic pulmonary heart disease has several heart failure trials, but they mostly test sacubitril/valsartan, a different regimen in a different population.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (blocking): obtain Health Canada product monograph warnings, contraindications, and DDI data
-- Resolve DG002: obtain DrugBank mechanism-of-action detail for valsartan
-- Clarify whether the target population is cor pulmonale secondary to HFrEF/COPD (supported by current evidence) versus primary Group 3 pulmonary hypertension (not supported) — this distinction is critical to avoid indication mismatch
-- Since valsartan is not marketed in Canada, confirm regulatory pathway (e.g., import, new DIN application) before any further development
+- Valsartan-specific preclinical or clinical data in malignant renovascular hypertension
+- Mechanism of action data and the Health Canada package insert, including warnings and contraindications
+- Drug interaction data, which returned no results
+- Approved indication and dosage form details for the Canadian products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

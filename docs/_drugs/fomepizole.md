@@ -2,7 +2,7 @@
 layout: default
 title: Fomepizole
 parent: Model Prediction Only (L5)
-nav_order: 346
+nav_order: 406
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,37 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Fomepizole: From Methanol/Ethylene Glycol Poisoning to Sclerosing Cholangitis
+# Fomepizole: From Ethylene Glycol/Methanol Poisoning to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Fomepizole is an alcohol dehydrogenase (ADH) inhibitor approved as an antidote for methanol and ethylene glycol poisoning.
-The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**, with a prediction score of **99.28%**.
-However, **no clinical trials and no supporting literature** currently exist for this indication, making this a model-only prediction at the lowest evidence level.
+Fomepizole is generally known as an antidote for ethylene glycol and methanol poisoning. The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but this prediction currently rests on the model score alone, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Methanol / Ethylene glycol poisoning (antidote) |
-| Predicted New Indication | Sclerosing Cholangitis |
+|------|------|
+| Original Indication | Ethylene glycol / methanol poisoning (general drug knowledge; the Canadian license data provided contains no indication text) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.28% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known pharmacological information, Fomepizole is a competitive inhibitor of alcohol dehydrogenase (ADH), the enzyme responsible for converting methanol and ethylene glycol into their toxic metabolites (formate and oxalate, respectively). By blocking ADH, Fomepizole prevents accumulation of these harmful compounds and is therefore life-saving in acute poisoning scenarios.
+Currently, detailed mechanism of action data is not available in the input. Fomepizole is generally known as a competitive inhibitor of alcohol dehydrogenase (ADH). It blocks the conversion of methanol and ethylene glycol into their toxic metabolites.
 
-The theoretical link to sclerosing cholangitis is indirect and speculative. One possible mechanistic thread is that ADH inhibition could reduce the local generation of toxic aldehyde metabolites in hepatic tissue, potentially lowering oxidative stress within biliary epithelial cells. Sclerosing cholangitis is characterised by progressive biliary inflammation and fibrosis, and oxidative injury is implicated in its pathogenesis — so a drug that dampens oxidative metabolite production could, in principle, be relevant.
+No established pathway links ADH inhibition to sclerosing cholangitis. That disease is driven by immune-mediated cholestatic injury and bile duct fibrosis. Possible links, such as ADH-related metabolism in hepatobiliary tissue or a shared neighbor in the knowledge graph, are speculative and unverified.
 
-However, the TxGNN high-confidence score (rank 12,400 in the model's output) most likely reflects a **network inference** through shared liver metabolism enzyme nodes or inflammation pathway nodes in the knowledge graph, rather than direct biological evidence. There is no published literature, no mechanistic experiment, and no clinical observation linking Fomepizole to sclerosing cholangitis. This prediction should be treated as a hypothesis-generation signal only.
+The high score (0.993) may reflect the graph's topology rather than a real biological rationale. This prediction should be treated as a hypothesis only.
 
 ---
 
@@ -77,15 +75,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Fomepizole is not currently marketed in Canada. No Drug Identification Numbers (DINs) are on record.
-
-> **Note:** Fomepizole (brand name Antizol) is approved in the United States by the FDA as an antidote for methanol and ethylene glycol poisoning. Canadian practitioners requiring this agent would likely access it through Special Access Programme (SAP) channels.
+| DIN | Product Name |
+|---------|------|
+| 2242980 | ANTIZOL |
+| 2435667 | FOMEPIZOLE FOR INJECTION |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data were available in the current evidence pack.
+Please refer to the package insert for safety information. No drug interaction records were found for this drug in the queried source.
 
 ---
 
@@ -94,15 +93,16 @@ Please refer to the package insert for safety information. No key warnings, cont
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score, but this is a purely computational inference with zero supporting clinical or preclinical evidence — no trials, no publications, and no mechanistic studies link Fomepizole to sclerosing cholangitis. The drug is also not marketed in Canada, creating an additional regulatory barrier. Proceeding without any biological plausibility data would not be justifiable.
+The prediction has no clinical, registry, or literature support, and no plausible mechanistic link to sclerosing cholangitis has been established. A high model score alone is not enough to justify moving forward.
 
 **To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to test for any biological link to cholestatic or bile duct disease
+- A systematic literature and trial search for fomepizole in hepatobiliary disease
+- Preclinical evidence (for example, cholestasis or bile duct fibrosis models) before any clinical consideration
+- An assessment of route compatibility and similarity to the original indication
 
-- **Mechanism of action verification**: Retrieve full MOA data from DrugBank (DB01213) to confirm whether ADH inhibition has any documented relevance to biliary or hepatic inflammatory pathways
-- **Preclinical evidence search**: Conduct a broader literature search (beyond the current drug+disease query) to identify any animal model studies, cell studies, or mechanistic papers connecting ADH inhibition to cholestatic liver disease or biliary fibrosis
-- **Safety data retrieval**: Obtain the full prescribing information (FDA label or manufacturer SDS) to document key warnings, contraindications, and interaction profile before any further evaluation
-- **Regulatory pathway assessment**: If preclinical evidence emerges, assess Health Canada Special Access Programme eligibility given no active Canadian DINs
-- **Expert consultation**: Engage a hepatologist or gastroenterologist to evaluate biological plausibility before allocating resources to formal repurposing study design
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

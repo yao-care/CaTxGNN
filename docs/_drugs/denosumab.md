@@ -2,7 +2,7 @@
 layout: default
 title: Denosumab
 parent: Model Prediction Only (L5)
-nav_order: 223
+nav_order: 257
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,83 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Denosumab: From Osteoporosis to Severe Nonproliferative Diabetic Retinopathy
+# Denosumab: From Osteoporosis and Bone Loss to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Denosumab is a fully human monoclonal antibody that inhibits RANK Ligand (RANKL), widely used internationally for osteoporosis and prevention of skeletal-related events in cancer patients.
-The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy** with a score of 99.63%; however, **no direct clinical trials or publications** currently support this specific indication.
-Indirect mechanistic and real-world evidence exists through the broader diabetic retinopathy indication (**1 clinical trial**, **2 publications**), keeping the overall evidence at Level 5.
+Denosumab is a bone-targeted drug marketed in Canada, and the literature describes its use in osteoporosis and bone loss. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but **no clinical trials and no publications** currently support this specific prediction. This is a model-only signal.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Osteoporosis; bone loss prevention in patients on hormone-deprivation therapy |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
+|------|------|
+| Original Indication | Not stated in the licence data; the literature describes osteoporosis and bone loss |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| Canada Market Status | Not marketed (no DIN records found) |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 6 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on established pharmacology, Denosumab is a fully human IgG2 monoclonal antibody that binds and neutralises RANK Ligand (RANKL), the key cytokine driving osteoclast maturation and survival. By blocking the RANKL–RANK interaction, Denosumab reduces osteoclast activity and is approved internationally for postmenopausal osteoporosis, glucocorticoid-induced osteoporosis, and prevention of skeletal-related events in malignancy.
+Currently, detailed mechanism of action data is not available for this record. Denosumab is marketed in Canada under several brand names. The literature describes its use in osteoporosis and in bone loss from androgen-deprivation therapy. Mechanistically, it may be applicable to diabetic retinopathy, but this has not been verified.
 
-The biological rationale for extending Denosumab into diabetic retinopathy centres on the RANKL/OPG (Osteoprotegerin) axis. OPG, the endogenous decoy receptor for RANKL, is expressed in retinal vasculature, and imbalance between RANKL and OPG has been proposed to amplify vascular inflammation, endothelial dysfunction, and microvascular injury—all hallmarks of diabetic retinopathy. Furthermore, RANKL inhibition suppresses systemic pro-inflammatory mediators such as TNF-α and IL-6, which are known to contribute to diabetic microvascular damage. Supporting this indirectly, a 2024 real-world cohort analysis (PMID 38899553) found that Denosumab reduces the incidence of type 2 diabetes and its microvascular complications (including retinopathy) compared with bisphosphonates.
+One possible route is modulation of the RANKL/OPG pathway. That could affect inflammation and vascular remodelling in the diabetic retina. This idea is speculative. No trial or publication tests it for severe nonproliferative diabetic retinopathy, and without the original mechanism data the link cannot be checked.
 
-That said, the TxGNN score of 99.63% reflects knowledge-graph topological proximity — not validated efficacy. No preclinical model has directly tested Denosumab in retinal tissue under diabetic conditions, and no clinical trial has enrolled patients with severe nonproliferative diabetic retinopathy as a primary population. This prediction should be treated strictly as a hypothesis-generating signal requiring prospective investigation.
+The very high TxGNN score (0.996) is the only support for this prediction. It should be treated as a hypothesis for further study, not as evidence of efficacy.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials directly evaluating Denosumab for **severe nonproliferative diabetic retinopathy** were identified.
+Currently no related clinical trials registered for severe nonproliferative diabetic retinopathy.
 
-The following trial was retrieved for the broader **diabetic retinopathy** search and is included for contextual reference:
+The model's second-ranked prediction, **diabetic retinopathy** (score 99.23%), has one loosely related trial:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00925600](https://clinicaltrials.gov/study/NCT00925600) | Phase 3 | Completed | 769 | Evaluated new or worsening lens opacifications (cataract) in men with non-metastatic prostate cancer receiving Denosumab for ADT-induced bone loss. The primary endpoint was ocular safety (crystalline lens changes), not diabetic retinopathy. Retinal outcomes, if collected, would be incidental safety observations only. Grade C relevance — does not support DR efficacy. |
+|---------|------|------|------|---------|
+| [NCT00925600](https://clinicaltrials.gov/study/NCT00925600) | Phase 3 | Completed | 769 | Placebo-controlled study of new or worsening lens opacifications in men with non-metastatic prostate cancer receiving denosumab for bone loss. It is an ocular (lens) safety study with no efficacy evidence for retinopathy. |
 
 ---
 
 ## Literature Evidence
 
-No publications directly addressing Denosumab in **severe nonproliferative diabetic retinopathy** were identified.
+Currently no related literature available for severe nonproliferative diabetic retinopathy.
 
-The following publications were retrieved for the broader **diabetic retinopathy / diabetes complications** search:
+For the second-ranked prediction, **diabetic retinopathy**, only indirect literature was found:
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Observational cohort + Meta-analysis | *Diabetes, Obesity & Metabolism* | Real-world cohort analysis with systematic review and meta-analysis. Denosumab reduced the incidence of type 2 diabetes and long-term microvascular complications (retinopathy, neuropathy, nephropathy) compared with bisphosphonates. Provides indirect population-level signal that RANKL inhibition may protect against diabetic microvascular disease, including retinopathy. |
-| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Cross-sectional | *Cureus* | Evaluated fracture risk (FRAX tool) in adults with type 2 diabetes to identify patients eligible for anti-osteoporotic therapy. Contextually relevant to the bone–diabetes interface but provides no direct data on Denosumab's effect on retinopathy. |
+|------|-----|------|------|---------|
+| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Observational / review (design unconfirmed) | Diabetes Obes Metab | Real-world cohort analysis with meta-analysis. It evaluated denosumab's effect on type 2 diabetes incidence and on long-term outcomes, including retinopathy, compared with bisphosphonates. |
+| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Cohort / risk assessment | Cureus | Fracture-risk (FRAX) assessment in adults with type 2 diabetes. It is not denosumab-specific and does not address retinopathy. |
 
 ---
 
 ## Canada Market Information
 
-No DIN records for Denosumab were found in the current regulatory dataset.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2560895 | OSENVELT | — | — |
+| 2545764 | WYOST | — | — |
+| 2343541 | PROLIA | — | — |
+| 2545411 | JUBBONTI | — | — |
+| 2368153 | XGEVA | — | — |
 
-> **Note:** This finding may reflect a data gap rather than true non-approval. Denosumab is marketed internationally under the brand names **Prolia** (osteoporosis) and **Xgeva** (oncology/bone metastases). Verification against Health Canada's Drug Product Database is recommended before drawing regulatory conclusions.
+A sixth authorization exists (6 in total), but only five are listed in the data. Dosage form and indication text are not provided for any of them.
 
 ---
 
 ## Safety Considerations
 
-No safety data (warnings, contraindications, or drug interactions) were returned by the current data pipeline for Denosumab.
-
-Please refer to the Prolia/Xgeva Canadian product monograph for complete safety information. Key areas to review include:
-- **Hypocalcaemia** (must correct before initiating therapy)
-- **Osteonecrosis of the jaw**
-- **Atypical femoral fracture**
-- **Serious infections** (skin, urinary tract, endocarditis)
-- **Rebound vertebral fractures** upon discontinuation
+Please refer to the package insert for safety information.
 
 ---
 
@@ -114,16 +111,15 @@ Please refer to the Prolia/Xgeva Canadian product monograph for complete safety 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score is high (99.63%), but this reflects knowledge-graph structural similarity, not clinical evidence. There are currently no preclinical or clinical studies directly investigating Denosumab for severe nonproliferative diabetic retinopathy, placing this candidate at Evidence Level 5. The indirect signal from PMID 38899553 is promising but insufficient to advance without further mechanistic and translational validation.
+The prediction rests only on a model score. No trials or publications address severe nonproliferative diabetic retinopathy, and the indirect evidence for diabetic retinopathy is weak. The only related trial is a lens-safety study. Mechanism and safety data are also missing, so this cannot move to safety screening.
 
 **To proceed, the following is needed:**
+- Mechanism of action data (for example from DrugBank) to test the proposed RANKL/OPG link to the diabetic retina
+- Health Canada product monograph warnings and contraindications
+- Preclinical or observational evidence of denosumab's effect on retinal disease
+- Approved indication text for each Canadian licence
 
-- **Mechanistic validation:** Preclinical studies (in vitro endothelial/pericyte models; streptozotocin or db/db mouse retinal models) to assess whether RANKL inhibition attenuates retinal microangiopathy
-- **Biomarker data:** Characterise RANKL/OPG expression in diabetic retinal tissue (human biopsy or vitreous humour analysis)
-- **Post-hoc data mining:** Query existing large Denosumab trial datasets (e.g., FREEDOM, DECIDE, NCT00925600) for any collected retinal or fundoscopic outcomes
-- **Regulatory clarification:** Verify Denosumab DIN status in Health Canada's Drug Product Database and obtain the full Canadian product monograph for safety screening
-- **MOA confirmation:** Retrieve complete DrugBank pharmacology entry (DB06643) to enable formal mechanism-of-action relevance scoring
-- **Evidence uplift target:** Advance to L4 (at minimum one preclinical study) before proceeding to clinical feasibility assessment
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

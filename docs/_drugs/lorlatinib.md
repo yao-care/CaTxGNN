@@ -2,7 +2,7 @@
 layout: default
 title: Lorlatinib
 parent: Model Prediction Only (L5)
-nav_order: 476
+nav_order: 555
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,15 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the Evidence Pack as provided — note upfront that `predicted_indications[0]` (the highest TxGNN score) is **Gingival Fibromatosis**, and the pack's own `repurposing_rationale` for this candidate explicitly states there is no mechanistic plausibility and no supporting evidence. I'm reporting this honestly rather than reframing it as a stronger signal than the data supports.
-
 # Lorlatinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-> Lorlatinib is a third-generation ALK/ROS1 tyrosine kinase inhibitor, globally approved for ALK-positive non-small cell lung cancer (NSCLC) — though it currently holds no marketing authorization in Canada.
-> The TxGNN model's top-ranked prediction for this drug is **Gingival Fibromatosis**, with a **99.81%** prediction score,
-> but this is supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags the mechanistic link as implausible.
+Lorlatinib is a third-generation ALK/ROS1 tyrosine kinase inhibitor, marketed for ALK-positive non-small cell lung cancer (NSCLC).
+The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 99.81%), but **0 clinical trials** and **0 publications** support this prediction.
+It is a model output only, with no mechanistic rationale, so it should be treated as a hypothesis.
 
 ---
 
@@ -45,23 +43,23 @@ Using the Evidence Pack as provided — note upfront that `predicted_indications
 
 | Item | Content |
 |------|------|
-| Original Indication | ALK-positive non-small cell lung cancer (NSCLC) — derived from literature evidence in this pack; not a Health Canada–registered indication (drug is unmarketed in Canada) |
-| Predicted New Indication | Gingival Fibromatosis |
+| Original Indication | ALK-positive NSCLC (taken from the literature; the license records list no indication text) |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.81% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged in this pack as data gap DG002, High severity). Based on the literature evidence collected elsewhere in this pack (e.g., the CROWN trial series and adverse-event management reviews), lorlatinib is known to be a brain-penetrant, third-generation ALK/ROS1 tyrosine kinase inhibitor, with its established efficacy in ALK-rearranged NSCLC.
+Currently, detailed mechanism of action data is not available in the record. Lorlatinib is known from the literature to be a brain-penetrant inhibitor of ALK and ROS1 fusion kinases, and its efficacy in ALK-positive NSCLC is well established.
 
-Gingival fibromatosis, however, is a benign gingival overgrowth condition primarily associated with genes such as *SOS1* and *REST*, and has no established connection to the ALK signaling pathway that lorlatinib targets. The evidence pack's own mechanistic assessment for this candidate states directly that there is "no known association with the ALK pathway, no mechanistic plausibility, and no clinical or literature evidence of any kind."
+Gingival fibromatosis (here, the hereditary form) is a benign overgrowth of gum tissue. No ALK- or ROS1-driven mechanism is established for it, so there is no evident target link between the original and predicted indications. The high score most likely reflects proximity in the knowledge graph rather than disease-specific biology.
 
-Taken together, this suggests the high TxGNN score most likely reflects proximity within the model's embedding space (e.g., shared graph neighbors) rather than a genuine, biologically grounded repurposing signal. This is corroborated by the complete absence of clinical trials or publications for this drug-disease pair (see query log entries #2–#4, all zero results).
+For these reasons the prediction is not currently plausible on mechanistic grounds. Any further work would need a new biological hypothesis, such as evidence of kinase pathway involvement in gingival fibroblast overgrowth.
 
 ---
 
@@ -79,27 +77,35 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Lorlatinib currently holds **no Health Canada market authorization** — `market_status` is recorded as "not marketed" with **0 DINs** on file. No product listing, dosage form, or approved-indication text is available for extraction from `taiwan_regulatory.licenses`.
+| DIN | Product Name |
+|---------|------|
+| 2485974 | LORBRENA |
+| 2485966 | LORBRENA |
 
 ---
 
 ## Cytotoxicity
 
-Lorlatinib is an oncology drug (ALK/ROS1-targeted small-molecule inhibitor used in NSCLC), so this section is included per the antineoplastic-drug criteria, drawing on general lorlatinib safety literature found elsewhere in this evidence pack (not specific to the gingival fibromatosis candidate).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1 tyrosine kinase inhibitor) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Low — literature in this pack reports lorlatinib's dominant toxicities as metabolic/lipid (hypercholesterolemia, hypertriglyceridemia), weight gain, edema, and CNS/cognitive effects, rather than hematologic suppression |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Fasting lipid panel, weight/BMI, liver function, CNS/cognitive and mood assessment; renal function if nephrotic-range proteinuria is suspected |
-| Handling Protection | Standard oral oncology-drug handling; not subject to conventional cytotoxic (hazardous chemotherapy) handling protocols, but formal confirmation should follow the package insert |
+| Cytotoxicity Classification | Targeted therapy (ALK/ROS1 tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Literature on lorlatinib in ALK-positive cancers reports lipid abnormalities, CNS effects (cognitive and mood changes) and pulmonary toxicity. Lipid profile, neurocognitive status and respiratory symptoms are therefore reasonable to monitor. Confirm against the package insert. |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (`safety.key_warnings`, `safety.contraindications`, and `safety.ddi` are all unavailable in this evidence pack — DG001, Blocking severity — and a TFDA/Health Canada label review is required before any safety evaluation can proceed.)
+No formal warning, contraindication or interaction data are available in the record. Please refer to the package insert for safety information.
+
+Published reports on lorlatinib in other diseases point to these signals, which would matter for any new use:
+- **Metabolic:** hypercholesterolemia, hypertriglyceridemia, weight gain, and a possible link to nephrotic syndrome.
+- **CNS:** cognitive and mood effects.
+- **Pulmonary:** acute respiratory distress syndrome (case report) and pulmonary toxicity when combined with anti-GD2 antibody.
+
+Gingival fibromatosis is a benign condition, so this toxicity profile weighs heavily against the benefit.
 
 ---
 
@@ -108,12 +114,17 @@ Please refer to the package insert for safety information. (`safety.key_warnings
 **Decision: Hold**
 
 **Rationale:**
-- This candidate has zero clinical trials, zero literature support, and the evidence pack's own rationale explicitly identifies the mechanistic link as absent — the high TxGNN score alone cannot justify further evaluation. Additionally, a Blocking-severity data gap (missing TFDA/Health Canada label warnings) prevents even a preliminary safety assessment (S1).
+The prediction rests on the model score alone. There are no trials or publications, and no plausible ALK/ROS1-related mechanism. Lorlatinib's metabolic and neurocognitive toxicity is hard to justify in a benign condition.
 
 **To proceed, the following is needed:**
-- Health Canada / package insert data: warnings, contraindications, and drug interactions (resolves DG001, currently Blocking)
-- Confirmed mechanism-of-action data for lorlatinib (resolves DG002)
-- If repurposing evaluation continues for this drug, consider re-prioritizing toward **lung hilum carcinoma** (rank 4 in this pack), which — while still limited to a single case report (L3) — has a biologically coherent rationale (ALK-positive NSCLC anatomic subtype) not present in the top-ranked candidate
+- A mechanistic hypothesis linking kinase signalling to gingival fibroblast overgrowth, with preclinical support
+- Detailed mechanism of action data (MOA)
+- Health Canada package insert warnings and contraindications
+- A benefit-risk assessment for a benign indication
+
+Other lower-ranked TxGNN predictions for lorlatinib (for example lung hilum carcinoma and lung germ cell tumor) have some literature. It concerns ALK-positive NSCLC and ALK-driven neuroblastoma, not the labelled disease terms. It is indirect evidence, and mapping it to those terms would be a data-curation decision.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

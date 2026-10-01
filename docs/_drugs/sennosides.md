@@ -2,7 +2,7 @@
 layout: default
 title: Sennosides
 parent: Model Prediction Only (L5)
-nav_order: 712
+nav_order: 837
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Sennosides: From Constipation to Hypotrichosis Simplex of the Scalp
+# Sennosides: From Laxative Use to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-> Sennosides is an anthraquinone-class stimulant laxative used to treat constipation.
-> The TxGNN model's top prediction suggests possible relevance to **Hypotrichosis Simplex of the Scalp**,
-> but this association is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review concludes the signal is most likely knowledge-graph noise rather than genuine biological plausibility.
+Sennosides are a stimulant laxative ingredient, found in marketed Canadian senna products such as Senokot S and Sandoz Senna S.
+The TxGNN model predicts they may be effective for **hypotrichosis simplex of the scalp** (a genetic hair-growth disorder), but **0 clinical trials** and **0 publications** support this prediction.
 
 ---
 
@@ -43,31 +42,31 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation (anthraquinone stimulant laxative — inferred from rationale text; not present in `original_indications`) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
+| Original Indication | Not listed in the licence records; the products are marketed as stimulant laxatives |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.29% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 5 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from DrugBank for sennosides (flagged as a High-severity data gap, DG002). Based on the descriptive information available in the evidence pack, sennosides is an anthraquinone-class stimulant laxative that acts by stimulating the submucosal plexus of the colon, increasing peristalsis, and inhibiting water reabsorption in the large intestine.
+Detailed mechanism of action data is not currently available from DrugBank. Sennosides are anthraquinone glycosides. Gut bacteria convert them to rhein anthrone, which stimulates colonic motility and secretion. The action is local to the colon, and little active metabolite is absorbed.
 
-This mechanism has no established connection to hair follicle biology, keratinocyte proliferation, androgen receptor signaling, T-cell–mediated autoimmune follicular attack, or trabecular meshwork/aqueous humor dynamics. All six of the model's top-ranked predictions cluster around two unrelated disease families — hair loss (hypotrichosis, alopecia areata, congenital hypotrichosis, alopecia) and glaucoma (open-angle, primary hereditary) — none of which share a plausible pharmacological pathway with a colonic stimulant laxative.
+No plausible link was found between this laxative action and hair follicle biology or a genetic hair-growth disorder. The high score (0.993) most likely reflects similarity in the knowledge-graph neighbourhood rather than a biological rationale.
 
-The evidence pack's own mechanistic rationale for every candidate explicitly concludes there is "no biological plausibility" and attributes the associations to TxGNN embedding artifacts, possibly arising from rare co-morbidity nodes in the knowledge graph rather than a true drug–disease signal.
+The other top predictions are equally unsupported. They include congenital hypotrichosis milia, diffuse alopecia areata, open-angle glaucoma, primary hereditary glaucoma and alopecia, and none has a mechanistic link or supporting study. The TxGNN score alone should not be read as evidence of efficacy.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for hypotrichosis simplex of the scalp.
+Currently no related clinical trials registered.
 
-*Note: Two trials were retrieved under the related candidate "alopecia" (rank 6), but both were assessed as irrelevant — one evaluated platelet-rich plasma injections (NCT05348343) and the other was an assessment-tool validation study with no drug intervention (NCT03082560). Neither involves sennosides.*
+Two trials appear under the broader "alopecia" prediction (NCT05348343 on platelet-rich plasma, and NCT03082560 on a lichen planopilaris assessment tool). Neither tests sennosides, and neither is relevant to this prediction.
 
 ---
 
@@ -79,13 +78,21 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Sennosides currently has no licensed products in Canada (0 DINs; market status: Not Marketed).
+| DIN | Product Name |
+|---------|------|
+| 2247390 | SANDOZ SENNA S |
+| 26123 | SENOKOT S |
+| 2516209 | COLACE PLUS STIMULANT LAXATIVE |
+| 2247134 | SENNA LAXATIVE AND DOCUSATE SODIUM TABLETS |
+| 2246951 | SENNA S. TABLETS |
+
+Dosage form and approved indication text are not recorded for these licences.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. TFDA-equivalent labeling data (warnings, contraindications) is flagged as a **Blocking**-severity data gap (DG001) and has not yet been retrieved.
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
 ---
 
@@ -94,13 +101,13 @@ Please refer to the package insert for safety information. TFDA-equivalent label
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials or literature evidence support any of the six predicted indications, and the mechanistic review — including the evidence pack's own analysis — indicates these are most likely TxGNN embedding noise rather than genuine repurposing signals. The drug is also not currently marketed in Canada, and core safety data (labeling, MOA) remain unresolved data gaps.
+The prediction rests only on a computational score, with no trials, no publications and no plausible mechanism linking a colon-acting laxative to scalp hair growth. It does not justify further investment at this stage.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data from DrugBank (DG002)
-- TFDA/Health Canada-equivalent labeling data — warnings and contraindications (DG001, Blocking)
-- Independent literature or preclinical evidence directly linking sennosides to hair follicle or intraocular pressure pathways, to rule out embedding noise
-- Reassessment of candidate ranking once real evidence becomes available; no action recommended until evidence level improves beyond L5
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any mechanistic or preclinical evidence linking sennosides or their metabolites to hair follicle biology
+- Assessment of route compatibility, since an oral laxative would need a different route or formulation for a scalp condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Ammonium Chloride
 parent: Model Prediction Only (L5)
-nav_order: 49
+nav_order: 54
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,37 +29,39 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Ammonium Chloride: From Traditional Expectorant to Acute Laryngopharyngitis
+# Ammonium Chloride: From Cough Syrup Ingredient to Acute Laryngopharyngitis
 
 ## One-Sentence Summary
 
-Ammonium chloride is a traditional expectorant with a long history of use for thinning respiratory mucus secretions, though it currently holds no approved indications on the Taiwan market.
-The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, with mechanistic plausibility rooted in its secretagogue action on airway glands.
-However, this prediction is supported by **0 clinical trials** and **0 publications**, making this a model-only hypothesis requiring significant validation before any clinical consideration.
+Ammonium chloride is an ingredient in cough syrup products marketed in Canada, but the record lists no formal approved indication.
+The TxGNN model predicts it may be effective for **acute laryngopharyngitis**,
+but currently **0 clinical trials** and **0 publications** support this direction, so the prediction rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Traditional expectorant (not currently approved in Taiwan) |
-| Predicted New Indication | Acute Laryngopharyngitis |
+|------|------|
+| Original Indication | Not stated in the record (marketed in cough syrup products) |
+| Predicted New Indication | Acute laryngopharyngitis |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Licenses | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
+
+A second prediction, **nasal cavity disease** (score 99.94%), also has no supporting trials or literature. The term is broad and non-specific, so it is less informative.
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Ammonium chloride has historically been classified as an expectorant. Its proposed mechanism operates indirectly: oral administration irritates the gastric mucosa, triggering a vagal reflex that stimulates serous secretion from bronchial and upper airway glands. This action theoretically thins and loosens viscous mucus in the throat and laryngopharynx, which is a hallmark of acute laryngopharyngitis.
+Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is a component of cough syrup products, and mechanistically it may be applicable to upper-airway conditions such as acute laryngopharyngitis.
 
-The connection between ammonium chloride and acute laryngopharyngitis is therefore mechanistically plausible at a conceptual level — both involve the upper airway, and mucus management is a central symptom management target in laryngopharyngeal inflammation. This mechanistic bridge is the most likely reason TxGNN assigned a high score (0.9994), as the knowledge graph likely contains strong associations between "respiratory secretagogue drugs" and "upper respiratory tract conditions" as a broad node cluster.
+Ammonium chloride is widely known as an expectorant in over-the-counter cough and cold products. It is thought to irritate the stomach lining, which reflexively increases respiratory tract secretions and helps loosen mucus. This would make a link to upper-airway inflammation biologically plausible. However, this comes from general pharmacology knowledge, not from the supplied data, and it has not been verified.
 
-That said, it is important to note that detailed pharmacological mechanism of action data is unavailable for this drug in the current evidence pack. The mechanistic link described above is an indirect inference based on the drug's traditional use class. Furthermore, the TxGNN rank of 1,662 (despite the high score) suggests this prediction may reflect broad categorical similarity in the graph rather than a disease-specific signal. The complete absence of any registered clinical trial or published literature means this hypothesis has not been tested in any rigorous or even exploratory clinical setting.
+The prediction score is high, but without any clinical data it is only a hypothesis. The score may partly reflect general network proximity in the knowledge graph, so it should not be read as evidence of efficacy.
 
 ---
 
@@ -75,17 +77,19 @@ Currently no related literature available.
 
 ---
 
-## Taiwan Market Information
+## Canada Market Information
 
-Ammonium chloride currently holds **no approved licenses** on the Taiwan market and is classified as **not marketed (Not marketed)**. There are no DIN-equivalent license entries to display.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2245592 | DAMYLIN WITH CODEINE SYRUP | Not listed | Not listed |
+| 690074 | COUGH SYRUP | Not listed | Not listed |
+| 535230 | CALMYLIN | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> No key warnings, contraindications, or drug interaction data are currently available in this evidence pack. Retrieval from TFDA product monographs and DrugBank is recommended before any further evaluation proceeds.
 
 ---
 
@@ -94,15 +98,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This is a model-only prediction (Evidence Level L5) with zero supporting clinical trials or published literature. While the mechanistic hypothesis connecting ammonium chloride's expectorant action to acute laryngopharyngitis is conceptually coherent, the complete absence of empirical evidence — combined with no Taiwan market presence and no safety data — makes advancement premature at this stage.
+The prediction is supported only by the TxGNN score. There are no clinical trials, no literature, and no mechanism data. The product labels in the record also list no approved indication or safety information, so the prediction cannot be evaluated further at this stage.
 
 **To proceed, the following is needed:**
-
-- **Safety data retrieval (Blocking):** Obtain TFDA product monograph (仿單) or equivalent international package insert to identify key warnings and contraindications before any clinical planning
-- **MOA confirmation (High priority):** Query DrugBank API for pharmacodynamic mechanism of action to validate or refute the vagal reflex secretagogue hypothesis
-- **Scoping literature search:** Conduct a broad PubMed search using ammonium chloride with upper respiratory tract, expectorant, and laryngitis terms to determine if any historical or regional literature exists outside the current search scope
-- **Differentiation from second prediction:** Evaluate whether nasal cavity disease (rank 2, score 99.93%) or acute laryngopharyngitis is a more clinically actionable starting point, given that both currently share identical L5 evidence status
-- **Regulatory pathway assessment:** Determine whether ammonium chloride could realistically re-enter the Taiwan market as a component in a combination expectorant product, given its historical role in cough-cold formulations globally
+- Health Canada package insert (warnings, contraindications, approved indications) for the three listed products
+- Mechanism of action data (for example, from DrugBank)
+- A more specific target disease. "Nasal cavity disease" is too broad to evaluate.
+- Any clinical or observational evidence for ammonium chloride in acute laryngopharyngitis or related upper-airway conditions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

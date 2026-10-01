@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Adalimumab
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 24
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 ---
 
 # Adalimumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,106 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Adalimumab: From Rheumatoid Arthritis to Rheumatoid Vasculitis
-
----
+# Adalimumab: From Established Autoimmune Indications to Rheumatoid Vasculitis
 
 ## One-Sentence Summary
 
-Adalimumab (Humira®) is a fully human anti-TNF-α monoclonal antibody, globally approved for rheumatoid arthritis and multiple other inflammatory diseases, though not currently marketed in Taiwan.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis**,
-with **3 indirectly relevant clinical trials** and **20 publications** — including 1 systematic review specifically addressing biological therapy in rheumatoid vasculitis — currently supporting this direction, though no direct head-to-head trials exist.
+Adalimumab is a fully human anti-TNF-α monoclonal antibody, used in inflammatory conditions such as rheumatoid arthritis. The TxGNN model predicts it may be effective for **rheumatoid vasculitis**. The direct evidence is weak: **5 registered clinical trials** were retrieved, none of which tests adalimumab in this condition. Of the **20 publications**, the closest are one systematic review and a few case reports, and several other reports describe adalimumab *causing* vasculitis-like events.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not approved in Taiwan; internationally approved for rheumatoid arthritis, ankylosing spondylitis, psoriatic arthritis, Crohn's disease, and others |
-| Predicted New Indication | Rheumatoid Vasculitis |
+|------|------|
+| Predicted New Indication | Rheumatoid vasculitis |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Licenses | 0 |
-| Recommended Decision | Hold (Research Question) |
+| Evidence Level | L3 (systematic review and case reports only; the automated pipeline graded it L4) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known published information, adalimumab is a fully human IgG1 monoclonal antibody that binds with high affinity to both soluble and membrane-bound TNF-α, blocking its interaction with TNFR1 and TNFR2. This suppresses downstream pro-inflammatory cascades including NF-κB activation, matrix metalloproteinase secretion, and RANKL expression — mechanisms well-validated in the treatment of rheumatoid arthritis and related immune-mediated inflammatory diseases.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Published abstracts describe adalimumab as a fully human monoclonal antibody that neutralizes tumor necrosis factor-alpha (TNF-α). Its efficacy in rheumatoid arthritis is well documented in the retrieved literature. Mechanistically, it may be applicable to rheumatoid vasculitis.
 
-Rheumatoid vasculitis (RV) is a severe extra-articular complication of long-standing RA, primarily affecting small-to-medium calibre vessels. Its core pathology involves CD4+ T cell and macrophage infiltration of vascular walls, with locally elevated TNF-α driving endothelial damage and vascular necrosis. This immunopathological profile directly mirrors the TNF-α-dominated environment that adalimumab is designed to suppress, providing a strong mechanistic rationale for investigating its use in RV. Published case reports have documented digital vasculitis responding well to adalimumab (PMID 25133007), and the 2021 systematic review by de Cerqueira et al. confirmed that biological agents, including TNF-α inhibitors, are increasingly incorporated into RV management algorithms.
+Rheumatoid vasculitis is a severe extra-articular complication of rheumatoid arthritis. TNF-α drives the inflammation in rheumatoid arthritis and its extra-articular manifestations, so TNF blockade is plausible. A 2021 systematic review reports that biologic drugs have recently joined the treatment options for this condition.
 
-However, a critical complication exists: adalimumab itself has been reported to paradoxically *induce* vasculitis-like events (PMID 28719435), and the BSRBR-RA registry study documented lupus-like and vasculitis-like events among TNFi-treated RA patients (PMID 28123776). One case further showed that severe systemic RV refractory to anti-TNF therapy required switching to tocilizumab (anti-IL-6) for resolution (PMID 21385558), suggesting that a subset of RV may be TNF-independent. A careful patient-level benefit-risk evaluation is therefore essential before any clinical application.
+The direction of effect is uncertain, however. Several reports describe vasculitis-like events, ANCA-associated disease and lupus-like reactions appearing during adalimumab or other anti-TNF therapy. One case describes a severe relapse after adalimumab was reduced. TNF blockade may therefore help in some patients and trigger vasculitis in others.
 
 ---
 
 ## Clinical Trial Evidence
 
+No trial directly tests adalimumab for rheumatoid vasculitis. All five retrieved trials were graded as low relevance.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large epidemiological study examining the risk of developing new immune-mediated inflammatory diseases (IMID) in patients exposed to biologics and immunosuppressants; can provide indirect estimates of TNF inhibitor exposure and vasculitis incidence rates across IMID populations |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Multi-national observational study of RA patients receiving tocilizumab after inadequate response to non-biological DMARDs or a prior biologic; provides indirect safety and clinical background for RA patients on biological therapy |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional study describing bDMARD treatment patterns and RA patient demographics in China; characterises the RA biologic-treated population relevant to vasculitis risk profiling |
-
-> **Note:** No clinical trials directly evaluating adalimumab as a treatment for rheumatoid vasculitis were identified. The trials listed above provide indirect contextual evidence only. Two additional retrieved trials (NCT05111743 on wet AMD and NCT07138898 on shoulder arthroplasty) were confirmed retrieval mismatches and excluded from evidence assessment.
+| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | N/A | Completed | 9,261 | Retrospective real-world safety study of brolucizumab in wet AMD. Unrelated to adalimumab or vasculitis. |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Observational study of new immune-mediated inflammatory diseases arising after biologics. A safety-signal study, not a treatment study. |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Non-interventional study of tocilizumab in rheumatoid arthritis. Gives RA context but has no vasculitis endpoint. |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional study of biologic DMARD treatment patterns in RA in China. No efficacy evidence for vasculitis. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management before shoulder arthroplasty in rheumatology patients. Not a vasculitis indication. |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clinical Rheumatology | PRISMA-based systematic review of all biological drugs used in RV treatment; confirms biological agents including TNF-α inhibitors are now part of the therapeutic armamentarium for this high-morbidity RA complication |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort Study | RMD Open | BSRBR-RA registry; compared risk of lupus-like and vasculitis-like events in TNFi-treated RA patients versus non-biological DMARD users — critical safety context for adalimumab in a population at risk for RV |
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Case Report | Case Reports in Rheumatology | 42-year-old female RA patient with necrotising digital ulcers responded well to adalimumab; direct case-level evidence of adalimumab efficacy in digital vasculitis as an RV manifestation |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Case Report | Internal Medicine (Tokyo) | Acute pulmonary hypertension crisis emerged 8 months after adalimumab dose reduction in a patient with established RV; highlights adalimumab's potential role in maintaining RV remission and risks of discontinuation |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | Journal of Clinical Medicine | Comprehensive overview of RA-associated episcleritis and scleritis (a vascular manifestation of RA); RA accounts for 8–15% of scleritis cases; discusses biologic treatment options including anti-TNF agents |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Case Report | Am J Dermatopathology | First documented case of leukocytoclastic vasculitis with cutaneous perivascular hemophagocytosis paradoxically *induced* by adalimumab in RA; underscores the bidirectional risk — adalimumab can both treat and trigger vasculitis |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case Report | Internal Medicine (Tokyo) | MPO-ANCA-associated nephritis (pauci-immune pattern) occurring during concurrent abatacept and adalimumab therapy for RA; subsequently controlled with tocilizumab — illustrates renal vasculitic complications on anti-TNF therapy |
-| [21385558](https://pubmed.ncbi.nlm.nih.gov/21385558/) | 2011 | Case Report | Clinical & Experimental Rheumatology | Multi-drug-refractory systemic RV unresponsive to conventional immunosuppressants and anti-TNF agents; successfully treated with tocilizumab (anti-IL-6), suggesting that a subset of RV is TNF-independent and requires alternative biological targeting |
-| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Cohort Study | Annals of the Rheumatic Diseases | Investigated serial ANA testing as a predictor of bDMARD-induced ANA/dsDNA production in RA; relevant to pre-treatment screening and monitoring when adalimumab is considered in RV-risk patients |
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Network Meta-analysis | Int J Molecular Sciences | Network meta-analysis of 36 RCTs comparing five approved TNF inhibitors (including adalimumab) on joint destruction in RA; establishes class-level efficacy equivalence and supports adalimumab's position within the TNFi class |
+|------|-----|------|------|---------|
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic review | Clin Rheumatol | Reviews the use of biological drugs in rheumatoid vasculitis, which is described as severe and usually needs corticosteroids and/or immunosuppressants. |
+| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Case report | Case Rep Rheumatol | Digital vasculitis with necrotising fingertip ulcers in a long-standing RA patient. The patient responded well to adalimumab. |
+| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Case report | Intern Med | Acute pulmonary hypertension crisis in rheumatoid vasculitis eight months after adalimumab dose reduction. The patient did not respond to steroid pulse therapy. |
+| [21385558](https://pubmed.ncbi.nlm.nih.gov/21385558/) | 2011 | Not classified | Clin Exp Rheumatol | Anti-IL-6 receptor antibody (tocilizumab) successfully treated anti-TNF-resistant, multidrug-refractory systemic rheumatoid vasculitis. This is an alternative option after TNF blockade fails. |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort | RMD Open | BSRBR-RA registry study comparing lupus-like and vasculitis-like events in TNF-inhibitor-treated RA against non-biological DMARDs. |
+| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Case report | Am J Dermatopathol | Leukocytoclastic vasculitis after starting adalimumab for RA. The authors note that many TNF-α inhibitor-related vasculitis cases have been reported. |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case report | Intern Med | MPO-ANCA-associated pauci-immune nephritis arose during abatacept and adalimumab therapy for RA. Tocilizumab attenuated it. |
+| [19482531](https://pubmed.ncbi.nlm.nih.gov/19482531/) | 2009 | Case report | Nephrol Ther | ANCA-associated necrotizing glomerulonephritis in an RA patient treated with adalimumab. |
+| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Cohort | Ann Rheum Dis | Tested whether routine ANA testing predicts biologic DMARD-induced lupus and vasculitis in RA. |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | J Clin Med | Reviews management of RA-associated episcleritis and scleritis, an ocular inflammatory manifestation of RA. |
 
 ---
 
-## Taiwan Market Information
+## Canada Market Information
 
-Adalimumab is not currently approved or marketed in Taiwan. No product licenses are on record in the Taiwan regulatory database.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2258595 | HUMIRA | Not listed | Not listed |
+| 2511061 | ABRILADA | Not listed | Not listed |
+| 2542331 | HYRIMOZ | Not listed | Not listed |
+| 2542358 | HYRIMOZ | Not listed | Not listed |
+| 2523957 | SIMLANDI | Not listed | Not listed |
 
-> For global regulatory reference: Adalimumab (Humira®) holds marketing authorisations in the United States (FDA), European Union (EMA), Japan (PMDA), and numerous other jurisdictions for rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, non-radiographic axial spondyloarthritis, Crohn's disease, ulcerative colitis, plaque psoriasis, polyarticular juvenile idiopathic arthritis, and hidradenitis suppurativa, among others. Multiple biosimilars are now also approved globally.
+Twenty licenses are on record. The five above are the main ones; dosage form and approved-indication text were not provided in the source data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found in the queried source.
+- **Literature-reported signals**: Several reports describe vasculitis, ANCA-associated disease, lupus-like reactions and antiphospholipid syndrome arising during adalimumab therapy. A general review of anti-TNF problems also highlights reactivation of latent tuberculosis.
 
-> Based on published literature, the following safety signals are relevant to rheumatoid vasculitis candidacy assessment:
-> - **Serious infections:** Risk of tuberculosis reactivation and opportunistic infections with TNF-α blockade; TB screening mandatory before initiation
-> - **Paradoxical vasculitis induction:** Documented cases of adalimumab-induced leukocytoclastic vasculitis and ANCA-associated nephritis (see PMID 28719435, 36418100); patients with pre-existing RV require heightened monitoring
-> - **Drug-induced lupus and autoantibody formation:** ANA, anti-dsDNA, and antiphospholipid antibodies may emerge during therapy (PMID 23559388, 24854356)
-> - **Immunogenicity:** Anti-drug antibody (ADA) formation can reduce drug levels and efficacy, particularly in monotherapy settings; relevant to dose optimisation in RV
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-Although TNF-α pathway inhibition by adalimumab is biologically plausible for rheumatoid vasculitis given the TNF-α-driven vascular inflammation in RV, direct clinical trial evidence is entirely absent. Critically, adalimumab has a documented bidirectional relationship with vasculitis — capable of both treating and paradoxically inducing the condition — making the risk-benefit profile complex and unsuitable for clinical deployment without prospective validation.
+Direct evidence for rheumatoid vasculitis is limited to one systematic review and a few case reports, with no trial testing adalimumab for this condition. Adalimumab is also reported to induce vasculitis-like events, so the direction of effect is unclear. Health Canada safety information has not yet been reviewed.
 
 **To proceed, the following is needed:**
-- Obtain full TFDA package insert (仿單) to document approved warnings, contraindications, and drug interaction data (currently a blocking data gap)
-- Retrieve detailed mechanism of action data from DrugBank API to support mechanistic linkage analysis
-- Identify or initiate a prospective observational study or case series specifically in confirmed rheumatoid vasculitis patients receiving adalimumab with pre-specified vasculitis outcome measures
-- Develop a patient stratification framework to distinguish RV patients with TNF-α-dominant pathology (likely to benefit) from those with TNF-independent or paradoxical vasculitis risk (likely to be harmed)
-- Assess the role of combination therapy (adalimumab + immunosuppressant) versus monotherapy, informed by the immunogenicity data from COMARIS-type studies
-- Engage with rheumatology KOLs in Taiwan for clinical expert validation of the mechanistic hypothesis before any regulatory or clinical development steps are initiated
+- Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Full-text review of the 2021 systematic review, focusing on adalimumab-specific outcomes
+- Comparative or prospective data separating benefit from paradoxical vasculitis risk
+- Confirmation of the currently approved indications per DIN
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

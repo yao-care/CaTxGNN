@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zinc Sulfate
-parent: High Evidence (L1-L2)
-nav_order: 840
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 986
+evidence_level: L5
 indication_count: 4
 ---
 
 # Zinc Sulfate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-# Zinc Sulfate: From Mineral Supplement Use to Pharyngitis
+# Zinc Sulfate: From Marketed Topical Products to Pharyngitis
 
 ## One-Sentence Summary
 
-Zinc sulfate is a mineral supplement with no current Health Canada market authorization and no original approved indication recorded in the available data.
-The TxGNN model predicts it may be effective for **Pharyngitis**,
-with **4 clinical trials** and **3 publications** currently supporting this direction, though the evidence is mixed and a blocking safety data gap remains unresolved.
+Zinc sulfate is a long-established mineral compound found in Canadian topical products such as hemorrhoid ointments and suppositories and eye drops. The TxGNN model predicts it may be effective for **pharyngitis**, with **4 clinical trials** and **3 publications** retrieved. Only a few of these concern throat symptoms, and none directly studies infectious pharyngitis.
 
 ---
 
@@ -43,21 +41,20 @@ with **4 clinical trials** and **3 publications** currently supporting this dire
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — zinc sulfate is not currently marketed in Canada and no approved indication text is on record |
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L2 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L2 (borderline: the supporting studies are indirect and not Phase 2/3 trials in pharyngitis) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 14 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for zinc sulfate is not available in the evidence pack (flagged as a High-severity data gap), and no original approved indication is recorded since the drug does not hold a current Health Canada authorization. In the absence of formal MOA data, the repurposing rationale relies on the mechanistic reasoning generated alongside the prediction: zinc ions exert local astringent and anti-inflammatory effects on the pharyngeal mucosa and may inhibit rhinovirus protease activity and replication — rhinovirus being a common causative agent of pharyngitis.
+Currently, detailed mechanism of action data is not available. Based on general zinc pharmacology, zinc has plausible local mucosal effects: antiviral activity, support for epithelial repair, and anti-inflammatory action. Lozenges or gargles deliver zinc directly to the pharyngeal mucosa, which is where pharyngitis occurs.
 
-Zinc lozenges have a traditional history of use for relieving sore-throat symptoms, which provides some biological plausibility for pharyngitis as a repurposing candidate. However, most of the larger randomized trials identified in the evidence base were conducted in the context of COVID-19 outpatient treatment rather than pharyngitis specifically, and only one small, non-phase trial (NCT02405832) directly targets a pharyngitis-related endpoint (postoperative sore throat). This mismatch between the bulk of the clinical trial evidence and the target indication means the mechanistic linkage is plausible but requires independent, indication-specific validation before it can be considered confirmed.
+The clinical signals so far come from throat symptoms with non-infectious causes: sore throat after intubation, and mucositis and pharyngitis after radiotherapy. Both conditions involve irritated pharyngeal mucosa, so they are a reasonable proxy. They are still not the same disease as infectious pharyngitis. The very high TxGNN score is a model prediction, not clinical evidence.
 
 ---
 
@@ -65,10 +62,10 @@ Zinc lozenges have a traditional history of use for relieving sore-throat sympto
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02405832](https://clinicaltrials.gov/study/NCT02405832) | N/A | Completed | 87 | Randomized, double-blind, placebo-controlled study of preoperative oral zinc lozenges for postoperative sore throat syndrome — the most directly relevant trial to pharyngitis (relevance grade A). |
-| [NCT04446104](https://clinicaltrials.gov/study/NCT04446104) | Phase 3 | Completed | 4,257 | Randomized prophylaxis trial of zinc among high-risk migrant workers for COVID-19; sore throat is a component symptom but not the primary endpoint (relevance grade C). |
-| [NCT04621461](https://clinicaltrials.gov/study/NCT04621461) | Phase 4 | Completed | 3 | Randomized, placebo-controlled trial of zinc for COVID-19 treatment in outpatients; extremely small sample and indication mismatch (relevance grade C). |
-| [NCT04370782](https://clinicaltrials.gov/study/NCT04370782) | Phase 4 | Completed | 18 | Randomized trial of hydroxychloroquine and zinc combined with azithromycin or doxycycline for COVID-19; confounded by combination therapy and not specific to pharyngitis (relevance grade C). |
+| [NCT02405832](https://clinicaltrials.gov/study/NCT02405832) | N/A | Completed | 87 | Randomized, double-blind, placebo-controlled study of zinc lozenges for postoperative sore throat. It is the only trial targeting pharyngeal symptoms, but the population is post-intubation, not infectious pharyngitis. |
+| [NCT04621461](https://clinicaltrials.gov/study/NCT04621461) | Phase 4 | Completed | 3 | Placebo-controlled zinc trial in outpatients with COVID-19. With only 3 participants it is effectively uninformative, and the disease differs from the target. |
+| [NCT04370782](https://clinicaltrials.gov/study/NCT04370782) | Phase 4 | Completed | 18 | Hydroxychloroquine and zinc with azithromycin or doxycycline in COVID-19 outpatients. It is a combination therapy in a different disease, so zinc's effect cannot be isolated. |
+| [NCT04446104](https://clinicaltrials.gov/study/NCT04446104) | Phase 3 | Completed | 4257 | Open-label COVID-19 prophylaxis trial in migrant workers (DORM). Zinc was part of a multi-agent regimen, and the endpoint is not pharyngitis. |
 
 ---
 
@@ -76,21 +73,31 @@ Zinc lozenges have a traditional history of use for relieving sore-throat sympto
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23720981](https://pubmed.ncbi.nlm.nih.gov/23720981/) | 2013 | RCT (Tier 1) | J Med Assoc Thai | Randomized, double-blind, placebo-controlled trial of zinc sulfate supplementation for alleviating radiation-induced oral mucositis and pharyngitis in head and neck cancer patients. |
-| [38693477](https://pubmed.ncbi.nlm.nih.gov/38693477/) | 2024 | RCT (Tier 2) | BMC Anesthesiology | Randomized controlled trial comparing preoperative zinc, magnesium, and budesonide gargles for reducing incidence and severity of postoperative sore throat (POST). |
-| [20123362](https://pubmed.ncbi.nlm.nih.gov/20123362/) | 2010 | Cohort (Tier 3) | Oral Surg Oral Med Oral Pathol Oral Radiol Endod | Cohort study on long-lasting post-tonsillectomy dysgeusia, discussing dietary zinc deficiency as a possible contributing factor; indirect relevance to pharyngitis. |
+| [23720981](https://pubmed.ncbi.nlm.nih.gov/23720981/) | 2013 | RCT | J Med Assoc Thai | Randomized, double-blind, placebo-controlled trial of zinc sulfate supplementation for radiation-induced oral mucositis and pharyngitis in head and neck cancer patients. |
+| [38693477](https://pubmed.ncbi.nlm.nih.gov/38693477/) | 2024 | RCT (inferred from title; needs verification) | BMC Anesthesiology | Compared preoperative zinc, magnesium and budesonide gargles for incidence and severity of postoperative sore throat after intubation. |
+| [20123362](https://pubmed.ncbi.nlm.nih.gov/20123362/) | 2010 | Case report / clinical observation | Oral Surg Oral Med Oral Pathol Oral Radiol Endod | Recovery from long-lasting taste disturbance after tonsillectomy. Zinc deficiency is discussed as a possible factor, so the link to pharyngitis is indirect. |
 
 ---
 
 ## Canada Market Information
 
-Zinc sulfate currently holds **no Health Canada market authorization** — `total_licenses` is 0 and no DIN records are available in the evidence pack. As a result, no product/dosage-form/indication table can be generated at this time.
+| DIN | Product Name |
+|---------|------|
+| 2236399 | ANODAN-HC 10MG SUPPOSITORIES |
+| 2290596 | ALLERGY EYE DROPS |
+| 2338602 | VISINE MULTI-SYMPTOM |
+| 2387239 | JAMPZINC-HC |
+| 2128446 | ANODAN-HC OINTMENT |
+
+The records provided list no dosage forms or approved indication text for these products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note that a **Blocking**-severity data gap exists for Health Canada product-label warnings and contraindications (DG001), which currently prevents a formal safety pre-assessment (S1 stage) for this candidate.
+Please refer to the package insert for safety information.
+
+One caution comes from the other predicted indications. Intranasal zinc sulfate is used experimentally to induce anosmia in animals, so any nasal use would need careful safety review.
 
 ---
 
@@ -99,13 +106,14 @@ Please refer to the package insert for safety information. Note that a **Blockin
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for pharyngitis is plausible and supported by one relevant Tier-1 RCT and one directly on-target trial, but most of the clinical trial evidence base is confounded by an unrelated COVID-19 indication, and a Blocking-severity safety data gap (missing product warnings/contraindications) currently prevents even an initial safety evaluation. The candidate is not currently marketed in Canada (0 DINs), further limiting near-term actionability.
+The only direct clinical signals come from non-infectious throat conditions (postoperative sore throat and radiation-induced pharyngitis). No trial has tested zinc sulfate in infectious pharyngitis, and the high TxGNN score alone cannot justify moving forward. This is best treated as a research question for now.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain Health Canada / product-label warnings and contraindications before any S1 safety pre-assessment can proceed
-- Resolve DG002 (High): obtain confirmed mechanism of action data from DrugBank to strengthen the mechanistic-link analysis
-- Identify or conduct a pharyngitis-specific (non-COVID) randomized trial with an adequate sample size to substantiate the NCT02405832 finding
-- Clarify original/approved indications for zinc sulfate, if any exist in other jurisdictions, to better contextualize the repurposing rationale
+- Health Canada package insert warnings and contraindications, which block safety screening
+- Mechanism of action data, for example from DrugBank
+- Verification of the study design of PMID 38693477 and its results
+- Evidence from trials in infectious pharyngitis
+- A route and formulation compatibility assessment, for example lozenge or gargle against the currently marketed topical products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

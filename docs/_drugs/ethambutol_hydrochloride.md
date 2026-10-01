@@ -2,7 +2,7 @@
 layout: default
 title: Ethambutol Hydrochloride
 parent: Model Prediction Only (L5)
-nav_order: 307
+nav_order: 360
 evidence_level: L5
 indication_count: 0
 ---

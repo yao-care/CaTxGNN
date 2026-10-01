@@ -2,7 +2,7 @@
 layout: default
 title: Eliglustat
 parent: Model Prediction Only (L5)
-nav_order: 272
+nav_order: 319
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eliglustat: From Gaucher Disease Type 1 to Autosomal Ichthyosis Syndrome with Fatal Disease Course
+# Eliglustat: From Its Currently Marketed Use to Autosomal Ichthyosis Syndrome with Fatal Disease Course
 
 ## One-Sentence Summary
 
-Eliglustat (Cerdelga) is a glucosylceramide synthase (GCS) inhibitor originally approved in the US and EU for the treatment of Gaucher disease type 1 (GD1), a lysosomal storage disorder caused by glucocerebroside accumulation.
-The TxGNN model predicts it may be effective for **autosomal ichthyosis syndrome with fatal disease course**, with a prediction score of **98.42%**, but this direction is supported by **0 clinical trials** and **0 publications** to date.
-The evidence base is currently model-prediction only, placing this candidate firmly in the exploratory stage.
-
----
+Eliglustat is marketed in Canada as CERDELGA, but the supplied data does not state its approved indication.
+The TxGNN model predicts it may be effective for **autosomal ichthyosis syndrome with fatal disease course**,
+but **no clinical trials and no publications** currently support this prediction, so it is a model signal only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gaucher disease type 1 (lysosomal storage disorder) |
+|------|------|
+| Original Indication | Not stated in the supplied data |
 | Predicted New Indication | Autosomal ichthyosis syndrome with fatal disease course |
 | TxGNN Prediction Score | 98.42% |
 | Evidence Level | L5 |
-| Canada Market Status | ✗ Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, Eliglustat is a substrate reduction therapy that inhibits glucosylceramide synthase (GCS), the enzyme responsible for synthesizing glucocerebroside. By reducing the synthesis of this glycosphingolipid substrate, Eliglustat lowers the pathological accumulation that drives Gaucher disease. Its efficacy in GD1 has been established in Phase 3 clinical trials (ENGAGE, ENCORE).
+Eliglustat inhibits glucosylceramide synthase, an enzyme in sphingolipid and ceramide metabolism. These lipids matter for skin barrier function, so a link to an ichthyosis-type disease is conceivable in principle.
 
-The theoretical link to autosomal ichthyosis syndrome rests on the role of ceramide and sphingolipid metabolism in maintaining the stratum corneum barrier. Some forms of autosomal recessive congenital ichthyosis (ARCI) involve lipid processing defects, and GCS inhibition could theoretically redirect ceramide precursor flow in keratinocytes. However, this connection is distant and speculative.
-
-Critically, the "fatal disease course" qualifier in the disease name suggests the underlying mechanism extends well beyond lipid metabolism dysregulation, making it unlikely that GCS inhibition alone would be therapeutically meaningful. There is currently no preclinical or clinical data of any kind supporting this repurposing hypothesis.
-
----
+This link is speculative. No supplied data connects this mechanism to this specific syndrome. The high TxGNN score (0.984) comes from a graph-based prediction and has no clinical support. The relationship to the original indication has not been assessed. Route-of-administration compatibility has also not been assessed.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for this specific indication.
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-Eliglustat is currently **not marketed in Canada**. No Drug Identification Numbers (DINs) have been issued by Health Canada.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2463261 | CERDELGA | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were found in the supplied data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for Eliglustat are rated L5 (model prediction only), with zero supporting clinical trials and zero directly relevant literature across all candidates. The top prediction involves a rare syndrome with a fatal disease course that is mechanistically distant from Eliglustat's established GCS-inhibition pathway, and the drug is not currently marketed in Canada.
+The prediction rests on a model score alone (evidence level L5). There are no trials, no literature, and no established mechanistic link for this syndrome.
 
 **To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Detailed mechanism of action data and the approved indication text for the CERDELGA license
+- Preclinical or mechanistic evidence that glucosylceramide synthase inhibition is relevant to this syndrome
+- Assessment of route-of-administration compatibility and similarity to the original indication
 
-- **Mechanism of action data**: Retrieve full MOA documentation from DrugBank (DB09039) to enable mechanistic link assessment for any candidate indication
-- **Safety profile**: Download and parse Health Canada (or FDA/EMA) product monograph to obtain key warnings, contraindications, and CYP2D6 pharmacogenomic interaction data
-- **Preclinical evidence search**: Commission a targeted literature review for Eliglustat (or GCS inhibitors as a class) in sphingolipid-related skin disorders before advancing any ichthyosis hypothesis
-- **Disease re-prioritization**: Consider evaluating lower-ranked TxGNN predictions that may have stronger mechanistic plausibility or existing background evidence before investing resources in rank-1 through rank-10 candidates as currently scoped
-- **Canada regulatory pathway**: Confirm whether Eliglustat holds any EMA or FDA approval that could support a future Health Canada submission via the foreign reference drug pathway (if a viable indication is identified)
+**Other candidates in the pack:**
+- Polycystic kidney disease 3 with or without polycystic liver disease (rank 3, score 96.9%) is the only candidate with any literature, and it has a plausible class-level rationale.
+- The 18 retrieved publications are disease background, genetics, and guidelines, and none evaluates eliglustat.
+- It is classed as a research question and would need preclinical validation first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Ivacaftor
 parent: Moderate Evidence (L3-L4)
-nav_order: 429
+nav_order: 502
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,60 +33,86 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ivacaftor is a CFTR (cystic fibrosis transmembrane conductance regulator) potentiator originally approved for cystic fibrosis in patients with specific CFTR gating mutations. The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but currently only **1 clinical trial** (low relevance) and **1 preclinical publication** support this direction — the evidence base remains very early stage.
+Ivacaftor is a CFTR potentiator marketed in Canada as KALYDECO, and it is used in cystic fibrosis.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**,
+but only **1 clinical trial** (observational, indirect) and **1 publication** (preclinical mouse study) touch on this direction. Neither tests ivacaftor in rheumatoid arthritis.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Cystic Fibrosis (CFTR gating mutations) |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Cystic fibrosis (inferred from ivacaftor's CFTR potentiator role; the Canadian license records provide no indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 96.97% |
 | Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 15 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DrugBank query pending). Based on known pharmacology, Ivacaftor is a CFTR channel potentiator that restores chloride channel function in patients carrying specific CFTR gating mutations; its efficacy in cystic fibrosis has been well established through clinical use.
+Currently, detailed mechanism of action data is not available. Based on known information, ivacaftor is a CFTR potentiator, its use in cystic fibrosis is established, and mechanistically it may be applicable to inflammatory disease through indirect routes.
 
-The link to rheumatoid arthritis is indirect: CFTR dysfunction has been associated with abnormal neutrophil degranulation and release of inflammatory mediators. This is the only theoretical bridge connecting Ivacaftor to RA (an autoimmune inflammatory arthritis driven by synovial inflammation and rheumatoid factor/anti-CCP pathways) — it is a cross-disease inference based on general inflammatory biology, not evidence targeting RA-specific pathology.
+In cystic fibrosis, CFTR dysfunction has been linked to altered neutrophil function and heightened inflammation. This offers a hypothetical, indirect route to inflammatory conditions such as rheumatoid arthritis. No RA-specific mechanism or data support the link. The high TxGNN score is a graph-based prediction, not clinical evidence.
 
-Given the high TxGNN score is not yet corroborated by disease-specific mechanistic or clinical data, this prediction should be treated as hypothesis-generating rather than actionable at this stage.
+Other top-ranked predictions for this drug (HIV infection, leprosy, cytomegalovirus infection, and several rare congenital syndromes) have no supporting studies and no plausible mechanism. Two of them, simian immunodeficiency virus infection and feline AIDS, are non-human diseases and likely graph-similarity artifacts. Rheumatoid arthritis is the only prediction with any related evidence, and that evidence is weak.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04970225](https://clinicaltrials.gov/study/NCT04970225) | N/A | Completed | 47 | Observational study of blood neutrophil function/phenotype in cystic fibrosis patients (including CFTR modulator-treated subjects). Relevance graded **C**: subjects were CF patients, not RA patients; the trial was not designed to evaluate Ivacaftor for RA, and only provides background on CFTR-related neutrophil biology. |
+| [NCT04970225](https://clinicaltrials.gov/study/NCT04970225) | NA (observational) | Completed | 47 | Analyzes function and phenotype of blood neutrophils in cystic fibrosis patients, including the effect of CFTR modulator treatment. It does not enroll RA patients and does not test ivacaftor for RA (relevance grade C, indirect context only). |
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28634110](https://pubmed.ncbi.nlm.nih.gov/28634110/) | 2017 | Preclinical/Mechanistic | Gastroenterology | In mouse models of Sjögren's syndrome and autoimmune pancreatitis, restoring CFTR ductal activity rescued acinar cell function and reduced glandular inflammation — suggesting CFTR modulation can dampen autoimmune-related inflammation, though not studied in RA models directly. |
+| [28634110](https://pubmed.ncbi.nlm.nih.gov/28634110/) | 2017 | Preclinical (mouse) | Gastroenterology | In mouse models of Sjögren's syndrome and autoimmune pancreatitis, restoring CFTR activity in ducts rescued acinar cell function and reduced inflammation in pancreatic and salivary glands. It is autoimmune-related but not RA-specific. |
+
+---
 
 ## Canada Market Information
 
-Ivacaftor currently has no marketing authorization on record (0 licenses, market status: Not Marketed). No DIN or product-level data is available for review.
+| DIN | Product Name |
+|---------|------|
+| 2442620 | KALYDECO |
+| 2397412 | KALYDECO |
+| 2519364 | KALYDECO |
+| 2442612 | KALYDECO |
+| 2543451 | KALYDECO |
+
+Dosage form, manufacturer and approved indication text are not available in the current records. Five of the 15 DINs are listed.
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on an indirect, cross-disease mechanistic hypothesis (CFTR–neutrophil inflammation) rather than RA-specific evidence. The only clinical trial identified has low relevance (Grade C, non-RA population), and the sole supporting publication is preclinical/mechanistic in an unrelated autoimmune model. Evidence Level L4 does not support progression beyond S0.
+The prediction rests on a model score, one indirect observational trial and one preclinical mouse study. No study tests ivacaftor in rheumatoid arthritis, and no RA-specific mechanism has been identified.
 
 **To proceed, the following is needed:**
-- TFDA label warnings/contraindications (blocking data gap — required for initial safety screening, S1)
-- Confirmed mechanism of action data from DrugBank
-- RA-specific preclinical or clinical studies directly testing CFTR modulation in autoimmune arthritis models
-- Drug-drug interaction data (currently not found)
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Detailed mechanism of action data from DrugBank
+- Evidence linking CFTR potentiation to RA pathophysiology, for example synovial or neutrophil-related preclinical data
+- Confirmation of the approved indication text from the Canadian license records
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

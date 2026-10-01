@@ -2,7 +2,7 @@
 layout: default
 title: Anidulafungin
 parent: Model Prediction Only (L5)
-nav_order: 57
+nav_order: 62
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,35 +29,38 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Anidulafungin: From Invasive Candidiasis to Impetigo
+# Anidulafungin: From Fungal Infections to Impetigo
 
 ## One-Sentence Summary
 
-Anidulafungin is an echinocandin-class antifungal used intravenously to treat invasive candidiasis and esophageal candidiasis. The TxGNN model ranks **Impetigo** as its top predicted new indication with a score of **98.85%**; however, this prediction carries significant mechanistic concerns. Currently **no clinical trials** and **no supporting publications** exist to validate this repurposing direction, placing it at the lowest evidence tier (L5).
+Anidulafungin is an echinocandin antifungal marketed in Canada as ERAXIS.
+The TxGNN model predicts it may be effective for **impetigo** (score 98.9%), but there are **0 clinical trials** and **0 publications** supporting this direction, and no plausible mechanism.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved indication on record in Canada |
+|------|------|
+| Original Indication | Antifungal (echinocandin class); approved indication text not provided in the Canadian license data |
 | Predicted New Indication | Impetigo |
 | TxGNN Prediction Score | 98.85% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. From established pharmacology, Anidulafungin belongs to the echinocandin class and works by non-competitively inhibiting β-1,3-D-glucan synthase — an enzyme essential for building the fungal cell wall. This enzyme is entirely absent in bacteria and human cells, making Anidulafungin exquisitely selective for fungi.
+Anidulafungin is an echinocandin antifungal. It inhibits beta-1,3-D-glucan synthase, an enzyme needed to build the fungal cell wall.
 
-Impetigo, however, is a superficial bacterial skin infection caused primarily by *Staphylococcus aureus* and/or *Streptococcus pyogenes*. Because Anidulafungin's sole mechanism of action targets a fungal-specific enzyme, it has no known antibacterial activity and cannot reasonably be expected to exert therapeutic benefit against the bacterial pathogens responsible for impetigo.
+Impetigo is a bacterial skin infection caused by *Staphylococcus aureus* and *Streptococcus pyogenes*. Bacteria do not have beta-1,3-D-glucan synthase, so the drug's target is absent. The high score most likely comes from shared anti-infective neighbours in the knowledge graph rather than a real biological link.
 
-The high TxGNN score (98.85%) is therefore likely a **network proximity artifact**: in the knowledge graph, nodes representing skin infections cluster together, causing high prediction scores to propagate across both fungal and bacterial skin disease nodes without reflecting true biological activity. This is a case where the model's numerical output should be interpreted with caution, not taken at face value as evidence of efficacy.
+The same problem applies to the other top-ranked predictions:
+- **Bacterial or toxin-mediated conditions:** bullous impetigo, staphylococcal scalded skin syndrome, hordeolum (stye), *Clostridium* infection and pleural empyema. The antifungal has no antibacterial activity. Fungal empyema, if it occurred, would already fall under the existing antifungal use rather than repurposing.
+- **Pleural malignancies:** malignant pleural mesothelioma, its epithelioid and sarcomatoid subtypes, and malignant visceral pleura tumour. No link between fungal glucan synthase inhibition and mesothelioma biology has been established. Any anticancer rationale would be speculative and would need preclinical data first.
 
 ---
 
@@ -69,19 +72,23 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for impetigo.
+
+Among the other predictions, the only retrieved item is a 2008 review, "Update in infectious disease treatment" ([18756840](https://pubmed.ncbi.nlm.nih.gov/18756840/), Cleveland Clinic Journal of Medicine), linked to *Clostridium* infection. It is a broad treatment update that was not shown to address anidulafungin, so it is treated as background rather than supporting evidence.
 
 ---
 
 ## Canada Market Information
 
-Anidulafungin has no approved Drug Identification Numbers (DINs) in Canada and is currently not marketed in this jurisdiction. No licensing data is available for review.
+| DIN | Product Name |
+|---------|------|
+| 2330695 | ERAXIS |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the queried data.
 
 ---
 
@@ -90,13 +97,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's top-ranked prediction of impetigo for Anidulafungin is mechanistically implausible — Anidulafungin specifically targets the fungal enzyme β-1,3-D-glucan synthase, which is absent in bacteria, while impetigo is an exclusively bacterial skin infection caused by *S. aureus* and *S. pyogenes*. The high prediction score most likely reflects a knowledge-graph network clustering effect rather than a genuine biological signal. With zero supporting clinical trials, zero publications (L5 evidence), and a fundamental mechanism mismatch, there is no scientific basis to advance this repurposing direction at this time. Notably, all 10 predicted indications in this Evidence Pack are similarly rated L5 / Hold, and the mechanistic rationale recorded for each consistently identifies incompatibility with Anidulafungin's antifungal mechanism of action.
+The prediction rests on a model score alone. There are no trials or literature, and the drug's antifungal target does not exist in the bacteria that cause impetigo. This is very likely a knowledge-graph artifact, and none of the ten predicted indications has supporting evidence.
 
-**To proceed, any future evaluation will require:**
-- Identification of a plausible mechanistic link between Anidulafungin and any proposed new indication (currently absent for all 10 predictions)
-- Retrieval of the full Taiwan/Canada package insert to complete the safety profile — key warnings and contraindications are currently missing (Data Gap DG001, blocking severity)
-- Mechanism of action data from DrugBank (Data Gap DG002) to enable proper mechanistic plausibility scoring
-- A review of whether any of the predicted indications involve a fungal pathogen or a pathway where echinocandin activity is scientifically conceivable — for example, invasive fungal co-infections in immunocompromised settings — as these would represent more mechanistically coherent targets for further exploration
+**To proceed, the following is needed:**
+- Any preclinical or clinical evidence that anidulafungin acts on the predicted condition (currently none)
+- Health Canada package insert warnings and contraindications, to complete safety screening
+- The Canadian approved indication text and dosage form for ERAXIS
+- Route compatibility assessment (systemic intravenous drug versus a topically treatable condition such as impetigo)
+
+Unless new evidence emerges, resources are better spent on candidates that have clinical or mechanistic support.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

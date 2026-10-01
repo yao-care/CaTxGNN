@@ -2,7 +2,7 @@
 layout: default
 title: Famotidine
 parent: Moderate Evidence (L3-L4)
-nav_order: 319
+nav_order: 373
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,37 +29,34 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Famotidine: From Peptic Ulcer Disease to Duodenogastric Reflux
+# Famotidine: From Acid-Related Gastric Conditions to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Famotidine is a potent histamine H2-receptor antagonist (H2RA) with a long-established clinical role in reducing gastric acid secretion for peptic ulcer disease and acid hypersecretory conditions.
-The TxGNN model predicts it may be effective for **Duodenogastric Reflux**,
-with **0 clinical trials** and **2 publications** currently supporting this direction.
+Famotidine is an H2-receptor antagonist that reduces gastric acid and is established in acid-related conditions such as peptic ulcer disease.
+The TxGNN model predicts it may be effective for **duodenogastric reflux**, with **0 registered clinical trials** and **2 publications** (small clinical studies) currently supporting this direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Peptic ulcer disease and acid hypersecretory conditions (based on pharmacological literature; no regulatory record in current dataset) |
-| Predicted New Indication | Duodenogastric Reflux |
+|------|------|
+| Original Indication | Not recorded in the Health Canada license data; established use is acid-related conditions such as peptic ulcer disease |
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L3 |
-| Canada Market Status | Not Marketed (per dataset — may reflect a data collection gap) |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 18 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, famotidine belongs to the histamine H2-receptor antagonist (H2RA) class. Its ability to reduce gastric acid secretion and promote peptic ulcer healing has been extensively documented across decades of clinical use, and this same acid-suppressive property may be mechanistically applicable to duodenogastric reflux.
+Currently, detailed mechanism of action data is not available in the record. Famotidine is a known H2-receptor antagonist that blocks histamine H2 receptors on gastric parietal cells and lowers acid secretion. Its efficacy in acid-related upper gastrointestinal disease is well established, and it may be mechanistically applicable to duodenogastric reflux.
 
-Duodenogastric reflux (also called bile reflux gastritis) involves the retrograde flow of duodenal contents — primarily bile acids and pancreatic enzymes — into the stomach. While bile is the primary mucosal irritant, co-existing gastric acid significantly amplifies the mucosal damage caused by the refluxed material. By reducing basal gastric acid secretion by approximately 60–70% and stimulated secretion by up to 90%, famotidine may attenuate the combined acid-bile mucosal insult, providing partial symptomatic relief and mucosal protection even without addressing the bile component directly.
-
-The mechanistic support is therefore only partial: famotidine has no effect on bile acid composition, biliary secretion, or pyloric sphincter tone — which are the primary pathological drivers of duodenogastric reflux. A 2003 ICU observational study (PMID 12532466) and a 2004 clinical observational study (PMID 16259441) both examined famotidine in gastroduodenal reflux contexts and reported some benefit, but neither study was a controlled RCT with duodenogastric reflux as the primary endpoint. The overall evidence base remains at L3, making this indication best characterised as a research question rather than a clinical signal ready for advancement.
+Duodenogastric (bile) reflux is driven mainly by duodenal content and motility rather than by acid. Acid suppression may therefore only ease mucosal injury and symptoms, not stop the reflux itself. The high TxGNN score probably reflects how close duodenogastric reflux sits to acid-related GI disease in the knowledge graph, not direct proof of benefit.
 
 ---
 
@@ -72,15 +69,23 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Observational/ICU Study | World Journal of Gastroenterology | Examined famotidine's effect on both gastroesophageal reflux (GER) and duodeno-gastro-esophageal reflux (DGER) in critically ill patients; explored possible mechanisms and identified clinical factors associated with reflux severity |
-| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Observational Study | Experimental & Clinical Gastroenterology | Evaluated famotidine 20 mg twice daily in patients with early-stage gastroduodenal reflux disease (Savary-Miller grades 0–1); assessed treatment response using clinical and endoscopic criteria and reported therapeutic benefit in this population |
+|------|-----|------|------|---------|
+| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Clinical study (critically ill patients) | World J Gastroenterol | Investigated the effect of famotidine on gastroesophageal and duodeno-gastro-esophageal reflux, and its possible mechanisms. The available abstract states the aims only, not the results. |
+| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Clinical study/Review | Eksp Klin Gastroenterol | Assessed famotidine 20 mg twice daily in early-stage gastroduodenal reflux disease (Savary-Miller grades 0 and 1) using clinical and endoscopic evaluation. |
 
 ---
 
 ## Canada Market Information
 
-The current dataset contains no registered Drug Identification Numbers (DINs) for famotidine and records the market status as not marketed. This likely reflects a data collection gap rather than an actual absence from the Canadian market, given famotidine's long international availability as both a prescription and over-the-counter product. Health Canada regulatory records should be independently verified through a direct DPD (Drug Product Database) query before drawing any conclusions on Canadian market status.
+Health Canada lists 18 licenses in total. Dosage form and approved-indication text are not populated in the source data, so the five main authorizations are shown by product name only.
+
+| DIN | Product Name |
+|---------|------|
+| 2022133 | TEVA-FAMOTIDINE |
+| 2549107 | FAMOTIDINE |
+| 2509970 | AG-FAMOTIDINE |
+| 2247735 | FAMOTIDINE OMEGA (WITHOUT PRESERVATIVE) |
+| 2507749 | JAMP FAMOTIDINE |
 
 ---
 
@@ -95,14 +100,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Evidence for famotidine in duodenogastric reflux is limited to two small observational studies (evidence level L3) with no registered clinical trials. While famotidine's acid-suppressive mechanism offers a biologically plausible partial benefit, it does not address bile — the primary pathological driver in this condition — limiting the expected therapeutic effect and making advancement to clinical development premature at this stage.
+Evidence for duodenogastric reflux is limited to two small clinical publications with no registered trials. The mechanism is only indirect, because this reflux is not primarily acid-driven. Health Canada safety data are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Retrieve and parse the Health Canada product monograph (package insert) to complete the safety evaluation — this is currently a blocking data gap preventing formal S1 safety screening
-- Query the DrugBank API to populate full mechanism of action data and drug interaction profile
-- Verify Canadian regulatory status directly via the Health Canada Drug Product Database (DPD) to correct the apparent market status data gap
-- Conduct a prospective pilot RCT or well-designed controlled observational study with duodenogastric reflux as the primary endpoint and famotidine as the study intervention
-- Evaluate whether combination therapy (e.g., famotidine with a prokinetic agent such as domperidone, or a bile acid sequestrant) could more comprehensively address the dual acid-bile pathophysiology of this condition
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Detailed mechanism of action data (MOA) and the original approved indication
+- Full-text review of the two publications to confirm outcomes and effect sizes
+- A registered prospective trial, or stronger controlled evidence, for duodenogastric reflux specifically
+
+Other predicted indications, such as peptic ulcer disease and active peptic ulcer disease, are supported by completed Phase 3/4 RCTs. These are established acid-related uses, not new repurposing directions.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Benralizumab
 parent: Model Prediction Only (L5)
-nav_order: 91
+nav_order: 101
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benralizumab: From Severe Eosinophilic Asthma to Thrombocytopenia Due to Immune Destruction
+# Benralizumab: From Eosinophilic Airway Disease to Thrombocytopenia Due to Immune Destruction
 
 ## One-Sentence Summary
 
-Benralizumab (Fasenra) is a humanized anti-IL-5Rα monoclonal antibody approved internationally for severe eosinophilic asthma and eosinophilic granulomatosis with polyangiitis (EGPA), though not currently marketed in Canada.
-The TxGNN model ranks **Thrombocytopenia Due to Immune Destruction** as its top repurposing candidate,
-yet **no clinical trials** and **no published literature** currently support this direction — placing the evidence at the lowest confidence tier.
+Benralizumab is an anti-IL-5Rα antibody that depletes eosinophils, and its established use is in eosinophilic airway disease.
+The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Severe eosinophilic asthma (globally approved; not registered in Canada) |
-| Predicted New Indication | Thrombocytopenia Due to Immune Destruction |
+|------|------|
+| Original Indication | Eosinophilic airway disease (the licence records contain no indication text; this comes from the mechanistic notes) |
+| Predicted New Indication | Thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 99.34% |
 | Evidence Level | L5 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Benralizumab binds directly to the IL-5 receptor α-subunit (IL-5Rα) expressed on eosinophils and basophils. Through antibody-dependent cell-mediated cytotoxicity (ADCC), it triggers rapid, near-complete depletion of circulating eosinophils. This mechanism underpins its proven efficacy in severe eosinophilic asthma and EGPA — diseases where eosinophil-driven type 2 inflammation is the central pathological driver.
+Benralizumab binds the IL-5 receptor alpha chain and depletes eosinophils and basophils through antibody-dependent cellular cytotoxicity (ADCC). Its established role is in eosinophil-driven airway disease.
 
-Thrombocytopenia due to immune destruction (immune thrombocytopenia, ITP) operates through an entirely different immune axis: autoreactive IgG antibodies targeting platelet surface glycoproteins (GPIIb/IIIa), combined with cytotoxic CD8+ T cell activity and splenic macrophage-mediated phagocytosis of antibody-coated platelets. Eosinophils do not play an established causal role in platelet destruction, and there is no known mechanistic link between IL-5 signalling and the pathophysiology of ITP.
+The link to the predicted indication is weak. Immune thrombocytopenia is driven mainly by anti-platelet autoantibodies, Fc-receptor-mediated platelet clearance and impaired megakaryopoiesis. There is no clear eosinophil-dependent pathway. The high TxGNN score is a graph-based computational prediction only, and no trials or literature were provided to support it.
 
-The high TxGNN score most likely reflects **topological proximity within the knowledge graph** — benralizumab's connections to autoimmune inflammatory diseases (EGPA, eosinophilic disorders) place it near other autoimmune nodes such as ITP — rather than a true biological relationship. Based on current immunological evidence, the mechanistic rationale for this specific repurposing is weak, and the prediction should be interpreted with caution.
+Two other predictions in the same list, autoimmune thrombocytopenic and Evans syndrome, share the same autoantibody-driven biology. "Autoimmune thrombocytopenic" may be a duplicate of the same disease concept as the top prediction.
 
 ---
 
@@ -77,15 +76,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Benralizumab has no Drug Identification Numbers (DINs) registered with Health Canada and is currently not marketed in Canada. No approved product information is available from the Canadian regulatory database.
+| DIN | Product Name |
+|---------|------|
+| 2496135 | FASENRA PEN |
+| 2473232 | FASENRA |
 
-> **Note:** Benralizumab is commercially available internationally as **Fasenra** (AstraZeneca) with approvals in the United States (FDA, 2017), European Union (EMA, 2018), and Japan (PMDA), among others. Any future Canadian submission would require a separate Health Canada review.
+Dosage form and approved indication text are not available in the licence records.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the prescribing information and package insert for safety information. Canadian-specific warnings, contraindications, and drug interaction data are not available in the current evidence pack.
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -94,15 +96,15 @@ Please refer to the prescribing information and package insert for safety inform
 **Decision: Hold**
 
 **Rationale:**
-Although TxGNN assigns a high score (99.34%), this appears to reflect knowledge graph network topology — the proximity of autoimmune disease nodes — rather than a genuine mechanistic link between benralizumab's IL-5Rα blockade and immune-mediated platelet destruction. With zero supporting clinical trials, zero publications, no Canadian market authorization, and no established mechanistic rationale, there is insufficient basis to advance this candidate.
+The prediction rests on a model score alone (L5), with no trials or literature. The mechanism (eosinophil depletion) does not fit the autoantibody-mediated pathology of immune thrombocytopenia.
 
 **To proceed, the following is needed:**
-- Preclinical or translational evidence establishing a role for IL-5 or eosinophils in ITP pathophysiology
-- Biomarker data from ITP patient cohorts documenting elevated IL-5 levels or eosinophil infiltration in bone marrow/spleen
-- A mechanistic hypothesis beyond knowledge graph topology (e.g., eosinophil-platelet crosstalk, IL-5-mediated immune regulation)
-- Full MOA documentation retrieved from DrugBank API (currently a data gap)
-- Health Canada prescribing information or equivalent package insert for complete safety and contraindication assessment
-- Consideration of the broader predicted indication list: **Dermatitis** (Rank 2) and **Childhood CTD-ILD** (Rank 7) carry stronger mechanistic rationale and are flagged as "Research Question" — these may be more productive starting points for further evaluation
+- A systematic search of trial registries and PubMed for benralizumab in immune thrombocytopenia, autoimmune thrombocytopenia and Evans syndrome
+- Health Canada package insert warnings and contraindications for a safety screen
+- Approved indication text and dosage forms for the two DINs
+- Confirmation of whether the thrombocytopenia entries are duplicates
+- Detailed mechanism of action data from DrugBank
+- A separate endotype-specific literature search for the dermatitis prediction (rank 2, flagged as a research question)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

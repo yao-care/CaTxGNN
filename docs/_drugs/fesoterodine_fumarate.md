@@ -2,7 +2,7 @@
 layout: default
 title: Fesoterodine Fumarate
 parent: Model Prediction Only (L5)
-nav_order: 326
+nav_order: 380
 evidence_level: L5
 indication_count: 0
 ---

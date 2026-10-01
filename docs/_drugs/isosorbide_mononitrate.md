@@ -2,7 +2,7 @@
 layout: default
 title: Isosorbide Mononitrate
 parent: Model Prediction Only (L5)
-nav_order: 425
+nav_order: 498
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isosorbide Mononitrate: Original indication data gap → Hypertrichosis
+# Isosorbide Mononitrate: From Its Marketed Nitrate Use to Hypertrichosis
 
-## One-sentence summary
+## One-Sentence Summary
 
-Isosorbide mononitrate is a NO donor/vasodilator (inferred from mechanistic descriptions of various candidates in the evidence bundle), but this evidence bundle does not provide its formally approved indications and Canadian market information (the drug is currently **not marketed in Canada**, 0 DINs). The TxGNN model identified **Hypertrichosis** as the candidate indication with the highest prediction score (99.99%), but there is currently **no clinical trial or literature evidence to support it**. The evidence bundle itself also notes that this score merely reflects the statistical similarity of knowledge graph embeddings, not pharmacological reasoning.
+Isosorbide mononitrate (ISMN) is a nitric oxide (NO) donor vasodilator marketed in Canada. The TxGNN model predicts it may be effective for **hypertrichosis** with a very high score, but there are **0 clinical trials** and **0 publications** for this prediction. It is a model-only signal, and the mechanistic review found no plausible link.
 
----
-
-## Quick overview
+## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original indication | Data gap (not provided in this evidence bundle; no marketing record in Canada available to substantiate) |
-| Predicted new indication | Hypertrichosis |
-| TxGNN prediction score | 99.995% (ranked 194) |
-| Evidence level | L5 (model prediction only, no actual research) |
-| Canadian market status | Not marketed |
-| DIN count | 0 |
-| Recommended decision | Hold |
+|------|------|
+| Original Indication | Not stated in the Evidence Pack (Canadian licence records contain no indication text) |
+| Predicted New Indication | Hypertrichosis |
+| TxGNN Prediction Score | 99.995% |
+| Evidence Level | L5 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 4 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why is this prediction reasonable?
+It is not well supported. ISMN releases nitric oxide, which raises cGMP and relaxes vascular smooth muscle. Detailed mechanism-of-action data from DrugBank are not available in the Evidence Pack, so this description comes from the mechanistic review.
 
-This evidence bundle does not include the formal mechanism of action description for isosorbide mononitrate (DG002, High severity). However, the pharmacological background can be reconstructed from the mechanistic descriptions of candidate items: isosorbide mononitrate belongs to the nitrate class of NO donors, which causes vascular smooth muscle relaxation through the NO-sGC-cGMP pathway. Clinically, drugs of this class are predominantly used for vascular-related indications such as angina pectoris and portal hypertension (see descriptions of other candidates in the evidence bundle, such as studies on portal pressure in liver cirrhosis: PMID 3384359, 2759546).
+The known link between vasodilators and excess hair growth runs through a different pathway. Minoxidil-associated hypertrichosis is tied to K-ATP channel opening, not the NO/cGMP pathway. The high score therefore appears to come from proximity in the knowledge graph. It may also reflect an adverse-effect-type association rather than a therapeutic one.
 
-As for Hypertrichosis, the evidence bundle's `repurposing_rationale` explicitly states: "No known mechanism: Isosorbide mononitrate is a NO donor/vasodilator with no known association with the pathophysiology of excessive hair growth; this score merely reflects the statistical similarity of TxGNN graph embeddings, not pharmacological reasoning." In other words, this is a candidate ranked high in the knowledge graph but **lacking rational pharmacological connection**, which should be regarded as a noise candidate requiring manual exclusion rather than a priority development direction.
+The other top-ranked predictions are mostly hair or genetic disorders, such as Ambras syndrome, alopecia, hypotrichosis and alopecia areata. None has clinical or literature support. The only speculative link is improved scalp microcirculation for alopecia, and the systemic hypotension and headache burden of nitrates makes a benefit-risk case unlikely.
 
-It is noteworthy that among the same batch of candidates, **Pulmonary arterial hypertension** ranked 10th possesses evidence strength far exceeding the present candidate (L4/S1/Research Question), as its NO-sGC-cGMP pathway is directly relevant to PAH pathophysiology and is supported by 6 related publications (including animal models and mechanistic studies). If one were to select a subsequent research direction among the predicted candidates for this drug, PAH would be a more worthwhile target than Hypertrichosis, though one must remain mindful of the serious hypotension contraindication when used in combination with PDE5 inhibitors.
+## Clinical Trial Evidence
 
----
+Currently no related clinical trials registered.
 
-## Clinical trial evidence
+## Literature Evidence
 
-Currently, there are no registered clinical trials available (search results for Hypertrichosis-related trials: 0 hits, including ClinicalTrials.gov and ICTRP).
+Currently no related literature available.
 
----
+## Canada Market Information
 
-## Literature evidence
+| DIN | Product Name |
+|---------|------|
+| 2126559 | IMDUR |
+| 2311321 | PRO-ISMN - 60 |
+| 2272830 | APO-ISMN |
+| 2301288 | PMS-ISMN |
 
-Currently, there is no relevant literature (PubMed search for isosorbide mononitrate + hypertrichosis yielded 0 results).
+Dosage forms, manufacturers and approved indication text are not recorded for these licences.
 
----
+## Safety Considerations
 
-## Canadian market information
+- **Drug Interactions**: The DDI query returned no records. However, co-administration with PDE5 inhibitors or riociguat is contraindicated because of the risk of severe hypotension.
+- **Other concerns** noted in the review: nitrate tolerance, systemic hypotension and headache.
 
-Isosorbide mononitrate is currently not marketed in Canada, with no DIN authorization records available.
+Please refer to the package insert for full warnings and contraindications.
 
----
-
-## Safety considerations
-
-Refer to the drug package insert for safety information (warnings, contraindications, and drug-drug interactions in this evidence bundle are all data gaps; DG001 is a Blocking-level issue that will block entry into S1 safety initial assessment).
-
----
-
-## Conclusions and next steps
+## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN score is high (99.995%), the evidence bundle itself has explicitly labeled this as knowledge graph statistical similarity noise, lacking any clinical trial, literature, or mechanistic reasonableness support (L5/S0); moreover, the drug is not marketed in Canada and safety data has blocking-level gaps, making it unsuitable for advancement at this stage.
+The prediction rests on a knowledge-graph score alone (L5). There are no trials or literature, and the mechanistic review found no plausible link. All 9 hair- and genetic-disorder predictions in the top 9 are also Hold.
 
-**If advancement is desired, the following must be supplied:**
-- TFDA/Health Canada package insert warnings and contraindications data (DG001, Blocking, blocking S1 safety initial assessment)
-- Complete mechanism of action (MOA) data for isosorbide mononitrate (DG002)
-- To verify the Hypertrichosis direction: any in vitro/animal-level mechanistic reasonableness data must first be obtained; currently completely lacking
-- It is recommended to separately evaluate candidate items with higher evidence levels from the same batch (Pulmonary arterial hypertension, L4/S1), where the mechanistic association is clear and preliminary literature evidence already exists
+**Other predictions in the pack:**
+- **Pulmonary arterial hypertension** (rank 10, score 99.94%) is the only prediction with some support, at L4 and rated a "Research Question". Support is indirect: preclinical work (a hybrid ISMN/bardoxolone methyl molecule; sGC stimulation in a rat model), pharmacology reviews, and a hemodynamic study in coronary artery disease patients rather than PAH. No PAH-specific trial exists.
+- Its practical feasibility is limited because PDE5 inhibitors and riociguat, which are standard PAH therapies, are contraindicated with ISMN.
+- The periodontal-syndrome literature (rank 3) is generic periodontitis material that never mentions ISMN.
 
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text and dosage forms for the Canadian licences
+- For any further consideration of PAH, a targeted review of PAH-specific evidence and a clear position on the PDE5 inhibitor and riociguat limitation
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

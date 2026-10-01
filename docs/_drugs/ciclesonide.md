@@ -2,7 +2,7 @@
 layout: default
 title: Ciclesonide
 parent: Model Prediction Only (L5)
-nav_order: 169
+nav_order: 189
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Ciclesonide: From Asthma to Atopic Eczema
+# Ciclesonide: From Asthma and Allergic Rhinitis to Atopic Eczema
 
 ## One-Sentence Summary
 
-Ciclesonide is an inhaled corticosteroid (ICS) prodrug used internationally for asthma control and allergic rhinitis (marketed as Alvesco® and Omnaris®), though it carries no current regulatory approval in the Canadian database.
-The TxGNN model predicts it may be effective for **Atopic Eczema**, with a confidence score of **99.96%**.
-However, **no clinical trials and no supporting publications** have been identified for this repurposing direction, and a fundamental route-of-administration barrier makes the prediction pharmacologically implausible with existing formulations.
+Ciclesonide is an inhaled and intranasal corticosteroid marketed in Canada as ALVESCO and OMNARIS. The Canadian record does not list its approved indications, so this report uses asthma and allergic rhinitis from general knowledge of these products.
+The TxGNN model predicts it may be effective for **atopic eczema** (score 99.96%), but there are currently **0 clinical trials** and **0 publications** for this indication, so the prediction rests on the model alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available in Canadian regulatory data (internationally: asthma, allergic rhinitis) |
-| Predicted New Indication | Atopic Eczema |
+|------|------|
+| Original Indication | Not listed in the Canadian licence record (asthma and allergic rhinitis are assumed from general knowledge of the ALVESCO and OMNARIS products) |
+| Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Canada Market Status | Not marketed (0 registered licenses) |
-| Number of DINs | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 3 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, ciclesonide belongs to the inhaled corticosteroid (ICS) class and functions as a prodrug — it is converted to its active metabolite des-ciclesonide upon contact with airway esterases. This active form binds glucocorticoid receptors in bronchial epithelial cells, suppressing the release of pro-inflammatory cytokines, reducing eosinophil infiltration, decreasing mucus hypersecretion, and attenuating airway hyperresponsiveness. A defining pharmacokinetic feature is extremely low systemic bioavailability (<1%), which sharply limits systemic side effects.
+Detailed mechanism of action data is not available in the record. Ciclesonide is a glucocorticoid prodrug that is converted in the body to its active form, des-ciclesonide. Glucocorticoids suppress inflammation broadly, and inflammation drives the skin lesions of atopic eczema.
 
-The conceptual link to atopic eczema is mechanistically understandable: topical corticosteroids such as hydrocortisone, betamethasone, and clobetasol — which share the same glucocorticoid receptor pathway — are the cornerstone of atopic eczema management. If ciclesonide were deliverable to the skin, its potent anti-inflammatory profile could theoretically translate into benefit for atopic eczema.
+The high score most likely reflects class-level corticosteroid links in the knowledge graph rather than anything specific to ciclesonide. No ciclesonide-specific data, trials or literature support this indication. Ciclesonide is also formulated for inhalation and nasal use, and route compatibility with a skin indication has not been assessed. The prediction is therefore a plausible hypothesis, not evidence of benefit.
 
-However, there is a critical and currently insurmountable feasibility barrier. Ciclesonide's approved formulations — metered-dose inhalers and intranasal sprays — provide negligible cutaneous drug delivery. With systemic bioavailability below 1%, transdermal exposure from existing routes is essentially zero and cannot reach therapeutic skin concentrations. Addressing this repurposing hypothesis would require the development of an entirely new topical formulation (cream, ointment, or gel), which is a substantial pharmaceutical development programme rather than a straightforward repurposing exercise.
+The same disease also appears as "dermatitis, atopic" (rank 3, score 99.73%). This is a duplicate ontology entry and should be merged during review so that no evidence is counted twice.
 
 ---
 
@@ -71,23 +70,33 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for atopic eczema.
+
+Literature exists only for two other predicted indications, and neither supports atopic eczema:
+
+| PMID | Year | Type | Journal | Related Prediction | Key Findings |
+|------|-----|------|------|------|---------|
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline/Review | Basic & Clinical Pharmacology & Toxicology | Bronchitis | Finnish national guideline on diagnosis and pharmacotherapy of stable COPD. It is indirect evidence and not specific to ciclesonide. |
+| [22957490](https://pubmed.ncbi.nlm.nih.gov/22957490/) | 2012 | Case report | Contact Dermatitis | Contact dermatitis | Systemic allergic dermatitis from inhaled budesonide, with cross-reactivity to ciclesonide on patch testing. This is a hypersensitivity safety signal, not efficacy evidence. |
 
 ---
 
 ## Canada Market Information
 
-Ciclesonide is not currently registered in the Canadian regulatory database, with no DINs on file.
-
-> **Note for reviewers:** Internationally, ciclesonide is marketed in multiple jurisdictions — including the United States and EU — under Alvesco® (inhaled, for asthma) and Omnaris®/Zetonna® (intranasal, for allergic rhinitis). If Canadian regulatory data retrieval was incomplete, manual verification via Health Canada's Drug Product Database is recommended.
+| DIN | Product Name |
+|---------|------|
+| 2285614 | ALVESCO |
+| 2285606 | ALVESCO |
+| 2303671 | OMNARIS |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned no records.
+- **Corticosteroid hypersensitivity**: A published case report describes allergic dermatitis from inhaled budesonide that cross-reacted with ciclesonide on patch testing (PMID 22957490). This suggests a possible cross-sensitivity concern in patients with corticosteroid allergy.
 
-> The TFDA package insert warnings, contraindications, and drug-drug interaction data were not available at the time of this report. Manual retrieval from the regulatory authority's official portal is required before any clinical or formulary evaluation.
+Please refer to the package insert for further safety information.
 
 ---
 
@@ -96,15 +105,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-While the TxGNN model assigns a high mechanistic similarity score (99.96%), this prediction reflects the shared glucocorticoid biology between ciclesonide and atopic eczema treatments — not an actionable repurposing opportunity. The existing inhaled and intranasal formulations cannot deliver drug to the skin at therapeutic concentrations, and no clinical or preclinical evidence supports pursuing this pathway.
+The prediction is supported only by the TxGNN score and class-level corticosteroid reasoning. There are no ciclesonide-specific trials or publications for atopic eczema, and the available formulations are not designed for skin use.
 
 **To proceed, the following is needed:**
+- The Health Canada package insert, to confirm approved indications, warnings and contraindications
+- Mechanism of action data from DrugBank
+- A route-compatibility assessment, since only inhaled and nasal products are known and no topical route is available
+- A targeted search for ciclesonide studies in atopic dermatitis, and merging of the duplicate "atopic eczema" and "dermatitis, atopic" entries
+- Other predictions: bronchitis is a research question needing ciclesonide-specific COPD or chronic bronchitis data. The asthma-susceptibility prediction (rank 6) likely reflects an existing use and should be checked against the label. Contact dermatitis and 2-hydroxyethyl methacrylate sensitization remain on Hold, with no efficacy evidence.
 
-- **Formulation feasibility assessment**: Determine whether a topical ciclesonide formulation (cream/ointment) is chemically and commercially viable; benchmark against existing topical ICS agents (fluticasone propionate, mometasone furoate)
-- **MOA documentation**: Retrieve full mechanism of action data from DrugBank (DB01410) to complete mechanistic rationale analysis
-- **Safety data retrieval**: Obtain and review Health Canada or TFDA package insert warnings and contraindications before any clinical planning
-- **Preclinical skin absorption data**: If a topical formulation is pursued, cutaneous permeation and efficacy studies in validated atopic dermatitis models are required before human investigation
-- **Regulatory pathway review**: Assess whether a new topical formulation would qualify as a new drug application or a line extension of an existing approval
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

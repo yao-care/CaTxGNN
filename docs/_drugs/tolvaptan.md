@@ -2,7 +2,7 @@
 layout: default
 title: Tolvaptan
 parent: Model Prediction Only (L5)
-nav_order: 783
+nav_order: 915
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolvaptan: From ADPKD (V2 Receptor Antagonism) to Polycystic Kidney Disease 3
+# Tolvaptan: From Its Marketed Use to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
 
 ## One-Sentence Summary
 
-> Tolvaptan is a selective vasopressin V2 receptor antagonist whose established mechanism underlies its use in autosomal dominant polycystic kidney disease (ADPKD, PKD1/PKD2), though this detail is not directly recorded in the evidence pack (original indication/MOA fields are data gaps).
-> The TxGNN model's top prediction for this drug is **Polycystic Kidney Disease 3 (with or without polycystic liver disease)**, a rarer genetic subtype outside the drug's established population,
-> with **no clinical trials and no literature** currently registered to support this specific prediction — it is a model-score-only (L5) signal.
+Tolvaptan is a vasopressin V2 receptor antagonist marketed in Canada under brand names including JINARC and SAMSCA. The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**. The supplied data contain **0 clinical trials** and **0 publications** for this prediction, so it is a model-based hypothesis only.
 
 ---
 
@@ -43,47 +41,58 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (data gap); mechanistic rationale references ADPKD/PKD1-PKD2 as the drug's established treatment context |
-| Predicted New Indication | Polycystic Kidney Disease 3 (with or without polycystic liver disease) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
+| TxGNN Prediction Score | 99.99% (model rank 613) |
+| Evidence Level | L5 (model prediction only) |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 12 |
 | Recommended Decision | Hold |
+
+The Evidence Pack contains no approved indication text for the Canadian licenses, so the original indication is not listed here.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available as a structured field (original_moa is a data gap). Based on the mechanistic rationale accompanying this prediction, tolvaptan is a selective vasopressin V2 receptor antagonist that lowers intracellular cAMP in renal tubular epithelial cells, thereby inhibiting cyst epithelial proliferation and fluid secretion — a pathway that is the established therapeutic mechanism for autosomal dominant polycystic kidney disease (ADPKD, driven by PKD1/PKD2 mutations).
+Detailed mechanism of action data is not available in the source record. The pack's own rationale describes tolvaptan as a vasopressin V2 receptor antagonist. By blocking the V2 receptor, it lowers cAMP signaling in renal collecting-duct cells. cAMP signaling is a recognised driver of cyst growth in polycystic kidney disease, which is why the link is plausible.
 
-The top-ranked prediction, PKD3, is a rarer polycystic kidney disease subtype. While it shares the "polycystic kidney" phenotype with ADPKD, it is not confirmed to share the same PKD1/PKD2-driven cAMP signaling defect that tolvaptan targets. The rationale explicitly frames this as a mechanistic extrapolation ("可類推但非同一遺傳基因/族群") rather than a validated pathway match, and no trial or literature evidence in the evidence pack corroborates efficacy in PKD3 specifically.
+General evidence in autosomal dominant polycystic kidney disease (ADPKD) may offer indirect support. That evidence is not in the supplied data, and it has not been verified for this genetic subtype. The very high TxGNN score (0.9999) reflects a graph-based prediction only and is not proof of efficacy.
 
-It is also worth noting that this evidence pack contains 9 additional TxGNN-predicted indications beyond PKD3 (ranks 2–10, scores 99.95–99.98%), several of which the model's own rationale flags as having weak or no biological plausibility relative to tolvaptan's V2 receptor mechanism (e.g., hypertrichosis, thoracic malformation, odontal malformation syndrome, Dandy-Walker malformation) — these are assessed as likely knowledge-graph embedding artifacts rather than genuine mechanistic signals. Only ciliopathy-related renal entries (PKD3, Joubert syndrome with renal defect, nephronophthisis-spastic quadriparesis syndrome) have any plausible tubular/cAMP-related rationale, and even these lack supporting evidence.
+The other nine predicted indications are weaker. Renal-hepatic-pancreatic dysplasia, Joubert syndrome with renal defect, and nephronophthisis-spastic quadriparesis syndrome are ciliopathy-type conditions with loose or indirect links. The rest, including thoracic malformation, hypertrichosis, and Dandy-Walker-related syndromes, have no credible mechanistic link and are likely graph-propagation artifacts. None has supporting trials or literature.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-Tolvaptan is currently **not marketed** in Canada under this evidence pack (0 DINs, no license records available).
+Dosage form, manufacturer, and approved indication text were not supplied for these licenses.
+
+| DIN | Product Name |
+|---------|------|
+| 2437538 | JINARC |
+| 2491583 | JINARC |
+| 2557193 | LUPIN-TOLVAPTAN |
+| 2370468 | SAMSCA |
+| 2491575 | JINARC |
+
+Showing 5 of 12 licenses.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -92,14 +101,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported only by a TxGNN model score (L5) with no clinical trials or literature evidence for PKD3 specifically, and the target population is a distinct, rarer genetic subtype from tolvaptan's established ADPKD context. The drug is also not currently marketed in Canada.
+The prediction rests on a plausible V2/cAMP mechanism, but it has no trial or literature support (evidence level L5) and has not been verified for this specific genetic subtype. Safety data from the Canadian labelling are also missing.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) and original indication documentation (currently a data gap)
-- Regulatory label warnings and contraindications (currently a data gap)
-- Genetic/mechanistic evidence confirming PKD3 shares the PKD1/PKD2 cAMP-driven cystogenesis pathway that tolvaptan targets
-- Preclinical or case-level evidence specific to PKD3 before advancing beyond S0
-- Canada market entry assessment, since the drug currently holds no DIN
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- A literature and trial search covering ADPKD and PKD3-related disease, to check whether general ADPKD evidence extends to this subtype
+- Approved indication text for the Canadian licenses, to confirm the original indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,15 +2,15 @@
 layout: default
 title: Rimegepant
 parent: Moderate Evidence (L3-L4)
-nav_order: 681
-evidence_level: L3
+nav_order: 803
+evidence_level: L4
 indication_count: 6
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +33,90 @@ Evidence Level: **L3** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Rimegepant is a small-molecule CGRP receptor antagonist ("gepant"), internationally approved for acute treatment of migraine (with or without aura) and prevention of episodic migraine, though it is **not yet marketed in Canada**. The TxGNN model predicts it may also be effective for **Migraine with Brainstem Aura**, a rare migraine subtype in which vasoconstrictive drugs (triptans) are traditionally contraindicated. Currently **0 clinical trials** specifically target this subtype, but **14 publications** on rimegepant's general migraine efficacy and safety profile support the mechanistic direction.
+Rimegepant is an oral CGRP receptor antagonist, marketed as NURTEC ODT and used for the acute and preventive treatment of migraine.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**, a subtype of migraine.
+Currently **0 clinical trials** and **14 publications** are linked to this prediction, and none of the visible publications addresses brainstem aura specifically.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established via Canadian licensing (no DIN on file); internationally approved for acute treatment of migraine (± aura) and prevention of episodic migraine |
-| Predicted New Indication | Migraine with Brainstem Aura |
+| Original Indication | Acute treatment of migraine with or without aura, and preventive treatment of episodic migraine (from published reviews; the Canadian licence record has no indication text) |
+| Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L3 |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank (data gap, item DG002). Based on the supporting literature, rimegepant is a small-molecule, highly selective calcitonin gene-related peptide (CGRP) receptor antagonist — a "gepant" — approved for acute and preventive treatment of migraine. Unlike triptans, gepants act without causing vasoconstriction.
+Currently, detailed mechanism of action data is not available in the record. Published reviews describe rimegepant as a small-molecule, highly selective calcitonin gene-related peptide (CGRP) receptor antagonist. CGRP signalling is central to migraine pathophysiology, and the drug is approved for acute and preventive migraine treatment.
 
-Migraine with brainstem aura (formerly "basilar-type migraine") is a subtype in which triptans are relatively or absolutely contraindicated because of their vasoconstrictive action on the vertebrobasilar circulation. Since rimegepant's CGRP-antagonist mechanism does not rely on vasoconstriction, there is a plausible theoretical rationale for its use in this population as a safer alternative acute/preventive option. A 2026 longitudinal MRA study (PMID 41574090) directly examined rimegepant's effect on cerebral and extracerebral arteries during migraine attacks, framing it explicitly as a "non-vasoconstrictive alternative" to triptans — this is the closest mechanistic bridge to the brainstem-aura population in the current evidence.
+Migraine with brainstem aura is a subtype of migraine. This prediction is therefore better read as a **subtype extension of an approved indication** than as true repurposing. Rimegepant is already approved for migraine with or without aura, so a mechanistic fit is plausible.
 
-However, none of the 14 available publications enrolled or specifically analyzed patients with migraine with brainstem aura; all efficacy and safety data (Phase 3 open-label study, Phase 4 dosing study, network meta-analysis, PK studies) come from general migraine populations. The prediction is therefore mechanistically plausible but not yet directly evidenced for this specific subtype.
+The caveat is that the retrieved literature covers migraine in general. None of the visible titles tests or discusses brainstem aura specifically. The score reflects model inference, not subtype-specific evidence.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered specifically for migraine with brainstem aura.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
+Fourteen publications are linked to this prediction. The 10 most relevant are listed below. All discuss migraine broadly rather than brainstem aura.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | Longitudinal MRA study | Brain Communications | Directly examines rimegepant's non-vasoconstrictive vascular effects during spontaneous migraine attacks — most mechanistically relevant to the brainstem-aura rationale |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Network meta-analysis | The Journal of Headache and Pain | Compares relative efficacy of lasmiditan vs. rimegepant vs. ubrogepant for acute migraine treatment |
-| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Phase 3 open-label, long-term safety | Cephalalgia | Long-term safety/effectiveness of rimegepant 75mg ODT in Chinese adults with moderate-to-severe migraine |
-| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Phase 4 open-label safety/tolerability | The Journal of Headache and Pain | 24-week safety/tolerability of once-daily 75mg rimegepant for episodic migraine prevention |
-| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Review (gepant class) | Handbook of Clinical Neurology | Overview of CGRP receptor antagonists (gepants) as a drug class, including rimegepant |
-| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Review | CNS Drugs | Comprehensive review of rimegepant in acute and preventive migraine treatment; superior to placebo in Phase 3 trials |
-| [36808268](https://pubmed.ncbi.nlm.nih.gov/36808268/) | 2023 | Phase 1 PK/safety | Clinical Pharmacology in Drug Development | PK and safety of single/multiple-dose rimegepant ODT in healthy Chinese adults |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Review | Pain Management | Overview of rimegepant within the new wave of acute migraine treatments (vs. lasmiditan, ubrogepant) |
-| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Regulatory approval review | Drugs | First-approval summary of rimegepant ODT (NURTEC ODT) for acute migraine treatment |
-| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Retrospective analysis | Headache | Off-label tolerability/effectiveness of rimegepant for acute migraine in adolescents |
+| [36808268](https://pubmed.ncbi.nlm.nih.gov/36808268/) | 2023 | Randomized placebo-controlled Phase 1 | Clin Pharmacol Drug Dev | Single and multiple daily doses of rimegepant 75 mg ODT evaluated for pharmacokinetics and safety in healthy Chinese adults |
+| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Network meta-analysis | J Headache Pain | Indirect comparison of lasmiditan versus rimegepant and ubrogepant as acute migraine treatments |
+| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Phase 3 open-label | Cephalalgia | Long-term safety and effectiveness of rimegepant 75 mg ODT for acute migraine in Chinese adults |
+| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Phase 4 open-label | J Headache Pain | 24-week safety and tolerability of once-daily rimegepant 75 mg for episodic migraine prevention |
+| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Retrospective cohort | Headache | Tolerability and effectiveness of off-label rimegepant for acute migraine in adolescents |
+| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Review | CNS Drugs | Review of rimegepant for acute and preventive migraine treatment; more effective than placebo in pivotal Phase 3 trials |
+| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Review | Handbook Clin Neurol | Overview of gepants; ubrogepant and rimegepant are the approved second-generation agents |
+| [37904724](https://pubmed.ncbi.nlm.nih.gov/37904724/) | 2024 | Phase 1 PK study | Clin Pharmacol Drug Dev | Pharmacokinetics, safety and tolerability of rimegepant 75 mg similar in elderly and nonelderly adults |
+| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | Longitudinal imaging study | Brain Commun | MR angiography study of rimegepant's effect on cerebral and extracerebral arteries during migraine attacks |
+| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Review (first approval) | Drugs | Summary of the first approval of rimegepant ODT for acute migraine |
+
+---
 
 ## Canada Market Information
 
-Rimegepant is **not currently marketed in Canada** — no Health Canada Drug Identification Number (DIN) is on file, and no licensed products or approved indication text are available for this drug.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2543605 | NURTEC ODT | Orally disintegrating tablet (per product name) | Not stated in the licence record |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Health Canada/TFDA-level warnings, contraindications, and drug interaction data are not currently available (data gap, item DG001 — classified as Blocking, as it prevents completion of the S1 safety review stage).
+Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-A blocking data gap on regulatory safety labelling (warnings/contraindications) prevents this candidate from completing the S1 safety review stage. In addition, while the CGRP-antagonist mechanism offers a plausible rationale for avoiding the vasoconstriction risk associated with triptans in migraine with brainstem aura, no clinical trial or literature directly evaluates rimegepant in this specific subtype — all current evidence (L3: reviews, a network meta-analysis, and open-label safety studies) is extrapolated from general migraine populations.
+The prediction is plausible mechanistically, but it is a subtype of an already-approved indication. No clinical trials and no brainstem-aura-specific publications support it, and the Canadian safety information has not been obtained. The other five predicted indications (atrophoderma vermiculata, ulerythema ophryogenesis, heparin cofactor 2 deficiency, antithrombin deficiency type 2, and factor 5 excess with spontaneous thrombosis) have no plausible mechanistic link and no evidence. They should stay on Hold.
 
 **To proceed, the following is needed:**
-- TFDA/Health Canada product monograph data: key warnings, contraindications, and drug-drug interactions
-- Confirmed mechanism of action (MOA) data via DrugBank API query
-- Targeted search for any case series, registry data, or subgroup analyses specific to migraine with brainstem aura
-- Canadian market entry status confirmation (currently 0 DINs on file)
+- Health Canada package insert (warnings and contraindications), which blocks safety screening
+- The approved indication wording for DIN 2543605
+- Detailed mechanism of action data from DrugBank
+- A targeted search for brainstem aura data, such as subgroup analyses in pivotal trials or case series
+- Confirmation of whether the current Canadian label already covers migraine with aura, which would make this a labelling question rather than a repurposing one
+
+*This report is for research reference only and does not constitute medical advice. Predicted candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

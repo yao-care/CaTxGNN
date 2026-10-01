@@ -2,7 +2,7 @@
 layout: default
 title: Rizatriptan
 parent: Moderate Evidence (L3-L4)
-nav_order: 690
+nav_order: 812
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Rizatriptan: From Migraine to Migraine with Brainstem Aura
+# Rizatriptan: From Acute Migraine to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Rizatriptan is a triptan-class drug developed for the acute treatment of migraine, though it currently has no marketing authorization in Canada. The TxGNN model predicts a very high association with **Migraine with Brainstem Aura**, but this subtype is a population in which triptans are typically considered relatively contraindicated — supporting evidence consists entirely of indirect literature (**0 clinical trials**, **19 publications**), with none of the trials specifically enrolling this patient subgroup.
+Rizatriptan is a triptan used for the acute treatment of migraine. The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but there are **0 registered clinical trials** and the **20 publications** retrieved cover migraine in general, not this subtype. The prediction is not independently supported, and an unresolved safety question applies.
 
 ---
 
@@ -41,23 +41,23 @@ Rizatriptan is a triptan-class drug developed for the acute treatment of migrain
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — no Canada authorization on file (drug not marketed) |
-| Predicted New Indication | Migraine with Brainstem Aura |
+| Original Indication | Acute migraine (from the literature; the Canadian license records supplied contain no indication text) |
+| Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L4 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank is not currently available for this candidate. Based on known pharmacology, rizatriptan is a 5-HT1B/1D receptor agonist (triptan class) that relieves migraine through cranial vasoconstriction and inhibition of neuropeptide release from the trigeminovascular system — this is the standard mechanism underlying its established efficacy in general migraine.
+Detailed mechanism-of-action data is not available in the supplied drug record. Based on the literature, rizatriptan is a 5-HT1B/1D receptor agonist (a triptan). It causes cranial vasoconstriction and inhibits the trigeminal release of CGRP and other neuropeptides. This is the basis for its use in acute migraine, with or without aura, in adults.
 
-However, "migraine with brainstem aura" (formerly known as basilar-type migraine) is a specific subtype that clinical guidelines explicitly flag with caution. Because triptans could theoretically worsen posterior circulation vasoconstriction, most randomized controlled trials of triptans have excluded this subtype, and product labels in multiple jurisdictions list it as a relative contraindication.
+Brainstem aura is a subtype of migraine, so the model links it closely to rizatriptan's established indication. The very high score most likely reflects this closeness in the disease ontology. It is **not independent evidence** that the drug works in this subtype.
 
-In other words, while the drug-to-disease-class mechanistic link (rizatriptan ↔ migraine) is very strong, there is no direct efficacy evidence for this specific aura subtype — and a plausible safety concern exists that runs counter to the prediction. This is why the evidence level is capped at L4 and the recommendation is Hold rather than proceeding further.
+The supplied literature mainly concerns migraine with or without typical aura. None of it studies brainstem aura specifically. Triptan labeling has traditionally advised caution, or contraindication, in hemiplegic and basilar-type migraine because of theoretical vasoconstriction concerns. The mechanism that supports the drug in migraine generally is therefore the same one that raises a safety question here.
 
 ---
 
@@ -71,30 +71,38 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11903526](https://pubmed.ncbi.nlm.nih.gov/11903526/) | 2001 | Pending classification | Headache | Reports on triptan use specifically in basilar migraine and migraine with prolonged aura — the most directly relevant publication to the predicted indication |
-| [11687054](https://pubmed.ncbi.nlm.nih.gov/11687054/) | 2001 | Review (Cochrane systematic review of RCTs) | Cochrane Database Syst Rev | Systematic review of rizatriptan for acute migraine treatment; general migraine population, not aura-specific |
-| [15209688](https://pubmed.ncbi.nlm.nih.gov/15209688/) | 2004 | RCT | Headache | Placebo-controlled study evaluating early rizatriptan administration during a migraine attack |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline/Evidence Assessment | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies, including triptans |
-| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Review (comparative) | J Headache Pain | Meta-analysis comparing frovatriptan vs. rizatriptan/zolmitriptan/almotriptan specifically in migraine with aura |
-| [8912486](https://pubmed.ncbi.nlm.nih.gov/8912486/) | 1996 | Pending classification | Arch Neurol | Placebo-controlled, dose-ranging comparison of rizatriptan vs. sumatriptan in acute migraine |
-| [19920719](https://pubmed.ncbi.nlm.nih.gov/19920719/) | 2009 | Cohort | Clin J Pain | Compares migraine patients with vs. without allodynic symptoms |
-| [16336021](https://pubmed.ncbi.nlm.nih.gov/16336021/) | 2005 | Review (pharmacoeconomic) | PharmacoEconomics | Pharmacoeconomic review of rizatriptan's efficacy and tolerability vs. other triptans |
-| [15613223](https://pubmed.ncbi.nlm.nih.gov/15613223/) | 1999 | PK study | Headache | Pharmacokinetics of rizatriptan tablets during and between migraine attacks |
-| [27757013](https://pubmed.ncbi.nlm.nih.gov/27757013/) | 2016 | Pending classification | Drug Des Devel Ther | Review of frovatriptan efficacy vs. rizatriptan and other triptans |
+| [15209688](https://pubmed.ncbi.nlm.nih.gov/15209688/) | 2004 | RCT | Headache | Placebo-controlled study of rizatriptan given early in a migraine attack |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies in adults |
+| [11687054](https://pubmed.ncbi.nlm.nih.gov/11687054/) | 2001 | Review | Cochrane Database Syst Rev | Cochrane review of rizatriptan for acute migraine |
+| [17636717](https://pubmed.ncbi.nlm.nih.gov/17636717/) | 2007 | Review | Cochrane Database Syst Rev | Withdrawn update of the Cochrane review above, so it should not be relied on |
+| [11903526](https://pubmed.ncbi.nlm.nih.gov/11903526/) | 2001 | Not classified | Headache | Use of triptans in basilar migraine and migraine with prolonged aura. It is the closest topic match, but the supplied abstract gives no results |
+| [8912486](https://pubmed.ncbi.nlm.nih.gov/8912486/) | 1996 | Not classified | Arch Neurol | Placebo-controlled, dose-ranging comparison of rizatriptan and sumatriptan in acute migraine |
+| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Review (meta-analysis) | J Headache Pain | Compares frovatriptan with rizatriptan, zolmitriptan and almotriptan in migraine with aura. The abstract notes that triptans are probably not effective when taken during the aura phase |
+| [25538676](https://pubmed.ncbi.nlm.nih.gov/25538676/) | 2014 | Review | Front Neurol | Treatment options in vestibular migraine, where randomized trials are scarce |
+| [27910087](https://pubmed.ncbi.nlm.nih.gov/27910087/) | 2017 | Review | Headache | Review of treatment options for menstrual migraine |
+| [16336021](https://pubmed.ncbi.nlm.nih.gov/16336021/) | 2005 | Review | PharmacoEconomics | Pharmacoeconomic review: the 10 mg dose gave faster pain relief than sumatriptan 50 mg, with similar tolerability |
 
 ---
 
 ## Canada Market Information
 
-Not currently marketed in Canada — no DIN records available.
+The supplied license records contain no approved-indication text. Dosage forms are inferred from the product names.
+
+| DIN | Product Name | Dosage Form |
+|---------|------|------|
+| 2393360 | PMS-RIZATRIPTAN RDT | Orally disintegrating (per name) |
+| 2396661 | TEVA-RIZATRIPTAN ODT | Orally disintegrating (per name) |
+| 2446111 | RIZATRIPTAN ODT | Orally disintegrating (per name) |
+| 2415801 | RIZATRIPTAN RDT | Orally disintegrating (per name) |
+| 2240519 | MAXALT RPD | Orally disintegrating (per name) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information (key warnings, contraindications, and drug interaction data are not yet available in the evidence pack).
+- **Subtype-specific caution**: Triptan labeling has traditionally advised caution or contraindication in hemiplegic and basilar-type migraine because of theoretical vasoconstriction concerns. This must be resolved before any recommendation for brainstem aura.
 
-**Important mechanistic caveat identified during evidence review:** Migraine with brainstem aura is a subtype in which triptans, including rizatriptan, are commonly treated as a relative contraindication due to theoretical risk of exacerbating posterior circulation vasoconstriction. This concern is separate from the formal DDI/warning fields (which are currently data gaps) and should be treated as a primary safety flag for this specific candidate.
+For other safety information, please refer to the Health Canada package insert.
 
 ---
 
@@ -103,13 +111,13 @@ Please refer to the package insert for safety information (key warnings, contrai
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but no clinical trial or literature evidence directly supports efficacy in this specific aura subtype, and there is a recognized theoretical safety concern (posterior circulation vasoconstriction) that argues against — not for — use in this population. Combined with the absence of TFDA/Health Canada label data (DG001, Blocking) and MOA confirmation (DG002, High), this candidate cannot advance past initial safety screening (S1) at this time.
+The prediction rests on the model score and the drug's established use in migraine in general. No trials or literature address brainstem aura, and the vasoconstriction concern for this subtype is unresolved. The second predicted indication (atrophoderma vermiculata, score 99.19%) has no plausible mechanistic link and no evidence, so it should not advance.
 
 **To proceed, the following is needed:**
-- Official product label / prescribing information confirming contraindication status for migraine with brainstem aura (resolves DG001)
-- Confirmed mechanism of action data from DrugBank (resolves DG002)
-- Any subtype-specific clinical evidence (trials or case series) evaluating triptan safety/efficacy in brainstem aura migraine specifically
-- Health Canada regulatory pathway assessment, given the drug is not currently marketed in Canada
+- Health Canada package insert warnings and contraindications (a blocking gap that prevents safety screening)
+- A review of triptan labeling and safety data for hemiplegic and basilar-type migraine
+- Mechanism of action data from DrugBank
+- Targeted literature or trial data on rizatriptan in migraine with brainstem aura
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

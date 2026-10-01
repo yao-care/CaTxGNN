@@ -2,7 +2,7 @@
 layout: default
 title: Ceftobiprole
 parent: Model Prediction Only (L5)
-nav_order: 151
+nav_order: 166
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,35 +29,42 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceftobiprole: From Bacterial Infections (MRSA) to Rheumatoid Arthritis
+# Ceftobiprole: From Antibacterial Therapy to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Ceftobiprole is a broad-spectrum fifth-generation cephalosporin antibiotic developed to treat serious bacterial infections caused by Gram-positive organisms, including methicillin-resistant *Staphylococcus aureus* (MRSA). The TxGNN model predicts it may have activity against **Rheumatoid Arthritis**, with a prediction score of 98.45%. However, **no clinical trials** and **no published literature** currently support this indication — the prediction is entirely computational, and the biological rationale is weak.
+Ceftobiprole is a cephalosporin antibiotic marketed in Canada as ZEVTERA. It works by inhibiting bacterial cell-wall synthesis, including in MRSA.
+The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but **0 clinical trials** and **0 publications** currently support this direction. The prediction is model-only and should be treated as a likely artifact.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Serious bacterial infections (Gram-positive pathogens, including MRSA) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | Not listed in the available Canadian licence data. Ceftobiprole is a beta-lactam antibacterial. |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 98.45% |
 | Evidence Level | L5 |
-| Market Status | Not Marketed |
-| Number of Licenses | 0 |
-| Recommended Decision | **Hold** |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Ceftobiprole is a fifth-generation cephalosporin antibiotic. Its antimicrobial effect works by inhibiting bacterial cell wall synthesis — specifically by binding to penicillin-binding proteins (PBPs), including PBP2a, the target responsible for MRSA resistance. This makes it effective against a wide range of Gram-positive bacteria, including drug-resistant strains.
+Currently, detailed mechanism of action data is not available in the record. From general pharmacology, ceftobiprole is a beta-lactam cephalosporin. It inhibits bacterial penicillin-binding proteins (PBPs), including PBP2a in MRSA. Its established use is against bacterial infections.
 
-Rheumatoid arthritis (RA) is an autoimmune inflammatory joint disease driven by immune dysregulation, not bacterial infection. There is no direct mechanistic bridge between a beta-lactam antibiotic and RA pathophysiology. The only conceivable indirect connection would be through the gut or oral microbiome — for example, *Porphyromonas gingivalis* has been implicated in triggering RA-related immune responses via citrullination of host proteins. However, Ceftobiprole's antibacterial spectrum is directed at Gram-positive organisms (not the anaerobic Gram-negative *P. gingivalis*), and no study has specifically investigated this hypothesis with Ceftobiprole.
+**A plausible mechanistic link to rheumatoid arthritis is not evident.** Rheumatoid arthritis is an autoimmune synovitis. Ceftobiprole has no known immunomodulatory or anti-inflammatory action relevant to it. The high TxGNN score (98.45%) comes from the knowledge graph alone. It may reflect graph-neighbourhood artifacts rather than real biology.
 
-The high TxGNN score (98.45%) most likely reflects shared inflammatory pathway nodes in the underlying knowledge graph, rather than true biological plausibility. This prediction is best interpreted as a probable false positive arising from the structural proximity of infection-related and autoimmune-related disease nodes in the graph. It does not provide actionable drug repurposing signal at this stage.
+The other top-ranked predictions show the same pattern:
+
+- **Joint and inflammatory conditions:** osteoarthritis, osteoarthritis susceptibility and gout.
+- **Rare skeletal dysplasias:** pseudoachondroplasia, brachyolmia and Hunter-Thompson type acromesomelic dysplasia.
+- **Other rare disorders:** hemoglobinopathy, myosclerosis and colobomatous microphthalmia-rhizomelic dysplasia syndrome.
+
+All ten predictions are L5 with no trials or literature. Many of these targets are genetic or degenerative conditions with no antibacterial rationale. Together this suggests a systematic graph-proximity effect, not drug-specific signals.
 
 ---
 
@@ -73,9 +80,17 @@ Currently no related literature available.
 
 ---
 
+## Canada Market Information
+
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 2446685 | ZEVTERA | Not listed | Not listed |
+
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found for this drug.
 
 ---
 
@@ -84,15 +99,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Ceftobiprole is a beta-lactam antibiotic with no established mechanistic connection to rheumatoid arthritis. Despite the high TxGNN prediction score (98.45%), the evidence level is L5 (model prediction only), with zero supporting clinical trials or literature, and the biological rationale is not compelling — this prediction is likely a false positive driven by shared inflammation nodes in the knowledge graph.
+The prediction is supported only by a model score, with no trials, no publications and no plausible mechanistic link between a PBP-targeting antibacterial and rheumatoid arthritis. Safety information is also missing, so the candidate cannot advance past the initial screening stage.
 
 **To proceed, the following is needed:**
+- Health Canada product monograph (warnings and contraindications) for ZEVTERA
+- Confirmed mechanism of action data from DrugBank
+- Preclinical or mechanistic evidence of an anti-inflammatory or immunomodulatory effect in synovitis models
+- Route and formulation compatibility assessment (ceftobiprole's approved route is not stated in the data received)
+- Any published or registered studies of ceftobiprole in rheumatoid arthritis, if they exist
 
-- Retrieve full mechanism of action data for Ceftobiprole from DrugBank to confirm or rule out any secondary anti-inflammatory properties
-- Obtain safety warnings and contraindications from the official package insert before any further evaluation
-- Conduct a knowledge graph topology review to understand why this association scored in the top 10 predictions, and whether it reflects a systemic graph bias toward inflammatory conditions
-- If the microbiome hypothesis is to be explored, a targeted literature review on beta-lactam antibiotics and RA-associated microbiome changes would be needed
-- Consider deprioritising this candidate in favour of Ceftobiprole predictions with stronger mechanistic alignment (e.g., infectious or inflammatory indications with direct antibiotic relevance)
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

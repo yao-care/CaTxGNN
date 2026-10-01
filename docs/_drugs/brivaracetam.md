@@ -2,15 +2,15 @@
 layout: default
 title: Brivaracetam
 parent: Moderate Evidence (L3-L4)
-nav_order: 111
-evidence_level: L3
+nav_order: 123
+evidence_level: L4
 indication_count: 10
 ---
 
 # Brivaracetam
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,66 +29,79 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Brivaracetam: From Epilepsy (Focal Onset Seizures) to Visual Epilepsy
+# Brivaracetam: From Focal-Onset Seizures to Visual Epilepsy
 
 ## One-Sentence Summary
 
-Brivaracetam (BRV) is a third-generation antiseizure medication developed for adjunctive and monotherapy treatment of focal onset seizures, with international approvals from the US FDA (2016) and EMA (2016).
-The TxGNN model predicts it may be effective for **Visual Epilepsy** (a reflex epilepsy triggered by visual stimuli),
-with **0 clinical trials** and **19 publications** currently supporting this direction — anchored in BRV's established SV2A mechanism and validated photosensitivity model data.
+Brivaracetam is an antiseizure medication approved for focal-onset seizures.
+The TxGNN model predicts it may be effective for **visual epilepsy** (seizures provoked by visual stimuli), but there are currently **0 registered clinical trials** and **19 publications**, all of them general epilepsy literature rather than visual-epilepsy-specific studies.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Focal onset seizures (epilepsy) |
-| Predicted New Indication | Visual Epilepsy |
+|------|------|
+| Original Indication | Focal-onset seizures (from the literature; Canadian licence indication text was not provided) |
+| Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.51% |
-| Evidence Level | L3 |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| Canada Market Status | ✓ Marketed |
+| Number of DINs | 14 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Although the DrugBank mechanism of action record was not populated in this dataset, published literature robustly describes BRV's pharmacology: it is a selective, high-affinity ligand for synaptic vesicle glycoprotein 2A (SV2A), binding with 15–30 times greater affinity than its structural predecessor levetiracetam. By modulating SV2A — a presynaptic protein involved in synaptic vesicle cycling and neurotransmitter release — BRV attenuates the excessive neuronal firing underlying seizure activity. Its higher lipophilicity also enables rapid blood-brain barrier penetration compared to levetiracetam, giving it a faster onset of anticonvulsant action.
+Currently, detailed mechanism of action data is not available in the DrugBank field of the evidence pack. The literature, however, describes brivaracetam as a high-affinity ligand of synaptic vesicle protein 2A (SV2A). It is a propyl analogue of levetiracetam, binds SV2A with roughly 15- to 30-fold higher affinity, and penetrates the brain rapidly. It is approved as adjunctive and monotherapy treatment for focal-onset seizures.
 
-Visual epilepsy (photosensitive epilepsy) is a reflex epilepsy in which seizures are triggered by flickering lights or specific visual patterns. The cortical hyperexcitability driving these seizures is mechanistically identical to the target pathophysiology BRV was designed to suppress. Crucially, the photoparoxysmal response (PPR) to intermittent photic stimulation (IPS) is a validated human proof-of-concept model for antiseizure efficacy — and BRV has been directly evaluated in this model, demonstrating rapid suppression of PPR with faster onset than levetiracetam (PMID 17785672; PMID 32949370). This photosensitivity model data provides direct mechanistic and clinical evidence directly relevant to visual epilepsy, even though these studies appear in adjacent literature searches.
+Visual epilepsy involves seizures triggered by visual stimuli. It is a reflex epilepsy in which neuronal hyperexcitability drives the seizures. SV2A modulation reduces this hyperexcitability, so the mechanism could plausibly extend from focal seizures to visually provoked seizures.
 
-The prediction is further reinforced by the extensive clinical evidence base for BRV across focal and generalized seizure types, including Phase III RCTs and multiple systematic reviews. Visual epilepsy, as a focal-onset or generalised reflex epilepsy, falls squarely within the seizure spectrum where SV2A modulation is effective. BRV's broad-spectrum antiseizure profile, favorable tolerability relative to levetiracetam, and existing photosensitivity model data collectively make this a scientifically well-grounded prediction.
+The literature retrieved for this indication is general epilepsy material, not visual epilepsy. Two photosensitivity studies, which use the EEG photoparoxysmal response as a biomarker of antiseizure efficacy, appeared under a different predicted indication:
+- **PMID 17785672**: brivaracetam in the photosensitivity model (2007).
+- **PMID 32949370**: a randomized, double-blind crossover trial of brivaracetam vs levetiracetam on the photoparoxysmal response (2020).
+
+These are not counted in the evidence above. If manual review confirms they are relevant, they could support an upgrade to L2–L3.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered specifically for brivaracetam in visual epilepsy.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+None of the publications below is specific to visual epilepsy. They support brivaracetam's approved use in epilepsy only indirectly.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Review | J Epilepsy Res | Comprehensive review of BRV pharmacology, clinical efficacy, and safety; confirms broad-spectrum seizure control through selective SV2A binding and rapid CNS penetration |
-| [39664134](https://pubmed.ncbi.nlm.nih.gov/39664134/) | 2024 | Systematic Review | Cureus | Systematic review of BRV's current role in adults and children with epilepsy; summarizes efficacy, safety, and clinical rationale for switching from prior ASMs |
-| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Review | Advances in Therapy | Narrative review of BRV preclinical profile and clinical benefits; highlights 15–30× superior SV2A affinity and greater brain permeability versus levetiracetam |
-| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | RCT | Epilepsia Open | Phase III double-blind placebo-controlled RCT of adjunctive BRV in adult Asian patients with uncontrolled focal-onset seizures; demonstrated significant seizure frequency reduction and favorable tolerability |
-| [38970892](https://pubmed.ncbi.nlm.nih.gov/38970892/) | 2024 | Pooled Analysis | Epilepsy & Behavior | EXPERIENCE pooled analysis: BRV effectiveness and tolerability in older (≥65 y) and younger adults with epilepsy across real-world international datasets |
-| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Meta-Analysis | Front Neurol | Systematic review and meta-analysis of BRV safety and efficacy in childhood epilepsy; supports broad applicability across age groups |
-| [38205459](https://pubmed.ncbi.nlm.nih.gov/38205459/) | 2023 | Observational | Cureus | Prospective non-interventional real-world study confirming BRV's strong SV2A selectivity, equivalent efficacy to other ASMs, and superior tolerability |
-| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Pooled Analysis | Epilepsy & Behavior | In-depth pooled safety analysis of adjunctive BRV across all Phase II/III trials; characterizes adverse event profile including psychiatric and CNS events |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Review | Neuropharmacology | Comprehensive review of ASM mechanisms of action, including SV2A modulation; provides mechanistic context for BRV's applicability in reflex epilepsies |
-| [26165169](https://pubmed.ncbi.nlm.nih.gov/26165169/) | 2015 | Meta-Analysis | Expert Opin Pharmacother | Meta-analysis of BRV at different doses for partial-onset epilepsy; established dose-response relationship and supported 50–200 mg/day dosing range |
+|------|-----|------|------|---------|
+| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | RCT (Phase III, focal seizures, indirect) | Epilepsia Open | Adjunctive brivaracetam vs placebo in adult Asian patients with uncontrolled focal-onset seizures |
+| [26165169](https://pubmed.ncbi.nlm.nih.gov/26165169/) | 2015 | Meta-analysis | Expert Opin Pharmacother | Efficacy and safety of different brivaracetam doses vs placebo in partial-onset epilepsy |
+| [39664134](https://pubmed.ncbi.nlm.nih.gov/39664134/) | 2024 | Systematic review | Cureus | Efficacy, safety and reasons for switching to brivaracetam in adults and children with epilepsy |
+| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Systematic review and meta-analysis | Front Neurol | Safety and efficacy of brivaracetam in childhood epilepsy |
+| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Review | J Epilepsy Res | Pharmacology, efficacy and safety of brivaracetam, combining trial and real-world data |
+| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Review | Adv Ther | Narrative review of the preclinical profile and clinical benefits of brivaracetam |
+| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Review | Expert Rev Neurother | Efficacy and tolerability of brivaracetam in focal epilepsy compared with levetiracetam |
+| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Pooled analysis | Epilepsy Behav | In-depth pooled safety and tolerability analysis of adjunctive brivaracetam for focal seizures |
+| [38970892](https://pubmed.ncbi.nlm.nih.gov/38970892/) | 2024 | Pooled retrospective analysis | Epilepsy Behav | EXPERIENCE study: effectiveness and tolerability in older vs younger adults |
+| [30530134](https://pubmed.ncbi.nlm.nih.gov/30530134/) | 2019 | Case series | Epilepsy Behav | 25 patients with drug-resistant epilepsy and psychiatric comorbidities |
 
 ---
 
 ## Canada Market Information
 
-Brivaracetam is not currently approved in Canada. No Drug Identification Numbers (DINs) are on file for this compound in the Health Canada database.
+Health Canada lists 14 authorizations. The five main ones are below.
+
+| DIN | Product Name |
+|---------|------|
+| 02538679 | APO-BRIVARACETAM |
+| 02538687 | APO-BRIVARACETAM |
+| 02538709 | APO-BRIVARACETAM |
+| 02539306 | AURO-BRIVARACETAM |
+| 02452960 | BRIVLERA |
 
 ---
 
@@ -100,17 +113,20 @@ Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Brivaracetam has a mechanistically validated basis for efficacy in visual epilepsy, supported by direct photosensitivity model clinical data and an extensive evidence base across focal seizure types. However, BRV is not currently registered in Canada, and prospective evidence in confirmed visual epilepsy populations remains limited to early-phase and indirect studies.
+The 99.51% model score is not backed by visual-epilepsy-specific evidence. There are no registered trials, and the retrieved literature is general epilepsy material, which puts this indication at L4. The mechanism is plausible, but the evidence is indirect.
 
 **To proceed, the following is needed:**
-- **Health Canada regulatory submission and DIN registration** — a prerequisite for any Canadian clinical or commercial use
-- **Package insert / product monograph review** — to document key warnings, contraindications, and drug interaction profile (currently unavailable in this dataset)
-- **Prospective clinical study or registry** specifically enrolling patients with confirmed visual or photosensitive epilepsy treated with brivaracetam
-- **DrugBank MOA data retrieval** — to complete the pharmacological dossier and support regulatory submissions
-- **Pediatric dosing assessment** — visual/photosensitive epilepsy frequently manifests in adolescents; specific PK/PD data in this subgroup should be confirmed
+- Manual review of the photosensitivity studies (PMID 17785672 and PMID 32949370) to confirm they are relevant to visual epilepsy. If confirmed, re-grade the evidence at L2–L3.
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening.
+- DrugBank mechanism of action data.
+- Approved indication text and dosage forms for the Canadian licences.
+
+**Note:** Among the other predicted indications for brivaracetam, **status epilepticus** currently has stronger support. It is graded L3 and has a completed head-to-head trial of intravenous brivaracetam vs levetiracetam in children ([NCT07163572](https://clinicaltrials.gov/study/NCT07163572), n=152, no results provided) plus several systematic reviews. It may be a better first candidate for further evaluation.
+
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
