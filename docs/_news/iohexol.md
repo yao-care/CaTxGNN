@@ -3,7 +3,7 @@ layout: default
 title: "Iohexol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Iohexol. Original indication: . 10 predicted indications."
+description: "Health news related to Iohexol. Original indication: . 13 predicted indications."
 permalink: /news/iohexol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iohexol/
 ---
 
 <p class="key-answer" data-question="What news is there about Iohexol?">
-<strong>Iohexol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Iohexol</strong> currently has <strong>0 news articles</strong>, with 13 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,10 @@ This page combines the AI-predicted indications for Iohexol with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (13)</strong>:<ul>
+<li>OMNIPAQUE 240 (99.0%)</li>
+<li>OMNIPAQUE 300 (99.0%)</li>
+<li>OMNIPAQUE 350 (99.0%)</li>
 <li>insomnia (disease) (99.9%)</li>
 <li>anxiety (99.2%)</li>
 <li>rheumatoid arthritis (98.9%)</li>

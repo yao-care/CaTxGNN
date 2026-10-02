@@ -3,7 +3,7 @@ layout: default
 title: "Hexaminolevulinate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hexaminolevulinate. Original indication: . 10 predicted indications."
+description: "Health news related to Hexaminolevulinate. Original indication: . 11 predicted indications."
 permalink: /news/hexaminolevulinate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hexaminolevulinate/
 ---
 
 <p class="key-answer" data-question="What news is there about Hexaminolevulinate?">
-<strong>Hexaminolevulinate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Hexaminolevulinate</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Hexaminolevulinate with the 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>CYSVIEW (99.0%)</li>
 <li>bronchitis (99.1%)</li>
 <li>colonic neoplasm (98.6%)</li>
 <li>severe nonproliferative diabetic retinopathy (98.6%)</li>

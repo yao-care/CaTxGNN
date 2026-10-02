@@ -3,7 +3,7 @@ layout: default
 title: "Tolvaptan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tolvaptan. Original indication: . 10 predicted indications."
+description: "Health news related to Tolvaptan. Original indication: . 13 predicted indications."
 permalink: /news/tolvaptan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tolvaptan/
 ---
 
 <p class="key-answer" data-question="What news is there about Tolvaptan?">
-<strong>Tolvaptan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tolvaptan</strong> currently has <strong>0 news articles</strong>, with 13 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,10 @@ This page combines the AI-predicted indications for Tolvaptan with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (13)</strong>:<ul>
+<li>JINARC (99.0%)</li>
+<li>LUPIN-TOLVAPTAN (99.0%)</li>
+<li>SAMSCA (99.0%)</li>
 <li>polycystic kidney disease 3 with or without polycystic liver disease (100.0%)</li>
 <li>renal-hepatic-pancreatic dysplasia (100.0%)</li>
 <li>karyomegalic interstitial nephritis (100.0%)</li>

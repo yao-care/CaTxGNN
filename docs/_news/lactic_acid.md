@@ -3,7 +3,7 @@ layout: default
 title: "Lactic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lactic acid. Original indication: . 10 predicted indications."
+description: "Health news related to Lactic acid. Original indication: . 13 predicted indications."
 permalink: /news/lactic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lactic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Lactic acid?">
-<strong>Lactic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Lactic acid</strong> currently has <strong>0 news articles</strong>, with 13 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,10 @@ This page combines the AI-predicted indications for Lactic acid with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (13)</strong>:<ul>
+<li>PRISM0CAL (99.0%)</li>
+<li>PRISMASOL 0 (99.0%)</li>
+<li>PRISMASOL 4 (99.0%)</li>
 <li>atypical coarctation of aorta (99.6%)</li>
 <li>aortic malformation (99.3%)</li>
 <li>non-syndromic esophageal malformation (99.2%)</li>

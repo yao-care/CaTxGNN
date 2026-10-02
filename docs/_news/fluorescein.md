@@ -3,7 +3,7 @@ layout: default
 title: "Fluorescein News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluorescein. Original indication: . 10 predicted indications."
+description: "Health news related to Fluorescein. Original indication: . 13 predicted indications."
 permalink: /news/fluorescein/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluorescein/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluorescein?">
-<strong>Fluorescein</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Fluorescein</strong> currently has <strong>0 news articles</strong>, with 13 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,10 @@ This page combines the AI-predicted indications for Fluorescein with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (13)</strong>:<ul>
+<li>FLUORESCITE (99.0%)</li>
+<li>DIOFLUOR STRIPS (99.0%)</li>
+<li>MINIMS FLUORESCEIN SODIUM (99.0%)</li>
 <li>Prinzmetal angina (99.8%)</li>
 <li>antithrombin deficiency type 2 (99.8%)</li>
 <li>rheumatoid arthritis (99.7%)</li>

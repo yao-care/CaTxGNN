@@ -3,7 +3,7 @@ layout: default
 title: "Tezepelumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tezepelumab. Original indication: . 10 predicted indications."
+description: "Health news related to Tezepelumab. Original indication: . 11 predicted indications."
 permalink: /news/tezepelumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tezepelumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Tezepelumab?">
-<strong>Tezepelumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tezepelumab</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Tezepelumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>TEZSPIRE (99.0%)</li>
 <li>diabetic cataract (98.4%)</li>
 <li>tetanic cataract (98.3%)</li>
 <li>craniostenosis cataract (98.3%)</li>

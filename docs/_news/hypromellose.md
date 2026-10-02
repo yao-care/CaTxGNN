@@ -3,7 +3,7 @@ layout: default
 title: "Hypromellose News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hypromellose. Original indication: . 10 predicted indications."
+description: "Health news related to Hypromellose. Original indication: . 15 predicted indications."
 permalink: /news/hypromellose/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hypromellose/
 ---
 
 <p class="key-answer" data-question="What news is there about Hypromellose?">
-<strong>Hypromellose</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Hypromellose</strong> currently has <strong>0 news articles</strong>, with 15 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,12 @@ This page combines the AI-predicted indications for Hypromellose with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (15)</strong>:<ul>
+<li>ALCON TEARS 0.5% (99.0%)</li>
+<li>GENTEAL (99.0%)</li>
+<li>ALCON TEARS 1% (99.0%)</li>
+<li>TEARS NATURALE II (99.0%)</li>
+<li>ARTIFICIAL TEARS (99.0%)</li>
 <li>hepatic veno-occlusive disease-immunodeficiency syndrome (98.3%)</li>
 <li>pancytopenia due to IKZF1 mutations (98.2%)</li>
 <li>hepatic veno-occlusive disease (98.1%)</li>

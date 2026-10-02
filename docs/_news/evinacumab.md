@@ -3,7 +3,7 @@ layout: default
 title: "Evinacumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Evinacumab. Original indication: . 10 predicted indications."
+description: "Health news related to Evinacumab. Original indication: . 11 predicted indications."
 permalink: /news/evinacumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/evinacumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Evinacumab?">
-<strong>Evinacumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Evinacumab</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Evinacumab with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>EVKEEZA (99.0%)</li>
 <li>diabetic cataract (98.5%)</li>
 <li>tetanic cataract (98.5%)</li>
 <li>mature cataract (98.5%)</li>

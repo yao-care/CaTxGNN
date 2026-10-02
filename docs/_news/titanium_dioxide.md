@@ -3,7 +3,7 @@ layout: default
 title: "Titanium dioxide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Titanium dioxide. Original indication: . 10 predicted indications."
+description: "Health news related to Titanium dioxide. Original indication: . 15 predicted indications."
 permalink: /news/titanium_dioxide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/titanium_dioxide/
 ---
 
 <p class="key-answer" data-question="What news is there about Titanium dioxide?">
-<strong>Titanium dioxide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Titanium dioxide</strong> currently has <strong>0 news articles</strong>, with 15 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,12 @@ This page combines the AI-predicted indications for Titanium dioxide with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (15)</strong>:<ul>
+<li>WEIGHTLESS SKIN FOUNDATION SPF 15 (99.0%)</li>
+<li>MARCELLE CC CREAM / CRÈME COMPLETE CORRECTION SPF 35 (99.0%)</li>
+<li>TEINT LUMIÈRE (99.0%)</li>
+<li>FLUID SPF 15 (99.0%)</li>
+<li>SUPERDEFENSE CITY BLOCK DAILY ENERGY + FACE PROTECTOR SPF 50 (99.0%)</li>
 <li>drug-induced osteoporosis (100.0%)</li>
 <li>diabetic retinopathy (100.0%)</li>
 <li>diabetic cataract (100.0%)</li>

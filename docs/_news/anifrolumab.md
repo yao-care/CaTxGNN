@@ -3,7 +3,7 @@ layout: default
 title: "Anifrolumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Anifrolumab. Original indication: . 10 predicted indications."
+description: "Health news related to Anifrolumab. Original indication: . 11 predicted indications."
 permalink: /news/anifrolumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/anifrolumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Anifrolumab?">
-<strong>Anifrolumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Anifrolumab</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Anifrolumab with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>SAPHNELO (99.0%)</li>
 <li>diabetic cataract (98.5%)</li>
 <li>tetanic cataract (98.4%)</li>
 <li>diabetes mellitus type 2 associated cataract (98.4%)</li>

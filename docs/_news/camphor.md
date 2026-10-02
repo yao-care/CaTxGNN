@@ -3,7 +3,7 @@ layout: default
 title: "Camphor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Camphor. Original indication: he TxGNN model predicts it may be relevant for **M.... 10 predicted indications."
+description: "Health news related to Camphor. Original indication: he TxGNN model predicts it may be relevant for **M.... 15 predicted indications."
 permalink: /news/camphor/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/camphor/
 ---
 
 <p class="key-answer" data-question="What news is there about Camphor?">
-<strong>Camphor</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Camphor</strong> currently has <strong>0 news articles</strong>, with 15 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,7 +26,12 @@ This page combines the AI-predicted indications for Camphor with the latest heal
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be relevant for **Migraine Disorder**, with **no registered clinical trials** and **5 publications** identified in support of this direction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (15)</strong>:<ul>
+<li>CREO-RECTAL ADULTES/ADULTS (99.0%)</li>
+<li>CREO-RECTAL ENFANTS/CHILDREN (99.0%)</li>
+<li>DEMO-CINEOL ADULTES/ADULTS (99.0%)</li>
+<li>DEMO-CINEOL ENFANTS/CHILDREN (99.0%)</li>
+<li>BLISTEX DCT (99.0%)</li>
 <li>migraine disorder (99.8%)</li>
 <li>migraine with brainstem aura (99.8%)</li>
 <li>erectile dysfunction (disease) (99.8%)</li>

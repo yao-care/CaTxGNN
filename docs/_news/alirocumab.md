@@ -3,7 +3,7 @@ layout: default
 title: "Alirocumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alirocumab. Original indication: . 10 predicted indications."
+description: "Health news related to Alirocumab. Original indication: . 11 predicted indications."
 permalink: /news/alirocumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alirocumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Alirocumab?">
-<strong>Alirocumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Alirocumab</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Alirocumab with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>PRALUENT (99.0%)</li>
 <li>ichthyosis, X-linked, without steroid sulfatase deficiency (99.4%)</li>
 <li>disorder of other vitamins and cofactors metabolism and transport (99.4%)</li>
 <li>xanthomatosis (disease) (99.4%)</li>

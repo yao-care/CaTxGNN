@@ -3,7 +3,7 @@ layout: default
 title: "Asfotase alfa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Asfotase alfa. Original indication: . 10 predicted indications."
+description: "Health news related to Asfotase alfa. Original indication: . 11 predicted indications."
 permalink: /news/asfotase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/asfotase_alfa/
 ---
 
 <p class="key-answer" data-question="What news is there about Asfotase alfa?">
-<strong>Asfotase alfa</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Asfotase alfa</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Asfotase alfa with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>STRENSIQ (99.0%)</li>
 <li>mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (100.0%)</li>
 <li>Steel syndrome (99.9%)</li>
 <li>exocrine pancreatic insufficiency (99.9%)</li>

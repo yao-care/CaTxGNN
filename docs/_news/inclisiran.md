@@ -25,15 +25,15 @@ This page combines the AI-predicted indications for Inclisiran with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>potassium deficiency disease (99.9%)</li>
-<li>esophageal disease (99.9%)</li>
-<li>atypical coarctation of aorta (99.9%)</li>
-<li>migraine disorder (99.8%)</li>
-<li>non-syndromic esophageal malformation (99.8%)</li>
-<li>migraine with brainstem aura (99.8%)</li>
-<li>migraine with or without aura, susceptibility to (99.8%)</li>
-<li>aortic malformation (99.8%)</li>
-<li>esophageal ulcer (99.7%)</li>
+<li>Potassium deficiency disease (99.9%)</li>
+<li>Esophageal disease (99.9%)</li>
+<li>Atypical coarctation of aorta (99.9%)</li>
+<li>Migraine disorder (99.8%)</li>
+<li>Non-syndromic esophageal malformation (99.8%)</li>
+<li>Migraine with brainstem aura (99.8%)</li>
+<li>Migraine with or without aura, susceptibility to (99.8%)</li>
+<li>Aortic malformation (99.8%)</li>
+<li>Esophageal ulcer (99.7%)</li>
 <li>Raynaud disease (99.7%)</li>
 </ul></li>
 </ul>

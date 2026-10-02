@@ -3,7 +3,7 @@ layout: default
 title: "Carbon monoxide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Carbon monoxide. Original indication: . 10 predicted indications."
+description: "Health news related to Carbon monoxide. Original indication: . 14 predicted indications."
 permalink: /news/carbon_monoxide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carbon_monoxide/
 ---
 
 <p class="key-answer" data-question="What news is there about Carbon monoxide?">
-<strong>Carbon monoxide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Carbon monoxide</strong> currently has <strong>0 news articles</strong>, with 14 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,11 @@ This page combines the AI-predicted indications for Carbon monoxide with the lat
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (14)</strong>:<ul>
+<li>CO-HE-O2-N2 MIXTURE (99.0%)</li>
+<li>CARBON MONOX, HELIUM, OXYGEN, NITROGEN L.D.M. (99.0%)</li>
+<li>CO-NE-O2-N2 MIXTURE (99.0%)</li>
+<li>LUNG DIFFUSION TEST MIX NO NE CO (99.0%)</li>
 <li>sclerosing cholangitis (99.8%)</li>
 <li>ventricular tachycardia (99.6%)</li>
 <li>obsolete bundle branch block (99.5%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Cromoglicic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cromoglicic acid. Original indication: . 10 predicted indications."
+description: "Health news related to Cromoglicic acid. Original indication: . 12 predicted indications."
 permalink: /news/cromoglicic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cromoglicic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Cromoglicic acid?">
-<strong>Cromoglicic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Cromoglicic acid</strong> currently has <strong>0 news articles</strong>, with 12 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,9 @@ This page combines the AI-predicted indications for Cromoglicic acid with the la
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (12)</strong>:<ul>
+<li>CROMOLYN EYE DROPS (99.0%)</li>
+<li>NALCROM (99.0%)</li>
 <li>ulcerative proctosigmoiditis (100.0%)</li>
 <li>nocardiosis (100.0%)</li>
 <li>rosacea conjunctivitis (100.0%)</li>

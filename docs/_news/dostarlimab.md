@@ -3,7 +3,7 @@ layout: default
 title: "Dostarlimab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dostarlimab. Original indication: . 10 predicted indications."
+description: "Health news related to Dostarlimab. Original indication: . 11 predicted indications."
 permalink: /news/dostarlimab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dostarlimab/
 ---
 
 <p class="key-answer" data-question="What news is there about Dostarlimab?">
-<strong>Dostarlimab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Dostarlimab</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Dostarlimab with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>JEMPERLI (99.0%)</li>
 <li>cervical adenofibroma (50.0%)</li>
 <li>vulvar alveolar soft part sarcoma (50.0%)</li>
 <li>LAMA5-related multisystemic syndrome (50.0%)</li>

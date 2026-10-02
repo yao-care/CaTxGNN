@@ -3,7 +3,7 @@ layout: default
 title: "Ioversol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ioversol. Original indication: . 10 predicted indications."
+description: "Health news related to Ioversol. Original indication: . 12 predicted indications."
 permalink: /news/ioversol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ioversol/
 ---
 
 <p class="key-answer" data-question="What news is there about Ioversol?">
-<strong>Ioversol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Ioversol</strong> currently has <strong>0 news articles</strong>, with 12 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,9 @@ This page combines the AI-predicted indications for Ioversol with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (12)</strong>:<ul>
+<li>OPTIRAY 320 (99.0%)</li>
+<li>OPTIRAY 320 (ULTRAJECT) (99.0%)</li>
 <li>osteoarthritis susceptibility (99.7%)</li>
 <li>osteoarthritis (99.6%)</li>
 <li>rheumatoid arthritis (99.6%)</li>

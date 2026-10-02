@@ -3,7 +3,7 @@ layout: default
 title: "Protamine sulfate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Protamine sulfate. Original indication: . 10 predicted indications."
+description: "Health news related to Protamine sulfate. Original indication: . 12 predicted indications."
 permalink: /news/protamine_sulfate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/protamine_sulfate/
 ---
 
 <p class="key-answer" data-question="What news is there about Protamine sulfate?">
-<strong>Protamine sulfate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Protamine sulfate</strong> currently has <strong>0 news articles</strong>, with 12 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,9 @@ This page combines the AI-predicted indications for Protamine sulfate with the l
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (12)</strong>:<ul>
+<li>PROTAMINE SULFATE INJECTION USP (99.0%)</li>
+<li>PROTAMINE SULFATE INJECTION, USP (99.0%)</li>
 <li>marfanoid habitus-inguinal hernia-advanced bone age syndrome (50.0%)</li>
 <li>atypical Meigs syndrome (50.0%)</li>
 <li>pseudo-Meigs syndrome (50.0%)</li>

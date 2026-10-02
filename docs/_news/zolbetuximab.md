@@ -3,7 +3,7 @@ layout: default
 title: "Zolbetuximab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Zolbetuximab. Original indication: . 10 predicted indications."
+description: "Health news related to Zolbetuximab. Original indication: . 11 predicted indications."
 permalink: /news/zolbetuximab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/zolbetuximab/
 ---
 
 <p class="key-answer" data-question="What news is there about Zolbetuximab?">
-<strong>Zolbetuximab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Zolbetuximab</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Zolbetuximab with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>VYLOY (99.0%)</li>
 <li>diabetic cataract (98.5%)</li>
 <li>craniostenosis cataract (98.4%)</li>
 <li>diabetes mellitus type 2 associated cataract (98.4%)</li>

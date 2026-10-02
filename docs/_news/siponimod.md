@@ -3,7 +3,7 @@ layout: default
 title: "Siponimod News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Siponimod. Original indication: . 10 predicted indications."
+description: "Health news related to Siponimod. Original indication: . 11 predicted indications."
 permalink: /news/siponimod/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/siponimod/
 ---
 
 <p class="key-answer" data-question="What news is there about Siponimod?">
-<strong>Siponimod</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Siponimod</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Siponimod with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>MAYZENT (99.0%)</li>
 <li>pulmonary hypertension (99.7%)</li>
 <li>migraine disorder (99.7%)</li>
 <li>kyphoscoliotic heart disease (99.6%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Efinaconazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Efinaconazole. Original indication: . 10 predicted indications."
+description: "Health news related to Efinaconazole. Original indication: . 11 predicted indications."
 permalink: /news/efinaconazole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/efinaconazole/
 ---
 
 <p class="key-answer" data-question="What news is there about Efinaconazole?">
-<strong>Efinaconazole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Efinaconazole</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Efinaconazole with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>JUBLIA (99.0%)</li>
 <li>astigmatism (disease) (50.0%)</li>
 <li>dermatitis, atopic (50.0%)</li>
 <li>dislocated elbows, bowed tibias, scoliosis, deafness, cataract, microcephaly, and intellectual disability (50.0%)</li>

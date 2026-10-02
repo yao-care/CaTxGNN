@@ -3,7 +3,7 @@ layout: default
 title: "Icodextrin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Icodextrin. Original indication: . 10 predicted indications."
+description: "Health news related to Icodextrin. Original indication: . 11 predicted indications."
 permalink: /news/icodextrin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/icodextrin/
 ---
 
 <p class="key-answer" data-question="What news is there about Icodextrin?">
-<strong>Icodextrin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Icodextrin</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Icodextrin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>EXTRANEAL (99.0%)</li>
 <li>irritable bowel syndrome (98.5%)</li>
 <li>non-syndromic esophageal malformation (97.4%)</li>
 <li>C1 inhibitor deficiency (97.3%)</li>
