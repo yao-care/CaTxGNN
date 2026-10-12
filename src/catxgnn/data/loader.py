@@ -25,7 +25,8 @@ def _load_dpd_file(filepath: Path, columns: list[str]) -> pd.DataFrame:
         names=columns,
         quotechar='"',
         encoding='utf-8',
-        on_bad_lines='skip'
+        on_bad_lines='skip',
+        dtype=str,  # DIN 是 8 位數字串，當數字讀會吃掉前導 0（00015741 → 15741）
     )
 
 
