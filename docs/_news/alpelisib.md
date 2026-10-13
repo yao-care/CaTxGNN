@@ -3,7 +3,7 @@ layout: default
 title: "Alpelisib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alpelisib. Original indication: . 11 predicted indications."
+description: "Health news related to Alpelisib. Original indication: . 10 predicted indications."
 permalink: /news/alpelisib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alpelisib/
 ---
 
 <p class="key-answer" data-question="What news is there about Alpelisib?">
-<strong>Alpelisib</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
+<strong>Alpelisib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,7 @@ This page combines the AI-predicted indications for Alpelisib with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (11)</strong>:<ul>
-<li>PIQRAY (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
 <li>pulmonary hypertension (99.0%)</li>
 <li>migraine with or without aura, susceptibility to (99.0%)</li>
 <li>migraine disorder (98.9%)</li>
