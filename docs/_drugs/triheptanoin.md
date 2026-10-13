@@ -2,7 +2,7 @@
 layout: default
 title: Triheptanoin
 parent: Model Prediction Only (L5)
-nav_order: 939
+nav_order: 946
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triheptanoin: From Anaplerotic Energy-Substrate Therapy to Craniostenosis Cataract
+# Triheptanoin: From Long-Chain Fatty Acid Oxidation Disorders to Craniostenosis Cataract
 
 ## One-Sentence Summary
 
-Triheptanoin is an odd-chain (C7) triglyceride that supplies alternative energy substrates to cells. It is marketed in Canada as DOJOLVI, but the approved indication text is not included in the data provided.
-The TxGNN model predicts it may be effective for **craniostenosis cataract** (a rare syndromic condition), but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model-only prediction.
+Triheptanoin is a medium odd-chain triglyceride (C7) that supplies heptanoate as an energy substrate, and it is marketed in Canada as DOJOLVI. The TxGNN model predicts it may be effective for **craniostenosis cataract**, but **no clinical trials and no publications** currently support this prediction. It rests on a model score alone.
 
 ---
 
@@ -42,7 +41,7 @@ The TxGNN model predicts it may be effective for **craniostenosis cataract** (a 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the provided data (the Canadian licence record has no indication text) |
+| Original Indication | Not stated in the Canadian license data (the mechanistic background suggests long-chain fatty acid oxidation disorders) |
 | Predicted New Indication | Craniostenosis cataract |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
@@ -54,28 +53,25 @@ The TxGNN model predicts it may be effective for **craniostenosis cataract** (a 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. From general pharmacology, triheptanoin is broken down into heptanoate, which yields C4/C5 ketones and propionyl-CoA. Propionyl-CoA feeds succinyl-CoA into the TCA cycle (anaplerosis), which supports cellular energy production. The approved indication should be confirmed against the Canadian product monograph.
+Currently, detailed mechanism of action data is not available. Based on known information, triheptanoin supplies heptanoate, which is converted to propionyl-CoA and then succinyl-CoA. This replenishes intermediates of the TCA cycle (anaplerosis). It is marketed for long-chain fatty acid oxidation disorders, where cells have difficulty producing energy from long-chain fats.
 
-The link to the predicted indication is weak. Craniostenosis with cataract is a rare, likely genetic syndromic condition with no known energy-metabolism defect that this mechanism would correct. The score comes from graph-embedding similarity alone, with no supporting clinical or preclinical data.
+The link to the predicted indication is weak. No plausible pathway was identified that connects anaplerotic energy-substrate supply to cataract associated with craniosynostosis. The score of 99.98% is a knowledge-graph prediction. It likely reflects shared network neighbours across the cataract disease family rather than a specific mechanism.
 
-The other nine top predictions show the same pattern:
+The model also ranks many other cataract types highly, including diabetic, senile, nuclear, cortical, mature, immature and tetanic cataract. Diabetic cataract involves altered lens energy metabolism, so a theoretical argument exists there, but it is untested. No data are available on lens exposure after an oral triglyceride.
 
-- Seven are cataract subtypes. Their scores are identical or nearly identical (0.99971–0.99975), which suggests clustering of cataract terms in the knowledge graph rather than disease-specific signal.
-- Two have only a speculative, hypothesis-level link: diabetes mellitus type 2 associated cataract and diabetic cataract. In theory, anaplerotic substrates could support lens energy metabolism under hyperglycaemic stress, but no lens data exist.
-- Antithrombin deficiency type 2 has no plausible mechanistic link and is most likely an embedding artifact.
+Other predicted indications:
 
-| Rank | Predicted Disease | Score | Evidence Level | Recommendation |
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 1 | Craniostenosis cataract | 99.98% | L5 | Hold |
-| 2 | Diabetes mellitus type 2 associated cataract | 99.98% | L5 | Research Question |
-| 3 | Mature cataract | 99.98% | L5 | Hold |
-| 4 | Immature cataract | 99.98% | L5 | Hold |
-| 5 | Tetanic cataract | 99.98% | L5 | Hold |
-| 6 | Diabetic cataract | 99.97% | L5 | Research Question |
-| 7 | Cortical cataract | 99.97% | L5 | Hold |
-| 8 | Nuclear senile cataract | 99.97% | L5 | Hold |
-| 9 | Senile cataract | 99.97% | L5 | Hold |
-| 10 | Antithrombin deficiency type 2 | 99.97% | L5 | Hold |
+| 2 | Diabetes mellitus type 2 associated cataract | 99.98% | L5 | Speculative link through lens energy metabolism |
+| 3 | Mature cataract | 99.98% | L5 | Advanced structural opacity, surgically treated |
+| 4 | Immature cataract | 99.98% | L5 | Untested theoretical argument |
+| 5 | Tetanic cataract | 99.98% | L5 | Driven by calcium disturbance, no link |
+| 6 | Diabetic cataract | 99.97% | L5 | Overlaps with rank 2 |
+| 7 | Cortical cataract | 99.97% | L5 | Ion and water balance, no link |
+| 8 | Nuclear senile cataract | 99.97% | L5 | Speculative |
+| 9 | Senile cataract | 99.97% | L5 | Likely family-level artefact |
+| 10 | Antithrombin deficiency type 2 | 99.97% | L5 | No interaction with the coagulation cascade |
 
 ---
 
@@ -95,15 +91,15 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2512556 | DOJOLVI | Not provided | Not provided |
+| 02512556 | DOJOLVI | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records for this drug. This does not confirm absence of interactions.
+- **Drug Interactions**: One interaction was identified in the compiled data: **Orlistat** (Major severity, DDInter). Orlistat reduces fat absorption, so it may interfere with absorption of a triglyceride product. Co-administration should be avoided or reviewed carefully.
 
-Please refer to the package insert for other safety information, including warnings and contraindications.
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for further safety information.
 
 ---
 
@@ -112,14 +108,15 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-embedding score, with no trials or publications. The mechanistic link to craniostenosis cataract is not supported, and the tied scores across cataract terms point to a model artifact. Safety data for the Canadian label is also missing.
+The prediction rests only on a knowledge-graph score. There are no clinical trials, no publications and no plausible mechanism linking triheptanoin to craniosynostosis-associated cataract or to any other cataract type. Ocular delivery of an oral triglyceride is also unaddressed.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings, contraindications, approved indication), which is a blocking gap for safety screening
-- Mechanism-of-action data from DrugBank
-- Any preclinical lens or cataract-model data for anaplerotic or ketogenic substrates
-- A literature and trial search outside the current pack, focused on the diabetic cataract hypotheses (ranks 2 and 6), which are the most testable
-- Route compatibility assessment (currently pending)
+- Mechanism of action data for triheptanoin, to allow a proper mechanistic analysis
+- Preclinical evidence (for example, lens culture or animal cataract models) showing a benefit of anaplerotic substrate supply
+- Evidence of lens exposure or another rationale for ocular benefit after oral dosing
+- The Health Canada package insert, to review the approved indication, warnings and contraindications
+- A literature and trial search focused on cataract and metabolic substrate therapy, to confirm whether any supporting evidence exists
+- A clinical review of the Major interaction with orlistat
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

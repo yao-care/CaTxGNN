@@ -2,7 +2,7 @@
 layout: default
 title: Metronidazole
 parent: Model Prediction Only (L5)
-nav_order: 606
+nav_order: 611
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Metronidazole: From Anaerobic Bacterial and Protozoal Infections to Pneumocystosis
+# Metronidazole: From Anaerobic and Protozoal Infections to Pneumocystosis
 
 ## One-Sentence Summary
 
-Metronidazole is an antimicrobial used against anaerobic bacteria and protozoa. The TxGNN model predicts it may be effective for **pneumocystosis**, but the retrieved evidence does not support this. All **23 retrieved clinical trials** are unrelated to the drug, and the **10 publications** are reviews and case reports with no evidence of benefit. The high score is most likely a knowledge-graph artifact.
+Metronidazole is an antimicrobial originally used for anaerobic bacterial infections, giardiasis, bacterial vaginosis and rosacea.
+The TxGNN model predicts it may be effective for **pneumocystosis**, with a very high score, but **no clinical trials** and only **10 publications** (mostly general reviews and case reports, none showing metronidazole activity against Pneumocystis) are available.
+The prediction is therefore best treated as a computational signal rather than an evidence-backed lead.
 
 ---
 
@@ -41,7 +43,7 @@ Metronidazole is an antimicrobial used against anaerobic bacteria and protozoa. 
 
 | Item | Content |
 |------|------|
-| Original Indication | Anaerobic bacterial and protozoal infections (general class use; the Canadian licence records contain no indication text) |
+| Original Indication | Peritonitis, endocarditis, anaerobic bacterial infections, giardiasis, rosacea, bacterial vaginosis and related conditions (from the knowledge graph; no approved-indication text is available for the Canadian licences) |
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -53,69 +55,60 @@ Metronidazole is an antimicrobial used against anaerobic bacteria and protozoa. 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Metronidazole is generally understood to work through reduction of its nitro group inside anaerobic bacteria and protozoa, which damages their DNA.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on general pharmacology, metronidazole is a nitroimidazole that is activated by reduction of its nitro group in anaerobic bacteria and protozoa, producing DNA-damaging radicals. Its efficacy in anaerobic infections and protozoal diseases such as giardiasis is well established.
 
-*Pneumocystis* is a fungus and lacks this activation pathway, so there is no plausible mechanistic link. The standard therapy for *Pneumocystis* pneumonia is trimethoprim-sulfamethoxazole. A 1980 review (PMID 7355683) lists metronidazole for amebiasis and trichomoniasis, not for pneumocystis.
+The link to pneumocystosis is weak. Pneumocystis is a fungus and lacks this reductive activation pathway. The retrieved literature consists of general antiparasitic reviews, HIV opportunistic infection overviews and case reports in which metronidazole was given for a coexisting infection such as amoebiasis. None of it shows metronidazole efficacy against Pneumocystis. The high score is probably driven by network proximity to antiprotozoal and anti-infective drugs rather than a true mechanistic fit. The standard treatment cited in the literature is trimethoprim-sulfamethoxazole.
 
-The 0.9999 score most likely reflects the drug's membership in the antiparasitic class within the knowledge graph. It should not be treated as clinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-The search returned 23 trials, and none tests metronidazole or targets pneumocystosis. Ten graded trials are shown below; the remaining 13 were not graded but are also unrelated by title and summary (health-services, behavioural and device studies).
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02571673](https://clinicaltrials.gov/study/NCT02571673) | N/A | Completed | 65 | Head and neck cancer survivorship tool feasibility. Unrelated. |
-| [NCT01909076](https://clinicaltrials.gov/study/NCT01909076) | N/A | Completed | 53 | Opioid risk reduction in primary care. Unrelated. |
-| [NCT06160947](https://clinicaltrials.gov/study/NCT06160947) | N/A | Not yet recruiting | 24 | Chiropractic care and opioid use in spinal pain. Unrelated. |
-| [NCT06597123](https://clinicaltrials.gov/study/NCT06597123) | N/A | Not yet recruiting | 150 | AI-augmented motivational interviewing training. Unrelated. |
-| [NCT03466866](https://clinicaltrials.gov/study/NCT03466866) | Phase 3 | Completed | 156 | Diabetes education intervention. The Phase 3 label is not drug evidence. |
-| [NCT03451630](https://clinicaltrials.gov/study/NCT03451630) | N/A | Completed | 1400 | Integrated care models for publicly insured adults. Unrelated. |
-| [NCT05256303](https://clinicaltrials.gov/study/NCT05256303) | N/A | Completed | 160 | Hospital-at-home delivery model. Unrelated. |
-| [NCT03542084](https://clinicaltrials.gov/study/NCT03542084) | N/A | Completed | 305 | Endocrinology e-consults for glycemic control. Unrelated. |
-| [NCT02208947](https://clinicaltrials.gov/study/NCT02208947) | Phase 3 | Terminated | 77 | Advance care planning incentives. The Phase 3 label is not drug evidence. |
-| [NCT05892666](https://clinicaltrials.gov/study/NCT05892666) | N/A | Recruiting | 4000 | Care-delivery comparison across clinic settings. Unrelated. |
+Other predictions in the list have more plausible biology, though still limited evidence:
+- **Cap polyposis** (L3): case reports and small series describe remission with metronidazole, possibly through anti-inflammatory action.
+- **Ulceration of vulva** (L3): metronidazole has an established role in vulvar Crohn's disease and genital amebiasis, with a 22-patient retrospective study and a systematic review.
+- **Ulcerative proctosigmoiditis** (L4): plausible through gut dysbiosis, but evidence is indirect.
 
 ---
 
 ## Literature Evidence
 
-The 10 publications are all reviews or case reports, with no RCTs. None shows that metronidazole treats pneumocystosis.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [7355683](https://pubmed.ncbi.nlm.nih.gov/7355683/) | 1980 | Review | Am Fam Physician | Metronidazole is the drug of choice for amebic colitis and trichomoniasis. Trimethoprim-sulfamethoxazole is the choice for pneumocystis pneumonia. |
-| [1545596](https://pubmed.ncbi.nlm.nih.gov/1545596/) | 1992 | Review | Mayo Clin Proc | General overview of antiparasitic agents and their limitations. |
-| [1782741](https://pubmed.ncbi.nlm.nih.gov/1782741/) | 1991 | Review | Clin Pharmacokinet | Pharmacokinetic rationale for antiprotozoal therapy. |
-| [26518395](https://pubmed.ncbi.nlm.nih.gov/26518395/) | 2015 | Review | Top Antivir Med | HIV-related opportunistic infections remain relevant. No metronidazole role shown. |
-| [2996829](https://pubmed.ncbi.nlm.nih.gov/2996829/) | 1985 | Review | Clin Pharm | Infectious complications of AIDS, including *P. carinii* pneumonia. |
-| [6282154](https://pubmed.ncbi.nlm.nih.gov/6282154/) | 1982 | Case report | Am Rev Respir Dis | *P. carinii* and CMV pneumonia in a healthy adult who had previously received metronidazole for diarrhea. This is not a treatment result. |
-| [2338506](https://pubmed.ncbi.nlm.nih.gov/2338506/) | 1990 | Case report | Kansenshogaku Zasshi | Two AIDS patients. Metronidazole treated amebic dysentery, and pneumocystis pneumonia occurred separately. |
-| [16496064](https://pubmed.ncbi.nlm.nih.gov/16496064/) | 2005 | Case report | J Formos Med Assoc | Amoebic and CMV colitis with perforation in an AIDS patient. |
-| [6771863](https://pubmed.ncbi.nlm.nih.gov/6771863/) | 1980 | Review | Rev Infect Dis | Critique of antimicrobial prophylaxis trials. |
-| [2280469](https://pubmed.ncbi.nlm.nih.gov/2280469/) | 1990 | Review | Nihon Rinsho | Drugs used against protozoan infections in humans. |
+|------|-----|------|------|---------|
+| [1545596](https://pubmed.ncbi.nlm.nih.gov/1545596/) | 1992 | Review | Mayo Clinic Proceedings | General review of antiparasitic agents; no Pneumocystis-specific data for metronidazole |
+| [7355683](https://pubmed.ncbi.nlm.nih.gov/7355683/) | 1980 | Review | American Family Physician | Lists metronidazole for amoebiasis and trichomoniasis; trimethoprim-sulfamethoxazole for Pneumocystis pneumonia |
+| [1782741](https://pubmed.ncbi.nlm.nih.gov/1782741/) | 1991 | Review | Clinical Pharmacokinetics | Pharmacokinetic rationale for antiprotozoal therapy |
+| [2996829](https://pubmed.ncbi.nlm.nih.gov/2996829/) | 1985 | Review | Clinical Pharmacy | Treatment of AIDS infectious complications, including Pneumocystis carinii pneumonia |
+| [26518395](https://pubmed.ncbi.nlm.nih.gov/26518395/) | 2015 | Review | Topics in Antiviral Medicine | Overview of HIV-related opportunistic infections |
+| [6771863](https://pubmed.ncbi.nlm.nih.gov/6771863/) | 1980 | Review | Reviews of Infectious Diseases | Critique of antimicrobial prophylaxis trials |
+| [6282154](https://pubmed.ncbi.nlm.nih.gov/6282154/) | 1982 | Case report | American Review of Respiratory Disease | Pneumocystis and cytomegalovirus pneumonia in a patient previously treated with metronidazole for diarrhoea |
+| [2338506](https://pubmed.ncbi.nlm.nih.gov/2338506/) | 1990 | Case report | Kansenshogaku Zasshi | Two AIDS patients; metronidazole used for amoebic dysentery, with Pneumocystis pneumonia as a separate problem |
+| [16496064](https://pubmed.ncbi.nlm.nih.gov/16496064/) | 2005 | Case report | J Formos Med Assoc | Colon perforation with peritonitis in an AIDS patient with cytomegalovirus and amoebic colitis |
+| [42178576](https://pubmed.ncbi.nlm.nih.gov/42178576/) | 2026 | Case report | J Med Case Reports | Streptococcus intermedius cerebellar abscess as first presentation of sarcoidosis |
+
+Clinical trials: currently no related clinical trials registered.
 
 ---
 
 ## Canada Market Information
 
-Five of the 15 authorizations are shown. Dosage form and approved indication text are not present in the licence records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02092832 | METROGEL 0.75% | Not specified | Not specified |
+| 02297809 | METROGEL 1% | Not specified | Not specified |
+| 02518767 | METRONIDAZOLE | Not specified | Not specified |
+| 02519755 | M-METRONIDAZOLE | Not specified | Not specified |
+| 00545066 | APO-METRONIDAZOLE TABLETS | Tablet | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02092832 | METROGEL 0.75% |
-| 02297809 | METROGEL 1% |
-| 02518767 | METRONIDAZOLE |
-| 02519755 | M-METRONIDAZOLE |
-| 00545066 | APO-METRONIDAZOLE TABLETS |
+Fifteen valid single-ingredient licences are listed in total; the table shows the first five. Others include injection, gel and combination-brand products such as NIDAGEL and PYLERA.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction data were retrieved.
+**Contraindication-related conditions (knowledge graph, not label text):** liver failure, liver disease, epilepsy, kidney disease, haematological disease, neutropenia, leukopenia, agranulocytosis, blood coagulation disease, peripheral neuropathy and other peripheral nervous system disease, brain disease, optic nerve disease, visual pathway disease, congestive heart failure, diabetes mellitus, diabetic ketoacidosis, gout, gallbladder disease, dermatitis, substance abuse/dependence, non-infectious meningitis, and pyoureter.
+
+**Drug interactions:** 100 interactions were identified; the first 20 reviewed include:
+- **Major:** ethanol
+- **Moderate:** paclitaxel, adalimumab, trastuzumab emtansine, ethinylestradiol, estradiol, butalbital, amiodarone, celecoxib, amobarbital, loperamide
+- **Minor:** abiraterone, tramadol, famotidine, salbutamol, alfuzosin, amisulpride, amitriptyline, anagrelide, propofol
+
+Please refer to the package insert for official warnings and contraindications, as label text was not available for this report.
 
 ---
 
@@ -124,18 +117,12 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no relevant trials, no supportive literature and no plausible mechanism, since pneumocystis is a fungus and standard therapy is trimethoprim-sulfamethoxazole.
+The prediction rests on a model score alone. There are no trials, the biology does not fit (Pneumocystis is a fungus), and the literature does not show metronidazole benefit. Standard therapy already exists.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
-- Detailed mechanism-of-action data from DrugBank
-- Any direct in vitro or clinical evidence that metronidazole has activity against *Pneumocystis*
-
-**Other candidates for this drug:** two lower-ranked predictions were flagged as research questions and have more plausible support than pneumocystosis:
-- **Cap polyposis:** case reports describe remission with metronidazole, and PMID 12141801 proposes an anti-inflammatory mechanism.
-- **Vulvar ulceration:** the support comes from cause-specific case reports (amoebic and Crohn's-related), so a structured case series would be needed before the generic label could be assessed.
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Direct preclinical or clinical evidence of metronidazole activity against Pneumocystis (none currently exists in the data)
+- Mechanism of action data and the Canadian package insert warnings and contraindications
+- Consideration of better-supported candidates from the same prediction list (cap polyposis and vulvar ulceration, both L3) as research questions, ideally with controlled studies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

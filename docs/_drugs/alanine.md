@@ -29,20 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Alanine: From Parenteral Nutrition Component to Gastroparesis
+# Alanine: From Parenteral Nutrition Amino Acid Component to Gastroparesis
 
 ## One-Sentence Summary
 
-Alanine is a nonessential amino acid that is a component of Canadian parenteral nutrition products such as Clinimix and Travasol.
-The TxGNN model predicts it may be effective for **gastroparesis**, but the supporting evidence is weak: the **8 clinical trials** and **3 publications** retrieved all concern other drugs or general topics, and **none tests alanine directly**.
-
----
+Alanine is a non-essential amino acid used in Canada as an ingredient of parenteral nutrition (intravenous feeding) products.
+The TxGNN model predicts it may be useful for **gastroparesis**, but this is a model prediction only: **0 clinical trials** and **3 loosely related publications** (none showing that alanine treats the condition) are currently available.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data (the products are parenteral nutrition formulations) |
+| Original Indication | Not stated in the Health Canada license data compiled for this report (marketed as an amino acid component of parenteral nutrition products) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.37% |
 | Evidence Level | L5 |
@@ -50,77 +48,67 @@ The TxGNN model predicts it may be effective for **gastroparesis**, but the supp
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, alanine is used as an amino acid in enteral and parenteral nutrition and in hepatic gluconeogenesis. No established mechanism links it to gastroparesis.
+Currently, detailed mechanism of action data is not available. Based on known information, alanine is a non-essential amino acid supplied in intravenous nutrition formulations (such as Clinimix, Travasol, Primene, Olimel and SmofKabiven). Its role there is nutritional and metabolic support, and no mechanism linking it to gastric motility has been documented.
 
-The only speculative connection is nutritional support, or glycemic and metabolic effects, in diabetic gastroparesis. Nothing in the supplied data supports this. The high TxGNN score comes from knowledge-graph prediction alone and should be treated as a hypothesis, not evidence.
+The only plausible link is indirect. Gastroparesis is a common complication of diabetes and is also more frequent in chronic renal failure, and the retrieved literature concerns diabetic and renal-related gastrointestinal or hepatic complications. This is a comorbidity association. It is not evidence that alanine treats gastroparesis or changes gastric emptying. Any therapeutic role, such as nutritional support for patients with gastroparesis, is speculative and unsupported by the data compiled for this report.
 
----
+The very high TxGNN score (99.37%) reflects knowledge-graph patterns, not experimental or clinical confirmation.
 
 ## Clinical Trial Evidence
 
-All eight trials were graded C (low relevance). They were matched to the disease (gastroparesis or a related feeding-intolerance setting), not to alanine.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01262898](https://clinicaltrials.gov/study/NCT01262898) | Phase 2 | Completed | 79 | Motilin agonist GSK962040 in diabetic gastroparesis; a different drug |
-| [NCT01934192](https://clinicaltrials.gov/study/NCT01934192) | Phase 2 | Terminated | 91 | GSK962040 for enteral feeding tolerance in critically ill patients; no alanine intervention |
-| [NCT01149369](https://clinicaltrials.gov/study/NCT01149369) | Phase 2 | Completed | 126 | Aprepitant for chronic nausea and vomiting of presumed gastric origin; a different drug |
-| [NCT03587142](https://clinicaltrials.gov/study/NCT03587142) | Phase 2 | Completed | 96 | Buspirone for early satiety in gastroparesis; a different drug |
-| [NCT03941288](https://clinicaltrials.gov/study/NCT03941288) | Phase 2 | Completed | 92 | Cannabidiol for gastroparesis and functional dyspepsia; a different drug |
-| [NCT01602549](https://clinicaltrials.gov/study/NCT01602549) | Phase 2 | Completed | 58 | GSK962040 and L-DOPA pharmacokinetics in Parkinson's disease with delayed gastric emptying |
-| [NCT02793154](https://clinicaltrials.gov/study/NCT02793154) | Phase 4 | Terminated | 4 | Albiglutide vs exenatide on gastric activity in type 2 diabetes; too small to be informative |
-| [NCT07270939](https://clinicaltrials.gov/study/NCT07270939) | NA | Not yet recruiting | 150 | Comparison of 18-, 20- and 24-hour enteral feeding cycles in ICU patients; a feeding schedule study |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-None of the retrieved publications studies alanine. They mention gastroparesis only in the context of other diseases, and their relevance assessment is still pending.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10926110](https://pubmed.ncbi.nlm.nih.gov/10926110/) | 2000 | Review | Adv Ren Replace Ther | Gastrointestinal and hepatic disorders in end-stage renal disease and transplant recipients; gastroparesis is more common in chronic renal failure |
-| [26315331](https://pubmed.ncbi.nlm.nih.gov/26315331/) | 2016 | Review | Diabet Med | Diabetic hepatosclerosis as a possible microvascular complication of diabetes |
-| [33763324](https://pubmed.ncbi.nlm.nih.gov/33763324/) | 2021 | Case report | Cureus | Glycogen hepatopathy in a type 1 diabetic patient whose history included gastroparesis |
+| [10926110](https://pubmed.ncbi.nlm.nih.gov/10926110/) | 2000 | Review | Advances in Renal Replacement Therapy | Reviews gastrointestinal and hepatic disorders in end-stage renal disease and transplant recipients; notes gastroparesis is more common in chronic renal failure. Does not involve alanine. |
+| [26315331](https://pubmed.ncbi.nlm.nih.gov/26315331/) | 2016 | Review | Diabetic Medicine | Describes diabetic hepatosclerosis as a possible microvascular complication of diabetes. Not directly related to gastroparesis or alanine. |
+| [33763324](https://pubmed.ncbi.nlm.nih.gov/33763324/) | 2021 | Review (case report) | Cureus | Case of glycogen hepatopathy in a type 1 diabetic patient whose history included gastroparesis. Not related to alanine treatment. |
 
----
+These publications mention gastroparesis only as a co-existing condition. None tests alanine for it.
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not recorded for these licences. Five of the 20 authorizations are shown.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02046709 | CLINIMIX | Not specified | Not specified |
+| 02013932 | CLINIMIX | Not specified | Not specified |
+| 02013940 | CLINIMIX | Not specified | Not specified |
+| 00872296 | TRAVASOL | Not specified | Not specified |
+| 02013886 | CLINIMIX | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02046709 | CLINIMIX |
-| 02013932 | CLINIMIX |
-| 02013940 | CLINIMIX |
-| 00872296 | TRAVASOL |
-| 02013886 | CLINIMIX |
-
----
+Twenty valid single-ingredient licenses are on record in total; the table shows the first five. Other products include Clinimix E, Essepna, 20% Prosol, Primene 10%, Olimel 5.7% and 7.6%, and SmofKabiven (electrolyte-free and extra-nitrogen versions).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged by the knowledge graph (not label text):** The TxGNN knowledge graph links alanine with contraindication edges for several conditions. These are model-derived associations and should be checked against the product monographs.
+  - Kidney conditions: kidney disease, chronic kidney disease, chronic renal failure syndrome, end-stage renal failure, acute urate nephropathy, nephrolithiasis, nephrocalcinosis
+  - Calcium and phosphorus disorders: hypercalcemia, humoral hypercalcemia of malignancy, sarcoidosis, phosphorus metabolism disease
+  - Cardiac conditions: heart disease, cardiovascular disease, ventricular fibrillation, digitalis poisoning
+  - Phenylalanine metabolism disorders: phenylketonuria and related disorders
+  - Other: pyoureter
 
----
+Notably, kidney disease is among the flagged conditions, and gastroparesis in these patients often co-occurs with renal failure, so this overlap deserves attention.
+
+Please refer to the package insert for label warnings and drug interaction information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a knowledge-graph score alone (Evidence Level L5). No retrieved trial or publication tests alanine for gastroparesis, and no plausible mechanism has been established.
+The prediction rests only on a knowledge-graph score. There are no registered clinical trials, no mechanistic rationale, and the retrieved literature does not examine alanine for gastroparesis. Product-label safety data are also missing.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example from DrugBank) and a rationale linking alanine to gastric motility or diabetic gastroparesis
-- Health Canada package insert warnings and contraindications, which are required before safety screening
-- Published or registered studies in which alanine or amino-acid nutrition is the intervention in gastroparesis
-- Approved indication text and dosage forms for the Canadian licences, to confirm route compatibility
+- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Mechanism of action data for alanine, for example from DrugBank
+- Targeted literature search for amino acid or nutritional interventions in gastroparesis
+- Approved indication text, dosage forms and routes for the Canadian products
+- Clarification of whether any plausible use (such as parenteral nutritional support in severe gastroparesis) differs from the existing approved use
+- Review of the knowledge-graph contraindications, especially renal and cardiac conditions, against the product labels
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

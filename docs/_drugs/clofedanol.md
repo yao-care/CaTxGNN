@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clofedanol
-parent: Model Prediction Only (L5)
-nav_order: 210
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 212
+evidence_level: L4
 indication_count: 7
 ---
 
 # Clofedanol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,35 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Clofedanol: From Cough to Nasal Cavity Disease
+# Clofedanol: From Allergic and Upper Respiratory Tract Conditions to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Clofedanol is a centrally acting antitussive (cough suppressant).
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are currently **0 clinical trials** and **0 publications** supporting this, so the prediction is model-only.
+Clofedanol was originally used for upper respiratory conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is largely a restatement of existing indications and rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Cough (antitussive use; the license record does not state an approved indication) |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (the Canadian licence has no indication text on file) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Clofedanol is a centrally acting cough suppressant. It is described as having weak antihistaminic and anticholinergic properties. Its efficacy in cough is the basis of its use, and mechanistically these secondary properties may be applicable to nasal symptoms.
+Currently, detailed mechanism of action data is not available. Based on known information, clofedanol is generally described as a centrally acting cough suppressant with antihistaminic and anticholinergic properties. This description is not confirmed by the data compiled for this report, so it should be treated as unverified.
 
-"Nasal cavity disease" is a broad, non-specific term, so the prediction is hard to interpret and cannot be verified from the supplied material. The link rests on the weak antihistamine and anticholinergic activity alone, which is speculative.
+Nasal cavity disease is a broad category that includes rhinitis, which is already among clofedanol's original indications (allergic rhinitis, vasomotor rhinitis and rhinitis). The high score therefore mostly reflects overlap with existing uses rather than a genuinely new therapeutic direction. The score is a computational prediction, not clinical evidence.
 
-The other predictions are weaker or more plausible in different ways:
-- **Acute laryngopharyngitis** (score 99.99%) is the most biologically plausible candidate. Cough suppression would relieve symptoms of upper airway irritation, but it would not modify the disease. It is best treated as a research question.
-- **Allergic urticaria, cold urticaria and papillary conjunctivitis** (scores 99.98% to 99.72%) depend on H1 antagonism, which is weak for clofedanol and unlikely to compete with established antihistamines.
-- **Faucial diphtheria and cervical disc degenerative disorder** (scores about 99.3%) have no plausible mechanistic link and are likely graph artifacts.
+Other predictions from the model are weaker. Acute laryngopharyngitis (99.99%) is anatomically close to the existing pharyngitis indication. Allergic urticaria (99.97%), papillary conjunctivitis (99.84%) and cold urticaria (99.78%) would depend on an antihistamine-like effect that has not been confirmed. Faucial diphtheria (99.33%) and cervical disc degenerative disorder (99.29%) have no credible mechanistic link and are probably graph artifacts. Diphtheria is a toxin-mediated bacterial infection that needs antitoxin and antibiotics. The cold urticaria score may also be inflated by the name similarity to "common cold".
 
 ## Clinical Trial Evidence
 
@@ -71,27 +69,35 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 1966294 | ULONE | — | — |
+| 01966294 | ULONE | Not specified | Not specified |
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried database.
+- **Contraindication signals from the knowledge graph** (these are graph-based associations, not label text): hypertension, coronary artery disease, myocardial infarction, ventricular tachycardia, atrioventricular block, diabetes mellitus and diabetic ketoacidosis, hyperthyroidism (Graves disease, thyrotoxicosis), angle-closure glaucoma and ocular hypertension, benign prostatic hyperplasia and bladder neck obstruction, peptic ulcer disease, pancreatitis, acidosis (including lactic acidosis), and hemoglobinopathy.
+- **Drug Interactions**: The interaction screening returned 100 interactions in total; the first 20 are listed in the data compiled for this report, all rated Moderate. They include central nervous system depressant and sedative combinations such as:
+  - Opioids: morphine, codeine, dihydrocodeine, fentanyl, alfentanil, tramadol, opium, diphenoxylate and difenoxin.
+  - Antihistamines: chlorpheniramine, promethazine, cetirizine and phenyltoloxamine.
+  - Cannabinoids: dronabinol and nabilone.
+  - Other agents: alprazolam, ethanol, metoclopramide, sibutramine and dichloralphenazone.
 
-Please refer to the package insert for warnings and contraindications.
+  Additive sedation is the likely concern, but the mechanism details were not included in the data.
+
+The Canadian package insert warnings and contraindications were not available, so please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no trials, no literature and no verifiable mechanism data (Evidence Level L5). The disease term is also too broad to act on. Among the seven predictions, acute laryngopharyngitis is the only one worth exploring as a symptom-relief research question.
+The prediction for nasal cavity disease overlaps with clofedanol's existing rhinitis indications and has no supporting trials or literature, so it is not a distinct repurposing signal. The other predicted indications are either speculative or implausible.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, to allow safety screening
-- Mechanism of action data (for example, from DrugBank)
-- The approved indication and dosage form for the ULONE license
-- A literature and trial search for clofedanol in upper airway conditions, especially acute laryngopharyngitis
-- A route-compatibility assessment for any candidate new indication
+- Health Canada package insert warnings and contraindications, which are currently a blocking gap for safety screening
+- Confirmed mechanism of action data (for example from DrugBank)
+- Approved indication text, dosage form and manufacturer for DIN 01966294
+- Clinical trial and literature searches for any indication that is genuinely new, such as allergic urticaria
+- Route and formulation compatibility assessment for any non-respiratory target, such as ocular use
+- Deprioritising faucial diphtheria and cervical disc degenerative disorder, which have no credible mechanistic link
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

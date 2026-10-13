@@ -2,7 +2,7 @@
 layout: default
 title: Moroctocog Alfa
 parent: Model Prediction Only (L5)
-nav_order: 626
+nav_order: 631
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Moroctocog Alfa: From Hemophilia A to Primary Release Disorder of Platelets
+# Moroctocog Alfa: From Hemophilia to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Moroctocog alfa is a B-domain-deleted recombinant factor VIII (marketed as XYNTHA), a coagulation factor replacement product. The license records in the Evidence Pack do not state the approved indication, so hemophilia A is inferred from the product class.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but only **6 loosely matched clinical trials** (all graded C, none testing this drug in this disease) and **0 publications** are linked, so the prediction is essentially model-only.
-
----
+Moroctocog alfa is a recombinant (B-domain deleted) factor VIII product, originally used to treat hemophilia, including the symptomatic form in female carriers.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but **no clinical trials and no publications** currently support this direction.
+The prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hemophilia A (inferred from product class; not stated in license records) |
+| Original Indication | Hemophilia; symptomatic form of hemophilia in female carriers |
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
@@ -50,73 +49,64 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 | Number of DINs | 6 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Based on known information, moroctocog alfa is a recombinant factor VIII that replaces a missing plasma coagulation factor. Its efficacy in hemophilia A is established, but that mechanism does not carry over to the predicted indication.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, moroctocog alfa is a recombinant factor VIII that replaces the missing clotting factor in hemophilia A, and its efficacy there is the basis for its marketed use.
 
-Primary release disorders of platelets are defects in platelet granule secretion, with normal FVIII activity. Supplying more FVIII does not correct a platelet function defect, so there is no plausible mechanistic link. The very high TxGNN score most likely reflects proximity in the knowledge graph through shared hemostasis nodes, not a therapeutic relationship.
+The predicted new indication is a primary platelet function defect, in which platelets fail to release their granule contents properly. Factor VIII activity in these patients is normally intact, so factor VIII replacement does not address the underlying defect. The very high TxGNN score (99.97%) most likely reflects shared bleeding-disorder associations in the knowledge graph rather than a true mechanistic rationale.
 
-The other predicted indications show the same pattern. Most are platelet or membrane defects (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, collagen receptor defect, constitutional thrombocytopenia) that FVIII replacement does not address. One is an unverifiable term ("flood factor deficiency") that needs ontology review. The only more plausible candidate is **acquired hemophilia A** within acquired coagulation factor deficiency (rank 4, L4). Human rFVIII is usually neutralized by the inhibitory autoantibodies there, so bypassing agents or porcine FVIII are used instead.
+**Other predictions considered (all L5, all Hold):**
 
----
+| Predicted Indication | TxGNN Score | Mechanistic Plausibility |
+|------|------|------|
+| Pseudo-von Willebrand disease | 99.97% | Weak. Platelet GPIbα gain-of-function defect. Factor VIII is carried by VWF, so there is an indirect link only. |
+| Glanzmann thrombasthenia | 99.96% | Weak. Integrin αIIbβ3 defect. Standard therapy is platelet transfusion or recombinant factor VIIa. |
+| Acquired coagulation factor deficiency | 99.88% | Most plausible. Factor VIII could in principle treat an acquired deficiency, but inhibitory autoantibodies (acquired hemophilia A) often neutralize it, and the category also includes deficiencies of other factors. |
+| Scott syndrome | 99.86% | Weak. Defective platelet phosphatidylserine exposure with normal factor VIII levels. |
+| Bleeding diathesis due to a collagen receptor defect | 99.73% | Weak. Platelet-intrinsic defect. |
+| Hemorrhagic disorder due to a constitutional thrombocytopenia | 99.72% | Weak. Bleeding stems from low platelet count, not factor VIII deficiency. |
+| "Flood factor deficiency" | 99.11% | Cannot be assessed. The term is not a recognized standard name and the entity needs clarification. |
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Phase 3 | Completed | 74 | Safety and efficacy of rFVIIIFc-VWF-XTEN (BIVV001) in children under 12 with severe hemophilia A. Not a platelet disorder population. |
-| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Phase 3 | Completed | 159 | BIVV001 prophylaxis in patients 12 and older with severe hemophilia A. No direct evidence for the predicted indication. |
-| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Phase 3 | Completed | 30 | PEGylated rFVIII (BAX 855) in hemophilia A patients undergoing surgery. Different product and disease. |
-| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | Not applicable | Recruiting | 25 | Artificial liver support (DPMAS plus plasma exchange) in acute-on-chronic liver failure, with effects on primary coagulation. Unrelated. |
-| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | Not applicable | Recruiting | 200 | Laboratory and symptom study in post-COVID-19-vaccination syndrome. Unrelated. |
-| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | Not applicable | Not yet recruiting | 80 | Observational coagulation profiling in newly diagnosed AML. Does not test moroctocog alfa. |
-
-All six trials were graded C for relevance. The registry matches appear to be keyword-driven. NCT07439939 (hemostasis exploration in TIPS patients, observational) is also linked but unrelated.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
-
-Six licenses are recorded, and five are listed below. Dosage form and approved indication text were not provided in the records.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2374072 | XYNTHA SOLOFUSE | — | — |
-| 2309491 | XYNTHA | — | — |
-| 2309483 | XYNTHA | — | — |
-| 2374099 | XYNTHA SOLOFUSE | — | — |
-| 2374080 | XYNTHA SOLOFUSE | — | — |
+| 02374072 | XYNTHA SOLOFUSE | Not specified | Not specified |
+| 02309491 | XYNTHA | Not specified | Not specified |
+| 02309483 | XYNTHA | Not specified | Not specified |
+| 02374099 | XYNTHA SOLOFUSE | Not specified | Not specified |
+| 02374080 | XYNTHA SOLOFUSE | Not specified | Not specified |
 
----
+A sixth license (DIN 02374064, XYNTHA SOLOFUSE) is also valid. All six licenses are single-ingredient products with valid status and none are cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+No drug interactions were found in the data compiled for this report, and no disease-specific contraindications were recorded from the knowledge graph.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-proximity signal alone. There is no mechanistic plausibility, no relevant clinical trial and no literature for primary release disorder of platelets, so the evidence level is L5.
+The prediction is supported only by a graph-based model score, with no clinical trials or publications. Primary platelet release disorder is a platelet-intrinsic defect with normal factor VIII activity, so there is no clear mechanistic reason for factor VIII replacement to help. Among the other predicted indications, acquired coagulation factor deficiency is the most plausible but still lacks any supporting evidence.
 
 **To proceed, the following is needed:**
-- Pull the Health Canada package insert (warnings, contraindications and approved indications) to complete safety screening.
-- Obtain mechanism of action data from DrugBank to support any mechanistic analysis.
-- Redirect attention to **acquired hemophilia A** (rank 4, L4, Research Question). It is the only more plausible candidate, but the support is indirect (other FVIII-class products such as porcine rFVIII) and inhibitor neutralization of human rFVIII is a major limitation.
-- Review the ontology for "flood factor deficiency" before any assessment.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank) to support a mechanistic-link analysis
+- Dosage form and approved indication text for the Canadian licenses
+- Clarification of the ambiguous "flood factor deficiency" entry
+- Any clinical or preclinical evidence for factor VIII in the predicted conditions, with priority on acquired coagulation factor deficiency
+- Route-of-administration compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Amantadine: From Established Marketed Use to Rasmussen Subacute Encephalitis
+# Amantadine: From Parkinson Disease to Rasmussen Subacute Encephalitis
 
 ## One-Sentence Summary
 
-Amantadine is a long-marketed drug with three Canadian product licences, but the Evidence Pack does not record its approved indications.
-The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**, but there are **0 clinical trials** and **0 publications** for this specific prediction, so it rests on the model score alone.
+Amantadine was originally used to treat Parkinson disease and related movement disorders.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
+but there are currently **no clinical trials** and **no publications** directly supporting this prediction, so it rests on model output alone.
 
 ---
 
@@ -42,9 +43,10 @@ The TxGNN model predicts it may be effective for **Rasmussen subacute encephalit
 
 | Item | Content |
 |------|------|
+| Original Indication | Parkinson disease (the Canadian license records compiled for this report contain no indication text, so this comes from the knowledge-graph indication list) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
@@ -53,9 +55,11 @@ The TxGNN model predicts it may be effective for **Rasmussen subacute encephalit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for amantadine is not available in the Evidence Pack. The only mechanistic information comes from the candidate's rationale: amantadine is a weak NMDA receptor antagonist.
+Currently, detailed mechanism of action data is not available. Based on known information, amantadine has an established role in Parkinson disease and other movement disorders (such as dystonia and parkinsonian syndromes), and it is generally described as an NMDA receptor antagonist with dopaminergic effects.
 
-Rasmussen encephalitis involves immune-mediated brain injury and glutamate excitotoxicity. Because glutamate signalling is part of the disease process, blocking NMDA receptors is conceivable in theory. This link is speculative. No trial or publication supports it, and the high TxGNN score (0.995) is a model output, not clinical evidence.
+Rasmussen encephalitis is a rare, immune-mediated brain disease that causes severe, treatment-resistant epilepsy. One plausible link is that blocking NMDA receptors could reduce glutamate-driven excitotoxicity, which is thought to contribute to neuronal injury in this condition. This is a hypothesis only. No clinical or literature data compiled for this report confirm it.
+
+For context, other predictions for amantadine were also reviewed. Of these, post-polio myelitis (fatigue studies) and PLA2G6-associated neurodegeneration (indirect evidence from a related disease, PKAN) have some supporting literature. Rasmussen encephalitis, the top-ranked prediction, has none.
 
 ---
 
@@ -73,19 +77,23 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Dosage forms below are inferred from the product names, because the licence records list no dosage form or approved indication text.
-
-| DIN | Product Name | Dosage Form |
-|---------|------|------|
-| 2538601 | ODAN-AMANTADINE SYRUP | Syrup |
-| 2022826 | PDP-AMANTADINE HYDROCHLORIDE SYRUP | Syrup |
-| 1990403 | PDP-AMANTADINE HYDROCHLORIDE CAPSULES | Capsule |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02538601 | ODAN-AMANTADINE SYRUP | Syrup (by product name) | Not available |
+| 02022826 | PDP-AMANTADINE HYDROCHLORIDE SYRUP | Syrup (by product name) | Not available |
+| 01990403 | PDP-AMANTADINE HYDROCHLORIDE CAPSULES | Capsule (by product name) | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the Evidence Pack.
+- **Contraindication signals from the knowledge graph (not label text):** multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, epilepsy, kidney disease, pyoureter, congestive heart failure, psychotic disorder, schizophreniform disorder, mental disorder, schizoaffective disorder, melanoma, angle-closure glaucoma, closed-angle glaucoma, substance-related disorder, substance abuse/dependence, atopic eczema and dermatitis. The listed **epilepsy** signal is especially relevant, because Rasmussen encephalitis presents with severe seizures.
+- **Drug Interactions:** 93 interactions were identified in total. Examples:
+  - **Major:** bupropion.
+  - **Moderate:** anticholinergic agents (atropine, scopolamine, hyoscyamine, glycopyrronium, dicyclomine, clidinium, propantheline, trospium, mepenzolate, methscopolamine), metoclopramide, polyethylene glycol (3350 with electrolytes), picosulfuric acid and sodium sulfate.
+  - **Unknown severity:** calcitriol, pantoprazole, glimepiride, doxycycline and metformin.
+
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -94,13 +102,14 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials and no literature behind it, and the mechanistic link is speculative. A high model score alone is not enough to justify moving forward.
+The prediction score is very high (99.48%), but there are no clinical trials or publications for Rasmussen encephalitis, and the mechanism of action data are missing. The knowledge graph also flags epilepsy as a contraindication signal, which needs careful review given the seizure-dominant nature of the target disease. At present this is a model hypothesis only.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings and contraindications), which is currently blocking safety screening
-- Mechanism of action data from DrugBank
-- Any clinical or preclinical evidence of amantadine, or NMDA antagonists, in Rasmussen encephalitis
-- A judgement on whether the third-ranked candidate, myelitis, is the better lead. It has a small placebo-controlled amantadine trial in post-polio fatigue (PMID 7611638), but that concerns a late sequela of poliomyelitis rather than inflammatory myelitis itself.
+- Mechanism of action data for amantadine (for example from DrugBank)
+- Health Canada package insert warnings and contraindications, which are blocking for safety screening
+- A targeted literature search for amantadine or NMDA antagonists in Rasmussen encephalitis and related immune-mediated epilepsies
+- Review of the epilepsy contraindication signal and the major interaction with bupropion
+- Preclinical or case-level evidence before considering any clinical study
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

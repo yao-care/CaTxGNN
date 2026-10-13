@@ -2,7 +2,7 @@
 layout: default
 title: Niraparib
 parent: Model Prediction Only (L5)
-nav_order: 649
+nav_order: 654
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Niraparib: From Ovarian Cancer to Epiglottis Neoplasm
+# Niraparib: From Ovarian and Peritoneal Cancer to Epiglottis Neoplasm
 
 ## One-Sentence Summary
 
-Niraparib is a PARP inhibitor used in oncology; the Evidence Pack identifies ovarian cancer as an already marketed setting. The TxGNN model predicts it may be effective for **epiglottis neoplasm**, but this is a knowledge-graph prediction only, with **0 clinical trials** and **0 publications** supporting it.
+Niraparib is a PARP inhibitor originally used for malignant epithelial tumours of the ovary and primary peritoneal carcinoma.
+The TxGNN model's top-ranked prediction is **Epiglottis Neoplasm**, but there are **0 clinical trials** and **0 publications** supporting it, so this is a model-only prediction.
+The most evidence-backed signal among the top 10 predictions is for **Cystic Neoplasm** (rank 2), which is supported by **3 clinical trials** and **10 publications**, all centred on serous gynaecological carcinomas. These are reported below as a secondary finding.
 
 ---
 
@@ -41,7 +43,7 @@ Niraparib is a PARP inhibitor used in oncology; the Evidence Pack identifies ova
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the supplied licence records (ovarian cancer is referenced as a marketed setting elsewhere in the pack) |
+| Original Indication | Malignant epithelial tumour of the ovary; primary peritoneal carcinoma (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Epiglottis neoplasm |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -53,33 +55,58 @@ Niraparib is a PARP inhibitor used in oncology; the Evidence Pack identifies ova
 
 ## Why is This Prediction Reasonable?
 
-Niraparib inhibits PARP1 and PARP2, enzymes involved in repairing damaged DNA. In tumours that cannot repair DNA through homologous recombination, blocking PARP is "synthetically lethal" and kills the cancer cells. This is the basis for its use in ovarian cancer.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, niraparib is a PARP1/2 inhibitor. It acts through synthetic lethality in tumours with homologous recombination deficiency (HRD), and its efficacy in ovarian and peritoneal cancers is established.
 
-For epiglottis neoplasm, no disease-specific rationale was provided. There is no biomarker data (such as homologous recombination deficiency or BRCA status), no preclinical work and no clinical evidence for this site. The high score comes only from the model's knowledge-graph patterns, so the prediction should be treated as a hypothesis rather than a finding.
+For epiglottis neoplasm, nothing in the compiled data supports this mechanism. The score of 99.99% comes from the knowledge-graph model alone. No trials, publications or similarity analysis with the original indications back it up. The prediction should therefore be treated as a hypothesis, not as evidence of benefit.
+
+The second-ranked prediction, cystic neoplasm, is more informative. This label is generic, and the supporting studies concern serous gynaecological carcinomas (endometrial serous carcinoma and high-grade serous ovarian carcinoma). These tumours share molecular features with ovarian cancer, such as chromosomal instability and frequent HRD. The link is therefore indirect and works through serous histology. The ovarian and peritoneal indications are already original indications, so the genuinely new signal is mainly endometrial serous carcinoma.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for epiglottis neoplasm (the primary prediction).
+
+For the rank 2 prediction (cystic neoplasm), the following trials were identified:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04716686](https://clinicaltrials.gov/study/NCT04716686) | Phase 2 | Recruiting | 83 | Niraparib monotherapy as maintenance and recurrent treatment in endometrial serous carcinoma. No results yet. |
+| [NCT04159155](https://clinicaltrials.gov/study/NCT04159155) | Phase 2/3 | Terminated | 11 | Canadian multi-arm, multi-stage trial of front-line and maintenance treatment in serous or p53-mutant endometrial cancer. Terminated early, so no interpretable efficacy data. |
+| [NCT05289648](https://clinicaltrials.gov/study/NCT05289648) | Early Phase 1 | Withdrawn | 0 | Preoperative niraparib in high-grade endometrial cancer. Withdrawn with no participants, so no data. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were found for epiglottis neoplasm.
+
+For the rank 2 prediction (cystic neoplasm), the most relevant publications are:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [40473279](https://pubmed.ncbi.nlm.nih.gov/40473279/) | 2025 | Study protocol (Phase 2) | BMJ Open | Protocol for niraparib maintenance in stage III/IV, chemo-naïve recurrent or platinum-sensitive recurrent uterine serous carcinoma. |
+| [42442041](https://pubmed.ncbi.nlm.nih.gov/42442041/) | 2026 | Cohort | Gynecologic Oncology | Real-world HRD testing in BRCA1/2 wild-type high-grade serous carcinoma, with MYC amplification explored as a surrogate marker. |
+| [41323499](https://pubmed.ncbi.nlm.nih.gov/41323499/) | 2025 | Cohort | Pathology Oncology Research | Comprehensive genomic profiling for HRD to guide PARP inhibitor recommendations in ovarian cancer. |
+| [42157333](https://pubmed.ncbi.nlm.nih.gov/42157333/) | 2026 | Cohort | Clinical Epigenetics | Nomogram based on HRR gene promoter methylation to predict PARP inhibitor efficacy in high-grade serous ovarian cancer. |
+| [31466953](https://pubmed.ncbi.nlm.nih.gov/31466953/) | 2019 | Case report | BMJ Case Reports | Niraparib maintenance therapy in a patient with ovarian cancer and brain metastases. |
+| [41520277](https://pubmed.ncbi.nlm.nih.gov/41520277/) | 2026 | Preclinical | Cancer Biology & Therapy | Carboplatin plus PARP inhibitor combination in high-grade serous carcinoma spheroids and organoids. |
+| [34321239](https://pubmed.ncbi.nlm.nih.gov/34321239/) | 2021 | Preclinical | Cancer Research | Loss of RAD51C promoter methylation causes PARP inhibitor resistance in high-grade serous ovarian carcinoma. |
+| [41465250](https://pubmed.ncbi.nlm.nih.gov/41465250/) | 2025 | Preclinical | International Journal of Molecular Sciences | Proteomic analysis of the poly-pharmacological effects of PARP inhibitors in high-grade serous ovarian cancer cells. |
+
+These publications concern serous gynaecological cancers and PARP inhibitor biomarkers. None addresses epiglottis neoplasm.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2530031 | ZEJULA |
-| 2538555 | AKEEGA |
-| 2538563 | AKEEGA |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02530031 | ZEJULA | Not specified | Not specified |
+| 02538555 | AKEEGA | Not specified | Not specified |
+| 02538563 | AKEEGA | Not specified | Not specified |
 
-Dosage forms and approved indication text were not included in the supplied records.
+All three licences are valid single-ingredient authorisations.
 
 ---
 
@@ -88,16 +115,18 @@ Dosage forms and approved indication text were not included in the supplied reco
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted therapy (PARP inhibitor) |
-| Myelosuppression Risk | Myelosuppression is a recognised concern for this drug class; please refer to the package insert warnings and precautions for specifics |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count is the usual baseline; please refer to the package insert for the full monitoring schedule |
+| Myelosuppression Risk | Medium to high. Haematological toxicity is expected with PARP inhibitors, and there is a risk of myelodysplastic syndrome or acute myeloid leukaemia. |
+| Emetogenicity Classification | Low to medium |
+| Monitoring Items | Complete blood count, blood pressure, liver and renal function |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were found for niraparib in the queried source.
+- **Drug Interactions**: 100 interactions were recorded in the interaction database. The sample reviewed includes two **Major** interactions, with deferiprone and samarium (153Sm) lexidronam. Most others are **Moderate**, and many involve drugs affecting bleeding or clotting, such as acetylsalicylic acid, apixaban, alteplase, abciximab, bivalirudin, cilostazol and dipyridamole. Radiopharmaceuticals such as iobenguane (I-131), tositumomab and strontium chloride Sr-89 are also listed, along with ibritumomab tiuxetan, rolapitant and palifermin.
+
+Warnings and contraindications from the Canadian package insert were not available for this report. Please refer to the package insert for these details.
 
 ---
 
@@ -106,13 +135,14 @@ Please refer to the package insert for safety information. No interaction record
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone, with no trials, no literature and no disease-specific mechanistic rationale for epiglottis neoplasm. The Health Canada safety information has also not yet been obtained.
+The top-ranked prediction, epiglottis neoplasm, rests on a graph-based score alone, with no trials or publications. For the ten predictions reviewed, only cystic neoplasm has supporting studies, and these are indirect (serous endometrial carcinoma). Most of that evidence is early or inconclusive: one Phase 2 trial is still recruiting, one was terminated early, and one was withdrawn. The remaining eight predictions, including the benign lesions, have no evidence, and the toxicity of a PARP inhibitor is hard to justify for them.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings, contraindications, interactions) to complete safety screening
-- Disease-specific evidence for epiglottis neoplasm, such as HRD/BRCA prevalence in head and neck tumours and preclinical data
-- Approved indication text and dosage forms for the three Canadian DINs
-- For comparison, the rank 2 prediction (cystic neoplasm, a proxy for serous carcinomas) has a Phase 2 trial in endometrial serous carcinoma (NCT04716686, recruiting, 83 participants) and a stronger rationale (evidence level L3). It may be a better candidate for further evaluation.
+- Canadian package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Results from NCT04716686 (endometrial serous carcinoma) before considering this as a research direction
+- Any biological or clinical rationale for epiglottis neoplasm, such as HRD prevalence or preclinical data
+- Approved indication text and dosage forms for the Canadian licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

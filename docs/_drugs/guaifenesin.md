@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Guaifenesin
-parent: Moderate Evidence (L3-L4)
-nav_order: 440
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 444
+evidence_level: L5
 indication_count: 5
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,81 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Guaifenesin: From Chest Congestion (Expectorant Use) to Nasal Cavity Disease
+# Guaifenesin: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Guaifenesin is a widely marketed over-the-counter expectorant, sold in Canada for mucus and chest congestion relief.
-The TxGNN model predicts it may be effective for **nasal cavity disease**,
-supported by **1 completed Phase 2 pilot trial** and **2 low-tier publications**.
+Guaifenesin is an expectorant that thins and loosens airway mucus. It has been used for upper-airway conditions such as allergic rhinitis, pharyngitis and the common cold.
+The TxGNN model predicts it may be effective for **nasal cavity disease**.
+Evidence is very limited: **no registered clinical trials** and **1 publication** (a 2002 review), so this remains a research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Expectorant use (mucus/chest congestion), inferred from product names because no indication text is listed |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (from the knowledge graph; no approved indication text in the Canadian licence records) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
+| Evidence Level | L5 (model prediction with no clinical studies; only one indirect review) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, guaifenesin is an expectorant thought to thin mucus and improve mucociliary clearance. It is proven in relieving chest congestion, and mechanistically it may be applicable to nasal cavity disease.
+Detailed mechanism-of-action data is not available for this report. Based on known information, guaifenesin is an expectorant that thins and loosens airway mucus. Its use in rhinitis and nasopharyngitis has been established, and mechanistically it may help with mucus-related nasal symptoms.
 
-Chest congestion and nasal or sinus conditions such as chronic rhinitis and sinusitis share the problem of thick, retained airway secretions. Thinning those secretions could plausibly ease nasal symptoms. This link is inferred from general knowledge, not from the supplied data. The very high TxGNN score is a computational prediction only.
+Nasal cavity disease is a broad category that includes the rhinitis conditions already listed as original indications. The very high TxGNN score (99.98%) probably reflects this overlap and is not an independent repurposing signal. In other words, the prediction is largely a restatement of existing uses rather than a new therapeutic discovery.
 
-The other four predicted indications have no supporting trials or literature. Acute laryngopharyngitis (99.98%) is plausible but unsupported. Faucial diphtheria, cervical disc degenerative disorder and papillary conjunctivitis have no credible mechanistic link and are likely knowledge-graph artifacts. This report focuses on the top-ranked prediction.
+The only supporting publication is a 2002 article on respiratory allergies in voice users. It mentions that decongestants containing guaifenesin may be useful, which is indirect support only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) | Phase 2 | Completed | 30 | 14-day randomized, placebo-controlled, masked trial of oral guaifenesin in children aged 7-18 with chronic rhinitis. It measured symptom relief (SN-5 survey), nasal airway volume and nasal secretion properties. No results are shown in the supplied data. |
-
-This is a small, pediatric-only pilot. The registry lists 30 participants, while the summary text mentions 36. Because outcomes are not available, it cannot be counted as a confirmed Phase 2 RCT.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9065342](https://pubmed.ncbi.nlm.nih.gov/9065342/) | 1997 | Review | Am J Rhinol | Management of sinusitis in adults with cystic fibrosis, based on 22 patients. Recommendations for management are proposed. |
-| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Review | Logoped Phoniatr Vocol | Treatment strategies for respiratory allergies in voice users. Decongestants containing guaifenesin may be useful. |
-
-Both publications are low-tier and give only indirect support.
+| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Review | Logopedics, Phoniatrics, Vocology | Treatment strategies for hidden respiratory allergies in voice users. Antihistamines are generally avoided, while decongestants containing guaifenesin may be useful. Steroids are helpful in perennial allergic symptoms. |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02121999 | BRONCHOPHAN EXPECTORANT (SANS SUCROSE) |
-| 02434725 | MUCINEX CHEST CONGESTION |
-| 02534762 | MUCUS & PHLEGM RELIEF EXTRA STRENGTH |
-| 02142783 | ROBITUSSIN EXTRA STRENGTH MUCUS AND PHLEGM |
-| 00609951 | BALMINIL EXPECTORANT (SUCROSE FREE) |
+All 20 licences are valid single-ingredient products. The data compiled for this report does not include dosage forms or approved indication text. The first five are listed below.
 
-Dosage form and approved indication text are not listed for these products in the supplied data. There are 20 DINs in total; the table shows 5.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02121999 | Bronchophan Expectorant (Sans Sucrose) | Not available | Not available |
+| 02434725 | Mucinex Chest Congestion | Not available | Not available |
+| 02534762 | Mucus & Phlegm Relief Extra Strength | Not available | Not available |
+| 02142783 | Robitussin Extra Strength Mucus and Phlegm | Not available | Not available |
+| 00609951 | Balminil Expectorant (Sucrose Free) | Not available | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings, contraindications and drug interaction data were not available for this report. Please refer to the package insert for safety information.
+
+The knowledge graph links guaifenesin to a list of contraindicated conditions. This is graph-derived and not label text, so it should be verified against the official label. The conditions include:
+- Cardiovascular: hypertension
+- Hepatic and gastrointestinal: liver failure, liver disease, cirrhosis, gastric ulcer, peptic ulcer disease, pancreatitis, gallbladder disease, inflammatory bowel disease
+- Respiratory: chronic obstructive pulmonary disease
+- Neuropsychiatric: epilepsy, insomnia, anxiety disorder, neurotic disorder, dysthymic disorder, psychotic disorder, schizophreniform disorder
+- Metabolic and endocrine: porphyria, hypothyroidism, myxedema, adrenocortical insufficiency (Addison disease)
+- Renal and haematological: kidney disease, thrombocytopenia
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Only one small pediatric Phase 2 pilot without reported results directly supports nasal cavity disease, and the literature is indirect. The mechanism is unverified, and the Health Canada safety and label information has not been reviewed. This is a research question, not yet a development candidate.
+The predicted indication largely overlaps with guaifenesin's existing rhinitis-related uses. There are no clinical trials, and the single publication is an indirect, low-tier review. The package insert safety review is also incomplete, so the candidate cannot move beyond the research-question stage.
 
 **To proceed, the following is needed:**
-- Results of NCT01364467 (efficacy and safety outcomes)
-- Health Canada package insert warnings and contraindications
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data (for example from DrugBank)
-- Approved indication text and dosage forms for the Canadian products
-- Adult-population evidence and a defined target condition (for example chronic rhinitis or sinusitis)
+- Clarification of which specific nasal cavity conditions are meant, beyond those already covered by existing indications
+- Controlled clinical evidence, or a targeted literature search, for the predicted indication
+- Dosage form, route and approved indication details for the Canadian products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

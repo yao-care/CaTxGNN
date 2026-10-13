@@ -2,7 +2,7 @@
 layout: default
 title: Butamben
 parent: Model Prediction Only (L5)
-nav_order: 138
+nav_order: 140
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Butamben: From Topical Local Anesthesia to Bronchitis
+# Butamben: From Dermatitis to Bronchitis
 
 ## One-Sentence Summary
 
-Butamben is a topical ester local anesthetic, marketed in Canada as a component of CETACAINE LIQUID. The TxGNN model predicts it may be effective for **bronchitis**, but this rests on the model score alone: there are **0 clinical trials** and **0 publications** supporting the direction. It is a model-only signal, and the recommendation is to hold.
+Butamben is a local anesthetic that was originally used for dermatitis-related symptoms.
+The TxGNN model predicts it may be effective for **bronchitis**,
+but **no clinical trials and no publications** currently support this direction. The prediction is computational only.
 
 ---
 
@@ -41,10 +43,10 @@ Butamben is a topical ester local anesthetic, marketed in Canada as a component 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the license record (butamben is a topical local anesthetic) |
+| Original Indication | Dermatitis (from the knowledge graph; no approved indication text in the Canadian license record) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -53,11 +55,11 @@ Butamben is a topical ester local anesthetic, marketed in Canada as a component 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, butamben is a topical ester local anesthetic that blocks voltage-gated sodium channels. Topical airway anesthesia could plausibly suppress the cough reflex.
+Detailed mechanism of action data is not currently available. Based on known information, butamben is an ester-type local anesthetic. Drugs of this class generally block voltage-gated sodium channels and reduce nerve signal conduction.
 
-This link is weak. Suppressing a reflex only relieves a symptom and does not treat bronchitis itself, which is an inflammatory or infectious airway disease. Butamben is also poorly water-soluble and used only topically, which limits any respiratory application. The high TxGNN score (99.79%) most likely reflects proximity in the knowledge graph rather than a demonstrated mechanism.
+A theoretical link to bronchitis could be the suppression of airway sensory nerve activity, which might dampen the cough reflex. However, this is a hypothesis only. Nothing in the data compiled for this report supports it. Bronchitis is mainly an inflammatory or infectious airway disease, and symptom relief from a topical anesthetic would not treat its cause.
 
-The nine other predictions for this drug show the same pattern. They include severe nonproliferative diabetic retinopathy, acrodermatitis chronica atrophicans, neonatal dermatomyositis, cauda equina syndrome and diabetic retinopathy. All have scores of 99.1–99.8%, no trials or literature, and no credible mechanistic link. The two diabetic retinopathy entries are related subtypes, so their scores reflect one repeated graph signal, not independent support.
+The high TxGNN score reflects network proximity in a knowledge graph. It is not proof of efficacy, and the similarity to the original indication has not yet been assessed. Route compatibility has also not been assessed.
 
 ---
 
@@ -77,15 +79,34 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2028867 | CETACAINE LIQUID | Not listed | Not listed |
+| 02028867 | CETACAINE LIQUID | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for butamben.
+- **Contraindication signals from the knowledge graph (not label text)**: epilepsy, sudden cardiac arrest, heart conduction disease, respiratory failure. These are model-derived signals and need confirmation against the product label.
+- **Drug Interactions**: No interaction records were found in the query.
 
-The following concern comes from the prediction rationale, not from a package insert. Local anesthetics of the para-aminobenzoate ester class carry risks of methemoglobinemia and hypersensitivity, which would matter in any pediatric use.
+Please refer to the package insert for complete warnings and contraindications.
+
+---
+
+## Other Predicted Indications (All Evidence Level L5, Hold)
+
+None of the following has any registered clinical trial or publication:
+
+| Rank | Predicted Indication | Score | Comment |
+|------|------|------|------|
+| 2 | Severe nonproliferative diabetic retinopathy | 99.74% | No clear mechanistic link |
+| 3 | Acrodermatitis chronica atrophicans | 99.59% | Requires antibiotic therapy; weak link |
+| 4 | Neonatal dermatomyositis | 99.57% | Neonatal systemic absorption and methemoglobinemia concerns |
+| 5 | Secondary childhood interstitial lung disease (connective tissue disease) | 99.51% | Likely a network artifact |
+| 6 | Amyopathic dermatomyositis | 99.48% | At most symptomatic relief |
+| 7 | Acne keloid | 99.47% | At most pain or itch relief |
+| 8 | Cauda equina syndrome | 99.46% | Neuraxial anesthetic exposure is itself a recognized cause of injury; safety concern |
+| 9 | Familial hydroa vacciniforme | 99.45% | No plausible mechanism |
+| 10 | Diabetic retinopathy | 99.14% | Likely a model artifact |
 
 ---
 
@@ -94,13 +115,14 @@ The following concern comes from the prediction rationale, not from a package in
 **Decision: Hold**
 
 **Rationale:**
-The bronchitis prediction is supported only by the TxGNN score (Evidence Level L5). No trials or publications exist, and the plausible mechanism (cough suppression) would relieve a symptom without treating the disease. Butamben's topical-only use and poor water solubility further limit any respiratory application.
+The prediction rests only on a computational score. There are no clinical trials or publications, and the mechanism of action is unavailable. The safety review is also blocked because the package insert data has not been obtained.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Package insert warnings and contraindications from Health Canada (currently blocking safety screening)
 - Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking butamben to airway inflammation or bronchitis
-- An assessment of whether an airway-compatible route or formulation exists
+- Confirmation of the approved indication, dosage form and route of administration for CETACAINE LIQUID
+- A literature and trial search for butamben in airway or cough indications
+- An assessment of route compatibility between the marketed product and the proposed new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

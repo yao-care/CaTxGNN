@@ -2,7 +2,7 @@
 layout: default
 title: Valproic Acid
 parent: Model Prediction Only (L5)
-nav_order: 956
+nav_order: 963
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,8 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Valproic acid is an established antiseizure medication, and the Canadian license records supplied here do not state an approved indication.
-The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are currently **0 clinical trials** and **1 publication** (which does not address this tumour type), so the prediction rests on the model alone.
+Valproic acid is an established antiseizure medicine, used for epilepsy (including absence epilepsy) and for the manic phase of bipolar disorder.
+The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are **0 registered clinical trials** and only **1 publication**, a 1997 case series on a different condition (Sturge-Weber syndrome). Evidence for this prediction is effectively absent.
 
 ---
 
@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (the general approved use of this drug class; the Canadian license records supplied contain no indication text) |
+| Original Indication | Epilepsy; manic bipolar affective disorder; absence epilepsy (from the TxGNN knowledge graph, as no approved-indication text was available for the Canadian licences) |
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
@@ -54,11 +54,9 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, valproic acid is a widely used antiseizure drug. Its effect in epilepsy is established, and the one mechanism that could theoretically apply to tumours is histone deacetylase (HDAC) inhibition.
+Currently, detailed mechanism of action data is not available for this report. Based on general knowledge, valproic acid is a broad-spectrum antiseizure drug with proven efficacy in epilepsy. It is thought to act by enhancing GABA-mediated inhibition and modulating ion channels. It is also known to inhibit histone deacetylases (HDACs), which has prompted interest in possible antineoplastic effects. This has mainly been discussed in glioma.
 
-The evidence review found no credible mechanistic link between valproic acid and trigeminal nerve tumours. The score of 99.97% is a model output only. The one paper retrieved concerns Sturge-Weber syndrome, a neurocutaneous vascular disorder, not a trigeminal neoplasm. The relationship between epilepsy treatment and this tumour indication is therefore unsupported by the data provided.
-
-Other predictions for this drug have much stronger support, for example trigeminal neuralgia and several reflex epilepsies (reading seizures, startle epilepsy). These are more plausible repurposing directions than the tumour indication.
+The link to a trigeminal nerve neoplasm is speculative. The only retrieved paper concerns Sturge-Weber syndrome, a neurocutaneous vascular disorder, not a tumour of the trigeminal nerve. The HDAC-inhibition argument has not been demonstrated for trigeminal tumours. In practice, any benefit would most plausibly be limited to controlling seizures that accompany a brain or nerve tumour, not to treating the tumour itself. The very high model score is therefore not supported by clinical data.
 
 ---
 
@@ -72,11 +70,13 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | Anales espanoles de pediatria | Review of 14 Sturge-Weber syndrome cases over 25 years (clinical features, course, treatment response). It is not about trigeminal nerve neoplasm and offers no efficacy evidence. |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | Anales españoles de pediatría | Review of 14 Sturge-Weber syndrome cases over 25 years, covering clinical characteristics, evolution and treatment response. It does not address trigeminal nerve neoplasm. |
 
 ---
 
 ## Canada Market Information
+
+Sixteen valid single-ingredient licences are on record. The main ones are listed below. Dosage form and approved-indication text were not available.
 
 | DIN | Product Name |
 |---------|------|
@@ -84,15 +84,21 @@ Currently no related clinical trials registered.
 | 02458926 | MYLAN-DIVALPROEX |
 | 00596418 | EPIVAL |
 | 02236807 | PMS-VALPROIC ACID |
-| 02458934 | MYLAN-DIVALPROEX |
-
-Dosage form and approved indication text were not provided in the license records, so these columns are omitted. The DINs above are as supplied (leading zeros restored).
+| 00443832 | DEPAKENE |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available for this report. The following information comes from other sources.
+
+- **Contraindication signals (knowledge graph, not label text)**: The TxGNN knowledge graph links valproic acid with the following conditions as contraindications: liver disease, pancreatitis, kidney disease, thrombocytopenia, hematologic disease, gallbladder disease, inherited porphyria and other porphyrin metabolism disorders, urea cycle disorders (carbamoyl phosphate synthetase I deficiency, citrullinemia, hyperargininemia), cognitive disorder, anxiety disorder, neurotic disorder, dysthymic disorder, and pyoureter.
+- **Drug interactions**: The interaction screening returned 100 interacting drugs, and the first 20 were reviewed.
+  - **Major**: glycerol phenylbutyrate.
+  - **Moderate**: bupropion, morphine (including liposomal), acetylsalicylic acid, clarithromycin, difenoxin, diphenoxylate, activated charcoal, dronabinol, metoclopramide, nabilone.
+  - **Minor**: cimetidine, esomeprazole, and several antacids (magnesium oxide, magnesium carbonate, magnesium hydroxide, aluminum hydroxide, calcium carbonate, magaldrate).
+
+Please refer to the package insert for full safety information.
 
 ---
 
@@ -101,14 +107,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (Evidence Level L5). There are no registered trials, and the single publication retrieved is unrelated to trigeminal nerve tumours. No credible mechanism links valproic acid to this indication.
+The prediction rests on model output alone. There are no registered trials, and the single retrieved paper is unrelated to trigeminal nerve tumours. Any antineoplastic rationale is speculative, so there is no basis to advance this indication.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data for valproic acid, including any HDAC-inhibition evidence in nervous-system tumours
-- Preclinical or clinical studies specifically in trigeminal nerve or related cranial nerve tumours
-- Approved indication text for the Canadian licenses, to confirm the original indication
-- Consider prioritising better-supported predictions for this drug (such as trigeminal neuralgia and reading seizures) over this one
+- Mechanism of action data (MOA) and a documented rationale for activity in trigeminal nerve tumours
+- Preclinical or clinical studies specific to this tumour type
+- Health Canada package insert warnings and contraindications, which are required for safety screening
+
+**Note on other predictions for this drug:** The data compiled for this report also includes other predicted indications that are far better supported. The strongest is **visual epilepsy**, with evidence level L1 and a "Proceed with Guardrails" recommendation. It rests on the childhood absence epilepsy RCT and on guideline-level reviews, and is closer to an extension of the existing indication than to true repurposing. If a repurposing candidate is needed for this drug, that indication is a better starting point than trigeminal nerve neoplasm.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

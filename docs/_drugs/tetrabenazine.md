@@ -2,7 +2,7 @@
 layout: default
 title: Tetrabenazine
 parent: Model Prediction Only (L5)
-nav_order: 894
+nav_order: 901
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tetrabenazine: From Huntington's Disease Chorea to Polycystic Kidney Disease 3 with or without Polycystic Liver Disease
+# Tetrabenazine: From Huntington Disease to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
 
 ## One-Sentence Summary
 
-Tetrabenazine is a monoamine-depleting drug marketed in Canada, and it is used to reduce chorea in Huntington's disease. The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease** (score 99.90%). However, there are **0 clinical trials** and **20 publications**, and none of the publications mention tetrabenazine, so this is a model-only prediction.
+Tetrabenazine is a drug originally used to treat movement disorders such as Huntington disease.
+The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**,
+but this is a model prediction only: **0 clinical trials** and **0 publications** currently support this direction.
 
 ---
 
@@ -41,7 +43,7 @@ Tetrabenazine is a monoamine-depleting drug marketed in Canada, and it is used t
 
 | Item | Content |
 |------|------|
-| Original Indication | Chorea in Huntington's disease (inferred from the drug's linked trial record; the Canadian license records carry no indication text) |
+| Original Indication | Huntington disease (Health Canada indication text is not available; taken from the knowledge-graph indication list) |
 | Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
@@ -53,11 +55,11 @@ Tetrabenazine is a monoamine-depleting drug marketed in Canada, and it is used t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Tetrabenazine is a reversible VMAT2 inhibitor that depletes presynaptic monoamines in the central nervous system, which is why it is used for hyperkinetic movement disorders.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Tetrabenazine is generally known as a reversible VMAT2 inhibitor that depletes monoamines in the central nervous system. This is general pharmacology and not drawn from the compiled data. Its use has been established in hyperkinetic movement disorders, including Huntington disease and related syndromes.
 
-The predicted disease is a genetic disorder of cyst formation. It involves defective polycystin-1 maturation (GANAB-related) and produces kidney and liver cysts. I could not identify a plausible link between VMAT2 inhibition and this process.
+No mechanistic link to the predicted indication has been established. Polycystic kidney and liver disease is a disorder of cyst formation linked to ciliary dysfunction. Nothing in the available data connects monoamine depletion through VMAT2 inhibition to this pathology. The high TxGNN score (99.90%) reflects a computational prediction from the knowledge graph and has not been corroborated by any trial or publication.
 
-All 20 retrieved papers cover the disease itself: guidelines, genetics and reviews. None mention tetrabenazine. The high score (0.999) reflects a graph-based association without supporting biology, so it should be treated as a hypothesis-generating signal only.
+Other top-ranked predictions show the same pattern. They include renal-hepatic-pancreatic dysplasia, Joubert syndrome with renal defect, karyomegalic interstitial nephritis, and acute intermittent porphyria. All are L5 (model prediction only) with no plausible mechanistic link identified.
 
 ---
 
@@ -69,36 +71,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The papers below describe the disease and its management. None study tetrabenazine, and none are RCTs. Study types come from the pack's classification; papers it left unclassified are labelled from their titles and abstracts.
+Currently no related literature available for the top predicted indication.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38958301](https://pubmed.ncbi.nlm.nih.gov/38958301/) | 2024 | Guideline | Am J Gastroenterol | ACG guideline on focal liver lesions, including hepatic cystic lesions and polycystic liver disease |
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Guideline | J Hepatol | EASL guidelines on diagnosis and management of cystic liver diseases, including polycystic liver disease |
-| [30819518](https://pubmed.ncbi.nlm.nih.gov/30819518/) | 2019 | Review | Lancet | ADPKD as a systemic disorder, with liver cysts among its extrarenal complications |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clin Liver Dis | Polycystic liver disease as the most common extrarenal manifestation of ADPKD; tolvaptan can slow renal decline |
-| [29038287](https://pubmed.ncbi.nlm.nih.gov/29038287/) | 2018 | Review | J Am Soc Nephrol | Genetic overlap between ADPKD and polycystic liver disease, including GANAB |
-| [38097330](https://pubmed.ncbi.nlm.nih.gov/38097330/) | 2023 | Review | Adv Kidney Dis Health | Genetic spectrum of polycystic kidney and liver diseases; defective primary cilia function is central |
-| [34724412](https://pubmed.ncbi.nlm.nih.gov/34724412/) | 2022 | Review | Annu Rev Pathol | Mechanisms of hepatic cystogenesis and advances in treatment |
-| [36200122](https://pubmed.ncbi.nlm.nih.gov/36200122/) | 2022 | Review | Hepat Med | Pathophysiology, diagnosis and treatment of polycystic liver disease |
-| [28375157](https://pubmed.ncbi.nlm.nih.gov/28375157/) | 2017 | Basic/genetic study | J Clin Invest | Exome sequencing identifies new isolated polycystic liver disease genes and polycystin-1 effectors |
-| [40296340](https://pubmed.ncbi.nlm.nih.gov/40296340/) | 2025 | Retrospective case series | Ann Transplant | Outcomes of organ transplantation in 9 patients with polycystic liver and kidney disease |
+For reference, the fifth-ranked prediction (thoracic malformation) retrieved one case report, PMID [11293103](https://pubmed.ncbi.nlm.nih.gov/11293103/) (2001, *Revista de neurologia*), on spasmodic torticollis with vertebral hemangioma. It is tangential and does not show that tetrabenazine treats the predicted condition.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2402424 | PMS-TETRABENAZINE |
-| 2407590 | APO-TETRABENAZINE |
-| 2199270 | NITOMAN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02402424 | PMS-TETRABENAZINE | Not specified | Not specified |
+| 02407590 | APO-TETRABENAZINE | Not specified | Not specified |
+| 02199270 | NITOMAN | Not specified | Not specified |
+
+All three products are valid single-ingredient authorizations; none is cancelled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph associations, not label text)**: The knowledge graph links tetrabenazine with contraindications in the following conditions:
+  - Cardiovascular and rhythm: long QT syndrome (including familial), torsades de pointes, orthostatic hypotension, postural orthostatic tachycardia syndrome, hypotensive disorder, multiple system atrophy
+  - Psychiatric: anxiety disorder, neurotic disorder, dysthymic disorder
+  - Movement: Parkinson disease, parkinsonian disorder, tardive dyskinesia, lingual-facial-buccal dyskinesia, drug-induced akathisia
+  - Hepatic and biliary: liver disease, gallbladder disease
+  - Endocrine: hyperprolactinemia (including familial and acquired forms) and prolactin-producing pituitary tumour
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs in total (20 shown in the compiled data). Major-level interactions include:
+  - Bupropion
+  - Dolasetron
+  - Metoclopramide
+
+  Moderate-level interactions include famotidine, loperamide, morphine, lorcaserin, clarithromycin, levofloxacin, palonosetron, dronabinol, nabilone, eliglustat and several laxatives or bowel preparations. Metronidazole is minor. The QT-related and CNS-active entries deserve particular attention given the long QT contraindication.
+
+Package insert warnings and contraindications from Health Canada were not available. Please refer to the package insert for full safety information.
 
 ---
 
@@ -107,13 +113,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-model score. There are no clinical trials, no publications mentioning tetrabenazine, and no identified mechanistic link between VMAT2 inhibition and polycystin-related cyst formation. The other nine predicted indications are also model-only (L5) with no mechanistic link; the one trial attached to any of them studies tetrabenazine in Huntington's disease.
+The prediction rests only on a computational score. There are no clinical trials or relevant publications, and no mechanistic link between VMAT2 inhibition and cyst-forming ciliopathies. The knowledge-graph contraindications, including liver disease, also raise caution in a population with hepatic involvement.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism-of-action data, for example from DrugBank
-- A preclinical or mechanistic rationale connecting monoamine depletion to cyst formation, such as in vitro or animal cyst models
-- Safety data for tetrabenazine in patients with renal or hepatic impairment, who would be the target population
+- Mechanism of action data (for example from DrugBank) and an analysis of any plausible link to polycystic kidney/liver disease pathways
+- Health Canada package insert warnings and contraindications for safety screening
+- Preclinical evidence (cell or animal models of polycystic kidney disease) before any clinical consideration
+- A review of the other ranked predictions, none of which currently has supporting evidence either
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Rabeprazole
 parent: Model Prediction Only (L5)
-nav_order: 781
+nav_order: 788
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,86 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Rabeprazole: From Acid-Related Gastric Conditions to Smouldering Systemic Mastocytosis
+# Rabeprazole: From Peptic Ulcer Disease and Gastroesophageal Reflux Disease to Smouldering Systemic Mastocytosis
 
 ## One-Sentence Summary
 
-Rabeprazole is a proton pump inhibitor that suppresses stomach acid. It is generally used for acid-related conditions, although the Canadian licence records provided list no indication text.
-The TxGNN model predicts it may be effective for **Smouldering Systemic Mastocytosis**, but currently **0 clinical trials** and **0 publications** support this direction. This is a model prediction only.
-
----
+Rabeprazole is a proton pump inhibitor originally used for peptic ulcer disease, gastroesophageal reflux disease and related acid-related conditions.
+The TxGNN model predicts it may be effective for **Smouldering systemic mastocytosis**,
+but at present there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence data. Generally acid-related gastric conditions (general drug-class knowledge) |
+| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (the Canadian licence records contain no indication text, so this list comes from the knowledge graph) |
 | Predicted New Indication | Smouldering systemic mastocytosis |
 | TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 8 |
 | Recommended Decision | Hold |
 
-A second predicted indication, lymphoadenopathic mastocytosis with eosinophilia (score 99.35%), is also at L5 with a Hold recommendation.
-
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied records. Rabeprazole belongs to the proton pump inhibitor class, which blocks the H+/K+ ATPase in the stomach lining and reduces acid secretion. Its efficacy in acid-related conditions is well established, and mechanistically it may offer indirect benefit in mastocytosis.
+Currently, detailed mechanism of action data is not available. Based on known information, rabeprazole is a proton pump inhibitor that suppresses gastric acid secretion. Its efficacy in acid-related disease is established, and it may plausibly help with symptoms in mastocytosis.
 
-In systemic mastocytosis, abnormal mast cells release mediators such as histamine. This can drive excess stomach acid and gastrointestinal symptoms such as reflux, abdominal pain, and ulcers. Suppressing acid could therefore relieve some of these symptoms.
+In systemic mastocytosis, mast cells release mediators such as histamine, which can drive gastric acid hypersecretion, peptic disease and reflux. Acid suppression could therefore relieve these upper gastrointestinal symptoms. This would be symptomatic management only. Nothing in the data compiled for this report suggests any effect on the underlying clonal mast cell disease (for example KIT D816V-driven proliferation) in the smouldering subtype.
 
-This link is **symptomatic only**. Rabeprazole would not be expected to act on the underlying clonal mast cell disease (for example, KIT-driven proliferation). The same reasoning applies to the second prediction, lymphoadenopathic mastocytosis with eosinophilia: there is no evidence of an effect on lymph node enlargement, eosinophilia, or disease biology. The high TxGNN scores should be read as hypotheses, not clinical corroboration.
+The knowledge graph already lists systemic mastocytosis and mastocytosis among rabeprazole's original indications. The high score may therefore reflect an existing association rather than a new repurposing signal, which limits the independent value of this prediction.
 
----
+A second prediction, lymphoadenopathic mastocytosis with eosinophilia (score 99.35%), has the same limitations: no trials, no literature, and likely reflects the related mastocytosis indications already listed.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
-
-Five of the eight authorizations are listed below. Dosage form and approved indication text are not provided in the records.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2385449 | RABEPRAZOLE | — | — |
-| 2356538 | RABEPRAZOLE EC | — | — |
-| 2385457 | RABEPRAZOLE | — | — |
-| 2314177 | SANDOZ RABEPRAZOLE | — | — |
-| 2356511 | RABEPRAZOLE EC | — | — |
+| 02385449 | RABEPRAZOLE | Not specified | Not specified |
+| 02356538 | RABEPRAZOLE EC | Not specified | Not specified |
+| 02385457 | RABEPRAZOLE | Not specified | Not specified |
+| 02314177 | SANDOZ RABEPRAZOLE | Not specified | Not specified |
+| 02356511 | RABEPRAZOLE EC | Not specified | Not specified |
 
----
+Eight valid single-ingredient licences are listed in total (including PARIET 10 mg and 20 mg enteric-coated tablets, and a second SANDOZ RABEPRAZOLE); only the first five are shown.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the queried data.
+- **Disease-level contraindication signals (knowledge graph, not label text)**: liver disease, gallbladder disease, osteoporosis, postmenopausal osteoporosis, bone fracture.
+- **Drug Interactions**: 100 interactions were identified in the database queried. Among those reviewed, the main ones are:
+  - **Major**: acalabrutinib, atazanavir
+  - **Moderate**: for example aminoglycosides (amikacin), amphotericin B formulations, amphetamine, apalutamide, aprepitant, armodafinil, bosutinib, thiazide diuretics (bendroflumethiazide, benzthiazide), anisindione
+  - **Minor**: acetylsalicylic acid, axitinib
 
----
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on the TxGNN model score. There are no registered trials or publications, and the plausible mechanism is limited to symptomatic acid suppression. It would not treat the underlying mast cell disease.
+The prediction has a high model score but no supporting clinical trials or literature (Evidence Level L5). Any plausible benefit is symptomatic control of acid-related symptoms, not treatment of the underlying disease. The prediction may also simply reflect mastocytosis indications already associated with the drug.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are required before any safety screening
-- Detailed mechanism of action data (for example, from DrugBank)
-- A targeted literature and trial search on proton pump inhibitors in mastocytosis, particularly for GI symptom control
-- Approved indication text and dosage forms for the Canadian DINs
-- Clinical validation, since the candidate is currently for research reference only and not medical advice
+- Package insert warnings and contraindications from Health Canada (currently a blocking gap for safety screening)
+- Mechanism of action data for rabeprazole
+- Literature and trial searches on proton pump inhibitors for symptom control in systemic mastocytosis, including the smouldering subtype
+- Clarification of whether mastocytosis is already an established indication, to separate genuine repurposing from existing use
+- Review of the long-term safety signals (bone fracture, osteoporosis, liver disease) in the intended mastocytosis population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

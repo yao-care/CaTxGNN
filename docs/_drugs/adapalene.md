@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Adapalene is a topical synthetic retinoid, used mainly for acne.
+Adapalene is a topical retinoid originally used to treat acne.
 The TxGNN model predicts it may be effective for **elevated plasma zinc**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction rests on the model score alone and should be treated as a low-confidence signal.
+The prediction rests on the model alone and has no biological or clinical support in the data compiled for this report.
 
 ---
 
@@ -43,7 +43,7 @@ The prediction rests on the model score alone and should be treated as a low-con
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne (topical retinoid); the Canadian licence records provide no indication text |
+| Original Indication | Acne (from the knowledge graph; no approved indication text is available in the Canadian licence records) |
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L5 |
@@ -55,11 +55,11 @@ The prediction rests on the model score alone and should be treated as a low-con
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Adapalene is known as a selective retinoic acid receptor (RAR-beta/gamma) agonist applied to the skin, with minimal systemic absorption. Its efficacy in acne is established, but the source data lists no original indications, so the prediction cannot be checked against documented pharmacology.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, adapalene is a topical retinoid that selectively binds retinoic acid receptors (RAR-beta and RAR-gamma). It modulates keratinocyte differentiation and inflammation, which explains its use in acne.
 
-A link between retinoid signaling and zinc handling is conceivable in a knowledge graph, for example through retinol-binding protein or metallothionein pathways. This is speculative, and it is unlikely to matter at the low blood exposure that topical use produces.
+**The prediction is not well supported mechanistically.** Elevated plasma zinc (hyperzincemia) is a biochemical state. It is typically caused by excess zinc intake, certain genetic variants, or altered zinc-binding protein levels. No known pathway connects RAR signalling to systemic zinc homeostasis in a way that would support therapeutic use.
 
-The very high score (0.995) is most likely a knowledge-graph artifact. "Elevated plasma zinc" is a laboratory finding or biochemical phenotype, not a treatable disease. It has no clear therapeutic goal or clinical endpoint, so the prediction is hard to translate into a real treatment use.
+The very high TxGNN score (99.51%) is a knowledge-graph prediction. It likely reflects network proximity, such as shared zinc-related or retinoid-related gene or protein associations, rather than biological or clinical validity. Adapalene is also applied topically with low systemic absorption, so effects on plasma zinc are improbable. Elevated plasma zinc is also a laboratory finding rather than a typical treatment target, which further weakens the rationale.
 
 ---
 
@@ -77,21 +77,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02148749 | DIFFERIN |
-| 02274000 | DIFFERIN XP |
-| 02231592 | DIFFERIN |
-| 02517205 | SANDOZ ADAPALENE / BENZOYL PEROXIDE FORTE |
-| 02456923 | TARO-ADAPALENE/BENZOYL PEROXIDE |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02148749 | DIFFERIN | Not specified | Not specified |
+| 02274000 | DIFFERIN XP | Not specified | Not specified |
+| 02231592 | DIFFERIN | Not specified | Not specified |
+| 02517205 | SANDOZ ADAPALENE / BENZOYL PEROXIDE FORTE | Not specified | Not specified |
+| 02456923 | TARO-ADAPALENE/BENZOYL PEROXIDE | Not specified | Not specified |
 
-Ten licences are recorded in total; the five main ones are listed above. Dosage form and approved indication text were not supplied in the source data.
+A total of 10 valid single-ingredient licences are listed; the table shows the first 5.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (these come from the TxGNN knowledge graph, not from product label text): photoparoxysmal response, photosensitivity disease, exfoliative dermatitis, and dermatitis.
+- **Drug Interactions**: The interaction screen returned 58 records, all with an unclassified severity level. Examples include doxycycline, minocycline, tetracycline, metronidazole, prednisone, triamcinolone, budesonide, clopidogrel, bupropion, ibuprofen, fluconazole, and several proton pump inhibitors (omeprazole, pantoprazole, rabeprazole). Clinical significance has not been graded, so these should be reviewed before any use.
+
+Please refer to the package insert for warnings and contraindications from the label.
 
 ---
 
@@ -100,14 +103,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials or publications. The predicted "indication" is a laboratory finding rather than a disease, and no plausible mechanism links topical adapalene to plasma zinc. The evidence does not justify further investment at this stage.
+The prediction has no supporting clinical trials or literature (evidence level L5), and no plausible mechanistic link exists between retinoid receptor signalling and plasma zinc levels. Low systemic absorption after topical use makes a systemic effect on zinc even less likely. The high model score alone does not justify further investment.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently blocking safety screening)
-- Mechanism of action data from DrugBank
-- A clinically meaningful target disease or endpoint in place of "elevated plasma zinc"
-- Any human or preclinical data linking retinoid signaling to zinc homeostasis
-- Confirmation that systemic exposure from topical use is relevant to the proposed effect
+- Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- A credible biological hypothesis linking RAR signalling to zinc homeostasis, plus any supporting preclinical or observational data
+- Clarification of whether elevated plasma zinc is a meaningful treatment target, given that it is a laboratory finding
+- Assessment of route compatibility between topical adapalene and a systemic indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

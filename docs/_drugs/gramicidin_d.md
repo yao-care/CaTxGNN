@@ -2,7 +2,7 @@
 layout: default
 title: Gramicidin D
 parent: Model Prediction Only (L5)
-nav_order: 437
+nav_order: 441
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gramicidin D: From Topical Antibacterial Use to Postinfectious Vasculitis
+# Gramicidin D: From Conjunctivitis to Postinfectious Vasculitis
 
 ## One-Sentence Summary
 
-Gramicidin D is a topical antibacterial peptide used in Canadian products such as antibiotic creams and eye and ear drops. The TxGNN model predicts it may be effective for **postinfectious vasculitis**, but this prediction has **no clinical trials and no publications** behind it. It rests on model output alone.
-
----
+Gramicidin D is a topical peptide antibiotic originally used for conjunctivitis, acute contagious conjunctivitis and blepharoconjunctivitis.
+The TxGNN model predicts it may be effective for **postinfectious vasculitis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+The more biologically plausible predictions in the list are **otitis externa** and **ulcerative blepharitis**, which are close extensions of the existing topical anti-infective use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records; product names suggest topical antibacterial use (skin, eye and ear) |
+| Original Indication | Conjunctivitis (acute contagious conjunctivitis, blepharoconjunctivitis) |
 | Predicted New Indication | Postinfectious vasculitis |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
@@ -49,70 +49,57 @@ Gramicidin D is a topical antibacterial peptide used in Canadian products such a
 | Number of DINs | 19 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Gramicidin D is a membrane-active antibacterial peptide limited to topical use, often in fixed-dose combinations. Its role in bacterial skin, eye and ear infections is established, but a mechanistic link to the predicted indication is weak.
+Currently, detailed mechanism of action data is not available. Based on known information, gramicidin D is a channel-forming peptide antibiotic that acts on bacterial membranes. It is used only topically because of systemic toxicity, including hemolysis. Its efficacy in superficial bacterial eye infections is established.
 
-Postinfectious vasculitis is an immune-mediated process that follows an infection. No plausible antibacterial mechanism was identified that would let a topical antibiotic treat it. The high score most likely reflects graph proximity to infection-related terms rather than a specific biological rationale.
+For the top-ranked prediction, postinfectious vasculitis, no plausible mechanistic link was identified. This condition is immune-mediated, and a topical antibacterial is unlikely to reach the relevant tissue or act on the underlying process. The other highly ranked predictions (post-bacterial disorder, post-infectious syndrome, infective urethral stricture, Chagas cardiomyopathy and infection-related hemolytic uremic syndrome) are similarly weak. They involve immune sequelae, fibrosis, or systemic disease where gramicidin D's systemic toxicity rules out use. Hemolysis is a particular concern in hemolytic uremic syndrome.
 
-Systemic use is not realistic. Gramicidin D is hemolytic and toxic when given systemically, which is why it is restricted to topical products. Only topical routes are relevant, and vasculitis is not a topical-treatment target.
+Two lower-ranked predictions are more coherent:
+- **Otitis externa** (score 99.78%): a superficial bacterial infection of the ear canal. Gramicidin is already used in combination eye and ear preparations, and this is closely related to the original topical indications. A perforated tympanic membrane would raise ototoxicity concerns.
+- **Ulcerative blepharitis** (score 99.30%): often caused by Staphylococcus aureus and closely related to blepharoconjunctivitis. Gramicidin D's Gram-positive activity makes this essentially an extension of the existing indication.
 
----
+Both are supported only by indirect evidence (Level L4), and no trials or literature were available to confirm them.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Gramicidin D appears in 19 Canadian authorizations. Five main ones are listed below; dosage form and approved indication text are not recorded in the licence data.
+Gramicidin D is marketed in Canada with 19 valid single-ingredient licenses, none cancelled. Dosage form and approved indication text were not available for these products. The five main authorizations are listed below.
 
-| DIN | Product Name |
-|---------|------|
-| 2552418 | SOOTHE ANTIBIOTIC DROPS |
-| 2230844 | POLYSPORIN ANTIBIOTIC CREAM |
-| 2239156 | POLYSPORIN EYE AND EAR DROPS STERILE |
-| 2317656 | ORIGINAL ANTIBIOTIC CREAM |
-| 701785 | OPTIMYXIN |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02552418 | Soothe Antibiotic Drops | Not available | Not available |
+| 02239156 | Polysporin Eye and Ear Drops Sterile | Not available | Not available |
+| 02230844 | Polysporin Antibiotic Cream | Not available | Not available |
+| 00701785 | Optimyxin | Not available | Not available |
+| 02224860 | Soframycin Nasal Spray | Not available | Not available |
 
 ## Safety Considerations
 
-- **Systemic toxicity:** Gramicidin is hemolytic when given systemically, so use is limited to topical products. This is a mechanistic concern for any non-topical repurposing.
+Please refer to the package insert for safety information.
 
-Please refer to the package insert for further safety information.
-
----
+Based on the compiled predictions, gramicidin D is hemolytic and systemically toxic, which is why it is restricted to topical use. This is a major barrier to any systemic repurposing, and especially to hemolytic conditions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Postinfectious vasculitis is an immune-mediated condition with no plausible antibacterial mechanism and no clinical or literature support. The high TxGNN score is not backed by any actual study, and the systemic toxicity of gramicidin D rules out non-topical use.
-
-**Other predicted indications worth noting:**
-- **Otitis externa** (rank 7, evidence L3) is the only prediction with real support: 10 publications, including RCTs of topical combinations containing gramicidin (framycitin/gramicidin, and Triadcortyl). This is closer to an established topical use than to true repurposing. Because the studies use combination products, gramicidin's own contribution cannot be isolated.
-- **Post-bacterial disorder** (rank 2) has one Phase 3 trial (NCT00534391, hordeolum after incision and curettage). It is only indirectly related.
-- **Infection-related hemolytic uremic syndrome** (rank 6) should be deprioritized, since gramicidin's hemolytic activity is a mechanistic contraindication.
+The top-ranked prediction, postinfectious vasculitis, rests on a model score alone. It has no trials, no literature and no plausible mechanism, and the drug's systemic toxicity argues against use in systemic immune-mediated disease. Otitis externa and ulcerative blepharitis are the only predictions worth following up, as research questions rather than new development candidates.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently a blocking gap)
-- Mechanism of action data (e.g., from DrugBank)
-- The original approved indication, reconciled against Canadian labeling
-- If pursuing otitis externa, a review of the combination-product evidence against current Canadian labeling
-- For any ophthalmic candidate, a review of eye-specific safety and efficacy
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Literature and trial searches for otitis externa and ulcerative blepharitis
+- Dosage form, route and approved indication details for the Canadian products
+- Route compatibility assessment for any new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

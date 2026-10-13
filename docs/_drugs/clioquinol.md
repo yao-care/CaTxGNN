@@ -2,15 +2,15 @@
 layout: default
 title: Clioquinol
 parent: Moderate Evidence (L3-L4)
-nav_order: 205
-evidence_level: L3
+nav_order: 207
+evidence_level: L4
 indication_count: 7
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,77 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-# Clioquinol: From Topical Anti-infective Combinations to Cutaneous Candidiasis
+# Clioquinol: From Tinea Infections to Cutaneous Candidiasis
 
 ## One-Sentence Summary
 
-Clioquinol is a halogenated 8-hydroxyquinoline with antibacterial and antifungal activity. In Canada it is marketed in topical corticosteroid combination products, and no approved indication text is recorded for them.
-The TxGNN model predicts it may be effective for **cutaneous candidiasis**, but there are **0 registered clinical trials** and only **6 publications**, mostly older studies of combination creams.
-
----
+Clioquinol is a topical antimicrobial originally used for fungal skin infections such as tinea pedis, tinea corporis, and dermatophyte infections of the groin and perianal area.
+The TxGNN model predicts it may be effective for **cutaneous candidiasis**,
+but currently there are **no registered clinical trials** and only **1 indirect publication** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records (products are clioquinol–corticosteroid combinations) |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, dermatophytosis of the groin and perianal area (the Canadian licence records contain no indication text, so these come from the knowledge graph) |
 | Predicted New Indication | Cutaneous candidiasis |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Clioquinol is a metal-chelating, ionophore-type compound with known antibacterial and antifungal effects. This makes anti-*Candida* activity plausible at the compound-class level, but the link is inferred, not demonstrated.
+Detailed mechanism of action data is not currently available. Based on known information, clioquinol is a halogenated 8-hydroxyquinoline. Compounds of this class are generally understood to act as metal chelators (zinc, copper, iron), which gives them antimicrobial and antifungal activity. Its efficacy against dermatophytes is the basis of its original indications, and mechanistically it may extend to *Candida* species.
 
-The clinical literature covers only fixed-dose combinations with corticosteroids or other antimicrobials. Clioquinol's own contribution to candidiasis outcomes therefore cannot be isolated.
-
-One study is a caution. In a 1979 comparison, an iodochlorhydroxyquin (clioquinol)–hydrocortisone cream was the control arm. It performed considerably worse than a halcinonide–neomycin–amphotericin cream in cutaneous candidiasis. The prediction is plausible but not supported by direct evidence.
-
----
+Dermatophyte infections and cutaneous candidiasis are both superficial fungal skin infections, so a shared antifungal mechanism is plausible. However, the only retrieved publication is a 1988 occupational-prevention report on *Candida albicans* (in vitro work on soap additives). It is indirect and does not show that clioquinol treats cutaneous candidiasis. The very high TxGNN score is a computational prediction only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Randomized comparative study | J Int Med Res | 154 patients, including 67 with cutaneous candidiasis. A halcinonide–neomycin–nystatin cream and a betamethasone–gentamicin–iodochlorhydroxyquin–tolnaftate cream gave equivalent responses. |
-| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Clinical study | Curr Med Res Opin | Halcinonide–neomycin–amphotericin gave an excellent response in 95% (38/40) of patients. The iodochlorhydroxyquin–hydrocortisone control gave 43% (17/40). |
-| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Double-blind clinical study | Dermatologica | 430 patients with secondary bacterial infection of dermatoses. Locacorten-Vioform cream outperformed clioquinol alone, steroid alone and placebo. Not a candidiasis study. |
-| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Clinical study | Curr Ther Res | Evaluation of a halcinonide–antifungal combination. No abstract available. |
-| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Background | Z Haut Geschlechtskr | Role of yeasts in acrodermatitis enteropathica. Indirect relevance only. |
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | In vitro | Przegl Dermatol | Soap additives tested against *C. albicans* strains. Indirect relevance only. |
+| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Other (occupational prevention report) | Przeglad dermatologiczny | In vitro study of additives to toilet soaps against *C. albicans* strains from patients. Indirect, and it does not establish clinical efficacy of clioquinol. |
 
----
+For context, a 2021 in vitro and alternative-model study (PMID [33772895](https://pubmed.ncbi.nlm.nih.gov/33772895/), *Mycoses*) tested clioquinol combined with ciclopirox and terbinafine in dermatophytosis. It relates to the predicted indication "superficial mycosis" rather than candidiasis.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 74462 | LOCACORTEN VIOFORM |
-| 74454 | LOCACORTEN VIOFORM EARDROPS |
-| 74500 | VIOFORM HYDROCORTISONE |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00074462 | LOCACORTEN VIOFORM | Not specified | Not specified |
+| 00074454 | LOCACORTEN VIOFORM EARDROPS | Not specified | Not specified |
+| 00074500 | VIOFORM HYDROCORTISONE | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interactions were found in the DDI query.
+The data compiled for this report list the following conditions as contraindications for clioquinol-containing products (derived from knowledge-graph drug-disease edges, not from label text):
 
----
+- **Endocrine:** adrenocortical insufficiency, Addison disease
+- **Skin:** skin atrophy
+- **Vascular:** telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia, peripheral vascular disease, intermittent vascular claudication, peripheral arterial disease
+
+Some of these may reflect the corticosteroid component (hydrocortisone) in the combination products rather than clioquinol itself.
+
+No drug interaction records were found. Please refer to the package insert for warnings and full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence comes from old studies of combination products, and clioquinol's independent effect in candidiasis cannot be separated out. The one head-to-head study of a clioquinol-containing comparator favoured a different regimen. There are no registered trials, and package-insert safety information has not been obtained.
+The prediction score is high, but the only supporting publication is a 1988 indirect *in vitro* report, and there are no clinical trials. Evidence is at the L4 level. The other predicted indications (Majocchi granuloma, ectothrix and endothrix infections, scalp or beard dermatophytosis, tinea profunda) are L5, prediction only. They involve deep or follicular infections where topical penetration is likely inadequate. "Superficial mycosis" has the most support, at L4, but largely restates existing labeled use.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications for the Canadian products
-- Mechanism of action data for clioquinol
-- Approved indication and dosage form details for the three licences
-- Direct evidence of clioquinol's anti-*Candida* activity (in vitro susceptibility or a controlled trial against a standard antifungal)
-
-**Other predictions:** Superficial mycosis (99.18%) has L3 evidence, with a 2021 preclinical combination study and a 1958 clioquinol–hydrocortisone report. It may be a stronger follow-up question. Majocchi granuloma, ectothrix and endothrix infections, tinea profunda and dermatophytosis of scalp or beard have prediction-only support (L5). Deep follicular infections also raise topical-penetration concerns, and the literature retrieved for scalp or beard dermatophytosis is unrelated keyword noise.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- The Health Canada package insert, to confirm warnings, contraindications, and approved indications (currently blocking for safety screening)
+- Mechanism of action data for clioquinol (e.g., from DrugBank)
+- Direct antifungal data against *Candida* species (in vitro susceptibility, then controlled clinical studies in cutaneous candidiasis)
+- Confirmation of dosage forms and routes for the three Canadian products, to check route compatibility
+- A review of the safety profile for the proposed use, including the corticosteroid-related contraindications for combination products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

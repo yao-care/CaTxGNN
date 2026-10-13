@@ -2,7 +2,7 @@
 layout: default
 title: Polysorbate 80
 parent: Model Prediction Only (L5)
-nav_order: 744
+nav_order: 751
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Polysorbate 80: From Pharmaceutical Excipient to Congenital Ichthyosiform Erythroderma
+# Polysorbate 80: From Dry Eye Syndrome to Congenital Ichthyosiform Erythroderma
 
 ## One-Sentence Summary
 
-Polysorbate 80 is a non-ionic surfactant and emulsifier, used in Canada as an ingredient in a marketed eye-care product, and it has no established treatment indication of its own.
-The TxGNN model predicts it may be effective for **congenital ichthyosiform erythroderma**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
-
----
+Polysorbate 80 is a nonionic surfactant and emulsifier, originally used in products for dry eye syndrome and xerophthalmia.
+The TxGNN model predicts it may be effective for **congenital ichthyosiform erythroderma**,
+but currently there are **no clinical trials and no publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | None specified in the available label data (excipient use) |
+| Original Indication | Dry eye syndrome, xerophthalmia |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
 | TxGNN Prediction Score | 99.43% |
 | Evidence Level | L5 |
@@ -50,57 +49,43 @@ The TxGNN model predicts it may be effective for **congenital ichthyosiform eryt
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Polysorbate 80 is a pharmaceutical excipient with no established pharmacological activity of its own, so there is no proven efficacy in an original indication to extend to a new one.
+Currently, detailed mechanism of action data is not available. Based on known information, polysorbate 80 is a nonionic surfactant and emulsifier. It is used in dry eye products as a lubricating and tear-film-stabilizing agent, and mechanistically it may be applicable to skin conditions involving a damaged barrier.
 
-Congenital ichthyosiform erythroderma is a genetic keratinization and skin-barrier disorder, for example involving TGM1, ALOX12B or ALOXE3 variants. In theory, a surfactant might alter stratum corneum hydration or help deliver topical agents. This is speculative and has no supporting data. Surfactants can also irritate skin and impair barrier function, which could worsen a barrier-deficient condition.
-
-The very high TxGNN score most likely reflects knowledge-graph connectivity for a widely used excipient node rather than a true therapeutic signal. The prediction should be treated as a weak, unverified hypothesis.
-
----
+The link to the new indication is speculative. Congenital ichthyosiform erythroderma is a skin disorder with impaired barrier function and scaling. The emollient and surfactant properties of polysorbate 80 could, in theory, help with these features. This is a hypothesis only. Its wide use as a pharmaceutical excipient does not imply therapeutic efficacy in this disease. The only support for the prediction is the high TxGNN knowledge-graph score, and no validated mechanism connects the drug to this condition.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2399148 | REFRESH OPTIVE ADVANCED |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02399148 | REFRESH OPTIVE ADVANCED | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical, literature or mechanistic support (Evidence Level L5). The score likely reflects knowledge-graph connectivity for a common excipient. The surfactant's possible skin-irritating effect on an already impaired skin barrier is a plausible concern.
+The prediction is supported only by a model score (Evidence Level L5). There are no clinical trials or publications, and the mechanism of action is unknown. Polysorbate 80 is mainly an excipient, so there is currently no basis to advance it for congenital ichthyosiform erythroderma.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
-- Mechanism of action data, for example from DrugBank
-- A literature and trial search for surfactant or excipient use in ichthyosis or related skin-barrier disorders
-- Route compatibility assessment, since the only Canadian product identified appears to be an eye-care product, not a dermatological one
-- Evidence of any real therapeutic effect separate from its role as a formulation excipient
+- Mechanism of action data for polysorbate 80, and a plausible link to the pathophysiology of ichthyosis
+- Package insert warnings and contraindications from Health Canada (needed for safety screening)
+- Preclinical or early clinical evidence in ichthyosis, such as skin barrier studies
+- Assessment of route compatibility, since the current product is an ophthalmic formulation and a skin indication would likely need a topical one
+- A literature and trial search targeted at surfactants or emollients in congenital ichthyosis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

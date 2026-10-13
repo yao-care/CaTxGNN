@@ -2,7 +2,7 @@
 layout: default
 title: Landiolol
 parent: Model Prediction Only (L5)
-nav_order: 517
+nav_order: 522
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Landiolol: From Rapid Heart Rhythm Control to Lingual-Facial-Buccal Dyskinesia
+# Landiolol: From Supraventricular Tachycardia to Lingual-Facial-Buccal Dyskinesia
 
 ## One-Sentence Summary
 
-Landiolol is an ultra-short-acting, beta-1-selective adrenergic blocker given intravenously. It is generally used for heart rhythm control, although the Canadian licence record supplied here lists no approved indication text.
-The TxGNN model predicts it may be effective for **lingual-facial-buccal dyskinesia**, but **0 clinical trials** and **0 publications** support this prediction, so it rests on the model score alone.
+Landiolol is an ultra-short-acting, highly beta-1-selective adrenergic blocker given intravenously in critical care for supraventricular tachycardia (atrial fibrillation and atrial flutter).
+The TxGNN model predicts it may be effective for **lingual-facial-buccal dyskinesia**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied licence record (general knowledge: rapid heart rhythm control with an IV beta-1 blocker) |
+| Original Indication | Supraventricular tachycardia (atrial fibrillation and atrial flutter), based on pharmacology reference data; the Canadian licence record has no indication text |
 | Predicted New Indication | Lingual-facial-buccal dyskinesia |
 | TxGNN Prediction Score | 99.11% |
 | Evidence Level | L5 |
@@ -48,57 +50,69 @@ The TxGNN model predicts it may be effective for **lingual-facial-buccal dyskine
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, landiolol is an intravenous, ultra-short-acting beta-1-selective blocker. It has little central nervous system activity, and its efficacy in its original setting is established. Mechanistically, however, its applicability to orofacial dyskinesia is speculative.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology reference data show that landiolol binds the beta-1 adrenoceptor with about 250-fold selectivity over the beta-2 adrenoceptor. It is given intravenously for short-term control of heart rate in acute care.
 
-Beta-blockade has no established role in orofacial or tardive dyskinesia. Non-selective beta-blockers such as propranolol act on some tremor and akathisia conditions. Beta-1-selective landiolol has no supporting data for movement disorders. Its IV-only route and very short half-life also make it hard to use in chronic neurological conditions.
+The link to the predicted indication is weak. Beta-blockers, mainly the non-selective and brain-penetrant propranolol, have been used for some hyperkinetic movement disorders such as tremor and akathisia. There is no established link between beta-1-selective blockade and orofacial dyskinesia. Landiolol is hydrophilic and crosses the blood-brain barrier poorly, so central effects are unlikely.
 
-The model's other top predictions are all movement-related conditions, and none has supporting evidence in the pack:
+The TxGNN score is high (99.11%), but it comes from a network-based prediction. It does not replace mechanistic or clinical evidence, and the mechanism cannot be verified with the current data.
 
-| Rank | Predicted Disease | TxGNN Score | Assessment |
-|------|------|------|------|
-| 2 | Chronic tic disorder | 99.08% | Standard therapy targets dopaminergic and alpha-2 pathways, not beta-1 blockade |
-| 3 | Psychogenic movement disorders | 99.05% | No plausible mechanism; management is mainly non-pharmacological |
-| 4 | Extrapyramidal and movement disease | 99.04% | Broad, non-specific category |
-| 5 | Benign shuddering attacks | 99.04% | Benign, self-limiting pediatric condition; IV therapy unjustified |
-| 6 | Primary orthostatic tremor | 99.00% | Weak theoretical link; generally refractory to beta-blockers |
+**Other predictions in the same list** (all L5, all Hold, no trials or literature):
 
-The consistent pattern of movement-disorder predictions may reflect graph-level similarity rather than a real pharmacological link. It should be treated with caution.
+| Predicted Indication | TxGNN Score | Comment |
+|------|------|------|
+| Chronic tic disorder | 99.08% | Usually managed with alpha-2 agonists and antipsychotics; an IV ultra-short-acting drug is a poor fit for a chronic condition |
+| Psychogenic movement disorders | 99.05% | No clear pharmacological rationale; treated mainly with rehabilitation and psychotherapy |
+| Extrapyramidal and movement disease | 99.04% | Category too broad to support a mechanistic claim |
+| Benign shuddering attacks | 99.04% | Rare, self-limiting condition that usually needs no drug treatment |
+| Primary orthostatic tremor | 99.00% | Beta-blockers are generally ineffective; clonazepam, gabapentin, or primidone are typically used |
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2543338 | SIBBORAN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02543338 | SIBBORAN | Not specified | Not specified |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for landiolol in the queried data.
+**Pharmacological profile:** Landiolol acts on the beta-1 adrenoceptor (ADRB1) and, to a much lesser degree, the beta-2 adrenoceptor (ADRB2). It is given intravenously in a critical care setting. No specific drug-drug interactions are recorded in the data compiled for this report. The two entries are the drug's pharmacological targets, not interacting drugs.
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (evidence level L5), with no trials or literature. The mechanistic link between beta-1 blockade and orofacial dyskinesia is speculative. The IV-only, short-acting profile is also impractical for a chronic condition.
+The prediction rests on a model score alone. There are no clinical trials or publications, and the mechanism is unverified. Landiolol's pharmacology (beta-1 selective, hydrophilic, intravenous, ultra-short-acting) fits poorly with chronic or central movement disorders.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are required before any safety screening (currently blocking)
-- Detailed mechanism of action data (for example, from DrugBank)
-- Approved indication text and dosage form for the Canadian licence
-- Any preclinical or clinical evidence linking beta-1 blockade to dyskinesia
-- A route-compatibility assessment for IV-only administration against the chronic-use requirements of the predicted indication
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications, which block safety screening
+- Mechanism of action data, to assess any link between beta-1 blockade and movement disorders
+- Original indication text from the Canadian licence
+- A literature and trial search for beta-blockers in dyskinesia and related movement disorders
+- A route-of-administration compatibility assessment, since landiolol is available only as an IV formulation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

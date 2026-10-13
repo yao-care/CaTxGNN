@@ -33,9 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Amoxicillin is a widely used beta-lactam antibacterial, marketed in Canada under 20 licences.
-The TxGNN model predicts it may be relevant to **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** were retrieved for this prediction.
-This is a model-only signal with no supporting evidence, and no plausible mechanism is apparent.
+Amoxicillin is a beta-lactam antibiotic originally used for common bacterial infections such as urinary tract infection, otitis media, pneumonia and pharyngitis.
+The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The high score most likely reflects knowledge-graph proximity rather than a therapeutic rationale.
 
 ---
 
@@ -43,10 +42,10 @@ This is a model-only signal with no supporting evidence, and no plausible mechan
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (general antibacterial use; licence indication text was not provided in the evidence pack) |
+| Original Indication | Bacterial infections, including urinary tract infection, infectious otitis media, streptococcal infection, bacterial pneumonia and pharyngitis (approved-indication text is not available for the Canadian licences) |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
@@ -55,43 +54,49 @@ This is a model-only signal with no supporting evidence, and no plausible mechan
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for amoxicillin in this evidence pack. Amoxicillin is a beta-lactam antibacterial. Its efficacy against susceptible bacterial infections is well established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin belongs to the beta-lactam class of antibacterials, which act by inhibiting bacterial cell wall synthesis. Its efficacy in bacterial infections is well established.
 
-Polyclonal hyperviscosity syndrome is a condition of raised serum viscosity from excess polyclonal immunoglobulins. Amoxicillin has no known action on serum viscosity or immunoglobulin levels, so no mechanistic link can be proposed. The high score (99.63%) most likely reflects proximity in the knowledge graph rather than a biological effect. Several other top-ranked predictions (hyperamylasemia, congenital analbuminemia, premalignant haematological disease) share the same limitation.
+Polyclonal hyperviscosity syndrome is driven by elevated serum immunoglobulins and is not an infectious process. No plausible mechanistic link to amoxicillin was identified. The high score (0.996) likely reflects knowledge-graph proximity, such as infection-related associations, rather than a therapeutic rationale.
 
-Among the other predicted indications, monoclonal gammopathy (rank 6) is the only one with a plausible biological thread. Case reports describe antibiotic-responsive regression of immunoproliferative small intestinal disease, including after *H. pylori* eradication regimens that typically contain amoxicillin. That is bacterial-driven lymphoproliferation, and it does not show that amoxicillin treats monoclonal gammopathy itself. The rest of the retrieved material for that indication is about infections in myeloma patients.
+The model's other top predictions show the same pattern. Examples are hyperamylasemia, congenital analbuminemia and premalignant haematological disease, and none has a credible mechanism or supporting evidence. The only candidate with a biologically plausible, though weak, link is **septicemic plague**. It is rated L4 and labelled a research question, and the relevant evidence is limited to in vitro and animal studies (PMID 8203841, PMID 21628541). Beta-lactams are generally considered less effective than the recommended aminoglycosides, fluoroquinolones and tetracyclines, especially against intracellular bacteria.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for polyclonal hyperviscosity syndrome.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for polyclonal hyperviscosity syndrome.
 
 ---
 
 ## Canada Market Information
 
-Showing 5 of 20 authorizations. Dosage form and approved indication text were not provided for these licences.
+Amoxicillin has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved-indication text are not available for these licences. Five of them are listed below.
 
 | DIN | Product Name |
 |---------|------|
-| 2477726 | AG-AMOXICILLIN |
-| 2532042 | PRZ-AMOXICILLIN |
-| 628158 | APO-AMOXI |
-| 2388073 | AURO-AMOXICILLIN |
-| 406724 | NOVAMOXIN |
+| 02477726 | AG-AMOXICILLIN |
+| 02532042 | PRZ-AMOXICILLIN |
+| 00628158 | APO-AMOXI |
+| 02388073 | AURO-AMOXICILLIN |
+| 00406724 | NOVAMOXIN |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these are graph associations, not label text): long QT syndrome, torsades de pointes, liver failure, liver disease, cholestasis, kidney disease, porphyria, myasthenia gravis, osteoporosis, bone fracture, Clostridium difficile colitis, infectious mononucleosis, ventricular tachycardia, and others.
+- **Drug Interactions**: The interaction query returned 100 records. The main ones are:
+  - **Major**: methotrexate; live cholera vaccine (*Vibrio cholerae* CVD 103-HgR).
+  - **Moderate**: tetracyclines (doxycycline, minocycline, demeclocycline); oestrogens (ethinylestradiol, estradiol); coumarin-type anticoagulants (anisindione, dicoumarol); mycophenolate mofetil; entecavir; balsalazide; live probiotics.
+  - **Minor**: allopurinol, macrolides (azithromycin, clarithromycin, erythromycin), amiloride.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -100,15 +105,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or publications, and amoxicillin has no plausible effect on serum viscosity or polyclonal immunoglobulin excess. This is a hypothesis without support, not an actionable repurposing candidate.
+The prediction rests on a graph score alone. It has no clinical trials, no literature, and no plausible mechanism, because polyclonal hyperviscosity is not an infectious condition. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Amoxicillin mechanism of action data (for example from DrugBank), to allow any mechanistic-link analysis
-- Health Canada package insert warnings and contraindications, which are required before safety screening
-- Any independent biological or clinical rationale linking amoxicillin to hyperviscosity or polyclonal hypergammaglobulinemia
-- If the team wants a more tractable direction, a separate review of monoclonal gammopathy (rank 6), restricted to antigen-driven lymphoproliferative contexts such as IPSID and *H. pylori*-associated disease
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- A mechanistic rationale that links amoxicillin to immunoglobulin-driven hyperviscosity, supported by mechanism of action data.
+- Any preclinical or clinical evidence specific to this indication.
+- Health Canada package insert warnings and contraindications, which are needed before safety screening.
+- If the team wants to pursue something related to this drug, a better candidate than this top-ranked prediction is **septicemic plague**. Pursuing it would require susceptibility-guided preclinical confirmation first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

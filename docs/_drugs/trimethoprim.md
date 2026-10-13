@@ -2,7 +2,7 @@
 layout: default
 title: Trimethoprim
 parent: Model Prediction Only (L5)
-nav_order: 942
+nav_order: 949
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Trimethoprim: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Trimethoprim: From Urinary Tract Infection to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Trimethoprim is a bacterial dihydrofolate reductase inhibitor, an antibacterial marketed in Canada as a single agent and in combination products.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**.
-However, there are currently **no clinical trials and no publications** supporting this specific prediction, so it rests on the model score alone.
+Trimethoprim is an antibacterial originally used for urinary tract infections, otitis media, pneumocystosis, shigellosis and bacterial conjunctivitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but **no clinical trials and no publications** currently support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Urinary tract infection (the Canadian licence records compiled for this report contain no indication text, so this comes from the drug's known indications) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 |
@@ -50,9 +51,9 @@ However, there are currently **no clinical trials and no publications** supporti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Trimethoprim is known to inhibit bacterial dihydrofolate reductase, which blocks folate synthesis and gives it antibacterial activity. It is used in combination products such as sulfamethoxazole/trimethoprim and polymyxin B/trimethoprim.
+Currently, detailed mechanism of action data is not available. Based on general pharmacological knowledge (not the data compiled for this report), trimethoprim is an antibacterial that inhibits bacterial dihydrofolate reductase. Its efficacy in bacterial infections, including conjunctivitis and blepharoconjunctivitis, is established, and it is used in ophthalmic solutions, typically combined with polymyxin B.
 
-The mechanistic link to this predicted indication is weak. Punctate epithelial keratoconjunctivitis is frequently viral (for example, adenoviral) or immune-mediated, so a direct therapeutic effect from an antibacterial is not plausible. At most, trimethoprim could help with secondary bacterial involvement. The high score is probably driven by proximity in the knowledge graph to bacterial conjunctivitis rather than a true mechanistic relationship.
+The prediction is plausible mainly because punctate epithelial keratoconjunctivitis is close to the ocular indications already linked to the drug. There is an important caveat: this condition is often viral or immune-mediated (for example adenoviral), so an antibacterial mechanism may not address the main cause. The score is high, but it is a model prediction with no supporting studies for this indication.
 
 ## Clinical Trial Evidence
 
@@ -60,41 +61,51 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for punctate epithelial keratoconjunctivitis.
+
+For the closely related, already-established indication of conjunctivitis, the compiled literature includes the following. These do not support the predicted indication directly:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/) | 2008 | Clinical comparative study | J Pediatr Ophthalmol Strabismus | Multicenter comparison of polymyxin B/trimethoprim and moxifloxacin ophthalmic solutions for speed of clinical efficacy in bacterial conjunctivitis |
+| [6204534](https://pubmed.ncbi.nlm.nih.gov/6204534/) | 1984 | Clinical evaluation | Am J Ophthalmol | Trimethoprim combined with sulfacetamide and polymyxin B, or with polymyxin B alone, evaluated for efficacy and safety in bacterial conjunctivitis or blepharitis |
+| [8595639](https://pubmed.ncbi.nlm.nih.gov/8595639/) | 1995 | Survey | Clin Ther | Survey of children with acute bacterial conjunctivitis treated with trimethoprim-polymyxin B ophthalmic solution |
+| [2418736](https://pubmed.ncbi.nlm.nih.gov/2418736/) | 1985 | Clinical study | Ann Ophthalmol | Trimethoprim-polymyxin B compared with a multi-agent combination in surface ocular bacterial infections |
+| [16491721](https://pubmed.ncbi.nlm.nih.gov/16491721/) | 2006 | Review | J Pediatr Ophthalmol Strabismus | Controlling contagious bacterial conjunctivitis and limiting transmission |
+| [20084257](https://pubmed.ncbi.nlm.nih.gov/20084257/) | 2001 | Review | Paediatr Child Health | Etiology, clinical features and management of acute infectious conjunctivitis in children |
+| [30007329](https://pubmed.ncbi.nlm.nih.gov/30007329/) | 2018 | Systematic review/Meta-analysis | J Pediatric Infect Dis Soc | Antibiotic treatments for neonatal chlamydial conjunctivitis; trimethoprim not specifically assessed |
 
 ## Canada Market Information
 
-Approved indication text and dosage forms are not available in the source record. Five of the 8 authorizations are listed below.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02243116 | Trimethoprim Tablets | Not specified | Not specified |
+| 02243117 | Trimethoprim Tablets | Not specified | Not specified |
+| 02525917 | Sulfamethoxazole and Trimethoprim for Injection, USP | Not specified | Not specified |
+| 00445266 | Sulfatrim Pediatric | Not specified | Not specified |
+| 02239234 | Sandoz Polytrimethoprim | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2243116 | Trimethoprim Tablets |
-| 2243117 | Trimethoprim Tablets |
-| 2525917 | Sulfamethoxazole and Trimethoprim for Injection, USP |
-| 445266 | Sulfatrim Pediatric |
-| 2239234 | Sandoz Polytrimethoprim |
+Eight valid single-ingredient authorizations are listed in total; the five above are shown. None of the listed products is documented as an ophthalmic formulation in the compiled data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications and disease associations (from the knowledge graph, not label text):** inherited porphyria and other porphyrin metabolism disorders, kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, G6PD deficiency, glycogen storage disease, cystinuria, galactosemia, and folic acid deficiency anemia.
+- **Drug Interactions:** 100 interactions were found. The **Major** ones are all potassium products: potassium citrate, potassium bicarbonate, potassium chloride and potassium gluconate (hyperkalaemia risk is the likely concern). **Moderate** interactions include metformin, pioglitazone, rosiglitazone, repaglinide, balsalazide, picosulfuric acid and sapropterin. Several others, such as pantoprazole, doxycycline, omeprazole and simvastatin, have an unclassified severity level.
+
+Please refer to the package insert for warnings and label-based contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but no trials or literature support this indication. The proposed mechanism is also implausible for a condition that is mostly viral or immune-mediated.
-
-**Note on a related prediction:** The second-ranked prediction, **conjunctivitis**, has a score of 99.17%, 3 clinical trials and 20 literature records. The most relevant trial is a completed Phase 4 comparison of polymyxin B/trimethoprim ophthalmic solution with moxifloxacin in bacterial conjunctivitis. It is graded L2 with a "Proceed with Guardrails" recommendation. That use looks closer to an established topical combination use than to novel repurposing, and it merits a separate evaluation.
+The TxGNN score is very high (99.57%), but this is a model prediction with no registered trials or publications for punctate epithelial keratoconjunctivitis (evidence level L5). The condition is frequently viral or immune-mediated, so an antibacterial agent may not address the main cause. The conjunctivitis literature supports the existing indication but does not extend to this one.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data from DrugBank
-- Approved indication text for each DIN, to confirm on-label status
-- Any clinical or observational evidence specific to punctate epithelial keratoconjunctivitis
-- Confirmation of route compatibility, since the predicted use would likely require a topical ophthalmic formulation
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data, and a clear link between trimethoprim's antibacterial action and the causes of this condition
+- Clinical or observational evidence specific to punctate epithelial keratoconjunctivitis, including the proportion of cases with a bacterial cause
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Confirmation of the available routes and formulations (especially ophthalmic) and the approved indication text for the Canadian products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

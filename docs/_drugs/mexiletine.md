@@ -2,7 +2,7 @@
 layout: default
 title: Mexiletine
 parent: Model Prediction Only (L5)
-nav_order: 607
+nav_order: 612
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mexiletine: From Ventricular Arrhythmia to Hypertrichosis
+# Mexiletine: From Antiarrhythmic Therapy to Migraine and Headache Disorders
 
 ## One-Sentence Summary
 
-Mexiletine is a class IB antiarrhythmic that blocks voltage-gated sodium channels. The Canadian licence records supplied do not state its approved indication, so the original use is inferred from its drug class.
-The TxGNN model ranks **hypertrichosis** as its top prediction, but this signal rests on the model alone, with **0 clinical trials** and **0 publications** supporting it.
-The best-supported prediction for this drug is actually **headache disorder** (rank 10), which has only small open-label studies and case series.
+Mexiletine is a class IB antiarrhythmic sodium channel blocker marketed in Canada. The TxGNN model's top-ranked predictions (such as hypertrichosis) have no supporting evidence, so this report focuses on the best-supported prediction, **headache disorder** (migraine disorder is closely related), which has **0 clinical trials** and **5 publications**, all small and uncontrolled. The evidence is limited to case series and open-label studies.
 
 ---
 
@@ -43,46 +41,43 @@ The best-supported prediction for this drug is actually **headache disorder** (r
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied licence data (inferred: ventricular arrhythmia, from drug class) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
+| Original Indication | Not stated in the data compiled for this report (class IB antiarrhythmic) |
+| Predicted New Indication | Headache disorder (rank 10 of the model's predictions; the highest-ranked prediction, hypertrichosis, has no supporting evidence) |
+| TxGNN Prediction Score | 99.48% (headache disorder); 99.78% (hypertrichosis, the top-ranked prediction) |
+| Evidence Level | L3 (headache disorder, migraine disorder); L5 (hypertrichosis) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (headache: research question only, not ready for development) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Mexiletine belongs to the class IB antiarrhythmics, which act by blocking sodium channels. Its efficacy in ventricular arrhythmias is established, but nothing in the supplied data links sodium channel blockade to hair growth regulation.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, mexiletine is a class IB antiarrhythmic that blocks voltage-gated sodium channels. It is also used in practice for neuropathic pain and myotonia.
 
-The hypertrichosis prediction looks like a graph-proximity artefact. Three other hair-related nodes also appear among the top-ranked predictions: Ambras-type hypertrichosis universalis congenita (rank 3), isolated genetic hair shaft abnormality (rank 7), and hypertrichosis itself (rank 1). Together they suggest one cluster of related nodes rather than independent signals. No mechanism is supported for any of them.
+The link to headache is plausible because sodium channel blockade may reduce neuronal hyperexcitability and dampen trigeminal-autonomic and central sensitization pathways. Related drugs (lidocaine and mexiletine) have been reported in trigeminal autonomic cephalalgias and refractory chronic daily headache.
 
-By contrast, headache disorder is mechanistically plausible: sodium channel blockade may reduce trigeminal neuronal excitability. Mexiletine and IV lidocaine have been reported in refractory headache and trigeminal autonomic cephalalgias.
+The other top-scoring predictions, such as hypertrichosis, nephrogenic syndrome of inappropriate antidiuresis (a vasopressin V2 receptor gain-of-function disorder), and congenital malformation syndromes, have no plausible mechanistic link and no trials or publications. They are computational predictions only. Pulmonary hypertension has only indirect preclinical support from a lidocaine study, and it is not shown that mexiletine shares that activity.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for hypertrichosis. No trials were registered for any of the other nine predicted indications either.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for hypertrichosis.
-
-Among the other predicted indications, only headache disorder has mexiletine-specific literature. All of it is low-grade evidence: no randomized trials, only small open-label studies, case series and reviews.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20425204](https://pubmed.ncbi.nlm.nih.gov/20425204/) | 2010 | Review / case series | Curr Pain Headache Rep | IV lidocaine and mexiletine used in trigeminal autonomic cephalalgias, with a rationale from their benefit in neuropathic pain |
-| [33361408](https://pubmed.ncbi.nlm.nih.gov/33361408/) | 2021 | Open-label study with single-arm meta-analysis | J Neurol Neurosurg Psychiatry | Medical treatment of SUNCT/SUNA; the mexiletine-specific content is not confirmed from the title |
-| [18793209](https://pubmed.ncbi.nlm.nih.gov/18793209/) | 2008 | Case series (9 patients) | Headache | Mexiletine in refractory chronic daily headache |
-| [6938859](https://pubmed.ncbi.nlm.nih.gov/6938859/) | 1981 | Clinical report | N Z Med J | Mexiletine in vascular headaches |
+| [33361408](https://pubmed.ncbi.nlm.nih.gov/33361408/) | 2021 | Prospective open-label study with single-arm meta-analysis | J Neurol Neurosurg Psychiatry | Medical treatment of SUNCT/SUNA, rare headache conditions with scarce evidence-based recommendations |
+| [20425204](https://pubmed.ncbi.nlm.nih.gov/20425204/) | 2010 | Clinical report | Curr Pain Headache Rep | IV lidocaine and mexiletine (class 1B sodium channel blockers) in trigeminal autonomic cephalalgias |
+| [18793209](https://pubmed.ncbi.nlm.nih.gov/18793209/) | 2008 | Case series | Headache | Mexiletine in nine patients with refractory chronic daily headache |
+| [6938859](https://pubmed.ncbi.nlm.nih.gov/6938859/) | 1981 | Early clinical report | N Z Med J | Mexiletine and vascular headaches |
+| [40197813](https://pubmed.ncbi.nlm.nih.gov/40197813/) | 2025 | Review | Cochrane Database Syst Rev | Drug treatment for myotonia (not direct headache evidence) |
 
-The periodontitis records retrieved for the rank 4 malformation syndrome do not mention mexiletine and are not counted as evidence.
+Note: These studies are small, uncontrolled and heterogeneous, and SUNCT/SUNA and chronic daily headache are related to, but not identical with, migraine. For pulmonary hypertension, the only items are a 2026 preclinical lidocaine study (PMID 41518899) and a 1991 ventricular arrhythmia study (PMID 1724233), neither of which is direct evidence.
 
 ---
 
@@ -90,18 +85,23 @@ The periodontitis records retrieved for the rank 4 malformation syndrome do not 
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02536846 | MINT-MEXILETINE | Not listed | Not listed |
-| 02536854 | MINT-MEXILETINE | Not listed | Not listed |
-| 02230359 | TEVA-MEXILETINE | Not listed | Not listed |
-| 02230360 | TEVA-MEXILETINE | Not listed | Not listed |
+| 02536846 | MINT-MEXILETINE | Not specified | Not specified |
+| 02536854 | MINT-MEXILETINE | Not specified | Not specified |
+| 02230359 | TEVA-MEXILETINE | Not specified | Not specified |
+| 02230360 | TEVA-MEXILETINE | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from the TxGNN knowledge graph, not from label text): epilepsy, liver disease, gallbladder disease, hypotensive disorder, myocardial infarction, coronary thrombosis, hemoglobinopathy, atrioventricular block, sick sinus syndrome, familial sick sinus syndrome.
+- **Drug Interactions**: 100 interactions were identified. Notable ones:
+  - **Major**: Bupropion
+  - **Moderate**: Alosetron, Morphine, Lorcaserin, Potassium citrate, Picosulfuric acid, Polyethylene glycol (3350 with electrolytes), Eliglustat, Obeticholic acid, Sodium sulfate, Glycerol phenylbutyrate, Rolapitant
+  - **Minor**: Ascorbic acid
+- Mexiletine's cardiac proarrhythmic profile requires particular attention in any new use.
 
-The supplied data contain no warnings, contraindications or drug-interaction records for mexiletine. The review notes attached to the headache prediction flag cardiac proarrhythmia and GI/CNS tolerability as topics for a safety review.
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -110,13 +110,12 @@ The supplied data contain no warnings, contraindications or drug-interaction rec
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, hypertrichosis, is supported only by the model score, with no trials, no literature and no plausible mechanism. Evidence level is L5. Nine of the ten predictions have no mexiletine-specific evidence beyond the score.
+- The top-scoring predictions have no trials, no literature and no mechanistic basis. Headache disorder and migraine have only small, uncontrolled studies (L3), with no RCT and no registered trial. This is a research question, not a development candidate.
 
 **To proceed, the following is needed:**
-- Health Canada package insert data: approved indications, warnings and contraindications. Without them, safety screening (S1) cannot start.
-- Mechanism of action data from DrugBank to allow a proper mechanistic-link analysis.
-- For the better-supported **headache disorder** candidate, a separate review as a research question. This should confirm the mexiletine-specific content of the SUNCT/SUNA meta-analysis and the design of the lidocaine/mexiletine study. It should also include a cardiac safety assessment before any prospective study.
-- Dosage form and indication text for the four DINs, which are missing from the licence records.
+- Mechanism of action data and the Health Canada package insert (warnings, contraindications, approved indications)
+- A controlled study, or a systematic review of existing headache reports, defining the target subtype (for example SUNCT/SUNA or refractory chronic daily headache rather than migraine in general)
+- A cardiac safety monitoring plan (ECG, conduction disease screening) and a review of the interaction burden, including the major interaction with bupropion
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

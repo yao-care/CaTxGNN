@@ -2,7 +2,7 @@
 layout: default
 title: Elafibranor
 parent: Model Prediction Only (L5)
-nav_order: 315
+nav_order: 317
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,32 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Elafibranor: From an Unrecorded Original Indication to Amenorrhea
+# Elafibranor: From Primary Biliary Cholangitis to Amenorrhea
 
 ## One-Sentence Summary
 
-Elafibranor is marketed in Canada under the brand name IQIRVO, but the Evidence Pack does not record its original approved indication.
-The TxGNN model predicts it may be effective for **Amenorrhea**, but this rests only on a computational score, with **0 clinical trials** and **0 publications** supporting the direction.
+Elafibranor (marketed in Canada as IQIRVO) is a dual PPARα/δ agonist. It is approved for primary biliary cholangitis (PBC) in other jurisdictions and was originally developed for nonalcoholic steatohepatitis (NASH).
+The TxGNN model predicts it may be effective for **amenorrhea**.
+There are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack |
+| Original Indication | Primary biliary cholangitis (based on the approvals described in pharmacology data; the Canadian licence record has no indication text) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Elafibranor is generally described as a dual PPAR-alpha/delta agonist. PPAR signaling is plausibly linked to lipid and glucose metabolism, and possibly to ovarian or endocrine function. This is a speculative, indirect hypothesis.
+Detailed mechanism-of-action data is not available in the compiled data. Pharmacology data identifies elafibranor as a dual agonist of PPARα and PPARδ (PPARβ/δ). In the liver it is converted to its main active metabolite, GFT-1007. Preclinical work showed reduced hepatic fat accumulation, inflammation and fibrosis. The NASH programme was stopped in mid-2020 after an interim futility analysis. The drug was then repositioned for PBC, approved by the FDA in June 2024 and authorised by the EMA in September 2024.
 
-No supplied data connects elafibranor to the hypothalamic-pituitary-ovarian axis or to menstrual regulation. The high graph score (0.9986) may reflect network proximity or hub-node artifacts rather than a true biological link.
-
-Amenorrhea is a heterogeneous sign with hypothalamic, pituitary, ovarian and uterine causes. A single drug-level prediction is therefore hard to interpret without a defined subtype. The score should be treated as a hypothesis-generating signal, not as evidence of efficacy.
+The link between this profile and amenorrhea is speculative. PPAR signalling has theoretical connections to ovarian steroidogenesis, insulin sensitivity and metabolic regulation, which might matter in metabolic forms of amenorrhea such as PCOS-related amenorrhea. No trial, publication or mechanistic data in the compiled material supports this pathway. A high knowledge-graph score is a hypothesis-generating signal, not clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -68,30 +67,27 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2557010 | IQIRVO | — | — |
-
-Dosage form, manufacturer and approved indication text are not recorded for this license.
+| 02557010 | IQIRVO | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found. No safety, dosing or reproductive-toxicity information was supplied for this prediction, and none should be inferred.
+- **Drug Interactions**: The interaction query completed, but it returned only pharmacology target records, not clinical drug–drug interactions. These records show that elafibranor acts on PPARα (PPARA) and PPARβ/δ (PPARD).
+
+Please refer to the package insert for warnings and contraindications, as this information was not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a computational TxGNN score, with no clinical trials, no literature and no mechanistic link supported by the supplied data. The evidence level is L5, so the prediction cannot yet justify further development.
+The only support for amenorrhea is a high model prediction score (99.86%). There are no clinical trials or publications, the mechanistic link is speculative, and the data on label warnings and contraindications is missing. This is Evidence Level L5.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert (warnings and contraindications) for the safety screen
-- Mechanism of action data from DrugBank
-- The original approved indication, to assess similarity to the predicted one
-- A defined amenorrhea subtype (for example hypothalamic, ovarian or uterine)
-- Independent target validation and a literature review for PPAR-alpha/delta and reproductive endocrine function
-- A reproductive-safety assessment before any clinical consideration
-
-*This report is for research reference only and does not constitute medical advice. The predicted indication requires clinical validation before any application.*
+- Health Canada product monograph warnings and contraindications, which are required before any safety screening
+- Detailed mechanism-of-action data (for example from DrugBank)
+- A literature and trial search on PPARα/δ agonism and amenorrhea, or on the related conditions (such as PCOS)
+- Preclinical or mechanistic evidence for an effect on the reproductive endocrine axis
+- Assessment of the clinical need in amenorrhea, the target population, and route and formulation compatibility
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

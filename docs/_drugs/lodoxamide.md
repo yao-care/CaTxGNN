@@ -2,7 +2,7 @@
 layout: default
 title: Lodoxamide
 parent: Model Prediction Only (L5)
-nav_order: 549
+nav_order: 554
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,32 +29,51 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lodoxamide: From Ophthalmic Allergic Use to Rosacea Conjunctivitis
+# Lodoxamide: From Allergic Conjunctivitis to Rosacea Conjunctivitis
 
 ## One-Sentence Summary
 
-Lodoxamide is marketed in Canada as an ophthalmic product (ALOMIDE), although its approved indication is not listed in the record. It is generally known as a topical mast cell stabilizer.
-The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so this is a model prediction only.
+Lodoxamide is a mast cell stabilizer used as an eye drop for allergic conjunctival diseases, including vernal keratoconjunctivitis and atopic and papillary conjunctivitis.
+The TxGNN model predicts it may be useful for **rosacea conjunctivitis**,
+but **no clinical trials and no publications** currently support this direction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the record (generally known as a topical ophthalmic mast cell stabilizer) |
+| Original Indication | Vernal conjunctivitis, papillary conjunctivitis, atopic conjunctivitis, vernal keratoconjunctivitis |
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 98.43% |
 | Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the record. Lodoxamide is generally known as a topical ophthalmic mast cell stabilizer, meaning it reduces the release of inflammatory mediators from mast cells. This is background knowledge, not data from this dataset.
+Lodoxamide is a mast cell stabilizer. Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology sources note that the precise primary molecular target of mast cell stabilizers is not fully resolved. One in vitro finding shows lodoxamide inhibits the migration of THP-1 cells in a GPR35-dependent manner, and GPR35 is a candidate target.
 
-Rosacea conjunctivitis is an inflammatory condition of the ocular surface. Mast cell activity plausibly contributes to ocular surface inflammation, so a mast cell stabilizer applied to the eye could conceivably help. No trial or publication tests this idea. It should be treated as a research question, not an established benefit.
+Ocular rosacea involves inflammation of the lid margin and conjunctiva, so there is some overlap with the ocular surface inflammation in lodoxamide's approved indications. The topical ophthalmic route would also be the same.
 
-Two other top-ranked predictions, punctate epithelial keratoconjunctivitis (97.5%) and blepharoconjunctivitis (93.4%), also involve the ocular surface and follow the same logic. By contrast, some lower-ranked predictions have no plausible mechanistic link and are likely knowledge-graph artifacts. Examples are nail infection and infective urethral stricture.
+The link is indirect, however. The main drivers of rosacea (meibomian gland dysfunction, Demodex, and innate immune dysregulation) are not mast cell-dominated. The high score is a computational prediction only and has not been validated.
+
+### Other Predicted Indications
+
+The model also ranks other conditions. Their support is as follows:
+
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Punctate epithelial keratoconjunctivitis | 97.51% | Adjacent ocular surface inflammation with the same route; plausible but unvalidated (Research Question) |
+| 3 | Infectious anterior uveitis | 96.11% | Intraocular disease; topical drug is unlikely to reach adequate concentrations; weak link (Hold) |
+| 4 | Idiopathic uveitis | 96.09% | T cell and cytokine-driven; penetration concern (Hold) |
+| 5 | Nail infection | 95.34% | No antimicrobial activity; likely a knowledge-graph artifact (Hold) |
+| 6 | Neurotrophic keratopathy | 94.69% | Nerve damage is not addressed by mast cell stabilization (Hold) |
+| 7 | Blepharoconjunctivitis | 93.44% | Allergic subtypes overlap with approved uses; plausible but unvalidated (Research Question) |
+| 8 | Postinfectious vasculitis | 93.36% | Systemic condition; minimal systemic exposure from topical use (Hold) |
+| 9 | Post-bacterial disorder | 93.24% | Vague category with no defined pathophysiology (Hold) |
+| 10 | Infective urethral stricture | 93.09% | Fibrotic condition; route incompatible (Hold) |
+
+Among these, punctate epithelial keratoconjunctivitis and blepharoconjunctivitis (allergic forms) are the most biologically plausible.
 
 ## Clinical Trial Evidence
 
@@ -66,31 +85,29 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 893560 | ALOMIDE |
-
-The record does not list a dosage form or approved indication for this authorization.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00893560 | ALOMIDE | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found.
+- **Drug Interactions**: No drug-drug interaction records were found. One pharmacology record lists GPR35 as a target of lodoxamide (a target association, not a drug interaction).
+
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high model score (98.43%) is not backed by any clinical trial or publication, which places this at evidence level L5. The mechanism is plausible for the ocular surface but unverified, and safety and indication data for the Canadian product are missing.
+The prediction for rosacea conjunctivitis is supported only by the model score (Evidence Level L5), with no clinical trials or publications. The mechanistic link is indirect, and the original mechanism of action data is unavailable. It is best treated as a research question rather than a candidate ready for development.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (approved indication, warnings and contraindications) for ALOMIDE
-- Mechanism of action data from DrugBank
-- A targeted literature search on mast cell stabilizers in ocular rosacea and rosacea conjunctivitis
-- Ophthalmology expert review of the mechanistic plausibility
-- Confirmation of route compatibility (topical ophthalmic use) for the predicted indication
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from Health Canada, which are required before any safety screening
+- Mechanism of action data (for example from DrugBank), including confirmation of the role of GPR35
+- A literature and trial search focused on ocular rosacea, punctate epithelial keratoconjunctivitis, and allergic blepharoconjunctivitis
+- Confirmation of the approved indication text, dosage form, and route of administration for the Canadian product
+- Preclinical or small exploratory studies to test whether mast cell stabilization has any benefit in ocular rosacea
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

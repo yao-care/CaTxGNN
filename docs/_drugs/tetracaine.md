@@ -2,7 +2,7 @@
 layout: default
 title: Tetracaine
 parent: Model Prediction Only (L5)
-nav_order: 895
+nav_order: 902
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Tetracaine: From Local Anesthesia to Acrodermatitis Chronica Atrophicans
+# Tetracaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
 
 ## One-Sentence Summary
 
-Tetracaine is a sodium channel-blocking local anesthetic marketed in Canada in several topical and ophthalmic products.
-The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, a chronic atrophic skin disease driven by Borrelia infection.
-Currently **0 clinical trials** and **0 publications** support this prediction, so it rests on the model score alone.
+Tetracaine is an ester local anaesthetic, originally associated with dermatitis in the knowledge graph used for this analysis and marketed in Canada mainly as a topical anaesthetic.
+The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, but **no clinical trials and no publications** currently support this prediction.
+The prediction rests on model output alone and should be treated as a hypothesis.
 
 ---
 
@@ -43,7 +43,7 @@ Currently **0 clinical trials** and **0 publications** support this prediction, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anesthesia (approved-indication text not available in the license records) |
+| Original Indication | Dermatitis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
@@ -55,45 +55,47 @@ Currently **0 clinical trials** and **0 publications** support this prediction, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Tetracaine is a local anesthetic that works by blocking sodium channels in nerve membranes, which stops pain signals. It is used mainly on the skin, in the eye and for spinal anesthesia.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, tetracaine is an ester local anaesthetic that blocks voltage-gated sodium channels, which reduces nerve conduction and produces local numbness.
 
-Acrodermatitis chronica atrophicans is a late-stage skin manifestation of Borrelia infection (Lyme disease), marked by progressive skin thinning. The disease is infectious and inflammatory, and nerve conduction block does not address either process. We found no mechanistic link between the two.
+Acrodermatitis chronica atrophicans is a late-stage skin manifestation of *Borrelia* infection (Lyme disease). Sodium channel blockade does not act on this infection or on its skin atrophy. No credible mechanistic link could be established. The high score (rank 1,884 in the model's overall ranking) is best read as a knowledge-graph association, probably driven by the shared "skin disease" context with dermatitis, and not as evidence of therapeutic benefit.
 
-The high TxGNN score probably reflects patterns in the knowledge graph rather than biological rationale. It should be read as a hypothesis-generating signal only. Route compatibility and similarity to the original indication have not yet been assessed.
+Other top-ranked predictions show the same pattern. These include neonatal dermatomyositis, amyopathic dermatomyositis, hydroa vacciniforme, bronchitis, childhood connective-tissue-disease-associated interstitial lung disease, and irritable bowel syndrome. At best, tetracaine could give symptomatic topical anaesthesia, which does not modify the disease.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for acrodermatitis chronica atrophicans.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for acrodermatitis chronica atrophicans.
 
 ---
 
 ## Canada Market Information
 
-Seven DINs are on record; the five main authorizations are listed below. Dosage form and approved-indication text are not available for these entries.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02148544 | MINIMS TETRACAINE HYDROCHLORIDE | Not specified | Not specified |
+| 02230575 | AMETOP GEL 4% | Not specified | Not specified |
+| 02148528 | MINIMS TETRACAINE HYDROCHLORIDE | Not specified | Not specified |
+| 02398028 | PLIAGLIS | Not specified | Not specified |
+| 01930699 | ZAP TOPICAL ANESTHETIC GEL | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02148544 | MINIMS TETRACAINE HYDROCHLORIDE |
-| 02230575 | AMETOP GEL 4% |
-| 02148528 | MINIMS TETRACAINE HYDROCHLORIDE |
-| 02398028 | PLIAGLIS |
-| 01930699 | ZAP TOPICAL ANESTHETIC GEL |
+Seven valid single-ingredient licences are on record in total; the five main ones are shown above.
 
 ---
 
 ## Safety Considerations
 
-- **Neurotoxicity with intrathecal use**: Literature retrieved for another predicted disease (cauda equina syndrome) reports cauda equina syndrome and conus medullaris injury after spinal tetracaine. The reports include case reports, a 20-year follow-up, and animal and in vitro neurotoxicity studies. This is a harm signal for intrathecal use at high doses or with maldistribution, not a therapeutic one.
+- **Contraindication signals from the knowledge graph (not label text):** epilepsy, kidney disease, liver disease, gallbladder disease, heart disease (including cardiovascular disease, sudden cardiac arrest and heart conduction disease), respiratory failure, myasthenia gravis and other neuromuscular junction diseases, butyrylcholinesterase deficiency, hyperthyroidism (Graves disease, thyrotoxicosis), and several eye conditions (uveitis, iris and ciliary body disease, panuveitis, eye infections, conjunctivitis).
+- **Drug interactions:** 32 interactions were identified. Two are rated **Major**: nitrous acid and liposomal bupivacaine. Most of the others are Moderate, including other local anaesthetics (lidocaine, benzocaine, cocaine, proparacaine, oxybuprocaine, cinchocaine), benzodiazepines (alprazolam, chlordiazepoxide, clobazam, clonazepam, diazepam, estazolam), sulfonamides (sulfasalazine, sulfamethoxazole). Hyaluronidase is Minor.
+- **Neurotoxicity signal:** For the lower-ranked prediction of cauda equina syndrome, the literature (case reports, reviews and animal studies) describes tetracaine as a *cause* of the syndrome after spinal administration. This is an adverse-effect signal, not a therapeutic one, and this prediction should be excluded as a repurposing candidate.
 
-Please refer to the package insert for warnings, contraindications and drug interactions.
+Package-insert warnings and contraindications for the Canadian products were not available in the data compiled for this report. Please refer to the package insert for label safety information.
 
 ---
 
@@ -102,18 +104,14 @@ Please refer to the package insert for warnings, contraindications and drug inte
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature and no plausible mechanism linking a local anesthetic to a Borrelia-driven skin disease. Evidence is model prediction only (L5).
-
-Other predicted indications do not change this:
-- **Acne keloid**: the only evidence is procedural-anesthesia trials of lidocaine/tetracaine cream, which are indirect and not disease-treating.
-- **Cauda equina syndrome**: the literature describes harm, not benefit.
+The prediction is supported only by the model score. There are no trials or publications, and there is no plausible mechanistic link between sodium channel blockade and a *Borrelia*-related skin infection. The only trial found for any predicted indication (acne keloidalis nuchae) tested tetracaine cream for procedural pain relief, not disease treatment.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (required for safety screening)
-- Mechanism-of-action data from DrugBank
-- Any biological rationale linking sodium channel blockade to the disease, or evidence from preclinical or clinical studies
-- Route-of-administration compatibility assessment for the proposed indication
-- A check of whether the disease mapping is valid
+- Package-insert warnings and contraindications for the Canadian products (currently a blocking gap for safety screening)
+- Detailed mechanism of action data (MOA) and a credible biological rationale for the predicted indication
+- Any preclinical or clinical evidence in the predicted disease
+- Assessment of route compatibility, since the marketed products are topical or ophthalmic and the indication may need a different route
+- Consideration of whether a symptom-control use (topical anaesthesia of skin lesions) is a more realistic goal than disease modification
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

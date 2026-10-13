@@ -2,7 +2,7 @@
 layout: default
 title: Risdiplam
 parent: Model Prediction Only (L5)
-nav_order: 807
+nav_order: 814
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,78 +33,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Risdiplam is an SMN2 pre-mRNA splicing modifier, originally used to treat spinal muscular atrophy (SMA).
-The TxGNN model predicts it may be effective for **acne**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction rests on the knowledge-graph score alone, and no plausible biological link is evident.
-
----
+Risdiplam is an SMN2 splicing modifier that is marketed in Canada under the brand name EVRYSDI. The TxGNN model predicts it may be effective for **acne**, but **no clinical trials and no publications** currently support this prediction. It is a computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Spinal muscular atrophy (the Health Canada licence indication text was not supplied) |
-| Predicted New Indication | Acne |
+| Original Indication | Spinal muscular atrophy (based on drug class knowledge; the Canadian licence records compiled for this report contain no indication text) |
+| Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 99.45% |
 | Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for risdiplam is not available in the Evidence Pack. Based on known information, risdiplam modifies splicing of SMN2 pre-mRNA to increase the amount of functional SMN protein. Its efficacy has been established in SMA.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, risdiplam is an SMN2 splicing modifier used in spinal muscular atrophy, where it increases production of functional SMN protein.
 
-The link to acne is weak. Acne involves sebaceous gland activity, follicular hyperkeratinisation and *C. acnes*-related inflammation. No mechanism connects SMN2 splicing modulation to any of these processes. The high TxGNN score (99.45%) is a graph-based prediction and does not reflect independent biological or clinical evidence.
-
-The other top-ranked predictions have the same limitation. They include drug-induced osteoporosis, common wart, dermatitis and several melanoma subtypes. All are L5, with no trials or literature, and the melanoma entries likely score high because they sit close together in the graph. For acne, a skin condition, the only slightly relevant point is that skin-related adverse reactions have been reported with risdiplam, which argues against a therapeutic role.
-
----
+No mechanistic pathway linking SMN2 splicing modulation to acne is supported by the available data. The score of 0.995 is a computational prediction only and has no clinical or literature backing. Acne is a skin condition, and the other top-ranked predictions for this drug also cluster around skin conditions (dermatitis, warts, several melanoma subtypes). This pattern may reflect a bias in the knowledge graph rather than true biological relevance. Any hypothesis would need independent preclinical validation first.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2560747 | EVRYSDI |
-| 2514931 | EVRYSDI |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02560747 | EVRYSDI | Not specified | Not specified |
+| 02514931 | EVRYSDI | Not specified | Not specified |
 
----
+## Other Predicted Indications (for Reference)
+
+All of the following predictions are at evidence level L5, with no trials or publications, and a recommendation of Hold.
+
+| Rank | Predicted Indication | TxGNN Score |
+|------|------|------|
+| 2 | Drug-induced osteoporosis | 97.72% |
+| 3 | Zinc, elevated plasma | 97.32% |
+| 4 | Common wart | 97.21% |
+| 5 | Metastatic melanoma | 96.84% |
+| 6 | Dermatitis | 96.62% |
+| 7 | Non-cutaneous melanoma | 96.18% |
+| 8 | Acrodermatitis chronica atrophicans | 96.11% |
+| 9 | Epithelioid cell melanoma | 95.93% |
+| 10 | Eyelid melanoma | 95.88% |
+
+The melanoma predictions (ranks 5, 7, 9 and 10) are likely correlated rather than independent signals.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions** (2 moderate-level interactions found):
+- Metformin (Moderate)
+- Methylnaltrexone (Moderate)
 
-Ocular and periocular tissues warrant caution because of risdiplam's retinal safety monitoring considerations. Risdiplam can also alter splicing of off-target genes, which would need review before any use outside SMA.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no clinical trials, no literature and no identifiable mechanistic link between SMN2 splicing modulation and acne. Risdiplam's off-target splicing effects and reported skin adverse reactions add further caution.
+The prediction rests entirely on a model score. There are no clinical trials, no publications, and no supported mechanistic link between risdiplam and acne. The package insert warnings and contraindications are also unavailable, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings, contraindications and approved indication text), which is currently missing and blocks safety screening
-- Mechanism of action data from DrugBank to assess any plausible link to sebaceous gland or inflammatory pathways
-- Preclinical evidence, such as in vitro or animal models, showing activity relevant to acne
-- Evaluation of route compatibility, since the available formulation and the route a dermatological use would need are both unassessed
-- A comparison of the benefit against the safety profile in a population that does not have SMA
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data for risdiplam
+- Approved indication text and dosage form for the two Canadian licences
+- Preclinical evidence of a biological link between SMN2 splicing modulation and acne
+- Route compatibility assessment, since acne would likely require a different route of administration than the current product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

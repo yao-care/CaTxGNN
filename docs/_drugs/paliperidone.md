@@ -2,7 +2,7 @@
 layout: default
 title: Paliperidone
 parent: Model Prediction Only (L5)
-nav_order: 694
+nav_order: 700
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Paliperidone: From Schizophrenia to Retinal Dystrophy (With or Without Extraocular Anomalies)
+# Paliperidone: From Schizophrenia to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-Paliperidone is an atypical antipsychotic used for schizophrenia, and it is marketed in Canada as INVEGA and INVEGA TRINZA.
-The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but **0 clinical trials** support this prediction.
-The 15 retrieved publications are general ophthalmology papers, and none of them study paliperidone.
+Paliperidone is an antipsychotic originally used to treat schizophrenia and related psychotic disorders.
+The TxGNN model predicts it may be effective for **retinal dystrophy (with or without extraocular anomalies)**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on the model alone.
 
 ---
 
@@ -43,7 +42,7 @@ The 15 retrieved publications are general ophthalmology papers, and none of them
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia (taken from the prediction notes, because the license records contain no indication text) |
+| Original Indication | Schizophrenia, schizoaffective disorder, schizophreniform disorder, psychotic disorder (from the knowledge graph; the Canadian licence records contain no indication text) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
@@ -55,9 +54,11 @@ The 15 retrieved publications are general ophthalmology papers, and none of them
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, paliperidone is a D2/5-HT2A receptor antagonist (the active metabolite of risperidone) with proven efficacy in schizophrenia. Nothing in this pharmacology connects it to inherited retinal degeneration.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, paliperidone is a dopamine D2 and serotonin 5-HT2A receptor antagonist. Its efficacy in schizophrenia is established.
 
-Retinal dystrophies are genetically driven degenerative conditions of the retina. Dopamine and serotonin receptor blockade has no known disease-modifying role in them. The very high TxGNN score (99.92%) most likely reflects a knowledge-graph artifact rather than biological support, so the prediction should be treated as a computational signal only.
+A mechanistic link to inherited retinal degeneration is hard to find. No established pathway connects D2/5-HT2A antagonism to the genetic and degenerative processes behind retinal dystrophies. The high score is most likely a graph-based artifact of the knowledge graph rather than a biologically grounded signal.
+
+The same applies to the other top-ranked predictions, including several myopia subtypes, hydranencephaly, a glycosylation disorder and a hereditary neuropathy. None has any trial or literature support. The only prediction with any supporting studies is treatment-refractory schizophrenia. That is a sub-population of the original indication, not a true repurposing target, and the three Phase 4 trials found do not show paliperidone-specific efficacy there.
 
 ---
 
@@ -69,40 +70,44 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The publications below were retrieved for the predicted disease area. None involves paliperidone, and none is an RCT. They provide background on the disease only, not evidence for the drug.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome complex: vitreoretinal degeneration with myopia, cataract and retinal detachment |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatr Radiol | Imaging and differential diagnosis of pediatric ocular pathologies |
-| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Review | Arch Ophthalmol | Clinical features and management of orbital arteriovenous malformations |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | Am J Ophthalmol | Two cases of unilateral cryptophthalmia |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | J Neuroophthalmol | Isolated trochlear-oculomotor synkinesis in a 6-year-old boy |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Unclassified | Optom Vis Sci | Synergistic divergence in congenital fibrosis of the extraocular muscles |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Unclassified | Am J Ophthalmol | Pathogenesis and treatment of maculopathy with cavitary optic disc anomalies |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Unclassified | Int J Mol Sci | Optic nerve head and retinal abnormalities in congenital fibrosis of the extraocular muscles |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Unclassified | J Binocul Vis Ocul Motil | Ophthalmoplegia and congenital cranial dysinnervation disorders |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Unclassified | Taiwan J Ophthalmol | Congenital anomalies of lens shape |
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
+Paliperidone has 11 valid single-ingredient authorizations in Canada, with no cancelled licences. The records compiled for this report contain no dosage form or approved-indication text. The first five are:
+
 | DIN | Product Name |
 |---------|------|
-| 2300273 | INVEGA |
-| 2300303 | INVEGA |
-| 2300281 | INVEGA |
-| 2455994 | INVEGA TRINZA |
-| 2456001 | INVEGA TRINZA |
+| 02300273 | INVEGA |
+| 02300303 | INVEGA |
+| 02300281 | INVEGA |
+| 02354241 | INVEGA SUSTENNA |
+| 02455994 | INVEGA TRINZA |
 
-Showing 5 of 11 authorizations. Dosage form and approved indication text are not available in the license records.
+The remaining DINs belong to the same INVEGA, INVEGA SUSTENNA and INVEGA TRINZA product families.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindication signals (knowledge graph, not label text)**: Conditions flagged include:
+  - Cardiovascular and rhythm conditions: long QT syndrome (including familial), torsades de pointes, orthostatic hypotension, postural orthostatic tachycardia syndrome, hypotensive disorder, myocardial infarction and coronary thrombosis.
+  - Neurological conditions: epilepsy, multiple system atrophy, basal ganglia disease, focal hand dystonia and blepharospasm.
+  - Metabolic conditions: diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hyperlipidemia (including familial), obesity disorder and potassium deficiency disease.
+  - Haematological conditions: neutropenia, agranulocytosis and hemoglobinopathy.
+  - Other conditions: Crohn disease, inflammatory bowel disease, female breast carcinoma and impaired renal function.
+- **Drug Interactions**: The interaction query returned 100 records. The 20 reviewed here include two **Major** interactions:
+  - Bupropion
+  - Morphine
+
+  The rest are **Moderate**:
+  - Antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, albiglutide, canagliflozin, chlorpropamide)
+  - Anticholinergic or gastrointestinal agents (atropine, hyoscyamine, glycopyrronium, loperamide, bisacodyl)
+  - Other agents (famotidine, epinephrine, hydrocortisone, amphotericin B and its lipid complex, lorcaserin)
+
+Please refer to the Canadian package insert for the official warnings and contraindications.
 
 ---
 
@@ -111,16 +116,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials, no relevant literature, and no plausible mechanistic link between D2/5-HT2A antagonism and inherited retinal degeneration.
+The retinal dystrophy prediction has a very high model score but no clinical trials, no literature and no plausible mechanistic link (Evidence Level L5). The only prediction with supporting studies is treatment-refractory schizophrenia, which is not a new indication.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank to support any mechanistic-link analysis
-- Health Canada package insert warnings and contraindications for safety screening
-- Preclinical evidence in a retinal degeneration model, which would be required before any clinical consideration
-
-**Note on other predictions:** Of the 10 predicted indications, only *treatment-refractory schizophrenia* (rank 10, score 99.80%) has clinical trials. These are four Phase 4 studies, giving Evidence Level L3 and a "Research Question" rating. It falls within the drug's approved use and has no Phase 3 RCT, so it is a better candidate for follow-up than the top-ranked prediction.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data and a documented biological rationale linking paliperidone to retinal pathways
+- Preclinical evidence (for example, retinal cell or animal model studies) to move beyond model-only support
+- Health Canada package insert warnings and contraindications, to complete the safety screening
+- Review of the other high-scoring predictions to decide whether any warrants separate investigation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

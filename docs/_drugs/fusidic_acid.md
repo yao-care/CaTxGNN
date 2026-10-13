@@ -2,7 +2,7 @@
 layout: default
 title: Fusidic Acid
 parent: Moderate Evidence (L3-L4)
-nav_order: 418
+nav_order: 421
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Fusidic Acid: From Topical Antibacterial Use to Exposure Keratitis
+# Fusidic Acid: From Bacterial Infections to Exposure Keratitis
 
 ## One-Sentence Summary
 
-Fusidic acid is an antibacterial, marketed in Canada in cream, ointment and ophthalmic products.
-The TxGNN model predicts it may be effective for **exposure keratitis**, but there are **0 clinical trials** and only **1 publication** (a case series that does not test fusidic acid) behind this prediction.
-The link is indirect and the evidence is weak.
+Fusidic acid is an antibacterial agent used mainly against Gram-positive infections, especially Staphylococcus, and in the knowledge graph it is linked to conditions such as urinary tract infection, acne, folliculitis and bacterial pneumonia.
+The TxGNN model predicts it may be effective for **exposure keratitis**,
+but there are **0 clinical trials** and only **1 publication** (a case series on a different organism) behind this prediction, so the evidence is weak.
 
 ---
 
@@ -43,6 +43,7 @@ The link is indirect and the evidence is weak.
 
 | Item | Content |
 |------|------|
+| Original Indication | Bacterial infections (urinary tract infection, bronchitis, acne, folliculitis, bacterial pneumonia, among others, from the knowledge graph). The Canadian licence records compiled for this report contain no approved indication text. |
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
@@ -54,11 +55,11 @@ The link is indirect and the evidence is weak.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for fusidic acid is not available in the Evidence Pack. Fusidic acid is generally known to inhibit bacterial protein synthesis by blocking elongation factor G, with strong activity against *Staphylococcus aureus*.
+Fusidic acid inhibits bacterial protein synthesis by binding elongation factor G. Its activity is mainly against Gram-positive organisms such as Staphylococcus. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on the general understanding of the drug.
 
-Exposure keratitis is mainly a non-infectious disorder of the corneal surface. Any benefit from fusidic acid would be indirect, by treating a secondary bacterial infection of the damaged cornea. The only retrieved publication is a case series of ocular *Tsukamurella* infections, which does not show that fusidic acid helps this disease. The high score therefore mostly reflects the knowledge-graph pattern, not clinical proof.
+Exposure keratitis is mainly a mechanical or desiccation disorder of the cornea, in which the surface dries out because the eyelids do not close properly. Antibacterial activity would only matter if a secondary infection developed. The one retrieved paper is a case series of ocular Tsukamurella infections. It is not a study of fusidic acid in exposure keratitis. The link between the original indications and this prediction is therefore indirect and speculative.
 
-Among the other top-10 predictions, **otitis externa** has the most plausible link. *S. aureus* and *S. pseudintermedius* are common pathogens there, but the literature is mostly veterinary microbiology and does not report fusidic acid treatment outcomes.
+It is worth noting that a licensed ophthalmic product (FUCITHALMIC) is already marketed in Canada. This suggests ocular use for bacterial infection is established, but that is different from evidence for exposure keratitis itself.
 
 ---
 
@@ -72,27 +73,39 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Largest case series of *Tsukamurella* ophthalmic infections, covering clinical spectrum, risk factors, treatment and outcome. It does not evaluate fusidic acid for exposure keratitis. |
+| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Largest case series of Tsukamurella-associated ophthalmic infections, covering clinical spectrum, risk factors, treatment and outcome. It does not study fusidic acid in exposure keratitis. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2243862 | FUCITHALMIC |
-| 586668 | FUCIDIN CREAM 2% |
-| 586676 | FUCIDIN OINTMENT 2% |
-| 2528096 | TARO-FUSIDIC ACID |
-| 2474883 | FUCIBET |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02243862 | FUCITHALMIC | Not specified | Not specified |
+| 00586668 | FUCIDIN CREAM 2% | Not specified | Not specified |
+| 00586676 | FUCIDIN OINTMENT 2% | Not specified | Not specified |
+| 02528096 | TARO-FUSIDIC ACID | Not specified | Not specified |
+| 02474883 | FUCIBET | Not specified | Not specified |
 
-The Evidence Pack lists 5 of the 6 licences and gives no dosage form or approved indication text for them.
+A sixth authorisation, FUCIDIN H (DIN 02238578), is also valid. All six are single-ingredient, valid licences, and none are cancelled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The knowledge graph lists the following conditions as contraindication-related for this drug. These come from graph relationships, not from package insert text, and should be verified against the label:
+
+- **Hepatic and renal:** liver failure, liver disease, kidney disease, gallbladder disease
+- **Ocular:** herpes simplex virus keratitis, open-angle glaucoma, glaucoma, ocular hypertension, eye infectious disease, conjunctivitis
+- **Metabolic:** diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease
+- **Cardiac:** atrial fibrillation, atrioventricular block, Adams-Stokes syndrome, Wolff-Parkinson-White syndrome
+- **Gastrointestinal:** Clostridium difficile colitis, colitis, perinatal necrotizing enterocolitis, dyskinesia of esophagus
+- **Neuromuscular and respiratory:** myasthenia gravis, neuromuscular junction disease, respiratory failure, central nervous system origin vertigo
+- **Other:** pyoureter
+
+Several of these entries (for example the cardiac and metabolic ones) look unusual for fusidic acid, which suggests the graph may mix in class-level or combination-product signals (the Canadian list includes combination-type brands such as FUCIDIN H and FUCIBET). They should be interpreted cautiously.
+
+No drug interaction records were found. Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -101,14 +114,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but there are no clinical trials and the only publication does not address fusidic acid. The mechanism is only an indirect anti-infective link, since exposure keratitis is mainly non-infectious.
+The prediction score is high, but no clinical trials exist and the single publication is an unrelated-organism case series. Exposure keratitis is mainly a non-infectious surface disorder, so the mechanistic link is weak. The package insert safety information has also not yet been obtained.
 
 **To proceed, the following is needed:**
-- Health Canada package insert data (warnings, contraindications, approved indications), which is currently blocking safety screening
-- Detailed mechanism of action data
-- Evidence that fusidic acid, especially the ophthalmic product, benefits corneal disease with secondary staphylococcal infection
-- Consideration of better-supported predictions, such as otitis externa, in a separate evaluation
-- Verification of the target condition of the completed Phase 3 oral sodium fusidate trial [NCT02570490](https://clinicaltrials.gov/study/NCT02570490). It was linked to a different prediction (post-bacterial disorder) and probably addresses skin infection, an existing use.
+- Package insert warnings and contraindications from Health Canada, plus approved indication text and dosage forms for each DIN
+- Detailed mechanism-of-action data
+- Evidence on whether fusidic acid has any role in infected or secondary exposure keratitis, including ophthalmic-use clinical data
+- Review of the other predictions, in particular **otitis externa** (score 99.84%, 5 supporting microbiology papers, mostly canine). It has a more plausible mechanism, as typical pathogens such as *S. aureus* are within fusidic acid's spectrum. However, there are no clinical studies, and it may reflect an existing use rather than a novel one. It may be a better candidate for a research question than exposure keratitis.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

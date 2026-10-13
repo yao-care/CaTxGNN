@@ -2,7 +2,7 @@
 layout: default
 title: Dalbavancin
 parent: Model Prediction Only (L5)
-nav_order: 241
+nav_order: 243
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dalbavancin: From Acute Bacterial Skin Infections to Postinfectious Vasculitis
+# Dalbavancin: From Skin Infection to Postinfectious Vasculitis
 
 ## One-Sentence Summary
 
-Dalbavancin is a long-acting intravenous antibiotic for gram-positive bacterial infections, mainly acute bacterial skin and skin structure infections (ABSSSI). The TxGNN model predicts it may be effective for **postinfectious vasculitis**, but **0 clinical trials** and **0 publications** currently support this prediction. It is a graph-based prediction only.
-
----
+Dalbavancin is an antibiotic originally used to treat skin disease caused by infection.
+The TxGNN model predicts it may be effective for **postinfectious vasculitis**,
+but **no clinical trials and no publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute bacterial skin and skin structure infections (ABSSSI), based on the linked dalbavancin trials. The Canadian label text was not provided. |
+| Original Indication | Skin disease caused by infection |
 | Predicted New Indication | Postinfectious vasculitis |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Dalbavancin is a lipoglycopeptide antibiotic that inhibits cell wall synthesis in gram-positive bacteria. Its efficacy in bacterial skin infections has been shown in several Phase 3 trials.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dalbavancin is a lipoglycopeptide antibiotic that inhibits bacterial cell wall synthesis and is active against Gram-positive organisms. Its efficacy in infection-related skin disease is the basis of its original use.
 
-The mechanistic link to the predicted indication is weak. Postinfectious vasculitis is immune-mediated and typically develops after the pathogen has been cleared. An antibacterial is therefore unlikely to change its course. The 99.76% score reflects statistical association in the knowledge graph, not biological or clinical evidence.
+Postinfectious vasculitis is largely immune-mediated rather than an active bacterial infection. Antibacterial activity therefore has no clear direct link to this condition, unless a persistent Gram-positive infection is the trigger. The high TxGNN score most likely reflects proximity to infection-related conditions in the knowledge graph rather than a defined mechanism.
 
-A possible indirect role is that early, effective eradication of a gram-positive infection might reduce downstream immune sequelae. This is a hypothesis only and has no supporting data.
+**Other predictions reviewed:** The nine other predicted indications were also examined, and all are supported by model scores only (no trials or literature):
 
----
+| Predicted Indication | Score | Assessment |
+|------|------|------|
+| Post-bacterial disorder | 99.76% | Non-specific category; antibacterial action would not address sequelae after the pathogen has cleared |
+| Post-infectious syndrome | 99.76% | Generic category with no defined mechanism |
+| Infective urethral stricture | 99.74% | Fibrotic and anatomical; an antibiotic would not reverse the stricture |
+| Chagas cardiomyopathy | 99.72% | Parasitic cause; no plausible mechanism, likely a graph artifact |
+| Infection-related hemolytic uremic syndrome | 99.72% | Mostly Gram-negative STEC; antibiotics generally not recommended |
+| Otitis externa | 99.70% | Often Pseudomonas, which is not covered; topical therapy is standard |
+| Ophthalmic herpes zoster | 99.25% | Viral cause; no antiviral activity |
+| Infectious mononucleosis | 99.16% | Viral (EBV); antibacterial therapy not indicated |
+| Orbital cellulitis | 99.02% | Most plausible: typically S. aureus (including MRSA) and streptococci, which dalbavancin covers, and close to its approved skin and soft-tissue infection use. Orbital tissue penetration and polymicrobial etiology remain uncertain. Flagged as a research question |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2480522 | XYDALBA |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02480522 | XYDALBA | Not available | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The Health Canada package insert warnings and contraindications have not yet been collected, and no drug interaction records were found.
+**Drug Interactions** (3 moderate-level interactions recorded):
+- Picosulfuric acid (Moderate)
+- Ethinylestradiol (Moderate)
+- Mycophenolic acid (Moderate)
 
----
+For warnings and contraindications, please refer to the package insert. Label-based safety information was not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no trials or publications, and the mechanism is implausible because an antibacterial is unlikely to modify an immune-mediated, post-clearance condition.
+The prediction rests only on a model score (L5) with no trials or literature, and the mechanism is weak because postinfectious vasculitis is largely immune-mediated. Among the ten predictions, orbital cellulitis is the only one with a plausible link, and it merits a research question rather than clinical adoption.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which block safety screening
-- Detailed mechanism of action data
-- Any case reports, observational data or mechanistic studies linking dalbavancin to vasculitis outcomes
-- A definition of the target population and clinical endpoint for postinfectious vasculitis
-- A check of the other predicted indications. "Post-bacterial disorder" (rank 2) and "post-infectious syndrome" (rank 3) have linked dalbavancin trials, but these study active infections, so the evidence is indirect. Orbital cellulitis (rank 10) is biologically plausible for gram-positive pathogens but has no trials or literature.
+- Mechanism of action data
+- Warnings and contraindications from the Health Canada package insert, needed before any safety screening
+- Approved indication text, dosage form, and manufacturer details for the Canadian licence
+- For orbital cellulitis: pharmacokinetic review of orbital tissue penetration and case-level literature review
+- Evidence of a persistent Gram-positive trigger if postinfectious vasculitis is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pitolisant
-parent: Moderate Evidence (L3-L4)
-nav_order: 737
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 744
+evidence_level: L5
 indication_count: 3
 ---
 
 # Pitolisant
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Pitolisant: From Narcolepsy-Related Excessive Daytime Sleepiness to Insomnia
+# Pitolisant: From Narcolepsy to Insomnia
 
 ## One-Sentence Summary
 
-Pitolisant (marketed in Canada as WAKIX) is a histamine H3 receptor antagonist/inverse agonist. It is used to promote wakefulness in narcolepsy-related sleepiness.
-The TxGNN model predicts it may be effective for **insomnia** with a very high score, but only **1 registered clinical trial** (withdrawn, 0 participants) and **10 publications** were retrieved, and none of them shows efficacy in insomnia.
-The predicted direction of effect also conflicts with the drug's mechanism, so this prediction is likely a knowledge-graph artifact.
+Pitolisant is a histamine H3 receptor inverse agonist, originally used to treat narcolepsy (with or without cataplexy).
+The TxGNN model predicts it may be effective for **insomnia**, but there are **no registered clinical trials** and the **10 publications** compiled concern narcolepsy and related sleep disorders rather than insomnia itself.
+The prediction is mechanistically questionable, because pitolisant is a wake-promoting drug and insomnia is a known adverse effect of it.
 
 ---
 
@@ -43,10 +43,10 @@ The predicted direction of effect also conflicts with the drug's mechanism, so t
 
 | Item | Content |
 |------|------|
-| Original Indication | Narcolepsy-related excessive daytime sleepiness (taken from the retrieved literature and mechanism notes; the Health Canada indication text is not available in this pack) |
+| Original Indication | Narcolepsy (with or without cataplexy). Health Canada indication text was not available, so this is taken from the drug's known indications in the knowledge graph. |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (no trials; mechanism and review-level literature only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
@@ -55,58 +55,52 @@ The predicted direction of effect also conflicts with the drug's mechanism, so t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. From the literature, pitolisant is a selective histamine H3 receptor antagonist/inverse agonist. By blocking the H3 autoreceptor it increases histamine release in the brain and promotes wakefulness. It has been authorised in Europe and the USA for adults with narcolepsy with or without cataplexy.
+Detailed mechanism of action data is not available in the compiled data. From the literature, pitolisant is a selective histamine H3 receptor antagonist/inverse agonist. By blocking the H3 autoreceptor, it increases histamine release in the brain and promotes wakefulness. That is why it works for excessive daytime sleepiness in narcolepsy.
 
-The prediction does not hold up well mechanistically. Insomnia is a hyperarousal condition, and a wake-promoting drug pushes in the opposite direction from the therapeutic goal. Insomnia is also a recognised adverse effect of pitolisant. The high TxGNN score most likely reflects the drug's close knowledge-graph link to sleep-wake disorders in general, not a plausible therapeutic effect.
-
-The retrieved literature covers narcolepsy, obstructive sleep apnea (OSA) and pediatric sleep disorders. None of it demonstrates a benefit in insomnia. Evidence is indirect only, and the direction of effect is unfavourable.
+The relationship between the original and predicted indications is weak. Both are sleep-wake disorders, which is likely why the knowledge graph links them. However, they call for opposite pharmacological effects. Narcolepsy treatment needs more arousal, while insomnia treatment needs less. Enhancing histaminergic signalling would more plausibly worsen insomnia, and insomnia is a recognised side effect of pitolisant. The high score (0.997) is therefore most likely a graph-based association rather than a true therapeutic rationale. Any benefit would probably be limited to indirect situations, such as residual daytime sleepiness in related sleep disorders.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Phase 2 | Withdrawn | 0 | Randomised, double-blind, placebo-controlled trial of pitolisant in alcohol use disorder, with sleep among the secondary outcomes. It was withdrawn before enrolment, so it produced no efficacy or safety data. It is not an insomnia trial. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-None of these publications studies insomnia as a treatment target. They are listed as the closest available context (RCTs first).
+None of the publications below tests pitolisant in insomnia. They are included as the closest available evidence on pitolisant and sleep-wake disorders.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | The Lancet. Neurology | Phase 3 double-blind, placebo-controlled trial of pitolisant safety and efficacy in children aged 6 or older with narcolepsy, with or without cataplexy |
-| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | RCT | Chest | Randomised trial in OSA patients adhering to CPAP who still have residual excessive daytime sleepiness |
-| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | Double-blind, placebo-controlled trial of daytime sleepiness in moderate-to-severe OSA patients who refuse CPAP |
-| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Cohort | Revista de neurologia | Real-life WAKE study of effectiveness and safety in type 1 narcolepsy patients unresponsive to or intolerant of prior treatments |
-| [41588264](https://pubmed.ncbi.nlm.nih.gov/41588264/) | 2026 | Cohort | Neurological Sciences | Retrospective single-center study of 40 Chinese pediatric narcolepsy patients treated with pitolisant |
+| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | The Lancet. Neurology | Phase 3 double-blind, placebo-controlled trial of pitolisant in children aged 6 and older with narcolepsy, with or without cataplexy |
+| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | RCT | Chest | Pitolisant for residual excessive daytime sleepiness in sleep apnoea patients adherent to CPAP |
+| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | Pitolisant for daytime sleepiness in moderate to severe sleep apnoea patients who refuse CPAP |
+| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Cohort | Revista de neurologia | Real-life WAKE study of pitolisant in type 1 narcolepsy patients unresponsive to previous treatments |
+| [41588264](https://pubmed.ncbi.nlm.nih.gov/41588264/) | 2026 | Cohort | Neurological Sciences | Real-world study of pitolisant in 40 Chinese children with narcolepsy |
+| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Review | Drug Des Devel Ther | Profile of pitolisant in narcolepsy management: design, development and place in therapy |
+| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Review | Current Neuropharmacology | Histaminergic system changes in neuropsychiatric disorders; pitolisant for narcolepsy sleepiness, doxepin (an H1 antagonist) for insomnia |
+| [42525367](https://pubmed.ncbi.nlm.nih.gov/42525367/) | 2026 | Review | Neurology and Therapy | Current and emerging therapies for paediatric sleep disorders, including insomnia and narcolepsy |
 | [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Review | Handbook of Clinical Neurology | Overview of histamine receptors, agonists and antagonists in health and disease |
-| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Review | Current Neuropharmacology | Histaminergic changes in neuropsychiatric disorders. Pitolisant is cited for excessive sleepiness in narcolepsy, and doxepin (an H1 antagonist) for insomnia. |
-| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Review | Drug Des Devel Ther | Profile of pitolisant in narcolepsy: design, development and place in therapy |
-| [42525367](https://pubmed.ncbi.nlm.nih.gov/42525367/) | 2026 | Review | Neurology and Therapy | Narrative review of current and emerging therapies for pediatric sleep disorders, including OSA, insomnia and narcolepsy |
-| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Review | Clinical Neuropharmacology | Pitolisant as an alternative stimulant for narcolepsy-cataplexy in teenagers with refractory sleepiness |
+| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Review | Clinical Neuropharmacology | Pitolisant as an alternative stimulant for teenagers with narcolepsy-cataplexy and refractory sleepiness |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2516268 | WAKIX |
-| 2516241 | WAKIX |
-
-Dosage form and approved indication text are not available in the current data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02516268 | WAKIX | Not specified | Not specified |
+| 02516241 | WAKIX | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Known adverse effect relevant to this prediction**: Insomnia is a recognised adverse effect of pitolisant, which makes use in insomnia counterintuitive.
-- **Drug Interactions**: No interaction records were found in the queried source.
+- **Drug Interactions**: 100 potential interactions were identified in the interaction screening. Examples of **Major** interactions are **bupropion** and **dolasetron**. Examples of **Moderate** interactions include famotidine, cimetidine, hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone, metformin, morphine, acetylsalicylic acid, clarithromycin, loperamide, empagliflozin and eliglustat.
+- **Insomnia as an adverse effect**: The mechanistic assessment notes that insomnia is a known adverse effect of pitolisant. This is directly relevant to the proposed indication.
 
-Please refer to the package insert for further safety information.
+Please refer to the package insert for warnings and contraindications, which were not available in the data compiled for this report.
 
 ---
 
@@ -115,14 +109,18 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The only registered trial was withdrawn with zero enrollment, and no retrieved publication supports efficacy in insomnia. The wake-promoting mechanism runs opposite to the therapeutic goal, and insomnia is a known adverse effect. The high TxGNN score is best read as a model artifact.
+The prediction has no clinical trial support and no insomnia-specific literature. Pitolisant's wake-promoting mechanism runs opposite to what insomnia treatment requires, and insomnia is a known side effect. The high model score appears to reflect a graph association rather than a therapeutic rationale.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings, contraindications, approved indication and dosage form)
-- Mechanism of action data from DrugBank
-- Any direct clinical evidence in insomnia, which is unlikely given the mechanism
+- A clear mechanistic argument for why H3 inverse agonism would help insomnia, or evidence that it would not worsen it
+- Preclinical or early clinical data in insomnia populations
+- Health Canada package insert warnings and contraindications, which are required before safety screening
+- Mechanism of action data confirmed from DrugBank
+- Review of the major interactions (bupropion, dolasetron) for any proposed use
 
-For context, the second TxGNN prediction, attention deficit-hyperactivity disorder (score 99.36%), has a more coherent mechanistic rationale. H3 blockade raises dopamine, norepinephrine and acetylcholine release in attention-related cortical areas. It is supported only by reviews and preclinical work, so it is better treated as a research question for an exploratory study than as a ready candidate. The third prediction, faciodigitogenital syndrome, has no clinical or mechanistic support.
+**Other predicted indications (for reference):**
+- **Attention deficit-hyperactivity disorder (score 99.36%, L4, research question):** H3 antagonism increases release of histamine, acetylcholine, norepinephrine and dopamine in the prefrontal cortex, which is a plausible basis for improving attention. Support is limited to preclinical and review-level literature, with no ADHD-specific pitolisant trials. Pediatric narcolepsy data show tolerability in children. This is a reasonable hypothesis worth a dedicated study.
+- **Faciodigitogenital syndrome (score 99.29%, L5, Hold):** This rare X-linked developmental disorder (caused by FGD1 mutations) has no plausible link to H3 receptor modulation. There are no trials or literature, so this is likely a prediction artifact.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

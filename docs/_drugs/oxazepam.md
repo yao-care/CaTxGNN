@@ -2,7 +2,7 @@
 layout: default
 title: Oxazepam
 parent: Moderate Evidence (L3-L4)
-nav_order: 686
+nav_order: 692
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Oxazepam: From an Anxiolytic Benzodiazepine to Insomnia
+# Oxazepam: From Alcohol Withdrawal Delirium and Anxiety to Insomnia
 
 ## One-Sentence Summary
 
-Oxazepam is an intermediate-acting benzodiazepine. The supplied data record no original indication, so its anxiolytic role here comes from general pharmacology, not the Evidence Pack. The TxGNN model predicts it may be effective for **insomnia**. No clinical trials are registered, and **10 publications** were retrieved, of which only 2 are controlled studies directly relevant to sleep. Insomnia may already be an established or off-label use, so this may not be true repurposing.
-
----
+Oxazepam is a short-acting benzodiazepine originally used for alcohol withdrawal delirium and anxiety.
+The TxGNN model predicts it may be effective for **insomnia**, with **no registered clinical trials** but **10 publications** (including 2 randomized trials) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the supplied data (all Canadian licence entries lack indication text) |
+| Original Indication | Alcohol withdrawal delirium; anxiety |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L3 |
@@ -49,77 +48,66 @@ Oxazepam is an intermediate-acting benzodiazepine. The supplied data record no o
 | Number of DINs | 9 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. From general benzodiazepine pharmacology, oxazepam is a positive allosteric modulator of GABA-A receptors. This produces sedative-hypnotic and anxiolytic effects, which is biologically consistent with a role in insomnia. Oxazepam is an intermediate-acting agent with no active metabolites. This link is not drawn from the supplied data.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known class pharmacology, oxazepam is a benzodiazepine that enhances inhibitory GABA-A receptor signalling. This produces calming and sedative-hypnotic effects.
 
-Because the original indications field is empty, insomnia may already be an established or off-label use in some jurisdictions. It should be checked against the Canadian label before this is treated as a true repurposing candidate.
+Anxiety and insomnia often occur together, and the same GABA-A mechanism that reduces anxiety also promotes sleep. This makes the prediction pharmacologically plausible, and the very high TxGNN score is consistent with it.
 
-The very high TxGNN score most likely reflects a class effect shared with other benzodiazepines. It should not be read as independent evidence for oxazepam.
-
----
+There are important limits. Benzodiazepines used as hypnotics carry risks of tolerance, dependence, withdrawal, next-day impairment, and problems in older adults. The supporting evidence is mostly small, older studies and reviews, not registered trials.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
-
-Three retrieved papers were excluded as not relevant: an agomelatine case report, a paroxetine panic disorder review and a paper on informed refusal. All remaining entries still have relevance status "pending".
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6691478](https://pubmed.ncbi.nlm.nih.gov/6691478/) | 1984 | Comparative clinical trial | Am J Psychiatry | Oxazepam and flurazepam both improved some polysomnographic measures of sleep in 14 chronic insomnia patients. Flurazepam caused substantial daytime sleepiness and oxazepam did not. Some rebound effects were noted with oxazepam. |
-| [29749262](https://pubmed.ncbi.nlm.nih.gov/29749262/) | 2018 | RCT | Ann Pharmacother | Randomized comparison of melatonin vs oxazepam for anxiety and sleep quality after primary PCI for STEMI. The available abstract excerpt does not report outcomes. |
-| [17317444](https://pubmed.ncbi.nlm.nih.gov/17317444/) | 2007 | Review/clinical study | Arch Gerontol Geriatr | Hypnotic effectiveness and safety in 60 insomnia patients over 70, with comorbid depression, dementia or behavioural disturbances. |
-| [29844949](https://pubmed.ncbi.nlm.nih.gov/29844949/) | 2018 | Cohort | PeerJ | Long-term benzodiazepine and z-drug use in older adults is linked to sociodemographic and health-related factors, a potentially inappropriate use pattern. |
-| [6139491](https://pubmed.ncbi.nlm.nih.gov/6139491/) | 1983 | Clinical study | JAMA | Withdrawal syndrome in two patients after switching from a long-acting to a short-acting benzodiazepine (oxazepam replaced diazepam). |
-| [36340306](https://pubmed.ncbi.nlm.nih.gov/36340306/) | 2022 | Review | J Clin Exp Hepatol | Management of alcohol withdrawal syndrome in alcoholic liver disease. Insomnia is described as one symptom of withdrawal. |
-| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Pharmacokinetics of anxiolytic drugs. |
-| [15633073](https://pubmed.ncbi.nlm.nih.gov/15633073/) | 2005 | Review | Psychiatr Prax | Management of behavioural and psychological symptoms of dementia in Germany, Austria and Switzerland. |
+| [6691478](https://pubmed.ncbi.nlm.nih.gov/6691478/) | 1984 | RCT | Am J Psychiatry | In 14 patients with chronic insomnia, oxazepam and flurazepam improved some polysomnographic sleep measures; flurazepam caused marked daytime sleepiness, oxazepam did not |
+| [29749262](https://pubmed.ncbi.nlm.nih.gov/29749262/) | 2018 | RCT | Ann Pharmacother | Melatonin vs oxazepam for anxiety and sleep quality in STEMI patients after primary PCI |
+| [17317444](https://pubmed.ncbi.nlm.nih.gov/17317444/) | 2007 | Observational study (60 patients) | Arch Gerontol Geriatr | Effectiveness and safety of hypnotics for insomnia in people over 70 |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Pharmacokinetics of anxiolytic drugs |
+| [36340306](https://pubmed.ncbi.nlm.nih.gov/36340306/) | 2022 | Review | J Clin Exp Hepatol | Management of alcohol withdrawal syndrome in alcoholic liver disease; insomnia is a common symptom |
+| [29844949](https://pubmed.ncbi.nlm.nih.gov/29844949/) | 2018 | Cohort | PeerJ | Potentially inappropriate long-term benzodiazepine and z-drug use in older people |
+| [6139491](https://pubmed.ncbi.nlm.nih.gov/6139491/) | 1983 | Cohort | JAMA | Withdrawal syndrome after switching from a long-acting to a short-acting benzodiazepine, including oxazepam |
+| [15633073](https://pubmed.ncbi.nlm.nih.gov/15633073/) | 2005 | Review | Psychiatr Prax | Management of behavioural and psychological symptoms of dementia |
 
----
+Two further retrieved papers (agomelatine case report, paroxetine in panic disorder) have little direct relevance to oxazepam and are not listed.
 
 ## Canada Market Information
 
-Dosage form, manufacturer and approved indication text are not recorded for these entries. 5 of 9 authorizations are shown.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00402737 | APO-OXAZEPAM | Not specified | Not specified |
+| 00497754 | PRO-OXAZEPAM | Not specified | Not specified |
+| 00497762 | PRO-OXAZEPAM | Not specified | Not specified |
+| 00402745 | APO-OXAZEPAM | Not specified | Not specified |
+| 00402680 | APO-OXAZEPAM | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 402737 | APO-OXAZEPAM |
-| 402745 | APO-OXAZEPAM |
-| 402680 | APO-OXAZEPAM |
-| 497754 | PRO-OXAZEPAM |
-| 497762 | PRO-OXAZEPAM |
-
----
+Nine valid single-ingredient licences are held in total (APO-, PRO- and RIVA-OXAZEPAM); five are shown here.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction data were available in the Evidence Pack.
+- **Contraindications (from knowledge-graph associations, not label text)**: Associated conditions include porphyria, kidney disease, liver disease, gallbladder disease, psychotic disorders, sleep apnea syndromes, respiratory failure, lung disease, hypotensive disorder, substance-related disorders and personality disorders.
+- **Drug Interactions**: 100 interactions were found. Major interactions include **morphine** (including liposomal morphine), which raises the risk of additive central nervous system and respiratory depression. Moderate interactions include bupropion, dronabinol, nabilone, metoclopramide, opium, sibutramine and teduglutide. Several antacids (magnesium oxide, calcium carbonate, aluminum hydroxide and others) show minor interactions.
+- **Class-related concerns** (from the literature): tolerance, dependence, withdrawal on dose changes or switching, and inappropriate long-term use in older adults.
 
-The retrieved literature raises two points:
-- **Withdrawal**: Withdrawal symptoms were reported after substituting a short-acting benzodiazepine, including oxazepam, for a long-acting one (JAMA, 1983).
-- **Older adults**: Long-term benzodiazepine use in older people is flagged as potentially inappropriate (PeerJ, 2018).
-
----
+Please refer to the package insert for official warnings, as label text was not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence is limited to a small 1984 comparative trial and a 2018 RCT without reported outcomes in the abstract, and no trials are registered. The Health Canada safety information is missing, which blocks safety screening. The prediction is mostly a benzodiazepine class effect, and insomnia may already be an on-label or established use.
+The mechanism is plausible and the TxGNN score is high, but the support is limited to a few small, older studies and reviews, with no registered trials. Official label warnings are not yet reviewed. Benzodiazepine hypnotic use also has well-known risks, particularly in older adults.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings and contraindications), which blocks progression
-- Confirmation of the approved indications on the Canadian licences, to establish whether insomnia is already labelled
+- Health Canada package insert warnings and contraindications, and approved indication text for each DIN
 - Mechanism of action data from DrugBank
-- Relevance review of the literature still marked "pending", plus a search for registered oxazepam insomnia trials
+- Comparison with current first-line insomnia treatments, including non-drug options
+- A risk-benefit assessment covering dependence and withdrawal, older adults, and opioid co-use
+- Recent controlled trials of oxazepam specifically in insomnia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

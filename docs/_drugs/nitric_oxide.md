@@ -2,7 +2,7 @@
 layout: default
 title: Nitric Oxide
 parent: Model Prediction Only (L5)
-nav_order: 652
+nav_order: 657
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nitric Oxide: From Inhaled Pulmonary Vasodilator Use to Malformation Syndrome with Odontal and/or Periodontal Component
+# Nitric Oxide: From Pulmonary Hypertension to Malformation Syndrome with Odontal and/or Periodontal Component
 
 ## One-Sentence Summary
 
-Nitric oxide is an inhaled gas used as a selective pulmonary vasodilator, and it is marketed in Canada under the brands INOMAX and KINOX.
-The TxGNN model predicts it may be effective for **malformation syndrome with odontal and/or periodontal component**, but **0 clinical trials** and **20 publications** were retrieved, and none of the publications evaluates nitric oxide. This prediction rests on the model alone.
+Nitric oxide is a gas originally used to treat pulmonary hypertension, congenital alveolar capillary dysplasia and persistent fetal circulation syndrome.
+The TxGNN model predicts it may be effective for **malformation syndrome with odontal and/or periodontal component**, but **no clinical trials** and only **20 loosely related publications** (laboratory and background studies on periodontal biology) support this prediction.
 
 ---
 
@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for **malformation syndrome with od
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence data; the pack's context describes inhaled use for perioperative and neonatal pulmonary hypertension |
+| Original Indication | Pulmonary hypertension; congenital alveolar capillary dysplasia; persistent fetal circulation syndrome (from the knowledge graph, because the Canadian licence records list no indication text) |
 | Predicted New Indication | Malformation syndrome with odontal and/or periodontal component |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 |
@@ -54,9 +54,11 @@ The TxGNN model predicts it may be effective for **malformation syndrome with od
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Nitric oxide is known as an inhaled vasodilator that lowers pulmonary vascular resistance without causing low blood pressure in the rest of the body. Its use is described in perioperative and neonatal pulmonary hypertension.
+Currently, detailed mechanism of action data is not available. Nitric oxide is known as a vasodilator that acts through the cGMP signalling pathway, and its efficacy in pulmonary hypertension of the newborn is established. Mechanistically, however, nothing in the data compiled for this report shows that this action is relevant to a malformation syndrome affecting the teeth and periodontal tissues.
 
-The prediction links this drug to a structural malformation syndrome affecting teeth and periodontal tissue. No credible mechanistic link was found. The high score (rank 8,341 in the model's ranking) is a graph-based inference only. The retrieved papers are generic periodontitis literature (guidelines, the diabetes association, plaque microbiology, surgical techniques), and none studies nitric oxide. An inhaled pulmonary vasodilator has no obvious biological rationale for a dental or periodontal developmental malformation.
+The 20 retrieved papers concern the biology of periodontitis. They cover gingival fibroblasts, inflammation induced by bacterial lipopolysaccharide, herbal extracts, and the way oral bacteria produce nitrite. The only link to nitric oxide is a generic one through inflammatory and NO-signalling pathways. None of the papers tests nitric oxide as a treatment for a developmental malformation syndrome.
+
+The high prediction score therefore reflects a pattern found by the model, not demonstrated clinical or mechanistic support.
 
 ---
 
@@ -68,20 +70,20 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The 20 retrieved publications all concern periodontitis in general. The 10 most relevant are listed below, and none evaluates nitric oxide.
+None of these papers evaluates nitric oxide as a therapy for the predicted indication. They are periodontal-biology background studies.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35688447](https://pubmed.ncbi.nlm.nih.gov/35688447/) | 2022 | Guideline | J Clin Periodontol | EFP clinical practice guideline for treating stage IV periodontitis |
-| [35420698](https://pubmed.ncbi.nlm.nih.gov/35420698/) | 2022 | Systematic Review | Cochrane Database Syst Rev | Periodontitis treatment for glycaemic control in people with diabetes |
-| [29291254](https://pubmed.ncbi.nlm.nih.gov/29291254/) | 2018 | Cochrane review | Cochrane Database Syst Rev | Supportive periodontal therapy for maintaining the dentition after periodontitis treatment |
-| [22057194](https://pubmed.ncbi.nlm.nih.gov/22057194/) | 2012 | Review | Diabetologia | Two-way relationship between periodontitis and diabetes |
-| [38907216](https://pubmed.ncbi.nlm.nih.gov/38907216/) | 2024 | Review | J Nanobiotechnology | Biomaterial-mediated macrophage immunotherapy for periodontitis |
-| [39233377](https://pubmed.ncbi.nlm.nih.gov/39233377/) | 2024 | Review | Periodontol 2000 | Association of sleep disorders, including obstructive sleep apnea, with periodontal health |
-| [36883660](https://pubmed.ncbi.nlm.nih.gov/36883660/) | 2023 | Review | J Dent Res | Role of gingival fibroblasts in periodontitis pathogenesis |
-| [20599785](https://pubmed.ncbi.nlm.nih.gov/20599785/) | 2010 | Review | Biochem Pharmacol | Complement overactivation and periodontal inflammation |
-| [38362600](https://pubmed.ncbi.nlm.nih.gov/38362600/) | 2024 | Clinical study | J Dent Res | Effect of periodontitis and periodontal therapy on oral and gut microbiota (n=47) |
-| [9495612](https://pubmed.ncbi.nlm.nih.gov/9495612/) | 1998 | Cohort | J Clin Periodontol | Microbial complexes in subgingival plaque (185 subjects) |
+| [36312752](https://pubmed.ncbi.nlm.nih.gov/36312752/) | 2022 | In vitro | PeerJ | Cystatin C showed antimicrobial and anti-inflammatory activity in gingival fibroblasts exposed to *Porphyromonas gingivalis* |
+| [40430099](https://pubmed.ncbi.nlm.nih.gov/40430099/) | 2025 | Preclinical | Int J Mol Sci | ATF3 regulates senescence and osteoclast formation in human periodontal ligament cells |
+| [35574962](https://pubmed.ncbi.nlm.nih.gov/35574962/) | 2022 | Cohort | J Am Heart Assoc | Oral microbiome capacity to generate nitrite (a source of NO) was examined in relation to cardiometabolic risk |
+| [24670812](https://pubmed.ncbi.nlm.nih.gov/24670812/) | 2014 | Not classified | PLoS One | Metagenomic analysis of nitrate-reducing oral bacteria and their role in NO homeostasis |
+| [20646228](https://pubmed.ncbi.nlm.nih.gov/20646228/) | 2011 | Not classified | Oral Dis | *P. gingivalis* vesicles induced iNOS expression and NO production in mouse macrophage cells |
+| [35455384](https://pubmed.ncbi.nlm.nih.gov/35455384/) | 2022 | Not classified | Pharmaceuticals (Basel) | A plant extract reduced LPS-induced inflammatory markers, including iNOS, in periodontal ligament cells |
+| [31055250](https://pubmed.ncbi.nlm.nih.gov/31055250/) | 2019 | Not classified | Arch Oral Biol | Th1 and Th2 stimuli drive distinct phenotypes in gingival fibroblasts |
+| [16881806](https://pubmed.ncbi.nlm.nih.gov/16881806/) | 2006 | Not classified | J Periodontol | Grape seed proanthocyanidins protected against oxidative stress induced by periodontopathogen LPS |
+| [41952916](https://pubmed.ncbi.nlm.nih.gov/41952916/) | 2026 | Not classified | J Dent Anesth Pain Med | Narrative review of *P. gingivalis* and pain modulation |
+| [42795495](https://pubmed.ncbi.nlm.nih.gov/42795495/) | 2026 | Not classified | Microorganisms | Narrative review of the oral and nasal gateway microbiomes and systemic health |
 
 ---
 
@@ -89,16 +91,22 @@ The 20 retrieved publications all concern periodontitis in general. The 10 most 
 
 | DIN | Product Name |
 |---------|------|
-| 2270846 | INOMAX |
-| 2451328 | KINOX |
+| 02270846 | INOMAX |
+| 02451328 | KINOX |
 
-Dosage form and approved indication text are blank in the licence records.
+Both are valid single-ingredient authorisations. Dosage form and approved indication text are not recorded in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: methemoglobinemia, sulfhemoglobinemia and heart failure.
+- **Drug Interactions**: 61 interactions were identified, and most have no assigned severity level. The notable ones are:
+  - **Major**: nitrous acid.
+  - **Moderate**: topical or ophthalmic local anaesthetics (tetracaine, lidocaine, benzocaine).
+  - **Severity unknown**: morphine, omeprazole, epinephrine, heparin, epoprostenol, hydrocortisone, dexamethasone and vancomycin, among others.
+
+Please refer to the package insert for the full warnings and contraindications, as label-based safety data were not available for this report.
 
 ---
 
@@ -107,16 +115,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction is an L5 model-only signal. It has no trials, no literature on nitric oxide, and no identifiable biological rationale, so it does not justify further investment.
-
-Other candidates in the same evidence pack look more promising and may be worth reviewing instead:
-- **Pulmonary arterial hypertension associated with congenital heart disease** (rank 8): the pack grades it L2 with "Proceed with Guardrails". It cites a completed Phase 3 trial of inhaled nitric oxide in Japan (NCT01959828, n=18) whose design is unconfirmed, plus recent literature on postoperative use.
-- **Pulmonary arterial hypertension** (rank 7) and **pulmonary arteriovenous malformation** (rank 6): both carry a plausible mechanistic rationale but no Phase 3 evidence.
+The prediction rests only on the model score. There are no registered trials, and the retrieved literature is background work on periodontal biology that does not test nitric oxide for this condition. The evidence level is L5, and no mechanistic link has been shown.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph with warnings, contraindications and approved indications. This is a blocking gap for safety screening.
-- Mechanism of action data from DrugBank.
-- A decision on whether to re-focus the evaluation on the higher-evidence pulmonary indications.
+- Mechanism of action data for nitric oxide, to allow a proper mechanistic assessment
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Preclinical or case-level evidence showing that NO-pathway modulation affects the dental or periodontal features of this syndrome
+- Consideration of better-supported predictions in the same data set. In particular, **pulmonary arterial hypertension** has 28 registered trials and an L2 evidence level, and **pulmonary arterial hypertension associated with congenital heart disease** has an L3 level. Both are closer to nitric oxide's established use and are more suitable candidates for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

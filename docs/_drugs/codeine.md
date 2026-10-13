@@ -2,7 +2,7 @@
 layout: default
 title: Codeine
 parent: Model Prediction Only (L5)
-nav_order: 219
+nav_order: 221
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Codeine: From Established Opioid Use to Nasal Cavity Disease
+# Codeine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Codeine is an opioid medicine marketed in Canada, and the license data supplied here do not list its approved indications.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but **0 clinical trials** and only **2 publications** were found.
-Both publications are case reports of opioid-related harm to the nose, not of benefit, so the prediction is not supported by the evidence.
+Codeine is an opioid originally associated with symptom relief in upper airway and headache conditions, such as allergic rhinitis, pharyngitis, the common cold and headache disorder.
+The TxGNN model predicts it may be useful for **nasal cavity disease**, but there are **0 clinical trials** and only **1 publication** (a case report describing an adverse event rather than a benefit), so the prediction rests almost entirely on the model.
 
 ---
 
@@ -43,6 +42,7 @@ Both publications are case reports of opioid-related harm to the nose, not of be
 
 | Item | Content |
 |------|------|
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
@@ -54,9 +54,15 @@ Both publications are case reports of opioid-related harm to the nose, not of be
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, and the Canadian license records do not state any approved indication. Codeine is a well-known opioid used clinically for pain and cough suppression. However, no mechanism linking it to nasal cavity disease can be assessed from the data provided.
+Currently, detailed mechanism of action data is not available. Codeine is generally known as an opioid analgesic and cough suppressant, but the data compiled for this report do not include a mechanism entry, so no mechanism-based link can be drawn here.
 
-The high score (0.999) is a graph-based association only. The two retrieved papers describe harm rather than treatment. One reports tissue necrosis of the nasal cavity and pharynx after snorting crushed hydrocodone-acetaminophen tablets. The other reports a nasal stone (rhinolith) that formed around a hardened codeine-and-opium mixture. The literature therefore points toward risk, and the score most likely reflects a drug-disease co-occurrence rather than a therapeutic signal.
+The high score (0.999) most likely reflects the closeness of "nasal cavity disease" to codeine's existing rhinitis, nasopharyngitis and common cold indications in the knowledge graph. That is network proximity, not evidence that codeine treats nasal disease. The only publication is a case report of a rhinolith (nasal stone) formed around a hardened codeine and opium mixture, an incidental or harmful event rather than a therapeutic effect.
+
+Other predictions in the same analysis show a similar pattern:
+
+- **Acute laryngopharyngitis** (score 99.92%): plausible as an extension of codeine's existing symptomatic use in pharyngitis and cold, but there are no trials or publications. It is not a new repurposing signal.
+- **Trigeminal autonomic cephalalgia** (score 99.43%): opioids are not recommended for cluster headache and carry risks of medication-overuse headache and dependence. The two papers retrieved do not show any benefit.
+- **Allergic urticaria** (score 99.37%): the literature points the opposite way. Codeine directly triggers mast cell histamine release, is used as a positive control in skin tests, and can itself cause urticarial rash. Repurposing for this condition is not supported and may be harmful.
 
 ---
 
@@ -70,30 +76,31 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22965281](https://pubmed.ncbi.nlm.nih.gov/22965281/) | 2012 | Case report | The Laryngoscope | Intranasal abuse of hydrocodone-acetaminophen caused necrosis of the nasal cavity and pharynx. This is a harm report and involves a different opioid. |
-| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose, & Throat Journal | A rhinolith formed around a foreign body, a hardened codeine-opium mixture. It caused nasal obstruction and foul-smelling discharge, so the drug was the cause rather than the treatment. |
+| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose & Throat Journal | A 21-year-old man had a rhinolith formed around an impacted foreign body, which turned out to be a hardened codeine and opium mixture. This describes an adverse or incidental event, not a treatment effect. |
 
 ---
 
 ## Canada Market Information
 
-Codeine has 20 licenses in total. Dosage form and approved indication text are not available in the supplied records. The main authorizations are:
+Twenty valid single-ingredient licences are on record. The records do not include dosage form or approved indication text. The five listed below are examples.
 
-| DIN | Product Name |
-|---------|------|
-| 00593451 | TEVA-CODEINE |
-| 00593435 | TEVA-CODEINE |
-| 02009757 | CODEINE 30 |
-| 00050024 | CODEINE PHOSPHATE SYRUP |
-| 00380571 | LINCTUS CODEINE BLANC |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00593451 | TEVA-CODEINE | Not specified | Not specified |
+| 02009757 | CODEINE 30 | Not specified | Not specified |
+| 00050024 | CODEINE PHOSPHATE SYRUP | Not specified | Not specified |
+| 02163748 | CODEINE CONTIN 100MG CONTROLLED RELEASE TAB | Controlled-release tablet | Not specified |
+| 02154234 | ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE TABLETS | Tablet | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these come from drug-disease relationships in the knowledge graph, not from label text): hypertension, liver failure and liver disease, kidney disease, epilepsy, insomnia, chronic obstructive pulmonary disease, anxiety and other mental disorders (including psychotic disorders), porphyria, pancreatitis, gallbladder disease, thrombocytopenia, hypothyroidism, peptic ulcer disease, inflammatory bowel disease, gastritis and dermatitis herpetiformis.
+- **Drug Interactions**: 100 interactions were found in total. Two are rated Major: **alvimopan** and **bupropion**. Many others are rated Moderate, including atropine, cimetidine, dexamethasone, dicyclomine, loperamide, glycopyrronium, hyoscyamine, granisetron, dolasetron, dronabinol, eliglustat, eluxadoline and fenfluramine.
+- Opioids can cause allergic urticarial rash and contact dermatitis, and codeine directly triggers mast cell histamine release (see the allergic urticaria literature above).
 
-No drug interaction records were found. The retrieved literature also raises a concern: intranasal misuse of opioids has been associated with nasal tissue damage.
+Warnings and contraindications from the Canadian package insert were not available. Please refer to the package insert for safety information.
 
 ---
 
@@ -102,20 +109,14 @@ No drug interaction records were found. The retrieved literature also raises a c
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (evidence level L5). There are no trials, and the only publications describe opioid-related harm to the nasal cavity. Health Canada safety and indication data are also missing.
-
-Other predicted indications also lack support:
-- **Acute laryngopharyngitis:** no trials or literature. Codeine's known cough-suppressant use makes a symptom-relief link plausible, but nothing in the data supports it.
-- **Trigeminal autonomic cephalalgia:** five case-level papers, none of which report codeine efficacy by title. One case report describes codeine phosphate helping a single cluster headache patient who could not take sodium-channel-blocking drugs.
-- **Allergic urticaria:** the literature consistently shows codeine causing or provoking urticaria, the opposite of a therapeutic effect.
+The score is very high, but there are no clinical trials, and the only publication is a case report of an adverse event. The prediction most likely reflects proximity to codeine's existing symptomatic indications, not a new therapeutic signal. The other top predictions are either simple extensions of current use, unsupported (trigeminal autonomic cephalalgia), or point to possible harm (allergic urticaria).
 
 **To proceed, the following is needed:**
-- Health Canada monograph warnings and contraindications, which is a blocking gap for safety screening.
-- The approved indications and dosage forms of the Canadian licenses.
-- Mechanism of action data, for example from DrugBank.
-- Expert review of whether any evidence supports a therapeutic role in nasal cavity disease. Absent that, the candidate should not advance.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data, to allow any mechanistic-link analysis
+- The Health Canada package insert, with its warnings and contraindications, so that safety screening can begin
+- Evidence that codeine provides a therapeutic benefit in nasal cavity disease, such as controlled studies or mechanistic or preclinical data
+- A clearer definition of what "nasal cavity disease" means here, since it is a broad category, and a check of whether any benefit goes beyond symptomatic cough or cold relief
+- Review of opioid-specific risks (dependence, respiratory depression, and the genetic variability in codeine metabolism) against any proposed new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

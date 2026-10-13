@@ -2,7 +2,7 @@
 layout: default
 title: Diclofenac
 parent: Model Prediction Only (L5)
-nav_order: 277
+nav_order: 279
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diclofenac: From NSAID Use to Hypotrichosis Simplex of the Scalp
+# Diclofenac: From Actinic Keratosis and Inflammatory Arthritis to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Diclofenac is a marketed nonsteroidal anti-inflammatory drug (NSAID) that inhibits cyclooxygenase (COX).
-The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, a hereditary hair-loss disorder.
-**No clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
+Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) used for actinic keratosis and for painful inflammatory joint conditions such as rheumatoid arthritis and osteoarthritis. The TxGNN model predicts it may be useful for **hypotrichosis simplex of the scalp**, a rare genetic hair-loss disorder, but there are **0 clinical trials** and **0 publications** supporting this prediction. It rests on a computational prediction alone.
 
 ---
 
@@ -43,6 +41,7 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 
 | Item | Content |
 |------|------|
+| Original Indication | Actinic keratosis; rheumatoid arthritis; osteoarthritis; ankylosing spondylitis (Health Canada indication text was not available) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.69% |
 | Evidence Level | L5 |
@@ -54,11 +53,11 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not yet available from DrugBank. Diclofenac is known as a COX-1/COX-2 inhibitor that reduces prostaglandin-mediated inflammation and pain.
+Currently, detailed mechanism of action data is not available. Based on known information, diclofenac is an NSAID that reduces prostaglandin-driven inflammation and pain. Its efficacy in inflammatory joint disease and actinic keratosis is established, but it is not mechanistically expected to apply to hypotrichosis simplex of the scalp.
 
-The predicted disease is different in kind. Hypotrichosis simplex of the scalp is a hereditary hair-follicle disorder. It is not driven by prostaglandin-mediated inflammation, so COX inhibition has no plausible link to its cause.
+Hypotrichosis simplex of the scalp is a rare inherited disorder of the hair follicle. A structural or genetic defect of this kind is not expected to respond to an anti-inflammatory drug, and no plausible link to diclofenac's mechanism has been identified. The very high score (99.69%) most likely reflects closeness between terms in the model's network rather than a biological rationale. Treat this prediction as a computational signal only, not as evidence of efficacy.
 
-The high score most likely reflects the topology of the knowledge graph rather than biology. Nothing in the clinical or preclinical literature supports it, so this prediction should be treated as a statistical artifact until shown otherwise.
+A better-supported candidate appears further down the prediction list: **juvenile idiopathic arthritis** (see the Conclusion).
 
 ---
 
@@ -76,23 +75,33 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Five of the 20 authorizations are shown below.
+Diclofenac has 20 valid single-ingredient authorizations in Canada and none are cancelled. Dosage form and approved indication text were not available for these products. Five main authorizations are listed below.
 
 | DIN | Product Name |
 |---------|------|
-| 02534525 | JAMP DICLOFENAC |
-| 02158582 | TEVA-DICLOFENAC SR |
-| 02381680 | CAMBIA |
+| 00632724 | VOLTAREN |
 | 02338580 | VOLTAREN EMULGEL JOINT PAIN REGULAR STRENGTH |
-| 02261774 | SANDOZ DICLOFENAC RAPIDE |
+| 02247265 | PENNSAID |
+| 02381680 | CAMBIA |
+| 01940414 | VOLTAREN OPHTHA |
+
+The product names suggest oral, topical gel and ophthalmic formulations are all on the market.
 
 ---
 
 ## Safety Considerations
 
-No drug interaction records were found for this drug in the queried source.
+- **Disease-level cautions** (conditions in which diclofenac is flagged as contraindicated or to be avoided; these are not label text):
+  - Cardiovascular: hypertension, congestive heart failure, myocardial infarction, stroke and cerebrovascular disorders, other heart disease
+  - Gastrointestinal and hepatic: peptic ulcer disease (including active), inflammatory bowel disease, liver disease or failure, drug-induced liver injury, gallbladder disease
+  - Respiratory: asthma, including allergic and intrinsic forms
+  - Blood: blood coagulation disease, anaemia (including macrocytic), haemoglobinopathy
+  - Metabolic and other: diabetes mellitus, diabetic ketoacidosis, substance abuse or dependence, keratitis
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs in total. The 20 reviewed here included mostly Moderate and some Minor interactions.
+  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), acetylsalicylic acid, mesalazine, balsalazide, metformin, sulfonylureas (glimepiride, glipizide, chlorpropamide, acetohexamide), exenatide, aprepitant, fenfluramine, dexfenfluramine
+  - **Minor**: H2 blockers (famotidine, ranitidine, cimetidine)
 
-Please refer to the package insert for safety information. The Health Canada package insert warnings and contraindications have not yet been retrieved.
+Please refer to the package insert for official warnings and contraindications.
 
 ---
 
@@ -101,16 +110,13 @@ Please refer to the package insert for safety information. The Health Canada pac
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical, literature or mechanistic support, and the biology of a hereditary hair-follicle disorder does not fit COX inhibition. It stays at evidence level L5 (model prediction only).
+The prediction for hypotrichosis simplex of the scalp has no trial or literature support, no plausible mechanistic link, and an L5 evidence level. The drug's safety profile also includes cardiovascular, gastrointestinal, hepatic and renal cautions that would need strong evidence of benefit to justify. Among the other predictions, juvenile idiopathic arthritis (L3, score 99.25%) has small, dated studies of diclofenac, but these only suggest symptomatic benefit. NSAIDs are already a standard adjunct in that condition, so it is an established use rather than new repurposing.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical signal for diclofenac in hereditary hair disorders. None was found.
-- Health Canada package insert warnings and contraindications.
-- Mechanism of action data from DrugBank.
-
-**Note on other predictions in this pack:** The only prediction with real supporting data is **juvenile idiopathic arthritis** (rank 9, L3, Research Question). It has older small studies of diclofenac in juvenile arthritis, including a 1988 crossover study against naproxen and tolmetin. However, NSAIDs are already a standard symptomatic therapy there, so this is closer to an existing class use than true repurposing. If the team wants a lead for further work, it should start there, ideally with a paediatric safety review first.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanistic or preclinical data showing a plausible role for COX inhibition in the hair follicle disorder, if this indication is to be pursued
+- Detailed mechanism of action data (MOA)
+- Health Canada package insert warnings and contraindications, plus dosage form and indication text for each DIN
+- For juvenile idiopathic arthritis: a structured review of the paediatric diclofenac studies to confirm the benefit and the paediatric safety profile
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

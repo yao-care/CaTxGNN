@@ -2,7 +2,7 @@
 layout: default
 title: Desmopressin
 parent: Model Prediction Only (L5)
-nav_order: 261
+nav_order: 263
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desmopressin: From an Unrecorded Original Indication to Congenital Prothrombin Deficiency
+# Desmopressin: From Von Willebrand Disease to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Desmopressin is a synthetic vasopressin analogue that is marketed in Canada. The Evidence Pack does not record its original approved indications.
-The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but **0 clinical trials** and **0 publications** support this prediction, and the proposed mechanism is weak.
+Desmopressin is a synthetic vasopressin analogue, originally used for hereditary von Willebrand disease, haemophilia (including symptomatic female carriers) and nocturnal enuresis.
+The TxGNN model's top-ranked prediction is **congenital prothrombin deficiency**, but it has **0 clinical trials** and only **1 publication** (a 1993 general review), so the evidence is very weak.
+Among the 10 predicted indications, **primary release disorder of platelets** has the most credible support and is discussed below.
 
 ---
 
@@ -42,9 +43,10 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 | Item | Content |
 |------|------|
+| Original Indication | Hereditary von Willebrand disease; haemophilia; nocturnal enuresis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.70% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
@@ -53,57 +55,71 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Desmopressin is generally understood to release von Willebrand factor (VWF) and factor VIII from endothelial stores through V2 receptor signaling.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on published knowledge, desmopressin triggers V2 receptor-mediated release of von Willebrand factor (vWF) and factor VIII from endothelial stores. This is why it works in mild haemophilia A and in some subtypes of von Willebrand disease.
 
-Congenital prothrombin deficiency is a lack of factor II. Desmopressin does not raise prothrombin, so there is no clear mechanistic route to benefit. The high TxGNN score most likely reflects the drug's proximity to other coagulation-related nodes in the knowledge graph, not a real therapeutic link. This prediction should be treated as unsupported until evidence says otherwise.
+For the top-ranked prediction, **congenital prothrombin deficiency**, this mechanism does not fit. Desmopressin does not raise prothrombin (factor II) levels. The high TxGNN score most likely reflects the disease's proximity to other coagulation disorders in the knowledge graph rather than a true therapeutic link.
 
-Other top-ranked predictions vary in plausibility:
+Looking across all 10 predictions, they fall into three groups:
 
-| Rank | Predicted Indication | Score | Assessment |
-|------|------|------|------|
-| 3 | Glanzmann thrombasthenia | 99.30% | Plausible but unproven; the missing receptor limits any benefit |
-| 4 | Primary release disorder of platelets | 99.26% | Plausible; secretion defects are a reasonable class in which to test it |
-| 9 | Bleeding diathesis due to a collagen receptor defect | 98.95% | Plausible but speculative |
-| 7 | "Flood factor deficiency" | 99.15% | Label looks garbled, probably von Willebrand factor deficiency; mapping needs verification |
-| 2, 5, 8 | Inherited thrombophilia, pseudo-von Willebrand disease, thrombocytopenic purpura | 98.9–99.4% | Safety concern: extra VWF release could worsen thrombosis or platelet clumping |
-| 6 | Scott syndrome | 99.16% | Any effect would be indirect and weak |
-| 10 | Hereditary thrombocytosis with transverse limb defect | 98.95% | No credible mechanistic link |
+- **Plausible:** *Primary release disorder of platelets*. Desmopressin may shorten bleeding time by raising vWF and improving platelet-vessel wall interaction. A paediatric study in aspirin-like defect (PMID 21509710) and a 2023 review (PMID 36656570) support this, though there is no randomised trial. This is the strongest candidate.
+- **Weak or indirect:** Glanzmann thrombasthenia (the aggregation defect cannot be corrected by desmopressin), Scott syndrome, bleeding diathesis due to a collagen receptor defect, and the entry "flood factor deficiency" (which appears to be a data artefact).
+- **Safety signal rather than opportunity:** Inherited thrombophilia, thrombocytopenic purpura and pseudo-von Willebrand disease (platelet-type). Desmopressin-induced vWF release can worsen thrombotic thrombocytopenic purpura and platelet clumping. Several case reports document this.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for any of the predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for congenital prothrombin deficiency.
+Literature for the top-ranked prediction (congenital prothrombin deficiency):
 
-For reference, the only publication in the pack is linked to rank 7 ("flood factor deficiency"): [PMID 39054329](https://pubmed.ncbi.nlm.nih.gov/39054329/), a 2024 review titled "von Willebrand disease" in *Nature Reviews Disease Primers*. It is general background and not direct evidence for desmopressin.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7684674](https://pubmed.ncbi.nlm.nih.gov/7684674/) | 1993 | Review | Drugs | General review of treatment options for inherited bleeding disorders; no specific evidence for desmopressin in prothrombin deficiency |
+
+Selected literature for the most relevant prediction (primary release disorder of platelets):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36656570](https://pubmed.ncbi.nlm.nih.gov/36656570/) | 2023 | Review | Eur J Haematol | Desmopressin releases vWF and FVIII, enhances platelet adhesion and shortens bleeding time; effective in mild haemophilia A, some von Willebrand disease subtypes, and uraemic or liver-disease bleeding; hyponatraemia and rare arterial thrombosis are risks |
+| [21509710](https://pubmed.ncbi.nlm.nih.gov/21509710/) | 2011 | Cohort | Klin Padiatr | Evaluated desmopressin effect on primary haemostasis in children with aspirin-like defect |
+| [23051555](https://pubmed.ncbi.nlm.nih.gov/23051555/) | 2013 | Mechanistic study | Haemophilia | More vWF is bound to microparticles after desmopressin infusion, which may explain effects in platelet disorders |
+| [22057877](https://pubmed.ncbi.nlm.nih.gov/22057877/) | 2011 | Case report | Hamostaseologie | Refractory menorrhagia as first manifestation of Hermansky-Pudlak syndrome |
+| [22726100](https://pubmed.ncbi.nlm.nih.gov/22726100/) | 2012 | Review | Haemophilia | Overview of inherited platelet disorders |
+
+Safety-relevant literature (thrombotic thrombocytopenic purpura):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15499705](https://pubmed.ncbi.nlm.nih.gov/15499705/) | 2004 | Case report | Thromb Haemost | Worsening of TTP symptoms after desmopressin |
+| [21921792](https://pubmed.ncbi.nlm.nih.gov/21921792/) | 2011 | Case report | Blood Coagul Fibrinolysis | Moschcowitz-like syndrome after desmopressin for postpartum haemorrhage |
+| [16460464](https://pubmed.ncbi.nlm.nih.gov/16460464/) | 2006 | Case report | J Thromb Haemost | Link between desmopressin use for enuresis and inherited TTP (Upshaw-Schulman syndrome) |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2513579 | BIPAZEN |
-| 873993 | DDAVP INJ 4MCG/ML |
-| 2284030 | APO-DESMOPRESSIN |
-| 2024179 | OCTOSTIM LIQ INJ. 15MCG/ML |
-| 2242465 | DESMOPRESSIN SPRAY |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02513579 | BIPAZEN | Not listed | Not listed |
+| 00873993 | DDAVP INJ 4MCG/ML | Not listed | Not listed |
+| 02284030 | APO-DESMOPRESSIN | Not listed | Not listed |
+| 02024179 | OCTOSTIM LIQ INJ. 15MCG/ML | Not listed | Not listed |
+| 02242465 | DESMOPRESSIN SPRAY | Not listed | Not listed |
 
-Dosage forms and approved indication text were not provided for these authorizations.
+Ten valid single-ingredient authorisations are recorded in total; none is cancelled. The product names suggest injection, nasal spray and oral melt formulations.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the pack.
-
-For some of the other predicted indications, the mechanism suggests a possible risk. In thrombophilia and thrombotic thrombocytopenic purpura, extra VWF and FVIII release could worsen thrombosis. In pseudo-von Willebrand disease, it could increase platelet clumping.
+- **Contraindications and conditions flagged in the drug-disease knowledge graph:** hypertension, coronary artery disease, impaired renal function, cystic fibrosis, allergic or vasomotor rhinitis, pharyngitis, common cold, respiratory tract infection, von Willebrand disease (certain subtypes), dipsogenic diabetes insipidus, polydipsia and water intoxication. These come from the knowledge graph, not from label text, and should be verified against the product monograph.
+- **Drug interactions:** The interaction check returned 100 entries. Major-level interactions include corticosteroids (hydrocortisone, dexamethasone, prednisone, prednisolone, triamcinolone, betamethasone, budesonide, beclomethasone). Moderate-level interactions include epinephrine, loperamide, morphine, opium and chlorpropamide. Acetylsalicylic acid is minor.
+- **Literature safety signals:** Hyponatraemia, rare arterial thrombotic events, and worsening of TTP or platelet-type von Willebrand disease (type 2B-like thrombocytopenia).
 
 ---
 
@@ -112,13 +128,14 @@ For some of the other predicted indications, the mechanism suggests a possible r
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials and no literature. Desmopressin does not increase prothrombin, so the high score is probably a graph-proximity artifact.
+The top-ranked prediction, congenital prothrombin deficiency, has no mechanistic rationale, no trials and only one general review, so it is probably a graph-based false positive. Several other predictions (thrombophilia, thrombocytopenic purpura, platelet-type von Willebrand disease) represent safety concerns rather than opportunities. Only primary release disorder of platelets (evidence level L3) merits follow-up as a structured research question.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings, contraindications and approved indications (currently blocking safety screening)
-- Mechanism of action data from DrugBank, to check the mechanistic links properly
-- Verification of the "flood factor deficiency" ontology mapping, and confirmation of whether desmopressin is already established for von Willebrand disease
-- A targeted literature and trial search for the more plausible candidates (Glanzmann thrombasthenia, platelet release disorders, collagen receptor defects), which are better suited as research questions than the rank 1 prediction
+- Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A focused clinical question and systematic literature review for primary platelet release disorders, ideally leading to a controlled study
+- Clinical review of the knowledge-graph contraindications and TTP-related safety signals
+- Dosage form and approved indication details for each Canadian DIN
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

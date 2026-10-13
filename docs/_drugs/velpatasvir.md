@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Velpatasvir
-parent: Model Prediction Only (L5)
-nav_order: 962
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 969
+evidence_level: L4
 indication_count: 10
 ---
 
 # Velpatasvir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,9 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Velpatasvir is an HCV NS5A inhibitor, used in the fixed-dose combinations Epclusa (with sofosbuvir) and Vosevi (with sofosbuvir and voxilaprevir) to treat hepatitis C.
-The TxGNN model predicts it may be effective for **hepatitis B virus infection**, but none of the **26 retrieved clinical trials** or **20 publications** shows that velpatasvir treats HBV.
-Only one trial involves HBV, and it uses velpatasvir for HCV in HCV/HBV co-infected patients, with tenofovir alafenamide (TAF) given for HBV.
+Velpatasvir is an HCV NS5A inhibitor originally used to treat chronic hepatitis C virus infection.
+The TxGNN model predicts it may be effective for **hepatitis B virus infection**, but the **5 clinical trials** and **22 publications** found all concern HCV, so this prediction currently rests on the model alone, without direct supporting evidence.
 
 ---
 
@@ -43,10 +42,10 @@ Only one trial involves HBV, and it uses velpatasvir for HCV in HCV/HBV co-infec
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C (inferred from the product identity; the Canadian licence text is not provided) |
+| Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 (per Evidence Pack; no study shows anti-HBV efficacy) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
@@ -55,26 +54,23 @@ Only one trial involves HBV, and it uses velpatasvir for HCV in HCV/HBV co-infec
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Velpatasvir is known to inhibit the HCV NS5A protein, and its efficacy in hepatitis C is well established.
+Currently, detailed mechanism of action data is not available from the compiled data. Based on known information, velpatasvir is an HCV NS5A inhibitor and is used in fixed-dose combinations with sofosbuvir (Epclusa) and with sofosbuvir plus voxilaprevir (Vosevi). Its efficacy in hepatitis C is well established.
 
-The prediction is weak mechanistically. HBV is a DNA virus (Hepadnaviridae) with no NS5A homolog, and no anti-HBV activity of velpatasvir is documented. The high score most likely reflects the shared "viral hepatitis" neighborhood in the knowledge graph rather than a shared drug target.
+Mechanistically, the link to hepatitis B is weak. HBV has no NS5A protein, so velpatasvir has no direct target in this virus. The high TxGNN score most likely reflects closeness in the knowledge-graph network between the two "viral hepatitis" diseases rather than a shared drug target.
 
-The clinical signal in the data is about HCV/HBV co-infection. In that setting HBV reactivation during direct-acting antiviral (DAA) therapy is a safety concern, not a therapeutic effect. The Phase 4 trial pairs sofosbuvir/velpatasvir with TAF, and TAF is the anti-HBV agent.
+The available HBV-related evidence also does not show benefit. One trial addresses HBV reactivation management in HCV/HBV co-infected patients, and any protective effect there comes from tenofovir alafenamide (TAF), not velpatasvir. One case report describes HBV reactivation during sofosbuvir/velpatasvir treatment, which is a safety signal rather than evidence of benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Only the first trial involves HBV. The others are HCV studies retrieved by drug name and have no HBV endpoint.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Phase 4 | Unknown | 120 | 12-week sofosbuvir/velpatasvir with prophylactic TAF in treatment-naïve HCV/HBV co-infected adults in China. It tests prevention of HBV reactivation, not HBV treatment by velpatasvir. |
-| [NCT05016609](https://clinicaltrials.gov/study/NCT05016609) | Phase 4 | Unknown | 1800 | Same-visit HCV test-and-treat cluster trial in people who inject drugs. No HBV endpoint. |
-| [NCT01858766](https://clinicaltrials.gov/study/NCT01858766) | Phase 2 | Completed | 379 | Sofosbuvir + velpatasvir ± ribavirin in treatment-naïve chronic HCV. Does not address HBV. |
-| [NCT02996682](https://clinicaltrials.gov/study/NCT02996682) | Phase 3 | Completed | 102 | Sofosbuvir/velpatasvir ± ribavirin in HCV with decompensated cirrhosis. Does not address HBV. |
-| [NCT02201901](https://clinicaltrials.gov/study/NCT02201901) | Phase 3 | Completed | 268 | Sofosbuvir/velpatasvir in HCV with Child-Pugh B cirrhosis. Does not address HBV. |
-| [NCT03570112](https://clinicaltrials.gov/study/NCT03570112) | N/A | Completed | 40 | Observational study of HCV in pregnancy, with postpartum sofosbuvir/velpatasvir. Does not address HBV. |
+| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Phase 4 | Unknown | 120 | 12-week SOF/VEL with prophylactic TAF in HCV/HBV co-infection. It addresses HBV reactivation, but benefit is attributable to TAF. |
+| [NCT03549312](https://clinicaltrials.gov/study/NCT03549312) | Phase 4 | Unknown | 25 | Switch to E/C/F/TAF, then SOF/VEL for HCV, in HIV/HCV co-infected patients on opioid substitution therapy. Any anti-HBV effect comes from TAF. |
+| [NCT02836925](https://clinicaltrials.gov/study/NCT02836925) | Phase 2 | Completed | 40 | Interferon-free DAA therapy in HCV-associated indolent B-cell lymphoma. No HBV endpoint. |
+| [NCT03579576](https://clinicaltrials.gov/study/NCT03579576) | N/A | Completed | 803 | Simplified HCV testing and treatment model in Myanmar. HBV is not the studied indication. |
+| [NCT07560046](https://clinicaltrials.gov/study/NCT07560046) | Phase 4 | Not yet recruiting | 1280 | Cluster randomized trial of point-of-care HCV testing and treatment. No HBV efficacy data. |
 
 ---
 
@@ -82,31 +78,37 @@ Only the first trial involves HBV. The others are HCV studies retrieved by drug 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case report | J Med Case Rep | HBV reactivation, with a surface-antigen immune-escape mutant, in an anti-HBc-positive patient during sofosbuvir/velpatasvir for HCV. |
-| [39735164](https://pubmed.ncbi.nlm.nih.gov/39735164/) | 2024 | Real-world study | J Virus Erad | Effectiveness and safety of sofosbuvir/velpatasvir-based therapy for HCV in Chinese patients, including HCV/HBV co-infection subgroups. |
-| [32935438](https://pubmed.ncbi.nlm.nih.gov/32935438/) | 2021 | Treatment outcomes and cost study | J Viral Hepat | Simplified HCV treatment in Myanmar; HBV co-infected patients received tenofovir concurrently. |
-| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Review | World J Gastroenterol | Pediatric viral hepatitis. HCV has available DAAs, while HBV treatment remains far from curative. |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospective evaluation | Klin Mikrobiol Infekc Lek | Antiviral treatment of chronic hepatitis B and C in children in Ostrava. |
-| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Conference report | AIDS Rev | Overview of viral hepatitis treatment, including HBV and HCV. |
+| [42558970](https://pubmed.ncbi.nlm.nih.gov/42558970/) | 2026 | Multicenter study | J Clin Transl Hepatol | Safety and efficacy of SOF/VEL with TAF pre-treatment on HBV reactivation in HBV/HCV co-infection. |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case report | J Med Case Rep | HBV reactivation with a surface-antigen immune-escape mutant during SOF/VEL treatment for HCV (a safety signal). |
+| [32935438](https://pubmed.ncbi.nlm.nih.gov/32935438/) | 2021 | Cohort | J Viral Hepat | Simplified HCV treatment in Myanmar, including HBV co-infected patients treated concurrently with tenofovir. |
+| [39735164](https://pubmed.ncbi.nlm.nih.gov/39735164/) | 2024 | Real-world study | J Virus Eradication | Real-life SOF/VEL effectiveness in Chinese HCV patients, including HCV/HBV co-infection. |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Review | World J Gastroenterol | Management of paediatric viral hepatitis. Notes HBV treatment is far from curative. |
+| [35248213](https://pubmed.ncbi.nlm.nih.gov/35248213/) | 2022 | Single-arm trial | Lancet Gastroenterol Hepatol | SOF/VEL in treatment-naive HCV in Rwanda (SHARED-3). |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Review | Clin Pharmacokinet | Pharmacokinetic and pharmacodynamic considerations of HCV therapy. |
+| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospective study | Klin Mikrobiol Infekc Lek | Antiviral treatment of chronic hepatitis B and C in children in Ostrava. |
+
+None of these publications shows that velpatasvir treats HBV.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2456370 | EPCLUSA |
-| 2467542 | VOSEVI |
-
-Dosage form and approved indication text are not provided for either product.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02456370 | EPCLUSA | Not specified | Not specified |
+| 02467542 | VOSEVI | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Literature signal**: One published case report describes HBV reactivation in an anti-HBc-positive patient during sofosbuvir/velpatasvir for HCV ([PMID 31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/)). HBV status should be assessed before DAA therapy.
+- **Drug Interactions**: 57 interactions were identified. The main ones from the compiled data:
+  - **Major**: dexamethasone and the proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole).
+  - **Moderate**: antacids (aluminum hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide, magnesium oxide), H2 blockers (cimetidine, famotidine, nizatidine) and naldemedine.
+  - **Minor**: fidaxomicin, naloxegol and prucalopride.
+- **HBV reactivation**: A case report describes HBV reactivation during SOF/VEL therapy in an HBV core antibody-positive patient. Any HBV-related use would need careful monitoring and antiviral cover.
 
-Please refer to the package insert for warnings, contraindications and drug interactions.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -115,13 +117,15 @@ Please refer to the package insert for warnings, contraindications and drug inte
 **Decision: Hold**
 
 **Rationale:**
-The 99.87% TxGNN score is not backed by any anti-HBV efficacy evidence. No study shows velpatasvir treats HBV, and HBV has no NS5A target. The only HBV-related trial and the literature concern HCV treatment in co-infected patients, where HBV reactivation is a risk. The other nine predicted indications are also on Hold, and most of them are Level 5 (model prediction only).
+The prediction score is very high (99.87%), but it appears to reflect network proximity between viral hepatitis diseases. Velpatasvir targets HCV NS5A, which HBV lacks. All trials and publications found are HCV studies, and the HBV-related data are about co-infection management or reactivation risk, not anti-HBV efficacy.
 
 **To proceed, the following is needed:**
-- In vitro data showing whether velpatasvir has any anti-HBV activity
-- Detailed mechanism of action data (MOA) from DrugBank
+- Mechanism of action data and in vitro evidence of anti-HBV activity
+- Preclinical or early clinical data showing an HBV virological effect
 - Health Canada package insert warnings and contraindications
-- Results from NCT04997564, interpreted as HBV reactivation prevention rather than HBV treatment
+- A reactivation risk-management plan for HBV co-infected patients
+
+**Other predicted indications:** The remaining nine predictions (hepatitis E, hepatitis A, animal viral hepatitis, Omsk hemorrhagic fever, Kyasanur forest disease, HIV, simian immunodeficiency virus infection, feline immunodeficiency syndrome and a rare neurodevelopmental disorder) have no direct efficacy evidence and are also rated Hold. For HIV, the available data concern HCV treatment in co-infected patients and drug interactions with antiretrovirals, not HIV treatment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Papaverine
 parent: Moderate Evidence (L3-L4)
-nav_order: 700
+nav_order: 706
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Papaverine: From Smooth Muscle Relaxant (Vasodilator) to Ischemic Disease
+# Papaverine: From Peripheral Vascular Disease to Ischemic Disease
 
 ## One-Sentence Summary
 
-Papaverine is a smooth muscle relaxant and vasodilator, marketed in Canada as an injectable. The TxGNN model predicts it may be effective for **ischemic disease**, but the support is weak: the **4 clinical trials** found are diagnostic, observational or surgical-technique studies rather than treatment trials of papaverine, and the **20 publications** are mostly old reviews, small clinical studies and animal work.
+Papaverine is a smooth muscle vasodilator, originally used for peripheral vascular disease, intermittent claudication, peripheral arterial disease, brain ischemia and transient ischemic attack.
+The TxGNN model predicts it may be effective for **ischemic disease**,
+but the support is thin: **1 clinical trial** (an observational registry, not a treatment trial) and **20 publications** (mostly reviews, procedural reports and older small studies).
 
 ---
 
@@ -41,7 +43,7 @@ Papaverine is a smooth muscle relaxant and vasodilator, marketed in Canada as an
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the registry data (drug class: smooth muscle relaxant / vasodilator) |
+| Original Indication | Peripheral vascular disease, intermittent claudication, peripheral arterial disease, brain ischemia, transient ischemic attack |
 | Predicted New Indication | Ischemic disease |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L4 |
@@ -53,11 +55,11 @@ Papaverine is a smooth muscle relaxant and vasodilator, marketed in Canada as an
 
 ## Why is This Prediction Reasonable?
 
-The DrugBank mechanism-of-action field is empty for this drug. The Evidence Pack's analysis describes papaverine as a non-selective phosphodiesterase (PDE) inhibitor. Higher intracellular cAMP and cGMP relax smooth muscle and dilate blood vessels.
+Papaverine is a non-selective smooth muscle vasodilator. It is thought to act by inhibiting phosphodiesterase, which raises cAMP and cGMP in vascular smooth muscle. Detailed mechanism of action data are not available in the data compiled for this report, so this description relies on general pharmacological knowledge.
 
-That mechanism fits ischemia caused by vasospasm or microvascular dysfunction. Intra-arterial papaverine is already used in non-occlusive mesenteric ischemia, and it is applied topically or intraluminally to prevent spasm in surgical grafts such as the internal thoracic and radial arteries.
+The original indications (peripheral and cerebral ischemia) and the predicted "ischemic disease" are closely related. Both involve reduced blood flow, and vasodilation to relieve spasm and improve perfusion is a sensible approach. The literature describes papaverine used as an intra-arterial infusion for non-occlusive mesenteric ischemia, as a vasodilator in neurointerventional procedures for vasospasm, and as a pharmacologic stress agent for measuring coronary flow reserve.
 
-"Ischemic disease" is a very broad term, and these uses concern specific spasm-related situations. They do not show that papaverine treats ischemia in general. The very high TxGNN score is a graph-based prediction only. Other predicted indications for this drug (such as vascular ectasia, angiodysplasia and fibrocartilaginous embolism) have little or no support, so the score alone should not drive decisions.
+These uses are largely procedural or diagnostic, and the evidence is case-level or review-level. The prediction is plausible, but it is not backed by controlled efficacy data. "Ischemic disease" is also a broad category, which partly explains the high score.
 
 ---
 
@@ -65,47 +67,43 @@ That mechanism fits ischemia caused by vasospasm or microvascular dysfunction. I
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05562908](https://clinicaltrials.gov/study/NCT05562908) | N/A | Completed | 165 | Randomised comparison of skeletonised vs pedicled internal thoracic artery harvesting in bypass surgery. Papaverine is at most a graft vasodilator, not the tested treatment. |
-| [NCT06125392](https://clinicaltrials.gov/study/NCT06125392) | N/A | Recruiting | 1000 | Registry of chronic angina without coronary stenosis (microvascular dysfunction and spasm testing). Papaverine is at most a diagnostic agent. |
-| [NCT06014242](https://clinicaltrials.gov/study/NCT06014242) | N/A | Withdrawn | 0 | Peripheral microvascular resistance as a predictor of limb salvage in critical limb ischemia. Withdrawn with no participants, so no evidence. |
-| [NCT06795035](https://clinicaltrials.gov/study/NCT06795035) | N/A | Recruiting | 70 | Observational assessment of coronary microvascular dysfunction after STEMI using continuous saline thermodilution. No therapeutic evidence for papaverine. |
-
-All four trials were graded C (low relevance) in the pack.
+| [NCT06125392](https://clinicaltrials.gov/study/NCT06125392) | N/A | Recruiting | 1000 | Multicenter registry of patients with chronic angina and no obstructive coronary stenosis, collecting data on microvascular dysfunction and coronary spasm. Observational, so it offers only indirect context. |
 
 ---
 
 ## Literature Evidence
 
-No randomised controlled trials were found. Items are ordered with clinical studies first, then reviews, then preclinical work.
+The list below covers the most relevant publications. Most are reviews, case-level reports or older studies.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16368347](https://pubmed.ncbi.nlm.nih.gov/16368347/) | 2006 | Clinical/experimental | Ann Thorac Surg | Compared glyceryl-trinitrate/verapamil solution with papaverine for treating internal thoracic artery spasm and identified the best delivery route. |
-| [3661361](https://pubmed.ncbi.nlm.nih.gov/3661361/) | 1987 | Clinical physiology study | Am Heart J | Intracoronary papaverine was compared with radiographic contrast for measuring coronary flow reserve in ischemic heart disease. This is a diagnostic use. |
-| [7590571](https://pubmed.ncbi.nlm.nih.gov/7590571/) | 1995 | Review | Hepato-gastroenterology | Non-occlusive mesenteric ischemia: a low-flow state with vasoconstriction and reperfusion injury. |
-| [12964071](https://pubmed.ncbi.nlm.nih.gov/12964071/) | 2003 | Review | RoFo | Non-occlusive mesenteric ischemia is life-threatening, with survival not exceeding about 50% even under optimal care. |
-| [8293164](https://pubmed.ncbi.nlm.nih.gov/8293164/) | 1993 | Review | Curr Opin Neurol | Interventional neuroradiology review, including superselective papaverine infusion for vasospasm after aneurysm rupture. |
-| [4933650](https://pubmed.ncbi.nlm.nih.gov/4933650/) | 1971 | Review | Br Med J | Review of cerebral vasodilators (no abstract available). |
-| [32713799](https://pubmed.ncbi.nlm.nih.gov/32713799/) | 2020 | Preclinical (mouse) | J Pharmacol Sci | Papaverine reduced infarct volume in mouse focal cerebral ischemia, with anti-inflammatory and immunomodulatory pathway effects. |
-| [28832798](https://pubmed.ncbi.nlm.nih.gov/28832798/) | 2017 | Preclinical (rat) | Braz J Cardiovasc Surg | Studied papaverine and vitamin C against liver ischemia-reperfusion injury after aortic occlusion. |
-| [30665449](https://pubmed.ncbi.nlm.nih.gov/30665449/) | 2019 | In vitro | J Cardiothorac Surg | Compared botulinum toxin A with papaverine as vasodilators in human radial artery grafts. |
-| [9972912](https://pubmed.ncbi.nlm.nih.gov/9972912/) | 1998 | Preclinical (pig) | J Cardiovasc Surg | Papaverine with intrathecal cooling for spinal cord protection during aortic cross-clamping. |
+| [3661361](https://pubmed.ncbi.nlm.nih.gov/3661361/) | 1987 | Clinical study (diagnostic) | Am Heart J | Intracoronary papaverine was superior to radiographic contrast for measuring coronary flow reserve in ischemic heart disease |
+| [16368347](https://pubmed.ncbi.nlm.nih.gov/16368347/) | 2006 | Comparative study | Ann Thorac Surg | Compared papaverine with glyceryl trinitrate-verapamil solution for internal thoracic artery spasm |
+| [28455799](https://pubmed.ncbi.nlm.nih.gov/28455799/) | 2018 | Case report | J Robot Surg | Periarterial papaverine treated renal artery vasospasm during partial nephrectomy |
+| [32713799](https://pubmed.ncbi.nlm.nih.gov/32713799/) | 2020 | Preclinical (mouse) | J Pharmacol Sci | Papaverine reduced infarct volume in focal cerebral ischemia and showed anti-inflammatory effects |
+| [28832798](https://pubmed.ncbi.nlm.nih.gov/28832798/) | 2017 | Preclinical (rat) | Braz J Cardiovasc Surg | Papaverine and vitamin C were studied against liver ischemia-reperfusion injury after aortic cross-clamping |
+| [21761272](https://pubmed.ncbi.nlm.nih.gov/21761272/) | 2011 | Guideline/Review | Neurocrit Care | Critical care guidelines on endovascular management of cerebral vasospasm |
+| [7590571](https://pubmed.ncbi.nlm.nih.gov/7590571/) | 1995 | Review | Hepatogastroenterology | Non-occlusive mesenteric ischemia and its management |
+| [11341865](https://pubmed.ncbi.nlm.nih.gov/11341865/) | 2001 | Review | Curr Treat Options Cardiovasc Med | Mesenteric vascular disease; medical and endovascular options in early stages |
+| [8293164](https://pubmed.ncbi.nlm.nih.gov/8293164/) | 1993 | Review | Curr Opin Neurol | Interventional neuroradiology, including superselective papaverine infusion for post-rupture vasospasm |
+| [266914](https://pubmed.ncbi.nlm.nih.gov/266914/) | 1977 | Review | Aust N Z J Surg | Acute mesenteric ischaemia; mortality remained very high |
 
 ---
 
 ## Canada Market Information
 
-| DIN / License No. | Product Name |
-|---------|------|
-| 9881 | PAPAVERINE HYDROCHLORIDE INJECTION USP |
-
-Dosage form, manufacturer and approved-indication text are not recorded in the available data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00009881 | PAPAVERINE HYDROCHLORIDE INJECTION USP | Not stated | Not stated |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interactions were found in the drug-interaction query.
+- **Disease-level cautions (knowledge graph, not label text)**: The TxGNN knowledge graph links papaverine to contraindications in liver disease, gallbladder disease, hypotensive disorder, coronary artery disease, myocardial infarction, coronary thrombosis, hemoglobinopathy, sudden cardiac arrest, heart conduction disease, atrioventricular block and glaucoma.
+- **Drug Interactions**: 100 interactions were found. Among the 20 reviewed, most are Major, including abiraterone, tramadol, adenosine, salbutamol, alfuzosin, amiodarone, amisulpride, amitriptyline, anagrelide, propofol, loperamide, apalutamide, apomorphine, arsenic trioxide, lumefantrine, asenapine and atomoxetine. Moderate ones include amifostine, apraclonidine and aripiprazole. Many of these involve QT prolongation or additive cardiovascular effects.
+
+Please refer to the package insert for labelled warnings and contraindications.
 
 ---
 
@@ -114,16 +112,15 @@ Please refer to the package insert for safety information. No interactions were 
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible, but the indication is too broad and no trial tests papaverine as a treatment for ischemic disease. The clinical literature is mostly old, and the rest is animal or in-vitro work. The Canadian safety information has not been obtained, which blocks progress to safety screening.
+The TxGNN score is very high (99.91%), but the supporting evidence is weak. The only registered trial is an observational registry, and the literature consists mostly of reviews, case reports, procedural or diagnostic uses, and animal studies. The overlap with the existing peripheral and cerebral ischemia indications also means this is not a clearly new indication. The knowledge graph flags several cardiovascular contraindications, and the label safety information has not been reviewed.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph or package insert (warnings, contraindications, approved indication), to clear the safety-screening block
-- Mechanism-of-action data from DrugBank
-- A narrower, clinically defined target indication (for example non-occlusive mesenteric ischemia, graft vasospasm or cerebral vasospasm) in place of "ischemic disease"
-- Manual relevance review of the pending literature and a search for controlled trials in that narrower indication
-- Dosage form and route data for the Canadian product, to check route compatibility
-
-*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data (MOA)
+- A narrower, clinically defined indication (for example, non-occlusive mesenteric ischemia or cerebral vasospasm) in place of the broad "ischemic disease" label
+- Controlled clinical data for that specific indication
+- Review of the cardiovascular drug interactions and the knowledge graph contraindications
+- Confirmation of dosage form, route and approved indication for the Canadian product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

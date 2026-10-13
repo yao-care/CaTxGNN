@@ -2,7 +2,7 @@
 layout: default
 title: Pioglitazone
 parent: Model Prediction Only (L5)
-nav_order: 732
+nav_order: 739
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Pioglitazone: From Type 2 Diabetes to Opsismodysplasia
+# Pioglitazone: From Type 2 Diabetes Mellitus to Opsismodysplasia
 
 ## One-Sentence Summary
 
-Pioglitazone is a PPAR-gamma agonist (insulin sensitizer) used for type 2 diabetes. The license records do not state this indication, so it is inferred from the retrieved literature.
-The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia, with a very high score.
-However, **0 clinical trials** and **0 publications** support this prediction, so it is a model-only signal.
-
----
+Pioglitazone is an insulin-sensitizing drug (a PPAR-gamma agonist) originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia,
+but **no clinical trials and no publications** currently support this prediction. It rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (inferred from literature; not stated in the license records) |
+| Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L5 |
@@ -51,64 +49,78 @@ However, **0 clinical trials** and **0 publications** support this prediction, s
 | Number of DINs | 13 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Based on known information, pioglitazone is a thiazolidinedione that activates PPAR-gamma, and its efficacy in improving insulin sensitivity in type 2 diabetes is well documented.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, pioglitazone is a thiazolidinedione that activates PPAR-gamma, improving insulin sensitivity and supporting pancreatic beta-cell function. Its efficacy in type 2 diabetes is well established.
 
-Opsismodysplasia is a rare skeletal dysplasia linked to INPPL1, a gene involved in phosphoinositide signaling and growth plate development. No clear mechanistic link to PPAR-gamma agonism or insulin sensitization has been identified. The high TxGNN score is a graph-based association with no supporting trials or literature, so it should be treated as a hypothesis only.
+Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 mutations. INPPL1 encodes SHIP2, a phosphoinositide phosphatase that affects insulin/PI3K signaling. Any link to PPAR-gamma agonism is speculative. No clear mechanistic connection was identified, and the high score likely reflects relationships within the knowledge graph rather than biological or clinical evidence.
 
-Other predictions for this drug have a more plausible biological rationale. These are the localized lipodystrophies (drug-induced, centrifugal, pressure-induced and idiopathic), since PPAR-gamma regulates fat cell differentiation. They are flagged as research questions, but they also have no supporting clinical evidence in the retrieved data.
+**Other predictions reviewed** (all L5, all Hold, with no clinical trials or literature, except as noted):
 
----
+| Rank | Predicted Indication | Score | Comment |
+|------|------|------|------|
+| 2 | Classic stiff person syndrome | 99.50% | Possible immunomodulatory rationale; unproven |
+| 3 | Focal stiff limb syndrome | 99.50% | Same score and rationale as rank 2; likely a shared graph-based prediction |
+| 4 | Thiamine-responsive dysfunction syndrome | 99.48% | Glycemic overlap only; standard care is thiamine and insulin |
+| 5 | Drug-induced localized lipodystrophy | 99.30% | Adipose biology is relevant, but stopping the offending drug is the usual management |
+| 6 | Centrifugal lipodystrophy | 99.26% | Theoretical rationale only |
+| 7 | Pressure-induced localized lipoatrophy | 99.24% | Mechanical cause; usually resolves when the cause is removed |
+| 8 | Idiopathic localized lipodystrophy | 99.19% | Disease-class similarity only |
+| 9 | Pancreatic agenesis | 99.18% | Unlikely to work alone because pioglitazone needs endogenous insulin; 7 papers retrieved, all about type 2 diabetes |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for opsismodysplasia.
 
-Only the pancreatic agenesis prediction (rank 9) returned articles. These are 9 general reviews and one RCT on type 2 diabetes, insulin resistance and PPAR agonists, and none address opsismodysplasia.
-
----
+(For the rank 9 prediction, pancreatic agenesis, 7 papers were retrieved, but they concern type 2 diabetes and thiazolidinediones in general rather than the predicted disease. They are indirect at best and do not count as supporting evidence.)
 
 ## Canada Market Information
 
-Showing 5 of 13 authorizations.
+Pioglitazone is marketed in Canada with 13 valid single-ingredient licences (no combination products and no cancelled licences). Dosage form and approved indication text are not available in the compiled data. Five of the licences are listed below.
 
 | DIN | Product Name |
 |---------|------|
-| 2326485 | MINT-PIOGLITAZONE |
-| 2326477 | MINT-PIOGLITAZONE |
-| 2365529 | JAMP PIOGLITAZONE |
-| 2339595 | ACH-PIOGLITAZONE |
-| 2339587 | ACH-PIOGLITAZONE |
-
----
+| 02326485 | MINT-PIOGLITAZONE |
+| 02365529 | JAMP PIOGLITAZONE |
+| 02339595 | ACH-PIOGLITAZONE |
+| 02302888 | TEVA-PIOGLITAZONE |
+| 02302977 | APO-PIOGLITAZONE |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions**: 100 interactions were found in the DDInter database. Most of those listed are Moderate, and some are Minor. Examples include:
+- Moderate: abiraterone, acetazolamide, alpelisib, epinephrine, formoterol, hydrochlorothiazide, hydrocortisone, phenylephrine, pseudoephedrine, salbutamol, ethanol
+- Minor: nifedipine, ethinylestradiol, lipoic acid, topical corticosteroids
 
----
+**Conditions flagged in the knowledge graph as contraindications** (derived from graph relationships, not label text):
+- Congestive heart failure
+- Kidney disease
+- Liver disease
+- Gallbladder disease
+- Adrenocortical insufficiency / Addison disease
+- Pituitary hormone deficiencies and hypogonadotropic hypogonadism (including Kallmann syndrome)
+- Thymus gland disease
+- Infectious disease
+
+Health Canada package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score (L5), with no trials, no literature and no plausible mechanism linking PPAR-gamma agonism to opsismodysplasia. The drug is widely marketed in Canada, but that does not support this new use.
+The prediction rests only on a high model score (L5). There are no clinical trials or relevant publications, and no credible mechanistic link between PPAR-gamma agonism and opsismodysplasia. The other top predictions are similarly unsupported. The known safety profile of pioglitazone also raises concerns, notably congestive heart failure.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for pioglitazone
-- Health Canada product monograph warnings and contraindications, to allow a safety screen
-- A targeted literature review on opsismodysplasia and INPPL1/phosphoinositide signaling in relation to PPAR-gamma
-- Consideration of the localized lipodystrophy candidates as a better-grounded research direction, taking into account pioglitazone's weight gain and fluid retention effects
+- Mechanistic evidence connecting pioglitazone or PPAR-gamma signaling to INPPL1/SHIP2 biology (preclinical or in vitro studies)
+- Detailed mechanism of action data
+- Health Canada package insert warnings and contraindications for formal safety screening
+- Assessment of route compatibility and similarity to the original indication
+- Any case reports or clinical data in the predicted disease, if they exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

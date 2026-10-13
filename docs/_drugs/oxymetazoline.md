@@ -2,15 +2,15 @@
 layout: default
 title: Oxymetazoline
 parent: Moderate Evidence (L3-L4)
-nav_order: 690
-evidence_level: L3
+nav_order: 696
+evidence_level: L4
 indication_count: 3
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-# Oxymetazoline: From Nasal Congestion to Nasal Cavity Disease
+# Oxymetazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Oxymetazoline is a topical nasal decongestant, and the Canadian product names all point to nasal congestion relief. The TxGNN model predicts it may be effective for **nasal cavity disease**, with **17 registered clinical trials** and **5 publications** retrieved. However, most of these trials use oxymetazoline only as a procedural aid or do not clearly involve it, and nasal decongestion is already a marketed use. The prediction therefore reflects known pharmacology more than a new indication.
+Oxymetazoline is a topical sympathomimetic decongestant, originally used for pharyngitis and the common cold.
+The TxGNN model predicts it may be effective for **nasal cavity disease**,
+but there are currently **no registered clinical trials** and only **5 publications**, mostly indirect (one animal study, one physiology study, and several case reports or procedural papers).
 
 ---
 
@@ -41,44 +43,27 @@ Oxymetazoline is a topical nasal decongestant, and the Canadian product names al
 
 | Item | Content |
 |------|------|
-| Original Indication | Nasal congestion (inferred from product names; no indication text is on file in the licence records) |
+| Original Indication | Pharyngitis, common cold (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 13 |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Oxymetazoline is known as a topical alpha-1/alpha-2 adrenergic agonist. It constricts blood vessels in the nasal lining, which reduces swelling and congestion.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, oxymetazoline is a topical alpha-adrenergic agonist. Pharmacology data show it binds alpha-1 (A, B, D) and alpha-2 (A, B, C) adrenoceptors, as well as the serotonin receptors 5-HT1B, 5-HT1D and 5-HT2C. Through alpha-adrenergic vasoconstriction of nasal mucosal vessels, it reduces congestion and improves nasal airflow.
 
-This fits nasal cavity disease well, because swollen, congested nasal mucosa is a common feature of many nasal conditions. The very high TxGNN score probably reflects this established pharmacology. Because decongestion is already a marketed use, this is closer to an on-label use than to a true repurposing signal. The blank original-indication field in the record is most likely a database gap, not evidence of a new use.
-
-Several retrieved trials use oxymetazoline as a procedural adjunct, for example as a vasoconstrictor before sinus surgery or endoscopy. These show it is used in practice, but they do not show that it treats a nasal disease.
+The original indications (common cold, pharyngitis) involve upper-airway mucosal congestion, and "nasal cavity disease" is a very broad category in the same anatomical region. Nasal congestion relief is already the marketed use of oxymetazoline, so the high TxGNN score (0.9996) mostly reflects overlap with existing use rather than a truly new indication. The repurposing novelty is therefore limited. Conditions with a vascular or congestive component (rhinitis, sinusitis) are the most plausible extensions.
 
 ---
 
 ## Clinical Trial Evidence
 
-The table lists the 10 most relevant of the 17 retrieved trials.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Phase 4 | Completed | 20 | 0.05% oxymetazoline vs 1:1000 epinephrine before endoscopic sinus surgery, comparing blood loss and surgical view |
-| [NCT01411969](https://clinicaltrials.gov/study/NCT01411969) | N/A | Completed | 16 | Acoustic rhinometry after decongestion with 0.05% oxymetazoline spray, with and without an external nasal dilator strip |
-| [NCT00147940](https://clinicaltrials.gov/study/NCT00147940) | Phase 4 | Terminated | 20 | Nasal volume and cross-sectional area vs nasalance scores; the decongestant is likely oxymetazoline. Small and terminated early |
-| [NCT03620513](https://clinicaltrials.gov/study/NCT03620513) | Phase 4 | Completed | 160 | Topical anaesthesia vs decongestant before fiberoptic laryngoscopy; outcome is procedural comfort, and the decongestant is not confirmed to be oxymetazoline |
-| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | N/A | Completed | 106 | Co-phenylcaine decongestant/anaesthetic spray vs nebulisation before nasoendoscopy; oxymetazoline involvement is not stated |
-| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Phase 2 | Terminated | 3 | Kovanaze (tetracaine/oxymetazoline nasal spray) vs articaine for dental anaesthesia; negligible enrolment |
-| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | Phase 2 | Withdrawn | 0 | Same Kovanaze vs articaine design; never enrolled |
-| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Phase 3 | Completed | 16 | Cocaine vs lidocaine/xylometazoline vs saline for intranasal analgesia; the agent is xylometazoline, so this is class-level support only |
-| [NCT03506178](https://clinicaltrials.gov/study/NCT03506178) | N/A | Unknown | 30 | Effect of nasal airflow on upper airway muscles during sleep; drug role not confirmed |
-| [NCT06457100](https://clinicaltrials.gov/study/NCT06457100) | Phase 1/2 | Unknown | 60 | Perioperative IV esmolol vs lidocaine in sinus surgery; systemic drugs, not relevant to oxymetazoline |
-
-The remaining 7 trials are unrelated diagnostic, physiological or surgical studies. No completed Phase 3 trial of oxymetazoline for a nasal disease was found.
+Currently no related clinical trials registered.
 
 ---
 
@@ -86,57 +71,52 @@ The remaining 7 trials are unrelated diagnostic, physiological or surgical studi
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8615587](https://pubmed.ncbi.nlm.nih.gov/8615587/) | 1996 | Preclinical (animal) | Ann Otol Rhinol Laryngol | Oxymetazoline nose drops on early tissue defence in experimental bacterial sinusitis in rabbits |
-| [9929658](https://pubmed.ncbi.nlm.nih.gov/9929658/) | 1998 | Clinical study | Ann N Y Acad Sci | Olfactory function in acute rhinitis (36 subjects), with nasal volume measured by acoustic rhinometry |
-| [25496205](https://pubmed.ncbi.nlm.nih.gov/25496205/) | 2015 | Clinical cohort | J Plast Surg Hand Surg | Nasal patency by acoustic rhinometry in children after cleft lip and palate repair vs controls |
-| [28490409](https://pubmed.ncbi.nlm.nih.gov/28490409/) | 2017 | Case series | Am J Rhinol Allergy | Endoscopic coblation of nasal telangiectasias in hereditary hemorrhagic telangiectasia |
-| [38024464](https://pubmed.ncbi.nlm.nih.gov/38024464/) | 2023 | Case report | Glob Pediatr Health | Rhinoscleroma in a 9-year-old boy presenting with nasal obstruction |
+| [9929658](https://pubmed.ncbi.nlm.nih.gov/9929658/) | 1998 | Clinical study | Ann N Y Acad Sci | Effects of the common cold (acute rhinitis) on olfactory function in 36 subjects, measured with evoked potentials, psychophysical tests and acoustic rhinometry |
+| [8615587](https://pubmed.ncbi.nlm.nih.gov/8615587/) | 1996 | Animal study | Ann Otol Rhinol Laryngol | Oxymetazoline nose drops in a rabbit model of acute bacterial sinusitis, evaluating the effect on local tissue defense against infection |
+| [28490409](https://pubmed.ncbi.nlm.nih.gov/28490409/) | 2017 | Procedural study | Am J Rhinol Allergy | Endoscopic coblation treatment of nasal telangiectasias in hereditary hemorrhagic telangiectasia |
+| [25496205](https://pubmed.ncbi.nlm.nih.gov/25496205/) | 2015 | Clinical study (diagnostic) | J Plast Surg Hand Surg | Nasal patency measured by acoustic rhinometry in children after cleft lip and palate repair |
+| [38024464](https://pubmed.ncbi.nlm.nih.gov/38024464/) | 2023 | Case report | Glob Pediatr Health | Rhinoscleroma in a 9-year-old boy |
 
-Only the rabbit study directly tests oxymetazoline. The other four are about nasal conditions or measurement methods, and the abstracts shown do not establish a role for the drug.
+Most of these papers mention oxymetazoline only incidentally (for example as a decongestant in assessments or procedures), so none provides direct efficacy evidence for a new indication.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2498294 | DRIXORAL NO DRIP NASAL CONGESTION |
-| 2380129 | DRIXORAL NASAL CONGESTION |
-| 2460599 | NASAL CONGESTION SPRAY |
-| 740861 | DRIXORAL DECONGESTANT NASAL SPRAY |
-| 1929380 | LONG LASTING DRISTAN MENTHOLATED NASAL SPRAY |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02498294 | DRIXORAL NO DRIP NASAL CONGESTION | Not specified | Not specified |
+| 02380129 | DRIXORAL NASAL CONGESTION | Not specified | Not specified |
+| 02460599 | NASAL CONGESTION SPRAY | Not specified | Not specified |
+| 00740861 | DRIXORAL DECONGESTANT NASAL SPRAY | Not specified | Not specified |
+| 01929380 | LONG LASTING DRISTAN MENTHOLATED NASAL SPRAY | Not specified | Not specified |
 
-These are 5 of 13 authorisations. Dosage form and approved indication text are not recorded for these entries.
+Thirteen valid single-ingredient licences are listed in total; the five above are shown as the main examples.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / cautions from the knowledge graph** (not label text): hypertension and other hypertensive disorders, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, heart disease, cardiovascular disease, coronary artery disease, arteriosclerosis/atherosclerosis, angle-closure glaucoma, hyperthyroidism (Graves disease, thyrotoxicosis), eye infectious disease and conjunctivitis, vision disorder and blindness.
+- **Drug interactions:** The interaction query returned 9 entries, all pharmacological target bindings rather than drug-drug interactions: alpha-1A/1B/1D and alpha-2A/2B/2C adrenoceptors, and 5-HT1B, 5-HT1D and 5-HT2C receptors. A literature review (PMID 36425231) also notes that sympathomimetics may interact with monoamine oxidase inhibitors (MAOIs), which is relevant to guardrails.
 
-One literature signal is worth noting. A review of monoamine oxidase inhibitor interactions ([PMID 36425231](https://pubmed.ncbi.nlm.nih.gov/36425231/)) was retrieved in the search. Oxymetazoline is a sympathomimetic, so MAOI co-use and blood pressure effects should be checked against the product monograph.
+Please refer to the package insert for label-based warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The biological fit is strong, since oxymetazoline is already marketed in Canada as a nasal decongestant. The retrieved trials mostly show procedural use or lack a confirmed oxymetazoline arm, so they do not demonstrate efficacy in a distinct nasal disease. Treat this as confirmation of an existing use, not as a new repurposing opportunity.
+The prediction has a very high model score, but there are no clinical trials, and the literature is indirect or incidental. The predicted indication largely overlaps with the existing marketed use (nasal congestion), so the repurposing value is low. Evidence stays at L4 (preclinical and mechanism-level).
 
 **To proceed, the following is needed:**
-- Health Canada product monograph warnings and contraindications (currently missing, and blocking safety screening)
-- Approved indication text and dosage forms for the 13 DINs, to confirm what is already on-label
-- Mechanism-of-action data from DrugBank
-- Verification of which agent was used in the pending-grade trials (NCT03620513, NCT03380715, NCT00562120)
-- A decision on which specific nasal cavity disease is the target, if the aim is a genuinely new indication
-
-**Other predictions (not evaluated in detail):**
-- **Acute laryngopharyngitis** (score 99.95%): no trials or literature, evidence level L5. Recommendation: Hold.
-- **Headache disorder** (score 99.04%): evidence level L4, framed as a research question. The only direct signal is a retrospective report of a tetracaine plus oxymetazoline combination in status migrainosus ([PMID 31919839](https://pubmed.ncbi.nlm.nih.gov/31919839/)). The local anaesthetic is likely the main driver, so oxymetazoline's contribution cannot be separated.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Narrow "nasal cavity disease" to specific conditions (for example rhinitis, sinusitis) and define a testable hypothesis
+- Direct clinical studies of oxymetazoline for the defined condition
+- Mechanism of action data and Health Canada package insert warnings and contraindications (currently missing, which blocks safety screening)
+- Approved indication text, dosage form and manufacturer details for the Canadian licences
+- A safety plan covering cardiovascular disease, hypertension, glaucoma and MAOI co-use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

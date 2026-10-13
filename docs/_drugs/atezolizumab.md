@@ -29,95 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Atezolizumab: From PD-L1 Checkpoint Inhibitor to Prostatic Urethra Urothelial Carcinoma
+# Atezolizumab: From Transitional Cell Carcinoma to Prostatic Urethra Urothelial Carcinoma
 
 ## One-Sentence Summary
 
-Atezolizumab is a PD-L1-blocking antibody marketed in Canada as TECENTRIQ.
-The TxGNN model predicts it may be effective for **prostatic urethra urothelial carcinoma**.
-Support is indirect: **2 clinical trials** in related urothelial settings and **0 publications** specific to this indication.
-
----
+Atezolizumab is a PD-L1 inhibitor originally used to treat transitional cell carcinoma (urothelial carcinoma).
+The TxGNN model predicts it may be effective for **prostatic urethra urothelial carcinoma**,
+but the only linked evidence is **1 early-phase clinical trial** and **no publications**, so this remains a research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Transitional cell carcinoma |
 | Predicted New Indication | Prostatic urethra urothelial carcinoma |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 (per the Evidence Pack; the supporting Phase 2 trial is single-arm, not randomized, and enrolled bladder rather than prostatic urethra patients) |
+| Evidence Level | L3 (as assigned in the compiled data; the single linked trial is Phase 1b) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. Atezolizumab is a PD-L1 inhibitor, which is an immune checkpoint blockade approach. Blocking PD-L1 may help the immune system attack tumour cells.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, atezolizumab is a PD-L1 inhibitor, its efficacy in urothelial carcinoma is established, and mechanistically it may be applicable to related urothelial cancers.
 
-Urothelial carcinoma of the prostatic urethra has the same histology as bladder urothelial carcinoma and shares its PD-1/PD-L1 axis biology, so checkpoint blockade is plausible. The main supporting trial enrolled patients with non-muscle invasive bladder cancer, not prostatic urethra disease. Extrapolation is therefore indirect, and the high TxGNN score is a prediction only.
+Prostatic urethra urothelial carcinoma is a histologically related urothelial malignancy, so a shared PD-L1 axis is biologically plausible. However, the only linked trial is a multi-cohort basket study of cabozantinib plus atezolizumab. No cohort specific to the prostatic urethra can be confirmed from the data provided.
 
----
+Other high-scoring predictions are also urothelial subtypes (upper tract, sarcomatoid variants). Cervical carcinoma is the one non-urothelial area with registered atezolizumab trials, and it is summarised under Other Predictions below.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02844816](https://clinicaltrials.gov/study/NCT02844816) | Phase 2 | Completed | 172 | Single-arm trial of atezolizumab in BCG-unresponsive non-muscle invasive bladder cancer. Same tumour type (urothelial carcinoma) but a different anatomic site. Strongest clinical signal available (relevance grade B). |
-| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 | Active, not recruiting | 914 | Phase 1b dose escalation of cabozantinib alone or with atezolizumab in multiple advanced solid tumours, including urothelial carcinoma of the urethra. No defined prostatic urethra cohort. Supports safety and combination feasibility only (relevance grade C). |
-
----
+| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Phase 1 | Active, not recruiting | 914 | Dose-escalation and expansion of cabozantinib alone or with atezolizumab in advanced solid tumours, including urothelial carcinoma (bladder, renal pelvis, ureter, urethra). No results provided; the combination partner confounds attribution to atezolizumab. |
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Other Predictions Worth Noting
+
+| Predicted Indication | Score | Evidence | Notes |
+|------|------|------|------|
+| Endocervical carcinoma | 99.92% | L2 (as assigned in the compiled data) | Two completed trials: [NCT02921269](https://clinicaltrials.gov/study/NCT02921269) (Phase 2, n=11, atezolizumab + bevacizumab in recurrent cervical cancer) and [NCT03738228](https://clinicaltrials.gov/study/NCT03738228) (Phase 1, n=40, atezolizumab with chemoradiotherapy). No efficacy outcomes provided. One review on cervical neuroendocrine carcinoma ([PMID 37467967](https://pubmed.ncbi.nlm.nih.gov/37467967/), 2023) is also linked. |
+| Kidney pelvis sarcomatoid transitional cell carcinoma | 99.98% | L5 | Model prediction only |
+| Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 99.98% | L5 | Model prediction only |
+| Renal pelvis papillary urothelial carcinoma | 99.98% | L5 | Model prediction only |
+
+The remaining predictions (uterine ligament adenocarcinoma and several rare cervical adenocarcinoma variants) have no supporting trials or literature.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2462990 | TECENTRIQ |
-| 2492393 | TECENTRIQ |
-| 2546310 | TECENTRIQ SC |
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-L1 antibody) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02462990 | TECENTRIQ | Not specified | Not specified |
+| 02492393 | TECENTRIQ | Not specified | Not specified |
+| 02546310 | TECENTRIQ SC | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the queried data.
+- **Drug Interactions**: 75 interactions were identified in total. The main ones listed are:
+  - **Major**: adalimumab, baricitinib, and BCG live vaccine (Tice substrain).
+  - **Moderate**: corticosteroids (hydrocortisone, triamcinolone, betamethasone, budesonide, dexamethasone, prednisolone, prednisone, methylprednisolone, deflazacort), roflumilast, azathioprine, alemtuzumab, anakinra, alefacept, and several vaccines (tetanus toxoid, anthrax, adenovirus).
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only relevant efficacy signal is a single-arm Phase 2 trial in bladder cancer, not prostatic urethra disease. There is no specific literature, and safety information from the Canadian package insert has not yet been reviewed. The other nine predicted indications have weaker evidence: Phase 1 data only for renal pelvis papillary urothelial carcinoma, one indirect review for endocervical carcinoma, and none for the rest. They are not more advanced candidates.
+For the top prediction, prostatic urethra urothelial carcinoma, the only supporting evidence is a Phase 1b basket trial with a combination partner and no literature. The mechanistic rationale is plausible, but it is not yet corroborated by clinical data. Endocervical carcinoma has the more developed trial record, but it consists of small early-phase studies without reported efficacy results.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking gap for safety screening)
-- Detailed mechanism of action data (from DrugBank)
-- Approved indication text for the three Canadian licences
-- Evidence specific to prostatic urethra or upper-tract urothelial carcinoma, for example subgroup analyses of bladder urothelial trials
-- Route and formulation compatibility assessment (intravenous vs. subcutaneous)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Package insert warnings and contraindications from Health Canada, which are required before safety screening
+- Mechanism of action data (for example, from DrugBank)
+- Results from NCT03170960, specifically any prostatic urethra or urothelial cohort data
+- Efficacy outcomes from the cervical cancer trials (NCT02921269, NCT03738228) if cervical indications are to be pursued
+- Approved indication text and dosage forms for the Canadian authorisations
+- Literature review specific to urothelial carcinoma subsites
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

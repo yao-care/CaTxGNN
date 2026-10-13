@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Model Prediction Only (L5)
-nav_order: 616
+nav_order: 621
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Mirtazapine: From Depression to Ohdo Syndrome and Variants
+# Mirtazapine: From Major Depressive Disorder to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-Mirtazapine is a marketed antidepressant with 20 licences in Canada. The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, but there are currently **0 clinical trials** and **0 publications** supporting this. The prediction rests on model output alone, so the recommendation is to hold.
+Mirtazapine is an antidepressant originally used for depressive disorders (unipolar depression, endogenous depression, major depressive disorder) and anxiety disorder.
+The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the computational model alone.
 
 ---
 
@@ -41,7 +42,7 @@ Mirtazapine is a marketed antidepressant with 20 licences in Canada. The TxGNN m
 
 | Item | Content |
 |------|------|
-| Original Indication | Depression (general drug knowledge; approved indication text is not provided in the Canadian licence records) |
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L5 |
@@ -53,13 +54,18 @@ Mirtazapine is a marketed antidepressant with 20 licences in Canada. The TxGNN m
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. From the pharmacology in the evidence pack, mirtazapine is an antagonist at alpha-2 adrenergic, 5-HT2, 5-HT3 and H1 receptors, and this profile underlies its use as an antidepressant.
+Currently, detailed mechanism of action data is not available. Based on known information, mirtazapine is an antidepressant that is generally described as acting through alpha-2 adrenergic, 5-HT2/5-HT3 and H1 receptor antagonism. Its efficacy in depressive disorders is established, but the data compiled for this report do not confirm this mechanism.
 
-The prediction is difficult to justify biologically. Ohdo syndrome and its variants are rare neurodevelopmental disorders, typically linked to variants in KAT6B, a histone acetyltransferase gene. Their features are structural and developmental. Mirtazapine's receptor pharmacology does not address this chromatin-regulation defect, so no plausible pathway connects the two. The high TxGNN score most likely reflects sparse graph connectivity for a rare-disease node rather than a real biological rationale.
+Ohdo syndrome (including KAT6B-related variants) is a rare genetic disorder of chromatin regulation, marked by intellectual disability and craniofacial features. No biological pathway connecting mirtazapine's receptor targets to the cause of this condition can be established from the available evidence. At most, any benefit would be symptomatic (for example sleep, appetite, mood or behaviour) and not disease-modifying.
 
-Two other predictions in the pack have the same limitations:
-- **Blepharophimosis - intellectual disability syndrome, Ohdo type** (score 99.11%) is the same clinical entity as the top prediction. It is not independent evidence. Any symptomatic use, for example for mood or sleep, would be a separate question from treating the underlying disease.
-- **Benign paroxysmal torticollis of infancy** (score 99.11%) has only a speculative, indirect link. The condition is considered a migraine equivalent, and some serotonergic or antihistaminic antidepressants are used in migraine prophylaxis. That is a hypothesis, not evidence for mirtazapine. The condition is self-limiting, and mirtazapine is not established for use in infants, so the safety bar is high and the benefit is unproven.
+The very high TxGNN score (99.42%) is a purely computational output and is not backed by any clinical or published evidence. It should be treated as a hypothesis only.
+
+### Other Predicted Indications
+
+| Rank | Predicted Indication | TxGNN Score | Trials / Publications | Comment |
+|------|------|------|------|------|
+| 2 | Blepharophimosis – intellectual disability syndrome, Ohdo type | 99.11% | 0 / 0 | Likely the same or a closely related disease node as rank 1, so the two predictions are probably not independent evidence. |
+| 3 | Benign paroxysmal torticollis of infancy | 99.11% | 0 / 0 | Considered a migraine-spectrum condition, so a speculative serotonergic or antihistaminergic link is conceivable. The condition is self-limiting in infancy, a sedating antidepressant has an unfavourable risk-benefit profile at that age, and no paediatric safety data are available. |
 
 ---
 
@@ -77,21 +83,31 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Five of the 20 authorisations are shown. Dosage form and approved indication text are not available in the source records.
+Mirtazapine has 20 valid single-ingredient licences in Canada (no combination products, none cancelled). Dosage form and approved indication text are not available in the data compiled for this report. Five main authorizations are listed below.
 
 | DIN | Product Name |
 |---------|------|
-| 2411709 | AURO-MIRTAZAPINE |
-| 2286629 | APO-MIRTAZAPINE |
-| 2411695 | AURO-MIRTAZAPINE |
-| 2256126 | MYLAN-MIRTAZAPINE |
-| 2299828 | AURO-MIRTAZAPINE OD |
+| 02248542 | REMERON RD |
+| 02248543 | REMERON RD |
+| 02248544 | REMERON RD |
+| 02286629 | APO-MIRTAZAPINE |
+| 02256126 | MYLAN-MIRTAZAPINE |
+
+Other marketed products include AURO-MIRTAZAPINE (and OD), SANDOZ MIRTAZAPINE, PRO-MIRTAZAPINE, NRA-MIRTAZAPINE, TEVA-MIRTAZAPINE and generic MIRTAZAPINE.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication-related conditions (from the knowledge graph, not label text):**
+Multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorder, epilepsy, manic bipolar affective disorder, liver disease, gallbladder disease, impaired renal function, neutropenia, agranulocytosis, hypertriglyceridemia, obesity disorder, monogenic obesity, stroke and cerebrovascular disorder, cerebral infarction, ischemic stroke susceptibility, myocardial infarction, coronary thrombosis, hemoglobinopathy, serotonin syndrome, and drug-induced akathisia.
+
+**Drug Interactions:** The interaction search returned 100 records in total; 20 are shown in the data compiled for this report. 
+
+- **Major:** Bupropion, Lorcaserin, Dolasetron, Palonosetron
+- **Moderate (examples):** Famotidine, Cimetidine, Clarithromycin, Levofloxacin, Morphine, Dexamethasone, Aprepitant, Loperamide, Dronabinol, Nabilone, Eliglustat, Obeticholic acid, and several bowel-preparation laxatives (bisacodyl, picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes)
+
+Please refer to the package insert for official warnings and contraindications, as these were not available for this report.
 
 ---
 
@@ -100,14 +116,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score, with no clinical trials or literature. No mechanistic link exists between mirtazapine's receptor pharmacology and the developmental pathology of Ohdo syndrome. The top two predictions describe the same disease, so they do not corroborate each other.
+The prediction is based only on a model score, with no clinical trials, no publications and no supported mechanistic link to Ohdo syndrome. The knowledge graph also lists several contraindicated conditions, and the lack of package insert data blocks safety screening.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which block safety screening
-- Detailed mechanism-of-action data from DrugBank
-- Approved indication text and dosage forms for the Canadian licences
-- Any preclinical or clinical evidence linking mirtazapine to KAT6B-related disorders
-- A review of whether the two Ohdo-related predictions should be merged into one entity
+- Mechanism of action data for mirtazapine (DrugBank), and a biological rationale connecting it to Ohdo syndrome
+- Health Canada package insert warnings and contraindications
+- Preclinical or clinical evidence, such as case reports or symptom-focused studies, in Ohdo syndrome
+- Review of the three predictions for independence, since ranks 1 and 2 likely refer to the same condition
+- Dosage form and approved indication details for the Canadian licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

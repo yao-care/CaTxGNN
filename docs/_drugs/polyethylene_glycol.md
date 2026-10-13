@@ -2,7 +2,7 @@
 layout: default
 title: Polyethylene Glycol
 parent: Model Prediction Only (L5)
-nav_order: 741
+nav_order: 748
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Polyethylene Glycol: From Osmotic Laxative to Congenital Ichthyosiform Erythroderma
+# Polyethylene Glycol: From Constipation and Dry Eye to Congenital Ichthyosiform Erythroderma
 
 ## One-Sentence Summary
 
-Polyethylene glycol (PEG) is best known as an osmotic laxative and a pharmaceutical excipient, and its approved indications are not recorded in the available data.
-The TxGNN model predicts it may be effective for **congenital ichthyosiform erythroderma**.
-**No clinical trials and no publications** currently support this prediction, so it rests on model output alone.
+Polyethylene glycol is an osmotic agent and lubricating/hydrating agent, originally used for constipation and dry eye (xerophthalmia).
+The TxGNN model predicts it may be effective for **congenital ichthyosiform erythroderma**,
+but there are currently **no clinical trials and no publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the license data (PEG is generally known as an osmotic laxative) |
+| Original Indication | Constipation; dry eye syndrome (xerophthalmia) (from the knowledge graph, as no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
 | TxGNN Prediction Score | 99.03% |
 | Evidence Level | L5 |
@@ -51,11 +51,11 @@ The TxGNN model predicts it may be effective for **congenital ichthyosiform eryt
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, and no original indications are recorded for this drug. Based on general knowledge, PEG is used as an osmotic laxative and as an excipient. In topical products it can act as a humectant or vehicle that hydrates the stratum corneum.
+Currently, detailed mechanism of action data is not available. Based on known information, polyethylene glycol is an osmotic agent and a hydrating/lubricating excipient. Its use in constipation and dry eye is established, and mechanistically it might be applicable to skin conditions marked by dryness and scaling.
 
-That hydrating effect could superficially relate to symptom care in ichthyosis. It is a hypothesis only. It is not a disease-modifying mechanism for the keratinization defects behind congenital ichthyosiform erythroderma, such as defects in the TGM1 or ALOX12B/ALOXE3 pathways.
+A speculative link is that topical barrier or hydration effects could ease the scaling and dryness (xerosis) seen in ichthyosis. However, congenital ichthyosiform erythroderma is a genetic keratinization disorder (for example, TGM1 or ALOX12B variants). Neither the osmotic nor the lubricant properties address the underlying pathology.
 
-The very high TxGNN score (0.990) is a graph-based prediction. It may reflect network proximity rather than a true therapeutic signal, so it should not be read as evidence of efficacy.
+The prediction therefore remains a hypothesis. The high score (99.03%) is the only support, and no study data back it.
 
 ## Clinical Trial Evidence
 
@@ -67,32 +67,40 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2354551 | RHINARIS NASAL MIST |
-| 551805 | SECARIS |
-| 2352699 | RHINARIS NASAL GEL |
-| 777838 | PEGLYTE POWDER |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02354551 | RHINARIS NASAL MIST | Not specified | Not specified |
+| 00551805 | SECARIS | Not specified | Not specified |
+| 02352699 | RHINARIS NASAL GEL | Not specified | Not specified |
+| 00777838 | PEGLYTE POWDER | Not specified | Not specified |
+
+All four licences are valid single-ingredient products. Two are nasal products (RHINARIS), and PEGLYTE is a powder. None is a topical skin product.
 
 ## Safety Considerations
 
-- **Topical use on damaged skin**: Topical PEG applied over large areas of impaired skin barrier carries a documented risk of systemic absorption and renal toxicity. This is directly relevant to erythrodermic skin.
-- **Drug Interactions**: No interaction records were found in the queried database.
+No label-based warnings, contraindications or drug interaction data were available for this report. Please refer to the package insert for safety information.
 
-Please refer to the package insert for other safety information.
+The drug-disease knowledge graph does list conditions associated with contraindication for polyethylene glycol. These are not drawn from label text and should be verified against the product monograph. Main groups include:
+
+- **Gastrointestinal obstruction and motility**: ileus, paralytic ileus, intestinal obstruction, toxic megacolon, pyloric stenosis, familial visceral myopathy, appendicitis
+- **Cardiovascular and renal**: hypertension, congestive heart failure, cardiovascular/heart disease, kidney disease, anuria, pyoureter, nephrocalcinosis
+- **Metabolic and endocrine**: diabetes mellitus, hyperglycemia, diabetic ketoacidosis, hypercalcemia, potassium deficiency, phosphorus metabolism disease, hyperthyroidism, Graves disease, thyrotoxicosis
+- **Neurological**: epilepsy
+- **Eye**: angle-closure glaucoma, eye infectious disease, conjunctivitis
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (Evidence Level L5). There are no trials, no literature, and no validated mechanistic link. The renal toxicity risk of topical PEG on erythrodermic skin adds a safety concern.
+The prediction rests only on a model score, with no clinical trials or literature (Evidence Level L5). The proposed mechanism does not address the genetic basis of the disease, and the available Canadian products are not topical skin formulations.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Preclinical or clinical evidence that PEG has a disease-relevant effect in congenital ichthyosiform erythroderma
-- A topical-route compatibility assessment and a systemic absorption and renal safety evaluation for extensive barrier-impaired skin
+- Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)
+- Mechanism of action data for polyethylene glycol
+- A literature and trial search for polyethylene glycol in ichthyosis and related keratinization disorders
+- Assessment of route and formulation compatibility (a topical product would likely be needed)
+- Preclinical or mechanistic evidence that hydration or barrier effects offer meaningful benefit in this genetic condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

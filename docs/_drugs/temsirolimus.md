@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Temsirolimus
-parent: Model Prediction Only (L5)
-nav_order: 882
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 889
+evidence_level: L2
 indication_count: 3
 ---
 
 # Temsirolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Temsirolimus: From Its Current Oncology Use to Liposarcoma
+# Temsirolimus: From Renal Cell Carcinoma and Mantle Cell Lymphoma to Liposarcoma
 
 ## One-Sentence Summary
 
-Temsirolimus (brand name TORISEL) is an mTOR inhibitor marketed as an anticancer drug.
+Temsirolimus was originally used to treat renal cell carcinoma and mantle cell lymphoma.
 The TxGNN model predicts it may be effective for **liposarcoma**,
-with **5 clinical trials** and **1 publication** currently supporting this direction. Only one trial tests temsirolimus directly in sarcoma with liposarcoma patients (a small combination study).
+with **2 clinical trials** (both combination regimens in sarcoma populations) and **1 publication** (a narrative review) currently supporting this direction. Direct evidence is still limited.
 
 ---
 
@@ -43,24 +43,27 @@ with **5 clinical trials** and **1 publication** currently supporting this direc
 
 | Item | Content |
 |------|------|
+| Original Indication | Mantle cell lymphoma, B-cell neoplasm, renal cell carcinoma (including clear cell and non-papillary types) |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.54% |
-| Evidence Level | L3 (see note below) |
+| Evidence Level | L2 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
-*Evidence level note: the upstream scoring labelled this L2. Under the rules used here, L2 requires a completed Phase 2/3 randomized trial. All five trials found are single-arm or non-randomized Phase 1/2 studies, and the only literature item is a review, so L3 is the more defensible level.*
+*Note: The Canadian licence record has no approved-indication text, so the original indications above come from the knowledge-graph indication data compiled for this report.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. From general knowledge of the drug class, temsirolimus inhibits mTOR (mammalian target of rapamycin) by binding FKBP12, which blocks signaling that drives tumour cell growth and survival.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, temsirolimus is an mTOR inhibitor. It blocks a central signalling pathway that controls tumour cell growth, proliferation and survival.
 
-The PI3K/AKT/mTOR pathway is active in many soft tissue sarcomas. Dedifferentiated liposarcoma typically carries CDK4/MDM2 amplification and frequently shows mTOR pathway activation. This makes mTOR inhibition a plausible strategy.
+The PI3K/AKT/mTOR pathway is frequently activated in soft tissue sarcomas. Well-differentiated and dedifferentiated liposarcomas, which are often driven by MDM2/CDK4 amplification, commonly show dysregulated mTOR signalling. This gives a plausible biological reason to test mTOR inhibition in liposarcoma.
 
-This rationale is class-level reasoning plus the knowledge-graph prediction, not drug-specific validation. Two of the five supporting trials used other mTOR inhibitors (ridaforolimus, everolimus), and one used sirolimus. Two further predictions, ovarian myxoid liposarcoma (score 99.47%) and vulva sarcoma (score 99.09%), have no trials or literature and are model predictions only.
+The very high TxGNN score reflects this link, but it is a computational prediction, not clinical proof. Temsirolimus has proven activity in renal cell carcinoma and mantle cell lymphoma, which are different tumour types from sarcoma. Its benefit in liposarcoma has not been shown by the data available here.
+
+Two other predicted indications, ovarian myxoid liposarcoma (score 99.47%) and vulva sarcoma (score 99.09%), have no supporting trials or literature. They are very rare, and evidence for them is unlikely to be generated on its own.
 
 ---
 
@@ -68,11 +71,10 @@ This rationale is class-level reasoning plus the knowledge-graph prediction, not
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Completed | 24 | Temsirolimus plus liposomal doxorubicin in recurrent soft tissue and bone sarcoma. Aims to find a safe dose and assess efficacy. The most direct evidence, but small and combination-based. |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Completed | 46 | Cixutumumab plus temsirolimus in pediatric recurrent or refractory solid tumours including sarcoma. Weak relevance, since liposarcoma is mainly an adult disease. |
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Completed | 70 | Single-arm trial of sirolimus plus cyclophosphamide in metastatic or unresectable myxoid liposarcoma and chondrosarcoma. Supports the mTOR-class rationale. |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Phase 2 | Completed | 216 | Ridaforolimus (mTOR inhibitor) in advanced sarcoma. Class-level evidence, not specific to temsirolimus. |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Ribociclib plus everolimus in advanced dedifferentiated liposarcoma and leiomyosarcoma. Exact disease match, but a different mTOR inhibitor and results may not be available yet. |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Phase 1/2 | Completed | 24 | Temsirolimus plus liposomal doxorubicin in recurrent soft tissue and bone sarcoma. It aims to find a safe dose and assess efficacy. No liposarcoma-specific results were available, and the contribution of temsirolimus alone cannot be separated. (Relevance: B) |
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Phase 2 | Completed | 46 | Cixutumumab plus temsirolimus in pediatric patients with recurrent or refractory solid tumours, including sarcoma. Liposarcoma is rare in this age group, so direct relevance to adult liposarcoma is low. (Relevance: C) |
+
+Both trials are early-phase studies of combination regimens. Neither is a Phase 3 randomised trial.
 
 ---
 
@@ -80,15 +82,15 @@ This rationale is class-level reasoning plus the knowledge-graph prediction, not
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bulletin du Cancer | Review of targeted treatments for rare connective tissue tumours and sarcomas, organized by six molecularly defined subgroups. It does not specifically evaluate temsirolimus. |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bulletin du Cancer | A review of targeted treatment for rare connective tissue tumours and sarcomas. It describes six molecularly defined sarcoma subgroups and their targeted therapies. It is general in scope and does not provide direct liposarcoma efficacy data for temsirolimus. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2304104 | TORISEL |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02304104 | TORISEL | Not specified | Not specified |
 
 ---
 
@@ -99,14 +101,27 @@ This rationale is class-level reasoning plus the knowledge-graph prediction, not
 | Cytotoxicity Classification | Targeted therapy (mTOR inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Haematological parameters (CBC), liver and renal function, blood glucose and lipids |
 | Handling Protection | Please refer to the package insert warnings and precautions |
+
+The monitoring items are suggested from the knowledge-graph contraindication signals below (kidney, liver, glucose and lipid disorders). They are not taken from label text.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication signals from the knowledge graph** (these come from knowledge-graph drug-disease edges, not from package insert text):
+- Metabolic: hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hyperlipidaemia (including familial)
+- Organ function: kidney disease, liver disease, gallbladder disease, hyperbilirubinaemia (including Gilbert syndrome)
+- Cerebrovascular: stroke, cerebrovascular disorder, cerebral infarction
+- Pulmonary: interstitial lung disease
+- Brain tumours: brain cancer and several astrocytoma and glioma subtypes
+
+**Drug Interactions** (100 interactions recorded; examples shown):
+- **Major**: amphotericin B (including the lipid complex), dexamethasone, clarithromycin
+- **Moderate**: antidiabetic drugs (metformin, pioglitazone, acarbose, alogliptin, albiglutide, canagliflozin, dapagliflozin, chlorpropamide), corticosteroids (hydrocortisone, triamcinolone, betamethasone, budesonide), aprepitant, cimetidine, mesalazine, balsalazide
+
+Package insert warnings and contraindications from Health Canada were not available. Please refer to the package insert for the full safety information.
 
 ---
 
@@ -115,14 +130,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The model score is high, but direct evidence is thin. Only one small combination trial (n=24) tested temsirolimus in a sarcoma population, and the other supporting studies used different mTOR inhibitors. Safety data (warnings, contraindications) is also missing, which blocks safety screening. This is best treated as a research question rather than an actionable repurposing candidate.
+The mTOR rationale is biologically plausible and the TxGNN score is very high. However, the only trials are early-phase combination studies in mixed sarcoma populations, with no liposarcoma-specific results. The one publication is a general review. Official safety label data are also missing, so the evidence does not yet support moving forward.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications, from the Health Canada product monograph
-- Mechanism of action data, for example from DrugBank
-- Results of NCT00949325 (temsirolimus plus liposomal doxorubicin), including the liposarcoma subgroup if reported
-- Confirmation of the regulatory source for the license record. The pack lists TFDA as the input, and the license number format may not be a Canadian DIN.
-- The approved indication text and dosage form for the marketed product, to assess route and indication compatibility
+- Download and review the Health Canada package insert for warnings and contraindications, and add the approved-indication text and dosage form for DIN 02304104
+- Confirm the mechanism of action in DrugBank
+- Obtain liposarcoma-specific results from NCT00949325 and other sarcoma studies, including subgroup data
+- Search for temsirolimus monotherapy or mTOR-inhibitor data in well-differentiated and dedifferentiated liposarcoma
+- Develop a safety monitoring plan covering metabolic risk (glucose and lipids), interstitial lung disease, and the major drug interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

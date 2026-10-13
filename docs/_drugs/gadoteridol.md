@@ -2,7 +2,7 @@
 layout: default
 title: Gadoteridol
 parent: Model Prediction Only (L5)
-nav_order: 420
+nav_order: 423
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,9 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Gadoteridol is a gadolinium-based MRI contrast agent (marketed in Canada as PROHANCE) used for diagnostic imaging, not for treatment.
-The TxGNN model predicts a link to **osteoarthritis susceptibility**, but this is a graph-based prediction with **0 clinical trials** and **0 publications** for that exact term.
-The related term "osteoarthritis" has **12 publications**, all on imaging or research use, and none show a therapeutic effect.
+Gadoteridol (marketed in Canada as PROHANCE) is a gadolinium-based contrast agent used in magnetic resonance imaging (MRI). The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** behind it. The related disease **osteoarthritis** has 10 publications, and these describe diagnostic imaging use, not treatment.
 
 ---
 
@@ -43,10 +41,10 @@ The related term "osteoarthritis" has **12 publications**, all on imaging or res
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence record; gadoteridol is a diagnostic MRI contrast agent |
+| Original Indication | Not available in the data compiled for this report (the Canadian license lists no indication text; the drug is known as an MRI contrast agent) |
 | Predicted New Indication | Osteoarthritis susceptibility |
 | TxGNN Prediction Score | 98.90% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -55,11 +53,11 @@ The related term "osteoarthritis" has **12 publications**, all on imaging or res
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Gadoteridol is a non-ionic gadolinium chelate. It improves image contrast in MRI and has no known pharmacological activity on joint tissue.
+Currently, detailed mechanism of action data is not available. Based on known information, gadoteridol is a non-ionic, gadolinium-based contrast agent. It improves the visibility of tissues on MRI and has no known therapeutic mechanism against disease.
 
-The high TxGNN score most likely reflects associations in the knowledge graph. Gadoteridol appears often in studies of joints, cartilage, and synovium, but only as an imaging probe. Examples include synovitis assessment on contrast-enhanced MRI and non-ionic contrast in dual- and triple-contrast CT of cartilage. Nothing suggests it treats or modifies osteoarthritis, so there is no mechanistic link between the original use and the predicted indication.
+The high score appears to be a computational artefact rather than a biological signal. Osteoarthritis susceptibility is a genetic-risk concept, and no plausible link to a contrast agent has been identified. Other top-ranked predictions (skeletal dysplasias such as brachyolmia, hemoglobinopathy, myosclerosis) show the same pattern: high scores without supporting evidence. The score may reflect similarity to neighbouring nodes in the knowledge graph.
 
-The lower-ranked predictions are similar. Rheumatoid arthritis and congestive heart failure have literature on gadolinium-enhanced imaging only. Brachyolmia, hemoglobinopathy, and several rare skeletal dysplasias have no supporting evidence at all.
+The literature on the closely related **osteoarthritis** and **rheumatoid arthritis** predictions is real but diagnostic. Gadoteridol serves as an imaging probe, for example to quantify cartilage proteoglycan content in CT studies or to enhance inflamed synovium on MRI. These studies suggest a possible **diagnostic imaging research question**, not a treatment.
 
 ---
 
@@ -71,40 +69,36 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-There is no literature for "osteoarthritis susceptibility" itself. The table below shows the 10 most relevant publications for the closely related prediction, **osteoarthritis**. All are diagnostic or ex vivo studies, not treatment studies.
+No literature was found for the top prediction (osteoarthritis susceptibility). The table below shows the most relevant publications for the related predictions, **osteoarthritis** (rank 2) and **rheumatoid arthritis** (rank 3). All are diagnostic imaging studies.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27161058](https://pubmed.ncbi.nlm.nih.gov/27161058/) | 2016 | Cohort | Eur J Radiol | Peripatellar synovitis on static and dynamic contrast-enhanced MRI and its association with pain in knee osteoarthritis |
-| [32525582](https://pubmed.ncbi.nlm.nih.gov/32525582/) | 2020 | Ex vivo | J Orthop Res | Dual contrast CT (cationic iodine agent plus gadoteridol) characterises cartilage earlier than a single contrast agent |
-| [37593815](https://pubmed.ncbi.nlm.nih.gov/37593815/) | 2024 | Ex vivo | J Orthop Res | Triple contrast CT (including gadoteridol) segments cartilage and reveals biomechanical differences in cadaveric knees |
-| [31068614](https://pubmed.ncbi.nlm.nih.gov/31068614/) | 2019 | Ex vivo | Sci Rep | Synchrotron microCT quantifies cationic and non-ionic contrast agents in cartilage |
-| [39622931](https://pubmed.ncbi.nlm.nih.gov/39622931/) | 2024 | Ex vivo | Sci Rep | Photon-counting dual-contrast CT (with gadoteridol) as a proof of concept for biomechanical assessment of cartilage |
-| [33692379](https://pubmed.ncbi.nlm.nih.gov/33692379/) | 2021 | Ex vivo | Sci Rep | Quantitative dual-contrast photon-counting CT for cartilage health |
-| [30816584](https://pubmed.ncbi.nlm.nih.gov/30816584/) | 2019 | Ex vivo | J Orthop Res | Full-body clinical CT with dual contrast images proteoglycan and water content in human cartilage |
-| [31576504](https://pubmed.ncbi.nlm.nih.gov/31576504/) | 2020 | Ex vivo | Ann Biomed Eng | Triple contrast CT evaluates cartilage composition and segmentation at the same time |
-| [32767676](https://pubmed.ncbi.nlm.nih.gov/32767676/) | 2021 | Ex vivo | J Orthop Res | Effects of cartilage constituents on simultaneous diffusion of cationic and non-ionic contrast agents |
-| [21305156](https://pubmed.ncbi.nlm.nih.gov/21305156/) | 2009 | Study | Metallomics | Excess gadolinium found in femoral head bone of patients exposed to gadolinium contrast agents (a safety signal) |
+| [37593815](https://pubmed.ncbi.nlm.nih.gov/37593815/) | 2024 | Ex vivo imaging | J Orthop Res | Triple-contrast CT (bismuth nanoparticles, CA4+, gadoteridol) segments cartilage and shows site-specific biomechanical differences in cadaveric knees |
+| [39622931](https://pubmed.ncbi.nlm.nih.gov/39622931/) | 2024 | Proof-of-concept imaging | Sci Rep | Photon-counting CT with dual contrast tracked gadoteridol diffusion in bovine cartilage and correlated it with biomechanical properties |
+| [33692379](https://pubmed.ncbi.nlm.nih.gov/33692379/) | 2021 | Ex vivo imaging | Sci Rep | Dual-contrast photon-counting CT for quantitative assessment of articular cartilage health |
+| [32767676](https://pubmed.ncbi.nlm.nih.gov/32767676/) | 2021 | Ex vivo imaging | J Orthop Res | Examined how cartilage constituents affect simultaneous diffusion of cationic and non-ionic contrast agents |
+| [31576504](https://pubmed.ncbi.nlm.nih.gov/31576504/) | 2020 | Ex vivo imaging | Ann Biomed Eng | Triple-contrast CT evaluates cartilage composition and segmentation at the same time |
+| [32525582](https://pubmed.ncbi.nlm.nih.gov/32525582/) | 2020 | Ex vivo imaging | J Orthop Res | Dual contrast (iodine-based cationic plus gadoteridol) characterizes cartilage earlier than single contrast |
+| [31535728](https://pubmed.ncbi.nlm.nih.gov/31535728/) | 2020 | Ex vivo imaging | J Orthop Res | Synchrotron microCT with dual contrast for quantitative assessment of human cartilage composition |
+| [8689824](https://pubmed.ncbi.nlm.nih.gov/8689824/) | 1996 | Diagnostic imaging dose study | Clin Radiol | In 19 rheumatoid arthritis patients, 0.3 mmol/kg gadoteridol enhanced inflamed synovium more than 0.1 mmol/kg |
+| [9010087](https://pubmed.ncbi.nlm.nih.gov/9010087/) | 1996 | Diagnostic imaging dose study | Br J Rheumatol | Significant dose-dependent difference in synovial enhancement (0.1 vs 0.3 mmol/kg) |
+| [8867431](https://pubmed.ncbi.nlm.nih.gov/8867431/) | 1996 | Diagnostic imaging study | Der Radiologe | Compared gadoteridol with Gd-DTPA for MR diagnosis of rheumatoid joint changes |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2229056 | PROHANCE |
-
-Dosage form and approved indication text are not recorded in the licence data received.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02229056 | PROHANCE | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried data.
+- **Drug Interactions**: 19 interactions were identified, all rated **Moderate**. All involve beta-blockers: acebutolol, atenolol, betaxolol (systemic and ophthalmic), bisoprolol, carvedilol, esmolol, labetalol, metoprolol, nadolol, nebivolol, pindolol, propranolol, sotalol, timolol (systemic and ophthalmic), carteolol (ophthalmic), levobunolol (ophthalmic) and metipranolol (ophthalmic).
 
-Please refer to the package insert for warnings and contraindications. Health Canada package insert data has not yet been obtained.
-
-Publication [21305156](https://pubmed.ncbi.nlm.nih.gov/21305156/) reports gadolinium retention in human bone after exposure to gadolinium contrast agents. This should be considered in any assessment beyond imaging use.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -113,16 +107,13 @@ Publication [21305156](https://pubmed.ncbi.nlm.nih.gov/21305156/) reports gadoli
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph score alone (L5 for the exact indication). The related osteoarthritis literature is limited to imaging and ex vivo research. Gadoteridol is a diagnostic contrast agent with no known therapeutic action on joint tissue, so there is no supporting evidence for repurposing.
+The top prediction has no clinical trials and no literature (L5). The supporting publications for related conditions concern diagnostic imaging, not therapeutic effect. No therapeutic mechanism has been identified, so repurposing gadoteridol as a treatment is not supported.
 
 **To proceed, the following is needed:**
-- Any therapeutic (not diagnostic) preclinical or clinical evidence in osteoarthritis
-- Mechanism of action data from DrugBank
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indication text and dosage form for the Canadian licence
-- Route compatibility assessment (an intravenous contrast agent versus the routes a joint therapy would need)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data
+- If the aim is diagnostic imaging, a separate research question focused on cartilage or synovial imaging, rather than therapeutic repurposing
+- Original indication text and dosage form details for the Canadian license
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

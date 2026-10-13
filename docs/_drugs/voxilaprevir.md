@@ -2,7 +2,7 @@
 layout: default
 title: Voxilaprevir
 parent: Model Prediction Only (L5)
-nav_order: 977
+nav_order: 984
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,95 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Voxilaprevir: From Hepatitis C to Hepatitis B Virus Infection
+# Voxilaprevir: From Chronic Hepatitis C Infection to Hepatitis B Virus Infection
 
 ## One-Sentence Summary
 
-Voxilaprevir is a hepatitis C virus (HCV) protease inhibitor, marketed only inside the fixed-dose combination sofosbuvir/velpatasvir/voxilaprevir (Vosevi).
-The TxGNN model predicts it may be effective for **hepatitis B virus infection**, and **5 clinical trials** and **10 publications** were retrieved for this prediction. All of them concern HCV, and none shows anti-HBV activity.
-
----
+Voxilaprevir is a hepatitis C virus (HCV) protease inhibitor, originally used to treat chronic hepatitis C infection.
+The TxGNN model predicts it may be effective for **hepatitis B virus infection**, but **no clinical trials** and **no HBV-specific publications** support this direction.
+The 9 publications retrieved all concern HCV retreatment, resistance, pricing, or epidemiology.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C (inferred from the Vosevi combination; the Canadian licence text is blank) |
+| Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (model prediction only; no HBV-specific studies. The input pack lists L4) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Voxilaprevir is a pan-genotypic HCV NS3/4A protease inhibitor. It is sold only as the Vosevi combination for HCV, and no detailed mechanism-of-action record was supplied.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, voxilaprevir is an HCV NS3/4A protease inhibitor. It is marketed as part of the fixed-dose combination sofosbuvir/velpatasvir/voxilaprevir, which is used mainly to retreat patients who failed earlier direct-acting antiviral therapy.
 
-The link to HBV is weak. HBV is a hepadnavirus that replicates by reverse transcription and has no NS3/4A-type protease target. The high score most likely reflects graph proximity among hepatitis viruses, not a shared drug target. No credible mechanism currently supports anti-HBV activity.
+The mechanistic link to hepatitis B is weak. HBV has no NS3/4A protease counterpart. It replicates through a reverse transcriptase/polymerase and follows a different replication cycle. The high TxGNN score (99.84%) most likely reflects proximity between viral hepatitis nodes in the knowledge graph rather than true overlap in drug targets.
 
----
+The other top predictions point the same way. Hepatitis A, hepatitis E, HIV, feline and simian immunodeficiency viruses, and chronic HBV use proteases or other targets unrelated to HCV NS3/4A. Omsk hemorrhagic fever and Kyasanur forest disease are caused by flaviviruses with an NS2B/NS3 protease. They offer only a speculative, family-level rationale, and no experimental evidence exists for them.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02533427](https://clinicaltrials.gov/study/NCT02533427) | Phase 1 | Completed | 15 | Drug-interaction study of the SOF/VEL/VOX combination with a hormonal contraceptive; PK data only, no HBV efficacy |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Completed | 87 | Cardiovascular risk after HCV cure in HIV/HCV patients; no HBV treatment |
-| [NCT04695769](https://clinicaltrials.gov/study/NCT04695769) | Phase 4 | Completed | 281 | Ribavirin plus SOF/VEL/VOX in chronic hepatitis C non-responders (randomized); any HBV endpoint is unverified |
-| [NCT06180590](https://clinicaltrials.gov/study/NCT06180590) | N/A | Recruiting | 200 | Prospective cohort of Vosevi after DAA failure; HCV setting |
-| [NCT02938013](https://clinicaltrials.gov/study/NCT02938013) | Phase 4 | Completed | 15 | DAA effects on the liver (HCV kinetics with SOF/VEL ± VOX); not an HBV efficacy trial |
-
----
+Currently no related clinical trials are registered for hepatitis B virus infection.
 
 ## Literature Evidence
 
+None of the publications below tests voxilaprevir in HBV. HBV appears only as a co-topic. Because none is HBV-specific, they are listed by study type (cohort, then review, then other) rather than by relevance.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35248212](https://pubmed.ncbi.nlm.nih.gov/35248212/) | 2022 | Single-arm trial | Lancet Gastroenterol Hepatol | SOF/VEL/VOX retreatment of HCV after DAA failure in Rwanda (SHARED-3) |
-| [36535062](https://pubmed.ncbi.nlm.nih.gov/36535062/) | 2022 | Cohort | J Gastrointestin Liver Dis | Real-world SOF/VEL/VOX in Romanian genotype 1b HCV patients who failed DAAs |
-| [40611935](https://pubmed.ncbi.nlm.nih.gov/40611935/) | 2025 | Cohort | J Clin Exp Hepatol | Resistance-associated substitutions and treatment-failure predictors after DAA therapy in an HCV elimination cohort |
-| [41570233](https://pubmed.ncbi.nlm.nih.gov/41570233/) | 2025 | Cohort | Vopr Virusol | Prevalence of HIV, HBV and HCV markers among dental patients; epidemiology only, no treatment data |
+| [35248212](https://pubmed.ncbi.nlm.nih.gov/35248212/) | 2022 | Cohort (single-arm trial) | Lancet Gastroenterol Hepatol | Sofosbuvir-velpatasvir-voxilaprevir retreatment of HCV after DAA failure in Rwanda (SHARED-3) |
+| [36535062](https://pubmed.ncbi.nlm.nih.gov/36535062/) | 2022 | Cohort | J Gastrointestin Liver Dis | Real-world efficacy and safety of SOF/VEL/VOX in Romanian genotype 1b patients who failed prior DAA therapy |
+| [40611935](https://pubmed.ncbi.nlm.nih.gov/40611935/) | 2025 | Cohort | J Clin Exp Hepatol | Resistance-associated substitutions and predictors of DAA treatment failure in an HCV elimination cohort |
+| [41570233](https://pubmed.ncbi.nlm.nih.gov/41570233/) | 2025 | Cohort | Vopr Virusol | Prevalence of HIV, HBV, and HCV markers among dental patients (epidemiology only) |
 | [31041789](https://pubmed.ncbi.nlm.nih.gov/31041789/) | 2019 | Review | Semin Liver Dis | Retreatment of HCV patients after DAA failure |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Review | Clin Pharmacokinet | Pharmacokinetic and pharmacodynamic considerations for HCV therapy |
-| [31915372](https://pubmed.ncbi.nlm.nih.gov/31915372/) | 2020 | Review | Nat Rev Gastroenterol Hepatol | Viraemic organ transplantation and antiviral therapies; general review, no abstract available |
-| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Review | Ann Hepatol | Global price comparison of HBV and HCV antivirals; economic, not efficacy |
-| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Conference report | AIDS Rev | International Conference on Viral Hepatitis 2017 summary |
-| [30964552](https://pubmed.ncbi.nlm.nih.gov/30964552/) | 2019 | Preclinical/Virology | Hepatology | Resistance pathways of HCV protease inhibitor escape variants |
-
----
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Review | Clin Pharmacokinet | Pharmacokinetic and pharmacodynamic considerations for HCV therapy, including SOF/VEL/VOX |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Review | AIDS Rev | Report from the International Conference on Viral Hepatitis 2017 |
+| [30964552](https://pubmed.ncbi.nlm.nih.gov/30964552/) | 2019 | Other | Hepatology | Evolution of HCV protease inhibitor escape variants |
+| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Other | Ann Hepatol | Global comparison of hepatitis B and C drug pricing |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2467542 | VOSEVI |
-
-Dosage form and approved indication text are not available in the source record.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02467542 | VOSEVI | Not specified | Not specified in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for this drug.
+- **Drug Interactions**: 19 interactions were identified. Three are rated **Major**: rosuvastatin, edoxaban, and cyclosporine. The other 16 are rated Moderate, including eluxadoline, obeticholic acid, cobicistat, apixaban, eltrombopag, artesunate, afatinib, bosutinib, cobimetinib, ethinylestradiol, idelalisib, lapatinib, lenvatinib, olaparib, pazopanib, and teriflunomide.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All retrieved trials and publications are HCV studies matched through the drug name, and none tests HBV. There is no plausible shared target, so the 99.84% score is most likely a graph-proximity artefact.
+The prediction rests on model output alone (Evidence Level L5). There are no HBV clinical trials or HBV-specific publications, and the mechanism does not support activity against HBV. Voxilaprevir targets the HCV NS3/4A protease, which HBV lacks. The high score likely reflects graph proximity between viral hepatitis nodes.
 
 **To proceed, the following is needed:**
-- Mechanism-of-action data and any in vitro evidence of anti-HBV activity
-- Health Canada package insert warnings and contraindications
-- Direct HBV efficacy data, which does not currently exist
-
-Under current evidence, this drug is not a repurposing candidate for the other nine predicted indications either: hepatitis E, hepatitis A, HIV and the flaviviral diseases have the same lack of mechanism and support, and the animal-disease nodes have no data at all.
+- Mechanism of action data (MOA) to support a formal mechanistic-link analysis
+- Package insert warnings and contraindications from Health Canada, which are required before safety screening
+- In vitro evidence that voxilaprevir has any anti-HBV activity
+- Review of the Canadian product listing, since dosage form and approved indication text are missing
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

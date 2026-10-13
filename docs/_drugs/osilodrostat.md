@@ -2,7 +2,7 @@
 layout: default
 title: Osilodrostat
 parent: Model Prediction Only (L5)
-nav_order: 683
+nav_order: 689
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Osilodrostat: From Cortisol-Lowering Therapy (Cushing's Syndrome) to Familial Generalized Lentiginosis
+# Osilodrostat: From Cushing Disease to Familial Generalized Lentiginosis
 
 ## One-Sentence Summary
 
-Osilodrostat is generally known as a cortisol-lowering drug that inhibits adrenal steroid synthesis. The TxGNN model predicts it may be effective for **familial generalized lentiginosis**, a rare pigmentary disorder. This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone and the mechanism points in a doubtful, possibly adverse direction.
-
----
+Osilodrostat was originally developed to treat Cushing disease and other forms of Cushing syndrome (cortisol excess).
+The TxGNN model predicts it may be effective for **familial generalized lentiginosis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian license records; generally known as a treatment for endogenous Cushing's syndrome |
+| Original Indication | Cushing disease due to pituitary adenoma; ACTH-dependent Cushing syndrome; Cushing syndrome |
 | Predicted New Indication | Familial generalized lentiginosis |
 | TxGNN Prediction Score | 98.19% |
 | Evidence Level | L5 |
@@ -49,59 +49,51 @@ Osilodrostat is generally known as a cortisol-lowering drug that inhibits adrena
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Osilodrostat is generally known as an 11-beta-hydroxylase (CYP11B1) inhibitor. By blocking this enzyme, it lowers cortisol production in the adrenal gland.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, osilodrostat inhibits 11-beta-hydroxylase (CYP11B1), the enzyme that performs the final step of cortisol synthesis. This lowers cortisol, which is why it is used in Cushing syndrome.
 
-The link to the predicted indication is weak. Lowering cortisol raises ACTH through feedback, and higher ACTH can increase melanocortin signaling and skin pigmentation. For a pigmentary disorder like familial generalized lentiginosis, the expected effect could therefore be neutral or even harmful. No supported mechanistic link has been identified.
+A link between this mechanism and familial generalized lentiginosis (a pigmentation disorder) is doubtful. Blocking cortisol production removes the negative feedback on the pituitary, so ACTH rises. ACTH acts on the melanocortin-1 receptor (MC1R) pathway, which drives skin pigmentation. That would tend to worsen pigmentation rather than improve it.
 
-The high score most likely reflects similarity between pigmentation-related diseases in the knowledge graph, not a real pharmacological relationship. The other nine top predictions are also L5 and Hold. They include acromelanosis, Moynahan syndrome, rhabdoid tumor and peripheral nerve schwannoma. None has clinical evidence or a plausible pathway from adrenal steroidogenesis inhibition.
-
----
+The high TxGNN score most likely reflects proximity in the knowledge graph rather than a pharmacological rationale. The other top-ranked predictions (acromelanosis, café-au-lait syndrome, Moynahan syndrome, rhabdoid tumor, peripheral nerve schwannoma and others) also have no supporting evidence and no plausible mechanistic link.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2558920 | ISTURISA | Not listed | Not listed |
-| 2558912 | ISTURISA | Not listed | Not listed |
-
----
+| 02558920 | ISTURISA | Not specified | Not specified |
+| 02558912 | ISTURISA | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The data compiled for this report list 100 interacting drugs. Examples from the 20 shown:
+  - **Major**: Clarithromycin, Dolasetron
+  - **Moderate**: Famotidine, Alosetron, Loperamide, Aprepitant, Omeprazole, Dexamethasone, Budesonide, Cimetidine, Levofloxacin, Palonosetron, Metreleptin, and others
+  - **Minor**: Naloxegol
 
-No drug interaction records were found for this drug in the evidence pack.
-
----
+Package insert warnings and contraindications were not available. Please refer to the package insert for these.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials or literature, and the known mechanism (cortisol suppression with a compensatory ACTH rise) could worsen pigmentation instead of treating it. Safety data are also missing, so the candidate cannot move to safety screening.
+The prediction rests on a model score alone, with no clinical trials or literature. The known mechanism (cortisol lowering with a compensatory ACTH rise) runs counter to a benefit in pigmentation disorders. The remaining top-ranked predictions are similarly unsupported.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert (warnings, contraindications, approved indication, dosage forms)
-- Confirmed mechanism of action data from DrugBank
-- A mechanistic rationale showing a beneficial direction of effect in pigmentary disease
-- Any preclinical or clinical evidence for this indication
+- Mechanism of action data from DrugBank to allow a proper mechanistic analysis
+- Health Canada package insert warnings and contraindications for safety screening
+- Preclinical or mechanistic evidence that cortisol synthesis inhibition affects melanocyte biology in this condition
+- Approved indication text and dosage forms for the two DINs
+- A review of whether the ACTH rise could aggravate pigmentation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

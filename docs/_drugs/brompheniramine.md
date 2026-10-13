@@ -2,7 +2,7 @@
 layout: default
 title: Brompheniramine
 parent: Model Prediction Only (L5)
-nav_order: 129
+nav_order: 131
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Brompheniramine: From an Unrecorded Original Indication to Allergic Urticaria
+# Brompheniramine: From Allergic Rhinitis to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Brompheniramine is a first-generation antihistamine marketed in Canada in a cough and cold product. The Evidence Pack does not record its original approved indication.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so this is a model prediction only.
+Brompheniramine is a first-generation antihistamine originally used for allergic rhinitis, the common cold, allergic conjunctivitis, urticaria and angioedema.
+The TxGNN model predicts it may be effective for **Allergic Urticaria** (a second prediction, **Cold Urticaria**, is also listed), but **no clinical trials and no publications** currently support this specific direction. The support is indirect, based on drug class and overlap with its existing urticaria use.
 
 ---
 
@@ -42,10 +42,10 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (the one Canadian licence has no indication text) |
+| Original Indication | Allergic rhinitis (other listed uses: vasomotor rhinitis, common cold, atopic/vernal/papillary conjunctivitis, familial dermatographia, urticaria, angioedema) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 |
+| Evidence Level | L5 (model prediction only; no trials or publications. The data compiled for this report assigns L4 on the basis of class-level mechanistic reasoning.) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -54,11 +54,11 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. The reasoning below comes from general pharmacology, not from the supplied data. Brompheniramine belongs to the first-generation H1-receptor antagonist class. In allergic urticaria, histamine released from mast cells drives wheals and itching, so blocking the H1 receptor is biologically plausible.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, brompheniramine is a first-generation H1-receptor antagonist of the alkylamine class. Its efficacy in histamine-driven allergic conditions is established, and mechanistically it may be applicable to allergic urticaria.
 
-The original indication is not recorded. The only Canadian product is named "Robitussin Children's Cough & Cold Bedtime", which suggests a symptomatic cough and cold combination. This is an inference from the product name, not from indication text. Allergic symptoms such as itching and histamine-mediated reactions are a plausible bridge between that use and urticaria.
+Allergic urticaria is mediated by mast cells and histamine, so H1 blockade is a coherent mechanism. The very high TxGNN score most likely reflects the overlap with brompheniramine's existing urticaria and angioedema indications. It probably does not indicate a genuinely new repurposing opportunity.
 
-A second prediction, **cold urticaria** (score 99.55%), rests on the same class-level reasoning. Cold exposure triggers mast-cell degranulation and histamine release, and H1 blockade could plausibly help. For both conditions, there are no drug-specific trials or literature in the record. Any class-effect evidence would need to be retrieved separately.
+The second prediction, **cold urticaria** (score 99.55%), is a physical (inducible) urticaria in which mast-cell degranulation follows cold exposure. H1 antihistamines are standard therapy, and first-generation agents have historically been used. However, current guidelines favour second-generation non-sedating antihistamines. This limits the practical value of a first-generation agent that carries sedation and anticholinergic burden.
 
 ---
 
@@ -78,15 +78,28 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2394707 | ROBITUSSIN CHILDREN'S COUGH & COLD BEDTIME | Not specified | Not specified |
+| 02394707 | ROBITUSSIN CHILDREN'S COUGH & COLD BEDTIME | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records for this drug. This does not confirm the absence of interactions.
+**Contraindications from the knowledge graph (not label text):** The TxGNN knowledge graph links brompheniramine to contraindications or cautions in the following conditions:
 
-Please refer to the package insert for warnings and contraindications.
+- **Cardiovascular:** hypertension and hypertensive disorder, hypotensive disorder, coronary artery disease, myocardial infarction, coronary thrombosis
+- **Hepatic, renal and gastrointestinal:** liver failure, liver disease, kidney disease, pyoureter, pancreatitis, gallbladder disease, gastric ulcer, peptic ulcer disease, inflammatory bowel disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis
+- **Respiratory and neurological:** epilepsy, chronic obstructive pulmonary disease (including severe early-onset COPD)
+- **Endocrine and metabolic:** hypothyroidism, myxedema, congenital hypothyroidism, diabetes mellitus, diabetic ketoacidosis
+- **Other:** benign prostatic hyperplasia, ocular hypertension, hemoglobinopathy, substance abuse/dependence
+
+**Drug interactions:** 100 interactions were identified. The main ones are:
+
+- **Major:** potassium chloride and potassium citrate
+- **Moderate (anticholinergic agents, additive effects):** hyoscyamine, atropine, scopolamine, dicyclomine, clidinium, glycopyrronium, mepenzolate, methscopolamine, propantheline
+- **Moderate (CNS or opioid agents, additive sedation):** morphine (including liposomal), opium, loperamide, eluxadoline, dronabinol, nabilone
+- **Moderate (other):** metoclopramide
+
+Label warnings and contraindications from the Health Canada package insert were not available. Please refer to the package insert for authoritative safety information.
 
 ---
 
@@ -95,13 +108,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.87%), but the evidence level is L5, with no clinical trials or literature. The original indication, the mechanism data, and the warnings and contraindications are also missing, so the candidate cannot advance to safety screening.
+The prediction is mechanistically coherent, but it largely duplicates an existing labeled use (urticaria and angioedema). No trials or publications support the specific subtypes. For cold urticaria, second-generation non-sedating antihistamines are preferred, and brompheniramine adds sedation and anticholinergic burden.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings, contraindications, approved indication), needed for safety screening
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- A search for clinical trials and literature on brompheniramine or H1-antihistamine class effects in allergic urticaria and cold urticaria
-- Dosage form and route information to check route compatibility with the predicted indication
+- Brompheniramine-specific clinical or observational evidence for allergic urticaria or cold urticaria
+- Comparison against second-generation antihistamines to show a meaningful added value
+- Review of the anticholinergic and sedation risks, particularly in older adults and in patients with the conditions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

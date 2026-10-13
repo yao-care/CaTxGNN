@@ -2,7 +2,7 @@
 layout: default
 title: Orlistat
 parent: Model Prediction Only (L5)
-nav_order: 681
+nav_order: 687
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Orlistat: From Obesity Management to Hypervitaminosis
+# Orlistat: From Obesity to Hypervitaminosis
 
 ## One-Sentence Summary
 
-Orlistat is a lipase inhibitor that reduces dietary fat absorption. It is marketed in Canada as XENICAL, and the pack does not record its approved indication. The TxGNN model predicts it may be effective for **hypervitaminosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
----
+Orlistat was originally used to treat obesity, including monogenic obesity.
+The TxGNN model predicts it may be useful for **Hypervitaminosis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack (orlistat is generally known as an anti-obesity agent) |
+| Original Indication | Obesity disorder; monogenic obesity (the Canadian licence record contains no approved indication text) |
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L5 |
@@ -49,59 +49,50 @@ Orlistat is a lipase inhibitor that reduces dietary fat absorption. It is market
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for orlistat is not available in the Evidence Pack. The available pharmacology is limited to this: orlistat inhibits gastric and pancreatic lipases and reduces dietary fat absorption by roughly 30%. The same effect lowers absorption of the fat-soluble vitamins (A, D, E and K), and vitamin deficiency is a labeled adverse effect.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, orlistat is a gastric and pancreatic lipase inhibitor that reduces dietary fat absorption by roughly 30%.
 
-This gives a possible, but indirect, link to hypervitaminosis. In theory, reduced fat absorption could limit intake-driven excess of fat-soluble vitamins such as A or D. It would not apply to water-soluble vitamins. No mechanistic or clinical data in the Evidence Pack support this idea.
+Fat-soluble vitamins (A, D, E, K) are absorbed together with dietary fat. In theory, lowering fat absorption could reduce their uptake and so reduce body load in fat-soluble hypervitaminosis, such as vitamin A or D excess.
 
-The original indications are also empty in the input. The high TxGNN score (0.994) therefore cannot be cross-checked against known pharmacology and should be read as a model prediction only. A reduction in vitamin absorption that is a safety concern in routine use is the very property this prediction would rely on, which makes the rationale speculative.
-
----
+This link is plausible but weak. It rests on a known adverse effect of orlistat (fat-soluble vitamin malabsorption), not on any demonstrated therapeutic benefit. Hypervitaminosis from excess supplementation is usually managed simply by stopping the supplement, and water-soluble hypervitaminosis would not be affected by this mechanism. The high TxGNN score (0.994) is a computational prediction only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2240325 | XENICAL | — | — |
-
----
+| 02240325 | XENICAL | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related diseases (from the knowledge graph, not label text)**: liver failure, primary hyperoxaluria, anorexia nervosa, bulimia nervosa, vitamin deficiency disorder, cholestasis, benign recurrent intrahepatic cholestasis, familial intrahepatic cholestasis, drug-induced liver injury. Of note, vitamin deficiency disorder appearing here is consistent with orlistat's effect on fat-soluble vitamin absorption.
+- **Drug Interactions**: 100 interactions were recorded. The first 20 listed are mostly Moderate, with a few Minor. Examples:
+  - Moderate: abacavir, lamivudine, emtricitabine, atazanavir, acarbose, albiglutide, alogliptin, canagliflozin, metformin, chlorpropamide, amiodarone, cannabidiol, asparaginase (*E. coli* and *Erwinia chrysanthemi*), calaspargase pegol, brentuximab vedotin, clofarabine
+  - Minor: cholecalciferol, calcifediol, calcitriol
 
-The pack lists no recorded drug interactions. Its only safety-related pharmacology note is that orlistat lowers absorption of fat-soluble vitamins (A, D, E, K), and vitamin deficiency is a labeled adverse effect.
-
----
+Please refer to the package insert for label warnings and contraindications, which are not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a model prediction (Evidence Level L5), with no registered trials and no literature. The proposed mechanism is indirect and speculative, and the pack lacks both the original indication and the mechanism-of-action data needed to validate the score.
+The prediction is supported only by a model score (L5), with no clinical trials or publications. The proposed mechanism relies on what is normally an adverse effect of orlistat. Standard management of hypervitaminosis (stopping the supplement) is already simple, and orlistat has many drug interactions and liver- and nutrition-related cautions.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (download and parse the PDF). This blocks safety screening.
-- Mechanism of action and original indication data from DrugBank (DB01083).
-- A targeted literature and trial search on orlistat and fat-soluble vitamin excess.
-- Evidence that any benefit outweighs the known risk of vitamin deficiency.
-- Approved indication text and dosage form for the XENICAL DIN.
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- A literature and clinical-trial search on orlistat and fat-soluble vitamin excess (for example, vitamin A or D toxicity)
+- Evaluation of whether reduced absorption offers a clinically meaningful benefit over simply stopping the supplement
+- Route and formulation compatibility assessment, and the approved indication text and dosage form for the Canadian licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

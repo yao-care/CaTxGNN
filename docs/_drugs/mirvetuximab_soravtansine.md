@@ -2,7 +2,7 @@
 layout: default
 title: Mirvetuximab Soravtansine
 parent: Model Prediction Only (L5)
-nav_order: 617
+nav_order: 622
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,16 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Mirvetuximab soravtansine (ELAHERE) is a folate receptor alpha (FRα)-directed antibody-drug conjugate used for platinum-resistant ovarian cancer.
-The TxGNN model predicts it may be effective for **antithrombin deficiency type 2**, but **0 clinical trials** and **0 publications** support this prediction, and no plausible mechanistic link exists. The high score is most likely a knowledge-graph artifact.
-
----
+Mirvetuximab soravtansine is an antibody-drug conjugate that targets folate receptor alpha (FRα). It is used to treat platinum-resistant ovarian cancer.
+The TxGNN model predicts it may be effective for **antithrombin deficiency type 2**, but **no clinical trials and no publications** support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Platinum-resistant ovarian cancer (from the published literature in the pack; the Canadian license text was not supplied) |
+| Original Indication | Platinum-resistant ovarian cancer (per the drug's pharmacology data; the Canadian licence record has no indication text) |
 | Predicted New Indication | Antithrombin deficiency type 2 |
 | TxGNN Prediction Score | 97.95% |
 | Evidence Level | L5 |
@@ -50,78 +48,66 @@ The TxGNN model predicts it may be effective for **antithrombin deficiency type 
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-It is not well supported. Mirvetuximab soravtansine is an antibody-drug conjugate. The antibody binds FRα on tumour cells, and the conjugate delivers the DM4 microtubule-inhibitor payload, which kills the cell. Detailed mechanism data were not supplied in the input, so this description comes from the candidate's mechanistic assessment.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, mirvetuximab soravtansine is an FRα-targeting antibody-drug conjugate. Its antibody component binds FRα (FOLR1) with high affinity (Kd 0.08 nM in vitro) and delivers the maytansinoid payload DM4, a microtubule inhibitor, to FRα-expressing tumour cells.
 
-Antithrombin deficiency type 2 is an inherited defect in a coagulation inhibitor. The disease is caused by a dysfunctional protein, not by proliferating FRα-positive cells. A cytotoxic ADC cannot correct that defect. Cytotoxic cancer therapy is also generally associated with increased thrombotic risk, which would work against patients with this condition.
+The original and predicted indications are not related. Antithrombin deficiency type 2 is an inherited coagulation inhibitor disorder linked to SERPINC1. It does not involve FRα expression or microtubule disruption. A cytotoxic ADC would also be a poor fit for a chronic non-malignant condition. The high TxGNN score most likely reflects an artifact of the knowledge-graph structure rather than real biology. The same applies to the other top-ranked predictions: heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis, candidiasis, thrombophilia, tinea corporis, uterine polyp and pediatric systemic lupus erythematosus. For each of these, the mechanistic review found no plausible link.
 
-The TxGNN score is high (rank 30,079 overall), but it reflects graph-based association rather than biological rationale. Other top-ranked predictions for this drug (heparin cofactor 2 deficiency, factor V excess, candidiasis, tinea corporis, thrombophilia) show the same pattern. None has a plausible mechanism or any supporting study.
-
----
+The only prediction with any literature is **plasma cell myeloma** (rank 5, score 97.61%). Its link is weak and speculative: myeloma is not a recognised FRα-expressing cancer, and the usual ADC target there is BCMA.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top predicted indication. For the fifth-ranked prediction (plasma cell myeloma), five reviews were retrieved. They concern ADCs and gynaecologic cancers in general, and none provides myeloma-specific evidence for mirvetuximab:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41151612](https://pubmed.ncbi.nlm.nih.gov/41151612/) | 2025 | Review | Dtsch Med Wochenschr | Overview of recent immuno-oncology approvals, including mirvetuximab soravtansine for platinum-resistant ovarian cancer |
+| [42828635](https://pubmed.ncbi.nlm.nih.gov/42828635/) | 2026 | Review | Int J Clin Oncol | Japanese regulatory update on anticancer drugs, including mirvetuximab soravtansine for ovarian cancer |
+| [38146364](https://pubmed.ncbi.nlm.nih.gov/38146364/) | 2023 | Review | Front Immunol | CAR-T cell immunotherapy for ovarian cancer |
+| [34683998](https://pubmed.ncbi.nlm.nih.gov/34683998/) | 2021 | Review | Pharmaceutics | Antibody-drug conjugates in gynaecological malignancies: current status and future perspectives |
+| [36618922](https://pubmed.ncbi.nlm.nih.gov/36618922/) | 2022 | Review | Front Pharmacol | Review of ADCs, alone or combined with immunotherapy, for gynaecologic cancer |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2560771 | ELAHERE |
-
-Dosage form, manufacturer and approved indication text were not supplied for this license.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02560771 | ELAHERE | Not listed | Not listed |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic microtubule-inhibitor payload (DM4) |
-| Myelosuppression Risk | Myelosuppression is a recognised concern for this class. Please refer to the package insert for grading. |
+| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic payload (DM4, a maytansinoid microtubule inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Haematological parameters (CBC), ophthalmic examination, neurological assessment. Please refer to the package insert for the full schedule. |
+| Monitoring Items | Please refer to the package insert; ocular (corneal) examinations are relevant given the known ocular toxicity |
 | Handling Protection | Follow institutional cytotoxic drug handling regulations |
-
----
 
 ## Safety Considerations
 
-The Evidence Pack has no package insert warnings, contraindications or drug interaction records for this product. The candidate assessment does flag the following concerns:
+- **Known toxicity**: Drug-induced ocular (corneal) toxicity has been reported. It can be resolved with short-term topical steroids.
+- **Drug Interactions**: The interaction query found only the drug's pharmacological target, folate receptor alpha (FOLR1). No specific interacting drugs were identified.
 
-- **Ocular toxicity, peripheral neuropathy and myelosuppression** are the main toxicities of concern. Myelosuppression may also raise infection risk.
-- **Thrombotic risk** is generally increased with cytotoxic cancer therapy, which is relevant to any coagulation-related indication.
-- **Paediatric use** would be a serious concern given this toxicity profile.
-
-Please refer to the package insert for authoritative safety information.
-
----
+For other safety information, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no trials or publications, the mechanism does not fit the disease, and the drug's toxicity and thrombotic-risk profile argue against use. All ten TxGNN predictions for this drug are currently Hold. The only one with any literature is plasma cell myeloma (L4). That literature consists of reviews of ADCs and immunotherapy, mostly in gynaecologic cancers, and does not test mirvetuximab in myeloma.
+The top-ranked prediction, antithrombin deficiency type 2, has no clinical trials, no literature and no plausible mechanistic link. A cytotoxic ADC would carry a poor risk-benefit balance in a chronic non-malignant disorder. The high TxGNN score appears to be a computational artifact, and the other nine predictions are equally unsupported.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Health Canada (currently a blocking gap for safety screening)
-- Detailed mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking FRα-targeted delivery to antithrombin function. Without it, this candidate should not advance beyond model prediction.
-- If the team wants a more tractable candidate from this list, a preclinical FRα expression check in plasma cells would be the minimum step for the myeloma prediction.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism-of-action data
+- Approved indication text for the Canadian licence
+- Experimental evidence that FRα, or another relevant mechanism, plays a role in the predicted disease
+- Re-evaluation of the drug for FRα-expressing malignancies, which are more biologically plausible than the model's top predictions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

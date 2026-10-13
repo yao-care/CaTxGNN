@@ -2,7 +2,7 @@
 layout: default
 title: Methoxsalen
 parent: Model Prediction Only (L5)
-nav_order: 597
+nav_order: 602
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,104 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methoxsalen: From Unspecified Original Indication to Localized Pagetoid Reticulosis
+# Methoxsalen: From Cutaneous T-Cell Lymphoma to Localized Pagetoid Reticulosis
 
 ## One-Sentence Summary
 
-Methoxsalen (a psoralen photosensitizer) is marketed in Canada as UVADEX, but the Evidence Pack does not record its original indication.
-The TxGNN model predicts it may be effective for **localized pagetoid reticulosis**, a rare epidermotropic T-cell lymphoma of the skin.
-Currently **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model score alone.
-
----
+Methoxsalen is a photosensitizing drug originally used for primary cutaneous T-cell lymphoma and vitiligo.
+The TxGNN model predicts it may be effective for **localized pagetoid reticulosis** (Woringer-Kolopp disease), a variant of mycosis fungoides.
+There are currently **0 clinical trials** and **0 publications** directly supporting this specific prediction, so it rests on model prediction and disease-class similarity.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack |
+| Original Indication | Primary cutaneous T-cell lymphoma (also primary cutaneous T-cell non-Hodgkin lymphoma and vitiligo, per the knowledge graph) |
 | Predicted New Indication | Localized pagetoid reticulosis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L4 (L5 would apply strictly, as no direct studies were supplied; L4 reflects the mechanistic rationale) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general pharmacological knowledge rather than the supplied data, methoxsalen is a psoralen. When activated by UVA light, psoralens crosslink DNA and can trigger apoptosis in target cells. This is the basis of psoralen-plus-UVA photochemotherapy (PUVA) and extracorporeal photopheresis (ECP).
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general knowledge, methoxsalen is a psoralen photosensitizer. When activated by UVA light (PUVA), or in extracorporeal photopheresis, it is understood to form DNA crosslinks and induce apoptosis in malignant T-cells.
 
-Localized pagetoid reticulosis belongs to the mycosis fungoides spectrum, in which malignant T cells sit in the skin. A photoactivated drug that targets skin-homing T cells is a plausible fit, which may explain the very high model score. This link comes from general knowledge, not from evidence supplied for this indication, and it needs a dedicated literature search before any upgrade.
+Localized pagetoid reticulosis is a variant of mycosis fungoides, which is itself a primary cutaneous T-cell lymphoma. The predicted indication is therefore biologically very close to the drug's existing use, and this is largely an extension of the existing label rather than a truly new repurposing.
 
-**Related lead:** the second-ranked prediction, *indolent primary cutaneous T-cell lymphoma* (score 99.91%, L3), has two supporting publications on photopheresis in cutaneous T-cell lymphoma. It is closer to confirming an existing use than to true repurposing, and it is the stronger lead to follow.
+It should be noted that the link is inferred from disease-class similarity and the high TxGNN score. No trials or literature specific to this variant were included in the data compiled for this report.
 
----
+## Other Predicted Indications
+
+The model also ranked nine further candidates. Evidence is limited for all of them.
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Indolent primary cutaneous T-cell lymphoma | 99.91% | L4 | Overlaps with the existing label; one indirect health technology assessment on extracorporeal photopheresis |
+| 3 | Neoplasm of mature B-cells | 99.84% | L5 | Speculative; methoxsalen's activity is established in T-cell disease |
+| 4 | Small intestinal Burkitt lymphoma | 99.80% | L5 | UVA cannot reach the site; likely a graph artifact |
+| 5 | Thyroid gland MALT lymphoma | 99.78% | L5 | Internal site; no clear rationale |
+| 6 | Small intestinal MALT lymphoma | 99.78% | L5 | Internal site; no clear rationale |
+| 7 | Follicular lymphoma, susceptibility to, 1 | 99.78% | L5 | Genetic susceptibility label; link is purely computational |
+| 8 | Breast MALT lymphoma | 99.77% | L5 | Deep tissue site; no supporting mechanism |
+| 9 | Tonsillar lymphoma | 99.77% | L5 | Mostly B-cell; photochemotherapy not established |
+| 10 | Vulvar inverted follicular keratosis | 99.65% | L5 | Benign lesion; PUVA carcinogenic risk argues against use |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+No literature was found for localized pagetoid reticulosis. For the second-ranked indication (indolent primary cutaneous T-cell lymphoma), one indirect item was found:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [23074497](https://pubmed.ncbi.nlm.nih.gov/23074497/) | 2006 | Review (health technology assessment) | Ontario Health Technology Assessment Series | Evidence-based analysis of extracorporeal photopheresis for refractory erythrodermic cutaneous T-cell lymphoma and chronic graft-versus-host disease; not specific to indolent disease or to methoxsalen alone |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2406233 | UVADEX |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02406233 | UVADEX | Not specified | Not specified in the compiled data |
 
-Dosage form and approved indication text were not provided for this license.
+## Cytotoxicity
 
----
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Photoactivated DNA-crosslinking agent (photochemotherapy); not a conventional cytotoxic chemotherapy |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the queried data.
+- **Knowledge-graph contraindication signals** (from drug-disease relationships in the knowledge graph, not from label text):
+  - Photosensitivity conditions: photosensitivity disease, photoparoxysmal response
+  - Porphyrias: porphyria, variegate porphyria, porphyria cutanea tarda, erythropoietic protoporphyria, and related disorders of porphyrin metabolism
+  - Skin and other cancers: melanoma, basal cell carcinoma, squamous cell carcinoma, skin carcinoma, sweat gland cancer, sebaceous adenocarcinoma
+  - DNA-repair and pigmentation disorders: xeroderma pigmentosum, albinism, Waardenburg syndrome, piebaldism, Griscelli syndrome
+  - Other: systemic lupus erythematosus (including pediatric), liver disease, gallbladder disease, peroxisome biogenesis disorder
+- **Drug Interactions**: 100 interactions were found. The 20 listed are all Moderate severity: doxycycline, tetracycline, minocycline (including topical forms), levofloxacin, sulfonylureas (chlorpropamide, glimepiride, glipizide, glyburide, acetohexamide, tolazamide, tolbutamide), sulfasalazine, sulfamethizole, promethazine, alosetron, ibuprofen and flurbiprofen. Many of these are likely additive photosensitivity effects, but this is not stated in the data.
 
----
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but no trials or literature support this indication, so it stays at L5 (model prediction only). The mechanistic link is plausible but unverified.
+The predicted indication is mechanistically close to the approved use, but no trials or literature specific to localized pagetoid reticulosis were provided. The model score alone is not sufficient evidence. The label-level safety data are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- A targeted literature and trial search for PUVA or photopheresis in localized pagetoid reticulosis
-- Health Canada package insert or product monograph review, covering the approved indication and warnings (currently blocking for safety screening)
-- Mechanism of action data from DrugBank
-- Resolution of the empty original-indication field
-- Consideration of prioritizing the indolent primary cutaneous T-cell lymphoma prediction (rank 2), which already has supporting publications
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Mechanism of action data (for example from DrugBank)
+- A targeted literature search for PUVA in localized pagetoid reticulosis and mycosis fungoides variants
+- Approved indication text and dosage form for UVADEX, to confirm whether the existing label already covers this use
+- Route and device compatibility assessment (PUVA versus extracorporeal photopheresis)
+- A review of carcinogenic risk (skin cancer) and the photosensitizing drug interactions above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

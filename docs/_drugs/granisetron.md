@@ -2,7 +2,7 @@
 layout: default
 title: Granisetron
 parent: Model Prediction Only (L5)
-nav_order: 438
+nav_order: 442
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Granisetron: From 5-HT3 Antagonist Antiemetic Use to Manic Bipolar Affective Disorder
+# Granisetron: From Its Original Use to Manic Bipolar Affective Disorder
 
 ## One-Sentence Summary
 
-Granisetron is a selective 5-HT3 receptor antagonist, a class used as an antiemetic.
-The TxGNN model predicts it may be effective for **manic bipolar affective disorder**,
-but currently **0 clinical trials** and **0 publications** support this direction, so it remains a model prediction only.
+Granisetron is a selective 5-HT3 receptor antagonist that is marketed in Canada. The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, but this is a computational prediction only: **0 clinical trials** and **0 publications** were found to support it.
 
 ---
 
@@ -43,10 +41,10 @@ but currently **0 clinical trials** and **0 publications** support this directio
 
 | Item | Content |
 |------|------|
-| Original Indication | Approved indication text was not supplied for the Canadian licences (the drug class is a 5-HT3 antagonist antiemetic) |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 |
+| Evidence Level | L5 (model prediction only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
@@ -55,11 +53,13 @@ but currently **0 clinical trials** and **0 publications** support this directio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known information, granisetron is a selective 5-HT3 receptor antagonist. Its use in its original setting rests on blocking serotonin signalling through this receptor.
+Detailed mechanism of action data is not available in the data compiled for this report. Granisetron is generally known as a selective 5-HT3 receptor antagonist.
 
-The link to mania is speculative. It would rely on 5-HT3 blockade indirectly modulating serotonergic and dopaminergic signalling, both of which are implicated in mood disorders. No trials or publications were supplied to test this idea.
+One hypothesis is that modulating 5-HT3 receptors could influence the dopaminergic and serotonergic signaling involved in mood regulation. This is a speculative link. No direct clinical evidence was found, and the high score (0.996) reflects a network-based computational prediction rather than demonstrated efficacy.
 
-The very high TxGNN score (0.996) reflects proximity in the knowledge graph, not confirmed biology. The score should be read as a hypothesis generator, not as evidence of efficacy.
+Because the original indication is not listed in the available regulatory data, the relationship between the original and new indications cannot be assessed here.
+
+Other top-ranked predictions include Tourette syndrome (99.52%) and trichotillomania (99.23%), which have a more plausible serotonergic and dopaminergic rationale. Several others, such as acute contagious conjunctivitis, nephrogenic syndrome of inappropriate antidiuresis and bronchitis, have no clear mechanistic basis and are likely network artifacts.
 
 ---
 
@@ -77,17 +77,25 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02322765 | GRANISETRON HYDROCHLORIDE INJECTION |
-| 02452359 | NAT-GRANISETRON |
-| 02308894 | APO-GRANISETRON |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02322765 | GRANISETRON HYDROCHLORIDE INJECTION | Not specified | Not specified |
+| 02452359 | NAT-GRANISETRON | Not specified | Not specified |
+| 02308894 | APO-GRANISETRON | Not specified | Not specified |
+
+All three authorizations are valid single-ingredient products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the supplied data.
+- **Knowledge-graph contraindication signals** (from drug-disease relationships in the TxGNN knowledge graph, not from label text): long QT syndrome, familial long QT syndrome, potassium deficiency disease, sudden cardiac arrest, heart conduction disease. These point to a cardiac conduction/QT concern.
+- **Drug Interactions**: The query found 100 interactions in total. Examples from the 20 reviewed:
+  - **Major**: fentanyl, dextromethorphan, tramadol, alfentanil, almotriptan, sumatriptan, amiodarone, amisulpride, amitriptyline, anagrelide
+  - **Moderate**: abametapir, abiraterone, dihydrocodeine, codeine, famotidine, formoterol, adenosine, salbutamol, alfuzosin, propofol
+  - The major interactions suggest particular attention to QT-prolonging drugs and serotonergic drugs.
+
+Please refer to the package insert for warnings and contraindications, as label data was not available.
 
 ---
 
@@ -96,15 +104,14 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (Evidence Level L5). There are no trials or publications, and the mechanistic link to mania is speculative. Progressing further is not justified at this stage.
+The prediction rests only on a model score. There are no clinical trials or publications, the mechanism data is missing, and the mechanistic link to manic bipolar affective disorder is speculative. Cardiac (QT-related) signals and many interactions with serotonergic and QT-prolonging drugs also call for caution in a psychiatric population.
 
 **To proceed, the following is needed:**
-- A targeted literature search on 5-HT3 antagonists in bipolar mania and mood disorders, to determine whether any preclinical or clinical signal exists
-- Mechanism of action data from DrugBank, to support the mechanistic-link analysis
-- The Health Canada product monograph (warnings, contraindications, approved indications), which is required before any safety screening
-- If the literature search is negative, consider shifting attention to other high-scoring candidates with more plausible serotonergic rationale, namely Tourette syndrome and trichotillomania, both currently flagged as research questions
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Original approved indication and dosage form details for the Canadian products
+- Preclinical or clinical evidence for 5-HT3 antagonism in mood disorders
+- Comparison of the predicted indications with better-supported candidates, such as Tourette syndrome and trichotillomania
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

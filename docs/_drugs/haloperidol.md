@@ -2,7 +2,7 @@
 layout: default
 title: Haloperidol
 parent: Model Prediction Only (L5)
-nav_order: 443
+nav_order: 447
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Haloperidol: From Antipsychotic Therapy to Congenital Disorder of Glycosylation with Defective Fucosylation
+# Haloperidol: From Psychotic Disorders to Congenital Disorder of Glycosylation with Defective Fucosylation
 
 ## One-Sentence Summary
 
-Haloperidol is a dopamine D2-antagonist antipsychotic that is already marketed in Canada. The TxGNN model ranks **congenital disorder of glycosylation with defective fucosylation** as its top new-indication prediction. There are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the graph model alone.
+Haloperidol is a dopamine D2 antagonist antipsychotic, originally used for psychotic disorders, schizophrenia and Tourette syndrome.
+The TxGNN model predicts it may be effective for **congenital disorder of glycosylation with defective fucosylation**,
+but **no clinical trials and no publications** currently support this direction, so it is a computational prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence records provided |
+| Original Indication | Psychotic disorders, schizophrenia and related conditions (schizophreniform and schizoaffective disorder), Tourette syndrome |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
@@ -47,68 +51,71 @@ Haloperidol is a dopamine D2-antagonist antipsychotic that is already marketed i
 | Number of DINs | 9 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Haloperidol is known to be a high-affinity dopamine D2 receptor antagonist, and its efficacy as an antipsychotic is well established.
+Haloperidol is a dopamine D2 receptor antagonist. Detailed mechanism of action data was not available in the data compiled for this report, so this description rests on the drug's well-established pharmacology. Its efficacy in psychotic disorders, schizophrenia and Tourette syndrome is long established.
 
-We found no plausible link between D2 antagonism and fucosylation pathways. The disease is a rare inherited defect in protein glycosylation, and nothing in the available data suggests haloperidol would alter it. The very high score (99.91%) reflects the knowledge-graph structure and is not evidence of biological plausibility. This prediction should be treated as a model artifact unless independent evidence emerges.
+For this prediction, **no mechanistic link could be identified**. Congenital disorders of glycosylation with defective fucosylation involve problems in fucose metabolism or transport (for example, GDP-fucose transport). Dopamine receptor blockade has no known connection to these pathways. The high score (0.999) reflects a pattern found by the model in a knowledge graph, not biological or clinical evidence. The similarity between the original and predicted indications has not been assessed.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 363669 | TEVA-HALOPERIDOL | — | — |
-| 713449 | TEVA-HALOPERIDOL | — | — |
-| 2366010 | HALOPERIDOL INJECTION | — | — |
-| 363677 | TEVA-HALOPERIDOL | — | — |
-| 363685 | TEVA-HALOPERIDOL | — | — |
+Nine valid single-ingredient authorizations exist in Canada. Dosage form and approved indication text were not available for any of them. The first five are listed below.
 
-The dosage form and approved-indication fields are blank in the records provided. Only 5 of the 9 licences are listed.
+| DIN | Product Name |
+|---------|------|
+| 00363669 | TEVA-HALOPERIDOL |
+| 00713449 | TEVA-HALOPERIDOL |
+| 02366010 | HALOPERIDOL INJECTION |
+| 00363677 | TEVA-HALOPERIDOL |
+| 00363685 | TEVA-HALOPERIDOL |
+
+The remaining four include other haloperidol injection products and a long-acting formulation (HALOPERIDOL LA).
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Label-based warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for these.
 
-## Other Predicted Indications Worth Noting
+- **Contraindications flagged in the knowledge graph (not label text)**:
+  - Cardiac: long QT syndrome (including familial forms) and torsades de pointes.
+  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm and neuroleptic malignant syndrome.
+  - Blood: neutropenia (including congenital and idiopathic forms), agranulocytosis and leukopenia.
+  - Other: liver disease, gallbladder disease, hypothyroidism and myxedema, potassium deficiency, hypotensive disorder and female breast carcinoma.
+- **Drug Interactions**: 100 interactions are recorded. Major-level interactions include bupropion, morphine, clarithromycin and dolasetron. Moderate-level interactions include famotidine, epinephrine, hydrocortisone, amphotericin B, atropine, loperamide and aprepitant, among others.
 
-Only one of the ten predictions has real supporting evidence: **manic bipolar affective disorder** (rank 10, TxGNN score 99.83%, evidence level L1). The other nine, including the top-ranked one above, have no trials and no relevant literature. Several of the retrieved papers, such as those on the orbit and extraocular muscles for rank 2, look like keyword matches.
-
-The mania evidence comes mainly from trials in which haloperidol was a comparator arm:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00253149](https://clinicaltrials.gov/study/NCT00253149) | Phase 3 | Completed | 158 | Risperidone vs placebo vs haloperidol as add-on to mood stabilizers in bipolar mania |
-| [NCT00253162](https://clinicaltrials.gov/study/NCT00253162) | Phase 3 | Completed | 439 | Flexible-dose risperidone vs placebo or haloperidol in manic episodes of bipolar I |
-| [NCT00129220](https://clinicaltrials.gov/study/NCT00129220) | Phase 3 | Completed | 224 | Placebo- and haloperidol-controlled olanzapine trial in manic or mixed episodes |
-| [NCT00126009](https://clinicaltrials.gov/study/NCT00126009) | Phase 2 | Completed | 120 | Valproate-amisulpride vs valproate-haloperidol in bipolar I mania |
-
-Supporting literature includes a 2022 network meta-analysis of double-blind RCTs in bipolar mania ([34642461](https://pubmed.ncbi.nlm.nih.gov/34642461/), *Molecular Psychiatry*) and a Japanese placebo- and haloperidol-controlled olanzapine RCT ([22134043](https://pubmed.ncbi.nlm.nih.gov/22134043/), *Journal of Affective Disorders*).
-
-This is largely an already-recognized antimanic use and not a novel repurposing signal. Also, haloperidol is the comparator in these trials, not the primary study drug.
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for the top-ranked prediction, congenital disorder of glycosylation with defective fucosylation)
+**Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical, literature or mechanistic support, and it sits at evidence level L5. The high TxGNN score alone does not justify further investment. The mania indication is better supported (Proceed with Guardrails), but it is not a new use.
+The prediction has a very high model score but no trials, no literature and no plausible mechanistic link between D2 antagonism and fucosylation defects. Haloperidol also carries significant safety considerations, including QT prolongation and neurological and haematological risks. These are hard to justify without any supporting evidence in a rare metabolic disease.
 
-**To proceed, the following is needed:**
-- For the glycosylation disorder: a credible mechanistic hypothesis and preclinical data. Without these, the prediction should be deprioritized.
-- For mania: confirmation of Canadian labeling status. The original-indication fields are empty in the current records.
-- Health Canada package insert warnings and contraindications, which are missing and block safety screening.
-- Mechanism of action data from DrugBank.
-- A safety plan covering extrapyramidal symptoms, QT prolongation and tardive dyskinesia, using guideline-based dosing.
+**Other predictions for this drug:**
+Of the ten predictions compiled, the strongest evidence is for **manic bipolar affective disorder** (Level L1, recommendation: Proceed with Guardrails). It is supported by a completed Phase 3 haloperidol- and placebo-controlled olanzapine trial ([NCT00129220](https://clinicaltrials.gov/study/NCT00129220), n=224) and by network meta-analyses. Mania is already close to established clinical practice, so this is more of a guideline-supported use than a novel repurposing. Haloperidol's effects on retinal ganglion cells in a retinitis pigmentosa rat model (L4, preclinical only) are the only other signal of note.
 
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+**To proceed with the glycosylation indication, the following is needed:**
+- Any mechanistic or preclinical evidence linking dopamine signalling to fucosylation pathways
+- Detailed mechanism of action data and the full Health Canada package insert warnings and contraindications
+- A disease-specific safety assessment, including QTc, neurological and haematological monitoring
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

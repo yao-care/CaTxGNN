@@ -2,7 +2,7 @@
 layout: default
 title: Metolazone
 parent: Model Prediction Only (L5)
-nav_order: 603
+nav_order: 608
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,70 +29,106 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Metolazone: From Diuretic Therapy to Malignant Renovascular Hypertension
+# Metolazone: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Metolazone is a thiazide-like diuretic marketed in Canada as ZAROXOLYN, though its approved indication text is not recorded in the available data.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but **no clinical trials and no relevant publications** currently support this prediction.
+Metolazone is a thiazide-like diuretic originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but there are currently **0 clinical trials** and **0 relevant publications** supporting this direction, so the prediction rests on model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the available licence data |
+| Original Indication | Hypertension / hypertensive disorder (from the knowledge graph; no approved indication text is available for the Canadian licence) |
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on general pharmacology, metolazone is a thiazide-like diuretic that inhibits the Na-Cl cotransporter in the distal convoluted tubule. This produces sodium and water loss and lowers blood pressure, so a link to hypertensive disease is plausible.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, metolazone is a thiazide-like diuretic that inhibits the sodium-chloride cotransporter in the distal convoluted tubule. This reduces sodium and fluid volume, and its efficacy in hypertension is established.
 
-The fit for this specific indication is weak. Renovascular hypertension is driven mainly by renin-angiotensin system activation. Malignant hypertension is an emergency that is usually managed with parenteral agents, not an oral diuretic. The high score (99.84%) is a graph-based prediction and should not be read as evidence of efficacy.
+Reducing volume and sodium load is plausibly relevant to renovascular hypertension. However, malignant renovascular hypertension is driven mainly by activation of the renin-angiotensin system due to renal artery stenosis, and thiazide-type diuretics can further stimulate renin release. This is a mechanistic concern rather than a supporting argument.
 
-The second-ranked prediction, malignant hypertensive renal disease, has an identical score, so the two predictions are probably not independent. Volume reduction could plausibly help renal haemodynamics, and metolazone is used in practice for diuretic-resistant oedema with reduced renal function. Thiazide efficacy falls at low GFR, though metolazone is a relative exception. This remains inference only.
+The very high score (99.84%) most likely reflects the close ontology relationship between this condition and the already approved hypertension indication, not independent evidence of benefit.
 
-The remaining predictions are pulmonary hypertension (two entries) and Braddock syndrome. For pulmonary hypertension, a diuretic may relieve right-heart congestion as symptomatic support but has no known effect on pulmonary vascular remodelling. For Braddock syndrome, no mechanistic link to metolazone is established. The score there likely reflects network proximity through hypertension-related nodes. All three are marked Hold.
+Other predicted indications show the same pattern. Their scores are all above 99.7%, and none has supporting trials:
+
+| Predicted Indication | Score | Comment |
+|------|------|------|
+| Malignant hypertensive renal disease | 99.84% | Indirect link. Metolazone retains efficacy at reduced GFR, but malignant hypertension is an emergency needing rapid titratable parenteral therapy, so an oral diuretic is not suitable as primary treatment. |
+| Pulmonary hypertension, unclear multifactorial mechanism | 99.83% | Diuretics may relieve volume overload (supportive care only). Metolazone does not act on pulmonary vascular pathways. |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.83% | Possible symptomatic benefit for edema. One preclinical paper retrieved, judged non-informative. |
+| Braddock syndrome | 99.78% | No mechanistic rationale identified. Likely a knowledge-graph artifact. |
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top predicted indication.
 
-Note: the literature retrieved for the pulmonary hypertension (lung disease/hypoxia) prediction consists of general hypoxia-biology papers on neurodegeneration, cancer, keloid and multiple sclerosis. None mention metolazone or pulmonary hypertension treatment, so they were not counted as supporting evidence.
+For reference, one publication was retrieved for a lower-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia). It is a preclinical study and is not informative for the top prediction:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2916665](https://pubmed.ncbi.nlm.nih.gov/2916665/) | 1989 | Preclinical | Am J Physiol | In rats, thiazide diuretic receptors (measured by [3H]metolazone binding) in the kidney were rapidly and reversibly reduced after acute renal ischemia. It describes receptor biology only, with no demonstrated relevance to pulmonary hypertension. |
+
+---
 
 ## Canada Market Information
 
-| Licence Number | Product Name |
-|---------|------|
-| 888400 | ZAROXOLYN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00888400 | ZAROXOLYN | Not specified | Not specified |
 
-Dosage form, manufacturer and approved indication text are not recorded for this licence.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication-related conditions (from the knowledge graph, not label text):**
+The drug-disease contraindication links in the knowledge graph include:
+- Liver and metabolic: liver failure, hepatic coma, hepatic encephalopathy, pancreatitis, diabetes mellitus, diabetic ketoacidosis, gout
+- Electrolyte and mineral: potassium deficiency disease, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease
+- Renal: anuria
+- Blood pressure regulation: orthostatic hypotension, multiple system atrophy, postural orthostatic tachycardia syndrome
+- Autoimmune and pregnancy-related: systemic lupus erythematosus (including pediatric), HELLP syndrome
+
+**Drug Interactions:** The interaction screening returned 100 interacting drugs in total. The 20 listed in the compiled data were mostly Moderate, with a few Minor. Examples:
+- **Moderate:** acarbose, alogliptin, albiglutide (possible effect on glucose control); hydrocortisone, dexamethasone, betamethasone, triamcinolone, beclomethasone (corticosteroids); amphotericin B; rabeprazole, omeprazole; bupropion; morphine; bisacodyl; cholecalciferol; calcium phosphate
+- **Minor:** doxycycline, hyoscyamine, atropine
+
+Please refer to the package insert for key warnings and label contraindications, which are not available in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a model score (L5). There are no trials or relevant publications, and the mechanistic rationale is weak for a condition driven by renin-angiotensin activation and typically treated with parenteral agents.
+The prediction is supported only by the model score, with no clinical trials or relevant publications (Evidence Level L5). There are also mechanistic concerns: thiazide-type diuretics may increase renin release, and malignant hypertension needs rapid parenteral therapy.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- The original approved indication text for the ZAROXOLYN licence
-- Targeted literature searches on metolazone in renovascular or malignant hypertension and hypertensive renal disease
-- Route compatibility assessment (oral diuretic vs. the parenteral therapy usually needed in malignant hypertension)
+- Mechanism of action data for metolazone
+- A literature and trial search specific to renovascular and malignant hypertension
+- Expert review of whether the high score reflects true biology or only ontology proximity to hypertension
+- Approved indication text and dosage form for the Canadian licence (DIN 00888400)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

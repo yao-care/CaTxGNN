@@ -2,7 +2,7 @@
 layout: default
 title: Salicylic Acid
 parent: Model Prediction Only (L5)
-nav_order: 827
+nav_order: 834
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salicylic Acid: From Topical Dermatologic Use to Papillary Conjunctivitis
+# Salicylic Acid: From Topical Keratolytic and Anti-Inflammatory Uses to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salicylic acid is a widely used topical agent, mainly as a keratolytic, and is marketed in Canada in several skin-treatment products.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
-
----
+Salicylic acid is originally used for skin and inflammatory conditions such as acne, seborrheic dermatitis, fungal skin infections (tinea) and rheumatoid arthritis.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Topical keratolytic and dermatologic use (indication text is not available in the Canadian license records provided) |
+| Original Indication | Acne, seborrheic dermatitis, tinea infections, rheumatoid arthritis, allergic rhinitis and others (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
@@ -51,67 +48,58 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Number of DINs | 7 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, salicylic acid is a salicylate with keratolytic and anti-inflammatory activity. Its use in skin conditions is established, and mechanistically it might be applicable to inflammatory conditions of the ocular surface.
+Detailed mechanism of action data is not available. Salicylic acid is generally proposed to act through inhibition of COX enzymes and modulation of inflammatory signalling (such as NF-kB). However, public bioactivity data confirming a primary molecular target are lacking.
 
-The link between the original use and the predicted indication is weak. Papillary conjunctivitis is an inflammatory eye condition, and salicylic acid's anti-inflammatory properties offer only a loose connection. Salicylic acid is mainly applied to the skin, and putting it on the ocular surface raises irritation and safety concerns. The very high TxGNN score (0.9988) therefore reflects model prediction rather than demonstrated biology or clinical evidence.
+Papillary conjunctivitis is an allergic or inflammatory eye condition. Salicylic acid is already linked to inflammatory and allergic conditions such as allergic rhinitis, which gives a possible shared inflammatory basis for the prediction. This link is inferred only.
 
-Other predictions for this drug are weaker still. Most of the top 10 are rare congenital skeletal or developmental disorders (for example brachyolmia, pseudoachondroplasia, brachydactyly-syndactyly syndrome). No plausible mechanism for salicylic acid is evident for these, and they are likely knowledge-graph proximity artifacts. The one exception is spondyloarthropathy susceptibility (rank 10, L4). It has a class-level rationale through NSAID-type COX inhibition, but it is framed as genetic susceptibility rather than active disease and has no salicylic acid-specific data.
+There are important caveats. No trials or literature support this use, and the safety of salicylic acid in the eye has not been established. Keratolytic salicylic acid formulations are known to irritate the eye. The high score should therefore be read as a graph-based signal, not as clinical evidence.
 
----
+Other top-ranked predictions are weaker. Most are rare genetic skeletal or developmental disorders (for example brachyolmia, pseudoachondroplasia and brachydactyly-syndactyly syndrome) with no plausible mechanistic link. Two have some rationale:
+- **Spondyloarthropathy, susceptibility to** is the most biologically plausible, because NSAIDs are first-line symptomatic therapy through COX inhibition. Any assessment should compare against established NSAIDs.
+- **Rosacea conjunctivitis** has a weak, speculative link through acne and inflammatory skin disease, with an eye irritation concern.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Five of the seven authorizations are listed below.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00666114 | SEBCUR-T | Not specified | Not specified |
+| 00578436 | DIPROSALIC | Not specified | Not specified |
+| 02428946 | ACTIKERALL | Not specified | Not specified |
+| 02402149 | ACNE TREATMENT SYSTEM | Not specified | Not specified |
+| 02245688 | RATIO-TOPISALIC | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 666114 | SEBCUR-T |
-| 578436 | DIPROSALIC |
-| 2428946 | ACTIKERALL |
-| 2402149 | ACNE TREATMENT SYSTEM |
-| 2245688 | RATIO-TOPISALIC |
-
-Dosage form and approved indication text were not provided for these products.
-
----
+Two further single-ingredient licences are valid: CANTHARONE PLUS (00772011) and TARDAN SHP (00266493). None are cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: One pharmacology-based entry was found, involving the acid-sensing ion channel ASIC3. It has no assigned severity level and does not represent a clinical drug-drug interaction.
+- **Ocular safety**: Keratolytic salicylic acid formulations are irritating to the eye. Ocular use has not been evaluated.
 
-Ocular application of salicylic acid raises irritation and safety concerns that would need to be addressed before any eye-related use.
-
----
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on the TxGNN model score, with no clinical trials or literature, and the mechanistic link to papillary conjunctivitis is weak. Ocular surface safety is a concern, and safety documentation for the Canadian products is not yet available.
+The prediction for papillary conjunctivitis has a high model score (99.88%) but no supporting trials or literature (Evidence Level L5). There is also a plausible ocular irritation concern.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (for example from DrugBank)
-- Indication, dosage form, and route details for the Canadian products
-- A literature and trial search specific to salicylic acid in conjunctival or ocular surface inflammation
-- Ocular tolerability and formulation-route assessment, since current products are topical dermatologic
+- Package insert warnings and contraindications from Health Canada, which are required before safety screening
+- Mechanism of action data for salicylic acid
+- A literature and trial search specific to salicylates in allergic or papillary conjunctivitis
+- Assessment of ocular tolerability and suitable ophthalmic formulations and routes, since the current Canadian products do not appear to be ophthalmic
+- A comparison against established treatments for allergic conjunctivitis, and against NSAIDs if the spondyloarthropathy prediction is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

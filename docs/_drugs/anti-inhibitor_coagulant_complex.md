@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Anti-Inhibitor Coagulant Complex: From Hemophilia with Inhibitors (Bypassing Agent) to Glanzmann Thrombasthenia
+# Anti-Inhibitor Coagulant Complex: From an Unspecified Original Indication to Glanzmann Thrombasthenia
 
 ## One-Sentence Summary
 
-Anti-Inhibitor Coagulant Complex (marketed as FEIBA NF) is a plasma-derived product generally used as a bypassing agent in hemophilia patients who have developed inhibitors. The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
-
----
+Anti-inhibitor coagulant complex (marketed in Canada as FEIBA NF) is a plasma-derived coagulation product, but the data compiled for this report do not list an approved indication.
+The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia**,
+yet **no clinical trials and no publications** currently support this direction, so it rests on a computational prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records (generally used as a bypassing agent in hemophilia with inhibitors) |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Glanzmann thrombasthenia |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
@@ -49,63 +49,46 @@ Anti-Inhibitor Coagulant Complex (marketed as FEIBA NF) is a plasma-derived prod
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general knowledge, the product is a plasma-derived activated prothrombin complex concentrate containing factors II, VII, IX and X. It is used to bypass the missing or inhibited clotting factor in hemophilia with inhibitors.
+Currently, detailed mechanism of action data is not available from the source database. Based on general coagulation biology, anti-inhibitor coagulant complex is an activated prothrombin complex concentrate. It contains vitamin K-dependent factors (II, VII, IX and X, including activated forms) that promote thrombin generation.
 
-Glanzmann thrombasthenia is a bleeding disorder in which platelet GPIIb/IIIa function is defective. A plausible, unproven rationale is that the product could promote thrombin generation independently of platelet GPIIb/IIIa, and so help restore haemostasis when platelets cannot aggregate. This is a hypothesis, not evidence from the supplied data. It should be checked against published case reports and registry data on bypassing-agent use before any conclusion.
+Glanzmann thrombasthenia is a platelet disorder in which platelets cannot aggregate because the GPIIb/IIIa receptor is defective or missing. A product that boosts thrombin generation may bypass this defect and help control bleeding. This is plausible mainly for patients who do not respond to platelet transfusion or who have developed anti-platelet antibodies.
 
-The model also ranks a second candidate, primary release disorder of platelets (score 99.22%). It is heterogeneous and poorly defined, and no supporting evidence was supplied, so it is even more speculative.
+This reasoning is a hypothesis. The high score (0.993) is a computational prediction only. Real-world use, such as case reports of bypassing-agent therapy, is not captured in the data compiled for this report. The thrombotic risk known for activated prothrombin complex products has also not been weighed against the potential benefit.
 
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+A second prediction, **primary release disorder of platelets** (score 99.22%), follows a similar bypass logic. It also has no supporting trials or publications.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2202581 | FEIBA NF |
-| 2353903 | FEIBA NF |
-
-Dosage form, manufacturer and approved indication text were not provided for these authorizations.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02202581 | FEIBA NF | Not listed | Not listed |
+| 02353903 | FEIBA NF | Not listed | Not listed |
 
 ## Safety Considerations
 
-- **Thromboembolic risk**: The mechanistic assessment notes that this product carries a thromboembolic risk, which would weigh heavily in any benefit-risk assessment for a new indication. This comes from general knowledge of the product class, not from the supplied label data.
-- **Drug Interactions**: No interaction records were found in the queried database.
+- **Drug Interactions** (5 interactions found):
+  - **Major:** Aminocaproic acid, Aprotinin, Emicizumab, Tranexamic acid
+  - **Moderate:** Coagulation factor VIIa (recombinant human)
 
-Please refer to the package insert for full warnings and contraindications.
+  The major interactions involve antifibrinolytic agents and emicizumab. Combining these with a pro-coagulant product may raise thrombotic risk, so such combinations need careful review.
 
----
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is the TxGNN score (99.31%), with no clinical trials or literature. The mechanism is plausible but unverified, and the product's thromboembolic risk raises the bar for any benefit-risk case.
+The prediction has a plausible mechanistic basis, but there are no clinical trials or publications, and the evidence level is L5 (model prediction only). Label-based safety information is missing, and several major drug interactions are flagged. The thrombotic risk in this patient population has not been assessed.
 
 **To proceed, the following is needed:**
-- A systematic literature search (case reports, registries) on bypassing-agent use in Glanzmann thrombasthenia and platelet release disorders
-- A clinical trial registry search, including ICTRP
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data (e.g., from DrugBank)
-- Route and dosage form compatibility confirmation for the proposed use
+- Health Canada package insert warnings, contraindications and approved indications (needed before safety screening)
+- Mechanism of action data from DrugBank
+- A literature search for case reports or off-label use of bypassing agents in Glanzmann thrombasthenia and platelet release disorders
+- A comparison with standard management (platelet transfusion, recombinant factor VIIa, antifibrinolytics, desmopressin)
+- A thrombotic risk-benefit assessment, including the interaction risks listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

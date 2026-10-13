@@ -2,7 +2,7 @@
 layout: default
 title: Pantothenic Acid
 parent: Model Prediction Only (L5)
-nav_order: 699
+nav_order: 705
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Pantothenic Acid: From Multivitamin Supplementation to Congenital Prothrombin Deficiency
+# Pantothenic Acid: From Ascorbic Acid Deficiency to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Pantothenic acid (vitamin B5) is marketed in Canada as a component of multivitamin products, including prenatal formulations.
-The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but this prediction has **1 loosely related clinical trial** and **no publications**, and no plausible biological link was found.
-
----
+Pantothenic acid (vitamin B5) was originally used for nutritional deficiency conditions, namely ascorbic acid deficiency and scurvy.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but this prediction is **computational only, with no clinical trials and no publications** supporting it.
+Among the other predicted indications, **folic acid deficiency anemia** and **uterine inflammatory disease** have the most (still indirect) supporting literature.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data (the products are multivitamin and prenatal vitamin formulations) |
+| Original Indication | Ascorbic acid deficiency; scurvy (from the TxGNN knowledge graph, as no approved indication text is listed for the Canadian products) |
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
@@ -50,66 +49,70 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 | Number of DINs | 5 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Pantothenic acid is the precursor of coenzyme A (CoA), which is central to energy and lipid metabolism. It is supplied in multivitamin products to prevent or correct nutritional deficiency.
+Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is the precursor of coenzyme A (CoA), which is central to energy and lipid metabolism. It is used to correct vitamin deficiency states, but a mechanistic link to the predicted new indication cannot be established from the data compiled for this report.
 
-Congenital prothrombin deficiency is an inherited bleeding disorder caused by a lack of functional prothrombin (factor II). Pantothenic acid has no known role in prothrombin synthesis or in vitamin K-dependent carboxylation, so the original use and the predicted use are not biologically connected.
+For the top-ranked prediction, congenital prothrombin deficiency, no supporting mechanism was found. It is a genetic coagulation factor disorder, and pantothenic acid has no established role in prothrombin synthesis. The very high score (99.96%) reflects a model output only.
 
-The high TxGNN score therefore looks like an artifact of the knowledge graph rather than a real biological signal. This prediction should not be treated as a credible repurposing lead.
-
----
+Other predictions have somewhat more context:
+- **Folic acid deficiency anemia (score 99.60%)**: B-vitamin deficiencies often occur together, and a 1946 report and a 1986 primate review discuss pantothenic acid and folic acid deficiencies in relation to anemia. This suggests pantothenic acid is a co-factor in nutritional anemia, not a replacement for folic acid, which remains the standard treatment.
+- **Uterine inflammatory disease (score 99.14%)**: One 2026 mouse study reports that pantothenic acid alleviated vagotomy-induced endometrial injury. The model differs from clinical endometritis, and there is no human data.
+- **Glycerol metabolism disease (score 99.77%)**: CoA participates in lipid and glycerol-related metabolism, giving a weak, general rationale. The retrieved papers are profiling studies that do not test pantothenic acid.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02392767](https://clinicaltrials.gov/study/NCT02392767) | N/A | Completed | 25 | Randomised, double-blind, placebo-controlled cross-over study of a multi-ingredient supplement (L-arginine, Pycnogenol, vitamin K2, alpha-lipoic acid, vitamins B6, B12 and folic acid) on endothelial function in mild-to-moderate hypertension. It does not involve a coagulation disorder or prothrombin deficiency (relevance grade C). |
-
----
+Currently no related clinical trials registered for congenital prothrombin deficiency, or for any of the other eight predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for congenital prothrombin deficiency.
 
----
+The literature below relates to other predicted indications and is shown for context.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [21021037](https://pubmed.ncbi.nlm.nih.gov/21021037/) | 1946 | Historical report | Nutrition Reviews | Anemia and granulocytopenia in relation to pantothenic acid and folic acid deficiencies (folic acid deficiency anemia) |
+| [3724048](https://pubmed.ncbi.nlm.nih.gov/3724048/) | 1986 | Review | Laboratory Animal Science | Review of nutritional deficiency anemias in nonhuman primates, including pantothenic acid and folic acid deficiencies |
+| [21929634](https://pubmed.ncbi.nlm.nih.gov/21929634/) | 2011 | Review | Maternal & Child Nutrition | Fortified foods in pregnancy help prevent maternal anemia and iron deficiency; not specific to pantothenic acid |
+| [41223999](https://pubmed.ncbi.nlm.nih.gov/41223999/) | 2026 | Preclinical (mouse) | Mucosal Immunology | Pantothenic acid alleviated vagotomy-induced endometrial injury (uterine inflammatory disease) |
+| [40272030](https://pubmed.ncbi.nlm.nih.gov/40272030/) | 2025 | Case series | Am J Med Genet A | Prenatal brain abnormalities in sodium-dependent multivitamin transporter deficiency, which is treatable with high-dose pantothenic acid, biotin and alpha lipoic acid; not related to the predicted UTI indication |
+
+Five further papers retrieved for glycerol metabolism disease are metabolomics or microbiome profiling studies and do not test pantothenic acid, so they are not listed.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 586315 | MULTI 1000 |
-| 2552639 | PREGVIT FOLIC 5 |
-| 2535718 | PREGNANCY MULTIVITAMIN |
-| 2552620 | PREGVIT |
-| 2537478 | PREGNANCY MULTIVITAMIN FOLIC 5 |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00586315 | MULTI 1000 | Not listed | Not listed |
+| 02552639 | PREGVIT FOLIC 5 | Not listed | Not listed |
+| 02535718 | PREGNANCY MULTIVITAMIN | Not listed | Not listed |
+| 02552620 | PREGVIT | Not listed | Not listed |
+| 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | Not listed | Not listed |
 
-Dosage form, manufacturer and approved indication text are not listed in the licence data.
-
----
+All five licences are valid single-ingredient entries, with none cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text)**: kidney disease, pyoureter, sickle cell anemia, hereditary persistence of fetal hemoglobin, primary hyperoxaluria, hereditary hemochromatosis, hemosiderosis, iron metabolism disease and Wilson disease. These come from model-derived drug-disease edges and need verification against official labelling.
+- **Drug interactions**: No interaction records were found.
 
----
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. No mechanism links pantothenic acid to prothrombin deficiency, and the single trial found tests an unrelated multi-ingredient supplement in hypertension. Evidence is at L5.
+The top prediction, congenital prothrombin deficiency, rests on a model score alone, with no trials, no literature and no plausible mechanism. Evidence is at level L5. Folic acid deficiency anemia and uterine inflammatory disease reach only L4, from historical, review or single-animal-study evidence, so they are better treated as research questions than as repurposing candidates.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph warnings and contraindications for the marketed products
-- Mechanism of action data (for example from DrugBank)
-- A clear original-indication statement from the Canadian licence records
-- A separate review of the other predicted indications. **Folic acid deficiency anemia** (rank 4) is the most plausible one: it has an L4 mechanistic rationale and a favourable safety profile, but the supporting trials are multi-micronutrient studies that cannot isolate the effect of pantothenic acid. **Uterine inflammatory disease** (rank 5) has only mouse-model evidence.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data for pantothenic acid
+- Approved indication text and dosage forms for the Canadian products
+- For uterine inflammatory disease, confirmation of the mouse findings in a model closer to clinical endometritis, followed by human data
+- For folic acid deficiency anemia, clinical data showing a benefit beyond standard folic acid replacement
+- Review of the knowledge-graph contraindications (kidney disease, iron metabolism disorders, Wilson disease and others) against official labelling
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

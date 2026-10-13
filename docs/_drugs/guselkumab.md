@@ -2,7 +2,7 @@
 layout: default
 title: Guselkumab
 parent: Model Prediction Only (L5)
-nav_order: 442
+nav_order: 446
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,80 +33,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Guselkumab is an anti-IL-23 (p19) monoclonal antibody marketed in Canada as Tremfya. The licence data supplied does not list its original indications, but psoriasis is its established use.
-The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but **0 clinical trials** and **0 publications** currently support this prediction.
-
----
+Guselkumab is an IL-23 p19 inhibitor marketed in Canada as TREMFYA, with psoriasis as an established use.
+The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the licence data (psoriasis is an established use in the evidence pack) |
+| Original Indication | Psoriasis (established use of the marketed drug; the Canadian license records compiled for this report contain no indication text) |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.84% (model rank 3,811) |
-| Evidence Level | L5 |
+| TxGNN Prediction Score | 99.84% |
+| Evidence Level | L5 (model prediction only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Guselkumab blocks the p19 subunit of interleukin-23 (IL-23). IL-23 drives the Th17 inflammatory pathway that underlies plaque psoriasis. Detailed mechanism-of-action data is not available from DrugBank in this pack, so this description is based on the drug's known class.
+Guselkumab selectively blocks the p19 subunit of IL-23. This cytokine drives Th17 cell differentiation and the IL-17/IL-22 inflammatory axis, which is central to psoriatic plaque development. IL-23/IL-17 signaling has also been implicated in bone remodeling, which is the only conceptual bridge to osteoporosis.
 
-The link to drug-induced osteoporosis is speculative. The IL-23/IL-17 axis may influence osteoclast formation and inflammatory bone loss. However, no evidence connects IL-23 blockade to bone loss caused by medications such as glucocorticoids. The high TxGNN score reflects a computational pattern in the knowledge graph, not clinical support. The similarity between the original and predicted indications has not yet been assessed.
-
----
+The data compiled for this report do not support a direct link between IL-23 inhibition and drug-induced osteoporosis. No trials, publications, or similarity analysis to the original indication are available. The high TxGNN score (99.84%) reflects a pattern found in the knowledge graph and should not be read as clinical evidence. At this stage the prediction is a hypothesis only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name |
 |---------|------|
-| 2559153 | TREMFYA I.V. |
-| 2559145 | TREMFYA |
-| 2469758 | TREMFYA |
-| 2487314 | TREMFYA ONE-PRESS |
+| 02559153 | TREMFYA I.V. |
+| 02559145 | TREMFYA |
+| 02469758 | TREMFYA |
+| 02487314 | TREMFYA ONE-PRESS |
 
-Dosage form, manufacturer and approved-indication text are not available in the licence records.
-
----
+All four authorizations are valid single-ingredient products. Dosage form and approved indication details are not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions:** 100 interactions are recorded. The most notable are listed below.
+  - **Major:** adalimumab.
+  - **Moderate:** warfarin, apixaban, rivaroxaban, dicoumarol, simvastatin, tacrolimus, theophylline, aminophylline, oxtriphylline, roflumilast, nifedipine, lidocaine, fentanyl, hydrocodone, and the tetanus toxoid vaccine.
+  - **Minor:** zinc salts (sulfate, acetate, gluconate, chloride).
 
----
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no trials, no literature and no established mechanism linking IL-23 blockade to drug-induced osteoporosis. This is the lowest evidence level (L5).
+The prediction rests on a model score alone, with no clinical trials, no literature, and no clear mechanistic link between IL-23 blockade and drug-induced osteoporosis. Evidence is at the lowest level (L5).
 
-Two other predictions in this pack, psoriasis and ulcerative colitis, do have Phase 3 support (L1). Both are already established uses of guselkumab, so they are not new repurposing signals.
+For context, the same analysis found far better-supported predictions for this drug:
+- **Psoriasis** (L1, Proceed with Guardrails): this is already an approved use, so it confirms existing use rather than repurposing.
+- **Ulcerative colitis** (L1, Proceed with Guardrails): supported by Phase 2b/3 (QUASAR) and Phase 3 (ASTRO) trials.
+
+These two are better candidates for further evaluation than drug-induced osteoporosis.
 
 **To proceed, the following is needed:**
-- Preclinical or mechanistic evidence that IL-23 inhibition affects bone loss, particularly drug-induced (for example glucocorticoid-related) bone loss
-- Bone-density or fracture data from patients already treated with guselkumab, such as those with psoriasis, psoriatic arthritis or IBD
-- The Health Canada product monograph, to establish warnings, contraindications and approved indications
-- A defined target population within drug-induced osteoporosis, and a check of route and dosing compatibility
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Preclinical or mechanistic evidence linking IL-23/IL-17 signaling to bone loss in drug-induced osteoporosis
+- A literature review for any clinical or observational signal on bone outcomes in patients treated with IL-23 inhibitors
+- Package insert warnings and contraindications for the Canadian products
+- Detailed mechanism of action data and a similarity analysis against the original indication
+- Confirmation of the approved indication text for each DIN
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

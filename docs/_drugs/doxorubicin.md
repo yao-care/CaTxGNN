@@ -2,7 +2,7 @@
 layout: default
 title: Doxorubicin
 parent: High Evidence (L1-L2)
-nav_order: 302
+nav_order: 304
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Doxorubicin: From Established Anthracycline Chemotherapy to Ewing Sarcoma
+# Doxorubicin: From Lymphoma and Leukemia to Ewing Sarcoma
 
 ## One-Sentence Summary
 
-Doxorubicin is an anthracycline chemotherapy drug marketed in Canada. Its original approved indication is not recorded in the licence data provided.
-The TxGNN model predicts it may be effective for **Ewing sarcoma**, with **48 clinical trials** and **20 publications** currently supporting this direction.
-Doxorubicin is already a backbone drug in standard Ewing sarcoma regimens (VDC/IE), so this prediction mainly confirms existing practice rather than proposing a new use.
+Doxorubicin is an anthracycline chemotherapy drug originally used for acute lymphoblastic leukemia, Hodgkin and non-Hodgkin lymphoma, mantle cell lymphoma and related blood cancers.
+The TxGNN model predicts it may be effective for **Ewing sarcoma**, with **28 clinical trials** and **20 publications** currently supporting this direction.
+Doxorubicin is already part of standard multi-agent Ewing sarcoma regimens, so this prediction is closer to confirming an existing practice than to discovering a new use.
 
 ---
 
@@ -43,7 +43,7 @@ Doxorubicin is already a backbone drug in standard Ewing sarcoma regimens (VDC/I
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Canadian licence data (established anthracycline anticancer agent) |
+| Original Indication | Acute lymphoblastic leukemia, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma (approved-indication text for Canadian licences is not available; the original indications come from the TxGNN knowledge graph) |
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L1 |
@@ -55,30 +55,30 @@ Doxorubicin is already a backbone drug in standard Ewing sarcoma regimens (VDC/I
 
 ## Why is This Prediction Reasonable?
 
-Doxorubicin is a topoisomerase II inhibitor and DNA intercalator. It causes DNA double-strand breaks in rapidly dividing tumour cells. The DrugBank record supplied lists no original indications or mechanism entry. This is a database gap, not evidence against use.
+Doxorubicin is a topoisomerase II poison and DNA intercalator. It damages DNA in rapidly dividing cells, which makes it active against fast-growing small round cell sarcomas such as Ewing sarcoma. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on well-established pharmacology.
 
-Ewing sarcoma is an aggressive bone and soft tissue tumour of children, adolescents and young adults. Standard treatment combines vincristine, doxorubicin and cyclophosphamide (VDC) alternating with ifosfamide and etoposide (IE), together with surgery and/or radiotherapy. Many of the trials below use doxorubicin as part of this backbone. Others test add-on agents on top of it, so doxorubicin's independent contribution cannot always be isolated.
+Its original indications (leukemias and lymphomas) are also fast-proliferating cancers that respond to DNA-damaging chemotherapy. In Ewing sarcoma, doxorubicin is a backbone of standard regimens such as VDC/IE (vincristine, doxorubicin, cyclophosphamide alternating with ifosfamide and etoposide) and VAC. Several Phase 3 randomized trials of these regimens include doxorubicin, including interval-compressed chemotherapy studies, EURO-EWING 99 and a ganitumab combination trial.
 
-The main safety concern is cumulative cardiotoxicity, which requires dose caps and cardiac monitoring.
+The main limitation is that most of these trials test the whole regimen or an added drug, not doxorubicin alone, so its individual contribution is hard to isolate.
 
 ---
 
 ## Clinical Trial Evidence
 
-The 10 most relevant of 48 retrieved trials are listed below. Relevance grades come from the Evidence Pack where available.
+The table lists the 10 most relevant of the trials compiled for Ewing sarcoma.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02063022](https://clinicaltrials.gov/study/NCT02063022) | Phase 3 | Completed | 278 | Dose intensification vs standard treatment in non-metastatic Ewing sarcoma; disease-specific, anthracycline-containing chemotherapy is the core backbone (grade A) |
-| [NCT01231906](https://clinicaltrials.gov/study/NCT01231906) | Phase 3 | Completed | 642 | Adding vincristine-topotecan-cyclophosphamide to a standard 5-drug regimen (including doxorubicin) in non-metastatic Ewing sarcoma |
-| [NCT00006734](https://clinicaltrials.gov/study/NCT00006734) | Phase 3 | Completed | 587 | Chemotherapy intensification through interval compression in Ewing sarcoma and related tumours |
-| [NCT00020566](https://clinicaltrials.gov/study/NCT00020566) | Phase 3 | Unknown | 1200 | EURO-E.W.I.N.G.99: randomised European study of chemotherapy with radiotherapy, surgery and/or stem cell transplantation in Ewing sarcoma |
-| [NCT02306161](https://clinicaltrials.gov/study/NCT02306161) | Phase 3 | Active, not recruiting | 312 | Ganitumab added to multiagent chemotherapy (including doxorubicin) in newly diagnosed metastatic Ewing sarcoma |
-| [NCT00002516](https://clinicaltrials.gov/study/NCT00002516) | Phase 3 | Unknown | N/A | EICESS 92: randomised comparison of combination chemotherapy regimens plus surgery and radiotherapy |
-| [NCT00002898](https://clinicaltrials.gov/study/NCT00002898) | Phase 3 | Completed | 400 | MMT 95: childhood rhabdomyosarcoma and other soft tissue tumours; only partly overlaps with Ewing sarcoma (grade B) |
-| [NCT06669013](https://clinicaltrials.gov/study/NCT06669013) | Phase 3 | Recruiting | 40 | Dinutuximab beta with investigator's choice chemotherapy in GD2-positive sarcomas; doxorubicin's contribution cannot be isolated (grade B) |
-| [NCT06820957](https://clinicaltrials.gov/study/NCT06820957) | Phase 2/3 | Active, not recruiting | 2 | Vincristine-irinotecan-regorafenib added to VDC/IE in newly diagnosed metastatic Ewing sarcoma |
-| [NCT01946529](https://clinicaltrials.gov/study/NCT01946529) | Phase 2 | Completed | 24 | Ewing sarcoma family tumours and desmoplastic small round cell tumour; disease-relevant but small (grade B) |
+| [NCT00006734](https://clinicaltrials.gov/study/NCT00006734) | Phase 3 | Completed | 587 | Interval-compressed chemotherapy compared with standard regimens in Ewing sarcoma and related tumors |
+| [NCT01231906](https://clinicaltrials.gov/study/NCT01231906) | Phase 3 | Completed | 642 | Adding vincristine-topotecan-cyclophosphamide to a standard 5-drug regimen (including doxorubicin) in non-metastatic disease |
+| [NCT02063022](https://clinicaltrials.gov/study/NCT02063022) | Phase 3 | Completed | 278 | Standard vs. intensified treatment in non-metastatic Ewing sarcoma |
+| [NCT00020566](https://clinicaltrials.gov/study/NCT00020566) | Phase 3 | Unknown | 1200 | EURO-E.W.I.N.G.99: chemotherapy with or without radiotherapy, surgery or stem cell transplantation |
+| [NCT02306161](https://clinicaltrials.gov/study/NCT02306161) | Phase 3 | Active, not recruiting | 312 | Ganitumab added to multi-agent chemotherapy in metastatic Ewing sarcoma |
+| [NCT00002516](https://clinicaltrials.gov/study/NCT00002516) | Phase 3 | Unknown | Not reported | EICESS 92: comparison of combination chemotherapy regimens plus surgery and radiotherapy |
+| [NCT00038142](https://clinicaltrials.gov/study/NCT00038142) | Phase 2 | Terminated | 46 | Randomized VAC with dexrazoxane, with or without ImmTher, in high-risk disease; terminated early |
+| [NCT00003667](https://clinicaltrials.gov/study/NCT00003667) | Phase 2 | Completed | Not reported | Randomized VAC with dexrazoxane, with or without ImmTher, in newly diagnosed high-risk disease |
+| [NCT00002466](https://clinicaltrials.gov/study/NCT00002466) | Phase 2 | Completed | Not reported | Multi-agent regimen including doxorubicin followed by resection and radiotherapy |
+| [NCT01864109](https://clinicaltrials.gov/study/NCT01864109) | Phase 2 | Active, not recruiting | 83 | Irinotecan and temozolomide added to alkylator-based chemotherapy; doxorubicin is part of the background regimen |
 
 ---
 
@@ -86,30 +86,30 @@ The 10 most relevant of 48 retrieved trials are listed below. Relevance grades c
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | RCT | N Engl J Med | Tested whether adding ifosfamide and etoposide to standard chemotherapy improves survival in newly diagnosed Ewing sarcoma and primitive neuroectodermal tumour of bone |
-| [36522207](https://pubmed.ncbi.nlm.nih.gov/36522207/) | 2022 | RCT | Lancet | EE2012: open-label phase 3 comparing the two standard chemotherapy strategies used in Europe and the USA |
-| [36669140](https://pubmed.ncbi.nlm.nih.gov/36669140/) | 2023 | RCT | J Clin Oncol | Children's Oncology Group phase 3 of ganitumab added to interval-compressed chemotherapy in metastatic Ewing sarcoma |
-| [23091096](https://pubmed.ncbi.nlm.nih.gov/23091096/) | 2012 | RCT | J Clin Oncol | Children's Oncology Group trial of interval-compressed chemotherapy (alternating VDC and IE) in localised Ewing sarcoma |
-| [31952545](https://pubmed.ncbi.nlm.nih.gov/31952545/) | 2020 | RCT protocol | Trials | EURO EWING 2012 protocol comparing two induction/consolidation chemotherapy regimens |
-| [37403815](https://pubmed.ncbi.nlm.nih.gov/37403815/) | 2023 | Consensus guideline | Cancer | National Ewing Sarcoma Tumor Board recommendations on standard-of-care management |
-| [26304893](https://pubmed.ncbi.nlm.nih.gov/26304893/) | 2015 | Review | J Clin Oncol | Current management: risk-adapted intensive chemotherapy plus surgery and/or radiotherapy |
-| [20152770](https://pubmed.ncbi.nlm.nih.gov/20152770/) | 2010 | Review | Lancet Oncol | Chemotherapy raised survival from about 10% to about 75% in localised disease; metastatic disease still fares badly |
-| [1833556](https://pubmed.ncbi.nlm.nih.gov/1833556/) | 1991 | Cohort | J Natl Cancer Inst | Dose-intensity analysis of published trials, examining doxorubicin dose intensity against response and outcome in osteosarcoma and Ewing sarcoma |
-| [28710342](https://pubmed.ncbi.nlm.nih.gov/28710342/) | 2017 | Retrospective review | Oncologist | Vincristine, ifosfamide and doxorubicin (VID) for initial treatment of Ewing sarcoma in adults at a single institution |
+| [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | RCT | N Engl J Med | Adding ifosfamide and etoposide to standard chemotherapy in newly diagnosed Ewing sarcoma and PNET of bone |
+| [36522207](https://pubmed.ncbi.nlm.nih.gov/36522207/) | 2022 | RCT | Lancet | EE2012: open-label Phase 3 comparison of two chemotherapy strategies |
+| [36669140](https://pubmed.ncbi.nlm.nih.gov/36669140/) | 2023 | RCT | J Clin Oncol | Ganitumab with interval-compressed chemotherapy in metastatic Ewing sarcoma (Children's Oncology Group) |
+| [23091096](https://pubmed.ncbi.nlm.nih.gov/23091096/) | 2012 | RCT | J Clin Oncol | Interval-compressed chemotherapy for localized Ewing sarcoma |
+| [31952545](https://pubmed.ncbi.nlm.nih.gov/31952545/) | 2020 | RCT protocol | Trials | EURO EWING 2012 protocol comparing induction and consolidation regimens |
+| [37403815](https://pubmed.ncbi.nlm.nih.gov/37403815/) | 2023 | Review | Cancer | Consensus recommendations on Ewing sarcoma management from the National Ewing Sarcoma Tumor Board |
+| [26304893](https://pubmed.ncbi.nlm.nih.gov/26304893/) | 2015 | Review | J Clin Oncol | Current management and future approaches to Ewing sarcoma |
+| [25993235](https://pubmed.ncbi.nlm.nih.gov/25993235/) | 2015 | Review | ASCO Educ Book | Systemic therapy for osteosarcoma and Ewing sarcoma |
+| [1833556](https://pubmed.ncbi.nlm.nih.gov/1833556/) | 1991 | Dose-intensity analysis | J Natl Cancer Inst | Doxorubicin dose intensity in relation to response and outcome in osteogenic and Ewing sarcoma |
+| [30231396](https://pubmed.ncbi.nlm.nih.gov/30231396/) | 2018 | Review | ASCO Educ Book | Predicting and preventing anthracycline-related cardiotoxicity |
 
 ---
 
 ## Canada Market Information
 
-Seven DINs are on record; five are shown. Dosage forms and approved indication text were not available in the data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02194465 | Doxorubicin Hydrochloride for Injection USP | Not listed | Not listed |
+| 02194473 | Doxorubicin Hydrochloride for Injection USP | Not listed | Not listed |
+| 02410397 | Doxorubicin | Not listed | Not listed |
+| 02238389 | Caelyx (liposomal doxorubicin) | Not listed | Not listed |
+| 02493020 | Taro-Doxorubicin Liposomal | Not listed | Not listed |
 
-| DIN | Product Name |
-|---------|------|
-| 02194465 | Doxorubicin Hydrochloride for Injection USP |
-| 02194473 | Doxorubicin Hydrochloride for Injection USP |
-| 02410397 | Doxorubicin |
-| 02238389 | Caelyx (liposomal doxorubicin) |
-| 02493020 | Taro-Doxorubicin Liposomal |
+Seven single-ingredient licences are valid in Canada; the five above are shown, and none has been cancelled.
 
 ---
 
@@ -118,16 +118,20 @@ Seven DINs are on record; five are shown. Dosage forms and approved indication t
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (anthracycline; topoisomerase II inhibitor and DNA intercalator) |
-| Myelosuppression Risk | High (neutropenia is the main dose-limiting haematological toxicity) |
-| Emetogenicity Classification | Moderate; high when combined with cyclophosphamide, as in VDC |
-| Monitoring Items | CBC with differential, liver and renal function, cardiac function (baseline and serial LVEF), cumulative anthracycline dose |
+| Myelosuppression Risk | High (neutropenia, leukopenia, thrombocytopenia and anemia are listed among the knowledge-graph contraindications) |
+| Emetogenicity Classification | Moderate to high at typical combination doses; please refer to the package insert |
+| Monitoring Items | CBC with differential, liver function (including bilirubin), renal function, and cardiac function (baseline and serial echocardiography or LVEF; cumulative dose tracking) |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the Evidence Pack. Cumulative dose-related cardiotoxicity is the key known concern for this drug class.
+- **Contraindications (from the TxGNN knowledge graph, not label text)**: The graph links doxorubicin to liver failure and liver disease, hyperbilirubinemia, thrombocytopenia, neutropenia, leukopenia, agranulocytosis, anemia, heart disease, cardiovascular disease, cardiomyopathy, congestive heart failure and heart failure, heart conduction disease, sudden cardiac arrest, and infectious disease including fungal infection. These should be checked against the Health Canada label.
+- **Cardiotoxicity guardrails**: Cumulative dose limits and cardiac monitoring are needed, with consideration of dexrazoxane cardioprotection. The literature compiled for this report also highlights anthracycline-related cardiotoxicity.
+- **Drug Interactions**: 100 interactions were found. The ones shown include:
+  - **Major**: dolasetron, cisapride, papaverine
+  - **Moderate**: aprepitant, ondansetron, granisetron, palonosetron, rolapitant, dexamethasone, clarithromycin, levofloxacin, famotidine, loperamide, eliglustat, metreleptin, troglitazone, picosulfuric acid, polyethylene glycol with electrolytes
 
 ---
 
@@ -136,16 +140,18 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-At least four completed Phase 3 trials (NCT02063022, NCT01231906, NCT00006734, NCT00002898) and several RCT publications place doxorubicin-containing regimens as standard care in Ewing sarcoma. The guardrails are the drug's cumulative cardiotoxicity, myelosuppression, and the fact that few trials isolate doxorubicin's own contribution.
+Multiple completed Phase 3 randomized trials of regimens containing doxorubicin support its use in Ewing sarcoma, and the regimens (VDC/IE, VAC) are established standard care. The drug is marketed in Canada, but cumulative cardiotoxicity and myelosuppression require strict safety controls.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph warnings and contraindications, which are missing from the Evidence Pack
-- Confirmation of the approved indications and dosage forms for each Canadian DIN
-- A cardiac monitoring plan with a cumulative dose cap
-- Protocol-level confirmation of the doxorubicin dose and schedule in the key Phase 3 trials
-- Mechanism of action data in DrugBank
+- Health Canada label warnings, contraindications and approved-indication text, which were not available in the data compiled for this report
+- Mechanism of action data from DrugBank
+- Evidence isolating doxorubicin's own contribution within multi-drug regimens
+- A cardiac monitoring plan (baseline and serial echocardiography, cumulative dose limits, dexrazoxane consideration)
+- A review of the major drug interactions against the intended supportive-care medicines (for example antiemetics)
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before application.*
+**Other predicted indications (for reference):**
+- **Pulmonary blastoma and rhabdomyosarcoma**: Doxorubicin has plausible activity, with a Phase 3 trial under way for pleuropulmonary blastoma and large Phase 3 soft-tissue sarcoma trials relevant to rhabdomyosarcoma. These are research questions or need guardrails, and doxorubicin is not the standard backbone for pediatric rhabdomyosarcoma.
+- **Chronic myelogenous leukemia, monocytic leukemia, primary pulmonary lymphoma, other rhabdomyosarcoma subtypes, ganglioneuroblastoma, and a rare lung tumor (well-differentiated fetal adenocarcinoma)**: Evidence is limited to case reports, preclinical work or indirect trials, so these should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Edaravone
 parent: Model Prediction Only (L5)
-nav_order: 311
+nav_order: 313
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Edaravone: From Its Marketed Use (RADICAVA) to Heparin Cofactor 2 Deficiency
+# Edaravone: From Ischemic Stroke and ALS to Heparin Cofactor 2 Deficiency
 
 ## One-Sentence Summary
 
-Edaravone is marketed in Canada as RADICAVA, but the supplied data does not include its approved indication text.
-The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. It is a model prediction only.
+Edaravone was originally used to treat ischemic stroke and amyotrophic lateral sclerosis (ALS).
+The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not provided in the supplied data |
+| Original Indication | Ischemic stroke, stroke disorder, amyotrophic lateral sclerosis (from the knowledge graph; no approved indication text is available for the Canadian licence) |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 99.47% |
 | Evidence Level | L5 |
@@ -48,15 +49,13 @@ The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
-A second prediction, factor 5 excess with spontaneous thrombosis (score 99.06%), is also at L5 with a Hold recommendation and no supporting trials or literature.
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Edaravone is generally described as a free radical scavenger, so a link to oxidative stress in thrombosis-related endothelium is conceivable. This is an inference, not something the supplied data supports.
+Currently, detailed mechanism of action data is not available. Based on known information, edaravone is a free radical scavenger with antioxidant and endothelial-protective properties. Its efficacy has been established in ischemic stroke and ALS, and it may theoretically influence oxidative stress related to thrombosis.
 
-Heparin cofactor 2 deficiency is a deficiency of a serpin, a dermatan sulfate-dependent thrombin inhibitor. Nothing in the supplied data shows that edaravone acts on this pathway. The same applies to the second prediction: a genetic prothrombotic state driven by coagulation factor activity is not a process edaravone is known to modulate.
+Heparin cofactor 2 deficiency is a hereditary defect in thrombin inhibition (dermatan sulfate-dependent). A radical scavenger would not correct the underlying serpin deficiency. The link between the original indications and this predicted indication is therefore indirect and unverified, and the high score (99.47%) reflects a graph-based pattern, not documented biology.
 
-The high score reflects proximity in the knowledge graph. It is not evidence of clinical efficacy.
+A second prediction, **factor 5 excess with spontaneous thrombosis** (score 99.06%), has the same limitations. It also has no supporting trials or literature, and edaravone has no known effect on factor V levels or on the coagulation cascade.
 
 ## Clinical Trial Evidence
 
@@ -68,28 +67,27 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2532611 | RADICAVA |
-
-Dosage form and approved indication text are not available in the supplied data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02532611 | RADICAVA | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on knowledge-graph proximity (L5). There are no trials or publications, no mechanism data, and no plausible direct link between edaravone and the coagulation pathways involved. Safety information is also missing.
+The prediction is supported only by a computational score. There are no clinical trials or publications, the mechanism of action is not documented, and the plausible biological link is weak. Edaravone would not be expected to correct a hereditary serpin deficiency.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings, contraindications, approved indication), which blocks safety screening
-- Mechanism of action data for edaravone, for example from DrugBank
-- A systematic literature and trial search on edaravone in thrombosis and serpin or coagulation disorders
-- Route of administration compatibility assessment for the predicted indications
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Documented mechanism of action data for edaravone
+- Preclinical or mechanistic evidence linking edaravone to heparin cofactor II function or thrombin inhibition
+- A literature and trial search specific to heparin cofactor 2 deficiency
+- Assessment of route compatibility between the marketed formulation and the proposed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

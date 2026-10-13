@@ -2,7 +2,7 @@
 layout: default
 title: Imiquimod
 parent: Model Prediction Only (L5)
-nav_order: 470
+nav_order: 475
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,105 +29,106 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Imiquimod: From Approved Topical Use to Pre-malignant Neoplasm
+# Imiquimod: From Common Wart and Actinic Keratosis to Pre-malignant Neoplasm
 
 ## One-Sentence Summary
 
-Imiquimod is a topical immune-response modifier (a TLR7 agonist) marketed in Canada under four licences. The approved indication text was not included in the input data.
-The TxGNN model predicts it may be effective for **pre-malignant neoplasm**, an umbrella term. The supporting evidence is lesion-specific: cervical, vulvar and anal intraepithelial neoplasia, actinic keratosis and related lesions.
-**19 clinical trials** and **9 publications** are listed for this prediction, but most trials are small, early-phase or terminated, and only a few are directly relevant.
+Imiquimod is a topical immune response modifier, originally used for skin and HPV-related conditions such as common warts, anogenital HPV infection, superficial basal cell carcinoma, and actinic keratosis.
+The TxGNN model predicts it may be effective for **pre-malignant neoplasm**,
+with **2 clinical trials** and **9 publications** currently supporting this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Common wart, anogenital HPV infection, superficial multifocal basal cell carcinoma, actinic keratosis (the original-indication list is drawn from the TxGNN knowledge graph; the Canadian licence records contain no indication text) |
 | Predicted New Indication | Pre-malignant neoplasm |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 (see note below) |
+| Evidence Level | L1 (as assigned in the compiled data; see the note in the conclusion) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
-*Note on evidence level:* The pack's automated scoring assigns L1. Under the stated rules, L1 needs at least two completed Phase 3 RCTs. Only NCT01720407 (Phase 3, completed) may qualify, and its randomised design is not confirmed in the data. The other completed Phase 3 trial (NCT00175643) is open-label with 20 participants. The Phase 3 cervical trial (NCT02329171) was terminated after 9 participants. A completed randomised Phase 2 trial also exists (NCT03233412). L2 is therefore the more defensible level.
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, imiquimod activates Toll-like receptor 7 and induces local innate and adaptive antitumour immunity (interferon-alpha, TNF-alpha, IL-12 and a Th1 response). This is a plausible way to clear dysplastic or pre-malignant epithelium, particularly HPV-associated or UV-associated lesions.
+Imiquimod is a Toll-like receptor 7 (TLR7) agonist. When applied to the skin, it induces local release of type I interferon and pro-inflammatory cytokines, which in turn activates innate and adaptive anti-tumour and antiviral immunity. Detailed mechanism-of-action data were not otherwise available in the compiled data, so this description comes from the mechanistic rationale in the evidence review.
 
-The evidence supports specific lesions rather than the umbrella category. The trials cover high-grade cervical intraepithelial neoplasia, vulvar intraepithelial neoplasia, actinic keratosis and actinic cheilitis. The literature includes Cochrane reviews of anal and vulvar intraepithelial neoplasia and reviews of topical therapy for actinic keratosis. Any recommendation should name the specific lesion.
+Many of imiquimod's known uses are already pre-malignant or HPV-driven epithelial lesions. Actinic keratosis, for example, is a pre-malignant skin lesion and one of its original indications. The same immune mechanism plausibly applies to related intraepithelial neoplasias, namely vulval (VIN), cervical (CIN), and anal canal (AIN) intraepithelial neoplasia. Cochrane reviews of VIN and AIN, reviews of topical treatment for non-melanoma skin cancer, and case reports support this use.
 
-The TxGNN score is consistent with the trial and literature signal but is not evidence in itself. Because the approved indications are not in the input, overlap between the original and new indications cannot be confirmed here.
+Note that "pre-malignant neoplasm" is a broad umbrella term. Evidence differs considerably between lesion types, so the prediction should be read lesion by lesion rather than as a single claim.
+
+---
 
 ## Clinical Trial Evidence
 
-No trial results are included in the data; findings below reflect study design and stated purpose.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Phase 3 | Completed | 259 | Imiquimod as neo-adjuvant treatment before excision of facial lentigo maligna (intraepidermal melanocytic proliferation). Strongest direct Phase 3 signal. |
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Phase 2 | Completed | 90 | Randomised trial of topical imiquimod in high-grade cervical intraepithelial lesions. |
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | Terminated | 9 | Randomised trial of topical imiquimod versus loop excision for high-grade CIN. Only 9 participants, so underpowered and cannot support efficacy conclusions. |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | Completed | 20 | Open-label study of imiquimod 5% cream for actinic keratoses on the head; assesses duration of effect. |
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Phase 4 | Unknown | 20 | Imiquimod 3.75% cream after cryotherapy for hypertrophic actinic keratoses on hands and forearms. |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Phase 1 | Terminated | 49 | Randomised comparison of 5% imiquimod, 0.05% imiquimod and 0.05% nanoencapsulated imiquimod gel in actinic cheilitis. |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Phase 2 | Completed | 5 | Explorative study of immune escape and imiquimod effects in vulvar intraepithelial neoplasia 2/3 and anogenital warts. |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Early Phase 1 | Completed | 16 | Pilot of neoadjuvant imiquimod (Aldara) in early-stage oral squamous cell carcinoma. Proof-of-concept and an established cancer, not a pre-malignant lesion. |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Phase 3 | Unknown | 145 | Non-inferiority trial of surgical excision versus curettage plus imiquimod for nodular basal cell carcinoma. Malignant rather than pre-malignant, so indirect. |
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Phase 3 | Completed | 20 | Open-label, single-arm study of imiquimod 5% cream three days per week in actinic keratoses on the head, assessing how long the effect lasts. Small and uncontrolled, so supportive but not definitive. |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Phase 3 | Terminated | 9 | Randomised trial of topical imiquimod versus standard excision (LLETZ) for high-grade cervical intraepithelial neoplasia. Stopped after only 9 participants, so underpowered and unable to support efficacy conclusions. |
+
+---
 
 ## Literature Evidence
 
-The abstracts in the input are truncated, so the notes below describe scope rather than outcomes.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
+|------|-----|------|------|---------|
 | [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Interventions for anal canal intraepithelial neoplasia, a pre-malignant HPV-associated condition. |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Medical interventions for high-grade vulval intraepithelial neoplasia. |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Lett | Current management of actinic keratoses, including topical field therapies. |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Semin Cutan Med Surg | Topical strategies (fluorouracil, diclofenac, imiquimod, photodynamic therapy) for non-melanoma skin cancer and precursor lesions. |
-| [37817570](https://pubmed.ncbi.nlm.nih.gov/37817570/) | 2024 | Scoping review | Br J Clin Pharmacol | Off-label imiquimod in oral mucosal diseases; reported effectiveness across several conditions, described as promising. |
-| [38867102](https://pubmed.ncbi.nlm.nih.gov/38867102/) | 2024 | Review | Evid Based Dent | Scoping review of the safety of off-label imiquimod in oral lesions. |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Case report | Int J STD AIDS | Successful imiquimod 5% treatment of high-grade vulval intra-epithelial neoplasia in a renal transplant recipient. |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Case report | Int J STD AIDS | Bowenoid papulosis of the penis cleared with topical imiquimod 5%, well tolerated. |
-| [12719972](https://pubmed.ncbi.nlm.nih.gov/12719972/) | 2003 | Case report (adverse event) | Med Microbiol Immunol | Malignant conversion of florid oral and labial papillomatosis during topical imiquimod. |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Medical interventions for high-grade vulval intraepithelial neoplasia, where surgery has high morbidity and relapse. |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | Int J Mol Sci | Combined treatments with photodynamic therapy for non-melanoma skin cancer. |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Review | Skin Therapy Lett | Current management of actinic keratoses, a pre-malignant lesion that can progress to squamous cell carcinoma. |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Review | Semin Cutan Med Surg | Topical strategies, including imiquimod, for non-melanoma skin cancer and precursor lesions. |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Case report | Int J STD AIDS | Successful imiquimod 5% treatment of high-grade VIN in a renal transplant recipient. |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Case report | Int J STD AIDS | Clearance of penile bowenoid papulosis with imiquimod 5% cream. |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Preclinical | Urol Oncol | Rat pharmacokinetic and pharmacodynamic study of intravesical TLR7 agonists (TMX-101 and TMX-202, not imiquimod itself). |
+
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2482983 | TARO-IMIQUIMOD PUMP |
-| 2365561 | VYLOMA |
-| 2340445 | ZYCLARA |
-| 2239505 | ALDARA P |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02482983 | TARO-IMIQUIMOD PUMP | Not specified | Not specified |
+| 02365561 | VYLOMA | Not specified | Not specified |
+| 02340445 | ZYCLARA | Not specified | Not specified |
+| 02239505 | ALDARA P | Not specified | Not specified |
 
-Dosage form and approved indication text are not included in the input data.
+All four products are valid single-ingredient authorisations; none are cancelled.
+
+---
+
+## Cytotoxicity
+
+Imiquimod is used for skin cancer and pre-cancerous lesions, but it is an immune response modifier rather than a conventional cytotoxic chemotherapy agent. Detailed cytotoxicity and handling data were not available in the compiled data, so please refer to the package insert warnings and precautions.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for warnings, contraindications and drug interactions. Health Canada package insert data was not available, and no drug-interaction records were found.
+- **Contraindications suggested by the knowledge graph** (these come from drug-disease graph edges, not from label text): photoparoxysmal response, photosensitivity disease, autoimmune disease, graft versus host disease, and sunburn.
+- **Drug interactions**: The interaction screen identified 59 potential interacting drugs, none with an assigned severity level. Examples include pantoprazole, omeprazole, lansoprazole, morphine, prednisone, prednisolone, simvastatin, warfarin, clopidogrel, hydroxychloroquine, and ibuprofen.
+- **Reported adverse events in the literature**: case reports describe malignant conversion of florid oral papillomatosis during imiquimod treatment, erythema multiforme, and lichen planopilaris after imiquimod use.
 
-Signals from the retrieved literature:
-- **Malignant conversion:** One case report describes malignant conversion of florid oral papillomatosis during topical imiquimod (PMID 12719972).
-- **Oral off-label use:** A 2024 review specifically examines the safety of off-label imiquimod in oral lesions (PMID 38867102).
-- **Skin reactions:** Case reports describe lichen planopilaris and erythema multiforme after imiquimod in patients with Gorlin syndrome.
+Package insert warnings and contraindications were not available in the compiled data. Please refer to the Health Canada package insert for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is plausible, and trials and reviews exist for specific pre-malignant lesions (cervical, vulvar and anal intraepithelial neoplasia, actinic keratosis). The direct evidence is thin: the only large completed Phase 3 trial addresses lentigo maligna, the Phase 3 cervical trial was terminated at 9 participants, and the other trials are small or early-phase. Any use should be restricted to a named lesion type.
+The mechanism is well understood and is already validated clinically in actinic keratosis, an original indication. Cochrane reviews and case reports support use in related intraepithelial neoplasias. However, the trial evidence is weak: one small single-arm study (n=20) and one terminated randomised trial (n=9). The L1 label assigned in the compiled data is generous. Neither trial meets the usual standard of at least two completed Phase 3 randomised trials, and the data also show that evidence varies widely across the lesion types within this broad category. The product is already marketed in Canada, which lowers the barrier to further work.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Approved indication text and dosage forms for the four DINs, to confirm overlap with existing labelling
-- Confirmation of the design and exact lesion type of NCT01720407, and of the target conditions of NCT01229319 and NCT04883645
-- A lesion-specific selection (for example high-grade CIN, VIN or actinic keratosis) before any development step
-- Mechanism of action data from DrugBank
-- Safety review for mucosal sites, given the oral malignant-conversion report
-
-**Other predicted indications (ranks 2–10):** Only "benign neoplasm of buccal mucosa" has any literature (scoping review, animal models, case reports, and a safety signal), and it stays a research question. "Odontogenic cyst" and "cystic neoplasm" have only tangential literature. The other six have no trials or literature and should be held as prediction-only signals.
-
-*This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications, which are currently missing and block formal safety screening.
+- Narrowing the broad "pre-malignant neoplasm" category to specific lesion types (such as VIN, CIN, or AIN) and gathering lesion-specific efficacy data.
+- Adequately powered randomised trials in the chosen lesion types, since the existing trials are small or terminated.
+- Review of safety signals, including the autoimmune and photosensitivity-related contraindications flagged by the knowledge graph, and the reported cases of malignant conversion and skin reactions.
+- Confirmation of the approved indications, dosage forms, and routes for the four Canadian products.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

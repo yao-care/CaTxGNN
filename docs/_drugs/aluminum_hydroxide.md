@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aluminum Hydroxide
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 43
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Aluminum Hydroxide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Aluminum Hydroxide: From Antacid Use to Active Peptic Ulcer Disease
+# Aluminum Hydroxide: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Aluminum hydroxide is an antacid, and the Health Canada labels supplied contain no approved-indication text, so the original indication is inferred rather than confirmed. The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but there are **0 registered clinical trials** and **20 publications** on this indication. Most of the publications are older reviews and mechanistic studies, with one small randomized trial. This is most likely an established antacid use rather than true repurposing.
-
----
+Aluminum hydroxide is an antacid originally used for acid-related stomach and oesophageal conditions such as gastric ulcer, peptic ulcer disease, reflux disease and dyspepsia.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this largely overlaps with its existing uses, and the **0 clinical trials** and **9 mostly indirect publications** found offer only limited support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the label data provided (likely antacid use) |
+| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia, duodenal ulcer (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.64% |
-| Evidence Level | L2 (the one RCT has no Phase label and is a 1981 study of a combination regimen, so this grading is borderline) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on the literature, aluminum hydroxide neutralizes gastric acid, raises intragastric pH and inhibits pepsin activity. Several studies also describe a cytoprotective, ulcer-healing effect beyond simple buffering. The proposed pathways are stimulation of endogenous prostaglandins and epidermal growth factor. These findings come mainly from rat models and small human pharmacology studies.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, aluminum hydroxide is an antacid that neutralises gastric acid and reduces pepsin activity. Its efficacy in acid-related upper gastrointestinal conditions is well established, and mechanistically it applies to active peptic ulcer disease.
 
-Peptic ulcer is driven by acid and pepsin injury to the gastric or duodenal mucosa, so a drug that lowers acidity and protects the mucosa fits the disease. That is why the prediction is plausible. Aluminum hydroxide is also the active component of sucralfate, and one cell study found that aluminum hydroxide itself protected gastric epithelial cells from acid- and pepsin-induced damage.
+The predicted indication is essentially the same condition as the existing ones (peptic ulcer disease, gastric ulcer, duodenal ulcer). It is therefore not a true repurposing candidate. The high TxGNN score most likely reflects this existing relationship rather than a novel signal.
 
-The evidence is mostly old, and modern care relies on proton pump inhibitors, H2 blockers and *H. pylori* eradication. Any new development would therefore have to be positioned as adjunctive or symptomatic relief.
-
----
+The other predictions follow the same pattern:
+- **Gastroduodenitis** (99.59%): plausible through acid neutralisation and mucosal protection. The evidence is mostly historical (1947–1962) and overlaps with existing indications.
+- **Gastrojejunal ulcer** (99.54%): acid-dependent, so acid neutralisation is plausible. This has the largest evidence base, but it is extrapolated from general peptic ulcer studies.
+- **Peptic ulcer perforation** (99.54%): no supporting evidence. This is an acute surgical complication and an oral antacid has no plausible treatment role.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scand J Gastroenterol | 12-week double-blind trial in 72 patients with duodenal or prepyloric ulcers, comparing cimetidine, an antacid suspension plus hyoscyamine, and placebo. Cimetidine healed 67% at 3 weeks (p<0.005 vs placebo). The antacid arm was a combination regimen, and its result is cut off in the abstract available. |
-| [6086186](https://pubmed.ncbi.nlm.nih.gov/6086186/) | 1984 | Review | Clin Gastroenterol | Review of antacids and anticholinergics in duodenal ulcer treatment |
-| [22950493](https://pubmed.ncbi.nlm.nih.gov/22950493/) | 2013 | Review | Curr Pharm Des | Cellular and molecular mechanisms of gastroprotective and ulcer-healing actions of antacids beyond prostaglandins |
-| [37146](https://pubmed.ncbi.nlm.nih.gov/37146/) | 1979 | Review | Fortschr Med | Antacid usefulness rests on neutralizing gastric acid and inhibiting pepsin. Neutralizing capacity varies with chemical composition. |
-| [1769429](https://pubmed.ncbi.nlm.nih.gov/1769429/) | 1991 | Mechanistic/Clinical pharmacology | Digestion | Compared protective effects of Maalox 70 and Al(OH)3 against experimentally induced gastric mucosal lesions, and examined the role of intragastric pH |
-| [2390927](https://pubmed.ncbi.nlm.nih.gov/2390927/) | 1990 | Rat study | Dig Dis Sci | Al(OH)3 and Maalox 70 enhanced ulcer healing, with prostaglandins and epidermal growth factor implicated |
-| [2340961](https://pubmed.ncbi.nlm.nih.gov/2340961/) | 1990 | Rat study | Digestion | Acidified aluminum complex was 8.2 times more potent than its parent antacid in protecting against aspirin-induced gastric lesions |
-| [9334882](https://pubmed.ncbi.nlm.nih.gov/9334882/) | 1997 | Cell study | Jpn J Pharmacol | Al(OH)3 prevented acid- and pepsin-induced damage to rat gastric epithelial cells |
-| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | Clinical pharmacology (not formally classified) | J Clin Gastroenterol | Compared postprandial gastric acid buffering by sodium bicarbonate versus aluminum-magnesium hydroxide in duodenal ulcer patients |
-| [9305482](https://pubmed.ncbi.nlm.nih.gov/9305482/) | 1997 | Clinical study (not formally classified) | Aliment Pharmacol Ther | H2-receptor antagonists and antacids had an aggravating effect on *H. pylori* gastritis in duodenal ulcer patients. This is a caution signal. |
+| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | Clinical pharmacology study | J Clin Gastroenterol | Compared the post-meal buffering of sodium bicarbonate with aluminum-magnesium hydroxide in duodenal ulcer patients |
+| [3929601](https://pubmed.ncbi.nlm.nih.gov/3929601/) | 1985 | Mechanistic/In vitro | Am J Med | Sucralfate, which contains aluminum hydroxide moieties, inhibits peptic activity by raising pH and adsorbing pepsin |
+| [9334882](https://pubmed.ncbi.nlm.nih.gov/9334882/) | 1997 | Animal/Mechanistic | Jpn J Pharmacol | Aluminum hydroxide and sucralfate protected rat gastric cells from acid- and pepsin-induced damage |
+| [3104655](https://pubmed.ncbi.nlm.nih.gov/3104655/) | 1986 | Review | Klin Wochenschr | Aluminum hydroxide antacids prevent gross mucosal necrosis and haemorrhage caused by aspirin or ethanol, mainly in the deeper mucosa |
+| [6798099](https://pubmed.ncbi.nlm.nih.gov/6798099/) | 1981 | Review | J Clin Gastroenterol | Development of sucralfate, an aluminum salt designed to counteract acid and pepsin |
+| [7190055](https://pubmed.ncbi.nlm.nih.gov/7190055/) | 1980 | Review | Brain Res Bull | Restraint-ulcer animal model; the lesions respond to cimetidine and aluminum hydroxide |
+| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro product evaluation | Med Pharm Rep | Measured the acid-neutralising capacity of antacids marketed in Morocco |
+| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT (not an aluminum hydroxide study) | Clin Pharmacol Ther | Nizatidine versus placebo in benign gastric ulcer; included only as background |
 
----
+The most relevant additional controlled evidence appears under the other predicted indications. For example, [PMID 324863](https://pubmed.ncbi.nlm.nih.gov/324863/) (1977, Gastroenterology) reviewed controlled trials of aluminum hydroxide gel for duodenal ulcer pain. Relief was significantly better than dummy gel in one hospital (79% vs 45%) but not in the replicate at another.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 623709 | STOMAAX PLUS |
-| 815527 | ALMAGEL PLUS SUS |
-
-Dosage form and approved-indication text were not available in the licence records supplied.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00623709 | STOMAAX PLUS | Not listed | Not listed |
+| 00815527 | ALMAGEL PLUS SUS | Not listed | Not listed |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+**Drug Interactions**: 100 interactions were recorded. The main ones are:
+- **Major**: dolutegravir, sodium citrate
+- **Moderate**: acalabrutinib, doxycycline, alendronic acid, risedronic acid, allopurinol, amphetamine, ascorbic acid, acetylsalicylic acid, atazanavir, proguanil
+- **Minor**: famotidine, ranitidine, acebutolol, atenolol, atorvastatin, alprazolam, hydrocortisone, triamcinolone
 
----
+Published reviews also describe phosphate depletion and bone demineralisation with long-term high-dose aluminum hydroxide (PMID 6293043, PMID 2257522).
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and consistent with the literature, and the products are already marketed in Canada. The evidence is historical and mostly non-Phase-labeled. It includes one small RCT of a combination regimen and no registered trials. This looks like an established antacid use, not a novel repurposing opportunity.
+The predicted indication essentially duplicates the drug's existing acid-related indications, so it is not a genuine repurposing opportunity. No clinical trials are registered, and the literature is mostly indirect, historical or off-topic. The evidence level is L4.
 
 **To proceed, the following is needed:**
-- Confirmation of the approved indications from the Health Canada package inserts for STOMAAX PLUS and ALMAGEL PLUS SUS. The label data is currently empty, and warnings and contraindications are also missing.
-- Mechanism-of-action data from DrugBank.
-- Positioning against current standard care (PPIs, H2 blockers, *H. pylori* eradication), and attention to the *H. pylori* gastritis caution signal (PMID 9305482).
-- Note that the other three predicted indications are weaker. Gastroduodenitis and gastrojejunal ulcer rest on extrapolated, mostly historical evidence (Research Question). Peptic ulcer perforation has no supporting evidence (Hold).
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Approved indication text for the two Canadian licences
+- A decision on whether a genuinely distinct indication, rather than a restatement of existing ones, is worth pursuing
+- Review of the major interactions (dolutegravir, sodium citrate) and the long-term phosphate and bone risks
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ivacaftor
-parent: Moderate Evidence (L3-L4)
-nav_order: 502
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 507
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ivacaftor
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,75 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ivacaftor is a CFTR potentiator marketed in Canada as KALYDECO, and it is used in cystic fibrosis.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**,
-but only **1 clinical trial** (observational, indirect) and **1 publication** (preclinical mouse study) touch on this direction. Neither tests ivacaftor in rheumatoid arthritis.
-
----
+Ivacaftor is a CFTR potentiator originally used to treat cystic fibrosis.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Cystic fibrosis (inferred from ivacaftor's CFTR potentiator role; the Canadian license records provide no indication text) |
+| Original Indication | Cystic fibrosis |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 96.97% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 15 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ivacaftor is a CFTR potentiator, its use in cystic fibrosis is established, and mechanistically it may be applicable to inflammatory disease through indirect routes.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, ivacaftor is a CFTR potentiator, and its efficacy in cystic fibrosis is established. That use depends on improving the function of defective CFTR channels in epithelial cells.
 
-In cystic fibrosis, CFTR dysfunction has been linked to altered neutrophil function and heightened inflammation. This offers a hypothetical, indirect route to inflammatory conditions such as rheumatoid arthritis. No RA-specific mechanism or data support the link. The high TxGNN score is a graph-based prediction, not clinical evidence.
+No mechanistic link to rheumatoid arthritis is established in the data compiled for this report. The high prediction score (0.970) comes from a knowledge-graph model only. Any connection would be speculative, for example CFTR expression in immune or epithelial cells and possible effects on inflammation, and the supplied evidence does not support it. The prediction should be treated as a hypothesis for further investigation, not as a finding.
 
-Other top-ranked predictions for this drug (HIV infection, leprosy, cytomegalovirus infection, and several rare congenital syndromes) have no supporting studies and no plausible mechanism. Two of them, simian immunodeficiency virus infection and feline AIDS, are non-human diseases and likely graph-similarity artifacts. Rheumatoid arthritis is the only prediction with any related evidence, and that evidence is weak.
-
----
+Other top-ranked predictions include HIV infection, leprosy, cytomegalovirus infection, and several rare congenital syndromes. None of them has supporting trials or literature, and some (simian immunodeficiency virus infection, feline AIDS) are animal diseases with limited relevance for human repurposing.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04970225](https://clinicaltrials.gov/study/NCT04970225) | NA (observational) | Completed | 47 | Analyzes function and phenotype of blood neutrophils in cystic fibrosis patients, including the effect of CFTR modulator treatment. It does not enroll RA patients and does not test ivacaftor for RA (relevance grade C, indirect context only). |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28634110](https://pubmed.ncbi.nlm.nih.gov/28634110/) | 2017 | Preclinical (mouse) | Gastroenterology | In mouse models of Sjögren's syndrome and autoimmune pancreatitis, restoring CFTR activity in ducts rescued acinar cell function and reduced inflammation in pancreatic and salivary glands. It is autoimmune-related but not RA-specific. |
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2442620 | KALYDECO |
-| 2397412 | KALYDECO |
-| 2519364 | KALYDECO |
-| 2442612 | KALYDECO |
-| 2543451 | KALYDECO |
+Ivacaftor is authorized in Canada under 15 valid single-ingredient licences. The licence records compiled for this report do not include dosage forms or approved indication text. Brand names are listed below (first 5 DINs).
 
-Dosage form, manufacturer and approved indication text are not available in the current records. Five of the 15 DINs are listed.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02442620 | KALYDECO | Not specified | Not specified |
+| 02397412 | KALYDECO | Not specified | Not specified |
+| 02519364 | KALYDECO | Not specified | Not specified |
+| 02442612 | KALYDECO | Not specified | Not specified |
+| 02543451 | KALYDECO | Not specified | Not specified |
 
----
+The remaining 10 licences are for ORKAMBI (5), SYMDEKO (1), and TRIKAFTA (4).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions**: The interaction query returned 100 interacting drugs. Examples include:
+- **Major**: Aprepitant, Clarithromycin
+- **Moderate**: Hydrocortisone, Loperamide, Triamcinolone, Dexamethasone, Betamethasone, Budesonide, Chlorpropamide, Cimetidine, Cisapride, Clotrimazole, Eliglustat, Eluxadoline, Glimepiride, Glipizide, Glyburide, Acetohexamide
+- **Minor**: Fidaxomicin
 
----
+The high number of interactions would complicate co-administration with other therapies, such as antiretrovirals, CMV therapies, and corticosteroids that may be used in rheumatoid arthritis.
+
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score, one indirect observational trial and one preclinical mouse study. No study tests ivacaftor in rheumatoid arthritis, and no RA-specific mechanism has been identified.
+The prediction rests only on a knowledge-graph model score. There are no clinical trials, no literature, and no documented mechanistic link between CFTR potentiation and rheumatoid arthritis. The large number of drug interactions adds a further safety concern.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are required before any safety screening
-- Detailed mechanism of action data from DrugBank
-- Evidence linking CFTR potentiation to RA pathophysiology, for example synovial or neutrophil-related preclinical data
-- Confirmation of the approved indication text from the Canadian license records
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for ivacaftor (for example from DrugBank)
+- Package insert warnings and contraindications from Health Canada, needed for safety screening
+- Preclinical or mechanistic evidence for a link between CFTR function and rheumatoid arthritis pathways
+- A literature search for any existing studies on ivacaftor or CFTR modulators in inflammatory arthritis
+- Review of the interaction profile against drugs commonly used in rheumatoid arthritis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

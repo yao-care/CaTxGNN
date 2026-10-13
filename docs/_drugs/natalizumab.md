@@ -2,7 +2,7 @@
 layout: default
 title: Natalizumab
 parent: Model Prediction Only (L5)
-nav_order: 639
+nav_order: 644
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Natalizumab: From Multiple Sclerosis to Bronchitis
+# Natalizumab: From Crohn's Disease and Multiple Sclerosis to Bronchitis
 
 ## One-Sentence Summary
 
-Natalizumab is marketed in Canada as TYSABRI. The licence record in the Evidence Pack does not state an approved indication, although the supporting literature places it in multiple sclerosis (MS) care. The TxGNN model predicts it may be effective for **bronchitis**, but there are **0 clinical trials** and **0 publications** for this prediction, so the evidence rests on the model score alone.
+Natalizumab is a monoclonal antibody originally used for multiple sclerosis and inflammatory bowel conditions, including Crohn's disease.
+The TxGNN model predicts it may be effective for **bronchitis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** currently supporting this specific indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence record (literature context: multiple sclerosis) |
+| Original Indication | Crohn's disease, inflammatory bowel disease, Crohn's colitis, multiple sclerosis (from the knowledge graph; no approved indication text is available for the Canadian licence) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.46% |
 | Evidence Level | L5 |
@@ -49,75 +50,72 @@ Natalizumab is marketed in Canada as TYSABRI. The licence record in the Evidence
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the input. Natalizumab is known to block alpha4 integrins (alpha4beta1/alpha4beta7). This limits leukocyte trafficking into inflamed tissue, so a role in inflammatory airway disease is conceivable.
+Currently, detailed mechanism of action data is not available. Based on known information, natalizumab is a monoclonal antibody that blocks alpha-4 integrin and so inhibits leukocyte trafficking into inflamed tissue. Its efficacy in multiple sclerosis and Crohn's disease is established, and mechanistically it might dampen leukocyte-driven inflammation in the airways.
 
-This link is speculative. Bronchitis is frequently infectious, and natalizumab's immunosuppressive profile raises infection concerns. The high model score is not backed by any trial or publication, so the prediction should be treated as a hypothesis only.
+The link to bronchitis is theoretical. The high TxGNN score (0.99) is a prediction only, and no trials or literature were found to support it. Natalizumab's immunosuppressive effect may also raise the risk of respiratory infections, so the net direction of effect is unclear.
 
-### Other Predicted Indications
+## Other Predicted Indications Reviewed
 
-Four other indications were predicted. Only psoriasis has meaningful literature, and its signal is contradictory.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary |
 |------|------|------|------|------|
-| 2 | Parapsoriasis | 99.37% | L4 | Hold |
-| 3 | Psoriasis | 99.19% | L4 | Research Question |
-| 4 | Severe nonproliferative diabetic retinopathy | 99.18% | L5 | Hold |
-| 5 | Acute lichenoid pityriasis | 99.04% | L4 | Hold |
-
-- **Parapsoriasis and acute lichenoid pityriasis:** the only evidence is one case report (PMID 32470781). It describes dermatologic adverse events with fingolimod and natalizumab, a safety signal rather than a benefit. It is the same publication for both indications, so it is not independent evidence.
-- **Severe nonproliferative diabetic retinopathy:** prediction only. Leukocyte adhesion contributes to retinal microvascular injury, but no supporting data were found.
-- **Psoriasis:** several case reports describe new-onset or aggravated psoriasis during natalizumab. One 2021 observational report describes improvement of comorbid psoriasis in 18 MS patients. The direction of effect is unresolved.
+| 2 | Parapsoriasis | 99.37% | L4 | One case report (PMID 32470781) of unusual skin adverse events with fingolimod and natalizumab. It suggests a drug-associated event rather than a benefit. |
+| 3 | Psoriasis | 99.19% | L4 | Mixed evidence. Several case reports describe natalizumab-induced or aggravated psoriasis, while one small case series reports improvement in 18 MS patients with comorbid psoriasis. |
+| 4 | Severe nonproliferative diabetic retinopathy | 99.18% | L5 | No trials or literature. The rationale is theoretical (leukocyte adhesion in retinal inflammation). |
+| 5 | Acute lichenoid pityriasis | 99.04% | L4 | The same single case report, which points to an adverse event rather than a therapeutic effect. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for bronchitis. None are registered for the other four predicted indications either.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for bronchitis.
+For bronchitis (the top prediction), currently no related literature is available.
 
-The table below lists selected publications for the best-supported alternative, psoriasis. Study types are inferred from titles.
+The most substantial literature relates to the third-ranked prediction, psoriasis. It is summarised here because it is the only indication with a direct clinical signal.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33589543](https://pubmed.ncbi.nlm.nih.gov/33589543/) | 2021 | Observational | Neurol Neuroimmunol Neuroinflamm | Improvement of comorbid psoriasis in 18 MS patients treated with natalizumab |
-| [40526577](https://pubmed.ncbi.nlm.nih.gov/40526577/) | 2025 | Review | Dtsch Arztebl Int | Treatment options for MS comorbid with psoriasis, RA and IBD |
+| [33589543](https://pubmed.ncbi.nlm.nih.gov/33589543/) | 2021 | Cohort/Case series | Neurol Neuroimmunol Neuroinflamm | Natalizumab in 18 MS patients with comorbid psoriasis; psoriasis improvement observed |
+| [30323758](https://pubmed.ncbi.nlm.nih.gov/30323758/) | 2018 | Case report/Review | Case Rep Neurol | Plaque psoriasis developed during natalizumab treatment; limited case-based evidence that it can induce or aggravate psoriasis |
+| [28905124](https://pubmed.ncbi.nlm.nih.gov/28905124/) | 2018 | Case report/Review | Neurol Sci | Arthritic psoriasis during natalizumab treatment |
 | [35646438](https://pubmed.ncbi.nlm.nih.gov/35646438/) | 2022 | Case report | Dermatol Pract Concept | Natalizumab-induced pustular psoriasis of palms and soles |
-| [30323758](https://pubmed.ncbi.nlm.nih.gov/30323758/) | 2018 | Case study + review | Case Rep Neurol | Plaque psoriasis developed during natalizumab; limited evidence that it induces or aggravates psoriasis |
-| [28905124](https://pubmed.ncbi.nlm.nih.gov/28905124/) | 2018 | Case report + review | Neurol Sci | Arthritic psoriasis during natalizumab treatment |
-| [23096069](https://pubmed.ncbi.nlm.nih.gov/23096069/) | 2012 | Case report | J Neurol | Severe, drug-resistant psoriasis worsening during natalizumab in a patient with MS |
-| [28765121](https://pubmed.ncbi.nlm.nih.gov/28765121/) | 2018 | Review | Ann Rheum Dis | Novel therapies for immune-mediated inflammatory diseases, including psoriasis |
-
-The list also contains several reviews on progressive multifocal leukoencephalopathy (PML) with monoclonal antibodies, including natalizumab. These address safety rather than psoriasis efficacy.
+| [40526577](https://pubmed.ncbi.nlm.nih.gov/40526577/) | 2025 | Review | Dtsch Arztebl Int | Treatment options for MS comorbid with chronic inflammatory diseases, including psoriasis and IBD |
+| [25448040](https://pubmed.ncbi.nlm.nih.gov/25448040/) | 2015 | Review | Pharmacol Ther | Leukocyte integrins as therapeutic targets in inflammatory disease |
+| [18345706](https://pubmed.ncbi.nlm.nih.gov/18345706/) | 2008 | Review | BioDrugs | Cell adhesion antagonists: therapeutic potential in asthma and COPD (indirect, airway-related) |
+| [20298966](https://pubmed.ncbi.nlm.nih.gov/20298966/) | 2010 | Review | Lancet Neurol | PML and other JC virus disorders; notes risk with natalizumab |
+| [19647202](https://pubmed.ncbi.nlm.nih.gov/19647202/) | 2009 | Review | Lancet Oncol | PML associated with rituximab, natalizumab and efalizumab (RADAR project) |
+| [32470781](https://pubmed.ncbi.nlm.nih.gov/32470781/) | 2020 | Case report | Clin Neurol Neurosurg | Unusual dermatologic adverse events with fingolimod and natalizumab in an MS patient |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2286386 | TYSABRI |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02286386 | TYSABRI | Not specified | Not specified |
 
 ## Safety Considerations
 
-- **Drug Interactions:** no interactions were found in the query.
-- **PML risk:** multiple reviews in the literature link natalizumab to progressive multifocal leukoencephalopathy, a rare and often fatal brain infection caused by JC virus.
-- **Skin reactions:** case reports describe new-onset or aggravated psoriasis and other dermatologic adverse events.
+- **Contraindications (knowledge graph, not label text)**: progressive multifocal leukoencephalopathy (PML).
+- **PML risk**: much of the literature compiled for this report concerns natalizumab-associated PML, a rare and often fatal brain infection caused by JC virus reactivation.
+- **Drug interactions**: 100 interactions were identified. The main ones are:
+  - **Major**: corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone), mercaptopurine, trimetrexate, levamisole, and radiopharmaceuticals/radioimmunotherapies (iobenguane I-131, ibritumomab tiuxetan, tositumomab).
+  - **Moderate**: naltrexone.
+  - **Minor**: zinc salts (sulfate, acetate, gluconate, chloride).
 
-Please refer to the package insert for warnings and contraindications.
+Label warnings and contraindications were not available for this report; please refer to the Health Canada package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The bronchitis prediction has no trials or literature, so it is supported only by the model score (Level L5). Natalizumab's immunosuppressive profile and PML risk argue against an infectious airway indication without a strong rationale. Psoriasis is the only alternative with notable literature, and the case-level signals conflict, so it is a research question rather than a candidate for action.
+- All predicted indications rest on model scores with no clinical trials. The top prediction, bronchitis, has no supporting literature. For parapsoriasis, psoriasis and acute lichenoid pityriasis, the available reports lean toward adverse events rather than benefit. Systemic immunosuppression and PML risk are not justified without supporting evidence.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
-- Mechanism of action and original indication data from DrugBank or the Canadian licence record
-- A dedicated observational or pharmacovigilance analysis of psoriasis, to resolve whether natalizumab induces or improves it
-- A mechanistic and safety justification before any bronchitis or diabetic retinopathy work
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Direct preclinical or clinical evidence for bronchitis, including whether the effect on respiratory infection risk is beneficial or harmful
+- For psoriasis, a clearer determination of the direction of effect, since case reports of induced or worsened disease conflict with one small case series showing improvement
+- Approved indication text and dosage form for the Canadian licence (DIN 02286386)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

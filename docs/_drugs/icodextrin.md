@@ -2,7 +2,7 @@
 layout: default
 title: Icodextrin
 parent: Model Prediction Only (L5)
-nav_order: 461
+nav_order: 466
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,17 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Icodextrin is a high-molecular-weight glucose polymer used as an osmotic agent in peritoneal dialysis.
-The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but **no clinical trials and no publications** currently support this prediction.
-It is a model-only signal (Evidence Level L5) and should not be read as clinical support.
-
----
+Icodextrin is a high-molecular-weight glucose polymer used as an osmotic agent in peritoneal dialysis. The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but this is a computational prediction only. There are currently **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peritoneal dialysis (osmotic agent; the Canadian licence record contains no indication text) |
+| Original Indication | Not stated in the Canadian licence data (the drug is used as an osmotic agent in peritoneal dialysis) |
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 98.53% |
 | Evidence Level | L5 |
@@ -51,64 +47,61 @@ It is a model-only signal (Evidence Level L5) and should not be read as clinical
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, icodextrin is a glucose polymer that acts as an osmotic agent in peritoneal dialysis solutions, which are used in patients with kidney failure. No plausible mechanism linking it to irritable bowel syndrome (IBS) can be established from the data provided.
+Currently, detailed mechanism of action data is not available. Based on known information, icodextrin is a glucose polymer that acts as an osmotic agent in peritoneal dialysis and is minimally absorbed from the peritoneal cavity.
 
-The high TxGNN score (0.985) reflects the model's knowledge-graph patterns, not biological or clinical evidence. Peritoneal dialysis and IBS are pharmacologically unrelated, and no trials or literature were found.
+No plausible mechanistic link to irritable bowel syndrome has been established. Icodextrin has no known action on gut motility, visceral hypersensitivity, or the gut-brain axis. The high score of 98.53% reflects knowledge-graph connectivity rather than biological or clinical evidence, so the prediction should be treated with caution.
 
-The other nine top predictions have the same weakness:
-- Several are structurally unrelated to a dialysis osmotic agent, such as non-syndromic esophageal malformation, familial visceral myopathy and renal tubular acidosis.
-- Three overlap in the same disease family: C1 inhibitor deficiency, hereditary angioedema with C1Inh deficiency and serpinopathy. Their scores are likely not independent, because they share a graph neighbourhood.
-- Two overlap in the esophagus: esophageal disease and non-syndromic esophageal malformation.
+The other top-ranked predictions are also unsupported by mechanism or evidence:
 
-Overall, the candidate list looks driven by graph topology rather than pharmacology.
+| Rank | Predicted Indication | TxGNN Score | Assessment |
+|------|------|------|------|
+| 2 | Non-syndromic esophageal malformation | 97.41% | Congenital structural anomaly; no plausible mechanism, likely a graph artifact |
+| 3 | C1 inhibitor deficiency | 97.29% | No effect on C1-INH, kallikrein, or bradykinin pathways |
+| 4 | Potassium deficiency disease | 97.19% | Icodextrin does not supply or retain potassium |
+| 5 | Serpinopathy with toxic serpin polymerization | 97.06% | Not a chaperone, polymerization inhibitor, or protease modulator |
+| 6 | Hereditary angioedema with C1Inh deficiency | 96.81% | Overlaps with rank 3; likely shared graph neighbours |
+| 7 | Esophageal disease | 96.77% | Broad, nonspecific category match |
+| 8 | Familial visceral myopathy | 96.34% | No known effect on smooth muscle function |
+| 9 | Renal tubular acidosis | 95.81% | Only a weak, indirect link through the dialysis setting; does not correct tubular acid handling |
+| 10 | Vitamin deficiency disorder | 95.78% | Does not supply vitamins; dialysis nutrient loss is a safety concern |
 
----
+All ten predictions are at evidence level L5 with no registered trials and no literature.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2240806 | EXTRANEAL |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02240806 | EXTRANEAL | Not available | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+Please refer to the package insert for safety information.
 
----
+Some general considerations arise from the dialysis context. Dialysis-related electrolyte shifts, metabolic acid-base changes, and nutrient losses are possible concerns. No interaction records were found for this drug in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no trials, no literature and no identifiable mechanism. The score should not be treated as clinical support.
+The prediction for irritable bowel syndrome rests only on a knowledge-graph score. There is no mechanistic link, no clinical trial, and no literature. Safety information from the Canadian label is also missing.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data for icodextrin (e.g., from DrugBank), followed by a mechanistic assessment against IBS
-- A literature and trial search specific to icodextrin and IBS
-- The approved indication text and dosage form for DIN 2240806
-- Route compatibility assessment: icodextrin is a peritoneal dialysis solution, and any IBS use would need a de novo route and formulation rationale
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert (warnings and contraindications), which blocks safety screening
+- Mechanism of action data, for example from DrugBank
+- Original approved indication text for the EXTRANEAL licence
+- A plausible biological rationale and preclinical or clinical evidence for irritable bowel syndrome
+- Assessment of route compatibility, since icodextrin is administered intraperitoneally and is minimally absorbed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

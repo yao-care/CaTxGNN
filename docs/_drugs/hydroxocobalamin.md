@@ -2,7 +2,7 @@
 layout: default
 title: Hydroxocobalamin
 parent: Model Prediction Only (L5)
-nav_order: 454
+nav_order: 459
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Hydroxocobalamin is a form of vitamin B12, used for B12 deficiency and cyanide poisoning (marketed in Canada as CYANOKIT).
-The TxGNN model predicts it may be effective for **esophageal varices without bleeding** and **esophageal varices with bleeding**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so this is a model prediction only.
+Hydroxocobalamin is a form of vitamin B12, originally used to treat vitamin B12 deficiency, pernicious anemia and cyanide poisoning.
+The TxGNN model predicts it may be useful for **esophageal varices (with and without bleeding)**,
+but **no clinical trials and no publications** currently support this direction, so it is a model prediction only.
 
 ---
 
@@ -43,7 +43,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Esophageal varices without bleeding (a second prediction, esophageal varices with bleeding, has an identical score) |
+| Original Indication | Vitamin B12 deficiency, cyanide poisoning, pernicious anemia (the Canadian licence record contains no indication text) |
+| Predicted New Indication | Esophageal varices without bleeding (a second prediction, esophageal varices with bleeding, has the same score) |
 | TxGNN Prediction Score | 99.23% |
 | Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
@@ -54,13 +55,11 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Hydroxocobalamin is a vitamin B12 form, and its efficacy in B12 deficiency and cyanide poisoning is established. No established mechanistic link to esophageal varices has been identified.
+Currently, detailed mechanism of action data is not available. Based on known information, hydroxocobalamin is a vitamin B12 form. Its efficacy in B12 deficiency and cyanide poisoning (by binding cyanide) is established. However, no established mechanistic link to esophageal varices has been identified.
 
-One speculative angle is that hydroxocobalamin scavenges nitric oxide and can raise blood pressure. Nitric oxide signaling plays a role in portal hypertension, which drives varices. This pathway is unvalidated, and the direction of effect is uncertain and could be harmful, especially in an acute bleeding setting.
+One speculative hypothesis is that hydroxocobalamin scavenges nitric oxide (NO), which could theoretically reduce splanchnic vasodilation and portal hypertension, the underlying driver of varices. **No evidence in the data compiled for this report supports this idea.** The same NO-scavenging effect could also raise systemic blood pressure, which would need a separate safety evaluation.
 
-The high score (99.23%) may simply reflect knowledge-graph connectivity, such as shared neighbours among vitamin, liver disease and vascular nodes, rather than real biology. The bleeding and non-bleeding variants have identical scores, which suggests both terms map to the same graph neighbourhood. The score is therefore not independent evidence.
-
-Acute variceal bleeding is currently managed with vasoactive drugs (terlipressin, octreotide), endoscopic band ligation and antibiotic prophylaxis. Nothing in the available data suggests hydroxocobalamin adds to these.
+The two predictions share an identical score (0.992). This suggests the model is scoring a disease cluster rather than a mechanism specific to bleeding. Acute variceal bleeding is life-threatening and already has well-established standard care (vasoactive agents such as terlipressin or octreotide, endoscopic band ligation, antibiotic prophylaxis). Any repurposed agent would need strong evidence to be considered.
 
 ---
 
@@ -78,15 +77,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2375370 | CYANOKIT |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02375370 | CYANOKIT | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Knowledge-graph contraindication signal**: The TxGNN knowledge graph links hydroxocobalamin to hypertensive disorder and hypertension as contraindications. This comes from graph edges, not label text. It is relevant because patients with portal hypertension are hemodynamically sensitive, and a blood pressure rise would be a concern.
+- **Drug Interactions**: 32 potential interactions were identified. Most are of unknown severity. The following are rated **Moderate**:
+  - Arsenic trioxide
+  - Chloramphenicol
+  - Iodide I-131
+  - Iodide I-123
+
+  Other listed drugs, all of unknown severity, include omeprazole, lansoprazole, simvastatin, loperamide, prednisolone, ranitidine, acetylsalicylic acid, budesonide, folic acid, valsartan, ramipril, lorazepam, citalopram, acetaminophen, mirtazapine and levothyroxine.
+
+Please refer to the package insert for warnings and contraindications from the label.
 
 ---
 
@@ -95,13 +103,15 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The only support is a model score. There are no clinical trials or publications, and the mechanistic link is speculative and possibly unfavourable. The Canadian marketing authorization does not cover this use.
+The prediction rests on a knowledge-graph score alone (Evidence Level L5). There are no clinical trials, no publications, and no established mechanistic link. The possible blood pressure effect adds a safety concern in this patient population, and effective standard treatments already exist.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data from DrugBank, to assess the nitric oxide and portal hypertension hypothesis
-- Preclinical or clinical literature on hydroxocobalamin in portal hypertension or variceal disease
-- Confirmation of route compatibility and similarity to the original indication (currently pending)
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data for hydroxocobalamin (for example, from DrugBank)
+- Preclinical or mechanistic evidence for NO scavenging and portal pressure effects
+- Literature and trial searches targeting portal hypertension and variceal disease
+- Separate evaluation of blood pressure risk in patients with portal hypertension
+- Review of the severity of the "Unknown" and Moderate interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

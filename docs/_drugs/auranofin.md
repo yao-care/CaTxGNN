@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Auranofin: From Its Marketed Use to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Auranofin: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
 ## One-Sentence Summary
 
-Auranofin is marketed in Canada as RIDAURA, but the supplied data do not state its approved indication.
-The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare congenital malformation disorder.
-There are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Auranofin is a gold-based medicine originally used to treat rheumatoid arthritis.
+The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare congenital disorder.
+This prediction currently has **no clinical trials** and **no publications** behind it; it rests on the model score alone.
 
 ---
 
@@ -43,9 +43,10 @@ There are **0 clinical trials** and **0 publications** supporting this predictio
 
 | Item | Content |
 |------|------|
+| Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 99.56% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -54,13 +55,11 @@ There are **0 clinical trials** and **0 publications** supporting this predictio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied data, and no original indication is listed. Auranofin is generally described as a gold(I) compound that inhibits thioredoxin reductase. This is background knowledge, not something confirmed by the input.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Auranofin is a gold-containing drug whose efficacy in rheumatoid arthritis is established. In general terms it is known to modulate inflammatory pathways, but this is not supported by the data compiled here.
 
-No mechanistic link to the predicted disease can be established from the supplied evidence. The syndrome is a congenital developmental disorder, and nothing provided connects thioredoxin or redox biology to it. The only support is a knowledge-graph score of 99.56%. That is a computational prediction with no clinical validation, and a high score alone does not establish biological plausibility.
+No mechanistic link to the predicted condition could be established. The only support is the high TxGNN knowledge-graph score (99.56%). The predicted disease is a rare congenital disorder with eye and skeletal malformations. It is very different from an adult inflammatory joint disease, and no pharmacological reason is apparent for an anti-rheumatic drug to help with a developmental condition.
 
-There is also a practical concern. The disease is developmental and probably genetic, so a drug given after birth is unlikely to reverse structural malformations. This should be tested before any advancement.
-
-A second prediction, **brachydactyly-syndactyly syndrome** (score 99.24%), has the same limitations: no trials, no publications, no mechanistic link, and a congenital limb malformation that is unlikely to respond to a post-natal drug.
+A second prediction, brachydactyly-syndactyly syndrome (score 99.24%), also has no trials, no publications and no mechanistic rationale. Both predictions should be treated as hypothesis-generating signals only.
 
 ---
 
@@ -78,15 +77,30 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 1916823 | RIDAURA |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 01916823 | RIDAURA | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+**Contraindication-related conditions (from the TxGNN knowledge graph, not from label text):**
+The knowledge graph links auranofin with the following conditions as contraindications. They should be checked against the official label.
+- Blood disorders: hematologic disease, thrombocytopenia, neutropenia, agranulocytosis, leukopenia
+- Kidney and liver: kidney disease, liver disease, hepatitis, gallbladder disease
+- Skin and allergy: exanthem, exfoliative dermatitis, urticaria, angioedema, atopic eczema, dermatitis
+- Lung: pulmonary fibrosis, postinflammatory pulmonary fibrosis
+- Gut: colitis, necrotizing enterocolitis, pyoureter
+- Metabolic and cardiovascular: diabetes mellitus, diabetic ketoacidosis, hypertension, hypertensive disorder
+- Autoimmune and other: systemic lupus erythematosus (including pediatric), Sjogren syndrome, dry eye syndrome
+
+**Drug Interactions:** 86 potential interactions were identified. Examples from the list reviewed:
+- **Major:** Deferiprone, Proguanil, Chloroquine
+- **Moderate:** Metronidazole, Tinidazole, Benznidazole, Rosuvastatin, Simvastatin, Disulfiram
+- **Unknown severity:** Warfarin, Prednisone, Prednisolone, Omeprazole, Pantoprazole, Lansoprazole, Ranitidine, Misoprostol, Clarithromycin, Calcitriol, Folic acid
+
+The Health Canada package insert warnings were not available for this report. Please refer to the package insert for the official safety information.
 
 ---
 
@@ -95,14 +109,14 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature, and no mechanistic support. The disease is a congenital malformation that a post-natal drug is unlikely to reverse. It should not advance beyond the model-prediction stage.
+The prediction is supported only by a model score, with no clinical trials, no literature and no identifiable mechanism. The disease is a congenital malformation syndrome, which makes a benefit from an anti-rheumatic drug biologically unlikely. The knowledge graph also lists many contraindicated conditions, including serious blood, kidney and liver disorders.
 
 **To proceed, the following is needed:**
-- A biological rationale linking auranofin's pharmacology to the disease pathway
-- Mechanism of action data (for example, from DrugBank)
-- The Health Canada package insert, for warnings and contraindications
-- A review of auranofin's safety profile, including reproductive and developmental safety, for the relevant population
-- The approved indication text for the Canadian license, to clarify the original use
+- Mechanism of action data for auranofin (for example from DrugBank)
+- The Health Canada package insert, with its warnings and contraindications, to allow safety screening
+- A biological rationale linking auranofin to the genetic or developmental pathways of the predicted disease
+- Preclinical or mechanistic studies, since no human evidence currently exists
+- A review of whether a drug with this safety profile is suitable for the rare, likely paediatric population affected
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

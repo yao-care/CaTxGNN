@@ -2,7 +2,7 @@
 layout: default
 title: Polymyxin B
 parent: Moderate Evidence (L3-L4)
-nav_order: 743
+nav_order: 750
 evidence_level: L4
 indication_count: 3
 ---
@@ -33,9 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Polymyxin B is a polypeptide antibiotic. In Canada it is marketed mainly in topical antibiotic products (ointments, creams, eye drops, bandages), so its original use is inferred from product names, not from approved indication text.
-The TxGNN model predicts it may be effective for **bronchitis**.
-**No clinical trials** are registered for this indication, and the **14 publications** retrieved are mostly old case-level reports, bronchial provocation studies and animal models, so evidence for treating bronchitis is weak.
+Polymyxin B is a polypeptide antibiotic active against Gram-negative bacteria. In Canada it is marketed in topical antibiotic creams, ointments, and eye/ear drops.
+The TxGNN model predicts it may be effective for **bronchitis**, with **no registered clinical trials** and **12 publications** (mostly small or older studies, some showing a safety concern) currently touching this direction.
 
 ---
 
@@ -43,7 +42,7 @@ The TxGNN model predicts it may be effective for **bronchitis**.
 
 | Item | Content |
 |------|------|
-| Original Indication | Topical antibacterial use (inferred from product names; no approved indication text in the data) |
+| Original Indication | Not specified in the Canadian licence data (products are topical antibiotic preparations) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L4 |
@@ -55,11 +54,11 @@ The TxGNN model predicts it may be effective for **bronchitis**.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. From general pharmacology, polymyxin B is a cationic lipopeptide that disrupts the outer membrane of gram-negative bacteria. A plausible link therefore exists for bacterial airway infections caused by *Pseudomonas aeruginosa* or multidrug-resistant gram-negative bacilli, especially by the inhaled or endobronchial route.
+Currently, detailed mechanism of action data is not available. Based on known information, polymyxin B is a cationic polypeptide antibiotic that disrupts the outer membrane of Gram-negative bacteria, including multidrug-resistant strains. Mechanistically, it could be relevant to bacterial tracheobronchitis or ventilator-associated respiratory infections caused by resistant Gram-negative organisms such as *Pseudomonas aeruginosa* and *Acinetobacter baumannii*.
 
-The original (topical antibacterial) and predicted (bronchitis) uses share only the antibacterial rationale. The best-fitting studies concern ventilator-associated tracheobronchitis and pneumonia caused by resistant gram-negative bacteria. These are a narrow subset and not typical bronchitis, which is mostly viral. Two older reports (1970 and 1974) describe endobronchial or aerosolised polymyxin B in chronic bronchitis and *Pseudomonas* tracheobronchitis, but without controlled data.
+The link is weak, however. Several publications report that inhaled polymyxin B provokes bronchoconstriction and bronchial hyperreactivity in people with asthma and chronic bronchitis. It has even been used as a non-specific bronchial provocation agent and to create eosinophilic bronchitis animal models. This safety signal undermines the repurposing rationale.
 
-There is also a safety concern. Several reports show that inhaled polymyxin B can provoke bronchoconstriction, and it has been used as a bronchial challenge agent in asthma and chronic obstructive bronchitis. The high TxGNN score is a computational prediction only.
+The high TxGNN score is a computational prediction only and is not backed by trial data. Two other predictions were also generated. Laryngotracheitis (score 99.62%) has no trials or literature at all. Conjunctivitis (score 99.06%) has randomized evidence, but it concerns the existing trimethoprim–polymyxin B eye-drop combination and is likely an established use rather than a new one.
 
 ---
 
@@ -71,42 +70,55 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No RCTs were found for this indication. The table lists the most relevant publications, with treatment-related studies first.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [23124906](https://pubmed.ncbi.nlm.nih.gov/23124906/) | 2013 | Comparative study (labelled Review) | Infection | Compared polymyxin B with other antimicrobials for ventilator-associated pneumonia and tracheobronchitis caused by *P. aeruginosa* or *A. baumannii*; the abstract gives no results |
-| [17350201](https://pubmed.ncbi.nlm.nih.gov/17350201/) | 2007 | Cohort | Diagn Microbiol Infect Dis | 19 patients received inhaled polymyxin B for multidrug-resistant gram-negative respiratory infections (14 pneumonia, the rest tracheobronchitis); most pneumonia cases had previously failed intravenous therapy |
-| [4319158](https://pubmed.ncbi.nlm.nih.gov/4319158/) | 1970 | Experimental observation | Chest | Experimental observations of endobronchial polymyxin B in chronic bronchitis (no abstract available) |
-| [4373513](https://pubmed.ncbi.nlm.nih.gov/4373513/) | 1974 | Case report/series | J Kans Med Soc | Systemic gentamicin plus polymyxin B aerosol for *Pseudomonas* tracheobronchitis (no abstract available) |
-| [231152](https://pubmed.ncbi.nlm.nih.gov/231152/) | 1979 | Mechanistic/Safety | Lung | Bronchial reactivity to inhaled polymyxin B in asthma and chronic obstructive bronchitis |
-| [2984629](https://pubmed.ncbi.nlm.nih.gov/2984629/) | 1985 | Mechanistic/Safety | Orv Hetil | Polymyxin B sulfate used as a non-specific bronchial provocation agent in asthma and chronic bronchitis |
-| [4322737](https://pubmed.ncbi.nlm.nih.gov/4322737/) | 1971 | Safety report | Ann Intern Med | Reports the danger of polymyxin B inhalation |
-| [7402949](https://pubmed.ncbi.nlm.nih.gov/7402949/) | 1980 | Mechanistic/Safety | Pneumonol Pol | Compared exercise-induced bronchospasm with histamine and polymyxin B provocation tests in asthma and chronic obstructive bronchitis |
-| [8054833](https://pubmed.ncbi.nlm.nih.gov/8054833/) | 1994 | Preclinical | Clin Auton Res | Guinea-pig eosinophilic bronchitis model induced by intranasal polymyxin B; polymyxin B is the inducing agent, not the treatment |
-| [28441858](https://pubmed.ncbi.nlm.nih.gov/28441858/) | 2017 | Preclinical | Zhonghua Yi Xue Za Zhi | Mouse eosinophilic bronchitis model induced by polymyxin B nasal drops; polymyxin B is the inducing agent, not the treatment |
+|------|-----|------|------|---------|
+| [23124906](https://pubmed.ncbi.nlm.nih.gov/23124906/) | 2013 | Review | Infection | Compared polymyxin B with other antimicrobials for ventilator-associated pneumonia and tracheobronchitis caused by *P. aeruginosa* or *A. baumannii* |
+| [17350201](https://pubmed.ncbi.nlm.nih.gov/17350201/) | 2007 | Cohort | Diagn Microbiol Infect Dis | Inhaled polymyxin B in 19 patients with multidrug-resistant Gram-negative respiratory infections (pneumonia and tracheobronchitis) |
+| [4373513](https://pubmed.ncbi.nlm.nih.gov/4373513/) | 1974 | Not classified | J Kans Med Soc | Systemic gentamicin plus polymyxin B aerosol for Pseudomonas tracheobronchitis |
+| [4322737](https://pubmed.ncbi.nlm.nih.gov/4322737/) | 1971 | Review | Ann Intern Med | "Danger of polymyxin B inhalation" (safety warning) |
+| [231152](https://pubmed.ncbi.nlm.nih.gov/231152/) | 1979 | Cohort | Lung | Bronchial reactivity to inhaled polymyxin B in asthma and chronic obstructive bronchitis |
+| [2984629](https://pubmed.ncbi.nlm.nih.gov/2984629/) | 1985 | Cohort | Orv Hetil | Polymyxin B sulfate used as a non-specific bronchial provocation agent in asthma and chronic bronchitis |
+| [4319158](https://pubmed.ncbi.nlm.nih.gov/4319158/) | 1970 | Cohort | Chest | Experimental observations of endobronchial polymyxin B in chronic bronchitis |
+| [7402949](https://pubmed.ncbi.nlm.nih.gov/7402949/) | 1980 | Not classified | Pneumonol Pol | Exercise, histamine and polymyxin B provocation tests in asthma and chronic obstructive bronchitis |
+| [8054833](https://pubmed.ncbi.nlm.nih.gov/8054833/) | 1994 | Animal study | Clin Auton Res | Guinea-pig eosinophilic bronchitis model induced by intranasal polymyxin B |
+| [28441858](https://pubmed.ncbi.nlm.nih.gov/28441858/) | 2017 | Animal study | Zhonghua Yi Xue Za Zhi | Mouse eosinophilic bronchitis model induced by polymyxin B |
+
+Only one of these publications (2013) directly compares polymyxin B treatment outcomes, and the data compiled for this report classify it as a review rather than a randomized trial. Most others show polymyxin B being used to provoke airway reactions rather than to treat bronchitis.
 
 ---
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not available in the data. The product names point to topical products (ointment, cream, drops, bandages), and none of the listed products points to an inhaled or respiratory route.
-
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02236954 | Band-Aid Brand Adhesive Bandages Plus Antibiotic | — | — |
-| 02552418 | Soothe Antibiotic Drops | — | — |
-| 02230844 | Polysporin Antibiotic Cream | — | — |
-| 02230251 | Antibiotic Ointment USP | — | — |
-| 02181908 | Polyderm Ointment USP | — | — |
+| 02236954 | Band-Aid Brand Adhesive Bandages Plus Antibiotic | Not listed | Not listed |
+| 02552418 | Soothe Antibiotic Drops | Not listed | Not listed |
+| 02230844 | Polysporin Antibiotic Cream | Not listed | Not listed |
+| 02230251 | Antibiotic Ointment USP | Not listed | Not listed |
+| 02181908 | Polyderm Ointment USP | Not listed | Not listed |
+
+All 20 licences are valid single-ingredient authorizations; none are cancelled. They include topical creams and ointments, eye and ear drops, and ophthalmic combination products such as Maxitrol and Optimyxin. Dosage form and indication text are not available in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-- **Respiratory safety signal (from literature)**: Inhaled polymyxin B has been reported to cause bronchoconstriction and is used as a bronchial challenge agent in asthma and chronic obstructive bronchitis (PMIDs 231152, 2984629, 4322737). This is a significant concern for any airway-delivered use.
+- **Drug Interactions**: 73 interactions were identified. Examples of **Major** interactions:
+  - Amikacin
+  - Botulinum toxin type A
+  - Cisatracurium
+  - Cidofovir
+  - Deferasirox
+  - Intravenous human immunoglobulin G
+  - Iodinated contrast agents (iothalamic acid, diatrizoate)
+  - Live cholera vaccine
+  - Other immune globulins (botulinum neurotoxin A/B, cytomegalovirus)
 
-Please refer to the package insert for other safety information, including warnings, contraindications and drug interactions.
+  Examples of **Moderate** interactions: ethinylestradiol, estradiol, mestranol, mesalazine, balsalazide, ibandronate, capreomycin, picosulfuric acid, clofarabine.
+- **Respiratory safety signal**: The literature indicates inhaled polymyxin B can cause bronchoconstriction and airway hyperreactivity, particularly in people with asthma or chronic bronchitis.
+- **Hypersensitivity**: A case of anaphylaxis to polymyxin B–trimethoprim eye drops has been reported (PMID 26922212).
+
+Please refer to the package insert for formal warnings and contraindications.
 
 ---
 
@@ -115,15 +127,16 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests mainly on the model score. There are no registered trials, and the literature consists of weak case-level evidence plus reports that inhaled polymyxin B can provoke bronchoconstriction. The antibacterial rationale applies only to bacterial infection with resistant gram-negative organisms, not to bronchitis in general.
+The bronchitis prediction rests on a computational score alone. There are no registered trials, and the literature includes repeated reports that inhaled polymyxin B provokes bronchospasm in patients with bronchitis and asthma. The only supportive evidence is observational data on resistant Gram-negative tracheobronchitis.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank
-- Health Canada package insert warnings and contraindications
-- Controlled clinical data in a defined bacterial bronchitis or tracheobronchitis population
-- An inhaled-route safety assessment, including bronchospasm risk and the availability of a suitable formulation (none of the listed Canadian products appears to be one)
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- A clear definition of the target population (e.g., bacterial tracheobronchitis from multidrug-resistant Gram-negative organisms, rather than general bronchitis)
+- Controlled efficacy and inhaled-route safety data, including bronchospasm risk
+- Confirmation of the available routes and formulations (the Canadian products are topical, with no inhaled product)
 
-**Note:** Among the other predictions for this drug, **conjunctivitis** (rank 3, TxGNN score 99.06%) has much stronger support: a Phase 4 and a Phase 3 trial plus several RCTs of polymyxin B/trimethoprim ophthalmic products. This is probably an established ophthalmic use and not true repurposing, and the evidence is for fixed-dose combinations. It may be a better candidate for further review.
+**Note on other predictions:** Conjunctivitis (L2) has randomized comparisons of polymyxin B/trimethoprim versus moxifloxacin and other antibiotics. This appears to be an existing clinical use, so it should be confirmed against labeling before being treated as repurposing. Laryngotracheitis (L5) has no supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Temazepam
-parent: High Evidence (L1-L2)
-nav_order: 880
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 887
+evidence_level: L3
 indication_count: 1
 ---
 
 # Temazepam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **1** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,87 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 </div>
 
-# Temazepam: Predicted Indication for Sleep Disorder (Initiating and Maintaining Sleep)
+# Temazepam: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
 
 ## One-Sentence Summary
 
-Temazepam is a benzodiazepine-class hypnotic marketed in Canada as RESTORIL. The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, with **0 registered clinical trials** and **20 publications** in the evidence pack, including 1 Phase III RCT. This is better read as a confirmation of known on-label use than as a true repurposing signal, because the original indication fields in the pack are empty.
-
----
+Temazepam is a benzodiazepine hypnotic originally used to treat insomnia.
+The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, which is essentially the same condition as its original indication.
+No clinical trials are registered for this prediction, but **20 publications** (including guidelines, reviews and one RCT) discuss this use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Insomnia (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
+| Evidence Level | L3 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Temazepam is a benzodiazepine receptor agonist. It enhances GABA-A receptor-mediated inhibitory signaling, which produces the sedative-hypnotic effects relevant to falling asleep and staying asleep. This mechanism comes from the repurposing rationale in the pack, because the DrugBank mechanism-of-action field is not available.
+Detailed mechanism of action data is not available in the compiled data. From the published literature, temazepam is a benzodiazepine hypnotic that acts as a positive allosteric modulator of the GABA-A receptor. This enhances inhibitory neurotransmission and promotes sleep onset and maintenance (see PMID 1319429).
 
-The pack does not list an original indication for temazepam, and the Canadian license records contain no indication text. The high score (0.998) is consistent with temazepam's established use as a marketed hypnotic for insomnia. The literature also shows temazepam used as a hypnotic since the 1970s and 1980s. The prediction is therefore mechanistically coherent, but it does not point to a new therapeutic area.
+The predicted indication, difficulty initiating and maintaining sleep, is essentially the same as the original indication of insomnia. This is therefore not true repurposing but a re-labelling of the existing indication. The very high TxGNN score (99.82%) reflects this overlap rather than a novel therapeutic discovery.
 
----
+The literature also gives a nuanced picture of efficacy. Older sleep-laboratory work suggests temazepam is absorbed slowly, with peak blood levels at 2 to 3 hours. It may therefore be more useful for sleep maintenance than for sleep induction (PMID 6132933, 3332464).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39304187](https://pubmed.ncbi.nlm.nih.gov/39304187/) | 2024 | RCT (Phase III) | J Palliat Med | Three-arm, double-blind, placebo-controlled multicenter trial of temazepam or melatonin versus placebo for insomnia in advanced cancer |
-| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | RCT | JAMA Intern Med | Masked taper combined with behavioral intervention for discontinuing benzodiazepine receptor agonist hypnotics |
-| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Systematic review / network meta-analysis | Sleep | Compares the efficacy and safety of hypnotics for insomnia in older adults |
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guideline | J Clin Sleep Med | American Academy of Sleep Medicine guideline on drug-by-drug pharmacologic treatment of chronic insomnia in adults |
-| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Review | Drugs Aging | Pharmacological management of insomnia in the elderly; behavioral therapies are generally the first-line intervention |
-| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Review | Clin Ther | Safety and efficacy of sleep medicines in older adults, whose pharmacokinetics may be altered |
-| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Review | J Clin Psychopharmacol | Critical review of rebound insomnia after stopping short half-life benzodiazepine hypnotics, including temazepam |
-| [2859305](https://pubmed.ncbi.nlm.nih.gov/2859305/) | 1985 | Double-blind sleep-lab study | J Clin Psychopharmacol | Midazolam 15 mg and temazepam 30 mg versus placebo in middle-of-the-night dosing for sleep maintenance insomnia (18 volunteers) |
-| [3332464](https://pubmed.ncbi.nlm.nih.gov/3332464/) | 1987 | Review | Semin Neurol | Describes temazepam as effective only for sleep maintenance, in contrast to flurazepam |
-| [342551](https://pubmed.ncbi.nlm.nih.gov/342551/) | 1978 | Sleep-lab study | J Clin Pharmacol | In six insomniac subjects, temazepam 30 mg showed no effect on sleep induction, and effectiveness for sleep maintenance was not demonstrated |
-
-The older sleep-lab studies are small and sometimes disagree, so they should be weighed against the more recent guideline and meta-analysis. The literature relevance screening in the pack is still pending.
-
----
+| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guideline | J Clin Sleep Med | American Academy of Sleep Medicine guideline on pharmacologic treatment of chronic insomnia in adults, focusing on individual drugs |
+| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | RCT | JAMA Intern Med | Masked taper plus behavioural intervention for discontinuing benzodiazepine receptor agonist hypnotics |
+| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Network meta-analysis | Sleep | Comparative efficacy and safety of hypnotics for insomnia in older adults |
+| [32544795](https://pubmed.ncbi.nlm.nih.gov/32544795/) | 2020 | Meta-analysis | Sleep Med | Quantitative comparison of drug efficacy for insomnia |
+| [31730011](https://pubmed.ncbi.nlm.nih.gov/31730011/) | 2019 | Overview of reviews | Syst Rev | Comparative effectiveness and safety of pharmacological and non-pharmacological insomnia interventions |
+| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Review | Clin Ther | Safety and efficacy of sleep medicines in older adults |
+| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Review | Drugs Aging | Pharmacological management recommendations for insomnia in elderly patients |
+| [1319429](https://pubmed.ncbi.nlm.nih.gov/1319429/) | 1992 | Review | J Clin Psychiatry | Pharmacology of benzodiazepine hypnotics, including temazepam and triazolam |
+| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Review | J Clin Psychopharmacol | Rebound insomnia after discontinuing short half-life benzodiazepines such as triazolam and temazepam |
+| [6132933](https://pubmed.ncbi.nlm.nih.gov/6132933/) | 1983 | Sleep-lab study review | J Clin Psychopharmacol | Flurazepam, temazepam and triazolam compared for efficacy and withdrawal effects |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 604453 | RESTORIL |
-| 604461 | RESTORIL |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00604453 | RESTORIL | Not specified | Not specified |
+| 00604461 | RESTORIL | Not specified | Not specified |
 
 ## Safety Considerations
 
-Package insert warnings, contraindications and drug interaction data are not available in the pack. Please refer to the package insert for safety information.
+- **Disease-related cautions (knowledge graph):** The TxGNN knowledge graph flags contraindication relationships with the following conditions. These come from graph data, not from label text.
+  - Psychiatric and neurological: anxiety disorder, neurotic disorder, dysthymic disorder, amnestic disorder, retrograde amnesia
+  - Substance use: substance-related disorder, substance abuse/dependence
+  - Respiratory: obstructive sleep apnea syndrome, sleep apnea syndrome, congenital central hypoventilation syndrome, Haddad syndrome
+  - Organ disease: kidney disease, liver disease, gallbladder disease, pyoureter
+- **Drug interactions:** 100 interactions were identified. Examples from the first 20 listed:
+  - **Major:** morphine, liposomal morphine (additive central nervous system and respiratory depression is the expected concern)
+  - **Moderate:** bupropion, dronabinol, nabilone, metoclopramide, opium, sibutramine, teduglutide
+  - **Minor:** antacids (aluminum hydroxide, calcium carbonate, magaldrate, magnesium oxide, carbonate and hydroxide)
+- **Literature signals:** Rebound insomnia on discontinuation (PMID 2567741), and dependence and abuse concerns with benzodiazepines (PMID 26438969). The guidelines and reviews also stress caution in older adults.
 
-The literature and guideline set flags the following risks, especially for older adults:
-- **Falls and cognitive impairment:** these are the concerns behind the Beers criteria.
-- **Dependence and withdrawal:** the rebound insomnia review ([2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/)) describes worsening of sleep after stopping short half-life benzodiazepine hypnotics.
-- **Recommended use:** short-term, at the lowest effective dose, with a discontinuation plan. Behavioral therapy (CBT-I) is generally the first-line approach, and benzodiazepine receptor agonist discontinuation is itself the subject of an RCT ([39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/)).
-
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Temazepam is an established marketed hypnotic, and one Phase III double-blind RCT in advanced cancer insomnia is supported by guidelines and a network meta-analysis. The dependence, falls and cognitive risks mean any use should be short-term, at the lowest effective dose, with a discontinuation plan.
+The predicted indication essentially duplicates temazepam's established use in insomnia, so it adds no new repurposing value. The literature supports hypnotic use but includes no trials registered for this prediction, and the label-level safety data needed for screening are missing.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which block the safety screening step
-- Approved indication text, dosage form and manufacturer for the two RESTORIL DINs
-- The DrugBank mechanism of action, to complete the mechanistic analysis
-- Drug interaction data, as the query returned no results
-- Completion of the literature relevance screening, which is still pending
-- Confirmation of the original indication, since the pack has none
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text and dosage forms for the two RESTORIL DINs
+- Mechanism of action data from DrugBank
+- Confirmation of whether any genuinely distinct indication, rather than a re-labelling of insomnia, should be evaluated
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

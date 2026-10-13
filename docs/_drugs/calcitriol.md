@@ -2,7 +2,7 @@
 layout: default
 title: Calcitriol
 parent: Model Prediction Only (L5)
-nav_order: 146
+nav_order: 148
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Calcitriol: From an Unspecified Original Indication to Obsolete Vitamin D Deficiency
+# Calcitriol: From Hypercalcemia and Mineral Metabolism Disorders to Vitamin D Deficiency (Obsolete Term)
 
 ## One-Sentence Summary
 
-Calcitriol is the active form of vitamin D and is marketed in Canada, but the data provided do not state its approved indication.
-The TxGNN model predicts it may be effective for **obsolete vitamin D deficiency**, a deprecated ontology term.
-There are **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a model-only signal.
+Calcitriol is the active form of vitamin D. It is used for calcium and phosphate disorders such as hypoparathyroidism, hypophosphatemia and renal osteodystrophy.
+The TxGNN model predicts it may be effective for **"obsolete vitamin D deficiency"**, a disease term that has been retired from the ontology. The prediction has **0 clinical trials** and **0 publications** behind it, so it is supported by the model score alone.
 
 ---
 
@@ -43,7 +42,7 @@ There are **0 clinical trials** and **0 publications** supporting this specific 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the provided data |
+| Original Indication | Hypercalcemia, nephrocalcinosis, phosphorus metabolism disease, hypophosphatemia, hypoparathyroidism, renal osteodystrophy (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
@@ -55,9 +54,9 @@ There are **0 clinical trials** and **0 publications** supporting this specific 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Calcitriol is the active form of vitamin D, so a mechanistic link to vitamin D deficiency is biologically plausible.
+Detailed mechanism of action data is not currently available. Calcitriol is the hormonally active form of vitamin D, and it is already used in disorders of calcium and phosphate balance. A biological link to vitamin D deficiency is therefore plausible, and the very high TxGNN score probably reflects this closeness.
 
-The disease term is flagged "obsolete", meaning it is a deprecated entry in the disease ontology. The very high score (0.9996) is therefore likely an artifact of that deprecated node and not a usable repurposing signal. The original indication is also missing, so the relationship between the old and new indications cannot be assessed.
+The practical case is weak, though. Nutritional vitamin D deficiency is normally treated with native vitamin D (cholecalciferol or ergocalciferol), not calcitriol. The disease term is also flagged as obsolete, which makes the prediction hard to map onto a defined clinical use. No trials or publications were retrieved to support it.
 
 ---
 
@@ -75,21 +74,35 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-The dosage form and approved indication text were not provided for these authorizations. Five of the 8 DINs are shown.
-
 | DIN | Product Name |
 |---------|------|
-| 481823 | ROCALTROL |
-| 2485710 | TARO-CALCITRIOL |
-| 2485729 | TARO-CALCITRIOL |
-| 2431645 | CALCITRIOL-ODAN |
-| 481815 | ROCALTROL |
+| 00481823 | ROCALTROL |
+| 02485710 | TARO-CALCITRIOL |
+| 02485729 | TARO-CALCITRIOL |
+| 02431645 | CALCITRIOL-ODAN |
+| 00481815 | ROCALTROL |
+
+Three more authorizations are also valid: CALCITRIOL-ODAN (02431637), CALCITRIOL INJECTION USP (02399334) and SILKIS (02338572). All 8 are single-ingredient products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available for this report, so please refer to the package insert for label-based safety information.
+
+- **Disease-level contraindication signals (knowledge graph, not label text)**: kidney disease, pyoureter, sarcoidosis, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease, nephrolithiasis (including SLC26A1-related susceptibility), acute urate nephropathy, hyperphosphatemia, hypervitaminosis, arteriosclerosis obliterans.
+- **Drug interactions**: 100 interactions were recorded. The three listed as Major are:
+  - Cholecalciferol
+  - Calcifediol
+  - Burosumab
+
+  Moderate-level interactions include:
+  - Thiazide diuretics (hydrochlorothiazide, chlorothiazide, chlorthalidone and others)
+  - Barbiturates and anticonvulsants (amobarbital, butalbital, carbamazepine, fosphenytoin)
+  - Bile acid sequestrants (cholestyramine, colesevelam, colestipol)
+  - Digoxin and digitoxin
+  - Aluminum hydroxide
+  - Topical calcipotriol
 
 ---
 
@@ -98,16 +111,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score for a deprecated disease term, with no trials or literature behind it. The mechanism is plausible, but the score is not a reliable repurposing signal.
+The prediction rests on the model score alone. The target term is obsolete, no trials or literature support it, and native vitamin D is the usual treatment for nutritional deficiency.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
-- The approved original indication and the mechanism of action (from DrugBank)
-- Re-mapping of the prediction to a current, non-obsolete vitamin D deficiency term, followed by a fresh evidence search
+- Clarification of which current disease term replaces "obsolete vitamin D deficiency", and whether a calcitriol-specific clinical need exists.
+- Detailed mechanism of action data.
+- Package insert warnings and contraindications from Health Canada.
 
-**Note on other predictions in this pack:**
-- **Hereditary hypophosphatemic rickets (rank 7)** has the strongest support. It has two trials that study calcitriol directly: NCT03820518 (Phase 4 dose comparison, status unknown) and NCT03748966 (Early Phase 1 monotherapy). It is graded L2 with a "Proceed with Guardrails" recommendation. Calcitriol plus phosphate appears to be conventional therapy here, so this is probably a gap in the labeled-indication data and not a true repurposing.
-- **Renal tubular acidosis (rank 2)** is graded L4, with a plausible indirect rationale through associated bone disease. Its literature consists of physiology studies, case reports and reviews. None tests calcitriol as a treatment for the acidosis itself.
+**Note on other predictions from this analysis:** The same analysis ranked **hereditary hypophosphatemic rickets** as a candidate with much stronger support. It is rated L2 and "Proceed with Guardrails", with two registered trials (NCT03748966 and NCT03820518) and reviews describing calcitriol plus phosphate as conventional therapy. Any follow-up should look at this indication first. It would need monitoring of serum and urinary calcium, nephrocalcinosis and PTH, and burosumab is an established alternative.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

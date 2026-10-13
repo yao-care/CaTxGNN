@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cortisone Acetate
-parent: Moderate Evidence (L3-L4)
-nav_order: 224
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 226
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cortisone Acetate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cortisone Acetate: From Systemic Corticosteroid Use (Original Indication Not Recorded) to Alopecia Areata
+# Cortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
 
 ## One-Sentence Summary
 
-Cortisone acetate is a glucocorticoid, but the source data do not record its original approved indication.
-The TxGNN model predicts it may be effective for **alopecia areata**, with **0 registered clinical trials** and **20 publications** on this pair. Nearly all of the publications are 1950s case series and case reports, so the evidence is weak.
+Cortisone acetate is a glucocorticoid prodrug that has been used for adrenal insufficiency, autoimmune and inflammatory diseases (such as Crohn disease), and certain leukaemias.
+The TxGNN model predicts it may be effective for **alopecia areata**, but the supporting evidence is thin: **no registered clinical trials** and only **2 publications**, both case-level reports from 1952.
 
 ---
 
@@ -42,31 +42,23 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **0 r
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Canadian license data |
+| Original Indication | Not stated in the Canadian licence record. Knowledge-graph indications include adrenocortical insufficiency, Addison disease, autoimmune disease and Crohn disease |
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
+| Evidence Level | L5 by the strict rules (no Phase 2/3 RCTs, no observational studies or systematic reviews). The two 1952 case reports are the only human evidence; the underlying analysis rated this prediction L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (a research question, not ready for development) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the source record. Cortisone is a prodrug converted to hydrocortisone (cortisol) by 11β-HSD1. It acts as a glucocorticoid receptor agonist and suppresses inflammatory and T-cell activity.
+Detailed mechanism of action data is not available for this drug. Based on known pharmacology, cortisone acetate is a prodrug that is converted to cortisol by the enzyme 11-beta-HSD1. Cortisol produces the broad anti-inflammatory and immunosuppressive effects typical of glucocorticoids.
 
-Alopecia areata is a T-cell-mediated autoimmune attack on the hair follicle, with collapse of the follicle's immune privilege. Glucocorticoid immunosuppression is therefore biologically consistent with the disease, which explains the very high TxGNN score.
+Alopecia areata is an autoimmune condition in which T cells attack the hair follicle. This is mechanistically consistent with the drug's known use in autoimmune and inflammatory diseases. Corticosteroids as a class are an established treatment for alopecia areata (intralesional, topical and short-course systemic).
 
-The prediction should be read with caution:
-- The historical evidence comes from uncontrolled studies.
-- Cortisone has been largely replaced by prednisone and prednisolone.
-- Hair regrowth from systemic steroids is often lost once treatment stops.
-- Long-term systemic use carries substantial adverse effects.
-
-The score is better read as agreement with known steroid pharmacology than as new evidence.
-
-The other predicted indications are much weaker. Nine other indications were predicted, and none has a registered trial. Only idiopathic steroid-sensitive nephrotic syndrome has any literature (6 publications), and it mostly reflects existing steroid standard of care. The remaining seven have no supporting literature, and several conflict with the disease biology. Examples are steroid-resistant nephrotic syndrome and genetic hair disorders.
+There are important caveats. Oral cortisone acetate is not used for this purpose today. Systemic steroids tend to be followed by relapse after withdrawal, and they carry significant side effects. The class-level rationale is therefore reasonable, but it does not show that this specific drug is a useful or competitive option.
 
 ---
 
@@ -78,20 +70,12 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Most records have no abstract in the source data, so the key findings below are taken from the titles only.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [13012012](https://pubmed.ncbi.nlm.nih.gov/13012012/) | 1953 | Review | Lancet | General review of alopecia areata (abstract not available) |
-| [14927344](https://pubmed.ncbi.nlm.nih.gov/14927344/) | 1952 | Case series | JAMA | Cortisone and ACTH in alopecia areata and totalis |
-| [14908175](https://pubmed.ncbi.nlm.nih.gov/14908175/) | 1952 | Case series | J Invest Dermatol | Cortisone acetate for alopecia areata totalis and universalis |
-| [12980788](https://pubmed.ncbi.nlm.nih.gov/12980788/) | 1952 | Case series | JAMA | Therapeutic experiments with orally administered cortisone |
-| [13460157](https://pubmed.ncbi.nlm.nih.gov/13460157/) | 1957 | Case series | Br J Clin Pract | Use of cortisone in alopecia areata and totalis |
-| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Case series | Medical Times | Cortisone, hydrocortisone, prednisone and prednisolone in alopecia areata, partialis and totalis |
-| [13271835](https://pubmed.ncbi.nlm.nih.gov/13271835/) | 1955 | Case series | J Invest Dermatol | Effect of cortisone in alopecia areata |
-| [13554262](https://pubmed.ncbi.nlm.nih.gov/13554262/) | 1958 | Case series | Probl Endokrinol Gormonoter | ACTH and cortisone treatment of alopecia totalis and areata (Russian-language report) |
-| [39345662](https://pubmed.ncbi.nlm.nih.gov/39345662/) | 2024 | Case report | Case Rep Endocrinol | 58-year-old man with refractory myasthenia gravis and concurrent alopecia areata after thymectomy. Improvement was reported after a cortisone taper. |
-| [14952032](https://pubmed.ncbi.nlm.nih.gov/14952032/) | 1952 | Case report | AMA Arch Dermatol Syphilol | One case of alopecia areata universalis treated with ACTH and intramuscular cortisone acetate, with post-treatment follow-up |
+| [14908175](https://pubmed.ncbi.nlm.nih.gov/14908175/) | 1952 | Case report/case series | J Invest Dermatol | Treatment of alopecia areata totalis and universalis with cortisone acetate (no abstract available) |
+| [14952032](https://pubmed.ncbi.nlm.nih.gov/14952032/) | 1952 | Case report | AMA Arch Dermatol Syphilol | One case of alopecia areata universalis treated with ACTH plus intramuscular cortisone acetate, with post-treatment observations (no abstract available) |
+
+Both reports are historical and lack abstracts, so outcomes cannot be summarised here. The second case also involved ACTH, so the effect of cortisone acetate alone cannot be separated.
 
 ---
 
@@ -99,15 +83,35 @@ Most records have no abstract in the source data, so the key findings below are 
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 280437 (license number as recorded) | CORTISONE ACETATE | Not listed | Not listed |
+| 00280437 | CORTISONE ACETATE | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The data compiled for this report contain no label-based warnings or contraindications, and no drug interactions were found. The knowledge graph links the drug to contraindications in the following conditions (these are database associations, not label text):
 
-One safety signal appears in the literature for a different indication. A 1977 study reported posterior subcapsular cataract in 9 of 16 children with nephrotic syndrome treated with corticosteroids for more than 12 months (PMID 403074).
+- **Cardiovascular and metabolic:** hypertension, hyperglycaemia
+- **Organ disease:** kidney disease, liver disease, gallbladder disease, pyoureter, gastric ulcer
+- **Neurological:** epilepsy
+- **Infections:** measles, herpes simplex keratitis, anogenital human papillomavirus infection, common wart
+- **Pituitary and gonadal deficiency states:** hypopituitarism, growth hormone deficiency and related syndromes, hypogonadotropic hypogonadism (including Kallmann syndrome)
+
+Please refer to the package insert for authoritative safety information. Obtaining it is a blocking gap for safety screening.
+
+---
+
+## Other Predicted Indications (Lower Priority)
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Alopecia mucinosa | 99.95% | L5 | Plausible anti-inflammatory rationale, but no supporting data |
+| 3 | Telogen effluvium | 99.94% | L5 | Usually self-limiting and not immune-mediated, so the rationale is weak |
+| 4 | Folliculitis decalvans | 99.94% | L5 | Likely bacterial component, and immunosuppression could worsen infection |
+| 5 | Alopecia antibody deficiency | 99.93% | L5 | Immunosuppression is potentially harmful in antibody deficiency |
+| 6–8 | Hereditary or genetic hair disorders (three entries) | 99.7–99.93% | L5 | No glucocorticoid-responsive mechanism |
+| 9 | Idiopathic steroid-sensitive nephrotic syndrome | 99.48% | L5 | Strong class rationale, but prednisolone is the standard agent |
+| 10 | Steroid-resistant nephrotic syndrome | 99.47% | L5 | Resistant to glucocorticoids by definition, so unlikely to help |
 
 ---
 
@@ -116,15 +120,14 @@ One safety signal appears in the literature for a different indication. A 1977 s
 **Decision: Hold**
 
 **Rationale:**
-The alopecia areata rationale is mechanistically plausible, but the evidence is limited to uncontrolled 1950s case series and one recent case report, with no registered trials. Cortisone has largely been superseded by prednisone and prednisolone. Health Canada safety information is also missing.
+The alopecia areata prediction has a sound class-level rationale, since corticosteroids are an established therapy. However, the drug-specific evidence is limited to two 1952 case-level reports with no abstracts. There are no registered trials, and better-studied steroids and newer therapies are available. The prediction is best treated as a research question for now.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications
-- Mechanism-of-action data and the original approved indication
-- A comparison against current alopecia areata standards of care, such as intralesional or topical corticosteroids and JAK inhibitors, to show any added value of cortisone acetate
-- Modern controlled data, with long-term safety and relapse-after-withdrawal evidence, before any clinical consideration
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before application.*
+- The Health Canada package insert (warnings and contraindications), which is currently a blocking gap
+- Mechanism of action data (for example from DrugBank)
+- The approved indications and dosage form for the Canadian licence
+- A review of the full text of the 1952 reports, and a modern literature search comparing cortisone acetate with current corticosteroids and newer alopecia areata therapies
+- A justification for choosing cortisone acetate over agents such as prednisolone, plus a relapse and adverse-effect risk assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

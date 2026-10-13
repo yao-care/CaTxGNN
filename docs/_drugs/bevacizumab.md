@@ -2,7 +2,7 @@
 layout: default
 title: Bevacizumab
 parent: Model Prediction Only (L5)
-nav_order: 110
+nav_order: 112
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bevacizumab: From Solid Tumor Therapy to Epiglottis Neoplasm
+# Bevacizumab: From Peritoneal and Ovarian Cancer to Epiglottis Neoplasm
 
 ## One-Sentence Summary
 
-Bevacizumab is an anti-VEGF-A monoclonal antibody, generally used to treat advanced solid tumors.
-The TxGNN model predicts it may be effective for **epiglottis neoplasm**, but the prediction is model-derived only, with **0 clinical trials** and **0 publications** retrieved for this indication.
+Bevacizumab is an anti-VEGF antibody originally used for cancers such as primary peritoneal carcinoma, ovarian cancer, breast cancer, metastatic colon cancer and glioblastoma.
+The TxGNN model predicts it may be effective for **epiglottis neoplasm**, but **no clinical trials or publications** were retrieved for this indication, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the source data (generally used in advanced solid tumors) |
+| Original Indication | Peritoneal and ovarian cancers, breast cancer, metastatic colon cancer, glioblastoma (the Canadian licence records contain no indication text, so this comes from the knowledge graph indication list) |
 | Predicted New Indication | Epiglottis neoplasm |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
@@ -50,29 +50,31 @@ The TxGNN model predicts it may be effective for **epiglottis neoplasm**, but th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. From general pharmacology, bevacizumab binds VEGF-A and blocks its signaling, which reduces the growth of new tumor blood vessels.
+Detailed mechanism of action data is not available in the data compiled for this report. Bevacizumab is a monoclonal antibody that neutralizes VEGF-A and inhibits tumour angiogenesis. This is the general basis for its use in several solid tumours.
 
-Head and neck tumors, including those of the epiglottis, are often highly vascularized, so blocking angiogenesis is biologically plausible. However, this is a generic argument. No study specific to epiglottis neoplasm was found, and the similarity to the original indication has not been assessed.
+Epiglottis neoplasm is a head and neck tumour. Anti-angiogenic therapy is plausibly relevant to such tumours, and the TxGNN score is high. However, no trials or publications specific to this indication were retrieved, so the link is a biological hypothesis and has not been tested for this disease.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for epiglottis neoplasm.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for epiglottis neoplasm.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2520737 | BAMBEVI | Not listed | Not listed |
-| 2522829 | AYBINTIO | Not listed | Not listed |
-| 2522837 | AYBINTIO | Not listed | Not listed |
-| 2489430 | ZIRABEV | Not listed | Not listed |
-| 2520729 | BAMBEVI | Not listed | Not listed |
+Thirteen valid single-ingredient licences were found. Dosage form and indication text were not available in the data compiled for this report.
 
-The record shows 13 licences in total, and only these 5 are listed here.
+| DIN | Product Name | Status |
+|---------|------|------|
+| 02270994 | AVASTIN | Valid |
+| 02470748 | MVASI | Valid |
+| 02470756 | MVASI | Valid |
+| 02489430 | ZIRABEV | Valid |
+| 02489449 | ZIRABEV | Valid |
+
+Other valid licences are for BAMBEVI (02520729, 02520737), AYBINTIO (02522829, 02522837), VEGZELMA (02534177, 02534185) and ABEVMY (02522160, 02522179).
 
 ## Cytotoxicity
 
@@ -81,26 +83,34 @@ The record shows 13 licences in total, and only these 5 are listed here.
 | Cytotoxicity Classification | Targeted therapy (anti-VEGF monoclonal antibody), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; typically blood pressure, urinary protein, and signs of bleeding or wound-healing problems |
+| Handling Protection | Please refer to the package insert and local institutional handling policy |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions:** 22 interactions were recorded (DDInter). The Major-level interactions are:
+- Deferiprone
+- Samarium (153Sm) lexidronam
+- Panitumumab
+- Sunitinib
+- Thalidomide
+
+The remaining interactions are Moderate, mainly with bisphosphonates (alendronic, risedronic, etidronic, pamidronic, tiludronic acid, ibandronate), haematopoietic growth factors (filgrastim, pegfilgrastim, sargramostim, palifermin) and radiopharmaceuticals (strontium-89, radium-223, phosphorus-32 sodium phosphate), plus idelalisib and romosozumab.
+
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no trials or publications for epiglottis neoplasm, so the evidence is at L5 (model prediction only). Safety data is also missing.
+The prediction score is very high (99.90%), but no clinical trials or literature support epiglottis neoplasm. The evidence is at L5 (model prediction only), and package insert safety data have not yet been compiled.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Literature and trial searches specific to epiglottis and laryngeal tumours, including histology (benign vs. malignant)
 - Mechanism of action data from DrugBank
-- A dedicated evidence review for epiglottis neoplasm, including head and neck cancer trials of bevacizumab
-- Original indication, dosage form and indication text for each licence, and confirmation of the regulatory source (the pack's input list names TFDA, while the market data is described as Health Canada)
-- Consideration of the other predicted candidates. Cystic neoplasm (rank 7) has the most trial evidence (L3) but only indirect support, and cervical neuroblastoma (rank 6) is flagged as a research question.
+- Health Canada package insert warnings and contraindications, to allow safety screening
+- A review of the Major drug interactions (sunitinib, panitumumab, thalidomide, deferiprone, samarium-153) against likely co-medications in head and neck oncology
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

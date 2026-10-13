@@ -2,7 +2,7 @@
 layout: default
 title: Procainamide
 parent: Model Prediction Only (L5)
-nav_order: 765
+nav_order: 772
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Procainamide: From Cardiac Arrhythmia to Tourette Syndrome
+# Procainamide: From Arrhythmia Treatment to Tourette Syndrome
 
 ## One-Sentence Summary
 
-Procainamide is a Class IA sodium-channel blocker antiarrhythmic, marketed in Canada as an injection.
-The TxGNN model predicts it may be effective for **Tourette syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It rests on the model score alone.
+Procainamide is an injectable antiarrhythmic (a class Ia sodium channel blocker) marketed in Canada as Procainamide Hydrochloride Injection USP.
+The TxGNN model predicts it may be effective for **Tourette syndrome**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence record (the drug's known use is cardiac arrhythmia) |
+| Original Indication | Not stated in the Canadian license data (the drug is known as an antiarrhythmic) |
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 99.46% |
 | Evidence Level | L5 |
@@ -54,9 +54,9 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Procainamide is a Class IA antiarrhythmic that blocks sodium channels, and its efficacy in arrhythmia is well established. However, no plausible mechanism links this action to tic disorders.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Procainamide is generally known as a class Ia sodium channel blocker used for heart rhythm disorders. It has no known action on the dopaminergic or cortico-striatal circuitry implicated in Tourette syndrome.
 
-The prediction therefore looks like a statistical artefact of the knowledge graph rather than a biologically grounded hypothesis. The score is very high (99.46%), but the model rank is 9,829. Many other predictions for this drug score nearly the same, so the score does little to separate promising candidates from weak ones.
+No plausible mechanistic bridge between the original use (arrhythmia) and the predicted use (a neurodevelopmental tic disorder) is evident. The high TxGNN score reflects a pattern in the knowledge graph, not supporting trials or literature. The prediction should be treated as a weak hypothesis only.
 
 ---
 
@@ -76,15 +76,22 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2184486 | PROCAINAMIDE HYDROCHLORIDE INJECTION USP | Injection (from product name) | Not provided in the licence record |
+| 02184486 | PROCAINAMIDE HYDROCHLORIDE INJECTION USP | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were found for this drug.
+- **Contraindications suggested by the knowledge graph** (derived from drug-disease links in the TxGNN knowledge graph, not from label text):
+  - Cardiac: long QT syndrome (including familial), torsades de pointes, atrioventricular block, digitalis poisoning
+  - Blood: agranulocytosis, neutropenia (including several congenital forms), thrombocytopenia
+  - Immune: systemic lupus erythematosus (including pediatric)
+  - Neuromuscular: myasthenia gravis, neuromuscular junction disease
+  - Organ and metabolic: kidney disease, liver disease, gallbladder disease, potassium deficiency, hypotensive disorder
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs. Examples of **Major** interactions include clarithromycin, levofloxacin, dolasetron, palonosetron, eliglustat, picosulfuric acid, sodium sulfate, and polyethylene glycol with electrolytes. Several **Moderate** interactions were also noted, such as famotidine, ranitidine, cimetidine, metformin, loperamide, metoclopramide, and bisacodyl.
+- **Procainamide's autoimmune signal**: Literature retrieved for other predicted indications consistently describes procainamide-induced lupus, antinuclear and anti-histone antibodies, and inhibition of T-cell DNA methylation.
 
-One safety signal appears in the evidence for another predicted indication, rheumatoid arthritis. Procainamide is associated with drug-induced lupus, antihistone and antinuclear antibodies, glomerulopathy and pulmonary fibrosis. Any repurposing plan should account for this autoimmune risk, and NAT2 acetylator status is a relevant pharmacogenetic modifier.
+Please refer to the package insert for the official warnings and contraindications.
 
 ---
 
@@ -93,18 +100,24 @@ One safety signal appears in the evidence for another predicted indication, rheu
 **Decision: Hold**
 
 **Rationale:**
-The Tourette syndrome prediction has no trials, no literature and no identifiable mechanism, so it is Level L5 (model prediction only). Procainamide's known pharmacology does not point toward tic disorders.
+The Tourette syndrome prediction rests only on a graph score. There are no trials, no literature, and no plausible mechanism. The drug also carries significant cardiac, haematological and autoimmune safety concerns.
 
 **To proceed, the following is needed:**
-- The Health Canada product monograph (warnings, contraindications, approved indication), since safety screening cannot start without it
-- Mechanism of action data from DrugBank, followed by an analysis of any link to tic disorders
+- Health Canada package insert warnings, contraindications, and approved indication text (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank) to assess any link to tic-disorder biology
 - Preclinical or mechanistic evidence supporting a role in Tourette syndrome
-- A review of the other predicted indications:
-  - **Hyperthyroidism** and **Prinzmetal angina** have only case reports and small cohorts. These describe arrhythmia management in those patients, not treatment of the underlying disease.
-  - **Rheumatoid arthritis** shows a safety signal rather than benefit.
-  - The remaining predictions have no supporting evidence.
+- A benefit-risk assessment addressing QT prolongation, blood dyscrasias, and drug-induced lupus
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+---
+
+### Other Predicted Indications (Brief Note)
+
+Other predictions in the data compiled for this report also have no clinical trials and no supporting evidence. All are rated Hold:
+
+- **Hyperthyroidism** (99.44%): L5. The retrieved papers address atrial fibrillation rate control and drug-induced vasculitis, not treatment of hyperthyroidism.
+- **Prinzmetal angina** (99.43%): L4. The papers cover arrhythmias complicating variant angina, and class Ia agents may provoke torsades de pointes.
+- **Rheumatoid arthritis** (99.12%): L4. The literature shows procainamide *inducing* autoimmunity (drug-induced lupus), which is a safety signal rather than support.
+- **Methemoglobinemia, alpha type** (99.40%), **methemoglobinemia** (99.33%), **methemoglobin reductase deficiency** (99.20%), **nephrogenic syndrome of inappropriate antidiuresis** (99.27%), **trichotillomania** (99.26%), and **resistance to thyroid hormone (THRB mutation)** (99.22%): L5, with no plausible mechanism or evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

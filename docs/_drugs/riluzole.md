@@ -2,7 +2,7 @@
 layout: default
 title: Riluzole
 parent: Model Prediction Only (L5)
-nav_order: 802
+nav_order: 809
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Riluzole: From Amyotrophic Lateral Sclerosis to Bilateral Parasagittal Parieto-Occipital Polymicrogyria
+# Riluzole: From Amyotrophic Lateral Sclerosis to Bilateral Parasagittal Parieto-occipital Polymicrogyria
 
 ## One-Sentence Summary
 
-Riluzole is a glutamate-modulating neuroprotective drug. The literature in this pack describes it as the only drug shown to modestly prolong survival in amyotrophic lateral sclerosis (ALS).
-The TxGNN model ranks **bilateral parasagittal parieto-occipital polymicrogyria** as its top prediction, but there are **0 clinical trials** and **0 publications** behind it, and no plausible mechanistic link. This is a model-only signal.
+Riluzole is a drug originally used to treat amyotrophic lateral sclerosis (ALS).
+The TxGNN model predicts it may be effective for **bilateral parasagittal parieto-occipital polymicrogyria** (a rare cortical malformation), but **no clinical trials and no publications** currently support this specific prediction. It rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | ALS (inferred from the literature; the Canadian license records carry no indication text) |
+| Original Indication | Amyotrophic lateral sclerosis |
 | Predicted New Indication | Bilateral parasagittal parieto-occipital polymicrogyria |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -48,58 +50,73 @@ The TxGNN model ranks **bilateral parasagittal parieto-occipital polymicrogyria*
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in DrugBank for this pack. The pack's own rationale notes that riluzole inhibits glutamate release and modulates voltage-gated sodium channels. This addresses the glutamate excitotoxicity proposed in ALS pathogenesis.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, riluzole modulates glutamate signaling and voltage-gated sodium channels. This is the basis of its use in ALS, where excitotoxicity in motor neurons is thought to play a role.
 
-Polymicrogyria is a developmental malformation of the cerebral cortex. It is not a glutamate-driven neurodegenerative process like ALS. The evidence review found **no evident mechanistic link** between riluzole's neuroprotective actions and this condition. The high TxGNN score (99.99%) is the only support for the prediction, and a high score alone does not indicate clinical plausibility.
+The link to polymicrogyria is speculative. Cortical malformations are often associated with epilepsy and abnormal neuronal excitability, so a modulator of glutamate and sodium channels could theoretically be relevant. No data supplied here support this link, and the very high score (0.9999) should be read as a model output only, not as evidence of efficacy.
 
-The top-10 list is dominated by other poorly supported predictions. The motor neuron disorders (rank 3, 5, 6, 7 and 10) have an indirect, plausible link through the ALS mechanism, but none is verified. Several other entries (skeletal dysplasia, mitochondrial myopathy, retinal-dwarfism syndrome) have no plausible link. Rank 8, "amyotrophic lateral sclerosis, susceptibility to", is the only prediction with literature support. It is essentially the drug's original disease area, so it is not a true repurposing candidate.
+Other top-ranked predictions were also reviewed. Several are motor neuron conditions that overlap biologically with ALS (lower motor neuron syndrome, monomelic amyotrophy, Mills syndrome, ALS type 22). These are mechanistically more plausible than the top-ranked prediction, but they also have no disease-specific trial data. Others, such as axial spondylometaphyseal dysplasia, appear to be graph-based artifacts with no evident mechanistic link.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available for the top-ranked indication.
+Currently no related literature available for the top-ranked predicted indication.
 
-For context, the 20 publications retrieved for rank 8 (ALS susceptibility) are mostly reviews, with some preclinical work. They are not RCTs:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9178165](https://pubmed.ncbi.nlm.nih.gov/9178165/) | 1997 | Review | Journal of Neurology | Glutamate excitotoxicity as a major pathophysiological mechanism of motor neuron injury in ALS |
-| [21128691](https://pubmed.ncbi.nlm.nih.gov/21128691/) | 2011 | Review | CNS Drugs | Riluzole is the only medication shown to modestly prolong ALS survival |
-| [20698807](https://pubmed.ncbi.nlm.nih.gov/20698807/) | 2011 | Not classified | Amyotroph Lateral Scler | Riluzole, thought to affect glutamate metabolism, improves survival only modestly; critical appraisal of ALS trial design |
-| [8061281](https://pubmed.ncbi.nlm.nih.gov/8061281/) | 1994 | Preclinical | Neuroreport | Neuroprotective effects of riluzole against ALS cerebrospinal fluid toxicity in cultured neurons |
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2352583 | APO-RILUZOLE |
-| 2390299 | MYLAN-RILUZOLE |
-| 2242763 | RILUTEK |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02352583 | APO-RILUZOLE | Not specified | Not specified |
+| 02390299 | MYLAN-RILUZOLE | Not specified | Not specified |
+| 02242763 | RILUTEK | Not specified | Not specified |
+
+All three authorizations are valid single-ingredient products.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Knowledge-graph contraindication associations** (these come from a knowledge graph, not from package insert text):
+- Neutropenia and agranulocytosis
+- Substance abuse/dependence
+- Hyperbilirubinemia, hereditary hyperbilirubinemia, and Gilbert syndrome
+- Interstitial lung disease
+- Drug-induced liver injury
+
+**Drug Interactions**: 44 interactions were identified. Examples from the first 20 listed:
+- **Moderate**: obeticholic acid, naltrexone, deferasirox, osilodrostat, anagrelide, asparaginase *Escherichia coli*, brentuximab vedotin, clofarabine, methotrexate, epirubicin
+- **Minor**: omeprazole, caffeine, theophylline, aminophylline
+- **Severity unknown**: metformin, simvastatin, ranitidine, cyanocobalamin, salbutamol, ibuprofen
+
+Please refer to the package insert for warnings and contraindications from the approved label.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no clinical trials, no literature and no plausible mechanistic link, so it rests solely on the model score (evidence level L5). Rank 8 (ALS susceptibility) is the only prediction with literature support, and it overlaps with riluzole's existing use. It would be treated as a research question rather than a new indication.
+The prediction rests on a model score only, with no clinical trials or literature for polymicrogyria. The mechanistic link is speculative. The Canada label information (warnings, contraindications, approved indication text) is also incomplete.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism-of-action data from DrugBank
-- Approved indication text for the three Canadian licenses
-- Preclinical or mechanistic evidence linking glutamatergic or sodium-channel modulation to cortical malformation, before any clinical consideration
-- Separate review of the motor neuron disorders (Mills syndrome, monomelic amyotrophy, lower motor neuron syndrome) as the more plausible directions
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for riluzole
+- Health Canada package insert warnings, contraindications, and approved indication text
+- Preclinical or clinical evidence in cortical malformation or malformation-associated epilepsy
+- Given the knowledge-graph liver and haematological contraindication associations, a monitoring plan for liver function and blood counts
+- Consideration of the motor neuron predictions (e.g., lower motor neuron syndrome, ALS type 22) as more plausible alternatives, each needing disease-specific evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

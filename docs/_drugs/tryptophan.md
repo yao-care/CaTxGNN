@@ -2,7 +2,7 @@
 layout: default
 title: Tryptophan
 parent: Moderate Evidence (L3-L4)
-nav_order: 947
+nav_order: 954
 evidence_level: L3
 indication_count: 8
 ---
@@ -29,20 +29,18 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-# Tryptophan: Predicted New Indication, Restless Legs Syndrome
+# Tryptophan: From Nutritional/Supplement Use to Restless Legs Syndrome
 
 ## One-Sentence Summary
 
-Tryptophan is an essential amino acid and a precursor of serotonin and melatonin, and it is marketed in Canada under 20 licences.
-The TxGNN model predicts it may be effective for **Restless Legs Syndrome (RLS)**.
-Support is limited: **0 registered clinical trials** and **8 publications**, of which only two are small studies from the 1980s that directly examine tryptophan.
-
----
+Tryptophan is an essential amino acid and the precursor of serotonin and melatonin. It is marketed in Canada as single-ingredient products and as a component of parenteral nutrition amino acid solutions.
+The TxGNN model predicts it may be effective for **restless legs syndrome**, but there are **no registered clinical trials** and only **6 publications**. Most are indirect, and the two direct clinical reports date from 1986 and 1987.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | No approved indication text is available in the Canadian licence records |
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 99.72% |
 | Evidence Level | L3 |
@@ -50,75 +48,80 @@ Support is limited: **0 registered clinical trials** and **8 publications**, of 
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tryptophan is the dietary precursor of serotonin and melatonin. Its role in sleep and mood regulation is well recognised, and mechanistically it may be applicable to restless legs syndrome.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known biology, tryptophan is the precursor of serotonin and melatonin. Both are involved in sleep-wake regulation and motor control, so it may be mechanistically applicable to restless legs syndrome (RLS).
 
-RLS is thought to involve the dopaminergic system, and serotonergic and dopaminergic signalling interact. A related paper on DNAJC12 deficiency, an inherited disorder with impaired dopamine and serotonin neurotransmission, reports RLS as a feature. This supports a monoamine-pathway link, but it is not tryptophan-specific evidence.
+RLS is thought to involve dopaminergic dysfunction and iron dysregulation, with possible serotonergic modulation of motor and sleep circuits. Two older clinical studies (1986 and 1987) examined L-tryptophan in RLS and periodic leg movements. A review of tryptophan in neuropsychiatric disorders also discusses serotonin's role in movement disorders.
 
-Direct clinical support is thin. It consists of two small 1980s studies: one on L-tryptophan in RLS (Sandyk, 1986) and one on periodic leg movements with L-dopa, 5-hydroxytryptophan and L-tryptophan (Guilleminault, 1987). No modern controlled trials were retrieved.
-
----
+The direction of effect is uncertain. Serotonergic antidepressants have been linked to RLS and movement-disorder reports in a pharmacovigilance study. Increasing serotonin precursor availability could therefore help or worsen symptoms. The evidence is old, small, and not confirmed by modern trials.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3953904](https://pubmed.ncbi.nlm.nih.gov/3953904/) | 1986 | Clinical study (small) | Am J Psychiatry | L-Tryptophan in the treatment of restless legs syndrome. This is the most direct evidence, but the study is small and old, and no abstract was available. |
-| [3659737](https://pubmed.ncbi.nlm.nih.gov/3659737/) | 1987 | Clinical study | Sleep | Periodic leg movement, L-dopa, 5-hydroxytryptophan and L-tryptophan compared. No abstract was available. |
-| [1305630](https://pubmed.ncbi.nlm.nih.gov/1305630/) | 1992 | Review | Int J Neurosci | L-tryptophan in neuropsychiatric disorders. Describes serotonin's role in sleep, mood and motor behaviour, and in movement disorders such as akathisia. |
-| [33836477](https://pubmed.ncbi.nlm.nih.gov/33836477/) | 2021 | Systematic review/meta-analysis | Sleep Med Rev | RLS in chronic liver disease. Mentions elevated tryptophan as one possible contributor to sleep disturbance, but is not tryptophan-specific. |
-| [36897462](https://pubmed.ncbi.nlm.nih.gov/36897462/) | 2023 | Case series | Neurol Sci | RLS in DNAJC12 deficiency, a disorder of dopaminergic and serotonergic neurotransmission. Indirect monoamine-pathway link. |
-| [32546134](https://pubmed.ncbi.nlm.nih.gov/32546134/) | 2020 | Pharmacovigilance | BMC Psychiatry | Antidepressant-associated movement disorders. Indirect link through serotonergic drugs. |
-| [1777530](https://pubmed.ncbi.nlm.nih.gov/1777530/) | 1991 | Case report | Biol Psychiatry | Lithium-induced RLS. Not tryptophan-directed. |
-| [2881477](https://pubmed.ncbi.nlm.nih.gov/2881477/) | 1987 | Review | Am Fam Physician | Diagnosis and treatment of insomnia. Only peripherally relevant. |
-
----
+| [3953904](https://pubmed.ncbi.nlm.nih.gov/3953904/) | 1986 | Clinical study (small, uncontrolled or early-phase) | Am J Psychiatry | L-tryptophan examined as a treatment for restless legs syndrome |
+| [3659737](https://pubmed.ncbi.nlm.nih.gov/3659737/) | 1987 | Clinical study | Sleep | Periodic leg movements studied with L-dopa, 5-hydroxytryptophan and L-tryptophan |
+| [1305630](https://pubmed.ncbi.nlm.nih.gov/1305630/) | 1992 | Review | Int J Neurosci | Review of serotonin's role in neuropsychiatric conditions, including movement disorders such as akathisia |
+| [33836477](https://pubmed.ncbi.nlm.nih.gov/33836477/) | 2021 | Systematic review/meta-analysis | Sleep Med Rev | RLS in chronic liver disease; elevated tryptophan, histamine and dopamine turnover and iron disturbances are discussed as contributing factors (indirect) |
+| [36897462](https://pubmed.ncbi.nlm.nih.gov/36897462/) | 2023 | Case series/genetic | Neurol Sci | RLS in DNAJC12 deficiency, which impairs dopamine and serotonin neurotransmission (indirect monoamine link) |
+| [32546134](https://pubmed.ncbi.nlm.nih.gov/32546134/) | 2020 | Pharmacovigilance study | BMC Psychiatry | Antidepressant-associated movement disorders; indirect and possibly in the opposite direction |
 
 ## Canada Market Information
 
-Tryptophan holds 20 licences in Canada. Five main authorisations are listed below. The records do not include dosage form or approved indication text.
+Health Canada records show 20 valid single-ingredient licences, with no cancelled licences. The records do not include dosage form or approved indication text. The main authorizations are:
 
-| DIN | Product Name |
-|---------|------|
-| 00654531 | TRYPTAN |
-| 02239327 | TRYPTAN |
-| 02458721 | APO-TRYPTOPHAN |
-| 00718149 | TRYPTAN |
-| 02240333 | TEVA-TRYPTOPHAN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00654531 | TRYPTAN | Not listed | Not listed |
+| 02239327 | TRYPTAN | Not listed | Not listed |
+| 02458721 | APO-TRYPTOPHAN | Not listed | Not listed |
+| 02240333 | TEVA-TRYPTOPHAN | Not listed | Not listed |
+| 02046709 | CLINIMIX | Not listed | Not listed |
 
----
+Other licences include further TRYPTAN, APO-TRYPTOPHAN, TEVA-TRYPTOPHAN, CLINIMIX and TRAVASOL products.
 
 ## Safety Considerations
 
-- **Key Warning**: L-tryptophan supplements contaminated during manufacture were linked to eosinophilia-myalgia syndrome (EMS), a serious and sometimes fatal condition. A safety review is needed before any new study. Related EMS clinical evaluation is registered as [NCT00001918](https://clinicaltrials.gov/study/NCT00001918).
+- **Drug Interactions**: 17 interactions were identified.
+  - **Major**: lorcaserin, dolasetron, palonosetron, ondansetron, fenfluramine, granisetron, sibutramine, methylene blue, doxepin (including topical), procarbazine. Most of these involve serotonergic mechanisms, so serotonin syndrome is a key concern.
+  - **Moderate**: morphine, codeine, hydrocodone, cyproheptadine, ozanimod, ifosfamide.
+- **Knowledge-graph contraindication signals** (these come from a knowledge graph, not from label text): autoimmune disease, systemic lupus erythematosus (including paediatric), anxiety disorder, neurotic disorder, dysthymic disorder, schizophrenia, phenylketonuria and other disorders of phenylalanine metabolism, and eosinophilia-myalgia syndrome (including the form associated with tryptophan).
+- **Historical concern**: The literature compiled for this report mentions eosinophilia-myalgia syndrome, which was linked to contaminated L-tryptophan production in 1989.
 
-For other safety information, please refer to the package insert.
-
----
+Please refer to the package insert for the full label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, and a serotonin-dopamine mechanism is plausible. However, the only direct clinical data are two small studies from the 1980s, and no trials are registered. The EMS history also calls for a safety review before further work.
+The prediction score is very high, but there are no registered trials. The only direct clinical evidence is two small, old studies from 1986 and 1987. The direction of effect is uncertain because serotonergic agents have been linked to RLS in other reports. The 17 interactions, several of them major, and the knowledge-graph contraindication signals also call for caution. Label safety data could not be obtained, which is a blocking gap for safety screening.
 
 **To proceed, the following is needed:**
-- Mechanism of action data to support the serotonergic-dopaminergic link
-- Health Canada package insert warnings and contraindications
-- A review of the 1986 and 1987 studies, then a modern, adequately powered, placebo-controlled RLS trial if the findings hold up
-- A safety plan covering EMS and product quality or purity requirements
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Detailed mechanism of action data
+- Approved indication and dosage form data for the Canadian licences
+- A modern, controlled study of tryptophan in RLS, with a review of the original 1986 and 1987 reports
+- A safety plan covering serotonergic co-medications and the contraindication signals above
 
-Insomnia is another predicted indication for tryptophan, with stronger supporting evidence (L2). It may be a better first research question.
+### Other Predicted Indications (Brief)
+
+The other predictions are weaker than restless legs syndrome and should stay on Hold.
+
+| Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|------|------|------|------|
+| Primary hereditary glaucoma | 99.57% | L5 | No trials, no literature, no mechanistic rationale |
+| Open-angle glaucoma | 99.50% | L4 | Observational metabolomic associations only; direction of effect unknown |
+| Insomnia | 99.47% | L3 | Early studies from 1983 and 1987 (including a controlled comparison against flurazepam, secobarbital and placebo); no modern RCTs. Worth further research |
+| Methemoglobinemia | 99.30% | L5 | One indirect rat toxicology study; no plausible mechanism |
+| Methemoglobinemia, alpha type | 99.18% | L5 | Prediction only |
+| Methemoglobin reductase deficiency | 99.08% | L5 | Prediction only; standard therapy acts through different mechanisms |
+| Congenital prothrombin deficiency | 99.01% | L5 | Prediction only; no plausible mechanism |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

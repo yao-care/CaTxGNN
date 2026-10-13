@@ -2,7 +2,7 @@
 layout: default
 title: Patiromer
 parent: Model Prediction Only (L5)
-nav_order: 703
+nav_order: 709
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Patiromer: From Hyperkalemia to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+# Patiromer: From Hyperkalaemia Management to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
 
 ## One-Sentence Summary
 
-Patiromer is a non-absorbed potassium-binding polymer, used to treat hyperkalemia (high blood potassium).
-The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**,
-but **0 clinical trials** and **0 publications** support this prediction, so it rests on model output alone.
+Patiromer is a non-absorbed potassium-binding polymer marketed in Canada as VELTASSA. The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, but **no clinical trials and no publications** currently support this prediction. The score appears to be a knowledge-graph artifact rather than a pharmacologically grounded signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperkalemia (not stated in the license records; taken from the drug's known use) |
+| Original Indication | Not stated in the Canadian licence data compiled for this report |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN Prediction Score | 98.72% |
 | Evidence Level | L5 |
@@ -51,11 +49,25 @@ but **0 clinical trials** and **0 publications** support this prediction, so it 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, patiromer is a gut-acting cation-exchange polymer that binds potassium in the colon and is not absorbed into the body.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, patiromer is a non-absorbed polymer that exchanges calcium for potassium in the colonic lumen, lowering systemic potassium by removing it in the stool.
 
-No credible mechanistic link to the predicted indication has been identified. Mitochondrial oxidative phosphorylation disorders caused by nuclear DNA anomalies are genetic defects of cellular energy production. Patiromer works only inside the gut lumen and has no known effect on mitochondrial function or on the nuclear genes involved.
+This mechanism has no known link to mitochondrial function, nuclear-encoded oxidative phosphorylation genes, or cellular energy metabolism. The high TxGNN score is therefore best read as a graph-based prediction artifact, not a result supported by pharmacological reasoning. Mechanistic plausibility is low.
 
-The high score (0.987) is therefore best read as a knowledge-graph artifact, not evidence of efficacy. The other nine top-ranked predictions are mostly colon-related conditions or conditions with only an indirect association, such as exocrine pancreatic insufficiency, colonic neoplasm and diabetic retinopathy. Many have near-identical scores and no supporting studies. This pattern suggests the model is driven by graph proximity rather than a drug-specific effect.
+### Other Top-Ranked Predictions
+
+The next nine predictions show the same pattern. All have only model-based support (L5), with no trials or literature.
+
+| Rank | Predicted Indication | Score | Comment |
+|------|------|------|------|
+| 2 | Exocrine pancreatic insufficiency | 98.53% | No direct mechanism. The drug's GI adverse effects could worsen symptoms. |
+| 3 | Colonic neoplasm | 97.42% | Anatomical co-location with the site of action only. No anti-tumour mechanism. |
+| 4 | Cecum villous adenoma | 97.20% | Anatomical association only. |
+| 5 | Cecum neuroendocrine tumor G1 | 97.19% | No link to neuroendocrine tumour biology. |
+| 6 | Rectosigmoid junction neoplasm | 97.19% | Anatomical proximity only. |
+| 7 | Cecal disease | 97.16% | Vague, broad category. |
+| 8 | Lipoma of colon | 97.14% | No mechanism. |
+| 9 | Severe nonproliferative diabetic retinopathy | 97.14% | Only a speculative supportive-care link through hyperkalaemia control. |
+| 10 | Colonic lymphangioma | 97.14% | No mechanism. |
 
 ## Clinical Trial Evidence
 
@@ -67,33 +79,33 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2481359 | VELTASSA |
-| 2481367 | VELTASSA |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02481359 | VELTASSA | Not stated | Not stated |
+| 02481367 | VELTASSA | Not stated | Not stated |
 
-Dosage form and approved indication text are not recorded for these authorizations.
+Both licences are valid single-ingredient products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions**: The interaction screening found 48 potential interacting drugs. The entries below are from the first 20 returned.
 
-No drug interaction records were found for this drug.
+- **Major**: magnesium oxide, aluminium hydroxide, calcium carbonate
+- **Moderate**: rabeprazole, omeprazole, dexlansoprazole, hydrocortisone, dexamethasone, triamcinolone, beclomethasone dipropionate, betamethasone, metformin, iron, attapulgite, and several calcium salts (phosphate, acetate, citrate, glubionate, gluconate, lactate)
+
+Other safety information (warnings and contraindications) was not available. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical or literature support and no plausible mechanism. Patiromer acts only in the gut lumen and is not absorbed, so it cannot reasonably affect a mitochondrial genetic disorder. A high model score alone does not justify further investment.
+The prediction rests solely on a knowledge-graph score. There are no trials or publications, and no plausible mechanism links a non-absorbed potassium binder to mitochondrial oxidative phosphorylation disorders. The same applies to the other top-ranked predictions, most of which reflect anatomical proximity to the colon.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for patiromer (e.g., from DrugBank), to allow a proper mechanistic-link analysis
-- Package insert warnings and contraindications from Health Canada, which are required before any safety screening
-- Approved indication text and dosage form for the two marketed authorizations
-- Any preclinical or clinical evidence linking patiromer to mitochondrial function, which would be needed to move beyond L5
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Health Canada package insert warnings and contraindications (required before safety screening)
+- Mechanism of action data and the approved indication text from the Canadian licences
+- A credible mechanistic hypothesis, followed by preclinical or observational evidence, before any further evaluation of this prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

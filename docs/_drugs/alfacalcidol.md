@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Alfacalcidol: From Approved Vitamin D Analogue Use to Familial Isolated Hypoparathyroidism
+# Alfacalcidol: From Hyperparathyroidism to Familial Isolated Hypoparathyroidism
 
 ## One-Sentence Summary
 
-Alfacalcidol is a vitamin D analogue (a 1-alpha-hydroxylated vitamin D prodrug) that is marketed in Canada.
+Alfacalcidol is an active vitamin D analog, originally used for hyperparathyroidism, osteitis fibrosa, hypoparathyroidism and renal osteodystrophy.
 The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion**.
-So far there are **0 clinical trials** and **0 publications** for this specific prediction, so it rests on the model score and general pharmacology alone.
+Currently there are **no clinical trials** and **no publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism, renal osteodystrophy (the Health Canada licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Familial isolated hypoparathyroidism due to impaired PTH secretion |
 | TxGNN Prediction Score | 99.61% |
 | Evidence Level | L5 |
@@ -50,71 +51,72 @@ So far there are **0 clinical trials** and **0 publications** for this specific 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, alfacalcidol is a vitamin D prodrug that is activated in the liver and bypasses renal 1-alpha-hydroxylase. Its active metabolite could therefore act as a vitamin D replacement.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, alfacalcidol is a 1-alpha-hydroxylated vitamin D analog. It bypasses renal 1-alpha-hydroxylase and does not need PTH stimulation to become active.
 
-In familial isolated hypoparathyroidism, PTH secretion is impaired, so PTH-driven calcitriol production is lost and serum calcium falls. An already-activated vitamin D form could plausibly replace the missing calcitriol and raise serum calcium. This is biologically plausible, but it is inference rather than demonstrated evidence. The submitted data contain no trials or literature for this disease, and the original mechanism-of-action field is empty.
+That makes it biologically plausible for states where PTH is lacking. Hypoparathyroidism is already among its original indications, and the familial isolated form is a genetic subtype of the same condition. The high score (0.996) therefore most likely reflects closeness to the existing indication rather than a genuinely new repurposing opportunity.
+
+No trials or publications were found for this specific subtype, so the support is prediction-only.
+
+### Other Predicted Indications (for reference)
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Dahlberg-Borer-Newcomer syndrome | 99.60% | L4 | Historical name associated with Fanconi-Bickel syndrome. Alfacalcidol could plausibly help with the bone disease, but this would be symptomatic management. Most retrieved publications are off-target, and the one on-condition paper concerns a different drug (empagliflozin). Hold. |
+| 3 | Craniofacial conodysplasia | 99.55% | L5 | No mechanistic rationale evident. No evidence. Hold. |
+| 4 | Acromesomelic dysplasia, Campailla Martinelli type | 99.53% | L5 | Linked to growth-plate signalling rather than the vitamin D/PTH axis. No evidence. Hold. |
+| 5 | Renal tubular acidosis | 99.27% | L4 | Mechanistically plausible as an adjunct for osteomalacia and rickets. Evidence is five case reports. Flagged as a research question. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the predicted indication.
 
 ## Literature Evidence
 
-Currently no related literature available for this indication.
+Currently no related literature available for the predicted indication (familial isolated hypoparathyroidism).
 
-## Other Predicted Indications
+For reference, the publications retrieved for the fifth-ranked prediction, renal tubular acidosis, are all case reports:
 
-Other predictions in the pack are weaker or unsupported, except renal tubular acidosis.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [22740247](https://pubmed.ncbi.nlm.nih.gov/22740247/) | 2013 | Case report | Mod Rheumatol | Osteomalacia from renal tubular acidosis in Sjögren's syndrome. Treated with sodium bicarbonate, risedronate, alfacalcidol and prednisolone; bone density normalised by 24 months. |
+| [11518137](https://pubmed.ncbi.nlm.nih.gov/11518137/) | 2001 | Case report | Intern Med | Rapid osteomalacia improvement in a patient with Sjögren's syndrome, rheumatoid arthritis and type 1 RTA. Alkali supplement and an alfacalcidol-containing regimen. |
+| [33398781](https://pubmed.ncbi.nlm.nih.gov/33398781/) | 2021 | Case report | CEN Case Rep | Osteomalacia from atypical RTA with vitamin D deficiency, in a patient previously on active vitamin D. |
+| [28509074](https://pubmed.ncbi.nlm.nih.gov/28509074/) | 2012 | Case report/Review | CEN Case Rep | Osteomalacia secondary to distal RTA due to Sjögren's syndrome, with literature review. |
+| [36412607](https://pubmed.ncbi.nlm.nih.gov/36412607/) | 2023 | Case report | Kidney Blood Press Res | Severe hypophosphataemia, renal Fanconi syndrome and distal RTA related to zoledronic acid. |
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
-|------|------|------|------|------|
-| 2 | Dahlberg-Borer-Newcomer syndrome | 99.60% | L5 | No mechanistic rationale, no evidence, very rare disease |
-| 3 | Craniofacial conodysplasia | 99.55% | L5 | No clear link to vitamin D or calcium homeostasis, graph-based output only |
-| 4 | Acromesomelic dysplasia, Campailla Martinelli type | 99.53% | L5 | Genetic skeletal dysplasia with no known vitamin D pathway, likely a graph artifact |
-| 5 | Renal tubular acidosis | 99.27% | L4 | 8 publications, mostly single-patient case reports |
-
-**Renal tubular acidosis (rank 5)** has the strongest supporting evidence in this pack. The published items are mostly case reports, with one small 1980 clinical series in Fanconi syndrome (PMID 6893175). Examples include:
-
-- [22740247](https://pubmed.ncbi.nlm.nih.gov/22740247/) (2013, Modern Rheumatology): Osteomalacia due to RTA with Sjögren's syndrome resolved after treatment with bicarbonate, risedronate, alfacalcidol and prednisolone.
-- [11518137](https://pubmed.ncbi.nlm.nih.gov/11518137/) (2001, Internal Medicine): Rapid improvement of osteomalacia in a patient with RTA type 1 after alkali plus alfacalcidol-based therapy.
-- [6893175](https://pubmed.ncbi.nlm.nih.gov/6893175/) (1980, Contributions to Nephrology): In Fanconi syndrome, 1-alpha-OH-vitamin D3 raised low plasma 1,25-(OH)2 vitamin D3 rapidly.
-
-The signal concerns managing complications (osteomalacia, hypophosphatemia), not correcting the tubular acidification defect. Alfacalcidol was given alongside alkali and phosphate therapy, so its independent contribution cannot be separated.
+These reports describe improvement with regimens that also included alkali and phosphate, so they do not isolate alfacalcidol's contribution.
 
 ## Canada Market Information
 
-Six authorizations are recorded; five are listed below. Dosage form and approved indication text are not available in the supplied data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02533324 | SANDOZ ALFACALCIDOL | Not listed | Not listed |
+| 02240329 | ONE-ALPHA | Not listed | Not listed |
+| 00474525 | ONE-ALPHA | Not listed | Not listed |
+| 00474517 | ONE-ALPHA | Not listed | Not listed |
+| 02242502 | ONE-ALPHA | Not listed | Not listed |
 
-| DIN | Product Name |
-|---------|------|
-| 2533324 | SANDOZ ALFACALCIDOL |
-| 2240329 | ONE-ALPHA |
-| 474525 | ONE-ALPHA |
-| 474517 | ONE-ALPHA |
-| 2242502 | ONE-ALPHA |
+A sixth licence (DIN 02533316, SANDOZ ALFACALCIDOL) is also valid. All six are single-ingredient products.
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried database.
-- **Renal tubular acidosis context**: Hypercalciuria and nephrocalcinosis need monitoring, since RTA already predisposes to them.
+Please refer to the package insert for safety information.
 
-For warnings and contraindications, please refer to the Health Canada package insert.
+Mechanism-based note: for the renal tubular acidosis prediction, hypercalciuria and nephrocalcinosis risk call for calcium and renal monitoring.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction scores very high (99.61%) but is evidence level L5, with no trials and no literature for familial isolated hypoparathyroidism. The mechanistic argument is plausible but rests on general pharmacology. Renal tubular acidosis has more published support, but that support is limited to case reports.
+The top prediction is essentially a genetic subtype of an existing indication (hypoparathyroidism). It has no trials or literature specific to it, so the evidence level is L5 and it adds little new repurposing value. Among the alternatives, renal tubular acidosis is the most promising (L4, case reports only) but needs stronger evidence.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data, for example from DrugBank
-- A targeted literature and trial search for alfacalcidol in hypoparathyroidism, including PTH-deficient forms
-- Approved indication text and dosage forms for the Canadian DINs, to confirm the original indication and route compatibility
-- For renal tubular acidosis, a review of whether alfacalcidol contributes independently of alkali and phosphate therapy, plus a hypercalciuria and nephrocalcinosis monitoring plan
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text, dosage forms and manufacturer details for the Canadian licences
+- Clinical evidence specific to the familial isolated form of hypoparathyroidism, or a decision to treat it as covered by the existing hypoparathyroidism indication
+- For renal tubular acidosis: controlled or larger observational studies that isolate alfacalcidol's effect, plus a calcium and renal monitoring plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

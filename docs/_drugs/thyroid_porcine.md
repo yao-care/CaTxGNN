@@ -2,7 +2,7 @@
 layout: default
 title: Thyroid Porcine
 parent: Model Prediction Only (L5)
-nav_order: 903
+nav_order: 910
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Thyroid, porcine: From an Unspecified Original Indication to Migraine Disorder
+# Thyroid, porcine: From Thyroid Hormone Replacement to Migraine Disorder
 
 ## One-Sentence Summary
 
-Porcine thyroid is a desiccated animal thyroid preparation supplying thyroid hormones (T4/T3), but no original indication is recorded in the source data.
-The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model output only.
-
----
+Porcine thyroid is a natural thyroid hormone preparation (containing T3/T4) that is marketed in Canada under three licences. The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the source data (the license entries contain no indication text) |
+| Original Indication | Not stated in the available licence data |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
@@ -50,69 +47,63 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Porcine thyroid is a desiccated thyroid preparation containing T4 and T3, and its presumed role is thyroid hormone replacement. The source data does not document any original indication or mechanism, and no mechanistic link to migraine has been identified. The very high score (99.91%) comes from the knowledge-graph model alone, and no trials or literature back it.
+Currently, detailed mechanism of action data is not available. Based on known information, porcine thyroid is a source of exogenous thyroid hormones (T3/T4) and is used to replace deficient thyroid hormone. Its mechanistic link to migraine is therefore indirect.
 
-The other top-ranked predictions are also unsupported by clinical evidence:
+The only plausible connection is epidemiological: hypothyroidism has been reported as a comorbidity or risk factor for migraine and other headache disorders. Correcting thyroid deficiency might help in that subgroup, but no trial or publication in the data compiled for this report supports this. The high score (0.999) is a model-based prediction and likely reflects proximity in the knowledge graph.
 
-- **Migraine with brainstem aura** and **migraine with or without aura, susceptibility to**: These are probably neighbours of the generic migraine prediction in the knowledge graph. The 20 papers retrieved for the susceptibility term cover epilepsy and migraine genetics. None studies thyroid hormone or porcine thyroid as an intervention.
-- **Raynaud disease**: The only link is speculative. Untreated hypothyroidism can cause cold intolerance, so replacement would correct a coexisting deficiency rather than treat Raynaud itself.
-- **Atrophoderma vermiculata** and **ulerythema ophryogenesis**: These are rare follicular skin disorders with no known thyroid-hormone pathway, likely knowledge-graph artifacts.
-- **Prinzmetal angina**: Thyroid hormone raises cardiac oxygen demand and heart rate, so a safety concern is more plausible than a benefit.
-- **Sciatic neuropathy** and **lesion of sciatic nerve**: No documented link to thyroid replacement. Hypothyroid neuropathy is a different entity.
-- **Hyperthyroidism**: This is pharmacologically contradictory, because exogenous T4/T3 would worsen it. The retrieved papers use porcine thyroid tissue only as an assay reagent or are animal models, and none tests the drug as a treatment.
+Other top predictions show the same pattern:
 
----
+- **Migraine with brainstem aura** and **migraine with or without aura, susceptibility to**: these inherit the general migraine prediction. The second is a genetic susceptibility entry rather than a treatable condition.
+- **Raynaud disease** (99.45%): hypothyroidism can cause cold intolerance and vasospasm, but the link is indirect.
+- **Atrophoderma vermiculata** and **ulerythema ophryogenesis**: rare follicular skin disorders with no plausible thyroid hormone mechanism. These appear to be knowledge-graph artifacts.
+- **Prinzmetal angina** (99.10%): thyroid hormone raises heart rate, oxygen demand and adrenergic sensitivity, so it could worsen coronary vasospasm. This is a safety concern.
+- **Sciatic neuropathy** and **lesion of sciatic nerve**: hypothyroidism can contribute to neuropathy, and preclinical work suggests a role for thyroid hormone in nerve myelination and regeneration, but there is no clinical evidence.
+- **Hyperthyroidism** (98.18%): pharmacologically implausible and contraindicated, since exogenous T3/T4 would worsen it or cause thyrotoxicosis. It is most likely a model artifact and should not be pursued.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 23949 | THYROID |
-| 23957 | THYROID |
-| 23965 | THYROID |
-
-Dosage form, manufacturer and approved indication text are not available for these authorizations.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00023949 | THYROID | Not stated | Not stated |
+| 00023957 | THYROID | Not stated | Not stated |
+| 00023965 | THYROID | Not stated | Not stated |
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried source.
+- **Drug Interactions**: The interaction screening found 99 interacting drugs. The 20 listed in the data are all rated Moderate. They include:
+  - Antidiabetic agents: acarbose, metformin, pioglitazone, alogliptin, albiglutide, dulaglutide, canagliflozin, dapagliflozin, empagliflozin, chlorpropamide and acetohexamide
+  - Acid-suppressing drugs: omeprazole, rabeprazole and dexlansoprazole
+  - Minerals and antacids: calcium phosphate, calcium acetate and magnesium oxide
+  - Sympathomimetic agents: epinephrine, isometheptene and diethylpropion
+- **Disease-specific cautions** (from the mechanistic review above):
+  - Hyperthyroidism: exogenous thyroid hormone is contraindicated.
+  - Coronary vasospasm and ischaemic disease: thyroid hormone may worsen these and needs careful dosing.
 
-Please refer to the package insert for safety information.
-
-Note: the prediction notes point to cardiac risk with thyroid preparations in patients with coronary disease, and to iatrogenic thyrotoxicosis on overdose. These come from the pharmacological reasoning in the evidence pack, not from label text.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The migraine prediction rests on a model score alone, with no trials, no literature, no documented mechanism and no recorded original indication. Several other top predictions are implausible or contradictory, such as hyperthyroidism, which suggests the high scores reflect knowledge-graph artifacts rather than therapeutic signal.
+All ten predictions are supported by model output only, with no clinical trials or publications (Evidence Level L5). The migraine link is indirect, and several other predictions are implausible or carry safety concerns (hyperthyroidism, Prinzmetal angina).
 
 **To proceed, the following is needed:**
-- The Health Canada package insert (warnings, contraindications, approved indications), which is required before any safety screening
-- Mechanism of action data from DrugBank, to assess whether any thyroid-hormone link to migraine is plausible
-- A targeted literature search on thyroid hormone or thyroid status and migraine
-- A review of whether a more clinically coherent candidate exists among the predictions, for example thyroid-related indications, before investing further in migraine
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication, dosage form and manufacturer details for the three licences
+- Mechanism of action data
+- A literature and trial search on thyroid status and migraine, to test whether any benefit is limited to patients with hypothyroidism
+- A cardiovascular and drug-interaction risk assessment before any new-indication study
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Menthol
 parent: Model Prediction Only (L5)
-nav_order: 581
+nav_order: 586
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Decitabine
 parent: Moderate Evidence (L3-L4)
-nav_order: 252
+nav_order: 254
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Decitabine: From Adult Myelodysplastic Syndrome to Refractory Cytopenia of Childhood
+# Decitabine: From Acute Myeloid Leukemia to Refractory Cytopenia of Childhood
 
 ## One-Sentence Summary
 
-Decitabine is a hypomethylating agent. The supplied Health Canada records do not state its approved indication, but general pharmacology places it in adult myelodysplastic syndrome (MDS).
-The TxGNN model predicts it may be useful for **refractory cytopenia of childhood**, a pediatric MDS subtype.
-Support is limited to **0 registered clinical trials** and **1 publication**, a single-center cohort study.
+Decitabine was originally used to treat myeloid leukemias, including acute myeloid leukemia (AML) and related myelodysplastic syndromes.
+The TxGNN model predicts it may be effective for **Refractory Cytopenia of Childhood (RCC)**, the most common pediatric myelodysplastic syndrome (MDS) subtype.
+Currently there are **no registered clinical trials** and **2 publications** (one single-center cohort and one case report) supporting this direction, so the evidence is early-stage.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Health Canada records supplied (adult MDS based on general pharmacology) |
+| Original Indication | Myeloid leukemia (acute myeloid leukemia and related subtypes) |
 | Predicted New Indication | Refractory cytopenia of childhood |
 | TxGNN Prediction Score | 99.03% |
 | Evidence Level | L3 |
@@ -51,11 +51,11 @@ Support is limited to **0 registered clinical trials** and **1 publication**, a 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the supplied records. Based on general pharmacology, decitabine inhibits DNA methyltransferase, and hypomethylating agents are established treatments in adult MDS.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, decitabine is a hypomethylating agent (a DNA methyltransferase inhibitor) already used in myeloid malignancies, including AML and MDS.
 
-Refractory cytopenia of childhood is a pediatric MDS subtype. The biological proximity to adult MDS is consistent with the very high TxGNN score. However, the score is a model prediction, not clinical evidence.
+RCC is the most common pediatric MDS subtype. It shares with adult myeloid disease the features of clonal myeloid dysplasia and aberrant DNA methylation, which gives a plausible mechanistic link to decitabine's original indications. This rationale rests on the known pharmacology of hypomethylating agents, not on mechanism data supplied for this report.
 
-The single publication found appears to use decitabine as part of a conditioning or bridging regimen before allogeneic hematopoietic stem cell transplantation (allo-HSCT). Any benefit in children may therefore be as an adjunct to transplant, not as standalone therapy.
+The very high TxGNN score is a computational prediction only and does not count as clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -65,49 +65,50 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Cohort | BMC Pediatrics | Ten-year single-center experience with decitabine plus a minimally myelosuppressive regimen as a bridge to allo-HSCT in pediatric MDS. The available abstract states only the objective, not outcomes. |
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Cohort | BMC Pediatrics | Single-center, 10-year experience with a decitabine-combined minimally myelosuppressive regimen as a bridge to allogeneic hematopoietic stem cell transplantation (allo-HSCT) in children with MDS |
+| [42125547](https://pubmed.ncbi.nlm.nih.gov/42125547/) | 2026 | Case report | Experimental and Therapeutic Medicine | Decitabine monotherapy in an 8-year-old with pediatric MDS (RCC type) who was ineligible for HSCT or immunosuppressive therapy |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2484811 | DEMYLOCAN |
-| 2501600 | INQOVI |
-
-Dosage form and approved indication text were not provided in the records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02484811 | DEMYLOCAN | Not specified | Not specified |
+| 02501600 | INQOVI | Not specified | Not specified |
 
 ## Cytotoxicity
-
-Decitabine is an antineoplastic agent. The supplied records contain no toxicity data, so the entries below reflect general drug-class knowledge. Please refer to the package insert warnings and precautions.
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (hypomethylating nucleoside analogue) |
-| Myelosuppression Risk | High (cytopenias are expected with this class) |
-| Emetogenicity Classification | Low to moderate |
+| Myelosuppression Risk | High (the knowledge graph links the drug to neutropenia, thrombocytopenia and agranulocytosis) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | CBC with differential, liver and renal function |
 | Handling Protection | Follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the supplied data.
+- **Disease-level cautions (knowledge graph, not label text)**: The knowledge graph lists contraindication links with kidney disease, liver disease, gallbladder disease, pyoureter, thrombocytopenia, neutropenia, agranulocytosis, diabetes mellitus and diabetic ketoacidosis. These should be confirmed against the Canadian package insert.
+- **Drug Interactions**: 100 interactions were recorded; the first 20 reviewed include the following.
+  - **Major**: deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib
+  - **Moderate**: palifermin, strontium chloride Sr-89, mercaptopurine, roflumilast, chloramphenicol, zidovudine, ganciclovir, gemcitabine, azathioprine, aldesleukin, alefacept, alemtuzumab, anakinra, and some vaccines (tetanus toxoid, anthrax)
+  - Many involve additive myelosuppression or immunosuppression. Live-vaccine and other immunosuppressant combinations need particular attention.
+
+Label warnings and contraindications from the Canadian package insert were not available in the data compiled for this report. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is biologically plausible, but support is one single-center cohort study with no registered trials. Health Canada safety information is missing, and it is a blocking gap for safety screening. The paper's design suggests decitabine may serve only as a bridge to transplant.
+The prediction is biologically plausible, but support is limited to one single-center cohort and one case report. No clinical trials are registered, and the high score is computational only. Label-level safety data are also missing, so safety screening cannot proceed yet.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data (for example from DrugBank)
-- The full text of PMID 35624441, to confirm outcomes and decitabine's role relative to transplant
-- Additional pediatric MDS trials or studies, including standalone use
-- Route and formulation compatibility for children, since the dosage forms of the two Canadian products are not listed
-- Review of the two Canadian products' approved indications, including whether any covers pediatric use
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Detailed mechanism of action data
+- Approved indication and dosage form details for the two Canadian DINs
+- A systematic literature review of hypomethylating agents in pediatric MDS/RCC
+- Prospective or registered clinical studies in RCC
+- A pediatric-specific safety monitoring plan, particularly for myelosuppression
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

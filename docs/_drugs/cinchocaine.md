@@ -2,7 +2,7 @@
 layout: default
 title: Cinchocaine
 parent: Model Prediction Only (L5)
-nav_order: 194
+nav_order: 196
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Cinchocaine: From Topical Anesthesia to Bronchitis
+# Cinchocaine: From Dermatitis to Bronchitis
 
 ## One-Sentence Summary
 
-Cinchocaine (dibucaine) is an amide local anesthetic marketed in Canada in topical products (Proctol suppositories and ointment, Teva-Proctosone).
-The TxGNN model predicts it may be effective for **bronchitis**, but **0 clinical trials** and **0 publications** currently support this direction.
-This is a model-only prediction (L5), and the proposed link is speculative.
+Cinchocaine (dibucaine) is a local anaesthetic originally used for dermatitis and is marketed in Canada in topical anorectal products.
+The TxGNN model predicts it may be effective for **bronchitis**, but there are **no registered clinical trials and no publications** supporting this direction. It rests on a model prediction alone.
 
 ---
 
@@ -43,7 +42,7 @@ This is a model-only prediction (L5), and the proposed link is speculative.
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anesthesia (the indication text is not listed in the Canadian licence records) |
+| Original Indication | Dermatitis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
@@ -55,11 +54,19 @@ This is a model-only prediction (L5), and the proposed link is speculative.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Cinchocaine is an amide local anesthetic that blocks voltage-gated sodium channels. Its use in local anesthesia is established, but the source record lists no original indications.
+Detailed mechanism of action data is not available in the data compiled for this report. Cinchocaine is known as an amide-type local anaesthetic that blocks voltage-gated sodium channels. Its efficacy in surface (topical) pain and itch relief is established.
 
-Any link to bronchitis would be symptomatic only, for example by dampening airway sensory nerve activity and the cough reflex. Cinchocaine has no known anti-infective or anti-inflammatory effect, so it would not treat the cause of bronchitis. The high score (0.998) reflects proximity in the knowledge graph. No trial or publication supports it, so the mechanistic rationale is weak.
+A possible link to bronchitis is the suppression of airway sensory nerve activity and the cough reflex, similar to topical anaesthetics used in airway procedures. This link is speculative. Cinchocaine has no known anti-inflammatory or anti-infective action in the airway, and it is a highly potent and toxic local anaesthetic used mainly topically. Its systemic or inhaled safety has not been established.
 
-The other six predictions (acrodermatitis chronica atrophicans, neonatal dermatomyositis, childhood connective-tissue-disease-associated interstitial lung disease, acne keloid, familial hydroa vacciniforme, amyopathic dermatomyositis) score 99.6–99.8%. All are L5 with no trials or literature, and all have the same problem. At best, a topical anesthetic could relieve local pain or itch, and it would not modify the disease.
+The other six predictions follow the same pattern (all L5, Hold, scores 99.64%–99.76%):
+- Acrodermatitis chronica atrophicans
+- Neonatal dermatomyositis
+- Childhood secondary interstitial lung disease associated with a connective tissue disease
+- Acne keloid
+- Familial hydroa vacciniforme
+- Amyopathic dermatomyositis
+
+Of these, acne keloid is the most pharmacologically plausible, and only for symptomatic relief of pain or itch with topical use. The interstitial lung disease prediction has no credible mechanistic connection and likely reflects network proximity to connective tissue disease.
 
 ---
 
@@ -77,19 +84,22 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02247882 | PROCTOL SUPPOSITORIES |
-| 02247322 | PROCTOL OINTMENT |
-| 02226383 | TEVA-PROCTOSONE |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02247882 | PROCTOL SUPPOSITORIES | Not specified | Not specified |
+| 02247322 | PROCTOL OINTMENT | Not specified | Not specified |
+| 02226383 | TEVA-PROCTOSONE | Not specified | Not specified |
 
-Dosage form and approved indication text are not provided for these licences. All three are topical or rectal products. There is no inhaled or systemic formulation that would suit a respiratory indication.
+All three authorisations are valid single-ingredient products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text):** epilepsy, kidney disease, liver disease, gallbladder disease, pyoureter, sudden cardiac arrest, heart conduction disease, cardiovascular disease, heart disease, respiratory failure, myasthenia gravis (including adult-onset), neuromuscular junction disease, and butyrylcholinesterase deficiency.
+- **Other concerns:** Local anaesthetic systemic toxicity is a particular worry for neonatal and paediatric use, and for any inhaled or systemic route.
+
+No drug interaction records were found. Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -98,16 +108,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical or literature support (L5), and the sodium channel blocking mechanism offers no disease-modifying rationale for bronchitis. The marketed products are topical or rectal, so the route does not fit a respiratory indication.
+The prediction is supported only by a model score. There are no clinical trials or publications, the mechanism is only loosely plausible, and the safety profile for systemic or airway use is unfavourable.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (from DrugBank)
-- Approved indication text and dosage forms for the three Canadian licences
-- Route compatibility assessment (topical or rectal versus respiratory use)
-- Any preclinical or clinical evidence linking cinchocaine to airway disease
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data from DrugBank
+- A literature and trial search specific to cinchocaine and bronchitis, or to a more plausible topical symptomatic use such as acne keloid
+- Route-compatibility assessment, since current products are rectal and topical
+- A safety assessment for any non-topical route
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

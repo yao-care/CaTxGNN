@@ -2,7 +2,7 @@
 layout: default
 title: Darolutamide
 parent: Model Prediction Only (L5)
-nav_order: 248
+nav_order: 250
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,9 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Darolutamide is an androgen receptor (AR) antagonist marketed in Canada as NUBEQA, used in prostate cancer.
-The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia (HoFH)** with a high score, but **0 clinical trials** and **0 publications** currently support this direction.
-The prediction rests on the model output alone, so we recommend holding it.
+Darolutamide is a non-steroidal androgen receptor antagonist marketed in Canada as NUBEQA. The TxGNN model's top-ranked prediction is **homozygous familial hypercholesterolemia**, but **no clinical trials and no publications** support it. This is a model-only prediction with very weak evidence.
 
 ---
 
@@ -43,7 +41,7 @@ The prediction rests on the model output alone, so we recommend holding it.
 
 | Item | Content |
 |------|------|
-| Original Indication | Prostate cancer (based on general drug knowledge; the Canadian label indication text was not supplied) |
+| Original Indication | Not listed in the Canadian license data compiled for this report (darolutamide is an androgen receptor antagonist; its use in prostate cancer is general knowledge, not taken from the data) |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.11% |
 | Evidence Level | L5 |
@@ -55,43 +53,55 @@ The prediction rests on the model output alone, so we recommend holding it.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Darolutamide is an androgen receptor antagonist, and its efficacy in prostate cancer is established through that mechanism.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, darolutamide is a non-steroidal androgen receptor antagonist.
 
-We could not find a mechanistic link to HoFH. HoFH is caused by loss-of-function variants in LDLR, APOB, PCSK9 or LDLRAP1, which impair LDL cholesterol clearance, and AR antagonism does not act on these pathways. Androgen deprivation is known to shift lipid profiles in prostate cancer patients, but this is an adverse metabolic effect, not a therapeutic one.
+Homozygous familial hypercholesterolemia is caused by defects in the LDL receptor pathway. There is no clear mechanistic link between androgen receptor blockade and this pathway. The high TxGNN score (99.11%) reflects a network-based prediction only, with no supporting trials or literature, so it should not be read as evidence of efficacy.
 
-The high score (0.991, rank 14,849) is best read as a knowledge-graph proximity signal. No trial or publication supports it, so the prediction has not been validated.
+Other top-ranked predictions show the same pattern. Most are low-plausibility or likely knowledge-graph artifacts: HIV infection, feline and simian immunodeficiency, cytomegalovirus infection, bovine rhinotracheitis, and malignant catarrh. Two have slightly more context:
+
+- **Multiple endocrine neoplasia (rank 2, score 99.06%):** Two trials were found, both in androgen-driven (likely prostate) cancer settings, where darolutamide's mechanism is relevant. The match to MEN syndromes is probably a disease-classification artifact.
+- **Thrombotic disease (rank 8, score 98.29%):** One case report was found. It concerns paraneoplastic syndromes in prostate cancer and is not evidence of benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for homozygous familial hypercholesterolemia.
+
+For reference, the trials linked to the second-ranked prediction (multiple endocrine neoplasia) are:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT07795177](https://clinicaltrials.gov/study/NCT07795177) | Phase 2 | Not yet recruiting | 40 | Spatial multi-omics study predicting response to androgen deprivation plus second-generation endocrine agents in metastatic hormone-sensitive prostate cancer. Not relevant to MEN. |
+| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | Terminated | 2 | SMMART PRIME precision-oncology platform study. Terminated after only 2 participants, so no usable efficacy or safety signal. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for homozygous familial hypercholesterolemia.
+
+For reference, the only publication found among the top predictions (thrombotic disease):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41669591](https://pubmed.ncbi.nlm.nih.gov/41669591/) | 2026 | Case report | Cureus | A 72-year-old man with BRCA2-mutated metastatic prostate cancer developed SIADH and thrombotic microangiopathy as paraneoplastic syndromes. Does not show that darolutamide treats thrombosis. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2496348 | NUBEQA |
-
-Dosage form and approved indication text were not supplied for this license.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02496348 | NUBEQA | Not specified | Not specified |
 
 ---
 
 ## Cytotoxicity
 
-Darolutamide is treated as an antineoplastic drug because its original indication is a cancer.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted hormonal therapy (androgen receptor antagonist), not a conventional cytotoxic agent |
+| Cytotoxicity Classification | Targeted/hormonal therapy (androgen receptor antagonist), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -101,9 +111,14 @@ Darolutamide is treated as an antineoplastic drug because its original indicatio
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records were retrieved for this drug.
+- **Drug Interactions:** The interaction screening completed with **100 interactions** recorded. The 20 listed in the data include several Major-level interactions:
+  - **Major:** Dexamethasone, Eluxadoline, Rosuvastatin
+  - **Moderate:** Clarithromycin, Empagliflozin, Glyburide, Glycerol phenylbutyrate, Metreleptin, Repaglinide, Rifaximin, Simvastatin, Sulfasalazine, Troglitazone, Cobicistat, Deferasirox, Eltrombopag, Lusutrombopag
+  - **Minor:** Aprepitant, Cimetidine, Miconazole
 
-One point relevant to this prediction: androgen-pathway inhibition in prostate cancer is generally associated with cardiovascular and thromboembolic risk. For a lipid disorder such as HoFH, that concern would need to be addressed as a safety question.
+  The Major interaction with rosuvastatin and the Moderate interaction with simvastatin are particularly relevant for a lipid-disorder indication, since patients would likely be on statins.
+
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for these.
 
 ---
 
@@ -112,13 +127,14 @@ One point relevant to this prediction: androgen-pathway inhibition in prostate c
 **Decision: Hold**
 
 **Rationale:**
-The HoFH prediction has no clinical trials, no literature and no plausible mechanistic link, so it stands at L5 (model prediction only). The other nine predicted indications also carry a Hold recommendation. The only trial found among them was a terminated Phase 1 platform study (NCT03878524, 2 participants, multiple endocrine neoplasia), which is not specific to darolutamide.
+The top prediction has no trials or literature behind it and no plausible mechanistic link between androgen receptor antagonism and LDL receptor pathway defects. Evidence is L5 (model prediction only). The statin interactions add a further concern for this indication.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert, for warnings, contraindications and the approved indication text
-- Mechanism of action data for darolutamide (for example from DrugBank)
-- Preclinical or mechanistic evidence showing that AR antagonism can affect LDL metabolism in HoFH
-- A cardiovascular and lipid safety assessment, given the known metabolic effects of androgen-pathway inhibition
+- Mechanism of action data (e.g., from DrugBank) to allow a mechanistic-link analysis
+- Health Canada package insert warnings and contraindications, which are required before safety screening
+- Approved indication text, dosage form, and manufacturer for the Canadian license
+- Preclinical or mechanistic evidence linking androgen receptor signaling to LDL receptor or cholesterol metabolism, before any clinical study is considered
+- An assessment of whether the lower-ranked predictions (such as multiple endocrine neoplasia) reflect true biology or classification artifacts
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

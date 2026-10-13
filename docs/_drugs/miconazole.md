@@ -2,7 +2,7 @@
 layout: default
 title: Miconazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 609
+nav_order: 614
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Miconazole: From Fungal Infections to Acne
+# Miconazole: From Superficial Fungal Skin Infections to Acne
 
 ## One-Sentence Summary
 
-Miconazole is an imidazole antifungal, marketed in Canada mainly as vaginal and skin products.
-The TxGNN model predicts it may be effective for **acne**, but the supporting evidence is weak: **1 clinical trial** (suspended, and testing a combination product) and **4 publications** (one review, one clinical study, one study in a related condition, one in vitro study).
+Miconazole is an imidazole antifungal originally used for tinea infections, cutaneous candidiasis, pityriasis versicolor and vulvovaginal candidiasis.
+The TxGNN model predicts it may be effective for **acne**, but there are currently **no registered clinical trials** and only **4 publications** (one review, one small split-face clinical study, one clinical study of an acne-mimicking condition, and one in vitro study) supporting this direction.
 
 ---
 
@@ -42,8 +42,8 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records; the products (vaginal creams, skin cream, powder spray) are topical antifungals |
-| Predicted New Indication | Acne (disease) |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis, tinea unguium, pityriasis versicolor, dermatophytosis of the groin and perianal area, vulvovaginal candidiasis |
+| Predicted New Indication | Acne |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L3 |
 | Canada Market Status | ✓ Marketed |
@@ -54,23 +54,20 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Miconazole is an azole antifungal, and azoles are known to inhibit fungal CYP51 (lanosterol 14-alpha-demethylase). Its efficacy in fungal skin and mucosal infections is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, miconazole is an imidazole antifungal that inhibits fungal lanosterol 14-alpha-demethylase (CYP51), blocking ergosterol synthesis. It also has some activity against Gram-positive bacteria. This mechanistic description comes from general knowledge, not from the supplied data.
 
-Published work suggests plausible links to acne:
+Several lines of evidence suggest a link to acne:
+- **Antibacterial activity:** An in vitro study (PMID 20045949) found that azole antifungals are active against *Propionibacterium (Cutibacterium) acnes*, the bacterium involved in acne vulgaris.
+- **Anti-inflammatory effects:** A review (PMID 18627330) describes miconazole effects on several skin disorders, including anti-inflammatory actions.
+- **Acne-like eruptions:** *Malassezia* (Pityrosporum) folliculitis often looks like acne and responds to azoles (PMID 8593718). Some apparent benefit may therefore reflect treatment of this mimic rather than true acne vulgaris.
 
-- **In vitro activity against the acne bacterium:** azole antifungals, including miconazole-class agents, are active against *Propionibacterium (Cutibacterium) acnes*, the bacterium implicated in acne vulgaris. This matters as antibiotic-resistant strains increase.
-- **Activity against *Malassezia* (*Pityrosporum*):** these yeasts can cause acne-like folliculitis.
-- **Anti-inflammatory effects on skin:** a 2008 review describes miconazole's multiple effects on skin disorders.
-
-Two cautions apply. The very high TxGNN score is a computational prediction, not clinical evidence. Part of the signal may also come from *Malassezia* folliculitis, which is often misdiagnosed as acne, rather than from true acne vulgaris.
+The TxGNN score is very high, but it is a computational prediction and not clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspended | 80 | Tests a fixed combination of beclomethasone, gentamicin and an azole (likely clotrimazole) cream in contaminated dermatoses. Miconazole is not clearly the tested agent, no results are available, and the population is not specific to acne. Weak indirect support only. |
+Currently no related clinical trials registered.
 
 ---
 
@@ -78,30 +75,33 @@ Two cautions apply. The very high TxGNN score is a computational prediction, not
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face, small sample) | Skin Res Technol | Split-face clinical and bioinstrumental assessment of mild inflammatory catamenial acne. The available abstract excerpt does not report miconazole-specific results. |
-| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opin Pharmacother | Review of the multiple effects of miconazole nitrate, a long-established imidazole antifungal, on skin disorders. |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical study | Clin Exp Dermatol | Therapeutic trials in 62 patients with *Pityrosporum* folliculitis, a condition frequently misdiagnosed as acne vulgaris. Indirect relevance to acne. |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biol Pharm Bull | Tested azole antifungals against *P. acnes* isolated from acne patients, motivated by rising antibiotic resistance. |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Clinical study (split-face, small, exploratory) | Skin Res Technol | Clinical and bioinstrumental assessment in mild inflammatory catamenial acne |
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Review | Expert Opin Pharmacother | Overview of miconazole effects on skin disorders; describes it as a long-established imidazole antifungal |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical study / therapeutic trial | Clin Exp Dermatol | 62 patients with Pityrosporum folliculitis, often misdiagnosed as acne vulgaris; diagnosis and therapeutic trials (acne-mimicking condition, not true acne) |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biol Pharm Bull | Azole antifungals tested against *P. acnes* isolates from patients with acne vulgaris |
 
 ---
 
 ## Canada Market Information
 
-Ten authorizations (DINs) are recorded. Five main ones are listed below; the records provide no dosage form or approved indication text.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02244005 | MONISTAT 3 VAGINAL CREAM | Not specified | Not specified |
+| 02245546 | MICONAZOLE NITRATE VAGINAL CREAM 2% | Not specified | Not specified |
+| 02230304 | MICATIN POWDER SPRAY - UNSCENTED 2% | Not specified | Not specified |
+| 02126567 | MONISTAT DERM CREAM | Not specified | Not specified |
+| 02126257 | MONISTAT 7 DUAL-PAK | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2244005 | MONISTAT 3 VAGINAL CREAM |
-| 2245546 | MICONAZOLE NITRATE VAGINAL CREAM 2% |
-| 2230304 | MICATIN POWDER SPRAY - UNSCENTED 2% |
-| 2126567 | MONISTAT DERM CREAM |
-| 2126257 | MONISTAT 7 DUAL-PAK |
+Ten valid single-ingredient authorizations are listed in total; the five above are shown.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindication signals (knowledge graph):** liver disease and gallbladder disease. These come from knowledge graph links, not from package insert text.
+- **Drug Interactions:** 100 interactions were identified. Examples of moderate-level interactions include paclitaxel, fentanyl, alfentanil, acalabrutinib, nifedipine, amlodipine, amiodarone, amitriptyline, alprazolam, hydrocodone, estradiol and ethinylestradiol. Minor-level examples include dolutegravir, loratadine and amphotericin B. These are consistent with miconazole's known inhibition of CYP enzymes, so concomitant medications should be reviewed, especially with systemic exposure.
+
+Please refer to the package insert for further safety information, such as warnings and contraindications.
 
 ---
 
@@ -110,14 +110,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is a research question rather than a development candidate. The only trial is suspended and tests a combination product, and the literature consists of one small clinical study, one review, one study in a related condition and one in vitro study. The Canadian safety documentation has also not been retrieved, which blocks safety screening.
+The prediction score is very high, but the supporting evidence is limited to one review, one small exploratory split-face study, one study of an acne-mimicking condition and one in vitro study (Evidence Level L3). There are no registered clinical trials, and the package insert safety information and mechanism of action data are still missing. The case is best treated as a research question for now.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking gap)
-- Mechanism-of-action data from DrugBank, to support the mechanistic-link analysis
-- Approved indication text and dosage forms for the Canadian licenses
-- Clinical evidence in confirmed acne vulgaris (excluding *Malassezia* folliculitis), ideally a controlled trial of miconazole alone
-- Confirmation of whether the available topical products are suitable for acne-prone skin
+- Package insert warnings, contraindications and approved indication text from Health Canada, which are currently missing (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Controlled clinical evidence in true acne vulgaris, separated from *Malassezia* folliculitis
+- Assessment of topical formulation suitability and local tolerability for acne-prone skin
+- A review of the interacting drugs listed above if systemic exposure is possible
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

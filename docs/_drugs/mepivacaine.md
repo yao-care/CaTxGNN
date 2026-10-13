@@ -2,7 +2,7 @@
 layout: default
 title: Mepivacaine
 parent: Model Prediction Only (L5)
-nav_order: 584
+nav_order: 589
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,82 +33,75 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Mepivacaine is an amide local anaesthetic, marketed in Canada in dental and other injectable products.
-The TxGNN model predicts it may be effective for **gastroduodenitis**, but **0 clinical trials** and **0 publications** currently support this direction.
-The prediction rests on the model score alone.
-
----
+Mepivacaine is an amide-type local anaesthetic, marketed in Canada mainly in dental and local anaesthetic injection products.
+The TxGNN model predicts it may be effective for **gastroduodenitis**,
+but **no clinical trials and no relevant publications** currently support this direction, so the prediction rests on the computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anaesthesia (from the drug's class; the Canadian licence records provided contain no indication text) |
+| Original Indication | Not stated in the licence data compiled for this report (the product names suggest local and dental anaesthesia) |
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 7 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source records. Mepivacaine belongs to the amide local anaesthetics, which block voltage-gated sodium channels and so stop nerve signal conduction. This is the basis of its use for numbing tissue.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, mepivacaine is an amide-type local anaesthetic that blocks voltage-gated sodium channels and thereby reduces nerve signal conduction.
 
-The link to gastroduodenitis is weak. Gastroduodenal inflammation is treated by suppressing acid, eradicating *H. pylori*, protecting the mucosa or reducing inflammation, and sodium channel blockade has none of these effects. At most, a topical anaesthetic effect on mucosal pain is conceivable, and that would only relieve symptoms rather than treat the disease.
+A theoretical link to gastroduodenitis, such as reduced visceral pain signalling or local mucosal anaesthesia, is possible but speculative. Blocking sodium channels does not address the underlying causes of gastroduodenal inflammation, such as acid injury, *H. pylori* infection or impaired mucosal defence. No gastrointestinal indication has been established for this injected anaesthetic.
 
-The very high score (99.49%) should be read with caution. It comes from the model only, and it may reflect knowledge-graph artefacts, since the drug has no recorded original indications and no mechanism data.
+The high TxGNN score is a computational prediction only. No clinical or literature evidence supports it.
 
----
+A second predicted indication, **peptic ulcer disease** (score 99.41%), has the same limitations. Its only retrieved publication is an animal safety pharmacology study of lofexidine, a different drug, and it was treated as an irrelevant retrieval.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for gastroduodenitis.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 479934 | SCANDONEST 3% PLAIN INJ |
-| 2474174 | CARBOCAINE 3% |
-| 2241999 | CARBOCAINE 1% |
-| 2330733 | 3% POLOCAINE DENTAL |
-| 364304 | ISOCAINE HCL INJ 3% |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00479934 | SCANDONEST 3% PLAIN INJ | Not listed | Not listed |
+| 02474174 | CARBOCAINE 3% | Not listed | Not listed |
+| 02241999 | CARBOCAINE 1% | Not listed | Not listed |
+| 02330733 | 3% POLOCAINE DENTAL | Not listed | Not listed |
+| 00364304 | ISOCAINE HCL INJ 3% | Not listed | Not listed |
 
-The records provided do not list dosage forms or approved indication text for these products. Two more authorizations exist but are not shown, giving 7 in total.
-
----
+Two further single-ingredient licences (CARBOCAINE 1% and CARBOCAINE 2%) are also valid, for 7 in total.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the interaction query.
+- **Disease associations in the knowledge graph** (not taken from label text): the TxGNN knowledge graph links mepivacaine to contraindications in kidney disease, liver disease, gallbladder disease, pyoureter, myasthenia gravis (including adult-onset), neuromuscular junction disease, butyrylcholinesterase deficiency, cardiovascular disease and heart disease. These should be verified against the official labelling.
+- **Drug Interactions**: 11 interactions were identified, 10 rated Moderate and 1 Minor.
+  - Moderate: other local anaesthetics and related agents, including topical and ophthalmic lidocaine, topical benzocaine, topical and nasal cocaine, ophthalmic and topical tetracaine, ophthalmic oxybuprocaine and topical cinchocaine. Liposomal morphine is also rated Moderate.
+  - Minor: hyaluronidase.
 
----
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or publications behind it, and no plausible mechanism connects sodium channel blockade to gastroduodenal disease. The only literature retrieved for the related prediction of peptic ulcer disease concerns a different drug (lofexidine), so it gives no support.
+The prediction is supported only by the TxGNN score (evidence level L5). There are no clinical trials, no relevant literature and no established mechanistic link to gastroduodenitis. Mepivacaine is also an injected local anaesthetic, so its route of administration may not suit a gastroduodenal condition.
 
 **To proceed, the following is needed:**
-- Mechanism-of-action data from DrugBank, to test whether any biological link to gastroduodenitis exists
-- Health Canada package insert warnings and contraindications, to complete safety screening
-- Approved indication text and dosage forms for the Canadian licences
-- Any mepivacaine-specific clinical or preclinical studies in gastroduodenal disease; none were found, so the prediction should not advance without them
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for mepivacaine
+- Package insert warnings and contraindications from Health Canada, which is required before any safety screening
+- Approved indication text and dosage forms for each Canadian licence
+- A targeted literature search for local anaesthetics in gastroduodenal inflammation or pain
+- An assessment of route compatibility, since no required or available routes have been defined
+- Preclinical or early exploratory evidence before any clinical development is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

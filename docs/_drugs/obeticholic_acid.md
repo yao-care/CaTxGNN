@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Obeticholic Acid
-parent: Moderate Evidence (L3-L4)
-nav_order: 666
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 672
+evidence_level: L5
 indication_count: 6
 ---
 
 # Obeticholic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,75 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Obeticholic Acid: From Primary Biliary Cholangitis to Rheumatoid Arthritis
+# Obeticholic Acid: From Its Approved Use to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Obeticholic acid (OCA) is an FXR agonist marketed in Canada as OCALIVA, and the retrieved literature describes its marketed use as primary biliary cholangitis.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but there are **0 clinical trials** and **3 publications**, and none of those publications tests OCA in rheumatoid arthritis.
-
----
+Obeticholic acid is a farnesoid X receptor (FXR) agonist marketed in Canada as OCALIVA. The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but the support is thin: **no registered clinical trials** and **1 preclinical animal study** directly on this question, plus 3 indirect or background publications.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary biliary cholangitis (taken from the literature context; the license records contain no indication text) |
+| Original Indication | Not available in the data compiled for this report (the license records contain no indication text) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.67% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (preclinical only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Obeticholic acid activates the farnesoid X receptor (FXR). FXR signaling has reported anti-inflammatory and immunomodulatory effects, so a link to autoimmune disease is plausible. Primary biliary cholangitis is itself a chronic autoimmune liver disease, which gives the two conditions a loose conceptual connection.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, obeticholic acid is a potent FXR agonist. FXR activation has been linked to anti-inflammatory effects, including suppression of NF-κB signaling and lower production of pro-inflammatory cytokines such as TNF-α and IL-6. These pathways are also central to rheumatoid arthritis (RA), a chronic autoimmune disease with synovial inflammation, oxidative stress and joint damage.
 
-The supporting evidence is thin. The closest paper (PMID 33704005) shows that FXR activation reduces liver injury caused by *Tripterygium wilfordii* preparations, which are used to treat rheumatoid arthritis. That is a hepatoprotective effect in mice, not an anti-arthritic one. The other two papers cover primary biliary cholangitis and autoimmune hepatitis models, which are different diseases.
+The strongest supporting signal is a 2026 study in rats. In a complete Freund's adjuvant-induced arthritis model, obeticholic acid attenuated arthritis through FXR-mediated modulation of the TGF-β/TAK1/MKK3/p38 MAPK pathway, inflammation and oxidative stress. This is a single animal model and has not been confirmed in humans.
 
-The very high TxGNN score is a model prediction only. It should not be read as clinical evidence.
-
----
+The other literature is only indirect. One paper shows FXR activation protecting against liver injury caused by Tripterygium wilfordii, an herbal RA treatment. That concerns liver protection, not RA efficacy. The remaining two papers are reviews of autoimmune liver disease and are not RA-specific.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32299307](https://pubmed.ncbi.nlm.nih.gov/32299307/) | 2020 | Review | United European Gastroenterology Journal | Diagnosis and treatment of primary biliary cholangitis. It covers OCA's marketed disease and does not address rheumatoid arthritis. |
-| [35903109](https://pubmed.ncbi.nlm.nih.gov/35903109/) | 2022 | Review | Frontiers in Immunology | Animal models of autoimmune hepatitis and other autoimmune liver diseases. It does not address rheumatoid arthritis. |
-| [33704005](https://pubmed.ncbi.nlm.nih.gov/33704005/) | 2021 | Preclinical | Xenobiotica | In mice, FXR activation prevented liver injury caused by *Tripterygium wilfordii* preparations, which are used for rheumatoid arthritis. This shows hepatoprotection, not an anti-arthritic effect. |
-
----
+| [42758264](https://pubmed.ncbi.nlm.nih.gov/42758264/) | 2026 | Preclinical animal study | Inflammopharmacology | Obeticholic acid attenuated CFA-induced arthritis in rats via FXR-mediated modulation of TGF-β/TAK1/MKK3/p38 MAPK signaling, inflammation and oxidative stress |
+| [33704005](https://pubmed.ncbi.nlm.nih.gov/33704005/) | 2021 | Preclinical study | Xenobiotica | FXR activation prevented liver injury from Tripterygium wilfordii preparations in mice (indirect; liver protection, not RA efficacy) |
+| [32299307](https://pubmed.ncbi.nlm.nih.gov/32299307/) | 2020 | Review | United European Gastroenterology Journal | Diagnosis and treatment of primary biliary cholangitis (not RA-specific) |
+| [35903109](https://pubmed.ncbi.nlm.nih.gov/35903109/) | 2022 | Review | Frontiers in Immunology | Animal models of autoimmune hepatitis (not RA-specific) |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2463148 | OCALIVA |
-| 2463121 | OCALIVA |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02463148 | OCALIVA | Not specified | Not specified in the available data |
+| 02463121 | OCALIVA | Not specified | Not specified in the available data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 50 potential interactions were identified. Those listed below are from the first 20 reviewed:
+  - **Major**: Grazoprevir.
+  - **Moderate**: Lidocaine, caffeine, theophylline, aminophylline, alosetron, anagrelide, asenapine, bendamustine, clomipramine, clozapine, cyclobenzaprine, duloxetine, flutamide, anisindione and dicoumarol. Bile acid sequestrants (cholestyramine, colesevelam, colestipol) are also in this group.
+  - **Minor**: Esomeprazole.
+- **Hepatic risk in the RA setting**: Obeticholic acid carries a boxed warning for hepatic decompensation in patients with cirrhosis and primary biliary cholangitis. RA patients commonly take hepatotoxic drugs such as methotrexate and leflunomide, so additive liver risk would need careful evaluation.
 
----
+Please refer to the package insert for other warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The rheumatoid arthritis prediction rests on a model score and one preclinical liver-protection paper, with no trials and no direct evidence of efficacy. The other five predicted indications (conjunctivitis and four rare congenital or genetic syndromes) also have no meaningful supporting evidence and are rated L5.
+The prediction score is high, but the evidence is limited to one preclinical rat study with no human trials. The known hepatic safety concern overlaps with common RA therapies. The package insert data has also not been obtained, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are required before any safety screening
-- Confirmation of the mechanism of action from DrugBank, to support analysis of the FXR–autoimmune link
-- Preclinical evidence of OCA activity in rheumatoid arthritis models, such as arthritis models measuring joint inflammation
-- Indication text and dosage forms for the two OCALIVA licenses
+- Health Canada package insert warnings, contraindications and approved indication text
+- Detailed mechanism-of-action data (e.g., from DrugBank)
+- Confirmation of the anti-arthritic effect in additional animal models
+- A hepatic safety assessment for combination with methotrexate and leflunomide
+- Early-phase human data before any clinical consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

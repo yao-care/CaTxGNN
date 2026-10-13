@@ -2,7 +2,7 @@
 layout: default
 title: Tetracycline
 parent: Moderate Evidence (L3-L4)
-nav_order: 896
+nav_order: 903
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,18 +29,21 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Tetracycline: From Antibacterial Therapy to Punctate Epithelial Keratoconjunctivitis
+# Tetracycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Tetracycline is a tetracycline-class antibiotic marketed in Canada. The Evidence Pack does not list a specific approved indication for it.
+Tetracycline is a broad-spectrum antibiotic originally used for infections such as urinary tract infection, bronchitis, pneumonia, acne, gonorrhea and conjunctivitis.
 The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
-but there are **0 registered clinical trials** and only **1 publication** (a 1992 case report), which is indirect support.
+but there are currently **0 clinical trials** and only **1 publication** (a 1992 case report that is indirect evidence), so the support is very limited.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the Canadian licence data. The knowledge graph lists urinary tract infection, bronchitis, acne, anthrax infection, gonorrhea, pharyngitis, conjunctivitis, pneumonia and others |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L4 |
@@ -48,51 +51,78 @@ but there are **0 registered clinical trials** and only **1 publication** (a 199
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known class information, tetracycline is an antibiotic that treats chlamydial infection and has anti-inflammatory effects on the ocular surface.
+Detailed mechanism of action data is not currently available. Based on known information, tetracycline is a member of the tetracycline antibiotic class. Its efficacy in bacterial infections, including chlamydial (trachoma/inclusion) conjunctivitis, is established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
 
-Chlamydial infection can cause follicular conjunctivitis, and tetracyclines are used to treat it. The single retrieved paper describes two patients whose follicular conjunctivitis from *Chlamydia trachomatis* resolved after oral tetracycline or doxycycline. Both then developed punctate epithelial keratitis. This link is indirect. The paper reports keratitis that persisted or recurred after treatment, not benefit from tetracycline. The high model score is therefore not backed by clinical evidence.
+Punctate keratitis can follow chlamydial follicular conjunctivitis, which is already within tetracycline's established uses. Tetracyclines also have antibacterial activity against *Chlamydia*, as well as anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects that could plausibly matter on the ocular surface.
+
+The high TxGNN score most likely reflects how close this disease sits to the existing conjunctivitis indications in the knowledge graph. It is not a sign of direct evidence for this use.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case series | Cornea | Two patients developed recurrent, bilateral punctate epithelial keratitis after chlamydial follicular conjunctivitis had resolved with oral tetracycline or doxycycline. The paper does not show treatment benefit. |
+| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case report | Cornea | Two patients with chlamydial follicular conjunctivitis were treated with oral tetracycline or doxycycline, and the follicles resolved. Both later had recurrent bilateral punctate epithelial keratitis. This describes persistent keratitis after treatment, not a test of tetracycline for this condition. |
+
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 580929 | TETRACYCLINE |
-| 2246962 | PYLERA |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00580929 | TETRACYCLINE | Not specified | Not specified |
+| 02246962 | PYLERA | Not specified | Not specified |
 
-Dosage form and approved-indication text were not provided for either license. The Pack does not give the route of administration, so compatibility with an ocular indication cannot be assessed.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph (not label text):** liver failure and liver disease, kidney disease and kidney failure, uremia, epilepsy, diabetes mellitus and diabetic ketoacidosis, neutropenia and agranulocytosis, G6PD deficiency, blood coagulation disease, *Clostridium difficile* colitis, gout, peripheral neuropathy, atrial fibrillation and atrioventricular block, respiratory failure, and others. These need confirmation against the Health Canada package insert.
+- **Drug Interactions:** 100 interactions were identified in total; the first 20 are reviewed here.
+  - **Major:** isotretinoin, acitretin, aminolevulinic acid
+  - **Moderate:** ethinylestradiol, amoxicillin, ampicillin, aminophylline, atracurium, atovaquone, balsalazide, bismuth subcitrate potassium, aluminum hydroxide, sodium citrate, topical aminolevulinic acid, asparaginase (*E. coli* and *Erwinia* forms), attapulgite
+  - **Minor:** acetazolamide, hydrochlorothiazide, amiloride
+
+Please refer to the package insert for the full set of warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.58%), but there are no clinical trials for this indication. The only publication is a 1992 case report that does not show efficacy. The mechanistic link is indirect, and safety and approved-indication data from Health Canada are missing.
+The only evidence is a single 1992 case report, which is indirect, and there are no registered trials. The high TxGNN score probably reflects proximity to existing conjunctivitis indications rather than real support for this use (L4).
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings, contraindications and approved indications, which are currently a blocking data gap
-- Mechanism of action data from DrugBank
-- Route and dosage-form compatibility for an ocular indication
-- Clinical studies directly testing tetracycline in punctate epithelial keratoconjunctivitis
+- Direct clinical evidence of tetracycline (or an ocular formulation) in punctate epithelial keratoconjunctivitis
+- Detailed mechanism of action data (MOA)
+- Health Canada package insert warnings and contraindications, plus approved indication text for the two licences
+- Route and formulation compatibility assessment, since an ocular route is likely needed
+- Review of the knowledge-graph contraindication signals and major drug interactions
 
-**Note on other predictions:** Among the other predictions in this Evidence Pack, chronic rhinosinusitis (rank 3, L2) has the strongest supporting evidence. It has four registered trials, including a completed Phase 3 trial (NCT05157412), plus several systematic reviews and an RCT. However, almost all of that evidence concerns doxycycline, not tetracycline itself. If the team wants to pursue the strongest signal, a separate report for that indication is the better candidate.
+---
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+## Other Predicted Indications (Reference)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary | Recommendation |
+|------|------|------|------|------|
+| Chronic ethmoidal sinusitis | 99.15% | L4 | One 2006 in vitro susceptibility study of streptococci; no trials | Hold |
+| Chronic rhinosinusitis | 99.15% | L4 | A Cochrane review, a 2023 meta-analysis of doxycycline, and other class-level papers; no tetracycline-specific trials | Research Question |
+| Paranasal sinus neoplasm | 99.10% | L5 | Model prediction only | Hold |
+
+Chronic rhinosinusitis has the most supporting literature, but it is mostly about doxycycline and other class members rather than tetracycline itself.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

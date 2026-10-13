@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Midodrine
-parent: Model Prediction Only (L5)
-nav_order: 611
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 616
+evidence_level: L2
 indication_count: 10
 ---
 
 # Midodrine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Midodrine: From Orthostatic Hypotension to Variably Protease-Sensitive Prionopathy
+# Midodrine: From Orthostatic Hypotension to Hypotensive Disorder
 
 ## One-Sentence Summary
 
-Midodrine is an oral vasopressor that is marketed in Canada. It is known clinically for treating low blood pressure, although the Evidence Pack does not record its original indication.
-The TxGNN model ranks **variably protease-sensitive prionopathy** as its top prediction, but this is a graph-based score only, with **0 clinical trials** and **0 publications** behind it.
-The evidence review therefore recommends **Hold**.
+Midodrine is a peripheral alpha-1 adrenergic agonist, originally used for orthostatic hypotension, multiple system atrophy and postural orthostatic tachycardia syndrome.
+The TxGNN model predicts it may be effective for **hypotensive disorder**, supported by **1 clinical trial** (Phase 2) and **18 publications**.
+This predicted indication largely overlaps with the drug's existing use, so it is better viewed as confirmation than as true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack (inferred from general knowledge: orthostatic hypotension) |
-| Predicted New Indication | Variably protease-sensitive prionopathy |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only) |
+| Original Indication | Orthostatic hypotension (also multiple system atrophy and postural orthostatic tachycardia syndrome; Canadian licence indication text is not available) |
+| Predicted New Indication | Hypotensive disorder |
+| TxGNN Prediction Score | 99.89% |
+| Evidence Level | L2 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 10 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. Based on known pharmacology, midodrine is a prodrug. Its active metabolite, desglymidodrine, is a selective peripheral alpha-1 adrenergic agonist that raises vascular tone and blood pressure.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, midodrine is a prodrug whose active metabolite, desglymidodrine, is a peripheral alpha-1 agonist. It causes arterial and venous vasoconstriction and raises blood pressure.
 
-**This prediction is not mechanistically plausible.** Variably protease-sensitive prionopathy is a rare prion disease of the brain, and alpha-1 agonism has no known relationship to prion pathology. Midodrine also acts mainly outside the central nervous system. The very high score (0.9999) most likely reflects patterns in the knowledge graph rather than real biology, and no trial or paper supports it.
+Its efficacy in orthostatic hypotension is established, and the same blood-pressure-raising effect is mechanistically applicable to other hypotensive states, such as hypotension secondary to spinal cord injury or other conditions. A 1989 review in *Drugs* describes midodrine's use in orthostatic hypotension and secondary hypotensive disorders.
 
-**A more credible direction exists among the other predictions.** The rank 4 prediction, **hypotensive disorder**, is the only one with substantial evidence. It has 9 linked trials, several of which test midodrine directly. These include post-spinal-anaesthesia hypotension, intradialytic hypotension, and hypotension in heart failure. It also has multiple reviews and one RCT. This is probably an established use of midodrine rather than true repurposing. The empty original-indication field is likely a data gap.
+Because the predicted indication is close to the original one, the link is strong and direct. This is a confirmation of existing use, not a new therapeutic area.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02893553](https://clinicaltrials.gov/study/NCT02893553) | Phase 2 | Completed | 21 | Effects of normalizing blood pressure on cerebral blood flow in hypotensive individuals with spinal cord injury. The trial is small and focused on cerebral blood flow outcomes. |
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [25644760](https://pubmed.ncbi.nlm.nih.gov/25644760/) | 2015 | Randomized trial | Hepatology | Terlipressin plus albumin compared with midodrine and octreotide plus albumin in hepatorenal syndrome |
+| [2480881](https://pubmed.ncbi.nlm.nih.gov/2480881/) | 1989 | Review | Drugs | Midodrine pharmacology and use in orthostatic hypotension and secondary hypotensive disorders |
+| [38123372](https://pubmed.ncbi.nlm.nih.gov/38123372/) | 2024 | Review | Revue neurologique | Expert position statement on orthostatic hypotension |
+| [38205630](https://pubmed.ncbi.nlm.nih.gov/38205630/) | 2024 | Scientific statement | Hypertension | American Heart Association statement on orthostatic hypotension in adults with hypertension |
+| [28050656](https://pubmed.ncbi.nlm.nih.gov/28050656/) | 2017 | Consensus recommendations | Journal of neurology | Screening, diagnosis and treatment of neurogenic orthostatic hypotension and supine hypertension |
+| [32979782](https://pubmed.ncbi.nlm.nih.gov/32979782/) | 2020 | Review | Autonomic Neuroscience | Pharmacologic treatment of neurogenic orthostatic hypotension |
+| [41941194](https://pubmed.ncbi.nlm.nih.gov/41941194/) | 2026 | Review | JAMA Internal Medicine | Management of orthostatic hypotension |
+| [42635998](https://pubmed.ncbi.nlm.nih.gov/42635998/) | 2026 | Review | JAMA | Review of postural orthostatic tachycardia syndrome |
+| [31996627](https://pubmed.ncbi.nlm.nih.gov/31996627/) | 2020 | Review | Continuum | Management of orthostatic hypotension, with emphasis on neurogenic forms |
+| [37978969](https://pubmed.ncbi.nlm.nih.gov/37978969/) | 2024 | Expert review | Gastroenterology | AGA update on vasoactive drugs and intravenous albumin in cirrhosis |
 
 ## Canada Market Information
 
-Ten licenses are on record. The first five are shown below. The Evidence Pack lists no dosage form or approved-indication text for them.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02473984 | MAR-MIDODRINE | Not listed | Not listed |
+| 02473992 | MAR-MIDODRINE | Not listed | Not listed |
+| 02517701 | JAMP MIDODRINE | Not listed | Not listed |
+| 02547112 | M-MIDODRINE | Not listed | Not listed |
+| 02533219 | MIDODRINE | Not listed | Not listed |
 
-| DIN | Product Name |
-|---------|------|
-| 02473984 | MAR-MIDODRINE |
-| 02473992 | MAR-MIDODRINE |
-| 02517701 | JAMP MIDODRINE |
-| 02547112 | M-MIDODRINE |
-| 02533219 | MIDODRINE |
+Ten single-ingredient DINs are currently valid and none are cancelled. Only the first five are shown here.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found.
-
-For context, the Evidence Pack notes these general cautions for midodrine:
-- **Supine hypertension**
-- **Bradycardia**
-- **Urinary retention**
-- **Caution in heart failure, renal impairment and hepatorenal settings**
+- **Contraindications suggested by the knowledge graph** (not taken from label text): pheochromocytoma (adrenal and sympathetic paraganglioma), thyrotoxicosis, hyperthyroidism, Graves disease, and several cancers (duodenum, small intestine, heart, adrenal gland).
+- **Drug Interactions**: 81 interactions are recorded. Examples listed as moderate include epinephrine, ephedrine, phentermine, diethylpropion, bupropion, sibutramine, mazindol, isometheptene, lorcaserin, trospium and rolapitant. Examples listed as minor include ranitidine, cimetidine and metformin.
+- **Points to watch**: the analysis flags supine hypertension, urinary retention and bradycardia. It also flags caution with other vasoconstrictors, beta-blockers and cardiac glycosides.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The top prediction has no supporting trials or publications and no plausible mechanism, so it rests on the model score alone (L5). The other top-10 predictions are similarly unsupported, except hypotensive disorder, which is likely an existing use.
+The mechanism is direct and consistent with midodrine's established use. A completed Phase 2 trial and several reviews and guideline-type documents support it. No Phase 3 randomized trial was identified, and the indication substantially overlaps with existing use.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
-- Mechanism-of-action data from DrugBank
-- Original indication data for midodrine, to confirm whether hypotensive disorder is an on-label use rather than a repurposing candidate
-- If a hypotension-related direction is pursued, verification of which drug was tested in the trials whose arms are unconfirmed (NCT02307565, NCT02893553, NCT01030874, NCT05839652)
+- Detailed mechanism of action data
+- Approved indication text and dosage forms for the Canadian licences
+- Evidence from Phase 3 randomized trials in specific hypotensive populations, such as spinal cord injury
+- A safety monitoring plan covering supine hypertension, bradycardia and urinary retention
+
+**Other predictions:** The other nine predictions have no meaningful evidence and are on Hold. These are variably protease-sensitive prionopathy, faciodigitogenital syndrome, ADHD (two entries), sinoatrial node disease, monogenic obesity, specific developmental disorder, obsolete hypertelorism and sinoatrial block. Most appear to be knowledge-graph artifacts. For the two sinoatrial conditions, midodrine's reflex bradycardia is a safety concern rather than a therapeutic opportunity.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dabigatran Etexilate
-parent: Model Prediction Only (L5)
-nav_order: 238
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 240
+evidence_level: L4
 indication_count: 5
 ---
 
 # Dabigatran Etexilate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Dabigatran etexilate is an oral direct thrombin inhibitor anticoagulant, marketed in Canada as PRADAXA and as generic APO-DABIGATRAN.
-The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are **0 clinical trials** and **1 publication** (not relevant to dabigatran) behind this prediction, so it rests on the model alone.
+Dabigatran etexilate is an oral direct thrombin inhibitor marketed in Canada as an anticoagulant. The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but this rests on a computational score alone: **0 clinical trials** and **1 publication** are linked, and that publication concerns a different drug (cilofexor) and does not test dabigatran.
 
 ---
 
@@ -42,10 +41,10 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data supplied; dabigatran is a direct thrombin inhibitor (anticoagulant) |
+| Original Indication | Not specified in the data compiled for this report (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 5 |
 | Recommended Decision | Hold |
@@ -54,17 +53,19 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Dabigatran etexilate is a prodrug of dabigatran, a direct thrombin inhibitor, and its anticoagulant activity is well established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, dabigatran is a direct thrombin inhibitor. Thrombin and PAR signaling could plausibly contribute to liver inflammation and fibrosis, which is a possible bridge to sclerosing cholangitis. This is a hypothesis only and is not supported by the supplied evidence.
 
-The pack identifies no established mechanistic link to sclerosing cholangitis. The high score (0.998) comes only from the knowledge-graph prediction. One speculative route is thrombin/PAR-1 signalling in cholestatic liver fibrosis, but nothing in the package supports it. Dabigatran etexilate is also a P-glycoprotein substrate, which could matter for hepatobiliary transport, but this is not evidence of efficacy.
+The only linked publication (PMID 36906733) is a drug-interaction pharmacokinetic study of cilofexor, an FXR agonist in development for sclerosing cholangitis. It says nothing about dabigatran's efficacy. The high score of 99.82% should therefore be read as a model-derived association and not as confirmation.
 
-Similarity to the original indication has not yet been assessed, and route compatibility is still pending.
+Other predicted indications are weaker still. Familial hyperlipidaemia (an obsolete disease term), hypoalphalipoproteinemia and homozygous familial hypercholesterolemia have no plausible link to thrombin inhibition in the data. Primary release disorder of platelets is a bleeding-type disorder, where an anticoagulant would be expected to worsen the problem and not treat it.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for sclerosing cholangitis.
+
+For other predicted indications, one trial was returned (NCT07629999, hypoalphalipoproteinemia). It is a Phase 1 first-in-human study of a different investigational agent (BMS-986533) and is most likely a spurious match.
 
 ---
 
@@ -72,27 +73,29 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36906733](https://pubmed.ncbi.nlm.nih.gov/36906733/) | 2023 | Drug-drug interaction (CYP/transporter) evaluation | Clinical Pharmacokinetics | Evaluated cilofexor, an FXR agonist in development for NASH and primary sclerosing cholangitis, as a victim and perpetrator of drug interactions. It does not study dabigatran, so it gives no support for this indication. |
+| [36906733](https://pubmed.ncbi.nlm.nih.gov/36906733/) | 2023 | Other (DDI / pharmacokinetic evaluation) | Clinical Pharmacokinetics | Evaluates cytochrome P450 and transporter-mediated drug interaction potential of cilofexor, an FXR agonist in development for NASH and primary sclerosing cholangitis. It does not study dabigatran. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2312441 | PRADAXA |
-| 2358808 | PRADAXA |
-| 2468891 | APO-DABIGATRAN |
-| 2468905 | APO-DABIGATRAN |
-| 2468913 | APO-DABIGATRAN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02312441 | PRADAXA | Not available | Not available |
+| 02358808 | PRADAXA | Not available | Not available |
+| 02468891 | APO-DABIGATRAN | Not available | Not available |
+| 02468905 | APO-DABIGATRAN | Not available | Not available |
+| 02468913 | APO-DABIGATRAN | Not available | Not available |
 
-Dosage form and approved indication text are not available in the licence records supplied.
+All five licences are valid single-ingredient products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from the TxGNN knowledge graph, not from label text): blood coagulation disease, anaemia, macrocytic anaemia and intracerebral haemorrhage. Bleeding risk is the central concern for any anticoagulant, so this applies directly to patients with liver disease, who often have impaired coagulation.
+
+Please refer to the package insert for full warnings, contraindications and drug interactions. No drug interaction records were found.
 
 ---
 
@@ -101,13 +104,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is a graph-based score with no trials, no relevant literature and no supported mechanism. The remaining four predicted indications in the pack (familial hyperlipidemia, hypoalphalipoproteinemia, homozygous familial hypercholesterolemia and primary release disorder of platelets) are also rated Hold. For the platelet disorder, dabigatran's anticoagulant effect could raise bleeding risk rather than help.
+The prediction score is very high, but there are no clinical trials for dabigatran in sclerosing cholangitis, and the single linked publication concerns a different drug. The evidence is model prediction with a speculative mechanism, and the bleeding-related safety profile adds caution.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for dabigatran, followed by an assessment of the thrombin/PAR-1 hypothesis in cholestatic liver disease
-- Health Canada package insert warnings and contraindications, which are needed before any safety screening
-- Preclinical or clinical evidence of dabigatran in sclerosing cholangitis, or a targeted literature search for it
-- Approved indication text and dosage forms for the five DINs
+- Health Canada package insert warnings, contraindications and approved indications (currently missing)
+- Mechanism of action data (for example from DrugBank) and a documented link between thrombin signalling and cholestatic liver disease
+- Preclinical evidence (for example thrombin/PAR inhibition in cholangiopathy models) or observational data on dabigatran use in patients with sclerosing cholangitis
+- A bleeding-risk assessment in patients with hepatic impairment or portal hypertension before any clinical study is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

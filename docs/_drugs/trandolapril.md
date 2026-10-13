@@ -2,7 +2,7 @@
 layout: default
 title: Trandolapril
 parent: Model Prediction Only (L5)
-nav_order: 922
+nav_order: 929
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,93 +29,103 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Trandolapril: From ACE Inhibitor Use to Malignant Hypertensive Renal Disease
+# Trandolapril: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Trandolapril is an ACE inhibitor that is marketed in Canada under 20 licences.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but **0 clinical trials** and **0 publications** currently support this prediction.
-The result is a model-only prediction (Evidence Level L5) and should be treated as a hypothesis.
-
----
+Trandolapril is an ACE inhibitor originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but **no clinical trials and no publications** currently support this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, trandolapril belongs to the ACE inhibitor class. ACE inhibitors block the formation of angiotensin II, which lowers blood pressure and reduces pressure inside the kidney's filtering units (glomeruli).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trandolapril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically, blocking the renin-angiotensin-aldosterone system (RAAS) may be applicable to malignant hypertensive renal disease.
 
-Malignant hypertensive renal disease is kidney injury driven by severe, sustained high blood pressure. Lowering systemic and glomerular pressure through ACE inhibition is biologically plausible for this condition.
+Malignant hypertensive renal disease is a severe form of hypertension with kidney involvement. Because it is closely related to the original indication, the prediction is biologically plausible. It is better understood as an extension of the existing hypertension use than as true repurposing into a new disease area.
 
-The 99.92% TxGNN score reflects a knowledge-graph association, not clinical proof. No trials or publications were found for this drug–disease pair, so the mechanistic argument is still unverified.
-
----
+The other top-ranked predictions follow a similar pattern:
+- **Malignant renovascular hypertension** (score 99.92%): driven by renin-angiotensin activation, so ACE inhibition is plausible. Caution is needed in bilateral renal artery stenosis, where ACE inhibitors can precipitate acute kidney injury.
+- **Pulmonary hypertension (unclear multifactorial mechanism)** (99.92%): RAAS involvement in pulmonary vascular remodeling is only a theoretical rationale, and ACE inhibitors are not an established therapy for it.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.92%): only indirect preclinical support (see below).
+- **Braddock syndrome** (99.88%): no mechanistic rationale can be established from the available data.
+- **Chronic pulmonary heart disease** (99.19%): a single indirect rat study.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for the top prediction, or for any of the other predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature is available for the top prediction (malignant hypertensive renal disease). The literature below relates to lower-ranked predictions and is indirect, preclinical or non-relevant evidence only.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8166049](https://pubmed.ncbi.nlm.nih.gov/8166049/) | 1994 | Review | Am J Cardiol | Molecular basis of regression of cardiac hypertrophy after reducing mechanical overload (pulmonary hypertension due to lung disease/hypoxia) |
+| [7511729](https://pubmed.ncbi.nlm.nih.gov/7511729/) | 1994 | Preclinical (animal) | J Cardiovasc Pharmacol | Trandolapril for 3 months in old spontaneously hypertensive rats lowered blood pressure about 15% and was studied for effects on left ventricular stiffness and coronary resistance |
+| [9218195](https://pubmed.ncbi.nlm.nih.gov/9218195/) | 1997 | Preclinical (animal) | J Hypertens Suppl | Preclinical rationale for combining verapamil and trandolapril in hypertension with cardiovascular or metabolic comorbidity |
+| [8909991](https://pubmed.ncbi.nlm.nih.gov/8909991/) | 1996 | Preclinical (animal/ex vivo) | Gen Pharmacol | Trandolapril plus verapamil inhibited hypoxia-induced coronary vasospasm after ischemia-reperfusion injury in dogs |
+| [8989645](https://pubmed.ncbi.nlm.nih.gov/8989645/) | 1996 | Preclinical (animal) | J Card Fail | Long-term trandolapril in rats with chronic heart failure was assessed for effects on augmented vasoconstriction (chronic pulmonary heart disease) |
+| [17393952](https://pubmed.ncbi.nlm.nih.gov/17393952/) | 2007 | Case report (not directly relevant) | J Natl Med Assoc | Single patient with sickle cell pain whose pain resolved on trandolapril |
 
 ## Canada Market Information
 
-The table shows 5 of the 20 authorizations. Dosage form, manufacturer and approved indication text were not provided for these entries.
+Twenty single-ingredient licences are valid in Canada. Dosage form and approved indication text were not available in the data compiled for this report. Five main authorizations:
 
-| DIN | Product Name |
-|---------|------|
-| 2325756 | SANDOZ TRANDOLAPRIL |
-| 2526581 | TRANDOLAPRIL |
-| 2325748 | SANDOZ TRANDOLAPRIL |
-| 2239267 | MAVIK |
-| 2471868 | AURO-TRANDOLAPRIL |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02239267 | MAVIK | Not available | Not available |
+| 02231460 | MAVIK | Not available | Not available |
+| 02325756 | SANDOZ TRANDOLAPRIL | Not available | Not available |
+| 02471868 | AURO-TRANDOLAPRIL | Not available | Not available |
+| 02357798 | PMS-TRANDOLAPRIL | Not available | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication-related diseases (from the knowledge graph, not label text):**
+Note that these are graph-derived associations and should be verified against the package insert. They include:
+- Angioedema (including hereditary, acquired, and RAAS-blocker-induced forms)
+- Kidney disease, renal artery obstruction, and liver disease
+- Neutropenia and agranulocytosis
+- Aortic stenosis and aortic valve disease
+- Hypotensive disorder
+- Hypertrophic cardiomyopathy
+- Ventricular tachycardia and atrioventricular block
+- Heart failure
+- Connective tissue, bone, and cartilage disease
+- Myasthenia gravis and neuromuscular junction disease
+- Gallbladder disease
 
-One class-level concern relates to the related prediction for malignant renovascular hypertension. ACE inhibitors can precipitate acute renal failure in patients with bilateral renal artery stenosis. This should be weighed carefully before any use in renal vascular disease.
+**Drug Interactions:** 100 interactions were identified. Those listed include:
+- **Major:** potassium citrate and potassium bicarbonate (risk of hyperkalaemia)
+- **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), antidiabetic agents (metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, glimepiride, chlorpropamide), bupropion, morphine, acetylsalicylic acid, dronabinol, picosulfuric acid, and polyethylene glycol with electrolytes
 
----
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials or literature, and the safety and mechanism data are incomplete. The mechanistic argument is reasonable, but it is not yet evidence.
-
-**Other predictions in this pack:**
-- Malignant renovascular hypertension, pulmonary hypertension (two variants) and Braddock syndrome are also L5 / Hold.
-- The 10 papers retrieved for pulmonary hypertension owing to lung disease and/or hypoxia are general hypoxia biology (brain aging, cancer, keloid, multiple sclerosis, altitude). None concerns trandolapril, so they should not be counted as support.
-- Chronic pulmonary heart disease (score 99.19%) is the only prediction with any drug-specific study: a 1996 rat study of long-term trandolapril on vasoconstriction in chronic heart failure ([PMID 8989645](https://pubmed.ncbi.nlm.nih.gov/8989645/)). It is preclinical only and indirect, so it is rated L4 and labelled a Research Question.
+The prediction score is high (99.92%), but evidence is at L5, with no clinical trials or literature for malignant hypertensive renal disease. The indication is also close to the existing hypertension use, so the prediction adds little new. Official label warnings and contraindications are not yet available, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Health Canada package insert warnings and contraindications (blocking gap)
 - Mechanism of action data from DrugBank
-- A systematic search for human clinical evidence on trandolapril in hypertensive renal disease
-- A similarity assessment against the original indication and a route-of-administration compatibility check
-- Confirmation of the animal model in PMID 8989645 if the chronic pulmonary heart disease direction is pursued
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Literature and clinical evidence specific to malignant hypertensive renal disease
+- Review of renal-risk considerations (renal artery obstruction, kidney disease) and hyperkalaemia-related interactions
+- Approved indication text and dosage forms for the Canadian licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

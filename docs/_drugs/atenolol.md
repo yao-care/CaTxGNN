@@ -3,14 +3,14 @@ layout: default
 title: Atenolol
 parent: Moderate Evidence (L3-L4)
 nav_order: 78
-evidence_level: L3
+evidence_level: L4
 indication_count: 9
 ---
 
 # Atenolol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,90 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-# Atenolol: From Its Approved Cardiovascular Use to Posteroinferior Myocardial Infarction
+# Atenolol: From Hypertension and Myocardial Infarction to Posteroinferior Myocardial Infarction
 
 ## One-Sentence Summary
 
-Atenolol is a beta-1 selective blocker marketed in Canada under 20 DINs. The TxGNN model predicts it may be effective for **posteroinferior myocardial infarction**, but the current evidence is thin: **0 clinical trials** and **1 publication**, a small 1985 crossover study.
+Atenolol is a beta-1 selective blocker originally used for hypertension and myocardial infarction.
+The TxGNN model predicts it may be effective for **posteroinferior myocardial infarction**, but this is largely a sub-classification of an indication it already covers.
+Evidence is thin: **0 clinical trials** and **1 publication** (a small 1985 crossover study) are available for this specific prediction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension, myocardial infarction (approved indication text for the Canadian licences is not available; the original indications come from the knowledge graph) |
 | Predicted New Indication | Posteroinferior myocardial infarction |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Atenolol is a beta-1 selective blocker. It lowers heart rate, contractility and myocardial oxygen demand, so an anti-ischemic effect after myocardial infarction is biologically plausible. This is consistent with the very high TxGNN score.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, atenolol is a beta-1 selective blocker. It lowers heart rate, contractility and myocardial oxygen demand, and its efficacy in hypertension and myocardial infarction is well established.
 
-The approved indications for the Canadian products were not provided, so the relationship between the original and predicted indications cannot be assessed. This prediction may reflect a class-level, already-known use of beta-blockers in ischemic heart disease rather than true repurposing. That should be checked against the Canadian label before calling it novel.
+Posteroinferior myocardial infarction is a location-based subtype of myocardial infarction. The same beta-1 blockade rationale applies to any MI location, so this prediction is better seen as a re-labelling of an existing indication than as true repurposing. This also explains the very high model score.
 
-The other top predictions follow the same pattern. Posterolateral myocardial infarction has an identical score and no supporting studies. Malignant renovascular hypertension and malignant hypertensive renal disease rest on plausible renin suppression and blood pressure lowering. Pulmonary hypertension has no clear mechanistic support, and beta-blockers are generally used cautiously there.
+The other top predictions follow a similar pattern. Posterolateral and septal myocardial infarction are further MI subtypes. Malignant renovascular hypertension and malignant hypertensive renal disease are extensions of the hypertension indication. Pulmonary hypertension and chronic pulmonary heart disease appear to be driven by the shared "hypertension" label. Beta-blockers are not an established therapy there, and negative inotropy may worsen right ventricular function. Braddock syndrome has no identifiable mechanistic basis in the data.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | RCT (small, crossover, single-blind) | La Revue de médecine interne | Compared the anti-ischemic activity of atenolol (200 mg) and diltiazem (240 mg) in 23 patients 4 weeks after a limited posteroinferior or anterior MI. All had residual ischemia on exercise testing, and results were analyzed with a computerized exercise test. |
+| [3901170](https://pubmed.ncbi.nlm.nih.gov/3901170/) | 1985 | Randomized single-blind crossover trial | La Revue de médecine interne | In 23 patients 4 weeks after a posteroinferior or anterior MI with residual ischaemia, atenolol 200 mg and diltiazem 240 mg were compared for anti-ischaemic activity using computerized exercise testing. Small and indirect. |
 
-This study is only indirect support. It pooled posteroinferior and anterior infarcts, it measured exercise-test ischemia rather than clinical outcomes, and it is small and single-blind.
+---
 
 ## Canada Market Information
 
-Of the 20 authorizations, the first five are listed. Dosage form and approved indication text were not provided for these products.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02266660 | TEVA-ATENOLOL | Not listed | Not listed |
+| 02171805 | TEVA-ATENOLOL | Not listed | Not listed |
+| 02466465 | ATENOLOL | Not listed | Not listed |
+| 02541564 | ATENOLOL | Not listed | Not listed |
+| 02277379 | RIVA-ATENOLOL | Not listed | Not listed |
 
-| DIN | Product Name |
-|---------|------|
-| 2266660 | TEVA-ATENOLOL |
-| 2171805 | TEVA-ATENOLOL |
-| 2466465 | ATENOLOL |
-| 2541564 | ATENOLOL |
-| 2277379 | RIVA-ATENOLOL |
+Twenty single-ingredient licences are currently valid, and none are cancelled. Only the first five are shown here.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the Evidence Pack.
+- **Disease contraindication signals from the knowledge graph** (not label text): liver failure, anxiety and neurotic disorders, dysthymic disorder, pancreatitis, systemic lupus erythematosus, asthma (including intrinsic and allergic), potassium deficiency, psoriasis, gout and hyperuricaemia, anuria, hypercalcaemia and nephrocalcinosis, phosphorus metabolism disease, type 1 and type 2 diabetes (including diabetic ketoacidosis), atrioventricular block, Raynaud disease and anaphylaxis.
+- **Drug interactions:** 100 interactions were identified. The retrieved list includes moderate-level interactions with epinephrine, hydrocortisone, hyoscyamine, bupropion, triamcinolone, morphine, acetohexamide, atropine, betamethasone, budesonide and several calcium salts. Minor-level interactions include acetylsalicylic acid, aluminum hydroxide and attapulgite.
+- **Use in lung disease:** The literature for the pulmonary predictions raises caution about bronchospasm and right ventricular compensation. Atenolol is also renally cleared and needs dose adjustment in renal impairment.
+
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high and the mechanism is plausible. However, there are no registered trials, and the only publication is a small 1985 crossover study of mixed infarct locations with indirect endpoints. Because the original indications are unknown, it is unclear whether this is genuine repurposing or an already-labelled use.
+The top prediction is a sub-classification of an indication atenolol already has, so it offers little new value. The only supporting evidence is one small, old, indirect crossover study. None of the other seven predictions has direct clinical evidence, and the pulmonary hypertension predictions carry safety concerns.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (approved indications, warnings, contraindications), to confirm whether post-MI use is already labelled
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Contemporary evidence on beta-blockers after MI, such as the ongoing REDUCE-SWEDEHEART trial (NCT03278509), which is class-level and not atenolol-specific
-- Evidence specific to posteroinferior MI, rather than MI in general
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Confirmation of whether the approved Canadian labels already cover myocardial infarction generally, which would make the subtype prediction redundant
+- If pursuing a true repurposing direction, direct human evidence for a distinct indication (the pulmonary predictions are not supported)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

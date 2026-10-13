@@ -2,7 +2,7 @@
 layout: default
 title: Triamcinolone
 parent: Moderate Evidence (L3-L4)
-nav_order: 934
+nav_order: 941
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Triamcinolone: From Approved Corticosteroid Uses to Alopecia Mucinosa
+# Triamcinolone: From Autoimmune and Inflammatory Conditions to Alopecia Mucinosa
 
 ## One-Sentence Summary
 
-Triamcinolone is a glucocorticoid with anti-inflammatory and immunosuppressive effects, marketed in Canada in several products.
-The TxGNN model predicts it may be effective for **alopecia mucinosa (follicular mucinosis)**,
-but currently **0 clinical trials** and only **4 publications** (all case reports, none confirming a triamcinolone-specific result) support this direction.
+Triamcinolone is a corticosteroid, originally used for autoimmune and inflammatory conditions such as Crohn disease, adrenocortical insufficiency and acute lymphoblastic leukaemia.
+The TxGNN model predicts it may be effective for **alopecia mucinosa** (follicular mucinosis), but there are **no registered clinical trials** and only **2 publications** (both case reports, neither testing triamcinolone directly).
 
 ---
 
@@ -43,6 +42,7 @@ but currently **0 clinical trials** and only **4 publications** (all case report
 
 | Item | Content |
 |------|------|
+| Original Indication | Autoimmune disease; Crohn disease and inflammatory bowel disease; adrenocortical insufficiency (Addison disease); acute lymphoblastic leukaemia (the Canadian licence records contain no indication text, so these come from the knowledge graph) |
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
@@ -54,11 +54,11 @@ but currently **0 clinical trials** and only **4 publications** (all case report
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, triamcinolone belongs to the glucocorticoid class. Its anti-inflammatory and immunosuppressive effects are well established, and mechanistically it may be applicable to alopecia mucinosa.
+Currently, detailed mechanism of action data is not available. Based on known information, triamcinolone is a corticosteroid with established anti-inflammatory and immunosuppressive use across many autoimmune and inflammatory diseases, and mechanistically it may be applicable to inflammatory skin conditions.
 
-Follicular mucinosis involves a perifollicular inflammatory infiltrate and mucin deposition, which a corticosteroid could plausibly reduce. However, the very high TxGNN score (0.9999) is not matched by the literature. All four papers are case reports or clinical images from 1964 to 2014. One of them describes successful treatment with bexarotene gel, not triamcinolone. The titles and available abstracts do not confirm any triamcinolone-specific outcome.
+Follicular mucinosis involves inflammatory cell infiltration around hair follicles together with mucin deposition. Because of this inflammatory component, intralesional triamcinolone is a plausible option, and corticosteroids are commonly used for localized lesions.
 
-Of the other nine predicted indications, only folliculitis decalvans (a neutrophilic scarring alopecia) has meaningful supporting literature. That evidence is a retrospective series of 23 patients, which appears twice in the pack, and it has not been checked for triamcinolone-specific findings.
+The supporting literature is weak, however. It consists of a 1964 case description and a 2014 case treated with topical bexarotene gel. Neither evaluates triamcinolone. The prediction is therefore a reasonable hypothesis rather than a demonstrated effect.
 
 ---
 
@@ -72,30 +72,43 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23968145](https://pubmed.ncbi.nlm.nih.gov/23968145/) | 2014 | Case report | Int J Dermatol | First reported case of topical bexarotene 1% gel successfully treating persistent idiopathic follicular mucinosis without cutaneous T-cell lymphoma; not a triamcinolone study |
-| [9917176](https://pubmed.ncbi.nlm.nih.gov/9917176/) | 1998 | Case report | Eur J Dermatol | "Guess What!" clinical image on follicular mucinosis; no abstract, no treatment outcome available |
-| [4136515](https://pubmed.ncbi.nlm.nih.gov/4136515/) | 1974 | Case report | Arch Dermatol | Alopecia mucinosa with neurofollicular changes; no abstract available |
-| [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | Case report | Hifuka Kiyo (Acta Dermatologica) | Case of alopecia mucinosa Pinkus (mucinosis follicularis Jablonska); no abstract available |
+| [23968145](https://pubmed.ncbi.nlm.nih.gov/23968145/) | 2014 | Case report | International Journal of Dermatology | Idiopathic follicular mucinosis, with no association with cutaneous T-cell lymphoma, was successfully treated with topical bexarotene 1% gel. No uniformly effective therapy exists. Triamcinolone was not evaluated. |
+| [14170262](https://pubmed.ncbi.nlm.nih.gov/14170262/) | 1964 | Case report | Hifuka Kiyo. Acta Dermatologica | Case description of alopecia mucinosa Pinkus (mucinosis follicularis Jablonska). No abstract available. |
 
 ---
 
 ## Canada Market Information
 
-Dosage form and approved indication text were not provided for these licenses. Five of the 16 authorizations are listed:
+Triamcinolone has 16 valid single-ingredient licences in Canada and none cancelled. The data compiled for this report do not include dosage forms or approved indication text. The five licences below are listed by product name only.
 
-| DIN | Product Name |
-|---------|------|
-| 02437635 | APO-TRIAMCINOLONE AQ |
-| 02194066 | ARISTOCORT C |
-| 01999761 | KENALOG-10 INJECTION |
-| 02368676 | TRIESENCE |
-| 00716960 | TRIADERM CRM 0.1% |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02437635 | APO-TRIAMCINOLONE AQ | Not specified | Not specified |
+| 02194066 | ARISTOCORT C | Not specified | Not specified |
+| 01999761 | KENALOG-10 INJECTION | Not specified | Not specified |
+| 01999869 | KENALOG-40 INJECTION | Not specified | Not specified |
+| 02368676 | TRIESENCE | Not specified | Not specified |
+
+The remaining licences include topical products (e.g. TRIADERM, VIADERM KC, THERADERM), nasal sprays (NASACORT AQ, NASACORT ALLERGY 24HR) and others.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication signals from the knowledge graph (not label text):**
+The knowledge graph links triamcinolone to the following conditions as contraindications:
+- Cardiovascular and metabolic: hypertension, congestive heart failure, hyperglycaemia
+- Infections: measles, herpes simplex virus keratitis
+- Other: epilepsy, liver disease, gallbladder disease, urea cycle disorders (carbamoyl phosphate synthetase I deficiency, hyperargininemia, citrullinemia)
+- Pituitary and endocrine: hypopituitarism, growth hormone deficiency and related hypogonadotropic hypogonadism or Kallmann syndrome
+
+**Drug Interactions:**
+The interaction query returned 100 records. Examples from the first 20 reviewed:
+- **Major:** adalimumab
+- **Moderate:** zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, nifedipine, ibuprofen, ethinylestradiol, butalbital, albiglutide, aldesleukin, alefacept, alemtuzumab, aliskiren, tetanus toxoid vaccine, abametapir (topical)
+- **Minor:** formoterol, salbutamol
+
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -104,14 +117,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests mainly on the model score. There are no clinical trials, and the four case reports do not document a triamcinolone outcome in alopecia mucinosa. The Health Canada safety information has also not been reviewed.
+The prediction score is very high (99.99%), but there are no clinical trials, and the only literature is two case reports that do not test triamcinolone. The mechanistic link is plausible but unproven, and it rests on general corticosteroid use rather than disease-specific evidence.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings, contraindications) and the approved indications for each product
-- Mechanism of action data for triamcinolone, for example from DrugBank
-- A targeted literature search for triamcinolone (intralesional or topical) in follicular mucinosis, plus full-text review of the case reports
-- Route compatibility assessment (intralesional, topical and systemic products against the route needed for scalp disease)
-- Check of the folliculitis decalvans retrospective series (PMID 25775663) for triamcinolone-specific findings, as it is the strongest-supported candidate in this pack
+- Case series or trials of intralesional or topical triamcinolone in follicular mucinosis
+- Mechanism of action data and package insert warnings and contraindications from Health Canada
+- Dosage form and approved indication details for the Canadian licences, to confirm which routes are available (intralesional or topical)
+
+**Other predictions to consider:** among the other predicted indications, Quinquaud's folliculitis decalvans (evidence level L3, retrospective review of 23 patients and case-level reports) has somewhat stronger supporting evidence, though it also lacks triamcinolone-specific outcome data.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

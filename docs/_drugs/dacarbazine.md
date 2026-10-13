@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Moderate Evidence (L3-L4)
-nav_order: 239
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 241
+evidence_level: L5
 indication_count: 1
 ---
 
 # Dacarbazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,91 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Dacarbazine: From Alkylating Chemotherapy (Original Indication Not Recorded) to Upper Aerodigestive Tract Neoplasm
+# Dacarbazine: From Hodgkin Lymphoma and Metastatic Melanoma to Upper Aerodigestive Tract Neoplasm
 
 ## One-Sentence Summary
 
-Dacarbazine is an alkylating chemotherapy agent. Its original indication is not recorded in the Evidence Pack.
-The TxGNN model predicts it may be effective for **upper aerodigestive tract neoplasm**, but the only supporting trial (**1 clinical trial**) tested temozolomide, a related drug, not dacarbazine.
-The **20 publications** retrieved include no direct dacarbazine evidence in this indication.
-
----
+Dacarbazine is an alkylating chemotherapy drug originally used for metastatic melanoma and Hodgkin lymphoma.
+The TxGNN model predicts it may be effective for **upper aerodigestive tract neoplasm**,
+but **no clinical trials** are registered for this indication, and the **20 publications** compiled are mostly indirect: reviews, case reports, and studies of related tumours.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (the Canadian licence entry has no indication text) |
+| Original Indication | Metastatic melanoma; Hodgkin lymphoma (including classic Hodgkin lymphoma) |
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
 | TxGNN Prediction Score | 99.26% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (no direct clinical studies; the data's preliminary grading was L4, but only indirect and mechanistic-adjacent literature exists) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. The following is inferred from general pharmacology, not from the supplied data. Dacarbazine is a methylating alkylating agent and a prodrug. The liver activates it through CYP-mediated N-demethylation to MTIC. Temozolomide produces the same active species. DNA methylation (O6-methylguanine) drives the cytotoxicity, and tumour MGMT expression is the main expected resistance factor.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on general knowledge, dacarbazine is an alkylating agent. It is converted to an active metabolite (MTIC) that methylates DNA, and its efficacy in metastatic melanoma and Hodgkin lymphoma is established.
 
-This is the basis for the link to aerodigestive tract cancers. A Phase 2 study of temozolomide in MGMT-methylated advanced aerodigestive tract and colorectal cancers tested this mechanism in the target indication. That evidence is indirect, because it concerns a different drug that shares an active metabolite.
+Melanoma and Hodgkin lymphoma can both involve the head and neck or upper aerodigestive mucosa. Examples include mucosal melanoma metastases and extranodal or nodal head and neck Hodgkin lymphoma. The high TxGNN score likely reflects these shared disease neighbourhoods rather than proven activity against primary upper aerodigestive tract carcinomas such as squamous cell carcinoma.
 
-The TxGNN score of 0.993 is a graph-based prediction. It does not establish clinical activity in aerodigestive tract cancers.
-
----
+Indirect signals also come from dacarbazine-containing regimens in other neuroendocrine or neural-crest tumours, such as medullary thyroid carcinoma and malignant paraganglioma. No direct mechanistic evidence supports efficacy in primary upper aerodigestive tract neoplasms.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00423150](https://clinicaltrials.gov/study/NCT00423150) | Phase 2 | Terminated | 86 | Temozolomide (not dacarbazine) in advanced aerodigestive tract, colorectal, lung, head and neck, and oesophageal cancers selected for MGMT promoter methylation. No efficacy results or randomized comparator are in the supplied data. Relevance grade: B (indirect evidence). |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The retrieved literature is mostly indirect. No paper reports dacarbazine as a treatment for aerodigestive tract neoplasm. The abstracts supplied are truncated, so the findings below are limited to what they show.
+The publications below were retrieved for this prediction. None is a trial of dacarbazine in primary upper aerodigestive tract cancer. Their relevance has not yet been reviewed.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23443801](https://pubmed.ncbi.nlm.nih.gov/23443801/) | 2013 | Phase 2 trial | Mol Cancer Ther | Temozolomide in advanced aerodigestive tract and colorectal cancers, testing whether MGMT promoter methylation predicts response (report of NCT00423150) |
-| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | RCT (Phase 3) | JAMA Oncol | Toripalimab vs dacarbazine as first-line therapy in acral melanoma. Dacarbazine is the comparator, in a different indication |
-| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Clinical study | Ann Oncol | Dacarbazine plus 5-fluorouracil chemotherapy in advanced medullary thyroid cancer, a neuroendocrine tumour |
-| [8346929](https://pubmed.ncbi.nlm.nih.gov/8346929/) | 1993 | Review | Gan To Kagaku Ryoho | Chemotherapy for head and neck angiosarcoma, including the CYVADIC regimen (which contains dacarbazine) |
-| [25772801](https://pubmed.ncbi.nlm.nih.gov/25772801/) | 2015 | Review | J Clin Neurosci | Temozolomide in aggressive pituitary tumours |
-| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Review | Clin Oncol | Medullary thyroid carcinoma overview |
-| [11163509](https://pubmed.ncbi.nlm.nih.gov/11163509/) | 2001 | Review | Int J Radiat Oncol Biol Phys | Radiotherapy of esthesioneuroblastoma, a rare intranasal tumour |
-| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Case series | Ear Nose Throat J | Six head and neck malignant paragangliomas from a single institution |
-| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | Retrospective study | Cancer | Hodgkin lymphoma involving head and neck sites |
-| [12113649](https://pubmed.ncbi.nlm.nih.gov/12113649/) | 2002 | Review | Am J Clin Dermatol | Current management of melanoma |
-
----
+| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | RCT (Phase 3) | JAMA Oncol | Toripalimab vs dacarbazine as first-line therapy in advanced acral melanoma. Dacarbazine is the on-label comparator, so this is not the target indication. |
+| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Clinical study | Ann Oncol | Small study of dacarbazine plus 5-FU in advanced medullary thyroid cancer, a neuroendocrine tumour. |
+| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | Retrospective cohort | Cancer | Characteristics and outcomes of Hodgkin lymphoma involving head and neck sites. |
+| [31621203](https://pubmed.ncbi.nlm.nih.gov/31621203/) | 2019 | Prospective observational | Cancer Med | Carbon-ion radiotherapy plus dacarbazine, nimustine and vincristine (DAV) in 21 patients with head and neck mucosal melanoma. |
+| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Cohort | Ear Nose Throat J | Six patients with head and neck malignant paragangliomas; clinical, genetic and treatment features. |
+| [11815960](https://pubmed.ncbi.nlm.nih.gov/11815960/) | 2002 | Preclinical | Cancer | In mouse xenografts of medullary thyroid carcinoma, dacarbazine was effective alone and combined with radioimmunotherapy. |
+| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Review | Clin Oncol | Review of medullary thyroid carcinoma. |
+| [20138008](https://pubmed.ncbi.nlm.nih.gov/20138008/) | 2010 | Review | Transfus Apher Sci | Review of HIV-associated Hodgkin lymphoma. |
+| [12113649](https://pubmed.ncbi.nlm.nih.gov/12113649/) | 2002 | Review | Am J Clin Dermatol | Review of current melanoma management. |
+| [12845209](https://pubmed.ncbi.nlm.nih.gov/12845209/) | 2003 | Case report | Onkologie | Stage IV melanoma with mucosal metastases to the oesophagus, stomach, bladder and tonsil. |
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2241445 | DACARBAZINE FOR INJECTION BP | Not listed | Not listed |
-
----
+| 02241445 | DACARBAZINE FOR INJECTION BP | Not specified | Not specified |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (methylating alkylating agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
+| Myelosuppression Risk | High. Knowledge-graph contraindications include thrombocytopenia, leukopenia and anaemia, which indicate haematological toxicity. |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions (typically CBC, liver and renal function) |
+| Monitoring Items | CBC with differential, liver function, renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
-
----
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level cautions (knowledge graph, not label text)**: Kidney disease, liver disease, gallbladder disease, hepatic vein thrombosis, Budd-Chiari syndrome, pyoureter, thrombocytopenia, anaemia, macrocytic anaemia and leukopenia.
+- **Drug Interactions**: 100 interactions were identified. Only the two with a graded level are listed here: naltrexone (Moderate) and levofloxacin (Minor). Other listed drugs, such as pantoprazole, morphine, metformin, omeprazole, prednisone, simvastatin, ondansetron, aprepitant and palonosetron, have an unknown severity level.
 
----
+For warnings and contraindications from the label, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is a model prediction only, and no dacarbazine data exist in this indication. The sole supporting trial studied temozolomide, was terminated, and has no efficacy results in the supplied data. Safety data are also missing, so the candidate cannot yet pass safety screening.
+The prediction score is high, but there are no clinical trials and no direct evidence in primary upper aerodigestive tract cancers. The literature is indirect, drawn from melanoma, Hodgkin lymphoma and neuroendocrine tumours, and the label-based safety review cannot proceed without the Health Canada package insert.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking gap)
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
 - Mechanism of action data from DrugBank
-- The original approved indication and dosage form for DIN 2241445
-- Direct dacarbazine evidence in aerodigestive tract cancers, or a review of the completed temozolomide results and their transferability
-- Route compatibility assessment
-- MGMT methylation status as a possible patient-selection criterion
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Clarification of which upper aerodigestive tract tumour types are meant (for example, mucosal melanoma versus squamous cell carcinoma)
+- Relevance review of the retrieved literature and a search for direct clinical data in the target population
+- Approved indication text and dosage form for DIN 02241445
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

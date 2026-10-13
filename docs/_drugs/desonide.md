@@ -2,7 +2,7 @@
 layout: default
 title: Desonide
 parent: Model Prediction Only (L5)
-nav_order: 263
+nav_order: 265
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desonide: From Topical Corticosteroid Therapy to Polyp of Vocal Cord
+# Desonide: From Inflammatory Skin and Airway Conditions to Polyp of Vocal Cord
 
 ## One-Sentence Summary
 
-Desonide is a low-potency topical corticosteroid. The licence data provided do not state its approved indication.
+Desonide is a low-potency topical corticosteroid, originally used for inflammatory conditions such as atopic eczema, contact dermatitis and seborrheic dermatitis.
 The TxGNN model predicts it may be effective for **polyp of vocal cord**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
-
----
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data (desonide is a low-potency topical corticosteroid) |
+| Original Indication | Inflammatory dermatoses, such as atopic eczema, contact dermatitis and seborrheic dermatitis (the Canadian licence records do not include indication text, so this comes from the model's knowledge graph) |
 | Predicted New Indication | Polyp of vocal cord |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
@@ -51,77 +49,55 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Desonide is a low-potency topical corticosteroid. Its glucocorticoid anti-inflammatory action could plausibly relate to inflammatory, polyp-like lesions, but this link is speculative.
+Currently, detailed mechanism of action data is not available. Based on known information, desonide is a low-potency topical corticosteroid, its efficacy in inflammatory skin conditions is established, and mechanistically it may have an anti-inflammatory effect applicable to inflammation-related lesions.
 
-Several practical problems weaken the prediction:
+Vocal cord polyps are often associated with chronic inflammation and oedema, so a glucocorticoid effect is plausible in principle. However, the available desonide products are dermatologic formulations (cream, ointment, lotion) that are not suited to delivery to the larynx. The link therefore rests on the TxGNN prediction alone.
 
-- **Delivery route:** Desonide's cream and ointment formulations are designed for skin. They are not suited to reach the vocal cord.
-- **Graph-based score:** The score likely reflects graph-neighbourhood similarity across polyp-type diseases rather than a drug-specific signal.
-
-The other top-ranked predictions show the same pattern. All ten are polyp or polyp-like lesions with scores of about 99.90–99.91%:
-
-- middle ear polyp
-- external auditory canal polyp
-- frontal sinus polyp
-- ureter polyp
-- vulva polyp
-- fibroepithelial polyp
-- neoplastic polyp
-- epulis
-- uterine polyp
-
-Each has no clinical trial or literature evidence. The external auditory canal and vulva are the most anatomically accessible sites for a topical product, but this is still only a hypothesis.
-
----
+The other top-ranked predictions are also polyp-type conditions (middle ear, external auditory canal, frontal sinus, ureter, vulva, fibroepithelial, neoplastic, epulis and uterine polyps), all with scores near 99.9% and no clinical or literature support. Some, such as sinonasal and aural polyps, have a class-level rationale because corticosteroids are used in chronic inflammatory conditions at those sites. Others, such as ureteral, uterine and neoplastic polyps, have little mechanistic plausibility and may be graph-based artifacts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2229323 | PDP-DESONIDE |
-| 2229315 | PDP-DESONIDE |
-
-Dosage form, manufacturer and approved indication text were not provided for these two authorizations.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02229323 | PDP-DESONIDE | Not specified | Not specified |
+| 02229315 | PDP-DESONIDE | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for desonide.
+Safety information from the package insert was not available for this report; please refer to the package insert.
 
----
+The drug-disease contraindication links in the TxGNN knowledge graph (not label text) include the following conditions, which should be verified against the product label:
+- **Cardiovascular and metabolic:** hypertension, congestive heart failure, hyperglycaemia, liver disease, gallbladder disease
+- **Infections:** herpes simplex virus keratitis, measles
+- **Neurological:** epilepsy
+- **Endocrine:** hypopituitarism and related pituitary deficiency and hypogonadotropic hypogonadism conditions, including growth hormone deficiency, Kallmann syndrome and Sheehan syndrome
+- **Metabolic (urea cycle):** carbamoyl phosphate synthetase I deficiency, hyperargininemia, citrullinemia
+
+No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no supporting trials or publications (L5). Topical skin formulations are also poorly matched to most predicted sites, such as the vocal cord, middle ear, sinus, ureter and uterus.
+The prediction has no supporting clinical trials or publications (evidence level L5). Desonide's available formulations are topical dermatologic products with no established delivery route to the larynx. Mechanism of action and package insert safety data are also missing.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are required before any safety screening
-- Detailed mechanism of action data (MOA), for example from DrugBank
-- The approved indication text and dosage forms for the two DINs
-- A route-compatibility assessment for each predicted site
-- Any preclinical or clinical evidence of corticosteroid effect on the predicted lesion types, for example corticosteroid use in sinonasal polyposis, and whether it can be extended to desonide
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data (for example, from DrugBank)
+- Health Canada package insert warnings and contraindications, and approved indication and dosage form details for the two DINs
+- A route-of-delivery assessment showing whether a suitable formulation could reach the vocal cords
+- A literature and trial search for corticosteroid use in vocal cord polyps, to establish whether any class-level evidence exists
+- Review of the knowledge-graph contraindications against the label before any further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

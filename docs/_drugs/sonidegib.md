@@ -2,7 +2,7 @@
 layout: default
 title: Sonidegib
 parent: Model Prediction Only (L5)
-nav_order: 855
+nav_order: 862
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,126 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sonidegib: From Advanced Basal Cell Carcinoma to Medulloblastoma with Extensive Nodularity
+# Sonidegib: From Basal Cell Carcinoma to Skin Cancer (Advanced Basal Cell Carcinoma)
 
 ## One-Sentence Summary
 
-Sonidegib (Odomzo) is an oral Hedgehog pathway inhibitor, approved for locally advanced basal cell carcinoma (BCC) according to the published literature in this dataset.
-The TxGNN model predicts it may be effective for **medulloblastoma with extensive nodularity**,
-but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
+Sonidegib was originally used to treat basal cell carcinoma and related skin carcinomas.
+The TxGNN model's top-ranked prediction with clinical evidence is **skin cancer**, which largely overlaps with the existing indication, so it is essentially an on-label signal rather than a true repurposing finding.
+It is supported by **6 clinical trials** and **20 publications**. The highest-scoring prediction, medulloblastoma with extensive nodularity, has no trials or literature behind it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Medulloblastoma with extensive nodularity |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
+| Original Indication | Skin carcinoma, basal cell carcinoma, sweat gland cancer, sebaceous adenocarcinoma (the Canadian licence record contains no indication text) |
+| Predicted New Indication | Medulloblastoma with extensive nodularity (rank 1, no evidence); skin cancer (rank 6, the only prediction with substantial evidence) |
+| TxGNN Prediction Score | 99.90% (medulloblastoma); 99.76% (skin cancer) |
+| Evidence Level | L5 for medulloblastoma; L1 assigned for skin cancer, though the listed trials are Phase 2 only (see below) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold for medulloblastoma; Proceed with Guardrails for skin cancer (advanced BCC) |
+
+> **Note on the evidence level:** The L1 definition requires at least 2 completed Phase 3 RCTs. The compiled data list only Phase 2 trials, so by strict application the skin cancer entry would be closer to L2. The label of L1 reflects the strength of the approval-supporting evidence for BCC and guideline endorsement.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Sonidegib blocks Smoothened (SMO), a key receptor in the Hedgehog signalling pathway. This pathway is abnormally activated in most basal cell carcinomas, which is the basis of sonidegib's use in that cancer. Detailed mechanism-of-action data are not available in the Evidence Pack, so this description comes from the published literature in the dataset.
+Detailed mechanism-of-action data are not available in the data compiled for this report. From the published literature, sonidegib is an oral Smoothened (SMO) receptor antagonist that blocks the Hedgehog signalling pathway. This pathway is abnormally activated in most basal cell carcinomas, which explains the drug's efficacy in advanced disease.
 
-Medulloblastoma in the SHH (Sonic Hedgehog) subgroup is also driven by this pathway, so the prediction is biologically plausible. Still, no trial or publication in the dataset tests sonidegib in this tumour. The link is a computational prediction only. The "extensive nodularity" subtype also needs confirmation of whether it is SHH-driven.
+**Skin cancer (rank 6):** This entry mostly restates the original indication. Hedgehog inhibition is the central driver of BCC, and guidelines endorse it for difficult-to-treat disease.
+
+**Medulloblastoma (rank 1):** The SHH subgroup of medulloblastoma, including the desmoplastic/nodular variant, is driven by Hedgehog signalling, so the link is biologically plausible. However, there are no trials or publications, and the high score is a computational prediction only. Sonidegib carries a known risk of premature growth plate closure in children, which matters because this tumour mainly affects children.
+
+**Xeroderma pigmentosum (rank 2):** Patients develop multiple Hedgehog-driven BCCs because of defective DNA repair. Sonidegib acts on the tumours, not on the repair defect, so the support is indirect (a single 2026 case report).
+
+Several other predictions (annular epidermolytic ichthyosis, epidermolysis bullosa simplex with mottled pigmentation, an obsolete cataract/microcephaly syndrome) have no identifiable mechanistic link and probably reflect network artefacts. Eccrine carcinoma and cutaneous adenocystic carcinoma are adjacent to the sweat gland cancers in the original indications but are unsupported by data.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Trials for the skin cancer prediction:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01327053](https://clinicaltrials.gov/study/NCT01327053) | Phase 2 | Completed | 230 | Randomised, double-blind comparison of two sonidegib dose levels in locally advanced or metastatic BCC; direct efficacy and safety evidence |
+| [NCT03534947](https://clinicaltrials.gov/study/NCT03534947) | Phase 2 | Completed | 16 | Short-term neoadjuvant sonidegib followed by surgery or imiquimod for BCC in cosmetically challenging sites; small exploratory pilot |
+| [NCT05463757](https://clinicaltrials.gov/study/NCT05463757) | N/A | Recruiting | 80 | Dutch prospective registry of vismodegib and sonidegib in advanced and multiple BCC; real-world data |
+| [NCT04007744](https://clinicaltrials.gov/study/NCT04007744) | Phase 1 | Active, not recruiting | 36 | Sonidegib plus pembrolizumab in advanced solid tumours; combination safety study, only partly skin-specific |
+| [NCT02303041](https://clinicaltrials.gov/study/NCT02303041) | Phase 2 | Terminated | 10 | Sonidegib plus buparlisib in advanced BCC; terminated early, limited data |
+| [NCT01757327](https://clinicaltrials.gov/study/NCT01757327) | Phase 2 | Withdrawn | 0 | Placebo-controlled study in early breast cancer; withdrawn with no enrolment, so no data |
+
+No clinical trials are registered for medulloblastoma or the other predicted indications.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [37604067](https://pubmed.ncbi.nlm.nih.gov/37604067/) | 2023 | Guideline | Eur J Cancer | Updated European consensus guideline on BCC diagnosis and treatment |
+| [31288208](https://pubmed.ncbi.nlm.nih.gov/31288208/) | 2019 | Guideline | Eur J Cancer | European guideline introducing "easy-to-treat" and "difficult-to-treat" BCC categories |
+| [26919418](https://pubmed.ncbi.nlm.nih.gov/26919418/) | 2016 | Review | Cell | Hedgehog pathway is activated in most BCC; sonidegib and vismodegib are SMO inhibitors approved for locally advanced BCC |
+| [32759706](https://pubmed.ncbi.nlm.nih.gov/32759706/) | 2020 | Review | Int J Mol Sci | Comprehensive review of BCC molecular features and resistance to systemic therapy |
+| [33194718](https://pubmed.ncbi.nlm.nih.gov/33194718/) | 2020 | Review | Front Oncol | Sonidegib for advanced BCC |
+| [33888008](https://pubmed.ncbi.nlm.nih.gov/33888008/) | 2021 | Expert opinion | Expert Opin Drug Saf | Efficacy, safety and tolerability of sonidegib |
+| [26323341](https://pubmed.ncbi.nlm.nih.gov/26323341/) | 2015 | Drug profile | Drugs | First global approval of sonidegib (Odomzo) as an SMO antagonist |
+| [39062023](https://pubmed.ncbi.nlm.nih.gov/39062023/) | 2024 | Review | Biomedicines | Advanced and metastatic non-melanoma skin cancer: risk factors and treatment options |
+| [33725197](https://pubmed.ncbi.nlm.nih.gov/33725197/) | 2021 | Review | Curr Treat Options Oncol | Neoadjuvant approaches in non-melanoma skin cancer, including Hedgehog inhibitors |
+| [41862093](https://pubmed.ncbi.nlm.nih.gov/41862093/) | 2026 | Case report | Actas Dermosifiliogr | Sonidegib for multiple BCCs in a patient with xeroderma pigmentosum (supports BCC in XP, not XP itself) |
+
+---
 
 ## Canada Market Information
 
-| License Number | Product Name |
-|---------|------|
-| 2500337 | ODOMZO |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02500337 | ODOMZO | Not specified | Not specified in the compiled data |
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (Hedgehog/SMO inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (Hedgehog/SMO inhibitor), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Creatine kinase (CK) and musculoskeletal symptoms; liver and renal function as clinically indicated |
+| Handling Protection | Please refer to the package insert; embryo-fetal toxicity warrants caution in handling by women who are or may become pregnant |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for this drug.
+- **Key Warnings (from the repurposing assessment):** Musculoskeletal toxicity with CK elevation; embryo-fetal toxicity, so avoid in pregnancy; risk of premature growth plate closure in children, which is relevant for medulloblastoma.
+- **Drug Interactions:** 100 interactions were identified. Examples by level:
+  - **Major:** aprepitant, dexamethasone, clarithromycin, clotrimazole, cobicistat
+  - **Moderate:** cimetidine, metreleptin, miconazole, troglitazone, deferasirox
+  - **Minor:** famotidine, ranitidine, and proton pump inhibitors such as omeprazole, pantoprazole, esomeprazole, lansoprazole, rabeprazole
+
+Please refer to the package insert for full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails (skin cancer / advanced BCC); Hold (all other predicted indications)**
 
 **Rationale:**
-The prediction has a very high TxGNN score (99.90%) and a plausible mechanism, but no clinical trials or literature support it (Evidence Level L5). A computational signal alone is not enough to move forward.
+- The skin cancer prediction is effectively the existing BCC indication, backed by a completed randomised double-blind Phase 2 trial (n=230), guidelines and many reviews. It is not a new repurposing opportunity.
+- Medulloblastoma and the remaining predictions are computational signals only, with no trials or literature. Xeroderma pigmentosum is supported by a single case report that concerns BCC in an XP patient.
 
 **To proceed, the following is needed:**
-- Literature and trial searches specific to SHH-subgroup medulloblastoma, including preclinical data and the central nervous system penetration of sonidegib
-- Confirmation that the "extensive nodularity" subtype is Hedgehog-driven
-- Health Canada package insert warnings and contraindications, which are currently missing and block the safety screen
-- Detailed mechanism-of-action data from DrugBank
-- Approved indication text, dosage form and route for the Canadian licence
-
-**Note on other predictions:** The sixth-ranked prediction, **skin cancer** (score 99.76%), has much stronger support: a randomized double-blind Phase 2 trial (NCT01327053, n=230) and a 42-month BOLT follow-up. That evidence is specific to BCC and likely overlaps with the existing labelled use, so it may not be true repurposing. It should be reviewed as a separate candidate. The second-ranked prediction, xeroderma pigmentosum, has only a single case report, of sonidegib used for BCCs in that condition.
+- Restrict use to advanced or metastatic BCC not amenable to surgery or radiation, with CK and musculoskeletal monitoring and pregnancy avoidance.
+- Obtain Health Canada package insert warnings and contraindications (a blocking gap for safety screening), plus approved indication text and dosage form for the licence.
+- Obtain detailed mechanism-of-action data.
+- For medulloblastoma, preclinical or early clinical evidence and a paediatric safety assessment (growth plate effects) before any further consideration.
+- For xeroderma pigmentosum, additional evidence beyond the single case report.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

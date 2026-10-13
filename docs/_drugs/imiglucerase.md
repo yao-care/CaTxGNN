@@ -2,7 +2,7 @@
 layout: default
 title: Imiglucerase
 parent: Moderate Evidence (L3-L4)
-nav_order: 467
+nav_order: 472
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,8 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Imiglucerase is a recombinant form of the enzyme glucocerebrosidase, used as enzyme replacement therapy for Gaucher disease.
-The TxGNN model predicts it may be effective for **Hurler syndrome (MPS I)**, but there are **0 clinical trials** and only **2 general reviews** on enzyme replacement therapy (ERT) in this area, and neither tests imiglucerase in Hurler syndrome.
+Imiglucerase is a recombinant enzyme replacement therapy originally used to treat Gaucher disease.
+The TxGNN model predicts it may be effective for **Hurler syndrome (MPS I)**, but there are **0 clinical trials** and only **1 general review article** supporting this direction.
+The prediction appears to reflect similarity within the lysosomal storage disease family rather than a real enzymatic rationale.
 
 ---
 
@@ -42,7 +43,7 @@ The TxGNN model predicts it may be effective for **Hurler syndrome (MPS I)**, bu
 
 | Item | Content |
 |------|------|
-| Original Indication | Gaucher disease (identified from the literature; the Canadian label text was not provided) |
+| Original Indication | Gaucher disease |
 | Predicted New Indication | Hurler syndrome |
 | TxGNN Prediction Score | 99.52% |
 | Evidence Level | L4 |
@@ -54,11 +55,11 @@ The TxGNN model predicts it may be effective for **Hurler syndrome (MPS I)**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, imiglucerase is a recombinant glucocerebrosidase, an enzyme replacement therapy for Gaucher disease. It breaks down glucosylceramide that builds up in macrophages.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, imiglucerase is a recombinant form of human glucocerebrosidase. It breaks down glucosylceramide, which builds up in Gaucher disease, and its efficacy in that condition is established.
 
-The link to the new indication is weak and works only at the drug-class level. Hurler syndrome (MPS I) is caused by a deficiency of a different enzyme, alpha-L-iduronidase. It leads to accumulation of glycosaminoglycans (GAGs), not glucosylceramide. Imiglucerase has no known activity on GAG substrates.
+Hurler syndrome (MPS I) and Gaucher disease are both lysosomal storage disorders treated with enzyme replacement therapy (ERT). However, Hurler syndrome is caused by a deficiency of alpha-L-iduronidase, which leads to accumulation of glycosaminoglycans (dermatan and heparan sulfate). Glucocerebrosidase does not act on these substrates, so there is no substrate overlap. The only link is the shared ERT class.
 
-The high TxGNN score most likely reflects the shared "lysosomal storage disease / enzyme replacement" neighbourhood in the knowledge graph, not any overlap in enzyme or substrate. The prediction should be read as a class-level association, not a mechanistic one.
+The high TxGNN score most likely reflects network proximity within the lysosomal storage disease family. The specific approved ERT for MPS I is laronidase. The same reasoning applies to Scheie syndrome (an attenuated form of MPS I), the second-ranked prediction.
 
 ---
 
@@ -72,22 +73,23 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Review / imaging methodology | Proc Natl Acad Sci U S A | Discusses PET imaging of enzyme replacement therapy. It lists Hurler syndrome among the lysosomal diseases where ERT has been used, with Gaucher disease as the prototype. It does not test imiglucerase in Hurler syndrome. |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | Rev Med Interne | Overview of ERT for lysosomal storage diseases. It notes that imiglucerase (Cerezyme) replaced placenta-derived alglucerase for Gaucher disease. It provides no imiglucerase data in MPS I. |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de médecine interne | General review of ERT in lysosomal storage diseases. It describes the development of imiglucerase for Gaucher disease and ERT for Fabry disease. It does not provide specific evidence for MPS I. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2241751 | CEREZYME |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02241751 | CEREZYME | Not stated | Not stated in the compiled data |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: One interaction was recorded: **Miglustat** (Moderate severity). Miglustat is a substrate reduction therapy used in Gaucher disease.
+
+Please refer to the package insert for other warnings and contraindications.
 
 ---
 
@@ -96,15 +98,23 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score and general ERT reviews. There are no trials, and the mechanism does not fit: Hurler syndrome is an iduronidase deficiency with GAG accumulation, which imiglucerase does not act on. The high score is most likely a class-level artifact of the graph.
-
-The same pack lists a "lysosomal storage disease with skeletal involvement" entry (rank 6). It reflects skeletal manifestations of Gaucher disease, which is on-label use, not repurposing.
+The evidence is limited to a single general review, with no clinical trials. There is no enzymatic link between glucocerebrosidase and the substrates that accumulate in MPS I. The prediction is better explained by disease-class similarity than by a real mechanism, and a specific approved ERT (laronidase) already exists.
 
 **To proceed, the following is needed:**
-- Mechanism of action data, to test whether any link to iduronidase or GAG metabolism exists
-- Preclinical evidence of imiglucerase activity in MPS I models
-- The Health Canada label text (approved indication, warnings, contraindications) for a safety screen
-- A comparison against existing MPS I-specific ERT before any further consideration
+- Mechanism of action data (MOA) and any preclinical evidence of activity against MPS I substrates
+- Package insert warnings and contraindications from Health Canada
+- Approved indication text and dosage form for the Canadian product
+- Evidence that imiglucerase offers any benefit over laronidase in MPS I
+
+---
+
+### Note on Other Predictions
+
+The other top-10 predictions are also supported by weak or no evidence (mostly L5, with no trials and no literature):
+
+- Scheie syndrome has the same limitations as Hurler syndrome.
+- Cholesteryl ester storage disease and Wolman disease are caused by LIPA deficiency, for which sebelipase alfa is the appropriate ERT.
+- "Lysosomal storage disease with skeletal involvement" is supported by 16 publications, but they concern Gaucher disease itself, which is the already-approved indication. This is not a new repurposing signal.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

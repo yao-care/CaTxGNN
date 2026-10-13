@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ambrisentan
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 45
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,45 +33,49 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ambrisentan is an endothelin receptor antagonist used to treat pulmonary arterial hypertension (PAH).
-The TxGNN model predicts it may be effective for **pulmonary arteriovenous malformation (AVM)**, but **no clinical trials and no publications** currently support this prediction.
+Ambrisentan is an endothelin receptor antagonist originally used to treat pulmonary arterial hypertension (PAH).
+The TxGNN model predicts it may be effective for **pulmonary arteriovenous malformation**, but the evidence is very thin: **0 clinical trials** and **1 publication** (a case report) are currently available.
+This prediction is best viewed as a hypothesis, not a validated new use.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension (from the supplied literature and rationale; the Canadian licence records list no indication text) |
+| Original Indication | Pulmonary arterial hypertension |
 | Predicted New Indication | Pulmonary arteriovenous malformation |
 | TxGNN Prediction Score | 99.41% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. The supplied rationale describes ambrisentan as a selective endothelin type A (ETA) receptor antagonist. Its efficacy in PAH is established, and it works by blocking endothelin-mediated vasoconstriction and vascular remodeling.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Ambrisentan is known to be an endothelin receptor antagonist. It blocks endothelin signalling, which reduces pulmonary vasoconstriction and vascular remodelling. This is the basis of its proven benefit in PAH.
 
-The link to pulmonary AVM is weak. A pulmonary AVM is a structural malformation of the blood vessels, and the drug's vasodilatory action does not obviously address it. No mechanistic or clinical link was supplied. The high TxGNN score reflects knowledge-graph similarity only, so this prediction should be treated as a hypothesis.
+The link to pulmonary arteriovenous malformations (AVMs) is indirect. Pulmonary AVMs often occur in hereditary hemorrhagic telangiectasia (HHT), and HHT patients can also develop PAH. The one supporting publication is a case report of a patient with HHT and PAH. It shows that the two conditions can coexist, but it does not show that ambrisentan treats the AVM itself.
+
+The high TxGNN score is a computational prediction and has not been clinically validated.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Case report | World Journal of Clinical Cases | Reports PAH in a patient with HHT, with a review of treatment and family gene analysis, to raise awareness of this rare multimorbidity. It does not show ambrisentan efficacy for the AVM. |
 
-## Other Predicted Indications Worth Noting
-
-The top-ranked prediction has the weakest evidence. Several lower-ranked predictions have much stronger support.
-
-| Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Support |
-|------|------|------|------|------|
-| PAH associated with connective tissue disease | 99.30% | L2 | Proceed with Guardrails | 3 trials (2 rated directly relevant: [NCT01042158](https://clinicaltrials.gov/study/NCT01042158), [NCT02290613](https://clinicaltrials.gov/study/NCT02290613)) and 19 publications, including meta-analyses and AMBITION/ARIES-E subgroup analyses |
-| PAH associated with congenital heart disease | 99.37% | L2 | Proceed with Guardrails | 9 trials, including a completed Phase 3 single-arm study ([NCT01808313](https://clinicaltrials.gov/study/NCT01808313)). The CHD subgroup is unconfirmed. |
-| PAH associated with HIV infection | 99.30% | L4 | Research Question | 1 trial of unverified relevance ([NCT00709956](https://clinicaltrials.gov/study/NCT00709956)) and 4 publications (small case series, a case report, a registry and a referral-centre series) |
-| PAH associated with schistosomiasis or chronic hemolytic anemia, and the non-PAH predictions (periodontal malformation syndrome, hypotrichosis, hypertrichosis, Dandy-Walker syndrome) | 99.12–99.30% | L5 | Hold | No supporting evidence. The 20 periodontitis articles retrieved for the periodontal malformation prediction do not mention ambrisentan and appear to be keyword-matching artifacts. |
+---
 
 ## Canada Market Information
 
@@ -79,33 +83,37 @@ The top-ranked prediction has the weakest evidence. Several lower-ranked predict
 |---------|------|
 | 02307065 | VOLIBRIS |
 | 02307073 | VOLIBRIS |
-| 02475383 | APO-AMBRISENTAN |
 | 02475375 | APO-AMBRISENTAN |
+| 02475383 | APO-AMBRISENTAN |
 
-Dosage form, manufacturer and approved indication text are not populated in the supplied licence records.
+All four authorizations are single-ingredient products with valid status.
+
+---
 
 ## Safety Considerations
 
-- **Contraindications**: The supplied rationale for another prediction (Dandy-Walker syndrome) notes that ambrisentan is teratogenic and contraindicated in pregnancy. This is not from a package insert.
-- **Drug Interactions**: No interaction records were found.
+- **Conditions flagged in the knowledge graph** (derived from drug-disease contraindication links, not from package insert text): congestive heart failure, anemia, macrocytic anemia, pulmonary veno-occlusive disease.
+- **Drug Interactions**: 100 interactions were recorded in total. The main ones with a known severity are:
+  - Moderate: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, eliglustat, naltrexone
+  - Minor: clarithromycin, miconazole, omeprazole
 
-Please refer to the Health Canada package insert for full warnings and contraindications.
+Please refer to the package insert for official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The pulmonary AVM prediction rests on model score alone, with no trials, no literature and no plausible mechanistic link. A vasodilator is unlikely to correct a structural vascular malformation. Evidence is far stronger for CTD-associated and CHD-associated PAH, which are subtypes of the drug's core indication.
+The only support is a single case report describing coexisting PAH and HHT, and there are no registered trials. The prediction score is high, but there is no clinical evidence that ambrisentan treats pulmonary AVMs.
 
 **To proceed, the following is needed:**
-- A mechanistic rationale, or preclinical or case-level evidence, for ETA antagonism in pulmonary AVM
-- A targeted literature search for ambrisentan in pulmonary AVM
-- Health Canada package insert warnings and contraindications (current safety data is blocking)
-- Mechanism of action data from DrugBank
-- Consideration of moving the CTD-PAH and CHD-PAH predictions forward. This would need confirmation of the CHD subgroup in the listed trials and a check on whether an existing approved indication already covers them.
+- Clinical or observational data on ambrisentan specifically for pulmonary AVM, not only for coexisting PAH
+- Detailed mechanism-of-action data linking endothelin blockade to AVM biology
+- Package insert warnings and contraindications, to assess safety in HHT and AVM patients, including the anemia-related concerns
 
-*This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any clinical use.*
+Other predicted indications for ambrisentan have stronger support. In particular, PAH associated with connective tissue disease has two registered trials (NCT02290613 and NCT01042158) and several ambrisentan-specific studies. It is a more promising candidate for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

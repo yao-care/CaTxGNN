@@ -2,7 +2,7 @@
 layout: default
 title: Flunarizine
 parent: Model Prediction Only (L5)
-nav_order: 390
+nav_order: 393
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Flunarizine: From an Unlisted Original Indication to Migraine Disorder
+# Flunarizine: From Migraine Prophylaxis (Marketed) to Migraine Disorder
 
 ## One-Sentence Summary
 
-Flunarizine is a calcium channel blocker. Its original approved indication is not recorded in the Canadian license data supplied, and a trial summary describes it as traditionally used for vertigo and migraine.
-The TxGNN model predicts it may be effective for **migraine disorder** (score 99.12%), with **19 clinical trials** and **20 publications** currently linked to this direction.
-Guidelines and meta-analyses already support flunarizine for migraine prevention, but no completed Phase 3 flunarizine trial is itemised in the data.
+Flunarizine is a calcium channel blocker that is marketed in Canada (one DIN), and its main clinical use is migraine prophylaxis in many countries.
+The TxGNN model predicts it may be effective for **migraine disorder**, with a score of 99.1%.
+The data compiled for this report include **14 clinical trials** and **20 publications**, but most are small, open-label, not yet recruiting, or of unknown status, and none reports results for flunarizine.
 
 ---
 
@@ -43,10 +43,10 @@ Guidelines and meta-analyses already support flunarizine for migraine prevention
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian license record |
+| Original Indication | Not stated in the Health Canada license record (known main use: migraine prophylaxis in many countries) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.12% |
-| Evidence Level | L3 (systematic reviews and meta-analyses; no completed Phase 2/3 flunarizine RCT in the supplied data) |
+| Evidence Level | L1 per the system scoring; a conservative reading is lower, because no completed Phase 3 RCT is listed |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Proceed with Guardrails |
@@ -55,71 +55,64 @@ Guidelines and meta-analyses already support flunarizine for migraine prevention
 
 ## Why is This Prediction Reasonable?
 
-DrugBank mechanism-of-action data is not available in the supplied data. The following comes from general pharmacology. Flunarizine is a selective calcium entry blocker (L-type and T-type channels) with additional antihistamine (H1) and weak dopamine D2 antagonist activity.
+Detailed mechanism of action data are not available in the record compiled for this report. The following relies on general pharmacological knowledge. Flunarizine is a calcium channel blocker with additional H1 antihistaminic and dopamine D2 antagonist activity. The pharmacology data also show that it acts on the T-type calcium channels Cav3.1, Cav3.2 and Cav3.3 (human) and on the D2 receptor (rat).
 
-These actions are thought to reduce cortical spreading depression and neuronal hyperexcitability, and to stabilise cerebral vascular tone. This makes flunarizine biologically plausible for migraine prophylaxis. A trial summary in the pack (NCT00740259) also describes it as traditionally used for vertigo and migraine.
+Blocking neuronal calcium entry is thought to reduce cortical spreading depression and neuronal hyperexcitability, both implicated in migraine. The relevant pharmacology data describe its main use as migraine prophylaxis, and it is not approved by the FDA. A 1991 review states that numerous controlled studies, including double-blind comparisons with placebo and other antimigraine drugs, found it effective for prophylaxis. Other reviews and guidelines list it among first-choice preventive drugs.
 
-The prediction is consistent with existing practice. The Canadian Headache Society guideline and the AAN pediatric migraine prevention update appear in the literature set. So do a European Headache Federation meta-analysis specific to flunarizine and several network meta-analyses. Because these summarise underlying RCTs that are not itemised here, the true evidence base is probably stronger than the L3 level assigned.
+The Health Canada license record for the DIN has no indication text, so the "original indication" cannot be confirmed from Canadian data. The prediction therefore mostly reflects an established use abroad rather than a new one in Canada.
 
 ---
 
 ## Clinical Trial Evidence
 
-Of 19 registered trials, the 10 most relevant are listed. Most are comparator or head-to-head studies in which flunarizine is an active arm. Only NCT00752466 is a Phase 1 pharmacokinetic study, and none is a completed Phase 3 flunarizine RCT.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
+| [NCT07354126](https://clinicaltrials.gov/study/NCT07354126) | N/A | Recruiting | 44 | Flunarizine vs propranolol in children aged 8-15, measured by PedMIDAS; no results |
+| [NCT06162819](https://clinicaltrials.gov/study/NCT06162819) | N/A | Unknown | 84 | Flunarizine vs amitriptyline for migraine prophylaxis; no results |
 | [NCT02639598](https://clinicaltrials.gov/study/NCT02639598) | Phase 4 | Completed | 62 | Flunarizine 10 mg/day vs topiramate 50 mg/day for chronic migraine prophylaxis |
-| [NCT03712917](https://clinicaltrials.gov/study/NCT03712917) | NA | Completed | 120 | Greater occipital nerve block vs topiramate vs flunarizine in episodic migraine; compares VAS pain scores and attack frequency |
-| [NCT07354126](https://clinicaltrials.gov/study/NCT07354126) | NA | Recruiting | 44 | Flunarizine vs propranolol in children aged 8-15, measured by PedMIDAS score |
-| [NCT06162819](https://clinicaltrials.gov/study/NCT06162819) | NA | Unknown | 84 | Flunarizine vs amitriptyline for migraine prophylaxis; compares attack frequency and pain score |
-| [NCT06499116](https://clinicaltrials.gov/study/NCT06499116) | Phase 4 | Not yet recruiting | 460 | Pragmatic primary-care trial comparing amitriptyline, flunarizine, topiramate and propranolol |
-| [NCT03828539](https://clinicaltrials.gov/study/NCT03828539) | Phase 4 | Completed | 777 | Erenumab vs topiramate; participants had failed or were unsuitable for up to three prophylactics, including flunarizine |
-| [NCT04064814](https://clinicaltrials.gov/study/NCT04064814) | Phase 4 | Completed | 60 | Add-on alpha-lipoic acid for adolescent migraine prophylaxis; the linked publication (PMID 37563914) shows a flunarizine background arm |
-| [NCT00752466](https://clinicaltrials.gov/study/NCT00752466) | Phase 1 | Completed | 75 | Pharmacokinetic interaction study of flunarizine with topiramate; no efficacy data |
-| [NCT06753825](https://clinicaltrials.gov/study/NCT06753825) | NA | Active, not recruiting | 60 | Pulsed radiofrequency vs calcium channel blockers in childhood migraine |
-| [NCT04766762](https://clinicaltrials.gov/study/NCT04766762) | NA | Unknown | 96 | Acupuncture for migraine without aura; flunarizine is named as the current standard therapy |
+| [NCT03712917](https://clinicaltrials.gov/study/NCT03712917) | N/A | Completed | 120 | Greater occipital nerve block vs topiramate vs flunarizine in episodic migraine |
+| [NCT07655700](https://clinicaltrials.gov/study/NCT07655700) | Phase 4 | Not yet recruiting | 177 | Propranolol, flunarizine, and their combination for prophylaxis; no results |
+| [NCT06499116](https://clinicaltrials.gov/study/NCT06499116) | Phase 4 | Not yet recruiting | 460 | Pragmatic comparison of amitriptyline, flunarizine, topiramate and propranolol in primary care |
+| [NCT07751497](https://clinicaltrials.gov/study/NCT07751497) | Phase 2 | Not yet recruiting | 400 | Rimegepant vs flunarizine, non-inferiority, in vestibular migraine |
+| [NCT00752466](https://clinicaltrials.gov/study/NCT00752466) | Phase 1 | Completed | 75 | Pharmacokinetic interaction of flunarizine with topiramate; no efficacy data |
+| [NCT04766762](https://clinicaltrials.gov/study/NCT04766762) | N/A | Unknown | 96 | Acupuncture for migraine without aura; flunarizine is the usual treatment/comparator |
+| [NCT07068815](https://clinicaltrials.gov/study/NCT07068815) | Phase 1 | Not yet recruiting | 60 | Fu's subcutaneous needling vs flunarizine in migraine without aura |
+
+The 14 trials in the data include four more that are not listed above: an electro-acupuncture study, two mechanistic pain studies, and an alpha-lipoic acid add-on study. The list also omits a pulsed radiofrequency vs calcium channel blocker study in childhood migraine.
 
 ---
 
 ## Literature Evidence
 
-Of 20 publications, the 10 most relevant are listed, prioritising systematic reviews, guidelines and RCTs.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37723437](https://pubmed.ncbi.nlm.nih.gov/37723437/) | 2023 | Systematic review / meta-analysis | J Headache Pain | European Headache Federation appraisal of flunarizine, described as a repurposed first- or second-line migraine prophylactic |
-| [40553594](https://pubmed.ncbi.nlm.nih.gov/40553594/) | 2025 | Systematic review / meta-analysis | J Assoc Physicians India | Compares amitriptyline with propranolol and flunarizine for migraine prophylaxis efficacy and safety |
-| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | Systematic review | Health Technol Assess | Preventive drugs for chronic migraine, with economic modelling |
+| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | Systematic review with economic model | Health Technol Assess | Compares effectiveness and cost-effectiveness of preventive drugs for chronic migraine |
 | [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Network meta-analysis | JAMA Netw Open | Efficacy and safety of preventive medications in pediatric migraine |
-| [31413170](https://pubmed.ncbi.nlm.nih.gov/31413170/) | 2019 | Guideline | Neurology | AAN/AHS update on pharmacologic prevention of pediatric migraine |
-| [22683887](https://pubmed.ncbi.nlm.nih.gov/22683887/) | 2012 | Guideline | Can J Neurol Sci | Canadian Headache Society guideline for migraine prophylaxis in episodic migraine |
-| [2404346](https://pubmed.ncbi.nlm.nih.gov/2404346/) | 1990 | Double-blind trial | S Afr Med J | Flunarizine 10 mg nightly vs propranolol 60 mg three times daily over 4 months in 58 patients |
-| [9443168](https://pubmed.ncbi.nlm.nih.gov/9443168/) | 1997 | Postmarketing study | Pharm World Sci | Open multicentre study of flunarizine vs propranolol in 686 migraine patients, with attention to depression and extrapyramidal events |
-| [37563914](https://pubmed.ncbi.nlm.nih.gov/37563914/) | 2023 | RCT | J Clin Pharmacol | 60 adolescents randomised to flunarizine or flunarizine plus add-on alpha-lipoic acid |
-| [30428122](https://pubmed.ncbi.nlm.nih.gov/30428122/) | 2019 | Clinical study | Acta Neurol Scand | Flunarizine plus transcutaneous supraorbital neurostimulation vs either alone for migraine prophylaxis |
+| [42673559](https://pubmed.ncbi.nlm.nih.gov/42673559/) | 2026 | Systematic review | Neurology | AAN/AHS review of pharmacologic migraine prevention in adults |
+| [41572863](https://pubmed.ncbi.nlm.nih.gov/41572863/) | 2026 | Review | Dtsch Arztebl Int | Drug and non-drug prophylaxis for frequent or severe migraine |
+| [28752512](https://pubmed.ncbi.nlm.nih.gov/28752512/) | 2017 | Practice guideline | Acta Neurol Taiwan | Taiwan Headache Society consensus on preventive migraine treatment |
+| [31413170](https://pubmed.ncbi.nlm.nih.gov/31413170/) | 2019 | Practice guideline | Neurology | AAN/AHS update on pediatric migraine prevention |
+| [12390610](https://pubmed.ncbi.nlm.nih.gov/12390610/) | 2002 | RCT | Headache | 6-month randomized comparison of acupuncture vs flunarizine in migraine without aura |
+| [30428122](https://pubmed.ncbi.nlm.nih.gov/30428122/) | 2019 | Controlled study | Acta Neurol Scand | Flunarizine plus supraorbital neurostimulation vs either alone for prophylaxis |
+| [1889980](https://pubmed.ncbi.nlm.nih.gov/1889980/) | 1991 | Review | Headache | Controlled studies, including double-blind ones, found flunarizine effective for prophylaxis |
+| [21049704](https://pubmed.ncbi.nlm.nih.gov/21049704/) | 2010 | Review | J Assoc Physicians India | Lists flunarizine among first-choice prophylactic drugs |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2246082 | FLUNARIZINE |
-
-Dosage form, manufacturer and approved indication text are not recorded for this authorization.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02246082 | FLUNARIZINE | Not recorded | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interactions were found in the queried database. A completed Phase 1 study (NCT00752466) examined the pharmacokinetic interaction between flunarizine and topiramate.
+- **Known adverse effects (general pharmacological knowledge, not from the Canadian label):** sedation, weight gain, depression, and extrapyramidal symptoms or parkinsonism. Extra caution is warranted in elderly patients and in those with a history of depression.
+- **Drug Interactions:** The data list 4 pharmacology interaction entries, all describing targets rather than interacting drugs: D2 receptor, Cav3.1, Cav3.2 and Cav3.3. A Phase 1 study (NCT00752466) examined the pharmacokinetic interaction of flunarizine with topiramate.
 
-Please refer to the package insert for warnings and contraindications.
-
-Guardrails from general pharmacology, not from the supplied safety data:
-- Monitor for depression, extrapyramidal symptoms or parkinsonism (especially in older patients), sedation and weight gain.
-- Avoid use in patients with a history of depression or Parkinson's disease.
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
@@ -128,16 +121,14 @@ Guardrails from general pharmacology, not from the supplied safety data:
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The TxGNN score is very high (99.12%), and flunarizine is already an established migraine prophylactic in guidelines and meta-analyses. The supplied data shows no completed Phase 3 flunarizine RCT, and Canadian labelling and safety data are missing. The prediction should therefore go forward with the safety guardrails above, pending label review.
+Flunarizine is used for migraine prophylaxis in many countries, and guidelines and reviews support it. The newer trials in the data are mostly small or open-label comparisons without results, and the Canadian license record has no indication or label information.
 
 **To proceed, the following is needed:**
-- The Health Canada product monograph (warnings, contraindications and approved indication) for DIN 2246082
-- Confirmation of whether migraine prophylaxis is within the Canadian labelled indication
-- DrugBank mechanism-of-action data
-- Extraction of the individual RCTs behind the guidelines and meta-analyses to confirm the evidence level
-- A monitoring plan for depression and extrapyramidal symptoms, especially in older patients and children
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (the record is currently missing)
+- The approved indication text, dosage form and manufacturer for DIN 02246082
+- Verified mechanism of action data from DrugBank
+- Results from the ongoing head-to-head trials, especially the larger primary-care comparison (NCT06499116)
+- A monitoring plan for sedation, depression and extrapyramidal symptoms, especially in elderly patients
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

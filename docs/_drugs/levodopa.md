@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Model Prediction Only (L5)
-nav_order: 538
+nav_order: 543
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Levodopa: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Levodopa: From Parkinson Disease to Rasmussen Subacute Encephalitis
 
 ## One-Sentence Summary
 
-Levodopa is a dopamine precursor, used to replenish dopamine in dopamine-deficiency states such as Parkinson's disease. The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**, but **no clinical trials and no publications** currently support this direction.
+Levodopa is a dopamine precursor originally used to treat Parkinson disease and related parkinsonian disorders.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
+but **no clinical trials and no publications** currently support this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (general pharmacology; the approved-indication text is not recorded in the source data) |
+| Original Indication | Parkinson disease (and related parkinsonian disorders) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L5 |
@@ -49,11 +51,11 @@ Levodopa is a dopamine precursor, used to replenish dopamine in dopamine-deficie
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Levodopa is a dopamine precursor, and its approved use is to replenish dopamine in dopaminergic deficit states.
+Currently, detailed mechanism of action data is not available. Based on known information, levodopa is converted to dopamine in the brain and replaces the dopamine lost in Parkinson disease and related parkinsonian disorders. In Canada it is marketed mainly in combination with carbidopa.
 
-Rasmussen encephalitis is a rare, chronic, unilateral neuroinflammatory disease. It is driven mainly by T-cell (CD8+) cytotoxicity and microglial activation, and it presents with intractable focal seizures, progressive hemiparesis and cognitive decline. **No direct mechanistic link between the two is established.** Dopaminergic modulation has no known role in this immune-mediated pathology.
+Rasmussen encephalitis is a rare, chronic, unilateral neuroinflammatory disease, most likely driven by T-cell-mediated cytotoxicity. It causes progressive hemispheric atrophy, intractable focal epilepsy, hemiparesis and cognitive decline. No direct mechanistic link to levodopa has been established. The prediction may arise from shared neighbours in the knowledge graph, such as movement-disorder or basal ganglia phenotypes, or from features resembling hemiparkinsonism-hemiatrophy syndrome, which is among levodopa's listed original indications.
 
-The very high TxGNN score most likely reflects knowledge-graph proximity, such as shared neurological or movement-disorder gene and phenotype nodes, rather than a validated pharmacological rationale. Levodopa could also lower the seizure threshold in some patients, which would be a concern in a seizure-dominant disease. This prediction should therefore be treated as a hypothesis only.
+Dopaminergic replacement is not known to modify the immune-mediated disease process. At most, levodopa might play a role in symptomatic treatment of rare secondary parkinsonian or dystonic features, not in treating the underlying disease. The high score should therefore be read as a hypothesis, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
@@ -65,33 +67,48 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Dosage form and approved-indication text are not recorded for these authorizations. Five of the 20 are shown.
+Levodopa has 20 valid single-ingredient authorizations in Canada and none cancelled. Dosage form and approved indication text were not available in the data compiled for this report. Five main authorizations are listed below.
 
-| DIN | Product Name |
-|---------|------|
-| 2531593 | AURO-LEVOCARB |
-| 2546396 | JAMP LEVOCARB |
-| 2292165 | DUODOPA |
-| 2531607 | AURO-LEVOCARB |
-| 2244495 | TEVA-LEVOCARBIDOPA |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02292165 | DUODOPA | Not available | Not available |
+| 00386472 | PROLOPA CAP 200-50 | Not available | Not available |
+| 00386464 | PROLOPA CAP 100-25 | Not available | Not available |
+| 02195968 | APO-LEVOCARB | Not available | Not available |
+| 02244495 | TEVA-LEVOCARBIDOPA | Not available | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the queried source.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
+
+**Disease contraindications from the knowledge graph** (derived from drug-disease relationship data, not label text, and to be verified against the label). The graph lists the following conditions:
+- Neurological and autonomic: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, drug-induced dyskinesia, epilepsy
+- Psychiatric: anxiety disorder, neurotic disorder, dysthymic disorder, psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder
+- Cardiovascular: myocardial infarction, coronary thrombosis, sudden cardiac arrest, heart conduction disease
+- Gastrointestinal and hepatobiliary: gastric ulcer, peptic ulcer disease, diarrheal disease, liver disease, gallbladder disease
+- Metabolic and renal: diabetes mellitus, diabetic ketoacidosis, kidney disease, pyoureter
+- Eye: open-angle glaucoma, angle-closure glaucoma
+- Other: melanoma, hemoglobinopathy
+
+Epilepsy is on this list and is a core feature of Rasmussen encephalitis, which deserves particular attention for this predicted indication.
+
+**Drug interactions:** The query returned 100 interactions in total. The 20 retrieved are mostly Moderate or Minor.
+- Moderate: epinephrine, ephedrine, bupropion, metronidazole, pyridoxine, iron, metoclopramide, and anticholinergics (atropine, hyoscyamine, methscopolamine, glycopyrronium, clidinium, dicyclomine, mepenzolate)
+- Minor: antacids (aluminum hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide, magnesium oxide)
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). There are no registered trials or publications, no plausible mechanistic link to a T-cell-mediated disease, and a possible seizure-threshold concern in a seizure-dominant condition.
+The only support is a high model prediction score. There are no registered trials or publications, and no plausible mechanism for treating the immune-mediated pathology of Rasmussen encephalitis. The knowledge graph also lists epilepsy as a contraindication, a notable concern for this disease.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
-- Mechanism of action data (e.g., from DrugBank)
-- A literature and trial search for dopaminergic agents in Rasmussen encephalitis or related neuroinflammatory epilepsies
-- A mechanistic rationale showing how dopamine replenishment could affect immune-mediated neuroinflammation
-- An assessment of seizure risk in this population
+- Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)
+- Mechanism of action data for levodopa
+- A literature review for any reports of levodopa use in Rasmussen encephalitis or hemiparkinsonism-hemiatrophy
+- A clear clinical rationale for the target use, such as symptomatic management of secondary parkinsonism, rather than disease modification
+- Assessment of seizure risk in this population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

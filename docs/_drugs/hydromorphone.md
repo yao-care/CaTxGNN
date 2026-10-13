@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydromorphone
-parent: Moderate Evidence (L3-L4)
-nav_order: 452
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 457
+evidence_level: L5
 indication_count: 6
 ---
 
 # Hydromorphone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,127 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Hydromorphone: From Opioid Pain Relief to Pharyngitis
+# Hydromorphone: From Common Cold to Pharyngitis
 
 ## One-Sentence Summary
 
-Hydromorphone is a mu-opioid agonist analgesic used to relieve pain. The TxGNN model predicts it may be effective for **pharyngitis**, but the link is most likely symptomatic pain relief rather than treatment of the underlying condition. The prediction has **6 clinical trials** and **0 publications** behind it, and only 1 trial involves hydromorphone (post-tonsillectomy pain, not pharyngitis).
+Hydromorphone is an opioid analgesic whose original indications in the knowledge graph are the common cold and nasopharyngitis.
+The TxGNN model's top-ranked prediction is **pharyngitis**, supported by **3 clinical trials** that are all about post-tonsillectomy pain rather than pharyngitis itself, and **no publications**.
+The best-supported alternative is **headache disorder**, with **1 completed Phase 4 RCT** and **17 publications**. Even there, guidelines caution against opioid use.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pain management (opioid analgesic; approved indication text not provided in the license records) |
+| Original Indication | Common cold; nasopharyngitis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 99.81% |
-| Evidence Level | L4 |
+| Evidence Level | L3 (indirect, symptomatic evidence only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, hydromorphone is a mu-opioid agonist analgesic. Its efficacy in pain control is established, and mechanistically it may relieve the pain of pharyngitis.
+Currently, detailed mechanism of action data is not available from the compiled data. Hydromorphone is, however, a well-known mu-opioid agonist with central analgesic effects. For pharyngitis, any plausible benefit would be limited to **symptomatic pain relief**. It has no anti-infective or anti-inflammatory action against the underlying cause.
 
-The only plausible link to pharyngitis is symptom relief. Hydromorphone has no known effect on the inflammation or infection behind pharyngitis. The very high TxGNN score (99.81%) most likely reflects a pain/symptom association in the knowledge graph, not a therapeutic one.
+The link to the original indications (common cold, nasopharyngitis) is that all are upper airway conditions with sore throat as a symptom. The linked trials involve post-tonsillectomy pain, a surgical pain model, so the connection to pharyngitis is indirect. Opioids also suppress cough and may be unsuitable for upper airway inflammation.
 
-The one hydromorphone-specific trial (NCT04230681) studied pain after tonsillectomy, a surgical setting. It is indirect evidence at best. Opioid use in children after tonsillectomy also raises safety concerns such as respiratory depression.
+The other predictions are weaker. Allergic urticaria is argued against by opioid-induced histamine release. Nasal cavity disease, acute laryngopharyngitis and trigeminal autonomic cephalalgia have no trials or publications. Headache disorder (acute migraine) is the only alternative with direct hydromorphone trial data. The score is also a computational prediction only.
+
+---
 
 ## Clinical Trial Evidence
 
+### Pharyngitis (top prediction)
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04230681](https://clinicaltrials.gov/study/NCT04230681) | Early Phase 1 | Completed | 189 | Hydromorphone vs fentanyl for pain control in children after tonsillectomy or adenotonsillectomy. Closest to the drug and the pharyngeal region, but a perioperative pain setting. |
-| [NCT06576830](https://clinicaltrials.gov/study/NCT06576830) | Phase 4 | Recruiting | 440 | Single-dose intraoperative methadone vs short-acting opioids (fentanyl/hydromorphone) for pain after pediatric tonsillectomy. Hydromorphone is only a comparator. |
-| [NCT05244226](https://clinicaltrials.gov/study/NCT05244226) | Phase 2 | Completed | 66 | Pilot of methadone vs short-acting opioids (fentanyl/hydromorphone) for pain after tonsillectomy. Surgical setting. |
-| [NCT02996591](https://clinicaltrials.gov/study/NCT02996591) | Phase 4 | Completed | 36 | Spinal vs general anesthesia with nerve blocks for foot and ankle surgery. Unrelated to pharyngitis. |
-| [NCT00109031](https://clinicaltrials.gov/study/NCT00109031) | Phase 3 | Completed | 47 | Palifermin dosing for oral mucositis after total body irradiation and chemotherapy. Different drug and condition. |
-| [NCT00189488](https://clinicaltrials.gov/study/NCT00189488) | Phase 2 | Completed | 155 | Palifermin vs placebo for graft-versus-host disease and oral mucositis. Different drug and condition. |
+| [NCT04230681](https://clinicaltrials.gov/study/NCT04230681) | Early Phase 1 | Completed | 189 | Hydromorphone vs fentanyl for pain control in children after tonsillectomy/adenotonsillectomy (surgical pain, not pharyngitis) |
+| [NCT05244226](https://clinicaltrials.gov/study/NCT05244226) | Phase 2 | Completed | 66 | Methadone vs short-acting opioids (fentanyl/hydromorphone) for pediatric post-tonsillectomy pain; class-level context only |
+| [NCT06576830](https://clinicaltrials.gov/study/NCT06576830) | Phase 4 | Recruiting | 440 | Intraoperative methadone vs short-acting opioids in pediatric tonsillectomy; no results yet |
+
+### Headache disorder (best-supported alternative)
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02389829](https://clinicaltrials.gov/study/NCT02389829) | Phase 4 | Completed | 127 | Hydromorphone vs prochlorperazine + diphenhydramine for acute migraine in the emergency department |
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for pharyngitis. The publications below relate to headache disorder.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [29046364](https://pubmed.ncbi.nlm.nih.gov/29046364/) | 2017 | RCT | Neurology | IV prochlorperazine + diphenhydramine vs IV hydromorphone for migraine in the emergency department |
+| [34363617](https://pubmed.ncbi.nlm.nih.gov/34363617/) | 2021 | RCT (post hoc) | Headache | Impact of hydromorphone vs prochlorperazine on migraine-associated symptoms |
+| [17981511](https://pubmed.ncbi.nlm.nih.gov/17981511/) | 2008 | Cohort | J Pain | Metoclopramide vs hydromorphone for emergency department migraine treatment |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guideline | Headache | Updated American Headache Society guidance on parenteral therapies for acute migraine in the emergency department |
+| [27300483](https://pubmed.ncbi.nlm.nih.gov/27300483/) | 2016 | Guideline | Headache | Original American Headache Society evidence assessment of parenteral pharmacotherapies for acute migraine |
+| [29461426](https://pubmed.ncbi.nlm.nih.gov/29461426/) | 2018 | Review | Curr Opin Neurol | Review of emergency management of primary headache |
+| [39924451](https://pubmed.ncbi.nlm.nih.gov/39924451/) | 2025 | Systematic review | Addiction | Relative risks of adverse effects across opioid agonist treatments |
+| [29516486](https://pubmed.ncbi.nlm.nih.gov/29516486/) | 2018 | Cohort | Headache | Opioid "likeability" and "feeling good" not associated with return visits among migraine patients given IV hydromorphone |
+| [24948146](https://pubmed.ncbi.nlm.nih.gov/24948146/) | 2015 | Survey analysis | Cephalalgia | Current migraine management in US emergency departments |
+| [32781832](https://pubmed.ncbi.nlm.nih.gov/32781832/) | 2020 | Database analysis | Cephalalgia | Patterns and predictors of opioid use among migraine patients in emergency departments |
+
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02469413 | HYDROMORPHONE HYDROCHLORIDE INJECTION HP 50 |
-| 02485532 | HYDROMORPHONE HYDROCHLORIDE INJECTION USP |
-| 02491699 | HYDROMORPHONE HYDROCHLORIDE INJECTION, USP |
-| 02364123 | APO-HYDROMORPHONE |
-| 02485540 | HYDROMORPHONE HYDROCHLORIDE INJECTION USP |
+The licence records compiled for this report have no dosage form, manufacturer or approved indication text. A selection of the 20 valid single-ingredient licences:
 
-Dosage form and approved indication text were not provided for these licenses. The table shows 5 of the 20 DINs.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00125083 | DILAUDID | Not listed | Not listed |
+| 00786543 | DILAUDID | Not listed | Not listed |
+| 02364123 | APO-HYDROMORPHONE | Not listed | Not listed |
+| 02359502 | HYDROMORPH CONTIN | Not listed | Not listed |
+| 02469413 | HYDROMORPHONE HYDROCHLORIDE INJECTION HP 50 | Not listed | Not listed |
+
+Other licences cover further injection, tablet and controlled-release capsule products (6, 12 and 24 mg).
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications (from knowledge graph drug-disease edges, not label text):**
+- Hepatic and renal: liver failure, liver disease, kidney disease
+- Respiratory and cardiac: respiratory failure, sudden cardiac arrest, heart conduction disease, hypotensive disorder
+- Neurological: epilepsy
+- Endocrine: hypothyroidism, myxedema, congenital hypothyroidism, Addison disease, adrenal insufficiency and related adrenal disorders, congenital adrenal hyperplasia
+- Gastrointestinal and urinary: inflammatory bowel disease, ulcerative colitis, constipation disorder, gallbladder disease, pyoureter, benign prostatic hyperplasia
+- Substance use: substance-related disorder, substance abuse/dependence, drug dependence
+- Other: butyrylcholinesterase deficiency
 
-Opioid use in children after tonsillectomy carries a risk of respiratory depression. Use for a self-limiting upper respiratory condition such as pharyngitis is not supported by the available evidence.
+**Drug Interactions:** 100 interactions were found. The major ones include:
+- **Major:** alvimopan, bupropion, morphine, naltrexone
+- **Moderate (examples):** anticholinergics (hyoscyamine, atropine, glycopyrronium, dicyclomine, trospium), loperamide, naloxone, eluxadoline, cimetidine, dronabinol, nabilone
+
+Package insert warnings and contraindications for the Canadian products have not yet been retrieved. Please refer to the package insert for label safety information.
+
+**Additional caution:** For migraine, American Headache Society guidance generally discourages opioids because of poorer outcomes, recurrence and dependence risk.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high model score is not backed by direct evidence. No trial or publication tests hydromorphone in pharyngitis. The closest study (NCT04230681) addresses post-surgical pain, and any benefit would be symptomatic only.
+- The top prediction (pharyngitis) rests only on post-tonsillectomy pain trials, which are a surgical pain model, and the effect would be symptomatic at best. The only direct evidence is in acute migraine, where guidelines discourage opioids. The safety profile also carries a heavy burden of contraindications and interactions.
 
 **To proceed, the following is needed:**
-- Direct clinical or literature evidence for hydromorphone in pharyngitis or acute laryngopharyngitis
-- Mechanism of action data (MOA)
-- Health Canada package insert warnings and contraindications, especially for pediatric use
-- Outcome data from NCT04230681 to see whether it adds anything beyond surgical analgesia
-
-**Note on other predictions:** Among the six predicted indications, **headache disorder** (score 99.65%, evidence level L2) has the strongest evidence. It includes a randomized emergency department comparison of hydromorphone vs prochlorperazine plus diphenhydramine in acute migraine (NCT02389829, n=127). That evidence does not show hydromorphone to be superior, and the risks of opioids in headache (medication-overuse headache, dependence, return visits) make it a safety review question rather than a repurposing candidate. It is also on Hold.
+- Mechanism of action data
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text, dosage forms and routes for the Canadian licences
+- Pharyngitis-specific clinical evidence, rather than post-surgical pain data
+- A risk-benefit assessment against non-opioid alternatives, with dependence risk, if the migraine direction is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

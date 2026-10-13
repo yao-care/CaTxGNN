@@ -2,7 +2,7 @@
 layout: default
 title: Ibutilide
 parent: Model Prediction Only (L5)
-nav_order: 459
+nav_order: 464
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,20 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Ibutilide: From Atrial Fibrillation/Flutter to Rheumatoid Arthritis
+# Ibutilide: From Arrhythmia Treatment to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Ibutilide is a class III antiarrhythmic used to convert acute atrial fibrillation or flutter to normal rhythm.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it so far.
-
----
+Ibutilide is marketed in Canada as CORVERT. The data compiled for this report do not list an approved indication text for it.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute conversion of atrial fibrillation/flutter (the Health Canada licence record contains no indication text) |
+| Original Indication | Not stated in the Canadian licence data |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
@@ -50,63 +48,68 @@ The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but t
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the supplied record. Ibutilide is generally described as a class III antiarrhythmic. It blocks the IKr (hERG) potassium channel and enhances a slow inward sodium current, which prolongs cardiac repolarisation. Its efficacy in acute atrial fibrillation/flutter is established, but no mechanistic link to rheumatoid arthritis has been shown.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ibutilide is generally described as a class III antiarrhythmic. It prolongs cardiac repolarization by blocking the delayed rectifier potassium current (IKr/hERG) and promoting a slow inward sodium current. The licence data do not state an original indication.
 
-Rheumatoid arthritis is a chronic systemic autoimmune disease, and ibutilide's known actions are on cardiac ion channels. Any route between the two, such as ion-channel effects on immune cells or shared neighbours in the knowledge graph, is speculative and not supported by the data provided. The high TxGNN score reflects a knowledge-graph association and is not evidence of efficacy.
+No known pathway links IKr blockade to the inflammatory, autoimmune, or synovial processes of rheumatoid arthritis. The high TxGNN score reflects a model-based prediction that may capture network-level associations rather than biological causality. Any link, such as ion-channel modulation in immune cells or synoviocytes, would be speculative and is not supported by the available evidence.
 
-Practical fit is also poor. Ibutilide is used as an inpatient intravenous drug with a known QT-prolongation and torsades de pointes risk, which makes chronic use in a long-term autoimmune condition implausible without strong supporting evidence.
-
-A second prediction, nephrogenic syndrome of inappropriate antidiuresis (TxGNN score 99.30%), is in the same position. It is an ultra-rare V2-receptor disorder with no known link to ibutilide's mechanism. Hyponatraemia would also increase torsades risk.
-
----
+A second prediction, nephrogenic syndrome of inappropriate antidiuresis (score 99.30%), has the same weaknesses. It is a very rare vasopressin V2 receptor disorder, and ibutilide has no recognized activity on that receptor or on renal water handling. It also has no supporting trials or literature, and its recommendation is also Hold.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2242470 | CORVERT | — | — |
-
-The supplied record has no dosage form or indication text for this licence.
-
----
+| 02242470 | CORVERT | Not stated | Not stated |
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records.
-- **Proarrhythmic risk (from the repurposing assessment)**: Ibutilide carries QT-prolongation and torsades de pointes risk. Electrolyte disturbances such as hyponatraemia increase this risk.
+- **Contraindication-related conditions (knowledge graph):** The TxGNN knowledge graph links ibutilide to the following conditions as contraindications. These come from graph edges, not from label text:
+  - long QT syndrome
+  - familial long QT syndrome
+  - torsades de pointes
+  - potassium deficiency disease
+  - atrioventricular dissociation
+  - atrioventricular block
+  - heart block
+- **Drug Interactions:** The data compiled for this report list 100 interactions, 20 of which are shown here. Several are rated Major, and most of those involve QT prolongation or electrolyte disturbance:
+  - Clarithromycin
+  - Levofloxacin
+  - Cisapride
+  - Ondansetron
+  - Granisetron
+  - Dolasetron
+  - Palonosetron
+  - Eliglustat
+  - Picosulfuric acid
+  - Sodium sulfate
+  - Polyethylene glycol (3350 with electrolytes)
 
-Please refer to the package insert for full warnings and contraindications.
+  Moderate interactions include famotidine, loperamide, bisacodyl, lactitol, lactulose, polyethylene glycol (3350), castor oil and glycerin. Metronidazole is rated Minor.
+- **Serious proarrhythmic risk:** Ibutilide can cause torsades de pointes and generally requires in-hospital monitoring. This would be a major barrier to any chronic use, such as in rheumatoid arthritis.
 
----
+Please refer to the package insert for the full warnings and contraindications, because that information is not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the knowledge-graph score alone (Evidence Level L5, stage S0), with no trials, no literature and no established mechanism. Ibutilide's proarrhythmic risk and inpatient IV-only use further weaken the case for chronic use in rheumatoid arthritis.
+The prediction rests only on a model score. There are no clinical trials or publications, and no plausible mechanistic link to rheumatoid arthritis. Ibutilide also has a serious proarrhythmic risk, and the licence data lack indication and safety information.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are required for safety screening
-- Detailed mechanism of action data (e.g. from DrugBank), to test for a biological link to rheumatoid arthritis
-- Preclinical or observational evidence supporting a plausible immune or inflammatory effect
-- Assessment of route and dosing compatibility, since the current IV inpatient use does not suit a chronic condition
+- The Health Canada package insert (warnings, contraindications, approved indication), which is needed before any safety screening
+- Detailed mechanism of action data, for example from DrugBank
+- Preclinical or mechanistic evidence for ion-channel involvement in rheumatoid arthritis
+- A risk-benefit assessment of the torsades de pointes risk and the QT-prolonging drug interactions for any non-acute use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

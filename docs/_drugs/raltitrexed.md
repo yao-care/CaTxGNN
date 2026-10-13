@@ -2,7 +2,7 @@
 layout: default
 title: Raltitrexed
 parent: Model Prediction Only (L5)
-nav_order: 784
+nav_order: 791
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,101 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Raltitrexed: From Antineoplastic Use to Sclerosing Cholangitis
+# Raltitrexed: From Colorectal Cancer to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Raltitrexed is a thymidylate synthase-inhibiting antifolate cytotoxic drug, marketed in Canada as TOMUDEX.
-The TxGNN model predicts it may be effective for **sclerosing cholangitis**, with a very high score (99.97%).
-However, there are currently **0 clinical trials** and **0 publications** supporting this direction, so it remains a model prediction only.
-
----
+Raltitrexed is a thymidylate synthase inhibitor (an antimetabolite chemotherapy) used to treat colorectal cancer and malignant mesothelioma.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**,
+but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the source data |
+| Original Indication | Colorectal cancer and malignant mesothelioma (from the pharmacology reference data; the Canadian licence record contains no indication text) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Based on known information, raltitrexed is a thymidylate synthase inhibitor (an antifolate cytotoxic agent). Its approved indication text was not captured, so the relationship between the original and new indication cannot be assessed directly.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, raltitrexed is an antifolate that targets thymidylate synthase (TYMS), an enzyme required for DNA synthesis. Its efficacy in colorectal cancer and malignant mesothelioma is established, and it works by suppressing rapidly dividing cells.
 
-For sclerosing cholangitis, no clear mechanistic link exists. It is an immune-mediated fibroinflammatory disease of the bile ducts, and a cytotoxic antimetabolite has no established rationale there. Raltitrexed is also associated with transaminase elevations, which is a concern in cholestatic liver disease. The high TxGNN score is a model output with no supporting trials or literature.
+The link to sclerosing cholangitis is weak. Sclerosing cholangitis is an immune-mediated, fibroinflammatory disease of the bile ducts, and there is no established rationale for cytotoxic antifolate therapy in it. The very high TxGNN score (99.97%) is a model output based on knowledge-graph patterns, not an indication of demonstrated benefit.
 
-The model also produced nine further predictions for this drug. All are L5, with no trials or literature, and all are on Hold:
-
-| Predicted Indication | Score | Assessment |
-|------|------|------|
-| Myelodysplastic syndrome (MDS) | 99.97% | Weak theoretical plausibility: antimetabolites could target clonal proliferation. Raltitrexed myelosuppression could worsen existing cytopenias. |
-| Unclassified MDS, refractory cytopenia of childhood, partial deletion of the long arm of chromosome 5 | 99.96% | MDS-related subtypes and cytogenetic abnormality; likely propagated from the parent MDS node. There are no pediatric safety data. |
-| Five sickle cell disease subtypes (HbE, HbC, HbD, beta-thalassemia, hereditary persistence of fetal hemoglobin) | 99.96% | Speculative HbF-induction rationale, which is not established for thymidylate synthase inhibitors. Identical scores suggest propagation from a shared parent node rather than independent signals. Myelosuppression is a safety concern. |
-
----
+Other predictions for this drug include myelodysplastic syndrome and several sickle cell disease variants. The identical scores across the sickle cell variants suggest a shared graph-based signal rather than disease-specific evidence. For myelodysplastic syndrome, a plausible but unvalidated idea is that thymidylate synthase inhibition could suppress abnormal blood-forming cells. However, myelosuppression is a major antifolate toxicity and could worsen existing low blood counts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2229566 | TOMUDEX |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02229566 | TOMUDEX | Not specified | Not specified |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (antifolate, thymidylate synthase inhibitor) |
-| Myelosuppression Risk | Significant; myelosuppression is a dose-limiting toxicity |
+| Cytotoxicity Classification | Conventional cytotoxic (antifolate / thymidylate synthase inhibitor) |
+| Myelosuppression Risk | Medium to high (myelosuppression is a recognised major toxicity of antifolates) |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC (with differential), liver function (transaminases), renal function |
+| Monitoring Items | Complete blood count with differential, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
-
----
 
 ## Safety Considerations
 
-- **Hepatic**: Raltitrexed is associated with transaminase elevations, a concern in cholestatic liver disease such as sclerosing cholangitis.
-- **Haematological**: Myelosuppression could worsen cytopenias in MDS and sickle cell populations.
-- **Pediatric**: No pediatric safety data are available for the refractory cytopenia of childhood prediction.
+- **Drug Interactions**: The only interaction record is a pharmacological one, with the drug's own target, thymidylate synthase (TYMS). No drug-drug interactions with severity levels were identified.
+- **Haematological concern**: Antifolate myelosuppression is a particular concern for the predicted blood-related indications (myelodysplastic syndrome, refractory cytopenia of childhood, sickle cell disease variants).
 
-No drug interaction records were found. Please refer to the package insert for full safety information.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten predictions are L5, supported only by the TxGNN model with no trials or literature. The mechanistic rationale is absent or weak for every one, and the known hepatic and myelosuppressive toxicities raise safety concerns in the predicted populations.
+The prediction is supported only by the TxGNN model score, with no clinical trials or publications (Evidence Level L5). There is no plausible mechanistic rationale for a cytotoxic antifolate in sclerosing cholangitis, and the safety profile is unfavourable.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data from DrugBank
-- Approved indication text and dosage form for the Canadian license
-- A literature and trial search for the top candidates, especially MDS
-- Confirmation of whether the sickle cell predictions are independent signals or propagated from a shared parent disease node
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data (MOA) from DrugBank
+- Preclinical or mechanistic studies linking thymidylate synthase inhibition to biliary inflammation or fibrosis
+- Approved indication text for the Canadian licence (DIN 02229566)
+- A risk-benefit assessment for a non-malignant condition, given the myelosuppression risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

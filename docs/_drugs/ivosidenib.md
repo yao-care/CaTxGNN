@@ -2,7 +2,7 @@
 layout: default
 title: Ivosidenib
 parent: Model Prediction Only (L5)
-nav_order: 504
+nav_order: 509
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,57 +29,51 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Ivosidenib: From IDH1-Mutant Malignancies to Bulbar Polio
+# Ivosidenib: From Myeloid Leukemia to Bulbar Polio
 
 ## One-Sentence Summary
 
-Ivosidenib (marketed in Canada as TIBSOVO) is a mutant IDH1 inhibitor used in IDH1-mutant cancers. The TxGNN model predicts it may be effective for **bulbar polio**, but this prediction has **0 clinical trials** and **0 publications** behind it, and no plausible biological link was identified. The supplied record lists no original indication, so the IDH1-mutant malignancy framing comes from the mechanistic analysis, not from the licensing data.
-
----
+Ivosidenib is a targeted inhibitor of mutant IDH1, originally used to treat acute myeloid leukemia (AML) and related myeloid disorders.
+The TxGNN model predicts it may be effective for **bulbar polio**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on the model score alone and has no identified biological support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied record (mechanistically, IDH1-mutant malignancies such as AML/MDS) |
+| Original Indication | Myeloid leukemia (including acute myeloid leukemia and related subtypes) |
 | Predicted New Indication | Bulbar polio |
 | TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-It is probably not reasonable. Ivosidenib inhibits mutant IDH1, lowering 2-hydroxyglutarate (2-HG) and relieving the differentiation block in IDH1-mutant malignancies. Poliomyelitis is a viral infection of motor neurons, and no IDH1-dependent pathway is known in it.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, ivosidenib inhibits the mutant IDH1 enzyme and lowers 2-hydroxyglutarate in IDH1-mutated tumours. Its efficacy in IDH1-mutated AML is the basis for its original indication.
 
-The high score (0.993) most likely reflects an artifact of the knowledge graph, not biology. The record also has no original indication or formal mechanism-of-action entry, so the prediction cannot be checked against established pharmacology.
+Bulbar polio is a viral infection of motor neurons caused by poliovirus. It is not a tumour and has no known link to IDH1 mutation or 2-hydroxyglutarate metabolism. No plausible mechanistic link between ivosidenib and this disease could be identified. The very high TxGNN score (0.993) most likely reflects an artifact of the knowledge graph rather than real biology, and no trials or literature corroborate it.
 
-**Better-supported predictions for the same drug:** The model's rank 2 and 3 predictions are therapy-related myeloid neoplasms. These are AML/MDS related to alkylating agents and AML/MDS related to radiation, both with a score of 99.26%. They are biologically plausible because some therapy-related myeloid neoplasms carry IDH1 mutations. Any benefit would be expected only in IDH1-mutant cases. These entries also have no supporting trials or literature in the record, and they share the same graph neighborhood, so they are best treated as one research question.
+**Other predictions of note:** Two other high-scoring predictions are closely related to the approved indications:
+- AML and myelodysplastic syndromes related to alkylating agents (score 99.26%)
+- AML and myelodysplastic syndromes related to radiation (score 99.26%)
 
----
+Both are secondary myeloid neoplasms. They are essentially an extension of the existing AML label, since therapy-related AML is already among the original indications. A benefit is biologically plausible only if the disease carries an IDH1 mutation. No subtype-specific trials or literature are available, so the evidence is indirect. These two are better framed as research questions that need IDH1 mutation stratification than as true repurposing candidates.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2549980 | TIBSOVO | Not listed | Not listed |
-
----
+| 02549980 | TIBSOVO | Not listed | Not listed |
 
 ## Cytotoxicity
 
@@ -88,28 +82,32 @@ Currently no related literature available.
 | Cytotoxicity Classification | Targeted therapy (mutant IDH1 inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions (haematological parameters, liver and renal function are generally monitored) |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+**Drug Interactions:** The interaction screening returned 100 interacting drugs in total. The first 20 returned include the following.
 
----
+- **Major:** aprepitant, clarithromycin, dolasetron, palonosetron, cisapride, granisetron, levofloxacin
+- **Moderate:** famotidine, loperamide, bisacodyl, picosulfuric acid, polyethylene glycol (3350 with electrolytes), saxagliptin, eliglustat, linagliptin, sodium sulfate, castor oil, glycerin, lactitol, lactulose
+
+Several of the major interactions involve antiemetics and QT-prolonging agents, so co-prescribing deserves particular care.
+
+For other safety information, such as warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The bulbar polio prediction is a model-only result (L5) with no trials, no literature, and no plausible mechanism. It most likely reflects a knowledge-graph artifact, so it should not advance.
+The prediction for bulbar polio has no clinical trials, no literature, and no plausible mechanistic link. The high score appears to be a knowledge-graph artifact. Ivosidenib's mechanism targets IDH1-mutated tumours, not a viral infection of motor neurons.
 
 **To proceed, the following is needed:**
-- Retrieve the Health Canada package insert to confirm approved indications, warnings, and contraindications. This is currently a blocking gap for safety screening.
-- Obtain mechanism-of-action data from DrugBank to allow a proper mechanistic-link analysis.
-- Redirect attention to the therapy-related AML/MDS entities. Search for IDH1-mutant therapy-related AML/MDS subgroup data in the ivosidenib AML/MDS trials.
+- Mechanism of action data (MOA) from DrugBank
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Any biological or preclinical evidence linking mutant IDH1 inhibition to poliovirus infection (none currently identified)
+- For the therapy-related AML/MDS subtypes (alkylating agent- and radiation-related): subtype-specific clinical data and IDH1 mutation stratification, as a separate research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

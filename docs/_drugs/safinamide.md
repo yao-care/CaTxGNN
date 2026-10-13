@@ -2,7 +2,7 @@
 layout: default
 title: Safinamide
 parent: Model Prediction Only (L5)
-nav_order: 825
+nav_order: 832
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Safinamide: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Safinamide: From Parkinson Disease to Rasmussen Subacute Encephalitis
 
 ## One-Sentence Summary
 
-Safinamide is marketed in Canada as ONSTRYV and is used as add-on therapy in Parkinson's disease. The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on the model score alone.
+Safinamide was originally used to treat Parkinson disease and related parkinsonian syndromes.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
+but **no clinical trials and no publications** currently support this direction, so it rests on the model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (add-on therapy; the Canadian licence records contain no indication text) |
+| Original Indication | Parkinson disease (and related parkinsonian syndromes) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
@@ -49,13 +51,13 @@ Safinamide is marketed in Canada as ONSTRYV and is used as add-on therapy in Par
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the curated drug record. From known pharmacology, safinamide is a reversible MAO-B inhibitor that also blocks voltage-gated sodium channels and reduces glutamate release. In Parkinson's disease, MAO-B inhibition enhances dopaminergic signalling. The sodium channel and glutamate effects could plausibly dampen seizure activity.
+Safinamide is a reversible MAO-B inhibitor. It also blocks voltage-gated sodium channels and inhibits glutamate release. Together, these actions could plausibly relate to the excitotoxicity and seizure activity seen in Rasmussen encephalitis.
 
-Rasmussen encephalitis is a rare, progressive brain disorder characterised by intractable focal seizures. It is driven mainly by T-cell-mediated autoimmune inflammation, and none of safinamide's known mechanisms address that process. At best, safinamide might help with seizure symptoms. There is no basis to expect it to affect the underlying disease. The high score is therefore not corroborated by any clinical or mechanistic evidence.
+However, the original indication (Parkinson disease) is a neurodegenerative movement disorder, whereas Rasmussen encephalitis is driven mainly by T-cell-mediated autoimmune inflammation of one cerebral hemisphere. Safinamide does not address this immune mechanism. The link therefore rests on the high TxGNN score (0.996) alone, with no supporting clinical or literature evidence.
 
-Two other diseases were also predicted, and neither has any trials or publications:
-- **Myelitis** (score 99.46%): the rationale is speculative neuroprotection. Myelitis covers many inflammatory, infectious and autoimmune causes that safinamide does not treat, so a specific cause would need to be defined first.
-- **PLA2G6-associated neurodegeneration** (score 99.22%): this is the most biologically plausible of the three. It often presents with dystonia-parkinsonism, so safinamide might help parkinsonian symptoms, though there is no evidence it changes disease progression. It is flagged as a research question, and a preclinical or case-series study would be a reasonable first step.
+Other predictions for this drug are weaker or similarly unsupported:
+- **Myelitis** (score 99.46%): No established mechanistic rationale for treating spinal cord inflammation.
+- **PLA2G6-associated neurodegeneration** (score 99.22%): The parkinsonian phenotype overlaps with the approved indication, so symptomatic dopaminergic support is conceivable. This is the most plausible symptomatic rationale of the three, but it remains a hypothesis and would not alter the underlying disease.
 
 ## Clinical Trial Evidence
 
@@ -67,29 +69,36 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02484641 | ONSTRYV |
-| 02484668 | ONSTRYV |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02484641 | ONSTRYV | Not listed | Not listed |
+| 02484668 | ONSTRYV | Not listed | Not listed |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified in the DDI screening. The first 20 reviewed include one **Major** interaction and the rest **Moderate**.
+  - **Major**: Bupropion
+  - **Moderate (sympathomimetics and appetite suppressants)**: Isometheptene, Diethylpropion, Phentermine
+  - **Moderate (antidiabetic agents)**: Chlorpropamide, Acetohexamide, Glimepiride, Nateglinide, Repaglinide, Empagliflozin, and multiple insulin products (aspart, degludec, detemir, glargine, glulisine, human isophane, human regular, inhaled human)
+  - **Moderate (other)**: Metoclopramide, Rosuvastatin
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5). No trials or publications support it, and safinamide's known mechanisms do not target the autoimmune inflammation that drives Rasmussen encephalitis. Safety information is also incomplete.
+The prediction has a very high model score but no clinical trials or publications behind it (Evidence Level L5). The mechanism of safinamide does not address the autoimmune inflammation that drives Rasmussen encephalitis, so the rationale is weak.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Curated mechanism-of-action data from DrugBank
-- A literature and trial search with disease-specific terms for Rasmussen encephalitis
-- Preclinical or case-series evidence, with PLA2G6-associated neurodegeneration (symptomatic parkinsonism) as a possible first test case
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Preclinical or mechanistic studies linking MAO-B inhibition or sodium channel/glutamate modulation to Rasmussen encephalitis
+- A literature and trial registry search to confirm whether any supporting evidence exists
+- Package insert warnings and contraindications from Health Canada, to complete the safety review
+- Detailed mechanism of action data
+- Approved indication text and dosage form details for the Canadian products
+- Review of the major bupropion interaction and the antidiabetic drug interactions, if any further evaluation is pursued
+- If a more plausible symptomatic use is of interest, consider evaluating PLA2G6-associated neurodegeneration first
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

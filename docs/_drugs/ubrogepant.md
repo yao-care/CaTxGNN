@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ubrogepant
-parent: Model Prediction Only (L5)
-nav_order: 950
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 957
+evidence_level: L4
 indication_count: 3
 ---
 
 # Ubrogepant
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Ubrogepant: From Acute Migraine to Migraine with Brainstem Aura
+# Ubrogepant: From Migraine to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Ubrogepant (Canadian brand name UBRELVY) is an oral CGRP receptor antagonist, originally used for the acute treatment of migraine with or without aura in adults.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but there are **0 registered clinical trials** and **no publication testing this subtype**. The 19 supplied publications cover migraine in general.
+Ubrogepant is an oral CGRP receptor antagonist (a "gepant"), originally used for the acute treatment of migraine with or without aura in adults.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**.
+No clinical trials are registered for this subtype, but **18 publications** on ubrogepant in general migraine populations provide indirect support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute treatment of migraine (per published literature; the Canadian label text was not supplied) |
+| Original Indication | Migraine disorder; migraine with or without aura (from the knowledge graph, as no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 (no subtype-specific studies; only mechanism-level support from the parent condition) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied record. The published literature describes ubrogepant as a small-molecule CGRP receptor antagonist. CGRP signalling is central to migraine pathophysiology, and ubrogepant is approved for acute migraine with or without aura.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, ubrogepant is a small-molecule, highly selective CGRP receptor antagonist. CGRP is a key mediator of pain signalling in the trigeminovascular system during migraine attacks.
 
-Brainstem aura is a subtype of migraine with aura, so a CGRP-targeted drug is mechanistically plausible. The very high TxGNN score most likely reflects the drug's strong link to the parent condition (migraine) rather than a distinct repurposing signal. Gepants are not vasoconstrictors, so they may have a vascular-safety advantage over triptans in this subtype. This is a theoretical argument. It must be checked against the Canadian label and the exclusion criteria of the pivotal trials.
+Migraine with brainstem aura is a migraine subtype that shares this trigeminovascular and CGRP-mediated pathophysiology with the approved indication. The mechanistic rationale is therefore reasonable. Unlike triptans, gepants do not act through vasoconstriction, so that concern is not a barrier here.
+
+However, the supplied literature covers general migraine populations and does not specifically enrol patients with brainstem aura. The evidence is indirect. The very high TxGNN score largely reflects proximity to the approved migraine indication rather than independent evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for migraine with brainstem aura.
 
 ## Literature Evidence
 
-None of the publications below tests the brainstem aura subtype. They support ubrogepant in migraine generally.
+The 10 most relevant publications are listed below, prioritising RCTs and trials over reviews and case reports. None targets brainstem aura specifically.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37979595](https://pubmed.ncbi.nlm.nih.gov/37979595/) | 2023 | RCT (Phase 3) | Lancet | Ubrogepant 100 mg vs placebo for treating migraine attacks during the prodrome (crossover design) |
-| [31742631](https://pubmed.ncbi.nlm.nih.gov/31742631/) | 2019 | RCT (Phase 3) | JAMA | ACHIEVE II: ubrogepant vs placebo on pain and the most bothersome associated symptom in acute migraine |
-| [31800988](https://pubmed.ncbi.nlm.nih.gov/31800988/) | 2019 | Clinical trial | N Engl J Med | Oral CGRP receptor antagonist evaluated for acute migraine treatment |
-| [31913519](https://pubmed.ncbi.nlm.nih.gov/31913519/) | 2020 | Phase 3 extension trial | Headache | 52-week randomized extension evaluating long-term safety and tolerability |
-| [33874756](https://pubmed.ncbi.nlm.nih.gov/33874756/) | 2021 | Post hoc analysis of RCTs | Cephalalgia | Safety and efficacy across cardiovascular risk categories in ACHIEVE I and II |
-| [39569702](https://pubmed.ncbi.nlm.nih.gov/39569702/) | 2025 | Clinical trial | Headache | TANDEM: safety and tolerability of ubrogepant in people taking atogepant for prevention |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Network meta-analysis | J Headache Pain | Indirect comparison of lasmiditan vs rimegepant and ubrogepant as acute migraine treatments |
-| [32020557](https://pubmed.ncbi.nlm.nih.gov/32020557/) | 2020 | Review | Drugs | First-approval summary: approved in the USA in Dec 2019 for acute migraine (± aura) in adults |
-| [33948091](https://pubmed.ncbi.nlm.nih.gov/33948091/) | 2021 | Narrative review | J Pain Res | ACHIEVE I and II showed superiority over placebo for pain freedom and most bothersome symptom freedom at 2 hours |
-| [39262541](https://pubmed.ncbi.nlm.nih.gov/39262541/) | 2024 | Case report | Cureus | Treatment-resistant migraine without aura with substantial improvement on ubrogepant |
+| [37979595](https://pubmed.ncbi.nlm.nih.gov/37979595/) | 2023 | RCT (Phase 3) | Lancet | Ubrogepant 100 mg vs placebo for treating migraine attacks during the prodrome |
+| [39569702](https://pubmed.ncbi.nlm.nih.gov/39569702/) | 2025 | Clinical trial (safety) | Headache | Safety and tolerability of ubrogepant in people taking atogepant for preventive treatment of episodic migraine (TANDEM study) |
+| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Network meta-analysis | J Headache Pain | Relative efficacy of lasmiditan vs rimegepant and ubrogepant as acute migraine treatments |
+| [31913519](https://pubmed.ncbi.nlm.nih.gov/31913519/) | 2020 | Phase 3 extension | Headache | 52-week long-term safety and tolerability of ubrogepant for acute migraine |
+| [33874756](https://pubmed.ncbi.nlm.nih.gov/33874756/) | 2021 | Post hoc analysis of RCTs | Cephalalgia | Safety and efficacy of ubrogepant across cardiovascular risk categories (ACHIEVE I and II) |
+| [33749826](https://pubmed.ncbi.nlm.nih.gov/33749826/) | 2021 | Post hoc analysis | Headache | Ubrogepant efficacy based on prior triptan exposure and response |
+| [33547676](https://pubmed.ncbi.nlm.nih.gov/33547676/) | 2021 | Real-world study | Headache | Real-world efficacy, tolerability and safety in a tertiary headache centre |
+| [31800988](https://pubmed.ncbi.nlm.nih.gov/31800988/) | 2019 | Phase 3 trial report | N Engl J Med | Ubrogepant, an oral CGRP receptor antagonist, for acute migraine treatment |
+| [32020557](https://pubmed.ncbi.nlm.nih.gov/32020557/) | 2020 | Review | Drugs | Summary of development milestones leading to first approval for acute migraine (± aura) |
+| [39262541](https://pubmed.ncbi.nlm.nih.gov/39262541/) | 2024 | Case report | Cureus | Substantial improvement in a patient with treatment-resistant migraine without aura |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2532581 | UBRELVY |
-| 2532530 | UBRELVY |
-
-Dosage form, manufacturer and approved indication text were not provided for these two authorizations.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02532581 | UBRELVY | Not specified | Not specified |
+| 02532530 | UBRELVY | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions:** 76 potential interactions were identified. Those rated Major include:
+- Clarithromycin
+- Cobicistat
+- Lumacaftor
+
+Moderate-level interactions include aprepitant, dexamethasone, cimetidine, eliglustat, eluxadoline, miconazole, clotrimazole, rolapitant, ticagrelor, eltrombopag and quinine, among others.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible but rests on the drug's link to the parent condition. No trial or publication tests brainstem aura, and the Canadian safety documents have not been reviewed, which blocks safety screening. The other two predictions (atrophoderma vermiculata and ulerythema ophryogenesis) have no mechanistic link and no supporting evidence, and are likely knowledge-graph artifacts.
+The mechanistic link to the approved migraine indication is plausible, but there are no trials or publications specific to brainstem aura. The high TxGNN score mainly reflects similarity to the approved indication, so the evidence stays at L4 (indirect).
 
 **To proceed, the following is needed:**
-- The Health Canada package insert (warnings, contraindications, approved indication), to confirm whether brainstem aura is already label-adjacent or excluded
-- Mechanism of action data from DrugBank
-- The exclusion criteria of the pivotal trials, especially for brainstem aura or hemiplegic subtypes
-- Literature or case series specific to brainstem aura, and a check of ICTRP and ClinicalTrials.gov for registered studies
+- Subgroup or post hoc analyses of existing ubrogepant trials for patients with brainstem aura
+- Detailed mechanism of action data
+- Health Canada package insert warnings and contraindications, to complete safety screening
+- Approved indication text and dosage form for the Canadian DINs
+- A dedicated study or registry in this subtype, if the clinical need is confirmed
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+**Other predictions (not recommended for follow-up):** Atrophoderma vermiculata (score 99.40%) and ulerythema ophryogenesis (score 99.23%) have no clinical trials, no literature and no clear mechanistic link to CGRP antagonism. Both remain at L5 (model prediction only) and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

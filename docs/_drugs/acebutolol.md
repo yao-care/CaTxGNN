@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Acebutolol: From an Unrecorded Original Indication to Malignant Hypertensive Renal Disease
+# Acebutolol: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Acebutolol is a marketed beta-blocker in Canada, but the record does not state its original approved indication.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**.
-There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Acebutolol is a beta-blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease** (and the related **malignant renovascular hypertension**), but this is a model prediction only, with **0 clinical trials** and **1 indirect publication** (from 1975) supporting the direction.
 
 ---
 
@@ -43,10 +42,10 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the available data |
+| Original Indication | Hypertension / hypertensive disorder (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.10% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 6 |
 | Recommended Decision | Hold |
@@ -55,11 +54,13 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, and no original indication is recorded. Acebutolol is a beta-blocker, and its efficacy in its approved use cannot be checked against this record. As a general pharmacological hypothesis, a beta-1 blocker lowers blood pressure and suppresses renin release, which could reduce hypertensive renal injury.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, acebutolol is a cardioselective beta-1 blocker with intrinsic sympathomimetic activity. Its efficacy in hypertension is established, and mechanistically it may be applicable to hypertensive renal disease.
 
-Malignant hypertension is a hypertensive emergency that is usually managed with parenteral agents. The link between acebutolol and this condition is untested, and route compatibility has not been assessed.
+Beta-1 blockade reduces renin release from the kidney and lowers blood pressure. Both effects are plausibly relevant to hypertension-related kidney damage and to renovascular hypertension, which is largely driven by activation of the renin-angiotensin system.
 
-A second, related prediction is **malignant renovascular hypertension** (same score, 99.10%). Its only retrieved record is a 1975 open study of 50 patients with arterial hypertension in general (PMID 768911). The title does not indicate a renovascular or malignant subgroup, so it does not directly support either prediction.
+However, the high score (99.10%) most likely reflects the close semantic similarity between these conditions and the approved hypertension indication. It should not be read as independent evidence of benefit. Malignant hypertension is a hypertensive emergency, usually managed with parenteral agents and therapy targeting the renin-angiotensin system, so oral acebutolol would not be a standard choice.
+
+A second predicted indication, **malignant renovascular hypertension**, has the same score (99.10%) and the same limitations.
 
 ---
 
@@ -71,27 +72,48 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Only one publication was found, and it relates to the second predicted indication (malignant renovascular hypertension). No literature was found for malignant hypertensive renal disease.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [768911](https://pubmed.ncbi.nlm.nih.gov/768911/) | 1975 | Clinical study (open, uncontrolled) | La Nouvelle presse medicale | In 50 hypertensive patients treated for one year with acebutolol alone or combined with other antihypertensives, results were good or moderate in 74% and treatment failed in 26%. The drug was well tolerated. This is indirect evidence for general arterial hypertension, not specifically for malignant renovascular hypertension. |
 
 ---
 
 ## Canada Market Information
 
-Five of the six authorizations are listed in the data. Dosage form and approved indication text are not recorded for any of them.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02204525 | TEVA-ACEBUTOLOL | Not specified | Not specified |
+| 02147629 | APO-ACEBUTOLOL | Not specified | Not specified |
+| 02204517 | TEVA-ACEBUTOLOL | Not specified | Not specified |
+| 02204533 | TEVA-ACEBUTOLOL | Not specified | Not specified |
+| 02147610 | APO-ACEBUTOLOL | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02204525 | TEVA-ACEBUTOLOL |
-| 02204517 | TEVA-ACEBUTOLOL |
-| 02204533 | TEVA-ACEBUTOLOL |
-| 02147629 | APO-ACEBUTOLOL |
-| 02147610 | APO-ACEBUTOLOL |
+Six valid single-ingredient licences are held in total. Only the first five are listed here; the sixth is APO-ACEBUTOLOL (DIN 02147602). No cancelled licences.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Contraindications drawn from the knowledge graph (not from label text) cover the following disease areas:
+
+- **Cardiovascular**: atrioventricular block, sick sinus syndrome, peripheral vascular disease (including intermittent claudication and peripheral arterial disease)
+- **Respiratory**: asthma (intrinsic and allergic), pulmonary emphysema
+- **Endocrine and metabolic**: diabetes mellitus, diabetic ketoacidosis, phaeochromocytoma and related adrenal or paraganglionic tumours
+- **Neuromuscular**: myasthenia gravis and neuromuscular junction disease
+- **Organ disease**: kidney disease, liver disease, gallbladder disease
+- **Skin**: psoriasis and parapsoriasis
+- **Psychiatric**: anxiety disorder, neurotic disorder, dysthymic disorder
+- **Other**: pyoureter, and cancers of the duodenum, small intestine, heart and adrenal gland
+
+Kidney disease appears in this list, which is directly relevant to a renal indication and needs careful review.
+
+**Drug Interactions**: 100 interactions were identified; the first 20 retrieved are summarised here.
+- **Moderate**: acetohexamide, chlorpropamide, canagliflozin, dapagliflozin (antidiabetic agents), atropine, clidinium, betamethasone, budesonide, bupropion, cimetidine, and calcium salts (acetate, carbonate, citrate, glubionate, gluconate, lactate, phosphate)
+- **Minor**: aluminium hydroxide, acetylsalicylic acid, attapulgite
+
+For package-insert warnings and contraindications, please refer to the product monograph, as this information is not available in the data compiled for this report.
 
 ---
 
@@ -100,14 +122,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score but no trials or literature, and the mechanism and original indication are missing from the record. Malignant hypertensive renal disease is typically treated with parenteral agents, so the fit with an oral beta-blocker is unverified.
+The prediction rests on model output alone. No clinical trials exist, and the only publication is a 1975 uncontrolled study of general hypertension. Malignant hypertensive renal disease is an emergency normally treated with other agents, and kidney disease appears among the graph-derived contraindications.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings and contraindications), which is a blocking gap for safety screening
-- Mechanism of action data (e.g., from DrugBank)
-- The approved indications, dosage forms and routes for the Canadian DINs
-- A route compatibility assessment against the parenteral use typical in malignant hypertension
-- A targeted search for trials and literature on acebutolol in malignant hypertension and hypertensive or renovascular renal disease
+- Package-insert warnings and contraindications from Health Canada (a blocking gap for safety screening)
+- Mechanism of action data (for example, from DrugBank)
+- Targeted literature review on beta-blockers in malignant hypertension and hypertensive nephropathy
+- Assessment of whether acebutolol offers any advantage over current standard therapy
+- Review of renal-safety implications, given that kidney disease appears among the contraindications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

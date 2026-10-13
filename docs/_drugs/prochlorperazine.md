@@ -2,7 +2,7 @@
 layout: default
 title: Prochlorperazine
 parent: Model Prediction Only (L5)
-nav_order: 767
+nav_order: 774
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prochlorperazine: From Antiemetic/Antipsychotic Use to Retinal Dystrophy with or without Extraocular Anomalies
+# Prochlorperazine: From Schizophrenia to Retinal Dystrophy (Computational Prediction Only)
 
 ## One-Sentence Summary
 
-Prochlorperazine is a phenothiazine dopamine D2 antagonist, used as an antiemetic and antipsychotic.
-The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but this is a graph-based prediction only, with **0 clinical trials** and **15 publications** that are generic eye-disease reviews and case reports containing no prochlorperazine-specific content.
-
----
+Prochlorperazine is a phenothiazine antipsychotic, originally used for schizophrenia.
+The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but **no clinical trials and no publications** support it, so it rests on model output alone.
+The best-supported direction among the predictions is **manic bipolar affective disorder**, which has **7 publications** (mostly old case reports, reviews and safety reports) and no clinical trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Schizophrenia (the Canadian licence records contain no approved indication text) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.998% |
 | Evidence Level | L5 |
@@ -49,76 +49,69 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, prochlorperazine is a D2 receptor antagonist from the phenothiazine class, used for nausea and psychiatric conditions.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, prochlorperazine is a phenothiazine that blocks dopamine D2 receptors. This is consistent with its use in schizophrenia.
 
-No credible mechanistic link to inherited retinal degeneration has been identified, and no known pathway connects D2 antagonism to this disease. The very high TxGNN score reflects knowledge-graph proximity, not pharmacological evidence.
+For the top prediction, retinal dystrophy, no mechanistic link is established. The score is very high, but it is a purely computational output. D2 antagonism has no known relevance to inherited retinal degeneration. Phenothiazines also carry ocular adverse effects, so the risk-benefit is unfavourable without supporting evidence.
 
-The retrieved publications look like keyword matches on the disease (congenital orbital and extraocular muscle disorders, lens anomalies, optic disc anomalies) rather than evidence about the drug. This prediction should be treated as a model artifact unless independent support emerges.
+The other top-ranked predictions are similarly unsupported. These include hydranencephaly, a congenital disorder of glycosylation, X-linked and syndromic myopia, Charcot-Marie-Tooth disease type 1G, polymicrogyria and atypical glycine encephalopathy. Most are congenital or monogenic conditions that a D2 antagonist is not expected to change.
 
-Other predictions in the pack are equally weak, including hydranencephaly, congenital glycosylation disorders, X-linked and syndromic myopia, Charcot-Marie-Tooth type 1G, polymicrogyria and atypical glycine encephalopathy. All have no trials or literature.
-
-The one exception is **manic bipolar affective disorder** (rank 10, score 99.98%, evidence level L4). It is biologically plausible, because D2 antagonism is the mechanism shared with antipsychotics used for acute mania. However, the support is indirect: mostly 1950s-1970s case reports and class-level reviews, with no trials. The prochlorperazine-specific items are adverse-event reports (a confusional episode in a mildly manic-depressive patient, PMID 13617778, and phenothiazine-related seizures and EEG changes, PMID 6069087). A formal research question would need a modern comparison against established mania treatments.
-
----
+The one biologically plausible prediction is **manic bipolar affective disorder** (score 99.979%). It is close to the original psychiatric use, and antipsychotics of this class are used for mania and acute agitation. Even so, its support is limited to old case reports, surveys and safety papers. Modern guideline-endorsed agents are available.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered, for the top prediction or for manic bipolar affective disorder.
 
 ## Literature Evidence
 
-None of these publications studies prochlorperazine. They are background reviews and case reports on congenital eye and orbital conditions. No RCTs were found.
+No literature is available for the top prediction (retinal dystrophy). The table below covers the best-supported prediction, manic bipolar affective disorder.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Overview of orbital infections, most commonly secondary to sinusitis |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Systematic approach to evaluating diplopia |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis: forms, associated findings and examination |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens shape |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome complex: vitreoretinal degeneration with extraocular manifestations |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging features of pediatric ocular pathologies |
-| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Review | Archives of Ophthalmology | Clinical features and management of orbital arteriovenous malformations |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | American Journal of Ophthalmology | Two patients with unilateral cryptophthalmia |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | Journal of Neuro-Ophthalmology | Isolated congenital trochlear-oculomotor synkinesis in a 6-year-old boy |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optometry and Vision Science | Congenital fibrosis of the extraocular muscles with synergistic divergence |
-
----
+| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | Review | Journal of Psychiatric Practice | Use and safety of antipsychotic drugs during pregnancy, in the context of schizophrenia and related illness |
+| [26819726](https://pubmed.ncbi.nlm.nih.gov/26819726/) | 2015 | Cohort | Journal of Pharmaceutical Health Care and Sciences | Analysis of spontaneous adverse event reports on hyperglycaemia with antipsychotics |
+| [13617778](https://pubmed.ncbi.nlm.nih.gov/13617778/) | 1959 | Case report | Annales Médico-Psychologiques | Confusional dream-like attack caused by prochlorperazine in a mildly manic-depressive patient |
+| [14242542](https://pubmed.ncbi.nlm.nih.gov/14242542/) | 1965 | Review | Obstetrics and Gynecology | Approach to severe psychological disorders of the puerperium |
+| [14233737](https://pubmed.ncbi.nlm.nih.gov/14233737/) | 1964 | Review | American Journal of Psychiatry | Survey of electroshock therapy combined with phenothiazines and reserpine |
+| [14062306](https://pubmed.ncbi.nlm.nih.gov/14062306/) | 1963 | Review | La Tunisie Médicale | Emergency management of agitation in general practice |
+| [14222730](https://pubmed.ncbi.nlm.nih.gov/14222730/) | 1964 | Review | L'Encéphale | Psychodysleptic manifestations during treatment with psycholeptics |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 886432 | PROCHLORAZINE |
-| 789720 | ODAN-PROCHLORPERAZINE |
-| 886440 | PROCHLORAZINE |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00886432 | PROCHLORAZINE | Not specified | Not specified |
+| 00789720 | ODAN-PROCHLORPERAZINE | Not specified | Not specified |
+| 00886440 | PROCHLORAZINE | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications flagged in the knowledge graph** (these come from knowledge-graph drug-disease edges, not from package insert text):
+- Cardiovascular: hypertension, orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy, long QT syndrome (including familial), torsades de pointes, coronary artery disease, myocardial infarction, coronary thrombosis
+- Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm
+- Haematological: thrombocytopenia, neutropenia, agranulocytosis
+- Hepatic, renal and gastrointestinal: liver disease, gallbladder disease, kidney disease, pyoureter, gastric ulcer
+- Metabolic and other: hyperglycaemia, obesity disorders (including monogenic obesity), benign prostatic hyperplasia, substance abuse/dependence, female breast carcinoma
 
----
+**Drug Interactions:** 100 interactions were recorded. The 20 listed in the compiled data are mostly Moderate.
+- **Major:** bupropion, potassium citrate
+- **Moderate (examples):** metformin, pioglitazone, alogliptin, acarbose, chlorpropamide and canagliflozin (antidiabetics, with glycaemic effects); atropine, hyoscyamine and glycopyrronium (anticholinergics); morphine; epinephrine; clarithromycin; famotidine
+
+Please refer to the package insert for label warnings and contraindications, which are not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no clinical trials, the literature is unrelated to the drug, and no mechanism links D2 antagonism to inherited retinal dystrophy.
+The top prediction, retinal dystrophy, is a purely computational result with no trials, no literature and no mechanistic basis. All ranked predictions are L5, except manic bipolar affective disorder at L4, and that one is supported only by old reports and safety papers. Prochlorperazine also carries a substantial safety burden, including cardiac, neurological and ocular risks.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Any drug-specific preclinical or clinical evidence for retinal dystrophy; without it, the manic bipolar disorder prediction (rank 10) is the better candidate for a research question, starting with a comparison against established mania treatments and attention to seizure threshold, confusion, dyskinesia and hyperglycemia
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data
+- For manic bipolar affective disorder, a structured review of the evidence against current guideline-endorsed agents, and a decision on whether it is worth pursuing as a research question
+- For the retinal and congenital predictions, preclinical support for a mechanism before any further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

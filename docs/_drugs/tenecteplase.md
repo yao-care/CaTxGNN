@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenecteplase
-parent: Model Prediction Only (L5)
-nav_order: 884
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 891
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,107 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tenecteplase: From Unspecified Original Indication to Posterolateral Myocardial Infarction
+# Tenecteplase: From Myocardial Infarction to Posterolateral Myocardial Infarction
 
 ## One-Sentence Summary
 
-Tenecteplase is a fibrin-specific clot-dissolving (thrombolytic) drug marketed in Canada under the brand TNKASE, but no original indication is recorded in the input data.
-The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**, but **0 clinical trials** and **0 publications** currently support this specific prediction.
+Tenecteplase is a fibrin-specific clot-dissolving drug (thrombolytic), originally used to treat acute myocardial infarction and coronary thrombosis.
+The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**, but there are currently **0 registered clinical trials** and **0 publications** specific to this subtype.
+This is an anatomical subtype of an already-approved indication, so it is not true repurposing, and the evidence is indirect.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the available licence data |
+| Original Indication | Myocardial infarction, coronary thrombosis (hemoglobinopathy is also listed in the knowledge graph) |
 | Predicted New Indication | Posterolateral myocardial infarction |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (the other predicted indications are discussed below) |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Tenecteplase is a variant of tissue plasminogen activator that acts on fibrin, so it can dissolve the blood clots that block coronary arteries during a heart attack.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tenecteplase is a fibrin-specific tissue plasminogen activator. It converts plasminogen to plasmin on the fibrin surface, which breaks down the fibrin mesh of a clot and can reopen a blocked coronary artery.
 
-Posterolateral myocardial infarction is an anatomical subtype of acute myocardial infarction, not a distinct disease target. Because the clot-dissolving mechanism applies to any acute infarction caused by a coronary clot, the prediction is mechanistically plausible. However, the input lists no original indication, so whether the existing Canadian label already covers myocardial infarction must be verified separately. No trials or literature specific to this subtype were provided.
+Posterolateral myocardial infarction is an anatomical subtype of acute myocardial infarction, which is already an established indication. The mechanism therefore applies directly. Posteroinferior and septal infarction follow the same logic: a coronary clot blocks the artery that supplies that region of the heart muscle.
+
+Because no trials or publications were found for these specific subtypes, the support rests on the parent indication (ST-elevation myocardial infarction, STEMI). This is better read as a classification refinement than as a new use.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for this predicted indication.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for posterolateral myocardial infarction.
+
+Other predicted indications do have some literature, summarized below.
+
+**Septal myocardial infarction (rank 3, score 99.85%, L4)**: the three papers are indirect.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [23975441](https://pubmed.ncbi.nlm.nih.gov/23975441/) | 2014 | Review | J Thromb Thrombolysis | Efficacy and safety of weight-adjusted tenecteplase in 30 patients with acute pulmonary embolism (not a heart-attack study) |
+| [18183355](https://pubmed.ncbi.nlm.nih.gov/18183355/) | 2009 | Case report | J Thromb Thrombolysis | Massive pulmonary embolism that mimicked septal MI on ECG and was treated with tenecteplase |
+| [42220791](https://pubmed.ncbi.nlm.nih.gov/42220791/) | 2026 | Case report | Cureus | Ventricular septal rupture after early pharmaco-invasive reperfusion with tenecteplase in anterior STEMI (a complication, not evidence of efficacy) |
+
+**Coronary stenosis (rank 5, score 99.53%, L3)**: the most relevant papers are below.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/) | 2020 | Randomized feasibility study | Am J Cardiol | ICE-T-TIMI 49: low-dose intracoronary tenecteplase (4 mg) vs saline during primary PCI in 40 STEMI patients, assessing feasibility and safety |
+| [16053952](https://pubmed.ncbi.nlm.nih.gov/16053952/) | 2005 | Clinical study | J Am Coll Cardiol | CAPITAL AMI: tenecteplase-facilitated angioplasty vs tenecteplase alone in high-risk STEMI |
+| [16139127](https://pubmed.ncbi.nlm.nih.gov/16139127/) | 2005 | Cohort | J Am Coll Cardiol | Intracoronary fibrin-specific thrombolytic infusion before PCI for chronic total occlusion |
+| [17102829](https://pubmed.ncbi.nlm.nih.gov/17102829/) | 2006 | Cohort/Pilot | Can J Cardiol | TRANSFER-AMI pilot: urgent PCI transfer after thrombolysis for STEMI |
+| [25733729](https://pubmed.ncbi.nlm.nih.gov/25733729/) | 2016 | Case report | Hum Exp Toxicol | Thrombolysis for inferolateral MI after carbon monoxide poisoning |
+
+Study designs were inferred from truncated titles and abstracts, so the classifications are provisional.
+
+---
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2244826 | TNKASE | Not listed | Not listed |
+| 02244826 | TNKASE | Not listed | Not listed |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug in the available data.
+**Drug Interactions**: The interaction screening returned 100 interacting drugs. The entries reviewed include the following.
+
+- **Major**: deferasirox, ibritumomab tiuxetan, tositumomab (including I-131), abciximab, acalabrutinib, apixaban, avapritinib, betrixaban. Most of these raise bleeding risk when combined with a thrombolytic.
+- **Moderate**: acetylsalicylic acid, ketorolac (including ophthalmic), ibuprofen, topical diclofenac, celecoxib, aminocaproic acid, omega-3 fatty acids, fenfluramine, dexfenfluramine, sibutramine.
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone, with no trials or publications for this subtype, and the pack gives no original indication or safety data to check it against. The mechanism is plausible, but because the subtype is part of the broader myocardial infarction category, the question is better judged against the existing label than as a new repurposing target.
+- Posterolateral myocardial infarction is a subtype of an indication tenecteplase already holds. The score is high (99.87%), but no subtype-specific trials or literature exist, and the evidence is L4 (mechanism-based only).
+- Posteroinferior and septal infarction are in the same position (L4). Coronary stenosis has some supportive intracoronary literature (L3), but it supports clot burden rather than treatment of fixed narrowing.
+- The remaining predictions are not credible. Congenital coronary anomaly, chromosome 16 partial deletion, beta-thalassemia, glucophosphate isomerase deficiency hemolytic anemia, hereditary pyropoikilocytosis and pyruvate kinase deficiency have no plausible thrombolytic mechanism, and the scores likely reflect graph artifacts. They should be held (L5).
 
 **To proceed, the following is needed:**
-- The approved indication text, dosage form and manufacturer for DIN 2244826 from Health Canada, to confirm whether myocardial infarction is already covered
-- Package insert warnings and contraindications, which are required before any safety screening (this is currently a blocking gap)
+- Health Canada package insert warnings, contraindications and approved indication text (currently missing and blocking safety screening)
 - Mechanism of action data from DrugBank
-- Subtype-specific clinical evidence for posterolateral myocardial infarction, if the subtype is to be pursued as a separate target
-
-**Other candidates in the same prediction set:**
-- **Coronary stenosis** has the strongest evidence among the ten predictions (Evidence Level L2, Research Question). It is supported by a completed Phase 2 randomized trial of low-dose intracoronary tenecteplase during primary PCI, [NCT00604695](https://clinicaltrials.gov/study/NCT00604695) (n=40), and a related feasibility and safety report, [PMID 31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/). The trial population is acute heart attack patients undergoing PCI, so the fit to the stated indication is only partial.
-- **Congenital coronary artery anomaly** has only a case report in which fibrinolysis was unsuccessful, which is mildly negative evidence.
-- **Septal myocardial infarction** has only indirect evidence, from pulmonary embolism papers.
-- Five predictions have no plausible mechanism and no evidence: partial deletion of the short arm of chromosome 16, beta-thalassemia, glucophosphate isomerase deficiency hemolytic anemia, hereditary pyropoikilocytosis and pyruvate kinase deficiency. Their high scores are likely network artifacts.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Confirmation of whether the existing STEMI label already covers MI by infarct location, which would make a separate indication unnecessary
+- For coronary stenosis, review of the intracoronary tenecteplase studies as a possible off-label or procedural research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

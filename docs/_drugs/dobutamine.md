@@ -2,7 +2,7 @@
 layout: default
 title: Dobutamine
 parent: Model Prediction Only (L5)
-nav_order: 291
+nav_order: 293
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dobutamine: From Cardiac Inotropic Support to Alopecia
+# Dobutamine: From Cardiac Inotropic Support to Alopecia (Prediction Only)
 
 ## One-Sentence Summary
 
-Dobutamine is a beta-1 adrenergic inotrope, given intravenously and marketed in Canada.
-The TxGNN model predicts it may be effective for **alopecia**, but there are **0 clinical trials** and only **2 publications** (both case reports about other drugs), so no study has tested dobutamine for this use.
+Dobutamine is an injectable beta-1 adrenergic agonist (inotrope) marketed in Canada. The Health Canada records compiled for this report do not include approved indication text.
+The TxGNN model predicts it may be effective for **alopecia**, but there are **0 clinical trials** and only **1 publication** (a veterinary case report about minoxidil toxicity, not a test of dobutamine), so this is a **model prediction without supporting evidence**.
 
 ---
 
@@ -42,6 +42,7 @@ The TxGNN model predicts it may be effective for **alopecia**, but there are **0
 
 | Item | Content |
 |------|------|
+| Original Indication | Not available in the data compiled for this report (Health Canada indication text is empty) |
 | Predicted New Indication | Alopecia |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
@@ -49,17 +50,17 @@ The TxGNN model predicts it may be effective for **alopecia**, but there are **0
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
-The Health Canada license records in the Evidence Pack contain no approved-indication text, so the original indication is not listed here.
-
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the source database. Dobutamine is generally described as a beta-1 adrenergic agonist that increases heart contractility, and no known role in hair-follicle biology has been identified.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist used intravenously to increase cardiac contractility. It has no known action on hair follicle biology.
 
-The high TxGNN score (0.9985) is a knowledge-graph prediction only. It most likely reflects graph-neighbour similarity with other hair-related indications, not a biological rationale. The related predictions (hypotrichosis, diffuse alopecia areata, hypertrichosis) also have no mechanistic support and no clinical evidence. Alopecia areata, for example, is autoimmune, and beta-1 agonism has no established immunomodulatory role in it.
+The one retrieved paper describes heart failure in a cat caused by minoxidil intoxication, in which dobutamine was used to treat hypotension. It documents an adverse cardiac effect of a hair-growth drug, not a therapeutic use of dobutamine for alopecia.
 
-I found no credible mechanistic link between dobutamine and alopecia.
+The high TxGNN score most likely reflects network proximity to minoxidil, a vasodilator that shares cardiovascular targets, rather than true efficacy. The link between the original use and the predicted indication is therefore weak.
+
+Other predictions with similar scores were also reviewed and none has a credible mechanistic rationale: hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, open-angle glaucoma, Raynaud disease, primary hereditary glaucoma, headache disorder, hypertrichosis and migraine. All are L5 (model prediction only) with a Hold recommendation.
 
 ---
 
@@ -73,27 +74,25 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41046802](https://pubmed.ncbi.nlm.nih.gov/41046802/) | 2025 | Case report (veterinary) | J Vet Cardiol | Heart failure from minoxidil intoxication in a cat. Dobutamine was used only to treat hypotension, not hair loss. |
-| [17505274](https://pubmed.ncbi.nlm.nih.gov/17505274/) | 2007 | Case report | Pediatr Emerg Care | Acute colchicine poisoning in a child. Hair loss is described as a recovery-phase effect of colchicine, and dobutamine is not tested. |
-
-Neither paper evaluates dobutamine as a treatment for alopecia.
+| [41046802](https://pubmed.ncbi.nlm.nih.gov/41046802/) | 2025 | Case report (veterinary) | Journal of Veterinary Cardiology | A young cat developed heart failure after minoxidil intoxication, and dobutamine was used for hypotension. This is not evidence of benefit in alopecia. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2242010 | DOBUTAMINE INJECTION USP |
-| 2462729 | DOBUTAMINE INJECTION USP |
-
-Dosage form and approved indication text are not recorded for these licenses.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02242010 | DOBUTAMINE INJECTION USP | Injection | Not available |
+| 02462729 | DOBUTAMINE INJECTION USP | Injection | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text):** hypertension and hypertensive disorder, potassium deficiency, atrial fibrillation, aortic stenosis (including aortic valve and supravalvular forms), myocardial infarction and coronary thrombosis, hemoglobinopathy, and hypertrophic cardiomyopathy (including the familial form).
+- **Drug interactions:** 100 interactions were recorded. The 20 listed in the data are all rated Moderate, and most involve glucose-lowering drugs. These include acarbose, metformin, pioglitazone, repaglinide, insulin aspart, insulin degludec, and the GLP-1 and SGLT2 agents such as semaglutide, liraglutide, dulaglutide, albiglutide, canagliflozin, dapagliflozin and empagliflozin. DPP-4 inhibitors (alogliptin, linagliptin) and chlorpropamide are also listed. Others are cimetidine, vancomycin, and the appetite suppressants phentermine and diethylpropion.
+
+Please also refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -102,13 +101,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph score alone (L5), with no trials and no supporting literature. Dobutamine is a short-acting intravenous inotrope with no plausible mechanism for hair-growth disorders, so it is also impractical for a chronic hair condition.
+The prediction rests on model score alone. There are no clinical trials and no supportive literature, and no plausible mechanism links a cardiac inotrope to hair growth. The only paper retrieved concerns toxicity from a different drug, minoxidil. An intravenous cardiac drug also carries significant cardiovascular risks, as the knowledge-graph contraindications show.
 
-**To reconsider, the following is needed:**
-- Mechanism of action data, to test whether any plausible link to hair-follicle biology exists
-- Health Canada package insert warnings and contraindications, which are blocking for safety screening
-- Any preclinical or clinical study of dobutamine in alopecia or related hair disorders
-- Assessment of route compatibility, since only intravenous dobutamine is marketed and a scalp condition would need a different delivery route
+**To proceed, the following is needed:**
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data (for example from DrugBank) to test any biological link to hair follicles
+- Any preclinical or clinical evidence that dobutamine affects hair growth
+- An assessment of whether a systemic IV inotrope is compatible with any realistic route for alopecia treatment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

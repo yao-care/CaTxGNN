@@ -2,7 +2,7 @@
 layout: default
 title: Celecoxib
 parent: Model Prediction Only (L5)
-nav_order: 170
+nav_order: 172
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Celecoxib: From COX-2 Inhibitor NSAID to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Celecoxib: From Rheumatoid Arthritis and Other Inflammatory Joint Diseases to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Celecoxib is a selective COX-2 inhibitor (NSAID) that is marketed in Canada. The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder. **No clinical trials and no publications** currently support this prediction, and no plausible mechanism has been identified.
+Celecoxib is a COX-2-selective anti-inflammatory drug, originally used for rheumatoid arthritis, osteoarthritis, ankylosing spondylitis and juvenile idiopathic arthritis.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare inherited skeletal disorder.
+**No clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ---
 
@@ -41,10 +43,10 @@ Celecoxib is a selective COX-2 inhibitor (NSAID) that is marketed in Canada. The
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records provided |
+| Original Indication | Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis, juvenile idiopathic arthritis |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
@@ -53,11 +55,11 @@ Celecoxib is a selective COX-2 inhibitor (NSAID) that is marketed in Canada. The
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Celecoxib belongs to the COX-2 inhibitor class of NSAIDs, which reduce prostaglandin-mediated inflammation and pain.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Celecoxib is a COX-2-selective inhibitor. It reduces prostaglandin-driven inflammation and pain, and its efficacy in arthritic conditions is well established.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by disruption of the CDMP1/GDF5 signalling pathway. It is not an inflammatory disease, and COX-2 inhibition has no known effect on this pathway. The high score therefore appears to come from knowledge-graph associations rather than a biological rationale.
+The predicted indication is a rare skeletal dysplasia caused by mutations in the CDMP1/GDF5 gene. Its biology involves bone and cartilage development, not prostaglandin-mediated inflammation. No plausible link between COX-2 inhibition and this condition has been established.
 
-In short, this prediction is best treated as a model output with no supporting evidence. It should not be read as a credible repurposing candidate on the current data.
+The high score is therefore best read as a graph-based association, probably driven by shared connections to skeletal and joint disease. It is not evidence of a real therapeutic effect. The mechanistic rationale is weak.
 
 ---
 
@@ -75,23 +77,34 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Dosage form and approved indication text were not provided in the licence records.
+Celecoxib is widely available in Canada through the originator brand and many generics. Dosage form and approved-indication text were not available in the data compiled for this report. Five of the 20 valid DINs are shown below.
 
 | DIN | Product Name |
 |---------|------|
-| 2445670 | AURO-CELECOXIB |
-| 2418932 | APO-CELECOXIB |
-| 2495473 | M-CELECOXIB |
-| 2517124 | PMSC-CELECOXIB |
-| 2436302 | CELECOXIB |
+| 02239942 | CELEBREX |
+| 02418932 | APO-CELECOXIB |
+| 02445670 | AURO-CELECOXIB |
+| 02420058 | MAR-CELECOXIB |
+| 02495473 | M-CELECOXIB |
 
-Five of the 20 authorizations are listed.
+All 20 authorizations are single-ingredient products and currently valid. None are cancelled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were retrieved for this drug.
+- **Disease associations flagged as contraindicated or to be used with caution** (from knowledge-graph associations, not label text):
+  - Cardiovascular: hypertension, congestive heart failure, myocardial infarction, stroke and cerebrovascular disorders, cardiovascular and heart disease
+  - Gastrointestinal: peptic ulcer disease (including active ulcer), gallbladder disease
+  - Kidney and liver: kidney disease, liver disease
+  - Respiratory: asthma (intrinsic and allergic)
+  - Blood: anaemia, hemoglobinopathy
+  - Other: substance abuse/dependence
+- **Drug Interactions** (100 interactions recorded; the first 20 returned are summarized here):
+  - **Major:** eliglustat
+  - **Moderate:** hydrocortisone, metformin and several sulfonylureas (acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide), nateglinide, exenatide, mesalazine, balsalazide, olsalazine, cimetidine, levofloxacin, metronidazole, kanamycin, naltrexone, fenfluramine and dexfenfluramine
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
@@ -100,13 +113,16 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no publications, and no plausible mechanistic link. This is a genetic skeletal disorder with no COX-2 involvement, so the score alone does not justify further investment.
+The prediction has no supporting trials or publications. The target disease is a genetic skeletal dysplasia with no plausible COX-2 mechanism. The high TxGNN score alone does not justify further investment.
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking COX-2 inhibition to the GDF5/CDMP1 pathway, supported by preclinical data
-- Canadian package insert warnings and contraindications, and the approved indication text for each DIN
-- Mechanism of action data from DrugBank
-- A separate evaluation of the rank 9 prediction, **inflammatory spondylopathy**. It has 19 registered trials, including completed Phase 3 and Phase 4 celecoxib studies in ankylosing spondylitis, and would need its own assessment of celecoxib arms and label status. It is far better supported than this candidate.
+- A credible mechanistic hypothesis linking COX-2 inhibition or prostaglandin signalling to GDF5-related skeletal development
+- Preclinical evidence (cell or animal models) supporting any benefit
+- Detailed mechanism of action data for celecoxib
+- Package insert warnings and contraindications for the Canadian products, to support a safety screen
+
+**Note on other predictions:**
+Among the other predictions for celecoxib, *inflammatory spondylopathy* (rank 9) has by far the strongest support (L1). That support includes completed Phase 3 and Phase 4 randomized trials in ankylosing spondylitis, such as NCT00648141 (n=458) and NCT02528201 (n=330), and a 2024 randomized trial of celecoxib added to anti-TNF therapy. This is largely an already-labeled indication, so it is not a true repurposing finding. If the goal is to prioritize candidates with real evidence, it deserves separate review, with cardiovascular and gastrointestinal risk managed.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aprepitant: From Nausea and Vomiting Prevention to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Aprepitant: From an Approved Antiemetic Product to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Aprepitant is an NK1 (substance P) receptor antagonist, marketed in Canada as EMEND and EMEND TRI-PACK. The Evidence Pack does not list its approved indication, but it is generally known as an antiemetic for chemotherapy-induced nausea and vomiting. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
-
----
+Aprepitant is marketed in Canada under the EMEND brand. The approved indication text was not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis**.
+No clinical trials and no relevant publications currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Evidence Pack (generally known: prevention of chemotherapy-induced nausea and vomiting) |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
@@ -49,65 +49,52 @@ Aprepitant is an NK1 (substance P) receptor antagonist, marketed in Canada as EM
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Aprepitant blocks the NK1 receptor, the target of substance P. Detailed mechanism-of-action data from DrugBank are not available in the Evidence Pack, so this description relies on the mechanistic assessment supplied with the prediction.
+Currently, detailed mechanism of action data is not available in the compiled data. Aprepitant is known to be a substance P/NK1 receptor antagonist. Its approved indication text could not be retrieved, so its established use cannot be compared directly with the predicted indication.
 
-NSIAD is caused by gain-of-function mutations in the AVPR2 gene. These make the vasopressin V2 receptor constitutively active, so the kidney keeps retaining water. The disease therefore sits in a different signaling pathway from NK1 blockade, and no established link connects the two.
+Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function of the vasopressin V2 receptor. No established link exists between NK1 blockade and this pathway. NK1 signaling may modulate central fluid and osmoregulation, but this is speculative.
 
-The very high TxGNN score (99.97%, rank 1010 overall) most likely reflects proximity in the knowledge graph, not a demonstrated pharmacological rationale. The prediction should be treated as a hypothesis, not a supported candidate.
-
----
+The high TxGNN score is therefore not backed by mechanistic or clinical support at this time. The prediction should be treated as a computational hypothesis only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2298813 | EMEND TRI-PACK |
-| 2298805 | EMEND |
-| 2298791 | EMEND |
-
-Dosage forms and approved indication text were not provided for these authorizations.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02298813 | EMEND TRI-PACK | Not listed | Not listed |
+| 02298805 | EMEND | Not listed | Not listed |
+| 02298791 | EMEND | Not listed | Not listed |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for this drug in the Evidence Pack.
+- **Knowledge-graph contraindication signal**: The TxGNN knowledge graph links aprepitant to a contraindication with liver failure. This comes from graph data, not from product label text.
+- **Drug Interactions**: 100 interactions were identified, and the first 20 returned are summarized here.
+  - **Major**: fentanyl, alfentanil, acalabrutinib
+  - **Moderate** (examples): paclitaxel, abemaciclib, rabeprazole, nifedipine, ibuprofen, levonorgestrel, hydrocortisone, albendazole, fluvoxamine, fosamprenavir, fosphenytoin, fostamatinib, gefitinib, lidocaine, dihydrocodeine, abametapir (topical)
+  - **Minor**: dolutegravir
 
----
+  Interaction levels come from the DDInter database. Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical, registry or literature support. The mechanism is also implausible: NK1 antagonism does not act on the constitutively active V2 receptor that drives NSIAD. A high model score alone is not enough to justify further investment.
+The prediction has a high model score but no supporting clinical trials or relevant literature, and no plausible mechanistic link to the vasopressin V2 receptor pathway. The evidence level is L5. Package insert safety data and approved indication text are also missing.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical evidence linking NK1 antagonism to water balance, vasopressin signaling or renal function
-- Mechanism-of-action data from DrugBank, to support a mechanistic analysis
-- Health Canada package insert warnings and contraindications, so safety screening can begin
-- The Health Canada approved indication and dosage forms for each DIN
-
-**Other top-10 predictions:**
-- None of the other top-10 predictions has aprepitant-specific clinical evidence.
-- Pulmonary hypertension and subarachnoid hemorrhage are marked "Research Question" because a plausible NK1 mechanism exists in preclinical models, but neither has clinical support.
-- The publications retrieved for pulmonary hypertension and for the periodontal-related malformation syndrome are unrelated to aprepitant and should not be counted as evidence.
+- Package insert warnings, contraindications and approved indications from Health Canada
+- Mechanism of action data from DrugBank, and an analysis of any link between NK1 signaling and renal water handling
+- Preclinical or mechanistic studies testing NK1 antagonism in models of nephrogenic syndrome of inappropriate antidiuresis
+- A review of the liver failure contraindication signal and the major drug interactions before any further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Dimenhydrinate
 parent: Moderate Evidence (L3-L4)
-nav_order: 284
+nav_order: 286
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,20 +29,18 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Dimenhydrinate: From Nausea/Motion Sickness to Allergic Urticaria
+# Dimenhydrinate: From Motion Sickness and Vertigo to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Dimenhydrinate is marketed in Canada in products such as Gravol, Travel Tabs and Gaviscon Nausea, which points to nausea and travel-related use. The licence indication text is not recorded in the Evidence Pack.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **0 clinical trials** and only **1 publication** (a veterinary pharmacokinetic pilot study), so this remains a model-driven hypothesis.
-
----
+Dimenhydrinate is an antiemetic and anti-vertigo drug, originally used for motion sickness and vertigo of central nervous system origin.
+The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **0 clinical trials** and only **1 publication** (a pharmacokinetic study in dogs) supporting this direction, so the evidence is indirect and the prediction rests mainly on computation.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the licence data. Nausea/motion sickness is inferred from product names only |
+| Original Indication | Motion sickness; central nervous system origin vertigo |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L4 |
@@ -50,69 +48,70 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
----
+The Canadian licence records compiled for this report contain no approved-indication text, so the original indications shown above come from the TxGNN knowledge graph.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for dimenhydrinate is not available in the DrugBank fields of this pack. Based on known pharmacology, dimenhydrinate is the 8-chlorotheophylline salt of diphenhydramine, a first-generation H1 receptor antagonist.
+Currently, detailed mechanism of action data is not available. Based on known information, dimenhydrinate is a salt of diphenhydramine and 8-chlorotheophylline. Diphenhydramine is a first-generation H1-antihistamine, and the antihistamine component is responsible for much of the drug's known pharmacology.
 
-Histamine acting on H1 receptors in the skin's blood vessels and sensory nerves causes the wheals and itching of histamine-mediated urticaria. Blocking these receptors is the recognised way to relieve them. The link between the drug and the predicted indication is therefore biologically plausible.
+Urticaria is driven by mast cell degranulation and histamine release, and H1-antihistamines are standard therapy for it. This shared H1-antagonist pharmacology explains the very high TxGNN score (0.997). The link between the original indications (motion sickness, vertigo) and urticaria is therefore the same active moiety acting on the H1 receptor, not a shared disease process.
 
-There is one important caveat. No efficacy data exist for dimenhydrinate itself in urticaria. The 0.997 score is a model prediction, not clinical evidence. A second predicted condition, cold urticaria (score 99.24%), rests on the same H1-antagonist logic. It has no trials or literature at all (Evidence Level L5).
+There are practical limits. First-generation antihistamines cause sedation and anticholinergic effects. Guidelines generally prefer second-generation, non-sedating H1-antihistamines for chronic urticaria, which reduces the clinical value of repurposing dimenhydrinate.
 
----
+A second prediction, **cold urticaria** (score 99.24%), rests on the same class-level logic. No trials or literature were found for it, so its evidence level is L5 (model prediction only).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30779257](https://pubmed.ncbi.nlm.nih.gov/30779257/) | 2019 | Pharmacokinetic pilot study (healthy dogs) | Veterinary Dermatology | Compared diphenhydramine exposure after oral and IV diphenhydramine and after oral dimenhydrinate. Used histamine-induced wheal formation as the pharmacodynamic readout. The abstract excerpt available does not report results. |
-
-This is animal data on drug exposure, not human evidence of efficacy in urticaria.
-
----
+| [30779257](https://pubmed.ncbi.nlm.nih.gov/30779257/) | 2019 | Pharmacokinetic pilot study (healthy dogs) | Veterinary Dermatology | Compared diphenhydramine exposure after oral and IV diphenhydramine and after oral dimenhydrinate, and its effect on histamine-induced wheal formation. It provides bridging data between the two compounds but no efficacy data in human urticaria. |
 
 ## Canada Market Information
 
-Dosage form and approved-indication text are not recorded for these licences. Five of the 20 authorizations are listed.
+Dosage form and approved-indication text are not available in the data compiled for this report. The first 5 of the 20 valid single-ingredient licences are listed below.
 
-| DIN | Product Name |
-|---------|------|
-| 00783595 | KIDS GRAVOL SUPPOSITORIES |
-| 00392553 | CONFAB DIMENHYDRINATE 50 MG |
-| 00605786 | TRAVEL TABS 50 MG |
-| 02490528 | GAVISCON NAUSEA |
-| 00013803 | GRAVOL TABLETS |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00783595 | KIDS GRAVOL SUPPOSITORIES | Not available | Not available |
+| 00392553 | CONFAB DIMENHYDRINATE 50 MG | Not available | Not available |
+| 00605786 | TRAVEL TABS 50 MG | Not available | Not available |
+| 02490528 | GAVISCON NAUSEA | Not available | Not available |
+| 00013803 | GRAVOL TABLETS | Not available | Not available |
 
----
+The remaining licences include injection, liquid gel, chewable, liquid, suppository and long-acting caplet products (for example Gravol, Kids Gravol, Jamp-Dimenhydrinate and Dimenhydrinate Injection USP). None has been cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Knowledge-graph contraindications.** These come from drug-disease contraindication edges in the knowledge graph, not from label text, and should be confirmed against the package insert. Listed conditions include:
+- Cardiovascular: hypertension, hypotension, acute coronary syndrome, coronary artery disease, myocardial infarction
+- Ocular and urinary: angle-closure glaucoma, ocular hypertension, benign prostatic hyperplasia, bladder neck obstruction
+- Gastrointestinal and hepatic: peptic ulcer disease, pyloric stenosis, liver disease, gallbladder disease
+- Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hyperthyroidism (including Graves disease and thyrotoxicosis), gout, hypophosphatemia
+- Haematological: thrombocytopenia, blood coagulation disease, hemoglobinopathy
+- Other: substance abuse/dependence
 
----
+**Drug interactions.** The interaction query found 67 interacting drugs. Examples from the first 20 returned:
+- **Major:** potassium citrate, potassium chloride
+- **Moderate:** anticholinergics (atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, trospium and others), opioids (morphine, opium), loperamide, metoclopramide, nabilone, eluxadoline, prucalopride
+
+Warnings and contraindications from the Canadian package insert were not available, so please refer to the package insert for label safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible because of H1 antagonism. However, it is supported only by model output and one veterinary pharmacokinetic study, with no registered human trials. Health Canada safety labelling has also not been obtained, so the candidate cannot move past early screening. Since diphenhydramine is already an established H1 antagonist, the more useful question is whether dimenhydrinate adds anything for urticaria.
+The mechanistic link through diphenhydramine is plausible, but no clinical trials exist, and the only publication is an animal pharmacokinetic study. Second-generation antihistamines are already preferred for urticaria and are better tolerated, so there is little reason to prioritize dimenhydrinate without direct data.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap)
-- Licence indication text and dosage forms for the Canadian products
-- Detailed mechanism-of-action data from DrugBank
-- Human clinical or observational evidence of dimenhydrinate or diphenhydramine in allergic urticaria, and a comparison against existing antihistamine treatment
-- Route compatibility assessment
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Human efficacy data for dimenhydrinate or diphenhydramine in allergic urticaria, ideally from controlled trials
+- A comparison against second-generation antihistamines, including sedation and anticholinergic burden
+- Health Canada package insert warnings and contraindications, which are currently blocking safety screening
+- Detailed mechanism of action data (MOA)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

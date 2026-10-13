@@ -2,7 +2,7 @@
 layout: default
 title: Caspofungin
 parent: Model Prediction Only (L5)
-nav_order: 160
+nav_order: 162
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Caspofungin: From Fungal Infections to Gastrin Secretion Abnormality
+# Caspofungin: From Esophageal Candidiasis and Candidemia to Gastrin Secretion Abnormality
 
 ## One-Sentence Summary
 
-Caspofungin is an echinocandin antifungal used for fungal infections. The TxGNN model predicts it may be effective for **gastrin secretion abnormality**, but **no clinical trials and no publications** currently support this prediction, and no plausible mechanistic link has been identified.
+Caspofungin is an echinocandin antifungal originally used to treat esophageal candidiasis and candidemia.
+The TxGNN model predicts it may be effective for **gastrin secretion abnormality**, but **0 clinical trials** and **0 publications** support this prediction, so it is a computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal infections (antifungal class; the Canadian license records provide no indication text) |
+| Original Indication | Esophageal candidiasis, candidemia |
 | Predicted New Indication | Gastrin secretion abnormality |
 | TxGNN Prediction Score | 99.44% |
 | Evidence Level | L5 |
@@ -49,11 +50,11 @@ Caspofungin is an echinocandin antifungal used for fungal infections. The TxGNN 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for caspofungin is not available in the source record. Based on known pharmacology, caspofungin inhibits fungal beta-(1,3)-D-glucan synthase, an enzyme needed to build the fungal cell wall. Mammalian cells do not have this target.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Caspofungin is known to inhibit beta-(1,3)-D-glucan synthase, an enzyme that fungi need to build their cell walls. This explains its efficacy against Candida infections.
 
-Gastrin secretion abnormality is an endocrine/gastrointestinal regulatory problem, not an infection. There is no known pathway linking glucan synthase inhibition to gastrin regulation. The high TxGNN score (0.994) reflects graph-based proximity only, and nothing in the trial or literature searches supports it.
+The relationship between the original and new indications is weak. Gastrin is a hormone regulating gastric acid secretion, and humans have no beta-(1,3)-D-glucan synthase pathway. The review of the data found no known mechanism linking caspofungin to gastrin regulation.
 
-On the evidence available, this should be treated as a model artifact rather than a credible repurposing signal.
+The high TxGNN score (99.44%) therefore reflects network-based pattern matching in the knowledge graph rather than biological or clinical support. It should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -65,32 +66,40 @@ Currently no related literature available.
 
 ## Canada Market Information
 
+Six valid single-ingredient authorizations are listed in Canada. The five main ones are shown below.
+
 | DIN | Product Name |
 |---------|------|
-| 2460947 | Caspofungin for Injection |
-| 2460955 | Caspofungin for Injection |
-| 2244265 | Cancidas |
-| 2486997 | Caspofungin for Injection |
-| 2244266 | Cancidas |
-
-The records list 6 licenses in total, of which 5 are shown above. Dosage form and approved indication text are not available in the records.
+| 02244265 | CANCIDAS |
+| 02244266 | CANCIDAS |
+| 02460947 | CASPOFUNGIN FOR INJECTION |
+| 02460955 | CASPOFUNGIN FOR INJECTION |
+| 02486997 | CASPOFUNGIN FOR INJECTION |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these come from drug-disease relationship data, not from label text): liver disease, gallbladder disease, potassium deficiency disease.
+- **Drug Interactions**: 81 interactions were identified.
+  - Major: dexamethasone
+  - Moderate: naltrexone
+  - Unclassified severity: many others, including amphotericin B, vancomycin, simvastatin, the proton pump inhibitors (omeprazole, pantoprazole, lansoprazole), and several corticosteroids (prednisone, prednisolone, hydrocortisone)
+
+Please refer to the package insert for complete warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no trials, no literature and no plausible mechanism, so it is Level L5 evidence. Other predicted indications for caspofungin (neonatal candidiasis, Pneumocystis pneumonia in HIV) have more evidence, but they mostly fall within existing antifungal use rather than true repurposing.
+The prediction has no supporting trials or literature and no plausible mechanism, so it is a model output alone (L5). The product is well established in Canada for its antifungal uses, but that does not support this new indication.
 
-**To proceed, the following is needed:**
-- A mechanistic hypothesis linking fungal glucan synthase inhibition to gastrin regulation, or evidence from preclinical work
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data from DrugBank
-- Prioritization review of the better-supported predictions (neonatal candidiasis, fungal opportunistic infections in HIV)
+Among the other predictions from the same analysis, **neonatal candidiasis** is much better supported. It has two Phase 2 neonatal trials (NCT00330395 and NCT01945281), a pediatric echinocandin meta-analysis, and a strong mechanistic fit. It would be a more productive candidate to pursue, although it sits close to the existing antifungal indication.
+
+**To proceed with gastrin secretion abnormality, the following is needed:**
+- A plausible biological hypothesis linking caspofungin to gastrin regulation
+- Preclinical or mechanistic studies, as no human data exist
+- Complete safety data from the Canadian package insert, including warnings and contraindications
+- Mechanism of action data entered into the dataset
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

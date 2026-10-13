@@ -2,7 +2,7 @@
 layout: default
 title: Carbetocin
 parent: Model Prediction Only (L5)
-nav_order: 155
+nav_order: 157
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,32 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Carbetocin: From Postpartum Hemorrhage to Isotretinoin-like Syndrome
+# Carbetocin: From Prader-Willi Syndrome to Isotretinoin-like Syndrome
 
 ## One-Sentence Summary
 
-Carbetocin is a long-acting oxytocin receptor agonist used as a uterotonic to prevent or treat postpartum hemorrhage.
-The TxGNN model predicts it may be effective for **isotretinoin-like syndrome**, but there are **0 clinical trials** and **0 publications** supporting this, so the prediction is a computational signal only.
+Carbetocin is a long-acting oxytocin receptor agonist. In Canada it is marketed to prevent postpartum haemorrhage due to uterine atony. The data compiled for this report also list Prader-Willi syndrome and Noonan syndrome as indications in the knowledge graph.
+The TxGNN model predicts it may be effective for **isotretinoin-like syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Postpartum hemorrhage (uterotonic use; the Canadian licence records list no indication text) |
+| Original Indication | Prader-Willi syndrome, Noonan syndrome (knowledge graph indications; no approved indication text is available for the Canadian licenses) |
 | Predicted New Indication | Isotretinoin-like syndrome |
 | TxGNN Prediction Score | 99.15% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Carbetocin is a synthetic, long-acting analogue of oxytocin. It acts as an oxytocin receptor agonist and causes uterine contraction, which is why it is used in postpartum hemorrhage.
+Carbetocin is a long-acting oxytocin receptor (OXTR) agonist. Detailed mechanism of action data is not currently available in the compiled data, but the pharmacology data confirm that its target is the oxytocin receptor. Its established clinical use is preventing postpartum haemorrhage due to uterine atony. An intranasal formulation (LV-101) has been in development for hyperphagia in Prader-Willi syndrome.
 
-The predicted condition, isotretinoin-like syndrome, is a congenital malformation phenotype linked to disruption of the retinoid pathway. A peptide uterotonic has no evident plausible action on this pathway or on the developmental processes involved. No mechanistic link has been established between the original and predicted indications.
+Isotretinoin-like syndrome is a congenital malformation condition resembling retinoic-acid embryopathy. The available data show no plausible mechanistic link between oxytocin receptor agonism and treating this condition. The high score (0.991) is most likely a computational artefact. It may reflect network proximity in the knowledge graph to the original indications (Prader-Willi and Noonan syndromes, both developmental syndromes), but this cannot be verified from the data compiled here. The prediction should be treated as a hypothesis only.
 
-The high TxGNN score (99.15%) reflects graph-based association only and is likely a knowledge-graph artifact. A second prediction, Goodman syndrome (score 99.06%), has the same problem. It is a rare congenital craniofacial and limb malformation disorder that is developmental and genetic in nature, with no supporting trials or literature. Neither prediction should be treated as evidence of efficacy.
+A second prediction, Goodman syndrome (score 99.06%), has the same limitations: no trials, no publications, and no verifiable mechanistic rationale.
 
 ## Clinical Trial Evidence
 
@@ -66,28 +66,29 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2489244 | CARBETOCIN INJECTION |
-| 2496526 | DURATOCIN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02489244 | CARBETOCIN INJECTION | Not specified | Not specified |
+| 02496526 | DURATOCIN | Not specified | Not specified |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+The pharmacology data list one entry: carbetocin acts on the oxytocin receptor (OXTR) in humans. This is a target interaction, not a drug-drug interaction with a specific co-administered medicine.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature, and no plausible mechanism linking an oxytocin receptor agonist to a congenital retinoid-pathway malformation phenotype. The evidence level is L5, so there is no basis to advance.
+The prediction rests only on a computational score, with no clinical trials, no literature, and no plausible mechanistic link to isotretinoin-like syndrome. Package insert safety data are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- A documented mechanistic hypothesis linking oxytocin receptor agonism to isotretinoin-like syndrome
-- Mechanism of action data from DrugBank
-- Preclinical or clinical evidence for the predicted indication
-- Health Canada package insert warnings and contraindications
-- Approved indication text and dosage forms for the two Canadian licences
+- Health Canada package insert warnings and contraindications (download and parse the product monograph)
+- Detailed mechanism of action data (e.g. from DrugBank)
+- A mechanistic rationale connecting oxytocin receptor agonism to isotretinoin-like syndrome, supported by preclinical or literature evidence
+- Route and formulation compatibility assessment (the Canadian products' dosage forms and approved indications are not specified)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

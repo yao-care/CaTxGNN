@@ -2,7 +2,7 @@
 layout: default
 title: L-Lysine
 parent: Model Prediction Only (L5)
-nav_order: 509
+nav_order: 514
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# L-Lysine: From Amino Acid Nutrition Component to Gastroparesis
+# L-Lysine: From Parenteral Nutrition Amino Acid Component to Gastroparesis
 
 ## One-Sentence Summary
 
-L-Lysine is an essential amino acid. In Canada it is marketed as a component of parenteral nutrition products such as CLINIMIX and TRAVASOL.
-The TxGNN model predicts it may be effective for **gastroparesis**, but there are **0 clinical trials** and only **1 publication**, a preclinical stem-cell study that does not test L-lysine.
-The prediction is model-only and unsupported by direct evidence.
+L-lysine is an essential amino acid used in Canada as a component of parenteral nutrition (amino acid infusion) products.
+The TxGNN model predicts it may be relevant for **gastroparesis**, but there are **0 clinical trials** and only **1 loosely related publication** (a preclinical stem-cell study that does not involve L-lysine), so this is essentially a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records (inferred from product names: amino acid component of parenteral nutrition) |
+| Original Indication | Not specified in the available licence data (the products are amino acid / parenteral nutrition formulations) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
@@ -51,9 +50,13 @@ The prediction is model-only and unsupported by direct evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. L-lysine is an essential amino acid supplied in parenteral nutrition solutions, and no approved indication text is recorded in the licence data. No established mechanistic route from nutritional lysine supply to gastroparesis can be drawn from the available information.
+Currently, detailed mechanism of action data is not available. Based on known information, L-lysine is an essential amino acid that the body uses for protein synthesis, calcium absorption, and carnitine production. In Canada it is marketed only within amino acid and parenteral nutrition products.
 
-The only retrieved paper studies mesenchymal stem cell delivery from gelatin-alginate hydrogels to the stomach lumen. It does not evaluate L-lysine as a therapy, and any link is incidental (for example, lysine residues in the gelatin matrix). The high score (0.998) is therefore best read as a knowledge-graph association, not a validated pharmacological rationale.
+The data compiled for this report show no established link between these functions and gastric motility or gastric emptying. Gastroparesis involves loss of interstitial cells of Cajal and enteric neurons, which is not a process L-lysine is known to address. The high score (0.998) is a computational prediction and is not backed by clinical or mechanistic data.
+
+The other two predictions are also weak:
+- **Congenital prothrombin deficiency** (score 99.13%): a genetic coagulation disorder that dietary lysine would not be expected to correct. Lysine analogues such as tranexamic acid act as antifibrinolytics, but that does not extend to L-lysine itself.
+- **Vitamin D deficiency** (score 99.02%): the disease term is obsolete in the ontology, and L-lysine's modest effect on calcium handling does not replace vitamin D.
 
 ## Clinical Trial Evidence
 
@@ -63,36 +66,47 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29414870](https://pubmed.ncbi.nlm.nih.gov/29414870/) | 2018 | Preclinical | Bioengineering (Basel) | Mesenchymal stem cells delivered from gelatin-alginate hydrogels to the stomach lumen as a potential gastroparesis therapy. L-lysine is not evaluated. |
+| [29414870](https://pubmed.ncbi.nlm.nih.gov/29414870/) | 2018 | Preclinical | Bioengineering (Basel) | Mesenchymal stem cells delivered from gelatin-alginate hydrogels to the stomach lumen as a potential gastroparesis therapy. The study does not test L-lysine. |
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not recorded for these licences. Five of the 20 authorizations are listed.
+All 20 licences are valid single-ingredient products. Dosage form and approved indication text are not available in the data compiled for this report. The five shown are the first five listed.
 
-| DIN | Product Name |
-|---------|------|
-| 2046709 | CLINIMIX |
-| 2013932 | CLINIMIX |
-| 2013940 | CLINIMIX |
-| 872296 | TRAVASOL |
-| 2013886 | CLINIMIX |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02046709 | CLINIMIX | Not available | Not available |
+| 02013932 | CLINIMIX | Not available | Not available |
+| 02013940 | CLINIMIX | Not available | Not available |
+| 00872296 | TRAVASOL | Not available | Not available |
+| 02013886 | CLINIMIX | Not available | Not available |
+
+Other marketed products include CLINIMIX E, PRIMENE 10%, OLIMEL, SMOFKABIVEN, 20% PROSOL, and ESSEPNA.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations from the knowledge graph (not label text):** The TxGNN knowledge graph links L-lysine to contraindication relationships with several conditions. These should be verified against the product labelling:
+  - Kidney: kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, acute urate nephropathy, nephrolithiasis, nephrocalcinosis
+  - Calcium and phosphorus: hypercalcemia, humoral hypercalcemia of malignancy, sarcoidosis, phosphorus metabolism disease
+  - Cardiac: heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
+  - Metabolic: phenylketonuria and other disorders of phenylalanine metabolism
+- **Drug interactions:** No interaction records were found.
+
+Please refer to the package insert for authoritative warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials and no literature that tests L-lysine in gastroparesis. The other two predictions are also weak. Congenital prothrombin deficiency is supported only by a paper on a lysine substitution in a mutant factor X protein. "Obsolete vitamin D deficiency" has no evidence at all, and its disease label is obsolete.
+The prediction rests on a model score alone. There are no clinical trials, the only publication is an unrelated preclinical study, and no mechanistic link to gastroparesis is supported. The knowledge graph also flags kidney, cardiac, and calcium-related conditions as potential concerns.
 
 **To proceed, the following is needed:**
+- Mechanism of action data from DrugBank to assess any link to gastric motility
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (e.g., from DrugBank) to test for a plausible link to gastric motility
-- Direct evidence, such as preclinical or clinical studies of L-lysine in gastroparesis
-- The approved indication text for the listed DINs, to confirm the original indication
+- Approved indication text and dosage forms for the Canadian products
+- Targeted literature search for L-lysine and gastric emptying or gastroparesis
+- Route compatibility assessment, since current products are parenteral nutrition formulations
+- Mapping the obsolete vitamin D deficiency term to a current ontology term if that prediction is to be pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

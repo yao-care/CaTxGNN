@@ -2,7 +2,7 @@
 layout: default
 title: Famciclovir
 parent: Moderate Evidence (L3-L4)
-nav_order: 372
+nav_order: 374
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Famciclovir: From Herpesvirus Infection to Post-infectious Neuralgia
+# Famciclovir: From Herpes Zoster to Post-infectious Neuralgia
 
 ## One-Sentence Summary
 
-> Famciclovir is an oral antiviral prodrug of penciclovir, used against herpesvirus infections such as herpes zoster.
-> The TxGNN model predicts it may be useful for **post-infectious neuralgia**.
-> Only **2 clinical trials** and **0 publications** are linked to this prediction, and neither trial tests famciclovir, so the evidence is indirect.
+Famciclovir is an oral antiviral originally used to treat herpes zoster (shingles).
+The TxGNN model predicts it may be useful for **post-infectious neuralgia**, which in this context is nerve pain after a viral infection such as postherpetic neuralgia.
+Support is thin: **1 clinical trial** is linked, and it tests a different drug (oxycodone), with **no publications** found.
 
 ---
 
@@ -43,6 +43,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
+| Original Indication | Herpes zoster |
 | Predicted New Indication | Post-infectious neuralgia |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L4 |
@@ -54,11 +55,9 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in DrugBank for this record. Based on known pharmacology, famciclovir is converted in the body to penciclovir. After viral thymidine kinase phosphorylates it in HSV- or VZV-infected cells, penciclovir triphosphate inhibits viral DNA polymerase.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, famciclovir is a prodrug of penciclovir. Penciclovir's active triphosphate form inhibits the DNA polymerase of varicella-zoster virus (VZV), which limits viral replication.
 
-Post-infectious neuralgia, most commonly postherpetic neuralgia, follows an acute varicella-zoster (shingles) episode. The proposed logic is that suppressing VZV replication early may limit nerve damage and lower the chance of lasting pain.
-
-This link is indirect. The two trials retrieved for this indication test nerve blocks and an opioid, not famciclovir. Antivirals appear at most as background therapy. No literature was retrieved, so the case rests on the model score and biological plausibility rather than direct evidence of famciclovir preventing neuralgia.
+The link between the two conditions is that postherpetic neuralgia is the most common complication of herpes zoster. Treating the acute zoster episode early with an antiviral may reduce nerve damage and, in turn, the risk or duration of later neuralgia. The reasoning is plausible but indirect. The only linked trial studies oxycodone, not famciclovir, so there is no direct evidence that famciclovir prevents or treats post-infectious neuralgia.
 
 ---
 
@@ -66,8 +65,7 @@ This link is indirect. The two trials retrieved for this indication test nerve b
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06798662](https://clinicaltrials.gov/study/NCT06798662) | Not applicable | Not yet recruiting | 120 | Liposomal bupivacaine and ropivacaine nerve blocks with pulse radiofrequency for acute herpes zoster pain. Not a famciclovir trial. |
-| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Not applicable | Unknown | 140 | Early oxycodone during acute herpes zoster to prevent postherpetic neuralgia. The population is relevant, but the intervention is an opioid, not famciclovir. |
+| [NCT03120962](https://clinicaltrials.gov/study/NCT03120962) | Not applicable | Unknown | 140 | Tests early oxycodone during acute herpes zoster to prevent postherpetic neuralgia. Famciclovir is not the studied drug, so this offers contextual support only. |
 
 ---
 
@@ -79,7 +77,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Six licenses are on record. The five main ones are listed below. Dosage form and approved-indication text are not populated in the source data.
+Six valid single-ingredient authorizations are on the Canadian market. Dosage forms, manufacturers and approved-indication text are not available in the data compiled for this report.
 
 | DIN | Product Name |
 |---------|------|
@@ -89,11 +87,16 @@ Six licenses are on record. The five main ones are listed below. Dosage form and
 | 02229129 | FAMVIR |
 | 02229110 | FAMVIR |
 
+*(5 of 6 authorizations shown; the sixth is another APO-FAMCICLOVIR product, DIN 02292025.)*
+
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindications (from a knowledge graph, not label text):** kidney disease and pyoureter. This is relevant because famciclovir is cleared by the kidneys. Confirm against the Canadian product monograph before any use.
+- **Drug Interactions:** 84 potential interactions were identified, none with a severity level assigned. Examples include calcitriol, doxycycline, metformin, glimepiride, morphine, omeprazole, pantoprazole, prednisone, simvastatin and vancomycin. Clinical significance needs verification.
+
+Please refer to the package insert for label warnings and formal contraindications.
 
 ---
 
@@ -102,15 +105,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score, but the evidence is only Level L4. The two linked trials do not test famciclovir, and there is no supporting literature. The mechanism is plausible but indirect, so this is best treated as a research question rather than an actionable repurposing candidate.
-
-Among the other predictions, chickenpox (rank 7) has much stronger evidence: a completed Phase 3 trial (NCT01327144) and pediatric PK/safety data. It could be evaluated separately if a more actionable direction is wanted.
+The TxGNN score is very high, and the mechanism is plausible because famciclovir treats the infection that precedes postherpetic neuralgia. However, no trial or publication tests famciclovir for this outcome, so the evidence is at the L4 level. The prediction should stay a research question for now.
 
 **To proceed, the following is needed:**
-- Clinical data on famciclovir specifically, such as a randomized trial or cohort study of early antiviral therapy and postherpetic neuralgia incidence
-- Health Canada package insert warnings and contraindications
-- Mechanism-of-action data from DrugBank
-- Approved-indication text and dosage forms for the Canadian licenses
+- A trial or systematic review of famciclovir or other antivirals for preventing or treating postherpetic neuralgia
+- Mechanism-of-action data from a curated source
+- Label warnings and contraindications from the Canadian product monograph
+- Dose guidance for patients with renal impairment
+- Approved-indication text for the Canadian authorizations
+
+**Related finding:** Among the other predictions for famciclovir, **chickenpox** has the strongest support (L1). It has two completed Phase 3 studies, one on pediatric pharmacokinetics and safety (NCT00098046) and one on zoster efficacy (NCT01327144). Neither is a chickenpox efficacy trial, so this is worth a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Minoxidil
 parent: Moderate Evidence (L3-L4)
-nav_order: 615
+nav_order: 620
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,87 +29,88 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Minoxidil: From Hair Loss and Hypertension to Hypotrichosis Simplex of the Scalp
+# Minoxidil: From Hypertension and Alopecia to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Minoxidil is a potassium channel opener, marketed in Canada as a topical hair-regrowth treatment (Rogaine and similar products) and as an oral tablet (Loniten). The Canadian licence records supplied here do not include indication text, so these uses are inferred from product names and general knowledge. The TxGNN model predicts it may be useful for **hypotrichosis simplex of the scalp**, a rare hereditary hair-thinning disorder. Support is thin: **0 registered clinical trials** and **3 small case reports**, all of which combine minoxidil with other treatments.
-
----
+Minoxidil was originally used to treat hypertension (as an oral vasodilator) and alopecia (as a topical hair-regrowth treatment).
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, a rare hereditary hair-loss disorder.
+Support is limited: there are **no registered clinical trials** and **3 small case reports**, all using minoxidil in combination with other treatments.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension and alopecia (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.9999% (rank 1 of the model's predictions for this drug) |
+| TxGNN Prediction Score | 99.99992% |
 | Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the DrugBank field. The mechanism below comes from the evidence pack's repurposing rationale. Minoxidil sulfate, the active form, opens potassium channels. In hair follicles it is thought to prolong the growing (anagen) phase, shorten the resting (telogen) phase and improve follicular blood flow.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, minoxidil is an established hair-growth stimulant. Its sulfate metabolite opens potassium channels, which prolongs the anagen (growth) phase of the hair cycle and increases blood flow to the follicle. Its efficacy in common hair loss is well established.
 
-Hypotrichosis simplex of the scalp is a rare inherited disorder in which hair fails to grow to normal length and density. Case reports link it to variants in the *CDSN* gene, which encodes a desmosome protein. Minoxidil's effect on the hair cycle is a plausible fit for a disorder of hair-growth quantity. However, the disease has a genetic structural cause, and minoxidil does not correct it. It could at best act as a growth-promoting adjunct.
+Hypotrichosis simplex of the scalp is a rare, inherited disorder (linked to variants in the *CDSN* gene) in which hair density is reduced. Because minoxidil acts on hair-cycle duration and follicle perfusion, it is plausibly relevant to a condition defined by reduced hair growth.
 
-The published cases all used combination regimens (minoxidil with growth factors, botanic extracts or platelet-rich plasma). The contribution of minoxidil alone cannot be separated out.
-
----
+A key caveat is that the available reports combine minoxidil with growth factors, botanical extracts, or platelet-rich plasma (PRP). This makes it impossible to attribute any benefit to minoxidil alone.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case report (combination therapy) | J Dermatol Treat | A 14-year-old with hereditary hypotrichosis simplex was reported as successfully treated with platelet-rich plasma injections plus topical minoxidil 2%. The authors note that no satisfactory treatment had been available. |
-| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case report (combination therapy) | Front Genet | Familial case of an 8-year-old boy with a *CDSN* mutation, treated with botanic extracts plus minoxidil. The report notes there is no definitive, effective treatment for this disease. |
-| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case report/series | Dermatol Ther | Hereditary hypotrichosis simplex of the scalp treated with oral minoxidil plus growth factors. No abstract is available, so findings are taken from the title only. |
-
----
+|------|-----|------|------|---------|
+| [35761391](https://pubmed.ncbi.nlm.nih.gov/35761391/) | 2022 | Case report/series | Dermatologic Therapy | Hereditary hypotrichosis simplex of the scalp treated with oral minoxidil plus growth factors |
+| [39902296](https://pubmed.ncbi.nlm.nih.gov/39902296/) | 2024 | Case report | Frontiers in Genetics | Familial case in an 8-year-old boy with a *CDSN* mutation, treated with botanical extracts plus minoxidil |
+| [36651821](https://pubmed.ncbi.nlm.nih.gov/36651821/) | 2023 | Case report | J Dermatol Treat | A 14-year-old patient treated with PRP injections plus topical minoxidil 2%; the report describes successful treatment of a condition with no previously satisfactory therapy |
 
 ## Canada Market Information
 
-Ten authorizations are on record; five are listed below. The supplied records do not include dosage form, manufacturer or approved indication text.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02551446 | Men's Hair Regrowth Treatment | Not specified | Not specified |
+| 00708925 | Men's Rogaine | Not specified | Not specified |
+| 02356597 | Hair Regrowth Formula | Not specified | Not specified |
+| 00514500 | Loniten 10 mg | Not specified | Not specified |
+| 02529238 | Jamp Minoxidil Solution | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2551446 | MEN'S HAIR REGROWTH TREATMENT |
-| 708925 | MEN'S ROGAINE |
-| 2356597 | HAIR REGROWTH FORMULA |
-| 514500 | LONITEN 10MG |
-| 2529238 | JAMP MINOXIDIL SOLUTION |
-
----
+Ten valid single-ingredient licences are on record in total; none are cancelled. The list above shows five of them. The product names indicate topical hair-regrowth products and the oral Loniten tablets.
 
 ## Safety Considerations
 
-No warnings, contraindications or drug-interaction records were found for this drug. Please refer to the package insert for safety information.
+**Contraindications (from knowledge-graph drug-disease links, not label text):**
+- Cardiovascular: myocardial infarction, coronary thrombosis, heart disease, cardiovascular disease, pericarditis, pericardial effusion, hemopericardium, cardiac tamponade
+- Cerebrovascular: stroke, cerebral infarction, cerebrovascular disorder
+- Blood pressure regulation: orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy
+- Tumours: pheochromocytoma, sympathetic paraganglioma, and several adrenal, heart and small-intestine cancers
+- Other: kidney disease, hemoglobinopathy, scalp dermatosis
 
-For context, the evidence pack notes that minoxidil's safety profile in hair loss is well characterized. It also notes that systemic (oral) minoxidil is associated with fluid retention, reflex tachycardia and pericardial effusion. Oral use for a paediatric hereditary condition would need a specific safety review.
+**Drug Interactions:** The interaction database lists 100 recorded interactions. The main ones shown in the data are of moderate severity:
+- Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone
+- SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+- Opioids and cannabinoids: morphine, opium, dronabinol, nabilone
+- Others: bupropion, sapropterin
 
----
+Package-insert warnings and contraindications from Health Canada have not been obtained. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The model score is very high, and the mechanism is plausible, since minoxidil is already used for other forms of hair loss. However, the only supporting evidence is three small case reports of combination regimens, with no registered trials. The effect of minoxidil alone cannot be determined, so this stays a research question rather than an actionable repurposing candidate.
+The prediction score is very high and the mechanism is plausible. However, the supporting evidence consists of only three small case reports that all use minoxidil in combination with other therapies, and there are no registered trials. The condition is rare, so a cautious, evidence-building approach is appropriate. Note that the formal screening rubric rates this indication as a "Research Question" rather than a candidate for advancement.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
-- DrugBank mechanism-of-action data
-- Controlled or single-agent data that isolate minoxidil's effect in hypotrichosis simplex
-- A route and dose assessment (topical vs low-dose oral), including safety in children
+- Health Canada package insert warnings and contraindications, which are currently a blocking gap for safety screening
+- Detailed mechanism-of-action data from DrugBank
+- Studies or case series that isolate the effect of minoxidil alone (for example, N-of-1 or small controlled designs)
+- A safety plan for oral use in children and in patients with cardiovascular conditions
+- Approved indication text and dosage-form details for the Canadian licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

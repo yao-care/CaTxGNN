@@ -2,7 +2,7 @@
 layout: default
 title: Memantine
 parent: Model Prediction Only (L5)
-nav_order: 578
+nav_order: 583
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,18 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Memantine: From Alzheimer's Disease to Pulmonary Hypertension
+# Memantine: From Its Original Indication to Pulmonary Hypertension
 
 ## One-Sentence Summary
 
-Memantine is an NMDA receptor antagonist marketed in Canada, and the licence records supplied here do not state its approved indication. It is generally used for Alzheimer's-type dementia.
-The TxGNN model predicts it may be effective for **pulmonary hypertension**, but **0 clinical trials** and **0 publications** support this prediction, so it rests on the model score alone.
+Memantine is a single-ingredient drug that is currently marketed in Canada, although the data compiled for this report do not list its approved indication.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a model prediction only.
+There are **0 clinical trials** and **2 publications**, and neither publication studies memantine in this disease.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer's disease (general knowledge; the supplied licence records list no indication text) |
+| Original Indication | Not specified in the data compiled for this report |
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L5 |
@@ -48,52 +51,68 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Memantine is generally known as an NMDA receptor antagonist. Its efficacy in its original indication is established, but the supplied data do not show why it would work in pulmonary hypertension.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Memantine is generally described as a non-competitive NMDA receptor antagonist. Under that mechanism, the glutamate/NMDA receptor pathway is the plausible link to pulmonary hypertension.
 
-Pulmonary hypertension is a disease of the pulmonary blood vessels and the right heart. It is quite different from the neurological disorder memantine is used for. Any link through NMDA receptors in the pulmonary vasculature is speculative and is not supported by the supplied data.
+One preclinical publication notes that the glutamate/NMDA receptor axis has been implicated in acute lung injury, pulmonary arterial hypertension and diabetes. This suggests NMDA receptors in the pulmonary vasculature as a possible target. The link is plausible but unproven. No study in the compiled data tests memantine itself in pulmonary hypertension.
 
-The high score (0.995) therefore reflects a pattern in the knowledge graph, not confirmed biology. No trials or literature were retrieved to test it.
+The other publication concerns MN-08, a nitrate derivative of memantine under development for pulmonary arterial hypertension. It is a Phase 1 safety and pharmacokinetic study in healthy volunteers. It shows that the memantine scaffold is being explored for this disease, but it is a different compound and says nothing about the efficacy of memantine.
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33500723](https://pubmed.ncbi.nlm.nih.gov/33500723/) | 2021 | Preclinical/Mechanistic | Theranostics | Activation of NMDA receptors regulates insulin sensitivity and lipid metabolism. The introduction notes that the glutamate/NMDA receptor axis has been implicated in pulmonary arterial hypertension, but the study itself focuses on metabolism. |
+| [41739394](https://pubmed.ncbi.nlm.nih.gov/41739394/) | 2026 | Phase 1 PK/Safety (different compound) | Clinical Drug Investigation | Single and multiple ascending doses of MN-08, a nitrate derivative of memantine under development for pulmonary arterial hypertension, were studied in healthy Chinese volunteers for safety, tolerability and pharmacokinetics. |
+
+There are currently no registered clinical trials of memantine for pulmonary hypertension.
+
+---
 
 ## Canada Market Information
 
+Ten valid single-ingredient licenses are listed (none cancelled). The five main ones are below. The data compiled for this report do not include dosage forms or approved indication text for these products.
+
 | DIN | Product Name |
 |---------|------|
-| 2324067 | ACT MEMANTINE |
-| 2446049 | MEMANTINE |
-| 2375532 | SANDOZ MEMANTINE FCT |
-| 2443082 | MEMANTINE |
-| 2366487 | APO-MEMANTINE |
+| 02260638 | EBIXA |
+| 02324067 | ACT MEMANTINE |
+| 02375532 | SANDOZ MEMANTINE FCT |
+| 02366487 | APO-MEMANTINE |
+| 02348950 | RIVA-MEMANTINE |
 
-Dosage form and approved-indication text were not provided for these licences. Five of the 10 licences are shown.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records were retrieved.
+- **Contraindication signals from the knowledge graph:** The TxGNN knowledge graph links memantine to liver disease, gallbladder disease and impaired renal function. These come from drug-disease contraindication edges, not from package insert text, and should be verified against the label.
+- **Drug Interactions:** The data record 100 interactions in total. The main ones are listed below.
+  - **Moderate:** anticholinergic and antimuscarinic agents, including hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, methscopolamine, propantheline, scopolamine, trospium and mepenzolate.
+  - **Minor:** ranitidine, metformin, cimetidine and potassium citrate.
+
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for complete safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature and no plausible mechanistic link in the supplied data, so it cannot move past model-level screening. Blocking data gaps also remain: the Health Canada package insert safety information is missing.
+The TxGNN score is very high (99.54%), but the evidence is model prediction only (L5). There are no clinical trials, and neither retrieved publication evaluates memantine in pulmonary hypertension. The only disease-specific lead is a different compound (MN-08).
+
+By comparison, another predicted indication for memantine, **migraine disorder**, has a completed Phase 3 trial (NCT04698525, n=33, versus sodium valproate) and several reviews and meta-analyses. It may be a better candidate for follow-up, although the evidence there is also described as limited.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking)
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence for memantine in pulmonary hypertension
-- Approved indication text and dosage forms for the Canadian licences
-
-**Note on other predictions for this drug:** Rank 2, **migraine disorder** (score 99.52%), has much stronger support: one completed Phase 3 RCT (NCT04698525, memantine vs sodium valproate, n=33), a meta-analysis of RCTs, systematic reviews and a network meta-analysis. Its evidence level is L1 with a "Research Question" recommendation. Because the sample sizes are small and a 2021 commentary calls the evidence limited, it would be worth evaluating as a separate report.
+- Preclinical or clinical studies of memantine itself in pulmonary hypertension, such as animal models of pulmonary vascular disease
+- Mechanism of action data for memantine
+- Health Canada package insert warnings and contraindications, including the approved indication text for each license
+- Review of the knowledge-graph contraindication signals (liver, gallbladder and renal impairment) against the label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

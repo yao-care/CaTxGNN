@@ -2,7 +2,7 @@
 layout: default
 title: Eletriptan
 parent: Moderate Evidence (L3-L4)
-nav_order: 317
+nav_order: 319
 evidence_level: L4
 indication_count: 4
 ---
@@ -33,9 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Eletriptan is a 5-HT1B/1D receptor agonist (a triptan) used for the acute treatment of migraine.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
-but there are currently **no registered clinical trials** and only **indirect literature (18 publications on eletriptan and migraine in general)** supporting this direction. Triptans also carry a theoretical ischemic safety concern in this subtype.
+Eletriptan is a triptan (5-HT1B/1D receptor agonist) originally used for the acute treatment of migraine.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but there are currently **no registered clinical trials** and only indirect support from **17 publications**, mostly general migraine reviews and trials, with one study showing no benefit when eletriptan was given during the aura phase.
 
 ---
 
@@ -43,7 +42,7 @@ but there are currently **no registered clinical trials** and only **indirect li
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute treatment of migraine (per literature; the Canadian licence records contain no indication text) |
+| Original Indication | Migraine disorder (migraine with or without aura) |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
@@ -55,15 +54,13 @@ but there are currently **no registered clinical trials** and only **indirect li
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Based on the literature, eletriptan is a selective 5-HT1B/1D receptor agonist with a higher affinity for 5-HT1D than sumatriptan. It is used for migraine with and without aura.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, eletriptan is a selective 5-HT1B/1D receptor agonist. Its affinity for the 5-HT1D receptor is about 6-fold greater than sumatriptan's, and for the 5-HT1B receptor about 3-fold greater. This class acts on the trigeminovascular pathway that drives migraine headache.
 
-Migraine with brainstem aura is a subtype of migraine, so the link to the original indication is plausible. However, this is closer to an extension within the migraine family than true repurposing. The high TxGNN score mainly reflects eletriptan's known association with migraine, not evidence specific to this subtype.
+Migraine with brainstem aura is a migraine subtype that shares this core trigeminovascular pathophysiology, which makes the prediction mechanistically plausible. However, this link is inferred from general triptan pharmacology, not from data specific to this subtype.
 
-There are also important reasons for caution:
-- **Ischaemic risk**: Triptans act through 5-HT1B-mediated vasoconstriction. Triptan labelling typically lists basilar-type (brainstem aura) and hemiplegic migraine as contraindicated or cautioned because of theoretical ischaemic risk. This should be verified against the Canadian product monograph.
-- **Aura-phase data**: The one aura-related RCT (PMID 15469451) found no benefit when eletriptan 80 mg was taken during the aura phase.
-
-Safety must be assessed before any efficacy question.
+There are two cautions:
+- One randomised trial (PMID 15469451) found **no effect** when eletriptan 80 mg was taken during the aura phase of migraine.
+- Triptans have historically been used cautiously in brainstem aura (formerly basilar-type migraine) because of theoretical vasoconstriction concerns.
 
 ---
 
@@ -75,43 +72,54 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No publication addresses brainstem aura specifically. The studies below are general migraine evidence and are therefore indirect.
+None of the publications below studies migraine with brainstem aura directly. They cover eletriptan or triptans in migraine generally.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12807526](https://pubmed.ncbi.nlm.nih.gov/12807526/) | 2003 | RCT | Cephalalgia | Eletriptan in patients (n=446, with and without aura) who previously responded poorly to or did not tolerate oral sumatriptan |
-| [15469451](https://pubmed.ncbi.nlm.nih.gov/15469451/) | 2004 | RCT | Eur J Neurol | Eletriptan 80 mg taken during the aura phase showed no benefit |
-| [11844898](https://pubmed.ncbi.nlm.nih.gov/11844898/) | 2002 | RCT | Eur Neurol | Eletriptan 40/80 mg compared with ergotamine plus caffeine (Cafergot) and placebo in acute migraine |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies |
-| [11687056](https://pubmed.ncbi.nlm.nih.gov/11687056/) | 2001 | Review | Cochrane Database Syst Rev | Systematic review of eletriptan for acute migraine |
-| [17501848](https://pubmed.ncbi.nlm.nih.gov/17501848/) | 2007 | Post hoc RCT analysis | Headache | Eletriptan improved functional and work productivity outcomes in migraine |
-| [12498013](https://pubmed.ncbi.nlm.nih.gov/12498013/) | 2002 | Review | Curr Opin Investig Drugs | Drug profile: 5-HT1B/1D agonist with higher receptor affinity than sumatriptan |
+| [15469451](https://pubmed.ncbi.nlm.nih.gov/15469451/) | 2004 | RCT | Eur J Neurol | Eletriptan 80 mg taken during the aura phase had no effect on headache |
+| [11844898](https://pubmed.ncbi.nlm.nih.gov/11844898/) | 2002 | RCT | Eur Neurol | Eletriptan 40 mg and 80 mg compared with ergotamine plus caffeine and placebo in acute migraine (double-blind, placebo-controlled) |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies |
+| [11687056](https://pubmed.ncbi.nlm.nih.gov/11687056/) | 2001 | Review | Cochrane Database Syst Rev | Review of eletriptan for acute migraine (later withdrawn, see PMID 17636718) |
+| [12498013](https://pubmed.ncbi.nlm.nih.gov/12498013/) | 2002 | Review | Curr Opin Investig Drugs | Eletriptan as a 5-HT1B/1D agonist for migraine with and without aura |
 | [21028917](https://pubmed.ncbi.nlm.nih.gov/21028917/) | 2010 | Review | Paediatr Drugs | Use of triptans for paediatric migraine |
-| [11050304](https://pubmed.ncbi.nlm.nih.gov/11050304/) | 2000 | Preclinical | Eur J Pharmacol | Eletriptan and sumatriptan contract human meningeal and coronary arteries in vitro, relevant to both efficacy and cardiovascular risk |
-| [25155004](https://pubmed.ncbi.nlm.nih.gov/25155004/) | 2014 | Case report | Rev Port Cardiol | Non-ST-elevation myocardial infarction a few hours after taking eletriptan |
+| [12807526](https://pubmed.ncbi.nlm.nih.gov/12807526/) | 2003 | Clinical study | Cephalalgia | Eletriptan in 446 patients who had responded poorly to or not tolerated oral sumatriptan |
+| [25155004](https://pubmed.ncbi.nlm.nih.gov/25155004/) | 2014 | Case report | Rev Port Cardiol | Non-ST-elevation myocardial infarction a few hours after taking eletriptan, with a suggested causal association |
+| [11050304](https://pubmed.ncbi.nlm.nih.gov/11050304/) | 2000 | Pharmacology | Eur J Pharmacol | Contractile effects of eletriptan and sumatriptan on human isolated meningeal and coronary arteries |
+| [17501848](https://pubmed.ncbi.nlm.nih.gov/17501848/) | 2007 | Clinical study | Headache | Eletriptan improved functional and work productivity outcomes during migraine attacks |
 
 ---
 
 ## Canada Market Information
 
-The Evidence Pack lists 14 licences in total and provides details for 5. Dosage form and approved indication text are not recorded for these.
+Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled. Dosage form and approved-indication text are not available in the data compiled for this report. The main authorisations are:
 
 | DIN | Product Name |
 |---------|------|
-| 02479451 | AURO-ELETRIPTAN |
-| 02518015 | APO-ELETRIPTAN TABLETS |
-| 02489988 | PRO-ELETRIPTAN |
+| 02256290 | RELPAX |
+| 02256304 | RELPAX |
+| 02342235 | MYLAN-ELETRIPTAN |
 | 02382091 | TEVA-ELETRIPTAN |
-| 02489961 | PRO-ELETRIPTAN |
+| 02479451 | AURO-ELETRIPTAN |
 
 ---
 
 ## Safety Considerations
 
-- **Cardiovascular ischaemia**: A published case report (PMID 25155004) describes a myocardial infarction shortly after eletriptan use. In vitro work (PMID 11050304) shows contraction of human coronary arteries.
-- **Subtype-specific concern**: Triptans are typically cautioned or contraindicated in basilar-type (brainstem aura) and hemiplegic migraine because of theoretical ischaemic risk. This is the central barrier for the predicted indication.
+**Contraindication-related conditions (from the drug-disease knowledge graph, not from label text):**
+- Cardiovascular and cerebrovascular: hypertension, coronary artery disease, myocardial infarction, myocardial ischemia, Prinzmetal angina, stroke, transient ischemic attack, brain ischemia, peripheral vascular disease, Raynaud disease, ischemic bowel disease, vertebrobasilar insufficiency
+- Migraine subtype: familial or sporadic hemiplegic migraine
+- Other: liver disease and liver failure, serotonin syndrome, diabetes, obesity
 
-The Canadian product monograph warnings and contraindications were not available in the Evidence Pack. Please refer to the package insert for full safety information.
+Vertebrobasilar insufficiency, hemiplegic migraine and cerebrovascular conditions are particularly relevant to brainstem aura, because they overlap with the vasoconstriction concern for this subtype.
+
+**Drug interactions:** 94 interactions were identified. Major-level interactions include:
+- Clarithromycin
+- Serotonergic or anorectic agents: lorcaserin, fenfluramine, dexfenfluramine, sibutramine
+- 5-HT3 antagonists: ondansetron, granisetron, dolasetron, palonosetron
+
+Moderate-level interactions include aprepitant, morphine, cimetidine, clotrimazole and miconazole.
+
+**Case report:** One published case describes a myocardial infarction after eletriptan use (PMID 25155004).
 
 ---
 
@@ -120,18 +128,15 @@ The Canadian product monograph warnings and contraindications were not available
 **Decision: Hold**
 
 **Rationale:**
-There is no trial or publication specific to migraine with brainstem aura. The general migraine evidence is indirect, the one aura-phase RCT was negative, and the vasoconstrictive mechanism raises a theoretical ischaemic concern in this subtype. The high TxGNN score does not offset these gaps.
+- The prediction is mechanistically plausible but supported only by indirect, general migraine evidence (L4), and no trials exist for this subtype. A randomised trial found no benefit when eletriptan was taken during the aura phase. Triptans are traditionally used cautiously in brainstem aura because of vasoconstriction concerns, and the knowledge graph lists several cerebrovascular conditions as contraindications.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph warnings and contraindications (the blocking data gap), specifically how brainstem aura and hemiplegic migraine are handled
-- Mechanism of action data from DrugBank
-- Subtype-specific clinical or observational evidence, and a formal cerebrovascular safety assessment
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank)
+- Evidence specific to migraine with brainstem aura, such as case series or registry data on triptan use and cerebrovascular safety in this subtype
+- A cardiovascular and cerebrovascular risk assessment and a patient-selection plan before any prospective study
 
----
-
-*Other predicted indications (atrophoderma vermiculata, ulerythema ophryogenesis, sciatic neuropathy) have no trials or literature, no clear mechanistic link, and are Level L5 (model prediction only); all are on Hold.*
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+**Other predictions (all Hold, evidence level L5):** The other three predictions have no supporting trials or literature and no plausible mechanistic link beyond a speculative one for sciatic neuropathy. They are atrophoderma vermiculata (99.94%), ulerythema ophryogenesis (99.89%) and sciatic neuropathy (99.03%).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

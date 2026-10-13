@@ -2,7 +2,7 @@
 layout: default
 title: Zolmitriptan
 parent: Moderate Evidence (L3-L4)
-nav_order: 989
+nav_order: 996
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Zolmitriptan: From Acute Migraine to Migraine with Brainstem Aura
+# Zolmitriptan: From Migraine to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Zolmitriptan is a triptan (5-HT1B/1D agonist) already marketed for the acute treatment of migraine.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, a subtype of the established indication rather than a true repurposing.
-There are **0 registered clinical trials** and **19 publications** (none specific to brainstem aura), so evidence for this subtype is limited.
+Zolmitriptan is a triptan (5-HT1B/1D receptor agonist) originally used for the acute treatment of migraine.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
+but there are currently **no registered clinical trials** and **18 publications**, which are mostly general migraine reviews rather than studies of this specific subtype.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute migraine (the licence records carry no indication text; this comes from the literature) |
+| Original Indication | Migraine disorder (migraine with or without aura) |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
@@ -49,75 +51,86 @@ There are **0 registered clinical trials** and **19 publications** (none specifi
 | Number of DINs | 16 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the supplied record. Zolmitriptan is a selective serotonin 5-HT1B/1D receptor agonist (a triptan). Triptans are thought to work through cranial vasoconstriction, inhibition of CGRP release and dampening of trigeminovascular signalling.
+Zolmitriptan is a selective 5-HT1B/1D receptor agonist that acts both centrally and peripherally. Preclinical work suggests it inhibits trigeminovascular activation in the brain as well as in the periphery. This is the basis for its use in acute migraine attacks, where it relieves headache and associated symptoms such as nausea, photophobia and phonophobia.
 
-Migraine with brainstem aura is a subtype of migraine, so the prediction is plausible mechanistically. Because the drug is already marketed for acute migraine, this is better described as a subtype extension than as repurposing.
+Migraine with brainstem aura is a subtype of migraine that shares the core trigeminovascular pathophysiology of the approved indication, so a mechanistic link is plausible. However, the very high TxGNN score mostly reflects how close this disease is to the already approved migraine indication. It is not independent clinical evidence.
 
-The available literature covers:
-- migraine in general
-- migraine with typical aura (a frovatriptan vs zolmitriptan RCT subgroup of only 18 patients)
-- vestibular migraine
+An important caution applies. Triptans have historically carried cautionary labeling for basilar-type or brainstem aura because of theoretical concerns about vasoconstriction. No study in the data compiled for this report evaluates zolmitriptan specifically in brainstem aura, so safety must be reviewed before any recommendation.
 
-One older report (2001) addresses triptans in basilar migraine, but it carries no classification or detailed findings in the pack. No study in the pack specifically evaluates zolmitriptan in brainstem aura.
-
-Triptan labelling has traditionally advised caution or contraindication in basilar-type (brainstem aura) and hemiplegic migraine because of a theoretical ischaemic risk. A safety review must therefore come before any efficacy claim.
-
-The two other TxGNN predictions, atrophoderma vermiculata (score 99.90%) and ulerythema ophryogenes (score 99.83%), have no plausible mechanistic link, no trials and no literature. They are likely knowledge-graph artifacts and are not pursued here.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Ten of the 19 retrieved publications are shown, prioritised by relevance to aura and RCT design. Relevance screening was still pending for all publications. Where the record's study type was unclassified, the type below is inferred from the title or abstract.
+The publications below are the most relevant of those compiled. None specifically evaluates zolmitriptan in migraine with brainstem aura.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22644173](https://pubmed.ncbi.nlm.nih.gov/22644173/) | 2012 | RCT subgroup analysis | Neurol Sci | Frovatriptan 2.5 mg vs zolmitriptan 2.5 mg in 18 patients with migraine with aura, from a 107-patient crossover study |
-| [27329280](https://pubmed.ncbi.nlm.nih.gov/27329280/) | 2016 | RCT | Headache | TEENZ study: zolmitriptan nasal spray in adolescents aged 12–17, primary outcome pain-free at 2 hours |
-| [12828501](https://pubmed.ncbi.nlm.nih.gov/12828501/) | 2003 | RCT | CNS Drugs | Dose-ranging study of zolmitriptan nasal spray vs placebo and oral tablet in acute migraine |
-| [18624801](https://pubmed.ncbi.nlm.nih.gov/18624801/) | 2008 | Randomised study (36 patients) | Cephalalgia | Compared triptans in patients with and without aura and early allodynia, all non-responders to sumatriptan 100 mg |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline / evidence assessment | Headache | American Headache Society update on the evidence for acute migraine drugs |
-| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Meta-analysis / review | J Headache Pain | Frovatriptan vs rizatriptan, zolmitriptan and almotriptan in migraine with aura |
-| [11903526](https://pubmed.ncbi.nlm.nih.gov/11903526/) | 2001 | Not classified | Headache | Report on triptan use in basilar migraine and migraine with prolonged aura (the abstract gives no findings) |
-| [25538676](https://pubmed.ncbi.nlm.nih.gov/25538676/) | 2014 | Review | Front Neurol | Treatment options in vestibular migraine; specific trials are scarce |
-| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Review | Expert Opin Pharmacother | Zolmitriptan's clinical applications; randomised trials show good 2-hour response and pain-free rates |
-| [10473025](https://pubmed.ncbi.nlm.nih.gov/10473025/) | 1999 | Review | Drugs | Zolmitriptan 2.5 and 5 mg shows rapid onset and is significantly more effective than placebo in moderate to severe migraine |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of drugs for acute migraine treatment in adults |
+| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Review | Expert Opin Pharmacother | Randomised placebo-controlled trials show good 2-hour response and pain-free rates, with improvement in nausea, photophobia and phonophobia |
+| [10473025](https://pubmed.ncbi.nlm.nih.gov/10473025/) | 1999 | Review | Drugs | Oral zolmitriptan 2.5 and 5 mg has onset of action at about 45 minutes and is more effective than placebo |
+| [25916333](https://pubmed.ncbi.nlm.nih.gov/25916333/) | 2015 | Meta-analysis | J Headache Pain | Compared frovatriptan with rizatriptan, zolmitriptan and almotriptan in migraine with aura |
+| [22644173](https://pubmed.ncbi.nlm.nih.gov/22644173/) | 2012 | Subgroup analysis of RCT | Neurol Sci | Frovatriptan vs zolmitriptan 2.5 mg in a small subset of 18 patients with migraine with aura |
+| [9399012](https://pubmed.ncbi.nlm.nih.gov/9399012/) | 1997 | Preclinical | Cephalalgia | 5-HT1B/1D partial agonist that can inhibit trigeminovascular activation both centrally and peripherally |
+| [12864759](https://pubmed.ncbi.nlm.nih.gov/12864759/) | 2003 | Clinical study (mechanistic) | Headache | Transcranial Doppler in migraine attacks before and after oral zolmitriptan or sumatriptan |
+| [17177580](https://pubmed.ncbi.nlm.nih.gov/17177580/) | 2007 | Postmarketing surveillance | Clin Drug Investig | Effectiveness and satisfaction with zolmitriptan 5 mg nasal spray in real-life practice |
+| [25538676](https://pubmed.ncbi.nlm.nih.gov/25538676/) | 2014 | Review | Front Neurol | Treatment options in vestibular migraine, where dedicated trials are scarce |
+| [22298171](https://pubmed.ncbi.nlm.nih.gov/22298171/) | 2012 | Case report | Cardiol J | Case of zolmitriptan-induced acute myocardial infarction in a 45-year-old woman |
+
+---
 
 ## Canada Market Information
 
-Dosage form and approved-indication text are not provided in the licence records. Five of the 16 DINs are shown.
+Zolmitriptan has 16 valid single-ingredient authorizations in Canada. The approved indication text and dosage forms are not available in the data compiled for this report. Product names suggest nasal spray and orally disintegrating formulations in addition to standard tablets.
 
 | DIN | Product Name |
 |---------|------|
-| 2248993 | ZOMIG NASAL SPRAY |
-| 2243045 | ZOMIG RAPIMELT |
-| 2419521 | MINT-ZOLMITRIPTAN |
-| 2421534 | NAT-ZOLMITRIPTAN |
-| 2489392 | NRA-ZOLMITRIPTAN |
+| 02238660 | ZOMIG |
+| 02243045 | ZOMIG RAPIMELT |
+| 02248992 | ZOMIG NASAL SPRAY |
+| 02248993 | ZOMIG NASAL SPRAY |
+| 02313960 | TEVA-ZOLMITRIPTAN |
+
+The remaining 11 authorizations are generic products, including Sandoz, Teva (OD), Mint, Nat, NRA, Mar, Bio, Jamp and Auro versions.
+
+---
 
 ## Safety Considerations
 
-No drug-interaction records were found, and no warning or contraindication data was supplied.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: the drug-disease contraindication links include
+  - Cardiovascular and cerebrovascular conditions: coronary artery disease, myocardial infarction, myocardial ischemia, Prinzmetal angina, Wolff-Parkinson-White syndrome, stroke, transient ischemic attack, cerebral infarction, brain ischemia, intracranial arteriosclerosis, vertebrobasilar insufficiency, peripheral vascular disease, Raynaud disease
+  - Blood pressure: hypertension
+  - Organ disease: kidney disease, liver disease, gallbladder disease
+  - Other: ischemic bowel disease, hemoglobinopathy, familial or sporadic hemiplegic migraine
+- **Drug Interactions**: 82 interactions were recorded. Those rated **Major** include lorcaserin, dolasetron, palonosetron, ondansetron, granisetron, dexfenfluramine, fenfluramine and sibutramine, which are mostly serotonergic agents. **Moderate** interactions include morphine, cimetidine and obeticholic acid.
+- **Case report**: a published case describes acute myocardial infarction associated with zolmitriptan, consistent with the vasoconstriction concern for triptans.
 
-Please refer to the package insert for safety information. Triptan class labelling has historically advised caution or contraindication in basilar-type (brainstem aura) migraine, so this must be checked against the current Canadian label.
+The package insert warnings and contraindications were not available for this report, so please refer to the package insert for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible but sits at evidence level L4, with no registered trials and no zolmitriptan data specific to brainstem aura. The class safety concern in basilar-type migraine, combined with missing Canadian warnings and contraindications, means safety must be cleared before any efficacy case is made.
+The mechanistic link to migraine with brainstem aura is plausible, but there are no clinical trials and no publications that specifically evaluate zolmitriptan in this subtype. The high TxGNN score mainly reflects similarity to the approved migraine indication. Triptans have historically carried cautionary labeling for brainstem aura, and the knowledge graph lists many cerebrovascular contraindications. The other two predicted indications (atrophoderma vermiculata and ulerythema ophryogenesis) have no plausible mechanistic link, no trials and no literature, and should also stay on hold.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, especially for basilar-type and hemiplegic migraine (this is currently blocking)
-- Mechanism-of-action data from DrugBank
-- Relevance screening and review of the full 19 publications, including the 2001 basilar migraine report
-- Evidence specific to brainstem aura, such as registered trials or case series with an ischaemic-risk assessment
-- Approved-indication text and dosage forms for the Canadian licences
+- Health Canada package insert warnings and contraindications, especially for basilar-type or brainstem aura (this is a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- A focused literature review and safety assessment for triptan use in brainstem aura, including vasoconstriction and stroke risk
+- Approved indication text and dosage forms for the Canadian products
+- If the safety review is acceptable, a well-designed clinical study in this specific subtype
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

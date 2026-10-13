@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Model Prediction Only (L5)
-nav_order: 981
+nav_order: 988
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,8 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Zanamivir is a viral neuraminidase inhibitor used against influenza A and B.
-The TxGNN model predicts it may be effective for **pyelonephritis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
+Zanamivir is an antiviral drug originally used to treat influenza.
+The TxGNN model predicts it may be effective for **pyelonephritis**, but **no clinical trials and no publications** currently support this direction. The prediction rests on the model alone.
 
 ---
 
@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for **pyelonephritis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Influenza A/B (the Canadian license record does not list indication text) |
+| Original Indication | Influenza (the Canadian license record contains no indication text; the indication comes from the knowledge graph) |
 | Predicted New Indication | Pyelonephritis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
@@ -54,9 +54,11 @@ The TxGNN model predicts it may be effective for **pyelonephritis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the input. Zanamivir is a neuraminidase (sialidase) inhibitor, a class that acts on influenza A and B viruses.
+Currently, detailed mechanism of action data is not available. Zanamivir is known to be a viral neuraminidase inhibitor, and its efficacy in influenza is established. However, the mechanism does not readily extend to pyelonephritis.
 
-Pyelonephritis is a kidney infection caused mainly by bacteria, such as uropathogenic *E. coli*. Zanamivir has no established antibacterial activity, and no credible mechanistic link between the two was found. The very high score (99.84%) is a graph-based prediction only. With no trials or literature behind it, it may be an artifact of the knowledge graph. The original indication and mechanism data are also missing from the input, so the prediction cannot be cross-checked against them.
+Pyelonephritis is mainly a bacterial infection of the upper urinary tract, most often caused by *E. coli*. Some bacteria produce neuraminidase-like enzymes (sialidases), but zanamivir has no established antibacterial activity. Its poor systemic bioavailability (inhaled or intravenous use only) further limits plausibility.
+
+The very high TxGNN score (99.84%) is a graph-based prediction. It most likely reflects the shared "infection" neighbourhood in the knowledge graph rather than a biological mechanism. It should be treated as a hypothesis-generating signal, not as supporting evidence.
 
 ---
 
@@ -68,7 +70,9 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for pyelonephritis.
+
+*Note on the second-ranked prediction (disorder of tyrosine metabolism, score 99.02%):* the three publications retrieved concern oseltamivir resistance, a neuraminidase inhibition assay, and a neuraminidase mutation in H5N1 influenza. None address tyrosine metabolism, and no mechanistic link is apparent. This prediction is likely a knowledge-graph artifact.
 
 ---
 
@@ -76,13 +80,23 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2240863 | RELENZA | Not listed | Not listed |
+| 02240863 | RELENZA | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Knowledge-graph contraindication associations** (these come from the model's knowledge graph, not from label text, and should be verified against the product monograph):
+- Epilepsy
+- Chronic obstructive pulmonary disease (including severe early-onset COPD)
+- Bronchial disease
+- Delirium
+
+**Drug Interactions** (8 recorded; only one has a severity rating):
+- Insulin human (inhalation, rapid acting): Moderate
+- Severity not classified: clarithromycin, loratadine, montelukast, ketotifen, fexofenadine, ibuprofen, diclofenac
+
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -91,15 +105,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (Evidence Level L5). No trials or publications exist for pyelonephritis, and the pharmacology (antiviral, neuraminidase inhibition) does not plausibly fit a bacterial kidney infection.
-
-The second-ranked prediction, disorder of tyrosine metabolism (score 99.02%), is also on Hold. Its three retrieved publications concern influenza neuraminidase inhibitor resistance and assays, not that disease, so they give no clinical support.
+Evidence is limited to a model prediction (L5). There are no clinical trials or relevant publications, and no plausible mechanistic link between a viral neuraminidase inhibitor and a bacterial kidney infection. The poor systemic exposure of zanamivir further reduces feasibility.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Original indication and dosage form details for the Canadian license
-- Any direct preclinical or clinical evidence linking zanamivir to pyelonephritis, plus an assessment of route compatibility
+- Mechanism of action data and a credible biological rationale for activity in pyelonephritis
+- Evidence of antibacterial or relevant host-directed activity (preclinical studies)
+- Route and formulation compatibility assessment, since zanamivir is available only by inhalation or intravenous use
+- Health Canada product monograph warnings and contraindications, to complete safety screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

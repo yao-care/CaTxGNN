@@ -2,7 +2,7 @@
 layout: default
 title: Salmeterol
 parent: High Evidence (L1-L2)
-nav_order: 828
+nav_order: 835
 evidence_level: L1
 indication_count: 7
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-# Salmeterol: From Established COPD Use to Bronchitis
+# Salmeterol: From Asthma and COPD to Bronchitis
 
 ## One-Sentence Summary
 
-Salmeterol is a long-acting beta2-adrenergic agonist (LABA) inhaled for obstructive airway disease. It is already marketed in Canada, alone and in fluticasone combination products.
-The TxGNN model predicts it may be effective for **bronchitis**, with **16 clinical trials** and **20 publications** currently supporting this direction.
-Most of this evidence comes from COPD populations that include chronic bronchitis, so this is largely a confirmation of an existing use rather than a true repurposing.
-
----
+Salmeterol is a long-acting beta2-agonist (LABA) bronchodilator, originally used for pulmonary emphysema, intrinsic asthma and allergic asthma.
+The TxGNN model predicts it may be effective for **bronchitis** (score 99.92%), with **9 clinical trials** and **20 publications** compiled for this prediction.
+Bronchitis here is essentially chronic bronchitis within COPD, which is already covered by existing salmeterol use, so this is better seen as an adjacent or on-label indication than as true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (Health Canada indication text is not available) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L1 |
@@ -50,84 +49,78 @@ Most of this evidence comes from COPD populations that include chronic bronchiti
 | Number of DINs | 12 |
 | Recommended Decision | Proceed with Guardrails |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on known pharmacology, salmeterol is a long-acting beta2-adrenergic agonist. It relaxes airway smooth muscle and may also improve mucociliary and cough clearance, which is relevant to chronic bronchitis.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, salmeterol is a long-acting beta2-adrenoceptor agonist. It relaxes airway smooth muscle and may also improve mucociliary clearance.
 
-Chronic bronchitis is a component of COPD, and salmeterol is used alone or with fluticasone in COPD. Many of the matched trials enrolled COPD patients, including those with chronic bronchitis. One small clinical study (n=14) specifically examined salmeterol's effect on mucociliary and cough clearance in chronic bronchitis.
-
-The Canadian license records provided do not list approved indication text, so the exact bronchitis-related labelling should be confirmed from the product monographs.
-
----
+Chronic bronchitis is a major COPD phenotype, and the original indications (emphysema, asthma) are also obstructive airway diseases. A small randomized study in 14 patients with chronic bronchitis supports an effect on mucociliary and cough clearance (PMID 15970448). Salmeterol, alone or combined with fluticasone, has also been widely studied in COPD.
 
 ## Clinical Trial Evidence
 
-16 related trials were found. The most relevant are listed below.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Phase 3 | Completed | 130 | Salmeterol/fluticasone 50/500 mcg vs placebo for bronchial anti-inflammatory activity in COPD over 13 weeks |
-| [NCT00633217](https://clinicaltrials.gov/study/NCT00633217) | Phase 4 | Completed | 247 | Fluticasone/salmeterol HFA MDI vs DISKUS in COPD, 12-week efficacy and safety comparison |
-| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Phase 3 | Completed | 122 | 56-week long-term safety study of salmeterol/fluticasone 50/500 in COPD (chronic bronchitis, emphysema) |
-| [NCT00269126](https://clinicaltrials.gov/study/NCT00269126) | Phase 3 | Completed | 150 | 18-week comparison of two medicines in COPD; comparator not specified in the record |
-| [NCT00857766](https://clinicaltrials.gov/study/NCT00857766) | Phase 4 | Completed | 249 | Effect of fluticasone/salmeterol DISKUS 250/50 on arterial stiffness vs placebo in COPD over 16 weeks |
-| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | Completed | 799 | 12-month safety study of arformoterol vs an active comparator in COPD; salmeterol is likely the comparator |
-| [NCT01110200](https://clinicaltrials.gov/study/NCT01110200) | Phase 4 | Completed | 639 | Fluticasone/salmeterol vs salmeterol alone on COPD exacerbation rate after hospitalization |
-| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Phase 3 | Completed | 584 | Six-month comparison of tiotropium, salmeterol and placebo for bronchodilator efficacy and safety in COPD |
-| [NCT01332409](https://clinicaltrials.gov/study/NCT01332409) | N/A | Completed | 2000 | Post-marketing drug use investigation of salmeterol/fluticasone in COPD (chronic bronchitis/emphysema), with pneumonia as a priority safety item |
-| [NCT00233051](https://clinicaltrials.gov/study/NCT00233051) | N/A | Terminated | 20 | Biomarker study of inflammatory gene expression in induced sputum in COPD |
-
----
+| [NCT00268177](https://clinicaltrials.gov/study/NCT00268177) | Phase 3 | Completed | 130 | Salmeterol/fluticasone 50/500 mcg vs placebo for 13 weeks; bronchial anti-inflammatory effects in COPD |
+| [NCT02173691](https://clinicaltrials.gov/study/NCT02173691) | Phase 3 | Completed | 584 | Tiotropium vs salmeterol vs placebo over 6 months; bronchodilator efficacy and safety in COPD |
+| [NCT00269087](https://clinicaltrials.gov/study/NCT00269087) | Phase 3 | Completed | 122 | 56-week long-term safety of salmeterol/fluticasone 50/500 in COPD (chronic bronchitis, emphysema) |
+| [NCT00269126](https://clinicaltrials.gov/study/NCT00269126) | Phase 3 | Completed | 150 | Comparison of two medicines in COPD; the salmeterol link is not confirmed from the title |
+| [NCT00064415](https://clinicaltrials.gov/study/NCT00064415) | Phase 3 | Completed | 799 | 12-month safety of arformoterol vs active control in COPD; salmeterol is a comparator |
+| [NCT00064402](https://clinicaltrials.gov/study/NCT00064402) | Phase 3 | Completed | 741 | Arformoterol vs placebo and active control in COPD; salmeterol is likely the comparator |
+| [NCT00403286](https://clinicaltrials.gov/study/NCT00403286) | Phase 2 | Completed | 457 | Dose-finding of fluticasone/formoterol, benchmarked against Advair Diskus |
+| [NCT01361984](https://clinicaltrials.gov/study/NCT01361984) | Phase 4 | Unknown | 20 | Nebulized arformoterol vs salmeterol dry-powder inhaler on inspiratory capacity in COPD |
+| [NCT00233051](https://clinicaltrials.gov/study/NCT00233051) | Not applicable | Terminated | 20 | Sputum gene expression as a biomarker of drug response in COPD |
 
 ## Literature Evidence
 
-20 related publications were found. The most relevant are listed below.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | RCT | Chest | Compared fluticasone 250 mcg/salmeterol 50 mcg in one Diskus inhaler with placebo and the individual agents in COPD |
-| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | RCT | Ther Adv Respir Dis | 12-month safety and tolerance comparison of arformoterol and salmeterol in COPD |
-| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | RCT | Clin Ther | Open-label comparison of inhaled salmeterol with oral theophylline in mild-to-moderate COPD, covering efficacy, tolerability and quality of life |
-| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | Clinical study | Pulm Pharmacol Ther | Acute effect of salmeterol vs placebo on mucociliary and cough clearance in 14 patients with mild-to-moderate chronic bronchitis |
-| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | Cohort | Curr Med Res Opin | Hospitalization/ED risk and healthcare costs in chronic bronchitis patients starting fluticasone/salmeterol vs other inhaled maintenance therapies |
-| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | Meta-analysis | Respir Res | Pooled effect of salmeterol 50 mcg twice daily plus usual therapy vs placebo/usual therapy in COPD |
-| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Review | Drugs | Review of inhaled salmeterol/fluticasone in COPD; in the US the combination is approved for COPD associated with chronic bronchitis |
-| [16915216](https://pubmed.ncbi.nlm.nih.gov/16915216/) | 2006 | Patient experience trial | MedGenMed | Management of COPD associated with chronic bronchitis using Advair Diskus 250/50 |
-
----
+| [15970448](https://pubmed.ncbi.nlm.nih.gov/15970448/) | 2006 | RCT/Clinical study | Pulm Pharmacol Ther | Salmeterol vs placebo on mucociliary and cough clearance in 14 patients with chronic bronchitis |
+| [17557771](https://pubmed.ncbi.nlm.nih.gov/17557771/) | 2007 | RCT | Thorax | Salmeterol/fluticasone effect on airway inflammation in COPD |
+| [17196106](https://pubmed.ncbi.nlm.nih.gov/17196106/) | 2006 | Meta-analysis | Respir Res | Salmeterol 50 mcg twice daily improved clinically relevant outcomes in COPD vs placebo/usual therapy |
+| [12970006](https://pubmed.ncbi.nlm.nih.gov/12970006/) | 2003 | Clinical study | Chest | Fluticasone 250/salmeterol 50 in the Diskus vs placebo and individual agents in COPD |
+| [15329047](https://pubmed.ncbi.nlm.nih.gov/15329047/) | 2004 | Review | Drugs | Review of salmeterol/fluticasone in COPD, including approval for COPD with chronic bronchitis |
+| [19210134](https://pubmed.ncbi.nlm.nih.gov/19210134/) | 2009 | Cohort | Curr Med Res Opin | Healthcare use and costs in chronic bronchitis patients starting fluticasone/salmeterol vs other inhaled maintenance therapies |
+| [19124357](https://pubmed.ncbi.nlm.nih.gov/19124357/) | 2008 | Clinical study | Ther Adv Respir Dis | One-year safety and tolerance of arformoterol vs salmeterol in COPD |
+| [9916607](https://pubmed.ncbi.nlm.nih.gov/9916607/) | 1998 | Open-label study | Clin Ther | Inhaled salmeterol vs oral theophylline in mild-to-moderate COPD |
+| [12236842](https://pubmed.ncbi.nlm.nih.gov/12236842/) | 2002 | Review | Br J Clin Pharmacol | Long-acting beta2-agonists in asthma; additive effects on exacerbations, with a possible steroid-sparing effect |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish guideline on diagnosis and pharmacotherapy of stable COPD |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02231129 | SEREVENT DISKUS (50MCG/DOSE) |
-| 02495600 | WIXELA INHUB |
-| 02494523 | PMS-FLUTICASONE PROPIONATE/SALMETEROL DPI |
-| 02495619 | WIXELA INHUB |
-| 02245127 | ADVAIR |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02231129 | SEREVENT DISKUS (50MCG/DOSE) | Not listed | Not listed |
+| 02245127 | ADVAIR | Not listed | Not listed |
+| 02240837 | ADVAIR 500 DISKUS | Not listed | Not listed |
+| 02495600 | WIXELA INHUB | Not listed | Not listed |
+| 02494523 | PMS-FLUTICASONE PROPIONATE/SALMETEROL DPI | Not listed | Not listed |
 
----
+Twelve valid single-ingredient licences are on record in Canada. Only five are listed here.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication signals from the knowledge graph (not label text):** hypertension, long QT syndrome, familial long QT syndrome, epilepsy, hyperglycemia, herpes simplex virus keratitis, pituitary hormone deficiencies (including hypopituitarism and Kallmann syndrome), thymus gland disease and osteoporosis. These come from a model-derived knowledge graph and need confirmation against the Canadian product monograph.
 
----
+**Drug interactions:** 100 interactions were found. The main ones are:
+- **Major:** clarithromycin
+- **Moderate:** epinephrine, isometheptene, famotidine, dolasetron, diethylpropion, and several antidiabetic drugs (acarbose, alogliptin, canagliflozin, dapagliflozin, empagliflozin, chlorpropamide, albiglutide, dulaglutide)
+- **Minor:** corticosteroids (hydrocortisone, dexamethasone, budesonide, beclomethasone, betamethasone, triamcinolone)
+
+**Class considerations from the literature:** Cochrane reviews report serious adverse event concerns with regular salmeterol in asthma, so it should not be used without an inhaled corticosteroid there (PMID 30521673, 23543548, 19588410).
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 and Phase 4 trials and several RCTs support salmeterol, alone or combined with fluticasone, in COPD populations that include chronic bronchitis. However, this largely confirms an existing marketed use, and bronchitis is not directly tested as a separate condition. Safety and labelling data are also missing from the record.
+- Several completed Phase 3 trials, a meta-analysis and an RCT support salmeterol, alone or with fluticasone, in COPD including chronic bronchitis. The use is largely on-label or adjacent, and the evidence is sufficient.
+- Package insert warnings and contraindications are not yet available, so the safety review is incomplete.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph warnings and contraindications (blocking for safety screening)
-- Approved indication text for each Canadian DIN, to confirm whether bronchitis or chronic bronchitis is already covered
+- Health Canada product monograph warnings, contraindications, dosage forms and approved indications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- A clear statement of whether the target is chronic bronchitis within COPD or acute bronchitis, since the trial evidence supports only the former
+- Confirmation of whether "bronchitis" means chronic bronchitis within COPD, and whether the existing Canadian labelling already covers it
+- Review of the major clarithromycin interaction and the cardiovascular and QT-related signals
+- Use alongside an inhaled corticosteroid where applicable (asthma)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

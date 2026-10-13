@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Triptorelin
-parent: Model Prediction Only (L5)
-nav_order: 944
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 951
+evidence_level: L1
 indication_count: 10
 ---
 
 # Triptorelin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triptorelin: From an Unlisted Original Indication to Hypertrichosis
+# Triptorelin: From Hormone-Dependent Conditions to Precocious Puberty
 
 ## One-Sentence Summary
 
-Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist marketed in Canada under the brands Trelstar and Decapeptyl. The pack does not record its original approved indication.
-The TxGNN model ranks **hypertrichosis** first (score 99.997%), but there are **0 clinical trials** and only **1 publication**, a case report that does not show benefit.
-The prediction is not supported by evidence.
+Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist marketed in Canada under the brand names Trelstar and Decapeptyl. The TxGNN model predicts it may be effective for **precocious puberty**, supported by **8 clinical trials** and **20 publications** in the data compiled for this report. Note that central precocious puberty is already an established use of triptorelin, so this result mostly confirms known use rather than revealing a truly new one.
 
 ---
 
@@ -43,29 +41,40 @@ The prediction is not supported by evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the supplied data |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L5 (the pack assigns L4, but its only publication reports a ciclosporin side effect, not a triptorelin benefit) |
+| Original Indication | Not available (no approved indication text was provided in the Canadian licence data) |
+| Predicted New Indication | Precocious puberty |
+| TxGNN Prediction Score | 99.89% |
+| Evidence Level | L1 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
+
+Note: The top-ranked prediction by TxGNN score is hypertrichosis (99.997%). It is not recommended for follow-up, because its only supporting paper describes hypertrichosis as an adverse effect of a different drug (ciclosporin). This report focuses on precocious puberty, the prediction with the strongest evidence.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Triptorelin is a GnRH agonist. Continuous exposure desensitises pituitary gonadotrophs and suppresses LH, FSH and gonadal sex steroids.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on established pharmacology, triptorelin is a GnRH agonist. With continuous exposure it desensitises and downregulates GnRH receptors in the pituitary gland. This suppresses LH and FSH release and lowers gonadal sex steroids.
 
-The link to hypertrichosis is weak. Hypertrichosis is not a recognised androgen-driven condition (unlike hirsutism), so suppressing gonadal androgens gives no clear reason to expect benefit.
+Central precocious puberty is driven by premature activation of the hypothalamic-pituitary-gonadal axis. Shutting down this axis with a GnRH agonist halts or slows pubertal progression, which is why GnRH agonists are the standard treatment. The link between triptorelin's mechanism and this condition is direct and well established. Several Phase 3 studies of the 1-, 3- and 6-month formulations support this.
 
-The only retrieved publication is a 2026 case report of ciclosporin-induced hypertrichosis in a transgender woman with psoriasis. She was also taking estradiol and a testosterone blocker, which the report lists as triptorelin. The hypertrichosis is attributed to ciclosporin, and the case shows it can occur despite androgen suppression. This is not evidence that triptorelin treats hypertrichosis. The high TxGNN score should be treated as an unverified model output.
+Other predictions are much weaker. Familial male-limited precocious puberty (testotoxicosis) is driven by gonadotropin-independent testosterone production, so GnRH agonists are generally ineffective alone. Triptorelin may only help as an add-on if secondary central puberty develops. Aromatase excess syndrome is similarly indirect. The remaining predictions (genetic hair disorders, malformation syndromes, allergic urticaria) have no plausible mechanistic link and no supporting evidence. Their high scores are likely artefacts of graph propagation.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00564850](https://clinicaltrials.gov/study/NCT00564850) | Phase 3 | Completed | 37 | Non-comparative study of triptorelin pamoate 11.25 mg in delaying puberty in girls under 9 and boys under 10 years; measures LH suppression after GnRH test |
+| [NCT00909844](https://clinicaltrials.gov/study/NCT00909844) | Phase 3 | Completed | 35 | Long-term follow-up of the 11.25 mg study; proportion of children maintaining regression or stabilisation of sexual maturity |
+| [NCT01467882](https://clinicaltrials.gov/study/NCT01467882) | Phase 3 | Completed | 44 | Open-label study of efficacy, safety and pharmacokinetics of the 22.5 mg 6-month formulation in central precocious puberty |
+| [NCT04736602](https://clinicaltrials.gov/study/NCT04736602) | Phase 3 | Completed | 32 | Single-arm study of the 3-month formulation in Chinese children with central precocious puberty |
+| [NCT05029622](https://clinicaltrials.gov/study/NCT05029622) | Phase 3 | Completed | 66 | Single-arm study of the 6-month formulation in Chinese children; LH suppression to prepubertal levels at Month 6 |
+| [NCT01278290](https://clinicaltrials.gov/study/NCT01278290) | Phase 3 | Completed | 46 | Diagnostic use: triptorelin test versus GnRH test for early diagnosis of central precocious puberty in girls |
+| [NCT06487143](https://clinicaltrials.gov/study/NCT06487143) | Phase 4 | Not yet recruiting | 134 | Compares 3-month and 1-month formulations on efficacy, glucose and lipid metabolism, and bone density |
+| [NCT00438217](https://clinicaltrials.gov/study/NCT00438217) | Phase 4 | Unknown | 100 | Genetic and environmental factors affecting growth in children with precocious puberty (not a direct efficacy test) |
 
 ---
 
@@ -73,48 +82,59 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case report | Cureus | Generalised hypertrichosis caused by ciclosporin in a transgender woman on estradiol and triptorelin. Androgen suppression did not prevent it. No therapeutic benefit of triptorelin is shown. |
+| [39412628](https://pubmed.ncbi.nlm.nih.gov/39412628/) | 2024 | Phase 3 single-arm trial | Advances in Therapy | Efficacy, safety and pharmacokinetics of the 6-month formulation in Chinese children with central precocious puberty |
+| [37266535](https://pubmed.ncbi.nlm.nih.gov/37266535/) | 2023 | Comparative study / Meta-analysis | Frontiers in Pediatrics | Compares leuprolide and triptorelin for efficacy and tolerability in idiopathic central precocious puberty |
+| [37584898](https://pubmed.ncbi.nlm.nih.gov/37584898/) | 2023 | Phase 3 single-arm study | Advances in Therapy | Efficacy and safety of the 3-month formulation in Chinese children |
+| [29957076](https://pubmed.ncbi.nlm.nih.gov/29957076/) | 2018 | Review | Expert Review of Clinical Pharmacology | Reviews triptorelin depot in children aged 2 years and older, including adult height outcomes and the 3- and 6-month formulations |
+| [27191050](https://pubmed.ncbi.nlm.nih.gov/27191050/) | 2016 | Review | Archives of Endocrinology and Metabolism | Diagnosis and treatment of central precocious puberty |
+| [26887034](https://pubmed.ncbi.nlm.nih.gov/26887034/) | 2016 | Clinical study | J Pediatr Endocrinol Metab | First study of the 6-month formulation in central precocious puberty |
+| [36875449](https://pubmed.ncbi.nlm.nih.gov/36875449/) | 2023 | Clinical study | Frontiers in Endocrinology | Effect of the 6-month formulation on predicted adult height and basal gonadotropin levels |
+| [40916129](https://pubmed.ncbi.nlm.nih.gov/40916129/) | 2025 | Cohort / Comparative | Ann Pediatr Endocrinol Metab | Leuprolide acetate versus triptorelin pamoate in overweight and obese girls with central precocious puberty |
+| [41384863](https://pubmed.ncbi.nlm.nih.gov/41384863/) | 2025 | Diagnostic accuracy study | Endocrine Connections | Subcutaneous triptorelin as an alternative to GnRH stimulation testing in girls |
+| [34826116](https://pubmed.ncbi.nlm.nih.gov/34826116/) | 2022 | Diagnostic study | Endocrine | Triptorelin-stimulated LH for diagnosing central precocious puberty compared with the GnRH test |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2240000 | TRELSTAR |
-| 2243856 | TRELSTAR |
-| 2389282 | DECAPEPTYL |
-| 2412322 | TRELSTAR |
-
-Dosage form and approved indication text were not supplied for these authorisations.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02240000 | TRELSTAR | Not specified | Not specified |
+| 02243856 | TRELSTAR | Not specified | Not specified |
+| 02389282 | DECAPEPTYL | Not specified | Not specified |
+| 02412322 | TRELSTAR | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+**Contraindications suggested by the knowledge graph** (these come from drug-disease relationships in the TxGNN knowledge graph, not from label text): hypertensive disorder, hypertension, kidney disease, pyoureter, liver disease, gallbladder disease, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, obesity disorder, monogenic obesity, urinary tract obstruction, and spinal cord disease.
+
+**Drug Interactions**: 100 interactions were identified in the interaction database. Most are rated Moderate. The one Major interaction in the listed results is with **dolasetron**. Moderate interactions include:
+- Antidiabetic agents: acarbose, alogliptin, albiglutide, dulaglutide, saxagliptin, metformin, pioglitazone, glimepiride, chlorpropamide, and SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin)
+- Others: famotidine, clarithromycin, palonosetron, loperamide, bisacodyl, picosulfuric acid, and polyethylene glycol with electrolytes
+
+The antidiabetic interactions are consistent with the knowledge-graph warnings on hyperglycaemia and diabetes.
+
+Please refer to the package insert for official warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails** (for precocious puberty only)
 
 **Rationale:**
-There is no plausible mechanism, no trial, and no supportive literature for hypertrichosis. The model score is the only support.
+- Five completed Phase 3 studies of triptorelin in precocious puberty, covering the 1-, 3- and 6-month formulations, support efficacy and safety, and the mechanism is direct and well established. The evidence is still limited by small, non-comparative, single-arm designs, and central precocious puberty is already a known use of the drug.
+- All other predictions, including the top-scoring hypertrichosis, should be held. They have no credible mechanism and little or no supporting evidence. Familial male-limited precocious puberty remains a research question only.
 
 **To proceed, the following is needed:**
-- The Health Canada approved indications and product monograph (warnings, contraindications), which are missing from the pack
-- Mechanism of action data from DrugBank
-- A mechanistic rationale and prospective evidence for hypertrichosis; without these, no further investment is advised
-
-**Note on other predictions in this pack:**
-- **Precocious puberty (rank 8, score 99.89%)** is the only candidate with substantial evidence.
-  - Evidence: several completed Phase 3 single-arm trials of 1-, 3- and 6-month triptorelin formulations, plus published efficacy and adult-height data. The pack rates it L1, S3, "Proceed with Guardrails".
-  - It is effectively an established or on-label use for central (GnRH-dependent) precocious puberty rather than new repurposing. Local labelling should be confirmed.
-  - Guardrails: trials are mostly single-arm and non-comparative, and peripheral forms are not covered.
-- **Familial male-limited precocious puberty (rank 7)** has only small case series, mostly of antiandrogen or aromatase-inhibitor regimens. The pack treats it as a research question.
-- The remaining candidates (Ambras syndrome, Dandy-Walker syndrome, hair shaft abnormality, allergic urticaria, trichomegaly, aromatase excess syndrome, odontal malformation syndrome) have no trials and no drug-specific literature. The periodontal literature appears to be keyword-matched noise.
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text, dosage forms and manufacturers for the four Canadian licences, to confirm whether precocious puberty is already labelled in Canada
+- Detailed mechanism-of-action data
+- Clear separation of diagnostic use (triptorelin stimulation test) from therapeutic use
+- Confirmation that therapy is limited to central (gonadotropin-dependent) forms, since peripheral or gonadotropin-independent forms are not supported by this evidence
+- Safety review for patients with diabetes, obesity or metabolic disease, given the knowledge-graph warnings and interactions, plus metabolic and bone-density monitoring (as in NCT06487143)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

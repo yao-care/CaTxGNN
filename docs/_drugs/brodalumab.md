@@ -2,7 +2,7 @@
 layout: default
 title: Brodalumab
 parent: Model Prediction Only (L5)
-nav_order: 124
+nav_order: 126
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Brodalumab: From Plaque Psoriasis to Strongyloidiasis
+# Brodalumab: From an Unspecified Original Indication to Strongyloidiasis
 
 ## One-Sentence Summary
 
-Brodalumab (Canadian brand SILIQ) is an IL-17 receptor A (IL-17RA) antagonist, originally used for immune-mediated skin disease (plaque psoriasis).
-The TxGNN model predicts it may be effective for **strongyloidiasis**, a parasitic worm infection, with a high score of 99.84%.
-However, there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
+Brodalumab is an IL-17 receptor A antagonist marketed in Canada as SILIQ. The approved indication text is not available in the data compiled for this report.
+The TxGNN model's top-ranked prediction is **strongyloidiasis**, with **0 clinical trials** and **0 publications** supporting it. This prediction is model-only and has no supporting biology.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Plaque psoriasis (general drug knowledge; the Canadian licence record contains no indication text) |
+| Original Indication | Not available in the compiled data (the license record has no indication text) |
 | Predicted New Indication | Strongyloidiasis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
@@ -51,11 +50,11 @@ However, there are **0 clinical trials** and **0 publications** supporting this 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, brodalumab blocks the IL-17 receptor A, which dampens IL-17-driven inflammation in immune-mediated diseases.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, brodalumab is an IL-17 receptor A (IL-17RA) antagonist. It blocks signaling by IL-17 family cytokines.
 
-On the available data, this prediction is **not mechanistically convincing**. Strongyloidiasis is an infection, and IL-17 signalling helps defend barrier sites such as skin and gut. Blocking IL-17RA is therefore more likely to raise infection risk than to treat an infection. The high TxGNN score most likely reflects knowledge-graph patterns rather than a real therapeutic link.
+There is no clear mechanistic link to strongyloidiasis. IL-17 signaling contributes to antiparasitic and mucosal host defense, so blocking it could plausibly **increase** infection risk rather than reduce it. The high TxGNN score appears to be a graph-based artifact with no supporting biology, and it should not be treated as a therapeutic signal.
 
-No similarity analysis between the original and predicted indications has been completed. No route-of-administration compatibility analysis has been completed either.
+The other top-ranked predictions are weak too. Several are ocular or optic inflammatory conditions (eye disease, optic neuritis, neuroretinitis, episcleritis). Their rationale is only speculative Th17 involvement, and none has clinical trials. The one with some literature, "eye disease", is too broad to support a specific indication.
 
 ## Clinical Trial Evidence
 
@@ -63,38 +62,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for strongyloidiasis.
+
+For reference, the second-ranked prediction ("eye disease") has three publications. None shows therapeutic benefit, and two point to possible safety concerns:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [42576218](https://pubmed.ncbi.nlm.nih.gov/42576218/) | 2026 | Preclinical (animal model) | J Transl Med | IL-17R blockade with brodalumab limited experimental periodontitis; not an eye indication |
+| [41770262](https://pubmed.ncbi.nlm.nih.gov/41770262/) | 2026 | Case report | Rheumatol Int | Behçet's disease developed as a paradoxical reaction after brodalumab initiation in a patient with chronic non-bacterial osteitis |
+| [41916603](https://pubmed.ncbi.nlm.nih.gov/41916603/) | 2026 | Pharmacovigilance analysis | Can J Ophthalmol | Real-world analysis of systemic drugs disproportionately associated with reported uveitis events |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2473623 | SILIQ |
-
-Dosage form and approved indication text are not recorded in the licence data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02473623 | SILIQ | Not specified | Not specified |
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records (0 found). This is not evidence that there are no interactions.
-- **Boxed warning noted in the Evidence Pack**: Suicidal ideation and behaviour. This would need particular attention in any new patient population.
+- **Knowledge-graph contraindication signals** (from drug-disease edges in the TxGNN knowledge graph, not from label text): Crohn disease, inflammatory bowel disease, Crohn's colitis.
+- **Drug Interactions**: 68 interactions were found. The main ones are:
+  - **Major**: adalimumab, baricitinib, certolizumab pegol, and live BCG vaccine (Tice substrain).
+  - **Moderate**: roflumilast, alefacept, alemtuzumab, anakinra, canakinumab, and several vaccines (tetanus toxoid, anthrax, adenovirus type 4, live cholera, *Candida albicans* antigen). These indicate additive immunosuppression and live-vaccine concerns.
+  - **Minor**: zinc salts (acetate, gluconate, sulfate, chloride).
+- Mechanistically, IL-17 blockade may weaken host defense against infection. This is directly relevant to a parasitic infection such as strongyloidiasis.
 
-Please refer to the package insert for full warnings and contraindications.
+For warnings and contraindications from the label, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials or literature behind it, and the IL-17 host-defence role points toward increased rather than decreased infection risk. The Evidence Pack supports no plausible therapeutic rationale for strongyloidiasis.
+The strongyloidiasis prediction rests only on a graph-based score. It has no clinical trials or literature, and no plausible mechanism. The biology suggests blocking IL-17 could worsen infection risk. None of the other top-10 predictions has supportive therapeutic evidence either.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking IL-17RA blockade to strongyloidiasis; without it, further investment is not justified
-
-**Note:** Among the other predictions, "eye disease" (rank 2) has slightly more supporting material, though only an unrelated observational trial and one review. The term is too broad to define an indication. Narrower IL-17-related ocular inflammation such as uveitis or scleritis may be a more useful research question.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Approved indication text and dosage form for SILIQ
+- Mechanism of action data confirmed from DrugBank
+- Any direct preclinical or clinical evidence of benefit for the predicted indication
+- A review of the immune-mediated ocular candidates (e.g., uveitis-type conditions) with narrower disease definitions, taking the paradoxical-reaction and uveitis signals into account
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Sevoflurane
 parent: Model Prediction Only (L5)
-nav_order: 840
+nav_order: 847
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,9 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Sevoflurane is an inhaled volatile anesthetic used for general anesthesia. The Canadian license records in the Evidence Pack do not list an approved indication text.
-> The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
-> It is a model-only signal at this stage.
+Sevoflurane is a volatile (inhaled) anesthetic marketed in Canada under three licences. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but the prediction rests on the model score alone: **no clinical trials** and **no publications** were found for this indication.
 
 ---
 
@@ -43,7 +41,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | General anesthesia (inhaled volatile anesthetic; approved indication text is not recorded in the license data) |
+| Original Indication | Not stated in the Health Canada licence data compiled for this report (sevoflurane is a general anesthetic) |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
@@ -55,11 +53,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sevoflurane is a volatile anesthetic, and its use in general anesthesia is well established. Mechanistically, it may be applicable to Prinzmetal angina only in a speculative sense.
+Currently, detailed mechanism of action data is not available. Based on known information, sevoflurane is a volatile anesthetic used to induce and maintain general anesthesia. Its mechanistic relevance to Prinzmetal angina is theoretical only.
 
-Prinzmetal angina is caused by coronary artery vasospasm. Sevoflurane has known vasodilatory effects and acts on coronary smooth muscle, so a link to vasospasm is conceivable. This is a hypothesis only. Sevoflurane is not an established therapy for this condition. It is given for anesthesia, not for chronic angina management, and nothing in the evidence collected supports it as a treatment.
+Volatile anesthetics have some vasodilatory and calcium-channel-modulating effects that could relate to coronary vasospasm, the cause of Prinzmetal angina. However, no trials or literature support this link. Sevoflurane is a short-term, inhaled, hospital-administered anesthetic, not a chronic anti-anginal therapy, so its practical fit with this condition is poor.
 
-The high score most likely reflects proximity in the knowledge graph rather than demonstrated clinical benefit.
+The high score (0.998) reflects a pattern in the knowledge graph and should not be read as clinical evidence.
 
 ---
 
@@ -73,21 +71,26 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+For context, the other predicted indications in the data also have little support. The strongest literature signal was for tendinitis (9 articles) and was limited to perioperative anesthesia studies in which sevoflurane served as the anesthetic or comparator, not as a treatment. Fibromyalgia, migraine disorder and inclusion body myositis each had a single case report or cohort study about anesthetic management. Six other predictions (Tourette syndrome, idiopathic granulomatous myositis, myositis fibrosa, nephrogenic syndrome of inappropriate antidiuresis, trichotillomania and Prinzmetal angina itself) had no evidence at all.
+
 ---
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2265974 | SEVOFLURANE | Not specified | Not specified |
-| 2307766 | SEVOFLURANE | Not specified | Not specified |
-| 2172763 | SEVORANE AF | Not specified | Not specified |
+| 02265974 | SEVOFLURANE | Not specified | Not specified |
+| 02307766 | SEVOFLURANE | Not specified | Not specified |
+| 02172763 | SEVORANE AF | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-related cautions (knowledge graph, not label text)**: The TxGNN knowledge graph links sevoflurane with contraindication edges for epilepsy, kidney disease, liver disease, gallbladder disease, pyoureter, hypotensive disorder, malignant hyperthermia of anesthesia, exercise-induced malignant hyperthermia, pseudotumor cerebri, intracranial hypertension, Duchenne muscular dystrophy, Becker muscular dystrophy, muscular dystrophy and proteinuria. Hypotension is relevant to any cardiovascular use.
+- **Drug Interactions**: 100 interactions were identified. Major interactions include **epinephrine**, **dolasetron** and **cisapride**. Moderate interactions include famotidine, loperamide, morphine, clarithromycin, levofloxacin, ondansetron, palonosetron, exenatide and several bowel-preparation laxatives (bisacodyl, picosulfuric acid, polyethylene glycol, sodium sulfate, lactitol, lactulose, castor oil). Metronidazole is a minor interaction.
+
+Warnings and contraindications from the Canadian package insert were not available for this report. Please refer to the package insert for these.
 
 ---
 
@@ -96,21 +99,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score (L5), with no trials or publications for Prinzmetal angina. The proposed mechanism is speculative, and sevoflurane is an acute-use anesthetic rather than a chronic angina therapy.
-
-Other predicted indications for this drug also remain at Hold. Several are mechanistically implausible or carry possible harm signals:
-- Migraine: the only registered trial treats headache as an anesthetic adverse effect.
-- Nephrogenic syndrome of inappropriate antidiuresis: sevoflurane has known renal concerns.
-- Inclusion body myositis: volatile anesthetics carry muscle-related risks in myopathies.
+The prediction rests only on a model score, with no clinical trials or publications for Prinzmetal angina. Sevoflurane's short-term inhaled use does not fit a chronic anti-anginal role, and the knowledge graph flags hypotension-related cautions.
 
 **To proceed, the following is needed:**
+- Mechanism of action data and a specific, testable hypothesis for coronary vasospasm
+- Preclinical or early clinical evidence of benefit in Prinzmetal angina
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (for example, from DrugBank) to test the coronary vasospasm hypothesis
-- Preclinical or clinical evidence of sevoflurane's effect on coronary vasospasm
-- Dosage form and route compatibility assessment, since an inhaled anesthetic would need to fit a chronic angina use case
-- Approved indication text for the three Canadian licenses
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Approved indication text and dosage form for each DIN
+- A feasibility assessment of whether an inhaled anesthetic could be delivered in a way suited to this condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

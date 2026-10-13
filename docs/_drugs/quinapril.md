@@ -2,7 +2,7 @@
 layout: default
 title: Quinapril
 parent: Model Prediction Only (L5)
-nav_order: 780
+nav_order: 787
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Quinapril: From ACE-Inhibitor Therapy to Malignant Hypertensive Renal Disease
+# Quinapril: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Quinapril is an ACE inhibitor marketed in Canada under 14 DINs, but the supplied data do not state its approved indication.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, with a score of 99.86%.
-This is a **model prediction only**: **0 clinical trials** and **0 publications** support it.
+Quinapril is an ACE inhibitor originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but currently there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ---
 
@@ -43,7 +43,7 @@ This is a **model prediction only**: **0 clinical trials** and **0 publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied Canadian licence data (drug class: ACE inhibitor) |
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
@@ -55,51 +55,58 @@ This is a **model prediction only**: **0 clinical trials** and **0 publications*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Quinapril is an ACE inhibitor, so its pharmacology is blockade of the renin-angiotensin-aldosterone system (RAAS).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, quinapril belongs to the ACE inhibitor class. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant hypertensive renal disease.
 
-Malignant hypertension with kidney involvement is a severe form of hypertension in which RAAS activation is a plausible driver. Blocking this pathway is therefore biologically coherent with the prediction. That coherence is a hypothesis, not evidence. No trials or literature were supplied for this indication.
+Malignant hypertensive renal disease (hypertensive nephrosclerosis with severe hypertension) involves activation of the renin-angiotensin-aldosterone system (RAAS), so blocking ACE is mechanistically plausible. However, this prediction is largely an extension of the already approved hypertension indication rather than a distinct repurposing opportunity.
 
-The other four predictions are weaker or carry safety flags:
-
-- **Malignant renovascular hypertension** (score 99.86%): mechanistically coherent, because renovascular hypertension is strongly RAAS-driven. Bilateral renal artery stenosis is a known safety concern for ACE inhibitors and would need review before any progression.
-- **Pulmonary hypertension, unclear multifactorial mechanism** (99.85%): the link to systemic RAAS inhibition is weak and non-specific.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.85%): the RAAS hypothesis is plausible but unsupported. The 20 retrieved publications (10 shown) are general hypoxia papers on brain aging, cancer metabolism, multiple sclerosis and altitude. None addresses quinapril or ACE inhibitors, so they appear to be keyword-match artifacts.
-- **Braddock syndrome** (99.79%): no mechanistic rationale can be established from the supplied data. It is likely a knowledge-graph artifact needing expert review.
+The other predicted indications are weaker or less specific:
+- **Malignant renovascular hypertension** (score 99.86%): RAAS activation from renal hypoperfusion makes ACE inhibition coherent, but caution is needed in bilateral renal artery stenosis, where ACE inhibitors can precipitate acute renal failure. No trials or literature are available.
+- **Pulmonary hypertension, unclear multifactorial mechanism** (99.85%): Angiotensin II contributes to pulmonary vascular remodeling, but the heterogeneous causes weaken any specific link. Systemic vasodilators can also cause hypotension or worsen ventilation-perfusion matching.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.85%): This is the only prediction with literature, which consists of preclinical animal studies (L4).
+- **Braddock syndrome** (99.79%): No clear mechanistic rationale; the high score likely reflects graph-based associations rather than biological evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the top-ranked prediction (or for any of the other four predicted indications).
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for the top-ranked prediction. The only publications retrieved belong to the lower-ranked pulmonary hypertension (hypoxia) prediction. They are not relevant to quinapril and are not listed here.
+Currently no related literature available for the top-ranked prediction.
+
+For reference, the only literature found among the predictions relates to rank 4, pulmonary hypertension owing to lung disease and/or hypoxia:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8873672](https://pubmed.ncbi.nlm.nih.gov/8873672/) | 1996 | Preclinical (animal study) | Circulation | Inhibiting tissue ACE with quinapril reduced hypoxic pulmonary hypertension and pulmonary vascular remodeling |
+| [8720418](https://pubmed.ncbi.nlm.nih.gov/8720418/) | 1996 | Preclinical (animal study, cardiac) | J Cardiovasc Pharmacol | Quinapril preserved left ventricular function and energy metabolism in rats after myocardial infarction; only tangentially relevant to pulmonary disease |
 
 ---
 
 ## Canada Market Information
 
-Quinapril has 14 DINs in total. The supplied data list only the product names below. Dosage form, manufacturer and approved-indication text were not provided.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02517477 | JAMP QUINAPRIL | Not specified | Not specified |
+| 02340585 | PMS-QUINAPRIL | Not specified | Not specified |
+| 02517450 | JAMP QUINAPRIL | Not specified | Not specified |
+| 02517469 | JAMP QUINAPRIL | Not specified | Not specified |
+| 02340577 | PMS-QUINAPRIL | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2517477 | JAMP QUINAPRIL |
-| 2340585 | PMS-QUINAPRIL |
-| 2517450 | JAMP QUINAPRIL |
-| 2517469 | JAMP QUINAPRIL |
-| 2340577 | PMS-QUINAPRIL |
+These are 5 of 14 valid single-ingredient authorizations. The remainder include quinapril/hydrochlorothiazide products (APO-QUINAPRIL/HCTZ, AURO-QUINAPRIL HCTZ, JAMP QUINAPRIL / HCTZ).
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: no interaction records were found for this drug in the queried source.
-- **Renovascular note**: bilateral renal artery stenosis is a known safety concern for ACE inhibitors. This is relevant if the malignant renovascular hypertension prediction is pursued.
+- **Contraindications suggested by the knowledge graph** (not taken from label text): kidney disease, angioedema (including hereditary, acquired and RAAS-blocker-induced forms), pancreatitis, liver disease, hepatic coma/encephalopathy, gallbladder disease, systemic lupus erythematosus, diabetes mellitus and diabetic ketoacidosis, potassium deficiency, hypotensive disorder, anuria, neutropenia/agranulocytosis, gout, hyperparathyroidism, and connective tissue, bone and cartilage diseases.
+- **Drug Interactions**: 100 interactions were identified in total. The one rated **Major** among those listed is **potassium citrate**, which raises hyperkalaemia concern with ACE inhibitors. Others listed are Moderate, for example metformin, acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), SGLT2 inhibitors (canagliflozin, dapagliflozin), doxycycline, tetracycline, bupropion, morphine and chlorpropamide.
+- For renovascular indications, caution is needed in bilateral renal artery stenosis because of the risk of acute renal failure.
 
-Please refer to the package insert for warnings and contraindications.
+Official package insert warnings were not available, so please refer to the package insert for full safety information.
 
 ---
 
@@ -108,15 +115,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-All five predictions rest on model scores alone (L5, stage S0), with no supporting trials or relevant literature. The RAAS-blockade rationale is plausible for the two hypertensive-renal predictions. It is weak or absent for the pulmonary hypertension and Braddock syndrome predictions.
+The prediction is supported only by the model score (99.86%), with no clinical trials or literature. The mechanism is plausible, but it mostly overlaps with quinapril's existing hypertension indication, so it offers limited new repurposing value.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications. This is a blocking gap that prevents safety screening.
-- Mechanism of action data from DrugBank.
-- Approved indication text for the Canadian licences, to define the original indication.
-- A targeted search for quinapril or ACE-inhibitor evidence in malignant hypertension with renal involvement.
-- Expert review of the Braddock syndrome prediction.
-- Route compatibility and similarity-to-original assessments, both still pending.
+- Package insert warnings and contraindications from Health Canada (currently a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A literature and trial search for ACE inhibitors in malignant hypertensive nephrosclerosis and renovascular hypertension
+- Review of the renal safety profile (renal artery stenosis, hyperkalaemia, acute kidney injury) in the target population
+- Authorization details for the DINs (dosage form and approved indication text)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

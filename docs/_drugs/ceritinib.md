@@ -2,7 +2,7 @@
 layout: default
 title: Ceritinib
 parent: Model Prediction Only (L5)
-nav_order: 172
+nav_order: 174
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceritinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# Ceritinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Ceritinib is an oral ALK inhibitor. The published literature describes it for ALK-rearranged non-small cell lung cancer (NSCLC), although the Canadian license record supplied here does not state an indication.
-The TxGNN model predicts it may be effective for **gingival fibromatosis**, but **0 clinical trials** and **0 publications** were found for this prediction.
-The prediction rests on the model score alone.
+Ceritinib is an oral ALK/ROS1 kinase inhibitor, originally used to treat ALK-positive non-small cell lung cancer.
+The TxGNN model predicts it may be effective for **gingival fibromatosis**, but this is a graph-based prediction only.
+There are **0 clinical trials** and **0 publications** supporting this specific indication, so the evidence is very weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | ALK-rearranged NSCLC (from published literature; not stated in the supplied license record) |
-| Predicted New Indication | Fibromatosis, gingival |
+| Original Indication | Non-small cell lung cancer (ALK-positive) |
+| Predicted New Indication | Gingival fibromatosis |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
@@ -51,59 +51,64 @@ The prediction rests on the model score alone.
 
 ## Why is This Prediction Reasonable?
 
-Ceritinib inhibits the receptor tyrosine kinases ALK, ROS1 and IGF-1R. Its established use is in cancers driven by ALK rearrangement, and the ASCEND-4 Phase 3 trial (PMID 28126333) compared it with platinum chemotherapy in ALK-rearranged NSCLC.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ceritinib is a kinase inhibitor targeting ALK and ROS1, and its efficacy in ALK-rearranged non-small cell lung cancer has been established.
 
-For gingival fibromatosis, a benign overgrowth of gum tissue, no mechanistic link to ALK, ROS1 or IGF-1R signalling is documented. The high score (99.86%, model rank 3,435) is a knowledge-graph prediction, not a finding supported by laboratory or clinical data. It should be treated as a hypothesis to test, not a reason to use the drug.
+No mechanistic link has been identified between ALK/ROS1 inhibition and gingival fibromatosis, which is a benign overgrowth of gum tissue. The very high TxGNN score reflects a pattern in the knowledge graph rather than biological or clinical evidence. The prediction should be treated as a hypothesis only.
+
+Other predicted indications in the top 10 fall into three groups:
+- **Lung tumours** (lung hilum carcinoma, pulmonary sulcus neoplasm): these are likely subsets of the already approved NSCLC indication rather than true new uses.
+- **Benign or rare lung and other tumours** (fibroma of lung, hamartoma of lung, lung benign neoplasm, lung germ cell tumour): no direct evidence supports benefit.
+- **Unrelated genetic disorders** (e.g. junctional epidermolysis bullosa, VCP-related inclusion body myopathy): no known link to ALK inhibition.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for gingival fibromatosis.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for gingival fibromatosis.
+
+For context, the literature retrieved for other predicted indications mainly covers ceritinib in its approved NSCLC use. This includes the ASCEND-4 phase 3 randomised trial ([PMID 28126333](https://pubmed.ncbi.nlm.nih.gov/28126333/), Lancet, 2017), which compared first-line ceritinib with platinum-based chemotherapy in ALK-rearranged NSCLC. It does not support the predicted new indication.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2436779 | ZYKADIA |
-
-The supplied record does not include the dosage form or the approved indication text.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02436779 | ZYKADIA | Not specified | Not specified |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1/IGF-1R kinase inhibitor), not a conventional cytotoxic agent |
+| Cytotoxicity Classification | Targeted therapy (ALK/ROS1 tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert. Literature on ceritinib also flags QT prolongation and cardiac toxicity, so ECG and cardiac monitoring should be considered |
+| Monitoring Items | Please refer to the package insert; literature flags QT prolongation, hypersensitivity/interstitial lung disease, and renal effects of ALK inhibitors as areas for monitoring |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Package insert warnings, contraindications and drug interaction data were not available in the supplied data, so please refer to the package insert for safety information.
+**Drug Interactions** (100 interactions recorded; examples shown):
+- **Major**: triamcinolone, budesonide
+- **Moderate**: acid-suppressing drugs (famotidine, ranitidine, omeprazole, rabeprazole), other corticosteroids (dexamethasone, hydrocortisone, betamethasone), diabetes drugs (metformin, pioglitazone, alogliptin, acarbose, canagliflozin, albiglutide), aprepitant, loperamide, bisacodyl
 
-The literature retrieved for other predicted indications reports the following ceritinib safety signals. They are not specific to gingival fibromatosis but would matter in any future assessment:
-- QT prolongation (PMID 29413968)
-- Hypersensitivity with interstitial lung disease, pericarditis and pleural effusion (PMID 31280988)
-- Cardiac toxicities in pharmacovigilance analyses (PMID 34418561)
+A published study has specifically assessed the interaction between ceritinib and proton pump inhibitors ([PMID 28424965](https://pubmed.ncbi.nlm.nih.gov/28424965/)).
+
+Literature also flags QT prolongation with tyrosine kinase inhibitors including ceritinib, and a case of ceritinib hypersensitivity with diffuse infiltrative lung disease. Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature and no documented mechanism, so it stays at evidence level L5. Ceritinib also carries meaningful oncology-grade toxicity, which is hard to justify for a benign condition without efficacy data.
+The prediction rests only on a graph-model score. There are no clinical trials or publications for gingival fibromatosis, and no plausible mechanistic link to ALK/ROS1 inhibition. Ceritinib also carries substantial safety and interaction burdens, which are hard to justify for a benign condition.
 
 **To proceed, the following is needed:**
-- The Health Canada product monograph (warnings, contraindications, approved indications), which is currently missing and blocks safety screening
-- A plausible mechanistic hypothesis linking ALK, ROS1 or IGF-1R signalling to gingival fibromatosis, backed by preclinical or tissue-level evidence
-- A benefit-risk assessment against existing treatments for gingival fibromatosis
-- A check of the other nine predictions for stronger candidates. Several (for example lung hilum carcinoma and pulmonary sulcus neoplasm) are plausible only if the tumour is ALK-driven, and none has direct trial evidence in the supplied data.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data and a biological rationale connecting ALK/ROS1 signalling to gingival fibromatosis
+- Preclinical or case-level evidence in the proposed indication
+- Health Canada package insert warnings and contraindications
+- A benefit-risk assessment, given the safety profile in a benign condition
+- Evaluation of whether the lung-tumour predictions (hilum carcinoma, pulmonary sulcus neoplasm) are already covered by the approved NSCLC indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

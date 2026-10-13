@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ofatumumab
-parent: Moderate Evidence (L3-L4)
-nav_order: 671
-evidence_level: L4
+parent: High Evidence (L1-L2)
+nav_order: 677
+evidence_level: L2
 indication_count: 8
 ---
 
 # Ofatumumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,98 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-# Ofatumumab: From Anti-CD20 B-Cell Therapy to IGHV-Mutated CLL/SLL
+# Ofatumumab: From Acute Lymphoblastic Leukemia and Richter Syndrome to Follicular Lymphoma
 
 ## One-Sentence Summary
 
-Ofatumumab is a fully human anti-CD20 monoclonal antibody that is already marketed in Canada (brand: KESIMPTA); the Evidence Pack does not record its original approved indication.
-The TxGNN model's top-ranked prediction is **CLL/SLL with IGHV somatic hypermutation**, but **no clinical trials and no publications** specific to this subtype were found.
-Evidence is much stronger for the parent disease, CLL/SLL (34 listed trials, including several Phase 3), and for follicular lymphoma, so this subtype prediction rests on inference from the parent disease.
+Ofatumumab is a fully human anti-CD20 antibody, with acute lymphoblastic/lymphocytic leukemia and Richter syndrome listed as its original indications in the knowledge graph.
+The TxGNN model predicts it may be effective for **Follicular Lymphoma**, with **11 clinical trials** and **20 publications** currently supporting this direction, including a rituximab-refractory monotherapy study and two randomized Phase 2 trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | CLL/SLL with immunoglobulin heavy chain variable-region gene somatic hypermutation |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
+| Original Indication | Acute lymphoblastic/lymphocytic leukemia; Richter syndrome (from the knowledge graph; no approved indication text in the Canadian licence record) |
+| Predicted New Indication | Follicular lymphoma (top-ranked entries are CLL/SLL molecular subtypes with no direct evidence; follicular lymphoma is the highest-ranked prediction with substantial evidence) |
+| TxGNN Prediction Score | 99.70% |
+| Evidence Level | L2 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the pack. From the pack's analysis, ofatumumab is an anti-CD20 antibody that binds a membrane-proximal CD20 epitope on B cells. It kills cells through complement-dependent cytotoxicity (CDC) and antibody-dependent cellular cytotoxicity (ADCC). CLL/SLL cells express CD20, so the mechanism applies directly to the parent disease.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, ofatumumab is an anti-CD20 monoclonal antibody. It binds a distinct membrane-proximal epitope on CD20 and kills B cells through complement-dependent cytotoxicity (CDC) and antibody-dependent cellular cytotoxicity (ADCC).
 
-The predicted indication is an IGHV-mutated molecular subtype of CLL/SLL. Because the subtype shares the CD20-positive B-cell biology of the parent disease, anti-CD20 activity is plausible. However, no trial or publication in this dataset reports ofatumumab outcomes by IGHV status, so the support is indirect.
+Follicular lymphoma cells express CD20, so the target is present on the malignant cells. Ofatumumab's activity in B-cell leukemias (CLL/SLL) is well documented, and both conditions are CD20-positive B-cell malignancies. Ofatumumab has also shown activity in rituximab-refractory follicular lymphoma, which supports a direct mechanistic rationale.
 
-The pack also flags that ofatumumab is already a marketed anti-CD20 agent used in CLL. The model's CLL-related predictions therefore mostly agree with known use rather than reveal a new repurposing signal.
+The two highest-scoring predictions (molecular subtypes of CLL/SLL) have no subtype-specific trials or literature and are rated Hold. The CLL/SLL parent entry (rank 5) has the strongest evidence, but it is label-adjacent to the original indications and is probably not a true repurposing candidate. Follicular lymphoma is therefore the most meaningful repurposing direction.
 
 ## Clinical Trial Evidence
 
-No clinical trials are registered for the top-ranked IGHV-mutated CLL/SLL subtype. The table below shows the most relevant trials for the parent disease (CLL/SLL, ranked 5th) and follicular lymphoma (ranked 3rd), which is the indirect evidence behind this prediction.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01578707](https://clinicaltrials.gov/study/NCT01578707) | Phase 3 | Completed | 391 | RESONATE: ibrutinib vs ofatumumab in relapsed/refractory CLL/SLL (ofatumumab was the comparator) |
-| [NCT02004522](https://clinicaltrials.gov/study/NCT02004522) | Phase 3 | Completed | 319 | DUO: duvelisib vs ofatumumab in relapsed/refractory CLL/SLL (ofatumumab was the comparator) |
-| [NCT00824265](https://clinicaltrials.gov/study/NCT00824265) | Phase 3 | Completed | 365 | Ofatumumab added to fludarabine-cyclophosphamide vs FC alone in relapsed CLL |
-| [NCT01313689](https://clinicaltrials.gov/study/NCT01313689) | Phase 3 | Completed | 122 | Ofatumumab vs physicians' choice in bulky fludarabine-refractory CLL |
-| [NCT01039376](https://clinicaltrials.gov/study/NCT01039376) | Phase 3 | Terminated | 480 | Ofatumumab maintenance vs no further treatment in relapsed CLL responders |
-| [NCT00410163](https://clinicaltrials.gov/study/NCT00410163) | Phase 2 | Completed | 61 | Randomized two-dose ofatumumab + FC in untreated B-CLL |
-| [NCT01077518](https://clinicaltrials.gov/study/NCT01077518) | Phase 3 | Terminated | 346 | Ofatumumab + bendamustine vs bendamustine alone in rituximab-unresponsive indolent B-NHL |
-| [NCT01200589](https://clinicaltrials.gov/study/NCT01200589) | Phase 3 | Terminated | 438 | Ofatumumab vs rituximab in relapsed indolent B-NHL |
+| [NCT01286272](https://clinicaltrials.gov/study/NCT01286272) | Phase 2 | Completed | 135 | Randomized: ofatumumab + bendamustine with or without bortezomib in untreated follicular lymphoma |
 | [NCT00494780](https://clinicaltrials.gov/study/NCT00494780) | Phase 2 | Completed | 59 | Randomized two-dose ofatumumab + CHOP in untreated follicular lymphoma |
+| [NCT01190449](https://clinicaltrials.gov/study/NCT01190449) | Phase 2 | Completed | 51 | Single-agent ofatumumab in previously untreated follicular NHL |
 | [NCT00394836](https://clinicaltrials.gov/study/NCT00394836) | Phase 2 | Completed | 116 | Single-arm ofatumumab in rituximab-refractory follicular lymphoma |
+| [NCT02710643](https://clinicaltrials.gov/study/NCT02710643) | Phase 2 | Completed | 110 | MIRO: radiotherapy with or without ofatumumab in stage I/II follicular lymphoma |
+| [NCT01239394](https://clinicaltrials.gov/study/NCT01239394) | Phase 2 | Completed | 43 | Ofatumumab as initial treatment of indolent B-cell lymphoma |
+| [NCT00823719](https://clinicaltrials.gov/study/NCT00823719) | Phase 2 | Completed | 61 | Ofatumumab with ICE or DHAP before transplant in relapsed/refractory aggressive lymphoma (DLBCL) |
+| [NCT01077518](https://clinicaltrials.gov/study/NCT01077518) | Phase 3 | Terminated | 346 | Ofatumumab + bendamustine vs bendamustine in rituximab-unresponsive indolent B-cell NHL |
+| [NCT00742144](https://clinicaltrials.gov/study/NCT00742144) | Phase 1 | Completed | 6 | Safety and PK of ofatumumab in Japanese patients with follicular lymphoma or CLL |
+| [NCT01119794](https://clinicaltrials.gov/study/NCT01119794) | Phase 2 | Terminated | 10 | Ofatumumab + bortezomib in relapsed low-grade NHL; limited data |
 
 ## Literature Evidence
 
-No publications were found for the IGHV-mutated CLL/SLL subtype. The table below lists supporting publications for the parent disease and related indications.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31512258](https://pubmed.ncbi.nlm.nih.gov/31512258/) | 2019 | RCT (long-term follow-up) | Am J Hematol | RESONATE final analysis (about 65 months): ibrutinib showed better efficacy than ofatumumab in relapsed/refractory CLL/SLL |
-| [37138022](https://pubmed.ncbi.nlm.nih.gov/37138022/) | 2023 | Meta-analysis | Ann Hematol | Pooled assessment of ofatumumab-based vs non-ofatumumab regimens in CLL |
-| [22409295](https://pubmed.ncbi.nlm.nih.gov/22409295/) | 2012 | Phase 2 | Br J Haematol | Ofatumumab 500 mg or 1000 mg + CHOP in 59 untreated follicular lymphoma patients |
-| [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) | 2012 | Phase 2 | Blood | Ofatumumab monotherapy (n=116) in rituximab-refractory follicular lymphoma; response rates were modest (about 10–13%) |
-| [30723894](https://pubmed.ncbi.nlm.nih.gov/30723894/) | 2019 | Phase 2 | Br J Haematol | CALGB 50901: single-agent ofatumumab in untreated low/intermediate-risk follicular lymphoma |
-| [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) | 2019 | Randomized Phase 2 | Cancer | CALGB 50904: ofatumumab + bendamustine with or without bortezomib in untreated high-risk follicular lymphoma |
-| [38937025](https://pubmed.ncbi.nlm.nih.gov/38937025/) | 2024 | Phase 2 | Lancet Haematol | FIL MIRO final results: local radiotherapy with MRD-driven anti-CD20 antibody in early-stage follicular lymphoma |
-| [26566719](https://pubmed.ncbi.nlm.nih.gov/26566719/) | 2015 | Review | Expert Opin Drug Saf | Ofatumumab safety review in CLL; favorable toxicity profile reported, with doses up to 2000 mg |
-| [20481657](https://pubmed.ncbi.nlm.nih.gov/20481657/) | 2010 | Drug review | Drugs | Ofatumumab induces ADCC and CDC in CD20-expressing B cells; high potency attributed to its epitope and slow dissociation |
-| [23850806](https://pubmed.ncbi.nlm.nih.gov/23850806/) | 2013 | Preclinical | Haematologica | Factor H-derived SCR18-20 enhanced complement-dependent cytotoxicity of ofatumumab on CLL cells |
+| [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) | 2019 | RCT (Phase 2) | Cancer | CALGB 50904: ofatumumab + bendamustine with or without bortezomib in untreated high-risk follicular lymphoma |
+| [22409295](https://pubmed.ncbi.nlm.nih.gov/22409295/) | 2012 | Phase 2 trial | Br J Haematol | Two doses of ofatumumab plus CHOP as frontline treatment in follicular lymphoma |
+| [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) | 2012 | Multicenter single-arm study | Blood | Ofatumumab monotherapy in rituximab-refractory follicular lymphoma (N=116); overall response rate 13% and 10% in the two dose groups |
+| [30723894](https://pubmed.ncbi.nlm.nih.gov/30723894/) | 2019 | Phase 2 | Br J Haematol | CALGB 50901: single-agent ofatumumab in previously untreated, low/intermediate-risk follicular lymphoma |
+| [38937025](https://pubmed.ncbi.nlm.nih.gov/38937025/) | 2024 | Phase 2 | Lancet Haematol | FIL MIRO: local radiotherapy with measurable residual disease-driven immunotherapy in early-stage follicular lymphoma |
+| [18390837](https://pubmed.ncbi.nlm.nih.gov/18390837/) | 2008 | Phase 1/2 | Blood | First clinical use of ofatumumab in relapsed/refractory follicular lymphoma |
+| [26043777](https://pubmed.ncbi.nlm.nih.gov/26043777/) | 2015 | Review | Expert Opin Biol Ther | Ofatumumab activity in non-Hodgkin lymphomas |
+| [29934061](https://pubmed.ncbi.nlm.nih.gov/29934061/) | 2018 | Evidence-based review | Clin Lymphoma Myeloma Leuk | Anti-CD20 regimens in relapsed/refractory CLL, DLBCL and follicular lymphoma |
+| [32933335](https://pubmed.ncbi.nlm.nih.gov/32933335/) | 2021 | Review | Expert Opin Biol Ther | Anti-CD20 treatment for B-cell malignancies |
+| [24443277](https://pubmed.ncbi.nlm.nih.gov/24443277/) | 2014 | Population PK analysis | J Clin Pharmacol | Population pharmacokinetics in CLL, follicular lymphoma and rheumatoid arthritis |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2511355 | KESIMPTA |
-
-Dosage form and approved indication text were not provided for this license.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02511355 | KESIMPTA | Not specified | Not specified in the data compiled |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Immunotherapy (anti-CD20 monoclonal antibody); not a conventional cytotoxic agent |
-
-Please refer to the package insert warnings and precautions for myelosuppression, emetogenicity, monitoring and handling requirements.
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; B-cell depletion and infection monitoring are generally relevant for anti-CD20 therapy |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for this drug. A 2015 review (PMID 26566719) describes a favorable toxicity profile in CLL.
+- **Drug Interactions**: 80 interactions were identified. Major-level interactions include deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribine and clozapine. Moderate-level interactions include other immunosuppressants and biologics (alemtuzumab, alefacept, anakinra, canakinumab, azathioprine), live and inactivated vaccines (anthrax, cholera, tetanus toxoid), and chloramphenicol, zidovudine, roflumilast and strontium-89 chloride.
+
+Please refer to the package insert for warnings and contraindications. Those data were not available for this report.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The top-ranked IGHV-mutated CLL/SLL subtype has no subtype-specific trials or publications (L4, stage S0). Its support is inferred from parent-disease CLL/SLL evidence. That parent indication (L1, with Phase 3 trials) and follicular lymphoma (L2) are more actionable candidates; the pack rates both "Proceed with Guardrails". Ofatumumab's CLL use is also already established, so it is not a novel repurposing signal.
+Several completed Phase 2 trials, including two randomized studies and a rituximab-refractory monotherapy study, support ofatumumab in follicular lymphoma, with a direct CD20-based mechanistic rationale. Responses in the rituximab-refractory setting were modest (about 10-13%). The Phase 3 trial in rituximab-unresponsive indolent NHL was terminated, and most evidence involves combination regimens, so efficacy as a single agent remains unproven.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data and the original approved indications from DrugBank
-- Ofatumumab outcome data stratified by IGHV mutation status
-- Approved indication, dosage form and route details for the Canadian license
-- For follicular lymphoma, confirmation of regulatory status and a defined comparator, since no head-to-head superiority over rituximab was shown and the only Phase 3 trial was terminated early
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Health Canada package insert warnings and contraindications (blocking gap for safety screening)
+- Detailed mechanism-of-action data
+- Clarification of the Canadian KESIMPTA licence (dosage form and approved indication are missing). The brand name suggests a formulation for a different disease area, so route and dose compatibility with an oncology use must be confirmed.
+- Review of the terminated Phase 3 trial (NCT01077518) results
+- Interaction management and infection-risk monitoring plan for patients on immunosuppressants
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Ibuprofen
 parent: Model Prediction Only (L5)
-nav_order: 458
+nav_order: 463
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Ibuprofen: From Pain and Inflammation (NSAID) to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ibuprofen: From Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Ibuprofen is a widely marketed non-steroidal anti-inflammatory drug (NSAID), generally used for pain and inflammation.
-The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare skeletal disorder.
-Currently there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Ibuprofen is a non-steroidal anti-inflammatory drug (NSAID) originally used for arthritis, headache and pain conditions, and for closing a patent ductus arteriosus.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, but there are currently **no clinical trials and no publications** supporting this prediction. The evidence is model-prediction only.
 
 ---
 
@@ -43,7 +42,7 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the license data (general NSAID use: pain and inflammation) |
+| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, headache disorder, spondyloarthropathy, patent ductus arteriosus (from the knowledge graph; no approved indication text for the Canadian licences was available) |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L5 |
@@ -55,15 +54,22 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for ibuprofen is not available in the input. Ibuprofen is known as a non-selective COX inhibitor, and its use in pain and inflammation is well established. Based on the data provided, however, no supported mechanistic link to the predicted disease could be identified.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, ibuprofen is a non-selective cyclooxygenase (COX) inhibitor with analgesic and anti-inflammatory effects, and its efficacy in arthritis and pain is well established.
 
-Acromesomelic dysplasia, Hunter-Thompson type is a rare skeletal dysplasia. It has been reported as linked to loss-of-function of CDMP1/GDF5, a growth factor in the BMP pathway. Ibuprofen has no known action on this pathway. The very high TxGNN score (0.997, model rank 5,670) is a graph-based association only. It is not independent pharmacological evidence.
+Acromesomelic dysplasia, Hunter-Thompson type, is a skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, which disrupt limb cartilage formation. COX inhibition would not be expected to correct this developmental defect. No direct mechanistic link is supported by the available data.
 
-The other top-ranked predictions show the same pattern. They are mostly rare skeletal or developmental disorders (brachyolmia, pseudoachondroplasia, brachydactyly-syndactyly syndrome and others), and none has supporting trials or literature.
+The high TxGNN score most likely reflects proximity in the knowledge graph to musculoskeletal conditions that share features with ibuprofen's approved arthritis indications. It does not reflect a biological rationale. At most, ibuprofen might be used for symptomatic pain relief, which is standard supportive care and not disease modification.
 
-- **Pseudoachondroplasia:** A theoretical anti-inflammatory rationale exists, because COMP mutations cause chondrocyte stress and inflammatory signaling. Any use would be standard symptomatic care for joint pain, not a repurposing signal.
-- **Myosclerosis:** The link is weak and speculative. An NSAID might relieve symptoms, but there is no evidence of disease modification.
-- **Developmental syndromes:** NSAID use in a developmental context also raises safety questions that would need separate evaluation.
+The other top-ranked predictions show the same pattern, and none has a plausible mechanism or supporting evidence:
+
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.71% | Genetic skeletal and dental defect; no plausible pharmacological pathway |
+| 3 | Myosclerosis | 99.68% | Speculative; may relieve pain but no evidence of effect on fibrosis |
+| 4 | Brachyolmia | 99.67% | Genetic skeletal dysplasia; likely a graph-association artifact |
+| 5 | Brachydactyly-syndactyly syndrome | 99.66% | Congenital limb malformation; no mechanistic rationale |
+| 6 | Pseudoachondroplasia | 99.66% | Indirect at best; symptomatic joint pain relief only |
+| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.60% | Developmental genetic origin; COX inhibition not relevant |
 
 ---
 
@@ -81,21 +87,37 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Ibuprofen has 20 authorizations in Canada. Dosage form and approved indication text are not available in the supplied data. Five main products are listed below.
+Ibuprofen has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved indication text were not available for these licences. Five main authorisations are listed below.
 
 | DIN | Product Name |
 |---------|------|
-| 2242632 | MOTRIN 300MG |
-| 2376598 | IBUPROFEN LIQUID GEL CAPSULES |
-| 441643 | APO-IBUPROFEN |
-| 2248231 | ADVIL EXTRA STRENGTH LIQUI-GELS |
-| 2374226 | MUSCLE & JOINT |
+| 02242632 | MOTRIN 300MG |
+| 02376598 | IBUPROFEN LIQUID GEL CAPSULES |
+| 00441643 | APO-IBUPROFEN |
+| 02248231 | ADVIL EXTRA STRENGTH LIQUI-GELS |
+| 00585114 | APO-IBUPROFEN TAB 600MG |
+
+Other products include Advil caplets and tablets, Children's Advil, Children's Motrin, Junior Strength Advil and several liquid capsule products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the queried data.
+**Contraindications / Disease Conflicts (from the knowledge graph, not label text):**
+The knowledge graph links ibuprofen with caution or contraindication in the following groups of conditions:
+- **Cardiovascular and cerebrovascular:** hypertension, hypotension, myocardial infarction, stroke, cerebral infarction
+- **Gastrointestinal:** peptic ulcer disease, inflammatory bowel disease, gallbladder disease
+- **Liver and kidney:** liver failure, liver disease, kidney disease
+- **Blood:** thrombocytopenia, blood coagulation disease
+- **Metabolic and endocrine:** diabetes mellitus, diabetic ketoacidosis, hypothyroidism, potassium deficiency
+- **Other:** epilepsy, COPD, systemic lupus erythematosus, benign prostatic hyperplasia, substance abuse/dependence
+
+**Drug Interactions:** The interaction query returned 100 interactions in total; the first 20 are summarised below.
+- **Major:** acetylsalicylic acid (aspirin)
+- **Moderate:** corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone), sulfonylureas (acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide), exenatide, aprepitant, balsalazide, fenfluramine, dexfenfluramine, kanamycin, levofloxacin
+- **Minor:** H2 blockers (famotidine, ranitidine, cimetidine)
+
+Please refer to the package insert for label warnings and contraindications, which were not available in the data compiled for this report.
 
 ---
 
@@ -104,16 +126,14 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no clinical trials, no literature and no plausible COX-inhibition-dependent mechanism for this rare skeletal dysplasia. Ibuprofen's original mechanism and safety data are also missing, so the evaluation cannot progress to safety screening.
+The prediction rests on a high model score alone, with no clinical trials, no literature and no plausible mechanistic link to the underlying genetic defect. The score is likely a knowledge-graph artifact.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking gap for safety screening)
-- Detailed mechanism of action data (for example, from DrugBank)
-- Any preclinical or clinical evidence linking ibuprofen to GDF5/BMP-pathway or skeletal dysplasia biology
-- Confirmation of the approved indications and dosage forms for the Canadian DINs
-- A separate safety assessment of NSAID use in developmental or paediatric rare-disease populations
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for ibuprofen, and a biological rationale linking COX inhibition to GDF5-related limb development
+- Preclinical or clinical evidence in acromesomelic dysplasia, or a review of whether symptom management is the only realistic goal
+- Health Canada package insert warnings and contraindications, which are required for safety screening
+- Approved indication and dosage form data for the Canadian licences
+- Route-compatibility and similarity-to-original-indication assessments, which are still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

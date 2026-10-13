@@ -2,7 +2,7 @@
 layout: default
 title: Moxifloxacin
 parent: Model Prediction Only (L5)
-nav_order: 628
+nav_order: 633
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Moxifloxacin: From Antibacterial Use to Polyclonal Hyperviscosity Syndrome
+# Moxifloxacin: From Bacterial Infections (Streptococcal Infection, Pneumonia, Plague) to Polyclonal Hyperviscosity Syndrome
 
 ## One-Sentence Summary
 
-Moxifloxacin is a fluoroquinolone antibacterial marketed in Canada.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model output only.
+Moxifloxacin is a fluoroquinolone antibiotic originally used for bacterial infections such as streptococcal infection, bacterial pneumonia, peritonitis, conjunctivitis and plague.
+The TxGNN model gives its top prediction as **Polyclonal Hyperviscosity Syndrome**, but **no clinical trials and no publications** support this prediction.
+The best-supported candidate among the ten predictions is **bubonic plague**, which has **5 publications** (preclinical studies plus one adverse-event case report) and no human trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Antibacterial (no approved indication text is available in the data) |
+| Original Indication | Streptococcal infection, bacterial pneumonia, peritonitis, staphylococcal infection, conjunctivitis, plague (from the knowledge graph; no approved indication text is available for Canadian licences) |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
@@ -51,51 +51,75 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Moxifloxacin is an antibacterial that inhibits bacterial DNA gyrase and topoisomerase IV. It has no known effect on serum viscosity or on immunoglobulin burden, which are the core features of polyclonal hyperviscosity syndrome.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Moxifloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in bacterial infections is well established.
 
-We found no plausible mechanistic link between the original use (bacterial infection) and the predicted condition. The high TxGNN score most likely reflects proximity in the knowledge graph rather than a real therapeutic effect. Nine other predictions in this pack also score above 99% and are equally unsupported, so the score alone should not be read as evidence of efficacy.
+For the top-ranked prediction, polyclonal hyperviscosity syndrome, no plausible mechanistic link was identified. An antibacterial has no known effect on serum viscosity or immunoglobulin levels, so the high score (99.98%) appears to be an artifact of the knowledge graph rather than a real signal. The same applies to most other top predictions, such as hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological disease, and hematopoietic and lymphoid neoplasm. All have no or only indirect evidence.
+
+The one exception is **bubonic plague** (rank 10, score 99.41%). Moxifloxacin is active against *Yersinia pestis*, and plague and pneumonic plague are already among its original indications. Bubonic plague is therefore a close extension of an existing use, not a true new indication.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for the top-ranked prediction (polyclonal hyperviscosity syndrome). The trials below were linked to other predicted indications, and none tests moxifloxacin as a treatment for the predicted disease.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00324324](https://clinicaltrials.gov/study/NCT00324324) | Phase 3 | Terminated | 240 | Placebo-controlled trial of moxifloxacin to prevent bacterial infections after allogeneic stem cell transplant (linked to congenital hematological disorder; indirect) |
+| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | NA | Terminated | 351 | Moxifloxacin alone vs ciprofloxacin plus amoxicillin/clavulanic acid for fever in low-risk neutropenic cancer patients (linked to monoclonal gammopathy; indirect) |
+| [NCT07023029](https://clinicaltrials.gov/study/NCT07023029) | Phase 1 | Completed | 33 | Etavopivat cardiac repolarisation study in healthy participants; moxifloxacin is likely the QT positive control, so there is no efficacy evidence |
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications are available for the top-ranked prediction. The most relevant publications, linked to bubonic plague, are below.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15555886](https://pubmed.ncbi.nlm.nih.gov/15555886/) | 2004 | Preclinical (animal) | Int J Antimicrob Agents | Moxifloxacin, gatifloxacin and ciprofloxacin gave full protection in mouse models of systemic and pneumonic plague |
+| [20052916](https://pubmed.ncbi.nlm.nih.gov/20052916/) | 2009 | Preclinical (animal) | Antibiot Khimioter | Levofloxacin and moxifloxacin were effective in mice infected with *Y. pestis* (ED50 5.5–14.0 mg/kg) |
+| [21115791](https://pubmed.ncbi.nlm.nih.gov/21115791/) | 2011 | Preclinical (in vitro) | Antimicrob Agents Chemother | A pharmacodynamic model was used to derive a moxifloxacin regimen that kills *Y. pestis* and prevents resistance |
+| [21486959](https://pubmed.ncbi.nlm.nih.gov/21486959/) | 2011 | Preclinical (in vitro) | Antimicrob Agents Chemother | Comparative in vitro efficacy of candidate antibiotics against *Y. pestis* |
+| [29623187](https://pubmed.ncbi.nlm.nih.gov/29623187/) | 2018 | Case report (adverse event) | Ther Adv Drug Saf | Moxifloxacin-induced tinnitus in an older adult; relevant to safety only |
 
 ## Canada Market Information
 
-Fourteen licences are listed. The first five are shown below. Dosage form and approved indication text are not available in the data.
+Moxifloxacin is marketed in Canada under 14 valid single-ingredient DINs. Dosage form and approved indication text are not available in the data compiled for this report. The first 5 are listed below.
 
 | DIN | Product Name |
 |---------|------|
-| 2472791 | M-MOXIFLOXACIN |
-| 2520710 | MOXIFLOXACIN |
-| 2462974 | MOXIFLOXACIN |
-| 2432218 | PMS-MOXIFLOXACIN |
-| 2375702 | TEVA-MOXIFLOXACIN |
+| 02472791 | M-MOXIFLOXACIN |
+| 02520710 | MOXIFLOXACIN |
+| 02462974 | MOXIFLOXACIN |
+| 02432218 | PMS-MOXIFLOXACIN |
+| 02375702 | TEVA-MOXIFLOXACIN |
+
+Other authorisations include VIGAMOX, SANDOZ MOXIFLOXACIN, APO-MOXIFLOXACIN, MOXIFLOXACIN INJECTION, JAMP-MOXIFLOXACIN and AURO-MOXIFLOXACIN.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications (from knowledge graph drug-disease edges, not label text):**
+- Cardiac: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial ischemia, coronary artery disease
+- Neurological and neuromuscular: epilepsy, myasthenia gravis (including adult-onset), neuromuscular junction disease, peripheral neuropathy, peripheral nervous system disease
+- Musculoskeletal: tendinitis, periarthritis, exostosis
+- Liver: cirrhosis of the liver, drug-induced liver injury
+- Gastrointestinal and metabolic: *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, potassium deficiency disease
 
-Fluoroquinolones as a class carry known warnings for dysglycaemia and peripheral neuropathy, as noted in the evidence for other predicted indications. Any use outside the approved antibacterial setting would need to weigh these risks.
+**Drug Interactions:** 100 interactions were identified. Examples are listed below.
+- **Major:** hydrocortisone, dexamethasone, betamethasone, triamcinolone (corticosteroids, which raise tendon-injury risk with fluoroquinolones), bupropion, chlorpropamide
+- **Moderate:** antidiabetic agents (metformin, pioglitazone, alogliptin, canagliflozin, acarbose, albiglutide), famotidine, loperamide, acetylsalicylic acid, balsalazide, bisacodyl, calcium acetate, calcium phosphate, potassium citrate
+
+Safety is also relevant to some predictions. Fluoroquinolones carry a labelled risk of peripheral neuropathy, which argues against use in neuropathy-associated hematological disease. Rare associations with pancreatitis argue against use in hyperamylasemia. Package insert warnings and precautions should be consulted for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature and no plausible mechanism, so it stays at L5 (model prediction only). Polyclonal hyperviscosity syndrome is not a realistic target for an antibiotic.
+The top-ranked predictions, including polyclonal hyperviscosity syndrome, are supported only by model scores. They have no trials, no relevant literature and no plausible mechanism, so they look like graph artifacts. Bubonic plague is the only credible candidate, but it is essentially an extension of an existing indication and rests on preclinical data without human trials.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Health Canada package insert warnings and contraindications, to complete the safety screening
 - Mechanism of action data from DrugBank
-- Any human or mechanistic evidence linking moxifloxacin to serum viscosity or immunoglobulin burden. Without it, the candidate should not advance.
-
-Among the ten predicted indications in this pack, **bubonic plague** (rank 10) is the only one with a biologically plausible rationale. It has L4 evidence from in vitro and animal studies, but no human trials, and it is at decision stage S1 as a research question. If resources are limited, this indication is the better one to pursue, after checking its status against current Canadian labelling.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- For bubonic plague: confirmation of whether the current Canadian label already covers plague, and review of human clinical or guideline evidence
+- For all other predictions: de-prioritise unless independent clinical evidence appears
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

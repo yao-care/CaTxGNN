@@ -2,7 +2,7 @@
 layout: default
 title: Leflunomide
 parent: Model Prediction Only (L5)
-nav_order: 528
+nav_order: 533
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,83 +33,78 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Leflunomide is an immunomodulating drug originally used to treat rheumatoid arthritis.
-The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a rare congenital limb malformation.
-The prediction currently has **0 clinical trials** and **0 publications** behind it, and the drug's known mechanism suggests possible harm rather than benefit.
-
----
+Leflunomide is an established drug originally used to treat rheumatoid arthritis and psoriatic arthritis.
+The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (general drug knowledge; the Canadian license records supplied contain no indication text) |
+| Original Indication | Rheumatoid arthritis, psoriatic arthritis |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 18 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Leflunomide's active metabolite, teriflunomide, is known to inhibit dihydroorotate dehydrogenase (DHODH). This blocks pyrimidine synthesis and dampens the proliferation of activated lymphocytes. That mechanism explains its efficacy in autoimmune disease.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge (not supplied evidence), leflunomide acts through its active metabolite teriflunomide, which inhibits dihydroorotate dehydrogenase (DHODH) and pyrimidine synthesis in rapidly proliferating lymphocytes. This explains its benefit in autoimmune joint disease.
 
-The predicted indication is a congenital limb malformation, which has no autoimmune or inflammatory basis. DHODH and pyrimidine inhibition therefore have no plausible therapeutic role in it. Loss of DHODH function is known to cause limb malformations (Miller syndrome), and leflunomide is teratogenic and contraindicated in pregnancy. The mechanism points toward harm rather than benefit.
+No mechanistic link has been established between this action and the developmental limb pathways involved in brachydactyly-syndactyly syndrome, a congenital malformation disorder. The high TxGNN score is a computational prediction only and is not backed by any trial or publication here.
 
-The very high score most likely reflects a knowledge-graph artifact. Rare diseases with sparse graph connectivity can score high through proximity alone. The second predicted indication, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 99.93%), is another rare congenital syndrome with the same weaknesses: no evidence and no mechanistic rationale.
+There is also a safety concern. Leflunomide is known to be teratogenic, which makes its use in a congenital limb-malformation context especially questionable.
 
----
+A second prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 99.93%), also has no supporting trials or literature and the same concerns apply.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Leflunomide has 18 licenses in Canada. The records supplied do not include dosage form or approved indication text. The first 5 authorizations are listed below.
+Leflunomide is marketed in Canada with 18 valid single-ingredient licences, none cancelled. Dosage form and approved-indication text were not available in the data compiled for this report. Five of the licences are listed below.
 
-| DIN | Product Name |
-|---------|------|
-| 02478862 | ACCEL-LEFLUNOMIDE |
-| 02351676 | LEFLUNOMIDE |
-| 02478870 | ACCEL-LEFLUNOMIDE |
-| 02256495 | APO-LEFLUNOMIDE |
-| 02261278 | TEVA-LEFLUNOMIDE |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02241889 | ARAVA | Not available | Not available |
+| 02241888 | ARAVA | Not available | Not available |
+| 02256495 | APO-LEFLUNOMIDE | Not available | Not available |
+| 02261278 | TEVA-LEFLUNOMIDE | Not available | Not available |
+| 02283972 | SANDOZ LEFLUNOMIDE | Not available | Not available |
 
 ## Safety Considerations
 
-- **Key Warnings**: Leflunomide is teratogenic, which is a particular concern for a congenital developmental disorder.
-- **Contraindications**: Pregnancy.
+Label-based warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
-Please refer to the package insert for the full safety information.
-
----
+- **Contraindication signals from the knowledge graph** (not label text): liver failure and liver disease, kidney disease, gallbladder disease, chronic hepatitis B and C virus infection, thrombocytopenia, neutropenia (including congenital forms), agranulocytosis, pancytopenia, anaemia, peripheral neuropathy, interstitial lung disease, pneumocystosis, and aspergillosis.
+- **Drug Interactions**: 100 interactions were found, and the 20 shown here are mostly Major. Notable Major interactions include:
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Antidiabetics: pioglitazone and acarbose
+  - Anti-infectives: clarithromycin and minocycline
+  - Others: acetylsalicylic acid, bupropion, naltrexone, oxandrolone, oxymetholone, chenodeoxycholic acid
+- Moderate interactions include metronidazole, chlorpropamide, and acetohexamide. Minor interactions include zinc sulfate and zinc acetate.
+- **Teratogenicity**: Leflunomide's known teratogenicity and long half-life, from enterohepatic recirculation of its active metabolite, are particularly relevant to any congenital or developmental disorder.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a model score, with no trials or literature. The known mechanism (DHODH inhibition) and the drug's teratogenicity argue against benefit in a congenital limb malformation. The score does not justify further investigation without independent mechanistic support.
+The prediction rests only on a computational score, with no clinical trials, no literature, and no established mechanistic link. Leflunomide's teratogenicity raises a serious safety concern for a congenital malformation disorder.
 
 **To proceed, the following is needed:**
-- Independent mechanistic evidence linking DHODH or pyrimidine-pathway modulation to therapeutic benefit in brachydactyly-syndactyly syndrome
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Complete mechanism of action data from DrugBank
-- Any preclinical or clinical evidence, since none currently exists
+- Mechanism of action data to assess any biological link to limb-development pathways
+- Preclinical or literature evidence supporting benefit in brachydactyly-syndactyly syndrome
+- Package insert warnings and contraindications from Health Canada, and an assessment of teratogenicity risk in the target population
+- Dosage form and approved-indication details for the Canadian licences
+- A clear rationale for the target population, since the disease is congenital and the drug is teratogenic
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Disopyramide
 parent: Model Prediction Only (L5)
-nav_order: 290
+nav_order: 292
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Disopyramide: From Arrhythmia to Tourette Syndrome
+# Disopyramide: From Cardiac Arrhythmia to Tourette Syndrome
 
 ## One-Sentence Summary
 
-Disopyramide is a class Ia antiarrhythmic drug, originally used to treat cardiac arrhythmias.
-The TxGNN model predicts it may be effective for **Tourette syndrome**, but **0 clinical trials** and **0 publications** currently support this direction.
-The prediction rests on the model score alone and is likely a knowledge-graph artifact.
+Disopyramide is a class Ia antiarrhythmic drug that is marketed in Canada (as RYTHMODAN). The TxGNN model predicts it may be effective for **Tourette syndrome**, with a very high model score. However, there are currently **no clinical trials and no publications** supporting this prediction, so it rests on computational inference alone.
 
 ---
 
@@ -43,7 +41,7 @@ The prediction rests on the model score alone and is likely a knowledge-graph ar
 
 | Item | Content |
 |------|------|
-| Original Indication | Arrhythmia (the approved indication text is not recorded in the Canadian license data) |
+| Original Indication | Not stated in the data compiled for this report (disopyramide is generally known as an antiarrhythmic) |
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
@@ -55,16 +53,13 @@ The prediction rests on the model score alone and is likely a knowledge-graph ar
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Disopyramide is known to be a class Ia sodium channel blocker with anticholinergic activity, and its efficacy in arrhythmia is established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, disopyramide is a class Ia antiarrhythmic that blocks sodium channels and has anticholinergic activity.
 
-We could not identify a credible mechanistic link to Tourette syndrome. Tourette syndrome is a neurodevelopmental tic disorder, usually treated by modulating dopamine and related neurotransmitter pathways. That is not what disopyramide does.
+Tourette syndrome involves dysfunction of dopaminergic signalling and cortico-striato-thalamo-cortical circuits. No plausible mechanistic link to sodium channel blockade has been established. The high score (0.9986) is a graph-based prediction and is not backed by any trial or literature evidence. It may reflect network similarity artifacts rather than true biological relevance.
 
-The high score (0.9986) is most likely explained by shared neuro-receptor or ion-channel neighbors in the knowledge graph. No independent evidence supports it.
-
-**Other model predictions.** The other top-ranked predictions show the same pattern, mostly with scores above 99%:
-- Most have no trials or literature: ADHD and its inattentive subtype, trichotillomania, faciodigitogenital syndrome, specific developmental disorder, chondromyxoid fibroma and trigeminal nerve neoplasm. The two ADHD entries are likely one correlated signal, not independent evidence.
-- **Idiopathic neonatal atrial flutter** is biologically coherent for a class Ia antiarrhythmic, but has no evidence, and disopyramide's anticholinergic and negative inotropic effects are a safety concern in neonates.
-- **Multifocal atrial tachycardia** is coherent as well. Its only publication (PMID 7418495, 1980) concerns lorcainide, a different drug, in ventricular arrhythmias, so it is indirect evidence at best. It could be worth a literature review as a research question, but gives no basis for a recommendation.
+Other top predictions show the same pattern. ADHD (and its inattentive subtype), trichotillomania, faciodigitogenital syndrome, specific developmental disorder, chondromyxoid fibroma and trigeminal nerve neoplasm have no identifiable mechanistic rationale. Two cardiac predictions are more biologically plausible:
+- **Idiopathic neonatal atrial flutter** (rank 7): disopyramide is used for atrial and ventricular arrhythmias, but neonatal safety is a concern (anticholinergic effects, negative inotropy, proarrhythmia).
+- **Multifocal atrial tachycardia** (rank 9): the only related literature concerns a different drug (lorcainide), so it is indirect evidence.
 
 ---
 
@@ -76,25 +71,27 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Tourette syndrome.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2224801 | RYTHMODAN |
-
-Dosage form, manufacturer and approved indication text are not recorded for this license.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02224801 | RYTHMODAN | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (derived from drug–disease relationships in a knowledge graph, not from label text): long QT syndrome (including familial), kidney disease, liver disease, gallbladder disease, potassium deficiency, benign prostatic hyperplasia, atrial fibrillation, atrial flutter, hypotensive disorder, angle-closure glaucoma, myasthenia gravis and other neuromuscular junction disease, hypoglycemia, atrioventricular block, cardiomyopathy (including hypertrophic), endomyocardial fibrosis, myocardial disorder, myocarditis, pyoureter.
+- **Drug Interactions**: 100 interactions were identified in total. Examples:
+  - **Major**: potassium citrate, clarithromycin, picosulfuric acid
+  - **Moderate**: famotidine, hydrocortisone, dexamethasone, amphotericin B, atropine, hyoscyamine, glycopyrronium, loperamide, aprepitant, chlorpropamide, and others
+  - **Minor**: cimetidine
 
-Note from the candidate review: the anticholinergic and cardiac effects of disopyramide would be a particular concern in a pediatric or neurodevelopmental population such as Tourette syndrome.
+The package insert warnings and contraindications were not available for this report; please refer to the Health Canada package insert.
 
 ---
 
@@ -103,13 +100,14 @@ Note from the candidate review: the anticholinergic and cardiac effects of disop
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-derived only (L5), with no trials or publications and no plausible mechanistic link between a sodium channel blocker and tic disorders. The candidate does not currently justify further investment.
+The prediction for Tourette syndrome is supported only by a model score. There are no trials or literature, no plausible mechanistic link, and a substantial safety profile (QT prolongation, anticholinergic effects, cardiac contraindications) that would be hard to justify in a neurodevelopmental indication. Of the predictions listed, the cardiac arrhythmia indications (neonatal atrial flutter, multifocal atrial tachycardia) are mechanistically more reasonable but still lack direct evidence.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings and contraindications), required before any safety screening
-- Detailed mechanism of action data (for example, from DrugBank)
-- A targeted literature search for disopyramide or class Ia antiarrhythmics in tic disorders
-- The approved indication text for the Canadian license, to confirm the original indication
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Original approved indication text for the Canadian license
+- Direct preclinical or clinical evidence for any predicted indication, with priority on arrhythmia-related ones
+- A review of neonatal and paediatric safety if atrial flutter is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

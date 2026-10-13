@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tolvaptan
-parent: Model Prediction Only (L5)
-nav_order: 915
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 922
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolvaptan: From Its Marketed Use to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+# Tolvaptan: From SIADH-Related Hyponatraemia and Polycystic Kidney Disease to Polycystic Kidney Disease 3 with or without Polycystic Liver Disease
 
 ## One-Sentence Summary
 
-Tolvaptan is a vasopressin V2 receptor antagonist marketed in Canada under brand names including JINARC and SAMSCA. The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**. The supplied data contain **0 clinical trials** and **0 publications** for this prediction, so it is a model-based hypothesis only.
+Tolvaptan is a vasopressin V2 receptor antagonist, originally used for inappropriate ADH syndrome (SIADH), nephrogenic syndrome of inappropriate antidiuresis, and polycystic kidney disease.
+The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**,
+with **no registered clinical trials** but **20 publications** (including 2 Phase 3 RCT reports, TEMPO 3:4 and REPRISE) currently supporting this direction. Most of this evidence comes from ADPKD, not from the PKD3 subtype itself.
 
 ---
 
@@ -41,75 +43,90 @@ Tolvaptan is a vasopressin V2 receptor antagonist marketed in Canada under brand
 
 | Item | Content |
 |------|------|
+| Original Indication | Inappropriate ADH syndrome; nephrogenic syndrome of inappropriate antidiuresis; polycystic kidney disease (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.99% (model rank 613) |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L1 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 12 |
-| Recommended Decision | Hold |
-
-The Evidence Pack contains no approved indication text for the Canadian licenses, so the original indication is not listed here.
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. The pack's own rationale describes tolvaptan as a vasopressin V2 receptor antagonist. By blocking the V2 receptor, it lowers cAMP signaling in renal collecting-duct cells. cAMP signaling is a recognised driver of cyst growth in polycystic kidney disease, which is why the link is plausible.
+Tolvaptan is a selective vasopressin V2 receptor antagonist. In polycystic kidney disease, vasopressin-driven cAMP signalling in renal tubular cells promotes cyst growth and fluid secretion. Blocking the V2 receptor lowers cAMP and slows cyst expansion. (The data compiled for this report does not include a formal mechanism-of-action entry; this description comes from the repurposing rationale and the published literature.)
 
-General evidence in autosomal dominant polycystic kidney disease (ADPKD) may offer indirect support. That evidence is not in the supplied data, and it has not been verified for this genetic subtype. The very high TxGNN score (0.9999) reflects a graph-based prediction only and is not proof of efficacy.
-
-The other nine predicted indications are weaker. Renal-hepatic-pancreatic dysplasia, Joubert syndrome with renal defect, and nephronophthisis-spastic quadriparesis syndrome are ciliopathy-type conditions with loose or indirect links. The rest, including thoracic malformation, hypertrichosis, and Dandy-Walker-related syndromes, have no credible mechanistic link and are likely graph-propagation artifacts. None has supporting trials or literature.
+Polycystic kidney disease is already among tolvaptan's original indications, so this prediction is largely on-label rather than true repurposing. The specific PKD3 subtype (GANAB-related) has not been tested directly. The evidence comes from ADPKD (PKD1/PKD2) and is extrapolated through the shared cystogenic cAMP pathway. Tolvaptan's effect on polycystic liver disease is not established.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for this predicted indication. The pivotal Phase 3 trials (TEMPO 3:4 and REPRISE) appear in the literature table below as published reports.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | RCT (TEMPO 3:4, Phase 3) | N Engl J Med | Tolvaptan in early ADPKD; V2 antagonists inhibit cyst growth and slow decline in kidney function |
+| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | RCT (REPRISE, Phase 3) | N Engl J Med | Tolvaptan in later-stage ADPKD; earlier trial had shown liver enzyme elevations |
+| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Interventions for preventing ADPKD progression |
+| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Review | JAMA | ADPKD overview; most common inherited kidney disorder |
+| [41771281](https://pubmed.ncbi.nlm.nih.gov/41771281/) | 2026 | Review | Lancet | Strong evidence base for tolvaptan as disease-modifying treatment in high-risk patients |
+| [40844441](https://pubmed.ncbi.nlm.nih.gov/40844441/) | 2025 | Review (Core Curriculum) | Am J Kidney Dis | Disease-modifying therapy recommended for patients at risk of progression |
+| [40726372](https://pubmed.ncbi.nlm.nih.gov/40726372/) | 2025 | Review | Curr Opin Nephrol Hypertens | Tolvaptan remains the only FDA-approved therapy targeting progression; pipeline reviewed |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clin Liver Dis | Tolvaptan may slow renal function decline and cyst growth in ADPKD with polycystic liver disease |
+| [32392574](https://pubmed.ncbi.nlm.nih.gov/32392574/) | 2021 | Review | Pediatr Res | Tolvaptan use in adolescents and young adults with rapidly progressing ADPKD |
+| [33376103](https://pubmed.ncbi.nlm.nih.gov/33376103/) | 2020 | Commentary | Clin J Am Soc Nephrol | Long-term safety of tolvaptan in ADPKD |
 
 ---
 
 ## Canada Market Information
 
-Dosage form, manufacturer, and approved indication text were not supplied for these licenses.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02437538 | JINARC | Not recorded | Not recorded |
+| 02491583 | JINARC | Not recorded | Not recorded |
+| 02491575 | JINARC | Not recorded | Not recorded |
+| 02370468 | SAMSCA | Not recorded | Not recorded |
+| 02557193 | LUPIN-TOLVAPTAN | Not recorded | Not recorded |
 
-| DIN | Product Name |
-|---------|------|
-| 2437538 | JINARC |
-| 2491583 | JINARC |
-| 2557193 | LUPIN-TOLVAPTAN |
-| 2370468 | SAMSCA |
-| 2491575 | JINARC |
-
-Showing 5 of 12 licenses.
+Twelve valid single-ingredient licences exist in total (JINARC, SAMSCA and LUPIN-TOLVAPTAN); the five above are shown.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+- **Drug Interactions**: 100 interactions were identified. Among those listed, the one rated Major is **clarithromycin**. Moderate-level interactions include aprepitant, dexamethasone, empagliflozin, miconazole, naltrexone, rolapitant, and several potassium supplements (potassium chloride, citrate, bicarbonate, gluconate).
+- **Disease-related contraindication signals** (from the knowledge graph, not label text): liver failure, cirrhosis of the liver, substance abuse/dependence, active peptic ulcer disease, and demyelinating disease.
+- **Literature-based concerns**: liver enzyme and bilirubin elevations were seen in the TEMPO 3:4 setting, so liver monitoring is warranted. Aquaresis-related adverse effects are expected from the mechanism.
+
+Please also refer to the package insert for full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The prediction rests on a plausible V2/cAMP mechanism, but it has no trial or literature support (evidence level L5) and has not been verified for this specific genetic subtype. Safety data from the Canadian labelling are also missing.
+Two Phase 3 RCT publications (TEMPO 3:4 and REPRISE) and a Cochrane review support tolvaptan in ADPKD, and polycystic kidney disease is already among its original indications. However, the PKD3 (GANAB-related) subtype has not been tested directly, and the liver signal requires careful management.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism of action data from DrugBank
-- A literature and trial search covering ADPKD and PKD3-related disease, to check whether general ADPKD evidence extends to this subtype
-- Approved indication text for the Canadian licenses, to confirm the original indication
+- Health Canada package insert warnings and contraindications (currently missing and blocking safety screening)
+- Approved indication text and dosage forms for the Canadian licences
+- Formal mechanism-of-action data from DrugBank
+- Subtype-specific (PKD3/GANAB) evidence, and evidence on polycystic liver disease
+- A liver-function monitoring plan and confirmation of rapidly progressing disease before use
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+---
+
+### Other Predicted Indications (Brief Note)
+
+The remaining nine predictions (renal-hepatic-pancreatic dysplasia, karyomegalic interstitial nephritis, thoracic malformation, Joubert syndrome with renal defect, nephronophthisis-spastic quadriparesia syndrome, hypertrichosis disorders, odontal/periodontal malformation syndrome, and Dandy-Walker syndrome) have no trials and little or no relevant literature. Most are rated **Hold**, and Joubert syndrome with renal defect is flagged as a research question needing preclinical work first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

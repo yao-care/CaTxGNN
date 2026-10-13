@@ -2,7 +2,7 @@
 layout: default
 title: Mepolizumab
 parent: Moderate Evidence (L3-L4)
-nav_order: 585
+nav_order: 590
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Mepolizumab: From Eosinophil-Driven Disease to Thrombocytopenia Due to Immune Destruction
+# Mepolizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
 
 ## One-Sentence Summary
 
-Mepolizumab is an anti-IL-5 monoclonal antibody marketed in Canada as NUCALA. It depletes eosinophils and is used for eosinophil-driven conditions; the license data provided do not list the approved indications.
-The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**, but there are **0 registered clinical trials** and only **1 publication** (a case report), so this remains a research question rather than an evidence-backed candidate.
+Mepolizumab is an anti-IL-5 monoclonal antibody, originally associated with eosinophilic pneumonia and pulmonary eosinophilia.
+The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**,
+but the current evidence is very limited: **0 clinical trials** and **1 publication** (a case report) support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Eosinophil-driven disease (background knowledge; not listed in the license data) |
+| Original Indication | Eosinophilic pneumonia; pulmonary eosinophilia (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
@@ -50,11 +51,11 @@ The TxGNN model predicts it may be effective for **thrombocytopenia due to immun
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Based on general knowledge, mepolizumab blocks interleukin-5 (IL-5), which reduces eosinophil numbers and eosinophil-driven inflammation.
+Currently, detailed mechanism of action data is not available. Based on known information, mepolizumab is an anti-IL-5 monoclonal antibody that depletes eosinophils. Its role in eosinophil-driven conditions such as eosinophilic pneumonia is consistent with this mechanism.
 
-The link to immune-mediated platelet destruction is weak. Platelet destruction in this condition is not primarily driven by eosinophils. The only connection is indirect: the single supporting publication describes a patient with steroid-resistant hypereosinophilic immune dysregulation and a mixed thrombotic microangiopathy. Mepolizumab was used there and the patient improved. That is a single-patient observation of a different disease process, not evidence for immune thrombocytopenia.
+The link to immune-mediated thrombocytopenia is weak and indirect. The only linked publication is a case report in which a steroid-resistant hypereosinophilic immune disorder, accompanied by a mixed thrombotic microangiopathy, improved with mepolizumab plus concomitant therapy. This suggests that eosinophil-driven immune dysregulation may coexist with immune-mediated cytopenias.
 
-The TxGNN score of 99.66% reflects a knowledge-graph prediction, not clinical evidence. It should be treated as a hypothesis-generating signal only.
+There is no direct evidence that IL-5 blockade treats immune thrombocytopenia itself. Its pathogenesis is mainly autoantibody-mediated platelet destruction and impaired platelet production. The high TxGNN score is a computational prediction and should not be read as clinical support.
 
 ## Clinical Trial Evidence
 
@@ -64,41 +65,32 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report (inferred from the title; not verified) | Blood Cells Mol Dis | A steroid-resistant hypereosinophilic immune dysregulation resolved with mepolizumab, alongside improvement of a mixed thrombotic microangiopathy in the setting of atypical hemolytic uremic syndrome |
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report | Blood Cells Mol Dis | A steroid-resistant hypereosinophilic immune disorder resolved with mepolizumab, with concurrent improvement of a mixed thrombotic microangiopathy. Single patient; indirect relevance to immune thrombocytopenia. |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2530821 | NUCALA |
-| 2492997 | NUCALA |
-| 2492989 | NUCALA |
-
-Dosage form and approved indication text are not available for these licenses.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02530821 | NUCALA | Not specified | Not specified |
+| 02492997 | NUCALA | Not specified | Not specified |
+| 02492989 | NUCALA | Not specified | Not specified |
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records for mepolizumab. This is not confirmation that no interactions exist.
-
-Please refer to the Health Canada product monograph (package insert) for warnings, contraindications, and other safety information.
+Please refer to the package insert for safety information. No drug interaction records were found, and no contraindication records were found in the knowledge graph.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and one case report about a different condition, with no registered trials. The mechanistic link between IL-5/eosinophil depletion and immune-mediated platelet destruction is indirect and speculative.
+The prediction rests on a high model score and a single indirect case report. There are no clinical trials, and there is no established mechanistic link between IL-5 blockade and immune-mediated platelet destruction. Mepolizumab is marketed in Canada, but for other uses.
 
 **To proceed, the following is needed:**
-- The Health Canada product monograph, covering approved indications, warnings, and contraindications
-- Mechanism of action data from DrugBank
-- A targeted literature search on mepolizumab in immune thrombocytopenia, including any role of eosinophils or IL-5 in platelet destruction
-- Ontology review: "autoimmune thrombocytopenic" (rank 4) appears to overlap with this indication and could be consolidated with it
-- Preclinical or exploratory clinical data before any trial planning
-
-The other four predicted indications (primary release disorder of platelets, pseudo-von Willebrand disease, autoimmune thrombocytopenic, Glanzmann thrombasthenia) have no identified mechanistic rationale and no supporting trials, so they are not prioritized.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data, to allow a proper mechanistic assessment
+- Health Canada package insert warnings, contraindications and approved indication text, which are required before safety screening
+- Preclinical or mechanistic studies showing a role for IL-5 or eosinophils in immune thrombocytopenia
+- Observational data or clinical trials in patients with immune thrombocytopenia, particularly those with coexisting hypereosinophilia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

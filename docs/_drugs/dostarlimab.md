@@ -2,7 +2,7 @@
 layout: default
 title: Dostarlimab
 parent: Model Prediction Only (L5)
-nav_order: 300
+nav_order: 302
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dostarlimab: From dMMR Endometrial Cancer to Cervical Adenofibroma
+# Dostarlimab: From an Unspecified Original Indication to Cervical Adenofibroma
 
 ## One-Sentence Summary
 
-Dostarlimab (brand name JEMPERLI) is a PD-1 blocking antibody. Its rationale text describes an approval in mismatch-repair-deficient endometrial cancer. The TxGNN model predicts it may be effective for **cervical adenofibroma**, but **no clinical trials and no publications** currently support this. The prediction is weak and looks like a knowledge-graph artifact.
+Dostarlimab (brand name JEMPERLI) is an anti-PD-1 antibody that is marketed in Canada. The indication text for its Canadian license was not available in the data compiled for this report.
+The TxGNN model's top-ranked prediction is **cervical adenofibroma**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+Across the 10 predicted indications reviewed, only one (bladder clear cell adenocarcinoma) has any trial linked to it, and that link is indirect.
 
 ---
 
@@ -41,10 +43,10 @@ Dostarlimab (brand name JEMPERLI) is a PD-1 blocking antibody. Its rationale tex
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometrial cancer, mismatch-repair-deficient (taken from the rationale text; the licence record has no indication text) |
+| Original Indication | Not available in the Canadian license data (the label indication text is blank) |
 | Predicted New Indication | Cervical adenofibroma |
-| TxGNN Prediction Score | 50.0% (all 10 predictions for this drug share this score, so it does not discriminate between them) |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 50.00% (a non-discriminative value; all 10 predictions share the same score) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -53,17 +55,28 @@ Dostarlimab (brand name JEMPERLI) is a PD-1 blocking antibody. Its rationale tex
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Dostarlimab is known to be a PD-1 blocking antibody. It releases the brake on T cells so the immune system can attack tumours that depend on the PD-1/PD-L1 pathway.
+Detailed mechanism-of-action text is not available in the compiled data. Based on the target data, dostarlimab is an antibody that binds human PD-1 (gene *PDCD1*). It blocks the interaction of both PD-L1 and PD-L2 with PD-1, which releases the brake on T-cell activity against tumours. Its clinical use is documented elsewhere in the data: it is approved by the FDA and the EMA for mismatch repair-deficient (dMMR) recurrent or advanced endometrial cancer, and for other dMMR solid tumours. The FDA also approved it with chemotherapy for primary advanced or recurrent endometrial cancer.
 
-Cervical adenofibroma is a benign tumour with no established dependence on PD-1/PD-L1 signalling. Immune checkpoint blockade is aimed at malignant tumours, and benign lesions like this are usually managed by other means. The mechanistic rationale is therefore weak.
+For **cervical adenofibroma**, the link is weak. Adenofibromas are typically benign, and there is no evidence that PD-1 blockade helps them. The score of 0.5 does not discriminate between candidates, so it should not be read as a strong signal.
 
-The score of 0.5 is uninformative, and the disease match is probably driven by the drug's association with gynaecologic cancers in the knowledge graph. This indication should not be treated as a credible repurposing lead without new evidence.
+Other candidates in the list are more plausible than the top-ranked one:
+
+- **Fallopian tube papillary adenocarcinoma** is a related Müllerian malignancy, and dostarlimab is already used in dMMR endometrial cancer. Any benefit would likely be limited to dMMR/MSI-H or PD-L1-positive subsets. No trials or publications were supplied, so it remains a research question.
+- **Bladder clear cell adenocarcinoma** has one indirect basket trial (see below), but nothing specific to this tumour type.
+
+Several other predictions have no plausible mechanistic link (for example LAMA5-related multisystemic syndrome, O'nyong'nyong fever, and a rare neurodevelopmental syndrome). One is a safety concern: in the autoimmune overlap syndrome of primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis, PD-1 blockade can itself cause immune-mediated hepatitis and cholangitis.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for the top-ranked indication, cervical adenofibroma.
+
+For reference, the only trial found among the 10 predicted indications relates to rank 9, bladder clear cell adenocarcinoma:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04779151](https://clinicaltrials.gov/study/NCT04779151) | Phase 2 | Terminated | 51 | Basket trial of niraparib (PARP inhibitor) priming followed by an anti-PD-1 antibody (dostarlimab) in DNA repair-deficient or platinum-sensitive solid tumours. No efficacy results were supplied. Whether bladder clear cell adenocarcinoma was a cohort cannot be confirmed. Relevance grade: C (indirect). |
 
 ---
 
@@ -73,48 +86,20 @@ Currently no related literature available.
 
 ---
 
-## Other Predicted Indications with Some Signal
-
-The other nine predictions have little or no evidence. These four are the only ones with a possible lead or a safety signal:
-
-| Predicted Indication | Evidence | Assessment |
-|------|------|------|
-| Bladder clear cell adenocarcinoma | [NCT04779151](https://clinicaltrials.gov/study/NCT04779151): Phase 2 basket trial of niraparib plus dostarlimab in DNA repair-deficient or platinum-sensitive solid tumours; terminated; 51 participants | Research question (L3). Basket enrolment does not establish disease-specific efficacy. The eligible tumour types and any posted results need checking. |
-| Fallopian tube papillary adenocarcinoma | None supplied | Research question. A related Müllerian tract cancer, so testing dMMR/MSI-high status could make a hypothesis. This is by analogy only. |
-| Vulvar alveolar soft part sarcoma | None supplied | Research question. PD-1 blockade is biologically plausible for this sarcoma, but the vulvar primary site is very rare. |
-| LAMA5-related multisystemic syndrome | [PMID 40642102](https://pubmed.ncbi.nlm.nih.gov/40642102/) (2025, Gynecologic Oncology Reports): checkpoint inhibitor exacerbated paraneoplastic cerebellar degeneration in endometrial cancer, inferred to be a case report | Hold. This is a safety signal for immune-related neurological adverse events, not efficacy evidence. The disease match looks spurious. |
-
-For the autoimmune liver overlap syndrome, PD-1 blockade could worsen autoimmunity, so the mechanistic direction argues against benefit.
-
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2523434 | JEMPERLI |
-
-The licence record has no dosage form or approved indication text.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-1 blocking antibody) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02523434 | JEMPERLI | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query completed with one pharmacology entry. It is a target record (PD-1, CD279) rather than an interaction with another drug, so it does not point to a clinically relevant drug interaction.
+- **Class-related concern**: For autoimmune conditions such as the overlap syndrome of primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis, immune activation by PD-1 blockade is mechanistically counterproductive and a safety concern.
 
-Checkpoint inhibitors as a class are known to cause immune-related adverse events, including immune-mediated hepatitis. One case report (PMID 40642102) describes a neurological event.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -123,12 +108,14 @@ Checkpoint inhibitors as a class are known to cause immune-related adverse event
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials, no literature and a non-discriminating model score, and the mechanism is weak for a benign tumour. No further work is justified on cervical adenofibroma.
+The top-ranked prediction, cervical adenofibroma, rests only on a non-discriminative model score (0.5). It has no trials or publications and no clear mechanistic rationale, so evidence is at L5. Among the other candidates, fallopian tube papillary adenocarcinoma and bladder clear cell adenocarcinoma are worth tracking as research questions, but neither has direct supporting evidence.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert, for warnings, contraindications and approved indications. This is a blocking gap for safety screening.
-- Mechanism of action data from DrugBank.
-- For the higher-plausibility questions (fallopian tube adenocarcinoma, vulvar alveolar soft part sarcoma, bladder clear cell adenocarcinoma), dedicated literature and trial searches. These should include the full NCT04779151 record and dMMR/MSI-high status.
+- Health Canada package insert warnings, contraindications, and the approved indication text (currently missing, and a blocking gap for safety screening)
+- Detailed mechanism-of-action data from DrugBank
+- Targeted literature and trial searches for cervical adenofibroma, and for the more plausible candidates (fallopian tube papillary adenocarcinoma and bladder clear cell adenocarcinoma)
+- For NCT04779151, confirmation of the exact drug combination, the cohorts enrolled, and any reported results
+- If a dMMR/MSI-H or PD-L1-positive subset is considered, biomarker-based eligibility criteria
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

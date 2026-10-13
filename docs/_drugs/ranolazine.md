@@ -2,7 +2,7 @@
 layout: default
 title: Ranolazine
 parent: Model Prediction Only (L5)
-nav_order: 789
+nav_order: 796
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,15 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Ranolazine is generally known as a late sodium current inhibitor used for chronic angina. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but currently **0 clinical trials** and **0 publications** support this direction. The prediction rests on the model score alone.
-
----
+Ranolazine is a drug marketed in Canada, and it is known to be used for chronic angina. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on the computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic angina (general pharmacological knowledge; the Canadian license records provide no indication text) |
+| Original Indication | Not stated in the Canadian license records compiled for this report (chronic angina is the commonly known use) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.65% |
 | Evidence Level | L5 |
@@ -49,62 +47,53 @@ Ranolazine is generally known as a late sodium current inhibitor used for chroni
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Ranolazine is generally described as a late sodium current (INa-late) inhibitor used in chronic angina. Its efficacy in angina is established, but no evidence links that action to NSIAD.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, ranolazine inhibits the late sodium current (INaL) and, to a lesser degree, the rapid delayed rectifier potassium current (IKr). Its efficacy in chronic angina is established.
 
-NSIAD is a rare condition caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*). These variants cause vasopressin-independent water reabsorption in the renal collecting duct. The pathway from late sodium current inhibition to V2 receptor signaling or aquaporin-2 regulation has not been established.
+NSIAD is a rare genetic disorder caused by gain-of-function mutations in the vasopressin V2 receptor gene (AVPR2). The receptor is constitutively active, which leads to unregulated water reabsorption in the kidney collecting duct. A direct link between ranolazine's sodium-channel activity and V2 receptor signalling has not been established. Any connection would be speculative, for example through indirect effects on renal ion transport or cAMP-mediated aquaporin-2 signalling.
 
-The score of 0.996 (rank 7,250) is a knowledge-graph prediction only. It may reflect network proximity or rare-disease graph artifacts, so it should not be read as mechanistic validation. Similarity between the original and predicted indications has not been assessed.
-
----
+The very high score (0.996) should be read with caution. It may reflect the structure of the knowledge graph rather than true biological relevance. Because NSIAD is rare, the chance of finding trial data is also low.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2510227 | CORZYNA | — | — |
-| 2510219 | CORZYNA | — | — |
-
-Dosage form and approved indication text are not recorded in the license data.
-
----
+| 02510227 | CORZYNA | Not specified | Not specified |
+| 02510219 | CORZYNA | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph** (these come from drug-disease relationship data, not from package insert text): long QT syndrome, familial long QT syndrome, torsades de pointes, kidney disease, pyoureter, cirrhosis of liver.
+- **Drug Interactions**: 100 interactions were identified. Examples are listed below.
+  - **Major**: aprepitant, dexamethasone, clarithromycin, dolasetron, eliglustat
+  - **Moderate**: famotidine, metformin, loperamide, bisacodyl, budesonide, canagliflozin, dapagliflozin, empagliflozin, and others
+  - **Minor**: bupropion, lorcaserin, cimetidine
 
----
+The kidney disease flag deserves particular attention, because the predicted indication is a renal water-handling disorder. The QT-related flags are consistent with ranolazine's known effect on cardiac repolarisation. Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a model score behind it (evidence level L5), with no registered trials, no literature and no established mechanistic link to NSIAD. NSIAD arises from *AVPR2* gain-of-function, which is far from ranolazine's known pharmacology.
+The prediction is supported only by a computational score. There are no clinical trials or publications, the mechanistic link to V2 receptor-driven antidiuresis is speculative, and the knowledge graph flags kidney disease as a contraindication. The safety review also cannot proceed without the package insert data.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (e.g., from DrugBank) and an analysis of any plausible link to V2 receptor or aquaporin-2 signaling
-- Health Canada package insert warnings and contraindications, to enable safety screening
-- A systematic literature and trial registry search (including ICTRP) for ranolazine in NSIAD or related water-balance disorders
-- Preclinical or in vitro evidence (e.g., V2 receptor gain-of-function cell models) before any clinical consideration
-- Confirmation of the approved indication text and dosage forms for the two CORZYNA DINs
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank, to allow a proper mechanistic analysis
+- Approved indication text and dosage forms for the two CORZYNA licenses
+- Preclinical or mechanistic evidence linking late sodium current inhibition to AVPR2 or aquaporin-2 signalling
+- A literature search for any case reports or small studies in NSIAD
+- A review of renal safety and QT risk in the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

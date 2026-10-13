@@ -2,7 +2,7 @@
 layout: default
 title: Pinaverium
 parent: Model Prediction Only (L5)
-nav_order: 731
+nav_order: 738
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Pinaverium: From Gastrointestinal Smooth Muscle Disorders to Benign Prostatic Hyperplasia
+# Pinaverium: From Irritable Bowel Syndrome to Benign Prostatic Hyperplasia
 
 ## One-Sentence Summary
 
-Pinaverium is marketed in Canada under the brand name Dicetel and as generics. The Canadian licence records give no indication text, but from general pharmacology it is a gut-selective antispasmodic used for functional gastrointestinal disorders.
-The TxGNN model predicts it may be effective for **benign prostatic hyperplasia (BPH)**.
-This rests on the model score alone: **0 clinical trials** and **0 publications** currently support the prediction.
+Pinaverium is a gut-selective calcium channel blocker, generally used for irritable bowel syndrome (IBS) and related gastrointestinal spasm. The TxGNN model predicts it may be effective for **Benign Prostatic Hyperplasia (BPH)**. At present there are **no registered clinical trials and no publications** supporting this direction, so it rests on a computational prediction alone.
 
 ---
 
@@ -43,7 +41,7 @@ This rests on the model score alone: **0 clinical trials** and **0 publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records (general pharmacology: functional gastrointestinal disorders) |
+| Original Indication | Not stated in the Health Canada licence data compiled for this report (general pharmacology: IBS / gastrointestinal spasm) |
 | Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 99.22% |
 | Evidence Level | L5 |
@@ -55,11 +53,11 @@ This rests on the model score alone: **0 clinical trials** and **0 publications*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. From general pharmacology, which the input data does not confirm, pinaverium is a gastrointestinal-selective L-type calcium channel blocker. It relaxes gut smooth muscle by limiting calcium entry into the cells.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, pinaverium is a gastrointestinal-selective L-type calcium channel blocker with antimuscarinic-like effects in the gut. Its established use is in IBS.
 
-A possible but unverified link to BPH is that calcium channel blockade could also relax smooth muscle in the prostate and lower urinary tract. That could ease lower urinary tract symptoms. The model's high score may reflect this kind of shared smooth muscle pharmacology, but no study in the Evidence Pack tests it.
+Calcium channel blockade could plausibly reduce smooth muscle tone in the prostate, bladder neck and urethra, which is relevant to lower urinary tract symptoms in BPH. This is a hypothesis only, inferred from general pharmacology rather than from supplied evidence.
 
-There is also a significant pharmacokinetic doubt. Pinaverium is poorly absorbed systemically and acts mainly in the gut. Whether it reaches prostate or bladder tissue at pharmacologically relevant concentrations is unknown. This prediction should be treated as a hypothesis only.
+There is also an important caveat. Pinaverium is highly gut-selective and poorly absorbed systemically, so it is unclear whether it would reach adequate concentrations in genitourinary tissue. The high TxGNN score (0.992) is a computational output and is not clinical evidence.
 
 ---
 
@@ -77,18 +75,20 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 1950592 | DICETEL |
-| 2230684 | DICETEL |
-| 2469677 | PINAVERIUM |
-| 2469685 | PINAVERIUM |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 01950592 | DICETEL | Not listed | Not listed |
+| 02469677 | PINAVERIUM | Not listed | Not listed |
+| 02469685 | PINAVERIUM | Not listed | Not listed |
+| 02230684 | DICETEL | Not listed | Not listed |
+
+All four licences are valid single-ingredient products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+Please refer to the package insert for safety information. No drug-interaction records were found in the data compiled for this report.
 
 ---
 
@@ -97,16 +97,15 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a high TxGNN score, with no clinical trials or literature behind it. The mechanism of action is not documented in the record, and pinaverium's poor systemic absorption makes it doubtful that it reaches the prostate.
+The prediction is supported only by a model score, with no clinical trials or publications. The mechanistic link is hypothetical, and pinaverium's poor systemic absorption raises doubt that it could act on prostatic tissue. Safety label data are also missing.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (e.g., from DrugBank) to test the link between calcium channel blockade and prostate or bladder smooth muscle
-- Health Canada package insert warnings and contraindications, which are required before any safety screening
-- Approved indication text and dosage forms for the four DINs
-- Preclinical or pharmacokinetic evidence on whether the drug reaches prostatic or bladder tissue
-- A literature and trial search specifically on pinaverium and lower urinary tract symptoms or BPH
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Health Canada package insert (warnings, contraindications, approved indications, dosage forms), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Pharmacokinetic data on genitourinary tissue exposure
+- Preclinical or early-phase studies on prostatic or urethral smooth muscle effects
+- Comparison against established BPH therapies (alpha-blockers, 5-alpha-reductase inhibitors) to define any added value
+- Assessment of route and formulation compatibility
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

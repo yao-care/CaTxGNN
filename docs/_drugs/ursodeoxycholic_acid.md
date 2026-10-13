@@ -2,7 +2,7 @@
 layout: default
 title: Ursodeoxycholic Acid
 parent: Model Prediction Only (L5)
-nav_order: 952
+nav_order: 959
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,86 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ursodeoxycholic Acid: From Its Approved Use to Homozygous Familial Hypercholesterolemia
+# Ursodeoxycholic Acid: From Gallstone and Bile Duct Disorders to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Ursodeoxycholic acid (UDCA) is a hydrophilic bile acid marketed in Canada, but the supplied data does not state its original approved indication.
-The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia**.
-This is a model prediction only: **0 clinical trials** and **0 publications** currently support it.
-
----
+Ursodeoxycholic acid (UDCA) was originally used to treat gallstone diseases (cholelithiasis, cholecystolithiasis, choledocholithiasis) and primary biliary cholangitis.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.86% (model rank 3386) |
+| TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 8 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, UDCA is a hydrophilic bile acid. Its original indication is not recorded in the supplied data, so no direct link between the original and predicted indications can be drawn.
+Currently, detailed mechanism of action data is not available. Based on known information, UDCA is a bile acid that modulates the bile acid pool and hepatic cholesterol handling. Its efficacy in gallstone disease and primary biliary cholangitis is established, and mechanistically it might reduce intestinal cholesterol absorption and hepatic cholesterol synthesis.
 
-One plausible but unverified explanation is that UDCA may modestly reduce intestinal cholesterol absorption and hepatic cholesterol synthesis. It may also influence bile acid signaling (FXR/TGR5). The very high TxGNN score may simply reflect closeness between bile acid and cholesterol metabolism in the knowledge graph, rather than a real therapeutic effect.
+However, this link is plausible but unverified. Homozygous familial hypercholesterolemia is caused by defects in the LDL receptor pathway (LDLR, APOB, PCSK9 or LDLRAP1 variants). Bile acid modulation is unlikely to compensate for absent LDL receptor function, so any effect would probably be minor compared with established therapies such as statins, ezetimibe, PCSK9 inhibitors, lomitapide, evinacumab and LDL apheresis.
 
-There is also a mechanistic caution. Homozygous familial hypercholesterolemia is caused mainly by loss of LDL receptor function, or by defects in APOB, PCSK9 or LDLRAP1. Any LDL-lowering effect that relies on LDL receptor upregulation would therefore probably be limited in this population.
-
----
+The high graph score should be treated as a hypothesis-generating signal, not as support for clinical use.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Dosage form and approved indication text are not available for these authorizations. Five of the 8 authorizations are shown.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02273500 | PMS-URSODIOL C | Not specified | Not specified |
+| 02544024 | NRA-URSODIOL | Not specified | Not specified |
+| 02426919 | GLN-URSODIOL | Not specified | Not specified |
+| 02472392 | JAMP-URSODIOL | Not specified | Not specified |
+| 02544032 | NRA-URSODIOL | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02273500 | PMS-URSODIOL C |
-| 02544024 | NRA-URSODIOL |
-| 02426919 | GLN-URSODIOL |
-| 02472392 | JAMP-URSODIOL |
-| 02544032 | NRA-URSODIOL |
-
----
+Showing 5 of 8 valid single-ingredient licences. None of the licences is cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the queried source.
+- **Drug Interactions**: The interaction screen returned 100 records; the first 20 reviewed are listed below. Most are of unknown severity.
+  - Minor: cyclosporine, aluminum hydroxide, magaldrate
+  - Severity unknown: cyanocobalamin, calcitriol, folic acid, pravastatin, ramipril, lorazepam, tramadol, fluconazole, oseltamivir, erythromycin, sildenafil, pantoprazole, citalopram, moxifloxacin, nelfinavir, glimepiride, indinavir
 
----
+  Note that aluminum-containing antacids are commonly reported to reduce bile acid absorption, and cyclosporine levels may be affected. The clinical significance should be confirmed against the package insert.
+
+Warnings and contraindications from the Canadian package insert are not available. Please refer to the package insert for these.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no registered trials or publications. The expected mechanism (LDL receptor-dependent LDL lowering) is also doubtful in a disease defined by LDL receptor loss.
+The prediction is supported only by the model score (L5), with no clinical trials or literature. The proposed mechanism is weak for a disease caused by LDL receptor-pathway defects, and effective approved alternatives already exist.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are required before any safety screening
-- Mechanism of action data (e.g., from DrugBank) to test the proposed link to cholesterol metabolism
-- Approved indication text for the Canadian products, to establish the original-to-new indication relationship
-- Supporting evidence, such as preclinical or early clinical data on LDL-cholesterol lowering in homozygous familial hypercholesterolemia
-- A route and formulation compatibility assessment, which is currently pending
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for UDCA, to assess the biological link to LDL receptor-deficient disease
+- A systematic literature and trial search on UDCA and lipid lowering in familial hypercholesterolemia
+- Canadian package insert warnings, contraindications and approved indication text for the 8 DINs
+- Preclinical or early-phase data showing a meaningful LDL-C effect in homozygous patients, compared with current standard therapy
+- Review of the full interaction list, particularly with lipid-lowering agents such as pravastatin
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

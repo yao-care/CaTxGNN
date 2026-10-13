@@ -2,7 +2,7 @@
 layout: default
 title: Labetalol
 parent: Model Prediction Only (L5)
-nav_order: 510
+nav_order: 515
 evidence_level: L5
 indication_count: 4
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Labetalol is a combined alpha/beta-adrenergic blocker marketed in Canada. The supplied data does not list its original indication, but general pharmacology places it in hypertension. The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Labetalol is a combined alpha-1 and non-selective beta-adrenergic blocker, originally used to treat hypertension and hypertensive disorders.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but there are currently **no clinical trials** and **no publications specific to this condition**, so the prediction rests on the model alone.
 
 ---
 
@@ -41,10 +43,10 @@ Labetalol is a combined alpha/beta-adrenergic blocker marketed in Canada. The su
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (based on general pharmacology; the supplied license data contains no indication text) |
+| Original Indication | Hypertension / hypertensive disorder (from the knowledge graph; no approved indication text available for Canadian licences) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 11 |
 | Recommended Decision | Hold |
@@ -53,14 +55,15 @@ Labetalol is a combined alpha/beta-adrenergic blocker marketed in Canada. The su
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, labetalol combines alpha- and beta-adrenergic blockade and is used to lower blood pressure. Its efficacy in hypertension is established, and mechanistically it may be applicable to severe hypertension with kidney involvement.
+Currently, detailed mechanism of action data is not available. Based on known information, labetalol is a combined alpha-1 and non-selective beta-adrenergic blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant hypertensive renal disease.
 
-Malignant hypertensive renal disease is kidney damage caused by severely elevated blood pressure. The link to labetalol therefore comes from its antihypertensive action, not from any supplied trial, literature, or mechanism data. This prediction is also better read as an extension within the drug's existing antihypertensive use than as true repurposing. The original indication should be confirmed against the Health Canada label.
+Malignant hypertensive renal disease is kidney damage caused by severely elevated blood pressure. Lowering blood pressure is therefore a plausible way to help. Labetalol is already used for severe hypertension and hypertensive emergencies.
 
-The other three TxGNN predictions are also at L5 with a Hold recommendation:
-- **Malignant renovascular hypertension** (score 99.08%): two papers were retrieved, but they are only topically related. One is a pediatric case report, and the other is a hallucinogen-induced vasculitis case in which labetalol and minoxidil were used to control blood pressure. Renovascular hypertension is also driven by renin-angiotensin activation, so the fit with adrenergic blockade is uncertain.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.08%): the retrieved papers matched on the word "hypoxia" and are unrelated to labetalol or pulmonary hypertension. Systemic antihypertensive action does not transfer to the pulmonary circulation, and beta-blockade may carry risks such as bronchospasm.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.08%): no trials or literature, and the same concerns as above.
+This is essentially an extension of the original indication rather than a true repurposing. The high score (99.08%) is a computational prediction only, and no study specific to the renal condition was found.
+
+Other predictions from the model were also reviewed:
+- **Malignant renovascular hypertension** (score 99.08%, L5): this overlaps heavily with the approved hypertension use. The only linked paper is a 1981 case report on drug-induced vasculitis that mentions labetalol in passing. It does not show that labetalol is effective for this condition.
+- **Pulmonary hypertension (two predictions, score 99.08%)**: these are probably driven by the shared word "hypertension". Labetalol is not a pulmonary vasodilator, and non-selective beta-blockade may cause bronchoconstriction in patients with lung disease. The retrieved literature concerns systemic hypertension (such as preeclampsia) or unrelated topics, and gives no direct support. These predictions are not recommended for advancement.
 
 ---
 
@@ -72,27 +75,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature is available for the top predicted indication (malignant hypertensive renal disease).
+
+For the second prediction, malignant renovascular hypertension, one paper was found:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7242419](https://pubmed.ncbi.nlm.nih.gov/7242419/) | 1981 | Case report | Med J Aust | A young man with malignant hypertension after hallucinogenic drug use had vasculitis that responded to prednisone. Minoxidil and labetalol were used for initial blood pressure control. This does not demonstrate labetalol efficacy for the condition. |
 
 ---
 
 ## Canada Market Information
 
-Health Canada lists 11 licenses. Dosage form and approved indication text were not provided for any of them. The first 5 are shown:
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02231689 | LABETALOL HYDROCHLORIDE INJECTION USP | Not specified | Not specified |
+| 02243539 | APO-LABETALOL | Not specified | Not specified |
+| 02489406 | RIVA-LABETALOL | Not specified | Not specified |
+| 02541505 | LABETALOL HYDROCHLORIDE INJECTION USP | Not specified | Not specified |
+| 02106272 | TRANDATE | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2231689 | LABETALOL HYDROCHLORIDE INJECTION USP |
-| 2243539 | APO-LABETALOL |
-| 2489406 | RIVA-LABETALOL |
-| 2541505 | LABETALOL HYDROCHLORIDE INJECTION USP |
-| 2391090 | LABETALOL HYDROCHLORIDE INJECTION USP |
+Eleven valid single-ingredient licences are listed in total. The five above are shown as the main ones.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph** (not taken from the product label): these include liver failure, liver disease, hepatic encephalopathy, kidney disease, anuria, diabetes mellitus, diabetic ketoacidosis, atrioventricular block, pulmonary emphysema, bronchial disease, hypotensive disorder, pancreatitis, gout, systemic lupus erythematosus, and others.
+- **Drug Interactions**: 100 interactions were identified. Examples:
+  - **Major**: epinephrine, dolasetron
+  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), morphine, anticholinergics (atropine, hyoscyamine, dicyclomine, methscopolamine), SGLT2 inhibitors (canagliflozin, dapagliflozin), chlorpropamide, cimetidine, calcium salts
+  - **Minor**: acetylsalicylic acid, magnesium oxide
+- **Other safety concern**: non-selective beta-blockade may cause bronchospasm, which matters for the pulmonary hypertension predictions.
+
+Please also refer to the Health Canada package insert for official warnings and contraindications.
 
 ---
 
@@ -101,16 +117,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The 99.08% TxGNN score is not backed by any trials or literature (L5). The link to malignant hypertensive renal disease also reflects labetalol's existing antihypertensive use more than a new indication. Safety data has not been obtained, so the candidate cannot proceed to safety screening.
+- The evidence level is L5: there are no trials or specific literature for the predicted indication. The indication also largely overlaps with labetalol's existing hypertension use, so it adds little as a true repurposing opportunity. The pulmonary hypertension predictions carry a safety concern and no supporting evidence.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings, contraindications, approved indications) to complete the safety review and confirm the original indication
-- Mechanism of action data (for example from DrugBank)
-- A targeted literature and trial search for labetalol in malignant hypertension with renal involvement
-- Full-text review of the two papers retrieved for malignant renovascular hypertension
-- A separate safety assessment of beta-blockade before any consideration of the pulmonary hypertension predictions
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example, from DrugBank)
+- Clinical or observational evidence of labetalol use in malignant hypertensive nephrosclerosis or renal outcomes
+- Approved indication text and dosage forms for the Canadian licences, to confirm how the new indication relates to existing labelling
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

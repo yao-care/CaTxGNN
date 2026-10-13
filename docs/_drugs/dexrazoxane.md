@@ -2,7 +2,7 @@
 layout: default
 title: Dexrazoxane
 parent: Model Prediction Only (L5)
-nav_order: 270
+nav_order: 272
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexrazoxane: From Anthracycline Cardioprotection to Sclerosing Cholangitis
+# Dexrazoxane: From an Unspecified Original Indication to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Dexrazoxane is marketed in Canada, and is generally known as a cardioprotective agent used alongside anthracycline chemotherapy. The Canadian license data in the Evidence Pack do not state an indication.
-The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
+Dexrazoxane is marketed in Canada as a single-ingredient product, but the data compiled for this report do not list its approved indication.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis** with a very high score, yet **no clinical trials and no publications** currently support this prediction.
+It is a model prediction only and should be treated as a hypothesis.
 
 ---
 
@@ -42,7 +43,7 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian license data (anthracycline cardioprotection is the drug's generally known use) |
+| Original Indication | Not available in the compiled data (Canadian license records contain no indication text) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -54,24 +55,53 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 
 ## Why is This Prediction Reasonable?
 
-The Evidence Pack has no formal mechanism-of-action entry for dexrazoxane. The following comes from the mechanistic rationale in the pack. Dexrazoxane acts as an iron chelator through its metabolite ADR-925, and as a catalytic inhibitor of topoisomerase II. In theory, iron chelation could limit iron-driven oxidative injury.
+Currently, detailed mechanism of action data is not available. Dexrazoxane is known as an iron-chelating agent and topoisomerase II inhibitor. This is general pharmacological knowledge, not part of the data compiled for this report.
 
-This is a hypothesis, not an established link. The pack states that no direct link between dexrazoxane and sclerosing cholangitis has been established. Sclerosing cholangitis is a chronic inflammatory and fibrosing disease of the bile ducts, and no clinical or literature evidence connects it to dexrazoxane. The very high TxGNN score (0.9999) is a model output. It should not be read as evidence of efficacy, and may partly reflect knowledge-graph topology.
+A speculative link to sclerosing cholangitis is that iron chelation and topoisomerase II inhibition could influence oxidative stress and inflammation in cholestatic bile duct injury. No trial, publication, or mechanistic study in the compiled data supports this idea. The high score should not be read as proof of efficacy.
+
+The other top-ranked predictions are also supported by the model score alone. These include bronchitis, paratyphoid fever, conjunctivitis, epiglottitis, laryngitis, and urinary tract infections. Several of them are infectious conditions for which dexrazoxane has no antimicrobial mechanism, so these high scores may partly reflect network artifacts in the knowledge graph.
+
+Among the lower-ranked predictions, **cystitis** (rank 10) has the most indirect support. Preclinical work links ferroptosis, an iron-dependent form of cell death, to cyclophosphamide-induced hemorrhagic cystitis and to interstitial cystitis. Two older reviews on chemoprotectants provide context. None of these tests dexrazoxane directly in cystitis, so it remains a research question.
+
+---
+
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+---
+
+## Literature Evidence
+
+Currently no related literature available for sclerosing cholangitis.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2153432 | ZINECARD |
-| 2544083 | DEXRAZOXANE FOR INJECTION |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02153432 | ZINECARD | Not listed | Not listed |
+| 02544083 | DEXRAZOXANE FOR INJECTION | Not listed | Not listed |
+
+Both products are valid single-ingredient licenses. None are cancelled.
+
+---
+
+## Cytotoxicity
+
+Dexrazoxane is used alongside antineoplastic therapy but is not itself classified here as a conventional cytotoxic agent. The data compiled for this report do not include its toxicity classification. Please refer to the package insert warnings and precautions, including any handling requirements.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph signal, not label text)**: The TxGNN knowledge graph links dexrazoxane to impaired renal function disease and non-infectious meningitis. These should be verified against the official label.
+- **Drug Interactions**: 19 interactions were identified, of which 11 are rated Major and 8 Moderate.
+  - **Major**: mostly live vaccines or live-organism products: BCG (Tice), measles, mumps, rubella, rotavirus, smallpox (vaccinia), typhoid (live), yellow fever, varicella zoster, and talimogene laherparepvec.
+  - **Moderate**: doxorubicin (including liposomal), dimethyl fumarate, diroximel fumarate, monomethyl fumarate, adenovirus type 4 antigen, *Bifidobacterium longum infantis*, *Lactobacillus acidophilus*, and live cholera vaccine (CVD 103-HgR).
+
+Health Canada package insert warnings and contraindications were not available. Please refer to the package insert for complete safety information.
 
 ---
 
@@ -80,18 +110,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no registered clinical trials, no publications and no established mechanistic link, so it rests on the model score alone (Evidence Level L5). The Health Canada package insert data are also missing, which blocks safety screening.
+The sclerosing cholangitis prediction rests on a model score alone (L5), with no trials, no literature, and only a speculative mechanism. The essential label information (indications, warnings, contraindications) is also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings, contraindications, approved indication), obtained and parsed
-- Confirmed mechanism-of-action data from DrugBank
-- A systematic literature search on iron chelation or oxidative injury in cholestatic and sclerosing bile duct disease
-- Preclinical evidence (for example, animal models of cholangitis) before any clinical consideration
-- Review of dosage form and route compatibility, since the Canadian license data list no dosage forms
-
-**Other predictions:** Among the other top predictions, only cystitis (rank 10) is flagged as a "Research Question". It is a hypothesis-level link, through ferroptosis in cyclophosphamide-induced hemorrhagic cystitis, and mesna remains the standard uroprotectant. The remaining predictions have no plausible mechanism and are likely graph artifacts.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- The Health Canada package insert, to confirm the approved indication, warnings, and contraindications
+- Mechanism of action data (for example, from DrugBank)
+- A targeted literature search on dexrazoxane in cholestatic or sclerosing liver disease, and on iron or ferroptosis pathways in bile duct injury
+- Preclinical validation before any clinical study, if the hypothesis is pursued
+- Review of the renal impairment and meningitis signals from the knowledge graph, together with the live vaccine interactions, before any new-use study
+- Optionally, follow-up on cystitis (chemotherapy-induced or interstitial) as a lower-ranked but better-supported research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

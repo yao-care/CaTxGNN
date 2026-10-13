@@ -2,7 +2,7 @@
 layout: default
 title: Fedratinib
 parent: Model Prediction Only (L5)
-nav_order: 376
+nav_order: 378
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,84 +33,90 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Fedratinib is a JAK2-selective kinase inhibitor, marketed in Canada as INREBIC and generally used for myelofibrosis.
-The TxGNN model predicts it may be effective for **benign PEComa** with a very high score (99.84%), but the prediction currently has **0 clinical trials** and **0 publications** behind it.
-It rests on model output alone, and the mechanistic link is speculative.
-
----
+Fedratinib is a kinase inhibitor originally used to treat primary myelofibrosis and myelofibrosis.
+The TxGNN model predicts it may be effective for **benign PEComa**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Myelofibrosis (general knowledge of fedratinib's labelling; the Evidence Pack contains no approved-indication text) |
+| Original Indication | Primary myelofibrosis; myelofibrosis |
 | Predicted New Indication | Benign PEComa |
-| TxGNN Prediction Score | 99.84% (model rank 3847) |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 99.84% |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general pharmacology, fedratinib is a JAK2-selective inhibitor with additional activity against FLT3 and BRD4. Its efficacy in myelofibrosis comes from suppressing JAK/STAT signaling.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fedratinib is a JAK2/FLT3 inhibitor, and its efficacy in myelofibrosis is established.
 
-The link to PEComa is weak. PEComa biology is driven mainly by loss of TSC1/2 and hyperactivation of mTOR, and mTOR inhibitors are the established approach. Any connection to fedratinib would be indirect, through crosstalk between the JAK/STAT and mTOR pathways. The high score likely reflects similarity in the knowledge-graph neighbourhood rather than a validated mechanism.
+PEComa (perivascular epithelioid cell tumour) is commonly driven by mTOR pathway activation through loss of TSC1/TSC2. No direct mechanistic link between fedratinib and mTOR signalling is established in the data compiled for this report. A possible connection through JAK/STAT crosstalk with the PI3K/AKT/mTOR pathway is speculative. The prediction is therefore best viewed as a network-similarity signal from the model, not as a mechanism-supported hypothesis.
 
-The other nine top predictions do not strengthen the case:
-- Lymphangiomyoma, uterine PEComa and lymphangioleiomyomatosis are in the same TSC/mTOR family, where JAK2 dependency is not established.
-- The two rhabdoid tumor predictions are correlated with each other and rest only on hypothetical BRD4-related epigenetic effects.
-- The two hemophagocytic syndromes carry an identical score, so they are not independent evidence. They are the most mechanistically plausible, because JAK/STAT drives their cytokine storm, but no fedratinib-specific data were supplied.
+Other top-ranked predictions are also without trial or literature support:
 
----
+| Rank | Predicted Indication | TxGNN Score | Comment |
+|------|------|------|------|
+| 2 | Lymphangiomyoma | 99.83% | Related to LAM (TSC/mTOR-driven); no demonstrated JAK2 link |
+| 3 | Uterine corpus PEComa | 99.83% | PEComa family; no direct link |
+| 4 | Dermatofibrosarcoma protuberans | 99.80% | Driven by PDGFR signalling; imatinib is the established therapy |
+| 5 | Rhabdoid tumour | 99.78% | SMARCB1 loss; no link to JAK2/FLT3 |
+| 6 | Familial rhabdoid tumour | 99.77% | Hereditary form; likely network similarity |
+| 7 | Familial Mediterranean fever (autosomal recessive) | 99.75% | Speculative cytokine-signalling dampening; established therapies exist |
+| 8 | Acquired HLH associated with malignancy | 99.74% | JAK/STAT-driven cytokine storm; the more mechanistically plausible candidate |
+| 9 | Infection-associated hemophagocytic syndrome | 99.74% | Same rationale as rank 8 |
+| 10 | Lymphangioleiomyomatosis | 99.74% | mTORC1-driven; sirolimus is the established therapy |
+
+Among these, the HLH indications have the most plausible biology, since JAK/STAT signalling mediates the cytokine storm.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2502445 | INREBIC |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02502445 | INREBIC | Not specified | Not specified |
 
-Dosage form, manufacturer and approved-indication text were not supplied for this authorization.
+## Cytotoxicity
 
----
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (JAK2/FLT3 kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions (typically CBC, liver function and renal function) |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-- **Key Warning (from the mechanism notes, not a package-insert extract)**: Fedratinib carries a boxed warning for encephalopathy, including Wernicke's encephalopathy. This would need careful weighing in critically ill patients, such as those with hemophagocytic syndromes.
+- **Drug Interactions**: 100 interactions were identified in the interaction database. Examples of those listed:
+  - **Major**: dexamethasone, clarithromycin, eliglustat, naloxegol
+  - **Moderate**: rabeprazole, omeprazole, lansoprazole, cimetidine, aprepitant, hydrocortisone, triamcinolone, betamethasone, budesonide, saxagliptin, naldemedine, naltrexone
 
-Please refer to the package insert for full warnings, contraindications and drug interactions.
-
----
+Further safety information, including warnings and contraindications, should be taken from the package insert. For the HLH indications specifically, the safety profile (including the known risk of encephalopathy, including Wernicke's) needs careful consideration in critically ill patients.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score. No trials or publications exist, and the disease biology (mTOR-driven) does not point to JAK2 inhibition. The drug also has a significant toxicity profile, so there is no basis to advance.
+The prediction is supported only by a high TxGNN score (99.84%). No clinical trials or publications were found, and no mechanistic link between JAK2/FLT3 inhibition and the mTOR-driven biology of PEComa is established. Evidence level is L5.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Preclinical evidence, such as cell-line or animal data, for fedratinib in PEComa or another top-ranked disease
-- A literature and trial search extended to JAK inhibitor class effects, especially for hemophagocytic lymphohistiocytosis, which is the most plausible of the ten predictions
-- Route compatibility and similarity-to-original-indication assessments, both still pending
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data to allow a proper mechanistic-link analysis
+- Preclinical evidence (for example, cell-line or animal models) testing fedratinib in PEComa or TSC/mTOR-driven disease
+- Consideration of the HLH indications as the more biologically plausible alternative, with a dedicated literature review
+- Confirmation of approved indication text and dosage form for DIN 02502445
+- Assessment of route compatibility, which is still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Cyclosporine
 parent: Moderate Evidence (L3-L4)
-nav_order: 231
+nav_order: 233
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Cyclosporine: From Immunosuppression to Chronic Granulomatous Disease (Autosomal Recessive)
+# Cyclosporine: From Rheumatoid Arthritis and Dry Eye to Chronic Granulomatous Disease
 
 ## One-Sentence Summary
 
-Cyclosporine is a calcineurin-inhibitor immunosuppressant, marketed in Canada under 14 licences. The TxGNN model predicts it may be useful for **autosomal recessive chronic granulomatous disease (CGD)**. Only **1 clinical trial** and **1 publication** were found, and both concern transplant settings, so they give no direct evidence that cyclosporine treats CGD.
+Cyclosporine is a calcineurin-inhibitor immunosuppressant, used for rheumatoid arthritis, dry eye syndrome, xerophthalmia and Sjögren syndrome.
+The TxGNN model predicts it may be effective for **autosomal recessive chronic granulomatous disease (CGD)**,
+but **no clinical trials** and only **1 publication** (a stem cell transplantation cohort that does not test cyclosporine itself) are linked to this prediction, so the evidence is essentially model-based.
 
 ---
 
@@ -41,6 +43,7 @@ Cyclosporine is a calcineurin-inhibitor immunosuppressant, marketed in Canada un
 
 | Item | Content |
 |------|------|
+| Original Indication | Rheumatoid arthritis, dry eye syndrome, xerophthalmia, Sjögren syndrome (from the knowledge graph; Canadian licence indication text is not available) |
 | Predicted New Indication | Granulomatous disease, chronic, autosomal recessive |
 | TxGNN Prediction Score | 99.68% |
 | Evidence Level | L4 |
@@ -52,19 +55,15 @@ Cyclosporine is a calcineurin-inhibitor immunosuppressant, marketed in Canada un
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this drug is not available in the Evidence Pack. Cyclosporine is generally known to inhibit calcineurin and NFAT-driven T-cell activation. This is why it is used to prevent graft-versus-host disease (GVHD) after allogeneic haematopoietic stem cell transplantation (HSCT).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, cyclosporine is a calcineurin inhibitor that suppresses T-cell activation. Its efficacy in immune-mediated conditions such as rheumatoid arthritis and Sjögren syndrome is established.
 
-Allogeneic HSCT is the curative therapy for CGD. Cyclosporine does not correct the underlying CGD defect (NADPH oxidase deficiency). Its role would be supportive: preventing GVHD in CGD patients who receive a transplant. It would not modify the disease itself. The high TxGNN score likely reflects this transplant context.
-
-The prediction should therefore be read as "supportive care in transplant," not "treatment of CGD."
+CGD is an inherited phagocyte disorder marked by recurrent infections and excessive granulomatous inflammation. In theory, T-cell suppression could dampen this inflammation. However, the only linked publication concerns stem cell transplantation outcomes in CGD, where calcineurin inhibitors are probably used to prevent graft-versus-host disease. That is supportive context only and does not show that cyclosporine treats CGD. Because CGD patients are highly prone to infection, further immunosuppression could also be harmful. The high score (0.997) is an unvalidated model prediction.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01917708](https://clinicaltrials.gov/study/NCT01917708) | Phase 1 | Completed | 10 | Abatacept added to cyclosporine and mycophenolate mofetil for GVHD prophylaxis in children receiving unrelated-donor HSCT for non-malignant diseases. Cyclosporine is a background agent, and the trial is not CGD-specific. |
+Currently no related clinical trials registered.
 
 ---
 
@@ -72,27 +71,37 @@ The prediction should therefore be read as "supportive care in transplant," not 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohort | J Allergy Clin Immunol | Reports excellent survival after sibling or unrelated donor stem cell transplantation in CGD. It supports HSCT as a treatment for CGD but does not evaluate cyclosporine itself. |
+| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohort | J Allergy Clin Immunol | Survival after sibling or unrelated donor stem cell transplantation in CGD was excellent. This concerns transplantation, not cyclosporine as a treatment. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2355655 | RESTASIS |
-| 2242821 | SANDOZ CYCLOSPORINE |
-| 2512629 | CEQUA |
-| 2484137 | VERKAZIA |
-| 2150697 | NEORAL |
+Fourteen valid single-ingredient licences are registered in Canada. Dosage form and approved-indication text are not available in the data compiled for this report. Five main products are listed:
 
-These are 5 of the 14 licences. Dosage form and approved-indication text were not provided for these products.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02355655 | RESTASIS | – | – |
+| 02242821 | SANDOZ CYCLOSPORINE | – | – |
+| 02512629 | CEQUA | – | – |
+| 02484137 | VERKAZIA | – | – |
+| 02150697 | NEORAL | – | – |
+
+Other registered products include further NEORAL strengths, RESTASIS MULTIDOSE, TEVA-CYCLOSPORINE, additional SANDOZ CYCLOSPORINE licences and SANDIMMUNE I.V.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / disease associations (knowledge graph, not label text)**: Hypertension, epilepsy, kidney disease, liver disease, gallbladder disease, infectious disease (including eye infections and conjunctivitis), hyperuricaemia, hypertriglyceridaemia, hyperbilirubinaemia (including Gilbert syndrome), thrombocytopenic purpura, pseudotumor cerebri/intracranial hypertension, and cancers and neoplasms including lymphoma and primary CNS lymphoma. The infectious disease association is particularly relevant to CGD.
+- **Drug Interactions**: 100 interactions were found. Examples:
+  - **Major**: Loperamide
+  - **Moderate**: Rabeprazole, hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, amphotericin B (including the lipid complex), bupropion, aprepitant, mesalazine, balsalazide, acetylsalicylic acid, metronidazole, chlorpropamide, cholic acid
+  - **Minor**: Ranitidine, doxycycline
+
+  Antifungal and corticosteroid co-medications are common in CGD, so these interactions matter for this population.
+
+Please refer to the Canadian package insert for formal warnings and contraindications, which are not available in the data compiled for this report.
 
 ---
 
@@ -101,13 +110,28 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence is indirect: a Phase 1 trial where cyclosporine is a background GVHD-prophylaxis agent, and a cohort study of HSCT in CGD. Neither tests cyclosporine as a treatment for CGD, and cyclosporine does not address the disease defect. Among the other predicted indications, brain aneurysm (evidence level L3) is the only one with more literature, but that literature is weak and partly argues against a T-cell mechanism.
+The prediction rests on a model score alone. No clinical trials exist, and the single linked publication is about stem cell transplantation, not cyclosporine efficacy. Immunosuppression in a population prone to severe infection raises a safety concern.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism-of-action data from DrugBank
-- Approved-indication text for the Canadian licences
-- A targeted literature search on cyclosporine-based GVHD prophylaxis in CGD transplant patients, to decide whether the supportive-care use is worth pursuing
+- Mechanism of action data and a clear mechanistic rationale for calcineurin inhibition in CGD
+- Literature search for cyclosporine use in CGD-related hyperinflammation or colitis
+- Health Canada package insert warnings and contraindications (safety screening cannot proceed without them)
+- Infection-risk assessment in CGD patients, including the antifungal and corticosteroid interactions noted above
+
+---
+
+### Other Predicted Indications (for reference)
+
+| Rank | Predicted Indication | Score | Evidence Level | Recommendation |
+|---|---|---|---|---|
+| 2 | Brain aneurysm | 99.50% | L3 | Research Question |
+| 3 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.39% | L5 | Hold |
+| 4 | Congenital ichthyosiform erythroderma | 99.38% | L5 | Hold |
+| 5 | Fetal erythroblastosis | 99.37% | L5 | Hold |
+| 6 | Brachydactyly-syndactyly syndrome | 99.31% | L5 | Hold |
+| 7 | Prolapse of lacrimal gland | 99.08% | L5 | Hold |
+
+The brain aneurysm prediction has the most literature. Small, older studies (1991, 1997) examined cyclosporine for vasospasm and neurological deterioration after aneurysmal subarachnoid haemorrhage. These address a rupture complication, not aneurysm treatment, and a 2017 animal study found T-cell function dispensable for aneurysm formation, which weakens the mechanistic rationale.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

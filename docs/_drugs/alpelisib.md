@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alpelisib: From HR+/HER2- Breast Cancer to Pulmonary Hypertension
+# Alpelisib: From an Unspecified Original Indication to Pulmonary Hypertension
 
 ## One-Sentence Summary
 
-Alpelisib (marketed in Canada as PIQRAY) is a PI3Kα-selective inhibitor, used in HR+/HER2- breast cancer with a PIK3CA mutation according to the trials in this Evidence Pack.
-The TxGNN model predicts it may be effective for **pulmonary hypertension**, but the evidence is prediction only: **1 registered trial** (breast cancer, not pulmonary hypertension) and **2 publications**, both raising safety concerns rather than showing benefit.
+Alpelisib is a PI3K-alpha inhibitor marketed in Canada as PIQRAY. The approved indication text is not available in the data compiled for this report, but the clinical trials found are in breast and ovarian cancer.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and only **1 publication** (a case report of alpelisib-induced interstitial lung disease, which is a safety signal rather than evidence of benefit).
+The prediction currently rests on the model score alone.
 
 ---
 
@@ -42,10 +43,10 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records; the related trials point to HR+/HER2- advanced breast cancer with a PIK3CA mutation |
+| Original Indication | Not available in the Canadian license data (trials in the evidence set are in HR+/HER2- PIK3CA-mutated advanced breast cancer and ovarian cancer) |
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 99.03% |
-| Evidence Level | L5 |
+| Evidence Level | L4 (indirect and mechanistic only; no trials, one case report) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
@@ -54,24 +55,17 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the database. Alpelisib is known to be a PI3Kα-selective inhibitor. PI3K/AKT signaling is implicated in the proliferation and remodeling of pulmonary vascular smooth muscle, so a mechanistic link to pulmonary hypertension is plausible in principle.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, alpelisib is a selective PI3K-alpha inhibitor used in oncology, and its efficacy in PIK3CA-mutated breast cancer has been studied in Phase 3 trials.
 
-However, the retrieved evidence does not show any clinical benefit. It points the other way:
+Mechanistically, PI3K/AKT/mTOR signalling has been implicated in pulmonary vascular remodelling, which is a feature of pulmonary hypertension. This gives a plausible biological rationale, but it is a hypothesis only. No study in the data compiled for this report tests alpelisib in pulmonary hypertension.
 
-- A case report describes alpelisib-induced interstitial lung disease in a patient with advanced breast cancer.
-- A preclinical study found that PI3Kα pathway inhibition combined with doxorubicin caused biventricular atrophy and right ventricular dysfunction.
-
-Both signals are concerning for a disease that involves the pulmonary vasculature and the right heart. The high TxGNN score reflects a knowledge-graph association and has not been backed by any study of alpelisib in pulmonary hypertension.
+The only publication is a case report of alpelisib-induced interstitial lung disease in a patient with advanced breast cancer. This is a pulmonary adverse event, so it raises a safety question for lung-related use rather than supporting benefit. The high TxGNN score (99.03%, rank 15,925) is a model prediction and does not substitute for clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) | N/A (observational) | Completed | 435 | REASSURE: European real-world retrospective cohort of ribociclib or alpelisib in HR+/HER2- advanced or metastatic breast cancer. It does not evaluate pulmonary hypertension (relevance grade C). |
-
-No registered trial tests alpelisib in pulmonary hypertension.
+Currently no related clinical trials registered for pulmonary hypertension.
 
 ---
 
@@ -79,20 +73,17 @@ No registered trial tests alpelisib in pulmonary hypertension.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Case report | J Oncol Pharm Pract | Alpelisib-induced interstitial lung disease in a patient with advanced breast cancer, a pulmonary safety signal |
-| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Preclinical (animal) | J Am Heart Assoc | PI3Kα inhibition with doxorubicin caused biventricular atrophy, remodeling and right ventricular dysfunction, a cardiac safety signal |
+| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Case report | Journal of Oncology Pharmacy Practice | Alpelisib-induced interstitial lung disease in a patient with advanced breast cancer; a pulmonary safety signal, not evidence of therapeutic benefit |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2497085 | PIQRAY |
-| 2497077 | PIQRAY |
-| 2497069 | PIQRAY |
-
-Dosage form, manufacturer and approved-indication text were not available in the license records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02497085 | PIQRAY | Not specified | Not specified |
+| 02497077 | PIQRAY | Not specified | Not specified |
+| 02497069 | PIQRAY | Not specified | Not specified |
 
 ---
 
@@ -100,22 +91,20 @@ Dosage form, manufacturer and approved-indication text were not available in the
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PI3Kα inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (PI3K-alpha inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Blood glucose monitoring is relevant, since hyperglycemia is an on-target toxicity (see the metformin prevention study NCT04300790); otherwise refer to the package insert |
+| Monitoring Items | Blood glucose is a key parameter (a Phase 2 trial studied metformin to prevent alpelisib-associated hyperglycaemia); also refer to the package insert for haematological, liver and renal monitoring |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Formal warnings, contraindications and interaction data were not available. Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified, and the 20 listed in the compiled data are all rated Moderate. Many involve glucose-lowering agents, which fits the hyperglycaemia risk seen with alpelisib. Examples include metformin, pioglitazone, acarbose, alogliptin, albiglutide, dulaglutide, exenatide, glimepiride, glipizide, chlorpropamide, acetohexamide, canagliflozin, dapagliflozin, empagliflozin and ertugliflozin. Others include dexamethasone, bupropion, alosetron, dronabinol and fidaxomicin.
+- **Pulmonary signal**: A published case report describes alpelisib-induced interstitial lung disease, which is a relevant concern in a lung-related indication.
 
-Signals from the retrieved evidence:
-- **Pulmonary:** alpelisib-associated interstitial lung disease has been reported.
-- **Cardiac:** preclinical data show right ventricular dysfunction when PI3Kα inhibition is combined with doxorubicin.
-- **Metabolic:** hyperglycemia is a known on-target toxicity, and metformin has been studied to prevent it.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -124,13 +113,13 @@ Signals from the retrieved evidence:
 **Decision: Hold**
 
 **Rationale:**
-The evidence is prediction only (L5). There are no relevant trials, and the only literature points to pulmonary and cardiac safety risks rather than benefit.
+The prediction has no supporting clinical trials, and the only publication is a case report of a lung adverse event rather than benefit. The mechanistic rationale (PI3K signalling in vascular remodelling) is plausible but untested. The label warnings and contraindications were not available, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which currently block safety screening
-- Mechanism-of-action data from DrugBank
-- Preclinical evidence that PI3Kα inhibition improves pulmonary vascular remodeling, with an assessment of pulmonary and right-heart toxicity
-- Original approved-indication text from the Canadian license records
+- Health Canada package insert warnings, contraindications and approved indication text (a blocking gap)
+- Mechanism of action data from DrugBank
+- Preclinical evidence (for example, pulmonary hypertension animal models) testing PI3K-alpha inhibition
+- Assessment of the interstitial lung disease risk in the context of a pulmonary vascular indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

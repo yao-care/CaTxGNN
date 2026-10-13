@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clofarabine
-parent: Model Prediction Only (L5)
-nav_order: 209
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 211
+evidence_level: L1
 indication_count: 10
 ---
 
 # Clofarabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,115 +29,119 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clofarabine: From Relapsed/Refractory Pediatric Acute Lymphoblastic Leukemia to Myeloid Leukemia
+# Clofarabine: From Acute Lymphoblastic Leukemia to Myeloid Leukemia
 
 ## One-Sentence Summary
 
-Clofarabine is a purine nucleoside analog whose established use, per the cited literature, is relapsed or refractory pediatric acute lymphoblastic leukemia (ALL).
-The TxGNN model predicts it may be effective for **myeloid leukemia**, with **50 clinical trials** (including 3 completed Phase 3 trials) and **20 publications** currently supporting this direction.
-
----
+Clofarabine is a purine nucleoside analog originally used for relapsed or refractory acute lymphoblastic leukemia (ALL).
+The TxGNN model predicts it may be effective for **myeloid leukemia**,
+with **43 clinical trials** (including 2 completed Phase 3 trials) and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Relapsed/refractory pediatric ALL (from the literature; the Health Canada approved-indication text is not available) |
+| Original Indication | Acute lymphoblastic leukemia (relapsed/refractory) |
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L1 by the counting rule (3 completed Phase 3 trials in AML; the source data assigned L2) |
+| Evidence Level | L1 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in DrugBank. Based on the published literature, clofarabine is a second-generation purine nucleoside analog. Its active triphosphate metabolite inhibits ribonucleotide reductase and DNA polymerase, and it disrupts mitochondrial membrane integrity. Together these effects deplete the deoxynucleotide pool, block DNA synthesis and repair, and trigger apoptosis in rapidly proliferating blasts.
+Detailed mechanism of action data is not available in the structured drug record. From the literature compiled for this report, clofarabine is a second-generation purine nucleoside analog. It inhibits ribonucleotide reductase and DNA polymerase, reducing the pool of deoxynucleotides available for DNA replication, and it induces apoptosis. It was designed to combine the best features of fludarabine and cladribine.
 
-ALL and myeloid leukemia are both acute leukemias driven by rapidly dividing blast cells. A drug that halts DNA synthesis in lymphoblasts is therefore plausibly active in myeloid blasts. The trial record supports this. Clofarabine has been tested in adult and pediatric AML as a single agent, with cytarabine, with idarubicin, and as a transplant conditioning component. The high TxGNN score (0.9988) is consistent with this mechanistic overlap.
+ALL and myeloid leukemia are both acute leukemias driven by rapidly dividing blast cells. A drug that disrupts DNA synthesis and repair should therefore plausibly act on both. Clofarabine is already used off-label and in combination regimens for adult acute myeloid leukemia (AML) and high-risk myelodysplastic syndrome (MDS). Several reviews describe single-agent activity in AML.
 
-Caveat: the original-indication field in the source data is empty, so part of this "repurposing" signal may simply reflect the drug's known leukemia activity.
-
----
+The same TxGNN output also ranks acute lymphoblastic leukemia itself, precursor lymphoblastic leukemia/lymphoma, and blast-phase CML among the top predictions. This is consistent with the drug's activity across acute leukemias.
 
 ## Clinical Trial Evidence
 
-Of the 50 trials linked to this prediction, the 10 most relevant are listed below. They are ranked by phase, completion status and direct testing of clofarabine in myeloid disease.
+The data compiled for this report list 43 trials for this indication. The most relevant are shown below.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02085408](https://clinicaltrials.gov/study/NCT02085408) | Phase 3 | Completed | 727 | Randomized: clofarabine induction and post-remission therapy vs daunorubicin + cytarabine, then decitabine maintenance vs observation, in newly diagnosed AML aged ≥60 |
-| [NCT00317642](https://clinicaltrials.gov/study/NCT00317642) | Phase 3 | Completed | 326 | Double-blind: clofarabine + cytarabine vs cytarabine alone in relapsed/refractory AML aged ≥55 |
-| [NCT00703820](https://clinicaltrials.gov/study/NCT00703820) | Phase 3 | Completed | 324 | AML08: clofarabine + cytarabine vs conventional induction in newly diagnosed AML, with NK-cell transplantation |
-| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Phase 2 | Completed | 50 | Clofarabine + high-dose cytarabine with G-CSF priming in adults <65 with newly diagnosed AML or advanced MDS |
-| [NCT00778375](https://clinicaltrials.gov/study/NCT00778375) | Phase 2 | Completed | 122 | Clofarabine + low-dose cytarabine induction, alternating with decitabine, in frontline AML/high-risk MDS aged ≥60 |
-| [NCT00088218](https://clinicaltrials.gov/study/NCT00088218) | Phase 2 | Completed | 95 | Randomized: clofarabine alone vs with low-dose cytarabine in untreated AML/high-risk MDS aged ≥60 |
-| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Phase 2 | Completed | 86 | Clofarabine salvage therapy in relapsed/refractory AML |
-| [NCT01457885](https://clinicaltrials.gov/study/NCT01457885) | Phase 2 | Completed | 75 | Myeloablative transplant conditioning with clofarabine + busulfan for non-remission AML |
-| [NCT01534702](https://clinicaltrials.gov/study/NCT01534702) | Phase 1/2 | Unknown | 60 | AMLSG 17-10: escalating clofarabine added to cytarabine + idarubicin induction in high-risk AML |
-| [NCT00065143](https://clinicaltrials.gov/study/NCT00065143) | Phase 2 | Completed | 60 | Clofarabine + cytarabine in newly diagnosed AML/high-risk MDS aged ≥50 |
-
-Note: the results of the three Phase 3 trials are not included in the data provided. Their efficacy conclusions must be verified from the primary publications.
-
----
+| [NCT02085408](https://clinicaltrials.gov/study/NCT02085408) | Phase 3 | Completed | 727 | Clofarabine induction and post-remission therapy vs. standard daunorubicin/cytarabine, then decitabine maintenance vs. observation, in older adults (≥60) with newly diagnosed AML |
+| [NCT00317642](https://clinicaltrials.gov/study/NCT00317642) | Phase 3 | Completed | 326 | Double-blind trial of clofarabine plus cytarabine vs. cytarabine alone in relapsed/refractory AML, age ≥55 |
+| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | Completed | 2000 | Treatment development programme for older patients with AML and high-risk MDS |
+| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Phase 2 | Completed | 86 | Clofarabine salvage therapy in relapsed or refractory AML |
+| [NCT00067028](https://clinicaltrials.gov/study/NCT00067028) | Phase 2 | Completed | 116 | Clofarabine with ara-C and/or idarubicin in relapsed/refractory AML, high-grade MDS, or myeloid blast-phase CML |
+| [NCT01193400](https://clinicaltrials.gov/study/NCT01193400) | Phase 2 | Terminated | 75 | Clofarabine plus low-dose cytarabine induction and consolidation in AML patients aged ≥60 |
+| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Phase 2 | Completed | 40 | Single-arm study of clofarabine in adults with refractory or relapsed AML |
+| [NCT01643668](https://clinicaltrials.gov/study/NCT01643668) | Phase 2 | Completed | 34 | Reduced-intensity busulfan/clofarabine conditioning before allogeneic transplant |
+| [NCT01160354](https://clinicaltrials.gov/study/NCT01160354) | Phase 1/2 | Terminated | 22 | Plerixafor plus clofarabine in older untreated AML; closed early |
+| [NCT00838240](https://clinicaltrials.gov/study/NCT00838240) | Phase 1/2 | Unknown | 114 | Clofarabine added to cytarabine and idarubicin induction in AML/high-risk MDS (EORTC/GIMEMA) |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | RCT (Phase 3) | J Clin Oncol | AML08: clofarabine in the first induction course allowed reduced daunorubicin and etoposide exposure in childhood AML |
-| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | Phase 2 | Cancer Med | Clofarabine + cytarabine + mitoxantrone in refractory/relapsed AML: high response rates and effective bridge to transplant |
-| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Cohort | Transplant Cell Ther | Clofarabine + busulfan myeloablative conditioning in active myeloid malignancies |
-| [31637757](https://pubmed.ncbi.nlm.nih.gov/31637757/) | 2020 | Phase 1/2 | Am J Hematol | Clofarabine + 2 Gy TBI non-myeloablative conditioning for AML patients unfit for intensive regimens |
-| [31905904](https://pubmed.ncbi.nlm.nih.gov/31905904/) | 2019 | Trial subanalysis | Cancers | Clofarabine improved relapse-free survival in younger AML patients with micro-complex karyotype |
-| [29773602](https://pubmed.ncbi.nlm.nih.gov/29773602/) | 2018 | Phase 1b | Haematologica | Clofarabine replacing fludarabine with high-dose cytarabine and liposomal daunorubicin in pediatric relapsed/refractory AML |
-| [18756533](https://pubmed.ncbi.nlm.nih.gov/18756533/) | 2008 | Clinical study | Cancer | Clofarabine combinations as AML salvage therapy (idarubicin combination) |
-| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Review | Crit Rev Oncol Hematol | Role of clofarabine in adult AML, from monotherapy to combination strategies |
-| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Review | Leuk Lymphoma | Clofarabine inhibits ribonucleotide reductase and DNA polymerase, with better stability than fludarabine and cladribine |
-| [22170975](https://pubmed.ncbi.nlm.nih.gov/22170975/) | 2012 | Review | Ann Pharmacother | Efficacy and tolerability of clofarabine in newly diagnosed AML in older adults |
-
----
+| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Review | Crit Rev Oncol Hematol | Role of clofarabine in adult AML, covering monotherapy and combination strategies in first- and second-line protocols |
+| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Review | Leuk Lymphoma | Mechanism of clofarabine (inhibition of ribonucleotide reductase and DNA polymerase) and its role in AML |
+| [22170975](https://pubmed.ncbi.nlm.nih.gov/22170975/) | 2012 | Review | Ann Pharmacother | Efficacy and tolerability of clofarabine in older adults with newly diagnosed AML |
+| [19852733](https://pubmed.ncbi.nlm.nih.gov/19852733/) | 2009 | Review | Future Oncol | Single-agent activity in AML compares favorably with standard agents; likely to become part of induction and consolidation regimens |
+| [19463072](https://pubmed.ncbi.nlm.nih.gov/19463072/) | 2009 | Review | Expert Opin Pharmacother | Efficacy in ALL, AML, and MDS; approved for pediatric ALL |
+| [16316309](https://pubmed.ncbi.nlm.nih.gov/16316309/) | 2005 | Review | Expert Opin Pharmacother | Single-agent activity in acute leukemias |
+| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Clinical study | Transplant Cell Ther | Clofarabine plus busulfan myeloablative conditioning for allogeneic transplant in active myeloid malignancies |
+| [21591997](https://pubmed.ncbi.nlm.nih.gov/21591997/) | 2011 | Review | Expert Opin Investig Drugs | Clofarabine in MDS; low doses may affect DNA methylation |
+| [24081220](https://pubmed.ncbi.nlm.nih.gov/24081220/) | 2014 | Case report | J Oncol Pharm Pract | Clofarabine-induced kidney toxicity in a patient with refractory AML |
+| [18780321](https://pubmed.ncbi.nlm.nih.gov/18780321/) | 2008 | Review | Cancer | Combinations of clofarabine for high-risk AML |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2330407 | CLOLAR |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02330407 | CLOLAR | Not specified | Not specified in the data compiled |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (purine nucleoside analog antimetabolite) |
-| Myelosuppression Risk | Expected to be high. Literature on clofarabine-based regimens reports grade ≥3 hematologic and infectious toxicity (no quantitative data in the source data) |
+| Myelosuppression Risk | High. The knowledge-graph contraindications include neutropenia, thrombocytopenia, anemia, and agranulocytosis, and the trial literature reports haematological toxicity |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential, liver and renal function |
+| Monitoring Items | CBC with differential, liver function, renal function (a case of clofarabine-induced kidney toxicity is reported), and signs of infection |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
-
----
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
----
+- **Contraindications from the knowledge graph (not label text):** liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, anemia (including macrocytic anemia), hyperbilirubinemia (including hereditary forms and Gilbert syndrome), kidney failure, uremia, hypotensive disorder, capillary leak syndrome, infectious disease, fungal infectious disease, and dermatophytosis.
+- **Drug interactions:** 100 interactions were identified, all in the Moderate category among those shown. Examples include:
+  - Amphotericin B (including the lipid complex, cholesteryl sulfate, and liposomal forms)
+  - Clarithromycin
+  - Levofloxacin
+  - Kanamycin and neomycin
+  - Mesalazine, balsalazide, and olsalazine
+  - Pioglitazone and acarbose
+  - Bupropion
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Clofarabine has been tested in myeloid leukemia across many Phase 1 to 3 trials, including three completed Phase 3 trials, and the mechanism fits proliferating blasts. However, the Phase 3 outcomes are not summarized in the source data, and safety information is missing. The other predictions in this pack are not recommended for advancement. The ALL entries reflect established use rather than repurposing. The neuroblastoma prediction has only indirect evidence, and the remaining entries have no supporting studies.
+Two completed Phase 3 trials (NCT02085408 and NCT00317642) and many Phase 2 studies directly test clofarabine in myeloid leukemia, and the mechanism is consistent with activity in acute leukemias. However, the Phase 3 trials were not shown here to establish a clear survival benefit over standard therapy, many supporting studies are small or terminated, and Health Canada label data are missing. Clofarabine also carries substantial myelosuppression and organ toxicity risks.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings, contraindications, approved indication), which is a blocking gap for safety screening
-- Confirmation of the primary efficacy and survival results of NCT02085408, NCT00317642 and NCT00703820
-- DrugBank mechanism of action data
-- A dose, toxicity and myelosuppression monitoring plan for older and transplant-eligible AML populations
+- Health Canada package insert warnings and contraindications. This is currently a blocking gap for safety screening.
+- Review of the Phase 3 results (NCT02085408, NCT00317642) for efficacy and safety outcomes in myeloid leukemia.
+- Detailed mechanism of action data from DrugBank.
+- The Canadian approved indication, dosage form, and route for DIN 02330407.
+- A safety monitoring plan for older adults and for patients with kidney or liver impairment.
+
+**Other predictions in the same analysis (for context):**
+
+| Predicted Indication | Evidence Level | Decision |
+|------|------|------|
+| Precursor lymphoblastic lymphoma/leukemia | L2 | Proceed with Guardrails |
+| Acute lymphoblastic leukemia (approved-indication anchor) | L2 | Proceed with Guardrails |
+| Blast phase chronic myelogenous leukemia | L2 | Research Question |
+| Neuroblastoma | L4 | Hold |
+| Ganglioneuroblastoma, retroperitoneal neoplasm, two CLL subtypes, and a rare vertebral/endocrine/T-cell syndrome | L5 | Hold |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

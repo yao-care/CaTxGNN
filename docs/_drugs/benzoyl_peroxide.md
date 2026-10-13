@@ -2,7 +2,7 @@
 layout: default
 title: Benzoyl Peroxide
 parent: Model Prediction Only (L5)
-nav_order: 103
+nav_order: 104
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Benzoyl Peroxide: From Acne to Vulvar Inverted Follicular Keratosis
+# Benzoyl Peroxide: From Acne and Dermatitis to Vulvar Inverted Follicular Keratosis
 
 ## One-Sentence Summary
 
-Benzoyl peroxide is a topical agent marketed in Canada mainly in acne-care products. The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but **0 clinical trials** and **0 publications** currently support this prediction. It is a graph-based signal only and should be treated as a hypothesis, not a treatment lead.
+Benzoyl peroxide is a topical agent originally used for acne and several inflammatory skin conditions, including dermatitis and seborrheic keratosis.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne (inferred from product names such as acne cleansers and BenzaGel; the licence records contain no indication text) |
+| Original Indication | Acne (the data compiled for this report contain no approved-indication text for the Canadian licences; acne is taken from the original indication list) |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
@@ -49,15 +50,19 @@ Benzoyl peroxide is a topical agent marketed in Canada mainly in acne-care produ
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, benzoyl peroxide is a topical keratolytic and antibacterial agent. Its efficacy in acne is established, and mechanistically it may be applicable to follicular conditions. However, no mechanistic rationale specific to vulvar inverted follicular keratosis could be identified.
+Currently, detailed mechanism of action data is not available. Based on known information, benzoyl peroxide is a long-established topical agent with antibacterial, comedolytic and anti-inflammatory activity in acne, and it may be mechanistically applicable to follicular and keratinocyte-related skin conditions.
 
-This is a benign follicular lesion of the vulva. The 99.92% score is a graph-based prediction only, with no trials, no literature, and no confirmed original-indication or mechanism data to check it against. A topical keratolytic and antibacterial agent is an unlikely fit for this lesion, so the prediction should not be read as a treatment signal.
+The predicted condition, inverted follicular keratosis, is a benign lesion related to seborrheic keratosis, which is one of benzoyl peroxide's listed original indications. This suggests a plausible indirect link through keratinocyte and follicular pathology.
 
-The other predictions in the pack are also weak:
+However, there is no vulvar-specific evidence. Benzoyl peroxide is also a known skin irritant, and the risk of irritation on vulvar and mucosal skin would have to be carefully considered.
 
-- **Acne keloidalis (rank 4, L4):** This is the most plausible direction. It is a folliculitis-related, scarring condition, and benzoyl peroxide's effect on follicular bacteria and its comedolytic activity may help the folliculitis component. There is no direct evidence for scarring outcomes. The one trial and two publications found concern related conditions, not benzoyl peroxide in this disease. It remains a research question.
-- **2-Hydroxyethyl methacrylate sensitization (rank 2):** This likely reflects shared chemistry, since benzoyl peroxide is a radical initiator in acrylate systems and a known contact sensitizer. It is a hazard association, not a therapeutic one.
-- **Acrodermatitis chronica atrophicans (rank 3):** This is a late Borrelia skin infection. Topical benzoyl peroxide has no established effect on it, and systemic antibiotics are the appropriate care.
+### Other Predicted Indications (for reference)
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | 2-Hydroxyethyl methacrylate sensitization | 99.43% | L5 | Benzoyl peroxide is itself a contact sensitizer and an acrylate polymerization initiator, so it could worsen rather than treat this condition. |
+| 3 | Acrodermatitis chronica atrophicans | 99.17% | L5 | A late Borrelia skin manifestation that needs systemic antibiotics; the rationale for a topical agent is weak. |
+| 4 | Acne keloid | 99.06% | L4 | Overlaps with acne pathology; only indirect literature is available. Possible adjunctive use at most. |
 
 ## Clinical Trial Evidence
 
@@ -65,41 +70,54 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top predicted indication. For the fourth-ranked prediction (acne keloid), one indirectly related paper was found:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39090034](https://pubmed.ncbi.nlm.nih.gov/39090034/) | 2024 | Review (retrospective chart review) | Dermatology Online Journal | Review of 77 Black paediatric patients with acne vulgaris, describing presentation, scarring/keloid formation and treatment patterns. It is not specific to acne keloidalis and gives no efficacy data. |
 
 ## Canada Market Information
 
-Main authorizations (5 of 20 shown). The records contain no dosage form or approved-indication text.
+Twenty single-ingredient licences are currently valid, and none are cancelled. The data compiled for this report do not include dosage form or approved-indication text, so those fields are left blank. Five main authorizations:
 
-| DIN | Product Name |
-|---------|------|
-| 2508745 | ACNE FOAMING CLEANSER |
-| 2411245 | PROACTIV+ PORE TARGETING SOLUTION |
-| 2162121 | BENZAGEL 5 WASH |
-| 2236396 | CLEAN & CLEAR PERSA-GEL 5 |
-| 2533715 | ACNE FOAMING CLEANSER |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02162113 | BENZAGEL 5 GEL | Not listed | Not listed |
+| 02162121 | BENZAGEL 5 WASH | Not listed | Not listed |
+| 02236396 | CLEAN & CLEAR PERSA-GEL 5 | Not listed | Not listed |
+| 02504634 | PANOXYL ACNE WASH | Not listed | Not listed |
+| 02440512 | STUBBORN ACNE SPOT GEL | Not listed | Not listed |
+
+Most of the other products are acne cleansers, treatments and kits (e.g., several PROACTIV products).
 
 ## Safety Considerations
 
-- **Known hazard:** Benzoyl peroxide is a known contact sensitizer. This is noted in the pack's rationale for the sensitization prediction, not in the structured safety fields.
+Package insert warnings, contraindications and drug interaction data were not available. Please refer to the package insert for safety information.
 
-No warnings, contraindications, or drug interactions were retrieved. Please refer to the package insert for safety information.
+Disease associations from the TxGNN knowledge graph (not taken from label text) list the following as contraindicated conditions. They should be verified against the official labelling:
+
+- **Skin and photosensitivity:** photosensitivity disease, photoparoxysmal response, exfoliative dermatitis, dermatitis, skin atrophy, telangiectasis, hereditary hemorrhagic telangiectasia
+- **Infections and warts:** anogenital human papillomavirus infection, common wart
+- **Gastrointestinal:** Crohn disease, Crohn's colitis, ulcerative colitis, inflammatory bowel disease, Clostridium difficile colitis, perinatal necrotizing enterocolitis
+- **Metabolic and endocrine:** diabetes mellitus, diabetic ketoacidosis, adrenocortical insufficiency, Addison disease
+- **Renal and vascular:** kidney disease, pyoureter, capillary disease, peripheral vascular disease, peripheral arterial disease, intermittent vascular claudication
+
+Anogenital warts and a history of dermatitis appear in this list and are particularly relevant to any vulvar use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials, no literature, and no plausible mechanistic link to a benign vulvar follicular lesion. Nothing supports moving forward. If any direction is pursued, acne keloidalis is the more credible one, but only as an extrapolation from acne and folliculitis.
+The prediction score is very high (99.92%), but it is supported by no trials or literature (Evidence Level L5). The mechanism of action and safety labelling are also missing, and there is a real risk of irritation on vulvar skin.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Original indication text from the licence records
-- Any clinical or case-level evidence of benzoyl peroxide in vulvar inverted follicular keratosis (or, for the more plausible direction, in acne keloidalis)
-- Route and formulation compatibility assessment for vulvar or mucosal-adjacent use, given the sensitization and irritation risk
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Safety information from the Health Canada package inserts (warnings, contraindications), which is currently a blocking gap
+- Detailed mechanism of action data (MOA)
+- A literature search for inverted follicular keratosis and seborrheic keratosis, with case reports of topical treatment
+- Assessment of mucosal and vulvar tolerability, including irritation and sensitization risk
+- Confirmation of the dosage forms and approved indications for the Canadian products
+- Expert dermatological and gynaecological review of the clinical relevance before any study is designed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

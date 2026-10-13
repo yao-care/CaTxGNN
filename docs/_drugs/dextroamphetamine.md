@@ -2,7 +2,7 @@
 layout: default
 title: Dextroamphetamine
 parent: Model Prediction Only (L5)
-nav_order: 271
+nav_order: 273
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Dextroamphetamine: From ADHD and Narcolepsy to Faciodigitogenital Syndrome
+# Dextroamphetamine: From Attention Deficit Hyperactivity Disorder to Faciodigitogenital Syndrome
 
 ## One-Sentence Summary
 
-Dextroamphetamine is a CNS stimulant used for attention-deficit/hyperactivity disorder (ADHD) and narcolepsy.
-The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**, a rare genetic developmental disorder,
-but **0 clinical trials** and **0 publications** currently support this prediction.
-
----
+Dextroamphetamine is a central nervous system stimulant, originally used to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy.
+The TxGNN model predicts it may be effective for **faciodigitogenital syndrome** (Aarskog-Scott syndrome), but **no clinical trials and no publications** currently support this specific prediction.
+The prediction is a knowledge-graph inference only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian license data; ADHD and narcolepsy per published literature |
+| Original Indication | Attention deficit hyperactivity disorder; narcolepsy (from the knowledge graph, as the Canadian licence records contain no indication text) |
 | Predicted New Indication | Faciodigitogenital syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -51,61 +49,77 @@ but **0 clinical trials** and **0 publications** currently support this predicti
 | Number of DINs | 6 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source data. Based on known pharmacology, dextroamphetamine releases dopamine and norepinephrine and blocks their reuptake. This is the accepted basis for its effect in ADHD and narcolepsy.
+Detailed mechanism of action data is not available in the data compiled for this report. In general, dextroamphetamine is a sympathomimetic stimulant that increases catecholamine (dopamine and noradrenaline) release and reduces their reuptake, acting through TAAR1, VMAT2 and the dopamine transporter. Its benefit in ADHD is well established.
 
-No plausible mechanistic bridge is documented between this monoamine-releasing action and faciodigitogenital syndrome. That condition is a rare genetic developmental syndrome, and no drug-target or pathway link to it was found. The prediction rests on the model's score alone, so it is a hypothesis-generating signal rather than a supported repurposing case.
+Faciodigitogenital syndrome (Aarskog-Scott syndrome, linked to the FGD1 gene) can include ADHD-like behavioural features. A stimulant could therefore plausibly ease those symptoms. This is an inference about symptom management, not a disease-modifying mechanism, and no study was found that tests it.
 
----
+Other predictions for this drug were also reviewed. Most are weakly supported or unsupported. Examples are chondromyxoid fibroma and variably protease-sensitive prionopathy, for which no mechanistic link is evident. The highest-scoring prediction with some indirect literature is **specific developmental disorder**, which relies on the overlap with ADHD. The trichotillomania evidence points to harm rather than benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+No literature was found for faciodigitogenital syndrome. The closest indirect evidence comes from the second-ranked prediction, specific developmental disorder, and is mostly about ADHD rather than learning or developmental disorders:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38391788](https://pubmed.ncbi.nlm.nih.gov/38391788/) | 2024 | Review | Expert Rev Neurother | Review of once-daily extended-release amphetamine options for ADHD |
+| [42819375](https://pubmed.ncbi.nlm.nih.gov/42819375/) | 2026 | Cohort (pharmacovigilance) | Front Pediatr | Age-stratified FAERS safety signal analysis of ADHD medications in children |
+| [18309764](https://pubmed.ncbi.nlm.nih.gov/18309764/) | 2007 | Review | Nutr Health | Stimulants (including dextroamphetamine) show about a 75% response in ADHD, with side effects; nutrition alternatives discussed |
+| [11563573](https://pubmed.ncbi.nlm.nih.gov/11563573/) | 2001 | Review | Am Fam Physician | Evaluation and treatment of ADHD in school-age children |
+| [8784874](https://pubmed.ncbi.nlm.nih.gov/8784874/) | 1996 | Review | Nurse Pract | Diagnosis of ADHD based on impulsivity, hyperactivity and inattention |
+| [8719499](https://pubmed.ncbi.nlm.nih.gov/8719499/) | 1996 | Cohort | Clin EEG | QEEG distinguished children with attention deficit or learning disorders, and separated dextroamphetamine responders from methylphenidate responders |
+| [31984712](https://pubmed.ncbi.nlm.nih.gov/31984712/) | 2020 | Case report | Arch Argent Pediatr | Two children developed new-onset trichotillomania during stimulant treatment (a safety signal for the trichotillomania prediction) |
 
 ## Canada Market Information
 
-Six licenses are on record. Five are listed below. Dosage form and approved-indication text were not provided in the source data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02448327 | TEVA-DEXTROAMPHETAMINE SR | Not recorded | Not recorded |
+| 02448319 | TEVA-DEXTROAMPHETAMINE SR | Not recorded | Not recorded |
+| 01924516 | DEXEDRINE | Not recorded | Not recorded |
+| 01924567 | DEXEDRINE SPANSULE | Not recorded | Not recorded |
+| 01924559 | DEXEDRINE SPANSULE | Not recorded | Not recorded |
 
-| DIN | Product Name |
-|---------|------|
-| 02448327 | TEVA-DEXTROAMPHETAMINE SR |
-| 02448319 | TEVA-DEXTROAMPHETAMINE SR |
-| 01924516 | DEXEDRINE |
-| 01924567 | DEXEDRINE SPANSULE |
-| 01924559 | DEXEDRINE SPANSULE |
-
----
+A sixth licence, DIN 02443236 (DEXTROAMPHETAMINE), is also valid. All six are single-ingredient products and none are cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the queried source.
+- **Contraindication-related conditions (knowledge graph, not label text):** The knowledge graph links dextroamphetamine to contraindications in several groups of conditions:
+  - Cardiovascular and cerebrovascular: hypertension, coronary artery disease, myocardial infarction, stroke, arteriosclerosis, heart conduction disease, sudden cardiac arrest.
+  - Psychiatric: bipolar disorder, psychotic disorders, schizoaffective disorder, substance abuse or dependence, anorexia nervosa.
+  - Other: epilepsy, glaucoma, hyperthyroidism, Graves disease, thyrotoxicosis, hemoglobinopathy.
+- **Drug Interactions:** 62 interactions were recorded. Those listed below are the **Major** ones among the 20 retrieved in detail:
+  - Bupropion
+  - Fenfluramine
+  - Dexfenfluramine
+  - Sibutramine
 
----
+  Moderate interactions include epinephrine, ephedrine, isometheptene, and several antacids and alkalinising agents (for example magnesium hydroxide, aluminium hydroxide, calcium carbonate and potassium citrate).
+- **Prediction-specific concerns:**
+  - Amphetamines raise heart rate and blood pressure. This is a concern for postural orthostatic tachycardia syndrome and for multiple system atrophy.
+  - Stimulant-associated trichotillomania has been reported in children.
+  - A 2026 pharmacovigilance analysis of paediatric ADHD medications is relevant for any use in children.
+
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the Health Canada package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials, no literature, and no documented mechanistic link to a rare genetic developmental syndrome.
-Of the other candidates, only "specific developmental disorder" (rank 2) has meaningful support, and that support is essentially ADHD-type use, which is already a labeled indication and not new repurposing.
-For trichotillomania (rank 7), the available case reports describe it as a stimulant adverse effect, which contradicts a therapeutic benefit.
+The prediction for faciodigitogenital syndrome has a high model score but no trials or literature (evidence level L5). Its only support is an inferred symptom-level link through ADHD-like features. The drug also carries notable cardiovascular, psychiatric and abuse-related risks.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings, contraindications, and approved-indication text (currently missing and blocking safety screening)
-- Mechanism of action data from DrugBank
-- Any biological rationale linking monoamine signalling to faciodigitogenital syndrome, followed by preclinical or case-level evidence
+- A literature review of ADHD-like symptoms and stimulant response in Aarskog-Scott syndrome, including case series
+- Mechanism of action data for the drug (for example from DrugBank)
+- Health Canada package insert warnings and contraindications, plus approved indication text and dosage forms for each DIN
+- A safety plan covering cardiovascular screening, psychiatric history and misuse risk, particularly in children
+- Review of the specific developmental disorder prediction (evidence level L4, mostly ADHD-based and indirect) as a possible alternative research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

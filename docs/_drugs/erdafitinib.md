@@ -2,7 +2,7 @@
 layout: default
 title: Erdafitinib
 parent: Model Prediction Only (L5)
-nav_order: 339
+nav_order: 341
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Erdafitinib: From Urothelial Carcinoma to Pulmonary Hypertension
+# Erdafitinib: From Its Marketed Use to Pulmonary Hypertension
 
 ## One-Sentence Summary
 
-Erdafitinib is an FGFR (fibroblast growth factor receptor) kinase inhibitor marketed in Canada as BALVERSA for cancer treatment.
-The TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
-The evidence is model-prediction only, so the recommendation is to hold.
+Erdafitinib is a pan-FGFR (FGFR1-4) tyrosine kinase inhibitor marketed in Canada as BALVERSA. The approved indication text is not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
 
@@ -43,7 +42,7 @@ The evidence is model-prediction only, so the recommendation is to hold.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records; urothelial carcinoma with FGFR alterations, per general product knowledge |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 99.38% |
 | Evidence Level | L5 |
@@ -55,11 +54,16 @@ The evidence is model-prediction only, so the recommendation is to hold.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Erdafitinib is a pan-FGFR inhibitor, a class of drugs that blocks FGF/FGFR signaling. Its efficacy in its original cancer indication is established, and mechanistically it may be applicable to conditions driven by FGFR signaling.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, erdafitinib is a pan-FGFR (FGFR1-4) tyrosine kinase inhibitor.
 
-The link to pulmonary hypertension is plausible but unproven. FGF2/FGFR1 signaling has been linked to pulmonary artery smooth muscle proliferation and vascular remodeling, so pan-FGFR inhibition could be relevant in preclinical models. There are no direct pulmonary hypertension data for erdafitinib.
+FGF/FGFR signaling has been implicated in pulmonary vascular remodeling and smooth muscle proliferation. This offers a plausible but unvalidated rationale for pulmonary hypertension. The TxGNN score is very high (0.994, rank 10,953), but it is a model prediction only.
 
-Class toxicities would need to be addressed first: hyperphosphatemia, retinal toxicity and nail toxicity. No safety data exist in pulmonary hypertension populations.
+Safety is a concern. FGFR inhibitors are known to cause hyperphosphatemia, ocular toxicity, and nail and skin effects. The net benefit in a cardiopulmonary population is unknown.
+
+Other predictions in the top 10 are weaker or lack a clear mechanistic link:
+- **Rheumatoid arthritis** is the only one with any literature. That literature is a general kinase inhibitor review, not RA-specific evidence.
+- **Kyphoscoliotic heart disease, amenorrhea, ALS (and related entries), brachydactyly-syndactyly syndrome, axial spondylometaphyseal dysplasia, and Mills syndrome** have no supporting trials or literature.
+- **For several of these**, inhibiting FGFR could be ineffective or even harmful.
 
 ---
 
@@ -73,39 +77,21 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for pulmonary hypertension.
 
----
-
-## Other Predicted Indications (All Evidence Level L5, Hold)
-
-| Rank | Predicted Indication | Score | Assessment |
-|------|------|------|------|
-| 2 | Kyphoscoliotic heart disease | 99.27% | No credible mechanistic link; likely a knowledge-graph artifact |
-| 3 | Amenorrhea | 99.26% | No supporting link; FGFR1 inhibition would be expected to disturb the reproductive axis |
-| 4 | Rheumatoid arthritis | 99.25% | Weak, hypothesis-level link; one indirect paper (see below) |
-| 5 | Amyotrophic lateral sclerosis | 99.06% | Doubtful direction of effect; FGF signaling is generally neuroprotective |
-| 6 | Brachydactyly-syndactyly syndrome | 99.03% | Congenital malformation; a postnatal kinase inhibitor is not expected to correct it |
-| 7 | ALS type 22 | 98.91% | Near-duplicate of ALS; consolidate with the parent assessment |
-| 8 | ALS, susceptibility to | 98.88% | Susceptibility-locus entry, not a distinct treatable indication |
-| 9 | Axial spondylometaphyseal dysplasia | 98.83% | Loose link only; no evidence FGFR inhibition would help |
-| 10 | Mills syndrome | 98.78% | No identifiable rationale; likely network proximity to ALS-related nodes |
-
-The only publication retrieved across all predictions is for rheumatoid arthritis:
+The only literature in the top 10 predictions is for rheumatoid arthritis (rank 4). It is general context, not evidence of efficacy:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Review | Pharmacological research | General review of FDA-approved small molecule kinase inhibitors, including erdafitinib. It has no RA-specific erdafitinib data and is not counted as clinical evidence. |
+| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Review | Pharmacological Research | 2020 update on properties of FDA-approved small molecule kinase inhibitors, including erdafitinib. It has no RA-specific clinical data. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2493233 | BALVERSA |
-| 2493225 | BALVERSA |
-| 2493217 | BALVERSA |
-
-Dosage form and approved indication text are not available in the retrieved license records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02493233 | BALVERSA | Not specified | Not specified |
+| 02493225 | BALVERSA | Not specified | Not specified |
+| 02493217 | BALVERSA | Not specified | Not specified |
 
 ---
 
@@ -113,17 +99,22 @@ Dosage form and approved indication text are not available in the retrieved lice
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (FGFR kinase inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (kinase inhibitor, FGFR1-4) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Class toxicities to monitor include hyperphosphatemia (serum phosphate), retinal toxicity (ophthalmic examination) and nail toxicity; see the package insert for the full schedule |
+| Monitoring Items | Serum phosphate, ocular examination, and skin and nail assessment, based on the known class effects of FGFR inhibitors. Please also refer to the package insert. |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screen was completed and returned 100 interacting drugs. The 20 entries reviewed include:
+  - **Major**: cholecalciferol, calcitriol, calcifediol, calcium phosphate, calcium acetate, dexamethasone, clarithromycin, magnesium oxide, magnesium sulfate, magnesium chloride.
+  - **Moderate**: metformin, loperamide, saxagliptin, linagliptin, empagliflozin, eliglustat, naldemedine, naloxegol, prucalopride, rifaximin.
+- **Class-related concerns**: Hyperphosphatemia, ocular toxicity, and nail and skin effects are known with FGFR inhibitors. The interactions with vitamin D and calcium or phosphate-containing products are consistent with the phosphate-related concern.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -132,16 +123,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (L5), with no clinical trials and no direct literature. The pulmonary hypertension mechanism is plausible but unproven, and the FGFR class toxicity profile has not been assessed in this population. The other nine predictions have weak or doubtful mechanistic links.
+The prediction for pulmonary hypertension has a very high model score but no clinical trials or literature behind it (evidence level L5). The mechanistic rationale is plausible but unvalidated. The known toxicity profile of FGFR inhibitors adds uncertainty for a cardiopulmonary population.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank, to support the FGFR-to-vascular remodeling analysis
-- Preclinical evidence for FGFR inhibition in pulmonary hypertension models
-- A safety assessment of hyperphosphatemia, retinal toxicity and nail toxicity in a pulmonary hypertension population
-- Dosage form, approved indication text and route information for the three DINs
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings, contraindications, and approved indications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Preclinical evidence for FGFR inhibition in pulmonary vascular remodeling
+- A benefit-risk assessment of hyperphosphatemia, ocular, and skin and nail toxicity in patients with pulmonary hypertension
+- Review of the major drug interactions, particularly with vitamin D, calcium, and magnesium products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

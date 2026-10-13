@@ -2,7 +2,7 @@
 layout: default
 title: Ethanol
 parent: Model Prediction Only (L5)
-nav_order: 361
+nav_order: 363
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Ethanol: From an Unrecorded Original Indication to Migraine Disorder
+# Ethanol: From an Antiseptic Use (Original Indication Not Specified) to Migraine Disorder
 
 ## One-Sentence Summary
 
-Ethanol is marketed in Canada through 2 registered products, but no approved indication is recorded in the available data.
-The TxGNN model predicts it may be relevant to **migraine disorder**, with a score of 99.29%. However, **none of the 35 retrieved clinical trials tests ethanol as a migraine treatment**.
-The 20 retrieved publications mostly describe ethanol as a migraine **trigger**, so the evidence argues against this repurposing direction.
+Ethanol is marketed in Canada in two licensed single-ingredient products (AVAGARD CHG and DALMACOL), but the data compiled for this report do not list an approved indication for either.
+The TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and no publication showing that ethanol treats migraine. The available literature points the other way: alcohol is a known migraine trigger.
 
 ---
 
@@ -43,10 +42,10 @@ The 20 retrieved publications mostly describe ethanol as a migraine **trigger**,
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the available data |
+| Original Indication | Not available (no approved indication text in the Canadian license records) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.29% |
-| Evidence Level | L4 (preclinical and mechanism studies only, and they point toward harm) |
+| Evidence Level | L4 (preclinical and mechanistic studies only; they suggest a trigger role, not a therapeutic one) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
@@ -55,59 +54,54 @@ The 20 retrieved publications mostly describe ethanol as a migraine **trigger**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for ethanol, so the link between its original use and migraine cannot be analysed directly.
+Currently, detailed mechanism of action data is not available for ethanol, and no original indication could be extracted from the license records. The reasoning below relies only on the literature retrieved for the predicted indication.
 
-The TxGNN score is a graph-association signal, not evidence of therapeutic benefit. The published literature points the other way. Reviews report that about one-third of migraine patients name alcohol as an occasional trigger, and only about 10% name it as a consistent one. A 2023 systematic review and meta-analysis found the relationship between alcohol and primary headaches inconclusive.
+The very high model score (99.29%) appears to reflect network proximity to migraine biology (CGRP, TRPA1, GABA signalling) rather than a therapeutic effect. A preclinical mouse study (PMID 37101198) found that ethanol is metabolised to acetaldehyde, which acts through the CGRP receptor and TRPA1 in Schwann cells to cause periorbital mechanical allodynia. This is a pro-pain pathway relevant to migraine, but it suggests ethanol would **worsen** migraine rather than relieve it. A review of alcohol and migraine (PMID 36373782) and work on ATP-sensitive potassium channels in meningeal nociceptors (PMID 40785517) are consistent with this trigger role.
 
-A 2023 preclinical mouse study (PMID 37101198) offers a possible mechanism, and it is pro-nociceptive. Ethanol is metabolised to acetaldehyde, which acts through the CGRP receptor and TRPA1 in Schwann cells to cause periorbital mechanical allodynia. This suggests ethanol may promote migraine-like pain rather than relieve it.
+Genetic association studies (ADH2 genotype, GABA receptor and NOS3 polymorphisms) link alcohol metabolism and GABA/nitric oxide signalling to migraine risk. They are associational and do not support therapeutic use.
 
-The second-ranked prediction, migraine with brainstem aura (score 99.14%), has no clinical trials. Its literature is mainly genetic association studies and studies of palmitoylethanolamide (PEA). PEA is a different compound from ethanol and probably appeared through keyword matching. It provides no support for ethanol.
+The second-ranked prediction, **migraine with brainstem aura** (score 99.14%), appears to be inherited from the general migraine node. No retrieved paper addresses ethanol as a treatment for it, and several hits are false matches (palmitoylethanolamide, menthol and carisbamate are different compounds).
 
 ---
 
 ## Clinical Trial Evidence
 
-The search returned 35 trials. Most were matched on the condition (migraine or headache) and do not involve ethanol. Only the first trial below involves an alcohol intervention, and it uses isopropyl alcohol, not ethanol. The other trials listed are shown to illustrate the mismatch.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05175521](https://clinicaltrials.gov/study/NCT05175521) | N/A | Completed | 21 | Double-blind RCT of inhaled isopropyl alcohol vapour vs eucalyptus scent for nausea in acute migraine. The intervention is isopropyl alcohol, not ethanol, and the study is small. It is the only alcohol-vapour migraine trial in the set. |
-| [NCT00109083](https://clinicaltrials.gov/study/NCT00109083) | Phase 2 | Completed | 300 | Dose-ranging placebo-controlled trial of RWJ-333369 for migraine prophylaxis. Ethanol is not the intervention. |
-| [NCT07301008](https://clinicaltrials.gov/study/NCT07301008) | Phase 4 | Recruiting | 60 | Rimegepant as preemptive treatment for trigger-induced migraine. Alcohol appears only as an allowed trigger. |
-| [NCT02810015](https://clinicaltrials.gov/study/NCT02810015) | Phase 2 | Unknown | 40 | Botulinum toxin for temporo-myofascial disorder. Not an ethanol or migraine indication. |
-| [NCT07297901](https://clinicaltrials.gov/study/NCT07297901) | N/A | Enrolling by invitation | 30 | App-based breathing program for migraine. Non-drug intervention. |
-| [NCT03404336](https://clinicaltrials.gov/study/NCT03404336) | N/A | Recruiting | 30 | Well-being therapy pilot RCT in chronic migraine. Psychological intervention. |
-| [NCT07762690](https://clinicaltrials.gov/study/NCT07762690) | N/A | Not yet recruiting | 80 | Cervical sensorimotor rehabilitation in chronic migraine. Non-drug. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+None of the publications below tests ethanol as a migraine treatment. Many retrieved papers are unrelated or involve other compounds and are omitted.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37612595](https://pubmed.ncbi.nlm.nih.gov/37612595/) | 2023 | Systematic review and meta-analysis | J Headache Pain | Assesses alcohol intake in people with primary headaches. The existing literature is inconclusive, although migraine patients tend to avoid alcohol. |
-| [18231712](https://pubmed.ncbi.nlm.nih.gov/18231712/) | 2008 | Review | J Headache Pain | About one-third of migraine patients report alcohol as an occasional trigger, and only about 10% as a consistent one. |
-| [36373782](https://pubmed.ncbi.nlm.nih.gov/36373782/) | 2022 | Review | Headache | Reviews the complex relationship between alcohol and migraine. |
-| [41305669](https://pubmed.ncbi.nlm.nih.gov/41305669/) | 2025 | Review | Nutrients | Reviews alcohol as a trigger for migraine, tension-type headache and other primary headaches. The pathophysiological mechanism remains unknown. |
-| [37101198](https://pubmed.ncbi.nlm.nih.gov/37101198/) | 2023 | Preclinical (mouse) | J Biomed Sci | Acetaldehyde, acting via CGRP receptor and TRPA1 in Schwann cells, mediates ethanol-evoked periorbital allodynia. This is a pro-migraine pathway. |
-| [19486361](https://pubmed.ncbi.nlm.nih.gov/19486361/) | 2010 | Genetic association | Headache | Tests the association of an ADH2 alcohol-metabolism variant with migraine risk. It does not show therapeutic benefit. |
+| [36373782](https://pubmed.ncbi.nlm.nih.gov/36373782/) | 2022 | Review | Headache | Reviews the complex relationship between alcohol and migraine; consistent with alcohol acting as a trigger |
+| [37101198](https://pubmed.ncbi.nlm.nih.gov/37101198/) | 2023 | Preclinical (mouse) | J Biomed Sci | Ethanol-derived acetaldehyde acts via CGRP receptor and TRPA1 to cause allodynia, relevant to migraine triggering |
+| [40785517](https://pubmed.ncbi.nlm.nih.gov/40785517/) | 2025 | Preclinical (mechanistic) | Cephalalgia | Opening of KATP channels activates meningeal nociceptors, with implications for migraine origin |
+| [19486361](https://pubmed.ncbi.nlm.nih.gov/19486361/) | 2010 | Genetic association | Headache | Examines ADH2 genotype (ethanol metabolism) and migraine risk; alcohol is traditionally considered a trigger |
+| [35063053](https://pubmed.ncbi.nlm.nih.gov/35063053/) | 2022 | Retrospective cohort | Aerosp Med Hum Perform | Migraine history and outcomes in military pilots; no ethanol treatment data |
+| [29299688](https://pubmed.ncbi.nlm.nih.gov/29299688/) | 2018 | Genetic association | J Neural Transm | GABA receptor gene polymorphisms and migraine risk |
+| [28699326](https://pubmed.ncbi.nlm.nih.gov/28699326/) | 2017 | Genetic association | Headache | GABA receptor rho gene polymorphisms and migraine risk |
+| [42153521](https://pubmed.ncbi.nlm.nih.gov/42153521/) | 2026 | Scoping review | Drug Alcohol Rev | CGRP signalling in alcohol use disorders; links a migraine target to alcohol biology |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2246888 | AVAGARD CHG |
-| 2230769 | DALMACOL |
-
-Dosage form and approved indication text are not available for either product.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02246888 | AVAGARD CHG | Not specified | Not specified |
+| 02230769 | DALMACOL | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were found. Of the 20 reviewed, most are Moderate and a few Minor. One is **Major**: eluxadoline. Moderate interactions include antidiabetic drugs (acarbose, albiglutide, acetohexamide, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, dulaglutide, empagliflozin), anticholinergics (atropine, clidinium, dicyclomine), aspirin, bupropion and dronabinol. Minor interactions include doxycycline and cimetidine.
+- **Pro-migraine signal**: the retrieved literature indicates alcohol can trigger migraine attacks, a safety concern for this proposed use.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -116,13 +110,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is only a computational association. Not one of the 35 retrieved trials tests ethanol for migraine. The mechanistic and clinical literature identifies ethanol as a migraine trigger, so the available evidence argues against repurposing.
+- The high TxGNN score is not supported by any clinical or therapeutic evidence. The literature indicates ethanol is a migraine trigger, so the prediction likely reflects network proximity rather than benefit. The brainstem aura prediction has even weaker support (Evidence Level L5).
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
-- The original approved indication and dosage form for each Canadian product
-- Mechanism of action data from DrugBank
-- Any direct human evidence that ethanol relieves migraine. None currently exists, and the preclinical data suggest the opposite.
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication and dosage form details for the two Canadian licenses
+- Mechanism of action data
+- Any human evidence that ethanol relieves migraine rather than provoking it; without it, the prediction should be treated as a likely false positive
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

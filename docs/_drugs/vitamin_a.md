@@ -2,7 +2,7 @@
 layout: default
 title: Vitamin A
 parent: Model Prediction Only (L5)
-nav_order: 973
+nav_order: 980
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vitamin A: From Nutritional Supplementation (Multivitamin Products) to Congenital Prothrombin Deficiency
+# Vitamin A: From Vitamin Deficiency to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Vitamin A is marketed in Canada as a component of multivitamin products (MULTI 1000, MULTI 12, MULTI-12/K1 PEDIATRIC). The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, with a very high score of 99.97%. Five retrieved clinical trials and **no publications** support this prediction, and none of the trials tests Vitamin A, so this is a model-only signal.
+Vitamin A is an essential fat-soluble vitamin, originally used to treat vitamin deficiency disorders, including vitamin A deficiency.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but **no clinical trials and no publications** support this prediction, so it rests on the model score alone.
+Of the other predicted indications, "perinatal disease" has the most support: several Cochrane reviews on vitamin A in very low birth weight infants.
 
 ---
 
@@ -41,7 +43,7 @@ Vitamin A is marketed in Canada as a component of multivitamin products (MULTI 1
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records (marketed in multivitamin products) |
+| Original Indication | Vitamin deficiency disorder; vitamin A deficiency (from the knowledge graph, as no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 (model prediction only) |
@@ -53,45 +55,70 @@ Vitamin A is marketed in Canada as a component of multivitamin products (MULTI 1
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Vitamin A is a fat-soluble vitamin supplied in multivitamin products. Its role in nutritional supplementation is established, but a mechanistic link to congenital prothrombin deficiency has not been shown.
+Currently, detailed mechanism of action data is not available. Based on known information, vitamin A is a nutrient and the parent compound of the retinoids. Its efficacy in correcting vitamin A deficiency is well established, and it acts through retinoic acid receptor signalling.
 
-The biology does not support the prediction well. Prothrombin (factor II) synthesis depends on vitamin K-dependent gamma-carboxylation, not on Vitamin A. Congenital prothrombin deficiency is an inherited coagulation disorder, so there is no obvious pathway through which Vitamin A would correct it. The 99.97% score reflects graph-based association, probably through shared vitamin and coagulation-related nodes in the knowledge graph. It is not clinical or literature evidence, so it should be treated as a hypothesis only.
+For congenital prothrombin deficiency, a plausible mechanism is **not apparent**. This is a genetic coagulation factor disorder. Prothrombin synthesis depends on the vitamin K pathway, and vitamin A has no established role in it. The very high score (99.97%) is a graph-based prediction and should not be read as evidence of efficacy.
+
+Other predicted indications in the same analysis show more biological plausibility, though none is validated for the top prediction:
+
+- **Perinatal disease (score 99.63%)**: vitamin A supports lung epithelial development, and deficiency in very low birth weight infants is linked to bronchopulmonary dysplasia risk. This is the best-supported direction, and it is consistent with vitamin A's existing nutritional role rather than a wholly new use.
+- **Injury (score 99.69%)**: retinoids support epithelial regeneration and wound healing, but the trials are limited to extremely-low-birth-weight neonates.
+- **Cell proliferation disorder** and **radiation or chemically induced disorder**: mechanistically plausible through retinoid receptor signalling and photoprotection, but the categories are too broad to test.
 
 ---
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials are registered for congenital prothrombin deficiency.
+
+For reference, the trials below were found for the lower-ranked predictions "injury" and "perinatal disease". They are not direct evidence for the top prediction.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04384341](https://clinicaltrials.gov/study/NCT04384341) | N/A | Recruiting | 480 | Observational study of bone loss in haemophilia (factor VIII/IX deficiency). No Vitamin A intervention and not about prothrombin. |
-| [NCT03534752](https://clinicaltrials.gov/study/NCT03534752) | N/A | Completed | 220 | Retrospective descriptive study of adults with inborn errors of metabolism in French-speaking Switzerland. No Vitamin A intervention. |
-| [NCT00168077](https://clinicaltrials.gov/study/NCT00168077) | Phase 3 | Completed | 40 | Beriplex P/N (prothrombin complex concentrate) for acquired deficiency of factors II, VII, IX and X due to oral anticoagulation. Relevant to prothrombin, but does not test Vitamin A. |
-| [NCT00562783](https://clinicaltrials.gov/study/NCT00562783) | Phase 2 | Completed | 90 | Randomized controlled study of Vitalliver in decompensated cirrhosis. No Vitamin A intervention or prothrombin-deficiency population is evident, and manual verification is needed. |
-| [NCT02392767](https://clinicaltrials.gov/study/NCT02392767) | N/A | Completed | 25 | Dietary supplement (L-arginine, Pycnogenol, vitamin K2, B vitamins) on endothelial function in hypertension. Unrelated population. |
+| [NCT01203488](https://clinicaltrials.gov/study/NCT01203488) | Phase 1/2 | Completed | 807 | Randomized trial of higher-dose vitamin A in extremely-low-birth-weight infants, assessing survival without bronchopulmonary dysplasia and sepsis risk |
+| [NCT02102711](https://clinicaltrials.gov/study/NCT02102711) | NA | Completed | 62 | Oral vitamin A in neonates under 1500 g to prevent bronchopulmonary dysplasia and retinopathy of prematurity |
+| [NCT01115478](https://clinicaltrials.gov/study/NCT01115478) | NA | Completed | 2500 | Zinc and/or vitamin A supplementation to reduce placental malaria in pregnancy (only tangentially relevant) |
+| [NCT04000789](https://clinicaltrials.gov/study/NCT04000789) | NA | Unknown | 96 | Vitamin A/E/sodium hyaluronate eye drops in diabetic retinopathy with dry eye (little direct relevance) |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature is available for congenital prothrombin deficiency.
+
+The strongest literature in the data compiled for this report concerns "perinatal disease":
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [27552058](https://pubmed.ncbi.nlm.nih.gov/27552058/) | 2016 | Cochrane systematic review | Cochrane Database Syst Rev | Vitamin A supplementation to prevent mortality and morbidity in very low birth weight infants |
+| [21975731](https://pubmed.ncbi.nlm.nih.gov/21975731/) | 2011 | Cochrane systematic review | Cochrane Database Syst Rev | Earlier version of the same review; low vitamin A status at birth is linked to chronic lung disease |
+| [17943744](https://pubmed.ncbi.nlm.nih.gov/17943744/) | 2007 | Cochrane systematic review | Cochrane Database Syst Rev | Earlier version of the same review |
+| [22742601](https://pubmed.ncbi.nlm.nih.gov/22742601/) | 2012 | Systematic review and meta-analysis | Paediatr Perinat Epidemiol | Vitamin A and carotenoid supplementation in pregnancy and maternal, neonatal and infant outcomes |
+| [34105132](https://pubmed.ncbi.nlm.nih.gov/34105132/) | 2021 | Meta-analysis | J Spec Oper Med | Association between high vitamin A intake and bone fracture risk (a safety signal) |
+| [40901583](https://pubmed.ncbi.nlm.nih.gov/40901583/) | 2025 | Review | World J Hepatol | Vitamin A toxicity and liver damage at excessive intake (a safety signal) |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 586315 | MULTI 1000 |
-| 2100606 | MULTI 12 |
-| 2242529 | MULTI-12/K1 PEDIATRIC |
-
-Dosage form and approved indication text are not recorded for these licenses.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00586315 | MULTI 1000 | Not specified | Not specified |
+| 02100606 | MULTI 12 | Not specified | Not specified |
+| 02242529 | MULTI-12/K1 PEDIATRIC | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+- **Disease associations flagged in the knowledge graph (not label text)**: kidney disease, liver disease, gallbladder disease, peptic ulcer disease, sarcoidosis, hypercalcemia, nephrocalcinosis, nephrolithiasis, hemolytic anemia, sickle cell anemia, hereditary hemochromatosis, Wilson disease, inflammatory bowel disease, ulcerative colitis, hypervitaminosis, and others.
+- **Drug Interactions**: 68 interactions were recorded. The main **Major** ones are:
+  - Other retinoids: isotretinoin, acitretin, tretinoin
+  - Tetracycline-class antibiotics: doxycycline, tetracycline, minocycline, omadacycline, demeclocycline, eravacycline, oxytetracycline, sarecycline
+- **Moderate** interactions include bexarotene, bile acid sequestrants (cholestyramine, colesevelam, colestipol), sevelamer and selpercatinib. Orlistat is **Minor**.
+- **Literature safety signals**: high vitamin A intake is associated with bone fracture risk and liver toxicity.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -100,16 +127,14 @@ Please refer to the package insert for safety information. No drug interactions 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on the model score. None of the retrieved trials tests Vitamin A, there is no supporting literature, and the known biology (vitamin K-dependent prothrombin synthesis) points away from Vitamin A. The evidence level is L5.
+The top prediction, congenital prothrombin deficiency, has no trials or literature and no plausible mechanism (the pathway is vitamin K-dependent). The score is a model output only (evidence level L5). Among the lower-ranked predictions, the perinatal and very-low-birth-weight infant direction has the strongest evidence, in Cochrane reviews, but it largely reflects vitamin A's existing nutritional role.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for Vitamin A, plus any evidence linking retinoid signaling to prothrombin synthesis or coagulation
-- Health Canada package insert warnings and contraindications, which are currently missing
-- Targeted literature and trial searches for Vitamin A in congenital coagulation factor deficiencies
-- Manual verification of NCT00562783 (Vitalliver), whose intervention is unclear
-- A review of other predicted indications for this drug. For example, "perinatal disease" has an L2 signal from Cochrane reviews of Vitamin A in very low birth weight infants (bronchopulmonary dysplasia), and "injury" and "radiation or chemically induced disorder" also have more supporting evidence than this indication.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Approved indication text and dosage forms for the three Canadian licences (all currently blank)
+- If pursuing this prediction, a mechanistic hypothesis linking vitamin A to prothrombin deficiency, which is currently lacking
+- Consider re-prioritising toward the perinatal disease or neonatal lung injury direction, supported by a focused review of the Cochrane evidence and the safety risks (hepatic toxicity, bone effects, teratogenic retinoid interactions)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

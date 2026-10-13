@@ -2,7 +2,7 @@
 layout: default
 title: D-Glucose
 parent: Model Prediction Only (L5)
-nav_order: 237
+nav_order: 239
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# D-Glucose: From Approved Dextrose Injection Use to Non-syndromic Esophageal Malformation
+# D-glucose: From Intravenous Fluid and Carbohydrate Supplementation to Non-syndromic Esophageal Malformation
 
 ## One-Sentence Summary
 
-D-glucose (dextrose) is marketed in Canada as dextrose injection products, but the Evidence Pack lists no approved indication text for them.
-The TxGNN model predicts it may be relevant to **non-syndromic esophageal malformation**.
-This prediction has **0 clinical trials** and **0 publications** behind it, so it is a model output only.
+D-glucose (dextrose) is a basic metabolic sugar marketed in Canada mainly as injectable dextrose solutions, either alone or as a carrier for other drugs.
+The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, but **no clinical trials and no publications** currently support this prediction.
+The evidence is model-prediction only, and no plausible therapeutic mechanism has been identified.
 
 ---
 
@@ -43,9 +43,10 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the data compiled for this report (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 84.11% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
@@ -54,43 +55,43 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. D-glucose is an endogenous sugar and the body's main energy substrate. In Canada it is marketed as dextrose injection.
+Currently, detailed mechanism of action data is not available. D-glucose is the body's primary metabolic fuel, and in Canada it is used as an intravenous fluid and calorie source and as a diluent for other injectable drugs (for example potassium chloride, heparin, nitroglycerin and lidocaine in dextrose).
 
-The data do not support a therapeutic link between D-glucose and non-syndromic esophageal malformation. This condition is a developmental abnormality of the esophagus. D-glucose has no known role in esophageal embryonic development, and nothing suggests it could correct a structural defect.
+Non-syndromic esophageal malformation is a structural developmental defect. A metabolic substrate such as glucose has no recognized corrective role in it, and the review of the data found no mechanistic link. The high TxGNN score (84.11%) is therefore best read as a statistical artefact of the knowledge graph, not as a biologically grounded signal.
 
-The 84.11% score comes from knowledge-graph patterns, not from any study of glucose in this condition. Because glucose is so widely connected in biological networks, such scores can be high without pointing to a real treatment effect. The prediction should be treated as a model artefact until independent evidence appears.
+Other lower-ranked predictions were also reviewed. The one with the most literature, esophageal disease, rests largely on FDG-PET imaging, where a glucose analogue is used as a diagnostic tracer and not as a treatment. Primary open-angle glaucoma and dermatitis papers likewise describe metabolic associations or glucose derivatives such as 2-deoxy-D-glucose, not D-glucose therapy.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for non-syndromic esophageal malformation.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for non-syndromic esophageal malformation.
 
 ---
 
 ## Canada Market Information
 
-Five of the 20 authorizations are shown. Dosage form and approved indication text are not available in the records.
+Dosage form, manufacturer and approved-indication text are not available in the licence records compiled for this report. The five examples below are drawn from the 20 valid single-ingredient authorizations.
 
 | DIN | Product Name |
 |---------|------|
-| 2517132 | DEXTROSE INJECTION |
-| 1924281 | 5% DEXTROSE INJECTION USP |
-| 1924427 | 10% DEXTROSE INJECTION USP |
-| 2403536 | 5% DEXTROSE INJECTION |
-| 60364 | 10% DEXTROSE INJECTION, USP |
+| 02517132 | Dextrose Injection |
+| 01924281 | 5% Dextrose Injection USP |
+| 01924427 | 10% Dextrose Injection USP |
+| 02014874 | 70% Dextrose Injection USP |
+| 02020939 | Sclerodex |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found, and no disease-level contraindication links were identified in the knowledge graph.
 
 ---
 
@@ -99,13 +100,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature and no plausible mechanism. It sits at evidence level L5 and stage S0. The other top-ranked predictions (glaucoma, esophageal disease, biotin metabolic disease and others) also lack direct evidence for D-glucose as a treatment, so none offers a stronger alternative.
+The prediction rests on a model score alone, with no supporting trials or publications. Esophageal malformations are structural developmental defects, and D-glucose, a basic metabolic substrate, has no plausible corrective role. Among the other nine predictions, none has therapeutic evidence for D-glucose itself; the closest (esophageal disease) is supported only by diagnostic FDG-PET literature.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, for example from DrugBank
-- A credible biological rationale linking D-glucose to esophageal development, or clinical or preclinical evidence
-- Approved indication text for the Canadian dextrose products, to define the original use
+- Health Canada package insert warnings and contraindications (currently missing and blocking safety screening)
+- Mechanism of action data for D-glucose
+- Approved indication text for the Canadian licences, to establish the original indication
+- Any direct preclinical or clinical evidence that D-glucose has a therapeutic effect in the predicted condition; without it, no further development is recommended
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

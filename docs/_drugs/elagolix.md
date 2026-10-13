@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Elagolix
-parent: Model Prediction Only (L5)
-nav_order: 316
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 318
+evidence_level: L4
 indication_count: 1
 ---
 
 # Elagolix
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Elagolix: From Endometriosis-Associated Pain to Amenorrhea
+# Elagolix: From Endometriosis to Amenorrhea
 
 ## One-Sentence Summary
 
-Elagolix is an oral GnRH receptor antagonist. The Canadian licence records provided contain no indication text, so its original use is taken from general knowledge and trial titles (endometriosis-associated pain). The TxGNN model predicts it may be effective for **amenorrhea**, but the **3 clinical trials** and **4 publications** found study heavy menstrual bleeding in uterine fibroids and endometriosis, not amenorrhea itself, so the evidence is indirect.
+Elagolix is an oral GnRH receptor antagonist originally used to treat endometriosis.
+The TxGNN model predicts it may be effective for **amenorrhea**, but there are **no registered clinical trials** and only **4 publications**, none of which study amenorrhea as a disease to be treated.
+Amenorrhea appears in that literature as an expected on-treatment effect of menstrual suppression, not as a therapeutic target.
 
 ---
 
@@ -41,9 +43,10 @@ Elagolix is an oral GnRH receptor antagonist. The Canadian licence records provi
 
 | Item | Content |
 |------|------|
+| Original Indication | Endometriosis (endometriosis of uterus) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 (indirect evidence only; no study targets amenorrhea as the indication) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
@@ -52,19 +55,15 @@ Elagolix is an oral GnRH receptor antagonist. The Canadian licence records provi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the record. Based on general pharmacology, elagolix blocks GnRH receptors in the pituitary. This lowers LH and FSH and, in turn, ovarian estradiol and progesterone. With less hormonal stimulation, the endometrium proliferates less, and menstrual bleeding is reduced or stops.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, elagolix is a GnRH receptor antagonist. It suppresses pituitary release of LH and FSH, which lowers ovarian production of estradiol and progesterone. This hypoestrogenic state reduces endometrial proliferation and is the basis of its benefit in endometriosis.
 
-Amenorrhea is therefore a plausible pharmacodynamic effect of the drug rather than a separate disease target. The high TxGNN score (99.75%) most likely reflects this hormonal-suppression link. In the trials below, bleeding reduction is the main outcome and amenorrhea is at most a secondary outcome. The prediction is biologically reasonable but has not been tested as a treatment goal.
+The same mechanism commonly leads to markedly reduced menstrual bleeding or amenorrhea. This overlap probably explains the very high model score. However, amenorrhea here is a pharmacodynamic effect of the drug, not a condition it would treat. Elagolix would be expected to cause or worsen amenorrhea of hypoestrogenic origin. The prediction is therefore mechanistically understandable but does not support a valid therapeutic use.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01817530](https://clinicaltrials.gov/study/NCT01817530) | Phase 2b | Completed | 571 | Randomized, double-blind, placebo-controlled study of elagolix alone or with add-back therapy for heavy menstrual bleeding in premenopausal women with uterine fibroids. Indirect support for bleeding suppression. |
-| [NCT01441635](https://clinicaltrials.gov/study/NCT01441635) | Phase 2a | Completed | 271 | Proof-of-concept study of elagolix vs placebo for reducing uterine bleeding, fibroid volume and uterine volume. Menstrual suppression is relevant, but amenorrhea is not the target. |
-| [NCT00797225](https://clinicaltrials.gov/study/NCT00797225) | Phase 2 | Completed | 174 | Placebo- and leuprorelin-controlled study of elagolix (NBI-56418) in endometriosis over 3 months, followed by 3 months of elagolix. Low relevance to amenorrhea. |
+Currently no related clinical trials registered.
 
 ---
 
@@ -72,25 +71,33 @@ Amenorrhea is therefore a plausible pharmacodynamic effect of the drug rather th
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37769311](https://pubmed.ncbi.nlm.nih.gov/37769311/) | 2023 | RCT (design to be verified) | Obstet Gynecol | Safety and efficacy of elagolix 150 mg once daily as monotherapy for heavy menstrual bleeding associated with uterine leiomyomas. |
-| [32702363](https://pubmed.ncbi.nlm.nih.gov/32702363/) | 2021 | Post hoc analysis of RCT data | Am J Obstet Gynecol | Predictors of response to elagolix with add-back therapy in women with fibroid-related heavy menstrual bleeding. |
-| [31695514](https://pubmed.ncbi.nlm.nih.gov/31695514/) | 2019 | Review | Int J Womens Health | Short report on emerging efficacy data for elagolix as an oral treatment for uterine fibroids. |
-| [37103532](https://pubmed.ncbi.nlm.nih.gov/37103532/) | 2023 | Review | Obstet Gynecol | Overview of oral GnRH antagonists for uterine leiomyomas, including use with add-back hormones or at doses that avoid complete hypothalamic suppression. |
+| [37769311](https://pubmed.ncbi.nlm.nih.gov/37769311/) | 2023 | Clinical study (RCT per title) | Obstetrics and Gynecology | Elagolix 150 mg once daily monotherapy for heavy menstrual bleeding in uterine leiomyomas |
+| [32702363](https://pubmed.ncbi.nlm.nih.gov/32702363/) | 2021 | Post hoc analysis of RCT data | American Journal of Obstetrics and Gynecology | Predictors of response to elagolix with add-back therapy in heavy menstrual bleeding with fibroids |
+| [37103532](https://pubmed.ncbi.nlm.nih.gov/37103532/) | 2023 | Review | Obstetrics and Gynecology | Efficacy and safety of oral GnRH antagonists for uterine leiomyomas |
+| [31695514](https://pubmed.ncbi.nlm.nih.gov/31695514/) | 2019 | Short report / Review | International Journal of Women's Health | Clinical utility and emerging efficacy data of elagolix in uterine fibroids |
+
+None of these publications evaluate elagolix as a treatment for amenorrhea.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2481332 | ORILISSA |
-| 2481340 | ORILISSA |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02481332 | ORILISSA | Not specified | Not specified |
+| 02481340 | ORILISSA | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Health Canada warnings and contraindications were not included in the evidence provided, and no drug interactions were found in the query.
+- **Knowledge-graph contraindication signals** (from the drug-disease network, not label text): liver failure, osteoporosis, postmenopausal osteoporosis. Consistent with the hypoestrogenic mechanism, bone loss is a relevant concern.
+- **Drug Interactions**: 100 interactions were identified. Examples shown here are:
+  - **Major**: clarithromycin
+  - **Moderate**: loperamide, aprepitant, dexamethasone, cimetidine, saxagliptin, clotrimazole, eliglustat, empagliflozin, linagliptin, repaglinide, rifaximin, naltrexone, among others
+  - **Minor**: fidaxomicin, prucalopride
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -99,18 +106,13 @@ Please refer to the package insert for safety information. Health Canada warning
 **Decision: Hold**
 
 **Rationale:**
-The mechanism makes amenorrhea a plausible effect, and the drug is marketed in Canada. However, no trial or publication tests amenorrhea as a treatment goal. The available evidence covers bleeding reduction in fibroids and endometriosis and is indirect. Safety data are also missing, so the prediction is best treated as a research question.
+The high score probably reflects the drug's menstrual-suppressing effect rather than a therapeutic opportunity. Amenorrhea is an expected pharmacological effect of elagolix, so using it to treat amenorrhea is not supported. No clinical trials exist, and the literature does not address this indication.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Mechanism-of-action data from DrugBank
-- Original approved indication text for the Canadian DINs
-- Amenorrhea rates from the fibroid and endometriosis trials, or a study that targets amenorrhea directly
-- Review of whether amenorrhea is a desirable outcome or only an expected effect of hormonal suppression
-
----
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- A clear clinical rationale showing a patient population in which inducing or treating amenorrhea would be a valid goal (for example, reframing toward heavy menstrual bleeding in uterine fibroids, which has actual literature support)
+- Mechanism of action data from DrugBank
+- Health Canada package insert warnings, contraindications, and approved indication text
+- Bone-density and liver-safety risk assessment for any new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

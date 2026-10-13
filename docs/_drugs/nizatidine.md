@@ -2,7 +2,7 @@
 layout: default
 title: Nizatidine
 parent: Model Prediction Only (L5)
-nav_order: 657
+nav_order: 663
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,75 +29,100 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Nizatidine: From an Unlisted Original Indication to Active Peptic Ulcer Disease
+# Nizatidine: From Gastric Ulcer to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Nizatidine is a histamine H2-receptor antagonist (an acid-suppressing drug) marketed in Canada as AXID. The Canadian licence record does not state its original indication.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **0 registered clinical trials** and **19 publications**, including several randomized, double-blind studies in duodenal and gastric ulcer.
-This is very likely an existing labeled use rather than true repurposing, and it should be confirmed against the product label.
+Nizatidine is an H2-receptor antagonist originally used for gastric ulcer, duodenal ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis and dyspepsia.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **0 registered clinical trials** and **20 publications** currently supporting this direction.
+Note that this prediction largely confirms an existing use rather than a true new indication.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence record |
+| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia, duodenal ulcer (the Canadian licence record contains no indication text) |
 | Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L1 (based on published randomized controlled studies; no registered trials) |
+| Evidence Level | L1 (based on published randomized placebo-controlled trials; study designs were not verified beyond titles and abstracts) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. The published literature, however, describes nizatidine as an H2-receptor antagonist. In animal studies it was more active than cimetidine on a weight-for-weight basis, and in humans it is a potent inhibitor of basal, nocturnal and stimulated gastric acid secretion.
+Nizatidine blocks histamine H2 receptors on gastric parietal cells and so suppresses basal, nocturnal and stimulated gastric acid secretion. Detailed mechanism-of-action data were not available in the data compiled for this report, but this class effect is well described in the retrieved literature.
 
-Peptic ulcers are acid-peptic lesions, and lowering gastric acid is the established route to healing them. The high TxGNN score is consistent with this. The retrieved studies already test nizatidine in duodenal and gastric ulcer healing, and in preventing recurrence. The prediction therefore looks like confirmation of a known use rather than a new one.
+Active peptic ulcer disease (duodenal and gastric) is acid-dependent and already falls within nizatidine's original indications. This is therefore a confirmation of an existing use, not a true repurposing candidate. The high TxGNN score reflects how close the disease sits to nizatidine's known indications in the knowledge graph.
+
+Several lower-ranked predictions are weaker and mostly extrapolations from ulcer disease:
+- **Gastrojejunal ulcer** (99.94%): acid suppression is plausible for marginal ulcers, but no retrieved paper studies this condition, and proton pump inhibitors are generally preferred. Evidence level L4, a research question only.
+- **Gastroduodenitis** (99.58%): indirect support from NSAID-induced lesion prevention studies and an in vitro antioxidant study. Evidence level L3, a research question only.
+- **Peptic ulcer perforation, duodenal obstruction, duodenogastric reflux and multiple endocrine neoplasia**: no direct evidence and a weak mechanistic fit. Evidence level L5, hold.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT | Clin Pharmacol Ther | 8-week multicenter, double-blind comparison of nizatidine 150 mg twice daily, 300 mg at bedtime and placebo in healing benign gastric ulcers |
-| [2570656](https://pubmed.ncbi.nlm.nih.gov/2570656/) | 1989 | RCT | Clin Pharmacol Ther | Two-phase, placebo-controlled, double-blind trial of nizatidine 150 mg twice daily for duodenal ulcer healing and recurrence |
-| [2892259](https://pubmed.ncbi.nlm.nih.gov/2892259/) | 1987 | RCT | Scand J Gastroenterol Suppl | One-year maintenance study in 513 patients with healed duodenal ulcer. Cumulative recurrence at 12 months was 34% with nizatidine vs 64% with placebo |
-| [7960687](https://pubmed.ncbi.nlm.nih.gov/7960687/) | 1994 | RCT | Isr J Med Sci | Double-blind, placebo-controlled trial in 55 patients with active duodenal ulcer. Nizatidine 300 mg nightly for 4 weeks was assessed for ulcer healing and mucosal inflammatory mediators |
-| [1982108](https://pubmed.ncbi.nlm.nih.gov/1982108/) | 1990 | RCT | Hepato-gastroenterology | 8-week study in 101 gastric ulcer patients comparing nizatidine (two regimens) with ranitidine. Four-week healing rates with nizatidine were 51.5% (300 mg at bedtime) and 61.8% (150 mg twice daily) |
-| [1344473](https://pubmed.ncbi.nlm.nih.gov/1344473/) | 1992 | RCT | Med Pregl | Prospective, randomized, double-blind study of nizatidine vs ranitidine in 120 duodenal ulcer patients, with endoscopic control after 1–2 months |
-| [8429117](https://pubmed.ncbi.nlm.nih.gov/8429117/) | 1993 | Randomized pharmacodynamic study | J Clin Pharmacol | 24-hour intragastric pH monitoring in 12 duodenal ulcer patients in remission. Nizatidine 150 mg and 300 mg twice daily and ranitidine 300 mg twice daily all raised pH above placebo (P < .001) |
-| [2575571](https://pubmed.ncbi.nlm.nih.gov/2575571/) | 1989 | Pharmacodynamic study | Hepato-gastroenterology | Nizatidine 150 mg vs ranitidine 150 mg in 10 patients with healed duodenal ulcer. Total acid inhibition was similar, but nizatidine acted more rapidly |
-| [2905640](https://pubmed.ncbi.nlm.nih.gov/2905640/) | 1988 | Review | Drugs | Preliminary review of nizatidine's pharmacology and its use in peptic ulcer disease |
-| [2184124](https://pubmed.ncbi.nlm.nih.gov/2184124/) | 1990 | Review | Gastroenterol Clin North Am | Overview of peptic ulcer therapy. Nizatidine and roxatidine are described as safe and effective but without new clinically important properties |
+| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT | Clin Pharmacol Ther | 8-week multicentre, double-blind comparison of nizatidine 150 mg twice daily or 300 mg at bedtime versus placebo in active benign gastric ulcer |
+| [2570656](https://pubmed.ncbi.nlm.nih.gov/2570656/) | 1989 | RCT | Clin Pharmacol Ther | Two-phase, placebo-controlled trial of nizatidine 150 mg twice daily for healing and recurrence of active duodenal ulcer |
+| [2892259](https://pubmed.ncbi.nlm.nih.gov/2892259/) | 1987 | RCT | Scand J Gastroenterol Suppl | One-year maintenance trial in 513 patients; ulcer recurrence at 12 months was 34% with nizatidine versus 64% with placebo |
+| [7960687](https://pubmed.ncbi.nlm.nih.gov/7960687/) | 1994 | RCT | Isr J Med Sci | Placebo-controlled trial in 55 patients with active duodenal ulcer, nizatidine 300 mg nightly for 4 weeks, assessing healing and mucosal inflammatory mediators |
+| [1977089](https://pubmed.ncbi.nlm.nih.gov/1977089/) | 1990 | RCT | Neth J Med | Nizatidine versus ranitidine in 230 patients with gastric or duodenal ulcers (Dutch part of a European multicentre trial) |
+| [1982108](https://pubmed.ncbi.nlm.nih.gov/1982108/) | 1990 | RCT | Hepatogastroenterology | 8-week double-blind comparison of nizatidine (two regimens) and ranitidine in 101 gastric ulcer patients |
+| [2892253](https://pubmed.ncbi.nlm.nih.gov/2892253/) | 1987 | Safety analysis | Scand J Gastroenterol Suppl | Safety review of 3,800 nizatidine-treated patients in US and European ulcer trials |
+| [2905640](https://pubmed.ncbi.nlm.nih.gov/2905640/) | 1988 | Review | Drugs | Review of pharmacology and therapeutic use of nizatidine in peptic ulcer disease |
+| [2184124](https://pubmed.ncbi.nlm.nih.gov/2184124/) | 1990 | Review | Gastroenterol Clin North Am | Overview of medical therapy of peptic ulcer; nizatidine described as safe and effective |
+| [8429117](https://pubmed.ncbi.nlm.nih.gov/8429117/) | 1993 | Pharmacodynamic study | J Clin Pharmacol | 24-hour intragastric pH control with nizatidine 150 mg and 300 mg versus ranitidine and placebo |
+
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 778338 | AXID |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00778338 | AXID | Not listed | Not listed |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-related contraindications flagged in the knowledge graph** (not label text): liver disease, gallbladder disease, impaired renal function, and gastric cancer and its subtypes (gastric neoplasm, diffuse gastric adenocarcinoma, linitis plastica, gastric carcinoma). Acid suppression can mask symptoms of gastric malignancy, so cancer should be excluded before treatment.
+- **Drug interactions**: 100 interactions were identified. Those listed include:
+  - **Major**: atazanavir, dasatinib
+  - **Moderate**: acalabrutinib, bosutinib, brigatinib, cefditoren, cefpodoxime, cefuroxime, ceritinib, chlorpropamide, dabrafenib, dacomitinib
+  - **Minor**: ketorolac, ibuprofen, alendronic acid, axitinib, cyanocobalamin, diclofenac, magnesium oxide, oxaprozin
+
+  Many of the major and moderate interactions involve drugs whose absorption depends on gastric acidity.
+- Please also refer to the package insert for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several randomized, double-blind studies support nizatidine for healing duodenal and gastric ulcers and for preventing duodenal ulcer recurrence. However, the evidence is old (1987–1994) and no clinical trials are registered. The indication also appears to be an existing labeled use rather than true repurposing.
+For active peptic ulcer disease, published randomized placebo-controlled and comparator trials support nizatidine, and it is already marketed in Canada (AXID). This is confirmation of an existing use, not a new indication. The other predicted indications lack direct evidence and should be treated as research questions or held.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph (warnings and contraindications), which is currently a blocking gap. It should also confirm the labeled indications for AXID, so the prediction is not presented as new.
-- Mechanism-of-action data from DrugBank.
-- Confirmation of study designs for the papers whose designs were inferred only from titles or abstracts.
-- Note that the other predicted indications (gastrojejunal ulcer, gastroduodenitis, peptic ulcer perforation, duodenal obstruction, duodenogastric reflux, multiple endocrine neoplasia) have weak or indirect evidence. They are classified as Research Question or Hold and are not recommended for advancement.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- The Canadian package insert (warnings, contraindications, approved indications and dosage form), which is a blocking gap for safety screening
+- Detailed mechanism of action data
+- Verification of the trial designs and results beyond titles and abstracts
+- Direct evidence before pursuing gastrojejunal ulcer or gastroduodenitis, with comparison against proton pump inhibitors
+- A review of clinically significant interactions, especially with drugs that need gastric acid for absorption
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Silodosin
 parent: Model Prediction Only (L5)
-nav_order: 841
+nav_order: 848
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Silodosin: From an Alpha-1A Adrenergic Antagonist to Ambras Type Hypertrichosis Universalis Congenita
+# Silodosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Silodosin is a marketed alpha-1A adrenergic antagonist with 8 Canadian licenses.
-The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+Silodosin was originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -49,9 +51,20 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, silodosin is a selective alpha-1A adrenergic receptor antagonist. No pathway links this receptor to Ambras syndrome, a congenital condition caused by a structural or regulatory genomic defect.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, silodosin is a selective alpha-1A adrenergic receptor antagonist. It acts mainly on the prostate and lower urinary tract, where it relaxes smooth muscle and eases urinary symptoms in BPH.
 
-The very high score (99.99%) comes from the knowledge graph alone. The other top predictions for silodosin are also rare hair-phenotype or congenital malformation conditions: hypertrichosis, isolated genetic hair shaft abnormality, and familial isolated trichomegaly. This suggests the signal comes from shared graph neighbours rather than a drug-specific mechanism. Until a biological pathway is demonstrated, the score should be treated as a likely knowledge-graph artifact.
+The predicted condition, Ambras syndrome, is a rare congenital disorder. It is linked to genomic rearrangements that affect TRPS1 regulation. No established mechanism connects alpha-1A blockade to this pathway or to hair follicle growth control. The very high score (99.99%) most likely reflects network proximity in the knowledge graph rather than biological rationale.
+
+The other predictions are similar in nature: hypertrichosis, a dental/periodontal malformation syndrome, a Dandy-Walker malformation syndrome, an isolated genetic hair shaft abnormality, and familial isolated trichomegaly. They also have no clinical or literature support. The highest-ranked prediction is the one reported here. The others are listed below for reference.
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level |
+|------|------|------|------|
+| 1 | Ambras type hypertrichosis universalis congenita | 99.99% | L5 |
+| 2 | Hypertrichosis | 99.99% | L5 |
+| 3 | Malformation syndrome with odontal and/or periodontal component | 99.99% | L5 |
+| 4 | Syndrome with a Dandy-Walker malformation as major feature | 99.98% | L5 |
+| 5 | Isolated genetic hair shaft abnormality | 99.98% | L5 |
+| 6 | Familial isolated trichomegaly | 99.23% | L5 |
 
 ## Clinical Trial Evidence
 
@@ -63,33 +76,35 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Showing 5 of 8 authorizations.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02475421 | SANDOZ SILODOSIN | Not specified | Not specified |
+| 02517787 | PMS-SILODOSIN | Not specified | Not specified |
+| 02539519 | JAMP SILODOSIN | Not specified | Not specified |
+| 02478528 | AURO-SILODOSIN | Not specified | Not specified |
+| 02475448 | SANDOZ SILODOSIN | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02475421 | SANDOZ SILODOSIN |
-| 02517787 | PMS-SILODOSIN |
-| 02539519 | JAMP SILODOSIN |
-| 02478528 | AURO-SILODOSIN |
-| 02475448 | SANDOZ SILODOSIN |
+Eight single-ingredient products are valid in Canada; the five above are shown.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found.
+- **Contraindications / conditions of concern (from knowledge graph associations, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver failure, kidney disease, pyoureter, intraoperative floppy iris syndrome.
+- **Drug Interactions**: 99 interactions were identified. Among those listed, **clarithromycin** is rated **Major**. Moderate interactions include bupropion, aprepitant, morphine, dexamethasone, cimetidine, miconazole, clotrimazole, rolapitant, the SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), dronabinol, nabilone, eliglustat, metreleptin, glycerol phenylbutyrate, liposomal morphine and opium.
+
+Please refer to the package insert for full warnings and precautions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no trials or literature, and no mechanism links an alpha-1A antagonist to Ambras syndrome. Evidence level is L5.
+The prediction rests only on a graph-based score. There are no trials or publications, and no plausible mechanism links alpha-1A adrenergic blockade to Ambras syndrome or to hair growth. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank, and a demonstrated biological pathway between alpha-1A antagonism and the hair-growth phenotype
-- Health Canada package insert warnings and contraindications, which are required before any safety screening
-- A drug-specific literature search (silodosin plus the target disease), since the periodontitis papers retrieved for the third-ranked prediction do not mention silodosin
-- Original approved indication text and dosage forms for the Canadian licenses, which are currently blank
-- A route-of-administration compatibility assessment
+- Mechanism of action data, and a biological rationale connecting alpha-1A antagonism to TRPS1-related or hair follicle pathways
+- Preclinical studies (for example, cell or animal models) testing the hypothesis
+- Health Canada package insert warnings and contraindications, to support safety screening
+- Review of the safety profile for the target population, which is likely a rare congenital condition, including the major clarithromycin interaction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

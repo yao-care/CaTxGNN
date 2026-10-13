@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Moderate Evidence (L3-L4)
-nav_order: 801
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 808
+evidence_level: L5
 indication_count: 5
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Rilpivirine: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Rilpivirine: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used against HIV-1 infection. The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but this is a non-human pathogen. The prediction is supported by **0 clinical trials** and **4 publications**, all preclinical or review-level, so it is a model-organism finding and not a human repurposing opportunity.
+Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, a macaque model of HIV. Support is limited to **0 clinical trials** and **5 preclinical or review publications**. This is essentially a confirmation of the existing HIV indication, not a new human indication.
 
 ---
 
@@ -41,10 +42,10 @@ Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used aga
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (inferred from the drug class; the Canadian label text was not provided) |
+| Original Indication | HIV infectious disease; AIDS (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (preclinical studies only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 6 |
 | Recommended Decision | Hold |
@@ -53,20 +54,22 @@ Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used aga
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Rilpivirine is known as an NNRTI that inhibits HIV-1 reverse transcriptase. It is used alone (EDURANT) and in combinations with cabotegravir (CABENUVA), dolutegravir (JULUCA) and emtricitabine/tenofovir (COMPLERA).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rilpivirine is an NNRTI that inhibits HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and it is marketed alone and in combination products in Canada.
 
-SIV is the primate counterpart of HIV. Macaque SIV/SHIV models are widely used to test HIV-1 therapies, including long-acting cabotegravir plus rilpivirine. These studies therefore support rilpivirine's HIV-1 use only indirectly. SIV is not a human disease, so the high score probably reflects the model-organism relationship in the knowledge graph and not a new human indication.
+Simian immunodeficiency virus (SIV) and chimeric SHIV infections in macaques are the standard preclinical surrogates for HIV. A prediction here is therefore expected, but it supports the original indication rather than a genuinely new one. SIV is naturally resistant to NNRTIs, so these models use SHIV carrying HIV reverse transcriptase. The macaque studies of long-acting rilpivirine with cabotegravir report sustained virologic suppression, remission after early treatment, and a low frequency of resistant variants. This is preclinical animal evidence, not a human repurposing indication.
 
-The other predictions are weaker or more relevant to humans in different ways:
-- **Feline acquired immunodeficiency syndrome:** supported only by an in vitro and structural study. It is veterinary and not relevant to a human repurposing decision.
-- **A rare neurodevelopmental disorder:** no mechanism, trials or literature. It is most likely a graph-propagation artifact.
-- **AIDS-related complex and congenital HIV:** these are HIV-related human conditions with more trial evidence, discussed in the conclusion.
+The other predictions are weaker:
+- **Feline acquired immunodeficiency syndrome**: only in vitro and structural comparisons of NNRTIs against feline immunodeficiency virus reverse transcriptase, which is generally less sensitive to NNRTIs. There are no clinical data in cats, and the relevance to human use is limited.
+- **A rare neurodevelopmental disorder (ataxic gait, absent speech)**: no mechanistic link, no trials and no literature, so this is likely a graph artifact despite a score of 99.97%.
+- **AIDS related complex** and **congenital HIV**: both overlap with the existing HIV indication.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the top predicted indication.
+
+(For the fifth-ranked prediction, congenital HIV, one completed Phase 4 trial is listed, [NCT04340388](https://clinicaltrials.gov/study/NCT04340388), with 10 participants. It studies dolutegravir and obesity or cardiovascular disease, not rilpivirine, and its relevance is low.)
 
 ---
 
@@ -74,30 +77,35 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical animal study | Nature Communications | In RT-SHIV-infected macaques, oral emtricitabine/tenofovir alafenamide plus long-acting cabotegravir/rilpivirine was tested for viral remission, with or without an immune-modulating agent. Early treatment and long-lasting antiviral activity were explored. |
-| [26438501](https://pubmed.ncbi.nlm.nih.gov/26438501/) | 2015 | Preclinical animal study | Antimicrobial Agents and Chemotherapy | Long-acting rilpivirine in macaques infected with SIV containing HIV-1 reverse transcriptase selected drug-resistant variants at low frequency, which is relevant to pre-exposure prophylaxis. |
-| [41370971](https://pubmed.ncbi.nlm.nih.gov/41370971/) | 2026 | Preclinical animal study | EBioMedicine | Tested whether a single injection of long-acting cabotegravir/rilpivirine could serve as post-exposure prophylaxis in a macaque model. |
-| [29746267](https://pubmed.ncbi.nlm.nih.gov/29746267/) | 2018 | Review | Current Opinion in HIV and AIDS | Reviews the preclinical and clinical evidence for cabotegravir in antiretroviral therapy and prevention. It focuses on cabotegravir, not rilpivirine. |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical (macaque SHIV) | Nature Communications | Early treatment with long-acting cabotegravir/rilpivirine plus oral emtricitabine/tenofovir alafenamide was studied for SHIV remission in macaques |
+| [26438501](https://pubmed.ncbi.nlm.nih.gov/26438501/) | 2015 | Preclinical (macaque) | Antimicrobial Agents and Chemotherapy | Long-acting rilpivirine selected drug-resistant variants at a low frequency in macaques infected with SIV containing HIV-1 reverse transcriptase |
+| [41370971](https://pubmed.ncbi.nlm.nih.gov/41370971/) | 2026 | Preclinical (PEP model) | EBioMedicine | Evaluated whether a single injection of long-acting cabotegravir/rilpivirine could serve as post-exposure prophylaxis in macaques |
+| [42040962](https://pubmed.ncbi.nlm.nih.gov/42040962/) | 2026 | Preclinical (macaque) | Research Square | Long-acting antiretrovirals (lenacapavir with cabotegravir) were studied in early-life SIV infection in newborn macaques; this is a preprint and rilpivirine is not the focus |
+| [29746267](https://pubmed.ncbi.nlm.nih.gov/29746267/) | 2018 | Review | Current Opinion in HIV and AIDS | Review of cabotegravir for antiretroviral therapy and prevention; focused on cabotegravir rather than rilpivirine |
 
 ---
 
 ## Canada Market Information
 
-Six licenses are recorded in Canada; five are listed below. Dosage form and approved indication text were not provided for these entries.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02370603 | EDURANT | Not specified | Not specified |
+| 02497247 | CABENUVA | Not specified | Not specified |
+| 02497220 | CABENUVA | Not specified | Not specified |
+| 02475774 | JULUCA | Not specified | Not specified |
+| 02374129 | COMPLERA | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2370603 | EDURANT |
-| 2497247 | CABENUVA |
-| 2475774 | JULUCA |
-| 2497220 | CABENUVA |
-| 2374129 | COMPLERA |
+A sixth authorization, ODEFSEY (DIN 02461463), is also valid.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications recorded in the knowledge graph** (not taken from label text): long QT syndrome, familial long QT syndrome, torsades de pointes, liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, chronic hepatitis B virus infection, lactic acidosis, Fanconi renotubular syndrome, hypophosphatemia, osteomalacia, rickets, gallbladder disease, pyoureter, obesity disorder, monogenic obesity and pathologic fracture. Several of these probably reflect other components of combination products (for example tenofovir) rather than rilpivirine alone.
+- **Drug interactions**: 100 interactions were found. The main **Major** interactions are acid-reducing agents (famotidine, ranitidine, cimetidine, omeprazole, esomeprazole, rabeprazole, dexlansoprazole), dexamethasone, and QT-related drugs (cisapride, dolasetron). **Moderate** interactions include clarithromycin, aprepitant, loperamide, antacids (aluminum hydroxide, calcium carbonate, magnesium oxide), clotrimazole, and several laxatives.
+- **Pregnancy**: the literature on long-acting cabotegravir/rilpivirine in pregnancy includes a case report in which rilpivirine concentrations were 70–75% lower than in non-pregnant individuals, so monitoring is warranted.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -106,17 +114,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is a non-human infection, supported only by macaque studies and one review, with no clinical trials (evidence level L4). It has no direct bearing on a human repurposing decision.
-
-For human-relevant HIV directions, the same Evidence Pack shows more promise:
-- **AIDS-related complex:** rated Proceed with Guardrails, supported by a small Phase 3 trial (n=37) of darunavir/ritonavir plus rilpivirine. It may overlap with the approved HIV-1 label and so may not be true repurposing.
-- **Congenital HIV:** rated as a Research Question, with indirect evidence only.
+The top prediction is an animal model of HIV, the disease rilpivirine already treats, so it offers no new human indication. Evidence is preclinical only (L4) and there are no registered trials. The other predicted indications are either overlapping with HIV, veterinary, or unsupported.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Approved indication text for each Canadian license, to confirm what counts as the original indication
-- If pursuing human HIV-related directions, pediatric and neonatal dosing, pharmacokinetic and safety data, plus drug interaction and resistance testing review
+- A clear human indication that differs from existing HIV approvals; none is currently identified
+- Mechanism of action data
+- Package insert warnings and contraindications from Health Canada, which are currently missing and block safety screening
+- Product details (dosage form and approved indication text) for the Canadian licences
+- A dedicated analysis of QT prolongation risk and the major interactions with acid-reducing agents
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

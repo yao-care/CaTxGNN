@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sumatriptan
-parent: Model Prediction Only (L5)
-nav_order: 867
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 874
+evidence_level: L4
 indication_count: 1
 ---
 
 # Sumatriptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Sumatriptan: From Acute Migraine to Migraine with Brainstem Aura
+# Sumatriptan: From Migraine to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Sumatriptan is a triptan marketed for the acute treatment of migraine.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but the high score mostly reflects its known link to the migraine disease family rather than a true repurposing signal.
-No clinical trials are registered for this specific subtype, and the **16 publications** retrieved are indirect (general migraine or migraine with aura).
+Sumatriptan is a triptan originally used to treat migraine (with or without aura) and cluster headache.
+The TxGNN model predicts it may be useful for **migraine with brainstem aura**,
+but there are **no registered clinical trials** and only **18 publications** (mostly general migraine reviews, not specific to this subtype). This is a subtype of an already-labelled condition, not a truly new indication.
 
 ---
 
@@ -43,10 +43,10 @@ No clinical trials are registered for this specific subtype, and the **16 public
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute migraine (the licence indication text is not available in the Evidence Pack) |
+| Original Indication | Migraine disorder, migraine with or without aura, cluster headache, paroxysmal hemicrania, hemicrania continua (from the knowledge graph; no approved-indication text is available for the Canadian licences) |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 (indirect evidence only; nothing examines this subtype directly) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
@@ -55,13 +55,11 @@ No clinical trials are registered for this specific subtype, and the **16 public
 
 ## Why is This Prediction Reasonable?
 
-Sumatriptan is a selective 5-HT1B/1D receptor agonist. Per the retrieved literature, it is thought to act by constricting certain large cranial blood vessels and by inhibiting the release of vasoactive neuropeptides from trigeminal nerve endings in the dura (PMID 8536293). A PET study found that sumatriptan reaches central 5-HT1B receptors during a migraine attack (PMID 31135819). Detailed mechanism-of-action data is not yet available in the structured record, so this description comes from the literature.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, sumatriptan is a 5-HT1B/1D receptor agonist. It is thought to relieve migraine by constricting cranial blood vessels and by inhibiting the release of CGRP and other neuropeptides from trigeminal nerve endings.
 
-Migraine with brainstem aura (formerly basilar-type migraine) belongs to the same disease family as the migraine indication sumatriptan already has. This closeness is the most likely reason the model scored it so highly. It is not evidence that the drug works in this subtype.
+Migraine with brainstem aura is a clinical subtype of migraine with aura, so it shares the trigeminovascular pathophysiology that sumatriptan targets. The very high TxGNN score most likely reflects this close proximity to the approved migraine indications in the disease ontology, rather than a genuinely new mechanistic discovery.
 
-There are also reasons for caution:
-- Brainstem aura involves brainstem-origin neurological symptoms. Triptan vasoconstriction is a theoretical ischaemic concern here, and sumatriptan labelling has traditionally listed hemiplegic and basilar migraine as contraindications. This conflicts with the model's prediction and must be checked against the current Canadian label.
-- A cohort/post hoc analysis (PMID 25841032) reported reduced sumatriptan efficacy in migraine with aura compared with migraine without aura. This weakens the efficacy case for aura subtypes in general.
+There is an important caveat. Triptans have historically been used cautiously, or avoided, in brainstem aura (formerly basilar-type migraine) and hemiplegic migraine because of theoretical concerns about vasoconstriction. Evidence of actual harm is limited, but the concern means that the apparent "fit" of this prediction cannot be taken at face value.
 
 ---
 
@@ -73,43 +71,51 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-None of these publications studies migraine with brainstem aura directly. Study types marked with an asterisk (*) were inferred from the title or abstract, because the pack's automatic classification was pending.
+None of the publications below studies sumatriptan specifically in migraine with brainstem aura. They address migraine in general, migraine with aura, or other triptans.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33567890](https://pubmed.ncbi.nlm.nih.gov/33567890/) | 2021 | RCT* | Cephalalgia | Tested whether early sumatriptan treatment can prevent PACAP38-induced migraine attacks (experimental migraine model) |
-| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | RCT | Phytother Res | Double-blind trial in 100 patients with acute migraine without aura, comparing ginger powder with sumatriptan |
-| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | RCT* | Cephalalgia | Double-blind, placebo-controlled trial of oral sumatriptan 200 mg in acute migraine with aura (general aura, not the brainstem subtype) |
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Cohort | Neurology | Reported reduced sumatriptan efficacy in migraine with aura versus without aura |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline / evidence assessment | Headache | American Headache Society assessment of the evidence for acute migraine pharmacotherapies |
-| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Review | Cephalalgia | Critical review of sumatriptan in migraine and cluster headache, including its mode of action |
-| [31135819](https://pubmed.ncbi.nlm.nih.gov/31135819/) | 2019 | Imaging/mechanism study* | JAMA Neurol | Examined the association between sumatriptan treatment during a migraine attack and central 5-HT1B receptor binding |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review (evidence assessment / guideline) | Headache | American Headache Society evidence assessment of acute migraine drug therapies |
+| [12917936](https://pubmed.ncbi.nlm.nih.gov/12917936/) | 2003 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Oral sumatriptan for acute migraine |
+| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | RCT | Phytother Res | Ginger vs sumatriptan in 100 patients with migraine without aura; not about brainstem aura |
+| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | RCT | Cephalalgia | Double-blind, placebo-controlled trial of oral sumatriptan 200 mg in acute migraine with aura |
+| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Study | Neurology | Reports reduced efficacy of sumatriptan in migraine with aura compared with migraine without aura |
+| [8559405](https://pubmed.ncbi.nlm.nih.gov/8559405/) | 1996 | Commentary | Neurology | Subcutaneous sumatriptan and the migraine aura |
+| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Review | Cephalalgia | Critical review of sumatriptan in migraine and cluster headache |
+| [26628293](https://pubmed.ncbi.nlm.nih.gov/26628293/) | 2016 | Review | Drugs | Sumatriptan/naproxen sodium for acute migraine with or without aura |
 | [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handb Clin Neurol | Status migrainosus as a complication of migraine with or without aura |
-| [21469920](https://pubmed.ncbi.nlm.nih.gov/21469920/) | 2011 | Review* | Expert Rev Neurother | Needle-free subcutaneous sumatriptan approved for acute migraine with or without aura and cluster headache |
-| [39391443](https://pubmed.ncbi.nlm.nih.gov/39391443/) | 2024 | Case report | Cureus | Rare case of migraine with aura accompanied by myoclonus in a 46-year-old man |
+| [12083998](https://pubmed.ncbi.nlm.nih.gov/12083998/) | 2002 | Review | Expert Opin Pharmacother | Zolmitriptan (a different triptan) in migraine |
 
 ---
 
 ## Canada Market Information
 
-Showing 5 of 20 licences. Dosage form and approved indication text are not available in the pack.
+Twenty single-ingredient sumatriptan licences are valid in Canada, with no cancelled ones. Dosage form, manufacturer and approved-indication text are not available in the data compiled for this report. Five representative authorisations:
 
-| DIN | Product Name |
-|---------|------|
-| 2256428 | PMS-SUMATRIPTAN |
-| 2545357 | JAMP SUMATRIPTAN |
-| 2268906 | MYLAN-SUMATRIPTAN |
-| 2286823 | TEVA-SUMATRIPTAN DF |
-| 2385589 | SUMATRIPTAN DF |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02212188 | IMITREX | Not available | Not available |
+| 02230418 | IMITREX | Not available | Not available |
+| 02256428 | PMS-SUMATRIPTAN | Not available | Not available |
+| 02268388 | APO-SUMATRIPTAN | Not available | Not available |
+| 02268906 | MYLAN-SUMATRIPTAN | Not available | Not available |
 
 ---
 
 ## Safety Considerations
 
-- **Subtype-specific concern**: Sumatriptan labelling has traditionally listed hemiplegic and basilar migraine as contraindications because of the theoretical ischaemic risk from vasoconstriction. This must be verified against the current Health Canada label.
-- **Drug interactions**: No interaction records were found in the queried source.
+**Contraindication-related conditions from the knowledge graph** (these come from drug–disease contraindication links in the knowledge graph, not from package insert text):
+- Cardiovascular: coronary artery disease, myocardial infarction, coronary thrombosis, heart disease, congestive heart failure, hypertension, peripheral vascular disease, intermittent claudication
+- Cerebrovascular: stroke, cerebral infarction, cerebrovascular disorder
+- Hepatic and renal: liver disease, liver failure, kidney disease
+- Others: epilepsy, diabetes mellitus, diabetic ketoacidosis, obesity, blood coagulation disease, haemoglobinopathy, anaemia, gallbladder disease, substance abuse/dependence
 
-Please refer to the package insert for the full safety information.
+**Drug Interactions** (100 interactions recorded; main ones shown):
+- **Major**: dexfenfluramine, fenfluramine, lorcaserin, sibutramine (serotonergic agents); dolasetron, granisetron, ondansetron, palonosetron (5-HT3 antagonists)
+- **Moderate**: morphine, liposomal morphine
+- Several others have an unclassified severity level, including pantoprazole, omeprazole, lansoprazole, metformin, doxycycline and cimetidine.
+
+Package insert warnings and contraindications were not available for this report; please refer to the Health Canada package insert.
 
 ---
 
@@ -118,13 +124,14 @@ Please refer to the package insert for the full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score mainly reflects sumatriptan's existing migraine indication, not independent evidence for the brainstem aura subtype. There are no registered trials and no direct literature. The drug class carries a traditional contraindication in this subtype, and the available data suggest weaker efficacy in migraine with aura.
+- The prediction is a subtype of an indication sumatriptan already carries, so it is a research question rather than a new repurposing opportunity. The evidence is model-prediction level only (L4), with no trials or subtype-specific literature. The historical caution about triptans in brainstem aura, combined with the cardiovascular and cerebrovascular contraindication signals, argues against advancing without more data.
 
 **To proceed, the following is needed:**
-- The current Health Canada product monograph, to confirm warnings and contraindications for hemiplegic and basilar (brainstem aura) migraine
-- Mechanism-of-action data from DrugBank
-- A targeted literature search for sumatriptan or triptan use specifically in brainstem aura / basilar-type migraine
-- A neurology and safety review of the ischaemic risk before any further consideration
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Subtype-specific clinical evidence (trials or case series) on triptan use and safety in migraine with brainstem aura
+- A clinical and regulatory review of whether the theoretical vasoconstriction concern applies to this subtype
+- Approved-indication text and dosage forms for the Canadian licences, to confirm how the labels treat aura subtypes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

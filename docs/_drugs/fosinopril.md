@@ -2,7 +2,7 @@
 layout: default
 title: Fosinopril
 parent: Model Prediction Only (L5)
-nav_order: 411
+nav_order: 414
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,80 +29,114 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Fosinopril: From ACE Inhibitor Therapy to Malignant Renovascular Hypertension
+# Fosinopril: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Fosinopril is an ACE inhibitor that is marketed in Canada under six licences.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but **no clinical trials and no relevant publications** currently support this prediction, so it remains a model-only hypothesis.
+Fosinopril is an ACE inhibitor originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but there are currently **0 clinical trials** and **0 directly relevant publications** supporting this direction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension (hypertensive disorder); the Canadian licence records contain no approved indication text |
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 6 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fosinopril is an ACE inhibitor, and this class acts on the renin-angiotensin system (RAS).
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known information, fosinopril belongs to the ACE inhibitor class. These drugs lower angiotensin II and therefore blood pressure, and its efficacy in hypertension is established.
 
-Renovascular hypertension is driven by RAS activation, so the target pathway fits the drug class. The link is plausible but unverified. The score rests only on the knowledge-graph prediction, with no supporting trials or literature.
+Renovascular hypertension depends heavily on the renin-angiotensin system, so blocking this pathway is mechanistically plausible. The high TxGNN score most likely reflects the close similarity between this disease and the approved hypertension indication, not new clinical evidence.
 
-A known safety concern applies directly to this setting. ACE inhibitors can cause acute renal function decline in bilateral renal artery stenosis or in a solitary kidney, and this must be resolved before any clinical consideration.
+There is an important safety caveat. ACE inhibitors can precipitate acute renal failure in patients with bilateral renal artery stenosis or stenosis in a solitary kidney. This is a major concern for this particular predicted indication.
 
-Four other diseases are also predicted, all at Evidence Level L5 with no supporting trials:
-- **Malignant hypertensive renal disease** (score 99.87%): the RAS rationale is plausible but unverified.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.87%): the link is weak. The 20 retrieved publications are general hypoxia papers unrelated to fosinopril, and vasodilators may worsen ventilation-perfusion matching.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (99.87%): no mechanistic link is established.
-- **Braddock syndrome** (99.81%): no credible link, likely an artifact of the shared pulmonary hypertension neighborhood.
+The other predictions follow the same pattern:
+- **Malignant hypertensive renal disease** (99.87%): a plausible extension of the hypertension indication, since blocking the renin-angiotensin system may lower blood pressure and pressure inside the kidney's filtering units. No supporting studies were found.
+- **Pulmonary hypertension** (two predictions, 99.87%): ACE inhibitors have not shown reliable benefit here, and systemic vasodilators may worsen oxygenation. The prediction appears to be driven by shared network features.
+- **Braddock syndrome** (99.81%): no clear mechanistic rationale could be identified.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+For the top prediction (malignant renovascular hypertension), no related literature is available.
+
+The only publications retrieved were for the third-ranked prediction, pulmonary hypertension owing to lung disease and/or hypoxia. Neither supports efficacy:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [9923037](https://pubmed.ncbi.nlm.nih.gov/9923037/) | 1998 | Case report | Revue des maladies respiratoires | Two patients taking enalapril or fosinopril for hypertension developed hypoxic eosinophilic pneumonia with sub-acute respiratory failure. This is a safety signal, not efficacy evidence. |
+| [31105790](https://pubmed.ncbi.nlm.nih.gov/31105790/) | 2019 | Preclinical/Bioinformatics | Experimental and Therapeutic Medicine | Gene-expression analysis in mouse mesangial cells in a diabetic nephropathy context. It is unrelated to pulmonary hypertension. |
+
+---
 
 ## Canada Market Information
 
-Six licences are recorded in total. The Evidence Pack lists five of them, and none includes dosage form or approved indication text.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02247803 | TEVA-FOSINOPRIL | Not specified | Not specified |
+| 02266008 | APO-FOSINOPRIL | Not specified | Not specified |
+| 02459396 | FOSINOPRIL | Not specified | Not specified |
+| 02266016 | APO-FOSINOPRIL | Not specified | Not specified |
+| 02247802 | TEVA-FOSINOPRIL | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2247803 | TEVA-FOSINOPRIL |
-| 2247802 | TEVA-FOSINOPRIL |
-| 2266008 | APO-FOSINOPRIL |
-| 2266016 | APO-FOSINOPRIL |
-| 2459396 | FOSINOPRIL |
+All 6 licences are valid single-ingredient products with none cancelled. The table shows the first 5.
+
+---
 
 ## Safety Considerations
 
-- **Renal risk**: ACE inhibitors carry a known risk of acute renal function decline in bilateral renal artery stenosis or a solitary kidney. This is directly relevant to renovascular hypertension.
-- **Monitoring**: Renal function and hyperkalemia monitoring would be central safety questions.
+- **Disease-level contraindication signals** (from the knowledge graph, not from label text):
+  - Kidney disease and liver disease
+  - Pancreatitis and gallbladder disease
+  - Angioedema, including hereditary, acquired and RAAS-blocker-induced forms
+  - Systemic lupus erythematosus and other connective tissue disease
+  - Diabetes mellitus and diabetic ketoacidosis
+  - Potassium deficiency and hyperparathyroidism
+  - Neutropenia and agranulocytosis
+  - Aortic stenosis and aortic valve disease
+  - Hypotensive disorder
+  - Hepatic coma and hepatic encephalopathy
+  - Bone disease
+- **Drug Interactions** (100 interactions recorded; examples shown):
+  - **Major**: potassium bicarbonate and potassium citrate, which carry a risk of raised potassium.
+  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), aspirin, and glucose-lowering drugs (metformin, alogliptin, saxagliptin, canagliflozin, dapagliflozin, empagliflozin, chlorpropamide). Others include bupropion, morphine, dronabinol, and bowel-preparation products.
+- **Specific to the predicted indication**: ACE inhibitors may cause acute renal failure in bilateral renal artery stenosis or stenosis in a solitary kidney. Renal function and potassium monitoring would be required.
 
-Please refer to the package insert for further safety information, including warnings, contraindications and drug interactions.
+The package insert warnings and contraindications were not available. Please refer to the package insert for the full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.87%), but it is the only support. There are no trials or relevant literature, and the evidence level is L5. The main safety concern, renal impairment in renal artery stenosis, has not been addressed.
+The prediction rests only on the model score, with no clinical trials and no supporting literature (Evidence Level L5). The renal safety risk specific to renovascular disease is substantial, and the package insert safety information has not yet been reviewed.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which block safety screening
-- Mechanism of action data (for example, from DrugBank)
-- Targeted literature searches for ACE inhibitors in renovascular hypertension
-- A review of the renal safety risk in renal artery stenosis and solitary kidney
-- Approved indication and dosage form data for the Canadian licences
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- The Health Canada package insert, to complete warnings and contraindications review (this currently blocks safety screening)
+- Mechanism of action data (for example from DrugBank)
+- A targeted literature search on ACE inhibitors in renovascular and malignant hypertension, including renal safety in renal artery stenosis
+- An assessment of whether the existing approved hypertension indication already covers severe or malignant forms
+- A review of the biological plausibility of the lower-ranked predictions (pulmonary hypertension and Braddock syndrome) before any research question is framed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

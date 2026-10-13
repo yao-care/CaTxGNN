@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Model Prediction Only (L5)
-nav_order: 826
+nav_order: 833
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salbutamol: From Obstructive Airway Disease to Papillary Conjunctivitis
+# Salbutamol: From Asthma and Bronchial Disease to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salbutamol is a beta-2 agonist bronchodilator marketed in Canada; the Evidence Pack lists no approved indication text, so asthma/COPD use is inferred from the drug class.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis** with a very high score, but **0 clinical trials** and **0 publications** were retrieved for this indication.
-This is a model-only prediction (evidence level L5), and the Evidence Pack itself suggests it may be a graph-propagation artifact.
+Salbutamol is a short-acting bronchodilator, originally used to treat asthma and bronchial disease.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis** with a very high score, but **no clinical trials and no publications** were found to support this specific prediction. It is a model-only signal.
 
 ---
 
@@ -43,10 +42,10 @@ This is a model-only prediction (evidence level L5), and the Evidence Pack itsel
 
 | Item | Content |
 |------|------|
-| Original Indication | Obstructive airway disease (asthma/COPD), inferred; Canadian licence indication texts are empty |
+| Original Indication | Asthma; bronchial disease |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.996% (rank 160) |
-| Evidence Level | L5 |
+| TxGNN Prediction Score | 99.996% |
+| Evidence Level | L5 (model prediction only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 15 |
 | Recommended Decision | Hold |
@@ -55,11 +54,11 @@ This is a model-only prediction (evidence level L5), and the Evidence Pack itsel
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, salbutamol is a beta-2 adrenoceptor agonist, its efficacy in airway obstruction is well established, and mechanistically it may be applicable to allergic ocular inflammation.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, salbutamol is a beta-2 adrenergic agonist. Its efficacy in asthma and bronchial disease is well established, and it acts by relaxing airway smooth muscle.
 
-The proposed link is that beta-2 agonism may stabilize mast cells and reduce allergic inflammation in the eye. A related preclinical finding supports this indirectly: topical salbutamol strongly suppressed immediate allergic conjunctivitis in a guinea pig model (PMID 3666475, 1987). That study concerned allergic conjunctivitis in general, not papillary conjunctivitis, and no human efficacy data exist.
+Papillary conjunctivitis is an allergic or inflammatory eye condition, so it is not obviously related to airway obstruction. The only mechanistic argument is indirect. Beta-2 agonists have shown mast-cell-stabilizing and anti-inflammatory effects in conjunctival tissue in preclinical settings, which could matter in allergic eye disease. The compiled data contains no study that tests this for papillary conjunctivitis, so the link remains speculative.
 
-The TxGNN score is extremely high, yet no trial or publication was found. The Evidence Pack assessment is that this pattern more likely reflects propagation through allergic/atopic disease neighbours in the knowledge graph than a real therapeutic signal. The prediction should be treated as a hypothesis only.
+The strength of the model score should not be read as clinical evidence. The prediction has not been checked against any human data.
 
 ---
 
@@ -77,21 +76,30 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Salbutamol has 15 Canadian authorizations. Five are listed below; dosage form and approved indication text were not provided for any of them.
+Salbutamol is widely marketed in Canada, with 15 valid single-ingredient licences and no cancelled ones. Dosage form and approved-indication text were not available in the compiled data. Five main authorizations:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02208229 | PMS-SALBUTAMOL | — | — |
-| 02326450 | TEVA-SALBUTAMOL HFA | — | — |
-| 01926934 | TEVA-SALBUTAMOL STERINEBS P.F. | — | — |
-| 02173360 | TEVA-SALBUTAMOL STERINEBS P.F. | — | — |
-| 02243115 | VENTOLIN DISKUS | — | — |
+| 02208229 | PMS-SALBUTAMOL | Not listed | Not listed |
+| 02326450 | TEVA-SALBUTAMOL HFA | Not listed | Not listed |
+| 02243115 | VENTOLIN DISKUS | Not listed | Not listed |
+| 02241497 | VENTOLIN HFA | Not listed | Not listed |
+| 02213486 | VENTOLIN RESPIRATOR SOLUTION | Not listed | Not listed |
+
+Other authorizations include an intravenous infusion solution (Ventolin I.V.) and combination-type inhalation products with ipratropium (Combivent Respimat and others). No ophthalmic salbutamol product appears in the list.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph disease associations, not label text):** hypertension and hypertensive disorders, long QT syndrome (including familial), epilepsy, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, metabolic acidosis, sudden cardiac arrest, heart conduction disease, myocardial ischemia and coronary artery disease, hyperthyroidism (Graves disease, thyrotoxicosis), angle-closure glaucoma and ocular hypertension, benign prostatic hyperplasia, and bladder neck obstruction.
+- **Drug Interactions:** 100 interactions were identified. Examples:
+  - **Moderate:** epinephrine, clarithromycin, cisapride, famotidine, isometheptene, diethylpropion, bisacodyl, castor oil.
+  - **Moderate (glucose-lowering drugs):** acarbose, alogliptin, albiglutide, acetohexamide, chlorpropamide, canagliflozin, dapagliflozin.
+  - **Minor (corticosteroids):** hydrocortisone, dexamethasone, betamethasone, budesonide, beclomethasone dipropionate.
+- **Eye-specific caution:** angle-closure glaucoma and ocular hypertension appear among the associated contraindications. This deserves particular attention for any ocular use.
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
@@ -100,17 +108,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no trials, no literature and no human data for papillary conjunctivitis. Only indirect preclinical data in allergic conjunctivitis exist, and the score may be a graph artifact. There is no basis to advance this indication.
+The TxGNN score is very high, but there are no trials or publications for papillary conjunctivitis. The only mechanistic support is indirect preclinical data on conjunctival effects of beta-2 agonists. Glaucoma-related contraindications also raise an ocular safety question.
 
 **To proceed, the following is needed:**
-- A targeted search for human studies of topical beta-2 agonists in papillary or allergic conjunctivitis
-- Route compatibility assessment: an ophthalmic formulation would be needed, and the listed Canadian products appear to be inhalation products
-- Health Canada product monograph (warnings, contraindications, approved indications), which is currently missing and blocks safety screening
-- Mechanism of action data from DrugBank, and correction of the empty original-indication field upstream
+- Mechanism of action data (MOA) to support the proposed link.
+- Preclinical or early human studies of salbutamol in papillary conjunctivitis.
+- An ocular formulation and route assessment, since no ophthalmic product exists in the Canadian list.
+- Package insert warnings and contraindications from Health Canada, which are currently missing.
 
-**Other candidates in this pack (for reference):**
-- **Obstructive lung disease** (rank 10) is the only indication at L1 (Proceed with Guardrails). It is almost certainly an existing labelled use rather than true repurposing. Before relying on the Phase 3 trials, confirm that salbutamol was the study drug and not a rescue comparator.
-- **Bronchitis, anaphylaxis and atopic conjunctivitis** are flagged as research questions. For anaphylaxis, epinephrine remains first-line, and anaphylaxis to salbutamol itself has been reported.
+**Other predictions in the same analysis have stronger support:**
+- **Obstructive lung disease (L1):** Phase 3 evidence exists for ipratropium/salbutamol in COPD (NCT02177253, n=1118). This is largely a label extension rather than true repurposing.
+- **Bronchitis/bronchiolitis (L2) and anaphylaxis (L3):** both are research questions. Evidence for bronchiolitis is weak or negative, and the anaphylaxis Phase 3 trial was terminated early with 24 participants.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

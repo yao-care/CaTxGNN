@@ -29,13 +29,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Bendamustine: From an Unlisted Original Indication to Mantle Cell Lymphoma
+# Bendamustine: From Follicular Lymphoma to Mantle Cell Lymphoma
 
 ## One-Sentence Summary
 
-Bendamustine is an alkylating chemotherapy that is marketed in Canada. The supplied license records do not state its original approved indication.
-The TxGNN model predicts it may be effective for **mantle cell lymphoma (MCL)**.
-This direction is supported by **50 clinical trials** and **20 publications**, including several completed Phase 3 randomized trials in which MCL patients received bendamustine plus rituximab.
+Bendamustine is an alkylating chemotherapy drug originally used for B-cell malignancies such as follicular lymphoma, mature B-cell neoplasms, acute lymphoblastic leukaemia and Richter syndrome.
+The TxGNN model predicts it may be effective for **Mantle Cell Lymphoma**, with **41 clinical trials** (including 5 Phase 3 studies) and **20 publications** currently supporting this direction.
 
 ---
 
@@ -43,7 +42,7 @@ This direction is supported by **50 clinical trials** and **20 publications**, i
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records provided |
+| Original Indication | Follicular lymphoma, mature B-cell neoplasms (knowledge-graph indications; no approved-indication text is available in the Canadian licence records) |
 | Predicted New Indication | Mantle cell lymphoma |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L1 |
@@ -55,65 +54,59 @@ This direction is supported by **50 clinical trials** and **20 publications**, i
 
 ## Why is This Prediction Reasonable?
 
-Bendamustine is a bifunctional alkylating agent with a purine-like benzimidazole ring. It cross-links DNA and triggers apoptosis. A formal mechanism-of-action entry is not available in the source data, so this description comes from the evidence-pack rationale.
+Detailed mechanism of action data is not available in the compiled data. Based on known information, bendamustine is an alkylating agent with purine-analogue-like properties. It causes DNA cross-linking and triggers apoptosis in B-cell malignancies.
 
-MCL is a B-cell non-Hodgkin lymphoma. DNA-damaging chemotherapy has well-documented activity in indolent B-cell malignancies and MCL, so the predicted use is biologically plausible. The clinical literature already treats bendamustine-rituximab (BR) as an established backbone for MCL, especially in older patients (PMID 26755518).
-
-One caveat: in many of the Phase 3 trials, BR is the comparator or backbone, not the investigational agent. The evidence therefore supports BR use in MCL. It does not prove bendamustine alone is effective.
+Mantle cell lymphoma is a mature B-cell neoplasm that is closely related to bendamustine's original indications (follicular lymphoma and other mature B-cell neoplasms). The cytotoxic mechanism therefore applies directly. Bendamustine plus rituximab (BR) is already an established backbone regimen in mantle cell lymphoma, which supports the model's prediction.
 
 ---
 
 ## Clinical Trial Evidence
 
-50 trials were matched. The 10 most relevant are listed below, prioritizing Phase 3 and directly MCL-focused studies.
+The table lists the most relevant trials (Phase 3 and directly relevant Phase 2 studies).
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00877006](https://clinicaltrials.gov/study/NCT00877006) | Phase 3 | Completed | 447 | BRIGHT: BR vs R-CVP or R-CHOP as first-line therapy in advanced indolent NHL or MCL; primary endpoint is complete response rate |
-| [NCT00991211](https://clinicaltrials.gov/study/NCT00991211) | Phase 3 | Completed | 549 | BR vs R-CHOP as first-line therapy in low-grade NHL and MCL; non-inferiority on progression-free survival |
-| [NCT01456351](https://clinicaltrials.gov/study/NCT01456351) | Phase 3 | Completed | 230 | BR vs fludarabine-rituximab in recurrent low-grade NHL and MCL; non-inferiority on event-free survival |
-| [NCT06363994](https://clinicaltrials.gov/study/NCT06363994) | Phase 3 | Recruiting | 476 | Double-blind trial of orelabrutinib plus BR vs placebo plus BR in untreated MCL |
-| [NCT00891839](https://clinicaltrials.gov/study/NCT00891839) | Phase 2 | Completed | 45 | Open-label BR in relapsed/refractory MCL, assessing efficacy and safety |
-| [NCT04115631](https://clinicaltrials.gov/study/NCT04115631) | Phase 2 | Active, not recruiting | 360 | Randomized 3-arm comparison of BR-based regimens with high-dose cytarabine and/or acalabrutinib in untreated MCL (age ≤70) |
-| [NCT01737177](https://clinicaltrials.gov/study/NCT01737177) | Phase 2 | Completed | 42 | Lenalidomide + bendamustine + rituximab (R2-B) as second-line therapy for relapsed/refractory MCL, followed by lenalidomide maintenance |
-| [NCT01457144](https://clinicaltrials.gov/study/NCT01457144) | Phase 2 | Completed | 76 | RiBVD (rituximab, bendamustine, bortezomib, dexamethasone) as first-line therapy in older or transplant-unsuitable MCL patients |
-| [NCT03567876](https://clinicaltrials.gov/study/NCT03567876) | Phase 2 | Completed | 141 | Venetoclax after rituximab-bendamustine-cytarabine (R-BAC) in high-risk older MCL patients; primary endpoint is progression-free survival |
-| [NCT01415752](https://clinicaltrials.gov/study/NCT01415752) | Phase 2 | Active, not recruiting | 373 | Four-arm trial in untreated MCL (age ≥60) of BR ± bortezomib, followed by rituximab or lenalidomide-rituximab consolidation |
+| [NCT00991211](https://clinicaltrials.gov/study/NCT00991211) | Phase 3 | Completed | 549 | First-line bendamustine-rituximab vs CHOP-rituximab in advanced indolent lymphoma and MCL (non-inferiority on PFS) |
+| [NCT00877006](https://clinicaltrials.gov/study/NCT00877006) | Phase 3 | Completed | 447 | BRIGHT: BR vs R-CVP/R-CHOP as first-line treatment in indolent NHL or MCL |
+| [NCT01776840](https://clinicaltrials.gov/study/NCT01776840) | Phase 3 | Completed | 523 | Ibrutinib added to BR in newly diagnosed MCL, patients aged 65 or older |
+| [NCT02972840](https://clinicaltrials.gov/study/NCT02972840) | Phase 3 | Active, not recruiting | 635 | Acalabrutinib plus BR vs placebo plus BR in previously untreated MCL |
+| [NCT06363994](https://clinicaltrials.gov/study/NCT06363994) | Phase 3 | Recruiting | 476 | Orelabrutinib plus BR vs BR in treatment-naïve MCL |
+| [NCT06084936](https://clinicaltrials.gov/study/NCT06084936) | Phase 3 | Recruiting | 182 | Glofitamab vs investigator's choice (BR or R-lenalidomide) in relapsed/refractory MCL |
+| [NCT00891839](https://clinicaltrials.gov/study/NCT00891839) | Phase 2 | Completed | 45 | Bendamustine plus rituximab in relapsed/refractory MCL |
+| [NCT01662050](https://clinicaltrials.gov/study/NCT01662050) | Phase 2 | Completed | 57 | Age-adjusted R-BAC (rituximab, bendamustine, cytarabine) induction in older MCL patients |
+| [NCT03834688](https://clinicaltrials.gov/study/NCT03834688) | Phase 2 | Completed | 33 | Venetoclax plus BR in untreated MCL over 60 years |
+| [NCT01412879](https://clinicaltrials.gov/study/NCT01412879) | Phase 2 | Completed | 53 | R-HCVAD vs R-bendamustine induction followed by autologous transplant in untreated MCL |
 
 ---
 
 ## Literature Evidence
 
-20 publications were matched. The 10 most relevant are listed, with RCTs first.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35657079](https://pubmed.ncbi.nlm.nih.gov/35657079/) | 2022 | RCT | N Engl J Med | Ibrutinib added to BR, followed by rituximab maintenance, in older patients with untreated MCL |
-| [23433739](https://pubmed.ncbi.nlm.nih.gov/23433739/) | 2013 | RCT (Phase 3) | Lancet | Open-label non-inferiority trial of BR vs R-CHOP as first-line therapy in indolent lymphoma and MCL |
-| [40311141](https://pubmed.ncbi.nlm.nih.gov/40311141/) | 2025 | RCT | J Clin Oncol | Acalabrutinib plus BR in untreated MCL. Ibrutinib plus BR prolonged PFS without an OS gain, likely because of toxicity, and acalabrutinib is less toxic |
-| [30811293](https://pubmed.ncbi.nlm.nih.gov/30811293/) | 2019 | RCT follow-up | J Clin Oncol | BRIGHT 5-year follow-up of BR vs R-CHOP/R-CVP in indolent NHL and MCL |
-| [24591201](https://pubmed.ncbi.nlm.nih.gov/24591201/) | 2014 | RCT (Phase 3) | Blood | BRIGHT primary report: non-inferiority of BR vs standard rituximab-chemotherapy in treatment-naive indolent NHL or MCL |
-| [41052510](https://pubmed.ncbi.nlm.nih.gov/41052510/) | 2025 | RCT (Phase 2/3) | Lancet | ENRICH: ibrutinib-rituximab vs standard immunochemotherapy (R-CHOP or BR) in untreated MCL, age 60 and over |
-| [40975105](https://pubmed.ncbi.nlm.nih.gov/40975105/) | 2025 | Phase 2 | Lancet Haematol | FIL_V-RBAC: venetoclax added to rituximab-bendamustine-cytarabine in older high-risk MCL |
-| [32126141](https://pubmed.ncbi.nlm.nih.gov/32126141/) | 2020 | Phase 2 (pooled) | Blood Adv | Rituximab/bendamustine alternating with rituximab/cytarabine induction before autologous transplant in transplant-eligible MCL |
+| [23433739](https://pubmed.ncbi.nlm.nih.gov/23433739/) | 2013 | RCT (Phase 3) | Lancet | BR was non-inferior to R-CHOP as first-line treatment in indolent and mantle cell lymphomas |
+| [30811293](https://pubmed.ncbi.nlm.nih.gov/30811293/) | 2019 | RCT follow-up | J Clin Oncol | BRIGHT 5-year follow-up of BR vs R-CHOP/R-CVP in indolent NHL or MCL |
+| [24591201](https://pubmed.ncbi.nlm.nih.gov/24591201/) | 2014 | Randomised trial | Blood | BRIGHT study: BR vs standard rituximab-chemotherapy in treatment-naïve patients |
+| [35657079](https://pubmed.ncbi.nlm.nih.gov/35657079/) | 2022 | RCT | N Engl J Med | Ibrutinib plus BR followed by rituximab maintenance in older untreated MCL patients |
+| [40311141](https://pubmed.ncbi.nlm.nih.gov/40311141/) | 2025 | RCT | J Clin Oncol | Acalabrutinib plus BR in untreated MCL |
+| [41052510](https://pubmed.ncbi.nlm.nih.gov/41052510/) | 2025 | RCT (Phase 2/3) | Lancet | ENRICH: ibrutinib-rituximab vs immunochemotherapy (R-CHOP or BR) in untreated MCL aged 60 and older |
+| [32985902](https://pubmed.ncbi.nlm.nih.gov/32985902/) | 2021 | RCT protocol | Future Oncol | Phase 3 design of zanubrutinib plus rituximab vs BR in transplant-ineligible MCL |
+| [32126141](https://pubmed.ncbi.nlm.nih.gov/32126141/) | 2020 | Cohort | Blood Adv | Rituximab/bendamustine then rituximab/cytarabine induction in transplant-eligible MCL |
 | [41132246](https://pubmed.ncbi.nlm.nih.gov/41132246/) | 2025 | Guideline | HemaSphere | EHA-EU MCL network guidelines for diagnosis and treatment |
-| [41380101](https://pubmed.ncbi.nlm.nih.gov/41380101/) | 2026 | Retrospective | Blood Adv | Multicenter US/Canada analysis (911 patients) of whether rituximab maintenance after first-line BR is beneficial |
+| [26755518](https://pubmed.ncbi.nlm.nih.gov/26755518/) | 2016 | Review | J Clin Oncol | Review noting the benefit of maintenance rituximab and bendamustine in older MCL patients |
 
 ---
 
 ## Canada Market Information
 
-5 of the 11 authorizations are shown.
+Health Canada lists 11 valid single-ingredient authorisations. Dosage form and approved-indication text are not available in the records compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 2496852 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION |
-| 2496895 | NAT-BENDAMUSTINE |
-| 2496887 | NAT-BENDAMUSTINE |
-| 2509261 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION |
-| 2392569 | TREANDA |
-
-The license records supplied do not include dosage form or approved indication text, so the Health Canada label status for MCL still needs to be confirmed.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02496852 | Bendamustine Hydrochloride for Injection | Not available | Not available |
+| 02496895 | NAT-Bendamustine | Not available | Not available |
+| 02392569 | Treanda | Not available | Not available |
+| 02524309 | Benvyon | Not available | Not available |
+| 02509261 | Bendamustine Hydrochloride for Injection | Not available | Not available |
 
 ---
 
@@ -122,20 +115,19 @@ The license records supplied do not include dosage form or approved indication t
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions. A trial of the R-BAC regimen (bendamustine + cytarabine + rituximab) reported relevant hematological toxicity, especially in previously treated and older patients (NCT01662050) |
+| Myelosuppression Risk | High (the knowledge graph links bendamustine to neutropenia, thrombocytopenia, anaemia and agranulocytosis) |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count with differential, plus liver and renal function |
-| Handling Protection | Follow institutional cytotoxic drug handling regulations |
+| Monitoring Items | CBC with differential, liver and renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / disease associations (knowledge graph, not label text)**: liver failure, liver disease, kidney disease, gallbladder disease, pyoureter, thrombocytopenia, neutropenia, agranulocytosis, anaemia and macrocytic anaemia.
+- **Drug Interactions**: 100 interactions were identified. Major-level interactions include **deferiprone** and **samarium (153Sm) lexidronam**, both of which carry additive haematological toxicity concerns. Moderate-level interactions include omeprazole, esomeprazole, cimetidine, caffeine, deferasirox, mercaptopurine, ticlopidine, chloramphenicol, albendazole and roflumilast, among others.
 
-Signals from the supplied evidence:
-- Adding ibrutinib to BR prolonged progression-free survival without an overall survival benefit, which the investigators attributed to likely toxicity (PMID 40311141).
-- Immunosuppression from bendamustine may raise the risk of infection and second primary malignancy. This is a guardrail noted in the evidence pack, not a quantified finding for MCL.
+Package insert warnings and contraindications have not yet been obtained. Please refer to the package insert for full safety information.
 
 ---
 
@@ -144,13 +136,30 @@ Signals from the supplied evidence:
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-At least three completed Phase 3 randomized trials (BRIGHT, the StiL non-inferiority study, and the BR vs fludarabine-rituximab trial) included MCL patients treated with BR. Multiple Phase 2 studies and guidelines add support. Because most of this evidence is in mixed indolent NHL/MCL populations or uses BR as a backbone, and the label and safety data are incomplete, a full "Go" is not yet justified.
+Multiple completed Phase 3 randomised trials (BRIGHT, the StiL trial and the ibrutinib add-on study) and several large ongoing Phase 3 studies support bendamustine-rituximab in mantle cell lymphoma. These results are consistent with the evidence level of L1. The remaining concerns are significant myelosuppression and the lack of label-level safety data.
 
 **To proceed, the following is needed:**
-- Confirm the Health Canada label status for MCL, since the license records supplied have no indication text
-- Obtain the package insert warnings and contraindications from Health Canada, which are the blocking safety gap
-- Obtain the formal mechanism-of-action entry from DrugBank
-- Review long-term safety (infection, second malignancy) and current local treatment guidelines for MCL
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Confirmation of the approved indications and dosage forms for the Canadian DINs, including whether mantle cell lymphoma is already on-label
+- Detailed mechanism of action data
+- A haematological monitoring plan and dose-adjustment guidance for patients with hepatic or renal impairment
+- A review of the Major drug interactions before co-prescribing
+
+---
+
+## Other Predicted Indications (Brief)
+
+| Rank | Predicted Indication | Evidence Level | Recommendation |
+|------|------|------|------|
+| 9 | MALT lymphoma | L2 | Proceed with Guardrails (Phase 2 BR trial, n=60; supporting real-world series) |
+| 3 | Hodgkin lymphoma | L2 | Research Question (early-phase combination studies only) |
+| 4 | Small intestinal Burkitt lymphoma | L3 | Research Question |
+| 5 | Small intestinal MALT lymphoma | L3 | Research Question |
+| 2 | CML, BCR-ABL1 positive | L4 | Hold (tyrosine kinase inhibitors are standard; no CML efficacy data) |
+| 7 | Breast MALT lymphoma | L4 | Hold |
+| 8 | Tonsillar lymphoma | L4 | Hold |
+| 6 | Thyroid MALT lymphoma | L5 | Hold (model prediction only) |
+| 10 | Relapsing-remitting multiple sclerosis | L5 | Hold (no data; myelosuppression and malignancy risk are a poor safety fit) |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

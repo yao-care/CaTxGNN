@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Glutamic Acid
-parent: Moderate Evidence (L3-L4)
-nav_order: 433
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 436
+evidence_level: L5
 indication_count: 4
 ---
 
 # Glutamic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,101 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Glutamic Acid: From Parenteral Nutrition Component to Postmenopausal Osteoporosis
+# Glutamic Acid: From Parenteral Nutrition Amino Acid Component to Postmenopausal Osteoporosis
 
 ## One-Sentence Summary
 
-Glutamic acid is an amino acid. In Canada it appears in parenteral nutrition products (PROSOL, OLIMEL, PRIMENE, PERIOLIMEL), though the evidence pack gives no approved indication text.
-The TxGNN model predicts it may be effective for **postmenopausal osteoporosis**, but the support is weak: **1 clinical trial** (which does not appear to test glutamic acid) and **10 publications** (mostly indirect or preclinical).
+Glutamic acid is an amino acid that is marketed in Canada as a component of parenteral nutrition products. The TxGNN model predicts it may be effective for **postmenopausal osteoporosis**, but there are currently **0 clinical trials** and only **indirect or preclinical literature** behind this prediction. In practice, this is a model-generated research question, not an evidence-backed candidate.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the evidence pack (product names suggest parenteral nutrition) |
+| Original Indication | Not stated in the available license data (marketed in Canada as a component of parenteral nutrition products) |
 | Predicted New Indication | Postmenopausal osteoporosis |
 | TxGNN Prediction Score | 99.34% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (preclinical and mechanistic data only; no clinical studies of glutamic acid itself) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 7 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Glutamic acid is a proteinogenic amino acid and neurotransmitter. It is marketed in Canada as a component of amino acid solutions, but no approved indication text was supplied.
+Detailed mechanism of action data is not currently available for this drug. Glutamic acid is a naturally occurring amino acid and also acts as an excitatory neurotransmitter and a precursor of GABA. In Canada it is marketed as an ingredient of amino acid and parenteral nutrition solutions, and its efficacy as a nutritional component, not as a bone treatment, is the basis for its use.
 
-A plausible but unproven link exists. Glutamate receptors (NMDA/AMPA) and transporters are expressed in osteoblasts and osteoclasts, and glutamate signaling has been proposed to influence bone remodeling. One preclinical study in ovariectomized mice reported that glutamic acid improved estrogen-deficiency-related symptoms.
+The link to osteoporosis is indirect. Glutamate signalling has been described in bone cells (osteoblasts and osteoclasts). Glutamate residues in vitamin K-dependent proteins such as osteocalcin also undergo gamma-carboxylation, which is relevant to bone metabolism. One preclinical study in ovariectomized mice reported that glutamic acid reduced estrogen-deficiency-induced menopausal-like symptoms. However, none of this shows that giving glutamic acid affects bone density or fracture risk in humans. Many of the retrieved papers are about vitamin K2, vitamin D3 or bisphosphonates, not glutamic acid itself.
 
-Human evidence is thin. The closest human study used poly-gamma-glutamic acid, a different compound, and looked only at acute calcium absorption. Several other retrieved papers mention glutamic acid residues only in the context of vitamin K-dependent carboxylation. No study tests glutamic acid itself for fracture risk or bone mineral density in postmenopausal women.
+The other predicted indications are weaker still:
+- **Pregnancy-associated osteoporosis** (score 99.18%): no trials or literature; likely driven by network similarity to other osteoporosis entities, and pregnancy adds a safety constraint.
+- **Primary hereditary glaucoma** (score 99.13%): no trials or literature; glutamate excitotoxicity of retinal ganglion cells is a recognized hypothesis in glaucoma, which argues against rather than for supplementation.
+- **Gastroparesis** (score 99.11%): the retrieved papers concern antibodies to glutamic acid decarboxylase (GAD65), a different molecule, so this is probably a name-similarity artifact.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00048061](https://clinicaltrials.gov/study/NCT00048061) | Phase 3 | Completed | 1609 | Monthly oral ibandronate (100 mg, 150 mg) vs daily 2.5 mg in postmenopausal osteoporosis, with vitamin D and calcium supplementation. The intervention is an approved osteoporosis drug, not glutamic acid, so the link needs verification. It cannot count as direct evidence. |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Abstracts in the pack are truncated, so the findings below are limited to what was provided. Study types follow the pack's classification.
+No randomized trial of glutamic acid in postmenopausal osteoporosis was found. The table lists the most relevant retrieved publications, and most of them do not test glutamic acid.
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [19172219](https://pubmed.ncbi.nlm.nih.gov/19172219/) | 2009 | Randomized prospective study (n=109) | J Bone Miner Metab | Menatetrenone (vitamin K2) vs calcium aspartate for 6 months. Vitamin K2 increased osteocalcin gamma-carboxylation with a moderate rise in bone turnover. Not a glutamic acid study. |
-| [14529146](https://pubmed.ncbi.nlm.nih.gov/14529146/) | 2003 | Review | Keio J Med | Vitamin D3 and/or vitamin K2 in postmenopausal osteoporosis. Vitamin K2 enhances gamma-carboxylation of bone glutamic acid residues. |
-| [14584089](https://pubmed.ncbi.nlm.nih.gov/14584089/) | 2003 | Clinical study | Yonsei Med J | Combined vitamin K2 and bisphosphonate treatment in postmenopausal osteoporosis. |
-| [18187428](https://pubmed.ncbi.nlm.nih.gov/18187428/) | 2007 | Small human crossover study | J Am Coll Nutr | Acute effect of poly-gamma-glutamic acid on calcium absorption in postmenopausal women. Indirect, since this is a different compound. |
-| [26144993](https://pubmed.ncbi.nlm.nih.gov/26144993/) | 2015 | Preclinical (mouse) | Nutr Res | Glutamic acid ameliorated estrogen-deficiency-induced menopausal-like symptoms in ovariectomized mice. |
-| [29437025](https://pubmed.ncbi.nlm.nih.gov/29437025/) | 2018 | Case-control genetic study | Endocr Metab Immune Disord Drug Targets | VKORC1 -1639G>A polymorphism and osteoporosis in postmenopausal women. Vitamin K acts via gamma-carboxylation of glutamic acid residues. |
-| [18414001](https://pubmed.ncbi.nlm.nih.gov/18414001/) | 2008 | Genetic association | Mol Cells | SLC22A11 (hOAT4) polymorphisms in Korean women with osteoporosis. |
-| [34529430](https://pubmed.ncbi.nlm.nih.gov/34529430/) | 2021 | Preclinical (drug delivery) | Nano Lett | Bone-targeting polymer vesicles using a polyglutamic acid backbone to deliver estradiol. Glutamic acid is a material component here, not the active drug. |
-| [39698319](https://pubmed.ncbi.nlm.nih.gov/39698319/) | 2024 | Preclinical (animal, herbal) | Front Cell Infect Microbiol | Zhuanggu Shubi ointment and the gut bacteria–mucosal barrier–bone metabolism axis. Not related to glutamic acid. |
-| [40950804](https://pubmed.ncbi.nlm.nih.gov/40950804/) | 2025 | Cohort (metabolomics) | J Diabetes Metab Disord | Amino acid profiles, aging and sex hormones in elderly Iranians. Indirect. |
+|------|-----|------|------|---------|
+| [26144993](https://pubmed.ncbi.nlm.nih.gov/26144993/) | 2015 | Preclinical (ovariectomized mice) | Nutrition Research | Glutamic acid ameliorated estrogen-deficiency-induced menopausal-like symptoms in mice; the only study that directly tests glutamic acid |
+| [18187428](https://pubmed.ncbi.nlm.nih.gov/18187428/) | 2007 | Clinical (small acute study) | J Am Coll Nutr | Poly-gamma-glutamic acid (a different compound) and calcium absorption in post-menopausal women |
+| [34529430](https://pubmed.ncbi.nlm.nih.gov/34529430/) | 2021 | Preclinical (drug delivery) | Nano Letters | Bone-targeting polymer vesicles containing glutamic acid units used to deliver estradiol; glutamic acid is a structural material, not the active drug |
+| [19172219](https://pubmed.ncbi.nlm.nih.gov/19172219/) | 2009 | Randomized prospective study | J Bone Miner Metab | Menatetrenone (vitamin K2) increased osteocalcin gamma-carboxylation in 109 postmenopausal patients; not a glutamic acid study |
+| [14529146](https://pubmed.ncbi.nlm.nih.gov/14529146/) | 2003 | Review | Keio J Med | Vitamin D3 and/or K2 treatment for postmenopausal osteoporosis; not a glutamic acid study |
+| [14584089](https://pubmed.ncbi.nlm.nih.gov/14584089/) | 2003 | Clinical/Review | Yonsei Med J | Vitamin K2 combined with bisphosphonates; not a glutamic acid study |
+| [29437025](https://pubmed.ncbi.nlm.nih.gov/29437025/) | 2018 | Genetic association | Endocr Metab Immune Disord Drug Targets | VKORC1 polymorphism and osteoporosis in postmenopausal women |
+| [40950804](https://pubmed.ncbi.nlm.nih.gov/40950804/) | 2025 | Observational metabolomics | J Diabetes Metab Disord | Amino acid profiles, aging and sex hormones in elderly Iranian adults |
+
+---
 
 ## Canada Market Information
 
-The evidence pack lists 7 licenses in total and details 5. Dosage form and approved indication text were not provided for any of them.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02141450 | 20% PROSOL | Not specified | Not specified |
+| 02352540 | OLIMEL 5.7% | Not specified | Not specified |
+| 02236875 | PRIMENE 10% | Not specified | Not specified |
+| 02477947 | OLIMEL 7.6% | Not specified | Not specified |
+| 02352494 | PERIOLIMEL 2.5% E | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02141450 | 20% PROSOL |
-| 02352540 | OLIMEL 5.7% |
-| 02236875 | PRIMENE 10% |
-| 02477947 | OLIMEL 7.6% |
-| 02352494 | PERIOLIMEL 2.5% E |
+Two further authorizations (OLIMEL 7.6% E, DIN 02477955, and OLIMEL 5.7% E, DIN 02352532) are also valid, bringing the total to 7 single-ingredient DINs.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (drug-disease relationships in the TxGNN knowledge graph, not label text): kidney disease (including chronic kidney disease, chronic renal failure and end stage renal failure), nephrolithiasis and nephrocalcinosis, hypercalcemia-related conditions (hypercalcemia, humoral hypercalcemia of malignancy, hyperparathyroidism, osteitis fibrosa, sarcoidosis), phosphorus metabolism disease, heart disease and cardiovascular disease, digitalis poisoning, ventricular fibrillation, acute urate nephropathy, phenylketonuria and other disorders of phenylalanine metabolism.
+- **Drug interactions** (5 moderate-level interactions): amphetamine, benzphetamine, dextroamphetamine, lisdexamfetamine and metamfetamine.
+- **Indication-specific concerns**: glutamate excitotoxicity is a potential concern in glaucoma, and use in pregnancy would need a dedicated safety assessment.
+
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.34%), but no study tests glutamic acid for postmenopausal osteoporosis. The only registered trial evaluates ibandronate, and the supporting papers are indirect, preclinical, or about other compounds such as vitamin K2 and poly-gamma-glutamic acid. This currently stands as a research question rather than an actionable candidate.
-
-The other predictions are weaker still:
-- **Pregnancy-associated osteoporosis** (99.18%, L5): model prediction only. Pregnancy adds safety and ethical barriers.
-- **Primary hereditary glaucoma** (99.13%, L5): no evidence, and the direction is a concern because glutamate excitotoxicity is implicated in retinal ganglion cell death. It is likely a false positive.
-- **Gastroparesis** (99.11%, L5): the only directly relevant trial (monosodium glutamate in children) was withdrawn with 0 participants.
+The high TxGNN score is not backed by any clinical trial or human study of glutamic acid in postmenopausal osteoporosis. The only direct evidence is one mouse study, and most retrieved papers concern vitamin K2, vitamin D3 or bisphosphonates. The kidney, calcium-metabolism and cardiovascular signals in the knowledge graph also overlap with an older osteoporosis population.
 
 **To proceed, the following is needed:**
-- Verify the intervention arms of NCT00048061 to confirm whether glutamic acid is involved at all
-- Human or well-designed preclinical bone studies of glutamic acid itself (bone mineral density, fracture, bone turnover markers)
-- Mechanism of action data from DrugBank
-- Health Canada package insert warnings and contraindications, plus approved indication text and dosage forms for the listed DINs
-- Route and formulation compatibility assessment (current Canadian products appear to be parenteral nutrition solutions)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- The Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Detailed mechanism of action data (for example from DrugBank)
+- Preclinical bone studies (bone density, bone turnover markers, fracture endpoints) that test glutamic acid directly
+- A review of whether oral or parenteral dosing is feasible and how the bone-relevant exposure would be achieved, given that current Canadian products are parenteral nutrition solutions
+- A safety assessment for renal impairment, hypercalcemia-related conditions and cardiovascular disease, which the knowledge graph flags as contraindication signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

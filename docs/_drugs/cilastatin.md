@@ -2,7 +2,7 @@
 layout: default
 title: Cilastatin
 parent: Moderate Evidence (L3-L4)
-nav_order: 191
+nav_order: 193
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cilastatin: From Imipenem Combination Partner to Staphylococcus aureus Infection
+# Cilastatin: From Bacterial Pneumonia to Staphylococcus aureus Infection
 
 ## One-Sentence Summary
 
-Cilastatin is a renal dehydropeptidase-I inhibitor with no antibacterial activity of its own. It is marketed only in fixed combination with the carbapenem imipenem.
-The TxGNN model predicts it may be effective for ***Staphylococcus aureus* infection**, with **3 clinical trials** and **20 publications** retrieved. None of the trials tests a cilastatin-containing regimen against S. aureus directly, and any anti-staphylococcal effect would come from imipenem, not cilastatin.
+Cilastatin is a dehydropeptidase-1 inhibitor co-formulated with the carbapenem antibiotic imipenem. It is used in bacterial and streptococcal pneumonia, endocarditis, peritonitis and related infections.
+The TxGNN model predicts it may be effective for ***Staphylococcus aureus* infection**, with **1 clinical trial** and **20 publications** currently on record. The evidence is indirect, because any antibacterial effect comes from imipenem rather than cilastatin itself.
 
 ---
 
@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for ***Staphylococcus aureus* infec
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records. Used as the dehydropeptidase-I inhibitor partner of imipenem in antibacterial therapy |
+| Original Indication | Bacterial pneumonia (also peritonitis, streptococcal pneumonia, endocarditis, bacterial arthritis, endometritis) |
 | Predicted New Indication | Staphylococcus aureus infection |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L3 |
@@ -54,9 +54,11 @@ The TxGNN model predicts it may be effective for ***Staphylococcus aureus* infec
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Based on known information, cilastatin inhibits renal dehydropeptidase-I. This stops imipenem from being broken down in the kidney and raises its urinary recovery. It has no intrinsic antibacterial activity.
+Cilastatin inhibits dehydropeptidase-1 (DHP-1), a kidney enzyme that breaks down imipenem. It has no antibacterial activity of its own. By blocking DHP-1, it keeps imipenem active and raises the drug's exposure in the body. It is sold only in fixed-dose combination with imipenem.
 
-Imipenem/cilastatin showed activity against methicillin-susceptible S. aureus (MSSA) in older clinical and experimental studies from 1986 to 1988. Activity against methicillin-resistant S. aureus (MRSA) is limited, and the pair is mainly used as a combination partner. The high TxGNN score most likely reflects the imipenem/cilastatin pair in the knowledge graph rather than a cilastatin-specific mechanism.
+*S. aureus* is a common cause of pneumonia, endocarditis, and skin, soft-tissue and bone infections. These are the same infection types already covered by the imipenem/cilastatin indications. That overlap likely explains the high model score. Older clinical reports describe imipenem/cilastatin in infections caused by methicillin-sensitive and methicillin-resistant *S. aureus* (MSSA and MRSA). They include combinations with fosfomycin, arbekacin or vancomycin.
+
+The prediction therefore reflects the established imipenem/cilastatin combination, not an independent effect of cilastatin. Imipenem is also only bacteriostatic against many MRSA isolates in vitro, and one animal study found it less active than newer agents against MRSA.
 
 ---
 
@@ -64,9 +66,7 @@ Imipenem/cilastatin showed activity against methicillin-susceptible S. aureus (M
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01356472](https://clinicaltrials.gov/study/NCT01356472) | Phase 4 | Unknown | 60 | Linezolid alone or with a carbapenem against MRSA in ventilator-associated pneumonia. The carbapenem is not confirmed to be imipenem/cilastatin. |
-| [NCT00707239](https://clinicaltrials.gov/study/NCT00707239) | Phase 2 | Terminated | 108 | Tigecycline (2 doses) vs imipenem/cilastatin in hospital-acquired pneumonia. S. aureus is not the focus. |
-| [NCT03583333](https://clinicaltrials.gov/study/NCT03583333) | Phase 3 | Completed | 274 | Imipenem/cilastatin/relebactam vs piperacillin/tazobactam in hospital-acquired or ventilator-associated bacterial pneumonia. The link to S. aureus needs to be verified. |
+| [NCT01356472](https://clinicaltrials.gov/study/NCT01356472) | Phase 4 | Unknown | 60 | Linezolid alone or combined with a carbapenem against MRSA in ventilator-associated pneumonia. The carbapenem is not confirmed to be imipenem/cilastatin, so the evidence is indirect. |
 
 ---
 
@@ -74,31 +74,36 @@ Imipenem/cilastatin showed activity against methicillin-susceptible S. aureus (M
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3460521](https://pubmed.ncbi.nlm.nih.gov/3460521/) | 1986 | Clinical study | Antimicrob Agents Chemother | Imipenem-cilastatin evaluated in 23 patients (11 MRSA, 12 MSSA) with soft tissue, endovascular and skeletal infections. |
-| [8072190](https://pubmed.ncbi.nlm.nih.gov/8072190/) | 1994 | Clinical study | Jpn J Antibiot | Arbekacin plus imipenem/cilastatin gave lower MICs against MRSA than either drug alone. |
-| [33020155](https://pubmed.ncbi.nlm.nih.gov/33020155/) | 2020 | Case commentary | Antimicrob Agents Chemother | Imipenem/cilastatin plus fosfomycin used as a novel combination for refractory MRSA infection. |
-| [3378959](https://pubmed.ncbi.nlm.nih.gov/3378959/) | 1988 | Animal study | J Antimicrob Chemother | In rabbit MRSA endocarditis, imipenem-cilastatin outperformed vancomycin on some measures. In vitro, imipenem was only bacteriostatic. |
-| [10588305](https://pubmed.ncbi.nlm.nih.gov/10588305/) | 1999 | Preclinical | J Antimicrob Chemother | Vancomycin plus imipenem was synergistic against 34 of 36 MRSA isolates, with confirmation in a neutropenic mouse model. |
-| [8514648](https://pubmed.ncbi.nlm.nih.gov/8514648/) | 1993 | Preclinical | J Antimicrob Chemother | Imipenem/cilastatin plus cefotiam was synergistic against MRSA in a mouse bacteraemia model. |
-| [12878512](https://pubmed.ncbi.nlm.nih.gov/12878512/) | 2003 | Preclinical | Antimicrob Agents Chemother | In a mouse MRSA infection model, imipenem-cilastatin was less active than vancomycin (used as a comparator for a new cephalosporin). |
-| [3859208](https://pubmed.ncbi.nlm.nih.gov/3859208/) | 1985 | Open-label trial | Am J Med | Imipenem/cilastatin in 43 adults with bacterial pneumonia. Only indirectly relevant to S. aureus. |
-| [22196394](https://pubmed.ncbi.nlm.nih.gov/22196394/) | 2012 | Review | Int J Antimicrob Agents | Review of MRSA pathogenesis, treatment and resistance. |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | Off-label vs formal recommendations of antibiotics for multidrug-resistant infections, including MRSA. |
+| [3460521](https://pubmed.ncbi.nlm.nih.gov/3460521/) | 1986 | Clinical study | Antimicrob Agents Chemother | Imipenem-cilastatin evaluated in 23 patients with MSSA (12) or MRSA (11) infections, mainly soft tissue, endovascular and skeletal. |
+| [33020155](https://pubmed.ncbi.nlm.nih.gov/33020155/) | 2020 | Case commentary | Antimicrob Agents Chemother | Imipenem/cilastatin plus fosfomycin as a novel combination for refractory MRSA infection. |
+| [3859210](https://pubmed.ncbi.nlm.nih.gov/3859210/) | 1985 | Clinical study | Am J Med | 17 patients with bacterial endocarditis (14 intravenous drug users) treated with imipenem/cilastatin 500 mg every 6 hours. |
+| [3378959](https://pubmed.ncbi.nlm.nih.gov/3378959/) | 1988 | Animal study | J Antimicrob Chemother | In a rabbit model of MRSA aortic valve endocarditis, imipenem-cilastatin showed better efficacy than vancomycin on the study's criteria. |
+| [8072190](https://pubmed.ncbi.nlm.nih.gov/8072190/) | 1994 | Clinical/in vitro study | Jpn J Antibiot | Arbekacin plus imipenem/cilastatin gave lower MICs against MRSA than the individual agents. |
+| [10588305](https://pubmed.ncbi.nlm.nih.gov/10588305/) | 1999 | In vitro / animal study | J Antimicrob Chemother | Vancomycin plus imipenem was synergistic or additive against all 36 MRSA isolates and was also tested in a neutropenic mouse model. |
+| [22196394](https://pubmed.ncbi.nlm.nih.gov/22196394/) | 2012 | Review | Int J Antimicrob Agents | Review of MRSA pathogenesis, treatment trials and resistance. |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | Off-label versus recommended antibiotic use in multidrug-resistant infections, including MRSA. |
+| [3890533](https://pubmed.ncbi.nlm.nih.gov/3890533/) | 1985 | Review | Am J Med | Pathogenesis and treatment of endocarditis, including the rabbit model and imipenem's broad spectrum. |
+| [18649613](https://pubmed.ncbi.nlm.nih.gov/18649613/) | 2008 | Review | Am Fam Physician | Diabetic foot infection, in which *S. aureus* is a leading pathogen. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 2351706 | TARO-IMIPENEM-CILASTATIN | Not specified | Not specified |
-| 2358344 | IMIPENEM AND CILASTATIN FOR INJECTION USP | Not specified | Not specified |
+| DIN | Product Name |
+|---------|------|
+| 02351706 | TARO-IMIPENEM-CILASTATIN |
+| 02358344 | IMIPENEM AND CILASTATIN FOR INJECTION USP |
+
+Both are single-ingredient products with valid status.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Disease-level contraindication signals:** The data compiled for this report flag epilepsy, kidney disease, pyoureter, *Clostridium difficile* colitis and perinatal necrotizing enterocolitis. These come from knowledge-graph associations rather than label text, so they need confirmation against the product monograph.
+- **Reported adverse reaction:** One case report (PMID 9158321) describes imipenem-cilastatin-induced leukocytoclastic vasculitis with a maculopapular rash.
+
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -107,13 +112,13 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The evidence for S. aureus is indirect. It consists of small, dated clinical studies from 1986 to 1994, animal and in vitro work, and a case commentary. There is no controlled trial in S. aureus infection. Any effect would come from imipenem, and MRSA activity is limited. The TxGNN score reflects the imipenem/cilastatin pair rather than a cilastatin-specific mechanism.
+The *S. aureus* prediction rests on indirect evidence. The single trial does not isolate imipenem/cilastatin, and the supporting literature is mostly old small clinical series, case reports, animal work and reviews. Cilastatin has no antibacterial activity of its own, so this is not a true repurposing signal for cilastatin. The data compiled for this report show the stronger evidence is for pneumonia, which is already a labeled use. That evidence includes several completed Phase 3 trials of imipenem/cilastatin/relebactam in hospital-acquired and ventilator-associated pneumonia. Those results support the established combination, not a new indication for cilastatin.
 
 **To proceed, the following is needed:**
-- Verify the registry records of NCT01356472, NCT00707239 and NCT03583333 to confirm whether their arms contain imipenem/cilastatin and whether S. aureus is an analysed pathogen
-- Obtain the Health Canada package insert to fill in the approved indications, dosage forms, warnings and contraindications
-- Obtain DrugBank mechanism of action data
-- Give priority to pneumonia. Phase 3 RCTs of imipenem/cilastatin-based regimens already exist there (e.g. NCT02493764, RESTORE-IMI 2), but that is an established use of the combination and not a new repurposing signal
+- Product monograph warnings and contraindications for the Canadian products, which are currently missing
+- Controlled clinical data on imipenem/cilastatin specifically in *S. aureus* (especially MRSA) infection
+- Comparison with current standard anti-staphylococcal therapy, since imipenem is not a first-line anti-MRSA agent
+- Clarification of whether the question concerns the imipenem/cilastatin combination or cilastatin alone
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,15 +2,15 @@
 layout: default
 title: Pyridostigmine
 parent: Moderate Evidence (L3-L4)
-nav_order: 778
-evidence_level: L4
+nav_order: 785
+evidence_level: L3
 indication_count: 7
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Pyridostigmine: From Established Myasthenia Gravis Symptomatic Therapy to Myasthenia Gravis with Thymus Hyperplasia
+# Pyridostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
 
 ## One-Sentence Summary
 
-Pyridostigmine is a cholinesterase inhibitor marketed in Canada, and the literature in this pack describes it as standard symptomatic treatment for myasthenia gravis. The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**. There are currently **0 clinical trials** and **3 publications** for this specific indication (a review, a cohort study and a case report), and none tests pyridostigmine directly.
+Pyridostigmine is an acetylcholinesterase inhibitor originally used to treat myasthenia gravis and related neuromuscular junction disease.
+The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, which is essentially a subtype of the approved indication rather than a true new use.
+Currently there are **no registered clinical trials** and **3 publications** (one review, one case report and one cohort study) supporting this direction.
 
 ---
 
@@ -41,30 +43,27 @@ Pyridostigmine is a cholinesterase inhibitor marketed in Canada, and the literat
 
 | Item | Content |
 |------|------|
+| Original Indication | Myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L4 |
+| Evidence Level | L3 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
-| Recommended Decision | Hold |
-
-The supplied Canadian licence records contain no approved-indication text, so the original indication cannot be quoted from the regulatory data.
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Based on general pharmacology, pyridostigmine is a reversible acetylcholinesterase inhibitor. It slows the breakdown of acetylcholine at the neuromuscular junction, so more acetylcholine is available. In myasthenia gravis, autoantibodies reduce the number of functional acetylcholine receptors (AChR) or disrupt MuSK signalling, and extra acetylcholine can partly offset this.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pyridostigmine is a reversible acetylcholinesterase inhibitor. By slowing the breakdown of acetylcholine, it raises acetylcholine levels at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis.
 
-Thymic hyperplasia is a common pathological feature of AChR-antibody-positive myasthenia gravis, especially in younger patients. The predicted indication is therefore a subgroup of the disease in which symptomatic cholinesterase inhibition is already used. This is a mechanistic extrapolation, not tested evidence. The supplied literature covers thymectomy outcomes and disease phenotype, and none of it tests pyridostigmine in the thymic-hyperplasia subgroup.
-
-One of the three papers is a case of MuSK-positive myasthenia with thymic hyperplasia. Pyridostigmine response is questionable in MuSK disease (see Safety Considerations), so the benefit may depend on antibody subtype.
+Thymic hyperplasia is a common feature of myasthenia gravis with acetylcholine receptor (AChR) antibodies. The predicted indication is therefore a subtype of the approved indication, so this is not true repurposing. The supporting literature is observational: a case of MuSK-positive MG with thymic hyperplasia and a cohort on thymectomy outcomes. None tests pyridostigmine specifically in this subgroup.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
+Currently no related clinical trials registered.
 
 ---
 
@@ -72,57 +71,50 @@ Currently no related clinical trials registered for this indication.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Cohort | Journal of Neurology | Retrospective review of 39 patients with non-thymomatous, AChR-antibody-positive, late-onset generalized MG, looking at 2-year outcomes after thymectomy. It does not evaluate pyridostigmine. |
-| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Review of genomic, phenotypic and epigenetic features of MG, including autoantibody types and autoimmunity. It provides background and does not test pyridostigmine. |
-| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case report | Neuromuscular Disorders | A MuSK-positive MG patient with thymic hyperplasia who had slowly progressive neck extensor weakness (dropped head syndrome). |
+| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Cohort | Journal of Neurology | Two-year outcomes of thymectomy in 39 patients with non-thymomatous, AChR-antibody-positive late-onset MG |
+| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Genomic, phenotypic and epigenetic insights into MG pathology and autoimmunity |
+| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case report | Neuromuscular Disorders | MuSK-positive MG with thymus hyperplasia presenting with dropped head syndrome |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 869953 | MESTINON-SR |
-| 869961 | MESTINON |
-| 2495643 | RIVA-PYRIDOSTIGMINE |
-| 2508362 | JAMP PYRIDOSTIGMINE BROMIDE |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00869953 | MESTINON-SR | Not listed | Not listed |
+| 00869961 | MESTINON | Not listed | Not listed |
+| 02495643 | RIVA-PYRIDOSTIGMINE | Not listed | Not listed |
+| 02508362 | JAMP PYRIDOSTIGMINE BROMIDE | Not listed | Not listed |
 
-Dosage form, manufacturer and approved-indication text are not populated in the supplied licence records.
+All four are valid single-ingredient products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related diseases (from the knowledge graph, not label text)**: kidney disease, pyoureter, asthma (including intrinsic and allergic asthma) and urinary tract obstruction.
+- **Drug Interactions**: 78 interactions were identified. The 20 listed in the data compiled for this report are all rated Moderate. They include:
+  - Corticosteroids: hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Anticholinergics and antispasmodics: atropine, scopolamine, hyoscyamine, glycopyrronium, dicyclomine, propantheline, trospium, methscopolamine, clidinium, mepenzolate
+  - Aminoglycosides: neomycin, kanamycin, paromomycin
 
-Points from the supplied literature to keep in mind:
-- **MuSK-positive myasthenia:** A mouse study reported that pyridostigmine worsened AChR loss and myasthenia induced by MuSK antibodies (PMID 23440963). A 2024 literature update also notes a large trial emphasizing negative effects of pyridostigmine in MuSK MG (PMID 39590927).
-- **Overuse:** A paper on anticholinesterase abuse in MG (PMID 6376715) flags overdose and cholinergic crisis as a concern.
-- **Pregnancy and neonates:** Safety in these groups needs a separate review.
-
-No drug-interaction records were found for this drug.
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The prediction score is high (99.76%), but this indication has no registered trials and only three supporting papers, none of which tests pyridostigmine. Pyridostigmine already has Canadian licences, but the supplied regulatory data does not state what they cover. The prediction is a research question, not an actionable repurposing candidate.
+Pyridostigmine is already marketed in Canada and is a standard symptomatic treatment for myasthenia gravis. The predicted indication is a subtype of that use, and the pyridostigmine-specific evidence for this subgroup is observational only. No trials are registered.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings, contraindications, approved indications)
+- Health Canada package insert warnings and contraindications, which are currently missing
 - Mechanism of action data from DrugBank
-- Studies of pyridostigmine response in thymic-hyperplasia MG, stratified by antibody status (AChR vs MuSK)
-- Confirmation of whether this subgroup is already covered by the existing myasthenia gravis indication
-
-**Other predictions in this pack:**
-- The broader category "autoimmune disease of peripheral nervous system" has the most coherent signal (L3, S1). Its two registered trials are observational and do not test pyridostigmine.
-- "Neonatal myasthenia gravis" has no registered trials. Its literature is mainly reviews on pregnancy and neonatal outcomes, and it needs a separate neonatal and pregnancy safety review.
-- "Disease of receptor activity", "hypersplenism" and "atypical hemolytic-uremic syndrome with B factor anomaly" are not supported by the evidence and should not be advanced.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Dosage form and approved indication details for the four Canadian licences
+- Review of the knowledge-graph contraindications (asthma, urinary tract obstruction, kidney disease) in the target patient group
+- Attention to MuSK-positive MG, where cholinesterase inhibitors may respond poorly or worsen symptoms
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

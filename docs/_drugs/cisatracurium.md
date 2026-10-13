@@ -2,7 +2,7 @@
 layout: default
 title: Cisatracurium
 parent: Model Prediction Only (L5)
-nav_order: 196
+nav_order: 198
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cisatracurium: From Anesthesia Adjunct (Neuromuscular Blockade) to Cauda Equina Syndrome
+# Cisatracurium: From Neuromuscular Blockade to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Cisatracurium is a nondepolarizing neuromuscular blocker used in anesthesia.
+Cisatracurium is a non-depolarizing neuromuscular blocker, used as a muscle relaxant during anesthesia and intensive care.
 The TxGNN model predicts it may be effective for **cauda equina syndrome**,
-but there are **0 clinical trials** and **0 publications** supporting this direction, and the pharmacology gives no plausible link. This is a graph-based prediction only.
-
----
+but **no clinical trials and no publications** currently support this direction. The prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records (the drug is a neuromuscular blocker used in anesthesia) |
+| Original Indication | Not specified in the Canadian license records |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -51,57 +49,61 @@ but there are **0 clinical trials** and **0 publications** supporting this direc
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Cisatracurium is a nondepolarizing neuromuscular blocker that antagonizes nicotinic acetylcholine receptors at the neuromuscular junction. It is given by injection in operating rooms and intensive care units to produce skeletal muscle relaxation. Detailed mechanism-of-action data was not available in the source record, so this description comes from the pharmacological assessment attached to the prediction.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, cisatracurium is a non-depolarizing neuromuscular blocker that acts on nicotinic acetylcholine receptors at the neuromuscular junction, relaxing skeletal muscle.
 
-Cauda equina syndrome is caused by compression of the lumbosacral nerve roots. Blocking neuromuscular transmission would not relieve that compression and would cause flaccid paralysis. We found no plausible mechanistic link between the original use and the predicted indication. The high TxGNN score reflects patterns in the knowledge graph, not biological or clinical evidence.
+A plausible therapeutic link to cauda equina syndrome is hard to find. Cauda equina syndrome is a compressive neurological emergency, usually treated by urgent surgical decompression. Blocking neuromuscular transmission does not relieve nerve root compression. The very high TxGNN score (99.99%, rank 254) reflects a pattern in the knowledge graph, not clinical or mechanistic support.
 
----
+Other predicted indications show the same pattern. For example, the preeclampsia-related literature describes cisatracurium only as part of anesthesia during cesarean section, not as treatment of the disease. Likewise, the thrombotic disease paper is about anesthesia for pediatric liver transplantation. These are peri-procedural uses, not new therapeutic indications.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for cauda equina syndrome.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for cauda equina syndrome.
 
----
+For reference, the second-ranked prediction, preeclampsia, has two loosely related papers on anesthesia during cesarean section:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41103680](https://pubmed.ncbi.nlm.nih.gov/41103680/) | 2025 | Cohort | Anesthesiology and Pain Medicine | Compared serum interleukin-6, leptin and adiponectin after cesarean section under general vs spinal anesthesia |
+| [18383970](https://pubmed.ncbi.nlm.nih.gov/18383970/) | 2008 | Case series | Revista Espanola de Anestesiologia y Reanimacion | Remifentanil bolus for hemodynamic control during cesarean section in 12 high-risk patients |
+
+Neither paper tests cisatracurium as a treatment for preeclampsia.
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2563266 | Cisatracurium Besylate Injection USP Multi-Dose | Not listed | Not listed |
-| 2408813 | Cisatracurium Besylate Injection USP Multidose | Not listed | Not listed |
-
----
+| 02563266 | Cisatracurium Besylate Injection USP Multi-Dose | Not listed | Not listed |
+| 02408813 | Cisatracurium Besylate Injection USP Multidose | Not listed | Not listed |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 61 interactions were recorded. The 20 reviewed include the following.
+  - **Major**: kanamycin, neomycin, paromomycin, polymyxin B, streptomycin. These are aminoglycoside and polypeptide antibiotics that may potentiate neuromuscular blockade.
+  - **Moderate**: amphotericin B (including lipid, cholesteryl sulfate and liposomal forms), doxycycline, minocycline, tetracycline, vancomycin, magnesium chloride, magnesium sulfate, mannitol, metoclopramide, topical neomycin.
+  - **Minor**: ranitidine, ranitidine (bismuth citrate).
+- Magnesium sulfate is especially relevant in obstetric settings such as preeclampsia, because it potentiates neuromuscular blockade.
 
-No drug-interaction records were found for this drug in the source data. Separately, magnesium sulfate, which is standard therapy in preeclampsia (another predicted indication), is known to potentiate neuromuscular blockers, so any obstetric anesthesia use needs monitoring.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications, and the pharmacology argues against benefit: neuromuscular blockade does not treat nerve-root compression. The other top-ranked predictions (for example preeclampsia, migraine, irritable bowel syndrome) are also L5 or weakly linked. The trials retrieved for preeclampsia and thrombotic disease study magnesium sulfate dosing and anesthesia techniques, not cisatracurium as a treatment.
+The prediction rests on model output alone (L5). There are no trials or supporting literature, and no plausible mechanism links neuromuscular blockade to cauda equina syndrome. The other nine predicted indications (including preeclampsia, migraine, irritable bowel syndrome and thrombotic disease) are also on Hold and show the same lack of mechanistic plausibility.
 
 **To proceed, the following is needed:**
-- A plausible mechanistic hypothesis, supported by preclinical data
-- Mechanism-of-action data from DrugBank
-- The approved indication text and Health Canada package insert warnings and contraindications
-- Evidence that a parenteral, hospital-only neuromuscular blocker could have any therapeutic role in the predicted condition
+- Health Canada package insert data (warnings, contraindications, approved indications)
+- Mechanism of action data from DrugBank
+- A credible biological rationale linking neuromuscular blockade to the predicted disease
+- Preclinical or clinical evidence specific to the predicted indication
+- Route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

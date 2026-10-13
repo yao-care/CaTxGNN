@@ -2,7 +2,7 @@
 layout: default
 title: Mepyramine
 parent: Moderate Evidence (L3-L4)
-nav_order: 586
+nav_order: 591
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Mepyramine: From a First-Generation Antihistamine to Allergic Urticaria
+# Mepyramine: From Allergic Rhinitis to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Mepyramine is a first-generation histamine H1 receptor antagonist, marketed in Canada in the Midol Complete and Midol PMS products.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but **0 clinical trials** and only **5 publications** support this, none of them human efficacy studies.
+Mepyramine is a first-generation antihistamine, originally used for allergic conditions such as allergic rhinitis, conjunctivitis, urticaria and angioedema.
+The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **no registered clinical trials**. The **4 publications** found are indirect (preclinical studies and one veterinary study), so the evidence is weak. Urticaria is also already a labeled use, so this is largely an on-label indication rather than true repurposing.
 
 ---
 
@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but **0
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records provided (the literature describes the drug class as relieving allergic reactions and urticaria) |
+| Original Indication | Allergic rhinitis (the Canadian license records contain no indication text; the original indications come from the TxGNN knowledge graph) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L4 |
@@ -54,16 +54,14 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but **0
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Mepyramine is a first-generation H1 antihistamine. Blocking the peripheral histamine H1 receptor is the established way to control the wheal and flare of histamine-mediated urticaria. The literature supplied describes this drug class as widely prescribed for allergic reactions and urticaria.
+Detailed mechanism of action data is not available in the compiled data. Based on known information, mepyramine is a first-generation histamine H1 receptor antagonist. Histamine is the central mediator of allergic urticaria, so blocking H1 receptors gives a strong mechanistic rationale.
 
-The biological plausibility is therefore high, which is consistent with the very high TxGNN score. The supporting evidence is weak, however. The only clinical-type signal is a veterinary study in dogs with angioedema. The other papers cover off-target effects (ion channel blockade) and receptor-binding pharmacology, not urticaria efficacy in people.
+The knowledge graph already lists urticaria and angioedema among mepyramine's original indications. The prediction is therefore close to its existing uses and does not represent a distinct new therapeutic area.
 
-Second-generation antihistamines are the usual first choice for urticaria because they cause less sedation. Any case for mepyramine would need to address that comparison.
-
-Three other predictions were also generated, and all are weaker:
-- **Nasal cavity disease** (99.74%): plausible for allergic rhinitis, but supported only by guinea pig models. The term is too broad and should be narrowed first.
-- **Acute laryngopharyngitis** (99.72%): the mechanistic link is unclear and there is no supporting literature.
-- **Cold urticaria** (99.70%): plausible as a class effect, but there is no mepyramine-specific evidence.
+The other predicted indications are less well supported:
+- **Cold urticaria** (score 99.70%): a histamine-mediated physical urticaria, so H1 antagonism is plausible. Standard therapy typically uses second-generation antihistamines, and no mepyramine-specific evidence exists. Any benefit is presumed to be a class effect.
+- **Nasal cavity disease** (score 99.74%): a broad category. H1 blockade is relevant to allergic and vasomotor rhinitis, but non-allergic subtypes lack a clear histamine-driven mechanism.
+- **Acute laryngopharyngitis** (score 99.72%): a model prediction only. The condition is mostly infectious or irritant-driven, so any benefit is likely limited to symptom relief.
 
 ---
 
@@ -77,31 +75,48 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21033572](https://pubmed.ncbi.nlm.nih.gov/21033572/) | 2010 | Veterinary randomized clinical study | Pol J Vet Sci | 27 dogs with angioedema were randomized to mepyramine maleate (n=15) or placebo (n=12). The authors concluded it may be helpful. This is animal data, not human urticaria. |
-| [34758144](https://pubmed.ncbi.nlm.nih.gov/34758144/) | 2021 | Preclinical mechanistic | FASEB J | Mepyramine directly blocks several voltage-gated sodium channels in nociceptors, which explains topical pain relief. This is not evidence for urticaria. |
-| [18222495](https://pubmed.ncbi.nlm.nih.gov/18222495/) | 2008 | In vitro / preclinical | Neuropharmacology | Mepyramine and diphenhydramine inhibit the KCNQ/M potassium channel and depolarize rat neurons. This may partly explain the seizures and neurotoxicity seen in overdose. |
-| [34387278](https://pubmed.ncbi.nlm.nih.gov/34387278/) | 2021 | In vitro receptor affinity assessment | Curr Opin Allergy Clin Immunol | Reviews receptor affinity profiles of agents used in dry eye disease. It is not directly relevant to urticaria. |
-| [29371669](https://pubmed.ncbi.nlm.nih.gov/29371669/) | 2018 | In vitro pharmacology | Sci Rep | Develops fluorescent H1 receptor probes to study ligand-binding kinetics in living cells. It is a tool paper, not an efficacy study. |
+| [21033572](https://pubmed.ncbi.nlm.nih.gov/21033572/) | 2010 | Veterinary clinical study | Polish Journal of Veterinary Sciences | In 27 dogs with angioedema (15 treated, 12 placebo controls), mepyramine maleate showed potential benefit |
+| [34758144](https://pubmed.ncbi.nlm.nih.gov/34758144/) | 2021 | Preclinical (mechanistic) | FASEB Journal | Mepyramine directly blocks nociceptor voltage-gated sodium channels, suggesting a topical pain-relief effect |
+| [18222495](https://pubmed.ncbi.nlm.nih.gov/18222495/) | 2008 | Preclinical (rat neurons) | Neuropharmacology | Mepyramine inhibits the KCNQ/M potassium channel and depolarizes neurons, which may explain the neurotoxicity seen in overdose |
+| [29371669](https://pubmed.ncbi.nlm.nih.gov/29371669/) | 2018 | Preclinical (tool compound) | Scientific Reports | Fluorescent H1-receptor probes were developed to study ligand-binding kinetics in living cells |
+
+None of these studies tested mepyramine as a treatment for allergic urticaria in humans.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2275201 | MIDOL COMPLETE |
-| 2275228 | MIDOL PMS |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02275201 | MIDOL COMPLETE | Not specified | Not specified |
+| 02275228 | MIDOL PMS | Not specified | Not specified |
 
-Dosage form and approved indication text are not listed in the records provided.
+Both licenses are valid single-ingredient authorizations.
 
 ---
 
 ## Safety Considerations
 
-- **Overdose effects (from the literature):** Serious adverse effects have been reported in overdose, including drowsiness, impaired thinking, convulsions, seizures and coma. These may partly reflect blockade of histaminergic or cholinergic receptors and inhibition of neuronal KCNQ/M channels.
-- **Drug interactions:** No interaction records were found for this drug.
+**Contraindications suggested by the knowledge graph** (these come from graph relationships, not from package insert text):
+- Cardiovascular: hypertension and hypotensive disorders, coronary artery disease, myocardial infarction, coronary thrombosis
+- Liver, pancreas and gallbladder: liver failure, liver disease, pancreatitis, gallbladder disease
+- Kidney and urinary: kidney disease, pyoureter, benign prostatic hyperplasia
+- Respiratory: chronic obstructive pulmonary disease (including severe early onset)
+- Neurological and substance use: epilepsy, substance abuse/dependence
+- Endocrine and metabolic: hypothyroidism, myxedema, congenital hypothyroidism, diabetes mellitus, diabetic ketoacidosis
+- Gastrointestinal: peptic ulcer disease, inflammatory bowel disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis
+- Other: rhabdomyolysis, nodular fasciitis, hemoglobinopathy
 
-Please refer to the package insert for warnings and contraindications.
+**Drug interactions:** The interaction query returned 100 records. The main ones are:
+- **Major:** potassium citrate and potassium chloride
+- **Moderate:**
+  - Anticholinergics: atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, clidinium, mepenzolate, methscopolamine, propantheline, trospium
+  - Opioids and antidiarrheals: morphine, opium, loperamide, eluxadoline
+  - Others: metoclopramide, dronabinol
+
+**Preclinical neurotoxicity signal:** Overdose of first-generation antihistamines has been linked to seizures and convulsions, and mepyramine inhibits the neuronal KCNQ/M channel.
+
+Please refer to the package insert for official warnings and contraindications.
 
 ---
 
@@ -110,16 +125,16 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically reasonable, but the evidence is at L4: no registered trials, no human efficacy data, and only one small veterinary study on a related condition. Safety information from the package insert is also missing, and second-generation antihistamines are already the better-documented option.
+- The mechanistic rationale is strong, but the evidence is weak. There are no registered clinical trials, and the literature is indirect: preclinical studies and a veterinary study.
+- Urticaria is already a labeled indication, so this is not truly a new use.
+- Package insert warnings and contraindications are not yet available, and this gap blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Human clinical evidence for mepyramine in urticaria, or a rationale for choosing it over second-generation antihistamines
-- Approved indication and dosage form details for the two Canadian products
-- Narrowing of "nasal cavity disease" (for example, to allergic rhinitis) if that prediction is pursued
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- The Health Canada package insert for warnings and contraindications
+- Mechanism of action data, for example from DrugBank
+- Dosage form, manufacturer and indication details for the two Canadian products, which are combination-type brands (MIDOL)
+- Human clinical evidence for mepyramine in urticaria, or a clear decision that on-label use needs no repurposing study
+- A review of whether the knowledge-graph contraindications apply to the intended population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: Model Prediction Only (L5)
-nav_order: 590
+nav_order: 595
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,95 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Metformin: From Type 2 Diabetes to Focal Stiff Limb Syndrome
+# Metformin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary
 
-Metformin is a widely marketed oral glucose-lowering drug. The Evidence Pack does not include its licensed indication text, so type 2 diabetes is stated from general knowledge.
-The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, but **no clinical trials and no publications** currently support this direction. The prediction rests on the model score alone.
-
----
+Metformin is a widely used oral glucose-lowering drug, originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **focal stiff limb syndrome**,
+but **no clinical trials and no publications** currently support this direction, so it is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes (general knowledge; licence indication text not provided) |
+| Original Indication | Type 2 diabetes mellitus (the Health Canada licence records contain no indication text, so this comes from the model's knowledge graph) |
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, metformin is a long-established biguanide, and its efficacy in glucose control is well proven. Mechanistically, it may be applicable to focal stiff limb syndrome only through indirect routes.
+Currently, detailed mechanism of action data is not available. Based on known information, metformin is an established biguanide antidiabetic whose efficacy in type 2 diabetes is well proven. Its activation of AMPK and possible immunometabolic effects may, in theory, be applicable to focal stiff limb syndrome, but this link is speculative.
 
-Focal stiff limb syndrome is a focal variant of stiff person syndrome, a rare autoimmune-associated neurological disorder. One speculative link is metformin's AMPK-mediated anti-inflammatory and immunomodulatory effects. No neurological mechanism for metformin is established, and the provided data support no direct link.
+Focal stiff limb syndrome belongs to the stiff-person spectrum, which is autoimmune and involves impaired GABAergic signalling. The data compiled for this report provide no evidence connecting metformin to this pathway.
 
-The high score (0.994) is a model output only. Classic stiff person syndrome received an identical score (0.9945), which suggests the two share graph neighbours rather than having independent supporting evidence. Treat the score as a hypothesis-generating signal, not as validation.
+Several cautions apply:
+- The classic stiff person syndrome has an identical score (99.45%), which suggests the model treats the two diseases as closely related rather than providing independent evidence.
+- Anti-GAD65 autoimmunity is associated with diabetes. This shared annotation may confound the graph-based prediction.
 
-**Other predictions in the pack (all L5, all Hold):**
-
-| Predicted Indication | Score | Comment |
-|------|------|------|
-| Classic stiff person syndrome | 99.45% | Weak, indirect immunomodulation rationale |
-| Opsismodysplasia | 99.40% | Possible PI3K/insulin pathway overlap via INPPL1; paediatric feasibility concerns |
-| Thiamine-responsive dysfunction syndrome | 99.40% | Direction of effect uncertain; metformin and thiamine transport need safety review |
-| Drug-induced localized lipodystrophy | 99.06% | Most biologically plausible (insulin-sparing effect), but unvalidated |
-
----
+Other top predictions are also unsupported by evidence: classic stiff person syndrome (99.45%), opsismodysplasia (99.40%), thiamine-responsive dysfunction syndrome (99.40%), and drug-induced localized lipodystrophy (99.06%). All are L5 with a Hold recommendation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Five of the 20 authorizations are listed. Dosage form and approved indication text were not provided.
+Health Canada lists 20 valid single-ingredient licences, with no cancelled ones. Dosage form and indication text were not available in the data compiled for this report. Five main authorizations are shown below.
 
 | DIN | Product Name |
 |---------|------|
-| 2514486 | METFORMIN TABLETS |
-| 2385341 | METFORMIN FC |
-| 2550512 | MAR-METFORMIN XR |
-| 2558793 | METFORMIN ER |
-| 2550504 | MAR-METFORMIN XR |
+| 02099233 | GLUCOPHAGE |
+| 02162849 | GLUCOPHAGE |
+| 02268493 | GLUMETZA |
+| 02257734 | TEVA-METFORMIN |
+| 02305062 | APO-METFORMIN ER |
 
----
+Other marketed products include several metformin generics and extended-release versions, such as MAR-METFORMIN XR, TARO-METFORMIN XR and RIVA-METFORMIN.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were found for this drug in the queried source.
+- **Contraindications (from the knowledge graph, not label text):** The model's knowledge graph links metformin with liver failure, liver disease, kidney disease, pancreatitis, gallbladder disease, congestive heart failure, adrenocortical insufficiency, thymus gland disease, pyoureter, and a large group of pituitary and hypogonadotropic disorders (such as hypopituitarism, growth hormone deficiencies, Kallmann syndrome, and Sheehan syndrome). These must be confirmed against the official package insert.
+- **Drug Interactions:** 100 interactions are recorded. Examples:
+  - **Major:** acetazolamide, ethanol
+  - **Moderate:** dolutegravir, abemaciclib, phenylephrine, ranitidine, formoterol, pseudoephedrine, ketorolac, nifedipine, epinephrine, ibuprofen, ethinylestradiol, hydrocortisone, salbutamol, hydrochlorothiazide, acetohexamide
+  - **Minor:** acarbose, topical hydrocortisone, topical alclometasone
 
----
+Please refer to the package insert for label warnings.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no trials, no literature, and no established mechanism. The identical scores for the two stiff person syndrome entries point to shared graph structure rather than independent evidence.
+The high TxGNN score is the only support. There are no clinical trials or publications, the mechanism is speculative, and the possible confounding through diabetes and anti-GAD autoimmunity weakens the prediction. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data for metformin
-- A systematic literature search on metformin in stiff person syndrome and related autoimmune neurological disorders
-- Confirmation of the licensed indication text for the Canadian products
+- A systematic literature and trial search for metformin in stiff-person spectrum disorders
+- Mechanism of action data and a mechanistic rationale for the stiff-person spectrum
+- Package insert warnings and contraindications from Health Canada, to allow safety screening
+- A check of whether the prediction is only a diabetes-annotation artefact
 - Route and formulation compatibility assessment
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

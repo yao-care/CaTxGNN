@@ -2,7 +2,7 @@
 layout: default
 title: Glycine
 parent: Model Prediction Only (L5)
-nav_order: 434
+nav_order: 438
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,97 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Glycine: From Unlisted Original Indication to Nasal Cavity Disease
+# Glycine: From Allergic Rhinitis and Upper Respiratory Conditions to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Glycine is an amino acid used in Canada mainly as an ingredient in irrigation solutions, a parenteral nutrition product (Clinimix) and a sterile diluent. Its approved indication text is not available in the data reviewed.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but the prediction rests on the model alone: **1 clinical trial** and **2 publications** were retrieved, and none of them tests glycine for this condition.
-
----
+Glycine is an amino acid that is listed in the knowledge graph for upper airway conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but this is a model prediction only: **1 clinical trial** was retrieved (not relevant to the hypothesis) and **2 publications** were retrieved (basic research only).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the available licence data |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; no approved indication text in the Canadian licence records) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Glycine is a simple amino acid that appears in Canada as a component of irrigation solutions, nutrition products and a diluent. Its original indication is not recorded in the data supplied, so the prediction cannot be checked against known clinical use.
+Currently, detailed mechanism of action data is not available. Based on known information, glycine is an amino acid whose original indications in the knowledge graph (allergic rhinitis, vasomotor rhinitis, rhinitis, nasopharyngitis) are nasal and upper airway conditions. Mechanistically it may be applicable to nasal cavity disease, but this cannot be confirmed from the data compiled for this report.
 
-Glycine is known to act on glycine-gated chloride channels on immune and epithelial cells. This gives it plausible general anti-inflammatory and cytoprotective properties, which could in theory relate to inflamed nasal mucosa. However, the supplied data show no specific mechanism linking glycine to nasal cavity disease.
+The predicted indication sits in the same anatomical region as the original indications. This is a weak, indirect overlap and not evidence of efficacy. Glycine has inhibitory neurotransmitter and cytoprotective roles in other tissues, but nothing in the compiled data links these roles to nasal mucosal disease.
 
-The very high score (99.85%, model rank 3,614) reflects a pattern in the knowledge graph, not confirmed biology or clinical results. It should be treated as a hypothesis to test.
-
----
+A second prediction, **acute laryngopharyngitis** (score 99.84%), is closely related to the existing pharyngitis, nasopharyngitis and common cold indications. It has no clinical trials and no literature, so the support is purely computational.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET imaging study of a radiotracer (18F-FPPRGD2) in glioblastoma, gynaecological cancer and renal cell carcinoma. It does not test glycine, and the link to this prediction is probably a keyword artifact (relevance grade C). |
-
-No registered trial tests glycine for nasal cavity disease.
-
----
+| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET imaging of αvβ3 integrin expression (18F-FPPRGD2) as an angiogenesis biomarker in glioblastoma, gynaecological cancers and renal cell carcinoma. It is a diagnostic imaging study and does not test glycine as a treatment, so it is not relevant to this hypothesis. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic science (animal tissue) | Veterinary Pathology | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. It describes tissue glycoconjugates, not glycine treatment. |
-| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical formulation study | Chemical & Pharmaceutical Bulletin | Oligoarginine-polymer conjugates as a mucosal adjuvant for nasal vaccination in mice. It is unrelated to glycine as a therapy. |
-
-Neither publication provides clinical evidence for glycine in nasal cavity disease.
-
----
+| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic research (animal tissue histochemistry) | Veterinary Pathology | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. It is not a study of glycine in patients. |
+| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Basic research (drug delivery/biomaterials) | Chemical & Pharmaceutical Bulletin | Oligoarginine-linked polymers as a mucosal adjuvant for nasal vaccination in mice. It is not directly related to glycine therapy. |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 498793 | GLYCINE IRRIGATION USP |
-| 799955 | GLYCINE 1.5% IRRIGATION USP SOL |
-| 2443651 | PH 12 STERILE DILUENT FOR FLOLAN |
-| 2046709 | CLINIMIX |
-| 2013932 | CLINIMIX |
+Health Canada lists 20 valid single-ingredient authorizations. Dosage form and approved indication text are not recorded for them. The main products are listed below.
 
-Showing 5 of 20 authorizations. Dosage form and approved indication text are not available for these products.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00498793 | Glycine Irrigation USP | Not recorded | Not recorded |
+| 00799955 | Glycine 1.5% Irrigation USP Sol | Not recorded | Not recorded |
+| 02443651 | pH 12 Sterile Diluent for Flolan | Not recorded | Not recorded |
+| 02046709 | Clinimix | Not recorded | Not recorded |
+| 00872296 | Travasol | Not recorded | Not recorded |
 
----
+The remaining authorizations include further Clinimix and Clinimix E strengths, 20% Prosol, Primene 10%, Olimel 7.6% and Essepna. Most are parenteral nutrition or irrigation products, not nasal or respiratory products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Safety data from the package insert were not available for this report, so please refer to the package insert for warnings and contraindications.
 
----
+The knowledge graph records contraindication links between glycine and the diseases below. These come from graph relationships, not from label text, and should be verified against the product labelling.
+
+- **Kidney and urinary conditions**: kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, pyoureter
+- **Calcium and phosphate disorders**: hypercalcaemia, humoral hypercalcaemia of malignancy, hyperparathyroidism, osteitis fibrosa, hyperphosphataemia, phosphorus metabolism disease, hypervitaminosis, sarcoidosis, lytic metastatic bone lesion
+- **Cardiovascular conditions**: heart disease, cardiovascular disease, arteriosclerosis obliterans, digitalis poisoning, ventricular fibrillation
+- **Metabolic and other conditions**: phenylketonuria, disorder of phenylalanine metabolism, constipation disorder
+
+A drug interaction search returned no records.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5). The one retrieved trial and both publications are unrelated to glycine treatment, and there is no mechanistic or clinical support for nasal cavity disease. Safety data are also missing, so the candidate cannot move past the initial screening stage.
+The high TxGNN score (99.85%) is a model prediction only. The only trial found is an unrelated imaging study, the two publications are basic research, and there is no mechanism of action data to explain a link to nasal cavity disease. Evidence is at level L5.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indications and dosage forms for the Canadian glycine products
-- Mechanism of action data, for example from DrugBank
-- Preclinical or clinical studies of glycine in nasal or upper airway inflammation
-- Assessment of whether a route suitable for nasal use exists, since the current products are irrigation, nutrition and diluent formulations
-
-**Note:** The second predicted indication, acute laryngopharyngitis (score 99.84%), is in the same position. It has no supporting trials, and its one retrieved publication concerns a different drug, so it is also on Hold.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for glycine, and an assessment of whether it applies to nasal mucosa
+- Package insert warnings and contraindications from Health Canada, which are needed before safety screening
+- Clinical or preclinical studies of glycine in nasal cavity disease or upper airway inflammation
+- Confirmation of whether an intranasal or other suitable route and formulation exist, since the current Canadian products are mainly irrigation and parenteral nutrition products
+- Review of the predicted contraindications, especially for kidney, calcium and phosphate disorders, before any new use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

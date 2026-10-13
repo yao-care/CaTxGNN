@@ -2,7 +2,7 @@
 layout: default
 title: Givosiran
 parent: Model Prediction Only (L5)
-nav_order: 428
+nav_order: 431
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Givosiran: From Acute Hepatic Porphyria to Early-Onset Familial Noncirrhotic Portal Hypertension
+# Givosiran: From Hepatic Porphyria to Early-Onset Familial Noncirrhotic Portal Hypertension
 
 ## One-Sentence Summary
 
-Givosiran is a liver-targeted siRNA drug used for acute hepatic porphyria. The Evidence Pack does not list an approved indication, so this is taken from the literature.
-The TxGNN model predicts it may be effective for **early-onset familial noncirrhotic portal hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
-It rests on the model score alone.
+Givosiran is a liver-targeted RNA interference drug, originally used to treat hepatic porphyria.
+The TxGNN model predicts it may be effective for **early-onset familial noncirrhotic portal hypertension**, but **no clinical trials and no publications** currently support this prediction, so it is a computational signal only.
 
 ---
 
@@ -43,9 +42,9 @@ It rests on the model score alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute hepatic porphyria (from the literature; no approved indication text in the licence record) |
+| Original Indication | Hepatic porphyria |
 | Predicted New Indication | Early-onset familial noncirrhotic portal hypertension |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 99.999% |
 | Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
@@ -55,11 +54,11 @@ It rests on the model score alone.
 
 ## Why is This Prediction Reasonable?
 
-Givosiran is a GalNAc-conjugated small interfering RNA (siRNA) that is taken up by liver cells and silences hepatic ALAS1. This lowers the heme-synthesis precursors ALA and PBG, which are thought to drive the neurovisceral attacks of acute hepatic porphyria. Formal mechanism-of-action data were not provided in the record, so this description comes from the mechanistic notes and published literature.
+Givosiran is a GalNAc-conjugated small interfering RNA (siRNA). It is taken up by liver cells and silences the *ALAS1* gene. This lowers the neurotoxic heme intermediates aminolevulinic acid (ALA) and porphobilinogen (PBG), which drive the attacks seen in acute hepatic porphyria.
 
-The evidence does not support a link between this mechanism and the predicted disease. Portal hypertension without cirrhosis is a disorder of the portal vasculature, and ALAS1 silencing does not address it. The high TxGNN score most likely reflects the drug and disease sitting close together in the knowledge graph, not a biological rationale.
+The data compiled for this report do not establish a mechanistic link between ALAS1 suppression and noncirrhotic portal hypertension. That condition involves vascular and hepatoportal pathology, which heme-synthesis modulation is not known to address. The score of 99.999% is identical to the scores of several other unrelated liver-vascular diseases (portal vein thrombosis, hepatoportal sclerosis, idiopathic copper-associated cirrhosis, hepatopulmonary syndrome). This suggests the model is picking up a generic "liver-related" association rather than a signal specific to this disease.
 
-The same is true of the other top-ranked predictions, which include portal vein thrombosis, hepatoportal sclerosis, hepatopulmonary syndrome and chronic viral hepatitis. None has a clinical trial or publication, and the assessments found no plausible mechanism for any of them. The one exception is rank 9, ALAD porphyria. It is a subtype of the acute hepatic porphyria family, so it is not a true repurposing case, and its only ALAD-specific report describes a lack of response to givosiran.
+**A better-supported prediction in the same list:** The only predicted indication with any published literature is **porphyria due to ALA dehydratase deficiency (ADP)**, ranked 9th with a score of 99.91%. It is an ultra-rare porphyria on the same heme-synthesis pathway as givosiran's approved use. However, the direct clinical evidence is limited to case reports. One reports no response to givosiran. A 2026 report suggests that erythroid ALA production may limit the effect of hepatic-only silencing. This candidate is classed as L4 and a "Research Question". It is not the main subject of this report.
 
 ---
 
@@ -79,15 +78,23 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2506343 | GIVLAARI | — | — |
-
-Dosage form and approved indication text are not recorded for this licence.
+| 02506343 | GIVLAARI | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions:** 87 interactions are recorded. The 20 reviewed include one major interaction and the rest moderate.
+- **Major:** Eliglustat
+- **Moderate (examples):**
+  - Aminoglycosides: vancomycin, kanamycin, neomycin, streptomycin
+  - Amphotericin B formulations
+  - Aminosalicylates: mesalazine, balsalazide, olsalazine, sulfasalazine
+  - Other: metoclopramide, naltrexone, exenatide, fenfluramine, alosetron, caffeine
+
+**Liver-related caution:** Transaminase elevations have been seen with givosiran. This would be a concern in a patient with a diseased liver, such as one with portal hypertension or cirrhosis.
+
+For warnings and contraindications, please refer to the package insert.
 
 ---
 
@@ -96,13 +103,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a model score (L5), with no trials, no literature and no plausible mechanistic link between ALAS1 silencing and non-cirrhotic portal hypertension. Nothing currently justifies moving it forward.
+The prediction rests on a model score alone. There are no trials or publications, and no plausible mechanism links ALAS1 silencing to noncirrhotic portal hypertension. The identical scores across unrelated diseases point to a non-specific output.
 
 **To proceed, the following is needed:**
-- Any mechanistic or preclinical evidence connecting hepatic ALAS1 or heme-precursor biology to portal vascular pathology
-- The Canadian package insert (warnings and contraindications), and the approved indication and dosage form for DIN 2506343
-- Formal mechanism-of-action data from DrugBank
-- If the goal is to prioritise within givosiran's predictions, a separate review of the ALAD porphyria signal (rank 9), given the contradictory case report
+- A disease-specific mechanistic hypothesis connecting heme synthesis or ALAS1 to the pathology of portal hypertension
+- Preclinical or early clinical evidence in this condition
+- Review of the Health Canada package insert for warnings, contraindications, and hepatic safety in patients with liver disease
+- Consider redirecting effort to the ALAD porphyria prediction, which has a stronger biological rationale. It would first need evidence that resolves the question of erythroid ALA production.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

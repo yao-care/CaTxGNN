@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Terconazole
-parent: Moderate Evidence (L3-L4)
-nav_order: 891
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 898
+evidence_level: L5
 indication_count: 10
 ---
 
 # Terconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Terconazole is a topical triazole antifungal. The published literature in this pack describes it for vulvovaginal candidiasis, but the Canadian license record does not state an approved indication.
-The TxGNN model predicts it may be effective for **trichomonal vulvovaginitis**, but only **1 clinical trial** (a general pilot study) and **3 general or antifungal publications** relate to this prediction, and none tests terconazole against *Trichomonas vaginalis*.
+Terconazole is a triazole antifungal originally used to treat vulvovaginal candidiasis.
+The TxGNN model's top-ranked prediction is **trichomonal vulvovaginitis**, but **no clinical trials** and only **1 general review** support it, and the mechanism is not plausible. Other predictions (vulvitis, vulvovaginitis, vaginitis) have **L1-level evidence**, but that evidence mostly restates the drug's already-approved candidiasis use rather than a true new indication.
 
 ---
 
@@ -42,39 +42,63 @@ The TxGNN model predicts it may be effective for **trichomonal vulvovaginitis**,
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license record (literature describes vulvovaginal candidiasis) |
+| Original Indication | Vulvovaginal candidiasis (the approved indication text in the Canadian licence record is blank) |
 | Predicted New Indication | Trichomonal vulvovaginitis |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (for the top prediction: model prediction only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (for the top prediction); Proceed with Guardrails only for candidal vulvovaginitis-type indications |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. From the literature, terconazole is a triazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase). This blocks ergosterol synthesis and disrupts fungal membranes. It is highly active against *Candida* species.
+Terconazole is a triazole antifungal. It inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis and disrupts the fungal cell membrane. This is the basis for its use in vulvovaginal candidiasis.
 
-Trichomonal vulvovaginitis is a different kind of infection. It is caused by a protozoan, *Trichomonas vaginalis*, and is treated with 5-nitroimidazoles such as metronidazole. No plausible direct mechanism links terconazole to this organism. The high TxGNN score most likely reflects the "vaginitis" neighbourhood in the knowledge graph rather than shared pharmacology. This prediction should be treated as a graph-proximity artifact until direct evidence shows otherwise.
+**Trichomonal vulvovaginitis (top prediction):** *Trichomonas vaginalis* is a protozoan, and it lacks ergosterol-dependent membrane biology comparable to that of fungi. There is therefore no plausible mechanistic link. The very high TxGNN score most likely reflects the drug's closeness to "vaginitis" in the knowledge graph rather than a real pharmacological effect. Standard therapy is a nitroimidazole (metronidazole or tinidazole).
+
+**Other predictions:** Vulvitis, vulvovaginitis and vaginitis are supported by trials and publications, but nearly all of that evidence concerns candidal infection, which is the approved use. These are not true repurposing findings. Predictions such as atrophic vaginitis (estrogen deficiency), herpetic vulvovaginitis (a virus), vulvar ulceration, vulvar neoplasm and bacterial vaginosis have no credible mechanism for an azole antifungal.
+
+Note: detailed mechanism-of-action data was not available in the compiled data. The mechanism described here is taken from the literature and from the mechanistic assessments in the data.
 
 ---
 
 ## Clinical Trial Evidence
 
+The top-ranked prediction (trichomonal vulvovaginitis) has: Currently no related clinical trials registered.
+
+For the closely related candidiasis-type predictions (vulvitis, vulvovaginitis, vaginitis), the main trials are below:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00503542](https://clinicaltrials.gov/study/NCT00503542) | Early Phase 1 | Completed | 46 | Pilot study of two ways to manage women with vaginal complaints in primary care. It does not isolate terconazole or show an anti-trichomonal effect. |
+| [NCT00803738](https://clinicaltrials.gov/study/NCT00803738) | NA | Completed | 572 | Terconazole 80 mg suppositories, test vs reference product; bioequivalence in vulvovaginal candidiasis |
+| [NCT02180100](https://clinicaltrials.gov/study/NCT02180100) | Phase 4 | Completed | 140 | Terconazole suppository vs fluconazole in severe vulvovaginal candidiasis |
+| [NCT02308007](https://clinicaltrials.gov/study/NCT02308007) | Phase 3 | Completed | 475 | Solubilized metronidazole and/or terconazole intravaginal gels in vaginal infections |
+| [NCT02308046](https://clinicaltrials.gov/study/NCT02308046) | Phase 3 | Completed | 212 | Companion trial of terconazole gel in vaginal infections |
+| [NCT03473418](https://clinicaltrials.gov/study/NCT03473418) | Phase 3 | Unknown | 69 | Ketoconazole in situ gel vs terconazole cream (terconazole as comparator) |
+| [NCT04208555](https://clinicaltrials.gov/study/NCT04208555) | NA | Unknown | 76 | Boric acid vs terconazole in recurrent vulvovaginal candidiasis |
+
+These trials do not test terconazole in trichomoniasis or bacterial vaginosis. NCT02308007 and NCT02308046 involve metronidazole and/or terconazole gels, and any signal in mixed-etiology vaginitis would need separate review.
 
 ---
 
 ## Literature Evidence
 
+For trichomonal vulvovaginitis, the only publications are a general vaginitis review and an older antifungal review. Key publications for the candidiasis-type indications are shown below:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10546257](https://pubmed.ncbi.nlm.nih.gov/10546257/) | 1999 | Review | The Nurse Practitioner | Overview of bacterial, fungal and protozoal vaginitis. It is a general review and does not evaluate terconazole for trichomoniasis. |
-| [10470518](https://pubmed.ncbi.nlm.nih.gov/10470518/) | 1999 | Review | Comprehensive Therapy | Epidemiology, diagnosis and therapy of vaginitis in healthy women. It is general and not terconazole-specific. |
-| [6617296](https://pubmed.ncbi.nlm.nih.gov/6617296/) | 1983 | Review | Chemotherapy | Terconazole is highly active in vitro against yeasts and filamentous fungi and effective in topical animal models of dermatophytosis and candidosis. It supports antifungal activity only. |
+| [25877666](https://pubmed.ncbi.nlm.nih.gov/25877666/) | 2015 | RCT | Medical Mycology | Terconazole suppository vs oral fluconazole in 140 patients with severe vulvovaginal candidiasis |
+| [2381618](https://pubmed.ncbi.nlm.nih.gov/2381618/) | 1990 | RCT | Obstetrics and Gynecology | Placebo-controlled comparison of 0.8% and 1.6% terconazole cream in persistent vulvovaginal candidiasis |
+| [3520601](https://pubmed.ncbi.nlm.nih.gov/3520601/) | 1986 | RCT | Pharmatherapeutica | Terconazole vs clotrimazole vaginal tablets in 60 patients with vulvovaginal candidosis |
+| [8893111](https://pubmed.ncbi.nlm.nih.gov/8893111/) | 1996 | RCT | Annals of Pharmacotherapy | Weekly terconazole 0.8% cream to prevent recurrent candidal vaginitis |
+| [1941796](https://pubmed.ncbi.nlm.nih.gov/1941796/) | 1991 | Randomized comparison | J Reprod Med | Terconazole vs miconazole cream in 900 patients; cure rates 87.9% (0.4%), 83.8% (0.8%) and 81.3% (miconazole) |
+| [11220485](https://pubmed.ncbi.nlm.nih.gov/11220485/) | 2000 | Cohort | Infect Dis Obstet Gynecol | Retrospective analysis of terconazole cream in non-albicans Candida vaginitis |
+| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Review | Expert Rev Anti Infect Ther | Future non-invasive azole options for vulvovaginal candidiasis |
+| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Women's Health | Boric acid for recurrent vulvovaginal candidiasis |
+| [10546257](https://pubmed.ncbi.nlm.nih.gov/10546257/) | 1999 | Review | The Nurse Practitioner | Overview of treating bacterial, fungal and protozoal vaginitis |
+| [6617296](https://pubmed.ncbi.nlm.nih.gov/6617296/) | 1983 | Review | Chemotherapy | Terconazole as a new broad-spectrum antifungal; in vitro and animal data |
 
 ---
 
@@ -82,31 +106,31 @@ Trichomonal vulvovaginitis is a different kind of infection. It is caused by a p
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2247651 | TARO-TERCONAZOLE | Not specified | Not specified |
+| 02247651 | TARO-TERCONAZOLE | Not specified | Not specified in the compiled data |
 
 ---
 
 ## Safety Considerations
 
-Drug interaction queries returned no records. The license record has no warnings or contraindications, so please refer to the package insert for safety information.
+Please refer to the package insert for safety information.
 
-One case report describes a systemic reaction (chills, fatigue, chest distress and raised inflammatory markers) after a single 80 mg terconazole vaginal suppository ([PMID 33860751](https://pubmed.ncbi.nlm.nih.gov/33860751/)). It appears in the evidence for other predicted indications and should be considered in any safety review.
+One case report (PMID 33860751) describes chills, fatigue, chest distress and raised inflammatory markers after a single 80 mg terconazole vaginal suppository. It is an isolated report.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for the top prediction, trichomonal vulvovaginitis)
 
 **Rationale:**
-Terconazole has no known activity against *Trichomonas vaginalis*, and the only supporting data are general vaginitis reviews and a non-specific pilot study. The prediction looks like a knowledge-graph artifact, not a pharmacological signal.
-
-The same evidence pack shows much stronger support for related fungal indications. Vulvitis, vulvovaginitis and vaginitis each reach L1 with Proceed with Guardrails, supported by randomized trials in vulvovaginal candidiasis. These are most likely established antifungal uses rather than true repurposing, and they should be evaluated separately.
+- The top prediction rests on model score alone (L5). Terconazole has no plausible mechanism against a protozoan, and the standard treatment is a nitroimidazole. The strong evidence for vulvitis, vulvovaginitis and vaginitis (L1) reflects the already-approved candidiasis indication. These could proceed with guardrails, but they are not new repurposing opportunities. The remaining predictions (atrophic, herpetic, ulcerative, neoplastic and bacterial vaginosis) have no supporting mechanism or evidence.
 
 **To proceed, the following is needed:**
-- Direct in vitro or clinical evidence of terconazole activity against *Trichomonas vaginalis*, which is currently absent
-- The Health Canada package insert, to confirm the approved indication, warnings and contraindications
-- Detailed mechanism-of-action data from DrugBank
+- Package insert warnings, contraindications and interaction data from Health Canada (currently a blocking gap)
+- Mechanism-of-action data from DrugBank
+- For mixed-etiology vaginitis: review of NCT02308007 and NCT02308046 for any activity beyond candidiasis
+- For trichomonal vulvovaginitis or bacterial vaginosis: in vitro activity data before any clinical consideration
+- Confirmation of the approved indication text and dosage forms for DIN 02247651
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Doxazosin
 parent: Moderate Evidence (L3-L4)
-nav_order: 301
+nav_order: 303
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Doxazosin: From Alpha-1 Adrenergic Blockade to Migraine Disorder
+# Doxazosin: From Hypertension and Benign Prostatic Hyperplasia to Migraine Disorder
 
 ## One-Sentence Summary
 
-Doxazosin is a selective alpha-1 adrenergic antagonist marketed in Canada under 9 DINs.
-The TxGNN model predicts it may be useful for **migraine disorder** (score 99.2%), but this is currently backed by **0 clinical trials** and **1 publication**, a small 1997 uncontrolled report of 10 patients.
-
----
+Doxazosin is an alpha-1 adrenergic blocker originally used to treat hypertension and benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **migraine disorder**,
+but currently only **0 registered clinical trials** and **1 publication** (a small 1997 review of 10 patients) support this direction, so it remains a research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence records provided |
+| Original Indication | Hypertension and benign prostatic hyperplasia (from the knowledge graph; Canadian licence text is not available) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L4 |
@@ -50,69 +49,64 @@ The TxGNN model predicts it may be useful for **migraine disorder** (score 99.2%
 | Number of DINs | 9 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Doxazosin blocks alpha-1 adrenergic receptors. Detailed mechanism data was not available in the source record, so this description comes from the general drug class. Alpha-1 blockade reduces adrenergic vascular tone and sympathetic signalling.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, doxazosin is a selective alpha-1 adrenergic receptor antagonist. Its efficacy in hypertension and BPH is well established, and it works by relaxing vascular and prostatic smooth muscle.
 
-A possible link to migraine prophylaxis is that migraine involves vascular tone and sympathetic neurotransmission, so blocking alpha-1 receptors could plausibly reduce attack frequency or severity. **This is a hypothesis.** No mechanistic or clinical data in this report confirm it.
+Adrenergic signalling influences cerebrovascular tone and sympathetic activity, both of which are hypothesised to play a role in migraine. This offers a plausible but indirect rationale for migraine prophylaxis.
 
-The only supporting publication is a 1997 report in *Headache*. Ten neurology-practice patients were given terazosin or doxazosin. Frequency or severity improved in 9 of 10, but 5 discontinued because of side effects. It was uncontrolled, tiny, and mixed two drugs, so it can only generate a hypothesis.
+The only supporting publication is a 1997 report in which 10 patients in a neurology practice received terazosin or doxazosin. Migraine frequency or severity decreased in all but one patient, but five stopped treatment because of side effects. This is conceptual support only. The very high TxGNN score is a computational signal, not clinical evidence.
 
-A second prediction, **migraine with brainstem aura** (score 99.19%), has no trials or literature. It most likely reflects graph proximity to the parent migraine node and should be treated as an extension of the same weak hypothesis.
-
----
+A second predicted indication, migraine with brainstem aura, has no trials or literature. It likely reflects closeness to the parent migraine term in the ontology rather than independent evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review (classified); reads as a small case series | Headache | 10 migraine patients received terazosin or doxazosin. Nearly all had reduced migraine frequency or severity, but 5 stopped the drug due to side effects. No serious adverse reactions were reported. |
-
----
+|------|-----|------|------|---------|
+| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review | Headache | Ten migraine patients were given terazosin or doxazosin. Nine had fewer or milder migraines, but five discontinued because of side effects. No serious adverse reactions were reported. |
 
 ## Canada Market Information
 
-Dosage form and approved-indication text were not provided in the records. Five of the 9 authorizations are shown.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02240588 | APO-DOXAZOSIN | Not available | Not available |
+| 02240589 | APO-DOXAZOSIN | Not available | Not available |
+| 02240590 | APO-DOXAZOSIN | Not available | Not available |
+| 02242728 | TEVA-DOXAZOSIN | Not available | Not available |
+| 02242729 | TEVA-DOXAZOSIN | Not available | Not available |
 
-| DIN | Product Name |
-|---------|------|
-| 02240590 | APO-DOXAZOSIN |
-| 02489953 | JAMP-DOXAZOSIN |
-| 02242729 | TEVA-DOXAZOSIN |
-| 02489945 | JAMP-DOXAZOSIN |
-| 02240588 | APO-DOXAZOSIN |
-
----
+Nine single-ingredient licences are valid in total (APO, TEVA and JAMP brands); the five above are shown as the main ones.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for this drug. The 1997 report noted that half of the patients discontinued treatment because of side effects.
+- **Disease-level contraindication signals (from the knowledge graph, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorder, liver failure, liver disease, gallbladder disease, pyloric stenosis, intestinal obstruction, priapism, and intraoperative floppy iris syndrome.
+- **Drug Interactions**: The interaction screening returned 100 interactions in total. The listed ones are mostly of Moderate severity, including:
+  - Corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone)
+  - SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+  - Opioids (morphine, opium)
+  - Cannabinoids (dronabinol, nabilone)
+  - Bupropion and clarithromycin
+- Interactions with calcitriol, clotrimazole and cimetidine are of unknown severity.
 
----
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but it is a computational output only. Support is one small, uncontrolled 1997 report, with no registered trials and no mechanistic data. This is a research question rather than an actionable candidate.
+The evidence consists of one small, 1997 uncontrolled report and a model prediction, with no registered trials. The mechanism is plausible but indirect, and the patient-reported side-effect burden (5 of 10 discontinued) is a concern. This is a research question rather than a candidate ready for development.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, needed for safety screening
-- Detailed mechanism of action data to test the alpha-1 blockade rationale in migraine
-- A systematic literature search beyond the single 1997 report
-- Any registered or planned controlled trials of alpha-1 blockers in migraine prophylaxis
-- Assessment of tolerability, given the dropout rate in the only available report
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Controlled clinical data (at least a well-designed Phase 2 trial) of doxazosin for migraine prophylaxis
+- A systematic literature search beyond the single identified publication
+- Official mechanism of action data
+- Health Canada package insert warnings and contraindications, as well as approved indication text and dosage forms for each DIN
+- A tolerability and orthostatic hypotension risk assessment for migraine populations, who are often younger and normotensive
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Ofloxacin
 parent: Model Prediction Only (L5)
-nav_order: 672
+nav_order: 678
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ofloxacin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+# Ofloxacin: From Bacterial Infections to Septicemic Plague
 
 ## One-Sentence Summary
 
-Ofloxacin is a fluoroquinolone antibacterial. The Canadian licence record lists the product OCUFLOX but gives no approved indication text.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome** with a very high score (99.91%), but **no clinical trials and no publications** currently support this prediction.
+Ofloxacin is a fluoroquinolone antibiotic originally used for infections such as typhoid fever, urinary tract infection, bronchitis, and bacterial pneumonia.
+The TxGNN model's top-ranked predictions are mostly unrelated to infection, so this report focuses on the best-supported candidate, **Septicemic Plague**, which has **0 clinical trials** and **11 publications** (all preclinical or laboratory studies).
+Among the top 10 predictions, only septicemic plague has a biologically coherent rationale and a meaningful body of supporting literature.
 
 ---
 
@@ -42,33 +43,49 @@ The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syn
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (antibacterial class use; indication text not listed in the Canadian licence record) |
-| Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 (model prediction only) |
+| Original Indication | Typhoid fever, salmonellosis, urinary tract infection, bronchitis, bacterial pneumonia, and other bacterial infections (the Canadian licence record has no indication text) |
+| Predicted New Indication | Septicemic plague (rank 8 of the top 10 predictions; selected as the most plausible). The rank 1 prediction is polyclonal hyperviscosity syndrome. |
+| TxGNN Prediction Score | 99.79% (septicemic plague); 99.91% (rank 1, polyclonal hyperviscosity syndrome) |
+| Evidence Level | L4 (preclinical studies only) for septicemic plague; L5 for the rank 1 prediction |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (research question only; not ready to proceed) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Ofloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy is established for bacterial infections.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ofloxacin is a fluoroquinolone, a class known to inhibit bacterial DNA gyrase and topoisomerase IV, and its efficacy in a range of bacterial infections is established.
 
-Nothing in the available data links this antibacterial mechanism to serum viscosity or to excess immunoglobulin, which are the features of polyclonal hyperviscosity syndrome. The high score is therefore a model output without biological or clinical support. It should be treated as a hypothesis-generating signal only.
+Plague is caused by *Yersinia pestis*, a Gram-negative bacterium that is susceptible to this mechanism. The extension from the original indications to plague is therefore a broadening of the antibacterial spectrum rather than a new mechanism. Laboratory studies show ofloxacin is highly active against *Y. pestis* isolates, and mouse studies show activity in experimental plague.
+
+By contrast, most of the higher-scoring predictions (polyclonal hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia, premalignant and congenital haematological disorders, and monoclonal gammopathy) have no identifiable link to an antibacterial mechanism. Their high scores reflect network-based model output only, with no supporting trials or literature. Hematological disease associated with acquired peripheral neuropathy is a particular concern, since fluoroquinolones can themselves cause peripheral neuropathy. Punctate epithelial keratoconjunctivitis has only a weak indirect link: ofloxacin is used in eye infections, but this condition is often viral or inflammatory, and the single retrieved paper is not an ofloxacin efficacy study.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for septicemic plague or any of the other top 10 predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+All studies below concern septicemic plague. No human trials were found. Types are limited to animal and in vitro work.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [16127904](https://pubmed.ncbi.nlm.nih.gov/16127904/) | 2002 | Animal study | Antibiot Khimioter | Ofloxacin showed in vitro activity against *Y. pestis* (MIC 0.08 mg/L) and was tested for prophylaxis and treatment in mice. It was less effective against strains lacking fraction I and mouse toxin. |
+| [9517950](https://pubmed.ncbi.nlm.nih.gov/9517950/) | 1998 | Animal study | Antimicrob Agents Chemother | Mouse model of pneumonic plague used to compare antibiotics against streptomycin. |
+| [8203841](https://pubmed.ncbi.nlm.nih.gov/8203841/) | 1994 | Animal study | Antimicrob Agents Chemother | Ofloxacin was active in vitro and was compared with beta-lactams, aminoglycosides, and doxycycline in a mouse model of systemic *Y. pestis* infection. |
+| [11871319](https://pubmed.ncbi.nlm.nih.gov/11871319/) | 2001 | Animal study | Antibiot Khimioter | Experimental bubonic plague model in baboons developed to evaluate antibacterials. |
+| [10987101](https://pubmed.ncbi.nlm.nih.gov/10987101/) | 2000 | Animal study | Antibiot Khimioter | Fluoroquinolones including ofloxacin reduced vaccine-induced immunity in mice, which matters for combined emergency prophylaxis and vaccination. |
+| [8540736](https://pubmed.ncbi.nlm.nih.gov/8540736/) | 1995 | In vitro | Antimicrob Agents Chemother | Among 14 agents tested on 78 *Y. pestis* strains, ceftriaxone and ciprofloxacin were most active, followed by ofloxacin and ampicillin. |
+| [8913481](https://pubmed.ncbi.nlm.nih.gov/8913481/) | 1996 | In vitro | Antimicrob Agents Chemother | Ofloxacin and levofloxacin were highly active against 100 human isolates (MIC90 below 0.03 µg/ml). |
+| [18644132](https://pubmed.ncbi.nlm.nih.gov/18644132/) | 2008 | In vitro / molecular | BMC Microbiol | Screening for genes that may reduce antibiotic susceptibility in *Y. pestis*. |
+| [13677133](https://pubmed.ncbi.nlm.nih.gov/13677133/) | 2003 | In vitro | Antibiot Khimioter | Formation of plague mutants resistant to rifampicin and quinolones. |
+
+Two further retrieved papers (PMIDs 19121669 and 12180019) concern fluoroquinolone resistance in *Burkholderia pseudomallei*, and one (PMID 11057367) concerns *Vibrio cholerae*. They are off-target organisms and do not support the plague indication.
 
 ---
 
@@ -76,26 +93,40 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2143291 | OCUFLOX | Not listed | Not listed |
+| 02143291 | OCUFLOX | Not specified | Not specified |
+
+The product name suggests an ophthalmic formulation. This has not been confirmed, and the available data do not specify a dosage form or route. Whether it can be used for systemic infections such as plague is therefore unknown.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication signals from the knowledge graph** (these are database associations, not label text):
+- Cardiac: long QT syndrome (including familial), torsades de pointes
+- Neurological and neuromuscular: epilepsy, myasthenia gravis (including adult-onset), neuromuscular junction disease, peripheral neuropathy, peripheral nervous system disease
+- Tendon and musculoskeletal: tendinitis, periarthritis, rhabdomyolysis
+- Hepatic and renal: liver failure, liver disease, drug-induced liver injury, kidney disease, impaired renal function
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency
+- Haematological: thrombocytopenia, leukopenia, anaemia
+- Gastrointestinal: *Clostridium difficile* colitis
 
----
+**Drug Interactions:** 100 interactions were identified in total. Interactions rated Major among those listed include:
+- Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone
+- Bupropion
+- Chlorpropamide
 
-## Other Predicted Candidates for Ofloxacin
+Moderate interactions include:
+- Antidiabetic agents (acarbose, alogliptin, metformin, pioglitazone, canagliflozin, albiglutide)
+- Famotidine
+- Loperamide
+- Aspirin
+- Balsalazide
+- Bisacodyl
+- Calcium and potassium salts (calcium phosphate, calcium acetate, potassium citrate)
 
-The top-ranked prediction has no support, but two lower-ranked predictions have some evidence. Both come from the same model output.
+Blood glucose monitoring is relevant with antidiabetic agents. Combining with corticosteroids is relevant to the tendon-related signals above.
 
-| Predicted Indication | Score | Evidence Level | Evidence Summary |
-|------|------|------|------|
-| Monoclonal gammopathy | 99.82% | L4 | The evidence is indirect. The TEAMM Phase 3 RCT ([PMID 31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/), *Lancet Oncol*, 2019) tested **levofloxacin**, not ofloxacin, for infection prophylaxis in newly diagnosed myeloma. This is supportive care, not treatment of the gammopathy, and the population is myeloma rather than MGUS. |
-| Septicemic plague | 99.79% | L4 | Experimental ofloxacin work is limited to animal studies, such as [PMID 16127904](https://pubmed.ncbi.nlm.nih.gov/16127904/) (2002, mouse plague model). Regulatory-grade primate data exist for ciprofloxacin and levofloxacin, not ofloxacin. There are no human trials, and this falls within the class's established antibacterial spectrum. |
-
-The remaining candidates (hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological system disease, hematological disease associated with an acquired peripheral neuropathy, congenital hematological disorder, punctate epithelial keratoconjunctivitis) have no clinical trials and only incidental or no literature. Fluoroquinolones are themselves associated with peripheral neuropathy, which argues against the neuropathy-related prediction.
+Please refer to the package insert for label warnings and contraindications. Those were not available for this report.
 
 ---
 
@@ -104,15 +135,14 @@ The remaining candidates (hyperamylasemia, congenital analbuminemia, blood group
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by the model score. There is no trial, no publication, and no plausible mechanistic link between a bacterial topoisomerase inhibitor and serum hyperviscosity. The two better-supported candidates, monoclonal gammopathy and septicemic plague, rest on evidence about other fluoroquinolones or on animal studies. They are research questions, not repurposing leads for ofloxacin.
+The highest-scoring predictions are unsupported by any trial or literature and have no plausible mechanism, so they should not be pursued. Septicemic plague is biologically coherent and has consistent in vitro and animal data (L4), but there are no human trials. It also falls within ofloxacin's existing antibacterial spectrum, and the only Canadian licence in the data appears to be an ophthalmic product. This makes it a research question rather than a candidate ready to advance.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are currently a blocking gap for safety screening
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Approved indication text and dosage form for the Canadian licence, to confirm the original indication and route compatibility
-- Evidence that ofloxacin itself (rather than levofloxacin or ciprofloxacin) is relevant to the monoclonal gammopathy or plague candidates, if either is to be pursued
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Confirmation of the dosage form and route for the Canadian licence, and whether a systemic formulation is available
+- Comparison with current plague guidelines, in which other fluoroquinolones and agents are already established, and any human clinical data
+- Review of the QT, tendon, neuropathy, and drug interaction signals for the intended population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

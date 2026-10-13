@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cilazapril
-parent: Model Prediction Only (L5)
-nav_order: 192
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 194
+evidence_level: L4
 indication_count: 4
 ---
 
 # Cilazapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,79 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Cilazapril is an ACE inhibitor marketed in Canada, used as an antihypertensive-class drug (the licence records do not state the approved indication).
-The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**, with a very high score (99.2%).
-However, there are **0 clinical trials** and **20 publications**, and none of the publications study cilazapril or ACE inhibitors in pulmonary hypertension, so this is a model prediction only.
-
----
+Cilazapril is an ACE inhibitor originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**,
+but the support is limited to **4 preclinical publications** (animal and cell studies) and **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records; cilazapril is an ACE inhibitor of the antihypertensive class |
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
-| TxGNN Prediction Score | 99.2% |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 99.20% |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 8 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Cilazapril is known to be an ACE inhibitor, so it blocks the renin-angiotensin-aldosterone system (RAAS). RAAS inhibition could plausibly affect pulmonary vascular remodelling, which is the only mechanistic argument the data supports.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cilazapril is an ACE inhibitor: it blocks angiotensin-converting enzyme, reducing angiotensin II formation and the vasoconstriction it causes. Its efficacy in hypertension is established.
 
-There are also reasons for caution. In pulmonary hypertension driven by hypoxia, systemic vasodilators can worsen ventilation-perfusion matching and cause hypotension. The high TxGNN score comes from a graph-based prediction and is not backed by any cilazapril-specific study.
+Hypoxic pulmonary hypertension involves pulmonary arterial ACE activity, angiotensin II-mediated vasoconstriction, and remodelling of the pulmonary vessel wall. This gives a plausible biological link to the drug's original use, since both conditions involve the renin-angiotensin system and vascular tone.
 
-The same drug has two other predictions that are mechanistically more coherent, though also unsupported by trials or literature:
-- **Malignant renovascular hypertension** (score 99.1%): strongly RAAS-dependent, so ACE inhibition fits. Renal function decline in bilateral renal artery stenosis or a solitary functioning kidney is a major concern.
-- **Malignant hypertensive renal disease** (score 99.1%): RAAS activation is involved. Hyperkalaemia and abrupt changes in blood pressure or renal function are risks in compromised kidneys.
-
-A fourth prediction, pulmonary hypertension with unclear multifactorial mechanism (99.2%), has no trials or literature and no basis for a mechanistic argument.
-
----
+However, all supporting evidence comes from rats or cultured cells. There is no human clinical data, and ACE inhibitors have not shown established benefit in human pulmonary hypertension. In patients with lung disease, hypotension and worsened gas exchange (from loss of hypoxic vasoconstriction) are potential concerns.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
-
-The 20 retrieved publications are general hypoxia papers (brain ageing, cancer, keloid, multiple sclerosis, altitude). **None studies cilazapril or ACE inhibitors in pulmonary hypertension**, so they offer no direct support. Ten are shown below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respir Care Clin N Am | Describes the basic mechanisms of hypoxaemia (low ambient oxygen, hypoventilation, V/Q mismatch, shunt); background only |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Res Rev | Hypoxia and brain ageing: role in neurodegeneration and possible neuroprotection |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metab Brain Dis | Clinical evidence and molecular mechanisms of cognitive impairment caused by hypoxia |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | J Cell Biochem | Cellular responses to hypoxia and their role in vascular disease, inflammation and cancer |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends Cancer | Deubiquitinases, HIF regulation and cancer |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clin Oncol | Modifying tumour hypoxia to improve radiotherapy and other cancer treatments |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biol | Interplay between hypoxia and multiple sclerosis pathology |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review/Commentary | Rev Med Inst Mex Seguro Soc | Hypobaric hypoxia and adaptation at high altitude |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Preclinical | Adv Sci (Weinh) | NAT10/SEPT9/HIF-1α loop drives glycolysis addiction in gastric cancer cells |
-| [33278780](https://pubmed.ncbi.nlm.nih.gov/33278780/) | 2021 | Preclinical | Redox Biol | Altered glucose metabolism in keloid fibroblasts under hypoxia |
-
----
+| [1708054](https://pubmed.ncbi.nlm.nih.gov/1708054/) | 1991 | Preclinical (rat) | J Cardiovasc Pharmacol | Cilazapril, a long-acting ACE inhibitor, was tested for preventing thickening of pulmonary artery walls in rats exposed to chronic hypoxia for 4 weeks |
+| [7712584](https://pubmed.ncbi.nlm.nih.gov/7712584/) | 1994 | Preclinical (rat) | Zhonghua Jie He He Hu Xi Za Zhi | Cilazapril protected against increased mean pulmonary arterial pressure and decreased PaO2 in a chronic hypoxic pulmonary hypertension model |
+| [10072805](https://pubmed.ncbi.nlm.nih.gov/10072805/) | 1997 | Preclinical (animal mechanistic) | Zhonghua Jie He He Hu Xi Za Zhi | Studied the role of local pulmonary arterial renin-angiotensin system in hypoxic pulmonary hypertension |
+| [1378120](https://pubmed.ncbi.nlm.nih.gov/1378120/) | 1992 | In vitro | J Cardiovasc Pharmacol | Cilazapril and captopril accelerated recovery from hypoxia in cultured myocardial cell aggregates |
 
 ## Canada Market Information
 
-Eight licences are registered; five are shown. Dosage form and approved indication text are not available in the records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02283794 | MYLAN-CILAZAPRIL | Not specified | Not specified |
+| 01911481 | INHIBACE | Not specified | Not specified |
+| 02291142 | APO-CILAZAPRIL | Not specified | Not specified |
+| 02283786 | MYLAN-CILAZAPRIL | Not specified | Not specified |
+| 02283778 | MYLAN-CILAZAPRIL | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02283794 | MYLAN-CILAZAPRIL |
-| 01911481 | INHIBACE |
-| 02291142 | APO-CILAZAPRIL |
-| 02283786 | MYLAN-CILAZAPRIL |
-| 02283778 | MYLAN-CILAZAPRIL |
-
----
+Eight valid single-ingredient authorizations are on record in total; the five above are shown. The others include APO-CILAZAPRIL (02291150), INHIBACE PLUS (02181479) and APO-CILAZAPRIL/HCTZ (02284987).
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found for this drug.
+- **Drug Interactions**: The only interaction record is the pharmacological target relationship, which confirms cilazapril acts on angiotensin-converting enzyme (ACE). No drug-drug interaction details with severity levels are available.
+- **Indication-specific concerns**: In patients with lung disease, ACE inhibition may cause hypotension and worsen gas exchange by removing hypoxic pulmonary vasoconstriction.
 
-Please refer to the package insert for warnings and contraindications.
-
-Class-level concerns relevant to the predicted uses, from general ACE-inhibitor pharmacology and not from cilazapril-specific data:
-- Hypotension and worsened ventilation-perfusion matching in hypoxic lung disease
-- Acute renal function decline in bilateral renal artery stenosis or a solitary functioning kidney
-- Hyperkalaemia and abrupt blood pressure or renal changes in compromised kidneys
-
----
+For full warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The pulmonary hypertension prediction rests on a graph-based score alone. There are no clinical trials, and none of the 20 publications concerns cilazapril or ACE inhibitors in this condition. The hypoxia-related physiology also raises a plausible safety concern.
+The prediction score is high, but the evidence is limited to four animal or in vitro studies from the 1990s, with no human data and no registered trials. ACE inhibitors have not shown established benefit in human pulmonary hypertension, and there are physiological safety concerns in patients with lung disease.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data for cilazapril (for example, from DrugBank)
-- A targeted literature search on ACE inhibitors in pulmonary hypertension, using drug-specific terms rather than generic hypoxia terms
-- Consideration of prioritising the renovascular and malignant hypertensive renal disease predictions, which are more mechanistically coherent. These would need a review of ACE-inhibitor class data and a strict renal monitoring plan.
+- Human clinical data (at least a well-designed Phase 2 study in hypoxic pulmonary hypertension)
+- Detailed mechanism of action data
+- Health Canada package insert warnings and contraindications, reviewed for the lung disease population
+- Safety plan covering blood pressure, gas exchange, renal function and potassium monitoring
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+**Other predicted indications (for reference):**
+- Pulmonary hypertension with unclear multifactorial mechanism (score 99.20%): L5, no trials or literature; Hold.
+- Malignant renovascular hypertension (score 99.12%): L5, mechanistically plausible but largely overlaps the existing hypertension indication; carries a risk of acute renal failure in bilateral renal artery stenosis or solitary kidney; Hold.
+- Malignant hypertensive renal disease (score 99.12%): L5, prediction only, an extension of the existing indication; would need renal function and potassium monitoring; Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

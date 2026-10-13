@@ -2,7 +2,7 @@
 layout: default
 title: Tamsulosin
 parent: Model Prediction Only (L5)
-nav_order: 874
+nav_order: 881
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tamsulosin: From Its Marketed Use to Ambras Type Hypertrichosis Universalis Congenita
+# Tamsulosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Tamsulosin is an alpha-1A/1D adrenergic antagonist marketed in Canada. The Evidence Pack does not record its approved indication.
-The TxGNN model ranks **Ambras type hypertrichosis universalis congenita** as its top predicted new use, with a very high graph score.
-There are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
+Tamsulosin is an alpha-1 adrenoceptor antagonist originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+This is a model-only prediction with no biological rationale, and it should be treated as a computational artifact.
 
 ---
 
@@ -43,7 +43,7 @@ There are **0 clinical trials** and **0 publications** supporting this predictio
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the available data |
+| Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.996% |
 | Evidence Level | L5 |
@@ -55,11 +55,11 @@ There are **0 clinical trials** and **0 publications** supporting this predictio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Tamsulosin is known to be an alpha-1A/1D adrenergic antagonist, but its original indication is not recorded, so the prediction cannot be cross-checked against it.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tamsulosin is an alpha-1A/1D adrenoceptor antagonist. It relaxes smooth muscle in the prostate and bladder neck, which is why it works in BPH.
 
-Ambras syndrome is a rare congenital disorder of hair-follicle development. No known pathway connects alpha-1 adrenergic blockade to hair-follicle development. The very high TxGNN score (0.99996) most likely reflects proximity in the knowledge graph, not a pharmacological rationale.
+The new indication does not follow from this mechanism. Ambras syndrome is a rare genetic disorder caused by a chromosomal rearrangement affecting regulation of the *TRPS1* gene. Alpha-1 blockade has no known role in promoting hair growth. Hypertrichosis is also not a recognised effect of alpha-blockers.
 
-The other top predictions show the same pattern. They are mostly hair and hair-shaft disorders (hypertrichosis, hypotrichosis, alopecia, genetic hair shaft abnormality), plus rare congenital malformation syndromes and migraine with brainstem aura. All are rated L5 with a Hold recommendation, and none has an identified mechanistic link to alpha-1 blockade.
+The very high score (0.99996) most likely reflects network proximity to hair-related phenotypes in the knowledge graph, not biological evidence. The other top-ranked predictions show the same pattern. They are dominated by hair and congenital conditions: hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia areata and alopecia. None has clinical or literature support for tamsulosin.
 
 ---
 
@@ -71,31 +71,48 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked prediction.
 
-For other candidates, the retrieved literature is only indirect background:
-- **Malformation syndrome with odontal and/or periodontal component (rank 3):** 20 publications on periodontitis in general (guidelines, microbiology, diabetes association). None mention tamsulosin.
-- **Alopecia (rank 9):** 2 publications. PMID [33175100](https://pubmed.ncbi.nlm.nih.gov/33175100/) concerns finasteride, a different drug class. PMID [32826647](https://pubmed.ncbi.nlm.nih.gov/32826647/) reports meibomian gland changes in men with BPH. Neither shows tamsulosin treating hair loss.
+For the broader hair-loss area (alopecia, rank 9), two papers were retrieved. Neither shows tamsulosin efficacy:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33175100](https://pubmed.ncbi.nlm.nih.gov/33175100/) | 2021 | Cohort / pharmacovigilance | JAMA Dermatology | Suicidality and psychological adverse events with finasteride, a different drug used for alopecia and BPH |
+| [32826647](https://pubmed.ncbi.nlm.nih.gov/32826647/) | 2021 | Cross-sectional | Cornea | Meibomian gland changes in men with BPH, an ocular observation unrelated to hair loss |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2413612 | TAMSULOSIN CR |
-| 2427117 | TAMSULOSIN CR |
-| 2545179 | AURO-TAMSULOSIN CR |
-| 2368242 | TEVA-TAMSULOSIN CR |
-| 2319217 | SANDOZ TAMSULOSIN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02413612 | TAMSULOSIN CR | Not specified | Not specified |
+| 02427117 | TAMSULOSIN CR | Not specified | Not specified |
+| 02545179 | AURO-TAMSULOSIN CR | Not specified | Not specified |
+| 02368242 | TEVA-TAMSULOSIN CR | Not specified | Not specified |
+| 02319217 | SANDOZ TAMSULOSIN | Not specified | Not specified |
 
-Showing 5 of 10 authorizations.
+Five of the 10 valid single-ingredient authorisations are listed here.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication-related conditions (from the knowledge graph, not label text):**
+- Multiple system atrophy
+- Postural orthostatic tachycardia syndrome
+- Orthostatic hypotension
+- Liver disease
+- Gallbladder disease
+- Priapism
+- Intraoperative floppy iris syndrome
+
+**Drug Interactions:** 100 interactions were identified. The most clinically important is:
+- **Major:** Clarithromycin
+
+Moderate-level interactions include bupropion, aprepitant, morphine, cimetidine, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, miconazole, clotrimazole, fenfluramine and opium.
+
+Label-based warnings and contraindications were not available. Please refer to the package insert for the full safety information.
 
 ---
 
@@ -104,12 +121,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials, no relevant literature, and no plausible mechanism. It is a graph-based signal only (L5), and the same holds for the other nine predicted indications.
+The prediction rests only on a graph-based model score. There are no clinical trials or publications, and no plausible mechanism links alpha-1 adrenoceptor blockade to hypertrichosis or the other predicted conditions. The other nine top predictions are in the same position.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action and original indication data (for example from DrugBank), to enable a cross-check of the prediction
-- Any mechanistic or preclinical evidence linking alpha-1 adrenergic blockade to hair-follicle biology, before further investment in this candidate
+- Mechanism of action data to assess any mechanistic link
+- Package insert warnings and contraindications from Health Canada, which are required before safety screening
+- Any preclinical or clinical signal for tamsulosin in hair or congenital disorders. Without it, the prediction should be deprioritised.
+- A review of any hair-related signals as possible adverse or off-target effects rather than therapeutic opportunities
+- If repurposing is still pursued, a more plausible candidate indication among the lower-ranked predictions, assessed on its own evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

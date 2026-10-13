@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Diphenylpyraline
-parent: Model Prediction Only (L5)
-nav_order: 288
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 290
+evidence_level: L4
 indication_count: 3
 ---
 
 # Diphenylpyraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Diphenylpyraline: From an Unrecorded Original Indication to Allergic Urticaria
+# Diphenylpyraline: From Allergic Rhinitis to Allergic Urticaria
 
 ## One-Sentence Summary
 
-The record does not list an original indication for diphenylpyraline. It is marketed in Canada under 2 licences, but no approved indication text is available.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
+Diphenylpyraline is a first-generation antihistamine originally used for allergic and vasomotor rhinitis, the common cold, pharyngitis, allergic conjunctivitis, and urticaria.
+The TxGNN model predicts it may be effective for **allergic urticaria**, but **no clinical trials and no publications** were found to support this prediction.
+Allergic urticaria falls close to an existing indication (urticaria), so this is closer to an on-label use than true repurposing.
 
 ---
 
@@ -42,10 +43,10 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the record |
+| Original Indication | Allergic rhinitis (the Canadian license records contain no indication text; the original indications come from the TxGNN knowledge graph) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.61% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
@@ -54,13 +55,13 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general drug-class knowledge (not the supplied record), diphenylpyraline is a first-generation H1 antihistamine. H1 receptor blockade is the standard mechanism for symptomatic relief of histamine-mediated conditions such as urticaria, so the top prediction is mechanistically plausible.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known drug class information, diphenylpyraline is a first-generation H1 antihistamine with anticholinergic activity. Blocking H1 receptors reduces the histamine-driven wheal and flare seen in urticaria, and the anticholinergic effect may reduce nasal secretions.
 
-This may therefore be an existing class-level use rather than true repurposing. The label and regulatory status in each jurisdiction should be checked before treating it as a new candidate. The TxGNN score (0.996) is a computational prediction only.
+The knowledge graph already lists urticaria and angioedema among the drug's original indications. Allergic urticaria is therefore essentially a subtype of an existing indication. The high score (0.996) is consistent with this overlap, but it mostly reflects near-label use rather than a new therapeutic direction.
 
-The other two predictions are weaker:
-- **Acute laryngopharyngitis (99.23%)**: No clear mechanistic link is supported by the data. The condition is mostly infectious or irritant-driven, and the drying effect of anticholinergic antihistamines could be unhelpful.
-- **Nasal cavity disease (99.15%)**: H1 antagonism may ease sneezing, rhinorrhea and itching in allergic nasal conditions. The term is too broad to tie to a defined condition.
+Two other predictions were also generated, both with model support only and no trials or literature:
+- **Acute laryngopharyngitis** (score 99.23%): Related to the labeled pharyngitis and common cold indications. Most cases are infectious, so antihistamines would give symptom relief at best.
+- **Nasal cavity disease** (score 99.15%): A broad category that overlaps with allergic and vasomotor rhinitis. It is too general to form a specific, testable hypothesis.
 
 ---
 
@@ -80,16 +81,24 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 299561 | CREO-RECTAL ADULTES/ADULTS | — | — |
-| 299596 | CREO-RECTAL ENFANTS/CHILDREN | — | — |
+| 00299561 | CREO-RECTAL ADULTES/ADULTS | Not specified | Not specified |
+| 00299596 | CREO-RECTAL ENFANTS/CHILDREN | Not specified | Not specified |
 
-Dosage form and approved indication text are not available for either licence.
+Both products are valid single-ingredient licenses, and none are cancelled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications from the knowledge graph** (derived from drug-disease relationships in the knowledge graph, not from package insert text):
+- Hypertensive disorder / hypertension
+- Peptic ulcer disease
+- Benign prostatic hyperplasia
+- Ocular hypertension, angle-closure glaucoma, closed-angle glaucoma
+- Hyperthyroidism, Graves disease, thyrotoxicosis
+- Bladder neck obstruction
+
+No drug interaction records were found. Please refer to the package insert for warnings and other safety information.
 
 ---
 
@@ -98,14 +107,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trial or literature support (Evidence Level L5, stage S0). The mechanism of action and the Canadian labelled indications are both missing, so it is unclear whether allergic urticaria is a new use or an existing class-level use.
+The prediction score is high, but there are no clinical trials or publications for any of the three predicted indications. Allergic urticaria largely overlaps with an existing indication, so the prediction adds little new information. Safety screening cannot proceed because the Canadian package insert data are missing.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert (warnings, contraindications and approved indications), which currently blocks safety screening
+- Health Canada package insert (warnings, contraindications, approved indications) for both DINs
 - Mechanism of action data from DrugBank
-- A search for trials and literature on diphenylpyraline in allergic urticaria
-- Confirmation of whether allergic urticaria is already a labelled use in Canada or elsewhere
-- A route-of-administration compatibility assessment
+- Dosage form and route information for the Canadian products, so route compatibility can be assessed (the products appear to be rectal formulations)
+- A literature and trial search specific to diphenylpyraline in urticaria
+- Review of the knowledge-graph contraindications against the intended patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Yellow Fever Vaccine
-parent: Model Prediction Only (L5)
-nav_order: 980
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 987
+evidence_level: L4
 indication_count: 10
 ---
 
 # Yellow Fever Vaccine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,26 +33,27 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Yellow Fever Vaccine (YF-VAX) is a live attenuated vaccine used to prevent yellow fever.
-The TxGNN model predicts it may be effective for **plasma cell myeloma**, but there are **0 clinical trials** and only **1 publication**, a case report on vaccine safety rather than anti-myeloma activity.
+Yellow Fever Vaccine is a live-attenuated virus vaccine licensed in Canada under the product name YF-VAX. The TxGNN model predicts it may be relevant to **plasma cell myeloma**, but no clinical trials are registered and only **1 publication** (a case report on vaccine safety, not treatment) exists. The prediction is not supported by a plausible therapeutic mechanism.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Yellow fever prevention (immunization). The license record has no indication text, so this is inferred from the product type. |
+| Original Indication | Not available in the Canadian license data compiled for this report (the vaccine is generally used to prevent yellow fever) |
 | Predicted New Indication | Plasma cell myeloma |
 | TxGNN Prediction Score | 97.98% |
-| Evidence Level | L4 (as assigned in the Evidence Pack; the only study is a safety case report, so the practical level is close to L5) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Yellow Fever Vaccine is a live attenuated viral vaccine (17D strain) that induces immunity against yellow fever virus. Its efficacy in yellow fever prevention is established, but no mechanism links it to treating plasma cell myeloma.
+Currently, detailed mechanism of action data is not available. Yellow Fever Vaccine is a live-attenuated (17D) virus vaccine that induces protective immunity against yellow fever virus. It has no known anti-myeloma activity.
 
-The only related literature describes a patient with myeloma who received the vaccine safely after a bone marrow transplant. This shows the vaccine can be given in some immunocompromised patients. It does not show any anti-myeloma effect. The high TxGNN score (97.98%) is a graph-based prediction with no clinical support. The same applies to the other top-ranked predictions, such as indolent plasma cell myeloma, heart disease and the sickle cell disease variants. Several of the sickle cell variants share an identical score, which suggests a graph artifact rather than a disease-specific signal.
+The review of the available data found no credible biological link between yellow fever vaccination and treating plasma cell myeloma. The only publication (PMID 15089771) describes a patient who was vaccinated safely 2.5 years after a bone marrow transplant for myeloma. That concerns vaccine safety in an immunocompromised patient, not disease treatment. The high TxGNN score most likely reflects associations within the knowledge graph rather than a biological rationale.
+
+Other top-ranked predictions show the same pattern: indolent plasma cell myeloma, heart disease, Jeune syndrome with situs inversus, interventricular septum aneurysm, Pierre Robin syndrome with chromosomal anomaly, and several sickle cell disease variants. Most have no trials or literature. The identical scores across the sickle cell variants suggest a shared graph artifact.
 
 ## Clinical Trial Evidence
 
@@ -62,34 +63,36 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15089771](https://pubmed.ncbi.nlm.nih.gov/15089771/) | 2004 | Case report | European Journal of Haematology | A patient vaccinated 2.5 years after bone marrow transplantation for myeloma responded to the live attenuated 17D yellow fever vaccine without adverse effects. This is a safety observation, not evidence of treatment benefit. |
+| [15089771](https://pubmed.ncbi.nlm.nih.gov/15089771/) | 2004 | Case report | European Journal of Haematology | A patient was successfully vaccinated with the 17D live-attenuated yellow fever vaccine 2.5 years after bone marrow transplantation for myeloma, with no adverse effects. This addresses vaccine safety, not myeloma treatment. |
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 428833 | YF-VAX | Not specified | Not specified |
-
-The license number comes from the regulatory record in the Evidence Pack, which lists no dosage form, manufacturer or indication text.
+| 00428833 | YF-VAX | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this product.
+**Drug Interactions**: The interaction query completed with 100 recorded interactions. Most listed entries are rated Major:
+- **Corticosteroids**: hydrocortisone, prednisone, prednisolone, methylprednisolone, dexamethasone, betamethasone, triamcinolone (all Major); budesonide and ophthalmic triamcinolone (Moderate)
+- **Immunosuppressants and immune-modulating agents**: tacrolimus, dupilumab, corticotropin, levamisole (all Major)
+- **Cytotoxic or antimetabolite agents**: mercaptopurine, trimetrexate, dexrazoxane (all Major)
+- **Radiopharmaceuticals and radioimmunotherapies**: iobenguane (I-131), ibritumomab tiuxetan, tositumomab, tositumomab (I-131) (all Major)
 
-The case report involved a live attenuated vaccine given to a patient who was not severely immunosuppressed. Any use in myeloma patients would need careful review.
+These interactions are consistent with the general concern of giving a live vaccine to patients with suppressed immunity. For the full safety profile, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no trials, and the single publication is a safety case report with no efficacy signal. No plausible mechanism has been identified for a live attenuated vaccine to treat a plasma cell neoplasm.
+The prediction rests on a model score alone. There are no registered trials, and the single publication is a case report on vaccination safety after transplant, not on efficacy against myeloma. As a live vaccine, it also carries interaction and safety concerns in the immunocompromised patients that myeloma involves.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example from DrugBank) to assess any biological link to myeloma
-- Package insert warnings and contraindications from Health Canada, especially for immunocompromised patients
-- Preclinical or clinical studies that test anti-myeloma activity, if the hypothesis is pursued
-- Confirmation of the original indication, dosage form and manufacturer in the license record
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, and a biologically plausible rationale for anti-myeloma activity
+- Original approved indication text from the Canadian license record
+- Any preclinical or clinical evidence of therapeutic effect, as opposed to vaccine safety, in myeloma
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Carbon Monoxide
 parent: Model Prediction Only (L5)
-nav_order: 156
+nav_order: 158
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbon Monoxide: From Lung Diffusion Test Gas to Sclerosing Cholangitis
+# Carbon Monoxide: From Pulmonary Diffusion Testing Gas to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Carbon monoxide (CO) is marketed in Canada only as components of gas mixtures whose product names indicate lung diffusion testing. The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model's graph-based score alone.
+Carbon monoxide is marketed in Canada only as components of gas mixtures. The product names point to lung diffusion testing, but no approved indication text is on file.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**.
+There are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ---
 
@@ -41,7 +43,7 @@ Carbon monoxide (CO) is marketed in Canada only as components of gas mixtures wh
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the regulatory data. Product names suggest diagnostic lung diffusion testing (inferred) |
+| Original Indication | Not stated in the licence data (product names suggest lung diffusion test gas mixtures) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L5 |
@@ -53,44 +55,42 @@ Carbon monoxide (CO) is marketed in Canada only as components of gas mixtures wh
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug. CO is not a conventional therapeutic drug in Canada. The listed products are multi-gas mixtures (CO with helium, neon, oxygen and nitrogen) whose names point to lung diffusion testing rather than treatment.
+Detailed mechanism-of-action data is not available for carbon monoxide. Endogenous carbon monoxide is produced when heme oxygenase breaks down heme. At low concentrations it has anti-inflammatory and cytoprotective effects. This is the only plausible link to a chronic inflammatory bile duct disease such as sclerosing cholangitis.
 
-The only plausible link is speculative. The body produces CO through the heme oxygenase-1 (HO-1) pathway, and this pathway has anti-inflammatory and cytoprotective effects. This could in theory apply to inflammatory bile duct disease. However, no trials or publications retrieved for this indication support the idea. The 99.75% score reflects proximity in the knowledge graph, not clinical validation.
-
-Inhaled CO is also toxic because it forms carboxyhemoglobin and reduces oxygen delivery. Any therapeutic use would need strict dose control.
+This link is speculative. The data compiled for this report contain no clinical or literature evidence connecting carbon monoxide to sclerosing cholangitis. The relationship between the drug's current use (a diagnostic gas for lung function testing) and the predicted liver and bile duct indication has not been assessed. Whether an inhaled gas can reach the target tissue at a safe dose is also unassessed. The high score should be treated as a hypothesis, not as support for efficacy.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for sclerosing cholangitis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for sclerosing cholangitis.
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2154773 | CO-HE-O2-N2 MIXTURE |
-| 2014424 | CARBON MONOX, HELIUM, OXYGEN, NITROGEN L.D.M. |
-| 2182238 | CO-NE-O2-N2 MIXTURE |
-| 588075 | LUNG DIFFUSION TEST MIX NO NE CO |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02154773 | CO-HE-O2-N2 Mixture | Not stated | Not stated |
+| 02014424 | Carbon Monox, Helium, Oxygen, Nitrogen L.D.M. | Not stated | Not stated |
+| 02182238 | CO-NE-O2-N2 Mixture | Not stated | Not stated |
+| 00588075 | Lung Diffusion Test Mix NO NE CO | Not stated | Not stated |
 
-Dosage form and approved indication text are not available in the source data.
+All four authorizations are valid single-ingredient licences.
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found for this drug.
+Please refer to the package insert for safety information.
 
-Please refer to the package insert for other safety information.
+Carbon monoxide is a recognised toxic gas. It binds hemoglobin and causes tissue hypoxia. Any therapeutic use would require strict control of carboxyhemoglobin levels.
 
 ---
 
@@ -99,16 +99,15 @@ Please refer to the package insert for other safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no supporting trials or literature. CO's known toxicity and the absence of a therapeutic product in Canada argue against advancing it for sclerosing cholangitis.
+The prediction has no supporting trials or publications, so the evidence level is L5. The link to sclerosing cholangitis is mechanistically speculative. No indication text or safety label data is available for the Canadian products.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data (for example, from DrugBank)
-- Preclinical evidence that CO or CO-releasing molecules affect cholangiopathy models
-- A clear route, dose and delivery approach that addresses carboxyhemoglobin toxicity
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- A targeted literature search on the heme oxygenase/carbon monoxide pathway in cholestatic and bile duct disease
+- An assessment of route compatibility and a safe dosing strategy for the target tissue
 
-**Other candidates worth a look:**
-The pulmonary hypertension prediction (score 99.15%) has more support at L4, rated "Research Question". It rests on preclinical work (for example PMID 16908624, CO reversing established pulmonary hypertension) and a small phase 1 inhaled-CO neonatal trial (NCT01818843, status unknown, 24 participants). Most other retrieved records concern DLCO as a diagnostic test, not CO as a therapy. The ventricular tachycardia and glaucoma hits point toward harm, not benefit.
+**Note on other predictions:** Among the top 10 predictions, **pulmonary hypertension** (rank 8, L3) has the most relevant evidence. This includes preclinical work showing carbon monoxide reversing established pulmonary hypertension, a phase 1 trial of inhaled carbon monoxide in neonatal pulmonary hypertension (NCT01818843, n=24, status unknown), and a withdrawn phase 1/2 trial in severe pulmonary arterial hypertension (NCT01523548, n=0). It may be a better candidate for follow-up as a research question. Several cardiac-rhythm predictions are contradicted by evidence that carbon monoxide is arrhythmogenic.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

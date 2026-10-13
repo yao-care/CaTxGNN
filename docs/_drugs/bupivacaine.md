@@ -2,7 +2,7 @@
 layout: default
 title: Bupivacaine
 parent: Model Prediction Only (L5)
-nav_order: 132
+nav_order: 134
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,93 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Bupivacaine: From Local Anesthesia to Acrodermatitis Chronica Atrophicans
+# Bupivacaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
 
 ## One-Sentence Summary
 
-Bupivacaine is an amide local anesthetic that blocks voltage-gated sodium channels. The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans** (score 99.23%), but **no clinical trials and no publications** currently support this direction. The prediction is model output only, with no plausible pharmacological rationale, so the recommendation is **Hold**.
-
----
+Bupivacaine is an amide local anaesthetic whose original indication in the knowledge graph is dermatitis.
+The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**,
+but **no clinical trials and no publications** currently support this direction. The prediction is a computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the licence data (drug class: amide local anesthetic) |
+| Original Indication | Dermatitis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 16 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Bupivacaine is known as an amide local anesthetic that blocks voltage-gated sodium channels. Its efficacy in local anesthesia and nerve block is well established, but the Evidence Pack does not record its original indications.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, bupivacaine is an amide local anaesthetic that blocks voltage-gated sodium channels and so interrupts nerve conduction.
 
-**The prediction is not mechanistically supported.** Acrodermatitis chronica atrophicans is the late skin manifestation of *Borrelia* infection (Lyme borreliosis), so the treatment target is the pathogen. Sodium channel blockade does not address that target. The high score (0.992) reflects a knowledge-graph association only.
+Acrodermatitis chronica atrophicans is the late skin manifestation of Borrelia infection (Lyme disease), and its standard treatment is antibiotic therapy. Sodium channel blockade does not address the infection. The only plausible role for bupivacaine is symptomatic relief of neuropathic pain, which is speculative. The link to the original indication (dermatitis) is weak, so the high score of 0.992 should be read as a graph-based association and not as evidence of a mechanism.
 
-The other top predictions for this drug are also unsupported:
+Other top-ranked predictions show the same pattern:
 
-- **Neonatal dermatomyositis** (score 99.15%)
-- **Childhood secondary interstitial lung disease associated with a connective tissue disease** (score 99.11%)
-- **Amyopathic dermatomyositis** (score 99.03%)
+| Rank | Predicted Indication | Score | Comment |
+|------|------|------|------|
+| 2 | Neonatal dermatomyositis | 99.15% | Immune-mediated disease. Sodium channel blockade does not address its pathology. Bupivacaine is myotoxic at high concentrations, and neonates are at risk of systemic local anaesthetic toxicity. |
+| 3 | Secondary childhood interstitial lung disease associated with a connective tissue disease | 99.11% | No credible mechanism. Bupivacaine would only serve procedural analgesia, which is not disease-modifying. |
+| 4 | Amyopathic dermatomyositis | 99.03% | Possible symptomatic relief of skin pain or itch only. Standard therapy relies on immunomodulators and photoprotection. |
 
-Three of the four predictions are dermatomyositis-spectrum diseases. This clustering suggests a shared knowledge-graph neighborhood artifact rather than independent biological signals.
-
----
+All four predictions are at evidence level L5 with a recommendation of Hold.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Bupivacaine has 16 licences in Canada. The five main ones are listed below. Dosage form and approved indication text are not available for these entries.
+Bupivacaine has 16 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved indication text are not available in the data compiled for this report. The first five are listed below.
 
 | DIN | Product Name |
 |---------|------|
-| 2241917 | MARCAINE |
-| 2443694 | BUPIVACAINE INJECTION BP |
-| 2460645 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP |
-| 2512424 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP |
-| 1976168 | SENSORCAINE |
-
----
+| 02241917 | MARCAINE |
+| 02443694 | BUPIVACAINE INJECTION BP |
+| 02460645 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP |
+| 02512424 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP |
+| 01976168 | SENSORCAINE |
 
 ## Safety Considerations
 
-- **Myotoxicity:** Bupivacaine is known to be myotoxic. This is a specific concern for the predicted dermatomyositis-spectrum indications, which involve inflammatory muscle disease.
-- **Drug Interactions:** No interaction records were found for this drug.
+- **Contraindication signals from the knowledge graph** (graph-derived associations, not label text): hypertension and hypertensive disorder, liver failure and liver disease, kidney disease, epilepsy, COPD, respiratory failure, coronary artery disease, myocardial infarction, atrial fibrillation, sudden cardiac arrest, heart conduction disease, diabetes mellitus and diabetic ketoacidosis, hypothyroidism and myxedema, inflammatory bowel disease, benign prostatic hyperplasia, angle-closure glaucoma, hemoglobinopathy, substance abuse/dependence, and others.
+- **Drug interactions:** 56 interactions were identified. Those with a known severity level are **Moderate**: aprepitant and liposomal morphine. Others, including pantoprazole, omeprazole, lansoprazole, vancomycin, atropine, corticosteroids (triamcinolone, prednisone, hydrocortisone, prednisolone, dexamethasone), simvastatin, ondansetron, metronidazole and naloxone, have no severity classification.
+- **Specific concerns for the predicted indications:** bupivacaine is myotoxic at high concentrations, which matters in inflammatory muscle disease. Neonates carry a higher risk of local anaesthetic systemic toxicity.
 
-Please refer to the package insert for warnings and contraindications.
-
----
+Warnings and contraindications from the Canadian package inserts were not available. Please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no clinical trials or publications, and no plausible mechanism links sodium channel blockade to a *Borrelia*-driven skin condition. The score is high, but nothing independent supports it.
+The predictions rest only on a knowledge-graph score, with no trials or publications. The mechanisms are implausible or speculative, and some indications carry specific safety concerns, such as myotoxicity and neonatal toxicity.
 
 **To proceed, the following is needed:**
-- Mechanism of action and original indication data (from DrugBank)
-- Health Canada package insert warnings and contraindications, needed before any safety screening
-- Any independent clinical or literature evidence linking bupivacaine to the predicted indication
-- Route compatibility assessment, which is still pending
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications, which are currently a blocking gap for safety screening
+- Mechanism of action data, for example from DrugBank
+- A systematic literature and trial search for bupivacaine in the predicted conditions, especially pain relief in acrodermatitis chronica atrophicans
+- Review of route compatibility and approved indication text for the Canadian products
+- A clearer link between the original indication (dermatitis) and each predicted indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

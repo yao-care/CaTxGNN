@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Larotrectinib
-parent: Moderate Evidence (L3-L4)
-nav_order: 522
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 527
+evidence_level: L5
 indication_count: 10
 ---
 
 # Larotrectinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Larotrectinib: From NTRK-Fusion Solid Tumors to Multiple Endocrine Neoplasia
+# Larotrectinib: From NTRK Fusion-Positive Solid Tumours to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Larotrectinib is a selective TRK (NTRK1/2/3) inhibitor, marketed in Canada as VITRAKVI and used tumor-agnostically for NTRK-fusion solid tumors.
-The TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)**, but the support is thin: **1 clinical trial** (a broad basket trial, not MEN-specific) and **2 publications** (neither tests larotrectinib in MEN).
+Larotrectinib (marketed in Canada as VITRAKVI) is a selective TRK kinase inhibitor. The Canadian licence text compiled for this report does not state an approved indication, but the literature identifies it as a tumour-agnostic therapy for NTRK fusion-positive cancers.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)**, but only **1 clinical trial** (a broad, indirect basket trial) and **2 publications** are linked to this prediction, so the evidence is indirect and weak.
 
 ---
 
@@ -42,9 +42,10 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia 
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the Canadian licence data compiled for this report (literature describes NTRK fusion-positive solid tumours) |
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.24% |
-| Evidence Level | L4 |
+| Evidence Level | L3 (indirect; no MEN-specific trial) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
@@ -53,11 +54,11 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, larotrectinib is a selective inhibitor of the TRK receptor tyrosine kinases (NTRK1/2/3). Its efficacy is established in solid tumors that carry NTRK gene fusions.
+Detailed mechanism-of-action data is not available in the data compiled for this report. From the literature, larotrectinib is a selective inhibitor of the TRK receptors (NTRK1/2/3). It is used as a tumour-agnostic therapy for cancers driven by NTRK gene fusions.
 
-The link to MEN is indirect. MEN syndromes, especially MEN2, are driven mainly by **RET** mutations, not NTRK. The only shared ground is that both are receptor tyrosine kinase pathways in endocrine tumors. The supplied data show no direct RET activity or MEN-specific activity for larotrectinib.
+The link to multiple endocrine neoplasia is indirect. MEN-associated tumours, such as medullary thyroid carcinoma, are driven mainly by **RET** alterations rather than NTRK. The supporting literature discusses kinase-inhibitor therapy in advanced thyroid cancer and resistance mechanisms in RET-driven cancers. The NCI-MATCH trial assigns patients by molecular alteration, including NTRK fusions, and not by MEN diagnosis. Benefit would therefore be expected only in the rare patients whose tumours carry an NTRK fusion.
 
-The very high graph score (0.992) therefore reflects proximity in the knowledge graph rather than demonstrated biology. Any benefit would most plausibly be limited to the rare patient whose tumor carries an NTRK fusion.
+The very high TxGNN score is a computational prediction. No MEN-specific clinical data support it.
 
 ---
 
@@ -65,7 +66,7 @@ The very high graph score (0.992) therefore reflects proximity in the knowledge 
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | Active, not recruiting | 6452 | NCI-MATCH: a single-arm, biomarker-directed basket trial in advanced, refractory solid tumors, lymphomas and myelomas. It is not MEN-specific, and a larotrectinib arm would apply only to NTRK-fusion tumors, so it offers no direct MEN evidence. |
+| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | Active, not recruiting | 6452 | NCI-MATCH: single-arm basket trial of genetically directed therapy in advanced, refractory solid tumours, lymphomas and myeloma, including a larotrectinib arm for NTRK fusion-positive tumours. It is not MEN-specific, so support is indirect. |
 
 ---
 
@@ -73,18 +74,18 @@ The very high graph score (0.992) therefore reflects proximity in the knowledge 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | Overview of kinase inhibitor therapy for advanced thyroid cancer, including approved multikinase and mutation-specific agents. It is background for endocrine tumors, not evidence for larotrectinib in MEN. |
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Preclinical / case report | NPJ Precision Oncology | Off-target resistance mechanisms to selective RET inhibition (selpercatinib) in RET-driven medullary thyroid carcinoma. It concerns RET inhibitors, not larotrectinib. |
+| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | Kinase-inhibitor therapy for advanced thyroid cancer. Approved drugs are mostly antiangiogenic multikinase inhibitors, plus some mutation-specific options. |
+| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Preclinical/Mechanistic | NPJ Precision Oncology | Resistance to selective RET inhibitors (selpercatinib) in a patient with medullary thyroid carcinoma, mediated by alternative oncogenes. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2490331 | VITRAKVI |
-| 2490315 | VITRAKVI |
-| 2490323 | VITRAKVI |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02490331 | VITRAKVI | Not specified | Not specified |
+| 02490315 | VITRAKVI | Not specified | Not specified |
+| 02490323 | VITRAKVI | Not specified | Not specified |
 
 ---
 
@@ -92,17 +93,23 @@ The very high graph score (0.992) therefore reflects proximity in the knowledge 
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (TRK kinase inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (selective TRK kinase inhibitor), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions (typically blood counts, liver and renal function) |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs. Most are rated Moderate, with a few rated Minor. One is rated **Major**: **clarithromycin**. Moderate interactions include:
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide
+  - Acid suppressants: omeprazole, cimetidine
+  - Antiemetics: aprepitant, dolasetron
+  - Other examples: pioglitazone, saxagliptin, cisapride, clotrimazole
+
+Package insert warnings and contraindications for Canada were not available in the data compiled for this report. Please refer to the package insert for the full safety information.
 
 ---
 
@@ -111,15 +118,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on graph proximity rather than biology: MEN is RET-driven, and the only trial is a non-specific basket study. No study tests larotrectinib in MEN. The other nine predicted indications are weaker still. Most have no supporting evidence, and several (cytomegalovirus, bovine diseases) look like knowledge-graph artifacts. The one partial exception is PR-negative breast cancer, where the completed Phase 2 NTRK-fusion basket trial (NCT02576431) is relevant only to NTRK-fusion tumors.
+The MEN prediction rests on a high model score and indirect evidence only. The one linked trial is a tumour-agnostic basket study. The literature concerns RET-driven thyroid cancer, not NTRK-driven disease. Larotrectinib would be plausible only in NTRK fusion-positive patients, who are already covered by its tumour-agnostic use.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (DrugBank) and any evidence of larotrectinib activity against RET or MEN-associated tumors
-- Health Canada package insert warnings and contraindications
-- Data on NTRK-fusion frequency in MEN-associated tumors, or reported cases of larotrectinib response in such patients
-- Approved indication text for the three DINs
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)
+- Approved indication text and dosage forms for the Canadian licences
+- Detailed mechanism-of-action data
+- Evidence on how often NTRK fusions occur in MEN-associated tumours, and MEN-specific case or cohort data
+- A drug-interaction management plan, particularly for strong CYP3A4 inhibitors such as clarithromycin
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Candesartan Cilexetil
 parent: Model Prediction Only (L5)
-nav_order: 149
+nav_order: 151
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,84 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Candesartan Cilexetil: From an Unrecorded Original Indication to Malignant Hypertensive Renal Disease
+# Candesartan Cilexetil: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Candesartan cilexetil is an angiotensin II type 1 receptor blocker marketed in Canada, but the supplied data records no original indication.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but **0 clinical trials** and **0 publications** currently support this prediction.
-The prediction rests on the model score alone.
-
----
+Candesartan cilexetil is an angiotensin II receptor blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but **no clinical trials and no publications** currently support this specific prediction, so it remains a model-based research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension / hypertensive disorder (the Canadian licence records provide no indication text, so this comes from the knowledge graph) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.68% |
-| Evidence Level | L5 |
+| Evidence Level | L4 (indirect, class-level mechanistic reasoning only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Candesartan cilexetil is an angiotensin II type 1 receptor blocker (ARB). This description comes from general pharmacology, not from the supplied data. Mechanistically, it may be applicable to malignant hypertensive renal disease.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, candesartan cilexetil is an angiotensin II type 1 receptor blocker (ARB). Its efficacy in hypertension is established, and mechanistically it may be applicable to hypertension-driven kidney disease.
 
-Activation of the renin-angiotensin system is thought to drive the vascular injury and glomerular damage seen in malignant hypertension. Blocking angiotensin II signalling is therefore biologically plausible. However, the model score (99.68%) is a computational prediction only. No trials or literature back it up.
+Malignant hypertensive renal disease involves severe, accelerated hypertension with overactivation of the renin-angiotensin-aldosterone system (RAAS). Blocking angiotensin II signalling is therefore biologically plausible. The new indication is essentially an extension of the approved hypertension indication, which makes the prediction coherent.
 
-The other predicted indications are weaker. They are malignant renovascular hypertension, two forms of pulmonary hypertension, and Braddock syndrome. All are rated Hold and none has supporting evidence. The 20 articles retrieved for the pulmonary hypertension prediction concern general hypoxia biology. None mention candesartan or ARBs, so they were treated as keyword-match noise. The Braddock syndrome score is likely a knowledge-graph artifact.
+This support is indirect, though. It rests on class-level reasoning and the model score, not on disease-specific clinical data. A high TxGNN score reflects network-level associations and does not replace clinical evidence.
 
----
+Other predictions in the same analysis:
+
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Malignant renovascular hypertension | 99.68% | L4 | Angiotensin II is central to this condition, but ARBs carry a risk of acute renal function decline in bilateral renal artery stenosis or a solitary kidney |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.67% | L4 | The two retrieved publications do not directly support it; systemic vasodilators may worsen ventilation-perfusion matching |
+| Pulmonary hypertension with unclear multifactorial mechanism | 99.67% | L5 | Model prediction only |
+| Braddock syndrome | 99.56% | L5 | No clear mechanistic connection identified |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for the leading prediction (malignant hypertensive renal disease).
 
 ## Canada Market Information
 
-Health Canada lists 20 licences in total. Five are shown below. Dosage form and approved indication text are not available in the supplied data.
+Candesartan cilexetil has 20 valid single-ingredient licences in Canada and none cancelled. The records provided do not include dosage forms or approved indication text. Five of the licences are listed below.
 
-| DIN | Product Name |
-|---------|------|
-| 02388715 | CANDESARTAN |
-| 02527030 | NRA-CANDESARTAN |
-| 02527022 | NRA-CANDESARTAN |
-| 02391198 | PMS-CANDESARTAN |
-| 02379295 | ACH-CANDESARTAN |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02239092 | ATACAND | Not specified | Not specified |
+| 02239090 | ATACAND | Not specified | Not specified |
+| 02326957 | SANDOZ CANDESARTAN | Not specified | Not specified |
+| 02366320 | TEVA-CANDESARTAN | Not specified | Not specified |
+| 02391198 | PMS-CANDESARTAN | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications and cautions suggested by the knowledge graph** (these come from drug-disease relationships, not from label text, and must be checked against the package insert):
 
----
+- Kidney and circulation: impaired renal function, anuria, renal artery obstruction, hypotensive disorder
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hyperuricaemia, gout, hypercalcaemia, phosphorus metabolism disease, nephrocalcinosis
+- Liver and digestive: liver disease, hepatic coma, hepatic encephalopathy, pancreatitis, gallbladder disease, neonatal jaundice
+- Endocrine and bone: hyperparathyroidism, osteitis fibrosa
+- Autoimmune: systemic lupus erythematosus (including paediatric)
+
+**Points specific to the predicted indications:**
+- For renovascular hypertension, ARBs can cause acute renal function decline in bilateral renal artery stenosis or a solitary kidney, so careful safety evaluation is needed.
+- For pulmonary hypertension due to lung disease or hypoxia, systemic vasodilators may worsen ventilation-perfusion matching.
+
+No drug interaction data were found. Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials or literature. Health Canada safety information has not been retrieved, and this is a blocking gap for safety screening. ARBs can also cause acute renal function decline in some renovascular settings, so renal function and potassium would need close monitoring.
+The prediction is mechanistically plausible as an extension of the approved hypertension indication, with a high model score (99.68%). However, there are no clinical trials or publications for this indication, and the label-based safety information is missing. The evidence supports only a research question at this stage.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data (for example, from DrugBank)
-- Original approved indication text from the Canadian licences
-- Clinical trial and literature searches targeted at candesartan or ARBs in malignant hypertensive renal disease
-- Specialist input on any acute use in this setting
+- Health Canada package insert warnings and contraindications (blocking for safety screening)
+- Detailed mechanism-of-action data from DrugBank
+- A targeted literature and trial search on ARB use in malignant hypertensive nephropathy
+- A renal safety plan, particularly for renal artery stenosis and impaired renal function
+- Drug interaction data
+- Approved indication text and dosage forms for the Canadian licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

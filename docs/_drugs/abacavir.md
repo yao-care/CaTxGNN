@@ -29,21 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Abacavir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Abacavir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Abacavir is a nucleoside reverse transcriptase inhibitor (NRTI) used in humans to treat HIV-1 infection.
-The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV-related disease)**.
-The evidence is indirect: **4 clinical trials** are listed, all in human HIV-1, and **no publications** are available for this indication.
-
----
+Abacavir was originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV infection)**,
+but there are currently **no clinical trials** and only **1 publication** (a preclinical combination-therapy study), so the evidence is very limited.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (the licence records supplied do not include indication text) |
+| Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L4 |
@@ -51,71 +49,61 @@ The evidence is indirect: **4 clinical trials** are listed, all in human HIV-1, 
 | Number of DINs | 9 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Abacavir is an NRTI already approved for HIV-1 in humans. Feline AIDS is caused by feline immunodeficiency virus (FIV), a lentivirus that also depends on reverse transcriptase. Mechanistically, abacavir may therefore be applicable to this disease.
+Abacavir is a nucleoside reverse transcriptase inhibitor (NRTI). Inside cells it is converted to carbovir triphosphate, which stops viral DNA chains from growing. Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects general knowledge of the drug class.
 
-This link is plausible but unproven. None of the four listed trials studied cats or FIV. They are human HIV-1 studies in which abacavir/lamivudine is the NRTI backbone for dolutegravir. They show the safety and efficacy of the approved human use, not activity against FIV.
+Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is similar to that of HIV-1. This gives the prediction a plausible mechanistic basis. The original indication (HIV/AIDS) and the predicted one are essentially the same type of disease, caused by closely related viruses, and the cat is widely used as an animal model for HIV.
 
-The very high TxGNN score most likely reflects the knowledge graph's HIV-related associations rather than FIV-specific data.
+Two caveats apply. The only supporting study tested abacavir together with zidovudine and lamivudine, so abacavir's own contribution cannot be separated. And because this is a veterinary indication, direct translation to human use is not applicable. The high score likely reflects similarity to the existing HIV indication more than independent evidence.
 
----
+Two other predictions were also reviewed:
+- **Simian immunodeficiency virus infection** (score 99.79%): supported only by a 2004 in vitro susceptibility study (PMID 15040537). It is mainly a research model for HIV and does not represent a distinct opportunity for humans.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.78%): no trials or literature, and no identified mechanistic link. It is a computational prediction only (evidence level L5).
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + abacavir/lamivudine once daily vs Atripla over 96 weeks in treatment-naive HIV-1 adults. Abacavir/lamivudine is a defined component of the test arm (relevance: B) |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs raltegravir, each with abacavir/lamivudine or TDF/FTC, in treatment-naive HIV-1 adults. Abacavir is only one of the investigator-selected backbones (relevance: C) |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dolutegravir dose selection with abacavir/lamivudine or tenofovir/emtricitabine in HIV-1 adults. Abacavir is a background agent (relevance: C) |
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Completed | 13 | Single-arm dolutegravir + abacavir/lamivudine study of central nervous system and plasma pharmacokinetics in HIV-1 adults (relevance: C) |
-
-All four trials are in humans. None is directly relevant to feline disease.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for this predicted indication.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Preclinical / animal study | Antiviral Research | Combined zidovudine, lamivudine and abacavir therapy suppressed FIV replication in vitro; FIV in cats is used as a model of HIV infection |
 
 ## Canada Market Information
 
-Nine DINs are on record. The five main authorizations are listed below. Dosage form and approved indication text are not available in the supplied records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02240358 | ZIAGEN | Not specified | Not specified |
+| 02480956 | MINT-ABACAVIR | Not specified | Not specified |
+| 02396769 | APO-ABACAVIR | Not specified | Not specified |
+| 02416662 | TEVA-ABACAVIR/LAMIVUDINE | Not specified | Not specified |
+| 02450682 | MYLAN-ABACAVIR/LAMIVUDINE | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02240358 | ZIAGEN |
-| 02480956 | MINT-ABACAVIR |
-| 02396769 | APO-ABACAVIR |
-| 02416662 | TEVA-ABACAVIR/LAMIVUDINE |
-| 02450682 | MYLAN-ABACAVIR/LAMIVUDINE |
-
----
+These are 5 of 9 valid authorizations in Canada; none is cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, lactic acidosis, neutropenia, agranulocytosis, anemia (including macrocytic anemia), hypertriglyceridemia, obesity disorders, myopathy and other muscle diseases (including myositis and dermatomyositis), familial periodic paralysis, and pyoureter.
+- **Drug Interactions**: 93 interactions were identified. The ones with a stated severity are **Naltrexone** (Moderate) and **Orlistat** (Moderate). Others, such as metformin, morphine, omeprazole, pantoprazole, prednisone and vancomycin, have no severity classification.
+- **Genetic hypersensitivity risk**: abacavir is associated with HLA-B*57:01 hypersensitivity, which is relevant to any new use in humans.
 
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is biologically plausible, since FIV is a lentivirus that uses reverse transcriptase. However, the supporting trials are all human HIV-1 studies with abacavir as a backbone drug, and there is no feline or FIV-specific evidence. The evidence level is L4, so the case rests mainly on the model score.
-
-The other two predicted indications do not change this picture. Simian immunodeficiency virus infection has only one 2004 in vitro susceptibility study and no clinical evidence. The neurodevelopmental disorder prediction has no supporting studies and no evident mechanistic link.
+The top prediction is a veterinary indication supported by a single preclinical combination-therapy study, so abacavir's own effect is not isolated and human translation does not apply. The SIV prediction rests on in vitro data only, and the neurodevelopmental disorder prediction has no supporting evidence and no mechanistic link.
 
 **To proceed, the following is needed:**
-- FIV-specific data, such as in vitro susceptibility or studies in cats
-- Mechanism of action data (MOA) from DrugBank
-- Health Canada package insert warnings and contraindications for safety screening
-- Approved indication text for the Canadian licences
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Abacavir-alone data (not in combination) for the predicted indications
+- Dosage form and approved indication details for the Canadian licenses
+- A clear definition of the target use (veterinary vs. human) before any further development
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

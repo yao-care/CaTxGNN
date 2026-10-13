@@ -2,7 +2,7 @@
 layout: default
 title: Nadolol
 parent: Model Prediction Only (L5)
-nav_order: 634
+nav_order: 639
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,98 +29,99 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Nadolol: From Beta-Blocker Therapy to Malignant Renovascular Hypertension
+# Nadolol: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-> Nadolol is a non-selective beta-blocker that is marketed in Canada.
-> The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
-> but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on model output and class-level reasoning alone.
-
----
+Nadolol is a non-selective beta-blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but **no clinical trials and no publications** currently support this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 (model prediction only; the source pack labelled it L4 on class-level mechanistic reasoning, but no actual studies were supplied) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 5 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for nadolol. Based on known information, nadolol is a non-selective beta-blocker. Beta-blockade lowers renin release, and renin activity is central to renovascular hypertension. This is indirect, class-level reasoning only.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nadolol is a non-selective beta-blocker. Its efficacy in hypertension is established, and it is mechanistically plausible that it also applies to renovascular hypertension.
 
-The link between the two conditions is blood pressure control through renin suppression. There are also important reasons for caution:
+Beta-1 blockade reduces renin release from the juxtaglomerular apparatus. Renovascular hypertension is driven largely by the renin-angiotensin system, so this link is reasonable.
 
-- Malignant hypertension is a hypertensive emergency, usually managed with titratable IV agents. The role of an oral, long-acting beta-blocker is uncertain.
-- Beta-blockers can worsen renal perfusion in bilateral renal artery stenosis.
-- The TxGNN score is a model prediction, not clinical evidence.
+However, malignant renovascular hypertension is essentially a severe subtype of the already-approved hypertension indication, so this is not true repurposing. Malignant hypertension also usually needs acute parenteral treatment rather than oral nadolol.
 
-**Other predicted indications** (all Hold, no clinical trials):
+**Other predictions (all Hold):**
 
-- **Malignant hypertensive renal disease** (99.59%, L4): This has the same rationale and an identical score, so it is likely a near-duplicate ontology node rather than an independent signal. Nadolol is renally cleared, so renal dosing would need consideration.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.53%, L5): No credible mechanistic link was found. The 20 retrieved publications concern general hypoxia biology (neurodegeneration, cancer, keloid, altitude), and none of the 10 titles shown mentions nadolol or pulmonary hypertension. This appears to be a keyword match. Non-selective beta-blockers may also worsen gas exchange and bronchospasm in lung disease.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (99.53%, L5): There is no evidence beyond the model score. Beta-blockers may reduce cardiac output and right ventricular function, so any effect may be harmful.
-- **Braddock syndrome** (99.43%, L5): No mechanistic link could be established for this ultra-rare syndrome.
-
----
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Malignant hypertensive renal disease | 99.59% | L5 | No trials or literature. Nadolol is renally cleared, so dose adjustment would be needed in renal impairment. |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.53% | L4 | Only indirect preclinical literature. Non-selective beta-blockers carry bronchoconstriction risk in chronic lung disease. |
+| Pulmonary hypertension with unclear multifactorial mechanism | 99.53% | L5 | No evidence. Beta-blockers are generally not recommended in pulmonary hypertension. |
+| Braddock syndrome | 99.43% | L5 | No mechanistic rationale. The disease annotation should be verified. |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for malignant renovascular hypertension.
 
----
+For the third-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia), only indirect and preclinical papers were retrieved. None tests nadolol in pulmonary hypertension in humans:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [6488695](https://pubmed.ncbi.nlm.nih.gov/6488695/) | 1984 | Animal study (dog) | Clin Physiol Biochem | Chronic propranolol lowered pulmonary artery pressure in conscious dogs. Nadolol, a structurally different beta-blocker, had a similar effect on pulmonary vascular resistance. |
+| [25350545](https://pubmed.ncbi.nlm.nih.gov/25350545/) | 2014 | Preclinical | PLoS One | β2-adrenergic receptor-dependent attenuation of hypoxic pulmonary vasoconstriction in intermittent hypoxic rats. |
+| [24795691](https://pubmed.ncbi.nlm.nih.gov/24795691/) | 2014 | Preclinical | Front Neurol | β1-blockers lower norepinephrine release by inhibiting presynaptic β1-adrenoceptors in rats. |
+| [2566504](https://pubmed.ncbi.nlm.nih.gov/2566504/) | 1989 | Preclinical | Eur J Pharmacol | Cardioprotective effect of beta-blockers against anoxia in isolated guinea pig hearts. |
+| [8729060](https://pubmed.ncbi.nlm.nih.gov/8729060/) | 1996 | Preclinical | J Mol Cell Cardiol | Nadolol and chloride-current blockers studied in action potential shortening in hypoxic rabbit hearts. |
+
+The remaining retrieved papers concern myocardial ischemia, arrhythmia, ischemic stroke, or non-mammalian species (goldfish, turtle), and are not relevant to this indication.
 
 ## Canada Market Information
 
-| DIN / Licence No. | Product Name |
-|---------|------|
-| 782467 | APO-NADOLOL |
-| 782475 | APO-NADOLOL |
-| 782505 | APO-NADOLOL |
-| 2496399 | MINT-NADOLOL |
-| 2496380 | MINT-NADOLOL |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00782467 | APO-NADOLOL | Not specified | Not specified |
+| 02496399 | MINT-NADOLOL | Not specified | Not specified |
+| 00782475 | APO-NADOLOL | Not specified | Not specified |
+| 00782505 | APO-NADOLOL | Not specified | Not specified |
+| 02496380 | MINT-NADOLOL | Not specified | Not specified |
 
----
+All 5 licences are valid single-ingredient products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were retrieved (the drug interaction query returned no results).
+- **Contraindication-related conditions (from the knowledge graph, not label text):** anxiety and neurotic disorders, dysthymic disorder, kidney disease, anuria, liver disease, hepatic coma and encephalopathy, pancreatitis, gallbladder disease, systemic lupus erythematosus, diabetes mellitus and diabetic ketoacidosis, gout and hyperuricaemia, hyperparathyroidism, hypercalcaemia, nephrocalcinosis, potassium deficiency, phosphorus metabolism disease, myasthenia gravis and other neuromuscular junction disease, atrioventricular block, pulmonary emphysema, and bronchial disease.
+- **Drug Interactions:** 100 interactions were found in total. The list reviewed here shows:
+  - **Major:** epinephrine.
+  - **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), anticholinergics (atropine, hyoscyamine, methscopolamine), bupropion, morphine, cimetidine, canagliflozin, dapagliflozin, chlorpropamide, calcium acetate and calcium phosphate.
+  - **Minor:** acetylsalicylic acid, clarithromycin, magnesium oxide.
+- **Predicted-indication cautions:** Non-selective beta-blockers can cause bronchoconstriction in chronic lung disease, and beta-blockers are generally cautioned against in pulmonary hypertension.
 
-Indication-specific concerns from the mechanistic review:
-
-- Possible worsening of renal perfusion in bilateral renal artery stenosis.
-- Renal clearance of nadolol, so dose adjustment may be needed in renal impairment.
-- Possible worsening of bronchospasm and gas exchange in lung disease.
-- Possible reduction of cardiac output and right ventricular function in pulmonary hypertension.
-
----
+Please also refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a high model score and indirect class-level reasoning, with no clinical trials or relevant publications. The disease context (hypertensive emergency) and the safety concerns above weaken the case further.
+The predictions rest on model output alone (L5 for the top indication), with no supporting trials or literature. The top two predictions are subtypes of the already-approved hypertension indication, and the pulmonary hypertension predictions carry safety concerns.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A targeted search for nadolol-specific studies in renovascular or malignant hypertension
-- Approved indication text for the Canadian licences, to define the original indication and compare it with the new one
-- Assessment of route and dosing suitability, since nadolol is oral and long-acting and the target condition is usually treated with IV agents
+- Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)
+- Detailed mechanism of action data (for example, from DrugBank)
+- Clinical or observational evidence of nadolol in renovascular hypertension, if this indication is pursued
+- Clarification of whether the malignant hypertension predictions add value beyond the existing hypertension indication
+- Verification of the Braddock syndrome disease annotation before any further work
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

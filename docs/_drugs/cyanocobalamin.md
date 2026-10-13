@@ -2,7 +2,7 @@
 layout: default
 title: Cyanocobalamin
 parent: Model Prediction Only (L5)
-nav_order: 227
+nav_order: 229
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Cyanocobalamin: From Vitamin B12 Therapy to Biotin Metabolic Disease
+# Cyanocobalamin: From Vitamin B12 Deficiency to Biotin Metabolic Disease
 
 ## One-Sentence Summary
 
-Cyanocobalamin is a synthetic form of vitamin B12 and is marketed in Canada as injectable and multivitamin products.
-The TxGNN model predicts it may be effective for **biotin metabolic disease**. There are **16 registered trials** and **20 publications** linked to this prediction, but none directly tests cyanocobalamin for this condition.
+Cyanocobalamin is a synthetic form of vitamin B12, originally used to treat vitamin B12 deficiency and several types of anaemia (including pernicious anaemia).
+The TxGNN model predicts it may be effective for **biotin metabolic disease**,
+but **no clinical trials** and only **1 publication** (a general review that does not address this use) currently support this direction.
 
 ---
 
@@ -42,82 +43,63 @@ The TxGNN model predicts it may be effective for **biotin metabolic disease**. T
 
 | Item | Content |
 |------|------|
+| Original Indication | Vitamin B12 deficiency, pernicious anaemia, folic acid deficiency anaemia, iron deficiency anaemia and other deficiency anaemias (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 99.60% |
-| Evidence Level | L4 (mechanism and background reviews only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
-
-The Evidence Pack contains no approved-indication text for the Canadian licences, so the original indication is not confirmed from the source data. The title uses the drug's general role as vitamin B12 therapy.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. Cyanocobalamin is a B12 vitamin that serves as an enzyme cofactor, and biotin is another water-soluble B vitamin that also works as a cofactor.
+Currently, detailed mechanism of action data is not available. Based on known information, cyanocobalamin is a water-soluble B vitamin whose efficacy in vitamin B12 deficiency and pernicious anaemia is well established, and mechanistically it may be loosely related to biotin metabolic disease.
 
-The two pathways are adjacent. The biotin-dependent enzyme propionyl-CoA carboxylase produces methylmalonyl-CoA. That compound is then processed by the adenosylcobalamin-dependent enzyme methylmalonyl-CoA mutase. This shared "vitamin cofactor" neighbourhood likely explains the high TxGNN score.
+The only plausible link is indirect. Cyanocobalamin (as adenosylcobalamin) and biotin are both vitamin cofactors in related enzyme pathways. For example, methylmalonyl-CoA mutase depends on adenosylcobalamin, while propionyl-CoA carboxylase depends on biotin, and both act in propionate metabolism. This link is speculative.
 
-The link is indirect. B12 does not correct the core defects of biotin metabolic disease, namely biotinidase or holocarboxylase synthetase deficiency. These conditions are treated with biotin itself. The prediction is therefore best read as a knowledge-graph association, not a validated therapeutic mechanism.
+The standard treatment for biotin metabolic disorders (such as biotinidase or holocarboxylase synthetase deficiency) is biotin supplementation itself. Nothing in the data compiled for this report suggests cyanocobalamin adds benefit. The very high model score therefore reflects a network-based prediction, not demonstrated clinical value.
 
 ---
 
 ## Clinical Trial Evidence
 
-None of the trials below tests cyanocobalamin in biotin metabolic disease. They are related nutrition or vitamin studies. Sixteen trials were retrieved and the ten most relevant are listed.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05832190](https://clinicaltrials.gov/study/NCT05832190) | N/A | Terminated | 5 | Fibre plus biotin supplementation before bariatric surgery to improve gut microbiota. Stopped early, so no usable efficacy data |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Transdermal vitamin patches after bariatric surgery. Measures micronutrient levels and deficiencies, not a biotin disorder |
-| [NCT07592897](https://clinicaltrials.gov/study/NCT07592897) | Phase 4 | Not yet recruiting | 50 | B-complex for inferior alveolar nerve paresthesia after dental procedures. A neurological condition |
-| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | Phase 2 | Unknown | 1000 | Fortified food vs milk for malnourished children. Outcomes include serum vitamin B12 |
-| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Phase 2 | Completed | 75 | Vitamin and mineral supplementation for neuropathy and nephropathy in type 2 diabetes |
-| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Unknown | 200 | Crossover trial of Q10 ubiquinol plus vitamins E and B in autism and Phelan-McDermid syndrome |
-| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Completed | 39 | Nutritional intervention for oxidative stress and methylation in autism |
-| [NCT01558193](https://clinicaltrials.gov/study/NCT01558193) | N/A | Completed | 202 | Multivitamin/mineral supplementation with or without fatty acids for impulsivity and aggression |
-| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Phase 3 | Completed | 33 | Carglumic acid in propionic and methylmalonic acidemia. A related organic-acid disorder, but a different drug |
-| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | N/A | Completed | 30 | Natural vs synthetic vitamin B complexes, comparing bioavailability |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-No randomised controlled trials were found. All items are reviews, background papers or preclinical studies.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review | Handbook of Clinical Neurology | Vitamin-responsive disorders of cobalamin, folate, biotin, B1 and E. Covers inborn errors of vitamin absorption, transport and metabolism |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminologica et Enzymologica | Vitamins in metabolic disease through malabsorption, metabolic errors and vitamin-dependent syndromes. Pharmacological doses may be needed |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Review | Pediatric Clinics of North America | B-complex vitamins as coenzymes in megavitamin-responsive aminoacidopathies. Therapeutic trials of cofactors are recommended |
-| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Clinical metabolic study | Pediatric Research | 13C-propionate metabolism in propionic acidemia, methylmalonic acidemia (four B12-responsive) and multiple carboxylase deficiency |
-| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Review | Endocr Metab Immune Disord Drug Targets | Vitamins and type 2 diabetes. Notes altered levels of thiamin, pyridoxine and biotin |
-| [41692080](https://pubmed.ncbi.nlm.nih.gov/41692080/) | 2026 | Review | Clinics in Dermatology | B vitamins in dermatology. Covers their roles in cellular metabolism and erythrocyte synthesis |
-| [36476407](https://pubmed.ncbi.nlm.nih.gov/36476407/) | 2023 | Animal study | Journal of Endocrinology | B12 deficiency in female rats produced glucose intolerance and promoted ketogenesis |
-| [29173522](https://pubmed.ncbi.nlm.nih.gov/29173522/) | 2017 | Review | Gastroenterology Clinics of North America | Vitamin and mineral deficiencies in inflammatory bowel disease, and the benefit of correcting them |
-| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Review | Advances in Clinical Chemistry | Vitamin-responsive inborn errors of metabolism (no abstract available) |
-| [7015958](https://pubmed.ncbi.nlm.nih.gov/7015958/) | 1980 | Review | Annals of the New York Academy of Sciences | Interactions among B-complex vitamins in metabolic pathways |
+| [1368195](https://pubmed.ncbi.nlm.nih.gov/1368195/) | 1992 | Review | Journal of Chemical Technology and Biotechnology | General review of biotechnological production of vitamins, coenzymes and related biochemicals. It does not report clinical use of cyanocobalamin in biotin metabolic disease. |
 
 ---
 
 ## Canada Market Information
 
-Ten licences are recorded. The five main ones are listed below. Dosage form and approved-indication text are not provided for these licences.
+Ten single-ingredient licences are currently valid. Dosage form and approved indication text are not available for these products.
 
 | DIN | Product Name |
 |---------|------|
-| 2465507 | CYANOCOBALAMIN INJECTION USP |
-| 1987003 | CYANOCOBALAMIN INJECTION USP |
-| 2463393 | CYANOCOBALAMIN INJECTION USP |
-| 521515 | VITAMIN B12 |
-| 2100606 | MULTI 12 |
+| 02465507 | Cyanocobalamin Injection USP |
+| 01987003 | Cyanocobalamin Injection USP |
+| 02463393 | Cyanocobalamin Injection USP |
+| 00521515 | Vitamin B12 |
+| 02100606 | Multi 12 |
+
+Five further licences are held for Multi-12/K1 Pediatric, Pregvit Folic 5, Pregnancy Multivitamin, Pregvit and Pregnancy Multivitamin Folic 5.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found.
+Please refer to the package insert for key warnings and contraindications. The warning and contraindication data for the Canadian products could not be obtained for this report.
+
+**Drug Interactions:** The interaction screen returned 100 records. The 20 reviewed here are all rated Minor or Unknown, and none is rated Major or Moderate.
+- **Minor:** acid-suppressing drugs, including H2 blockers (famotidine, ranitidine, cimetidine, nizatidine) and proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, rabeprazole, pantoprazole), plus potassium chloride. These drugs may reduce absorption of dietary B12 in general.
+- **Unknown severity:** metformin, glimepiride, rosiglitazone, acarbose, mesalazine, doxycycline, morphine and sucralfate.
 
 ---
 
@@ -126,15 +108,14 @@ Please refer to the package insert for safety information. No drug-interaction r
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (99.60%) appears to reflect a shared vitamin-cofactor neighbourhood in the knowledge graph, not a demonstrated therapeutic effect. No trial or publication tests cyanocobalamin in biotin metabolic disease. Biotin deficiency disorders are already treated with biotin itself, so B12 has no clear role.
+The prediction rests on a model score alone (evidence level L5). There are no registered clinical trials, and the only publication is a general review on vitamin production that does not support this use. Biotin supplementation is already the standard treatment, and no evidence suggests added benefit from cyanocobalamin.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications
-- Mechanism-of-action data, for example from DrugBank
-- Approved-indication text for the Canadian licences
-- Evidence that B12 offers a benefit in biotinidase or holocarboxylase synthetase deficiency, or in a closely related propionate-pathway disorder. The most plausible angle is B12-responsive methylmalonic acidemia, which is a different disease from the predicted one.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data, to test whether the cobalamin–biotin pathway link holds up
+- Targeted literature review on cobalamin status in biotinidase and holocarboxylase synthetase deficiency, and in related organic acidaemias
+- Package insert warnings and contraindications from Health Canada (currently blocking safety screening)
+- Approved indication text and dosage forms for the Canadian licences
+- Preclinical or clinical data showing a benefit beyond biotin alone
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Bosentan
 parent: Moderate Evidence (L3-L4)
-nav_order: 119
+nav_order: 121
 evidence_level: L4
 indication_count: 9
 ---
@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Bosentan is an endothelin receptor antagonist, best known for treating pulmonary arterial hypertension (PAH). The TxGNN model predicts it may be effective for **rheumatoid arthritis** (RA). However, the evidence is thin: only **1 indirect clinical trial** (in giant cell arteritis, not RA) and **16 publications**, of which just a few animal studies bear directly on arthritis. There are no human RA efficacy data.
+Bosentan was originally used to treat pulmonary arterial hypertension, including forms linked to systemic sclerosis (scleroderma).
+The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but the support is early-stage: **0 clinical trials** are registered, and the available literature consists mainly of **animal studies and reviews**.
 
 ---
 
@@ -41,7 +42,7 @@ Bosentan is an endothelin receptor antagonist, best known for treating pulmonary
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension (from general knowledge of bosentan; the Canadian licence records provided contain no indication text) |
+| Original Indication | Pulmonary arterial hypertension (also systemic sclerosis / scleroderma) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.80% |
 | Evidence Level | L4 |
@@ -53,19 +54,17 @@ Bosentan is an endothelin receptor antagonist, best known for treating pulmonary
 
 ## Why is This Prediction Reasonable?
 
-The drug record has no mechanism-of-action entry. The literature describes bosentan as a dual endothelin receptor antagonist, blocking both ETA and ETB receptors. Endothelins are involved in inflammation, pain and cell migration. Endothelin-1 levels are raised in the blood and synovial membrane of RA patients.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. The literature describes bosentan as a dual endothelin receptor (ETA/ETB) antagonist. Its efficacy in pulmonary arterial hypertension is established, and mechanistically it may be applicable to inflammatory joint disease.
 
-In mouse models, bosentan reduced disease severity in collagen-induced arthritis, with a TNF-α-related role in switching on endothelin system genes. Endothelin receptor blockade also reduced neutrophil accumulation and swelling in zymosan-induced arthritis, and inhibited IL-15-induced joint pain sensitisation. The link between PAH and RA is indirect: bosentan is used for PAH associated with connective tissue disease, including systemic sclerosis and Sjögren's syndrome. RA is a less common cause of such PAH.
+Endothelin-1 contributes to synovial inflammation, vascular dysfunction and the release of inflammatory mediators such as TNF-alpha and LTB4. Endothelin-1 levels are reported to be raised in the blood and synovial membrane of rheumatoid arthritis patients. In a mouse model of collagen-induced arthritis, bosentan reduced disease, apparently through a TNF-alpha-dependent mechanism. Blocking endothelin receptors also modulated inflammation in a zymosan-induced arthritis model.
 
-The support is therefore mechanistic and preclinical only. No study retrieved shows bosentan working in human RA.
+These findings come only from animal models. No human data show that bosentan treats rheumatoid arthritis. Most of the human literature retrieved concerns pulmonary hypertension associated with connective tissue disease, which is the drug's existing indication area rather than arthritis treatment. The prediction is therefore best viewed as a research hypothesis.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Phase 2 | Not yet recruiting | 40 | Bosentan plus glucocorticoids vs glucocorticoids alone in **giant cell arteritis** (not RA). Primary aim is failure-free survival at 12 months. Only weak indirect support, and no results yet. |
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,26 +72,28 @@ The support is therefore mechanistic and preclinical only. No study retrieved sh
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preclinical (mouse) | Inflammation Research | Bosentan ameliorated collagen-induced arthritis, with TNF-α involved in inducing endothelin system genes |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preclinical (mouse) | Journal of Leukocyte Biology | Endothelin receptor blockade reduced neutrophil accumulation and swelling in zymosan-induced arthritis |
-| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preclinical (mouse) | PNAS | IL-15-induced joint pain sensitisation was inhibited by a dual ETA/ETB antagonist |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Review | Rheumatic Diseases Clinics of North America | Review of PAH in connective tissue disease, including diagnosis and treatment options |
-| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Review | Lupus | PAH occurs in connective tissue diseases, less commonly in RA |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Review | Rheumatology (Oxford) | Vasculopathy and PAH in lupus, Sjögren's syndrome and vasculitides |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Case report | Kardiologia Polska | A girl with Eisenmenger syndrome on bosentan was later diagnosed with juvenile RA. The report gives no evidence of bosentan treating the arthritis. |
-| [16766376](https://pubmed.ncbi.nlm.nih.gov/16766376/) | 2006 | Clinical study | Scandinavian Journal of Rheumatology | Clinical features and endothelin receptor antagonist use in primary Sjögren's syndrome with PAH (no abstract available) |
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preclinical (mouse) | Inflamm Res | Bosentan ameliorated collagen-induced arthritis; TNF-α was involved in inducing endothelin system genes |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preclinical (mouse) | J Leukoc Biol | Endothelin receptor blockade modulated neutrophil accumulation and edema in zymosan-induced arthritis via LTB4, TNF-α and CXCL-1 |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preclinical (mouse, not bosentan-specific) | Proc Natl Acad Sci USA | IL-15-induced joint pain sensitization was inhibited by a dual ETA/ETB antagonist |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Preclinical (mouse, not bosentan-specific) | Pain | IL-17 mediates joint pain in antigen-induced arthritis; supports the cytokine and endothelin context in RA |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Review | Rheum Dis Clin North Am | PAH related to connective tissue disease carries high morbidity and mortality; treatment options have improved survival |
+| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Review | Lupus | PAH occurs in connective tissue diseases, less often in rheumatoid arthritis |
+| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Review | Rheumatology (Oxford) | Vascular disease and PAH in lupus and Sjögren's syndrome; PAH has a major effect on prognosis |
+| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Review | Can Respir J | Treating pulmonary hypertension in connective tissue disease with or without interstitial lung disease; effects of targeted therapy in combined disease are poorly characterized |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Case report | Kardiol Pol | Girl with Eisenmenger syndrome treated with bosentan who was later diagnosed with juvenile rheumatoid arthritis; the two conditions coexisted and no arthritis benefit was shown |
+| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Review | Curr Opin Rheumatol | Overview of rheumatic skin diseases and their therapies; not specific to bosentan |
 
 ---
 
 ## Canada Market Information
 
-Health Canada records list 8 licences in total. The five below are the main ones provided. Dosage form, manufacturer and approved indication text were not supplied.
+Eight valid single-ingredient authorizations are listed. Dosage form and approved-indication text were not available in the data compiled for this report. The five main ones are:
 
 | DIN | Product Name |
 |---------|------|
-| 02483130 | TARO-BOSENTAN |
 | 02244981 | TRACLEER |
 | 02244982 | TRACLEER |
+| 02483130 | TARO-BOSENTAN |
 | 02383020 | PMS-BOSENTAN |
 | 02467992 | NAT-BOSENTAN |
 
@@ -100,7 +101,13 @@ Health Canada records list 8 licences in total. The five below are the main ones
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Label-based warnings and contraindications were not available, so please refer to the package insert for authoritative safety information. The following supporting information was compiled from other sources.
+
+- **Contraindication signals (knowledge graph, not label text)**: liver failure, liver disease, drug-induced liver injury, hyperbilirubinemia (including hereditary forms and Gilbert syndrome), gallbladder disease, thrombocytopenia, anemia (including macrocytic anemia), congestive heart failure, pulmonary edema, and pulmonary veno-occlusive disease.
+- **Drug interactions**: 100 interactions are recorded. The main ones shown are all rated Moderate:
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone
+  - Antidiabetic agents: pioglitazone, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, chlorpropamide, acetohexamide
+  - Other: aprepitant, metronidazole, cimetidine, cisapride, clarithromycin, clotrimazole, dronabinol, eliglustat, eluxadoline
 
 ---
 
@@ -109,15 +116,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The RA prediction has a high model score but rests only on mouse arthritis studies and an indirect trial in another vasculitis. No human RA efficacy data were found.
+Support for rheumatoid arthritis is limited to mouse-model studies, with no registered clinical trials and no human efficacy data (Evidence Level L4). The high TxGNN score alone is not enough to justify moving forward.
+
+Among the other predictions, **limited systemic sclerosis** has the strongest support (a 2023 systematic review on digital ulcers and an in vitro study). That indication largely overlaps the drug's existing use, so it is more an extension of the current label than true repurposing.
 
 **To proceed, the following is needed:**
-- Human RA data, such as a pilot or proof-of-concept trial
-- The Health Canada product monograph (warnings, contraindications, interactions) and the approved indication text
-- Mechanism-of-action data from DrugBank
-- A review of the results of the giant cell arteritis trial (NCT06957002) once available
-
-**Note on other predictions:** Limited systemic sclerosis (rank 3) has far stronger support than RA. It has a 300-patient observational study of digital ulcers (NCT05168215), a 2023 systematic review, and national management recommendations. The pack rates it L1, but the L1 rating rests on the systematic review and guidelines rather than completed Phase 3 RCTs, so it should be verified. It is likely the better candidate to pursue first.
+- Mechanism of action data confirmed from DrugBank
+- Package insert warnings and contraindications from Health Canada, particularly hepatotoxicity and pregnancy-related risks
+- Human proof-of-concept evidence in rheumatoid arthritis, such as a pilot study or well-designed clinical trial
+- Assessment of how the existing safety profile (liver monitoring, drug interactions) fits the rheumatoid arthritis population, which often takes corticosteroids and other interacting drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

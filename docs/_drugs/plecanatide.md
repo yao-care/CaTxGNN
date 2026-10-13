@@ -2,7 +2,7 @@
 layout: default
 title: Plecanatide
 parent: Model Prediction Only (L5)
-nav_order: 738
+nav_order: 745
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Plecanatide: From Chronic Idiopathic Constipation to Hypertrichosis
+# Plecanatide: From Constipation Treatment to Hypertrichosis
 
 ## One-Sentence Summary
 
-Plecanatide is a locally acting gut drug (a guanylate cyclase-C agonist) marketed in Canada as TRULANCE. The Evidence Pack does not record its approved indication, so the original use shown here (chronic idiopathic constipation) is general knowledge, not pack data. The TxGNN model predicts it may be effective for **hypertrichosis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it rests on a graph-based prediction alone.
+Plecanatide is a guanylate cyclase-C (GC-C) agonist, marketed in Canada as TRULANCE and used for gastrointestinal constipation disorders (chronic idiopathic constipation and IBS-C in other jurisdictions).
+The TxGNN model predicts it may be effective for **hypertrichosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Canadian licence data (generally known as chronic idiopathic constipation) |
+| Original Indication | Not specified in the Canadian licence record (outside Canada, approved for chronic idiopathic constipation and IBS-C) |
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 99.998% |
 | Evidence Level | L5 |
@@ -47,45 +50,61 @@ Plecanatide is a locally acting gut drug (a guanylate cyclase-C agonist) markete
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the input. Plecanatide is known to be a guanylate cyclase-C agonist that acts locally in the gut with minimal systemic absorption. It raises intestinal cGMP signalling.
+Currently, detailed mechanism of action data is not available in the compiled record. Based on known pharmacology, plecanatide is a peptide agonist of guanylate cyclase-C (GUCY2C). It acts locally on intestinal epithelium, raising cGMP, and is minimally absorbed into the bloodstream.
 
-No plausible mechanism connects this action to hair follicle biology. Hypertrichosis is excess hair growth. Because plecanatide is barely absorbed, it is not expected to reach hair follicles in meaningful amounts. The high score (99.998%, model rank 111) is a statistical output of the knowledge graph, not evidence of a real drug-disease link.
+On review, the predicted link is weak. Hair follicle biology is not known to depend on GC-C signalling, and the drug's gut-restricted action makes a systemic effect on hair growth unlikely. The very high TxGNN score (99.998%) is a knowledge-graph prediction, probably reflecting graph proximity to related hair phenotypes rather than biology. No trials or literature back it up.
 
-The other nine predictions in the pack show the same pattern. They include Ambras-type hypertrichosis, hair shaft abnormalities, a Dandy-Walker malformation syndrome, coronary artery dissection, vascular disease, thoracic outlet syndromes and phaeochromocytoma. All are L5 with no trials, and none has a plausible gut-restricted mechanism. Only the periodontal malformation prediction has literature, and those papers are general periodontitis papers that never mention plecanatide.
+The other top-10 predictions are similarly unsupported: Ambras-type hypertrichosis, odontal/periodontal malformation syndromes, hair shaft abnormalities, Dandy-Walker malformation syndromes, spontaneous coronary artery dissection, vascular disease, thoracic outlet syndromes (venous and arterial) and phaeochromocytoma. Most are genetic, developmental or mechanical conditions with no plausible GC-C mechanism. The cGMP pathway does influence vascular tone in general, but this is speculative for a minimally absorbed drug.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2493012 | TRULANCE | — | — |
+| 02493012 | TRULANCE | Not specified | Not specified |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for plecanatide in the queried source.
+- **Drug Interactions**: Two entries were compiled.
+  - Idelalisib: Moderate interaction (DDInter).
+  - Guanylyl cyclase-C: this is the pharmacological target of plecanatide, not a drug-drug interaction.
+
+For other safety information (warnings and contraindications), please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical, registry or literature support, and its mechanism is implausible for a gut-restricted drug with minimal systemic absorption. The score alone does not justify further investment.
+The prediction is supported only by a knowledge-graph score. There are no trials or publications, and the proposed mechanism is implausible given plecanatide's local intestinal action and minimal absorption. The 10 top-ranked predictions are all at Evidence Level L5.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indication text, dosage form and manufacturer for the Canadian licence
-- Mechanism-of-action data from DrugBank
-- At least preclinical or mechanistic evidence linking GC-C/cGMP signalling to hair follicle biology
-- Evidence that systemic or topical exposure sufficient for a hair effect is achievable (route compatibility is currently unassessed)
+- Retrieval of the Health Canada package insert, to confirm approved indications, warnings and contraindications
+- Confirmed mechanism of action data
+- A credible biological rationale linking GC-C/cGMP signalling to hair follicle biology, supported by preclinical evidence
+- Any clinical or observational signal (such as case reports of altered hair growth) before further investment
+- Review of other candidate indications that fit the gastrointestinal mechanism better
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

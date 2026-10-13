@@ -2,7 +2,7 @@
 layout: default
 title: Cerliponase Alfa
 parent: Model Prediction Only (L5)
-nav_order: 173
+nav_order: 175
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cerliponase alfa: From CLN2 Disease to Scheie Syndrome
+# Cerliponase alfa: From Neuronal Ceroid Lipofuscinosis to Scheie Syndrome
 
 ## One-Sentence Summary
 
-Cerliponase alfa (Brineura) is a recombinant TPP1 enzyme replacement therapy given directly into the brain ventricles. It is used for CLN2 disease, a lysosomal storage disorder caused by TPP1 deficiency. The TxGNN model predicts it may be effective for **Scheie syndrome** (attenuated MPS I), but **no clinical trials and no publications** support this, and the mechanistic review finds no plausible link.
-
----
+Cerliponase alfa is a recombinant human tripeptidyl peptidase 1 (TPP1) enzyme replacement therapy, originally used for neuronal ceroid lipofuscinosis (CLN2 disease).
+The TxGNN model predicts it may be effective for **Scheie syndrome**, but **no clinical trials and no publications** currently support this prediction.
+The prediction rests on model output alone and has a weak mechanistic basis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | CLN2 disease (TPP1 deficiency). The Canadian licence record does not list indication text. |
+| Original Indication | Neuronal ceroid lipofuscinosis; infantile neuronal ceroid lipofuscinosis |
 | Predicted New Indication | Scheie syndrome |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
@@ -49,62 +49,51 @@ Cerliponase alfa (Brineura) is a recombinant TPP1 enzyme replacement therapy giv
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Based on the known profile, cerliponase alfa supplies TPP1, a lysosomal enzyme that cleaves tripeptides, and is delivered intraventricularly to the central nervous system. Its efficacy is established in CLN2 disease, where TPP1 is missing.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cerliponase alfa is a recombinant form of the lysosomal enzyme TPP1, and it is used to replace the deficient enzyme in CLN2 disease. It is given by the intracerebroventricular route so that it can reach the brain.
 
-Scheie syndrome is caused by a different enzyme deficiency, IDUA, which leads to accumulation of glycosaminoglycans. TPP1 does not degrade these substrates. Because the drug is delivered to the brain, it would also not reach the systemic and skeletal disease that characterises Scheie syndrome. The only overlap is that both are lysosomal storage diseases.
+Scheie syndrome is the attenuated form of mucopolysaccharidosis I (MPS I). It is caused by a deficiency of a different lysosomal enzyme, alpha-L-iduronidase. TPP1 does not break down glycosaminoglycans, so there is no direct enzyme or substrate match. The high TxGNN score most likely reflects shared lysosomal storage disease features in the knowledge graph rather than a specific biological mechanism. The intracerebroventricular route could in theory address central nervous system involvement, but this has not been tested.
 
-The high TxGNN score most likely reflects this shared "lysosomal storage disease" neighbourhood in the knowledge graph, not a real pharmacological connection. The prediction should be treated as a model artefact until shown otherwise.
-
-Other top-ranked predictions show the same pattern:
-- **Hurler syndrome, Gaucher disease, cholesteryl ester storage disease and Wolman disease:** these are different lysosomal enzyme deficiencies, and TPP1 does not act on their substrates.
-- **Neuroserpin inclusion body encephalopathy, juvenile myoclonic epilepsy, proximal myopathy with extrapyramidal signs and ichthyosis syndrome:** these have unrelated mechanisms, and no link to TPP1 biology could be identified.
-
----
+Other predicted indications show the same pattern. Hurler syndrome (also MPS I), cholesteryl ester storage disease, Wolman disease and Gaucher disease each involve a different enzyme deficiency. Several of them already have mechanism-matched therapies. Predictions such as familial encephalopathy with neuroserpin inclusion bodies, juvenile myoclonic epilepsy, proximal myopathy with extrapyramidal signs and an ichthyosis syndrome have no clear lysosomal link to TPP1.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for Scheie syndrome.
+For the top-ranked prediction (Scheie syndrome), currently no related literature is available.
 
-Across all ten predicted indications, only one publication was found. It is a 2026 review of natural-history mapping in lysosomal storage disorders that uses Gaucher disease as a model ([PMID 41527340](https://pubmed.ncbi.nlm.nih.gov/41527340/)). It provides disease context only and contains no evidence about cerliponase alfa.
+One publication was retrieved for a lower-ranked prediction, Gaucher disease:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41527340](https://pubmed.ncbi.nlm.nih.gov/41527340/) | 2026 | Review | Journal of Inherited Metabolic Disease | Uses Gaucher disease as a model for mapping the natural history of lysosomal storage disorders. It does not evaluate cerliponase alfa and gives no drug-specific evidence. |
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2484013 | BRINEURA | Not listed | Not listed |
-
----
+| 02484013 | BRINEURA | Not available | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the available records.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (L5). No trials or supporting publications exist. The mechanistic review finds that TPP1 replacement does not address the IDUA defect, and intraventricular delivery would not reach systemic disease.
+The Scheie syndrome prediction has a high model score but no clinical or published support. Cerliponase alfa replaces TPP1, and Scheie syndrome results from alpha-L-iduronidase deficiency, so the mechanistic rationale is weak. Enzyme replacement therapy that matches the deficient enzyme already exists for MPS I.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
-- Detailed mechanism-of-action data from DrugBank
-- Any preclinical evidence that TPP1 replacement affects glycosaminoglycan accumulation or CNS disease in MPS I (none has been identified)
-- A route-compatibility assessment, since the available route (intraventricular) does not match the systemic needs of Scheie syndrome
+- The Health Canada package insert, to review warnings and contraindications
+- Detailed mechanism of action data
+- Preclinical evidence that TPP1 can affect glycosaminoglycan accumulation or CNS pathology in MPS I models
+- An assessment of route compatibility and of how the intracerebroventricular route would apply to the proposed indication
+- A comparison with existing MPS I treatments (enzyme replacement therapy and haematopoietic stem cell transplantation) to define any unmet need
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

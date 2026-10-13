@@ -2,7 +2,7 @@
 layout: default
 title: Rasagiline
 parent: Model Prediction Only (L5)
-nav_order: 790
+nav_order: 797
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Rasagiline: From Parkinson's Disease to PLA2G6-Associated Neurodegeneration
+# Rasagiline: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
 
 ## One-Sentence Summary
 
-Rasagiline is a selective MAO-B inhibitor, used for Parkinson's disease and marketed in Canada under 8 DINs.
-The TxGNN model predicts it may be useful for **PLA2G6-associated neurodegeneration**, a very rare disorder with parkinsonian features.
-This prediction rests on the model score alone: **0 clinical trials** and **0 publications** were found to support it.
+Rasagiline is a drug originally used to treat Parkinson disease and related parkinsonian syndromes.
+The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration (PLAN)**, with a very high model score.
+However, **no clinical trials and no publications** were found in the data compiled for this report, so the prediction rests on computation alone.
 
 ---
 
@@ -43,7 +43,7 @@ This prediction rests on the model score alone: **0 clinical trials** and **0 pu
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (not stated in the Canadian license records supplied) |
+| Original Indication | Parkinson disease (and related parkinsonian syndromes). The Canadian licence records do not include indication text. |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L5 (model prediction only) |
@@ -55,11 +55,21 @@ This prediction rests on the model score alone: **0 clinical trials** and **0 pu
 
 ## Why is This Prediction Reasonable?
 
-Rasagiline is a selective MAO-B inhibitor. By blocking the breakdown of dopamine in the brain, it raises striatal dopamine and eases the motor symptoms of Parkinson's disease. The supplied dataset does not include a formal mechanism-of-action entry, so this description comes from the drug's known pharmacology.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Rasagiline is generally known as a MAO-B inhibitor, which raises dopaminergic tone. This is the basis of its use in Parkinson disease, and this general knowledge is not drawn from the compiled data.
 
-PLA2G6-associated neurodegeneration includes a dystonia-parkinsonism form (PARK14), which shares dopaminergic and parkinsonian features with Parkinson's disease. A symptomatic benefit from boosting dopamine is therefore biologically plausible. The high score probably reflects how close the two diseases sit in the knowledge graph. There is no support here for any disease-modifying effect.
+PLAN includes infantile neuroaxonal dystrophy and PLA2G6-related dystonia-parkinsonism (PARK14). The parkinsonian features of PARK14 overlap with rasagiline's established indication, so a symptomatic dopaminergic benefit is plausible. Rasagiline has also been proposed to have neuroprotective and anti-apoptotic properties in preclinical models.
 
-The disease is ultra-rare, and the supplied data show no clinical signal for this use. The other five predictions (Rasmussen encephalitis, myelitis, juvenile parkinsonism of Hunt, transaldolase deficiency, and a polymicrogyria syndrome) also have only model scores behind them. Most have no clear mechanistic link to MAO-B inhibition. Juvenile parkinsonism of Hunt is the exception, since it overlaps with the known Parkinson's disease space.
+There are important limits. PLAN is driven by defects in lipid metabolism and membrane remodelling, with iron accumulation. No direct link between MAO-B inhibition and this underlying pathology has been established. The score of 0.997 is a computational prediction only.
+
+Other top-ranked predictions are also unsupported by trials or literature:
+
+| Rank | Predicted Indication | Score | Comment |
+|------|------|------|------|
+| 2 | Rasmussen subacute encephalitis | 99.56% | Only a speculative neuroprotection link; no evidence that MAO-B inhibition affects T-cell-mediated cortical damage |
+| 3 | Myelitis | 99.32% | Heterogeneous causes; no established mechanism |
+| 4 | Paralysis agitans, juvenile, of Hunt | 99.25% | Historical term for juvenile parkinsonism; likely scores high because it sits close to existing indications in the ontology, not because it is a novel finding |
+| 5 | Transaldolase deficiency | 99.19% | No plausible mechanistic link; liver involvement is a caution because rasagiline is metabolised in the liver |
+| 6 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.01% | Structural developmental malformation; no plausible effect |
 
 ---
 
@@ -77,23 +87,25 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Five of the 8 authorizations are listed below. The records supplied do not include dosage form or approved indication text.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02491982 | JAMP RASAGILINE | Not specified | Not specified |
+| 02284650 | AZILECT | Not specified | Not specified |
+| 02284642 | AZILECT | Not specified | Not specified |
+| 02418436 | TEVA-RASAGILINE | Not specified | Not specified |
+| 02418444 | TEVA-RASAGILINE | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02491982 | JAMP RASAGILINE |
-| 02284650 | AZILECT |
-| 02284642 | AZILECT |
-| 02418436 | TEVA-RASAGILINE |
-| 02418444 | TEVA-RASAGILINE |
+Eight valid single-ingredient licences are on record (showing the first 5). None are cancelled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the data supplied.
+- **Contraindications suggested by the knowledge graph** (not label text, so these need verification against the package insert): hypertension and hypertensive disorder, multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, drug-induced dyskinesia, epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, melanoma, pheochromocytoma and related adrenal or paraganglioma tumours, and several cancers (duodenum, small intestine, heart, adrenal gland).
+- **Drug interactions:** 100 interactions were found in total. The first 20 retrieved include two **Major** interactions, with **bupropion** and **morphine**. The rest are Moderate, including epinephrine, cimetidine, phentermine, diethylpropion, dronabinol, diphenoxylate, difenoxin, obeticholic acid, chlorpropamide, glimepiride, and multiple insulin products (aspart, degludec, detemir, glargine, glulisine, human isophane, human regular, and inhaled rapid-acting).
+- **Relevance to the predicted indication:** transaldolase deficiency involves liver dysfunction, but that is a different predicted indication from the top one. For PLAN, the available data do not show specific safety information.
 
-One point from the rationale to keep in mind: rasagiline is metabolized in the liver. This matters if it were ever considered for a population with liver involvement.
+Package insert warnings and contraindications were not available, so please refer to the package insert for the complete safety information.
 
 ---
 
@@ -102,16 +114,15 @@ One point from the rationale to keep in mind: rasagiline is metabolized in the l
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no supporting trials or literature (L5). The proposed use is also a very rare condition. A symptomatic dopaminergic benefit is plausible, but nothing in the data confirms it.
+The prediction score is high, but there are no clinical trials or publications for PLAN. The mechanistic link is only plausible for the parkinsonian features, and not for the underlying lipid-metabolism and iron-accumulation pathology. Safety review also cannot proceed because the label warnings are missing.
 
 **To proceed, the following is needed:**
-- A targeted literature search on MAO-B inhibitors or dopaminergic therapy in PLA2G6-associated neurodegeneration and PARK14, including case reports
-- The Health Canada product monograph, to confirm the approved indication, warnings, contraindications and interactions
-- Detailed mechanism-of-action data from DrugBank
-- An assessment of safety and dosing for the pediatric and juvenile-onset patients typical of this disease
-- Expert review to decide whether a symptomatic-benefit hypothesis justifies further study
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Obtain Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Obtain mechanism-of-action data from DrugBank
+- Search for case reports, natural-history data, and preclinical studies of MAO-B inhibitors in PLAN or PARK14
+- Compare PLAN with the original indications to determine whether any benefit would be symptomatic only (for example, parkinsonian features) or disease-modifying
+- Assess route and formulation compatibility, and the suitability of rasagiline for paediatric patients, since dosage form and route data are currently missing
+- Review the interaction with the major-level drugs (bupropion, morphine) and the knowledge-graph contraindications for a target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

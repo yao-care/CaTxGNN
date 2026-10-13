@@ -2,7 +2,7 @@
 layout: default
 title: Elosulfase Alfa
 parent: Model Prediction Only (L5)
-nav_order: 320
+nav_order: 322
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Elosulfase Alfa: From Morquio A Syndrome to Scheie Syndrome
+# Elosulfase Alfa: From Mucopolysaccharidosis to Scheie Syndrome
 
 ## One-Sentence Summary
 
-Elosulfase alfa is a recombinant enzyme replacement therapy (recombinant GALNS) used for Morquio A syndrome (MPS IVA).
-The TxGNN model predicts it may be effective for **Scheie syndrome** (attenuated MPS I), but there are **0 clinical trials** and only **2 publications** (general cohort studies with no efficacy data), so the prediction is unsupported by direct evidence.
+Elosulfase alfa is an enzyme replacement therapy originally used to treat mucopolysaccharidosis (specifically MPS IVA, Morquio A syndrome).
+The TxGNN model predicts it may be effective for **Scheie syndrome**, but there are currently **no clinical trials and no publications** supporting this specific prediction.
+The score reflects network proximity within the MPS disease family, not demonstrated efficacy.
 
 ---
 
@@ -42,7 +43,7 @@ The TxGNN model predicts it may be effective for **Scheie syndrome** (attenuated
 
 | Item | Content |
 |------|------|
-| Original Indication | Morquio A syndrome (MPS IVA), based on the literature. The Canadian licence record does not state an indication text. |
+| Original Indication | Mucopolysaccharidosis (MPS IVA, Morquio A syndrome) |
 | Predicted New Indication | Scheie syndrome |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
@@ -54,40 +55,49 @@ The TxGNN model predicts it may be effective for **Scheie syndrome** (attenuated
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on known information, elosulfase alfa is recombinant N-acetylgalactosamine-6-sulfatase (GALNS). It degrades keratan sulfate and chondroitin-6-sulfate, and its efficacy in Morquio A syndrome has been established.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, elosulfase alfa replaces the enzyme N-acetylgalactosamine-6-sulfatase (GALNS), which breaks down keratan sulfate and chondroitin-6-sulfate. Its efficacy in MPS IVA is established.
 
-Scheie syndrome is an attenuated form of MPS I caused by deficiency of a different enzyme, alpha-L-iduronidase (IDUA). This leads to accumulation of dermatan sulfate and heparan sulfate. GALNS cannot replace IDUA and does not act on these substrates, so the enzyme has no direct therapeutic link to this disease.
+Scheie syndrome (attenuated MPS I) is caused by a deficiency of a different enzyme, alpha-L-iduronidase. This leads to accumulation of dermatan sulfate and heparan sulfate, not the substrates that elosulfase alfa acts on. The two diseases therefore have different enzyme defects and different substrates. The only shared feature is that both are lysosomal storage disorders treated by enzyme replacement.
 
-The high graph score most likely reflects the shared mucopolysaccharidosis/lysosomal storage neighbourhood in the knowledge graph rather than a real mechanistic relationship. The prediction should be treated as a model artifact until direct evidence appears.
-
-For context, the same dataset ranks a broader category, "lysosomal storage disease with skeletal involvement" (which includes Morquio A), second. That entry reflects the approved use rather than true repurposing.
+The high TxGNN score most likely reflects the closeness of these diseases within the MPS family in the knowledge graph, rather than a shared enzymatic mechanism. The prediction is plausible only as a class-level association and is not mechanistically supported.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for Scheie syndrome.
+
+For context, the next-ranked prediction, Hurler syndrome (severe MPS I), has one registered trial: [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) (PEARL), a Phase 1 trial of prenatal enzyme replacement for lysosomal storage disorders (recruiting, 10 participants). It is an early safety study, the enzymes tested are likely disease-specific, and it does not show elosulfase alfa efficacy in MPS I.
 
 ---
 
 ## Literature Evidence
 
+Currently no related literature available for Scheie syndrome.
+
+The literature retrieved for other predicted indications concerns almost entirely Morquio A syndrome (MPS IVA), the original indication. It supports the existing use and not a new one. Key examples:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35005816](https://pubmed.ncbi.nlm.nih.gov/35005816/) | 2022 | Cohort | Human Mutation | Molecular characterization of 302 Iranian MPS patients. It is a diagnostic and genetic study with no treatment data. |
-| [18584975](https://pubmed.ncbi.nlm.nih.gov/18584975/) | 2009 | Cohort | Pathologie Biologie | Clinical features and consanguinity in MPS I and IVA patients in Tunisia. It contains no efficacy data for elosulfase alfa. |
-
-Neither paper evaluates elosulfase alfa in Scheie syndrome.
+| [24810369](https://pubmed.ncbi.nlm.nih.gov/24810369/) | 2014 | RCT | J Inherit Metab Dis | Phase 3 randomised placebo-controlled study of elosulfase alfa in Morquio A syndrome |
+| [25284089](https://pubmed.ncbi.nlm.nih.gov/25284089/) | 2015 | RCT | Mol Genet Metab | Multi-domain impact of elosulfase alfa in the pivotal Phase 3 trial |
+| [27380995](https://pubmed.ncbi.nlm.nih.gov/27380995/) | 2016 | Cohort | Mol Genet Metab | Long-term endurance and safety over 96 weeks in a Phase 3 extension study |
+| [41088244](https://pubmed.ncbi.nlm.nih.gov/41088244/) | 2025 | Review | Orphanet J Rare Dis | Recent advances in MPS IVA treatment; ERT is currently the only approved therapy |
+| [42363262](https://pubmed.ncbi.nlm.nih.gov/42363262/) | 2026 | Cohort | Orphanet J Rare Dis | Long-term follow-up and response to elosulfase alfa in a Czech MPS IVA cohort |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2427184 | VIMIZIM |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02427184 | VIMIZIM | Not specified | Not specified |
 
-Dosage form and approved indication text are not recorded in the licence data.
+---
+
+## Safety Considerations
+
+Please refer to the package insert for safety information. No drug interactions were found in the data compiled for this report.
 
 ---
 
@@ -96,17 +106,13 @@ Dosage form and approved indication text are not recorded in the licence data.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no efficacy publications and no plausible mechanism. GALNS does not act on the substrates that accumulate in Scheie syndrome (IDUA deficiency). The score most likely reflects graph proximity among MPS diseases rather than a real therapeutic link.
+The Scheie syndrome prediction has no clinical trials or publications behind it (L5). Elosulfase alfa targets GALNS and its substrates, whereas Scheie syndrome involves alpha-L-iduronidase deficiency and different substrates, so there is no direct mechanistic rationale. Other top predictions are either the original indication (MPS IVA) or are unsupported by mechanism or evidence.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical data showing elosulfase alfa activity in IDUA-deficient models or patients (none currently exists)
-- Health Canada product monograph warnings and contraindications for a safety review
-- The licensed indication text and dosage form from the Canadian licence record
-- Detailed mechanism of action data to support a mechanistic analysis
-
-Where MPS I treatment is the goal, enzymes that target IDUA are the mechanistically appropriate approach.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from Health Canada, which are currently missing and block safety screening
+- Detailed mechanism-of-action data
+- Preclinical evidence on whether GALNS replacement has any effect on dermatan sulfate or heparan sulfate accumulation
+- Any clinical or literature evidence of elosulfase alfa use in MPS I; established MPS I enzyme therapy (alpha-L-iduronidase replacement) should be the comparator
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

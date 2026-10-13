@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vasopressin
-parent: Moderate Evidence (L3-L4)
-nav_order: 961
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 968
+evidence_level: L5
 indication_count: 10
 ---
 
 # Vasopressin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,65 +29,89 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Vasopressin: From Its Marketed Injection Use to Congenital Prothrombin Deficiency
+# Vasopressin: From an Unspecified Original Indication to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Vasopressin is a peptide hormone marketed in Canada as an injection, but the data provided do not list its approved indication.
-The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there are **0 clinical trials** and **3 publications**, and none of the publications address prothrombin deficiency.
+Vasopressin is a hormone-based injectable marketed in Canada, but the data compiled for this report do not specify its approved indication.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there are **0 clinical trials** and only **3 loosely related publications** (one review and two case reports on other clotting-factor deficiencies), so this remains essentially a model prediction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not specified in the available Health Canada licence data |
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (no trials; indirect literature only, none on prothrombin deficiency) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the source database. Vasopressin and its analog DDAVP act through V2 receptors to release von Willebrand factor and factor VIII. This explains why the retrieved case reports describe DDAVP use in combined factor V and factor VIII deficiency.
+Currently, detailed mechanism of action data is not available for vasopressin in the data compiled for this report. Based on general pharmacology, vasopressin and its analogue desmopressin (DDAVP) act through V2 receptors to release stored factor VIII and von Willebrand factor from endothelial cells.
 
-Prothrombin (factor II) is not affected by this pathway, so the link to congenital prothrombin deficiency is weak. The high TxGNN score is probably a graph-proximity effect within the coagulation-disorder neighbourhood. The retrieved literature concerns acquired hemophilia A and factor V/VIII deficiencies, not prothrombin deficiency. The prediction is therefore best treated as a hypothesis, not a supported finding.
+That mechanism is relevant to factor VIII and combined factor V/VIII deficiencies, **not** to prothrombin (factor II) deficiency. No documented mechanism raises prothrombin levels. The very high TxGNN score is most likely driven by the drug's proximity to other coagulation-factor deficiencies in the knowledge graph rather than by a true pharmacological link. The prediction should therefore be treated as a hypothesis with weak mechanistic support.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | Acquired hemophilia A (autoantibodies against factor VIII): diagnosis, causes, clinical spectrum and treatment options. Not specific to vasopressin or prothrombin. |
-| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case report | Rinsho Ketsueki (Jpn J Clin Hematol) | DDAVP given to a 43-year-old man with congenital combined factor V and factor VIII deficiency. |
-| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case report | Rinsho Ketsueki (Jpn J Clin Hematol) | Cesarean section managed with factor VIII concentrates in a pregnant woman with combined factor V and VIII deficiency. |
+| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | Overview of acquired hemophilia A (autoantibodies against factor VIII): diagnosis, causes and treatment options. Not specific to prothrombin deficiency. |
+| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case report | Rinsho Ketsueki | DDAVP given to a patient with congenital combined factor V and factor VIII deficiency. |
+| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case report | Rinsho Ketsueki | Cesarean section managed with factor VIII concentrates in a pregnant woman with combined factor V and VIII deficiency. |
+
+None of these papers addresses prothrombin (factor II) deficiency directly.
+
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2247938 | VASOPRESSIN INJECTION USP |
-| 2139502 | VASOPRESSIN INJECTION, USP |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02247938 | Vasopressin Injection USP | Not listed | Not listed |
+| 02139502 | Vasopressin Injection, USP | Not listed | Not listed |
+
+Both licences are valid single-ingredient products.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Drug Interactions**: The interaction screening returned 100 potential interactions. Examples of the main ones, by severity:
+  - **Major**: dolasetron, cisapride, papaverine, macimorelin
+  - **Moderate**: famotidine, epinephrine, loperamide, chlorpropamide, clarithromycin, levofloxacin, ondansetron, granisetron, palonosetron, promethazine, cilostazol, heparin, and others
+  - **Minor**: metronidazole
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the knowledge-graph score alone. There are no clinical trials, and the few publications concern other clotting factor deficiencies reached through the V2/factor VIII pathway, not prothrombin. The other nine predicted indications for this drug are also at Hold, mostly with no supporting evidence.
+The prediction rests on a model score alone. There are no clinical trials, the supporting papers concern other factor deficiencies, and the known mechanism (raising factor VIII and von Willebrand factor) does not apply to prothrombin deficiency.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (approved indications, warnings, contraindications) to complete safety screening
-- Mechanism of action data from DrugBank
-- Any direct evidence linking vasopressin or DDAVP to prothrombin (factor II) levels or activity
-- Expert review of whether the coagulation-neighbourhood score reflects a real biological link
+- The approved indications and the package insert warnings and contraindications from Health Canada
+- Mechanism of action data, and evidence of any effect on prothrombin levels
+- Preclinical or clinical evidence specific to congenital prothrombin deficiency
+- A review of the major drug interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

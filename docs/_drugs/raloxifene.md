@@ -2,7 +2,7 @@
 layout: default
 title: Raloxifene
 parent: Model Prediction Only (L5)
-nav_order: 782
+nav_order: 789
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Raloxifene: From Osteoporosis to Duodenal Ulcer
+# Raloxifene: From Postmenopausal Osteoporosis to Duodenal Ulcer
 
 ## One-Sentence Summary
 
-Raloxifene is a selective estrogen receptor modulator (SERM) approved for osteoporosis and for breast cancer risk reduction.
-The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is a knowledge-graph prediction only.
-Currently **0 clinical trials** and **0 publications** support it, so the evidence is at the model-prediction level.
+Raloxifene is a selective estrogen receptor modulator (SERM) originally used to treat postmenopausal osteoporosis.
+The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is a model-based prediction only,
+with **0 clinical trials** and **0 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoporosis; breast cancer risk reduction (taken from the prediction rationale, as the Canadian license indication text was not supplied) |
+| Original Indication | Postmenopausal osteoporosis / osteoporosis |
 | Predicted New Indication | Duodenal ulcer |
 | TxGNN Prediction Score | 99.72% |
 | Evidence Level | L5 |
@@ -51,13 +51,17 @@ Currently **0 clinical trials** and **0 publications** support it, so the eviden
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Raloxifene is a SERM, and its efficacy in osteoporosis and breast cancer risk reduction is established. Any mechanistic link to duodenal ulcer is speculative. One possible route is estrogen receptor signaling in gastrointestinal mucosa. No established pathway connects SERM activity to ulcer healing or to *H. pylori*-related disease.
+Currently, detailed mechanism of action data is not available. Based on known information, raloxifene is a selective estrogen receptor modulator (SERM) that acts on bone, lipid metabolism and breast/uterine tissue. Its efficacy in postmenopausal osteoporosis is established.
 
-The high score (0.997) reflects proximity in the knowledge graph, not biological or clinical evidence. The other top-ranked predictions are even weaker:
+For duodenal ulcer, no clear mechanistic link has been identified. Duodenal ulcer is driven mainly by *H. pylori* infection, NSAID use and acid hypersecretion, and no recognized estrogen-receptor pathway connects raloxifene to these processes. The very high TxGNN score (99.72%) is a graph-based prediction and is not backed by any clinical trial or publication in the data compiled for this report.
 
-- **Hypoalphalipoproteinemia (99.65%)**: Raloxifene modestly lowers LDL-C and fibrinogen, but its effect on HDL-C is generally small or neutral. The rationale is weak.
-- **Duodenal obstruction (99.64%)**: This is mainly a mechanical or structural condition, so a hormonal receptor modulator has no plausible therapeutic mechanism. It is likely a graph-proximity artifact.
-- **Duodenogastric reflux (99.59%)**: This is a motility and pyloric function disorder, and no known SERM mechanism affects it. The association probably comes from shared graph neighbors with other duodenal diseases.
+Other predictions from the same model were also reviewed, and all share the same limitation (L5, no supporting studies):
+
+| Predicted Indication | TxGNN Score | Comment |
+|------|------|------|
+| Hypoalphalipoproteinemia | 99.65% | Indirect plausibility: raloxifene lowers LDL cholesterol, but its effect on HDL is small and inconsistent. Low HDL is often genetic. |
+| Duodenal obstruction | 99.64% | No mechanistic rationale; this is usually a structural condition treated surgically or endoscopically. The score likely reflects graph proximity to other duodenal terms. |
+| Duodenogastric reflux | 99.59% | No known prokinetic, bile-binding or mucosal-protective action. Raloxifene's adverse-effect profile offers no offsetting rationale. |
 
 ## Clinical Trial Evidence
 
@@ -69,28 +73,34 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2358840 | ACT RALOXIFENE |
-| 2540681 | JAMP RALOXIFENE |
-| 2279215 | APO-RALOXIFENE |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02358840 | ACT RALOXIFENE | – | – |
+| 02540681 | JAMP RALOXIFENE | – | – |
+| 02279215 | APO-RALOXIFENE | – | – |
+
+All three are valid single-ingredient authorizations. Dosage form and approved-indication text are not available in the compiled data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: hypertensive disorder, hypertension, liver disease, gallbladder disease, atrial fibrillation, hypertriglyceridemia, thrombophlebitis, coronary artery disease, stroke disorder, cerebrovascular disorder, susceptibility to ischemic stroke, cerebral infarction, pulmonary embolism, retinal artery occlusion, thrombophilia, impaired renal function, transient ischemic attack, vertebrobasilar insufficiency, antiphospholipid syndrome. Many of these relate to thromboembolic and cardiovascular risk.
+- **Drug Interactions**: The interaction screen returned 100 potentially interacting drugs, none with a severity rating. Examples include calcitriol, pantoprazole, omeprazole, lansoprazole, glimepiride, metformin, simvastatin, doxycycline, tetracycline, morphine and vancomycin. Because severity is unclassified, clinical significance cannot be judged from this data.
+
+Please refer to the package insert for official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a knowledge-graph score, with no trials or publications, and the biological rationale for duodenal ulcer is weak. The product is marketed in Canada (3 DINs), but no safety data are available to support moving forward.
+The prediction for duodenal ulcer rests only on a graph-based model score. There is no clinical trial or literature evidence, and no plausible mechanistic link to raloxifene's SERM pharmacology. The known thromboembolic and cardiovascular risks argue against advancing without a clear rationale.
 
 **To proceed, the following is needed:**
+- Mechanism of action data (MOA) from DrugBank, to enable a proper mechanistic-link analysis
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, for example from DrugBank, to assess any link to gastroduodenal mucosa
-- A systematic literature and trial search for raloxifene in duodenal ulcer or other gastroduodenal disease
-- Review of whether the lower-ranked predictions (such as hypoalphalipoproteinemia) warrant a lipid-endpoint literature search
+- A targeted literature search on raloxifene in peptic or duodenal ulcer disease, and on HDL effects if hypoalphalipoproteinemia is to be considered
+- Dosage form and approved-indication details for the three Canadian DINs
+- Severity classification of the drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

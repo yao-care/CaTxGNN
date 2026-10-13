@@ -29,18 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Baricitinib: From Inflammatory Disease Therapy to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Baricitinib: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
 ## One-Sentence Summary
 
-Baricitinib is a JAK1/JAK2 inhibitor that dampens JAK-STAT-mediated inflammatory signaling and is marketed in Canada as OLUMIANT.
-The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
+Baricitinib was originally used to treat rheumatoid arthritis.
+The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**,
+but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the available data |
+| Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
@@ -48,47 +51,65 @@ The TxGNN model predicts it may be effective for **colobomatous microphthalmia-r
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Baricitinib is generally known as a JAK1/JAK2 inhibitor that reduces JAK-STAT-mediated inflammatory signaling.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Baricitinib is generally known as a JAK1/JAK2 inhibitor, and its efficacy in rheumatoid arthritis, an immune-mediated inflammatory disease, is established.
 
-The predicted disease is a rare congenital developmental malformation affecting the eye and skeleton. A JAK-STAT inflammatory mechanism has no evident relevance to its pathogenesis, so **no supported mechanistic link** was identified. The very high TxGNN score (99.94%) is a knowledge-graph prediction and may reflect graph topology rather than biology. It should not be treated as clinical evidence.
+The predicted condition is a rare congenital malformation syndrome involving eye defects (coloboma and microphthalmia) and skeletal shortening (rhizomelic dysplasia). Nothing in the compiled data connects JAK-STAT inhibition to the biology of this condition. Because it is a developmental disorder, an anti-inflammatory mechanism seems biologically implausible without further evidence.
 
-The second-ranked prediction, **brachydactyly-syndactyly syndrome** (score 99.94%), has the same problem. It is a congenital limb malformation, and inhibiting JAK-STAT signaling would not be expected to correct a structural developmental defect. It also has no supporting trials or literature.
+The very high TxGNN score (99.94%) is a computational prediction only. It is not backed by trials or literature, so it should be treated as a likely false positive until a plausible biological pathway is shown.
+
+**Second predicted indication:** The model also ranks *brachydactyly-syndactyly syndrome* (score 99.94%, also Evidence Level L5, Hold). It likewise has no trials or literature, and it is a structural limb malformation with no demonstrated link to JAK inhibition.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2544768 | OLUMIANT |
-| 2480018 | OLUMIANT |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02544768 | OLUMIANT | Not specified | Not specified |
+| 02480018 | OLUMIANT | Not specified | Not specified |
 
-Dosage form and approved indication text were not provided for these licenses.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the available data.
+**Drug Interactions:** The data compiled for this report lists 100 interacting drugs (from DDInter). The entries shown include:
+
+- **Major:** corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone including the ophthalmic form), deferiprone, and radiopharmaceuticals/radioimmunotherapy agents (ibritumomab tiuxetan, iobenguane I-131, tositumomab I-131)
+- **Moderate:** morphine (including liposomal), opium, acetylsalicylic acid, nitisinone
+- **Minor:** zinc salts (acetate, gluconate, sulfate)
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (Evidence Level L5). There are no trials or publications, and no plausible mechanistic link between JAK-STAT inhibition and the pathogenesis of a congenital developmental malformation. The same applies to the second prediction.
+The prediction is supported only by a model score, with no clinical trials or literature. There is no plausible mechanistic link between JAK1/JAK2 inhibition and a congenital developmental malformation syndrome. It is most likely a false positive.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
-- Approved indication text and dosage forms for the two Canadian licenses
-- Any preclinical or clinical evidence linking JAK-STAT signaling to the predicted syndromes, including a check that they are plausible targets for postnatal drug treatment
+- Mechanism of action data and a credible biological pathway linking JAK-STAT signalling to this syndrome
+- Preclinical or case-level evidence in the predicted condition
+- Health Canada package insert warnings and contraindications, which are needed before any safety screening
+- Approved indication and dosage form details for the two OLUMIANT DINs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

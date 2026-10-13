@@ -2,7 +2,7 @@
 layout: default
 title: Danaparoid
 parent: Model Prediction Only (L5)
-nav_order: 243
+nav_order: 245
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Danaparoid: From Anticoagulation to Glanzmann Thrombasthenia
+# Danaparoid: From Anticoagulation to Glanzmann Thrombasthenia (Prediction Not Supported)
 
 ## One-Sentence Summary
 
-Danaparoid is a heparinoid anticoagulant, marketed in Canada as ORGARAN.
-The TxGNN model predicts it may be relevant to **Glanzmann thrombasthenia**, an inherited platelet bleeding disorder, but **0 clinical trials** and **0 publications** support this.
-The prediction looks biologically implausible and may reflect a contraindication signal rather than a therapeutic opportunity.
+Danaparoid (marketed in Canada as ORGARAN) is a heparinoid anticoagulant. The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia**, a bleeding disorder, but there are **0 clinical trials** and **0 publications** supporting this. The prediction conflicts with the drug's pharmacology and is most likely a computational artifact.
 
 ---
 
@@ -43,7 +41,7 @@ The prediction looks biologically implausible and may reflect a contraindication
 
 | Item | Content |
 |------|------|
-| Original Indication | Anticoagulation (heparinoid anticoagulant; no approved indication text in the Canadian record) |
+| Original Indication | Not available in the data compiled for this report (anticoagulant heparinoid) |
 | Predicted New Indication | Glanzmann thrombasthenia |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
@@ -55,19 +53,19 @@ The prediction looks biologically implausible and may reflect a contraindication
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Danaparoid is a heparinoid that acts through antithrombin-mediated anti-Xa activity, which suppresses thrombin generation and reduces clotting.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, danaparoid is an anticoagulant heparinoid whose effect comes mainly from anti-Xa activity through potentiation of antithrombin.
 
-Glanzmann thrombasthenia is an inherited bleeding disorder caused by defective platelet integrin alphaIIb-beta3. Patients bleed too easily, so an anticoagulant would be expected to worsen the condition. The high score most likely reflects proximity in the knowledge graph through shared coagulation and platelet nodes, not a therapeutic link.
+Glanzmann thrombasthenia is a bleeding disorder caused by absent or defective platelet integrin alpha-IIb/beta-3. Anticoagulation would be expected to **worsen** the bleeding tendency, not treat it. The high score (99.88%) most likely reflects proximity in the knowledge graph (shared coagulation and platelet network nodes) rather than a therapeutic mechanism.
 
-The other five predictions are all platelet or bleeding disorders and have the same problem:
+The other five predicted indications show the same pattern. All are bleeding or platelet-function disorders where an anticoagulant would be counterproductive:
 
-- Primary release disorder of platelets (99.88%)
-- Pseudo-von Willebrand disease (99.83%)
-- Bleeding diathesis due to a collagen receptor defect (99.30%)
-- Hemorrhagic disorder due to constitutional thrombocytopenia (99.30%)
-- Scott syndrome (99.28%)
-
-None has any trial or literature support. In each case the anticoagulant effect runs opposite to the clinical need, so these predictions should be treated as possible safety warnings.
+| Predicted Disease | TxGNN Score | Concern |
+|------|------|------|
+| Primary release disorder of platelets | 99.88% | Platelet secretion defect; anticoagulant adds bleeding risk |
+| Pseudo-von Willebrand disease | 99.83% | GPIbα gain-of-function; anticoagulation expected to aggravate bleeding |
+| Bleeding diathesis due to a collagen receptor defect | 99.30% | Defect is in collagen-platelet signaling, not the coagulation cascade |
+| Hemorrhagic disorder due to constitutional thrombocytopenia | 99.30% | Danaparoid does not correct platelet count |
+| Scott syndrome | 99.28% | Impaired phosphatidylserine exposure; danaparoid further suppresses coagulation |
 
 ---
 
@@ -85,17 +83,22 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2129043 | ORGARAN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02129043 | ORGARAN | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-No drug interactions were found in the queried data.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs. The entries reviewed include many Major-level interactions, which are consistent with additive bleeding risk:
+  - Antiplatelet and NSAID agents: acetylsalicylic acid, ibuprofen, ketorolac, abciximab
+  - Thrombolytic: alteplase
+  - Other Major-level interactions: deferasirox, acalabrutinib, trastuzumab emtansine, ibritumomab tiuxetan, tositumomab (I-131)
+  - Moderate-level examples: celecoxib, amiloride, aliskiren, sugammadex
+- **Disease-specific concern**: Because all predicted indications are bleeding disorders, use of danaparoid is potentially contraindicated in these conditions.
 
-Please refer to the package insert for safety information. Because the predicted indications are bleeding disorders, a heparinoid anticoagulant could increase bleeding risk in these patients.
+Please refer to the package insert for warnings and contraindications, which were not available in the data compiled for this report.
 
 ---
 
@@ -104,13 +107,13 @@ Please refer to the package insert for safety information. Because the predicted
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no trials or literature (L5). The mechanism points in the opposite direction from the disease, since an anticoagulant would likely aggravate bleeding. Treat the result as a graph-proximity artifact or a possible contraindication signal, not a repurposing candidate.
+The prediction rests only on a model score. The drug's anticoagulant action runs opposite to what bleeding disorders require, and no trials or publications support the prediction. The safety risk is also plausible.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert warnings and contraindications
-- Confirmed mechanism-of-action data from DrugBank
-- Any preclinical or clinical evidence showing a plausible benefit in platelet function disorders
-- A review of whether the predictions should be reclassified as safety signals
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data confirmed from DrugBank
+- Original approved indication text for ORGARAN
+- Any mechanistic or preclinical rationale showing how an anticoagulant could benefit these bleeding disorders. Without it, deprioritising this candidate and reviewing other predictions is advisable.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Andexanet Alfa: From Factor Xa Inhibitor Reversal to Glanzmann Thrombasthenia
+# Andexanet Alfa: From DOAC-Associated Bleeding Reversal to Glanzmann Thrombasthenia
 
 ## One-Sentence Summary
 
-Andexanet alfa is a recombinant antidote that neutralizes factor Xa (FXa) inhibitor anticoagulants. The TxGNN model predicts it may be useful for **Glanzmann thrombasthenia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, and no plausible mechanistic link has been identified.
+Andexanet alfa is a recombinant factor Xa (FXa) decoy protein marketed in Canada as ONDEXXYA. Its approved indication text is not available in the data compiled for this report, but it is known to be used to reverse FXa-inhibitor anticoagulation.
+The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this specific indication. The evidence rests on model prediction alone.
 
 ---
 
@@ -41,10 +42,10 @@ Andexanet alfa is a recombinant antidote that neutralizes factor Xa (FXa) inhibi
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence data. Andexanet alfa is known as a reversal agent for FXa inhibitors. |
+| Original Indication | Not available in the compiled data (the Canadian license has no indication text) |
 | Predicted New Indication | Glanzmann thrombasthenia |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -53,14 +54,15 @@ Andexanet alfa is a recombinant antidote that neutralizes factor Xa (FXa) inhibi
 
 ## Why is This Prediction Reasonable?
 
-Currently, curated mechanism of action data is not available in the Evidence Pack. Based on the pack's rationale text, andexanet alfa is a recombinant, catalytically inactive FXa decoy. It binds and neutralizes FXa inhibitors, which restores the activity of the coagulation cascade.
+Detailed mechanism-of-action data is not available in the compiled data. From known pharmacology, andexanet alfa is a catalytically inactive recombinant FXa decoy. It binds and sequesters direct FXa inhibitors (and the antithrombin-heparin complex), restoring normal FXa activity.
 
-Glanzmann thrombasthenia is an inherited platelet aggregation defect. It is caused by deficient or dysfunctional GPIIb/IIIa (integrin alphaIIb-beta3). Andexanet alfa acts on the coagulation cascade, not on platelet function, so **no plausible mechanistic link was identified**. The high TxGNN score (0.998) is a knowledge-graph prediction only. No trial or publication backs it up, and the original MOA field is empty, so the prediction cannot be cross-checked.
+Glanzmann thrombasthenia is an inherited platelet disorder caused by deficiency or dysfunction of integrin αIIbβ3 (GPIIb/IIIa), which impairs platelet aggregation. Andexanet alfa acts on the coagulation cascade, not on platelet aggregation, so **no plausible mechanistic link** was identified. The high TxGNN score is a graph-based prediction, likely driven by shared hemostasis-related network neighbours rather than biology.
 
-Other predicted indications show the same pattern:
-- **Primary release disorder of platelets** (99.76%): a platelet granule secretion defect, and andexanet has no known effect on it.
-- **Pseudo-von Willebrand disease** (99.65%): a GPIb-alpha gain-of-function defect, and andexanet does not act on the GPIb-VWF axis.
-- **Hemophilia** (99.10%): 10 publications were retrieved, but none evaluates andexanet as a hemophilia treatment. They cover anticoagulant-associated bleeding, DOAC interference in FVIII/FIX assays, and reviews of reversal agents. One speculative, unverified angle is that andexanet has been reported to bind TFPI, which is a validated hemostatic target in hemophilia. It would need dedicated preclinical work.
+The other predicted indications show the same pattern:
+
+- **Primary release disorder of platelets** (score 99.76%): this involves defective platelet granule secretion or signalling, which andexanet alfa does not correct. There are no trials or literature.
+- **Pseudo-von Willebrand disease** (score 99.65%): this is a gain-of-function defect in platelet GPIb-α, and andexanet alfa has no known effect on the VWF–GPIb axis. There are no trials or literature.
+- **Hemophilia** (score 99.10%): this is a deficiency of factor VIII or IX. Andexanet alfa does not replace the missing factors. The retrieved publications concern DOAC reversal or laboratory interference, not hemophilia treatment (see Literature Evidence).
 
 ---
 
@@ -72,23 +74,33 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Glanzmann thrombasthenia.
+No literature was found for Glanzmann thrombasthenia. The only literature retrieved was for the fourth-ranked prediction, hemophilia. These publications concern andexanet alfa in DOAC reversal or DOAC laboratory interference, **not** treatment of hemophilia, so the keyword match is incidental.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38620086](https://pubmed.ncbi.nlm.nih.gov/38620086/) | 2024 | Cohort (ANNEXA-4 subanalysis) | Circulation | Efficacy and safety of andexanet alfa in acute gastrointestinal bleeding on FXa inhibitors |
+| [31962376](https://pubmed.ncbi.nlm.nih.gov/31962376/) | 2020 | Laboratory comparison | Haemophilia | Andexanet alfa or DOAC Stop used to neutralize rivaroxaban interference in FVIII/FIX assays |
+| [33742436](https://pubmed.ncbi.nlm.nih.gov/33742436/) | 2021 | Guideline | Thromb Haemost | ICSH recommendations for laboratory measurement of DOACs, including the reversal agent |
+| [42033142](https://pubmed.ncbi.nlm.nih.gov/42033142/) | 2026 | Position statement | Br J Haematol | British Society for Haematology position on andexanet alfa use |
+| [36819179](https://pubmed.ncbi.nlm.nih.gov/36819179/) | 2023 | Review | EJHaem | Review of UK hospital protocols for andexanet alfa |
+| [30309890](https://pubmed.ncbi.nlm.nih.gov/30309890/) | 2018 | Review | Blood | Reversal of anti-FXa agents and unmet needs in trauma patients |
+| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Review | Curr Pharm Des | New hemostatic agents and perioperative anaesthetic considerations |
+| [26519420](https://pubmed.ncbi.nlm.nih.gov/26519420/) | 2016 | Review | Drug Saf | NOAC reversal strategies: development status and future perspectives |
+| [27254626](https://pubmed.ncbi.nlm.nih.gov/27254626/) | 2016 | Review | Dtsch Med Wochenschr | Coagulation disorders in intensive care, including NOAC antidotes |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2538539 | ONDEXXYA |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02538539 | ONDEXXYA | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Key Warnings**: Thromboembolic risk. This weighs against advancing the drug into conditions where it has no clear rationale.
-
-Please refer to the package insert for the full set of warnings, contraindications and drug interactions.
+Please refer to the package insert for safety information. No drug interaction records were found in the compiled data.
 
 ---
 
@@ -97,12 +109,13 @@ Please refer to the package insert for the full set of warnings, contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. It has no clinical or literature support and no plausible mechanistic link to platelet-function disorders. The thromboembolic risk warning further argues against advancing without a clear rationale.
+The prediction for Glanzmann thrombasthenia is supported only by a graph-based model score. There are no clinical trials and no relevant literature, and the drug's mechanism (neutralizing FXa inhibitors) does not address the platelet aggregation defect. The same applies to the other three predicted indications.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Curated mechanism of action data (for example from DrugBank)
-- Preclinical evidence of an effect on platelet function or hemostasis in the target disease (for example the TFPI-binding hypothesis for hemophilia)
+- The Health Canada package insert (approved indication, warnings, and contraindications), which is required before any safety screening
+- Mechanism-of-action data from DrugBank to complete the mechanistic analysis
+- Preclinical or mechanistic evidence showing a biological link between FXa-decoy activity and platelet function in Glanzmann thrombasthenia
+- Consideration of whether the predicted indications are better treated as model artefacts than as repurposing candidates
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

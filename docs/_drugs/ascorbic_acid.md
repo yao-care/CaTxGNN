@@ -29,21 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ascorbic Acid: From Its Original Indication (Not Recorded) to Non-Syndromic Esophageal Malformation
+# Ascorbic Acid: From Ascorbic Acid Deficiency and Scurvy to Non-Syndromic Esophageal Malformation
 
 ## One-Sentence Summary
 
-Ascorbic acid (vitamin C) is a marketed nutritional product in Canada, but its approved indication is not recorded in the available license data.
-The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, a congenital structural anomaly.
-There are **no clinical trials** and **no publications** supporting this prediction, so it rests on the model score alone.
-
----
+Ascorbic acid (vitamin C) is originally used to treat and prevent ascorbic acid deficiency and scurvy.
+The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, but **no clinical trials and no publications** currently support this prediction. It rests on the model's graph-based score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the Canadian license data |
+| Original Indication | Ascorbic acid deficiency; scurvy |
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
@@ -51,62 +48,55 @@ There are **no clinical trials** and **no publications** supporting this predict
 | Number of DINs | 13 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ascorbic acid is a well-known essential vitamin, and it is known to act as an antioxidant and as a cofactor in collagen synthesis. Its use for the original indication is established, but no link to esophageal malformation has been shown.
+Currently, detailed mechanism of action data is not available. Based on known information, ascorbic acid is an essential vitamin that works as an antioxidant and as a cofactor for collagen-forming enzymes. Its efficacy in vitamin C deficiency and scurvy is well established.
 
-The prediction is difficult to justify biologically. Non-syndromic esophageal malformation is a congenital structural anomaly of embryonic development, and a vitamin is unlikely to correct it. The very high score (99.96%, model rank 1204) is most likely a graph-based artifact of network proximity rather than a real therapeutic signal. No mechanistic rationale can be established from the available data.
-
----
+No mechanistic link to the predicted indication can be identified. Non-syndromic esophageal malformation is a congenital structural defect, and it is not plausibly modifiable by an antioxidant or collagen-cofactor vitamin. The very high score (99.96%) reflects a pattern in the model's knowledge graph, not biological or clinical support. It should be read as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Five of the 13 authorizations are listed below. Dosage form and approved indication text are not provided in the source data.
+Ascorbic acid is marketed in Canada under 13 valid single-ingredient authorizations, with no cancelled licences. The approved indication text, dosage form and manufacturer are not available for these products. Five main authorizations:
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 780634 | VITAMIN C | Not listed | Not listed |
-| 2355981 | ASCOR L 500 | Not listed | Not listed |
-| 2245214 | VITAMIN C | Not listed | Not listed |
-| 2238890 | HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU EXTRA STRENGTH | Not listed | Not listed |
-| 2047349 | HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU REGULAR STRENGTH | Not listed | Not listed |
+| DIN | Product Name |
+|---------|------|
+| 00780634 | VITAMIN C |
+| 02355981 | ASCOR L 500 |
+| 02245214 | VITAMIN C |
+| 02238890 | HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU EXTRA STRENGTH |
+| 02359499 | MOVIPREP |
 
----
+The remaining authorizations include multivitamin and pregnancy-vitamin products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for label safety information.
 
----
+- **Drug Interactions**: 25 interactions are recorded. Moderate-level interactions include amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine, aluminum hydroxide, bortezomib and deferoxamine. Minor-level interactions include paclitaxel, cisplatin, doxorubicin, ethinylestradiol, pseudoephedrine, ephedrine, flecainide, fluphenazine, indinavir and mexiletine.
+- **Disease-level cautions from the knowledge graph** (not label text): kidney disease, primary hyperoxaluria, nephrocalcinosis, hereditary hemochromatosis, sickle cell anemia, diabetes mellitus, peptic ulcer disease, liver disease, hypercalcemia and epilepsy, among others.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), and there is no plausible mechanism for a vitamin to treat a congenital structural anomaly. It should not be prioritized.
+The prediction has no supporting trials or publications and no plausible mechanism. A congenital structural malformation is unlikely to respond to vitamin C. The high model score alone is not enough to justify further investment.
 
-Other predicted indications for this drug have more evidence. For example, "vitamin deficiency disorder" (L3, Proceed with Guardrails) is largely an established nutritional use rather than true repurposing, and "esophageal disease" (L4) has some trial and literature support. Both are worth reviewing separately.
+For context, the same data set lists other predicted indications with more evidence, such as vitamin deficiency disorder (which is essentially on-label), injury, and perinatal disease (hypoxic-ischemic encephalopathy). If the goal is to find a worthwhile repurposing direction for ascorbic acid, those candidates should be evaluated instead.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example, from the DrugBank API)
-- Health Canada package insert warnings and contraindications
-- Approved indication text for the Canadian licenses, to confirm the original indication
-- Any preclinical or clinical evidence linking ascorbic acid to esophageal development, without which this prediction should stay on hold
+- Mechanism of action data and a documented biological rationale linking ascorbic acid to esophageal development
+- Any preclinical or clinical evidence in esophageal malformation
+- Health Canada package insert warnings and contraindications for safety screening
+- Review of why the model assigned this score, to rule out a graph-neighbour artefact
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Cantharidin
 parent: Model Prediction Only (L5)
-nav_order: 150
+nav_order: 152
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,69 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Cantharidin: From an Unspecified Original Indication to Amenorrhea
+# Cantharidin: From Topical Dermatologic Use to Amenorrhea
 
 ## One-Sentence Summary
 
-Cantharidin is generally described as a topical vesicant, but no original approved indication is recorded in the data provided.
-The TxGNN model predicts it may be effective for **amenorrhea**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction rests on a knowledge-graph score alone.
+Cantharidin is a natural-product vesicant (blistering agent) that is used topically for skin conditions such as warts and molluscum contagiosum. The TxGNN model predicts it may be relevant to **amenorrhea**, but **no clinical trials and no publications** currently support this direction. The prediction rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not specified in the Canadian license data (the topical use for warts and molluscum contagiosum comes from pharmacology reference data) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available, and the graph path behind the prediction was not provided. The only support is the high TxGNN score (0.994), so the prediction cannot be checked against a specific mechanism.
+Detailed mechanism of action data for the original indication is not currently available. Based on the pharmacology data compiled for this report, cantharidin inhibits protein phosphatase 2A (PPP2CA) and protein phosphatase 1 (PPP1CA). Inhibition of these enzymes is thought to disrupt cell-to-cell connections in the skin, which produces blistering. The same pathway has been linked to its anticancer activity in laboratory reports.
 
-Cantharidin is generally described as a protein phosphatase 2A (PP2A) inhibitor and a topical vesicant. No established pathway links this activity to hypothalamic-pituitary-ovarian regulation or menstrual function. Any mechanistic link to amenorrhea is speculative.
+No plausible link has been established between these mechanisms and amenorrhea. Nothing in the data connects cantharidin to the hypothalamic-pituitary-ovarian axis or to uterine and endometrial physiology. Systemic cantharidin is also highly toxic, with renal, gastrointestinal and genitourinary irritation, which is a serious concern for any systemic use.
 
-Systemic cantharidin is also known to be highly toxic, with renal and gastrointestinal injury. That is a strong argument against systemic use for a non-life-threatening condition. Route compatibility between the marketed product and the predicted indication has not been assessed.
+The high score (0.994) reflects a pattern in the knowledge graph, not clinical evidence. The prediction should be treated as hypothesis-generating only.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 772011 | CANTHARONE PLUS | Not recorded | Not recorded |
+| 00772011 | CANTHARONE PLUS | Not specified | Not specified |
 
-The metadata lists TFDA as the regulatory input source, so the jurisdiction of this license record should be confirmed before it is treated as a Health Canada authorization.
+---
 
 ## Safety Considerations
 
-- **Systemic toxicity (from the literature-based rationale):** systemic cantharidin is associated with renal and gastrointestinal injury.
-- **Drug Interactions:** no interaction records were found in the query.
+- **Drug Targets (pharmacology data)**: Cantharidin inhibits protein phosphatase 2 catalytic subunit alpha (PPP2CA) and protein phosphatase 1 catalytic subunit alpha (PPP1CA). These are target interactions, not classified drug–drug interactions, and no severity level is assigned.
+- **Systemic toxicity**: Systemic exposure is associated with renal, gastrointestinal and genitourinary irritation. This comes from the expert assessment in this report, not from label text.
 
 Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature, and no plausible mechanistic link. The known systemic toxicity of cantharidin makes use in amenorrhea difficult to justify without strong new evidence.
+The prediction is supported only by a model score. There are no clinical trials or publications, and no mechanistic link to amenorrhea. The known systemic toxicity of cantharidin adds a significant safety concern.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert (warnings, contraindications, approved indication, dosage form)
+- The Health Canada package insert, to obtain warnings, contraindications and the approved indication of CANTHARONE PLUS
 - Mechanism of action data from DrugBank
-- The TxGNN graph path behind the amenorrhea prediction
-- Evidence that the marketed product's route is compatible with the proposed use
-- A literature and trial search for any biological link between cantharidin and menstrual regulation
+- A literature search and a preclinical rationale linking PP2A/PP1 inhibition to reproductive physiology
+- A route and dosage form compatibility assessment, since the available product's route is unknown and systemic exposure carries toxicity risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

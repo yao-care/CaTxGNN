@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methazolamide
-parent: Model Prediction Only (L5)
-nav_order: 592
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 597
+evidence_level: L4
 indication_count: 3
 ---
 
 # Methazolamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,65 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Methazolamide: From an Unspecified Original Indication to Primary Hereditary Glaucoma
+# Methazolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Methazolamide is a carbonic anhydrase inhibitor. The provided data does not record its original approved indication.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but **0 clinical trials** and **0 publications** currently support this prediction. It rests on the model score alone.
+Methazolamide is a carbonic anhydrase inhibitor originally used to treat open-angle and angle-closure glaucoma.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
+but currently there are **0 clinical trials** and **0 publications** specific to this indication, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the provided data |
+| Original Indication | Open-angle glaucoma, angle-closure glaucoma (per the knowledge graph; no indication text is available on the Canadian licence) |
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Methazolamide is a carbonic anhydrase inhibitor. Inhibiting this enzyme reduces aqueous humor production and lowers intraocular pressure, which fits glaucoma well.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, methazolamide is a carbonic anhydrase inhibitor. It lowers intraocular pressure (IOP) by reducing aqueous humour secretion, and its efficacy in open-angle and angle-closure glaucoma is established.
 
-There is a caveat. The original indication field is empty, so this prediction may simply recover a glaucoma use that is already on the label. In that case it would not be a true repurposing signal. The label should be checked before this is treated as a new candidate. The high score (99.83%) is a model output only and is not backed by any study in this package.
+Primary hereditary glaucoma (for example, forms related to MYOC or CYP1B1) shares the same final pathway of elevated IOP. Mechanistically, lowering aqueous humour production could therefore be applicable.
+
+However, this is essentially an extension of the existing glaucoma indication rather than true repurposing. The high TxGNN score most likely reflects the closeness of this disease to existing glaucoma indications in the knowledge graph, not new evidence.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for primary hereditary glaucoma.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for primary hereditary glaucoma.
+
+---
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2245882 | METHAZOLAMIDE | Not listed | Not listed |
+| 02245882 | METHAZOLAMIDE | Not specified | Not specified |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text)**: liver failure, liver disease, kidney disease, renal tubular acidosis, hematologic disease, gallbladder disease, gout, respiratory failure, diabetes (type 1 and type 2), diabetic ketoacidosis, and adrenal insufficiency conditions (including Addison disease and congenital adrenal hyperplasia).
+- **Drug Interactions**: 100 interactions were identified. Main examples:
+  - **Major**: metformin, acetylsalicylic acid
+  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, beclomethasone), amphotericin B, antidiabetic agents (acarbose, alogliptin, saxagliptin, canagliflozin, dapagliflozin, chlorpropamide, albiglutide), and laxatives or bowel-preparation agents (bisacodyl, picosulfuric acid, polyethylene glycol)
+  - **Minor**: doxycycline
+
+Package insert warnings were not available. Please refer to the package insert for further safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5), with no trials or publications. The glaucoma link may reflect an existing labeled use rather than a new one.
-
-Two other predictions were also generated:
-- **Congestive heart failure (99.43%)** has indirect evidence only: reviews, historical diuretic literature and preclinical work on cardiomyocyte hypertrophy and diabetic cardiomyopathy. It is best treated as a research question, not a clinical recommendation.
-- **Acute pulmonary heart disease (99.28%)** has no supporting evidence.
+The mechanism is plausible, but the prediction is essentially an extension of the existing glaucoma indication. There are no trials or publications for the hereditary subtype, and the Canadian licence data lack indication text and package insert safety information.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (approved indication, warnings, contraindications), to confirm whether glaucoma is already labeled
-- Mechanism of action data (for example from DrugBank)
-- Registered clinical trials or human studies for the predicted indication
-- Product details for the licensed DIN (dosage form, approved indication text)
+- Mechanism of action data (MOA)
+- Health Canada package insert warnings and contraindications, which are required before safety screening
+- Clinical or literature evidence specific to primary hereditary glaucoma
+- Confirmation of whether the existing glaucoma indication already covers hereditary forms, since this may not be a new indication
+- A review of the metabolic and renal contraindications and the large drug interaction burden for the intended patient population
+
+---
+
+### Other Predictions Noted
+
+- **Congestive heart failure** (TxGNN score 99.43%, evidence level L4, research question only): there are no clinical trials. The supporting literature is historical diuretic reviews and preclinical studies, including a mouse model of diabetic cardiomyopathy and cardiomyocyte hypertrophy studies. Modern heart failure practice uses other diuretic classes, and the risks include metabolic acidosis and the large interaction burden.
+- **Acute pulmonary heart disease** (TxGNN score 99.28%, evidence level L5, Hold): this is a model-only prediction with no trials or literature, and nothing in the available data supports a rationale.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

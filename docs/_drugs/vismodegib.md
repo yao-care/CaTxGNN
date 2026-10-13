@@ -2,7 +2,7 @@
 layout: default
 title: Vismodegib
 parent: Model Prediction Only (L5)
-nav_order: 972
+nav_order: 979
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vismodegib: From Advanced Basal Cell Carcinoma to Medulloblastoma with Extensive Nodularity
+# Vismodegib: From Basal Cell Carcinoma to Medulloblastoma with Extensive Nodularity
 
 ## One-Sentence Summary
 
-Vismodegib (Erivedge) is an oral Hedgehog pathway inhibitor used for advanced basal cell carcinoma (BCC). This original indication comes from the supporting literature, because the Health Canada record in the pack is blank.
-The TxGNN model predicts it may be effective for **medulloblastoma with extensive nodularity**, but **0 clinical trials** and **0 publications** currently support this specific prediction, so it remains a model-only hypothesis.
+Vismodegib is an oral Hedgehog pathway inhibitor, originally used for basal cell carcinoma and related skin cancers.
+The TxGNN model predicts it may be effective for **medulloblastoma with extensive nodularity**, but the data compiled for this report contain **0 clinical trials** and **0 publications** for this specific subtype, so the prediction rests on the model score and mechanistic reasoning alone.
 
 ---
 
@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for **medulloblastoma with extensiv
 
 | Item | Content |
 |------|------|
-| Original Indication | Advanced basal cell carcinoma (from literature; not stated in the Canadian licence record) |
+| Original Indication | Basal cell carcinoma (also skin carcinoma, sweat gland cancer, sebaceous adenocarcinoma) |
 | Predicted New Indication | Medulloblastoma with extensive nodularity |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
@@ -54,38 +54,23 @@ The TxGNN model predicts it may be effective for **medulloblastoma with extensiv
 
 ## Why is This Prediction Reasonable?
 
-Vismodegib blocks Smoothened (SMO), a key signalling protein in the Hedgehog pathway. Detailed mechanism data are not in the Evidence Pack, but the SMO mechanism is well described in the literature. Over-active Hedgehog signalling drives BCC, and vismodegib was approved on that basis.
+Vismodegib inhibits Smoothened (SMO), a key signalling protein in the Hedgehog pathway. Basal cell carcinoma is driven by abnormal Hedgehog signalling, which is why blocking SMO works in that disease.
 
-Medulloblastoma with extensive nodularity is typically of the SHH (Sonic Hedgehog) molecular subgroup. Both diseases depend on the same pathway, so the prediction is mechanistically plausible.
+Medulloblastoma of the SHH subgroup is also driven by Hedgehog signalling. This is the mechanistic basis for the TxGNN prediction. Medulloblastoma with extensive nodularity is a recognised histological variant, and the prediction is plausible in principle.
 
-There is an important caveat. SMO-inhibitor response in medulloblastoma depends on SHH-subgroup status and on mutations downstream of SMO, such as SUFU. A tumour with a downstream mutation would not be expected to respond. The prediction therefore cannot be advanced without tumour molecular profiling.
+However, the data compiled for this report contain no trials or publications for this subtype, and nothing confirms that this variant is Hedgehog-dependent. Prior experience with SMO inhibitors in paediatric medulloblastoma exists outside the data supplied and was not evaluated here. The assessment is therefore prediction-only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this specific indication.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for this specific indication.
-
----
-
-## Other Predicted Candidates Worth Noting
-
-Only the top-ranked candidate is evaluated above. The pack shows that other predictions have more support:
-
-| Predicted Indication | Evidence Level | Support in Pack | Pack Recommendation |
-|------|------|------|------|
-| Skin cancer (mainly BCC) | L2 | 20 trials (including [NCT01815840](https://clinicaltrials.gov/study/NCT01815840), randomized phase 2, n=229) and 20 publications (including [PMID 22670903](https://pubmed.ncbi.nlm.nih.gov/22670903/), NEJM 2012) | Proceed with Guardrails |
-| Xeroderma pigmentosum | L4 | 5 publications, mostly case reports of vismodegib treating BCC in XP patients | Research Question |
-
-- **Skin cancer:** There is no Phase 3 RCT, hence L2. This is probably an on-label use rather than true repurposing, and should be verified against the labeling.
-- **Xeroderma pigmentosum:** The benefit is indirect. Vismodegib treats the BCC tumours, not the underlying DNA-repair defect.
-- **Remaining candidates:** The seven lower-ranked candidates (annular epidermolytic ichthyosis, epidermolysis bullosa simplex with mottled pigmentation, prostate cancer/brain cancer susceptibility, Brenner tumor, cutaneous adenocystic carcinoma, prostate leiomyoma, benign neoplasm of sweat gland) have no evidence and are on Hold. Their high scores are likely graph-proximity artifacts.
+Currently no related literature available.
 
 ---
 
@@ -93,7 +78,9 @@ Only the top-ranked candidate is evaluated above. The pack shows that other pred
 
 | DIN | Product Name |
 |---------|------|
-| 2409267 | ERIVEDGE |
+| 02409267 | ERIVEDGE |
+
+Dosage form and approved indication text are not available in the compiled data.
 
 ---
 
@@ -101,7 +88,7 @@ Only the top-ranked candidate is evaluated above. The pack shows that other pred
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (Hedgehog/SMO pathway inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (Hedgehog pathway / SMO inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -111,9 +98,11 @@ Only the top-ranked candidate is evaluated above. The pack shows that other pred
 
 ## Safety Considerations
 
-- **Teratogenicity:** The pack's rationale for the BCC indication lists teratogenicity as a known risk requiring guardrails.
+- **Drug Interactions**: 56 interactions were identified in total, and 20 are itemised in the compiled data.
+  - **Moderate**: clarithromycin.
+  - **Minor**: the remaining 19 itemised interactions, mostly acid-reducing agents and antacids. These include H2 blockers (famotidine, ranitidine, cimetidine, nizatidine), proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole), and antacids (aluminum hydroxide, calcium carbonate, magnesium salts, sodium bicarbonate, sodium citrate).
 
-Please refer to the package insert for other safety information. No drug interactions were found in the pack's DDI query.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -122,16 +111,18 @@ Please refer to the package insert for other safety information. No drug interac
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible, but there are no trials or publications for this indication, and the evidence level is L5 (model prediction only). Response depends on SHH-subgroup status and downstream mutations, which cannot be assessed from the current data.
+The prediction is mechanistically plausible because of SHH-driven medulloblastoma, but it has a very high model score and no supporting trials or literature for this subtype (L5). Safety label data are also missing, so the candidate cannot move to safety screening.
+
+Other candidates in the compiled data have more support:
+- **Skin cancer** (L2) has several Phase 2 trials, though these are small, of uncertain status, or basket-style, and no Phase 3 RCT is present. It is closer to an indication expansion than true repurposing.
+- **Xeroderma pigmentosum** (L4) has two case reports of vismodegib treating associated basal cell carcinoma.
 
 **To proceed, the following is needed:**
-- A targeted literature search on SMO inhibitors in SHH-subgroup medulloblastoma, including the nodular subtype
-- Tumour molecular profiling criteria (SHH subgroup; exclusion of SUFU and other downstream mutations)
-- The Health Canada package insert (warnings, contraindications, original indication)
-- Mechanism of action data from DrugBank
-- Separately, a labeling check for the skin cancer (BCC) candidate, which has the strongest evidence in this pack
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications.
+- Detailed mechanism of action data.
+- A search for trials and literature on SMO inhibitors in medulloblastoma, including the extensive nodularity variant.
+- Confirmation of Hedgehog pathway dependence in this histological variant.
+- A paediatric-specific safety assessment, since medulloblastoma commonly affects children.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

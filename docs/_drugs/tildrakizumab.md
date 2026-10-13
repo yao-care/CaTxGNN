@@ -2,7 +2,7 @@
 layout: default
 title: Tildrakizumab
 parent: Model Prediction Only (L5)
-nav_order: 907
+nav_order: 914
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,91 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Tildrakizumab: From Plaque Psoriasis to Severe Nonproliferative Diabetic Retinopathy
+# Tildrakizumab: From an Undocumented Original Indication to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Tildrakizumab is marketed in Canada as ILUMYA. The Canadian license records provided do not list its approved indication, but it is generally known as an anti-IL-23 antibody used for plaque psoriasis.
-The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model-only prediction.
-
----
+Tildrakizumab is a monoclonal antibody that targets the p19 subunit of IL-23, and it is marketed in Canada under the brand name ILUMYA. The data compiled for this report do not list its approved indication.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on a computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the license data provided (generally known: plaque psoriasis) |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
+| Evidence Level | L5 (model prediction only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the dataset. From general knowledge, tildrakizumab is a monoclonal antibody that blocks the p19 subunit of IL-23. Its efficacy in its original indication is established, and mechanistically it might be relevant to the new indication.
+Detailed mechanism of action data are not available in the compiled data. Based on known information, tildrakizumab is an antibody that blocks the p19 subunit of IL-23, a cytokine that drives the IL-23/IL-17 inflammatory axis.
 
-The hypothesized link is that IL-23/Th17-driven inflammation may contribute to inflammation of the retinal microvasculature in diabetic eye disease. This link is indirect. No trial or publication in the provided data supports it, and a high graph score alone is not clinical evidence. Systemic IL-23 blockade has no established ocular rationale, and ocular safety and the route of administration have not been examined.
+Chronic inflammation and cytokine signalling have been proposed to contribute to retinal microvascular damage in diabetic retinopathy. This offers a possible link to IL-23 blockade. The link is speculative, because nothing in the data connects IL-23 inhibition to retinopathy outcomes. The high TxGNN score is a computational prediction without clinical corroboration.
 
-TxGNN also ranked three other conditions for this drug, all with the same L5 evidence level and no trials or literature:
+A large antibody also raises a delivery question: whether systemic dosing would reach the eye, or whether intravitreal administration would be needed. This would need to be assessed before any translational work.
 
-| Rank | Predicted Disease | TxGNN Score | Comment |
-|------|------|------|------|
-| 2 | Diabetic retinopathy | 99.53% | Same IL-23/IL-17 inflammation hypothesis as the top prediction |
-| 3 | Diabetic cataract | 99.21% | No plausible direct mechanism; the score likely reflects network proximity to other diabetic complications |
-| 4 | Drug-induced osteoporosis | 99.20% | Loose indirect rationale through IL-23/IL-17 effects on bone remodeling, but the direction of effect is unclear |
-
----
+Other predictions from the model include diabetic retinopathy (99.53%), diabetic cataract (99.21%) and drug-induced osteoporosis (99.20%). The rationale for diabetic cataract is weak, since that condition is driven mainly by polyol pathway activation and oxidative stress. The osteoporosis link is plausible but indirect, through IL-23/IL-17 effects on bone loss, and established therapies already exist.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2558904 | ILUMYA |
-| 2516098 | ILUMYA |
-
-The dosage form, manufacturer and approved indication text are not available in the records provided.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02558904 | ILUMYA | Not specified | Not specified |
+| 02516098 | ILUMYA | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions**: The interaction screening found 78 interacting drugs. The compiled data list the following, including several rated Major:
 
-No drug interaction records were found for tildrakizumab in the queried data.
+- **Major**: adalimumab, baricitinib, certolizumab pegol, cladribine
+- **Moderate**: roflumilast, tacrolimus, alefacept, alemtuzumab, anakinra, azathioprine, canakinumab, cyclosporine, denosumab, and certain vaccines (tetanus toxoid, anthrax, live cholera)
+- **Minor**: zinc salts (sulfate, acetate, gluconate, chloride)
 
----
+Most of the Major and Moderate items are other immunosuppressive or immunomodulatory agents, so combined immunosuppression is the main concern. Live vaccines also warrant caution. Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature and an indirect mechanistic hypothesis. Safety information for the Canadian product has not been reviewed, so the candidate cannot yet move past the initial screening stage.
+The prediction is supported only by a model score, with no clinical trials, no literature and no validated mechanism. Warnings, contraindications and the approved indication are also missing from the compiled data, so safety screening cannot yet proceed.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank, to support a mechanistic-link analysis
-- The approved indication text for the two Canadian DINs
-- Preclinical or clinical evidence for IL-23 pathway involvement in diabetic retinal disease
-- An assessment of route of administration and ocular safety for a systemic IL-23 blocker in this setting
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert (warnings, contraindications and approved indication), which is a blocking gap
+- Mechanism of action data from DrugBank
+- Preclinical or literature evidence linking IL-23/IL-17 signalling to diabetic retinopathy
+- An assessment of route of delivery and ocular penetration (systemic versus intravitreal)
+- A comparison against current standard treatments for diabetic retinopathy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Biotin
 parent: Model Prediction Only (L5)
-nav_order: 115
+nav_order: 117
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Biotin: From Multivitamin Supplementation to Dyspepsia
+# Biotin: From Nutritional Biotin Deficiency to Dyspepsia
 
 ## One-Sentence Summary
 
-Biotin is a B-vitamin that in Canada appears in multivitamin products (MULTI 12 and MULTI-12/K1 PEDIATRIC). The TxGNN model predicts it may be effective for **dyspepsia**. Only **2 clinical trials** and **7 publications** were retrieved, and **none of them tests biotin as a treatment for dyspepsia**, so the prediction rests almost entirely on the model score.
+Biotin is a B-vitamin originally used to treat nutritional biotin deficiency.
+The TxGNN model predicts it may be effective for **dyspepsia**, but this rests on a computational prediction alone: there are **0 registered clinical trials** and only **6 publications**, none of which tests biotin as a treatment for dyspepsia.
 
 ---
 
@@ -41,7 +42,7 @@ Biotin is a B-vitamin that in Canada appears in multivitamin products (MULTI 12 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records; the products are multivitamin formulations |
+| Original Indication | Nutritional biotin deficiency |
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 99.43% |
 | Evidence Level | L5 |
@@ -53,20 +54,17 @@ Biotin is a B-vitamin that in Canada appears in multivitamin products (MULTI 12 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge, biotin is a cofactor for carboxylase enzymes involved in carbohydrate, fat and amino acid metabolism. Biotin deficiency can cause gastrointestinal symptoms.
+Currently, detailed mechanism of action data is not available. Based on known information, biotin is a cofactor for carboxylase enzymes involved in carbohydrate, fat and amino acid metabolism. Its efficacy in correcting biotin deficiency is established, and it may be applicable to dyspepsia only indirectly.
 
-Any link to dyspepsia is therefore indirect. If biotin helps at all, the most plausible route is correcting a deficiency state, not treating dyspepsia itself. Without the original indication or mechanism data, the graph prediction cannot be cross-checked against known pharmacology.
+The link between the original and predicted indications is plausible but not direct. Biotin deficiency can cause gastrointestinal symptoms such as nausea and anorexia, so correcting a deficiency might relieve some digestive complaints. This is not evidence that biotin treats dyspepsia in people who are not deficient.
 
-A second predicted indication, gastroparesis (score 99.42%), has no supporting trials or literature at all.
+The high TxGNN score (99.43%) is a computational output and should not be read as clinical proof. The second-ranked prediction, gastroparesis (score 99.42%), has no supporting trials or literature, and biotin has no known prokinetic or gastric-motility mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Serum micronutrient levels and deficiencies in bariatric surgery patients using transdermal vitamin patches. It measures absorption, not dyspepsia, and gives no efficacy evidence. |
-| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | Phase 2/3 | Unknown | 150 | Oxycodone vs pregabalin as preemptive analgesia for postoperative pain. It involves neither biotin nor dyspepsia and appears to be a retrieval artifact. |
+Currently no related clinical trials registered.
 
 ---
 
@@ -74,28 +72,40 @@ A second predicted indication, gastroparesis (score 99.42%), has no supporting t
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Review | Eksp Klin Gastroenterol | A prebiotic supplement (inulin, oligofructose, vitamins including biotin, zinc, selenium) for gut microbiota disorders in patients on antibiotics for lung disease. Biotin is only one component, and dyspepsia is not the target. |
-| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case report | J Dermatol | A 5-month-old infant diagnosed with dyspepsia as a neonate and fed only amino acid formula developed biotin deficiency, with alopecia and scaly dermatitis. This shows that biotin deficiency can arise in a dyspepsia setting, not that biotin treats dyspepsia. |
-| [25384804](https://pubmed.ncbi.nlm.nih.gov/25384804/) | 2014 | Clinical study | Minerva Gastroenterol Dietol | An open multicentre study of a food supplement for functional dyspepsia after *H. pylori* treatment. Biotin is not among the listed ingredients. |
-| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Observational | Int J Mol Med | Stomach antral endocrine cells in irritable bowel syndrome patients. Not related to biotin. |
-| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Observational | World J Gastrointest Endosc | Endocrine cells in the stomach's oxyntic mucosa in irritable bowel syndrome. Not related to biotin. |
-| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Observational | J Clin Pathol | Interleukin-10 in *H. pylori*-associated gastritis. Not related to biotin. |
-| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Observational | Kidney Int | Small bowel T cells and stress proteins in IgA nephropathy. Not related to biotin. |
+| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case report | J Dermatol | Biotin deficiency in an infant fed only an amino acid formula after a neonatal diagnosis of dyspepsia; a deficiency case, not a treatment study for dyspepsia |
+| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Observational | Int J Mol Med | Stomach antral endocrine cells in 76 IBS patients compared with healthy controls; no biotin intervention |
+| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Observational | World J Gastrointest Endosc | Endocrine cells in the oxyntic stomach mucosa of IBS patients; no biotin intervention |
+| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Review/Other | Eksp Klin Gastroenterol | A prebiotic supplement containing several vitamins, including biotin, for gut microbiota disorders in patients with lung disease on antibiotics; biotin is not studied on its own |
+| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Observational | J Clin Pathol | Interleukin-10 localisation in H. pylori gastritis; no biotin intervention |
+| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Observational | Kidney Int | Small bowel T cells and stress protein in IgA nephropathy; not related to biotin treatment |
+
+None of these publications shows that biotin improves dyspepsia.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2100606 | MULTI 12 |
-| 2242529 | MULTI-12/K1 PEDIATRIC |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02100606 | MULTI 12 | Not specified | Not specified |
+| 02242529 | MULTI-12/K1 PEDIATRIC | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Disease associations flagged in the knowledge graph (not taken from label text) suggest caution in patients with:
+
+- Kidney disease, nephrolithiasis (including susceptibility caused by SLC26A1), nephrocalcinosis, and acute urate nephropathy
+- Pyoureter
+- Calcium and phosphorus disorders: hypercalcemia, hyperparathyroidism, osteitis fibrosa, and phosphorus metabolism disease
+- Sarcoidosis
+- Lytic metastatic bone lesions
+- Constipation disorder
+
+These associations probably reflect other components of multivitamin products (such as vitamin D or calcium) rather than biotin itself, so they should be checked against the package insert. No drug interaction records were found.
+
+Please refer to the package insert for further safety information.
 
 ---
 
@@ -104,13 +114,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but no retrieved trial or publication tests biotin for dyspepsia. The two trials are unrelated, and the literature consists of one case report, one review and observational studies. Any biological link is indirect, most likely deficiency correction. Safety data are also missing, so the candidate cannot yet pass safety screening.
+The only support for this prediction is a model score. There are no clinical trials, and the literature does not test biotin for dyspepsia. The mechanistic link is indirect, and the available Canadian products are multi-ingredient vitamin formulations.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap)
-- Mechanism of action data for biotin, for example from DrugBank
-- The approved indication text, dosage forms and manufacturer for the two Canadian licences
-- Trials or studies that directly test biotin for dyspepsia, or evidence that dyspepsia patients have biotin deficiency
+- Package insert warnings and contraindications from Health Canada, which are required before any safety screening
+- Detailed mechanism of action data (for example, from DrugBank)
+- Evidence that biotin improves dyspepsia symptoms, such as clinical studies in patients with dyspepsia, with or without documented biotin deficiency
+- Approved indication text and dosage forms for the two Canadian DINs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dorzolamide
-parent: High Evidence (L1-L2)
-nav_order: 299
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 301
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,70 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dorzolamide is a topical carbonic anhydrase inhibitor eye drop. The record lists no original indication, so open-angle glaucoma and ocular hypertension are inferred from the Canadian trial and literature evidence.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, with a very high score.
-Only **1 clinical trial** (Phase 2, 37 participants, tested in combination with latanoprost) and **0 publications** support this specific prediction.
-
----
+Dorzolamide is a topical carbonic anhydrase inhibitor, originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but the data compiled for this report contain **no clinical trials and no publications** specific to this indication, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the record (inferred: open-angle glaucoma / ocular hypertension) |
+| Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 11 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Dorzolamide is known to inhibit carbonic anhydrase II in the ciliary body. This reduces aqueous humor secretion and lowers intraocular pressure (IOP).
+Dorzolamide blocks carbonic anhydrase enzymes, mainly carbonic anhydrase II, in the ciliary body of the eye. This reduces the secretion of aqueous humour (the fluid inside the eye) and lowers intraocular pressure. The data compiled for this report also show that it binds several other carbonic anhydrase isoforms (CA1, CA7, CA12 and CA14).
 
-Lowering IOP is the shared therapeutic target across glaucoma subtypes, so a benefit in hereditary (congenital or pediatric) glaucoma is biologically plausible.
+Primary hereditary glaucoma is also a disease of raised eye pressure. A drug that reduces aqueous humour production could therefore plausibly help, which fits the model's high score. The original indications are already forms of glaucoma and ocular hypertension, so the two conditions are close in both pathology and treatment goal.
 
-The supporting evidence is thin. It is a single Phase 2 trial whose title is truncated. The exact patient population and the dorzolamide-specific effect cannot be confirmed, because dorzolamide was given together with latanoprost.
-
-The evidence for the broader open-angle glaucoma predictions (ranks 6 and 7) is much stronger. Those are established, marketed uses, so they confirm existing use and do not count as new repurposing evidence for this prediction.
-
----
+However, this is only a mechanistic argument. No trials or publications for hereditary glaucoma were found, so the high score is a prediction, not proof of benefit. Hereditary forms of glaucoma may also differ from open-angle disease in their underlying cause, and this has not been assessed.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assesses the IOP-lowering effect and safety of latanoprost plus dorzolamide in pediatric glaucoma refractory to surgery. Relevance grade B: the design is relevant, but the combination confounds attribution to dorzolamide. |
-
----
+Currently no related clinical trials registered for primary hereditary glaucoma.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for primary hereditary glaucoma.
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not recorded for these licenses. Five of the 11 DINs are shown.
+Dorzolamide has 11 valid single-entry authorizations in Canada and none are cancelled. Five are listed below. Dosage form and approved indication text were not available in the data.
 
 | DIN | Product Name |
 |---------|------|
-| 2316307 | SANDOZ DORZOLAMIDE |
-| 2457210 | MED-DORZOLAMIDE |
-| 2522373 | DORZOLAMIDE |
-| 2240113 | COSOPT |
-| 2522020 | DORZOLAMIDE-TIMOLOL |
-
----
+| 02316307 | SANDOZ DORZOLAMIDE |
+| 02457210 | MED-DORZOLAMIDE |
+| 02522373 | DORZOLAMIDE |
+| 02240113 | COSOPT |
+| 02258692 | COSOPT PRESERVATIVE-FREE |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions linked to contraindications (knowledge-graph data, not label text):** diabetes mellitus, diabetic ketoacidosis, hypoglycaemia, myasthenia gravis and other neuromuscular junction disease, hyperthyroidism (including Graves disease and thyrotoxicosis), atrioventricular block, pulmonary emphysema and other bronchial disease, and anaphylaxis. Many of these probably reflect the timolol component of the combination products (such as Cosopt) rather than dorzolamide alone. They should be checked against the official labelling.
 
----
+Please refer to the package insert for authoritative warnings, contraindications and drug interaction information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high and the mechanism is plausible. The only direct evidence is one small Phase 2 pediatric trial of a latanoprost plus dorzolamide combination, with no publications. That is not enough to isolate dorzolamide's effect in hereditary glaucoma.
+The prediction is mechanistically plausible, because lowering aqueous humour production is the drug's established action. However, there is no trial or literature evidence for primary hereditary glaucoma (Evidence Level L5). The high TxGNN score alone is not enough to proceed.
+
+Several other predictions in the same analysis are for glaucoma indications already covered by dorzolamide's existing use, such as open-angle glaucoma, and are not new repurposing opportunities.
 
 **To proceed, the following is needed:**
-- Trial results and the exact enrolled population for NCT01527682, to confirm hereditary, congenital or pediatric glaucoma and the dorzolamide-specific effect
-- Health Canada package insert warnings and contraindications, including pediatric use
-- Mechanism-of-action data from DrugBank
-- The original approved indication text, which is empty in all Canadian license records
-- Publications on dorzolamide in pediatric or hereditary glaucoma
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Searches for case series, observational studies or trials of dorzolamide in hereditary or congenital glaucoma, including paediatric use
+- Specific mechanism-of-action data and an assessment of whether the genetic subtypes of hereditary glaucoma respond to reduced aqueous humour production
+- Health Canada package insert warnings and contraindications, to complete the safety review
+- Dosage form and approved indication details for each Canadian authorization
+- Route compatibility and dosing considerations for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

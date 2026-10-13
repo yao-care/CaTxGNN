@@ -2,7 +2,7 @@
 layout: default
 title: Histidine
 parent: Model Prediction Only (L5)
-nav_order: 447
+nav_order: 451
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,9 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Histidine is an essential amino acid. In Canada it is marketed as an ingredient of parenteral nutrition products such as CLINIMIX and TRAVASOL.
-The TxGNN model predicts it may be effective for **gastroparesis**, but **0 clinical trials** and **0 publications** support this prediction.
-It is currently a model-only hypothesis.
+Histidine is an essential amino acid used as a component of parenteral nutrition (amino acid infusion) products in Canada. The TxGNN model predicts it may be effective for **gastroparesis**, but there are **0 clinical trials** and only **1 publication**, which does not test histidine as a treatment. This prediction rests on model output alone.
 
 ---
 
@@ -43,7 +41,7 @@ It is currently a model-only hypothesis.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data provided (marketed as an amino acid component of parenteral nutrition products) |
+| Original Indication | Not stated in the licence data (the products are amino acid solutions for parenteral nutrition) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L5 |
@@ -55,11 +53,9 @@ It is currently a model-only hypothesis.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Histidine is a proteinogenic amino acid and the precursor of histamine. It is supplied in parenteral nutrition products as a nutritional building block, not as a targeted therapy.
+Currently, detailed mechanism of action data is not available. Based on known information, histidine is an essential amino acid supplied in amino acid and parenteral nutrition products. Its nutritional role is established, but no data compiled for this report links it to gastroparesis.
 
-No mechanism linking histidine to gastric motility or the pathophysiology of gastroparesis (delayed gastric emptying) can be established from the available data. The very high TxGNN score reflects a pattern in the knowledge graph, but nothing retrieved confirms or explains it.
-
-For context, the second-ranked prediction, sclerosing cholangitis, has preclinical literature showing that histamine signalling (produced from histidine by histidine decarboxylase) promotes biliary proliferation and fibrosis in mouse models. That evidence points in the opposite direction from a therapeutic role for histidine, and it does not apply to gastroparesis.
+The only publication retrieved (PMID 42668409) describes gastric amyloid pathology and mucosal denervation in hereditary ATTR amyloidosis. It does not evaluate histidine or any histidine-related pathway as a treatment. One could speculate that histamine made from histidine influences gastric motility or secretion, but this has not been tested in the supplied data. The prediction should be treated as a hypothesis only.
 
 ---
 
@@ -71,27 +67,35 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [42668409](https://pubmed.ncbi.nlm.nih.gov/42668409/) | 2026 | Cohort/preclinical | Amyloid | Gastric amyloid pathology and mucosal denervation in ATTRv amyloidosis, studied in patients and mice. Histidine was not evaluated. |
 
 ---
 
 ## Canada Market Information
 
-Showing 5 of 20 authorizations. Dosage form and approved indication text are not available for these entries.
+All 20 licences are valid single-ingredient products. Dosage form and approved indication text are not available in the data compiled for this report. The first five are listed below.
 
-| DIN | Product Name |
-|---------|------|
-| 2046709 | CLINIMIX |
-| 2013932 | CLINIMIX |
-| 2013940 | CLINIMIX |
-| 872296 | TRAVASOL |
-| 2013886 | CLINIMIX |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02046709 | CLINIMIX | Not available | Not available |
+| 02013932 | CLINIMIX | Not available | Not available |
+| 02013940 | CLINIMIX | Not available | Not available |
+| 00872296 | TRAVASOL | Not available | Not available |
+| 02013886 | CLINIMIX | Not available | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+No package insert warnings, contraindications or drug interaction records were found in the data compiled for this report. Please refer to the package insert for safety information.
+
+The TxGNN knowledge graph, which is not label text, links histidine to contraindication edges with several conditions. These are signals only and need verification against the labelling:
+- **Kidney disease:** chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
+- **Calcium and phosphorus disorders:** hypercalcemia, humoral hypercalcemia of malignancy, sarcoidosis, phosphorus metabolism disease
+- **Cardiac conditions:** heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
+- **Phenylalanine metabolism disorders:** phenylketonuria
 
 ---
 
@@ -100,15 +104,25 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on the model score (L5), with no trials, no literature and no documented mechanism for gastroparesis. Histidine is already widely marketed in Canada as a nutritional component, but that does not support a therapeutic claim in this new indication.
+The TxGNN score is very high (99.55%), but there are no clinical trials, and the only publication does not study histidine. No mechanistic link to gastroparesis is supported by the data, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A targeted literature and trial search on histidine or amino acid supplementation in gastroparesis or delayed gastric emptying
-- An assessment of whether histidine-derived histamine has any plausible effect on gastric motility
+- Mechanism of action data for histidine
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Preclinical or clinical evidence that histidine or its metabolites affect gastric motility
+- Route and formulation compatibility assessment, since the current products are parenteral nutrition solutions
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+---
+
+## Additional Note: Second Predicted Indication (Sclerosing Cholangitis)
+
+The model's second prediction is **sclerosing cholangitis** (score 99.27%, evidence level L4, recommendation: Research Question). It has no clinical trials and 8 publications, none of which tests histidine as a treatment.
+
+- **Histamine pathway:** Histidine is the precursor of histamine, made by L-histidine decarboxylase. Mouse studies (PMIDs 27351144, 35799467, 32054995, 29601088) show that mast cell-derived histamine promotes biliary proliferation and fibrosis in primary sclerosing cholangitis. Blocking histamine signalling or removing the enzyme reduced damage.
+- **Direction of effect:** These findings suggest that supplying more histidine could worsen the disease rather than improve it, which is the opposite of a therapeutic benefit.
+- **Other papers:** The remaining papers cover diagnostic biomarkers, genetics and post-transplant biliary lesions.
+
+This prediction is not recommended for progression without evidence that the direction of effect is favourable.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

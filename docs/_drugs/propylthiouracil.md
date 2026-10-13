@@ -2,7 +2,7 @@
 layout: default
 title: Propylthiouracil
 parent: Moderate Evidence (L3-L4)
-nav_order: 773
+nav_order: 780
 evidence_level: L4
 indication_count: 3
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Propylthiouracil (PTU) is an antithyroid drug that lowers thyroid hormone production. The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **0 clinical trials** and **6 publications**, and none of the publications show PTU helping in this condition. This prediction is a graph-based association only.
+Propylthiouracil (PTU) is an antithyroid drug originally used to treat hyperthyroidism, Graves disease, thyrotoxicosis and thyroid crisis.
+The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **0 clinical trials** and only **4 publications** (mouse models and case reports), none of which tests PTU as a treatment.
+The mechanistic rationale is weak, and the high score most likely reflects network proximity to the original indications.
 
 ---
 
@@ -41,7 +43,7 @@ Propylthiouracil (PTU) is an antithyroid drug that lowers thyroid hormone produc
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the provided data (PTU is generally known as an antithyroid drug for hyperthyroidism) |
+| Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (approved indication text is not available in the Canadian licence records) |
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
@@ -53,11 +55,18 @@ Propylthiouracil (PTU) is an antithyroid drug that lowers thyroid hormone produc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. PTU is known to inhibit thyroid peroxidase and so reduce thyroid hormone synthesis. It also inhibits peripheral conversion of T4 to T3.
+Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, PTU inhibits thyroid peroxidase and reduces thyroid hormone synthesis. At high doses it also reduces peripheral conversion of T4 to T3. This underlies its use in hyperthyroidism.
 
-In resistance to thyroid hormone (RTH), a THRB mutation makes tissues respond poorly to thyroid hormone. Serum T4 and T3 are high, and TSH is inappropriately normal or high. A drug that lowers hormone levels looks related to this picture on the surface. That is probably why the graph model scores it highly.
+In resistance to thyroid hormone beta (RTH-beta), thyroid hormone levels are high and TSH is not suppressed, because the receptor responds poorly to the hormone. Lowering hormone levels with an antithyroid drug would raise TSH further and risks goiter and over-stimulation of the thyroid. The mechanistic link is therefore weak and may be counterproductive. Case reports in the literature describe patients with RTH who were mistakenly treated with PTU for suspected thyrotoxicosis and whose goiter worsened.
 
-Mechanistically, however, the fit is poor. Lowering hormone output in RTH would be expected to raise TSH further and risk worsening goiter. No retrieved record shows a clinical benefit from PTU in this condition. The link is a statistical association in the knowledge graph, not a demonstrated treatment effect.
+The high TxGNN score most likely reflects the network closeness of RTH to hyperthyroidism-related conditions, not a real therapeutic connection.
+
+### Other Predictions Reviewed
+
+| Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Neonatal thyrotoxicosis | 99.40% | L4 | Mechanistically close to Graves disease. The evidence is mostly reviews on hyperthyroidism in pregnancy (maternal treatment), not direct neonatal treatment. It is a reasonable research question, but hepatotoxicity is a major concern in children. |
+| Hyperthyroxinemia | 99.08% | L4 | This is a laboratory finding with many causes. It would need to be split into specific causes, because non-thyrotoxic forms would not benefit and could be harmed. |
 
 ---
 
@@ -71,31 +80,38 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Review | Endocrinology | Role of the TR-beta isoform in thyroid hormone resistance in the heart; describes the RTH syndrome and its elevated T4/T3. Not about PTU treatment. |
-| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case report | Exp Clin Endocrinol Diabetes | Turkish family (mother and son) with a THRB P453A mutation and RTH. No PTU treatment evidence. |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | Neonatal thyrotoxicosis and maternal infertility in a family with a THRB M313T mutation. Describes the disease, not PTU benefit. |
-| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocr J | Thai woman with a de novo THRB L330S mutation. She was misdiagnosed with thyrotoxicosis and treated with PTU for 9 months, and her goiter became more enlarged. |
-| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Animal study | Endocrinology | Role of TSH in spontaneous thyroid carcinoma in a THRB-mutant mouse model. Preclinical, not about PTU. |
-| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Animal study | Oncogene | Thyroid hormone drives tumour cell proliferation in a mouse model of follicular thyroid carcinoma with a dominant-negative THRB mutation. Preclinical, not about PTU. |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | Neonatal thyrotoxicosis and maternal infertility in a family with a TRβ mutation (M313T). |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocr J | Thai woman with a de novo TRβ L330S mutation. Her goiter enlarged after 9 months of PTU given for presumed thyrotoxicosis. |
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Animal model (mouse) | Endocrinology | Role of TSH in thyroid carcinoma development in mice carrying a TRβ mutation. |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Animal model (mouse) | Oncogene | Thyroid hormone activates tumour cell proliferation in a mouse model of follicular thyroid carcinoma. |
+
+None of these studies evaluates PTU as a treatment for RTH.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2523019 | PROPYLTHIOURACIL TABLETS |
-| 2521059 | HALYCIL |
-
-Dosage form and approved indication text were not provided for these licenses.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02523019 | PROPYLTHIOURACIL TABLETS | Not listed | Not listed |
+| 02521059 | HALYCIL | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the provided data.
+- **Disease-related contraindication signals (from the knowledge graph, not label text)**:
+  - Blood disorders: thrombocytopenia, leukopenia, pancytopenia, agranulocytosis, neutropenia and several congenital neutropenia syndromes.
+  - Thyroid: hypothyroidism, myxedema, congenital hypothyroidism.
+  - Liver and bilirubin: drug-induced liver injury, hyperbilirubinemia, Gilbert syndrome.
+  - Lung: interstitial lung disease.
+- **Drug Interactions**: 83 interacting drugs were identified. Examples:
+  - Major: deferiprone.
+  - Moderate: warfarin, dicoumarol, theophylline, aminophylline, oxtriphylline, naltrexone, radioactive iodide (I-131, I-123), macimorelin.
+  - Many others (including corticosteroids, omeprazole, pantoprazole, rosuvastatin and clopidogrel) have no assigned severity level.
+- **Pediatric and neonatal use**: The literature on neonatal thyrotoxicosis raises a significant hepatotoxicity concern for PTU.
 
-The review of a related predicted indication (neonatal thyrotoxicosis) noted that PTU carries a hepatotoxicity warning. A safety review is needed before any further work.
+Please refer to the Health Canada package insert for official warnings and contraindications.
 
 ---
 
@@ -104,13 +120,14 @@ The review of a related predicted indication (neonatal thyrotoxicosis) noted tha
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.66%), but the evidence is L4. The literature describes the disease itself (THRB mutations, family case reports, mouse models), and no study shows PTU benefit. The one case report involving PTU suggests it may worsen goiter. Mechanistically, suppressing thyroid hormone synthesis is not expected to help in RTH.
+No clinical trials exist, and the literature contains only mouse models and case reports. The mechanism points the wrong way: lowering thyroid hormone in RTH would raise TSH and risk goiter. The high TxGNN score is not backed by evidence of benefit.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (for example from DrugBank) to support or refute a mechanistic link
-- Original approved indication text and dosage forms for the two licenses
-- Any clinical evidence of PTU outcomes in confirmed THRB-mutation RTH, rather than misdiagnosed thyrotoxicosis
+- A clear mechanistic argument for why an antithyroid drug would help in RTH-beta, or confirmation that this prediction should be dropped.
+- Official Health Canada package insert warnings and contraindications, which are missing and block safety screening.
+- Detailed mechanism of action data from DrugBank.
+- Approved indication text and dosage forms for the two Canadian licences.
+- For the lower-ranked predictions: neonatal thyrotoxicosis could be explored as a research question with a dedicated pediatric hepatotoxicity risk assessment, and hyperthyroxinemia would need to be split into specific causes before any evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

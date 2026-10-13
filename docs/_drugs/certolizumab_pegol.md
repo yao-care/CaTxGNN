@@ -2,7 +2,7 @@
 layout: default
 title: Certolizumab Pegol
 parent: Moderate Evidence (L3-L4)
-nav_order: 174
+nav_order: 176
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Certolizumab Pegol: From Inflammatory Autoimmune Disease to Rheumatoid Vasculitis
+# Certolizumab Pegol: From Crohn's Disease and Rheumatoid Arthritis to Rheumatoid Vasculitis
 
 ## One-Sentence Summary
 
-Certolizumab pegol (Cimzia) is a PEGylated anti-TNF antibody fragment. The literature describes its use in inflammatory autoimmune diseases such as rheumatoid arthritis, psoriatic arthritis, axial spondyloarthritis and Crohn's disease.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but the support is weak: **3 clinical trials** (none testing vasculitis) and **8 publications** (mostly case reports of anti-TNF-associated vasculitis).
+Certolizumab pegol is an anti-TNF-alpha biologic originally used for Crohn's disease, rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis.
+The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but the supporting evidence is weak: **no clinical trials** and only **7 publications**, mostly case reports, several of which describe vasculitis *caused* by anti-TNF therapy.
+Among the other predicted indications, **inflammatory spondylopathy** has the strongest support (**11 clinical trials**, including several completed Phase 3 RCTs), although it largely overlaps with approved uses.
 
 ---
 
@@ -42,7 +43,7 @@ The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records; the literature describes use in RA, psoriatic arthritis, axial spondyloarthritis and Crohn's disease |
+| Original Indication | Crohn's disease, inflammatory bowel disease, psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Rheumatoid vasculitis |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L4 |
@@ -54,58 +55,87 @@ The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Based on the literature, certolizumab pegol is a PEGylated Fab fragment that neutralizes TNF-α. It has no Fc region, so it does not fix complement.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, certolizumab pegol is a PEGylated antigen-binding fragment (Fab') of a humanized anti-TNF-alpha antibody. It neutralizes TNF-alpha and has proven efficacy in rheumatoid arthritis and other inflammatory diseases.
 
-TNF drives inflammation in rheumatoid arthritis, and rheumatoid vasculitis is a severe extra-articular complication of the disease. This gives a plausible link between the two conditions. A 2021 case report describes certolizumab treatment for leg ulcers due to rheumatoid vasculitis.
+Rheumatoid vasculitis is a serious extra-articular complication of rheumatoid arthritis. TNF-alpha is a plausible driver of vascular inflammation, which is why the model links the two conditions.
 
-The mechanism cuts both ways, though. Several case reports describe vasculitis that appeared during certolizumab or other anti-TNF treatment. These include leukocytoclastic vasculitis, hypocomplementemic urticarial vasculitis and medium-vessel vasculitis. So TNF blockade may treat rheumatoid vasculitis in some patients and trigger paradoxical vasculitis in others.
+However, the evidence points in both directions. Only one case report (PMID 34786446) describes benefit, in rheumatoid vasculitis leg ulcers. Several other reports describe leukocytoclastic vasculitis, urticarial vasculitis, medium-vessel vasculitis and rapidly progressive glomerulonephritis *induced* by certolizumab or other anti-TNF agents. This paradoxical reaction is a known class effect, so the safety signal currently outweighs the weak efficacy signal.
 
 ---
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials are registered for rheumatoid vasculitis.
+
+For reference, the other predicted indications with the strongest trial support are shown below.
+
+**Inflammatory spondylopathy (rank 3, evidence level L1)**
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having shoulder arthroplasty; does not test vasculitis efficacy |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Observational study of tocilizumab in RA; no vasculitis-specific outcomes |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Registry of new immune-mediated inflammatory diseases after biologic treatment; a safety and epidemiology study, not an efficacy study |
+| [NCT01087788](https://clinicaltrials.gov/study/NCT01087788) | Phase 3 | Completed | 409 | Randomized, double-blind, placebo-controlled study of efficacy and safety in active psoriatic arthritis |
+| [NCT01087762](https://clinicaltrials.gov/study/NCT01087762) | Phase 3 | Completed | 325 | Randomized, placebo-controlled study of two dose regimens in active axial spondyloarthritis |
+| [NCT02505542](https://clinicaltrials.gov/study/NCT02505542) | Phase 3 | Completed | 736 | Open-label run-in followed by randomized withdrawal to assess maintenance of remission in axial spondyloarthritis |
+| [NCT02552212](https://clinicaltrials.gov/study/NCT02552212) | Phase 3 | Completed | 317 | Placebo-controlled efficacy and safety in non-radiographic axial spondyloarthritis |
+| [NCT04610476](https://clinicaltrials.gov/study/NCT04610476) | Phase 3 | Unknown | 270 | Treat-to-target tapering of immunosuppressive therapy in psoriatic arthritis |
+| [NCT03215277](https://clinicaltrials.gov/study/NCT03215277) | Phase 2 | Completed | 76 | Bimekizumab vs certolizumab pegol in active ankylosing spondylitis |
+| [NCT03020992](https://clinicaltrials.gov/study/NCT03020992) | Phase 4 | Completed | 89 | Reduction of anterior uveitis flares in axial spondyloarthritis (C-VIEW) |
+| [NCT05115903](https://clinicaltrials.gov/study/NCT05115903) | Phase 4 | Unknown | 15 | Randomized TNF inhibitor tapering study in axial spondyloarthritis |
+| [NCT02154425](https://clinicaltrials.gov/study/NCT02154425) | Phase 1 | Completed | 17 | Breast-milk transfer of certolizumab pegol (PK/safety only) |
 
-All three trials are only loosely related. None tests certolizumab for rheumatoid vasculitis.
+**Polyarticular juvenile rheumatoid arthritis (rank 5, evidence level L3)**
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01550003](https://clinicaltrials.gov/study/NCT01550003) | Phase 3 | Completed | 193 | Open-label study of PK, safety and efficacy in children and adolescents with polyarticular-course JIA |
 
 ---
 
 ## Literature Evidence
 
+**Rheumatoid vasculitis (predicted primary indication)**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Cohort (indirect) | RMD Open | Multicentre study of 80 patients with uveitis due to immune-mediated inflammatory diseases; evaluates effectiveness and safety of certolizumab, not vasculitis |
-| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Review | RMD Open | Compares infection profiles of immune-modulatory drugs from product labeling |
-| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case report | JAAD Case Reports | Certolizumab treatment for leg ulcers due to rheumatoid vasculitis (the only direct signal of benefit) |
-| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Case report | Cureus | Anti-TNF-induced medium-vessel vasculitis in a woman with seronegative RA after switching to certolizumab |
-| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Case report | Mod Rheumatol Case Rep | Rapidly progressive glomerulonephritis after starting certolizumab in RA |
-| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Case report | J Clin Pharm Ther | Hypocomplementemic urticarial vasculitis developing during certolizumab for RA |
-| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Retrospective cohort | Clin Med Res | Single-centre experience of cutaneous adverse events with biologic agents |
-| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Case report | Proc (Bayl Univ Med Cent) | Leukocytoclastic vasculitis drug reaction to certolizumab |
+| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case report | JAAD Case Reports | Certolizumab pegol treatment of leg ulcers due to rheumatoid vasculitis (the only report of benefit) |
+| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Multicentre cohort | RMD Open | Long-term effectiveness and safety in 80 patients with uveitis due to immune-mediated inflammatory diseases |
+| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Review | RMD Open | Comparison of infection profiles of immune-modulatory drugs from product characteristic data |
+| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Case report (adverse reaction) | Proc (Baylor Univ Med Cent) | Leukocytoclastic vasculitis drug reaction to certolizumab pegol |
+| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Case report (adverse reaction) | J Clin Pharm Ther | Hypocomplementemic urticarial vasculitis during certolizumab treatment for rheumatoid arthritis |
+| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Case report (adverse reaction) | Mod Rheumatol Case Rep | Rapidly progressive glomerulonephritis after starting certolizumab pegol |
+| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Case report (adverse reaction) | Cureus | Anti-TNF-related medium-vessel vasculitis |
+
+**Supporting literature for related predicted indications**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [37423647](https://pubmed.ncbi.nlm.nih.gov/37423647/) | 2023 | RCT | Ann Rheum Dis | NORD-STAR: 48-week clinical and radiographic results of certolizumab vs abatacept, tocilizumab or conventional therapy in early RA |
+| [33268527](https://pubmed.ncbi.nlm.nih.gov/33268527/) | 2020 | RCT | BMJ | Phase IV randomized, observer-blinded trial of three biologics vs active conventional treatment in early RA |
+| [38503473](https://pubmed.ncbi.nlm.nih.gov/38503473/) | 2024 | Systematic review | Ann Rheum Dis | Efficacy and safety of pharmacological treatment in PsA, informing the 2023 EULAR recommendations |
+| [38530074](https://pubmed.ncbi.nlm.nih.gov/38530074/) | 2024 | Review | Immunotherapy | Phase III and IV trials establish efficacy of certolizumab in axial spondyloarthritis |
+| [27704400](https://pubmed.ncbi.nlm.nih.gov/27704400/) | 2016 | Review | BioDrugs | Review of certolizumab pegol in inflammatory autoimmune diseases |
+| [42439289](https://pubmed.ncbi.nlm.nih.gov/42439289/) | 2026 | Clinical study | Arthritis Rheumatol | 9+-year PK, effectiveness and safety in children and adolescents with polyarticular JIA |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2465574 | CIMZIA |
-| 2331675 | CIMZIA |
-
-The license records provided do not list dosage forms or approved indication text.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02465574 | CIMZIA | Not specified | Not specified |
+| 02331675 | CIMZIA | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found.
-- **Literature signal**: Case reports link certolizumab and other anti-TNF agents to paradoxical vasculitis and glomerulonephritis. This matters directly when the target disease is itself a vasculitis, because worsening could be mistaken for disease progression.
+- **Drug Interactions**: 100 interactions were found in the interaction database. The main ones are:
+  - **Major**: corticosteroids (hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, budesonide, triamcinolone including the ophthalmic form), deferiprone, and radiopharmaceuticals (ibritumomab tiuxetan, iobenguane I-131, tositumomab I-131)
+  - **Moderate**: metronidazole, tinidazole, pegvaliase, rosuvastatin, simvastatin
+  - **Minor**: zinc salts (acetate, gluconate, sulfate)
+- **Class-related safety signals from the literature**: Anti-TNF therapy, including certolizumab, has been associated with drug-induced vasculitis, glomerulonephritis and urticarial vasculitis. Infection risk and pregnancy/lactation exposure also require attention.
 
-Please refer to the package insert for warnings and contraindications.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the Health Canada product monograph for full safety information.
 
 ---
 
@@ -114,15 +144,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but the evidence is L4. There is one case report of benefit and several reports of anti-TNF-associated vasculitis. No trial tests certolizumab for rheumatoid vasculitis.
+For rheumatoid vasculitis there are no registered clinical trials, only one case report of benefit, and several reports of anti-TNF-induced vasculitis, so the safety concern outweighs the efficacy signal (evidence level L4). Among the other predictions, inflammatory spondylopathy (L1) would be "Proceed with Guardrails", but it is largely an on-label rediscovery rather than true repurposing. Polyarticular juvenile rheumatoid arthritis (L3) remains a research question, supported by a single open-label Phase 3 study. Hypermobility of the coccyx and Kummell disease rest only on model scores, with no trials or literature, and no plausible TNF-driven mechanism.
 
 **To proceed, the following is needed:**
-- The Canadian package insert (warnings, contraindications, approved indications)
-- Detailed mechanism of action data
-- Controlled or larger observational data in rheumatoid vasculitis, including a comparison of benefit against paradoxical vasculitis risk
-- A safety monitoring plan for vasculitis flares and renal involvement
-
-Other predictions in the pack are better supported. Inflammatory spondylopathy has Phase 3 RCT evidence in axial spondyloarthritis (L1). It is probably an existing labeled use, so check its regulatory status before treating it as repurposing.
+- Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Systematic evaluation of efficacy vs vasculitis-induction risk in rheumatoid vasculitis, ideally a controlled study or a well-designed case series
+- For inflammatory spondylopathy: confirmation of the exact sub-indication and label coverage, plus infection monitoring and pregnancy/lactation data
+- For polyarticular JIA: further controlled data beyond the single-arm Phase 3 study
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

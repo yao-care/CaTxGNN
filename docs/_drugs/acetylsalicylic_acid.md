@@ -29,13 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-# Acetylsalicylic Acid: Repurposing Prediction for Migraine with Brainstem Aura
+# Acetylsalicylic Acid: From Rheumatoid Arthritis and Migraine to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Acetylsalicylic acid (aspirin) is a widely marketed drug in Canada, but the record contains no original approved indication text.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**.
-Evidence is limited: **0 registered clinical trials** and **18 publications**, mostly on migraine in general rather than this subtype.
+Acetylsalicylic acid (aspirin) is a long-established drug used for rheumatoid arthritis, migraine, myocardial infarction, coronary thrombosis, headache disorders, the common cold and osteoarthritis.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but **no clinical trials** are registered for this indication. About **20 publications** are linked to it, mostly indirect, and only one retrospective study of aspirin in migraine with aura prevention.
 
 ---
 
@@ -43,6 +42,7 @@ Evidence is limited: **0 registered clinical trials** and **18 publications**, m
 
 | Item | Content |
 |------|------|
+| Original Indication | Rheumatoid arthritis, migraine disorder, myocardial infarction, coronary thrombosis, headache disorder, osteoarthritis (the Health Canada licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L3 |
@@ -54,20 +54,17 @@ Evidence is limited: **0 registered clinical trials** and **18 publications**, m
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug record. The rationale below rests on general pharmacology. Aspirin inhibits COX-mediated prostaglandin and thromboxane synthesis. This may reduce the neurogenic inflammation and platelet activation thought to contribute to migraine with aura.
+Detailed mechanism-of-action data for aspirin were not included in the data compiled for this report. Based on general pharmacology, aspirin inhibits cyclooxygenase (COX), which reduces prostaglandin synthesis and platelet aggregation. One mechanistic study (PMID 1589237) reported that aspirin activates an antinociceptive brainstem reflex in headache patients and healthy subjects.
 
-The literature offers some support for aspirin in migraine generally:
-- A 1999 randomized trial tested intravenous aspirin lysinate against subcutaneous sumatriptan and placebo in acute migraine with or without aura.
-- A retrospective study evaluated low-dose aspirin for prophylaxis of migraine with aura.
-- A 2025 systematic review examined antithrombotic drugs for migraine prevention.
+Aspirin is already used in migraine, so this prediction is a subtype extension rather than an entirely new disease area. Migraine with aura has been linked to microembolic or platelet-mediated events, for example via patent foramen ovale, which gives a plausible rationale for antiplatelet prevention. A retrospective study of 203 patients with migraine with aura compared low-dose aspirin with other prophylactic therapies, and a systematic review (2025) examined antithrombotic drugs for migraine prevention.
 
-The available evidence covers migraine and migraine with aura in general, not the brainstem-aura subtype. The link to this specific indication is therefore indirect.
+No data specific to brainstem aura were found. The supporting evidence is for migraine with aura in general.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for migraine with brainstem aura.
 
 ---
 
@@ -75,36 +72,41 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | Double-blind, double-dummy trial (278 patients) of IV aspirin lysinate 1.8 g vs subcutaneous sumatriptan 6 mg vs placebo in acute migraine with or without aura. The provided excerpt does not include the results. |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospective cohort | Current Health Sciences Journal | Chart review of 203 patients with migraine with aura. 95 received low-dose aspirin and 108 received other prophylactic therapies. It assessed efficacy and tolerability of aspirin prophylaxis. |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic review | Headache | Reviews evidence on antithrombotic drugs as migraine preventive medication. |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline / evidence assessment | Headache | American Headache Society assessment of the evidence for pharmacological therapies in acute migraine treatment. |
-| [34384631](https://pubmed.ncbi.nlm.nih.gov/34384631/) | 2021 | Review | Revue Neurologique | Overview of migraine with aura, including cortical spreading depression as the mechanism underlying aura. |
-| [30291554](https://pubmed.ncbi.nlm.nih.gov/30291554/) | 2018 | Review | Current Pain and Headache Reports | Compares pathophysiology, management, and risks of migraine with and without aura. |
-| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Review | Neurology International | Ubrogepant review. Notes aspirin-containing analgesics among treatment options for mild to moderate migraine. |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | European Heart Journal | PRIMA trial of percutaneous PFO closure in medically refractory migraine with aura. Indirect relevance; aspirin is not the intervention. |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Clinical report | Heart | Clopidogrel reduced migraine with aura after transcatheter closure of atrial shunts. This suggests an antiplatelet link, but the drug is not aspirin. |
-| [2701286](https://pubmed.ncbi.nlm.nih.gov/2701286/) | 1989 | Review | Biomedicine & Pharmacotherapy | Describes the platelet hypothesis of migraine after 10 years. |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic review | Headache | Examines the role of antithrombotic drugs in migraine prevention |
+| [16796580](https://pubmed.ncbi.nlm.nih.gov/16796580/) | 2006 | Guideline | Eur J Neurol | EFNS guideline on drug treatment of migraine |
+| [19708964](https://pubmed.ncbi.nlm.nih.gov/19708964/) | 2009 | Guideline | Eur J Neurol | Revised EFNS guideline on drug treatment of migraine |
+| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospective cohort | Curr Health Sci J | Low-dose aspirin vs other prophylaxis in 203 patients with migraine with aura; 95 received aspirin |
+| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | IV aspirin lysinate vs subcutaneous sumatriptan vs placebo in acute migraine (278 patients) |
+| [1589237](https://pubmed.ncbi.nlm.nih.gov/1589237/) | 1992 | Randomized crossover mechanistic study | Pain | Aspirin modulated an antinociceptive brainstem reflex in migraine, tension-type headache and healthy subjects |
+| [15265054](https://pubmed.ncbi.nlm.nih.gov/15265054/) | 2004 | Mechanistic study | Cephalalgia | Compared central antinociceptive effects of IV aspirin and oral zolmitriptan in migraine patients |
+| [9606899](https://pubmed.ncbi.nlm.nih.gov/9606899/) | 1998 | Clinical study | Zh Nevrol Psikhiatr | Preventive aspirin at 1000, 500 and 100 mg in 105 patients with migraine without aura |
+| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT (PFO closure, not aspirin) | Eur Heart J | PFO closure in migraine with aura; indirect relevance only |
+| [15891416](https://pubmed.ncbi.nlm.nih.gov/15891416/) | 2005 | Review | Curr Opin Neurol | Relationship between patent foramen ovale, cryptogenic stroke and migraine |
 
 ---
 
 ## Canada Market Information
 
-Approved indication text is not available in the record. Five of the 20 authorizations are listed below.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02202352 | RIVASA 80MG CROQUABLE - TAB | Not listed | Not listed |
+| 02363127 | ENTERIC COATED DAILY LOW DOSE ASA 81 MG | Not listed | Not listed |
+| 02242281 | ENTROPHEN | Not listed | Not listed |
+| 02009013 | ASAPHEN | Not listed | Not listed |
+| 02150328 | ASPIRIN REGULAR STRENGTH | Not listed | Not listed |
 
-| DIN | Product Name |
-|---------|------|
-| 02202352 | RIVASA 80MG CROQUABLE - TAB |
-| 02202360 | RIVASA FC |
-| 02363127 | ENTERIC COATED DAILY LOW DOSE ASA 81 MG |
-| 02283905 | JAMP-ASA EC |
-| 02242281 | ENTROPHEN |
+Twenty valid single-ingredient licences are on record; the five above are shown. Dosage form and approved indication text are not available in the compiled data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified. Examples:
+  - **Major**: acalabrutinib, acetazolamide, ketorolac, trastuzumab emtansine, ibuprofen, fondaparinux
+  - **Moderate**: abciximab, nifedipine, hydrocortisone, ethanol, alendronic acid, fluvoxamine, fosinopril, gemifloxacin
+  - **Minor**: acebutolol, caffeine, rabeprazole, fosphenytoin, furosemide
+
+Please refer to the package insert for warnings and contraindications. These were not available in the compiled data.
 
 ---
 
@@ -113,14 +115,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no trial tests aspirin in migraine with brainstem aura. The literature covers migraine and migraine with aura generally, so the evidence for this subtype is indirect. Safety information (warnings and contraindications) is also missing from the record, so safety screening cannot proceed. Other predicted indications in the pack, such as thrombotic disease, have stronger trial support. That is largely an established antiplatelet use rather than a repurposing signal.
+The TxGNN score is very high (99.94%), but there are no registered trials for migraine with brainstem aura. The literature is mostly indirect (migraine with aura in general, mechanistic or guideline papers) with one retrospective aspirin study. Because aspirin is already used in migraine, this is best treated as a research question rather than a new-indication candidate.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data (DrugBank)
-- Full-text review of the 1999 RCT and the 2014 retrospective study, to confirm results and whether brainstem-aura patients were included
-- Evidence specific to brainstem aura, or a decision to treat the question at the migraine-with-aura level
-- A bleeding-risk and dosing assessment for chronic preventive use
+- Evidence specific to brainstem aura, such as a controlled trial or well-defined cohort
+- Review of the 2025 systematic review and the retrospective aspirin study for effect size and bleeding risk
+- Mechanism of action data and Health Canada package insert warnings and contraindications, which are currently missing
+- A safety plan covering bleeding risk and the major drug interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Canakinumab
 parent: Model Prediction Only (L5)
-nav_order: 148
+nav_order: 150
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Canakinumab: From Autoinflammatory Periodic Fever Syndromes to Hepatic Infarction
+# Canakinumab: From Gout and Periodic Fever Syndromes to Hepatic Infarction
 
 ## One-Sentence Summary
 
-Canakinumab (marketed in Canada as ILARIS) is an anti-IL-1β antibody. The literature in the Evidence Pack describes its use in cryopyrin-associated periodic syndrome (CAPS) and related autoinflammatory diseases.
-The TxGNN model ranks **hepatic infarction** as its top prediction, but **0 clinical trials** and only **1 unrelated publication** support it, so this looks like a model artifact rather than a real lead.
+Canakinumab is an interleukin-1β (IL-1β) antibody, originally used for autoinflammatory conditions such as cryopyrin-associated periodic syndrome (CAPS), familial Mediterranean fever and juvenile arthritis.
+The TxGNN model predicts it may be effective for **hepatic infarction**.
+**No clinical trials and no publications** currently support this specific prediction, so it is a computational signal only.
 
 ---
 
@@ -42,10 +43,10 @@ The TxGNN model ranks **hepatic infarction** as its top prediction, but **0 clin
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence record. Literature describes CAPS and other periodic fever syndromes. |
+| Original Indication | Gout, cryopyrin-associated periodic syndrome, systemic-onset juvenile idiopathic arthritis, juvenile idiopathic arthritis, mevalonate kinase deficiency, familial Mediterranean fever (the Canadian licence text is not available, so these come from the model's knowledge base) |
 | Predicted New Indication | Hepatic infarction |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -54,9 +55,11 @@ The TxGNN model ranks **hepatic infarction** as its top prediction, but **0 clin
 
 ## Why is This Prediction Reasonable?
 
-Canakinumab neutralizes interleukin-1β (IL-1β), which suppresses inflammation in diseases driven by IL-1β overproduction. Detailed mechanism-of-action data is not available in the Evidence Pack. This description comes from the retrieved literature, not from a structured MOA record.
+Currently, detailed mechanism of action data is not available. Based on known information, canakinumab is a monoclonal antibody directed at the IL-1β pathway. Its efficacy in autoinflammatory diseases is established, and mechanistically it may be applicable to inflammation-driven conditions.
 
-The prediction is **not** mechanistically convincing. Hepatic infarction is an ischemic or vascular event, and IL-1β blockade has no established role in treating it. The high TxGNN score (99.86%) is most likely a knowledge-graph artifact, not a genuine repurposing signal. The only retrieved publication is a cardiovascular prevention trial of a different drug, bempedoic acid, which says nothing about canakinumab in liver ischemia.
+The only link to hepatic infarction is speculative. IL-1β-driven inflammation may contribute to ischemic tissue injury, and blocking it could dampen that injury. Nothing in the data compiled for this report tests this idea. The high score is a model output, not evidence of benefit.
+
+The original indications are immune-mediated inflammatory diseases. Hepatic infarction is a vascular and ischemic liver injury. The similarity between the two is not yet established.
 
 ---
 
@@ -68,9 +71,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37354546](https://pubmed.ncbi.nlm.nih.gov/37354546/) | 2023 | RCT | JAMA | Bempedoic acid for primary prevention of cardiovascular events in statin-intolerant patients. It does not involve canakinumab or hepatic infarction, so it offers no support for this prediction. |
+Currently no related literature available.
 
 ---
 
@@ -78,13 +79,23 @@ Currently no related clinical trials registered.
 
 | DIN | Product Name |
 |---------|------|
-| 2460351 | ILARIS |
+| 02460351 | ILARIS |
+
+The licence is valid and single-ingredient. Dosage form and approved indication text are not available in the compiled data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions are recorded, and the main ones are listed below.
+  - **Moderate**:
+    - Corticosteroids: hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone.
+    - Anticoagulants: warfarin, apixaban, rivaroxaban, dicoumarol.
+    - Statin: simvastatin.
+    - Radiopharmaceuticals and related agents: ibritumomab tiuxetan, tositumomab, iobenguane (I-131).
+  - **Minor**: zinc salts (acetate, gluconate, sulfate).
+
+Warning and contraindication data from the product label are not available. Please refer to the package insert for these.
 
 ---
 
@@ -93,19 +104,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no trials, no relevant literature and no plausible IL-1β mechanism in hepatic infarction. Evidence Level L5 does not justify further investment.
+The prediction rests on the model score alone, with no trials, no publications and only a speculative mechanism. This is the lowest evidence level (L5), so it cannot support a repurposing decision now.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently missing, and blocking any safety screening)
-- Structured mechanism-of-action data from DrugBank
-- Any preclinical or clinical evidence linking IL-1β signalling to hepatic ischemic injury
-
-**Note on other predictions:** Other predictions for canakinumab are far better supported and deserve separate evaluations:
-- **Familial Mediterranean fever** (rank 6): Evidence Level L2, with Phase 2/3 trials and disease-specific literature in colchicine-resistant patients. It is currently rated "Proceed with Guardrails". Several of the retrieved trials appear to be CAPS studies, so their populations must be verified.
-- **Blau syndrome** (rank 8): Evidence Level L3, with a small study reporting clinical response to canakinumab plus case reports.
-- **Periodic fever-infantile enterocolitis-autoinflammatory syndrome** (rank 5): Evidence Level L4. The literature is indirect and covers related periodic fever syndromes.
-
-This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.
+- Mechanism of action data and a mechanistic case for IL-1β involvement in hepatic ischemic injury
+- Preclinical or case-level evidence of canakinumab effect in hepatic infarction
+- Package insert warnings and contraindications from Health Canada, for safety screening
+- A review of the other predictions, since several have more support. For example, the autosomal dominant familial Mediterranean fever prediction (rank 6) has three completed Phase 3 trials and several systematic reviews. However, it overlaps with an already listed indication and is therefore largely confirmatory.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

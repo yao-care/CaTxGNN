@@ -2,7 +2,7 @@
 layout: default
 title: Tezepelumab
 parent: Model Prediction Only (L5)
-nav_order: 899
+nav_order: 906
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Tezepelumab is an anti-TSLP monoclonal antibody marketed in Canada as TEZSPIRE, with severe asthma as its original use. The TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only signal.
+Tezepelumab is an anti-TSLP monoclonal antibody marketed in Canada as TEZSPIRE. The Health Canada data compiled for this report do not list an approved indication text, but the drug is known for severe asthma.
+The TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
 
 ---
 
@@ -41,10 +42,10 @@ Tezepelumab is an anti-TSLP monoclonal antibody marketed in Canada as TEZSPIRE, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Severe asthma (taken from the prediction rationale; the Canadian license records contain no indication text) |
+| Original Indication | Severe asthma (general drug knowledge; the Canadian license records compiled for this report contain no indication text) |
 | Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 98.40% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
@@ -53,22 +54,13 @@ Tezepelumab is an anti-TSLP monoclonal antibody marketed in Canada as TEZSPIRE, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on known information, tezepelumab is a monoclonal antibody that blocks thymic stromal lymphopoietin (TSLP), an upstream cytokine in type 2 inflammation. Its efficacy in severe asthma is the basis for its marketing.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Tezepelumab is known to be a monoclonal antibody that blocks thymic stromal lymphopoietin (TSLP), an epithelial alarmin that drives type 2 and other inflammatory signaling. Its efficacy in severe asthma is the basis of its marketing authorization.
 
-The link to diabetic cataract is weak. Diabetic cataract is driven mainly by hyperglycaemia-related processes such as the polyol pathway and oxidative stress. TSLP blockade does not address these, and no established connection between TSLP signalling and lens opacification was identified.
+A link to diabetic cataract is speculative. One hypothesis is that TSLP-related inflammatory signaling could play a role in the lens epithelium or in diabetic ocular inflammation. No data compiled for this report support this. The high TxGNN score (0.984) is a graph-based prediction. It likely reflects clustering of related cataract terms in the knowledge graph rather than a drug-specific signal.
 
-The high score (98.40%) most likely reflects proximity among cataract-related nodes in the knowledge graph rather than pharmacology. Nine of the top ten predictions are cataract subtypes with nearly identical scores (98.2%–98.4%), which points to a correlated artifact rather than independent signals. These include:
+Other cataract subtypes also scored highly (about 0.98), including tetanic, craniostenosis, immature, mature, type 2 diabetes-associated, nuclear senile, cortical and senile cataract. Several have no plausible link to TSLP blockade. For example, tetanic cataract arises from calcium disturbance, craniostenosis cataract is a developmental genetic disorder, and age-related cataract is driven by oxidative damage and crystallin aggregation. This pattern supports reading the predictions as a cluster effect.
 
-- Tetanic cataract
-- Craniostenosis cataract
-- Immature cataract
-- Mature cataract
-- Type 2 diabetes-associated cataract
-- Nuclear senile cataract
-- Cortical cataract
-- Senile cataract
-
-The tenth prediction, **diabetic retinopathy** (98.12%), is the only one with a plausible biological angle, since chronic low-grade inflammation and cytokine signalling contribute to the disease. It is flagged as a research question only. A role for TSLP in retinal pathology is hypothetical, and ocular penetration of a systemic IgG2 antibody would also need to be considered.
+Diabetic retinopathy (score 0.981) is the biologically most plausible of the ten predictions, because inflammation and cytokine signaling contribute to the disease. It remains hypothetical and could only be framed as a preclinical research question, such as TSLP expression in the diabetic retina.
 
 ---
 
@@ -86,16 +78,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2529548 | TEZSPIRE |
-| 2529556 | TEZSPIRE |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02529548 | TEZSPIRE | Not specified | Not specified |
+| 02529556 | TEZSPIRE | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+Please refer to the package insert for safety information.
+
+No drug interaction records were found for this drug in the data compiled for this report.
 
 ---
 
@@ -104,15 +98,14 @@ Please refer to the package insert for safety information. No drug interactions 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score, with no trials, no publications and no plausible mechanism linking TSLP blockade to lens opacification. The clustering of near-identical scores across cataract subtypes suggests a graph artifact rather than a real signal.
+The prediction rests on a model score alone, with no clinical trials, no literature and no supported mechanistic link between TSLP blockade and lens opacity. The same score pattern across unrelated cataract subtypes suggests a knowledge-graph clustering effect rather than a real drug-specific signal.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (e.g. from DrugBank) and the approved indication text from the Health Canada product monograph
-- Package insert warnings and contraindications, which are required before any safety screening
-- Preclinical or mechanistic evidence for TSLP involvement in lens or retinal pathology
-- If follow-up is pursued, prioritise diabetic retinopathy as a research question, starting with a preclinical or retrospective-cohort study that also addresses ocular penetration of a systemic antibody
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for tezepelumab, to allow a proper mechanistic-link analysis
+- Health Canada package insert warnings, contraindications and approved indication text
+- Preclinical evidence of TSLP involvement in lens or diabetic ocular pathology, for example in the diabetic retina
+- A literature search for TSLP in cataract and diabetic eye disease
+- A route-of-administration assessment, since the available routes (systemic biologic) have not been compared with ocular treatment needs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

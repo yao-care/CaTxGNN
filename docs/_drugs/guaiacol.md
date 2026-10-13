@@ -2,7 +2,7 @@
 layout: default
 title: Guaiacol
 parent: Model Prediction Only (L5)
-nav_order: 439
+nav_order: 443
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Guaiacol: From an Unspecified Original Indication to Acute Laryngopharyngitis
+# Guaiacol: From Pharyngitis to Acute Laryngopharyngitis
 
 ## One-Sentence Summary
 
-Guaiacol is marketed in Canada under two DEMO-CINEOL products (children and adult versions), but the approved indication text is not available in the records.
-The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it directly.
+Guaiacol was originally used for upper-respiratory conditions such as pharyngitis, the common cold, rhinitis and nasopharyngitis.
+The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; no approved indication text is available for the Canadian products) |
 | Predicted New Indication | Acute laryngopharyngitis |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 |
@@ -49,48 +50,55 @@ The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data and the original approved indication are not available for guaiacol, so the mechanistic link cannot be confirmed from this dataset.
+Currently, detailed mechanism of action data is not available. Based on known information, guaiacol is generally regarded as an expectorant with mild local antiseptic properties. This is general background and is not confirmed by the data compiled for this report. Its use in pharyngitis and nasopharyngitis is recorded in the knowledge graph, and mechanistically it may be applicable to acute laryngopharyngitis.
 
-As background knowledge only (not evidence from this dataset), guaiacol has a history of use as an expectorant and mild antiseptic in upper-respiratory products. That makes a benefit in an upper-airway inflammatory condition such as acute laryngopharyngitis plausible. The very high TxGNN score (0.996) fits this picture, but the model score alone is not clinical support.
+Acute laryngopharyngitis is anatomically adjacent to the conditions guaiacol is already linked with, and shares symptoms such as throat irritation and mucus secretion. The prediction is therefore best seen as an extension of the existing indication rather than a new mechanism, and it adds little repurposing novelty.
 
-A second prediction, nasal cavity disease (score 99.51%), has one indirect signal. The Phase 2 pilot [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) tested guaifenesin, a structurally related but different compound, in pediatric chronic rhinitis. It cannot be counted as direct evidence for guaiacol.
+A second prediction, **nasal cavity disease** (score 99.51%), also ranks highly. It is a broad category rather than a specific disease, and it likely reflects the existing link to rhinitis. It should be narrowed to specific nasal conditions before any further evaluation.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for acute laryngopharyngitis.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for acute laryngopharyngitis.
+Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 319724 | DEMO-CINEOL ENFANTS/CHILDREN |
-| 319716 | DEMO-CINEOL ADULTES/ADULTS |
-
-Dosage form and approved indication details are not available in the records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00319724 | DEMO-CINEOL ENFANTS/CHILDREN | Not specified | Not specified |
+| 00319716 | DEMO-CINEOL ADULTES/ADULTS | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications could not be obtained for this report. Please refer to the package insert for safety information.
+
+The drug knowledge graph links guaiacol to potential contraindications in the following conditions. This is model-derived information, not label text, and should be verified against the official labelling:
+
+- **Cardiovascular**: hypertension, hypotensive disorder, coronary artery disease, myocardial infarction, coronary thrombosis
+- **Renal and urinary**: kidney disease, pyoureter, anuria, benign prostatic hyperplasia
+- **Hepatic, biliary and gastrointestinal**: liver disease, gallbladder disease, pancreatitis, peptic ulcer disease, inflammatory bowel disease
+- **Endocrine and metabolic**: diabetes mellitus, diabetic ketoacidosis, adrenocortical insufficiency, Addison disease, hypothyroidism, myxedema, congenital hypothyroidism, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease
+- **Other**: epilepsy, rhabdomyolysis, nodular fasciitis, hemoglobinopathy
+
+No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the TxGNN score alone. There are no trials or publications for guaiacol in acute laryngopharyngitis, and the original indication and mechanism are unknown. The only related clinical signal (guaifenesin in chronic rhinitis) is indirect and concerns a different condition.
+The prediction score is very high, but it is a computational prediction only (L5) with no supporting trials or literature. It also largely overlaps with guaiacol's existing upper-airway indications. The mechanism of action and the label-based safety information are both missing.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert for the DEMO-CINEOL products, covering approved indications, warnings and contraindications
-- Mechanism-of-action data for guaiacol (e.g., from DrugBank)
-- Direct clinical or preclinical studies of guaiacol in acute laryngopharyngitis
-- Assessment of route and formulation compatibility with the target condition
-- Evidence that guaiacol shares guaifenesin's activity, if the nasal-disease direction is pursued
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from Health Canada (currently blocking safety screening)
+- Mechanism of action data for guaiacol
+- Approved indication text and dosage forms for the two Canadian products
+- Clinical or literature evidence specific to acute laryngopharyngitis
+- A more specific definition of "nasal cavity disease" if that prediction is to be pursued
+- Review of the knowledge-graph contraindications against official labelling
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Anifrolumab is an anti-type I interferon receptor antibody, known for treating systemic lupus erythematosus (SLE).
-The TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
-It is a model-only signal (L5) and should be treated as a hypothesis, not a treatment claim.
+Anifrolumab (SAPHNELO) is a monoclonal antibody that blocks the type I interferon receptor. It is known to have been developed for systemic lupus erythematosus (SLE).
+The TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 directly relevant publications** supporting this direction.
+The prediction is purely computational and should be treated as a hypothesis only.
 
 ---
 
@@ -43,7 +43,7 @@ It is a model-only signal (L5) and should be treated as a hypothesis, not a trea
 
 | Item | Content |
 |------|------|
-| Original Indication | Systemic lupus erythematosus (the Canadian licence record has no indication text; this is based on the drug's known approval) |
+| Original Indication | The Canadian licence record contains no indication text. Publicly known indication: moderate to severe SLE in patients receiving standard therapy |
 | Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 98.50% |
 | Evidence Level | L5 |
@@ -55,11 +55,11 @@ It is a model-only signal (L5) and should be treated as a hypothesis, not a trea
 
 ## Why is This Prediction Reasonable?
 
-Anifrolumab is an antibody against the type I interferon receptor subunit 1 (IFNAR1). It blocks type I interferon signalling, which is the basis of its use in SLE. Detailed mechanism data is not available in the DrugBank input, so this description relies on the analysis notes in the Evidence Pack.
+Anifrolumab is an antibody that targets IFNAR1, the receptor subunit for type I interferons. By blocking this receptor, it dampens interferon-driven immune activation, which is the rationale for its use in SLE. Detailed mechanism-of-action data are not currently available in the data compiled for this report. The description above is based on the target information in the interaction data (IFNAR1).
 
-The mechanistic link to diabetic cataract is weak. Diabetic cataract is driven mainly by polyol pathway flux and oxidative stress in the lens, and no established role for type I interferon has been identified. The high score of 0.985 most likely reflects ontology-neighbour propagation in the knowledge graph rather than a biological connection. The other top predictions for this drug are also cataract subtypes (tetanic, mature, immature, senile, nuclear, cortical, craniostenotic and type 2 diabetes-associated cataract). This clustering supports the artefact interpretation, since many of these are morphological stages or unrelated causes of lens opacity.
+The link to diabetic cataract is weak. Diabetic cataract is mainly driven by polyol pathway activation, oxidative stress and glycation of lens proteins, none of which is an established interferon-mediated process. The high TxGNN score therefore reflects a computational association only, and no clinical or literature evidence supports it.
 
-Diabetic retinopathy (rank 10) is the one biologically conceivable prediction. Chronic inflammation and interferon-related signalling have been implicated in retinal microvascular damage. However, there are no trials or literature for anifrolumab in this setting, and anti-VEGF therapy and laser are far better supported.
+Other cataract-type predictions (tetanic, type 2 diabetes-associated, mature, immature, craniostenosis, nuclear senile, cortical and senile cataract) all have scores of about 98.3–98.4% and likewise lack a plausible mechanism. The most biologically plausible predicted indication is **diabetic retinopathy** (score 98.19%), where inflammation is involved and interferon signalling has been speculatively implicated in retinal inflammation. Even there, no trials or literature exist, and preclinical testing would be needed first.
 
 ---
 
@@ -71,27 +71,27 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for diabetic cataract.
-
-For reference, the only literature found across the top 10 predictions is linked to cortical cataract (rank 8):
+No literature directly supports anifrolumab for diabetic cataract. One paper was retrieved for the related prediction "cortical cataract":
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41373894](https://pubmed.ncbi.nlm.nih.gov/41373894/) | 2025 | Review | Int J Mol Sci | Ophthalmological safety of emerging and conventional SLE therapies. It addresses ocular safety, not efficacy of anifrolumab for cataract (based on title and abstract excerpt). |
+| [41373894](https://pubmed.ncbi.nlm.nih.gov/41373894/) | 2025 | Review | International Journal of Molecular Sciences | Ophthalmological safety review of emerging and conventional SLE therapies. It addresses ocular adverse effects (such as cataract risk with long-term glucocorticoids), not a therapeutic benefit of anifrolumab for cataract |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2522845 | SAPHNELO |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02522845 | SAPHNELO | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query completed and returned one pharmacology entry rather than a drug-drug interaction: anifrolumab's target is the interferon α/β receptor 1 (IFNAR1), where it acts as an antibody inhibitor. No clinically graded interactions were reported.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -100,16 +100,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score. There are no clinical trials or publications, and no plausible mechanism links type I interferon blockade to diabetic cataract. Systemic immunosuppression also carries infection risk that has no offsetting ocular benefit here.
+The prediction rests on a model score alone, with no clinical trials, no supporting literature and no plausible mechanistic link to diabetic cataract. Cataract is also generally treated surgically, so an intravenous systemic antibody would be a difficult fit.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data from DrugBank
-- Any preclinical or observational evidence linking type I interferon signalling to lens or retinal disease
-- Ophthalmic safety data on cataract risk in SLE patients on anifrolumab, for example a steroid-sparing effect. This is a more relevant research question than a treatment claim.
-- Assessment of route compatibility (a systemic antibody versus an ocular target)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism-of-action data for anifrolumab
+- Preclinical evidence that type I interferon signalling contributes to lens opacification or diabetic eye disease
+- If an ocular direction is pursued, prioritise diabetic retinopathy over the cataract predictions, starting with preclinical hypothesis testing
+- Assessment of route and formulation compatibility with an ocular indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

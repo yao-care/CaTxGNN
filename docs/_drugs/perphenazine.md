@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Perphenazine
-parent: Model Prediction Only (L5)
-nav_order: 717
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 724
+evidence_level: L4
 indication_count: 10
 ---
 
 # Perphenazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Perphenazine: From Antipsychotic Use (Original Indication Not Recorded) to Retinal Dystrophy
+# Perphenazine: From Schizophrenia to Retinal Dystrophy (With or Without Extraocular Anomalies)
 
 ## One-Sentence Summary
 
-Perphenazine is a phenothiazine antipsychotic, and the Canadian licence records provided contain no approved-indication text. The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and no relevant publications supporting this. The 15 retrieved papers are generic eye-anomaly reviews that never mention perphenazine, so this prediction is best treated as a likely model artifact.
+Perphenazine is a phenothiazine antipsychotic originally used for schizophrenia and mixed anxiety and depressive disorder.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and only **1 publication** behind this prediction. That publication is a 1964 case report of drug-induced retinal toxicity from a related drug, so it points to a safety concern rather than a benefit.
 
 ---
 
@@ -41,9 +42,10 @@ Perphenazine is a phenothiazine antipsychotic, and the Canadian licence records 
 
 | Item | Content |
 |------|------|
+| Original Indication | Schizophrenia; mixed anxiety and depressive disorder |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
 | Recommended Decision | Hold |
@@ -52,13 +54,11 @@ Perphenazine is a phenothiazine antipsychotic, and the Canadian licence records 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not currently available in the Evidence Pack. Perphenazine is known as a phenothiazine that blocks dopamine D2 and serotonin 5-HT2A receptors.
+Detailed mechanism of action data is not currently available. Based on known information, perphenazine is a phenothiazine-class antipsychotic that acts mainly as a dopamine D2 receptor antagonist. Its efficacy in schizophrenia and in mixed anxiety and depression is established. Nothing in the data compiled for this report suggests a mechanism by which it would help an inherited retinal degeneration.
 
-Retinal dystrophy is a group of inherited degenerative eye disorders. Dopamine and serotonin receptor blockade has no established role in treating it, and no plausible mechanistic link was identified. The very high score (0.9996) most likely reflects how the knowledge graph connects entities, not real biology.
+The only supporting item is a 1964 case report describing pigmentary retinopathy in a patient taking very high doses of **thioridazine**, a different phenothiazine. That is a drug-induced retinal toxicity signal, not a therapeutic one. Phenothiazines as a class carry a known risk of retinal toxicity, so this link raises a safety concern rather than a repurposing rationale.
 
-Phenothiazines are also associated with pigmentary retinopathy. That makes this prediction a safety concern as well as a lack of support.
-
-Other predicted indications such as syndromic myopia, X-linked myopias, polymicrogyria, hydranencephaly, Charcot-Marie-Tooth type 1G, glycosylation disorders and atypical glycine encephalopathy also scored above 99.9%. They share the same problem: no trials, no literature and no mechanistic link.
+The high TxGNN score (99.96%) is therefore not backed by any clinical or mechanistic evidence for perphenazine. It most likely reflects proximity within the knowledge graph and should be treated as a hypothesis only.
 
 ---
 
@@ -70,42 +70,28 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-None of these papers mentions perphenazine. They matched on eye-anomaly keywords only and are not evidence for this use. No RCTs were found. The table lists up to 10 of the 15 retrieved papers, reviews first.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Semin Ultrasound CT MR | Overview of orbital infections, most often caused by sinusitis |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Semin Neurol | Systematic approach to evaluating double vision |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis, its features and associated refractive problems |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan J Ophthalmol | Congenital anomalies of lens size, shape and position |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome complex of vitreoretinal degeneration |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatr Radiol | Differential diagnosis and imaging of pediatric ocular pathologies |
-| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Review | Arch Ophthalmol | Clinical features and outcomes in orbital arteriovenous malformations |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | Am J Ophthalmol | Two patients with unilateral cryptophthalmia |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | J Neuroophthalmol | Rare congenital trochlear-oculomotor synkinesis in a child |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optom Vis Sci | Synergistic divergence in congenital fibrosis of the extraocular muscles |
+| [14129300](https://pubmed.ncbi.nlm.nih.gov/14129300/) | 1964 | Case report | The American Journal of Psychiatry | Pigmentary retinopathy associated with thioridazine (not perphenazine) at a maximum daily dose of 1,400 mg. It describes toxicity, not benefit. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 335134 | PERPHENAZINE |
-| 335096 | PERPHENAZINE |
-| 335126 | PERPHENAZINE |
-| 335118 | PERPHENAZINE |
-
-Dosage form, manufacturer and approved indication text are not available in the licence records provided.
+| DIN | Product Name | Status |
+|---------|------|------|
+| 00335134 | PERPHENAZINE | Valid (single-ingredient) |
+| 00335096 | PERPHENAZINE | Valid (single-ingredient) |
+| 00335126 | PERPHENAZINE | Valid (single-ingredient) |
+| 00335118 | PERPHENAZINE | Valid (single-ingredient) |
 
 ---
 
 ## Safety Considerations
 
-- **Retinal safety signal**: Phenothiazines are associated with pigmentary retinopathy. This works against any use in retinal disease.
-- **Drug Interactions**: The DDI query returned no results.
-
-Please refer to the package insert for other safety information, including warnings and contraindications.
+- **Retinal toxicity (class concern):** The only literature item for this prediction documents pigmentary retinopathy with a related phenothiazine. Any ocular use would need careful retinal safety assessment.
+- **Disease-level contraindication signals (from the knowledge graph, not label text):** These include cardiac conditions (long QT syndrome, familial long QT syndrome, torsades de pointes, sudden cardiac arrest, myocardial infarction), orthostatic hypotension, epilepsy, basal ganglia disease, liver disease, blood disorders (neutropenia, agranulocytosis, thrombocytopenia, anemia), hyperglycemia, open-angle glaucoma, benign prostatic hyperplasia and substance abuse/dependence. Other listed conditions are manic bipolar disorder, multiple system atrophy, postural orthostatic tachycardia syndrome, gallbladder disease, obesity, female breast carcinoma, hemoglobinopathy and focal dystonias (including blepharospasm).
+- **Drug Interactions:** 100 interactions were identified. The major-level ones include **bupropion**, **morphine** and **potassium citrate**. Moderate-level ones include antidiabetic agents (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, chlorpropamide, albiglutide), anticholinergics (atropine, hyoscyamine, glycopyrronium), clarithromycin, epinephrine, famotidine, loperamide, lorcaserin and laxatives (bisacodyl, picosulfuric acid).
 
 ---
 
@@ -114,19 +100,16 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no trials, the retrieved literature is unrelated to perphenazine, and no mechanistic link exists. The known retinal toxicity of phenothiazines is a safety signal against this use.
+The retinal dystrophy prediction rests on a single 1964 case report of toxicity from a different drug. There are no trials and no plausible mechanism. The evidence points toward a safety risk rather than a benefit, so the prediction should not advance on current data.
 
-**Side note on the other candidates:**
-Among all predictions for this drug, only **anxiety disorder** (rank 10, score 99.53%) has any supporting evidence. It is rated L3 and "Research Question".
-- Two trials are on record, both graded C: a Phase 2 antioxidant study (NCT05646693) and a Phase 3 pharmacovigilance study (NCT02374567). Neither tests perphenazine for anxiety.
-- Historical RCTs from 1959–1968 and a 2006 review of antipsychotics for anxiety are consistent with the mechanism.
-- The old, small studies and possible overlap with an existing label mean it may not be true repurposing.
+**Note on other predictions:** Among the other predicted indications, only **anxiety disorder** (TxGNN score 99.53%) has real supporting evidence. It is already close to perphenazine's labeled use in mixed anxiety and depression, usually as a combination with amitriptyline. Its evidence is L3 with a "Proceed with Guardrails" recommendation. It rests on several older, mostly combination-therapy studies (including a 1968 double-blind study), a 2006 review of antipsychotics for anxiety, and one terminated Phase 3 pharmacovigilance study in elderly patients (NCT02374567). It is better viewed as an extension of an existing use than as a new repurposing. If pursued, it would need guardrails for sedation, extrapyramidal effects and the heavy interaction burden, especially in older adults.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert, for warnings, contraindications and approved indications (a blocking gap)
-- Mechanism-of-action data from DrugBank
-- Original-indication data, to judge whether the anxiety use is truly new
-- For anxiety disorder, a review of the older trials and a weighing of somnolence, extrapyramidal and metabolic risks
+- Mechanism of action data, to assess any biological link to retinal disease
+- Package insert warnings and contraindications from Health Canada
+- Any preclinical or clinical evidence specific to perphenazine in retinal dystrophy
+- A dedicated retinal safety assessment, given the phenothiazine class signal
+- For the anxiety indication: modern controlled data on perphenazine alone, plus a safety plan for elderly patients
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

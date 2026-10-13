@@ -2,7 +2,7 @@
 layout: default
 title: Captopril
 parent: Moderate Evidence (L3-L4)
-nav_order: 153
+nav_order: 155
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Captopril: From ACE Inhibitor Antihypertensive Use to Malignant Hypertensive Renal Disease
+# Captopril: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Captopril is an ACE inhibitor that acts on the renin-angiotensin system, which regulates blood pressure. The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**. There are **0 registered clinical trials** and only **1 publication** (a case report in which captopril was used as a diagnostic test, not as treatment), so the prediction remains largely computational.
+Captopril is an ACE inhibitor originally used for hypertension and diabetic nephropathy.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but there are **no registered clinical trials** and only **1 publication** (a diagnostic case report), so the evidence is essentially limited to model prediction and mechanistic plausibility.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian license data provided |
+| Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy (the licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.28% |
 | Evidence Level | L4 |
@@ -47,55 +51,75 @@ Captopril is an ACE inhibitor that acts on the renin-angiotensin system, which r
 | Number of DINs | 9 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Captopril belongs to the ACE inhibitor class, which blocks the renin-angiotensin system (RAS).
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, captopril belongs to the ACE inhibitor class. It reduces angiotensin II-mediated vasoconstriction and aldosterone release, and its efficacy in hypertension and diabetic nephropathy is established.
 
-Malignant hypertension with kidney involvement is typically driven by RAS activation. Blocking this pathway is therefore a plausible way to lower blood pressure and protect the kidney. However, this link has not been verified. The single retrieved paper does not test captopril as a treatment.
+Malignant hypertension with renal involvement is a condition in which activation of the renin-angiotensin-aldosterone system (RAAS) is a key driver. This makes ACE inhibition mechanistically plausible. However, this predicted indication largely overlaps with captopril's existing hypertension and kidney-related use. It is better viewed as an extension of an existing indication than as a distinct repurposing opportunity.
+
+Other high-scoring predictions follow similar logic:
+- **Malignant renovascular hypertension** (score 99.28%): strongly angiotensin II-dependent, so ACE inhibition is coherent. The supporting literature is mostly old case reports, reviews and diagnostic papers.
+- **Pulmonary hypertension (two subtypes)** (score 99.15%): supported only by the model score and tangential mechanistic data. ACE inhibitors have not shown reliable benefit in pulmonary arterial hypertension.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case report | Clin Nucl Med | A positive captopril renography (a diagnostic test for renin-dependent hypertension) was caused by a large renal cell carcinoma rather than renal artery stenosis. Hypertension resolved after nephrectomy. Captopril was used as a diagnostic tool, not as therapy. |
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case report | Clinical Nuclear Medicine | A positive captopril renography was found in a patient without renal artery stenosis but with a large chromophobe renal cell carcinoma. Renin-dependent hypertension resolved after nephrectomy. This is a diagnostic use, not evidence of therapeutic benefit. |
+
+---
 
 ## Canada Market Information
 
-The record lists 9 authorizations. The first 5 are shown below. Dosage form and approved indication text are not provided in the record.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 01942964 | TEVA-CAPTOPRIL | Not specified | Not specified |
+| 00893595 | APO-CAPTO TAB 12.5MG | Not specified | Not specified |
+| 01942980 | TEVA-CAPTOPRIL | Not specified | Not specified |
+| 00893625 | APO-CAPTO TAB 100MG | Not specified | Not specified |
+| 00893617 | APO-CAPTO TAB 50MG | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 1942964 | TEVA-CAPTOPRIL |
-| 893595 | APO-CAPTO TAB 12.5MG |
-| 1942980 | TEVA-CAPTOPRIL |
-| 893625 | APO-CAPTO TAB 100MG |
-| 893617 | APO-CAPTO TAB 50MG |
+Nine single-ingredient licences are valid in total. The five above are shown; the others include NOYADA (two licences) and further TEVA-CAPTOPRIL strengths.
+
+---
 
 ## Safety Considerations
 
-- **Renal risk:** ACE inhibitors can precipitate acute renal failure in patients with bilateral renal artery stenosis or stenosis in a solitary kidney. This matters here because the target population has renal involvement.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: kidney disease, liver disease, pancreatitis, gallbladder disease, angioedema (including hereditary and ACE inhibitor-induced forms), systemic lupus erythematosus, diabetes mellitus and diabetic ketoacidosis, neutropenia and agranulocytosis, aortic stenosis and aortic valve disease, hypotensive disorder, hyperparathyroidism, hepatic coma/encephalopathy, connective tissue disease, bone disease, potassium deficiency and hyperuricemia.
+- **Drug Interactions**: The interaction query returned 100 records. Those listed first are mostly Moderate, including:
+  - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+  - Antidiabetic agents (metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide, chlorpropamide, acetohexamide)
+  - Others (bupropion, morphine, acetylsalicylic acid, dronabinol)
+  - Minor interactions: aluminum hydroxide and calcium carbonate
+- **Disease-specific caution**: ACE inhibitors can precipitate acute renal failure in bilateral renal artery stenosis or stenosis of a solitary kidney. This is relevant to the renovascular predictions.
 
-Please refer to the package insert for other safety information (warnings, contraindications). No drug interaction records were found.
+Please refer to the package insert for the official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The 99.28% TxGNN score is not backed by any trial. The only supporting paper is a diagnostic case report, not evidence of therapeutic benefit. Safety screening also cannot start until Health Canada package insert warnings are obtained.
-
-A related prediction, **malignant renovascular hypertension**, has a stronger biological rationale and 20 retrieved publications. These include a 1984 clinical series on captopril in stable and malignant hypertension. Most of the others are reviews, case reports or diagnostic studies. It is flagged as a research question, not a treatment recommendation.
+The prediction score is high (99.28%) and the mechanism is plausible, but there are no clinical trials and the only publication is a diagnostic case report. The indication also largely overlaps with captopril's existing hypertension and nephropathy use, so it offers little distinct repurposing value.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap)
-- Mechanism of action data from DrugBank
-- Approved indication text for the Canadian licenses
-- Therapeutic evidence: a registered trial or controlled clinical studies of captopril in malignant hypertensive renal disease
-- A safety plan for patients with renal artery stenosis
+- Package insert warnings and contraindications from Health Canada, which is a blocking gap for safety screening
+- Detailed mechanism of action data
+- Therapeutic clinical evidence (trials or cohort studies) in malignant hypertension with renal involvement
+- A clear determination of whether this indication is already covered by existing labeling
+- A renal safety plan, including renal artery stenosis screening, renal function and potassium monitoring
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

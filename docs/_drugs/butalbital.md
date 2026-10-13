@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Butalbital
-parent: Moderate Evidence (L3-L4)
-nav_order: 137
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 139
+evidence_level: L5
 indication_count: 8
 ---
 
 # Butalbital
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-# Butalbital: From Headache Combination Analgesic to Visual Epilepsy
+# Butalbital: From Tension Headache to Visual Epilepsy
 
 ## One-Sentence Summary
 
-Butalbital is a barbiturate marketed in Canada mainly as a component of combination analgesic products (for example Fiorinal and Teva-Tecnal), which the literature links to headache treatment.
-The TxGNN model predicts it may be effective for **visual epilepsy**, but there are **0 clinical trials** and only **5 publications** (case reports, case series and one drug-monitoring study), none of which tests butalbital as a seizure treatment.
-The literature instead shows that stopping butalbital abruptly can cause seizures.
+Butalbital is a barbiturate marketed in Canada only in fixed-dose combination products, which are generally used for tension headache. The TxGNN model predicts it may be effective for **visual epilepsy**, but **no clinical trials** and only **5 publications** (none evaluating efficacy) are available. Most of these publications are case reports of withdrawal seizures, which are a safety signal rather than supporting evidence.
 
 ---
 
@@ -43,9 +41,10 @@ The literature instead shows that stopping butalbital abruptly can cause seizure
 
 | Item | Content |
 |------|------|
+| Original Indication | Not listed in the Canadian license data compiled for this report (butalbital combinations are generally used for tension headache) |
 | Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 11 |
 | Recommended Decision | Hold |
@@ -54,11 +53,11 @@ The literature instead shows that stopping butalbital abruptly can cause seizure
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this record. Butalbital is a barbiturate, and barbiturates as a class enhance GABA-A receptor activity, which suppresses neuronal firing. Phenobarbital is a well-known example of a barbiturate used against seizures, so a class-level anticonvulsant effect is plausible for butalbital.
+Butalbital is a barbiturate. Barbiturates enhance the effect of GABA at GABA-A receptors, prolonging chloride channel opening and strengthening inhibitory neurotransmission. This is a plausible anticonvulsant mechanism, shared with phenobarbital. Detailed mechanism of action data for butalbital itself is not available in the data compiled for this report, so this reasoning relies on class-level knowledge.
 
-The original use (headache) and the predicted use (a reflex epilepsy triggered by visual stimuli) are different conditions, and the only link between them is this shared GABAergic pharmacology. The very high TxGNN score most likely reflects that seizure and GABA neighborhood in the knowledge graph. It does not reflect direct evidence that butalbital works in visual epilepsy.
+The link between the original and predicted indications is weak. Butalbital is used in combination with acetaminophen or aspirin and caffeine (sometimes with codeine) for headache, and it has no established antiepileptic indication. The very high TxGNN score most likely reflects its similarity to anticonvulsant barbiturates rather than direct evidence. None of the retrieved literature evaluates butalbital as a treatment for visual (photosensitive) epilepsy.
 
-The same model also ranks seven other reflex or stimulus-triggered seizure types with scores of 99.06% to 99.15%: micturition-induced, thinking, audiogenic, eating, startle, orgasm-induced and reading seizures. Two of them (micturition-induced seizures and visual epilepsy) have some retrieved literature, all of it about withdrawal seizures. The other six have no trials or publications, so they are supported by model prediction alone (L5). The consistent scores across this cluster suggest a shared class-level signal rather than indication-specific evidence.
+The same model also predicts butalbital for seven other seizure types, all with scores of about 99%. These are micturition-induced seizures, thinking seizures, audiogenic seizures, eating seizures, startle epilepsy, orgasm-induced seizures and reading seizures. None has clinical trial support, and the literature is minimal or absent. The predictions therefore appear to be a class-level signal across rare reflex epilepsies.
 
 ---
 
@@ -72,38 +71,45 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26565790](https://pubmed.ncbi.nlm.nih.gov/26565790/) | 2015 | Retrospective cohort | Ther Drug Monit | Therapeutic drug monitoring of **pentobarbital** (not butalbital), used for intractable seizures and raised intracranial pressure |
-| [15262744](https://pubmed.ncbi.nlm.nih.gov/15262744/) | 2004 | Case report | Arch Neurol | Barbiturate withdrawal after unsupervised Internet purchase of Fioricet |
-| [8742687](https://pubmed.ncbi.nlm.nih.gov/8742687/) | 1996 | Case series | Headache | Three migraine patients dependent on butalbital had grand mal seizures and behavioral disorder during withdrawal |
-| [10349206](https://pubmed.ncbi.nlm.nih.gov/10349206/) | 1998 | Case report | Ann Ital Med Int | Barbiturate withdrawal (anxiety, tremor, seizures, psychosis) linked to abuse of a headache medication |
-| [10431323](https://pubmed.ncbi.nlm.nih.gov/10431323/) | 1999 | Case report | Schweiz Med Wochenschr | Intractable vomiting, convulsions and megaloblastic anemia in a 43-year-old woman, where the medication history was the key to diagnosis |
-| [34790421](https://pubmed.ncbi.nlm.nih.gov/34790421/) | 2021 | Case report | Case Rep Psychiatry | Severe Fioricet withdrawal presenting as new-onset psychosis in an inpatient psychiatric unit |
+| [26565790](https://pubmed.ncbi.nlm.nih.gov/26565790/) | 2015 | Cohort | Ther Drug Monit | Therapeutic drug monitoring of pentobarbital (a different barbiturate), which is used for intractable seizures. Not about butalbital. |
+| [8742687](https://pubmed.ncbi.nlm.nih.gov/8742687/) | 1996 | Case series | Headache | Three migraine patients with butalbital dependence developed grand mal seizures and behavioural disorder during withdrawal. |
+| [15262744](https://pubmed.ncbi.nlm.nih.gov/15262744/) | 2004 | Case report | Arch Neurol | Barbiturate withdrawal after Internet purchase of Fioricet (a butalbital combination). |
+| [10431323](https://pubmed.ncbi.nlm.nih.gov/10431323/) | 1999 | Case report | Schweiz Med Wochenschr | Intractable vomiting, convulsions and megaloblastic anaemia, where the medication history was the key to diagnosis. |
+| [10349206](https://pubmed.ncbi.nlm.nih.gov/10349206/) | 1998 | Case report | Ann Ital Med Int | Barbiturate withdrawal syndrome (anxiety, insomnia, tremor, seizures, psychosis) linked to abuse of a headache medication. |
 
-**Note:** The first five papers were retrieved for visual epilepsy and five for micturition-induced seizures, with the pentobarbital study and four case reports appearing in both sets. PMID 34790421 was retrieved only for micturition-induced seizures. None reports butalbital efficacy in any epilepsy. Their consistent finding is that butalbital dependence and withdrawal can provoke seizures.
+For the other predicted seizure types, the only additional publication was a 2021 case report of severe Fioricet withdrawal in an inpatient psychiatric unit ([34790421](https://pubmed.ncbi.nlm.nih.gov/34790421/)), which again describes harm rather than benefit.
 
 ---
 
 ## Canada Market Information
 
-Showing 5 of 11 authorizations. Dosage form and approved indication text are not available in the current records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 01971409 | TRIANAL TABLET | Not specified | Not specified |
+| 00608238 | TEVA-TECNAL | Not specified | Not specified |
+| 02554690 | APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE | Not specified | Not specified |
+| 00608211 | TEVA-TECNAL | Not specified | Not specified |
+| 00226327 | FIORINAL | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 1971409 | TRIANAL TABLET |
-| 608238 | TEVA-TECNAL |
-| 2554690 | APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE |
-| 608211 | TEVA-TECNAL |
-| 226327 | FIORINAL |
+Six further valid products are also licensed. They include other TEVA-TECNAL C, FIORINAL-C and APO-BUTALBITAL-codeine combination strengths.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found.
-
-The retrieved literature raises these signals:
-- **Dependence and tolerance:** butalbital-containing products can cause physical and psychological dependence.
-- **Withdrawal seizures:** abrupt discontinuation can provoke grand mal seizures, psychosis and behavioral changes, typically within days of stopping. This is directly relevant to any use in a seizure disorder.
+- **Disease contraindications from the knowledge graph (not label text):** The TxGNN knowledge graph lists many conditions as contraindicated or cautioned with butalbital. They include:
+  - Hepatic: liver failure, liver disease, hepatic coma and hepatic encephalopathy
+  - Renal and metabolic: kidney disease, porphyria and other porphyrin metabolism disorders, hypothyroidism and gout
+  - Respiratory and neurological: COPD, epilepsy and insomnia
+  - Psychiatric: anxiety and neurotic disorders, and dysthymic disorder
+  - Blood: thrombocytopenia, neutropenia and agranulocytosis
+  - Cardiovascular: hypertension and hypotensive disorders
+  - Gastrointestinal and urological: peptic ulcer disease, inflammatory bowel disease, gallbladder disease and benign prostatic hyperplasia
+- **Dependence and withdrawal:** The retrieved case reports show that butalbital can cause tolerance and dependence. Abrupt discontinuation can cause withdrawal seizures, psychosis and, in severe cases, death. This is especially relevant for an anticonvulsant use.
+- **Drug interactions:** The interaction screen returned 100 interactions in total. The main ones shown include:
+  - **Major:** morphine (including liposomal morphine)
+  - **Moderate:** corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, triamcinolone), doxycycline, metronidazole, bupropion, aprepitant, dronabinol, opium, canagliflozin and vitamin D analogues
+  - **Minor:** pyridoxine
 
 ---
 
@@ -112,14 +118,13 @@ The retrieved literature raises these signals:
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score and class-level GABAergic pharmacology only. There are no clinical trials, and the available literature shows butalbital causing seizures on withdrawal rather than treating them. The dependence liability argues against repurposing.
+The prediction rests on the TxGNN model alone (Evidence Level L5), with no clinical trials and no publications showing that butalbital treats visual epilepsy. The available literature documents seizures on withdrawal and dependence, which argues against repurposing. Better-established anticonvulsant barbiturates and other antiseizure drugs already exist.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Preclinical or clinical evidence that butalbital reduces seizures in visual epilepsy or other reflex epilepsies
-- A dependence and withdrawal risk assessment for chronic use in a seizure population
-- A comparison against established anticonvulsants, including phenobarbital
+- Health Canada product monograph warnings and contraindications, which are missing and block safety screening
+- Detailed mechanism of action data, for example from DrugBank
+- Preclinical or clinical evidence that butalbital suppresses photosensitive or other reflex seizures
+- A risk-benefit analysis of dependence and withdrawal seizures against existing antiseizure therapies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

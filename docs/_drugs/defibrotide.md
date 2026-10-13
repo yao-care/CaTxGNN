@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Defibrotide
-parent: Model Prediction Only (L5)
-nav_order: 255
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 257
+evidence_level: L4
 indication_count: 10
 ---
 
 # Defibrotide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,90 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Defibrotide: From Hepatic Veno-Occlusive Disease to Pseudo-von Willebrand Disease
+# Defibrotide: From Hepatic Veno-Occlusive Disease to Thrombotic Thrombocytopenic Purpura
 
 ## One-Sentence Summary
 
-Defibrotide is an endothelial-protective, profibrinolytic, antithrombotic oligonucleotide, marketed in Canada as DEFITELIO. The TxGNN model predicts it may be effective for **pseudo-von Willebrand disease** with a very high score, but **0 clinical trials** and **0 publications** support this prediction. Because the mechanism points in the opposite direction from what this bleeding disorder needs, the recommendation is **Hold**.
-
-*Note: The Evidence Pack has no approved-indication text for the Canadian licence. Hepatic veno-occlusive disease is used as the original indication based on general knowledge of the drug and on the linked prevention trial for that condition.*
-
----
+Defibrotide was originally used to treat hepatic veno-occlusive disease (VOD), including the form associated with immunodeficiency syndrome.
+The TxGNN model predicts it may be effective for **thrombotic thrombocytopenic purpura (TTP)**, the best-supported of its predicted new indications.
+No clinical trials are registered, and **8 publications** (mostly case reports, narrative reviews and one in vitro study) provide only early, indirect support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic veno-occlusive disease (not stated in the Evidence Pack; see note above) |
-| Predicted New Indication | Pseudo-von Willebrand disease |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 |
+| Original Indication | Hepatic veno-occlusive disease; hepatic veno-occlusive disease-immunodeficiency syndrome |
+| Predicted New Indication | Thrombotic thrombocytopenic purpura |
+| TxGNN Prediction Score | 99.71% |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (treat as a research question) |
 
----
+Note: The top-ranked predictions (pseudo-von Willebrand disease at 99.91%, primary release disorder of platelets at 99.91%, and Glanzmann thrombasthenia at 99.88%) have no supporting evidence (L5). TTP was selected for detailed review because it is the highest-ranked prediction with any published evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Defibrotide is generally described as an endothelial-protective agent with profibrinolytic and antithrombotic activity. Its effects include increased t-PA activity and reduced PAI-1.
+Detailed mechanism of action data is not currently available. Based on known information, defibrotide is an endothelial-protective, profibrinolytic oligonucleotide mixture. Its efficacy in hepatic VOD is tied to protecting the small-vessel endothelium, and mechanistically this may be applicable to other microvascular thrombotic conditions.
 
-The prediction is not mechanistically convincing. Pseudo-von Willebrand disease is a bleeding disorder caused by a platelet GPIb gain-of-function defect. A drug that promotes fibrinolysis and inhibits thrombosis has no plausible therapeutic rationale here and could worsen bleeding. The high TxGNN score most likely reflects network-level associations in the knowledge graph rather than a real biological link. No supporting clinical or literature evidence was found.
+Hepatic VOD and thrombotic microangiopathies share endothelial injury and microvascular thrombosis. Defibrotide reduces endothelial activation and prothrombotic signalling and enhances fibrinolysis. An in vitro study (PMID 37001283) found that it mitigated endothelial cell injury caused by plasma from patients with COVID-19 and related vasculopathies, including TTP-like conditions.
 
----
+There are important limits. Most of the published evidence concerns transplant-associated thrombotic microangiopathy (TA-TMA), not classic ADAMTS13-deficient TTP. One report also describes TTP occurring after defibrotide therapy. The mechanistic link is therefore plausible but unproven.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [11960280](https://pubmed.ncbi.nlm.nih.gov/11960280/) | 2002 | Case series | Bone Marrow Transplant | Defibrotide described as a promising treatment for TTP in bone marrow transplant patients |
+| [10775024](https://pubmed.ncbi.nlm.nih.gov/10775024/) | 2000 | Case report | Clin Appl Thromb Hemost | Defibrotide used in recurrent TTP, a condition with difficult long-term management |
+| [3754836](https://pubmed.ncbi.nlm.nih.gov/3754836/) | 1986 | Clinical observation | Haemostasis | Effects of defibrotide in acute renal failure due to thrombotic microangiopathy |
+| [7896218](https://pubmed.ncbi.nlm.nih.gov/7896218/) | 1994 | Case report | Haematologica | TTP occurring after defibrotide therapy (safety signal) |
+| [37001283](https://pubmed.ncbi.nlm.nih.gov/37001283/) | 2023 | In vitro study | Thromb Res | Defibrotide mitigated endothelial injury induced by plasma from COVID-19 and related vasculopathy patients |
+| [30305540](https://pubmed.ncbi.nlm.nih.gov/30305540/) | 2018 | Review | Rinsho Ketsueki | Management of transplant-associated thrombotic microangiopathy |
+| [19228075](https://pubmed.ncbi.nlm.nih.gov/19228075/) | 2009 | Review | Drugs | Diagnosis and treatment of TA-TMA after haematopoietic stem cell transplantation |
+| [17603513](https://pubmed.ncbi.nlm.nih.gov/17603513/) | 2007 | Review | Bone Marrow Transplant | Diagnosis and treatment of TA-TMA; progress hampered by lack of consensus definition |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2465981 | DEFITELIO |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02465981 | DEFITELIO | Not specified | Not specified |
 
 ## Safety Considerations
 
-- **Bleeding risk**: Defibrotide's antithrombotic and profibrinolytic activity raises a bleeding-risk concern in a disorder that is already characterised by bleeding.
+- **Drug Interactions**: 100 interactions were identified in the interaction database, and the 20 reviewed include many classified as Major. Major interactions listed include:
+  - Acetylsalicylic acid
+  - Deferasirox
+  - Fondaparinux
+  - Alteplase
+  - Abciximab
+  - Acalabrutinib
+  - Anagrelide
+  - Ibritumomab tiuxetan
+  - Tositumomab (including the I-131 form)
 
-Please refer to the package insert for full warnings, contraindications and drug interactions.
+  Moderate interactions include ibuprofen, ketorolac, celecoxib, topical diclofenac, omega-3 fatty acids, fluvoxamine, fenfluramine, dexfenfluramine and sibutramine. Most of these involve additive bleeding risk with antiplatelet, anticoagulant, thrombolytic or NSAID agents.
+- **Disease-specific signal**: One case report (PMID 7896218) describes TTP after defibrotide therapy. For the bleeding-type predictions, defibrotide's antithrombotic and profibrinolytic activity could worsen haemorrhage.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. Defibrotide's mechanism is opposed to the clinical need in pseudo-von Willebrand disease, and no trials or publications support the link.
-
-**Other candidates in the same prediction set:**
-- **Thrombotic thrombocytopenic purpura (rank 4)** is the only candidate with meaningful literature. It has small case series and reports from 1984–2002 and reviews of transplant-associated thrombotic microangiopathy, so the evidence level is L3. There is no RCT. One report describes TTP occurring after defibrotide therapy, which is a safety signal. This is a Research Question, not a recommendation.
-- **Primary release disorder of platelets (rank 2)** is linked to NCT02851407, a Phase 3 trial (n=372, completed) of hepatic VOD prevention after stem cell transplant. This trial does not study the predicted disease and is likely a spurious match.
+The TTP prediction is scored highly by the model, but the evidence is limited to small case-level reports, narrative reviews and in vitro data, with no registered trials. Most of it relates to transplant-associated thrombotic microangiopathy rather than classic TTP. A TTP-after-defibrotide report and a substantial bleeding-interaction burden add safety concerns. The other top-ranked predictions are bleeding or platelet disorders with no evidence and a plausible risk of harm, and should not be pursued.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data from DrugBank
-- For TTP or transplant-associated TMA: a prospective study with safety monitoring, positioned only for refractory cases beyond standard care (plasma exchange, caplacizumab, rituximab)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- A focused literature review separating TA-TMA from ADAMTS13-deficient TTP
+- Prospective or well-designed observational data in the target population
+- A bleeding-risk and interaction management plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

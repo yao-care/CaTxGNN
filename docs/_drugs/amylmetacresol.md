@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amylmetacresol: From Sore Throat Relief to Cauda Equina Syndrome
+# Amylmetacresol: From Throat Antiseptic Lozenges to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Amylmetacresol is a topical antiseptic used in throat lozenges. The licence records do not state an approved indication, but the product names point to sore throat relief.
-The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+Amylmetacresol is a locally acting antiseptic marketed in Canada in throat lozenges (the Health Canada licence data compiled for this report does not list a formal approved-indication text).
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records (product names indicate throat lozenges for sore throat) |
+| Original Indication | Not stated in the licence data (marketed as an antibacterial throat lozenge) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -50,9 +50,25 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, amylmetacresol is a locally acting antiseptic in throat lozenges. It shows in vitro antibacterial and antiviral activity in the oropharynx and is not used systemically.
+Currently, detailed mechanism of action data is not available. Amylmetacresol is known as a topical antiseptic used in throat lozenges. Its pharmacological action in cauda equina syndrome has not been established.
 
-No plausible pathway links this activity to cauda equina syndrome, a compressive neurological condition. The prediction score is high (99.99%), but it comes from the model alone, and no mechanistic or similarity analysis supports it. The remaining nine predictions have the same problem. They include obsolete neurogenic bladder, irritable bowel syndrome and a cluster of uveal-tract diseases (ciliary body disease, panuveitis, iris disease, uveitis and others). The uveal cluster likely reflects a shared graph-neighbourhood artifact rather than independent signals.
+The link between the original use (local oropharyngeal infection and soreness) and the predicted indication is weak. Cauda equina syndrome is a compressive neurological condition of the lower spinal nerve roots. A mild local anaesthetic-like effect (possibly sodium channel blockade) is speculative and would not plausibly address nerve compression. The high score most likely reflects proximity in the knowledge graph rather than a verified pharmacological rationale.
+
+Other top-ranked predictions are also unsupported by evidence:
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level |
+|---|---|---|---|
+| 2 | Neurogenic bladder (obsolete ontology term) | 99.96% | L5 |
+| 3 | Irritable bowel syndrome | 99.89% | L5 |
+| 4 | Ciliary body disease | 99.70% | L5 |
+| 5 | Panuveitis | 99.68% | L5 |
+| 6 | Iris disease | 99.63% | L5 |
+| 7 | Infectious anterior uveitis | 99.57% | L5 |
+| 8 | Uveitis | 99.53% | L5 |
+| 9 | Ciliary body cancer | 99.46% | L5 |
+| 10 | Benign neoplasm of ciliary body | 99.45% | L5 |
+
+The only weakly plausible rationale among these is infectious anterior uveitis, based on in vitro antibacterial and antiviral activity. There is no evidence of intraocular penetration, efficacy or ocular safety, and established pathogen-directed therapy is far better supported.
 
 ## Clinical Trial Evidence
 
@@ -64,31 +80,31 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2375567 | ANTIBACTERIAL THROAT LOZENGES |
-| 2382938 | CEPACOL SENSATIONS |
-| 2404982 | CEPACOL CHILDREN'S FRUITY STRAWBERRY |
-| 2388642 | CEPACOL SENSATIONS SORE THROAT & COUGH |
-| 2382881 | CEPACOL SENSATIONS SORE THROAT & BLOCKED NOSE |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02375567 | Antibacterial Throat Lozenges | Not stated | Not stated |
+| 02382938 | Cepacol Sensations | Not stated | Not stated |
+| 02404982 | Cepacol Children's Fruity Strawberry | Not stated | Not stated |
+| 02388642 | Cepacol Sensations Sore Throat & Cough | Not stated | Not stated |
+| 02382881 | Cepacol Sensations Sore Throat & Blocked Nose | Not stated | Not stated |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+Please refer to the package insert for safety information. No drug interactions were found in the data compiled for this report, and no disease-level contraindications were identified from the knowledge graph.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on the TxGNN model score (L5). There are no trials or publications, no mechanistic link, and no plausible route from a topical throat antiseptic to a compressive neurological condition.
+The prediction rests only on a graph-based score, with no clinical trials, no publications and no plausible mechanism linking a throat antiseptic to cauda equina syndrome. Safety and mechanism data are also missing.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (for example from DrugBank) to test whether any biological link exists
-- Approved indication text for the licensed products
-- Route compatibility assessment (lozenge vs. the systemic or local route the new indication would require)
-- Any preclinical or clinical evidence for the predicted indication
+- Mechanism of action data for amylmetacresol (for example from DrugBank)
+- Package insert warnings and contraindications from Health Canada
+- Preclinical or mechanistic evidence for any candidate indication
+- Remapping of the obsolete neurogenic bladder term to a current disease concept, if that candidate is pursued
+- Assessment of route compatibility, since the current products are oral lozenges and the predicted indications would need different routes of delivery
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

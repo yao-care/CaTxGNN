@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ceftazidime
-parent: Moderate Evidence (L3-L4)
-nav_order: 165
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 167
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ceftazidime
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,33 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ceftazidime: From Antibacterial Therapy to Hyperamylasemia
+# Ceftazidime: From Bacterial Infections to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Ceftazidime is a third-generation cephalosporin antibiotic that is marketed in Canada.
-The TxGNN model predicts it may be effective for **Hyperamylasemia**, but there are **0 registered clinical trials** and only **1 publication**, and that publication does not clearly test ceftazidime.
+Ceftazidime is a third-generation cephalosporin antibiotic, used to treat bacterial infections such as pneumonia, meningitis and peritonitis.
+The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+It is a graph-based computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Bacterial infections (e.g. streptococcal infection, bacterial pneumonia, peritonitis, bacterial meningitis). Product-level indication text is not available in the Canadian licence records, so this comes from the knowledge-graph indication list. |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.51% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Ceftazidime is known as a third-generation cephalosporin that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It is active against Enterobacterales and *Pseudomonas aeruginosa*.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, ceftazidime belongs to the cephalosporin class of antibiotics, which kill bacteria by blocking cell wall synthesis. Its efficacy in bacterial infections is well established.
 
-Hyperamylasemia is a laboratory finding, not an infection. It most often reflects pancreatitis. The only link in the evidence is a 2001 report that routine antibiotic prophylaxis lowered post-ERCP pancreatitis. It is not clear that ceftazidime was the agent tested. No ceftazidime-specific mechanism explains a benefit in hyperamylasemia.
+Hyperamylasemia means elevated amylase in the blood. It is a laboratory finding rather than an infection. No plausible antibacterial mechanism links ceftazidime to this condition. The high score (99.51%) reflects patterns in the knowledge graph and is not supported by any trial or publication, so the prediction should be treated as a computational artefact until proven otherwise.
 
-The very high TxGNN score is therefore not backed by clinical data. It is best read as a knowledge-graph association, not a mechanistic or clinical signal.
+For context, other predictions for this drug have more support. The best-supported one is **urinary tract infection** (TxGNN score 99.41%, Evidence Level L2). It is backed by a completed Phase 2 randomized trial (NCT00921024) and several ceftazidime-avibactam studies. It is largely an on-label or near-label use rather than true repurposing. It is not the lead prediction evaluated here, and a separate evaluation would be appropriate.
 
 ## Clinical Trial Evidence
 
@@ -61,39 +63,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11985972](https://pubmed.ncbi.nlm.nih.gov/11985972/) | 2001 | Prospective study (antibiotic prophylaxis in ERCP) | Journal of Gastrointestinal Surgery | Reports that routine antibiotics reduced post-ERCP pancreatitis. Whether ceftazidime specifically was used is unverified. |
+Currently no related literature available.
 
 ## Canada Market Information
 
-Six DINs are recorded for ceftazidime. Five are listed below; the pack gives no dosage form or approved indication text for them.
+Dosage form and approved-indication text are not available in the licence records compiled for this report.
 
 | DIN | Product Name |
 |---------|------|
-| 2437848 | Ceftazidime for Injection BP |
-| 886955 | Ceftazidime for Injection, USP |
-| 2437856 | Ceftazidime for Injection BP |
-| 2437864 | Ceftazidime for Injection BP |
-| 886971 | Ceftazidime for Injection, USP |
+| 02437848 | Ceftazidime for Injection BP |
+| 00886955 | Ceftazidime for Injection, USP |
+| 02437856 | Ceftazidime for Injection BP |
+| 02437864 | Ceftazidime for Injection BP |
+| 00886971 | Ceftazidime for Injection, USP |
+
+Six single-ingredient licences are valid in total (0 cancelled); the table shows the first five.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / disease cautions (from the knowledge graph, not label text)**: kidney disease, pyoureter, liver disease, gallbladder disease, blood coagulation disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, congenital prothrombin deficiency.
+- **Drug Interactions**: 100 interactions were recorded. The ones rated Moderate are:
+  - amphotericin B (including cholesteryl sulfate, lipid complex and liposomal forms)
+  - the aminoglycosides kanamycin, neomycin and streptomycin
+  - picosulfuric acid
+
+  Several others (e.g. vancomycin, omeprazole, metformin, morphine) have an unclassified severity.
+
+Please refer to the package insert for official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on one indirect, 25-year-old publication with no registered trials and no plausible drug-specific mechanism. Hyperamylasemia is a laboratory finding, so it is not a clear therapeutic target for an antibiotic.
+The prediction has no clinical, trial or literature support (Evidence Level L5). No biologically plausible mechanism links an antibiotic to an elevated amylase level.
 
 **To proceed, the following is needed:**
-- Confirm whether ceftazidime was actually the agent in PMID 11985972 and what outcomes were measured
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data (MOA)
-- Confirmation of the currently labelled indications, which are missing from the Evidence Pack
-- Other predicted indications with better support, such as complicated urinary tract infection and chronic suppurative otitis media, could be assessed separately. Much of the recent urinary tract infection evidence involves ceftazidime-avibactam rather than ceftazidime alone.
+- A plausible mechanistic hypothesis, which is currently missing (and detailed MOA data)
+- Any clinical or observational evidence, which would need to be generated or identified
+- Review of the official package insert warnings and contraindications
+- Consideration of the better-supported urinary tract infection prediction as a separate, higher-priority candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Desoximetasone
 parent: High Evidence (L1-L2)
-nav_order: 264
+nav_order: 266
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Desoximetasone: From Topical Corticosteroid Therapy to Alopecia Areata
+# Desoximetasone: From Inflammatory Skin Conditions to Alopecia Areata
 
 ## One-Sentence Summary
 
-Desoximetasone is a topical corticosteroid marketed in Canada as TOPICORT.
+Desoximetasone is a potent topical corticosteroid originally used for inflammatory skin conditions such as eczema, dermatitis and discoid lupus erythematosus.
 The TxGNN model predicts it may be effective for **alopecia areata**,
-with **0 registered clinical trials** and **1 publication** (a randomized, double-blind, placebo-controlled trial) currently supporting this direction.
+with **no registered clinical trials** and **1 publication** (a randomized, double-blind, placebo-controlled trial) currently supporting this direction.
 
 ---
 
@@ -43,23 +43,23 @@ with **0 registered clinical trials** and **1 publication** (a randomized, doubl
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the source data (topical corticosteroid) |
+| Original Indication | Inflammatory skin conditions, including atopic eczema, contact dermatitis, seborrheic dermatitis and discoid lupus erythematosus (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L2 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, desoximetasone is a topical corticosteroid. Corticosteroids are established anti-inflammatory and immunosuppressive agents, and mechanistically it may be applicable to alopecia areata.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, desoximetasone is a topical corticosteroid. Its pharmacology record lists the glucocorticoid receptor (NR3C1) as its target. Drugs of this class have anti-inflammatory and immunosuppressive activity.
 
-Alopecia areata is an autoimmune disease in which T cells attack hair follicles. Topical glucocorticoids are an established anti-inflammatory approach for it. The TxGNN score is very high (0.999), and the one supporting publication tested desoximetasone 0.25% cream directly in alopecia areata.
+Alopecia areata is a T-cell-mediated autoimmune disease in which immune cells attack the hair follicle. Topical corticosteroids are an established treatment class for it, because they suppress the inflammation around the follicle. The drug's original indications (eczema, dermatitis, lupus erythematosus and others) are also inflammatory or immune-driven skin diseases. This makes the prediction mechanistically consistent. Note that this link rests on the general class mechanism, not on drug-specific mechanism data.
 
-The other nine predictions for this drug (alopecia mucinosa, telogen effluvium, folliculitis decalvans, and others) have no trials or literature behind them. Most appear to reflect hair-loss proximity in the knowledge graph rather than a therapeutic mechanism. Alopecia areata is the only prediction with direct clinical evidence.
+Other predictions for this drug are weaker. Alopecia mucinosa, folliculitis decalvans and primary cutaneous B-cell lymphoma have some plausibility but no direct evidence. Predictions for genetic hair disorders and for telogen effluvium have little mechanistic support.
 
 ---
 
@@ -73,44 +73,44 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11030789](https://pubmed.ncbi.nlm.nih.gov/11030789/) | 2000 | RCT | Archives of Dermatology | Randomized, double-blind, placebo-controlled trial of 0.25% desoximetasone cream in alopecia areata. No abstract was supplied, so outcome data could not be summarized. |
+| [11030789](https://pubmed.ncbi.nlm.nih.gov/11030789/) | 2000 | RCT | Archives of Dermatology | Randomized, double-blind, placebo-controlled trial of 0.25% desoximetasone cream in alopecia areata (no abstract available, so results are not summarized here) |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2221918 | TOPICORT |
-| 2221926 | TOPICORT |
-| 2221934 | TOPICORT |
-| 2221896 | TOPICORT |
-
-Dosage form and approved indication text were not supplied for these authorizations.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02221918 | TOPICORT | Not specified | Not specified |
+| 02221926 | TOPICORT | Not specified | Not specified |
+| 02221934 | TOPICORT | Not specified | Not specified |
+| 02221896 | TOPICORT | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from the TxGNN knowledge graph, not from label text): hypopituitarism and related pituitary hormone deficiencies, hypogonadotropic hypogonadism (including Kallmann syndrome), Sheehan syndrome, thymus gland disease, skin atrophy, and peripheral vascular or arterial disease. These should be checked against the official product monograph.
+- **Drug Interactions**: The interaction query returned only a pharmacological target record (glucocorticoid receptor, NR3C1). No drug-drug interactions were identified.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-One published RCT directly tests desoximetasone in alopecia areata, and the mechanism is plausible. However, no registered trials exist, and the RCT's results are not available in the supplied data. The Canadian package insert warnings and contraindications are also missing, which blocks safety screening.
+One randomized, double-blind, placebo-controlled trial of desoximetasone 0.25% cream in alopecia areata exists, and the mechanism fits the known class action of topical corticosteroids. However, the trial's results could not be reviewed, no clinical trials are registered, and the safety data are incomplete. The other nine predicted indications have prediction-only or indirect evidence and should stay on Hold.
 
 **To proceed, the following is needed:**
-- Canadian package insert (warnings, contraindications) for safety screening
-- Full text of the 2000 RCT (PMID 11030789) to confirm efficacy and adverse-event results
-- Detailed mechanism of action data (MOA) from DrugBank
-- Confirmation that the marketed TOPICORT formulations and routes suit scalp application
-- A search of trial registries (including ICTRP) for additional alopecia areata studies of desoximetasone
-
-*This report is for research reference only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any application.*
+- Review of the full text of the 2000 RCT (PMID 11030789) to confirm efficacy, effect size and safety
+- Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)
+- Dosage form and approved indication details for the four TOPICORT DINs
+- Confirmation that the available strengths and formulations suit scalp or hair-bearing skin
+- Drug-specific mechanism of action data
+- A monitoring plan for local adverse effects such as skin atrophy, and for systemic absorption with prolonged use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

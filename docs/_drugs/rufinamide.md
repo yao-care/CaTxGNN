@@ -2,7 +2,7 @@
 layout: default
 title: Rufinamide
 parent: Model Prediction Only (L5)
-nav_order: 821
+nav_order: 828
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Rufinamide: From Seizure Disorders to Febrile Infection-Related Epilepsy Syndrome
+# Rufinamide: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
 
 ## One-Sentence Summary
 
-Rufinamide is marketed in Canada, and the supplied record does not list its approved indication. It is generally known as an anti-seizure drug.
-The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it so far.
+Rufinamide is an antiseizure medication originally used to treat Lennox-Gastaut syndrome.
+The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**,
+but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
 
@@ -42,7 +43,7 @@ The TxGNN model predicts it may be effective for **febrile infection-related epi
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the supplied record (generally known as an anti-seizure drug) |
+| Original Indication | Lennox-Gastaut syndrome |
 | Predicted New Indication | Febrile infection-related epilepsy syndrome |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 |
@@ -50,15 +51,26 @@ The TxGNN model predicts it may be effective for **febrile infection-related epi
 | Number of DINs | 5 |
 | Recommended Decision | Hold |
 
+Note: the Canadian licence records compiled for this report contain no approved-indication text. The original indication is therefore taken from the drug-disease knowledge graph, which lists Lennox-Gastaut syndrome (and also cutis verticis gyrata).
+
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Rufinamide is generally known as a sodium-channel modulator used as an anti-seizure drug. This is background knowledge, not from the supplied data. Its efficacy in its marketed seizure indication would make refractory seizures a plausible target. The prediction likely comes from rufinamide's position among other epilepsy drugs in the knowledge graph.
+Detailed mechanism of action data is not currently available. Based on general knowledge, rufinamide is an antiseizure medication that is widely understood to prolong the inactive state of voltage-gated sodium channels. It is approved for Lennox-Gastaut syndrome, a severe childhood epileptic encephalopathy.
 
-FIRES is a severe epilepsy syndrome with refractory seizures. It is thought to be driven by neuroinflammation, so a sodium-channel mechanism alone may not address the core disease process. The mechanistic link is therefore uncertain and unverified.
+FIRES is also a severe, treatment-resistant epileptic encephalopathy. However, neuroinflammation is thought to play a major role in it, so a sodium-channel mechanism alone gives only a plausible but unproven link. The high TxGNN score (0.996) reflects the drug's closeness to other epilepsy conditions in the knowledge network. It is not clinical evidence.
 
-Four other epilepsy-related predictions also scored above 99.4%: perioral myoclonia with absences, atypical childhood epilepsy with centrotemporal spikes, cryptogenic late-onset epileptic spasms, and photosensitive occipital lobe epilepsy. All are L5 with no clinical evidence. Sodium-channel blockers can aggravate some absence-type syndromes, so the plausibility of at least one of these predictions is also uncertain.
+Other predicted indications also have no supporting studies. They are listed below for reference:
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level |
+|------|------|------|------|
+| 2 | Perioral myoclonia with absences | 99.51% | L5 |
+| 3 | Atypical childhood epilepsy with centrotemporal spikes | 99.44% | L5 |
+| 4 | Cryptogenic late-onset epileptic spasms | 99.44% | L5 |
+| 5 | Photosensitive occipital lobe epilepsy | 99.44% | L5 |
+
+For atypical childhood epilepsy with centrotemporal spikes, sodium-channel blockers can aggravate some of these syndromes. This would need careful consideration in any future evaluation.
 
 ---
 
@@ -76,19 +88,30 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2369613 | BANZEL |
-| 2369621 | BANZEL |
-| 2369648 | BANZEL |
-| 2545985 | AURO-RUFINAMIDE |
-| 2545993 | AURO-RUFINAMIDE |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02545985 | AURO-RUFINAMIDE | Not specified | Not specified |
+| 02369613 | BANZEL | Not specified | Not specified |
+| 02369648 | BANZEL | Not specified | Not specified |
+| 02369621 | BANZEL | Not specified | Not specified |
+| 02545993 | AURO-RUFINAMIDE | Not specified | Not specified |
+
+All five licences are valid single-ingredient products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these come from network associations, not from package insert text): liver failure, liver disease, gallbladder disease, leukopenia, anxiety disorder, neurotic disorder, dysthymic disorder.
+- **Drug Interactions**: 100 interactions were identified, and the 20 reviewed here were all rated Moderate. They include:
+  - Corticosteroids: hydrocortisone, prednisone, betamethasone, triamcinolone
+  - Vitamin D analogues: cholecalciferol, calcifediol, calcitriol
+  - Opioids and related agents: morphine, difenoxin, diphenoxylate
+  - Cannabinoids: dronabinol, nabilone
+  - Antiemetics and prokinetics: ondansetron, metoclopramide, rolapitant
+  - Others: pioglitazone, bupropion, eliglustat, naloxegol, nitisinone
+
+Please refer to the package insert for warnings and formal contraindications.
 
 ---
 
@@ -97,13 +120,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the TxGNN score alone. There are no registered trials, no literature, and no mechanism data. FIRES is likely driven by neuroinflammation, which a sodium-channel mechanism may not address. The Canadian safety documentation has not been reviewed, so safety screening cannot proceed.
+The prediction is supported only by the TxGNN model score (evidence level L5), with no registered trials or publications. The mechanistic link to FIRES is plausible but unproven.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (approved indication, warnings, contraindications), the blocking gap for safety screening
-- Mechanism of action data, for example from the DrugBank API
-- A search for case reports, case series, or registry data on rufinamide in FIRES or other refractory epilepsy syndromes
-- Assessment of formulation and route suitability for the target patient population
+- Package insert warnings and contraindications from Health Canada, which are needed for safety screening
+- Detailed mechanism of action data, for example from DrugBank
+- A literature and trial search for rufinamide in FIRES and other refractory epileptic encephalopathies
+- A review of the relevance of the knowledge-graph contraindications (liver disease, leukopenia) to the target population
+- Dosage form and approved-indication details for the Canadian licences, to assess route compatibility
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

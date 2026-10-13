@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Benralizumab
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 101
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Benralizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benralizumab: From Eosinophilic Airway Disease to Thrombocytopenia Due to Immune Destruction
+# Benralizumab: From Eosinophilic Pneumonia to Dermatitis
 
 ## One-Sentence Summary
 
-Benralizumab is an anti-IL-5Rα antibody that depletes eosinophils, and its established use is in eosinophilic airway disease.
-The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+Benralizumab is an anti-IL-5 receptor alpha antibody. Its original indications in the knowledge graph are eosinophilic pneumonia and pulmonary eosinophilia, and it is marketed for severe eosinophilic asthma and eosinophilic granulomatosis with polyangiitis.
+The TxGNN model predicts it may be effective for **dermatitis**, with **3 clinical trials** and **20 publications** in the compiled data. Most of the publications are general reviews, and the one randomized trial (HILLIER, atopic dermatitis) was terminated and reported a lack of effect.
 
 ---
 
@@ -42,52 +42,67 @@ The TxGNN model predicts it may be effective for **thrombocytopenia due to immun
 
 | Item | Content |
 |------|------|
-| Original Indication | Eosinophilic airway disease (the licence records contain no indication text; this comes from the mechanistic notes) |
-| Predicted New Indication | Thrombocytopenia due to immune destruction |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L5 |
+| Original Indication | Eosinophilic pneumonia; pulmonary eosinophilia (from the knowledge graph; no approved indication text is available from Health Canada licences) |
+| Predicted New Indication | Dermatitis |
+| TxGNN Prediction Score | 99.16% |
+| Evidence Level | L2 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
+
+*Note: The top-ranked prediction by score is immune thrombocytopenia (99.34%), but it has no trials or literature (L5). This report focuses on dermatitis, the highest-ranked prediction with actual supporting evidence.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Benralizumab binds the IL-5 receptor alpha chain and depletes eosinophils and basophils through antibody-dependent cellular cytotoxicity (ADCC). Its established role is in eosinophil-driven airway disease.
+Detailed mechanism-of-action data is not available in the compiled data. Based on known pharmacology, benralizumab binds IL-5Rα and depletes eosinophils and basophils through antibody-dependent cell-mediated cytotoxicity (ADCC).
 
-The link to the predicted indication is weak. Immune thrombocytopenia is driven mainly by anti-platelet autoantibodies, Fc-receptor-mediated platelet clearance and impaired megakaryopoiesis. There is no clear eosinophil-dependent pathway. The high TxGNN score is a graph-based computational prediction only, and no trials or literature were provided to support it.
+Eosinophils, basophils and type 2 innate lymphoid cells contribute to type 2 skin inflammation in atopic dermatitis. This gives a plausible biological link to the drug's original eosinophil-driven lung indications. A small Phase 2 mechanistic study (NCT03563066) examined these cellular effects directly.
 
-Two other predictions in the same list, autoimmune thrombocytopenic and Evans syndrome, share the same autoantibody-driven biology. "Autoimmune thrombocytopenic" may be a duplicate of the same disease concept as the top prediction.
+However, the mechanistic plausibility has not translated into clinical benefit. The larger randomized trial (HILLIER) was terminated, and its published report is titled "Lack of effect of benralizumab on signs and symptoms of moderate-to-severe atopic dermatitis." Most of the other literature consists of reviews of biologics in atopic disease rather than primary efficacy data for benralizumab in dermatitis.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04605094](https://clinicaltrials.gov/study/NCT04605094) | Phase 2 | Terminated | 194 | HILLIER: randomized, double-blind, placebo-controlled, 16 weeks plus 36-week extension, in moderate-to-severe atopic dermatitis despite topical treatment. Terminated; the published report indicates no clinical effect. |
+| [NCT03563066](https://clinicaltrials.gov/study/NCT03563066) | Phase 2 | Completed | 20 | Small mechanistic study of benralizumab effects on eosinophils, basophils and type 2 innate lymphoid cells in atopic dermatitis. Too small to support efficacy conclusions. |
+| [NCT06734884](https://clinicaltrials.gov/study/NCT06734884) | Phase 2 | Not yet recruiting | 96 | Efficacy and safety in drug reaction with eosinophilia and systemic symptoms (DRESS). Planned start January 2027; no results. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [37178404](https://pubmed.ncbi.nlm.nih.gov/37178404/) | 2023 | Phase 2 RCT report | J Eur Acad Dermatol Venereol | HILLIER trial: lack of effect of benralizumab on signs and symptoms of moderate-to-severe atopic dermatitis. No abstract in the compiled data. |
+| [35987486](https://pubmed.ncbi.nlm.nih.gov/35987486/) | 2022 | Review | J Allergy Clin Immunol Pract | Safety of biologics, including benralizumab, for atopic diseases during pregnancy. |
+| [36411004](https://pubmed.ncbi.nlm.nih.gov/36411004/) | 2023 | Review | Immunol Allergy Clin North Am | Monoclonal antibodies for allergic rhinitis, asthma and atopic dermatitis during pregnancy and lactation. |
+| [39600395](https://pubmed.ncbi.nlm.nih.gov/39600395/) | 2024 | Review | Allergologie Select | Update on biologics for atopic diseases, urticaria and angioedema, with safety aspects. |
+| [34642091](https://pubmed.ncbi.nlm.nih.gov/34642091/) | 2021 | Review | Ann Allergy Asthma Immunol | Strategies for choosing a biologic for allergy or asthma, including atopic dermatitis. |
+| [33236428](https://pubmed.ncbi.nlm.nih.gov/33236428/) | 2020 | Review | Pediatr Allergy Immunol | Anti-IL-5 therapy in pediatric allergic diseases, including atopic dermatitis. |
+| [37170653](https://pubmed.ncbi.nlm.nih.gov/37170653/) | 2023 | Review | Clin Transl Sci | Evolving immunotherapy landscape for allergic conditions, including atopic dermatitis. |
+| [31690400](https://pubmed.ncbi.nlm.nih.gov/31690400/) | 2019 | Review | Allergy Asthma Proc | Immunobiologics, including benralizumab, for severe asthma, atopic dermatitis and chronic urticaria. |
+| [42383238](https://pubmed.ncbi.nlm.nih.gov/42383238/) | 2026 | Review | Curr Ther Res | Efficacy and safety of monoclonal antibodies in pediatric atopic dermatitis. |
+| [36534318](https://pubmed.ncbi.nlm.nih.gov/36534318/) | 2023 | Review | Dermatol Ther | Updated pharmacologic approach to pediatric atopic dermatitis. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2496135 | FASENRA PEN |
-| 2473232 | FASENRA |
-
-Dosage form and approved indication text are not available in the licence records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02496135 | FASENRA PEN | Not specified | Not specified |
+| 02473232 | FASENRA | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -96,15 +111,14 @@ Please refer to the package insert for safety information. No drug interactions 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials or literature. The mechanism (eosinophil depletion) does not fit the autoantibody-mediated pathology of immune thrombocytopenia.
+The mechanism is plausible, but the only randomized efficacy trial in atopic dermatitis (HILLIER) was terminated and reported a lack of effect. The remaining evidence is a small mechanistic study, a trial not yet recruiting in a different condition (DRESS), and mostly review literature. The higher-scoring predictions (such as immune thrombocytopenia) have no supporting evidence at all.
 
 **To proceed, the following is needed:**
-- A systematic search of trial registries and PubMed for benralizumab in immune thrombocytopenia, autoimmune thrombocytopenia and Evans syndrome
-- Health Canada package insert warnings and contraindications for a safety screen
-- Approved indication text and dosage forms for the two DINs
-- Confirmation of whether the thrombocytopenia entries are duplicates
-- Detailed mechanism of action data from DrugBank
-- A separate endotype-specific literature search for the dermatitis prediction (rank 2, flagged as a research question)
+- Full HILLIER results, including the reason for termination and efficacy endpoints
+- Results of the NCT03563066 mechanistic study, to identify any responder subgroup (for example, patients with high eosinophil counts)
+- Detailed mechanism-of-action data
+- Package insert warnings and contraindications from Health Canada
+- Consideration of eosinophil-driven dermatologic conditions (such as DRESS) where the mechanism fits better than in atopic dermatitis; the NCT06734884 trial will inform this
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

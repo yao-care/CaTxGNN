@@ -2,7 +2,7 @@
 layout: default
 title: Loxapine
 parent: Model Prediction Only (L5)
-nav_order: 559
+nav_order: 564
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Loxapine: From Antipsychotic Therapy to Manic Bipolar Affective Disorder
+# Loxapine: From Schizophrenia and Bipolar Disorder to Manic Bipolar Affective Disorder
 
 ## One-Sentence Summary
 
-Loxapine is a first-generation antipsychotic of the dibenzoxazepine class. The TxGNN model predicts it may be effective for **manic bipolar affective disorder**. No clinical trials are registered in the evidence pack, but **19 publications** support this direction, including two Phase III randomized trials (reported in the literature) of inhaled loxapine for agitation in bipolar I disorder and schizophrenia.
-
----
+Loxapine is a first-generation antipsychotic originally used for schizophrenia, bipolar disorder and major affective disorder.
+The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, with **no registered clinical trials** but **20 publications** (mostly reviews) currently supporting this direction, largely around inhaled loxapine for agitation.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the Canadian license records (known class use: antipsychotic) |
+| Original Indication | Bipolar disorder, major affective disorder, schizophrenia (from the knowledge-graph indication list; the Canadian licence records contain no indication text) |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (based on literature reporting two Phase III RCTs, which studied agitation rather than the manic episode itself) |
+| Evidence Level | L5 (strictly by the rules: no clinical trials and no completed RCTs in the data compiled; the supplied literature consists of reviews, which would suggest L3 at most) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Loxapine is a first-generation antipsychotic, and its general pharmacology involves dopamine D2 and serotonin 5-HT2A receptor antagonism. This profile plausibly reduces agitation and psychomotor excitation, which are core features of bipolar mania.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, loxapine is a dibenzoxazepine antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors. This mechanism is consistent with controlling mania and agitation. This mechanistic reasoning is inferred from class knowledge, not from the supplied data.
 
-The published literature focuses on **acute agitation associated with bipolar I disorder or schizophrenia**, especially with an inhaled formulation. This is closely related to a manic episode but not identical to it. Two placebo-controlled Phase III trials (NCT00628589 and NCT00721955, cited in PMID 29163985) enrolled 314 patients with bipolar I disorder and 344 with schizophrenia. The prediction is therefore reasonable, but the strongest evidence supports agitation control rather than treatment of mania as a whole.
+Bipolar disorder is already among loxapine's original indications, so the predicted indication (the manic phase of bipolar disorder) is closely related to what the drug is already used for. The literature also describes inhaled loxapine (Adasuve) as approved in the USA and EU for acute agitation associated with bipolar I disorder or schizophrenia. Two Phase III randomised controlled trials of this formulation are discussed in the literature, but they are not registered in the data compiled here.
 
-The other nine TxGNN predictions for this drug (retinal dystrophy, hydranencephaly, X-linked myopia and others) have no clinical trials, no relevant literature and no plausible mechanistic link. They are graph-score predictions only and are rated Hold.
-
----
+The other nine predictions for this drug (for example retinal dystrophy, hydranencephaly, X-linked myopia, and several congenital or metabolic disorders) have high model scores but no trials, no literature and no plausible mechanistic link. They are rated L5 / Hold and are not pursued in this report.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Pooled analysis of 2 Phase III RCTs | Int J Clin Pract | Effect sizes of inhaled loxapine for agitation in schizophrenia or bipolar disorder |
-| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | RCT (PLACID) | Eur Neuropsychopharmacol | Inhaled loxapine vs intramuscular aripiprazole in acutely agitated patients with schizophrenia or bipolar I disorder |
-| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | Responder analysis of 2 Phase III RCTs | BJPsych Open | PANSS-EC responder analyses of inhaled loxapine 5 or 10 mg vs placebo in bipolar I disorder and schizophrenia |
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematic review / meta-analysis | Hum Psychopharmacol | Short-term drug treatments for agitation associated with schizophrenia or bipolar disorder |
-| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Drug review | CNS Drugs | Inhaled loxapine reaches peak plasma levels in about 2 minutes; two Phase III placebo-controlled trials support acute agitation use |
-| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Review | Neuropsychiatr Dis Treat | Safety, efficacy and patient acceptability of inhaled loxapine for agitation in schizophrenia or bipolar I disorder |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatr Scand | Evidence-based options for managing bipolar mania, including the choice of mood stabilizer and antipsychotic |
-| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Review | Expert Opin Pharmacother | Pharmacotherapy of agitation in bipolar disorder, particularly during manic episodes |
-| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Review | Expert Rev Neurother | Fifty years of experience with loxapine for rapid non-coercive tranquilization of acute behavioral disturbances |
-| [27121764](https://pubmed.ncbi.nlm.nih.gov/27121764/) | 2016 | Review | Curr Med Res Opin | Inhaled loxapine for urgent treatment of acute agitation in schizophrenia or bipolar disorder |
-
----
+| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematic review / meta-analysis | Human Psychopharmacology | Evaluates short-term drug treatments for agitation in schizophrenia or bipolar disorder |
+| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Review of 2 Phase III RCTs | Int J Clin Pract | Effect sizes of inhaled loxapine for agitation in schizophrenia or bipolar disorder |
+| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Review | CNS Drugs | Inhaled loxapine approved in the USA and EU for acute agitation in bipolar disorder or schizophrenia; two randomised, double-blind, placebo-controlled trials |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatrica Scandinavica | Evidence-based options for managing a manic episode, including choice of mood stabiliser and antipsychotic |
+| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Review | Neuropsychiatr Dis Treat | Safety, efficacy and patient acceptability of inhaled loxapine for acute agitation |
+| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Review | Drugs in R&D | Expert review of inhaled loxapine for acute agitation in bipolar disorder and schizophrenia |
+| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Review | Expert Opin Pharmacother | Improving drug treatment of agitation in bipolar disorder; few approved agents exist |
+| [38301034](https://pubmed.ncbi.nlm.nih.gov/38301034/) | 2024 | Review | Prim Care Companion CNS Disord | Alternative approaches to acute agitation in schizophrenia and bipolar disorder |
+| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Review | Expert Rev Neurother | Fifty years of experience with loxapine for rapid non-coercive tranquilisation in acute behavioural disturbances |
+| [15568205](https://pubmed.ncbi.nlm.nih.gov/15568205/) | 2005 | Review | Human Psychopharmacology | Treatment of acute mania from clinical trials to practice recommendations |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2169991 | LOXAPAC IM |
-| 2230838 | XYLAC |
-| 2230839 | XYLAC |
-| 2242868 | XYLAC |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02169991 | LOXAPAC IM | Not listed | Not listed |
+| 02230838 | XYLAC | Not listed | Not listed |
+| 02230839 | XYLAC | Not listed | Not listed |
+| 02242868 | XYLAC | Not listed | Not listed |
 
-Dosage form and approved indication text are not available in the current records for these licenses.
+## Cytotoxicity
 
----
+Not applicable. Loxapine is an antipsychotic, not an antineoplastic drug.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph (not label text):** epilepsy, benign prostatic hyperplasia, substance abuse/dependence, female breast carcinoma, cardiovascular disease, heart disease, glaucoma, neuroleptic malignant syndrome, Alzheimer disease, tardive dyskinesia, lingual-facial-buccal dyskinesia, and hyperprolactinemia (including familial and acquired forms and prolactin-producing pituitary tumour).
+- **Drug interactions:** 100 interactions were recorded; 20 are listed in the data compiled for this report. Major-level interactions include **bupropion, morphine and potassium citrate**. Moderate-level interactions include epinephrine, several anticholinergics (hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, mepenzolate), loperamide, lorcaserin, dronabinol, nabilone, eluxadoline, and some bowel-preparation agents (picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes).
 
----
+Label warnings and contraindications from the Health Canada product monograph were not available. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Loxapine has an established antipsychotic profile and Phase III evidence for agitation in bipolar I disorder. However, that evidence concerns acute agitation, not treatment of the manic episode itself. Safety data and the approved indication are also missing.
+Loxapine is already used in bipolar disorder and is mechanistically consistent with treating mania and agitation. Literature on inhaled loxapine supports the direction, and the drug is marketed in Canada. However, there are no registered trials in the data compiled, the supplied literature is mostly review articles, and the label safety data are missing.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Approved indication and dosage form for each Canadian license, to confirm route compatibility (the published evidence is mainly for inhaled loxapine)
-- Trial evidence specific to manic episodes rather than agitation
+- Dosage form, route and approved indication details for the four Canadian DINs, and confirmation of whether an inhaled formulation is authorised in Canada
+- Primary RCT data for mania specifically, as distinct from agitation
+- A safety monitoring plan covering the knowledge-graph contraindications and the major drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

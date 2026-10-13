@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Gadodiamide
-parent: Model Prediction Only (L5)
-nav_order: 419
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 422
+evidence_level: L4
 indication_count: 10
 ---
 
 # Gadodiamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gadodiamide: From MRI Contrast Imaging to Rheumatoid Arthritis
+# Gadodiamide: From a Diagnostic MRI Contrast Agent to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Gadodiamide is a gadolinium-based MRI contrast agent, marketed in Canada as OMNISCAN, and is used for diagnostic imaging rather than treatment.
-The TxGNN model predicts it may be relevant to **rheumatoid arthritis**, with **0 clinical trials** and **10 publications** on record.
-All 10 publications use it to visualize joint inflammation, not to treat it, so there is no therapeutic evidence.
-
----
+Gadodiamide is a gadolinium-based contrast agent used in magnetic resonance imaging (MRI), marketed in Canada as OMNISCAN. The TxGNN model predicts it may be associated with **rheumatoid arthritis**, but there are **no registered clinical trials** and only **3 publications**, all of which used gadodiamide as an imaging tool rather than as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diagnostic MRI contrast agent (no approved indication text on file) |
+| Original Indication | Not specified in the available licence data (gadodiamide is a diagnostic MRI contrast agent) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.16% |
-| Evidence Level | L4 (literature is diagnostic imaging only; no therapeutic evidence) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Gadodiamide is a gadolinium-based contrast agent. It has no known therapeutic or anti-inflammatory mechanism, and its role is to enhance tissue contrast on MRI.
+Currently, detailed mechanism of action data is not available. Based on known information, gadodiamide is a gadolinium-based contrast agent. It enhances MRI images and has no recognised therapeutic anti-inflammatory activity.
 
-The literature links gadodiamide to rheumatoid arthritis because contrast-enhanced MRI is used to visualize synovitis in the wrist and finger joints. In these studies it is a diagnostic tool, not a treatment. The high TxGNN score (99.16%) most likely reflects a knowledge-graph association between the agent and the disease, not therapeutic potential. The other nine predictions have no clinical or mechanistic support either. Osteoarthritis has diagnostic-imaging literature only, and hemoglobinopathy and the rare skeletal or congenital syndromes are prediction-only.
-
----
+The three publications found (2001–2002) used gadodiamide-enhanced MRI to visualise synovitis, bone marrow oedema and bone erosions in patients with rheumatoid arthritis and other inflammatory joint diseases. This is a **diagnostic** use, not a therapeutic one. The high TxGNN score most likely reflects a knowledge-graph association between the drug and the disease through imaging studies, not a treatment effect. At present there is no sound mechanistic reason to consider gadodiamide a treatment for rheumatoid arthritis.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
-
-All 10 publications are cohort or observational studies. No RCTs or reviews were found.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [17289759](https://pubmed.ncbi.nlm.nih.gov/17289759/) | 2008 | Cohort | Ann Rheum Dis | Hand MRI and bone scintigraphy for differential diagnosis of unclassified arthritis |
-| [17935920](https://pubmed.ncbi.nlm.nih.gov/17935920/) | 2009 | Cohort | Eur J Radiol | Distribution pattern of ultrasound-guided intra-articular injections in RA wrist joints |
-| [18286282](https://pubmed.ncbi.nlm.nih.gov/18286282/) | 2008 | Cohort | Skeletal Radiol | Detailed contrast-enhanced MRI analysis of hands and wrists in psoriatic arthritis |
-| [17340197](https://pubmed.ncbi.nlm.nih.gov/17340197/) | 2007 | Cohort | Ann Biomed Eng | Automated kinetic modeling of contrast-enhanced MRI to assess inflammation in the RA wrist |
-| [11454641](https://pubmed.ncbi.nlm.nih.gov/11454641/) | 2001 | Cohort | Ann Rheum Dis | Low-field dedicated MRI vs X-ray and clinical exam in untreated, recent-onset RA |
-| [11669155](https://pubmed.ncbi.nlm.nih.gov/11669155/) | 2001 | Cohort | J Rheumatol | MRI features of wrist and finger joints in early RA, established RA, other arthritis and arthralgia |
-| [11976868](https://pubmed.ncbi.nlm.nih.gov/11976868/) | 2002 | Cohort | Eur Radiol | MRI synovial volume and bone marrow oedema as predictors of erosion progression at 1 year |
-| [11419149](https://pubmed.ncbi.nlm.nih.gov/11419149/) | 2001 | Cohort | Eur Radiol | Extremity MRI (0.2 T) vs high-field MRI (1.5 T) in arthritic small joints |
-| [11274835](https://pubmed.ncbi.nlm.nih.gov/11274835/) | 2001 | Cohort | Eur J Radiol | Normal gadolinium enhancement patterns of the atlantoaxial joints |
-| [11868082](https://pubmed.ncbi.nlm.nih.gov/11868082/) | 2002 | Cohort | Eur Radiol | Manual vs stereologic measurement of synovial volume on MRI of arthritic finger joints |
+| [11669155](https://pubmed.ncbi.nlm.nih.gov/11669155/) | 2001 | Cohort | The Journal of Rheumatology | MRI features of wrist and finger joints compared across early RA, established RA, other arthritis and arthralgia |
+| [11976868](https://pubmed.ncbi.nlm.nih.gov/11976868/) | 2002 | Cohort | European Radiology | In 84 patients, MRI synovial volume and bone marrow oedema were assessed for predicting bone erosion progression at 1 year |
+| [11419149](https://pubmed.ncbi.nlm.nih.gov/11419149/) | 2001 | Cohort | European Radiology | Compared low-field extremity MRI (0.2 T) with high-field MRI (1.5 T) in 103 patients with arthritic small joints |
 
----
+All three studies concern diagnostic imaging, not treatment.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2172771 | OMNISCAN |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02172771 | OMNISCAN | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The data compiled for this report list 100 potential interacting drugs, almost all with an unclassified severity level. The only one with a graded severity is **acebutolol (Moderate)**. Others with unclassified severity include calcitriol, pantoprazole, omeprazole, lansoprazole, vancomycin, prednisone, simvastatin, potassium chloride, dexamethasone and acetylsalicylic acid.
 
-One study in the osteoarthritis literature ([PMID 21305156](https://pubmed.ncbi.nlm.nih.gov/21305156/), *Metallomics*, 2009) reported anomalously high gadolinium concentrations in the femoral head bone of patients exposed to gadolinium-based contrast agents. This is a safety signal against any therapeutic or repeated-exposure use.
-
----
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence supports gadodiamide only as a diagnostic imaging agent in arthritis, not as a treatment. There are no clinical trials, no therapeutic mechanism, and a gadolinium-retention signal in bone. The high TxGNN score is not backed by any therapeutic evidence.
+The prediction rests only on a knowledge-graph association. The supporting literature describes gadodiamide as an imaging agent, not a therapy, and there are no clinical trials. No therapeutic mechanism is known. The other nine predicted indications (including osteoarthritis, hemoglobinopathy and several rare skeletal dysplasias) have even less support: most have no trials or literature, and for osteoarthritis the two papers found are imaging or biomechanical studies.
 
 **To proceed, the following is needed:**
-- Mechanism of action data, and a plausible therapeutic rationale for rheumatoid arthritis
-- Health Canada package insert warnings and contraindications
-- Preclinical evidence of a therapeutic effect (none exists at present)
-- A benefit-risk assessment that accounts for gadolinium retention
+- Mechanism of action data showing a plausible therapeutic pathway
+- Health Canada package insert warnings and contraindications, needed for any safety screening
+- Approved indication and dosage form details for the Canadian licence
+- Preclinical or clinical evidence of a therapeutic effect, not just diagnostic use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

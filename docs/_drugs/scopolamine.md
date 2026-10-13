@@ -2,7 +2,7 @@
 layout: default
 title: Scopolamine
 parent: Model Prediction Only (L5)
-nav_order: 829
+nav_order: 836
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Scopolamine: From Its Approved Use to Cauda Equina Syndrome
+# Scopolamine: From Motion Sickness and Gastrointestinal/Ocular Conditions to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Scopolamine is a non-selective muscarinic antagonist marketed in Canada as an injection, but the source record does not list its approved indication.
-The TxGNN model predicts it may be effective for **cauda equina syndrome**, with a very high score.
-However, there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model alone.
+Scopolamine is an antimuscarinic drug originally used for conditions such as motion sickness, irritable bowel syndrome, peptic ulcer disease, uveitis and cycloplegia (pupil dilation and eye-focus paralysis for eye examination).
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, with a very high model score.
+However, **no clinical trials and no publications** currently support this direction, so this is a model prediction only.
 
 ---
 
@@ -43,6 +43,7 @@ However, there are currently **0 clinical trials** and **0 publications** suppor
 
 | Item | Content |
 |------|------|
+| Original Indication | Motion sickness, irritable bowel syndrome, peptic ulcer disease, uveitis, cycloplegia, and others (the Canadian licence records list no indication text) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -54,14 +55,19 @@ However, there are currently **0 clinical trials** and **0 publications** suppor
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Based on general pharmacology, scopolamine blocks muscarinic acetylcholine receptors. It also crosses the blood-brain barrier, so it can cause central effects such as sedation and confusion.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, scopolamine is a non-selective muscarinic antagonist. Its established uses (motion sickness, gastrointestinal spasm, ocular cycloplegia) all rely on blocking acetylcholine receptors.
 
-This prediction has **no direct mechanistic link**. Cauda equina syndrome is compression of the lumbosacral nerve roots, and blocking muscarinic receptors does not relieve compression. At most, an antimuscarinic could ease downstream bladder symptoms, and that is a separate indication. The high TxGNN score is a model output only. No trial or publication backs it.
+Cauda equina syndrome often causes bladder dysfunction, such as urinary retention or overflow incontinence. Antimuscarinics act on bladder detrusor muscarinic receptors, which is the likely source of the model's association. However, the link is weak. Antimuscarinics would be expected to worsen urinary retention, and they do not address the underlying cause, which is nerve root compression requiring urgent surgical decompression. The prediction is a model score only, with no supporting clinical data.
 
-The other top predictions fall into two groups:
+**Other predicted indications (all L5, all Hold):**
 
-- **Neurogenic bladder (rank 2, score 99.98%):** this is the only one with class-level plausibility, because antimuscarinics reduce detrusor overactivity by blocking M3 receptors. Scopolamine has no supporting clinical data here, and its central side effects make it a poor fit compared with bladder-selective agents. The disease term is also marked obsolete in the ontology, so the mapping should be reviewed and possibly redirected to a current neurogenic detrusor overactivity term.
-- **Conjunctivitis types (ranks 3–6: papillary, atopic, rosacea-related and vernal):** there is no clear mechanistic link. These conditions are driven by mechanical irritation, allergic or Th2 pathways, or ocular surface inflammation. Anticholinergic effects such as mydriasis and dry eye could make symptoms worse.
+| Rank | Predicted Indication | TxGNN Score | Assessment |
+|------|------|------|------|
+| 2 | Neurogenic bladder (obsolete ontology term) | 99.98% | Mechanism plausible (M3 blockade), but scopolamine has strong CNS effects and is a poor choice compared with bladder-selective agents |
+| 3 | Papillary conjunctivitis | 99.98% | Driven by mechanical irritation and allergy; muscarinic antagonism does not target these pathways |
+| 4 | Atopic conjunctivitis | 99.80% | Standard care is antihistamines, mast cell stabilizers and corticosteroids; anticholinergics may worsen ocular dryness |
+| 5 | Rosacea conjunctivitis | 99.40% | Reduced secretion may aggravate dry eye and meibomian gland dysfunction |
+| 6 | Vernal conjunctivitis | 99.08% | Only a symptomatic cycloplegic effect is plausible; not disease-modifying |
 
 ---
 
@@ -79,16 +85,25 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2242811 | SCOPOLAMINE HYDROBROMIDE INJECTION |
-| 2242810 | SCOPOLAMINE HYDROBROMIDE INJECTION |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02242811 | Scopolamine Hydrobromide Injection | Injection | Not listed in the data |
+| 02242810 | Scopolamine Hydrobromide Injection | Injection | Not listed in the data |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease contraindications (from knowledge-graph associations, not label text):** Associations were found with hypertension, liver failure and liver disease, epilepsy, COPD, gastric ulcer, anxiety and neurotic disorders, porphyria, kidney disease, pancreatitis, gallbladder disease, thrombocytopenia, neutropenia and agranulocytosis, open-angle glaucoma, psychotic and other mental disorders, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, and hepatic coma. Benign prostatic hyperplasia is particularly relevant to the bladder-related predictions, since antimuscarinics can worsen urinary retention.
+- **Drug Interactions:** The data compiled for this report show 100 recorded interactions, most rated Moderate. Examples among those reviewed include:
+  - Opioids and analgesics: fentanyl, alfentanil, codeine, dihydrocodeine, tramadol
+  - Other anticholinergics and antihistamines: hyoscyamine, aclidinium, chlorpheniramine, acrivastine, phenyltoloxamine, amitriptyline
+  - Other agents: ethanol, loperamide, amantadine, phenylephrine, acebutolol, acetylcholine, botulinum toxin type A
+  - Minor interactions: acetaminophen and hydrochlorothiazide
+
+  Additive anticholinergic and central nervous system depressant effects are the main concern.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -97,14 +112,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or publications behind it (L5) and no plausible mechanistic link to cauda equina syndrome. Scopolamine's central nervous system effects add a further concern. The more plausible neurogenic bladder prediction uses an obsolete disease term and has no supporting data either.
+All predictions rest on model scores alone (Evidence Level L5), with no clinical trials or publications. For the top prediction, cauda equina syndrome, the mechanism is weak and potentially harmful because of the risk of worsening urinary retention. The neurogenic bladder prediction is mechanistically plausible but is outperformed by approved bladder-selective antimuscarinics and carries a relevant CNS adverse-effect burden.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert, to confirm the approved indication, warnings and contraindications
-- Mechanism of action data from DrugBank
-- A review of the obsolete neurogenic bladder term, and a re-run of the prediction against the current neurogenic detrusor overactivity term
-- A targeted literature and trial search for scopolamine in neurogenic bladder or neurogenic detrusor overactivity
-- A route-of-administration compatibility assessment for the injection formulations
+- Mechanism of action data (e.g., from DrugBank)
+- Health Canada package insert warnings and contraindications (parsed from the PDF), which block safety screening
+- Indication text and dosage form for the two Canadian licences
+- A targeted literature and trial search for scopolamine in neurogenic bladder, the most plausible of the predicted indications
+- A review of whether the obsolete ontology term can be mapped to a current disease definition
+- Assessment of route compatibility, since only injectable products are authorised in Canada
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

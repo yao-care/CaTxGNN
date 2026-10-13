@@ -2,15 +2,15 @@
 layout: default
 title: Olodaterol
 parent: Moderate Evidence (L3-L4)
-nav_order: 676
-evidence_level: L3
+nav_order: 682
+evidence_level: L4
 indication_count: 2
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-# Olodaterol: From COPD Maintenance Therapy to Bronchitis
+# Olodaterol: From Chronic Obstructive Pulmonary Disease to Bronchitis
 
 ## One-Sentence Summary
 
-Olodaterol is a once-daily long-acting beta2-agonist (LABA) bronchodilator, established for maintenance treatment of chronic obstructive pulmonary disease (COPD).
-The TxGNN model predicts it may be effective for **bronchitis**, but only **3 clinical trials** and **2 publications** are linked to this prediction. All of them are COPD studies, so the evidence is indirect.
+Olodaterol is an inhaled long-acting β2-agonist (LABA) originally used for chronic obstructive pulmonary disease (COPD).
+The TxGNN model predicts it may be effective for **bronchitis**, but there are **no clinical trials** and only **2 publications** (a review and a guideline, both about COPD in general), so the evidence is indirect.
 
 ---
 
@@ -42,10 +42,10 @@ The TxGNN model predicts it may be effective for **bronchitis**, but only **3 cl
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the license data; COPD maintenance therapy is the established use according to the literature |
+| Original Indication | Chronic obstructive pulmonary disease (COPD), including severe early-onset COPD |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -54,21 +54,19 @@ The TxGNN model predicts it may be effective for **bronchitis**, but only **3 cl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Olodaterol belongs to the long-acting beta2-agonist class. This class relaxes airway smooth muscle and produces sustained bronchodilation, which could be relevant to chronic bronchitis as a component of COPD.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on the known drug class, olodaterol is a long-acting β2-agonist. It activates β2-receptors on airway smooth muscle and raises intracellular cAMP, which relaxes the muscle and relieves airflow limitation.
 
-All three linked trials are observational or post-marketing studies in COPD patients. None studies bronchitis as a separate indication, and there is no supporting data for acute bronchitis. The prediction therefore largely overlaps with the existing COPD use rather than showing a distinct new benefit.
+Chronic bronchitis is a recognised COPD phenotype, so the approved COPD indication and the predicted bronchitis indication overlap clinically. Bronchodilation could plausibly help bronchitis patients who have airflow obstruction.
 
-Because the original indications are missing from the source record, it cannot be confirmed whether this would truly be an off-label use.
+Two cautions apply. The high TxGNN score most likely reflects how close bronchitis and COPD are in the underlying disease ontology, not independent evidence. Acute or infectious bronchitis also has no established rationale for a LABA.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A (observational) | Completed | 11,316 | Healthcare resource use and outcomes in COPD patients starting tiotropium/olodaterol vs. fluticasone furoate/umeclidinium/vilanterol; no efficacy evidence for bronchitis |
-| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A (observational) | Completed | 22,155 | Drug utilisation safety study of aclidinium bromide, not olodaterol; only tangentially relevant |
-| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A (post-marketing surveillance) | Completed | 1,335 | Long-term safety and effectiveness of tiotropium+olodaterol in Japanese COPD patients (chronic bronchitis, emphysema) in routine practice; non-randomized |
+Currently no related clinical trials are registered for bronchitis as a distinct indication.
+
+The model's second-ranked prediction, **obstructive lung disease**, does have many olodaterol trials, including large Phase 3 studies. Almost all are in COPD, the already-approved indication (for example NCT01431274, n=2,624, and NCT00796653, n=937). The few non-COPD studies are small asthma trials. These trials therefore do not support the bronchitis prediction.
 
 ---
 
@@ -76,22 +74,32 @@ Because the original indications are missing from the source record, it cannot b
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health Syst Pharm | Reviews the pharmacology, pharmacokinetics, efficacy and safety of once-daily olodaterol for COPD |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish national guideline on diagnosis and pharmacotherapy of stable COPD, intended mainly for primary care |
+| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health Syst Pharm | Reviews the pharmacology, pharmacokinetics, efficacy and safety of once-daily olodaterol in COPD |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish national guideline on diagnosis and pharmacotherapy of stable COPD |
+
+Both publications address COPD generally, not bronchitis, so they offer only indirect support.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2441888 | INSPIOLTO RESPIMAT |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02441888 | INSPIOLTO RESPIMAT | Not available | Not available |
+
+This is the only authorisation on record (status: valid).
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified in the interaction database, and all of those displayed are rated **Moderate**. Main examples:
+  - **Sympathomimetics** (additive adrenergic effects): epinephrine (including ophthalmic and topical forms), ephedrine (including nasal), isometheptene, diethylpropion, phentermine, fenfluramine
+  - **QT-relevant agents**: clarithromycin, cisapride, dolasetron, palonosetron, granisetron
+  - **Glucose-lowering agents**: canagliflozin, ertugliflozin, albiglutide, semaglutide
+  - **Others**: famotidine, loperamide
+
+Please refer to the package insert for key warnings and contraindications.
 
 ---
 
@@ -100,17 +108,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The only evidence linked to bronchitis is indirect: three COPD-population observational or post-marketing studies and two COPD-focused publications. There are no bronchitis-specific efficacy data, and acute bronchitis has no support at all. The prediction is best treated as a research question rather than an actionable repurposing candidate.
+- The bronchitis prediction rests on the drug class and the closeness of bronchitis to COPD. No trials exist for bronchitis, and the two available publications are about COPD in general.
+- The strong evidence for obstructive lung disease is evidence for the existing COPD indication, not new repurposing evidence.
 
 **To proceed, the following is needed:**
-- Bronchitis-specific clinical evidence, separate from the COPD population
-- Mechanism of action data (MOA) and original indication records from DrugBank
-- Health Canada package insert warnings and contraindications for safety screening
-- Confirmation of the approved indication and dosage form for the Canadian license
-
----
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Clinical studies specifically in chronic bronchitis, with the phenotype separated from COPD and acute or infectious bronchitis excluded
+- Confirmed mechanism of action data for olodaterol
+- The Canadian product monograph, to confirm warnings, contraindications, dosage form and approved indication text
+- A safety review of the moderate-level interactions listed above, especially sympathomimetics and QT-prolonging drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

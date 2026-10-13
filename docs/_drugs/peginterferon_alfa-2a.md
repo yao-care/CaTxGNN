@@ -2,7 +2,7 @@
 layout: default
 title: Peginterferon Alfa-2A
 parent: High Evidence (L1-L2)
-nav_order: 708
+nav_order: 714
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Peginterferon Alfa-2a: From Original Indication (Not Recorded) to Hepatitis B Virus Infection
+# Peginterferon Alfa-2a: From Chronic Hepatitis C to Hepatitis B Virus Infection
 
 ## One-Sentence Summary
 
-Peginterferon alfa-2a (Pegasys) is a long-acting type I interferon that is marketed in Canada, but the Evidence Pack does not record its original indication.
-The TxGNN model predicts it may be effective for **hepatitis B virus infection**, with **50 clinical trials** and **20 publications** supporting this direction.
-The Evidence Pack notes this is already an established labeled use, so it is not a true repurposing candidate.
+Peginterferon alfa-2a is an antiviral, immune-modulating drug originally used for chronic hepatitis C and chronic hepatitis B infection.
+The TxGNN model predicts it may be effective for **hepatitis B virus infection**, with **20 clinical trials** and **20 publications** compiled for this direction. Note that chronic hepatitis B is already one of the drug's known indications, so this prediction confirms an existing use rather than a true repurposing.
 
 ---
 
@@ -43,7 +42,7 @@ The Evidence Pack notes this is already an established labeled use, so it is not
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack |
+| Original Indication | Chronic hepatitis C virus infection (the Canadian license text is not available in the compiled data) |
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L1 |
@@ -55,51 +54,45 @@ The Evidence Pack notes this is already an established labeled use, so it is not
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Peginterferon alfa-2a is a type I interferon. Interferons are known to induce antiviral interferon-stimulated genes and to activate natural killer (NK) cells and T cells, and this can lead to loss of hepatitis B surface antigen (HBsAg).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, peginterferon alfa-2a is a pegylated interferon with antiviral and immunomodulatory activity. It induces interferon-stimulated genes and enhances HBV-specific T cell and NK cell responses.
 
-Peginterferon alfa-2a has also been studied extensively in other viral hepatitis, especially hepatitis C. This supports the idea that its antiviral and immunomodulatory effects carry over to hepatitis B.
-
-The Evidence Pack states that chronic hepatitis B is already a labeled use of this drug, so the "original indication" field is empty because of a data gap. The prediction is therefore best read as confirmation of an established use, not a new repurposing opportunity.
+Its efficacy in chronic hepatitis C is established, and chronic hepatitis B is also listed among its original indications. Both are chronic hepatotropic viral infections in which host immune control matters, so the mechanism applies to hepatitis B. The high TxGNN score agrees with the large body of clinical evidence. Cytokine-profiling studies (for example PMID 32548156) further support the mechanism by identifying biomarkers that predict response.
 
 ---
 
 ## Clinical Trial Evidence
 
-The Evidence Pack lists 50 trials for this prediction. The table below shows the 10 most relevant, favoring hepatitis B-specific randomized and Phase 3 studies.
+Most of the trials below are in hepatitis B. The list is limited to 10 of the more relevant ones.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01369212](https://clinicaltrials.gov/study/NCT01369212) | Phase 3 | Completed | 201 | Peginterferon alfa-2a plus tenofovir vs tenofovir alone; primary outcome is HBsAg loss 48 weeks after stopping therapy |
-| [NCT01095835](https://clinicaltrials.gov/study/NCT01095835) | Phase 3 | Completed | 131 | 48 vs 96 weeks of peginterferon alfa-2a, alone or with lamivudine, in HBeAg-negative chronic hepatitis B |
-| [NCT02263079](https://clinicaltrials.gov/study/NCT02263079) | Phase 3 | Completed | 62 | Peginterferon alfa-2a plus lamivudine or entecavir vs no treatment in children in the immune-tolerant phase |
-| [NCT01172392](https://clinicaltrials.gov/study/NCT01172392) | Phase 3 | Unknown | 185 | HBsAg loss at week 96 after 48 weeks of peginterferon alfa-2a in HBeAg-negative patients responding to nucleos(t)ide analogues |
-| [NCT02644538](https://clinicaltrials.gov/study/NCT02644538) | Phase 4 | Unknown | 196 | Randomized trial adding peginterferon alfa-2a to ongoing nucleos(t)ide therapy, with HBsAg clearance at week 48 as the endpoint |
-| [NCT02743182](https://clinicaltrials.gov/study/NCT02743182) | N/A | Completed | 119 | Adding peginterferon alfa-2a to nucleos(t)ide analogues in HBeAg-negative patients; HBsAg loss endpoint |
-| [NCT00614471](https://clinicaltrials.gov/study/NCT00614471) | Phase 4 | Completed | 219 | Peginterferon alfa-2a with or without entecavir (concurrent or sequential) in treatment-naive HBeAg-positive patients |
-| [NCT01938781](https://clinicaltrials.gov/study/NCT01938781) | Phase 4 | Completed | 400 | Entecavir with or without added peginterferon, assessing regression of HBV-related liver fibrosis |
-| [NCT00927082](https://clinicaltrials.gov/study/NCT00927082) | Phase 4 | Completed | 383 | Long-term post-treatment follow-up of peginterferon alfa-2a in HBeAg-positive patients from the NEPTUNE study |
-| [NCT01531166](https://clinicaltrials.gov/study/NCT01531166) | N/A | Completed | 500 | Observational cohort of antiviral efficacy and safety in Korean patients (TRACES) |
-
-Note: NCT01623336 (a Phase 2/3 trial with Pegasys as comparator) was left out of the table. Its title and summary describe chronic hepatitis C, not hepatitis B.
+| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Phase 4 | Completed | 307 | Efficacy and safety of 48 weeks of peginterferon alfa-2a in HBeAg-positive chronic hepatitis B, including naive and pretreated patients |
+| [NCT02097004](https://clinicaltrials.gov/study/NCT02097004) | Phase 4 | Completed | 111 | Therapeutic vaccination plus peginterferon for HBsAg seroclearance in patients with entecavir-induced response |
+| [NCT00614471](https://clinicaltrials.gov/study/NCT00614471) | Phase 4 | Completed | 219 | Peginterferon plus entecavir combination or sequence in HBeAg-positive patients |
+| [NCT02474316](https://clinicaltrials.gov/study/NCT02474316) | Phase 4 | Unknown | 366 | Switching HBeAg-positive patients from nucleoside analogue to peginterferon plus nucleoside analogue for 48 weeks vs entecavir |
+| [NCT03084250](https://clinicaltrials.gov/study/NCT03084250) | Phase 4 | Unknown | 150 | Nucleotide analogue with or without peginterferon in cirrhotic patients at high risk of HCC |
+| [NCT00661076](https://clinicaltrials.gov/study/NCT00661076) | Phase 3 | Completed | 10 | Peginterferon plus adefovir vs peginterferon alone in HBeAg-negative patients; very small sample |
+| [NCT02570191](https://clinicaltrials.gov/study/NCT02570191) | Phase 4 | Completed | 60 | Open-label study of efficacy and safety in HBeAg-negative chronic hepatitis B |
+| [NCT00436163](https://clinicaltrials.gov/study/NCT00436163) | Phase 4 | Completed | 39 | Post-marketing programme in treatment-naive Baltic patients with HBeAg-positive disease |
+| [NCT01237496](https://clinicaltrials.gov/study/NCT01237496) | Phase 3 | Completed | 17 | HBV-specific T cell response sub-study in HBeAg-negative patients; mechanistic and small |
+| [NCT01906580](https://clinicaltrials.gov/study/NCT01906580) | Phase 4 | Unknown | 105 | Combination or sequential peginterferon and entecavir in HBeAg-positive patients |
 
 ---
 
 ## Literature Evidence
 
-The Evidence Pack lists 20 publications. The table below shows the 10 most relevant, ordered RCT > systematic review > review.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | N Engl J Med | Peginterferon alfa-2a, lamivudine, and the combination compared in HBeAg-positive chronic hepatitis B |
-| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Safety and efficacy of entecavir plus peginterferon alfa-2a in adults with immune-tolerant HBeAg-positive infection |
-| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | Clinical trial | Hepatology | Entecavir plus peginterferon alfa-2a in children with immune-tolerant chronic hepatitis B |
-| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | Randomized, controlled, multicenter study | J Pediatr Gastroenterol Nutr | Peginterferon alfa-2a plus lamivudine or entecavir in children and adolescents with immune-tolerant disease |
-| [29689122](https://pubmed.ncbi.nlm.nih.gov/29689122/) | 2018 | Phase 3 trial | Hepatology | PEG-B-ACTIVE: peginterferon alfa-2a in 161 HBeAg-positive immune-active children, randomized 2:1 |
-| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systematic review / meta-analysis | Antivir Ther | Individual participant data meta-analysis to identify peginterferon alfa-2a stopping rules |
-| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Cohort | Virol J | Long-term effects of peginterferon alfa-2a in Japanese patients |
-| [29715359](https://pubmed.ncbi.nlm.nih.gov/29715359/) | 2018 | Review | JAMA | Overview of chronic hepatitis B infection and its management |
-| [26198336](https://pubmed.ncbi.nlm.nih.gov/26198336/) | 2016 | Review | Gut Liver | Combining pegylated interferon with nucleos(t)ide therapy toward a cure |
-| [41312046](https://pubmed.ncbi.nlm.nih.gov/41312046/) | 2025 | Review | Drug Des Devel Ther | Peginterferon-induced functional cure in special populations with chronic hepatitis B |
+| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | N Engl J Med | Peginterferon alfa-2a with or without lamivudine compared with lamivudine alone in HBeAg-positive chronic hepatitis B |
+| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Entecavir plus peginterferon alfa-2a in adults with HBeAg-positive immune-tolerant infection |
+| [26299874](https://pubmed.ncbi.nlm.nih.gov/26299874/) | 2016 | Meta-analysis | Clin Res Hepatol Gastroenterol | Extended vs standard duration of peginterferon alfa-2a monotherapy in chronic hepatitis B |
+| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Meta-analysis | Antivir Ther | Individual-participant-data analysis to identify the best peginterferon stopping rules |
+| [22045673](https://pubmed.ncbi.nlm.nih.gov/22045673/) | 2011 | Randomized trial | Hepatology | Shorter durations and lower doses linked to lower HBeAg seroconversion in genotypes B or C |
+| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | Randomized trial | J Pediatr Gastroenterol Nutr | Peginterferon plus lamivudine or entecavir in children with immune-tolerant chronic hepatitis B |
+| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Randomized trial | Virol J | Long-term effects of peginterferon alfa-2a in Japanese patients with chronic hepatitis B |
+| [19084016](https://pubmed.ncbi.nlm.nih.gov/19084016/) | 2009 | Clinical trial | Gastroenterology | Peginterferon alfa-2a plus ribavirin in patients with dual HBV and HCV infection |
+| [32548156](https://pubmed.ncbi.nlm.nih.gov/32548156/) | 2020 | Cohort/biomarker | World J Clin Cases | Cytokines predict virological response to peginterferon alfa-2a |
+| [26188762](https://pubmed.ncbi.nlm.nih.gov/26188762/) | 2016 | Review | J Formos Med Assoc | Perspectives on dual hepatitis B and C infection in Taiwan |
 
 ---
 
@@ -107,16 +100,14 @@ The Evidence Pack lists 20 publications. The table below shows the 10 most relev
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2248077 | PEGASYS | Not listed | Not listed |
+| 02248077 | PEGASYS | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interactions were found in the DDI query.
-- **Guardrails from the Evidence Pack**: Monitor for known interferon toxicities (neuropsychiatric effects, cytopenias, autoimmune disease, hepatic flares). Apply response-guided stopping rules (see PMID 30865588).
-
-Please refer to the package insert for warnings and contraindications.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs. The sample reviewed includes several **Major** interactions: bupropion, deferiprone, iopamidol, iohexol, samarium (153Sm) lexidronam and eltrombopag. **Moderate** interactions include metronidazole, tinidazole, naltrexone, rosuvastatin, simvastatin, warfarin, dicoumarol, chloroquine, pegvaliase, palifermin, strontium chloride Sr-89, and bowel-preparation products (picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes).
+- Preclinical work (PMID 17049181) and the broader literature note that interferon-alpha can cause neuropsychiatric effects such as depression, and it is also associated with cardiotoxicity. Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -125,15 +116,15 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 randomized trials and a landmark RCT (NEJM, 2005) support peginterferon alfa-2a in chronic hepatitis B, which gives an L1 evidence level. This is an established use rather than new repurposing, and the safety data and Canadian label text are still missing.
+Many Phase 3 and Phase 4 trials plus randomized trials and meta-analyses support peginterferon alfa-2a in chronic hepatitis B, and the drug is marketed in Canada. Because hepatitis B is already an established indication, this is a confirmation rather than new repurposing. Many of the larger trials are Phase 4 or open-label, and the Phase 3 trials are small.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- The original indication and the approved indication text for DIN 2248077, to correct the empty fields
-- Mechanism of action data (for example from DrugBank)
-- A safety monitoring plan covering neuropsychiatric effects, cytopenias, autoimmune disease, and hepatic flares, plus response-guided stopping rules
+- Canadian package insert warnings and contraindications (the safety review cannot be completed without them)
+- Detailed mechanism of action data
+- Approved indication text and dosage form for the Canadian license
+- A review of the major drug interactions and a monitoring plan for neuropsychiatric and cardiac effects
 
-This report covers only the top-ranked prediction. Of the lower-ranked predictions, only hepatitis E virus infection (rank 2) has meaningful supporting data: humanized-mouse data and small human case series, with no HEV trials. It is a research question that needs safety evaluation first, especially the rejection risk in transplant recipients. The other predictions have no meaningful support.
+**Other predictions in this analysis:** Hepatitis E virus infection has only indirect evidence (all listed trials are in HBV) and should be treated as a research question. Hepatitis A, animal viral hepatitis, Omsk hemorrhagic fever, Kyasanur forest disease and the cardiac predictions (heart conduction disease, heart neoplasm, heart valve disease, ventricular septal anomaly) are supported only by model scores or by non-efficacy data, and are recommended to be **held**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

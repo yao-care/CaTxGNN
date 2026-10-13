@@ -2,7 +2,7 @@
 layout: default
 title: Entecavir
 parent: Moderate Evidence (L3-L4)
-nav_order: 330
+nav_order: 332
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,15 +33,14 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Entecavir is a nucleoside analogue antiviral whose established use is chronic hepatitis B (HBV).
-The TxGNN model predicts it may be effective for **chronic hepatitis C virus infection**, but the **40 matched clinical trials** and **20 publications** are almost all about HBV or HBV/HCV coinfection, and none shows entecavir treating HCV itself.
-This prediction is best treated as a model artifact rather than a real repurposing signal.
+Entecavir is an antiviral drug originally used to treat chronic hepatitis B virus (HBV) infection.
+The TxGNN model predicts it may be effective for **chronic hepatitis C virus infection**, but the evidence is weak: **2 clinical trials** and **20 publications** are linked to this prediction, and none shows entecavir treating hepatitis C. They address HBV in patients who have both infections.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B (the license records in the pack contain no indication text) |
+| Original Indication | Chronic hepatitis B virus infection |
 | Predicted New Indication | Chronic hepatitis C virus infection |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L4 |
@@ -51,49 +50,37 @@ This prediction is best treated as a model artifact rather than a real repurposi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. From general pharmacology, entecavir is a guanosine nucleoside analogue. Its triphosphate form inhibits HBV polymerase, blocking priming, reverse transcription and DNA synthesis.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, entecavir is a guanosine nucleoside analogue. Inside cells it is converted to its triphosphate form, which competes with the natural nucleotide dGTP and blocks the HBV polymerase.
 
-HBV and HCV are both hepatotropic viruses, and they often occur together, which likely explains the graph proximity behind the high score. Mechanistically, though, they differ. HBV is a DNA virus with a reverse-transcription step. HCV is an RNA virus that replicates through the NS5B RNA-dependent RNA polymerase, and entecavir has no established activity against it.
+Hepatitis B and C are both chronic viral liver infections, so the model's network proximity is understandable. The mechanisms differ, though. HCV replicates with its own RNA-dependent RNA polymerase (NS5B), and entecavir has no known direct activity against it. The high score most likely reflects how closely the two diseases sit in the knowledge graph, not a real antiviral effect on HCV.
 
-The retrieved trials and papers are largely HBV studies, or HBV/HCV coinfection studies in which entecavir treats only the HBV component. The high TxGNN score most likely reflects closeness to viral hepatitis nodes in the knowledge graph, not a real anti-HCV effect.
+The one plausible clinical link is co-infection. In people with both HBV and HCV, entecavir can suppress HBV replication or prevent HBV reactivation during HCV direct-acting antiviral (DAA) therapy. That is an HBV benefit, not treatment of HCV.
 
 ## Clinical Trial Evidence
 
-The table shows the 10 most relevant of the 40 matched trials, prioritising HCV/HBV coinfection studies. None of them tests entecavir as an HCV treatment.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Direct-acting antivirals in HCV/HBV coinfection; monitors HBV reactivation during anti-HCV treatment. Entecavir is not the HCV-active agent. |
-| [NCT04405011](https://clinicaltrials.gov/study/NCT04405011) | N/A | Unknown | 60 | Whether nucleos(t)ide analogue prophylaxis (12 vs 24 weeks) prevents HBV reactivation in HCV/HBV patients receiving DAA therapy. |
-| [NCT01270178](https://clinicaltrials.gov/study/NCT01270178) | N/A | Unknown | 420 | Entecavir for chronic hepatitis B in HCC patients after radiofrequency ablation. |
-| [NCT01928511](https://clinicaltrials.gov/study/NCT01928511) | Phase 4 | Completed | 254 | Switching to or adding pegylated interferon in HBV patients on long-term nucleos(t)ide therapy. Matched to HCV by keyword only. |
-| [NCT02881008](https://clinicaltrials.gov/study/NCT02881008) | Phase 1/2 | Completed | 48 | Myrcludex B versus entecavir in HBeAg-negative chronic hepatitis B. Entecavir is the HBV comparator. |
-| [NCT00096785](https://clinicaltrials.gov/study/NCT00096785) | Phase 3 | Completed | 69 | Early viral load reduction with entecavir versus adefovir in nucleoside-naive chronic hepatitis B. |
-| [NCT00065507](https://clinicaltrials.gov/study/NCT00065507) | Phase 3 | Completed | 195 | Entecavir versus adefovir in HBV with hepatic decompensation. |
-| [NCT00412529](https://clinicaltrials.gov/study/NCT00412529) | Phase 3 | Completed | 44 | Early HBV DNA kinetics with telbivudine or entecavir. |
-| [NCT00371150](https://clinicaltrials.gov/study/NCT00371150) | Phase 4 | Completed | 131 | Antiviral effect of entecavir in Black/African American and Hispanic patients with chronic HBV. |
-| [NCT05416008](https://clinicaltrials.gov/study/NCT05416008) | N/A | Unknown | 150 | Long-term nucleos(t)ide analogue use and hepatic steatosis in chronic hepatitis B. |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Tracks HBV reactivation during HCV DAA therapy in HCV/HBV co-infected patients. It does not test entecavir against HCV. |
+| [NCT04405011](https://clinicaltrials.gov/study/NCT04405011) | Not applicable | Unknown | 60 | Tests whether prophylactic nucleos(t)ide analogues, with 12 vs 24 weeks of prophylaxis, prevent HBV reactivation in co-infected patients on DAA therapy. This supports HBV prophylaxis, not HCV efficacy. |
 
 ## Literature Evidence
 
-The table shows the 10 most relevant of the 20 retrieved publications, prioritising HBV/HCV coinfection topics.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Cohort | Viruses | 66 anti-HCV-positive chronic hepatitis B patients on nucleos(t)ide therapy; studies whether HCV reactivates and how HCV RNA evolves after anti-HBV treatment. |
-| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Review | Expert Opin Pharmacother | Treatment advances in HBV/HCV coinfection, a group at high risk of cirrhosis and HCC. |
-| [22959099](https://pubmed.ncbi.nlm.nih.gov/22959099/) | 2013 | Review / case report | Clin Res Hepatol Gastroenterol | HBV/HCV coinfection as a therapeutic challenge, with more severe liver injury and higher HCC risk. |
-| [29194858](https://pubmed.ncbi.nlm.nih.gov/29194858/) | 2018 | Observational | J Viral Hepat | Low incidence of HBV reactivation in HCV patients receiving direct-acting antivirals (25 coinfected and 765 resolved-HBV patients). |
-| [28230928](https://pubmed.ncbi.nlm.nih.gov/28230928/) | 2017 | Not classified | J Gastroenterol Hepatol | Risk of HBV reactivation during DAA therapy for chronic hepatitis C with HBV infection. |
-| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Antivirals for hepatitis B and C and their effects on kidney function. |
-| [24868325](https://pubmed.ncbi.nlm.nih.gov/24868325/) | 2014 | Review | World J Hepatol | Managing hepatitis B and C around liver and kidney transplantation. Entecavir and tenofovir prevent HBV recurrence, with renal dose adjustment. |
-| [32173307](https://pubmed.ncbi.nlm.nih.gov/32173307/) | 2020 | Review | Clin Res Hepatol Gastroenterol | Management of viral hepatitis B and C in children. |
-| [32527114](https://pubmed.ncbi.nlm.nih.gov/32527114/) | 2021 | Review | Chin Clin Oncol | Timing and management of hepatitis B and C in patients with HCC. |
-| [35327336](https://pubmed.ncbi.nlm.nih.gov/35327336/) | 2022 | Review | Biomedicines | Therapy of chronic viral hepatitis (B, C and D). Nucleos(t)ide analogues are the long-term backbone for HBV. |
+| [34864158](https://pubmed.ncbi.nlm.nih.gov/34864158/) | 2022 | RCT | Clin Gastroenterol Hepatol | Entecavir prevents HBV reactivation during DAA treatment of HCV/HBV dual infection (an HBV-protective effect). |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Antiviral drugs for hepatitis B and C and their effects on kidney function. |
+| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Review | Expert Opin Pharmacother | Advances in treating HBV/HCV co-infection. |
+| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Review | Wien Med Wochenschr | Current treatment and future prospects for chronic hepatitis B and C. |
+| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Cohort | Viruses | HCV reactivation in anti-HCV-positive chronic hepatitis B patients (66 patients) on nucleos(t)ide analogue therapy for HBV. |
+| [35108715](https://pubmed.ncbi.nlm.nih.gov/35108715/) | 2022 | Not classified | Dig Dis | Incidence and course of HBV reactivation in patients treated with DAAs for hepatitis C. |
+| [28230928](https://pubmed.ncbi.nlm.nih.gov/28230928/) | 2017 | Not classified | J Gastroenterol Hepatol | HBV reactivation risk in chronic hepatitis C patients with HBV infection treated with DAAs. |
+| [32173307](https://pubmed.ncbi.nlm.nih.gov/32173307/) | 2020 | Not classified | Clin Res Hepatol Gastroenterol | Present and future management of viral hepatitis B and C in children. |
+| [24868325](https://pubmed.ncbi.nlm.nih.gov/24868325/) | 2014 | Not classified | World J Hepatol | Management of hepatitis B and C before and after liver and kidney transplantation. Entecavir and tenofovir are described for HBV. |
+| [28487602](https://pubmed.ncbi.nlm.nih.gov/28487602/) | 2017 | Not classified | World J Gastroenterol | HBV infection and alcohol consumption as causes of hepatocellular carcinoma. |
 
 ## Canada Market Information
 
-Dosage form and approved-indication text are not included in the license records provided. Five of the 10 DINs are listed below.
+Entecavir has 10 valid single-ingredient licenses in Canada, and no cancelled ones. The first 5 are listed below. Dosage form and approved-indication text were not available for these licenses.
 
 | DIN | Product Name |
 |---------|------|
@@ -105,20 +92,31 @@ Dosage form and approved-indication text are not included in the license records
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+- **Contraindication-related conditions (from the knowledge graph, not label text):** impaired renal function, fatty liver disease, non-alcoholic steatohepatitis, and lactic acidosis.
+- **Monitoring points from the evidence review:** lactic acidosis, renal function, thrombocytopenia (a case report exists, PMID 34823407), and hepatitis flares after stopping treatment.
+- **Drug interactions:** 44 interactions were recorded, and all those shown are Moderate. The main ones are:
+  - Acid-suppressing H2 blockers: famotidine, ranitidine, cimetidine.
+  - Metformin.
+  - Potentially nephrotoxic agents: amphotericin B (several formulations), vancomycin, kanamycin, neomycin, polymyxin B.
+  - Levofloxacin, amoxicillin, and orlistat.
+  - Aminosalicylates: mesalazine, balsalazide, olsalazine, sulfasalazine.
+
+Please also refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Entecavir has no established anti-HCV mechanism, and the supporting trials and papers are all about HBV or HBV/HCV coinfection. The high TxGNN score is best explained by graph proximity to viral hepatitis nodes. The HBV indication (rank 2 in this pack) is on-label and well supported, so it is not a repurposing case.
+- The TxGNN score is very high (99.98%), but there is no evidence that entecavir treats hepatitis C. Entecavir targets the HBV polymerase, not HCV NS5B.
+- The linked trials and publications concern HBV reactivation in HBV/HCV co-infected patients, which is an HBV indication.
+- HCV already has highly effective, specific direct-acting antivirals, so there is little need for this repurposing.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, for example from DrugBank
-- In vitro HCV replicon or other preclinical data showing entecavir activity against HCV
-- Evidence that entecavir (not a direct-acting antiviral) improves HCV outcomes; without it, this candidate should not advance
+- In vitro evidence of anti-HCV activity, such as replicon assays.
+- Detailed mechanism of action data to support or refute a link to HCV.
+- If the co-infection use is of interest, a separate evaluation framed as HBV reactivation prophylaxis during HCV DAA therapy, not HCV treatment.
+- The package insert warnings and contraindications from Health Canada, which were missing from the data compiled for this report.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

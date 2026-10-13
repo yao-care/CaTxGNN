@@ -29,84 +29,99 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Avapritinib: From KIT/PDGFRA-Driven Tumours to Axial Spondylometaphyseal Dysplasia
+# Avapritinib: From Gastrointestinal Stromal Tumor to Axial Spondylometaphyseal Dysplasia
 
 ## One-Sentence Summary
 
-Avapritinib is a KIT/PDGFRA kinase inhibitor. Based on general knowledge, it is used in gastrointestinal stromal tumour and systemic mastocytosis, because the Evidence Pack lists no original indication.
-The TxGNN model predicts it may be effective for **axial spondylometaphyseal dysplasia**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+Avapritinib is a KIT/PDGFRA kinase inhibitor originally used to treat gastrointestinal stromal tumor (GIST).
+The TxGNN model predicts it may be effective for **axial spondylometaphyseal dysplasia**, but this is a model-only prediction:
+**0 clinical trials** and **0 publications** were found to support it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence data provided |
+| Original Indication | Gastrointestinal stromal tumor (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Axial spondylometaphyseal dysplasia |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. From general knowledge, avapritinib inhibits the KIT and PDGFRA tyrosine kinases, which drive certain tumours and mast cell disorders.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, avapritinib is a kinase inhibitor that targets KIT and PDGFRA. Its efficacy in GIST is tied to those targets.
 
-Axial spondylometaphyseal dysplasia is a rare skeletal dysplasia with no known KIT/PDGFRA involvement. No mechanistic link to the original indications was identified, so the prediction rests only on the TxGNN score. The model score is very high, but it should be read as a hypothesis-generating signal, not as biological support.
+For axial spondylometaphyseal dysplasia, no mechanistic link can be established. It is a rare skeletal disorder reported to be linked to CFAP410 (C21orf2), with no known involvement of KIT or PDGFRA. The TxGNN score is a graph-based computational prediction and should be treated as a hypothesis, not as evidence of efficacy.
 
-Other top predictions carry the same weakness:
-- Most are rare developmental or motor neuron conditions with no evident KIT/PDGFRA rationale.
-- The exception is amyotrophic lateral sclerosis (ALS), which has a speculative link. Other KIT/CSF1R-active kinase inhibitors, such as masitinib, have been studied in ALS through mast cell and microglia modulation. For avapritinib there are no supporting data, and CNS penetration and safety in this population are unknown.
-- ALS is therefore best treated as a preclinical research question, not a clinical candidate.
+Other top-ranked predictions are also weakly supported. Most are rare neurological or developmental conditions (for example amyotrophic lateral sclerosis and related motor neuron disorders). The only loose rationale is a hypothesis about KIT-mediated neuroinflammation in ALS, and it has no supporting trials or literature here.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2551764 | AYVAKYT |
-| 2551780 | AYVAKYT |
-| 2551799 | AYVAKYT |
-| 2551772 | AYVAKYT |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02551764 | AYVAKYT | Not specified | Not specified |
+| 02551780 | AYVAKYT | Not specified | Not specified |
+| 02551799 | AYVAKYT | Not specified | Not specified |
+| 02551772 | AYVAKYT | Not specified | Not specified |
 
-Dosage form and approved indication text are not included in the provided licence records.
+---
 
 ## Cytotoxicity
 
-Avapritinib is an antineoplastic agent based on its known oncology use.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (kinase inhibitor), not a conventional cytotoxic |
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs. The 20 shown in the data compiled for this report include:
+  - **Major**: aprepitant, acetylsalicylic acid, clarithromycin, dexamethasone, cobicistat, deferasirox, deferiprone, ibritumomab tiuxetan, tositumomab (I-131), samarium (153Sm) lexidronam
+  - **Moderate**: cimetidine, clotrimazole, miconazole, dexfenfluramine, fenfluramine, glycerol phenylbutyrate, metreleptin, sibutramine, troglitazone, strontium chloride Sr-89
+- **Additional concerns raised in the prediction rationale**: Intracranial haemorrhage and cognitive adverse effects are known concerns with avapritinib. They matter particularly for the neurodegenerative conditions among the predictions.
+
+Please refer to the package insert for warnings and contraindications, as this information was not available in the compiled data.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no trials, no publications and no plausible KIT/PDGFRA mechanism for this rare skeletal dysplasia. Safety data from the Canadian package insert has also not been reviewed, so the candidate cannot move past initial screening.
+The prediction rests only on a graph-based model score. No clinical trials or publications support it, and no plausible mechanism links KIT/PDGFRA inhibition to axial spondylometaphyseal dysplasia. The same holds for the other top-ranked predictions.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap)
-- Mechanism of action data from DrugBank, to test whether any KIT/PDGFRA link exists
-- Original indication and approved indication text for the four DINs
-- Any disease-specific biological rationale, such as expression or pathway data, for axial spondylometaphyseal dysplasia
-- If a neurological direction is pursued, a separate preclinical review for ALS, including CNS penetration and safety
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data for avapritinib
+- Preclinical or mechanistic evidence linking KIT/PDGFRA signalling to the predicted disease
+- Approved indication text and dosage forms for the Canadian licences
+- A literature and trial search for the predicted indication, including a risk-benefit assessment given the drug's CNS-related adverse effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

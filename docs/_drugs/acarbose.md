@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Acarbose: From Type 2 Diabetes to Focal Stiff Limb Syndrome
+# Acarbose: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary
 
-Acarbose is an intestinal alpha-glucosidase inhibitor that lowers blood glucose after meals, and it is generally used in diabetes. The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, but **0 clinical trials** and **0 publications** support this prediction. It is a model-only signal with no mechanistic rationale.
-
----
+Acarbose was originally used to treat **type 2 diabetes mellitus**.
+The TxGNN model predicts it may be effective for **focal stiff limb syndrome**,
+but there are currently **no clinical trials and no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (general drug knowledge; the Health Canada licence records in the pack contain no indication text) |
+| Original Indication | Type 2 diabetes mellitus (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 99.65% |
 | Evidence Level | L5 |
@@ -49,61 +49,56 @@ Acarbose is an intestinal alpha-glucosidase inhibitor that lowers blood glucose 
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Acarbose is known to be an intestinal alpha-glucosidase inhibitor that slows carbohydrate digestion and reduces postprandial glucose. It acts locally in the gut.
+Currently, detailed mechanism of action data is not available. Based on known information, acarbose is an alpha-glucosidase inhibitor that acts locally in the gut, and its efficacy in type 2 diabetes mellitus is established. It slows carbohydrate digestion and so reduces the rise in blood sugar after meals.
 
-Focal stiff limb syndrome belongs to the stiff-limb / stiff person spectrum. These are immune-mediated central nervous system disorders, often linked to anti-GAD65 antibodies and impaired GABAergic signalling. Acarbose does not act on these pathways, so **no plausible mechanistic link was identified**.
+The link to focal stiff limb syndrome is weak. This is a rare neurological condition closely related to stiff person syndrome, which is typically autoimmune (often anti-GAD) and frequently occurs alongside diabetes. The model's high score most likely reflects network proximity to diabetes-associated autoimmune neurological conditions, not a pharmacological relationship. Acarbose has no known effect on GABAergic signalling or on the autoimmune process, so the prediction should be treated as a hypothesis only.
 
-The high score (99.65%) is probably a graph-based artefact. Stiff person spectrum disorders are frequently comorbid with diabetes, and the knowledge graph may be linking the two through that shared neighbour. At most, acarbose could help glycaemic control in a patient who has both conditions. It would not treat the neurological disease itself.
-
----
+The same pattern applies to the other top predictions (classic stiff person syndrome, thiamine-responsive dysfunction syndrome, opsismodysplasia, and several localized lipodystrophies). All are model predictions with no supporting trials or literature, and none has a plausible mechanistic link to acarbose.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for focal stiff limb syndrome.
 
----
+The only publications retrieved were for a lower-ranked prediction, pancreatic agenesis (rank 9). They cover type 2 diabetes, beta-cell preservation, insulin autoimmune syndrome and animal models, and none addresses pancreatic agenesis directly. They therefore do not support the lead prediction.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2494086 | MAR-ACARBOSE |
-| 2494078 | MAR-ACARBOSE |
-
-Dosage form, manufacturer and approved indication text are not recorded for these two licences.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02494086 | MAR-ACARBOSE | Not listed | Not listed |
+| 02494078 | MAR-ACARBOSE | Not listed | Not listed |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication-related conditions (from the TxGNN knowledge graph, not label text):** kidney disease, pyoureter, liver disease, gallbladder disease, cirrhosis of liver, inflammatory bowel disease, hypoglycemia, injury.
 
----
+**Drug Interactions:** 100 interactions were identified in the DDInter database. The first 20 returned include:
+- **Moderate:** acetazolamide, salbutamol, aloe vera leaf, alpelisib, amprenavir, aripiprazole, asenapine, asparaginase (Erwinia chrysanthemi and E. coli), atazanavir, bedaquiline, bendroflumethiazide, benzphetamine, benzthiazide, betamethasone
+- **Minor:** albiglutide, alclometasone (topical), lipoic acid, amcinonide, anisindione
+
+Many of the moderate interactions involve drugs that can raise blood glucose (such as corticosteroids, thiazides and some antipsychotics), which may reduce the glucose-lowering effect of acarbose. The full list of 100 interactions was not available for review.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5). There is no trial or publication support and no plausible mechanism. Ranks 2–8 (classic stiff person syndrome, thiamine-responsive dysfunction syndrome, opsismodysplasia and four lipodystrophy variants) are also L5 and Hold. Rank 9, pancreatic agenesis, is L4 and Hold. Its 10 retrieved publications cover general diabetes, insulin autoimmune syndrome and postprandial hyperglycaemia, and none studies the predicted disease. Any benefit would be symptomatic glucose control in patients who also have diabetes, not repurposing for the underlying condition.
+The prediction is supported only by the TxGNN score, with no clinical trials or literature, so the evidence level is L5. No plausible pharmacological link exists between a gut alpha-glucosidase inhibitor and focal stiff limb syndrome.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are missing and block safety screening
-- Detailed mechanism of action data, from DrugBank
-- Approved indication text, dosage form and manufacturer for the two DINs
-- Any preclinical or clinical evidence linking acarbose to stiff-limb syndromes. Without it, the candidate should not advance beyond S0.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for acarbose, to allow a proper mechanistic analysis
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Any clinical or preclinical evidence linking acarbose to focal stiff limb syndrome or stiff person spectrum disorders
+- Indication and dosage form details for the two Canadian DINs
+- Reassessment of whether other predicted indications have better support
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

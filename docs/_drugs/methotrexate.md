@@ -2,7 +2,7 @@
 layout: default
 title: Methotrexate
 parent: Model Prediction Only (L5)
-nav_order: 595
+nav_order: 600
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methotrexate: From Established Antifolate Uses to Pulmonary Blastoma
+# Methotrexate: From Acute Lymphoblastic Leukemia to Pulmonary Blastoma
 
 ## One-Sentence Summary
 
-Methotrexate is a long-established antifolate drug, and it is currently marketed in Canada under 20 DINs.
-The TxGNN model predicts it may be effective for **pulmonary blastoma**, a rare lung tumour, with a score of 99.45%.
-However, **0 clinical trials** and **0 publications** were retrieved for this specific indication, so the prediction is model-only.
+Methotrexate is an established antifolate drug, used for acute lymphoblastic leukemia, lymphomas, rheumatoid arthritis and psoriasis.
+The TxGNN model predicts it may be effective for **pulmonary blastoma**, a rare aggressive lung tumour.
+So far there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ---
 
@@ -43,21 +43,25 @@ However, **0 clinical trials** and **0 publications** were retrieved for this sp
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records provided |
+| Original Indication | Acute lymphoblastic leukemia (other listed uses include non-Hodgkin lymphoma, mycosis fungoides, rheumatoid arthritis and psoriasis) |
 | Predicted New Indication | Pulmonary blastoma |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+The Canadian licence records compiled for this report contain no indication text. The original indication is therefore taken from the indications listed in the TxGNN knowledge graph.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on general pharmacology, methotrexate is an antifolate that inhibits dihydrofolate reductase (DHFR). This blocks nucleotide synthesis and suppresses rapidly dividing cells. Its cytotoxic activity is established in several cancers.
+Methotrexate blocks the enzyme dihydrofolate reductase (DHFR) and so disrupts thymidylate and DNA synthesis in rapidly dividing cells. This is the basis of its use in leukemia and lymphoma, where fast-growing cells are especially vulnerable.
 
-Pulmonary blastoma is a rare malignant lung tumour. A generic antiproliferative mechanism could in principle apply to it. Nothing in the retrieved data links methotrexate to this tumour specifically, and no disease-specific mechanism has been checked. The high TxGNN score is therefore a hypothesis-generating signal only.
+Pulmonary blastoma is an aggressive, embryonal-type lung tumour. Because it is fast-growing, a general antifolate rationale is plausible, and this is probably why the model links it to methotrexate.
+
+This is a mechanism-based extrapolation only. The data compiled for this report contain no trials, case reports or other publications of methotrexate in pulmonary blastoma. The tumour is also very rare, which makes prospective evidence hard to generate.
 
 ---
 
@@ -75,37 +79,56 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Five of the 20 authorizations are listed below. Dosage form, manufacturer and approved-indication text were empty in the source records.
+Methotrexate has 20 valid single-ingredient authorizations in Canada and none have been cancelled. The records compiled for this report do not include dosage form or approved-indication text. The first five are shown below.
 
 | DIN | Product Name |
 |---------|------|
-| 2099705 | Methotrexate Sodium Injection |
-| 2454874 | Metoject Subcutaneous |
-| 2491338 | Methotrexate Subcutaneous |
-| 2454831 | Metoject Subcutaneous |
-| 2454769 | Metoject Subcutaneous |
+| 02099705 | Methotrexate Sodium Injection |
+| 02454874 | Metoject Subcutaneous |
+| 02491338 | Methotrexate Subcutaneous |
+| 02454831 | Metoject Subcutaneous |
+| 02454769 | Metoject Subcutaneous |
+
+Other products include Methotrexate Tablets USP (02182750), PMS-Methotrexate Injection, Methofill Self-Dose Injector, Nordimet and ACH-Methotrexate.
 
 ---
 
 ## Cytotoxicity
 
-The general profile below comes from the drug class, not from the Evidence Pack. Please confirm against the package insert warnings and precautions.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (antimetabolite / antifolate) |
-| Myelosuppression Risk | Medium to high, dose-dependent |
-| Emetogenicity Classification | Low to moderate, depending on dose |
-| Monitoring Items | CBC with differential, liver and renal function, pulmonary symptoms |
+| Cytotoxicity Classification | Conventional cytotoxic (antimetabolite, antifolate class) |
+| Myelosuppression Risk | High, especially at high doses (leukopenia, thrombocytopenia and anemia are recognised) |
+| Emetogenicity Classification | Low to moderate, dose-dependent |
+| Monitoring Items | CBC with differential, liver and renal function, and methotrexate levels for high-dose regimens |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
+
+This is based on general drug-class knowledge, because the compiled data contain no detailed toxicity information. Please also refer to the package insert warnings and precautions.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication-type associations (from the TxGNN knowledge graph, not label text):**
+The graph links methotrexate to the following conditions. They should be treated as caution signals until verified against the label:
+- Liver failure and liver disease
+- Kidney disease
+- Gallbladder disease
+- Thrombocytopenia, leukopenia and anemia (including macrocytic anemia)
+- Interstitial lung disease and pulmonary fibrosis
+- Peptic ulcer disease and gastric ulcer
+- Ulcerative colitis and inflammatory bowel disease
+- Stomatitis
+- Immune system disease
+- Substance abuse/dependence
+- Pyoureter
 
-The retrieved literature for related lymphoma searches also describes two methotrexate-associated signals. These are methotrexate-associated lymphoproliferative disorders, some of them EBV-related, and methotrexate-induced lung injury. The lung injury signal matters most for any pulmonary indication.
+**Drug Interactions:** 100 interactions were identified in total. The main ones are:
+- **Major:** rabeprazole, amoxicillin, acetylsalicylic acid
+- **Moderate:** acarbose, doxycycline, tetracycline, clarithromycin, pioglitazone, bupropion, amphotericin B, mesalazine, balsalazide, and corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+- **Minor:** potassium citrate
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
@@ -114,23 +137,20 @@ The retrieved literature for related lymphoma searches also describes two methot
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone (L5). No trials or publications support methotrexate in pulmonary blastoma, and no mechanism has been checked against the record.
+The prediction score is very high (99.45%), but there are no trials or publications for pulmonary blastoma (Evidence Level L5). The only support is a generic antifolate mechanism. Methotrexate is marketed in Canada and its safety profile is well known, but this does not substitute for disease-specific evidence.
 
-Other ranked candidates in this pack have more supporting material, though still indirect:
-- **Primary pulmonary lymphoma (rank 2):** rated L4, with case reports and primary CNS lymphoma data.
-- **Small cell lung carcinoma (rank 3):** rated L3, with historical combination-regimen studies from 1978 to 1985.
-- **Hodgkin lymphoma (rank 5):** rated L3, with historical VBM regimen studies.
+Other predictions for methotrexate have more support in the compiled data:
+- Hodgkin lymphoma and rhabdomyosarcoma are at L2.
+- Primary pulmonary lymphoma is at L4.
 
-These would be more sensible starting points for a deeper review.
+These may be better candidates to prioritise.
 
 **To proceed, the following is needed:**
-- A targeted literature review of methotrexate in pulmonary blastoma, including case reports and registries
-- Mechanism of action data (MOA) from DrugBank
-- Health Canada package insert warnings and contraindications
-- Approved-indication text for the Canadian authorizations
-- A review of pulmonary toxicity risk, given the methotrexate lung injury reports
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Disease-specific evidence for methotrexate in pulmonary blastoma, such as case series, preclinical models or tumour folate-pathway data
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from Health Canada
+- Review of how this rare tumour is currently treated, to judge whether methotrexate adds anything to existing options
+- A safety monitoring plan, including dose, route and organ-function considerations for lung-tumour patients
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

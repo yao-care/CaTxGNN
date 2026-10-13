@@ -2,7 +2,7 @@
 layout: default
 title: Prucalopride
 parent: Model Prediction Only (L5)
-nav_order: 775
+nav_order: 782
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prucalopride: From Prokinetic GI Therapy to Hypoalphalipoproteinemia
+# Prucalopride: From Constipation Disorder to Hypoalphalipoproteinemia
 
 ## One-Sentence Summary
 
-Prucalopride is a selective 5-HT4 receptor agonist prokinetic that promotes gastrointestinal motility. The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia** (low HDL cholesterol) with a very high score. However, there are currently **0 clinical trials** and **0 publications** supporting this direction, and no plausible mechanistic link has been identified.
-
----
+Prucalopride is a selective 5-HT4 receptor agonist (prokinetic) originally used to treat chronic constipation.
+The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia** (low HDL cholesterol), but this is a computational prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Health Canada license data provided (general pharmacology: GI motility disorders) |
+| Original Indication | Constipation disorder (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Hypoalphalipoproteinemia |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general pharmacology, prucalopride is a selective 5-HT4 receptor agonist that stimulates gut motility. Its established role is in GI motility disorders, not in lipid metabolism.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, prucalopride is a selective 5-HT4 receptor agonist that stimulates gastrointestinal motility, and its efficacy in constipation is established.
 
-The prediction is difficult to justify mechanistically. Prucalopride has no known role in HDL metabolism, and nothing links a 5-HT4 agonist prokinetic to low HDL cholesterol. The 99.82% score comes from the knowledge-graph model alone and is not backed by any trial or publication. High scores should therefore not be read as evidence of efficacy.
+Mechanistically, there is no known pathway connecting 5-HT4 agonism to HDL metabolism, so the prediction does not have a plausible biological explanation at present. The high score reflects a pattern in the knowledge graph rather than pharmacological reasoning, and no trials or publications support it.
 
-Other top-ranked predictions show the same pattern. Most, such as homozygous familial hypercholesterolemia, oral candidiasis and strongyloidiasis, have no plausible link either. The only partly coherent ideas are the amyloidosis-related terms. There, a prokinetic might ease GI dysmotility symptoms, but it would not treat the underlying disease.
-
----
+Other top-ranked predictions show the same pattern. Most are also unsupported (homozygous familial hypercholesterolemia, oral candidiasis, strongyloidiasis, HIV infection). The only partly plausible group is amyloidosis (including primary amyloidosis and amyloid neuropathy). In these, gut involvement can cause dysmotility or chronic intestinal pseudo-obstruction, where a prokinetic might relieve symptoms. This would treat GI symptoms rather than the underlying disease, and no efficacy data exist. These are better framed as research questions than as repurposing candidates for the top-ranked indication.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for hypoalphalipoproteinemia.
 
 ## Canada Market Information
 
-Ten licenses are on record in total; the five main ones are listed below. Dosage form and approved indication text are not available in the data provided.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02491591 | APO-PRUCALOPRIDE | Not specified | Not specified |
+| 02493497 | JAMP PRUCALOPRIDE | Not specified | Not specified |
+| 02550377 | NRA-PRUCALOPRIDE | Not specified | Not specified |
+| 02377012 | RESOTRAN | Not specified | Not specified |
+| 02377020 | RESOTRAN | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2491591 | APO-PRUCALOPRIDE |
-| 2493497 | JAMP PRUCALOPRIDE |
-| 2550377 | NRA-PRUCALOPRIDE |
-| 2377012 | RESOTRAN |
-| 2377020 | RESOTRAN |
-
----
+Five of the 10 valid single-ingredient licences are shown. All 10 are valid, and none are cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the data provided.
+- **Contraindications (knowledge graph, not label text)**: ulcerative colitis, inflammatory bowel disease, intestinal perforation.
+- **Drug Interactions**: 98 interactions were found. Examples of moderate-level interactions include:
+  - anticholinergics (aclidinium, atropine, hyoscyamine, glycopyrronium, clidinium, benzatropine, biperiden)
+  - hormonal contraceptives (levonorgestrel, norethisterone, ethinylestradiol)
 
----
+  Minor-level examples include nifedipine, afatinib, alpelisib, amiodarone, cobicistat, captopril, diltiazem, spironolactone, carvedilol and conivaptan.
+
+Package insert warnings and contraindications were not available, so please refer to the Health Canada package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no trials or publications, and no plausible mechanism links a 5-HT4 agonist to HDL metabolism. Prioritising this indication is not justified at present.
+The prediction rests on a model score alone (L5). There is no mechanistic link, trial or publication for hypoalphalipoproteinemia, and the safety review cannot proceed without label data.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently blocking safety screening)
-- Mechanism of action data from DrugBank
-- Any mechanistic or preclinical evidence connecting 5-HT4 agonism to HDL or lipid metabolism
-- Original approved indication text for the Canadian licenses
-- Optionally, a separate review of the amyloidosis-related predictions (rank 6, 9 and 10) as GI-symptom research questions. These are indirect and would not treat the underlying disease.
+- Package insert warnings and contraindications from Health Canada
+- Mechanism of action data (for example from DrugBank)
+- A credible biological hypothesis linking 5-HT4 agonism to HDL metabolism, with preclinical or observational support
+- Approved indication text and dosage forms for the Canadian licences
+- Optionally, evaluation of the amyloidosis-related GI dysmotility indications as a separate research question, since they have the most plausible (though indirect) rationale
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

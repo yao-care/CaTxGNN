@@ -2,7 +2,7 @@
 layout: default
 title: Indacaterol
 parent: Model Prediction Only (L5)
-nav_order: 472
+nav_order: 477
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Indacaterol: From Obstructive Airway Disease to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Indacaterol: From Obstructive Airway Disease (COPD/Asthma) to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Indacaterol is an ultra-long-acting beta2-agonist (LABA). Its marketed products in Canada are used for obstructive airway disease. The source record lists no original indications, so this is inferred from the product names and the linked COPD and asthma trials.
-The TxGNN model ranks **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)** as its top prediction with a very high graph score. This prediction has **0 clinical trials** and **0 publications** behind it, so it is a model output only.
-
----
+Indacaterol is an inhaled, once-daily, ultra-long-acting beta2-agonist (ultra-LABA), used as a bronchodilator for obstructive airway disease.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)** with a very high score,
+but **no clinical trials and no publications** support this prediction, so it remains a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the source data (inferred: COPD / asthma) |
+| Original Indication | Obstructive airway disease (COPD and asthma, based on the published literature; the Health Canada licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L5 |
@@ -50,93 +49,53 @@ The TxGNN model ranks **nephrogenic syndrome of inappropriate antidiuresis (NSIA
 | Number of DINs | 5 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on known pharmacology, indacaterol is a beta2-adrenergic agonist. It relaxes airway smooth muscle through beta2-receptor and cAMP signaling, which gives sustained bronchodilation.
+Indacaterol is a beta2-adrenergic agonist. It relaxes bronchial smooth muscle by activating beta2-receptors and raising intracellular cAMP. Detailed mechanism-of-action data were not available in the drug database records compiled for this report, so this description relies on the drug class and the published literature.
 
-The prediction does not hold up mechanistically. NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*). Beta2-agonism has no established link to this defect. The high score most likely reflects network proximity in the knowledge graph rather than a real therapeutic relationship. No trial or publication supports it.
-
----
+NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2), which also signals through cAMP. This shared second messenger is the only visible link the model may be picking up on. It is not a therapeutic rationale: boosting cAMP signalling would, in theory, increase rather than reduce water-retention signalling. The very high score is therefore not supported by any mechanistic or clinical evidence, and it likely reflects class-level or network associations in the knowledge graph.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for this predicted indication.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
-
-## Other Predicted Indications
-
-Nine further candidates were returned. Only one has any real evidence, and it is largely a confirmation of existing use.
-
-| Rank | Predicted Indication | Score | Evidence Level | Decision | Comment |
-|------|------|------|------|------|------|
-| 2 | Headache disorder | 99.53% | L5 | Hold | The two linked trials are COPD studies. Headache is a common adverse event of inhaled beta2-agonists, so this is more likely a safety signal than a benefit. |
-| 3 | Trigeminal autonomic cephalalgia | 99.33% | L5 | Hold | Graph prediction only. |
-| 4 | Paratenonitis | 99.26% | L5 | Hold | No known link to beta2-agonism. |
-| 5 | Calcific tendinitis | 99.25% | L5 | Hold | Graph prediction only. |
-| 6 | Hypertrichosis | 99.23% | L5 | Hold | No plausible link. |
-| 7 | Bronchial disease | 99.18% | L1 | Proceed with Guardrails | 37 trials and 20 publications. See below. |
-| 8 | Myositis | 99.12% | L5 | Hold | Graph prediction only. |
-| 9 | Anaphylaxis | 99.07% | L5 | Hold | Epinephrine is the standard treatment. Indacaterol's slow onset makes it unsuitable for acute use. |
-| 10 | Ambras type hypertrichosis universalis congenita | 99.06% | L5 | Hold | Rare genetic disorder with no plausible link. |
-
-**Rank 7, bronchial disease.** The support consists of the trials and papers below.
-- **Large phase 3 RCTs:**
-  - [NCT02571777](https://clinicaltrials.gov/study/NCT02571777): 52 weeks, n=3,092, indacaterol/glycopyrronium/mometasone vs indacaterol/mometasone in asthma.
-  - [NCT02554786](https://clinicaltrials.gov/study/NCT02554786): n=2,216, indacaterol/mometasone vs mometasone.
-  - [NCT03158311](https://clinicaltrials.gov/study/NCT03158311): n=1,426, non-inferiority vs a free triple combination.
-- **Key publication:** the IRIDIUM RCT, [PMID 32653074](https://pubmed.ncbi.nlm.nih.gov/32653074/) (Lancet Respir Med, 2020).
-- **Important caveats:**
-  - COPD is already a labeled use, so this is mostly confirmation rather than true repurposing.
-  - The asthma evidence applies to fixed-dose combinations with an inhaled corticosteroid (mometasone) and glycopyrronium.
-  - LABA monotherapy is not appropriate in asthma because of the class boxed-warning risk.
-
----
+Currently no related literature available for this predicted indication.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2498685 | ATECTURA BREEZHALER |
-| 2498707 | ATECTURA BREEZHALER |
-| 2498693 | ATECTURA BREEZHALER |
-| 2418282 | ULTIBRO BREEZHALER |
-| 2501244 | ENERZAIR BREEZHALER |
+| DIN | Product Name | Status |
+|---------|------|------|
+| 02498685 | ATECTURA BREEZHALER | Valid |
+| 02498707 | ATECTURA BREEZHALER | Valid |
+| 02498693 | ATECTURA BREEZHALER | Valid |
+| 02418282 | ULTIBRO BREEZHALER | Valid |
+| 02501244 | ENERZAIR BREEZHALER | Valid |
 
-The record does not include dosage forms or approved indication text for these licenses. Atectura and Enerzair are combination products with mometasone (Enerzair also contains glycopyrronium). Ultibro combines indacaterol with glycopyrronium.
-
----
+All five authorisations are currently valid, and none are cancelled. Dosage form, manufacturer and approved indication text were not available in the records compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations from the knowledge graph** (these come from model-derived drug-disease contraindication links, not from label text): hypertension and hypertensive disorder, long QT syndrome (including familial), sudden cardiac arrest, heart conduction disease, coronary artery disease, epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, and thyrotoxicosis, hyperthyroidism and Graves disease.
+- **Drug interactions:** 100 interactions were identified. The ones reviewed include:
+  - *Moderate:* epinephrine, isometheptene, clarithromycin, famotidine, and several antidiabetic agents (metformin, pioglitazone, acarbose, alogliptin, albiglutide, saxagliptin, canagliflozin, dapagliflozin, chlorpropamide).
+  - *Minor:* corticosteroids (hydrocortisone, dexamethasone, triamcinolone, beclomethasone, betamethasone, budesonide) and aprepitant.
 
-As a class note from the evidence review, LABA monotherapy in asthma carries a boxed-warning class risk. Headache is a commonly reported adverse event of inhaled beta2-agonists.
-
----
+For label-based warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, NSIAD, rests on a graph score alone. There are no trials or publications, and there is no credible mechanism linking beta2-agonism to a vasopressin V2 receptor gain-of-function disorder.
+The prediction rests on a model score alone, with no trials or publications. The mechanistic link is unfavourable, because beta2-agonism acting through cAMP could in theory worsen the cAMP-driven water retention in NSIAD. The same applies to the other nine top-ranked predictions: none has clinical evidence. One of them, bronchial disease (rank 7), has substantial Phase 3 support, but it largely restates the drug's existing marketed use rather than representing new repurposing.
 
 **To proceed, the following is needed:**
-- Fill in the drug's original indication record, which is currently empty. This would clarify which predictions are true repurposing and which are existing uses.
-- Obtain the mechanism of action data from DrugBank.
-- Download and parse the Health Canada package insert to complete warnings and contraindications. This is currently a blocking gap for safety screening.
-- If any follow-up is pursued, limit it to the labeled COPD use or ICS-containing asthma combinations (rank 7). Do not pursue NSIAD without new mechanistic or clinical evidence.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- A plausible pharmacological rationale, for example preclinical work in AVPR2 gain-of-function models.
+- Any clinical or case-level evidence in NSIAD.
+- The Health Canada package insert, to complete the label-based warnings and contraindications.
+- A safety assessment for the cardiovascular, metabolic and electrolyte risks noted above, especially in the population affected by NSIAD.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

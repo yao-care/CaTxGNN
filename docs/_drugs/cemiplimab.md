@@ -2,7 +2,7 @@
 layout: default
 title: Cemiplimab
 parent: Model Prediction Only (L5)
-nav_order: 171
+nav_order: 173
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cemiplimab: From Approved Squamous Carcinoma Indications to Gallbladder Adenosquamous Carcinoma
+# Cemiplimab: From Squamous Cell Carcinoma to Gallbladder Adenosquamous Carcinoma
 
 ## One-Sentence Summary
 
-Cemiplimab (marketed in Canada as LIBTAYO) is a PD-1 inhibitor that is marketed for squamous carcinomas and non-small cell lung cancer.
+Cemiplimab is an anti-PD-1 antibody originally used to treat squamous cell carcinoma (cutaneous squamous cell carcinoma in particular).
 The TxGNN model predicts it may be effective for **gallbladder adenosquamous carcinoma**,
-but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a model prediction only.
+but currently there are **0 clinical trials** and **0 publications** supporting this specific prediction, so the evidence is model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license record; the prediction rationale refers to squamous carcinomas and non-small cell lung cancer |
+| Original Indication | Squamous cell carcinoma (cutaneous squamous cell carcinoma, per the knowledge graph) |
 | Predicted New Indication | Gallbladder adenosquamous carcinoma |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -51,51 +51,41 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the supplied record. Cemiplimab is a PD-1 inhibitor, and it is marketed for squamous carcinomas and non-small cell lung cancer. Mechanistically, it may be applicable to tumors with a squamous component.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cemiplimab is an antibody that binds human PD-1 (gene *PDCD1*) and blocks its interaction with PD-L1 (IC50 below 1 nM in an ELISA). This releases the brake on T-cell activity against tumours. Its efficacy in cutaneous squamous cell carcinoma has been shown, and it is also approved for some other cancers such as non-small cell lung cancer.
 
-Adenosquamous carcinoma contains both glandular and squamous elements. The squamous component may plausibly respond to PD-1 blockade, as in cemiplimab's approved squamous indications.
+The link to the predicted indication is shared squamous histology. A squamous component in gallbladder adenosquamous carcinoma could plausibly respond to PD-1 blockade. However, adenosquamous biliary tumours are rare and have distinct biology, and no supporting data were available. This is therefore a hypothesis, not demonstrated benefit.
 
-This link is inferred, not demonstrated. Gallbladder adenosquamous carcinoma is rare and has mixed histology, which adds uncertainty. No trial or literature evidence was found for it.
+Other high-scoring predictions follow the same pattern (all with evidence level L5 unless noted):
+- Glottis and supraglottis squamous cell carcinoma, and non-keratinizing sinonasal squamous cell carcinoma (head and neck squamous types)
+- Rectal cloacogenic carcinoma, lung occult squamous cell carcinoma, urethral verrucous carcinoma
+- Adenosquamous carcinomas of the prostate and pancreas (tumour types generally poorly responsive to PD-1 monotherapy)
+- External ear basal cell carcinoma (L4, one case report; see below)
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for this predicted indication.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for gallbladder adenosquamous carcinoma.
 
-## Other Predicted Indications
+For reference, among the other top-ranked predictions, one publication was found:
 
-The same model run produced nine other high-scoring predictions, listed below.
-
-| Rank | Predicted Indication | Score | Evidence Level | Decision | Note |
-|------|------|------|------|------|------|
-| 2 | Glottis squamous cell carcinoma | 99.99% | L5 | Hold | Head and neck squamous carcinoma is a plausible PD-1 context; no evidence supplied |
-| 3 | Rectal cloacogenic carcinoma | 99.99% | L5 | Hold | Histology resembles other squamous carcinomas; no evidence supplied |
-| 4 | External ear basal cell carcinoma | 99.99% | L4 | Research Question | One 2021 case report ([PMID 34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/)) describes a lasting response after stopping cemiplimab in locally advanced BCC |
-| 5 | Adenosquamous prostate carcinoma | 99.99% | L5 | Hold | Prostate cancers respond poorly to PD-1 monotherapy |
-| 6 | Urethral verrucous carcinoma | 99.99% | L5 | Hold | Checkpoint biology of this slow-growing variant is poorly characterized |
-| 7 | Lung occult squamous cell carcinoma | 99.99% | L5 | Hold | The occult stage is not a typical setting for PD-1 therapy |
-| 8 | Pancreatic adenosquamous carcinoma | 99.99% | L5 | Hold | Pancreatic tumors are typically immunologically cold |
-| 9 | Non-keratinizing sinonasal squamous cell carcinoma | 99.99% | L5 | Hold | Plausible PD-1 context; no evidence supplied |
-| 10 | Supraglottis squamous cell carcinoma | 99.99% | L5 | Hold | Plausible PD-1 context; no evidence supplied |
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/) | 2021 | Case report | Clinical and Experimental Dermatology | Lasting response after cemiplimab was stopped in a patient with locally advanced basal cell carcinoma (predicted indication: external ear basal cell carcinoma). A single case, not specific to the ear. |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2487144 | LIBTAYO |
-
-Dosage form, manufacturer and approved indication text were not included in the supplied license record.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02487144 | LIBTAYO | Not available | Not available |
 
 ## Cytotoxicity
 
-Cemiplimab is an antineoplastic agent, and its class is immunotherapy (PD-1 checkpoint inhibitor).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-1 inhibitor) |
+| Cytotoxicity Classification | Immunotherapy (anti-PD-1 antibody), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -103,23 +93,24 @@ Cemiplimab is an antineoplastic agent, and its class is immunotherapy (PD-1 chec
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 9 moderate-level interactions were identified (DDInter), all with corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone, methylprednisolone and deflazacort. Corticosteroids may blunt the immune activity that PD-1 blockade relies on, so their use alongside cemiplimab should be reviewed. Separately, the pharmacology record lists its target as PD-1 (CD279).
+
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for these.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.99%), but there are no registered trials and no publications for gallbladder adenosquamous carcinoma. The mechanistic link is only inferred from squamous histology, and the tumor is rare with mixed histology, so the evidence level is L5.
+The prediction score is very high (99.99%), but there are no clinical trials or publications for gallbladder adenosquamous carcinoma. The mechanistic argument rests only on shared squamous histology, and this rare tumour has distinct biology. Evidence is at the model-prediction level (L5).
 
 **To proceed, the following is needed:**
-- Health Canada package insert, including warnings, contraindications and approved indication text (needed before any safety screening)
+- Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)
+- Approved indication text and dosage form for the Canadian licence
 - Detailed mechanism of action data from DrugBank
-- A targeted search for trials and literature on gallbladder and biliary adenosquamous carcinoma
-- Route and dosage-form compatibility assessment for the proposed indication
-- Consider prioritizing external ear basal cell carcinoma (rank 4, L4) for deeper literature review, since it is the only prediction with any published support
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- A literature and trial search specific to biliary adenosquamous carcinoma, and external data on PD-1 inhibitors in biliary tract cancers
+- Review of corticosteroid co-medication and a safety monitoring plan
+- Prioritisation of candidates with some supporting evidence (for example, head and neck squamous types or basal cell carcinoma) for follow-up
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

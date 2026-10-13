@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amiloride
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 50
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Amiloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Amiloride: From Potassium-Sparing Diuretic Use to Malignant Renovascular Hypertension
+# Amiloride: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Amiloride is a potassium-sparing diuretic, marketed in Canada under products such as MIDAMOR and AA-AMILZIDE.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**.
-The prediction is supported by **0 clinical trials** and **1 publication**, and that publication is a general review that does not study amiloride directly.
-
----
+Amiloride is a potassium-sparing diuretic originally used for hypertension and congestive heart failure.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but the evidence is thin: **no clinical trials** and only **1 publication** (a general review of mineralocorticoid hypertension) support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records; amiloride is known as a potassium-sparing diuretic and antihypertensive adjunct |
+| Original Indication | Hypertensive disorder, hypertension, congestive heart failure (the approved indication text for the Canadian licences is not available, so this comes from the knowledge graph) |
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 (indirect literature only, no trials) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. Based on the mechanistic notes, amiloride blocks the epithelial sodium channel (ENaC) in the distal nephron. This promotes sodium excretion and potassium retention. It is an established add-on treatment for high blood pressure, especially when driven by mineralocorticoids such as aldosterone.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, amiloride blocks the epithelial sodium channel (ENaC) in the distal nephron, which reduces sodium reabsorption and spares potassium. Its efficacy in hypertension and heart failure is established.
 
-Malignant renovascular hypertension is a different situation. It is driven mainly by renin-angiotensin system activation caused by narrowing of the renal artery. Amiloride's effect on sodium handling could help blood pressure control in principle, but the link is indirect and has not been shown for this condition.
+Renovascular hypertension is driven by activation of the renin-angiotensin-aldosterone axis. Amiloride is also used in mineralocorticoid-driven hypertension, so a mechanistic link is plausible. However, malignant renovascular hypertension is an acute, severe condition normally managed by revascularization and parenteral agents. The fit is therefore plausible but not specific. The high TxGNN score most likely reflects the drug's existing hypertension indication rather than new evidence.
 
-The score of 99.82% is a network-based prediction, not clinical evidence. Interpret it with caution, because no trials are registered for this indication.
-
----
+Other predictions for this drug are also weakly supported:
+- **Malignant hypertensive renal disease** (99.82%): no trials or literature (L5). Hyperkalaemia risk in renal impairment is a major concern.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.81%): L4 evidence, mostly preclinical. It suggests a possible role for ENaC/ASIC1/NHE1 inhibition, but several retrieved papers are off-topic and the therapeutic direction is unclear.
+- **Chronic pulmonary heart disease** (99.68%): L3 evidence, indirect, from general congestive heart failure studies. This is the most clinically grounded of the alternatives and may be worth a closer look.
+- **Pulmonary hypertension with unclear multifactorial mechanism** and **Braddock syndrome**: model prediction only (L5).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12929904](https://pubmed.ncbi.nlm.nih.gov/12929904/) | 2003 | Review | J Hypertens Suppl | General review of mineralocorticoid hypertension. It notes that about 3% of hypertensive patients have corticosteroid-induced hypertension and that primary aldosteronism is the most frequent cause. The typical finding is hypokalaemic hypertension with low plasma renin activity. |
-
-This is background on a related hypertension mechanism. It does not test amiloride in renovascular hypertension.
-
----
+| [12929904](https://pubmed.ncbi.nlm.nih.gov/12929904/) | 2003 | Review | J Hypertens Suppl | Overview of investigating mineralocorticoid hypertension. Hypokalaemic hypertension with low plasma renin is typical, and primary aldosteronism is the most frequent cause. It is not specific to renovascular hypertension. |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2249510 | MIDAMOR |
-| 784400 | AA-AMILZIDE |
-
-Dosage form, manufacturer and approved indication text are not available in the supplied records.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02249510 | MIDAMOR | Not specified | Not specified |
+| 00784400 | AA-AMILZIDE | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (these are not label text): kidney disease, anuria, liver disease, hepatic coma/encephalopathy, diabetes mellitus, diabetic ketoacidosis, diabetic nephropathy, gout, potassium deficiency disease, acidosis disorders (including lactic acidosis), pancreatitis, gallbladder disease, systemic lupus erythematosus, hyperparathyroidism, and others.
+- **Drug Interactions**: 100 interactions were identified. Those listed include:
+  - *Moderate*: metformin; corticosteroids (hydrocortisone, betamethasone, budesonide, dexamethasone); SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin); exenatide; bupropion; dronabinol; and laxatives (bisacodyl, castor oil, glycerin, lactitol, lactulose).
+  - *Minor*: doxycycline, amoxicillin, cimetidine.
+- **Hyperkalaemia**: a published case report describes severe hyperkalaemia in an elderly patient (with trimethoprim-sulfamethoxazole). This is especially relevant for renal indications.
 
-One point from the mechanistic notes deserves attention. Amiloride carries a hyperkalaemia risk in renal impairment, which matters for hypertensive renal disease and related kidney-involving conditions.
-
----
+Please also refer to the package insert, as the label warnings were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score and a plausible but indirect mechanism. There are no registered trials, and the only publication is a general review. Health Canada safety information has not been reviewed, so the candidate cannot yet pass safety screening.
+The prediction rests on a high model score and a general review. There are no clinical trials, and the mechanistic link is plausible but nonspecific. The clinical setting (an acute, severe condition managed with other approaches) and the hyperkalaemia and renal risks do not favour advancing at this stage.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, including the hyperkalaemia risk in renal impairment
-- Detailed mechanism of action data
-- Targeted literature on amiloride in renovascular or renin-driven hypertension
-- Approved indication text for the two Canadian licences
-
-**Note on other predictions:** Among the other predicted indications, only chronic pulmonary heart disease has any supporting evidence (L4, "Research Question"). That evidence comes from congestive heart failure studies (a small crossover trial of amiloride added to digoxin and diuretics, and a furosemide plus amiloride trial), plus a rat model of increased alveolar fluid reabsorption, so it is indirect. The literature listed for the pulmonary hypertension due to lung disease or hypoxia prediction concerns general hypoxia and does not support amiloride. The remaining predictions rest on the model score alone.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Direct clinical or mechanistic evidence in renovascular hypertension
+- Consideration of chronic pulmonary heart disease as a better-supported alternative, with indication-specific evidence beyond general heart failure studies
+- A hyperkalaemia and renal function monitoring plan for any renal-involved population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

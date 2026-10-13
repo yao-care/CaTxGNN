@@ -2,7 +2,7 @@
 layout: default
 title: Meloxicam
 parent: Model Prediction Only (L5)
-nav_order: 576
+nav_order: 581
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Meloxicam: From Conventional NSAID Use to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Meloxicam: From Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Meloxicam is a COX-2-preferential non-steroidal anti-inflammatory drug (NSAID) that is marketed in Canada. The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder. There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
-
----
+Meloxicam is a COX-2-preferential NSAID, originally used to treat rheumatoid arthritis, osteoarthritis and related joint conditions.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type** (a rare genetic skeletal disorder), but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available Canadian licence records |
+| Original Indication | Rheumatoid arthritis (the Canadian licence records contain no indication text; the original indications come from the knowledge graph and also include osteoarthritis, juvenile idiopathic arthritis and spondyloarthropathy) |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Meloxicam is an NSAID that preferentially inhibits COX-2, which reduces prostaglandin-mediated inflammation and pain. Its usefulness for inflammatory and painful joint conditions is well known.
+Currently, detailed mechanism of action data is not available. Based on known information, meloxicam is a COX-2-preferential NSAID that reduces prostaglandin synthesis. Its efficacy in inflammatory and degenerative joint disease is established.
 
-The predicted disease is a monogenic skeletal dysplasia caused by disruption of the CDMP1/GDF5 growth-factor pathway. Meloxicam has no known action on this pathway. At most, it might give symptomatic pain relief. The high TxGNN score likely reflects network-level associations in the knowledge graph, not a demonstrated biological link.
+Acromesomelic dysplasia, Hunter-Thompson type is a rare skeletal dysplasia caused by CDMP1/GDF5 mutations. Meloxicam does not address this genetic defect. The high score most likely reflects network proximity to skeletal and joint phenotypes in the knowledge graph, not a therapeutic mechanism. At most, meloxicam could provide symptomatic pain relief for joint complaints, which is not disease modification.
 
-The other top-10 predictions are also mostly rare genetic skeletal or developmental syndromes with no plausible COX-inhibition link. Two are more credible:
-
-- **Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (rank 8):** NSAIDs give direct symptomatic relief in JIA, and one indirect literature item exists (see below).
-- **Spondyloarthropathy, susceptibility to (rank 6):** NSAIDs are first-line therapy for spondyloarthritis symptoms. This entry is a genetic-susceptibility label, so any assessment should target clinical axial SpA or ankylosing spondylitis instead.
-
----
+**Other top-ranked predictions** follow a similar pattern:
+- **Brachyolmia-amelogenesis imperfecta syndrome, brachyolmia, myosclerosis, WHIM syndrome and colobomatous microphthalmia-rhizomelic dysplasia syndrome**: no plausible mechanism and no evidence.
+- **Pseudoachondroplasia**: NSAIDs are used for joint pain, but only symptomatically.
+- **Rheumatoid nodulosis, spondyloarthropathy (susceptibility) and RF-positive polyarticular JIA**: close to existing indications, so they are better viewed as extensions of the current use than as true repurposing. The only retrieved paper, a Phase 4 registry on celecoxib and nonselective NSAIDs in JIA, gives class-level safety data but nothing specific to meloxicam.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available for the top-ranked prediction.
 
-For context, the only literature item in the whole evidence pack concerns the rank 8 prediction (JIA). It is a 2014 Phase 4 registry study of celecoxib versus nonselective NSAIDs in JIA ([PMID 25057265](https://pubmed.ncbi.nlm.nih.gov/25057265/), *Pediatric Rheumatology Online Journal*). It is a cohort study. It is unconfirmed whether meloxicam was studied or whether the study was specific to RF-positive disease.
-
----
-
 ## Canada Market Information
 
-Five of the 10 authorizations are listed below. Dosage form, manufacturer and approved-indication text are not recorded for these entries.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02353148 | MELOXICAM | Not specified | Not specified |
+| 02258315 | TEVA-MELOXICAM | Not specified | Not specified |
+| 02390884 | AURO-MELOXICAM | Not specified | Not specified |
+| 02353156 | MELOXICAM | Not specified | Not specified |
+| 02258323 | TEVA-MELOXICAM | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2353148 | MELOXICAM |
-| 2258315 | TEVA-MELOXICAM |
-| 2390884 | AURO-MELOXICAM |
-| 2353156 | MELOXICAM |
-| 2258323 | TEVA-MELOXICAM |
-
----
+All 10 licences are valid single-ingredient products. Only the first 5 are shown.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph (not label text):** hypertension, kidney disease and impaired renal function, congestive heart failure and other heart or cardiovascular disease, myocardial infarction, stroke and cerebrovascular disorders, active peptic ulcer disease, gastritis, blood coagulation disease, anaemia and haemoglobinopathy, diabetes mellitus and diabetic ketoacidosis, hyperlipidaemia, and substance abuse/dependence.
+- **Drug Interactions:** 100 interactions were found. Most of those listed are Moderate, including corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), acetylsalicylic acid, metformin, glimepiride, chlorpropamide, mesalazine, balsalazide, aprepitant, vancomycin, kanamycin, and several bowel preparations and potassium salts. Linaclotide is Minor.
 
----
+Package insert warnings and contraindications were not retrieved, so please refer to the Health Canada package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no trials or publications, and there is no plausible mechanistic link between COX inhibition and the GDF5 pathway disorder. Any benefit would be at most symptomatic pain relief.
+The prediction rests on model output alone, with no trials, no literature, and no plausible mechanism. Meloxicam would at best relieve symptoms and would not modify the disease. The knowledge-graph contraindication list is also extensive.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Approved indication text and dosage forms for the Canadian licences
-- Detailed mechanism of action data
-- If the aim is symptomatic use in rheumatic conditions, redirect the assessment to better-supported candidates such as JIA (confirm whether meloxicam was studied and whether the label covers JIA) or clinical axial spondyloarthritis or ankylosing spondylitis
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Evidence that meloxicam affects the GDF5/CDMP1 pathway or clinical outcomes in this disorder, if any exists
+- Consider prioritising the closer-to-label predictions (RF-positive polyarticular JIA, spondyloarthropathy, rheumatoid nodulosis) as research questions, since they lie within the established class use of NSAIDs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

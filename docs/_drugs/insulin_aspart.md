@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Aspart
 parent: High Evidence (L1-L2)
-nav_order: 475
+nav_order: 480
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Insulin Aspart: From Approved Insulin Therapy to Type 1 Diabetes Mellitus
+# Insulin Aspart: From Diabetes Mellitus to Type 1 Diabetes Mellitus
 
 ## One-Sentence Summary
 
-Insulin aspart is a rapid-acting insulin analogue marketed in Canada under brand names such as NovoRapid, Fiasp and Trurapi.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, with **50 clinical trials** and **20 publications** currently supporting this direction.
-This is an established, on-label use of the drug, so the prediction confirms standard of care rather than pointing to a new therapeutic area.
-
----
+Insulin aspart is a rapid-acting insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
+The TxGNN model predicts it is effective for **type 1 diabetes mellitus**, with **30 clinical trials** and **20 publications** currently supporting this direction.
+Type 1 diabetes is a core, already-established use of insulin, so this prediction largely confirms existing practice rather than opening a new therapeutic area.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence records provided (insulin therapy for diabetes) |
+| Original Indication | Diabetes mellitus; diabetic ketoacidosis |
 | Predicted New Indication | Type 1 diabetes mellitus |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L1 |
@@ -51,91 +49,76 @@ This is an established, on-label use of the drug, so the prediction confirms sta
 | Number of DINs | 10 |
 | Recommended Decision | Proceed with Guardrails |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, insulin aspart is a rapid-acting analogue of human insulin. Type 1 diabetes is defined by autoimmune destruction of pancreatic beta cells and the resulting insulin deficiency. Exogenous insulin replaces the missing hormone, so the mechanism fits the disease directly.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, insulin aspart is a rapid-acting human insulin analogue. It acts on the insulin receptor to replace deficient endogenous insulin, and it is absorbed faster than regular human insulin after subcutaneous injection.
 
-Because this is standard-of-care use, the high TxGNN score mostly reflects an already known relationship. The literature supports this: reviews describe insulin aspart, taken immediately before meals, as giving lower HbA1c and better postprandial control than regular human insulin in type 1 diabetes.
-
-The other nine predictions are weaker. Only permanent neonatal diabetes mellitus (rank 5) has a plausible insulin-replacement rationale, and its evidence is a single indirect review. Several others (autoimmune oophoritis, stiff person syndrome variants) look like graph proximity through autoimmune diabetes comorbidity, not a therapeutic effect. Drug-induced localized lipodystrophy is a known adverse effect of injected insulin, so it is a safety flag rather than a candidate.
-
----
+Type 1 diabetes is defined by absolute insulin deficiency, which is the situation insulin replacement is designed to correct. The original indication (diabetes mellitus) already includes type 1 diabetes. The prediction is therefore an on-label use, not true repurposing, and the high TxGNN score is consistent with the known pharmacology.
 
 ## Clinical Trial Evidence
 
-The table lists the 10 most relevant of the 50 trials found.
+The data compiled for this report list 30 trials. The 10 most relevant are shown below, prioritising completed Phase 3 trials directly involving insulin aspart.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00097071](https://clinicaltrials.gov/study/NCT00097071) | Phase 3 | Completed | 299 | Insulin aspart vs insulin lispro in insulin pumps in children and adolescents with type 1 diabetes |
-| [NCT00888732](https://clinicaltrials.gov/study/NCT00888732) | Phase 3 | Completed | 24 | Quadruple crossover of PK/PD for aspart, biphasic aspart 70/50 and human insulin. Small, so it supports exposure-response more than clinical outcomes |
-| [NCT00832182](https://clinicaltrials.gov/study/NCT00832182) | Phase 3 | Completed | 75 | Non-randomised extension assessing long-term safety of insulin aspart in a basal-bolus regimen |
-| [NCT01467141](https://clinicaltrials.gov/study/NCT01467141) | Phase 4 | Completed | 26 | Meal-related aspart vs human insulin in children aged 2–6 years, randomised crossover |
-| [NCT04772729](https://clinicaltrials.gov/study/NCT04772729) | Phase 4 | Unknown | 77 | Faster aspart vs aspart on time in range in children using pumps and CGM. Status unverified |
-| [NCT04149262](https://clinicaltrials.gov/study/NCT04149262) | N/A | Completed | 44 | Real-world retrospective comparison of Fiasp vs NovoRapid in paediatric pump users |
-| [NCT02035371](https://clinicaltrials.gov/study/NCT02035371) | Phase 1 | Completed | 41 | Pharmacokinetics of faster aspart in children, adolescents and adults with type 1 diabetes |
-| [NCT02003677](https://clinicaltrials.gov/study/NCT02003677) | Phase 1 | Completed | 67 | PK/PD of faster aspart in geriatric vs younger adults with type 1 diabetes |
-| [NCT03215498](https://clinicaltrials.gov/study/NCT03215498) | Phase 1 | Completed | 58 | Faster aspart vs NovoRapid as pump bolus in type 1 diabetes |
-| [NCT03993366](https://clinicaltrials.gov/study/NCT03993366) | N/A | Completed | 8 | Pilot of Fiasp-plus-pramlintide closed-loop delivery. Very small |
-
----
+| [NCT00097071](https://clinicaltrials.gov/study/NCT00097071) | Phase 3 | Completed | 299 | Insulin aspart vs insulin lispro in insulin pumps in children and adolescents with T1DM |
+| [NCT02825251](https://clinicaltrials.gov/study/NCT02825251) | Phase 3 | Completed | 472 | Faster-acting insulin aspart vs NovoRapid by continuous subcutaneous infusion in adults with T1DM |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Completed | 114 | Insulin detemir + aspart vs NPH + aspart in adults with T1DM |
+| [NCT01520818](https://clinicaltrials.gov/study/NCT01520818) | Phase 3 | Completed | 666 | Biphasic insulin aspart 50/70 vs biphasic human insulin 30 in T1DM or T2DM |
+| [NCT01467323](https://clinicaltrials.gov/study/NCT01467323) | Phase 3 | Completed | 303 | Biphasic insulin aspart 30 vs biphasic human insulin 30/70, twice daily, in T1DM and T2DM |
+| [NCT00725036](https://clinicaltrials.gov/study/NCT00725036) | Phase 3 | Completed | 305 | Long-term safety of inhaled human insulin vs subcutaneous aspart (both with NPH) in T1DM |
+| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Phase 3 | Terminated | 596 | Inhaled mealtime insulin vs subcutaneous aspart (with detemir) in T1DM, efficacy and pulmonary safety |
+| [NCT01999322](https://clinicaltrials.gov/study/NCT01999322) | Phase 3 | Completed | 37 | Compatibility and safety of faster aspart and aspart with an external insulin pump in adults with T1DM |
+| [NCT01848990](https://clinicaltrials.gov/study/NCT01848990) | Phase 4 | Completed | 456 | Hyaluronidase pre-administration in continuous subcutaneous insulin infusion in T1DM; HbA1c at 6 months |
+| [NCT00593255](https://clinicaltrials.gov/study/NCT00593255) | Phase 4 | Completed | 220 | Insulin aspart vs human soluble insulin for postprandial glucose in Chinese patients with T1DM and T2DM |
 
 ## Literature Evidence
 
-The table lists 10 of the 20 publications found.
+The data compiled for this report list 20 publications. The 10 most relevant are shown below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40129237](https://pubmed.ncbi.nlm.nih.gov/40129237/) | 2025 | RCT | Diabetes Obes Metab | Double-blind crossover of faster aspart vs insulin aspart in adults with type 1 diabetes using a non-automated pump and CGM |
-| [37804858](https://pubmed.ncbi.nlm.nih.gov/37804858/) | 2023 | RCT | Lancet Diabetes Endocrinol | CopenFast: faster aspart vs aspart on fetal growth in type 1 or type 2 diabetes during pregnancy and post-delivery |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: degludec vs detemir, both with aspart, in pregnant women with type 1 diabetes. Aspart is background therapy, so this is indirect evidence |
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: weekly icodec vs daily degludec in a basal-bolus regimen in type 1 diabetes. Aspart is background therapy, so this is indirect evidence |
-| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematic review | Diabetes Metab | Efficacy and safety of insulin aspart vs regular human insulin in type 1 and type 2 diabetes |
-| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Review | Drugs | Pre-meal aspart gave lower HbA1c than regular human insulin in most randomised trials in type 1 diabetes |
-| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Review | Treat Endocrinol | Spotlight on insulin aspart: faster absorption and better postprandial control than regular human insulin |
-| [29978361](https://pubmed.ncbi.nlm.nih.gov/29978361/) | 2019 | Review | Clin Pharmacokinet | Faster insulin aspart as a new bolus option, with PK/PD comparison against insulin aspart |
-| [39115159](https://pubmed.ncbi.nlm.nih.gov/39115159/) | 2024 | Cohort (post hoc) | Diabet Med | Safety and glycaemic control of aspart vs other bolus insulins in pregnancy with type 1 diabetes |
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Observational | Acta Diabetol | Glulisine vs lispro and aspart in pump-treated type 1 diabetes: HbA1c, dose, and rates of hypo-/hyperglycaemia and DKA |
-
----
+| [27362975](https://pubmed.ncbi.nlm.nih.gov/27362975/) | 2016 | Systematic Review | Cochrane Database Syst Rev | Short-acting insulin analogues vs regular human insulin in adults with T1DM |
+| [25644227](https://pubmed.ncbi.nlm.nih.gov/25644227/) | 2015 | Systematic Review/Meta-analysis | Pol Arch Med Wewn | Efficacy and safety of insulin aspart vs regular human insulin in T1DM and T2DM |
+| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematic Review | Diabetes Metab | Insulin aspart vs regular human insulin in T1DM and T2DM |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Systematic Review | Drugs Today | Insulin analogues, including aspart, for T1DM in children and adolescents |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | Degludec vs detemir, both with aspart, in pregnant women with T1DM (EXPECT) |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | Once-weekly icodec vs once-daily degludec in a basal-bolus regimen in T1DM (ONWARDS 6) |
+| [40445776](https://pubmed.ncbi.nlm.nih.gov/40445776/) | 2025 | RCT | Diabetes Technol Ther | Fully closed-loop delivery with faster aspart in adolescents with T1DM above HbA1c target |
+| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Review | Drugs | Review of insulin aspart in T1DM and T2DM; mealtime dosing lowered HbA1c more than regular human insulin |
+| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Review | Treat Endocrinol | Spotlight on insulin aspart in T1DM and T2DM |
+| [29978361](https://pubmed.ncbi.nlm.nih.gov/29978361/) | 2019 | Review | Clin Pharmacokinet | Faster insulin aspart as a new bolus option, with greater glucose lowering at 20 minutes |
 
 ## Canada Market Information
 
-Ten authorisations are on record; the five main ones are shown. The records provided do not include dosage form or approved-indication text.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02506564 | TRURAPI | Not listed | Not listed |
+| 02529254 | TRURAPI | Not listed | Not listed |
+| 02460424 | FIASP | Not listed | Not listed |
+| 02460408 | FIASP | Not listed | Not listed |
+| 02245397 | NOVORAPID | Not listed | Not listed |
 
-| DIN | Product Name |
-|---------|------|
-| 02506564 | TRURAPI |
-| 02529254 | TRURAPI |
-| 02460424 | FIASP |
-| 02460408 | FIASP |
-| 02245397 | NOVORAPID |
-
----
+Ten valid single-ingredient DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30). Only the first five are shown.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-Two points come from the predictions themselves: injected insulin is a known cause of injection-site lipodystrophy, and paediatric dosing and hypoglycaemia risk need explicit review in young children.
-
----
+Among the lower-ranked TxGNN predictions, injection-site localized lipodystrophy is a known adverse effect of injected insulin, and should be considered a safety signal.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-At least two completed Phase 3 trials and several Phase 4 paediatric studies support insulin aspart in type 1 diabetes, and the mechanism is straightforward insulin replacement. However, this is an existing standard-of-care use rather than true repurposing. The evidence is also uneven: the Phase 3 PK/PD study is small (n=24), and several supportive trials and papers use aspart only as background therapy.
+Multiple completed Phase 3 trials and several systematic reviews support insulin aspart in type 1 diabetes, and the product is already marketed in Canada. Because this is an on-label use, the main gap is the missing label-based safety information, not efficacy.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently missing, and blocking safety screening)
-- Approved-indication text and dosage forms for the Canadian DINs, so the original indication can be stated
-- Mechanism of action data from DrugBank
-- A paediatric hypoglycaemia and dosing review
-- Targeted aspart-specific evidence before advancing permanent neonatal diabetes mellitus (rank 5). The other predictions (ranks 2–4 and 6–10) should stay on Hold.
+- Health Canada package insert warnings and contraindications (currently missing and blocking the safety screening)
+- Detailed mechanism of action data from DrugBank
+- Approved indication text and dosage forms for each DIN
+- A review of the other predicted indications (e.g., autoimmune oophoritis, stiff person syndrome), which lack any clinical evidence and should stay on Hold
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

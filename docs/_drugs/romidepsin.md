@@ -2,7 +2,7 @@
 layout: default
 title: Romidepsin
 parent: Model Prediction Only (L5)
-nav_order: 814
+nav_order: 821
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Romidepsin: From Its Licensed Use to Dermatofibrosarcoma Protuberans
+# Romidepsin: From Cutaneous T-Cell Lymphoma to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Romidepsin is marketed in Canada as ISTODAX, but the Health Canada record provided does not state its approved indication.
-The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**, but **0 clinical trials** and only **2 publications** relate to this prediction, and both publications are cell line establishment papers with no romidepsin data.
+Romidepsin is a drug originally used to treat T-cell lymphomas, including primary cutaneous T-cell lymphoma and peripheral T-cell lymphoma.
+The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**, but there are **0 clinical trials** and only **2 publications** (both patient-derived cell line reports that do not test romidepsin), so the prediction rests almost entirely on the computational model.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Health Canada data provided |
+| Original Indication | Primary cutaneous T-cell lymphoma, peripheral T-cell lymphoma and related T-cell and NK-cell lymphomas |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
@@ -48,64 +50,78 @@ The TxGNN model predicts it may be effective for **dermatofibrosarcoma protubera
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in DrugBank for this record. The Evidence Pack describes romidepsin as a class I histone deacetylase (HDAC) inhibitor. HDAC inhibitors alter gene expression and can slow tumor growth, which is why they are studied in several cancers.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, romidepsin is a class I histone deacetylase (HDAC) inhibitor. Its efficacy in T-cell lymphoma has been established, and by changing gene expression through epigenetic regulation it may in principle be applicable to other tumours.
 
-DFSP is a low-grade skin sarcoma driven by a COL1A1-PDGFB gene fusion that keeps the PDGFB growth signal switched on. The prediction comes from the knowledge graph only. No source provided shows a direct link between HDAC inhibition and the COL1A1-PDGFB mechanism. No romidepsin sensitivity data in DFSP cells is included either.
+DFSP is a low-grade skin sarcoma driven by a COL1A1–PDGFB fusion gene. It is quite different from T-cell lymphoma in cell type and biology. The link is only a computational prediction (high TxGNN score). No direct drug-disease connection has been demonstrated. The two retrieved papers describe the establishment of patient-derived DFSP cell lines, which are useful as future test models but do not test romidepsin.
 
-The score is very high, but the other nine predicted indications score nearly the same (99.29% to 99.67%), so the score does not show that DFSP is a stronger candidate than the others.
+For context, the same prediction list also includes liposarcoma, where a preclinical study suggests HDAC2 inhibition lowers MDM2 expression in dedifferentiated liposarcoma. That is a separate indication and does not support DFSP.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for dermatofibrosarcoma protuberans.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37490236](https://pubmed.ncbi.nlm.nih.gov/37490236/) | 2023 | Preclinical (cell line) | Human Cell | Establishes NCC-DFSP4-C1, a cell line from a DFSP with fibrosarcomatous transformation, which has a poorer prognosis than classic DFSP |
-| [30411273](https://pubmed.ncbi.nlm.nih.gov/30411273/) | 2019 | Preclinical (cell line) | In Vitro Cell Dev Biol Anim | Establishes two patient-derived DFSP cell lines (NCC-DFSP1-C1, NCC-DFSP2-C1) with the COL1A1-PDGFB translocation |
+| [37490236](https://pubmed.ncbi.nlm.nih.gov/37490236/) | 2023 | Preclinical (cell line) | Human Cell | Establishment of NCC-DFSP4-C1, a cell line from DFSP with fibrosarcomatous transformation; no romidepsin testing reported |
+| [30411273](https://pubmed.ncbi.nlm.nih.gov/30411273/) | 2019 | Preclinical (cell line) | In Vitro Cell Dev Biol Anim | Establishment of two DFSP cell lines (NCC-DFSP1-C1, NCC-DFSP2-C1) carrying the COL1A1-PDGFB translocation; no romidepsin testing reported |
 
-Both papers build research models. Neither reports romidepsin activity, so they could serve as future test systems but are not evidence of efficacy.
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2414295 | ISTODAX |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02414295 | ISTODAX | Not stated | Not stated |
 
-Dosage form, manufacturer and approved indication text are not available in the data provided.
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted epigenetic therapy (class I HDAC inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Cytotoxicity Classification | Targeted epigenetic therapy (HDAC inhibitor), used as an antineoplastic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph links the drug to thrombocytopenia, neutropenia, leukopenia, anaemia and lymphopenia |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions; follow local cytotoxic drug handling regulations |
+| Monitoring Items | Complete blood count with differential, liver and renal function, electrolytes (especially potassium), ECG |
+| Handling Protection | Follow institutional cytotoxic drug handling regulations |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-related cautions (knowledge graph, not label text)**: The TxGNN knowledge graph lists the following conditions as contraindication-related: long QT syndrome (including familial), heart conduction disease, sudden cardiac arrest, potassium deficiency, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, lymphopenia, anaemia (including macrocytic), liver disease, gallbladder disease, chronic kidney disease, chronic renal failure and end-stage renal failure. These should be verified against the Canadian product monograph.
+- **Drug Interactions**: 100 interactions were found. Examples shown include:
+  - **Major**: dolasetron
+  - **Moderate**: ondansetron, palonosetron, clarithromycin, levofloxacin, miconazole, dexamethasone, famotidine, loperamide, rolapitant, eliglustat, and several laxatives or bowel-preparation agents (bisacodyl, picosulfuric acid, polyethylene glycol, lactulose, lactitol, sodium sulfate, castor oil)
+  - **Minor**: metronidazole
+
+  Many of these involve QT-prolonging or electrolyte-altering drugs, which is consistent with the cardiac and potassium cautions above.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The DFSP prediction rests on the model score alone (L5). There are no trials, and the only two papers are cell line establishment reports without romidepsin data. Safety and mechanism data are also missing.
+The prediction score is very high (99.92%), but it is not backed by any clinical trial or any study testing romidepsin in DFSP. The two retrieved papers are cell line establishment reports. The evidence is model prediction only (L5).
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications. This is currently a blocking gap for safety screening.
-- Detailed mechanism of action data from DrugBank.
-- Laboratory testing of romidepsin in the published DFSP cell lines (NCC-DFSP1-C1, NCC-DFSP2-C1, NCC-DFSP4-C1) to see whether the prediction holds.
-
-**Related lead:** Among the ten predicted indications, only **liposarcoma** (rank 9, score 99.31%) has trials and mechanistic literature. These are a completed Phase 2 study in soft tissue sarcoma (NCT00112463, n=40), a completed Phase 1 azacitidine plus romidepsin study (NCT01537744, n=18), and a preclinical paper on HDAC2 inhibition and MDM2 in dedifferentiated liposarcoma (PMID 31620242). No outcome data is provided for either trial, so liposarcoma may be a more practical place to start. The first step would be to review the NCT00112463 results for a liposarcoma subgroup.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Preclinical testing of romidepsin in the available DFSP patient-derived cell lines, with attention to the COL1A1–PDGFB pathway
+- Mechanism of action data (MOA), for example from DrugBank
+- Health Canada package insert warnings and contraindications, which are required before safety screening
+- A cardiac (QT) and haematological safety plan for any future study, given the interaction and contraindication signals
+- A comparison with other predicted indications such as liposarcoma, where a Phase 2 soft tissue sarcoma trial (NCT00112463) and a mechanistic preclinical study already exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

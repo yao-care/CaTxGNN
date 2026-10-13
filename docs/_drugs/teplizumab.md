@@ -2,7 +2,7 @@
 layout: default
 title: Teplizumab
 parent: Model Prediction Only (L5)
-nav_order: 887
+nav_order: 894
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Teplizumab: From Delayed Onset of Type 1 Diabetes to Diabetic Cataract
+# Teplizumab: From Delaying Stage 3 Type 1 Diabetes to Diabetic Cataract
 
 ## One-Sentence Summary
 
-Teplizumab (brand name TZIELD in Canada) is an anti-CD3 antibody that delays the onset of type 1 diabetes.
-The TxGNN model predicts it may be effective for **diabetic cataract**, but this rests on a graph-based prediction alone, with **0 clinical trials** and **0 publications** currently supporting it.
+Teplizumab is an anti-CD3 monoclonal antibody, approved in 2022 to delay the onset of stage 3 type 1 diabetes. The TxGNN model predicts it may be effective for **diabetic cataract**, but this is a model-only prediction with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -42,7 +41,7 @@ The TxGNN model predicts it may be effective for **diabetic cataract**, but this
 
 | Item | Content |
 |------|------|
-| Original Indication | Delay of type 1 diabetes onset (taken from the pack's mechanistic notes; the Canadian license record has no indication text) |
+| Original Indication | Delay of onset of stage 3 type 1 diabetes (per the pharmacology data compiled for this report; the Canadian licence record contains no indication text) |
 | Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 98.38% |
 | Evidence Level | L5 |
@@ -54,11 +53,11 @@ The TxGNN model predicts it may be effective for **diabetic cataract**, but this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the input. Based on known information, teplizumab is an anti-CD3 antibody that modulates T-cell-mediated autoimmune destruction of pancreatic beta cells. This is how it delays the onset of type 1 diabetes.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, teplizumab is a humanized anti-CD3 antibody (a derivative of OKT3) that binds CD3e on T cells. It modulates T-cell activity to slow the autoimmune destruction of pancreatic beta cells.
 
-The only plausible link to diabetic cataract is indirect. If teplizumab delays type 1 diabetes, a patient may spend less time exposed to high blood sugar, which could lower the risk of diabetic complications such as cataract. No direct ocular mechanism is documented, and no study has shown that teplizumab's long-term glycemic benefit protects the lens. This remains a hypothesis, not a demonstrated effect.
+The link to diabetic cataract is indirect at best. If teplizumab preserves beta-cell function and improves glycaemic control, it could in theory reduce hyperglycaemia-driven lens damage, such as polyol pathway activity. No direct effect on the lens has been established.
 
-The other nine top predictions are mostly cataract subtypes (type 2 diabetes-associated, immature, mature, senile, nuclear, cortical, craniostenosis-related and tetanic cataract) plus type 2 antithrombin deficiency. All have the same evidence level (L5). None has a plausible mechanism, and they likely reflect graph-embedding proximity rather than biology. The diabetic cataract prediction is the only one with even an indirect rationale.
+The high TxGNN score reflects proximity in a knowledge graph, not biological or clinical proof. Several other top-ranked predictions (for example immature, tetanic, craniostenosis-associated and senile cataract, and type 2 antithrombin deficiency) have no plausible mechanistic link. This suggests the score is partly a graph-propagation artifact from shared cataract-related nodes.
 
 ---
 
@@ -78,13 +77,16 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2557347 | TZIELD | Not stated in the input | Not stated in the input |
+| 02557347 | TZIELD | Not listed | Not listed in the licence record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query completed with one pharmacology entry. It is a target-binding record (CD3e, the antibody's target), not a drug–drug interaction with a severity level.
+- **Other relevant observations**: Development for moderate to severe psoriasis was terminated because of injection site reactions.
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
@@ -93,14 +95,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score (98.38%) but no clinical trials, no literature and only an indirect mechanistic argument. It is at evidence level L5 (model prediction only). Teplizumab's approved use is in a young, early-stage type 1 diabetes population, which differs substantially from a typical cataract population.
+The prediction rests only on a graph-based score, with no clinical trials, no literature and no established lens-specific mechanism. Package insert safety data are also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for teplizumab (e.g., from DrugBank), to assess any link to lens or ocular pathology
-- The Health Canada package insert (warnings, contraindications), which is required before any safety screening
-- The licensed indication text, dosage form and manufacturer for DIN 2557347
-- A systematic literature and trial registry search for teplizumab and diabetic eye complications, including cataract
-- Evidence that delaying type 1 diabetes onset translates into fewer ocular complications such as cataract
+- Health Canada package insert warnings and contraindications (blocking gap)
+- Mechanism of action data from DrugBank
+- A literature and trial search specific to diabetic cataract
+- Preclinical or mechanistic evidence for an effect on the lens, or an effect via preserved beta-cell function
+- Assessment of route and formulation compatibility (the product is a systemic biologic)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vortioxetine
-parent: Moderate Evidence (L3-L4)
-nav_order: 976
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 983
+evidence_level: L5
 indication_count: 5
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Vortioxetine is a multimodal serotonergic antidepressant, used for major depressive disorder (MDD).
-The TxGNN model predicts it may be effective for **Neurotic Disorder**, a broad legacy diagnostic category.
-Support is very thin: **1 clinical trial** (an observational cohort of antidepressants in general) and **1 publication** (a narrative review of neurotic depression), and neither studies vortioxetine specifically.
+Vortioxetine is a multimodal serotonergic antidepressant originally used for depressive and anxiety disorders.
+The TxGNN model predicts it may be effective for **neurotic disorder**, but **no clinical trials** and only **1 publication** (a single case report) are currently linked to this prediction.
+Because "neurotic disorder" is a legacy, broad diagnostic label that overlaps with vortioxetine's existing indications, this is better seen as a labelling overlap than a true new therapeutic opportunity.
 
 ---
 
@@ -43,10 +43,10 @@ Support is very thin: **1 clinical trial** (an observational cohort of antidepre
 
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder (from published literature; the Canadian licence records do not state an indication) |
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder |
 | Predicted New Indication | Neurotic disorder |
 | TxGNN Prediction Score | 99.24% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 6 |
 | Recommended Decision | Hold |
@@ -55,19 +55,17 @@ Support is very thin: **1 clinical trial** (an observational cohort of antidepre
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input record. According to a published pharmacology review (PMID 25016186), vortioxetine inhibits the serotonin transporter, agonises 5-HT1A, partially agonises 5-HT1B, and antagonises 5-HT3, 5-HT7 and 5-HT1D receptors. Together these actions raise serotonergic, noradrenergic, dopaminergic, cholinergic, histaminergic and glutamatergic signalling.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Published reviews describe vortioxetine as a serotonin transporter (SERT) inhibitor that also acts on several serotonin receptors: 5-HT1A agonist, 5-HT1B partial agonist, and 5-HT3, 5-HT7 and 5-HT1D antagonist. This multimodal profile is plausibly relevant to both the depressive and anxiety components of neurotic conditions.
 
-"Neurotic disorder" is an older umbrella term covering depressive, anxiety and related symptoms. Vortioxetine's effects on mood and anxiety symptoms in MDD make a link plausible, but the link is indirect.
+"Neurotic disorder" is an older, broad category that overlaps heavily with depression and anxiety disorders, which are vortioxetine's established indications. The high TxGNN score most likely reflects this overlap rather than a distinct new use. No specific mechanism has been established for this label.
 
-The high model score may partly reflect how broad the category is. No study evaluates vortioxetine for "neurotic disorder" as such, so any efficacy would have to be inferred from the MDD evidence.
+The other top-ranked predictions are also depression-related (neurotic depression, melancholia, dysthymic disorder). They are mostly on-label or near-label rather than genuine repurposing. Benign paroxysmal torticollis of infancy (score 99.07%) has no plausible mechanistic link, no trials and no literature, and appears to be a model artifact.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A | Completed | 370,212 | Retrospective nationwide claims-database cohort comparing commonly used antidepressants for utilisation patterns and adverse outcomes. Observational and not specific to vortioxetine or this diagnosis (relevance grade C). |
+Currently no related clinical trials registered for neurotic disorder.
 
 ---
 
@@ -75,27 +73,35 @@ The high model score may partly reflect how broad the category is. No study eval
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Narrative review / case report | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Describes a patient with neurotic depression and favours combining antidepressants with cognitive behavioural therapy. Does not evaluate vortioxetine. |
+| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Case report / Review | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Describes a patient with neurotic depression and favours an integrated approach combining antidepressants with cognitive behavioural therapy. It does not study vortioxetine specifically. |
 
 ---
 
 ## Canada Market Information
 
-Six DINs are registered; five are listed below. The records do not include dosage form or approved indication text.
-
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2432927 | TRINTELLIX | — | — |
-| 2432943 | TRINTELLIX | — | — |
-| 2432919 | TRINTELLIX | — | — |
-| 2552744 | APO-VORTIOXETINE | — | — |
-| 2552779 | APO-VORTIOXETINE | — | — |
+| 02432927 | TRINTELLIX | Not listed | Not listed |
+| 02432943 | TRINTELLIX | Not listed | Not listed |
+| 02432919 | TRINTELLIX | Not listed | Not listed |
+| 02552744 | APO-VORTIOXETINE | Not listed | Not listed |
+| 02552779 | APO-VORTIOXETINE | Not listed | Not listed |
+
+One further authorization (DIN 02552752, APO-VORTIOXETINE) is also valid. All 6 licences are single-ingredient products and none are cancelled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions**: The interaction screening recorded 100 potential interactions. The main ones, from the 20 reviewed entries, are:
+- **Major**: bupropion, lorcaserin, diethylpropion, dolasetron, palonosetron, phentermine
+- **Moderate**: morphine, acetylsalicylic acid, dexamethasone, chlorpropamide, glimepiride, several insulins (aspart, degludec, detemir, glargine, glulisine), eliglustat, and bowel-preparation agents (picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes)
+
+**Other considerations from the literature:**
+- CYP2D6 and related pharmacogenetic dosing guidance exists (CPIC guideline).
+- Reported adverse effects include hyperhidrosis, gastrointestinal effects and sexual dysfunction.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -104,15 +110,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone, plus one non-specific observational cohort and one narrative review. No vortioxetine study targets "neurotic disorder," and the diagnosis is a legacy category with no clear modern equivalent. The pack currently classifies it as a research question, not a development candidate.
-
-For context, another prediction in the same pack, melancholia, has much stronger support: several completed Phase 3 MDD trials. However, it most likely corresponds to vortioxetine's existing approved use, so it is probably not true repurposing. Verify its label status before presenting it as a new indication.
+The prediction rests on model output alone, with no trials and only one non-vortioxetine case report. "Neurotic disorder" is a legacy umbrella term that overlaps with vortioxetine's existing depression and anxiety indications, so there is little distinct repurposing value to pursue.
 
 **To proceed, the following is needed:**
-- Map "neurotic disorder" to specific modern diagnoses (for example anxiety disorders or dysthymia), then look for vortioxetine-specific trials in each.
-- Health Canada package insert warnings and contraindications (not yet retrieved, which blocks safety screening).
-- Mechanism of action data from DrugBank to support the mechanistic-link analysis.
-- Approved indication text for each DIN, to confirm what is already on the Canadian label.
+- Clarify how "neurotic disorder" maps onto current diagnoses (for example, anxiety or depressive disorders), and evaluate those on-label uses instead
+- Mechanism of action data from DrugBank
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Vortioxetine-specific clinical or observational evidence for the mapped condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,21 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Ammonium Chloride: From Cough Syrup Ingredient to Acute Laryngopharyngitis
+# Ammonium Chloride: From Pharyngitis and Common Cold to Acute Laryngopharyngitis
 
 ## One-Sentence Summary
 
-Ammonium chloride is an ingredient in cough syrup products marketed in Canada, but the record lists no formal approved indication.
-The TxGNN model predicts it may be effective for **acute laryngopharyngitis**,
-but currently **0 clinical trials** and **0 publications** support this direction, so the prediction rests on the model score alone.
-
----
+Ammonium chloride was originally used for upper respiratory conditions such as pharyngitis, common cold and nasopharyngitis, and is traditionally used as an expectorant.
+The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but **no clinical trials and no publications** currently support this direction. It is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the record (marketed in cough syrup products) |
+| Original Indication | Pharyngitis, common cold, nasopharyngitis (from the knowledge graph; Canadian licence records contain no indication text) |
 | Predicted New Indication | Acute laryngopharyngitis |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
@@ -51,60 +48,62 @@ but currently **0 clinical trials** and **0 publications** support this directio
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
 
-A second prediction, **nasal cavity disease** (score 99.94%), also has no supporting trials or literature. The term is broad and non-specific, so it is less informative.
-
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is a component of cough syrup products, and mechanistically it may be applicable to upper-airway conditions such as acute laryngopharyngitis.
+Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is traditionally used as an expectorant that may loosen mucus in the upper airway. Its use in pharyngitis, common cold and nasopharyngitis is already recognised, and mechanistically it may be applicable to acute laryngopharyngitis. This mechanistic link cannot be verified with the data compiled for this report.
 
-Ammonium chloride is widely known as an expectorant in over-the-counter cough and cold products. It is thought to irritate the stomach lining, which reflexively increases respiratory tract secretions and helps loosen mucus. This would make a link to upper-airway inflammation biologically plausible. However, this comes from general pharmacology knowledge, not from the supplied data, and it has not been verified.
+The predicted condition is closely related to the existing indications, since all of them are upper respiratory tract conditions. The high score may therefore reflect proximity to known indications in the knowledge graph. This looks more like an extension of the existing pharyngitis indication than true repurposing.
 
-The prediction score is high, but without any clinical data it is only a hypothesis. The score may partly reflect general network proximity in the knowledge graph, so it should not be read as evidence of efficacy.
-
----
+A second prediction, **nasal cavity disease** (score 99.94%), is also at L5 with no trials or literature. The term is broad and overlaps with common cold and nasopharyngitis. A more specific sub-indication, such as rhinitis or sinusitis, should be defined before any further evaluation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2245592 | DAMYLIN WITH CODEINE SYRUP | Not listed | Not listed |
-| 690074 | COUGH SYRUP | Not listed | Not listed |
-| 535230 | CALMYLIN | Not listed | Not listed |
+| 02245592 | DAMYLIN WITH CODEINE SYRUP | Not stated | Not stated |
+| 00690074 | COUGH SYRUP | Not stated | Not stated |
+| 00535230 | CALMYLIN | Not stated | Not stated |
 
----
+All three are valid single-ingredient authorisations; none has been cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions** (21 interactions recorded in the interaction database; 20 are itemised in the data compiled for this report, and all of those are Minor or Moderate):
+- **Moderate**: amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine
+- **Minor**: ephedrine (including nasal), pseudoephedrine, tricyclic antidepressants (amitriptyline, clomipramine, desipramine, doxepin including topical, imipramine, nortriptyline, protriptyline, trimipramine), methadone, mexiletine, flecainide
 
----
+**Knowledge-graph contraindication signals** (from drug-disease links in the knowledge graph, not from label text, so they must be checked against the official label):
+- Cardiovascular: hypertension, hypertensive disorder, myocardial ischemia, coronary artery disease, sudden cardiac arrest, heart conduction disease, pulmonary edema
+- Renal, hepatic and metabolic: liver failure, impaired renal function, anuria, nephrocalcinosis, hypercalcemia, phosphorus metabolism disease, adrenocortical insufficiency, Addison disease
+- Endocrine: hyperthyroidism, Graves disease, thyrotoxicosis
+- Gastrointestinal: peptic ulcer disease, necrotizing enterocolitis
+- Eye: angle-closure and closed-angle glaucoma, ocular hypertension
+- Urological: benign prostatic hyperplasia, bladder neck obstruction
+- Neuropsychiatric: epilepsy, insomnia, anxiety disorder, agoraphobia, obsessive-compulsive disorder
+
+Several of these signals may relate to combination products, such as those containing codeine or decongestants, rather than to ammonium chloride alone. Package insert warnings and contraindications for the Canadian products have not been obtained. Please refer to the package insert for label safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score. There are no clinical trials, no literature, and no mechanism data. The product labels in the record also list no approved indication or safety information, so the prediction cannot be evaluated further at this stage.
+The prediction rests only on a high model score (L5), with no clinical trials, no literature and no verifiable mechanism. The predicted condition largely overlaps with the existing indications, so it adds little new value as repurposing.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings, contraindications, approved indications) for the three listed products
-- Mechanism of action data (for example, from DrugBank)
-- A more specific target disease. "Nasal cavity disease" is too broad to evaluate.
-- Any clinical or observational evidence for ammonium chloride in acute laryngopharyngitis or related upper-airway conditions
+- Mechanism of action data (for example from DrugBank) to test the mechanistic link
+- Health Canada package insert warnings, contraindications and approved indication text for the three DINs, which is required before safety screening
+- A clear definition of the target indication, including a specific sub-indication in place of "nasal cavity disease"
+- Targeted literature and trial searches for ammonium chloride in acute laryngopharyngitis
+- Dosage form and route information to assess route compatibility
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

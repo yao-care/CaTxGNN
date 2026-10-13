@@ -2,7 +2,7 @@
 layout: default
 title: Prilocaine
 parent: Model Prediction Only (L5)
-nav_order: 762
+nav_order: 769
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prilocaine: From Local Anesthesia to Papillary Conjunctivitis
+# Prilocaine: From Premature Ejaculation to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Prilocaine is an amide local anesthetic, marketed in Canada in dental injections, a topical cream and an oral gel.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **0 clinical trials** and **0 publications** currently support this prediction.
+Prilocaine is an amide-type local anesthetic. The knowledge graph lists premature ejaculation and psychologic dyspareunia as its original indications, and it is marketed in Canada in dental, injectable and topical products.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anesthesia (inferred from product types; approved indication text is not available in the Canadian records) |
+| Original Indication | Premature ejaculation; psychologic dyspareunia (from the knowledge graph, as the Canadian licence records contain no indication text) |
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
@@ -48,57 +50,74 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 | Number of DINs | 6 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, prilocaine is a local anesthetic that is used in dental injections and in the lidocaine/prilocaine (EMLA) cream. It is generally understood to block voltage-gated sodium channels and so dampen nerve firing.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Prilocaine belongs to the sodium channel-blocking local anesthetics, and its numbing effect on peripheral nerves is well established. A link to allergic or inflammatory ocular surface disease is speculative.
 
-The only plausible link to papillary conjunctivitis is symptom relief. A topical anesthetic might ease discomfort on the ocular surface. This would not treat the underlying inflammatory or allergic process, so it is not a disease-modifying mechanism. No trials or publications were found to test the idea. The prediction is therefore a model output with no supporting evidence.
+The original indications relate to genital sensitivity and pain, where a topical anesthetic effect is plausible. Papillary conjunctivitis is an inflammatory, often allergic, eye condition, and the data show no clear mechanistic bridge between the two. The high TxGNN score reflects a graph-based pattern and is not supported by trials, literature or demonstrated biology.
 
-For context, other predictions for prilocaine are better supported than this top-ranked one. **Neuralgia** (score 99.34%, L3) has small, older reports of lidocaine/prilocaine cream in postherpetic neuralgia from 1989–1999. That evidence is for the combination product, not prilocaine alone. **Migraine** (L4) has nerve-block trials, but none clearly identifies prilocaine as the agent. Neuralgia is the more promising direction for follow-up.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-Dosage form and approved indication text are not available for these authorizations.
+Dosage form and approved-indication text are not recorded for these licences.
 
 | DIN | Product Name |
 |---------|------|
-| 2435276 | 4% Citanest Plain Dental |
-| 2325993 | Oraqix |
-| 2347695 | 4% Citanest Forte Dental with Epinephrine 1:200,000 |
-| 886858 | EMLA Cream |
-| 393746 | Prilocaine HCl 4% Epinephrine 1:200000 Injection |
+| 02435276 | 4% Citanest Plain Dental |
+| 02325993 | Oraqix |
+| 02347695 | 4% Citanest Forte Dental with Epinephrine 1:200,000 |
+| 00886858 | EMLA Cream |
+| 00393746 | Prilocaine HCl 4% Epinephrine 1:200000 Injection |
+| 02057794 | EMLA Patch |
 
-One further DIN is not listed above (6 in total).
+All six are single-ingredient authorizations with valid status. None has been cancelled.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (graph-derived associations, not package-insert text): hypertension, epilepsy, kidney disease, liver disease, gallbladder disease, diabetes mellitus and diabetic ketoacidosis, coronary artery disease, myocardial infarction, sudden cardiac arrest, heart conduction disease and atrioventricular block, cardiovascular and heart disease, respiratory failure, angle-closure glaucoma, myasthenia gravis and other neuromuscular junction disease, butyrylcholinesterase deficiency, hemoglobinopathy, and hyperthyroidism (including Graves disease and thyrotoxicosis).
+- **Drug Interactions**: 22 interactions were identified. Of the 20 detailed in the data compiled, 18 are rated Major, 1 Moderate (liposomal morphine) and 1 Minor (hyaluronidase). The main Major interactions are:
+  - Other local anesthetics: lidocaine (systemic and topical), benzocaine (topical), cinchocaine (topical)
+  - Antimalarials: chloroquine, primaquine, quinine, tafenoquine
+  - Dapsone (systemic and topical)
+  - Nitrite and nitric oxide agents: amyl nitrite, nitrous acid, nitric oxide
+  - Others: metoclopramide, sulfasalazine, rasburicase, silver nitrate (topical), silver sulfadiazine (topical)
 
-Literature retrieved for other predicted indications reports serious events after topical EMLA (lidocaine/prilocaine) use on barrier-compromised skin. These include methemoglobinemia and seizures in a young child with atopic dermatitis, and purpura. Local anesthetic contact allergy, including to prilocaine, has also been reported. Any ocular or mucosal use would need separate safety assessment, because no ophthalmic product is among the Canadian authorizations.
+Please refer to the package insert for authoritative warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or publications for papillary conjunctivitis, and the only plausible mechanism is symptomatic relief rather than treatment of the disease.
+The papillary conjunctivitis prediction has a very high model score but no trials, no publications and no plausible mechanism in the data. It remains at evidence level L5, so it cannot support a repurposing decision.
+
+Among the other predictions for prilocaine, **neuralgia** (including postherpetic neuralgia) has the strongest support. It reaches L2, with a small Phase 2 open-label study of lidocaine/prilocaine cream (NCT00916942, n=20) and older EMLA studies. That evidence is small and dated, and the combination product makes it hard to attribute any effect to prilocaine alone, so it is better treated as a research question than a ready candidate.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence for prilocaine in papillary conjunctivitis
-- Route compatibility assessment, since no ophthalmic formulation is currently authorized
-- Consideration of redirecting effort to neuralgia, which has the strongest supporting evidence among the predictions
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data, to assess any biological link to ocular surface disease
+- Package insert warnings and contraindications from Health Canada, which are required before any safety screening
+- Any preclinical or clinical evidence in conjunctivitis, which does not currently exist
+- Review of ocular exposure safety, because the Canadian products are dental, injectable and skin-applied and none is an ophthalmic route
+- Consideration of whether to prioritize the neuralgia prediction instead
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

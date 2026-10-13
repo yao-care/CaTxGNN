@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acetazolamide: From a Carbonic Anhydrase Inhibitor to Exercise-Induced Malignant Hyperthermia
+# Acetazolamide: From Glaucoma and Heart Failure to Hypertrophic Cardiomyopathy
 
 ## One-Sentence Summary
 
-Acetazolamide is a carbonic anhydrase inhibitor that is marketed in Canada, but the Evidence Pack does not record its approved indication.
-The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, with a very high score.
-No clinical trials or publications currently support this specific prediction, so it rests on the model alone.
+Acetazolamide is a carbonic anhydrase inhibitor originally used for glaucoma, absence epilepsy, congestive heart failure and altitude sickness.
+The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia** (rank 1) and **hypertrophic cardiomyopathy** (rank 2).
+Currently there are **0 clinical trials** and only **3 indirect publications** for the second candidate, and none for the top candidate, so the signal is mostly model-based.
 
 ---
 
@@ -43,8 +43,9 @@ No clinical trials or publications currently support this specific prediction, s
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Absence epilepsy, congestive heart failure, open-angle and angle-closure glaucoma, altitude sickness (from the knowledge graph; the Canadian licence records contain no indication text) |
+| Predicted New Indication | Exercise-induced malignant hyperthermia (top-ranked); hypertrophic cardiomyopathy is the highest-ranked candidate with any literature |
+| TxGNN Prediction Score | 99.95% (exercise-induced malignant hyperthermia); 99.93% (hypertrophic cardiomyopathy) |
 | Evidence Level | L5 (model prediction only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 3 |
@@ -54,11 +55,11 @@ No clinical trials or publications currently support this specific prediction, s
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Acetazolamide is known as a carbonic anhydrase inhibitor. Any link to exercise-induced malignant hyperthermia is therefore speculative.
+Currently, detailed mechanism of action data is not available. Acetazolamide is a carbonic anhydrase inhibitor. Its efficacy in glaucoma, heart failure-related fluid retention and altitude sickness is established, and these actions involve fluid and acid-base handling.
 
-One possible connection is that acetazolamide is used in muscle channelopathies such as periodic paralysis. Both conditions involve dysregulated muscle ion and pH handling.
+For the top prediction, exercise-induced malignant hyperthermia, no clinical or literature evidence was found. A link through altered acid-base balance or muscle ion handling is plausible but speculative and unsupported by the data compiled for this report.
 
-The score of 99.95% (model rank 1,448) is not clinical evidence. It probably reflects proximity to other muscle disorders in the knowledge graph. The relationship to the original indication could not be assessed because no approved indication text was available.
+For hypertrophic cardiomyopathy, the link is indirect. Acetazolamide is used as a diuretic adjunct in heart failure, and heart failure often accompanies hypertrophic cardiomyopathy. A case report describes correcting hypochloremia with acetazolamide in an advanced heart failure patient who also had hypertrophic cardiomyopathy. None of the retrieved papers tests acetazolamide for hypertrophic cardiomyopathy itself.
 
 ---
 
@@ -70,31 +71,37 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Literature for the highest-ranked candidate with evidence (hypertrophic cardiomyopathy):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [30279861](https://pubmed.ncbi.nlm.nih.gov/30279861/) | 2018 | Case report | Journal of Cardiology Cases | Acetazolamide corrected hypochloremia in an 87-year-old with advanced heart failure and hypertrophic cardiomyopathy; urinary electrolyte monitoring emphasized |
+| [38806171](https://pubmed.ncbi.nlm.nih.gov/38806171/) | 2025 | Review | ESC Heart Failure | General heart failure update; not specific to acetazolamide or hypertrophic cardiomyopathy |
+| [37169875](https://pubmed.ncbi.nlm.nih.gov/37169875/) | 2023 | Review | Eur Heart J Cardiovasc Pharmacother | Review of new cardiovascular drugs in 2022, including mavacamten for obstructive hypertrophic cardiomyopathy; acetazolamide not the focus |
+
+Related evidence for the broader "cardiomyopathy" prediction (rank 7) is mostly indirect. It includes an animal study of acetazolamide in ischemia-reperfused rabbit hearts (PMID 22426904, 2012), and a case report of non-cardiogenic pulmonary edema after intravenous acetazolamide in a patient with dilated cardiomyopathy (PMID 29123889, 2017), which is a safety signal.
+
+No literature was found for the other top-ranked predictions, except intestinal obstruction (rank 8), where the papers describe acetazolamide-induced adynamic ileus (PMID 19653068), a safety concern rather than support for efficacy.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2537893 | ACETAZOLAMIDE FOR INJECTION USP |
-| 545015 | ACETAZOLAMIDE |
-| 2358328 | ACETAZOLAMIDE FOR INJECTION, USP |
-
-Two of the three products are injectable formulations.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02537893 | Acetazolamide for Injection USP | Not specified | Not specified |
+| 00545015 | Acetazolamide | Not specified | Not specified |
+| 02358328 | Acetazolamide for Injection, USP | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindication signals (from the knowledge graph, not label text)**: liver failure and liver disease, kidney disease, renal tubular acidosis, adrenal insufficiency (including Addison disease and congenital adrenal hyperplasia), gout, diabetes (type 1 and type 2) and diabetic ketoacidosis, respiratory failure, hematologic disease, gallbladder disease, and pyoureter.
+- **Drug Interactions**: 100 interactions were identified. Major ones include acetylsalicylic acid and cisapride. Moderate ones include antidiabetic agents (acarbose, acetohexamide, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, and others), corticosteroids (beclomethasone, betamethasone, dexamethasone), amphotericin B formulations, and laxatives (bisacodyl, castor oil). Doxycycline is a minor interaction.
+- **Candidate-specific concerns**: reports of ileus raise concern for intestinal obstruction and pseudo-obstruction. In cirrhosis, acetazolamide can precipitate hyperammonemia and encephalopathy, which argues against use in cirrhotic cardiomyopathy.
 
-Literature retrieved for other predicted indications (not for this one) reports these adverse events:
-- Non-cardiogenic pulmonary edema after intravenous acetazolamide (case report)
-- Acetazolamide-induced adynamic ileus (case report)
-
-These are single case reports, so they show possible signals rather than established risk rates.
+Please refer to the package insert for the official warnings and contraindications.
 
 ---
 
@@ -103,22 +110,13 @@ These are single case reports, so they show possible signals rather than establi
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials, no literature and no established mechanism, so it stays at the model-only stage (L5, S0). The high score alone is not enough to justify moving forward.
+All ten predictions have only model-level support (L5), except cardiomyopathy, which reaches L4 on indirect preclinical data. No clinical trials exist, and the available papers are reviews and case reports not directed at the predicted diseases. Two predictions (intestinal obstruction and myopathic intestinal pseudo-obstruction) are contradicted by safety signals, and the contraindication profile is substantial.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which currently block safety screening
-- Mechanism of action data (e.g., from DrugBank) to test the ion and pH handling hypothesis
-- A targeted literature search for acetazolamide in exercise-induced malignant hyperthermia and related muscle ion-channel disorders
-- Approved indication text for the three Canadian DINs, to define the original indication and route compatibility
-
-**Other candidates from the same run:**
-- Cardiomyopathy (rank 7) has the most supporting evidence of the ten predictions (L4).
-  - It has three recruiting Phase 4 or NA trials in acute heart failure. These involve acetazolamide or diuretic strategies, and none has reported results.
-  - The link to cardiomyopathy is indirect.
-  - It is worth considering as a research question rather than a clinical recommendation.
-- Intestinal obstruction (rank 8) and myopathic intestinal pseudoobstruction (rank 10) have literature suggesting possible harm from acetazolamide, so they should not be prioritized.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data and a clear mechanistic rationale for the top candidates
+- Official Health Canada package insert warnings and contraindications, along with the missing dosage forms and approved indications for the three DINs
+- A targeted literature review for hypertrophic cardiomyopathy and exercise-induced malignant hyperthermia, plus preclinical studies
+- Evaluation of the safety profile in the target populations, especially those with liver, kidney or metabolic comorbidities and those on interacting drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

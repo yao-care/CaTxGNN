@@ -2,7 +2,7 @@
 layout: default
 title: Ceftolozane
 parent: Model Prediction Only (L5)
-nav_order: 167
+nav_order: 169
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceftolozane: From Complicated Gram-Negative Infections to Ureaplasma Urethritis
+# Ceftolozane: From Urinary Tract Infection to Ureaplasma Urethritis
 
 ## One-Sentence Summary
 
-Ceftolozane is a cephalosporin antibacterial, marketed in Canada as ZERBAXA, and the supplied record lists no approved indication text for it.
-The TxGNN model predicts it may be effective for **Ureaplasma urethritis**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-The mechanistic review finds the prediction biologically unsupported, so the high score is most likely a model artifact.
+Ceftolozane is a cephalosporin antibiotic originally used to treat urinary tract infection.
+The TxGNN model predicts it may be effective for **Ureaplasma urethritis** with a very high score, but **no clinical trials and no publications** currently support this prediction. The biological rationale is also weak, so this is a model-only signal.
 
 ---
 
@@ -43,10 +42,10 @@ The mechanistic review finds the prediction biologically unsupported, so the hig
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian license record (the rationale notes point to complicated Gram-negative infections, including complicated urinary tract infection) |
+| Original Indication | Urinary tract infection (the Canadian licence record does not list approved indication text) |
 | Predicted New Indication | Ureaplasma urethritis |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -55,11 +54,17 @@ The mechanistic review finds the prediction biologically unsupported, so the hig
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the supplied record. Ceftolozane is a cephalosporin, and cephalosporins inhibit penicillin-binding proteins and bacterial cell wall synthesis. Ceftolozane is paired with tazobactam and was developed for Gram-negative rods such as *Pseudomonas* and Enterobacterales.
+Detailed mechanism of action data is not available. Based on known information, ceftolozane is a beta-lactam cephalosporin that inhibits bacterial penicillin-binding proteins (PBPs). It is optimised for activity against *Pseudomonas aeruginosa* and Enterobacterales, which is why it is used for urinary tract infection.
 
-On this evidence, the prediction is **not reasonable**. *Ureaplasma* species have no cell wall, so beta-lactam antibiotics are intrinsically inactive against them. The high TxGNN score (99.89%) most likely reflects graph propagation from the antibacterial drug class, not a real biological signal.
+For the top predicted indication, the mechanistic link is weak. *Ureaplasma* species have no cell wall, so beta-lactam antibiotics are expected to be intrinsically ineffective against them. The high TxGNN score most likely reflects the model grouping drugs by the shared category of urogenital infection, rather than a real biological effect.
 
-Other urogenital predictions from the same model were reviewed as well. Gonococcal urethritis is plausible only in general terms, and ceftriaxone already covers it. Uterine inflammatory disease is weak, because the infections are polymicrobial and involve atypical organisms and anaerobes that ceftolozane covers poorly. Urogenital tuberculosis is unlikely, because *M. tuberculosis* produces a beta-lactamase (BlaC) that breaks down most cephalosporins.
+Other predictions fit better. The best-supported one is **xanthogranulomatous pyelonephritis** (score 99.88%), a chronic renal infection often caused by Gram-negative bacteria such as *Proteus* and *E. coli*. It is closely related to the existing urinary infection use. However, definitive treatment is usually surgical, and the available literature is only an indirect general review.
+
+Other notable predictions:
+- **Gonococcal urethritis** (99.89%): some cephalosporins, such as ceftriaxone, work against *Neisseria gonorrhoeae*, so a class-level rationale exists. Ceftolozane itself has no clinical or literature data for this use.
+- **Uterine inflammatory disease** (99.88%): pelvic infections are often polymicrobial, and ceftolozane/tazobactam has Gram-negative activity. The rationale is plausible but unsupported.
+- **Urogenital tuberculosis** (99.50%): *M. tuberculosis* has a native beta-lactamase and low beta-lactam susceptibility, so this is unlikely.
+- **Non-infectious conditions** (hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant haematological disease): no antibacterial target exists, and these scores are likely artifacts.
 
 ---
 
@@ -71,7 +76,11 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+For the top predicted indication, Ureaplasma urethritis, currently no related literature is available. The only publication found relates to the fourth-ranked prediction, xanthogranulomatous pyelonephritis:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26658652](https://pubmed.ncbi.nlm.nih.gov/26658652/) | 2016 | Review | Current Opinion in Infectious Diseases | Review of insights on complicated febrile urinary tract infections, including pyelonephritis and urosepsis. It is indirect evidence and does not study ceftolozane. |
 
 ---
 
@@ -79,13 +88,18 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2446901 | ZERBAXA | Not listed | Not listed |
+| 02446901 | ZERBAXA | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the queried database.
+**Drug Interactions**: 11 interactions were identified, all rated Moderate:
+- Aminoglycosides: kanamycin, neomycin, streptomycin, amikacin (including liposomal), gentamicin
+- Anticoagulants: warfarin, dicoumarol
+- Others: chloramphenicol, ethinylestradiol, mycophenolic acid
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -94,16 +108,14 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trial or literature support (L5). It also conflicts with basic microbiology: *Ureaplasma* lacks a cell wall, so a cell-wall inhibitor is expected to be inactive.
+The top prediction is supported only by the model score (L5), with no trials or literature. The biology also argues against it, because *Ureaplasma* lacks a cell wall and beta-lactams are not expected to work. The same applies to most other high-scoring predictions. Xanthogranulomatous pyelonephritis is the only one worth keeping as a research question, and even there the evidence is indirect.
 
 **To proceed, the following is needed:**
-- In vitro susceptibility data for ceftolozane against *Ureaplasma* species. Without this the prediction cannot advance.
-- Health Canada package insert warnings, contraindications and approved indications, which are missing from the current record.
-- Mechanism-of-action data from DrugBank.
-
-**Related lead:** Among the other predictions, xanthogranulomatous pyelonephritis (score 99.88%) is rated L4 and "Research Question". It is a chronic kidney infection related to the on-label complicated urinary tract infection use. The only supporting paper is a general review of febrile urinary tract infection and pyelonephritis (PMID [26658652](https://pubmed.ncbi.nlm.nih.gov/26658652/), 2016), which offers only indirect support. This is a more sensible direction to explore than Ureaplasma urethritis, though surgery remains the main treatment.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- In vitro susceptibility data for ceftolozane against the target organisms (*Ureaplasma*, *N. gonorrhoeae*, and uropathogens linked to xanthogranulomatous pyelonephritis)
+- A focused literature search on ceftolozane/tazobactam in pyelonephritis and pelvic infection
+- Approved indication text for the Canadian licence, to confirm the original indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

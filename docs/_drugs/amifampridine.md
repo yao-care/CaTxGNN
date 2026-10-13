@@ -33,8 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Amifampridine is a potassium channel blocker marketed in Canada (as FIRDAPSE and RUZURGI) for Lambert-Eaton myasthenic syndrome (LEMS).
-The TxGNN model predicts it may be effective for **glaucoma** with a very high score, but **no clinical trials and no publications** currently support this prediction.
+Amifampridine was originally used to treat Lambert-Eaton myasthenic syndrome (LEMS), a rare neuromuscular disorder.
+The TxGNN model predicts it may be effective for **glaucoma**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+This is a computational prediction only, with no direct evidence behind it.
 
 ---
 
@@ -42,10 +43,10 @@ The TxGNN model predicts it may be effective for **glaucoma** with a very high s
 
 | Item | Content |
 |------|------|
-| Original Indication | Lambert-Eaton myasthenic syndrome (LEMS); the licence records provided contain no indication text |
+| Original Indication | Lambert-Eaton myasthenic syndrome |
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
@@ -54,11 +55,11 @@ The TxGNN model predicts it may be effective for **glaucoma** with a very high s
 
 ## Why is This Prediction Reasonable?
 
-Amifampridine blocks voltage-gated potassium channels. This prolongs depolarization of the presynaptic nerve terminal and increases acetylcholine release at the neuromuscular junction, which is how it relieves weakness in LEMS.
+Currently, detailed mechanism of action data is not available in the source record. Based on general pharmacology, amifampridine is a voltage-gated potassium channel blocker. It prolongs presynaptic depolarization and increases neurotransmitter release at the neuromuscular junction, which is why it works in LEMS.
 
-For glaucoma, no credible mechanistic link could be identified. Glaucoma involves raised intraocular pressure and optic neuropathy, and enhanced neuromuscular transmission has no established relevance to either. The high TxGNN score is a graph-based prediction only and should not be read as biological or clinical support.
+For glaucoma, no clear link has been established. Glaucoma involves raised intraocular pressure and loss of retinal ganglion cells, and neither is known to be influenced by presynaptic potassium channel blockade. The high TxGNN score (99.71%) should be read as a computational signal from a knowledge graph, not as evidence of biological plausibility.
 
-Among the other top-ranked predictions, the only one with any supporting literature is **paraneoplastic cerebellar degeneration**. It is biologically adjacent to LEMS, since both are associated with small cell lung cancer and anti-P/Q-type calcium channel antibodies. The two retrieved papers concern LEMS itself, not this condition, so they offer only indirect support.
+Other predictions in the list show a similar pattern. Several (acute intermittent porphyria, porphyria, esophageal varices, varicose disease, and p14-deficiency immunodeficiency) have no apparent mechanistic connection and are likely graph-based artifacts. The paraneoplastic neurological conditions (limbic encephalitis, polyneuropathy, cerebellar degeneration) are more biologically plausible. They share paraneoplastic autoimmunity with LEMS and are flagged as research questions. Even for these, benefit is speculative and no clinical data were provided.
 
 ---
 
@@ -76,19 +77,23 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2502984 | FIRDAPSE |
-| 2503034 | RUZURGI |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02502984 | FIRDAPSE | Not specified | Not specified |
+| 02503034 | RUZURGI | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Seizure risk**: Amifampridine carries a dose-dependent seizure risk. This matters for any candidate population that is seizure-prone.
-- **Drug Interactions**: No interaction records were found in the queried source.
+**Drug Interactions**: 68 potential interactions were identified in the interaction database. The list below shows the first 20 of the 68 entries, with the one Major interaction highlighted.
 
-Please refer to the package insert for the full warnings and contraindications.
+- **Major**: Bupropion
+- **Moderate**: hydrocortisone, betamethasone, dexamethasone, prednisolone, prednisone, dexfenfluramine, diethylpropion, dronabinol, ephedrine, fenfluramine, levofloxacin, mazindol, metoclopramide, morphine (including liposomal), opium, phentermine, polyethylene glycol (3350 with electrolytes), sibutramine
+
+**Other concerns noted in the analysis**: Amifampridine may lower the seizure threshold. This matters most in conditions where seizures already occur, such as porphyria and limbic encephalitis.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -97,14 +102,13 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The glaucoma prediction is supported only by the model score, with no trials, no literature and no plausible mechanism. Evidence level is L5, and the candidate has not passed the initial screening stage.
+The glaucoma prediction rests only on a model score, with no clinical trials, no literature, and no plausible mechanistic link to amifampridine's action on neuromuscular transmission. Evidence is at level L5.
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking potassium channel blockade to intraocular pressure or optic nerve protection
-- Preclinical or clinical studies of amifampridine or related aminopyridines in glaucoma
-- Health Canada package insert warnings and contraindications, needed for safety screening
-- Confirmation of the approved indication text and dosage forms for both DINs
-- Consideration of paraneoplastic cerebellar degeneration as a better-grounded research question, supported by PCD-specific data such as case series
+- Mechanism of action data to assess any biological link to glaucoma
+- Preclinical or mechanistic studies showing an effect on intraocular pressure or retinal ganglion cell survival
+- Package insert warnings and contraindications from Health Canada, including seizure risk
+- Consideration of the paraneoplastic neurological predictions (limbic encephalitis, polyneuropathy, cerebellar degeneration) as better-grounded research questions, given their shared autoimmune basis with LEMS
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

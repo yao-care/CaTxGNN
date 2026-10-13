@@ -2,7 +2,7 @@
 layout: default
 title: Lumacaftor
 parent: Model Prediction Only (L5)
-nav_order: 560
+nav_order: 565
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lumacaftor is a CFTR corrector marketed in Canada as ORKAMBI, used for cystic fibrosis.
-The TxGNN model predicts it may be effective for **leprosy** (score 99.44%), but **0 clinical trials** and **0 publications** support this prediction.
-It is a knowledge-graph prediction only, with no drug-specific evidence.
+Lumacaftor is a CFTR corrector originally used to treat cystic fibrosis (marketed in Canada as ORKAMBI).
+The TxGNN model predicts it may be effective for **leprosy**,
+but **no clinical trials and no publications** currently support this prediction. It is a computational signal only.
 
 ---
 
@@ -43,10 +43,10 @@ It is a knowledge-graph prediction only, with no drug-specific evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Cystic fibrosis (inferred from the product ORKAMBI and its F508del-CFTR mechanism; the licence records contain no indication text) |
+| Original Indication | Cystic fibrosis |
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 5 |
 | Recommended Decision | Hold |
@@ -55,13 +55,11 @@ It is a knowledge-graph prediction only, with no drug-specific evidence.
 
 ## Why is This Prediction Reasonable?
 
-Lumacaftor corrects the folding and trafficking of F508del-CFTR, the defective protein in cystic fibrosis. It works on human epithelial protein handling. It has no known antimycobacterial or immunomodulatory activity against *Mycobacterium leprae*.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, lumacaftor is a CFTR corrector that improves the folding and trafficking of F508del-CFTR protein, and its use in cystic fibrosis is established.
 
-The evidence review found **no mechanistic link** between the original indication and leprosy. Cystic fibrosis is a genetic epithelial disease, while leprosy is a chronic bacterial infection with a strong immune component. The high TxGNN score reflects patterns in the knowledge graph, not pharmacological or clinical support.
+Leprosy is a chronic infection caused by *Mycobacterium leprae*, and no plausible CFTR-related pathway is evident. The high TxGNN score (0.994) is a computational prediction only. It may reflect proximity in the knowledge graph rather than true biology, and the prediction is not supported by any trial or publication.
 
-The prediction is therefore not currently plausible on mechanistic grounds. Detailed mechanism of action data is not available beyond the CFTR corrector class.
-
-The other top-10 predictions (migraine subtypes, rheumatoid arthritis, pulmonary hypertension and others) also have no supporting evidence for lumacaftor. All are graded L5 and Hold. Literature retrieved for the migraine prediction was epilepsy and migraine genetics matched by disease-name keywords, not lumacaftor data.
+Other top-ranked predictions (migraine subtypes, rheumatoid arthritis, pulmonary hypertension, kyphoscoliotic heart disease, multiple endocrine neoplasia, brachydactyly-syndactyly syndrome, nephrogenic syndrome of inappropriate antidiuresis) share the same limitation: high scores, no clinical or literature support, and no established mechanistic link.
 
 ---
 
@@ -79,19 +77,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2451379 | ORKAMBI |
-| 2483831 | ORKAMBI |
-| 2463040 | ORKAMBI |
-| 2483858 | ORKAMBI |
-| 2537087 | ORKAMBI |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02451379 | ORKAMBI | Not specified | Not specified |
+| 02483831 | ORKAMBI | Not specified | Not specified |
+| 02463040 | ORKAMBI | Not specified | Not specified |
+| 02483858 | ORKAMBI | Not specified | Not specified |
+| 02537087 | ORKAMBI | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs. The first 20 returned are summarized below.
+  - **Major**: Eliglustat, Naldemedine, Naloxegol, Rolapitant
+  - **Moderate**: Acetohexamide, Betamethasone, Bupropion, Dexlansoprazole, Esomeprazole, Glimepiride, Lansoprazole, Linagliptin, Nitisinone, Omeprazole, Pantoprazole, Pioglitazone, Prednisone, Rabeprazole, Ranitidine, Repaglinide
+- Lumacaftor induces CYP3A, which would complicate co-administration with many drugs, including agents commonly used in pulmonary hypertension.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -100,15 +103,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The leprosy prediction has no clinical trials, no literature and no plausible mechanism. The score alone does not justify moving forward.
+The prediction rests only on a TxGNN score, with no clinical trials, no publications, and no plausible mechanistic link between CFTR correction and *M. leprae* infection. Lumacaftor also carries a substantial interaction burden, so there is no basis to advance.
 
 **To proceed, the following is needed:**
-- A testable mechanistic hypothesis linking CFTR correction to *M. leprae* infection or the host response, supported by preclinical data
-- Any in vitro or animal study of lumacaftor in leprosy
-- Health Canada package insert warnings and contraindications, and the full mechanism of action from DrugBank
-- Approved indication text and dosage forms for the five DINs
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data and a testable biological hypothesis linking CFTR correction to leprosy
+- Preclinical or in vitro evidence (e.g., activity against *M. leprae* or relevant host pathways)
+- Health Canada package insert warnings and contraindications, to enable safety screening
+- A review of the interaction profile in the context of standard leprosy regimens
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

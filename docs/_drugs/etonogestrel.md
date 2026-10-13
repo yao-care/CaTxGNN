@@ -2,7 +2,7 @@
 layout: default
 title: Etonogestrel
 parent: Model Prediction Only (L5)
-nav_order: 364
+nav_order: 366
 evidence_level: L5
 indication_count: 5
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Etonogestrel is a progestin used in hormonal contraceptives (the Nexplanon implant and vaginal rings such as NuvaRing). The TxGNN model predicts it may be effective for **amenorrhea**, but this is most likely a drug-effect association rather than a treatment use. Only **1 clinical trial** and **2 publications** were retrieved, and none tests amenorrhea as a treatment target.
+Etonogestrel is a progestin hormone marketed in Canada in a contraceptive implant and vaginal rings.
+The TxGNN model predicts it may be relevant to **amenorrhea**, but there are **0 clinical trials** and **1 publication** (unrelated to this drug or indication) behind this prediction.
+The prediction rests on the model alone.
 
 ---
 
@@ -41,10 +43,10 @@ Etonogestrel is a progestin used in hormonal contraceptives (the Nexplanon impla
 
 | Item | Content |
 |------|------|
-| Original Indication | Contraception (inferred from the product names and the retrieved trial; the licence indication text was not provided) |
+| Original Indication | Not stated in the Canadian license records compiled for this report (the products NEXPLANON, NUVARING and HALOETTE are hormonal contraceptives) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (the pack lists L4, but no preclinical or mechanistic study was retrieved, so L5 fits the level rules) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 3 |
 | Recommended Decision | Hold |
@@ -53,21 +55,23 @@ Etonogestrel is a progestin used in hormonal contraceptives (the Nexplanon impla
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Etonogestrel is a progestin that suppresses ovulation and thins the endometrium. Its efficacy in contraception is well established.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on general pharmacology, etonogestrel is a progestin that suppresses ovulation and thins the endometrium.
 
-The link to amenorrhea is weak. Amenorrhea and altered bleeding patterns are well-known effects of the implant. The high TxGNN score most likely reflects this class-level drug-phenotype association rather than a therapeutic use. Using an ovulation-suppressing implant to treat amenorrhea is mechanistically counterintuitive, and no evidence supports it as a treatment.
+Amenorrhea is a well-known effect of the implant, usually seen as a bleeding-pattern outcome of use. So a biological link exists. However, this is an expected pharmacologic effect, not a therapeutic goal that has been tested. The high score likely reflects hormone-pathway similarity in the knowledge graph rather than evidence that the drug treats amenorrhea.
 
-The original indication and mechanism data are also missing, so the prediction could not be cross-checked.
+Other predicted indications are all L5 and none has any trials or relevant literature:
+- Breast fibrocystic disease (99.61%)
+- Blunt duct adenosis of breast (99.29%)
+- Apocrine adenosis of breast (99.29%)
+- Benign mammary dysplasia (99.21%)
+
+These are benign breast conditions where progestins might oppose estrogen-driven proliferation. This rationale is theoretical only.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Phase 3 | Completed | 498 | Open-label, single-arm study of contraceptive efficacy and safety of the etonogestrel implant (MK-8415) in years 4-5 of use, in females 35 or younger. Amenorrhea is not a treatment target and would appear only as a bleeding-pattern or safety outcome. |
-
-The single-arm design and the different endpoint mean this cannot count as direct Phase 3 RCT evidence for the predicted indication.
+Currently no related clinical trials registered.
 
 ---
 
@@ -75,26 +79,34 @@ The single-arm design and the different endpoint mean this cannot count as direc
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | RCT | Contraception | Randomized multicenter study (n=200, China) comparing the single-rod implant (Implanon) with the six-capsule Norplant implant. No pregnancies occurred. Bleeding patterns were compared, but this is contraceptive efficacy and tolerability, not amenorrhea treatment. |
-| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | RCT protocol | Trials | Protocol for BIO101 in COVID-19 pneumonia. Unrelated to etonogestrel or amenorrhea; likely a retrieval artifact. |
+| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | RCT protocol | Trials | Study protocol for BIO101 in preventing respiratory deterioration in COVID-19 pneumonia. Unrelated to etonogestrel or amenorrhea, so it gives no supporting evidence. |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2499509 | NEXPLANON |
-| 2253186 | NUVARING |
-| 2520028 | HALOETTE |
-
-Dosage form and approved indication text were not provided for these authorizations.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02499509 | NEXPLANON | Not listed | Not listed |
+| 02253186 | NUVARING | Not listed | Not listed |
+| 02520028 | HALOETTE | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Knowledge-graph contraindication signals** (from drug-disease links in the TxGNN knowledge graph, not from label text) include:
+- Cardiovascular and metabolic: hypertension, coronary artery disease, thrombophlebitis, diabetes mellitus, diabetic ketoacidosis, hyperlipidemia, hypertriglyceridemia, obesity
+- Liver, gallbladder and kidney disease
+- Neurological: epilepsy, migraine
+- Female breast carcinoma
+- Others: porphyria, systemic lupus erythematosus, asthma, anxiety and related disorders
+
+**Drug interactions:** 100 interactions were found. The 20 shown in the data are all rated Moderate. They fall mainly into these groups:
+- Antidiabetic agents: acarbose, metformin, glimepiride, chlorpropamide, alogliptin, saxagliptin, canagliflozin, dapagliflozin, empagliflozin, albiglutide, dulaglutide, semaglutide, and insulins (aspart, degludec, detemir, glargine, glulisine)
+- Others: aprepitant, clarithromycin, linaclotide
+
+Please refer to the package insert for official warnings and contraindications.
 
 ---
 
@@ -103,15 +115,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. The one completed Phase 3 trial is a single-arm contraceptive study that does not test amenorrhea as a treatment target. Amenorrhea is a known effect of the drug, so a therapeutic use is mechanistically counterintuitive.
-
-The other predicted indications (breast fibrocystic disease, blunt duct adenosis, apocrine adenosis, benign mammary dysplasia) are also L5. They have no retrieved trials or literature and are largely duplicates of one another through the knowledge graph.
+The evidence is model prediction only (L5). No trials exist, and the one linked publication is unrelated. Amenorrhea is an expected effect of etonogestrel rather than a treatment target, so it is hard to frame as a repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (DrugBank) and the original indication text for each authorization
-- Evidence that etonogestrel treats amenorrhea, rather than causing it, before any further evaluation
-- Confirmation that the amenorrhea prediction is not simply a drug-effect association
+- Mechanism of action data
+- Approved indication text for each Canadian license
+- Relevant clinical or observational studies of etonogestrel in amenorrhea or benign breast conditions
+- A clear clinical rationale for whether amenorrhea would be a therapeutic goal rather than a side effect
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

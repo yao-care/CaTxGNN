@@ -2,7 +2,7 @@
 layout: default
 title: Domperidone
 parent: Model Prediction Only (L5)
-nav_order: 295
+nav_order: 297
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Domperidone: To Nephrogenic Syndrome of Inappropriate Antidiuresis (Original Indication Not Recorded)
+# Domperidone: From Upper Gastrointestinal Symptoms to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Domperidone is a peripheral dopamine D2/D3 receptor antagonist marketed in Canada, but the Evidence Pack records no original indication for it.
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but **0 clinical trials** and **0 publications** currently support this direction.
-The prediction rests on a knowledge-graph score alone and is likely a graph-proximity artifact.
-
----
+Domperidone is a peripheral dopamine D2/D3 receptor antagonist used to manage dyspepsia, heartburn, epigastric pain, nausea and vomiting. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but **no clinical trials and no publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack (no approved indication text in any listed license) |
+| Original Indication | Dyspepsia, heartburn, epigastric pain, nausea and vomiting (from pharmacology data; the Canadian licence records contain no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for domperidone is not available in the Evidence Pack. Based on the rationale provided, domperidone is a peripheral dopamine D2/D3 receptor antagonist. No original indication is recorded, so no link between an original and a new indication can be drawn from the data.
+Detailed mechanism-of-action data for domperidone is not available in the compiled data. From pharmacology data, domperidone acts as an antagonist at the dopamine D2 and D3 receptors (DRD2, DRD3). It is used mainly for gastrointestinal symptoms, and in some countries off-label to enhance lactation.
 
-NSIAD is caused by gain-of-function variants in *AVPR2* (the vasopressin V2 receptor), and less often in *GNAS*. These variants make the receptor constitutively active, causing water retention and hyponatremia even when arginine vasopressin (AVP) levels are low or undetectable.
+The link to the predicted indication is weak. NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2, e.g. R137C/R137L) or, in some cases, GNAS. These variants cause constitutive receptor activation, leading to water retention and hyponatraemia. Domperidone has no known direct action on the V2 receptor or its cAMP signalling. A possible indirect route is dopaminergic modulation of renal water handling or vasopressin release, but this is not established. Because the disease is driven by receptor-level constitutive activity, blocking upstream vasopressin release would not be expected to help.
 
-The mechanistic link is weak. Dopamine signaling can modulate AVP release, but that acts upstream of the V2 receptor. It would not be expected to correct a receptor that is active regardless of AVP. No direct connection between domperidone and V2 receptor signaling has been established. The high score (0.991) is most likely a knowledge-graph proximity effect rather than a biologically grounded signal, and the mechanistic assessment is low-confidence.
+The high score probably reflects proximity within the knowledge graph (shared neighbouring drugs or genes) rather than a real pharmacological mechanism. The prediction should be treated as a hypothesis only.
 
----
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+Currently no related literature available.
 
 ## Canada Market Information
 
-Five of the 10 authorizations are listed below. The Evidence Pack does not provide dosage form, manufacturer, or approved indication text for them.
+All 10 authorisations below are valid single-ingredient products. Dosage form and approved indication text are not available in the compiled data.
 
-| DIN | Product Name |
-|---------|------|
-| 02350440 | DOMPERIDONE |
-| 02236857 | PRO-DOMPERIDONE |
-| 02369206 | JAMP-DOMPERIDONE |
-| 02445034 | BIO-DOMPERIDONE |
-| 02238341 | DOMPERIDONE |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02350440 | DOMPERIDONE | Not available | Not available |
+| 02236857 | PRO-DOMPERIDONE | Not available | Not available |
+| 02369206 | JAMP-DOMPERIDONE | Not available | Not available |
+| 02445034 | BIO-DOMPERIDONE | Not available | Not available |
+| 02238341 | DOMPERIDONE | Not available | Not available |
 
----
+(Five of the 10 licences are shown; the others are TEVA-, APO-, TARO-, MAR- and PRZ-DOMPERIDONE products.)
 
 ## Safety Considerations
 
-- **Cardiac risk**: Domperidone carries a known risk of QT prolongation and arrhythmia. This would need careful review in a hyponatremic, electrolyte-disturbed population such as NSIAD patients.
-- **Drug Interactions**: No interaction records were found in the queried source.
+- **Disease associations flagged in the knowledge graph (not label text):** long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease and gallbladder disease. These point to cardiac rhythm (QT prolongation) and hepatobiliary concerns that need verification against the product monograph.
+- **Drug Interactions:** The interaction query completed, but it returned only pharmacological target entries (dopamine D2 and D3 receptors), not drug-drug interactions.
 
-Please refer to the package insert for other safety information.
-
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no clinical trials or publications, and the mechanism is implausible because NSIAD involves a constitutively active V2 receptor that dopamine antagonism would not be expected to correct. The QT and arrhythmia risk adds a safety concern in an electrolyte-disturbed population.
+The prediction score is high, but there is no clinical or literature support, and the proposed mechanism is implausible: NSIAD arises from constitutively active V2 receptors, which domperidone does not target. The knowledge-graph QT-prolongation signal adds a safety concern in a population (patients with hyponatraemia) where electrolyte disturbance can further raise arrhythmia risk.
 
 **To proceed, the following is needed:**
-- Preclinical evidence, such as V2 receptor signaling assays, showing any domperidone effect on AVPR2 or GNAS-mediated activity
-- Detailed mechanism-of-action data and the recorded original indications
-- Health Canada package insert warnings and contraindications, for safety screening
-- A cardiac safety assessment (QT and electrolyte considerations) for the target population
+- Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank
+- Preclinical evidence (e.g. in vitro V2 receptor/cAMP assays) showing any plausible effect on NSIAD
+- A systematic literature search for any link between dopamine antagonism and vasopressin or renal water handling
+- A cardiac safety assessment (QT, electrolytes) for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

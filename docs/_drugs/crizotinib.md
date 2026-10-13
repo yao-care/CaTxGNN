@@ -2,7 +2,7 @@
 layout: default
 title: Crizotinib
 parent: Model Prediction Only (L5)
-nav_order: 225
+nav_order: 227
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,97 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Crizotinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# Crizotinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Crizotinib is a kinase inhibitor (ALK, ROS1 and MET) used to treat ALK-positive and ROS1-positive non-small cell lung cancer. The TxGNN model predicts it may be effective for **gingival fibromatosis**, with a very high score of 99.81%. However, **no clinical trials and no publications** currently support this prediction, so it rests on the model alone.
+Crizotinib is a targeted kinase inhibitor, originally used to treat non-small cell lung carcinoma (ALK-positive and ROS1-positive disease).
+The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 99.8%), but **no clinical trials and no publications** currently support this prediction.
+It is a computational signal only and should be treated as a hypothesis.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | ALK-positive non-small cell lung cancer (taken from published literature; the Canadian licence records provided contain no indication text) |
+| Original Indication | Non-small cell lung carcinoma / lung cancer (the Canadian licence records list no indication text) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.81% (model rank 4337) |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 99.81% |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Crizotinib is an ATP-competitive inhibitor of the receptor tyrosine kinases ALK, ROS1 and c-MET. It is established in non-small cell lung cancer driven by ALK or ROS1 rearrangements. Detailed mechanism-of-action data are not available in the DrugBank record supplied for this report. The kinase targets above come from the literature retrieved for other predicted indications.
+Detailed mechanism of action data is not available in the data compiled for this report. From the published literature, crizotinib is an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1 and c-MET. It is approved for ALK-rearranged and ROS1-rearranged non-small cell lung cancer.
 
-The link to gingival fibromatosis, a benign overgrowth of gum tissue, is weak. No connection between ALK, ROS1 or MET signalling and this condition is documented in the data provided. The high score most likely reflects proximity in the knowledge graph rather than a demonstrated biological rationale. It should be treated as a hypothesis-generating signal only.
+Gingival fibromatosis is a benign overgrowth of gum connective tissue. It is not an ALK-, ROS1- or MET-driven malignancy, and the data show no plausible link between these targets and this condition. The high TxGNN score reflects a pattern in the knowledge graph and has no clinical or literature support. The prediction should be regarded as speculative.
+
+Other lower-ranked predictions have some indirect evidence. Examples are lung germ cell tumor, where two broad ALK-altered tumor trials exist, and lung hilum carcinoma, where case reports in ROS1/ALK-positive lung adenocarcinoma overlap with the existing lung cancer indication. These do not change the assessment for the top-ranked indication.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for gingival fibromatosis.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for gingival fibromatosis.
+
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2384264 | XALKORI |
-| 2384256 | XALKORI |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02384264 | XALKORI | Not listed | Not listed |
+| 02384256 | XALKORI | Not listed | Not listed |
 
-Dosage form and approved-indication text are not included in the licence records provided.
+Both licences are valid single-ingredient products. None are cancelled.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor), not a conventional cytotoxic agent |
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Literature reports point to liver function, cardiac rhythm (heart rate, QT interval) and respiratory symptoms (interstitial lung disease); confirm against the package insert |
+| Monitoring Items | Liver function tests, ECG and heart rate (case reports describe QT prolongation, bradycardia and fatal liver failure), CBC |
 | Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-The Health Canada package insert warnings, contraindications and drug interaction data were not available for this report. The retrieved literature describes the following crizotinib safety signals:
+- **Drug Interactions**: The interaction query returned 100 interacting drugs. Among those listed, the following are classified as **Major**: clarithromycin, cisapride, dolasetron, eliglustat and granisetron. Moderate interactions include famotidine, metformin, loperamide, bupropion, aprepitant, dexamethasone and budesonide.
+- **Reported toxicities in the literature (case reports)**: fatal fulminant liver failure, combined cardiac toxicities (bradycardia, QT prolongation, ventricular rhythm, pericarditis), sick sinus syndrome, erythema multiforme and erosive esophagitis.
 
-- **Hepatotoxicity**: a case report of fatal fulminant liver failure after 24 days of therapy (PMID 26898609).
-- **Cardiac toxicity**: case reports of bradycardia, QT prolongation and sick sinus syndrome (PMIDs 29717400, 25922742).
-- **Lung injury**: drug-induced organizing pneumonia (PMID 37062732).
+Please refer to the package insert for warnings and contraindications, as these were not available in the data compiled for this report.
 
-These signals matter for any new use, especially in a benign condition where the risk-benefit balance is far less favourable than in advanced cancer. Please refer to the package insert for full safety information.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score but no trials, no literature and no documented mechanistic link to gingival fibromatosis. Crizotinib carries serious toxicities (liver, heart, lung), which are hard to justify in a benign gum condition without any supporting evidence.
+- The prediction has the highest score but no clinical trials, no literature and no plausible mechanistic link between ALK/ROS1/MET inhibition and gingival fibromatosis. Known serious toxicities (hepatic, cardiac) are difficult to justify for a benign condition without supporting evidence.
 
 **To proceed, the following is needed:**
-- Any mechanistic or preclinical evidence linking ALK, ROS1 or MET signalling to gingival fibromatosis
-- The Health Canada package insert warnings and contraindications
-- Mechanism-of-action data from DrugBank
-- A review of whether a benign, non-life-threatening condition can justify the toxicity profile
-
-Among the other predictions for this drug, only lung hilum carcinoma (rank 4) has anecdotal case-report support in ALK-positive and ROS1-positive lung cancer. It was flagged as a research question, and it may be a more practical starting point than gingival fibromatosis.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data (for example from DrugBank) to assess whether any pathway overlaps with gingival fibromatosis
+- Health Canada package insert warnings and contraindications, which are required for safety screening
+- Preclinical evidence (for example fibroblast or gingival tissue models) showing a biological effect of crizotinib
+- A risk-benefit assessment for a benign indication, including route and formulation considerations
+- Consideration of other predictions with some indirect evidence, such as lung germ cell tumor, as alternative candidates for further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

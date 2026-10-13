@@ -2,7 +2,7 @@
 layout: default
 title: Tazarotene
 parent: Model Prediction Only (L5)
-nav_order: 876
+nav_order: 883
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,90 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tazarotene: From Marketed Topical Retinoid to Seborrheic Dermatitis
+# Tazarotene: From Psoriasis to Seborrheic Dermatitis
 
 ## One-Sentence Summary
 
-Tazarotene is a retinoid marketed in Canada in two products (ARAZLO and DUOBRII). The package does not list an approved indication for it.
-The TxGNN model predicts it may be effective for **seborrheic dermatitis**, but only **1 registered clinical trial** was retrieved, and it was judged not relevant. **No publications** support this specific prediction, so it rests on the model score alone.
-
----
+Tazarotene is a topical retinoid originally used to treat psoriasis, parapsoriasis, and acne.
+The TxGNN model predicts it may be effective for **seborrheic dermatitis**,
+but **no clinical trials and no publications** currently support this specific prediction, so it remains a computational hypothesis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Psoriasis, parapsoriasis, acne (from the TxGNN knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. The following comes from the mechanistic analysis in the evidence pack. Tazarotene is a prodrug whose active metabolite, tazarotenic acid, selectively activates retinoic acid receptors RAR-beta and RAR-gamma. This changes how skin cells (keratinocytes) mature and multiply, and it has anti-inflammatory effects.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, tazarotene is a topical retinoid prodrug converted to tazarotenic acid, which selectively binds retinoic acid receptors RAR-beta and RAR-gamma. This helps normalise keratinocyte differentiation and reduces skin-cell overgrowth and inflammation.
 
-Seborrheic dermatitis is driven mainly by *Malassezia* yeast and skin inflammation. Retinoid effects on keratinocyte turnover and inflammation make a link plausible, but no retinoid-specific data were provided to confirm it. The very high TxGNN score (99.79%, rank 4704) is a computational prediction, not clinical proof.
+Psoriasis and seborrheic dermatitis are both scaling, inflammatory skin conditions with some shared features, such as excess growth of the outer skin layer. This is the main reason the prediction is plausible.
 
----
+There are important limits, however. Seborrheic dermatitis is also driven by *Malassezia* yeast colonisation and the local immune response, which retinoids do not directly target. Retinoid-related irritation could also make the condition worse, since it often affects sensitive facial areas. The very high TxGNN score is a computational output only and is not backed by clinical evidence here.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06281782](https://clinicaltrials.gov/study/NCT06281782) | N/A | Unknown | 40 | Platelet-rich plasma plus topical retinoids versus topical retinoids alone in **acne vulgaris**. |
-
-This trial does not study seborrheic dermatitis. It was graded C (low relevance) and appears to have been matched only on the keyword "topical retinoid". It cannot support this indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for seborrheic dermatitis.
 
----
+*For reference:* for the second-ranked prediction, **seborrheic keratosis** (TxGNN score 99.51%, evidence level L4), two publications were found. Whether tazarotene was actually studied in them could not be confirmed from the information available.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36215682](https://pubmed.ncbi.nlm.nih.gov/36215682/) | 2023 | Systematic review | J Dermatolog Treat | Reviewed the efficacy and safety of topical treatments for seborrheic keratoses (26 reports included); tazarotene-specific results not confirmed |
+| [15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/) | 2004 | Comparative study | Int J Dermatol | Compared standard cryosurgery with topical calcipotriene, tazarotene, and imiquimod for seborrheic keratoses; results not available in the data provided |
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2517868 | ARAZLO |
-| 2499967 | DUOBRII |
-
-Dosage form and approved indication text were not provided for either product.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02517868 | ARAZLO | Not specified | Not specified |
+| 02499967 | DUOBRII | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (not label text): photoparoxysmal response, photosensitivity disease, sunburn.
+- **Drug Interactions**: 25 potential interactions were identified, all with an unclassified severity level. Examples include:
+  - Doxycycline and minocycline
+  - Adapalene and tretinoin (other retinoids)
+  - Clobetasol and tacrolimus (other topical agents)
+  - Omeprazole, citalopram, duloxetine, diclofenac, and others
 
-Drug interaction queries returned no records. Tazarotene is a known local irritant, which matters for sensitive skin areas.
-
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is plausible mechanistically, but evidence is at the lowest level (L5). The one retrieved trial is unrelated (acne), and there are no supporting publications. The pack gives no basis for moving beyond the screening stage.
+The prediction for seborrheic dermatitis relies solely on a model score, with no clinical trials or publications (evidence level L5). The mechanism is only partly plausible, and skin irritation is a concern in the affected areas.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indications and dosage forms for ARAZLO and DUOBRII
-- Mechanism-of-action data from DrugBank
-- Retinoid-specific clinical or preclinical studies in seborrheic dermatitis
-- Assessment of route compatibility (currently pending)
-
-**Other predictions for this drug:**
-- **Seborrheic keratosis** (score 99.51%) has somewhat stronger support, at L4 with a "Research Question" recommendation. It has a 2023 systematic review of topical treatments and a 2004 comparative study that included topical tazarotene. Clinical effect is still unconfirmed.
-- **Vulvar inverted follicular keratosis** (score 99.38%) has no trials or publications (L5, Hold). The vulvar site is sensitive, and tazarotene's local irritation is a concern there.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Obtain and review the Health Canada package inserts for warnings and contraindications
+- Add detailed mechanism of action data
+- Search for clinical or preclinical studies of tazarotene in seborrheic dermatitis
+- Review the full text of the two seborrheic keratosis publications to see whether tazarotene data exist, as this is a possible alternative direction
+- Assess tolerability in sensitive facial skin and the photosensitivity-related signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

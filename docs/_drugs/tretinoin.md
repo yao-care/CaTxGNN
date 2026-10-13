@@ -2,7 +2,7 @@
 layout: default
 title: Tretinoin
 parent: Model Prediction Only (L5)
-nav_order: 933
+nav_order: 940
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tretinoin: From Acute Promyelocytic Leukemia and Acne to Rheumatoid Nodulosis
+# Tretinoin: From Acne and Acute Promyelocytic Leukemia to Rheumatoid Nodulosis
 
 ## One-Sentence Summary
 
-Tretinoin is a retinoid (a vitamin A derivative) sold in Canada as Vesanoid and Retin-A. The TxGNN model predicts it may be effective for **rheumatoid nodulosis**, but **no clinical trials and no publications** support this prediction. It is a model-only signal.
+Tretinoin is a retinoid originally used for acne, acute promyelocytic leukemia, acquired keratosis and palmoplantar keratoderma.
+The TxGNN model predicts it may be effective for **rheumatoid nodulosis**,
+but there are currently **0 clinical trials** and **0 relevant publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute promyelocytic leukemia and acne (inferred from the marketed products Vesanoid and Retin-A; the supplied license records contain no indication text) |
+| Original Indication | Acne, acute promyelocytic leukemia, acquired keratosis, palmoplantar keratoderma (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Rheumatoid nodulosis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
@@ -49,9 +51,11 @@ Tretinoin is a retinoid (a vitamin A derivative) sold in Canada as Vesanoid and 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid, a class with general immunomodulatory activity, and its efficacy in its approved uses is established. Mechanistically, it may be applicable to inflammatory conditions, but the supplied data do not support a specific link to rheumatoid nodulosis.
+Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid (a vitamin A derivative, retinoic acid), its efficacy in acne, acute promyelocytic leukemia and keratinization disorders is established, and mechanistically it may be applicable to inflammatory conditions through immune modulation.
 
-The high score most likely reflects the model's graph-neighbor patterns, not direct evidence. Related arthritis terms rank in the top 10 as well (juvenile idiopathic arthritis and its synonyms, rheumatoid factor-positive polyarticular JIA). Several of these are synonym-level overlaps, so they are not independent confirmations.
+Retinoic acid has been reported to influence the balance between regulatory T cells and Th17 cells and to dampen inflammatory cytokines. This could plausibly relate to rheumatoid-type inflammation. However, this link is theoretical. No clinical or literature evidence supports use in rheumatoid nodulosis, and the missing mechanism data means the reasoning remains speculative.
+
+Other top-ranked predictions (juvenile idiopathic arthritis and related entries, ranks 2–4) share the same speculative immune rationale and are likely to reflect the same knowledge-graph neighbourhood rather than independent evidence. The most biologically plausible prediction in the set is Quinquaud's folliculitis decalvans (rank 10), which is consistent with tretinoin's dermatologic uses, but it also has no supporting trials or publications.
 
 ## Clinical Trial Evidence
 
@@ -59,39 +63,25 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for rheumatoid nodulosis.
-
-### Best-evidenced alternative: Osteoarthritis (rank 7, score 99.44%, L4)
-
-This is the only predicted indication with any literature. All of it is genetic, preclinical or computational, and there are no trials.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36542696](https://pubmed.ncbi.nlm.nih.gov/36542696/) | 2022 | Genetic/mechanistic | Sci Transl Med | ALDH1A2 variants (key enzyme for all-trans retinoic acid synthesis) are linked to severe hand OA, suggesting an anti-inflammatory role for retinoic acid |
-| [37418291](https://pubmed.ncbi.nlm.nih.gov/37418291/) | 2023 | Genetic/computational | DNA Cell Biol | GWAS-to-drug analysis proposing retinoic acid metabolism blocking agents to suppress mechanoflammation in OA |
-| [40564983](https://pubmed.ncbi.nlm.nih.gov/40564983/) | 2025 | Preclinical/computational | Int J Mol Sci | RNA-seq and network pharmacology study of retinoic acid-induced OA, suggesting excess exposure may be harmful |
-| [15946654](https://pubmed.ncbi.nlm.nih.gov/15946654/) | 2005 | In vitro | Biochem Pharmacol | All-trans retinoic acid blocked cytokine-induced MMP production in human chondrocytes via JNK-AP-1 signaling |
-| [38302538](https://pubmed.ncbi.nlm.nih.gov/38302538/) | 2024 | In vitro | Sci Rep | Effect of a retinoic acid analogue on stem cell chondrogenesis |
-
-The direction of effect is conflicting: some studies suggest retinoic acid protects cartilage, others suggest it causes harm. Dose and route dependence are unresolved. Many of the other retrieved papers are not retinoid-specific and are omitted.
+Currently no related literature available.
 
 ## Canada Market Information
 
-Showing 5 of 10 authorizations. Dosage form and approved indication text were not supplied.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02145839 | VESANOID | Not specified | Not specified |
+| 00443794 | RETIN-A | Not specified | Not specified |
+| 02264633 | RETIN-A MICRO | Not specified | Not specified |
+| 02520036 | JAMP TRETINOIN | Not specified | Not specified |
+| 01926462 | VITAMIN A ACID | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2145839 | VESANOID |
-| 443794 | RETIN-A |
-| 2264633 | RETIN-A MICRO |
-| 2520036 | JAMP TRETINOIN |
-| 1926462 | VITAMIN A ACID |
+Ten valid single-ingredient licences are on record in total; the five above are shown.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Retinoid, differentiation-inducing agent (oral use in leukemia); not a conventional cytotoxic |
+| Cytotoxicity Classification | Differentiating agent (retinoid) used in acute promyelocytic leukemia; not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -99,23 +89,32 @@ Showing 5 of 10 authorizations. Dosage form and approved indication text were no
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the supplied data.
+- **Contraindications (from the knowledge graph, not label text)**: The knowledge graph links tretinoin with the following conditions: sunburn; anxiety, neurotic and dysthymic disorders; psychotic, schizophreniform, schizoaffective and other mental disorders; kidney disease; pyoureter; pancreatitis; liver disease; gallbladder disease; congestive heart failure; adrenocortical insufficiency and Addison disease; Crohn disease, Crohn's colitis and inflammatory bowel disease; atopic eczema and atopic dermatitis; osteoporosis and postmenopausal osteoporosis; mycosis fungoides and related cutaneous T-cell lymphomas; diabetes mellitus and diabetic ketoacidosis.
+- **Drug Interactions**: 100 interactions were found in total. The main ones rated Major are:
+  - Doxycycline
+  - Tetracycline
+  - Minocycline
+  - Vitamin A
 
-The prediction notes flag two concerns for new uses. Retinoid teratogenicity and bone effects would need review for any pediatric arthritis use. Retinoid effects on skeletal development would need review for the skeletal dysplasias (pseudoachondroplasia, acromesomelic dysplasia).
+  Moderate interactions include aprepitant, clarithromycin and naltrexone. Levofloxacin is rated Minor.
+- **Population-specific concerns**: Retinoids carry teratogenicity risk and skeletal toxicity in growing children, which matters particularly for the juvenile arthritis and skeletal predictions.
+
+Package insert warnings and contraindications from Health Canada were not available, so the label should be consulted directly.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, rheumatoid nodulosis, rests on the model score alone, with no trials, no literature and no supplied mechanism. The other nine predictions are also model-only (L5), except osteoarthritis, which has only preclinical and genetic evidence with conflicting direction. It is best treated as a research question, not a development candidate.
+The prediction for rheumatoid nodulosis rests only on a high model score (99.84%) with no registered trials or relevant publications (Evidence Level L5). The retrieved publications on osteoarthritis do not support a tretinoin effect. The knowledge-graph contraindication list is broad, and retinoid skeletal and teratogenic risks add safety concerns.
 
 **To proceed, the following is needed:**
+- Mechanism of action data for tretinoin
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A targeted literature search for retinoid use in rheumatoid nodulosis and the arthritis subtypes
-- For osteoarthritis, resolution of the protective-versus-harmful direction, including dose and route, and a route compatibility assessment
-- Original indication text and dosage forms for the Canadian licenses
+- Preclinical or mechanistic studies of retinoic acid in rheumatoid nodulosis or related nodule-forming inflammation
+- A systematic literature search targeted at tretinoin and rheumatoid disease
+- Route and formulation compatibility assessment (oral versus topical) for the proposed indication
+- Consideration of Quinquaud's folliculitis decalvans as a more biologically plausible alternative candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

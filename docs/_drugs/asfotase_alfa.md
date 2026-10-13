@@ -33,17 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Asfotase alfa is a recombinant enzyme replacement therapy (tissue-nonspecific alkaline phosphatase, TNSALP), marketed in Canada as STRENSIQ. The license records do not state an indication, but the product is known to be used for hypophosphatasia.
-The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**.
-There are **0 clinical trials** and **0 publications** behind this prediction, so it is a model-only signal.
-
----
+Asfotase alfa is an enzyme replacement therapy originally used to treat hypophosphatasia.
+The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**,
+but currently there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypophosphatasia (not stated in the license records; based on the drug's known use) |
+| Original Indication | Hypophosphatasia |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
@@ -51,65 +49,59 @@ There are **0 clinical trials** and **0 publications** behind this prediction, s
 | Number of DINs | 4 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Asfotase alfa is a recombinant TNSALP. It hydrolyzes extracellular substrates such as inorganic pyrophosphate and acts on bone mineralization. Detailed mechanism of action data is not available in the input.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, asfotase alfa is a recombinant tissue-nonspecific alkaline phosphatase (TNAP) enzyme replacement. It breaks down inorganic pyrophosphate (PPi), pyridoxal-5'-phosphate (PLP) and phosphoethanolamine, which supports bone mineralization in hypophosphatasia.
 
-**No established mechanistic link supports this prediction.** TNSALP has no known role in mitochondrial oxidative phosphorylation (OXPHOS). The high score comes from the knowledge-graph structure, not from biological or clinical evidence.
+Mitochondrial oxidative phosphorylation disorders arise from defects in cellular energy metabolism. The TNAP mechanism does not address these defects, so no clear mechanistic link was identified. The high score (0.9995) is a graph-based prediction only and should be treated as a hypothesis, not as evidence of efficacy.
 
-Other high-scoring predictions show the same pattern:
-- **Steel syndrome (rank 2):** a skeletal dysplasia, so the only link is bone biology. It involves a collagen-related defect that TNSALP replacement is not known to address.
-- **Scheie syndrome, Hurler syndrome and lysosomal storage disease with skeletal involvement (ranks 4-6):** these likely reflect the shared "enzyme replacement plus skeletal phenotype" class. TNSALP does not act on the substrates that accumulate in these diseases.
-- **Exocrine pancreatic insufficiency, familial apolipoprotein C-II deficiency, esophageal varices and cystinosis (ranks 3, 7-10):** no plausible mechanism was identified, and these are probably graph artifacts. The two esophageal varices entries have identical scores and look like duplicate predictions from one graph signal.
+**Other predictions reviewed (all L5, all Hold):**
 
----
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 2 | Steel syndrome | 99.91% | Collagen XXVII defect; TNAP replacement does not correct it. Only a loose skeletal-phenotype overlap. |
+| 3 | Exocrine pancreatic insufficiency | 99.89% | Only a graph-level "enzyme replacement" association; no digestive enzyme activity. |
+| 4 | Scheie syndrome | 99.85% | Alpha-L-iduronidase deficiency is not addressed. |
+| 5 | Hurler syndrome | 99.75% | Approved therapies differ; no target relevance. |
+| 6 | Lysosomal storage disease with skeletal involvement | 99.73% | Different pathology from the PPi-mediated mineralization defect. |
+| 7 | Familial apolipoprotein C-II deficiency | 99.71% | No known effect on lipoprotein metabolism. |
+| 8–9 | Esophageal varices (with / without bleeding) | 99.68% | Portal hypertension; no plausible link. Identical scores suggest a shared ontology-based prediction. |
+| 10 | Cystinosis | 99.65% | Cystine transport defect; only a superficial renal and bone overlap. |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2444623 | STRENSIQ |
-| 2444615 | STRENSIQ |
-| 2444631 | STRENSIQ |
-| 2444658 | STRENSIQ |
-
-Dosage form, manufacturer and approved indication text are blank in the license records.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02444623 | STRENSIQ | Not specified | Not specified |
+| 02444615 | STRENSIQ | Not specified | Not specified |
+| 02444631 | STRENSIQ | Not specified | Not specified |
+| 02444658 | STRENSIQ | Not specified | Not specified |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no supporting clinical trials or publications (L5). The biology does not support it, because TNSALP replacement has no known connection to mitochondrial OXPHOS. The other top-ranked predictions are also unsupported.
+The prediction has no supporting clinical trials or publications, and the mechanism of asfotase alfa (TNAP enzyme replacement for bone mineralization) does not address mitochondrial energy metabolism defects. The high TxGNN score alone is not sufficient to justify moving forward. The other nine top-ranked predictions are likewise unsupported.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
-- Approved indication text for the four licenses
-- Preclinical or mechanistic evidence that TNSALP activity affects mitochondrial function or nuclear-DNA-related OXPHOS disease
-- A re-run of the evidence search for this and the other predicted indications, to check that no relevant trials or publications were missed
+- Detailed mechanism of action data
+- A plausible biological rationale linking TNAP replacement to mitochondrial OXPHOS disorders, such as preclinical or mechanistic studies
+- Any clinical or observational evidence (trials, case reports) in the predicted indication
+- Route and dosage-form compatibility assessment for the new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

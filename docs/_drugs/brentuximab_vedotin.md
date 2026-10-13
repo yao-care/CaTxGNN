@@ -2,7 +2,7 @@
 layout: default
 title: Brentuximab Vedotin
 parent: Model Prediction Only (L5)
-nav_order: 120
+nav_order: 122
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,96 +29,132 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Brentuximab Vedotin: From CD30-Positive Lymphomas (Hodgkin Lymphoma, sALCL) to Follicular Lymphoma
+# Brentuximab Vedotin: From Hodgkin Lymphoma to Follicular Lymphoma
 
 ## One-Sentence Summary
 
-Brentuximab vedotin (Adcetris) is a CD30-directed antibody-drug conjugate. The trial records in the Evidence Pack describe it as registered for Hodgkin lymphoma, relapsed systemic anaplastic large cell lymphoma (sALCL) and CD30+ mycosis fungoides. The TxGNN model predicts it may be useful for **follicular lymphoma**, but the support is thin: **6 registered trials** (none completed, three withdrawn or terminated, none with results) and **20 publications**, mostly about peripheral T-cell lymphoma (PTCL) rather than follicular lymphoma.
+Brentuximab vedotin is a CD30-targeted antibody-drug conjugate, originally used to treat Hodgkin lymphoma.
+The TxGNN model predicts it may be effective for **follicular lymphoma**, but only **1 on-indication trial** (still recruiting, no results) and **no direct follicular lymphoma publications** currently support this direction.
+Of the ten predicted indications, **B-cell neoplasm** (mainly CD30-positive diffuse large B-cell lymphoma) has the strongest supporting evidence and is also discussed below.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence data. Trial descriptions in the pack cite Hodgkin lymphoma, relapsed sALCL and CD30+ cutaneous T-cell lymphoma (mycosis fungoides) |
+| Original Indication | Hodgkin lymphoma (classic Hodgkin lymphoma and related subtypes) |
 | Predicted New Indication | Follicular lymphoma |
-| TxGNN Prediction Score | 99.89% (model rank 2693) |
-| Evidence Level | L5 (the pack lists L2, but no completed randomized trial in follicular lymphoma supports it, so I rated it conservatively) |
+| TxGNN Prediction Score | 99.89% |
+| Evidence Level | L2 (by the compiled data's scoring; see note below) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (research question only) |
+
+*Note: The L2 label rests on a single Phase 2 trial that is still recruiting with no results. No completed Phase 2 or 3 RCT exists for follicular lymphoma, so the practical strength of evidence is weaker than the label suggests.*
+
+---
 
 ## Why is This Prediction Reasonable?
 
-The pack has no formal mechanism-of-action entry for this drug. From the pack's rationale notes, brentuximab vedotin is an antibody-drug conjugate. The antibody binds CD30 and delivers the cytotoxic payload MMAE into CD30-expressing cells. This works well in Hodgkin lymphoma and anaplastic large cell lymphoma, where CD30 is strongly expressed.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, brentuximab vedotin is an antibody-drug conjugate: an anti-CD30 antibody linked to the cytotoxic agent MMAE (vedotin). It is established in CD30-positive lymphomas, and its efficacy in Hodgkin lymphoma is proven.
 
-Follicular lymphoma is a B-cell lymphoma, so the link to the original indications is disease-family similarity rather than a shared target. CD30 is expressed only variably or at low levels in follicular lymphoma, so the mechanistic rationale is weaker than in Hodgkin lymphoma or ALCL. The KG prediction is therefore plausible as a hypothesis but not mechanistically strong.
+The mechanistic link to follicular lymphoma is **weak**. CD30 expression in follicular lymphoma is variable and usually low, so any benefit would likely be limited to CD30-positive cases or to bystander effects of the released payload. Much of the supporting literature concerns peripheral T-cell lymphoma, not follicular lymphoma.
 
-No follicular-lymphoma-specific efficacy data are in the pack. The one on-indication trial is a small, still-recruiting phase 2 study of brentuximab vedotin plus bendamustine. Other candidates in the same prediction list have much stronger support, for example the broad "B-cell neoplasm" term (Hodgkin lymphoma, DLBCL, PMBCL), which has phase 3 data.
+Other predictions differ in strength:
+- **B-cell neoplasm**: CD30 is expressed in a subset of B-cell lymphomas (some DLBCL, notably EBV-positive, and primary mediastinal B-cell lymphoma). Published phase 2 and combination data support activity in CD30-positive disease.
+- **Myeloid leukemia**: CD30 is expressed in some myeloid neoplasms, but early-phase data are limited.
+- **Acute lymphoblastic leukemia, chronic lymphocytic leukemia variants, mantle cell lymphoma, Richter syndrome, ganglioneuroblastoma and the congenital T-cell dysfunction syndrome**: little or no mechanistic or clinical support, so these remain on hold.
+
+---
 
 ## Clinical Trial Evidence
 
+Trials for the top prediction, follicular lymphoma:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Phase 2 | Recruiting | 23 | Brentuximab vedotin plus bendamustine in relapsed/refractory follicular lymphoma. Directly on-indication, no results yet |
-| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Phase 1/2 | Terminated | 20 | Brentuximab vedotin plus rituximab as frontline therapy in CD30+ and/or EBV+ lymphomas. Follicular lymphoma is likely only one eligible histology |
-| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Phase 2 | Terminated | 25 | Randomized rituximab-bendamustine with or without brentuximab vedotin in CD30+ DLBCL. The only randomized design, but underpowered |
-| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Phase 2 | Withdrawn | 0 | Brentuximab vedotin plus pembrolizumab in recurrent PTCL. No participants enrolled |
-| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Phase 2 | Withdrawn | 0 | Sequential rituximab, brentuximab vedotin and bendamustine in post-transplant lymphoproliferative disorder. No participants enrolled |
-| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Phase 2 | Withdrawn | 0 | Brentuximab vedotin, bendamustine and rituximab in CD30+ relapsed/refractory B-cell NHL. No participants enrolled |
+| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Phase 2 | Recruiting | 23 | Brentuximab vedotin plus bendamustine in relapsed/refractory follicular lymphoma; directly on-indication, no results yet |
+| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Phase 1/2 | Terminated | 20 | Brentuximab vedotin plus rituximab, frontline, CD30+ and/or EBV+ lymphomas; mixed population |
+| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Phase 2 | Terminated | 25 | Randomized rituximab and bendamustine with or without brentuximab vedotin in CD30+ DLBCL; limited by early termination |
+| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Phase 2 | Withdrawn | 0 | Rituximab, brentuximab vedotin and bendamustine in post-transplant lymphoproliferative disorder; no data |
+| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Phase 2 | Withdrawn | 0 | Brentuximab vedotin, bendamustine and rituximab in CD30+ B-cell NHL; no data |
+| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Phase 2 | Withdrawn | 0 | Brentuximab vedotin plus pembrolizumab in peripheral T-cell lymphoma; no data |
+
+Key trials for the better-supported **B-cell neoplasm** prediction:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01421667](https://clinicaltrials.gov/study/NCT01421667) | Phase 2 | Completed | 176 | Relapsed/refractory NHL; activity seen in CD30-positive DLBCL |
+| [NCT04404283](https://clinicaltrials.gov/study/NCT04404283) | Phase 3 | Active, not recruiting | 239 | Randomized, double-blind: brentuximab vedotin or placebo plus lenalidomide and rituximab in relapsed/refractory DLBCL |
+| [NCT01994850](https://clinicaltrials.gov/study/NCT01994850) | Phase 1/2 | Completed | 32 | Front-line brentuximab vedotin with multi-agent chemotherapy in CD30+ PMBCL, DLBCL and grey zone lymphomas |
+| [NCT04745949](https://clinicaltrials.gov/study/NCT04745949) | Phase 2 | Recruiting | 31 | Brentuximab vedotin and nivolumab, then with R-CHP, in untreated primary mediastinal large B-cell lymphoma |
+| [NCT02086604](https://clinicaltrials.gov/study/NCT02086604) | Phase 1 | Completed | 37 | Brentuximab vedotin with lenalidomide in relapsed/refractory DLBCL |
+
+---
 
 ## Literature Evidence
 
-No randomized controlled trials were retrieved. Most items concern PTCL and are only indirect support.
+Follicular lymphoma has no direct treatment publications. The most relevant items are:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Phase 2 study | Blood Adv | LYSA study of brentuximab vedotin plus gemcitabine, then brentuximab vedotin maintenance, in relapsed/refractory CD30+ PTCL. Indirect for follicular lymphoma |
-| [33320379](https://pubmed.ncbi.nlm.nih.gov/33320379/) | 2021 | Clinical study | Eur J Haematol | Brentuximab vedotin added to ICE chemotherapy in relapsed/refractory PTCL. Indirect |
-| [34797505](https://pubmed.ncbi.nlm.nih.gov/34797505/) | 2022 | Retrospective real-world study | Adv Ther | Brentuximab vedotin plus cyclophosphamide, epirubicin and prednisone in untreated CD30+ PTCL. Indirect |
-| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Review | Blood | Treatment approaches for common PTCL subtypes, including brentuximab vedotin plus CHP for CD30+ disease |
-| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | Review | Hematology ASH Educ Program | Incorporating brentuximab vedotin and novel agents into PTCL management |
-| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leuk Res Rep | Immunotherapy in indolent NHL, including follicular lymphoma. The only item that covers the target disease |
-| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Case report | Gulf J Oncol | Grade I follicular lymphoma transformed to CD30+ ALK1− ALCL, with complete response to brentuximab vedotin and high-dose methotrexate. The response was in the transformed T-cell disease, not follicular lymphoma |
-| [28967896](https://pubmed.ncbi.nlm.nih.gov/28967896/) | 2018 | Review | Bone Marrow Transplant | Post-autologous-transplant maintenance in lymphoma. Mentions rituximab maintenance in follicular lymphoma |
-| [38028985](https://pubmed.ncbi.nlm.nih.gov/38028985/) | 2023 | Case report | Case Rep Hematol | Follicular lymphoma transformation to EBV+ DLBCL and EBV+ classic Hodgkin lymphoma. Diagnostic report |
-| [41409526](https://pubmed.ncbi.nlm.nih.gov/41409526/) | 2025 | Case report | Skin Appendage Disord | Follicular mucinosis (a skin condition, not follicular lymphoma) responding to brentuximab vedotin. Weak relevance because of the name similarity |
+| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Cohort (Phase 2) | Blood Advances | Brentuximab vedotin plus gemcitabine in relapsed/refractory peripheral T-cell lymphoma (not follicular) |
+| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Review | Leukemia Research Reports | Immunotherapy in indolent non-Hodgkin lymphoma, including follicular lymphoma |
+| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Case report | Gulf Journal of Oncology | Grade I follicular lymphoma transformed to CD30+ anaplastic large cell lymphoma, with complete response to brentuximab vedotin and high-dose methotrexate |
+| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Review | Blood | Treatment approaches in common peripheral T-cell lymphoma subtypes |
+
+For the B-cell neoplasm prediction:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39772655](https://pubmed.ncbi.nlm.nih.gov/39772655/) | 2025 | Clinical trial | J Clin Oncol | Brentuximab vedotin plus lenalidomide and rituximab versus placebo plus lenalidomide and rituximab in relapsed/refractory DLBCL |
+| [41367262](https://pubmed.ncbi.nlm.nih.gov/41367262/) | 2026 | Clinical trial | Future Oncology | Nivolumab plus brentuximab vedotin in relapsed/refractory DLBCL (CheckMate 436) |
+| [37352266](https://pubmed.ncbi.nlm.nih.gov/37352266/) | 2023 | Clinical trial follow-up | Blood Advances | 3-year follow-up of nivolumab plus brentuximab vedotin in relapsed/refractory primary mediastinal large B-cell lymphoma |
+
+---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2401347 | ADCETRIS |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02401347 | ADCETRIS | Not stated | Not stated in the compiled data |
+
+---
 
 ## Cytotoxicity
 
-The pack has no toxicity data, so the entries below are general class knowledge and should be checked against the current package insert.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy: CD30-directed antibody-drug conjugate with a cytotoxic MMAE payload |
-| Myelosuppression Risk | Medium (neutropenia is a recognized toxicity) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, liver function, peripheral neuropathy, infusion reactions, signs of infection (including JC virus/PML) |
+| Cytotoxicity Classification | Antibody-drug conjugate (CD30-targeted antibody with MMAE cytotoxic payload) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; haematological parameters (CBC) and liver and renal function are generally monitored with cytotoxic agents |
 | Handling Protection | Follow cytotoxic drug handling regulations |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for safety information.
+
+**Drug Interactions**: A screening found 100 interacting drugs, all listed at Moderate level in the first 20 shown. These include antidiabetic agents (acarbose, metformin, pioglitazone, glimepiride, glipizide, chlorpropamide, acetohexamide, alogliptin), GLP-1 and SGLT2 agents (albiglutide, dulaglutide, exenatide, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), and others (bupropion, chenodeoxycholic acid, clarithromycin, clotrimazole, eliglustat). The clinical significance of each pair should be checked against the full interaction record before use.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only on-indication trial is a small phase 2 study (n=23) that is still recruiting, and the other follicular-lymphoma-adjacent trials were withdrawn or terminated. CD30 expression in follicular lymphoma is low and variable, and the literature is mostly about PTCL. The 99.89% TxGNN score alone is not enough to justify moving forward.
+For follicular lymphoma, the mechanistic link is weak because CD30 expression is low, the only directly relevant trial is still recruiting without results, and no follicular lymphoma publications exist. Evidence is clearly stronger for CD30-positive B-cell lymphomas (especially DLBCL), which may be a better repurposing focus and could warrant "Proceed with Guardrails" with CD30-based patient selection.
 
 **To proceed, the following is needed:**
-- Results from NCT04587687 (brentuximab vedotin plus bendamustine in relapsed/refractory follicular lymphoma)
-- Data on CD30 expression and response in follicular lymphoma patients
-- The Canadian package insert (warnings, contraindications, approved indications, dosage form) and the DrugBank mechanism-of-action entry, both missing from the current pack
-- A comparison with the "B-cell neoplasm" candidate, which has stronger evidence (phase 3 data), and a check on whether that use is already on-label
-
-*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Results from NCT04587687 in relapsed/refractory follicular lymphoma
+- CD30 expression data in follicular lymphoma, to define a selectable subgroup
+- Mechanism of action data and package insert safety information (warnings, contraindications), which are currently missing
+- Review of the 100 identified drug interactions
+- Canadian indication and dosage form details for DIN 02401347
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

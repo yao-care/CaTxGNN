@@ -2,7 +2,7 @@
 layout: default
 title: Estrone
 parent: Model Prediction Only (L5)
-nav_order: 354
+nav_order: 356
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,72 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Estrone: From an Unspecified Original Indication to Elevated Plasma Zinc
+# Estrone: From Acne to Elevated Plasma Zinc
 
 ## One-Sentence Summary
 
-Estrone is an estrogen marketed in Canada as a vaginal cream, but its original approved indication is not recorded in the available data.
-The TxGNN model predicts it may be related to **elevated plasma zinc**, but there are **0 clinical trials** and only **2 loosely related publications** behind this prediction.
-This is a model-only signal with no direct supporting evidence.
+Estrone is a weak estrogen, and in the knowledge base used for this report its original indication is acne.
+The TxGNN model predicts it may be effective for **elevated plasma zinc**, but there are **0 clinical trials** and only **1 loosely related publication** supporting this direction.
+The prediction is purely computational and has no clinical corroboration.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not provided in the Canadian licence record |
+| Original Indication | Acne |
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 (the pack labels it L4, but the retrieved papers do not test estrone for this condition, so prediction-only is the more accurate level) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+*Note: The approved-indication text for the Canadian product is not available, so the original indication is taken from the knowledge graph's indication records.*
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Estrone is an estrogen product, and its licensed Canadian form is a vaginal cream. Without a documented original indication or mechanism, the link to the predicted indication cannot be assessed.
+Currently, detailed mechanism of action data is not available. Based on known information, estrone is a weak estrogen and a precursor/metabolite of estradiol. Estrogens can modestly influence circulating trace metals, for example through changes in binding proteins such as albumin and ceruloplasmin.
 
-No direct mechanistic link is established. The score of 0.998 comes from graph-based prediction only. The two retrieved papers concern hormonal status and micronutrient markers, and neither examines estrone as a treatment for elevated plasma zinc. Elevated plasma zinc is also a laboratory finding, not a well-defined disease target, which makes a therapeutic hypothesis hard to frame.
+However, there is no evidence that estrone raises, lowers or treats elevated plasma zinc. The high TxGNN score (0.998) is a network-based prediction without clinical support. In addition, elevated plasma zinc is a laboratory finding rather than a treatable clinical condition, which further limits its therapeutic relevance.
 
-A second prediction, **pyogenic arthritis-pyoderma gangrenosum-acne (PAPA) syndrome**, scored 99.30%. It has no trials or literature at all (L5). PAPA is a rare autoinflammatory disorder, and no rationale connects estrone to its pathway.
+A second prediction, **pyogenic arthritis-pyoderma gangrenosum-acne (PAPA) syndrome** (score 99.30%), also has no clinical trials or literature. It is an autoinflammatory disorder driven by PSTPIP1 mutations and excess IL-1β. The link to estrone appears to come only from the shared "acne" phenotype. Established treatments target IL-1 or TNF, not estrogens.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [807594](https://pubmed.ncbi.nlm.nih.gov/807594/) | 1975 | Cohort | J Clin Endocrinol Metab | In 28 men with severe protein-calorie malnutrition, hypogonadism and low testosterone recovered with refeeding. It does not study estrone or zinc treatment. |
-| [12081830](https://pubmed.ncbi.nlm.nih.gov/12081830/) | 2002 | Unverified (likely intervention study) | Am J Clin Nutr | Examines iron indexes and antioxidant status in perimenopausal women given soy protein. It does not study estrone or plasma zinc. |
+| [12081830](https://pubmed.ncbi.nlm.nih.gov/12081830/) | 2002 | Clinical intervention study | The American Journal of Clinical Nutrition | Soy protein intake in perimenopausal women and its effect on iron indexes and antioxidant status. Only indirectly related to estrogens and trace metals, and it does not address estrone or zinc. |
 
-Both papers are indirect and neither supports the predicted indication.
+---
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 727369 | ESTRAGYN VAGINAL CREAM | Vaginal cream (inferred from product name) | Not provided |
+| 00727369 | ESTRAGYN VAGINAL CREAM | Not specified | Not specified |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were found for this drug in the queried data.
+- **Contraindications (from the knowledge graph, not label text):** The knowledge graph links estrone with a wide range of conditions, including:
+  - Cardiovascular and metabolic: hypertension, diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hypertriglyceridemia, hypercalcemia, nephrocalcinosis, humoral hypercalcemia of malignancy
+  - Hepatic and biliary: liver failure, liver disease, gallbladder disease
+  - Neurological and psychiatric: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm, anxiety disorder, neurotic disorder, dysthymic disorder
+  - Porphyrias: inherited porphyria, porphyrin metabolism disease, porphyria
+  - Endocrine: hypothyroidism, myxedema, congenital hypothyroidism
+  - Immune and respiratory: systemic lupus erythematosus (including pediatric), asthma (including intrinsic and allergic)
+- **Drug Interactions:** 100 interactions were found in total. The 20 reviewed are mostly Moderate, with one Minor (cimetidine). The main ones are:
+  - Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide
+  - Antidiabetic agents: acarbose, metformin, chlorpropamide, and the GLP-1, DPP-4 and SGLT2 classes (albiglutide, dulaglutide, alogliptin, saxagliptin, canagliflozin, dapagliflozin, empagliflozin)
+  - Others: aprepitant, clarithromycin, chenodeoxycholic acid, topical calcitriol
+
+Please refer to the package insert for the official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-model score. No clinical trials exist, and the two retrieved papers do not test estrone for this condition. Because the original indication, mechanism and safety data are missing, the candidate cannot progress to safety screening.
+The prediction rests on a model score alone (Evidence Level L5). There are no clinical trials, the only publication is indirectly related, and no credible mechanistic link exists. The target "elevated plasma zinc" is a laboratory finding rather than a disease that requires treatment. The PAPA syndrome prediction is equally unsupported.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap)
-- The original approved indication and mechanism of action (for example from DrugBank)
-- A plausible biological rationale linking estrone to plasma zinc regulation, and confirmation that elevated plasma zinc is a clinically meaningful target
-- Targeted literature searches for direct evidence, and review of the two retrieved papers' relevance
-- Confirmation of route compatibility, since the only marketed form is a vaginal cream
-
-*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data for estrone
+- Health Canada package insert warnings and contraindications, which are needed before safety screening can proceed
+- Clear justification that the predicted indication is a clinically meaningful treatment target
+- Preclinical or clinical evidence linking estrone to the predicted indication
+- Route compatibility assessment (the Canadian product is a vaginal cream)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

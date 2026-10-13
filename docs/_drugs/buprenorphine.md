@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Buprenorphine
-parent: Model Prediction Only (L5)
-nav_order: 133
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 135
+evidence_level: L4
 indication_count: 6
 ---
 
 # Buprenorphine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Buprenorphine: From Opioid Use Disorder and Pain to Acute Intermittent Porphyria
+# Buprenorphine: From Opioid Dependence to Acute Intermittent Porphyria
 
 ## One-Sentence Summary
 
-Buprenorphine is a partial mu-opioid agonist and kappa antagonist, marketed in Canada as BUTRANS and SUBLOCADE products. The TxGNN model predicts it may be effective for **acute intermittent porphyria**, but there are **0 clinical trials** and only **1 publication** (a 1993 anesthesia case report), so the high score is most likely a graph-proximity artifact.
+Buprenorphine is an opioid medicine originally used to treat opioid dependence (including morphine dependence) and substance abuse/dependence.
+The TxGNN model predicts it may be effective for **acute intermittent porphyria**, but there are **no registered clinical trials** and only **1 publication** (a 1993 case report about anaesthetic management, not treatment of the disease).
+This is a model prediction with very weak supporting evidence.
 
 ---
 
@@ -41,10 +43,10 @@ Buprenorphine is a partial mu-opioid agonist and kappa antagonist, marketed in C
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the record (approved indication text is empty). Product names (BUTRANS, SUBLOCADE) suggest pain and opioid dependence products |
+| Original Indication | Opioid dependence, substance abuse/dependence, morphine dependence |
 | Predicted New Indication | Acute intermittent porphyria |
 | TxGNN Prediction Score | 99.41% |
-| Evidence Level | L5 (the record lists L4, but the only paper is an anesthesia case report that does not test treatment, so this is effectively model prediction only) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 18 |
 | Recommended Decision | Hold |
@@ -53,11 +55,19 @@ Buprenorphine is a partial mu-opioid agonist and kappa antagonist, marketed in C
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Buprenorphine is a mu-opioid partial agonist and kappa antagonist. Its efficacy in its original uses (pain and opioid dependence) is established, but that record contains no link to porphyria.
+Currently, detailed mechanism of action data is not available. Based on known information, buprenorphine is an opioid used in the treatment of opioid dependence, and its efficacy in that setting is established. Whether it is mechanistically applicable to acute intermittent porphyria is not supported by the data compiled for this report.
 
-**No plausible therapeutic mechanism connects buprenorphine to acute intermittent porphyria.** Porphyria is a heme-biosynthesis disorder, and opioid receptor activity does not address that pathway. The high TxGNN score most likely reflects proximity in the knowledge graph, not a real biological rationale.
+The only publication found is a 1993 case report on anaesthetic management of a patient who had porphyria. It describes which drugs were chosen around surgery, not treatment of the disease itself. No credible mechanistic link between buprenorphine and correcting the disease was identified. The high model score (0.994) reflects a graph-based prediction rather than clinical support. Buprenorphine's safety in porphyria (porphyrinogenic potential) would need its own evaluation, and it is not a therapeutic indication.
 
-The only retrieved paper concerns anesthetic management of a porphyria patient. It addresses which drugs can be given safely during surgery, not treatment of the disease. Whether buprenorphine is safe in porphyria is a separate question that this report cannot settle.
+Other predicted indications are even less supported:
+
+| Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary |
+|------|------|------|------|
+| Lingual-facial-buccal dyskinesia | 99.32% | L4 | 15 publications, none treating the condition in humans (dementia agitation, animal pharmacology, case reports). Only an indirect link via mu-opioid/5-HT2A interactions |
+| Chronic tic disorder | 99.13% | L5 | No trials or literature |
+| Continuous spikes and waves during sleep | 99.05% | L5 | No trials or literature. Opioids may lower seizure threshold |
+| Benign shuddering attacks | 99.03% | L5 | No trials or literature. Benign, self-limiting condition |
+| Extrapyramidal and movement disease | 99.03% | L5 | No trials or literature. Broad category sharing a score with the row above, suggesting graph propagation |
 
 ---
 
@@ -71,27 +81,36 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Case report | Masui (Japanese J Anesthesiology) | Anesthetic management of a 40-year-old woman with suspected acute intermittent porphyria undergoing gynecologic cancer surgery. It concerns perioperative drug choice, not treatment of the disease. |
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Case report | Masui (Japanese Journal of Anesthesiology) | Anaesthetic management of a 40-year-old woman with suspected acute intermittent porphyria undergoing gynaecological cancer surgery; perioperative care only, not disease treatment |
 
 ---
 
 ## Canada Market Information
 
-18 licenses are recorded in total. Five are shown below. Dosage form and approved indication text are not available in the record.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02341212 | BUTRANS 10 | Not specified | Not specified |
+| 02341220 | BUTRANS 20 | Not specified | Not specified |
+| 02450771 | BUTRANS 15 | Not specified | Not specified |
+| 02341174 | BUTRANS 5 | Not specified | Not specified |
+| 02483092 | SUBLOCADE | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 02341212 | BUTRANS 10 |
-| 02341220 | BUTRANS 20 |
-| 02450771 | BUTRANS 15 |
-| 02341174 | BUTRANS 5 |
-| 02483092 | SUBLOCADE |
+All 18 licences are valid single-ingredient authorisations (also including SUBOXONE and generic buprenorphine/naloxone products).
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were retrieved. Porphyria safety of buprenorphine should be checked in the label separately.
+- **Disease-level cautions (from the knowledge graph, not label text)**: The knowledge graph links buprenorphine to contraindication or caution in several conditions, including:
+  - Respiratory: chronic obstructive pulmonary disease, respiratory failure
+  - Cardiac/autonomic: long QT syndrome, torsades de pointes, orthostatic hypotension
+  - Liver: liver disease, chronic hepatitis B and C
+  - Gastrointestinal: paralytic ileus, intestinal obstruction
+  - Endocrine: adrenocortical insufficiency, hypothyroidism
+  - Other: benign prostatic hyperplasia, intracranial hypertension, drug dependence/substance-related disorders
+- **Drug Interactions**: 100 interactions were found. Examples of **Major** interactions include alvimopan, bupropion, morphine, cisapride and dolasetron. Many **Moderate** interactions were also found (for example famotidine, loperamide, atropine, dexamethasone, clarithromycin).
+
+For label-based warnings and contraindications, please refer to the package insert.
 
 ---
 
@@ -100,17 +119,14 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials and no mechanistic rationale. The only literature is an unrelated anesthesia case report, so the prediction rests on model score alone.
+The prediction rests on a model score alone. The single publication is a perioperative case report and does not show efficacy, and no clinical trials exist. Safety in porphyria is itself an open question.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Approved indication text for the Canadian licenses
-- Evidence that buprenorphine has a disease-relevant effect in acute intermittent porphyria, plus a separate assessment of its porphyria safety
-
-**Other predicted indications (all on Hold):** lingual-facial-buccal dyskinesia (10 of 19 papers supplied, none testing buprenorphine as treatment, no trials), chronic tic disorder (1 observational comorbidity paper, no trials), continuous spikes and waves during sleep, benign shuddering attacks, and extrapyramidal and movement disease (prediction only, with no trials or literature). Benign shuddering attacks and extrapyramidal and movement disease share an identical score, which suggests a shared graph-based signal, not independent evidence.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data
+- A dedicated assessment of buprenorphine's porphyrinogenic risk
+- Any mechanistic or clinical studies of opioids in acute intermittent porphyria, which currently do not exist in the data reviewed
+- Approved indication text and dosage forms for the Canadian licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Lorazepam
 parent: Model Prediction Only (L5)
-nav_order: 554
+nav_order: 559
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,104 +29,116 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lorazepam: From Anxiety Treatment to Insomnia
+# Lorazepam: From Anxiety and Seizure Disorders to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-Lorazepam is a benzodiazepine sedative-anxiolytic. The Health Canada licence records supplied here contain no indication text. The TxGNN model predicts it may be effective for **insomnia**, the best-supported of its top-10 predictions. Evidence for insomnia comes from **23 registered trials** (only a few directly relevant) and **18 retrieved publications**, including two lorazepam-specific insomnia studies.
+Lorazepam is a benzodiazepine originally used for anxiety disorders and seizure conditions such as status epilepticus, absence epilepsy and Lennox-Gastaut syndrome.
+The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
+Among the other top predictions, only insomnia has a meaningful body of literature (16 publications, mostly reviews and older small studies).
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records. Anxiety is used here based on general benzodiazepine pharmacology and the retrieved literature |
-| Predicted New Indication | Insomnia (rank 2, best-supported). The rank 1 prediction, trigeminal nerve neoplasm, has no supporting evidence (see below) |
-| TxGNN Prediction Score | 99.80% (insomnia); 99.87% (trigeminal nerve neoplasm) |
-| Evidence Level | L2 (insomnia) |
+| Original Indication | Anxiety disorder, status epilepticus, absence epilepsy, Lennox-Gastaut syndrome, early myoclonic encephalopathy (the Health Canada licence records compiled for this report carry no indication text, so these come from the TxGNN knowledge graph) |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 99.87% |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 19 |
-| Recommended Decision | Proceed with Guardrails (insomnia) |
+| Recommended Decision | Hold |
 
-**Note on rank 1:** The top-scoring prediction, *trigeminal nerve neoplasm*, has no trials and no literature. There is also no plausible antineoplastic mechanism for lorazepam. It is most likely a knowledge-graph artifact and should be treated as a false-positive candidate (L5, Hold). This report therefore focuses on insomnia.
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Based on known benzodiazepine pharmacology, lorazepam is a positive allosteric modulator of GABA-A receptors. Enhancing this inhibitory signalling produces sedative-hypnotic, anxiolytic, and anticonvulsant effects.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, lorazepam is a positive allosteric modulator of the GABA-A receptor. It produces anxiolytic, sedative and anticonvulsant effects.
 
-Anxiety and insomnia commonly overlap. Sedation is the same pharmacological effect that underlies both uses, so the mechanistic link to insomnia is direct. Two published clinical studies support this: a double-blind crossover trial of lorazepam vs flurazepam in chronic insomniacs (1988), and a study of lorazepam TID for chronic insomnia (1999).
+For the top-ranked prediction, **trigeminal nerve neoplasm**, no identifiable mechanistic link exists to lorazepam's original indications. The high score appears to be a graph-based artefact. Lorazepam has no known antitumour activity. Any use would be limited to symptomatic supportive care, such as managing anxiety or seizures, and would not modify the disease.
 
-Current guidance favours short-term use only, because benzodiazepine hypnotic effects diminish after a few weeks and the risks accumulate.
+Other high-ranking predictions are more plausible mechanistically, mainly because they overlap with lorazepam's existing indications:
 
-**Other predictions in the top 10:**
-- Six seizure-type predictions (reading, audiogenic, startle, thinking, micturition-induced and eating seizures) are plausible only through general GABA-A anticonvulsant pharmacology. Evidence is indirect and none has trials. Five are L4 research questions; eating seizures is L4 Hold because its retrieved literature is off-target.
-- Orgasm-induced seizures and acute encephalopathy with biphasic seizures and late reduced diffusion have no evidence (L5, Hold).
+- **Insomnia (rank 2, score 99.80%)**: GABA-A potentiation produces sedation and hypnotic effects. Small older studies suggest short-term benefit in chronic insomnia. Current guidance generally discourages long-term benzodiazepine use because of tolerance, dependence, cognitive impairment and fall risk. This is effectively an already-practised off-label use rather than a novel repurposing opportunity.
+- **Reflex seizure types (reading, audiogenic, startle, thinking, micturition-induced, orgasm-induced and eating seizures)**: Enhancing GABA-A activity is a rational mechanism for seizure suppression, and these conditions resemble lorazepam's established epilepsy indications. The supporting evidence is thin, indirect or based on animal withdrawal studies.
+- **Acute encephalopathy with biphasic seizures and late reduced diffusion (rank 10)**: Benzodiazepines are used for acute seizure control as symptomatic care, but lorazepam would not be expected to alter the underlying course of the disease.
+
+---
 
 ## Clinical Trial Evidence
 
-Of the 23 trials retrieved for insomnia, the most relevant are listed below. Several are combination-product trials or deprescribing studies, not direct efficacy tests of lorazepam alone.
+Currently no related clinical trials registered for trigeminal nerve neoplasm. No clinical trials were found for any of the other top-10 predicted indications either.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03331042](https://clinicaltrials.gov/study/NCT03331042) | Phase 3 | Completed | 85 | 4-way crossover of SM-1 (diphenhydramine + zolpidem + lorazepam) vs two comparators and placebo in a transient insomnia model. Lorazepam's role (test drug or comparator) needs arm-level verification |
-| [NCT04396327](https://clinicaltrials.gov/study/NCT04396327) | Phase 2 | Not yet recruiting (listed) | 14 | 2-way crossover of SM-1 vs a diphenhydramine + lorazepam comparator in a 3-hour phase-advance model. No results; registry dates are from 2020 |
-| [NCT02671760](https://clinicaltrials.gov/study/NCT02671760) | Phase 2 | Completed | 39 | SM-1 vs comparator and placebo on total sleep time in short-term insomnia |
-| [NCT03338764](https://clinicaltrials.gov/study/NCT03338764) | Phase 3 | Withdrawn | 0 | Home-use SM-1 vs placebo in adults with a history of transient insomnia. Never enrolled |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | Unknown | 1400 | Taiwanese prospective cohort on hypnotic risk and benefit in the elderly. Observational safety context |
-| [NCT06584513](https://clinicaltrials.gov/study/NCT06584513) | N/A | Recruiting | 470 | BE-SAFE: intervention to reduce benzodiazepine and sedative-hypnotic use in older adults (deprescribing, not efficacy) |
-| [NCT04572750](https://clinicaltrials.gov/study/NCT04572750) | N/A | Completed | 170 | Self-management intervention for benzodiazepine cessation in veterans |
-| [NCT02135198](https://clinicaltrials.gov/study/NCT02135198) | Phase 1 | Completed | 12 | Crossover biomarker study of the GABA modulator AZD7325 in healthy volunteers. Early-phase pharmacodynamic context only |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminated | 6 | Polysomnography in ventilated patients sedated with α2 agonists vs GABA agonists. Different population |
-| [NCT04109118](https://clinicaltrials.gov/study/NCT04109118) | Phase 2 | Completed | 4 | Benzodiazepine discontinuation in opioid agonist therapy. Off-target for efficacy |
+---
 
 ## Literature Evidence
 
+Currently no related literature available for trigeminal nerve neoplasm.
+
+For reference, the most relevant publications for the next-ranked indication, **insomnia**:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3280615](https://pubmed.ncbi.nlm.nih.gov/3280615/) | 1988 | RCT | J Clin Pharmacol | Double-blind crossover (n=8) of lorazepam 2 mg vs flurazepam 30 mg over 3 weeks in chronic insomniacs. Lorazepam performed better on most sleep parameters |
-| [10220122](https://pubmed.ncbi.nlm.nih.gov/10220122/) | 1999 | Clinical study | Int Clin Psychopharmacol | Compared lorazepam 0.5 mg TID (24-hour) with 1.5 mg at bedtime in primary insomnia |
-| [35087274](https://pubmed.ncbi.nlm.nih.gov/35087274/) | 2022 | Review | J Multidiscip Healthc | Efficacy, safety and drug interactions of insomnia therapies in COVID-19 patients |
+| [10220122](https://pubmed.ncbi.nlm.nih.gov/10220122/) | 1999 | Clinical study | Int Clin Psychopharmacol | Compared lorazepam 0.5 mg three times daily with 1.5 mg at bedtime in patients with primary chronic insomnia |
+| [3280615](https://pubmed.ncbi.nlm.nih.gov/3280615/) | 1988 | Comparative crossover study | J Clin Pharmacol | Double-blind study in 8 chronic insomniacs: 2 mg lorazepam performed better than 30 mg flurazepam on most sleep parameters |
 | [30625122](https://pubmed.ncbi.nlm.nih.gov/30625122/) | 2018 | Review | Med Lett Drugs Ther | Overview of drugs for chronic insomnia |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharm | Tranquilizers in elderly patients with chronic non-communicable diseases: dose, outcomes, adverse effects |
-| [19514972](https://pubmed.ncbi.nlm.nih.gov/19514972/) | 2009 | Preclinical | Drug Deliv | Intranasal microemulsions of diazepam, lorazepam and alprazolam in a rat sleep-induction model |
-| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Cohort | Sleep Med | Hypnotic prescription patterns in a large managed-care population |
-| [25453732](https://pubmed.ncbi.nlm.nih.gov/25453732/) | 2014 | Observational | Clin Ther | Benzodiazepine and sedative-hypnotic use among older seriously ill veterans, framed against the Choosing Wisely caution |
-| [40110386](https://pubmed.ncbi.nlm.nih.gov/40110386/) | 2025 | Observational | Alpha Psychiatry | Trends in benzodiazepine and Z-drug prescriptions in Eastern China, 2015-2021 |
-| [15040803](https://pubmed.ncbi.nlm.nih.gov/15040803/) | 2004 | Observational | Health Qual Life Outcomes | Sleep quality and sedating-drug use in hospitalized adults |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharm | Tranquilizer therapy in elderly patients with chronic non-communicable diseases: dose, outcomes and adverse effects |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Pharmacokinetics of anxiolytic drugs |
+| [19514972](https://pubmed.ncbi.nlm.nih.gov/19514972/) | 2009 | Preclinical | Drug Deliv | Intranasal microemulsions of diazepam, lorazepam and alprazolam tested for sleep induction in rats |
+
+---
 
 ## Canada Market Information
 
-The licence records list 19 authorizations; five main ones are shown. Dosage form, manufacturer and approved indication text are blank in the records provided.
+Lorazepam has 19 valid single-ingredient authorizations in Canada. Dosage form and approved-indication text were not available in the data compiled for this report.
 
-| DIN / Licence No. | Product Name |
-|---------|------|
-| 2410761 | LORAZEPAM SUBLINGUAL |
-| 711101 | TEVA-LORAZEPAM |
-| 655678 | PRO-LORAZEPAM |
-| 2410753 | LORAZEPAM SUBLINGUAL |
-| 655767 | APO-LORAZEPAM |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02041464 | ATIVAN | Not available | Not available |
+| 02041456 | ATIVAN | Not available | Not available |
+| 02410761 | LORAZEPAM SUBLINGUAL | Not available | Not available |
+| 02550962 | LORAZEPAM INJECTION, USP | Not available | Not available |
+| 02243278 | LORAZEPAM INJECTION USP | Not available | Not available |
+
+Other marketed brands include TEVA-LORAZEPAM, PRO-LORAZEPAM, APO-LORAZEPAM and PMS-LORAZEPAM.
+
+---
 
 ## Safety Considerations
 
-- **Guardrails for insomnia use:** dependence, tolerance, next-day impairment, and falls and cognitive risk in the elderly. Current guidance favours short-term use only.
-- **Drug interactions:** the interaction query returned no entries.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
-Please refer to the package insert for full warnings and contraindications.
+**Contraindication signals from the knowledge graph** (not label text) include:
+- Liver disease, liver failure, hepatic encephalopathy and hepatic coma
+- Kidney disease
+- Respiratory conditions: respiratory failure, obstructive sleep apnea, sleep apnea syndrome, congenital central hypoventilation syndrome
+- Open-angle and angle-closure glaucoma
+- Porphyria (inherited porphyria and porphyrin metabolism disease)
+- Substance-related disorder, substance abuse/dependence
+- Gallbladder disease, pyoureter, neurotic disorder, dysthymic disorder
+
+**Drug interactions** (100 interactions recorded; the main ones are listed):
+- **Major**: Morphine, liposomal morphine (additive central nervous system and respiratory depression is the typical concern with opioids)
+- **Moderate**: Bupropion, dronabinol, nabilone, teduglutide, metoclopramide, opium, sibutramine
+- **Minor**: Antacids such as magnesium oxide, magnesium hydroxide, magnesium carbonate, aluminum hydroxide, calcium carbonate and magaldrate
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (insomnia)
+**Decision: Hold**
 
 **Rationale:**
-The GABA-A mechanism is a direct fit for sleep induction. Published lorazepam-specific studies exist, including a small double-blind crossover RCT, and the drug is widely marketed in Canada. The evidence is not strong enough for L1. The larger Phase 3 and 2 trials involve a combination product, and lorazepam's role in them is unconfirmed. The other nine predictions should not advance: the six seizure-type predictions with weak indirect evidence are research questions (eating seizures is on Hold), and rank 1, orgasm-induced seizures and the encephalopathy prediction are Hold with no supporting evidence.
+The top-ranked prediction, trigeminal nerve neoplasm, has only a model score behind it: no trials, no literature, and no plausible antitumour mechanism. Lorazepam could at most provide symptomatic support. The more credible predictions (insomnia and reflex seizure types) largely reflect existing or off-label benzodiazepine use rather than new repurposing opportunities, and long-term use carries known dependence and cognitive risks.
 
 **To proceed, the following is needed:**
-- Verify the arms of NCT03331042 and NCT04396327 (whether lorazepam is the test drug or a comparator) and check for posted results
-- Health Canada package insert warnings and contraindications
-- Mechanism of action data from DrugBank
-- A short-duration, elderly-specific risk plan (dependence, falls, cognition)
-- Route and formulation compatibility assessment (currently pending)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank
+- Any preclinical or clinical evidence linking lorazepam to trigeminal nerve neoplasm, or a decision to re-focus on a better-supported indication
+- For insomnia, a risk-benefit review against current guidance on long-term benzodiazepine use
+- Indication text and dosage forms for the Canadian licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

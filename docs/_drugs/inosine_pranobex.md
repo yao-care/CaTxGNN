@@ -2,7 +2,7 @@
 layout: default
 title: Inosine Pranobex
 parent: Model Prediction Only (L5)
-nav_order: 474
+nav_order: 479
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inosine Pranobex: From Immunomodulatory Antiviral Use to Osteoarthritis
+# Inosine Pranobex: From an Unspecified Original Indication to Osteoarthritis
 
 ## One-Sentence Summary
 
-Inosine pranobex is an immunomodulatory agent marketed in Canada as IMUNOVIR. The TxGNN model predicts it may be effective for **osteoarthritis**, but there are currently **0 clinical trials** and **0 publications** for this specific indication. The best-supported neighbouring signal is **rheumatoid arthritis** (rank 3), with **14 publications** including one small placebo-controlled RCT from 1990.
+Inosine pranobex is an immunomodulator with reported antiviral activity. It is marketed in Canada, but the data compiled for this report do not list an approved indication.
+The TxGNN model predicts it may be effective for **osteoarthritis** with a high score (98.1%), but **no clinical trials and no publications** support this prediction.
+The only direct human evidence in the data is for a neighbouring indication, **rheumatoid arthritis**: one randomised, placebo-controlled trial from 1990 and one background review.
 
 ---
 
@@ -41,7 +43,7 @@ Inosine pranobex is an immunomodulatory agent marketed in Canada as IMUNOVIR. Th
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available Canadian licence record |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.09% |
 | Evidence Level | L5 (model prediction only) |
@@ -53,40 +55,32 @@ Inosine pranobex is an immunomodulatory agent marketed in Canada as IMUNOVIR. Th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, inosine pranobex is an immunomodulator. The published literature describes effects on neutrophil chemotaxis, lymphocyte and B-cell function, and Epstein-Barr virus-related B-cell growth.
+Currently, detailed mechanism of action data is not available. Based on known information, inosine pranobex is described as an immunomodulator that is reported to enhance T-lymphocyte function and modulate cytokine production, and it has reported antiviral activity. Its original indication could not be confirmed from the Canadian licence data.
 
-The link to osteoarthritis is weak. The high TxGNN score (0.981) is a knowledge-graph prediction only. It may partly reflect shared immune or inflammatory pathways with rheumatoid arthritis, but this is unverified. Osteoarthritis is mainly a degenerative joint disease, so an immunomodulatory mechanism is not an obvious fit.
+Osteoarthritis is a degenerative joint disease with an inflammatory component. In principle, immune modulation could be relevant. However, no mechanistic link between this drug and osteoarthritis can be established from the supplied data. The high score is most likely driven by proximity in the knowledge graph to other arthritis indications, not by indication-specific evidence.
 
-The evidence is stronger for rheumatoid arthritis, an immune-mediated joint disease. Old clinical studies (1981–1991) suggest possible benefit there, which makes it the more plausible research direction.
+Other predicted indications show the same pattern. Osteoarthritis susceptibility, hepatic porphyria, pseudoachondroplasia, and several rare liver diseases all have no supporting studies. Several rare liver conditions share an identical score of 0.9704, which suggests a non-specific graph artifact.
 
-Several other top-ranked predictions have no identifiable mechanistic rationale and look like graph artifacts. These are osteoarthritis susceptibility, hepatic porphyria, pseudoachondroplasia, and several rare hepatic diseases with identical scores.
+**Rheumatoid arthritis (score 97.7%)** is the most plausible prediction in the list. Immunomodulation is biologically plausible here, and a randomised trial exists (see below).
+
+**Gout (score 97.1%)** raises a concern. Inosine pranobex contains inosine, a purine, and is known to raise serum uric acid. This suggests potential harm rather than benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for osteoarthritis. No trials were registered for any of the other top-10 predicted indications either.
+Currently no related clinical trials registered for osteoarthritis.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for osteoarthritis.
-
-The table below shows literature retrieved for **rheumatoid arthritis** (rank 3, score 97.74%, evidence level L2). It is the closest evidence-bearing indication and is shown for context only.
+No literature is available for osteoarthritis. The table below shows the literature found for the next-most-plausible prediction, rheumatoid arthritis, as context.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1693065](https://pubmed.ncbi.nlm.nih.gov/1693065/) | 1990 | RCT | Ann Rheum Dis | Double-blind, placebo-controlled trial of 24 patients on 3 g/day vs 26 on placebo for up to 24 weeks. Outcomes included morning stiffness, articular index, ESR and CRP. Results are not visible in the truncated abstract. |
-| [2455393](https://pubmed.ncbi.nlm.nih.gov/2455393/) | 1988 | Pilot study | Z Rheumatol | Isoprinosine given to 10 seropositive patients in the early pre-erosive stage. |
-| [6085298](https://pubmed.ncbi.nlm.nih.gov/6085298/) | 1983 | Clinical study (likely open-label) | Clin Exp Rheumatol | Title reports "moderate efficacy"; no abstract available. |
-| [6170755](https://pubmed.ncbi.nlm.nih.gov/6170755/) | 1981 | Open study | J Rheumatol | 15 patients on 3 g/day; 9 of 15 had clinical benefit (less morning stiffness, fewer tender joints, lower ESR). |
-| [6196834](https://pubmed.ncbi.nlm.nih.gov/6196834/) | 1983 | Clinical series | Rev Rhum Mal Osteoartic | 20 patients treated at 25 or 50 mg/kg/day; no side effects observed. The only reason for stopping treatment was ineffectiveness. |
-| [2423433](https://pubmed.ncbi.nlm.nih.gov/2423433/) | 1986 | Clinical review (German) | Immun Infekt | 27 patients with rheumatic diseases. Clinical improvement within one month in 7 patients with moderately active RA. |
-| [2421905](https://pubmed.ncbi.nlm.nih.gov/2421905/) | 1986 | Ex vivo study | Clin Ther | Levamisole and methisoprinol modulated impaired neutrophil chemotaxis in RA. |
-| [2459076](https://pubmed.ncbi.nlm.nih.gov/2459076/) | 1988 | In vitro study | Int J Immunopharmacol | Inosiplex increased proliferation of EBNA-positive B-cells from RA and infectious mononucleosis patients. |
-| [6179407](https://pubmed.ncbi.nlm.nih.gov/6179407/) | 1982 | Review | Allergol Immunopathol | Overview of in vitro and in vivo immunological activities (T-cell differentiation, lymphocyte proliferation). |
-| [1715732](https://pubmed.ncbi.nlm.nih.gov/1715732/) | 1991 | Review | Curr Opin Rheumatol | General review of novel immunotherapies applicable to RA. |
+| [1693065](https://pubmed.ncbi.nlm.nih.gov/1693065/) | 1990 | RCT | Annals of the Rheumatic Diseases | Randomised, double-blind, placebo-controlled study of inosine pranobex (3 g/day) as a possible second-line drug in rheumatoid arthritis: 24 patients on the drug vs 26 on placebo for up to 24 weeks. Outcomes included morning stiffness, articular index, grip strength, pain, ESR, CRP, IgG, IgM and serum urate. The available abstract is truncated, so the results are not verified. |
+| [1715732](https://pubmed.ncbi.nlm.nih.gov/1715732/) | 1991 | Review | Current Opinion in Rheumatology | Review of immunotherapies and other novel therapies potentially applicable to rheumatoid arthritis. Background only. |
 
 ---
 
@@ -94,16 +88,16 @@ The table below shows literature retrieved for **rheumatoid arthritis** (rank 3,
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2240713 | IMUNOVIR | Not listed | Not listed in the licence record |
+| 02240713 | IMUNOVIR | Not available | Not available |
 
 ---
 
 ## Safety Considerations
 
-- **Gout / hyperuricaemia**: Inosine is a purine metabolised to uric acid, and product labelling generally cautions against use in gout and hyperuricaemia. This is general pharmacological knowledge, not taken from the Canadian licence data. The model's gout prediction (rank 6) conflicts with this and is likely a false positive.
-- **Porphyria**: Safety in hepatic porphyria has not been assessed.
+- **Drug Interactions**: No interaction records were found in the query.
+- **Gout-related concern**: The drug is known to raise serum uric acid, which argues against use in gout and warrants caution in patients with hyperuricaemia.
 
-No drug-interaction records were found. For other safety information, please refer to the package insert.
+Please refer to the package insert for warnings and contraindications, because this information was not available in the data compiled for this report.
 
 ---
 
@@ -112,16 +106,14 @@ No drug-interaction records were found. For other safety information, please ref
 **Decision: Hold**
 
 **Rationale:**
-The osteoarthritis prediction rests on the knowledge-graph score alone, with no trials, no literature and no clear mechanism. The only clinically supported direction is rheumatoid arthritis. That evidence is old (1981–1991), small, and was never compared with modern DMARDs or biologics.
+The osteoarthritis prediction rests only on a high model score, with no clinical trials, no publications, and no identifiable mechanistic link. The evidence level is L5. The rheumatoid arthritis prediction has a direct RCT but an unverified outcome, so it is better treated as a research question than as a ready candidate.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (for example from DrugBank)
-- Approved indication, dosage form and manufacturer details for the Canadian licence
-- Full-text review of the 1990 RCT (PMID 1693065) to judge effect size and safety
-- If pursuing this further, consider re-prioritising rheumatoid arthritis over osteoarthritis and screening against current standard-of-care therapy
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Download and review the Health Canada package insert to obtain the approved indication, dosage form, warnings and contraindications. This is a blocking gap for safety screening.
+- Obtain mechanism of action data for inosine pranobex (for example, from DrugBank).
+- Retrieve the full text of the 1990 rheumatoid arthritis RCT (PMID 1693065) to determine efficacy and safety results.
+- Search for any osteoarthritis-specific preclinical or clinical studies before further consideration.
+- Assess the effect on serum uric acid before considering any joint or rheumatic indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

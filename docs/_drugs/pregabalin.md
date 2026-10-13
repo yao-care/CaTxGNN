@@ -2,7 +2,7 @@
 layout: default
 title: Pregabalin
 parent: Model Prediction Only (L5)
-nav_order: 761
+nav_order: 768
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Pregabalin: From Neuropathic Pain and Epilepsy to Tendinitis
+# Pregabalin: From Postherpetic Neuralgia and Fibromyalgia to Migraine Disorder
 
 ## One-Sentence Summary
 
-Pregabalin is marketed in Canada, and the published literature describes it as approved for partial epilepsy and neuropathic pain.
-The TxGNN model predicts it may be effective for **tendinitis** with a high score (99.71%), but **no clinical trials** and **no studies directly on pregabalin for tendinitis** support this yet.
-The prediction currently rests mainly on the model score.
+Pregabalin is a gabapentinoid originally used for neuropathic and chronic pain conditions, including postherpetic neuralgia, fibromyalgia, myofascial pain syndrome and anxiety disorder.
+The TxGNN model predicts it may be effective for **Migraine Disorder**, the best-supported of its top predictions.
+Currently **2 clinical trials** (one withdrawn Phase 3, one completed Phase 4 that is only indirectly relevant) and **20 publications**, including several pediatric randomized trials, support this direction.
 
 ---
 
@@ -43,29 +43,34 @@ The prediction currently rests mainly on the model score.
 
 | Item | Content |
 |------|------|
-| Original Indication | Neuropathic pain and partial epilepsy (per published literature, PMID 30001248; the Canadian licence records contain no indication text) |
-| Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 (indirect evidence only; no tendinitis-specific studies) |
+| Original Indication | Postherpetic neuralgia, fibromyalgia, myofascial pain syndrome, anxiety disorder (from the knowledge graph; no approved-indication text is available for the Canadian licences) |
+| Predicted New Indication | Migraine disorder (the top-ranked prediction overall is tendinitis, which has weaker evidence; see below) |
+| TxGNN Prediction Score | 99.47% (migraine disorder); tendinitis ranked first at 99.71% |
+| Evidence Level | L1 (provisional; see note below) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
+
+**Note on the prediction list:** Six indications were predicted. Tendinitis (99.71%), idiopathic granulomatous myositis (99.71%) and myositis fibrosa (99.71%) score highest, but the data compiled for this report show little or no supporting evidence for them (evidence levels L4 and L5). Inclusion body myositis (99.52%) is also L5. Migraine disorder (99.47%) has the strongest clinical evidence, so this report focuses on it. Migraine with brainstem aura (99.43%) is supported only by preclinical work (L4).
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. In general, pregabalin binds the alpha-2-delta subunit of voltage-gated calcium channels. This may reduce the release of excitatory neurotransmitters and dampen nociceptive and neuropathic pain signalling.
+Detailed mechanism-of-action data is not currently available in the compiled data. Based on known pharmacology, pregabalin binds the alpha-2-delta subunit of voltage-gated calcium channels and reduces release of excitatory neurotransmitters such as glutamate. This is the basis of its use in neuropathic pain and fibromyalgia.
 
-Tendinitis is mainly a painful mechanical and inflammatory condition of the tendon. Pregabalin could at most relieve the pain component, particularly where nerve irritation is involved. It has no known effect on the tendon pathology itself.
+Migraine shares several features with these conditions, notably central sensitization and excess excitatory neurotransmission. Preclinical studies report that pregabalin raises the threshold for cortical spreading depression, the phenomenon behind migraine aura, and that chronic treatment protects against spreading depolarization in a familial hemiplegic migraine model. These findings provide a plausible mechanistic link.
 
-The related literature is indirect. It covers pain control after arthroscopic rotator cuff repair surgery and nerve-related pain syndromes, not tendinitis treatment. The high TxGNN score should therefore be read as a hypothesis, not as confirmed efficacy.
+The evidence is still indirect. Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn. The L1 grade is provisional and should be verified by reading the trials in full.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00447369](https://clinicaltrials.gov/study/NCT00447369) | Phase 3 | Withdrawn | 70 (planned) | Randomized blinded crossover comparison of pregabalin and sodium valproate for migraine prevention; withdrawn, so no efficacy data |
+| [NCT02747940](https://clinicaltrials.gov/study/NCT02747940) | Phase 4 | Completed | 200 | Brain imaging signatures of chronic pain disorders (chronic migraine and fibromyalgia); not a migraine efficacy trial of pregabalin |
 
 ---
 
@@ -73,34 +78,40 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperative oral pregabalin versus single-shot interscalene block after arthroscopic rotator cuff repair; compares postoperative pain, opioid use and adverse effects. This is a surgical setting, not tendinitis. |
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | Retrospective cohort | J Orthop Sci | Analgesic efficacy and opioid-sparing effect of pregabalin after rotator cuff repair; earlier studies gave conflicting results and evidence was described as limited. |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Case report | Pain Pract | Posterior femoral cutaneous nerve impingement linked to hamstring tendonitis in a marathon runner. Nerve-pain context only. |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Editorial | Arthroscopy | Commentary on piriformis syndrome (sciatic nerve compression) and its surgical management. |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Case report | Praxis | Fluoroquinolone-associated disability after ciprofloxacin, including tendinopathy as a side effect. Not about pregabalin treatment. |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preclinical (rat) | Adv Pharmacol Pharm Sci | Plant extract reduced vincristine-induced neuropathic pain in rats. Not related to pregabalin treatment of tendinitis. |
-
-Overall, none of these studies tests pregabalin for tendinitis. The only pregabalin studies are on postoperative pain after shoulder surgery.
+| [37637787](https://pubmed.ncbi.nlm.nih.gov/37637787/) | 2023 | RCT | Iran J Child Neurol | Pregabalin vs sodium valproate for pediatric migraine prophylaxis |
+| [26024701](https://pubmed.ncbi.nlm.nih.gov/26024701/) | 2015 | RCT | Acta Med Iran | Propranolol vs pregabalin for childhood migraine prophylaxis (99 children) |
+| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Network meta-analysis | JAMA Netw Open | Efficacy and safety of preventive medications in pediatric migraine |
+| [23797675](https://pubmed.ncbi.nlm.nih.gov/23797675/) | 2013 | Systematic review | Cochrane Database Syst Rev | Gabapentin or pregabalin for prophylaxis of episodic migraine in adults |
+| [21479703](https://pubmed.ncbi.nlm.nih.gov/21479703/) | 2011 | Follow-up study | J Headache Pain | Efficacy and tolerability of pregabalin as migraine preventive over 3 months |
+| [25669613](https://pubmed.ncbi.nlm.nih.gov/25669613/) | 2015 | Clinical study | Int J Clin Pharmacol Ther | Effects of pregabalin on central sensitization and allodynia in migraine |
+| [37924146](https://pubmed.ncbi.nlm.nih.gov/37924146/) | 2023 | Preclinical | Mol Brain | Chronic pregabalin protects against spreading depolarization in a familial hemiplegic migraine model |
+| [28223480](https://pubmed.ncbi.nlm.nih.gov/28223480/) | 2017 | Preclinical | PNAS | In vivo imaging shows pregabalin inhibits cortical spreading depression |
+| [30880369](https://pubmed.ncbi.nlm.nih.gov/30880369/) | 2019 | Review | Curr Treat Options Neurol | Antiepileptic drugs as preventive migraine therapy |
+| [30001248](https://pubmed.ncbi.nlm.nih.gov/30001248/) | 2018 | Review/Safety | Clin Neuropharmacol | Sexual dysfunction reported as an adverse effect of pregabalin |
 
 ---
 
 ## Canada Market Information
 
-20 licences (DINs) are on record. The five main ones are listed below. The records contain no dosage form or approved indication text for them.
+Twenty single-ingredient licences are currently valid. Dosage form and approved-indication text are not available in the compiled data. Five main authorizations:
 
-| DIN | Product Name |
-|---------|------|
-| 02268418 | LYRICA |
-| 02435977 | JAMP-PREGABALIN |
-| 02436019 | JAMP-PREGABALIN |
-| 02479133 | NRA-PREGABALIN |
-| 02494892 | NAT-PREGABALIN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02268418 | LYRICA | Not available | Not available |
+| 02361183 | TEVA-PREGABALIN | Not available | Not available |
+| 02435977 | JAMP-PREGABALIN | Not available | Not available |
+| 02449838 | ACH-PREGABALIN | Not available | Not available |
+| 02479133 | NRA-PREGABALIN | Not available | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from the TxGNN knowledge graph, not label text): thrombocytopenia, angioedema (including hereditary and ACE/RAAS-blocker-induced forms), myopathy and rhabdomyolysis, impaired renal function, atrioventricular block, and some psychiatric entries (anxiety, neurotic and dysthymic disorders).
+- **Drug interactions:** 100 interactions were found. Major ones include **morphine** (including liposomal morphine), which carries a risk of additive central nervous system and respiratory depression. Moderate ones include opioid-type agents (opium, diphenoxylate, difenoxin), cannabinoids (dronabinol, nabilone), metoclopramide, sibutramine and the thiazolidinediones (pioglitazone, rosiglitazone, troglitazone).
+- **Reported adverse effects:** the literature notes sexual dysfunction, mainly at high doses.
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
@@ -109,17 +120,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but there are no clinical trials and no direct studies of pregabalin in tendinitis. The related literature concerns post-surgical or nerve-related pain, so the evidence is indirect (L4).
-
-For comparison, among the other predictions for this drug, migraine disorder (L2, Research Question) has considerably more supporting evidence than tendinitis. That evidence includes pediatric RCTs and a follow-up study, although the dedicated Phase 3 trial was withdrawn.
+- The only Phase 3 migraine trial was withdrawn, and the supporting clinical evidence is mostly small pediatric trials, so the provisional L1 grade overstates the strength of evidence. The package insert warnings are also missing, which blocks safety screening.
+- The three highest-scoring predictions (tendinitis, granulomatous myositis, myositis fibrosa) rest mainly on the computational score and have no direct clinical support.
 
 **To proceed, the following is needed:**
-- Direct clinical or preclinical evidence of pregabalin in tendinitis or tendinopathy pain
-- Mechanism of action data (query DrugBank) to support the mechanistic-link analysis
-- Health Canada product monograph (warnings and contraindications) for the safety screening
-- Indication text, dosage form and route data for the Canadian licences, to assess route compatibility
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Obtain the Health Canada package insert warnings and contraindications to complete safety screening
+- Obtain detailed mechanism-of-action data from DrugBank
+- Review the full text of the pediatric RCTs and the Cochrane review (PMID 23797675) to confirm the evidence grade and adult applicability
+- Define the target population (adult vs pediatric) and whether a new adult trial is needed
+- Assess the interaction risks with opioids and other central nervous system depressants
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

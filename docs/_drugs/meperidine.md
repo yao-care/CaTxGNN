@@ -2,7 +2,7 @@
 layout: default
 title: Meperidine
 parent: Model Prediction Only (L5)
-nav_order: 582
+nav_order: 587
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Meperidine: From Opioid Analgesia to Tourette Syndrome
+# Meperidine: From an Unspecified Original Indication to Tourette Syndrome
 
 ## One-Sentence Summary
 
-Meperidine (pethidine) is an opioid analgesic, and one injectable product is marketed in Canada.
-The TxGNN model predicts it may be effective for **Tourette syndrome**,
-but **0 clinical trials** and **0 publications** currently support this direction, so the prediction rests on the model alone.
+Meperidine is an opioid medicine marketed in Canada as an injectable hydrochloride product, but the data compiled for this report do not specify its approved indication.
+The TxGNN model predicts it may be effective for **Tourette syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests only on a model score and should not be treated as clinical evidence.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data (opioid analgesic used for pain) |
+| Original Indication | Not specified in the available data |
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 99.46% |
 | Evidence Level | L5 |
@@ -49,54 +51,70 @@ but **0 clinical trials** and **0 publications** currently support this directio
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the supplied data. Meperidine is generally described as a mu-opioid receptor agonist with weak serotonin reuptake inhibition. The endogenous opioid system has been discussed in tic disorders, which is the only mechanistic thread linking the drug to Tourette syndrome.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, meperidine is a mu-opioid receptor agonist with weak serotonin reuptake inhibition and anticholinergic/local anaesthetic-like properties.
 
-The direction of effect is unproven. No source in the pack shows that meperidine suppresses tics. The score of 0.9946 is a knowledge-graph prediction only. The similarity between the original and new indication has not been assessed.
+A plausible but unverified link is that the opioid system modulates the dopaminergic and cortico-striatal-thalamo-cortical circuits implicated in tics. This reasoning rests on general knowledge, not on the supplied dataset.
 
-The model also ranked **trichotillomania** second (score 99.39%). It has no trial or literature support either. Clinical work on repetitive grooming behaviours points toward opioid *antagonism* (e.g., naltrexone), the opposite of meperidine's action. It is not recommended for pursuit without a new rationale.
+There are significant concerns. Mu-opioid agonism carries risks of dependence and respiratory depression. Meperidine's active metabolite, normeperidine, is neurotoxic and can cause seizures. The model's high score reflects network proximity in a knowledge graph and cannot be regarded as evidence of therapeutic benefit.
+
+A second predicted indication, **trichotillomania** (score 99.39%, also L5, Hold), has no supporting trials or literature either. It is mechanistically questionable, because opioid antagonists such as naltrexone, not agonists, have been studied for this condition.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 725765 | MEPERIDINE HYDROCHLORIDE INJECTION USP |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00725765 | Meperidine Hydrochloride Injection USP | Not specified | Not specified |
 
-Dosage form, manufacturer and approved indication text are not recorded for this authorization.
+---
 
 ## Safety Considerations
 
-No package insert warnings, contraindications or drug-interaction records are available in the supplied data. The DDI query returned no results. The following concerns are noted in the repurposing assessment and should be checked against the package insert:
+- **Disease-level contraindication signals (knowledge graph, not label text)**: The TxGNN knowledge graph links meperidine to contraindications in many conditions. Main groups include:
+  - Respiratory: COPD, respiratory failure, sleep apnoea syndromes, congenital central hypoventilation syndrome
+  - Liver and biliary: liver failure, liver disease, gallbladder disease, hyperbilirubinaemia, Gilbert syndrome
+  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm
+  - Endocrine: hypothyroidism, myxedema, Addison disease
+  - Other: peptic ulcer disease, benign prostatic hyperplasia, hypotensive disorder, substance abuse/dependence, sickle cell anaemia, thrombophlebitis, angle-closure glaucoma
+- **Drug Interactions**: 100 interactions are recorded, of which 20 were reviewed here.
+  - **Major**: alvimopan, bupropion, morphine, lorcaserin, dolasetron, palonosetron
+  - **Moderate**: hyoscyamine, loperamide, atropine, glycopyrronium, cimetidine, dicyclomine, dronabinol, eluxadoline, naloxone, phentermine, trospium, picosulfuric acid, sodium sulfate, polyethylene glycol (3350 with electrolytes)
+- **Relevance to Tourette syndrome**: Patients commonly take SSRIs, alpha-2 agonists and antipsychotics. Meperidine also carries serotonin syndrome and MAOI interaction risks (from general pharmacology, not the supplied data).
 
-- **Normeperidine neurotoxicity and seizure risk**, especially with repeated dosing
-- **Serotonin syndrome risk** with serotonergic drugs or MAOIs
-- **Dependence liability**, a major concern for a chronic neuropsychiatric condition such as Tourette syndrome
+Please refer to the package insert for the official warnings and contraindications, as these were not available in the compiled data.
 
-Please refer to the package insert for full safety information.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no clinical trials, no literature, and no documented mechanism. The safety profile (neurotoxic metabolite, serotonergic interactions, dependence) is unfavourable for chronic use in Tourette syndrome.
+The only support is a high model score. There are no clinical trials or publications, and the mechanism is uncertain and possibly opposed in direction. Meperidine's safety profile (dependence, neurotoxic metabolite, serotonin syndrome, many interactions) is unfavourable for a chronic neuropsychiatric condition.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (e.g., from DrugBank) and an analysis of the link to tic disorders
-- A systematic literature and trial search for meperidine or opioid agonists in Tourette syndrome
-- A risk-benefit justification against existing tic therapies, including a dependence and neurotoxicity mitigation plan
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Approved indication and dosage form for the Canadian product
+- Mechanism of action data from DrugBank
+- Preclinical or clinical evidence linking meperidine to tic disorders
+- A comparison with established Tourette therapies, and an assessment of whether safer opioid-system or alternative candidates exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

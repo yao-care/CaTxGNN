@@ -2,7 +2,7 @@
 layout: default
 title: Methyl Aminolevulinate
 parent: Model Prediction Only (L5)
-nav_order: 598
+nav_order: 603
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methyl Aminolevulinate: From Actinic Keratosis and Non-Melanoma Skin Cancers to Acne Vulgaris
+# Methyl Aminolevulinate: From Its Marketed Photodynamic Use to Hereditary Hemochromatosis (Top TxGNN Prediction) and Acne (Best-Supported Candidate)
 
 ## One-Sentence Summary
 
-Methyl aminolevulinate (MAL, marketed as Metvix) is a topical photosensitizer prodrug used in photodynamic therapy (PDT). The literature describes it as approved for actinic keratosis, basal cell carcinoma and Bowen's disease.
-The TxGNN model predicts it may be effective for **acne (disease)**, supported by **5 clinical trials** (4 of them acne-focused, all completed) and **14 publications**.
-This is the best-supported of the 10 predictions in the Evidence Pack. The TxGNN rank-1 prediction, hereditary hemochromatosis, has no supporting evidence and is very likely a knowledge-graph artifact.
+Methyl aminolevulinate (MAL) is a topical photosensitizer precursor that is marketed in Canada as Metvix, and the literature compiled for this report describes its approved dermatology use in photodynamic therapy (PDT).
+The TxGNN model's top-ranked prediction is **hereditary hemochromatosis**, but it has **no clinical trials and no publications** behind it. The best-supported candidate among the top 10 predictions is **acne**, with **2 completed Phase 2 trials** and **8 publications**.
+The primary prediction is therefore a computational signal only.
 
 ---
 
@@ -43,52 +43,65 @@ This is the best-supported of the 10 predictions in the Evidence Pack. The TxGNN
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence record. The literature describes approval for actinic keratosis, basal cell carcinoma and Bowen's disease |
-| Predicted New Indication | Acne (disease), TxGNN rank 3 of 10 |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L2 (several completed Phase 2 studies; no completed Phase 3 trials) |
+| Original Indication | Not stated in the Canadian license data. Published reviews describe approved use for actinic keratosis, basal cell carcinoma and Bowen's disease. |
+| Predicted New Indication | Hereditary hemochromatosis (rank 1); acne is the best-supported candidate (rank 3) |
+| TxGNN Prediction Score | 99.86% (hereditary hemochromatosis); 99.81% (acne) |
+| Evidence Level | L5 (hereditary hemochromatosis); L2 (acne) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Proceed with Guardrails (research use only) |
+| Recommended Decision | Hold (hereditary hemochromatosis); Hold for the top prediction, with acne as a research question |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Based on the known PDT mechanism, MAL is applied to the skin and converted inside cells to protoporphyrin IX, a light-sensitive compound. Red light then activates it and produces reactive oxygen species, which damage the treated cells.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, MAL is a precursor that cells convert to protoporphyrin IX. When illuminated with red light, protoporphyrin IX generates reactive oxygen species that destroy targeted tissue. This is the basis of topical PDT.
 
-In its approved skin-cancer uses, this selectively destroys abnormal, fast-growing skin cells. In acne, MAL is taken up by the pilosebaceous units (hair follicle and oil gland). Light activation can damage the sebaceous glands and reduce *C. acnes* bacteria. This gives a direct, biologically coherent rationale for the prediction, and it is supported by several randomized Phase 2 studies.
+**Hereditary hemochromatosis (rank 1).** MAL sits in the heme biosynthesis pathway, which may explain why the model links it to iron metabolism. However, hemochromatosis is a systemic iron overload disorder, while MAL is used topically with light activation. No evidence was found to connect the two, so this prediction should be treated as speculative. The same applies to the other metabolic predictions (Wilson disease, iron metabolism disease, drug-induced osteoporosis).
 
-Open questions remain on dose, incubation time, light dose, and tolerability (pain and erythema). MAL is not approved for acne.
+**Acne (rank 3).** Here the mechanism is credible. MAL is taken up by pilosebaceous units, converted to protoporphyrin IX, and activated by red light. This can damage sebaceous glands and reduce *C. acnes*. Reviews also note PDT benefit in acne vulgaris and other inflammatory skin diseases.
+
+**Other skin conditions.** Seborrheic keratosis, common wart, psoriasis, pityriasis lichenoides and vulvar inverted follicular keratosis are all hyperproliferative or inflammatory skin conditions where PDT is mechanistically conceivable. Only common wart and psoriasis have any literature, and it is mostly indirect.
 
 ---
 
 ## Clinical Trial Evidence
 
+Trials for the top-ranked prediction (hereditary hemochromatosis): currently no related clinical trials registered.
+
+Trials for acne (the best-supported candidate):
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00594425](https://clinicaltrials.gov/study/NCT00594425) | Phase 2 | Completed | 150 | MAL-PDT cream in moderate to severe facial acne. Open-label dose-escalation phase, then a randomized, vehicle-controlled dose-response phase. The most directly relevant and largest study. |
-| [NCT00673933](https://clinicaltrials.gov/study/NCT00673933) | Phase 2 | Completed | 20 | Randomized, intra-individual, vehicle-controlled multicentre study of MAL-PDT versus placebo-PDT in acne vulgaris, in skin types V–VI. |
-| [NCT00206895](https://clinicaltrials.gov/study/NCT00206895) | NA | Completed | 24 | Randomized, investigator-blinded study of MAL and ALA PDT in moderate to severe facial acne. Small sample. |
-| [NCT01245946](https://clinicaltrials.gov/study/NCT01245946) | Phase 2 | Completed | 46 | ALA-PDT versus adapalene gel plus doxycycline in moderate acne. Uses ALA, not MAL, so it is indirect evidence for this drug. |
-| [NCT02075671](https://clinicaltrials.gov/study/NCT02075671) | Phase 4 | Completed | 30 | PDT in papulopustular rosacea. Adjacent evidence only (a different disease with a shared inflammatory pilosebaceous mechanism). |
+| [NCT00594425](https://clinicaltrials.gov/study/NCT00594425) | Phase 2 | Completed | 150 | MAL-PDT cream in moderate to severe facial acne. Two-part design: open-label dose escalation, then blinded, randomized, vehicle-controlled dose-response. Results were not supplied. |
+| [NCT00673933](https://clinicaltrials.gov/study/NCT00673933) | Phase 2 | Completed | 20 | Blinded, randomized, intra-individual, vehicle-controlled study of MAL-PDT in acne vulgaris in patients with skin type V or VI. Results were not supplied. |
+
+No registered clinical trials were provided for the other predicted indications.
 
 ---
 
 ## Literature Evidence
 
+Literature for the top-ranked prediction (hereditary hemochromatosis): currently no related literature available.
+
+Literature for acne (up to 10 most relevant):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18280335](https://pubmed.ncbi.nlm.nih.gov/18280335/) | 2008 | RCT | J Am Acad Dermatol | Long-pulsed dye laser alone versus laser-assisted PDT in acne vulgaris. Tests whether adding PDT to laser is superior. The abstract does not name the photosensitizer. |
-| [22949035](https://pubmed.ncbi.nlm.nih.gov/22949035/) | 2013 | Cohort | Photochem Photobiol Sci | Retrospective analysis of off-label MAL-PDT for inflammatory and aesthetic indications in 20 Italian dermatology departments. Assesses effectiveness, tolerability and safety in real-life practice. |
-| [32554971](https://pubmed.ncbi.nlm.nih.gov/32554971/) | 2021 | Review | Dermatology | Critical reappraisal of off-label PDT in non-neoplastic skin conditions. Results are variable and many studies are poorly designed. |
-| [38243786](https://pubmed.ncbi.nlm.nih.gov/38243786/) | 2024 | Review | J Cutan Med Surg | Update on approved and emerging topical PDT indications. PDT is superior or non-inferior to other options for actinic keratoses and low-risk non-melanoma skin cancers, with a growing range of emerging uses. |
-| [17598868](https://pubmed.ncbi.nlm.nih.gov/17598868/) | 2007 | Case series | Photodermatol Photoimmunol Photomed | Seven patients with chronic folliculitis in acne-prone skin were successfully treated with MAL-PDT. |
-| [18284396](https://pubmed.ncbi.nlm.nih.gov/18284396/) | 2008 | Clinical study | Br J Dermatol | Pain during PDT is associated with protoporphyrin IX fluorescence and fluence rate. Relevant to tolerability. |
-| [15888131](https://pubmed.ncbi.nlm.nih.gov/15888131/) | 2005 | Review | Photodermatol Photoimmunol Photomed | PDT dermatology update. It notes a therapeutic benefit in inflammatory dermatoses, including acne vulgaris. |
-| [22123417](https://pubmed.ncbi.nlm.nih.gov/22123417/) | 2011 | Review | Semin Cutan Med Surg | PDT is increasingly used in neoplastic, inflammatory and infectious skin conditions. |
-| [20944910](https://pubmed.ncbi.nlm.nih.gov/20944910/) | 2010 | Review | An Bras Dermatol | Overview of PDT. MAL is approved for actinic keratosis, basal cell carcinoma and Bowen's disease. |
-| [28809342](https://pubmed.ncbi.nlm.nih.gov/28809342/) | 2013 | Review | Materials (Basel) | Dye sensitizers for PDT. A few have been approved for skin diseases such as acne vulgaris. |
+| [22949035](https://pubmed.ncbi.nlm.nih.gov/22949035/) | 2013 | Retrospective cohort | Photochem Photobiol Sci | Real-life off-label MAL-PDT in 20 Italian dermatology departments for inflammatory and aesthetic indications, assessing effectiveness, tolerability and safety |
+| [17598868](https://pubmed.ncbi.nlm.nih.gov/17598868/) | 2007 | Case series | Photodermatol Photoimmunol Photomed | Seven patients with chronic folliculitis in acne-prone skin, successfully treated with MAL-PDT |
+| [38243786](https://pubmed.ncbi.nlm.nih.gov/38243786/) | 2024 | Review | J Cutan Med Surg | Update on approved and emerging topical PDT indications. PDT is superior or noninferior to other treatments for several conditions. |
+| [15888131](https://pubmed.ncbi.nlm.nih.gov/15888131/) | 2005 | Review | Photodermatol Photoimmunol Photomed | Topical PDT is established for actinic keratosis, Bowen's disease and basal cell carcinoma, with evident benefit in acne vulgaris and other inflammatory dermatoses |
+| [28809342](https://pubmed.ncbi.nlm.nih.gov/28809342/) | 2013 | Review | Materials (Basel) | Dye sensitizers for PDT, including approved use in skin diseases such as acne vulgaris |
+| [20944910](https://pubmed.ncbi.nlm.nih.gov/20944910/) | 2010 | Review | An Bras Dermatol | PDT review. MAL is approved for actinic keratosis, basal cell carcinoma and Bowen's disease. |
+| [23986167](https://pubmed.ncbi.nlm.nih.gov/23986167/) | 2013 | Review | J Drugs Dermatol | MAL/PDT has efficacy similar to ALA/PDT in actinic keratosis, SCC and Bowen's disease, with shorter incubation time |
+| [16566733](https://pubmed.ncbi.nlm.nih.gov/16566733/) | 2006 | Review | J Environ Pathol Toxicol Oncol | PDT in in situ neoplasias and skin tumours, with MAL postulated as highly selective and efficacious |
+
+Several of these are general PDT reviews rather than acne-specific studies.
+
+Other predicted indications with literature (indirect evidence only):
+- **Common wart (Level L3):** a retrospective off-label analysis ([22949076](https://pubmed.ncbi.nlm.nih.gov/22949076/)), case series of recalcitrant warts ([31209587](https://pubmed.ncbi.nlm.nih.gov/31209587/), 51 patients; [37707554](https://pubmed.ncbi.nlm.nih.gov/37707554/)), and case reports ([19614904](https://pubmed.ncbi.nlm.nih.gov/19614904/)). Some retrieved articles use ALA rather than MAL or address other conditions, which weakens relevance.
+- **Psoriasis (Level L4):** only general PDT reviews, a retrospective off-label analysis and a mycosis fungoides case report. None is a psoriasis-specific trial.
 
 ---
 
@@ -96,39 +109,34 @@ Open questions remain on dose, incubation time, light dose, and tolerability (pa
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2323273 | METVIX | Not listed | Not listed in the licence record |
+| 02323273 | METVIX | Not specified | Not specified in the license data |
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no results for this drug.
+- **Knowledge-graph contraindication signals:** the TxGNN knowledge graph links methyl aminolevulinate to *photoparoxysmal response* and *photosensitivity disease*. These come from graph edges, not from label text, and are consistent with its photosensitizing action.
+- **Drug interactions:** no interaction records were found.
 
-Health Canada warnings and contraindications are not available in the Evidence Pack. Please refer to the package insert for safety information. Published PDT studies report pain during illumination as a considerable tolerability issue (PMID 18284396).
+Please refer to the package insert for full warnings and contraindications. The label text could not be obtained for this report.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold** (for the top-ranked prediction, hereditary hemochromatosis). Acne is flagged as a **research question** rather than a Go decision.
 
 **Rationale:**
-Several completed Phase 2 studies test MAL-PDT directly in acne, including a 150-patient randomized, vehicle-controlled study, and the mechanism is biologically coherent. However, there are no Phase 3 trials, the drug is not approved for acne, and safety data are missing. This should be treated as a research question and not a treatment recommendation.
+- The top prediction, hereditary hemochromatosis, rests only on a model score of 99.86%, with no trials or literature, and no evident link between a topical photosensitizer and systemic iron overload.
+- Acne has a credible mechanism and two completed Phase 2 trials (n=150 and n=20), but no results, no Phase 3 evidence and mostly review-level literature, so the size and direction of benefit cannot be confirmed.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Published results of NCT00594425 and NCT00673933, to confirm efficacy and tolerability of MAL-PDT in acne
-- Optimization of dose, incubation time, light dose and pain management
-- Confirmation of the approved indications and dosage form for the Canadian licence (DIN 2323273)
-- Detailed mechanism of action data from DrugBank
-
-**Other predictions in the Evidence Pack (lower priority):**
-- **Common wart** (99.42%, L3): MAL-PDT case series and reports only, with no controlled data.
-- **Psoriasis** (99.44%, L3): a retrospective off-label series and a small nail psoriasis pilot study.
-- **Seborrheic keratosis, vulvar inverted follicular keratosis, pityriasis lichenoides** (L5): prediction only, no trials or literature.
-- **Hereditary hemochromatosis, Wilson disease, iron metabolism disease, drug-induced osteoporosis** (L5): no plausible mechanism, likely knowledge-graph artifacts. Hold.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Results from NCT00594425 and NCT00673933 (efficacy, dose-response, tolerability)
+- A Phase 3 or otherwise confirmatory study in acne
+- The Health Canada package insert (warnings and contraindications), the approved indications for Metvix, and its dosage form
+- Mechanism of action data, such as from DrugBank
+- A route-compatibility assessment (currently pending) to confirm topical plus light delivery fits the new indication
+- For common wart, MAL-specific controlled studies, since much of the existing evidence is ALA-based or case-level
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lurasidone
-parent: Model Prediction Only (L5)
-nav_order: 561
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 566
+evidence_level: L4
 indication_count: 10
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,113 +29,97 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lurasidone: From Atypical Antipsychotic to Manic Bipolar Affective Disorder
+# Lurasidone: From Bipolar Disorder and Schizophrenia to Manic Bipolar Affective Disorder
 
 ## One-Sentence Summary
 
-Lurasidone is an atypical antipsychotic marketed in Canada under the brand name LATUDA and several generics.
-The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, with **15 registered clinical trials** and **20 publications** on bipolar disorder in the evidence pack.
-Most of that evidence covers bipolar I depression and maintenance treatment, not acute mania.
-
----
+Lurasidone is an atypical antipsychotic originally used to treat bipolar disorder and schizophrenia.
+The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, but the supporting evidence is thin: only **1 clinical trial** (withdrawn, never enrolled) and **20 publications**, mostly guidelines, reviews and meta-analyses that focus on bipolar depression rather than acute mania.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Bipolar disorder, schizophrenia |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 (see caveat in the conclusion) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 20 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source data. The reasoning below is based on general pharmacology. Lurasidone is an atypical antipsychotic. It antagonises D2, 5-HT2A and 5-HT7 receptors and is a partial agonist at 5-HT1A. This receptor profile is plausibly relevant to stabilising mood episodes in bipolar disorder.
+Currently, detailed mechanism of action data compiled for this report is not available. Lurasidone is known to be an atypical antipsychotic that antagonises D2, 5-HT2A and 5-HT7 receptors and is a partial agonist at 5-HT1A. This profile plausibly supports antimanic activity, but it should be confirmed against a primary source.
 
-The strongest direct evidence is for **bipolar I depression**, which the pack describes as an established use. Phase 3 placebo-controlled trials exist in adults and in children and adolescents. There is also a large Phase 3 study of lurasidone added to lithium or divalproex for preventing recurrence (965 participants). Lurasidone therefore already has a substantial evidence base in bipolar disorder, which makes the model's link to the bipolar spectrum credible.
+The original indications (bipolar disorder and schizophrenia) already overlap with the predicted one. Manic bipolar affective disorder is a phase of bipolar disorder, so this prediction is largely on-label or near-label rather than a true shift to a new disease area. Much of the published literature concerns bipolar depression, which is the setting where lurasidone is best supported. Evidence specific to acute mania is limited.
 
-The manic pole is less well supported. None of the trials in the pack tests lurasidone for acute mania. The one mania-specific study, an open-label paediatric trial (NCT01932541), was withdrawn with 0 participants. The very high TxGNN score is consistent with efficacy in the manic phase but does not prove it.
-
----
+The other nine predicted indications (for example retinal dystrophy, hydranencephaly, several myopia subtypes and Charcot-Marie-Tooth disease type 1G) have similarly high model scores (about 99.9%), but no clinical trials or literature and no plausible mechanistic link. They remain model predictions only and are not recommended for follow-up at this stage.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01358357](https://clinicaltrials.gov/study/NCT01358357) | Phase 3 | Completed | 965 | Randomized, double-blind, placebo-controlled study of lurasidone added to lithium or divalproex for preventing recurrence in bipolar I disorder. This is the largest direct RCT. |
-| [NCT01986101](https://clinicaltrials.gov/study/NCT01986101) | Phase 3 | Completed | 525 | Randomized, double-blind, placebo-controlled study of lurasidone (SM-13496) in bipolar I depression |
-| [NCT02046369](https://clinicaltrials.gov/study/NCT02046369) | Phase 3 | Completed | 350 | 6-week placebo-controlled study of flexibly dosed lurasidone in children and adolescents with bipolar I depression |
-| [NCT01986114](https://clinicaltrials.gov/study/NCT01986114) | Phase 3 | Completed | 495 | Long-term efficacy and safety study of lurasidone (SM-13496) in bipolar I disorder |
-| [NCT01575561](https://clinicaltrials.gov/study/NCT01575561) | Phase 3 | Completed | 377 | 12-week open-label extension of lurasidone added to lithium or divalproex. Supports long-term safety and tolerability but is uncontrolled. |
-| [NCT02731612](https://clinicaltrials.gov/study/NCT02731612) | Phase 3 | Completed | 100 | 6-week placebo-controlled study of adjunctive lurasidone for cognition in euthymic bipolar patients (ELICE-BD) |
-| [NCT02147379](https://clinicaltrials.gov/study/NCT02147379) | Phase 3 | Completed | 53 | Open-label randomized study of lurasidone versus treatment as usual for cognition in euthymic bipolar I patients |
-| [NCT04383691](https://clinicaltrials.gov/study/NCT04383691) | Phase 3 | Terminated | 124 | 6-week placebo-controlled study in bipolar I depression. It was terminated early, which limits interpretation. |
-| [NCT01932541](https://clinicaltrials.gov/study/NCT01932541) | Phase 4 | Withdrawn | 0 | Open-label study of Latuda for mania in children and adolescents aged 6–17. It was withdrawn with no participants, so it yields no data. |
-| [NCT06433635](https://clinicaltrials.gov/study/NCT06433635) | Phase 4 | Active, not recruiting | 2726 | Pragmatic sequential randomized trial in bipolar depression comparing cariprazine, quetiapine, lurasidone and aripiprazole/escitalopram |
-
----
+| [NCT01932541](https://clinicaltrials.gov/study/NCT01932541) | Phase 4 | Withdrawn | 0 | 8-week open-label study of lurasidone (Latuda) for mania in children and adolescents aged 6-17 with bipolar I, II or spectrum disorders. Withdrawn before enrolment, so no efficacy or safety data exist. |
 
 ## Literature Evidence
 
-None of the retrieved publications is a randomized trial. They are systematic reviews, meta-analyses, guidelines and narrative reviews. The abstracts in the pack are mostly truncated, so the findings below reflect scope only.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Systematic review / dose-response meta-analysis | BMJ Ment Health | Examines the dose-response relationship of lurasidone in bipolar depression for efficacy, acceptability and metabolic/endocrine effects |
-| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Network meta-analysis | Lancet Psychiatry | Compares the efficacy and tolerability of drug treatments for acute bipolar depression in adults |
-| [38487836](https://pubmed.ncbi.nlm.nih.gov/38487836/) | 2024 | Network meta-analysis | Eur Psychiatry | Compares five FDA-approved atypical antipsychotics, including lurasidone, in bipolar depression (16 RCTs, 7,234 patients) |
-| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Clinical practice guideline | Bipolar Disord | CANMAT/ISBD 2018 guidelines for managing bipolar disorder |
-| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Clinical practice guideline | Bipolar Disord | CANMAT/ISBD recommendations for bipolar disorder with mixed presentations |
-| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Systematic review / network meta-analysis | Mol Psychiatry | Compares mood stabilisers and antipsychotics for maintenance-phase bipolar disorder |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | Overview of the diagnosis and treatment of bipolar disorder |
-| [38618207](https://pubmed.ncbi.nlm.nih.gov/38618207/) | 2024 | Network meta-analysis | EClinicalMedicine | Ranks the metabolic effects of antipsychotics and mood stabilisers in bipolar disorder |
-| [36472471](https://pubmed.ncbi.nlm.nih.gov/36472471/) | 2022 | Review / treatment algorithm | J Child Adolesc Psychopharmacol | Psychopharmacological treatment algorithms for manic/mixed and depressive episodes in paediatric bipolar disorder |
-| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | Commentary | Am J Psychiatry | "Lurasidone and bipolar disorder." No abstract is available |
-
----
+|------|-----|------|------|---------|
+| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Network meta-analysis | Lancet Psychiatry | Comparative efficacy and tolerability of drug treatments for acute bipolar depression in adults |
+| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Systematic review / dose-response meta-analysis | BMJ Ment Health | Dose-response of lurasidone for bipolar depression: efficacy, acceptability, metabolic and endocrine profile |
+| [38487836](https://pubmed.ncbi.nlm.nih.gov/38487836/) | 2024 | Network meta-analysis | Eur Psychiatry | Efficacy and tolerability of five FDA-approved atypical antipsychotics, including lurasidone, in bipolar depression (16 RCTs, 7,234 patients) |
+| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Systematic review / network meta-analysis | Mol Psychiatry | Antipsychotics and mood stabilisers for maintenance-phase bipolar disorder |
+| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Guideline | Bipolar Disord | CANMAT/ISBD 2018 guidelines for managing bipolar disorder |
+| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Guideline | Bipolar Disord | CANMAT/ISBD recommendations for bipolar disorder with mixed presentations |
+| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | Overview of diagnosis and treatment of bipolar disorder |
+| [36472471](https://pubmed.ncbi.nlm.nih.gov/36472471/) | 2022 | Review | J Child Adolesc Psychopharmacol | Treatment algorithms for manic/mixed and depressed episodes in paediatric bipolar disorder |
+| [38618207](https://pubmed.ncbi.nlm.nih.gov/38618207/) | 2024 | Network meta-analysis | EClinicalMedicine | Metabolic effects of antipsychotics and mood stabilisers in bipolar disorder |
+| [31298818](https://pubmed.ncbi.nlm.nih.gov/31298818/) | 2019 | Case report | Prim Care Companion CNS Disord | Lurasidone-induced mania, a reminder that the drug can itself trigger manic switching |
 
 ## Canada Market Information
 
-The pack lists 20 authorisations in total. It does not include dosage form, manufacturer or approved indication text for any of them. The five main entries are:
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02387778 | LATUDA | Not specified | Not specified |
+| 02413361 | LATUDA | Not specified | Not specified |
+| 02422050 | LATUDA | Not specified | Not specified |
+| 02504529 | TARO-LURASIDONE | Not specified | Not specified |
+| 02505894 | PMS-LURASIDONE | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 2413361 | LATUDA |
-| 2522349 | NRA-LURASIDONE |
-| 2504529 | TARO-LURASIDONE |
-| 2514028 | AURO-LURASIDONE |
-| 2505894 | PMS-LURASIDONE |
-
----
+These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada. The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindication-related conditions** (drawn from the knowledge graph, not from label text): the drug is linked to caution or contraindication in conditions including:
+- Orthostatic hypotension and related autonomic disorders
+- Liver failure, liver disease and impaired renal function
+- Diabetes, hyperglycaemia, diabetic ketoacidosis, hyperlipidaemia
+- Neutropenia, leukopenia, agranulocytosis
+- Stroke, cerebrovascular disorders and transient ischaemic attack
+- Epilepsy
+- Neuroleptic malignant syndrome and tardive dyskinesia
+- Hyperprolactinaemia
 
-The pack does not include Health Canada warnings, contraindications or drug interaction data (the DDI query returned no results). For context, it contains literature on antipsychotic-related weight gain and metabolic effects (PMIDs 31952459 and 38618207) and two long-term open-label safety studies of lurasidone (NCT01914393 and NCT01575561).
+**Drug Interactions:** 100 interactions were found in total. Examples:
+- **Major:** bupropion, aprepitant, morphine, clarithromycin
+- **Moderate:** metformin, pioglitazone, canagliflozin, acarbose, epinephrine, atropine, dexamethasone, cimetidine
 
----
+For official warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Several completed Phase 3 randomized trials support lurasidone in bipolar I disorder, and it is already established for bipolar I depression. That evidence does not cover acute mania, and the only mania-specific trial was withdrawn. The L1 rating therefore reflects bipolar disorder broadly, and manic-phase efficacy remains unproven.
-
-The other nine predicted indications are L5 model predictions with no plausible mechanism and little or no supporting literature, so they are on **Hold**.
+The indication is largely on-label, but the only mania-specific trial was withdrawn with no participants, and most of the literature addresses bipolar depression. Evidence for acute mania is therefore insufficient to recommend advancing. The high TxGNN score reflects the existing bipolar disorder indication, not new evidence.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert warnings, contraindications and drug interactions. This is a blocking gap for safety screening.
-- Detailed mechanism-of-action data from DrugBank.
-- Confirmation of the episode polarity and outcomes of the bipolar trials, especially NCT01358357, NCT02731612 and the truncated-title studies.
-- Evidence specific to acute mania, such as a dedicated RCT or a subgroup analysis.
-- The approved indication text and dosage forms for the Canadian licences.
-- A metabolic monitoring plan.
+- Confirmation of the label indications for the Canadian products (currently blank in the compiled data)
+- Package insert warnings and contraindications from Health Canada, which are required before safety screening
+- Mechanism of action data from DrugBank
+- Mania-specific efficacy evidence, such as randomised trials in acute manic or mixed episodes
+- Review of the interaction profile (CYP3A4 inhibitors and inducers) and metabolic monitoring requirements
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Dalteparin
 parent: Model Prediction Only (L5)
-nav_order: 242
+nav_order: 244
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Dalteparin: From Anticoagulation to Thrombophilia Due to Protein C Deficiency
+# Dalteparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency (Autosomal Recessive)
 
 ## One-Sentence Summary
 
-Dalteparin is a low-molecular-weight heparin anticoagulant, marketed in Canada as FRAGMIN.
-The TxGNN model predicts it may be effective for **autosomal recessive thrombophilia due to protein C deficiency**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+Dalteparin is a low-molecular-weight heparin, originally used for conditions such as pulmonary embolism, disseminated intravascular coagulation and purpura fulminans.
+The TxGNN model predicts it may be useful for **thrombophilia due to protein C deficiency, autosomal recessive**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific indication, so the prediction rests on the model score and mechanistic reasoning alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the supplied Canadian licence data (dalteparin is a low-molecular-weight heparin anticoagulant) |
+| Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans (the Canadian licence records contain no approved indication text) |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
@@ -49,56 +51,79 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the supplied records. Dalteparin is a low-molecular-weight heparin. As a class, these drugs potentiate antithrombin and inhibit factor Xa, which reduces thrombin generation.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, dalteparin is a low-molecular-weight heparin that enhances antithrombin activity and inhibits factor Xa. This reduces clot formation.
 
-Protein C deficiency weakens the body's natural anticoagulant pathway and leaves patients prone to clotting. An anticoagulant that suppresses coagulation through a different route is therefore biologically plausible in this setting.
+Severe congenital protein C deficiency leaves the body without a key natural anticoagulant brake, creating a strongly clot-prone state. Purpura fulminans, one of dalteparin's original indications, is closely tied to severe protein C deficiency. Anticoagulation is therefore biologically plausible for this condition.
 
-This is only a plausibility argument. No trials or publications in the dataset test dalteparin in protein C deficiency, and the high score (99.88%) is a model prediction. Real-world use of heparins in this condition is not supported by the evidence supplied here.
+However, this link rests on the TxGNN prediction and mechanistic reasoning only. The data compiled for this report do not describe standard management of severe congenital protein C deficiency (such as protein C replacement), so dalteparin's role relative to established care cannot be judged.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for this indication.
+
+Note: one trial was linked to a lower-ranked prediction (painful neuropathy), [NCT00445328](https://clinicaltrials.gov/study/NCT00445328). It is a terminated Phase 4 comparison of dalteparin versus unfractionated heparin for VTE prevention (n=84) and is not relevant to protein C deficiency.
+
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-Ten authorizations are on record. Five are listed below. The supplied data does not include dosage form or approved indication text for them.
+Dalteparin is marketed in Canada as FRAGMIN under 10 valid single-ingredient licences. The records do not include dosage form or approved indication text.
 
-| DIN | Product Name |
-|---------|------|
-| 02352672 | FRAGMIN |
-| 02132621 | FRAGMIN |
-| 02231171 | FRAGMIN |
-| 02352656 | FRAGMIN |
-| 02352664 | FRAGMIN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02352672 | FRAGMIN | Not listed | Not listed |
+| 02132621 | FRAGMIN | Not listed | Not listed |
+| 02231171 | FRAGMIN | Not listed | Not listed |
+| 02352656 | FRAGMIN | Not listed | Not listed |
+| 02352664 | FRAGMIN | Not listed | Not listed |
+
+---
 
 ## Safety Considerations
 
-No drug-interaction records were found for dalteparin in the supplied data.
+**Contraindication signals from the knowledge graph (not label text):**
+These come from drug-disease links in the TxGNN knowledge graph and should be verified against the product monograph. They include:
+- Bleeding and coagulation disorders: hemophilia, blood coagulation disease, thrombocytopenia (including heparin-induced), Glanzmann thrombasthenia, qualitative platelet defect, antithrombin III deficiency
+- Haemorrhage risk: intracranial and intracerebral haemorrhage, placental abruption, active peptic ulcer disease, ulcerative colitis and inflammatory bowel disease
+- Other: liver failure, biliary tract disease, obstructive jaundice, osteoporosis, infective endocarditis, and retinal diseases (diabetic and hypertensive retinopathy, retinitis)
 
-Please refer to the package insert for warnings and contraindications.
+**Drug Interactions:**
+The interaction query returned 100 interactions. The first 20 shown include:
+- **Major:** acetylsalicylic acid, ibuprofen, ketorolac, fondaparinux, abciximab, acalabrutinib, deferasirox, trastuzumab emtansine, ibritumomab tiuxetan, tositumomab (including I-131)
+- **Moderate:** fluvoxamine, fosinopril, sugammadex, fenfluramine, dexfenfluramine, sibutramine, iodide I-123 and I-131, ketorolac (ophthalmic)
+
+Most of the major interactions involve additive bleeding risk with antiplatelet, NSAID or other anticoagulant drugs.
+
+For other predicted indications, anticoagulation could worsen bleeding in platelet-function disorders (primary release disorder of platelets, pseudo-von Willebrand disease). It also requires caution in atypical haemolytic-uremic syndrome because of platelet consumption and renal impairment, which affects LMWH clearance.
+
+Please also refer to the package insert for full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trial or literature support (L5), and the mechanistic argument is general rather than specific to protein C deficiency. Safety information from the Canadian package insert has not yet been reviewed, so the candidate cannot advance to safety screening.
+The prediction has a high model score (99.88%) and a plausible mechanism, but there are no trials or publications for this indication (L5). Package insert safety data and the mechanism of action are missing, so the safety review cannot proceed. Treat this as a research question rather than an actionable candidate.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking)
-- Mechanism of action data from DrugBank
-- A targeted literature search on heparin or low-molecular-weight heparin use in protein C deficiency (including purpura fulminans and neonatal presentations)
-- Approved indication text for the Canadian licences, to confirm the original indication
-
-The other four predicted indications (primary release disorder of platelets, pseudo-von Willebrand disease, atypical hemolytic-uremic syndrome with thrombomodulin anomaly, painful neuropathy) are also on Hold. For the platelet and von Willebrand disorders, an anticoagulant could plausibly worsen bleeding.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Health Canada package insert warnings and contraindications (a blocking gap)
+- Detailed mechanism of action data
+- A literature review of anticoagulant and LMWH use in severe congenital protein C deficiency and purpura fulminans, compared against protein C concentrate and other standard care
+- Safety planning for bleeding risk, renal function and platelet monitoring, and interaction management with antiplatelet drugs and NSAIDs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

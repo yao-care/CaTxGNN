@@ -2,7 +2,7 @@
 layout: default
 title: Selenium
 parent: Moderate Evidence (L3-L4)
-nav_order: 832
+nav_order: 839
 evidence_level: L4
 indication_count: 1
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Selenium is an essential trace element marketed in Canada in trace-element products, but no approved indication text is on file for it.
-The TxGNN model predicts it may be relevant to **Sclerosing Cholangitis**, but this is a graph-based prediction only.
-Currently **0 clinical trials** and **5 publications** (observational, preclinical, or review) touch on this direction, and none shows that selenium treats the disease.
+Selenium is an essential trace element supplied in trace-element products marketed in Canada, although no approved indication text is available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are currently **0 clinical trials** and only **5 loosely related publications**, none of which tests selenium as a treatment.
+This prediction rests on computational modelling alone and should be treated as a hypothesis.
 
 ---
 
@@ -43,6 +43,7 @@ Currently **0 clinical trials** and **5 publications** (observational, preclinic
 
 | Item | Content |
 |------|------|
+| Original Indication | Not available (no approved indication text in the Canadian licence records) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.04% |
 | Evidence Level | L4 |
@@ -54,9 +55,11 @@ Currently **0 clinical trials** and **5 publications** (observational, preclinic
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available, and no approved indication text is on file. The mechanistic link therefore cannot be verified through a drug-target-disease pathway. The TxGNN score is high (0.990), but it reflects knowledge-graph proximity, not demonstrated efficacy.
+Currently, detailed mechanism of action data is not available. Based on known information, selenium is an essential trace element and a cofactor of glutathione peroxidase and other selenoproteins, which give it antioxidant activity. The data compiled for this report do not state an original approved indication.
 
-One plausible but unproven link is selenium's role in glutathione peroxidase antioxidant defence and in trace-element handling. Oxidative stress and altered trace-element metabolism are discussed in cholestatic liver disease. The available literature reports altered hepatic copper and selenium retention in primary sclerosing cholangitis (PSC) and low dietary micronutrient intake in PSC. These are observational findings about selenium status. They are not evidence that selenium supplementation benefits patients with this disease.
+Oxidative stress and cholestatic injury are plausibly involved in the pathophysiology of sclerosing cholangitis, so an antioxidant trace element could be mechanistically relevant. This is a plausible hypothesis, not an established link.
+
+The retrieved literature should be read with caution. The papers describe altered hepatic selenium and copper retention in primary sclerosing cholangitis (PSC) as an association or nutritional-status observation. They do not show selenium working as a treatment. No evidence shows that selenium supplementation changes the disease course, cholestasis markers, or outcomes in PSC. The high TxGNN score (99.04%) is a model output only.
 
 ---
 
@@ -70,31 +73,42 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18941372](https://pubmed.ncbi.nlm.nih.gov/18941372/) | 2008 | Review | Eur J Cancer Prev | Review of agents for colorectal cancer chemoprevention (aspirin, NSAIDs, COX-2 inhibitors). Limited direct relevance to selenium in sclerosing cholangitis. |
-| [9053974](https://pubmed.ncbi.nlm.nih.gov/9053974/) | 1995 | Cohort | Scand J Gastroenterol | Trace-element metabolism studied in 32 PSC patients, building on earlier suggestions of abnormal copper metabolism. Reports hepatic retention of copper and selenium. |
-| [39601354](https://pubmed.ncbi.nlm.nih.gov/39601354/) | 2025 | Cohort | Liver Int | Dietary intake of people with PSC compared with Nordic nutrition recommendations. Reports poor fat-soluble vitamin intake and dietary quality. |
-| [29148959](https://pubmed.ncbi.nlm.nih.gov/29148959/) | 2017 | Case report | JPEN J Parenter Enteral Nutr | Parenteral nutrition management in one patient with severe malabsorption and overlapping PSC and ulcerative colitis. Discusses oxidative stress and decreased antioxidant status in liver disease. |
-| [17109383](https://pubmed.ncbi.nlm.nih.gov/17109383/) | 2006 | Preclinical | Proteomics | Changes in the hepatic proteome in mouse models of toxin-induced fibrosis and sclerosing cholangitis. Selenium treatment is not described in the abstract. |
+| [9053974](https://pubmed.ncbi.nlm.nih.gov/9053974/) | 1995 | Observational | Scand J Gastroenterol | Trace element metabolism studied in 32 PSC patients; reports hepatic retention of copper and selenium (an association, not a treatment effect) |
+| [39601354](https://pubmed.ncbi.nlm.nih.gov/39601354/) | 2025 | Observational | Liver Int | Dietary intake survey in PSC patients; poor fat-soluble vitamin intake and dietary quality compared with Nordic recommendations |
+| [29148959](https://pubmed.ncbi.nlm.nih.gov/29148959/) | 2017 | Clinical study (case) | JPEN J Parenter Enteral Nutr | Parenteral nutrition with GGT monitoring and a lipid emulsion in a patient with overlapping PSC and ulcerative colitis; selenium is only part of the nutrition context |
+| [17109383](https://pubmed.ncbi.nlm.nih.gov/17109383/) | 2006 | Preclinical | Proteomics | Hepatic proteome changes in mouse models of toxic fibrosis and sclerosing cholangitis; no selenium intervention |
+| [18941372](https://pubmed.ncbi.nlm.nih.gov/18941372/) | 2008 | Review | Eur J Cancer Prev | Review of colorectal cancer chemoprevention; only peripherally related to PSC |
 
 ---
 
 ## Canada Market Information
 
-Six licenses are on record. The five main ones are listed below. Dosage form and approved indication text are not available in the source data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 01986007 | MICRO SE | Not specified | Not specified |
+| 02536145 | MICRO+ TE PEDIATRIC | Not specified | Not specified |
+| 02552787 | MICRO+6 REGULAR | Not specified | Not specified |
+| 02507587 | MICRO+6 CONCENTRATE | Not specified | Not specified |
+| 02091100 | MICRO PLUS 6 (PEDIATRIC) | Not specified | Not specified |
 
-| DIN | Product Name |
-|---------|------|
-| 1986007 | MICRO SE |
-| 2536145 | MICRO+ TE PEDIATRIC |
-| 2552787 | MICRO+6 REGULAR |
-| 2507587 | MICRO+6 CONCENTRATE |
-| 2091100 | MICRO PLUS 6 (PEDIATRIC) |
+A sixth valid licence, ADDNUTRIV (DIN 02497697), is also on the market. All six are single-ingredient licences and none has been cancelled.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions** (6 interactions found, from a DDInter query):
+
+| Interacting Drug | Severity |
+|------|------|
+| Dimercaprol | **Major** |
+| Levofloxacin | Moderate |
+| Triethylenetetramine | Moderate |
+| Deferiprone | Moderate |
+| Tolevamer | Moderate |
+| Eltrombopag | Moderate |
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -103,16 +117,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by any clinical trial. The literature is limited to observational selenium-status findings, one preclinical study, and one case report. Safety information and the original indication are also not yet available.
+The prediction score is very high, but it is a computational output only. No clinical trials exist, and the supporting literature describes an association between selenium and PSC rather than a treatment effect. The evidence level is L4, and the Canadian licence records give no approved indication or label safety information.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications for the marketed selenium products
-- Mechanism of action data (for example from DrugBank) and the approved original indication
-- Mechanistic or preclinical evidence linking selenium to cholestatic or biliary disease
-- A systematic literature review focused on selenium status and supplementation in PSC
-- Evidence on whether any available selenium formulation and route suit this condition
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank) to support a mechanistic link to PSC
+- Approved indication, dosage form and route information for the Canadian products
+- Targeted literature on selenium supplementation in cholestatic or PSC patients, such as interventional or cohort studies
+- A safety plan covering interactions, especially the major interaction with dimercaprol, and selenium toxicity at higher doses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Mannitol
 parent: Model Prediction Only (L5)
-nav_order: 567
+nav_order: 572
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mannitol: From Osmotic Diuretic Use to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Mannitol: From Intracranial Pressure and Edema Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Mannitol is an osmotic diuretic marketed in Canada as injectable and inhaled products.
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are **0 clinical trials** and only **1 publication**, a general hyponatremia review that does not study mannitol.
-The prediction rests on model output alone and is not supported mechanistically.
-
----
+Mannitol is an osmotic agent originally used for conditions such as brain edema, intracranial hypertension, ocular hypertension and congestive heart failure.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis**, but there are currently **no registered clinical trials** and only **1 general review article** behind this prediction, so the prediction is essentially model-only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the local licence records (mannitol is an osmotic diuretic) |
+| Original Indication | Brain edema, intracranial hypertension, ocular hypertension, congestive heart failure, pseudotumor cerebri, cystic fibrosis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
@@ -51,68 +48,57 @@ The prediction rests on model output alone and is not supported mechanistically.
 | Number of DINs | 10 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mannitol is an osmotic diuretic. It raises plasma osmolality, pulls water out of tissues and increases urine output.
+Detailed mechanism of action data is not currently available. Based on known pharmacology, mannitol is an osmotic diuretic. It is filtered by the kidney but poorly reabsorbed, so it draws water into the urine and pulls fluid out of tissues such as the brain.
 
-NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor. These cause water retention and hyponatremia even when vasopressin levels are low. Mannitol's osmotic load can shift water and could worsen hyponatremia, so a beneficial mechanism is not supported.
-
-The high graph score appears to reflect network proximity between mannitol and related conditions, not a therapeutic rationale. No mannitol-specific clinical evidence for NSIAD was found.
-
----
+Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). These mutations lead to water retention and low blood sodium (hyponatremia). In theory, osmotic diuresis could increase free-water excretion. However, this is not a recognized treatment; fluid restriction and urea are the usual approaches. The one retrieved paper is a general review of pitfalls in evaluating hyponatremia and contains no mannitol-specific evidence. The very high prediction score is therefore not supported by clinical data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | Eur J Intern Med | Common pitfalls in evaluating hyponatremia. It covers diagnosis and the risks of under- or over-treatment, and does not assess mannitol. |
-
----
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | Describes common pitfalls in diagnosing and treating hyponatremia. It is general background and does not evaluate mannitol. |
 
 ## Canada Market Information
 
-Five of the 10 authorizations are listed below. The records do not include dosage form or approved indication text.
+Mannitol holds 10 valid single-ingredient authorizations in Canada. Dosage form and approved indication text are not available for these products. The five main ones are:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 2243176 | MANNITOL INJECTION, USP | — | — |
-| 38016 | MANNITOL INJECTION USP | — | — |
-| 2489562 | ARIDOL | — | — |
-| 60410 | OSMITROL INJECTION 10% | — | — |
-| 60437 | OSMITROL INJECTION 20% | — | — |
+| 02243176 | Mannitol Injection, USP | Not available | Not available |
+| 00038016 | Mannitol Injection USP | Not available | Not available |
+| 02489562 | Aridol | Not available | Not available |
+| 00060410 | Osmitrol Injection 10% | Not available | Not available |
+| 00060437 | Osmitrol Injection 20% | Not available | Not available |
 
----
+The remaining five include another Mannitol Injection USP (00038024), Sorbitol Mannitol Irrigation, Cystosol W 3% Hexitols, SAG-M, and an additive solution of sodium, adenine, glucose and mannitol (SAGM).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data, and warnings and contraindications from the Health Canada product monograph have not yet been reviewed.
+- **Contraindication signals (from the knowledge graph, not label text):** liver failure and liver disease, hepatic coma and encephalopathy, anuria, impaired renal function, pulmonary edema, intracranial hemorrhage, porphyria, thrombocytopenia, neutropenia, agranulocytosis, anemia, sleep apnea syndromes, substance abuse or dependence, and several anxiety and mood-related disorders. These should be checked against the official package insert.
+- **Drug Interactions:** 100 interactions are recorded. Among those listed, the one rated **Major** is **amikacin**. Many are **Moderate**, including lamivudine, formoterol, salbutamol, arformoterol, benazepril, captopril, carbamazepine, citalopram, desvenlafaxine, canagliflozin, dapagliflozin, cisatracurium, bisacodyl, picosulfuric acid, polyethylene glycol with electrolytes, iothalamic acid, diatrizoate and amifostine. Doxycycline is **Minor**.
+- Mannitol's volume-expanding effect may worsen pulmonary edema or heart failure, and in nephrogenic diabetes insipidus its diuretic effect may worsen free-water loss and hypernatremia.
 
-Mannitol's volume expansion has been linked to pulmonary edema in case-level literature. This is relevant to the lower-ranked prediction of acute pulmonary heart disease, not to NSIAD.
-
----
+Please also refer to the package insert for official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials and no mannitol-specific literature. Mannitol's osmotic action would be expected to aggravate, not treat, the water retention and hyponatremia of NSIAD. The other top-10 predictions are also at evidence level L4–L5. Several are supported only by mannitol's role as an excipient or vehicle (malignant hyperthermia, periodic paralysis), and none shows a therapeutic benefit.
+The prediction rests only on the model score. There are no clinical trials, and the single retrieved review is general and not specific to mannitol. Mannitol is also not a recognized treatment for this condition. Other top-ranked predictions (such as malignant hyperthermia and periodic paralysis) show only supportive or incidental use of mannitol, not disease-modifying benefit.
 
 **To proceed, the following is needed:**
-- The Health Canada product monograph (warnings, contraindications, approved indications), which blocks safety screening
-- Mechanism of action data for mannitol from DrugBank
-- Any mannitol-specific preclinical or clinical evidence in NSIAD, ideally showing why an osmotic diuretic would not worsen hyponatremia
-- A mechanistic review of the predicted candidates, since the current scores appear to reflect graph proximity
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Detailed mechanism of action data
+- Mechanistic or preclinical evidence that osmotic diuresis improves water handling in AVPR2 gain-of-function disease
+- Approved indication text and dosage forms for the Canadian licences
+- Expert review of the safety risks, particularly fluid and electrolyte effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

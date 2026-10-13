@@ -2,7 +2,7 @@
 layout: default
 title: Paromomycin
 parent: Model Prediction Only (L5)
-nav_order: 701
+nav_order: 707
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Paromomycin: From Intestinal Amebiasis to Idiopathic Copper-Associated Cirrhosis
+# Paromomycin: From Hepatic Encephalopathy to Idiopathic Copper-Associated Cirrhosis
 
 ## One-Sentence Summary
 
-Paromomycin is a poorly absorbed oral aminoglycoside that acts on gut bacteria and protozoa, and is used for intestinal amebiasis. The TxGNN model predicts it may be effective for **idiopathic copper-associated cirrhosis**. There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Paromomycin is an oral aminoglycoside antibiotic, originally associated with hepatic coma and hepatic encephalopathy.
+The TxGNN model predicts it may be effective for **idiopathic copper-associated cirrhosis**, but **no clinical trials and no publications** support this prediction, so it rests on a graph-based score alone.
 
 ---
 
@@ -41,10 +42,10 @@ Paromomycin is a poorly absorbed oral aminoglycoside that acts on gut bacteria a
 
 | Item | Content |
 |------|------|
-| Original Indication | Intestinal amebiasis (general drug knowledge; the Canadian license record contains no indication text) |
+| Original Indication | Hepatic coma / hepatic encephalopathy (from the knowledge graph; the Canadian licence has no indication text) |
 | Predicted New Indication | Idiopathic copper-associated cirrhosis |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
@@ -53,11 +54,11 @@ Paromomycin is a poorly absorbed oral aminoglycoside that acts on gut bacteria a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Paromomycin is known as an aminoglycoside that is barely absorbed from the gut. It works locally against intestinal bacteria and protozoa.
+Currently, detailed mechanism of action data is not available. Based on known information, paromomycin is a poorly absorbed aminoglycoside that acts in the gut lumen. It reduces ammonia-producing bacteria, which is why it has been used in hepatic encephalopathy.
 
-Idiopathic copper-associated cirrhosis is a liver disease driven by copper accumulation and liver injury. Paromomycin has no known role in copper metabolism or copper-driven liver damage. No mechanistic link has been established.
+The predicted indication, idiopathic copper-associated cirrhosis, is a liver disease driven by copper handling. Paromomycin has no known link to copper metabolism or copper-associated liver injury. The high score most likely reflects shared liver-disease neighbours in the knowledge graph and not a real mechanism. The prediction should be treated as a hypothesis-generating signal, not as supported evidence.
 
-The high score (0.999) is therefore a model output only. The same score appears for several other liver and portal-system conditions, which suggests the prediction may be an artifact of shared neighbors in the knowledge graph rather than true biology.
+Other predictions in the same list show a similar pattern. Several are portal hypertension or liver-vascular conditions (primitive portal vein thrombosis, early-onset familial noncirrhotic portal hypertension, hepatoportal sclerosis), and all are scored at L5 with a Hold recommendation. Of these, hepatopulmonary syndrome has a plausible but unverified hypothesis: antibiotics that reduce gut bacterial translocation have been explored there. The only prediction with any literature was peritonitis (L4), but that literature does not address peritonitis treatment, and oral paromomycin is minimally absorbed.
 
 ---
 
@@ -69,50 +70,28 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for the top prediction.
-
----
-
-## Other Predicted Indications
-
-The model produced seven further predictions, all with no trials or literature except peritonitis. The mechanistic assessments are summarized below.
-
-| Rank | Predicted Indication | Score | Evidence Level | Assessment |
-|------|------|------|------|------|
-| 2 | Primitive portal vein thrombosis | 99.90% | L5 | No anticoagulant or antithrombotic activity; likely a knowledge-graph artifact |
-| 3 | Early-onset familial noncirrhotic portal hypertension | 99.90% | L5 | Rare genetic portal condition with no known link to aminoglycoside activity |
-| 4 | Hepatopulmonary syndrome | 99.90% | L5 | Only a speculative link through gut bacterial translocation; no supporting studies |
-| 5 | Hepatoportal sclerosis | 99.90% | L5 | No known effect on portal venous obliteration |
-| 6 | Hepatic porphyria | 99.86% | L5 | Paromomycin does not target heme biosynthesis |
-| 7 | Acute urate nephropathy | 99.79% | L5 | Biologically counterintuitive; aminoglycosides are associated with nephrotoxicity |
-| 8 | Peritonitis | 99.03% | L4 | Indirect link only, via the underlying intestinal pathogen |
-
-**Peritonitis** is the only other prediction with retrieved literature. Only 10 of 20 retrieved publications were provided, and no clinical trials were found. The relevant items are:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34840954](https://pubmed.ncbi.nlm.nih.gov/34840954/) | 2021 | Case report | IDCases | Metronidazole plus paromomycin used for fulminant amoebic colitis during chemotherapy in a patient with small-cell lung cancer |
-| [11096579](https://pubmed.ncbi.nlm.nih.gov/11096579/) | 1999 | Review | Curr Treat Options Gastroenterol | Amebiasis management, centered on metronidazole for amebic liver abscess |
-| [4293095](https://pubmed.ncbi.nlm.nih.gov/4293095/) | 1967 | Review | JAMA | Nephrotoxicity of antibiotics, relevant to aminoglycoside safety |
-
-Most of the other retrieved papers concern leishmaniasis (in vitro or formulation studies) and are not relevant to peritonitis. The case report supports activity against the intestinal pathogen, not direct treatment of peritonitis. Because paromomycin is poorly absorbed orally, systemic or intraperitoneal efficacy is not supported.
+Currently no related literature available for idiopathic copper-associated cirrhosis.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2078759 | HUMATIN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02078759 | HUMATIN | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried data.
-- **Nephrotoxicity note**: Aminoglycosides are associated with kidney toxicity (PMID 4293095). This is a particular concern for the predicted indication of acute urate nephropathy.
+- **Knowledge-graph contraindication signals** (not label text): kidney disease, pyoureter, hearing loss disorder, and X-linked mixed deafness with perilymphatic gusher. These are consistent with the known renal and ototoxicity concerns of aminoglycosides, particularly with systemic exposure or impaired renal function.
+- **Drug Interactions**: 36 interactions were recorded. The ones flagged as **Major** are:
+  - Neuromuscular blockers: cisatracurium, atracurium, doxacurium, metocurine, mivacurium
+  - Live cholera vaccine (Vibrio cholerae CVD 103-HgR strain)
+- **Moderate** interactions include proton pump inhibitors (rabeprazole, omeprazole, esomeprazole, lansoprazole, dexlansoprazole), oestrogens (ethinylestradiol, estradiol, mestranol), methotrexate, mycophenolate mofetil, picosulfuric acid, enflurane, and indium In-111 oxyquinoline.
+- **Minor**: digoxin.
 
-Please refer to the package insert for warnings and contraindications, as these are not available in the current data.
+Label warnings and contraindications from the Health Canada package insert were not available. Please refer to the package insert for the full safety information.
 
 ---
 
@@ -121,13 +100,16 @@ Please refer to the package insert for warnings and contraindications, as these 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by any clinical trial, publication, or plausible mechanism. Paromomycin's local gut action has no known connection to copper-associated cirrhosis. Evidence remains at L5 and the candidate has not advanced past the initial screening stage.
+The prediction has a very high model score but no trials, no literature, and no plausible mechanism linking paromomycin to copper-associated cirrhosis. Paromomycin's nephrotoxicity and ototoxicity signals add caution. Evidence is at L5, and there is no basis to advance.
 
 **To proceed, the following is needed:**
+- Mechanistic evidence connecting paromomycin to copper metabolism or copper-associated liver injury
+- Any preclinical or clinical data in this indication
+- Mechanism of action data for paromomycin
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking paromomycin to copper-associated liver disease
-- Approved indication text and dosage form for the Canadian license, to confirm the original indication and route compatibility
+- Approved indication text and dosage form for DIN 02078759
+- Route and exposure compatibility assessment, given minimal systemic absorption after oral use
+- If the team wants to pursue other liver-related predictions, hepatopulmonary syndrome is the most mechanistically plausible candidate, but it would need its own evidence review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

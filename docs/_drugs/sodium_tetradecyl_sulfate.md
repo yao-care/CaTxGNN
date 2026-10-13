@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Tetradecyl Sulfate
 parent: High Evidence (L1-L2)
-nav_order: 851
+nav_order: 858
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Tetradecyl Sulfate: From Varicose Veins to Esophageal Varices with Bleeding
+# Sodium Tetradecyl Sulfate: From Varicose Disease to Esophageal Varices with Bleeding
 
 ## One-Sentence Summary
 
-Sodium tetradecyl sulfate (STS) is a sclerosing agent marketed for varicose veins. The TxGNN model predicts it may be effective for **esophageal varices with bleeding**, with **1 registered clinical trial (indirect relevance)** and **20 publications** supporting this direction, including 4 randomized trials of STS as a variceal sclerosant. Most of this evidence dates from the 1980s and 1990s.
-
----
+Sodium tetradecyl sulfate (STS) is an injectable sclerosant originally used to treat varicose veins.
+The TxGNN model predicts it may be effective for **esophageal varices with bleeding**,
+and the evidence consists of **20 publications** (including 2 randomized comparisons of sclerosants and 1 meta-analysis) but **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Varicose veins (sclerosant use; the licence text was not provided in the data) |
+| Original Indication | Varicose disease (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Esophageal varices with bleeding |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L2 |
@@ -49,77 +49,67 @@ Sodium tetradecyl sulfate (STS) is a sclerosing agent marketed for varicose vein
 | Number of DINs | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data from DrugBank is not currently available. Based on known information, STS is a detergent sclerosant. It damages the venous endothelium, which causes thrombosis and fibrosis and obliterates the vessel.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, STS is a detergent sclerosant. It damages the vascular endothelium, which causes thrombosis and fibrosis and closes the vessel.
 
-The same mechanism applies to esophageal and gastric varices, so the link between the original and new indication is direct and biologically plausible. The prediction is closer to a site or route extension than to true repurposing, because the drug is already used as a sclerosant.
+This is the same mechanism that underlies its use in varicose veins. Esophageal varices are also dilated veins, so closing them with a sclerosant injected through an endoscope is a direct extension of the original use. The literature also shows STS foam being used in balloon-occluded retrograde transvenous obliteration (BRTO) of gastric varices.
 
-The published record supports this use. Randomized comparisons of STS against polidocanol, sodium morrhuate and ethanolamine oleate exist. However, they are older and mostly predate band ligation. Current guidelines favor band ligation over sclerotherapy for esophageal varices, so any proposal should be framed as an alternative or rescue option. The evidence is graded L2 rather than L1 because the input data do not state a trial phase, and the older randomized trials are not labeled Phase 3.
-
----
+An important caveat applies. Endoscopic band ligation and drug therapy have largely replaced sclerotherapy as standard care. Serious complications such as esophageal perforation and strictures are well documented. The evidence level is L2 rather than L1 because no Phase 3 trial registry entry was provided, and the randomized studies are old, small and mostly compare one sclerosant against another. This judgment is based on titles and short abstracts only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05500625](https://clinicaltrials.gov/study/NCT05500625) | NA | Unknown | 70 | EUS-guided coil with cyanoacrylate vs balloon-occluded retrograde transvenous obliteration (BRTO) in gastric varices. STS is not shown as an arm, and the focus is gastric rather than esophageal varices. This is indirect support only. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8287811](https://pubmed.ncbi.nlm.nih.gov/8287811/) | 1993 | RCT (double-blind) | Endoscopy | 3% STS vs 5% ethanolamine oleate in 95 patients with variceal bleeding. |
-| [1734694](https://pubmed.ncbi.nlm.nih.gov/1734694/) | 1992 | RCT | Am J Gastroenterol | STS vs polidocanol in 52 patients with esophageal variceal bleeding. Eradication was achieved in 88% in each group. |
-| [2279644](https://pubmed.ncbi.nlm.nih.gov/2279644/) | 1990 | RCT | Gastrointest Endosc | STS vs sodium morrhuate in 41 patients with acute variceal bleeding. Mortality was 38% vs 25% (not significant). |
-| [8886633](https://pubmed.ncbi.nlm.nih.gov/8886633/) | 1996 | RCT | Endoscopy | Hypertonic glucose water vs STS for gastric variceal bleeding in advanced cirrhosis. |
-| [30170340](https://pubmed.ncbi.nlm.nih.gov/30170340/) | 2019 | Review | J Gastroenterol Hepatol | Recent development of BRTO, including the shift to STS foam as a sclerosant. |
-| [3443730](https://pubmed.ncbi.nlm.nih.gov/3443730/) | 1987 | Prospective cohort | J Clin Gastroenterol | Clinical and histopathologic effects of STS endoscopic sclerotherapy on the esophagus in 24 patients. |
-| [9540875](https://pubmed.ncbi.nlm.nih.gov/9540875/) | 1998 | Comparative study | Gastrointest Endosc | Cyanoacrylate vs STS for variceal bleeding in patients with hepatocellular carcinoma. |
-| [28180928](https://pubmed.ncbi.nlm.nih.gov/28180928/) | 2017 | Cohort | Cardiovasc Intervent Radiol | Safety and efficacy of STS and lipiodol foam in BRTO for large porto-systemic shunts and gastric fundal varices. |
-| [21353984](https://pubmed.ncbi.nlm.nih.gov/21353984/) | 2011 | Cohort | J Vasc Interv Radiol | Initial experience with BRTO using STS foam for bleeding gastric varices. |
-| [37745308](https://pubmed.ncbi.nlm.nih.gov/37745308/) | 2023 | Cohort | Diagn Interv Radiol | Antegrade foam sclerotherapy for portal hypertensive variceal bleeding. |
-
----
+| [8886633](https://pubmed.ncbi.nlm.nih.gov/8886633/) | 1996 | RCT | Endoscopy | Hypertonic glucose water vs STS for gastric variceal bleeding in advanced cirrhosis |
+| [1734694](https://pubmed.ncbi.nlm.nih.gov/1734694/) | 1992 | RCT | Am J Gastroenterol | STS vs polidocanol in 52 patients with variceal bleeding; varices eradicated in 88% in each group, with no significant difference |
+| [2279644](https://pubmed.ncbi.nlm.nih.gov/2279644/) | 1990 | RCT | Gastrointest Endosc | STS vs sodium morrhuate in 41 patients with acute variceal bleeding; mortality 38% vs 25% (not significant) |
+| [11323580](https://pubmed.ncbi.nlm.nih.gov/11323580/) | 2001 | RCT | Gastrointest Endosc | Band ligation alone vs ligation followed by adjuvant sclerotherapy for esophageal varices |
+| [7942715](https://pubmed.ncbi.nlm.nih.gov/7942715/) | 1994 | Meta-analysis | Am J Gastroenterol | Prophylactic endoscopic sclerotherapy and survival; addresses sclerotherapy in general, not STS specifically |
+| [30170340](https://pubmed.ncbi.nlm.nih.gov/30170340/) | 2019 | Review | J Gastroenterol Hepatol | Recent development of BRTO, including use of STS as a sclerosant |
+| [2191592](https://pubmed.ncbi.nlm.nih.gov/2191592/) | 1990 | Review | Am J Gastroenterol | Critical appraisal of sclerosants for variceal sclerotherapy |
+| [2920638](https://pubmed.ncbi.nlm.nih.gov/2920638/) | 1989 | Safety cohort | Dig Dis Sci | 900 STS sclerotherapy procedures in 170 patients; esophageal perforation confirmed in 5 (2.9%) |
+| [21353984](https://pubmed.ncbi.nlm.nih.gov/21353984/) | 2011 | Case series | J Vasc Interv Radiol | Initial experience with BRTO using STS foam for bleeding gastric varices |
+| [37745308](https://pubmed.ncbi.nlm.nih.gov/37745308/) | 2023 | Clinical study | Diagn Interv Radiol | Antegrade foam sclerotherapy for portal hypertensive variceal bleeding |
 
 ## Canada Market Information
 
-| DIN / Licence No. | Product Name |
-|---------|------|
-| 511234 | TROMBOJECT 1% |
-| 511226 | TROMBOJECT 3% |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00511234 | TROMBOJECT 1% | Not listed | Not listed |
+| 00511226 | TROMBOJECT 3% | Not listed | Not listed |
 
 ## Safety Considerations
 
-- **Key risks from the literature**: esophageal ulceration and stricture are the main complications of variceal sclerotherapy. They are examined in the prospective esophageal-effects study (PMID 3443730) and in the sclerotherapy vs band ligation comparison (PMID 11232687).
+- **Disease-level cautions from the knowledge graph (not label text):** the knowledge graph links STS to contraindication-type relationships with thrombophlebitis, thrombophlebitis migrans, venous insufficiency, thromboangiitis obliterans, arteriosclerosis and atherosclerosis, hyperthyroidism and thyrotoxicosis (including Graves disease), hematologic disease, infectious disease, and cancer.
+- **Procedure-related risks reported in the literature:**
+  - Esophageal perforation (2.9% in one series of 900 procedures).
+  - Esophageal strictures (15.5% in one series of 129 patients), which were managed with dilation.
+  - Lung injury (ARDS), reported in an animal study after intravenous sclerosant exposure.
+  - Balloon catheter rupture during BRTO.
+- No drug interaction data were found.
 
-For other safety information, including warnings, contraindications and drug interactions, please refer to the package insert.
-
----
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-STS has a direct, plausible mechanism and several randomized comparisons in esophageal variceal bleeding. However, these trials are old, and band ligation is now the guideline-preferred approach. The only registered trial is indirect. This indication should therefore be considered only as an alternative or rescue option.
-
-Other predictions for this drug are weaker:
-- **Esophageal varices without bleeding:** this remains a research question, because prophylactic sclerotherapy is not recommended.
-- **Ranks 3–10** (for example Steel syndrome and hypophosphatasia): these have no mechanistic link and no evidence beyond the model score. They are on Hold.
+The mechanism plausibly carries over from varicose veins to esophageal varices, and randomized comparisons and decades of clinical use support it. However, the evidence is old, small and mostly compares sclerosants with each other. Band ligation and drug therapy are now the standard of care, and sclerotherapy has serious complications.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert warnings and contraindications, which are currently missing and block safety screening.
-- Detailed mechanism-of-action data from DrugBank.
-- A comparison against band ligation or current standard care.
-- Confirmation of route and formulation compatibility, since the marketed products are intravenous sclerosants and variceal use requires endoscopic or interventional administration.
-- A safety plan for esophageal ulcer and stricture.
+- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data from DrugBank
+- Comparison with current standard care (band ligation, beta-blockers) and a defined place in therapy, for example when ligation is not feasible or for gastric varices via BRTO
+- Confirmation that the Canadian licences cover this route of use and indication, since the licence records contain no indication text
+- A safety plan covering perforation, stricture and the conditions listed in the knowledge graph
+
+**Other predictions:** Esophageal varices without bleeding (score 99.97%, L2) is a research question only, because the risk-benefit balance is less favorable in patients who have not bled. The remaining eight predictions (for example Steel syndrome, pseudo-von Willebrand disease and hypophosphatasia) have no trials or literature and no plausible mechanistic link, so the recommendation is **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

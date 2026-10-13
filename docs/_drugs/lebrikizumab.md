@@ -2,7 +2,7 @@
 layout: default
 title: Lebrikizumab
 parent: Model Prediction Only (L5)
-nav_order: 525
+nav_order: 530
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,17 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lebrikizumab is an anti-IL-13 monoclonal antibody, marketed in Canada as EBGLYSS and used for moderate-to-severe atopic dermatitis.
+Lebrikizumab is an anti-IL-13 monoclonal antibody, marketed in Canada as EBGLYSS and developed for moderate-to-severe atopic dermatitis.
 The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**.
-This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone.
-
----
+This is a computational prediction only: there are **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic dermatitis (inferred from the drug's trial programme; the Canadian licence records contain no indication text) |
+| Original Indication | Atopic dermatitis (inferred from the drug's clinical program; the licence indication text was not populated in the data compiled for this report) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 97.94% |
 | Evidence Level | L5 |
@@ -51,55 +49,47 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Lebrikizumab is a high-affinity monoclonal antibody that neutralizes IL-13. It blocks formation of the IL-4Rα/IL-13Rα1 heterodimer signaling complex, a central type 2 inflammatory pathway in atopic dermatitis. Formal mechanism-of-action data are not available in the source record, so this description comes from the trial and literature context.
+Lebrikizumab binds IL-13 and prevents formation of the IL-13Rα1/IL-4Rα signalling complex. This dampens type 2 inflammation, the central driver of atopic dermatitis. Detailed mechanism-of-action data were not available in the compiled data, so this description comes from the drug class and the literature on its original indication.
 
-The link to diabetic retinopathy is weak. The disease is driven mainly by retinal inflammation and VEGF-mediated angiogenesis, and a role for IL-13 is speculative. The high score most likely reflects the model's knowledge-graph associations rather than an established biological rationale. No trials or publications were found to support it.
-
----
+A link to diabetic retinopathy is possible in theory, for example if type 2 inflammation contributes to retinal inflammation. However, this is speculation. The compiled data contain no trial, publication or mechanistic study connecting IL-13 blockade to diabetic retinopathy. The high score reflects the model's pattern matching in its knowledge graph, not demonstrated biology. The original and predicted indications (a skin disease and a microvascular eye complication of diabetes) are also quite different, and no similarity analysis was available.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name |
 |---------|------|
-| 2549131 | EBGLYSS |
-| 2549123 | EBGLYSS |
+| 02549131 | EBGLYSS |
+| 02549123 | EBGLYSS |
 
----
+Both authorisations are valid single-ingredient products. Dosage form and approved-indication text were not available in the compiled data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials or literature, and the mechanistic link between IL-13 blockade and retinal microvascular disease is hypothetical. Other high-scoring predictions for this drug are also weak, for example drug-induced osteoporosis, where IL-13 blockade could plausibly worsen bone loss. The only prediction with strong evidence is dermatitis (rank 5, L1), which is the drug's own marketed indication and not a true repurposing case.
+The prediction is supported only by a model score, with no clinical trials, no literature and no established mechanistic link to diabetic retinopathy. Safety data from the label are also missing, so the candidate cannot move beyond the initial screening stage.
 
 **To proceed, the following is needed:**
-- Preclinical or mechanistic evidence that IL-13 contributes to diabetic retinopathy
-- Confirmation of the original indication from the Canadian product monograph, since the licence records contain no indication text
-- Safety data from the Health Canada package insert, including ocular adverse events, which matter for a retinal indication
-- Formal mechanism-of-action data from DrugBank
+- Preclinical or mechanistic evidence for IL-13 involvement in diabetic retinopathy (for example, IL-13 expression in diabetic retinal tissue or animal models)
+- Health Canada product monograph warnings and contraindications
+- Mechanism-of-action data from DrugBank
+- Assessment of route compatibility, since ocular disease may need a different delivery approach than subcutaneous injection
+
+**Note on other predictions:** Of the other predictions for this drug, only "dermatitis" (rank 5) has substantial evidence, including multiple Phase 3 trials and randomised publications. It maps to atopic dermatitis, which is the drug's existing use, so it is not a true repurposing finding. The psoriasis prediction (rank 9) is weakly supported: the IL-13 mechanism is a poor fit, and one case report describes lebrikizumab-induced psoriasis.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

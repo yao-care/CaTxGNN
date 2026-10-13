@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Axitinib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 88
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Axitinib
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,55 +29,60 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Axitinib: From Advanced Renal Cell Carcinoma to Unclassified Renal Cell Carcinoma
+# Axitinib: From Renal Cell Carcinoma to Unclassified Renal Cell Carcinoma
 
 ## One-Sentence Summary
 
-Axitinib (INLYTA) is an oral VEGFR-targeted kinase inhibitor already marketed for advanced renal cell carcinoma (RCC).
-The TxGNN model predicts it may be effective for **unclassified renal cell carcinoma**. This is effectively an on-label parent indication rather than true repurposing.
-Currently **2 observational clinical studies** and **0 publications** are linked to this specific label, but the closely related "renal carcinoma" prediction is backed by multiple Phase 3 RCTs.
+Axitinib is an oral kinase inhibitor originally used to treat renal cell carcinoma (RCC).
+The TxGNN model predicts it may be effective for **unclassified renal cell carcinoma**, a histologic subgroup of RCC.
+This prediction currently rests on the model alone, with **0 clinical trials** and **0 publications** supporting this specific subtype.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Advanced renal cell carcinoma (from the pack's rationale text; licence indication text is empty) |
+| Original Indication | Renal cell carcinoma (including clear cell and non-papillary subtypes) |
 | Predicted New Indication | Unclassified renal cell carcinoma |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L3 |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the pack. Based on the rationale provided, axitinib is a VEGFR1-3 tyrosine kinase inhibitor.
+Detailed mechanism of action data is not available in the data compiled for this report. Axitinib is known as a tyrosine kinase inhibitor that targets VEGFR-1, -2 and -3, which blocks the formation of new blood vessels that tumours depend on. Its efficacy in RCC is well established.
 
-RCC is strongly driven by angiogenesis, so blocking VEGF receptor signalling is a well-matched mechanism. The very high TxGNN score reflects how close this label sits to the drug's established indication.
+Unclassified RCC is a histologic subgroup of RCC that likely shares the same angiogenic signalling. That makes a response to VEGFR inhibition plausible. This is a mechanistic inference only, and no studies specific to this subtype were found.
 
-"Unclassified RCC" is a catch-all subtype label. The prediction most likely reflects axitinib's known activity across RCC in general rather than a new therapeutic direction.
+The prediction is also very close to the drug's existing indication, so it may be a refinement of the same disease family rather than a truly new use.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02156895](https://clinicaltrials.gov/study/NCT02156895) | N/A (post-marketing surveillance) | Completed | 111 | Monitors real-world INLYTA use, including associated adverse events |
-| [NCT04033991](https://clinicaltrials.gov/study/NCT04033991) | N/A (retrospective database study) | Completed | 684 | UK real-world outcomes in metastatic/advanced RCC treated with first-line sunitinib and second-line axitinib, with PFS stratified by MSKCC/IMDC risk |
+Currently no related clinical trials registered.
 
-Both studies are non-randomized and observational, so they support L3 evidence only.
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2389649 | INLYTA |
-| 2389630 | INLYTA |
+| DIN | Product Name | Status |
+|---------|------|------|
+| 02389649 | INLYTA | Valid (single-ingredient) |
+| 02389630 | INLYTA | Valid (single-ingredient) |
 
-Dosage form and approved indication text are not recorded in the licence data.
+---
 
 ## Cytotoxicity
 
@@ -86,27 +91,40 @@ Dosage form and approved indication text are not recorded in the licence data.
 | Cytotoxicity Classification | Targeted therapy (VEGFR tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Blood pressure (hypertension) and liver function, per the pack's guardrails; see the package insert for the full list |
+| Monitoring Items | Blood pressure, signs of bleeding or thromboembolism, and liver function. Please also refer to the package insert. |
 | Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the pack.
+- **Drug Interactions**: The interaction screening returned 100 records. Of the 20 shown in the data compiled for this report:
+  - **Major**: clarithromycin, dexamethasone
+  - **Moderate**: aprepitant, clotrimazole, miconazole, naltrexone
+  - **Minor**: mostly acid-reducing agents and antacids, such as famotidine, ranitidine, cimetidine, nizatidine, rabeprazole, esomeprazole, lansoprazole, dexlansoprazole, aluminum hydroxide, calcium carbonate and magnesium salts
+- The pattern of interactions suggests that CYP3A-related interactions need attention.
 
-The pack's guardrail notes for RCC use are to follow the labelled population and to monitor hypertension and hepatotoxicity. When combined with checkpoint inhibitors, immune-related adverse events should also be monitored.
+Warnings and contraindications from the Canadian package insert were not available. Please refer to the package insert for these.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Axitinib is already marketed in Canada for advanced RCC, and its mechanism fits the disease. The evidence linked to this specific label is only observational (L3), so use should stay within the approved population. Stronger support sits under the related "renal carcinoma" prediction, where Phase 3 RCTs (KEYNOTE-426, JAVELIN Renal 101, RENOTORCH) show benefit in advanced RCC.
+The only support for unclassified RCC is the model prediction (L5), with no trials or publications for this subtype. Axitinib's benefit in broader RCC is established, but that does not by itself establish benefit in this subgroup.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism-of-action data from DrugBank
-- Confirmation of how "unclassified RCC" maps to the approved Canadian indication, using the licence indication text
-- Dosage form and indication details for both INLYTA DINs
+- Subtype-specific clinical or observational data, such as a case series or a retrospective analysis of unclassified RCC patients treated with axitinib
+- Clarification of how "unclassified RCC" overlaps with the already approved RCC indication, since this may be covered by the current label
+- Canadian package insert warnings and contraindications
+- Detailed mechanism of action data
+- A safety and drug-interaction management plan, particularly for CYP3A-related interactions
+
+Related RCC subtypes in the same data have more evidence and may be better candidates to pursue first:
+- **Translocation (TFE3) RCC**: a randomized Phase 2 trial of axitinib plus nivolumab (15 patients, results not yet available)
+- **Collecting duct carcinoma**: a Phase 2 trial of checkpoint inhibitors plus axitinib (30 patients, recruiting)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

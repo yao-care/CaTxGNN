@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Model Prediction Only (L5)
-nav_order: 711
+nav_order: 717
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pembrolizumab: From Cancer Immunotherapy (e.g., Non-Small-Cell Lung Cancer) to Gingival Fibromatosis
+# Pembrolizumab: From Non-Small Cell Lung Cancer and Metastatic Melanoma to Fibromatosis, Gingival
 
 ## One-Sentence Summary
 
-Pembrolizumab is a PD-1 checkpoint-inhibitor antibody used in cancer treatment, including non-small-cell lung cancer (NSCLC).
-The TxGNN model predicts it may be effective for **gingival fibromatosis** with a very high score (99.4%), but **0 clinical trials** and **0 publications** support this prediction.
-This is a model-only prediction and is most likely a knowledge-graph artifact.
+Pembrolizumab is a PD-1 immune checkpoint inhibitor, originally used to treat non-small cell lung cancer, lung cancer and metastatic melanoma.
+The TxGNN model predicts it may be effective for **gingival fibromatosis**, but **no clinical trials and no publications** were found for this indication, so the prediction rests on the model alone.
 
 ---
 
@@ -43,8 +42,8 @@ This is a model-only prediction and is most likely a knowledge-graph artifact.
 
 | Item | Content |
 |------|------|
-| Original Indication | Cancer immunotherapy (e.g., non-small-cell lung cancer) |
-| Predicted New Indication | Gingival fibromatosis |
+| Original Indication | Non-small cell lung cancer, lung cancer, metastatic melanoma (the Canadian licence record contains no indication text) |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.40% |
 | Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
@@ -55,11 +54,11 @@ This is a model-only prediction and is most likely a knowledge-graph artifact.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. Based on the literature retrieved for other predictions, pembrolizumab is a humanized IgG4-kappa monoclonal antibody against PD-1. It blocks the PD-1/PD-L1 interaction, which restores T-cell activity against tumour cells that evade the immune system.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Pembrolizumab is known to be a monoclonal antibody that targets programmed cell death protein 1 (PD-1, PDCD1). Blocking PD-1 releases the brake on T cells so that they can attack tumour cells. Its efficacy in melanoma and lung cancer is well established.
 
-This mechanism does not transfer well to gingival fibromatosis. The condition is a non-malignant fibrotic overgrowth of the gums, usually genetic or drug-induced. No PD-1/PD-L1 rationale for it was identified. Pembrolizumab's immune-related adverse event profile also argues against using it in a benign condition.
+Gingival fibromatosis, however, is a benign, usually hereditary, overgrowth of gum tissue. It is not a cancer and has no known dependence on PD-1/PD-L1 biology. Immune activation is not an expected treatment strategy for it. The high score therefore looks like a statistical artefact of the model rather than a biologically grounded link, and no mechanistic rationale could be identified.
 
-The high TxGNN score is therefore best read as a graph-proximity effect, not as a credible pharmacological signal. It should not be treated as a repurposing lead without independent supporting evidence.
+The other top-ranked predictions show the same pattern. Most are benign or rare genetic conditions (for example inclusion body myopathy, ovarioleukodystrophy, lung hamartoma and lung fibroma) with no plausible PD-1 rationale. A few are lung cancer subtypes (lung hilum carcinoma, pulmonary sulcus neoplasm) that are largely covered by the existing NSCLC indication, so they are not distinct repurposing opportunities.
 
 ---
 
@@ -77,9 +76,9 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2456869 | KEYTRUDA |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02456869 | KEYTRUDA | Not specified | Not specified |
 
 ---
 
@@ -87,19 +86,22 @@ Currently no related literature available.
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-1 immune checkpoint inhibitor, monoclonal antibody) |
-| Myelosuppression Risk | Low (not a conventional cytotoxic agent). Please refer to the package insert for details. |
+| Cytotoxicity Classification | Immunotherapy (anti-PD-1 monoclonal antibody), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Low. Direct myelosuppression is not a characteristic effect, but immune-related haematological adverse events can occur |
 | Emetogenicity Classification | Low |
-| Monitoring Items | Thyroid, liver and renal function, blood glucose, and clinical monitoring for immune-related adverse events; CBC as clinically indicated |
-| Handling Protection | Not a conventional cytotoxic agent. Please refer to the package insert and local institutional policy for handling requirements. |
+| Monitoring Items | Please refer to the package insert warnings and precautions. Immune-related adverse events are generally monitored through blood counts, liver, renal and thyroid function |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Pembrolizumab can cause immune-related adverse events, which weighs against its use in a benign condition such as gingival fibromatosis.
+**Drug Interactions** (13 records found; none is specific to the predicted indication):
+- **Major:** lenalidomide, pomalidomide, thalidomide
+- **Moderate:** corticosteroids, including hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone, methylprednisolone and deflazacort
+- **Target pharmacology:** the antibody acts on PD-1 (PDCD1)
 
-Please refer to the package insert for full safety information.
+Package insert warnings and contraindications for Canada were not available in the data compiled for this report. Please refer to the package insert for these.
 
 ---
 
@@ -108,13 +110,14 @@ Please refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score, with no trials, no literature and no plausible PD-1 mechanism for a benign fibrotic gingival condition. The risk-benefit balance is unfavourable.
+The prediction has a high model score but no supporting clinical trials, literature or mechanistic rationale (Evidence Level L5). Gingival fibromatosis is a benign condition for which immune checkpoint blockade is not expected to help. It also carries a risk of serious immune-related adverse events, so the risk-benefit balance is unfavourable on current information.
 
 **To proceed, the following is needed:**
+- A biological rationale linking PD-1 signalling to gingival fibromatosis (for example preclinical or tissue-level data)
+- Mechanism of action data
 - Health Canada package insert warnings and contraindications
-- Mechanism-of-action data from DrugBank
-- Any disease-specific preclinical or clinical evidence linking PD-1 blockade to gingival fibromatosis
-- Review of the other predicted indications. Lung hilum carcinoma and pulmonary sulcus neoplasm are likely better handled by re-mapping to the existing NSCLC evidence, not as new repurposing candidates.
+- Indication text for the Canadian licence (DIN 02456869)
+- If any repurposing direction is pursued, consider the lung cancer subtypes (lung hilum carcinoma, pulmonary sulcus neoplasm) only after checking whether the existing NSCLC approval already covers them
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Palbociclib
 parent: Model Prediction Only (L5)
-nav_order: 693
+nav_order: 699
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,161 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Palbociclib: From Breast Cancer to Hyperthyroidism
+# Palbociclib: From Breast Cancer to Myeloid Leukemia
 
 ## One-Sentence Summary
 
-Palbociclib is a CDK4/6 inhibitor used in hormone receptor-positive, HER2-negative breast cancer. The Canadian license records in the Evidence Pack do not state the approved indication, so breast cancer is inferred from the trial and literature context. The TxGNN model predicts it may be effective for **hyperthyroidism**, but **no clinical trials and no publications** currently support this prediction.
+Palbociclib is a CDK4/6 inhibitor used in the treatment of hormone receptor-positive breast cancer. The TxGNN model's top-ranked prediction is **hyperthyroidism**, but that prediction has no supporting evidence. The best-supported candidate among the top 10 is **Myeloid Leukemia**, with **4 early-phase clinical trials** and **19 publications** (mostly preclinical) currently supporting this direction.
+
+The original indication below comes from background knowledge, because the Canadian license records compiled for this report contain no indication text.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Breast cancer (HR+/HER2-), inferred from trial and literature context; not stated in the Canadian license records |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 |
+| Original Indication | HR-positive, HER2-negative breast cancer (not listed in the Canadian license data) |
+| Predicted New Indication | Top TxGNN rank: hyperthyroidism (no evidence). Best-supported candidate: myeloid leukemia |
+| TxGNN Prediction Score | Hyperthyroidism 99.44%; myeloid leukemia 98.94% |
+| Evidence Level | Hyperthyroidism L5; myeloid leukemia L3 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 9 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hyperthyroidism: Hold. Myeloid leukemia: Proceed with Guardrails |
+
+**Note on ranking:** TxGNN scores are all very high (98.7%–99.4%) across the top 10 predictions and do not separate plausible from implausible ones. The evidence review is what distinguishes them. The table below shows how each prediction fared.
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 1 | Hyperthyroidism | 99.44% | L5 | Hold. No trials or literature |
+| 2 | Rheumatoid arthritis | 99.36% | L4 | Research question. Plausible preclinical rationale and one case report |
+| 3 | Thrombotic disease | 99.32% | L5 | Hold. Literature shows thrombosis as an adverse event, not a benefit |
+| 4 | Thyroid hormone resistance (THRB mutation) | 99.30% | L5 | Hold. No evidence |
+| 5 | Brachydactyly-syndactyly syndrome | 98.99% | L5 | Hold. No evidence |
+| 6 | Myeloid leukemia | 98.94% | L3 | Proceed with Guardrails |
+| 7 | Multiple endocrine neoplasia | 98.86% | L4 | Hold. Trials are breast cancer or basket studies, not MEN-specific |
+| 8 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 98.85% | L5 | Hold. No evidence |
+| 9 | Hyperthyroxinemia | 98.78% | L5 | Hold. No evidence |
+| 10 | Prinzmetal angina | 98.75% | L5 | Hold. No evidence |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, palbociclib is a CDK4/6 inhibitor that blocks cell-cycle progression, and its efficacy in breast cancer is established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, palbociclib selectively inhibits CDK4 and CDK6, which blocks cell-cycle progression from the G1 to the S phase. Its efficacy in HR-positive breast cancer is established.
 
-Nothing in the provided data links CDK4/6 inhibition to thyroid hormone synthesis or secretion. The high score (99.44%) is a model prediction only, and the same thyroid-related cluster appears in other low-evidence predictions (resistance to thyroid hormone, hyperthyroxinemia). At present this prediction should be treated as a model artefact rather than a credible repurposing lead.
+**Myeloid leukemia (best-supported).** CDK6 is a recognized dependency in acute myeloid leukemia (AML), notably in MLL-rearranged and NUP98-rearranged subtypes. Preclinical studies show palbociclib acting synergistically with venetoclax plus azacitidine, overcoming venetoclax resistance, and working with LSD1 or menin inhibitors. One case report describes successful use of palbociclib with venetoclax and azacitidine in refractory therapy-related AML. A 2026 review noted that CDK4/6 inhibitor monotherapy trials in leukemia were disappointing, whereas combinations showed more promise.
 
-For comparison, the second-ranked prediction, **rheumatoid arthritis**, has more support: one case report, preclinical CDK6-dependent synovial hyperplasia data and animal-model work. It is graded L4, still a research question, but it is a better candidate for follow-up than hyperthyroidism.
+**Rheumatoid arthritis (research question).** Synovial fibroblast proliferation depends on CDK6, which makes CDK4/6 inhibition biologically plausible. Animal models support this. One case report describes RA improvement in a breast cancer patient on palbociclib. No registered trials exist.
+
+**Thrombotic disease.** The literature indicates that thromboembolism is a *safety signal* of CDK4/6 inhibitors. This is an adverse effect, not a therapeutic benefit, so the prediction should not be pursued.
+
+**Other predictions** (hyperthyroidism, thyroid hormone resistance, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, hyperthyroxinemia, Prinzmetal angina) have no clinical trials, no literature, and no plausible mechanistic link in the available data. Their high scores reflect graph-based prediction only.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+**Myeloid leukemia**
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02310243](https://clinicaltrials.gov/study/NCT02310243) | Phase 1/2 | Unknown | 50 | Palbociclib in MLL-rearranged acute leukemias (AML and ALL); dose-finding then efficacy. No results available |
+| [NCT03132454](https://clinicaltrials.gov/study/NCT03132454) | Phase 1 | Active, not recruiting | 32 | Palbociclib alone and combined with sorafenib, decitabine, or dexamethasone in relapsed/refractory leukemia |
+| [NCT05627232](https://clinicaltrials.gov/study/NCT05627232) | Phase 1 | Recruiting | 24 | Palbociclib pre-treatment followed by CPX-351 (Part 2) in relapsed/refractory AML. Combination design limits attribution |
+| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | Terminated | 2 | Precision-oncology platform trial. Uninformative given 2 participants |
+
+**Multiple endocrine neoplasia.** The linked trials are not MEN-specific. They cover breast cancer studies (NCT03355157, Phase 4, 130 participants; NCT02894398, Phase 2, 388 participants) and the NCI-MATCH basket trial ([NCT02465060](https://clinicaltrials.gov/study/NCT02465060), Phase 2, 6,452 participants), so they do not support this indication.
+
+No registered clinical trials were found for the other predicted indications.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+**Myeloid leukemia (selected, most relevant)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41468895](https://pubmed.ncbi.nlm.nih.gov/41468895/) | 2026 | Preclinical | Cell Reports Medicine | Venetoclax plus palbociclib was highly effective across 302 AML patient samples and overcame venetoclax resistance |
+| [36076608](https://pubmed.ncbi.nlm.nih.gov/36076608/) | 2022 | Preclinical | Biomed Pharmacother | Palbociclib boosted venetoclax plus azacitidine activity in AML |
+| [42312423](https://pubmed.ncbi.nlm.nih.gov/42312423/) | 2026 | Preclinical | Haematologica | Dual CDK2 and CDK4/6 inhibition enhanced anti-leukemic activity; notes that CDK4/6 monotherapy trials were disappointing |
+| [40883610](https://pubmed.ncbi.nlm.nih.gov/40883610/) | 2025 | Preclinical | EMBO Mol Med | Dual CDK6 and LSD1 targeting was synergistic and overcame differentiation blockade in AML |
+| [38890447](https://pubmed.ncbi.nlm.nih.gov/38890447/) | 2024 | Preclinical | Leukemia | Menin plus kinase (CDK6/FLT3) inhibitors were effective in NUP98-rearranged leukemia |
+| [38430306](https://pubmed.ncbi.nlm.nih.gov/38430306/) | 2024 | Case report | Cancer Chemother Pharmacol | Palbociclib with venetoclax and azacitidine used successfully in refractory therapy-related AML |
+| [40755307](https://pubmed.ncbi.nlm.nih.gov/40755307/) | 2025 | Preclinical | Br J Haematol | CDK4/6 inhibitors showed synergy with ATRA in non-APL AML |
+| [32260549](https://pubmed.ncbi.nlm.nih.gov/32260549/) | 2020 | Review | Int J Mol Sci | CDK6 inhibition as an emerging approach in AML management |
+
+**Rheumatoid arthritis**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33587021](https://pubmed.ncbi.nlm.nih.gov/33587021/) | 2021 | Case report | Mod Rheumatol Case Rep | RA improved in a breast cancer patient treated with palbociclib |
+| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Cohort | The Oncologist | Study of pre-existing and emerging immune-mediated diseases in breast cancer patients on CDK4/6 inhibitors |
+| [25165034](https://pubmed.ncbi.nlm.nih.gov/25165034/) | 2016 | Preclinical | Ann Rheum Dis | CDK inhibition combined with cytokine blockade improved arthritis in animal models without added immune suppression |
+| [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/) | 2025 | Preclinical | Int J Mol Sci | CDK6-dependent synovial hyperplasia in arthritic mice |
+
+**Thrombotic disease (safety signal, not benefit)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36794339](https://pubmed.ncbi.nlm.nih.gov/36794339/) | 2023 | Pharmacovigilance and systematic review | Expert Opin Drug Saf | Examined the association between CDK4/6 inhibitors and thromboembolism |
+| [35300061](https://pubmed.ncbi.nlm.nih.gov/35300061/) | 2022 | Cohort | Cancer Manag Res | Real-world thromboembolic events with ribociclib |
+
+No literature was found for the other predicted indications.
+
+---
 
 ## Canada Market Information
 
-Nine licenses are on record. The five main ones are listed below. Dosage form and approved-indication text are not recorded in the source data.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02493535 | IBRANCE | Not available | Not available |
+| 02493543 | IBRANCE | Not available | Not available |
+| 02493551 | IBRANCE | Not available | Not available |
+| 02547635 | TARO-PALBOCICLIB | Not available | Not available |
+| 02552124 | PMS-PALBOCICLIB | Not available | Not available |
 
-| DIN | Product Name |
-|---------|------|
-| 2547643 | TARO-PALBOCICLIB |
-| 2552140 | PMS-PALBOCICLIB |
-| 2552132 | PMS-PALBOCICLIB |
-| 2547635 | TARO-PALBOCICLIB |
-| 2552124 | PMS-PALBOCICLIB |
+Nine valid single-ingredient licenses exist in total: 3 IBRANCE, 3 TARO-PALBOCICLIB and 3 PMS-PALBOCICLIB. None is cancelled.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor) |
-| Myelosuppression Risk | Bone marrow suppression is a recognised common adverse event of CDK4/6 inhibitors in the literature provided |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count (with differential) |
+| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | High. Neutropenia is the characteristic toxicity, and preclinical work reports palbociclib-induced myelosuppression. This is especially relevant for leukemia patients with compromised marrow |
+| Emetogenicity Classification | Low |
+| Monitoring Items | CBC with differential, liver function, and signs of infection, thromboembolism, and interstitial lung disease |
 | Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried database.
-- **Class-level signals from the literature**: Pharmacovigilance analyses report thromboembolic events and interstitial lung disease with CDK4/6 inhibitors. Bone marrow suppression and gastrointestinal toxicity are also common.
+- **Drug Interactions:** 100 interactions were identified in total. Major interactions in the data include **clarithromycin, cobicistat, deferiprone and samarium (153Sm) lexidronam**. Moderate interactions include aprepitant, dexamethasone, cimetidine, simvastatin, cisapride, miconazole, clotrimazole, saxagliptin, eliglustat and cilostazol. Dexamethasone appears in one leukemia trial combination (NCT03132454), so that interaction deserves attention.
+- **Safety signals from the literature:** Pharmacovigilance analyses link CDK4/6 inhibitors to thromboembolism, interstitial lung disease and pulmonary toxicity, with age-related toxicity patterns in older women.
 
-Please refer to the package insert for full warnings and contraindications.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for these.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold for hyperthyroidism (TxGNN rank 1); Proceed with Guardrails for myeloid leukemia**
 
 **Rationale:**
-The prediction rests on model score alone (L5), with no trials, no publications and no plausible mechanistic link between CDK4/6 inhibition and hyperthyroidism. The drug also carries known myelosuppression risk, which is hard to justify in a benign endocrine condition without supporting evidence.
+- The top-scoring prediction, hyperthyroidism, is supported only by the graph model, with no trials, no literature and no mechanistic link. The same applies to the other L5 predictions, and thrombosis is a drug-related risk rather than a potential benefit.
+- Myeloid leukemia has the strongest support: a plausible CDK6-dependency mechanism, consistent preclinical synergy with venetoclax-based regimens, and four early-phase trials. However, there is no randomized evidence, and monotherapy results in leukemia were disappointing, so evidence is at L3 only.
+- Rheumatoid arthritis is worth keeping as a research question (L4), not a development candidate.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank
-- Health Canada package insert warnings and contraindications
-- Any preclinical or clinical data linking CDK4/6 inhibition to thyroid hormone excess
-- Consideration of rheumatoid arthritis (rank 2, L4) as a more evidence-supported repurposing question
+- Results from the leukemia trials (NCT02310243, NCT03132454, NCT05627232), especially efficacy and safety of combination regimens
+- Health Canada package insert warnings and contraindications, which currently block safety screening
+- Detailed mechanism of action data
+- A myelosuppression management plan for leukemia patients and a review of interactions with leukemia co-medications
+- For rheumatoid arthritis: a Phase 2 proof-of-concept design that addresses myelosuppression risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

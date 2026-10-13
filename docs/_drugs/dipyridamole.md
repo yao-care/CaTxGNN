@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Model Prediction Only (L5)
-nav_order: 289
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 291
+evidence_level: L4
 indication_count: 10
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dipyridamole: From Antiplatelet Therapy to Prinzmetal Angina
+# Dipyridamole: From Atrial Fibrillation to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Dipyridamole is an antiplatelet and vasodilating drug, and its injection form is also used as a pharmacologic stress agent for cardiac imaging. The TxGNN model predicts it may be useful for **Prinzmetal angina** (score 99.99%), but there are **0 clinical trials** for this indication and only **15 mostly older publications**, none showing therapeutic benefit. The evidence does not support moving this candidate forward at this time.
+Dipyridamole is an antiplatelet and vasodilator drug. In the TxGNN knowledge graph, its listed original indication is atrial fibrillation.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are **0 registered clinical trials** and only **10 publications**, mostly older observational reports and diagnostic stress-test studies.
+These publications describe dipyridamole mainly as a stress-test agent, not as a treatment, so the high model score is not backed by clinical evidence of benefit.
 
 ---
 
@@ -41,10 +43,10 @@ Dipyridamole is an antiplatelet and vasodilating drug, and its injection form is
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian licence records. Dipyridamole is generally known as an antiplatelet agent, and the injection form is used for stress imaging. |
+| Original Indication | Atrial fibrillation (from the TxGNN knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 (mechanism and observational literature only, no trials) |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
@@ -53,9 +55,11 @@ Dipyridamole is an antiplatelet and vasodilating drug, and its injection form is
 
 ## Why is This Prediction Reasonable?
 
-Dipyridamole blocks adenosine reuptake, which raises adenosine levels and causes coronary vasodilation. It also inhibits platelet aggregation. A drug that dilates coronary vessels could plausibly be considered for vasospastic angina. Detailed mechanism-of-action data are not available in the Evidence Pack, so this reasoning comes from the rationale notes rather than a curated MOA record.
+Dipyridamole inhibits adenosine reuptake, which raises extracellular adenosine and causes coronary vasodilation. It also inhibits phosphodiesterase, which raises cAMP and cGMP and reduces platelet aggregation. Detailed mechanism-of-action data are not available in the drug record compiled for this report. This description comes from the literature review.
 
-The link is weak. Most of the retrieved literature describes dipyridamole as a **stress-testing agent** for detecting coronary disease, not as a treatment for vasospasm. One report (PMID 3421166) describes coronary vasospasm triggered in variant angina patients when dipyridamole stress was terminated with aminophylline. That is a **safety or provocation signal**, not a benefit. Vasodilator-induced coronary steal is also a theoretical concern in vasospastic disease. The high model score therefore looks more like a knowledge-graph association than a clinical signal.
+Prinzmetal (variant) angina is caused by coronary artery spasm. Dipyridamole is a coronary vasodilator, which is probably why the model links the two. The evidence, however, points the other way. The literature describes dipyridamole as a **stress-test agent** for detecting coronary disease. In one study, rapid withdrawal of dipyridamole-induced vasodilation with aminophylline triggered coronary vasospasm in patients with variant angina. In theory, adenosine-mediated vasodilation and coronary steal could provoke or worsen vasospasm. A therapeutic benefit is therefore not supported.
+
+Atrial fibrillation and variant angina are both cardiovascular conditions. But no direct pharmacological or clinical connection between the original and predicted indications is documented in the data compiled for this report.
 
 ---
 
@@ -67,39 +71,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Ten of the 15 retrieved publications are shown, selected from the list provided. No RCTs were retrieved, so reviews and clinical studies were prioritized.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | Clinical observation | Jpn Circ J | 26 patients with rest angina (13 with Prinzmetal's variant) received several drugs, including dipyridamole 50 mg. Propranolol did not suppress attacks and tended to aggravate them. The dipyridamole result is not visible in the abstract provided. |
-| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | Case report / in-hospital study | Am J Cardiol | Ending dipyridamole stress with aminophylline can trigger coronary vasospasm in variant angina. This is a safety signal, not a therapeutic effect. |
-| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | Cohort | Br Heart J | 25 patients with exercise-induced ST elevation underwent dipyridamole echocardiography. The study assessed test reproducibility and diagnostic responses, not treatment. |
-| [2022043](https://pubmed.ncbi.nlm.nih.gov/2022043/) | 1991 | Review | Circulation | Pathophysiology of noninvasive functional testing for coronary stenosis, including dipyridamole as a stress stimulus. |
-| [6125623](https://pubmed.ncbi.nlm.nih.gov/6125623/) | 1982 | Review | Kardiologiia | Review of diagnostic and treatment problems in angina. No abstract available. |
-| [3915223](https://pubmed.ncbi.nlm.nih.gov/3915223/) | 1985 | Review | Cardiologia (Rome) | Review of provocation tests and their effects on cardiovascular function. No abstract available. |
-| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | Diagnostic study | Jpn Circ J | Dipyridamole-loading thallium-201 imaging in 38 CAD patients had 66% diagnostic accuracy. Combined with exercise, sensitivity rose from 71% to 87%. |
-| [8417062](https://pubmed.ncbi.nlm.nih.gov/8417062/) | 1993 | Diagnostic study | J Am Coll Cardiol | Increased echodensity of transiently asynergic myocardium was proposed as an echocardiographic sign of ischemia, including dipyridamole-induced ischemia. |
-| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | Case series | Zhonghua Xin Xue Guan Bing Za Zhi | Compares clinical features of typical and atypical coronary artery spasm. No therapeutic conclusion about dipyridamole. |
-| [7628141](https://pubmed.ncbi.nlm.nih.gov/7628141/) | 1995 | Case report | Clin Nucl Med | Patient with migraine, asthma and documented variant angina who had scintigraphic ischemia during exercise and pharmacologic stress. Descriptive only. |
+| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | Observational | Jpn Circ J | 26 patients with rest angina (13 with Prinzmetal's variant) received several drugs, including dipyridamole 50 mg, to test their effect on attacks. Propranolol did not suppress attacks and tended to aggravate them. The available abstract does not report a clear dipyridamole benefit. |
+| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | Observational | Am J Cardiol | In 36 in-hospital patients, aminophylline reversal of dipyridamole stress triggered coronary vasospasm in variant angina. |
+| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | Cohort | Br Heart J | In 25 patients with exercise-induced ST elevation, responses to dipyridamole echocardiography differed. The study concerns diagnostic testing and the reproducibility of exercise tests. |
+| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | Cohort | Zhonghua Xin Xue Guan Bing Za Zhi | Compared the clinical features of typical and atypical coronary artery spasm. |
+| [7628141](https://pubmed.ncbi.nlm.nih.gov/7628141/) | 1995 | Case report | Clin Nucl Med | A patient with variant angina and a history of migraine showed scintigraphic ischemia during exercise and pharmacological stress. |
+| [2022043](https://pubmed.ncbi.nlm.nih.gov/2022043/) | 1991 | Review | Circulation | Pathophysiological basis of non-invasive functional evaluation of coronary stenosis, including dipyridamole stress. |
+| [8417062](https://pubmed.ncbi.nlm.nih.gov/8417062/) | 1993 | Diagnostic study | J Am Coll Cardiol | Increased echodensity of transiently asynergic myocardium as a sign of ischemia of varying causes. |
+| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | Diagnostic study | Jpn Circ J | Dipyridamole-loading thallium-201 imaging had 66% diagnostic accuracy for coronary artery disease. Combined with exercise, sensitivity rose from 71% to 87%. |
+| [8634169](https://pubmed.ncbi.nlm.nih.gov/8634169/) | 1996 | Prognostic study | Rev Port Cardiol | Three-year prognosis of patients with a normal thallium-dipyridamole scintigram. |
+| [14060538](https://pubmed.ncbi.nlm.nih.gov/14060538/) | 1963 | Case report | Naika | Case of a variant form of angina pectoris. No dipyridamole treatment data are available. |
+
+*Only 9 distinct publications could be listed with usable findings above. [14050937](https://pubmed.ncbi.nlm.nih.gov/14050937/) (1963, Naika) is a further case series of 4 patients with variant angina, with no abstract available.*
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2244475 | DIPYRIDAMOLE INJECTION, USP |
-| 637734 | PERSANTINE |
+| DIN | Product Name | Status |
+|---------|------|------|
+| 02244475 | Dipyridamole Injection, USP | Valid (single-ingredient) |
+| 00637734 | Persantine | Valid (single-ingredient) |
 
-Dosage form and approved indication text are not recorded for these licences.
+Dosage form and approved indication text are not available for these licences.
 
 ---
 
 ## Safety Considerations
 
-- **Literature safety signal**: Coronary vasospasm was reported when dipyridamole stress was terminated with aminophylline in variant angina (PMID 3421166). Coronary steal is a theoretical concern in vasospastic disease.
+- **Knowledge-graph contraindication signals** (from drug-disease relationships in the TxGNN knowledge graph, not from label text): kidney disease, liver disease, gallbladder disease, thrombocytopenia, peptic ulcer disease, hypotensive disorder, gout, hemophilia, myocardial infarction, acute coronary syndrome, coronary thrombosis, anemia, thrombocytopenic purpura, gastritis, nasal polyps, congenital prothrombin deficiency, vitamin K deficiency hemorrhagic disease, Reye syndrome, Alzheimer disease, Pick disease, and several metabolic conditions (potassium deficiency, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease), among others. These need verification against the official label.
+- **Drug interactions**: 100 interactions were recorded. Three are rated **Moderate**: dexfenfluramine, sibutramine and fenfluramine. Others have an unrated severity, including acetylsalicylic acid, cimetidine, omeprazole, pantoprazole, lansoprazole, metformin, glimepiride, rosiglitazone, simvastatin, morphine, prednisone, amphotericin B, vancomycin, calcitriol, sucralfate, lactulose and nystatin.
+- **Indication-specific concern**: adenosine-mediated vasodilation and coronary steal could provoke or worsen coronary vasospasm. Adenosine's effect on sinus and AV node conduction is also relevant in cardiac patients.
 
-Please refer to the package insert for warnings, contraindications and drug interaction information.
+Please refer to the package insert for official warnings and contraindications.
 
 ---
 
@@ -108,15 +114,15 @@ Please refer to the package insert for warnings, contraindications and drug inte
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no registered clinical trials and no literature showing therapeutic benefit. The available papers are mostly about diagnostic stress testing, and one reports a vasospasm-triggering risk. The high model score is not supported by clinical evidence.
+No clinical trials support dipyridamole for Prinzmetal angina. The literature describes it as a diagnostic stress agent, and some data suggest it can trigger vasospasm in variant angina. The high TxGNN score is not supported by evidence of treatment benefit.
+
+*Context from other predictions:* in the same analysis, dipyridamole (usually with aspirin) has much stronger support for **stroke** and **transient ischemic attack** secondary prevention. That support includes the large ESPRIT trial and several meta-analyses, and is rated L1 with a Proceed with Guardrails recommendation. These are largely established uses rather than novel repurposing.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Official Health Canada package insert warnings and contraindications, which are currently not available
 - Mechanism-of-action data from DrugBank
-- Evidence that dipyridamole has a therapeutic effect in vasospastic angina, rather than only a diagnostic or provocation role
-- Review of the 5 retrieved publications not shown above
-
-**Note:** Other predicted indications for this drug, stroke and transient ischemic attack, have much stronger evidence (L1, including Phase 3/4 RCTs and meta-analyses). Those are established uses of aspirin plus dipyridamole, not new repurposing findings.
+- Prospective clinical data on dipyridamole treatment (not stress testing) in coronary vasospasm, with a specific safety assessment of vasospasm provocation
+- Verification of the knowledge-graph contraindication signals against the label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

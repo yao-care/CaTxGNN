@@ -2,7 +2,7 @@
 layout: default
 title: Bromazepam
 parent: Model Prediction Only (L5)
-nav_order: 126
+nav_order: 128
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Bromazepam: From Anxiety-Related Use (Not Documented in Licence Records) to Migraine Disorder
+# Bromazepam: From Its Marketed Benzodiazepine Use to Migraine Disorder
 
 ## One-Sentence Summary
 
-Bromazepam is a benzodiazepine marketed in Canada, but the supplied licence records do not state its approved indication.
-The TxGNN model predicts it may be effective for **migraine disorder**, but this rests on a computational score only.
-Only **1 loosely related clinical trial** (on medication overuse headache) and **0 publications** are available, and neither shows a bromazepam benefit in migraine.
+Bromazepam is a benzodiazepine marketed in Canada as several generic products. The Canadian license data compiled for this report does not list an approved indication text.
+The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on the computational model alone.
 
 ---
 
@@ -43,10 +42,10 @@ Only **1 loosely related clinical trial** (on medication overuse headache) and *
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied Canadian licence records |
+| Original Indication | Not available in the compiled license data |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 (model prediction only; the one related trial is indirect) |
+| Evidence Level | L5 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 4 |
 | Recommended Decision | Hold |
@@ -55,19 +54,17 @@ Only **1 loosely related clinical trial** (on medication overuse headache) and *
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, bromazepam is a benzodiazepine. Drugs in this class act through GABA-A receptors and have anxiolytic and muscle-relaxant effects.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on its drug class, bromazepam is a benzodiazepine that acts as a positive allosteric modulator of GABA-A receptors, enhancing inhibitory neurotransmission.
 
-A link to migraine is possible only indirectly. Anxiety and muscle tension often accompany migraine, so a benzodiazepine could plausibly help with those comorbid symptoms. This is speculation and is not supported by the supplied evidence.
+A possible link to migraine is that GABAergic inhibition may dampen cortical spreading depression and trigeminovascular hyperexcitability. Its anxiolytic and muscle-relaxant effects could also reduce stress-related triggers and the tension component of headache.
 
-The 99.06% TxGNN score is a computational signal, not clinical proof. Benzodiazepines are not an established migraine treatment. In headache patients they are more often linked to medication-overuse risk than to benefit.
+This link is inferred from drug-class properties, not from bromazepam-specific data. The high TxGNN score is a computational prediction only. Benzodiazepines are not established migraine therapies. Dependence, tolerance, sedation and concerns about medication-overuse headache argue against use in a chronic, recurrent condition like migraine.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04410536](https://clinicaltrials.gov/study/NCT04410536) | Phase 4 | Completed | 25 | Home-withdrawal programme combined with a behavioural approach in medication overuse headache, tracking relapses and impact at one year. Bromazepam's role is not shown, no efficacy signal in migraine is reported, and the design is not stated. Relevance grade C (indirect context only). |
+Currently no related clinical trials registered.
 
 ---
 
@@ -79,14 +76,12 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02230584 | TEVA-BROMAZEPAM |
-| 02230585 | TEVA-BROMAZEPAM |
-| 02177161 | APO-BROMAZEPAM |
-| 02177188 | APO-BROMAZEPAM |
-
-Dosage form, manufacturer and approved indication text were not provided in the licence records.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02230584 | TEVA-BROMAZEPAM | Not listed | Not listed |
+| 02230585 | TEVA-BROMAZEPAM | Not listed | Not listed |
+| 02177161 | APO-BROMAZEPAM | Not listed | Not listed |
+| 02177188 | APO-BROMAZEPAM | Not listed | Not listed |
 
 ---
 
@@ -101,16 +96,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The evidence is model prediction only. The single related trial concerns medication overuse headache, not migraine treatment, and does not show a bromazepam effect. Benzodiazepines are also associated with overuse risk in headache patients, so there is no basis to advance.
+The prediction is supported only by the TxGNN score, with no registered trials or publications (Evidence Level L5). The mechanistic rationale is generic to the drug class, and the known risks of benzodiazepines (dependence, tolerance, sedation, medication-overuse headache concerns) are a poor fit for a chronic, recurrent condition like migraine.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indication text, dosage form and manufacturer for the four DINs
-- Mechanism of action data (for example from DrugBank) to test the link to migraine
-- Clinical evidence of bromazepam efficacy in migraine, such as randomized trials or systematic reviews
-- Clarification of bromazepam's role in NCT04410536 and any safety data on benzodiazepine overuse in headache patients
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Health Canada package insert warnings and contraindications, which are required before any safety screening
+- Bromazepam-specific mechanism of action data
+- Approved indication text and dosage forms for the Canadian licenses
+- Preclinical or clinical evidence linking bromazepam or related benzodiazepines to migraine
+- A risk-benefit assessment of dependence and medication-overuse headache for a chronic migraine population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

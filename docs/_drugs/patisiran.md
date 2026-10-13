@@ -2,7 +2,7 @@
 layout: default
 title: Patisiran
 parent: Model Prediction Only (L5)
-nav_order: 704
+nav_order: 710
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Patisiran: From hATTR Amyloidosis Polyneuropathy to Dermatitis
+# Patisiran: From Its Approved Use to Dermatitis
 
 ## One-Sentence Summary
 
-Patisiran (ONPATTRO) is a liver-directed siRNA therapy. Based on general background knowledge, it is used for polyneuropathy of hereditary transthyretin-mediated (hATTR) amyloidosis, but the Evidence Pack does not list an approved indication.
-The TxGNN model predicts it may be effective for **dermatitis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on model output alone.
+Patisiran (brand name ONPATTRO) is a lipid nanoparticle-formulated siRNA that silences hepatic transthyretin (TTR) production. It is authorized in Canada, but the data compiled for this report do not list an approved indication.
+The TxGNN model predicts it may be effective for **dermatitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Evidence Pack (background knowledge: hATTR amyloidosis polyneuropathy) |
+| Original Indication | Not listed in the Health Canada data compiled for this report |
 | Predicted New Indication | Dermatitis |
 | TxGNN Prediction Score | 90.65% |
 | Evidence Level | L5 |
@@ -48,47 +50,59 @@ The TxGNN model predicts it may be effective for **dermatitis**, but there are *
 | Number of DINs | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general background knowledge (not from the input data), patisiran is a lipid-nanoparticle siRNA that silences hepatic transthyretin (TTR) production. It is approved for hATTR amyloidosis polyneuropathy.
+Currently, detailed mechanism of action data is not available in the compiled data. From general knowledge of the product, patisiran is an siRNA that silences hepatic TTR mRNA and is studied in adults with hereditary transthyretin-mediated (hATTR) amyloidosis.
 
-No mechanistic link between TTR silencing and inflammatory skin disease is supported by the available data, and no TTR-related pathway is evident in dermatitis. The score of 90.65% is a computational signal only. It most likely reflects proximity in the knowledge graph rather than established biology.
+No established link exists between TTR knockdown and the pathways that drive inflammatory skin disease, such as Th1/Th2 cytokine signalling or skin barrier dysfunction. The TxGNN score is a graph-based prediction only. No mechanistic, clinical or literature data support it, so the prediction should be treated as a hypothesis rather than a finding.
 
-The other top-ranked predictions (for example hydroa vacciniforme, amyopathic dermatomyositis, acne keloid, and mastocytosis subtypes) show the same pattern. All have scores of about 0.85 to 0.91, no trials, no publications, and no supported mechanistic link. This clustering suggests a systematic model artifact rather than a genuine repurposing signal.
+The other top-ranked predictions show the same pattern. They include hydroa vacciniforme, amyopathic dermatomyositis, acne keloid, childhood connective-tissue-disease-associated interstitial lung disease, neonatal dermatomyositis, acrodermatitis chronica atrophicans, smouldering systemic mastocytosis, overactive bladder and lymphoadenopathic mastocytosis with eosinophilia. All have scores between about 85% and 91%, none has any registered trial or publication, and none has a plausible mechanistic connection to TTR silencing.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2489252 | ONPATTRO |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02489252 | ONPATTRO | Not listed | Not listed |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for patisiran.
+Please refer to the package insert for safety information.
+
+No drug interaction records were found for patisiran in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical, literature, or mechanistic support (Evidence Level L5, decision stage S0). No plausible biological link exists between hepatic TTR silencing and dermatitis, so there is currently no basis to advance it.
+The prediction has only a model score, with no clinical trials, no publications and no plausible mechanistic link between TTR silencing and dermatitis. Safety data from the Health Canada label are also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (DrugBank) and a documented rationale linking TTR silencing to skin inflammation
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- The approved indication text and dosage form for DIN 2489252
-- Any preclinical or clinical signal for dermatitis (trials, case reports, or mechanistic studies)
-- Route compatibility assessment (patisiran is given by intravenous infusion, and no route data are available for the predicted indication)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- The Health Canada package insert (warnings, contraindications and approved indication), which is a blocking gap
+- Mechanism of action data from DrugBank
+- A plausible biological rationale linking TTR knockdown to inflammatory skin disease
+- Preclinical or early clinical evidence in dermatitis
+- Assessment of route and formulation compatibility. Patisiran is given as an intravenous infusion, which may not suit a dermatological indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

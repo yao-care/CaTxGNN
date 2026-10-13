@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Human
 parent: Model Prediction Only (L5)
-nav_order: 480
+nav_order: 485
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Insulin Human: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insulin Human: From Type 2 Diabetes Mellitus to Autoimmune Oophoritis
 
 ## One-Sentence Summary
 
-Insulin human is a glucose-lowering hormone therapy, marketed in Canada under two licences (MYXREDLIN and HUMULIN 30/70).
-The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but the prediction rests on the knowledge graph alone, with **0 clinical trials** and **0 publications** supporting it.
-
----
+Insulin human is a replacement hormone originally used to control blood glucose in type 1 and type 2 diabetes mellitus and diabetic ketoacidosis.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+This looks like a model-based association rather than a true therapeutic signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus (standard use of insulin; the licence records supplied contain no indication text) |
+| Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
@@ -50,65 +49,59 @@ The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but 
 | Number of DINs | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Insulin human is a replacement hormone whose efficacy in diabetes is well established. Whether that translates to autoimmune oophoritis is not supported by the supplied data.
+Currently, detailed mechanism of action data is not available. Based on known information, insulin human is a recombinant replacement hormone whose efficacy in diabetes is well established. It lowers blood glucose by replacing deficient insulin.
 
-No mechanistic link between insulin and autoimmune oophoritis was identified. The score of 0.998 (model rank 3692) comes from the knowledge-graph prediction alone. Nothing else supports it: no trials, no publications, and no indication for similarity to the original use. A very high model score is therefore not enough to justify further investment on its own.
+Autoimmune oophoritis often occurs alongside autoimmune polyglandular syndromes, which include type 1 diabetes. The model score most likely reflects this shared autoimmune background. Insulin treats the diabetic component, but it has no known effect on the ovarian autoimmune process itself. This is probably a knowledge-graph association artifact rather than a real treatment signal.
 
-The other top-ranked predictions show the same weakness:
-- **Pancreatic agenesis** (the only rank-1–10 candidate at stage S1, "Research Question"): insulin is already the standard replacement therapy for the absolute insulin deficiency this condition causes. This is standard care, not repurposing. None of the supplied citations is a trial of insulin in this condition.
-- **Localized lipodystrophy and lipoatrophy** (ranks 6, 7, 8, 10): injected insulin is a recognised cause of these injection-site changes. These predictions most likely reflect a causal, adverse relationship, so they are safety signals rather than treatment opportunities.
-- **Stiff person syndrome variants, thiamine-responsive dysfunction syndrome and opsismodysplasia**: the links are shared autoimmunity, diabetes co-occurrence, or shared insulin-signalling pathways. None shows that insulin treats the condition.
-
----
+The other top predictions follow similar patterns:
+- **Stiff person syndrome (classic and focal forms):** linked through anti-GAD65 autoimmunity and its frequent coexistence with type 1 diabetes. This is comorbidity, not treatment.
+- **Thiamine-responsive dysfunction syndrome:** diabetes is a core feature, but the underlying disorder is treated with thiamine. Insulin would only manage the diabetes.
+- **Pancreatic agenesis:** insulin replacement is standard care for the resulting insulin deficiency. This extends the approved use rather than being new repurposing, and it cannot be verified from the data compiled for this report.
+- **Opsismodysplasia:** INPPL1 (SHIP2) regulates insulin/PI3K signalling, so there is a pathway-level link. There is no evidence that insulin would help skeletal outcomes.
+- **Localized lipodystrophies (drug-induced, centrifugal, pressure-induced, idiopathic):** insulin injections themselves are a recognized cause of localized lipohypertrophy and lipoatrophy. Insulin would be expected to cause these conditions, not treat them.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2529602 | MYXREDLIN |
-| 795879 | HUMULIN 30/70 (INSULIN HUMAN BIOSYNTH INJ) |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02529602 | MYXREDLIN | Not specified | Not specified |
+| 00795879 | HUMULIN 30/70 (INSULIN HUMAN BIOSYNTH INJ) | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions:** 100 interactions were identified, and the 20 listed in the data compiled for this report are mostly Moderate, with a few Minor. Main ones:
+  - **Other antidiabetic agents (additive hypoglycaemia risk):** metformin, pioglitazone, alogliptin, albiglutide
+  - **Sympathomimetics (may reduce glucose-lowering effect):** epinephrine, phenylephrine, pseudoephedrine, salbutamol
+  - **Corticosteroids (may raise blood glucose):** hydrocortisone (Moderate); topical hydrocortisone and topical alclometasone (Minor)
+  - **Beta-blockers (may mask hypoglycaemia symptoms):** acebutolol
+  - **Others:** ethanol, hydrochlorothiazide, acetazolamide, estradiol, ethinylestradiol, doxycycline, benazepril, alpelisib
+- **Injection-site effects:** insulin injections can cause localized lipohypertrophy and lipoatrophy. This is directly relevant to the lipodystrophy predictions.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5, stage S0). There are no trials or publications, and no mechanistic link between insulin and autoimmune oophoritis is supported by the data. Safety screening also cannot proceed because Health Canada package insert information has not been collected.
+The prediction rests on a model score alone (L5), with no clinical trials or literature. The plausible explanation is shared autoimmune comorbidity with type 1 diabetes, not a treatment effect on the ovarian disease. Package insert safety data are also not yet available.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking gap; download and parse the product monograph PDFs)
-- Mechanism of action data from DrugBank (DB00030), to allow a proper mechanistic-link analysis
-- Approved indication text, dosage form and manufacturer for both licences, to confirm the original indication and route compatibility
-- Literature and trial searches specific to autoimmune oophoritis and insulin, to test whether any real signal exists
-- Consideration of prioritising other candidates for review, since insulin's expected role in pancreatic agenesis is standard care and the lipodystrophy predictions are adverse-effect signals
-
----
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data for insulin human
+- Indication text and dosage forms for the two Canadian authorizations
+- Targeted literature and trial searches on insulin in autoimmune oophoritis, to rule out a comorbidity artifact
+- If any lead is pursued, pancreatic agenesis is the only prediction where insulin has a clear role. It is best treated as an extension of the existing indication, not new repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

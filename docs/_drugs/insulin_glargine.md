@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Glargine
 parent: Model Prediction Only (L5)
-nav_order: 478
+nav_order: 483
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Insulin glargine is a long-acting insulin analogue, used to control blood glucose in diabetes mellitus.
-The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
-The high score reflects a network association, not clinical evidence.
+Insulin glargine is a long-acting basal insulin originally used to treat type 1 and type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+It is a model-only prediction, and the likely link is a comorbidity association rather than a therapeutic effect.
 
 ---
 
@@ -43,7 +43,7 @@ The high score reflects a network association, not clinical evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack (insulin glargine is generally used for diabetes mellitus) |
+| Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
@@ -55,9 +55,15 @@ The high score reflects a network association, not clinical evidence.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Insulin glargine is a basal insulin analogue whose efficacy in diabetes is well established. Nothing in the data shows a mechanism that would apply to autoimmune oophoritis.
+Currently, detailed mechanism of action data is not available. Based on known information, insulin glargine is a basal insulin analogue whose efficacy in diabetes mellitus is well established as glucose-lowering replacement therapy.
 
-The only plausible connection is indirect. Autoimmune oophoritis can co-occur with autoimmune polyglandular syndromes that include type 1 diabetes. In those patients insulin treats the diabetes, not the ovarian inflammation. The prediction therefore most likely reflects proximity in the knowledge graph rather than a therapeutic effect on the ovary.
+The prediction for autoimmune oophoritis is most likely explained by disease co-occurrence. Autoimmune oophoritis often appears within autoimmune polyendocrine syndromes, which can include insulin-requiring diabetes. In that setting, insulin glargine would treat the co-existing diabetes, not the ovarian autoimmune process itself. This link is plausible but unvalidated.
+
+Other high-scoring predictions follow a similar pattern, as comorbidity or knowledge-graph proximity rather than a therapeutic mechanism:
+- **Thiamine-responsive dysfunction syndrome, focal stiff limb syndrome and classic stiff person syndrome**: insulin would manage the accompanying diabetes only.
+- **Pancreatic agenesis**: insulin replacement is mechanistically coherent, but it is the same replacement role as the existing diabetes indication, not a new use. Of the 10 predictions, this is the only one with any retrieved literature, and that literature is indirect.
+- **Opsismodysplasia**: a speculative connection through SHIP2 and insulin/PI3K signalling, with no data showing benefit.
+- **Localized lipodystrophies** (drug-induced, centrifugal, pressure-induced, idiopathic): insulin injection is itself a known cause of injection-site lipodystrophy, so these predictions may reflect an adverse-effect association and the drug could worsen the condition.
 
 ---
 
@@ -69,29 +75,43 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for autoimmune oophoritis.
+
+For reference, the only literature retrieved across the 10 predictions was for pancreatic agenesis (rank 6). It is indirect and does not demonstrate efficacy:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Review | J Am Pharm Assoc | Review of insulin therapy in type 2 diabetes and practical aspects of starting it |
+| [19322513](https://pubmed.ncbi.nlm.nih.gov/19322513/) | 2009 | Review | Acta Diabetol | Secondary diabetes associated with endocrine diseases such as acromegaly and Cushing syndrome |
+| [32871938](https://pubmed.ncbi.nlm.nih.gov/32871938/) | 2020 | Case report | Medicine | MODY5 case treated with a GLP-1 receptor agonist |
+| [25818213](https://pubmed.ncbi.nlm.nih.gov/25818213/) | 2015 | Veterinary cohort | J Vet Intern Med | Pancreatic enzymes and ultrasound findings in diabetic cats |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02441829 | TOUJEO SOLOSTAR |
-| 02294338 | LANTUS |
-| 02461528 | BASAGLAR |
-| 02245689 | LANTUS |
-| 02493373 | TOUJEO DOUBLESTAR |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02441829 | TOUJEO SOLOSTAR | Not specified | Not specified |
+| 02294338 | LANTUS | Not specified | Not specified |
+| 02461528 | BASAGLAR | Not specified | Not specified |
+| 02245689 | LANTUS | Not specified | Not specified |
+| 02493373 | TOUJEO DOUBLESTAR | Not specified | Not specified |
 
-The Evidence Pack lists 5 of the 9 authorizations and does not include dosage form or approved indication text for them.
+Nine DINs are valid in total (all single-ingredient products). The other four are LANTUS (02251930), BASAGLAR (02444844), SEMGLEE (02526441) and SOLIQUA (02478293).
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs. Most of those listed are Moderate, with a few Minor. Main examples:
+  - **Other glucose-lowering agents** (metformin, pioglitazone, alogliptin, albiglutide): may add to the glucose-lowering effect.
+  - **Beta-agonists and sympathomimetics** (salbutamol, formoterol, epinephrine, phenylephrine, pseudoephedrine): may alter glycaemic control.
+  - **Corticosteroids** (hydrocortisone, plus minor topical interactions with hydrocortisone and alclometasone): may raise blood glucose.
+  - **Estrogens** (estradiol, ethinylestradiol), **thiazides** (hydrochlorothiazide), **acetazolamide**, **doxycycline**, **acebutolol**, **alpelisib** and **ethanol**: Moderate-level interactions.
+- **Injection-site lipodystrophy**: Insulin injection can cause localized lipohypertrophy or lipoatrophy. This matters especially for the lipodystrophy predictions, where the drug could worsen the condition.
 
-No drug interaction records were found in the queried data. One point from the prediction data: localized lipodystrophy (lipoatrophy or lipohypertrophy) is a known adverse effect of repeated subcutaneous insulin injection.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -100,25 +120,14 @@ No drug interaction records were found in the queried data. One point from the p
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score. There are no trials or publications, and the plausible link runs through comorbid diabetes, which insulin treats but which is not the target disease.
+The prediction rests on a high model score alone (99.88%), with no clinical trials or literature. The plausible link is a diabetes comorbidity, not treatment of autoimmune oophoritis. All 10 top predictions are Hold, and for the lipodystrophy conditions the drug may cause harm.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Original approved indication text for the Canadian licenses
-- Any direct clinical or preclinical evidence of insulin glargine in autoimmune oophoritis
-
-**Other predicted candidates (for context):**
-
-| Candidate | Score | Evidence Level | Recommendation | Note |
-|------|------|------|------|------|
-| Pancreatic agenesis | 99.43% | L4 | Research Question | Insulin replacement is biologically coherent, but the 6 retrieved publications are indirect (reviews, a MODY5 case report, veterinary reports). This may be an existing use rather than true repurposing. |
-| Thiamine-responsive dysfunction syndrome | 99.61% | L5 | Hold | Insulin would manage only the diabetic component, not the underlying transporter defect. |
-| Focal stiff limb syndrome and classic stiff person syndrome | 99.60% | L5 | Hold | Association through anti-GAD65 autoimmunity and comorbid type 1 diabetes; no effect of insulin on the neurological syndrome is known. |
-| Opsismodysplasia | 99.59% | L5 | Hold | Speculative link via SHIP2 (INPPL1) in insulin signaling; no supporting evidence. |
-| Localized lipodystrophy conditions (4 entries) | 99.34–99.42% | L5 | Hold | These likely reflect insulin's known injection-site adverse effect, not a therapeutic signal. |
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Direct clinical or literature evidence for insulin glargine in autoimmune oophoritis, rather than only in co-existing diabetes
+- Package insert warnings and contraindications from Health Canada, which are a blocking gap for safety screening
+- Mechanism of action data
+- Approved indication text, dosage forms and manufacturers for the Canadian licences
+- Clarification of whether any predicted use differs from standard diabetes replacement therapy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

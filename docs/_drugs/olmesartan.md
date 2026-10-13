@@ -2,7 +2,7 @@
 layout: default
 title: Olmesartan
 parent: Model Prediction Only (L5)
-nav_order: 675
+nav_order: 681
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,9 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Olmesartan is an angiotensin II receptor blocker (ARB). The Canadian license records in the Evidence Pack carry no indication text, so hypertension is assumed from the drug class.
-The TxGNN model predicts it may be effective for **Prinzmetal angina** (coronary vasospasm), but **no clinical trials and no publications** were retrieved for this indication.
-The prediction rests on the model score alone.
+Olmesartan is an angiotensin II receptor blocker marketed in Canada in single-ingredient form. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting this specific indication. Among the other predicted indications, migraine disorder and pulmonary hypertension have the most supporting material, and they are summarised below for context.
 
 ---
 
@@ -43,7 +41,7 @@ The prediction rests on the model score alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records (hypertension assumed from the ARB drug class) |
+| Original Indication | Not available in the data compiled for this report (the Canadian license records contain no indication text) |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
@@ -55,47 +53,78 @@ The prediction rests on the model score alone.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, olmesartan is an AT1 receptor blocker. Its efficacy in blood pressure control is established, and mechanistically it may be applicable to coronary vasospasm.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, olmesartan is an angiotensin II type 1 (AT1) receptor blocker. Blocking this receptor may improve endothelial function and reduce vascular tone.
 
-Angiotensin II is a strong vasoconstrictor and can impair endothelial function. Blocking the AT1 receptor could reduce these effects, which may matter in coronary vasospasm.
+For Prinzmetal angina, which is caused by coronary vasospasm, this is only a plausible indirect link. No trials or publications support it, and calcium channel blockers remain the standard of care. The high TxGNN score reflects a pattern in the knowledge graph, not clinical proof.
 
-This link is plausible but unsupported. Calcium channel blockers and nitrates are the established therapy for Prinzmetal angina. The high TxGNN score (0.998) is a model prediction only and should not be read as evidence of efficacy.
+For context, the other top predictions vary widely in plausibility:
+- **Migraine disorder (score 99.64%, L3):** Some literature supports modulation of the renin-angiotensin system for migraine prevention, but the evidence is limited.
+- **Pulmonary hypertension (score 99.61%, L4):** Preclinical rat studies suggest olmesartan reduces pulmonary vascular remodelling. No human efficacy data are available.
+- **Hair-related conditions (hypotrichosis, alopecia, alopecia areata) and rare congenital conditions:** No mechanistic rationale is evident. These high scores are likely graph-based artifacts.
+- **Open-angle glaucoma (L4):** Only an indirect review is available, with no olmesartan-specific data.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for Prinzmetal angina.
+
+For reference, the only trial found among the other predicted indications was linked to pulmonary hypertension, and it is only indirectly relevant:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04330300](https://clinicaltrials.gov/study/NCT04330300) | Phase 4 | Suspended | 2414 | CORONACION trial of continuing ACE inhibitors/ARBs in COVID-19 patients. It does not target pulmonary hypertension. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Prinzmetal angina.
+
+For reference, the most relevant publications for the other predicted indications are:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31515634](https://pubmed.ncbi.nlm.nih.gov/31515634/) | 2019 | Systematic review | Curr Pain Headache Rep | ACE inhibitors and ARBs for preventing episodic migraine in adults, with a focus on research gaps (migraine) |
+| [16618270](https://pubmed.ncbi.nlm.nih.gov/16618270/) | 2006 | Clinical study (design to be verified) | Headache | Effect of olmesartan on migraine frequency and severity in patients with hypertension or prehypertension (migraine) |
+| [16942482](https://pubmed.ncbi.nlm.nih.gov/16942482/) | 2006 | Commentary | Headache | Commentary on olmesartan, migraine and blood pressure (migraine) |
+| [18209564](https://pubmed.ncbi.nlm.nih.gov/18209564/) | 2008 | Preclinical | J Cardiovasc Pharmacol | Olmesartan tested in the rat monocrotaline model of pulmonary hypertension (pulmonary hypertension) |
+| [16336959](https://pubmed.ncbi.nlm.nih.gov/16336959/) | 2005 | Preclinical | Eur J Pharmacol | Olmesartan in chronic hypoxic rats, assessing hypoxic pulmonary hypertension (pulmonary hypertension) |
+| [17089097](https://pubmed.ncbi.nlm.nih.gov/17089097/) | 2006 | Preclinical (mechanistic) | Naunyn-Schmiedeberg's Arch Pharmacol | Olmesartan and hypoxia-induced ERK1/2 activation and pro-inflammatory signals in mouse lung (pulmonary hypertension) |
+| [19902393](https://pubmed.ncbi.nlm.nih.gov/19902393/) | 2009 | Review | Arch Soc Esp Oftalmol | General review of glaucoma medical treatment, with no olmesartan-specific data evident (open-angle glaucoma) |
 
 ---
 
 ## Canada Market Information
 
-Five of the 20 authorizations are listed below. Dosage form and approved indication text are not included in the records.
+Olmesartan has 20 valid single-ingredient licenses in Canada. The records compiled for this report do not include dosage forms or approved indication text. Five representative authorizations are shown:
 
-| DIN | Product Name |
-|---------|------|
-| 2461315 | PMS-OLMESARTAN |
-| 2481057 | OLMESARTAN |
-| 2469820 | GLN-OLMESARTAN |
-| 2499258 | NRA-OLMESARTAN |
-| 2442205 | TEVA-OLMESARTAN |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02318679 | OLMETEC | Not available | Not available |
+| 02318660 | OLMETEC | Not available | Not available |
+| 02442205 | TEVA-OLMESARTAN | Not available | Not available |
+| 02443414 | SANDOZ OLMESARTAN | Not available | Not available |
+| 02461315 | PMS-OLMESARTAN | Not available | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions:** The interaction screening found 94 interacting drugs in total. Two interactions are rated **Major**:
+- Potassium bicarbonate
+- Potassium chloride
 
-Drug interaction queries returned no results.
+This is consistent with the risk of high potassium levels with angiotensin receptor blockers.
 
-Literature retrieved for other predicted indications documents ARB-associated fetal toxicity (fetopathy, oligohydramnios), which is a class concern for any new use.
+Many **Moderate** interactions were also identified, including:
+- Hydrocortisone
+- Exenatide
+- Eluxadoline
+- Polyethylene glycol (3350 with electrolytes)
+- Numerous insulin products (human, aspart, degludec, detemir, glargine, glulisine, lispro and others)
+
+Please refer to the package insert for warnings and contraindications. That information was not available in the data compiled for this report.
 
 ---
 
@@ -104,17 +133,15 @@ Literature retrieved for other predicted indications documents ARB-associated fe
 **Decision: Hold**
 
 **Rationale:**
-Prinzmetal angina has only a model prediction behind it (L5). No trials or publications were found, and effective standard therapies already exist.
-
-Other predicted indications for olmesartan have more supporting material and could be reviewed first:
-- **Migraine disorder (L3):** small prospective study and a class-level systematic review.
-- **Pulmonary hypertension (L4):** three animal studies.
+The Prinzmetal angina prediction rests on the model score alone (L5), with no trials, literature or supporting mechanistic data. Calcium channel blockers remain the standard of care. Several other top predictions also lack support. Migraine is the most promising direction (L3), but it is still a research question given the small, mostly hypertensive study populations.
 
 **To proceed, the following is needed:**
-- A literature and trial search specific to olmesartan and coronary vasospasm
-- Mechanism of action data from DrugBank
-- Health Canada package insert warnings and contraindications
-- Indication text and dosage forms for the Canadian licenses
+- Package insert warnings and contraindications from Health Canada, which are required before safety screening can proceed
+- Mechanism of action data for olmesartan
+- Original indication, dosage form and approved indication text for the Canadian licenses
+- For Prinzmetal angina: preclinical or clinical data on vasospasm, and comparison against calcium channel blockers
+- Verification of the study design of the 2006 migraine study (PMID 16618270), and consideration of a prospective trial in migraine
+- Human efficacy data for pulmonary hypertension, which currently has only animal evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Camphor
-parent: Model Prediction Only (L5)
-nav_order: 147
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 149
+evidence_level: L4
 indication_count: 10
 ---
 
 # Camphor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Camphor: From an Unrecorded Original Indication to Migraine Disorder
+# Camphor: From Topical Counter-Irritant Use to Migraine Disorder
 
 ## One-Sentence Summary
 
-Camphor is marketed in Canada in five products, but no approved indication text was recorded for any of them.
-The TxGNN model predicts it may be relevant to **migraine disorder**, with **no registered clinical trials** and **5 publications**, none of which show that camphor benefits migraine.
-Two of the five are case reports and a case series describing headache *triggered by* camphor-containing toothpaste, so the evidence is weak and points partly toward harm.
+Camphor is a long-established topical and rectal-use ingredient marketed in Canada, but the data compiled for this report do not state a formal approved indication for it.
+The TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **3 publications** (case-level reports and a historical review), so the evidence is weak.
+A newer preclinical animal study (2026) offers the strongest, though still early, signal for a related migraine prediction.
 
 ---
 
@@ -43,10 +43,10 @@ Two of the five are case reports and a case series describing headache *triggere
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (no approved indication text in the Canadian licence data) |
+| Original Indication | Not stated in the available licence data |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only). The pack lists L4, but the only camphor-specific papers are case reports of camphor-associated headache, not efficacy or mechanism studies. |
+| Evidence Level | L4 |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 5 |
 | Recommended Decision | Hold |
@@ -55,17 +55,13 @@ Two of the five are case reports and a case series describing headache *triggere
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for camphor, and no original indication was recorded. The prediction therefore cannot be tied to a known drug mechanism.
+Currently, detailed mechanism of action data is not available in the compiled drug record. Based on general pharmacological knowledge, camphor modulates sensory ion channels (TRPV1, TRPM8 and TRPA1) and acts as a topical counter-irritant. These channels are plausibly relevant to trigeminal pain signalling in headache disorders.
 
-A plausible link is sensory modulation, such as TRPV1/TRPM8 desensitisation and counter-irritant effects from topical or aromatic use. This is a hypothesis only, and nothing in the supplied evidence supports it.
+The evidence connecting camphor to headache is thin and partly contradictory. The retrieved publications are case-level reports of cluster headache linked to toothpastes containing camphor and eucalyptus essential oils. They suggest a possible *trigger* for headache rather than a treatment. A historical review of paediatric neuropsychopharmacology is also not evidence of efficacy.
 
-Camphor also has known neurotoxicity and seizure risk. Essential oils with pro-convulsant properties may worsen migraine, and the two cluster headache reports link camphor-containing toothpaste to headache onset. The safety question should be settled before any research question is pursued.
+The most relevant signal is a 2026 preclinical study. It reports that natural (+)-camphor alleviated reserpine-induced migraine with local cerebral vasospasm in an animal model, possibly through the p38β MAPK/ATF2 pathway. This came up under a related prediction, "migraine with or without aura, susceptibility to" (TxGNN score 99.73%). It has not been tested in humans, and the full text has not been reviewed.
 
-The nine lower-ranked predictions are also on Hold and do not change this picture:
-- **Migraine with brainstem aura and migraine susceptibility:** the scores likely reflect similarity to the parent migraine node. The literature retrieved for migraine susceptibility concerns epilepsy genetics and never mentions camphor.
-- **Pulmonary hypertension:** all 20 papers concern CAMPHOR, the Cambridge Pulmonary Hypertension Outcome Review questionnaire. This is a name collision, not evidence for the drug.
-- **Raynaud disease:** camphor is a topical rubefacient that causes local vasodilation, so a superficial rationale exists, but the one retrieved paper is a questionnaire review, not evidence for camphor.
-- **Erectile dysfunction, kyphoscoliotic heart disease, ulerythema ophryogenesis, atrophoderma vermiculata and Tourette syndrome:** prediction only, with no trials, literature or plausible mechanism.
+Other predictions (for example migraine with brainstem aura, Tourette syndrome, Raynaud disease and rare skin conditions) have no supporting evidence. The pulmonary hypertension hits are a false positive: "CAMPHOR" is the name of a quality-of-life questionnaire and has nothing to do with the compound.
 
 ---
 
@@ -79,33 +75,37 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35856604](https://pubmed.ncbi.nlm.nih.gov/35856604/) | 2022 | Case series | Headache | Five cases of cluster headache secondary to toothpastes containing pro-convulsant essential oils. Reports harm, not benefit. |
-| [34373243](https://pubmed.ncbi.nlm.nih.gov/34373243/) | 2021 | Case report | BMJ Case Reports | Two cases of cluster headache temporally related to toothpastes containing camphor and eucalyptus oils. |
-| [27058833](https://pubmed.ncbi.nlm.nih.gov/27058833/) | 2016 | Review | Z Kinder Jugendpsychiatr Psychother | Historical analysis of paediatric neuropsychopharmacology in the 1940s and 50s. Does not test camphor for migraine. |
-| [593588](https://pubmed.ncbi.nlm.nih.gov/593588/) | 1977 | Review | Minerva Medica | Therapy for essential hemicrania. No abstract available, and no camphor-specific efficacy data. |
-| [36404301](https://pubmed.ncbi.nlm.nih.gov/36404301/) | 2022 | RCT | J Headache Pain | Phase 3 trial of erenumab for chronic migraine prevention in Asian patients. Not a camphor study. |
+| [35856604](https://pubmed.ncbi.nlm.nih.gov/35856604/) | 2022 | Case series | Headache | Five cases of cluster headache linked to toothpastes containing pro-convulsant essential oils |
+| [34373243](https://pubmed.ncbi.nlm.nih.gov/34373243/) | 2021 | Case report | BMJ Case Reports | Two cluster headache cases temporally related to toothpaste containing camphor and eucalyptus oils |
+| [27058833](https://pubmed.ncbi.nlm.nih.gov/27058833/) | 2016 | Review | Z Kinder Jugendpsychiatr Psychother | Historical analysis of paediatric neuropsychopharmacotherapy in the 1940s–50s; not specific evidence for migraine |
+
+Related preclinical evidence (listed under the related migraine prediction):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [42849823](https://pubmed.ncbi.nlm.nih.gov/42849823/) | 2026 | Preclinical animal study | J Ethnopharmacol | Natural (+)-camphor alleviated reserpine-induced migraine with cerebral vasospasm via the p38β MAPK/ATF2 pathway |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 299561 | CREO-RECTAL ADULTES/ADULTS |
-| 299596 | CREO-RECTAL ENFANTS/CHILDREN |
-| 319716 | DEMO-CINEOL ADULTES/ADULTS |
-| 319724 | DEMO-CINEOL ENFANTS/CHILDREN |
-| 2157292 | BLISTEX DCT |
-
-Dosage form, manufacturer and approved indication text were not recorded for these products.
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 00299561 | CREO-RECTAL ADULTES/ADULTS | Not listed | Not listed |
+| 00299596 | CREO-RECTAL ENFANTS/CHILDREN | Not listed | Not listed |
+| 00319716 | DEMO-CINEOL ADULTES/ADULTS | Not listed | Not listed |
+| 00319724 | DEMO-CINEOL ENFANTS/CHILDREN | Not listed | Not listed |
+| 02157292 | BLISTEX DCT | Not listed | Not listed |
 
 ---
 
 ## Safety Considerations
 
-- **Neurotoxicity and seizure risk:** camphor has a known neurotoxicity and seizure risk. The retrieved case reports describe headache attacks linked to camphor-containing products.
+- **Neurological risk**: Camphor is a known CNS convulsant at high doses, and case reports link camphor-containing essential oils to headache and seizure concerns. This is a significant concern for any neurological indication.
+- **Toxicity data**: An oral acute toxicity study in rats (edible camphor) showed oxidative stress and tissue changes, which raises toxicity considerations.
+- **Vascular effects**: Vasoconstriction risk is not excluded for vascular indications such as Raynaud disease.
 
-No warnings, contraindications or drug interaction records were retrieved. Please refer to the package insert for full safety information.
+No drug interaction records were found. Please refer to the package insert for further safety information.
 
 ---
 
@@ -114,14 +114,14 @@ No warnings, contraindications or drug interaction records were retrieved. Pleas
 **Decision: Hold**
 
 **Rationale:**
-The very high TxGNN score is not backed by any trial, mechanism data or efficacy literature. The only camphor-specific papers suggest camphor may trigger headache rather than treat it.
+The prediction score is high, but the evidence is limited to case reports (which suggest camphor-containing products may trigger headache) and a single early animal study. There are no human efficacy data, and the known neurotoxicity profile of camphor adds caution.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which block any safety screening
-- Mechanism of action data, for example from DrugBank
-- The approved indications for the five Canadian products
-- A safety review of camphor's neurotoxicity and seizure risk in headache-prone patients
-- Preclinical or clinical evidence that camphor helps migraine, since none exists in the current data
+- Full-text review of the 2026 preclinical study and an independent preclinical replication
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from Health Canada, plus approved indication and dosage form details for each DIN
+- Dose and safety review, particularly for neurotoxicity and seizure risk, before formulating any clinical question
+- Assessment of route compatibility (existing topical and rectal products versus the route needed for migraine)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

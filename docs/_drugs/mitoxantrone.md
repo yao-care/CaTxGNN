@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mitoxantrone
-parent: Moderate Evidence (L3-L4)
-nav_order: 620
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 625
+evidence_level: L5
 indication_count: 8
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-# Mitoxantrone: From Antineoplastic Chemotherapy to Upper Aerodigestive Tract Neoplasm
+# Mitoxantrone: From Acute Myeloid Leukemia to Head and Neck Cancer
 
 ## One-Sentence Summary
 
-Mitoxantrone is an anthraquinone cytotoxic anticancer drug. The Health Canada record supplied here has no approved-indication text, but the literature describes activity in breast cancer, acute leukaemia and lymphoma.
-The TxGNN model predicts it may be effective for **upper aerodigestive tract neoplasm**.
-Support is thin: **1 registered clinical trial** (which does not test mitoxantrone) and **20 publications**, mostly non-randomised Phase II studies, PK studies and preclinical work.
+Mitoxantrone is an anthracenedione chemotherapy agent, originally used to treat acute myeloid leukemia (AML) and related myeloid malignancies.
+The TxGNN model predicts it may be effective for **head and neck cancer**, the most developed of its eight predicted new indications. Support comes from **6 clinical trials** (1 completed Phase Ib, 1 Phase III not yet recruiting, 3 Phase II, 1 Phase IV imaging study) and **20 publications**, most of them older Phase II studies with modest activity.
 
 ---
 
@@ -43,27 +42,23 @@ Support is thin: **1 registered clinical trial** (which does not test mitoxantro
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Health Canada record; the literature describes use in breast cancer, acute leukaemia and non-Hodgkin lymphoma |
-| Predicted New Indication | Upper aerodigestive tract neoplasm |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L3 |
+| Original Indication | Acute myeloid leukemia and related myeloid malignancies (from the knowledge graph; no approved indication text is available for the Canadian product) |
+| Predicted New Indication | Head and neck cancer (the highest-ranked prediction, upper aerodigestive tract neoplasm, has no linked trials and is covered under "Other Predicted Indications" below) |
+| TxGNN Prediction Score | 99.31% (head and neck cancer); 99.78% (upper aerodigestive tract neoplasm) |
+| Evidence Level | L2 (head and neck cancer); L4 for the broader upper aerodigestive tract category |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails (head and neck cancer); Hold for the other predictions |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Mitoxantrone is a topoisomerase II inhibitor and DNA intercalator. A 1986 review describes it as an anthraquinone antineoplastic with structural and mechanistic similarity to the anthracyclines. The mechanism-of-action field in the evidence record is empty, so this description comes from the literature and the pack's rationale notes.
+Detailed mechanism of action data is not available in the compiled data. Based on the supporting literature, mitoxantrone is a topoisomerase II inhibitor and DNA intercalator with a mechanism similar to the anthracyclines. This makes it cytotoxic to rapidly dividing cells. Its efficacy in AML is established.
 
-The predicted indication overlaps heavily with head and neck cancer. Mitoxantrone has been tested in several small clinical studies in this area:
-- Phase II studies in head and neck squamous cell carcinoma and adenoid cystic carcinoma.
-- A mitoxantrone plus cisplatin Phase II study in salivary gland malignancies (14 patients).
-- Pharmacokinetic work in nasopharyngeal carcinoma.
-- A recent Phase Ib study of liposomal mitoxantrone in head and neck squamous cell carcinoma.
+Head and neck cancers, including squamous cell carcinoma, nasopharyngeal carcinoma and adenoid cystic carcinoma, are rapidly proliferating tumours that can respond to DNA-damaging chemotherapy. Historic Phase II trials of mitoxantrone in head and neck cancer showed modest activity, and response rates were low. Interest has recently revived with liposomal mitoxantrone, which has a completed Phase Ib study in recurrent/metastatic disease and several ongoing Phase II/III nasopharyngeal carcinoma trials.
 
-Because it is a broadly cytotoxic agent, activity in squamous and salivary tumours is biologically plausible. However, the evidence gives no sign of a large or reliable benefit, and the Phase II literature suggests only modest activity.
+The link is plausible, but it rests on a general cytotoxic class effect rather than a disease-specific mechanism. A randomized Phase III trial has not yet reported.
 
 ---
 
@@ -71,7 +66,12 @@ Because it is a broadly cytotoxic agent, activity in squamous and salivary tumou
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06953739](https://clinicaltrials.gov/study/NCT06953739) | Phase 3 | Not yet recruiting | 60 | Pegaspargase + P-GEMD vs P-Gemox in untreated early-stage non-upper-aerodigestive-tract or advanced-stage extranodal NK/T-cell lymphoma. Mitoxantrone is not the tested agent, so this is not direct evidence. |
+| [NCT04902027](https://clinicaltrials.gov/study/NCT04902027) | Phase 1 | Completed | 45 | Single-arm Phase Ib of liposomal mitoxantrone in recurrent/metastatic head and neck cancer, evaluating safety and preliminary efficacy |
+| [NCT05717764](https://clinicaltrials.gov/study/NCT05717764) | Phase 3 | Not yet recruiting | 500 | Randomized study of liposomal mitoxantrone plus capecitabine vs capecitabine alone in platinum-refractory recurrent/metastatic nasopharyngeal carcinoma |
+| [NCT06472713](https://clinicaltrials.gov/study/NCT06472713) | Phase 2 | Recruiting | 32 | Single-arm study of liposomal mitoxantrone plus PD-1 blockade in previously treated recurrent/metastatic nasopharyngeal carcinoma |
+| [NCT06892431](https://clinicaltrials.gov/study/NCT06892431) | Phase 2 | Not yet recruiting | 150 | JMT101 plus liposomal mitoxantrone in nasopharyngeal cancer after at least two prior lines of therapy; the contribution of mitoxantrone is hard to isolate |
+| [NCT07070479](https://clinicaltrials.gov/study/NCT07070479) | Phase 2 | Recruiting | 208 | Bayesian adaptive trial of four regimens in PD-1-resistant nasopharyngeal carcinoma; one arm is liposomal mitoxantrone plus anti-PD-1, and mitoxantrone is not the primary agent |
+| [NCT07354698](https://clinicaltrials.gov/study/NCT07354698) | Phase 4 | Not yet recruiting | 114 | Mitoxantrone as a lymph node tracer in transoral robotic thyroid cancer surgery (a diagnostic/surgical use, not antitumour) |
 
 ---
 
@@ -79,24 +79,24 @@ Because it is a broadly cytotoxic agent, activity in squamous and salivary tumou
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39952083](https://pubmed.ncbi.nlm.nih.gov/39952083/) | 2025 | Phase 1b | Oral Oncol | Liposomal mitoxantrone (PLM60), already approved in China for relapsed/refractory peripheral T-cell lymphoma, tested for safety and efficacy in recurrent/metastatic head and neck squamous cell carcinoma. |
-| [12045460](https://pubmed.ncbi.nlm.nih.gov/12045460/) | 2002 | Phase II | Anti-Cancer Drugs | Mitoxantrone + cisplatin in recurrent/metastatic salivary gland malignancies; 14 patients enrolled. |
-| [11290867](https://pubmed.ncbi.nlm.nih.gov/11290867/) | 2001 | Phase II | Anti-Cancer Drugs | Ifosfamide + mitoxantrone (12 mg/m²) in recurrent/metastatic head and neck squamous cell carcinoma; 22 patients. |
-| [8922205](https://pubmed.ncbi.nlm.nih.gov/8922205/) | 1996 | Phase II | Ann Oncol | EORTC Phase II of mitoxantrone in adenoid cystic carcinoma of the head and neck, prompted by activity in a case report. |
-| [1735075](https://pubmed.ncbi.nlm.nih.gov/1735075/) | 1992 | PK/PD study | Cancer | Pharmacokinetics in 15 patients with advanced nasopharyngeal carcinoma after a single intravenous infusion of 12–14 mg/m². |
-| [39472118](https://pubmed.ncbi.nlm.nih.gov/39472118/) | 2024 | Prospective controlled study | Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi | Mitoxantrone hydrochloride as a lymph node tracer in thyroid cancer surgery (180 patients). This is an imaging use, not an antitumour indication. |
-| [31324333](https://pubmed.ncbi.nlm.nih.gov/31324333/) | 2019 | Systematic review | Bull Cancer | Systemic treatments for metastatic or recurrent adenoid cystic carcinoma of the head and neck. |
-| [3512224](https://pubmed.ncbi.nlm.nih.gov/3512224/) | 1986 | Review | Drug Intell Clin Pharm | Mitoxantrone drug review: anthracycline-like mechanism, hepatic elimination, and some activity in head and neck cancer. |
-| [1985750](https://pubmed.ncbi.nlm.nih.gov/1985750/) | 1991 | Prospective series | Cancer | Chemoradiotherapy for anaplastic thyroid carcinoma, using mitoxantrone (14 mg/m²) in patients older than 65. |
-| [36070368](https://pubmed.ncbi.nlm.nih.gov/36070368/) | 2022 | Preclinical | Sci Transl Med | Pharmacogenomic study using patient-derived head and neck squamous cell carcinoma cells. |
+| [39952083](https://pubmed.ncbi.nlm.nih.gov/39952083/) | 2025 | Phase 1b study | Oral Oncology | Liposomal mitoxantrone in recurrent/metastatic head and neck squamous cell carcinoma, evaluating safety and efficacy |
+| [11290867](https://pubmed.ncbi.nlm.nih.gov/11290867/) | 2001 | Phase II | Anti-Cancer Drugs | Ifosfamide plus mitoxantrone in recurrent/metastatic squamous cell carcinoma of the head and neck (22 patients) |
+| [12045460](https://pubmed.ncbi.nlm.nih.gov/12045460/) | 2002 | Phase II | Anti-Cancer Drugs | Mitoxantrone plus cisplatin in recurrent/metastatic salivary gland malignancies (14 patients) |
+| [8922205](https://pubmed.ncbi.nlm.nih.gov/8922205/) | 1996 | Phase II | Annals of Oncology | EORTC study of mitoxantrone in adenoid cystic carcinoma of the head and neck |
+| [1650529](https://pubmed.ncbi.nlm.nih.gov/1650529/) | 1991 | Phase II | Am J Clin Oncol | Mitoxantrone 14 mg/m² in 19 patients with incurable head and neck carcinoma |
+| [6511239](https://pubmed.ncbi.nlm.nih.gov/6511239/) | 1984 | Phase II | Investigational New Drugs | Mitoxantrone every 3 weeks in advanced head and neck cancer |
+| [4066226](https://pubmed.ncbi.nlm.nih.gov/4066226/) | 1985 | Phase II | Investigational New Drugs | Southeastern Cancer Study Group trial; 53 evaluable patients with advanced squamous cell carcinoma |
+| [6511243](https://pubmed.ncbi.nlm.nih.gov/6511243/) | 1984 | Phase II | Investigational New Drugs | Southwest Oncology Group trial; 1 partial response among 22 evaluable patients, with no significant antitumour activity and leukopenia and thrombocytopenia as the main toxicities |
+| [34659878](https://pubmed.ncbi.nlm.nih.gov/34659878/) | 2021 | Review | Am J Cancer Res | Systemic therapies for salivary gland adenoid cystic carcinoma |
+| [31324333](https://pubmed.ncbi.nlm.nih.gov/31324333/) | 2019 | Systematic review | Bulletin du Cancer | Systemic treatments for recurrent/metastatic adenoid cystic carcinoma of the head and neck |
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 2286300 | MITOXANTRONE INJECTION |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02286300 | MITOXANTRONE INJECTION | Not specified | Not specified |
 
 ---
 
@@ -104,37 +104,54 @@ Because it is a broadly cytotoxic agent, activity in squamous and salivary tumou
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (anthraquinone; topoisomerase II inhibitor and DNA intercalator) |
-| Myelosuppression Risk | High. Leukopenia and thrombocytopenia are the major toxicities in the Phase II head and neck studies. |
-| Emetogenicity Classification | Low to moderate (general drug-class expectation; please refer to the package insert warnings and precautions) |
-| Monitoring Items | CBC with differential; liver function (mainly hepatic elimination). Please refer to the package insert for cardiac monitoring requirements. |
+| Cytotoxicity Classification | Conventional cytotoxic (anthracenedione, topoisomerase II inhibitor) |
+| Myelosuppression Risk | High (leukopenia and thrombocytopenia are the main toxicities reported in head and neck Phase II trials) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC with differential, liver function, and cardiac function (cardiotoxicity is a documented concern) |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these come from graph relationships, not label text): liver failure, liver disease, gallbladder disease, heart failure, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, anaemia, macrocytic anaemia, epilepsy, infectious disease, fungal infectious disease, dermatophytosis.
+- **Drug Interactions** (100 interactions recorded):
+  - Major: dolasetron.
+  - Moderate: clarithromycin, eliglustat, rolapitant.
+  - Minor: levofloxacin.
+  - Many others are of unknown severity, including metformin, amphotericin B, hydrocortisone, and several proton pump inhibitors.
+
+Package insert warnings and contraindications were not available. Please refer to the Health Canada package insert for authoritative safety information.
+
+---
+
+## Other Predicted Indications
+
+| Predicted Indication | Score | Evidence Level | Summary |
+|------|------|------|------|
+| Upper aerodigestive tract neoplasm | 99.78% | L4 | No linked trials. Literature is indirect, consisting of reviews, pharmacokinetics, and small studies in nasopharyngeal and salivary gland cancers. |
+| Small cell lung carcinoma | 99.43% | L4 | No linked trials. Literature is preclinical or pharmacokinetic, and ABC transporter-mediated resistance is a concern. |
+| Primary pulmonary lymphoma | 99.41% | L4 | No dedicated trials. Only a small series of fludarabine plus mitoxantrone regimens in lung marginal zone lymphoma. |
+| Well-differentiated fetal adenocarcinoma of the lung | 99.37% | L5 | Model prediction only; no trials or literature. |
+| Pulmonary blastoma | 99.35% | L5 | Model prediction only; no trials or literature. |
+| Chronic myelogenous leukemia, BCR-ABL1 positive | 99.32% | L3 | Seven Phase II/III trials, mostly in acute leukemia. Small studies in blast crisis (for example, 26% complete remission with mitoxantrone plus high-dose cytarabine in 27 patients). Chronic-phase disease is managed with tyrosine kinase inhibitors, so any role would be limited to blast crisis or salvage. |
+| Bladder exstrophy-epispadias-cloacal exstrophy complex | 99.00% | L5 | A congenital malformation with no plausible antineoplastic mechanism, so this is likely a prediction artifact. |
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails (head and neck cancer); Hold for the remaining predictions**
 
 **Rationale:**
-The prediction score is very high (99.78%), but the supporting evidence is weak. The only registered trial does not test mitoxantrone, and the human data are small, older, non-randomised Phase II studies with modest activity. Safety data from the Health Canada package insert have not yet been obtained.
-
-Two other predicted indications for mitoxantrone have stronger support and may deserve priority:
-- **Head and neck cancer**: one completed Phase Ib, several ongoing liposomal-mitoxantrone Phase II trials, and a Phase 3 that is not yet recruiting.
-- **Blast-crisis CML**: multiple Phase I/II studies, usually combined with cytarabine.
+Head and neck cancer, particularly nasopharyngeal carcinoma, has the strongest repurposing signal. It has a completed Phase Ib study, a 2025 publication, and ongoing Phase II and Phase III trials of liposomal mitoxantrone. However, older Phase II trials showed low response rates, and the Phase III trial has not yet reported. The other predictions lack direct clinical evidence or are implausible.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening).
-- Detailed mechanism of action data from DrugBank.
-- Approved indication and dosage form for the Canadian product (DIN 2286300).
-- Evidence specific to head and neck subsites, ideally randomised data, with liposomal and conventional mitoxantrone assessed separately.
-- A cardiac and haematological safety monitoring plan.
+- Results from the liposomal mitoxantrone Phase Ib study and the Phase III nasopharyngeal carcinoma trial
+- Clarification of whether the liposomal formulation is available in Canada, since the only Canadian product (DIN 02286300) is a standard injection with no indication or dosage form recorded
+- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- A cardiac and haematological monitoring plan, given the knowledge graph contraindications for heart failure and cytopenias
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Human Immunoglobulin G
-parent: Moderate Evidence (L3-L4)
-nav_order: 448
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 452
+evidence_level: L5
 indication_count: 10
 ---
 
 # Human Immunoglobulin G
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,82 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Human Immunoglobulin G: From Approved Immunoglobulin Therapy to Severe Nonproliferative Diabetic Retinopathy
+# Human Immunoglobulin G: From Immunoglobulin Therapy to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Human immunoglobulin G (IgG) is a pooled plasma-derived product marketed in Canada under brands such as Gammagard Liquid, Cuvitru, Hizentra and Gamunex.
-The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but this is a graph-based prediction only.
-Currently **0 clinical trials** and **1 publication** (a biomarker study) relate to this indication, so the evidence is very weak.
+Human immunoglobulin G (IgG) is a plasma-derived antibody product marketed in Canada under 16 valid licences. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but **no clinical trials and no publications** currently support this prediction. It is a computational prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not available in the data compiled for this report (no approved indication text was recorded for the licences) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (model prediction only) |
 | Canada Market Status | ✓ Marketed |
 | Number of DINs | 16 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, human IgG is a pooled immunoglobulin product with immune-modulating and replacement roles. The approved indication text was not provided in the data, so the link to the original use cannot be assessed.
+Currently, detailed mechanism of action data is not available. Based on general knowledge, human IgG products act through immunomodulation, Fc receptor blockade and complement inhibition, and are used as replacement or immunomodulatory therapy. A speculative link to diabetic retinopathy would be modulation of inflammation or autoimmunity in the diabetic retina, but nothing in the data compiled for this report supports it.
 
-The only literature is a 2025 study showing that the sugar-chain (Fc N-glycosylation) pattern of a patient's own serum IgG differs across stages of diabetic retinopathy. This makes IgG a possible **biomarker**. It does not show that infusing pooled IgG treats the disease. The direction of effect is unknown and could be harmful rather than protective. The high score (0.998) reflects a knowledge-graph association, not clinical support.
+The high score (0.9975) reflects a knowledge-graph pattern, not demonstrated biology. The model also predicts closely related conditions, including diabetic retinopathy (99.63%), several cataract types (97.6%–98.9%) and drug-induced osteoporosis (99.37%). Many of these share identical or near-identical scores, which suggests a shared network-derived signal rather than independent evidence. For cataracts in particular, lens protein oxidation and osmotic stress have no evident connection to IgG's known immunological actions.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40204274](https://pubmed.ncbi.nlm.nih.gov/40204274/) | 2025 | Biomarker/observational | Mol Cell Proteomics | In 160 patients (47 without DR, 51 NPDR, 62 PDR), serum IgG Fc glycosylation was studied as a diagnostic biomarker to distinguish DR stages. It is not a treatment study. |
+Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
-Five of the 16 authorizations are shown below. Dosage form and approved indication text were not available in the data.
+Dosage form, manufacturer and approved indication text were not recorded for these licences. The first five of the 16 valid authorizations are listed:
 
-| DIN | Product Name |
-|---------|------|
-| 02279444 | GAMMAGARD LIQUID |
-| 02461692 | CUVITRU |
-| 02277921 | IGIVNEX |
-| 02498251 | HIZENTRA |
-| 02247724 | GAMUNEX |
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02279444 | GAMMAGARD LIQUID | Not recorded | Not recorded |
+| 02461692 | CUVITRU | Not recorded | Not recorded |
+| 02277921 | IGIVNEX | Not recorded | Not recorded |
+| 02498251 | HIZENTRA | Not recorded | Not recorded |
+| 02247724 | GAMUNEX | Not recorded | Not recorded |
+
+The remaining licences cover additional HIZENTRA, GAMASTAN, PRIVIGEN, GAMMAGARD S/D and HYQVIA products.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried database.
+Please refer to the package insert for safety information. No drug interactions were found in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The indication has no registered trials and only one biomarker paper. The literature describes the patient's own IgG as a marker, not a therapeutic effect. The prediction is not supported by clinical evidence, and safety data are incomplete.
+The prediction rests only on a knowledge-graph score, with no clinical trials, no literature and no established mechanism linking IgG to retinal disease. Safety data from the package insert are also missing, so the candidate cannot move past initial screening.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data, for example from DrugBank
-- Approved indication text for the Canadian products, to define the original use
-- Preclinical or clinical evidence that exogenous IgG benefits diabetic retinopathy
-- Route compatibility assessment, since ocular use would differ from current intravenous or subcutaneous products
-
-Other predicted indications (drug-induced osteoporosis and several cataract types) are also at Hold. They have only L4–L5 evidence, with no mechanistic support.
+- Download and review the Health Canada package insert for warnings and contraindications
+- Obtain mechanism of action data (for example from DrugBank) and assess any link to diabetic retinal inflammation
+- Run a systematic search of PubMed and trial registries for IgG in diabetic retinopathy
+- Confirm the original approved indications and the available routes of administration (intravenous or subcutaneous) against what a retinal indication would require
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
