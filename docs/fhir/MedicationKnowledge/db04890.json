@@ -15,9 +15,8 @@
         "display": "DB04890"
       }
     ],
-    "text": "DB00002"
+    "text": "bepotastine"
   },
-  "synonym": [],
   "intendedJurisdiction": [
     {
       "coding": [
@@ -42,10 +41,5 @@
       ]
     }
   ],
-  "extension": [
-    {
-      "url": "https://catxgnn.yao.care/fhir/StructureDefinition/prediction-source",
-      "valueString": "TxGNN Knowledge Graph"
-    }
-  ]
+  "extension": []
 }
