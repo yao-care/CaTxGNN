@@ -18,7 +18,7 @@ This system analyzes **{{ site.data.stats.total_drugs | default: "11,511" }}** H
 | Total Drugs | {{ site.data.stats.total_drugs | default: "11,511" }} |
 | Mapped to DrugBank | {{ site.data.stats.mapped_drugs | default: "1,254" }} |
 | Mapping Rate | {{ site.data.stats.mapping_rate | default: "85.2%" }} |
-| Potential Candidates | {{ site.data.stats.candidates | default: "21,392,510" }} |
+| Predicted New Indications (known uses excluded) | {{ site.data.site_stats.indications }} |
 
 ## FHIR API
 

@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Protamine sulfate with the l
 <li>primary progressive apraxia of speech (50.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/protamine_sulfate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/protamine-sulfate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
