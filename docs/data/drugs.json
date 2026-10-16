@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "total_count": 987,
+  "total_count": 971,
   "source": "CaTxGNN",
   "drugs": [
     {
@@ -3344,26 +3344,6 @@
       "url": "/drugs/eribulin/"
     },
     {
-      "slug": "eribulin-mesylate",
-      "name": "Eribulin Mesylate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/eribulin-mesylate/"
-    },
-    {
-      "slug": "erlotinib",
-      "name": "Erlotinib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/erlotinib/"
-    },
-    {
       "slug": "ertapenem",
       "name": "Ertapenem",
       "evidence_level": "L4",
@@ -3382,16 +3362,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/erythromycin/"
-    },
-    {
-      "slug": "escitalopram",
-      "name": "Escitalopram",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/escitalopram/"
     },
     {
       "slug": "esculin",
@@ -3414,26 +3384,6 @@
       "url": "/drugs/esketamine/"
     },
     {
-      "slug": "eslicarbazepine-acetate",
-      "name": "Eslicarbazepine Acetate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "Mechanism of action data was identified as a high-severity data gap (DG002) and has not yet been retrieved from DrugBank. Without a confirmed MOA, it is not possible to reason about mechanistic...",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/eslicarbazepine-acetate/"
-    },
-    {
-      "slug": "esmolol-hydrochloride",
-      "name": "Esmolol Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Esmolol is an ultra-short-acting IV beta-1 selective blocker (plasma...",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/esmolol-hydrochloride/"
-    },
-    {
       "slug": "esomeprazole",
       "name": "Esomeprazole",
       "evidence_level": "L4",
@@ -3442,16 +3392,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/esomeprazole/"
-    },
-    {
-      "slug": "estradiol",
-      "name": "Estradiol",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/estradiol/"
     },
     {
       "slug": "estrone",
@@ -3464,16 +3404,6 @@
       "url": "/drugs/estrone/"
     },
     {
-      "slug": "eszopiclone",
-      "name": "Eszopiclone",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/eszopiclone/"
-    },
-    {
       "slug": "etafedrine",
       "name": "Etafedrine",
       "evidence_level": "L5",
@@ -3482,16 +3412,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/etafedrine/"
-    },
-    {
-      "slug": "etafedrine-hydrochloride",
-      "name": "Etafedrine Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "he TxGNN model did not generate any predicted new indications for this compound in the current pipeline run, and the drug is not marketed in Canada.",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/etafedrine-hydrochloride/"
     },
     {
       "slug": "etanercept",
@@ -3514,16 +3434,6 @@
       "url": "/drugs/ethambutol/"
     },
     {
-      "slug": "ethambutol-hydrochloride",
-      "name": "Ethambutol Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/ethambutol-hydrochloride/"
-    },
-    {
       "slug": "ethanol",
       "name": "Ethanol",
       "evidence_level": "L5",
@@ -3542,16 +3452,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ethosuximide/"
-    },
-    {
-      "slug": "etomidate",
-      "name": "Etomidate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/etomidate/"
     },
     {
       "slug": "etonogestrel",
@@ -3654,16 +3554,6 @@
       "url": "/drugs/famotidine/"
     },
     {
-      "slug": "faricimab",
-      "name": "Faricimab",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/faricimab/"
-    },
-    {
       "slug": "febuxostat",
       "name": "Febuxostat",
       "evidence_level": "L4",
@@ -3712,16 +3602,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/fentanyl/"
-    },
-    {
-      "slug": "fesoterodine-fumarate",
-      "name": "Fesoterodine Fumarate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/fesoterodine-fumarate/"
     },
     {
       "slug": "fexofenadine",
@@ -5674,16 +5554,6 @@
       "url": "/drugs/mefenamic-acid/"
     },
     {
-      "slug": "mefloquine",
-      "name": "Mefloquine",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/mefloquine/"
-    },
-    {
       "slug": "megestrol-acetate",
       "name": "Megestrol Acetate",
       "evidence_level": "L2",
@@ -5724,16 +5594,6 @@
       "url": "/drugs/memantine/"
     },
     {
-      "slug": "memantine-hydrochloride",
-      "name": "Memantine Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/memantine-hydrochloride/"
-    },
-    {
       "slug": "menotropins",
       "name": "Menotropins",
       "evidence_level": "L5",
@@ -5744,16 +5604,6 @@
       "url": "/drugs/menotropins/"
     },
     {
-      "slug": "menthol",
-      "name": "Menthol",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/menthol/"
-    },
-    {
       "slug": "meperidine",
       "name": "Meperidine",
       "evidence_level": "L5",
@@ -5762,16 +5612,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/meperidine/"
-    },
-    {
-      "slug": "meperidine-hydrochloride",
-      "name": "Meperidine Hydrochloride",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/meperidine-hydrochloride/"
     },
     {
       "slug": "mepivacaine",
