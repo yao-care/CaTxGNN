@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Norethindrone enanthate with
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/norethindrone_enanthate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/norethindrone-enanthate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
