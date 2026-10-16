@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 404
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Flutamide: predicted new indication Benign reproductive system neoplasm (evidence level L3). Approved use: Prostate cancer"
 ---
 
 # Flutamide

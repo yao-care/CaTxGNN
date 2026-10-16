@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Dexpanthenol: predicted new indication Anorectal stricture (evidence level L5). Approved use: Paralytic ileus, intestinal obstruction, gastroparesis, atopic eczema…"
 ---
 
 # Dexpanthenol

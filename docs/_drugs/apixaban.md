@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 65
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Apixaban: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the Canadian licence data compiled for this report"
 ---
 
 # Apixaban

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 419
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Frovatriptan: predicted new indication Migraine with brainstem aura (evidence level L3). Approved use: Migraine disorder (acute treatment of migraine with or without aura)"
 ---
 
 # Frovatriptan

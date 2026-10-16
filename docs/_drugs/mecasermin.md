@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Growth hormone insensitivity syndrome"
 ---
 
 # Mecasermin

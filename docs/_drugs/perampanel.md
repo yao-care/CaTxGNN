@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Perampanel: predicted new indication Visual epilepsy (evidence level L5). Approved use: Partial epilepsy / partial motor epilepsy"
 ---
 
 # Perampanel

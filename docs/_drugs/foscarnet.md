@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Foscarnet: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-c… (evidence level L5). Approved use: Not listed in the Canadian license data compiled for this…"
 ---
 
 # Foscarnet

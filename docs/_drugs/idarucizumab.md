@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Idarucizumab: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not listed in the Health Canada licence data compiled for this report…"
 ---
 
 # Idarucizumab

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 878
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Tafamidis: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Amyloidosis, including AH, AL and ATTRV122I amyloidosis"
 ---
 
 # Tafamidis

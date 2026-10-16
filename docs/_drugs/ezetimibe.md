@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 373
 evidence_level: L1
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Ezetimibe: predicted new indication Hyperlipoproteinemia (evidence level L1). Approved use: Hyperlipidemia (including familial hypercholesterolemia…"
 ---
 
 # Ezetimibe

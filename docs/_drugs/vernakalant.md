@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 972
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Vernakalant: predicted new indication Stroke disorder (evidence level L4). Approved use: Atrial fibrillation"
 ---
 
 # Vernakalant

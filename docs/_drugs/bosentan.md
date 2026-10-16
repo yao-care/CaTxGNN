@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 121
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Bosentan: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Pulmonary arterial hypertension (also systemic sclerosis / scleroderm…"
 ---
 
 # Bosentan

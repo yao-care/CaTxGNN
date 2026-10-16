@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Galcanezumab: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Migraine disorder"
 ---
 
 # Galcanezumab

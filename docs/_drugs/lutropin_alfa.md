@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Lutropin Alfa: predicted new indication Postural orthostatic tachycardia syndrome (evidence level L5). Approved use: Not available"
 ---
 
 # Lutropin Alfa

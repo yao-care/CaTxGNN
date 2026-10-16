@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Respiratory syncytial virus infectious disease"
 ---
 
 # Palivizumab

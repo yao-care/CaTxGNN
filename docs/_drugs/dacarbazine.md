@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Metastatic melanoma"
 ---
 
 # Dacarbazine

@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 129
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Bromfenac: predicted new indication Eye disease (evidence level L1). Approved use: Not stated in the licence data compiled for this report (the product…"
 ---
 
 # Bromfenac

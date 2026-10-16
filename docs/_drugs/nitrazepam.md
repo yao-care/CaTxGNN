@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 656
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Nitrazepam: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L4). Approved use: Insomnia"
 ---
 
 # Nitrazepam

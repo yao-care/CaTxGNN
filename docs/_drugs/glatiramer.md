@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Glatiramer: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not available in the Canadian license data (glatiramer is generally u…"
 ---
 
 # Glatiramer

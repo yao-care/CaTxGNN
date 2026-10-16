@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 40
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Alprazolam: predicted new indication Insomnia (evidence level L4). Approved use: Anxiety disorder (anxiety, mixed anxiety and depressive disorder)"
 ---
 
 # Alprazolam

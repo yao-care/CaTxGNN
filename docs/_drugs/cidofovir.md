@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Cidofovir: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the Canadian licence data compiled for this report"
 ---
 
 # Cidofovir

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 176
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Certolizumab Pegol: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Crohn's disease, inflammatory bowel disease, psoriatic arthritis…"
 ---
 
 # Certolizumab Pegol

@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 270
 evidence_level: L2
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Dexmedetomidine: predicted new indication Headache disorder (evidence level L2). Approved use: Not available in the data compiled for this report (injectable sedati…"
 ---
 
 # Dexmedetomidine

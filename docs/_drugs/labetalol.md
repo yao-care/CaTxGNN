@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 515
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension / hypertensive disorder"
 ---
 
 # Labetalol

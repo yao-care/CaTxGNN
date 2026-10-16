@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Superficial multifocal basal cell carcinoma, actinic keratosis…"
 ---
 
 # Fluorouracil

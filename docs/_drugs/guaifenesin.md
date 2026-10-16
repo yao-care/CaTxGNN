@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 ---
 
 # Guaifenesin

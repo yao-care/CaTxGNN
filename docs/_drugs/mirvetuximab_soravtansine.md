@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Mirvetuximab Soravtansine: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Platinum-resistant ovarian cancer"
 ---
 
 # Mirvetuximab Soravtansine

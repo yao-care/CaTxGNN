@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 678
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Ofloxacin: predicted new indication Septicemic plague . The rank 1 prediction is polyclonal hyperviscosit… (evidence level L5). Approved use: Typhoid fever, salmonellosis, urinary tract infection, br…"
 ---
 
 # Ofloxacin

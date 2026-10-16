@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 181
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Chloramphenicol: predicted new indication Conjunctivitis (evidence level L3). Approved use: Typhoid fever, salmonellosis, paratyphoid fever…"
 ---
 
 # Chloramphenicol

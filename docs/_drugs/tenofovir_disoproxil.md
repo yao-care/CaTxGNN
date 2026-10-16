@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome . The best-supported predic… (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 ---
 
 # Tenofovir Disoproxil

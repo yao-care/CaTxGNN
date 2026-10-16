@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Besifloxacin: predicted new indication Bronchitis (evidence level L5). Approved use: Conjunctivitis"
 ---
 
 # Besifloxacin

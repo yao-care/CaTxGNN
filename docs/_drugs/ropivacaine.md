@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 824
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not available in the Canadian licence data compiled for this report"
 ---
 
 # Ropivacaine

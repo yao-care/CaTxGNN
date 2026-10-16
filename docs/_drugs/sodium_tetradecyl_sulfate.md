@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 858
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Sodium Tetradecyl Sulfate: predicted new indication Esophageal varices with bleeding (evidence level L2). Approved use: Varicose disease"
 ---
 
 # Sodium Tetradecyl Sulfate

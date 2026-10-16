@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 612
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Mexiletine: predicted new indication Headache disorder (evidence level L5). Approved use: Not stated in the data compiled for this report (class IB antiarrhyth…"
 ---
 
 # Mexiletine

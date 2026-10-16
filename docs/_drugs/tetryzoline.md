@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 904
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-13
+description: "Tetryzoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold"
 ---
 
 # Tetryzoline

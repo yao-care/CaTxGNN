@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Choriogonadotropin Alfa: predicted new indication Peptic esophagitis (evidence level L5). Approved use: Not stated in the compiled licence data (the drug is generally known…"
 ---
 
 # Choriogonadotropin Alfa

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bronchitis, acne, bacterial pneumonia, anthrax…"
 ---
 
 # Doxycycline

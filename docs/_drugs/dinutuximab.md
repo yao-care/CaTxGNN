@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Dinutuximab: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Neuroblastoma"
 ---
 
 # Dinutuximab

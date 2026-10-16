@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 981
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Cholestasis, benign recurrent intrahepatic cholestasis…"
 ---
 
 # Vitamin E

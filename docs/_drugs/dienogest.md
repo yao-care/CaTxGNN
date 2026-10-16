@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 281
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Dienogest: predicted new indication Amenorrhea (evidence level L4). Approved use: Not listed in the Canadian licence records (the literature describes…"
 ---
 
 # Dienogest

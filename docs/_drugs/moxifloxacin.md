@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia, peritonitis…"
 ---
 
 # Moxifloxacin

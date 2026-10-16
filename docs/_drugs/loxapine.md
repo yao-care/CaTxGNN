@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Loxapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Bipolar disorder, major affective disorder, schizophrenia"
 ---
 
 # Loxapine

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Hemin: predicted new indication Thrombocytopenic purpura (evidence level L5). Approved use: Acute intermittent porphyria"
 ---
 
 # Hemin

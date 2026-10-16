@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cerliponase Alfa: predicted new indication Scheie syndrome (evidence level L5). Approved use: Neuronal ceroid lipofuscinosis"
 ---
 
 # Cerliponase Alfa

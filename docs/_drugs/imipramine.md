@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 ---
 
 # Imipramine

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Norelgestromin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the Health Canada licence data compiled for this report…"
 ---
 
 # Norelgestromin

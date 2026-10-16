@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Palbociclib: predicted new indication Top TxGNN rank: hyperthyroidism . Best-supported candidate: myeloid l… (evidence level L5). Approved use: HR-positive, HER2-negative breast cancer"
 ---
 
 # Palbociclib

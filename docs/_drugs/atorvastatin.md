@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 81
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Atorvastatin: predicted new indication Familial hypercholesterolemia (evidence level L1). Approved use: Hypertriglyceridemia, stroke and cerebrovascular disorders…"
 ---
 
 # Atorvastatin

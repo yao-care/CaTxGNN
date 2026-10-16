@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 840
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Selexipag: predicted new indication Pulmonary arterial hypertension associated with congenital heart dise… (evidence level L3). Approved use: Pulmonary arterial hypertension"
 ---
 
 # Selexipag

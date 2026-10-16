@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 527
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Larotrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not stated in the Canadian licence data compiled for this report (lit…"
 ---
 
 # Larotrectinib

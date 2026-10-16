@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 253
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Daunorubicin: predicted new indication Hodgkin's lymphoma (evidence level L3). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
 ---
 
 # Daunorubicin

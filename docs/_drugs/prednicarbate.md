@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 764
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Prednicarbate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Inflammatory dermatoses, including atopic dermatitis…"
 ---
 
 # Prednicarbate

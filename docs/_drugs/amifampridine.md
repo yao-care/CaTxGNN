@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 48
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Amifampridine: predicted new indication Glaucoma (evidence level L5). Approved use: Lambert-Eaton myasthenic syndrome"
 ---
 
 # Amifampridine

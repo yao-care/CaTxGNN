@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Monopotassium Phosphate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not stated in the Canadian licence data (the products are potassium p…"
 ---
 
 # Monopotassium Phosphate

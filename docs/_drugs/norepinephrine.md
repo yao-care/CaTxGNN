@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 665
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Hypotensive disorder, asthma, bronchitis, pulmonary emphysema…"
 ---
 
 # Norepinephrine

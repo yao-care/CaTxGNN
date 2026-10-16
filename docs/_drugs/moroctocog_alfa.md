@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Moroctocog Alfa: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Hemophilia"
 ---
 
 # Moroctocog Alfa

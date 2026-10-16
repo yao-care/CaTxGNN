@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 989
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Zanubrutinib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma"
 ---
 
 # Zanubrutinib

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 96
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Beclomethasone Dipropionate: predicted new indication Atopic eczema (evidence level L3). Approved use: Asthma, allergic rhinitis (including intrinsic and allergic asthma…"
 ---
 
 # Beclomethasone Dipropionate

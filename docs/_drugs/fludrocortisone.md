@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Fludrocortisone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not available in the data compiled for this report"
 ---
 
 # Fludrocortisone

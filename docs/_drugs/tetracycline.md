@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 903
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Not stated in the Canadian licence data. The knowledge graph lists ur…"
 ---
 
 # Tetracycline

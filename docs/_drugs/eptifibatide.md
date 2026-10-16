@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Eptifibatide: predicted new indication Hemoglobinopathy (sickle cell disease). The top-ranked prediction… (evidence level L5). Approved use: Acute coronary syndrome"
 ---
 
 # Eptifibatide

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 794
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Ranibizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Diabetic retinopathy, diabetic macular edema, macular degeneration…"
 ---
 
 # Ranibizumab

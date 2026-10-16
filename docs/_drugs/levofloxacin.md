@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (streptococcal and staphylococcal infections…"
 ---
 
 # Levofloxacin

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 247
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Dantrolene: predicted new indication Malignant hyperthermia, susceptibility to (evidence level L3). Approved use: Malignant hyperthermia of anaesthesia"
 ---
 
 # Dantrolene

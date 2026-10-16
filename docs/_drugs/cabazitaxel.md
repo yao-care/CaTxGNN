@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cabazitaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not listed in the Canadian license data (literature describes metasta…"
 ---
 
 # Cabazitaxel

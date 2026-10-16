@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 597
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Methazolamide: predicted new indication Primary hereditary glaucoma (evidence level L4). Approved use: Open-angle glaucoma, angle-closure glaucoma"
 ---
 
 # Methazolamide

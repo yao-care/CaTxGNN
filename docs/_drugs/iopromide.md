@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Iopromide: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report"
 ---
 
 # Iopromide

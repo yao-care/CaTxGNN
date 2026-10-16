@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 230
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Cyclobenzaprine: predicted new indication Myofascial pain syndrome (evidence level L3). Approved use: Not available in the data compiled for this report . Cyclobenzaprine…"
 ---
 
 # Cyclobenzaprine

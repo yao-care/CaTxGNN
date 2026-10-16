@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "L-Lysine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not specified in the available licence data (the products are amino a…"
 ---
 
 # L-Lysine

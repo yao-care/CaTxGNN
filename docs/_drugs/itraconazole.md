@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 505
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Fungal infections (esophageal candidiasis, candidemia, histoplasmosis…"
 ---
 
 # Itraconazole

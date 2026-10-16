@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer (lung cancer). The Canadian licence record…"
 ---
 
 # Gefitinib

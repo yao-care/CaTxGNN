@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Acute lymphoblastic leukemia (Health Canada indication text is not av…"
 ---
 
 # Mercaptopurine

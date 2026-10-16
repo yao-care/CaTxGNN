@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 862
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Sonidegib: predicted new indication Medulloblastoma with extensive nodularity (evidence level L5). Approved use: Skin carcinoma, basal cell carcinoma, sweat gland cancer…"
 ---
 
 # Sonidegib

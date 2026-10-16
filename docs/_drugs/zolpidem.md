@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 997
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Zolpidem: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L1). Approved use: Insomnia"
 ---
 
 # Zolpidem

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Inflammatory arthritis and related musculoskeletal conditions (bursit…"
 ---
 
 # Indomethacin

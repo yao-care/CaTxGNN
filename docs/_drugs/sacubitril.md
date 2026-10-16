@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 831
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Sacubitril: predicted new indication Diabetic nephropathy (evidence level L5). Approved use: Not available in the data compiled for this report"
 ---
 
 # Sacubitril

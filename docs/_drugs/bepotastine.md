@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 107
 evidence_level: L2
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Bepotastine: predicted new indication Allergic urticaria (evidence level L2). Approved use: Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis"
 ---
 
 # Bepotastine

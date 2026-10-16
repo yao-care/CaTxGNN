@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 726
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Phenazopyridine: predicted new indication Bronchitis (evidence level L5). Approved use: Not specified in the Canadian license data (the drug is known as a ur…"
 ---
 
 # Phenazopyridine

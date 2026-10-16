@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 908
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Thiamine: predicted new indication Hyperthyroidism (evidence level L3). Approved use: Not specified in the Health Canada license data"
 ---
 
 # Thiamine

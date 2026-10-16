@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 193
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cilastatin: predicted new indication Staphylococcus aureus infection (evidence level L3). Approved use: Bacterial pneumonia (also peritonitis, streptococcal pneumonia…"
 ---
 
 # Cilastatin

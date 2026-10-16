@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cortisone Acetate: predicted new indication Alopecia areata (evidence level L5). Approved use: Not stated in the Canadian licence record. Knowledge-graph indication…"
 ---
 
 # Cortisone Acetate

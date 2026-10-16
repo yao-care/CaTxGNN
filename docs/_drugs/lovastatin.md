@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 563
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Lovastatin: predicted new indication Homozygous familial hypercholesterolemia (evidence level L3). Approved use: Hyperlipidemia, familial hyperlipidemia, hypertriglyceridemia…"
 ---
 
 # Lovastatin
