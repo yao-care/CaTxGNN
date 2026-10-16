@@ -3,7 +3,7 @@ layout: default
 title: "Enfortumab vedotin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Enfortumab vedotin. Original indication: . 10 predicted indications."
+description: "Health news related to Enfortumab vedotin. Original indication: . 0 predicted indications."
 permalink: /news/enfortumab_vedotin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/enfortumab_vedotin/
 ---
 
 <p class="key-answer" data-question="What news is there about Enfortumab vedotin?">
-<strong>Enfortumab vedotin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Enfortumab vedotin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,21 +24,8 @@ This page combines the AI-predicted indications for Enfortumab vedotin with the 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>leprosy (99.5%)</li>
-<li>multiple endocrine neoplasia (99.4%)</li>
-<li>cytomegalovirus infection (99.4%)</li>
-<li>candidiasis (99.3%)</li>
-<li>cerebral infarction (99.2%)</li>
-<li>HIV infectious disease (99.2%)</li>
-<li>homozygous familial hypercholesterolemia (99.2%)</li>
-<li>infectious bovine rhinotracheitis (99.1%)</li>
-<li>malignant catarrh (99.1%)</li>
-<li>HER2 positive breast carcinoma (99.0%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/enfortumab-vedotin/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/enfortumab_vedotin/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

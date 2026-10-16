@@ -3,7 +3,7 @@ layout: default
 title: "Inclisiran News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Inclisiran. Original indication: . 10 predicted indications."
+description: "Health news related to Inclisiran. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/inclisiran/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/inclisiran/
 ---
 
 <p class="key-answer" data-question="What news is there about Inclisiran?">
-<strong>Inclisiran</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Inclisiran</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,10 @@ This page combines the AI-predicted indications for Inclisiran with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>potassium deficiency disease (99.9%)</li>
-<li>esophageal disease (99.9%)</li>
-<li>atypical coarctation of aorta (99.9%)</li>
-<li>migraine disorder (99.8%)</li>
-<li>non-syndromic esophageal malformation (99.8%)</li>
-<li>migraine with brainstem aura (99.8%)</li>
-<li>migraine with or without aura, susceptibility to (99.8%)</li>
-<li>aortic malformation (99.8%)</li>
-<li>esophageal ulcer (99.7%)</li>
-<li>Raynaud disease (99.7%)</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **potassium deficiency disease**, but **no clinical trials and no publications** currently support this prediction, so it should be treated as a...</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>LEQVIO | Not available | Not available (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/inclisiran/' | relative_url }}">View full drug report →</a></p>

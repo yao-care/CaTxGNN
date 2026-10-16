@@ -3,7 +3,7 @@ layout: default
 title: "Siponimod News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Siponimod. Original indication: . 10 predicted indications."
+description: "Health news related to Siponimod. Original indication: . 2 predicted indications."
 permalink: /news/siponimod/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/siponimod/
 ---
 
 <p class="key-answer" data-question="What news is there about Siponimod?">
-<strong>Siponimod</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Siponimod</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,10 @@ This page combines the AI-predicted indications for Siponimod with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>pulmonary hypertension (99.7%)</li>
-<li>migraine disorder (99.7%)</li>
-<li>kyphoscoliotic heart disease (99.6%)</li>
-<li>migraine with brainstem aura (99.6%)</li>
-<li>migraine with or without aura, susceptibility to (99.5%)</li>
-<li>Prinzmetal angina (99.3%)</li>
-<li>rheumatoid arthritis (99.2%)</li>
-<li>atrophoderma vermiculata (99.1%)</li>
-<li>ulerythema ophryogenesis (99.0%)</li>
-<li>myelodysplastic syndrome (98.8%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (2)</strong>:<ul>
+<li>MAYZENT | Not specified | Not specified (99.0%)</li>
+<li>MAYZENT | Not specified | Not specified (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/siponimod/' | relative_url }}">View full drug report →</a></p>

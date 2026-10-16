@@ -3,7 +3,7 @@ layout: default
 title: "Plecanatide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Plecanatide. Original indication: . 10 predicted indications."
+description: "Health news related to Plecanatide. Original indication: . 1 predicted indications."
 permalink: /news/plecanatide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/plecanatide/
 ---
 
 <p class="key-answer" data-question="What news is there about Plecanatide?">
-<strong>Plecanatide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Plecanatide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,9 @@ This page combines the AI-predicted indications for Plecanatide with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hypertrichosis (disease) (100.0%)</li>
-<li>Ambras type hypertrichosis universalis congenita (100.0%)</li>
-<li>malformation syndrome with odontal and/or periodontal component (100.0%)</li>
-<li>isolated genetic hair shaft abnormality (100.0%)</li>
-<li>syndrome with a Dandy-Walker malformation as major feature (100.0%)</li>
-<li>idiopathic spontaneous coronary artery dissection (100.0%)</li>
-<li>vascular disease (100.0%)</li>
-<li>venous thoracic outlet syndrome (100.0%)</li>
-<li>arterial thoracic outlet syndrome (100.0%)</li>
-<li>phaeochromocytoma (100.0%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>TRULANCE | Not specified | Not specified (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/plecanatide/' | relative_url }}">View full drug report →</a></p>

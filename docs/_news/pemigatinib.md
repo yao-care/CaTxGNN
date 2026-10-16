@@ -3,7 +3,7 @@ layout: default
 title: "Pemigatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pemigatinib. Original indication: . 10 predicted indications."
+description: "Health news related to Pemigatinib. Original indication: . 3 predicted indications."
 permalink: /news/pemigatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pemigatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Pemigatinib?">
-<strong>Pemigatinib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Pemigatinib</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,11 @@ This page combines the AI-predicted indications for Pemigatinib with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>multiple endocrine neoplasia (99.7%)</li>
-<li>amenorrhea (disease) (99.5%)</li>
-<li>HER2 positive breast carcinoma (99.5%)</li>
-<li>cytomegalovirus infection (99.5%)</li>
-<li>infectious bovine rhinotracheitis (99.4%)</li>
-<li>malignant catarrh (99.4%)</li>
-<li>amyotrophic lateral sclerosis (99.4%)</li>
-<li>amyotrohpic lateral sclerosis type 22 (99.3%)</li>
-<li>amyotrophic lateral sclerosis, susceptibility to (99.2%)</li>
-<li>axial spondylometaphyseal dysplasia (99.2%)</li>
+<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>PEMAZYRE | Not specified | Not specified (99.0%)</li>
+<li>PEMAZYRE | Not specified | Not specified (99.0%)</li>
+<li>PEMAZYRE | Not specified | Not specified (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pemigatinib/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Alpelisib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alpelisib. Original indication: . 10 predicted indications."
+description: "Health news related to Alpelisib. Original indication: he TxGNN model predicts it may be effective for **.... 3 predicted indications."
 permalink: /news/alpelisib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alpelisib/
 ---
 
 <p class="key-answer" data-question="What news is there about Alpelisib?">
-<strong>Alpelisib</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Alpelisib</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,12 @@ This page combines the AI-predicted indications for Alpelisib with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and only **1 publication** (a case report of alpelisib-induced interstitial lung...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>pulmonary hypertension (99.0%)</li>
-<li>migraine with or without aura, susceptibility to (99.0%)</li>
-<li>migraine disorder (98.9%)</li>
-<li>kyphoscoliotic heart disease (98.9%)</li>
-<li>rheumatoid arthritis (98.8%)</li>
-<li>leprosy (98.7%)</li>
-<li>migraine with brainstem aura (98.7%)</li>
-<li>thrombotic disease (98.6%)</li>
-<li>amyotrophic lateral sclerosis (98.4%)</li>
-<li>multiple endocrine neoplasia (98.4%)</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>PIQRAY | Not specified | Not specified (99.0%)</li>
+<li>PIQRAY | Not specified | Not specified (99.0%)</li>
+<li>PIQRAY | Not specified | Not specified (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/alpelisib/' | relative_url }}">View full drug report →</a></p>

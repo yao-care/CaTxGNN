@@ -24,17 +24,18 @@ This page combines the AI-predicted indications for Lecanemab with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>diabetic cataract (98.5%)</li>
-<li>diabetes mellitus type 2 associated cataract (98.4%)</li>
-<li>craniostenosis cataract (98.4%)</li>
-<li>tetanic cataract (98.4%)</li>
-<li>immature cataract (98.4%)</li>
-<li>mature cataract (98.4%)</li>
-<li>nuclear senile cataract (98.4%)</li>
-<li>cortical cataract (98.4%)</li>
-<li>senile cataract (98.3%)</li>
-<li>diabetic retinopathy (98.2%)</li>
+<li>Diabetes mellitus type 2 associated cataract | 98.40% | Rationale would rest on a hypothetical role of amyloid-beta in lens opacity, which is unvalidated. (99.0%)</li>
+<li>Craniostenosis cataract | 98.40% | Rare, likely genetic or syndromic condition; no plausible amyloid-targeting mechanism. (99.0%)</li>
+<li>Tetanic cataract | 98.40% | Linked to low calcium or hypoparathyroidism, which is unrelated to amyloid-beta clearance. (99.0%)</li>
+<li>Immature cataract | 98.40% | A descriptive stage of cataract, not a distinct cause. (99.0%)</li>
+<li>Mature cataract | 98.40% | Advanced stage usually treated surgically; an antibody is unlikely to reverse established opacity. (99.0%)</li>
+<li>Nuclear senile cataract | 98.38% | Driven by oxidative damage and crystallin aggregation; the parallel with Alzheimer's aggregation is tenuous. (99.0%)</li>
+<li>Cortical cataract | 98.38% | No direct mechanism linking amyloid-beta protofibrils to cortical opacity. (99.0%)</li>
+<li>Senile cataract | 98.32% | The causal role of amyloid-beta in age-related cataract is unresolved. (99.0%)</li>
+<li>Diabetic retinopathy | 98.19% | The most biologically plausible, as amyloid-beta has been implicated in retinal neurodegeneration and vascular dysfunction, but still hypothetical. (99.0%)</li>
+<li>LEQEMBI | Not specified | Not specified in the compiled data (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lecanemab/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Bimekizumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bimekizumab. Original indication: . 10 predicted indications."
+description: "Health news related to Bimekizumab. Original indication: he TxGNN model predicts it may be effective for **.... 4 predicted indications."
 permalink: /news/bimekizumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bimekizumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Bimekizumab?">
-<strong>Bimekizumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Bimekizumab</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,13 @@ This page combines the AI-predicted indications for Bimekizumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>diabetic cataract (98.2%)</li>
-<li>immature cataract (98.1%)</li>
-<li>craniostenosis cataract (98.1%)</li>
-<li>tetanic cataract (98.1%)</li>
-<li>mature cataract (98.1%)</li>
-<li>diabetes mellitus type 2 associated cataract (98.1%)</li>
-<li>nuclear senile cataract (98.1%)</li>
-<li>cortical cataract (98.1%)</li>
-<li>senile cataract (98.0%)</li>
-<li>antithrombin deficiency type 2 (98.0%)</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>BIMZELX | Not specified | Not specified (99.0%)</li>
+<li>BIMZELX | Not specified | Not specified (99.0%)</li>
+<li>BIMZELX | Not specified | Not specified (99.0%)</li>
+<li>BIMZELX | Not specified | Not specified (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bimekizumab/' | relative_url }}">View full drug report →</a></p>

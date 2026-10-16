@@ -3,7 +3,7 @@ layout: default
 title: "Hexaminolevulinate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hexaminolevulinate. Original indication: . 10 predicted indications."
+description: "Health news related to Hexaminolevulinate. Original indication: . 1 predicted indications."
 permalink: /news/hexaminolevulinate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hexaminolevulinate/
 ---
 
 <p class="key-answer" data-question="What news is there about Hexaminolevulinate?">
-<strong>Hexaminolevulinate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Hexaminolevulinate</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,9 @@ This page combines the AI-predicted indications for Hexaminolevulinate with the 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>bronchitis (99.1%)</li>
-<li>colonic neoplasm (98.6%)</li>
-<li>severe nonproliferative diabetic retinopathy (98.6%)</li>
-<li>cecum villous adenoma (98.4%)</li>
-<li>rectosigmoid junction neoplasm (98.4%)</li>
-<li>cecum neuroendocrine tumor G1 (98.4%)</li>
-<li>colonic lymphangioma (98.4%)</li>
-<li>lipoma of colon (98.4%)</li>
-<li>cecal disease (98.4%)</li>
-<li>cavernous hemangioma of colon (98.4%)</li>
+<li><strong>Evidence level</strong>: L2</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>CYSVIEW | Not listed | Not listed (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/hexaminolevulinate/' | relative_url }}">View full drug report →</a></p>
