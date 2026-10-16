@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nabilone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the Canadian licence data compiled for this report (…"
+monitor_inn: "Nabilone"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "migraine with or without aura, susceptibility to", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
 ---
 
 # Nabilone

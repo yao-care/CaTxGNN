@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Dichlorobenzyl Alcohol: predicted new indication Bronchitis (evidence level L5). Approved use: Not stated in the Canadian licence records (products are marketed as…"
+monitor_inn: "DICHLOROBENZYL ALCOHOL"
+predicted_indications: ["bronchitis", "migraine disorder"]
 ---
 
 # Dichlorobenzyl Alcohol

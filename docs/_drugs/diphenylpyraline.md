@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Diphenylpyraline: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis"
+monitor_inn: "Diphenylpyraline"
+predicted_indications: ["allergic urticaria", "acute laryngopharyngitis", "nasal cavity disease"]
 ---
 
 # Diphenylpyraline

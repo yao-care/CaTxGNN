@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cysteamine: predicted new indication Ocular cystinosis (evidence level L2). Approved use: Cystinosis / nephropathic cystinosis"
+monitor_inn: "Cysteamine"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "inborn disorder of lysosomal amino acid transport", "ocular cystinosis", "exocrine pancreatic insufficiency", "free sialic acid storage disease", "Hurler syndrome", "Steel syndrome", "Gaucher disease", "autosomal ichthyosis syndrome with fatal disease course", "glycogen storage disease due to GLUT2 deficiency"]
 ---
 
 # Cysteamine

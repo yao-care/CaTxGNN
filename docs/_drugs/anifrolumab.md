@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Anifrolumab: predicted new indication Diabetic cataract (evidence level L5). Approved use: The Canadian licence record contains no indication text. Publicly kno…"
+monitor_inn: "Anifrolumab"
+predicted_indications: ["diabetic cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "craniostenosis cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Anifrolumab

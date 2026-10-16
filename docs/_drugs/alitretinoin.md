@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Alitretinoin: predicted new indication Amenorrhea (evidence level L5). Approved use: Severe chronic hand eczema refractory to potent topical corticosteroi…"
+monitor_inn: "Alitretinoin"
+predicted_indications: ["amenorrhea (disease)", "acne (disease)", "atypical coarctation of aorta", "pregnancy associated osteoporosis", "aortic malformation", "postmenopausal osteoporosis", "autosomal dominant neovascular inflammatory vitreoretinopathy", "breast fibrocystic disease", "benign mammary dysplasia", "Worth syndrome"]
 ---
 
 # Alitretinoin

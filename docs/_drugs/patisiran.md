@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Patisiran: predicted new indication Dermatitis (evidence level L5). Approved use: Not listed in the Health Canada data compiled for this report"
+monitor_inn: "Patisiran"
+predicted_indications: ["dermatitis", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "Smouldering systemic mastocytosis", "overactive bladder (disease)", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Patisiran

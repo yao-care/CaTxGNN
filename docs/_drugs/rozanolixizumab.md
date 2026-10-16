@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Rozanolixizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Generalized myasthenia gravis (anti-AChR or anti-MuSK antibody positi…"
+monitor_inn: "Rozanolixizumab"
+predicted_indications: ["bronchitis", "plasma cell myeloma", "indolent plasma cell myeloma", "hemoglobinopathy", "gastric carcinoma", "partial deletion of the short arm of chromosome 16", "diffuse gastric adenocarcinoma", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells"]
 ---
 
 # Rozanolixizumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dobutamine: predicted new indication Alopecia (evidence level L5). Approved use: Not available in the data compiled for this report (Health Canada ind…"
+monitor_inn: "DOBUTAMINE"
+predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
 ---
 
 # Dobutamine

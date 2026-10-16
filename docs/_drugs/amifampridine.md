@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Amifampridine: predicted new indication Glaucoma (evidence level L5). Approved use: Lambert-Eaton myasthenic syndrome"
+monitor_inn: "Amifampridine"
+predicted_indications: ["glaucoma", "acute intermittent porphyria", "esophageal varices with bleeding", "esophageal varices without bleeding", "porphyria", "primary immunodeficiency syndrome due to p14 deficiency", "paraneoplastic limbic encephalitis", "paraneoplastic polyneuropathy", "varicose disease", "paraneoplastic cerebellar degeneration"]
 ---
 
 # Amifampridine

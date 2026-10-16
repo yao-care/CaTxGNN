@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Midazolam: predicted new indication Insomnia (evidence level L2). Approved use: Anxiety"
+monitor_inn: "MIDAZOLAM"
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Midazolam

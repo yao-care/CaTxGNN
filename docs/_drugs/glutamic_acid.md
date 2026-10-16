@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L5). Approved use: Not stated in the available license data (marketed in Canada as a com…"
+monitor_inn: "GLUTAMIC ACID"
+predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
 ---
 
 # Glutamic Acid

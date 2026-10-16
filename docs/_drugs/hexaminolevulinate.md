@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Hexaminolevulinate: predicted new indication Colonic neoplasm (evidence level L2). Approved use: Not stated in the license data (the product is known as a bladder can…"
+monitor_inn: "Hexaminolevulinate"
+predicted_indications: ["bronchitis", "colonic neoplasm", "severe nonproliferative diabetic retinopathy", "cecum villous adenoma", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "lipoma of colon", "cecal disease", "cavernous hemangioma of colon"]
 ---
 
 # Hexaminolevulinate

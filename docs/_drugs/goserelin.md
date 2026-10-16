@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Goserelin: predicted new indication Amenorrhea (evidence level L5). Approved use: Endometriosis"
+monitor_inn: "GOSERELIN"
+predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 ---
 
 # Goserelin

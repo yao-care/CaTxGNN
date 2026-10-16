@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L4). Approved use: Not available"
+monitor_inn: "METHOTRIMEPRAZINE"
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophrenia", "headache disorder", "schizophreniform disorder", "anaphylaxis"]
 ---
 
 # Methotrimeprazine

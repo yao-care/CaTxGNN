@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Etonogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report (…"
+monitor_inn: "ETONOGESTREL"
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 ---
 
 # Etonogestrel

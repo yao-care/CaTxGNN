@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not specified in the available license data (the products are markete…"
+monitor_inn: "Articaine"
+predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
 ---
 
 # Articaine

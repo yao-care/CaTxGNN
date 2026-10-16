@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Bimekizumab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not available in the compiled data"
+monitor_inn: "Bimekizumab"
+predicted_indications: ["diabetic cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "antithrombin deficiency type 2"]
 ---
 
 # Bimekizumab

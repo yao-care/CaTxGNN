@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lecanemab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Early Alzheimer's disease"
+monitor_inn: "Lecanemab"
+predicted_indications: ["diabetic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "tetanic cataract", "immature cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Lecanemab

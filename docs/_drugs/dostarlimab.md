@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dostarlimab: predicted new indication Cervical adenofibroma (evidence level L5). Approved use: Not available in the Canadian license data (the label indication text…"
+monitor_inn: "Dostarlimab"
+predicted_indications: ["cervical adenofibroma", "vulvar alveolar soft part sarcoma", "LAMA5-related multisystemic syndrome", "primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome", "bile duct cystadenoma", "clear cell hidradenoma", "infantile hypotonia-oculomotor anomalies-hyperkinetic movements-developmental delay syndrome", "fallopian tube papillary adenocarcinoma", "bladder clear cell adenocarcinoma", "O'nyong'nyong fever"]
 ---
 
 # Dostarlimab

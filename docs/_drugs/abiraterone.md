@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Abiraterone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report (…"
+monitor_inn: "Abiraterone"
+predicted_indications: ["migraine disorder", "migraine with or without aura, susceptibility to", "migraine with brainstem aura", "leprosy", "pulmonary hypertension", "nephrogenic syndrome of inappropriate antidiuresis", "rheumatoid arthritis", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Abiraterone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Idarucizumab: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not listed in the Health Canada licence data compiled for this report…"
+monitor_inn: "Idarucizumab"
+predicted_indications: ["hemoglobinopathy", "rheumatoid arthritis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyruvate kinase deficiency of red cells", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "bronchitis", "gout", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Idarucizumab

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Modafinil: predicted new indication Insomnia (evidence level L3). Approved use: Narcolepsy (narcolepsy-cataplexy syndrome and related central nervous…"
+monitor_inn: "MODAFINIL"
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Modafinil

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Octinoxate: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the licence records (marketed as a UV-B filter in sunsc…"
+monitor_inn: "Octinoxate"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "pseudoachondroplasia", "gout", "brachyolmia", "hepatic porphyria", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 ---
 
 # Octinoxate

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Polyethylene Glycol 400: predicted new indication Bronchitis (evidence level L5). Approved use: Constipation disorder, dry eye syndrome, xerophthalmia"
+monitor_inn: "POLYETHYLENE GLYCOL 400"
+predicted_indications: ["bronchitis", "congenital ichthyosiform erythroderma"]
 ---
 
 # Polyethylene Glycol 400

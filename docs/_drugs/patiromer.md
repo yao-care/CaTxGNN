@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Patiromer: predicted new indication Mitochondrial oxidative phosphorylation disorder due to nuclear DNA a… (evidence level L5). Approved use: Not stated in the Canadian licence data compiled for this…"
+monitor_inn: "Patiromer"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "exocrine pancreatic insufficiency", "colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "cecal disease", "lipoma of colon", "severe nonproliferative diabetic retinopathy", "colonic lymphangioma"]
 ---
 
 # Patiromer

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the Canadian licence data compiled for this report (nit…"
+monitor_inn: "NITROGLYCERIN"
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "Prinzmetal angina", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
 ---
 
 # Nitroglycerin

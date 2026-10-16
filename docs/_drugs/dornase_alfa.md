@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dornase Alfa: predicted new indication Paroxysmal hemicrania (evidence level L5). Approved use: Cystic fibrosis"
+monitor_inn: "Dornase alfa"
+predicted_indications: ["paroxysmal Hemicrania", "xanthoma disseminatum", "xanthogranuloma", "benign cephalic histiocytosis", "generalized eruptive histiocytosis", "Langerhans cell histiocytosis", "trigeminal autonomic cephalalgia", "phacolytic glaucoma", "congenital epulis", "necrobiotic xanthogranuloma"]
 ---
 
 # Dornase Alfa

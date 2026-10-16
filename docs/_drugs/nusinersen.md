@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nusinersen: predicted new indication Neoplasm of immature B and T cells (evidence level L5). Approved use: Spinal muscular atrophy"
+monitor_inn: "Nusinersen"
+predicted_indications: ["neoplasm of immature B and T cells", "myeloid/lymphoid neoplasms associated with eosinophilia and abnormality of PDGFRA, PDGFRB, FGFR1 or JAK2", "exanthem (disease)", "cytomegalovirus infection", "malignant teratoma of mediastinum", "papilloma of buccal mucosa", "neoplasm of mature T-cells or NK-cells", "drug-induced localized lipodystrophy", "leiomyoma of ciliary body", "isolated asymptomatic elevation of creatine phosphokinase"]
 ---
 
 # Nusinersen

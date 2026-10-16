@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tafasitamab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Relapsed or refractory diffuse large B-cell lymphoma"
+monitor_inn: "Tafasitamab"
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "HER2 positive breast carcinoma", "psoriasis", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "pityriasis lichenoides"]
 ---
 
 # Tafasitamab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Plecanatide: predicted new indication Hypertrichosis (evidence level L5). Approved use: Not specified in the Canadian licence record (outside Canada…"
+monitor_inn: "Plecanatide"
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "syndrome with a Dandy-Walker malformation as major feature", "idiopathic spontaneous coronary artery dissection", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "phaeochromocytoma"]
 ---
 
 # Plecanatide

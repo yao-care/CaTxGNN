@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Meperidine: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not specified in the available data"
+monitor_inn: "Meperidine"
+predicted_indications: ["Tourette syndrome", "trichotillomania"]
 ---
 
 # Meperidine

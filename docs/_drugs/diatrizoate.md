@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Diatrizoate: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: Not specified in the Canadian license data (diagnostic contrast agent)"
+monitor_inn: "Diatrizoate"
+predicted_indications: ["osteoarthritis susceptibility", "rheumatoid arthritis", "osteoarthritis", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Diatrizoate

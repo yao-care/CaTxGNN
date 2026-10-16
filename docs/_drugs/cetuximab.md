@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cetuximab: predicted new indication Bronchial adenomas/carcinoids, childhood (evidence level L5). Approved use: Metastatic colorectal cancer and head and neck squamous cell carcinoma"
+monitor_inn: "Cetuximab"
+predicted_indications: ["bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "chondroid hamartoma", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
 ---
 
 # Cetuximab

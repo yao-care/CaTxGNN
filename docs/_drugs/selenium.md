@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available"
+monitor_inn: "SELENIUM"
+predicted_indications: ["sclerosing cholangitis"]
 ---
 
 # Selenium

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Brivaracetam: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy"
+monitor_inn: "BRIVARACETAM"
+predicted_indications: ["visual epilepsy", "status epilepticus", "eating seizures", "audiogenic seizures", "thinking seizures", "orgasm-induced seizures", "micturation-induced seizures", "startle epilepsy", "beta-ketothiolase deficiency", "adolescent/adult onset autosomal dominant epilepsy with auditory features"]
 ---
 
 # Brivaracetam

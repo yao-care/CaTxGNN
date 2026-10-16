@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Piperonyl Butoxide: predicted new indication Scabies (evidence level L3). Approved use: Lice infestation (Pthirus pubis, Pediculus humanus corporis…"
+monitor_inn: "Piperonyl butoxide"
+predicted_indications: ["trombiculiasis", "hordeolum", "Norwegian scabies", "impetigo", "scabies", "staphylococcal scalded skin syndrome", "esophageal candidiasis", "aleutian mink disease", "feline panleukopenia", "variola minor infection"]
 ---
 
 # Piperonyl Butoxide

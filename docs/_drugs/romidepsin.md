@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Romidepsin: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Primary cutaneous T-cell lymphoma…"
+monitor_inn: "ROMIDEPSIN"
+predicted_indications: ["dermatofibrosarcoma protuberans", "fibroblastic neoplasm", "kidney fibrosarcoma", "heart fibrosarcoma", "conventional fibrosarcoma", "familial rhabdoid tumor", "low grade fibromyxoid sarcoma", "liver fibrosarcoma", "liposarcoma", "uterine corpus perivascular epithelioid cell tumor"]
 ---
 
 # Romidepsin

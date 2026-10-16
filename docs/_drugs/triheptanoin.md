@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Triheptanoin: predicted new indication Craniostenosis cataract (evidence level L5). Approved use: Not stated in the Canadian license data (the mechanistic background s…"
+monitor_inn: "Triheptanoin"
+predicted_indications: ["craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "immature cataract", "tetanic cataract", "diabetic cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "antithrombin deficiency type 2"]
 ---
 
 # Triheptanoin

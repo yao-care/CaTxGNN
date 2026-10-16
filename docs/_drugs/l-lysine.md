@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "L-Lysine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not specified in the available licence data (the products are amino a…"
+monitor_inn: "L-LYSINE"
+predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
 ---
 
 # L-Lysine

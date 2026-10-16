@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Alpelisib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the Canadian license data"
+monitor_inn: "Alpelisib"
+predicted_indications: ["pulmonary hypertension", "migraine with or without aura, susceptibility to", "migraine disorder", "kyphoscoliotic heart disease", "rheumatoid arthritis", "leprosy", "migraine with brainstem aura", "thrombotic disease", "amyotrophic lateral sclerosis", "multiple endocrine neoplasia"]
 ---
 
 # Alpelisib

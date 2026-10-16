@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Fostamatinib: predicted new indication Autosomal thrombocytopenia with normal platelets (evidence level L5). Approved use: Thrombocytopenia due to immune destruction"
+monitor_inn: "Fostamatinib"
+predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation", "syndromic constitutional thrombocytopenia", "glaucoma", "biotin metabolic disease", "primary hereditary glaucoma", "open-angle glaucoma", "filariasis", "vitamin deficiency disorder", "esophageal disease"]
 ---
 
 # Fostamatinib

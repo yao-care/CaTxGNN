@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Teplizumab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Delay of onset of stage 3 type 1 diabetes"
+monitor_inn: "Teplizumab"
+predicted_indications: ["diabetic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "tetanic cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "antithrombin deficiency type 2"]
 ---
 
 # Teplizumab

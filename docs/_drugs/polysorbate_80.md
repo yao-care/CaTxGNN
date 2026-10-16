@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Polysorbate 80: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
+monitor_inn: "POLYSORBATE 80"
+predicted_indications: ["congenital ichthyosiform erythroderma"]
 ---
 
 # Polysorbate 80

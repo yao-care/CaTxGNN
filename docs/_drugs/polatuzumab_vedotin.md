@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Polatuzumab Vedotin: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Not available in the Health Canada license data compiled for this rep…"
+monitor_inn: "POLATUZUMAB VEDOTIN"
+predicted_indications: ["HER2 positive breast carcinoma"]
 ---
 
 # Polatuzumab Vedotin

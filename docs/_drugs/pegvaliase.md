@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pegvaliase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not listed in the Canadian license data (generally phenylketonuria)"
+monitor_inn: "Pegvaliase"
+predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "mature cataract", "tetanic cataract", "immature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract"]
 ---
 
 # Pegvaliase

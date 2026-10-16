@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Norethindrone Enanthate: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not available in the compiled Canadian license data"
+monitor_inn: "Norethindrone enanthate"
+predicted_indications: ["antithrombin deficiency type 2", "candidiasis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "leprosy", "heart neoplasm", "cardiovascular disease", "plasma cell myeloma", "thrombophilia"]
 ---
 
 # Norethindrone Enanthate

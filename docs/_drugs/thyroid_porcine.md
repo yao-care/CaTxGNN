@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Thyroid Porcine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the available licence data"
+monitor_inn: "Thyroid, porcine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "sciatic neuropathy", "lesion of sciatic nerve", "hyperthyroidism"]
 ---
 
 # Thyroid Porcine

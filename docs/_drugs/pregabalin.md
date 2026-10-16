@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Pregabalin: predicted new indication Migraine disorder (evidence level L5). Approved use: Postherpetic neuralgia, fibromyalgia, myofascial pain syndrome…"
+monitor_inn: "PREGABALIN"
+predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Pregabalin

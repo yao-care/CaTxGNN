@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Efinaconazole: predicted new indication Astigmatism (evidence level L5). Approved use: Tinea unguium (onychomycosis)"
+monitor_inn: "Efinaconazole"
+predicted_indications: ["astigmatism (disease)", "dermatitis, atopic", "dislocated elbows, bowed tibias, scoliosis, deafness, cataract, microcephaly, and intellectual disability", "nasal cavity olfactory neuroblastoma", "apraxia of eyelid opening", "spastic paraplegia, optic atrophy, microcephaly, and 10Y sex reversal", "craniosynostosis-anal anomalies-porokeratosis syndrome", "macular degeneration", "tumor suppressor gene on chromosome 11", "nasal cavity lymphoma"]
 ---
 
 # Efinaconazole

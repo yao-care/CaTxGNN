@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lomitapide: predicted new indication Macrothrombocytopenia with mitral valve insufficiency (evidence level L5). Approved use: Homozygous familial hypercholesterolemia"
+monitor_inn: "LOMITAPIDE"
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
 ---
 
 # Lomitapide

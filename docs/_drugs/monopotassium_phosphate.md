@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Monopotassium Phosphate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not stated in the Canadian licence data (the products are potassium p…"
+monitor_inn: "Monopotassium phosphate"
+predicted_indications: ["renal tubular acidosis", "acute urate nephropathy", "dyspepsia", "potassium deficiency disease", "nephrolithiasis", "calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
 ---
 
 # Monopotassium Phosphate

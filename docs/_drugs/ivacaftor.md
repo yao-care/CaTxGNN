@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ivacaftor: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Cystic fibrosis"
+monitor_inn: "Ivacaftor"
+predicted_indications: ["rheumatoid arthritis", "HIV infectious disease", "leprosy", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple endocrine neoplasia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "cytomegalovirus infection"]
 ---
 
 # Ivacaftor

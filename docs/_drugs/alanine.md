@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Alanine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the Health Canada license data compiled for this report…"
+monitor_inn: "ALANINE"
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Alanine

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Fremanezumab: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
+monitor_inn: "FREMANEZUMAB"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata"]
 ---
 
 # Fremanezumab

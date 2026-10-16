@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Evinacumab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not stated in the Canadian licence record"
+monitor_inn: "Evinacumab"
+predicted_indications: ["diabetic cataract", "tetanic cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Evinacumab

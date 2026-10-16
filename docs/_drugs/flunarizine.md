@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Flunarizine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Health Canada license record (known main use: migra…"
+monitor_inn: "FLUNARIZINE"
+predicted_indications: ["migraine disorder"]
 ---
 
 # Flunarizine

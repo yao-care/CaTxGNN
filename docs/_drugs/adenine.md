@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Adenine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the available Health Canada records"
+monitor_inn: "Adenine"
+predicted_indications: ["drug-induced osteoporosis", "colonic neoplasm", "acne (disease)", "rectosigmoid junction neoplasm", "lipoma of colon", "colonic lymphangioma", "cecum villous adenoma", "cavernous hemangioma of colon", "cecum neuroendocrine tumor G1", "cecal disease"]
 ---
 
 # Adenine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Human Immunoglobulin G: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Human immunoglobulin G"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract"]
 ---
 
 # Human Immunoglobulin G

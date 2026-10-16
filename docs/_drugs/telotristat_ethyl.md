@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Telotristat Ethyl: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Diarrheal disease"
+monitor_inn: "Telotristat ethyl"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "postural orthostatic tachycardia syndrome", "restless legs syndrome", "endolymphatic hydrops", "dry eye syndrome", "Meniere disease", "His bundle tachycardia", "neurocirculatory asthenia", "active cochleovestibular Meniere disease"]
 ---
 
 # Telotristat Ethyl

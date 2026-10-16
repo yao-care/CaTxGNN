@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Sumatriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder, migraine with or without aura, cluster headache…"
+monitor_inn: "SUMATRIPTAN"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Sumatriptan

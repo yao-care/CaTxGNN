@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Dihydroergotamine: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine disorder (also migraine with or without aura…"
+monitor_inn: "Dihydroergotamine"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Dihydroergotamine

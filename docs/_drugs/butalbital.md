@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
 description: "Butalbital: predicted new indication Visual epilepsy (evidence level L5). Approved use: Not listed in the Canadian license data compiled for this report (but…"
+monitor_inn: "BUTALBITAL"
+predicted_indications: ["visual epilepsy", "micturation-induced seizures", "thinking seizures", "audiogenic seizures", "eating seizures", "startle epilepsy", "orgasm-induced seizures", "reading seizures"]
 ---
 
 # Butalbital

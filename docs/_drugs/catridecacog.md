@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Catridecacog: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Factor XIII A-subunit deficiency"
+monitor_inn: "CATRIDECACOG"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
 ---
 
 # Catridecacog

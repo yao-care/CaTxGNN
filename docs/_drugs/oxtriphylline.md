@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Oxtriphylline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not specified in the available licence data"
+monitor_inn: "OXTRIPHYLLINE"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to"]
 ---
 
 # Oxtriphylline

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Chloroprocaine: predicted new indication Cauda equina syndrome (evidence level L4). Approved use: Not specified in the Canadian license record (local anesthesia by dru…"
+monitor_inn: "Chloroprocaine"
+predicted_indications: ["cauda equina syndrome"]
 ---
 
 # Chloroprocaine

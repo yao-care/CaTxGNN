@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Cobicistat: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection / AIDS"
+monitor_inn: "COBICISTAT"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Cobicistat

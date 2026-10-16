@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ruxolitinib: predicted new indication Hemophagocytic syndrome associated with an infection (evidence level L3). Approved use: Myeloproliferative neoplasm (including polycythemia vera and myelofib…"
+monitor_inn: "RUXOLITINIB"
+predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 ---
 
 # Ruxolitinib

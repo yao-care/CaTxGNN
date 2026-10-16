@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not specified in the Canadian licence data (products are topical anti…"
+monitor_inn: "POLYMYXIN B"
+predicted_indications: ["bronchitis", "laryngotracheitis", "conjunctivitis"]
 ---
 
 # Polymyxin B

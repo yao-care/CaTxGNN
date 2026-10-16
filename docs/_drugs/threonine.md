@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the licence records compiled for this report (products…"
+monitor_inn: "THREONINE"
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Threonine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Gilteritinib: predicted new indication Bulbar polio (evidence level L5). Approved use: Acute myeloid leukemia (including multiple AML subtypes)"
+monitor_inn: "GILTERITINIB"
+predicted_indications: ["bulbar polio"]
 ---
 
 # Gilteritinib

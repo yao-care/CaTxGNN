@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Entrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L3). Approved use: Not stated in the Canadian licence data compiled for this report (the…"
+monitor_inn: "Entrectinib"
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "thrombocytopenia", "cytomegalovirus infection", "pulmonary hypertension", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "female breast carcinoma", "transient neonatal thrombocytopenia", "malignant catarrh"]
 ---
 
 # Entrectinib

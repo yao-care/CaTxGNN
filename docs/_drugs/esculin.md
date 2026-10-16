@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Esculin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not specified in the available data"
+monitor_inn: "ESCULIN"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Esculin

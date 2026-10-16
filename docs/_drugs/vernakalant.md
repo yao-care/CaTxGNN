@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Vernakalant: predicted new indication Stroke disorder (evidence level L4). Approved use: Atrial fibrillation"
+monitor_inn: "Vernakalant"
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant

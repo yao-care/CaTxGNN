@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Yellow Fever Vaccine: predicted new indication Plasma cell myeloma (evidence level L4). Approved use: Not available in the Canadian license data compiled for this report (…"
+monitor_inn: "Yellow Fever Vaccine"
+predicted_indications: ["plasma cell myeloma", "indolent plasma cell myeloma", "heart disease", "Jeune syndrome situs inversus", "interventricular septum aneurysm", "Pierre Robin syndrome associated with a chromosomal anomaly", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
 ---
 
 # Yellow Fever Vaccine

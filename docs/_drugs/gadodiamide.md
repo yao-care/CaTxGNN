@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Gadodiamide: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not specified in the available licence data (gadodiamide is a diagnos…"
+monitor_inn: "Gadodiamide"
+predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "osteoarthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hemoglobinopathy", "brachyolmia", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 ---
 
 # Gadodiamide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Gadoteridol: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Gadoteridol"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "congestive heart failure", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "myosclerosis"]
 ---
 
 # Gadoteridol

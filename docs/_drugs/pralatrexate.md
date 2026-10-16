@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pralatrexate: predicted new indication Pleural mesothelioma (evidence level L3). Approved use: Peripheral T-cell lymphoma (mature T-cell and NK-cell non-Hodgkin lym…"
+monitor_inn: "PRALATREXATE"
+predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
 ---
 
 # Pralatrexate

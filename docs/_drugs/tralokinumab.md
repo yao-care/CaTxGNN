@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tralokinumab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not available in the compiled data"
+monitor_inn: "Tralokinumab"
+predicted_indications: ["diabetic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "mature cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Tralokinumab
