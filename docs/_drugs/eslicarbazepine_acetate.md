@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Eslicarbazepine Acetate
 parent: Model Prediction Only (L5)

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Fesoterodine Fumarate
 parent: Model Prediction Only (L5)

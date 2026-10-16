@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Etafedrine Hydrochloride
 parent: Model Prediction Only (L5)

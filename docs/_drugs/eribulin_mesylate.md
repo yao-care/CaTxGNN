@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Eribulin Mesylate
 parent: Model Prediction Only (L5)
