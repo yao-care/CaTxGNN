@@ -6,9 +6,9 @@ nav_order: 453
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Hyaluronidase: predicted new indication 99.89% (evidence level L5). Approved use: Esotropia"
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
+description: "Hyaluronidase: predicted new indication Esotropia (evidence level L5)."
 ---
 
 # Hyaluronidase
