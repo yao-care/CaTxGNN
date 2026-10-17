@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lodoxamide: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Vernal conjunctivitis, papillary conjunctivitis…"
 monitor_inn: "Lodoxamide"
-predicted_indications: ["rosacea conjunctivitis", "punctate epithelial keratoconjunctivitis", "infectious anterior uveitis", "idiopathic uveitis", "nail infection", "neurotrophic keratopathy", "blepharoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture"]
+predicted_indications: ["rosacea conjunctivitis", "punctate epithelial keratoconjunctivitis", "infectious anterior uveitis", "idiopathic uveitis", "nail infection", "neurotrophic keratopathy", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture"]
 ---
 
 # Lodoxamide

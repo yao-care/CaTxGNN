@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Butamben: predicted new indication Bronchitis (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "BUTAMBEN"
-predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "acne keloid", "cauda equina syndrome", "hydroa vacciniforme, familial", "diabetic retinopathy"]
+predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "acne keloid", "cauda equina syndrome", "hydroa vacciniforme, familial", "diabetic retinopathy"]
 ---
 
 # Butamben

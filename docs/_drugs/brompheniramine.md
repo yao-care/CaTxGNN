@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Brompheniramine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Allergic rhinitis"
-monitor_inn: "Brompheniramine"
-predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Brompheniramine

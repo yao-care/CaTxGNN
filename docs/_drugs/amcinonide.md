@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-13
 description: "Amcinonide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Eczematous and inflammatory skin conditions (atopic, contact…"
 monitor_inn: "AMCINONIDE"
-predicted_indications: ["vulvar inverted follicular keratosis", "hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides", "primary cutaneous B-cell lymphoma", "dermatitis", "2-hydroxyethyl methacrylate sensitization"]
+predicted_indications: ["vulvar inverted follicular keratosis", "hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides", "primary cutaneous B-cell lymphoma", "2-hydroxyethyl methacrylate sensitization"]
 ---
 
 # Amcinonide
