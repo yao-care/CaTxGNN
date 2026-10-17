@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Perampanel: predicted new indication Visual epilepsy (evidence level L5). Approved use: Partial epilepsy / partial motor epilepsy"
 monitor_inn: "PERAMPANEL"
-predicted_indications: ["visual epilepsy", "eating seizures", "audiogenic seizures", "thinking seizures", "startle epilepsy", "orgasm-induced seizures", "micturation-induced seizures", "reading seizures", "beta-ketothiolase deficiency", "status epilepticus"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Perampanel
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

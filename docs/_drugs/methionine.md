@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Methionine: predicted new indication Acne (disease) (evidence level L4). Approved use: Not specified in the available licence data (marketed as an amino aci…"
 monitor_inn: "Methionine"
-predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "craniostenosis cataract", "immature cataract", "cortical cataract", "mature cataract", "tetanic cataract", "diabetic cataract"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "craniostenosis cataract", "immature cataract", "cortical cataract", "mature cataract", "tetanic cataract", "diabetic cataract"]
 ---
 
 # Methionine
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

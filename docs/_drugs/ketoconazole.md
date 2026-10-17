@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Tinea pedis, seborrheic dermatitis, tinea corporis…"
-monitor_inn: "KETOCONAZOLE"
-predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole
@@ -27,7 +25,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

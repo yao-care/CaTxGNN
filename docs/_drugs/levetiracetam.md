@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Levetiracetam: predicted new indication Status epilepticus (evidence level L1). Approved use: Partial epilepsy"
 monitor_inn: "LEVETIRACETAM"
-predicted_indications: ["visual epilepsy", "micturation-induced seizures", "eating seizures", "orgasm-induced seizures", "thinking seizures", "audiogenic seizures", "startle epilepsy", "reading seizures", "status epilepticus", "beta-ketothiolase deficiency"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Levetiracetam
@@ -27,7 +27,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

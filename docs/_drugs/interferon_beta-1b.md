@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-13
 description: "Interferon Beta-1B: predicted new indication Hairy cell leukemia (evidence level L5). Approved use: Relapsing-remitting multiple sclerosis"
 monitor_inn: "INTERFERON BETA-1B"
-predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
+predicted_indications: ["hairy cell leukemia"]
 ---
 
 # Interferon Beta-1B
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

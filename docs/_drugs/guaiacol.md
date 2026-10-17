@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Guaiacol: predicted new indication Acute laryngopharyngitis (evidence level L5). Approved use: Pharyngitis, common cold, rhinitis, nasopharyngitis"
+monitor_inn: "GUAIACOL"
+predicted_indications: ["acute laryngopharyngitis"]
 ---
 
 # Guaiacol
@@ -25,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 
