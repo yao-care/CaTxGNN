@@ -7,8 +7,6 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Temazepam: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L3). Approved use: Insomnia"
-monitor_inn: "TEMAZEPAM"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Temazepam

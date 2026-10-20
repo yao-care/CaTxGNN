@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-13
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Asthma, bronchitis, anaphylaxis, hypotensive disorder…"
 monitor_inn: "EPINEPHRINE"
-predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
