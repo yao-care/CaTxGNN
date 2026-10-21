@@ -3,7 +3,7 @@ layout: default
 title: "Camphor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Camphor. Original indication: he TxGNN model predicts it may be effective for **.... 5 predicted indications."
+description: "Health news related to Camphor. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/camphor/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/camphor/
 ---
 
 <p class="key-answer" data-question="What news is there about Camphor?">
-<strong>Camphor</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Camphor</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,12 +26,8 @@ This page combines the AI-predicted indications for Camphor with the latest heal
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **3 publications** (case-level reports and a historical review), so the...</li>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>CREO-RECTAL ADULTES/ADULTS | Not listed | Not listed (99.0%)</li>
-<li>CREO-RECTAL ENFANTS/CHILDREN | Not listed | Not listed (99.0%)</li>
-<li>DEMO-CINEOL ADULTES/ADULTS | Not listed | Not listed (99.0%)</li>
-<li>DEMO-CINEOL ENFANTS/CHILDREN | Not listed | Not listed (99.0%)</li>
-<li>BLISTEX DCT | Not listed | Not listed (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/camphor/' | relative_url }}">View full drug report →</a></p>

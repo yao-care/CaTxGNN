@@ -27,7 +27,7 @@ This page combines the AI-predicted indications for Inclisiran with the latest h
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **potassium deficiency disease**, but **no clinical trials and no publications** currently support this prediction, so it should be treated as a...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>LEQVIO | Not available | Not available (99.0%)</li>
+<li>Potassium deficiency disease (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/inclisiran/' | relative_url }}">View full drug report →</a></p>

@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Triheptanoin with the latest
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Diabetes mellitus type 2 associated cataract | 99.98% | L5 | Speculative link through lens energy metabolism (99.0%)</li>
-<li>Mature cataract | 99.98% | L5 | Advanced structural opacity, surgically treated (99.0%)</li>
-<li>Immature cataract | 99.98% | L5 | Untested theoretical argument (99.0%)</li>
-<li>Tetanic cataract | 99.98% | L5 | Driven by calcium disturbance, no link (99.0%)</li>
-<li>Diabetic cataract | 99.97% | L5 | Overlaps with rank 2 (99.0%)</li>
-<li>Cortical cataract | 99.97% | L5 | Ion and water balance, no link (99.0%)</li>
-<li>Nuclear senile cataract | 99.97% | L5 | Speculative (99.0%)</li>
-<li>Senile cataract | 99.97% | L5 | Likely family-level artefact (99.0%)</li>
-<li>Antithrombin deficiency type 2 | 99.97% | L5 | No interaction with the coagulation cascade (99.0%)</li>
-<li>DOJOLVI | Not specified | Not specified (99.0%)</li>
+<li>Craniostenosis cataract (100.0%)</li>
+<li>Diabetes mellitus type 2 associated cataract (100.0%)</li>
+<li>Mature cataract (100.0%)</li>
+<li>Immature cataract (100.0%)</li>
+<li>Tetanic cataract (100.0%)</li>
+<li>Diabetic cataract (100.0%)</li>
+<li>Cortical cataract (100.0%)</li>
+<li>Nuclear senile cataract (100.0%)</li>
+<li>Senile cataract (100.0%)</li>
+<li>Antithrombin deficiency type 2 (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/triheptanoin/' | relative_url }}">View full drug report →</a></p>

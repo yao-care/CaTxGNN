@@ -3,7 +3,7 @@ layout: default
 title: "Tyrosine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tyrosine. Original indication: Nothing in the data compiled for this report conne.... 5 predicted indications."
+description: "Health news related to Tyrosine. Original indication: Nothing in the data compiled for this report conne.... 7 predicted indications."
 permalink: /news/tyrosine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tyrosine/
 ---
 
 <p class="key-answer" data-question="What news is there about Tyrosine?">
-<strong>Tyrosine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Tyrosine</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,12 +26,14 @@ This page combines the AI-predicted indications for Tyrosine with the latest hea
 <ul>
 <li><strong>Original indication</strong>: Nothing in the data compiled for this report connects tyrosine to compressive injury of the lumbosacral nerve roots, which is the basis of cauda equina syndrome. The high TxGNN score reflects a model...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>CLINIMIX | Not recorded | Not recorded (99.0%)</li>
-<li>CLINIMIX | Not recorded | Not recorded (99.0%)</li>
-<li>CLINIMIX | Not recorded | Not recorded (99.0%)</li>
-<li>TRAVASOL | Not recorded | Not recorded (99.0%)</li>
-<li>CLINIMIX | Not recorded | Not recorded (99.0%)</li>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Cauda equina syndrome (99.8%)</li>
+<li>Obsolete neurogenic bladder (99.5%)</li>
+<li>Angle-closure glaucoma (99.5%)</li>
+<li>Hyperthyroidism (99.5%)</li>
+<li>Postural orthostatic tachycardia syndrome (99.5%)</li>
+<li>Hyperthyroxinemia (99.5%)</li>
+<li>Resistance to thyroid hormone (THRB mutation) (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tyrosine/' | relative_url }}">View full drug report →</a></p>

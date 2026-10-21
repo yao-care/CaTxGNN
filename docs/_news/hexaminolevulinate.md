@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Hexaminolevulinate with the 
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>CYSVIEW | Not listed | Not listed (99.0%)</li>
+<li>Colonic neoplasm (98.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/hexaminolevulinate/' | relative_url }}">View full drug report →</a></p>

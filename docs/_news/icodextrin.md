@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Icodextrin with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Non-syndromic esophageal malformation | 97.41% | Congenital structural anomaly; no plausible mechanism, likely a graph artifact (99.0%)</li>
-<li>C1 inhibitor deficiency | 97.29% | No effect on C1-INH, kallikrein, or bradykinin pathways (99.0%)</li>
-<li>Potassium deficiency disease | 97.19% | Icodextrin does not supply or retain potassium (99.0%)</li>
-<li>Serpinopathy with toxic serpin polymerization | 97.06% | Not a chaperone, polymerization inhibitor, or protease modulator (99.0%)</li>
-<li>Hereditary angioedema with C1Inh deficiency | 96.81% | Overlaps with rank 3; likely shared graph neighbours (99.0%)</li>
-<li>Esophageal disease | 96.77% | Broad, nonspecific category match (99.0%)</li>
-<li>Familial visceral myopathy | 96.34% | No known effect on smooth muscle function (99.0%)</li>
-<li>Renal tubular acidosis | 95.81% | Only a weak, indirect link through the dialysis setting; does not correct tubular acid handling (99.0%)</li>
-<li>Vitamin deficiency disorder | 95.78% | Does not supply vitamins; dialysis nutrient loss is a safety concern (99.0%)</li>
-<li>EXTRANEAL | Not available | Not available (99.0%)</li>
+<li>Irritable bowel syndrome (98.5%)</li>
+<li>Non-syndromic esophageal malformation (97.4%)</li>
+<li>C1 inhibitor deficiency (97.3%)</li>
+<li>Potassium deficiency disease (97.2%)</li>
+<li>Serpinopathy with toxic serpin polymerization (97.1%)</li>
+<li>Hereditary angioedema with C1Inh deficiency (96.8%)</li>
+<li>Esophageal disease (96.8%)</li>
+<li>Familial visceral myopathy (96.3%)</li>
+<li>Renal tubular acidosis (95.8%)</li>
+<li>Vitamin deficiency disorder (95.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/icodextrin/' | relative_url }}">View full drug report →</a></p>

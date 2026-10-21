@@ -3,7 +3,7 @@ layout: default
 title: "Alpelisib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alpelisib. Original indication: he TxGNN model predicts it may be effective for **.... 3 predicted indications."
+description: "Health news related to Alpelisib. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/alpelisib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alpelisib/
 ---
 
 <p class="key-answer" data-question="What news is there about Alpelisib?">
-<strong>Alpelisib</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Alpelisib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,10 +26,8 @@ This page combines the AI-predicted indications for Alpelisib with the latest he
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and only **1 publication** (a case report of alpelisib-induced interstitial lung...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>PIQRAY | Not specified | Not specified (99.0%)</li>
-<li>PIQRAY | Not specified | Not specified (99.0%)</li>
-<li>PIQRAY | Not specified | Not specified (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Pulmonary hypertension (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/alpelisib/' | relative_url }}">View full drug report →</a></p>

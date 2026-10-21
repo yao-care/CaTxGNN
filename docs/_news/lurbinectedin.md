@@ -27,7 +27,7 @@ This page combines the AI-predicted indications for Lurbinectedin with the lates
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction, so it is a model-only hypothesis.</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>ZEPZELCA | Not specified | Not specified (99.0%)</li>
+<li>Multiple endocrine neoplasia (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lurbinectedin/' | relative_url }}">View full drug report →</a></p>

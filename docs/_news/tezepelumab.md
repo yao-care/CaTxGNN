@@ -3,7 +3,7 @@ layout: default
 title: "Tezepelumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tezepelumab. Original indication: he TxGNN model predicts it may be effective for **.... 2 predicted indications."
+description: "Health news related to Tezepelumab. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/tezepelumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tezepelumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Tezepelumab?">
-<strong>Tezepelumab</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Tezepelumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,9 +26,8 @@ This page combines the AI-predicted indications for Tezepelumab with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>TEZSPIRE | Not specified | Not specified (99.0%)</li>
-<li>TEZSPIRE | Not specified | Not specified (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Diabetic cataract (98.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tezepelumab/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Pemigatinib News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Pemigatinib. Original indication: . 3 predicted indications."
+description: "Health news related to Pemigatinib. Original indication: . 1 predicted indications."
 permalink: /news/pemigatinib/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/pemigatinib/
 ---
 
 <p class="key-answer" data-question="What news is there about Pemigatinib?">
-<strong>Pemigatinib</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Pemigatinib</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,8 @@ This page combines the AI-predicted indications for Pemigatinib with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>PEMAZYRE | Not specified | Not specified (99.0%)</li>
-<li>PEMAZYRE | Not specified | Not specified (99.0%)</li>
-<li>PEMAZYRE | Not specified | Not specified (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Multiple endocrine neoplasia (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/pemigatinib/' | relative_url }}">View full drug report →</a></p>

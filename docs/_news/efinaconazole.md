@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Efinaconazole with the lates
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>JUBLIA | Not specified | Not specified (99.0%)</li>
+<li>Astigmatism (50.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/efinaconazole/' | relative_url }}">View full drug report →</a></p>

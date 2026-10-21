@@ -3,7 +3,7 @@ layout: default
 title: "Hypromellose News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hypromellose. Original indication: . 5 predicted indications."
+description: "Health news related to Hypromellose. Original indication: . 1 predicted indications."
 permalink: /news/hypromellose/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hypromellose/
 ---
 
 <p class="key-answer" data-question="What news is there about Hypromellose?">
-<strong>Hypromellose</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Hypromellose</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ This page combines the AI-predicted indications for Hypromellose with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>ALCON TEARS 0.5% | Not listed | Not listed (99.0%)</li>
-<li>GENTEAL | Not listed | Not listed (99.0%)</li>
-<li>ALCON TEARS 1% | Not listed | Not listed (99.0%)</li>
-<li>TEARS NATURALE II | Not listed | Not listed (99.0%)</li>
-<li>ARTIFICIAL TEARS | Not listed | Not listed (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hepatic veno-occlusive disease-immunodeficiency syndrome (98.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/hypromellose/' | relative_url }}">View full drug report →</a></p>

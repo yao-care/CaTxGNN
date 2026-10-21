@@ -3,7 +3,7 @@ layout: default
 title: "Alirocumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alirocumab. Original indication: . 3 predicted indications."
+description: "Health news related to Alirocumab. Original indication: . 1 predicted indications."
 permalink: /news/alirocumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alirocumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Alirocumab?">
-<strong>Alirocumab</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Alirocumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,8 @@ This page combines the AI-predicted indications for Alirocumab with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>PRALUENT | Not listed | Not listed (99.0%)</li>
-<li>PRALUENT | Not listed | Not listed (99.0%)</li>
-<li>PRALUENT | Not listed | Not listed (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Ichthyosis, X-linked, without steroid sulfatase deficiency (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/alirocumab/' | relative_url }}">View full drug report →</a></p>

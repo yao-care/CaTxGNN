@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Evolocumab with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>REPATHA | Not specified | Not specified (99.0%)</li>
+<li>Symptomatic form of hemophilia in female carriers (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/evolocumab/' | relative_url }}">View full drug report →</a></p>

@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Zolbetuximab with the latest
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>VYLOY | Not specified | Not specified (99.0%)</li>
+<li>Diabetic cataract (98.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/zolbetuximab/' | relative_url }}">View full drug report →</a></p>

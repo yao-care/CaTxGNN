@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Teplizumab with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>TZIELD | Not listed | Not listed in the licence record (99.0%)</li>
+<li>Diabetic cataract (98.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/teplizumab/' | relative_url }}">View full drug report →</a></p>
