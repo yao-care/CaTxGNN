@@ -66,6 +66,13 @@ An ingredient must map to the DrugBank vocabulary to be included in prediction. 
 vaccines, excipients and other items not catalogued by DrugBank do not appear on this platform.
 </p>
 
+<p class="key-answer" data-question="Why does a drug report sometimes list fewer than 10 predictions?">
+<strong>Each report keeps up to 10 new predictions per drug</strong>, limited to pairs scoring at
+least 0.99 from the TxGNN model. Indications and contraindications already recorded for that drug
+in the knowledge graph are removed first, so a drug with many known uses can end up with a short
+list, sometimes none. Full scoring rules are on the <a href="{{ '/methodology/' | relative_url }}">Methodology</a> page.
+</p>
+
 ---
 
 ## About the Developer
