@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tisagenlecleucel: From CD19-Positive B-Cell Malignancy to Crohn's Colitis
+## Tisagenlecleucel: From CD19-Positive B-Cell Malignancy to Crohn's Colitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

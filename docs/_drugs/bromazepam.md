@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Bromazepam: From Its Marketed Benzodiazepine Use to Migraine Disorder
+## Bromazepam: From Its Marketed Benzodiazepine Use to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

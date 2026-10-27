@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salicylic Acid: From Topical Keratolytic and Anti-Inflammatory Uses to Papillary Conjunctivitis
+## Salicylic Acid: From Topical Keratolytic and Anti-Inflammatory Uses to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

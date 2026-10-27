@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Palivizumab: From Respiratory Syncytial Virus Infection to Benign Neoplasm of the Tongue
+## Palivizumab: From Respiratory Syncytial Virus Infection to Benign Neoplasm of the Tongue
+{: .text-alpha }
 
 ## One-Sentence Summary
 

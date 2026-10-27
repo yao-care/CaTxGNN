@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-# Chlorambucil: From Hodgkin Lymphoma and Chronic B-Cell Malignancies to Pregerminal Center CLL/SLL
+## Chlorambucil: From Hodgkin Lymphoma and Chronic B-Cell Malignancies to Pregerminal Center CLL/SLL
+{: .text-alpha }
 
 ## One-Sentence Summary
 

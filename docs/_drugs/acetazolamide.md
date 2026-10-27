@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acetazolamide: From Glaucoma and Heart Failure to Hypertrophic Cardiomyopathy
+## Acetazolamide: From Glaucoma and Heart Failure to Hypertrophic Cardiomyopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

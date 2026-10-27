@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Ivabradine: From an Unspecified Original Indication to Hypertrichosis
+## Ivabradine: From an Unspecified Original Indication to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

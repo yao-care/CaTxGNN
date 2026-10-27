@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mitomycin: From Pancreatic Adenocarcinoma to Osteoclastic Giant Cell Tumor of the Pancreas
+## Mitomycin: From Pancreatic Adenocarcinoma to Osteoclastic Giant Cell Tumor of the Pancreas
+{: .text-alpha }
 
 ## One-Sentence Summary
 

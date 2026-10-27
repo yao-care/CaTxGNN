@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Lamotrigine: From Epilepsy to Trigeminal Nerve Neoplasm (with Trigeminal Neuralgia as the Best-Supported Prediction)
+## Lamotrigine: From Epilepsy to Trigeminal Nerve Neoplasm (with Trigeminal Neuralgia as the Best-Supported Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

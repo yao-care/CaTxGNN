@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Fomepizole: From Methanol/Ethylene Glycol Poisoning to Sclerosing Cholangitis
+## Fomepizole: From Methanol/Ethylene Glycol Poisoning to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

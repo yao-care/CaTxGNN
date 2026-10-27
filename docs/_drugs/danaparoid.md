@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Danaparoid: From Anticoagulation to Glanzmann Thrombasthenia (Prediction Not Supported)
+## Danaparoid: From Anticoagulation to Glanzmann Thrombasthenia (Prediction Not Supported)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Guaiacol: From Pharyngitis to Acute Laryngopharyngitis
+## Guaiacol: From Pharyngitis to Acute Laryngopharyngitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lacosamide: From Epilepsy to Manic Bipolar Affective Disorder
+## Lacosamide: From Epilepsy to Manic Bipolar Affective Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

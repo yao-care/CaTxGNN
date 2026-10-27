@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Siponimod: From Its Approved Use to Pulmonary Hypertension
+## Siponimod: From Its Approved Use to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

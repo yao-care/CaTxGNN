@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-# Methadone: From Opioid Dependence and Pain Management to Tourette Syndrome
+## Methadone: From Opioid Dependence and Pain Management to Tourette Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

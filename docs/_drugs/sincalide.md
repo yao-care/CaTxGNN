@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sincalide: From Gallbladder and Pancreatic Diagnostic Use to Malignant Catarrh
+## Sincalide: From Gallbladder and Pancreatic Diagnostic Use to Malignant Catarrh
+{: .text-alpha }
 
 ## One-Sentence Summary
 

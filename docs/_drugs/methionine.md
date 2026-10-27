@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Methionine: From Parenteral Nutrition Component to Acne (Disease)
+## Methionine: From Parenteral Nutrition Component to Acne (Disease)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

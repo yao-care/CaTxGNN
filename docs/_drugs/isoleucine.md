@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Isoleucine: From Parenteral Nutrition Amino Acid Supplementation to Gastroparesis
+## Isoleucine: From Parenteral Nutrition Amino Acid Supplementation to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

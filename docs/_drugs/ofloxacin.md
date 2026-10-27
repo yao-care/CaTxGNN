@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ofloxacin: From Bacterial Infections to Septicemic Plague
+## Ofloxacin: From Bacterial Infections to Septicemic Plague
+{: .text-alpha }
 
 ## One-Sentence Summary
 

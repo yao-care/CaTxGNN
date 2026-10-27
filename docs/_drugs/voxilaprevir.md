@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Voxilaprevir: From Chronic Hepatitis C Infection to Hepatitis B Virus Infection
+## Voxilaprevir: From Chronic Hepatitis C Infection to Hepatitis B Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

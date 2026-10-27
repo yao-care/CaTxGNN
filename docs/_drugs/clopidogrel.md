@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clopidogrel: From Acute Coronary Syndrome to Migraine with Brainstem Aura
+## Clopidogrel: From Acute Coronary Syndrome to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

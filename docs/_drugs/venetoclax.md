@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Venetoclax: From Acute Lymphoblastic Leukemia and Richter Syndrome to IGHV-Mutated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+## Venetoclax: From Acute Lymphoblastic Leukemia and Richter Syndrome to IGHV-Mutated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

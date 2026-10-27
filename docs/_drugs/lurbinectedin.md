@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lurbinectedin: From an Oncology Product to Multiple Endocrine Neoplasia
+## Lurbinectedin: From an Oncology Product to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

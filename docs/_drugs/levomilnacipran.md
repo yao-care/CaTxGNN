@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Levomilnacipran: From Depressive Disorders to Benign Paroxysmal Torticollis of Infancy
+## Levomilnacipran: From Depressive Disorders to Benign Paroxysmal Torticollis of Infancy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

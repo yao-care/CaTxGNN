@@ -31,7 +31,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Obinutuzumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Pregerminal Center CLL/SLL
+## Obinutuzumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Pregerminal Center CLL/SLL
+{: .text-alpha }
 
 ## One-Sentence Summary
 

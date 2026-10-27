@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Benzatropine: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+## Benzatropine: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+{: .text-alpha }
 
 ## One-Sentence Summary
 

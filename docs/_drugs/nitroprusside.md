@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nitroprusside: From Hypertensive Emergencies (Intravenous Vasodilator) to Migraine Disorder
+## Nitroprusside: From Hypertensive Emergencies (Intravenous Vasodilator) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

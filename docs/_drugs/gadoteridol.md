@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gadoteridol: From MRI Contrast Imaging to Osteoarthritis Susceptibility
+## Gadoteridol: From MRI Contrast Imaging to Osteoarthritis Susceptibility
+{: .text-alpha }
 
 ## One-Sentence Summary
 

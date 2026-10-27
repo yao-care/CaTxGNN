@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Fremanezumab: From Migraine Disorder to Migraine with Brainstem Aura
+## Fremanezumab: From Migraine Disorder to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

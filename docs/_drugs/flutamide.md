@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Flutamide: From Prostate Cancer to Benign Reproductive System Neoplasm
+## Flutamide: From Prostate Cancer to Benign Reproductive System Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

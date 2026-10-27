@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Titanium Dioxide: From a Cosmetic and Sunscreen Ingredient to Drug-Induced Osteoporosis
+## Titanium Dioxide: From a Cosmetic and Sunscreen Ingredient to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Miglustat: From Gaucher Disease to Autosomal Ichthyosis Syndrome with Fatal Disease Course
+## Miglustat: From Gaucher Disease to Autosomal Ichthyosis Syndrome with Fatal Disease Course
+{: .text-alpha }
 
 ## One-Sentence Summary
 

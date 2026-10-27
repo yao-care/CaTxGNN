@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Misoprostol: From an Unspecified Original Indication to Amenorrhea
+## Misoprostol: From an Unspecified Original Indication to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

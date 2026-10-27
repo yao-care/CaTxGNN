@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Telotristat ethyl: From Diarrheal Disease to Cauda Equina Syndrome
+## Telotristat ethyl: From Diarrheal Disease to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gramicidin D: From Conjunctivitis to Postinfectious Vasculitis
+## Gramicidin D: From Conjunctivitis to Postinfectious Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

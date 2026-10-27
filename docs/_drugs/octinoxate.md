@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Octinoxate: From Topical Sun Protection to Osteoarthritis
+## Octinoxate: From Topical Sun Protection to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

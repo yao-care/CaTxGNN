@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Pralatrexate: From Peripheral T-Cell Lymphoma to Pleural Mesothelioma
+## Pralatrexate: From Peripheral T-Cell Lymphoma to Pleural Mesothelioma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

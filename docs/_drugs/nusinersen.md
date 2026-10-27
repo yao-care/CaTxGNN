@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nusinersen: From Spinal Muscular Atrophy to Neoplasm of Immature B and T Cells
+## Nusinersen: From Spinal Muscular Atrophy to Neoplasm of Immature B and T Cells
+{: .text-alpha }
 
 ## One-Sentence Summary
 

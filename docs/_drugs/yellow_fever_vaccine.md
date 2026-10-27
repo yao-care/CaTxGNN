@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Yellow Fever Vaccine: From Yellow Fever Prevention to Plasma Cell Myeloma
+## Yellow Fever Vaccine: From Yellow Fever Prevention to Plasma Cell Myeloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

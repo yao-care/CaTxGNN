@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dornase alfa: From Cystic Fibrosis to Paroxysmal Hemicrania
+## Dornase alfa: From Cystic Fibrosis to Paroxysmal Hemicrania
+{: .text-alpha }
 
 ## One-Sentence Summary
 

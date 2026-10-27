@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Busulfan: From Conditioning Therapy in Hematologic Malignancy to Myelodysplastic Syndrome
+## Busulfan: From Conditioning Therapy in Hematologic Malignancy to Myelodysplastic Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

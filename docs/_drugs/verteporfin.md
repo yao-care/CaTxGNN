@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Verteporfin: From Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+## Verteporfin: From Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aprepitant: From an Approved Antiemetic Product to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Aprepitant: From an Approved Antiemetic Product to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

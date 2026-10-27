@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Pregabalin: From Postherpetic Neuralgia and Fibromyalgia to Migraine Disorder
+## Pregabalin: From Postherpetic Neuralgia and Fibromyalgia to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

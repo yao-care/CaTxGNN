@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Tolvaptan: From SIADH-Related Hyponatraemia and Polycystic Kidney Disease to Polycystic Kidney Disease 3 with or without Polycystic Liver Disease
+## Tolvaptan: From SIADH-Related Hyponatraemia and Polycystic Kidney Disease to Polycystic Kidney Disease 3 with or without Polycystic Liver Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

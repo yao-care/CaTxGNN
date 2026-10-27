@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Romidepsin: From Cutaneous T-Cell Lymphoma to Dermatofibrosarcoma Protuberans
+## Romidepsin: From Cutaneous T-Cell Lymphoma to Dermatofibrosarcoma Protuberans
+{: .text-alpha }
 
 ## One-Sentence Summary
 

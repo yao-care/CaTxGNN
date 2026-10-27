@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Patisiran: From Its Approved Use to Dermatitis
+## Patisiran: From Its Approved Use to Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

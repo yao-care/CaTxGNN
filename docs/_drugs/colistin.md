@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Colistin: From Gram-Negative Infections (E. coli Infection, Otitis Externa) to Sinusitis
+## Colistin: From Gram-Negative Infections (E. coli Infection, Otitis Externa) to Sinusitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

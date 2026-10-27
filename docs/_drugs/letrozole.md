@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Letrozole: From Breast Cancer to Female Breast Carcinoma (Top-Ranked Prediction)
+## Letrozole: From Breast Cancer to Female Breast Carcinoma (Top-Ranked Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

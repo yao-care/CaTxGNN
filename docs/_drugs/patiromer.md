@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Patiromer: From Hyperkalaemia Management to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+## Patiromer: From Hyperkalaemia Management to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

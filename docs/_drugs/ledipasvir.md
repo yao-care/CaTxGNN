@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Ledipasvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+## Ledipasvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

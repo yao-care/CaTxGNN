@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Meperidine Hydrochloride: Repurposing Evaluation — No TxGNN Predictions Available
+## Meperidine Hydrochloride: Repurposing Evaluation — No TxGNN Predictions Available
+{: .text-alpha }
 
 ---
 

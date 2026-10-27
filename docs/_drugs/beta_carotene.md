@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Beta Carotene: From an Unspecified Original Indication to Acne
+## Beta Carotene: From an Unspecified Original Indication to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

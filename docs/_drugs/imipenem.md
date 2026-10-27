@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Imipenem: From Bacterial Pneumonia to Diffuse Scleroderma
+## Imipenem: From Bacterial Pneumonia to Diffuse Scleroderma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

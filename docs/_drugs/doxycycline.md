@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Doxycycline: From Bacterial Infections to Post-Bacterial Disorder
+## Doxycycline: From Bacterial Infections to Post-Bacterial Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

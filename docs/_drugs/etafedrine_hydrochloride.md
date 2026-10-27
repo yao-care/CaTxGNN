@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Etafedrine Hydrochloride: Drug Repurposing Evaluation (Data Insufficient for Full Assessment)
+## Etafedrine Hydrochloride: Drug Repurposing Evaluation (Data Insufficient for Full Assessment)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

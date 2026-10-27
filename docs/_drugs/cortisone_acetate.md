@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+## Cortisone Acetate: From Autoimmune and Inflammatory Conditions to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Dexpanthenol: From Paralytic Ileus and Skin Disease to Anorectal Stricture
+## Dexpanthenol: From Paralytic Ileus and Skin Disease to Anorectal Stricture
+{: .text-alpha }
 
 ## One-Sentence Summary
 

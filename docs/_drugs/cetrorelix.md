@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cetrorelix: From Ovarian Stimulation Support to Hypertrichosis
+## Cetrorelix: From Ovarian Stimulation Support to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

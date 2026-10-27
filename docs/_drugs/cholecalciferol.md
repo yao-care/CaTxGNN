@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Cholecalciferol: From Osteoporosis and Vitamin D Deficiency to Familial Isolated Hypoparathyroidism (PTH Secretion Defect)
+## Cholecalciferol: From Osteoporosis and Vitamin D Deficiency to Familial Isolated Hypoparathyroidism (PTH Secretion Defect)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

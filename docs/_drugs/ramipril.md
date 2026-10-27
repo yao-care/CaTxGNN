@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ramipril: From Hypertension to Pulmonary Hypertension (Multifactorial / Unclear Mechanism)
+## Ramipril: From Hypertension to Pulmonary Hypertension (Multifactorial / Unclear Mechanism)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

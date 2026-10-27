@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cetuximab: From Colorectal and Head and Neck Cancer to Bronchial Adenomas/Carcinoids (Childhood)
+## Cetuximab: From Colorectal and Head and Neck Cancer to Bronchial Adenomas/Carcinoids (Childhood)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

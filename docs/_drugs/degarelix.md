@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Degarelix: From Its Approved Use to Hypertrichosis (Prediction Only)
+## Degarelix: From Its Approved Use to Hypertrichosis (Prediction Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

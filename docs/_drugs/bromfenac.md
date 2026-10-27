@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Bromfenac: From Postoperative Ocular Inflammation to Eye Disease (Dry Eye and VEGF-Driven Maculopathies)
+## Bromfenac: From Postoperative Ocular Inflammation to Eye Disease (Dry Eye and VEGF-Driven Maculopathies)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

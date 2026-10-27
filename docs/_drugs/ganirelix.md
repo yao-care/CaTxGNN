@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ganirelix: From Assisted Reproduction (Prevention of Premature Ovulation) to Hypertrichosis
+## Ganirelix: From Assisted Reproduction (Prevention of Premature Ovulation) to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

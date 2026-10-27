@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Pegfilgrastim: From Neutropenia Support (Original Indication Not Listed) to Severe Nonproliferative Diabetic Retinopathy
+## Pegfilgrastim: From Neutropenia Support (Original Indication Not Listed) to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

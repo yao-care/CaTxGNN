@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Bupropion: From Depression and Nicotine Dependence to Attention Deficit Hyperactivity Disorder
+## Bupropion: From Depression and Nicotine Dependence to Attention Deficit Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

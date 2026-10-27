@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inosine Pranobex: From an Unspecified Original Indication to Osteoarthritis
+## Inosine Pranobex: From an Unspecified Original Indication to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Tetryzoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+## Tetryzoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

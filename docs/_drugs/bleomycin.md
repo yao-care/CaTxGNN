@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Bleomycin: From Lymphoma to Reticulum Cell Sarcoma
+## Bleomycin: From Lymphoma to Reticulum Cell Sarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

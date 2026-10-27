@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-# Temsirolimus: From Renal Cell Carcinoma and Mantle Cell Lymphoma to Liposarcoma
+## Temsirolimus: From Renal Cell Carcinoma and Mantle Cell Lymphoma to Liposarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

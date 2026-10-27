@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Eslicarbazepine Acetate: Repurposing Evaluation — Insufficient Data for Full Assessment
+## Eslicarbazepine Acetate: Repurposing Evaluation — Insufficient Data for Full Assessment
+{: .text-alpha }
 
 ---
 

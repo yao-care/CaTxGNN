@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Deoxycholic Acid: From an Unspecified Original Indication to Diabetic Nephropathy
+## Deoxycholic Acid: From an Unspecified Original Indication to Diabetic Nephropathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

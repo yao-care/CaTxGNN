@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Turoctocog Alfa: From Hemophilia to Primary Release Disorder of Platelets
+## Turoctocog Alfa: From Hemophilia to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

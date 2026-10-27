@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ruxolitinib: From Myeloproliferative Neoplasms to Hemophagocytic Syndrome Associated with Infection
+## Ruxolitinib: From Myeloproliferative Neoplasms to Hemophagocytic Syndrome Associated with Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

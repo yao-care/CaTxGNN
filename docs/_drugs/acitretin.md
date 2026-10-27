@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-# Acitretin: From Its Approved Indication to Acne (Disease)
+## Acitretin: From Its Approved Indication to Acne (Disease)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Methotrimeprazine: From an Antipsychotic/Sedative Phenothiazine to Manic Bipolar Affective Disorder
+## Methotrimeprazine: From an Antipsychotic/Sedative Phenothiazine to Manic Bipolar Affective Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

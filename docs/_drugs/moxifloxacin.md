@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Moxifloxacin: From Bacterial Infections (Streptococcal Infection, Pneumonia, Plague) to Polyclonal Hyperviscosity Syndrome
+## Moxifloxacin: From Bacterial Infections (Streptococcal Infection, Pneumonia, Plague) to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

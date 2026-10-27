@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bimekizumab: From an Approved Immune-Mediated Indication to Diabetic Cataract
+## Bimekizumab: From an Approved Immune-Mediated Indication to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

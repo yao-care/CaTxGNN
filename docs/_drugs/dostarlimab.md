@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dostarlimab: From an Unspecified Original Indication to Cervical Adenofibroma
+## Dostarlimab: From an Unspecified Original Indication to Cervical Adenofibroma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

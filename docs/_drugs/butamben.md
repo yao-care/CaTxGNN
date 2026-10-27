@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Butamben: From Dermatitis to Bronchitis
+## Butamben: From Dermatitis to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

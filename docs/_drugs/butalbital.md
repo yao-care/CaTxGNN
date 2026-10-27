@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Butalbital: From Tension Headache to Visual Epilepsy
+## Butalbital: From Tension Headache to Visual Epilepsy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

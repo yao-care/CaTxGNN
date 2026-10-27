@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Imatinib: From Systemic Mastocytosis and Gastrointestinal Stromal Tumor to Heart Fibrosarcoma
+## Imatinib: From Systemic Mastocytosis and Gastrointestinal Stromal Tumor to Heart Fibrosarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

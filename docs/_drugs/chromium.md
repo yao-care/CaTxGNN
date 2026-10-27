@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chromium: From an Unspecified Original Indication to Osteoarthritis (Top Prediction), with Rheumatoid Arthritis as the Best-Supported Candidate
+## Chromium: From an Unspecified Original Indication to Osteoarthritis (Top Prediction), with Rheumatoid Arthritis as the Best-Supported Candidate
+{: .text-alpha }
 
 ## One-Sentence Summary
 

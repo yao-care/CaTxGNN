@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pemigatinib: From an FGFR-Driven Cancer Indication to Multiple Endocrine Neoplasia
+## Pemigatinib: From an FGFR-Driven Cancer Indication to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

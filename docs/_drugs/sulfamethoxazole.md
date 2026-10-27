@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Sulfamethoxazole: From Bacterial Infections to Acute Contagious Conjunctivitis
+## Sulfamethoxazole: From Bacterial Infections to Acute Contagious Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

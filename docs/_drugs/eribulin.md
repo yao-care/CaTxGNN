@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eribulin: From Liposarcoma to Fibroblastic Neoplasm
+## Eribulin: From Liposarcoma to Fibroblastic Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

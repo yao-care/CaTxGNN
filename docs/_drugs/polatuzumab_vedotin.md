@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Polatuzumab Vedotin: From B-Cell Malignancy (Original Indication Not Listed) to HER2-Positive Breast Carcinoma
+## Polatuzumab Vedotin: From B-Cell Malignancy (Original Indication Not Listed) to HER2-Positive Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Eszopiclone: Sedative-Hypnotic Agent — Insufficient Data for Repurposing Evaluation
+## Eszopiclone: Sedative-Hypnotic Agent — Insufficient Data for Repurposing Evaluation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

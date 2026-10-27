@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Palbociclib: From Breast Cancer to Myeloid Leukemia
+## Palbociclib: From Breast Cancer to Myeloid Leukemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

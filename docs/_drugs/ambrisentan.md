@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ambrisentan: From Pulmonary Arterial Hypertension to Pulmonary Arteriovenous Malformation
+## Ambrisentan: From Pulmonary Arterial Hypertension to Pulmonary Arteriovenous Malformation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

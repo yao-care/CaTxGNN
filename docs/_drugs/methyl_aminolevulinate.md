@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methyl Aminolevulinate: From Its Marketed Photodynamic Use to Hereditary Hemochromatosis (Top TxGNN Prediction) and Acne (Best-Supported Candidate)
+## Methyl Aminolevulinate: From Its Marketed Photodynamic Use to Hereditary Hemochromatosis (Top TxGNN Prediction) and Acne (Best-Supported Candidate)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pibrentasvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+## Pibrentasvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

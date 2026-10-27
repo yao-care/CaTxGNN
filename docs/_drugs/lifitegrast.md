@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Lifitegrast: From Dry Eye Syndrome to Penile Fibromatosis
+## Lifitegrast: From Dry Eye Syndrome to Penile Fibromatosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

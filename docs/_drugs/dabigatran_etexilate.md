@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Dabigatran Etexilate: From Anticoagulation to Sclerosing Cholangitis
+## Dabigatran Etexilate: From Anticoagulation to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Estradiol: Evaluation Incomplete — No Predicted Indications Available
+## Estradiol: Evaluation Incomplete — No Predicted Indications Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

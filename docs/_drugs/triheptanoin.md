@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triheptanoin: From Long-Chain Fatty Acid Oxidation Disorders to Craniostenosis Cataract
+## Triheptanoin: From Long-Chain Fatty Acid Oxidation Disorders to Craniostenosis Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

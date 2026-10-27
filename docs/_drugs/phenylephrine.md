@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Phenylephrine: From Allergic Rhinitis and the Common Cold to Nasal Cavity Disease
+## Phenylephrine: From Allergic Rhinitis and the Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

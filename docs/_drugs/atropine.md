@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Atropine: From Its Approved Uses to Migraine Disorder
+## Atropine: From Its Approved Uses to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

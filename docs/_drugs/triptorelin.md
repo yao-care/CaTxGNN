@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Triptorelin: From Hormone-Dependent Conditions to Precocious Puberty
+## Triptorelin: From Hormone-Dependent Conditions to Precocious Puberty
+{: .text-alpha }
 
 ## One-Sentence Summary
 

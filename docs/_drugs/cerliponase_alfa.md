@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cerliponase alfa: From Neuronal Ceroid Lipofuscinosis to Scheie Syndrome
+## Cerliponase alfa: From Neuronal Ceroid Lipofuscinosis to Scheie Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

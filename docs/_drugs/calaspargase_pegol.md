@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calaspargase Pegol: From Acute Lymphoblastic Leukemia Treatment to Insomnia (Model Prediction Only)
+## Calaspargase Pegol: From Acute Lymphoblastic Leukemia Treatment to Insomnia (Model Prediction Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

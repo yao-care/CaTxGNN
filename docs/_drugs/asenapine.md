@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Asenapine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy (Top TxGNN Prediction)
+## Asenapine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy (Top TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

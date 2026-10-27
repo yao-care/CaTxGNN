@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isosorbide Dinitrate: From Its Current Canadian Licence to Alopecia (Top-Ranked Prediction) — and a Better-Supported Lead in Pulmonary Hypertension
+## Isosorbide Dinitrate: From Its Current Canadian Licence to Alopecia (Top-Ranked Prediction) — and a Better-Supported Lead in Pulmonary Hypertension
+{: .text-alpha }
 
 *Note: The top-ranked TxGNN prediction (alopecia) has no supporting evidence. The most evidence-backed candidates among the top 10 predictions are pulmonary hypertension (rank 4) and vascular disease (rank 6). This report covers the rank 1 prediction as required and discusses these two alongside it.*
 

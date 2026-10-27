@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Thyroid, porcine: From Thyroid Hormone Replacement to Migraine Disorder
+## Thyroid, porcine: From Thyroid Hormone Replacement to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

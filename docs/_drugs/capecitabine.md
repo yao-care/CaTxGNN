@@ -31,7 +31,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capecitabine: From Gastric Cancer to Gastric Adenocarcinoma and Proximal Polyposis of the Stomach
+## Capecitabine: From Gastric Cancer to Gastric Adenocarcinoma and Proximal Polyposis of the Stomach
+{: .text-alpha }
 
 ## One-Sentence Summary
 

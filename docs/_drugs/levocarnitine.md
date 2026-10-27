@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Levocarnitine: From Carnitine Deficiency Support to Congestive Heart Failure
+## Levocarnitine: From Carnitine Deficiency Support to Congestive Heart Failure
+{: .text-alpha }
 
 ## One-Sentence Summary
 

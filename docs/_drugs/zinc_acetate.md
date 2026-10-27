@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Acetate: From Dermatitis and Wilson Disease to Severe Nonproliferative Diabetic Retinopathy
+## Zinc Acetate: From Dermatitis and Wilson Disease to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

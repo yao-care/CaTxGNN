@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Monopotassium Phosphate: From an Electrolyte Replacement Product to Renal Tubular Acidosis
+## Monopotassium Phosphate: From an Electrolyte Replacement Product to Renal Tubular Acidosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

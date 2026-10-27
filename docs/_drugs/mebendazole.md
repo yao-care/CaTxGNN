@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Mebendazole: From Enterobiasis, Ascaridiasis and Trichuriasis to Alveolar Echinococcosis
+## Mebendazole: From Enterobiasis, Ascaridiasis and Trichuriasis to Alveolar Echinococcosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

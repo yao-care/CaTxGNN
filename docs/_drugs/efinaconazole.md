@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Efinaconazole: From Tinea Unguium to Astigmatism
+## Efinaconazole: From Tinea Unguium to Astigmatism
+{: .text-alpha }
 
 ## One-Sentence Summary
 

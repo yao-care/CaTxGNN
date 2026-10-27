@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Fesoterodine Fumarate: From Overactive Bladder — Repurposing Prediction Unavailable
+## Fesoterodine Fumarate: From Overactive Bladder — Repurposing Prediction Unavailable
+{: .text-alpha }
 
 ## One-Sentence Summary
 

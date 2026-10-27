@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phentolamine: From Pheochromocytoma and Peripheral Vascular Disease to Visceral Calciphylaxis
+## Phentolamine: From Pheochromocytoma and Peripheral Vascular Disease to Visceral Calciphylaxis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

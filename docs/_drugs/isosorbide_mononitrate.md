@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isosorbide Mononitrate: From Angina-Type Cardiovascular Use to Hypertrichosis
+## Isosorbide Mononitrate: From Angina-Type Cardiovascular Use to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

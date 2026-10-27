@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Protamine Sulfate: From Heparin Neutralization to Marfanoid Habitus-Inguinal Hernia-Advanced Bone Age Syndrome
+## Protamine Sulfate: From Heparin Neutralization to Marfanoid Habitus-Inguinal Hernia-Advanced Bone Age Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

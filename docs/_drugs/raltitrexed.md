@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Raltitrexed: From Colorectal Cancer to Sclerosing Cholangitis
+## Raltitrexed: From Colorectal Cancer to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

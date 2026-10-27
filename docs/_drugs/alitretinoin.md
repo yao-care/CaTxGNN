@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alitretinoin: From Chronic Hand Eczema to Amenorrhea
+## Alitretinoin: From Chronic Hand Eczema to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

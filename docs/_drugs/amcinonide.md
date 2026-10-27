@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Amcinonide: From Dermatitis and Other Inflammatory Skin Conditions to Vulvar Inverted Follicular Keratosis
+## Amcinonide: From Dermatitis and Other Inflammatory Skin Conditions to Vulvar Inverted Follicular Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

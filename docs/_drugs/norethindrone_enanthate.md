@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Norethindrone Enanthate: From Hormonal Contraception to Antithrombin Deficiency Type 2
+## Norethindrone Enanthate: From Hormonal Contraception to Antithrombin Deficiency Type 2
+{: .text-alpha }
 
 ## One-Sentence Summary
 

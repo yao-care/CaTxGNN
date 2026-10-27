@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Cysteamine: From Cystinosis to Ocular Cystinosis
+## Cysteamine: From Cystinosis to Ocular Cystinosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

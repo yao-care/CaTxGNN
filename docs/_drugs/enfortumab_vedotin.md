@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Enfortumab Vedotin: From Its Approved Use to Leprosy (Top TxGNN Prediction)
+## Enfortumab Vedotin: From Its Approved Use to Leprosy (Top TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

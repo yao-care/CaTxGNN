@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mexiletine: From Antiarrhythmic Therapy to Migraine and Headache Disorders
+## Mexiletine: From Antiarrhythmic Therapy to Migraine and Headache Disorders
+{: .text-alpha }
 
 ## One-Sentence Summary
 

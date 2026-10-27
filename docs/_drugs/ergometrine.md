@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ergometrine: From Uterine Smooth Muscle Contraction to Hypertrichosis
+## Ergometrine: From Uterine Smooth Muscle Contraction to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

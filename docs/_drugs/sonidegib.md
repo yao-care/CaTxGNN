@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sonidegib: From Basal Cell Carcinoma to Skin Cancer (Advanced Basal Cell Carcinoma)
+## Sonidegib: From Basal Cell Carcinoma to Skin Cancer (Advanced Basal Cell Carcinoma)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Hexaminolevulinate: From Bladder Imaging Agent to Colonic Neoplasm
+## Hexaminolevulinate: From Bladder Imaging Agent to Colonic Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

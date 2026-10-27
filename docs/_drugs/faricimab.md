@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Faricimab (DB15303): Insufficient Data to Complete Drug Repurposing Assessment
+## Faricimab (DB15303): Insufficient Data to Complete Drug Repurposing Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Axicabtagene ciloleucel: From a CD19-Directed CAR-T Therapy to Crohn's Colitis
+## Axicabtagene ciloleucel: From a CD19-Directed CAR-T Therapy to Crohn's Colitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

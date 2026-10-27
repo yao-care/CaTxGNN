@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Ivosidenib: From Myeloid Leukemia to Bulbar Polio
+## Ivosidenib: From Myeloid Leukemia to Bulbar Polio
+{: .text-alpha }
 
 ## One-Sentence Summary
 

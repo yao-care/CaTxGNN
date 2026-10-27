@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Hydrocodone: From Allergic Rhinitis and Upper Respiratory Conditions to Nasal Cavity Disease
+## Hydrocodone: From Allergic Rhinitis and Upper Respiratory Conditions to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

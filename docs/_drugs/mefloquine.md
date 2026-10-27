@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Mefloquine (DB00358): Drug Repurposing Analysis — No Predictions Available
+## Mefloquine (DB00358): Drug Repurposing Analysis — No Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

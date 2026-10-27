@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bicalutamide: From Prostate Cancer to Hypertrichosis
+## Bicalutamide: From Prostate Cancer to Hypertrichosis
+{: .text-alpha }
 
 The evidence pack lists the top prediction as hypertrichosis, but the only meaningful clinical evidence supports female breast carcinoma (rank 9). Both are covered below, with hypertrichosis as the headline per the rank-1 prediction.
 

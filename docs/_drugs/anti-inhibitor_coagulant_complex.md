@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Anti-Inhibitor Coagulant Complex: From an Unspecified Original Indication to Glanzmann Thrombasthenia
+## Anti-Inhibitor Coagulant Complex: From an Unspecified Original Indication to Glanzmann Thrombasthenia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

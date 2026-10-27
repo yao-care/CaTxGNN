@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clozapine: From an Unspecified Original Indication to Manic Bipolar Affective Disorder
+## Clozapine: From an Unspecified Original Indication to Manic Bipolar Affective Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

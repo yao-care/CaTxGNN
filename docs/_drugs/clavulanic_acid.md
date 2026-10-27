@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Clavulanic Acid: From Bacterial Infections to Gonococcal Urethritis
+## Clavulanic Acid: From Bacterial Infections to Gonococcal Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

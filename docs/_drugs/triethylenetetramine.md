@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triethylenetetramine: From Renal Cell Carcinoma and Wilson Disease to Anaplastic Thyroid Carcinoma
+## Triethylenetetramine: From Renal Cell Carcinoma and Wilson Disease to Anaplastic Thyroid Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

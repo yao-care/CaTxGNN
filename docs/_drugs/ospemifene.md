@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ospemifene: From Psychologic Dyspareunia to Leprosy
+## Ospemifene: From Psychologic Dyspareunia to Leprosy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dobutamine: From Cardiac Inotropic Support to Alopecia (Prediction Only)
+## Dobutamine: From Cardiac Inotropic Support to Alopecia (Prediction Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

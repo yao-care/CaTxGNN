@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tenapanor: From Constipation-Predominant Irritable Bowel Syndrome to Candidiasis
+## Tenapanor: From Constipation-Predominant Irritable Bowel Syndrome to Candidiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

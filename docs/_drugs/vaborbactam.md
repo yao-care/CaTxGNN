@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vaborbactam: From Bacterial Infection Treatment to Osteoarthritis
+## Vaborbactam: From Bacterial Infection Treatment to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

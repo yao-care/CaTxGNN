@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cromoglicic Acid: From Allergic and Mast Cell Conditions to Ulcerative Proctosigmoiditis
+## Cromoglicic Acid: From Allergic and Mast Cell Conditions to Ulcerative Proctosigmoiditis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

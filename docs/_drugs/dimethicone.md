@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dimethicone: From Gas Relief and Skin Protection to Insomnia
+## Dimethicone: From Gas Relief and Skin Protection to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Articaine: From Local Dental Anesthesia to Gout
+## Articaine: From Local Dental Anesthesia to Gout
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -36,7 +36,8 @@ The `data-report` skill doesn't apply here — this task is generating a structu
 
 ---
 
-# Erlotinib: Drug Repurposing Evaluation — Incomplete Evidence Pack
+## Erlotinib: Drug Repurposing Evaluation — Incomplete Evidence Pack
+{: .text-alpha }
 
 ## One-Sentence Summary
 

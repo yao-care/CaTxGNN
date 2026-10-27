@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Methylphenidate: From ADHD to Specific Developmental Disorder
+## Methylphenidate: From ADHD to Specific Developmental Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Gadodiamide: From a Diagnostic MRI Contrast Agent to Rheumatoid Arthritis
+## Gadodiamide: From a Diagnostic MRI Contrast Agent to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

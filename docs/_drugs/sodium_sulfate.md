@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Sodium Sulfate: From Osmotic Bowel Preparation to Dyspepsia
+## Sodium Sulfate: From Osmotic Bowel Preparation to Dyspepsia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

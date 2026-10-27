@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Clofedanol: From Allergic and Upper Respiratory Tract Conditions to Nasal Cavity Disease
+## Clofedanol: From Allergic and Upper Respiratory Tract Conditions to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

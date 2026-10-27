@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Hydroquinone: From Pigmentation Disorders (Topical Depigmenting Agent) to Seborrheic Keratosis
+## Hydroquinone: From Pigmentation Disorders (Topical Depigmenting Agent) to Seborrheic Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

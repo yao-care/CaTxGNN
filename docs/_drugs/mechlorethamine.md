@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-# Mechlorethamine: From Mycosis Fungoides and Lymphoma to Lymph Node Cancer
+## Mechlorethamine: From Mycosis Fungoides and Lymphoma to Lymph Node Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

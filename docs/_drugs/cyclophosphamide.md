@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Cyclophosphamide: From Lymphoma and Other Cancers to Myeloid Leukemia
+## Cyclophosphamide: From Lymphoma and Other Cancers to Myeloid Leukemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

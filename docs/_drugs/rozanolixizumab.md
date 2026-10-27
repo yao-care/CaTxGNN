@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rozanolixizumab: From Myasthenia Gravis (Anti-FcRn Therapy) to Bronchitis
+## Rozanolixizumab: From Myasthenia Gravis (Anti-FcRn Therapy) to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

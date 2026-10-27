@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diclofenac: From Actinic Keratosis and Inflammatory Arthritis to Hypotrichosis Simplex of the Scalp
+## Diclofenac: From Actinic Keratosis and Inflammatory Arthritis to Hypotrichosis Simplex of the Scalp
+{: .text-alpha }
 
 ## One-Sentence Summary
 

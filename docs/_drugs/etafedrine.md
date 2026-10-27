@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Etafedrine: From an Unspecified Original Indication to Bronchitis
+## Etafedrine: From an Unspecified Original Indication to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

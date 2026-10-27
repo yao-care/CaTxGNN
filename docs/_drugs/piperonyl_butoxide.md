@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Piperonyl Butoxide: From Lice Infestation to Scabies
+## Piperonyl Butoxide: From Lice Infestation to Scabies
+{: .text-alpha }
 
 ## One-Sentence Summary
 

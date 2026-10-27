@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Cyclosporine: From Rheumatoid Arthritis and Dry Eye to Chronic Granulomatous Disease
+## Cyclosporine: From Rheumatoid Arthritis and Dry Eye to Chronic Granulomatous Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

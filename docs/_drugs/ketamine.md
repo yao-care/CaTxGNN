@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ketamine: From an Approved Anaesthetic/Analgesic Use to Headache Disorder
+## Ketamine: From an Approved Anaesthetic/Analgesic Use to Headache Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

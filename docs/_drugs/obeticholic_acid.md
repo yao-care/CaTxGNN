@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Obeticholic Acid: From Its Approved Use to Rheumatoid Arthritis
+## Obeticholic Acid: From Its Approved Use to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

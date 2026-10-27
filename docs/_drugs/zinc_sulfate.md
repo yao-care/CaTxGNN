@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-# Zinc Sulfate: From Topical and Over-the-Counter Uses to Pharyngitis
+## Zinc Sulfate: From Topical and Over-the-Counter Uses to Pharyngitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Phenylalanine: From Parenteral Amino Acid Nutrition to Sclerosing Cholangitis
+## Phenylalanine: From Parenteral Amino Acid Nutrition to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

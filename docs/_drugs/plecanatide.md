@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Plecanatide: From Constipation Treatment to Hypertrichosis
+## Plecanatide: From Constipation Treatment to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

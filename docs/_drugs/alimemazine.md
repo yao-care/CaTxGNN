@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Alimemazine: From Urticaria and Allergic Conditions to Allergic Urticaria
+## Alimemazine: From Urticaria and Allergic Conditions to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

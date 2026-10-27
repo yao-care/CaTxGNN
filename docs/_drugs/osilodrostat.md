@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Osilodrostat: From Cushing Disease to Familial Generalized Lentiginosis
+## Osilodrostat: From Cushing Disease to Familial Generalized Lentiginosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

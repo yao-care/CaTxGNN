@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Catridecacog: From Factor XIII A-Subunit Deficiency to Primary Release Disorder of Platelets
+## Catridecacog: From Factor XIII A-Subunit Deficiency to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

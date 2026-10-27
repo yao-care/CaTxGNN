@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Tetradecyl Sulfate: From Varicose Disease to Esophageal Varices with Bleeding
+## Sodium Tetradecyl Sulfate: From Varicose Disease to Esophageal Varices with Bleeding
+{: .text-alpha }
 
 ## One-Sentence Summary
 

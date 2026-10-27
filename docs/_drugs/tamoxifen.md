@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tamoxifen: From Female Breast Carcinoma to Mammary Paget Disease
+## Tamoxifen: From Female Breast Carcinoma to Mammary Paget Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Framycetin: From an Antibacterial Aminoglycoside to Sclerosing Cholangitis
+## Framycetin: From an Antibacterial Aminoglycoside to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

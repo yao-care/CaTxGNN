@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 </div>
 
-# Dexmedetomidine: From Sedation to Headache Disorder
+## Dexmedetomidine: From Sedation to Headache Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

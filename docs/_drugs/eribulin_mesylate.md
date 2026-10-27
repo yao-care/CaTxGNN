@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Eribulin Mesylate: Repurposing Evaluation — Prediction Pipeline Incomplete
+## Eribulin Mesylate: Repurposing Evaluation — Prediction Pipeline Incomplete
+{: .text-alpha }
 
 ## One-Sentence Summary
 

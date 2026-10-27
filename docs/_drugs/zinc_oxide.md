@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Zinc Oxide: From Skin Conditions to Acne
+## Zinc Oxide: From Skin Conditions to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

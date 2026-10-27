@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Vinblastine: From Hodgkin Lymphoma and Cutaneous T-Cell Lymphoma to Rhabdomyosarcoma
+## Vinblastine: From Hodgkin Lymphoma and Cutaneous T-Cell Lymphoma to Rhabdomyosarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

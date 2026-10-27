@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexrazoxane: From an Unspecified Original Indication to Sclerosing Cholangitis
+## Dexrazoxane: From an Unspecified Original Indication to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

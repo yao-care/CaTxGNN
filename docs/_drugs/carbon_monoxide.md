@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbon Monoxide: From Pulmonary Diffusion Testing Gas to Sclerosing Cholangitis
+## Carbon Monoxide: From Pulmonary Diffusion Testing Gas to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

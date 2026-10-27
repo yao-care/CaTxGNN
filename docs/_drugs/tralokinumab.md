@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tralokinumab: From an Approved Anti-IL-13 Biologic to Diabetic Cataract
+## Tralokinumab: From an Approved Anti-IL-13 Biologic to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Abemaciclib: From Its Approved Use to Rheumatoid Arthritis
+## Abemaciclib: From Its Approved Use to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Givosiran: From Hepatic Porphyria to Early-Onset Familial Noncirrhotic Portal Hypertension
+## Givosiran: From Hepatic Porphyria to Early-Onset Familial Noncirrhotic Portal Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

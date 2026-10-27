@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sotatercept: From an Approved Canadian Product (Indication Not Specified) to Acute Lymphoblastic Leukemia
+## Sotatercept: From an Approved Canadian Product (Indication Not Specified) to Acute Lymphoblastic Leukemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

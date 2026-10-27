@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Alteplase: From Myocardial Infarction and Stroke to Posteroinferior Myocardial Infarction
+## Alteplase: From Myocardial Infarction and Stroke to Posteroinferior Myocardial Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

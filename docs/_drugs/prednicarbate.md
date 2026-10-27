@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Prednicarbate: From Inflammatory Dermatoses to Vulvar Inverted Follicular Keratosis
+## Prednicarbate: From Inflammatory Dermatoses to Vulvar Inverted Follicular Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

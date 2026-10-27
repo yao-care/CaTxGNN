@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Tildrakizumab: From an Undocumented Original Indication to Severe Nonproliferative Diabetic Retinopathy
+## Tildrakizumab: From an Undocumented Original Indication to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

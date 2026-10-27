@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Pitolisant: From Narcolepsy to Insomnia
+## Pitolisant: From Narcolepsy to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

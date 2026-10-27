@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Esmolol Hydrochloride: Repurposing Evaluation Incomplete — Critical Data Gaps
+## Esmolol Hydrochloride: Repurposing Evaluation Incomplete — Critical Data Gaps
+{: .text-alpha }
 
 ## One-Sentence Summary
 

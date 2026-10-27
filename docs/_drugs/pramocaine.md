@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Pramocaine: From Dermatitis and Pruritic Skin Conditions to Papillary Conjunctivitis
+## Pramocaine: From Dermatitis and Pruritic Skin Conditions to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

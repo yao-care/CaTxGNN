@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Regorafenib: From Metastatic Colorectal Cancer and Hepatocellular Carcinoma to Liposarcoma
+## Regorafenib: From Metastatic Colorectal Cancer and Hepatocellular Carcinoma to Liposarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

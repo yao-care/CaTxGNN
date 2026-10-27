@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ethambutol Hydrochloride: Drug Repurposing Evaluation Report
+## Ethambutol Hydrochloride: Drug Repurposing Evaluation Report
+{: .text-alpha }
 
 ## One-Sentence Summary
 

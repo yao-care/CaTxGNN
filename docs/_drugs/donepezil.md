@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Donepezil: From Alzheimer Disease to Psychogenic Movement Disorders
+## Donepezil: From Alzheimer Disease to Psychogenic Movement Disorders
+{: .text-alpha }
 
 ## One-Sentence Summary
 
