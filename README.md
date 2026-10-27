@@ -19,7 +19,7 @@ Drug repurposing predictions for Canada Health Canada-approved drugs using the T
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 1,254 |
+| **Drug Reports** | 971 |
 | **Total Predictions** | 21,488,614 |
 | **Unique Drugs** | 1,254 |
 | **Unique Indications** | 17,081 |
