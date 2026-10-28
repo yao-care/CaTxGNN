@@ -50,10 +50,10 @@ Among the other top-10 predictions, schizophrenia (1 trial, many general publica
 |------|------|
 | Original Indication | Parkinson disease, hyperprolactinemia, prolactin-producing pituitary tumour, acromegaly (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other top-10 predictions, schizophrenia (1 trial, many general publica
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Bromocriptine is generally known as a dopamine D2 receptor agonist. This explains its use in Parkinson disease and in lowering prolactin and growth hormone in pituitary disorders.
 
-The data compiled for this report identify no mechanistic link between dopamine agonism and fucosylation pathways. The high score (99.83%) reflects a model prediction from the knowledge graph, not biological or clinical support. The prediction should be regarded as a hypothesis only.
+The data compiled for this report identify no mechanistic link between dopamine agonism and fucosylation pathways. The high score (0.9983) reflects a prediction from the TxGNN model (deep learning), not biological or clinical support. The prediction should be regarded as a hypothesis only.
 
 Other predictions among the top 10 have loose biological rationales:
 - **Retinal dystrophy** (rank 3): Retinal dopamine signalling is plausible. A 1991 case series used cyclosporin A plus bromocriptine in Goldmann-Favre syndrome. A 2024 preclinical study tested a combination of tamsulosin, metoprolol and bromocriptine in retinopathy models.

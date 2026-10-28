@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Acyclovir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 23
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Acyclovir: predicted new indication Top-ranked: punctate epithelial keratoconjunctivitis (evidence level L3). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
@@ -14,7 +14,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart
 # Acyclovir
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Acyclovir: From Herpes Simplex Infection to Common Wart
+## Acyclovir: From Herpes Simplex Infection to Punctate Epithelial Keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -51,10 +51,10 @@ The TxGNN model's top-ranked prediction is punctate epithelial keratoconjunctivi
 |------|------|
 | Original Indication | Herpes simplex infection, herpes zoster, chickenpox, herpes labialis, herpes simplex encephalitis, genital herpes (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Top-ranked: punctate epithelial keratoconjunctivitis; best-supported: common wart |
-| TxGNN Prediction Score | 99.67% (punctate epithelial keratoconjunctivitis); 99.46% (common wart) |
+| TxGNN Prediction Score | 0.9967 (punctate epithelial keratoconjunctivitis); 0.9946 (common wart) |
 | Evidence Level | L5 for the top-ranked prediction; L2 for common wart |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| Canada Market Status | Marketed (valid licenses: 20 of 20) |
+| Number of DINs | 20 (valid: 20) |
 | Recommended Decision | Hold for the top-ranked prediction; Proceed with Guardrails for common wart (as a research question) |
 
 ---
@@ -146,7 +146,7 @@ Please refer to the package insert for key warnings and label contraindications.
 **Decision: Hold for the top-ranked prediction (punctate epithelial keratoconjunctivitis); Proceed with Guardrails for common wart as a research question.**
 
 **Rationale:**
-- Punctate epithelial keratoconjunctivitis has a very high model score (99.67%) but no trials and only unrelated literature (L5), so it cannot be advanced.
+- Punctate epithelial keratoconjunctivitis has a very high model score (0.9967) but no trials and only unrelated literature (L5), so it cannot be advanced.
 - For common wart, a Phase 2/3 RCT and several comparative studies support intralesional acyclovir (L2). However, the mechanism is weak, the trials are small and mostly regional, and several have unknown status.
 
 **To proceed, the following is needed:**
@@ -161,9 +161,9 @@ Please refer to the package insert for key warnings and label contraindications.
 
 | Predicted Indication | Evidence Level | Decision | Comment |
 |------|------|------|------|
-| Disease of orbital region | L3 | Research question | Relevant herpetic eye disease trials (keratitis, uveitis) but orbital disease is not directly tested; includes unrelated trials |
-| Sequela of COVID-19 | L4 | Hold | Literature covers herpesvirus reactivation, not COVID-19 sequelae |
-| Epidemic keratoconjunctivitis | L4 | Hold | Adenovirus cause; acyclovir not expected to act |
+| Disease of orbital region | L5 | Research question | Relevant herpetic eye disease trials (keratitis, uveitis) but orbital disease is not directly tested; includes unrelated trials |
+| Sequela of COVID-19 | L5 | Hold | Literature covers herpesvirus reactivation, not COVID-19 sequelae |
+| Epidemic keratoconjunctivitis | L5 | Hold | Adenovirus cause; acyclovir not expected to act |
 | Post-infectious neuralgia | L5 | Hold | No trials or literature |
 | Hepatitis C induced liver cirrhosis | L5 | Hold | HCV is an RNA virus; no mechanism |
 | Eosinophilic pustular folliculitis | L5 | Hold | No viral cause; no data |

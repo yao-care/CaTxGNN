@@ -48,17 +48,17 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 |------|------|
 | Original Indication | Primary biliary cholangitis (based on the approvals described in pharmacology data; the Canadian licence record has no indication text) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the compiled data. Pharmacology data identifies elafibranor as a dual agonist of PPARα and PPARδ (PPARβ/δ). In the liver it is converted to its main active metabolite, GFT-1007. Preclinical work showed reduced hepatic fat accumulation, inflammation and fibrosis. The NASH programme was stopped in mid-2020 after an interim futility analysis. The drug was then repositioned for PBC, approved by the FDA in June 2024 and authorised by the EMA in September 2024.
 
-The link between this profile and amenorrhea is speculative. PPAR signalling has theoretical connections to ovarian steroidogenesis, insulin sensitivity and metabolic regulation, which might matter in metabolic forms of amenorrhea such as PCOS-related amenorrhea. No trial, publication or mechanistic data in the compiled material supports this pathway. A high knowledge-graph score is a hypothesis-generating signal, not clinical evidence.
+The link between this profile and amenorrhea is speculative. PPAR signalling has theoretical connections to ovarian steroidogenesis, insulin sensitivity and metabolic regulation, which might matter in metabolic forms of amenorrhea such as PCOS-related amenorrhea. No trial, publication or mechanistic data in the compiled material supports this pathway. A high TxGNN model (deep learning) score is a hypothesis-generating signal, not clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -85,7 +85,7 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The only support for amenorrhea is a high model prediction score (99.86%). There are no clinical trials or publications, the mechanistic link is speculative, and the data on label warnings and contraindications is missing. This is Evidence Level L5.
+The only support for amenorrhea is a high model prediction score (0.9986). There are no clinical trials or publications, the mechanistic link is speculative, and the data on label warnings and contraindications is missing. This is Evidence Level L5.
 
 **To proceed, the following is needed:**
 - Health Canada product monograph warnings and contraindications, which are required before any safety screening

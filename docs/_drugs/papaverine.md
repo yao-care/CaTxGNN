@@ -50,10 +50,10 @@ but the support is thin: **1 clinical trial** (an observational registry, not a 
 |------|------|
 | Original Indication | Peripheral vascular disease, intermittent claudication, peripheral arterial disease, brain ischemia, transient ischemic attack |
 | Predicted New Indication | Ischemic disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -117,7 +117,7 @@ Please refer to the package insert for labelled warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.91%), but the supporting evidence is weak. The only registered trial is an observational registry, and the literature consists mostly of reviews, case reports, procedural or diagnostic uses, and animal studies. The overlap with the existing peripheral and cerebral ischemia indications also means this is not a clearly new indication. The knowledge graph flags several cardiovascular contraindications, and the label safety information has not been reviewed.
+The TxGNN score is very high (0.9991), but the supporting evidence is weak. The only registered trial is an observational registry, and the literature consists mostly of reviews, case reports, procedural or diagnostic uses, and animal studies. The overlap with the existing peripheral and cerebral ischemia indications also means this is not a clearly new indication. The knowledge graph flags several cardiovascular contraindications, and the label safety information has not been reviewed.
 
 **To proceed, the following is needed:**
 - Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)

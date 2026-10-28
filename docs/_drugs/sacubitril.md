@@ -48,10 +48,10 @@ Sacubitril is a neprilysin inhibitor, marketed in Canada as a single-ingredient 
 |------|------|
 | Original Indication | Not available in the data compiled for this report (indication text is blank in the Canadian license records) |
 | Predicted New Indication | Diabetic nephropathy (best-supported of the top 5 predictions; the top-ranked prediction is brain small vessel disease 1 with or without ocular anomalies) |
-| TxGNN Prediction Score | 99.50% (diabetic nephropathy); top-ranked prediction: 99.58% |
-| Evidence Level | L3 (preclinical and indirect/observational support plus one unreported Phase 4 trial) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| TxGNN Prediction Score | 0.9950 (diabetic nephropathy); top-ranked prediction: 0.9958 |
+| Evidence Level | L5 (preclinical and indirect/observational support plus one unreported Phase 4 trial) |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold (research question; see Conclusion) |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 426
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ganirelix: predicted new indication Hypertrichosis (evidence level L5). Approved use: Prevention of premature ovulation during ovarian stimulation in ferti…"
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
+description: "Ganirelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ganirelix
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ganirelix: From Assisted Reproduction (Prevention of Premature Ovulation) to Hypertrichosis
+## Ganirelix: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a model-only prediction, and the mechanistic rationale is weak.
 
 | Item | Content |
 |------|------|
-| Original Indication | Prevention of premature ovulation during ovarian stimulation in fertility treatment (the Canadian license record has no indication text; this is taken from pharmacology data) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model-only prediction, and the mechanistic rationale is weak.
 
 Ganirelix blocks the GnRH receptor (GNRHR) in the pituitary. This suppresses the release of LH and FSH and, downstream, the production of gonadal sex steroids. Its established use is short-term suppression of premature LH surges during ovarian stimulation.
 
-The link to hypertrichosis is weak. Hypertrichosis is excess hair growth that is not driven by sex steroids, unlike hirsutism, so blocking the pituitary-gonadal axis has no clear rationale here. The high TxGNN score most likely reflects proximity to related hair phenotypes in the knowledge graph rather than a real pharmacological connection.
+The link to hypertrichosis is weak. Hypertrichosis is excess hair growth that is not driven by sex steroids, unlike hirsutism, so blocking the pituitary-gonadal axis has no clear rationale here. The high score comes from the TxGNN model (deep learning) and most likely reflects similarities the model learned between related hair phenotypes, not biological evidence or a real pharmacological connection.
 
 Other top-ranked predictions are similarly weak. These include Ambras-type hypertrichosis, structural malformation syndromes, genetic hair shaft abnormalities, and trichomegaly. The more biologically adjacent candidates are:
 
@@ -113,7 +113,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no trials or publications, and the mechanism does not support a role in hypertrichosis. The condition is not sex-steroid-driven, so GnRH antagonism has no clear rationale.
+The prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications, and the mechanism does not support a role in hypertrichosis. The condition is not sex-steroid-driven, so GnRH antagonism has no clear rationale.
 
 **To proceed, the following is needed:**
 - A package insert review from Health Canada covering warnings, contraindications, dosage form, and approved indication

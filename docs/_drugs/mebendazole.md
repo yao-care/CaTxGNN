@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mebendazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 574
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Mebendazole: predicted new indication Alveolar echinococcosis (evidence level L3). Approved use: Enterobiasis, ascaridiasis, trichuriasis"
 monitor_inn: "Mebendazole"
-predicted_indications: ["acne (disease)", "leishmaniasis, diffuse cutaneous", "echinococcus granulosus infectious disease", "hordeolum", "alveolar echinococcosis", "inhalational botulism", "toxin-mediated infectious botulism", "impetigo", "Sorsby's fundus dystrophy", "demodicidosis of sebaceous gland"]
+predicted_indications: ["acne (disease)"]
+description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mebendazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Mebendazole: From Enterobiasis, Ascaridiasis and Trichuriasis to Alveolar Echinococcosis
+## Mebendazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mebendazole is a benzimidazole anthelmintic originally used for intestinal worm infections (enterobiasis, ascaridiasis and trichuriasis).
-The TxGNN model's top-scoring prediction is acne (99.2%), but it has no supporting evidence, so this report focuses on the best-supported prediction, **Alveolar Echinococcosis** (94.2%), which has **no registered clinical trials** and **20 publications**, mostly reviews and observational studies.
+The TxGNN model's top-scoring prediction is acne (0.9920), but it has no supporting evidence.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model's top-scoring prediction is acne (99.2%), but it has no supporti
 
 | Item | Content |
 |------|------|
-| Original Indication | Enterobiasis, ascaridiasis, trichuriasis (the Canadian licence text is not available) |
-| Predicted New Indication | Alveolar echinococcosis (best-supported of the top 10 predictions; the highest-scoring prediction, acne, is not supported by evidence) |
-| TxGNN Prediction Score | 94.2% (alveolar echinococcosis); 99.2% (acne, rank 1) |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9920 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -61,13 +61,13 @@ The TxGNN model's top-scoring prediction is acne (99.2%), but it has no supporti
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mebendazole is a benzimidazole anthelmintic that inhibits tubulin polymerization in helminths. This impairs microtubule-dependent glucose uptake in the parasite.
 
-Alveolar echinococcosis is caused by the larval stage of *Echinococcus multilocularis*, a tapeworm (cestode). Cestode larvae are susceptible to the same tubulin-targeting mechanism that acts against intestinal worms. Mebendazole and albendazole are the benzimidazoles used as parasitostatic chemotherapy for this disease. The WHO treatment guidelines and several reviews describe this use.
+Cestode larvae are susceptible to the same tubulin-targeting mechanism that acts against intestinal worms. Mebendazole and albendazole are the benzimidazoles used as parasitostatic chemotherapy for this disease. The WHO treatment guidelines and several reviews describe this use.
 
 This is therefore better described as an established alternative than as a novel repurposing. Albendazole is generally the preferred agent. Treatment with benzimidazoles is mainly parasitostatic, meaning the parasite can resume growth if treatment stops. Surgery remains the cornerstone of management where feasible.
 
 **Other predictions** (all L5 prediction only, Hold, except echinococcus granulosus):
 - **Echinococcus granulosus infection (cystic hydatid disease, 95.6%)** is biologically plausible, using the same mechanism. It has L4 evidence and is a research question. The only supporting clinical report, a 1989 study of 70 patients treated with mebendazole (PMID 2585032), has an unconfirmed design.
-- **Acne, diffuse cutaneous leishmaniasis, hordeolum, inhalational and toxin-mediated botulism, impetigo, Sorsby's fundus dystrophy and Demodex infestation of the sebaceous gland** have no credible mechanistic link and no supporting trials or relevant literature. The only paper retrieved for acne is an unrelated case report of sparganosis.
+- The only paper retrieved for acne is an unrelated case report of sparganosis.
 
 ---
 
@@ -119,10 +119,9 @@ The Health Canada package insert warnings and contraindications were not availab
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (alveolar echinococcosis). All other predictions, including acne (the highest score), should be **Held**. Cystic echinococcosis (*E. granulosus*) is a research question.
+**Decision: Proceed with Guardrails**. Cystic echinococcosis (*E. granulosus*) is a research question.
 
 **Rationale:**
-- Alveolar echinococcosis has the strongest body of evidence among the predictions (L3). It consists of observational studies, guidelines and reviews, with no Phase 2/3 RCT. Mebendazole is an established alternative to albendazole rather than a new treatment.
 - The model's top predictions have high scores but no clinical or mechanistic support.
 
 **To proceed, the following is needed:**

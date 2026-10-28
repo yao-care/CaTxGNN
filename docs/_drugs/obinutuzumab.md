@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 673
-evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-13
-description: "Obinutuzumab: predicted new indication Pregerminal center chronic lymphocytic leukemia/small lymphocytic lym… (evidence level L5). Approved use: Acute lymphoblastic/lymphocytic leukaemia"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Obinutuzumab: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Obinutuzumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,68 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Obinutuzumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Pregerminal Center CLL/SLL
+<!-- known-uses-page -->
+<!-- description: Obinutuzumab: known uses and market status in Canada; currently no new candidate indication -->
+## Obinutuzumab: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Obinutuzumab, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The two known uses are related to an approved indication by disease category; they are not listed here as approved.
 
-Obinutuzumab (Canadian brand GAZYVA) is an anti-CD20 antibody. The knowledge graph lists its original indications as acute lymphoblastic leukaemia and Richter syndrome.
-The TxGNN model predicts it may be effective for **pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL)**, an unmutated-IGHV subtype of CLL.
-**No clinical trials and no publications** specific to this subtype were compiled, so the prediction rests on the model score and indirect mechanistic reasoning.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic/lymphocytic leukaemia; Richter syndrome (from the knowledge graph, because Canadian licence text was not available) |
-| Predicted New Indication | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
-| TxGNN Prediction Score | 99.21% |
-| Evidence Level | L5 (model prediction only, no subtype-specific studies) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 2 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism-of-action data were not available in the compiled data. Obinutuzumab is a known glycoengineered type II anti-CD20 monoclonal antibody. It acts through direct B-cell death and enhanced antibody-dependent cellular cytotoxicity and phagocytosis.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma | cll |
+| chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation | cll |
 
-The predicted disease is the unmutated-IGHV molecular subtype of CLL/SLL. CD20 is expressed on CLL cells, and obinutuzumab is an established anti-CD20 treatment for CLL. The subtype is therefore largely covered by the parent-disease indication. CD20 expression does not depend on IGHV status, so anti-CD20 activity is mechanistically plausible.
-
-This is **not a clearly novel repurposing finding**. The high score (99.21%) mostly reflects overlap with the drug's established CLL use. No subtype-specific data support it independently.
-
-**Other predictions in the data.** Two other predictions have similar scores:
-- The mutated-IGHV CLL/SLL subtype, which has the same limitations as the one above.
-- **Follicular lymphoma** (score 99.18%), which has far more evidence. This includes randomised phase 3 data such as GALLIUM, obinutuzumab versus rituximab immunochemotherapy in previously untreated follicular lymphoma. Follicular lymphoma appears to be already established in practice, so it is better described as label-aligned than as a new indication.
-
-The listed original indications (ALL, Richter syndrome) also look incomplete for this drug. The repurposing framing should be checked against the actual Canadian label.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for this predicted indication.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for this predicted indication.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02434806 | GAZYVA | Not specified in the compiled data | Not specified in the compiled data |
-
-The licence is a valid single-ingredient product with no cancelled licences.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02434806 | GAZYVA |  | Valid |
 
 ## Cytotoxicity
 
@@ -119,19 +98,6 @@ Many of these are immunosuppressive or myelosuppressive agents, or vaccines. Thi
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The TxGNN score is very high, but it is not backed by any subtype-specific trials or publications. The prediction mostly restates obinutuzumab's established use in CLL rather than identifying a new indication. At this stage it does not justify a separate repurposing programme.
-
-**To proceed, the following is needed:**
-- Confirmation of the approved indications on the Canadian label (the licence text was not available), to establish whether CLL/SLL is already covered
-- Subtype-specific evidence for unmutated-IGHV CLL/SLL, such as analyses of CLL trials stratified by IGHV status
-- Mechanism-of-action data (MOA) in the structured record
-- Package-insert warnings and contraindications, to complete safety screening
-- Consideration of the follicular lymphoma prediction as a separate evaluation, since it has the strongest evidence, while recognising that it appears to be established practice
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

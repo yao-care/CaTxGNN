@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alimemazine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 34
-evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-13
-description: "Alimemazine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Urticaria, allergic rhinitis, angioedema, pharyngitis, common cold…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Alimemazine"
-predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis", "acute laryngopharyngitis"]
+predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
+last_modified_at: 2026-10-27
+description: "Alimemazine: predicted new indication IgE responsiveness, atopic (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Alimemazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +33,36 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Alimemazine: From Urticaria and Allergic Conditions to Allergic Urticaria
+## Alimemazine: H1-receptor antagonist (phenothiazine antihistamine) → IgE responsiveness, atopic (IgE responsiveness, atopic)
+{: .text-alpha }
+
+Per the hard rules, the English name is written once without parentheses if the page language is English. The page language is English, so the title is restated below.
+
+## Alimemazine: H1-receptor antagonist (phenothiazine antihistamine) → IgE responsiveness, atopic
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Alimemazine (trimeprazine) is a phenothiazine-class antihistamine, originally used for allergic conditions such as urticaria, allergic rhinitis, angioedema and the common cold.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but **no clinical trials and no publications** were found in the data compiled for this report, so support is mechanistic and indirect only.
+Alimemazine is a phenothiazine-class antihistamine marketed in Canada.
+The TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Urticaria, allergic rhinitis, angioedema, pharyngitis, common cold, and related allergic conditions (the Canadian licence records contain no indication text, so this comes from the knowledge-graph indication list) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | IgE responsiveness, atopic |
+| TxGNN Prediction Score | 0.9960 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known pharmacology, alimemazine is a phenothiazine-class H1-receptor antagonist. Blocking H1 receptors on skin blood vessels and sensory nerves can plausibly reduce histamine-driven wheals and itching.
+Detailed mechanism of action data is not available in the data compiled for this report. Alimemazine belongs to the phenothiazine antihistamine class, which blocks H1 receptors and has anticholinergic and sedative effects.
 
-Allergic urticaria is a subtype of urticaria, which alimemazine already covers in general. The prediction is therefore better seen as a refinement of an existing indication than as true repurposing. The very high TxGNN score most likely reflects this existing label.
-
-Other predicted indications are weaker:
-
-| Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|
-| Cold urticaria | 99.96% | L4 | H1 blockade is a reasonable approach, but second-generation antihistamines are guideline-preferred over a sedating phenothiazine. |
-| IgE responsiveness, atopic | 99.60% | L5 | A predisposition rather than a treatable disease. H1 blockade may ease symptoms but does not change sensitization. |
-| Nasal cavity disease | 99.60% | L5 | Too broad. The score likely reflects the existing rhinitis and cold indications. |
-| Recalcitrant atopic dermatitis | 99.59% | L5 | Itch is largely non-histaminergic. Sedation may help night-time sleep only. Biologics and JAK inhibitors are the relevant comparators. |
-| Acute laryngopharyngitis | 99.54% | L5 | Overlaps with the existing pharyngitis and cold indications. Benefit would be symptomatic and uncertain. |
+Atopic IgE responsiveness is a predisposition or phenotype rather than a discrete treatable disease. H1 blockade may relieve downstream symptoms such as rhinitis, itching and hives, but it does not change IgE production or sensitization. The link is a model prediction based on proximity to allergic conditions. No clinical evidence was found, and there is no defined clinical endpoint for this entity.
 
 ## Clinical Trial Evidence
 
@@ -81,41 +76,28 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 01926306 | PANECTYL | Not listed | Not listed |
-| 01926292 | PANECTYL | Not listed | Not listed |
+| 01926306 | PANECTYL | Not recorded | Not recorded |
+| 01926292 | PANECTYL | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-No label-based warnings or contraindications were available in the data compiled for this report. Please refer to the package insert for these.
+- **Contraindication-related conditions (not from label text):** The compiled data flag possible concerns in conditions including long QT syndrome, torsades de pointes, orthostatic hypotension, epilepsy, liver disease, neutropenia, agranulocytosis, leukopenia, thrombocytopenia, benign prostatic hyperplasia, hyperglycemia, and myocardial infarction. These should be checked against the official label.
+- **Drug Interactions:** 100 interactions were found. The two rated Major are **bupropion** and **potassium citrate**. Examples of Moderate interactions include epinephrine, morphine, atropine, hyoscyamine, glycopyrronium, loperamide, clarithromycin, famotidine, and several antidiabetic drugs (acarbose, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, albiglutide).
 
-- **Disease associations flagged as contraindications (knowledge graph, not label text):** these are drawn from drug-disease contraindication links and should be confirmed against the official label.
-  - Cardiac and conduction: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial infarction, coronary thrombosis.
-  - Blood pressure and autonomic: orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy.
-  - Haematological: neutropenia, agranulocytosis, leukopenia, thrombocytopenia, anaemia (including macrocytic), hemoglobinopathy.
-  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm.
-  - Other: liver disease, gallbladder disease, hyperglycaemia, benign prostatic hyperplasia, substance abuse/dependence, female breast carcinoma, obesity disorders (including monogenic obesity).
-- **Drug Interactions:** 100 interactions were identified; 20 are shown in the compiled data.
-  - **Major:** bupropion, potassium citrate.
-  - **Moderate (examples):**
-    - Anticholinergics: atropine, hyoscyamine, glycopyrronium.
-    - Opioid and GI motility: morphine, loperamide.
-    - Antidiabetics: acarbose, alogliptin, albiglutide, canagliflozin, dapagliflozin, chlorpropamide.
-    - Other: epinephrine, famotidine, clarithromycin, lorcaserin, and the laxatives bisacodyl, picosulfuric acid and polyethylene glycol with electrolytes.
+Please refer to the package insert for warnings and full contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Allergic urticaria is a subtype of an indication alimemazine already covers, and the score reflects that overlap rather than new evidence. There are no trials or publications for any predicted indication, and the safety profile includes many knowledge-graph contraindications, notably cardiac (QT prolongation) and haematological concerns. Second-generation antihistamines are generally preferred in the closest predicted indications.
+The prediction score is high, but no trials or publications address this condition, and it is a predisposition rather than a treatable disease with a defined clinical endpoint. Evidence is at the model-prediction level only (L5).
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)
-- Approved indication text, dosage forms and manufacturer details for the two PANECTYL DINs
-- Mechanism of action data from DrugBank
-- Clinical or observational evidence for allergic or cold urticaria specifically, and a comparison with second-generation antihistamines
-- A cardiac (QT) and haematological safety review, plus a review of the major drug interactions
-- Clarification of whether a new indication adds value beyond the existing urticaria label
+- A clearly defined clinical condition and endpoint related to atopic IgE responsiveness
+- Clinical or preclinical studies directly examining alimemazine in this setting
+- Package insert warnings and contraindications from Health Canada for the safety review
+- Mechanism of action data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

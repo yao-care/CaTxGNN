@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Riociguat
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 811
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Riociguat: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Pulmonary arterial hypertension"
-monitor_inn: "Riociguat"
-predicted_indications: ["Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypertrichosis (disease)", "pulmonary arteriovenous malformation (disease)"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Riociguat: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Riociguat
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +32,55 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Riociguat: From Pulmonary Arterial Hypertension to Ambras Type Hypertrichosis Universalis Congenita
+<!-- known-uses-page -->
+<!-- description: Riociguat: known uses and market status in Canada; currently no new candidate indication -->
+## Riociguat: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Riociguat, so there is currently no new predicted indication. The drug's recorded uses are listed below. They come from licenses and other recorded sources, not from model predictions.
 
-Riociguat is originally used to treat pulmonary arterial hypertension (PAH) and chronic thromboembolic pulmonary hypertension (CTEPH).
-The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, a rare congenital hair disorder.
-This prediction currently has **no clinical trials and no publications** behind it, so it rests on the model score alone.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension; chronic thromboembolic pulmonary hypertension |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 94.92% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 3 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| pulmonary hypertension | licence in another country |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Riociguat is generally known as a soluble guanylate cyclase (sGC) stimulator. It sensitises sGC to endogenous nitric oxide and raises cGMP, which relaxes pulmonary vessels and slows vascular remodelling. Its efficacy in PAH and CTEPH is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The link to the predicted indication is weak. Ambras syndrome is a genetic disorder of hair growth, and no established connection exists between NO-sGC-cGMP signalling and its underlying cause. The high score comes from relationships in the knowledge graph, not from biological or clinical evidence.
-
-Some vasodilators, such as minoxidil, are known to cause excess hair growth. If anything, this hints at a possible side-effect signal rather than a treatment benefit. This is speculative, and no data support it here.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| chronic thromboembolic pulmonary hypertension |
+| pulmonary arterial hypertension |
 
 ## Canada Market Information
 
-Health Canada lists 10 valid single-ingredient authorisations for riociguat (5 shown below). Dosage form and approved indication text were not available in the compiled data.
-
-| DIN | Product Name |
-|---------|------|
-| 02533588 | SANDOZ RIOCIGUAT |
-| 02533561 | SANDOZ RIOCIGUAT |
-| 02412764 | ADEMPAS |
-| 02533618 | SANDOZ RIOCIGUAT |
-| 02533596 | SANDOZ RIOCIGUAT |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02533588 | SANDOZ RIOCIGUAT |  | Valid |
+| 02533561 | SANDOZ RIOCIGUAT |  | Valid |
+| 02412764 | ADEMPAS |  | Valid |
+| 02533618 | SANDOZ RIOCIGUAT |  | Valid |
+| 02533596 | SANDOZ RIOCIGUAT |  | Valid |
+| 02412802 | ADEMPAS |  | Valid |
+| 02412799 | ADEMPAS |  | Valid |
+| 02533545 | SANDOZ RIOCIGUAT |  | Valid |
+| 02412772 | ADEMPAS |  | Valid |
+| 02412810 | ADEMPAS |  | Valid |
 
 ## Safety Considerations
 
@@ -106,23 +94,6 @@ Please refer to the package insert for warnings and contraindications.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by a model score. There are no trials or publications, and no plausible mechanism links sGC stimulation to this congenital hair disorder. The possible hypertrichosis signal from vasodilators further argues against pursuing it.
-
-**To proceed, the following is needed:**
-- Confirmation of any biological link between the NO-sGC-cGMP pathway and the genetic basis of Ambras syndrome
-- Mechanism of action data (MOA)
-- Health Canada package insert warnings and contraindications
-- Any preclinical or case-level evidence in this condition
-
-**Note on other predictions:**
-Two lower-ranked predictions have real supporting literature, but both are subgroups of the already approved PAH class, so they are not true repurposing.
-- **PAH associated with connective tissue disease** is rated L2, with a proposed recommendation of Proceed with Guardrails. It is supported by PATENT-1 subgroup analyses (PMID 27457511), a 2024 systematic review and a 2025 prospective observation study.
-- **PAH associated with congenital heart disease** is rated L3, supported by a PATENT-1/2 subgroup analysis (PMID 26135803).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

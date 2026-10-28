@@ -48,27 +48,27 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 16 |
+| Canada Market Status | Marketed (valid licenses: 16 of 16) |
+| Number of DINs | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Dutasteride inhibits type 1 and type 2 5-alpha-reductase, the enzymes that convert testosterone into dihydrotestosterone (DHT). Lowering DHT shrinks the prostate, which is why it is used for BPH. Detailed mechanism of action data was not available in the data compiled for this report, so this description reflects the drug's generally known pharmacology.
 
-The link to the predicted indication is weak. Ambras syndrome is a genetic disorder (a chromosome 8q rearrangement affecting TRPS1 expression) and is not primarily driven by androgens. Reducing DHT is unlikely to correct the underlying defect. The very high model score probably reflects graph proximity to hair-related conditions rather than a true mechanistic fit.
+The link to the predicted indication is weak. Ambras syndrome is a genetic disorder (a chromosome 8q rearrangement affecting TRPS1 expression) and is not primarily driven by androgens. Reducing DHT is unlikely to correct the underlying defect. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions are also of limited plausibility:
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Hypertrichosis | 99.997% | L5 | Usually androgen-independent; weak fit |
-| 3 | Malformation syndrome with dental/periodontal component | 99.997% | L5 | No plausible link; likely a graph artifact |
-| 4 | Syndrome with Dandy-Walker malformation | 99.996% | L5 | No mechanistic rationale |
-| 5 | Isolated genetic hair shaft abnormality | 99.996% | L5 | Structural defect; indirect link |
-| 8 | Diffuse alopecia areata | 99.675% | L4 | Autoimmune; DHT suppression does not address it |
+| 2 | Hypertrichosis | 1.0000 | L5 | Usually androgen-independent; weak fit |
+| 3 | Malformation syndrome with dental/periodontal component | 1.0000 | L5 | No plausible link; the TxGNN model (deep learning) score may reflect similarities learned between related diseases, not biological evidence |
+| 4 | Syndrome with Dandy-Walker malformation | 1.0000 | L5 | No mechanistic rationale |
+| 5 | Isolated genetic hair shaft abnormality | 1.0000 | L5 | Structural defect; indirect link |
+| 8 | Diffuse alopecia areata | 0.9968 | L5 | Autoimmune; DHT suppression does not address it |
 
 ## Clinical Trial Evidence
 

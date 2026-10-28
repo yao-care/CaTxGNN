@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 124
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-13
-description: "Brinzolamide: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma, ocular hypertension"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,50 +32,47 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Brinzolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: known uses and market status in Canada; currently no new candidate indication -->
+## Brinzolamide: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced candidates for Brinzolamide, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The one known use is supported by a licence in another country.
 
-Brinzolamide is a carbonic anhydrase inhibitor originally used to treat open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
-but currently **no clinical trials or publications** support this direction, so the prediction rests on model output alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma, ocular hypertension |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, brinzolamide is a carbonic anhydrase II inhibitor. It lowers intraocular pressure (IOP) by reducing aqueous humor secretion.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| primary hereditary glaucoma | licence in another country (approved indication: glaucoma) |
 
-Raised IOP is the main modifiable driver of optic nerve damage in glaucoma, including hereditary forms such as primary congenital glaucoma and juvenile open-angle glaucoma. A pressure-lowering mechanism is therefore plausibly relevant.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The very high score likely reflects how close primary hereditary glaucoma sits to the approved indications in the knowledge graph. It may be partly a re-labeling of the existing glaucoma indication rather than a truly novel repurposing signal. Congenital forms often involve structural angle abnormalities that respond poorly to medication, so efficacy cannot be assumed.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02238873 | AZOPT | Not specified | Not specified |
-| 02435411 | SIMBRINZA | Not specified | Not specified |
-| 02331624 | AZARGA | Not specified | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02238873 | AZOPT |  | Valid |
+| 02435411 | SIMBRINZA |  | Valid |
+| 02331624 | AZARGA |  | Valid |
 
 ## Safety Considerations
 
@@ -89,20 +87,6 @@ Systemic carbonic anhydrase inhibitor exposure raises safety concerns in childre
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction score is very high, but there are no clinical trials or publications behind it (Evidence Level L5). The indication may largely overlap with the already-approved glaucoma space. Package insert safety information is also missing, which blocks safety screening.
-
-**To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap)
-- Mechanism of action data from DrugBank
-- A literature and trial search for brinzolamide in primary hereditary glaucoma, including pediatric and congenital subtypes
-- Approved indication text and dosage forms for the three Canadian products
-- Pediatric safety assessment for carbonic anhydrase inhibitor exposure
-- Severity grading for the identified drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

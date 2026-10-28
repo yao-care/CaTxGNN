@@ -50,13 +50,13 @@ This is a computational prediction only, with **0 clinical trials** and **0 publ
 |------|------|
 | Original Indication | Osteoporosis (including postmenopausal osteoporosis and drug-induced osteoporosis) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
-A second prediction, **diabetic retinopathy** (score 99.23%, also L5, Hold), is discussed in the sections below where relevant.
+A second prediction, **diabetic retinopathy** (score 0.9923, also L5, Hold), is discussed in the sections below where relevant.
 
 ---
 
@@ -118,7 +118,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN scores are very high (99.63% and 99.23%), but there are no clinical trials and no literature showing an effect of denosumab on retinopathy. The evidence is L5, a model prediction only.
+The TxGNN scores are very high (0.9963 and 0.9923), but there are no clinical trials and no literature showing an effect of denosumab on retinopathy. The evidence is L5, a model prediction only.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to anchor the proposed RANKL/RANK/OPG link to retinal or microvascular disease

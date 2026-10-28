@@ -48,9 +48,9 @@ Rivaroxaban is an oral Factor Xa inhibitor (anticoagulant) marketed in Canada. T
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -112,7 +112,7 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.57%), but there are no clinical trials, no studies testing rivaroxaban in rheumatoid arthritis, and no confirmed mechanism. The evidence level is L5 (model prediction only). Bleeding risk and interactions with common arthritis medicines add further caution.
+The TxGNN score is very high (0.9957), but there are no clinical trials, no studies testing rivaroxaban in rheumatoid arthritis, and no confirmed mechanism. The evidence level is L5 (model prediction only). Bleeding risk and interactions with common arthritis medicines add further caution.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a testable biological hypothesis linking Factor Xa inhibition to RA pathogenesis
@@ -126,9 +126,9 @@ The TxGNN score is very high (99.57%), but there are no clinical trials, no stud
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Gout | 99.51% | L5 | No trials; the literature is about drug interactions and a case report, with no credible mechanism. Likely a network-proximity artifact. Hold. |
-| 3 | HIV infectious disease | 99.17% | L4 | One unrelated Phase 2 VTE cohort study; the literature concerns safe co-prescribing. Ritonavir- or cobicistat-boosted antiretrovirals raise rivaroxaban exposure and bleeding risk. This is an interaction issue, not a repurposing signal. Hold. |
-| 4 | Brachydactyly-syndactyly syndrome | 99.10% | L5 | No trials, no literature and no plausible mechanism. Hold. |
+| 2 | Gout | 0.9951 | L5 | No trials; the literature is about drug interactions and a case report, with no credible mechanism. Likely a network-proximity artifact. Hold. |
+| 3 | HIV infectious disease | 0.9917 | L4 | One unrelated Phase 2 VTE cohort study; the literature concerns safe co-prescribing. Ritonavir- or cobicistat-boosted antiretrovirals raise rivaroxaban exposure and bleeding risk. This is an interaction issue, not a repurposing signal. Hold. |
+| 4 | Brachydactyly-syndactyly syndrome | 0.9910 | L5 | No trials, no literature and no plausible mechanism. Hold. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

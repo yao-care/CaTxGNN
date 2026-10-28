@@ -4,17 +4,17 @@ title: Levonorgestrel
 parent: Moderate Evidence (L3-L4)
 nav_order: 546
 evidence_level: L4
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Levonorgestrel: From Osteoporosis to Acne
+## Levonorgestrel: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Levonorgestrel is a progestin, listed in the knowledge graph for postmenopausal osteoporosis and osteoporosis, and in Canada it is marketed mainly in contraceptive and intrauterine products.
+Levonorgestrel is a progestin whose main new predicted indication from the TxGNN model (deep learning) is acne (disease), and in Canada it is marketed mainly in contraceptive and intrauterine products.
 The TxGNN model predicts it may be effective for **acne (disease)**, but there are **no registered clinical trials** and the **20 publications** retrieved are mostly general reviews on contraception and progestins.
 The evidence is weak, and the available mechanistic reasoning points in the opposite direction.
 
@@ -48,11 +48,11 @@ The evidence is weak, and the available mechanistic reasoning points in the oppo
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis; osteoporosis (from the knowledge graph; no approved indication text is available for Canadian products) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -123,11 +123,10 @@ Package insert warnings and contraindications were not available for this report
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Worth syndrome | 99.61% | L5 | No mechanistic link. It is a high-bone-mass condition, the opposite of osteoporosis. |
-| 3 | Pregnancy associated osteoporosis | 99.45% | L5 | Use during pregnancy is contraindicated. |
-| 4 | Autosomal dominant neovascular inflammatory vitreoretinopathy | 99.39% | L5 | Rare genetic eye disease with no link to progestin signalling. |
-| 5 | Apocrine adenosis of breast | 99.02% | L5 | Hormone-responsive tissue, but breast safety concerns would need to be addressed. |
-| 6 | Blunt duct adenosis of breast | 99.02% | L5 | Same score and concerns as apocrine adenosis. |
+| 2 | Worth syndrome | 0.9961 | L5 | No mechanistic link. It is a high-bone-mass condition, the opposite of osteoporosis. |
+| 4 | Autosomal dominant neovascular inflammatory vitreoretinopathy | 0.9939 | L5 | Rare genetic eye disease with no link to progestin signalling. |
+| 5 | Apocrine adenosis of breast | 0.9902 | L5 | Hormone-responsive tissue, but breast safety concerns would need to be addressed. |
+| 6 | Blunt duct adenosis of breast | 0.9902 | L5 | Same score and concerns as apocrine adenosis. |
 
 ---
 

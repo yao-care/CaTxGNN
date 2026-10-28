@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-13
-description: "Desipramine: predicted new indication Attention deficit hyperactivity disorder… (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Desipramine"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "attention deficit-hyperactivity disorder", "specific developmental disorder", "chondromyxoid fibroma", "faciodigitogenital syndrome", "benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder"]
+last_modified_at: 2026-10-27
+description: "Desipramine: predicted new indication attention deficit hyperactivity disorder, inattentive type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Desipramine
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Desipramine: From Anxiety Disorder to Attention Deficit Hyperactivity Disorder, Inattentive Type
+## Desipramine: Tricyclic antidepressant (norepinephrine reuptake inhibitor) → attention deficit hyperactivity disorder, inattentive type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Desipramine is a tricyclic antidepressant, originally used for anxiety disorder, neurotic disorder and dysthymic disorder.
-The TxGNN model predicts it may be effective for **attention deficit hyperactivity disorder, inattentive type** (top-ranked prediction), but **no clinical trials or publications** were found for this exact subtype.
-The closely related broader entry, **attention deficit-hyperactivity disorder (ADHD)**, is backed by **13 publications** (including a Cochrane review of tricyclic antidepressants) and no registered trials, and is the more realistic repurposing direction.
+Desipramine is a tricyclic antidepressant with strong norepinephrine reuptake inhibition, and it is currently marketed in Canada.
+The TxGNN model predicts it may be useful for **attention deficit hyperactivity disorder, inattentive type**.
+**No clinical trials and no publications** directly studying this disease were found, so the prediction rests on the model score and a plausible mechanism only.
 
 ---
 
@@ -48,23 +48,21 @@ The closely related broader entry, **attention deficit-hyperactivity disorder (A
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the knowledge graph; Canadian licence records contain no indication text) |
-| Predicted New Indication | Attention deficit hyperactivity disorder, inattentive type (broader ADHD entry shown below for context) |
-| TxGNN Prediction Score | 99.81% (ADHD, broader entry: 99.78%) |
-| Evidence Level | L5 for the inattentive subtype; L3 for broader ADHD |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
-| Recommended Decision | Hold (inattentive subtype); Proceed with Guardrails is conceivable only for broader ADHD as a research question |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | attention deficit hyperactivity disorder, inattentive type |
+| TxGNN Prediction Score | 0.9981 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, desipramine is a tricyclic antidepressant with strong norepinephrine reuptake inhibition. Enhanced noradrenergic signalling in prefrontal circuits plausibly supports attention, which fits the high TxGNN score.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Desipramine is, however, a tricyclic antidepressant known for strong norepinephrine reuptake inhibition. Boosting noradrenergic signalling in prefrontal circuits plausibly supports attention. This is the same general mechanism as atomoxetine, a non-stimulant norepinephrine reuptake inhibitor used for ADHD. It fits the high model score.
 
-This is the same mechanism as atomoxetine, an approved non-stimulant ADHD treatment. Anxiety and mood disorders frequently co-occur with ADHD, which also links the original indications to the predicted one.
-
-However, no trials or literature were retrieved for the inattentive subtype itself. The supporting evidence comes from the broader ADHD entry, and the connection to the subtype is inferred rather than demonstrated.
+This is a mechanistic argument only. No trial or publication specific to the inattentive subtype was retrieved. The plausibility therefore remains unverified, and the evidence level is L5.
 
 ---
 
@@ -76,71 +74,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The table below lists the most relevant publications for the broader ADHD entry (none were found for the inattentive subtype).
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25238582](https://pubmed.ncbi.nlm.nih.gov/25238582/) | 2014 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Tricyclic antidepressants as second-line treatment for ADHD in children and adolescents |
-| [29944175](https://pubmed.ncbi.nlm.nih.gov/29944175/) | 2018 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Pharmacological treatment of ADHD in children with comorbid tic disorders |
-| [19625978](https://pubmed.ncbi.nlm.nih.gov/19625978/) | 2009 | Meta-analysis | J Am Acad Child Adolesc Psychiatry | Relative efficacy of medications for ADHD and tics in children with both conditions |
-| [30422834](https://pubmed.ncbi.nlm.nih.gov/30422834/) | 2019 | Systematic review | Int Clin Psychopharmacol | Pharmacotherapy for ADHD comorbid with an anxiety disorder |
-| [8444765](https://pubmed.ncbi.nlm.nih.gov/8444765/) | 1993 | Clinical study | J Am Acad Child Adolesc Psychiatry | Desipramine in children with ADHD and tic disorder or Tourette's syndrome |
-| [9418743](https://pubmed.ncbi.nlm.nih.gov/9418743/) | 1997 | Review | J Clin Psychiatry | Antidepressants are less effective than psychostimulants; desipramine should be avoided in youths and adolescents |
-| [16732717](https://pubmed.ncbi.nlm.nih.gov/16732717/) | 2006 | Review | Expert Opin Investig Drugs | Adult ADHD pharmacotherapy; stimulants first-line, atomoxetine also reported effective |
-| [17078784](https://pubmed.ncbi.nlm.nih.gov/17078784/) | 2006 | Observational | Expert Rev Neurother | Desipramine and imipramine as nonselective norepinephrine reuptake inhibitors can be effective |
-| [8032506](https://pubmed.ncbi.nlm.nih.gov/8032506/) | 1994 | Review | Arch Fam Med | Desipramine a reasonable second choice after methylphenidate |
-| [10790990](https://pubmed.ncbi.nlm.nih.gov/10790990/) | 1999 | Review | Evid Rep Technol Assess | Effectiveness and safety of ADHD treatments in children and adults |
+Currently no related literature available.
 
 ---
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02216248 | DESIPRAMINE | Not specified | Not specified |
-| 02216256 | DESIPRAMINE | Not specified | Not specified |
-| 02216264 | DESIPRAMINE | Not specified | Not specified |
-| 02216272 | DESIPRAMINE | Not specified | Not specified |
-| 02216280 | DESIPRAMINE | Not specified | Not specified |
+Desipramine is currently marketed in Canada. All of its Health Canada licences in the data compiled for this report are valid single-ingredient licences. The licence records carry no indication or dosage-form text.
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: long QT syndrome, familial long QT syndrome, torsades de pointes, sudden cardiac arrest, heart conduction disease, epilepsy, bipolar disorder / major affective disorder, schizophrenia, angle-closure glaucoma / glaucoma, benign prostatic hyperplasia, hyperthyroidism / Graves disease / thyrotoxicosis, liver disease, gallbladder disease, kidney disease, pyoureter, stroke / cerebrovascular disorder / cerebral infarction, and substance abuse/dependence.
-- **Drug Interactions**: 100 interactions were recorded. Examples classed as **Major**: epinephrine, bupropion, lorcaserin, potassium citrate, cisapride and dexfenfluramine. Many **Moderate** ones were also found, including anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium), famotidine, cimetidine, clarithromycin, morphine, loperamide and sulfonylureas (chlorpropamide, acetohexamide).
-- **Other concerns from the literature**: reports of cardiovascular events, including sudden death in children treated with desipramine, and a large interaction burden (notably through CYP2D6).
+- **Drug Interactions**: Screening found 100 recorded interactions. Major-level interactions include:
+  - epinephrine
+  - bupropion
+  - lorcaserin
+  - potassium citrate
+  - cisapride
+  - dexfenfluramine
 
-Package insert warnings were not available; please refer to the Health Canada package insert for full safety information.
+  Many other interactions are rated moderate, including anticholinergic agents such as atropine, hyoscyamine and glycopyrronium, as well as famotidine, cimetidine, clarithromycin and morphine.
+- **Cardiovascular concern**: Tricyclic antidepressants carry cardiac risks, and reports of sudden death in children treated with desipramine have been noted. Cardiac safety would need careful assessment in any ADHD use, especially in young patients.
+- **Metabolism**: The interaction burden is notably related to CYP2D6 metabolism.
 
----
-
-## Other Predicted Indications (for context)
-
-| Predicted Indication | Score | Evidence Level | Assessment |
-|------|------|------|------|
-| Attention deficit-hyperactivity disorder | 99.78% | L3 | Reviews and a Cochrane review support use as second-line therapy; the best-supported direction |
-| Agoraphobia | 99.22% | L3 | Open-label studies and one small placebo-controlled study ([8290663](https://pubmed.ncbi.nlm.nih.gov/8290663/)); overlaps with the original anxiety indications; SSRIs and CBT are first-line |
-| Obsessive-compulsive disorder | 99.03% | L3 | Direct comparisons favour clomipramine, fluvoxamine and sertraline over desipramine; weak fit |
-| Specific developmental disorder | 99.64% | L5 | Only preclinical papers; speculative |
-| Chondromyxoid fibroma, faciodigitogenital syndrome, benign paroxysmal torticollis of infancy | 99.57%, 99.51%, 99.31% | L5 | No mechanistic link or evidence; likely knowledge-graph artifacts |
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for the top-ranked inattentive subtype). Broader ADHD can be pursued as a **research question**.
+**Decision: Hold**
 
 **Rationale:**
-- The top prediction has no trials or literature behind it, so it rests on the model score alone (L5).
-- For broader ADHD the evidence is mostly reviews of small, older studies, with no registered trials. Cardiovascular safety concerns and a heavy interaction burden further limit use, and stimulants and atomoxetine remain preferred options.
+The mechanism is plausible and the model score is high. However, there are no trials or publications for this specific subtype (evidence level L5), and the cardiovascular and interaction risks are significant.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Review of primary trials behind the Cochrane TCA review to confirm study design and effect size, including subtype-specific (inattentive) data
-- Cardiovascular risk assessment (ECG monitoring) and CYP2D6 interaction management plan
-- Defined clinical niche versus approved ADHD therapies, for example ADHD with comorbid tics or anxiety
+- Subtype-specific clinical or observational evidence for desipramine in inattentive-type ADHD
+- Mechanism-of-action data
+- Package insert warnings and contraindications from Health Canada
+- A cardiac safety assessment, including paediatric risk, and a CYP2D6 interaction management plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

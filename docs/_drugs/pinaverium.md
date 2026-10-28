@@ -48,10 +48,10 @@ Pinaverium is a gut-selective calcium channel blocker, generally used for irrita
 |------|------|
 | Original Indication | Not stated in the Health Canada licence data compiled for this report (general pharmacology: IBS / gastrointestinal spasm) |
 | Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 99.22% |
+| TxGNN Prediction Score | 0.9922 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Calcium channel blockade could plausibly reduce smooth muscle tone in the prostate, bladder neck and urethra, which is relevant to lower urinary tract symptoms in BPH. This is a hypothesis only, inferred from general pharmacology rather than from supplied evidence.
 
-There is also an important caveat. Pinaverium is highly gut-selective and poorly absorbed systemically, so it is unclear whether it would reach adequate concentrations in genitourinary tissue. The high TxGNN score (0.992) is a computational output and is not clinical evidence.
+There is also an important caveat. Pinaverium is highly gut-selective and poorly absorbed systemically, so it is unclear whether it would reach adequate concentrations in genitourinary tissue. The high TxGNN score (0.9922) is a computational output and is not clinical evidence.
 
 ---
 

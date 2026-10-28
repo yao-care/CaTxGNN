@@ -48,10 +48,10 @@ Disopyramide is a class Ia antiarrhythmic drug that is marketed in Canada (as RY
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (disopyramide is generally known as an antiarrhythmic) |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Disopyramide is a class Ia antiarrhythmic drug that is marketed in Canada (as RY
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, disopyramide is a class Ia antiarrhythmic that blocks sodium channels and has anticholinergic activity.
 
-Tourette syndrome involves dysfunction of dopaminergic signalling and cortico-striato-thalamo-cortical circuits. No plausible mechanistic link to sodium channel blockade has been established. The high score (0.9986) is a graph-based prediction and is not backed by any trial or literature evidence. It may reflect network similarity artifacts rather than true biological relevance.
+Tourette syndrome involves dysfunction of dopaminergic signalling and cortico-striato-thalamo-cortical circuits. No plausible mechanistic link to sodium channel blockade has been established. The high score (0.9986) comes from the TxGNN model (deep learning) and is not backed by any trial or literature evidence. It may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top predictions show the same pattern. ADHD (and its inattentive subtype), trichotillomania, faciodigitogenital syndrome, specific developmental disorder, chondromyxoid fibroma and trigeminal nerve neoplasm have no identifiable mechanistic rationale. Two cardiac predictions are more biologically plausible:
 - **Idiopathic neonatal atrial flutter** (rank 7): disopyramide is used for atrial and ventricular arrhythmias, but neonatal safety is a concern (anticholinergic effects, negative inotropy, proarrhythmia).

@@ -50,10 +50,10 @@ This is a model-only prediction, and no mechanistic link has been identified.
 |------|------|
 | Original Indication | Severe chronic hand eczema refractory to potent topical corticosteroids; Kaposi sarcoma (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,12 @@ This is a model-only prediction, and no mechanistic link has been identified.
 
 Detailed mechanism of action data is not currently available. Based on the pharmacology data compiled for this report, alitretinoin is a pan-agonist of retinoid receptors. It acts on RARα, RARβ and RARγ, as well as RXRα, RXRβ and RXRγ. It is also linked to vitamin K epoxide reductase (VKORC1) in the data.
 
-Amenorrhea is a hormonal or structural reproductive disorder, and alitretinoin has no established role in treating it. The very high TxGNN score comes from graph-based inference only. Retinoids are also strongly teratogenic, so use in women of reproductive age is a serious safety concern.
+Amenorrhea is a hormonal or structural reproductive disorder, and alitretinoin has no established role in treating it. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Retinoids are also strongly teratogenic, so use in women of reproductive age is a serious safety concern.
 
 **In summary, this prediction is not mechanistically supported by the available data.**
 
 The other top-ranked predictions are also weak:
-- **Acne** (score 99.92%, evidence level L4): a plausible class-level rationale, since retinoids act on keratinocyte differentiation and sebaceous activity. Only two general dermatology reviews support it, and established alternatives exist.
+- **Acne** (score 0.9992, evidence level L4): a plausible class-level rationale, since retinoids act on keratinocyte differentiation and sebaceous activity. Only two general dermatology reviews support it, and established alternatives exist.
 - **Atypical coarctation of aorta, aortic malformation, pregnancy-associated osteoporosis, postmenopausal osteoporosis, autosomal dominant neovascular inflammatory vitreoretinopathy, breast fibrocystic disease, benign mammary dysplasia and Worth syndrome**: all L5, with no clinical evidence. For several (pregnancy-associated and postmenopausal osteoporosis, congenital vascular defects), retinoid effects on bone or development argue against benefit.
 
 ---
@@ -122,7 +122,7 @@ The Health Canada package insert warnings were not available for this report. Pl
 **Decision: Hold**
 
 **Rationale:**
-The amenorrhea prediction rests on a graph-based score alone (L5), with no trials, no literature and no identifiable mechanistic link. Teratogenicity is a substantial safety obstacle for women of reproductive age. Among the top 10 predictions, only acne has indirect class-level support, and established retinoid alternatives already exist.
+The amenorrhea prediction rests on a TxGNN model (deep learning) score alone (L5), which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no literature and no identifiable mechanistic link. Teratogenicity is a substantial safety obstacle for women of reproductive age. Among the top 10 predictions, only acne has indirect class-level support, and established retinoid alternatives already exist.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

@@ -48,10 +48,10 @@ Butalbital is a barbiturate marketed in Canada only in fixed-dose combination pr
 |------|------|
 | Original Indication | Not listed in the Canadian license data compiled for this report (butalbital combinations are generally used for tension headache) |
 | Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.36% |
+| TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 11 |
+| Canada Market Status | Marketed (valid licenses: 11 of 11) |
+| Number of DINs | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Butalbital is a barbiturate. Barbiturates enhance the effect of GABA at GABA-A r
 
 The link between the original and predicted indications is weak. Butalbital is used in combination with acetaminophen or aspirin and caffeine (sometimes with codeine) for headache, and it has no established antiepileptic indication. The very high TxGNN score most likely reflects its similarity to anticonvulsant barbiturates rather than direct evidence. None of the retrieved literature evaluates butalbital as a treatment for visual (photosensitive) epilepsy.
 
-The same model also predicts butalbital for seven other seizure types, all with scores of about 99%. These are micturition-induced seizures, thinking seizures, audiogenic seizures, eating seizures, startle epilepsy, orgasm-induced seizures and reading seizures. None has clinical trial support, and the literature is minimal or absent. The predictions therefore appear to be a class-level signal across rare reflex epilepsies.
+The same model also predicts butalbital for seven other seizure types, with scores from 0.9906 to 0.9915. These are micturition-induced seizures, thinking seizures, audiogenic seizures, eating seizures, startle epilepsy, orgasm-induced seizures and reading seizures. None has clinical trial support, and the literature is minimal or absent. The predictions therefore appear to be a class-level signal across rare reflex epilepsies.
 
 ---
 

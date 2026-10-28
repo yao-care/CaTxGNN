@@ -6,9 +6,9 @@ nav_order: 669
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Nortriptyline: predicted new indication Attention deficit hyperactivity disorder (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "NORTRIPTYLINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
+description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Nortriptyline
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 </div>
 
-## Nortriptyline: From Anxiety Disorder to Attention Deficit Hyperactivity Disorder
+## Nortriptyline: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **no registered clinical trials** but **16 publications** (including one ra
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the knowledge graph; the Canadian licence records contain no indication text) |
-| Predicted New Indication | Attention deficit hyperactivity disorder |
-| TxGNN Prediction Score | 99.42% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ Enhancing noradrenergic signalling in prefrontal circuits is a recognised approa
 
 The original indications (anxiety and mood-related disorders) and ADHD are both neuropsychiatric conditions in which monoamine modulation plays a role. The high TxGNN score is a computational prediction. It supports prioritisation but does not prove efficacy.
 
-A second predicted entry, **ADHD, inattentive type** (score 99.33%), follows the same mechanistic rationale. It has no specific supporting evidence, so it is treated as a subset of the main ADHD prediction.
+A second predicted entry, **ADHD, inattentive type** (score 0.9933), follows the same mechanistic rationale. It has no specific supporting evidence, so it is treated as a subset of the main ADHD prediction.
 
 ## Clinical Trial Evidence
 
@@ -92,7 +92,7 @@ Currently no related clinical trials registered.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text)**: The drug-disease contraindication links include long QT syndrome (including familial), torsades de pointes, heart conduction disease, sudden cardiac arrest, myocardial infarction and coronary thrombosis, stroke and other cerebrovascular disorders, liver failure, kidney failure and uremia, epilepsy, manic bipolar disorder, open-angle glaucoma and glaucoma, benign prostatic hyperplasia, substance abuse/dependence, hyperthyroidism (including Graves disease and thyrotoxicosis), and hemoglobinopathy.
+- **Contraindications (drug-disease associations, not label text)**: The drug-disease contraindication links include long QT syndrome (including familial), torsades de pointes, heart conduction disease, sudden cardiac arrest, myocardial infarction and coronary thrombosis, stroke and other cerebrovascular disorders, liver failure, kidney failure and uremia, epilepsy, manic bipolar disorder, open-angle glaucoma and glaucoma, benign prostatic hyperplasia, substance abuse/dependence, hyperthyroidism (including Graves disease and thyrotoxicosis), and hemoglobinopathy.
 - **Drug Interactions**: 100 interactions were found in total. Of the 20 reviewed, the **Major** interactions are:
   - Epinephrine
   - Bupropion

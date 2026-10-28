@@ -4,7 +4,7 @@ title: Pimecrolimus
 parent: High Evidence (L1-L2)
 nav_order: 736
 evidence_level: L2
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic dermatitis (atopic eczema)"
 monitor_inn: "PIMECROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acroderm
 # Pimecrolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **1 completed Phase 2 clinical trial** and **18 publications** (including 2
 |------|------|
 | Original Indication | Atopic dermatitis (atopic eczema) |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

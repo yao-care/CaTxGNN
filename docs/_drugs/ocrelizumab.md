@@ -4,17 +4,17 @@ title: Ocrelizumab
 parent: Model Prediction Only (L5)
 nav_order: 674
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Ocrelizumab: predicted new indication HER2-positive breast carcinoma (evidence level L5). Approved use: Progressive multiple sclerosis"
+description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Progressive multiple sclerosis"
 monitor_inn: "Ocrelizumab"
-predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "benign neoplasm of tongue", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "benign neoplasm of buccal mucosa"]
+predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 ---
 
 # Ocrelizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
+## Ocrelizumab: From Progressive Multiple Sclerosis to HER2 positive breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but there are currently **0 clinical trials** and **no publications** that addre
 |------|------|
 | Original Indication | Progressive multiple sclerosis |
 | Predicted New Indication | HER2-positive breast carcinoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ but there are currently **0 clinical trials** and **no publications** that addre
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, ocrelizumab is a humanized monoclonal antibody that selectively depletes CD20-expressing B cells. Its efficacy in multiple sclerosis (relapsing and primary progressive forms) is well established.
 
-The data do not support a direct mechanistic link to HER2-positive breast cancer. This cancer is driven by HER2 signalling and is not a CD20-dependent malignancy. The high TxGNN score (99.89%) is a computational prediction only. Any connection through tumour-infiltrating B cells or the immune microenvironment is speculative.
+The data do not support a direct mechanistic link to HER2-positive breast cancer. This cancer is driven by HER2 signalling and is not a CD20-dependent malignancy. The high TxGNN score (0.9989) is a computational prediction only. Any connection through tumour-infiltrating B cells or the immune microenvironment is speculative.
 
-The same holds for the other top predictions, which include other breast cancer subtypes (normal breast-like, progesterone-receptor positive and negative, luminal A or B), benign tongue, hypopharynx and buccal mucosa neoplasms, cervical neuroblastoma, and jugular foramen schwannoma. None has clinical trials, and none has a supported mechanistic rationale.
+The same holds for the other top predictions, which include other breast cancer subtypes (normal breast-like, progesterone-receptor positive and negative, luminal A or B). None has clinical trials, and none has a supported mechanistic rationale.
 
 ---
 

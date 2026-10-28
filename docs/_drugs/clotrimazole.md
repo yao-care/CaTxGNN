@@ -49,9 +49,9 @@ The TxGNN model predicts it may be effective for **acne**, but the evidence is t
 |------|------|
 | Original Indication | Tinea pedis and other superficial fungal infections, including cutaneous, oral and vulvovaginal candidiasis |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -63,7 +63,7 @@ Clotrimazole blocks fungal CYP51 (lanosterol 14-alpha-demethylase), an enzyme ne
 
 The link to acne is plausible but indirect. Reducing Malassezia or Candida colonization, and calming inflammation around hair follicles, might help some acne-like lesions. Acne is mainly driven by sebum, follicular blockage, *Cutibacterium acnes* and inflammation, so an antifungal is not an obvious fit.
 
-The high score (0.999) is a computational prediction from a knowledge graph. It is not clinical evidence. The only related trial tested a fixed combination product, so no effect can be attributed to clotrimazole itself.
+The high score (0.9986) is a prediction from the TxGNN model (deep learning). It is not clinical evidence. The only related trial tested a fixed combination product, so no effect can be attributed to clotrimazole itself.
 
 ---
 

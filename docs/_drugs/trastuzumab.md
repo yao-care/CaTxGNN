@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 932
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Trastuzumab: predicted new indication Progesterone-receptor positive breast cancer (evidence level L1). Approved use: HER2-positive breast carcinoma"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Trastuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trastuzumab is a HER2-targeted antibody originally used to treat HER2-positive breast carcinoma.
-The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, the highest-ranked prediction with meaningful evidence.
+The TxGNN model predicts it may be effective for **malignant cutaneous granular cell skin tumor**, the highest-ranked prediction with meaningful evidence.
 It is supported by **12 clinical trials** and **20 publications**. However, this is largely a subset of the already-approved HER2-positive use rather than a true new indication.
 
 ---
@@ -48,12 +48,12 @@ It is supported by **12 clinical trials** and **20 publications**. However, this
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast carcinoma |
-| Predicted New Indication | Progesterone-receptor positive breast cancer (the top-ranked prediction, "normal breast-like subtype of breast carcinoma", has only L4 evidence and is not selected) |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 15 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant cutaneous granular cell skin tumor |
+| TxGNN Prediction Score | 0.9948 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 15 of 15) |
+| Number of DINs | 15 (valid: 15) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

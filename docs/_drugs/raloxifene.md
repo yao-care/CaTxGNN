@@ -48,25 +48,25 @@ with **0 clinical trials** and **0 publications** currently supporting this dire
 |------|------|
 | Original Indication | Postmenopausal osteoporosis / osteoporosis |
 | Predicted New Indication | Duodenal ulcer |
-| TxGNN Prediction Score | 99.72% |
+| TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, raloxifene is a selective estrogen receptor modulator (SERM) that acts on bone, lipid metabolism and breast/uterine tissue. Its efficacy in postmenopausal osteoporosis is established.
 
-For duodenal ulcer, no clear mechanistic link has been identified. Duodenal ulcer is driven mainly by *H. pylori* infection, NSAID use and acid hypersecretion, and no recognized estrogen-receptor pathway connects raloxifene to these processes. The very high TxGNN score (99.72%) is a graph-based prediction and is not backed by any clinical trial or publication in the data compiled for this report.
+For duodenal ulcer, no clear mechanistic link has been identified. Duodenal ulcer is driven mainly by *H. pylori* infection, NSAID use and acid hypersecretion, and no recognized estrogen-receptor pathway connects raloxifene to these processes. The very high TxGNN score (0.9972) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any clinical trial or publication in the data compiled for this report.
 
 Other predictions from the same model were also reviewed, and all share the same limitation (L5, no supporting studies):
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
-| Hypoalphalipoproteinemia | 99.65% | Indirect plausibility: raloxifene lowers LDL cholesterol, but its effect on HDL is small and inconsistent. Low HDL is often genetic. |
-| Duodenal obstruction | 99.64% | No mechanistic rationale; this is usually a structural condition treated surgically or endoscopically. The score likely reflects graph proximity to other duodenal terms. |
-| Duodenogastric reflux | 99.59% | No known prokinetic, bile-binding or mucosal-protective action. Raloxifene's adverse-effect profile offers no offsetting rationale. |
+| Hypoalphalipoproteinemia | 0.9965 | Indirect plausibility: raloxifene lowers LDL cholesterol, but its effect on HDL is small and inconsistent. Low HDL is often genetic. |
+| Duodenal obstruction | 0.9964 | No mechanistic rationale; this is usually a structural condition treated surgically or endoscopically. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| Duodenogastric reflux | 0.9959 | No known prokinetic, bile-binding or mucosal-protective action. Raloxifene's adverse-effect profile offers no offsetting rationale. |
 
 ## Clinical Trial Evidence
 
@@ -98,7 +98,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for duodenal ulcer rests only on a graph-based model score. There is no clinical trial or literature evidence, and no plausible mechanistic link to raloxifene's SERM pharmacology. The known thromboembolic and cardiovascular risks argue against advancing without a clear rationale.
+The prediction for duodenal ulcer rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There is no clinical trial or literature evidence, and no plausible mechanistic link to raloxifene's SERM pharmacology. The known thromboembolic and cardiovascular risks argue against advancing without a clear rationale.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) from DrugBank, to enable a proper mechanistic-link analysis

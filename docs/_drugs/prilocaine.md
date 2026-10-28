@@ -6,9 +6,9 @@ nav_order: 769
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Premature ejaculation"
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
+description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prilocaine
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prilocaine: From Premature Ejaculation to Papillary Conjunctivitis
+## Prilocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Prilocaine is an amide-type local anesthetic. The knowledge graph lists premature ejaculation and psychologic dyspareunia as its original indications, and it is marketed in Canada in dental, injectable and topical products.
+Prilocaine is an amide-type local anesthetic, and it is marketed in Canada in dental, injectable and topical products.
 The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Premature ejaculation; psychologic dyspareunia (from the knowledge graph, as the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Prilocaine belongs to the sodium channel-blocking local anesthetics, and its numbing effect on peripheral nerves is well established. A link to allergic or inflammatory ocular surface disease is speculative.
 
-The original indications relate to genital sensitivity and pain, where a topical anesthetic effect is plausible. Papillary conjunctivitis is an inflammatory, often allergic, eye condition, and the data show no clear mechanistic bridge between the two. The high TxGNN score reflects a graph-based pattern and is not supported by trials, literature or demonstrated biology.
+The original indications relate to genital sensitivity and pain, where a topical anesthetic effect is plausible. Papillary conjunctivitis is an inflammatory, often allergic, eye condition, and the data show no clear mechanistic bridge between the two. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by trials, literature or demonstrated biology.
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dimenhydrinate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 286
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L4). Approved use: Motion sickness"
@@ -14,7 +14,7 @@ predicted_indications: ["allergic urticaria", "cold urticaria"]
 # Dimenhydrinate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,23 +47,23 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 |------|------|
 | Original Indication | Motion sickness; central nervous system origin vertigo |
 | Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| TxGNN Prediction Score | 0.9974 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 20 of 20) |
+| Number of DINs | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
-The Canadian licence records compiled for this report contain no approved-indication text, so the original indications shown above come from the TxGNN knowledge graph.
+The Canadian licence records compiled for this report contain no approved-indication text, so the original indications shown above could not be taken from those records. Any TxGNN model (deep learning) scores on this page come from the model itself and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, dimenhydrinate is a salt of diphenhydramine and 8-chlorotheophylline. Diphenhydramine is a first-generation H1-antihistamine, and the antihistamine component is responsible for much of the drug's known pharmacology.
 
-Urticaria is driven by mast cell degranulation and histamine release, and H1-antihistamines are standard therapy for it. This shared H1-antagonist pharmacology explains the very high TxGNN score (0.997). The link between the original indications (motion sickness, vertigo) and urticaria is therefore the same active moiety acting on the H1 receptor, not a shared disease process.
+Urticaria is driven by mast cell degranulation and histamine release, and H1-antihistamines are standard therapy for it. This shared H1-antagonist pharmacology explains the very high TxGNN score (0.9974). The link between the original indications (motion sickness, vertigo) and urticaria is therefore the same active moiety acting on the H1 receptor, not a shared disease process.
 
 There are practical limits. First-generation antihistamines cause sedation and anticholinergic effects. Guidelines generally prefer second-generation, non-sedating H1-antihistamines for chronic urticaria, which reduces the clinical value of repurposing dimenhydrinate.
 
-A second prediction, **cold urticaria** (score 99.24%), rests on the same class-level logic. No trials or literature were found for it, so its evidence level is L5 (model prediction only).
+A second prediction, **cold urticaria** (score 0.9924), rests on the same class-level logic. No trials or literature were found for it, so its evidence level is L5 (model prediction only).
 
 ## Clinical Trial Evidence
 

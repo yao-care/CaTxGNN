@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Pilocarpine
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 735
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-13
-description: "Pilocarpine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Pilocarpine: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Pilocarpine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,63 +32,49 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Pilocarpine: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Pilocarpine: known uses and market status in Canada; currently no new candidate indication -->
+## Pilocarpine: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model produced candidates for Pilocarpine, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug in Canada. The one known use among the candidates is primary hereditary glaucoma, which is supported by a licence in another country.
 
-Pilocarpine was originally used to treat open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but this is a model prediction only, with **no registered clinical trials and no publications** currently supporting it. The predicted indication also overlaps heavily with the existing glaucoma indications.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; ocular hypertension (from the knowledge-graph indication data, as Canadian license indication text is not available) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| primary hereditary glaucoma | licence in another country (approved indication: glaucoma) |
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, pilocarpine is a muscarinic (M3) receptor agonist. It contracts the ciliary muscle and increases trabecular outflow of aqueous humour, which lowers intraocular pressure (IOP). This is the basis of its use in open-angle glaucoma and ocular hypertension.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Primary hereditary glaucoma is also centred on impaired aqueous outflow and raised IOP, so a mechanistic link is plausible. However, the prediction may largely reflect how close the diseases are in the disease ontology rather than a truly new repurposing opportunity, because the new indication substantially overlaps with the existing glaucoma indications.
-
-There are important caveats. Hereditary forms such as primary congenital glaucoma (for example, those linked to CYP1B1 variants) typically arise from developmental abnormalities of the trabecular meshwork or drainage angle and are usually treated surgically. Miotics like pilocarpine may have limited efficacy in these patients and raise paediatric safety concerns.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00000868 | ISOPTO CARPINE | Not available | Not available |
-| 02496119 | M-PILOCARPINE | Not available | Not available |
-| 02148463 | MINIMS PILOCARPINE NITRATE | Not available | Not available |
-| 02216345 | SALAGEN | Not available | Not available |
-| 02509571 | JAMP PILOCARPINE | Not available | Not available |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 00000868 | ISOPTO CARPINE |  | Valid |
+| 02496119 | M-PILOCARPINE |  | Valid |
+| 02148463 | MINIMS PILOCARPINE NITRATE |  | Valid |
+| 02216345 | SALAGEN |  | Valid |
+| 02509571 | JAMP PILOCARPINE |  | Valid |
 
 ## Safety Considerations
 
@@ -102,19 +89,6 @@ Please refer to the package insert for official warnings and contraindications.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a computational score (99.83%) with no clinical trials or publications. It overlaps with approved glaucoma uses, and hereditary glaucoma is usually managed surgically, so the added value of pilocarpine is uncertain.
-
-**To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data confirmed from DrugBank
-- Clarification of which hereditary glaucoma subtypes are targeted, and whether they differ meaningfully from the approved indications
-- Literature and trial searches for pilocarpine in hereditary or congenital glaucoma, including paediatric safety
-- Approved indication text and dosage forms for the Canadian licenses
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

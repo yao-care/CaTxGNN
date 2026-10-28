@@ -4,17 +4,17 @@ title: Pantoprazole
 parent: Model Prediction Only (L5)
 nav_order: 704
 evidence_level: L5
-indication_count: 6
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Pantoprazole: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pantoprazole is a proton pump inhibitor originally used for peptic ulcer disease, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **1 completed Phase 3 trial** in the top-ranked indication and **18 publications** supporting this direction.
+The TxGNN model predicts it may be effective for **duodenal obstruction**, with **1 completed Phase 3 trial** in the top-ranked indication and **18 publications** supporting this direction.
 This prediction largely overlaps with the drug's established use, so it is closer to a marketed indication than to true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, Zollinger-Ellison syndrome (approved indication text for the Canadian licences is not available) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L2 (by the strict rules: 1 completed Phase 3 RCT in this indication). Supporting trials for the closely related duodenal ulcer prediction would qualify as L1. |
-| Canada Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9921 |
+| Evidence Level | L5 (by the strict rules: 1 completed Phase 3 RCT in this indication). Supporting trials for the closely related duodenal ulcer prediction would qualify as L1. |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Proceed with Guardrails |
 

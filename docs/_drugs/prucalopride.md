@@ -6,9 +6,9 @@ nav_order: 782
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prucalopride: predicted new indication Hypoalphalipoproteinemia (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
+description: "Prucalopride: predicted new indication Hypoalphalipoproteinemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prucalopride
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prucalopride: From Constipation Disorder to Hypoalphalipoproteinemia
+## Prucalopride: Hypoalphalipoproteinemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia** (l
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation disorder (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypoalphalipoproteinemia |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, prucalopride is a selective 5-HT4 receptor agonist that stimulates gastrointestinal motility, and its efficacy in constipation is established.
 
-Mechanistically, there is no known pathway connecting 5-HT4 agonism to HDL metabolism, so the prediction does not have a plausible biological explanation at present. The high score reflects a pattern in the knowledge graph rather than pharmacological reasoning, and no trials or publications support it.
+Mechanistically, there is no known pathway connecting 5-HT4 agonism to HDL metabolism, so the prediction does not have a plausible biological explanation at present. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or pharmacological reasoning, and no trials or publications support it.
 
 Other top-ranked predictions show the same pattern. Most are also unsupported (homozygous familial hypercholesterolemia, oral candidiasis, strongyloidiasis, HIV infection). The only partly plausible group is amyloidosis (including primary amyloidosis and amyloid neuropathy). In these, gut involvement can cause dysmotility or chronic intestinal pseudo-obstruction, where a prokinetic might relieve symptoms. This would treat GI symptoms rather than the underlying disease, and no efficacy data exist. These are better framed as research questions than as repurposing candidates for the top-ranked indication.
 

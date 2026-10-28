@@ -4,7 +4,7 @@ title: Lenvatinib
 parent: High Evidence (L1-L2)
 nav_order: 536
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma and thyroid carcinoma"
 monitor_inn: "Lenvatinib"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 # Lenvatinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence is early and uncontrolled, so it points to a research question rath
 |------|------|
 | Original Indication | Renal cell carcinoma and thyroid carcinoma (Canadian approved-indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 696
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Pharyngitis, common cold"
 monitor_inn: "Oxymetazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
+description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Oxymetazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+## Oxymetazoline: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **no registered clinical trials** and only **5 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Pharyngitis, common cold (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 13 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 13 of 13) |
+| Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---

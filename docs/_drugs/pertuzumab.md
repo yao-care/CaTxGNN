@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pertuzumab
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 725
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pertuzumab: predicted new indication Progesterone-receptor positive breast cancer (evidence level L1). Approved use: HER2 positive breast carcinoma"
 monitor_inn: "Pertuzumab"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: predicted new indication Ectomesenchymoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Pertuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pertuzumab is an anti-HER2 antibody originally used to treat HER2-positive breast carcinoma.
-The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**,
+The TxGNN model predicts it may be effective for **ectomesenchymoma**,
 with **1 clinical trial** and **20 publications** currently supporting this direction.
 Most of this evidence reflects use in the already-approved HER2-positive population, so it is better described as a subgroup of the current indication than a true new indication.
 
@@ -47,15 +47,14 @@ Most of this evidence reflects use in the already-approved HER2-positive populat
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2 positive breast carcinoma |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Ectomesenchymoma |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
-The highest-ranked prediction (rank 1) is "normal breast-like subtype of breast carcinoma", but it has no trials or literature (L5). This report therefore focuses on rank 2, the first prediction with real supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
@@ -120,7 +119,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The evidence is strong for pertuzumab in HER2-positive breast cancer (Phase 3 and Phase 2 randomized data), but that is the already-approved indication. For PR-positive disease specifically, the benefit comes from the HER2-positive subset, and the only registered trial is a biosimilar equivalence study in PR-negative patients. This is a subgroup of the existing indication, not a distinct repurposing opportunity, and the score of 99.93% reflects model prediction rather than new clinical proof. The data pack also lacks label safety information and mechanism data, which blocks formal safety screening.
+The evidence is strong for pertuzumab in HER2-positive breast cancer (Phase 3 and Phase 2 randomized data), but that is the already-approved indication. For PR-positive disease specifically, the benefit comes from the HER2-positive subset, and the only registered trial is a biosimilar equivalence study in PR-negative patients. This is a subgroup of the existing indication, not a distinct repurposing opportunity, and the score reflects model prediction rather than new clinical proof. The data pack also lacks label safety information and mechanism data, which blocks formal safety screening.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (currently missing; this blocks safety screening)

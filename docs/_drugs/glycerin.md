@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Glycerin is an osmotic agent originally used to treat constipation, and it is also found in many over-the-counter eye drops in Canada.
 The TxGNN model predicts it may be effective for **cauda equina syndrome**, but **no clinical trials and no publications** currently support this prediction.
-The prediction is graph-based only, and the evidence is weak.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The evidence is weak.
 
 ---
 
@@ -50,10 +50,10 @@ The prediction is graph-based only, and the evidence is weak.
 |------|------|
 | Original Indication | Constipation disorder |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 13 |
+| Canada Market Status | Marketed (valid licenses: 13 of 13) |
+| Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction is graph-based only, and the evidence is weak.
 
 Currently, detailed mechanism of action data is not available. Based on known information, glycerin is an osmotic agent. Its efficacy in constipation is established, and it is also widely used as a lubricant in eye drops.
 
-For cauda equina syndrome, no mechanistic link has been identified. The high score appears to come from the structure of the knowledge graph only. Cauda equina syndrome is a surgical emergency caused by compression of the nerve roots. Glycerin has no established neuroprotective or decompressive role in it, so the prediction is not biologically convincing.
+For cauda equina syndrome, no mechanistic link has been identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Cauda equina syndrome is a surgical emergency caused by compression of the nerve roots. Glycerin has no established neuroprotective or decompressive role in it, so the prediction is not biologically convincing.
 
 ### Other Candidates Considered
 
@@ -70,11 +70,11 @@ The other top-ranked predictions are listed below. None has clinical trial suppo
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Open-angle glaucoma | 99.59% | L4 | Oral glycerin lowers intraocular pressure through an osmotic effect, but it has historically been used for acute angle-closure episodes. The retrieved literature is indirect. |
-| 3 | Primary hereditary glaucoma | 99.56% | L5 | Prediction only. This form is usually managed surgically. |
-| 4 | Alopecia | 99.55% | L4 | No credible mechanism. Glycerin appears only as an excipient in the literature. |
-| 6 | Irritable bowel syndrome | 99.49% | L4 | Plausible for constipation-predominant IBS, but it is close to the original indication and the literature is weak. |
-| 9 | Migraine disorder | 99.27% | L5 | No mechanistic link. The one article retrieved concerns epistaxis. |
+| 2 | Open-angle glaucoma | 0.9959 | L5 | Oral glycerin lowers intraocular pressure through an osmotic effect, but it has historically been used for acute angle-closure episodes. The retrieved literature is indirect. |
+| 3 | Primary hereditary glaucoma | 0.9956 | L5 | Prediction only. This form is usually managed surgically. |
+| 4 | Alopecia | 0.9955 | L5 | No credible mechanism. Glycerin appears only as an excipient in the literature. |
+| 6 | Irritable bowel syndrome | 0.9949 | L5 | Plausible for constipation-predominant IBS, but it is close to the original indication and the literature is weak. |
+| 9 | Migraine disorder | 0.9927 | L5 | No mechanistic link. The one article retrieved concerns epistaxis. |
 
 Ranks 5, 7, 8 and 10 (congenital hypotrichosis milia, hypotrichosis simplex of the scalp, diffuse alopecia areata, migraine with brainstem aura) are prediction only, with no supporting data.
 
@@ -128,7 +128,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication of cauda equina syndrome rests only on a graph-based score. There are no trials, no publications and no plausible mechanism. It is a surgical emergency for which glycerin has no recognized role. Across all ten predictions, none has direct clinical support. Open-angle glaucoma and irritable bowel syndrome have some biological plausibility but still lack direct evidence.
+The predicted indication of cauda equina syndrome rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials, no publications and no plausible mechanism. It is a surgical emergency for which glycerin has no recognized role. Across all ten predictions, none has direct clinical support. Open-angle glaucoma and irritable bowel syndrome have some biological plausibility but still lack direct evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for glycerin

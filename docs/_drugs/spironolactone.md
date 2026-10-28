@@ -6,9 +6,9 @@ nav_order: 868
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension, congestive heart failure…"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
+## Spironolactone: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,15 +45,15 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, congestive heart failure, hyperaldosteronism / primary aldosteronism (from the knowledge graph; Canadian label indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
-A second prediction, congenital hypotrichosis milia (score 99.04%), is also at L5 with no supporting studies and a Hold recommendation.
+A second prediction, congenital hypotrichosis milia (score 0.9904), is also at L5 with no supporting studies and a Hold recommendation.
 
 ## Why is This Prediction Reasonable?
 
@@ -61,7 +61,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 That anti-androgen action gives a plausible but indirect link to hair loss. Spironolactone is used off-label for androgenetic alopecia and female pattern hair loss, where it reduces androgen signalling at the hair follicle. This is probably why the model links the drug to hair-related conditions.
 
-The link is weak for this specific disease. Hypotrichosis simplex of the scalp is a rare hereditary disorder, mainly caused by variants in *CDSN*, *APCDD1* or *RPL21*. These are structural and Wnt-pathway defects, not androgen-driven follicle miniaturisation, so anti-androgen action is not expected to address the underlying cause. The high score of 0.993 is a computational prediction only.
+The link is weak for this specific disease. Hypotrichosis simplex of the scalp is a rare hereditary disorder, mainly caused by variants in *CDSN*, *APCDD1* or *RPL21*. These are structural and Wnt-pathway defects, not androgen-driven follicle miniaturisation, so anti-androgen action is not expected to address the underlying cause. The high score of 0.9926 is a computational prediction only.
 
 For the second prediction, congenital hypotrichosis milia, there is no direct mechanistic rationale. The score likely reflects network proximity to other hypotrichosis phenotypes rather than a biological mechanism.
 
@@ -87,7 +87,7 @@ Ten single-ingredient authorisations are valid, none cancelled. Dosage form and 
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** kidney disease, anuria, diabetes mellitus, diabetic ketoacidosis, potassium deficiency disease, hypercalcemia, hyperparathyroidism, nephrocalcinosis, phosphorus metabolism disease, gout, hyperuricemia, hepatic coma and hepatic encephalopathy, pancreatitis, systemic lupus erythematosus (including paediatric), pyoureter, osteitis fibrosa, and neonatal jaundice.
+- **Contraindications (from the TxGNN model (deep learning), not label text; these may reflect similarities the model learned between related diseases, not biological evidence):** kidney disease, anuria, diabetes mellitus, diabetic ketoacidosis, potassium deficiency disease, hypercalcemia, hyperparathyroidism, nephrocalcinosis, phosphorus metabolism disease, gout, hyperuricemia, hepatic coma and hepatic encephalopathy, pancreatitis, systemic lupus erythematosus (including pediatric), pyoureter, osteitis fibrosa, and neonatal jaundice.
 - **Drug Interactions:** The interaction screen returned 100 entries. The first 20 reviewed include:
   - **Major:** loperamide.
   - **Moderate:** hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, metformin, bupropion, morphine, bisacodyl, castor oil, dronabinol, exenatide, and the SGLT2 inhibitors canagliflozin, dapagliflozin, empagliflozin and ertugliflozin.

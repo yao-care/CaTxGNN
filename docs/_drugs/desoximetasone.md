@@ -50,10 +50,10 @@ with **no registered clinical trials** and **1 publication** (a randomized, doub
 |------|------|
 | Original Indication | Inflammatory skin conditions, including atopic eczema, contact dermatitis, seborrheic dermatitis and discoid lupus erythematosus (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -4,7 +4,7 @@ title: Alectinib
 parent: Model Prediction Only (L5)
 nav_order: 30
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Alectinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer"
 monitor_inn: "ALECTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Alectinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ The prediction is model output only. Among the ten predicted indications, only l
 |------|------|
 | Original Indication | Non-small cell lung cancer (the Canadian licence record has no indication text) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, alectinib is a selective inhibitor of anaplastic lymphoma kinase (ALK), with additional RET activity. Its efficacy in ALK-positive non-small cell lung cancer is well established.
 
-No mechanistic link to gingival fibromatosis has been established. No ALK-driven pathology has been described in this condition. The very high TxGNN score is a graph-based prediction only. It most likely reflects network proximity to the approved lung cancer indication rather than biological rationale.
+No mechanistic link to gingival fibromatosis has been established. No ALK-driven pathology has been described in this condition. The very high TxGNN score comes from the TxGNN model (deep learning). It may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions show the same pattern:
 - **Benign lung conditions** (fibroma, hamartoma, benign neoplasm): the evidence is unrelated to benign disease, with no ALK-related mechanism known.

@@ -4,17 +4,17 @@ title: Fidaxomicin
 parent: Model Prediction Only (L5)
 nav_order: 385
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Fidaxomicin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L5). Approved use: Clostridium difficile colitis"
 monitor_inn: "Fidaxomicin"
-predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis", "parasitic skin disease"]
+predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
+description: "Fidaxomicin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fidaxomicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fidaxomicin: From Clostridium difficile Colitis to Staphylococcal Scalded Skin Syndrome
+## Fidaxomicin: Staphylococcal scalded skin syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no directly relevant publications** currently suppo
 
 | Item | Content |
 |------|------|
-| Original Indication | Clostridium difficile colitis (the Health Canada licence record has no indication text, so this comes from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Staphylococcal scalded skin syndrome |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,7 +101,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.71%), but it is supported only by the model. There are no clinical trials and no relevant literature. Fidaxomicin's minimal systemic absorption is a major obstacle for a toxin-mediated systemic skin disease, and established treatments already exist.
+The prediction score is high (0.9971), but it is supported only by the model. There are no clinical trials and no relevant literature. Fidaxomicin's minimal systemic absorption is a major obstacle for a toxin-mediated systemic skin disease, and established treatments already exist.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

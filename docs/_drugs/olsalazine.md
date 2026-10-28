@@ -46,17 +46,17 @@ Olsalazine is a dimer of 5-aminosalicylic acid (5-ASA), an anti-inflammatory age
 |------|------|
 | Original Indication | Not stated in the Canadian licence data |
 | Predicted New Indication | Myelodysplastic syndrome |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, olsalazine is a 5-ASA dimer that colonic bacteria cleave into two active molecules. Its anti-inflammatory effects (local COX and lipoxygenase inhibition, NF-kB and PPAR-gamma modulation) act mainly on the gut lining, and very little of the drug is absorbed into the bloodstream.
 
-The review found no plausible mechanistic link between this action and myelodysplastic syndrome, a clonal bone marrow disorder. The high TxGNN score appears to come from patterns in the knowledge graph rather than from any validated biology. The other top predictions point the same way:
+The review found no plausible mechanistic link between this action and myelodysplastic syndrome, a clonal bone marrow disorder. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top predictions point the same way:
 
 - **Bone marrow and blood disorders:** unclassified myelodysplastic syndrome, refractory cytopenia of childhood, aregenerative anemia, severe congenital hypochromic anemia with ringed sideroblasts, and partial deletion of the long arm of chromosome 5. The del(5q) abnormality is a cytogenetic finding rather than a treatable disease, and it likely reflects the same cluster of predictions as myelodysplastic syndrome.
 - **Hair disorders:** hypotrichosis simplex of the scalp, congenital hypotrichosis milia, alopecia, and diffuse alopecia areata. Alopecia areata is T-cell-mediated autoimmunity, which olsalazine's local mucosal action does not target.
@@ -105,7 +105,7 @@ Many of these are nephrotoxic agents, so kidney function would need attention if
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on the knowledge-graph model. There are no clinical trials or publications, and no mechanistic link exists between a locally acting gut anti-inflammatory drug with minimal systemic absorption and a bone marrow disorder. The safety data also has gaps.
+The prediction rests only on the TxGNN model (deep learning), whose score may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, and no mechanistic link exists between a locally acting gut anti-inflammatory drug with minimal systemic absorption and a bone marrow disorder. The safety data also has gaps.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for olsalazine

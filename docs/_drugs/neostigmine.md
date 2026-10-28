@@ -4,17 +4,17 @@ title: Neostigmine
 parent: Model Prediction Only (L5)
 nav_order: 647
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Neostigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L5). Approved use: Myasthenia gravis"
 monitor_inn: "Neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
+description: "Neostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Neostigmine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,29 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Neostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Neostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Neostigmine is a cholinesterase inhibitor originally used to treat myasthenia gravis and related neuromuscular junction disease.
-The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, but **no clinical trials and no publications** specific to this subtype were found, so the prediction rests on the model score and its closeness to the already-established indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Myasthenia gravis (also adult-onset myasthenia gravis and neuromuscular junction disease, per the knowledge graph) |
-| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune disease of peripheral nervous system |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Neostigmine is a reversible acetylcholinesterase inhibitor. By slowing the breakdown of acetylcholine, it raises acetylcholine levels at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description comes from general pharmacology.
 
-Myasthenia gravis with thymus hyperplasia is a subtype of the disease for which neostigmine is already used. The high prediction score therefore mostly reflects how close this subtype is to the original indication, not new evidence. The mechanism is plausible, but a repurposing claim cannot be built on it alone.
 
 ## Clinical Trial Evidence
 
@@ -71,7 +69,7 @@ The other predicted indications do have some literature, but it is mostly indire
 
 - **Myasthenia, limb-girdle, autoimmune (L4):** one 2016 review on unusual MG presentations, with no neostigmine efficacy data.
 - **Autoimmune disease of the peripheral nervous system (L4):** mainly MG mechanism studies, animal models and drug-interaction reports, with no controlled trials.
-- **Neonatal myasthenia gravis (L4):** several case reports and a 2025 treatment review, with no controlled trials. This is the only prediction advanced to the next screening stage, as a research question.
+- **Neonatal myasthenia gravis (L4):** several case reports and a 2025 treatment review, with no controlled trials.
 
 ## Canada Market Information
 
@@ -113,7 +111,7 @@ The predicted indication has no trial or literature support. It is a subtype of 
 - Subtype-specific clinical evidence for myasthenia gravis with thymus hyperplasia, for example registry or observational data on neostigmine use
 - Approved indication text, dosage forms and package insert warnings and contraindications for the Canadian products
 - Mechanism-of-action data from DrugBank
-- For neonatal myasthenia gravis, the only prediction advanced as a research question: a dosing and safety evaluation in neonates
+- For neonatal myasthenia gravis: a dosing and safety evaluation in neonates
 - A review of the major bupropion interaction and the knowledge-graph contraindication signals before any new use
 ## Disclaimer
 

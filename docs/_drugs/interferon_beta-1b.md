@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hairy cell leukemia**, but th
 |------|------|
 | Original Indication | Relapsing-remitting multiple sclerosis |
 | Predicted New Indication | Hairy cell leukemia |
-| TxGNN Prediction Score | 99.16% |
+| TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -102,7 +102,7 @@ For warnings and contraindications, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.16%), but there are no clinical trials or publications for hairy cell leukemia, so the evidence level is L5. Current standard therapies are highly effective, which leaves little clinical need for this indication.
+The TxGNN score is very high (0.9916), but there are no clinical trials or publications for hairy cell leukemia, so the evidence level is L5. Current standard therapies are highly effective, which leaves little clinical need for this indication.
 
 For context, the model's second-ranked prediction, autoimmune disease of the central nervous system, has substantial supporting evidence. This includes a completed Phase 3 BENEFIT extension study (NCT00185211, 468 patients) and a Cochrane network meta-analysis. However, that evidence is essentially for MS, the drug's already approved use, so it is not a true repurposing opportunity.
 

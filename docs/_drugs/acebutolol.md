@@ -4,7 +4,7 @@ title: Acebutolol
 parent: Model Prediction Only (L5)
 nav_order: 16
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Acebutolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension / hypertensive disorder"
 monitor_inn: "ACEBUTOLOL"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease"]
 # Acebutolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 |------|------|
 | Original Indication | Hypertension / hypertensive disorder (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.10% |
+| TxGNN Prediction Score | 0.9910 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,9 +63,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Beta-1 blockade reduces renin release from the kidney and lowers blood pressure. Both effects are plausibly relevant to hypertension-related kidney damage and to renovascular hypertension, which is largely driven by activation of the renin-angiotensin system.
 
-However, the high score (99.10%) most likely reflects the close semantic similarity between these conditions and the approved hypertension indication. It should not be read as independent evidence of benefit. Malignant hypertension is a hypertensive emergency, usually managed with parenteral agents and therapy targeting the renin-angiotensin system, so oral acebutolol would not be a standard choice.
+However, the high score (0.9910) most likely reflects the close semantic similarity between these conditions and the approved hypertension indication. It should not be read as independent evidence of benefit. Malignant hypertension is a hypertensive emergency, usually managed with parenteral agents and therapy targeting the renin-angiotensin system, so oral acebutolol would not be a standard choice.
 
-A second predicted indication, **malignant renovascular hypertension**, has the same score (99.10%) and the same limitations.
+A second predicted indication, **malignant renovascular hypertension**, has the same score (0.9910) and the same limitations.
 
 ---
 

@@ -6,7 +6,7 @@ nav_order: 506
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Ivabradine: predicted new indication Hypertrichosis (evidence level L5). Approved use: Not available in the data compiled for this report"
+description: "Ivabradine: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Ivabradine: From an Unspecified Original Indication to Hypertrichosis
+## Ivabradine: From an Unspecified Original Indication to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ivabradine is a heart-rate-lowering drug that is marketed in Canada. The data compiled for this report do not state its approved indication.
-The TxGNN model predicts it may be effective for **hypertrichosis**, with a score of 99.79%.
+The TxGNN model predicts it may be effective for **hypertrichosis**, with a score of 0.9979.
 There are **0 clinical trials** and **0 publications** supporting this direction, so the prediction is based on the model alone.
 
 ## Quick Overview
@@ -48,27 +48,27 @@ There are **0 clinical trials** and **0 publications** supporting this direction
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Ivabradine is known to selectively inhibit the HCN channels (the If, or "funny", current) in the sinoatrial node, which slows heart rate. This is general pharmacology and was not retrieved as structured data.
 
-No established link exists between this mechanism and hair follicle biology. HCN channels are found in some tissues outside the heart, but any role in hair growth is speculative. The high TxGNN score is a network-based prediction only. It may partly reflect the knowledge graph linking hypertrichosis to other drugs, such as minoxidil, which can bias predictions toward this phenotype.
+No established link exists between this mechanism and hair follicle biology. HCN channels are found in some tissues outside the heart, but any role in hair growth is speculative. The high TxGNN score (0.9979) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other predicted indications are even less supported:
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Ambras type hypertrichosis universalis congenita | 99.72% | L5 | A congenital genetic disorder (TRPS1 regulation). No plausible pathway from HCN blockade, and paediatric safety concerns (bradycardia, visual phenomena). |
-| Malformation syndrome with odontal and/or periodontal component | 99.72% | L5 | A heterogeneous developmental group. Likely reflects shared gene or phenotype neighbours in the graph. |
-| Syndrome with a Dandy-Walker malformation as major feature | 99.70% | L5 | A structural developmental defect. No rationale for a symptomatic cardiac drug. |
-| Isolated genetic hair shaft abnormality | 99.69% | L5 | Caused by keratin or follicle gene defects. Likely reflects graph proximity to the hypertrichosis cluster. |
-| Nephrogenic syndrome of inappropriate antidiuresis | 99.08% | L5 | Caused by AVPR2 gain-of-function. HCN channels exist in the kidney, but there is no evidence of relevance. This is the most biologically conceivable candidate, yet still purely speculative. |
+| Ambras type hypertrichosis universalis congenita | 0.9972 | L5 | A congenital genetic disorder (TRPS1 regulation). No plausible pathway from HCN blockade, and paediatric safety concerns (bradycardia, visual phenomena). |
+| Malformation syndrome with odontal and/or periodontal component | 0.9972 | L5 | A heterogeneous developmental group. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| Syndrome with a Dandy-Walker malformation as major feature | 0.9970 | L5 | A structural developmental defect. No rationale for a symptomatic cardiac drug. |
+| Isolated genetic hair shaft abnormality | 0.9969 | L5 | Caused by keratin or follicle gene defects. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| Nephrogenic syndrome of inappropriate antidiuresis | 0.9908 | L5 | Caused by AVPR2 gain-of-function. HCN channels exist in the kidney, but there is no evidence of relevance. This is the most biologically conceivable candidate, yet still purely speculative. |
 
 ## Clinical Trial Evidence
 
@@ -107,7 +107,7 @@ All six predictions rest on the TxGNN network score alone. There are no clinical
 - The Health Canada package insert (warnings, contraindications, approved indication, dosage form), which is a blocking gap for safety screening
 - Detailed mechanism of action data from DrugBank, to support any mechanistic analysis
 - Preclinical or mechanistic evidence that HCN channels play a role in hair follicle biology, if hypertrichosis is to be pursued
-- A review of whether the prediction is an artefact of the knowledge graph, for example through minoxidil-related edges
+- A review of whether the score from the TxGNN model (deep learning) only reflects similarities the model learned between related diseases, not biological evidence
 - A fuller review of the 100 detected drug interactions, with a focus on the Major ones
 ## Disclaimer
 

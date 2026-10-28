@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ketamine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 510
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not available in the compiled data"
@@ -14,7 +14,7 @@ predicted_indications: ["headache disorder"]
 # Ketamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L1** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **9 clinical trials** and **20 publications** compiled, including a complet
 |------|------|
 | Original Indication | Not available in the compiled data (Health Canada licence records contain no indication text) |
 | Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.33% |
+| TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Only one Phase 3 trial (THINK, NCT03081416) is confirmed as completed, and the other Phase 3 trial is still recruiting. Strictly under the L1 rule (≥2 completed Phase 3 RCTs), a more conservative grading of L2 would be defensible. The L1 grade is retained from the scoring data compiled for this report.
@@ -60,7 +60,7 @@ with **9 clinical trials** and **20 publications** compiled, including a complet
 
 Ketamine is an NMDA receptor antagonist. Glutamate signalling and central sensitisation are implicated in migraine, cluster headache and other chronic headache disorders, including cortical spreading depression and trigeminovascular pain transmission. Blocking NMDA receptors may reduce central sensitisation and pain amplification, which gives a plausible biological basis for use in acute or refractory headache.
 
-Detailed mechanism-of-action data were not available in the compiled records, so this reasoning rests on ketamine's well-known pharmacology rather than on a curated mechanism entry. Ketamine's analgesic effects at sub-dissociative doses further support the biological plausibility. The high TxGNN score (0.99) is consistent with this link.
+Detailed mechanism-of-action data were not available in the compiled records, so this reasoning rests on ketamine's well-known pharmacology rather than on a curated mechanism entry. Ketamine's analgesic effects at sub-dissociative doses further support the biological plausibility. The high TxGNN score (0.9933) is consistent with this link.
 
 An important caveat is that the evidence is heterogeneous across headache subtypes (migraine, cluster, tension-type and chronic daily headache), and the trials use different routes (intravenous, intranasal, oral) and comparators.
 

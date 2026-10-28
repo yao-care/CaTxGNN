@@ -6,9 +6,9 @@ nav_order: 920
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial infections…"
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Tobramycin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tobramycin: From Bacterial and Ocular Infections to Exposure Keratitis
+## Tobramycin: Exposure keratitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials** and only **8 publications** (none on exposure keratit
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, including ocular infections such as conjunctivitis and staphylococcal infection (approved-indication text not available in the Canadian licence data; taken from knowledge graph indications) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -135,10 +135,10 @@ The prediction score is very high, but there are no clinical trials and no study
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 3 | Otitis externa | 99.81% | L3 | Research Question |
-| 10 | Epidemic keratoconjunctivitis | 99.38% | L4 | Hold |
-| 5 | Post-bacterial disorder | 99.79% | L4 | Hold |
-| 7 | Infective urethral stricture | 99.78% | L4 | Hold |
+| 3 | Otitis externa | 0.9981 | L3 | Research Question |
+| 10 | Epidemic keratoconjunctivitis | 0.9938 | L4 | Hold |
+| 5 | Post-bacterial disorder | 0.9979 | L5 | Hold |
+| 7 | Infective urethral stricture | 0.9978 | L5 | Hold |
 
 **Otitis externa** has the most supporting literature of the alternatives. *Pseudomonas aeruginosa* and *S. aureus*, both within tobramycin's spectrum, are common causes, and tobramycin has been used in malignant external otitis. Most of the literature is observational or veterinary, so it is indirect evidence, and ototoxicity is a concern if the tympanic membrane is not intact.
 

@@ -4,17 +4,17 @@ title: Desvenlafaxine
 parent: Moderate Evidence (L3-L4)
 nav_order: 267
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Unipolar depression, major depressive disorder, anxiety disorder"
 monitor_inn: "DESVENLAFAXINE"
-predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "melancholia"]
+predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Desvenlafaxine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **obsessive-compulsive disorder
 |------|------|
 | Original Indication | Unipolar depression, major depressive disorder, anxiety disorder (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Obsessive-compulsive disorder |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| Canada Market Status | Marketed (valid licenses: 20 of 20) |
+| Number of DINs | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 ---
@@ -99,7 +99,7 @@ These are 5 of 20 valid single-ingredient licences. The others are generic produ
 
 ## Safety Considerations
 
-- **Disease-related cautions (knowledge-graph signals, not label text)**: The knowledge graph links desvenlafaxine to caution or contraindication in the following conditions:
+- **Disease-related cautions (TxGNN model signals, not label text)**: The TxGNN model (deep learning) links desvenlafaxine to caution or contraindication in the following conditions. These signals may reflect similarities the model learned between related diseases, not biological evidence:
   - Cardiovascular: hypertension, cardiovascular disease, heart disease, cerebrovascular disorder
   - Neurological and psychiatric: epilepsy, bipolar disorder / major affective disorder, serotonin syndrome, neuroleptic malignant syndrome
   - Organ function and bleeding: liver disease, impaired renal function, gallbladder disease, blood coagulation disease
@@ -131,11 +131,9 @@ The OCD prediction rests on a model score and a class-level serotonergic rationa
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Dysthymic disorder | 99.73% | L2 | Closest to supporting evidence: a completed Phase 4 placebo-controlled trial ([NCT01537068](https://clinicaltrials.gov/study/NCT01537068), n=59) and a completed open-label study ([NCT01948895](https://clinicaltrials.gov/study/NCT01948895), n=30), plus a 2011 meta-analysis of antidepressants in dysthymia ([PMID 21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/)). It is a near-label extension, but the trials are small and neither is Phase 3. Worth pursuing as a research question. |
-| Melancholia | 99.64% | L4 | A subtype of the already approved major depressive disorder; effectively on-label, not true repurposing. |
-| Agoraphobia | 99.70% | L5 | Class-level rationale only; no desvenlafaxine data. |
-| Personality disorder cluster (histrionic, paranoid, schizoid, schizotypal) | 99.84% | L5 | Identical scores point to a shared graph inference, with no supporting evidence. |
-| Ohdo syndrome; benign paroxysmal torticollis of infancy | 99.74%; 99.74% | L5 | No plausible mechanism; likely model artifacts. |
+| Agoraphobia | 0.9970 | L5 | Class-level rationale only; no desvenlafaxine data. |
+| Personality disorder cluster (histrionic, paranoid, schizoid, schizotypal) | 0.9984 | L5 | Identical scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| Ohdo syndrome; benign paroxysmal torticollis of infancy | 0.9974; 0.9974 | L5 | No plausible mechanism; likely model artifacts. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

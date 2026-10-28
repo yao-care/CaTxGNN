@@ -4,17 +4,17 @@ title: Oxtriphylline
 parent: Model Prediction Only (L5)
 nav_order: 694
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Oxtriphylline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not specified in the available licence data"
 monitor_inn: "OXTRIPHYLLINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Oxtriphylline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 |------|------|
 | Original Indication | Not specified in the available licence data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.64% |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,14 +63,13 @@ Currently, detailed mechanism of action data are not available in the data compi
 
 A possible link to migraine runs through these two actions. Adenosine is implicated in activation of the trigeminovascular system and in cerebral vasodilation. Changes in cAMP/cGMP signalling can also affect vascular tone. Caffeine, another methylxanthine, is already used as an analgesic adjuvant in migraine therapy, which gives some indirect biological plausibility.
 
-There are important caveats. Theophylline-class drugs can themselves provoke headache. The score of 0.996 is a computational prediction only, and no trials or publications were found for this drug–indication pair. The original indication could not be established from the licence data, so the relationship between the old and new indications cannot be assessed.
+There are important caveats. Theophylline-class drugs can themselves provoke headache. The score of 0.9964 is a computational prediction only, and no trials or publications were found for this drug–indication pair. The original indication could not be established from the licence data, so the relationship between the old and new indications cannot be assessed.
 
 **Other predicted indications (all L5, Hold):**
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Migraine with brainstem aura | 99.55% | A migraine subtype. The high score likely reflects proximity to the parent migraine node in the knowledge graph, not subtype-specific evidence. |
-| 3 | Migraine with or without aura, susceptibility to | 99.32% | A genetic susceptibility phenotype, not a treatable clinical condition. It adds no independent support beyond migraine disorder. |
+| 2 | Migraine with brainstem aura | 0.9955 | A migraine subtype. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
 
 ---
 

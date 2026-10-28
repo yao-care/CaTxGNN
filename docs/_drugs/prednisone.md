@@ -6,9 +6,9 @@ nav_order: 767
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease"
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
+description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Prednisone
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Prednisone: From Autoimmune and Inflammatory Disease to Alopecia Areata
+## Prednisone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **no registered clinical trials** but **20 publications** (including one ra
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease (approved indication text is not available for the Canadian licences; listed indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -117,15 +117,14 @@ Alopecia areata is the strongest of the ten predictions. It has a plausible immu
 
 | Rank | Predicted Indication | Evidence Level | Recommendation | Comment |
 |------|------|------|------|------|
-| 2 | Alopecia mucinosa | L4 | Hold | Case reports only; the lymphoma-associated form needs different management |
+| 2 | Alopecia mucinosa | L5 | Hold | Case reports only; the lymphoma-associated form needs different management |
 | 3 | Telogen effluvium | L5 | Hold | No evidence; usually self-limiting and non-autoimmune |
-| 4 | Folliculitis decalvans | L5 | Hold | No clinical evidence retrieved; knowledge-graph proximity only |
 | 5 | Alopecia antibody deficiency | L5 | Hold | Retrieved papers do not address this entity |
-| 6 | Hereditary hypotrichosis with recurrent skin vesicles | L5 | Hold | Genetic disorder; likely a knowledge-graph artifact |
+| 6 | Hereditary hypotrichosis with recurrent skin vesicles | L5 | Hold | Genetic disorder; likely a TxGNN model (deep learning) artifact |
 | 7 | Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome | L5 | Hold | Rare genetic syndrome; no plausible mechanism |
 | 8 | Atrichia with papular lesions | L5 | Hold | Non-immune genetic disorder |
 | 9 | Tenosynovitis | L4 | Research Question | Glucocorticoids plausible in inflammatory forms; only case reports and series; infectious causes must be excluded |
-| 10 | Prolapse of lacrimal gland | L5 | Hold | Structural condition; likely a knowledge-graph artifact |
+| 10 | Prolapse of lacrimal gland | L5 | Hold | Structural condition; likely a TxGNN model (deep learning) artifact |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

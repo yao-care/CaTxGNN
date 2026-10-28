@@ -4,17 +4,17 @@ title: Melphalan
 parent: Model Prediction Only (L5)
 nav_order: 582
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Melphalan: predicted new indication Gonadal germ cell tumor (evidence level L5). Approved use: Ovarian cancer (including ovarian adenocarcinoma and several ovarian…"
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumor
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Melphalan is an alkylating chemotherapy drug, originally used to treat ovarian cancer.
-The TxGNN model predicts it may be effective for **gonadal germ cell tumor**, a prediction supported by **7 clinical trials** (mostly small, early-phase, high-dose transplant-setting studies, of which only 2 are rated directly relevant) and **1 publication** of limited relevance.
+The TxGNN model predicts it may be effective for **female breast carcinoma**.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **gonadal germ cell tumor**, a 
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (including ovarian adenocarcinoma and several ovarian histological subtypes) |
-| Predicted New Indication | Gonadal germ cell tumor |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 (as assessed in the data compiled for this report; see note below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Female breast carcinoma |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 (as assessed in the data compiled for this report; see note below) |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* No trial for this indication is a randomized Phase 2/3 study. The strongest evidence is one completed Phase 2 study (n=64) of a multi-drug high-dose regimen. Under the stricter reading of the level rules, the evidence is closer to L3 to L4. The L2 label should be treated as an upper bound.
@@ -127,7 +127,7 @@ Caveats: the TxGNN score is very high, but the model score alone does not show c
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but the supporting trials are small, early-phase, and mostly use melphalan in multi-drug high-dose regimens, so its independent effect cannot be assessed. The only literature is a 1964 non-clinical paper. Chemotherapy for germ cell tumors is well established with other agents, and this drug carries high myelosuppression risk. Other predicted indications (choriocarcinoma of ovary, malignant non-epithelial tumor of ovary, and the mucinous adenocarcinomas of rectum, colon, gallbladder, cervix and endometrium) rest on model prediction alone and are also on hold.
+The TxGNN score is high, but the supporting trials are small, early-phase, and mostly use melphalan in multi-drug high-dose regimens, so its independent effect cannot be assessed. The only literature is a 1964 non-clinical paper. Chemotherapy for germ cell tumors is well established with other agents, and this drug carries high myelosuppression risk. Other predicted indications (the mucinous adenocarcinomas of rectum, colon, gallbladder, cervix and endometrium) rest on model prediction alone and are also on hold.
 
 **To proceed, the following is needed:**
 - Full results of NCT00936936 and NCT00003425, with germ-cell-specific outcomes

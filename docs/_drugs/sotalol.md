@@ -4,17 +4,17 @@ title: Sotalol
 parent: Model Prediction Only (L5)
 nav_order: 865
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Sotalol"
-predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
+description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sotalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Sotalol: From Atrial Fibrillation to Sick Sinus Syndrome 2 (Autosomal Dominant)
+## Sotalol: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Mechanistically, the prediction appears implausible and potentially harmful, so 
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (from the knowledge graph; no approved indication text is available in the Canadian licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,13 +60,12 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The predicted condition, sick sinus syndrome 2, is linked to HCN4 variants that cause sinus node dysfunction. Sotalol's beta-blockade and prolonged repolarization are expected to slow the heart rate and **worsen** bradycardia and sinus node dysfunction. The knowledge graph itself lists sick sinus syndrome (including the familial form) as a contraindication for sotalol.
 
-The high score is therefore most likely an artifact of the shared cardiac-rhythm context in the graph rather than a true therapeutic signal.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions reviewed also lack support:
 - **Wildervanck syndrome, sarcoglycanopathy, and macrocephaly with dysmorphic facies and psychomotor retardation**: no plausible mechanistic link and no studies.
-- **Stroke disorder** (score 99.44%): the only indirect connection is through atrial fibrillation as a stroke risk factor. One Phase 3 trial (NCT00007605) tested rhythm maintenance, not stroke prevention.
+- **Stroke disorder** (score 0.9944): the only indirect connection is through atrial fibrillation as a stroke risk factor. One Phase 3 trial (NCT00007605) tested rhythm maintenance, not stroke prevention.
 - **Manic bipolar affective disorder**: the two papers found address drug-interaction safety (QT-related risk with antipsychotics), not efficacy.
-- **Obsolete susceptibility to ischemic stroke**: an obsolete ontology term, not a valid indication.
 
 ## Clinical Trial Evidence
 

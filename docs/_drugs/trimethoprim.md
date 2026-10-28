@@ -4,7 +4,7 @@ title: Trimethoprim
 parent: Model Prediction Only (L5)
 nav_order: 949
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "TRIMETHOPRIM"
@@ -14,7 +14,7 @@ predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 # Trimethoprim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this specific p
 |------|------|
 | Original Indication | Urinary tract infection (the Canadian licence records compiled for this report contain no indication text, so this comes from the drug's known indications) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -104,7 +104,7 @@ Please refer to the package insert for warnings and label-based contraindication
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.57%), but this is a model prediction with no registered trials or publications for punctate epithelial keratoconjunctivitis (evidence level L5). The condition is frequently viral or immune-mediated, so an antibacterial agent may not address the main cause. The conjunctivitis literature supports the existing indication but does not extend to this one.
+The TxGNN score is very high (0.9957), but this is a model prediction with no registered trials or publications for punctate epithelial keratoconjunctivitis (evidence level L5). The condition is frequently viral or immune-mediated, so an antibacterial agent may not address the main cause. The conjunctivitis literature supports the existing indication but does not extend to this one.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, and a clear link between trimethoprim's antibacterial action and the causes of this condition

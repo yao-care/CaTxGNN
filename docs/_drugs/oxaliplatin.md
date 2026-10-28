@@ -50,10 +50,10 @@ with **3 clinical trials** (2 directly relevant Phase 2 studies) and **20 public
 |------|------|
 | Original Indication | Metastasis from malignant tumour of colon (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Malignant pleural mesothelioma |
-| TxGNN Prediction Score | 99.68% |
+| TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

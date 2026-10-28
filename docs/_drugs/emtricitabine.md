@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 327
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Emtricitabine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ but there are **0 clinical trials** and only **1 publication** (a veterinary stu
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 FIV is a lentivirus related to HIV. It causes progressive immune dysfunction in cats, much like HIV in humans, and it also depends on reverse transcriptase to replicate. NRTI activity against it is therefore biologically plausible.
 
-The very high TxGNN score (99.92%) mostly reflects how similar this disease is to HIV, not independent clinical evidence. This prediction is also veterinary, so it is not a new human indication.
+The very high TxGNN score (0.9992) mostly reflects how similar this disease is to HIV, not independent clinical evidence. This prediction is also veterinary, so it is not a new human indication.
 
 The second-ranked prediction, simian immunodeficiency virus (SIV) infection, has more supporting literature. These are mostly macaque studies in which emtricitabine, usually combined with tenofovir, prevented or suppressed SHIV infection. They validate the existing HIV mechanism in animal models rather than opening a new human indication. The third-ranked prediction, a rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter, has no plausible mechanistic link, no trials and no literature. It should be treated as a likely false positive.
 

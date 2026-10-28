@@ -4,17 +4,17 @@ title: Nadolol
 parent: Model Prediction Only (L5)
 nav_order: 639
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Nadolol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "NADOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nadolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Nadolol: From Hypertension to Malignant Renovascular Hypertension
+## Nadolol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nadolol is a non-selective beta-blocker originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
 but **no clinical trials and no publications** currently support this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.59% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,10 +66,10 @@ However, malignant renovascular hypertension is essentially a severe subtype of 
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Malignant hypertensive renal disease | 99.59% | L5 | No trials or literature. Nadolol is renally cleared, so dose adjustment would be needed in renal impairment. |
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.53% | L4 | Only indirect preclinical literature. Non-selective beta-blockers carry bronchoconstriction risk in chronic lung disease. |
-| Pulmonary hypertension with unclear multifactorial mechanism | 99.53% | L5 | No evidence. Beta-blockers are generally not recommended in pulmonary hypertension. |
-| Braddock syndrome | 99.43% | L5 | No mechanistic rationale. The disease annotation should be verified. |
+| Malignant hypertensive renal disease | 0.9959 | L5 | No trials or literature. Nadolol is renally cleared, so dose adjustment would be needed in renal impairment. |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9953 | L5 | Only indirect preclinical literature. Non-selective beta-blockers carry bronchoconstriction risk in chronic lung disease. |
+| Pulmonary hypertension with unclear multifactorial mechanism | 0.9953 | L5 | No evidence. Beta-blockers are generally not recommended in pulmonary hypertension. |
+| Braddock syndrome | 0.9943 | L5 | No mechanistic rationale. The disease annotation should be verified. |
 
 ## Clinical Trial Evidence
 

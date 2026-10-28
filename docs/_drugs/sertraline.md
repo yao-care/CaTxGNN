@@ -6,9 +6,9 @@ nav_order: 846
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
-description: "Sertraline: predicted new indication Histrionic personality disorder (evidence level L5). Approved use: Anxiety disorder"
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Sertraline: From Anxiety Disorder to Histrionic Personality Disorder
+## Sertraline: Histrionic personality disorder (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder (from the knowledge-graph indication list; the Canadian licence records compiled for this report contain no indication text) |
-| Predicted New Indication | Histrionic personality disorder |
-| TxGNN Prediction Score | 99.93% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Histrionic personality disorder (disease) |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,10 +62,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 Currently, detailed mechanism of action data is not available. Based on known information, sertraline is a serotonergic antidepressant. Its efficacy has been established in several anxiety-spectrum and obsessive-compulsive conditions: anxiety disorder, social phobia, PTSD, OCD and dysthymic disorder. Mechanistically, it may be applicable to personality disorders if they share anxiety, mood or impulsivity symptoms that respond to serotonergic modulation.
 
-The model score is very high (99.93%), but the same score was given to three other personality disorders (paranoid, schizotypal, schizoid). This suggests the model is detecting a general "psychiatric disorder" association rather than anything specific to histrionic personality disorder. No trial or publication was retrieved for this condition. The prediction should therefore be treated as a hypothesis only.
+The model score is very high (0.9993), but the same score was given to three other personality disorders (paranoid, schizotypal, schizoid). This suggests the model is detecting a general "psychiatric disorder" association rather than anything specific to histrionic personality disorder. No trial or publication was retrieved for this condition. The prediction should therefore be treated as a hypothesis only.
 
 **Other predicted indications in the data.** Among the eight predictions compiled for this drug, **agoraphobia** has by far the strongest support:
-- It has a TxGNN score of 99.54%.
+- It has a TxGNN score of 0.9954.
 - It is backed by a double-blind multicentre sertraline trial and head-to-head trials against imipramine, alprazolam and paroxetine in panic disorder with or without agoraphobia.
 - It is also supported by network meta-analyses (including a Cochrane review and a BMJ review).
 - A sertraline Phase 4 trial in generalized social phobia with comorbidity (NCT00182533, 170 participants) was terminated.

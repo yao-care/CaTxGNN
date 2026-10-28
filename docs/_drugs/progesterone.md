@@ -4,17 +4,17 @@ title: Progesterone
 parent: High Evidence (L1-L2)
 nav_order: 775
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Progesterone: predicted new indication Amenorrhea (evidence level L2). Approved use: Endometriosis"
 monitor_inn: "PROGESTERONE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Most of this evidence is indirect: the trials mainly test estrogen or combined h
 |------|------|
 | Original Indication | Endometriosis (the licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99964% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -150,7 +150,7 @@ The other nine predictions have weaker support and are not recommended to advanc
 | Predicted Indication | Evidence Level | Recommendation | Main Reason |
 |------|------|------|------|
 | Breast fibrocystic disease | L4 | Research Question | Plausible oestrogen/progesterone imbalance rationale; no clinical trials |
-| Benign mammary dysplasia | L4 | Research Question | Receptor and descriptive data only; some veterinary evidence |
+| Benign mammary dysplasia | L5 | Research Question | Receptor and descriptive data only; some veterinary evidence |
 | Cervix endometriosis | L4 | Research Question | Extrapolated from general endometriosis; much of the literature concerns antiprogestins |
 | Endometriosis of rectovaginal septum and vagina | L4 | Research Question | One receptor immunohistochemistry study; no treatment data |
 | Endometriosis in cutaneous scar | L4 | Research Question | One case report; surgery is the usual management |

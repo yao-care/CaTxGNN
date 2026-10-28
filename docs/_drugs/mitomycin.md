@@ -6,9 +6,9 @@ nav_order: 624
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Mitomycin: predicted new indication Osteoclastic giant cell tumor of pancreas (evidence level L5). Approved use: Pancreatic adenocarcinoma"
 monitor_inn: "MITOMYCIN"
 predicted_indications: ["osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+description: "Mitomycin: predicted new indication Osteoclastic giant cell tumor of pancreas (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mitomycin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mitomycin: From Pancreatic Adenocarcinoma to Osteoclastic Giant Cell Tumor of the Pancreas
+## Mitomycin: Osteoclastic giant cell tumor of pancreas
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Pancreatic adenocarcinoma (the approved indication text was not available for the Canadian licences; this is taken from the drug's knowledge-graph indication) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Osteoclastic giant cell tumor of pancreas |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Osteoclastic giant cell tumor of the pancreas is a rare variant of undifferentiated pancreatic carcinoma. Because it arises in the same organ and shares some biology with ductal adenocarcinoma, a shared sensitivity to cytotoxic agents is plausible. However, this link is untested: no trials or publications were found for this disease.
 
-Other highly ranked predictions are also pancreatic tumour subtypes (for example solid pseudopapillary carcinoma, mixed ductal-endocrine carcinoma, signet ring cell adenocarcinoma and undifferentiated pancreatic carcinoma). They all rest on the same general cytotoxic rationale, with scores between 99.82% and 99.86%. Most have no supporting studies.
+Other highly ranked predictions are also pancreatic tumour subtypes (for example solid pseudopapillary carcinoma, mixed ductal-endocrine carcinoma, signet ring cell adenocarcinoma and undifferentiated pancreatic carcinoma). They all rest on the same general cytotoxic rationale, with scores between 0.9982 and 0.9986. Most have no supporting studies.
 
 ## Clinical Trial Evidence
 
@@ -113,7 +113,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score (99.86%) and a general cytotoxic rationale. There are no clinical trials or directly relevant publications. The tumour is rare, and mitomycin carries significant haematological and renal risks.
+The prediction is supported only by the TxGNN model score (0.9986) and a general cytotoxic rationale. There are no clinical trials or directly relevant publications. The tumour is rare, and mitomycin carries significant haematological and renal risks.
 
 **To proceed, the following is needed:**
 - A literature and trial search that targets mitomycin in this specific rare tumour (for example case series, registry data)

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vernakalant
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 972
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Vernakalant: predicted new indication Stroke disorder (evidence level L4). Approved use: Atrial fibrillation"
 monitor_inn: "Vernakalant"
-predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+description: "Vernakalant: predicted new indication Stroke disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Vernakalant: From Atrial Fibrillation to Stroke Disorder
+## Vernakalant: Stroke disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be relevant for **stroke disorder**, but the sup
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (the Canadian licence record contains no indication text; this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Stroke disorder |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,9 +63,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The link to stroke is indirect. Atrial fibrillation is a major risk factor for cardioembolic stroke, so restoring sinus rhythm could in theory lower stroke risk. However, the retrieved literature covers AF management and cardioversion, not stroke prevention or treatment. Cardioversion itself carries a peri-procedural risk of thromboembolism, and no stroke outcome data for vernakalant were available.
 
-The high TxGNN score reflects the drug's closeness to atrial fibrillation in the knowledge graph. It does not show clinical benefit in stroke.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not show clinical benefit in stroke.
 
-Other predictions (sick sinus syndrome 2, obsolete susceptibility to ischemic stroke, sarcoglycanopathy, Wildervanck syndrome, ABri amyloidosis) have scores of 99.3%–99.5% but no trials or literature. Most have no plausible mechanistic basis. Sick sinus syndrome could even be worsened by a channel blocker. All are rated L5 and Hold.
+Other predictions (sick sinus syndrome 2, sarcoglycanopathy, Wildervanck syndrome, ABri amyloidosis) have scores of 0.9926–0.9955 but no trials or literature. Most have no plausible mechanistic basis. Sick sinus syndrome could even be worsened by a channel blocker. All are rated L5 and Hold.
 
 ---
 

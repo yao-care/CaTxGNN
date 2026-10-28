@@ -4,17 +4,17 @@ title: Cobimetinib
 parent: Model Prediction Only (L5)
 nav_order: 220
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Cobimetinib: predicted new indication Amyotrophic lateral sclerosis (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "COBIMETINIB"
-predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
+predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
 ---
 
 # Cobimetinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **amyotrophic lateral sclerosis
 |------|------|
 | Original Indication | Metastatic melanoma |
 | Predicted New Indication | Amyotrophic lateral sclerosis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,9 @@ The TxGNN model predicts it may be effective for **amyotrophic lateral sclerosis
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cobimetinib is a MEK1/2 inhibitor. Its efficacy in metastatic melanoma is established, and it acts on the MAPK/ERK signalling pathway.
 
-MAPK/ERK signalling has been implicated in neuroinflammation and motor neuron stress responses in ALS models, so a plausible but unvalidated link exists. The very high TxGNN score (99.73%) is a computational prediction only and does not replace experimental or clinical evidence.
+MAPK/ERK signalling has been implicated in neuroinflammation and motor neuron stress responses in ALS models, so a plausible but unvalidated link exists. The very high TxGNN score (0.9973) is a computational prediction only and does not replace experimental or clinical evidence.
 
-There are important weaknesses in this rationale. Cobimetinib has limited central nervous system penetration (it is a P-gp substrate), which undermines the case for treating a brain and spinal cord disease. Most of the other top-ranked predictions are motor neuron conditions or very rare genetic syndromes, and appear to come from shared neighbours in the knowledge graph rather than a specific MEK-dependent mechanism. These include Mills syndrome, ALS susceptibility, ALS type 22, lower motor neuron syndrome, monomelic amyotrophy, and lethal arthrogryposis-anterior horn cell disease syndrome. Several of them overlap with the ALS signal and are not independent evidence.
+There are important weaknesses in this rationale. Cobimetinib has limited central nervous system penetration (it is a P-gp substrate), which undermines the case for treating a brain and spinal cord disease. Most of the other top-ranked predictions are motor neuron conditions or very rare genetic syndromes. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a specific MEK-dependent mechanism. These include Mills syndrome, ALS type 22, lower motor neuron syndrome, monomelic amyotrophy, and lethal arthrogryposis-anterior horn cell disease syndrome. Several of them overlap with the ALS signal and are not independent evidence.
 
 ---
 

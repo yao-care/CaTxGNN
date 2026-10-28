@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Ascorbic acid (vitamin C) is originally used to treat and prevent ascorbic acid deficiency and scurvy.
-The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, but **no clinical trials and no publications** currently support this prediction. It rests on the model's graph-based score alone.
+The TxGNN model (deep learning) predicts it may be effective for **non-syndromic esophageal malformation**, but **no clinical trials and no publications** currently support this prediction. It rests on the model's score alone, which may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **non-syndromic esophageal malf
 |------|------|
 | Original Indication | Ascorbic acid deficiency; scurvy |
 | Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 13 |
+| Canada Market Status | Marketed (valid licenses: 13 of 13) |
+| Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, ascorbic acid is an essential vitamin that works as an antioxidant and as a cofactor for collagen-forming enzymes. Its efficacy in vitamin C deficiency and scurvy is well established.
 
-No mechanistic link to the predicted indication can be identified. Non-syndromic esophageal malformation is a congenital structural defect, and it is not plausibly modifiable by an antioxidant or collagen-cofactor vitamin. The very high score (99.96%) reflects a pattern in the model's knowledge graph, not biological or clinical support. It should be read as a hypothesis-generating signal only.
+No mechanistic link to the predicted indication can be identified. Non-syndromic esophageal malformation is a congenital structural defect, and it is not plausibly modifiable by an antioxidant or collagen-cofactor vitamin. The very high score (0.9996) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be read as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
@@ -101,7 +101,7 @@ For context, the same data set lists other predicted indications with more evide
 - Mechanism of action data and a documented biological rationale linking ascorbic acid to esophageal development
 - Any preclinical or clinical evidence in esophageal malformation
 - Health Canada package insert warnings and contraindications for safety screening
-- Review of why the model assigned this score, to rule out a graph-neighbour artefact
+- Review of why the model assigned this score, to rule out an artifact of similarities the model learned between related diseases
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

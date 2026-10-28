@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Fluorescein is a diagnostic fluorescent dye used for angiography and ocular surface staining, and it is marketed in Canada under 3 licences.
-The TxGNN model predicts it may be effective for **Prinzmetal angina** with a very high graph-based score, but **no clinical trials and no supporting publications** currently back this prediction.
+The TxGNN model (deep learning) predicts it may be effective for **Prinzmetal angina** with a very high score, which may reflect similarities the model learned between related diseases, not biological evidence, and **no clinical trials and no supporting publications** currently back this prediction.
 The literature retrieved for other top predictions describes fluorescein only as a diagnostic tool, not as a treatment.
 
 ---
@@ -50,10 +50,10 @@ The literature retrieved for other top predictions describes fluorescein only as
 |------|------|
 | Original Indication | Not stated in the available licence data (known use: diagnostic angiography and ocular surface staining) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The literature retrieved for other top predictions describes fluorescein only as
 
 Currently, detailed mechanism of action data is not available. Fluorescein is a diagnostic fluorescent dye used in retinal angiography and for staining the ocular surface. It has no known vasodilatory or anti-vasospastic activity.
 
-No plausible mechanistic link to Prinzmetal angina has been identified. The high TxGNN score comes from graph-based pattern matching alone and is not backed by clinical or literature evidence. Other top-ranked predictions (antithrombin deficiency type 2, factor 5 excess, heparin cofactor 2 deficiency, partial deletion of chromosome 16p, beta-thalassemia) likewise have no identified mechanism.
+No plausible mechanistic link to Prinzmetal angina has been identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not backed by clinical or literature evidence. Other top-ranked predictions (antithrombin deficiency type 2, factor 5 excess, heparin cofactor 2 deficiency, partial deletion of chromosome 16p, beta-thalassemia) likewise have no identified mechanism.
 
 For the predictions where literature was retrieved (rheumatoid arthritis, hemoglobinopathy, thrombophilia, hyperthyroidism), the papers describe fluorescein angiography or staining as a way to **detect or monitor** eye complications. These are diagnostic uses, not disease-modifying treatment, so they do not support a repurposing claim.
 

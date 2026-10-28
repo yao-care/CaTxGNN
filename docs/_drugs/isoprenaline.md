@@ -6,9 +6,9 @@ nav_order: 501
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Isoprenaline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not stated in the Canadian licence records. The knowledge graph lists…"
 monitor_inn: "Isoprenaline"
 predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
+description: "Isoprenaline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isoprenaline
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Isoprenaline: From Cold and Cardiac Conditions to Nasal Cavity Disease
+## Isoprenaline: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Isoprenaline (isoproterenol) is a non-selective beta-adrenergic agonist, originally used for conditions such as cardiac arrest and atrioventricular block, and listed in the knowledge graph for common cold and nasopharyngitis.
+Isoprenaline (isoproterenol) is a non-selective beta-adrenergic agonist, originally used for conditions such as cardiac arrest and atrioventricular block.
 The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no clinical trials** and only **1 unrelated case report** supporting this prediction.
 The strongest supporting signal in the data is actually for a different prediction, **bronchial disease**, which is a historical use of the drug.
 
@@ -48,12 +48,12 @@ The strongest supporting signal in the data is actually for a different predicti
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records. The knowledge graph lists common cold, nasopharyngitis, cardiac arrest and atrioventricular block. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,19 +62,19 @@ The strongest supporting signal in the data is actually for a different predicti
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, isoprenaline is a non-selective beta-1/beta-2 adrenergic agonist. Its efficacy in cardiac conditions (heart rate and conduction support) is established, and mechanistically it could influence nasal mucosal blood vessels and secretions through adrenergic pathways.
 
-However, this link is only theoretical. The single paper retrieved for this prediction is a case report of coronary artery spasm and ventricular tachycardia during surgery, in which epinephrine-soaked nasal packing was used. It has no bearing on treating nasal disease. The high score most likely reflects the closeness of "nasal cavity disease" to the listed cold and nasopharyngitis indications in the knowledge graph, not independent evidence.
+However, this link is only theoretical. The single paper retrieved for this prediction is a case report of coronary artery spasm and ventricular tachycardia during surgery, in which epinephrine-soaked nasal packing was used. It has no bearing on treating nasal disease. The high score of 0.9995 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the listed cold and nasopharyngitis indications, not biological evidence.
 
 **Other predictions worth noting:**
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Headache disorder | 99.94% | L4 | Mechanistic studies only, with isoprenaline used as a research probe. As a vasodilator, it could plausibly provoke headache rather than treat it. |
-| Pharyngitis | 99.94% | L5 | Close to the existing cold indication in the graph, with no literature and no clear mechanism. |
-| Acute laryngopharyngitis | 99.93% | L5 | Same pattern as pharyngitis. |
-| Trigeminal autonomic cephalalgia | 99.92% | L4 | One mechanistic paper on cluster headache, which overlaps with the headache evidence. |
-| Bronchial disease | 99.77% | L4 | The best mechanistic fit. Isoprenaline is a bronchodilator that was historically used in asthma. It was displaced by selective beta-2 agonists because of cardiac effects and asthma mortality concerns. It is a rediscovery of past use, not a new opportunity. |
-| Endobronchial leiomyoma, endobronchial lipoma, bronchus adenoma | 99.65–99.68% | L5 | Rare airway tumours. No plausible mechanism and no evidence. Likely graph-proximity artefacts. |
-| Allergic urticaria | 99.67% | L5 | Weak, speculative mast-cell stabilisation link, with unattractive cardiovascular risks. |
+| Headache disorder | 0.9994 | L4 | Mechanistic studies only, with isoprenaline used as a research probe. As a vasodilator, it could plausibly provoke headache rather than treat it. |
+| Pharyngitis | 0.9994 | L5 | The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the existing cold indication, not biological evidence. No literature and no clear mechanism. |
+| Acute laryngopharyngitis | 0.9993 | L5 | Same pattern as pharyngitis. |
+| Trigeminal autonomic cephalalgia | 0.9992 | L4 | One mechanistic paper on cluster headache, which overlaps with the headache evidence. |
+| Bronchial disease | 0.9977 | L4 | The best mechanistic fit. Isoprenaline is a bronchodilator that was historically used in asthma. It was displaced by selective beta-2 agonists because of cardiac effects and asthma mortality concerns. It is a rediscovery of past use, not a new opportunity. |
+| Endobronchial leiomyoma, endobronchial lipoma, bronchus adenoma | 0.9964–0.9968 | L5 | Rare airway tumours. No plausible mechanism and no evidence. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| Allergic urticaria | 0.9967 | L5 | Weak, speculative mast-cell stabilisation link, with unattractive cardiovascular risks. |
 
 ---
 

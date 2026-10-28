@@ -4,17 +4,17 @@ title: Letrozole
 parent: High Evidence (L1-L2)
 nav_order: 538
 evidence_level: L1
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Letrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not available"
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Letrozole: From Breast Cancer to Female Breast Carcinoma (Top-Ranked Prediction)
+## Letrozole: Nipple carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Letrozole is a nonsteroidal aromatase inhibitor, marketed in Canada and used for hormone receptor-positive breast cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**, with **43 registered clinical trials** and **20 publications** compiled for this prediction.
 Because this is already an established use, the prediction is better read as a confirmation than as true repurposing.
 
 ---
@@ -48,12 +47,12 @@ Because this is already an established use, the prediction is better read as a c
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the Canadian licence records contain no indication text); breast cancer in hormone receptor-positive disease is the established use |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nipple carcinoma |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| Canada Market Status | Marketed (valid licenses: 20 of 20) |
+| Number of DINs | 20 (valid: 20) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

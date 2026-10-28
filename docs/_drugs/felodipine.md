@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Felodipine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 379
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "FELODIPINE"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 # Felodipine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension owing 
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -127,7 +127,7 @@ Package insert warnings and contraindications for the Canadian products were not
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.91%), but there are no clinical trials and no patient studies in pulmonary hypertension. All literature is preclinical or from non-pulmonary models, and guidelines raise a gas-exchange safety concern for this class in this setting.
+The TxGNN score is very high (0.9991), but there are no clinical trials and no patient studies in pulmonary hypertension. All literature is preclinical or from non-pulmonary models, and guidelines raise a gas-exchange safety concern for this class in this setting.
 
 **To proceed, the following is needed:**
 - Clinical evidence in pulmonary hypertension due to lung disease or hypoxia, ideally controlled studies with oxygenation and outcome endpoints

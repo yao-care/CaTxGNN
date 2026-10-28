@@ -4,17 +4,17 @@ title: Verapamil
 parent: Model Prediction Only (L5)
 nav_order: 971
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension, atrial fibrillation, acute coronary syndrome…"
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Verapamil: From Hypertension to Obsolete Bundle Branch Block
+## Verapamil: Obsolete bundle branch block
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a model-only prediction and should be treated with caution.
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia (the approved indication text for Canadian licences is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obsolete bundle branch block |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,18 +62,17 @@ This is a model-only prediction and should be treated with caution.
 
 Currently, detailed mechanism of action data is not available. Based on known information, verapamil is an L-type calcium channel blocker. Its efficacy in hypertension and in supraventricular and ventricular arrhythmias is established, and it slows conduction through the atrioventricular (AV) node.
 
-Mechanistically, however, the prediction is hard to justify. Bundle branch block is a conduction defect in the His-Purkinje system. Slowing conduction would not be expected to treat it and could make conduction disease worse. The high score (0.996) appears to reflect network-based similarity in the knowledge graph rather than a biological rationale. The disease term is also flagged as obsolete, so the prediction has doubtful clinical meaning.
+Mechanistically, however, the prediction is hard to justify. Bundle branch block is a conduction defect in the His-Purkinje system. Slowing conduction would not be expected to treat it and could make conduction disease worse. The high score (0.9962) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The disease term is also flagged as obsolete, so the prediction has doubtful clinical meaning.
 
 Other predictions in the list are shown below for context. All are also at the hypothesis stage:
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.27% | L5 | Overlaps with the approved antihypertensive class effect; no supporting studies |
-| 3 | Malignant renovascular hypertension | 99.27% | L5 | The two retrieved papers do not evaluate verapamil as a treatment |
-| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.26% | L5 | Not a standard agent; negative inotropy is a risk in right heart failure |
-| 5 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.26% | L4 | Preclinical and mechanistic support only; calcium channel blockers are generally not recommended here |
-| 6 | Braddock syndrome | 99.15% | L5 | No mechanistic rationale evident |
-| 7 | Periodic paralysis with transient compartment-like syndrome | 99.08% | L5 | Channelopathy, so biologically conceivable, but a hypothesis only |
+| 2 | Malignant hypertensive renal disease | 0.9927 | L5 | Overlaps with the approved antihypertensive class effect; no supporting studies |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9926 | L5 | Not a standard agent; negative inotropy is a risk in right heart failure |
+| 5 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9926 | L5 | Preclinical and mechanistic support only; calcium channel blockers are generally not recommended here |
+| 6 | Braddock syndrome | 0.9915 | L5 | No mechanistic rationale evident |
+| 7 | Periodic paralysis with transient compartment-like syndrome | 0.9908 | L5 | Channelopathy, so biologically conceivable, but a hypothesis only |
 
 ---
 

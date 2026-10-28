@@ -6,9 +6,9 @@ nav_order: 953
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tropicamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tropicamide: From Cycloplegia to Cauda Equina Syndrome
+## Tropicamide: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Cycloplegia (from the knowledge-graph indication record; no approved indication text is available for the Canadian products) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.53% |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,11 +60,11 @@ Currently, detailed mechanism of action data is not available for this drug in t
 
 Cauda equina syndrome often causes bladder and bowel dysfunction. Anticholinergic drugs can reduce detrusor (bladder muscle) overactivity, which gives a theoretical, class-level link between tropicamide and the symptoms of this condition. This link is inferred from the drug class, not from tropicamide-specific data.
 
-There are important limits to this rationale. The main treatment for cauda equina syndrome is urgent surgical decompression, not medication. Tropicamide is marketed only as a topical ophthalmic product with minimal systemic exposure. The high score of 0.995 is a computational prediction only.
+There are important limits to this rationale. The main treatment for cauda equina syndrome is urgent surgical decompression, not medication. Tropicamide is marketed only as a topical ophthalmic product with minimal systemic exposure. The high score of 0.9953 is a computational prediction only.
 
 Two other predictions were also generated, and neither has trial or literature support:
-- **Obsolete neurogenic bladder (score 99.13%):** Antimuscarinics are an established class for neurogenic detrusor overactivity. Better-characterized agents such as oxybutynin and solifenacin already cover this use, and the disease term is flagged as obsolete in the ontology.
-- **Irritable bowel syndrome (score 99.12%):** Antispasmodic anticholinergics such as dicyclomine and hyoscyamine are used for IBS cramping. The ophthalmic route gives negligible gut exposure, and established antispasmodics already fill this niche.
+- **Obsolete neurogenic bladder (score 0.9913):** Antimuscarinics are an established class for neurogenic detrusor overactivity. Better-characterized agents such as oxybutynin and solifenacin already cover this use, and the disease term is flagged as obsolete in the ontology.
+- **Irritable bowel syndrome (score 0.9912):** Antispasmodic anticholinergics such as dicyclomine and hyoscyamine are used for IBS cramping. The ophthalmic route gives negligible gut exposure, and established antispasmodics already fill this niche.
 
 ## Clinical Trial Evidence
 

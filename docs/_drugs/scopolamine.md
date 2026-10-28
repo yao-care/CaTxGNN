@@ -50,10 +50,10 @@ However, **no clinical trials and no publications** currently support this direc
 |------|------|
 | Original Indication | Motion sickness, irritable bowel syndrome, peptic ulcer disease, uveitis, cycloplegia, and others (the Canadian licence records list no indication text) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,11 +68,11 @@ Cauda equina syndrome often causes bladder dysfunction, such as urinary retentio
 
 | Rank | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|------|
-| 2 | Neurogenic bladder (obsolete ontology term) | 99.98% | Mechanism plausible (M3 blockade), but scopolamine has strong CNS effects and is a poor choice compared with bladder-selective agents |
-| 3 | Papillary conjunctivitis | 99.98% | Driven by mechanical irritation and allergy; muscarinic antagonism does not target these pathways |
-| 4 | Atopic conjunctivitis | 99.80% | Standard care is antihistamines, mast cell stabilizers and corticosteroids; anticholinergics may worsen ocular dryness |
-| 5 | Rosacea conjunctivitis | 99.40% | Reduced secretion may aggravate dry eye and meibomian gland dysfunction |
-| 6 | Vernal conjunctivitis | 99.08% | Only a symptomatic cycloplegic effect is plausible; not disease-modifying |
+| 2 | Neurogenic bladder (obsolete ontology term) | 0.9998 | Mechanism plausible (M3 blockade), but scopolamine has strong CNS effects and is a poor choice compared with bladder-selective agents |
+| 3 | Papillary conjunctivitis | 0.9998 | Driven by mechanical irritation and allergy; muscarinic antagonism does not target these pathways |
+| 4 | Atopic conjunctivitis | 0.9980 | Standard care is antihistamines, mast cell stabilizers and corticosteroids; anticholinergics may worsen ocular dryness |
+| 5 | Rosacea conjunctivitis | 0.9940 | Reduced secretion may aggravate dry eye and meibomian gland dysfunction |
+| 6 | Vernal conjunctivitis | 0.9908 | Only a symptomatic cycloplegic effect is plausible; not disease-modifying |
 
 ---
 
@@ -99,7 +99,7 @@ Currently no related literature available.
 
 ## Safety Considerations
 
-- **Disease contraindications (from knowledge-graph associations, not label text):** Associations were found with hypertension, liver failure and liver disease, epilepsy, COPD, gastric ulcer, anxiety and neurotic disorders, porphyria, kidney disease, pancreatitis, gallbladder disease, thrombocytopenia, neutropenia and agranulocytosis, open-angle glaucoma, psychotic and other mental disorders, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, and hepatic coma. Benign prostatic hyperplasia is particularly relevant to the bladder-related predictions, since antimuscarinics can worsen urinary retention.
+- **Disease contraindications (from TxGNN model (deep learning) associations, not label text; these may reflect similarities the model learned between related diseases, not biological evidence):** Associations were found with hypertension, liver failure and liver disease, epilepsy, COPD, gastric ulcer, anxiety and neurotic disorders, porphyria, kidney disease, pancreatitis, gallbladder disease, thrombocytopenia, neutropenia and agranulocytosis, open-angle glaucoma, psychotic and other mental disorders, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, and hepatic coma. Benign prostatic hyperplasia is particularly relevant to the bladder-related predictions, since antimuscarinics can worsen urinary retention.
 - **Drug Interactions:** The data compiled for this report show 100 recorded interactions, most rated Moderate. Examples among those reviewed include:
   - Opioids and analgesics: fentanyl, alfentanil, codeine, dihydrocodeine, tramadol
   - Other anticholinergics and antihistamines: hyoscyamine, aclidinium, chlorpheniramine, acrivastine, phenyltoloxamine, amitriptyline

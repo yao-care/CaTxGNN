@@ -4,7 +4,7 @@ title: Atazanavir
 parent: Moderate Evidence (L3-L4)
 nav_order: 77
 evidence_level: L4
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "ATAZANAVIR"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Atazanavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,23 +48,22 @@ but there are **no registered clinical trials** and only **1 publication** (a no
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (approved indication text is not available in the Canadian licence records) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 11 |
+| Canada Market Status | Marketed (valid licenses: 11 of 11) |
+| Number of DINs | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, atazanavir is an HIV-1 protease inhibitor. Its efficacy in HIV infection is established, and mechanistically it may be applicable to related lentiviruses.
 
-SIV is the macaque lentiviral counterpart of HIV-1, so protease inhibition is biologically plausible. The high TxGNN score most likely reflects the close network proximity between SIV and HIV in the knowledge graph. This is essentially the original indication carried over to an animal-model virus, and it does not represent a new human therapeutic area.
+SIV is the macaque lentiviral counterpart of HIV-1, so protease inhibition is biologically plausible. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This is essentially the original indication carried over to an animal-model virus, and it does not represent a new human therapeutic area.
 
 The other predictions are weaker or less relevant:
-- **Feline acquired immunodeficiency syndrome** (score 99.98%): a veterinary lentiviral condition with no trials or literature. Protease inhibition is theoretically plausible, but there is no supporting evidence.
-- **A rare neurodevelopmental disorder** (score 99.98%): no mechanistic link was identified, and the score is probably a knowledge-graph artifact.
-- **Obsolete familial combined hyperlipidemia** (score 99.82%): protease inhibitors are generally associated with adverse lipid effects, so a benefit is not supported.
-- **AIDS related complex** and **congenital HIV** (score 99.71% each): both overlap with the approved HIV indication. Congenital HIV is the only one with a moderate body of observational literature (L3), mostly on in utero antiretroviral safety and pregnancy pharmacokinetics.
+- **Feline acquired immunodeficiency syndrome** (score 0.9998): a veterinary lentiviral condition with no trials or literature. Protease inhibition is theoretically plausible, but there is no supporting evidence.
+- **A rare neurodevelopmental disorder** (score 0.9998): no mechanistic link was identified, and the score is probably a TxGNN model (deep learning) artifact.
+- **Obsolete familial combined hyperlipidemia** (score 0.9982): protease inhibitors are generally associated with adverse lipid effects, so a benefit is not supported.
 
 ## Clinical Trial Evidence
 

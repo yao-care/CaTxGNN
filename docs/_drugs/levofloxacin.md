@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 |------|------|
 | Original Indication | Bacterial infections (streptococcal and staphylococcal infections, bacterial pneumonia, sinusitis, conjunctivitis, pyelonephritis, anthrax) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 17 |
+| Canada Market Status | Marketed (valid licenses: 17 of 17) |
+| Number of DINs | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ---

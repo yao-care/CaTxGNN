@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **trichomonal vulvovaginitis**, but *
 |------|------|
 | Original Indication | Vulvovaginal candidiasis (the approved indication text in the Canadian licence record is blank) |
 | Predicted New Indication | Trichomonal vulvovaginitis |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (for the top prediction: model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold (for the top prediction); Proceed with Guardrails only for candidal vulvovaginitis-type indications |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **trichomonal vulvovaginitis**, but *
 
 Terconazole is a triazole antifungal. It inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis and disrupts the fungal cell membrane. This is the basis for its use in vulvovaginal candidiasis.
 
-**Trichomonal vulvovaginitis (top prediction):** *Trichomonas vaginalis* is a protozoan, and it lacks ergosterol-dependent membrane biology comparable to that of fungi. There is therefore no plausible mechanistic link. The very high TxGNN score most likely reflects the drug's closeness to "vaginitis" in the knowledge graph rather than a real pharmacological effect. Standard therapy is a nitroimidazole (metronidazole or tinidazole).
+**Trichomonal vulvovaginitis (top prediction):** *Trichomonas vaginalis* is a protozoan, and it lacks ergosterol-dependent membrane biology comparable to that of fungi. There is therefore no plausible mechanistic link. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases such as "vaginitis", not biological evidence. Standard therapy is a nitroimidazole (metronidazole or tinidazole).
 
 **Other predictions:** Vulvitis, vulvovaginitis and vaginitis are supported by trials and publications, but nearly all of that evidence concerns candidal infection, which is the approved use. These are not true repurposing findings. Predictions such as atrophic vaginitis (estrogen deficiency), herpetic vulvovaginitis (a virus), vulvar ulceration, vulvar neoplasm and bacterial vaginosis have no credible mechanism for an azole antifungal.
 

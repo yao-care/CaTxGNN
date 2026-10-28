@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+last_modified_at: 2026-10-27
+description: "Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enoxaparin
@@ -33,34 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Enoxaparin: From Pulmonary Embolism and Disseminated Intravascular Coagulation to Protein C Deficiency Thrombophilia
+## Enoxaparin: low-molecular-weight heparin (antithrombin-dependent factor Xa inhibitor) → thrombophilia due to protein C deficiency, autosomal recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Enoxaparin is a low-molecular-weight heparin originally used for conditions of excessive clotting, including pulmonary embolism, disseminated intravascular coagulation (DIC) and purpura fulminans.
-The TxGNN model predicts it may be useful for **autosomal recessive thrombophilia due to protein C deficiency**,
-but **no clinical trials and no publications** have been identified for this specific indication, so the prediction rests on mechanistic reasoning alone.
+Enoxaparin is a low-molecular-weight heparin anticoagulant marketed in Canada under several brand names.
+The TxGNN model predicts it may be effective for **thrombophilia due to protein C deficiency, autosomal recessive**,
+but the data compiled for this report contain **no clinical trials and no publications** for this specific condition, so the prediction rests on model output and mechanistic reasoning only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans, acquired purpura fulminans (from the knowledge graph; the Canadian licence records contain no indication text) |
-| Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L5 (no trials or literature; the data compiled for this report labels it L4 on the basis of mechanistic reasoning, but no preclinical or mechanism studies were actually found) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | thrombophilia due to protein C deficiency, autosomal recessive |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the data compiled for this report. The following explanation is based on general pharmacological knowledge. Enoxaparin enhances the activity of antithrombin III, which mainly inhibits factor Xa and, to a lesser degree, thrombin.
+Detailed mechanism-of-action data are not available in the compiled record. Based on general pharmacology, enoxaparin potentiates antithrombin III and inhibits factor Xa, and to a lesser degree thrombin.
 
-In severe (homozygous or compound heterozygous) protein C deficiency, the body's natural protein C anticoagulant pathway is impaired. This pathway normally switches off factors Va and VIIIa. Without it, thrombin generation goes unchecked, which can cause thrombosis and neonatal purpura fulminans. Enoxaparin works through a separate, antithrombin-dependent pathway, so it could in principle make up for the missing anticoagulant activity.
+In autosomal recessive (severe or homozygous) protein C deficiency, the protein C anticoagulant pathway, which normally inactivates factors Va and VIIIa, is impaired. This leads to unchecked thrombin generation and thrombosis, including neonatal purpura fulminans. Because enoxaparin acts through an independent, antithrombin-dependent pathway, it could in principle compensate for the missing anticoagulant activity.
 
-The original indications (pulmonary embolism, DIC, purpura fulminans) share this underlying problem of uncontrolled clotting. The model's high score likely reflects this closeness in the knowledge graph. However, this is a computational prediction supported by mechanistic reasoning. It is not direct clinical evidence.
+This link is biologically plausible, and the high TxGNN score (0.9958) likely reflects the closeness of related thrombotic conditions to this disease. However, it is a computational prediction supported by mechanistic reasoning, not direct clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -72,52 +72,34 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Twenty valid single-ingredient licences are on record. Dosage form and approved indication text are not available for any of them. The five main entries are listed below.
+The local records list 20 valid single-ingredient licences (the list may be partial). Indication text, dosage form and manufacturer are not recorded for these licences. Main products:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02242692 | LOVENOX HP | Not available | Not available |
-| 02378469 | LOVENOX HP | Not available | Not available |
-| 02507536 | INCLUNOX | Not available | Not available |
-| 02506483 | NOROMBY | Not available | Not available |
-| 02509083 | REDESCA | Not available | Not available |
-
-The remaining licences are for other brands of the same drug: AXBERI, ELONOX, INCLUNOX HP, NOROMBY HP, REDESCA HP and further strengths.
+| 02509156 | REDESCA HP | Not recorded | Not recorded |
+| 02506505 | NOROMBY HP | Not recorded | Not recorded |
+| 02539985 | AXBERI | Not recorded | Not recorded |
+| 02532298 | ELONOX | Not recorded | Not recorded |
+| 02378469 | LOVENOX HP | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for the official safety information.
+- **Drug Interactions**: 100 interactions were found in the interaction database; examples of major-level interactions include acetylsalicylic acid, ibuprofen, ketorolac, alteplase, abciximab, acalabrutinib, deferasirox and trastuzumab emtansine (mostly additive bleeding risk with antiplatelet, NSAID, thrombolytic or other agents affecting haemostasis). Moderate-level examples include sibutramine, fenfluramine, sugammadex and aliskiren.
 
-- **Contraindication-related conditions from the knowledge graph** (these come from a computational drug-disease network, not from label text): 
-  - Bleeding or bleeding-risk conditions: intracranial or intracerebral haemorrhage, placental abruption, haemophilia, blood coagulation disease, Glanzmann thrombasthenia, qualitative platelet defect
-  - Platelet and blood disorders: thrombocytopenia, heparin-induced thrombocytopenia, haematologic disease, antithrombin III deficiency
-  - Gastrointestinal and liver or biliary conditions: active peptic ulcer disease, ulcerative colitis, inflammatory bowel disease, liver failure, biliary tract disease, obstructive jaundice
-  - Eye and vascular conditions: diabetic retinopathy, hypertensive retinopathy, diabetic cataract, retinal disease, retinitis, arteriosclerosis obliterans
-  - Infection and bone: infective endocarditis (including subacute bacterial endocarditis), osteoporosis, postmenopausal osteoporosis
-
-- **Drug interactions**: A total of 100 interactions were found. Examples of major-level interactions:
-  - Antiplatelet and anti-inflammatory drugs: acetylsalicylic acid, ibuprofen, ketorolac, abciximab
-  - Thrombolytic: alteplase
-  - Other: deferasirox, acalabrutinib, trastuzumab emtansine, radioimmunotherapies (ibritumomab tiuxetan, tositumomab)
-
-  Moderate-level examples include fenfluramine, dexfenfluramine, sibutramine, aliskiren, sugammadex, radioactive iodide, and topical diclofenac.
-
-For this particular indication, the bleeding-related items above matter because the patients are often neonates or have severe clotting disorders. The anticoagulant effect would also add to that of the interacting drugs listed.
+Please refer to the package insert for warnings and contraindications, which are not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high and the mechanism is plausible, but there are no clinical trials or publications for this indication. Package insert safety data is also missing. The case currently remains a research question rather than a candidate for action.
+The mechanistic link to severe protein C deficiency is plausible, but no trial or publication directly studies this disease, so the evidence level is L5 and the prediction remains a research question.
 
 **To proceed, the following is needed:**
-- A systematic literature search on low-molecular-weight heparin in severe protein C deficiency, including case reports and the neonatal purpura fulminans setting
-- Comparison with established treatments for this condition, such as protein C concentrate and warfarin
-- Official mechanism-of-action data from DrugBank
-- Health Canada package insert warnings and contraindications, together with dosage form and approved indication text for the licences
-- A bleeding-risk and dosing assessment for neonatal and paediatric patients
-- Confirmation of whether the available product forms suit the intended route and population
+- A systematic literature search for enoxaparin or low-molecular-weight heparin use in severe congenital protein C deficiency (case reports, registries)
+- Health Canada product monograph warnings and contraindications, and approved indication text
+- Confirmed mechanism-of-action data from a primary source
+- Specialist haematology input on dosing, monitoring and bleeding risk in neonates and affected patients, including comparison with protein C concentrate and other standard therapies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

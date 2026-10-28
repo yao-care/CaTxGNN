@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: Moderate Evidence (L3-L4)
 nav_order: 693
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Oxcarbazepine: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy"
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Oxcarbazepine: From Partial Epilepsy to Visual Epilepsy
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Oxcarbazepine is an antiseizure medication originally used for partial (focal) epilepsy.
-The TxGNN model predicts it may be effective for **visual epilepsy** with a very high score, but there are currently **no registered clinical trials** and the **16 retrieved publications** are mostly general epilepsy reviews and guidelines with no visual-epilepsy-specific data on oxcarbazepine.
+The TxGNN model predicts it may be effective for **restless legs syndrome** with a very high score, but there are currently **no registered clinical trials** and the **16 retrieved publications** are mostly general epilepsy reviews and guidelines with no restless-legs-syndrome-specific data on oxcarbazepine.
 The strongest signal in this prediction set is not for visual epilepsy but for **restless legs syndrome**, which has three case reports (see the "Other Predicted Indications" note below).
 
 ---
@@ -48,12 +48,12 @@ The strongest signal in this prediction set is not for visual epilepsy but for *
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy; partial motor epilepsy |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Restless legs syndrome |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The strongest signal in this prediction set is not for visual epilepsy but for *
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, oxcarbazepine acts mainly through its active metabolite (MHD) by blocking voltage-gated sodium channels, and its efficacy in focal seizures is established. Visual (photosensitive or occipital) epilepsy is a focal or reflex seizure phenotype, so a mechanistic link through the existing focal-epilepsy indication is plausible.
 
-However, the retrieved literature consists of general antiseizure medication reviews and guidelines. The high TxGNN score probably reflects overlap with the approved epilepsy indication rather than independent evidence for visual epilepsy.
+However, the retrieved literature consists of general antiseizure medication reviews and guidelines. The high TxGNN score probably reflects overlap with the approved epilepsy indication, and may reflect similarities the model learned between related diseases, rather than independent evidence for restless legs syndrome.
 
 ---
 
@@ -107,7 +107,7 @@ One additional authorization (DIN 02284316, APO-OXCARBAZEPINE) is also valid. Al
 
 - **Conditions flagged as contraindication-related in the knowledge graph** (not taken from label text): anxiety disorder, neurotic disorder, dysthymic disorder, impaired renal function, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis.
 - **Drug Interactions**: 100 interactions were found, and the 20 reviewed are all of Moderate level. They include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), vitamin D forms (cholecalciferol, calcifediol, calcitriol), antidiabetics (pioglitazone, chlorpropamide, saxagliptin, linagliptin), omeprazole and dexlansoprazole, clarithromycin, morphine, aprepitant, dronabinol and eliglustat.
-- Sodium channel blockers can aggravate some generalized epilepsies (for example, a reported case of oxcarbazepine-induced myoclonic status epilepticus in juvenile myoclonic epilepsy, PMID 23774821). Correct seizure classification is therefore important before any off-label use.
+- Sodium channel blockers can aggravate some generalized epilepsies (for example, a reported oxcarbazepine case in juvenile myoclonic epilepsy, PMID 23774821). Correct seizure classification is therefore important before any off-label use.
 
 Please also refer to the package insert for full warnings and contraindications.
 
@@ -134,7 +134,7 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for visual epilepsy rests on the model score and a plausible link through the existing focal-epilepsy indication. No clinical trials exist, and the retrieved literature contains no visual-epilepsy-specific oxcarbazepine data. Safety data from the package insert are also not yet available, so safety screening cannot proceed.
+The prediction for restless legs syndrome rests on the model score and a plausible link through the existing focal-epilepsy indication. No clinical trials exist, and the retrieved literature contains no restless-legs-syndrome-specific oxcarbazepine data. Safety data from the package insert are also not yet available, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (currently missing and blocking safety screening)

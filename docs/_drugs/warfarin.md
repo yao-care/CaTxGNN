@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Warfarin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 985
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L4). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism"
@@ -14,7 +14,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 # Warfarin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be useful for **heparin cofactor 2 deficiency**,
 |------|------|
 | Original Indication | Pulmonary embolism, thrombotic disease, intracranial embolism (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 16 |
+| TxGNN Prediction Score | 0.9987 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 16 of 16) |
+| Number of DINs | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -126,7 +126,7 @@ Product warnings and contraindications from the Canadian package inserts were no
 **Decision: Hold**
 
 **Rationale:**
-For heparin cofactor 2 deficiency, evidence is limited to three old case reports, with no trials and no controlled efficacy data. The TxGNN score is high (99.87%), but it largely reflects the closeness of this condition to warfarin's existing thrombosis indications. The rheumatoid arthritis and breast-related predictions look like artifacts of drug interactions and should not be pursued.
+For heparin cofactor 2 deficiency, evidence is limited to three old case reports, with no trials and no controlled efficacy data. The TxGNN score is high (0.9987), but it largely reflects the closeness of this condition to warfarin's existing thrombosis indications. The rheumatoid arthritis and breast-related predictions look like artifacts of drug interactions and should not be pursued.
 
 **To proceed, the following is needed:**
 - Canadian package insert warnings and contraindications (currently a blocking gap for safety screening)

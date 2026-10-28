@@ -4,17 +4,17 @@ title: Triethylenetetramine
 parent: Model Prediction Only (L5)
 nav_order: 944
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Triethylenetetramine: predicted new indication Thyroid gland undifferentiated (anaplastic) carcinoma (evidence level L5). Approved use: Wilson disease"
 monitor_inn: "Triethylenetetramine"
-predicted_indications: ["thyroid gland undifferentiated (anaplastic) carcinoma", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatic porphyria", "disorder of tyrosine metabolism"]
+predicted_indications: ["thyroid gland undifferentiated (anaplastic) carcinoma", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatic porphyria"]
+description: "Triethylenetetramine: predicted new indication Thyroid gland undifferentiated (anaplastic) carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triethylenetetramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Triethylenetetramine: From Renal Cell Carcinoma and Wilson Disease to Anaplastic Thyroid Carcinoma
+## Triethylenetetramine: Thyroid gland undifferentiated (anaplastic) carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Triethylenetetramine (trientine) is a copper chelator, listed for Wilson disease, iron metabolism disorders and several renal cell carcinoma subtypes in the knowledge graph used for this report.
+Triethylenetetramine (trientine) is a copper chelator, listed for Wilson disease, iron metabolism disorders and several renal cell carcinoma subtypes. Any prediction scores on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **thyroid gland undifferentiated (anaplastic) carcinoma**,
 but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
@@ -46,19 +46,19 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Wilson disease (the Canadian licence records contain no approved indication text; the indications listed come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thyroid gland undifferentiated (anaplastic) carcinoma |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trientine is a copper chelator. Its efficacy in Wilson disease, a disorder of copper accumulation, is established, and mechanistically it may be applicable to other conditions in which copper plays a role.
 
-Copper is a cofactor in angiogenic and signalling pathways, such as VEGF and MEK1/2-BRAF signalling (sometimes called "cuproplasia"). Depleting copper is therefore a plausible antitumour concept. The knowledge graph also lists several renal cell carcinoma indications for this drug, which may partly explain why the model connects it to other tumours.
+Copper is a cofactor in angiogenic and signaling pathways, such as VEGF and MEK1/2-BRAF signaling (sometimes called "cuproplasia"). Depleting copper is therefore a plausible antitumor concept. The model may also reflect similarities it learned between related diseases, such as the several renal cell carcinoma indications listed for this drug, which may partly explain why it connects the drug to other tumors; this is not biological evidence.
 
 This reasoning is hypothetical. No trials or literature were found for anaplastic thyroid carcinoma, and the high TxGNN score is a computational prediction, not clinical evidence.
 
@@ -66,15 +66,12 @@ This reasoning is hypothetical. No trials or literature were found for anaplasti
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Hepatopulmonary syndrome | 99.77% | L5 | No direct mechanistic link; speculative connection through chronic liver disease |
-| 3 | Early-onset familial noncirrhotic portal hypertension | 99.77% | L5 | Linked to the hepatic vascular network shared with Wilson disease |
-| 4 | Hepatoportal sclerosis | 99.77% | L5 | Indirect link to copper chelation |
-| 5 | Primitive portal vein thrombosis | 99.77% | L5 | No clear rationale; likely graph proximity |
-| 6 | Idiopathic copper-associated cirrhosis | 99.77% | L4 | Most biologically plausible; shares hepatic copper accumulation with Wilson disease; a candidate for focused literature review |
-| 7 | Hepatic porphyria | 99.71% | L5 | Heme synthesis is metal-dependent; no direct rationale |
-| 8 | Disorder of tyrosine metabolism | 98.78% | L5 | Weak link through copper-dependent tyrosinase |
-| 9 | Renal cell carcinoma associated with neuroblastoma | 98.78% | L5 | Likely driven by existing renal cell carcinoma indications |
-| 10 | Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions | 98.78% | L5 | Likely driven by existing renal cell carcinoma indications |
+| 2 | Hepatopulmonary syndrome | 0.9977 | L5 | No direct mechanistic link; speculative connection through chronic liver disease |
+| 3 | Early-onset familial noncirrhotic portal hypertension | 0.9977 | L5 | Linked to the hepatic vascular network shared with Wilson disease |
+| 4 | Hepatoportal sclerosis | 0.9977 | L5 | Indirect link to copper chelation |
+| 5 | Primitive portal vein thrombosis | 0.9977 | L5 | No clear rationale; score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| 6 | Idiopathic copper-associated cirrhosis | 0.9977 | L5 | Most biologically plausible; shares hepatic copper accumulation with Wilson disease; a candidate for focused literature review |
+| 7 | Hepatic porphyria | 0.9971 | L5 | Heme synthesis is metal-dependent; no direct rationale |
 
 ## Clinical Trial Evidence
 

@@ -50,10 +50,10 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 |------|------|
 | Original Indication | Not stated in the licence data (product names suggest lung diffusion test gas mixtures) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

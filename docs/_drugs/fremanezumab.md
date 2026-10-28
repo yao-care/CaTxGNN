@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fremanezumab
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 418
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Fremanezumab: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
+description: "Fremanezumab: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fremanezumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Fremanezumab: From Migraine Disorder to Migraine with Brainstem Aura
+## Fremanezumab: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fremanezumab is a humanized monoclonal antibody that targets the CGRP ligand and is used for migraine prevention.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
+The TxGNN model predicts it may be effective for **atrophoderma vermiculata**,
 but there are currently **no registered clinical trials** and only indirect support from **20 publications**, mostly reviews, observational studies and preclinical work in general migraine.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (from the knowledge graph; no approved indication text is available for the Canadian licences) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9904 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -109,7 +109,7 @@ The prediction is mechanistically plausible because brainstem aura is a migraine
 
 ---
 
-**Note on the second predicted indication:** The model also predicted atrophoderma vermiculata (score 99.04%). There are no clinical trials or literature for it, and no plausible mechanistic link to CGRP neutralization is evident. It is likely a knowledge-graph artifact, and the recommendation is **Hold**.
+**Note on the second predicted indication:** The model also predicted atrophoderma vermiculata (score 0.9904). There are no clinical trials or literature for it, and no plausible mechanistic link to CGRP neutralization is evident. It is likely a TxGNN model (deep learning) artifact, and the recommendation is **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

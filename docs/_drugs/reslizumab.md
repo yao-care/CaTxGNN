@@ -6,9 +6,9 @@ nav_order: 802
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Reslizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Eosinophilic pneumonia"
 monitor_inn: "RESLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
+description: "Reslizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Reslizumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Reslizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
+## Reslizumab: Thrombocytopenia due to immune destruction
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,15 +47,15 @@ The TxGNN model predicts it may be effective for **thrombocytopenia due to immun
 
 | Item | Content |
 |------|------|
-| Original Indication | Eosinophilic pneumonia; pulmonary eosinophilia (taken from the knowledge-graph indication data, because no approved indication text is available for the Canadian license) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
-| TxGNN Prediction Score | 99.53% |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-A second prediction, **primary release disorder of platelets** (score 99.25%), was also generated. It is also evidence level L5 with a Hold recommendation, and is covered in the sections below.
+A second prediction, **primary release disorder of platelets** (score 0.9925), was also generated. It is also evidence level L5 with a Hold recommendation, and is covered in the sections below.
 
 ---
 
@@ -65,7 +65,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 For the predicted new indication, the mechanistic link is weak. Immune-mediated thrombocytopenia (such as ITP) is driven mainly by autoantibody-mediated platelet destruction and impaired platelet production. No established connection to IL-5 or eosinophils has been identified. A speculative link might exist through Th2/eosinophil-associated immune dysregulation, but no data in this report supports it.
 
-The second prediction, primary release disorder of platelets, is a qualitative platelet function defect (impaired granule secretion). It has no known IL-5 or eosinophil-dependent pathway. The one linked publication is a review of hypereosinophilic syndrome, which concerns eosinophilic disease rather than platelet disorders, so it is likely a spurious association. The high TxGNN scores (0.995 and 0.993) are computational predictions only and are not corroborated by clinical or literature evidence.
+The second prediction, primary release disorder of platelets, is a qualitative platelet function defect (impaired granule secretion). It has no known IL-5 or eosinophil-dependent pathway. The one linked publication is a review of hypereosinophilic syndrome, which concerns eosinophilic disease rather than platelet disorders, so it is likely a spurious association. The high TxGNN scores (0.9953 and 0.9925) are computational predictions only and are not corroborated by clinical or literature evidence.
 
 ---
 

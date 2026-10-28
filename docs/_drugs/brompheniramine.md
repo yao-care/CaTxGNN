@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brompheniramine
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 131
-evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-13
-description: "Brompheniramine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Allergic rhinitis"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brompheniramine: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Brompheniramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,59 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Brompheniramine: From Allergic Rhinitis to Allergic Urticaria
+<!-- known-uses-page -->
+<!-- description: Brompheniramine: known uses and market status in Canada; currently no new candidate indication -->
+## Brompheniramine: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model produced candidates for Brompheniramine, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The two known uses are recorded as relations in the knowledge graph, and no approval was found for them in this data.
 
-Brompheniramine is a first-generation antihistamine originally used for allergic rhinitis, the common cold, allergic conjunctivitis, urticaria and angioedema.
-The TxGNN model predicts it may be effective for **Allergic Urticaria** (a second prediction, **Cold Urticaria**, is also listed), but **no clinical trials and no publications** currently support this specific direction. The support is indirect, based on drug class and overlap with its existing urticaria use.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (other listed uses: vasomotor rhinitis, common cold, atopic/vernal/papillary conjunctivitis, familial dermatographia, urticaria, angioedema) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L5 (model prediction only; no trials or publications. The data compiled for this report assigns L4 on the basis of class-level mechanistic reasoning.) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 2 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, brompheniramine is a first-generation H1-receptor antagonist of the alkylamine class. Its efficacy in histamine-driven allergic conditions is established, and mechanistically it may be applicable to allergic urticaria.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Allergic urticaria is mediated by mast cells and histamine, so H1 blockade is a coherent mechanism. The very high TxGNN score most likely reflects the overlap with brompheniramine's existing urticaria and angioedema indications. It probably does not indicate a genuinely new repurposing opportunity.
-
-The second prediction, **cold urticaria** (score 99.55%), is a physical (inducible) urticaria in which mast-cell degranulation follows cold exposure. H1 antihistamines are standard therapy, and first-generation agents have historically been used. However, current guidelines favour second-generation non-sedating antihistamines. This limits the practical value of a first-generation agent that carries sedation and anticholinergic burden.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| allergic urticaria |
+| cold urticaria |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02394707 | ROBITUSSIN CHILDREN'S COUGH & COLD BEDTIME | Not specified | Not specified |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02394707 | ROBITUSSIN CHILDREN'S COUGH & COLD BEDTIME |  | Valid |
 
 ## Safety Considerations
 
@@ -106,19 +94,6 @@ Label warnings and contraindications from the Health Canada package insert were 
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is mechanistically coherent, but it largely duplicates an existing labeled use (urticaria and angioedema). No trials or publications support the specific subtypes. For cold urticaria, second-generation non-sedating antihistamines are preferred, and brompheniramine adds sedation and anticholinergic burden.
-
-**To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Brompheniramine-specific clinical or observational evidence for allergic urticaria or cold urticaria
-- Comparison against second-generation antihistamines to show a meaningful added value
-- Review of the anticholinergic and sedation risks, particularly in older adults and in patients with the conditions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

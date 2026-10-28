@@ -4,17 +4,17 @@ title: Ranibizumab
 parent: Model Prediction Only (L5)
 nav_order: 794
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ranibizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Diabetic retinopathy, diabetic macular edema, macular degeneration…"
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
+description: "Ranibizumab: predicted new indication Immature cataract (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ranibizumab: From Diabetic Retinopathy and Macular Degeneration to Severe Nonproliferative Diabetic Retinopathy
+## Ranibizumab: Immature cataract
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ranibizumab is an anti-VEGF antibody fragment originally used for eye diseases such as diabetic retinopathy, diabetic macular edema and macular degeneration.
-The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, supported by **0 registered clinical trials** but **20 publications**, including randomized-trial analyses (RIDE/RISE, Pavilion).
 This is largely an extension within the drug's existing disease family rather than a true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetic retinopathy, diabetic macular edema, macular degeneration, retinal artery occlusion, retinopathy of prematurity (knowledge-graph indications; no approved indication text available for Canadian licences) |
-| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (based on literature titles; full study designs not verified) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Immature cataract |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 (based on literature titles; full study designs not verified) |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -112,7 +111,7 @@ The mechanism is coherent and the literature includes RCT-derived analyses (RIDE
 
 ## Other Predicted Indications (Not Recommended at This Time)
 
-The other nine predictions all have a **Hold** recommendation. They are mainly cataract subtypes (immature, mature, tetanic, type 2 diabetes-associated, craniostenosis, cortical, nuclear senile and senile cataract), plus hemorrhagic disease of the newborn. Cataract is a lens opacification process and is not primarily VEGF-driven, and the retrieved literature covers ranibizumab in other retinal conditions rather than cataract treatment. The high TxGNN scores likely reflect graph proximity to diabetic eye disease. For hemorrhagic disease of the newborn, the matched trials concern a different disease (hereditary hemorrhagic telangiectasia and chorioretinal neovascular diseases), and anti-VEGF therapy could theoretically worsen bleeding risk in neonates.
+The other nine predictions all have a **Hold** recommendation. They are mainly cataract subtypes (immature, mature, tetanic, type 2 diabetes-associated, craniostenosis, cortical, nuclear senile and senile cataract), plus hemorrhagic disease of the newborn. Cataract is a lens opacification process and is not primarily VEGF-driven, and the retrieved literature covers ranibizumab in other retinal conditions rather than cataract treatment. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. For hemorrhagic disease of the newborn, the matched trials concern a different disease (hereditary hemorrhagic telangiectasia and chorioretinal neovascular diseases), and anti-VEGF therapy could theoretically worsen bleeding risk in neonates.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

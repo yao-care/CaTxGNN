@@ -48,10 +48,10 @@ but **no clinical trials** are registered for this indication, and the **20 publ
 |------|------|
 | Original Indication | Metastatic melanoma; Hodgkin lymphoma (including classic Hodgkin lymphoma) |
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 (no direct clinical studies; the data's preliminary grading was L4, but only indirect and mechanistic-adjacent literature exists) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

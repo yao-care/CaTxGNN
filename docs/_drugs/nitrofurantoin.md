@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 |------|------|
 | Original Indication | Urinary tract infection (general knowledge of the drug; no approved indication text in the compiled Health Canada records) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 Currently, detailed mechanism of action data is not available. Nitrofurantoin is a nitrofuran-class antibacterial used for urinary tract infections. It has no known anti-inflammatory or immunomodulatory activity relevant to rheumatoid arthritis (RA).
 
-The relationship between the original and predicted indications is weak. The available literature is dominated by adverse-effect reports: drug-induced pulmonary fibrosis, a methotrexate–nitrofurantoin interaction causing irreversible pulmonary fibrosis in a patient with RA, and a study linking antibiotic exposure to RA flares. These signals suggest possible harm in RA patients, not benefit. The high TxGNN score is most likely a network-proximity artifact in the knowledge graph rather than a true therapeutic signal.
+The relationship between the original and predicted indications is weak. The available literature is dominated by adverse-effect reports: drug-induced pulmonary fibrosis, a methotrexate–nitrofurantoin interaction causing irreversible pulmonary fibrosis in a patient with RA, and a study linking antibiotic exposure to RA flares. These signals suggest possible harm in RA patients, not benefit. The high score comes from the TxGNN model (deep learning) and most likely reflects similarities the model learned between related diseases, not biological evidence or a true therapeutic signal.
 
 The other predicted indications show the same pattern. Most are rare genetic disorders with no plausible pharmacological link. For methemoglobinemia, nitrofurantoin is a cause of the condition, not a treatment.
 

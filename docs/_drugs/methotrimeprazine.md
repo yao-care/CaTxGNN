@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Methotrimeprazine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 601
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L4). Approved use: Not available"
@@ -14,7 +14,7 @@ predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome",
 # Methotrimeprazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,10 +51,10 @@ Of the other predictions, schizophrenia (one 1996 comparative trial) and headach
 |------|------|
 | Original Indication | Not available (no approved indication text in the Canadian license records) |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -69,12 +69,12 @@ D2/5-HT2A blockade underlies the antimanic effect of antipsychotics, so the pred
 
 | Predicted Indication | Score | Evidence Level | Key Point |
 |------|------|------|------|
-| Tourette syndrome | 99.80% | L5 | D2 antagonism is plausible, but no trials or literature |
-| Trichotillomania | 99.78% | L5 | Computational prediction only |
-| Schizophrenia | 99.36% | L3 | A 1996 randomized comparison with risperidone and haloperidol |
-| Headache disorder | 99.19% | L2 | A 1991 RCT in severe migraine |
-| Schizophreniform disorder | 99.16% | L3 | Indirect evidence extrapolated from schizophrenia and psychosis |
-| Anaphylaxis | 99.13% | L4 | Only a 1963 guinea-pig study; clinically unsuitable |
+| Tourette syndrome | 0.9980 | L5 | D2 antagonism is plausible, but no trials or literature |
+| Trichotillomania | 0.9978 | L5 | Computational prediction only |
+| Schizophrenia | 0.9936 | L3 | A 1996 randomized comparison with risperidone and haloperidol |
+| Headache disorder | 0.9919 | L5 | A 1991 RCT in severe migraine |
+| Schizophreniform disorder | 0.9916 | L5 | Indirect evidence extrapolated from schizophrenia and psychosis |
+| Anaphylaxis | 0.9913 | L5 | Only a 1963 guinea-pig study; clinically unsuitable |
 
 ---
 
@@ -159,7 +159,7 @@ Please also refer to the package insert for official warnings and contraindicati
 - Package insert warnings and contraindications from Health Canada, and approved indication text for the five DINs
 - Detailed mechanism-of-action data
 - Modern controlled trials, or a systematic review of antipsychotics in acute mania, comparing methotrimeprazine with standard agents
-- A cardiac (QT) and haematological safety monitoring plan, given the knowledge-graph signals and the agranulocytosis reports
+- A cardiac (QT) and hematological safety monitoring plan, given the TxGNN model (deep learning) signals, which may reflect similarities the model learned between related diseases, not biological evidence, and the agranulocytosis reports
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

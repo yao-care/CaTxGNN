@@ -50,10 +50,10 @@ The prediction rests on the model alone and should be treated as a research ques
 |------|------|
 | Original Indication | Not stated in the Canadian licence data (the products are potassium phosphate and electrolyte preparations) |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,12 +70,12 @@ Other predicted indications are listed below for context. All lack trial or lite
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Acute urate nephropathy | 99.80% | L5 | No clear rationale; phosphate load and urinary acidification may cause harm |
-| 3 | Dyspepsia | 99.74% | L5 | No known mechanism; likely a knowledge-graph artifact, and oral salts commonly irritate the gut |
-| 4 | Potassium deficiency disease | 99.73% | L4 | Direct rationale, especially with low phosphate as well; potassium chloride is usually first-line |
-| 5 | Nephrolithiasis | 99.57% | L4 | Depends on stone type; may help or harm |
-| 6 | Calcium-alkali syndrome | 99.33% | L5 | Phosphate loading risks calcification and worse kidney function |
-| 7 | Primary bone dysplasia with defective mineralization | 99.02% | L5 | Plausible for phosphate-wasting rickets; the category is broad, and the potassium load matters |
+| 2 | Acute urate nephropathy | 0.9980 | L5 | No clear rationale; phosphate load and urinary acidification may cause harm |
+| 3 | Dyspepsia | 0.9974 | L5 | No known mechanism; likely a TxGNN model (deep learning) artifact, and oral salts commonly irritate the gut |
+| 4 | Potassium deficiency disease | 0.9973 | L5 | Direct rationale, especially with low phosphate as well; potassium chloride is usually first-line |
+| 5 | Nephrolithiasis | 0.9957 | L5 | Depends on stone type; may help or harm |
+| 6 | Calcium-alkali syndrome | 0.9933 | L5 | Phosphate loading risks calcification and worse kidney function |
+| 7 | Primary bone dysplasia with defective mineralization | 0.9902 | L5 | Plausible for phosphate-wasting rickets; the category is broad, and the potassium load matters |
 
 ---
 

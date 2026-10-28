@@ -6,9 +6,9 @@ nav_order: 612
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Mexiletine: predicted new indication Headache disorder (evidence level L5). Approved use: Not stated in the data compiled for this report (class IB antiarrhyth…"
 monitor_inn: "Mexiletine"
 predicted_indications: ["hypertrichosis (disease)", "nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "migraine disorder", "isolated genetic hair shaft abnormality", "pulmonary hypertension", "migraine with brainstem aura", "headache disorder"]
+description: "Mexiletine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mexiletine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mexiletine: From Antiarrhythmic Therapy to Migraine and Headache Disorders
+## Mexiletine: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Mexiletine is a class IB antiarrhythmic sodium channel blocker marketed in Canad
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (class IB antiarrhythmic) |
-| Predicted New Indication | Headache disorder (rank 10 of the model's predictions; the highest-ranked prediction, hypertrichosis, has no supporting evidence) |
-| TxGNN Prediction Score | 99.48% (headache disorder); 99.78% (hypertrichosis, the top-ranked prediction) |
-| Evidence Level | L3 (headache disorder, migraine disorder); L5 (hypertrichosis) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 (headache disorder, migraine disorder); L5 (hypertrichosis) |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold (headache: research question only, not ready for development) |
 
 ---

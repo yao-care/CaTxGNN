@@ -48,17 +48,17 @@ but **no clinical trials and no publications** currently support this direction.
 |------|------|
 | Original Indication | Not specified in the Canadian license records |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, cisatracurium is a non-depolarizing neuromuscular blocker that acts on nicotinic acetylcholine receptors at the neuromuscular junction, relaxing skeletal muscle.
 
-A plausible therapeutic link to cauda equina syndrome is hard to find. Cauda equina syndrome is a compressive neurological emergency, usually treated by urgent surgical decompression. Blocking neuromuscular transmission does not relieve nerve root compression. The very high TxGNN score (99.99%, rank 254) reflects a pattern in the knowledge graph, not clinical or mechanistic support.
+A plausible therapeutic link to cauda equina syndrome is hard to find. Cauda equina syndrome is a compressive neurological emergency, usually treated by urgent surgical decompression. Blocking neuromuscular transmission does not relieve nerve root compression. The very high TxGNN score (0.9999, rank 254) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predicted indications show the same pattern. For example, the preeclampsia-related literature describes cisatracurium only as part of anesthesia during cesarean section, not as treatment of the disease. Likewise, the thrombotic disease paper is about anesthesia for pediatric liver transplantation. These are peri-procedural uses, not new therapeutic indications.
 

@@ -48,10 +48,10 @@ but there are currently **0 registered clinical trials** and **10 publications**
 |------|------|
 | Original Indication | Thrombocythemia; familial thrombocytosis |
 | Predicted New Indication | Reactive thrombocytosis |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ The original indications (thrombocythemia and familial thrombocytosis) and react
 
 There is an important caveat. Reactive (secondary) thrombocytosis is driven by an underlying cause such as inflammation, iron deficiency, infection, malignancy or splenectomy. Management normally targets that cause, and platelet-lowering therapy is generally not indicated. The thrombotic risk is also lower than in clonal disorders such as essential thrombocythemia. The mechanistic fit is therefore weak in clinical terms.
 
-A second predicted indication, inverse Klippel-Trenaunay syndrome (score 99.59%), has no supporting trials or publications. No mechanistic link to anagrelide is apparent, so it is not pursued here.
+A second predicted indication, inverse Klippel-Trenaunay syndrome (score 0.9959), has no supporting trials or publications. No mechanistic link to anagrelide is apparent, so it is not pursued here.
 
 ## Clinical Trial Evidence
 

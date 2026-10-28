@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Anidulafungin
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 62
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Anidulafungin: predicted new indication Impetigo (evidence level L5). Approved use: Esophageal candidiasis, candidemia"
-monitor_inn: "Anidulafungin"
-predicted_indications: ["impetigo", "malignant pleural mesothelioma", "staphylococcal scalded skin syndrome", "pleural empyema (disease)", "malignant visceral pleura tumor", "bullous impetigo", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "hordeolum", "Clostridium infectious disease"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Anidulafungin: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Anidulafungin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,71 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Anidulafungin: From Esophageal Candidiasis and Candidemia to Impetigo
+<!-- known-uses-page -->
+<!-- description: Anidulafungin: known uses and market status in Canada; currently no new candidate indication -->
+## Anidulafungin: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Anidulafungin, so there is currently no new predicted indication. The drug's own recorded uses are listed below. They come from a license in another country, not from model predictions.
 
-Anidulafungin is an echinocandin antifungal, originally used to treat esophageal candidiasis and candidemia.
-The TxGNN model predicts it may be effective for **impetigo** (top-ranked prediction), but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-This is a model-only prediction with no mechanistic or clinical support.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Esophageal candidiasis, candidemia (the Health Canada licence record has no indication text) |
-| Predicted New Indication | Impetigo |
-| TxGNN Prediction Score | 98.85% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 3 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| candidiasis | licence in another country |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, anidulafungin is an echinocandin that inhibits fungal 1,3-beta-D-glucan synthase, an enzyme needed to build the fungal cell wall. Its efficacy in invasive *Candida* infections is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Impetigo is a superficial bacterial skin infection, mainly caused by *Staphylococcus aureus* and *Streptococcus pyogenes*. Bacteria have no glucan synthase and no fungal cell wall, so **no plausible mechanistic link** exists between anidulafungin and impetigo. The same applies to the other bacterial predictions on the list (bullous impetigo, staphylococcal scalded skin syndrome, hordeolum, Clostridium infection).
-
-The high score (0.989) most likely reflects relationships within the knowledge graph rather than true pharmacological activity. The score should not be read as evidence of efficacy.
-
-**Other predictions reviewed:**
-- **Mesothelioma-related tumours** (malignant pleural mesothelioma, epithelioid, sarcomatoid, malignant visceral pleura tumour): no mechanism, trials or publications support them.
-- **Pleural empyema:** one 2018 pharmacokinetic study shows the drug reaches pleural effusion. This is not efficacy data, and it is relevant at most to fungal empyema, which would extend the existing antifungal use rather than being true repurposing.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for impetigo.
-
-For context, the only literature retrieved for the other top predictions was:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29439960](https://pubmed.ncbi.nlm.nih.gov/29439960/) | 2018 | Pharmacokinetic study | Antimicrob Agents Chemother | Anidulafungin reached pleural effusion (0.32–2.02 μg/ml) and ascites fluid (0.12–0.99 μg/ml) in 10 critically ill patients, at levels below those in plasma. This is relevant to pleural empyema, not impetigo. |
-| [18756840](https://pubmed.ncbi.nlm.nih.gov/18756840/) | 2008 | Review | Cleve Clin J Med | General infectious disease treatment update. It gives no evidence of anidulafungin use for Clostridium infection. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| candidemia |
+| esophageal candidiasis |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02330695 | ERAXIS | Not recorded | Not recorded |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02330695 | ERAXIS |  | Valid |
 
 ## Safety Considerations
 
@@ -108,19 +82,6 @@ Please refer to the package insert for full warnings and contraindications.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a model score. There are no clinical trials or publications for impetigo, and the drug has no antibacterial mechanism, so there is no biological basis for the prediction. Anidulafungin is also given intravenously, which is poorly suited to a superficial skin infection.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, to allow a proper mechanistic assessment
-- Health Canada package insert warnings and contraindications, needed for safety screening
-- Preclinical evidence (for example, in vitro activity against *S. aureus* and *S. pyogenes*) before any further consideration
-- A review of whether the model's bacterial and mesothelioma predictions are artefacts of the knowledge graph
-- If any lead is pursued, the pleural empyema direction (fungal pleural infection) is the only one with indirect data, and it would need efficacy evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

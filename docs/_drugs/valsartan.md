@@ -4,17 +4,17 @@ title: Valsartan
 parent: Moderate Evidence (L3-L4)
 nav_order: 964
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Valsartan: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Valsartan: From Hypertension to Malignant Renovascular Hypertension
+## Valsartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Valsartan is an angiotensin II receptor blocker originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, with a very high prediction score.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, with a very high prediction score.
 The supporting evidence is thin: **no clinical trials** and **1 publication**, a preclinical animal study that does not test valsartan itself.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -58,7 +58,6 @@ The supporting evidence is thin: **no clinical trials** and **1 publication**, a
 
 Detailed mechanism-of-action data was not available in the data compiled for this report. Based on known pharmacology, valsartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant renovascular hypertension.
 
-Malignant renovascular hypertension is strongly driven by activation of the renin-angiotensin-aldosterone system (RAAS), so blocking the AT1 receptor is plausible. The prediction is essentially an extension of the existing hypertension indication rather than a distinct repurposing opportunity.
 
 The only supporting paper is an animal study of AT1 receptor blockade in malignant hypertension. It did not use valsartan specifically and is not human clinical evidence.
 
@@ -94,7 +93,7 @@ These are 5 of 20 valid single-ingredient licences. None have been cancelled.
   - Blood and immune: neutropenia, agranulocytosis, systemic lupus erythematosus
   - Other: hypotensive disorder
 
-  These come from knowledge-graph edges and need verification against the official label.
+  These come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They need verification against the official label.
 - **Drug Interactions:** 100 interactions were recorded. Those listed include:
   - **Major:** potassium bicarbonate and potassium chloride, which raise the risk of hyperkalaemia.
   - **Moderate:** hydrocortisone, eluxadoline, exenatide, polyethylene glycol with electrolytes, and many insulin products. The insulin interactions suggest glucose-lowering effects need monitoring.
@@ -119,12 +118,12 @@ The mechanism is plausible, but the indication largely overlaps with valsartan's
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.97% | L4 | Only indirect evidence, from an endothelin antagonist (avosentan) study |
-| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.97% | L4 | Preclinical studies only, many of them on sacubitril/valsartan; no established clinical benefit |
-| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.97% | L5 | No trials or literature |
-| 5 | Braddock syndrome | 99.96% | L5 | No trials or literature |
-| 6 | Chronic pulmonary heart disease | 99.58% | L3 | One Phase 1 trial of low relevance; evidence is mostly indirect heart failure data on sacubitril/valsartan |
-| 7 | Prinzmetal angina | 99.45% | L5 | The single paper does not support this use |
+| 2 | Malignant hypertensive renal disease | 0.9997 | L4 | Only indirect evidence, from an endothelin antagonist (avosentan) study |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9997 | L5 | Preclinical studies only, many of them on sacubitril/valsartan; no established clinical benefit |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9997 | L5 | No trials or literature |
+| 5 | Braddock syndrome | 0.9996 | L5 | No trials or literature |
+| 6 | Chronic pulmonary heart disease | 0.9958 | L3 | One Phase 1 trial of low relevance; evidence is mostly indirect heart failure data on sacubitril/valsartan |
+| 7 | Prinzmetal angina | 0.9945 | L5 | The single paper does not support this use |
 
 Among these, chronic pulmonary heart disease has the most literature (L3), but it is largely indirect and based on the sacubitril/valsartan combination rather than valsartan alone.
 ## Disclaimer

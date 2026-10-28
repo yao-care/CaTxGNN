@@ -4,17 +4,17 @@ title: Hydrocodone
 parent: Moderate Evidence (L3-L4)
 nav_order: 454
 evidence_level: L4
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Hydrocodone: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "hydrocodone"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Hydrocodone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,11 +61,10 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 Detailed mechanism of action data is not currently available. Hydrocodone is an opioid with known antitussive activity, and it is already linked to upper respiratory conditions such as rhinitis, pharyngitis, and the common cold. Mechanistically, it may relieve cough or symptoms associated with these conditions.
 
-The high prediction score (99.88%) most likely reflects the network proximity of hydrocodone to those approved upper-respiratory indications, rather than a validated treatment effect. Symptom relief in upper-airway inflammation does not support treating structural nasal cavity disease.
+The high prediction score (0.9988) most likely reflects the network proximity of hydrocodone to those approved upper-respiratory indications, rather than a validated treatment effect. Symptom relief in upper-airway inflammation does not support treating structural nasal cavity disease.
 
 The only supporting publication reports that intranasal abuse of hydrocodone-acetaminophen caused necrosis of the nasal cavity and pharynx. This is drug-induced harm to nasal tissue, not therapeutic benefit, so the available evidence points toward a safety concern rather than repurposing potential.
 
-A second predicted indication, **acute laryngopharyngitis** (score 99.86%, evidence level L5), has no trials or literature. It overlaps heavily with the already-associated pharyngitis and nasopharyngitis, so it may be an extension of the existing use rather than a genuinely new one.
 
 ---
 

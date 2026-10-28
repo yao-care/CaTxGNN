@@ -50,10 +50,10 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 |------|------|
 | Original Indication | Not stated in the licence records. Product names (e.g., "Muscle & Back Pain Relief", "Analgesic and Muscle Relaxant") point to muscle spasm and back pain |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 16 |
+| Canada Market Status | Marketed (valid licenses: 16 of 16) |
+| Number of DINs | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---

@@ -48,17 +48,17 @@ but **no clinical trials and no publications** support this prediction, so it re
 |------|------|
 | Original Indication | Obstructive airway disease (COPD and asthma, based on the published literature; the Health Canada licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Indacaterol is a beta2-adrenergic agonist. It relaxes bronchial smooth muscle by activating beta2-receptors and raising intracellular cAMP. Detailed mechanism-of-action data were not available in the drug database records compiled for this report, so this description relies on the drug class and the published literature.
 
-NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2), which also signals through cAMP. This shared second messenger is the only visible link the model may be picking up on. It is not a therapeutic rationale: boosting cAMP signalling would, in theory, increase rather than reduce water-retention signalling. The very high score is therefore not supported by any mechanistic or clinical evidence, and it likely reflects class-level or network associations in the knowledge graph.
+NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2), which also signals through cAMP. This shared second messenger is the only visible link the model may be picking up on. It is not a therapeutic rationale: boosting cAMP signaling would, in theory, increase rather than reduce water-retention signaling. The very high score is therefore not supported by any mechanistic or clinical evidence. It comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

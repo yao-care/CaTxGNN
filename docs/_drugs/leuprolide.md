@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **osteoarthritis**, but there a
 |------|------|
 | Original Indication | Endometriosis (other listed indications: precocious puberty, aromatase excess syndrome, familial male-limited precocious puberty) |
 | Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Sex-hormone changes could plausibly influence joint tissue or pain, which is one possible way to connect the original indications to osteoarthritis. However, this link is speculative. Suppressing sex hormones (as in androgen-deprivation therapy) is more commonly associated with bone loss than with joint benefit. The high model score should therefore be treated as a hypothesis only, not as evidence of efficacy.
 
-The second-ranked prediction, pseudoachondroplasia (score 99.69%), has no supporting trials or literature. It is a skeletal dysplasia caused by COMP gene mutations, and GnRH agonism has no known direct link to that pathway.
+The second-ranked prediction, pseudoachondroplasia (score 0.9969), has no supporting trials or literature. It is a skeletal dysplasia caused by COMP gene mutations, and GnRH agonism has no known direct link to that pathway.
 
 ---
 

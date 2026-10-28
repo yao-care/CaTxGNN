@@ -6,9 +6,9 @@ nav_order: 537
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Letermovir: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Cytomegalovirus infection"
 monitor_inn: "LETERMOVIR"
 predicted_indications: ["vulvovaginal candidiasis"]
+description: "Letermovir: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Letermovir
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Letermovir: From Cytomegalovirus Infection to Vulvovaginal Candidiasis
+## Letermovir: Vulvovaginal candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Cytomegalovirus infection (Health Canada indication text is not available in the data compiled for this report; the original indication comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Letermovir is a CMV-specific antiviral, and its efficacy in CMV infection is the basis for its approval. Its known mechanism is inhibition of the viral terminase complex (pUL56/pUL51/pUL89).
 
-This target is not present in fungi such as *Candida* species, so no plausible link to antifungal activity is supported. The very high TxGNN score (99.88%) is a computational prediction only. It is probably driven by network-level associations, for example letermovir's many drug interactions and its co-prescription with azole antifungals in transplant patients. It should not be read as biological evidence.
+This target is not present in fungi such as *Candida* species, so no plausible link to antifungal activity is supported. The very high TxGNN score (0.9988) is a computational prediction only. It is probably driven by network-level associations, for example letermovir's many drug interactions and its co-prescription with azole antifungals in transplant patients. It should not be read as biological evidence.
 
 Any benefit would be speculative, such as an indirect effect through fewer immunosuppression-related complications, and none is documented. Similarity between the original and predicted indications, and route compatibility, have not been assessed.
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyurea
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 460
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L4). Approved use: Melanoma"
 monitor_inn: "HYDROXYUREA"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
+description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxyurea
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Hydroxyurea: From Melanoma and Sickle Cell Anemia to Female Breast Carcinoma
+## Hydroxyurea: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The best-supported repurposing direction in the compiled data is a related one, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Melanoma; sickle cell anemia; ovarian cancer (the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -109,7 +109,6 @@ All four are valid single-ingredient licences.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (antimetabolite, ribonucleotide reductase inhibitor) |
-| Myelosuppression Risk | High. The literature reports thrombocytopenia as the main side effect in children with HbSC, and the knowledge graph links the drug to leukopenia, anemia and thrombocytopenia |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | CBC with differential and platelets, kidney function, liver function |
 | Handling Protection | Follow cytotoxic drug handling regulations |

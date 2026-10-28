@@ -48,10 +48,10 @@ Varenicline is a nicotine receptor partial agonist marketed in Canada, and it is
 |------|------|
 | Original Indication | Not stated in the compiled Canadian license data (smoking cessation is the generally known use) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 11 |
+| Canada Market Status | Marketed (valid licenses: 11 of 11) |
+| Number of DINs | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,9 +60,9 @@ Varenicline is a nicotine receptor partial agonist marketed in Canada, and it is
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, varenicline is a partial agonist at α4β2 nicotinic acetylcholine receptors and a full agonist at α7 receptors. Nicotinic signaling has been loosely linked to trigeminovascular and cortical spreading depression pathways involved in migraine, but this link is speculative.
 
-The prediction is not well supported. The only retrieved publication is a cardiac arrest case report, which is a safety signal and not evidence of efficacy in migraine. Headache is also a commonly reported adverse effect of varenicline, so the drug may worsen rather than treat migraine. The high score likely reflects proximity in the knowledge graph and not specific biology.
+The prediction is not well supported. The only retrieved publication is a cardiac arrest case report, which is a safety signal and not evidence of efficacy in migraine. Headache is also a commonly reported adverse effect of varenicline, so the drug may worsen rather than treat migraine. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top predictions (migraine with brainstem aura, several hair loss disorders, glaucoma subtypes, headache disorder, and pulmonary hypertension) also have no clinical trials and no supporting literature. The hair loss and glaucoma predictions appear to cluster in shared graph neighborhoods and are not independent evidence.
+Other top predictions (migraine with brainstem aura, several hair loss disorders, glaucoma subtypes, headache disorder, and pulmonary hypertension) also have no clinical trials and no supporting literature. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so they are not independent evidence.
 
 ---
 

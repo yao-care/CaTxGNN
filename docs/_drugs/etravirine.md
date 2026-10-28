@@ -4,7 +4,7 @@ title: Etravirine
 parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection, AIDS"
 monitor_inn: "ETRAVIRINE"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Etravirine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Etravirine is an antiviral (an HIV-1 reverse transcriptase inhibitor) originally used to treat HIV infection and AIDS.
 The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, but **no clinical trials and no publications** currently support this prediction.
-It is a model-only prediction, and the high score most likely reflects the drug's closeness to HIV in the knowledge graph rather than real pharmacology.
+It is a model-only prediction from the TxGNN model (deep learning), and the high score may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -50,10 +50,10 @@ It is a model-only prediction, and the high score most likely reflects the drug'
 |------|------|
 | Original Indication | HIV infection, AIDS (the licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ It is a model-only prediction, and the high score most likely reflects the drug'
 
 Currently, detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, etravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) that targets HIV-1 reverse transcriptase, and its efficacy in HIV infection is established.
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, which is the apparent basis of the prediction. However, FIV reverse transcriptase is generally considered intrinsically resistant to NNRTIs. The 99.98% score therefore most likely comes from graph proximity to HIV, not from a true pharmacological match. This is also a veterinary disease, not a human therapeutic indication.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, which is the apparent basis of the prediction. However, FIV reverse transcriptase is generally considered intrinsically resistant to NNRTIs. The 0.9998 score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This is also a veterinary disease, not a human therapeutic indication.
 
 Other predictions in the same list include simian immunodeficiency virus infection (a primate lentivirus with the same NNRTI resistance concern), congenital HIV and AIDS-related complex (extensions of the existing HIV indication), and several benign neoplasms and rare disorders with no plausible mechanistic link. Congenital HIV is the only one with some supporting data. It has a 2010 report of two pregnant women treated with etravirine-containing regimens, which is observational and limited.
 

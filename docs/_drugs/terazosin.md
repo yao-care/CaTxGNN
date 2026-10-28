@@ -6,9 +6,9 @@ nav_order: 896
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension"
 monitor_inn: "TERAZOSIN"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
+description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terazosin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Terazosin: From Hypertension and Benign Prostatic Hyperplasia to Hypotrichosis Simplex of the Scalp
+## Terazosin: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Among the other predicted indications, **Raynaud disease** (1 publication) and *
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; benign prostatic hyperplasia (from the knowledge graph, since no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predicted indications, **Raynaud disease** (1 publication) and *
 
 Currently, detailed mechanism of action data is not available from the compiled data. Based on known pharmacology, terazosin is an alpha-1 adrenergic antagonist that relaxes vascular and prostatic smooth muscle. This explains its efficacy in hypertension and BPH.
 
-For the top prediction, hypotrichosis simplex of the scalp, the link is speculative. One could argue that vasodilation might improve hair follicle perfusion, similar to minoxidil. However, hypotrichosis simplex is a genetic disorder, so a vasodilator is unlikely to address its root cause. The high score probably reflects proximity in the knowledge graph to other hair-related conditions rather than a true pharmacological signal.
+For the top prediction, hypotrichosis simplex of the scalp (score 0.9997), the link is speculative. One could argue that vasodilation might improve hair follicle perfusion, similar to minoxidil. However, hypotrichosis simplex is a genetic disorder, so a vasodilator is unlikely to address its root cause. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as other hair-related conditions, not biological evidence.
 
 The more plausible candidates are those tied to adrenergic vasoregulation. **Raynaud disease** has the strongest rationale: cold-induced vasospasm is driven by adrenergic vasoconstriction, and alpha-1 blockade produces peripheral vasodilation. **Migraine** is a second, weaker candidate, based on possible effects on adrenergic tone and cerebrovascular reactivity.
 
@@ -70,16 +70,16 @@ The more plausible candidates are those tied to adrenergic vasoregulation. **Ray
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Hypotrichosis simplex of the scalp | 99.97% | L5 | Hold |
-| 2 | Congenital hypotrichosis milia | 99.97% | L5 | Hold |
-| 3 | Diffuse alopecia areata | 99.96% | L5 | Hold |
-| 4 | Alopecia | 99.95% | L4 | Hold |
-| 5 | Migraine disorder | 99.92% | L4 | Research Question |
-| 6 | Migraine with brainstem aura | 99.91% | L4 | Hold |
-| 7 | Raynaud disease | 99.83% | L3 | Research Question |
-| 8 | Ambras type hypertrichosis universalis congenita | 99.65% | L5 | Hold |
-| 9 | Manic bipolar affective disorder | 99.55% | L5 | Hold |
-| 10 | Kyphoscoliotic heart disease | 99.49% | L5 | Hold |
+| 1 | Hypotrichosis simplex of the scalp | 0.9997 | L5 | Hold |
+| 2 | Congenital hypotrichosis milia | 0.9997 | L5 | Hold |
+| 3 | Diffuse alopecia areata | 0.9996 | L5 | Hold |
+| 4 | Alopecia | 0.9995 | L5 | Hold |
+| 5 | Migraine disorder | 0.9992 | L4 | Research Question |
+| 6 | Migraine with brainstem aura | 0.9991 | L5 | Hold |
+| 7 | Raynaud disease | 0.9983 | L3 | Research Question |
+| 8 | Ambras type hypertrichosis universalis congenita | 0.9965 | L5 | Hold |
+| 9 | Manic bipolar affective disorder | 0.9955 | L5 | Hold |
+| 10 | Kyphoscoliotic heart disease | 0.9949 | L5 | Hold |
 
 ---
 

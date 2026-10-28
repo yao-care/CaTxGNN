@@ -50,10 +50,10 @@ This prediction currently has **no clinical trials** and **no publications** beh
 |------|------|
 | Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.56% |
+| TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ This prediction currently has **no clinical trials** and **no publications** beh
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Auranofin is a gold-containing drug whose efficacy in rheumatoid arthritis is established. In general terms it is known to modulate inflammatory pathways, but this is not supported by the data compiled here.
 
-No mechanistic link to the predicted condition could be established. The only support is the high TxGNN knowledge-graph score (99.56%). The predicted disease is a rare congenital disorder with eye and skeletal malformations. It is very different from an adult inflammatory joint disease, and no pharmacological reason is apparent for an anti-rheumatic drug to help with a developmental condition.
+No mechanistic link to the predicted condition could be established. The only support is the high TxGNN TxGNN model (deep learning) score (0.9956). The predicted disease is a rare congenital disorder with eye and skeletal malformations. It is very different from an adult inflammatory joint disease, and no pharmacological reason is apparent for an anti-rheumatic drug to help with a developmental condition.
 
-A second prediction, brachydactyly-syndactyly syndrome (score 99.24%), also has no trials, no publications and no mechanistic rationale. Both predictions should be treated as hypothesis-generating signals only.
+A second prediction, brachydactyly-syndactyly syndrome (score 0.9924), also has no trials, no publications and no mechanistic rationale. Both predictions should be treated as hypothesis-generating signals only.
 
 ---
 

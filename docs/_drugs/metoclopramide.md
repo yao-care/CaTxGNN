@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Metoclopramide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 607
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L4). Approved use: Gastroesophageal reflux disease"
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L4). Approved use: Gastroesophageal reflux disease"
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 # Metoclopramide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Metoclopramide: From Gastroesophageal Reflux Disease to Gastric Ulcer
+## Metoclopramide: From Gastroesophageal Reflux Disease to Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but only **1 clinical trial** (indirect, on endoscopic visualization) and a body
 |------|------|
 | Original Indication | Gastroesophageal reflux disease; esophagitis; peptic esophagitis |
 | Predicted New Indication | Gastric ulcer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -124,7 +124,7 @@ Package insert warnings and contraindications were not available in the data com
 - Psychiatric: anxiety disorder, dysthymic disorder
 - Metabolic: porphyria, methemoglobinemia due to methemoglobin reductase deficiency
 
-"Active peptic ulcer disease" appearing on this list deserves attention, since the predicted indication is itself an ulcer condition.
+"Active peptic ulcer disease" appearing on this list deserves attention, since it is closely related to the predicted indication, gastroduodenitis.
 
 **Drug interactions:** The query returned 100 interactions; the first 20 returned are summarized here.
 - **Major:** tramadol, amisulpride
@@ -140,7 +140,7 @@ Many of the moderate interactions involve central nervous system depressants.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.93%), but the only clinical trial concerns endoscopic visualization in GI bleeding, not ulcer healing. Metoclopramide has no acid-suppressive or cytoprotective action, and the knowledge graph lists active peptic ulcer disease as a contraindication. Evidence is limited to the L4 level.
+The TxGNN score is very high (0.9990), but the only clinical trial concerns endoscopic visualization in GI bleeding, not ulcer healing. Metoclopramide has no acid-suppressive or cytoprotective action, and the knowledge graph lists active peptic ulcer disease as a contraindication. Evidence is limited to the L4 level.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada, which are currently missing

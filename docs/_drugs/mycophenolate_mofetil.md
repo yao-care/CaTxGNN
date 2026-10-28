@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 635
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the data compiled for this report"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Mycophenolate mofetil (MMF) is an immunosuppressant marketed in Canada under man
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (no approved indication text was available for any Canadian licence) |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; note that the only Phase 2 HIV trial of MMF was withdrawn, so the supporting evidence is weaker than this label suggests) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 15 |
+| Canada Market Status | Marketed (valid licenses: 15 of 15) |
+| Number of DINs | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -141,7 +141,7 @@ The mechanism is plausible and there is early clinical work, but the only direct
 - A properly powered randomised trial of MMF in HIV, or a clear justification for such a study
 - A safety plan for infection risk and myelosuppression in HIV-infected patients
 
-**Other predictions:** Multiple sclerosis (score 99.54%, L2) has the most developed supporting evidence after HIV, including small Phase 2 MMF trials and a Cochrane review, but efficacy remains uncertain. Hemosiderosis has only indirect review-level support (L4). The other predictions (a rare neurodevelopmental disorder, Paget disease of bone, simian and feline immunodeficiency, Heiner syndrome, African iron overload, neonatal hemochromatosis) rest on model scores alone (L5) and should be held.
+**Other predictions:** Multiple sclerosis (score 0.9954, L2) has the most developed supporting evidence after HIV, including small Phase 2 MMF trials and a Cochrane review, but efficacy remains uncertain. Hemosiderosis has only indirect review-level support (L4). The other predictions (a rare neurodevelopmental disorder, Paget disease of bone, simian and feline immunodeficiency, Heiner syndrome, African iron overload, neonatal hemochromatosis) rest on model scores alone (L5) and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

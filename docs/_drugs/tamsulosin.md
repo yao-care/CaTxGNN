@@ -50,10 +50,10 @@ This is a model-only prediction with no biological rationale, and it should be t
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The new indication does not follow from this mechanism. Ambras syndrome is a rare genetic disorder caused by a chromosomal rearrangement affecting regulation of the *TRPS1* gene. Alpha-1 blockade has no known role in promoting hair growth. Hypertrichosis is also not a recognised effect of alpha-blockers.
 
-The very high score (0.99996) most likely reflects network proximity to hair-related phenotypes in the knowledge graph, not biological evidence. The other top-ranked predictions show the same pattern. They are dominated by hair and congenital conditions: hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia areata and alopecia. None has clinical or literature support for tamsulosin.
+The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top-ranked predictions show the same pattern. They are dominated by hair and congenital conditions: hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia areata and alopecia. None has clinical or literature support for tamsulosin.
 
 ---
 
@@ -126,7 +126,7 @@ Label-based warnings and contraindications were not available. Please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based model score. There are no clinical trials or publications, and no plausible mechanism links alpha-1 adrenoceptor blockade to hypertrichosis or the other predicted conditions. The other nine top predictions are in the same position.
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, and no plausible mechanism links alpha-1 adrenoceptor blockade to hypertrichosis or the other predicted conditions. The other nine top predictions are in the same position.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess any mechanistic link

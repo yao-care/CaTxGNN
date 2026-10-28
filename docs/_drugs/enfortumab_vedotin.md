@@ -4,17 +4,17 @@ title: Enfortumab Vedotin
 parent: Model Prediction Only (L5)
 nav_order: 329
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
+description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enfortumab Vedotin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Enfortumab Vedotin: From Its Approved Use to Leprosy (Top TxGNN Prediction)
+## Enfortumab Vedotin: Leprosy (rank 1); HER2 positive breast carcinoma (rank 10) is the only prediction with trial evidence (leprosy)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Enfortumab vedotin is a Nectin-4-directed antibody-drug conjugate (ADC) carrying an MMAE microtubule-disrupting payload. It is marketed in Canada as PADCEV, but the data compiled for this report do not list an approved indication text.
 The TxGNN model's top prediction is **leprosy**, but there are **0 clinical trials** and **0 publications** for it, and no plausible mechanistic link exists.
-The only prediction with any clinical-trial support is **HER2 positive breast carcinoma** (rank 10), with **1 Phase 2 trial** and **5 publications**, mostly reviews.
 
 ---
 
@@ -48,12 +47,12 @@ The only prediction with any clinical-trial support is **HER2 positive breast ca
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
-| Predicted New Indication | Leprosy (rank 1); HER2 positive breast carcinoma (rank 10) is the only prediction with trial evidence |
-| TxGNN Prediction Score | 99.53% (leprosy); 98.99% (HER2 positive breast carcinoma) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Leprosy (rank 1); HER2 positive breast carcinoma (rank 10) is the only prediction with trial evidence (leprosy) |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 (leprosy); L3 (HER2 positive breast carcinoma) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,17 +61,16 @@ The only prediction with any clinical-trial support is **HER2 positive breast ca
 
 Currently, detailed mechanism of action data is not available in the compiled data. Enfortumab vedotin is known to be a Nectin-4-directed ADC: the antibody delivers the MMAE cytotoxic payload to Nectin-4-expressing cells, where it disrupts microtubules and kills them.
 
-**Leprosy (rank 1):** There is no identifiable mechanistic link. Leprosy is a *Mycobacterium leprae* infection, and a cytotoxic ADC has no known role in treating it. The high score appears to be a knowledge-graph artifact. The same conclusion applies to the other top-ranked predictions with no evidence: multiple endocrine neoplasia, cerebral infarction, HIV infection, homozygous familial hypercholesterolemia, and the two veterinary diseases (infectious bovine rhinotracheitis and malignant catarrh).
+**Leprosy (rank 1):** There is no identifiable mechanistic link. Leprosy is a *Mycobacterium leprae* infection, and a cytotoxic ADC has no known role in treating it. The high score appears to be a TxGNN model (deep learning) artifact. The same conclusion applies to the other top-ranked predictions with no evidence: multiple endocrine neoplasia, cerebral infarction, HIV infection, homozygous familial hypercholesterolemia, and the two veterinary diseases (infectious bovine rhinotracheitis and malignant catarrh).
 
 **Cytomegalovirus infection and candidiasis (ranks 3-4):** The only publications are an adverse-event case report (severe ulcerative esophagitis after enfortumab vedotin plus pembrolizumab) and a pharmacovigilance study of ADC risk signals. These are safety observations, not efficacy evidence, and the drug has no known antiviral or antifungal activity.
 
-**HER2 positive breast carcinoma (rank 10):** This is the only biologically plausible prediction, though indirect. Nectin-4 is expressed in a substantial fraction of breast cancers, particularly triple-negative and some HER2-positive subtypes, so an MMAE-based Nectin-4 ADC could have activity. The evidence does not yet show efficacy in HER2-positive disease specifically.
 
 ---
 
 ## Clinical Trial Evidence
 
-No clinical trials are registered for the top-ranked prediction, leprosy. The only relevant trial was found for HER2 positive breast carcinoma (rank 10):
+No clinical trials are registered for the top-ranked prediction, leprosy.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -84,7 +82,6 @@ No clinical trials are registered for the top-ranked prediction, leprosy. The on
 
 No publications were found for leprosy. For the other predictions, the relevant items are below.
 
-**HER2 positive breast carcinoma (rank 10):**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -138,13 +135,12 @@ Please refer to the package insert for warnings and contraindications, which wer
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predictions, including leprosy, have no clinical or literature support and no plausible mechanism. They appear to be knowledge-graph artifacts. HER2 positive breast carcinoma is biologically plausible, but the evidence is one non-randomized Phase 2 multicohort trial, not specific to HER2-positive disease, plus reviews, so efficacy is unconfirmed.
+The top-ranked predictions, including leprosy, have no clinical or literature support and no plausible mechanism. They appear to be TxGNN model (deep learning) artifacts.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada, which are currently missing and block safety screening
 - Approved indication text and dosage form for the two PADCEV DINs
 - Mechanism of action data from DrugBank
-- For HER2 positive breast carcinoma: confirmation of whether EV-202 includes a breast cancer cohort and its HER2 status, along with Nectin-4 expression data in HER2-positive tumours
 - For any other prediction: target expression data and a plausible mechanistic rationale before further evaluation
 ## Disclaimer
 

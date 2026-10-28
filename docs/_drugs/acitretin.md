@@ -50,10 +50,10 @@ with **1 clinical trial** and **18 publications** currently touching on this dir
 |------|------|
 | Original Indication | Not available in the compiled data (Health Canada licence records contain no indication text) |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

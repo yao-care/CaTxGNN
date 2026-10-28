@@ -6,9 +6,9 @@ nav_order: 786
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
+description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quetiapine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Quetiapine: From Schizophrenia and Bipolar Disorder to Retinal Dystrophy (Top Prediction) — and Trichotillomania (Best-Supported Prediction)
+## Quetiapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ The best-supported prediction among the top 10 is **trichotillomania**, with **0
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia; bipolar disorder (including manic bipolar affective disorder and major affective disorder). Approved indication text was not available in the Canadian licence records, so this comes from the knowledge-graph indication data. |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1); trichotillomania (rank 8) is discussed below as the only prediction with supporting literature |
-| TxGNN Prediction Score | 99.57% (rank 1); 99.38% (trichotillomania) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 for the rank 1 prediction; L4 for trichotillomania |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold (retinal dystrophy); Hold, with trichotillomania as a research question |
 

@@ -6,9 +6,9 @@ nav_order: 793
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ramucirumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Non-small cell lung carcinoma, gastric adenocarcinoma…"
 monitor_inn: "Ramucirumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+description: "Ramucirumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ramucirumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ramucirumab: From Non-Small Cell Lung Cancer, Gastric Adenocarcinoma and Hepatocellular Carcinoma to Uterine Ligament Adenocarcinoma
+## Ramucirumab: Uterine ligament adenocarcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,21 @@ The TxGNN model predicts it may be effective for **uterine ligament adenocarcino
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma, gastric adenocarcinoma, hepatocellular carcinoma (the Canadian licence record contains no indication text, so these come from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Uterine ligament adenocarcinoma |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Ramucirumab is generally described as a VEGFR2 antagonist, a class of anti-angiogenic drugs. Its efficacy has been established in gastric, lung and liver cancers, and mechanistically it may be applicable to other adenocarcinomas that depend on new blood vessel growth.
 
-The high score most likely reflects the new indication's closeness to already-approved adenocarcinoma indications (gastric, lung) in the knowledge graph, rather than any disease-specific evidence. No drug-specific data exist for this rare tumour, so the mechanistic link remains a hypothesis.
+The high score most likely reflects similarities the TxGNN model (deep learning) learned between the new indication and already-approved adenocarcinoma indications (gastric, lung), not biological evidence or any disease-specific data. No drug-specific data exist for this rare tumor, so the mechanistic link remains a hypothesis.
 
-Other top-ranked predictions are mostly gynaecological adenocarcinomas, all scored about 99.94–99.95%:
+Other top-ranked predictions are mostly gynaecological adenocarcinomas, all scored about 99.94–0.9995:
 - Endocervical carcinoma
 - Adenoid cystic carcinoma of the cervix uteri
 - Uterine ligament serous, endometrioid, clear cell and mucinous adenocarcinomas
@@ -113,7 +113,7 @@ For warnings and contraindications, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score (99.95%), but there are no clinical trials or publications for uterine ligament adenocarcinoma, so evidence is at the lowest level (L5). The score likely reflects similarity to approved adenocarcinoma indications rather than disease-specific data.
+The prediction has a very high model score (0.9995), but there are no clinical trials or publications for uterine ligament adenocarcinoma, so evidence is at the lowest level (L5). The score likely reflects similarity to approved adenocarcinoma indications rather than disease-specific data.
 
 **To proceed, the following is needed:**
 - Ramucirumab-specific preclinical or clinical data for this tumour, including a literature and trial registry search

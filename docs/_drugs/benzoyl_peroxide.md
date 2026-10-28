@@ -47,9 +47,9 @@ The TxGNN model predicts it may be effective for **vulvar inverted follicular ke
 |------|------|
 | Original Indication | Acne (the data compiled for this report contain no approved-indication text for the Canadian licences; acne is taken from the original indication list) |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -65,9 +65,9 @@ However, there is no vulvar-specific evidence. Benzoyl peroxide is also a known 
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | 2-Hydroxyethyl methacrylate sensitization | 99.43% | L5 | Benzoyl peroxide is itself a contact sensitizer and an acrylate polymerization initiator, so it could worsen rather than treat this condition. |
-| 3 | Acrodermatitis chronica atrophicans | 99.17% | L5 | A late Borrelia skin manifestation that needs systemic antibiotics; the rationale for a topical agent is weak. |
-| 4 | Acne keloid | 99.06% | L4 | Overlaps with acne pathology; only indirect literature is available. Possible adjunctive use at most. |
+| 2 | 2-Hydroxyethyl methacrylate sensitization | 0.9943 | L5 | Benzoyl peroxide is itself a contact sensitizer and an acrylate polymerization initiator, so it could worsen rather than treat this condition. |
+| 3 | Acrodermatitis chronica atrophicans | 0.9917 | L5 | A late Borrelia skin manifestation that needs systemic antibiotics; the rationale for a topical agent is weak. |
+| 4 | Acne keloid | 0.9906 | L5 | Overlaps with acne pathology; only indirect literature is available. Possible adjunctive use at most. |
 
 ## Clinical Trial Evidence
 
@@ -114,7 +114,7 @@ Anogenital warts and a history of dermatitis appear in this list and are particu
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.92%), but it is supported by no trials or literature (Evidence Level L5). The mechanism of action and safety labelling are also missing, and there is a real risk of irritation on vulvar skin.
+The prediction score is very high (0.9992), but it is supported by no trials or literature (Evidence Level L5). The mechanism of action and safety labelling are also missing, and there is a real risk of irritation on vulvar skin.
 
 **To proceed, the following is needed:**
 - Safety information from the Health Canada package inserts (warnings, contraindications), which is currently a blocking gap

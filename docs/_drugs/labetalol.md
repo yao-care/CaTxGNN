@@ -4,17 +4,17 @@ title: Labetalol
 parent: Model Prediction Only (L5)
 nav_order: 515
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension / hypertensive disorder"
 monitor_inn: "Labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Labetalol: From Hypertension to Malignant Hypertensive Renal Disease
+## Labetalol: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **no clinical trials** and **no publications specific to
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension / hypertensive disorder (from the knowledge graph; no approved indication text available for Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.08% |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 11 |
+| Canada Market Status | Marketed (valid licenses: 11 of 11) |
+| Number of DINs | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,11 +64,10 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Malignant hypertensive renal disease is kidney damage caused by severely elevated blood pressure. Lowering blood pressure is therefore a plausible way to help. Labetalol is already used for severe hypertension and hypertensive emergencies.
 
-This is essentially an extension of the original indication rather than a true repurposing. The high score (99.08%) is a computational prediction only, and no study specific to the renal condition was found.
+This is essentially an extension of the original indication rather than a true repurposing. The high score (0.9908) is a computational prediction only, and no study specific to the renal condition was found.
 
 Other predictions from the model were also reviewed:
-- **Malignant renovascular hypertension** (score 99.08%, L5): this overlaps heavily with the approved hypertension use. The only linked paper is a 1981 case report on drug-induced vasculitis that mentions labetalol in passing. It does not show that labetalol is effective for this condition.
-- **Pulmonary hypertension (two predictions, score 99.08%)**: these are probably driven by the shared word "hypertension". Labetalol is not a pulmonary vasodilator, and non-selective beta-blockade may cause bronchoconstriction in patients with lung disease. The retrieved literature concerns systemic hypertension (such as preeclampsia) or unrelated topics, and gives no direct support. These predictions are not recommended for advancement.
+- **Pulmonary hypertension (two predictions, score 0.9908)**: these are probably driven by the shared word "hypertension". Labetalol is not a pulmonary vasodilator, and non-selective beta-blockade may cause bronchoconstriction in patients with lung disease. The retrieved literature concerns systemic hypertension (such as preeclampsia) or unrelated topics, and gives no direct support. These predictions are not recommended for advancement.
 
 ---
 
@@ -82,7 +81,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature is available for the top predicted indication (malignant hypertensive renal disease).
 
-For the second prediction, malignant renovascular hypertension, one paper was found:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

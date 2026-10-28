@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, pibrentasvir is an HCV NS5A inhibitor used in combination with the protease inhibitor glecaprevir, and its efficacy in HCV has been well established.
 
-The mechanistic link to hepatitis B is weak. NS5A is a protein specific to HCV (a Flaviviridae virus) and has no homolog in HBV. HBV is a DNA virus that replicates through reverse transcription, so it is structurally and functionally unrelated to HCV. The high TxGNN score most likely reflects the shared "viral hepatitis" context in the knowledge graph rather than a true drug-target relationship.
+The mechanistic link to hepatitis B is weak. NS5A is a protein specific to HCV (a Flaviviridae virus) and has no homolog in HBV. HBV is a DNA virus that replicates through reverse transcription, so it is structurally and functionally unrelated to HCV. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the shared "viral hepatitis" context, not biological evidence.
 
 The other top-ranked predictions show the same pattern. These include HIV infection, hepatitis E, hepatitis A, tick-borne flaviviruses (Omsk hemorrhagic fever, Kyasanur forest disease), animal retroviruses, and a rare neurodevelopmental disorder. None has a supported mechanistic basis. The HIV and hepatitis A trials found are HCV studies (in HIV/HCV-coinfected patients or with matching artifacts), not studies of those diseases as treatment targets.
 
@@ -116,7 +116,7 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (evidence level L5). It has no registered trials or HBV-specific literature, and pibrentasvir's NS5A target has no counterpart in HBV. The score most likely reflects knowledge-graph association between viral hepatitis diseases.
+The prediction rests on model output alone (evidence level L5). It has no registered trials or HBV-specific literature, and pibrentasvir's NS5A target has no counterpart in HBV. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related viral hepatitis diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) for pibrentasvir

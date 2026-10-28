@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **lingual-facial-buccal dyskine
 |------|------|
 | Original Indication | Supraventricular tachycardia (atrial fibrillation and atrial flutter), based on pharmacology reference data; the Canadian licence record has no indication text |
 | Predicted New Indication | Lingual-facial-buccal dyskinesia |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,17 +63,17 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link to the predicted indication is weak. Beta-blockers, mainly the non-selective and brain-penetrant propranolol, have been used for some hyperkinetic movement disorders such as tremor and akathisia. There is no established link between beta-1-selective blockade and orofacial dyskinesia. Landiolol is hydrophilic and crosses the blood-brain barrier poorly, so central effects are unlikely.
 
-The TxGNN score is high (99.11%), but it comes from a network-based prediction. It does not replace mechanistic or clinical evidence, and the mechanism cannot be verified with the current data.
+The TxGNN score is high (0.9911), but it comes from a network-based prediction. It does not replace mechanistic or clinical evidence, and the mechanism cannot be verified with the current data.
 
 **Other predictions in the same list** (all L5, all Hold, no trials or literature):
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
-| Chronic tic disorder | 99.08% | Usually managed with alpha-2 agonists and antipsychotics; an IV ultra-short-acting drug is a poor fit for a chronic condition |
-| Psychogenic movement disorders | 99.05% | No clear pharmacological rationale; treated mainly with rehabilitation and psychotherapy |
-| Extrapyramidal and movement disease | 99.04% | Category too broad to support a mechanistic claim |
-| Benign shuddering attacks | 99.04% | Rare, self-limiting condition that usually needs no drug treatment |
-| Primary orthostatic tremor | 99.00% | Beta-blockers are generally ineffective; clonazepam, gabapentin, or primidone are typically used |
+| Chronic tic disorder | 0.9908 | Usually managed with alpha-2 agonists and antipsychotics; an IV ultra-short-acting drug is a poor fit for a chronic condition |
+| Psychogenic movement disorders | 0.9905 | No clear pharmacological rationale; treated mainly with rehabilitation and psychotherapy |
+| Extrapyramidal and movement disease | 0.9904 | Category too broad to support a mechanistic claim |
+| Benign shuddering attacks | 0.9904 | Rare, self-limiting condition that usually needs no drug treatment |
+| Primary orthostatic tremor | 0.9900 | Beta-blockers are generally ineffective; clonazepam, gabapentin, or primidone are typically used |
 
 ---
 

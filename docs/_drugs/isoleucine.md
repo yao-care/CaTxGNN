@@ -48,9 +48,9 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Not available in the data compiled for this report (no approved indication text is recorded for the Canadian licences) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -58,7 +58,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 Currently, detailed mechanism of action data is not available. Based on known information, isoleucine is a branched-chain amino acid that takes part in protein synthesis, energy metabolism and glucose uptake. It is supplied in Canada as a component of multi-amino-acid parenteral nutrition products, where its role is nutritional support rather than treating a specific disease.
 
-No mechanistic link to gastroparesis can be established from the data compiled for this report. The high TxGNN score (0.993) comes from knowledge-graph embeddings only. Any connection through nutritional status, glycaemic control or enteric smooth-muscle metabolism is speculative. Amino-acid-rich meals can also influence gastric emptying, so the effect in gastroparesis could be neutral or even harmful.
+No mechanistic link to gastroparesis can be established from the data compiled for this report. The high TxGNN score (0.9932) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any connection through nutritional status, glycemic control or enteric smooth-muscle metabolism is speculative. Amino-acid-rich meals can also influence gastric emptying, so the effect in gastroparesis could be neutral or even harmful.
 
 ## Clinical Trial Evidence
 

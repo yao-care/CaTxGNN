@@ -6,9 +6,9 @@ nav_order: 550
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Linaclotide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Irritable bowel syndrome"
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
+description: "Linaclotide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Linaclotide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Linaclotide: From Irritable Bowel Syndrome to Cauda Equina Syndrome
+## Linaclotide: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,12 +44,12 @@ Linaclotide is a guanylate cyclase-C agonist originally used for irritable bowel
 
 | Item | Content |
 |------|------|
-| Original Indication | Irritable bowel syndrome (from the knowledge graph; the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ The link to the new indication is weak. Cauda equina syndrome is a neurological 
 
 Detailed mechanism-of-action data was not available in the data compiled for this report, so the reasoning above relies on general pharmacological knowledge.
 
-The knowledge graph also lists Clostridium difficile colitis and neurocirculatory asthenia as original indication links. These are model-derived associations, not approved uses.
+The TxGNN model (deep learning) also lists Clostridium difficile colitis and neurocirculatory asthenia as associations. These come from the model and may reflect similarities the model learned between related diseases, not biological evidence. They are not approved uses.
 
 ## Clinical Trial Evidence
 

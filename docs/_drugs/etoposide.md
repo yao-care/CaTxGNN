@@ -6,9 +6,9 @@ nav_order: 367
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Etoposide: predicted new indication Ewing sarcoma (evidence level L5). Approved use: Small cell lung carcinoma, testicular cancer / germ cell tumour"
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
+description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etoposide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Etoposide: From Small Cell Lung Carcinoma to Ewing Sarcoma
+## Etoposide: Well-differentiated fetal adenocarcinoma of the lung
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,28 +47,28 @@ The TxGNN model predicts it may be effective for **Ewing sarcoma** (the top-rank
 
 | Item | Content |
 |------|------|
-| Original Indication | Small cell lung carcinoma, testicular cancer / germ cell tumour (from the knowledge graph; no approved indication text is available for the Canadian licences) |
-| Predicted New Indication | Ewing sarcoma (best-supported candidate; the model's rank-1 prediction, well-differentiated fetal adenocarcinoma of the lung, scored 99.94%) |
-| TxGNN Prediction Score | 99.85% (Ewing sarcoma) |
-| Evidence Level | L1 (Ewing sarcoma) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Well-differentiated fetal adenocarcinoma of the lung |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 (Ewing sarcoma) |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Overview of all predicted indications**
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Well-differentiated fetal adenocarcinoma of the lung | 99.94% | L4 | Hold |
-| 2 | Primary pulmonary lymphoma | 99.94% | L4 | Hold |
-| 3 | Pulmonary blastoma | 99.94% | L3 | Research question |
-| 4 | **Ewing sarcoma** | 99.85% | L1 | Proceed with Guardrails |
-| 5 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.80% | L4 | Hold |
-| 6 | **Rhabdomyosarcoma** | 99.79% | L1 | Proceed with Guardrails |
-| 7 | Embryonal extrahepatic bile duct rhabdomyosarcoma | 99.76% | L5 | Hold |
-| 8 | Parameningeal embryonal rhabdomyosarcoma | 99.76% | L3 | Research question |
-| 9 | Extrahepatic bile duct rhabdomyosarcoma | 99.75% | L5 | Hold |
-| 10 | Prostate embryonal rhabdomyosarcoma | 99.74% | L4 | Hold |
+| 1 | Well-differentiated fetal adenocarcinoma of the lung | 0.9994 | L5 | Hold |
+| 2 | Primary pulmonary lymphoma | 0.9994 | L5 | Hold |
+| 3 | Pulmonary blastoma | 0.9994 | L5 | Research question |
+| 4 | **Ewing sarcoma** | 0.9985 | L1 | Proceed with Guardrails |
+| 5 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | 0.9980 | L5 | Hold |
+| 6 | **Rhabdomyosarcoma** | 0.9979 | L1 | Proceed with Guardrails |
+| 7 | Embryonal extrahepatic bile duct rhabdomyosarcoma | 0.9976 | L5 | Hold |
+| 8 | Parameningeal embryonal rhabdomyosarcoma | 0.9976 | L5 | Research question |
+| 9 | Extrahepatic bile duct rhabdomyosarcoma | 0.9975 | L5 | Hold |
+| 10 | Prostate embryonal rhabdomyosarcoma | 0.9974 | L5 | Hold |
 
 The rest of this report focuses on Ewing sarcoma, with supporting notes on rhabdomyosarcoma.
 

@@ -4,17 +4,17 @@ title: Losartan
 parent: Model Prediction Only (L5)
 nav_order: 561
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, diabetic nephropathy"
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
+description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Losartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Losartan: From Hypertension to Malignant Hypertensive Renal Disease
+## Losartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ but there are currently **0 clinical trials** and only **1 publication** (a 2019
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, diabetic nephropathy (the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -99,7 +99,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.73%), and the mechanism is biologically plausible. However, the only supporting evidence is one animal study, with no clinical trials or human data. Losartan is already widely marketed and its general safety profile is well known, but this does not substitute for evidence in this indication.
+The TxGNN score is very high (0.9973), and the mechanism is biologically plausible. However, the only supporting evidence is one animal study, with no clinical trials or human data. Losartan is already widely marketed and its general safety profile is well known, but this does not substitute for evidence in this indication.
 
 **To proceed, the following is needed:**
 - Human clinical or observational data on ARBs in malignant hypertensive renal disease
@@ -113,13 +113,12 @@ The TxGNN score is very high (99.73%), and the mechanism is biologically plausib
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation | Note |
 |---|---|---|---|---|---|
-| 2 | Malignant renovascular hypertension | 99.73% | L4 | Hold | One case report (Takayasu's arteritis, enalapril plus losartan) and a rat methods chapter; no controlled human data |
-| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.71% | L4 | Hold | Indirect and mixed evidence; losartan abolished intermittent-hypoxia oxidative stress in a small human study but did not affect altitude diuresis or mountain sickness; many retrieved papers are off-topic |
-| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.71% | L5 | Hold | Prediction only |
-| 5 | Braddock syndrome | 99.61% | L5 | Hold | Prediction only |
-| 6 | Prinzmetal angina | 99.45% | L5 | Hold | Prediction only; calcium channel blockers and nitrates are the mainstay |
-| 7 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 99.39% | L5 | Hold | Prediction only |
-| 8 | Brain small vessel disease 1 with or without ocular anomalies | 99.37% | L4 | Research Question | Indirect evidence (TREAT-SVDs trial of blood-pressure-lowering agents, ARB reviews in Marfan syndrome, mouse studies); no trial matched to this disease |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9971 | L5 | Hold | Indirect and mixed evidence; losartan abolished intermittent-hypoxia oxidative stress in a small human study but did not affect altitude diuresis or mountain sickness; many retrieved papers are off-topic |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9971 | L5 | Hold | Prediction only |
+| 5 | Braddock syndrome | 0.9961 | L5 | Hold | Prediction only |
+| 6 | Prinzmetal angina | 0.9945 | L5 | Hold | Prediction only; calcium channel blockers and nitrates are the mainstay |
+| 7 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9939 | L5 | Hold | Prediction only |
+| 8 | Brain small vessel disease 1 with or without ocular anomalies | 0.9937 | L5 | Research Question | Indirect evidence (TREAT-SVDs trial of blood-pressure-lowering agents, ARB reviews in Marfan syndrome, mouse studies); no trial matched to this disease |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

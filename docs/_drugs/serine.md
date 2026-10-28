@@ -4,17 +4,17 @@ title: Serine
 parent: Model Prediction Only (L5)
 nav_order: 845
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
+description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Serine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Serine: From Open-Angle Glaucoma and Pulmonary Tuberculosis to Familial Visceral Myopathy
+## Serine: Familial visceral myopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Serine is a proteinogenic amino acid. In the knowledge graph it is linked to open-angle glaucoma and pulmonary tuberculosis, and in Canada it is marketed as a component of parenteral nutrition products.
+Serine is a proteinogenic amino acid, and in Canada it is marketed as a component of parenteral nutrition products.
 The TxGNN model predicts it may be effective for **familial visceral myopathy**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
 This is a model prediction only, and the data compiled for this report do not support a mechanistic link.
 
@@ -48,23 +48,23 @@ This is a model prediction only, and the data compiled for this report do not su
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; pulmonary tuberculosis (from the knowledge graph; no approved indication text is available in the Canadian licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Familial visceral myopathy |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| Canada Market Status | Marketed (valid licenses: 20 of 20) |
+| Number of DINs | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, serine is a proteinogenic amino acid that is supplied as a nutritional component in parenteral nutrition amino acid solutions. Its link to the original indications (open-angle glaucoma and pulmonary tuberculosis) comes from knowledge-graph edges rather than from label text, and the source has not been verified.
+Currently, detailed mechanism of action data is not available. Based on known information, serine is a proteinogenic amino acid that is supplied as a nutritional component in parenteral nutrition amino acid solutions. Its link to the original indications (open-angle glaucoma and pulmonary tuberculosis) does not come from label text, and the source has not been verified.
 
-Familial visceral myopathy is a rare genetic disorder of gut smooth muscle, typically associated with defects in genes such as ACTG2. The data compiled for this report show no mechanistic connection between serine and these defects. The very high TxGNN score (99.99%) most likely reflects the drug's position in the knowledge graph rather than biological evidence, and the prediction is probably a knowledge-graph artifact.
+Familial visceral myopathy is a rare genetic disorder of gut smooth muscle, typically associated with defects in genes such as ACTG2. The data compiled for this report show no mechanistic connection between serine and these defects. The very high TxGNN score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and the prediction is probably a TxGNN model (deep learning) artifact.
 
-Several other top predictions show the same pattern. Myopathic and unclassified intestinal pseudo-obstruction have identical scores, as do traumatic glaucoma and aqueous misdirection. This suggests shared graph neighbourhoods rather than independent evidence.
+Several other top predictions show the same pattern. Myopathic and unclassified intestinal pseudo-obstruction have identical scores (0.9997). This suggests similarities the TxGNN model (deep learning) learned between related diseases rather than independent evidence.
 
 ---
 
@@ -121,7 +121,7 @@ The prediction rests on a model score alone. There are no clinical trials or rel
 - Mechanism of action data, and evidence of a biological link between serine and visceral smooth muscle disease
 - Preclinical studies (for example, disease models of ACTG2-related myopathy) showing any effect of serine
 - Health Canada package insert warnings and contraindications, so that safety screening can begin
-- Verification of the original indications (open-angle glaucoma, pulmonary tuberculosis), which currently come from the knowledge graph only
+- Verification of the original indications (open-angle glaucoma, pulmonary tuberculosis), whose source has not been verified
 - Dosage form and approved indication details for the Canadian licences
 ## Disclaimer
 

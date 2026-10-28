@@ -48,9 +48,9 @@ Support is limited: **0 registered clinical trials** and a small set of observat
 |------|------|
 | Original Indication | Epilepsy (focal-onset seizures), as described in the literature. The Canadian licence records compiled for this report do not list indication text. |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 (observational studies only; no registered trials) |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 (observational studies only; no registered trials) |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -113,7 +113,7 @@ The high TxGNN score is backed only by one small retrospective study, one open-l
 - Results of the open-label bipolar depression pilot, and any replication.
 - Detailed mechanism-of-action data for lacosamide.
 - Health Canada package insert warnings and contraindications.
-- A haematological and cardiac (ECG/conduction) monitoring plan, given the neutropenia case report and the cardiac signals from the knowledge graph.
+- A haematological and cardiac (ECG/conduction) monitoring plan, given the neutropenia case report and the cardiac signals from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence.
 - For prioritisation: in the same prediction list, **migraine disorder** has stronger support than this indication. It has four registered trials (three Phase 3 and one Phase 2) and a published double-blind RCT against propranolol (PMID 41863672). It may be a more evidence-ready candidate for this drug.
 ## Disclaimer
 

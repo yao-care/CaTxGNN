@@ -48,10 +48,10 @@ Cidofovir is a nucleotide-analog antiviral that inhibits viral DNA polymerase an
 |------|------|
 | Original Indication | Not specified in the Canadian licence data compiled for this report |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,12 +60,12 @@ Cidofovir is a nucleotide-analog antiviral that inhibits viral DNA polymerase an
 
 Detailed mechanism-of-action data for cidofovir is not available in the data compiled for this report. Based on general knowledge, cidofovir is a nucleotide analog that inhibits DNA polymerase in cytomegalovirus (CMV) and other DNA viruses.
 
-A possible indirect link is AIDS-related or CMV-associated cholangiopathy, which can present as secondary sclerosing cholangitis. This is speculative and is not supported by the supplied data. Primary sclerosing cholangitis is largely immune-mediated, so an antiviral mechanism is not an obvious fit. The high TxGNN score reflects patterns in a knowledge graph and should not be read as evidence of efficacy.
+A possible indirect link is AIDS-related or CMV-associated cholangiopathy, which can present as secondary sclerosing cholangitis. This is speculative and is not supported by the supplied data. Primary sclerosing cholangitis is largely immune-mediated, so an antiviral mechanism is not an obvious fit. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
 Other predictions in the candidate list have even weaker support:
 
-- **Rheumatoid arthritis (score 99.82%):** None of the 5 retrieved publications tests cidofovir in this disease. They cover CMV in transplant recipients, drug-related retinal toxicity and wart treatment. The association appears to come from leflunomide, an RA drug used as an anti-CMV agent, which is the reverse direction of repurposing.
-- **Colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.62%)** and **brachydactyly-syndactyly syndrome (99.49%):** These are rare developmental genetic disorders with no plausible link to an antiviral mechanism. The scores likely reflect network artifacts.
+- **Rheumatoid arthritis (score 0.9982):** None of the 5 retrieved publications tests cidofovir in this disease. They cover CMV in transplant recipients, drug-related retinal toxicity and wart treatment. The association appears to come from leflunomide, an RA drug used as an anti-CMV agent, which is the reverse direction of repurposing.
+- **Colobomatous microphthalmia-rhizomelic dysplasia syndrome (0.9962)** and **brachydactyly-syndactyly syndrome (0.9949):** These are rare developmental genetic disorders with no plausible link to an antiviral mechanism. The scores likely reflect network artifacts.
 
 ---
 

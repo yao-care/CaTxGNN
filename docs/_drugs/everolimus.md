@@ -4,17 +4,17 @@ title: Everolimus
 parent: Moderate Evidence (L3-L4)
 nav_order: 369
 evidence_level: L3
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Everolimus: predicted new indication Liposarcoma (evidence level L3). Approved use: Renal cell carcinoma (clear cell and non-papillary), breast carcinoma…"
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
+description: "Everolimus: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Everolimus
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Everolimus: From Renal Cell Carcinoma to Liposarcoma
+## Everolimus: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ with **1 clinical trial** (a Phase 2 combination study) and **4 publications** c
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma (clear cell and non-papillary), breast carcinoma, kidney angiomyolipoma, tuberous sclerosis (the Canadian licence records contain no indication text, so these come from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold (research question stage) |
 
@@ -108,7 +108,6 @@ Other licences include generics from Sandoz, PMS, NAT, and Reddy.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted therapy (mTOR inhibitor); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph links everolimus to thrombocytopenia, neutropenia, leukopenia, and anaemia. |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count, liver and renal function, blood glucose, and lipids |
 | Handling Protection | Please refer to the package insert warnings and precautions |
@@ -141,7 +140,6 @@ Please refer to the package insert for label warnings and contraindications, whi
 - Health Canada package insert warnings and contraindications, which are needed before safety screening.
 - A safety monitoring plan covering myelosuppression, metabolic effects, lung toxicity, and the major drug interactions.
 
-**Alternative candidate for context:** Unclassified renal cell carcinoma (rank 9) has the strongest evidence among the top 10 predictions. It has several Phase 2 trials, including the randomized ASPEN and ESPN trials, and is rated L2 with a "Proceed with Guardrails" recommendation. It is largely an extension within an already approved disease class, and ASPEN showed no progression-free survival advantage over sunitinib.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

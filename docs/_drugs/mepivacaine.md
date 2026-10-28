@@ -48,10 +48,10 @@ but **no clinical trials and no relevant publications** currently support this d
 |------|------|
 | Original Indication | Not stated in the licence data compiled for this report (the product names suggest local and dental anaesthesia) |
 | Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ A theoretical link to gastroduodenitis, such as reduced visceral pain signalling
 
 The high TxGNN score is a computational prediction only. No clinical or literature evidence supports it.
 
-A second predicted indication, **peptic ulcer disease** (score 99.41%), has the same limitations. Its only retrieved publication is an animal safety pharmacology study of lofexidine, a different drug, and it was treated as an irrelevant retrieval.
+A second predicted indication, **peptic ulcer disease** (score 0.9941), has the same limitations. Its only retrieved publication is an animal safety pharmacology study of lofexidine, a different drug, and it was treated as an irrelevant retrieval.
 
 ## Clinical Trial Evidence
 

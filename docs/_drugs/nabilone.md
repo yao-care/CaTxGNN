@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nabilone
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 637
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Nabilone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the Canadian licence data compiled for this report (…"
 monitor_inn: "Nabilone"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "migraine with or without aura, susceptibility to", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
 ---
 
 # Nabilone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Nabilone is a synthetic cannabinoid that is marketed in Canada. The data compile
 |------|------|
 | Original Indication | Not available in the Canadian licence data compiled for this report (nabilone is known to be approved for chemotherapy-induced vomiting refractory to other antiemetics, per a retrieved publication) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 (for migraine disorder; the related headache disorder entry reaches L3) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -128,9 +128,9 @@ The psychiatric and cardiovascular signals matter for migraine patients. Many ha
 **Decision: Hold**
 
 **Rationale:**
-- The migraine prediction has a high model score (99.89%) and a plausible mechanism, but no registered trials and only class-level literature. The only direct nabilone evidence is a small preliminary trial in medication overuse headache, a related but different condition.
+- The migraine prediction has a high model score (0.9989) and a plausible mechanism, but no registered trials and only class-level literature. The only direct nabilone evidence is a small preliminary trial in medication overuse headache, a related but different condition.
 - The knowledge-graph contraindication signals (psychiatric, cardiovascular) and the missing label safety data add to the case for waiting.
-- Other predictions are weaker. Several (atrophoderma vermiculata, nephrogenic syndrome of inappropriate antidiuresis, ulerythema ophryogenesis) have no plausible mechanism and are likely knowledge-graph artifacts.
+- Other predictions are weaker. Several (atrophoderma vermiculata, nephrogenic syndrome of inappropriate antidiuresis, ulerythema ophryogenesis) have no plausible mechanism and are likely TxGNN model (deep learning) artifacts.
 
 **To proceed, the following is needed:**
 - Confirm whether the 2026 systematic review includes nabilone-specific migraine data, and extract the effect sizes.

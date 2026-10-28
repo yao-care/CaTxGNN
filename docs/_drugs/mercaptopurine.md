@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 592
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Acute lymphoblastic leukemia (Health Canada indication text is not av…"
+evidence_level: L2
+indication_count: 8
+last_modified_at: 2026-10-28
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mercaptopurine: From Acute Lymphoblastic Leukemia to Myeloid Leukemia
+## Mercaptopurine: Myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **14 registered clinical trials** and **20 publications** currently linked 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukemia (Health Canada indication text is not available; taken from the original indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (see note below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold (research question) |
 
 *Evidence level note:* No completed Phase 3 trial tests mercaptopurine specifically in myeloid leukemia. The completed Phase 3 trials are regimen-level studies in acute promyelocytic leukemia (APL) and acute myeloid leukemia (AML), so the level is assigned conservatively as L2.
@@ -147,7 +147,7 @@ Official warnings and contraindications from the Canadian package insert were no
 **Decision: Hold (research question)**
 
 **Rationale:**
-- The TxGNN score is very high (99.94%) and mercaptopurine is already used in some AML and APL regimens. However, the supporting trials are regimen-level studies, and none isolates mercaptopurine's contribution in myeloid leukemia. The Phase 1 and 2 mercaptopurine-specific studies are very small.
+- The TxGNN score is very high (0.9994) and mercaptopurine is already used in some AML and APL regimens. However, the supporting trials are regimen-level studies, and none isolates mercaptopurine's contribution in myeloid leukemia. The Phase 1 and 2 mercaptopurine-specific studies are very small.
 - The package insert safety data are missing, and the high myelosuppression risk needs to be addressed before any clinical use.
 
 **To proceed, the following is needed:**
@@ -160,8 +160,8 @@ Official warnings and contraindications from the Canadian package insert were no
 
 ### Other Predicted Indications (Brief)
 
-- **Acute lymphoblastic leukemia and precursor lymphoblastic lymphoma/leukemia (scores 99.73% and 99.74%)**: These are mercaptopurine's established core use, not true repurposing. Both have L1 evidence and multiple Phase 3 protocols, and the suggested decision is *Proceed with Guardrails*: TPMT/NUDT15 testing (NUDT15 variants matter especially in East Asian populations), metabolite-guided dosing and interaction checks.
-- **Small cell lung carcinoma (99.79%)**: Only a 1985 Phase 2 study and preclinical work exist. Hold.
+- **Acute lymphoblastic leukemia and precursor lymphoblastic lymphoma/leukemia**: These are mercaptopurine's established core use, not true repurposing. Both have L1 evidence and multiple Phase 3 protocols, and the suggested decision is *Proceed with Guardrails*: TPMT/NUDT15 testing (NUDT15 variants matter especially in East Asian populations), metabolite-guided dosing and interaction checks.
+- **Small cell lung carcinoma (0.9979)**: Only a 1985 Phase 2 study and preclinical work exist. Hold.
 - **Hodgkin lymphoma and primary pulmonary lymphoma**: The evidence is indirect, and the retrieved trials are mostly in ALL and non-Hodgkin lymphoma. Hold.
 - **CLL/SLL subtypes, pulmonary blastoma and fetal adenocarcinoma of the lung**: These are model predictions only, with no trials or literature. Hold.
 ## Disclaimer

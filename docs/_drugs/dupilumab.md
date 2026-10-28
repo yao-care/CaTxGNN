@@ -4,17 +4,17 @@ title: Dupilumab
 parent: Moderate Evidence (L3-L4)
 nav_order: 309
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
+description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Dupilumab: From Atopic Eczema to Bronchitis
+## Dupilumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Note that the strongest-scoring evidence in the data compiled for this report po
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema / atopic dermatitis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -123,7 +123,6 @@ Other safety signals appear in the literature compiled for this report, such as 
 The prediction for bronchitis is supported by strong evidence in related diseases (asthma and type 2 COPD), but direct evidence for bronchitis is limited to case-level reports, and the only listed trial concerns chronic rhinosinusitis. The best use of this finding is as a research question to be refined.
 
 **Other predictions from this analysis:**
-- **Dermatitis (rank 2, L1):** Supported by multiple completed Phase 3 RCTs. However, atopic dermatitis is already the approved original indication, so this is not true repurposing. Value may lie in other dermatitis subtypes (e.g. hand/foot, lichen simplex chronicus, prurigo nodularis), which should be assessed separately.
 - **Exanthem (rank 4, L3):** Early support in cutaneous immune-related adverse events, but the literature also contains reports of dupilumab-induced rashes, so caution is warranted.
 - **Acne keloid (rank 3, L4):** Only one case-level publication; Hold.
 - **Ranks 5-10:** Little or no evidence and weak mechanistic rationale (e.g. dermatomyositis, diabetic retinopathy); these are likely network artifacts. Hold.

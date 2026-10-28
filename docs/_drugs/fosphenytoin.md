@@ -6,9 +6,9 @@ nav_order: 415
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
-description: "Fosphenytoin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Epilepsy, status epilepticus"
 monitor_inn: "Fosphenytoin"
 predicted_indications: ["conjunctivitis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "manic bipolar affective disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia"]
+description: "Fosphenytoin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fosphenytoin
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Fosphenytoin: From Epilepsy and Status Epilepticus to Conjunctivitis
+## Fosphenytoin: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fosphenytoin is an intravenous prodrug of phenytoin, originally used to treat epilepsy and status epilepticus.
-The TxGNN model predicts it may be effective for **conjunctivitis**, but this is a knowledge-graph prediction only, with **0 clinical trials** and **0 publications** supporting it.
+The TxGNN model predicts it may be effective for **conjunctivitis**, but this is a TxGNN model (deep learning) prediction only, with **0 clinical trials** and **0 publications** supporting it.
 Among the other predicted indications, only manic bipolar affective disorder has any published evidence (1 small publication).
 
 ---
@@ -48,12 +48,12 @@ Among the other predicted indications, only manic bipolar affective disorder has
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy, status epilepticus (the Canadian licence record has no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.36% |
+| TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,18 +62,18 @@ Among the other predicted indications, only manic bipolar affective disorder has
 
 Detailed mechanism of action data is not available in the data compiled for this report. Fosphenytoin is a prodrug of phenytoin, a voltage-gated sodium channel blocker, and its efficacy in seizure control is established.
 
-For conjunctivitis, there is no clear mechanistic link. Conjunctivitis is typically infectious or allergic/inflammatory, and sodium channel blockade has no established role in it. The high score (0.994) reflects a pattern in the knowledge graph rather than biological or clinical evidence. Phenytoin is also associated with hypersensitivity reactions, which could plausibly worsen ocular inflammatory conditions.
+For conjunctivitis, there is no clear mechanistic link. Conjunctivitis is typically infectious or allergic/inflammatory, and sodium channel blockade has no established role in it. The high score (0.9936) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Phenytoin is also associated with hypersensitivity reactions, which could plausibly worsen ocular inflammatory conditions.
 
 **Other predicted indications (for reference):**
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Nephrogenic syndrome of inappropriate antidiuresis | 99.28% | L5 | No action on the V2 receptor pathway; phenytoin can cause SIADH-like hyponatremia, which argues against benefit |
-| Tourette syndrome | 99.22% | L5 | No established rationale; IV dosing and cardiac monitoring are impractical for a chronic tic disorder |
-| Manic bipolar affective disorder | 99.18% | L4 | Plausible class-level rationale, since other anticonvulsants are mood stabilizers; one small publication; research question |
-| Myositis fibrosa | 99.02% | L5 | No identified mechanistic link |
-| Idiopathic granulomatous myositis | 99.02% | L5 | No immunomodulatory role; same score as myositis fibrosa suggests a shared graph signal |
-| Fibromyalgia | 99.02% | L5 | Loose class-level rationale only; IV dosing is a poor fit for chronic pain |
+| Nephrogenic syndrome of inappropriate antidiuresis | 0.9928 | L5 | No action on the V2 receptor pathway; phenytoin can cause SIADH-like hyponatremia, which argues against benefit |
+| Tourette syndrome | 0.9922 | L5 | No established rationale; IV dosing and cardiac monitoring are impractical for a chronic tic disorder |
+| Manic bipolar affective disorder | 0.9918 | L5 | Plausible class-level rationale, since other anticonvulsants are mood stabilizers; one small publication; research question |
+| Myositis fibrosa | 0.9902 | L5 | No identified mechanistic link |
+| Idiopathic granulomatous myositis | 0.9902 | L5 | No immunomodulatory role; same score as myositis fibrosa suggests a similarity the TxGNN model (deep learning) learned between related diseases, not biological evidence |
+| Fibromyalgia | 0.9902 | L5 | Loose class-level rationale only; IV dosing is a poor fit for chronic pain |
 
 ---
 

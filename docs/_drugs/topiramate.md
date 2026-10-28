@@ -4,7 +4,7 @@ title: Topiramate
 parent: Model Prediction Only (L5)
 nav_order: 923
 evidence_level: L5
-indication_count: 9
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "TOPIRAMATE"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 # Topiramate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 ## One-Sentence Summary
 
 Topiramate is an antiseizure medication originally used for epilepsy, including generalized tonic-clonic seizures, partial epilepsy and Lennox-Gastaut syndrome.
-The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm** (score 99.7%), but **no clinical trials and no publications** support it.
+The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm** (score 0.9970), but **no clinical trials and no publications** support it.
 The model's other high-scoring predictions are mostly reflex-seizure subtypes of epilepsy, which are really extensions of the existing indication and not new uses.
 
 ---
@@ -50,13 +50,13 @@ The model's other high-scoring predictions are mostly reflex-seizure subtypes of
 |------|------|
 | Original Indication | Epilepsy (generalized tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome) |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
-The approved-indication text was not available in the Canadian licence data compiled for this report. The original indications above come from the TxGNN knowledge graph.
+The approved-indication text was not available in the Canadian license data compiled for this report.
 
 ---
 
@@ -64,9 +64,8 @@ The approved-indication text was not available in the Canadian licence data comp
 
 Currently, detailed mechanism of action data is not available in the compiled data. From the pharmacology generally described in the literature, topiramate reduces neuronal excitability by blocking voltage-gated sodium channels, enhancing GABA-A activity, antagonizing AMPA/kainate glutamate receptors, and weakly inhibiting carbonic anhydrase.
 
-**For the top prediction (trigeminal nerve neoplasm):** none of these mechanisms offers a plausible route to controlling a tumour. The high score is probably an artifact of the knowledge graph, driven by neighbouring trigeminal and neurological terms, and not a pharmacological signal. At most, topiramate might relieve symptoms such as trigeminal neuralgia, which is a different condition.
+**For the top prediction (trigeminal nerve neoplasm):** none of these mechanisms offers a plausible route to controlling a tumor. The high score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, topiramate might relieve symptoms such as trigeminal neuralgia, which is a different condition.
 
-**For the other predictions:** visual epilepsy, thinking seizures, audiogenic seizures, orgasm-induced seizures, eating seizures, startle epilepsy, micturition-induced seizures and reading seizures are rare reflex-seizure types. They fall within focal or generalized epilepsy, so topiramate's antiseizure mechanisms make a benefit plausible. However, the evidence is indirect, drawn from the parent epilepsy indication. These are not distinct repurposing opportunities.
 
 ---
 
@@ -128,14 +127,14 @@ Topiramate's known adverse effects reported in the retrieved literature include 
 **Decision: Hold**
 
 **Rationale:**
-- The top prediction, trigeminal nerve neoplasm, has a very high model score but no trials, no literature, and no plausible mechanistic link. It should be treated as a knowledge-graph artifact.
+- The top prediction, trigeminal nerve neoplasm, has a very high model score but no trials, no literature, and no plausible mechanistic link. It should be treated as a TxGNN model (deep learning) artifact.
 - The other predictions are rare reflex-seizure subtypes. They are either supported only indirectly by evidence from epilepsy generally, or have no evidence at all. Together with the knowledge-graph warnings about kidney, liver and metabolic conditions, this does not justify advancing any of them as a new indication.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada (this is currently a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Indication-specific evidence for any seizure subtype of interest (for example, case series or trials in reflex epilepsies such as reading or audiogenic seizures)
-- Confirmation that the trigeminal nerve neoplasm prediction is not an artifact, such as a manual review of the knowledge-graph pathway behind it
+- Confirmation that the trigeminal nerve neoplasm prediction is not an artifact, such as a manual review of the similarities the TxGNN model (deep learning) learned between related diseases
 - Approved indication text and dosage forms for the Canadian licences
 ## Disclaimer
 

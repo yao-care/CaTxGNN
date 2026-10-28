@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Tacrolimus
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 876
-evidence_level: L5
-indication_count: 3
+evidence_level: L2
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "TACROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 # Tacrolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ with **2 clinical trials** and **20 publications** currently supporting this dir
 |------|------|
 | Original Indication | Atopic eczema / atopic dermatitis |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L2 (see note below) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -140,8 +140,7 @@ The model score is very high, the mechanism is plausible, and a completed Phase 
 
 ### Other Predicted Indications (for reference)
 
-- **Parapsoriasis (score 99.24%):** Evidence is limited to two case reports of pityriasis lichenoides treated with topical tacrolimus, with no registered trials. This is a research question, not a candidate for advancement.
-- **Dermatitis (score 99.17%):** Extensive trial and literature evidence exists, but it overlaps heavily with the original atopic dermatitis indication, so it is not a truly novel repurposing signal.
+- **Parapsoriasis (score 0.9924):** Evidence is limited to two case reports of pityriasis lichenoides treated with topical tacrolimus, with no registered trials. This is a research question, not a candidate for advancement.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

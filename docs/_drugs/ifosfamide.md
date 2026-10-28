@@ -6,9 +6,9 @@ nav_order: 470
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ifosfamide: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Cancer chemotherapy (alkylating agent). The licence records compiled…"
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Ifosfamide: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ifosfamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ifosfamide: From Cancer Chemotherapy to Female Breast Carcinoma
+## Ifosfamide: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ None of the trials is a completed Phase 2/3 randomised study, so the evidence is
 
 | Item | Content |
 |------|------|
-| Original Indication | Cancer chemotherapy (alkylating agent). The licence records compiled for this report do not include indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L3. No completed Phase 2/3 RCT was found. Support comes from Phase 2 studies, cohorts and reviews. |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5. No completed Phase 2/3 RCT was found. Support comes from Phase 2 studies, cohorts and reviews. |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -112,7 +112,6 @@ Ifosfamide is not a standard breast cancer drug, and no Phase 3 trial supports i
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (oxazaphosphorine alkylating agent) |
-| Myelosuppression Risk | High. The knowledge graph links ifosfamide to leukopenia, thrombocytopenia and anaemia. |
 | Emetogenicity Classification | Moderate to high, depending on dose |
 | Monitoring Items | CBC with differential, renal function and electrolytes (including potassium), liver function and bilirubin, urinalysis for haematuria, and neurological status |
 | Handling Protection | Must follow cytotoxic drug handling regulations. Mesna uroprotection is routinely co-administered. |

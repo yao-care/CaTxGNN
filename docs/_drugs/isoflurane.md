@@ -48,10 +48,10 @@ Isoflurane is an inhaled general anesthetic that is marketed in Canada. The TxGN
 |------|------|
 | Original Indication | Not stated in the Canadian license data (isoflurane is generally used for inhaled general anesthesia) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,13 +66,13 @@ The other predicted indications are ranked below. Only migraine and manic bipola
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
-| 1 | Prinzmetal angina | 99.67% | L5 | Prediction only |
-| 2 | Tourette syndrome | 99.61% | L5 | Prediction only |
-| 3 | Manic bipolar affective disorder | 99.57% | L4 | Indirect evidence only |
-| 4 | Trichotillomania | 99.54% | L5 | Prediction only |
-| 5 | Dysthymic disorder | 99.27% | L5 | Prediction only |
-| 6 | Nephrogenic syndrome of inappropriate antidiuresis | 99.09% | L5 | Prediction only |
-| 7 | Migraine disorder | 99.06% | L4 | Preclinical mechanism plus a case report; flagged as a research question |
+| 1 | Prinzmetal angina | 0.9967 | L5 | Prediction only |
+| 2 | Tourette syndrome | 0.9961 | L5 | Prediction only |
+| 3 | Manic bipolar affective disorder | 0.9957 | L5 | Indirect evidence only |
+| 4 | Trichotillomania | 0.9954 | L5 | Prediction only |
+| 5 | Dysthymic disorder | 0.9927 | L5 | Prediction only |
+| 6 | Nephrogenic syndrome of inappropriate antidiuresis | 0.9909 | L5 | Prediction only |
+| 7 | Migraine disorder | 0.9906 | L4 | Preclinical mechanism plus a case report; flagged as a research question |
 
 ---
 

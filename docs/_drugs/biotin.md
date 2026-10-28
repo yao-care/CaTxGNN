@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **dyspepsia**, but this rests o
 |------|------|
 | Original Indication | Nutritional biotin deficiency |
 | Predicted New Indication | Dyspepsia |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The link between the original and predicted indications is plausible but not direct. Biotin deficiency can cause gastrointestinal symptoms such as nausea and anorexia, so correcting a deficiency might relieve some digestive complaints. This is not evidence that biotin treats dyspepsia in people who are not deficient.
 
-The high TxGNN score (99.43%) is a computational output and should not be read as clinical proof. The second-ranked prediction, gastroparesis (score 99.42%), has no supporting trials or literature, and biotin has no known prokinetic or gastric-motility mechanism.
+The high TxGNN score (0.9943) is a computational output and should not be read as clinical proof. The second-ranked prediction, gastroparesis (score 0.9942), has no supporting trials or literature, and biotin has no known prokinetic or gastric-motility mechanism.
 
 ---
 
@@ -99,7 +99,7 @@ None of these publications shows that biotin improves dyspepsia.
 
 ## Safety Considerations
 
-Disease associations flagged in the knowledge graph (not taken from label text) suggest caution in patients with:
+Disease associations flagged by the TxGNN model (deep learning), not taken from label text, suggest caution in patients with:
 
 - Kidney disease, nephrolithiasis (including susceptibility caused by SLC26A1), nephrocalcinosis, and acute urate nephropathy
 - Pyoureter

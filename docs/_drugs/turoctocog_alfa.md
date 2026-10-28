@@ -48,9 +48,9 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Hemophilia (including the symptomatic form of hemophilia in female carriers) |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -58,7 +58,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 Currently, detailed mechanism of action data is not available. Based on known information, turoctocog alfa is a recombinant, B-domain-truncated FVIII. It replaces the missing clotting factor in hemophilia A, and its efficacy in that setting is established.
 
-Primary release disorder of platelets is a platelet function defect caused by impaired granule secretion. It is not caused by FVIII deficiency. Because FVIII replacement does not address the underlying defect, there is no plausible direct mechanism. The high TxGNN score most likely reflects network propagation through shared bleeding-disorder nodes in the knowledge graph rather than a true pharmacological link.
+Primary release disorder of platelets is a platelet function defect caused by impaired granule secretion. It is not caused by FVIII deficiency. Because FVIII replacement does not address the underlying defect, there is no plausible direct mechanism. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions show the same pattern. Most involve platelet or von Willebrand factor (VWF) defects (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, collagen receptor defects, constitutional thrombocytopenia), where FVIII replacement is not expected to help. The most biologically plausible candidate is **acquired coagulation factor deficiency** (rank 5, for example acquired hemophilia A). Even there, autoantibody inhibitors neutralize FVIII, bypassing agents are the standard of care, and turoctocog alfa is not established for this use. It is best treated as a research question rather than a candidate for development.
 

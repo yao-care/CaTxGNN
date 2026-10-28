@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Clavulanic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 204
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Clavulanic Acid: predicted new indication Gonococcal urethritis (evidence level L3). Approved use: Urinary tract infection, bacterial pneumonia…"
@@ -14,7 +14,7 @@ predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uteri
 # Clavulanic Acid
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,13 +48,13 @@ The top-ranked prediction by score, Ureaplasma urethritis, is not mechanisticall
 |------|------|
 | Original Indication | Urinary tract infection, bacterial pneumonia, staphylococcal infection, and related bacterial infections |
 | Predicted New Indication | Gonococcal urethritis (best-supported candidate; the highest-scoring prediction is Ureaplasma urethritis) |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold (research question) |
 
-Note: Ureaplasma urethritis ranks first (score 99.93%, evidence level L5), but the data compiled for this report show no mechanistic support for it. Gonococcal urethritis has the same score and the strongest evidence of the ten predictions, so this report focuses on it.
+Note: Ureaplasma urethritis ranks first (score 0.9993, evidence level L5), but the data compiled for this report show no mechanistic support for it. Gonococcal urethritis has the same score and the strongest evidence of the ten predictions, so this report focuses on it.
 
 ## Why is This Prediction Reasonable?
 
@@ -62,7 +62,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 Many strains of *Neisseria gonorrhoeae* produce penicillinase (a beta-lactamase) that destroys penicillins. Clavulanic acid inhibits this enzyme and restores amoxicillin activity against penicillinase-producing strains. The original indications (urinary tract and respiratory bacterial infections) and the predicted indication are both bacterial infections that this antibacterial combination can treat, so the prediction is mechanistically plausible.
 
-Several other predictions are not credible. Ureaplasma lacks a cell wall and is inherently resistant to beta-lactams. Abdominal cystic lymphangioma, celiac trunk compression syndrome, abdominal ectopic pregnancy and lymph node palisaded myofibroblastoma have no plausible link to a beta-lactamase inhibitor and are likely knowledge-graph artifacts.
+Several other predictions are not credible. Ureaplasma lacks a cell wall and is inherently resistant to beta-lactams. Abdominal cystic lymphangioma, celiac trunk compression syndrome, abdominal ectopic pregnancy and lymph node palisaded myofibroblastoma have no plausible link to a beta-lactamase inhibitor and are likely TxGNN model (deep learning) artifacts.
 
 ## Clinical Trial Evidence
 

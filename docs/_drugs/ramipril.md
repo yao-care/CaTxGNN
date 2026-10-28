@@ -4,17 +4,17 @@ title: Ramipril
 parent: Model Prediction Only (L5)
 nav_order: 792
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension"
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
+description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ramipril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ramipril: From Hypertension to Pulmonary Hypertension (Multifactorial / Unclear Mechanism)
+## Ramipril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ but **no clinical trials and no publications** specific to this indication are c
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; stroke and cerebrovascular disorders (the Health Canada licence records contain no indication text, so this comes from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -60,7 +60,7 @@ Detailed mechanism-of-action data is not available in the compiled data. Based o
 
 Systemic hypertension and pulmonary hypertension are both disorders of vascular tone and vessel-wall remodeling. Because the renin-angiotensin system may influence the pulmonary circulation as well, ACE inhibition could plausibly affect pulmonary vascular pressure. This link is hypothetical for the predicted indication: no trials or publications were found for it.
 
-Indirect support exists for a closely related condition, **pulmonary hypertension owing to lung disease and/or hypoxia** (the second-ranked prediction, same score of 99.93%). A 1996 rat study (PMID 9200213) found that ramipril attenuated the effects of chronic hypoxia on pulmonary blood vessels. This is animal data only and does not establish benefit in humans.
+Indirect support exists for a closely related condition, **pulmonary hypertension owing to lung disease and/or hypoxia** (the second-ranked prediction, same score of 0.9993). A 1996 rat study (PMID 9200213) found that ramipril attenuated the effects of chronic hypoxia on pulmonary blood vessels. This is animal data only and does not establish benefit in humans.
 
 ## Clinical Trial Evidence
 
@@ -101,7 +101,7 @@ Ramipril is marketed in Canada with 20 valid single-ingredient licences and no c
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.93%), but the evidence is model-only (L5): no clinical trials or literature support this specific indication. The nearest support is a single animal study in hypoxic pulmonary hypertension. Because ramipril lowers blood pressure, its safety in pulmonary hypertension patients is also unestablished.
+The prediction score is very high (0.9993), but the evidence is model-only (L5): no clinical trials or literature support this specific indication. The nearest support is a single animal study in hypoxic pulmonary hypertension. Because ramipril lowers blood pressure, its safety in pulmonary hypertension patients is also unestablished.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
@@ -114,15 +114,14 @@ The prediction score is very high (99.93%), but the evidence is model-only (L5):
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |------|------|------|------|------|
-| 2 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.93% | L4 | Indirect animal support (PMID 9200213) |
-| 3 | Malignant renovascular hypertension | 99.93% | L5 | Renal safety concern in bilateral renal artery stenosis |
-| 4 | Malignant hypertensive renal disease | 99.93% | L5 | Close to the existing hypertension indication |
-| 5 | Braddock syndrome | 99.91% | L5 | No mechanistic rationale found |
-| 6 | Brain stem infarction | 99.89% | L5 | Plausible given existing stroke-risk use |
-| 7 | Prinzmetal angina | 99.83% | L5 | The one retrieved paper does not evaluate ramipril |
-| 8 | Intracerebral haemorrhage | 99.82% | L4 | Indirect animal data only; acute-setting safety unestablished |
-| 9 | ABri amyloidosis | 99.79% | L5 | No mechanistic rationale found |
-| 10 | Cerebral artery occlusion | 99.74% | L4 | One small human cerebral blood flow study (PMID 8797135) and mixed animal results; marked "Research Question" |
+| 2 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9993 | L5 | Indirect animal support (PMID 9200213) |
+| 4 | Malignant hypertensive renal disease | 0.9993 | L5 | Close to the existing hypertension indication |
+| 5 | Braddock syndrome | 0.9991 | L5 | No mechanistic rationale found |
+| 6 | Brain stem infarction | 0.9989 | L5 | Plausible given existing stroke-risk use |
+| 7 | Prinzmetal angina | 0.9983 | L5 | The one retrieved paper does not evaluate ramipril |
+| 8 | Intracerebral haemorrhage | 0.9982 | L5 | Indirect animal data only; acute-setting safety unestablished |
+| 9 | ABri amyloidosis | 0.9979 | L5 | No mechanistic rationale found |
+| 10 | Cerebral artery occlusion | 0.9974 | L5 | One small human cerebral blood flow study (PMID 8797135) and mixed animal results; marked "Research Question" |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

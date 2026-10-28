@@ -6,9 +6,9 @@ nav_order: 748
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Constipation"
 monitor_inn: "Polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
+description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Polyethylene Glycol
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Polyethylene Glycol: From Constipation and Dry Eye to Congenital Ichthyosiform Erythroderma
+## Polyethylene Glycol: Congenital ichthyosiform erythroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials and no publications** supporting th
 
 | Item | Content |
 |------|------|
-| Original Indication | Constipation; dry eye syndrome (xerophthalmia) (from the knowledge graph, as no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
-| TxGNN Prediction Score | 99.03% |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 A speculative link is that topical barrier or hydration effects could ease the scaling and dryness (xerosis) seen in ichthyosis. However, congenital ichthyosiform erythroderma is a genetic keratinization disorder (for example, TGM1 or ALOX12B variants). Neither the osmotic nor the lubricant properties address the underlying pathology.
 
-The prediction therefore remains a hypothesis. The high score (99.03%) is the only support, and no study data back it.
+The prediction therefore remains a hypothesis. The high score (0.9903) is the only support, and no study data back it.
 
 ## Clinical Trial Evidence
 

@@ -4,17 +4,17 @@ title: Sodium Citrate
 parent: Model Prediction Only (L5)
 nav_order: 855
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "SODIUM CITRATE"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
+description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sodium Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Sodium Citrate: From Acid-Related Upper GI and Upper Respiratory Conditions to Papillary Conjunctivitis
+## Sodium Citrate: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is a computational signal only, and the evidence is at the model-
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; no approved-indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,16 +62,15 @@ The prediction is a computational signal only, and the evidence is at the model-
 
 Currently, detailed mechanism of action data is not available. Based on known information, sodium citrate acts as a buffer and antacid and as a calcium chelator. Its role in acid-related gastric conditions is plausible, but a mechanistic connection to papillary conjunctivitis (an allergic or contact-lens-related ocular inflammation) is not supported by the data compiled for this report.
 
-The high TxGNN score (99.95%) is a computational prediction only. It may reflect how the knowledge graph links sodium citrate to inflammatory conditions of the upper airway and mucosa (rhinitis, nasopharyngitis, common cold), rather than any independent evidence of efficacy in the eye.
+The high TxGNN score (0.9995) is a computational prediction only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as inflammatory conditions of the upper airway and mucosa (rhinitis, nasopharyngitis, common cold), not biological evidence of efficacy in the eye.
 
 Other predictions in the same list are also at low evidence levels:
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |---|---|---|---|---|
-| 2 | Nasal cavity disease | 99.95% | L5 | Likely reflects proximity to existing rhinitis/cold indications |
-| 3 | Acute laryngopharyngitis | 99.94% | L5 | Largely an extension of existing pharyngitis indications |
-| 4 | Stomach disease | 99.89% | L4 | Only indirect preclinical and mixed-quality literature |
-| 6 | Gastroduodenitis | 99.62% | L4 | Two indirect papers only |
+| 2 | Nasal cavity disease | 0.9995 | L5 | Likely reflects proximity to existing rhinitis/cold indications |
+| 4 | Stomach disease | 0.9989 | L5 | Only indirect preclinical and mixed-quality literature |
+| 6 | Gastroduodenitis | 0.9962 | L4 | Two indirect papers only |
 
 The stomach-related predictions (ranks 4 and 6) are the most mechanistically plausible, because of gastric acid buffering. They are still not supported by direct trials.
 

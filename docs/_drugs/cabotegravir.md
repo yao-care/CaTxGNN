@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 |------|------|
 | Original Indication | Not stated in the Canadian licence data compiled for this report (cabotegravir is known as an HIV-1 integrase inhibitor) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,9 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Cabotegravir is generally known as an HIV-1 integrase strand transfer inhibitor, and its activity is specific to the viral integrase enzyme.
 
-No established mechanism links cabotegravir to rheumatoid arthritis or to immune and inflammatory pathways. The high TxGNN score reflects a knowledge-graph prediction only, so any biological connection is speculative and unsupported by trials or literature.
+No established mechanism links cabotegravir to rheumatoid arthritis or to immune and inflammatory pathways. The high TxGNN score reflects a TxGNN model (deep learning) prediction only, so any biological connection is speculative and unsupported by trials or literature.
 
-Other top-ranked predictions are similarly weakly supported: sclerosing cholangitis (99.22%), bronchitis (99.19%), colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.16%) and severe nonproliferative diabetic retinopathy (99.03%). All are L5 with no trials or literature, which suggests the high scores may partly reflect graph-structure artifacts rather than biology.
+Other top-ranked predictions are similarly weakly supported: sclerosing cholangitis (0.9922), bronchitis (0.9919), colobomatous microphthalmia-rhizomelic dysplasia syndrome (0.9916) and severe nonproliferative diabetic retinopathy (0.9903). All are L5 with no trials or literature. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

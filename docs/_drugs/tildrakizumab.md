@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 914
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Tildrakizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not available in the data compiled for this report"
+last_modified_at: 2026-10-28
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
+description: "Tildrakizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tildrakizumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Tildrakizumab: From an Undocumented Original Indication to Severe Nonproliferative Diabetic Retinopathy
+## Tildrakizumab: Severe nonproliferative diabetic retinopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **severe nonproliferative diabe
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ Chronic inflammation and cytokine signalling have been proposed to contribute to
 
 A large antibody also raises a delivery question: whether systemic dosing would reach the eye, or whether intravitreal administration would be needed. This would need to be assessed before any translational work.
 
-Other predictions from the model include diabetic retinopathy (99.53%), diabetic cataract (99.21%) and drug-induced osteoporosis (99.20%). The rationale for diabetic cataract is weak, since that condition is driven mainly by polyol pathway activation and oxidative stress. The osteoporosis link is plausible but indirect, through IL-23/IL-17 effects on bone loss, and established therapies already exist.
+Other predictions from the model include diabetic retinopathy (0.9953), diabetic cataract (0.9921) and drug-induced osteoporosis (0.9920). The rationale for diabetic cataract is weak, since that condition is driven mainly by polyol pathway activation and oxidative stress. The osteoporosis link is plausible but indirect, through IL-23/IL-17 effects on bone loss, and established therapies already exist.
 
 ## Clinical Trial Evidence
 

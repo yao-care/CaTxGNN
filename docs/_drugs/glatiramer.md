@@ -4,17 +4,17 @@ title: Glatiramer
 parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Glatiramer: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not available in the Canadian license data (glatiramer is generally u…"
 monitor_inn: "Glatiramer"
-predicted_indications: ["hemoglobinopathy", "plasma cell myeloma", "female breast carcinoma", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "indolent plasma cell myeloma", "gastric linitis plastica", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+predicted_indications: ["hemoglobinopathy"]
 ---
 
 # Glatiramer
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Glatiramer is an immunomodulating drug marketed in Canada (as COPAXONE and related products), and its original approved indication text is not available in the data compiled for this report. The TxGNN model predicts it may be effective for **hemoglobinopathy**, but there are **0 clinical trials** and only **1 loosely related publication** (a case report on natalizumab discontinuation in multiple sclerosis), so the prediction rests almost entirely on the model's graph-based score.
+Glatiramer is an immunomodulating drug marketed in Canada (as COPAXONE and related products), and its original approved indication text is not available in the data compiled for this report. The TxGNN model predicts it may be effective for **hemoglobinopathy**, but there are **0 clinical trials** and only **1 loosely related publication** (a case report on natalizumab discontinuation in multiple sclerosis), so the prediction rests almost entirely on the model's score. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -46,17 +46,17 @@ Glatiramer is an immunomodulating drug marketed in Canada (as COPAXONE and relat
 |------|------|
 | Original Indication | Not available in the Canadian license data (glatiramer is generally used in multiple sclerosis, based on the literature retrieved) |
 | Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.03% |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacological knowledge, glatiramer is an immunomodulator, a random amino acid copolymer that shifts T-cell responses toward Th2/regulatory phenotypes and competes with myelin antigens for MHC presentation. This is the basis of its use in multiple sclerosis.
 
-For hemoglobinopathy, however, **no credible mechanistic link was identified**. Hemoglobinopathies are inherited disorders of globin chain synthesis or structure and are not primarily immune-mediated. The only linked paper discusses immune disorders after natalizumab discontinuation in a patient with MS who also had beta thalassemia; it does not address treating hemoglobinopathy. The high TxGNN score appears to be a graph-based prediction without clinical support.
+For hemoglobinopathy, however, **no credible mechanistic link was identified**. Hemoglobinopathies are inherited disorders of globin chain synthesis or structure and are not primarily immune-mediated. The only linked paper discusses immune disorders after natalizumab discontinuation in a patient with MS who also had beta thalassemia; it does not address treating hemoglobinopathy. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it has no clinical support.
 
 ## Clinical Trial Evidence
 

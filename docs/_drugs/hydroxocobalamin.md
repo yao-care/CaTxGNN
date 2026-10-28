@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Hydroxocobalamin: From Vitamin B12 Deficiency and Cyanide Poisoning to Esophageal Varices
+## Hydroxocobalamin: From Vitamin B12 Deficiency and Cyanide Poisoning to Esophageal Varices Without Bleeding
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Vitamin B12 deficiency, cyanide poisoning, pernicious anemia (the Canadian licence record contains no indication text) |
 | Predicted New Indication | Esophageal varices without bleeding (a second prediction, esophageal varices with bleeding, has the same score) |
-| TxGNN Prediction Score | 99.23% |
+| TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 One speculative hypothesis is that hydroxocobalamin scavenges nitric oxide (NO), which could theoretically reduce splanchnic vasodilation and portal hypertension, the underlying driver of varices. **No evidence in the data compiled for this report supports this idea.** The same NO-scavenging effect could also raise systemic blood pressure, which would need a separate safety evaluation.
 
-The two predictions share an identical score (0.992). This suggests the model is scoring a disease cluster rather than a mechanism specific to bleeding. Acute variceal bleeding is life-threatening and already has well-established standard care (vasoactive agents such as terlipressin or octreotide, endoscopic band ligation, antibiotic prophylaxis). Any repurposed agent would need strong evidence to be considered.
+The two predictions share an identical score (0.9923). This suggests the model is scoring a disease cluster rather than a mechanism specific to bleeding. Acute variceal bleeding is life-threatening and already has well-established standard care (vasoactive agents such as terlipressin or octreotide, endoscopic band ligation, antibiotic prophylaxis). Any repurposed agent would need strong evidence to be considered.
 
 ---
 
@@ -108,7 +108,7 @@ Please refer to the package insert for warnings and contraindications from the l
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a knowledge-graph score alone (Evidence Level L5). There are no clinical trials, no publications, and no established mechanistic link. The possible blood pressure effect adds a safety concern in this patient population, and effective standard treatments already exist.
+The prediction rests on a TxGNN model (deep learning) score alone (Evidence Level L5). There are no clinical trials, no publications, and no established mechanistic link. The possible blood pressure effect adds a safety concern in this patient population, and effective standard treatments already exist.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

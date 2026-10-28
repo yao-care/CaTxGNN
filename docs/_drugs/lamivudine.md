@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Lamivudine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 519
-evidence_level: L3
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L3). Approved use: Chronic hepatitis B virus infection"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Lamivudine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 |------|------|
 | Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 20 of 20) |
+| Number of DINs | 20 (valid: 20) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

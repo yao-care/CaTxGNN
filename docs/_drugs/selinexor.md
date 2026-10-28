@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.22% |
+| TxGNN Prediction Score | 0.9922 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 A possible but unverified link is that XPO1 inhibition changes the nuclear retention of tumour suppressors and signalling regulators (for example in the NF-kB and Wnt pathways). These pathways are involved in bone remodelling, so in theory they could affect osteoclast and osteoblast activity. The data give no indication of whether the effect would be protective or harmful.
 
-The prediction should be treated with caution. Drug-induced osteoporosis is a drug-adverse-effect category, so the model may be reflecting network proximity in the knowledge graph rather than a true therapeutic relationship. At this point the link is a hypothesis only and needs experimental validation.
+The prediction should be treated with caution. Drug-induced osteoporosis is a drug-adverse-effect category, so the TxGNN model (deep learning) score of 0.9922 may reflect similarities the model learned between related diseases, not biological evidence. At this point the link is a hypothesis only and needs experimental validation.
 
 ## Clinical Trial Evidence
 
@@ -100,7 +100,7 @@ For warnings and contraindications, please refer to the package insert, as no la
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score (99.22%) but no clinical trials, no literature and no verified mechanism, which places it at evidence level L5. Drug-induced osteoporosis is also an adverse-effect category, so the prediction may reflect a knowledge-graph artefact. The label warnings and contraindications are missing, so safety screening cannot proceed.
+The prediction has a high model score (0.9922) but no clinical trials, no literature and no verified mechanism, which places it at evidence level L5. Drug-induced osteoporosis is also an adverse-effect category, so the prediction may reflect a TxGNN model (deep learning) artefact. The label warnings and contraindications are missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
 - Health Canada package insert (warnings, contraindications and approved indication), which currently blocks safety screening

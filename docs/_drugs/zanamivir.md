@@ -6,9 +6,9 @@ nav_order: 988
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Zanamivir: predicted new indication Pyelonephritis (evidence level L5). Approved use: Influenza"
 monitor_inn: "ZANAMIVIR"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
+description: "Zanamivir: predicted new indication Pyelonephritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zanamivir
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Zanamivir: From Influenza to Pyelonephritis
+## Zanamivir: Pyelonephritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **pyelonephritis**, but **no cl
 
 | Item | Content |
 |------|------|
-| Original Indication | Influenza (the Canadian license record contains no indication text; the indication comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pyelonephritis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Zanamivir is know
 
 Pyelonephritis is mainly a bacterial infection of the upper urinary tract, most often caused by *E. coli*. Some bacteria produce neuraminidase-like enzymes (sialidases), but zanamivir has no established antibacterial activity. Its poor systemic bioavailability (inhaled or intravenous use only) further limits plausibility.
 
-The very high TxGNN score (99.84%) is a graph-based prediction. It most likely reflects the shared "infection" neighbourhood in the knowledge graph rather than a biological mechanism. It should be treated as a hypothesis-generating signal, not as supporting evidence.
+The very high TxGNN score (0.9984) comes from the TxGNN model (deep learning). It may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal, not as supporting evidence.
 
 ---
 
@@ -77,7 +77,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for pyelonephritis.
 
-*Note on the second-ranked prediction (disorder of tyrosine metabolism, score 99.02%):* the three publications retrieved concern oseltamivir resistance, a neuraminidase inhibition assay, and a neuraminidase mutation in H5N1 influenza. None address tyrosine metabolism, and no mechanistic link is apparent. This prediction is likely a knowledge-graph artifact.
+*Note on the second-ranked prediction (disorder of tyrosine metabolism, score 0.9902):* the three publications retrieved concern oseltamivir resistance, a neuraminidase inhibition assay, and a neuraminidase mutation in H5N1 influenza. None address tyrosine metabolism, and no mechanistic link is apparent. This prediction is likely a TxGNN model (deep learning) artifact.
 
 ---
 

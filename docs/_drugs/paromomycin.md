@@ -6,9 +6,9 @@ nav_order: 707
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
-description: "Paromomycin: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). Approved use: Hepatic coma / hepatic encephalopathy"
 monitor_inn: "PAROMOMYCIN"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
+description: "Paromomycin: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paromomycin
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Paromomycin: From Hepatic Encephalopathy to Idiopathic Copper-Associated Cirrhosis
+## Paromomycin: Idiopathic copper-associated cirrhosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Paromomycin is an oral aminoglycoside antibiotic, originally associated with hepatic coma and hepatic encephalopathy.
-The TxGNN model predicts it may be effective for **idiopathic copper-associated cirrhosis**, but **no clinical trials and no publications** support this prediction, so it rests on a graph-based score alone.
+The TxGNN model (deep learning) predicts it may be effective for **idiopathic copper-associated cirrhosis**, but **no clinical trials and no publications** support this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **idiopathic copper-associated 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic coma / hepatic encephalopathy (from the knowledge graph; the Canadian licence has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Idiopathic copper-associated cirrhosis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **idiopathic copper-associated 
 
 Currently, detailed mechanism of action data is not available. Based on known information, paromomycin is a poorly absorbed aminoglycoside that acts in the gut lumen. It reduces ammonia-producing bacteria, which is why it has been used in hepatic encephalopathy.
 
-The predicted indication, idiopathic copper-associated cirrhosis, is a liver disease driven by copper handling. Paromomycin has no known link to copper metabolism or copper-associated liver injury. The high score most likely reflects shared liver-disease neighbours in the knowledge graph and not a real mechanism. The prediction should be treated as a hypothesis-generating signal, not as supported evidence.
+The predicted indication, idiopathic copper-associated cirrhosis, is a liver disease driven by copper handling. Paromomycin has no known link to copper metabolism or copper-associated liver injury. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis-generating signal, not as supported evidence.
 
 Other predictions in the same list show a similar pattern. Several are portal hypertension or liver-vascular conditions (primitive portal vein thrombosis, early-onset familial noncirrhotic portal hypertension, hepatoportal sclerosis), and all are scored at L5 with a Hold recommendation. Of these, hepatopulmonary syndrome has a plausible but unverified hypothesis: antibiotics that reduce gut bacterial translocation have been explored there. The only prediction with any literature was peritonitis (L4), but that literature does not address peritonitis treatment, and oral paromomycin is minimally absorbed.
 

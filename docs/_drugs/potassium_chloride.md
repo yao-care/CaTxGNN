@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Potassium Chloride
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 756
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
@@ -14,7 +14,7 @@ predicted_indications: ["renal tubular acidosis"]
 # Potassium Chloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ The benefit is most plausibly limited to correcting the low potassium that accom
 |------|------|
 | Original Indication | Potassium deficiency disease; constipation disorder |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 (no clinical trials; case reports, reviews and mechanistic reasoning only) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

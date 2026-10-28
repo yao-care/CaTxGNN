@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Piperonyl Butoxide
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 741
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Piperonyl Butoxide: predicted new indication Scabies (evidence level L3). Approved use: Lice infestation (Pthirus pubis, Pediculus humanus corporis…"
-monitor_inn: "Piperonyl butoxide"
-predicted_indications: ["trombiculiasis", "hordeolum", "Norwegian scabies", "impetigo", "scabies", "staphylococcal scalded skin syndrome", "esophageal candidiasis", "aleutian mink disease", "feline panleukopenia", "variola minor infection"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Piperonyl Butoxide: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Piperonyl Butoxide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,60 +32,47 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Piperonyl Butoxide: From Lice Infestation to Scabies
+<!-- known-uses-page -->
+<!-- description: Piperonyl Butoxide: known uses and market status in Canada; currently no new candidate indication -->
+## Piperonyl Butoxide: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Piperonyl Butoxide, so there is currently no new predicted indication. The uses recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
-Piperonyl butoxide (PBO) is an insecticide synergist originally used against lice infestations (Pthirus pubis, Pediculus humanus corporis, and Pediculus humanus capitis).
-The TxGNN model predicts it may be effective for **scabies**, a closely related ectoparasite infestation,
-with **no registered clinical trials** but **9 publications** (including small clinical case series and a laboratory study) currently supporting this direction.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Lice infestation (Pthirus pubis, Pediculus humanus corporis, Pediculus humanus capitis) |
-| Predicted New Indication | Scabies |
-| TxGNN Prediction Score | 98.05% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
-| Recommended Decision | Proceed with Guardrails |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 3 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 
-*Note: The data compiled for this report ranks "trombiculiasis" first by TxGNN score (98.62%), but it has no supporting studies (L5, Hold). Scabies is the best-supported prediction and is the focus of this report.*
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, PBO is not an insecticide on its own but a synergist. It inhibits cytochrome P450 and esterase-mediated detoxification in arthropods, which boosts the effect of pyrethrins and pyrethroids.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Lice and the scabies mite (*Sarcoptes scabiei*) are both ectoparasites of human skin and are treated with similar topical agents. A laboratory study (PMID 19125173) found that synergists can change how scabies mites respond to pyrethroids. This supports a plausible role for PBO in overcoming permethrin resistance, which is a growing clinical problem.
-
-Small clinical reports point the same way: a 2023 report of pyrethrins/PBO foam in permethrin-resistant scabies, and a 1993 series of 33 patients treated with deltamethrin-PBO. These are uncontrolled, so they are suggestive rather than proof.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37526055](https://pubmed.ncbi.nlm.nih.gov/37526055/) | 2023 | Case series | J Dermatol Treat | Pyrethrins/PBO foam used for permethrin-resistant scabies |
-| [8272612](https://pubmed.ncbi.nlm.nih.gov/8272612/) | 1993 | Case series (n=33) | Rev Med Chile | Deltamethrin-PBO was effective and well tolerated in 32 of 33 patients; the PBO combination allowed shorter treatment |
-| [19125173](https://pubmed.ncbi.nlm.nih.gov/19125173/) | 2009 | In vitro/Mechanistic | PLoS Negl Trop Dis | Insecticide synergists affect scabies mite response to pyrethroids; relevant to resistance management |
-| [26651923](https://pubmed.ncbi.nlm.nih.gov/26651923/) | 2016 | Observational | Ann Dermatol Venereol | Observational study of therapeutic failure in scabies |
-| [12353201](https://pubmed.ncbi.nlm.nih.gov/12353201/) | 2002 | Review | Clin Infect Dis | Update on scabies and pediculosis pubis treatment regimens |
-| [7540875](https://pubmed.ncbi.nlm.nih.gov/7540875/) | 1995 | Review | Clin Infect Dis | Review of ectoparasite treatment literature, 1982-1992 |
-| [16180929](https://pubmed.ncbi.nlm.nih.gov/16180929/) | 2005 | Toxicology review | Toxicol Rev | Review of poisoning due to pyrethroids |
-| [15009292](https://pubmed.ncbi.nlm.nih.gov/15009292/) | 2004 | Diagnostic/monitoring | J Eur Acad Dermatol Venereol | Videodermatoscopy for monitoring scabies treatment efficacy |
-| [21441056](https://pubmed.ncbi.nlm.nih.gov/21441056/) | 2011 | Case report | Joint Bone Spine | Crusted scabies during tocilizumab therapy; does not evaluate PBO |
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| pediculus humanus capitis infestation |
+| pediculus humanus corporis infestation |
+| pthirus pubis infestation |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02125447 | R & C Shampoo with Conditioner | Not specified | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02125447 | R & C SHAMPOO WITH CONDITIONER |  | Valid |
 
 ## Safety Considerations
 
@@ -95,21 +81,6 @@ Currently no related clinical trials registered.
 
 Please refer to the package insert for further safety information. No drug interaction records were found.
 
-## Conclusion and Next Steps
-
-**Decision: Proceed with Guardrails**
-
-**Rationale:**
-PBO shares an ectoparasite-focused, synergist mechanism with its approved lice indications, and laboratory data and small clinical series support use in scabies, including permethrin-resistant cases. However, the evidence is low-level (no registered trials, no RCTs), so this should remain a guarded, research-stage direction.
-
-**To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A controlled clinical study of PBO-containing products in scabies, including permethrin-resistant cases
-- A safety assessment for use on inflamed or broken skin, given the dermatitis and bronchial disease signals
-- Clarification of the dosage form and approved indication for the single Canadian product (DIN 02125447)
-
-**Other predicted indications:** Crusted (Norwegian) scabies (L4) is a research question only. The mechanism is plausible, but the only linked publication is an unrelated case report. The remaining predictions (trombiculiasis, hordeolum, impetigo, staphylococcal scalded skin syndrome, esophageal candidiasis, Aleutian mink disease, feline panleukopenia, variola minor) have no supporting evidence, and most lack a plausible PBO mechanism. They are on **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

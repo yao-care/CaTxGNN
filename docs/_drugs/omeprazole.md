@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 686
-evidence_level: L3
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Omeprazole: predicted new indication Duodenogastric reflux (evidence level L3). Approved use: Gastric ulcer, peptic ulcer disease, GERD, esophagitis…"
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-## Omeprazole: From Gastric Ulcer and Acid-Related Disease to Duodenogastric Reflux
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Omeprazole is a proton pump inhibitor originally used for gastric and duodenal ulcers, gastroesophageal reflux disease (GERD), esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the support is limited: **1 loosely related clinical trial** and **15 publications**, mostly small human studies and animal work, with no direct trial of omeprazole for this condition.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, GERD, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (from the knowledge graph; no approved-indication text is available for the Canadian licences) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -61,11 +60,10 @@ The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, omeprazole is a proton pump inhibitor that suppresses gastric acid secretion. Its efficacy in acid-related disorders such as GERD, esophagitis and peptic ulcer is established.
 
-Duodenogastric reflux (bile reflux) shares pathophysiology with these conditions. When bile and acid reflux together, acid suppression may reduce mucosal injury and symptoms. This probably explains the high model score, which reflects closeness to known acid-related diseases in the knowledge graph.
 
 There are important limits. Omeprazole does not directly block bile reflux, and studies in Barrett's oesophagus show modest or inconsistent effects on duodenogastric reflux. Rat studies also suggest that acid blockade combined with duodenogastric reflux may promote mucosal growth and gastric carcinogenesis. This is a safety signal that must be resolved before any repurposing recommendation.
 
-A second predicted indication, duodenal obstruction (score 99.64%), is not supported. Obstruction is usually mechanical, and omeprazole is not expected to relieve it. Any benefit would be indirect, through healing of ulcer disease, which is already an approved effect. That prediction is rated L4 and Hold.
+A second predicted indication, duodenal obstruction (score 0.9964), is not supported. Obstruction is usually mechanical, and omeprazole is not expected to relieve it. Any benefit would be indirect, through healing of ulcer disease, which is already an approved effect. That prediction is rated L4 and Hold.
 
 ---
 
@@ -123,7 +121,6 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but no trial tests omeprazole for duodenogastric reflux. Human evidence is limited to small studies in Barrett's oesophagus and paediatric bile reflux with modest or inconsistent effects, and animal data raise a carcinogenesis concern. This is best treated as a research question rather than a candidate for action.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, which are currently missing and block safety screening

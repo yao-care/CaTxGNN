@@ -6,9 +6,9 @@ nav_order: 976
 evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Vinblastine: predicted new indication Rhabdomyosarcoma (evidence level L3). Approved use: Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
+description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Vinblastine
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Vinblastine: From Hodgkin Lymphoma and Cutaneous T-Cell Lymphoma to Rhabdomyosarcoma
+## Vinblastine: Rhabdomyosarcoma (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials** are registered, and the support consists of **7 publi
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin lymphoma, non-Hodgkin lymphoma, mycosis fungoides / cutaneous T-cell lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis (the Canadian licence records contain no indication text, so these come from the knowledge-graph indication data) |
-| Predicted New Indication | Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rhabdomyosarcoma (disease) |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -106,7 +106,6 @@ Both licences are valid single-ingredient products.
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (vinca alkaloid, antimitotic) |
-| Myelosuppression Risk | High (neutropenia is the typical dose-limiting effect; the knowledge graph also flags neutropenia, agranulocytosis, and thrombocytopenia) |
 | Emetogenicity Classification | Low to moderate |
 | Monitoring Items | CBC with differential, liver function (including bilirubin), neurological assessment for peripheral neuropathy |
 | Handling Protection | Must follow cytotoxic drug handling regulations. Please refer to the package insert warnings and precautions |
@@ -115,7 +114,7 @@ Both licences are valid single-ingredient products.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signals, not label text)**: liver failure, thrombocytopenia, neutropenia, agranulocytosis, peripheral neuropathy and other peripheral nervous system disease, hyperbilirubinaemia (including Gilbert syndrome), lung disease, myocardial ischaemia and coronary artery disease, and infectious disease (including fungal infection and dermatophytosis). Anxiety, neurotic, and dysthymic disorders are also listed.
+- **Contraindications (TxGNN model (deep learning) signals, not label text)**: liver failure, thrombocytopenia, neutropenia, agranulocytosis, peripheral neuropathy and other peripheral nervous system disease, hyperbilirubinaemia (including Gilbert syndrome), lung disease, myocardial ischaemia and coronary artery disease, and infectious disease (including fungal infection and dermatophytosis). Anxiety, neurotic, and dysthymic disorders are also listed. These signals come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Drug Interactions**: 100 interactions were identified; the first 20 retrieved include one **Major** interaction, with clarithromycin. **Moderate** interactions include aprepitant, dexamethasone, metronidazole, eliglustat, miconazole, rolapitant, rosuvastatin, simvastatin, tinidazole, glycerol phenylbutyrate, and troglitazone. Levofloxacin is **Minor**. Pantoprazole, omeprazole, misoprostol, prednisone, prednisolone, ondansetron, and famotidine are of unknown severity.
 - **Related signal**: one report describes severe ileus after cisplatin and vinblastine infusion in neuroblastoma. Neurotoxicity is a concern for tubulin-targeting agents.
 

@@ -48,10 +48,10 @@ Miglustat is an oral drug originally used for Gaucher disease and Niemann-Pick d
 |------|------|
 | Original Indication | Gaucher disease; Niemann-Pick disease |
 | Predicted New Indication | Autosomal ichthyosis syndrome with fatal disease course |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 The original indications are lysosomal storage disorders, where lipids build up because they cannot be broken down. Ichthyosis syndromes affect the skin barrier, which depends on ceramides and related lipids. A link through glycosphingolipid or ceramide metabolism is conceivable. Reducing glucosylceramide synthesis could in principle influence the lipid balance in the skin.
 
-This link is speculative. The data compiled for this report contain no clinical or literature evidence for this condition. The high score of 0.998 is a computational output only and should not be read as proof of efficacy.
+This link is speculative. The data compiled for this report contain no clinical or literature evidence for this condition. The high score of 0.9983 is a computational output only and should not be read as proof of efficacy.
 
 ---
 
@@ -86,7 +86,7 @@ Currently no related literature available.
 | 02556812 | OPFOLDA |
 | 02250519 | ZAVESCA |
 
-All three are valid single-ingredient authorizations, with none cancelled.
+All three licences are valid, and the drug is marketed in this country.
 
 ---
 
@@ -112,7 +112,7 @@ The prediction for this condition has the highest model score but no supporting 
 - Package insert warnings and contraindications from Health Canada
 - Route and formulation compatibility assessment (oral drug versus skin-targeted disease)
 
-**Additional observation:** Among the other predictions, **Tay-Sachs disease** (rank 7, score 99.75%) has considerably more support. It has 4 registered trials, including small Phase 2 and Phase 3 pharmacokinetic and safety studies and two terminated studies. It also has a randomized controlled study in late-onset Tay-Sachs (PMID 19346952) and a 2023 systematic review of GM2 gangliosidosis (PMID 37209042). This evidence is graded L2 and the stage is "Research Question". The trials are small and clear clinical benefit is not shown, so efficacy outcomes should be confirmed from the full publications. If the aim is to prioritize candidates, Tay-Sachs is the more evidence-supported direction and would merit its own report.
+**Additional observation:** Among the other predictions, **Tay-Sachs disease** (rank 7, score 0.9975) has considerably more support. It has 4 registered trials, including small Phase 2 and Phase 3 pharmacokinetic and safety studies and two terminated studies. It also has a randomized controlled study in late-onset Tay-Sachs (PMID 19346952) and a 2023 systematic review of GM2 gangliosidosis (PMID 37209042). This evidence is graded L2 and the stage is "Research Question". The trials are small and clear clinical benefit is not shown, so efficacy outcomes should be confirmed from the full publications. If the aim is to prioritize candidates, Tay-Sachs is the more evidence-supported direction and would merit its own report.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

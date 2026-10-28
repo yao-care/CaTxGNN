@@ -4,17 +4,17 @@ title: Vasopressin
 parent: Model Prediction Only (L5)
 nav_order: 968
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not specified in the available Health Canada licence data"
 monitor_inn: "Vasopressin"
-predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "orofacial clefting syndrome", "ductal or ductular proliferation", "chondroid hamartoma", "non-seminomatous lesion", "bronchial adenomas/carcinoids childhood", "tumor of testis and paratestis", "cystic neoplasm"]
+predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
 ---
 
 # Vasopressin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 |------|------|
 | Original Indication | Not specified in the available Health Canada licence data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 (no trials; indirect literature only, none on prothrombin deficiency) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 (no trials; indirect literature only, none on prothrombin deficiency) |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 Currently, detailed mechanism of action data is not available for vasopressin in the data compiled for this report. Based on general pharmacology, vasopressin and its analogue desmopressin (DDAVP) act through V2 receptors to release stored factor VIII and von Willebrand factor from endothelial cells.
 
-That mechanism is relevant to factor VIII and combined factor V/VIII deficiencies, **not** to prothrombin (factor II) deficiency. No documented mechanism raises prothrombin levels. The very high TxGNN score is most likely driven by the drug's proximity to other coagulation-factor deficiencies in the knowledge graph rather than by a true pharmacological link. The prediction should therefore be treated as a hypothesis with weak mechanistic support.
+That mechanism is relevant to factor VIII and combined factor V/VIII deficiencies, **not** to prothrombin (factor II) deficiency. No documented mechanism raises prothrombin levels. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should therefore be treated as a hypothesis with weak mechanistic support.
 
 ---
 

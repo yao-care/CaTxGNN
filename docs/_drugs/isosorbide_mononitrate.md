@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Isosorbide Mononitrate: From Angina-Type Cardiovascular Use to Hypertrichosis
+## Isosorbide Mononitrate: From Angina-Type Cardiovascular Use to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Isosorbide mononitrate is a nitric oxide (NO)-releasing vasodilator that is marketed in Canada in 4 single-ingredient products. The TxGNN model predicts it may be effective for **hypertrichosis** (score 99.995%), but **no clinical trials and no publications** support this prediction. It is a computational signal only.
+Isosorbide mononitrate is a nitric oxide (NO)-releasing vasodilator that is marketed in Canada in 4 single-ingredient products. The TxGNN model predicts it may be effective for **hypertrichosis** (score 1.0000), but **no clinical trials and no publications** support this prediction. It is a computational signal only.
 
 ---
 
@@ -48,10 +48,10 @@ Isosorbide mononitrate is a nitric oxide (NO)-releasing vasodilator that is mark
 |------|------|
 | Original Indication | Not stated in the available licence records |
 | Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.995% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,9 +60,9 @@ Isosorbide mononitrate is a nitric oxide (NO)-releasing vasodilator that is mark
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, isosorbide mononitrate is an organic nitrate that releases nitric oxide, activates soluble guanylate cyclase and raises cGMP, which causes vasodilation.
 
-The link to hypertrichosis is weak. Nitrates are not known to cause excess hair growth. A minoxidil-like vasodilation argument is sometimes raised for hair growth, but minoxidil acts mainly through potassium channel opening, and there is no direct evidence for isosorbide mononitrate. The high TxGNN score appears to reflect knowledge-graph proximity rather than established biology.
+The link to hypertrichosis is weak. Nitrates are not known to cause excess hair growth. A minoxidil-like vasodilation argument is sometimes raised for hair growth, but minoxidil acts mainly through potassium channel opening, and there is no direct evidence for isosorbide mononitrate. The high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The other top predictions are mostly hair-related or congenital conditions (Ambras-type hypertrichosis, alopecia, hair shaft abnormalities, hypotrichosis, alopecia areata, and developmental malformation syndromes). None has trial or literature support, and most are genetic or autoimmune diseases that a vasodilator would not be expected to address. The only prediction with some biological plausibility is **pulmonary arterial hypertension** (rank 10, score 99.94%), where the NO-cGMP pathway is a validated target. Even there, organic nitrates are not recommended, and tolerance and hypotension are concerns.
+The other top predictions are mostly hair-related or congenital conditions (Ambras-type hypertrichosis, alopecia, hair shaft abnormalities, hypotrichosis, alopecia areata, and developmental malformation syndromes). None has trial or literature support, and most are genetic or autoimmune diseases that a vasodilator would not be expected to address. The only prediction with some biological plausibility is **pulmonary arterial hypertension** (rank 10, score 0.9994), where the NO-cGMP pathway is a validated target. Even there, organic nitrates are not recommended, and tolerance and hypotension are concerns.
 
 ---
 

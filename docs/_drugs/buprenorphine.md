@@ -50,10 +50,10 @@ This is a model prediction with very weak supporting evidence.
 |------|------|
 | Original Indication | Opioid dependence, substance abuse/dependence, morphine dependence |
 | Predicted New Indication | Acute intermittent porphyria |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 18 |
+| Canada Market Status | Marketed (valid licenses: 18 of 18) |
+| Number of DINs | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,17 +62,17 @@ This is a model prediction with very weak supporting evidence.
 
 Currently, detailed mechanism of action data is not available. Based on known information, buprenorphine is an opioid used in the treatment of opioid dependence, and its efficacy in that setting is established. Whether it is mechanistically applicable to acute intermittent porphyria is not supported by the data compiled for this report.
 
-The only publication found is a 1993 case report on anaesthetic management of a patient who had porphyria. It describes which drugs were chosen around surgery, not treatment of the disease itself. No credible mechanistic link between buprenorphine and correcting the disease was identified. The high model score (0.994) reflects a graph-based prediction rather than clinical support. Buprenorphine's safety in porphyria (porphyrinogenic potential) would need its own evaluation, and it is not a therapeutic indication.
+The only publication found is a 1993 case report on anaesthetic management of a patient who had porphyria. It describes which drugs were chosen around surgery, not treatment of the disease itself. No credible mechanistic link between buprenorphine and correcting the disease was identified. The high score (0.9941) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Buprenorphine's safety in porphyria (porphyrinogenic potential) would need its own evaluation, and it is not a therapeutic indication.
 
 Other predicted indications are even less supported:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary |
 |------|------|------|------|
-| Lingual-facial-buccal dyskinesia | 99.32% | L4 | 15 publications, none treating the condition in humans (dementia agitation, animal pharmacology, case reports). Only an indirect link via mu-opioid/5-HT2A interactions |
-| Chronic tic disorder | 99.13% | L5 | No trials or literature |
-| Continuous spikes and waves during sleep | 99.05% | L5 | No trials or literature. Opioids may lower seizure threshold |
-| Benign shuddering attacks | 99.03% | L5 | No trials or literature. Benign, self-limiting condition |
-| Extrapyramidal and movement disease | 99.03% | L5 | No trials or literature. Broad category sharing a score with the row above, suggesting graph propagation |
+| Lingual-facial-buccal dyskinesia | 0.9932 | L5 | 15 publications, none treating the condition in humans (dementia agitation, animal pharmacology, case reports). Only an indirect link via mu-opioid/5-HT2A interactions |
+| Chronic tic disorder | 0.9913 | L5 | No trials or literature |
+| Continuous spikes and waves during sleep | 0.9905 | L5 | No trials or literature. Opioids may lower seizure threshold |
+| Benign shuddering attacks | 0.9903 | L5 | No trials or literature. Benign, self-limiting condition |
+| Extrapyramidal and movement disease | 0.9903 | L5 | No trials or literature. Broad category sharing a score with the row above; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
 
 ---
 

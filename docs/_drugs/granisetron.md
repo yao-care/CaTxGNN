@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 442
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
+last_modified_at: 2026-10-28
 monitor_inn: "GRANISETRON"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
+description: "Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Granisetron
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Granisetron: From Its Original Use to Manic Bipolar Affective Disorder
+## Granisetron: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Granisetron is a selective 5-HT3 receptor antagonist that is marketed in Canada.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,11 +60,11 @@ Granisetron is a selective 5-HT3 receptor antagonist that is marketed in Canada.
 
 Detailed mechanism of action data is not available in the data compiled for this report. Granisetron is generally known as a selective 5-HT3 receptor antagonist.
 
-One hypothesis is that modulating 5-HT3 receptors could influence the dopaminergic and serotonergic signaling involved in mood regulation. This is a speculative link. No direct clinical evidence was found, and the high score (0.996) reflects a network-based computational prediction rather than demonstrated efficacy.
+One hypothesis is that modulating 5-HT3 receptors could influence the dopaminergic and serotonergic signaling involved in mood regulation. This is a speculative link. No direct clinical evidence was found, and the high score (0.9962) reflects a network-based computational prediction rather than demonstrated efficacy.
 
 Because the original indication is not listed in the available regulatory data, the relationship between the original and new indications cannot be assessed here.
 
-Other top-ranked predictions include Tourette syndrome (99.52%) and trichotillomania (99.23%), which have a more plausible serotonergic and dopaminergic rationale. Several others, such as acute contagious conjunctivitis, nephrogenic syndrome of inappropriate antidiuresis and bronchitis, have no clear mechanistic basis and are likely network artifacts.
+Other top-ranked predictions include Tourette syndrome (0.9952) and trichotillomania (0.9923), which have a more plausible serotonergic and dopaminergic rationale. Several others, such as acute contagious conjunctivitis, nephrogenic syndrome of inappropriate antidiuresis and bronchitis, have no clear mechanistic basis and are likely network artifacts.
 
 ---
 

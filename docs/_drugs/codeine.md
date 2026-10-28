@@ -4,17 +4,17 @@ title: Codeine
 parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Codeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "CODEINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 ---
 
 # Codeine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -61,13 +61,12 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 
 Currently, detailed mechanism of action data is not available. Codeine is generally known as an opioid analgesic and cough suppressant, but the data compiled for this report do not include a mechanism entry, so no mechanism-based link can be drawn here.
 
-The high score (0.999) most likely reflects the closeness of "nasal cavity disease" to codeine's existing rhinitis, nasopharyngitis and common cold indications in the knowledge graph. That is network proximity, not evidence that codeine treats nasal disease. The only publication is a case report of a rhinolith (nasal stone) formed around a hardened codeine and opium mixture, an incidental or harmful event rather than a therapeutic effect.
+The high score (0.9993) comes from the TxGNN model (deep learning). It may reflect similarities the model learned between "nasal cavity disease" and codeine's existing rhinitis, nasopharyngitis and common cold indications, not biological evidence that codeine treats nasal disease. The only publication is a case report of a rhinolith (nasal stone) formed around a hardened codeine and opium mixture, an incidental or harmful event rather than a therapeutic effect.
 
 Other predictions in the same analysis show a similar pattern:
 
-- **Acute laryngopharyngitis** (score 99.92%): plausible as an extension of codeine's existing symptomatic use in pharyngitis and cold, but there are no trials or publications. It is not a new repurposing signal.
-- **Trigeminal autonomic cephalalgia** (score 99.43%): opioids are not recommended for cluster headache and carry risks of medication-overuse headache and dependence. The two papers retrieved do not show any benefit.
-- **Allergic urticaria** (score 99.37%): the literature points the opposite way. Codeine directly triggers mast cell histamine release, is used as a positive control in skin tests, and can itself cause urticarial rash. Repurposing for this condition is not supported and may be harmful.
+- **Trigeminal autonomic cephalalgia** (score 0.9943): opioids are not recommended for cluster headache and carry risks of medication-overuse headache and dependence. The two papers retrieved do not show any benefit.
+- **Allergic urticaria** (score 0.9937): the literature points the opposite way. Codeine directly triggers mast cell histamine release, is used as a positive control in skin tests, and can itself cause urticarial rash. Repurposing for this condition is not supported and may be harmful.
 
 ---
 

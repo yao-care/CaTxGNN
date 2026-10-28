@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **trichotillomania** (compulsiv
 |------|------|
 | Original Indication | Tourette syndrome |
 | Predicted New Indication | Trichotillomania |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -121,7 +121,7 @@ The prediction score is very high, but supporting evidence is limited to small, 
 - A controlled study of pimozide augmentation in trichotillomania, with ECG/QT monitoring and CYP2D6/CYP3A4 interaction management
 - A comparison against alternatives with better safety profiles, such as other antipsychotics used in SRI-resistant cases
 
-**Other TxGNN predictions (for context):** Manic bipolar affective disorder (score 99.99%) has the next-strongest literature base, mostly older small studies from 1976–1988, including double-blind comparisons with chlorpromazine, but modern agents have superseded pimozide there. The remaining predictions (insomnia, major affective disorder, ADHD, and rarer conditions) have indirect or no supporting evidence and are on Hold.
+**Other TxGNN predictions (for context):** Manic bipolar affective disorder (score 0.9999) has the next-strongest literature base, mostly older small studies from 1976–1988, including double-blind comparisons with chlorpromazine, but modern agents have superseded pimozide there. The remaining predictions (insomnia, major affective disorder, ADHD, and rarer conditions) have indirect or no supporting evidence and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

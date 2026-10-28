@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Lanreotide: predicted new indication Hypertrichosis (evidence level L5). Approved use: Acromegaly"
+last_modified_at: 2026-10-28
 monitor_inn: "LANREOTIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
+description: "Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lanreotide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Lanreotide: From Acromegaly to Hypertrichosis
+## Lanreotide: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,25 +45,25 @@ The TxGNN model predicts it may be effective for **Hypertrichosis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Acromegaly (also hyperpituitarism and pituitary gigantism, based on the knowledge graph) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, lanreotide is a somatostatin analogue that acts mainly through somatostatin receptors SSTR2 and SSTR5 to suppress growth hormone (GH) and IGF-1 secretion. Its efficacy in acromegaly is established.
 
-The link to hypertrichosis is weak. Hypertrichosis is not a recognized GH/IGF-1-driven condition. Acromegaly can cause excess hair growth as a secondary feature, but that is an indirect association and not evidence that lanreotide would benefit hypertrichosis. The high TxGNN score is a graph-based computational prediction and is probably driven by similarity to other related phenotypes. No trial or literature record supports it.
+The link to hypertrichosis is weak. Hypertrichosis is not a recognized GH/IGF-1-driven condition. Acromegaly can cause excess hair growth as a secondary feature, but that is an indirect association and not evidence that lanreotide would benefit hypertrichosis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trial or literature record supports it.
 
 Other top-ranked predictions are also unsupported by any trial or publication, and none has a plausible mechanistic rationale:
-- Malformation syndrome with odontal and/or periodontal component (99.96%)
-- Syndrome with a Dandy-Walker malformation as major feature (99.96%)
-- Isolated genetic hair shaft abnormality (99.96%)
-- Ambras type hypertrichosis universalis congenita (99.96%)
+- Malformation syndrome with odontal and/or periodontal component (0.9996)
+- Syndrome with a Dandy-Walker malformation as major feature (0.9996)
+- Isolated genetic hair shaft abnormality (0.9996)
+- Ambras type hypertrichosis universalis congenita (0.9996)
 
 ## Clinical Trial Evidence
 

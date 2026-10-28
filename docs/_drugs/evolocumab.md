@@ -4,17 +4,17 @@ title: Evolocumab
 parent: Model Prediction Only (L5)
 nav_order: 371
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Evolocumab: predicted new indication Symptomatic form of hemophilia in female carriers (evidence level L5). Approved use: Homozygous familial hypercholesterolemia"
 monitor_inn: "Evolocumab"
-predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity", "hemorrhagic disease of newborn", "ichthyosis, X-linked, without steroid sulfatase deficiency", "inherited thrombophilia", "disorder of other vitamins and cofactors metabolism and transport"]
+predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 ---
 
 # Evolocumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Evolocumab: From Homozygous Familial Hypercholesterolemia to Symptomatic Hemophilia in Female Carriers
+## Evolocumab: From Homozygous Familial Hypercholesterolemia to Symptomatic Form of Hemophilia in Female Carriers
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Homozygous familial hypercholesterolemia; syndromic dyslipidemia (the Canadian licence text is not available) |
 | Predicted New Indication | Symptomatic form of hemophilia in female carriers |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ but **no clinical trials and no publications** currently support this direction,
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, evolocumab is a monoclonal antibody that targets PCSK9. By blocking PCSK9, it increases the availability of LDL receptors and lowers LDL cholesterol. Its efficacy in hypercholesterolemia is established.
 
-The predicted new indication does not fit this mechanism. Hemophilia carrier symptoms arise from reduced factor VIII or IX activity caused by X-linked variants. This pathway is unrelated to PCSK9 or LDL metabolism. The high score (0.998) reflects a knowledge-graph prediction only and should not be read as biological or clinical support.
+The predicted new indication does not fit this mechanism. Hemophilia carrier symptoms arise from reduced factor VIII or IX activity caused by X-linked variants. This pathway is unrelated to PCSK9 or LDL metabolism. The high score (0.9982) reflects a TxGNN model (deep learning) prediction only and should not be read as biological or clinical support.
 
-Other top-ranked predictions show the same pattern. They are mostly coagulation or haematological disorders, or broad ontology categories, with no plausible link to PCSK9 inhibition. The one exception is familial apolipoprotein C-II deficiency (rank 2, score 99.50%). It involves lipid metabolism, but evolocumab mainly lowers LDL-C and has only modest triglyceride effects, so it is unlikely to correct the core defect. No trials or literature support it either.
+Other top-ranked predictions show the same pattern. They are mostly coagulation or haematological disorders, or broad ontology categories, with no plausible link to PCSK9 inhibition. The one exception is familial apolipoprotein C-II deficiency (rank 2, score 0.9950). It involves lipid metabolism, but evolocumab mainly lowers LDL-C and has only modest triglyceride effects, so it is unlikely to correct the core defect. No trials or literature support it either.
 
 ---
 
@@ -101,7 +101,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There is no clinical trial or publication evidence (L5), and the mechanism of PCSK9 inhibition has no plausible connection to hemophilia carrier symptoms. Health Canada safety label information is also missing.
+The prediction rests only on a TxGNN model (deep learning) score. There is no clinical trial or publication evidence (L5), and the mechanism of PCSK9 inhibition has no plausible connection to hemophilia carrier symptoms. Health Canada safety label information is also missing.
 
 **To proceed, the following is needed:**
 - Any preclinical or clinical evidence linking PCSK9 inhibition to clotting factor VIII or IX function

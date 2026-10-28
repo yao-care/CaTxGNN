@@ -4,17 +4,17 @@ title: Telotristat Ethyl
 parent: Model Prediction Only (L5)
 nav_order: 886
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Telotristat Ethyl: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Diarrheal disease"
 monitor_inn: "Telotristat ethyl"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "postural orthostatic tachycardia syndrome", "restless legs syndrome", "endolymphatic hydrops", "dry eye syndrome", "Meniere disease", "His bundle tachycardia", "neurocirculatory asthenia", "active cochleovestibular Meniere disease"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
 ---
 
 # Telotristat Ethyl
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Telotristat ethyl was originally used to treat diarrheal disease. The TxGNN mode
 |------|------|
 | Original Indication | Diarrheal disease (the Canadian licence has no indication text on file) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.38% |
+| TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,9 +60,9 @@ Telotristat ethyl was originally used to treat diarrheal disease. The TxGNN mode
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, telotristat ethyl inhibits tryptophan hydroxylase (TPH), the enzyme that makes serotonin, and so lowers serotonin produced outside the brain. This is the likely basis for its effect on diarrhoea caused by excess serotonin.
 
-Cauda equina syndrome is a compressive neurological condition, in which the bundle of nerve roots at the base of the spinal cord is squeezed. No established link exists between lowering peripheral serotonin and this condition. The high score probably reflects patterns in the knowledge graph (a network of drug-disease relationships) rather than biology.
+Cauda equina syndrome is a compressive neurological condition, in which the bundle of nerve roots at the base of the spinal cord is squeezed. No established link exists between lowering peripheral serotonin and this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The other top predictions are equally weakly supported (all L5, all Hold). They include postural orthostatic tachycardia syndrome, restless legs syndrome, Meniere disease, dry eye syndrome and endolymphatic hydrops. The second-ranked term, "obsolete neurogenic bladder", is flagged as obsolete, which points to a mapping problem and lowers confidence further.
+The other top predictions are equally weakly supported (all L5, all Hold). The second-ranked term, "obsolete neurogenic bladder", is flagged as obsolete, which points to a mapping problem and lowers confidence further.
 
 ---
 

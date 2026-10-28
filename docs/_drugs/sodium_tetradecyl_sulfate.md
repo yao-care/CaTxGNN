@@ -48,10 +48,10 @@ and the evidence consists of **20 publications** (including 2 randomized compari
 |------|------|
 | Original Indication | Varicose disease (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Esophageal varices with bleeding |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -112,9 +112,9 @@ The mechanism plausibly carries over from varicose veins to esophageal varices, 
 - Mechanism of action data from DrugBank
 - Comparison with current standard care (band ligation, beta-blockers) and a defined place in therapy, for example when ligation is not feasible or for gastric varices via BRTO
 - Confirmation that the Canadian licences cover this route of use and indication, since the licence records contain no indication text
-- A safety plan covering perforation, stricture and the conditions listed in the knowledge graph
+- A safety plan covering perforation, stricture and the conditions listed in the TxGNN model (deep learning) output, which may reflect similarities the model learned between related diseases, not biological evidence
 
-**Other predictions:** Esophageal varices without bleeding (score 99.97%, L2) is a research question only, because the risk-benefit balance is less favorable in patients who have not bled. The remaining eight predictions (for example Steel syndrome, pseudo-von Willebrand disease and hypophosphatasia) have no trials or literature and no plausible mechanistic link, so the recommendation is **Hold**.
+**Other predictions:** Esophageal varices without bleeding (score 0.9997, L2) is a research question only, because the risk-benefit balance is less favorable in patients who have not bled. The remaining eight predictions (for example Steel syndrome, pseudo-von Willebrand disease and hypophosphatasia) have no trials or literature and no plausible mechanistic link, so the recommendation is **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,7 +4,7 @@ title: Crizotinib
 parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Crizotinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma / lung cancer"
 monitor_inn: "CRIZOTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Crizotinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Crizotinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Crizotinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Crizotinib is a targeted kinase inhibitor, originally used to treat non-small cell lung carcinoma (ALK-positive and ROS1-positive disease).
-The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 99.8%), but **no clinical trials and no publications** currently support this prediction.
+The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 0.9981), but **no clinical trials and no publications** currently support this prediction.
 It is a computational signal only and should be treated as a hypothesis.
 
 ---
@@ -50,10 +50,10 @@ It is a computational signal only and should be treated as a hypothesis.
 |------|------|
 | Original Indication | Non-small cell lung carcinoma / lung cancer (the Canadian licence records list no indication text) |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ It is a computational signal only and should be treated as a hypothesis.
 
 Detailed mechanism of action data is not available in the data compiled for this report. From the published literature, crizotinib is an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1 and c-MET. It is approved for ALK-rearranged and ROS1-rearranged non-small cell lung cancer.
 
-Gingival fibromatosis is a benign overgrowth of gum connective tissue. It is not an ALK-, ROS1- or MET-driven malignancy, and the data show no plausible link between these targets and this condition. The high TxGNN score reflects a pattern in the knowledge graph and has no clinical or literature support. The prediction should be regarded as speculative.
+Gingival fibromatosis is a benign overgrowth of gum connective tissue. It is not an ALK-, ROS1- or MET-driven malignancy, and the data show no plausible link between these targets and this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and it has no clinical or literature support. The prediction should be regarded as speculative.
 
 Other lower-ranked predictions have some indirect evidence. Examples are lung germ cell tumor, where two broad ALK-altered tumor trials exist, and lung hilum carcinoma, where case reports in ROS1/ALK-positive lung adenocarcinoma overlap with the existing lung cancer indication. These do not change the assessment for the top-ranked indication.
 

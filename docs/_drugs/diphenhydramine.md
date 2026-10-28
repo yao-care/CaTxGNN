@@ -47,9 +47,9 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic/vernal/papillary conjunctivitis, insomnia (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methazolamide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 597
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Methazolamide: predicted new indication Primary hereditary glaucoma (evidence level L4). Approved use: Open-angle glaucoma, angle-closure glaucoma"
 monitor_inn: "METHAZOLAMIDE"
 predicted_indications: ["congestive heart failure", "acute pulmonary heart disease"]
+description: "Methazolamide: predicted new indication Congestive heart failure (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methazolamide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Methazolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Methazolamide: Congestive heart failure
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Methazolamide is a carbonic anhydrase inhibitor originally used to treat open-angle and angle-closure glaucoma.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
+The TxGNN model predicts it may be effective for **congestive heart failure**,
 but currently there are **0 clinical trials** and **0 publications** specific to this indication, so the prediction rests on the model alone.
 
 ---
@@ -48,12 +48,12 @@ but currently there are **0 clinical trials** and **0 publications** specific to
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma, angle-closure glaucoma (per the knowledge graph; no indication text is available on the Canadian licence) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Congestive heart failure |
+| TxGNN Prediction Score | 0.9943 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Primary hereditary glaucoma (for example, forms related to MYOC or CYP1B1) shares the same final pathway of elevated IOP. Mechanistically, lowering aqueous humour production could therefore be applicable.
 
-However, this is essentially an extension of the existing glaucoma indication rather than true repurposing. The high TxGNN score most likely reflects the closeness of this disease to existing glaucoma indications in the knowledge graph, not new evidence.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not new biological evidence.
 
 ---
 
@@ -118,8 +118,8 @@ The mechanism is plausible, but the prediction is essentially an extension of th
 
 ### Other Predictions Noted
 
-- **Congestive heart failure** (TxGNN score 99.43%, evidence level L4, research question only): there are no clinical trials. The supporting literature is historical diuretic reviews and preclinical studies, including a mouse model of diabetic cardiomyopathy and cardiomyocyte hypertrophy studies. Modern heart failure practice uses other diuretic classes, and the risks include metabolic acidosis and the large interaction burden.
-- **Acute pulmonary heart disease** (TxGNN score 99.28%, evidence level L5, Hold): this is a model-only prediction with no trials or literature, and nothing in the available data supports a rationale.
+- **Congestive heart failure** (TxGNN score 0.9943, evidence level L4, research question only): there are no clinical trials. The supporting literature is historical diuretic reviews and preclinical studies, including a mouse model of diabetic cardiomyopathy and cardiomyocyte hypertrophy studies. Modern heart failure practice uses other diuretic classes, and the risks include metabolic acidosis and the large interaction burden.
+- **Acute pulmonary heart disease** (TxGNN score 0.9928, evidence level L5, Hold): this is a model-only prediction with no trials or literature, and nothing in the available data supports a rationale.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

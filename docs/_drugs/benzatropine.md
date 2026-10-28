@@ -50,10 +50,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Parkinson disease and related movement disorders (parkinsonian syndromes, basal ganglia disease, focal hand dystonia, blepharospasm) |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.17% |
+| TxGNN Prediction Score | 0.9917 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ PLA2G6-associated neurodegeneration includes infantile neuroaxonal dystrophy and
 
 This link is unverified. Nothing in the data suggests benzatropine acts on the underlying PLA2G6 / phospholipid metabolism defect, so any benefit would likely be symptomatic only. Anticholinergic side effects (cognitive impairment, sedation, constipation, urinary retention) are also a concern in a progressive neurodegenerative population that often includes children.
 
-A second prediction, **attention deficit-hyperactivity disorder** (score 99.03%), has no supporting trials or literature and a weak mechanistic rationale. Anticholinergic burden typically impairs attention and memory, which runs counter to the therapeutic goal. It should be treated as a hypothesis-generating signal only.
+A second prediction, **attention deficit-hyperactivity disorder** (score 0.9903), has no supporting trials or literature and a weak mechanistic rationale. Anticholinergic burden typically impairs attention and memory, which runs counter to the therapeutic goal. It should be treated as a hypothesis-generating signal only.
 
 ---
 

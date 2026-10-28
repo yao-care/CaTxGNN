@@ -6,9 +6,9 @@ nav_order: 877
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
-description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Erectile dysfunction, benign prostatic hyperplasia…"
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tadalafil
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Tadalafil: From Erectile Dysfunction and Pulmonary Hypertension to Ambras-Type Hypertrichosis Universalis Congenita
+## Tadalafil: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Erectile dysfunction, benign prostatic hyperplasia, pulmonary hypertension, psychologic dyspareunia, premature ejaculation (the Health Canada licence records contain no indication text, so these come from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -66,13 +66,13 @@ The model also ranked the following conditions. None has any clinical trial supp
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Hypertrichosis | 99.98% | L5 | Speculative link; may reflect an adverse-effect signal |
-| 3 | Malformation syndrome with odontal and/or periodontal component | 99.97% | L5 | No identifiable mechanistic link |
-| 4 | Syndrome with Dandy-Walker malformation as major feature | 99.97% | L5 | Structural brain anomaly; no expected benefit |
-| 5 | Isolated genetic hair shaft abnormality | 99.96% | L5 | No plausible pathway |
-| 6 | Familial isolated trichomegaly | 99.65% | L5 | No established mechanism |
-| 7 | Kyphoscoliotic heart disease | 99.43% | L5 | Partial rationale through secondary pulmonary hypertension, but no data |
-| 8 | Migraine with brainstem aura | 99.08% | L4 | Only a case report, and it suggests tadalafil may trigger aura |
+| 2 | Hypertrichosis | 0.9998 | L5 | Speculative link; may reflect an adverse-effect signal |
+| 3 | Malformation syndrome with odontal and/or periodontal component | 0.9997 | L5 | No identifiable mechanistic link |
+| 4 | Syndrome with Dandy-Walker malformation as major feature | 0.9997 | L5 | Structural brain anomaly; no expected benefit |
+| 5 | Isolated genetic hair shaft abnormality | 0.9996 | L5 | No plausible pathway |
+| 6 | Familial isolated trichomegaly | 0.9965 | L5 | No established mechanism |
+| 7 | Kyphoscoliotic heart disease | 0.9943 | L5 | Partial rationale through secondary pulmonary hypertension, but no data |
+| 8 | Migraine with brainstem aura | 0.9908 | L5 | Only a case report, and it suggests tadalafil may trigger aura |
 
 ## Clinical Trial Evidence
 

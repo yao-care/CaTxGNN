@@ -50,10 +50,10 @@ This is a model-only signal and should be treated as a hypothesis, not as eviden
 |------|------|
 | Original Indication | Acute intermittent porphyria |
 | Predicted New Indication | Thrombocytopenic purpura |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model-only signal and should be treated as a hypothesis, not as eviden
 
 Currently, detailed mechanism of action data is not available. Based on known information, hemin supplies heme and is known to induce heme oxygenase-1. Its efficacy in acute intermittent porphyria is established, because replenishing heme suppresses the overactive heme-synthesis pathway in that disease.
 
-No established link between hemin and platelet disorders such as immune thrombocytopenia (ITP) or thrombotic thrombocytopenic purpura (TTP) is documented in the data compiled for this report. The very high TxGNN score (99.79%) is not corroborated by any trial or publication. It most likely reflects associations within the knowledge graph rather than demonstrated biology.
+No established link between hemin and platelet disorders such as immune thrombocytopenia (ITP) or thrombotic thrombocytopenic purpura (TTP) is documented in the data compiled for this report. The very high TxGNN model (deep learning) score (0.9979) is not corroborated by any trial or publication. It comes from the model and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other nine top-ranked predictions are all bleeding, clotting, or complement-related conditions: hemophilia, C1 inhibitor deficiency, acquired coagulation factor deficiency, serpinopathy, hereditary angioedema, inherited thrombophilia, hemophilia in female carriers, von Willebrand disease, and congenital factor XI deficiency. None has supporting clinical evidence either. Several raise safety concerns, because hemin has been reported to have mild anticoagulant effects and a risk of thrombophlebitis.
 

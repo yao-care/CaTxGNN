@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Perphenazine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 724
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Perphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L4). Approved use: Schizophrenia"
 monitor_inn: "PERPHENAZINE"
@@ -14,7 +14,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 # Perphenazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Perphenazine: From Schizophrenia to Retinal Dystrophy (With or Without Extraocular Anomalies)
+## Perphenazine: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 |------|------|
 | Original Indication | Schizophrenia; mixed anxiety and depressive disorder |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not currently available. Based on known inf
 
 The only supporting item is a 1964 case report describing pigmentary retinopathy in a patient taking very high doses of **thioridazine**, a different phenothiazine. That is a drug-induced retinal toxicity signal, not a therapeutic one. Phenothiazines as a class carry a known risk of retinal toxicity, so this link raises a safety concern rather than a repurposing rationale.
 
-The high TxGNN score (99.96%) is therefore not backed by any clinical or mechanistic evidence for perphenazine. It most likely reflects proximity within the knowledge graph and should be treated as a hypothesis only.
+The high TxGNN score (0.9996) is therefore not backed by any clinical or mechanistic evidence for perphenazine. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis only.
 
 ---
 
@@ -107,7 +107,6 @@ Currently no related clinical trials registered.
 **Rationale:**
 The retinal dystrophy prediction rests on a single 1964 case report of toxicity from a different drug. There are no trials and no plausible mechanism. The evidence points toward a safety risk rather than a benefit, so the prediction should not advance on current data.
 
-**Note on other predictions:** Among the other predicted indications, only **anxiety disorder** (TxGNN score 99.53%) has real supporting evidence. It is already close to perphenazine's labeled use in mixed anxiety and depression, usually as a combination with amitriptyline. Its evidence is L3 with a "Proceed with Guardrails" recommendation. It rests on several older, mostly combination-therapy studies (including a 1968 double-blind study), a 2006 review of antipsychotics for anxiety, and one terminated Phase 3 pharmacovigilance study in elderly patients (NCT02374567). It is better viewed as an extension of an existing use than as a new repurposing. If pursued, it would need guardrails for sedation, extrapyramidal effects and the heavy interaction burden, especially in older adults.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to assess any biological link to retinal disease

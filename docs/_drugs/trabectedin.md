@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Trabectedin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 925
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Trabectedin: predicted new indication Female breast carcinoma (evidence level L3). Approved use: Ovarian cancer"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma"]
 # Trabectedin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **1 registered clinical trial** (a QT-interval safety study, not an efficac
 |------|------|
 | Original Indication | Ovarian cancer (the Health Canada licence record contains no indication text) |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -130,7 +130,7 @@ Warnings and contraindications from the Canadian package insert are not availabl
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale is plausible, particularly for BRCA-deficient and triple-negative breast cancer, and the TxGNN score is high (99.73%). However, the only registered trial is a QT-safety study. Efficacy support comes from Phase 2 publications whose results are not available in the compiled data. Package insert warnings and contraindications are also missing, so safety screening cannot proceed.
+The mechanistic rationale is plausible, particularly for BRCA-deficient and triple-negative breast cancer, and the TxGNN score is high (0.9973). However, the only registered trial is a QT-safety study. Efficacy support comes from Phase 2 publications whose results are not available in the compiled data. Package insert warnings and contraindications are also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
 - The Health Canada package insert (warnings, contraindications, approved indications, dosage form)

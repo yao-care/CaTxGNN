@@ -48,17 +48,17 @@ This is a computational prediction only.
 |------|------|
 | Original Indication | Not available in the compiled data |
 | Predicted New Indication | Acute lymphoblastic leukemia |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled records. Based on the available description, sotatercept is an activin receptor type IIA-Fc fusion protein. It traps activin and related TGF-beta superfamily ligands, such as activins and GDF8/11.
 
-Activin signaling has been implicated in the regulation of blood cell formation, which is the only loose biological connection to acute lymphoblastic leukemia (ALL). However, the data compiled for this report show no direct mechanistic or clinical link to ALL. The high TxGNN score is a computational prediction, and it likely reflects proximity in the knowledge graph rather than validated biology.
+Activin signaling has been implicated in the regulation of blood cell formation, which is the only loose biological connection to acute lymphoblastic leukemia (ALL). However, the data compiled for this report show no direct mechanistic or clinical link to ALL. The high TxGNN score is a computational prediction from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Because the original indication is not available, the relationship between the original and new indications cannot be assessed.
 
@@ -68,15 +68,15 @@ The model also ranked the following diseases highly. None has any trial or liter
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Severe nonproliferative diabetic retinopathy | 99.77% | Speculative link through retinal vascular remodeling. Ocular and vascular safety of a systemic activin trap is unaddressed. |
-| 3 | Diabetic retinopathy | 99.72% | Same rationale as rank 2. |
-| 4 | Drug-induced osteoporosis | 99.65% | Activin inhibition is biologically plausible in bone, and preclinical work has shown bone-anabolic effects. This is the most mechanistically coherent candidate, but no clinical evidence was supplied. |
-| 5 | Diabetic cataract | 99.49% | TGF-beta signaling is involved in lens epithelial-mesenchymal transition, but there is no evidence linking sotatercept to this condition. |
-| 6 | HER2 positive breast carcinoma | 99.43% | Activin and TGF-beta roles in breast cancer are context-dependent, so the direction of effect is uncertain. |
-| 7 | Transitional cell carcinoma | 99.39% | No direct rationale. The effect could be beneficial or detrimental. |
-| 8 | Prostatic urethra urothelial carcinoma | 99.36% | Likely driven by similarity to related urothelial cancer nodes. |
-| 9 | Kidney pelvis sarcomatoid transitional cell carcinoma | 99.36% | Likely a graph-proximity artifact. |
-| 10 | Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 99.34% | The near-identical scores across urothelial subtypes suggest a shared graph-based artifact. |
+| 2 | Severe nonproliferative diabetic retinopathy | 0.9977 | Speculative link through retinal vascular remodeling. Ocular and vascular safety of a systemic activin trap is unaddressed. |
+| 3 | Diabetic retinopathy | 0.9972 | Same rationale as rank 2. |
+| 4 | Drug-induced osteoporosis | 0.9965 | Activin inhibition is biologically plausible in bone, and preclinical work has shown bone-anabolic effects. This is the most mechanistically coherent candidate, but no clinical evidence was supplied. |
+| 5 | Diabetic cataract | 0.9949 | TGF-beta signaling is involved in lens epithelial-mesenchymal transition, but there is no evidence linking sotatercept to this condition. |
+| 6 | HER2 positive breast carcinoma | 0.9943 | Activin and TGF-beta roles in breast cancer are context-dependent, so the direction of effect is uncertain. |
+| 7 | Transitional cell carcinoma | 0.9939 | No direct rationale. The effect could be beneficial or detrimental. |
+| 8 | Prostatic urethra urothelial carcinoma | 0.9936 | Likely driven by similarity to related urothelial cancer nodes. |
+| 9 | Kidney pelvis sarcomatoid transitional cell carcinoma | 0.9936 | The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| 10 | Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 0.9934 | The near-identical scores across urothelial subtypes come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
 
 ## Clinical Trial Evidence
 

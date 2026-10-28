@@ -50,10 +50,10 @@ but **no clinical trials and no directly relevant publications** currently suppo
 |------|------|
 | Original Indication | Hairy cell leukemia; hairy cell leukemia variant; relapsing-remitting multiple sclerosis (the Canadian license records provide no indication text) |
 | Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but **no clinical trials and no directly relevant publications** currently suppo
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, cladribine is a purine nucleoside analog. It is activated by deoxycytidine kinase (dCK), causing DNA strand breaks and apoptosis, mainly in lymphocytes and monocytes. This explains its established use in lymphoid malignancies and its role in multiple sclerosis.
 
-The link to the predicted indication is weak. Rhabdomyosarcoma is a solid mesenchymal tumour, not a lymphoid cancer, and no cladribine-specific mechanism has been established for it. The six highest-ranked predictions are all rhabdomyosarcoma-related (embryonal subtypes at the vagina, bile duct, and prostate, plus the parent disease). Their scores (0.997–0.998) are likely correlated through the same knowledge-graph neighbourhood, so they should not be read as independent confirmations. Before any clinical consideration, preclinical validation would be needed, such as in vitro sensitivity and dCK expression in rhabdomyosarcoma cells.
+The link to the predicted indication is weak. Rhabdomyosarcoma is a solid mesenchymal tumor, not a lymphoid cancer, and no cladribine-specific mechanism has been established for it. The six highest-ranked predictions are all rhabdomyosarcoma-related (embryonal subtypes at the vagina, bile duct, and prostate, plus the parent disease). Their TxGNN model (deep learning) scores (0.9974–0.9977) may reflect similarities the model learned between related diseases, not biological evidence, so they should not be read as independent confirmations. Before any clinical consideration, preclinical validation would be needed, such as in vitro sensitivity and dCK expression in rhabdomyosarcoma cells.
 
 ---
 
@@ -107,7 +107,7 @@ No literature directly supports the lead prediction. The only publication retrie
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: kidney disease, pyoureter, thrombocytopenia, hyperuricemia, neutropenia, agranulocytosis, peripheral nervous system disease, peripheral neuropathy, anemia, and macrocytic anemia.
+- **Contraindications (TxGNN model (deep learning) output, not label text; may reflect similarities the model learned between related diseases, not biological evidence)**: kidney disease, pyoureter, thrombocytopenia, hyperuricemia, neutropenia, agranulocytosis, peripheral nervous system disease, peripheral neuropathy, anemia, and macrocytic anemia.
 - **Drug Interactions**: 100 interactions were identified. The main ones include:
   - **Major**: corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone), deferiprone, and radiopharmaceuticals and radioimmunotherapy agents (ibritumomab tiuxetan, iobenguane I-131, tositumomab, samarium-153 lexidronam, strontium-89 chloride).
   - **Moderate**: palifermin, dipyridamole, cilostazol, and eltrombopag.

@@ -4,17 +4,17 @@ title: Carvedilol
 parent: Model Prediction Only (L5)
 nav_order: 161
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-13
-description: "Carvedilol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+last_modified_at: 2026-10-27
+description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Carvedilol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,82 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Carvedilol: From Hypertension to Malignant Renovascular Hypertension
+## Carvedilol: non-selective beta-blocker with alpha-1 blocking activity → malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Carvedilol is a combined beta- and alpha-1 adrenergic blocker, originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
-but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. It is a model prediction only.
+Carvedilol is a beta-blocker that also blocks alpha-1 adrenergic receptors and has antioxidant properties, and it is currently marketed in Canada.
+The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**.
+**No clinical trials and no publications** on this disease were found in the data compiled for this report, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.55% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, carvedilol is a non-selective beta-blocker with additional alpha-1 adrenergic blocking activity. Its blood-pressure-lowering efficacy in hypertension is established, so a mechanistic link to other hypertensive conditions is plausible.
+Detailed mechanism-of-action data for carvedilol is not available in the data compiled for this report. Based on general pharmacology, carvedilol lowers blood pressure by blocking beta and alpha-1 adrenergic receptors. It also has antioxidant activity, which could in theory help protect the kidney from the injury caused by severely raised blood pressure.
 
-Malignant renovascular hypertension is driven mainly by activation of the renin-angiotensin system due to renal artery stenosis. Carvedilol's beta-blockade can reduce renin release and its alpha-1 blockade causes vasodilation, so a partial benefit is conceivable. However, this is reasoning from general pharmacology, not evidence. Malignant hypertension is also usually an acute emergency managed with parenteral agents, which limits the relevance of an oral drug.
-
-The TxGNN score (99.55%) is a model output only. No clinical trials or literature were found for this indication.
-
-### Other Predicted Indications (for context)
-
-| Rank | Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.55% | L5 | No trials or literature; acute emergency usually treated with parenteral agents |
-| 3 | Pulmonary hypertension with unclear multifactorial mechanism | 99.54% | L5 | Beta-blockers are approached with caution because of right ventricular function concerns |
-| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.54% | L4 | Indirect preclinical evidence only (see below) |
-| 5 | Braddock syndrome | 99.37% | L5 | Very rare genetic disorder; no plausible mechanistic link evident |
-
-For rank 4, a rat study (PMID 26291659) found carvedilol reversed hypertension induced by chronic intermittent hypoxia, and a rat study of adrenergic blockade (PMID 20508210) reported reversal of right heart remodelling in pulmonary hypertensive rats. These are animal data measuring systemic blood pressure or right heart changes, not pulmonary arterial pressure in patients. A small crossover study (PMID 24798657) compared carvedilol with nifedipine on sleep blood pressure in hypertensive patients with sleep apnoea. Most other retrieved papers were off-target.
+The link to malignant hypertensive renal disease is therefore plausible only at a theoretical level. Malignant hypertension with kidney involvement is an acute emergency that is usually managed with intravenously administered agents. An oral beta-blocker is not a typical first-line choice. No study in the compiled data examines carvedilol in this condition, and the score of 0.9955 is a model output, not clinical evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for malignant renovascular hypertension.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for malignant renovascular hypertension.
+Currently no related literature available.
 
 ## Canada Market Information
 
-Carvedilol is marketed in Canada with 20 valid single-ingredient licences (no combination products, none cancelled). The data compiled for this report do not include dosage forms or approved indication text. Five main authorizations:
+Health Canada records show 20 valid single-ingredient carvedilol licences, with none cancelled. The records may be partial. The main authorizations are listed below. Dosage form and indication text are not recorded for these entries.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02324520 | CARVEDILOL | Not available | Not available |
-| 02368900 | JAMP-CARVEDILOL | Not available | Not available |
-| 02247935 | APO-CARVEDILOL | Not available | Not available |
-| 02252309 | TEVA-CARVEDILOL | Not available | Not available |
-| 02245914 | PMS-CARVEDILOL | Not available | Not available |
+| DIN | Product Name |
+|---------|------|
+| 02324520 | CARVEDILOL |
+| 02368900 | JAMP-CARVEDILOL |
+| 02247935 | APO-CARVEDILOL |
+| 02252309 | TEVA-CARVEDILOL |
+| 02245914 | PMS-CARVEDILOL |
 
 ## Safety Considerations
 
-- **Contraindications (from the knowledge graph, not label text)**: liver failure; asthma (including intrinsic and allergic asthma); bronchitis; pulmonary emphysema and bronchial disease; diabetes mellitus and diabetic ketoacidosis; hypotensive disorder; peripheral vascular disease (including intermittent claudication and peripheral arterial disease); atrioventricular block; sick sinus syndrome (including the familial form); Prinzmetal angina; anaphylaxis; intraoperative floppy iris syndrome.
-- **Drug Interactions**: 100 interactions were identified. The main ones in the data compiled for this report:
-  - **Major**: epinephrine.
-  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), anticholinergics (atropine, hyoscyamine), bupropion, morphine, lorcaserin, canagliflozin, acetohexamide, and calcium salts (phosphate, acetate, carbonate, citrate).
-  - **Minor**: acetylsalicylic acid, aluminum hydroxide, attapulgite.
-- **Relevance to the predicted indications**: The listed contraindications involving the lungs (asthma, emphysema, bronchial disease) and the caution regarding beta-blockers in pulmonary hypertension are directly relevant if pulmonary indications are pursued. Beta-blocker intoxication can also be severe (PMID 10862260).
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for these.
 
-Please refer to the package insert for label warnings, as these were not available in the data compiled for this report.
+- **Drug Interactions**: The interaction screen was completed and returned 100 interacting drugs. The first 20 were reviewed.
+  - **Major**: epinephrine.
+  - **Moderate**, among others:
+    - corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide);
+    - anticholinergics (atropine, hyoscyamine);
+    - morphine;
+    - bupropion;
+    - lorcaserin;
+    - canagliflozin;
+    - acetohexamide;
+    - calcium salts.
+  - **Minor**, among others: acetylsalicylic acid, aluminum hydroxide, attapulgite.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no clinical trials or literature for malignant renovascular hypertension (evidence level L5). Carvedilol is already marketed for hypertension in Canada, which is reassuring on availability, but this does not establish benefit in this specific, acute and severe condition.
+The prediction has a high model score but no supporting clinical trial or publication for this disease, so the evidence level is L5. Malignant hypertensive renal disease is an acute condition usually treated with other agents, and no data show a benefit from carvedilol.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A targeted literature and trial search for carvedilol in renovascular and malignant hypertension
-- Review of the relevance of an oral agent to an emergency setting usually managed with parenteral therapy
-- If pulmonary hypertension is pursued instead, a dedicated safety assessment of beta-blockade and right ventricular function, with clinical rather than animal-only evidence
+- Mechanism-of-action data for carvedilol
+- Package insert warnings and contraindications from Health Canada
+- A literature review and any clinical or preclinical studies of carvedilol in hypertensive kidney injury
+- Clinical input on whether an oral beta-blocker has a role in this acute setting
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

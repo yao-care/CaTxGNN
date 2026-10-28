@@ -6,9 +6,9 @@ nav_order: 764
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
-description: "Prednicarbate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Inflammatory dermatoses, including atopic dermatitis…"
 monitor_inn: "PREDNICARBATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
+description: "Prednicarbate: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prednicarbate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Prednicarbate: From Inflammatory Dermatoses to Vulvar Inverted Follicular Keratosis
+## Prednicarbate: Vulvar inverted follicular keratosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials and no publications** were found to support this direct
 
 | Item | Content |
 |------|------|
-| Original Indication | Inflammatory dermatoses, including atopic dermatitis, contact dermatitis, seborrheic dermatitis and lichen disease (Health Canada indication text is not available; taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -72,12 +72,12 @@ The model also ranked the following diseases highly. None has trial or literatur
 
 | Rank | Predicted Indication | Score | Key Considerations |
 |------|------|------|------|
-| 2 | Hypertrophic lichen planus | 99.64% | Topical steroids are first-line for lichen planus, but thick hypertrophic lesions usually need super-potent steroids or intralesional therapy, so a mid-potency agent may be insufficient. |
-| 3 | Lichen planus pigmentosus | 99.64% | Topical steroids are sometimes used, but the response is inconsistent and pigmentation often persists. |
-| 4 | Annular atrophic lichen planus | 99.64% | The mechanism is plausible, but prolonged steroid use may worsen the atrophy. |
-| 5 | Lichen planus pemphigoides | 99.53% | Localized disease may respond to topical steroids, but moderate to severe disease usually needs systemic therapy. |
-| 6 | 2-Hydroxyethyl methacrylate sensitization | 99.47% | This overlaps with the existing contact dermatitis indication and may ease symptoms, but it does not treat the sensitization. Allergen avoidance remains the main management. |
-| 7 | Primary cutaneous B-cell lymphoma | 99.40% | The prediction is driven by the existing T-cell lymphoma use. B-cell lymphomas are biologically distinct, and topical steroids have no established disease-modifying role. |
+| 2 | Hypertrophic lichen planus | 0.9964 | Topical steroids are first-line for lichen planus, but thick hypertrophic lesions usually need super-potent steroids or intralesional therapy, so a mid-potency agent may be insufficient. |
+| 3 | Lichen planus pigmentosus | 0.9964 | Topical steroids are sometimes used, but the response is inconsistent and pigmentation often persists. |
+| 4 | Annular atrophic lichen planus | 0.9964 | The mechanism is plausible, but prolonged steroid use may worsen the atrophy. |
+| 5 | Lichen planus pemphigoides | 0.9953 | Localized disease may respond to topical steroids, but moderate to severe disease usually needs systemic therapy. |
+| 6 | 2-Hydroxyethyl methacrylate sensitization | 0.9947 | This overlaps with the existing contact dermatitis indication and may ease symptoms, but it does not treat the sensitization. Allergen avoidance remains the main management. |
+| 7 | Primary cutaneous B-cell lymphoma | 0.9940 | The prediction is driven by the existing T-cell lymphoma use. B-cell lymphomas are biologically distinct, and topical steroids have no established disease-modifying role. |
 
 ---
 

@@ -4,17 +4,17 @@ title: Rimegepant
 parent: Model Prediction Only (L5)
 nav_order: 810
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Rimegepant: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine disorder (migraine with or without aura)"
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Rimegepant: From Migraine to Migraine with Brainstem Aura
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rimegepant is a CGRP receptor antagonist originally used to treat migraine, both acute treatment and prevention of episodic migraine.
-The TxGNN model predicts it may be useful for **migraine with brainstem aura**, a subtype of migraine.
+The TxGNN model predicts it may be useful for **atrophoderma vermiculata**.
 There are **no registered clinical trials** for this specific subtype, but **16 publications** on rimegepant in migraine give indirect support.
 
 ---
@@ -48,12 +48,12 @@ There are **no registered clinical trials** for this specific subtype, but **16 
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (migraine with or without aura) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 (indirect evidence only; no studies in this subtype) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9976 |
+| Evidence Level | L5 (indirect evidence only; no studies in this subtype) |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,6 @@ There are **no registered clinical trials** for this specific subtype, but **16 
 
 Rimegepant is a small-molecule calcitonin gene-related peptide (CGRP) receptor antagonist. Blocking CGRP signalling is the mechanism behind its approved use in the acute treatment of migraine with or without aura and in preventing episodic migraine. The mechanism of action data compiled for this report is not available, so this description relies on published literature about the drug class.
 
-Migraine with brainstem aura is a subtype of migraine. This is therefore not a true repurposing case. The predicted indication sits inside the disease family rimegepant is already approved for, and the CGRP pathway plausibly applies to it.
 
 The supporting evidence is indirect. The publications compiled are general migraine reviews, approval summaries, safety and pharmacokinetic studies, and a meta-analysis. None of them is a study in patients with brainstem aura, so the link is inferred from the parent indication.
 

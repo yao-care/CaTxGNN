@@ -4,17 +4,17 @@ title: Aminophylline
 parent: Moderate Evidence (L3-L4)
 nav_order: 51
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the Canadian licence data"
 monitor_inn: "Aminophylline"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
 ---
 
 # Aminophylline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Aminophylline is a methylxanthine drug (an adenosine receptor antagonist and pho
 |------|------|
 | Original Indication | Not specified in the Canadian licence data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,15 +68,14 @@ This reasoning is mechanistic inference. No trial has tested aminophylline in mi
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Migraine with brainstem aura | 99.84% | L5 | No specific evidence; extrapolated from general migraine |
-| Migraine with or without aura, susceptibility to | 99.82% | L4 | Same migraine papers; adds no independent evidence |
-| Atrophoderma vermiculata | 99.60% | L5 | No plausible mechanistic link |
-| Ulerythema ophryogenesis | 99.50% | L5 | No plausible mechanistic link |
-| Prinzmetal angina | 99.33% | L4 | Evidence suggests a safety signal (coronary vasospasm), not benefit |
-| Pulmonary hypertension | 99.23% | L3 | Small, old haemodynamic studies and one Phase 1 safety trial |
-| Sciatic neuropathy | 99.07% | L4 | One indirect preclinical paper |
-| Hyperthyroidism | 99.06% | L4 | Literature concerns interactions; potentially harmful |
-| Kyphoscoliotic heart disease | 99.01% | L5 | Prediction only |
+| Migraine with brainstem aura | 0.9984 | L5 | No specific evidence; extrapolated from general migraine |
+| Atrophoderma vermiculata | 0.9960 | L5 | No plausible mechanistic link |
+| Ulerythema ophryogenesis | 0.9950 | L5 | No plausible mechanistic link |
+| Prinzmetal angina | 0.9933 | L5 | Evidence suggests a safety signal (coronary vasospasm), not benefit |
+| Pulmonary hypertension | 0.9923 | L3 | Small, old haemodynamic studies and one Phase 1 safety trial |
+| Sciatic neuropathy | 0.9907 | L5 | One indirect preclinical paper |
+| Hyperthyroidism | 0.9906 | L4 | Literature concerns interactions; potentially harmful |
+| Kyphoscoliotic heart disease | 0.9901 | L5 | Prediction only |
 
 Among these, pulmonary hypertension has the most developed evidence base, though it is still modest.
 
@@ -132,7 +131,7 @@ Please refer to the package insert for warnings and contraindications, as this i
 **Decision: Hold**
 
 **Rationale:**
-The migraine prediction has a high model score (99.88%) and a plausible adenosine-antagonism rationale, but the evidence is limited to a narrative review, case reports and mechanistic inference, with no registered trials. The Canadian licence record also lacks indication and safety text, so safety screening cannot yet proceed.
+The migraine prediction has a high model score (0.9988) and a plausible adenosine-antagonism rationale, but the evidence is limited to a narrative review, case reports and mechanistic inference, with no registered trials. The Canadian licence record also lacks indication and safety text, so safety screening cannot yet proceed.
 
 **To proceed, the following is needed:**
 - Health Canada package insert (warnings, contraindications, approved indications, dosage form) for DIN 00582662

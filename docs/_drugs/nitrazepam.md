@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitrazepam
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 656
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Nitrazepam: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L4). Approved use: Insomnia"
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
+description: "Nitrazepam: predicted new indication Wernicke-Korsakoff syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Nitrazepam: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+## Nitrazepam: Wernicke-Korsakoff syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nitrazepam is a benzodiazepine originally used to treat insomnia and early myoclonic encephalopathy.
-The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, but this is essentially a restatement of its original insomnia use.
+The TxGNN model (deep learning) predicts it may be effective for **Wernicke-Korsakoff syndrome**.
 Currently there are **0 registered clinical trials** and **20 publications** (mostly reviews and older clinical reports) linked to this prediction.
 
 ---
@@ -48,12 +48,12 @@ Currently there are **0 registered clinical trials** and **20 publications** (mo
 
 | Item | Content |
 |------|------|
-| Original Indication | Insomnia; early myoclonic encephalopathy (the Canadian licence records contain no indication text) |
-| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Wernicke-Korsakoff syndrome |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,8 @@ Currently there are **0 registered clinical trials** and **20 publications** (mo
 
 Detailed mechanism of action data is not currently available in the compiled data. Based on established class pharmacology, nitrazepam is a benzodiazepine that enhances inhibitory neurotransmission by positively modulating GABA-A receptors, producing sedative-hypnotic effects.
 
-"Sleep disorder, initiating and maintaining sleep" is essentially the same condition as insomnia. The high prediction score therefore most likely reflects overlap with the existing indication rather than a genuinely new use. This should be treated as a confirmation of known efficacy, not a novel repurposing opportunity.
 
-Two other predictions were also generated: acute encephalopathy with biphasic seizures and late reduced diffusion (score 99.59%) and Wernicke-Korsakoff syndrome (score 99.31%). Both are supported by computational prediction only, with no trials or literature. Enhanced GABAergic inhibition might theoretically reduce seizures in the first, and benzodiazepines are used for alcohol withdrawal that can accompany the second. Neither addresses the underlying disease, and sedation, respiratory depression, cognitive impairment and misuse risk are concerns in these populations.
+The TxGNN model (deep learning) predicted Wernicke-Korsakoff syndrome with a score of 0.9931. This is supported by computational prediction only, with no trials or literature. Benzodiazepines are used for alcohol withdrawal that can accompany the condition. They do not address the underlying disease, and sedation, respiratory depression, cognitive impairment and misuse risk are concerns in this population.
 
 ---
 

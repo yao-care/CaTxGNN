@@ -50,10 +50,10 @@ The score reflects network proximity within the MPS disease family, not demonstr
 |------|------|
 | Original Indication | Mucopolysaccharidosis (MPS IVA, Morquio A syndrome) |
 | Predicted New Indication | Scheie syndrome |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism-of-action data is not available in the data compiled for this
 
 Scheie syndrome (attenuated MPS I) is caused by a deficiency of a different enzyme, alpha-L-iduronidase. This leads to accumulation of dermatan sulfate and heparan sulfate, not the substrates that elosulfase alfa acts on. The two diseases therefore have different enzyme defects and different substrates. The only shared feature is that both are lysosomal storage disorders treated by enzyme replacement.
 
-The high TxGNN score most likely reflects the closeness of these diseases within the MPS family in the knowledge graph, rather than a shared enzymatic mechanism. The prediction is plausible only as a class-level association and is not mechanistically supported.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases within the MPS family, not biological evidence or a shared enzymatic mechanism. The prediction is plausible only as a class-level association and is not mechanistically supported.
 
 ---
 

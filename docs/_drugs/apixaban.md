@@ -4,17 +4,17 @@ title: Apixaban
 parent: Moderate Evidence (L3-L4)
 nav_order: 65
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Apixaban: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the Canadian licence data compiled for this report"
 monitor_inn: "Apixaban"
-predicted_indications: ["migraine disorder", "migraine with or without aura, susceptibility to", "leprosy", "rheumatoid arthritis", "migraine with brainstem aura", "Prinzmetal angina", "brachydactyly-syndactyly syndrome", "pulmonary hypertension", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder"]
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ The prediction is essentially computational and is not supported by direct clini
 |------|------|
 | Original Indication | Not available in the Canadian licence data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.02% |
+| TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -66,7 +66,6 @@ There is no direct mechanistic rationale for factor Xa inhibition in migraine. O
 
 The available case reports point in opposite directions. One describes migraine with aura worsening after starting apixaban. Another describes aura resolving on warfarin but not on apixaban. The high TxGNN score is a computational prediction and should not be read as clinical support.
 
-Related predictions in the same ranking (migraine susceptibility, migraine with brainstem aura) rely on the same case reports and share the same limitations.
 
 ---
 
@@ -125,7 +124,6 @@ The evidence consists of a computational prediction, one unrelated stroke-preven
 - Approved indication text for the Canadian licences
 - Prospective or controlled data in a defined subgroup (for example migraine with PFO or antiphospholipid antibodies) before any further consideration
 
-**Other predicted indications of note:** Rheumatoid arthritis has a preclinical signal (apixaban reduced arthritis in a rat model via FXa-mediated JAK2/STAT3 and MAPK signalling, PMID 32141012), and pulmonary hypertension has an indirect thromboembolic link, including a registered-protocol RCT in systemic sclerosis-related pulmonary arterial hypertension (SPHInX, PMID 27932335). Both are flagged as research questions rather than candidates for advancement. The remaining predictions (leprosy, Prinzmetal angina and several rare congenital syndromes) have no plausible mechanistic link and no supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

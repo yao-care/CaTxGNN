@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gadodiamide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 422
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Gadodiamide: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not specified in the available licence data (gadodiamide is a diagnos…"
 monitor_inn: "Gadodiamide"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "osteoarthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hemoglobinopathy", "brachyolmia", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: ["rheumatoid arthritis"]
 ---
 
 # Gadodiamide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,17 +46,17 @@ Gadodiamide is a gadolinium-based contrast agent used in magnetic resonance imag
 |------|------|
 | Original Indication | Not specified in the available licence data (gadodiamide is a diagnostic MRI contrast agent) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.16% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9916 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, gadodiamide is a gadolinium-based contrast agent. It enhances MRI images and has no recognised therapeutic anti-inflammatory activity.
 
-The three publications found (2001–2002) used gadodiamide-enhanced MRI to visualise synovitis, bone marrow oedema and bone erosions in patients with rheumatoid arthritis and other inflammatory joint diseases. This is a **diagnostic** use, not a therapeutic one. The high TxGNN score most likely reflects a knowledge-graph association between the drug and the disease through imaging studies, not a treatment effect. At present there is no sound mechanistic reason to consider gadodiamide a treatment for rheumatoid arthritis.
+The three publications found (2001–2002) used gadodiamide-enhanced MRI to visualize synovitis, bone marrow edema and bone erosions in patients with rheumatoid arthritis and other inflammatory joint diseases. This is a **diagnostic** use, not a therapeutic one. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At present there is no sound mechanistic reason to consider gadodiamide a treatment for rheumatoid arthritis.
 
 ## Clinical Trial Evidence
 
@@ -89,7 +89,7 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph association. The supporting literature describes gadodiamide as an imaging agent, not a therapy, and there are no clinical trials. No therapeutic mechanism is known. The other nine predicted indications (including osteoarthritis, hemoglobinopathy and several rare skeletal dysplasias) have even less support: most have no trials or literature, and for osteoarthritis the two papers found are imaging or biomechanical studies.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The supporting literature describes gadodiamide as an imaging agent, not a therapy, and there are no clinical trials. No therapeutic mechanism is known.
 
 **To proceed, the following is needed:**
 - Mechanism of action data showing a plausible therapeutic pathway

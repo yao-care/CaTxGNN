@@ -4,7 +4,7 @@ title: Sebelipase Alfa
 parent: Model Prediction Only (L5)
 nav_order: 837
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Sebelipase Alfa: predicted new indication Cholesteryl ester storage disease (evidence level L5). Approved use: Wolman disease"
 monitor_inn: "Sebelipase alfa"
@@ -14,7 +14,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 # Sebelipase Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model's top-scoring prediction is Scheie syndrome, but it has no suppo
 |------|------|
 | Original Indication | Wolman disease; lysosomal acid lipase deficiency; lysosomal lipid storage disorder |
 | Predicted New Indication | Cholesteryl ester storage disease (best-supported of the top 10 predictions; the top-ranked prediction, Scheie syndrome, has no evidence) |
-| TxGNN Prediction Score | 99.72% (CESD); 99.80% (Scheie syndrome, rank 1) |
-| Evidence Level | L1 (CESD) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9972 (CESD); 0.9980 (Scheie syndrome, rank 1) |
+| Evidence Level | L5 (CESD) |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (CESD) |
 
 ---
@@ -66,7 +66,7 @@ CESD is the later-onset, attenuated form of LAL deficiency, and Wolman disease i
 Most other top-ranked predictions are not mechanistically supported:
 - **Scheie syndrome and Hurler syndrome** (MPS I) are caused by alpha-L-iduronidase deficiency, a different enzyme acting on different substrates.
 - **Gaucher disease** and **Tay-Sachs disease** involve other enzymes (glucocerebrosidase and hexosaminidase A). Sebelipase alfa does not act on their substrates.
-- **Growth hormone insensitivity syndrome with immune dysregulation 2**, **autosomal ichthyosis syndrome**, **lysosomal storage disease with skeletal involvement** and **benign adrenal neoplasm** have no plausible mechanistic link. They appear to be knowledge-graph artifacts.
+- **Growth hormone insensitivity syndrome with immune dysregulation 2**, **autosomal ichthyosis syndrome**, **lysosomal storage disease with skeletal involvement** and **benign adrenal neoplasm** have no plausible mechanistic link. They appear to be TxGNN model (deep learning) artifacts.
 
 ---
 

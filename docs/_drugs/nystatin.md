@@ -50,10 +50,10 @@ This prediction is largely an extension of the existing vulvovaginal candidiasis
 |------|------|
 | Original Indication | Cutaneous candidiasis, oral candidiasis, candidiasis, vulvovaginal candidiasis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 11 |
+| Canada Market Status | Marketed (valid licenses: 11 of 11) |
+| Number of DINs | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -107,7 +107,7 @@ Eleven valid single-ingredient licences are registered in total; the five above 
 
 ## Safety Considerations
 
-- **Disease associations flagged by the knowledge graph (not label text):** adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease, and hereditary hemorrhagic telangiectasia. These likely reflect combination products containing corticosteroids and should be verified against the product labelling.
+- **Disease associations from the TxGNN model (deep learning), not label text:** adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease, and hereditary hemorrhagic telangiectasia. These associations may reflect similarities the model learned between related diseases, not biological evidence, and likely reflect combination products containing corticosteroids; they should be verified against the product labelling.
 - **Drug Interactions:** The interaction search returned 100 records, but none has a severity rating. Examples include cyclosporine, fluconazole, erythromycin, azithromycin, tramadol, lorazepam, bortezomib, and sildenafil. Clinical significance cannot be judged from these data.
 
 Please refer to the package insert for warnings and contraindications.

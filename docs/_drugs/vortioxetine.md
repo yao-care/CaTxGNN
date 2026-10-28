@@ -4,17 +4,17 @@ title: Vortioxetine
 parent: Model Prediction Only (L5)
 nav_order: 983
 evidence_level: L5
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Vortioxetine: predicted new indication Neurotic disorder (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "VORTIOXETINE"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Because "neurotic disorder" is a legacy, broad diagnostic label that overlaps wi
 |------|------|
 | Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder |
 | Predicted New Indication | Neurotic disorder |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 "Neurotic disorder" is an older, broad category that overlaps heavily with depression and anxiety disorders, which are vortioxetine's established indications. The high TxGNN score most likely reflects this overlap rather than a distinct new use. No specific mechanism has been established for this label.
 
-The other top-ranked predictions are also depression-related (neurotic depression, melancholia, dysthymic disorder). They are mostly on-label or near-label rather than genuine repurposing. Benign paroxysmal torticollis of infancy (score 99.07%) has no plausible mechanistic link, no trials and no literature, and appears to be a model artifact.
+The other top-ranked predictions are also depression-related (neurotic depression, melancholia, dysthymic disorder). They are mostly on-label or near-label rather than genuine repurposing. Benign paroxysmal torticollis of infancy (score 0.9907) has no plausible mechanistic link, no trials and no literature, and appears to be a model artifact.
 
 ---
 

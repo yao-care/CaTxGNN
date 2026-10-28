@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mechlorethamine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 576
-evidence_level: L3
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Mechlorethamine: predicted new indication Lymph node cancer (evidence level L3). Approved use: Mycosis fungoides and variants, primary cutaneous T-cell lymphoma…"
@@ -14,7 +14,7 @@ predicted_indications: ["lymph node cancer", "relapsing-remitting multiple scler
 # Mechlorethamine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Support comes from **0 registered clinical trials** and **20 publications**, mos
 |------|------|
 | Original Indication | Mycosis fungoides and variants, primary cutaneous T-cell lymphoma, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis |
 | Predicted New Indication | Lymph node cancer |
-| TxGNN Prediction Score | 99.43% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9943 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -67,8 +67,8 @@ Currently, detailed mechanism of action data is not available in the data compil
 Historical MOPP regimens (mechlorethamine, vincristine, procarbazine, prednisone) give supporting clinical data. Randomized comparisons of combination regimens exist, such as MOPP versus MOPP/ABVD in advanced Hodgkin disease.
 
 **Other predictions in this data set:**
-- **Follicular lymphoma** (score 99.03%, evidence level L4, "Research Question"): It is a B-cell non-Hodgkin lymphoma and plausibly falls within the labeled class. The literature is indirect, mostly bendamustine (a different alkylator) and aggressive-lymphoma regimens, with some off-topic results. No study directly tests mechlorethamine here, and modern anti-CD20-based regimens have superseded it.
-- **Relapsing-remitting multiple sclerosis** (score 99.13%, evidence level L5, "Hold"): Support is only the model score. Alkylating agents might deplete autoreactive lymphocytes, but there is no trial or literature evidence. Severe toxicity and many approved alternatives make a favourable benefit-risk balance unlikely. A topical gel would not plausibly affect CNS disease.
+- **Follicular lymphoma** (score 0.9903, evidence level L4, "Research Question"): It is a B-cell non-Hodgkin lymphoma and plausibly falls within the labeled class. The literature is indirect, mostly bendamustine (a different alkylator) and aggressive-lymphoma regimens, with some off-topic results. No study directly tests mechlorethamine here, and modern anti-CD20-based regimens have superseded it.
+- **Relapsing-remitting multiple sclerosis** (score 0.9913, evidence level L5, "Hold"): Support is only the model score. Alkylating agents might deplete autoreactive lymphocytes, but there is no trial or literature evidence. Severe toxicity and many approved alternatives make a favourable benefit-risk balance unlikely. A topical gel would not plausibly affect CNS disease.
 
 ---
 
@@ -117,7 +117,7 @@ Currently no related clinical trials registered.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: thrombocytopenia, anaemia, leukopenia, agranulocytosis, neutropenia (including congenital forms), blood coagulation disease, hyperuricemia, and amyloidosis.
+- **Contraindications (TxGNN model (deep learning) associations, not label text; they may reflect similarities the model learned between related diseases, not biological evidence)**: thrombocytopenia, anemia, leukopenia, agranulocytosis, neutropenia (including congenital forms), blood coagulation disease, hyperuricemia, and amyloidosis.
 - **Drug Interactions**: 100 interactions were identified; the main ones from the first 20 reviewed are listed below.
   - **Major**: deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib
   - **Moderate**: palifermin, strontium chloride Sr-89, mercaptopurine, roflumilast, chloramphenicol, zidovudine, azathioprine, aldesleukin, alefacept, alemtuzumab, anakinra, anthrax vaccine, and tetanus toxoid vaccine

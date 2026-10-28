@@ -48,10 +48,10 @@ Chloroprocaine is a short-acting ester-type local anesthetic. The TxGNN model pr
 |------|------|
 | Original Indication | Not specified in the Canadian license record (local anesthesia by drug class) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.01% |
+| TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Chloroprocaine is a short-acting ester-type local anesthetic. The TxGNN model pr
 
 Detailed mechanism of action data is not available in the compiled data. Based on its drug class, chloroprocaine is an ester-type local anesthetic that blocks voltage-gated sodium channels and thereby prevents nerve conduction.
 
-The high prediction score most plausibly reflects a graph-level association between the drug and the disease, not therapeutic potential. Intrathecal or epidural local anesthetics, including chloroprocaine, have been implicated in causing CES. Proposed causes include direct neurotoxicity to nerve roots from high local concentrations, poor distribution in the sacral thecal sac, and preservative or antioxidant effects (such as sodium bisulfite in older formulations).
+The high prediction score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and it does not indicate therapeutic potential. Intrathecal or epidural local anesthetics, including chloroprocaine, have been implicated in causing CES. Proposed causes include direct neurotoxicity to nerve roots from high local concentrations, poor distribution in the sacral thecal sac, and preservative or antioxidant effects (such as sodium bisulfite in older formulations).
 
 No therapeutic mechanism supports use in CES. CES is typically managed by urgent surgical decompression. The prediction should therefore not be read as a repurposing opportunity.
 

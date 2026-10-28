@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ciprofloxacin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 197
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L4). Approved use: Bacterial infections (typhoid fever, salmonellosis…"
@@ -14,7 +14,7 @@ predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hy
 # Ciprofloxacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ but this direction is supported by **no registered clinical trials** and only **
 |------|------|
 | Original Indication | Bacterial infections (typhoid fever, salmonellosis, bacterial pneumonia, anthrax, Pseudomonas aeruginosa infection, shigellosis, among others) |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9987 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
-*Note: The Canadian licence data compiled for this report contain no approved-indication text, so the original indications above come from the knowledge-graph indication list for the drug.*
+*Note: The Canadian licence data compiled for this report contain no approved-indication text, so the original indications above come from the indication list for the drug.*
 
 ---
 

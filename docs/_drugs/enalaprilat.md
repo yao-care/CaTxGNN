@@ -6,9 +6,9 @@ nav_order: 328
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Enalaprilat: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertensive disorder, hypertension, congestive heart failure…"
 monitor_inn: "ENALAPRILAT"
 predicted_indications: ["primary hereditary glaucoma"]
+description: "Enalaprilat: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enalaprilat
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Enalaprilat: From Hypertension and Heart Failure to Primary Hereditary Glaucoma
+## Enalaprilat: Primary hereditary glaucoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder, hypertension, congestive heart failure, heart failure (from the knowledge graph; no approved indication text is available for the Canadian licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.09% |
+| TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

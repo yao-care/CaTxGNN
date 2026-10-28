@@ -48,17 +48,17 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, alfuzosin is a uroselective alpha-1 adrenergic antagonist. Its efficacy in BPH is established, but no mechanistic route to the predicted new indication is known.
 
-Ambras syndrome is a rare genetic disorder caused by chromosomal rearrangements that affect regulation of the TRPS1 gene. No plausible pathway links alpha-1 blockade to this condition. The very high TxGNN score (about 0.99999) most likely reflects graph-topology artifacts shared across a cluster of hypertrichosis and hair-disorder diseases, rather than a true pharmacological signal.
+Ambras syndrome is a rare genetic disorder caused by chromosomal rearrangements that affect regulation of the TRPS1 gene. No plausible pathway links alpha-1 blockade to this condition. The very high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as a cluster of hypertrichosis and hair-disorder diseases, not biological evidence.
 
 The other top predictions (hypertrichosis, dental/periodontal malformation syndromes, Dandy-Walker–type syndromes, hair shaft abnormalities, trichomegaly, allergic urticaria, persistent fetal circulation syndrome, hypotrichosis simplex of the scalp, and congenital hypotrichosis milia) also have no supporting trials or literature. Persistent fetal circulation syndrome has only a loose vasodilation rationale, and it carries a serious hypotension risk in neonates.
 
@@ -97,7 +97,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials or publications, and no plausible mechanism links alpha-1 blockade to Ambras-type hypertrichosis, which is a genetic disorder. The high score probably reflects similarity within a disease cluster in the knowledge graph.
+The prediction rests only on a model score. There are no clinical trials or publications, and no plausible mechanism links alpha-1 blockade to Ambras-type hypertrichosis, which is a genetic disorder. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to allow a proper mechanistic analysis

@@ -6,9 +6,9 @@ nav_order: 869
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "STREPTOMYCIN"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
+description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Streptomycin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Streptomycin: From Pulmonary Tuberculosis to Conjunctivitis
+## Streptomycin: Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The TxGNN model predicts it may be effective for **conjunctivitis**.
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis (the Canadian licence text lists no indication; this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

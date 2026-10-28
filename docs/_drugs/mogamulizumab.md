@@ -4,17 +4,17 @@ title: Mogamulizumab
 parent: Model Prediction Only (L5)
 nav_order: 628
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Mogamulizumab: predicted new indication Prostatic urethra urothelial carcinoma (evidence level L5). Approved use: Mycosis fungoides and variants"
 monitor_inn: "Mogamulizumab"
-predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "middle ear neuroendocrine tumor", "transitional cell carcinoma", "Richter syndrome"]
+predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
 ---
 
 # Mogamulizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Mycosis fungoides and variants; primary cutaneous T-cell lymphoma (approved indication text for the Canadian licence is not available) |
 | Predicted New Indication | Prostatic urethra urothelial carcinoma |
-| TxGNN Prediction Score | 99.44% |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The possible link to urothelial carcinoma is that Treg depletion in the tumour microenvironment could enhance anti-tumour immunity. This is a hypothesis only. Whether urothelial tumours express CCR4 or contain a CCR4+ Treg-rich environment has not been established in the available data.
 
-Other urothelial subtypes also score highly (for example, transitional cell carcinoma at 98.98%, renal pelvis papillary urothelial carcinoma at 99.37%, and bladder sarcomatoid variant at 99.40%). This pattern suggests a model cluster effect rather than independent evidence. The score is a computational prediction, not clinical evidence.
+Other urothelial subtypes also score highly (for example, renal pelvis papillary urothelial carcinoma at 0.9937 and bladder sarcomatoid variant at 0.9940). This pattern suggests a model cluster effect rather than independent evidence. The score is a computational prediction, not clinical evidence.
 
 ---
 

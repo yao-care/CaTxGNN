@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Clonidine: From Hypertension to Tourette Syndrome
+## Clonidine: From Hypertension to Faciodigitogenital Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ This report covers Tourette syndrome as the prediction with the strongest eviden
 |------|------|
 | Original Indication | Hypertension, open-angle glaucoma, ADHD (the Canadian license records contain no indication text) |
 | Predicted New Indication | Top-ranked by TxGNN: faciodigitogenital syndrome (no evidence, L5, Hold). Best-supported: **Tourette syndrome** |
-| TxGNN Prediction Score | 99.98% for Tourette syndrome (99.999% for the top-ranked faciodigitogenital syndrome) |
-| Evidence Level | L3 (Tourette syndrome) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| TxGNN Prediction Score | 0.9998 for Tourette syndrome (1.0000 for the top-ranked faciodigitogenital syndrome) |
+| Evidence Level | L5 (Tourette syndrome) |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Proceed with Guardrails (Tourette syndrome) |
 
 ---

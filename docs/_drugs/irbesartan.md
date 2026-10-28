@@ -4,7 +4,7 @@ title: Irbesartan
 parent: Model Prediction Only (L5)
 nav_order: 495
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, diabetic nephropathy"
 monitor_inn: "IRBESARTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Irbesartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 ## One-Sentence Summary
 
 Irbesartan is an angiotensin II receptor blocker, originally used to treat hypertension and diabetic nephropathy.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, with a score of 99.3%.
+The TxGNN model (deep learning) predicts it may be effective for **malignant hypertensive renal disease**, with a score of 0.9931.
 However, **no clinical trials or publications** currently support this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
@@ -48,13 +48,13 @@ However, **no clinical trials or publications** currently support this specific 
 |------|------|
 | Original Indication | Hypertension, diabetic nephropathy (the Canadian licence records provide no indication text) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
-Other high-scoring predictions: malignant renovascular hypertension (99.31%), pulmonary hypertension with unclear multifactorial mechanism (99.25%), and pulmonary hypertension owing to lung disease and/or hypoxia (99.25%). The last has preclinical literature (L4).
+Other high-scoring predictions: malignant renovascular hypertension (0.9931), pulmonary hypertension with unclear multifactorial mechanism (0.9925), and pulmonary hypertension owing to lung disease and/or hypoxia (0.9925). The last has preclinical literature (L4).
 
 ## Why is This Prediction Reasonable?
 
@@ -135,7 +135,7 @@ Package insert warnings and contraindications are not available in the data comp
 **Decision: Hold**
 
 **Rationale:**
-The top predictions (malignant hypertensive renal disease and malignant renovascular hypertension) have high scores (99.3%) and a plausible mechanism close to the approved indications. They have no trials or literature behind them (Evidence Level L5). The pulmonary hypertension prediction has only indirect preclinical support (L4). Package insert safety data are missing, which blocks safety screening.
+The top prediction (malignant hypertensive renal disease) has a high score (0.9931) and a plausible mechanism close to the approved indications. It has no trials or literature behind it (Evidence Level L5). The pulmonary hypertension predictions have only indirect preclinical support (L4). Package insert safety data are missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada, including approved indication text and dosage forms

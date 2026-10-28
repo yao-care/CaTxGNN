@@ -6,9 +6,9 @@ nav_order: 408
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
+description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Folic Acid
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Folic Acid: From Vitamin Deficiency and Anemia to Biotin Metabolic Disease
+## Folic Acid: Biotin metabolic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 registered clinical trials** and only **indirect lit
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin deficiency disorder; folic acid deficiency anemia; iron deficiency anemia; hypochromic anemia; deficiency anemia; microcytic anemia (taken from the knowledge-graph indication list, because no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Folate supports one-carbon transfer reactions, such as nucleotide synthesis and homocysteine remethylation. Biotin is a cofactor for carboxylases such as propionyl-CoA carboxylase and pyruvate carboxylase. The two vitamins therefore sit in a related, vitamin-responsive metabolic network.
 
-This link is weak, however. Biotin metabolic diseases (for example biotinidase deficiency and holocarboxylase synthetase deficiency) result from defects in biotin recycling or attachment, and the standard treatment is biotin supplementation. Nothing shows that folic acid corrects these underlying enzyme defects. The high TxGNN score most likely reflects closeness between vitamin-related nodes in the knowledge graph, not a validated therapeutic relationship.
+This link is weak, however. Biotin metabolic diseases (for example biotinidase deficiency and holocarboxylase synthetase deficiency) result from defects in biotin recycling or attachment, and the standard treatment is biotin supplementation. Nothing shows that folic acid corrects these underlying enzyme defects. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a validated therapeutic relationship.
 
 ## Clinical Trial Evidence
 

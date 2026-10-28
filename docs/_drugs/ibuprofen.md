@@ -6,9 +6,9 @@ nav_order: 463
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
-description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ibuprofen
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Ibuprofen: From Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ibuprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,11 +47,11 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, headache disorder, spondyloarthropathy, patent ductus arteriosus (from the knowledge graph; no approved indication text for the Canadian licences was available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -63,18 +63,18 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Acromesomelic dysplasia, Hunter-Thompson type, is a skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, which disrupt limb cartilage formation. COX inhibition would not be expected to correct this developmental defect. No direct mechanistic link is supported by the available data.
 
-The high TxGNN score most likely reflects proximity in the knowledge graph to musculoskeletal conditions that share features with ibuprofen's approved arthritis indications. It does not reflect a biological rationale. At most, ibuprofen might be used for symptomatic pain relief, which is standard supportive care and not disease modification.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as musculoskeletal conditions that share features with ibuprofen's approved arthritis indications, not biological evidence. It does not reflect a biological rationale. At most, ibuprofen might be used for symptomatic pain relief, which is standard supportive care and not disease modification.
 
 The other top-ranked predictions show the same pattern, and none has a plausible mechanism or supporting evidence:
 
 | Rank | Predicted Disease | Score | Assessment |
 |------|------|------|------|
-| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.71% | Genetic skeletal and dental defect; no plausible pharmacological pathway |
-| 3 | Myosclerosis | 99.68% | Speculative; may relieve pain but no evidence of effect on fibrosis |
-| 4 | Brachyolmia | 99.67% | Genetic skeletal dysplasia; likely a graph-association artifact |
-| 5 | Brachydactyly-syndactyly syndrome | 99.66% | Congenital limb malformation; no mechanistic rationale |
-| 6 | Pseudoachondroplasia | 99.66% | Indirect at best; symptomatic joint pain relief only |
-| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.60% | Developmental genetic origin; COX inhibition not relevant |
+| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 0.9971 | Genetic skeletal and dental defect; no plausible pharmacological pathway |
+| 3 | Myosclerosis | 0.9968 | Speculative; may relieve pain but no evidence of effect on fibrosis |
+| 4 | Brachyolmia | 0.9967 | Genetic skeletal dysplasia; likely a similarity the model learned between related diseases |
+| 5 | Brachydactyly-syndactyly syndrome | 0.9966 | Congenital limb malformation; no mechanistic rationale |
+| 6 | Pseudoachondroplasia | 0.9966 | Indirect at best; symptomatic joint pain relief only |
+| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9960 | Developmental genetic origin; COX inhibition not relevant |
 
 ---
 
@@ -131,7 +131,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score alone, with no clinical trials, no literature and no plausible mechanistic link to the underlying genetic defect. The score is likely a knowledge-graph artifact.
+The prediction rests on a high model score alone, with no clinical trials, no literature and no plausible mechanistic link to the underlying genetic defect. The score is likely a TxGNN model (deep learning) artifact.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for ibuprofen, and a biological rationale linking COX inhibition to GDF5-related limb development

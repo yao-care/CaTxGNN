@@ -46,10 +46,10 @@ Pegfilgrastim is a long-acting, PEGylated form of granulocyte colony-stimulating
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the Canadian license records contain no indication text) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Currently, detailed mechanism of action data is not available. Based on general 
 
 A speculative link to diabetic retinopathy is that G-CSF may mobilize bone marrow-derived endothelial progenitor cells, which could in theory contribute to repair of damaged retinal blood vessels. The effect could also go the other way: increased neutrophil and progenitor-cell activity might promote inflammation and abnormal new vessel growth, which are harmful in the diabetic retina. The direction of effect is therefore uncertain, and nothing in the available data resolves it.
 
-The two predicted indications are not independent. Diabetic retinopathy (score 99.73%) is the broader parent category of severe nonproliferative diabetic retinopathy (score 99.89%), and both come from the same model-derived association. The safety of systemic G-CSF for the retina in people with diabetes has not been established in the data reviewed here.
+The two predicted indications are not independent. Diabetic retinopathy (score 0.9973) is the broader parent category of severe nonproliferative diabetic retinopathy (score 0.9989), and both come from the same model-derived association. The safety of systemic G-CSF for the retina in people with diabetes has not been established in the data reviewed here.
 
 ## Clinical Trial Evidence
 

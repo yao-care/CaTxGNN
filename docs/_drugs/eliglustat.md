@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Eliglustat
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 321
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Eliglustat: predicted new indication Autosomal ichthyosis syndrome with fatal disease course (evidence level L5). Approved use: Gaucher disease"
-monitor_inn: "Eliglustat"
-predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "benign neoplasm of adrenal gland", "polycystic kidney disease 3 with or without polycystic liver disease", "gastrocutaneous syndrome", "familial generalized lentiginosis", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Eliglustat: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Eliglustat
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,48 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Eliglustat: From Gaucher Disease to Autosomal Ichthyosis Syndrome with Fatal Disease Course
+<!-- known-uses-page -->
+<!-- description: Eliglustat: known uses and market status in Canada; currently no new candidate indication -->
+## Eliglustat: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Eliglustat, so there is currently no new predicted indication. The drug's recorded uses are listed below. These are the drug's own recorded uses, not model candidates.
 
-Eliglustat was originally used to treat Gaucher disease.
-The TxGNN model predicts it may be effective for **autosomal ichthyosis syndrome with fatal disease course**,
-but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on the model score alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Gaucher disease |
-| Predicted New Indication | Autosomal ichthyosis syndrome with fatal disease course |
-| TxGNN Prediction Score | 98.42% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 1 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses recorded for this drug
 
-Eliglustat inhibits glucosylceramide synthase, the first enzyme in glycosphingolipid synthesis. By lowering glucosylceramide production, it reduces the substrate that builds up in Gaucher disease. (Formal mechanism-of-action data was not available in the compiled data. This description comes from the mechanistic analysis of the prediction.)
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| gaucher disease | licence in another country |
 
-Ichthyoses involve defects in the skin's ceramide and lipid barrier, so a theoretical link to a ceramide-pathway drug exists. However, the direction of effect is uncertain. Glucosylceramide is a precursor of the acylceramides the skin barrier needs, so reducing its synthesis could worsen the barrier lipid deficit rather than help.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The prediction is supported only by the TxGNN network-based score. It should be viewed as a hypothesis, not an established opportunity.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for this indication.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02463261 | CERDELGA | Not specified | Not specified |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02463261 | CERDELGA |  | Valid |
 
 ## Safety Considerations
 
@@ -90,18 +86,6 @@ Eliglustat is also noted to be a substrate of P-gp and CYP2D6/3A4, which complic
 
 For warnings and contraindications, please refer to the package insert.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score only, with no clinical trials or publications. The mechanism is also uncertain and could plausibly work against the skin barrier, so there is no basis to advance this indication now.
-
-**To proceed, the following is needed:**
-- Preclinical evidence in ichthyosis models showing the direction of effect of glucosylceramide synthase inhibition on epidermal ceramide and barrier function
-- Detailed mechanism of action data
-- Health Canada package insert warnings and contraindications
-- Review of the other predicted indications. Polycystic kidney disease 3 (score 96.91%) currently has a more plausible mechanistic rationale, with preclinical work on related glucosylceramide synthase inhibitors, though it is also supported only by indirect evidence (one 2013 review, PMID 23874009) and no trials.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

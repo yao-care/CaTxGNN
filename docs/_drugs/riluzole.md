@@ -4,7 +4,7 @@ title: Riluzole
 parent: Model Prediction Only (L5)
 nav_order: 809
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Amyotrophic lateral sclerosis"
 monitor_inn: "RILUZOLE"
@@ -14,7 +14,7 @@ predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria
 # Riluzole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **bilateral parasagittal pariet
 |------|------|
 | Original Indication | Amyotrophic lateral sclerosis |
 | Predicted New Indication | Bilateral parasagittal parieto-occipital polymicrogyria |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link to polymicrogyria is speculative. Cortical malformations are often associated with epilepsy and abnormal neuronal excitability, so a modulator of glutamate and sodium channels could theoretically be relevant. No data supplied here support this link, and the very high score (0.9999) should be read as a model output only, not as evidence of efficacy.
 
-Other top-ranked predictions were also reviewed. Several are motor neuron conditions that overlap biologically with ALS (lower motor neuron syndrome, monomelic amyotrophy, Mills syndrome, ALS type 22). These are mechanistically more plausible than the top-ranked prediction, but they also have no disease-specific trial data. Others, such as axial spondylometaphyseal dysplasia, appear to be graph-based artifacts with no evident mechanistic link.
+Other top-ranked predictions were also reviewed. Several are motor neuron conditions that overlap biologically with ALS (lower motor neuron syndrome, monomelic amyotrophy, Mills syndrome, ALS type 22). These are mechanistically more plausible than the top-ranked prediction, but they also have no disease-specific trial data. Others, such as axial spondylometaphyseal dysplasia, have no evident mechanistic link. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Bimatoprost is a prostamide (prostaglandin F2-alpha analog) originally used to lower eye pressure in open-angle glaucoma and ocular hypertension, and to grow eyelashes in eyelash hypotrichosis.
-The TxGNN model's top-ranked prediction is **malformation syndrome with odontal and/or periodontal component**, but this is a graph-based signal only, with **0 clinical trials** and **0 publications** supporting it.
+The TxGNN model's (deep learning) top-ranked prediction is **malformation syndrome with odontal and/or periodontal component**, but the score comes from the model and may reflect similarities the model learned between related diseases, not biological evidence. It has **0 clinical trials** and **0 publications** supporting it.
 A different prediction in the same list, **alopecia**, has far stronger support (see "Better-Supported Candidate" below).
 
 ---
@@ -50,10 +50,10 @@ A different prediction in the same list, **alopecia**, has far stronger support 
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension; eyelash hypotrichosis |
 | Predicted New Indication | Malformation syndrome with odontal and/or periodontal component |
-| TxGNN Prediction Score | 99.997% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ A different prediction in the same list, **alopecia**, has far stronger support 
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, bimatoprost is a prostamide/prostaglandin F2-alpha analog. It lowers intraocular pressure and also prolongs the hair-growth (anagen) phase.
 
-For this specific prediction, no mechanistic link could be identified. A developmental malformation syndrome involving the teeth and periodontium has no recognizable connection to prostamide pharmacology. The high score reflects a pattern in the knowledge graph rather than biological or clinical reasoning, so this prediction should be treated as a computational artifact until independent evidence appears.
+For this specific prediction, no mechanistic link could be identified. A developmental malformation syndrome involving the teeth and periodontium has no recognizable connection to prostamide pharmacology. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so this prediction should be treated as a computational artifact until independent evidence appears.
 
 ---
 
@@ -80,7 +80,7 @@ Currently no related literature available.
 
 ## Better-Supported Candidate: Alopecia (Rank 8)
 
-Among the ten predicted indications, **alopecia** (TxGNN score 99.993%) is the only one with substantial trial evidence. It has an evidence level of L2, and its mechanism is coherent. Bimatoprost extends anagen via prostanoid receptor signalling, and eyelash hypotrichosis is already an approved use.
+Among the ten predicted indications, **alopecia** (TxGNN score 1.0000) is the only one with substantial trial evidence. It has an evidence level of L2, and its mechanism is coherent. Bimatoprost extends anagen via prostanoid receptor signalling, and eyelash hypotrichosis is already an approved use.
 
 **Key clinical trials**
 

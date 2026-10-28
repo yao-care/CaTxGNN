@@ -4,7 +4,7 @@ title: Polymyxin B
 parent: Moderate Evidence (L3-L4)
 nav_order: 750
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not specified in the Canadian licence data (products are topical anti…"
 monitor_inn: "POLYMYXIN B"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "laryngotracheitis"]
 # Polymyxin B
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ The TxGNN model predicts it may be effective for **bronchitis**, with **no regis
 |------|------|
 | Original Indication | Not specified in the Canadian licence data (products are topical antibiotic preparations) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The link is weak, however. Several publications report that inhaled polymyxin B provokes bronchoconstriction and bronchial hyperreactivity in people with asthma and chronic bronchitis. It has even been used as a non-specific bronchial provocation agent and to create eosinophilic bronchitis animal models. This safety signal undermines the repurposing rationale.
 
-The high TxGNN score is a computational prediction only and is not backed by trial data. Two other predictions were also generated. Laryngotracheitis (score 99.62%) has no trials or literature at all. Conjunctivitis (score 99.06%) has randomized evidence, but it concerns the existing trimethoprim–polymyxin B eye-drop combination and is likely an established use rather than a new one.
+The high TxGNN score is a computational prediction only and is not backed by trial data. One other prediction was also generated: laryngotracheitis (score 0.9962) has no trials or literature at all. Randomized evidence exists for conjunctivitis, but it concerns the existing trimethoprim–polymyxin B eye-drop combination, which is an established use rather than a new one.
 
 ---
 

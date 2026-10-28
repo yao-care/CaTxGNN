@@ -4,17 +4,17 @@ title: Epinephrine
 parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Asthma, bronchitis, anaphylaxis, hypotensive disorder…"
 monitor_inn: "EPINEPHRINE"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ This is largely an extension or reclassification of existing uses rather than a 
 |------|------|
 | Original Indication | Asthma, bronchitis, anaphylaxis, hypotensive disorder, open-angle glaucoma, pulmonary emphysema, bronchiectasis (approved indication text is not available in the Canadian licence records) |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 (3 completed Phase 3 trials in asthma, though two are small paediatric studies and one is a safety extension) |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 (3 completed Phase 3 trials in asthma, though two are small paediatric studies and one is a safety extension) |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -133,7 +133,7 @@ Package insert warnings and contraindications from Health Canada were not availa
 **Other predicted indications (not recommended for advancement at this stage):**
 - Food-dependent exercise-induced anaphylaxis: L4, a subtype extension of the existing anaphylaxis indication supported by reviews only, with no dedicated trials. Treat as a research question.
 - Respiratory malformation: L3, Hold. The only trial concerns transient tachypnoea of the newborn, a functional condition, and the retrieved literature is largely off-topic.
-- Rienhoff syndrome: L5, Hold. There are no trials or literature, and the prediction is likely a knowledge-graph artefact.
+- Rienhoff syndrome: L5, Hold. There are no trials or literature, and the prediction is likely a TxGNN model (deep learning) artefact.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

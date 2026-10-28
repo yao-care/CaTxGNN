@@ -50,10 +50,10 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 |------|------|
 | Original Indication | HIV infection, AIDS (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, raltegravir is an HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome, and its efficacy in HIV infection is established.
 
-Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and carries an integrase enzyme that is structurally related to HIV-1 integrase. Inhibiting integrase is therefore biologically plausible. The high score most likely reflects the shared antiretroviral and lentiviral disease neighbourhood in the knowledge graph, rather than direct evidence. Whether FIV integrase is susceptible to raltegravir has not been tested in the available data.
+Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and carries an integrase enzyme that is structurally related to HIV-1 integrase. Inhibiting integrase is therefore biologically plausible. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Whether FIV integrase is susceptible to raltegravir has not been tested in the available data.
 
-This is a veterinary indication, so its relevance to human drug repurposing is limited. The second-ranked prediction, simian immunodeficiency virus (SIV) infection, has preclinical support, but it serves mainly as an animal model of HIV and overlaps with the existing approved indication. It is not a true new human indication. The third prediction (a rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter) has no plausible mechanistic link to integrase inhibition and is likely an artifact of graph-based inference.
+This is a veterinary indication, so its relevance to human drug repurposing is limited. The second-ranked prediction, simian immunodeficiency virus (SIV) infection, has preclinical support, but it serves mainly as an animal model of HIV and overlaps with the existing approved indication. It is not a true new human indication. The third prediction (a rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter) has no plausible mechanistic link to integrase inhibition; its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

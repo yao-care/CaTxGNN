@@ -4,17 +4,17 @@ title: Formoterol
 parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Pulmonary emphysema, intrinsic asthma, allergic asthma"
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,45 +33,41 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Formoterol: From Asthma and Emphysema to Respiratory Malformation
+## Formoterol: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Formoterol is a long-acting beta2-adrenergic agonist, originally used for **pulmonary emphysema, intrinsic asthma and allergic asthma**.
-The TxGNN model's top-ranked prediction is **respiratory malformation**, but it has **no clinical trials** and only **9 loosely related publications** supporting it. The prediction looks like a graph-proximity artifact. The best-supported prediction is **obstructive lung disease** (about 30 registered trials and 20 publications), and that is essentially an existing use.
+The TxGNN model's top-ranked prediction is **respiratory malformation**, but it has **no clinical trials** and only **9 loosely related publications** supporting it. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (the Canadian licence records list no indication text) |
-| Predicted New Indication | Respiratory malformation (rank 1) |
-| TxGNN Prediction Score | 99.92% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 Other predictions, for comparison:
 
 | Predicted Indication | Score | Evidence Level | Decision |
 |------|------|------|------|
-| Bronchitis | 99.92% | L1 | Research question (largely overlaps COPD use) |
-| Rienhoff syndrome | 99.90% | L5 | Hold |
-| Obstructive lung disease | 99.90% | L1 | Proceed with Guardrails |
-| Asthma | 99.74% | L1 | Proceed with Guardrails (existing indication) |
-| Asthma-related traits, susceptibility to | 99.50% | L5 | Hold |
+| Bronchitis | 0.9992 | L5 | Research question (largely overlaps COPD use) |
+| Rienhoff syndrome | 0.9990 | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Formoterol is a well-known long-acting beta2-adrenergic agonist that relaxes bronchial smooth muscle and improves airflow. Its efficacy in asthma and COPD is well established.
 
-**For respiratory malformation, the prediction is not mechanistically plausible.** Bronchodilation does not correct structural congenital abnormalities. The high score (0.999) most likely reflects the disease's closeness to other respiratory conditions in the knowledge graph. The retrieved publications cover COPD, asthma, Down syndrome cognition and post-COVID small airway disease. None addresses congenital respiratory malformation.
+**For respiratory malformation, the prediction is not mechanistically plausible.** Bronchodilation does not correct structural congenital abnormalities. The high score (0.9992) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved publications cover COPD, asthma, Down syndrome cognition and post-COVID small airway disease. None addresses congenital respiratory malformation.
 
 **Predictions with a sound mechanistic basis:**
 - **Obstructive lung disease and bronchitis:** Airflow obstruction in the COPD spectrum responds to beta2 agonism. Large Phase 3 programmes support this, but it matches formoterol's established COPD use, so it is not novel repurposing.
-- **Asthma:** This is an original indication, so the prediction confirms existing use.
 
 ## Clinical Trial Evidence
 

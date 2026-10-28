@@ -4,7 +4,7 @@ title: Tamoxifen
 parent: Model Prediction Only (L5)
 nav_order: 880
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Female breast carcinoma, invasive ductal breast carcinoma…"
 monitor_inn: "Tamoxifen"
@@ -14,7 +14,7 @@ predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "bot
 # Tamoxifen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence for this specific prediction is weak, so this report also notes the
 |------|------|
 | Original Indication | Female breast carcinoma, invasive ductal breast carcinoma, breast ductal adenocarcinoma (approved indication text is not available in the Canadian licence records) |
 | Predicted New Indication | Mammary Paget disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 (for the lead prediction) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| TxGNN Prediction Score | 0.9969 |
+| Evidence Level | L5 (for the lead prediction) |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

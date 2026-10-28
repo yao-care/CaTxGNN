@@ -50,10 +50,10 @@ The one clinical report available actually describes bronchitis as an adverse ef
 |------|------|
 | Original Indication | Dermatitis |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

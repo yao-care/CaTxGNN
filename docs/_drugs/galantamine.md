@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 |------|------|
 | Original Indication | Alzheimer disease |
 | Predicted New Indication | Psychogenic movement disorders |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

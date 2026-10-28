@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 783
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis (also vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Currently there are **0 registered clinical trials** and **7 publications** (2 h
 |------|------|
 | Original Indication | Allergic rhinitis (also vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis and others). Health Canada indication text is not available. |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -65,8 +65,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 The original indications (allergic rhinitis, vasomotor rhinitis, rhinitis, common cold) already cover most nasal conditions. "Nasal cavity disease" is a broad category, so this prediction is largely a generalization of existing use, not a true repurposing. The very high score is consistent with this overlap.
 
 The other two predictions are weaker:
-- **Acute laryngopharyngitis** (score 99.73%, L5): the score probably reflects proximity to approved indications such as pharyngitis and the common cold. There is no direct mechanistic evidence, no trials and no literature.
-- **Allergic urticaria** (score 99.14%, L5): pseudoephedrine has no antihistaminic activity. The retrieved papers are about antihistamines, and pseudoephedrine appears only as a combination partner or analytical context.
+- **Allergic urticaria** (score 0.9914, L5): pseudoephedrine has no antihistaminic activity. The retrieved papers are about antihistamines, and pseudoephedrine appears only as a combination partner or analytical context.
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Itraconazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 505
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Fungal infections (esophageal candidiasis, candidemia, histoplasmosis…"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis"]
 # Itraconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but the dat
 |------|------|
 | Original Indication | Fungal infections (esophageal candidiasis, candidemia, histoplasmosis, aspergillosis, blastomycosis, coccidioidomycosis, sporotrichosis, fusariosis, and others). The Canadian licence records contain no indication text. |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| TxGNN Prediction Score | 0.9934 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -132,7 +132,7 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN score is high (99.34%), but the evidence is at L4: there are no registered trials and no study directly supports itraconazole for pneumocystosis.
+- The TxGNN score is high (0.9934), but the evidence is at L4: there are no registered trials and no study directly supports itraconazole for pneumocystosis.
 - *Pneumocystis* has little or no ergosterol, so the azole mechanism is not expected to work. The score likely reflects network proximity rather than real activity.
 - Established agents such as trimethoprim-sulfamethoxazole already cover prophylaxis and treatment.
 

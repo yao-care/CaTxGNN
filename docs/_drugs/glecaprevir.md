@@ -50,10 +50,10 @@ The evidence therefore supports the drug's original HCV use, even in HIV-coinfec
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 (the Phase 3 trials are HCV studies in HIV-coinfected patients and do not test HIV treatment, so direct evidence for the new indication is lacking) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The evidence therefore supports the drug's original HCV use, even in HIV-coinfec
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, glecaprevir is an NS3/4A protease inhibitor used with pibrentasvir (an NS5A inhibitor) for HCV, and its efficacy in HCV is well established.
 
-The prediction is not supported mechanistically. Glecaprevir has no known direct anti-HIV activity. HIV uses an aspartyl protease, which is structurally and mechanistically different from the HCV NS3/4A serine protease. The high TxGNN score most likely reflects the frequent HIV/HCV comorbidity link in the knowledge graph rather than a true antiviral effect on HIV.
+The prediction is not supported mechanistically. Glecaprevir has no known direct anti-HIV activity. HIV uses an aspartyl protease, which is structurally and mechanistically different from the HCV NS3/4A serine protease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The trials listed below enroll HIV/HCV-coinfected patients, but their endpoint is HCV cure (sustained virologic response). They show that glecaprevir/pibrentasvir works for HCV in the presence of HIV, including drug-interaction considerations with antiretrovirals. They do not show treatment of HIV.
 
@@ -146,7 +146,7 @@ For warnings and contraindications, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The high prediction score appears to reflect HIV/HCV comorbidity in the knowledge graph rather than anti-HIV activity. Glecaprevir targets an HCV-specific protease with no known counterpart in HIV, and the available Phase 3 evidence supports HCV cure in coinfected patients only.
+The high prediction score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Glecaprevir targets an HCV-specific protease with no known counterpart in HIV, and the available Phase 3 evidence supports HCV cure in coinfected patients only.
 
 **To proceed, the following is needed:**
 - In vitro anti-HIV activity data showing any effect of glecaprevir on HIV replication

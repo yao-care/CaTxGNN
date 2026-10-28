@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 |------|------|
 | Original Indication | Factor XIII A-subunit deficiency |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,10 +63,10 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Platelet release (secretion) disorders impair primary haemostasis through defective granule release. The link to factor XIII A-subunit replacement is therefore indirect. Better clot stability might partly offset a platelet-function defect, but it would not correct the underlying secretion abnormality.
 
-The high TxGNN score (99.29%) is a computational prediction only. Two other predictions scored similarly and share the same weakness:
+The high TxGNN score (0.9929) is a computational prediction only. Two other predictions scored similarly and share the same weakness:
 
-- **Pseudo-von Willebrand disease** (score 99.29%): This is caused by a gain-of-function defect in platelet GPIbα that increases binding to von Willebrand factor. Factor XIII-A acts downstream on fibrin cross-linking and does not address this interaction. Any benefit would be nonspecific clot stabilization.
-- **Glanzmann thrombasthenia** (score 99.15%): This is caused by deficiency or dysfunction of integrin αIIbβ3, which blocks platelet aggregation. Factor XIII-A could in theory make clots firmer, but fibrinogen-dependent platelet aggregation would remain defective. Standard care is platelet transfusion, recombinant factor VIIa and antifibrinolytics. The biological rationale for catridecacog is weak.
+- **Pseudo-von Willebrand disease** (score 0.9929): This is caused by a gain-of-function defect in platelet GPIbα that increases binding to von Willebrand factor. Factor XIII-A acts downstream on fibrin cross-linking and does not address this interaction. Any benefit would be nonspecific clot stabilization.
+- **Glanzmann thrombasthenia** (score 0.9915): This is caused by deficiency or dysfunction of integrin αIIbβ3, which blocks platelet aggregation. Factor XIII-A could in theory make clots firmer, but fibrinogen-dependent platelet aggregation would remain defective. Standard care is platelet transfusion, recombinant factor VIIa and antifibrinolytics. The biological rationale for catridecacog is weak.
 
 ---
 

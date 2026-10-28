@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Model Prediction Only (L5)
 nav_order: 594
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "MESALAZINE"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 ## One-Sentence Summary
 
 Mesalazine (5-aminosalicylic acid, 5-ASA) is an anti-inflammatory drug originally used to treat ulcerative colitis and other inflammatory bowel conditions.
-The TxGNN model's top-ranked prediction is **congenital hypotrichosis with juvenile macular dystrophy**, but there are **0 clinical trials** and **0 publications** supporting it. The score is a graph-based prediction only.
+The TxGNN model's (deep learning) top-ranked prediction is **congenital hypotrichosis with juvenile macular dystrophy**, but there are **0 clinical trials** and **0 publications** supporting it. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 Among the other predictions, **rheumatoid arthritis** has the most supporting material (11 publications, mostly indirect), and it is the more scientifically plausible direction.
 
 ---
@@ -50,10 +50,10 @@ Among the other predictions, **rheumatoid arthritis** has the most supporting ma
 |------|------|
 | Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis |
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 18 |
+| Canada Market Status | Marketed (valid licenses: 18 of 18) |
+| Number of DINs | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predictions, **rheumatoid arthritis** has the most supporting ma
 
 Currently, detailed mechanism of action data is not available. Based on known information, mesalazine is a 5-aminosalicylate with local anti-inflammatory activity in the intestinal mucosa. Its efficacy in ulcerative colitis is well established.
 
-For the top-ranked prediction, **congenital hypotrichosis with juvenile macular dystrophy**, no mechanistic link has been identified. It is an ultra-rare monogenic disorder caused by CDH3 mutation and does not overlap with inflammatory bowel pathways. The high score (0.996) reflects graph proximity only and is not a reason to expect clinical benefit.
+For the top-ranked prediction, **congenital hypotrichosis with juvenile macular dystrophy**, no mechanistic link has been identified. It is an ultra-rare monogenic disorder caused by CDH3 mutation and does not overlap with inflammatory bowel pathways. The high score (0.9965) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not a reason to expect clinical benefit.
 
 Two other predictions deserve a brief comment:
 - **Rheumatoid arthritis (rank 3):** Mesalazine shares its active moiety with sulfasalazine, an established disease-modifying antirheumatic drug. However, the antirheumatic effect of sulfasalazine is generally attributed mainly to the sulfapyridine part, so benefit from mesalazine alone is uncertain.
@@ -128,7 +128,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, congenital hypotrichosis with juvenile macular dystrophy, rests only on a graph-based score. It has no trials, no literature and no plausible mechanism (L5). Mesalazine is well established and widely marketed in Canada, but that does not support this new indication. Rheumatoid arthritis is the more plausible direction (L4, via sulfasalazine), but the evidence is indirect and efficacy of mesalazine alone is uncertain.
+The top-ranked prediction, congenital hypotrichosis with juvenile macular dystrophy, rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. It has no trials, no literature and no plausible mechanism (L5). Mesalazine is well established and widely marketed in Canada, but that does not support this new indication. Rheumatoid arthritis is the more plausible direction (L4, via sulfasalazine), but the evidence is indirect and efficacy of mesalazine alone is uncertain.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for mesalazine.

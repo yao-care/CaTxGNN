@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eletriptan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 319
-evidence_level: L4
-indication_count: 4
-last_modified_at: 2026-10-13
-description: "Eletriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder (migraine with or without aura)"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-10-28
 monitor_inn: "ELETRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
+description: "Eletriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Eletriptan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Eletriptan: From Migraine to Migraine with Brainstem Aura
+## Eletriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Eletriptan is a triptan (5-HT1B/1D receptor agonist) originally used for the acute treatment of migraine.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but there are currently **no registered clinical trials** and only indirect support from **17 publications**, mostly general migraine reviews and trials, with one study showing no benefit when eletriptan was given during the aura phase.
+The TxGNN model predicts it may be effective for **atrophoderma vermiculata**, but there are currently **no registered clinical trials** and only indirect support from **17 publications**, mostly general migraine reviews and trials, with one study showing no benefit when eletriptan was given during the aura phase.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **migraine with brainstem aura*
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (migraine with or without aura) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,6 @@ The TxGNN model predicts it may be effective for **migraine with brainstem aura*
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, eletriptan is a selective 5-HT1B/1D receptor agonist. Its affinity for the 5-HT1D receptor is about 6-fold greater than sumatriptan's, and for the 5-HT1B receptor about 3-fold greater. This class acts on the trigeminovascular pathway that drives migraine headache.
 
-Migraine with brainstem aura is a migraine subtype that shares this core trigeminovascular pathophysiology, which makes the prediction mechanistically plausible. However, this link is inferred from general triptan pharmacology, not from data specific to this subtype.
 
 There are two cautions:
 - One randomised trial (PMID 15469451) found **no effect** when eletriptan 80 mg was taken during the aura phase of migraine.
@@ -141,7 +140,7 @@ Moderate-level interactions include aprepitant, morphine, cimetidine, clotrimazo
 - Evidence specific to migraine with brainstem aura, such as case series or registry data on triptan use and cerebrovascular safety in this subtype
 - A cardiovascular and cerebrovascular risk assessment and a patient-selection plan before any prospective study
 
-**Other predictions (all Hold, evidence level L5):** The other three predictions have no supporting trials or literature and no plausible mechanistic link beyond a speculative one for sciatic neuropathy. They are atrophoderma vermiculata (99.94%), ulerythema ophryogenesis (99.89%) and sciatic neuropathy (99.03%).
+**Other predictions (all Hold, evidence level L5):** The other three predictions have no supporting trials or literature and no plausible mechanistic link beyond a speculative one for sciatic neuropathy. They are atrophoderma vermiculata (0.9994), ulerythema ophryogenesis (0.9989) and sciatic neuropathy (0.9903).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

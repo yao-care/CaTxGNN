@@ -4,17 +4,17 @@ title: Propranolol
 parent: Model Prediction Only (L5)
 nav_order: 778
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Hypertension, atrial fibrillation, hypertrophic cardiomyopathy…"
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Propranolol: From Hypertension and Cardiac Arrhythmia to Distal Myopathy, Tateyama Type
+## Propranolol: Distal myopathy, Tateyama type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The data compiled for this report show somewhat more (indirect) literature for t
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, hypertrophic cardiomyopathy, hemangioma (the Canadian licence records contain no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Distal myopathy, Tateyama type |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 13 |
+| Canada Market Status | Marketed (valid licenses: 13 of 13) |
+| Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,11 +64,10 @@ Other predictions have more plausible links:
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Congenital myopathy with excess of thin filaments | 99.30% | L5 | No plausible mechanism; no evidence |
-| 3 | Hypertrophic cardiomyopathy due to intensive athletic training | 99.17% | L5 | Rationale via heart rate and contractility reduction, but athlete's heart is usually managed by detraining |
-| 4 | Chondroma | 99.14% | L5 | No clear link; not angiogenesis-driven like hemangioma |
-| 5 | Cirrhotic cardiomyopathy | 99.12% | L4 | Mixed, indirect evidence (3 publications) |
-| 6 | Cardiomyopathy | 99.12% | L3 | Largely overlaps with the existing hypertrophic cardiomyopathy use |
+| 2 | Congenital myopathy with excess of thin filaments | 0.9930 | L5 | No plausible mechanism; no evidence |
+| 4 | Chondroma | 0.9914 | L5 | No clear link; not angiogenesis-driven like hemangioma |
+| 5 | Cirrhotic cardiomyopathy | 0.9912 | L5 | Mixed, indirect evidence (3 publications) |
+| 6 | Cardiomyopathy | 0.9912 | L5 | Largely overlaps with the existing hypertrophic cardiomyopathy use |
 
 ## Clinical Trial Evidence
 
@@ -86,7 +85,6 @@ Indirect literature exists for lower-ranked predictions. For cirrhotic cardiomyo
 | [35763518](https://pubmed.ncbi.nlm.nih.gov/35763518/) | 2022 | Clinical study | PLoS One | Beta-blocker cardiovascular effects are blunted in cirrhosis; effect varies with disease severity |
 | [32446716](https://pubmed.ncbi.nlm.nih.gov/32446716/) | 2020 | Clinical/observational | Journal of Hepatology | Non-selective beta-blockers may impair circulatory and renal function in refractory ascites |
 
-For cardiomyopathy (rank 6), the most relevant publications are older small haemodynamic studies in hypertrophic cardiomyopathy:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -123,7 +121,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction rests on model score alone (L5), with no trials, no literature, no plausible mechanism, and a knowledge-graph contraindication in muscle disease. The only predictions with some supporting literature (cirrhotic cardiomyopathy, and general cardiomyopathy) are either mixed in benefit-risk or largely overlap with existing approved use.
+The top-ranked prediction rests on model score alone (L5), with no trials, no literature, and no plausible mechanism. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only prediction with some supporting literature (cirrhotic cardiomyopathy) is mixed in benefit-risk.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to allow a proper mechanistic-link analysis

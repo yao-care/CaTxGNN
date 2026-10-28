@@ -50,10 +50,10 @@ but there are currently **no registered clinical trials** and only **indirect li
 |------|------|
 | Original Indication | Dyspepsia, headache disorder (the Canadian licence records contain no approved indication text) |
 | Predicted New Indication | Stomach disease |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -130,7 +130,7 @@ For package insert warnings, please refer to the product labelling.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.74%), but there are no clinical trials and the literature shows only diagnostic or mechanistic associations, not treatment benefit. Citric acid's roles in Canada are mainly anticoagulant solutions and bowel-preparation products, and the knowledge graph lists peptic ulcer disease as a contraindication, which conflicts with the predicted stomach indication.
+The TxGNN score is high (0.9974), but there are no clinical trials and the literature shows only diagnostic or mechanistic associations, not treatment benefit. Citric acid's roles in Canada are mainly anticoagulant solutions and bowel-preparation products, and the knowledge graph lists peptic ulcer disease as a contraindication, which conflicts with the predicted stomach indication.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a defined therapeutic hypothesis (which stomach disease, and at what dose and route)

@@ -6,7 +6,7 @@ nav_order: 29
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Alanine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the Health Canada license data compiled for this report…"
+description: "Alanine: predicted new indication gastroparesis (evidence level L5). Approved use: Not stated in the Health Canada license data compiled for this report…"
 monitor_inn: "ALANINE"
 predicted_indications: ["gastroparesis (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Alanine: From Parenteral Nutrition Amino Acid Component to Gastroparesis
+## Alanine: From Parenteral Nutrition Amino Acid Component to gastroparesis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,9 +47,9 @@ The TxGNN model predicts it may be useful for **gastroparesis**, but this is a m
 |------|------|
 | Original Indication | Not stated in the Health Canada license data compiled for this report (marketed as an amino acid component of parenteral nutrition products) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.37% |
+| TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The only plausible link is indirect. Gastroparesis is a common complication of diabetes and is also more frequent in chronic renal failure, and the retrieved literature concerns diabetic and renal-related gastrointestinal or hepatic complications. This is a comorbidity association. It is not evidence that alanine treats gastroparesis or changes gastric emptying. Any therapeutic role, such as nutritional support for patients with gastroparesis, is speculative and unsupported by the data compiled for this report.
 
-The very high TxGNN score (99.37%) reflects knowledge-graph patterns, not experimental or clinical confirmation.
+The very high TxGNN score (0.9937) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not experimental or clinical confirmation.
 
 ## Clinical Trial Evidence
 
@@ -105,7 +105,7 @@ Please refer to the package insert for label warnings and drug interaction infor
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no registered clinical trials, no mechanistic rationale, and the retrieved literature does not examine alanine for gastroparesis. Product-label safety data are also missing.
+The prediction rests only on a TxGNN model (deep learning) score. There are no registered clinical trials, no mechanistic rationale, and the retrieved literature does not examine alanine for gastroparesis. Product-label safety data are also missing.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)

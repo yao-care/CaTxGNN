@@ -6,9 +6,9 @@ nav_order: 870
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Duodenal ulcer"
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sucralfate
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 </div>
 
-## Sucralfate: From Duodenal Ulcer to Duodenogastric Reflux
+## Sucralfate: Duodenogastric reflux
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **no registered clinical trials** but **10 publications**, including **2 ra
 
 | Item | Content |
 |------|------|
-| Original Indication | Duodenal ulcer (the Canadian licence records contain no approved indication text; this comes from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.37% |
+| TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -132,7 +132,7 @@ The mechanistic rationale is plausible, and two small randomized trials plus sev
 - Review of the full RCT papers for outcomes and quality
 - A safety plan for patients with renal impairment or hyperglycemia, and for the flagged drug interactions (e.g. separating dosing from integrase inhibitors, tetracyclines and bisphosphonates)
 
-**Note on the second predicted indication (duodenal obstruction):** This prediction was rated L5 with a **Hold** decision. Duodenal obstruction is usually a mechanical problem, and sucralfate's mucosal protection does not treat it. The high score of 99.30% most likely reflects its closeness to duodenal ulcer in the knowledge graph, not a real therapeutic effect.
+**Note on the second predicted indication (duodenal obstruction):** This prediction was rated L5 with a **Hold** decision. Duodenal obstruction is usually a mechanical problem, and sucralfate's mucosal protection does not treat it. The high score of 0.9930 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

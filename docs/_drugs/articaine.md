@@ -48,17 +48,17 @@ This is a model-only prediction with no supporting studies.
 |------|------|
 | Original Indication | Not specified in the available license data (the products are marketed as dental local anesthetics) |
 | Predicted New Indication | Gout |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, articaine is an amide-type local anesthetic that blocks voltage-gated sodium channels. Its efficacy as a local anesthetic is established, but this has no recognized connection to gout.
 
-Gout is driven by urate metabolism and inflammation (for example, xanthine oxidase activity and NLRP3 inflammasome signalling). Articaine has no known effect on these pathways. The high score (99.58%) comes from the graph-based model alone, and no clinical trial or publication backs it.
+Gout is driven by urate metabolism and inflammation (for example, xanthine oxidase activity and NLRP3 inflammasome signaling). Articaine has no known effect on these pathways. The high score (0.9958) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No clinical trial or publication backs it.
 
 For this reason, the prediction should be treated as a computational hypothesis, not as a mechanistically supported candidate.
 
@@ -66,9 +66,9 @@ For this reason, the prediction should be treated as a computational hypothesis,
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Exostosis | 99.42% | L5 | No credible mechanistic link. Articaine could only serve as procedural anesthesia in surgery. |
-| 3 | Allergic asthma | 99.38% | L5 | The two retrieved papers concern allergy *to* local anesthetics, so they are a safety signal, not efficacy evidence. |
-| 4 | Intrinsic asthma | 99.34% | L5 | No articaine data. Caution is warranted because of possible sulfite excipients in epinephrine-containing products. |
+| 2 | Exostosis | 0.9942 | L5 | No credible mechanistic link. Articaine could only serve as procedural anesthesia in surgery. |
+| 3 | Allergic asthma | 0.9938 | L5 | The two retrieved papers concern allergy *to* local anesthetics, so they are a safety signal, not efficacy evidence. |
+| 4 | Intrinsic asthma | 0.9934 | L5 | No articaine data. Caution is warranted because of possible sulfite excipients in epinephrine-containing products. |
 
 ## Clinical Trial Evidence
 
@@ -106,7 +106,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no clinical trials or relevant publications, and there is no plausible mechanistic link between a sodium channel–blocking local anesthetic and gout. The same holds for the other three predicted indications.
+The prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or relevant publications, and there is no plausible mechanistic link between a sodium channel–blocking local anesthetic and gout. The same holds for the other three predicted indications.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)

@@ -6,9 +6,9 @@ nav_order: 646
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Nelarabine: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Acute lymphoblastic leukemia…"
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
+description: "Nelarabine: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nelarabine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Nelarabine: From T-Cell Acute Lymphoblastic Leukemia to Relapsing-Remitting Multiple Sclerosis
+## Nelarabine: Relapsing-remitting multiple sclerosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukemia, precursor T-cell acute lymphoblastic leukemia, T-cell leukemia, T-lymphoblastic lymphoma (from the knowledge graph; Canadian licence text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Relapsing-remitting multiple sclerosis |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Relapsing-remitting multiple sclerosis is driven largely by autoreactive T cells (and B cells). A drug that depletes lymphocytes is therefore conceptually relevant. Cladribine, another purine analogue, is already approved for MS, which gives this idea some precedent.
 
-However, the link is hypothetical. Nelarabine carries a well-known boxed warning for severe neurotoxicity, including somnolence, confusion, seizures, peripheral neuropathy, and demyelination or Guillain-Barré-like syndromes. In a demyelinating disease of the central nervous system, this is a serious conflict that may outweigh any theoretical benefit. The very high TxGNN score (0.994) is a model output only and has not been validated.
+However, the link is hypothetical. Nelarabine carries a well-known boxed warning for severe neurotoxicity, including somnolence, confusion, seizures, peripheral neuropathy, and demyelination or Guillain-Barré-like syndromes. In a demyelinating disease of the central nervous system, this is a serious conflict that may outweigh any theoretical benefit. The very high TxGNN score (0.9943) is a model output only and has not been validated.
 
 ## Canada Market Information
 

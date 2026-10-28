@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trihexyphenidyl
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 947
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Trihexyphenidyl: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Parkinson disease and related movement disorders (parkinsonism…"
+last_modified_at: 2026-10-28
 monitor_inn: "Trihexyphenidyl"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "Rasmussen subacute encephalitis", "PLA2G6-associated neurodegeneration", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "myelitis", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
+description: "Trihexyphenidyl: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trihexyphenidyl
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Trihexyphenidyl: From Parkinson Disease to Attention Deficit-Hyperactivity Disorder
+## Trihexyphenidyl: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **no registered clinical trials** and only **1 publication** (a ca
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related movement disorders (parkinsonism, dystonia, blepharospasm). No approved indication text is available for the Canadian licences. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ ADHD involves dopaminergic and noradrenergic dysregulation in frontostriatal cir
 
 However, this link is weak. Anticholinergic drugs can impair attention, memory and cognition, which argues against benefit and raises the possibility of harm in ADHD. The only linked publication describes tic disorder with dystonia, a related movement phenotype, and is not evidence of ADHD treatment. The very high score is a computational output and is not supported by clinical data.
 
-Other predictions in the same list include the inattentive subtype of ADHD (99.75%), PLA2G6-associated neurodegeneration (99.58%), Rasmussen encephalitis, myelitis and several rare genetic syndromes. Among these, only PLA2G6-associated neurodegeneration has a plausible symptomatic rationale, because it includes dystonia-parkinsonism phenotypes. It is still supported only by a single case report that does not examine trihexyphenidyl.
+Other predictions in the same list include the inattentive subtype of ADHD (0.9975), PLA2G6-associated neurodegeneration (0.9958), Rasmussen encephalitis, myelitis and several rare genetic syndromes. Among these, only PLA2G6-associated neurodegeneration has a plausible symptomatic rationale, because it includes dystonia-parkinsonism phenotypes. It is still supported only by a single case report that does not examine trihexyphenidyl.
 
 ## Clinical Trial Evidence
 

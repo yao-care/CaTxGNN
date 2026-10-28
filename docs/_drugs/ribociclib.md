@@ -50,10 +50,10 @@ This is a research question, not a clinical recommendation.
 |------|------|
 | Original Indication | Hormone receptor-positive, HER2-negative breast cancer (inferred from the literature; the Canadian licence text compiled for this report is blank) |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.35% |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

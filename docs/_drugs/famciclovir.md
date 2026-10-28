@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Famciclovir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 374
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L4). Approved use: Herpes zoster"
 monitor_inn: "Famciclovir"
-predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor", "anogenital human papillomavirus infection"]
+predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 ---
 
 # Famciclovir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Support is thin: **1 clinical trial** is linked, and it tests a different drug (
 |------|------|
 | Original Indication | Herpes zoster |
 | Predicted New Indication | Post-infectious neuralgia |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

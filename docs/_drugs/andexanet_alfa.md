@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** wi
 |------|------|
 | Original Indication | Not available in the compiled data (the Canadian license has no indication text) |
 | Predicted New Indication | Glanzmann thrombasthenia |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,13 +61,13 @@ The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** wi
 
 Detailed mechanism-of-action data is not available in the compiled data. From known pharmacology, andexanet alfa is a catalytically inactive recombinant FXa decoy. It binds and sequesters direct FXa inhibitors (and the antithrombin-heparin complex), restoring normal FXa activity.
 
-Glanzmann thrombasthenia is an inherited platelet disorder caused by deficiency or dysfunction of integrin αIIbβ3 (GPIIb/IIIa), which impairs platelet aggregation. Andexanet alfa acts on the coagulation cascade, not on platelet aggregation, so **no plausible mechanistic link** was identified. The high TxGNN score is a graph-based prediction, likely driven by shared hemostasis-related network neighbours rather than biology.
+Glanzmann thrombasthenia is an inherited platelet disorder caused by deficiency or dysfunction of integrin αIIbβ3 (GPIIb/IIIa), which impairs platelet aggregation. Andexanet alfa acts on the coagulation cascade, not on platelet aggregation, so **no plausible mechanistic link** was identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other predicted indications show the same pattern:
 
-- **Primary release disorder of platelets** (score 99.76%): this involves defective platelet granule secretion or signalling, which andexanet alfa does not correct. There are no trials or literature.
-- **Pseudo-von Willebrand disease** (score 99.65%): this is a gain-of-function defect in platelet GPIb-α, and andexanet alfa has no known effect on the VWF–GPIb axis. There are no trials or literature.
-- **Hemophilia** (score 99.10%): this is a deficiency of factor VIII or IX. Andexanet alfa does not replace the missing factors. The retrieved publications concern DOAC reversal or laboratory interference, not hemophilia treatment (see Literature Evidence).
+- **Primary release disorder of platelets** (score 0.9976): this involves defective platelet granule secretion or signalling, which andexanet alfa does not correct. There are no trials or literature.
+- **Pseudo-von Willebrand disease** (score 0.9965): this is a gain-of-function defect in platelet GPIb-α, and andexanet alfa has no known effect on the VWF–GPIb axis. There are no trials or literature.
+- **Hemophilia** (score 0.9910): this is a deficiency of factor VIII or IX. Andexanet alfa does not replace the missing factors. The retrieved publications concern DOAC reversal or laboratory interference, not hemophilia treatment (see Literature Evidence).
 
 ---
 
@@ -114,7 +114,7 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction for Glanzmann thrombasthenia is supported only by a graph-based model score. There are no clinical trials and no relevant literature, and the drug's mechanism (neutralizing FXa inhibitors) does not address the platelet aggregation defect. The same applies to the other three predicted indications.
+The prediction for Glanzmann thrombasthenia is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials and no relevant literature, and the drug's mechanism (neutralizing FXa inhibitors) does not address the platelet aggregation defect. The same applies to the other three predicted indications.
 
 **To proceed, the following is needed:**
 - The Health Canada package insert (approved indication, warnings, and contraindications), which is required before any safety screening

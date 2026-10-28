@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Chloroxylenol
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 184
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Chloroxylenol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not specified in the licence data (products are topical antiseptic/di…"
-monitor_inn: "Chloroxylenol"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "hepatic porphyria", "gout", "pseudoachondroplasia", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Chloroxylenol: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Chloroxylenol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,70 +32,56 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Chloroxylenol: From Topical Antisepsis to Osteoarthritis
+<!-- known-uses-page -->
+<!-- description: Chloroxylenol: known uses and market status in Canada; currently no new candidate indication -->
+## Chloroxylenol: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model has no candidate with a score of 0.99 or higher for Chloroxylenol, so there is currently no new predicted indication. No recorded uses are listed for this drug. The groups below are therefore empty.
 
-Chloroxylenol is a halogenated phenol antiseptic and disinfectant, used in hand soaps, wound cleansers and liniments.
-The TxGNN model predicts it may be effective for **osteoarthritis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
-The only related publication found (for a lower-ranked prediction, rheumatoid arthritis) is an animal toxicity study that raises a safety signal.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the licence data (products are topical antiseptic/disinfectant and liniment products) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 98.27% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 0 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available. Based on known information, chloroxylenol is a topical halogenated phenol antiseptic. It is used to reduce microbes on skin and surfaces, not to treat joint disease.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-No mechanistic link to osteoarthritis has been established. Chloroxylenol has no known anti-inflammatory, chondroprotective or analgesic activity in joint tissue. The high score (0.983) most likely reflects connections within the knowledge graph rather than a pharmacological relationship.
-
-Other top-ranked predictions are osteoarthritis susceptibility, rheumatoid arthritis, hepatic porphyria, gout, pseudoachondroplasia and several rare hepatic diseases. None has trial or literature support, and none has a plausible mechanism. Several hepatic diseases share an identical score (0.9727), which points to a generic graph-based association.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-No literature is available for osteoarthritis. One paper was retrieved for the lower-ranked rheumatoid arthritis prediction. It is an ecotoxicology study, not evidence of benefit:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39489103](https://pubmed.ncbi.nlm.nih.gov/39489103/) | 2024 | Preclinical (animal, non-mammalian) | Aquatic Toxicology | Chronic chloroxylenol exposure (1.43–143 μg/L) affected endochondral ossification and body condition in *Rana chensinensis* tadpoles, suggesting a possible skeletal/cartilage toxicity signal. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Canada Market Information
 
-Twelve single-ingredient licences are valid in Canada. Dosage form and approved-indication text are not available for these entries. The first five are listed below.
-
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02449420 | SOFT CARE DEFEND | Not available | Not available |
-| 02448866 | SOFT CARE DEFEND FOAM | Not available | Not available |
-| 02480506 | APPLAUD AB ANTISEPTIC LOTIONIZED HAND SOAP | Not available | Not available |
-| 01977873 | GERMICIDAL HAND SOAP LIQ 0.6% | Not available | Not available |
-| 02242847 | DIGICLEAN E FOAM HAND SOAP | Not available | Not available |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02449420 | SOFT CARE DEFEND |  | Valid |
+| 02448866 | SOFT CARE DEFEND FOAM |  | Valid |
+| 02480506 | APPLAUD AB ANTISEPTIC LOTIONIZED HAND SOAP |  | Valid |
+| 01977873 | GERMICIDAL HAND SOAP LIQ 0.6% |  | Valid |
+| 02242847 | DIGICLEAN E FOAM HAND SOAP |  | Valid |
+| 02276917 | QUICK CLEAN |  | Valid |
+| 02131471 | VIROBEX-P |  | Valid |
+| 00373435 | DETTOL |  | Valid |
+| 02314126 | PHENREX MVD |  | Valid |
+| 02440458 | PURKLENZ |  | Valid |
+| 01942271 | ABSORBINE JR EXTRA STRENGTH LINIMENT |  | Valid |
+| 01942301 | ABSORBINE JR LINIMENT |  | Valid |
 
 ## Safety Considerations
 
@@ -106,19 +91,6 @@ The animal study above (PMID 39489103) suggests a possible skeletal/cartilage to
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a knowledge-graph score alone. There are no clinical trials, no supporting literature, and no plausible mechanism for a topical antiseptic in osteoarthritis. The only related finding is a potential toxicity signal.
-
-**To proceed, the following is needed:**
-- Mechanism of action data (for example, from DrugBank)
-- Package insert warnings and contraindications from Health Canada
-- Evidence of anti-inflammatory or chondroprotective activity in joint models
-- Assessment of whether a topical antiseptic could reach joint tissue at relevant concentrations
-- Review of mammalian safety data on cartilage and bone effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

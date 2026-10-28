@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 808
-evidence_level: L5
-indication_count: 5
+evidence_level: L4
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Rilpivirine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "RILPIVIRINE"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Rilpivirine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical studies only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,7 @@ Simian immunodeficiency virus (SIV) and chimeric SHIV infections in macaques are
 
 The other predictions are weaker:
 - **Feline acquired immunodeficiency syndrome**: only in vitro and structural comparisons of NNRTIs against feline immunodeficiency virus reverse transcriptase, which is generally less sensitive to NNRTIs. There are no clinical data in cats, and the relevance to human use is limited.
-- **A rare neurodevelopmental disorder (ataxic gait, absent speech)**: no mechanistic link, no trials and no literature, so this is likely a graph artifact despite a score of 99.97%.
+- **A rare neurodevelopmental disorder (ataxic gait, absent speech)**: no mechanistic link, no trials and no literature. The score of 0.9997 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **AIDS related complex** and **congenital HIV**: both overlap with the existing HIV indication.
 
 ---

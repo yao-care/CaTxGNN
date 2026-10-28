@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ethambutol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 361
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Ethambutol: predicted new indication Epiglottitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
+description: "Ethambutol: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ethambutol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Ethambutol: From Pulmonary Tuberculosis to Epiglottitis
+## Ethambutol: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no registered clinical trials** and only **1 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis (from the TxGNN knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,10 +66,10 @@ Other predicted indications were also reviewed:
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Laryngitis | 99.71% | L4 | Relevant only to tuberculous or nontuberculous mycobacterial laryngitis. Evidence is case reports and small series, and several retrieved papers are off-topic. |
-| 3 | Meningococcal infection | 99.63% | L5 | No evidence. *Neisseria meningitidis* lacks the mycobacterial target and has effective standard therapy. |
-| 4 | Peritonitis | 99.20% | L3 | Supported for tuberculous peritonitis within standard combination therapy (including a systematic review, PMID 16197489). This extends the existing TB indication to an extrapulmonary site. |
-| 5 | Infectious otitis media | 99.06% | L5 | No evidence. The common pathogens lack the target. |
+| 2 | Laryngitis | 0.9971 | L5 | Relevant only to tuberculous or nontuberculous mycobacterial laryngitis. Evidence is case reports and small series, and several retrieved papers are off-topic. |
+| 3 | Meningococcal infection | 0.9963 | L5 | No evidence. *Neisseria meningitidis* lacks the mycobacterial target and has effective standard therapy. |
+| 4 | Peritonitis | 0.9920 | L3 | Supported for tuberculous peritonitis within standard combination therapy (including a systematic review, PMID 16197489). This extends the existing TB indication to an extrapulmonary site. |
+| 5 | Infectious otitis media | 0.9906 | L5 | No evidence. The common pathogens lack the target. |
 
 Of the five, tuberculous peritonitis has the most support, though it is an extension of the existing indication, not new repurposing.
 

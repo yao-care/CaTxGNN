@@ -4,7 +4,7 @@ title: Alglucosidase Alfa
 parent: Model Prediction Only (L5)
 nav_order: 33
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Alglucosidase Alfa: predicted new indication Adult polyglucosan body disease (evidence level L5). Approved use: Glycogen storage disease (Pompe disease)"
 monitor_inn: "ALGLUCOSIDASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 # Alglucosidase Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Glycogen storage disease (Pompe disease) |
 | Predicted New Indication | Adult polyglucosan body disease |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,11 +60,11 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Adult polyglucosan body disease (APBD) is caused by deficiency of the glycogen branching enzyme (GBE1). This leads to buildup of poorly branched, insoluble polyglucosan in neural tissue. The only plausible link is that both conditions involve abnormal glycogen metabolism.
 
-The link is weak for two reasons. First, the primary defect in APBD is in the cytosolic branching step, not in lysosomal glycogen breakdown. Second, the enzyme has limited ability to cross the blood-brain barrier, so reaching affected nerve tissue is doubtful. The high score most likely reflects closeness within the glycogen storage disease family in the knowledge graph, not clinical data.
+The link is weak for two reasons. First, the primary defect in APBD is in the cytosolic branching step, not in lysosomal glycogen breakdown. Second, the enzyme has limited ability to cross the blood-brain barrier, so reaching affected nerve tissue is doubtful. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are also weak:
 - **Glycogen branching enzyme deficiency (neuromuscular and fatal perinatal forms):** these are GSD type IV, where the missing enzyme is not the one this drug supplies. The association is at disease-class level only.
-- **Eyelid, ocular and other rare congenital syndromes** (congenital entropion, ectropion, Horner syndrome, ptosis-related syndromes, epiblepharon and others): there is no plausible mechanistic connection, and these are most likely knowledge-graph artifacts.
+- **Eyelid, ocular and other rare congenital syndromes** (congenital entropion, ectropion, Horner syndrome, ptosis-related syndromes, epiblepharon and others): there is no plausible mechanistic connection, and these are most likely TxGNN model (deep learning) artifacts.
 
 ## Clinical Trial Evidence
 

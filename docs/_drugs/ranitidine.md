@@ -4,17 +4,17 @@ title: Ranitidine
 parent: Moderate Evidence (L3-L4)
 nav_order: 795
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Ranitidine: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Gastric ulcer, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "RANITIDINE"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Ranitidine: From Gastric and Duodenal Ulcer to Active Peptic Ulcer Disease
+## Ranitidine: Peptic ulcer perforation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ranitidine is an H2-receptor antagonist originally used to treat gastric ulcer, duodenal ulcer, reflux disease and related acid-driven conditions.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is essentially a restatement of an existing use rather than a new repurposing opportunity.
+The TxGNN model predicts it may be effective for **peptic ulcer perforation**.
 No clinical trials are registered for this specific prediction, and the **20 publications** retrieved are mostly reviews of other drugs and animal studies.
 
 ---
@@ -48,12 +48,12 @@ No clinical trials are registered for this specific prediction, and the **20 pub
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, gastroesophageal reflux disease, esophagitis, dyspepsia, duodenal ulcer, Zollinger-Ellison syndrome (the Health Canada licence records contain no indication text, so these come from the knowledge-graph indication list) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Peptic ulcer perforation |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,6 @@ No clinical trials are registered for this specific prediction, and the **20 pub
 
 Detailed mechanism-of-action data for ranitidine is not available in the data compiled for this report. From general pharmacology, ranitidine is a histamine H2-receptor antagonist. It reduces gastric acid secretion, which is how it heals gastric and duodenal ulcers.
 
-Active peptic ulcer disease is essentially the same condition as ranitidine's established gastric and duodenal ulcer uses. The high model score therefore mainly reflects that overlap. It is not evidence of a new therapeutic direction.
 
 Other predictions in the top ten fall into three groups:
 - **Closely related GI conditions:** peptic ulcer perforation, gastrojejunal ulcer, gastroduodenitis, duodenogastric reflux and duodenal obstruction. Acid suppression is plausible for some of them, but evidence is indirect. For obstruction and bile reflux, ranitidine cannot address the underlying mechanical or motility problem.
@@ -73,7 +72,6 @@ Other predictions in the top ten fall into three groups:
 
 ## Clinical Trial Evidence
 
-For active peptic ulcer disease, no related clinical trials are registered. The table below lists the five trials found for the closely related prediction "peptic ulcer disease". None of them tests ranitidine as the investigational drug.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -89,7 +87,6 @@ In the three Phase 3 trials, ranitidine is the comparator. They therefore do not
 
 ## Literature Evidence
 
-The most relevant publications retrieved for active peptic ulcer disease and the closely related peptic ulcer disease prediction:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

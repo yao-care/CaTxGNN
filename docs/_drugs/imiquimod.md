@@ -6,9 +6,9 @@ nav_order: 475
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Common wart, anogenital HPV infection…"
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
+description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imiquimod
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Imiquimod: From Common Wart and Actinic Keratosis to Pre-malignant Neoplasm
+## Imiquimod: Pre-malignant neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **2 clinical trials** and **9 publications** currently supporting this dire
 
 | Item | Content |
 |------|------|
-| Original Indication | Common wart, anogenital HPV infection, superficial multifocal basal cell carcinoma, actinic keratosis (the original-indication list is drawn from the TxGNN knowledge graph; the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pre-malignant neoplasm |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L1 (as assigned in the compiled data; see the note in the conclusion) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (as assigned in the compiled data; see the note in the conclusion) |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

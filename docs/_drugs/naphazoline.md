@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 |------|------|
 | Original Indication | Temporary relief of eye redness (vasoconstrictor). The Canadian licence records did not include indication text, so this comes from pharmacology reference data. |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

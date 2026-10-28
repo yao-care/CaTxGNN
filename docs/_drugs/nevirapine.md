@@ -48,10 +48,10 @@ SIV infection is an animal-model disease rather than a human clinical indication
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,8 +61,8 @@ Currently, detailed mechanism of action data is not available in the data compil
 SIV is a lentivirus related to HIV, which probably explains the high TxGNN score. However, the published data (for example PMIDs 15040537, 7541200 and 16859727) indicate that the reverse transcriptases of wild-type SIV and HIV-2 are intrinsically resistant to HIV-1-specific NNRTIs. Activity is expected mainly in engineered SIV/SHIV chimeras that carry HIV-1 reverse transcriptase. The score therefore likely reflects structural similarity among lentiviral targets rather than true efficacy against wild-type SIV.
 
 Two other predictions were also reviewed:
-- **Feline acquired immunodeficiency syndrome** (score 99.85%): the only evidence is one biochemical and structural study of NNRTIs against feline immunodeficiency virus reverse transcriptase (PMID 38031646). It is indirect, preclinical and veterinary.
-- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (score 99.82%): there is no supporting literature or trials and no identifiable mechanistic link to nevirapine (Evidence Level L5).
+- **Feline acquired immunodeficiency syndrome** (score 0.9985): the only evidence is one biochemical and structural study of NNRTIs against feline immunodeficiency virus reverse transcriptase (PMID 38031646). It is indirect, preclinical and veterinary.
+- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (score 0.9982): there is no supporting literature or trials and no identifiable mechanistic link to nevirapine (Evidence Level L5).
 
 ## Clinical Trial Evidence
 

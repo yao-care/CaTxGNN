@@ -48,10 +48,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Megaloblastic anemia |
 | Predicted New Indication | Primary hyperoxaluria |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Primary hyperoxaluria, however, arises from inherited defects in glyoxylate metabolism (AGXT, GRHPR, HOGA1) that cause oxalate overproduction. Folate-dependent pathways are not known to be central to this process, so **no direct mechanistic link is established**. A speculative connection might involve folate or B-vitamin cofactor roles in glyoxylate or one-carbon metabolism, or hyperhomocysteinemia associated with oxalate-related kidney impairment, but no supporting data is available.
 
-The high TxGNN score (99.41%) is a model-derived prediction and is not corroborated by any trial or publication in the compiled data.
+The high TxGNN score (0.9941) is a model-derived prediction and is not corroborated by any trial or publication in the compiled data.
 
-**A second prediction worth noting:** the model also ranks **congenital intrinsic factor deficiency** (score 99.34%, also L5, Hold). There is a plausible rationale: this condition impairs vitamin B12 absorption and causes secondary functional folate deficiency, which presents as megaloblastic anemia, and leucovorin can bypass that folate block. However, it does not correct the underlying B12 deficiency and may mask the anemia while neurological damage progresses. Parenteral vitamin B12 remains the necessary standard therapy, so leucovorin would at most be an adjunct. The high score is likely driven by overlap with the approved megaloblastic anemia indication.
+**A second prediction worth noting:** the model also ranks **congenital intrinsic factor deficiency** (score 0.9934, also L5, Hold). There is a plausible rationale: this condition impairs vitamin B12 absorption and causes secondary functional folate deficiency, which presents as megaloblastic anemia, and leucovorin can bypass that folate block. However, it does not correct the underlying B12 deficiency and may mask the anemia while neurological damage progresses. Parenteral vitamin B12 remains the necessary standard therapy, so leucovorin would at most be an adjunct. The high score is likely driven by overlap with the approved megaloblastic anemia indication.
 
 ## Clinical Trial Evidence
 

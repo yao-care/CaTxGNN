@@ -4,17 +4,17 @@ title: Palbociclib
 parent: Model Prediction Only (L5)
 nav_order: 699
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Palbociclib: predicted new indication Top TxGNN rank: hyperthyroidism . Best-supported candidate: myeloid l… (evidence level L5). Approved use: HR-positive, HER2-negative breast cancer"
 monitor_inn: "Palbociclib"
-predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brachydactyly-syndactyly syndrome", "myeloid leukemia", "multiple endocrine neoplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "hyperthyroxinemia", "Prinzmetal angina"]
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib: predicted new indication Top TxGNN rank: hyperthyroidism . Best-supported candidate: myeloid leukemia (hyperthyroidism) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Palbociclib: From Breast Cancer to Myeloid Leukemia
+## Palbociclib: Top TxGNN rank: hyperthyroidism (no evidence). Best-supported candidate: myeloid leukemia (hyperthyroidism)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Palbociclib is a CDK4/6 inhibitor used in the treatment of hormone receptor-positive breast cancer. The TxGNN model's top-ranked prediction is **hyperthyroidism**, but that prediction has no supporting evidence. The best-supported candidate among the top 10 is **Myeloid Leukemia**, with **4 early-phase clinical trials** and **19 publications** (mostly preclinical) currently supporting this direction.
+Palbociclib is a CDK4/6 inhibitor used in the treatment of hormone receptor-positive breast cancer. The TxGNN model's top-ranked prediction is **hyperthyroidism**, but that prediction has no supporting evidence.
 
 The original indication below comes from background knowledge, because the Canadian license records compiled for this report contain no indication text.
 
@@ -48,28 +48,22 @@ The original indication below comes from background knowledge, because the Canad
 
 | Item | Content |
 |------|------|
-| Original Indication | HR-positive, HER2-negative breast cancer (not listed in the Canadian license data) |
-| Predicted New Indication | Top TxGNN rank: hyperthyroidism (no evidence). Best-supported candidate: myeloid leukemia |
-| TxGNN Prediction Score | Hyperthyroidism 99.44%; myeloid leukemia 98.94% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Top TxGNN rank: hyperthyroidism (no evidence). Best-supported candidate: myeloid leukemia (hyperthyroidism) |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | Hyperthyroidism L5; myeloid leukemia L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hyperthyroidism: Hold. Myeloid leukemia: Proceed with Guardrails |
 
-**Note on ranking:** TxGNN scores are all very high (98.7%–99.4%) across the top 10 predictions and do not separate plausible from implausible ones. The evidence review is what distinguishes them. The table below shows how each prediction fared.
+**Note on ranking:** TxGNN scores are all very high (≥ 0.99) across the top 10 predictions and do not separate plausible from implausible ones. The evidence review is what distinguishes them. The table below shows how each prediction fared.
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 1 | Hyperthyroidism | 99.44% | L5 | Hold. No trials or literature |
-| 2 | Rheumatoid arthritis | 99.36% | L4 | Research question. Plausible preclinical rationale and one case report |
-| 3 | Thrombotic disease | 99.32% | L5 | Hold. Literature shows thrombosis as an adverse event, not a benefit |
-| 4 | Thyroid hormone resistance (THRB mutation) | 99.30% | L5 | Hold. No evidence |
-| 5 | Brachydactyly-syndactyly syndrome | 98.99% | L5 | Hold. No evidence |
-| 6 | Myeloid leukemia | 98.94% | L3 | Proceed with Guardrails |
-| 7 | Multiple endocrine neoplasia | 98.86% | L4 | Hold. Trials are breast cancer or basket studies, not MEN-specific |
-| 8 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 98.85% | L5 | Hold. No evidence |
-| 9 | Hyperthyroxinemia | 98.78% | L5 | Hold. No evidence |
-| 10 | Prinzmetal angina | 98.75% | L5 | Hold. No evidence |
+| 1 | Hyperthyroidism | 0.9944 | L5 | Hold. No trials or literature |
+| 2 | Rheumatoid arthritis | 0.9936 | L4 | Research question. Plausible preclinical rationale and one case report |
+| 3 | Thrombotic disease | 0.9932 | L5 | Hold. Literature shows thrombosis as an adverse event, not a benefit |
+| 4 | Thyroid hormone resistance (THRB mutation) | 0.9930 | L5 | Hold. No evidence |
 
 ---
 
@@ -77,19 +71,18 @@ The original indication below comes from background knowledge, because the Canad
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, palbociclib selectively inhibits CDK4 and CDK6, which blocks cell-cycle progression from the G1 to the S phase. Its efficacy in HR-positive breast cancer is established.
 
-**Myeloid leukemia (best-supported).** CDK6 is a recognized dependency in acute myeloid leukemia (AML), notably in MLL-rearranged and NUP98-rearranged subtypes. Preclinical studies show palbociclib acting synergistically with venetoclax plus azacitidine, overcoming venetoclax resistance, and working with LSD1 or menin inhibitors. One case report describes successful use of palbociclib with venetoclax and azacitidine in refractory therapy-related AML. A 2026 review noted that CDK4/6 inhibitor monotherapy trials in leukemia were disappointing, whereas combinations showed more promise.
+Preclinical studies show palbociclib acting synergistically with venetoclax plus azacitidine, overcoming venetoclax resistance, and working with LSD1 or menin inhibitors. A 2026 review noted that CDK4/6 inhibitor monotherapy trials in leukemia were disappointing, whereas combinations showed more promise.
 
-**Rheumatoid arthritis (research question).** Synovial fibroblast proliferation depends on CDK6, which makes CDK4/6 inhibition biologically plausible. Animal models support this. One case report describes RA improvement in a breast cancer patient on palbociclib. No registered trials exist.
+**Rheumatoid arthritis (research question).** Synovial fibroblast proliferation depends on CDK6, which makes CDK4/6 inhibition biologically plausible. Animal models support this. No registered trials exist.
 
 **Thrombotic disease.** The literature indicates that thromboembolism is a *safety signal* of CDK4/6 inhibitors. This is an adverse effect, not a therapeutic benefit, so the prediction should not be pursued.
 
-**Other predictions** (hyperthyroidism, thyroid hormone resistance, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, hyperthyroxinemia, Prinzmetal angina) have no clinical trials, no literature, and no plausible mechanistic link in the available data. Their high scores reflect graph-based prediction only.
+**Other predictions** (hyperthyroidism, thyroid hormone resistance) have no clinical trials, no literature, and no plausible mechanistic link in the available data. Their high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-**Myeloid leukemia**
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -98,7 +91,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 | [NCT05627232](https://clinicaltrials.gov/study/NCT05627232) | Phase 1 | Recruiting | 24 | Palbociclib pre-treatment followed by CPX-351 (Part 2) in relapsed/refractory AML. Combination design limits attribution |
 | [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | Terminated | 2 | Precision-oncology platform trial. Uninformative given 2 participants |
 
-**Multiple endocrine neoplasia.** The linked trials are not MEN-specific. They cover breast cancer studies (NCT03355157, Phase 4, 130 participants; NCT02894398, Phase 2, 388 participants) and the NCI-MATCH basket trial ([NCT02465060](https://clinicaltrials.gov/study/NCT02465060), Phase 2, 6,452 participants), so they do not support this indication.
+They cover breast cancer studies (NCT03355157, Phase 4, 130 participants; NCT02894398, Phase 2, 388 participants) and the NCI-MATCH basket trial ([NCT02465060](https://clinicaltrials.gov/study/NCT02465060), Phase 2, 6,452 participants), so they do not support this indication.
 
 No registered clinical trials were found for the other predicted indications.
 
@@ -106,7 +99,6 @@ No registered clinical trials were found for the other predicted indications.
 
 ## Literature Evidence
 
-**Myeloid leukemia (selected, most relevant)**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -179,8 +171,8 @@ Package insert warnings and contraindications were not available in the data com
 **Decision: Hold for hyperthyroidism (TxGNN rank 1); Proceed with Guardrails for myeloid leukemia**
 
 **Rationale:**
-- The top-scoring prediction, hyperthyroidism, is supported only by the graph model, with no trials, no literature and no mechanistic link. The same applies to the other L5 predictions, and thrombosis is a drug-related risk rather than a potential benefit.
-- Myeloid leukemia has the strongest support: a plausible CDK6-dependency mechanism, consistent preclinical synergy with venetoclax-based regimens, and four early-phase trials. However, there is no randomized evidence, and monotherapy results in leukemia were disappointing, so evidence is at L3 only.
+- The top-scoring prediction, hyperthyroidism, is supported only by the TxGNN model (deep learning), whose score may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no literature and no mechanistic link. The same applies to the other L5 predictions, and thrombosis is a drug-related risk rather than a potential benefit.
+- However, there is no randomized evidence, and monotherapy results in leukemia were disappointing, so evidence is at L3 only.
 - Rheumatoid arthritis is worth keeping as a research question (L4), not a development candidate.
 
 **To proceed, the following is needed:**

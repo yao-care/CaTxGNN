@@ -48,9 +48,9 @@ Histidine is an essential amino acid used as a component of parenteral nutrition
 |------|------|
 | Original Indication | Not stated in the licence data (the products are amino acid solutions for parenteral nutrition) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.55% |
+| TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -109,7 +109,7 @@ The TxGNN knowledge graph, which is not label text, links histidine to contraind
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.55%), but there are no clinical trials, and the only publication does not study histidine. No mechanistic link to gastroparesis is supported by the data, so the evidence level is L5.
+The TxGNN score is very high (0.9955), but there are no clinical trials, and the only publication does not study histidine. No mechanistic link to gastroparesis is supported by the data, so the evidence level is L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for histidine
@@ -121,7 +121,7 @@ The TxGNN score is very high (99.55%), but there are no clinical trials, and the
 
 ## Additional Note: Second Predicted Indication (Sclerosing Cholangitis)
 
-The model's second prediction is **sclerosing cholangitis** (score 99.27%, evidence level L4, recommendation: Research Question). It has no clinical trials and 8 publications, none of which tests histidine as a treatment.
+The model's second prediction is **sclerosing cholangitis** (score 0.9927, evidence level L4, recommendation: Research Question). It has no clinical trials and 8 publications, none of which tests histidine as a treatment.
 
 - **Histamine pathway:** Histidine is the precursor of histamine, made by L-histidine decarboxylase. Mouse studies (PMIDs 27351144, 35799467, 32054995, 29601088) show that mast cell-derived histamine promotes biliary proliferation and fibrosis in primary sclerosing cholangitis. Blocking histamine signalling or removing the enzyme reduced damage.
 - **Direction of effect:** These findings suggest that supplying more histidine could worsen the disease rather than improve it, which is the opposite of a therapeutic benefit.

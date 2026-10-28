@@ -48,23 +48,23 @@ The prediction is best viewed as a model-level extension of the existing HIV ind
 |------|------|
 | Original Indication | HIV infectious disease / AIDS; chronic hepatitis C virus infection (the Canadian licence records provide no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, ritonavir is an HIV protease inhibitor and a strong CYP3A4 inhibitor. It is used both as an antiviral and as a pharmacokinetic booster in combination products (for example, with lopinavir in Kaletra, and with nirmatrelvir in Paxlovid).
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1, and its protease is structurally similar. A protease inhibitor could therefore plausibly act on it. The very high TxGNN score is most likely driven by knowledge-graph similarity to HIV/AIDS, which is already an original indication.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1, and its protease is structurally similar. A protease inhibitor could therefore plausibly act on it. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as HIV/AIDS, which is already an original indication, not biological evidence.
 
 Caution is needed. Protease susceptibility differs between species and viruses, so activity against FIV protease cannot be assumed. Feline AIDS is also a veterinary condition, so it is not a human repurposing target.
 
 Two other predictions were reviewed:
-- **Simian immunodeficiency virus infection** (score 99.92%, evidence level L4): ritonavir inhibited SIVmac239 in vitro with an EC50 of about 13 nM, compared with about 25 nM for HIV-1 (PMID 12709355). SIV is mainly a research model for HIV, so it has little independent clinical value.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.92%, evidence level L5): no plausible mechanistic link is evident, and the score may reflect graph-level artifacts.
+- **Simian immunodeficiency virus infection** (score 0.9992, evidence level L4): ritonavir inhibited SIVmac239 in vitro with an EC50 of about 13 nM, compared with about 25 nM for HIV-1 (PMID 12709355). SIV is mainly a research model for HIV, so it has little independent clinical value.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9992, evidence level L5): no plausible mechanistic link is evident. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

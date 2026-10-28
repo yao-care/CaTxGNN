@@ -4,17 +4,17 @@ title: Triamterene
 parent: Model Prediction Only (L5)
 nav_order: 942
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-13
-description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, hypertensive disorder, congestive heart failure"
+indication_count: 5
+last_modified_at: 2026-10-28
 monitor_inn: "TRIAMTERENE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triamterene
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Triamterene: From Hypertension to Malignant Hypertensive Renal Disease
+## Triamterene: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, hypertensive disorder, congestive heart failure (the Health Canada licence records contain no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,10 +70,10 @@ The prediction for malignant hypertensive renal disease is plausible only by ext
 
 Other predictions in the list follow the same pattern:
 
-- **Malignant renovascular hypertension** (99.89%): driven mainly by the renin-angiotensin-aldosterone system, and combining a potassium-sparing diuretic with RAAS-acting agents increases hyperkalemia risk.
-- **Pulmonary hypertension** (99.88%): the high scores likely reflect a shared hypertension node in the ontology, not a pulmonary vascular mechanism.
-- **Braddock syndrome** (99.84%): no mechanistic rationale is identifiable, and the score is likely a graph-connectivity artifact.
-- **Chronic pulmonary heart disease** (99.75%): the most credible secondary candidate, because it involves right-sided heart failure with fluid retention and triamterene is already used as a diuretic in heart failure. It has indirect literature support only (see below).
+- **Malignant renovascular hypertension** (0.9989): driven mainly by the renin-angiotensin-aldosterone system, and combining a potassium-sparing diuretic with RAAS-acting agents increases hyperkalemia risk.
+- **Pulmonary hypertension** (0.9988): the high scores likely reflect a shared hypertension node in the ontology, not a pulmonary vascular mechanism.
+- **Braddock syndrome** (0.9984): no mechanistic rationale is identifiable. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+- **Chronic pulmonary heart disease** (0.9975): the most credible secondary candidate, because it involves right-sided heart failure with fluid retention and triamterene is already used as a diuretic in heart failure. It has indirect literature support only (see below).
 
 ---
 
@@ -109,7 +109,7 @@ Both products are listed as valid. Their names indicate triamterene/hydrochlorot
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: The TxGNN knowledge graph links triamterene to many contraindicated conditions. Key groups are:
+- **Contraindications (TxGNN model associations, not label text)**: The TxGNN model (deep learning) links triamterene to many contraindicated conditions. These scores come from the model and may reflect similarities the model learned between related diseases, not biological evidence. Key groups are:
   - Kidney and urinary: kidney disease, anuria, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
   - Liver: liver failure, liver disease, hepatic coma, hepatic encephalopathy
   - Metabolic: diabetes mellitus (type 1 and type 2), diabetic ketoacidosis, gout, hypercalcemia, acidosis, lactic acidosis, hyperparathyroidism

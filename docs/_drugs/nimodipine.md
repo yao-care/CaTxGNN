@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this direction.
 |------|------|
 | Original Indication | Subarachnoid hemorrhage (including acquired aneurysmal subarachnoid hemorrhage) |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The link to the predicted indication is weak. Homozygous familial hypercholesterolemia is caused by defects in the LDL receptor pathway (LDLR, APOB, PCSK9, LDLRAP1). Nimodipine does not act on this pathway. Some calcium channel blockers have shown modest anti-atherosclerotic effects in preclinical models, but these do not correct the underlying LDL-receptor deficiency.
 
-The high score (0.993) most likely reflects network-level associations, such as shared cardiovascular or lipid-related nodes in the knowledge graph. It does not reflect a validated biological mechanism.
+The high score (0.9929) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not reflect a validated biological mechanism.
 
-A second prediction, **nephrogenic syndrome of inappropriate antidiuresis** (score 99.05%), has the same problem. That condition is driven by gain-of-function variants in the vasopressin V2 receptor. No known pathway lets nimodipine counteract this signaling. Nimodipine's blood-pressure-lowering effect and the risk of low sodium in neurocritical care settings would call for caution. This prediction also has no clinical or literature support and is also rated L5 / Hold.
+A second prediction, **nephrogenic syndrome of inappropriate antidiuresis** (score 0.9905), has the same problem. That condition is driven by gain-of-function variants in the vasopressin V2 receptor. No known pathway lets nimodipine counteract this signaling. Nimodipine's blood-pressure-lowering effect and the risk of low sodium in neurocritical care settings would call for caution. This prediction also has no clinical or literature support and is also rated L5 / Hold.
 
 ## Clinical Trial Evidence
 

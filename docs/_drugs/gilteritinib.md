@@ -50,10 +50,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Acute myeloid leukemia (including multiple AML subtypes) |
 | Predicted New Indication | Bulbar polio |
-| TxGNN Prediction Score | 99.10% |
+| TxGNN Prediction Score | 0.9910 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The link to bulbar polio is weak. Poliomyelitis is a viral infection of motor neurons, including those in the brainstem, and it is mainly prevented by vaccination. No antiviral therapy is established for it. No known mechanism connects FLT3/AXL inhibition to poliovirus infection. One speculative idea is that AXL has been implicated in the entry and replication of some viruses and in the regulation of innate immune responses. However, nothing in the compiled data supports this idea for poliovirus.
 
-The high score (0.991) should therefore be treated as a computational hypothesis only. It could also reflect an artifact of the knowledge graph.
+The high score (0.9910) should therefore be treated as a computational hypothesis only. It comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -122,7 +122,7 @@ The only support for this indication is the model score. There are no clinical t
 - Mechanism of action (MOA) data, for example from DrugBank
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Preclinical evidence, such as in vitro poliovirus infection models testing AXL or FLT3 involvement
-- A review of whether the prediction is a knowledge-graph artifact
+- A review of whether the prediction is a TxGNN model (deep learning) artifact
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

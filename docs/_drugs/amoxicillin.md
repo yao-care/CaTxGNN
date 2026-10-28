@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 ## One-Sentence Summary
 
 Amoxicillin is a beta-lactam antibiotic originally used for common bacterial infections such as urinary tract infection, otitis media, pneumonia and pharyngitis.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The high score most likely reflects knowledge-graph proximity rather than a therapeutic rationale.
+The TxGNN model (deep learning) predicts it may be effective for **polyclonal hyperviscosity syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -49,9 +49,9 @@ The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syn
 |------|------|
 | Original Indication | Bacterial infections, including urinary tract infection, infectious otitis media, streptococcal infection, bacterial pneumonia and pharyngitis (approved-indication text is not available for the Canadian licences) |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syn
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin belongs to the beta-lactam class of antibacterials, which act by inhibiting bacterial cell wall synthesis. Its efficacy in bacterial infections is well established.
 
-Polyclonal hyperviscosity syndrome is driven by elevated serum immunoglobulins and is not an infectious process. No plausible mechanistic link to amoxicillin was identified. The high score (0.996) likely reflects knowledge-graph proximity, such as infection-related associations, rather than a therapeutic rationale.
+Polyclonal hyperviscosity syndrome is driven by elevated serum immunoglobulins and is not an infectious process. No plausible mechanistic link to amoxicillin was identified. The high score (0.9963) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The model's other top predictions show the same pattern. Examples are hyperamylasemia, congenital analbuminemia and premalignant haematological disease, and none has a credible mechanism or supporting evidence. The only candidate with a biologically plausible, though weak, link is **septicemic plague**. It is rated L4 and labelled a research question, and the relevant evidence is limited to in vitro and animal studies (PMID 8203841, PMID 21628541). Beta-lactams are generally considered less effective than the recommended aminoglycosides, fluoroquinolones and tetracyclines, especially against intracellular bacteria.
 
@@ -110,7 +110,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph score alone. It has no clinical trials, no literature, and no plausible mechanism, because polyclonal hyperviscosity is not an infectious condition. The evidence level is L5.
+The prediction rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence. It has no clinical trials, no literature, and no plausible mechanism, because polyclonal hyperviscosity is not an infectious condition. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - A mechanistic rationale that links amoxicillin to immunoglobulin-driven hyperviscosity, supported by mechanism of action data.

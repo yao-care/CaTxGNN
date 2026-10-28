@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **alopecia areata**, but **no c
 |------|------|
 | Original Indication | Atopic dermatitis, contact dermatitis, seborrheic dermatitis, discoid lupus erythematosus and other inflammatory skin conditions (the Health Canada records compiled contain no indication text) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data for flumethasone is not currently available. B
 
 Alopecia areata is driven by T-cell-mediated autoimmune inflammation around hair follicles. Corticosteroids suppress this type of inflammation, and other members of the class, such as intralesional triamcinolone and topical clobetasol, are established treatments. This is class-level reasoning, not flumethasone-specific data.
 
-The high TxGNN score (99.93%) is a computational prediction only. Other predictions in the list vary in biological plausibility:
+The high TxGNN score (0.9993) is a computational prediction only. Other predictions in the list vary in biological plausibility:
 
 - **Plausible by class effect:** folliculitis decalvans (adjunct to antibiotics), alopecia mucinosa, and primary cutaneous B-cell lymphoma (adjunctive use at most, by analogy with the T-cell lymphoma indication).
 - **Weak support:** telogen effluvium (usually non-inflammatory), and rare genetic conditions such as hereditary hypotrichosis with recurrent skin vesicles, atrichia with papular lesions, and alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome.

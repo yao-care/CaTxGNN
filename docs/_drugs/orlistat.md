@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Obesity disorder; monogenic obesity (the Canadian licence record contains no approved indication text) |
 | Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Fat-soluble vitamins (A, D, E, K) are absorbed together with dietary fat. In theory, lowering fat absorption could reduce their uptake and so reduce body load in fat-soluble hypervitaminosis, such as vitamin A or D excess.
 
-This link is plausible but weak. It rests on a known adverse effect of orlistat (fat-soluble vitamin malabsorption), not on any demonstrated therapeutic benefit. Hypervitaminosis from excess supplementation is usually managed simply by stopping the supplement, and water-soluble hypervitaminosis would not be affected by this mechanism. The high TxGNN score (0.994) is a computational prediction only.
+This link is plausible but weak. It rests on a known adverse effect of orlistat (fat-soluble vitamin malabsorption), not on any demonstrated therapeutic benefit. Hypervitaminosis from excess supplementation is usually managed simply by stopping the supplement, and water-soluble hypervitaminosis would not be affected by this mechanism. The high TxGNN score (0.9942) is a computational prediction only.
 
 ## Clinical Trial Evidence
 

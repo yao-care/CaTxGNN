@@ -48,10 +48,10 @@ with **2 clinical trials** (neither a direct insomnia treatment trial) and **10 
 |------|------|
 | Original Indication | Anxiety |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

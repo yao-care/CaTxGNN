@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 
 Currently, detailed mechanism of action data is not available from the compiled data. Based on known information, velpatasvir is an HCV NS5A inhibitor and is used in fixed-dose combinations with sofosbuvir (Epclusa) and with sofosbuvir plus voxilaprevir (Vosevi). Its efficacy in hepatitis C is well established.
 
-Mechanistically, the link to hepatitis B is weak. HBV has no NS5A protein, so velpatasvir has no direct target in this virus. The high TxGNN score most likely reflects closeness in the knowledge-graph network between the two "viral hepatitis" diseases rather than a shared drug target.
+Mechanistically, the link to hepatitis B is weak. HBV has no NS5A protein, so velpatasvir has no direct target in this virus. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the two "viral hepatitis" diseases, not biological evidence or a shared drug target.
 
 The available HBV-related evidence also does not show benefit. One trial addresses HBV reactivation management in HCV/HBV co-infected patients, and any protective effect there comes from tenofovir alafenamide (TAF), not velpatasvir. One case report describes HBV reactivation during sofosbuvir/velpatasvir treatment, which is a safety signal rather than evidence of benefit.
 
@@ -122,7 +122,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.87%), but it appears to reflect network proximity between viral hepatitis diseases. Velpatasvir targets HCV NS5A, which HBV lacks. All trials and publications found are HCV studies, and the HBV-related data are about co-infection management or reactivation risk, not anti-HBV efficacy.
+The prediction score is very high (0.9987), but it appears to reflect network proximity between viral hepatitis diseases. Velpatasvir targets HCV NS5A, which HBV lacks. All trials and publications found are HCV studies, and the HBV-related data are about co-infection management or reactivation risk, not anti-HBV efficacy.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and in vitro evidence of anti-HBV activity

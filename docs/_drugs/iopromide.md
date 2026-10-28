@@ -4,17 +4,17 @@ title: Iopromide
 parent: Model Prediction Only (L5)
 nav_order: 491
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Iopromide: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report"
+indication_count: 9
 monitor_inn: "Iopromide"
-predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
+last_modified_at: 2026-10-23
+description: "Iopromide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available"
 ---
 
 # Iopromide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,42 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Iopromide: From Diagnostic Contrast Imaging to Osteoarthritis Susceptibility
+## Iopromide: From Diagnostic Contrast Imaging to Osteoarthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Iopromide is an iodinated, non-ionic radiographic contrast agent used for diagnostic imaging (marketed in Canada as ULTRAVIST).
-The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**, but this is a model prediction only,
-with **0 clinical trials** and **0 publications** supporting it.
+Iopromide is an iodinated, non-ionic radiographic contrast agent, marketed in Canada as ULTRAVIST.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials and no publications** were found to support this prediction.
+It is a TxGNN model (deep learning) result only, which may reflect similarities the model learned between related diseases, and it is not backed by any pharmacological rationale.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records compiled for this report (iopromide is known as a radiographic contrast agent) |
-| Predicted New Indication | Osteoarthritis susceptibility |
-| TxGNN Prediction Score | 99.57% |
+| Original Indication | Not available (the Canadian licence records contain no indication text); known use is as a radiographic contrast agent |
+| Predicted New Indication | Osteoarthritis |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Iopromide is an iodinated, non-ionic contrast agent. It is used to enhance visibility of structures on X-ray and CT imaging, not to treat disease.
+Currently, detailed mechanism of action data is not available. Iopromide is an iodinated, non-ionic contrast medium. It is used to make structures visible on imaging, not to treat disease.
 
-No mechanistic link to the predicted indication has been established. Iopromide has no known pharmacological action on joint tissue or on genetic susceptibility pathways. The high score is a computational output only. It is likely a knowledge-graph artifact, for example from the shared use of contrast agents in joint imaging (arthrography).
+No credible mechanistic link to osteoarthritis was identified. The drug has no known anti-inflammatory or cartilage-protective activity. Use of contrast agents in joint imaging (arthrography) is a diagnostic procedure, not a therapeutic effect.
 
-The other top predictions show the same pattern. They include osteoarthritis, rheumatoid arthritis, rare skeletal dysplasias (brachyolmia, acromesomelic dysplasia Hunter-Thompson type, pseudoachondroplasia), alopecia, myosclerosis and hemoglobinopathy. All have scores above 99%, none has any supporting trial or publication, and none has a plausible therapeutic mechanism. The scores therefore appear to reflect network structure rather than biology.
+The high score of 0.9953 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top predictions (rheumatoid arthritis, brachyolmia, acromesomelic dysplasia Hunter-Thompson type, brachyolmia-amelogenesis imperfecta syndrome, alopecia, myosclerosis, hemoglobinopathy and pseudoachondroplasia) show the same pattern. None has clinical trials, literature or a plausible mechanism.
+
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+Currently no related literature available.
 
 ## Canada Market Information
 
@@ -69,27 +77,34 @@ The other top predictions show the same pattern. They include osteoarthritis, rh
 | 02078619 | ULTRAVIST 370 | Not specified | Not specified |
 | 02078600 | ULTRAVIST 300 | Not specified | Not specified |
 
+Both are single-ingredient products with valid status.
+
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interactions were identified in the interaction databases. The main ones listed are as follows:
-  - **Major**: metformin, amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms), mesalazine, balsalazide, olsalazine, sulfasalazine, vancomycin, kanamycin, neomycin, polymyxin B, streptomycin
-  - **Moderate**: mannitol
-  - **Unknown severity**: clotrimazole, acetylsalicylic acid, bupropion, dexamethasone, pantoprazole
+- **Drug Interactions**: The interaction query completed with 100 recorded interactions. Most of those listed are rated Major. Examples:
+  - Metformin
+  - Amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms)
+  - Vancomycin
+  - Aminoglycosides (kanamycin, neomycin, streptomycin)
+  - Polymyxin B
+  - Mesalazine, balsalazide, olsalazine and sulfasalazine
 
-Label warnings and contraindications were not available for this report. Please refer to the package insert for full safety information.
+  Mannitol is rated Moderate. Clotrimazole, acetylsalicylic acid, bupropion, dexamethasone and pantoprazole are of unknown severity.
+
+Warnings and contraindications from the Canadian package insert were not available for this report. Please refer to the package insert for them.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no clinical trials or publications, no plausible mechanism, and no therapeutic role for a diagnostic contrast agent in the predicted conditions. The Canadian license records also lack indication text and safety label data.
+The prediction rests only on a TxGNN model (deep learning) score. No clinical trial or publication studies iopromide in osteoarthritis, and no plausible therapeutic mechanism exists for a diagnostic contrast agent. The evidence level is therefore L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a credible biological rationale linking iopromide to joint or cartilage disease
-- Preclinical or clinical evidence for the predicted indication
-- Canadian package insert (warnings, contraindications and approved indications) to support safety screening
-- Review of whether the prediction is only an artifact of iopromide's use in arthrography
+- Health Canada package insert warnings, contraindications and approved indication text
+- Mechanism of action data
+- Preclinical or mechanistic evidence showing a therapeutic effect in osteoarthritis
+- Route and formulation compatibility assessment for any therapeutic use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

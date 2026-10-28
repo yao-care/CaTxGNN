@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Clobetasol Propionate: From Atopic Eczema and Dermatitis to Exanthem (Disease)
+## Clobetasol Propionate: From Atopic Eczema and Dermatitis to Vulvar Inverted Follicular Keratosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -51,10 +51,10 @@ The TxGNN model's top-ranked prediction is vulvar inverted follicular keratosis,
 |------|------|
 | Original Indication | Atopic eczema, dermatitis (contact, occupational, seborrheic), scalp dermatosis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Rank 1: Vulvar inverted follicular keratosis (no evidence). Best-supported: Exanthem (disease), rank 3 |
-| TxGNN Prediction Score | Rank 1: 99.46%. Exanthem: 99.26% |
+| TxGNN Prediction Score | Rank 1: 0.9946. Exanthem: 0.9926 |
 | Evidence Level | Rank 1: L5. Exanthem: L1 as graded, but only indirectly relevant, so a more cautious reading is L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
+| Canada Market Status | Marketed (valid licenses: 20 of 20) |
+| Number of DINs | 20 (valid: 20) |
 | Recommended Decision | Hold (rank 1). Exanthem: Proceed with Guardrails, as a research question only |
 
 ---

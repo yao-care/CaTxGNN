@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Anakinra: From Rheumatoid Arthritis to Familial Mediterranean Fever
+## Anakinra: Extracutaneous Mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **extracutaneous mastocytoma**, but i
 |------|------|
 | Original Indication | Rheumatoid arthritis, cryopyrin-associated periodic syndrome, CINCA syndrome (the Health Canada licence record has no indication text) |
 | Predicted New Indication | Extracutaneous mastocytoma (rank 1, no evidence). Best-supported candidate: autosomal recessive familial Mediterranean fever (rank 3) |
-| TxGNN Prediction Score | 99.93% (extracutaneous mastocytoma); 99.89% (FMF) |
+| TxGNN Prediction Score | 0.9993 (extracutaneous mastocytoma); 0.9989 (FMF) |
 | Evidence Level | L5 (extracutaneous mastocytoma); L3 (FMF) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold (extracutaneous mastocytoma); Proceed with Guardrails as a research question for FMF |
 
 > Note: The top-ranked prediction has no trials or literature. This report therefore also evaluates the best-supported candidate, FMF, and briefly summarises the other predictions.

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the evidenc
 |------|------|
 | Original Indication | Dry eye syndrome, xerophthalmia |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

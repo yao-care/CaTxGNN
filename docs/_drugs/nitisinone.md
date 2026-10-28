@@ -6,9 +6,9 @@ nav_order: 655
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Tyrosinemia"
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
+description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nitisinone
@@ -33,24 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nitisinone: From Tyrosinemia to Renal Tubular Acidosis
+## Nitisinone: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nitisinone was originally used to treat hereditary tyrosinemia.
-The TxGNN model predicts it may be effective for **renal tubular acidosis** (score 99.96%), but **no clinical trials and no publications** currently support this specific prediction. It is a model-only prediction.
+The TxGNN model predicts it may be effective for **renal tubular acidosis** (score 0.9996), but **no clinical trials and no publications** currently support this specific prediction. It is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Tyrosinemia (from the knowledge graph; no approved indication text is available in the Canadian licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **insomnia**, but the evidence 
 |------|------|
 | Original Indication | Narcolepsy (narcolepsy-cataplexy syndrome and related central nervous system conditions) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **insomnia**, but the evidence 
 
 Currently, detailed mechanism of action data is not available. Modafinil is generally understood to promote wakefulness by inhibiting dopamine reuptake and modulating monoaminergic, orexin and histamine wake circuits. Its benefit in narcolepsy and other disorders of excessive sleepiness is well established.
 
-The link to insomnia is weak. Modafinil treats sleepiness and impaired wakefulness, whereas insomnia is mainly a problem of hyperarousal and of falling or staying asleep. The very high TxGNN score most likely reflects the drug's closeness to other sleep-wake disorders in the knowledge graph (narcolepsy, shift work sleep disorder, sleep disturbance in neurological disease) rather than a true therapeutic fit.
+The link to insomnia is weak. Modafinil treats sleepiness and impaired wakefulness, whereas insomnia is mainly a problem of hyperarousal and of falling or staying asleep. The very high score comes from the TxGNN model (deep learning) and most likely reflects similarities the model learned between related sleep-wake disorders (narcolepsy, shift work sleep disorder, sleep disturbance in neurological disease), not biological evidence or a true therapeutic fit.
 
 A realistic use would be treating daytime sleepiness or wake dysfunction in patients who also have sleep disturbance. Using a stimulant to treat insomnia itself is mechanistically counterintuitive and could worsen nighttime sleep.
 

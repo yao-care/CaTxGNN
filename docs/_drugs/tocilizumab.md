@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: Moderate Evidence (L3-L4)
 nav_order: 921
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Rheumatoid arthritis"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+## Tocilizumab: Ankylosing spondylitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The only top-10 prediction with solid trial support is polyarticular juvenile id
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (the Canadian licence records contain no indication text; the original indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ankylosing spondylitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 15 |
+| Canada Market Status | Marketed (valid licenses: 15 of 15) |
+| Number of DINs | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,7 +70,7 @@ IL-6 contributes to systemic inflammation and bone turnover, so blocking it is b
 |------|------|------|
 | Polyarticular juvenile idiopathic arthritis | L1 | Completed Phase 3 withdrawal trial plus extensions. Largely overlaps with an existing indication, so it is closer to on-label use than true repurposing. Proceed with Guardrails |
 | RF-positive polyarticular JIA | L2 | Inferred from the broader pJIA trials. Proceed with Guardrails |
-| Inflammatory spondylopathy | L3 | Same terminated AS trials. Hold |
+| Inflammatory spondylopathy | L5 | Same terminated AS trials. Hold |
 | Rheumatoid vasculitis | L4 | Case reports only, including reports of tocilizumab-induced vasculitis. Research question |
 | Vertebral disease | L4 | Indirect evidence only. Hold |
 | Hypermobility of coccyx, Kummell disease, spondyloarthropathy susceptibility | L5 | Prediction only, with no mechanistic rationale or direct evidence. Hold |

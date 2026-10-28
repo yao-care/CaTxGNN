@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: Model Prediction Only (L5)
 nav_order: 911
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Thyrotropin Alfa: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the available Canadian license data"
 monitor_inn: "Thyrotropin alfa"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Thyrotropin alfa (Thyrogen) is a recombinant thyroid-stimulating hormone (TSH) that is marketed in Canada, but the data compiled for this report do not state its approved indication.
 The TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-The prediction rests on a graph-based model score alone.
+The prediction rests on the TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -50,10 +50,10 @@ The prediction rests on a graph-based model score alone.
 |------|------|
 | Original Indication | Not stated in the available Canadian license data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The prediction rests on a graph-based model score alone.
 
 Currently, detailed mechanism of action data is not available. Thyrotropin alfa is a recombinant form of human TSH, so it would be expected to act by stimulating the TSH receptor on thyroid tissue. The indication text for its Canadian license is also empty, so the original indication cannot be confirmed from the data compiled for this report.
 
-No established mechanism links TSH receptor stimulation to migraine. The very high TxGNN score (99.98%, rank 691) reflects associations in a knowledge graph, not clinical or mechanistic evidence. The lack of any trial or publication means the prediction is a hypothesis only.
+No established mechanism links TSH receptor stimulation to migraine. The very high TxGNN score (0.9998, rank 691) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not clinical or mechanistic evidence. The lack of any trial or publication means the prediction is a hypothesis only.
 
-The other top predictions are similarly unsupported. Several are subtypes or variants of migraine (migraine with brainstem aura, migraine susceptibility), which probably inherit the same graph signal rather than add independent evidence. Others, such as Raynaud disease, pulmonary hypertension and postural orthostatic tachycardia syndrome, have only speculative, indirect links. The prediction of hyperthyroidism is biologically implausible, since TSH receptor stimulation would be expected to worsen it.
+The other top predictions are similarly unsupported. Several are subtypes or variants of migraine (migraine with brainstem aura), which probably inherit the same model signal rather than add independent evidence. Others, such as Raynaud disease, pulmonary hypertension and postural orthostatic tachycardia syndrome, have only speculative, indirect links. The prediction of hyperthyroidism is biologically implausible, since TSH receptor stimulation would be expected to worsen it.
 
 ---
 

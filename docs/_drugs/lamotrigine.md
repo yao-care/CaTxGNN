@@ -4,7 +4,7 @@ title: Lamotrigine
 parent: Model Prediction Only (L5)
 nav_order: 520
 evidence_level: L5
-indication_count: 9
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including partial epilepsy and Lennox-Gastaut syndrome)"
 monitor_inn: "LAMOTRIGINE"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 # Lamotrigine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ The second-ranked prediction, **trigeminal neuralgia**, is much better supported
 |------|------|
 | Original Indication | Epilepsy (including partial epilepsy and Lennox-Gastaut syndrome) |
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2, best supported) |
-| TxGNN Prediction Score | 99.97% (trigeminal nerve neoplasm); 99.89% (trigeminal neuralgia) |
+| TxGNN Prediction Score | 0.9997 (trigeminal nerve neoplasm); 0.9989 (trigeminal neuralgia) |
 | Evidence Level | L5 (trigeminal nerve neoplasm); L2 (trigeminal neuralgia) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold (trigeminal nerve neoplasm); Proceed with Guardrails (trigeminal neuralgia) |
 
-The original indication comes from the TxGNN knowledge graph. The Canadian licence records compiled for this report contain no approved-indication text.
+The Canadian licence records compiled for this report contain no approved-indication text.
 
 ---
 
@@ -72,13 +72,6 @@ Detailed mechanism of action data is not available in the compiled data. Lamotri
 
 | Predicted Indication | Score | Evidence Level | Evidence Summary | Suggested Decision |
 |------|------|------|------|------|
-| Startle epilepsy | 99.38% | L4 | Small case reports and series (1999, 2011); no trials. In one 6-patient series, 3 had markedly improved seizure control. | Research question |
-| Audiogenic seizures | 99.38% | L4 | Animal studies only (mice, rats, hamsters); no human trials | Research question |
-| Micturition-induced seizures | 99.38% | L5 | General epilepsy reviews only; nothing specific | Hold |
-| Thinking seizures | 99.38% | L5 | General epilepsy literature only; nothing specific | Hold |
-| Orgasm-induced seizures | 99.38% | L5 | No trials and no literature | Hold |
-| Eating seizures | 99.38% | L5 | Tangential literature only | Hold |
-| Reading seizures | 99.30% | L5 | Related reflex-epilepsy papers; none show lamotrigine efficacy | Hold |
 
 ---
 
@@ -164,7 +157,6 @@ Please also refer to the Health Canada package insert for complete warnings and 
 - The Health Canada package insert warnings and contraindications, with a slow-titration plan for rash risk.
 - A review of the drug-interaction burden, especially with opioids and cannabinoids, and of the haematological and liver-related associations.
 - Mechanism of action data, to support the mechanistic link analysis.
-- For the reflex seizure candidates, collection of case-level evidence (startle epilepsy first), and caution regarding myoclonic aggravation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

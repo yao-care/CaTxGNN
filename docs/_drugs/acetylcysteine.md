@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Acetylcysteine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 20
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Acetylcysteine: predicted new indication Thrombotic disease (evidence level L5). Approved use: Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal ca
 # Acetylcysteine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The strongest support is in thrombotic microangiopathy (transplant-associated TM
 |------|------|
 | Original Indication | Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis (approved indication text is not available for the Canadian licences) |
 | Predicted New Indication | Thrombotic disease |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 (see note below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level: one completed Phase 3 trial (NCT03252925) and one Phase 2/3 trial (NCT07279610, not yet completed) exist, so the L1 criterion of at least two completed Phase 3 RCTs is not strictly met. Because the results of the completed trial have not been verified, a conservative reading would be L2.*

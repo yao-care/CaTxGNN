@@ -8,6 +8,7 @@ nav_order: 362
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ethambutol Hydrochloride
@@ -49,8 +50,8 @@ Ethambutol Hydrochloride is a first-line antimycobacterial agent used in the tre
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | — |
 | Evidence Level | Not determinable |
-| Canada Market Status | Not marketed (per Evidence Pack) |
-| Number of DINs | 0 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

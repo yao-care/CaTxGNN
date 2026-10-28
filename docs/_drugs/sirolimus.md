@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Sirolimus
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 853
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma (nonpapillary…"
 monitor_inn: "SIROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine co
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the other predicted indications, the strongest support is for **lymphangio
 |------|------|
 | Original Indication | Renal cell carcinoma (nonpapillary, clear cell) and lymphangioleiomyomatosis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 (one completed Phase 2 single-arm trial; no randomized control) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold (research question; see Conclusion) |
 
 ---

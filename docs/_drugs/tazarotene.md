@@ -6,9 +6,9 @@ nav_order: 883
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Psoriasis, parapsoriasis, acne"
 monitor_inn: "TAZAROTENE"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
+description: "Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tazarotene
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tazarotene: From Psoriasis to Seborrheic Dermatitis
+## Tazarotene: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriasis, parapsoriasis, acne (from the TxGNN knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for seborrheic dermatitis.
 
-*For reference:* for the second-ranked prediction, **seborrheic keratosis** (TxGNN score 99.51%, evidence level L4), two publications were found. Whether tazarotene was actually studied in them could not be confirmed from the information available.
+*For reference:* for the second-ranked prediction, **seborrheic keratosis** (TxGNN score 0.9951, evidence level L4), two publications were found. Whether tazarotene was actually studied in them could not be confirmed from the information available.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

@@ -50,13 +50,13 @@ Of the nine predicted indications reviewed, none has direct clinical evidence of
 |------|------|
 | Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
-*Note: The Canadian licence records compiled for this report contain no approved-indication text. The original indications above come from the TxGNN knowledge graph, not from product labelling.*
+*Note: The Canadian license records compiled for this report contain no approved-indication text, so the original indications above are not drawn from product labeling.*
 
 ---
 
@@ -73,7 +73,7 @@ Other predictions follow a similar pattern. Several are linked to the original i
 - **Opsismodysplasia:** the disease gene (INPPL1/SHIP2) regulates insulin signalling. This is a speculative pathway link with no supporting data.
 - **Pancreatic agenesis:** insulin replacement is rational and standard care, but this is the original indication (insulin deficiency) applied to a rare cause, not a novel repurposing.
 - **Centrifugal lipodystrophy:** insulin could manage associated hyperglycaemia, but there is no evidence of benefit on the lipodystrophy itself.
-- **Drug-induced localized lipodystrophy and pressure-induced localized lipoatrophy:** insulin injections are a known cause of these conditions, so these predictions are likely graph-based artefacts and represent a safety concern, not a treatment opportunity.
+- **Drug-induced localized lipodystrophy and pressure-induced localized lipoatrophy:** insulin injections are a known cause of these conditions, so these scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; they represent a safety concern, not a treatment opportunity.
 
 ---
 

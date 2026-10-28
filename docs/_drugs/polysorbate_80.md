@@ -48,17 +48,17 @@ but currently there are **no clinical trials and no publications** supporting th
 |------|------|
 | Original Indication | Dry eye syndrome, xerophthalmia |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, polysorbate 80 is a nonionic surfactant and emulsifier. It is used in dry eye products as a lubricating and tear-film-stabilizing agent, and mechanistically it may be applicable to skin conditions involving a damaged barrier.
 
-The link to the new indication is speculative. Congenital ichthyosiform erythroderma is a skin disorder with impaired barrier function and scaling. The emollient and surfactant properties of polysorbate 80 could, in theory, help with these features. This is a hypothesis only. Its wide use as a pharmaceutical excipient does not imply therapeutic efficacy in this disease. The only support for the prediction is the high TxGNN knowledge-graph score, and no validated mechanism connects the drug to this condition.
+The link to the new indication is speculative. Congenital ichthyosiform erythroderma is a skin disorder with impaired barrier function and scaling. The emollient and surfactant properties of polysorbate 80 could, in theory, help with these features. This is a hypothesis only. Its wide use as a pharmaceutical excipient does not imply therapeutic efficacy in this disease. The only support for the prediction is the high TxGNN TxGNN model (deep learning) score, and no validated mechanism connects the drug to this condition.
 
 ## Clinical Trial Evidence
 

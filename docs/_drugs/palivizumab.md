@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Palivizumab: From Respiratory Syncytial Virus Infection to Benign Neoplasm of the Tongue
+## Palivizumab: From Respiratory Syncytial Virus Infection to Benign Neoplasm of Tongue
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **benign neoplasm of the tongue
 |------|------|
 | Original Indication | Respiratory syncytial virus infectious disease |
 | Predicted New Indication | Benign neoplasm of tongue |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,9 @@ The TxGNN model predicts it may be effective for **benign neoplasm of the tongue
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, palivizumab is a humanized monoclonal antibody directed against the RSV F protein, a viral surface protein. Its efficacy in RSV disease is established.
 
-A credible mechanistic link to benign tongue neoplasms could not be found. The drug targets a viral antigen and has no known target or pathway in benign tumours of the tongue. The high TxGNN score (99.94%) most likely reflects network proximity among neoplasm nodes in the knowledge graph rather than biology. It should be treated as a computational hypothesis only.
+A credible mechanistic link to benign tongue neoplasms could not be found. The drug targets a viral antigen and has no known target or pathway in benign tumours of the tongue. The high TxGNN score (0.9994) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a computational hypothesis only.
 
-The other top-ranked predictions show the same pattern. They include epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of the hypopharynx, benign neoplasm of the floor of mouth, tumour of testis and paratestis, cystic neoplasm, schwannoma of the jugular foramen, mesenchymoma and thyroglossal duct cyst. All have scores of about 99.94%, and none has any trial or publication support or a plausible mechanism.
+The other top-ranked predictions show the same pattern. They include epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of the hypopharynx, benign neoplasm of the floor of mouth, tumour of testis and paratestis, cystic neoplasm, schwannoma of the jugular foramen, mesenchymoma and thyroglossal duct cyst. All have scores of about 0.9994, and none has any trial or publication support or a plausible mechanism.
 
 ---
 
@@ -99,7 +99,7 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-based model score. There are no clinical trials or publications, and no plausible mechanistic link between an anti-RSV F-protein antibody and benign tongue neoplasms. The evidence level is L5.
+The prediction is supported only by a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, and no plausible mechanistic link between an anti-RSV F-protein antibody and benign tongue neoplasms. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (currently unavailable, and a blocking gap for safety screening)

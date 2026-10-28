@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 974
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Vilanterol: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease, asthma, bronchitis…"
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Vilanterol: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vilanterol is a long-acting inhaled beta2-agonist, originally used to treat chronic obstructive pulmonary disease (COPD) and asthma.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, but this overlaps heavily with its existing indications, so it is better read as a confirmation of current use than as a new repurposing finding.
+The TxGNN model (deep learning) predicts it may be effective for **hyperlucent lung**, with a score of 0.9972. This score comes from the TxGNN model and may reflect similarities the model learned between related diseases, not biological evidence.
 The data compiled for this report include **30 clinical trials** and **20 publications** for this prediction, including several completed Phase 3 randomized trials.
 
 ---
@@ -48,12 +48,12 @@ The data compiled for this report include **30 clinical trials** and **20 public
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease, asthma, bronchitis, pulmonary emphysema (the Canadian licence records contain no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperlucent lung |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,7 +62,6 @@ The data compiled for this report include **30 clinical trials** and **20 public
 
 Detailed mechanism of action data is not available in the compiled data. Based on the known pharmacology of the drug class, vilanterol is a selective long-acting beta2-adrenoceptor agonist. It relaxes airway smooth muscle through cAMP-mediated signalling and produces bronchodilation that lasts about 24 hours, which supports once-daily dosing.
 
-COPD and asthma are both obstructive lung diseases. "Obstructive lung disease" is therefore the broader category that contains the drug's existing indications. The prediction is mechanistically sound, but it largely restates approved use rather than identifying a new therapeutic area.
 
 The other predicted indications (ranks 2–10) are weaker. Compensatory emphysema, hyperlucent lung, interstitial emphysema, tracheal stenosis, congenital lobar emphysema, tracheal calcification and laryngotracheitis have no trials or literature, and bronchodilation is not expected to address their causes. The high scores likely reflect name similarity to emphysema or COPD. For bronchial neoplasm, the only trial (NCT04536675) tests dual bronchodilators for postoperative lung function in lung cancer patients who also have COPD. That is supportive care, not antitumour activity. The literature retrieved for respiratory malformation is vilanterol safety and QT studies and COPD reports, not studies of that condition.
 

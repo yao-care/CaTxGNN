@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diltiazem
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 285
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-13
-description: "Diltiazem: predicted new indication Obsolete susceptibility to ischemic stroke (evidence level L5). Approved use: Hypertensive disorder / hypertension, atrial fibrillation…"
-monitor_inn: "Diltiazem"
-predicted_indications: ["obsolete susceptibility to ischemic stroke"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diltiazem: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +32,66 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Diltiazem: From Hypertension to Obsolete Susceptibility to Ischemic Stroke
+<!-- known-uses-page -->
+<!-- description: Diltiazem: known uses and market status in Canada; currently no new candidate indication -->
+## Diltiazem: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug.
 
-Diltiazem is a calcium channel blocker originally used for hypertension, atrial fibrillation, Prinzmetal angina and ventricular tachycardia.
-The TxGNN model predicts it may be effective for **obsolete susceptibility to ischemic stroke**,
-but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension, atrial fibrillation, Prinzmetal angina, ventricular tachycardia (Health Canada indication text is not available, so these come from the knowledge graph) |
-| Predicted New Indication | Obsolete susceptibility to ischemic stroke |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses on record: at least 20) |
+| Number of DINs | at least 20 |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available. Based on known information, diltiazem is a non-dihydropyridine L-type calcium channel blocker with antihypertensive effects. Its efficacy in hypertension and cardiac rhythm disorders is established, and mechanistically it may be applicable to stroke risk reduction.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| Prinzmetal angina | Licence in another country (approved indication: angina) |
 
-Blood pressure control is a recognized way to lower stroke risk, so an indirect rationale exists. However, this is already covered by the existing hypertension indication and does not show a distinct repurposing benefit.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The predicted disease term is also labelled "obsolete", which suggests a deprecated ontology entry that may map to a broader or renamed concept (for example, ischemic stroke risk). The high score (99.08%) is a model prediction only and is not backed by any trial or publication in the data compiled for this report. The term should be clarified before further work.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Canada Market Information
 
-Diltiazem has 20 valid single-ingredient licences in Canada and no cancelled ones. Dosage form and approved indication text are not available in the data compiled for this report. Five main authorizations are listed below.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02528061 | JAMP DILTIAZEM CD |  | Valid |
+| 02546450 | M-DILTIAZEM T |  | Valid |
+| 02271656 | TEVA-DILTIAZEM HCL ER |  | Valid |
+| 02370492 | TEVA-DILTIAZEM T |  | Valid |
+| 02256770 | TIAZAC XC |  | Valid |
+| 02256738 | TIAZAC XC |  | Valid |
+| 02230997 | APO-DILTIAZ CD |  | Valid |
+| 02229526 | APO-DILTIAZ CD |  | Valid |
+| 02400456 | DILTIAZEM CD |  | Valid |
+| 02429330 | TEVA-DILTIAZEM XC |  | Valid |
+| 02231150 | TIAZAC |  | Valid |
+| 02540924 | PRO-DILTIAZEM CD |  | Valid |
+| 02231151 | TIAZAC |  | Valid |
+| 02271605 | TEVA-DILTIAZEM HCL ER |  | Valid |
+| 02516136 | DILTIAZEM T |  | Valid |
+| 02484080 | MAR-DILTIAZEM CD |  | Valid |
+| 02242541 | TEVA-DILTIAZEM CD |  | Valid |
+| 00771384 | AA-DILTIAZ |  | Valid |
+| 02256762 | TIAZAC XC |  | Valid |
+| 02400421 | DILTIAZEM CD |  | Valid |
 
-| DIN | Product Name |
-|---------|------|
-| 02528061 | JAMP DILTIAZEM CD |
-| 02546450 | M-DILTIAZEM T |
-| 02271656 | TEVA-DILTIAZEM HCL ER |
-| 02370492 | TEVA-DILTIAZEM T |
-| 02256770 | TIAZAC XC |
+Only part of the licence list is held in the data; the list may be incomplete.
 
 ## Safety Considerations
 
@@ -100,19 +111,6 @@ Diltiazem has 20 valid single-ingredient licences in Canada and no cancelled one
 
 Label warnings and contraindications from the Health Canada package insert are not available, so please refer to the package insert for authoritative safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting trials or literature (L5), the target disease term is obsolete and unclear, and the only plausible mechanism (blood pressure lowering) is already covered by the existing hypertension indication. The safety review also cannot proceed without the package insert.
-
-**To proceed, the following is needed:**
-- Clarify which current disease concept the obsolete term maps to (e.g., ischemic stroke or stroke risk)
-- Mechanism of action data (MOA) from DrugBank
-- Health Canada package insert warnings and contraindications
-- A literature and trial search on diltiazem and stroke prevention or outcomes
-- Evidence that any benefit is independent of blood pressure lowering
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

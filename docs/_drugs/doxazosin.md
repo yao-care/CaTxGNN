@@ -6,9 +6,9 @@ nav_order: 303
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Doxazosin: predicted new indication Migraine disorder (evidence level L4). Approved use: Hypertension and benign prostatic hyperplasia"
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+description: "Doxazosin: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Doxazosin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Doxazosin: From Hypertension and Benign Prostatic Hyperplasia to Migraine Disorder
+## Doxazosin: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently only **0 registered clinical trials** and **1 publication** (a sma
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and benign prostatic hyperplasia (from the knowledge graph; Canadian licence text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

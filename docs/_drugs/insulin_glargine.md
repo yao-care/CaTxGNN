@@ -6,9 +6,9 @@ nav_order: 483
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus, type 1 diabetes mellitus…"
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
+description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glargine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glargine: From Diabetes Mellitus to Autoimmune Oophoritis
+## Insulin Glargine: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ It is a model-only prediction, and the likely link is a comorbidity association 
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The prediction for autoimmune oophoritis is most likely explained by disease co-occurrence. Autoimmune oophoritis often appears within autoimmune polyendocrine syndromes, which can include insulin-requiring diabetes. In that setting, insulin glargine would treat the co-existing diabetes, not the ovarian autoimmune process itself. This link is plausible but unvalidated.
 
-Other high-scoring predictions follow a similar pattern, as comorbidity or knowledge-graph proximity rather than a therapeutic mechanism:
+Other high-scoring predictions follow a similar pattern: the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a therapeutic mechanism:
 - **Thiamine-responsive dysfunction syndrome, focal stiff limb syndrome and classic stiff person syndrome**: insulin would manage the accompanying diabetes only.
 - **Pancreatic agenesis**: insulin replacement is mechanistically coherent, but it is the same replacement role as the existing diabetes indication, not a new use. Of the 10 predictions, this is the only one with any retrieved literature, and that literature is indirect.
 - **Opsismodysplasia**: a speculative connection through SHIP2 and insulin/PI3K signalling, with no data showing benefit.
@@ -125,7 +125,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score alone (99.88%), with no clinical trials or literature. The plausible link is a diabetes comorbidity, not treatment of autoimmune oophoritis. All 10 top predictions are Hold, and for the lipodystrophy conditions the drug may cause harm.
+The prediction rests on a high model score alone (0.9988), with no clinical trials or literature. The plausible link is a diabetes comorbidity, not treatment of autoimmune oophoritis. All 10 top predictions are Hold, and for the lipodystrophy conditions the drug may cause harm.
 
 **To proceed, the following is needed:**
 - Direct clinical or literature evidence for insulin glargine in autoimmune oophoritis, rather than only in co-existing diabetes

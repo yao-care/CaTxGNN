@@ -4,17 +4,17 @@ title: Plerixafor
 parent: Model Prediction Only (L5)
 nav_order: 746
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Plerixafor: predicted new indication Indolent plasma cell myeloma (evidence level L5). Approved use: Plasma cell myeloma"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
+description: "Plerixafor: predicted new indication CMM7 (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Plerixafor: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+## Plerixafor: CMM7
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Plerixafor is a CXCR4 antagonist, used in Canada to mobilise stem cells in patients with plasma cell myeloma (multiple myeloma) and non-Hodgkin lymphoma.
-The TxGNN model predicts it may be effective for **indolent plasma cell myeloma** with a very high score, but there are currently **0 clinical trials** and **0 publications** specific to this subtype, so the prediction rests on the model alone.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be effective for **indolent plasma cell myeloma*
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma (taken from knowledge-graph indication data; no approved indication text is available in the Canadian licence records) |
-| Predicted New Indication | Indolent plasma cell myeloma |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | CMM7 |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -104,7 +103,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for indolent plasma cell myeloma is computational only (L5). No trials or publications address this subtype, and plerixafor is established as a stem cell mobiliser, not as a treatment for the myeloma itself. The higher-ranked score reflects disease proximity rather than clinical evidence.
+No trials or publications address this subtype, and plerixafor is established as a stem cell mobiliser, not as a treatment for the myeloma itself. The higher-ranked score reflects disease proximity rather than clinical evidence.
 
 **To proceed, the following is needed:**
 - Subtype-specific preclinical or clinical evidence that CXCR4 blockade affects indolent myeloma biology or outcomes

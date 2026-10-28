@@ -4,17 +4,17 @@ title: Treprostinil
 parent: Model Prediction Only (L5)
 nav_order: 939
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Treprostinil: predicted new indication Top-ranked by TxGNN: pulmonary arteriovenous malformation . Best-supp… (evidence level L5). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "TREPROSTINIL"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
+description: "Treprostinil: predicted new indication Pulmonary arteriovenous malformation (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Treprostinil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Treprostinil: From Pulmonary Arterial Hypertension to PAH Associated with Connective Tissue Disease
+## Treprostinil: Pulmonary arteriovenous malformation (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is pulmonary arteriovenous malformation,
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension (Health Canada indication text is not available; taken from the knowledge-graph indication) |
-| Predicted New Indication | Top-ranked by TxGNN: pulmonary arteriovenous malformation (not supported by evidence). Best-supported: PAH associated with connective tissue disease |
-| TxGNN Prediction Score | 99.70% (top-ranked, pulmonary arteriovenous malformation); 99.55% (CTD-PAH) |
-| Evidence Level | L3 for CTD-PAH (reviews, a meta-analysis, and cohort data; no completed Phase 3 RCT in the data) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary arteriovenous malformation (disease) |
+| TxGNN Prediction Score | 0.9970 |
+| Evidence Level | L5 for CTD-PAH (reviews, a meta-analysis, and cohort data; no completed Phase 3 RCT in the data) |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails (CTD-PAH, as a research question); Hold for the top-ranked prediction |
 
 ---

@@ -4,17 +4,17 @@ title: Pemigatinib
 parent: Model Prediction Only (L5)
 nav_order: 719
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Pemigatinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Pemigatinib"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Pemigatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,19 +46,19 @@ Pemigatinib is a selective FGFR1-3 kinase inhibitor marketed in Canada as PEMAZY
 |------|------|
 | Original Indication | Not available in the data compiled for this report (Canadian license indication text is blank) |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Pemigatinib is a selective inhibitor of FGFR1-3. Detailed mechanism of action data is not available in the data compiled for this report, so this description is based on the drug's known class.
 
-Multiple endocrine neoplasia (MEN) syndromes are driven mainly by loss of MEN1 (menin) and by RET activation, not by FGFR signaling. The only link is speculative: FGFR involvement in neuroendocrine tumour growth. The high TxGNN score (0.997) is a computational output. No trials or literature back it up, so the mechanistic rationale should be treated as weak.
+Multiple endocrine neoplasia (MEN) syndromes are driven mainly by loss of MEN1 (menin) and by RET activation, not by FGFR signaling. The only link is speculative: FGFR involvement in neuroendocrine tumour growth. The high TxGNN score (0.9971) is a computational output. No trials or literature back it up, so the mechanistic rationale should be treated as weak.
 
-Other top-ranked predictions are even less plausible. Several look like knowledge-graph artifacts: amenorrhea, two veterinary herpesvirus diseases (infectious bovine rhinotracheitis and malignant catarrhal fever), and cytomegalovirus infection. Several ALS entries are also predicted. FGF/FGFR signaling is generally neurotrophic, so inhibiting it could be harmful in ALS. The most biologically plausible alternative is HER2-positive breast carcinoma, where FGFR signaling has been linked to resistance to HER2-targeted therapy. That link is indirect, and the only retrieved paper is a general kinase inhibitor review (PMID 33513356, 2021, *Pharmacological Research*) with no pemigatinib-specific efficacy or safety data.
+Other top-ranked predictions are even less plausible. Several look like TxGNN model (deep learning) artifacts: amenorrhea, two veterinary herpesvirus diseases (infectious bovine rhinotracheitis and malignant catarrhal fever), and cytomegalovirus infection. Several ALS entries are also predicted. FGF/FGFR signaling is generally neurotrophic, so inhibiting it could be harmful in ALS. The most biologically plausible alternative is HER2-positive breast carcinoma, where FGFR signaling has been linked to resistance to HER2-targeted therapy. That link is indirect, and the only retrieved paper is a general kinase inhibitor review (PMID 33513356, 2021, *Pharmacological Research*) with no pemigatinib-specific efficacy or safety data.
 
 ## Clinical Trial Evidence
 

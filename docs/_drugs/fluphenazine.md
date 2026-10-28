@@ -6,9 +6,9 @@ nav_order: 401
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Fluphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Psychotic disorder, schizophrenia, schizophreniform disorder…"
 monitor_inn: "Fluphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "myopia X-linked", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+description: "Fluphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluphenazine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluphenazine: From Psychotic Disorders to Retinal Dystrophy with or without Extraocular Anomalies
+## Fluphenazine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychotic disorder, schizophrenia, schizophreniform disorder, schizoaffective disorder, mental disorder (licence text not provided; taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.99% (rank 236) |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 Currently, detailed mechanism of action data is not available. Based on known information, fluphenazine is a phenothiazine-class antipsychotic that acts mainly by blocking dopamine D2 receptors. Its efficacy in psychotic disorders is well established.
 
-Inherited retinal dystrophy is a genetically driven degenerative eye condition, and it is pharmacologically distant from psychosis. The data compiled for this report show no plausible mechanistic link between D2 antagonism and retinal degeneration. The very high score (99.99%) reflects a graph-based prediction and is not evidence of efficacy. It may partly reflect artefacts of the network structure. This prediction should be treated as a hypothesis only.
+Inherited retinal dystrophy is a genetically driven degenerative eye condition, and it is pharmacologically distant from psychosis. The data compiled for this report show no plausible mechanistic link between D2 antagonism and retinal degeneration. The very high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a hypothesis only.
 
 ---
 
@@ -116,7 +116,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone, with no clinical trials, no literature, and no plausible mechanistic link between D2 antagonism and inherited retinal degeneration. The long list of knowledge-graph contraindications, particularly cardiac and neurological ones, adds caution.
+The prediction rests on the TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no literature, and no plausible mechanistic link between D2 antagonism and inherited retinal degeneration. The long list of knowledge-graph contraindications, particularly cardiac and neurological ones, adds caution.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence linking fluphenazine to retinal dystrophy pathways, including mechanism of action data
@@ -124,7 +124,7 @@ The prediction rests on a graph-based score alone, with no clinical trials, no l
 - Official package insert warnings and contraindications from Health Canada
 - Route and dosage-form compatibility assessment for an ocular or retinal indication
 
-**Note:** Among the model's other predictions for fluphenazine, **manic bipolar affective disorder** (score 99.98%) is the most biologically coherent. It has indirect literature support, mainly reviews of long-acting injectable antipsychotics, and is classed as L4 and a research question. It would be a more reasonable candidate for further evaluation than the retinal prediction, though no fluphenazine-specific bipolar RCT or registered trial is available.
+**Note:** Among the model's other predictions for fluphenazine, **manic bipolar affective disorder** (score 0.9998) is the most biologically coherent. It has indirect literature support, mainly reviews of long-acting injectable antipsychotics, and is classed as L4 and a research question. It would be a more reasonable candidate for further evaluation than the retinal prediction, though no fluphenazine-specific bipolar RCT or registered trial is available.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

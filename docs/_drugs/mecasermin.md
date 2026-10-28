@@ -4,7 +4,7 @@ title: Mecasermin
 parent: Model Prediction Only (L5)
 nav_order: 575
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Growth hormone insensitivity syndrome"
 monitor_inn: "MECASERMIN"
@@ -14,7 +14,7 @@ predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia a
 # Mecasermin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,26 +48,25 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Growth hormone insensitivity syndrome; Laron syndrome (the Canadian licence record contains no indication text) |
 | Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, mecasermin is a recombinant form of insulin-like growth factor 1 (IGF-1). Its efficacy in growth hormone insensitivity and Laron syndrome, which are conditions of primary IGF-1 deficiency, is established, and it may mechanistically be applicable to other conditions involving growth failure.
 
-Monosomy X (Turner syndrome) is characterised by short stature and growth failure, which gives a plausible biological connection to IGF-1 replacement. However, the link is weak. Patients with Turner syndrome usually have adequate GH/IGF-1 signalling and are treated with recombinant growth hormone, whereas the original indications involve a primary IGF-1 deficiency. The prediction is based on graph similarity only, and no trials or publications were found to verify it.
+Monosomy X (Turner syndrome) is characterized by short stature and growth failure, which gives a plausible biological connection to IGF-1 replacement. However, the link is weak. Patients with Turner syndrome usually have adequate GH/IGF-1 signaling and are treated with recombinant growth hormone, whereas the original indications involve a primary IGF-1 deficiency. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and no trials or publications were found to verify it.
 
 **Other predicted indications (all L5, prediction only):**
 
 | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|
-| Wolman disease with hypolipoproteinemia and acanthocytosis | 99.09% | No clear mechanistic link; the score likely reflects network proximity. Hold |
-| Growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant | 99.06% | Closest to the existing label. Mecasermin supplies IGF-1 directly and bypasses defective GH receptor/JAK-STAT signalling, so the growth component is plausible, but it would not address the immune dysregulation. This is arguably an extension of the current label rather than true repurposing. Research Question |
-| Esophageal varices with bleeding | 99.03% | No established rationale; IGF-1 safety considerations (e.g. hypoglycaemia, mitogenic effects) weigh against use in acute bleeding. Hold |
-| Esophageal varices without bleeding | 99.03% | Identical score to the bleeding form, which suggests the same graph signal rather than independent support. Hold |
+| Wolman disease with hypolipoproteinemia and acanthocytosis | 0.9909 | No clear mechanistic link; the score likely reflects network proximity. Hold |
+| Esophageal varices with bleeding | 0.9903 | No established rationale; IGF-1 safety considerations (e.g. hypoglycaemia, mitogenic effects) weigh against use in acute bleeding. Hold |
+| Esophageal varices without bleeding | 0.9903 | Identical score to the bleeding form, which suggests the same TxGNN model (deep learning) signal rather than independent support. The score may reflect similarities the model learned between related diseases, not biological evidence. Hold |
 
 ## Clinical Trial Evidence
 

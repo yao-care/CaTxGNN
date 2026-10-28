@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Phenazopyridine is a urinary tract analgesic marketed in Canada under the brand name PYRIDIUM. The TxGNN model predicts it may be effective for **bronchitis**, but the prediction is supported by **0 clinical trials** and **0 publications**. It is a knowledge-graph prediction only.
+Phenazopyridine is a urinary tract analgesic marketed in Canada under the brand name PYRIDIUM. The TxGNN model predicts it may be effective for **bronchitis**, but the prediction is supported by **0 clinical trials** and **0 publications**. It is a TxGNN model (deep learning) prediction only.
 
 ---
 
@@ -48,10 +48,10 @@ Phenazopyridine is a urinary tract analgesic marketed in Canada under the brand 
 |------|------|
 | Original Indication | Not specified in the Canadian license data (the drug is known as a urinary tract analgesic) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.23% |
+| TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Phenazopyridine is a urinary tract analgesic marketed in Canada under the brand 
 
 Currently, detailed mechanism of action data is not available. Phenazopyridine is generally understood to act locally on the urinary mucosa to relieve pain, burning and urgency, but its exact mechanism is not well characterized.
 
-There is no established pharmacological link between this local urinary analgesic effect and bronchial inflammation or respiratory infection. The high TxGNN score (0.992) comes from patterns in the knowledge graph, not from clinical or mechanistic evidence. The data compiled for this report contain no trials or publications on respiratory use. The prediction should therefore be treated as a hypothesis only, and its plausibility is weak.
+There is no established pharmacological link between this local urinary analgesic effect and bronchial inflammation or respiratory infection. The high TxGNN score (0.9923) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The data compiled for this report contain no trials or publications on respiratory use. The prediction should therefore be treated as a hypothesis only, and its plausibility is weak.
 
 ---
 
@@ -117,7 +117,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-- The prediction rests solely on a knowledge-graph score. There are no clinical trials or publications, and no mechanistic basis for a respiratory effect.
+- The prediction rests solely on a TxGNN model (deep learning) score. There are no clinical trials or publications, and no mechanistic basis for a respiratory effect.
 - Many knowledge-graph contraindication signals, including respiratory disease, and the number of recorded interactions further argue against prioritization.
 
 **To proceed, the following is needed:**

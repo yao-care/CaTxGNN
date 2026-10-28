@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Beta Carotene: From an Unspecified Original Indication to Acne
+## Beta Carotene: From an Unspecified Original Indication to Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The evidence is therefore weak, and the prediction is best treated as a research
 |------|------|
 | Original Indication | Not available (no approved indication text in the Canadian licence records) |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -122,7 +122,7 @@ The prediction rests on a very high model score and an indirect antioxidant rati
 - Mechanism of action data (for example, from DrugBank)
 - Interventional studies of beta carotene in acne, or at least controlled data comparing acne patients with healthy controls
 - Clarification of the original approved indication and dosage forms for the Canadian products
-- Review of the knowledge-graph disease associations (such as iron metabolism disorders and Wilson disease) against labelling
+- Review of the similarities the TxGNN model (deep learning) learned between related diseases (such as iron metabolism disorders and Wilson disease) against labelling; these reflect learned similarities, not biological evidence
 
 ---
 

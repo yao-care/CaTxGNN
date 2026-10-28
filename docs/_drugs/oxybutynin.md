@@ -6,9 +6,9 @@ nav_order: 695
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Overactive bladder"
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
+description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxybutynin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Oxybutynin: From Overactive Bladder to Restless Legs Syndrome
+## Oxybutynin: Restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but there are currently **no registered clinical trials** and **no publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Overactive bladder (the Canadian licence records contain no indication text; this is taken from the drug's known indications in the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, oxybutynin is a muscarinic receptor antagonist (anticholinergic), and its efficacy in overactive bladder is established.
 
-The data compiled for this report do not establish a mechanistic link to restless legs syndrome. The very high model score (99.74%) is a prediction only and may reflect proximity in the knowledge graph rather than a true therapeutic relationship. Anticholinergics are not a recognized treatment for restless legs syndrome, and their central effects could even worsen sleep or symptoms. This prediction should therefore be regarded as a weak, hypothesis-level signal.
+The data compiled for this report do not establish a mechanistic link to restless legs syndrome. The very high model score (0.9974) comes from the TxGNN model (deep learning) and is a prediction only; it may reflect similarities the model learned between related diseases, not biological evidence. Anticholinergics are not a recognized treatment for restless legs syndrome, and their central effects could even worsen sleep or symptoms. This prediction should therefore be regarded as a weak, hypothesis-level signal.
 
-Two other predictions were also generated: gastroduodenitis (score 99.62%) and peptic ulcer disease (score 99.31%). Antimuscarinic activity could theoretically reduce gastric secretion and motility. However, anticholinergics have been made obsolete by modern acid-suppressive therapy for these conditions, and oxybutynin has been linked to reflux esophagitis. Neither is stronger than the lead prediction in terms of clinical evidence.
+Two other predictions were also generated: gastroduodenitis (score 0.9962) and peptic ulcer disease (score 0.9931). Antimuscarinic activity could theoretically reduce gastric secretion and motility. However, anticholinergics have been made obsolete by modern acid-suppressive therapy for these conditions, and oxybutynin has been linked to reflux esophagitis. Neither is stronger than the lead prediction in terms of clinical evidence.
 
 ## Clinical Trial Evidence
 

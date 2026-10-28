@@ -50,10 +50,10 @@ The primary prediction is therefore a computational signal only.
 |------|------|
 | Original Indication | Not stated in the Canadian license data. Published reviews describe approved use for actinic keratosis, basal cell carcinoma and Bowen's disease. |
 | Predicted New Indication | Hereditary hemochromatosis (rank 1); acne is the best-supported candidate (rank 3) |
-| TxGNN Prediction Score | 99.86% (hereditary hemochromatosis); 99.81% (acne) |
+| TxGNN Prediction Score | 0.9986 (hereditary hemochromatosis); 0.9981 (acne) |
 | Evidence Level | L5 (hereditary hemochromatosis); L2 (acne) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold (hereditary hemochromatosis); Hold for the top prediction, with acne as a research question |
 
 ---
@@ -120,7 +120,7 @@ Other predicted indications with literature (indirect evidence only):
 
 ## Safety Considerations
 
-- **Knowledge-graph contraindication signals:** the TxGNN knowledge graph links methyl aminolevulinate to *photoparoxysmal response* and *photosensitivity disease*. These come from graph edges, not from label text, and are consistent with its photosensitizing action.
+- **TxGNN model contraindication signals (deep learning):** the TxGNN model links methyl aminolevulinate to *photoparoxysmal response* and *photosensitivity disease*. These signals come from the TxGNN model (deep learning), not from label text, and may reflect similarities the model learned between related diseases, not biological evidence. They are consistent with its photosensitizing action.
 - **Drug interactions:** no interaction records were found.
 
 Please refer to the package insert for full warnings and contraindications. The label text could not be obtained for this report.
@@ -132,7 +132,7 @@ Please refer to the package insert for full warnings and contraindications. The 
 **Decision: Hold** (for the top-ranked prediction, hereditary hemochromatosis). Acne is flagged as a **research question** rather than a Go decision.
 
 **Rationale:**
-- The top prediction, hereditary hemochromatosis, rests only on a model score of 99.86%, with no trials or literature, and no evident link between a topical photosensitizer and systemic iron overload.
+- The top prediction, hereditary hemochromatosis, rests only on a model score of 0.9986, with no trials or literature, and no evident link between a topical photosensitizer and systemic iron overload.
 - Acne has a credible mechanism and two completed Phase 2 trials (n=150 and n=20), but no results, no Phase 3 evidence and mostly review-level literature, so the size and direction of benefit cannot be confirmed.
 
 **To proceed, the following is needed:**

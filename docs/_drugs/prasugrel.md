@@ -4,17 +4,17 @@ title: Prasugrel
 parent: Model Prediction Only (L5)
 nav_order: 762
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Prasugrel: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "Prasugrel"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 |------|------|
 | Original Indication | Acute coronary syndrome |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,7 +92,7 @@ Both publications are only loosely related to the predicted indication. Neither 
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: liver failure, hypotensive disorder, blood coagulation disease, stroke disorder, cerebrovascular disorder, susceptibility to ischemic stroke, cerebral infarction, injury, thrombocytopenic purpura, intracranial hemorrhage, transient ischemic attack, vertebrobasilar insufficiency.
+- **Contraindications (not label text)**: liver failure, hypotensive disorder, blood coagulation disease, stroke disorder, cerebrovascular disorder, susceptibility to ischemic stroke, cerebral infarction, injury, thrombocytopenic purpura, intracranial hemorrhage, transient ischemic attack, vertebrobasilar insufficiency.
 - **Drug Interactions**: 100 interactions were recorded. The 20 reviewed include:
   - **Major**: deferasirox, ibritumomab tiuxetan.
   - **Moderate**: acetylsalicylic acid (aspirin), morphine, opium, fenfluramine, dexfenfluramine, sibutramine.

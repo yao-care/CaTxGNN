@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Irinotecan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 496
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L3). Approved use: Metastatic colon cancer"
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
+description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Irinotecan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Irinotecan: From Metastatic Colon Cancer and Pancreatic Adenocarcinoma to Female Breast Carcinoma
+## Irinotecan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ The supporting evidence is mostly early-phase: **9 clinical trials** (only 2 dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic colon cancer; pancreatic adenocarcinoma (the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| TxGNN Prediction Score | 0.9908 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -108,7 +108,6 @@ Nine valid single-ingredient DINs are listed in total. Only the first five are s
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (topoisomerase I inhibitor) |
-| Myelosuppression Risk | High. The knowledge graph links irinotecan to neutropenia, thrombocytopenia, agranulocytosis and anaemia as conditions of concern |
 | Emetogenicity Classification | Moderate to high (general class knowledge; please confirm against the package insert) |
 | Monitoring Items | CBC with differential, liver function (including bilirubin), renal function, electrolytes, and monitoring for diarrhoea |
 | Handling Protection | Must follow cytotoxic drug handling regulations |

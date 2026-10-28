@@ -48,9 +48,9 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Oral candidiasis, candidiasis, vulvovaginal candidiasis, esophageal candidiasis, cryptococcal meningitis, candidemia, disseminated candidiasis |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Punctate epithelial keratoconjunctivitis is often not caused by fungi. Common causes include viral infection (such as adenovirus), toxic injury, and immune-mediated processes, so a direct antifungal mechanism is not clearly relevant. Possible links include fungal keratitis, fungal colonization of the ocular surface, or a secondary anti-inflammatory effect, but none of these is supported by the data compiled for this report.
 
-The prediction is most likely driven by network proximity to other ocular or fungal infection indications in the knowledge graph, rather than by a verified mechanism. It should be treated as a hypothesis only.
+The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -97,7 +97,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The only support for this prediction is a high model score (99.24%), with no clinical trials or publications. The antifungal mechanism has no clear connection to a condition that is usually non-fungal, so the evidence is at the lowest level (L5).
+The only support for this prediction is a high model score (0.9924), with no clinical trials or publications. The antifungal mechanism has no clear connection to a condition that is usually non-fungal, so the evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
 - Literature and trial searches on fluconazole (including topical or ophthalmic use) in keratoconjunctivitis and fungal keratitis

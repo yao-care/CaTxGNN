@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: High Evidence (L1-L2)
 nav_order: 578
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not available"
 monitor_inn: "MEFENAMIC ACID"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **8** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Migraine-related predictions (migraine disorder, headache disorder) have compara
 |------|------|
 | Original Indication | Not available (the Canadian licence record has no indication text) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -113,13 +113,12 @@ Please also refer to the package insert for the full warnings and contraindicati
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Headache disorder | 99.64% | L2 | Double-blind trials in migraine (vs acetaminophen; vs propranolol and placebo); mostly migraine-based, old and small |
-| Migraine disorder | 99.23% | L2 | Double-blind placebo-controlled trial in menstrual migraine (PMID 10799353), plus a guideline update on NSAIDs for migraine prevention; strongest for menstrually related migraine |
-| Migraine with brainstem aura | 99.21% | L4 | Evidence is indirect (menstrual migraine, not this subtype) |
-| Osteoarthritis susceptibility | 99.72% | L5 | Susceptibility phenotype, no trials or literature |
-| Trigeminal autonomic cephalalgia | 99.55% | L5 | These headaches generally do not respond to standard NSAIDs; no evidence |
-| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.49% | L5 | No plausible mechanism; likely a network artifact |
-| Brachydactyly-syndactyly syndrome | 99.48% | L5 | Congenital malformation; likely a network artifact |
+| Headache disorder | 0.9964 | L2 | Double-blind trials in migraine (vs acetaminophen; vs propranolol and placebo); mostly migraine-based, old and small |
+| Migraine disorder | 0.9923 | L2 | Double-blind placebo-controlled trial in menstrual migraine (PMID 10799353), plus a guideline update on NSAIDs for migraine prevention; strongest for menstrually related migraine |
+| Migraine with brainstem aura | 0.9921 | L5 | Evidence is indirect (menstrual migraine, not this subtype) |
+| Trigeminal autonomic cephalalgia | 0.9955 | L5 | These headaches generally do not respond to standard NSAIDs; no evidence |
+| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9949 | L5 | No plausible mechanism; likely a network artifact |
+| Brachydactyly-syndactyly syndrome | 0.9948 | L5 | Congenital malformation; likely a network artifact |
 
 ---
 

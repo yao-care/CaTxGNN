@@ -6,9 +6,9 @@ nav_order: 553
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Bipolar disorder"
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
+description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lithium Carbonate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
+## Lithium Carbonate: Pseudoachondroplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder (also listed in the knowledge graph: major affective disorder, manic bipolar affective disorder, and several arthritis-related conditions) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pseudoachondroplasia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Pseudoachondroplasia is caused by mutations in the COMP gene, leading to endoplasmic reticulum stress in chondrocytes and defects in the cartilage extracellular matrix. The link to lithium is speculative: Wnt pathway modulation could theoretically influence chondrocyte behaviour, but no data compiled for this report show a therapeutic effect.
 
-The very high TxGNN score most likely reflects proximity in the knowledge graph to other skeletal and joint disorders (several arthritis-related conditions are already linked to lithium there), rather than a validated biological connection. The other top-ranked predictions are also rare skeletal dysplasias with similarly sparse evidence.
+The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related skeletal and joint disorders, not biological evidence. The other top-ranked predictions are also rare skeletal dysplasias with similarly sparse evidence.
 
 ## Clinical Trial Evidence
 

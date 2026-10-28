@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **alopecia**, but there are **0
 |------|------|
 | Original Indication | Not available in the data compiled for this report (Health Canada indication text is empty) |
 | Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

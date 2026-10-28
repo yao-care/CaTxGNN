@@ -48,17 +48,17 @@ The prediction rests on the model score alone.
 |------|------|
 | Original Indication | Paroxysmal nocturnal hemoglobinuria; neuromyelitis optica (the Canadian licence text is not available) |
 | Predicted New Indication | Cyclic hematopoiesis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, eculizumab is a monoclonal antibody that blocks complement C5. It has proven efficacy in complement-mediated diseases such as paroxysmal nocturnal hemoglobinuria, and it is also used in conditions such as atypical hemolytic uremic syndrome and myasthenia gravis.
 
-For cyclic hematopoiesis, however, no supporting mechanistic link has been identified. Cyclic neutropenia is typically caused by *ELANE* mutations, which make neutrophil production oscillate. It is not primarily a complement-mediated disease, so there is no clear rationale for C5 inhibition. The high score (99.97%) is a graph-based prediction only.
+For cyclic hematopoiesis, however, no supporting mechanistic link has been identified. Cyclic neutropenia is typically caused by *ELANE* mutations, which make neutrophil production oscillate. It is not primarily a complement-mediated disease, so there is no clear rationale for C5 inhibition. The high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are also neutropenia or neutrophil-related disorders: severe congenital neutropenia and its genetic subtypes, adult idiopathic neutropenia, and primary immunodeficiency due to p14 deficiency. None of them has a complement-driven mechanism or any supporting trial or literature. Eculizumab also carries a risk of serious meningococcal infection, which is a particular concern in neutropenic or immunodeficient patients.
 
@@ -94,7 +94,7 @@ Please refer to the package insert for warnings and contraindications. Eculizuma
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a model score (99.97%), with no clinical trials or directly relevant publications, and no plausible complement-mediated mechanism in cyclic hematopoiesis. Infection risk with C5 inhibition is a further concern in neutropenic patients.
+The prediction has only a model score (0.9997), with no clinical trials or directly relevant publications, and no plausible complement-mediated mechanism in cyclic hematopoiesis. Infection risk with C5 inhibition is a further concern in neutropenic patients.
 
 **To proceed, the following is needed:**
 - Evidence that complement activation contributes to the pathology of cyclic neutropenia

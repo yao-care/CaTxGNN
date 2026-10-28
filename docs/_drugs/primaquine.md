@@ -4,17 +4,17 @@ title: Primaquine
 parent: Model Prediction Only (L5)
 nav_order: 770
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Plasmodium vivax malaria"
 monitor_inn: "Primaquine"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
+description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Primaquine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Primaquine: From Plasmodium vivax Malaria to Myiasis
+## Primaquine: Myiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is purely computational and no plausible biological rationale has
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasmodium vivax malaria |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myiasis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Myiasis is a different kind of disease. It is an infestation by dipteran fly larvae, not a protozoal infection. Standard management is larval removal (occlusion or surgical extraction), wound debridement, and occasionally ivermectin or albendazole. Primaquine has no known larvicidal activity.
 
-The high TxGNN score most likely reflects knowledge-graph proximity to antiparasitic drugs rather than a biological rationale. The related subtypes (furuncular, wound and creeping myiasis) carry nearly identical scores (about 99.73%). This suggests the prediction is inherited from the parent disease node and is not independent evidence.
+The high TxGNN score comes from the TxGNN model (deep learning) and most likely reflects similarities the model learned between related diseases, not biological evidence. The related subtypes (furuncular, wound and creeping myiasis) carry nearly identical scores (about 0.9973). This suggests the prediction is inherited from the parent disease and is not independent evidence.
 
 ---
 
@@ -111,13 +111,13 @@ Please refer to the package insert for the full warnings and contraindications.
 **Rationale:**
 The prediction is supported by a model score only (evidence level L5). There are no clinical trials or publications, and no mechanistic link between primaquine and fly-larva infestation. Established, effective treatments already exist for myiasis.
 
-For context, the other predictions in the same analysis are better supported. Primaquine plus clindamycin as a second-line regimen for *Pneumocystis* pneumonia has Phase 3 evidence and is rated Proceed with Guardrails. The malaria prediction is simply the drug's existing core indication.
+For context, the other predictions in the same analysis are better supported. Primaquine plus clindamycin as a second-line regimen for *Pneumocystis* pneumonia has Phase 3 evidence and is rated Proceed with Guardrails.
 
 **To proceed, the following is needed:**
 - Any in vitro or in vivo evidence of larvicidal activity against myiasis-causing flies
 - Mechanism of action data for primaquine, to support a mechanistic-link analysis
 - Package insert warnings and contraindications from Health Canada
-- A review of the knowledge-graph connection driving the score, to check whether it is a parent-node artifact
+- A review of the similarities the TxGNN model (deep learning) learned between related diseases that drive the score, to check whether the score is simply inherited from the parent disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

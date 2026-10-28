@@ -6,7 +6,7 @@ nav_order: 260
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Deoxycholic Acid: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-c… (evidence level L5). Approved use: Not available in the compiled data"
+description: "Deoxycholic Acid: predicted new indication autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "DEOXYCHOLIC ACID"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Deoxycholic Acid: From an Unspecified Original Indication to Diabetic Nephropathy
+## Deoxycholic Acid: From an Unspecified Original Indication to autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,17 +47,17 @@ The TxGNN model gives its highest-ranked predictions to two rare COL4A1-related 
 |------|------|
 | Original Indication | Not available in the compiled data (the Canadian license record has no indication text) |
 | Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (rank 1); diabetic nephropathy is the only prediction with literature (rank 3) |
-| TxGNN Prediction Score | 99.49% (rank 1); 99.32% for diabetic nephropathy (rank 3) |
+| TxGNN Prediction Score | 0.9949 (rank 1); 0.9932 for diabetic nephropathy (rank 3) |
 | Evidence Level | L5 for rank 1 (model prediction only); L4 for diabetic nephropathy |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Deoxycholic acid is a secondary bile acid with known cytolytic, membrane-disrupting activity. Because the original indication is not recorded in the compiled data, the link between its established use and the predicted indications cannot be assessed.
 
-**Rank 1 and rank 2 predictions (COL4A1-related disorders).** The top prediction is a rare monogenic disorder of the vascular basement membrane (collagen IV), and rank 2 (brain small vessel disease 1 with or without ocular anomalies) is also COL4A1-related. No known pathway connects deoxycholic acid to this pathology. The two high scores (both about 99.5%) likely reflect a shared neighbourhood in the knowledge graph rather than a biological rationale.
+**Rank 1 and rank 2 predictions (COL4A1-related disorders).** The top prediction is a rare monogenic disorder of the vascular basement membrane (collagen IV), and rank 2 (brain small vessel disease 1 with or without ocular anomalies) is also COL4A1-related. No known pathway connects deoxycholic acid to this pathology. The two high scores (both 0.9949) come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Rank 3 prediction (diabetic nephropathy).** The retrieved publications link altered bile acid metabolism to diabetic kidney disease. Bile acid signalling through FXR and TGR5 is plausibly relevant to renal inflammation, lipid handling and fibrosis. None of the publications tests deoxycholic acid as a treatment. It may be a biomarker or pathway participant, and whether its effect is protective or harmful is unresolved. Its role as a cytolytic injectable agent also raises a safety question for systemic use.
 

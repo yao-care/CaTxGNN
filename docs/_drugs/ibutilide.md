@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but *
 |------|------|
 | Original Indication | Not stated in the Canadian licence data |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 No known pathway links IKr blockade to the inflammatory, autoimmune, or synovial processes of rheumatoid arthritis. The high TxGNN score reflects a model-based prediction that may capture network-level associations rather than biological causality. Any link, such as ion-channel modulation in immune cells or synoviocytes, would be speculative and is not supported by the available evidence.
 
-A second prediction, nephrogenic syndrome of inappropriate antidiuresis (score 99.30%), has the same weaknesses. It is a very rare vasopressin V2 receptor disorder, and ibutilide has no recognized activity on that receptor or on renal water handling. It also has no supporting trials or literature, and its recommendation is also Hold.
+A second prediction, nephrogenic syndrome of inappropriate antidiuresis (score 0.9930), has the same weaknesses. It is a very rare vasopressin V2 receptor disorder, and ibutilide has no recognized activity on that receptor or on renal water handling. It also has no supporting trials or literature, and its recommendation is also Hold.
 
 ## Clinical Trial Evidence
 

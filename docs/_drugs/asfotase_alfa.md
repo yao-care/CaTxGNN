@@ -6,7 +6,7 @@ nav_order: 75
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Asfotase Alfa: predicted new indication Mitochondrial oxidative phosphorylation disorder due to nuclear DNA a… (evidence level L5). Approved use: Hypophosphatasia"
+description: "Asfotase Alfa: predicted new indication Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (evidence level L5). Approved use: Hypophosphatasia"
 monitor_inn: "Asfotase alfa"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Asfotase alfa: From Hypophosphatasia to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+## Asfotase alfa: From Hypophosphatasia to Mitochondrial Oxidative Phosphorylation Disorder Due to Nuclear DNA Anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,30 +48,30 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Hypophosphatasia |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, asfotase alfa is a recombinant tissue-nonspecific alkaline phosphatase (TNAP) enzyme replacement. It breaks down inorganic pyrophosphate (PPi), pyridoxal-5'-phosphate (PLP) and phosphoethanolamine, which supports bone mineralization in hypophosphatasia.
 
-Mitochondrial oxidative phosphorylation disorders arise from defects in cellular energy metabolism. The TNAP mechanism does not address these defects, so no clear mechanistic link was identified. The high score (0.9995) is a graph-based prediction only and should be treated as a hypothesis, not as evidence of efficacy.
+Mitochondrial oxidative phosphorylation disorders arise from defects in cellular energy metabolism. The TNAP mechanism does not address these defects, so no clear mechanistic link was identified. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis, not as evidence of efficacy.
 
 **Other predictions reviewed (all L5, all Hold):**
 
 | Rank | Predicted Disease | Score | Assessment |
 |------|------|------|------|
-| 2 | Steel syndrome | 99.91% | Collagen XXVII defect; TNAP replacement does not correct it. Only a loose skeletal-phenotype overlap. |
-| 3 | Exocrine pancreatic insufficiency | 99.89% | Only a graph-level "enzyme replacement" association; no digestive enzyme activity. |
-| 4 | Scheie syndrome | 99.85% | Alpha-L-iduronidase deficiency is not addressed. |
-| 5 | Hurler syndrome | 99.75% | Approved therapies differ; no target relevance. |
-| 6 | Lysosomal storage disease with skeletal involvement | 99.73% | Different pathology from the PPi-mediated mineralization defect. |
-| 7 | Familial apolipoprotein C-II deficiency | 99.71% | No known effect on lipoprotein metabolism. |
-| 8–9 | Esophageal varices (with / without bleeding) | 99.68% | Portal hypertension; no plausible link. Identical scores suggest a shared ontology-based prediction. |
-| 10 | Cystinosis | 99.65% | Cystine transport defect; only a superficial renal and bone overlap. |
+| 2 | Steel syndrome | 0.9991 | Collagen XXVII defect; TNAP replacement does not correct it. Only a loose skeletal-phenotype overlap. |
+| 3 | Exocrine pancreatic insufficiency | 0.9989 | Only an "enzyme replacement" similarity learned by the TxGNN model (deep learning); no digestive enzyme activity. |
+| 4 | Scheie syndrome | 0.9985 | Alpha-L-iduronidase deficiency is not addressed. |
+| 5 | Hurler syndrome | 0.9975 | Approved therapies differ; no target relevance. |
+| 6 | Lysosomal storage disease with skeletal involvement | 0.9973 | Different pathology from the PPi-mediated mineralization defect. |
+| 7 | Familial apolipoprotein C-II deficiency | 0.9971 | No known effect on lipoprotein metabolism. |
+| 8–9 | Esophageal varices (with / without bleeding) | 0.9968 | Portal hypertension; no plausible link. Identical scores suggest a shared ontology-based prediction. |
+| 10 | Cystinosis | 0.9965 | Cystine transport defect; only a superficial renal and bone overlap. |
 
 ## Clinical Trial Evidence
 

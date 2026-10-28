@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
-description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Irritable bowel syndrome"
 monitor_inn: "Dicyclomine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
+last_modified_at: 2026-10-27
+description: "Dicyclomine: predicted new indication cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dicyclomine
@@ -33,13 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Dicyclomine: From Irritable Bowel Syndrome to Cauda Equina Syndrome
+## Dicyclomine: Antimuscarinic antispasmodic → cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dicyclomine is an antimuscarinic antispasmodic, originally used for irritable bowel syndrome (IBS) and related gastrointestinal conditions.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on computation alone.
+Dicyclomine is an antimuscarinic antispasmodic that relaxes smooth muscle and is marketed in Canada.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, with a prediction score of **0.9966**.
+However, **no clinical trials and no publications** were found in the data compiled for this report, so the prediction rests on the model alone.
 
 ---
 
@@ -47,27 +48,23 @@ The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Irritable bowel syndrome (also listed in the knowledge graph: Clostridium difficile colitis, neurocirculatory asthenia) |
-| Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.66% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | cauda equina syndrome |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
-
-*Note: The Canadian licence records compiled for this report contain no approved indication text. The original indications above come from the TxGNN knowledge graph.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, dicyclomine is an antimuscarinic/antispasmodic agent that relaxes smooth muscle. Its use in irritable bowel syndrome is established, and mechanistically it may relieve smooth-muscle spasm in other settings.
+Detailed mechanism-of-action data for dicyclomine are not available in the data compiled for this report. Dicyclomine is generally understood as an antimuscarinic/antispasmodic agent that relaxes smooth muscle.
 
-Cauda equina syndrome often presents with bladder and bowel dysfunction. A theoretical link exists only for symptom management, such as bowel spasm or detrusor overactivity. However, anticholinergic activity could **worsen urinary retention**, which is a core feature of this condition.
+Cauda equina syndrome often presents with bladder and bowel dysfunction. A theoretical link exists only for symptom management, such as bowel spasm or detrusor overactivity. This link is weak: anticholinergic activity could worsen urinary retention, which is a core feature of the condition.
 
-Cauda equina syndrome is a surgical emergency caused by nerve root compression. No mechanism is established by which dicyclomine would treat the underlying cause. The high score (0.997) is a computational prediction only.
-
-A second prediction, **neurogenic bladder** (listed under an obsolete ontology term), has a score of 99.50%. Antimuscarinics are an established class for neurogenic detrusor overactivity, so a class-level rationale is plausible. However, there is no dicyclomine-specific evidence, and better-characterized agents such as oxybutynin and tolterodine are used for this purpose. The obsolete term should be mapped to a current ontology term before further assessment.
+Cauda equina syndrome is a surgical emergency caused by nerve root compression. No mechanism is established by which dicyclomine would treat the underlying cause. The high score is a computational prediction only and is not backed by clinical evidence.
 
 ---
 
@@ -87,33 +84,22 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02366088 | JAMP-DICYCLOMINE HCL | Not specified | Not specified |
-| 02391619 | JAMP-DICYCLOMINE HCL | Not specified | Not specified |
-| 00557102 | RIVA-DICYCLOMINE | Not specified | Not specified |
-
-All three licences are valid single-ingredient products. No cancelled licences were found.
+| 02366088 | JAMP-DICYCLOMINE HCL | Not recorded | Not recorded |
+| 02391619 | JAMP-DICYCLOMINE HCL | Not recorded | Not recorded |
+| 00557102 | RIVA-DICYCLOMINE | Not recorded | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph** (derived from drug-disease relationships, not package insert text):
-  - Eye: angle-closure (closed-angle) glaucoma
-  - Urinary and prostate: benign prostatic hyperplasia, pyoureter
-  - Liver and kidney: liver disease, liver failure, hepatic coma, hepatic encephalopathy, kidney disease, gallbladder disease
-  - Gastrointestinal: gastric ulcer
-  - Blood: thrombocytopenia, neutropenia, agranulocytosis, anemia (including macrocytic anemia)
-  - Cardiovascular: hypertension, hypertensive disorder, coronary artery disease
-  - Metabolic: porphyria (inherited porphyria, porphyrin metabolism disease)
-  - Psychiatric: anxiety disorder, neurotic disorder, dysthymic disorder, substance abuse/dependence
-  - Sleep and respiratory: obstructive sleep apnea, sleep apnea syndrome, congenital central hypoventilation syndrome (Haddad syndrome)
-- **Drug Interactions**: 100 interactions were recorded, and the first 20 reviewed are mostly Moderate, with a few Minor. Main ones include:
-  - Other anticholinergics and antimuscarinics: hyoscyamine, aclidinium, amitriptyline
-  - Antihistamines: chlorpheniramine, acrivastine, phenyltoloxamine
-  - Opioids: fentanyl, alfentanil, codeine, dihydrocodeine, tramadol
-  - Others: ethanol, loperamide, amantadine, galantamine, botulinum toxin type A, acetylcholine, acebutolol
+- **Drug Interactions**: 100 interactions were recorded. Most listed ones are of moderate severity, including:
+  - Other anticholinergic or antimuscarinic agents (e.g., aclidinium, hyoscyamine, amitriptyline, chlorpheniramine, acrivastine)
+  - Opioids (e.g., fentanyl, codeine, tramadol, alfentanil, dihydrocodeine)
+  - Others: botulinum toxin type A, ethanol, amantadine, galantamine, loperamide, acebutolol
   - Minor: acetaminophen, hydrochlorothiazide
-- **Specific concern for the predicted indication**: Anticholinergic effects may worsen urinary retention, and the large interaction burden calls for caution.
+- **Clinical concern for this prediction**: Anticholinergic effects may cause or worsen urinary retention, which is already a key feature of cauda equina syndrome.
+
+Please refer to the package insert for warnings and contraindications, as these were not available in the compiled data.
 
 ---
 
@@ -122,14 +108,13 @@ All three licences are valid single-ingredient products. No cancelled licences w
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score but no clinical trials or publications behind it. Cauda equina syndrome is a surgical emergency with nerve compression as the cause, and dicyclomine's anticholinergic action may worsen urinary retention, a core feature of the condition.
+The prediction has no supporting trials or publications (evidence level L5). The possible mechanism is weak and may even be harmful, because antimuscarinic action can worsen urinary retention.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Health Canada (currently unavailable and blocking safety screening)
-- Mechanism of action data for dicyclomine
-- Approved indication text and dosage forms for the Canadian licences
-- Any clinical or preclinical evidence for dicyclomine in cauda equina syndrome
-- If neurogenic bladder is pursued instead, mapping of the obsolete disease term to a current one, plus a comparison against established antimuscarinics
+- Health Canada package insert warnings and contraindications
+- Mechanism-of-action data for dicyclomine
+- Any clinical or preclinical study that directly addresses cauda equina syndrome
+- A clinical safety assessment of urinary retention risk in this population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

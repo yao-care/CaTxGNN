@@ -4,7 +4,7 @@ title: Ipilimumab
 parent: Model Prediction Only (L5)
 nav_order: 493
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Ipilimumab: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "IPILIMUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Ipilimumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **choroideremia** (a rare inher
 |------|------|
 | Original Indication | Metastatic melanoma |
 | Predicted New Indication | Choroideremia |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **choroideremia** (a rare inher
 
 Detailed mechanism of action data is not available in the compiled data. Ipilimumab is known to block CTLA-4, which enhances T-cell priming and activation. This is the basis of its use in melanoma, where it helps the immune system attack tumour cells.
 
-Choroideremia is a different kind of disease. It is an X-linked inherited retinal degeneration caused by loss of function of the *CHM* gene (REP1 protein). It is not driven by tumour immune evasion, so there is no plausible biological reason why CTLA-4 blockade would help. The high score most likely reflects an artefact of the knowledge graph, not a real therapeutic link.
+Choroideremia is a different kind of disease. It is an X-linked inherited retinal degeneration caused by loss of function of the *CHM* gene (REP1 protein). It is not driven by tumor immune evasion, so there is no plausible biological reason why CTLA-4 blockade would help. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Systemic checkpoint blockade can also cause immune-related eye adverse events such as uveitis. These would be undesirable in an already degenerating retina.
 
@@ -123,9 +123,8 @@ The prediction score is very high, but there are no trials or publications for c
 - Mechanistic or preclinical evidence linking CTLA-4 blockade to retinal degeneration in choroideremia
 - Package insert warnings and contraindications, particularly for ocular adverse events
 - Detailed mechanism of action data
-- Confirmation that the high score is not a knowledge-graph artefact
+- Confirmation that the high score is not a TxGNN model (deep learning) artefact
 
-**Note on another prediction:** The same model also ranks **non-cutaneous melanoma** (score 99.02%) as a candidate for ipilimumab. This is biologically plausible, since it is closely related to the approved indication, and it has more supporting trials, including a Phase 2 trial of nivolumab plus ipilimumab in uveal melanoma. Several listed trials are not melanoma-specific, so the Phase 3 entry should be verified before it is counted as direct evidence. This indication may be a more promising direction to evaluate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

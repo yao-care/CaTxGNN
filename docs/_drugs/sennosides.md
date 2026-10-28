@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Sennosides are stimulant laxatives marketed in Canada in several single-ingredient and docusate-combination products. The TxGNN model predicts they may be effective for **hypotrichosis simplex of the scalp**, but **no clinical trials and no publications** currently support this prediction, and no biological link has been identified. It rests on a graph-based score alone.
+Sennosides are stimulant laxatives marketed in Canada in several single-ingredient and docusate-combination products. The TxGNN model predicts they may be effective for **hypotrichosis simplex of the scalp**, but **no clinical trials and no publications** currently support this prediction, and no biological link has been identified. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -46,10 +46,10 @@ Sennosides are stimulant laxatives marketed in Canada in several single-ingredie
 |------|------|
 | Original Indication | Not stated in the licence records compiled for this report (sennosides are generally used as stimulant laxatives) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 No known pathway connects this action to hair follicle biology or to the genetic causes of hypotrichosis simplex (for example CDSN, APCDD1 or RPL21 variants). The original indication (bowel regulation) and the predicted indication (a hereditary hair-loss disorder) are mechanistically unrelated.
 
-The high score appears to be a graph-based signal only. The six top predictions for this drug (hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, open-angle glaucoma, primary hereditary glaucoma and alopecia) all score between 99.1% and 99.3%. Four of the six are hair-loss conditions. Such near-identical scores suggest a non-specific signal rather than a drug-specific finding.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The six top predictions for this drug (hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, open-angle glaucoma, primary hereditary glaucoma and alopecia) all score between 0.9910 and 0.9929. Four of the six are hair-loss conditions. Such near-identical scores suggest a non-specific signal rather than a drug-specific finding.
 
 ## Clinical Trial Evidence
 
@@ -89,7 +89,7 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or literature (Evidence Level L5). There is no plausible mechanistic link between a colonic stimulant laxative and hair follicle disorders. The nearly identical scores across the top predictions point to a non-specific graph signal rather than real repurposing potential.
+The prediction has no supporting clinical trials or literature (Evidence Level L5). There is no plausible mechanistic link between a colonic stimulant laxative and hair follicle disorders. The nearly identical scores across the top predictions point to a non-specific model signal rather than real repurposing potential.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for sennosides, to allow a proper mechanistic-link analysis

@@ -48,9 +48,9 @@ but there are currently **no registered clinical trials** and only **2 publicati
 |------|------|
 | Original Indication | Not available (no approved indication text in the Canadian licence records; products are parenteral nutrition amino acid solutions) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -102,7 +102,7 @@ The prediction rests on indirect metabolic associations only. There are no clini
 - Preclinical or early-phase studies testing BCAA or valine supplementation in cholestatic liver disease
 - Approved indication text for the Canadian products, to define the original indication and available routes
 
-**Notes on other predictions:** The other nine predicted indications (angle-closure glaucoma, hyperthyroidism, traumatic glaucoma, aqueous misdirection, neovascular glaucoma, glaucomatous optic disc atrophy, resistance to thyroid hormone, obsolete bundle branch block, hyperthyroxinemia) have no clinical trials and no credible therapeutic rationale. Much of the retrieved literature concerns receptor mutations in which "valine" is only an amino acid residue, not the drug. These appear to be knowledge-graph or keyword artifacts, and all are rated Hold.
+**Notes on other predictions:** The other nine predicted indications (angle-closure glaucoma, hyperthyroidism, traumatic glaucoma, aqueous misdirection, neovascular glaucoma, glaucomatous optic disc atrophy, resistance to thyroid hormone, obsolete bundle branch block, hyperthyroxinemia) have no clinical trials and no credible therapeutic rationale. Much of the retrieved literature concerns receptor mutations in which "valine" is only an amino acid residue, not the drug. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and all are rated Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

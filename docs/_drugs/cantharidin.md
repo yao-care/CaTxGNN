@@ -6,7 +6,7 @@ nav_order: 152
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Cantharidin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not specified in the Canadian license data"
+description: "Cantharidin: predicted new indication amenorrhea (evidence level L5). Approved use: Not specified in the Canadian license data"
 monitor_inn: "CANTHARIDIN"
 predicted_indications: ["amenorrhea (disease)"]
 ---
@@ -48,10 +48,10 @@ Cantharidin is a natural-product vesicant (blistering agent) that is used topica
 |------|------|
 | Original Indication | Not specified in the Canadian license data (the topical use for warts and molluscum contagiosum comes from pharmacology reference data) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detailed mechanism of action data for the original indication is not currently a
 
 No plausible link has been established between these mechanisms and amenorrhea. Nothing in the data connects cantharidin to the hypothalamic-pituitary-ovarian axis or to uterine and endometrial physiology. Systemic cantharidin is also highly toxic, with renal, gastrointestinal and genitourinary irritation, which is a serious concern for any systemic use.
 
-The high score (0.994) reflects a pattern in the knowledge graph, not clinical evidence. The prediction should be treated as hypothesis-generating only.
+The high score (0.9942) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as hypothesis-generating only.
 
 ---
 

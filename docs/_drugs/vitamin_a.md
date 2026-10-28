@@ -6,9 +6,9 @@ nav_order: 980
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vitamin A
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Vitamin A: From Vitamin Deficiency to Congenital Prothrombin Deficiency
+## Vitamin A: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Of the other predicted indications, "perinatal disease" has the most support: se
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin deficiency disorder; vitamin A deficiency (from the knowledge graph, as no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,11 @@ Of the other predicted indications, "perinatal disease" has the most support: se
 
 Currently, detailed mechanism of action data is not available. Based on known information, vitamin A is a nutrient and the parent compound of the retinoids. Its efficacy in correcting vitamin A deficiency is well established, and it acts through retinoic acid receptor signalling.
 
-For congenital prothrombin deficiency, a plausible mechanism is **not apparent**. This is a genetic coagulation factor disorder. Prothrombin synthesis depends on the vitamin K pathway, and vitamin A has no established role in it. The very high score (99.97%) is a graph-based prediction and should not be read as evidence of efficacy.
+For congenital prothrombin deficiency, a plausible mechanism is **not apparent**. This is a genetic coagulation factor disorder. Prothrombin synthesis depends on the vitamin K pathway, and vitamin A has no established role in it. The very high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
-Other predicted indications in the same analysis show more biological plausibility, though none is validated for the top prediction:
 
-- **Perinatal disease (score 99.63%)**: vitamin A supports lung epithelial development, and deficiency in very low birth weight infants is linked to bronchopulmonary dysplasia risk. This is the best-supported direction, and it is consistent with vitamin A's existing nutritional role rather than a wholly new use.
-- **Injury (score 99.69%)**: retinoids support epithelial regeneration and wound healing, but the trials are limited to extremely-low-birth-weight neonates.
+- **Perinatal disease (score 0.9963)**: vitamin A supports lung epithelial development, and deficiency in very low birth weight infants is linked to bronchopulmonary dysplasia risk. This is the best-supported direction, and it is consistent with vitamin A's existing nutritional role rather than a wholly new use.
+- **Injury (score 0.9969)**: retinoids support epithelial regeneration and wound healing, but the trials are limited to extremely-low-birth-weight neonates.
 - **Cell proliferation disorder** and **radiation or chemically induced disorder**: mechanistically plausible through retinoid receptor signalling and photoprotection, but the categories are too broad to test.
 
 ---

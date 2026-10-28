@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Dermatitis, rash, Wilson disease and other conditions (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -105,7 +105,7 @@ Package insert warnings and contraindications from Health Canada have not been o
 **Decision: Hold**
 
 **Rationale:**
-The prediction for severe nonproliferative diabetic retinopathy has a high model score (99.97%) but no supporting clinical trials or literature (Evidence Level L5). The Canadian licences cover only topical itch and bug-bite products, which are not an obvious fit for a retinal disease. Label-based safety data are also missing.
+The prediction for severe nonproliferative diabetic retinopathy has a high model score (0.9997) but no supporting clinical trials or literature (Evidence Level L5). The Canadian licences cover only topical itch and bug-bite products, which are not an obvious fit for a retinal disease. Label-based safety data are also missing.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications for safety screening

@@ -4,17 +4,17 @@ title: Ticagrelor
 parent: Model Prediction Only (L5)
 nav_order: 913
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
+description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ticagrelor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ticagrelor: From Acute Coronary Syndrome to Intracranial Arteriosclerosis
+## Ticagrelor: Intracranial arteriosclerosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,17 +48,17 @@ with **2 clinical trials** (one large Phase 3 trial still ongoing) and **2 publi
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute coronary syndrome (also peripheral arterial disease and intermittent claudication, per the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Intracranial arteriosclerosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 (see note below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 (see note below) |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold (research question stage) |
 
 *Note on evidence level:* The only Phase 3 trial for this indication (CAPTIVA) is still active with no results, so there is no completed randomised trial. The L2 grade reflects the strongest available signal rather than a completed trial. Strictly applying the grading rules, the level is closer to L4 to L5 for this specific indication.
 
-*Note on the original indication:* The Health Canada records compiled for this report contain no approved-indication text. The original indications listed here come from the TxGNN knowledge graph, not from product labels.
+*Note on the original indication:* The Health Canada records compiled for this report contain no approved-indication text. The original indications listed here do not come from product labels.
 
 ---
 

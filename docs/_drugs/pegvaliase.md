@@ -4,17 +4,17 @@ title: Pegvaliase
 parent: Model Prediction Only (L5)
 nav_order: 715
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Pegvaliase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not listed in the Canadian license data (generally phenylketonuria)"
 monitor_inn: "Pegvaliase"
-predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract", "nuclear senile cataract", "cortical cataract", "mature cataract", "tetanic cataract", "immature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract"]
+predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Pegvaliase
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **diabetic retinopathy**, but t
 |------|------|
 | Original Indication | Not listed in the Canadian license data (generally phenylketonuria) |
 | Predicted New Indication | Diabetic retinopathy |
-| TxGNN Prediction Score | 99.17% |
+| TxGNN Prediction Score | 0.9917 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, pegvaliase is a PEGylated phenylalanine ammonia lyase that degrades phenylalanine, and it is marketed for phenylketonuria.
 
-No established mechanistic link has been identified between phenylalanine depletion and diabetic retinal microvascular disease. The high TxGNN score is a knowledge-graph prediction only, and the data compiled for this report do not support a biological pathway connecting the two.
+No established mechanistic link has been identified between phenylalanine depletion and diabetic retinal microvascular disease. The high TxGNN score is a TxGNN model (deep learning) prediction only, and the data compiled for this report do not support a biological pathway connecting the two.
 
-The other top predictions are mostly cataract subtypes (diabetic, nuclear senile, cortical, mature, immature, tetanic, craniostenosis, and type 2 diabetes-associated cataract), plus severe nonproliferative diabetic retinopathy. Several share identical scores (for example, 0.9896 for five cataract types). This pattern suggests the predictions reflect shared structure in the knowledge graph across eye-disease classes rather than biology specific to this drug.
+The other top predictions are severe nonproliferative diabetic retinopathy (0.9916) and diabetic cataract (0.9911). These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related eye diseases, not biological evidence specific to this drug.
 
 ## Clinical Trial Evidence
 

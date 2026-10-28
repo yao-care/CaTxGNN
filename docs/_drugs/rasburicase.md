@@ -6,7 +6,7 @@ nav_order: 798
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Rasburicase: predicted new indication Renal hypouricemia (evidence level L5). Approved use: Hyperuricemia"
+description: "Rasburicase: predicted new indication hypouricemia, renal (evidence level L5). Approved use: Hyperuricemia"
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rasburicase: From Hyperuricemia to Renal Hypouricemia
+## Rasburicase: From Hyperuricemia to Hypouricemia, Renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The prediction is most likely a model artifact and is not biologically plausible
 |------|------|
 | Original Indication | Hyperuricemia |
 | Predicted New Indication | Renal hypouricemia |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Renal hypouricemia is a condition in which uric acid is already abnormally low, typically because of loss-of-function variants in urate transporters such as URAT1 or GLUT9. Lowering uric acid further is mechanistically counterproductive and could increase the risk of harm. The relationship to the original indication is therefore one of opposition rather than similarity.
 
-The very high TxGNN score most likely reflects the shared uric acid pathway in the knowledge graph rather than a plausible therapeutic link. This prediction should not be considered reasonable on mechanistic grounds.
+The very high TxGNN score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should not be considered reasonable on mechanistic grounds.
 
 The other nine predictions in the ranked list also have no supporting trials or literature. One of them, partial HPRT deficiency, is mechanistically related to the original indication because it causes hyperuricemia. However, rasburicase would not correct the underlying defect, and its injectable route and immunogenicity limit chronic use. Standard therapies are allopurinol and febuxostat. The remaining predictions are hepatic, renal tubular, and metabolic conditions with no evident mechanistic link.
 

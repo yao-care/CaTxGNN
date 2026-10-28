@@ -4,17 +4,17 @@ title: Rocuronium
 parent: Model Prediction Only (L5)
 nav_order: 820
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Rocuronium: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the licence data compiled for this report"
 monitor_inn: "Rocuronium"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
 ---
 
 # Rocuronium
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,17 +46,17 @@ Rocuronium is a non-depolarizing neuromuscular blocker given by injection. It is
 |------|------|
 | Original Indication | Not stated in the licence data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, rocuronium is a non-depolarizing neuromuscular blocker. It competitively blocks nicotinic acetylcholine receptors at the motor endplate, producing skeletal muscle relaxation.
 
-No established mechanism links this action to migraine. Migraine involves CGRP signalling, trigeminovascular activation and cortical spreading depression, none of which rocuronium is known to act on. The very high TxGNN score most likely reflects proximity in the knowledge graph rather than a biologically grounded signal. The same applies to the other predicted indications (migraine with brainstem aura, cauda equina syndrome, irritable bowel syndrome, sciatic neuropathy and others), which also have no supporting trials or literature.
+No established mechanism links this action to migraine. Migraine involves CGRP signalling, trigeminovascular activation and cortical spreading depression, none of which rocuronium is known to act on. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the other predicted indications (migraine with brainstem aura, cauda equina syndrome, irritable bowel syndrome, sciatic neuropathy and others), which also have no supporting trials or literature.
 
 ## Clinical Trial Evidence
 
@@ -101,7 +101,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no plausible mechanistic basis and is supported only by a nonspecific pharmacokinetics study. Rocuronium is given intravenously in monitored settings and causes paralysis, so it is not a realistic candidate for migraine. The high TxGNN score is likely a knowledge-graph artifact.
+The prediction has no plausible mechanistic basis and is supported only by a nonspecific pharmacokinetics study. Rocuronium is given intravenously in monitored settings and causes paralysis, so it is not a realistic candidate for migraine. The high TxGNN score is likely a TxGNN model (deep learning) artifact.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada

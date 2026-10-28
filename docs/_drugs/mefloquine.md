@@ -8,6 +8,7 @@ nav_order: 579
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Mefloquine
@@ -51,8 +52,8 @@ A formal drug repurposing evaluation cannot be completed without supplementary d
 | Predicted New Indication | No predictions returned |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction only; no predictions generated |
-| Canada Market Status | Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

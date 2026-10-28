@@ -4,17 +4,17 @@ title: Brigatinib
 parent: Model Prediction Only (L5)
 nav_order: 123
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Brigatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma / lung cancer"
+indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+last_modified_at: 2026-10-27
+description: "Brigatinib: predicted new indication Gingival fibromatosis (fibromatosis, gingival) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Brigatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,114 +33,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Brigatinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Brigatinib: ALK/multi-kinase inhibitor → fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Brigatinib is a kinase inhibitor (ALK-targeted) originally used to treat ALK-positive non-small cell lung cancer.
-The TxGNN model predicts it may be effective for **gingival fibromatosis** (score 99.89%), but **no clinical trials and no publications** support this specific prediction.
-The prediction is graph-based only, and the evidence is at the model-prediction level.
-
----
+Brigatinib is an oral kinase inhibitor that targets ALK and several other tyrosine kinases and is marketed in Canada as ALUNBRIG.
+The TxGNN model predicts it may be relevant to **gingival fibromatosis**, with a score of 0.9989.
+There are **no clinical trials and no publications** for this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma / lung cancer (from the TxGNN knowledge graph; no approved indication text is available for the Canadian licences) |
-| Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gingival fibromatosis (fibromatosis, gingival) |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, brigatinib is a tyrosine kinase inhibitor whose efficacy in ALK-positive non-small cell lung cancer is established (for example, the phase 3 ALTA-1L trial). Its targets include ALK, ROS1 and EGFR.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Brigatinib is known from the literature as a next-generation ALK inhibitor that also inhibits other tyrosine kinases, such as ROS1 and EGFR.
 
-No mechanistic link between these kinase targets and gingival fibromatosis has been identified. Gingival fibromatosis is a benign overgrowth of gum tissue and is biologically distant from lung cancer. The high score most likely reflects proximity in the knowledge graph rather than a specific biological rationale.
-
-For this reason, the prediction should be treated as a hypothesis only. Using a systemic kinase inhibitor, with its toxicity profile, for a benign gingival condition would be hard to justify without supporting evidence.
-
----
+No mechanistic link between this kinase inhibition and gingival fibromatosis has been identified. The high TxGNN score is a model-based prediction only. Gingival fibromatosis is a non-malignant overgrowth of gum tissue, and no biological rationale supports using a systemic oncology kinase inhibitor for it. The similarity between the drug's current use and this condition has not been assessed.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
-
-## Other Predictions Worth Noting
-
-Among the other top-ranked predictions, the following are the most informative:
-
-| Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|
-| Lung benign neoplasm | 99.85% | L5 | The 20 retrieved publications (10 listed) all concern brigatinib in ALK-positive NSCLC, which is the already-approved malignant indication. They are not evidence for benign lung tumours. |
-| Lung hilum carcinoma / pulmonary sulcus neoplasm | 99.85% / 99.84% | L5 | These are anatomical-location labels that largely overlap with existing NSCLC use. Any benefit would depend on ALK/ROS1 status. |
-| Lung germ cell tumor | 99.84% | L4 | Five publications cover ALK-driven tumours (neuroblastoma, pheochromocytoma, lung large cell neuroendocrine carcinoma) and preclinical work. This is indirect, mechanism-level support that applies only to ALK-altered tumours. |
-| Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome | 99.83% | L4 | The literature actually concerns **NF2-related schwannomatosis**, not this syndrome. In NF2-related schwannomatosis, brigatinib showed tumour shrinkage in NF2-deficient meningioma and schwannoma models ([PMID 34264955](https://pubmed.ncbi.nlm.nih.gov/34264955/)) and a 2024 clinical report in patients with progressive tumours ([PMID 38904277](https://pubmed.ncbi.nlm.nih.gov/38904277/)). This is promising but should be evaluated as a separate indication. |
-
-The remaining predictions (fibroma of lung, hamartoma of lung, VCP-related inclusion body myopathy, junctional epidermolysis bullosa) have no trials or literature and no identified mechanistic link.
-
----
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02479214 | ALUNBRIG | Not specified | Not specified |
-| 02479206 | ALUNBRIG | Not specified | Not specified |
-| 02479222 | ALUNBRIG | Not specified | Not specified |
-| 02479230 | ALUNBRIG | Not specified | Not specified |
+| 02479214 | ALUNBRIG | Not recorded | Not recorded |
+| 02479206 | ALUNBRIG | Not recorded | Not recorded |
+| 02479222 | ALUNBRIG | Not recorded | Not recorded |
+| 02479230 | ALUNBRIG | Not recorded | Not recorded |
 
-All four licences are valid single-ingredient products.
-
----
+All four single-ingredient licences are valid.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor), not a conventional cytotoxic |
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions. The literature also reports cardiac toxicity signals and a fatal tumour lysis syndrome case, so cardiovascular and metabolic monitoring should be considered. |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-- **Drug Interactions**: A total of 100 interactions were recorded. Those listed include several **Major** interactions: aprepitant, dexamethasone and clarithromycin. Many **Moderate** interactions were also listed, including acid-reducing agents (famotidine, ranitidine, rabeprazole, cimetidine), antidiabetic drugs (metformin, pioglitazone, alogliptin, canagliflozin, dapagliflozin, acarbose), loperamide, morphine and cisapride.
-- **Literature safety signals**: Fatal tumour lysis syndrome in a lung adenocarcinoma patient ([PMID 34987411](https://pubmed.ncbi.nlm.nih.gov/34987411/)) and cardiac toxicities in a pharmacovigilance analysis ([PMID 34418561](https://pubmed.ncbi.nlm.nih.gov/34418561/)).
+- **Drug Interactions**: The interaction screen returned 100 records. Major-level interactions among those listed include aprepitant, dexamethasone and clarithromycin. Many moderate-level interactions are also listed, including acid-reducing agents (famotidine, ranitidine, rabeprazole, cimetidine) and several antidiabetic drugs (metformin, pioglitazone, alogliptin, canagliflozin, dapagliflozin).
 
-Please refer to the package insert for warnings and contraindications.
-
----
+Warnings and contraindications from the package insert were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for gingival fibromatosis rests only on a graph-based score. There are no clinical trials, no publications and no identified mechanistic link. It cannot support further development at present.
+The prediction has no clinical trials, no publications and no identified mechanistic link, so it remains a model output only (evidence level L5). Systemic kinase inhibitor toxicity would be hard to justify for a benign gum condition without supporting data.
 
 **To proceed, the following is needed:**
-- Mechanistic data (MOA) and a biological rationale connecting brigatinib's kinase targets to gingival fibromatosis
-- Preclinical or clinical evidence in the predicted indication
-- Package insert warnings and contraindications from Health Canada, which are needed for safety screening
-- Consideration of NF2-related schwannomatosis as a separate, better-supported repurposing candidate
+- A mechanistic rationale linking brigatinib's kinase targets to gingival fibromatosis
+- Preclinical or clinical studies in this disease
+- Package insert warnings and contraindications from Health Canada
+- Detailed mechanism-of-action data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

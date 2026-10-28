@@ -4,7 +4,7 @@ title: Meropenem
 parent: Moderate Evidence (L3-L4)
 nav_order: 593
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Pseudomonas aeruginosa infection, meningococcal infection…"
 monitor_inn: "MEROPENEM"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus a
 # Meropenem
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the ten predicted indications, the strongest evidence is for **urinary tra
 |------|------|
 | Original Indication | Pseudomonas aeruginosa infection, meningococcal infection, peritonitis, bacterial meningitis (the licence records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Bacterial arthritis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 16 |
+| Canada Market Status | Marketed (valid licenses: 16 of 16) |
+| Number of DINs | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -123,16 +123,15 @@ Please refer to the package insert for warnings and contraindications.
 
 | Rank | Indication | Score | Evidence Level | Decision | Comment |
 |---|---|---|---|---|---|
-| 1 | Bacterial arthritis | 99.92% | L4 | Hold | Indirect evidence only |
-| 2 | Epiglottitis | 99.91% | L4 | Hold | Case reports; narrower agents are first-line |
-| 3 | *Staphylococcus aureus* infection | 99.85% | L4 | Hold | Active against MSSA only, not MRSA; preclinical and cohort data |
-| 4 | Laryngitis | 99.59% | L5 | Hold | Mostly viral; literature unrelated |
-| 5 | Paratyphoid fever | 99.57% | L4 | Hold | Reserve option for XDR enteric fever; surveillance data only |
-| 6 | **Urinary tract infection** | 99.52% | **L1** | **Proceed with Guardrails** | Several Phase 3 trials with a carbapenem arm |
-| 7 | Lyme disease | 99.46% | L5 | Hold | In vitro data only |
-| 8 | *Peptostreptococcus* infection | 99.37% | L5 | Hold | Plausible anaerobic coverage; no studies |
-| 9 | Gonococcal urethritis | 99.33% | L5 | Hold | No clinical data; ceftriaxone established |
-| 10 | *Ureaplasma* urethritis | 99.33% | L5 | Hold | No cell wall, so likely a false positive |
+| 1 | Bacterial arthritis | 0.9992 | L4 | Hold | Indirect evidence only |
+| 2 | Epiglottitis | 0.9991 | L4 | Hold | Case reports; narrower agents are first-line |
+| 3 | *Staphylococcus aureus* infection | 0.9985 | L4 | Hold | Active against MSSA only, not MRSA; preclinical and cohort data |
+| 4 | Laryngitis | 0.9959 | L5 | Hold | Mostly viral; literature unrelated |
+| 5 | Paratyphoid fever | 0.9957 | L4 | Hold | Reserve option for XDR enteric fever; surveillance data only |
+| 7 | Lyme disease | 0.9946 | L5 | Hold | In vitro data only |
+| 8 | *Peptostreptococcus* infection | 0.9937 | L5 | Hold | Plausible anaerobic coverage; no studies |
+| 9 | Gonococcal urethritis | 0.9933 | L5 | Hold | No clinical data; ceftriaxone established |
+| 10 | *Ureaplasma* urethritis | 0.9933 | L5 | Hold | No cell wall, so likely a false positive |
 
 ### Strongest Evidence: Urinary Tract Infection
 

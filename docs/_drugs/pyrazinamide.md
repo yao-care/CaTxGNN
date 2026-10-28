@@ -48,17 +48,17 @@ Related literature exists only for tuberculosis involving the middle ear (case r
 |------|------|
 | Original Indication | Pulmonary tuberculosis, meningeal tuberculosis (tuberculous meningitis) |
 | Predicted New Indication | Infectious otitis media |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, pyrazinamide is a first-line anti-tuberculosis agent whose activity is limited to *Mycobacterium tuberculosis* and depends on an acidic environment.
 
-It has no activity against the usual bacterial causes of otitis media (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*). The high TxGNN score therefore appears to be a graph-proximity effect rather than a mechanistic signal. The only plausible link is rare tuberculous otitis media, which is already covered by standard anti-TB therapy and the approved TB indication.
+It has no activity against the usual bacterial causes of otitis media (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*). The high TxGNN score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only plausible link is rare tuberculous otitis media, which is already covered by standard anti-TB therapy and the approved TB indication.
 
 Other ear-related predictions follow the same pattern. Tuberculosis-related ones (middle ear disease, chronic and suppurative otitis media) are extrapulmonary TB extensions. Non-infectious or allergic ones (non-suppurative otitis media, cholesterol granuloma, allergic otitis media) have no plausible mechanistic rationale.
 

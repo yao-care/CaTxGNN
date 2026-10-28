@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Rheumatoid arthritis, psoriatic arthritis |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 18 |
+| Canada Market Status | Marketed (valid licenses: 18 of 18) |
+| Number of DINs | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ No mechanistic link has been established between this action and the development
 
 There is also a safety concern. Leflunomide is known to be teratogenic, which makes its use in a congenital limb-malformation context especially questionable.
 
-A second prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 99.93%), also has no supporting trials or literature and the same concerns apply.
+A second prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 0.9993), also has no supporting trials or literature and the same concerns apply.
 
 ## Clinical Trial Evidence
 

@@ -6,9 +6,9 @@ nav_order: 768
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pregabalin: predicted new indication Migraine disorder (evidence level L5). Approved use: Postherpetic neuralgia, fibromyalgia, myofascial pain syndrome…"
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pregabalin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Pregabalin: From Postherpetic Neuralgia and Fibromyalgia to Migraine Disorder
+## Pregabalin: Tendinitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Currently **2 clinical trials** (one withdrawn Phase 3, one completed Phase 4 th
 
 | Item | Content |
 |------|------|
-| Original Indication | Postherpetic neuralgia, fibromyalgia, myofascial pain syndrome, anxiety disorder (from the knowledge graph; no approved-indication text is available for the Canadian licences) |
-| Predicted New Indication | Migraine disorder (the top-ranked prediction overall is tendinitis, which has weaker evidence; see below) |
-| TxGNN Prediction Score | 99.47% (migraine disorder); tendinitis ranked first at 99.71% |
-| Evidence Level | L1 (provisional; see note below) |
-| Canada Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Tendinitis |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 (provisional; see note below) |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
-**Note on the prediction list:** Six indications were predicted. Tendinitis (99.71%), idiopathic granulomatous myositis (99.71%) and myositis fibrosa (99.71%) score highest, but the data compiled for this report show little or no supporting evidence for them (evidence levels L4 and L5). Inclusion body myositis (99.52%) is also L5. Migraine disorder (99.47%) has the strongest clinical evidence, so this report focuses on it. Migraine with brainstem aura (99.43%) is supported only by preclinical work (L4).
+**Note on the prediction list:** Six indications were predicted. Tendinitis (0.9971), idiopathic granulomatous myositis (0.9971) and myositis fibrosa (0.9971) score highest, but the data compiled for this report show little or no supporting evidence for them (evidence levels L4 and L5). Inclusion body myositis (0.9952) is also L5. Migraine disorder (0.9947) has the strongest clinical evidence, so this report focuses on it. Migraine with brainstem aura (0.9943) is supported only by preclinical work (L4).
 
 ---
 

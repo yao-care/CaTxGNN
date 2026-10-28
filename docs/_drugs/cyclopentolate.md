@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Cyclopentolate: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
+last_modified_at: 2026-10-28
 monitor_inn: "Cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Cyclopentolate: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyclopentolate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Cyclopentolate: From Cycloplegia to Cauda Equina Syndrome
+## Cyclopentolate: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,15 +46,15 @@ but **no clinical trials and no publications** currently support this direction.
 
 | Item | Content |
 |------|------|
-| Original Indication | Cycloplegia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
-Two other predictions were also generated: obsolete neurogenic bladder (99.40%) and irritable bowel syndrome (99.27%). Both are also L5 and Hold.
+Two other predictions were also generated: obsolete neurogenic bladder (0.9940) and irritable bowel syndrome (0.9927). Both are also L5 and Hold.
 
 ## Why is This Prediction Reasonable?
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cetirizine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 177
-evidence_level: L2
-indication_count: 6
-last_modified_at: 2026-10-13
-description: "Cetirizine: predicted new indication Allergic urticaria (evidence level L2). Approved use: Allergic rhinitis (other listed indications include vasomotor rhiniti…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Cetirizine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
+last_modified_at: 2026-10-27
+description: "Cetirizine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cetirizine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,93 +33,81 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 </div>
 
-## Cetirizine: From Allergic Rhinitis to Allergic Urticaria
+## Cetirizine: Histamine H1-receptor antagonist → nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cetirizine is a second-generation H1-antihistamine, originally used for allergic rhinitis, idiopathic urticaria, allergic conjunctivitis and related conditions.
-The TxGNN model predicts it may be effective for **allergic urticaria**,
-with **1 clinical trial** and **18 publications** currently supporting this direction (mostly reviews).
+Cetirizine is an H1-receptor antagonist (antihistamine) that is marketed in Canada.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but no clinical trials are registered and the **5 publications** found are reviews, preclinical work or studies of other drugs.
+The prediction therefore remains at the model-prediction stage.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (other listed indications include vasomotor rhinitis, idiopathic urticaria, and atopic, papillary and vernal conjunctivitis) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nasal cavity disease |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Number of DINs | at least 20 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, cetirizine is a second-generation H1-receptor antagonist. Its efficacy in allergic rhinitis and idiopathic urticaria is established, and mechanistically it is applicable to allergic urticaria.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general pharmacology, cetirizine blocks histamine H1 receptors, which are present on nerve endings, smooth muscle and glandular cells in the nose. A review of H1-antagonist action (Baroody and Naclerio) notes that this blockade is the main mechanism of antihistamines in allergic disease, and that additional anti-allergic effects may also contribute.
 
-In allergic urticaria, histamine released from mast cells drives the wheal-and-flare response, so blocking the H1 receptor targets the pathway directly. Allergic urticaria is also closely related to idiopathic urticaria, which is already a labelled use. This prediction is therefore largely an extension within the same drug class and mechanism rather than a true repurposing.
+"Nasal cavity disease" is a very broad term. It largely overlaps with allergic and vasomotor rhinitis, where histamine-driven symptoms are plausible targets. The supporting evidence is indirect and non-specific, so this prediction offers no clearly distinct repurposing signal beyond uses already covered by existing products.
+
+Two other model predictions, rosacea conjunctivitis (0.9941) and recalcitrant atopic dermatitis (0.9919), have no trials or literature. Their mechanistic rationale is weak, since neither condition is mainly histamine-driven, and they are not the main focus of this report.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02023164](https://clinicaltrials.gov/study/NCT02023164) | Phase 3 | Completed | 36 | Randomized, double-blind pilot study of IV cetirizine 10 mg vs IV diphenhydramine 50 mg in acute urticaria. It tests the feasibility of a larger Phase 3 trial, not efficacy, and uses the IV route rather than standard oral use. |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Most of the literature consists of reviews and background articles on antihistamines, several of which concern other drugs in the class.
+None of the publications below studies cetirizine in nasal cavity disease as a whole, so they do not provide direct evidence.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7510611](https://pubmed.ncbi.nlm.nih.gov/7510611/) | 1993 | Review | Drugs | Cetirizine is effective and well tolerated in seasonal/perennial allergic rhinitis and chronic idiopathic urticaria in adults |
-| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Review | Drugs | Cetirizine is a potent peripheral H1 antagonist that lacks CNS depressant effects at 10 mg daily; clinical trials support use in rhinitis and chronic urticaria |
-| [7645679](https://pubmed.ncbi.nlm.nih.gov/7645679/) | 1995 | Review | Allergy | Overview of clinical studies of cetirizine in allergic rhinitis and chronic urticaria (no abstract available) |
-| [16278258](https://pubmed.ncbi.nlm.nih.gov/16278258/) | 2005 | Review | Ann Pharmacother | Efficacy and safety of first- and newer-generation oral antihistamines in allergic rhinitis and chronic idiopathic urticaria |
-| [7530629](https://pubmed.ncbi.nlm.nih.gov/7530629/) | 1994 | Review | Drugs | Non-sedating antihistamines are the mainstay of treatment for chronic idiopathic urticaria |
-| [1685361](https://pubmed.ncbi.nlm.nih.gov/1685361/) | 1991 | Review | Clin Pharmacokinet | Pharmacokinetic and pharmacodynamic summary of second-generation H1 antagonists for rhinoconjunctivitis and chronic urticaria |
-| [12113226](https://pubmed.ncbi.nlm.nih.gov/12113226/) | 2002 | Review | Clin Allergy Immunol | H1-antagonists in children; strong evidence in allergic rhinoconjunctivitis |
-| [11034010](https://pubmed.ncbi.nlm.nih.gov/11034010/) | 2000 | Case report | J Clin Gastroenterol | Case of cetirizine-induced cholestasis; transient transaminase elevations occurred in under 2% of patients in US trials |
-| [19348661](https://pubmed.ncbi.nlm.nih.gov/19348661/) | 2009 | Case report | J Dermatol | Case of urticaria exacerbated by H1-antihistamines |
-| [27650241](https://pubmed.ncbi.nlm.nih.gov/27650241/) | 2016 | Review | Am J Med Sci | Review of allergy medication use during pregnancy |
+| [11291777](https://pubmed.ncbi.nlm.nih.gov/11291777/) | 2000 | Review | Allergy | Describes H1-antagonist action as competitive blockade of histamine receptors, with possible additional anti-allergic effects |
+| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Review | Vestnik otorinolaringologii | Treatment of nose and paranasal sinus inflammation should follow the pathogenesis of the inflammatory reaction |
+| [35818943](https://pubmed.ncbi.nlm.nih.gov/35818943/) | 2022 | Review | Vestnik otorinolaringologii | Modern H1 antihistamines in allergic rhinitis with comorbid acute respiratory infections |
+| [36116201](https://pubmed.ncbi.nlm.nih.gov/36116201/) | 2022 | Preclinical (mouse) | Phytomedicine | Shufeng Jiedu capsule, an unrelated intervention, in a mouse model of allergic rhinitis |
+| [9301130](https://pubmed.ncbi.nlm.nih.gov/9301130/) | 1997 | Preclinical (animal) | Arerugi | Betotastine, a different drug, in experimental allergic rhinitis; cetirizine was used as a comparator and inhibited the response dose-dependently |
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not available for these authorizations. Five of the 20 valid single-ingredient DINs are listed.
+Cetirizine has valid single-ingredient licences in Canada; the list below may be partial. Dosage form and indication text are not recorded in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02223546 | REACTINE | – | – |
-| 02486954 | REACTINE ALLERGY | – | – |
-| 02231603 | APO-CETIRIZINE | – | – |
-| 02315963 | PMS-CETIRIZINE | – | – |
-| 02427141 | MAR-CETIRIZINE | – | – |
+| DIN | Product Name |
+|---------|------|
+| 02427141 | MAR-CETIRIZINE |
+| 02240266 | ALLERGY RELIEF |
+| 02496488 | NAT-CETIRIZINE |
+| 02315955 | EXTRA STRENGTH ALLERGY RELIEF |
+| 02517566 | CETIRIZINE EXTRA STRENGTH |
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from the knowledge graph, not label text)**: hypertension, kidney disease (including chronic kidney disease and end-stage renal failure), liver disease, gallbladder disease, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, coronary artery disease and atherosclerosis, angle-closure glaucoma, and hyperthyroidism (including Graves disease and thyrotoxicosis). These associations should be checked against the official labelling.
-- **Hepatic signal**: a published case report describes cetirizine-induced cholestasis, and transient transaminase elevations occurred in under 2% of patients in US trials.
-- **Drug Interactions**: 100 interactions were identified. The main moderate-level ones are with bupropion, dronabinol, loperamide, metoclopramide, morphine (including liposomal), nabilone, opium, sibutramine, difenoxin and diphenoxylate. Several other interactions (e.g. calcitriol, vitamin A, phentermine, pantoprazole, glimepiride, mesalazine, doxycycline, clotrimazole, acarbose) have an unknown severity level.
+- **Drug Interactions**: Moderate-level interactions are listed with bupropion, dronabinol, loperamide, metoclopramide, morphine (including liposomal), nabilone, opium, sibutramine, difenoxin and diphenoxylate. Several of these involve additive sedation or central nervous system effects. Further interactions of unknown severity are also listed (for example calcitriol, vitamin A, phentermine and pantoprazole).
 
-Package insert warnings and contraindications from Health Canada have not been obtained; please refer to the package insert for full safety information.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Cetirizine is already marketed in Canada and used for closely related conditions (idiopathic urticaria), and H1 blockade is a plausible mechanism for allergic urticaria. However, the only trial is a small IV feasibility pilot, so direct efficacy evidence is limited.
+No clinical trial or publication directly studies cetirizine in nasal cavity disease as a whole. The term overlaps heavily with uses already covered by existing products, so the evidence level is L5 and there is no distinct repurposing signal.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism of action data (MOA)
-- Efficacy data for oral cetirizine in allergic urticaria, such as a controlled trial
-- Review of the knowledge-graph contraindication signals (renal, hepatic, cardiovascular, glaucoma, prostate) against the label
-
-**Other predicted indications (for reference):**
-- Cold urticaria (score 99.95%, L3): case series and small comparative studies; no confirmed randomized trial of cetirizine alone. Research question only.
-- Nasal cavity disease (99.77%, L4): broad term overlapping existing rhinitis indications, with no distinct repurposing signal. Hold.
-- Acute laryngopharyngitis (99.72%, L5), rosacea conjunctivitis (99.41%, L5) and recalcitrant atopic dermatitis (99.19%, L5): model prediction only, with no supporting trials or literature. Hold.
+- Mechanism-of-action data
+- Package insert warnings and contraindications from Health Canada
+- A more specific target condition than "nasal cavity disease", with a directly relevant clinical study
+- A defined formulation and route of administration for the new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

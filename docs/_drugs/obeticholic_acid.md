@@ -46,10 +46,10 @@ Obeticholic acid is a farnesoid X receptor (FXR) agonist marketed in Canada as O
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the license records contain no indication text) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L4 (preclinical only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 (preclinical only) |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

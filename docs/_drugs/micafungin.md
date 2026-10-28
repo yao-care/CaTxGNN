@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **urinary tract infection** (ma
 |------|------|
 | Original Indication | Esophageal candidiasis, candidemia, disseminated candidiasis |
 | Predicted New Indication | Urinary tract infection |
-| TxGNN Prediction Score | 99.03% |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -123,7 +123,7 @@ Package insert warnings and contraindications were not available; please refer t
 **Decision: Hold**
 
 **Rationale:**
-The evidence consists mostly of small cohort studies, case series, and case reports, with no registered clinical trials. Echinocandins are not routinely recommended for candiduria because of low urinary concentrations, and the knowledge graph links micafungin to kidney disease and pyoureter. The prediction is biologically plausible but remains a research question rather than a ready-to-act indication.
+The evidence consists mostly of small cohort studies, case series, and case reports, with no registered clinical trials. Echinocandins are not routinely recommended for candiduria because of low urinary concentrations, and the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction is biologically plausible but remains a research question rather than a ready-to-act indication.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

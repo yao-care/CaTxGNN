@@ -6,9 +6,9 @@ nav_order: 445
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
-description: "Guanfacine: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Hypertension"
 monitor_inn: "GUANFACINE"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
+description: "Guanfacine: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Guanfacine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Guanfacine: From Hypertension and ADHD to Faciodigitogenital Syndrome
+## Guanfacine: Faciodigitogenital syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; attention deficit hyperactivity disorder (from the knowledge-graph indication records, because no approved-indication text was available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Faciodigitogenital syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, guanfacine is an alpha-2A adrenergic agonist. It strengthens prefrontal cortex signalling and is established in ADHD and hypertension.
 
-Faciodigitogenital syndrome is an X-linked developmental disorder caused by FGD1 mutations. No plausible pharmacological link to alpha-2A adrenergic agonism has been identified. The very high score most likely reflects network proximity to ADHD-related phenotypes in the knowledge graph, not a genuine mechanistic rationale. The prediction should therefore be treated as a model artefact until proven otherwise.
+Faciodigitogenital syndrome is an X-linked developmental disorder caused by FGD1 mutations. No plausible pharmacological link to alpha-2A adrenergic agonism has been identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should therefore be treated as a model artifact until proven otherwise.
 
 ---
 

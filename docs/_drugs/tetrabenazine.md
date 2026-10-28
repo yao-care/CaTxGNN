@@ -6,9 +6,9 @@ nav_order: 901
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Huntington disease"
 monitor_inn: "TETRABENAZINE"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
+description: "Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetrabenazine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tetrabenazine: From Huntington Disease to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+## Tetrabenazine: Polycystic kidney disease 3 with or without polycystic liver disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but this is a model prediction only: **0 clinical trials** and **0 publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Huntington disease (Health Canada indication text is not available; taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but this is a model prediction only: **0 clinical trials** and **0 publications*
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Tetrabenazine is generally known as a reversible VMAT2 inhibitor that depletes monoamines in the central nervous system. This is general pharmacology and not drawn from the compiled data. Its use has been established in hyperkinetic movement disorders, including Huntington disease and related syndromes.
 
-No mechanistic link to the predicted indication has been established. Polycystic kidney and liver disease is a disorder of cyst formation linked to ciliary dysfunction. Nothing in the available data connects monoamine depletion through VMAT2 inhibition to this pathology. The high TxGNN score (99.90%) reflects a computational prediction from the knowledge graph and has not been corroborated by any trial or publication.
+No mechanistic link to the predicted indication has been established. Polycystic kidney and liver disease is a disorder of cyst formation linked to ciliary dysfunction. Nothing in the available data connects monoamine depletion through VMAT2 inhibition to this pathology. The high TxGNN score (0.9990) reflects a prediction from the TxGNN model (deep learning) and has not been corroborated by any trial or publication.
 
 Other top-ranked predictions show the same pattern. They include renal-hepatic-pancreatic dysplasia, Joubert syndrome with renal defect, karyomegalic interstitial nephritis, and acute intermittent porphyria. All are L5 (model prediction only) with no plausible mechanistic link identified.
 
@@ -96,7 +96,7 @@ All three products are valid single-ingredient authorizations; none is cancelled
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: The knowledge graph links tetrabenazine with contraindications in the following conditions:
+- **Contraindications (TxGNN model output, not label text)**: The TxGNN model (deep learning) links tetrabenazine with contraindications in the following conditions. These links may reflect similarities the model learned between related diseases, not biological evidence:
   - Cardiovascular and rhythm: long QT syndrome (including familial), torsades de pointes, orthostatic hypotension, postural orthostatic tachycardia syndrome, hypotensive disorder, multiple system atrophy
   - Psychiatric: anxiety disorder, neurotic disorder, dysthymic disorder
   - Movement: Parkinson disease, parkinsonian disorder, tardive dyskinesia, lingual-facial-buccal dyskinesia, drug-induced akathisia

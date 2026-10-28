@@ -4,7 +4,7 @@ title: Ivosidenib
 parent: Model Prediction Only (L5)
 nav_order: 509
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Ivosidenib: predicted new indication Bulbar polio (evidence level L5). Approved use: Myeloid leukemia (including acute myeloid leukemia and related subtyp…"
 monitor_inn: "IVOSIDENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["bulbar polio"]
 # Ivosidenib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,21 +48,19 @@ The prediction rests on the model score alone and has no identified biological s
 |------|------|
 | Original Indication | Myeloid leukemia (including acute myeloid leukemia and related subtypes) |
 | Predicted New Indication | Bulbar polio |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, ivosidenib inhibits the mutant IDH1 enzyme and lowers 2-hydroxyglutarate in IDH1-mutated tumours. Its efficacy in IDH1-mutated AML is the basis for its original indication.
 
-Bulbar polio is a viral infection of motor neurons caused by poliovirus. It is not a tumour and has no known link to IDH1 mutation or 2-hydroxyglutarate metabolism. No plausible mechanistic link between ivosidenib and this disease could be identified. The very high TxGNN score (0.993) most likely reflects an artifact of the knowledge graph rather than real biology, and no trials or literature corroborate it.
+Bulbar polio is a viral infection of motor neurons caused by poliovirus. It is not a tumour and has no known link to IDH1 mutation or 2-hydroxyglutarate metabolism. No plausible mechanistic link between ivosidenib and this disease could be identified. The very high TxGNN score (0.9931) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and no trials or literature corroborate it.
 
 **Other predictions of note:** Two other high-scoring predictions are closely related to the approved indications:
-- AML and myelodysplastic syndromes related to alkylating agents (score 99.26%)
-- AML and myelodysplastic syndromes related to radiation (score 99.26%)
 
 Both are secondary myeloid neoplasms. They are essentially an extension of the existing AML label, since therapy-related AML is already among the original indications. A benefit is biologically plausible only if the disease carries an IDH1 mutation. No subtype-specific trials or literature are available, so the evidence is indirect. These two are better framed as research questions that need IDH1 mutation stratification than as true repurposing candidates.
 
@@ -106,7 +104,7 @@ For other safety information, such as warnings and contraindications, please ref
 **Decision: Hold**
 
 **Rationale:**
-The prediction for bulbar polio has no clinical trials, no literature, and no plausible mechanistic link. The high score appears to be a knowledge-graph artifact. Ivosidenib's mechanism targets IDH1-mutated tumours, not a viral infection of motor neurons.
+The prediction for bulbar polio has no clinical trials, no literature, and no plausible mechanistic link. The high score appears to be a TxGNN model (deep learning) artifact. Ivosidenib's mechanism targets IDH1-mutated tumours, not a viral infection of motor neurons.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) from DrugBank

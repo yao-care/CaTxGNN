@@ -4,17 +4,17 @@ title: Ephedrine
 parent: Moderate Evidence (L3-L4)
 nav_order: 335
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, bronchitis, pharyngitis…"
 monitor_inn: "Ephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ephedrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Ephedrine: From Allergic Rhinitis to Nasal Cavity Disease
+## Ephedrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, bronchitis, pharyngitis, common cold and others (from the knowledge graph; no indication text in the Canadian licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,8 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 "Nasal cavity disease" is a broad term that overlaps heavily with ephedrine's existing indications (rhinitis, vasomotor rhinitis, nasopharyngitis). The high TxGNN score (0.999) is consistent with this overlap. Because the term is largely redundant with established uses, it should be viewed as a research question rather than a genuinely new indication.
 
 Two other predictions were also generated, both with weaker support:
-- **Acute laryngopharyngitis** (score 99.90%, Evidence Level L5): the decongestant effect could in theory reduce upper airway swelling, but no trials or literature were found. The condition is mostly self-limited, and the benefit of a systemic sympathomimetic is unestablished.
-- **Trigeminal autonomic cephalalgia** (score 99.34%, Evidence Level L5): the link is indirect and no mechanistic or clinical evidence was found. Ephedrine's cardiovascular stimulation (hypertension, tachycardia) is also a safety concern in this population.
+- **Trigeminal autonomic cephalalgia** (score 0.9934, Evidence Level L5): the link is indirect and no mechanistic or clinical evidence was found. Ephedrine's cardiovascular stimulation (hypertension, tachycardia) is also a safety concern in this population.
 
 ---
 

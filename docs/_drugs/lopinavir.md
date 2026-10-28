@@ -48,19 +48,19 @@ but the support so far consists only of **3 preclinical publications** in macaqu
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lopinavir is an HIV-1 protease inhibitor, and its efficacy in HIV infection is established. SIV is a closely related lentivirus with a structurally similar protease, so antiviral activity is biologically plausible.
 
-The literature found is preclinical, from macaque studies. These include quadruple antiretroviral therapy with rapid viral decay, a chimeric virus (SHIV) carrying an HIV-1 protease gene for testing protease inhibitors, and oral HAART that included lopinavir/ritonavir. This is essentially an extension of the original antiviral indication to an animal model, not a new human therapeutic indication. The high score (99.90%) mainly reflects similarity to the approved HIV indication rather than independent evidence.
+The literature found is preclinical, from macaque studies. These include quadruple antiretroviral therapy with rapid viral decay, a chimeric virus (SHIV) carrying an HIV-1 protease gene for testing protease inhibitors, and oral HAART that included lopinavir/ritonavir. This is essentially an extension of the original antiviral indication to an animal model, not a new human therapeutic indication. The high score (0.9990) mainly reflects similarity to the approved HIV indication rather than independent evidence.
 
-Two other predictions were also reviewed. Feline acquired immunodeficiency syndrome (score 99.90%) is a veterinary indication with no trials and no literature. A rare neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 99.90%) has no evident mechanistic link and is likely a graph-based artifact.
+Two other predictions were also reviewed. Feline acquired immunodeficiency syndrome (score 0.9990) is a veterinary indication with no trials and no literature. A rare neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (score 0.9990) has no evident mechanistic link; its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 ## One-Sentence Summary
 
 Exemestane is a steroidal aromatase inhibitor that lowers estrogen levels. It is marketed in Canada under three licences, but the data compiled for this report do not list an approved indication text.
-The TxGNN model predicts it may be effective for **antithrombin deficiency type 2**, but **no clinical trials and no publications** currently support this prediction. It is a graph-based prediction only.
+The TxGNN model (deep learning) predicts it may be effective for **antithrombin deficiency type 2**, but **no clinical trials and no publications** currently support this prediction. It is a model prediction only.
 
 ## Quick Overview
 
@@ -47,28 +47,28 @@ The TxGNN model predicts it may be effective for **antithrombin deficiency type 
 |------|------|
 | Original Indication | Not listed in the Canadian licence data |
 | Predicted New Indication | Antithrombin deficiency type 2 |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, exemestane is a steroidal aromatase inhibitor that blocks the conversion of androgens to estrogens and lowers circulating estrogen. It is used in hormone-receptor-positive breast cancer in postmenopausal women.
 
-Antithrombin deficiency type 2 is an inherited defect of the *SERPINC1* gene that impairs the function of antithrombin. No plausible mechanistic path from aromatase inhibition to correcting this defect is evident. Lowering estrogen might marginally reduce estrogen-driven thrombotic risk, but this is speculative. The high score most likely reflects associations in the knowledge graph rather than a real therapeutic effect.
+Antithrombin deficiency type 2 is an inherited defect of the *SERPINC1* gene that impairs the function of antithrombin. No plausible mechanistic path from aromatase inhibition to correcting this defect is evident. Lowering estrogen might marginally reduce estrogen-driven thrombotic risk, but this is speculative. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions follow a similar pattern:
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Amenorrhea | 99.82% | L4 | Literature covers amenorrhea as a treatment-related state in breast cancer patients, not as a condition exemestane treats |
-| Factor 5 excess with spontaneous thrombosis | 99.82% | L5 | No evident mechanism |
-| Heparin cofactor 2 deficiency | 99.82% | L5 | No known mechanism; likely shared thrombophilia-related graph neighbours |
-| Thrombophilia | 99.67% | L5 | Aromatase inhibitors carry a lower venous thromboembolism risk than tamoxifen, but this is a safety comparison, not therapeutic evidence |
-| Migraine disorder | 99.02% | L5 | Estrogen fluctuation is a migraine trigger, but aromatase inhibitors can cause headaches |
-| Migraine with brainstem aura | 99.01% | L5 | Largely genetic or channelopathy basis; no supported link |
+| Amenorrhea | 0.9982 | L4 | Literature covers amenorrhea as a treatment-related state in breast cancer patients, not as a condition exemestane treats |
+| Factor 5 excess with spontaneous thrombosis | 0.9982 | L5 | No evident mechanism |
+| Heparin cofactor 2 deficiency | 0.9982 | L5 | No known mechanism; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related thrombophilia diseases, not biological evidence |
+| Thrombophilia | 0.9967 | L5 | Aromatase inhibitors carry a lower venous thromboembolism risk than tamoxifen, but this is a safety comparison, not therapeutic evidence |
+| Migraine disorder | 0.9902 | L5 | Estrogen fluctuation is a migraine trigger, but aromatase inhibitors can cause headaches |
+| Migraine with brainstem aura | 0.9901 | L5 | Largely genetic or channelopathy basis; no supported link |
 
 ## Clinical Trial Evidence
 
@@ -118,7 +118,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no clinical trials or publications for antithrombin deficiency type 2, and no plausible mechanism connects aromatase inhibition to the *SERPINC1* defect. The evidence level is L5. None of the other six predicted indications has better support.
+The prediction rests only on a TxGNN model (deep learning) score of 0.9983. There are no clinical trials or publications for antithrombin deficiency type 2, and no plausible mechanism connects aromatase inhibition to the *SERPINC1* defect. The evidence level is L5. None of the other six predicted indications has better support.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada

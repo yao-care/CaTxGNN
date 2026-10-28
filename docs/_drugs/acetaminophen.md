@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Acetaminophen
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 17
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-13
-description: "Acetaminophen: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine disorder, headache disorder, common cold, nasopharyngitis…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Acetaminophen: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Acetaminophen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,79 +32,66 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Acetaminophen: From Migraine and Headache Disorders to Migraine with Brainstem Aura
+<!-- known-uses-page -->
+<!-- description: Acetaminophen: known uses and market status in Canada; currently no new candidate indication -->
+## Acetaminophen: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications for Acetaminophen. Every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug.
 
-Acetaminophen is a widely used analgesic and antipyretic, originally used for migraine, headache disorders, the common cold and allergic or vasomotor rhinitis.
-The TxGNN model predicts it may be useful for **migraine with brainstem aura**, a subtype of migraine with aura.
-Currently there are **0 registered clinical trials** and **20 publications** (mostly general migraine reviews), so the evidence is at the model-prediction level.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder, headache disorder, common cold, nasopharyngitis, allergic rhinitis, vasomotor rhinitis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 (no registered trials; only general migraine literature and a plausible mechanism) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 20 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses on record: at least 20) |
+| Number of DINs | at least 20 |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data is not currently available for this drug. Based on general pharmacology, acetaminophen acts as an analgesic and antipyretic. It is thought to involve central COX inhibition and modulation of descending serotonergic pain pathways. This may be relevant to the headache phase of a migraine attack.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Migraine with brainstem aura is a clinical subtype of migraine, and acetaminophen is already used for migraine and headache disorders. The high TxGNN score likely reflects this close disease proximity rather than a subtype-specific finding.
-
-Nothing in the data compiled for this report addresses brainstem aura directly. It is unknown whether acetaminophen affects aura physiology (such as cortical spreading depression), or whether the aura subtype changes treatment response. The prediction should therefore be treated as a research question, not as a confirmed new indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-The publications retrieved concern migraine in general. None studies migraine with brainstem aura specifically. The most relevant items are listed below.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies in adults |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handbook of Clinical Neurology | Status migrainosus: a persistent migraine attack lasting more than 72 hours, with its burden and case series |
-| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | Randomized trials (pooled retrospective analysis) | Clinical Therapeutics | Acetaminophen, aspirin and caffeine combination for menstruation-associated migraine, from three placebo-controlled studies |
-| [11318886](https://pubmed.ncbi.nlm.nih.gov/11318886/) | 2001 | Comparative study | Headache | Isometheptene, dichloralphenazone and acetaminophen combination compared with sumatriptan in mild-to-moderate migraine |
-| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Review | Neurologic Clinics | Headache in pregnancy and the puerperium; acetaminophen noted as first-line symptomatic treatment |
-| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Review | Cureus | Abortive and prophylactic migraine therapies in pregnancy |
-| [37123778](https://pubmed.ncbi.nlm.nih.gov/37123778/) | 2023 | Review | Cureus | Migraine treatment approach in pregnancy and breastfeeding |
-| [16018227](https://pubmed.ncbi.nlm.nih.gov/16018227/) | 2005 | Review | Pediatric Annals | Management of pediatric migraine |
-| [23203776](https://pubmed.ncbi.nlm.nih.gov/23203776/) | 2013 | Review | Current Treatment Options in Neurology | Diagnosis and treatment of familial and sporadic hemiplegic migraine, a rare subtype of migraine with aura |
-| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Review | Neurology International | Ubrogepant for acute migraine; notes acetaminophen among options for mild to moderate migraine |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Canada Market Information
 
-Acetaminophen has 20 valid single-ingredient licences in Canada. Dosage form and approved indication text are not available for these products. The five listed below are examples.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02230435 | ACET 160 |  | Valid |
+| 00482323 | NOVO-GESIC FORTE |  | Valid |
+| 02022214 | ACÉTAMINOPHÈNE COMPRIMÉ TABLET 325 |  | Valid |
+| 02255251 | ACETAMINOPHEN 500 MG TABLETS EXTRA STRENGTH EASY TO SWALLOW |  | Valid |
+| 02027801 | PEDIATRIX DROPS |  | Valid |
+| 02447819 | JUNIOR STRENGTH CHILDREN'S ACETAMINOPHEN TABLETS |  | Valid |
+| 02238885 | TYLENOL ARTHRITIS PAIN 8H |  | Valid |
+| 01996169 | ACETAMINOPHEN CHEWABLE TABLETS 160 MG |  | Valid |
+| 02017431 | ACETAMINOPHEN CHEWABLE TABLETS 160 MG FOR CHILDREN |  | Valid |
+| 02285797 | EXTRA STRENGTH ACETAMINOPHEN |  | Valid |
+| 02272482 | ACETAMINOPHEN ARTHRITIS PAIN |  | Valid |
+| 02389908 | INFANTS' TYLENOL FEVER & SORE THROAT PAIN |  | Valid |
+| 02389924 | CHILDREN'S TYLENOL FEVER & SORE THROAT PAIN |  | Valid |
+| 01977415 | ACETAMINOPHEN CAPLETS 325 MG |  | Valid |
+| 02230437 | ACET 650 |  | Valid |
+| 02362341 | ACETAMINOPHEN CAPLETS 325 MG |  | Valid |
+| 02548356 | EXTRA STRENGTH EASY TABS 500 MG |  | Valid |
+| 02371146 | ARTHRITIS PAIN RELIEF |  | Valid |
+| 02519631 | ARTHRITIS PAIN RELIEF |  | Valid |
+| 00544981 | APO-ACETAMINOPHEN |  | Valid |
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02230435 | ACET 160 | Not available | Not available |
-| 02255251 | ACETAMINOPHEN 500 MG TABLETS EXTRA STRENGTH EASY TO SWALLOW | Not available | Not available |
-| 02238885 | TYLENOL ARTHRITIS PAIN 8H | Not available | Not available |
-| 02389908 | INFANTS' TYLENOL FEVER & SORE THROAT PAIN | Not available | Not available |
-| 00544981 | APO-ACETAMINOPHEN | Not available | Not available |
-
----
+Only part of the licence list is held in the data; the list may be incomplete.
 
 ## Safety Considerations
 
@@ -117,18 +105,6 @@ Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The high TxGNN score mainly reflects the close relationship between migraine with brainstem aura and migraine, for which acetaminophen is already used. There are no registered trials and no literature specific to brainstem aura, and the mechanism data are incomplete. Acetaminophen is a well-established, widely marketed drug, so this is a research question, not a safety concern.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from Health Canada, which are required before safety screening can proceed
-- Detailed mechanism of action data, including any effect on aura-related mechanisms such as cortical spreading depression
-- Evidence specific to brainstem aura, such as subtype analyses of existing migraine trials or a new pilot study
-- A hepatic safety plan, given the liver-related cautions in the knowledge graph
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

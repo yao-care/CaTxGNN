@@ -6,7 +6,7 @@ nav_order: 178
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Cetrorelix: predicted new indication Hypertrichosis (evidence level L5). Approved use: Prevention of premature LH surges in women undergoing controlled ovar…"
+description: "Cetrorelix: predicted new indication hypertrichosis (evidence level L5). Approved use: Prevention of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "CETRORELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
 ---
@@ -48,17 +48,17 @@ This prediction is based on model output only.
 |------|------|
 | Original Indication | Prevention of premature LH surges in women undergoing controlled ovarian stimulation (the Health Canada licence text is not available; this is based on pharmacology reference data) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, cetrorelix blocks the GnRH1 receptor (encoded by *GNRHR*). This suppresses LH and FSH release and lowers downstream sex-steroid (androgen and estrogen) production.
 
-In theory, lowering androgens could reduce androgen-driven hair growth (hirsutism). However, hypertrichosis is generally not androgen-dependent. It is often genetic or drug-induced, so the mechanistic link is speculative. The very high TxGNN score (99.98%) reflects proximity in the knowledge graph, not clinical support.
+In theory, lowering androgens could reduce androgen-driven hair growth (hirsutism). However, hypertrichosis is generally not androgen-dependent. It is often genetic or drug-induced, so the mechanistic link is speculative. The very high TxGNN score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions are also poorly supported mechanistically:
 - **Ambras-type hypertrichosis, isolated hair shaft abnormalities, familial trichomegaly:** these are developmental or genetic hair disorders that GnRH antagonism does not address.

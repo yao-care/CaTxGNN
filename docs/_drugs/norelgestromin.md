@@ -48,10 +48,10 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Not stated in the Health Canada licence data compiled for this report (the product is a transdermal contraceptive patch) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Progestins are mechanistically plausible for some forms of amenorrhea, for example inducing withdrawal bleeding in estrogen-primed patients or protecting the endometrium. This link is inferred from the drug class and the model score, and it has not been verified for this specific drug.
 
-One caution applies: hormonal contraceptives often *cause* amenorrhea or altered bleeding as a side effect. This may inflate the knowledge-graph association without reflecting a true therapeutic use.
+One caution applies: hormonal contraceptives often *cause* amenorrhea or altered bleeding as a side effect. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

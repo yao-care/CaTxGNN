@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Polatuzumab Vedotin: From B-Cell Malignancy (Original Indication Not Listed) to HER2-Positive Breast Carcinoma
+## Polatuzumab Vedotin: From B-Cell Malignancy (Original Indication Not Listed) to HER2 positive breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **HER2-positive breast carcinom
 |------|------|
 | Original Indication | Not available in the Health Canada license data compiled for this report |
 | Predicted New Indication | HER2 positive breast carcinoma |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, polatuzumab vedotin is an antibody-drug conjugate that targets CD79b and delivers the microtubule-disrupting payload monomethyl auristatin E (MMAE). CD79b is a B-cell receptor component found on mature B cells and B-cell malignancies.
 
-The link to HER2-positive breast carcinoma is weak. CD79b is not a recognized target in this cancer, and no connection to HER2 signaling or to CD79b expression in breast tumors is established. The high score (0.993) is a knowledge-graph prediction. It may reflect the shared MMAE payload class, which other antibody-drug conjugates use, or general network proximity to microtubule-targeting agents used in breast cancer. A high score does not by itself indicate a mechanistic basis.
+The link to HER2-positive breast carcinoma is weak. CD79b is not a recognized target in this cancer, and no connection to HER2 signaling or to CD79b expression in breast tumors is established. The high score (0.9934) is a TxGNN model (deep learning) prediction. It may reflect the shared MMAE payload class, which other antibody-drug conjugates use, or general network proximity to microtubule-targeting agents used in breast cancer. A high score does not by itself indicate a mechanistic basis.
 
 HER2-positive breast cancer also already has effective approved HER2-directed therapies, including trastuzumab, pertuzumab and trastuzumab deruxtecan. Any new agent would have to show a clear advantage over these options.
 

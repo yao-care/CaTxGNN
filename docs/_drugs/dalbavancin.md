@@ -48,31 +48,31 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Skin disease caused by infection |
 | Predicted New Indication | Postinfectious vasculitis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dalbavancin is a lipoglycopeptide antibiotic that inhibits bacterial cell wall synthesis and is active against Gram-positive organisms. Its efficacy in infection-related skin disease is the basis of its original use.
 
-Postinfectious vasculitis is largely immune-mediated rather than an active bacterial infection. Antibacterial activity therefore has no clear direct link to this condition, unless a persistent Gram-positive infection is the trigger. The high TxGNN score most likely reflects proximity to infection-related conditions in the knowledge graph rather than a defined mechanism.
+Postinfectious vasculitis is largely immune-mediated rather than an active bacterial infection. Antibacterial activity therefore has no clear direct link to this condition, unless a persistent Gram-positive infection is the trigger. The high TxGNN score most likely comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions reviewed:** The nine other predicted indications were also examined, and all are supported by model scores only (no trials or literature):
 
 | Predicted Indication | Score | Assessment |
 |------|------|------|
-| Post-bacterial disorder | 99.76% | Non-specific category; antibacterial action would not address sequelae after the pathogen has cleared |
-| Post-infectious syndrome | 99.76% | Generic category with no defined mechanism |
-| Infective urethral stricture | 99.74% | Fibrotic and anatomical; an antibiotic would not reverse the stricture |
-| Chagas cardiomyopathy | 99.72% | Parasitic cause; no plausible mechanism, likely a graph artifact |
-| Infection-related hemolytic uremic syndrome | 99.72% | Mostly Gram-negative STEC; antibiotics generally not recommended |
-| Otitis externa | 99.70% | Often Pseudomonas, which is not covered; topical therapy is standard |
-| Ophthalmic herpes zoster | 99.25% | Viral cause; no antiviral activity |
-| Infectious mononucleosis | 99.16% | Viral (EBV); antibacterial therapy not indicated |
-| Orbital cellulitis | 99.02% | Most plausible: typically S. aureus (including MRSA) and streptococci, which dalbavancin covers, and close to its approved skin and soft-tissue infection use. Orbital tissue penetration and polymicrobial etiology remain uncertain. Flagged as a research question |
+| Post-bacterial disorder | 0.9976 | Non-specific category; antibacterial action would not address sequelae after the pathogen has cleared |
+| Post-infectious syndrome | 0.9976 | Generic category with no defined mechanism |
+| Infective urethral stricture | 0.9974 | Fibrotic and anatomical; an antibiotic would not reverse the stricture |
+| Chagas cardiomyopathy | 0.9972 | Parasitic cause; no plausible mechanism. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| Infection-related hemolytic uremic syndrome | 0.9972 | Mostly Gram-negative STEC; antibiotics generally not recommended |
+| Otitis externa | 0.9970 | Often Pseudomonas, which is not covered; topical therapy is standard |
+| Ophthalmic herpes zoster | 0.9925 | Viral cause; no antiviral activity |
+| Infectious mononucleosis | 0.9916 | Viral (EBV); antibacterial therapy not indicated |
+| Orbital cellulitis | 0.9902 | Most plausible: typically S. aureus (including MRSA) and streptococci, which dalbavancin covers, and close to its approved skin and soft-tissue infection use. Orbital tissue penetration and polymicrobial etiology remain uncertain. Flagged as a research question |
 
 ## Clinical Trial Evidence
 

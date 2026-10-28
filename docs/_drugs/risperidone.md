@@ -4,17 +4,17 @@ title: Risperidone
 parent: Model Prediction Only (L5)
 nav_order: 815
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Risperidone: From Schizophrenia and Bipolar Disorder to Familial Horizontal Gaze Palsy with Progressive Scoliosis
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia; bipolar disorder (including mania); autism spectrum disorder (from the knowledge graph, because the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,7 +62,7 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, risperidone is an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors. Its efficacy in schizophrenia and bipolar mania is well established.
 
-**The predicted link is weak.** Familial horizontal gaze palsy with progressive scoliosis is a rare genetic disorder of axon guidance, linked to the ROBO3 gene. It does not involve dopaminergic or serotonergic pathology that D2/5-HT2A antagonism would plausibly address. The very high score (99.76%) therefore looks like an artifact of the knowledge-graph structure rather than a pharmacologically grounded signal.
+**The predicted link is weak.** Familial horizontal gaze palsy with progressive scoliosis is a rare genetic disorder of axon guidance, linked to the ROBO3 gene. It does not involve dopaminergic or serotonergic pathology that D2/5-HT2A antagonism would plausibly address. The very high score (0.9976) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -117,7 +117,7 @@ The prediction has no supporting trials or publications and no plausible mechani
 - Any preclinical or clinical data in this condition
 - Complete mechanism of action data and the Health Canada package insert warnings and contraindications
 
-**Note on other predictions for this drug:** the compiled data contain a better-supported candidate, **major affective disorder** (TxGNN score 99.11%). It has two completed Phase 3 trials of adjunctive risperidone in treatment-resistant depression (NCT00095134, n=630; NCT00044681, n=258) and several meta-analyses. It is rated L1 with a "Proceed with Guardrails" recommendation. That candidate partly overlaps with the existing bipolar indication, and it would need monitoring of metabolic effects, prolactin, extrapyramidal symptoms and somnolence. It is worth a separate evaluation.
+**Note on other predictions for this drug:** the compiled data contain a better-supported candidate, **major affective disorder** (TxGNN score 0.9911). It has two completed Phase 3 trials of adjunctive risperidone in treatment-resistant depression (NCT00095134, n=630; NCT00044681, n=258) and several meta-analyses. It is rated L1 with a "Proceed with Guardrails" recommendation. That candidate partly overlaps with the existing bipolar indication, and it would need monitoring of metabolic effects, prolactin, extrapyramidal symptoms and somnolence. It is worth a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

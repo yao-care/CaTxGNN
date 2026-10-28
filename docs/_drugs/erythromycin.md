@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Erythromycin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 348
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections, including conjunctivitis, acne…"
+last_modified_at: 2026-10-28
 monitor_inn: "ERYTHROMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Erythromycin: From Bacterial Infections (Including Conjunctivitis) to Punctate Epithelial Keratoconjunctivitis
+## Erythromycin: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, including conjunctivitis, acne, otitis media and pneumonia (the Canadian licence records provide no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,7 @@ Conjunctivitis is already among erythromycin's original indications, and it is a
 
 The very high TxGNN score probably reflects how close this disease is to the approved conjunctivitis indication, not independent evidence of benefit. No trials address punctate epithelial keratoconjunctivitis itself.
 
-Other predicted indications in the data compiled for this report are acute contagious conjunctivitis (99.55%, model prediction only and close to an existing indication), exposure keratitis (99.50%), lymphogranuloma venereum (99.05%) and necrotizing ulcerative gingivitis (99.00%). Lymphogranuloma venereum has the strongest mechanistic rationale. Erythromycin is active against chlamydiae and is an established alternative to doxycycline, which remains first-line.
+Other predicted indications in the data compiled for this report are acute contagious conjunctivitis (0.9955, model prediction only and close to an existing indication), exposure keratitis (0.9950), lymphogranuloma venereum (0.9905) and necrotizing ulcerative gingivitis (0.9900). Lymphogranuloma venereum has the strongest mechanistic rationale. Erythromycin is active against chlamydiae and is an established alternative to doxycycline, which remains first-line.
 
 ---
 

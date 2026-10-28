@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dantrolene
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 247
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-13
-description: "Dantrolene: predicted new indication Malignant hyperthermia, susceptibility to (evidence level L3). Approved use: Malignant hyperthermia of anaesthesia"
+evidence_level: L5
+indication_count: 7
 monitor_inn: "Dantrolene"
-predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
+predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
+last_modified_at: 2026-10-27
+description: "Dantrolene: predicted new indication moderate multiminicore disease with hand involvement (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dantrolene
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,71 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-## Dantrolene: From Malignant Hyperthermia to Malignant Hyperthermia Susceptibility
+## Dantrolene: Ryanodine receptor–targeting skeletal muscle relaxant → moderate multiminicore disease with hand involvement
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dantrolene is a skeletal muscle relaxant originally used to treat malignant hyperthermia during anaesthesia and exercise-induced malignant hyperthermia.
-The TxGNN model predicts it may be effective for **malignant hyperthermia, susceptibility to**, which is essentially the same condition, so this is an on-label use rather than true repurposing.
-Currently there are **no registered clinical trials** and **19 publications** (mostly reviews and guidelines) supporting this direction.
-
----
+Dantrolene is a skeletal muscle relaxant. The approved indication is not recorded in the local licence data.
+The TxGNN model predicts it may be useful for **moderate multiminicore disease with hand involvement**, but **no clinical trials and no publications** currently support this direction. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Malignant hyperthermia of anaesthesia; exercise-induced malignant hyperthermia |
-| Predicted New Indication | Malignant hyperthermia, susceptibility to |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | moderate multiminicore disease with hand involvement |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, dantrolene is a skeletal muscle relaxant that acts on the ryanodine receptor (RYR1) calcium release channel of the sarcoplasmic reticulum. One 2017 study (PMID 28373535) indicates that dantrolene needs magnesium ions to arrest a malignant hyperthermia episode.
+Detailed mechanism-of-action data for dantrolene is not available in the data compiled for this report. Dantrolene is generally understood to act on calcium release in skeletal muscle through the ryanodine receptor.
 
-Malignant hyperthermia is a pharmacogenetic skeletal muscle disorder. In susceptible people, volatile anaesthetics or succinylcholine trigger uncontrolled calcium release and a hypermetabolic crisis. Susceptibility is mainly caused by RYR1 mutations. Dantrolene directly counteracts this calcium dysregulation, so the original indication and the predicted indication are closely linked.
-
-The other predicted conditions follow the same logic. Several are RYR1-related myopathies (King-Denborough syndrome, central core disease, multiminicore disease, centronuclear myopathy), where dantrolene's relevance lies mainly in managing malignant hyperthermia risk. There is no evidence that it treats the underlying myopathy. The periodic paralysis predictions (hypokalaemic and thyrotoxic) are speculative and have no supporting studies.
-
----
+Multiminicore disease is commonly linked to variants in SELENON or RYR1. A RYR1-related subtype could plausibly share the calcium-handling mechanism that dantrolene targets. This is the only rationale for the prediction. The score is high, but no trial or publication tests the idea, so any benefit remains speculative. The mechanism would also be relevant only to RYR1-related cases, not to SELENON-related disease.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-The table lists the most relevant publications for the top prediction. Guidelines are listed first, followed by reviews and mechanism studies.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33399225](https://pubmed.ncbi.nlm.nih.gov/33399225/) | 2021 | Guideline | Anaesthesia | Association of Anaesthetists guideline (2020) on malignant hyperthermia; genetically susceptible people are at risk on exposure to potent inhalational anaesthetics or suxamethonium |
-| [33131754](https://pubmed.ncbi.nlm.nih.gov/33131754/) | 2021 | Consensus guideline | Br J Anaesth | European Malignant Hyperthermia Group guidance on perioperative management of suspected or susceptible patients; notes no interventional trial evidence exists |
-| [26238698](https://pubmed.ncbi.nlm.nih.gov/26238698/) | 2015 | Review | Orphanet J Rare Dis | Describes malignant hyperthermia as a pharmacogenetic skeletal muscle disorder; incidence 1:10,000 to 1:250,000 anaesthetics |
-| [39171998](https://pubmed.ncbi.nlm.nih.gov/39171998/) | 2024 | Review | Crit Care Med | Narrative expert review of epidemiology and management in critically ill patients |
-| [32008650](https://pubmed.ncbi.nlm.nih.gov/32008650/) | 2020 | Review | Anesthesiol Clin | Update on a rare, potentially lethal calcium release channel disorder; mortality has improved |
-| [23198031](https://pubmed.ncbi.nlm.nih.gov/23198031/) | 2012 | Review | Korean J Anesthesiol | Autosomal dominant inheritance with variable expression and incomplete penetrance |
-| [28373535](https://pubmed.ncbi.nlm.nih.gov/28373535/) | 2017 | Mechanism study | PNAS | Dantrolene requires Mg2+ to arrest malignant hyperthermia |
-| [9538480](https://pubmed.ncbi.nlm.nih.gov/9538480/) | 1998 | Review | Postgrad Med J | Dantrolene sodium is described as the definitive treatment |
-| [17456235](https://pubmed.ncbi.nlm.nih.gov/17456235/) | 2007 | Review | Orphanet J Rare Dis | Earlier overview of the pharmacogenetic disorder and its triggers |
-| [25989378](https://pubmed.ncbi.nlm.nih.gov/25989378/) | 2015 | Review | Acta Anaesthesiol Scand | Scandinavian update; RYR1 mutations account for most cases |
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
+Dantrolene is marketed in Canada, with 3 valid single-ingredient licences and none cancelled. The approved indication text is not recorded in the local data.
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 01997572 | DANTRIUM INTRAVENOUS | Not listed | Not listed |
-| 02529998 | DANTROLENE SODIUM FOR INJECTION, USP | Not listed | Not listed |
-| 01997602 | DANTRIUM CAPSULES | Not listed | Not listed |
-
----
+| 01997572 | DANTRIUM INTRAVENOUS | Not recorded | Not recorded |
+| 02529998 | DANTROLENE SODIUM FOR INJECTION, USP | Not recorded | Not recorded |
+| 01997602 | DANTRIUM CAPSULES | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Disease-level cautions (from the TxGNN knowledge graph, not label text)**: liver disease, gallbladder disease, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, and lung disease are flagged as contraindication-related conditions. These should be verified against the Canadian product monograph.
-- **Drug Interactions**: 72 interactions were identified. Main ones:
-  - **Major**: morphine, liposomal morphine
-  - **Moderate**: dronabinol, metoclopramide, nabilone, naltrexone, opium, sibutramine, ethanol, promethazine
-  - Several other interactions (for example pantoprazole, metformin, omeprazole, simvastatin, clopidogrel) are of unknown severity.
+- **Drug Interactions**: 72 interactions were found in the interaction database. The main ones are:
+  - **Major**: morphine and liposomal morphine.
+  - **Moderate**: dronabinol, metoclopramide, nabilone, naltrexone, opium, sibutramine, ethanol and promethazine.
 
-Official warnings and contraindications are not available in the data compiled for this report. Please refer to the package insert for complete safety information.
-
----
+Label warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for them.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Dantrolene is the established, marketed treatment for malignant hyperthermia, supported by guidelines and reviews and decades of clinical use. The evidence level is capped at L3 because no Phase 3 RCT is registered (ethical limits make such trials impractical). The other predicted conditions (multiminicore disease, periodic paralyses) have no or only indirect evidence and should be held. King-Denborough syndrome, central core disease and centronuclear myopathy are research questions at most, since benefit is limited to managing malignant hyperthermia risk.
+The prediction score is high, but there are no clinical trials and no publications for this disease. The evidence level is therefore L5, and the mechanistic link is a plausible inference only.
 
 **To proceed, the following is needed:**
-- Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)
-- Approved indication text and dosage form details for the three Canadian authorisations
-- Detailed mechanism of action data (for example from DrugBank)
-- Review of the major morphine interaction and the knowledge-graph contraindications (liver disease, muscle and lung disease) in the intended patient populations
+- Genetic subtyping, to identify whether any patients have RYR1-related disease.
+- Preclinical or case-level evidence that dantrolene affects the myopathy itself.
+- Detailed mechanism-of-action data.
+- Label warnings and contraindications from the Health Canada package insert.
+- A safety plan for the interactions listed above, particularly with opioids.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -50,10 +50,10 @@ Evidence is limited and early, so this is best treated as a research question ra
 |------|------|
 | Original Indication | Not available (the Canadian licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 19 |
+| Canada Market Status | Marketed (valid licenses: 19 of 19) |
+| Number of DINs | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---

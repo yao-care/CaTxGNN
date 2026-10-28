@@ -47,31 +47,31 @@ The TxGNN model's top-ranked prediction is **familial adrenal hypoplasia with ab
 |------|------|
 | Original Indication | Eye pain and inflammation after ophthalmic surgery; anterior uveitis (from pharmacology data; the Canadian licence record has no indication text) |
 | Predicted New Indication | Familial adrenal hypoplasia with absent pituitary luteinizing hormone |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Difluprednate is a corticosteroid prodrug. Its active metabolite, difluoroprednisolone butyrate, binds the glucocorticoid receptor (NR3C1) with high affinity (reported Ki 0.78 nM). Detailed mechanism-of-action text is not available in the data compiled for this report, but the receptor target is clear from its structure and pharmacology.
 
-The predicted disease is a congenital condition involving adrenal and gonadotropin deficiency. The only plausible link is glucocorticoid-pathway similarity. Difluprednate is a topical ophthalmic emulsion with limited systemic exposure, so it is not a suitable replacement therapy for adrenal hypoplasia. The high score likely reflects proximity in the knowledge graph rather than a practical therapeutic rationale.
+The predicted disease is a congenital condition involving adrenal and gonadotropin deficiency. The only plausible link is glucocorticoid-pathway similarity. Difluprednate is a topical ophthalmic emulsion with limited systemic exposure, so it is not a suitable replacement therapy for adrenal hypoplasia. The high score (0.9996) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions in the top 10 (all model-only, no trials or literature unless noted):**
 
 | Rank | Predicted Indication | Score | Assessment |
 |------|------|------|------|
-| 2 | Seborrheic keratosis | 99.96% | Weak rationale; benign proliferation, not typically steroid-responsive |
-| 3 | PAGOD syndrome | 99.93% | No plausible glucocorticoid mechanism; structural developmental syndrome |
-| 4 | Vulvar inverted follicular keratosis | 99.92% | Speculative benefit |
-| 5 | Adrenocortical insufficiency | 99.67% | Biologically coherent, but topical formulation and existing systemic steroids make it impractical |
-| 6 | Seborrheic dermatitis | 99.53% | Most biologically credible; topical steroids are an established class. Flagged as a research question |
-| 7 | 46,XY disorder of sex development | 99.47% | No direct rationale |
-| 8 | Necrobiosis lipoidica | 99.24% | Class-level rationale only; steroid benefit inconsistent |
-| 9 | Nephrotic syndrome | 99.21% | Requires systemic dosing; unsuited to a topical ophthalmic product |
-| 10 | Iris disease | 99.16% | One preclinical study; may overlap with the existing anterior uveitis indication. Research question |
+| 2 | Seborrheic keratosis | 0.9996 | Weak rationale; benign proliferation, not typically steroid-responsive |
+| 3 | PAGOD syndrome | 0.9993 | No plausible glucocorticoid mechanism; structural developmental syndrome |
+| 4 | Vulvar inverted follicular keratosis | 0.9992 | Speculative benefit |
+| 5 | Adrenocortical insufficiency | 0.9967 | Biologically coherent, but topical formulation and existing systemic steroids make it impractical |
+| 6 | Seborrheic dermatitis | 0.9953 | Most biologically credible; topical steroids are an established class. Flagged as a research question |
+| 7 | 46,XY disorder of sex development | 0.9947 | No direct rationale |
+| 8 | Necrobiosis lipoidica | 0.9924 | Class-level rationale only; steroid benefit inconsistent |
+| 9 | Nephrotic syndrome | 0.9921 | Requires systemic dosing; unsuited to a topical ophthalmic product |
+| 10 | Iris disease | 0.9916 | One preclinical study; may overlap with the existing anterior uveitis indication. Research question |
 
 ## Literature Evidence
 

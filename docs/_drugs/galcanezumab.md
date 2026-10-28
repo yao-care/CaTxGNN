@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 ## One-Sentence Summary
 
 Galcanezumab was originally used to prevent migraine.
-The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency**, but this prediction is supported by **no clinical trials and no publications**. It is a knowledge-graph prediction only.
+The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency**, but this prediction is supported by **no clinical trials and no publications**. It is a TxGNN model (deep learning) prediction only.
 
 ## Quick Overview
 
@@ -47,21 +47,21 @@ The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency
 |------|------|
 | Original Indication | Migraine disorder |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, galcanezumab is a humanized monoclonal antibody that neutralizes calcitonin gene-related peptide (CGRP), and its efficacy in migraine prevention is established.
 
-No credible mechanistic link to the predicted indication was identified. Heparin cofactor II deficiency is a thrombophilic disorder caused by reduced inhibition of thrombin (SERPIND1). CGRP signaling is not known to regulate heparin cofactor II activity or the coagulation cascade in a way that could correct this deficiency. The high score most likely reflects proximity among nodes in the knowledge graph rather than a biological rationale.
+No credible mechanistic link to the predicted indication was identified. Heparin cofactor II deficiency is a thrombophilic disorder caused by reduced inhibition of thrombin (SERPIND1). CGRP signaling is not known to regulate heparin cofactor II activity or the coagulation cascade in a way that could correct this deficiency. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Two other predictions show the same pattern:
-- **Antithrombin deficiency type 2** (score 99.41%): this is a functional defect in the SERPINC1 protein, and galcanezumab does not replace or enhance antithrombin function.
-- **Factor 5 excess with spontaneous thrombosis** (score 99.41%): galcanezumab has no known effect on factor V. CGRP also has vasodilatory roles, and CGRP-pathway inhibition has been associated with vascular safety considerations. Use in a population at high thrombotic risk would need careful safety evaluation.
+- **Antithrombin deficiency type 2** (score 0.9941): this is a functional defect in the SERPINC1 protein, and galcanezumab does not replace or enhance antithrombin function.
+- **Factor 5 excess with spontaneous thrombosis** (score 0.9941): galcanezumab has no known effect on factor V. CGRP also has vasodilatory roles, and CGRP-pathway inhibition has been associated with vascular safety considerations. Use in a population at high thrombotic risk would need careful safety evaluation.
 
 ## Clinical Trial Evidence
 

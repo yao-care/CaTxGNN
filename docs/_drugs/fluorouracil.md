@@ -6,9 +6,9 @@ nav_order: 398
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Superficial multifocal basal cell carcinoma, actinic keratosis…"
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome"]
+description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluorouracil
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluorouracil: From Skin Conditions and Gastrointestinal Cancers to Rhabdomyosarcoma
+## Fluorouracil: Botryoid-type embryonal rhabdomyosarcoma of the vagina
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This is a computational prediction with very limited supporting evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Superficial multifocal basal cell carcinoma, actinic keratosis, and gastrointestinal cancers (colon metastases, pancreatic, gastric) |
-| Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina (top-ranked prediction); rhabdomyosarcoma (the broader category) is ranked second and is the only rhabdomyosarcoma entry with literature, so it is the focus of this report |
-| TxGNN Prediction Score | 99.75% (top-ranked prediction); 99.74% for rhabdomyosarcoma |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 for the top-ranked prediction; L4 for rhabdomyosarcoma |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a computational prediction with very limited supporting evidence.
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, fluorouracil is a thymidylate synthase inhibitor and antimetabolite. It disrupts DNA and RNA synthesis in rapidly dividing cells. Its efficacy in several epithelial cancers is well established.
 
-Rhabdomyosarcoma is a rapidly proliferating soft tissue sarcoma, mostly seen in children. In principle, an antimetabolite could act against it. The prediction may also partly reflect the graph-based similarity to other cancers in which fluorouracil is used. For example, fluorouracil has an established role in biliary tract and gastrointestinal adenocarcinomas, which may influence the prediction for the bile duct rhabdomyosarcoma entries.
+Rhabdomyosarcoma is a rapidly proliferating soft tissue sarcoma, mostly seen in children. In principle, an antimetabolite could act against it. The prediction may also partly reflect similarities the TxGNN model (deep learning) learned between related diseases, such as other cancers in which fluorouracil is used, not biological evidence. For example, fluorouracil has an established role in biliary tract and gastrointestinal adenocarcinomas, which may influence the prediction for the bile duct rhabdomyosarcoma entries.
 
 However, standard rhabdomyosarcoma regimens (such as VAC, VDC and IE) do not center on fluorouracil. Any contribution of fluorouracil is therefore indirect and unproven. For the more specific subtypes (vaginal botryoid, parameningeal, bile duct and prostate), no trials or publications were available, so those predictions rest on the model alone.
 
@@ -110,7 +110,6 @@ Two further authorizations are also valid: 02413450 (Fluorouracil Injection USP)
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine antimetabolite) |
-| Myelosuppression Risk | Medium to high for systemic use; thrombocytopenia, neutropenia, leukopenia and agranulocytosis appear among the associated conditions in the knowledge graph |
 | Emetogenicity Classification | Low to moderate |
 | Monitoring Items | Complete blood count with differential, liver and renal function, electrolytes |
 | Handling Protection | Systemic injectable forms must be handled according to cytotoxic drug handling regulations |
@@ -136,7 +135,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction scores are very high (about 99.7%), but no clinical trials exist, and the available literature contains no controlled evidence that fluorouracil benefits rhabdomyosarcoma. The only recent case report showed disease progression on a fluorouracil-containing regimen. Standard treatments for this disease do not rely on fluorouracil. The sickle cell predictions are purely speculative and carry significant toxicity concerns.
+The prediction scores are very high (0.9962 to 0.9975), but no clinical trials exist, and the available literature contains no controlled evidence that fluorouracil benefits rhabdomyosarcoma. The only recent case report showed disease progression on a fluorouracil-containing regimen. Standard treatments for this disease do not rely on fluorouracil. The sickle cell predictions are purely speculative and carry significant toxicity concerns.
 
 **To proceed, the following is needed:**
 - Official Canadian package insert warnings and contraindications (currently missing, and a blocking gap for safety screening)

@@ -6,9 +6,9 @@ nav_order: 457
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). Approved use: Common cold"
 monitor_inn: "Hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydromorphone
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Hydromorphone: From Common Cold to Pharyngitis
+## Hydromorphone: Pharyngitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Hydromorphone is an opioid analgesic whose original indications in the knowledge graph are the common cold and nasopharyngitis.
+Hydromorphone is an opioid analgesic. The scores on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model's top-ranked prediction is **pharyngitis**, supported by **3 clinical trials** that are all about post-tonsillectomy pain rather than pharyngitis itself, and **no publications**.
 The best-supported alternative is **headache disorder**, with **1 completed Phase 4 RCT** and **17 publications**. Even there, guidelines caution against opioid use.
 
@@ -48,11 +48,11 @@ The best-supported alternative is **headache disorder**, with **1 completed Phas
 
 | Item | Content |
 |------|------|
-| Original Indication | Common cold; nasopharyngitis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pharyngitis |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L3 (indirect, symptomatic evidence only) |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9981 |
+| Evidence Level | L5 (indirect, symptomatic evidence only) |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

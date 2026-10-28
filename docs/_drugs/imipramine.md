@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Imipramine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 474
-evidence_level: L5
+evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 # Imipramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **no registered clinical trials** but **20 publications** (mostly reviews, 
 |------|------|
 | Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, nocturnal enuresis (Health Canada indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 (provisional; study designs could not be verified from titles alone) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

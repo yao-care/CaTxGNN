@@ -6,9 +6,9 @@ nav_order: 667
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Norfloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections"
 monitor_inn: "NORFLOXACIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+description: "Norfloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Norfloxacin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Norfloxacin: From Bacterial Infections to Hyperamylasemia
+## Norfloxacin: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (urinary tract infection, typhoid and paratyphoid fever, salmonellosis, dysentery, bronchitis, bacterial pneumonia and others, based on the knowledge graph; no approved indication text is available for the Canadian licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

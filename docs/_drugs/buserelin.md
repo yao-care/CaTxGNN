@@ -6,7 +6,7 @@ nav_order: 137
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Buserelin: predicted new indication Hypertrichosis (evidence level L5). Approved use: Prostate cancer"
+description: "Buserelin: predicted new indication hypertrichosis (evidence level L5). Approved use: Prostate cancer"
 monitor_inn: "BUSERELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 ---
@@ -50,10 +50,10 @@ but there are currently **0 clinical trials** and only **1 loosely related publi
 |------|------|
 | Original Indication | Prostate cancer (based on pharmacology data; the Health Canada licence record contains no indication text) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but there are currently **0 clinical trials** and only **1 loosely related publi
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, buserelin is a GnRH agonist that acts on the GnRH receptor (GNRHR). It suppresses the pituitary-gonadal axis and lowers sex steroid levels, which is the basis of its use in prostate cancer.
 
-The link to hypertrichosis is weak and speculative. Hypertrichosis is not a recognised GnRH-driven condition. The only retrieved publication concerns Cantu syndrome (a hypertrichosis-associated syndrome) and hypopituitarism, and it addresses endocrine monitoring rather than buserelin treatment. The high TxGNN score most likely reflects proximity in the knowledge graph through endocrine and genetic syndrome nodes, not a demonstrated therapeutic mechanism.
+The link to hypertrichosis is weak and speculative. Hypertrichosis is not a recognised GnRH-driven condition. The only retrieved publication concerns Cantu syndrome (a hypertrichosis-associated syndrome) and hypopituitarism, and it addresses endocrine monitoring rather than buserelin treatment. The high TxGNN score (0.9975) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions show the same pattern. These include Ambras-type hypertrichosis universalis congenita, malformation syndromes with dental involvement, syndromes with Dandy-Walker malformation, and isolated genetic hair shaft abnormalities. All are developmental or genetic conditions with no plausible GnRH-based mechanism, and none has trials or literature support.
 

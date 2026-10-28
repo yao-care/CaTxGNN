@@ -48,17 +48,17 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Dyslipidemia and atherosclerotic disease (syndromic dyslipidemia, arteriosclerosis disorder, atherosclerosis, arteriolosclerosis); the Canadian licence records contain no indication text |
 | Predicted New Indication | Ichthyosis, X-linked, without steroid sulfatase deficiency |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, alirocumab is a fully human antibody that binds PCSK9 (proprotein convertase subtilisin/kexin type 9). Blocking PCSK9 increases the number of LDL receptors available on liver cells and lowers circulating LDL cholesterol. Its efficacy in lipid lowering is established.
 
-The link to the predicted indication is weak. X-linked ichthyosis is a skin disorder associated with cholesterol sulfate accumulation. No supported pathway connecting PCSK9 inhibition to this condition is evident from the available data. The high TxGNN score reflects a graph-based association only and should not be read as evidence of benefit.
+The link to the predicted indication is weak. X-linked ichthyosis is a skin disorder associated with cholesterol sulfate accumulation. No supported pathway connecting PCSK9 inhibition to this condition is evident from the available data. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it should not be read as evidence of benefit.
 
 ## Clinical Trial Evidence
 

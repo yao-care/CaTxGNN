@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Febuxostat: From Hyperuricemia to Renal Hypouricemia
+## Febuxostat: From Hyperuricemia to hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The mechanistic reasoning argues against the prediction, so it is best treated a
 |------|------|
 | Original Indication | Hyperuricemia |
 | Predicted New Indication | Hypouricemia, renal |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,8 +67,8 @@ Renal hypouricemia is the opposite problem. Serum uric acid is already low becau
 The only link in the literature is indirect. One case report describes using a xanthine oxidoreductase inhibitor, febuxostat, to try to prevent exercise-induced acute kidney injury, a complication of renal hypouricemia, in a young athlete. This is a prevention concept, not treatment of the underlying condition.
 
 **Other predictions in the data (for context):**
-- **Partial HPRT deficiency** (score 99.98%): Purine overproduction causes hyperuricemia and juvenile gout. Xanthine oxidase inhibition is mechanistically plausible, and febuxostat could be an alternative for patients who cannot tolerate allopurinol. Evidence consists of case reports only.
-- **Lesch-Nyhan syndrome** (score 99.68%): Urate lowering may help the metabolic and renal problems, but it does not address the neurological and behavioural features. Evidence is limited to case-level reports, and pediatric use would be off-label.
+- **Partial HPRT deficiency** (score 0.9998): Purine overproduction causes hyperuricemia and juvenile gout. Xanthine oxidase inhibition is mechanistically plausible, and febuxostat could be an alternative for patients who cannot tolerate allopurinol. Evidence consists of case reports only.
+- **Lesch-Nyhan syndrome** (score 0.9968): Urate lowering may help the metabolic and renal problems, but it does not address the neurological and behavioural features. Evidence is limited to case-level reports, and pediatric use would be off-label.
 
 ---
 

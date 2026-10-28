@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Moderate Evidence (L3-L4)
 nav_order: 732
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLEPHRINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ but this is supported by **no registered clinical trials** and only **5 publicat
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, conjunctivitis (atopic, papillary, vernal), nasopharyngitis, headache disorder, hemorrhoid, proctitis (the label text for Canadian licences is not available) |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -114,8 +114,7 @@ The prediction score is very high, but the evidence is model-based plus a small,
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
 |------|------|------|------|------|
-| Acute laryngopharyngitis | 99.97% | L5 | Hold | No trials or literature. It overlaps with existing labelled uses (pharyngitis, nasopharyngitis), so the high score likely reflects similarity to those, not new evidence. |
-| Trigeminal autonomic cephalalgia | 99.30% | L4 | Hold | The 12 publications describe phenylephrine only as a diagnostic eye-drop probe in pupillometry (cluster headache, SUNCT, Horner's syndrome). They do not show treatment benefit, and its pressor effects could be a concern in headache patients. |
+| Trigeminal autonomic cephalalgia | 0.9930 | L4 | Hold | The 12 publications describe phenylephrine only as a diagnostic eye-drop probe in pupillometry (cluster headache, SUNCT, Horner's syndrome). They do not show treatment benefit, and its pressor effects could be a concern in headache patients. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

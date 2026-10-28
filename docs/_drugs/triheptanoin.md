@@ -48,10 +48,10 @@ Triheptanoin is a medium odd-chain triglyceride (C7) that supplies heptanoate as
 |------|------|
 | Original Indication | Not stated in the Canadian license data (the mechanistic background suggests long-chain fatty acid oxidation disorders) |
 | Predicted New Indication | Craniostenosis cataract |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Triheptanoin is a medium odd-chain triglyceride (C7) that supplies heptanoate as
 
 Currently, detailed mechanism of action data is not available. Based on known information, triheptanoin supplies heptanoate, which is converted to propionyl-CoA and then succinyl-CoA. This replenishes intermediates of the TCA cycle (anaplerosis). It is marketed for long-chain fatty acid oxidation disorders, where cells have difficulty producing energy from long-chain fats.
 
-The link to the predicted indication is weak. No plausible pathway was identified that connects anaplerotic energy-substrate supply to cataract associated with craniosynostosis. The score of 99.98% is a knowledge-graph prediction. It likely reflects shared network neighbours across the cataract disease family rather than a specific mechanism.
+The link to the predicted indication is weak. No plausible pathway was identified that connects anaplerotic energy-substrate supply to cataract associated with craniosynostosis. The score of 0.9998 is a TxGNN model (deep learning) prediction. It likely reflects shared network neighbours across the cataract disease family rather than a specific mechanism.
 
 The model also ranks many other cataract types highly, including diabetic, senile, nuclear, cortical, mature, immature and tetanic cataract. Diabetic cataract involves altered lens energy metabolism, so a theoretical argument exists there, but it is untested. No data are available on lens exposure after an oral triglyceride.
 
@@ -68,15 +68,15 @@ Other predicted indications:
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Diabetes mellitus type 2 associated cataract | 99.98% | L5 | Speculative link through lens energy metabolism |
-| 3 | Mature cataract | 99.98% | L5 | Advanced structural opacity, surgically treated |
-| 4 | Immature cataract | 99.98% | L5 | Untested theoretical argument |
-| 5 | Tetanic cataract | 99.98% | L5 | Driven by calcium disturbance, no link |
-| 6 | Diabetic cataract | 99.97% | L5 | Overlaps with rank 2 |
-| 7 | Cortical cataract | 99.97% | L5 | Ion and water balance, no link |
-| 8 | Nuclear senile cataract | 99.97% | L5 | Speculative |
-| 9 | Senile cataract | 99.97% | L5 | Likely family-level artefact |
-| 10 | Antithrombin deficiency type 2 | 99.97% | L5 | No interaction with the coagulation cascade |
+| 2 | Diabetes mellitus type 2 associated cataract | 0.9998 | L5 | Speculative link through lens energy metabolism |
+| 3 | Mature cataract | 0.9998 | L5 | Advanced structural opacity, surgically treated |
+| 4 | Immature cataract | 0.9998 | L5 | Untested theoretical argument |
+| 5 | Tetanic cataract | 0.9998 | L5 | Driven by calcium disturbance, no link |
+| 6 | Diabetic cataract | 0.9997 | L5 | Overlaps with rank 2 |
+| 7 | Cortical cataract | 0.9997 | L5 | Ion and water balance, no link |
+| 8 | Nuclear senile cataract | 0.9997 | L5 | Speculative |
+| 9 | Senile cataract | 0.9997 | L5 | Likely family-level artefact |
+| 10 | Antithrombin deficiency type 2 | 0.9997 | L5 | No interaction with the coagulation cascade |
 
 ---
 
@@ -113,7 +113,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no clinical trials, no publications and no plausible mechanism linking triheptanoin to craniosynostosis-associated cataract or to any other cataract type. Ocular delivery of an oral triglyceride is also unaddressed.
+The prediction rests only on a TxGNN model (deep learning) score. There are no clinical trials, no publications and no plausible mechanism linking triheptanoin to craniosynostosis-associated cataract or to any other cataract type. Ocular delivery of an oral triglyceride is also unaddressed.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for triheptanoin, to allow a proper mechanistic analysis

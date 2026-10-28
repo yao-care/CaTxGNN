@@ -48,10 +48,10 @@ Evidence is limited to **0 registered clinical trials** and **3 publications** (
 |------|------|
 | Original Indication | Not stated in the compiled Health Canada licence data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.64% |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ Two routes could link it to migraine. The first is modulation of visceral and pe
 
 The very high TxGNN score is a computational prediction, not clinical evidence.
 
-A second predicted indication, **migraine with brainstem aura** (score 99.54%), has no direct evidence. Its score most likely reflects its close relationship to migraine disorder. Triptans are traditionally used with caution in this subtype, which weakens the adjunct rationale further. It is not evaluated further here (Evidence Level L5, Hold).
+A second predicted indication, **migraine with brainstem aura** (score 0.9954), has no direct evidence. Its score most likely reflects its close relationship to migraine disorder. Triptans are traditionally used with caution in this subtype, which weakens the adjunct rationale further. It is not evaluated further here (Evidence Level L5, Hold).
 
 ## Clinical Trial Evidence
 
@@ -96,7 +96,7 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The only controlled evidence is one small crossover RCT of trimebutine added to a triptan, and the abstract provided does not show its results. The remaining literature is a general review and a case report that does not support efficacy. There are no registered trials. Safety data and the mechanism of action are also missing, so the 99.64% TxGNN score cannot be treated as support on its own.
+The only controlled evidence is one small crossover RCT of trimebutine added to a triptan, and the abstract provided does not show its results. The remaining literature is a general review and a case report that does not support efficacy. There are no registered trials. Safety data and the mechanism of action are also missing, so the 0.9964 TxGNN score cannot be treated as support on its own.
 
 **To proceed, the following is needed:**
 - Full text and results of the 2006 rizatriptan ± trimebutine RCT, with a check for replication

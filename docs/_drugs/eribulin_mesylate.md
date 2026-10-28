@@ -8,6 +8,7 @@ nav_order: 345
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Eribulin Mesylate
@@ -51,8 +52,8 @@ No evidence evaluation can be performed until the pipeline is re-run with correc
 | Predicted New Indication | No prediction generated (predicted_indications is empty) |
 | TxGNN Prediction Score | — |
 | Evidence Level | L5 (model prediction only) — pending pipeline completion |
-| Canada Market Status | ✗ Not Marketed |
-| Number of DINs | 0 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

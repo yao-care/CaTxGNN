@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pralatrexate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 759
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Pralatrexate: predicted new indication Pleural mesothelioma (evidence level L3). Approved use: Peripheral T-cell lymphoma (mature T-cell and NK-cell non-Hodgkin lym…"
 monitor_inn: "PRALATREXATE"
 predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
+description: "Pralatrexate: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pralatrexate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Pralatrexate: From Peripheral T-Cell Lymphoma to Pleural Mesothelioma
+## Pralatrexate: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **pleural mesothelioma** (the t
 
 | Item | Content |
 |------|------|
-| Original Indication | Peripheral T-cell lymphoma (mature T-cell and NK-cell non-Hodgkin lymphoma) |
-| Predicted New Indication | Pleural mesothelioma (the rank 1 prediction, pleural adenomatoid tumour, has no evidence and is not pursued here) |
-| TxGNN Prediction Score | 99.85% (pleural mesothelioma); 99.91% for the rank 1 prediction |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural adenomatoid tumor |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 This is mechanistically close to pemetrexed, the standard antifolate backbone for pleural mesothelioma. Its efficacy in T-cell lymphoma is established, and antifolate activity in mesothelioma is a recognised class effect. A 2007 phase II study of pralatrexate in unresectable malignant pleural mesothelioma and a review of antifolate chemotherapy support the class rationale. Preclinical work cited in the study abstract also reports significant antitumour activity in mesothelioma cell lines and xenografts.
 
-Predictions for other mesothelioma subtypes (epithelioid, biphasic, sarcomatoid, peritoneal, pericardial) are extrapolated from the same class rationale, with no subtype-specific pralatrexate data. The two highest-scoring predictions are weak. The pleural adenomatoid tumour is a benign lesion with no clear rationale for a cytotoxic antifolate and is likely a graph-proximity artefact. The relapsing-remitting multiple sclerosis prediction has no supporting data, and pralatrexate has no known CNS penetration or neuroinflammation evidence.
+Predictions for other mesothelioma subtypes (epithelioid, biphasic, sarcomatoid, peritoneal, pericardial) are extrapolated from the same class rationale, with no subtype-specific pralatrexate data. The two highest-scoring predictions are weak. The relapsing-remitting multiple sclerosis prediction has no supporting data, and pralatrexate has no known CNS penetration or neuroinflammation evidence.
 
 ---
 

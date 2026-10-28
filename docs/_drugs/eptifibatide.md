@@ -6,7 +6,7 @@ nav_order: 339
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Eptifibatide: predicted new indication Hemoglobinopathy (sickle cell disease). The top-ranked prediction… (evidence level L5). Approved use: Acute coronary syndrome"
+description: "Eptifibatide: predicted new indication Rheumatoid arthritis. The top-ranked prediction… (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "Eptifibatide"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Eptifibatide: From Acute Coronary Syndrome to Hemoglobinopathy (Sickle Cell Disease)
+## Eptifibatide: From Acute Coronary Syndrome to Rheumatoid Arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,11 +49,11 @@ This report therefore focuses on hemoglobinopathy, the only prediction with huma
 | Item | Content |
 |------|------|
 | Original Indication | Acute coronary syndrome (the Canadian licence records provide no indication text) |
-| Predicted New Indication | Hemoglobinopathy (sickle cell disease). The top-ranked prediction, rheumatoid arthritis (score 99.99%), has no clinical or literature evidence. |
-| TxGNN Prediction Score | 99.98% (hemoglobinopathy); 99.99% (rheumatoid arthritis, rank 1) |
-| Evidence Level | L2 (hemoglobinopathy); L5 (rheumatoid arthritis) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Predicted New Indication | Rheumatoid arthritis |
+| TxGNN Prediction Score | 0.9998 (hemoglobinopathy); 0.9999 (rheumatoid arthritis, rank 1) |
+| Evidence Level | L5 (hemoglobinopathy); L5 (rheumatoid arthritis) |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold (hemoglobinopathy is a research question: it merits further study but is not ready for escalation) |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available for this drug. Based on known
 
 In sickle cell disease, platelet activation, adhesion, thrombosis and inflammation are thought to contribute to microvascular occlusion and painful crises. Researchers have therefore proposed that blocking platelet aggregation could reduce these episodes. Early human studies examined safety, pain episodes and inflammatory markers, and an in vitro microvascular model supports the mechanism.
 
-Several other sickle cell genotypes (HbSC, HbSD, HbSE, sickle-beta-thalassemia, and sickle cell with hereditary persistence of fetal hemoglobin) share the same score of 99.98%. Their rationale is extrapolated from sickle cell anemia, with no genotype-specific evidence. For rheumatoid arthritis, platelet activation and integrin signalling might contribute to synovial inflammation, but nothing supports this link yet.
+Several other sickle cell genotypes (HbSC, HbSD, HbSE, sickle-beta-thalassemia, and sickle cell with hereditary persistence of fetal hemoglobin) share the same score of 0.9998. Their rationale is extrapolated from sickle cell anemia, with no genotype-specific evidence. For rheumatoid arthritis, platelet activation and integrin signalling might contribute to synovial inflammation, but nothing supports this link yet.
 
 ---
 

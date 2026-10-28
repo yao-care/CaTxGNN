@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 807
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy, hepatic coma"
 monitor_inn: "RIFAXIMIN"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
+description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Rifaximin: From Hepatic Encephalopathy to Oral Candidiasis
+## Rifaximin: Oral candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **0 clinical trials** and only **1 publication**, and that publica
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic encephalopathy, hepatic coma (the Canadian licence has no indication text on file, so these come from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Oral candidiasis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 A mechanistic link to oral candidiasis is weak. Candidiasis is a fungal infection, and rifaximin has no known antifungal activity. The one available publication (PMID 34180023) suggests the opposite of a therapeutic effect: rifaximin use was associated with micafungin-resistant Candida infections in patients receiving allogeneic stem cell transplants. This may reflect selection pressure or disruption of the microbiome. The high TxGNN score is therefore not supported by a plausible mechanism or by clinical evidence of benefit.
 
-The other top predictions (commissural lip fistula, osteoradionecrosis of the mandible, oral leukoedema, burning mouth syndrome) have no clinical trials or literature at all, and no plausible rationale for rifaximin. The broader candidiasis prediction (score 99.15%) is likewise supported only by studies showing increased Candida risk.
+The other top predictions (commissural lip fistula, osteoradionecrosis of the mandible, oral leukoedema, burning mouth syndrome) have no clinical trials or literature at all, and no plausible rationale for rifaximin. The broader candidiasis prediction (score 0.9915) is likewise supported only by studies showing increased Candida risk.
 
 ## Clinical Trial Evidence
 

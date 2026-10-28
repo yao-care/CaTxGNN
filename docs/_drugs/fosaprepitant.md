@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not available in the compiled data (the Canadian license records contain no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,15 +67,15 @@ The link to NSIAD is weak. NK1/substance P signaling has been discussed in relat
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Pneumocystosis | 99.87% | L5 | No antifungal mechanism identified; likely a network artifact |
-| 3 | Leprosy | 99.82% | L5 | No antimycobacterial mechanism identified |
-| 4 | Cryptococcal meningitis | 99.79% | L5 | Only speculative blood-brain barrier or neuroinflammatory links |
-| 5 | Multiple endocrine neoplasia | 99.76% | L5 | Hypothetical substance P/NK1 link in tumour biology |
-| 6 | Intracranial abscess | 99.75% | L5 | No supported mechanism |
-| 7 | Retinitis | 99.68% | L4 | One preclinical study (see below); the only prediction with any supporting publication |
-| 8 | Plasmodium falciparum malaria | 99.64% | L5 | No antiparasitic mechanism identified |
-| 9 | Echinococcus granulosus infection | 99.50% | L5 | No plausible mechanism |
-| 10 | Hyperargininemia | 99.41% | L5 | No connection to NK1 antagonism |
+| 2 | Pneumocystosis | 0.9987 | L5 | No antifungal mechanism identified; likely a network artifact |
+| 3 | Leprosy | 0.9982 | L5 | No antimycobacterial mechanism identified |
+| 4 | Cryptococcal meningitis | 0.9979 | L5 | Only speculative blood-brain barrier or neuroinflammatory links |
+| 5 | Multiple endocrine neoplasia | 0.9976 | L5 | Hypothetical substance P/NK1 link in tumour biology |
+| 6 | Intracranial abscess | 0.9975 | L5 | No supported mechanism |
+| 7 | Retinitis | 0.9968 | L5 | One preclinical study (see below); the only prediction with any supporting publication |
+| 8 | Plasmodium falciparum malaria | 0.9964 | L5 | No antiparasitic mechanism identified |
+| 9 | Echinococcus granulosus infection | 0.9950 | L5 | No plausible mechanism |
+| 10 | Hyperargininemia | 0.9941 | L5 | No connection to NK1 antagonism |
 
 Of the ten predictions, retinitis has the most (though still limited) supporting evidence. A mouse study reported that fosaprepitant blocked UVR-B-induced NK1 receptor expression in ocular tissues (PMID 32058829, 2021, *Ocular Immunology and Inflammation*). This is indirect, preclinical, and about UV-induced ocular injury, not retinitis in patients. Its relevance to retinitis needs verification.
 

@@ -4,17 +4,17 @@ title: Guselkumab
 parent: Model Prediction Only (L5)
 nav_order: 446
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Psoriasis"
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
+description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Guselkumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Guselkumab: From Psoriasis to Drug-Induced Osteoporosis
+## Guselkumab: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriasis (established use of the marketed drug; the Canadian license records compiled for this report contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Guselkumab selectively blocks the p19 subunit of IL-23. This cytokine drives Th17 cell differentiation and the IL-17/IL-22 inflammatory axis, which is central to psoriatic plaque development. IL-23/IL-17 signaling has also been implicated in bone remodeling, which is the only conceptual bridge to osteoporosis.
 
-The data compiled for this report do not support a direct link between IL-23 inhibition and drug-induced osteoporosis. No trials, publications, or similarity analysis to the original indication are available. The high TxGNN score (99.84%) reflects a pattern found in the knowledge graph and should not be read as clinical evidence. At this stage the prediction is a hypothesis only.
+The data compiled for this report do not support a direct link between IL-23 inhibition and drug-induced osteoporosis. No trials, publications, or similarity analysis to the original indication are available. The high TxGNN score (0.9984) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At this stage the prediction is a hypothesis only.
 
 ## Clinical Trial Evidence
 

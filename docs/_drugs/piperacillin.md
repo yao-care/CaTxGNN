@@ -4,17 +4,17 @@ title: Piperacillin
 parent: Model Prediction Only (L5)
 nav_order: 740
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "PIPERACILLIN"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis** with a
 |------|------|
 | Original Indication | Not available in the data compiled for this report (Canadian license entries have no indication text) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 16 |
+| Canada Market Status | Marketed (valid licenses: 16 of 16) |
+| Number of DINs | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, piperacillin is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis. It has no known immunomodulatory activity relevant to rheumatoid arthritis.
 
-The high TxGNN score (99.94%) comes from a network-based prediction only. The retrieved literature describes patients who happen to have rheumatoid arthritis, for example methotrexate toxicity, infections in immunosuppressed patients and antibiotic-associated liver injury. Any use of piperacillin in these patients was to treat infection, not the arthritis. At present, no plausible mechanistic link between the original use and the predicted indication has been established.
+The high TxGNN score (0.9994) comes from a network-based prediction only. The retrieved literature describes patients who happen to have rheumatoid arthritis, for example methotrexate toxicity, infections in immunosuppressed patients and antibiotic-associated liver injury. Any use of piperacillin in these patients was to treat infection, not the arthritis. At present, no plausible mechanistic link between the original use and the predicted indication has been established.
 
 Other predicted indications (sclerosing cholangitis, osteoarthritis susceptibility, diabetic nephropathy, WHIM syndrome and several rare genetic syndromes) are likewise prediction-only, with no supportive evidence and no plausible mechanism.
 

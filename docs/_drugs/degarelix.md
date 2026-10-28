@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Degarelix is a GnRH receptor antagonist marketed in Canada as FIRMAGON. The approved indication text was not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **hypertrichosis**, but **no clinical trials and no publications** currently support this prediction, so it rests on a graph-based model score alone.
+The TxGNN model predicts it may be effective for **hypertrichosis**, but **no clinical trials and no publications** currently support this prediction, so it rests on the TxGNN model (deep learning) score alone.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but **no cl
 |------|------|
 | Original Indication | Not available in the compiled data |
 | Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,21 +61,21 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but **no cl
 
 Degarelix is a GnRH receptor antagonist. It suppresses LH and FSH, which lowers gonadal androgen and estrogen levels. Detailed mechanism-of-action data were not available in the compiled data, so this description is based on the drug's known class.
 
-In theory, suppressing androgens could reduce androgen-dependent hair growth, such as hirsutism-type hypertrichosis. However, most forms of hypertrichosis are not androgen-dependent: they are congenital, drug-induced, or part of a syndrome. The mechanistic link is therefore weak. The very high TxGNN score reflects network proximity in a knowledge graph and is not backed by clinical or literature evidence.
+In theory, suppressing androgens could reduce androgen-dependent hair growth, such as hirsutism-type hypertrichosis. However, most forms of hypertrichosis are not androgen-dependent: they are congenital, drug-induced, or part of a syndrome. The mechanistic link is therefore weak. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by clinical or literature evidence.
 
 **Other predicted indications (all L5, no trials or literature):**
 
 | Rank | Predicted Indication | Score | Assessment |
 |---|---|---|---|
-| 2 | Ambras type hypertrichosis universalis congenita | 99.98% | Not driven by gonadal androgens (TRPS1 regulation); no clear rationale |
-| 3 | Syndrome with Dandy-Walker malformation | 99.98% | Structural developmental disorder; no plausible mechanism |
-| 4 | Malformation syndrome with odontal/periodontal component | 99.98% | Likely a graph artifact |
-| 5 | Isolated genetic hair shaft abnormality | 99.98% | Structural, not hormonally mediated |
-| 6 | Allergic urticaria | 99.97% | Urticaria is a known adverse event of the drug, so this is more likely a safety signal |
-| 7 | Cold urticaria | 99.86% | No mechanistic pathway; histamine-releasing potential argues against use |
-| 8 | Familial male-limited precocious puberty | 99.84% | Driven by activating LHCGR mutations downstream of the pituitary, so GnRH antagonism is not expected to help |
-| 9 | Central precocious puberty 1 | 99.67% | Most biologically plausible, since GnRH-axis suppression is the established principle; remains a research question only |
-| 10 | Familial isolated trichomegaly | 99.65% | Not known to be androgen-driven |
+| 2 | Ambras type hypertrichosis universalis congenita | 0.9998 | Not driven by gonadal androgens (TRPS1 regulation); no clear rationale |
+| 3 | Syndrome with Dandy-Walker malformation | 0.9998 | Structural developmental disorder; no plausible mechanism |
+| 4 | Malformation syndrome with odontal/periodontal component | 0.9998 | Likely a similarity the model learned between related diseases, not biological evidence |
+| 5 | Isolated genetic hair shaft abnormality | 0.9998 | Structural, not hormonally mediated |
+| 6 | Allergic urticaria | 0.9997 | Urticaria is a known adverse event of the drug, so this is more likely a safety signal |
+| 7 | Cold urticaria | 0.9986 | No mechanistic pathway; histamine-releasing potential argues against use |
+| 8 | Familial male-limited precocious puberty | 0.9984 | Driven by activating LHCGR mutations downstream of the pituitary, so GnRH antagonism is not expected to help |
+| 9 | Central precocious puberty 1 | 0.9967 | Most biologically plausible, since GnRH-axis suppression is the established principle; remains a research question only |
+| 10 | Familial isolated trichomegaly | 0.9965 | Not known to be androgen-driven |
 
 ---
 

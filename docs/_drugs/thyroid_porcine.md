@@ -4,17 +4,17 @@ title: Thyroid Porcine
 parent: Model Prediction Only (L5)
 nav_order: 910
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Thyroid Porcine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the available licence data"
+indication_count: 6
+last_modified_at: 2026-10-28
 monitor_inn: "Thyroid, porcine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "sciatic neuropathy", "lesion of sciatic nerve", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina"]
+description: "Thyroid Porcine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Thyroid Porcine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Thyroid, porcine: From Thyroid Hormone Replacement to Migraine Disorder
+## Thyroid Porcine: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,28 +44,26 @@ Porcine thyroid is a natural thyroid hormone preparation (containing T3/T4) that
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available licence data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, porcine thyroid is a source of exogenous thyroid hormones (T3/T4) and is used to replace deficient thyroid hormone. Its mechanistic link to migraine is therefore indirect.
 
-The only plausible connection is epidemiological: hypothyroidism has been reported as a comorbidity or risk factor for migraine and other headache disorders. Correcting thyroid deficiency might help in that subgroup, but no trial or publication in the data compiled for this report supports this. The high score (0.999) is a model-based prediction and likely reflects proximity in the knowledge graph.
+The only plausible connection is epidemiological: hypothyroidism has been reported as a comorbidity or risk factor for migraine and other headache disorders. Correcting thyroid deficiency might help in that subgroup, but no trial or publication in the data compiled for this report supports this. The high score (0.9991) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top predictions show the same pattern:
 
 - **Migraine with brainstem aura** and **migraine with or without aura, susceptibility to**: these inherit the general migraine prediction. The second is a genetic susceptibility entry rather than a treatable condition.
-- **Raynaud disease** (99.45%): hypothyroidism can cause cold intolerance and vasospasm, but the link is indirect.
-- **Atrophoderma vermiculata** and **ulerythema ophryogenesis**: rare follicular skin disorders with no plausible thyroid hormone mechanism. These appear to be knowledge-graph artifacts.
-- **Prinzmetal angina** (99.10%): thyroid hormone raises heart rate, oxygen demand and adrenergic sensitivity, so it could worsen coronary vasospasm. This is a safety concern.
-- **Sciatic neuropathy** and **lesion of sciatic nerve**: hypothyroidism can contribute to neuropathy, and preclinical work suggests a role for thyroid hormone in nerve myelination and regeneration, but there is no clinical evidence.
-- **Hyperthyroidism** (98.18%): pharmacologically implausible and contraindicated, since exogenous T3/T4 would worsen it or cause thyrotoxicosis. It is most likely a model artifact and should not be pursued.
+- **Raynaud disease** (0.9945): hypothyroidism can cause cold intolerance and vasospasm, but the link is indirect.
+- **Atrophoderma vermiculata** and **ulerythema ophryogenesis**: rare follicular skin disorders with no plausible thyroid hormone mechanism. These appear to be TxGNN model (deep learning) artifacts.
+- **Prinzmetal angina** (0.9910): thyroid hormone raises heart rate, oxygen demand and adrenergic sensitivity, so it could worsen coronary vasospasm. This is a safety concern.
 
 ## Clinical Trial Evidence
 
@@ -91,7 +89,6 @@ Currently no related literature available.
   - Minerals and antacids: calcium phosphate, calcium acetate and magnesium oxide
   - Sympathomimetic agents: epinephrine, isometheptene and diethylpropion
 - **Disease-specific cautions** (from the mechanistic review above):
-  - Hyperthyroidism: exogenous thyroid hormone is contraindicated.
   - Coronary vasospasm and ischaemic disease: thyroid hormone may worsen these and needs careful dosing.
 
 Please refer to the package insert for warnings and contraindications.

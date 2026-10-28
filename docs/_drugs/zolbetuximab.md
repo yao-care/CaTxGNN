@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Zolbetuximab
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 995
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Zolbetuximab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not listed in the Canadian license data. Pharmacology references desc…"
+description: "Zolbetuximab: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Zolbetuximab"
-predicted_indications: ["diabetic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "tetanic cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic retinopathy"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Zolbetuximab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Zolbetuximab: From Gastric Cancer to Diabetic Cataract
+## Zolbetuximab
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Zolbetuximab (brand name VYLOY) is a monoclonal antibody that targets Claudin-18.2 and is used for CLDN18.2-positive gastric and gastroesophageal junction cancers.
-The TxGNN model predicts it may be effective for **diabetic cataract**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction is purely graph-based and has no biological or clinical support.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Canadian license data. Pharmacology references describe HER2-negative, CLDN18.2-positive unresectable advanced or recurrent gastric cancer (including gastroesophageal junction tumours) |
-| Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 98.49% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, zolbetuximab is a monoclonal antibody against Claudin-18.2 (CLDN18.2). It is approved in Japan (March 2024), the EU (September 2024) and the US (October 2024) for CLDN18.2-positive, HER2-negative gastric or gastroesophageal junction cancer.
-
-A plausible mechanistic link to diabetic cataract has not been identified. CLDN18.2 is not known to play a role in lens biology or in cataract pathogenesis, such as the polyol pathway or oxidative stress. The high TxGNN score is a graph-based prediction and likely reflects proximity to other cataract terms rather than a true biological relationship.
-
-The other top-ranked predictions are also cataract-related conditions (craniostenosis cataract, type 2 diabetes-associated cataract, immature, mature, tetanic, cortical, nuclear senile and senile cataract) plus diabetic retinopathy. All have scores between 98.2% and 98.5%, are at evidence level L5, and have no trials or literature. None has a supportable mechanism.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 
 ---
 
@@ -108,18 +76,6 @@ The only drug-interaction record compiled is a pharmacology target entry (claudi
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no clinical trials, no literature and no identified mechanism (evidence level L5). Zolbetuximab is a cytotoxic-mechanism antibody for a gastric tumour antigen, so the risk-benefit profile for a non-malignant eye condition such as cataract would be unfavourable.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, plus any evidence of CLDN18.2 expression or function in lens or retinal tissue
-- Health Canada package insert warnings and contraindications
-- Preclinical or observational evidence supporting the cataract indication
-- Evaluation of the route of administration, since zolbetuximab is a systemic antibody and cataract is usually managed locally or surgically
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

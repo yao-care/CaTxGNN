@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Bacitracin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Keratitis, keratoconjunctivitis, blepharoconjunctivitis"
 monitor_inn: "BACITRACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
+last_modified_at: 2026-10-27
+description: "Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Bacitracin
@@ -33,34 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Bacitracin: From Keratitis to Punctate Epithelial Keratoconjunctivitis
+## Bacitracin: Cell wall synthesis–inhibiting topical antibiotic → punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Bacitracin is a topical antibiotic originally used for ocular infections such as keratitis, keratoconjunctivitis and blepharoconjunctivitis.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
-but **no clinical trials and no publications** currently support this specific prediction, so it rests on model prediction alone.
+Bacitracin is a topical polypeptide antibiotic that acts against Gram-positive bacteria.
+The TxGNN model predicts it may be useful for **punctate epithelial keratoconjunctivitis**,
+but **no clinical trials and no publications** directly studying this disease were found, so the prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Keratitis, keratoconjunctivitis, blepharoconjunctivitis (from the knowledge-graph indication data; the Canadian licence records contain no indication text) |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.999% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, bacitracin is a polypeptide antibiotic that acts mainly against Gram-positive bacteria by interfering with bacterial cell wall synthesis. Its use in ocular infections is already established.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Bacitracin is generally known as a polypeptide antibiotic that inhibits bacterial cell wall synthesis and is most active against Gram-positive organisms. It is used in topical products, mainly ointments.
 
-Punctate epithelial keratoconjunctivitis is closely related to the original indications, since all affect the surface of the eye. The prediction is therefore plausibly an extension of the existing ocular anti-bacterial use.
-
-There is an important limitation. Punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious (for example toxic). In those cases a Gram-positive-directed antibiotic would likely give limited benefit. No studies were found to confirm this specific use.
+The prediction is plausibly an extension of bacitracin's use in superficial eye infections. However, punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious (for example toxic), and a Gram-positive-directed antibiotic would be expected to offer limited benefit in those cases. The score is high (0.9999918937683104 before rounding), but a score is a model output and not evidence of clinical benefit. No study supports this specific use.
 
 ## Clinical Trial Evidence
 
@@ -68,60 +66,42 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for the top predicted indication.
-
-For context, the fourth-ranked prediction, otitis externa, has some literature, though it is limited and indirect:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [17503066](https://pubmed.ncbi.nlm.nih.gov/17503066/) | 2007 | Double-blind clinical comparison | Eur Arch Otorhinolaryngol | In 151 patients with acute bacterial otitis externa, a polymyxin B + bacitracin ointment was compared with the same ointment plus hydrocortisone acetate |
-| [9820118](https://pubmed.ncbi.nlm.nih.gov/9820118/) | 1998 | In vitro study | Zentralbl Veterinarmed B | Bacteria from chronic canine otitis externa showed increased antibiotic resistance across 20 antibiotics |
+Currently no related literature available for punctate epithelial keratoconjunctivitis.
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02245571 | BACIJECT | Not specified | Not specified |
-| 00584908 | BACITIN | Not specified | Not specified |
-| 02451026 | BACITRACIN OINTMENT | Not specified | Not specified |
-| 00621366 | BIODERM OINTMENT | Not specified | Not specified |
-| 02236917 | OZONOL ANTIBIOTICS PLUS | Not specified | Not specified |
+| 02245571 | BACIJECT | Not recorded | Not recorded |
+| 00584908 | BACITIN | Not recorded | Not recorded |
+| 02451026 | BACITRACIN OINTMENT | Not recorded | Not recorded |
+| 00621366 | BIODERM OINTMENT | Not recorded | Not recorded |
+| 02236917 | OZONOL ANTIBIOTICS PLUS | Not recorded | Not recorded |
 
-All five authorisations are currently valid single-ingredient products.
+All five listed authorizations are single-ingredient products with valid status.
 
 ## Safety Considerations
 
-- **Disease-related cautions (from the knowledge graph, not label text)**: Contraindication links were found for several conditions, including:
-  - Eye conditions: herpes simplex virus keratitis, viral and fungal eye infections, open-angle glaucoma, ocular hypertension
-  - Kidney and liver disease
-  - Neuromuscular conditions: myasthenia gravis and neuromuscular junction disease
-  - Cardiac conduction problems: atrioventricular block
-  - Others: diabetes and diabetic ketoacidosis, adrenocortical insufficiency, epilepsy, respiratory failure
+Label-based warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
-  These associations are database-derived and should be verified against the product labelling.
-- **Drug Interactions**: 84 interactions were recorded in total. Major-level interactions include:
-  - Aminoglycosides: kanamycin, neomycin, streptomycin
-  - Deferasirox
-  - Iodinated contrast agents: diatrizoate, iodipamide, iodixanol, iohexol
+**Drug Interactions:** 84 interactions were identified in the interaction database. The main ones to note:
+- **Major:** kanamycin, neomycin, streptomycin (other aminoglycosides, which raises concern for additive kidney and nerve toxicity), deferasirox, and the iodinated contrast agents diatrizoate, iodipamide, iodixanol and iohexol.
+- **Moderate:** mesalazine, balsalazide, olsalazine, sulfasalazine, vancomycin, exenatide and picosulfuric acid.
 
-  Moderate-level interactions include mesalazine, balsalazide, olsalazine, sulfasalazine, exenatide, vancomycin and picosulfuric acid.
-- Systemic use of bacitracin carries a nephrotoxicity concern, which is relevant to the non-ocular predictions.
-
-Please refer to the package insert for the official warnings and contraindications.
+**Conditions flagged as potential cautions (not from label text):** kidney disease, liver disease, myasthenia gravis and other neuromuscular junction disorders, epilepsy, and several eye conditions (such as herpes simplex keratitis, viral and fungal eye infections, glaucoma and ocular hypertension). These flags need to be checked against the official label before any clinical consideration.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but there are no clinical trials or publications for this indication, so evidence is at L5 (model prediction only). Many forms of punctate epithelial keratoconjunctivitis are viral or non-infectious, where bacitracin is unlikely to help. Several eye-related contraindication links also need review.
+The prediction has no supporting trials or publications, and the likely causes of this condition (viral or non-infectious) do not match bacitracin's antibacterial mechanism. Evidence level is L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Health Canada (currently a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Clarification of the dosage forms and approved indications for the Canadian licences
-- Evidence on whether bacterial involvement exists in the target condition, through a literature review or a small exploratory study
-- Review of the other top predictions: most are non-specific ontology categories or have no plausible link to bacitracin. Otitis externa (L4) is the only one with supporting literature, and it is better framed as a research question.
+- Retrieval and review of the Health Canada package insert (warnings, contraindications, approved indications)
+- Mechanism-of-action data
+- Literature or clinical evidence that directly addresses punctate epithelial keratoconjunctivitis, including how often a bacterial cause is involved
+- Confirmation that an ophthalmic formulation and route are available
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etanercept
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 360
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Etanercept: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Rheumatoid arthritis (also psoriatic arthritis…"
 monitor_inn: "ETANERCEPT"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Etanercept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+## Etanercept: Hypermobility of coccyx
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Etanercept is a TNF-blocking biologic, originally used for rheumatoid arthritis and related inflammatory arthritides such as psoriatic arthritis, ankylosing spondylitis and juvenile idiopathic arthritis.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but only **1 clinical trial** (which does not test this use) and **20 publications** (mostly reviews and case reports, many of them describing etanercept-associated vasculitis) are available.
 Evidence for this specific prediction is weak, and the benefit-risk balance is unclear.
 
 ---
@@ -48,12 +47,12 @@ Evidence for this specific prediction is weak, and the benefit-risk balance is u
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (also psoriatic arthritis, ankylosing spondylitis, juvenile idiopathic arthritis) |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypermobility of coccyx |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -126,7 +125,6 @@ Three more authorizations are also valid: RYMTI (02530295) and BRENZYS (02455323
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.71%) and TNF-alpha plays a plausible role in rheumatoid arthritis-related inflammation. However, the only registered trial does not test etanercept for rheumatoid vasculitis. The literature contains no direct efficacy data and a substantial number of reports of etanercept-associated vasculitis and nephropathy. The net benefit-risk is therefore unclear and the evidence is insufficient to advance.
 
 **To proceed, the following is needed:**
 - Full-text review of the 2021 systematic review on biologics in rheumatoid vasculitis, to see what efficacy and safety data exist for etanercept specifically.

@@ -48,10 +48,10 @@ The evidence supports its use against HIV-associated mycobacterial disease (Myco
 |------|------|
 | Original Indication | Not available in the Canadian licence data compiled for this report |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -106,7 +106,7 @@ Not applicable. Rifabutin is an antimycobacterial agent, not an antineoplastic d
 
 ## Safety Considerations
 
-- **Potential contraindicated conditions (knowledge-graph signal, not label text)**: thrombocytopenia, neutropenia, agranulocytosis, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis. The neutropenia signal is consistent with the paediatric cohort reports above.
+- **Potential contraindicated conditions (signal from the TxGNN model (deep learning), not label text; it may reflect similarities the model learned between related diseases, not biological evidence)**: thrombocytopenia, neutropenia, agranulocytosis, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis. The neutropenia signal is consistent with the pediatric cohort reports above.
 - **Drug Interactions**: 100 interactions were identified. Most listed are Moderate (for example doxycycline, hydrocortisone, dexamethasone, clarithromycin, metronidazole, pioglitazone, morphine, aprepitant). **Eliglustat is rated Major**, and dolasetron is Minor. Co-administration with antiretrovirals needs dose adjustment and PK monitoring.
 
 Package insert warnings and contraindications were not available; please refer to the Health Canada package insert.

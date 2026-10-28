@@ -6,7 +6,7 @@ nav_order: 692
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Oxazepam: predicted new indication Insomnia (evidence level L3). Approved use: Alcohol withdrawal delirium"
+description: "Oxazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "OXAZEPAM"
 predicted_indications: ["insomnia (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Oxazepam: From Alcohol Withdrawal Delirium and Anxiety to Insomnia
+## Oxazepam: Predicted New Indication for insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **insomnia**, with **no registe
 |------|------|
 | Original Indication | Alcohol withdrawal delirium; anxiety |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -94,7 +94,7 @@ Nine valid single-ingredient licences are held in total (APO-, PRO- and RIVA-OXA
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text)**: Associated conditions include porphyria, kidney disease, liver disease, gallbladder disease, psychotic disorders, sleep apnea syndromes, respiratory failure, lung disease, hypotensive disorder, substance-related disorders and personality disorders.
+- **Contraindications (model-derived associations, not label text)**: Associated conditions include porphyria, kidney disease, liver disease, gallbladder disease, psychotic disorders, sleep apnea syndromes, respiratory failure, lung disease, hypotensive disorder, substance-related disorders and personality disorders. These associations come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Drug Interactions**: 100 interactions were found. Major interactions include **morphine** (including liposomal morphine), which raises the risk of additive central nervous system and respiratory depression. Moderate interactions include bupropion, dronabinol, nabilone, metoclopramide, opium, sibutramine and teduglutide. Several antacids (magnesium oxide, calcium carbonate, aluminum hydroxide and others) show minor interactions.
 - **Class-related concerns** (from the literature): tolerance, dependence, withdrawal on dose changes or switching, and inappropriate long-term use in older adults.
 

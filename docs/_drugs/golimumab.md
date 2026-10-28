@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Golimumab
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 439
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Golimumab: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis…"
 monitor_inn: "GOLIMUMAB"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Golimumab: From Inflammatory Arthritis to Rheumatoid Vasculitis
+## Golimumab: Hypermobility of coccyx
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Golimumab is an anti-TNF-alpha monoclonal antibody originally used for inflammatory arthritis and bowel disease, including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis and ulcerative colitis.
-The TxGNN model's top prediction is **rheumatoid vasculitis** (99.73%), but direct evidence is thin: **1 loosely related clinical trial** and **6 publications**, none testing golimumab in this disease.
-Of the five predictions, only **inflammatory spondylopathy** and **polyarticular juvenile rheumatoid arthritis** have strong trial support, and both are close to existing approved use.
+The TxGNN model's top prediction is **hypermobility of coccyx** (0.9967), but direct evidence is thin: **1 loosely related clinical trial** and **6 publications**, none testing golimumab in this disease.
 
 ---
 
@@ -48,23 +47,20 @@ Of the five predictions, only **inflammatory spondylopathy** and **polyarticular
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis, ulcerative colitis, inflammatory bowel disease (source: knowledge graph; Canadian licence indication text is not available) |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypermobility of coccyx |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ### Other Predicted Indications
 
 | Rank | Predicted Indication | Score | Evidence Level | Decision |
 |---|---|---|---|---|
-| 1 | Rheumatoid vasculitis | 99.73% | L4 | Hold |
-| 2 | Hypermobility of coccyx | 99.67% | L5 | Hold |
-| 3 | Inflammatory spondylopathy | 99.66% | L1 | Proceed with Guardrails |
-| 4 | Kummell disease | 99.61% | L5 | Hold |
-| 5 | Polyarticular juvenile rheumatoid arthritis | 99.59% | L1 | Proceed with Guardrails |
+| 2 | Hypermobility of coccyx | 0.9967 | L5 | Hold |
+| 4 | Kummell disease | 0.9961 | L5 | Hold |
 
 ---
 
@@ -72,23 +68,20 @@ Of the five predictions, only **inflammatory spondylopathy** and **polyarticular
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From the published literature, golimumab is a fully human monoclonal antibody that neutralises TNF-alpha, both soluble and transmembrane forms. Its efficacy in rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis is established.
 
-Rheumatoid vasculitis is an extra-articular complication of rheumatoid arthritis. TNF-alpha is a plausible driver of vascular inflammation, which gives the prediction a mechanistic basis. However, the direction of effect is uncertain. Anti-TNF agents have been reported to induce vasculitis, for example Takayasu's arteritis arising during anti-TNF therapy. No study directly tests golimumab in rheumatoid vasculitis.
 
 Among the other predictions:
 - **Inflammatory spondylopathy** and **polyarticular juvenile rheumatoid arthritis** are mechanistically well supported, since TNF-alpha drives both axial and synovial inflammation. They are largely on-label or closely adjacent to approved uses, so they are better viewed as confirmation of existing use than as true repurposing.
-- **Hypermobility of coccyx** and **Kummell disease** are mechanical or ischaemic bone conditions with no clear TNF-driven mechanism. These predictions are likely graph-proximity artefacts.
+- **Hypermobility of coccyx** and **Kummell disease** are mechanical or ischaemic bone conditions with no clear TNF-driven mechanism. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-### Rheumatoid vasculitis (rank 1)
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having shoulder arthroplasty. Does not evaluate golimumab for vasculitis. |
 
-### Inflammatory spondylopathy (rank 3, strongest evidence)
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -105,7 +98,6 @@ Among the other predictions:
 
 Only the 10 most relevant trials are shown; further golimumab and anti-TNF studies in spondyloarthritis are registered.
 
-### Polyarticular juvenile rheumatoid arthritis (rank 5)
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -118,7 +110,6 @@ Hypermobility of coccyx and Kummell disease: currently no related clinical trial
 
 ## Literature Evidence
 
-### Rheumatoid vasculitis (rank 1)
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -131,7 +122,6 @@ Hypermobility of coccyx and Kummell disease: currently no related clinical trial
 
 None of these studies tests golimumab in rheumatoid vasculitis. They are indirect or cautionary.
 
-### Inflammatory spondylopathy (rank 3)
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -144,7 +134,6 @@ None of these studies tests golimumab in rheumatoid vasculitis. They are indirec
 | [18155297](https://pubmed.ncbi.nlm.nih.gov/18155297/) | 2008 | Review | Pharmacol Ther | Mechanisms of action of TNF antagonists |
 | [20065639](https://pubmed.ncbi.nlm.nih.gov/20065639/) | 2009 | Review | mAbs | Golimumab drug profile; approved in the US and Canada in 2009 |
 
-### Polyarticular juvenile rheumatoid arthritis (rank 5)
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -179,7 +168,7 @@ Dosage form and approved indication text were not available for these authorisat
   - **Major**: corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone including the ophthalmic form), deferiprone, and radiopharmaceutical or radioimmunotherapy agents (iobenguane I-131, ibritumomab tiuxetan, tositumomab and tositumomab I-131).
   - **Moderate**: metronidazole, tinidazole, rosuvastatin, simvastatin.
   - **Minor**: zinc salts (sulfate, acetate, gluconate).
-- **Context from the literature**: anti-TNF agents are associated with an increased risk of infection (PMID 27924643). Vasculitis has been reported under anti-TNF therapy, which is directly relevant to the rheumatoid vasculitis prediction.
+- **Context from the literature**: anti-TNF agents are associated with an increased risk of infection (PMID 27924643). Vasculitis has been reported under anti-TNF therapy.
 
 Please refer to the package insert for warnings and contraindications.
 
@@ -187,11 +176,11 @@ Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for the top-ranked prediction, rheumatoid vasculitis)
+**Decision: Hold** (for the top-ranked prediction, hypermobility of coccyx)
 
 **Rationale:**
 - Rheumatoid vasculitis has only a plausible mechanistic link. No study tests golimumab in this disease, and anti-TNF-induced vasculitis makes the direction of effect uncertain.
-- Hypermobility of coccyx and Kummell disease (L5) also stay on **Hold**, as they are likely graph-association artefacts.
+- Hypermobility of coccyx and Kummell disease (L5) also stay on **Hold**, as their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Proceed with Guardrails** applies to inflammatory spondylopathy (L1, several completed Phase 3 placebo-controlled trials) and polyarticular juvenile rheumatoid arthritis (L1, Phase 3 trials with long-term follow-up). Both are largely on-label or adjacent to approved uses, so they confirm existing use more than they represent new repurposing.
 
 **To proceed, the following is needed:**

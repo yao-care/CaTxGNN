@@ -48,9 +48,9 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Parkinson disease (and related parkinsonian disorders) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -58,7 +58,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 Currently, detailed mechanism of action data is not available. Based on known information, levodopa is converted to dopamine in the brain and replaces the dopamine lost in Parkinson disease and related parkinsonian disorders. In Canada it is marketed mainly in combination with carbidopa.
 
-Rasmussen encephalitis is a rare, chronic, unilateral neuroinflammatory disease, most likely driven by T-cell-mediated cytotoxicity. It causes progressive hemispheric atrophy, intractable focal epilepsy, hemiparesis and cognitive decline. No direct mechanistic link to levodopa has been established. The prediction may arise from shared neighbours in the knowledge graph, such as movement-disorder or basal ganglia phenotypes, or from features resembling hemiparkinsonism-hemiatrophy syndrome, which is among levodopa's listed original indications.
+Rasmussen encephalitis is a rare, chronic, unilateral neuroinflammatory disease, most likely driven by T-cell-mediated cytotoxicity. It causes progressive hemispheric atrophy, intractable focal epilepsy, hemiparesis and cognitive decline. No direct mechanistic link to levodopa has been established. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, such as movement-disorder or basal ganglia phenotypes, or features resembling hemiparkinsonism-hemiatrophy syndrome, which is among levodopa's listed original indications.
 
 Dopaminergic replacement is not known to modify the immune-mediated disease process. At most, levodopa might play a role in symptomatic treatment of rare secondary parkinsonian or dystonic features, not in treating the underlying disease. The high score should therefore be read as a hypothesis, not as evidence of efficacy.
 

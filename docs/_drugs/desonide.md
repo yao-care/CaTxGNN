@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Desonide: predicted new indication Polyp of vocal cord (evidence level L5). Approved use: Inflammatory dermatoses, such as atopic eczema…"
 monitor_inn: "DESONIDE"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
+last_modified_at: 2026-10-27
+description: "Desonide: predicted new indication polyp of vocal cord (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Desonide
@@ -33,34 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Desonide: From Inflammatory Skin and Airway Conditions to Polyp of Vocal Cord
+## Desonide: Low-potency topical corticosteroid → polyp of vocal cord
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Desonide is a low-potency topical corticosteroid, originally used for inflammatory conditions such as atopic eczema, contact dermatitis and seborrheic dermatitis.
-The TxGNN model predicts it may be effective for **polyp of vocal cord**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
+Desonide is a low-potency topical corticosteroid marketed in Canada as single-ingredient products.
+The TxGNN model predicts it may be relevant to **polyp of vocal cord**, with a score of 0.9991.
+There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Inflammatory dermatoses, such as atopic eczema, contact dermatitis and seborrheic dermatitis (the Canadian licence records do not include indication text, so this comes from the model's knowledge graph) |
-| Predicted New Indication | Polyp of vocal cord |
-| TxGNN Prediction Score | 99.91% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | polyp of vocal cord |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, desonide is a low-potency topical corticosteroid, its efficacy in inflammatory skin conditions is established, and mechanistically it may have an anti-inflammatory effect applicable to inflammation-related lesions.
+Detailed mechanism of action data is not currently available. Desonide is a low-potency topical corticosteroid with anti-inflammatory activity. Vocal cord polyps are often associated with chronic inflammation and edema, so a glucocorticoid effect is plausible in principle.
 
-Vocal cord polyps are often associated with chronic inflammation and oedema, so a glucocorticoid effect is plausible in principle. However, the available desonide products are dermatologic formulations (cream, ointment, lotion) that are not suited to delivery to the larynx. The link therefore rests on the TxGNN prediction alone.
-
-The other top-ranked predictions are also polyp-type conditions (middle ear, external auditory canal, frontal sinus, ureter, vulva, fibroepithelial, neoplastic, epulis and uterine polyps), all with scores near 99.9% and no clinical or literature support. Some, such as sinonasal and aural polyps, have a class-level rationale because corticosteroids are used in chronic inflammatory conditions at those sites. Others, such as ureteral, uterine and neoplastic polyps, have little mechanistic plausibility and may be graph-based artifacts.
+However, the available desonide formulations are topical dermatologic products (cream, ointment, lotion) and are not suited to delivery to the larynx. The link rests on the TxGNN prediction alone, with no clinical or literature support, and should be regarded as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -74,35 +72,25 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02229323 | PDP-DESONIDE | Not specified | Not specified |
-| 02229315 | PDP-DESONIDE | Not specified | Not specified |
+| 02229323 | PDP-DESONIDE | Not recorded | Not recorded |
+| 02229315 | PDP-DESONIDE | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-Safety information from the package insert was not available for this report; please refer to the package insert.
-
-The drug-disease contraindication links in the TxGNN knowledge graph (not label text) include the following conditions, which should be verified against the product label:
-- **Cardiovascular and metabolic:** hypertension, congestive heart failure, hyperglycaemia, liver disease, gallbladder disease
-- **Infections:** herpes simplex virus keratitis, measles
-- **Neurological:** epilepsy
-- **Endocrine:** hypopituitarism and related pituitary deficiency and hypogonadotropic hypogonadism conditions, including growth hormone deficiency, Kallmann syndrome and Sheehan syndrome
-- **Metabolic (urea cycle):** carbamoyl phosphate synthetase I deficiency, hyperargininemia, citrullinemia
-
-No drug interaction records were found.
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or publications (evidence level L5). Desonide's available formulations are topical dermatologic products with no established delivery route to the larynx. Mechanism of action and package insert safety data are also missing.
+No clinical trials or publications support this prediction, the mechanism of action data are missing, and the available topical formulations are not suited to laryngeal delivery. The evidence is limited to the model prediction (L5).
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example, from DrugBank)
-- Health Canada package insert warnings and contraindications, and approved indication and dosage form details for the two DINs
-- A route-of-delivery assessment showing whether a suitable formulation could reach the vocal cords
-- A literature and trial search for corticosteroid use in vocal cord polyps, to establish whether any class-level evidence exists
-- Review of the knowledge-graph contraindications against the label before any further evaluation
+- Package insert warnings and contraindications from Health Canada
+- Mechanism of action data
+- Any preclinical or clinical studies of corticosteroids in vocal cord polyps
+- An assessment of a suitable delivery route and formulation for the larynx
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

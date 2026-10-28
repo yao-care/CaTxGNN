@@ -48,10 +48,10 @@ with **2 related clinical trials** (neither directly testing procarbazine) and *
 |------|------|
 | Original Indication | Hodgkin lymphoma (including classic Hodgkin lymphoma and related subtypes) |
 | Predicted New Indication | Follicular lymphoma |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -102,7 +102,7 @@ There is an important caveat. Current follicular lymphoma standards are anti-CD2
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, leukopenia, anemia (including macrocytic anemia), blood coagulation disease, peripheral neuropathy and other peripheral nervous system disease, infectious disease (including fungal infection and dermatophytosis), pyoureter, and substance abuse or dependence.
+- **Contraindications (not label text)**: liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, leukopenia, anemia (including macrocytic anemia), blood coagulation disease, peripheral neuropathy and other peripheral nervous system disease, infectious disease (including fungal infection and dermatophytosis), pyoureter, and substance abuse or dependence.
 - **Drug Interactions**: 100 interactions were identified in total. The main ones are classed as Major, and include:
   - Sympathomimetics and stimulants/anorectics: isometheptene, ephedrine, phentermine, diethylpropion, mazindol
   - Serotonergic agents: bupropion, lorcaserin, fenfluramine, dexfenfluramine

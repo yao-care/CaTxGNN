@@ -4,17 +4,17 @@ title: Primidone
 parent: Model Prediction Only (L5)
 nav_order: 771
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "PRIMIDONE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Primidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Primidone: From Epilepsy to Trigeminal Nerve Neoplasm
+## Primidone: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Primidone is an anticonvulsant originally used to treat epilepsy, including generalized tonic-clonic seizures, partial epilepsy and Lennox-Gastaut syndrome.
-The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are currently **0 clinical trials** and **0 publications** supporting this top-ranked prediction. The score is a graph-based prediction only.
+The TxGNN model (deep learning) predicts it may be effective for **trigeminal nerve neoplasm**, but there are currently **0 clinical trials** and **0 publications** supporting this top-ranked prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (the Canadian licence records contain no indication text; this is taken from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 Currently, detailed mechanism of action data is not available. Based on known information, primidone is an established anticonvulsant (it is partly metabolized to phenobarbital), its efficacy in epilepsy is well recognized, and its action is aimed at reducing neuronal hyperexcitability.
 
-For the top-ranked prediction, trigeminal nerve neoplasm, no mechanistic link to an anticonvulsant is evident. No antineoplastic mechanism is known for primidone, so the high score should be treated as a hypothesis from the knowledge graph, not as evidence of efficacy.
+For the top-ranked prediction, trigeminal nerve neoplasm, no mechanistic link to an anticonvulsant is evident. No antineoplastic mechanism is known for primidone, so the high score should be treated as a hypothesis, not as evidence of efficacy. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The lower-ranked predictions are more plausible mechanistically. Several are reflex seizure disorders within the epilepsy spectrum (audiogenic seizures, micturition-induced seizures, eating seizures, startle epilepsy, orgasm-induced seizures, thinking seizures and reading seizures). These are close to the approved indications, and so are largely redundant with them. Trigeminal neuralgia, the only other prediction with a plausible link, is already treated mainly with carbamazepine, an established standard of care. Beta-ketothiolase deficiency, a metabolic disorder, has no evident link to primidone.
 

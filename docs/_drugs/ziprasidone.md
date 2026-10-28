@@ -6,9 +6,9 @@ nav_order: 994
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "ZIPRASIDONE"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ziprasidone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ziprasidone: From Schizophrenia and Bipolar Disorder to Trichotillomania
+## Ziprasidone: Trichotillomania
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **trichotillomania** (compulsiv
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia; bipolar disorder (including manic episodes). The Canadian licence records contain no indication text, so this comes from the TxGNN knowledge graph. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trichotillomania |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **trichotillomania** (compulsiv
 
 Detailed mechanism of action data is not available in the data compiled for this report. Ziprasidone is generally known to block dopamine D2 and serotonin 5-HT2A receptors. Both pathways are involved in repetitive and compulsive behaviours, which are the core features of trichotillomania. This link is plausible, but none of the data compiled for this report supports it.
 
-Schizophrenia and bipolar disorder are psychotic and mood disorders, while trichotillomania is a repetitive-behaviour disorder. The overlap is mainly in the neurotransmitter systems involved, and nothing in the compiled data confirms that ziprasidone works in this condition. The high score reflects a pattern in the knowledge graph, not clinical proof.
+Schizophrenia and bipolar disorder are psychotic and mood disorders, while trichotillomania is a repetitive-behavior disorder. The overlap is mainly in the neurotransmitter systems involved, and nothing in the compiled data confirms that ziprasidone works in this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -111,7 +111,7 @@ Label warnings and contraindications from the Canadian package insert are not av
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.83%), but no trials or publications support ziprasidone for trichotillomania. The pharmacological reasoning is plausible but unproven. Meanwhile, ziprasidone carries known cardiac (QT) risks and many drug interactions.
+The prediction score is very high (0.9983), but no trials or publications support ziprasidone for trichotillomania. The pharmacological reasoning is plausible but unproven. Meanwhile, ziprasidone carries known cardiac (QT) risks and many drug interactions.
 
 **To proceed, the following is needed:**
 - A systematic literature search for ziprasidone or other D2/5-HT2A antagonists in trichotillomania and related repetitive-behaviour disorders

@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Endocrine exophthalmos (thyroid eye disease) |
 | Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Monosomy X (Turner syndrome) is associated with short stature and altered growth-axis signalling, so a loose connection to the IGF-1 pathway is conceivable. However, IGF-1R blockade would be expected to worsen rather than improve growth deficits. Standard care for Turner syndrome is growth hormone and estrogen replacement, which works in the opposite direction.
 
-The very high TxGNN score (0.998) most likely reflects graph proximity and ontology clustering of related disorders, not independent biological evidence. The prediction should be treated as a hypothesis only.
+The very high TxGNN score (0.9979) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis only.
 
 ### Other Predicted Indications
 
@@ -68,15 +68,15 @@ All other predictions also have no clinical trials or literature (all L5, Hold):
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Esophageal varices without bleeding | 99.64% | No clear mechanistic link to IGF-1R inhibition |
-| 3 | Esophageal varices with bleeding | 99.64% | Identical score to rank 2, suggesting a shared ontology-driven prediction |
-| 4 | Mixed gonadal dysgenesis | 99.50% | Likely reflects proximity to other sex chromosome disorders |
-| 5 | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies | 99.44% | No evidence that antibody blockade corrects a primary genetic defect |
-| 6 | Turner syndrome due to structural X chromosome anomalies | 99.37% | Same rationale as monosomy X |
-| 7 | Mosaic monosomy X | 99.37% | Turner syndrome variant |
-| 8 | Sex chromosome disorder of sex development | 99.34% | Broad parent category |
-| 9 | Varicose disease | 99.33% | Speculative link via vascular remodelling |
-| 10 | X chromosome number anomaly | 99.32% | Broad category, graph association only |
+| 2 | Esophageal varices without bleeding | 0.9964 | No clear mechanistic link to IGF-1R inhibition |
+| 3 | Esophageal varices with bleeding | 0.9964 | Identical score to rank 2, suggesting a shared ontology-driven prediction |
+| 4 | Mixed gonadal dysgenesis | 0.9950 | Likely reflects proximity to other sex chromosome disorders |
+| 5 | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies | 0.9944 | No evidence that antibody blockade corrects a primary genetic defect |
+| 6 | Turner syndrome due to structural X chromosome anomalies | 0.9937 | Same rationale as monosomy X |
+| 7 | Mosaic monosomy X | 0.9937 | Turner syndrome variant |
+| 8 | Sex chromosome disorder of sex development | 0.9934 | Broad parent category |
+| 9 | Varicose disease | 0.9933 | Speculative link via vascular remodelling |
+| 10 | X chromosome number anomaly | 0.9932 | Broad category, score from the TxGNN model (deep learning); may reflect learned similarities between related diseases, not biological evidence |
 
 ## Clinical Trial Evidence
 

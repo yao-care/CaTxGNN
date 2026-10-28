@@ -6,9 +6,9 @@ nav_order: 822
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Romiplostim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Idiopathic aplastic anemia, aplastic anemia…"
 monitor_inn: "ROMIPLOSTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
+description: "Romiplostim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Romiplostim
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Romiplostim: From Aplastic Anemia and Autoimmune Thrombocytopenia to Primary Release Disorder of Platelets
+## Romiplostim: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Romiplostim is a thrombopoietin receptor (MPL) agonist, originally used for autoimmune (immune) thrombocytopenia and listed in the knowledge graph for aplastic anemia.
+Romiplostim is a thrombopoietin receptor (MPL) agonist, originally used for autoimmune (immune) thrombocytopenia.
 The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but there are currently **0 clinical trials** and only **1 indirect publication** supporting this direction.
 The mechanistic rationale is weak, because release disorders are defects of platelet function rather than platelet number.
 
@@ -46,33 +46,33 @@ The mechanistic rationale is weak, because release disorders are defects of plat
 
 | Item | Content |
 |------|------|
-| Original Indication | Idiopathic aplastic anemia, aplastic anemia, autoimmune thrombocytopenic (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.99983% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. From general pharmacology, romiplostim is a peptide agonist of the thrombopoietin receptor (MPL). It stimulates megakaryocyte proliferation and platelet production, and it is used to raise platelet counts in chronic immune thrombocytopenia (ITP).
 
-The prediction is hard to justify mechanistically. Primary release disorders are qualitative platelet defects in granule secretion, and platelet counts are usually normal. Raising platelet number is not expected to correct defective secretion. The only linked paper (PMID 25682608) studies autoantibody inhibition of proplatelet formation in ITP, not release disorders, so it gives only indirect context. The very high score most likely reflects network proximity to thrombocytopenia-related nodes in the knowledge graph rather than a true therapeutic link.
+The prediction is hard to justify mechanistically. Primary release disorders are qualitative platelet defects in granule secretion, and platelet counts are usually normal. Raising platelet number is not expected to correct defective secretion. The only linked paper (PMID 25682608) studies autoantibody inhibition of proplatelet formation in ITP, not release disorders, so it gives only indirect context. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ### Other predicted indications (for context)
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |---|---|---|---|---|
-| 2 | Pseudo-von Willebrand disease | 99.99977% | L5 | Platelet GPIb gain-of-function defect. TPO agonism may increase hyper-reactive platelets. No evidence. |
-| 3 | Glanzmann thrombasthenia | 99.99954% | L5 | Qualitative defect with normal counts. Weak rationale. |
-| 4 | Fetal and neonatal alloimmune thrombocytopenia | 99.98730% | L4 | Most plausible candidate. Immune-mediated platelet destruction resembles ITP, but only indirect evidence exists. |
-| 5 | Scott syndrome | 99.96656% | L5 | Defect in phosphatidylserine exposure. TPO agonism does not address it. |
-| 6 | Hemorrhagic disorder due to constitutional thrombocytopenia | 99.95290% | L5 | Plausible for some subtypes only. Subtype-specific evidence is needed. |
-| 7 | Bleeding diathesis due to collagen receptor defect | 99.95080% | L5 | Receptor signalling defect. Not corrected by higher platelet counts. |
-| 8 | Platelet-type bleeding disorder | 99.93190% | L5 | Broad, mostly qualitative category. Limited relevance. |
-| 9 | Autosomal dominant macrothrombocytopenia | 99.88074% | L5 | Conceivable, but bleeding is usually mild and the defect is often downstream of TPO signalling. |
-| 10 | Ehlers-Danlos syndrome, fibronectinemic type | 99.84516% | L5 | No clear link to the TPO/MPL pathway. |
+| 2 | Pseudo-von Willebrand disease | 1.0000 | L5 | Platelet GPIb gain-of-function defect. TPO agonism may increase hyper-reactive platelets. No evidence. |
+| 3 | Glanzmann thrombasthenia | 1.0000 | L5 | Qualitative defect with normal counts. Weak rationale. |
+| 4 | Fetal and neonatal alloimmune thrombocytopenia | 0.9999 | L5 | Most plausible candidate. Immune-mediated platelet destruction resembles ITP, but only indirect evidence exists. |
+| 5 | Scott syndrome | 0.9997 | L5 | Defect in phosphatidylserine exposure. TPO agonism does not address it. |
+| 6 | Hemorrhagic disorder due to constitutional thrombocytopenia | 0.9995 | L5 | Plausible for some subtypes only. Subtype-specific evidence is needed. |
+| 7 | Bleeding diathesis due to collagen receptor defect | 0.9995 | L5 | Receptor signalling defect. Not corrected by higher platelet counts. |
+| 8 | Platelet-type bleeding disorder | 0.9993 | L5 | Broad, mostly qualitative category. Limited relevance. |
+| 9 | Autosomal dominant macrothrombocytopenia | 0.9988 | L5 | Conceivable, but bleeding is usually mild and the defect is often downstream of TPO signalling. |
+| 10 | Ehlers-Danlos syndrome, fibronectinemic type | 0.9985 | L5 | No clear link to the TPO/MPL pathway. |
 
 Among these, fetal and neonatal alloimmune thrombocytopenia (FNAIT) has the most supporting literature, although it is still indirect.
 

@@ -8,6 +8,7 @@ nav_order: 586
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Menthol
@@ -51,7 +52,7 @@ Without a valid prediction target or baseline safety profile, this candidate can
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Below L5 — no predictions generated |
-| Canada Market Status | Not marketed (0 DINs on record) |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 0 |
 | Recommended Decision | **Hold** |
 

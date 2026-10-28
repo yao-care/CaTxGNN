@@ -6,9 +6,9 @@ nav_order: 705
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-13
-description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Ascorbic acid deficiency"
 monitor_inn: "Pantothenic acid"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
+description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantothenic Acid
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Pantothenic Acid: From Ascorbic Acid Deficiency to Congenital Prothrombin Deficiency
+## Pantothenic Acid: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,24 +46,24 @@ Among the other predicted indications, **folic acid deficiency anemia** and **ut
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency; scurvy (from the TxGNN knowledge graph, as no approved indication text is listed for the Canadian products) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is the precursor of coenzyme A (CoA), which is central to energy and lipid metabolism. It is used to correct vitamin deficiency states, but a mechanistic link to the predicted new indication cannot be established from the data compiled for this report.
 
-For the top-ranked prediction, congenital prothrombin deficiency, no supporting mechanism was found. It is a genetic coagulation factor disorder, and pantothenic acid has no established role in prothrombin synthesis. The very high score (99.96%) reflects a model output only.
+For the top-ranked prediction, congenital prothrombin deficiency, no supporting mechanism was found. It is a genetic coagulation factor disorder, and pantothenic acid has no established role in prothrombin synthesis. The very high score (0.9996) reflects a model output only.
 
 Other predictions have somewhat more context:
-- **Folic acid deficiency anemia (score 99.60%)**: B-vitamin deficiencies often occur together, and a 1946 report and a 1986 primate review discuss pantothenic acid and folic acid deficiencies in relation to anemia. This suggests pantothenic acid is a co-factor in nutritional anemia, not a replacement for folic acid, which remains the standard treatment.
-- **Uterine inflammatory disease (score 99.14%)**: One 2026 mouse study reports that pantothenic acid alleviated vagotomy-induced endometrial injury. The model differs from clinical endometritis, and there is no human data.
-- **Glycerol metabolism disease (score 99.77%)**: CoA participates in lipid and glycerol-related metabolism, giving a weak, general rationale. The retrieved papers are profiling studies that do not test pantothenic acid.
+- **Folic acid deficiency anemia (score 0.9960)**: B-vitamin deficiencies often occur together, and a 1946 report and a 1986 primate review discuss pantothenic acid and folic acid deficiencies in relation to anemia. This suggests pantothenic acid is a co-factor in nutritional anemia, not a replacement for folic acid, which remains the standard treatment.
+- **Uterine inflammatory disease (score 0.9914)**: One 2026 mouse study reports that pantothenic acid alleviated vagotomy-induced endometrial injury. The model differs from clinical endometritis, and there is no human data.
+- **Glycerol metabolism disease (score 0.9977)**: CoA participates in lipid and glycerol-related metabolism, giving a weak, general rationale. The retrieved papers are profiling studies that do not test pantothenic acid.
 
 ## Clinical Trial Evidence
 
@@ -99,7 +99,7 @@ All five licences are valid single-ingredient entries, with none cancelled.
 
 ## Safety Considerations
 
-- **Disease associations flagged in the knowledge graph (not label text)**: kidney disease, pyoureter, sickle cell anemia, hereditary persistence of fetal hemoglobin, primary hyperoxaluria, hereditary hemochromatosis, hemosiderosis, iron metabolism disease and Wilson disease. These come from model-derived drug-disease edges and need verification against official labelling.
+- **Disease associations flagged by the TxGNN model (deep learning), not label text**: kidney disease, pyoureter, sickle cell anemia, hereditary persistence of fetal hemoglobin, primary hyperoxaluria, hereditary hemochromatosis, hemosiderosis, iron metabolism disease and Wilson disease. These come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They need verification against official labelling.
 - **Drug interactions**: No interaction records were found.
 
 Please refer to the package insert for further safety information.

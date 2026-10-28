@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Model Prediction Only (L5)
 nav_order: 828
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Rufinamide: predicted new indication Febrile infection-related epilepsy syndrome (evidence level L5). Approved use: Lennox-Gastaut syndrome"
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Rufinamide: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rufinamide is an antiseizure medication originally used to treat Lennox-Gastaut syndrome.
-The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**,
 but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
@@ -48,15 +47,15 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Lennox-Gastaut syndrome |
-| Predicted New Indication | Febrile infection-related epilepsy syndrome |
-| TxGNN Prediction Score | 99.57% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Perioral myoclonia with absences |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
-Note: the Canadian licence records compiled for this report contain no approved-indication text. The original indication is therefore taken from the drug-disease knowledge graph, which lists Lennox-Gastaut syndrome (and also cutis verticis gyrata).
+Note: the Canadian licence records compiled for this report contain no approved-indication text.
 
 ---
 
@@ -64,16 +63,13 @@ Note: the Canadian licence records compiled for this report contain no approved-
 
 Detailed mechanism of action data is not currently available. Based on general knowledge, rufinamide is an antiseizure medication that is widely understood to prolong the inactive state of voltage-gated sodium channels. It is approved for Lennox-Gastaut syndrome, a severe childhood epileptic encephalopathy.
 
-FIRES is also a severe, treatment-resistant epileptic encephalopathy. However, neuroinflammation is thought to play a major role in it, so a sodium-channel mechanism alone gives only a plausible but unproven link. The high TxGNN score (0.996) reflects the drug's closeness to other epilepsy conditions in the knowledge network. It is not clinical evidence.
+FIRES is also a severe, treatment-resistant epileptic encephalopathy. However, neuroinflammation is thought to play a major role in it, so a sodium-channel mechanism alone gives only a plausible but unproven link. It is not clinical evidence.
 
 Other predicted indications also have no supporting studies. They are listed below for reference:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level |
 |------|------|------|------|
-| 2 | Perioral myoclonia with absences | 99.51% | L5 |
-| 3 | Atypical childhood epilepsy with centrotemporal spikes | 99.44% | L5 |
-| 4 | Cryptogenic late-onset epileptic spasms | 99.44% | L5 |
-| 5 | Photosensitive occipital lobe epilepsy | 99.44% | L5 |
+| 2 | Perioral myoclonia with absences | 0.9951 | L5 |
 
 For atypical childhood epilepsy with centrotemporal spikes, sodium-channel blockers can aggravate some of these syndromes. This would need careful consideration in any future evaluation.
 

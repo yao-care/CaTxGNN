@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Selegiline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 838
-evidence_level: L3
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
-description: "Selegiline: predicted new indication Schizophrenia (evidence level L3). Approved use: Parkinson's disease"
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Selegiline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-## Selegiline: From Parkinson's Disease to Schizophrenia
+## Selegiline: Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **1 clinical trial** and **20 publications** currently supporting this dire
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (the approved indication text for the Canadian licence is not available; this is taken from the drug's known indication list, which also includes major depressive disorder and anxiety disorder) |
-| Predicted New Indication | Schizophrenia (the model's top-ranked prediction was a rare neurodevelopmental disorder with no supporting evidence, so the highest-ranked prediction with evidence is evaluated here) |
-| TxGNN Prediction Score | 99.14% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (research-question stage) |
 
 ---

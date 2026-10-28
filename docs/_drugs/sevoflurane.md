@@ -48,10 +48,10 @@ Sevoflurane is a volatile (inhaled) anesthetic marketed in Canada under three li
 |------|------|
 | Original Indication | Not stated in the Health Canada licence data compiled for this report (sevoflurane is a general anesthetic) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Volatile anesthetics have some vasodilatory and calcium-channel-modulating effects that could relate to coronary vasospasm, the cause of Prinzmetal angina. However, no trials or literature support this link. Sevoflurane is a short-term, inhaled, hospital-administered anesthetic, not a chronic anti-anginal therapy, so its practical fit with this condition is poor.
 
-The high score (0.998) reflects a pattern in the knowledge graph and should not be read as clinical evidence.
+The high score (0.9978) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical evidence.
 
 ---
 

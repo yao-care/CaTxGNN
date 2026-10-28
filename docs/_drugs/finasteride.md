@@ -50,9 +50,9 @@ The result is a model-based signal only, and it needs careful scrutiny before an
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,7 +62,7 @@ The result is a model-based signal only, and it needs careful scrutiny before an
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, finasteride inhibits type II 5-alpha-reductase, which lowers dihydrotestosterone (DHT) in androgen-sensitive tissue. This is the basis of its use in BPH.
 
-Ambras syndrome is a congenital hypertrichosis caused by genomic rearrangements affecting TRPS1 regulation, not by androgen excess. Lowering DHT would therefore not be expected to address the underlying cause. The mechanistic link is weak. The very high TxGNN score appears to come from graph-based associations (for example, shared hair-related phenotypes), not from a biological rationale.
+Ambras syndrome is a congenital hypertrichosis caused by genomic rearrangements affecting TRPS1 regulation, not by androgen excess. Lowering DHT would therefore not be expected to address the underlying cause. The mechanistic link is weak. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions in the same list show a similar pattern:
 
@@ -108,7 +108,7 @@ Finasteride has 20 valid single-ingredient licenses in Canada, with no cancelled
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph association, not label text):** liver disease and gallbladder disease.
+- **Contraindications (from the TxGNN model (deep learning), not label text; may reflect similarities the model learned between related diseases, not biological evidence):** liver disease and gallbladder disease.
 - **Pregnancy:** Finasteride carries a risk of feminizing male fetuses. Any use in developmental or congenital conditions is therefore inappropriate.
 - **Drug Interactions:** A screening query returned 100 potential interacting drugs, but none has an assigned severity level. Examples include calcitriol, doxycycline, bupropion, metformin, omeprazole, morphine and acetylsalicylic acid. The list needs clinical review before drawing conclusions.
 

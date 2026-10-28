@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Temsirolimus
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 889
-evidence_level: L2
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Temsirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Mantle cell lymphoma, B-cell neoplasm…"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarc
 # Temsirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ with **2 clinical trials** (both combination regimens in sarcoma populations) an
 |------|------|
 | Original Indication | Mantle cell lymphoma, B-cell neoplasm, renal cell carcinoma (including clear cell and non-papillary types) |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9954 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: The Canadian licence record has no approved-indication text, so the original indications above come from the knowledge-graph indication data compiled for this report.*
+*Note: The Canadian licence record has no approved-indication text, so the original indications above come from the indication data compiled for this report.*
 
 ---
 
@@ -68,7 +68,7 @@ The PI3K/AKT/mTOR pathway is frequently activated in soft tissue sarcomas. Well-
 
 The very high TxGNN score reflects this link, but it is a computational prediction, not clinical proof. Temsirolimus has proven activity in renal cell carcinoma and mantle cell lymphoma, which are different tumour types from sarcoma. Its benefit in liposarcoma has not been shown by the data available here.
 
-Two other predicted indications, ovarian myxoid liposarcoma (score 99.47%) and vulva sarcoma (score 99.09%), have no supporting trials or literature. They are very rare, and evidence for them is unlikely to be generated on its own.
+Two other predicted indications, ovarian myxoid liposarcoma (score 0.9947) and vulva sarcoma (score 0.9909), have no supporting trials or literature. They are very rare, and evidence for them is unlikely to be generated on its own.
 
 ---
 

@@ -48,17 +48,17 @@ This looks like a model-based association rather than a true therapeutic signal.
 |------|------|
 | Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, insulin human is a recombinant replacement hormone whose efficacy in diabetes is well established. It lowers blood glucose by replacing deficient insulin.
 
-Autoimmune oophoritis often occurs alongside autoimmune polyglandular syndromes, which include type 1 diabetes. The model score most likely reflects this shared autoimmune background. Insulin treats the diabetic component, but it has no known effect on the ovarian autoimmune process itself. This is probably a knowledge-graph association artifact rather than a real treatment signal.
+Autoimmune oophoritis often occurs alongside autoimmune polyglandular syndromes, which include type 1 diabetes. The model score most likely reflects this shared autoimmune background. Insulin treats the diabetic component, but it has no known effect on the ovarian autoimmune process itself. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions follow similar patterns:
 - **Stiff person syndrome (classic and focal forms):** linked through anti-GAD65 autoimmunity and its frequent coexistence with type 1 diabetes. This is comorbidity, not treatment.

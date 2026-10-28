@@ -48,19 +48,19 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Colorectal cancer and malignant mesothelioma (from the pharmacology reference data; the Canadian licence record contains no indication text) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, raltitrexed is an antifolate that targets thymidylate synthase (TYMS), an enzyme required for DNA synthesis. Its efficacy in colorectal cancer and malignant mesothelioma is established, and it works by suppressing rapidly dividing cells.
 
-The link to sclerosing cholangitis is weak. Sclerosing cholangitis is an immune-mediated, fibroinflammatory disease of the bile ducts, and there is no established rationale for cytotoxic antifolate therapy in it. The very high TxGNN score (99.97%) is a model output based on knowledge-graph patterns, not an indication of demonstrated benefit.
+The link to sclerosing cholangitis is weak. Sclerosing cholangitis is an immune-mediated, fibroinflammatory disease of the bile ducts, and there is no established rationale for cytotoxic antifolate therapy in it. The very high score from the TxGNN model (deep learning), 0.9997, may reflect similarities the model learned between related diseases, not biological evidence, and it does not indicate demonstrated benefit.
 
-Other predictions for this drug include myelodysplastic syndrome and several sickle cell disease variants. The identical scores across the sickle cell variants suggest a shared graph-based signal rather than disease-specific evidence. For myelodysplastic syndrome, a plausible but unvalidated idea is that thymidylate synthase inhibition could suppress abnormal blood-forming cells. However, myelosuppression is a major antifolate toxicity and could worsen existing low blood counts.
+Other predictions from the TxGNN model (deep learning) for this drug include myelodysplastic syndrome and several sickle cell disease variants. The identical scores across the sickle cell variants may reflect similarities the model learned between related diseases rather than disease-specific evidence. For myelodysplastic syndrome, a plausible but unvalidated idea is that thymidylate synthase inhibition could suppress abnormal blood-forming cells. However, myelosuppression is a major antifolate toxicity and could worsen existing low blood counts.
 
 ## Clinical Trial Evidence
 

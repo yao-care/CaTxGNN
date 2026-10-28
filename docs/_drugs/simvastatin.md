@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 850
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Simvastatin: predicted new indication Familial hypercholesterolemia (evidence level L1). Approved use: Hypertriglyceridemia, stroke disorder, cerebrovascular disorder…"
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **8**
 
 </div>
 
-## Simvastatin: From Hyperlipidemia and Atherosclerotic Disease to Familial Hypercholesterolemia
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Simvastatin is a statin originally used to treat lipid disorders such as hypertriglyceridemia, hyperlipoproteinemia and homozygous familial hypercholesterolemia, as well as atherosclerosis and stroke-related conditions.
-The TxGNN model predicts it may be effective for **familial hypercholesterolemia**, with **8 clinical trials** and **20 publications** currently supporting this direction.
+The TxGNN model predicts it may be effective for **brain stem infarction**, with **8 clinical trials** and **20 publications** currently supporting this direction.
 This is closer to an on-label or closely related indication than a true repurposing, because homozygous familial hypercholesterolemia is already among the original indications.
 
 ---
@@ -48,11 +48,11 @@ This is closer to an on-label or closely related indication than a true repurpos
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridemia, stroke disorder, cerebrovascular disorder, cerebral infarction, atherosclerosis, hyperlipoproteinemia, homozygous familial hypercholesterolemia (from the knowledge graph; no approved-indication text is available from Health Canada licences) |
-| Predicted New Indication | Familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain stem infarction |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -62,9 +62,8 @@ This is closer to an on-label or closely related indication than a true repurpos
 
 Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, simvastatin is an HMG-CoA reductase inhibitor. It lowers hepatic cholesterol synthesis and upregulates LDL receptors, which increases clearance of LDL cholesterol.
 
-Familial hypercholesterolemia is a genetic disorder of impaired LDL clearance, so this mechanism applies directly. Homozygous familial hypercholesterolemia is already among the listed original indications. The prediction therefore mostly extends simvastatin to the broader familial hypercholesterolemia group, particularly the heterozygous form.
 
-Other high-scoring predictions include autosomal dominant hypercholesterolemia (99.36%), which overlaps substantially with this indication and has the same evidence base (L1). Predictions for brain stem infarction, CETP deficiency, CYP7A1 deficiency, ABri amyloidosis and a rare neurodevelopmental disorder rest on model output alone or on very weak evidence, and are on Hold. The HIV prediction is a safety-constrained research question, not an efficacy signal.
+Predictions for brain stem infarction, CETP deficiency, ABri amyloidosis and a rare neurodevelopmental disorder rest on model output alone or on very weak evidence, and are on Hold. The HIV prediction is a safety-constrained research question, not an efficacy signal.
 
 ---
 

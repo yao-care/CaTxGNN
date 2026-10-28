@@ -50,10 +50,10 @@ It is a model prediction only and should be treated as a hypothesis.
 |------|------|
 | Original Indication | Not available in the compiled data (Canadian license records contain no indication text) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Dexrazoxane is kn
 
 A speculative link to sclerosing cholangitis is that iron chelation and topoisomerase II inhibition could influence oxidative stress and inflammation in cholestatic bile duct injury. No trial, publication, or mechanistic study in the compiled data supports this idea. The high score should not be read as proof of efficacy.
 
-The other top-ranked predictions are also supported by the model score alone. These include bronchitis, paratyphoid fever, conjunctivitis, epiglottitis, laryngitis, and urinary tract infections. Several of them are infectious conditions for which dexrazoxane has no antimicrobial mechanism, so these high scores may partly reflect network artifacts in the knowledge graph.
+The other top-ranked predictions are also supported by the model score alone. These include bronchitis, paratyphoid fever, conjunctivitis, epiglottitis, laryngitis, and urinary tract infections. Several of them are infectious conditions for which dexrazoxane has no antimicrobial mechanism. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Among the lower-ranked predictions, **cystitis** (rank 10) has the most indirect support. Preclinical work links ferroptosis, an iron-dependent form of cell death, to cyclophosphamide-induced hemorrhagic cystitis and to interstitial cystitis. Two older reviews on chemoprotectants provide context. None of these tests dexrazoxane directly in cystitis, so it remains a research question.
 
@@ -101,7 +101,7 @@ Dexrazoxane is used alongside antineoplastic therapy but is not itself classifie
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signal, not label text)**: The TxGNN knowledge graph links dexrazoxane to impaired renal function disease and non-infectious meningitis. These should be verified against the official label.
+- **Contraindications (model signal, not label text)**: The TxGNN model (deep learning) links dexrazoxane to impaired renal function disease and non-infectious meningitis. This may reflect similarities the model learned between related diseases, not biological evidence. These should be verified against the official label.
 - **Drug Interactions**: 19 interactions were identified, of which 11 are rated Major and 8 Moderate.
   - **Major**: mostly live vaccines or live-organism products: BCG (Tice), measles, mumps, rubella, rotavirus, smallpox (vaccinia), typhoid (live), yellow fever, varicella zoster, and talimogene laherparepvec.
   - **Moderate**: doxorubicin (including liposomal), dimethyl fumarate, diroximel fumarate, monomethyl fumarate, adenovirus type 4 antigen, *Bifidobacterium longum infantis*, *Lactobacillus acidophilus*, and live cholera vaccine (CVD 103-HgR).
@@ -122,7 +122,7 @@ The sclerosing cholangitis prediction rests on a model score alone (L5), with no
 - Mechanism of action data (for example, from DrugBank)
 - A targeted literature search on dexrazoxane in cholestatic or sclerosing liver disease, and on iron or ferroptosis pathways in bile duct injury
 - Preclinical validation before any clinical study, if the hypothesis is pursued
-- Review of the renal impairment and meningitis signals from the knowledge graph, together with the live vaccine interactions, before any new-use study
+- Review of the renal impairment and meningitis signals from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, together with the live vaccine interactions, before any new-use study
 - Optionally, follow-up on cystitis (chemotherapy-induced or interstitial) as a lower-ranked but better-supported research question
 ## Disclaimer
 

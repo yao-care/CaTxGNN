@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Midodrine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 616
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Midodrine: predicted new indication Hypotensive disorder (evidence level L2). Approved use: Orthostatic hypotension"
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
+description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Midodrine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Midodrine: From Orthostatic Hypotension to Hypotensive Disorder
+## Midodrine: Variably protease-sensitive prionopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ This predicted indication largely overlaps with the drug's existing use, so it i
 
 | Item | Content |
 |------|------|
-| Original Indication | Orthostatic hypotension (also multiple system atrophy and postural orthostatic tachycardia syndrome; Canadian licence indication text is not available) |
-| Predicted New Indication | Hypotensive disorder |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Variably protease-sensitive prionopathy |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -115,7 +115,7 @@ The mechanism is direct and consistent with midodrine's established use. A compl
 - Evidence from Phase 3 randomized trials in specific hypotensive populations, such as spinal cord injury
 - A safety monitoring plan covering supine hypertension, bradycardia and urinary retention
 
-**Other predictions:** The other nine predictions have no meaningful evidence and are on Hold. These are variably protease-sensitive prionopathy, faciodigitogenital syndrome, ADHD (two entries), sinoatrial node disease, monogenic obesity, specific developmental disorder, obsolete hypertelorism and sinoatrial block. Most appear to be knowledge-graph artifacts. For the two sinoatrial conditions, midodrine's reflex bradycardia is a safety concern rather than a therapeutic opportunity.
+**Other predictions:** The other nine predictions have no meaningful evidence and are on Hold. These are variably protease-sensitive prionopathy, faciodigitogenital syndrome, ADHD (two entries), sinoatrial node disease, monogenic obesity, specific developmental disorder, obsolete hypertelorism and sinoatrial block. Most appear to be TxGNN model (deep learning) artifacts. For the two sinoatrial conditions, midodrine's reflex bradycardia is a safety concern rather than a therapeutic opportunity.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

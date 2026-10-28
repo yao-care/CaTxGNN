@@ -4,17 +4,17 @@ title: Fosinopril
 parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-13
-description: "Fosinopril: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "Fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Fosinopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fosinopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Fosinopril: From Hypertension to Malignant Renovascular Hypertension
+## Fosinopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fosinopril is an ACE inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
 but there are currently **0 clinical trials** and **0 directly relevant publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
@@ -48,12 +48,12 @@ but there are currently **0 clinical trials** and **0 directly relevant publicat
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); the Canadian licence records contain no approved indication text |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.87% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,9 +67,9 @@ Renovascular hypertension depends heavily on the renin-angiotensin system, so bl
 There is an important safety caveat. ACE inhibitors can precipitate acute renal failure in patients with bilateral renal artery stenosis or stenosis in a solitary kidney. This is a major concern for this particular predicted indication.
 
 The other predictions follow the same pattern:
-- **Malignant hypertensive renal disease** (99.87%): a plausible extension of the hypertension indication, since blocking the renin-angiotensin system may lower blood pressure and pressure inside the kidney's filtering units. No supporting studies were found.
-- **Pulmonary hypertension** (two predictions, 99.87%): ACE inhibitors have not shown reliable benefit here, and systemic vasodilators may worsen oxygenation. The prediction appears to be driven by shared network features.
-- **Braddock syndrome** (99.81%): no clear mechanistic rationale could be identified.
+- **Malignant hypertensive renal disease** (0.9987): a plausible extension of the hypertension indication, since blocking the renin-angiotensin system may lower blood pressure and pressure inside the kidney's filtering units. No supporting studies were found.
+- **Pulmonary hypertension** (two predictions, 0.9987): ACE inhibitors have not shown reliable benefit here, and systemic vasodilators may worsen oxygenation. The prediction appears to be driven by shared network features.
+- **Braddock syndrome** (0.9981): no clear mechanistic rationale could be identified.
 
 ---
 
@@ -81,7 +81,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-For the top prediction (malignant renovascular hypertension), no related literature is available.
+For the top prediction (malignant hypertensive renal disease), no related literature is available.
 
 The only publications retrieved were for the third-ranked prediction, pulmonary hypertension owing to lung disease and/or hypoxia. Neither supports efficacy:
 

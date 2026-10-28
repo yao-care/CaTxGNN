@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ruxolitinib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 829
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ruxolitinib: predicted new indication Hemophagocytic syndrome associated with an infection (evidence level L3). Approved use: Myeloproliferative neoplasm (including polycythemia vera and myelofib…"
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
+description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ruxolitinib
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Ruxolitinib: From Myeloproliferative Neoplasms to Hemophagocytic Syndrome Associated with Infection
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **uterine corpus perivascular epithel
 
 | Item | Content |
 |------|------|
-| Original Indication | Myeloproliferative neoplasm (including polycythemia vera and myelofibrosis) |
-| Predicted New Indication | Hemophagocytic syndrome associated with an infection (best-supported prediction; the rank 1 prediction, uterine corpus PEComa, has no evidence) |
-| TxGNN Prediction Score | 99.32% (rank 1 prediction, uterine corpus PEComa: 99.73%) |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Uterine corpus perivascular epithelioid cell tumor |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

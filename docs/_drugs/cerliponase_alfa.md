@@ -4,17 +4,17 @@ title: Cerliponase Alfa
 parent: Model Prediction Only (L5)
 nav_order: 175
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Cerliponase Alfa: predicted new indication Scheie syndrome (evidence level L5). Approved use: Neuronal ceroid lipofuscinosis"
 monitor_inn: "Cerliponase alfa"
-predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "myoclonic epilepsy, juvenile, susceptibility to", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
 ---
 
 # Cerliponase Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ The prediction rests on model output alone and has a weak mechanistic basis.
 |------|------|
 | Original Indication | Neuronal ceroid lipofuscinosis; infantile neuronal ceroid lipofuscinosis |
 | Predicted New Indication | Scheie syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cerliponase alfa is a recombinant form of the lysosomal enzyme TPP1, and it is used to replace the deficient enzyme in CLN2 disease. It is given by the intracerebroventricular route so that it can reach the brain.
 
-Scheie syndrome is the attenuated form of mucopolysaccharidosis I (MPS I). It is caused by a deficiency of a different lysosomal enzyme, alpha-L-iduronidase. TPP1 does not break down glycosaminoglycans, so there is no direct enzyme or substrate match. The high TxGNN score most likely reflects shared lysosomal storage disease features in the knowledge graph rather than a specific biological mechanism. The intracerebroventricular route could in theory address central nervous system involvement, but this has not been tested.
+Scheie syndrome is the attenuated form of mucopolysaccharidosis I (MPS I). It is caused by a deficiency of a different lysosomal enzyme, alpha-L-iduronidase. TPP1 does not break down glycosaminoglycans, so there is no direct enzyme or substrate match. The high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence. The intracerebroventricular route could in theory address central nervous system involvement, but this has not been tested.
 
 Other predicted indications show the same pattern. Hurler syndrome (also MPS I), cholesteryl ester storage disease, Wolman disease and Gaucher disease each involve a different enzyme deficiency. Several of them already have mechanism-matched therapies. Predictions such as familial encephalopathy with neuroserpin inclusion bodies, juvenile myoclonic epilepsy, proximal myopathy with extrapyramidal signs and an ichthyosis syndrome have no clear lysosomal link to TPP1.
 

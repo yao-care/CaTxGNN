@@ -4,17 +4,17 @@ title: Lumacaftor
 parent: Model Prediction Only (L5)
 nav_order: 565
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Lumacaftor: predicted new indication Leprosy (evidence level L5). Approved use: Cystic fibrosis"
 monitor_inn: "Lumacaftor"
-predicted_indications: ["leprosy", "migraine with or without aura, susceptibility to", "migraine disorder", "rheumatoid arthritis", "pulmonary hypertension", "kyphoscoliotic heart disease", "migraine with brainstem aura", "multiple endocrine neoplasia", "brachydactyly-syndactyly syndrome", "nephrogenic syndrome of inappropriate antidiuresis"]
+predicted_indications: ["leprosy"]
+description: "Lumacaftor: predicted new indication Leprosy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lumacaftor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lumacaftor: From Cystic Fibrosis to Leprosy
+## Lumacaftor: Leprosy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Cystic fibrosis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.44% |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,8 @@ but **no clinical trials and no publications** currently support this prediction
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, lumacaftor is a CFTR corrector that improves the folding and trafficking of F508del-CFTR protein, and its use in cystic fibrosis is established.
 
-Leprosy is a chronic infection caused by *Mycobacterium leprae*, and no plausible CFTR-related pathway is evident. The high TxGNN score (0.994) is a computational prediction only. It may reflect proximity in the knowledge graph rather than true biology, and the prediction is not supported by any trial or publication.
+Leprosy is a chronic infection caused by *Mycobacterium leprae*, and no plausible CFTR-related pathway is evident. The high TxGNN score (0.9944) is a computational prediction from the TxGNN model (deep learning) only. It may reflect similarities the model learned between related diseases, not biological evidence, and the prediction is not supported by any trial or publication.
 
-Other top-ranked predictions (migraine subtypes, rheumatoid arthritis, pulmonary hypertension, kyphoscoliotic heart disease, multiple endocrine neoplasia, brachydactyly-syndactyly syndrome, nephrogenic syndrome of inappropriate antidiuresis) share the same limitation: high scores, no clinical or literature support, and no established mechanistic link.
 
 ---
 
@@ -97,7 +96,6 @@ Currently no related literature available.
 - **Drug Interactions**: The interaction screening returned 100 interacting drugs. The first 20 returned are summarized below.
   - **Major**: Eliglustat, Naldemedine, Naloxegol, Rolapitant
   - **Moderate**: Acetohexamide, Betamethasone, Bupropion, Dexlansoprazole, Esomeprazole, Glimepiride, Lansoprazole, Linagliptin, Nitisinone, Omeprazole, Pantoprazole, Pioglitazone, Prednisone, Rabeprazole, Ranitidine, Repaglinide
-- Lumacaftor induces CYP3A, which would complicate co-administration with many drugs, including agents commonly used in pulmonary hypertension.
 
 Please refer to the package insert for warnings and contraindications.
 

@@ -4,17 +4,17 @@ title: Tiaprofenic Acid
 parent: Model Prediction Only (L5)
 nav_order: 912
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
 monitor_inn: "TIAPROFENIC ACID"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "spondyloarthropathy, susceptibility to", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
+description: "Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tiaprofenic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tiaprofenic Acid: From Rheumatoid Arthritis and Osteoarthritis to Brachydactyly-Syndactyly Syndrome
+## Tiaprofenic Acid: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (based on the knowledge-graph indication data; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 Currently, detailed mechanism of action data is not available. Based on known information, tiaprofenic acid is a propionic acid-derivative NSAID, presumed to act through cyclooxygenase (COX) inhibition. Its use in rheumatoid arthritis and osteoarthritis rests on reducing inflammatory pain and stiffness.
 
-Brachydactyly-syndactyly syndromes are congenital limb malformations, generally driven by developmental gene mutations (for example, HOXD13 and related pathways). COX inhibition is not expected to correct a structural genetic defect, so **no plausible mechanistic link has been established**. The very high TxGNN score most likely reflects the drug's proximity in the knowledge graph to the skeletal and joint-disorder neighbourhood of its original indications, not a biologically credible therapeutic effect.
+Brachydactyly-syndactyly syndromes are congenital limb malformations, generally driven by developmental gene mutations (for example, HOXD13 and related pathways). COX inhibition is not expected to correct a structural genetic defect, so **no plausible mechanistic link has been established**. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ### Other Predictions Reviewed
 
@@ -69,11 +69,10 @@ Nine other predictions were reviewed, and all are also at evidence level L5 with
 
 | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|
-| Spondyloarthropathy, susceptibility to | 99.99% | The most biologically plausible candidate. NSAIDs are first-line therapy for spondyloarthritis. However, the indication is a genetic predisposition rather than an active disease. Classified as a "Research Question"; a targeted literature search is a reasonable next step. |
-| Pseudoachondroplasia | 99.98% | Limited and indirect. Early-onset joint degeneration might allow symptomatic pain relief, but the underlying disease would not be modified. |
-| Myosclerosis | 99.99% | Weak and speculative. Fibrosis is not primarily driven by prostaglandin pathways. |
-| Brachyolmia-amelogenesis imperfecta syndrome, brachyolmia, acromesomelic dysplasia (Hunter-Thompson type), colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.99% to 99.98% | No mechanistic link. These are genetic developmental disorders that NSAIDs do not address. |
-| Factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency | 99.98% | No therapeutic link, and a safety concern. NSAIDs affect platelet function and carry cardiovascular and bleeding cautions in prothrombotic conditions. |
+| Pseudoachondroplasia | 0.9998 | Limited and indirect. Early-onset joint degeneration might allow symptomatic pain relief, but the underlying disease would not be modified. |
+| Myosclerosis | 0.9999 | Weak and speculative. Fibrosis is not primarily driven by prostaglandin pathways. |
+| Brachyolmia-amelogenesis imperfecta syndrome, brachyolmia, acromesomelic dysplasia (Hunter-Thompson type), colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9999 to 0.9998 | No mechanistic link. These are genetic developmental disorders that NSAIDs do not address. |
+| Factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency | 0.9998 | No therapeutic link, and a safety concern. NSAIDs affect platelet function and carry cardiovascular and bleeding cautions in prothrombotic conditions. |
 
 ---
 
@@ -113,7 +112,7 @@ No drug-interaction records were found in the data compiled for this report. Bec
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, brachydactyly-syndactyly syndrome, has no clinical, literature, or mechanistic support. It is most likely an artifact of knowledge-graph proximity. A congenital developmental defect is unlikely to respond to COX inhibition.
+The top-ranked prediction, brachydactyly-syndactyly syndrome, has no clinical, literature, or mechanistic support. Its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A congenital developmental defect is unlikely to respond to COX inhibition.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada, which are required before any safety screening

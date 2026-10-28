@@ -6,9 +6,9 @@ nav_order: 621
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
+description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mirtazapine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Mirtazapine: From Major Depressive Disorder to Ohdo Syndrome and Variants
+## Mirtazapine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,11 +47,11 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -63,14 +63,14 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Ohdo syndrome (including KAT6B-related variants) is a rare genetic disorder of chromatin regulation, marked by intellectual disability and craniofacial features. No biological pathway connecting mirtazapine's receptor targets to the cause of this condition can be established from the available evidence. At most, any benefit would be symptomatic (for example sleep, appetite, mood or behaviour) and not disease-modifying.
 
-The very high TxGNN score (99.42%) is a purely computational output and is not backed by any clinical or published evidence. It should be treated as a hypothesis only.
+The very high TxGNN score (0.9942) is a purely computational output and is not backed by any clinical or published evidence. It should be treated as a hypothesis only.
 
 ### Other Predicted Indications
 
 | Rank | Predicted Indication | TxGNN Score | Trials / Publications | Comment |
 |------|------|------|------|------|
-| 2 | Blepharophimosis – intellectual disability syndrome, Ohdo type | 99.11% | 0 / 0 | Likely the same or a closely related disease node as rank 1, so the two predictions are probably not independent evidence. |
-| 3 | Benign paroxysmal torticollis of infancy | 99.11% | 0 / 0 | Considered a migraine-spectrum condition, so a speculative serotonergic or antihistaminergic link is conceivable. The condition is self-limiting in infancy, a sedating antidepressant has an unfavourable risk-benefit profile at that age, and no paediatric safety data are available. |
+| 2 | Blepharophimosis – intellectual disability syndrome, Ohdo type | 0.9911 | 0 / 0 | Likely the same or a closely related disease node as rank 1, so the two predictions are probably not independent evidence. |
+| 3 | Benign paroxysmal torticollis of infancy | 0.9911 | 0 / 0 | Considered a migraine-spectrum condition, so a speculative serotonergic or antihistaminergic link is conceivable. The condition is self-limiting in infancy, a sedating antidepressant has an unfavourable risk-benefit profile at that age, and no paediatric safety data are available. |
 
 ---
 

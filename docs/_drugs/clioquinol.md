@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clioquinol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 207
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Clioquinol: predicted new indication Cutaneous candidiasis (evidence level L4). Approved use: Tinea pedis, tinea corporis, tinea infection…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "CLIOQUINOL"
-predicted_indications: ["Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
+last_modified_at: 2026-10-23
+description: "Clioquinol: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection…"
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,37 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Clioquinol: From Tinea Infections to Cutaneous Candidiasis
+## Clioquinol: From Tinea Infections to Ectothrix Infectious Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Clioquinol is a topical antimicrobial originally used for fungal skin infections such as tinea pedis, tinea corporis, and dermatophyte infections of the groin and perianal area.
-The TxGNN model predicts it may be effective for **cutaneous candidiasis**,
-but currently there are **no registered clinical trials** and only **1 indirect publication** supporting this direction.
+Clioquinol is a topical halogenated hydroxyquinoline used in dermatophyte skin infections such as tinea pedis and tinea corporis.
+The TxGNN model predicts it may be effective for **ectothrix infectious disease**, a fungal infection of the outer hair shaft.
+Currently there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, tinea infection, dermatophytosis of the groin and perianal area (the Canadian licence records contain no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Cutaneous candidiasis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, dermatophytosis of groin and perianal area (relations recorded in the knowledge graph; no approved indication text is available in the Canadian licence records) |
+| Predicted New Indication | Ectothrix infectious disease |
+| TxGNN Prediction Score | 0.9926 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
+| Number of approvals | 3 licences (DINs) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, clioquinol is a halogenated 8-hydroxyquinoline. Compounds of this class are generally understood to act as metal chelators (zinc, copper, iron), which gives them antimicrobial and antifungal activity. Its efficacy against dermatophytes is the basis of its original indications, and mechanistically it may extend to *Candida* species.
+Currently, detailed mechanism of action data is not available. Based on known information, clioquinol is a topical halogenated hydroxyquinoline with antifungal and antibacterial activity. A commonly proposed mechanism is metal ion chelation affecting fungal enzymes, but this cannot be confirmed from the data compiled for this report.
 
-Dermatophyte infections and cutaneous candidiasis are both superficial fungal skin infections, so a shared antifungal mechanism is plausible. However, the only retrieved publication is a 1988 occupational-prevention report on *Candida albicans* (in vitro work on soap additives). It is indirect and does not show that clioquinol treats cutaneous candidiasis. The very high TxGNN score is a computational prediction only.
+Ectothrix infection is a dermatophyte infection in which fungal arthroconidia form on the outside of the hair shaft, typically from *Microsporum* and *Trichophyton* species. The high score (0.9926) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+
+There is an important limitation. Hair-shaft infections are difficult to treat with topical agents alone because penetration into the hair follicle is poor, and standard care usually relies on systemic antifungals. This weakens the extrapolation from superficial skin infections.
+
+A second prediction, **endothrix infectious disease** (score 0.9919, fungus growing inside the hair shaft), has the same limitations. It also has no supporting trials or literature, and intrahair growth is even harder to reach with topical therapy.
 
 ## Clinical Trial Evidence
 
@@ -66,45 +71,39 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Other (occupational prevention report) | Przeglad dermatologiczny | In vitro study of additives to toilet soaps against *C. albicans* strains from patients. Indirect, and it does not establish clinical efficacy of clioquinol. |
-
-For context, a 2021 in vitro and alternative-model study (PMID [33772895](https://pubmed.ncbi.nlm.nih.gov/33772895/), *Mycoses*) tested clioquinol combined with ciclopirox and terbinafine in dermatophytosis. It relates to the predicted indication "superficial mycosis" rather than candidiasis.
+Currently no related literature available.
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 00074462 | LOCACORTEN VIOFORM | Not specified | Not specified |
-| 00074454 | LOCACORTEN VIOFORM EARDROPS | Not specified | Not specified |
-| 00074500 | VIOFORM HYDROCORTISONE | Not specified | Not specified |
+| 00074462 | LOCACORTEN VIOFORM | Not stated | Not stated |
+| 00074454 | LOCACORTEN VIOFORM EARDROPS | Not stated | Not stated |
+| 00074500 | VIOFORM HYDROCORTISONE | Not stated | Not stated |
+
+All three licences are currently valid and are listed as single-ingredient records.
 
 ## Safety Considerations
 
-The data compiled for this report list the following conditions as contraindications for clioquinol-containing products (derived from knowledge-graph drug-disease edges, not from label text):
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
 
-- **Endocrine:** adrenocortical insufficiency, Addison disease
-- **Skin:** skin atrophy
-- **Vascular:** telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia, peripheral vascular disease, intermittent vascular claudication, peripheral arterial disease
+The following are disease relations recorded in the knowledge graph. They are not label text, but they merit review against the official labelling:
+- **Contraindication relations in the knowledge graph:** adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia, peripheral vascular disease, intermittent vascular claudication, peripheral arterial disease.
 
-Some of these may reflect the corticosteroid component (hydrocortisone) in the combination products rather than clioquinol itself.
-
-No drug interaction records were found. Please refer to the package insert for warnings and full safety information.
+No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but the only supporting publication is a 1988 indirect *in vitro* report, and there are no clinical trials. Evidence is at the L4 level. The other predicted indications (Majocchi granuloma, ectothrix and endothrix infections, scalp or beard dermatophytosis, tinea profunda) are L5, prediction only. They involve deep or follicular infections where topical penetration is likely inadequate. "Superficial mycosis" has the most support, at L4, but largely restates existing labeled use.
+The prediction is biologically plausible within the dermatophyte class, but it is supported only by a model score. No clinical trials or publications address ectothrix infection, so the evidence level is L5. Poor topical penetration into the hair shaft further limits confidence.
 
 **To proceed, the following is needed:**
-- The Health Canada package insert, to confirm warnings, contraindications, and approved indications (currently blocking for safety screening)
-- Mechanism of action data for clioquinol (e.g., from DrugBank)
-- Direct antifungal data against *Candida* species (in vitro susceptibility, then controlled clinical studies in cutaneous candidiasis)
-- Confirmation of dosage forms and routes for the three Canadian products, to check route compatibility
-- A review of the safety profile for the proposed use, including the corticosteroid-related contraindications for combination products
+- Health Canada package insert warnings, contraindications and approved indication text (currently blocking for safety screening)
+- Mechanism of action data for clioquinol (for example from DrugBank)
+- Literature or in vitro data on clioquinol activity against ectothrix and endothrix dermatophytes
+- Assessment of whether a topical route can adequately reach infected hair shafts, compared with systemic antifungal standard care
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -48,10 +48,10 @@ However, there are **no registered clinical trials** and only **1 publication** 
 |------|------|
 | Original Indication | Cholestasis, benign recurrent intrahepatic cholestasis, familial intrahepatic cholestasis, familial isolated deficiency of vitamin E (the Canadian licence records contain no approved-indication text) |
 | Predicted New Indication | Inborn disorder of bilirubin metabolism |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

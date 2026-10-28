@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Captopril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 155
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Captopril: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "CAPTOPRIL"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Captopril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ but there are **no registered clinical trials** and only **1 publication** (a di
 |------|------|
 | Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy (the licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.28% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| TxGNN Prediction Score | 0.9928 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,8 +65,8 @@ Detailed mechanism-of-action data is not available in the data compiled for this
 Malignant hypertension with renal involvement is a condition in which activation of the renin-angiotensin-aldosterone system (RAAS) is a key driver. This makes ACE inhibition mechanistically plausible. However, this predicted indication largely overlaps with captopril's existing hypertension and kidney-related use. It is better viewed as an extension of an existing indication than as a distinct repurposing opportunity.
 
 Other high-scoring predictions follow similar logic:
-- **Malignant renovascular hypertension** (score 99.28%): strongly angiotensin II-dependent, so ACE inhibition is coherent. The supporting literature is mostly old case reports, reviews and diagnostic papers.
-- **Pulmonary hypertension (two subtypes)** (score 99.15%): supported only by the model score and tangential mechanistic data. ACE inhibitors have not shown reliable benefit in pulmonary arterial hypertension.
+- **Malignant renovascular hypertension** (score 0.9928): strongly angiotensin II-dependent, so ACE inhibition is coherent. The supporting literature is mostly old case reports, reviews and diagnostic papers.
+- **Pulmonary hypertension (two subtypes)** (score 0.9915): supported only by the model score and tangential mechanistic data. ACE inhibitors have not shown reliable benefit in pulmonary arterial hypertension.
 
 ---
 
@@ -117,7 +117,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.28%) and the mechanism is plausible, but there are no clinical trials and the only publication is a diagnostic case report. The indication also largely overlaps with captopril's existing hypertension and nephropathy use, so it offers little distinct repurposing value.
+The prediction score is high (0.9928) and the mechanism is plausible, but there are no clinical trials and the only publication is a diagnostic case report. The indication also largely overlaps with captopril's existing hypertension and nephropathy use, so it offers little distinct repurposing value.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada, which is a blocking gap for safety screening

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Elagolix
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 318
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Elagolix: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)"]
 # Elagolix
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Amenorrhea appears in that literature as an expected on-treatment effect of mens
 |------|------|
 | Original Indication | Endometriosis (endometriosis of uterus) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

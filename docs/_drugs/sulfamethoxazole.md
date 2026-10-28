@@ -48,17 +48,17 @@ Evidence is limited to **0 clinical trials** and **1 publication** (a susceptibi
 |------|------|
 | Original Indication | Infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis, shigellosis, conjunctivitis and others (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 (the data compiled for this report rated it L4, but no efficacy or mechanism studies were found, so L5 is the better fit) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the compiled data. Based on general knowledge, sulfamethoxazole inhibits bacterial dihydropteroate synthase, which blocks folate synthesis. This is a plausible antibacterial mechanism against the pathogens that cause bacterial conjunctivitis.
 
-Conjunctivitis already appears among the drug's original indications, so the high TxGNN score (0.996) most likely reflects this existing association and the drug's antibacterial class. It should not be read as new, independent evidence.
+Conjunctivitis already appears among the drug's original indications, so the high TxGNN score (0.9963) most likely reflects this existing association and the drug's antibacterial class. It should not be read as new, independent evidence.
 
 Viral causes of acute contagious conjunctivitis would not be expected to respond to an antibacterial. Any benefit would be limited to bacterial cases.
 

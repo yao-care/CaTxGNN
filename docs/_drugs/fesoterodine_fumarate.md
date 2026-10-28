@@ -8,6 +8,7 @@ nav_order: 382
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Fesoterodine Fumarate
@@ -51,8 +52,8 @@ No clinical trial or literature evidence for novel indications is available from
 | Predicted New Indication | None — TxGNN prediction not generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A (no predictions available) |
-| Canada Market Status | Not Marketed (0 DINs on record) |
-| Number of DINs | 0 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

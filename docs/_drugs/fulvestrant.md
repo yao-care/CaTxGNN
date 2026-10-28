@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fulvestrant
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 420
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available in the data compiled for this report . Linked trials po…"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Fulvestrant
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fulvestrant: From Its Approved Use to HIV Infectious Disease
+## Fulvestrant: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the Canadian licence records contain no indication text). Linked trials point to hormone receptor-positive, HER2-negative advanced breast cancer. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 (preclinical evidence only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -104,7 +104,6 @@ All six licences are valid single-ingredient products.
 | Cytotoxicity Classification | Targeted/endocrine therapy (ER antagonist and degrader), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert; knowledge-graph signals suggest attention to liver function, platelet count and coagulation status |
 | Handling Protection | Please refer to the package insert and local institutional policy |
 
 ---

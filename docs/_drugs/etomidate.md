@@ -8,6 +8,7 @@ nav_order: 365
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Etomidate
@@ -49,8 +50,8 @@ Etomidate (DB00292) is an intravenous hypnotic agent most commonly used for anes
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No prediction generated; no supporting studies |
-| Canada Market Status | Not marketed (0 approved products) |
-| Number of DINs | 0 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | **Hold** |
 
 ---

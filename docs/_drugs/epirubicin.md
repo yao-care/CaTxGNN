@@ -48,10 +48,10 @@ but there are **no registered clinical trials** and only **6 publications** (mos
 |------|------|
 | Original Indication | Breast carcinoma / breast neoplasm (the Canadian licence record has no indication text) |
 | Predicted New Indication | Primary pulmonary lymphoma |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -116,7 +116,7 @@ The Health Canada package insert warnings were not available. Please refer to th
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.71%), but there are no registered trials and no direct evidence in primary pulmonary lymphoma. Doxorubicin-based regimens are the established standard, and epirubicin has no defined role in this disease. The safety profile (cardiac, haematological) is demanding.
+The TxGNN score is very high (0.9971), but there are no registered trials and no direct evidence in primary pulmonary lymphoma. Doxorubicin-based regimens are the established standard, and epirubicin has no defined role in this disease. The safety profile (cardiac, haematological) is demanding.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank
@@ -125,7 +125,7 @@ The TxGNN score is very high (99.71%), but there are no registered trials and no
 - Comparative evidence against doxorubicin-based standard regimens (e.g., R-CHOP)
 - A cardiac and haematological safety monitoring plan
 
-**Other predictions to consider:** In the same analysis, **small cell lung carcinoma** (score 99.69%) has stronger support, including a Phase 3 RCT of cisplatin/etoposide with or without epirubicin and cyclophosphamide (NCT00003606). However, it is not shown to beat the current standard of platinum-etoposide plus immune checkpoint inhibitor. **Upper aerodigestive tract neoplasm** (mainly gastroesophageal cancer; score 99.06%) is supported by randomized evidence in which epirubicin is part of the ECF/EOX backbone, such as the MAGIC-type trial (PMID 16822992). These two are better candidates for a further research question than the top-ranked prediction.
+**Other predictions to consider:** In the same analysis, **small cell lung carcinoma** (score 0.9969) has stronger support, including a Phase 3 RCT of cisplatin/etoposide with or without epirubicin and cyclophosphamide (NCT00003606). However, it is not shown to beat the current standard of platinum-etoposide plus immune checkpoint inhibitor. **Upper aerodigestive tract neoplasm** (mainly gastroesophageal cancer; score 0.9906) is supported by randomized evidence in which epirubicin is part of the ECF/EOX backbone, such as the MAGIC-type trial (PMID 16822992). These two are better candidates for a further research question than the top-ranked prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

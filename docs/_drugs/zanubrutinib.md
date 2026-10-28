@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 989
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Zanubrutinib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 # Zanubrutinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Only **1 clinical trial** (Phase 1, where zanubrutinib is a combination partner)
 |------|------|
 | Original Indication | Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| TxGNN Prediction Score | 0.9965 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Only **1 clinical trial** (Phase 1, where zanubrutinib is a combination partner)
 
 Currently, detailed mechanism of action data is not available. Based on known information, zanubrutinib is a next-generation Bruton tyrosine kinase (BTK) inhibitor. Its efficacy in B-cell malignancies has been established, and the data compiled for this report suggest that it may be mechanistically relevant to other blood cancers.
 
-The link to myeloid leukemia is indirect. BTK is expressed in some myeloid cells and AML blasts and may contribute to survival signaling. However, there is no direct clinical evidence of benefit. The publications compiled for this report concern chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL), Waldenström macroglobulinemia and BTK inhibitor safety. These are all B-cell diseases, not myeloid leukemia. The high score (0.996) should be read as a model prediction, not as proof of efficacy.
+The link to myeloid leukemia is indirect. BTK is expressed in some myeloid cells and AML blasts and may contribute to survival signaling. However, there is no direct clinical evidence of benefit. The publications compiled for this report concern chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL), Waldenström macroglobulinemia and BTK inhibitor safety. These are all B-cell diseases, not myeloid leukemia. The high score (0.9965) should be read as a model prediction, not as proof of efficacy.
 
 ---
 

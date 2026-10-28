@@ -4,17 +4,17 @@ title: Gefitinib
 parent: Model Prediction Only (L5)
 nav_order: 427
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer (lung cancer). The Canadian licence record…"
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa"]
+description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Gefitinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gefitinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+## Gefitinib: Fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **Gingival Fibromatosis**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer (lung cancer). The Canadian licence records compiled for this report contain no indication text, so this comes from the knowledge graph. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, gefitinib is a selective inhibitor of the epidermal growth factor receptor (EGFR) tyrosine kinase. Its efficacy in EGFR-mutant non-small cell lung cancer is established, and mechanistically it may be applicable to conditions driven by EGFR signalling.
 
-A plausible but unproven link is EGFR-driven fibroblast proliferation in gingival fibromatosis. Nothing in the compiled data supports this. The high score (rank 2721 in the model's ordering) reflects a graph-based prediction only, and the relationship to the original indication has not been assessed.
+A plausible but unproven link is EGFR-driven fibroblast proliferation in gingival fibromatosis. Nothing in the compiled data supports this. The high score (rank 2721 in the model's ordering) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The relationship to the original indication has not been assessed.
 
 The other top-ranked predictions are similarly weak. Several (fibroma of lung, hamartoma of lung, lung benign neoplasm) are benign lung conditions, and the supporting literature for lung-related entries is almost entirely about gefitinib in lung cancer rather than in those diseases. Others (e.g., the VCP-related myopathy and junctional epidermolysis bullosa) have no evident mechanistic connection, and for epidermolysis bullosa, gefitinib's known skin toxicity is a concern rather than a therapeutic signal.
 
@@ -109,7 +109,7 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a graph-model score, with no clinical trials, no literature, and no assessed link to the original indication. The prediction is at evidence level L5. Safety screening cannot proceed because the Canadian package insert warnings and contraindications are missing.
+The prediction rests solely on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no literature, and no assessed link to the original indication. The prediction is at evidence level L5. Safety screening cannot proceed because the Canadian package insert warnings and contraindications are missing.
 
 **To proceed, the following is needed:**
 - Health Canada package insert (warnings, contraindications, approved indication text, dosage forms)

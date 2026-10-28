@@ -48,10 +48,10 @@ but there are currently **no clinical trials and no publications** supporting th
 |------|------|
 | Original Indication | Type 2 diabetes mellitus (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

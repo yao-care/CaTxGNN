@@ -50,10 +50,10 @@ Evidence is limited to model prediction and indirect literature.
 |------|------|
 | Original Indication | Not available in the compiled data |
 | Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 (preclinical/mechanistic and indirect literature; no completed RCT for this indication) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 (preclinical/mechanistic and indirect literature; no completed RCT for this indication) |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 This supports a plausible effect on pregnancy-related causes of absent menses, such as retained products of conception or missed abortion. It does not address the endocrine or structural causes of primary or secondary amenorrhea, such as hypothalamic, pituitary or ovarian disorders, or Asherman syndrome.
 
-The retrieved literature concerns pregnancy termination, medical management of missed abortion and abnormal uterine bleeding, not the treatment of amenorrhea. The high TxGNN score (0.996) is a model prediction, and the link to this indication is indirect. In most of these studies, "amenorrhea" is used to describe gestational age rather than as the condition being treated.
+The retrieved literature concerns pregnancy termination, medical management of missed abortion and abnormal uterine bleeding, not the treatment of amenorrhea. The high TxGNN score (0.9964) is a model prediction, and the link to this indication is indirect. In most of these studies, "amenorrhea" is used to describe gestational age rather than as the condition being treated.
 
 ---
 
@@ -122,7 +122,7 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The only support is a high model score (99.64%) with an indirect mechanistic link. There are no registered trials, and the retrieved literature addresses pregnancy termination rather than amenorrhea treatment. Misoprostol would not address the endocrine or structural causes of amenorrhea, and it carries reproductive safety concerns.
+The only support is a high model score (0.9964) with an indirect mechanistic link. There are no registered trials, and the retrieved literature addresses pregnancy termination rather than amenorrhea treatment. Misoprostol would not address the endocrine or structural causes of amenorrhea, and it carries reproductive safety concerns.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings, contraindications and approved indications (currently missing and blocking safety screening)

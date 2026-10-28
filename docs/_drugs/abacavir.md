@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Abacavir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 11
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Abacavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Abacavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **no clinical trials** and only **1 publication** (a pre
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,8 +63,8 @@ Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase 
 Two caveats apply. The only supporting study tested abacavir together with zidovudine and lamivudine, so abacavir's own contribution cannot be separated. And because this is a veterinary indication, direct translation to human use is not applicable. The high score likely reflects similarity to the existing HIV indication more than independent evidence.
 
 Two other predictions were also reviewed:
-- **Simian immunodeficiency virus infection** (score 99.79%): supported only by a 2004 in vitro susceptibility study (PMID 15040537). It is mainly a research model for HIV and does not represent a distinct opportunity for humans.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.78%): no trials or literature, and no identified mechanistic link. It is a computational prediction only (evidence level L5).
+- **Simian immunodeficiency virus infection** (score 0.9979): supported only by a 2004 in vitro susceptibility study (PMID 15040537). It is mainly a research model for HIV and does not represent a distinct opportunity for humans.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9978): no trials or literature, and no identified mechanistic link. It is a computational prediction only (evidence level L5).
 
 ## Clinical Trial Evidence
 

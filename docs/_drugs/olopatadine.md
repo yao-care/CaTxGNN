@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Ocular rosacea is driven mainly by meibomian gland dysfunction, inflammation of the lid margin, microbial and *Demodex* factors, and innate immune and cytokine-mediated inflammation. Histamine plays a limited role. A plausible but unproven link is that olopatadine could ease itching, redness, and the mast cell-related part of the inflammation on the ocular surface.
 
-The high TxGNN score (0.994) most likely reflects the drug's closeness to other conjunctivitis indications in the knowledge graph. It is a model-based prediction and is not backed by clinical data. The mechanistic fit is only partial, because the main drivers of rosacea conjunctivitis are not histamine-mediated.
+The high TxGNN score (0.9941) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is a model-based prediction and is not backed by clinical data. The mechanistic fit is only partial, because the main drivers of rosacea conjunctivitis are not histamine-mediated.
 
 ## Clinical Trial Evidence
 

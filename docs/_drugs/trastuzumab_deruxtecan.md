@@ -4,17 +4,17 @@ title: Trastuzumab Deruxtecan
 parent: Model Prediction Only (L5)
 nav_order: 933
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Trastuzumab Deruxtecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Trastuzumab deruxtecan"
-predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "bronchitis", "diabetic cataract", "bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis"]
+predicted_indications: ["drug-induced osteoporosis"]
 ---
 
 # Trastuzumab Deruxtecan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate marketed in Canada as ENHERTU. The approved indication text was not available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but **no clinical trials and no publications** currently support this prediction, so it rests on a graph-based score alone.
+The TxGNN model (deep learning) predicts it may be effective for **drug-induced osteoporosis**, but **no clinical trials and no publications** currently support this prediction. The score comes from the model and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 |------|------|
 | Original Indication | Not available in the compiled data (the Canadian license record has no indication text) |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,8 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general knowledge, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate that delivers a topoisomerase I inhibitor payload to HER2-expressing cells. Its use is in HER2-expressing cancers, notably breast cancer.
 
-The prediction is difficult to justify mechanistically. No plausible link between a HER2-targeted cytotoxic conjugate and bone metabolism or drug-induced bone loss is evident. The high score (rank 11,995 in the model's ordering) reflects a graph-based association only, and it should not be read as evidence of benefit.
+The prediction is difficult to justify mechanistically. No plausible link between a HER2-targeted cytotoxic conjugate and bone metabolism or drug-induced bone loss is evident. The high score (rank 11,995 in the model's ordering) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of benefit.
 
-The other top predictions share this weakness. They include severe nonproliferative diabetic retinopathy, diabetic retinopathy, bronchitis, diabetic cataract, and several tumour types without known HER2 dependence. All are supported by prediction alone.
 
 ---
 
@@ -77,7 +76,6 @@ Currently no related clinical trials registered for drug-induced osteoporosis.
 
 Currently no related literature available for drug-induced osteoporosis.
 
-The only prediction among the top ten with retrieved publications was "ductal or ductular proliferation" (rank 8, 16 publications). Those papers concern HER2-positive and HER2-low breast cancer, pancreatic cancer, salivary duct carcinoma, and adverse events such as Fanconi syndrome, dermatomyositis, and interstitial lung disease. They appear to be a keyword match on "ductal" and do not address the predicted indication. They support the drug's existing HER2-directed oncology use, not a new indication.
 
 ---
 

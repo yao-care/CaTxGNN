@@ -50,10 +50,10 @@ This prediction rests on computational modelling alone and should be treated as 
 |------|------|
 | Original Indication | Not available (no approved indication text in the Canadian licence records) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.04% |
+| TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Oxidative stress and cholestatic injury are plausibly involved in the pathophysiology of sclerosing cholangitis, so an antioxidant trace element could be mechanistically relevant. This is a plausible hypothesis, not an established link.
 
-The retrieved literature should be read with caution. The papers describe altered hepatic selenium and copper retention in primary sclerosing cholangitis (PSC) as an association or nutritional-status observation. They do not show selenium working as a treatment. No evidence shows that selenium supplementation changes the disease course, cholestasis markers, or outcomes in PSC. The high TxGNN score (99.04%) is a model output only.
+The retrieved literature should be read with caution. The papers describe altered hepatic selenium and copper retention in primary sclerosing cholangitis (PSC) as an association or nutritional-status observation. They do not show selenium working as a treatment. No evidence shows that selenium supplementation changes the disease course, cholestasis markers, or outcomes in PSC. The high TxGNN score (0.9904) is a model output only.
 
 ---
 
@@ -96,7 +96,7 @@ Currently no related clinical trials registered.
 | 02507587 | MICRO+6 CONCENTRATE | Not specified | Not specified |
 | 02091100 | MICRO PLUS 6 (PEDIATRIC) | Not specified | Not specified |
 
-A sixth valid licence, ADDNUTRIV (DIN 02497697), is also on the market. All six are single-ingredient licences and none has been cancelled.
+A sixth license, ADDNUTRIV (DIN 02497697), is also on the market.
 
 ---
 

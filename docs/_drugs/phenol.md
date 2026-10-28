@@ -6,9 +6,9 @@ nav_order: 729
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
-description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "PHENOL"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
+description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenol
@@ -33,31 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Phenol: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Phenol: Acrodermatitis chronica atrophicans
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Phenol is a chemical agent (antiseptic, neurolytic, caustic) whose original indication in the knowledge graph is dermatitis.
+Phenol is a chemical agent (antiseptic, neurolytic, caustic) whose original indication is dermatitis.
 The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on computation alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis (from the knowledge graph; no approved indication text is available in the Canadian licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Phenol is known as a topical or local chemical agent used as an antiseptic, neurolytic and caustic, and its link to dermatitis comes from the knowledge graph.
+Currently, detailed mechanism of action data is not available. Phenol is known as a topical or local chemical agent used as an antiseptic, neurolytic and caustic, and it has a documented link to dermatitis.
 
-Acrodermatitis chronica atrophicans is the late skin manifestation of Borrelia infection and is treated with antibiotics. Phenol has no known antimicrobial role in this setting, so no mechanistic link can be established. The high score (99.95%) is most likely a computational association with skin disease, not evidence of benefit.
+Acrodermatitis chronica atrophicans is the late skin manifestation of Borrelia infection and is treated with antibiotics. Phenol has no known antimicrobial role in this setting, so no mechanistic link can be established. The high score (0.9995) is most likely a computational association with skin disease, not evidence of benefit.
 
 Other top-ranked predictions show the same pattern. They include neonatal and amyopathic dermatomyositis, pediatric connective-tissue-disease-associated interstitial lung disease, familial hydroa vacciniforme, severe nonproliferative diabetic retinopathy and dry eye syndrome. None has clinical trials, and none has a plausible mechanism. The one partial exception is **acne keloid**, which has indirect evidence from phenol chemical peels (see below).
 
@@ -84,7 +84,7 @@ For context, the other predicted indications have the following literature:
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text):** The knowledge graph links phenol to contraindications in many conditions. The main groups are:
+- **Contraindications (from recorded associations, not label text):** Phenol is linked to contraindications in many conditions. The main groups are:
   - Cardiac and vascular: sudden cardiac arrest, heart conduction disease, atrioventricular block, peripheral arterial disease, intermittent claudication.
   - Metabolic and organ: diabetes mellitus, diabetic ketoacidosis, liver disease, gallbladder disease, respiratory failure, active peptic ulcer disease, appendicitis.
   - Haematological and neurological: neutropenia, agranulocytosis, epilepsy.

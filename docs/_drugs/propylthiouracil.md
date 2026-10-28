@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: Moderate Evidence (L3-L4)
 nav_order: 780
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone re… (evidence level L4). Approved use: Hyperthyroidism, Graves disease, thyrotoxicosis, t…"
+description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Hyperthyroidism, Graves disease, thyrotoxicosis, t…"
 monitor_inn: "PROPYLTHIOURACIL"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
+## Propylthiouracil: From Hyperthyroidism to Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The mechanistic rationale is weak, and the high score most likely reflects netwo
 |------|------|
 | Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (approved indication text is not available in the Canadian licence records) |
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,8 +70,7 @@ The high TxGNN score most likely reflects the network closeness of RTH to hypert
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Neonatal thyrotoxicosis | 99.40% | L4 | Mechanistically close to Graves disease. The evidence is mostly reviews on hyperthyroidism in pregnancy (maternal treatment), not direct neonatal treatment. It is a reasonable research question, but hepatotoxicity is a major concern in children. |
-| Hyperthyroxinemia | 99.08% | L4 | This is a laboratory finding with many causes. It would need to be split into specific causes, because non-thyrotoxic forms would not benefit and could be harmed. |
+| Hyperthyroxinemia | 0.9908 | L4 | This is a laboratory finding with many causes. It would need to be split into specific causes, because non-thyrotoxic forms would not benefit and could be harmed. |
 
 ---
 

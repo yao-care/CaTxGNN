@@ -48,10 +48,10 @@ The more biologically plausible predictions in the list are **otitis externa** a
 |------|------|
 | Original Indication | Conjunctivitis (acute contagious conjunctivitis, blepharoconjunctivitis) |
 | Predicted New Indication | Postinfectious vasculitis |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 19 |
+| Canada Market Status | Marketed (valid licenses: 19 of 19) |
+| Number of DINs | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,8 +61,8 @@ Currently, detailed mechanism of action data is not available. Based on known in
 For the top-ranked prediction, postinfectious vasculitis, no plausible mechanistic link was identified. This condition is immune-mediated, and a topical antibacterial is unlikely to reach the relevant tissue or act on the underlying process. The other highly ranked predictions (post-bacterial disorder, post-infectious syndrome, infective urethral stricture, Chagas cardiomyopathy and infection-related hemolytic uremic syndrome) are similarly weak. They involve immune sequelae, fibrosis, or systemic disease where gramicidin D's systemic toxicity rules out use. Hemolysis is a particular concern in hemolytic uremic syndrome.
 
 Two lower-ranked predictions are more coherent:
-- **Otitis externa** (score 99.78%): a superficial bacterial infection of the ear canal. Gramicidin is already used in combination eye and ear preparations, and this is closely related to the original topical indications. A perforated tympanic membrane would raise ototoxicity concerns.
-- **Ulcerative blepharitis** (score 99.30%): often caused by Staphylococcus aureus and closely related to blepharoconjunctivitis. Gramicidin D's Gram-positive activity makes this essentially an extension of the existing indication.
+- **Otitis externa** (score 0.9978): a superficial bacterial infection of the ear canal. Gramicidin is already used in combination eye and ear preparations, and this is closely related to the original topical indications. A perforated tympanic membrane would raise ototoxicity concerns.
+- **Ulcerative blepharitis** (score 0.9930): often caused by Staphylococcus aureus and closely related to blepharoconjunctivitis. Gramicidin D's Gram-positive activity makes this essentially an extension of the existing indication.
 
 Both are supported only by indirect evidence (Level L4), and no trials or literature were available to confirm them.
 

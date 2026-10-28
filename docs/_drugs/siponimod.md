@@ -4,17 +4,17 @@ title: Siponimod
 parent: Model Prediction Only (L5)
 nav_order: 852
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Siponimod: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not specified in the licence data compiled for this report"
 monitor_inn: "Siponimod"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata", "ulerythema ophryogenesis", "myelodysplastic syndrome"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
 ---
 
 # Siponimod
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Siponimod is a selective S1P1/S5 receptor modulator marketed in Canada under the
 |------|------|
 | Original Indication | Not specified in the licence data compiled for this report |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.68% |
+| TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detailed mechanism of action data is not available in the compiled data. Siponim
 
 However, this link is speculative. S1P1 modulators are associated with bradycardia and other cardiovascular effects, which is a concern in a cardiopulmonary condition. The high TxGNN score reflects network-based computational similarity and is not evidence of clinical benefit.
 
-Other top-ranked predictions for this drug are also worth noting. Rheumatoid arthritis (rank 7, score 99.16%) is the most biologically plausible, because S1P signalling regulates immune cell trafficking. A 2021 review supports this mechanism. It is a research question only, and no rheumatoid arthritis trials exist.
+Other top-ranked predictions for this drug are also worth noting. Rheumatoid arthritis (rank 7, score 0.9916) is the most biologically plausible, because S1P signalling regulates immune cell trafficking. A 2021 review supports this mechanism. It is a research question only, and no rheumatoid arthritis trials exist.
 
 ---
 

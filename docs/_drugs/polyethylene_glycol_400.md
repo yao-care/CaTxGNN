@@ -48,10 +48,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Constipation disorder, dry eye syndrome, xerophthalmia (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 A speculative link to bronchitis may exist if these osmotic, hydrating and lubricating properties could affect airway mucus hydration. This is a hypothesis only and is not supported by the data compiled for this report. PEG 400 is mainly used as a pharmaceutical excipient or lubricant, and there is no evidence that it has therapeutic activity against respiratory tract inflammation or infection. The high TxGNN score is a model output and should not be read as clinical evidence.
 
-A second prediction, congenital ichthyosiform erythroderma (score 99.10%), also has no supporting trials or literature. Its rationale is limited to the moisturizing properties of PEG 400, which would at most provide symptomatic skin hydration and would not modify a genetic keratinization disorder.
+A second prediction, congenital ichthyosiform erythroderma (score 0.9910), also has no supporting trials or literature. Its rationale is limited to the moisturizing properties of PEG 400, which would at most provide symptomatic skin hydration and would not modify a genetic keratinization disorder.
 
 ## Clinical Trial Evidence
 
@@ -91,7 +91,7 @@ Package insert warnings and contraindications were not available for this report
   - Eye: angle-closure glaucoma, conjunctivitis, eye infectious disease
   - Other: epilepsy, hyperthyroidism, Graves disease, thyrotoxicosis, pyoureter
 
-  These come from the knowledge graph and may reflect other PEG-containing products (such as oral bowel preparations). They need verification against actual labelling.
+  These come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They need verification against actual labelling.
 
 - **Drug interactions**: No interaction records were found.
 

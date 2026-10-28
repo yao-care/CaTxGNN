@@ -50,13 +50,13 @@ The prediction rests on the model score alone.
 |------|------|
 | Original Indication | Inflammatory skin conditions (atopic dermatitis, contact dermatitis, seborrheic dermatitis, discoid lupus erythematosus, among others) |
 | Predicted New Indication | Alopecia mucinosa |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
-*Note: The Canadian licence records compiled for this report contain no approved-indication text. The original indications above come from the TxGNN knowledge graph.*
+*Note: The Canadian licence records compiled for this report contain no approved-indication text. The original indications above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
 
 ---
 
@@ -64,18 +64,18 @@ The prediction rests on the model score alone.
 
 Currently, detailed mechanism of action data is not available. Based on known information, fluocinonide is a high-potency topical corticosteroid with anti-inflammatory, immunosuppressive and antiproliferative effects. Its efficacy in inflammatory skin disease is established, and mechanistically it may be applicable to alopecia mucinosa.
 
-Alopecia mucinosa (follicular mucinosis) is an inflammatory disorder of the hair follicle. Topical corticosteroids are used empirically in clinical practice, so the link is biologically plausible. However, the only support in the data compiled for this report is the high TxGNN score (0.996). No trials or publications were provided, so the prediction remains a hypothesis.
+Alopecia mucinosa (follicular mucinosis) is an inflammatory disorder of the hair follicle. Topical corticosteroids are used empirically in clinical practice, so the link is biologically plausible. However, the only support in the data compiled for this report is the high TxGNN score (0.9961). No trials or publications were provided, so the prediction remains a hypothesis.
 
 **Other predicted indications (all with no or minimal evidence):**
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Telogen effluvium | 99.61% | L5 | Usually non-inflammatory, so limited mechanistic relevance |
-| 3 | Alopecia areata | 99.59% | L4 | Biologically coherent (autoimmune, T-cell-mediated), but not directly tested with fluocinonide |
-| 4 | Quinquaud's folliculitis decalvans | 99.58% | L5 | Possible adjunct role for inflammation; no direct evidence |
-| 5 | Hereditary hypotrichosis with recurrent skin vesicles | 99.56% | L5 | No clear inflammatory driver; likely reflects network proximity |
-| 6 | Alopecia antibody deficiency | 99.51% | L5 | Primary problem is immune deficiency; immunosuppression could be counterproductive |
-| 7 | Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome | 99.49% | L5 | No plausible mechanistic effect on the underlying cause |
+| 2 | Telogen effluvium | 0.9961 | L5 | Usually non-inflammatory, so limited mechanistic relevance |
+| 3 | Alopecia areata | 0.9959 | L4 | Biologically coherent (autoimmune, T-cell-mediated), but not directly tested with fluocinonide |
+| 4 | Quinquaud's folliculitis decalvans | 0.9958 | L5 | Possible adjunct role for inflammation; no direct evidence |
+| 5 | Hereditary hypotrichosis with recurrent skin vesicles | 0.9956 | L5 | No clear inflammatory driver; likely reflects network proximity |
+| 6 | Alopecia antibody deficiency | 0.9951 | L5 | Primary problem is immune deficiency; immunosuppression could be counterproductive |
+| 7 | Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome | 0.9949 | L5 | No plausible mechanistic effect on the underlying cause |
 
 Of the alternatives, alopecia areata has the strongest biological rationale and the most related material, so it may be the more productive research question.
 

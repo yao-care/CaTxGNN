@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Amiodarone
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 52
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Ventricular fibrillation"
@@ -14,7 +14,7 @@ predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia",
 # Amiodarone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The best-supported direction among the model's top 10 is instead **ventricular t
 |------|------|
 | Original Indication | Ventricular fibrillation (the approved indication text in the Canadian licence records is empty) |
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 (CPVT); L1 for the rank 3 prediction, ventricular tachycardia |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold (CPVT); Proceed with Guardrails (ventricular tachycardia) |
 
 ## Why is This Prediction Reasonable?

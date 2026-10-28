@@ -50,10 +50,10 @@ The broad "eye disease" label largely overlaps with its established use, so the 
 |------|------|
 | Original Indication | Not stated in the licence data compiled for this report (the product is an ophthalmic NSAID; postoperative ocular inflammation and pain after cataract surgery is its known use) |
 | Predicted New Indication | Eye disease |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

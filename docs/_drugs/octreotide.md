@@ -4,17 +4,17 @@ title: Octreotide
 parent: Model Prediction Only (L5)
 nav_order: 676
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acromegaly, hyperpituitarism, carcinoid syndrome"
+indication_count: 2
+last_modified_at: 2026-10-28
 monitor_inn: "Octreotide"
-predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis", "nephrotic syndrome ocular anomalies", "Addison disease", "membranoproliferative glomerulonephritis, X-linked", "familial idiopathic steroid-resistant nephrotic syndrome with minimal changes", "familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis", "adrenocortical insufficiency", "primary hypereosinophilic syndrome", "autosomal recessive familial Mediterranean fever"]
+predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
+description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Octreotide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Octreotide: From Acromegaly to Vulvar Inverted Follicular Keratosis
+## Octreotide: Vulvar inverted follicular keratosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,24 +46,22 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Acromegaly, hyperpituitarism, carcinoid syndrome (no approved indication text is available from the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, octreotide is a somatostatin analogue whose efficacy in acromegaly and carcinoid syndrome is established. It acts through somatostatin receptors, mainly in the pituitary and neuroendocrine tissue.
 
-The predicted indication is a benign skin lesion. No somatostatin-receptor-mediated mechanism is documented for it. The high score most likely reflects shared associations among keratosis and skin-lesion nodes in the knowledge graph rather than a real biological link. The prediction should be treated as a computational hypothesis only.
+The predicted indication is a benign skin lesion. No somatostatin-receptor-mediated mechanism is documented for it. The high score comes from the TxGNN model (deep learning) and most likely reflects similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a computational hypothesis only.
 
 Other predictions ranked highly for this drug are also weakly supported:
-- **Seborrheic keratosis** (99.55%): prediction only, with no trials or publications.
-- **Addison disease** (98.74%): three publications, all of low relevance. One is a case report of an ACTH response to octreotide in a probable corticotropic adenoma. One is a 1990 study that found no acute effect on pituitary-adrenal function. One is a diagnostic imaging study. Octreotide would not treat adrenal destruction.
-- **Adrenocortical insufficiency** (98.47%): one descriptive pituitary pathology study that does not test octreotide.
+- **Seborrheic keratosis** (0.9955): prediction only, with no trials or publications.
 - The remaining predictions are rare renal and inflammatory conditions with no supporting evidence.
 
 ## Clinical Trial Evidence

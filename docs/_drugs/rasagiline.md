@@ -50,10 +50,10 @@ However, **no clinical trials and no publications** were found in the data compi
 |------|------|
 | Original Indication | Parkinson disease (and related parkinsonian syndromes). The Canadian licence records do not include indication text. |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,17 +64,17 @@ Detailed mechanism-of-action data is not available in the data compiled for this
 
 PLAN includes infantile neuroaxonal dystrophy and PLA2G6-related dystonia-parkinsonism (PARK14). The parkinsonian features of PARK14 overlap with rasagiline's established indication, so a symptomatic dopaminergic benefit is plausible. Rasagiline has also been proposed to have neuroprotective and anti-apoptotic properties in preclinical models.
 
-There are important limits. PLAN is driven by defects in lipid metabolism and membrane remodelling, with iron accumulation. No direct link between MAO-B inhibition and this underlying pathology has been established. The score of 0.997 is a computational prediction only.
+There are important limits. PLAN is driven by defects in lipid metabolism and membrane remodelling, with iron accumulation. No direct link between MAO-B inhibition and this underlying pathology has been established. The score of 0.9971 is a computational prediction only.
 
 Other top-ranked predictions are also unsupported by trials or literature:
 
 | Rank | Predicted Indication | Score | Comment |
 |------|------|------|------|
-| 2 | Rasmussen subacute encephalitis | 99.56% | Only a speculative neuroprotection link; no evidence that MAO-B inhibition affects T-cell-mediated cortical damage |
-| 3 | Myelitis | 99.32% | Heterogeneous causes; no established mechanism |
-| 4 | Paralysis agitans, juvenile, of Hunt | 99.25% | Historical term for juvenile parkinsonism; likely scores high because it sits close to existing indications in the ontology, not because it is a novel finding |
-| 5 | Transaldolase deficiency | 99.19% | No plausible mechanistic link; liver involvement is a caution because rasagiline is metabolised in the liver |
-| 6 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.01% | Structural developmental malformation; no plausible effect |
+| 2 | Rasmussen subacute encephalitis | 0.9956 | Only a speculative neuroprotection link; no evidence that MAO-B inhibition affects T-cell-mediated cortical damage |
+| 3 | Myelitis | 0.9932 | Heterogeneous causes; no established mechanism |
+| 4 | Paralysis agitans, juvenile, of Hunt | 0.9925 | Historical term for juvenile parkinsonism; likely scores high because it sits close to existing indications in the ontology, not because it is a novel finding |
+| 5 | Transaldolase deficiency | 0.9919 | No plausible mechanistic link; liver involvement is a caution because rasagiline is metabolised in the liver |
+| 6 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 0.9901 | Structural developmental malformation; no plausible effect |
 
 ---
 

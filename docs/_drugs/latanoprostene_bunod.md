@@ -4,7 +4,7 @@ title: Latanoprostene Bunod
 parent: Model Prediction Only (L5)
 nav_order: 529
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Latanoprostene Bunod: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "LATANOPROSTENE BUNOD"
@@ -14,7 +14,7 @@ predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndro
 # Latanoprostene Bunod
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available in the source reco
 The link to visceral calciphylaxis is speculative. NO/cGMP signalling may in theory counter vascular calcification. However, the drug is given as an eye drop, which produces very low exposure in the rest of the body. A systemic effect on a disease such as calciphylaxis is therefore implausible. The high score reflects model output, not clinical or mechanistic support.
 
 Other top-ranked predictions in the data compiled for this report show the same pattern:
-- **Primary hereditary glaucoma** (score 99.71%): the most biologically plausible one, since it is close to the approved use. No specific trials or literature exist, and congenital or paediatric glaucoma often responds poorly to medical therapy, so extrapolation needs caution.
 - **Thoracic outlet syndromes (venous, arterial, neurogenic)**, **spontaneous coronary artery dissection**, **gastric angiodysplasia** and **lymphangiectasis**: no credible mechanistic link and no clinical evidence.
 - **Vascular disease** and **hemangioendothelioma**: only indirect evidence, described below.
 

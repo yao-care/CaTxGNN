@@ -4,17 +4,17 @@ title: Pazopanib
 parent: Moderate Evidence (L3-L4)
 nav_order: 711
 evidence_level: L3
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pazopanib: predicted new indication Unclassified renal cell carcinoma (evidence level L3). Approved use: Renal cell carcinoma and soft tissue sarcoma"
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Unclassified Renal Cell Carcinoma
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pazopanib is a multi-targeted tyrosine kinase inhibitor originally used for renal cell carcinoma (clear cell type) and advanced soft tissue sarcoma.
-The TxGNN model predicts it may be effective for **unclassified renal cell carcinoma**, supported by **no registered clinical trials** but **6 publications** (retrospective cohorts, real-world studies and one single-arm Phase 2 study).
 Among the other predictions, **liposarcoma** has the most mature evidence (6 trials, Phase 2 data).
 
 ---
@@ -48,12 +47,12 @@ Among the other predictions, **liposarcoma** has the most mature evidence (6 tri
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and soft tissue sarcoma (the Health Canada indication text is not available; the original indications come from the knowledge graph) |
-| Predicted New Indication | Unclassified renal cell carcinoma |
-| TxGNN Prediction Score | 99.63% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Liposarcoma |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -72,7 +71,6 @@ The other predicted indications follow similar logic:
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for the top-ranked prediction, unclassified renal cell carcinoma.
 
 For the next best-supported prediction, **liposarcoma**, the main trials are:
 
@@ -93,7 +91,6 @@ For **fibroblastic neoplasm**, [NCT02066285](https://clinicaltrials.gov/study/NC
 
 ## Literature Evidence
 
-**Unclassified renal cell carcinoma (top prediction):**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

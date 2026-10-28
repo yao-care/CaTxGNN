@@ -4,17 +4,17 @@ title: Methoxsalen
 parent: Model Prediction Only (L5)
 nav_order: 602
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Methoxsalen: predicted new indication Localized pagetoid reticulosis (evidence level L5). Approved use: Primary cutaneous T-cell lymphoma"
 monitor_inn: "METHOXSALEN"
-predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "follicular lymphoma, susceptibility to, 1", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
+predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
+description: "Methoxsalen: predicted new indication Localized pagetoid reticulosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methoxsalen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methoxsalen: From Cutaneous T-Cell Lymphoma to Localized Pagetoid Reticulosis
+## Methoxsalen: Localized pagetoid reticulosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ There are currently **0 clinical trials** and **0 publications** directly suppor
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary cutaneous T-cell lymphoma (also primary cutaneous T-cell non-Hodgkin lymphoma and vitiligo, per the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Localized pagetoid reticulosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 (L5 would apply strictly, as no direct studies were supplied; L4 reflects the mechanistic rationale) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 (L5 would apply strictly, as no direct studies were supplied; L4 reflects the mechanistic rationale) |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,15 +68,13 @@ The model also ranked nine further candidates. Evidence is limited for all of th
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Indolent primary cutaneous T-cell lymphoma | 99.91% | L4 | Overlaps with the existing label; one indirect health technology assessment on extracorporeal photopheresis |
-| 3 | Neoplasm of mature B-cells | 99.84% | L5 | Speculative; methoxsalen's activity is established in T-cell disease |
-| 4 | Small intestinal Burkitt lymphoma | 99.80% | L5 | UVA cannot reach the site; likely a graph artifact |
-| 5 | Thyroid gland MALT lymphoma | 99.78% | L5 | Internal site; no clear rationale |
-| 6 | Small intestinal MALT lymphoma | 99.78% | L5 | Internal site; no clear rationale |
-| 7 | Follicular lymphoma, susceptibility to, 1 | 99.78% | L5 | Genetic susceptibility label; link is purely computational |
-| 8 | Breast MALT lymphoma | 99.77% | L5 | Deep tissue site; no supporting mechanism |
-| 9 | Tonsillar lymphoma | 99.77% | L5 | Mostly B-cell; photochemotherapy not established |
-| 10 | Vulvar inverted follicular keratosis | 99.65% | L5 | Benign lesion; PUVA carcinogenic risk argues against use |
+| 3 | Neoplasm of mature B-cells | 0.9984 | L5 | Speculative; methoxsalen's activity is established in T-cell disease |
+| 4 | Small intestinal Burkitt lymphoma | 0.9980 | L5 | UVA cannot reach the site; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| 5 | Thyroid gland MALT lymphoma | 0.9978 | L5 | Internal site; no clear rationale |
+| 6 | Small intestinal MALT lymphoma | 0.9978 | L5 | Internal site; no clear rationale |
+| 8 | Breast MALT lymphoma | 0.9977 | L5 | Deep tissue site; no supporting mechanism |
+| 9 | Tonsillar lymphoma | 0.9977 | L5 | Mostly B-cell; photochemotherapy not established |
+| 10 | Vulvar inverted follicular keratosis | 0.9965 | L5 | Benign lesion; PUVA carcinogenic risk argues against use |
 
 ## Clinical Trial Evidence
 

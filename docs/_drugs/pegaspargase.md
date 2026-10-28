@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pegaspargase
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 712
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Pegaspargase: predicted new indication Precursor lymphoblastic lymphoma/leukemia (evidence level L1). Approved use: Acute lymphoblastic leukemia (including precursor T-cell ALL)"
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
+description: "Pegaspargase: predicted new indication Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hy… (evidence level L5). Approved use: Not …"
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,28 +33,26 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Pegaspargase: From Acute Lymphoblastic Leukemia to Precursor Lymphoblastic Lymphoma/Leukemia
+## Pegaspargase: Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pegaspargase is a long-acting form of the enzyme L-asparaginase, originally used to treat acute lymphoblastic leukemia (ALL).
-The TxGNN model predicts it may be effective for **precursor lymphoblastic lymphoma/leukemia**, with **35 clinical trials** and **20 publications** compiled for this report.
 This prediction is largely label-concordant: the predicted disease is essentially the same disease family as the original indication, so it is not true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukemia (including precursor T-cell ALL) |
-| Predicted New Indication | Precursor lymphoblastic lymphoma/leukemia |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-Note: Health Canada's approved indication text was not available in the data compiled for this report, so the original indication above comes from the TxGNN knowledge graph.
 
 ## Why is This Prediction Reasonable?
 
@@ -63,7 +61,6 @@ Detailed mechanism-of-action data was not available from DrugBank. From the anal
 The predicted disease (precursor B/T-cell lymphoblastic leukemia and lymphoblastic lymphoma) is the same disease family as the original ALL indication. Asparaginase-containing regimens are already a standard part of treatment, so the prediction is consistent with established use rather than a new direction.
 
 Other predictions in the ranking are much weaker:
-- **Acute lymphoblastic leukemia (rank 5):** also label-concordant, with strong evidence (L1).
 - **Lymphoid neoplasm (rank 7):** mostly captures ALL and lymphoblastic lymphoma, plus NK/T-cell lymphoma. It is too heterogeneous for a single recommendation.
 - **Hodgkin lymphoma (rank 8):** the linked trials are ALL studies and the literature is about extranodal NK/T-cell lymphoma (ENKTL), a different disease. Pegaspargase is well supported in ENKTL (P-GEMOX, SMILE-type, PEG-L-CHOP, MESA regimens, including phase 2 studies), but this does not transfer to Hodgkin lymphoma. The ontology mapping appears misleading; ENKTL is worth evaluating as a separate question.
 - **CLL/SLL variants, follicular lymphoma, cblE deficiency (ranks 2, 3, 4, 6, 9):** prediction only, no trials or literature, no plausible asparagine-depletion rationale. Recommendation: Hold.

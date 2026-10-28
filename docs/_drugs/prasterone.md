@@ -6,9 +6,9 @@ nav_order: 761
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prasterone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Systemic lupus erythematosus, pediatric systemic lupus erythematosus…"
 monitor_inn: "PRASTERONE"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
+description: "Prasterone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prasterone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prasterone: From Systemic Lupus Erythematosus to Heparin Cofactor 2 Deficiency
+## Prasterone: Heparin cofactor 2 deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency
 
 | Item | Content |
 |------|------|
-| Original Indication | Systemic lupus erythematosus, pediatric systemic lupus erythematosus, psychologic dyspareunia (from the knowledge graph; no approved indication text is available for the Canadian product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Prasterone is the pharmaceutical form of dehydroepiandrosterone (DHEA), a steroid hormone precursor. It is approved in the US for moderate to severe dyspareunia due to vulvar and vaginal atrophy. Pharmacology data also list the glycine receptor as one of its targets.
 
-Heparin cofactor II deficiency is a rare inherited disorder of a serpin (SERPIND1) involved in blood clotting regulation. No documented mechanistic connection exists between prasterone and this protein. The high score (99.99%) most likely reflects relationships in the knowledge graph rather than a demonstrated biological link.
+Heparin cofactor II deficiency is a rare inherited disorder of a serpin (SERPIND1) involved in blood clotting regulation. No documented mechanistic connection exists between prasterone and this protein. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions are mostly inherited clotting disorders (factor 5 excess, antithrombin deficiency type 2, thrombophilia, protein S deficiency). Hormonal agents can alter thrombotic risk, so these predictions call for caution rather than enthusiasm. A pro-thrombotic signal would be a safety concern, not a benefit.
 

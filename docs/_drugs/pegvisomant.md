@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Pegvisomant
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 716
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Pegvisomant: predicted new indication Borderline ovarian serous tumor (evidence level L5). Approved use: Acromegaly, hyperpituitarism"
+description: "Pegvisomant: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Pegvisomant"
-predicted_indications: ["borderline ovarian serous tumor", "rete ovarii cystadenoma", "ovarian papillary cystadenoma", "pyelonephritis", "malignant ovarian Brenner tumor", "aleukemic mast cell leukemia", "ovarian mucinous cystadenofibroma", "ovarian benign neoplasm", "mucinous ovarian cystadenoma", "ovarian surface papilloma"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Pegvisomant
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pegvisomant: From Acromegaly to Borderline Ovarian Serous Tumor
+## Pegvisomant
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Pegvisomant was originally used to treat acromegaly (a condition of excess growth hormone, often linked to hyperpituitarism).
-The TxGNN model predicts it may be effective for **borderline ovarian serous tumor**,
-but **no clinical trials and no publications** currently support this direction, so it is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acromegaly, hyperpituitarism (from the knowledge graph; the Canadian licence records contain no indication text) |
-| Predicted New Indication | Borderline ovarian serous tumor |
-| TxGNN Prediction Score | 98.63% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pegvisomant is a growth hormone (GH) receptor antagonist that lowers IGF-1. Its efficacy in acromegaly is established, and mechanistically it may be applicable to conditions in which GH/IGF-1 signalling drives cell growth.
-
-The IGF-1/GH axis has been discussed in relation to the proliferation of ovarian epithelial cells, so a hypothetical link to borderline ovarian serous tumor exists. This link is speculative. No trial or publication supports it, and the high score (0.986) reflects a computational prediction only.
-
-The same pattern appears across the other top-ranked predictions. Most are ovarian tumors (benign, borderline or rare malignant types) with the same speculative GH/IGF-1 rationale. Others, such as pyelonephritis (a bacterial kidney infection) and aleukemic mast cell leukemia (driven mainly by KIT-pathway changes), have no plausible mechanistic connection and are likely network artifacts.
+| Original Indication | Not recorded in the local data |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 
 ## Canada Market Information
 
@@ -78,19 +62,6 @@ The same pattern appears across the other top-ranked predictions. Most are ovari
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone. There are no clinical trials or publications, the mechanism-of-action data are missing, and the proposed GH/IGF-1 link to ovarian tumors is speculative. Borderline and benign ovarian tumors are generally managed surgically, so the unmet need for a drug is also low.
-
-**To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)
-- Detailed mechanism of action data
-- Preclinical evidence that GH/IGF-1 signalling drives borderline ovarian serous tumor growth
-- A literature search and trial registry review for any pegvisomant data in ovarian tumors
-- Approved indication and dosage form details for the five Canadian DINs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

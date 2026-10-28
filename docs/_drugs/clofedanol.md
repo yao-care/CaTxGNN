@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clofedanol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 212
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Clofedanol: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Clofedanol"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Clofedanol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The prediction is largely a restatement of existing indications and rests on mod
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (the Canadian licence has no indication text on file) |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Nasal cavity disease is a broad category that includes rhinitis, which is already among clofedanol's original indications (allergic rhinitis, vasomotor rhinitis and rhinitis). The high score therefore mostly reflects overlap with existing uses rather than a genuinely new therapeutic direction. The score is a computational prediction, not clinical evidence.
 
-Other predictions from the model are weaker. Acute laryngopharyngitis (99.99%) is anatomically close to the existing pharyngitis indication. Allergic urticaria (99.97%), papillary conjunctivitis (99.84%) and cold urticaria (99.78%) would depend on an antihistamine-like effect that has not been confirmed. Faucial diphtheria (99.33%) and cervical disc degenerative disorder (99.29%) have no credible mechanistic link and are probably graph artifacts. Diphtheria is a toxin-mediated bacterial infection that needs antitoxin and antibiotics. The cold urticaria score may also be inflated by the name similarity to "common cold".
+Other predictions from the model are weaker. Allergic urticaria (0.9997), papillary conjunctivitis (0.9984) and cold urticaria (0.9978) would depend on an antihistamine-like effect that has not been confirmed. Faucial diphtheria (0.9933) and cervical disc degenerative disorder (0.9929) have no credible mechanistic link, and their scores come from the TxGNN model (deep learning) and probably reflect similarities the model learned between related diseases, not biological evidence. Diphtheria is a toxin-mediated bacterial infection that needs antitoxin and antibiotics. The cold urticaria score may also be inflated by the name similarity to "common cold".
 
 ## Clinical Trial Evidence
 

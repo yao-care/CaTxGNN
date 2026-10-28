@@ -48,10 +48,10 @@ but the support is limited: **2 related clinical trials** (both multi-drug regim
 |------|------|
 | Original Indication | Acute lymphoblastic leukaemia and acute myeloid leukaemia (including several subtypes). Health Canada indication text is not available in the data compiled for this report. |
 | Predicted New Indication | Hodgkin's lymphoma |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?

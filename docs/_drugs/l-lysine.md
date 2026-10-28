@@ -6,7 +6,7 @@ nav_order: 514
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "L-Lysine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not specified in the available licence data (the products are amino a…"
+description: "L-Lysine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not specified in the available licence data (the products are amino a…"
 monitor_inn: "L-LYSINE"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## L-Lysine: From Parenteral Nutrition Amino Acid Component to Gastroparesis
+## L-Lysine: From Parenteral Nutrition Amino Acid Component to gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,9 +47,9 @@ The TxGNN model predicts it may be relevant for **gastroparesis**, but there are
 |------|------|
 | Original Indication | Not specified in the available licence data (the products are amino acid / parenteral nutrition formulations) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -57,11 +57,11 @@ The TxGNN model predicts it may be relevant for **gastroparesis**, but there are
 
 Currently, detailed mechanism of action data is not available. Based on known information, L-lysine is an essential amino acid that the body uses for protein synthesis, calcium absorption, and carnitine production. In Canada it is marketed only within amino acid and parenteral nutrition products.
 
-The data compiled for this report show no established link between these functions and gastric motility or gastric emptying. Gastroparesis involves loss of interstitial cells of Cajal and enteric neurons, which is not a process L-lysine is known to address. The high score (0.998) is a computational prediction and is not backed by clinical or mechanistic data.
+The data compiled for this report show no established link between these functions and gastric motility or gastric emptying. Gastroparesis involves loss of interstitial cells of Cajal and enteric neurons, which is not a process L-lysine is known to address. The high score (0.9977) is a computational prediction and is not backed by clinical or mechanistic data.
 
 The other two predictions are also weak:
-- **Congenital prothrombin deficiency** (score 99.13%): a genetic coagulation disorder that dietary lysine would not be expected to correct. Lysine analogues such as tranexamic acid act as antifibrinolytics, but that does not extend to L-lysine itself.
-- **Vitamin D deficiency** (score 99.02%): the disease term is obsolete in the ontology, and L-lysine's modest effect on calcium handling does not replace vitamin D.
+- **Congenital prothrombin deficiency** (score 0.9913): a genetic coagulation disorder that dietary lysine would not be expected to correct. Lysine analogues such as tranexamic acid act as antifibrinolytics, but that does not extend to L-lysine itself.
+- **Vitamin D deficiency** (score 0.9902): the disease term is obsolete in the ontology, and L-lysine's modest effect on calcium handling does not replace vitamin D.
 
 ## Clinical Trial Evidence
 
@@ -103,7 +103,7 @@ Please refer to the package insert for authoritative warnings and contraindicati
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no clinical trials, the only publication is an unrelated preclinical study, and no mechanistic link to gastroparesis is supported. The knowledge graph also flags kidney, cardiac, and calcium-related conditions as potential concerns.
+The prediction rests on a model score alone (TxGNN model, deep learning; gastroparesis 0.9977), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, the only publication is an unrelated preclinical study, and no mechanistic link to gastroparesis is supported. Kidney, cardiac, and calcium-related conditions are also flagged as potential concerns.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank to assess any link to gastric motility

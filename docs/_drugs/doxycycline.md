@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Doxycycline: From Bacterial Infections to Post-Bacterial Disorder
+## Doxycycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,11 +49,11 @@ The top-scoring prediction, punctate epithelial keratoconjunctivitis, has only a
 | Item | Content |
 |------|------|
 | Original Indication | Bronchitis, acne, bacterial pneumonia, anthrax, gonorrhea and other bacterial infections (the Canadian licence records contain no indication text) |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis (rank 1, TxGNN score 99.94%); the best-supported alternative is post-bacterial disorder (rank 4, 99.89%), analysed in the sections below |
-| TxGNN Prediction Score | 99.94% (rank 1); 99.89% (post-bacterial disorder) |
-| Evidence Level | L4 for rank 1 (a single case report); L1 for post-bacterial disorder (as graded in the compiled data, though the indication fit is loose) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 17 |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 0.9994 (rank 1); 0.9989 (post-bacterial disorder) |
+| Evidence Level | L5 for rank 1 (a single case report); L1 for post-bacterial disorder (as graded in the compiled data, though the indication fit is loose) |
+| Canada Market Status | Marketed (valid licenses: 17 of 17) |
+| Number of DINs | 17 (valid: 17) |
 | Recommended Decision | Hold for rank 1; Proceed with Guardrails for post-bacterial disorder |
 
 ---

@@ -4,17 +4,17 @@ title: Cefuroxime
 parent: Model Prediction Only (L5)
 nav_order: 171
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Cefuroxime: predicted new indication Hyperamylasemia . The best-supported candidate is urinary tract infec… (evidence level L5). Approved use: Bacterial infections (otitis media…"
 monitor_inn: "CEFUROXIME"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "suppurative otitis media", "hematological disease associated with an acquired peripheral neuropathy"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 ---
 
 # Cefuroxime
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cefuroxime: From Bacterial Infections to Urinary Tract Infection
+## Cefuroxime: From Bacterial Infections to Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ That candidate largely extends cefuroxime's existing anti-infective use rather t
 |------|------|
 | Original Indication | Bacterial infections (otitis media, streptococcal and staphylococcal infections, pneumonia, meningitis, gonorrhea, Lyme disease, among others) |
 | Predicted New Indication | Hyperamylasemia (rank 1 by score; no supporting evidence). The best-supported candidate is urinary tract infection (rank 6). |
-| TxGNN Prediction Score | 99.76% (hyperamylasemia); 99.62% (urinary tract infection) |
+| TxGNN Prediction Score | 0.9976 (hyperamylasemia); 0.9962 (urinary tract infection) |
 | Evidence Level | L5 (hyperamylasemia); L3 (urinary tract infection) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold (hyperamylasemia); Proceed with Guardrails for urinary tract infection as a research question only |
 
 ---
@@ -62,9 +62,9 @@ That candidate largely extends cefuroxime's existing anti-infective use rather t
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cefuroxime is a beta-lactam cephalosporin that inhibits bacterial cell-wall synthesis. Its efficacy in respiratory, ear and other bacterial infections is established.
 
-**The top-scoring predictions lack a plausible mechanism.** Hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant hematological disease, and hematological disease with peripheral neuropathy have no connection to cell-wall inhibition. Their high scores (99.5% to 99.8%) most likely reflect knowledge-graph topology rather than biology. None has any trial or literature support.
+**The top-scoring predictions lack a plausible mechanism.** Hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant hematological disease, and hematological disease with peripheral neuropathy have no connection to cell-wall inhibition. Their high scores (0.9955 to 0.9976) come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. None has any trial or literature support.
 
-**Infection-type predictions are mechanistically sound but not novel.** Cefuroxime is active against common uropathogens (E. coli, Klebsiella, Proteus), so UTI is a reasonable extension. Suppurative otitis media and Peptostreptococcus infection likewise fall within existing anti-infective use. Otitis media is already a listed original indication.
+**Infection-type predictions are mechanistically sound but not novel.** Cefuroxime is active against common uropathogens (E. coli, Klebsiella, Proteus), so UTI is a reasonable extension. Peptostreptococcus infection likewise falls within existing anti-infective use. Otitis media is already a listed original indication.
 
 **Some matches are spurious.** The only paper linked to blood group incompatibility concerns multidrug-resistant Salmonella in Kenya. The monoclonal gammopathy papers concern infections in neutropenic cancer patients, not the gammopathy itself.
 
@@ -102,7 +102,6 @@ Selected publications for the UTI prediction (rank 6):
 | [39005695](https://pubmed.ncbi.nlm.nih.gov/39005695/) | 2024 | Cohort | Infect Dis Clin Microbiol | Causative organisms and ESBL risk factors in community-acquired UTI |
 
 Other predictions with literature:
-- **Suppurative otitis media (rank 9):** Mostly reviews and susceptibility surveys, including [7142073](https://pubmed.ncbi.nlm.nih.gov/7142073/) (1982), which studied cefuroxime diffusion into middle ear effusions. No trials.
 - **Peptostreptococcus infection (rank 4):** [19802974](https://pubmed.ncbi.nlm.nih.gov/19802974/) (1981), an in-vitro study in which cefuroxime inhibited 79% of anaerobic isolates at 16 mg/l. It focused on ceftazidime, so it is indirect evidence.
 - **Blood group incompatibility (rank 5) and monoclonal gammopathy (rank 8):** The retrieved papers are irrelevant or only indirectly related, as described above.
 

@@ -4,7 +4,7 @@ title: Nitroglycerin
 parent: Moderate Evidence (L3-L4)
 nav_order: 660
 evidence_level: L3
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the Canadian licence data compiled for this report (nit…"
 monitor_inn: "NITROGLYCERIN"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 # Nitroglycerin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **3 clinical trials** (none of them a completed Phase 2/3 RCT) and **20 pub
 |------|------|
 | Original Indication | Not stated in the Canadian licence data compiled for this report (nitroglycerin is a long-established vasodilator used for angina) |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 18 |
+| Canada Market Status | Marketed (valid licenses: 18 of 18) |
+| Number of DINs | 18 (valid: 18) |
 | Recommended Decision | Proceed with Guardrails (as a research question) |
 
 ---
@@ -125,10 +125,9 @@ Package insert warnings and contraindications were not available. Please refer t
 
 | Predicted Indication | TxGNN Score | Evidence Level | Note |
 |------|------|------|------|
-| Kyphoscoliotic heart disease | 99.42% | L5 | No trials or literature; vasodilators may worsen ventilation-perfusion mismatch |
-| Prinzmetal angina | 99.39% | L4 | Nitrates are already standard care; mostly reviews and older small studies, so not a true repurposing candidate |
-| Primary hereditary glaucoma | 99.16% | L5 | No trials or literature; no established role |
-| Congenital hypotrichosis milia | 99.02% | L5 | No plausible mechanistic link identified |
+| Kyphoscoliotic heart disease | 0.9942 | L5 | No trials or literature; vasodilators may worsen ventilation-perfusion mismatch |
+| Primary hereditary glaucoma | 0.9916 | L5 | No trials or literature; no established role |
+| Congenital hypotrichosis milia | 0.9902 | L5 | No plausible mechanistic link identified |
 
 ---
 

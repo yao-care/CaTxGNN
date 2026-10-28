@@ -4,17 +4,17 @@ title: Methylene Blue
 parent: Model Prediction Only (L5)
 nav_order: 604
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Methemoglobinemia, sulfhemoglobinemia"
 monitor_inn: "METHYLENE BLUE"
-predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemoglobinemia due to deficiency of methemoglobin reductase"]
+predicted_indications: ["bronchitis"]
 ---
 
 # Methylene Blue
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The data compiled for this report also list two other predictions (congenital me
 |------|------|
 | Original Indication | Methemoglobinemia, sulfhemoglobinemia (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,8 @@ The data compiled for this report also list two other predictions (congenital me
 
 Currently, detailed mechanism of action data is not available. Based on general pharmacology, methylene blue is a redox-active dye. It is reduced to leucomethylene blue, which converts methemoglobin back to functional haemoglobin. This explains its original use. It is also known to affect nitric oxide signalling and to have antimicrobial and photosensitizing properties, but none of this is documented in the data compiled for this report.
 
-No plausible mechanistic link to bronchitis is supported by the available data. The retrieved literature mentions methylene blue only as a diagnostic stain (for example, in bronchoscopy) or is unrelated (plant essential oils, biosensors, beta-blockers, an endocarditis case). The very high score therefore looks like an artifact of the knowledge graph rather than clinical evidence.
+No plausible mechanistic link to bronchitis is supported by the available data. The retrieved literature mentions methylene blue only as a diagnostic stain (for example, in bronchoscopy) or is unrelated (plant essential oils, biosensors, beta-blockers, an endocarditis case). The very high score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-By contrast, the two other predictions, **methemoglobinemia, alpha type** (score 99.36%) and **methemoglobinemia due to methemoglobin reductase deficiency** (score 99.36%), are mechanistically sound. They fall within the drug's original indication, so they are extensions of existing use rather than true repurposing.
 
 ---
 

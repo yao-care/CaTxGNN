@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dienogest
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 281
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dienogest: predicted new indication Amenorrhea (evidence level L4). Approved use: Not listed in the Canadian licence records (the literature describes…"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 # Dienogest
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Amenorrhea is better understood as an expected effect of dienogest than as a dis
 |------|------|
 | Original Indication | Not listed in the Canadian licence records (the literature describes endometriosis as its main use) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The link to amenorrhea is therefore real but points the wrong way. Amenorrhea is a well-known result of dienogest treatment in endometriosis, where inducing amenorrhea and a low-estrogen environment is a treatment goal. It is an expected pharmacological effect, not a condition the drug is shown to cure.
 
-Using dienogest to treat secondary amenorrhea is biologically uncertain. Progestins are used for withdrawal-bleed challenges and for endometrial protection when estrogen is present, but dienogest itself suppresses the cycle. The high TxGNN score most likely reflects the closeness of amenorrhea to sex-steroid pathways in the knowledge graph, not a demonstrated therapeutic benefit.
+Using dienogest to treat secondary amenorrhea is biologically uncertain. Progestins are used for withdrawal-bleed challenges and for endometrial protection when estrogen is present, but dienogest itself suppresses the cycle. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a demonstrated therapeutic benefit.
 
 ---
 

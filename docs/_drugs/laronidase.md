@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Laronidase
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 526
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Laronidase: predicted new indication Lysosomal storage disease with skeletal involvement (evidence level L4). Approved use: Mucopolysaccharidosis I (Hurler, Hurler-Scheie and Scheie syndromes)"
@@ -14,7 +14,7 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 # Laronidase
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **lysosomal storage disease wit
 |------|------|
 | Original Indication | Mucopolysaccharidosis I (Hurler, Hurler-Scheie and Scheie syndromes) |
 | Predicted New Indication | Lysosomal storage disease with skeletal involvement |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -117,7 +117,7 @@ The predicted indication largely overlaps with the already approved MPS I use, s
 
 ### Note on the Second Predicted Indication (Sanfilippo Syndrome)
 
-Sanfilippo syndrome (MPS III) was also predicted, with a TxGNN score of 99.22%. It is not recommended for pursuit (**Hold**, evidence level L4). MPS III results from deficiencies in different enzymes, not alpha-L-iduronidase, and intravenous enzyme replacement does not cross the blood-brain barrier effectively, while MPS III is mainly a neurological disease. The retrieved literature, including a randomised placebo-controlled Phase 3 trial of laronidase, concerns MPS I only. Those results must not be credited to Sanfilippo syndrome.
+Sanfilippo syndrome (MPS III) was also predicted, with a TxGNN score of 0.9922. It is not recommended for pursuit (**Hold**, evidence level L4). MPS III results from deficiencies in different enzymes, not alpha-L-iduronidase, and intravenous enzyme replacement does not cross the blood-brain barrier effectively, while MPS III is mainly a neurological disease. The retrieved literature, including a randomised placebo-controlled Phase 3 trial of laronidase, concerns MPS I only. Those results must not be credited to Sanfilippo syndrome.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

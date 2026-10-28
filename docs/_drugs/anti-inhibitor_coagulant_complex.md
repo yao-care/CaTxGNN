@@ -48,10 +48,10 @@ yet **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Glanzmann thrombasthenia |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available from the source da
 
 Glanzmann thrombasthenia is a platelet disorder in which platelets cannot aggregate because the GPIIb/IIIa receptor is defective or missing. A product that boosts thrombin generation may bypass this defect and help control bleeding. This is plausible mainly for patients who do not respond to platelet transfusion or who have developed anti-platelet antibodies.
 
-This reasoning is a hypothesis. The high score (0.993) is a computational prediction only. Real-world use, such as case reports of bypassing-agent therapy, is not captured in the data compiled for this report. The thrombotic risk known for activated prothrombin complex products has also not been weighed against the potential benefit.
+This reasoning is a hypothesis. The high score (0.9931) is a computational prediction only. Real-world use, such as case reports of bypassing-agent therapy, is not captured in the data compiled for this report. The thrombotic risk known for activated prothrombin complex products has also not been weighed against the potential benefit.
 
-A second prediction, **primary release disorder of platelets** (score 99.22%), follows a similar bypass logic. It also has no supporting trials or publications.
+A second prediction, **primary release disorder of platelets** (score 0.9922), follows a similar bypass logic. It also has no supporting trials or publications.
 
 ## Canada Market Information
 

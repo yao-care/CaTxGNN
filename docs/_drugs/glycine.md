@@ -4,17 +4,17 @@ title: Glycine
 parent: Model Prediction Only (L5)
 nav_order: 438
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "GLYCINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Glycine: From Allergic Rhinitis and Upper Respiratory Conditions to Nasal Cavity Disease
+## Glycine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Glycine is an amino acid that is listed in the knowledge graph for upper airway conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold.
+Glycine is an amino acid. The score for nasal cavity disease (0.9985) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **nasal cavity disease**, but this is a model prediction only: **1 clinical trial** was retrieved (not relevant to the hypothesis) and **2 publications** were retrieved (basic research only).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; no approved indication text in the Canadian licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, glycine is an amino acid whose original indications in the knowledge graph (allergic rhinitis, vasomotor rhinitis, rhinitis, nasopharyngitis) are nasal and upper airway conditions. Mechanistically it may be applicable to nasal cavity disease, but this cannot be confirmed from the data compiled for this report.
+Currently, detailed mechanism of action data is not available. Based on known information, glycine is an amino acid. The score for nasal cavity disease comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Mechanistically it may be applicable to nasal cavity disease, but this cannot be confirmed from the data compiled for this report.
 
 The predicted indication sits in the same anatomical region as the original indications. This is a weak, indirect overlap and not evidence of efficacy. Glycine has inhibitory neurotransmitter and cytoprotective roles in other tissues, but nothing in the compiled data links these roles to nasal mucosal disease.
 
-A second prediction, **acute laryngopharyngitis** (score 99.84%), is closely related to the existing pharyngitis, nasopharyngitis and common cold indications. It has no clinical trials and no literature, so the support is purely computational.
 
 ## Clinical Trial Evidence
 
@@ -106,7 +105,7 @@ A drug interaction search returned no records.
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (99.85%) is a model prediction only. The only trial found is an unrelated imaging study, the two publications are basic research, and there is no mechanism of action data to explain a link to nasal cavity disease. Evidence is at level L5.
+The high TxGNN score (0.9985) is a model prediction only. The only trial found is an unrelated imaging study, the two publications are basic research, and there is no mechanism of action data to explain a link to nasal cavity disease. Evidence is at level L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for glycine, and an assessment of whether it applies to nasal mucosa

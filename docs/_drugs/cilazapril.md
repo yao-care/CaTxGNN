@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Cilazapril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 194
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "CILAZAPRIL"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension owing to lung disease and/or hyp
 # Cilazapril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but the support is limited to **4 preclinical publications** (animal and cell st
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| TxGNN Prediction Score | 0.9920 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -108,9 +108,9 @@ The prediction score is high, but the evidence is limited to four animal or in v
 - Safety plan covering blood pressure, gas exchange, renal function and potassium monitoring
 
 **Other predicted indications (for reference):**
-- Pulmonary hypertension with unclear multifactorial mechanism (score 99.20%): L5, no trials or literature; Hold.
-- Malignant renovascular hypertension (score 99.12%): L5, mechanistically plausible but largely overlaps the existing hypertension indication; carries a risk of acute renal failure in bilateral renal artery stenosis or solitary kidney; Hold.
-- Malignant hypertensive renal disease (score 99.12%): L5, prediction only, an extension of the existing indication; would need renal function and potassium monitoring; Hold.
+- Pulmonary hypertension with unclear multifactorial mechanism (score 0.9920): L5, no trials or literature; Hold.
+- Malignant renovascular hypertension (score 0.9912): L5, mechanistically plausible but largely overlaps the existing hypertension indication; carries a risk of acute renal failure in bilateral renal artery stenosis or solitary kidney; Hold.
+- Malignant hypertensive renal disease (score 0.9912): L5, prediction only, an extension of the existing indication; would need renal function and potassium monitoring; Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

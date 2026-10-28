@@ -4,17 +4,17 @@ title: Axitinib
 parent: Model Prediction Only (L5)
 nav_order: 88
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Axitinib: predicted new indication Unclassified renal cell carcinoma (evidence level L5). Approved use: Renal cell carcinoma (including clear cell and non-papillary subtypes)"
+indication_count: 4
 monitor_inn: "Axitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
+last_modified_at: 2026-10-27
+description: "Axitinib: predicted new indication liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Axitinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,103 +33,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Axitinib: From Renal Cell Carcinoma to Unclassified Renal Cell Carcinoma
+## Axitinib: Tyrosine kinase inhibitor (VEGFR/PDGFR) → liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Axitinib is an oral kinase inhibitor originally used to treat renal cell carcinoma (RCC).
-The TxGNN model predicts it may be effective for **unclassified renal cell carcinoma**, a histologic subgroup of RCC.
-This prediction currently rests on the model alone, with **0 clinical trials** and **0 publications** supporting this specific subtype.
-
----
+Axitinib is an oral kinase inhibitor marketed in Canada under the brand name INLYTA.
+The TxGNN model predicts it may be effective for **liposarcoma**, but the support so far is **1 preclinical publication** and **no registered clinical trials** in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma (including clear cell and non-papillary subtypes) |
-| Predicted New Indication | Unclassified renal cell carcinoma |
-| TxGNN Prediction Score | 99.90% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | liposarcoma |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Axitinib is known as a tyrosine kinase inhibitor that targets VEGFR-1, -2 and -3, which blocks the formation of new blood vessels that tumours depend on. Its efficacy in RCC is well established.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Axitinib is generally understood to be an antiangiogenic kinase inhibitor acting on VEGFR and PDGFR pathways, which is the basis for the mechanistic link described below.
 
-Unclassified RCC is a histologic subgroup of RCC that likely shares the same angiogenic signalling. That makes a response to VEGFR inhibition plausible. This is a mechanistic inference only, and no studies specific to this subtype were found.
+A 2016 laboratory study reported that axitinib had antiangiogenic and antitumour activity in myxoid liposarcoma cell lines, a rare form of soft-tissue sarcoma. This is consistent with VEGFR/PDGFR inhibition and suggests the prediction is biologically plausible.
 
-The prediction is also very close to the drug's existing indication, so it may be a refinement of the same disease family rather than a truly new use.
-
----
+However, that study addresses myxoid liposarcoma, one subtype, and is preclinical only. It does not show clinical benefit in patients with liposarcoma as a whole. Because no cited study directly tests axitinib in liposarcoma patients, the evidence level is held at L5 (model prediction with only indirect support).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [27822137](https://pubmed.ncbi.nlm.nih.gov/27822137/) | 2016 | Preclinical (in vitro/in vivo) | Sarcoma | Axitinib showed antiangiogenic and antitumour activity against myxoid liposarcoma cell lines, identified in a screen of targeted and chemotherapy agents |
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02389649 | INLYTA | Valid (single-ingredient) |
-| 02389630 | INLYTA | Valid (single-ingredient) |
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02389649 | INLYTA | Not recorded | Not recorded |
+| 02389630 | INLYTA | Not recorded | Not recorded |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (VEGFR tyrosine kinase inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Blood pressure, signs of bleeding or thromboembolism, and liver function. Please also refer to the package insert. |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screening returned 100 records. Of the 20 shown in the data compiled for this report:
-  - **Major**: clarithromycin, dexamethasone
-  - **Moderate**: aprepitant, clotrimazole, miconazole, naltrexone
-  - **Minor**: mostly acid-reducing agents and antacids, such as famotidine, ranitidine, cimetidine, nizatidine, rabeprazole, esomeprazole, lansoprazole, dexlansoprazole, aluminum hydroxide, calcium carbonate and magnesium salts
-- The pattern of interactions suggests that CYP3A-related interactions need attention.
+- **Drug Interactions**: 100 interacting drugs were identified. Major-level interactions include **clarithromycin** and **dexamethasone**. Moderate-level interactions include **aprepitant**, **clotrimazole**, **miconazole** and **naltrexone**. The remaining entries listed (acid reducers and antacids such as famotidine, ranitidine, rabeprazole, cimetidine, aluminium hydroxide and calcium carbonate) are Minor.
 
-Warnings and contraindications from the Canadian package insert were not available. Please refer to the package insert for these.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support for unclassified RCC is the model prediction (L5), with no trials or publications for this subtype. Axitinib's benefit in broader RCC is established, but that does not by itself establish benefit in this subgroup.
+The only supporting evidence is a single preclinical study in one liposarcoma subtype, with no clinical trials. The prediction is a research question rather than a candidate ready for development.
 
 **To proceed, the following is needed:**
-- Subtype-specific clinical or observational data, such as a case series or a retrospective analysis of unclassified RCC patients treated with axitinib
-- Clarification of how "unclassified RCC" overlaps with the already approved RCC indication, since this may be covered by the current label
-- Canadian package insert warnings and contraindications
-- Detailed mechanism of action data
-- A safety and drug-interaction management plan, particularly for CYP3A-related interactions
-
-Related RCC subtypes in the same data have more evidence and may be better candidates to pursue first:
-- **Translocation (TFE3) RCC**: a randomized Phase 2 trial of axitinib plus nivolumab (15 patients, results not yet available)
-- **Collecting duct carcinoma**: a Phase 2 trial of checkpoint inhibitors plus axitinib (30 patients, recruiting)
+- Clinical data (trials or case series) in liposarcoma patients
+- Mechanism-of-action data to strengthen the mechanistic analysis
+- Package insert warnings and contraindications from Health Canada for safety screening
+- A review of the clinically relevant major interactions (clarithromycin, dexamethasone)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

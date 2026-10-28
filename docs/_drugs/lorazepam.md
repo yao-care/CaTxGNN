@@ -4,17 +4,17 @@ title: Lorazepam
 parent: Model Prediction Only (L5)
 nav_order: 559
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Anxiety disorder, status epilepticus, absence epilepsy…"
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lorazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lorazepam: From Anxiety and Seizure Disorders to Trigeminal Nerve Neoplasm
+## Lorazepam: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Among the other top predictions, only insomnia has a meaningful body of literatu
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, status epilepticus, absence epilepsy, Lennox-Gastaut syndrome, early myoclonic encephalopathy (the Health Canada licence records compiled for this report carry no indication text, so these come from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 19 |
+| Canada Market Status | Marketed (valid licenses: 19 of 19) |
+| Number of DINs | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,13 +62,12 @@ Among the other top predictions, only insomnia has a meaningful body of literatu
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, lorazepam is a positive allosteric modulator of the GABA-A receptor. It produces anxiolytic, sedative and anticonvulsant effects.
 
-For the top-ranked prediction, **trigeminal nerve neoplasm**, no identifiable mechanistic link exists to lorazepam's original indications. The high score appears to be a graph-based artefact. Lorazepam has no known antitumour activity. Any use would be limited to symptomatic supportive care, such as managing anxiety or seizures, and would not modify the disease.
+For the top-ranked prediction, **trigeminal nerve neoplasm**, no identifiable mechanistic link exists to lorazepam's original indications. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Lorazepam has no known antitumor activity. Any use would be limited to symptomatic supportive care, such as managing anxiety or seizures, and would not modify the disease.
 
 Other high-ranking predictions are more plausible mechanistically, mainly because they overlap with lorazepam's existing indications:
 
-- **Insomnia (rank 2, score 99.80%)**: GABA-A potentiation produces sedation and hypnotic effects. Small older studies suggest short-term benefit in chronic insomnia. Current guidance generally discourages long-term benzodiazepine use because of tolerance, dependence, cognitive impairment and fall risk. This is effectively an already-practised off-label use rather than a novel repurposing opportunity.
 - **Reflex seizure types (reading, audiogenic, startle, thinking, micturition-induced, orgasm-induced and eating seizures)**: Enhancing GABA-A activity is a rational mechanism for seizure suppression, and these conditions resemble lorazepam's established epilepsy indications. The supporting evidence is thin, indirect or based on animal withdrawal studies.
-- **Acute encephalopathy with biphasic seizures and late reduced diffusion (rank 10)**: Benzodiazepines are used for acute seizure control as symptomatic care, but lorazepam would not be expected to alter the underlying course of the disease.
+- **Acute encephalopathy with biphasic seizures and late reduced diffusion**: Benzodiazepines are used for acute seizure control as symptomatic care, but lorazepam would not be expected to alter the underlying course of the disease.
 
 ---
 

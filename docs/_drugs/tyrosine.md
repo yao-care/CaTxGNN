@@ -48,9 +48,9 @@ Tyrosine is an amino acid used as a nutrient component in parenteral nutrition p
 |------|------|
 | Original Indication | Not specified in the Canadian license data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -66,13 +66,13 @@ Nothing in the data compiled for this report connects tyrosine to compressive in
 
 | Predicted Indication | TxGNN Score | Observation |
 |------|------|------|
-| Obsolete neurogenic bladder | 99.55% | No supporting evidence; the disease term is obsolete |
-| Angle-closure glaucoma | 99.54% | Only associative biomarker data (plasma amino acid changes); no therapeutic evidence |
-| Hyperthyroidism | 99.51% | Safety concern: tyrosine is a thyroid hormone substrate and could theoretically worsen thyrotoxicosis |
-| Postural orthostatic tachycardia syndrome | 99.46% | Plausible indirect link via catecholamines (L4); the only paper is a case report of a drug with the opposite action |
-| Hyperthyroxinemia | 99.46% | Supplementation could theoretically raise thyroxine |
-| Resistance to thyroid hormone (THRB mutation) | 99.40% | Receptor defect that a precursor would not correct |
-| Traumatic glaucoma, aqueous misdirection, neovascular glaucoma | 99.35–99.32% | No credible mechanism or supporting evidence |
+| Obsolete neurogenic bladder | 0.9955 | No supporting evidence; the disease term is obsolete |
+| Angle-closure glaucoma | 0.9954 | Only associative biomarker data (plasma amino acid changes); no therapeutic evidence |
+| Hyperthyroidism | 0.9951 | Safety concern: tyrosine is a thyroid hormone substrate and could theoretically worsen thyrotoxicosis |
+| Postural orthostatic tachycardia syndrome | 0.9946 | Plausible indirect link via catecholamines (L4); the only paper is a case report of a drug with the opposite action |
+| Hyperthyroxinemia | 0.9946 | Supplementation could theoretically raise thyroxine |
+| Resistance to thyroid hormone (THRB mutation) | 0.9940 | Receptor defect that a precursor would not correct |
+| Traumatic glaucoma, aqueous misdirection, neovascular glaucoma | 99.35–0.9932 | No credible mechanism or supporting evidence |
 
 ---
 

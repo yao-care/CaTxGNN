@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **insomnia**, with **3 register
 |------|------|
 | Original Indication | Narcolepsy (narcolepsy with cataplexy, narcolepsy without cataplexy) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.997% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

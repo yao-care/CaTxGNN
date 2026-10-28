@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Dermatitis, exanthem, tinea infections, otitis externa, hemorrhoids, burns, proctitis and related conditions (approved-indication text is not available for the Canadian licences) |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.15% |
+| TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

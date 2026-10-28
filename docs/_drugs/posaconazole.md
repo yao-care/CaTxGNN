@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Posaconazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 754
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Chromomycosis, coccidioidomycosis, aspergillosis, sporotrichosis…"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis"]
 # Posaconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,19 +49,19 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but the sup
 |------|------|
 | Original Indication | Chromomycosis, coccidioidomycosis, aspergillosis, sporotrichosis, histoplasmosis, fusariosis, mycetoma, candidiasis, oral candidiasis and other fungal infections (no approved indication text is available from the Canadian licence records) |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, posaconazole is a triazole antifungal that inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane. Its efficacy in a range of invasive fungal diseases is established, and this is probably why the knowledge graph links it to pneumocystosis.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, posaconazole is a triazole antifungal that inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane. Its efficacy in a range of invasive fungal diseases is established, and the TxGNN model (deep learning) may have learned a similarity between those diseases and pneumocystosis, which is probably why it predicts this indication.
 
-The mechanistic link is weak, however. *Pneumocystis jirovecii* has no ergosterol in its cell membrane and uses cholesterol and other sterols instead, so the azole mechanism has no clear target in this organism. The very high TxGNN score (0.998) most likely reflects posaconazole's broad association with invasive fungal diseases in the knowledge graph, not a validated mechanism.
+The mechanistic link is weak, however. *Pneumocystis jirovecii* has no ergosterol in its cell membrane and uses cholesterol and other sterols instead, so the azole mechanism has no clear target in this organism. The very high TxGNN score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a validated mechanism.
 
 The literature gathered so far is indirect. It consists of guidelines and reviews on invasive fungal disease, a study of antifungal penetration into lung epithelial lining fluid, and a cohort study of infections after liver transplantation. None of it shows posaconazole efficacy against Pneumocystis.
 

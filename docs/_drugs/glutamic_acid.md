@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Glutamic Acid
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 436
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L5). Approved use: Not stated in the available license data (marketed in Canada as a com…"
@@ -14,7 +14,7 @@ predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated ost
 # Glutamic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Glutamic acid is an amino acid that is marketed in Canada as a component of pare
 |------|------|
 | Original Indication | Not stated in the available license data (marketed in Canada as a component of parenteral nutrition products) |
 | Predicted New Indication | Postmenopausal osteoporosis |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L4 (preclinical and mechanistic data only; no clinical studies of glutamic acid itself) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,9 +63,9 @@ Detailed mechanism of action data is not currently available for this drug. Glut
 The link to osteoporosis is indirect. Glutamate signalling has been described in bone cells (osteoblasts and osteoclasts). Glutamate residues in vitamin K-dependent proteins such as osteocalcin also undergo gamma-carboxylation, which is relevant to bone metabolism. One preclinical study in ovariectomized mice reported that glutamic acid reduced estrogen-deficiency-induced menopausal-like symptoms. However, none of this shows that giving glutamic acid affects bone density or fracture risk in humans. Many of the retrieved papers are about vitamin K2, vitamin D3 or bisphosphonates, not glutamic acid itself.
 
 The other predicted indications are weaker still:
-- **Pregnancy-associated osteoporosis** (score 99.18%): no trials or literature; likely driven by network similarity to other osteoporosis entities, and pregnancy adds a safety constraint.
-- **Primary hereditary glaucoma** (score 99.13%): no trials or literature; glutamate excitotoxicity of retinal ganglion cells is a recognized hypothesis in glaucoma, which argues against rather than for supplementation.
-- **Gastroparesis** (score 99.11%): the retrieved papers concern antibodies to glutamic acid decarboxylase (GAD65), a different molecule, so this is probably a name-similarity artifact.
+- **Pregnancy-associated osteoporosis** (score 0.9918): no trials or literature; likely driven by network similarity to other osteoporosis entities, and pregnancy adds a safety constraint.
+- **Primary hereditary glaucoma** (score 0.9913): no trials or literature; glutamate excitotoxicity of retinal ganglion cells is a recognized hypothesis in glaucoma, which argues against rather than for supplementation.
+- **Gastroparesis** (score 0.9911): the retrieved papers concern antibodies to glutamic acid decarboxylase (GAD65), a different molecule, so this is probably a name-similarity artifact.
 
 ---
 
@@ -121,7 +121,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by any clinical trial or human study of glutamic acid in postmenopausal osteoporosis. The only direct evidence is one mouse study, and most retrieved papers concern vitamin K2, vitamin D3 or bisphosphonates. The kidney, calcium-metabolism and cardiovascular signals in the knowledge graph also overlap with an older osteoporosis population.
+The high TxGNN score is not backed by any clinical trial or human study of glutamic acid in postmenopausal osteoporosis. The only direct evidence is one mouse study, and most retrieved papers concern vitamin K2, vitamin D3 or bisphosphonates. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The kidney, calcium-metabolism and cardiovascular signals also overlap with an older osteoporosis population.
 
 **To proceed, the following is needed:**
 - The Health Canada package insert warnings and contraindications, which are currently missing and block safety screening

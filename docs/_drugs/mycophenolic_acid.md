@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mycophenolic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 636
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Mycophenolic Acid: predicted new indication Hemoglobinopathy (evidence level L3). Approved use: Not available in the data compiled for this report"
@@ -14,7 +14,7 @@ predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with 
 # Mycophenolic Acid
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence is weak and indirect: the likely role is as transplant-related immu
 |------|------|
 | Original Indication | Not available in the data compiled for this report (licence indication text is empty) |
 | Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| TxGNN Prediction Score | 0.9960 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,7 +67,7 @@ In hemoglobinopathies such as thalassemia, this mechanism is relevant mainly in 
 The prediction is therefore best read as support for a transplant-setting research question, not as evidence of disease-modifying activity.
 
 Other high-scoring predictions have little support:
-- **Rheumatoid arthritis** (score 99.18%, L3): the mechanism is biologically plausible, and older literature from 1991–1999 describes mycophenolate as investigational for this disease. No efficacy RCTs were identified.
+- **Rheumatoid arthritis** (score 0.9918, L3): the mechanism is biologically plausible, and older literature from 1991–1999 describes mycophenolate as investigational for this disease. No efficacy RCTs were identified.
 - **Migraine, rare red cell enzyme or membrane disorders, antithrombin deficiency, chromosomal deletion**: model prediction only (L5), with no plausible mechanistic link in the supplied data.
 
 ---

@@ -50,10 +50,10 @@ with **4 clinical trials** (two terminated early with very few patients) and **5
 |------|------|
 | Original Indication | Thyroid gland carcinoma |
 | Predicted New Indication | Renal cell carcinoma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

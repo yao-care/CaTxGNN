@@ -4,17 +4,17 @@ title: Dinutuximab
 parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Dinutuximab: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Neuroblastoma"
 monitor_inn: "DINUTUXIMAB"
-predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "chronic myelogenous leukemia, BCR-ABL1 positive"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "chronic myelogenous leukemia, BCR-ABL1 positive"]
 ---
 
 # Dinutuximab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 Dinutuximab is an anti-GD2 monoclonal antibody, originally used to treat **neuroblastoma**.
 The TxGNN model predicts it may be effective for **vertebral anomalies and variable endocrine and T-cell dysfunction**, a rare developmental and immunodeficiency syndrome.
-There are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model's graph-based score alone.
+There are currently **0 clinical trials** and **0 publications** supporting this specific prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -50,10 +50,10 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 |------|------|
 | Original Indication | Neuroblastoma |
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,8 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 Detailed mechanism-of-action data is not available in the compiled drug record. Dinutuximab is known to be a monoclonal antibody against GD2, a ganglioside found on the surface of neuroblastoma cells. Its efficacy in neuroblastoma rests on targeting GD2-expressing tumour cells.
 
-**No mechanistic link is apparent for this prediction.** The predicted condition is a rare developmental and immunodeficiency syndrome with no known GD2-driven disease process. The high TxGNN score (0.994) is a graph-based inference only, and no trials or publications support it. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
+**No mechanistic link is apparent for this prediction.** The predicted condition is a rare developmental and immunodeficiency syndrome with no known GD2-driven disease process. The high TxGNN score (0.9942) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications support it. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
 
-**Other predictions for this drug.** Among the other candidates, **ganglioneuroblastoma** (rank 2, score 99.39%) is biologically plausible because it belongs to the same neuroblastic tumour family as neuroblastoma, and these tumours commonly express GD2. This is largely an extension within the same tumour family rather than true repurposing. The related literature is limited to a pediatric neuroblastoma study of irinotecan-temozolomide with dinutuximab (COG ANBL1221) and case reports, none specific to ganglioneuroblastoma.
 
 The other two candidates, retroperitoneal neoplasm and BCR-ABL1-positive chronic myelogenous leukaemia, have no supporting trials or publications. The leukaemia prediction has no credible mechanistic rationale, because the disease is driven by the BCR-ABL1 fusion kinase rather than GD2.
 

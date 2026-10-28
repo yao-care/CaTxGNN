@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Empagliflozin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
+last_modified_at: 2026-10-27
+description: "Empagliflozin: predicted new indication classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Empagliflozin
@@ -33,75 +33,89 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Empagliflozin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+## Empagliflozin: SGLT2 inhibitor → classic stiff person syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Empagliflozin is an SGLT2 inhibitor originally used to treat type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **Classic Stiff Person Syndrome**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
+Empagliflozin is an SGLT2 inhibitor (a drug that lowers blood glucose by reducing glucose reabsorption in the kidney) marketed in Canada.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**, with a score of **0.9906**.
+There are currently **no clinical trials and no publications** supporting this direction, so it is a model-generated hypothesis only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (the Canadian license records contain no indication text; this is taken from the knowledge-graph indication data) |
-| Predicted New Indication | Classic stiff person syndrome |
-| TxGNN Prediction Score | 99.06% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | classic stiff person syndrome |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, empagliflozin is an SGLT2 inhibitor that lowers blood glucose by reducing renal glucose reabsorption, and its efficacy in type 2 diabetes is established.
+Detailed mechanism-of-action data for empagliflozin is not available in the data compiled for this report. Based on general knowledge, empagliflozin is an SGLT2 inhibitor that lowers renal glucose reabsorption.
 
-Stiff person syndrome is an autoimmune neurological disorder characterised by anti-GAD65 antibodies and impaired GABAergic signalling. A possible link is the shared association with autoimmune diabetes (GAD65 autoimmunity). This is an inference from the knowledge graph, not a demonstrated pharmacological mechanism, and no evidence shows that SGLT2 inhibition affects stiff person syndrome.
+Classic stiff person syndrome is an autoimmune neurological disorder characterized by anti-GAD65 antibodies and impaired GABAergic signaling. One plausible link is a shared association with autoimmune diabetes (GAD65 autoimmunity). However, this is an inference from the model's data patterns, not a demonstrated pharmacological mechanism. No evidence shows that SGLT2 inhibition affects the neurological features of this disease.
 
-Two other predictions deserve mention:
-- **Focal stiff limb syndrome** (score 99.06%): a variant within the stiff person syndrome spectrum. It received an identical score, so it is likely not an independent prediction.
-- **Opsismodysplasia** (score 99.03%): a rare skeletal dysplasia caused by INPPL1 mutations, which affect insulin/PI3K signalling. The link to glucose metabolism is speculative, and the paediatric rare-disease setting adds safety considerations.
+The prediction should therefore be treated as hypothesis-generating only.
 
-All three predictions are hypothesis-generating only.
+---
+
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+---
+
+## Literature Evidence
+
+Currently no related literature available.
+
+---
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02443945 | JARDIANCE | Not specified | Not specified |
-| 02443937 | JARDIANCE | Not specified | Not specified |
-| 02456591 | SYNJARDY | Not specified | Not specified |
-| 02456575 | SYNJARDY | Not specified | Not specified |
-| 02456605 | SYNJARDY | Not specified | Not specified |
+| 02443945 | JARDIANCE | Not recorded | Not recorded |
+| 02443937 | JARDIANCE | Not recorded | Not recorded |
+| 02456591 | SYNJARDY | Not recorded | Not recorded |
+| 02456575 | SYNJARDY | Not recorded | Not recorded |
+| 02456605 | SYNJARDY | Not recorded | Not recorded |
 
-Eight valid single-ingredient authorisations are on record in total; the five above are shown.
+Eight licences are listed in the data, all currently valid. Only the first five are shown here.
+
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screening returned 100 potential interactions. Most of those listed are Moderate, and a few are Minor. Examples of Moderate interactions include:
-  - Sympathomimetics and bronchodilators: phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol
-  - Cardiovascular drugs: acebutolol, nifedipine, fosinopril
-  - Diuretics: furosemide, acetazolamide
-  - Others: ethinylestradiol, hydrocortisone, ethanol, fosphenytoin
-  - Minor interactions: topical hydrocortisone, topical alclometasone
+- **Drug Interactions**: The interaction screen returned 100 potential interactions; those shown in the data are mostly of Moderate severity, with a few Minor. Examples include:
+  - Moderate: phenylephrine, acebutolol, acetazolamide, formoterol, pseudoephedrine, nifedipine, epinephrine, ethinylestradiol, hydrocortisone, salbutamol, ethanol, furosemide, fosinopril
+  - Minor: topical hydrocortisone, topical alclometasone
 
 Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a high model score (99.06%), with no clinical trials or literature. The proposed mechanism is speculative, and the Canadian license records lack indication and warning text. This is Evidence Level L5.
+The prediction rests only on a high model score, with no clinical trials or publications addressing stiff person syndrome. The mechanistic link is speculative, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Retrieve the Health Canada package insert (warnings, contraindications, approved indications), which is required before any safety screening
-- Obtain mechanism of action data from DrugBank
-- Conduct a literature and clinical trial search on SGLT2 inhibitors in stiff person syndrome and GAD65-related autoimmunity
-- Assess whether the stiff person syndrome and focal stiff limb syndrome predictions are independent
-- Look for preclinical or mechanistic evidence connecting SGLT2 inhibition to the neurological or autoimmune pathology
+- Any clinical or preclinical study directly examining SGLT2 inhibition in stiff person syndrome
+- Mechanism-of-action data for empagliflozin
+- Package insert warnings and contraindications from Health Canada, for safety screening
+- Review of the safety profile in patients with autoimmune neurological disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Goserelin
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 440
-evidence_level: L5
+evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Goserelin: predicted new indication Amenorrhea (evidence level L5). Approved use: Endometriosis"
+last_modified_at: 2026-10-28
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
+description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Goserelin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Goserelin: From Endometriosis to Amenorrhea
+## Goserelin: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **1 clinical trial** and **15 publications** currently associated with this
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the Canadian licence indication text is not available, so this comes from the knowledge graph) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 (as graded in the compiled data; the only trial is indirectly relevant and has unknown status, so this is a generous reading) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ This is how it works in endometriosis: lowering estrogen reduces the growth of e
 
 However, amenorrhea here is mostly a pharmacodynamic effect or an outcome measure, not a separate disease to be treated. The "new indication" framing is therefore ambiguous. More meaningful uses would be deliberate menstrual suppression or ovarian protection during chemotherapy, and these are different clinical questions from the one the model predicted.
 
-Two other predictions, renal hypoplasia and bilateral renal hypoplasia (both about 99.06%), have no plausible mechanistic link, no trials and no literature. They are model artefacts and should not be pursued.
+Two other predictions, renal hypoplasia and bilateral renal hypoplasia (both about 0.9906), have no plausible mechanistic link, no trials and no literature. They are model artefacts and should not be pursued.
 
 ---
 

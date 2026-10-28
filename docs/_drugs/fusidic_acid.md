@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fusidic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 421
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial infections . The Canadian licence records compiled for this…"
 monitor_inn: "FUSIDIC ACID"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
+description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fusidic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Fusidic Acid: From Bacterial Infections to Exposure Keratitis
+## Fusidic Acid: Exposure keratitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fusidic acid is an antibacterial agent used mainly against Gram-positive infections, especially Staphylococcus, and in the knowledge graph it is linked to conditions such as urinary tract infection, acne, folliculitis and bacterial pneumonia.
+Fusidic acid is an antibacterial agent used mainly against Gram-positive infections, especially Staphylococcus.
 The TxGNN model predicts it may be effective for **exposure keratitis**,
 but there are **0 clinical trials** and only **1 publication** (a case series on a different organism) behind this prediction, so the evidence is weak.
 
@@ -48,12 +48,12 @@ but there are **0 clinical trials** and only **1 publication** (a case series on
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (urinary tract infection, bronchitis, acne, folliculitis, bacterial pneumonia, among others, from the knowledge graph). The Canadian licence records compiled for this report contain no approved indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,7 +92,7 @@ Currently no related clinical trials registered.
 | 02528096 | TARO-FUSIDIC ACID | Not specified | Not specified |
 | 02474883 | FUCIBET | Not specified | Not specified |
 
-A sixth authorisation, FUCIDIN H (DIN 02238578), is also valid. All six are single-ingredient, valid licences, and none are cancelled.
+A sixth authorization, FUCIDIN H (DIN 02238578), is also valid. All 6 of 6 licenses are valid.
 
 ---
 
@@ -125,7 +125,7 @@ The prediction score is high, but no clinical trials exist and the single public
 - Package insert warnings and contraindications from Health Canada, plus approved indication text and dosage forms for each DIN
 - Detailed mechanism-of-action data
 - Evidence on whether fusidic acid has any role in infected or secondary exposure keratitis, including ophthalmic-use clinical data
-- Review of the other predictions, in particular **otitis externa** (score 99.84%, 5 supporting microbiology papers, mostly canine). It has a more plausible mechanism, as typical pathogens such as *S. aureus* are within fusidic acid's spectrum. However, there are no clinical studies, and it may reflect an existing use rather than a novel one. It may be a better candidate for a research question than exposure keratitis.
+- Review of the other predictions, in particular **otitis externa** (score 0.9984, 5 supporting microbiology papers, mostly canine). It has a more plausible mechanism, as typical pathogens such as *S. aureus* are within fusidic acid's spectrum. However, there are no clinical studies, and it may reflect an existing use rather than a novel one. It may be a better candidate for a research question than exposure keratitis.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

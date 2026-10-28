@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Trolamine salicylate is a topical salicylate marketed in Canada in creams and rubs for muscle, joint and arthritis pain. The TxGNN model predicts it may be effective for **exostosis** (score 99.75%), but **no clinical trials and no publications** were found to support this prediction. It is a model-only signal (evidence level L5), and the most biologically coherent prediction in the list is tendinitis, not exostosis.
+Trolamine salicylate is a topical salicylate marketed in Canada in creams and rubs for muscle, joint and arthritis pain. The TxGNN model predicts it may be effective for **exostosis** (score 0.9975), but **no clinical trials and no publications** were found to support this prediction. It is a model-only signal (evidence level L5), and the most biologically coherent prediction in the list is tendinitis, not exostosis.
 
 ---
 
@@ -48,10 +48,10 @@ Trolamine salicylate is a topical salicylate marketed in Canada in creams and ru
 |------|------|
 | Original Indication | Not stated in the licence records. Product names suggest topical pain relief (muscle, joint, arthritis) |
 | Predicted New Indication | Exostosis |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 11 |
+| Canada Market Status | Marketed (valid licenses: 11 of 11) |
+| Number of DINs | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,15 +66,15 @@ Such an action could ease pain, but it has no plausible effect on the bony outgr
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Tendinitis | 99.70% | Most coherent: symptomatic relief of local musculoskeletal inflammation and pain. This is general pharmacology, not evidence from the data |
-| 3 | Myositis fibrosa | 99.65% | At most symptomatic analgesia. Tied score with rank 4 suggests a graph-neighbourhood artifact |
-| 4 | Idiopathic granulomatous myositis | 99.65% | Immune-mediated, so topical salicylate is unlikely to address the pathology |
-| 5 | Fibromyalgia | 99.59% | Central sensitization, so limited benefit from a topical peripheral analgesic |
-| 6 | Inclusion body myositis | 99.46% | Poorly responsive to anti-inflammatory therapy. No disease-modifying role |
-| 7 | Exostoses, multiple | 99.43% | Hereditary (EXT1/EXT2). No mechanistic link to salicylates |
-| 8 | Rheumatoid arthritis | 99.25% | At best adjunctive relief of localized joint pain. No disease-modifying effect |
-| 9 | Headache disorder | 99.23% | Minimal systemic absorption from the topical form, so extrapolation is weak |
-| 10 | Gout | 99.18% | Urate effects apply to systemic dosing, not topical use |
+| 2 | Tendinitis | 0.9970 | Most coherent: symptomatic relief of local musculoskeletal inflammation and pain. This is general pharmacology, not evidence from the data |
+| 3 | Myositis fibrosa | 0.9965 | At most symptomatic analgesia. Tied score with rank 4 may reflect similarities the model learned between related diseases, not biological evidence |
+| 4 | Idiopathic granulomatous myositis | 0.9965 | Immune-mediated, so topical salicylate is unlikely to address the pathology |
+| 5 | Fibromyalgia | 0.9959 | Central sensitization, so limited benefit from a topical peripheral analgesic |
+| 6 | Inclusion body myositis | 0.9946 | Poorly responsive to anti-inflammatory therapy. No disease-modifying role |
+| 7 | Exostoses, multiple | 0.9943 | Hereditary (EXT1/EXT2). No mechanistic link to salicylates |
+| 8 | Rheumatoid arthritis | 0.9925 | At best adjunctive relief of localized joint pain. No disease-modifying effect |
+| 9 | Headache disorder | 0.9923 | Minimal systemic absorption from the topical form, so extrapolation is weak |
+| 10 | Gout | 0.9918 | Urate effects apply to systemic dosing, not topical use |
 
 ---
 

@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Estrone: From Acne to Elevated Plasma Zinc
+## Estrone: From Acne to zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,13 +50,13 @@ The prediction is purely computational and has no clinical corroboration.
 |------|------|
 | Original Indication | Acne |
 | Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: The approved-indication text for the Canadian product is not available, so the original indication is taken from the knowledge graph's indication records.*
+*Note: The approved-indication text for the Canadian product is not available, so the original indication is taken from the indication records.*
 
 ---
 
@@ -64,9 +64,9 @@ The prediction is purely computational and has no clinical corroboration.
 
 Currently, detailed mechanism of action data is not available. Based on known information, estrone is a weak estrogen and a precursor/metabolite of estradiol. Estrogens can modestly influence circulating trace metals, for example through changes in binding proteins such as albumin and ceruloplasmin.
 
-However, there is no evidence that estrone raises, lowers or treats elevated plasma zinc. The high TxGNN score (0.998) is a network-based prediction without clinical support. In addition, elevated plasma zinc is a laboratory finding rather than a treatable clinical condition, which further limits its therapeutic relevance.
+However, there is no evidence that estrone raises, lowers or treats elevated plasma zinc. The high TxGNN score (0.9981) is a network-based prediction without clinical support. In addition, elevated plasma zinc is a laboratory finding rather than a treatable clinical condition, which further limits its therapeutic relevance.
 
-A second prediction, **pyogenic arthritis-pyoderma gangrenosum-acne (PAPA) syndrome** (score 99.30%), also has no clinical trials or literature. It is an autoinflammatory disorder driven by PSTPIP1 mutations and excess IL-1β. The link to estrone appears to come only from the shared "acne" phenotype. Established treatments target IL-1 or TNF, not estrogens.
+A second prediction, **pyogenic arthritis-pyoderma gangrenosum-acne (PAPA) syndrome** (score 0.9930), also has no clinical trials or literature. It is an autoinflammatory disorder driven by PSTPIP1 mutations and excess IL-1β. The link to estrone appears to come only from the shared "acne" phenotype. Established treatments target IL-1 or TNF, not estrogens.
 
 ---
 

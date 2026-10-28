@@ -4,17 +4,17 @@ title: Paliperidone
 parent: Model Prediction Only (L5)
 nav_order: 700
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia, schizoaffective disorder, schizophreniform disorder…"
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paliperidone: From Schizophrenia to Retinal Dystrophy
+## Paliperidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **retinal dystrophy (with or wi
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, schizoaffective disorder, schizophreniform disorder, psychotic disorder (from the knowledge graph; the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 11 |
+| Canada Market Status | Marketed (valid licenses: 11 of 11) |
+| Number of DINs | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,9 @@ The TxGNN model predicts it may be effective for **retinal dystrophy (with or wi
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, paliperidone is a dopamine D2 and serotonin 5-HT2A receptor antagonist. Its efficacy in schizophrenia is established.
 
-A mechanistic link to inherited retinal degeneration is hard to find. No established pathway connects D2/5-HT2A antagonism to the genetic and degenerative processes behind retinal dystrophies. The high score is most likely a graph-based artifact of the knowledge graph rather than a biologically grounded signal.
+A mechanistic link to inherited retinal degeneration is hard to find. No established pathway connects D2/5-HT2A antagonism to the genetic and degenerative processes behind retinal dystrophies. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The same applies to the other top-ranked predictions, including several myopia subtypes, hydranencephaly, a glycosylation disorder and a hereditary neuropathy. None has any trial or literature support. The only prediction with any supporting studies is treatment-refractory schizophrenia. That is a sub-population of the original indication, not a true repurposing target, and the three Phase 4 trials found do not show paliperidone-specific efficacy there.
+The same applies to the other top-ranked predictions, including several myopia subtypes, hydranencephaly, a glycosylation disorder and a hereditary neuropathy. None has any trial or literature support.
 
 ---
 
@@ -121,7 +121,7 @@ Please refer to the Canadian package insert for the official warnings and contra
 **Decision: Hold**
 
 **Rationale:**
-The retinal dystrophy prediction has a very high model score but no clinical trials, no literature and no plausible mechanistic link (Evidence Level L5). The only prediction with supporting studies is treatment-refractory schizophrenia, which is not a new indication.
+The retinal dystrophy prediction has a very high model score but no clinical trials, no literature and no plausible mechanistic link (Evidence Level L5).
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a documented biological rationale linking paliperidone to retinal pathways

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **eye disease** (a broad label)
 |------|------|
 | Original Indication | Not specified in the Canadian licence records (marketed ophthalmic NSAID, used for inflammation and pain after cataract surgery) |
 | Predicted New Indication | Eye disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

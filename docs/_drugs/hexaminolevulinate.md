@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hexaminolevulinate
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 450
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Hexaminolevulinate: predicted new indication Colonic neoplasm (evidence level L2). Approved use: Not stated in the license data (the product is known as a bladder can…"
 monitor_inn: "Hexaminolevulinate"
-predicted_indications: ["bronchitis", "colonic neoplasm", "severe nonproliferative diabetic retinopathy", "cecum villous adenoma", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "lipoma of colon", "cecal disease", "cavernous hemangioma of colon"]
+predicted_indications: ["bronchitis"]
+description: "Hexaminolevulinate: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hexaminolevulinate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Hexaminolevulinate: From Bladder Imaging Agent to Colonic Neoplasm
+## Hexaminolevulinate: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Hexaminolevulinate (HAL) is a photosensitizer precursor marketed in Canada as CYSVIEW. The TxGNN model predicts it may be useful for **colonic neoplasm**, where it would act as a fluorescence imaging agent rather than a treatment. Currently **3 clinical trials** (1 completed, 1 terminated, 1 withdrawn) and **4 publications** (including 1 RCT) support this direction.
+Hexaminolevulinate (HAL) is a photosensitizer precursor marketed in Canada as CYSVIEW. The TxGNN model predicts it may be useful for **bronchitis**, where it would act as a fluorescence imaging agent rather than a treatment. Currently **3 clinical trials** (1 completed, 1 terminated, 1 withdrawn) and **4 publications** (including 1 RCT) support this direction.
 
 Note: the Canadian license data compiled for this report does not list an approved indication, so the bladder imaging use is taken from the general description of the product, not from the license text.
 
@@ -48,15 +48,15 @@ Note: the Canadian license data compiled for this report does not list an approv
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the license data (the product is known as a bladder cancer imaging agent) |
-| Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 98.64% |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Bronchitis |
+| TxGNN Prediction Score | 0.9906 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold (research question: supports diagnostic imaging, not therapy) |
 
-Note: the top-ranked TxGNN prediction is bronchitis (99.06%), but it has no clinical trials or literature (L5) and no plausible biological rationale. Colonic neoplasm (rank 2) is the best-supported prediction and is the focus of this report.
+Note: the top-ranked TxGNN prediction is bronchitis (0.9906), but it has no clinical trials or literature (L5) and no plausible biological rationale.
 
 ---
 
@@ -112,7 +112,6 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-Colonic neoplasm has the strongest support among the predictions (L2: one completed Phase 1/2 study, one RCT, and several pilot studies). However, the trials are small, early-phase, and focused on detection rather than therapy. The completed trial enrolled 38 patients, one trial was terminated early, and one was withdrawn. It is best treated as a research question for diagnostic imaging, not a ready-to-advance indication.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

@@ -6,7 +6,7 @@ nav_order: 973
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Verteporfin: predicted new indication Mitochondrial oxidative phosphorylation disorder due to nuclear DNA a… (evidence level L5). Approved use: Macular degeneration"
+description: "Verteporfin: predicted new indication mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (evidence level L5). Approved use: Macular degeneration"
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Verteporfin: From Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
+## Verteporfin: From Macular Degeneration to Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Macular degeneration |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, verteporfin is a photosensitizer activated by non-thermal red light. Once activated, it generates reactive oxygen species and causes local blockage of blood vessels, which is how it treats abnormal vessel growth in macular degeneration.
 
-The link to the predicted indication comes only from the knowledge-graph model (score 0.995). Nothing in the compiled data connects verteporfin's action to disorders of mitochondrial energy production caused by nuclear DNA defects. Preclinical work outside the compiled data suggests verteporfin may inhibit YAP-TEAD signaling, but no evidence here ties this to the predicted disease.
+The link to the predicted indication comes only from the TxGNN model (deep learning), with a score of 0.9949. The score may reflect similarities the model learned between related diseases, not biological evidence. Nothing in the compiled data connects verteporfin's action to disorders of mitochondrial energy production caused by nuclear DNA defects. Preclinical work outside the compiled data suggests verteporfin may inhibit YAP-TEAD signaling, but no evidence here ties this to the predicted disease.
 
 There is also a reason for caution. Verteporfin's light-triggered production of reactive oxygen species could plausibly be harmful in mitochondrial disease, where oxidative stress is already a concern. The high score should be treated as a hypothesis, not as support for repurposing.
 

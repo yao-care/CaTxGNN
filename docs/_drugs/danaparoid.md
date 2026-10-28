@@ -48,10 +48,10 @@ Danaparoid (marketed in Canada as ORGARAN) is a heparinoid anticoagulant. The Tx
 |------|------|
 | Original Indication | Not available in the data compiled for this report (anticoagulant heparinoid) |
 | Predicted New Indication | Glanzmann thrombasthenia |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,17 +60,17 @@ Danaparoid (marketed in Canada as ORGARAN) is a heparinoid anticoagulant. The Tx
 
 Currently, detailed mechanism of action data is not available. Based on general pharmacology, danaparoid is an anticoagulant heparinoid whose effect comes mainly from anti-Xa activity through potentiation of antithrombin.
 
-Glanzmann thrombasthenia is a bleeding disorder caused by absent or defective platelet integrin alpha-IIb/beta-3. Anticoagulation would be expected to **worsen** the bleeding tendency, not treat it. The high score (99.88%) most likely reflects proximity in the knowledge graph (shared coagulation and platelet network nodes) rather than a therapeutic mechanism.
+Glanzmann thrombasthenia is a bleeding disorder caused by absent or defective platelet integrin alpha-IIb/beta-3. Anticoagulation would be expected to **worsen** the bleeding tendency, not treat it. The high score (0.9988) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other five predicted indications show the same pattern. All are bleeding or platelet-function disorders where an anticoagulant would be counterproductive:
 
 | Predicted Disease | TxGNN Score | Concern |
 |------|------|------|
-| Primary release disorder of platelets | 99.88% | Platelet secretion defect; anticoagulant adds bleeding risk |
-| Pseudo-von Willebrand disease | 99.83% | GPIbα gain-of-function; anticoagulation expected to aggravate bleeding |
-| Bleeding diathesis due to a collagen receptor defect | 99.30% | Defect is in collagen-platelet signaling, not the coagulation cascade |
-| Hemorrhagic disorder due to constitutional thrombocytopenia | 99.30% | Danaparoid does not correct platelet count |
-| Scott syndrome | 99.28% | Impaired phosphatidylserine exposure; danaparoid further suppresses coagulation |
+| Primary release disorder of platelets | 0.9988 | Platelet secretion defect; anticoagulant adds bleeding risk |
+| Pseudo-von Willebrand disease | 0.9983 | GPIbα gain-of-function; anticoagulation expected to aggravate bleeding |
+| Bleeding diathesis due to a collagen receptor defect | 0.9930 | Defect is in collagen-platelet signaling, not the coagulation cascade |
+| Hemorrhagic disorder due to constitutional thrombocytopenia | 0.9930 | Danaparoid does not correct platelet count |
+| Scott syndrome | 0.9928 | Impaired phosphatidylserine exposure; danaparoid further suppresses coagulation |
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Atropine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 82
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Atropine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not specified in the data compiled for this report"
@@ -14,7 +14,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 # Atropine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is a computational prediction only and does not yet amount to clinical evid
 |------|------|
 | Original Indication | Not specified in the data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.56% |
+| TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 11 |
+| Canada Market Status | Marketed (valid licenses: 11 of 11) |
+| Number of DINs | 11 (valid: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -71,7 +71,7 @@ Several preclinical studies link cholinergic signalling to migraine biology:
 
 Together these findings make it plausible that muscarinic blockade could modulate trigeminovascular and parasympathetic pathways. However, no direct evidence of atropine efficacy in migraine in humans was identified.
 
-**A second prediction, migraine with brainstem aura (score 99.42%, Evidence Level L5), is less convincing.** A mouse study showed that muscarinic activation *inhibits* cortical spreading depression, the presumed basis of migraine aura (PMID 31945385). If so, a muscarinic antagonist like atropine could plausibly worsen or fail to reduce susceptibility, so the mechanistic direction is uncertain or possibly contradictory.
+**A second prediction, migraine with brainstem aura (score 0.9942, Evidence Level L5), is less convincing.** A mouse study showed that muscarinic activation *inhibits* cortical spreading depression, the presumed basis of migraine aura (PMID 31945385). If so, a muscarinic antagonist like atropine could plausibly worsen or fail to reduce susceptibility, so the mechanistic direction is uncertain or possibly contradictory.
 
 ---
 

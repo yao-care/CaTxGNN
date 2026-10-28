@@ -4,7 +4,7 @@ title: Chlorthalidone
 parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Chlorthalidone: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertension, congestive heart failure"
 monitor_inn: "CHLORTHALIDONE"
@@ -14,7 +14,7 @@ predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "m
 # Chlorthalidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ but **no clinical trials and no relevant publications** currently support this d
 |------|------|
 | Original Indication | Hypertension, congestive heart failure (the Canadian licence records contain no indication text; this is based on the drug's known indications) |
 | Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, chlorthalidone is a thiazide-like diuretic. Its efficacy in hypertension and congestive heart failure is established, but its mechanistic applicability to primary hereditary glaucoma is unclear.
 
-The high TxGNN score (99.92%) reflects a model-based association only. Systemic thiazide-like diuretics are not a recognized glaucoma treatment, and any effect on aqueous humour dynamics or intraocular pressure is speculative.
+The high TxGNN score (0.9992) reflects a model-based association only. Systemic thiazide-like diuretics are not a recognized glaucoma treatment, and any effect on aqueous humour dynamics or intraocular pressure is speculative.
 
 Other predictions for this drug are more plausible. Malignant hypertensive renal disease and malignant renovascular hypertension are closely related to the approved hypertension indication. Chronic pulmonary heart disease is related to the approved heart failure indication, and it is the only prediction with directly relevant literature. This report focuses on the top-ranked prediction, as requested.
 
@@ -84,7 +84,7 @@ Eight single-ingredient licences are currently valid, and none are cancelled. Th
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from the knowledge graph, not label text)**: liver failure, kidney disease, anuria, gout, type 2 diabetes mellitus, asthma, systemic lupus erythematosus, pancreatitis, peptic ulcer disease, myocardial infarction, hypercalcaemia, potassium deficiency, epilepsy, anxiety disorder, psoriasis and others. These come from a knowledge-graph association and must be verified against the official Canadian product monograph.
+- **Contraindication-related conditions (from the TxGNN model (deep learning), not label text)**: liver failure, kidney disease, anuria, gout, type 2 diabetes mellitus, asthma, systemic lupus erythematosus, pancreatitis, peptic ulcer disease, myocardial infarction, hypercalcaemia, potassium deficiency, epilepsy, anxiety disorder, psoriasis and others. These may reflect similarities the model learned between related diseases, not biological evidence, and must be verified against the official Canadian product monograph.
 - **Drug Interactions**: 100 interactions were identified; the 20 reviewed include:
   - **Major**: cisapride and dolasetron.
   - **Moderate**: antidiabetic agents (metformin, acarbose, alogliptin, albiglutide), corticosteroids (hydrocortisone, dexamethasone, triamcinolone, beclomethasone), amphotericin B, bupropion, morphine, omeprazole, rabeprazole and cholecalciferol.

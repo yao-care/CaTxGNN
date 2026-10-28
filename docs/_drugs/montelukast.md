@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 630
-evidence_level: L5
-indication_count: 5
+evidence_level: L2
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Montelukast: predicted new indication Bronchitis (mainly bronchiolitis) (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, intrinsic asthma…"
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Montelukast: From Allergic Rhinitis and Asthma to Bronchitis (Bronchiolitis)
+## Montelukast: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ The data compiled for this report include **17 clinical trials** and **20 public
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, intrinsic asthma, allergic asthma (the Canadian licence records contain no indication text) |
-| Predicted New Indication | Bronchitis (mainly bronchiolitis) |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Bronchitis |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 (one completed Phase 3 trial in infant RSV bronchiolitis; the other trials are Phase 2 or Phase 4, or have no phase assigned) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold (research question; see the Conclusion) |
 

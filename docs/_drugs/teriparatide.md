@@ -4,17 +4,17 @@ title: Teriparatide
 parent: Model Prediction Only (L5)
 nav_order: 900
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Teriparatide: predicted new indication Duodenal ulcer . Pregnancy-associated osteoporosis is the best-suppor… (evidence level L5). Approved use: Postmenopausal osteoporosis / osteoporosis"
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
+description: "Teriparatide: predicted new indication Duodenal ulcer (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Teriparatide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Teriparatide: From Postmenopausal Osteoporosis to Duodenal Ulcer
+## Teriparatide: Duodenal ulcer (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model's top-ranked prediction is **duodenal ulcer**, but **no clinical
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis / osteoporosis (the Health Canada licence records contain no indication text, so this comes from the knowledge-graph indication data) |
-| Predicted New Indication | Duodenal ulcer (top-ranked). Pregnancy-associated osteoporosis (rank 8) is the best-supported alternative |
-| TxGNN Prediction Score | 99.86% (duodenal ulcer); 99.55% (pregnancy-associated osteoporosis) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal ulcer (disease) |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (duodenal ulcer); L4 (pregnancy-associated osteoporosis) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold (duodenal ulcer); a research question for pregnancy-associated osteoporosis |
 
 ## Why is This Prediction Reasonable?

@@ -50,9 +50,9 @@ It is a pure model prediction (the score is very high, but nothing backs it up).
 |------|------|
 | Original Indication | No approved indication text is recorded in the Canadian licence data (products are sunscreens, foundations and tinted moisturisers) |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.9998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

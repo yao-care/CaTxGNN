@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,11 +60,11 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, so a mechanism targeting reverse transcriptase is conceivable. However, NNRTIs are generally poorly active against FIV because its reverse transcriptase differs structurally from that of HIV-1. No supporting data were available to resolve this question.
 
-The high TxGNN score (99.93%) reflects a graph-based similarity to the original HIV/AIDS indications. It is not independent evidence of efficacy.
+The high TxGNN score (0.9993) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not independent evidence of efficacy.
 
 **Other predictions:**
-- **Simian immunodeficiency virus infection** (score 99.93%): SIV is closely related to HIV, so a rationale is plausible. The only linked publication concerns a different drug (islatravir), and SIV infection is mainly an animal research model rather than a human clinical indication.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.91%): No plausible mechanistic link was identified. This is a rare genetic disorder with no viral target, and the score likely reflects a graph-based artifact.
+- **Simian immunodeficiency virus infection** (score 0.9993): SIV is closely related to HIV, so a rationale is plausible. The only linked publication concerns a different drug (islatravir), and SIV infection is mainly an animal research model rather than a human clinical indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9991): No plausible mechanistic link was identified. This is a rare genetic disorder with no viral target, and the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

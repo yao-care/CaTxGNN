@@ -47,31 +47,31 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 |------|------|
 | Original Indication | Not stated in the licence data (marketed as an antibacterial throat lozenge) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Amylmetacresol is known as a topical antiseptic used in throat lozenges. Its pharmacological action in cauda equina syndrome has not been established.
 
-The link between the original use (local oropharyngeal infection and soreness) and the predicted indication is weak. Cauda equina syndrome is a compressive neurological condition of the lower spinal nerve roots. A mild local anaesthetic-like effect (possibly sodium channel blockade) is speculative and would not plausibly address nerve compression. The high score most likely reflects proximity in the knowledge graph rather than a verified pharmacological rationale.
+The link between the original use (local oropharyngeal infection and soreness) and the predicted indication is weak. Cauda equina syndrome is a compressive neurological condition of the lower spinal nerve roots. A mild local anesthetic-like effect (possibly sodium channel blockade) is speculative and would not plausibly address nerve compression. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a verified pharmacological rationale.
 
 Other top-ranked predictions are also unsupported by evidence:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level |
 |---|---|---|---|
-| 2 | Neurogenic bladder (obsolete ontology term) | 99.96% | L5 |
-| 3 | Irritable bowel syndrome | 99.89% | L5 |
-| 4 | Ciliary body disease | 99.70% | L5 |
-| 5 | Panuveitis | 99.68% | L5 |
-| 6 | Iris disease | 99.63% | L5 |
-| 7 | Infectious anterior uveitis | 99.57% | L5 |
-| 8 | Uveitis | 99.53% | L5 |
-| 9 | Ciliary body cancer | 99.46% | L5 |
-| 10 | Benign neoplasm of ciliary body | 99.45% | L5 |
+| 2 | Neurogenic bladder (obsolete ontology term) | 0.9996 | L5 |
+| 3 | Irritable bowel syndrome | 0.9989 | L5 |
+| 4 | Ciliary body disease | 0.9970 | L5 |
+| 5 | Panuveitis | 0.9968 | L5 |
+| 6 | Iris disease | 0.9963 | L5 |
+| 7 | Infectious anterior uveitis | 0.9957 | L5 |
+| 8 | Uveitis | 0.9953 | L5 |
+| 9 | Ciliary body cancer | 0.9946 | L5 |
+| 10 | Benign neoplasm of ciliary body | 0.9945 | L5 |
 
 The only weakly plausible rationale among these is infectious anterior uveitis, based on in vitro antibacterial and antiviral activity. There is no evidence of intraocular penetration, efficacy or ocular safety, and established pathogen-directed therapy is far better supported.
 
@@ -102,7 +102,7 @@ Please refer to the package insert for safety information. No drug interactions 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score, with no clinical trials, no publications and no plausible mechanism linking a throat antiseptic to cauda equina syndrome. Safety and mechanism data are also missing.
+The prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no publications and no plausible mechanism linking a throat antiseptic to cauda equina syndrome. Safety and mechanism data are also missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for amylmetacresol (for example from DrugBank)

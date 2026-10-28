@@ -48,10 +48,10 @@ but **no clinical trials or publications** currently support this direction, so 
 |------|------|
 | Original Indication | Potassium deficiency disease |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,7 +91,7 @@ Please also refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.90%), but there are no clinical trials or publications, and the evidence level is L5 (model prediction only). Established alternatives (potassium citrate, bicarbonate) already exist, and the safety review cannot proceed without package insert data.
+The prediction score is high (0.9990), but there are no clinical trials or publications, and the evidence level is L5 (model prediction only). Established alternatives (potassium citrate, bicarbonate) already exist, and the safety review cannot proceed without package insert data.
 
 **To proceed, the following is needed:**
 - Obtain the Health Canada package insert (warnings, contraindications, approved indication, dosage form)

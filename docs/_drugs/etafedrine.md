@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Etafedrine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 358
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Etafedrine: predicted new indication Bronchitis (evidence level L5). Approved use: Not available"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis"]
 # Etafedrine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **bronchitis**, with **0 regist
 |------|------|
 | Original Indication | Not available (the Canadian license record contains no indication text) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L3 (low-quality; see note below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Evidence level note:* Neither publication tests etafedrine alone. Both evaluated fixed-dose combination products. Strictly under the level rules, this is closer to L5 or L4 for etafedrine itself. The L3 label is retained from the source scoring, and the evidence should be read as weak and indirect.
@@ -61,7 +61,7 @@ Currently, detailed mechanism of action data is not available. Based on known dr
 
 Bronchitis, especially the chronic form, often involves airway narrowing and bronchospasm. Beta-2 receptor-mediated relaxation of airway smooth muscle could plausibly relieve these symptoms. This is why the prediction is mechanistically reasonable.
 
-The very high TxGNN score (99.50%) supports plausibility, but it is a computational prediction and not clinical evidence. The relationship to the original indication cannot be assessed because no original indication is recorded.
+The very high TxGNN score (0.9950) supports plausibility, but it is a computational prediction and not clinical evidence. The relationship to the original indication cannot be assessed because no original indication is recorded.
 
 ## Clinical Trial Evidence
 

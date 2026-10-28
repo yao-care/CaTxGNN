@@ -8,6 +8,7 @@ nav_order: 355
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Estradiol
@@ -51,7 +52,7 @@ All downstream evidence layers — clinical trials, literature, and safety data 
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no supporting studies available |
-| Canada Market Status | Not marketed (0 DINs) |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 0 |
 | Recommended Decision | Hold |
 

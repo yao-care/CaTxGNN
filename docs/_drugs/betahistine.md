@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Betahistine
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 110
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Betahistine: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Meniere disease"
+description: "Betahistine: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Betahistine"
-predicted_indications: ["restless legs syndrome", "otosclerosis", "peripheral vertigo", "age-related hearing impairment", "vertigo, benign recurrent, 2", "autosomal recessive hyperinsulinism due to Kir6.2 deficiency", "hyperinsulinemic hypoglycemia, familial"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Betahistine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,49 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Betahistine: From Meniere Disease to Restless Legs Syndrome
+## Betahistine
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Betahistine is an oral drug originally used for Meniere disease and endolymphatic hydrops (inner-ear disorders that cause vertigo).
-The TxGNN model predicts it may be effective for **restless legs syndrome**, but **no clinical trials and no publications** currently support this direction, so it rests on the model prediction alone.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Meniere disease; endolymphatic hydrops |
-| Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 98.5% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 19 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data were not available in a structured form for this report. The pharmacology below comes from the supporting literature: betahistine is a weak histamine H1 receptor agonist and a more potent H3 receptor antagonist. In its original indication, this is thought to increase histamine turnover in the vestibular nuclei and improve blood flow in the inner ear.
-
-The link to restless legs syndrome (RLS) is speculative. Histamine acts as a neuromodulator in the brain, and histaminergic signalling could plausibly interact with the dopaminergic and sleep-wake circuits implicated in RLS. The original and predicted indications are otherwise very different. One is an inner-ear balance disorder, the other a sensorimotor and sleep-related neurological condition.
-
-No data compiled for this report test this hypothesis. The prediction should be treated as a research hypothesis, not as an evidence-supported repurposing opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Canada Market Status | Marketed (valid licenses: 19 of 19) |
+| Number of DINs | 19 (valid: 19) |
 
 ---
 
@@ -101,21 +70,6 @@ Please refer to the package insert for safety information. No drug-interaction r
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The RLS prediction has a high model score (98.5%), but it is supported by no trials, no publications and only a speculative mechanistic argument. Without any supporting evidence, it does not justify moving forward.
-
-Other predictions for betahistine, such as peripheral vertigo and Meniere disease subtypes, have far more supporting literature. Those largely reflect the drug's existing use, not new repurposing opportunities.
-
-**To proceed, the following is needed:**
-- Preclinical or mechanistic evidence linking histamine H1/H3 modulation to RLS pathophysiology
-- A systematic literature search for any case reports, observational data or early-phase trials of betahistine or other H3-targeting agents in RLS
-- Detailed mechanism of action data (MOA)
-- Review of Health Canada package insert warnings and contraindications, which is required before any safety screening
-- Assessment of whether the doses and routes in current Canadian products would suit RLS
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

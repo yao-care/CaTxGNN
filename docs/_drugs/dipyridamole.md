@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 291
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Dipyridamole: predicted new indication Prinzmetal angina (evidence level L4). Approved use: Atrial fibrillation"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "DIPYRIDAMOLE"
-predicted_indications: ["stroke disorder", "thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+last_modified_at: 2026-10-27
+description: "Dipyridamole: predicted new indication thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,80 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Dipyridamole: From Atrial Fibrillation to Prinzmetal Angina
+## Dipyridamole: Platelet aggregation inhibitor (adenosine reuptake and phosphodiesterase inhibitor) → thrombotic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Dipyridamole is an antiplatelet and vasodilator drug. In the TxGNN knowledge graph, its listed original indication is atrial fibrillation.
-The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are **0 registered clinical trials** and only **10 publications**, mostly older observational reports and diagnostic stress-test studies.
-These publications describe dipyridamole mainly as a stress-test agent, not as a treatment, so the high model score is not backed by clinical evidence of benefit.
-
----
+Dipyridamole is an antiplatelet and vasodilator medicine that is currently licensed in Canada.
+The TxGNN model predicts it may be effective for **thrombotic disease**, with a score of **0.9994**.
+No clinical trials are registered for this exact indication, and the **20 publications** retrieved are mostly reviews of antiplatelet therapy in general, so the support is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation (from the TxGNN knowledge graph; no approved indication text is available for the Canadian licences) |
-| Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | thrombotic disease |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Dipyridamole inhibits adenosine reuptake, which raises extracellular adenosine and causes coronary vasodilation. It also inhibits phosphodiesterase, which raises cAMP and cGMP and reduces platelet aggregation. Detailed mechanism-of-action data are not available in the drug record compiled for this report. This description comes from the literature review.
+Detailed mechanism-of-action data was not included in the data compiled for this report. From the published literature, dipyridamole is known to block adenosine reuptake and to inhibit phosphodiesterase. Both effects raise cAMP and cGMP in platelets, which suppresses platelet aggregation and is consistent with antithrombotic activity.
 
-Prinzmetal (variant) angina is caused by coronary artery spasm. Dipyridamole is a coronary vasodilator, which is probably why the model links the two. The evidence, however, points the other way. The literature describes dipyridamole as a **stress-test agent** for detecting coronary disease. In one study, rapid withdrawal of dipyridamole-induced vasodilation with aminophylline triggered coronary vasospasm in patients with variant angina. In theory, adenosine-mediated vasodilation and coronary steal could provoke or worsen vasospasm. A therapeutic benefit is therefore not supported.
-
-Atrial fibrillation and variant angina are both cardiovascular conditions. But no direct pharmacological or clinical connection between the original and predicted indications is documented in the data compiled for this report.
-
----
+"Thrombotic disease" is a broad category rather than a single defined condition. The reviews on antiplatelet drugs, thrombotic thrombocytopenic purpura, and thromboembolism that were retrieved describe the drug class and the biology. None of them tests dipyridamole in a clearly defined thrombotic condition. For this reason the evidence level is capped at L5 and the link is plausible but unproven.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for thrombotic disease.
 
 ## Literature Evidence
 
+None of the publications below is a trial of dipyridamole in a defined thrombotic condition; they are indirect.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | Observational | Jpn Circ J | 26 patients with rest angina (13 with Prinzmetal's variant) received several drugs, including dipyridamole 50 mg, to test their effect on attacks. Propranolol did not suppress attacks and tended to aggravate them. The available abstract does not report a clear dipyridamole benefit. |
-| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | Observational | Am J Cardiol | In 36 in-hospital patients, aminophylline reversal of dipyridamole stress triggered coronary vasospasm in variant angina. |
-| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | Cohort | Br Heart J | In 25 patients with exercise-induced ST elevation, responses to dipyridamole echocardiography differed. The study concerns diagnostic testing and the reproducibility of exercise tests. |
-| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | Cohort | Zhonghua Xin Xue Guan Bing Za Zhi | Compared the clinical features of typical and atypical coronary artery spasm. |
-| [7628141](https://pubmed.ncbi.nlm.nih.gov/7628141/) | 1995 | Case report | Clin Nucl Med | A patient with variant angina and a history of migraine showed scintigraphic ischemia during exercise and pharmacological stress. |
-| [2022043](https://pubmed.ncbi.nlm.nih.gov/2022043/) | 1991 | Review | Circulation | Pathophysiological basis of non-invasive functional evaluation of coronary stenosis, including dipyridamole stress. |
-| [8417062](https://pubmed.ncbi.nlm.nih.gov/8417062/) | 1993 | Diagnostic study | J Am Coll Cardiol | Increased echodensity of transiently asynergic myocardium as a sign of ischemia of varying causes. |
-| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | Diagnostic study | Jpn Circ J | Dipyridamole-loading thallium-201 imaging had 66% diagnostic accuracy for coronary artery disease. Combined with exercise, sensitivity rose from 71% to 87%. |
-| [8634169](https://pubmed.ncbi.nlm.nih.gov/8634169/) | 1996 | Prognostic study | Rev Port Cardiol | Three-year prognosis of patients with a normal thallium-dipyridamole scintigram. |
-| [14060538](https://pubmed.ncbi.nlm.nih.gov/14060538/) | 1963 | Case report | Naika | Case of a variant form of angina pectoris. No dipyridamole treatment data are available. |
-
-*Only 9 distinct publications could be listed with usable findings above. [14050937](https://pubmed.ncbi.nlm.nih.gov/14050937/) (1963, Naika) is a further case series of 4 patients with variant angina, with no abstract available.*
-
----
+| [18174451](https://pubmed.ncbi.nlm.nih.gov/18174451/) | 2008 | Review | Arterioscler Thromb Vasc Biol | Dipyridamole raises cAMP and cGMP, reversibly inhibits platelet aggregation and platelet-mediated thrombotic disease |
+| [12765506](https://pubmed.ncbi.nlm.nih.gov/12765506/) | 2003 | Review | Med J Aust | Antiplatelet drugs protect against myocardial infarction, stroke and other serious vascular events in high-risk patients |
+| [2182246](https://pubmed.ncbi.nlm.nih.gov/2182246/) | 1990 | Review | Clin Cardiol | Aspirin with dipyridamole in coronary thrombosis; aspirin only partially effective in experimental models |
+| [382146](https://pubmed.ncbi.nlm.nih.gov/382146/) | 1979 | Review | Postgrad Med | Aspirin, dipyridamole and sulfinpyrazone show antithrombotic effects in humans |
+| [559478](https://pubmed.ncbi.nlm.nih.gov/559478/) | 1977 | Case report | Arch Intern Med | Two patients with thrombotic thrombocytopenic purpura; one relapsed when the dipyridamole dose was tapered and remitted when it was raised |
+| [2440111](https://pubmed.ncbi.nlm.nih.gov/2440111/) | 1987 | Review | Semin Hematol | Antiplatelet agents reported to improve thrombocytopenia and clinical status in many TTP patients |
+| [25697566](https://pubmed.ncbi.nlm.nih.gov/25697566/) | 2015 | Review | Curr Top Med Chem | Dipyridamole has antioxidant activity in addition to antithrombotic and vasodilator effects |
+| [19160220](https://pubmed.ncbi.nlm.nih.gov/19160220/) | 2009 | Systematic review | Cochrane Database Syst Rev | Interventions for haemolytic uraemic syndrome and TTP |
+| [20484211](https://pubmed.ncbi.nlm.nih.gov/20484211/) | 2010 | Review | Am J Health Syst Pharm | Antiplatelet and anticoagulant drugs in vasoocclusive and thrombotic complications of sickle cell disease |
+| [11945125](https://pubmed.ncbi.nlm.nih.gov/11945125/) | 2002 | Review | Curr Med Chem | Platelet aggregation in thromboembolic disease and recent advances in antiplatelet agents |
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02244475 | Dipyridamole Injection, USP | Valid (single-ingredient) |
-| 00637734 | Persantine | Valid (single-ingredient) |
-
-Dosage form and approved indication text are not available for these licences.
-
----
+| DIN | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 02244475 | DIPYRIDAMOLE INJECTION, USP | Not recorded | Not recorded |
+| 00637734 | PERSANTINE | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Knowledge-graph contraindication signals** (from drug-disease relationships in the TxGNN knowledge graph, not from label text): kidney disease, liver disease, gallbladder disease, thrombocytopenia, peptic ulcer disease, hypotensive disorder, gout, hemophilia, myocardial infarction, acute coronary syndrome, coronary thrombosis, anemia, thrombocytopenic purpura, gastritis, nasal polyps, congenital prothrombin deficiency, vitamin K deficiency hemorrhagic disease, Reye syndrome, Alzheimer disease, Pick disease, and several metabolic conditions (potassium deficiency, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease), among others. These need verification against the official label.
-- **Drug interactions**: 100 interactions were recorded. Three are rated **Moderate**: dexfenfluramine, sibutramine and fenfluramine. Others have an unrated severity, including acetylsalicylic acid, cimetidine, omeprazole, pantoprazole, lansoprazole, metformin, glimepiride, rosiglitazone, simvastatin, morphine, prednisone, amphotericin B, vancomycin, calcitriol, sucralfate, lactulose and nystatin.
-- **Indication-specific concern**: adenosine-mediated vasodilation and coronary steal could provoke or worsen coronary vasospasm. Adenosine's effect on sinus and AV node conduction is also relevant in cardiac patients.
+- **Drug Interactions**: The interaction screen returned 100 entries. Moderate-level interactions include dexfenfluramine, sibutramine and fenfluramine. Others, such as acetylsalicylic acid, cimetidine, morphine, metformin and omeprazole, are listed with an unclassified severity. Combinations with other antithrombotic drugs call for attention to bleeding risk.
 
-Please refer to the package insert for official warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials support dipyridamole for Prinzmetal angina. The literature describes it as a diagnostic stress agent, and some data suggest it can trigger vasospasm in variant angina. The high TxGNN score is not supported by evidence of treatment benefit.
-
-*Context from other predictions:* in the same analysis, dipyridamole (usually with aspirin) has much stronger support for **stroke** and **transient ischemic attack** secondary prevention. That support includes the large ESPRIT trial and several meta-analyses, and is rated L1 with a Proceed with Guardrails recommendation. These are largely established uses rather than novel repurposing.
+The mechanism is biologically consistent with antithrombotic activity, but no registered trial and no publication studies dipyridamole in a clearly defined thrombotic condition. The evidence is therefore limited to model prediction plus indirect reviews.
 
 **To proceed, the following is needed:**
-- Official Health Canada package insert warnings and contraindications, which are currently not available
-- Mechanism-of-action data from DrugBank
-- Prospective clinical data on dipyridamole treatment (not stress testing) in coronary vasospasm, with a specific safety assessment of vasospasm provocation
-- Verification of the knowledge-graph contraindication signals against the label
+- A specific, well-defined thrombotic condition to evaluate, instead of the broad category
+- Clinical or controlled studies of dipyridamole in that condition
+- Mechanism-of-action data in the compiled record
+- Package insert warnings and contraindications from Health Canada
+- A bleeding-risk plan for combinations with other antithrombotic drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 ## One-Sentence Summary
 
 Methylphenidate is a central nervous system stimulant, originally used to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy.
-The TxGNN model's top-ranked prediction is faciodigitogenital syndrome (score 99.998%), but this has no supporting studies. The best-supported candidate in the data compiled for this report is **specific developmental disorder**, with **0 clinical trials** and **18 publications**, mostly about ADHD itself.
+The TxGNN model's top-ranked prediction is faciodigitogenital syndrome (score 1.0000), but this has no supporting studies. The best-supported candidate in the data compiled for this report is **specific developmental disorder**, with **0 clinical trials** and **18 publications**, mostly about ADHD itself.
 
 ---
 
@@ -49,9 +49,9 @@ The TxGNN model's top-ranked prediction is faciodigitogenital syndrome (score 99
 |------|------|
 | Original Indication | Attention deficit hyperactivity disorder (ADHD), narcolepsy |
 | Predicted New Indication | Specific developmental disorder (rank 3; best-supported of the four candidates. The top-ranked candidate, faciodigitogenital syndrome, has no evidence.) |
-| TxGNN Prediction Score | 99.99% for specific developmental disorder (99.998% for the top-ranked faciodigitogenital syndrome) |
-| Evidence Level | L4 (preclinical/mechanistic studies and indirect literature; no trials) |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9999 for specific developmental disorder (1.0000 for the top-ranked faciodigitogenital syndrome) |
+| Evidence Level | L5 (preclinical/mechanistic studies and indirect literature; no trials) |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -59,10 +59,10 @@ The TxGNN model's top-ranked prediction is faciodigitogenital syndrome (score 99
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 1 | Faciodigitogenital syndrome | 99.998% | L5 | Hold |
-| 2 | Chondromyxoid fibroma | 99.991% | L5 | Hold |
-| 3 | Specific developmental disorder | 99.988% | L4 | Research Question |
-| 4 | Dysthymic disorder | 99.109% | L4 | Research Question |
+| 1 | Faciodigitogenital syndrome | 1.0000 | L5 | Hold |
+| 2 | Chondromyxoid fibroma | 0.9999 | L5 | Hold |
+| 3 | Specific developmental disorder | 0.9999 | L5 | Research Question |
+| 4 | Dysthymic disorder | 0.9911 | L5 | Research Question |
 
 ---
 
@@ -74,7 +74,7 @@ Detailed mechanism-of-action data is not available in the data compiled for this
 
 **Dysthymic disorder:** Dopamine and noradrenaline dysfunction is implicated in low energy and loss of pleasure, so stimulant augmentation is plausible. The available evidence only covers ADHD with accompanying mild depressive symptoms, which is indirect.
 
-**Faciodigitogenital syndrome and chondromyxoid fibroma:** No mechanistic link to methylphenidate is evident. Despite very high scores, these are likely knowledge-graph artifacts and should not be treated as evidence.
+**Faciodigitogenital syndrome and chondromyxoid fibroma:** No mechanistic link to methylphenidate is evident. Despite very high scores, these are likely TxGNN model (deep learning) artifacts and should not be treated as evidence.
 
 ---
 

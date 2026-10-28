@@ -6,7 +6,7 @@ nav_order: 678
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ofloxacin: predicted new indication Septicemic plague . The rank 1 prediction is polyclonal hyperviscosit… (evidence level L5). Approved use: Typhoid fever, salmonellosis, urinary tract infection, br…"
+description: "Ofloxacin: predicted new indication polyclonal hyperviscosity syndrome . The rank 1 prediction is polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Typhoid fever, salmonellosis, urinary tract infection, br…"
 monitor_inn: "OFLOXACIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ofloxacin: From Bacterial Infections to Septicemic Plague
+## Ofloxacin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ Among the top 10 predictions, only septicemic plague has a biologically coherent
 |------|------|
 | Original Indication | Typhoid fever, salmonellosis, urinary tract infection, bronchitis, bacterial pneumonia, and other bacterial infections (the Canadian licence record has no indication text) |
 | Predicted New Indication | Septicemic plague (rank 8 of the top 10 predictions; selected as the most plausible). The rank 1 prediction is polyclonal hyperviscosity syndrome. |
-| TxGNN Prediction Score | 99.79% (septicemic plague); 99.91% (rank 1, polyclonal hyperviscosity syndrome) |
-| Evidence Level | L4 (preclinical studies only) for septicemic plague; L5 for the rank 1 prediction |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9979 (septicemic plague); 0.9991 (rank 1, polyclonal hyperviscosity syndrome) |
+| Evidence Level | L5 (preclinical studies only) for septicemic plague; L5 for the rank 1 prediction |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only; not ready to proceed) |
 
 ---

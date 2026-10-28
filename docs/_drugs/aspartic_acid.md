@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **renal tubular acidosis**, but
 |------|------|
 | Original Indication | Potassium deficiency disease |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -97,7 +97,7 @@ Please refer to the package insert for labelled warnings, contraindications and 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.47%), but there are no clinical trials, the literature does not test aspartic acid for renal tubular acidosis, and the mechanistic link is not convincing. Established alkali and potassium therapies already exist, and the knowledge graph flags kidney disease as a contraindication.
+The prediction score is high (0.9947), but there are no clinical trials, the literature does not test aspartic acid for renal tubular acidosis, and the mechanistic link is not convincing. Established alkali and potassium therapies already exist, and the knowledge graph flags kidney disease as a contraindication.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

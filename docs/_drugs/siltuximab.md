@@ -4,17 +4,17 @@ title: Siltuximab
 parent: Model Prediction Only (L5)
 nav_order: 849
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Castleman disease"
 monitor_inn: "Siltuximab"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever", "syndrome with combined immunodeficiency", "TAFRO syndrome"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
+description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Siltuximab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Siltuximab: From Castleman Disease to Extracutaneous Mastocytoma
+## Siltuximab: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Castleman disease (Kimura disease is also listed in the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Extracutaneous mastocytoma |
-| TxGNN Prediction Score | 99.64% |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -119,7 +119,6 @@ The prediction has a very high model score but no supporting trials or publicati
 - Mechanistic and preclinical data on IL-6 involvement in extracutaneous mastocytoma
 - A literature search for any case-level use of IL-6 blockade in mast cell neoplasms
 - Package insert warnings and contraindications from Health Canada, and detailed mechanism of action data
-- Review of the other predicted indications. Notably, **TAFRO syndrome** (rank 10, score 98.8%) has considerably more supporting evidence, at L4: case reports, consensus guidance, and an indirect Phase 2 RCT in idiopathic multicentric Castleman disease. It is a more promising candidate to prioritize.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

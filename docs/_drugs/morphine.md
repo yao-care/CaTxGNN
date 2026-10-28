@@ -6,9 +6,9 @@ nav_order: 632
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Diarrheal disease"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Morphine
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Morphine: From Diarrheal Disease to Myofascial Pain Syndrome
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Morphine is an opioid analgesic that, in the knowledge graph used for this report, is linked to diarrheal disease as its original indication.
+Morphine is an opioid analgesic that is linked to diarrheal disease as its original indication.
 The TxGNN model predicts it may be effective for **myofascial pain syndrome**, but **no clinical trials** and only **10 publications** (mostly indirect) support this direction.
 Of the ten predicted indications evaluated, **restless legs syndrome** has by far the strongest supporting evidence, and it is discussed in the conclusion.
 
@@ -48,11 +48,11 @@ Of the ten predicted indications evaluated, **restless legs syndrome** has by fa
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrheal disease (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myofascial pain syndrome |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

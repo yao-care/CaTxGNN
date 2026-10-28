@@ -48,9 +48,9 @@ but there are currently **0 registered clinical trials** and only **8 publicatio
 |------|------|
 | Original Indication | Not stated in the Canadian licence data compiled for this report |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

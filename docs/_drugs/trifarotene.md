@@ -4,17 +4,17 @@ title: Trifarotene
 parent: Model Prediction Only (L5)
 nav_order: 945
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Trifarotene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne (acne vulgaris)"
 monitor_inn: "Trifarotene"
-predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "demodicidosis of sebaceous gland", "spondyloarthropathy, susceptibility to", "malaria", "Zollinger-Ellison syndrome", "Ehlers-Danlos syndrome", "Beare-Stevenson cutis gyrata syndrome", "isolated congenital adermatoglyphia", "malignant atrophic papulosis"]
+predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]
 ---
 
 # Trifarotene
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trifarotene: From Acne to Elevated Plasma Zinc
+## Trifarotene: From Acne to zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trifarotene is a topical retinoid originally used to treat acne.
-The TxGNN model predicts it may be effective for **elevated plasma zinc**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
+The TxGNN model (deep learning) predicts it may be effective for **zinc, elevated plasma**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **elevated plasma zinc**, but t
 |------|------|
 | Original Indication | Acne (acne vulgaris) |
 | Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,9 @@ The TxGNN model predicts it may be effective for **elevated plasma zinc**, but t
 
 Trifarotene is a selective retinoic acid receptor gamma (RARγ) agonist. The data compiled for this report also list activity at RARα and RARβ. It is applied to the skin as a 0.005% cream. Its high metabolic instability suggests limited systemic exposure. Detailed mechanism-of-action data are not otherwise available in the compiled data.
 
-Its acne use makes mechanistic sense: retinoids normalise keratinocyte differentiation in the hair follicle. No plausible mechanistic link to elevated plasma zinc was identified, and a topical agent with minimal systemic exposure is an unlikely way to change a blood mineral level. The prediction should be regarded as a statistical output of the knowledge graph, not a mechanistically supported hypothesis.
+Its acne use makes mechanistic sense: retinoids normalise keratinocyte differentiation in the hair follicle. No plausible mechanistic link to elevated plasma zinc was identified, and a topical agent with minimal systemic exposure is an unlikely way to change a blood mineral level. The prediction should be regarded as a statistical output of the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, and not a mechanistically supported hypothesis.
 
-Other predicted indications were also reviewed. All have only model-prediction support (L5) and no clinical trials or publications. The most biologically coherent one is **pyogenic arthritis-pyoderma gangrenosum-acne (PAPA) syndrome** (score 99.32%), because it includes severe acne. However, its autoinflammatory drivers (PSTPIP1 mutations, IL-1 pathway) are not targeted by RARγ agonism. Several others, such as malaria, Zollinger-Ellison syndrome and Degos disease, have no credible mechanistic rationale.
+Other predicted indications were also reviewed. All have only model-prediction support (L5) and no clinical trials or publications. The most biologically coherent one is **pyogenic arthritis-pyoderma gangrenosum-acne (PAPA) syndrome** (score 0.9932), because it includes severe acne. However, its autoinflammatory drivers (PSTPIP1 mutations, IL-1 pathway) are not targeted by RARγ agonism.
 
 ---
 
@@ -103,7 +103,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone, with no clinical trials, no literature and no plausible mechanistic link. A topical, minimally absorbed agent is poorly suited to altering plasma zinc levels.
+The prediction rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no literature and no plausible mechanistic link. A topical, minimally absorbed agent is poorly suited to altering plasma zinc levels.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

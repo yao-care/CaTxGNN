@@ -48,10 +48,10 @@ The related **bipolar disorder** prediction has additional support: a completed 
 |------|------|
 | Original Indication | Not available in the data compiled for this report (no approved indication text was recorded for any Canadian licence) |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 (one completed Phase 2 RCT; a systematic review and meta-analysis also exist) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 17 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 (one completed Phase 2 RCT; a systematic review and meta-analysis also exist) |
+| Canada Market Status | Marketed (valid licenses: 17 of 17) |
+| Number of DINs | 17 (valid: 17) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

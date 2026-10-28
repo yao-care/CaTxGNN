@@ -4,17 +4,17 @@ title: Perampanel
 parent: Model Prediction Only (L5)
 nav_order: 721
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Perampanel: predicted new indication Visual epilepsy (evidence level L5). Approved use: Partial epilepsy / partial motor epilepsy"
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Perampanel: From Partial Epilepsy to Visual Epilepsy
+## Perampanel: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Perampanel is an oral antiseizure medication, marketed in Canada for focal-onset (partial) seizures.
-The TxGNN model predicts it may be effective for **visual epilepsy**.
-Currently **0 clinical trials** and **20 publications** are linked to this prediction. The publications are general epilepsy and perampanel papers, and none studies visual epilepsy specifically.
+The TxGNN model predicts it may be effective for **beta-ketothiolase deficiency**.
+Currently **0 clinical trials** and **20 publications** are linked to this prediction.
 
 ---
 
@@ -48,12 +48,12 @@ Currently **0 clinical trials** and **20 publications** are linked to this predi
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy / partial motor epilepsy (Health Canada indication text was not available in the compiled data) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 (indirect evidence only, via the parent epilepsy indication) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Beta-ketothiolase deficiency |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 (indirect evidence only, via the parent epilepsy indication) |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,6 @@ Detailed mechanism-of-action data was not available in the structured drug recor
 
 Visual (photosensitive or occipital) epilepsy is a seizure syndrome in which the visual cortex is hyperexcitable. This kind of glutamate-mediated excitability is the same one perampanel dampens in its approved indication. The prediction is therefore biologically plausible.
 
-The link is still indirect. The retrieved publications are reviews, guidelines, network meta-analyses and pharmacology papers on epilepsy in general. None tests perampanel in visual epilepsy, so the prediction rests on the parent indication rather than direct proof.
 
 ---
 
@@ -124,9 +123,8 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.92%), but no clinical trial or study addresses visual epilepsy, and the supporting literature is indirect. Evidence stays at L4, which is not enough to move forward.
+The prediction score is very high (0.9979), but evidence stays at L4, which is not enough to move forward.
 
-Among the other predictions compiled for this drug, **status epilepticus** has the strongest support. It has a Phase 2 trial in progress (NCT06401707, perampanel for post-cardiac-arrest status epilepticus prophylaxis, 52 participants). Two further trials (NCT04309721, Phase 3; NCT05684978, Phase 4) were terminated after enrolling one patient each, so they give no efficacy data. Systematic reviews and case series also report seizure cessation with perampanel in refractory status epilepticus. It could be assessed as a separate candidate.
 
 **To proceed, the following is needed:**
 - Case series, registry data or a pilot trial of perampanel in visual or photosensitive epilepsy

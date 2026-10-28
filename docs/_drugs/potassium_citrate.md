@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Potassium Citrate
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 757
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Potassium Citrate: predicted new indication Nephrolithiasis (evidence level L2). Approved use: Potassium deficiency disease, renal tubular acidosis…"
 monitor_inn: "POTASSIUM CITRATE"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "nephrolithiasis susceptibility caused by SLC26A1", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
 ---
 
 # Potassium Citrate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The finding mostly confirms an established use rather than a novel repurposing.
 |------|------|
 | Original Indication | Potassium deficiency disease, renal tubular acidosis, acute urate nephropathy (the Canadian licence record has no approved indication text) |
 | Predicted New Indication | Nephrolithiasis (the top-ranked prediction, familial visceral myopathy, has no supporting evidence, so this report focuses on the highest-ranked prediction with evidence) |
-| TxGNN Prediction Score | 99.75% (nephrolithiasis); 99.95% for the top-ranked prediction, familial visceral myopathy |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9975 (nephrolithiasis); 0.9995 for the top-ranked prediction, familial visceral myopathy |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

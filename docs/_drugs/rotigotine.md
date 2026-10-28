@@ -6,9 +6,9 @@ nav_order: 826
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Rotigotine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Restless legs syndrome, Parkinson disease"
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
+description: "Rotigotine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rotigotine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rotigotine: From Restless Legs Syndrome and Parkinson Disease to Attention Deficit-Hyperactivity Disorder
+## Rotigotine: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **no registered clinical trials** and only **3 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Restless legs syndrome, Parkinson disease (the data compiled for this report did not include approved indication text from Canadian labels; the original indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L4 (preclinical/mechanistic literature only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 (preclinical/mechanistic literature only) |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

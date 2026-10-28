@@ -48,28 +48,28 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, silodosin is a selective alpha-1A adrenergic receptor antagonist. It acts mainly on the prostate and lower urinary tract, where it relaxes smooth muscle and eases urinary symptoms in BPH.
 
-The predicted condition, Ambras syndrome, is a rare congenital disorder. It is linked to genomic rearrangements that affect TRPS1 regulation. No established mechanism connects alpha-1A blockade to this pathway or to hair follicle growth control. The very high score (99.99%) most likely reflects network proximity in the knowledge graph rather than biological rationale.
+The predicted condition, Ambras syndrome, is a rare congenital disorder. It is linked to genomic rearrangements that affect TRPS1 regulation. No established mechanism connects alpha-1A blockade to this pathway or to hair follicle growth control. The very high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other predictions are similar in nature: hypertrichosis, a dental/periodontal malformation syndrome, a Dandy-Walker malformation syndrome, an isolated genetic hair shaft abnormality, and familial isolated trichomegaly. They also have no clinical or literature support. The highest-ranked prediction is the one reported here. The others are listed below for reference.
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level |
 |------|------|------|------|
-| 1 | Ambras type hypertrichosis universalis congenita | 99.99% | L5 |
-| 2 | Hypertrichosis | 99.99% | L5 |
-| 3 | Malformation syndrome with odontal and/or periodontal component | 99.99% | L5 |
-| 4 | Syndrome with a Dandy-Walker malformation as major feature | 99.98% | L5 |
-| 5 | Isolated genetic hair shaft abnormality | 99.98% | L5 |
-| 6 | Familial isolated trichomegaly | 99.23% | L5 |
+| 1 | Ambras type hypertrichosis universalis congenita | 0.9999 | L5 |
+| 2 | Hypertrichosis | 0.9999 | L5 |
+| 3 | Malformation syndrome with odontal and/or periodontal component | 0.9999 | L5 |
+| 4 | Syndrome with a Dandy-Walker malformation as major feature | 0.9998 | L5 |
+| 5 | Isolated genetic hair shaft abnormality | 0.9998 | L5 |
+| 6 | Familial isolated trichomegaly | 0.9923 | L5 |
 
 ## Clinical Trial Evidence
 
@@ -93,7 +93,7 @@ Eight single-ingredient products are valid in Canada; the five above are shown.
 
 ## Safety Considerations
 
-- **Contraindications / conditions of concern (from knowledge graph associations, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver failure, kidney disease, pyoureter, intraoperative floppy iris syndrome.
+- **Contraindications / conditions of concern (from the TxGNN model (deep learning), not label text; may reflect similarities the model learned between related diseases, not biological evidence)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver failure, kidney disease, pyoureter, intraoperative floppy iris syndrome.
 - **Drug Interactions**: 99 interactions were identified. Among those listed, **clarithromycin** is rated **Major**. Moderate interactions include bupropion, aprepitant, morphine, dexamethasone, cimetidine, miconazole, clotrimazole, rolapitant, the SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), dronabinol, nabilone, eliglustat, metreleptin, glycerol phenylbutyrate, liposomal morphine and opium.
 
 Please refer to the package insert for full warnings and precautions.
@@ -103,7 +103,7 @@ Please refer to the package insert for full warnings and precautions.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no trials or publications, and no plausible mechanism links alpha-1A adrenergic blockade to Ambras syndrome or to hair growth. Evidence is at the lowest level (L5).
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications, and no plausible mechanism links alpha-1A adrenergic blockade to Ambras syndrome or to hair growth. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
 - Mechanism of action data, and a biological rationale connecting alpha-1A antagonism to TRPS1-related or hair follicle pathways

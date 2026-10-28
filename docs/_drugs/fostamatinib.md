@@ -4,17 +4,17 @@ title: Fostamatinib
 parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Fostamatinib: predicted new indication Autosomal thrombocytopenia with normal platelets (evidence level L5). Approved use: Thrombocytopenia due to immune destruction"
 monitor_inn: "Fostamatinib"
-predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation", "syndromic constitutional thrombocytopenia", "glaucoma", "biotin metabolic disease", "primary hereditary glaucoma", "open-angle glaucoma", "filariasis", "vitamin deficiency disorder", "esophageal disease"]
+predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation"]
 ---
 
 # Fostamatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **autosomal thrombocytopenia wi
 |------|------|
 | Original Indication | Thrombocytopenia due to immune destruction |
 | Predicted New Indication | Autosomal thrombocytopenia with normal platelets |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -115,7 +115,7 @@ The prediction has no supporting clinical trials or literature (evidence level L
 
 ### Note on Other Predicted Indications
 
-The other nine predictions (ranks 2–10) also have no clinical trials and only L5 evidence. Of these, esophageal disease (score 97.88%) has the only plausible, though unverified, hypothesis. It is supported by two indirect preclinical papers on esophageal cancer biology (PMID 37734435 and 29930979), and neither shows that fostamatinib was tested. The glaucoma entries are supported only by general kinase inhibitor reviews that do not address glaucoma. The remaining predictions (esophageal malformation, biotin metabolic disease, filariasis, vitamin deficiency disorder) have no identifiable mechanistic rationale and are likely knowledge-graph artifacts.
+The other prediction, non-syndromic esophageal malformation (score 0.9905), also has no clinical trials and only L5 evidence. It has no identifiable mechanistic rationale and is likely a TxGNN model (deep learning) artifact.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

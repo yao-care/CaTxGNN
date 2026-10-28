@@ -4,17 +4,17 @@ title: Tretinoin
 parent: Model Prediction Only (L5)
 nav_order: 940
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Acne, acute promyelocytic leukemia, acquired keratosis…"
 monitor_inn: "TRETINOIN"
-predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "spondyloarthropathy, susceptibility to", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 ---
 
 # Tretinoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 relevant publications** su
 |------|------|
 | Original Indication | Acne, acute promyelocytic leukemia, acquired keratosis, palmoplantar keratoderma (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Rheumatoid nodulosis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Retinoic acid has been reported to influence the balance between regulatory T cells and Th17 cells and to dampen inflammatory cytokines. This could plausibly relate to rheumatoid-type inflammation. However, this link is theoretical. No clinical or literature evidence supports use in rheumatoid nodulosis, and the missing mechanism data means the reasoning remains speculative.
 
-Other top-ranked predictions (juvenile idiopathic arthritis and related entries, ranks 2–4) share the same speculative immune rationale and are likely to reflect the same knowledge-graph neighbourhood rather than independent evidence. The most biologically plausible prediction in the set is Quinquaud's folliculitis decalvans (rank 10), which is consistent with tretinoin's dermatologic uses, but it also has no supporting trials or publications.
+Other top-ranked predictions (juvenile idiopathic arthritis and related entries, ranks 2–4) share the same speculative immune rationale, and their scores come from the TxGNN model (deep learning). They may reflect similarities the model learned between related diseases, not independent biological evidence. The most biologically plausible prediction in the set is Quinquaud's folliculitis decalvans (rank 10), which is consistent with tretinoin's dermatologic uses, but it also has no supporting trials or publications.
 
 ## Clinical Trial Evidence
 
@@ -111,7 +111,7 @@ Package insert warnings and contraindications from Health Canada were not availa
 **Decision: Hold**
 
 **Rationale:**
-The prediction for rheumatoid nodulosis rests only on a high model score (99.84%) with no registered trials or relevant publications (Evidence Level L5). The retrieved publications on osteoarthritis do not support a tretinoin effect. The knowledge-graph contraindication list is broad, and retinoid skeletal and teratogenic risks add safety concerns.
+The prediction for rheumatoid nodulosis rests only on a high model score (0.9984) with no registered trials or relevant publications (Evidence Level L5). The retrieved publications on osteoarthritis do not support a tretinoin effect. The knowledge-graph contraindication list is broad, and retinoid skeletal and teratogenic risks add safety concerns.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for tretinoin

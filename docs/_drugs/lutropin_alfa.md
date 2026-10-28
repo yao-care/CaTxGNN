@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Lutropin Alfa
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 569
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Lutropin Alfa: predicted new indication Postural orthostatic tachycardia syndrome (evidence level L5). Approved use: Not available"
+description: "Lutropin Alfa: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Lutropin alfa"
-predicted_indications: ["postural orthostatic tachycardia syndrome", "peptic esophagitis", "trichotillomania", "Raynaud disease", "duodenal ulcer (disease)", "Tourette syndrome", "esophageal disease", "sinoatrial block", "multiple endocrine neoplasia", "duodenogastric reflux"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Lutropin Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lutropin alfa: From Fertility Treatment (Original Indication Not Listed) to Postural Orthostatic Tachycardia Syndrome
+## Lutropin Alfa
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Lutropin alfa is a recombinant luteinizing hormone (LH) that acts on LH/hCG receptors in gonadal tissue. The Canadian license data compiled for this report do not list an approved indication text.
-The TxGNN model predicts it may be effective for **postural orthostatic tachycardia syndrome** (the top-ranked prediction), but **no clinical trials and no publications** currently support this direction. The prediction is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved indication text in the Canadian license data) |
-| Predicted New Indication | Postural orthostatic tachycardia syndrome |
-| TxGNN Prediction Score | 97.04% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lutropin alfa is a recombinant LH acting on LH/hCG receptors in gonadal tissue.
-
-The review of the predicted link found no established mechanistic connection between LH receptor signaling and autonomic cardiovascular regulation, which is central to postural orthostatic tachycardia syndrome. The high score (0.970) is a computational output only. No trials or literature were found to corroborate it, so the prediction should be treated as a hypothesis, not as supported evidence.
-
-The other top-ten predictions (peptic esophagitis, trichotillomania, Raynaud disease, duodenal ulcer, Tourette syndrome, esophageal disease, sinoatrial block, multiple endocrine neoplasia, duodenogastric reflux) have scores of 94.6%–97.0%. None has a plausible mechanistic link or any trial or literature support. All are L5 with a Hold recommendation.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 
 ## Canada Market Information
 
@@ -84,21 +61,8 @@ All four authorizations are valid single-ingredient licenses; none is cancelled.
 
 Please refer to the package insert for safety information.
 
-For the multiple endocrine neoplasia prediction, gonadotropin stimulation could theoretically raise safety concerns in hormone-sensitive tissues. This is a theoretical consideration only, with no supporting data.
+This is a theoretical consideration only, with no supporting data.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests solely on a model score, with no registered trials, no publications, and no plausible mechanistic link between LH receptor agonism and postural orthostatic tachycardia syndrome. Safety data are also missing, which blocks progression to safety screening.
-
-**To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (download and parse the label PDF)
-- Mechanism of action data (for example, from DrugBank)
-- Approved indication text, dosage forms, and manufacturer details for each DIN
-- Any preclinical or clinical evidence linking LH receptor signaling to autonomic cardiovascular regulation
-- Route compatibility and similarity-to-original-indication assessments, which are still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

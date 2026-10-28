@@ -50,10 +50,10 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 |------|------|
 | Original Indication | Inflammatory arthritis and related musculoskeletal conditions (bursitis, synovitis, tenosynovitis, rheumatoid arthritis, ankylosing spondylitis, gout, osteoarthritis) and patent ductus arteriosus |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 For this prediction, a reasonable mechanistic link could **not** be identified. Brachydactyly-syndactyly syndrome is a rare congenital skeletal malformation of the fingers and toes. It arises from abnormal limb development, not from ongoing inflammation. COX inhibition is not expected to correct a developmental defect.
 
-The very high score most likely reflects the drug's closeness to musculoskeletal terms in the knowledge graph, not a true therapeutic relationship. The prediction should be treated as a computational signal only.
+The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a computational signal only.
 
 ---
 
@@ -128,7 +128,7 @@ The prediction has the highest model score but no clinical, literature or mechan
 - A plausible biological mechanism linking COX inhibition to the developmental pathology of this syndrome
 - Preclinical or case-level evidence of any benefit
 - Mechanism of action data and label-based warnings and contraindications for the Canadian products
-- Consideration of other candidates from the same prediction list. The most evidence-supported is **juvenile idiopathic arthritis** (TxGNN score 99.84%, Evidence Level L3, with a double-blind crossover trial against ketoprofen and several reviews). It is recommended as *Proceed with Guardrails*, but it largely extends existing arthritis use rather than being a new repurposing. Guardrails would be pediatric dosing, GI, renal and bleeding risk, and the availability of safer NSAIDs, DMARDs and biologics.
+- Consideration of other candidates from the same prediction list. The most evidence-supported is **juvenile idiopathic arthritis** (TxGNN score 0.9984, Evidence Level L3, with a double-blind crossover trial against ketoprofen and several reviews). It is recommended as *Proceed with Guardrails*, but it largely extends existing arthritis use rather than being a new repurposing. Guardrails would be pediatric dosing, GI, renal and bleeding risk, and the availability of safer NSAIDs, DMARDs and biologics.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

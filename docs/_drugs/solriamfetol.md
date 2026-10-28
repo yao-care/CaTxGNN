@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Solriamfetol
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 861
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Solriamfetol: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Narcolepsy and related sleep and central nervous system conditions"
 monitor_inn: "SOLRIAMFETOL"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
+description: "Solriamfetol: predicted new indication Attention deficit-hyperactivity disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Solriamfetol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Solriamfetol: From Narcolepsy to Attention Deficit-Hyperactivity Disorder
+## Solriamfetol: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **5 clinical trials** (including 1 completed Phase 3 trial in adults and 1 
 
 | Item | Content |
 |------|------|
-| Original Indication | Narcolepsy and related sleep and central nervous system conditions (the Health Canada licence records contain no indication text; this is taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 (see note below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Strictly, only one completed Phase 3 randomized trial (NCT05972044) is listed, and its results were not provided. The rest of the Phase 3 program is still recruiting or enrolling. The L1 level comes from the scoring in the data compiled for this report. Treat it as provisional until results are reviewed.

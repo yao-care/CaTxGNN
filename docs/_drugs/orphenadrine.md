@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Orphenadrine: From Parkinsonian Disorder to Retinal Dystrophy
+## Orphenadrine: From Parkinsonian Disorder to Retinal Dystrophy with or without Extraocular Anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,13 +50,13 @@ The best-supported lead among the seven predictions is **schizophrenia**, with *
 |------|------|
 | Original Indication | Parkinsonian disorder / Parkinson disease |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: No approved indication text is listed in the Canadian licence record, so the original indication is taken from the knowledge-graph indication data.*
+*Note: No approved indication text is listed in the Canadian licence record, so the original indication is not available from that record.*
 
 ---
 
@@ -64,7 +64,7 @@ The best-supported lead among the seven predictions is **schizophrenia**, with *
 
 Detailed mechanism of action data is not currently available. Orphenadrine is generally known as an anticholinergic (antimuscarinic) agent with antihistamine and NMDA-receptor-blocking properties. Its efficacy in parkinsonian disorders is established, but this does not extend to the predicted new indication.
 
-**For the top prediction (retinal dystrophy):** The data compiled for this report show no plausible pathway between orphenadrine's pharmacology and inherited retinal dystrophy. The high score (0.993) is a computational output only, with no trials or publications behind it.
+**For the top prediction (retinal dystrophy):** The data compiled for this report show no plausible pathway between orphenadrine's pharmacology and inherited retinal dystrophy. The high score (0.9929) is a computational output only, with no trials or publications behind it.
 
 **Other predictions in the list:**
 - **Congenital disorder of glycosylation with defective fucosylation, perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis:** These are genetic or structural developmental disorders. A postnatal anticholinergic or NMDA-blocking drug is unlikely to address them.

@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Dry eye syndrome, xerophthalmia |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Congenital ichthyosiform erythroderma is an inherited skin disorder marked by scaling and a defective epidermal barrier with excess water loss. A speculative link is that a film-forming polymer could support the barrier and retain moisture. This has not been validated, and no ichthyosis-specific rationale has been demonstrated.
 
-The high score most likely reflects network proximity among related conditions in the knowledge graph rather than a proven mechanism. Other predicted indications show the same pattern: self-healing collodion baby (99.83%), lamellar ichthyosis (99.72%) and bathing suit ichthyosis (99.54%). For lamellar ichthyosis, established emollients and keratolytics already provide hydration and occlusion, and nothing suggests polyvinyl alcohol would add benefit.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Other predicted indications show the same pattern: self-healing collodion baby (0.9983), lamellar ichthyosis (0.9972) and bathing suit ichthyosis (0.9954). For lamellar ichthyosis, established emollients and keratolytics already provide hydration and occlusion, and nothing suggests polyvinyl alcohol would add benefit.
 
 ## Clinical Trial Evidence
 

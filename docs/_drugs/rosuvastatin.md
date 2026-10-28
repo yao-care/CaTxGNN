@@ -4,17 +4,17 @@ title: Rosuvastatin
 parent: Model Prediction Only (L5)
 nav_order: 825
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidemia, homozygous familial hypercholesterolemia…"
 monitor_inn: "ROSUVASTATIN"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rosuvastatin: From Hyperlipidemia and Familial Hypercholesterolemia to Cholesterol-Ester Transfer Protein Deficiency
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ However, **0 clinical trials** and **0 publications** currently support this dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperlipidemia, homozygous familial hypercholesterolemia, atherosclerosis (from knowledge-graph indication links; no approved-indication text available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -111,7 +111,7 @@ Label-based warnings and contraindications are not available in the data compile
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score (99.54%) but no supporting trials or publications. The mechanistic link is speculative, and CETP deficiency has no clear unmet need that a statin would address.
+The prediction has a very high model score (0.9954) but no supporting trials or publications. The mechanistic link is speculative, and CETP deficiency has no clear unmet need that a statin would address.
 
 **To proceed, the following is needed:**
 - Any clinical, genetic or mechanistic evidence for statin use in CETP deficiency, such as case series or lipid-response data.
@@ -119,7 +119,7 @@ The prediction has a very high model score (99.54%) but no supporting trials or 
 - Mechanism of action data and package-insert warnings and contraindications to support safety screening.
 - Review of the major interactions (fenofibrate, atazanavir) and the myopathy and liver-related contraindication signals, if the project advances.
 
-**Context from other predictions:** The strongest-supported predictions for rosuvastatin (familial hypercholesterolemia and hyperlipidemia, both L1) overlap with its existing indications. They mainly validate the model and are not true repurposing opportunities. Of the remaining predictions, HIV infection (L2) has Phase 2 trial evidence. It concerns cardiovascular and metabolic comorbidity and would be an adjunctive use, not treatment of HIV itself.
+**Context from other predictions:** HIV infection (L2) has Phase 2 trial evidence. It concerns cardiovascular and metabolic comorbidity and would be an adjunctive use, not treatment of HIV itself.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

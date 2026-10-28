@@ -6,9 +6,9 @@ nav_order: 471
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Systemic mastocytosis, GIST…"
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
+description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imatinib
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Imatinib: From Systemic Mastocytosis and Gastrointestinal Stromal Tumor to Heart Fibrosarcoma
+## Imatinib: Heart fibrosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Evidence is therefore weak for the top prediction, and the stronger signal in th
 
 | Item | Content |
 |------|------|
-| Original Indication | Systemic mastocytosis, GIST, BCR-ABL1-positive chronic myelogenous leukaemia, dermatofibrosarcoma protuberans, hypereosinophilic syndrome (from the knowledge graph; no approved-indication text is available for Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Heart fibrosarcoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 (preclinical or mechanism-level only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 16 |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 (preclinical or mechanism-level only) |
+| Canada Market Status | Marketed (valid licenses: 16 of 16) |
+| Number of DINs | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -144,7 +144,7 @@ Other licensed products include IMATINIB (generic), MINT-IMATINIB and ACH-IMATIN
 
 **Contraindication-related conditions (from the knowledge graph, not label text):** hypertension, liver failure and liver disease, kidney disease, congestive heart failure and heart failure, coronary artery disease, heart valve disease, congenital heart disease, pericardial effusion, pulmonary edema, brain edema, thrombocytopenia, neutropenia, agranulocytosis, anaemia, diabetes mellitus and diabetic ketoacidosis, hyperbilirubinaemia (including Gilbert syndrome), active peptic ulcer disease, hypophosphataemia, gallbladder disease, obesity disorder.
 
-These come from knowledge-graph relationships and have not been verified against the Health Canada package insert. The cardiac conditions are particularly relevant to a cardiac tumour indication.
+These come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They have not been verified against the Health Canada package insert. The cardiac conditions are particularly relevant to a cardiac tumor indication.
 
 **Drug interactions:** The interaction search returned 100 records. Examples:
 - **Major:** eliglustat, naloxegol
@@ -161,7 +161,7 @@ The package-insert warnings and contraindications for Canada have not yet been o
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, heart fibrosarcoma, has no registered trials and only one non-specific commentary, so the evidence level is L4. The high TxGNN scores (all about 99.8–99.9%) do not separate well-supported predictions from unsupported ones. The best-supported item is liposarcoma (L2 per the scoring, with three sarcoma trials), but its biology (MDM2/CDK4 amplification, FUS-DDIT3) is not KIT/PDGFR-driven, and subtype-specific results are not shown. The fibroblastic neoplasm signal largely reflects dermatofibrosarcoma protuberans, which is already an approved indication.
+The top prediction, heart fibrosarcoma (0.9994), has no registered trials and only one non-specific commentary, so the evidence level is L4. The high TxGNN scores (all between 0.9983 and 0.9994) do not separate well-supported predictions from unsupported ones. The best-supported item is liposarcoma (0.9988; L2 per the scoring, with three sarcoma trials), but its biology (MDM2/CDK4 amplification, FUS-DDIT3) is not KIT/PDGFR-driven, and subtype-specific results are not shown. The fibroblastic neoplasm signal (0.9994) largely reflects dermatofibrosarcoma protuberans, which is already an approved indication.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

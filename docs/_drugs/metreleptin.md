@@ -48,17 +48,17 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Berardinelli-Seip congenital lipodystrophy / congenital generalized lipodystrophy / lipodystrophy |
 | Predicted New Indication | Familial generalized lentiginosis |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, metreleptin is a recombinant analog of leptin that replaces deficient leptin in lipodystrophy, and its use in that condition is established. Mechanistically, there is no clear link to familial generalized lentiginosis.
 
-Lentiginosis is a pigmentary disorder, and leptin signaling has no established role in it. The very high TxGNN score (0.997) most likely reflects closeness in the knowledge graph to lipodystrophy-related syndromes rather than a biological rationale. The prediction should therefore be treated as a hypothesis-generating signal only.
+Lentiginosis is a pigmentary disorder, and leptin signaling has no established role in it. The very high TxGNN score (0.9971) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as lipodystrophy-related syndromes, not biological evidence. The prediction should therefore be treated as a hypothesis-generating signal only.
 
 Other top-ranked predictions show the same pattern. They include gastrocutaneous syndrome, Moynahan syndrome, acromelanosis and several other rare pigmentary or genetic syndromes. None has a documented leptin-related mechanism, and none has clinical trials or literature behind it.
 
@@ -97,7 +97,7 @@ Interaction details were not available beyond severity level. Please refer to th
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no clinical trials or publications. No plausible mechanistic link to familial generalized lentiginosis was identified, and the high score likely reflects knowledge-graph proximity rather than biology.
+The prediction is model-only (L5), with no clinical trials or publications. No plausible mechanistic link to familial generalized lentiginosis was identified, and the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for metreleptin

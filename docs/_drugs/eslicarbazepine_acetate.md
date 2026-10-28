@@ -8,6 +8,7 @@ nav_order: 352
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Eslicarbazepine Acetate
@@ -54,8 +55,8 @@ and critical inputs — including mechanism of action and safety data — remain
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — model prediction only (pipeline not yet run) |
-| Canada Market Status | Not marketed |
-| Number of DINs | 0 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | **Hold** |
 
 ---

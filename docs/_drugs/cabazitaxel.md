@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**. No
 |------|------|
 | Original Indication | Not listed in the Canadian license data (literature describes metastatic castration-resistant prostate cancer) |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 (preclinical and mechanistic studies dominate; no registered trials in the compiled data) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (preclinical and mechanistic studies dominate; no registered trials in the compiled data) |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -104,7 +104,7 @@ All five licences are valid single-ingredient products.
 
 ## Safety Considerations
 
-- **Contraindication signals from the knowledge graph (not label text):** kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), leukopenia, hyperbilirubinaemia (including hereditary forms and Gilbert syndrome), and pyoureter. These come from model graph edges and should be confirmed against the product monograph.
+- **Contraindication signals from the TxGNN model (deep learning), not label text:** kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), leukopenia, hyperbilirubinaemia (including hereditary forms and Gilbert syndrome), and pyoureter. These signals may reflect similarities the model learned between related diseases, not biological evidence, and should be confirmed against the product monograph.
 - **Drug interactions:** 100 interactions were found in total. The major-level ones listed are **deferiprone** and **samarium (153Sm) lexidronam**. Moderate-level examples include aprepitant, clarithromycin, clotrimazole, metronidazole, miconazole, rosuvastatin, simvastatin, tinidazole, ticagrelor, cobicistat, deferasirox, chloroquine and disulfiram. Several of these (azoles, clarithromycin, cobicistat) are consistent with CYP3A-related interactions, but the data do not state the mechanism.
 
 For label warnings and contraindications, please refer to the package insert.

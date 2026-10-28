@@ -4,7 +4,7 @@ title: Hydrocortisone Acetate
 parent: Model Prediction Only (L5)
 nav_order: 456
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease"
 monitor_inn: "HYDROCORTISONE ACETATE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucino
 # Hydrocortisone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **1 clinical trial** (a Phase 3 trial in which hydrocortisone was the compa
 |------|------|
 | Original Indication | Autoimmune disease (Canadian licence texts contain no indication wording; original indications also include adrenocortical insufficiency, Crohn disease and inflammatory bowel disease) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 by the rules in this report's framework (no completed Phase 3 trial tested hydrocortisone as the investigational agent; the single Phase 3 trial used it as a comparator). The source data label L1, which is not supported by the trial details. |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

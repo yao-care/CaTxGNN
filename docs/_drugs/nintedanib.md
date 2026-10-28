@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nintedanib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 653
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Idiopathic pulmonary fibrosis, non-small cell lung cancer"
 monitor_inn: "Nintedanib"
-predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "axial spondylometaphyseal dysplasia", "amyotrohpic lateral sclerosis type 22", "fibroblastic neoplasm", "kidney fibrosarcoma", "conventional fibrosarcoma", "amyotrophic lateral sclerosis, susceptibility to"]
+predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
+description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Nintedanib: From Idiopathic Pulmonary Fibrosis and Lung Cancer to Dermatofibrosarcoma Protuberans
+## Nintedanib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but at present there are **0 clinical trials** and only **1 publication** (an in
 
 | Item | Content |
 |------|------|
-| Original Indication | Idiopathic pulmonary fibrosis, non-small cell lung cancer (the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ DFSP is driven by the COL1A1-PDGFB fusion gene. This fusion produces constitutiv
 
 However, the link is indirect. The only supporting item is a 2018 review on small-molecule PDGFR inhibitors, and there are no nintedanib-specific clinical data for DFSP. Imatinib is already the established PDGFR-directed therapy for DFSP, so nintedanib would need to show a clear advantage, for example in imatinib-resistant disease.
 
-Other top-ranked predictions (liposarcoma, fibrosarcoma subtypes, fibroblastic neoplasm) have no trials or literature. Several others (axial spondylometaphyseal dysplasia, ALS-related entities) appear to be knowledge-graph artifacts.
+Other top-ranked predictions (liposarcoma, fibrosarcoma subtypes, fibroblastic neoplasm) have no trials or literature.
 
 ---
 

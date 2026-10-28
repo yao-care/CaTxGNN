@@ -6,9 +6,9 @@ nav_order: 644
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis…"
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Natalizumab
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Natalizumab: From Crohn's Disease and Multiple Sclerosis to Bronchitis
+## Natalizumab: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,28 +45,28 @@ The TxGNN model predicts it may be effective for **bronchitis**, but this is a m
 
 | Item | Content |
 |------|------|
-| Original Indication | Crohn's disease, inflammatory bowel disease, Crohn's colitis, multiple sclerosis (from the knowledge graph; no approved indication text is available for the Canadian licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, natalizumab is a monoclonal antibody that blocks alpha-4 integrin and so inhibits leukocyte trafficking into inflamed tissue. Its efficacy in multiple sclerosis and Crohn's disease is established, and mechanistically it might dampen leukocyte-driven inflammation in the airways.
 
-The link to bronchitis is theoretical. The high TxGNN score (0.99) is a prediction only, and no trials or literature were found to support it. Natalizumab's immunosuppressive effect may also raise the risk of respiratory infections, so the net direction of effect is unclear.
+The link to bronchitis is theoretical. The high TxGNN score (0.9904) is a prediction only, and no trials or literature were found to support it. Natalizumab's immunosuppressive effect may also raise the risk of respiratory infections, so the net direction of effect is unclear.
 
 ## Other Predicted Indications Reviewed
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary |
 |------|------|------|------|------|
-| 2 | Parapsoriasis | 99.37% | L4 | One case report (PMID 32470781) of unusual skin adverse events with fingolimod and natalizumab. It suggests a drug-associated event rather than a benefit. |
-| 3 | Psoriasis | 99.19% | L4 | Mixed evidence. Several case reports describe natalizumab-induced or aggravated psoriasis, while one small case series reports improvement in 18 MS patients with comorbid psoriasis. |
-| 4 | Severe nonproliferative diabetic retinopathy | 99.18% | L5 | No trials or literature. The rationale is theoretical (leukocyte adhesion in retinal inflammation). |
-| 5 | Acute lichenoid pityriasis | 99.04% | L4 | The same single case report, which points to an adverse event rather than a therapeutic effect. |
+| 2 | Parapsoriasis | 0.9937 | L5 | One case report (PMID 32470781) of unusual skin adverse events with fingolimod and natalizumab. It suggests a drug-associated event rather than a benefit. |
+| 3 | Psoriasis | 0.9919 | L4 | Mixed evidence. Several case reports describe natalizumab-induced or aggravated psoriasis, while one small case series reports improvement in 18 MS patients with comorbid psoriasis. |
+| 4 | Severe nonproliferative diabetic retinopathy | 0.9918 | L5 | No trials or literature. The rationale is theoretical (leukocyte adhesion in retinal inflammation). |
+| 5 | Acute lichenoid pityriasis | 0.9904 | L5 | The same single case report, which points to an adverse event rather than a therapeutic effect. |
 
 ## Clinical Trial Evidence
 

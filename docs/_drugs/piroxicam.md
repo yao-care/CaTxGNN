@@ -6,9 +6,9 @@ nav_order: 743
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis"
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
+description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Piroxicam
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Piroxicam: From Rheumatoid Arthritis and Osteoarthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+## Piroxicam: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Currently **0 clinical trials** and **0 publications** support this specific pre
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis (from knowledge-graph indication data; no indication text was available in the Canadian licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -117,7 +117,7 @@ The prediction has no supporting trials or publications (Evidence Level L5). The
 **To proceed, the following is needed:**
 - A mechanistic hypothesis connecting piroxicam to this syndrome's biology, plus any preclinical data.
 - Detailed mechanism of action data (MOA) and the Health Canada package insert warnings and contraindications.
-- Consideration of a better-supported alternative. Among the model's lower-ranked predictions, **juvenile idiopathic arthritis** (rank 10, score 99.93%) has an L3 evidence level. It includes a multicentre double-blind crossover trial of piroxicam versus naproxen in 47 children ([PMID 3510686](https://pubmed.ncbi.nlm.nih.gov/3510686/), 1986), a randomized comparison in 26 patients ([PMID 2957205](https://pubmed.ncbi.nlm.nih.gov/2957205/), 1987) and a paediatric pharmacokinetic study ([PMID 1782984](https://pubmed.ncbi.nlm.nih.gov/1782984/), 1991). This evidence is old, symptomatic only and of limited quality, and current juvenile idiopathic arthritis care relies mainly on DMARDs and biologics. It could still be a more realistic research question than the top-ranked prediction.
+- Consideration of a better-supported alternative. Among the model's lower-ranked predictions, **juvenile idiopathic arthritis** (rank 10, score 0.9993) has an L3 evidence level. It includes a multicentre double-blind crossover trial of piroxicam versus naproxen in 47 children ([PMID 3510686](https://pubmed.ncbi.nlm.nih.gov/3510686/), 1986), a randomized comparison in 26 patients ([PMID 2957205](https://pubmed.ncbi.nlm.nih.gov/2957205/), 1987) and a paediatric pharmacokinetic study ([PMID 1782984](https://pubmed.ncbi.nlm.nih.gov/1782984/), 1991). This evidence is old, symptomatic only and of limited quality, and current juvenile idiopathic arthritis care relies mainly on DMARDs and biologics. It could still be a more realistic research question than the top-ranked prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

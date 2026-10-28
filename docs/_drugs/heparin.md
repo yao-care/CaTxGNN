@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Heparin: From Pulmonary Embolism to Thrombophilia Due to Protein C Deficiency
+## Heparin: From Pulmonary Embolism to thrombophilia due to protein C deficiency, autosomal recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this specific d
 |------|------|
 | Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans, acquired purpura fulminans (licence indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the top predicted indication (protein C deficiency).
 
-For context, the second-ranked prediction (primary release disorder of platelets, score 99.06%) returned 20 publications, but they are tangential (heparin-induced thrombocytopenia, cirrhosis coagulation, cancer-associated VTE) and none evaluates heparin as a treatment for that condition. The mechanism there is arguably contradictory: heparin would be expected to worsen, not treat, a bleeding-prone platelet function defect. This second prediction is not recommended for pursuit.
+For context, the second-ranked prediction (primary release disorder of platelets, score 0.9906) returned 20 publications, but they are tangential (heparin-induced thrombocytopenia, cirrhosis coagulation, cancer-associated VTE) and none evaluates heparin as a treatment for that condition. The mechanism there is arguably contradictory: heparin would be expected to worsen, not treat, a bleeding-prone platelet function defect. This second prediction is not recommended for pursuit.
 
 ## Canada Market Information
 

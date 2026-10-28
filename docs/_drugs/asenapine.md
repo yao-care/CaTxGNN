@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Asenapine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy (Top TxGNN Prediction)
+## Asenapine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies (Top TxGNN Prediction)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,15 +50,15 @@ The only prediction with literature support is **major affective disorder** (ran
 |------|------|
 | Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1) |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (for the top prediction) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
-Note: The Canadian licence data compiled for this report contain no approved-indication text, so the original indication comes from the TxGNN knowledge graph.
+Note: The Canadian licence data compiled for this report contain no approved-indication text, so the original indication comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Among the other predictions, only **major affective disorder** (rank 10, score 99.57%) has literature support (evidence level L1, **Proceed with Guardrails**). It is an established use rather than a new one.
+Among the other predictions, only **major affective disorder** (rank 10, score 0.9957) has literature support (evidence level L1, **Proceed with Guardrails**). It is an established use rather than a new one.
 
 ---
 

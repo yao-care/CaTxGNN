@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Sorafenib
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 863
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Sorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Hepatocellular carcinoma, renal cell carcinoma, thyroid carcinoma"
 monitor_inn: "SORAFENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female bre
 # Sorafenib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **liposarcoma**, but the suppor
 |------|------|
 | Original Indication | Hepatocellular carcinoma, renal cell carcinoma, thyroid carcinoma (the Health Canada licence record has no indication text) |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 (one completed Phase 2 trial, single-arm, mixed sarcoma population) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold (pursue as a research question only) |
 
 ---
@@ -125,7 +125,7 @@ The clinical signal, however, comes from a mixed soft tissue sarcoma population 
 **Decision: Hold (research question only)**
 
 **Rationale:**
-The TxGNN score is very high (99.82%), but the clinical evidence is one single-arm Phase 2 trial in mixed soft tissue sarcomas plus reviews and preclinical work. It does not show a liposarcoma-specific benefit. Sorafenib is already marketed in Canada, which lowers the access barrier, but the Health Canada label warnings and contraindications have not yet been reviewed.
+The TxGNN score is very high (0.9982), but the clinical evidence is one single-arm Phase 2 trial in mixed soft tissue sarcomas plus reviews and preclinical work. It does not show a liposarcoma-specific benefit. Sorafenib is already marketed in Canada, which lowers the access barrier, but the Health Canada label warnings and contraindications have not yet been reviewed.
 
 **To proceed, the following is needed:**
 - The results and liposarcoma subgroup data from the completed Phase 2 trials (NCT00217620 and SWOG S0505)

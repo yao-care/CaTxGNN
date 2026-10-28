@@ -50,10 +50,10 @@ This prediction currently has **no supporting clinical trials or publications**,
 |------|------|
 | Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,9 +64,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The predicted indication is a rare developmental disorder involving ocular coloboma and microphthalmia together with skeletal rhizomelic dysplasia. Such conditions are presumed to be genetic and structural. No clear link to JAK1-mediated inflammatory signaling is evident. Developmental malformations are also not expected to respond to an immunomodulator in postnatal patients.
 
-The high score (0.996) is therefore most likely a knowledge-graph network-topology artifact rather than a biologically grounded signal. The prediction should be treated as a hypothesis with very low plausibility until independent evidence emerges.
+The high score (0.9961) therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis with very low plausibility until independent evidence emerges.
 
-A second prediction, brachydactyly-syndactyly syndrome (score 99.58%), has the same weaknesses: no trials, no literature, and no mechanistic rationale for JAK inhibition in a congenital limb malformation.
+A second prediction, brachydactyly-syndactyly syndrome (score 0.9958), has the same weaknesses: no trials, no literature, and no mechanistic rationale for JAK inhibition in a congenital limb malformation.
 
 ---
 

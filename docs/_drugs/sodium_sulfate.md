@@ -48,10 +48,10 @@ Sodium sulfate is an osmotic saline laxative, marketed in Canada as a component 
 |------|------|
 | Original Indication | Not stated in the Canadian licence data compiled for this report (products are known bowel-preparation formulations) |
 | Predicted New Indication | Dyspepsia |
-| TxGNN Prediction Score | 99.09% |
+| TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

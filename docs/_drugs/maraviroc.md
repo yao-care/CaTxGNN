@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Maraviroc is a CCR5 antagonist marketed in Canada as CELSENTRI, but the data compiled for this report do not include the text of its approved indication.
-The TxGNN model predicts it may be effective for **multiple endocrine neoplasia** (score 99.8%), yet there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia** (score 0.9982), yet there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 |------|------|
 | Original Indication | Not available in the compiled data (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,8 +64,8 @@ Currently, detailed mechanism of action data is not available in the compiled da
 For multiple endocrine neoplasia (MEN), the analysis found **no direct mechanistic link**. MEN is driven mainly by MEN1 and RET alterations, and nothing in the data shows that CCR5 plays a role in these pathways. The high TxGNN score is a computational prediction only and should not be read as evidence of efficacy.
 
 Other predictions for this drug are somewhat better grounded biologically, though still unproven:
-- **HER2-positive breast carcinoma** (score 99.2%): a 2020 preclinical study reported that autocrine CCL5 drives trastuzumab resistance through ERK pathway activation. Blocking CCR5 could theoretically reverse this, making it the most biologically grounded candidate. It remains hypothesis-generating, with no clinical trials.
-- **Primary cutaneous T-cell lymphoma** (score 99.7%): chemokine receptors are implicated in skin-homing T-cell trafficking, but the only literature is an indirect 2023 review on ACKR1.
+- **HER2-positive breast carcinoma** (score 0.9922): a 2020 preclinical study reported that autocrine CCL5 drives trastuzumab resistance through ERK pathway activation. Blocking CCR5 could theoretically reverse this, making it the most biologically grounded candidate. It remains hypothesis-generating, with no clinical trials.
+- **Primary cutaneous T-cell lymphoma** (score 0.9972): chemokine receptors are implicated in skin-homing T-cell trafficking, but the only literature is an indirect 2023 review on ACKR1.
 
 ---
 

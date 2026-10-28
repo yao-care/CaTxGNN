@@ -4,17 +4,17 @@ title: Sacituzumab Govitecan
 parent: Model Prediction Only (L5)
 nav_order: 830
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Sacituzumab Govitecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Sacituzumab govitecan"
-predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "mature cataract", "immature cataract", "tetanic cataract"]
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Sacituzumab Govitecan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Sacituzumab govitecan (marketed in Canada as TRODELVY) is a Trop-2-directed anti
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Sacituzumab govitecan (marketed in Canada as TRODELVY) is a Trop-2-directed anti
 
 Currently, detailed mechanism of action data is not available in the compiled data. From general knowledge of the drug, sacituzumab govitecan is a Trop-2-directed antibody-drug conjugate. It delivers SN-38, the active metabolite of irinotecan and a topoisomerase I inhibitor, to Trop-2-expressing cells. Its use is in oncology.
 
-**No credible mechanistic link to the predicted indication could be established.** Drug-induced osteoporosis is a bone-loss condition, typically caused by agents such as glucocorticoids. Nothing in the drug's mechanism suggests bone-protective or bone-forming effects. A cytotoxic ADC would be expected to carry bone-marrow and general toxicity risk rather than bone benefit. The high TxGNN score (0.998; model rank 4900) most likely reflects proximity in the knowledge graph rather than biological relevance, and without supporting evidence the prediction is biologically implausible.
+**No credible mechanistic link to the predicted indication could be established.** Drug-induced osteoporosis is a bone-loss condition, typically caused by agents such as glucocorticoids. Nothing in the drug's mechanism suggests bone-protective or bone-forming effects. A cytotoxic ADC would be expected to carry bone-marrow and general toxicity risk rather than bone benefit. The high TxGNN score (0.9978; model rank 4900) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Without supporting evidence, the prediction is biologically implausible.
 
 The other nine predictions in the ranked list (diabetic retinopathy and severe nonproliferative diabetic retinopathy, plus diabetic, cortical, nuclear senile, senile, mature, immature and tetanic cataract) have the same weakness. They also have no trials or publications and no plausible mechanism. Several cataract subtypes share identical scores, which suggests ontology-driven clustering rather than independent signals.
 
@@ -116,7 +116,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based model score, with no clinical trials, no literature, and no plausible mechanistic link. Using a systemic cytotoxic ADC for a non-malignant bone condition would raise substantial safety concerns, and no safety benefit-risk case can be made on current data.
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no literature, and no plausible mechanistic link. Using a systemic cytotoxic ADC for a non-malignant bone condition would raise substantial safety concerns, and no safety benefit-risk case can be made on current data.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

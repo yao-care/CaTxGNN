@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prochlorperazine: From Schizophrenia to Retinal Dystrophy (Computational Prediction Only)
+## Prochlorperazine: From Schizophrenia to Retinal Dystrophy With or Without Extraocular Anomalies (Computational Prediction Only)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ The best-supported direction among the predictions is **manic bipolar affective 
 |------|------|
 | Original Indication | Schizophrenia (the Canadian licence records contain no approved indication text) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ For the top prediction, retinal dystrophy, no mechanistic link is established. T
 
 The other top-ranked predictions are similarly unsupported. These include hydranencephaly, a congenital disorder of glycosylation, X-linked and syndromic myopia, Charcot-Marie-Tooth disease type 1G, polymicrogyria and atypical glycine encephalopathy. Most are congenital or monogenic conditions that a D2 antagonist is not expected to change.
 
-The one biologically plausible prediction is **manic bipolar affective disorder** (score 99.979%). It is close to the original psychiatric use, and antipsychotics of this class are used for mania and acute agitation. Even so, its support is limited to old case reports, surveys and safety papers. Modern guideline-endorsed agents are available.
+The one biologically plausible prediction is **manic bipolar affective disorder** (score 0.9998). It is close to the original psychiatric use, and antipsychotics of this class are used for mania and acute agitation. Even so, its support is limited to old case reports, surveys and safety papers. Modern guideline-endorsed agents are available.
 
 ## Clinical Trial Evidence
 

@@ -4,17 +4,17 @@ title: Lorlatinib
 parent: Model Prediction Only (L5)
 nav_order: 560
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Lorlatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma / lung cancer"
+indication_count: 9
+last_modified_at: 2026-10-28
 monitor_inn: "LORLATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Lorlatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lorlatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lorlatinib: From ALK-Positive Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+## Lorlatinib: Fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Other predictions with some literature (for example lung hilum carcinoma and lun
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma / lung cancer (from the knowledge graph; the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,11 @@ Other predictions with some literature (for example lung hilum carcinoma and lun
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lorlatinib is a brain-penetrant, third-generation inhibitor of the ALK and ROS1 kinases. Its efficacy in ALK-positive NSCLC is well established, notably in the Phase 3 CROWN trial against crizotinib.
 
-For the top-ranked prediction, the connection is weak. No plausible link between ALK/ROS1 inhibition and hereditary gingival fibromatosis has been identified, and no trials or literature were found. The score therefore looks like a statistical artefact of the knowledge graph rather than a mechanistic signal. The same applies to the next several predictions: benign lung fibroma (score 99.75%) and pulmonary hamartoma (99.75%) are not ALK-driven, and their high scores probably reflect proximity to the lung cancer indication in the graph.
+For the top-ranked prediction, the connection is weak. No plausible link between ALK/ROS1 inhibition and fibromatosis, gingival has been identified, and no trials or literature were found. The score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the next several predictions: fibroma of lung (score 0.9975) and hamartoma of lung (0.9975) are not ALK-driven, and their high scores probably reflect similarities the model learned between these diseases and the lung cancer indication, not biological evidence.
 
 Some lower-ranked predictions have a more reasonable biological basis, although none is a true repurposing signal:
-- **Lung hilum carcinoma (99.74%)**: This is essentially the approved NSCLC indication in a particular anatomical presentation. The only evidence is a 2023 case report of pathological complete response after neoadjuvant lorlatinib in advanced ALK-positive lung cancer.
-- **Lung germ cell tumor (99.73%)**: The retrieved literature concerns ALK-driven neuroblastoma (including a Phase 1 trial of lorlatinib with or without chemotherapy) and ALK-fusion glioma case reports, not germ cell tumors. The ALK-driven biology is real, but the evidence does not transfer to this disease.
+- **Lung hilum carcinoma (0.9974)**: This is essentially the approved NSCLC indication in a particular anatomical presentation. The only evidence is a 2023 case report of pathological complete response after neoadjuvant lorlatinib in advanced ALK-positive lung cancer.
+- **Lung germ cell tumor (0.9974)**: The retrieved literature concerns ALK-driven neuroblastoma (including a Phase 1 trial of lorlatinib with or without chemotherapy) and ALK-fusion glioma case reports, not germ cell tumors. The ALK-driven biology is real, but the evidence does not transfer to this disease.
 
 ---
 
@@ -139,7 +139,7 @@ Health Canada package insert warnings and contraindications were not available f
 **Decision: Hold**
 
 **Rationale:**
-The gingival fibromatosis prediction has a very high model score (99.81%) but no trials, no literature and no plausible mechanism linking ALK/ROS1 inhibition to the disease. The evidence is at L5, model prediction only. The other top predictions are either benign or non-ALK-driven conditions without evidence, or restatements of the approved NSCLC indication. Lorlatinib's metabolic and pulmonary toxicity also argue against pursuing a benign indication without a clear biological rationale.
+The gingival fibromatosis prediction has a very high model score (0.9981) but no trials, no literature and no plausible mechanism linking ALK/ROS1 inhibition to the disease. The evidence is at L5, model prediction only. The other top predictions are either benign or non-ALK-driven conditions without evidence, or restatements of the approved NSCLC indication. Lorlatinib's metabolic and pulmonary toxicity also argue against pursuing a benign indication without a clear biological rationale.
 
 **To proceed, the following is needed:**
 - Mechanistic data (MOA) and a testable biological hypothesis linking lorlatinib's targets to gingival fibromatosis

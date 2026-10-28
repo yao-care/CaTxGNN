@@ -4,17 +4,17 @@ title: Tezacaftor
 parent: Model Prediction Only (L5)
 nav_order: 905
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Tezacaftor: predicted new indication HIV infectious disease (evidence level L5). Approved use: Cystic fibrosis"
 monitor_inn: "Tezacaftor"
-predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "female breast carcinoma", "homozygous familial hypercholesterolemia", "amyotrophic lateral sclerosis"]
+predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
 ---
 
 # Tezacaftor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 |------|------|
 | Original Indication | Cystic fibrosis |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,9 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tezacaftor is a CFTR corrector that helps the F508del-CFTR protein fold and traffic to the cell surface. It is marketed in combination with ivacaftor (Symdeko) and in triple combinations (Trikafta, Alyftrek) for cystic fibrosis patients with specific gene mutations.
 
-No established mechanistic link between CFTR correction and HIV pathogenesis is supported by the available data. The prediction appears to rest on network-level associations in the TxGNN knowledge graph and should be treated as speculative.
+No established mechanistic link between CFTR correction and HIV pathogenesis is supported by the available data. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated as speculative.
 
-Other high-scoring predictions for this drug include leprosy, multiple endocrine neoplasia, simian immunodeficiency virus infection, feline acquired immunodeficiency syndrome, rheumatoid arthritis, female breast carcinoma, homozygous familial hypercholesterolemia, and amyotrophic lateral sclerosis. None has clinical trial or literature support in the data compiled. The SIV and feline immunodeficiency predictions share nearly identical scores with the HIV prediction (about 0.990), which suggests a correlated knowledge-graph signal rather than independent evidence. Neither is a human indication.
+Other high-scoring predictions for this drug include leprosy and multiple endocrine neoplasia. Neither has clinical trial or literature support in the data compiled.
 
 ---
 

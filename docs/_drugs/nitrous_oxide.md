@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nitrous Oxide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 662
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L4). Approved use: Not specified in the licence data (product names such as \"Analgesic G…"
@@ -14,7 +14,7 @@ predicted_indications: ["benign prostatic hyperplasia (disease)"]
 # Nitrous Oxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **benign prostatic hyperplasia 
 |------|------|
 | Original Indication | Not specified in the licence data (product names such as "Analgesic Gas" suggest analgesic use) |
 | Predicted New Indication | Benign prostatic hyperplasia (disease) |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **benign prostatic hyperplasia 
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, nitrous oxide is an NMDA-receptor antagonist and an inhaled anxiolytic and analgesic.
 
-A credible mechanistic link to BPH is lacking. Nitrous oxide has no known effect on prostate growth, androgen signalling, or the smooth muscle tone of the lower urinary tract. The high TxGNN score reflects a knowledge-graph association and is not backed by pharmacological rationale.
+A credible mechanistic link to BPH is lacking. Nitrous oxide has no known effect on prostate growth, androgen signalling, or the smooth muscle tone of the lower urinary tract. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and is not backed by pharmacological rationale.
 
 The only real connection is procedural. Nitrous oxide is used to control anxiety and pain during prostate procedures such as transrectal biopsy. That is symptom or procedural support, not treatment of the underlying disease.
 

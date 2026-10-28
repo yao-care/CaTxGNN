@@ -50,9 +50,9 @@ A second prediction, **nicotine dependence**, has **3 Phase 2 trials** and is no
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the Canadian license records contain no indication text) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,9 +62,9 @@ A second prediction, **nicotine dependence**, has **3 Phase 2 trials** and is no
 
 Baclofen is a GABA-B receptor agonist. A plausible link to ADHD is that it modulates GABAergic inhibitory tone, which may influence impulsivity and prefrontal-striatal circuits.
 
-However, this link is hypothetical. The supplied literature does not test baclofen in ADHD. The papers cover off-label methylphenidate use in adults, Tourette syndrome and tic treatment, and rodent studies of noradrenergic and neural-circuit mechanisms in impulsivity and social behaviour. The very high TxGNN score (0.993) is a computational prediction only. No clinical or direct preclinical evidence for baclofen in ADHD is supported by the data compiled.
+However, this link is hypothetical. The supplied literature does not test baclofen in ADHD. The papers cover off-label methylphenidate use in adults, Tourette syndrome and tic treatment, and rodent studies of noradrenergic and neural-circuit mechanisms in impulsivity and social behaviour. The very high TxGNN score (0.9932) is a computational prediction only. No clinical or direct preclinical evidence for baclofen in ADHD is supported by the data compiled.
 
-**Alternative candidate: nicotine dependence (TxGNN score 99.19%).** Baclofen activates GABA-B receptors, which inhibit mesolimbic dopamine release and may reduce nicotine reward, craving and withdrawal. Rodent studies (PMID 24553576, 18682277) report that baclofen attenuates nicotine's rewarding effects and withdrawal signs. This indication has Phase 2 trial evidence (evidence level L2, stage S1, "Research Question"), although the evidence is limited, as described below.
+**Alternative candidate: nicotine dependence (TxGNN score 0.9919).** Baclofen activates GABA-B receptors, which inhibit mesolimbic dopamine release and may reduce nicotine reward, craving and withdrawal. Rodent studies (PMID 24553576, 18682277) report that baclofen attenuates nicotine's rewarding effects and withdrawal signs. This indication has Phase 2 trial evidence (evidence level L2, stage S1, "Research Question"), although the evidence is limited, as described below.
 
 ---
 

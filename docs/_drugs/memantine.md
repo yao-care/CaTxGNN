@@ -50,10 +50,10 @@ There are **0 clinical trials** and **2 publications**, and neither publication 
 |------|------|
 | Original Indication | Not specified in the data compiled for this report |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -109,7 +109,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.54%), but the evidence is model prediction only (L5). There are no clinical trials, and neither retrieved publication evaluates memantine in pulmonary hypertension. The only disease-specific lead is a different compound (MN-08).
+The TxGNN score is very high (0.9954), but the evidence is model prediction only (L5). There are no clinical trials, and neither retrieved publication evaluates memantine in pulmonary hypertension. The only disease-specific lead is a different compound (MN-08).
 
 By comparison, another predicted indication for memantine, **migraine disorder**, has a completed Phase 3 trial (NCT04698525, n=33, versus sodium valproate) and several reviews and meta-analyses. It may be a better candidate for follow-up, although the evidence there is also described as limited.
 

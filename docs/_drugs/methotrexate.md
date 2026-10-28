@@ -4,7 +4,7 @@ title: Methotrexate
 parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukemia (other listed uses include non-Hodgkin l…"
 monitor_inn: "METHOTREXATE"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "wel
 # Methotrexate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ So far there are **0 clinical trials** and **0 publications** supporting this sp
 |------|------|
 | Original Indication | Acute lymphoblastic leukemia (other listed uses include non-Hodgkin lymphoma, mycosis fungoides, rheumatoid arthritis and psoriasis) |
 | Predicted New Indication | Pulmonary blastoma |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
-The Canadian licence records compiled for this report contain no indication text. The original indication is therefore taken from the indications listed in the TxGNN knowledge graph.
+The Canadian licence records compiled for this report contain no indication text. The original indication is therefore not stated on this page.
 
 ---
 
@@ -142,7 +142,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.45%), but there are no trials or publications for pulmonary blastoma (Evidence Level L5). The only support is a generic antifolate mechanism. Methotrexate is marketed in Canada and its safety profile is well known, but this does not substitute for disease-specific evidence.
+The prediction score is very high (0.9945), but there are no trials or publications for pulmonary blastoma (Evidence Level L5). The only support is a generic antifolate mechanism. Methotrexate is marketed in Canada and its safety profile is well known, but this does not substitute for disease-specific evidence.
 
 Other predictions for methotrexate have more support in the compiled data:
 - Hodgkin lymphoma and rhabdomyosarcoma are at L2.

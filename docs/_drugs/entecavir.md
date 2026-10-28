@@ -4,17 +4,17 @@ title: Entecavir
 parent: Moderate Evidence (L3-L4)
 nav_order: 332
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
+description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Entecavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Entecavir: From Chronic Hepatitis B to Chronic Hepatitis C Virus Infection
+## Entecavir: Chronic hepatitis C virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **chronic hepatitis C virus inf
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Chronic hepatitis C virus infection |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, entecavir is a guanosine nucleoside analogue. Inside cells it is converted to its triphosphate form, which competes with the natural nucleotide dGTP and blocks the HBV polymerase.
 
-Hepatitis B and C are both chronic viral liver infections, so the model's network proximity is understandable. The mechanisms differ, though. HCV replicates with its own RNA-dependent RNA polymerase (NS5B), and entecavir has no known direct activity against it. The high score most likely reflects how closely the two diseases sit in the knowledge graph, not a real antiviral effect on HCV.
+Hepatitis B and C are both chronic viral liver infections, so the similarity the model learned between them is understandable. The mechanisms differ, though. HCV replicates with its own RNA-dependent RNA polymerase (NS5B), and entecavir has no known direct activity against it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of an antiviral effect on HCV.
 
 The one plausible clinical link is co-infection. In people with both HBV and HCV, entecavir can suppress HBV replication or prevent HBV reactivation during HCV direct-acting antiviral (DAA) therapy. That is an HBV benefit, not treatment of HCV.
 
@@ -113,7 +113,7 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN score is very high (99.98%), but there is no evidence that entecavir treats hepatitis C. Entecavir targets the HBV polymerase, not HCV NS5B.
+- The TxGNN score is very high (0.9998), but there is no evidence that entecavir treats hepatitis C. Entecavir targets the HBV polymerase, not HCV NS5B.
 - The linked trials and publications concern HBV reactivation in HBV/HCV co-infected patients, which is an HBV indication.
 - HCV already has highly effective, specific direct-acting antivirals, so there is little need for this repurposing.
 

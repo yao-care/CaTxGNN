@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Budesonide is a glucocorticoid originally used for Crohn's disease, inflammatory bowel disease, asthma and allergic rhinitis.
-The TxGNN model predicts it may be effective for **atopic eczema** (score 99.96%), but **no clinical trials** are registered for this indication.
+The TxGNN model predicts it may be effective for **atopic eczema** (score 0.9996), but **no clinical trials** are registered for this indication.
 The 20 publications retrieved are mostly indirect: contact allergy to corticosteroids, safety studies, and a preclinical formulation study.
 
 ---
@@ -50,9 +50,9 @@ The 20 publications retrieved are mostly indirect: contact allergy to corticoste
 |------|------|
 | Original Indication | Crohn's disease, inflammatory bowel disease, Crohn's colitis, asthma, allergic rhinitis (the licence records compiled for this report contain no approved-indication text) |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -67,8 +67,8 @@ Atopic eczema is a Th2-driven inflammatory skin disease, so a corticosteroid mec
 However, the supporting literature does not test budesonide directly in patients with atopic eczema. It consists mainly of reviews, contact sensitization studies, and a preclinical nanoparticle-hydrogel formulation. The high TxGNN score is a computational prediction only. Corticosteroid contact allergy is a documented risk in atopic patients, which is a relevant caution.
 
 Related predictions, listed for context:
-- **Dermatitis, atopic** (score 99.81%): the same indirect evidence base and no clinical trials. Evidence level L5.
-- **Bronchitis** (score 99.81%): the best-supported alternative, with 10 registered trials (evidence level L2). Most are small, and several concern bronchiolitis obliterans after transplant rather than classical bronchitis.
+- **Dermatitis, atopic** (score 0.9981): the same indirect evidence base and no clinical trials. Evidence level L5.
+- **Bronchitis** (score 0.9981): the best-supported alternative, with 10 registered trials (evidence level L2). Most are small, and several concern bronchiolitis obliterans after transplant rather than classical bronchitis.
 
 ---
 
@@ -116,7 +116,7 @@ Other licensed products include UCERIS, ENTOCORT, CORTIMENT, JORVEZA, PULMICORT 
 ## Safety Considerations
 
 **Contraindication signals from the knowledge graph (not label text):**
-The model's knowledge graph links budesonide to the following conditions, among others:
+The TxGNN model (deep learning) predicts the following conditions for budesonide, among others. These scores may reflect similarities the model learned between related diseases, not biological evidence:
 - Hypertension and congestive heart failure
 - Epilepsy
 - Liver disease and gallbladder disease

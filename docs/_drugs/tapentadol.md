@@ -4,17 +4,17 @@ title: Tapentadol
 parent: Model Prediction Only (L5)
 nav_order: 882
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Tapentadol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "TAPENTADOL"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+description: "Tapentadol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tapentadol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tapentadol: From Pain Management to Migraine Disorder
+## Tapentadol: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tapentadol is an opioid analgesic marketed in Canada under the NUCYNTA brand, with immediate-release and extended-release products.
-The TxGNN model predicts it may be effective for **migraine disorder**, but this is a graph-based prediction only, with **0 clinical trials** and **0 directly relevant publications** supporting it.
+The TxGNN model (deep learning) predicts it may be effective for **migraine disorder**, but this is a model prediction only, which may reflect similarities the model learned between related diseases, not biological evidence, with **0 clinical trials** and **0 directly relevant publications** supporting it.
 The two publications retrieved for a related migraine node argue against, rather than for, opioid use in migraine.
 
 ---
@@ -48,12 +48,12 @@ The two publications retrieved for a related migraine node argue against, rather
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The two publications retrieved for a related migraine node argue against, rather
 
 Detailed mechanism of action data is not available in the compiled data. Based on general knowledge, tapentadol is a mu-opioid receptor agonist and a norepinephrine reuptake inhibitor. A plausible link to migraine is modulation of central pain pathways through opioid and noradrenergic signalling.
 
-This rationale is speculative. The high TxGNN score comes from the knowledge graph, not from clinical observation. Opioids are generally not recommended for migraine because of the risks of medication-overuse headache, chronification of headache, and dependence.
+This rationale is speculative. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Opioids are generally not recommended for migraine because of the risks of medication-overuse headache, chronification of headache, and dependence.
 
-Two related predictions were also generated: **migraine with brainstem aura** (score 99.57%) and **migraine with or without aura, susceptibility to** (score 99.08%). These most likely reflect similarity to the general migraine node in the graph rather than subtype-specific biology. The "susceptibility" node describes genetic risk, not a treatable clinical condition.
+One related prediction was also generated: **migraine with brainstem aura** (score 0.9957). This most likely reflects similarities the model learned to general migraine rather than subtype-specific biology.
 
 ---
 
@@ -76,7 +76,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature was retrieved for the top prediction (migraine disorder). Two publications were retrieved for the related node "migraine with or without aura, susceptibility to". Neither provides direct evidence of tapentadol efficacy in migraine.
+No literature was retrieved for the top prediction (migraine disorder). Neither provides direct evidence of tapentadol efficacy in migraine.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -134,7 +134,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone (Evidence Level L5). There are no clinical trials, and the available literature points away from opioid use in migraine because of medication-overuse headache, dependence and serotonergic interaction risks.
+The prediction rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence (Evidence Level L5). There are no clinical trials, and the available literature points away from opioid use in migraine because of medication-overuse headache, dependence and serotonergic interaction risks.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, which are currently missing and block safety screening

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.44% |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available in the compiled data. Lurbine
 
 That link is speculative. Multiple endocrine neoplasia is a hereditary tumour syndrome (for example, MEN1 and RET-related forms), and no direct connection to this drug has been shown. The original indication is also not recorded in the Canadian licence data, so the relationship between the original and new indication cannot be assessed.
 
-The other top-ranked predictions are also supported by the model only, with no trials or publications. They include HIV infection, rheumatoid arthritis, amyotrophic lateral sclerosis and cytomegalovirus infection. Several are veterinary or animal-model diseases (feline immunodeficiency, simian immunodeficiency virus, malignant catarrh, infectious bovine rhinotracheitis), which likely reflect knowledge-graph similarity rather than a real therapeutic signal.
+The other top-ranked predictions are also supported by the model only, with no trials or publications. They include HIV infection, rheumatoid arthritis, amyotrophic lateral sclerosis and cytomegalovirus infection. Several are veterinary or animal-model diseases (feline immunodeficiency, simian immunodeficiency virus, malignant catarrh, infectious bovine rhinotracheitis). Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

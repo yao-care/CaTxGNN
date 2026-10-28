@@ -46,10 +46,10 @@ Propofol is an intravenous anaesthetic agent marketed in Canada under four activ
 |------|------|
 | Original Indication | Not stated in the licence data compiled for this report (propofol is an intravenous anaesthetic/sedative agent) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.69% |
+| TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -121,8 +121,8 @@ A completed Phase 2/3 trial in pediatric migraine, several randomized ED trials,
 
 | Predicted Indication | Evidence Level | Decision | Note |
 |---|---|---|---|
-| Migraine with brainstem aura | L3 | Research Question | Preclinical support only through cortical spreading depression. No aura-specific trials. |
-| Prinzmetal angina | L4 | Hold | The literature consists of case reports of coronary spasm during anaesthesia, which is a possible safety signal and not a benefit. |
+| Migraine with brainstem aura | L5 | Research Question | Preclinical support only through cortical spreading depression. No aura-specific trials. |
+| Prinzmetal angina | L5 | Hold | The literature consists of case reports of coronary spasm during anaesthesia, which is a possible safety signal and not a benefit. |
 | Nephrogenic syndrome of inappropriate antidiuresis | L5 | Hold | Computational prediction only, with no supporting studies. |
 | Tourette syndrome | L4 | Hold | Evidence covers only sedation during deep brain stimulation surgery. No therapeutic effect on tics is shown. |
 ## Disclaimer

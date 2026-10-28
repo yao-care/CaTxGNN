@@ -47,9 +47,9 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 |------|------|
 | Original Indication | No approved indication text is available in the Canadian licence records |
 | Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.72% |
+| TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -120,13 +120,13 @@ The other predictions are weaker than restless legs syndrome and should stay on 
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Primary hereditary glaucoma | 99.57% | L5 | No trials, no literature, no mechanistic rationale |
-| Open-angle glaucoma | 99.50% | L4 | Observational metabolomic associations only; direction of effect unknown |
-| Insomnia | 99.47% | L3 | Early studies from 1983 and 1987 (including a controlled comparison against flurazepam, secobarbital and placebo); no modern RCTs. Worth further research |
-| Methemoglobinemia | 99.30% | L5 | One indirect rat toxicology study; no plausible mechanism |
-| Methemoglobinemia, alpha type | 99.18% | L5 | Prediction only |
-| Methemoglobin reductase deficiency | 99.08% | L5 | Prediction only; standard therapy acts through different mechanisms |
-| Congenital prothrombin deficiency | 99.01% | L5 | Prediction only; no plausible mechanism |
+| Primary hereditary glaucoma | 0.9957 | L5 | No trials, no literature, no mechanistic rationale |
+| Open-angle glaucoma | 0.9950 | L4 | Observational metabolomic associations only; direction of effect unknown |
+| Insomnia | 0.9947 | L3 | Early studies from 1983 and 1987 (including a controlled comparison against flurazepam, secobarbital and placebo); no modern RCTs. Worth further research |
+| Methemoglobinemia | 0.9930 | L5 | One indirect rat toxicology study; no plausible mechanism |
+| Methemoglobinemia, alpha type | 0.9918 | L5 | Prediction only |
+| Methemoglobin reductase deficiency | 0.9908 | L5 | Prediction only; standard therapy acts through different mechanisms |
+| Congenital prothrombin deficiency | 0.9901 | L5 | Prediction only; no plausible mechanism |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

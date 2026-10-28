@@ -4,17 +4,17 @@ title: Clopidogrel
 parent: Model Prediction Only (L5)
 nav_order: 216
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Acute coronary syndrome, intracranial embolism…"
 monitor_inn: "Clopidogrel"
-predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "osteoarthritis susceptibility", "pseudoachondroplasia", "fibromyalgia"]
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ No clinical trials are registered for this exact condition, but **16 publication
 |------|------|
 | Original Indication | Acute coronary syndrome, intracranial embolism, ST-elevation myocardial infarction |
 | Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 (one pilot RCT, observational studies and a systematic review; no completed Phase 2/3 trial for this exact condition) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 19 |
+| TxGNN Prediction Score | 0.9944 |
+| Evidence Level | L5 (one pilot RCT, observational studies and a systematic review; no completed Phase 2/3 trial for this exact condition) |
+| Canada Market Status | Marketed (valid licenses: 19 of 19) |
+| Number of DINs | 19 (valid: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Migraine with aura, including brainstem aura, is thought to involve tiny emboli or platelet-derived vasoactive substances (such as serotonin) that pass through a right-to-left shunt like a PFO. Blocking platelet aggregation could reduce the release of these triggers. This gives a plausible link between clopidogrel's antiplatelet action and migraine prevention.
 
-Most of the supporting evidence comes from the broader migraine-with-aura and PFO population, not from brainstem aura specifically. The closely related broader indication "migraine disorder" (the second-ranked prediction, score 99.44%) has more direct support. It includes a completed Phase 4 trial of clopidogrel added to aspirin after atrial septal defect closure (CANOA, n=220, NCT00799045), published in JAMA, and a 2026 multicentre randomised trial of antithrombotic treatment in migraine with PFO (BMJ, PMID 42526943). These do not prove efficacy in brainstem aura, but they make the broader migraine direction credible.
+Most of the supporting evidence comes from the broader migraine-with-aura and PFO population, not from brainstem aura specifically. The closely related broader indication "migraine disorder" (the second-ranked prediction, score 0.9944) has more direct support. It includes a completed Phase 4 trial of clopidogrel added to aspirin after atrial septal defect closure (CANOA, n=220, NCT00799045), published in JAMA, and a 2026 multicentre randomised trial of antithrombotic treatment in migraine with PFO (BMJ, PMID 42526943). These do not prove efficacy in brainstem aura, but they make the broader migraine direction credible.
 
 ---
 

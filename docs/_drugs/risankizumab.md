@@ -38,7 +38,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Risankizumab is an IL-23 p19 inhibitor, originally used to treat psoriasis (and related parapsoriasis in the knowledge graph).
+Risankizumab is an IL-23 p19 inhibitor, originally used to treat psoriasis.
 The TxGNN model predicts it may be effective for **dermatitis**, with **2 clinical trials** and **20 publications** compiled for this direction.
 The strongest evidence is a completed Phase 2 trial in atopic dermatitis, which indicated limited efficacy, so the evidence is mixed.
 
@@ -50,10 +50,10 @@ The strongest evidence is a completed Phase 2 trial in atopic dermatitis, which 
 |------|------|
 | Original Indication | Psoriasis, parapsoriasis (no approved-indication text is available in the Canadian licence records) |
 | Predicted New Indication | Dermatitis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---

@@ -4,17 +4,17 @@ title: Liothyronine
 parent: Model Prediction Only (L5)
 nav_order: 551
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism"
 monitor_inn: "Liothyronine"
-predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "nodular goiter (disease)", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
+description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Liothyronine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,31 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Liothyronine: From Hypothyroidism to Renal Hypodysplasia/Aplasia
+## Liothyronine: Renal hypodysplasia/aplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Liothyronine is a synthetic thyroid hormone (T3) originally used to treat hypothyroidism and other thyroid diseases such as goiter and thyroid cancer.
-The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**, but this is a knowledge-graph prediction only, with **0 clinical trials** and **0 publications** supporting this specific indication.
+The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**, but this is a TxGNN model (deep learning) prediction only, with **0 clinical trials** and **0 publications** supporting this specific indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypothyroidism (the Canadian licence records contain no indication text; the original indications come from the knowledge graph and include hypothyroidism, myxedema, congenital hypothyroidism, goiter and thyroid cancer) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal hypodysplasia/aplasia |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on known information, liothyronine is the active form of thyroid hormone (triiodothyronine). Its efficacy in replacing thyroid hormone in hypothyroidism is well established, and mechanistically it might be relevant to renal hypodysplasia/aplasia.
 
-Thyroid hormone is known to play a role in organ development, including the kidney, which is the only biological link suggested by the data compiled for this report. However, no trial or publication supports this link. The very high TxGNN score (99.95%) reflects proximity in the knowledge graph, not demonstrated clinical benefit.
+Thyroid hormone is known to play a role in organ development, including the kidney, which is the only biological link suggested by the data compiled for this report. However, no trial or publication supports this link. The very high TxGNN score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or demonstrated clinical benefit.
 
 Renal hypodysplasia/aplasia is a structural congenital malformation. It is difficult to see how an adult-type thyroid hormone replacement could reverse a developmental defect, so the prediction should be treated as a hypothesis only.
 
@@ -106,7 +106,7 @@ Please also refer to the package insert for warnings and contraindications, beca
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the knowledge-graph score (Evidence Level L5). There are no clinical trials or disease-specific publications. Renal hypodysplasia/aplasia is a congenital structural malformation, so a therapeutic role for thyroid hormone replacement is biologically doubtful.
+The prediction is supported only by the TxGNN model (deep learning) score (Evidence Level L5). There are no clinical trials or disease-specific publications. Renal hypodysplasia/aplasia is a congenital structural malformation, so a therapeutic role for thyroid hormone replacement is biologically doubtful.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (currently a blocking gap for safety screening)

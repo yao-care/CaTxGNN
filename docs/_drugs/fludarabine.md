@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Fludarabine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 390
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Fludarabine: predicted new indication Plasma cell myeloma (evidence level L5). Approved use: Not available in the data compiled for this report"
@@ -14,7 +14,7 @@ predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dom
 # Fludarabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **plasma cell myeloma**, with *
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Plasma cell myeloma |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 (conditioning and lymphodepletion use; mostly Phase 1–2 trials, with Phase 3 CAR-T trials in which fludarabine is only part of the lymphodepletion) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -154,10 +154,10 @@ Fludarabine is already an established component of lymphodepletion for BCMA CAR-
 ---
 
 **Other predictions in the data:**
-- **Indolent plasma cell myeloma** (score 99.76%, L1, Proceed with Guardrails): supported by Phase 3 conditioning and transplant trials, such as NCT00075478 (TBI vs fludarabine/TBI) and NCT01231412. Fludarabine is again a regimen component.
-- **Myelodysplastic syndrome** (score 99.75%, L1, Proceed with Guardrails): supported by randomized evidence for treosulfan vs busulfan, each combined with fludarabine, in older patients with AML/MDS (PMID 31606445, 35617104).
+- **Indolent plasma cell myeloma** (score 0.9976, L1, Proceed with Guardrails): supported by Phase 3 conditioning and transplant trials, such as NCT00075478 (TBI vs fludarabine/TBI) and NCT01231412. Fludarabine is again a regimen component.
+- **Myelodysplastic syndrome** (score 0.9975, L1, Proceed with Guardrails): supported by randomized evidence for treosulfan vs busulfan, each combined with fludarabine, in older patients with AML/MDS (PMID 31606445, 35617104).
 - **Unclassified myelodysplastic syndrome** (L3, research question): a single non-randomized phase II study (PMID 21659356).
-- **Hyperthyroidism, diabetic nephropathy, and several rare genetic disorders**: no plausible mechanistic link and no supporting evidence. Hold, since these are likely graph artifacts.
+- **Hyperthyroidism, diabetic nephropathy, and several rare genetic disorders**: no plausible mechanistic link and no supporting evidence. Hold, since these scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

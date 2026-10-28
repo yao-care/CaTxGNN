@@ -4,7 +4,7 @@ title: Propafenone
 parent: Model Prediction Only (L5)
 nav_order: 776
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Propafenone"
@@ -14,7 +14,7 @@ predicted_indications: ["manic bipolar affective disorder", "periodic paralysis 
 # Propafenone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Propafenone is an antiarrhythmic originally used to treat atrial fibrillation an
 |------|------|
 | Original Indication | Atrial fibrillation; ventricular tachycardia (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

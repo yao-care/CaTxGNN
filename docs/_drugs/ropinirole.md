@@ -50,10 +50,10 @@ with **no registered clinical trials** but **8 publications** currently supporti
 |------|------|
 | Original Indication | Restless legs syndrome; Parkinson disease (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold (research question stage) |
 
 ---

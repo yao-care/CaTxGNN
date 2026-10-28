@@ -4,7 +4,7 @@ title: Nebivolol
 parent: Model Prediction Only (L5)
 nav_order: 645
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "NEBIVOLOL"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Nebivolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Malignant hypertensive renal disease is a severe kidney complication of extreme blood pressure elevation, so it is closely related to the original indication. Blood pressure control and endothelial protection are plausible links. However, the connection rests on nebivolol's approved antihypertensive use, not on direct evidence in this kidney condition.
 
-Other predictions with the same high score (99.4%) include malignant renovascular hypertension (beta-1 blockade reduces renin release, which is relevant because this condition is renin-driven), two forms of pulmonary hypertension, and Braddock syndrome. None has clinical trial support. For pulmonary hypertension in particular, beta-blockers may reduce cardiac output and right ventricular function, so safety in this setting is unestablished. For Braddock syndrome, no clear mechanistic connection can be identified, and the score is likely driven by knowledge-graph associations.
+Other predictions with similarly high scores include two forms of pulmonary hypertension (0.9939 each) and Braddock syndrome (0.9914). None has clinical trial support. For pulmonary hypertension in particular, beta-blockers may reduce cardiac output and right ventricular function, so safety in this setting is unestablished. For Braddock syndrome, no clear mechanistic connection can be identified, and the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -131,7 +131,7 @@ Please refer to the package insert for full warnings, as label-based warnings an
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.4%), but there are no clinical trials and no direct literature for malignant hypertensive renal disease, so the evidence level is L5 (model prediction only). Nebivolol is already widely marketed in Canada for hypertension, which makes further evaluation feasible, but the prediction should not be acted on yet.
+The prediction score is high (0.9942), but there are no clinical trials and no direct literature for malignant hypertensive renal disease, so the evidence level is L5 (model prediction only). Nebivolol is already widely marketed in Canada for hypertension, which makes further evaluation feasible, but the prediction should not be acted on yet.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

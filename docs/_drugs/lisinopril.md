@@ -4,17 +4,17 @@ title: Lisinopril
 parent: Model Prediction Only (L5)
 nav_order: 552
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Lisinopril: predicted new indication Posteroinferior myocardial infarction (evidence level L5). Approved use: Hypertension, myocardial infarction"
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lisinopril: From Hypertension and Myocardial Infarction to Posteroinferior Myocardial Infarction
+## Lisinopril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lisinopril is an ACE inhibitor originally used for hypertension and myocardial infarction.
-The TxGNN model predicts it may be effective for **posteroinferior myocardial infarction**,
 but **no clinical trials and no publications** currently support this specific prediction. The high score largely reflects the existing myocardial infarction indication rather than a new repurposing signal.
 
 ---
@@ -48,11 +47,11 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, myocardial infarction (from the knowledge-graph indication list; Canadian label text was not available) |
-| Predicted New Indication | Posteroinferior myocardial infarction |
-| TxGNN Prediction Score | 99.90% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -70,7 +69,6 @@ Other top predictions follow a similar pattern. Posterolateral and septal myocar
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for posteroinferior myocardial infarction, or for any of the other top 10 predicted indications.
 
 ---
 
@@ -94,7 +92,6 @@ No related literature is available for posteroinferior myocardial infarction. Th
 | [14524095](https://pubmed.ncbi.nlm.nih.gov/14524095/) | 2003 | Clinical study (small, design unconfirmed) | Probl Tuberk Bolezn Legk | Lisinopril treatment in chronic cor pulmonale (no abstract available) |
 | [26895877](https://pubmed.ncbi.nlm.nih.gov/26895877/) | 2016 | Review/Commentary | Eur J Pediatr | Argues that ACE inhibitors, beta-blockers and mineralocorticoid antagonists should be used in children with chronic heart failure despite limited data |
 
-**Septal myocardial infarction (rank 7):**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

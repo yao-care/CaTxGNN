@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Pentosan Polysulfate: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Interstitial cystitis"
+last_modified_at: 2026-10-28
 monitor_inn: "Pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
+description: "Pentosan Polysulfate: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pentosan Polysulfate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Pentosan Polysulfate: From Interstitial Cystitis to Primary Release Disorder of Platelets
+## Pentosan Polysulfate: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,15 +47,15 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 
 | Item | Content |
 |------|------|
-| Original Indication | Interstitial cystitis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-Two other predictions were also generated, both with equally weak support: Glanzmann thrombasthenia (99.65%) and pseudo-von Willebrand disease (99.62%). Each has an L5 evidence level and a Hold recommendation.
+Two other predictions were also generated, both with equally weak support: Glanzmann thrombasthenia (0.9965) and pseudo-von Willebrand disease (0.9962). Each has an L5 evidence level and a Hold recommendation.
 
 ---
 

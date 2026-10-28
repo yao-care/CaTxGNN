@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Triprolidine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 950
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Triprolidine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis"
 monitor_inn: "Triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triprolidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Triprolidine: From Allergic Rhinitis to Allergic Urticaria
+## Triprolidine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Triprolidine is a first-generation H1-receptor antagonist (antihistamine), originally used for allergic rhinitis, the common cold and other allergic conditions.
-The TxGNN model predicts it may be effective for **Allergic Urticaria**,
 but there are currently **0 clinical trials** and only **2 loosely related publications** supporting this direction. Urticaria also overlaps with an existing indication, so this is largely a duplicate of an approved use.
 
 ---
@@ -48,12 +47,12 @@ but there are currently **0 clinical trials** and only **2 loosely related publi
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (the Health Canada licence records contain no indication text; indications are taken from the knowledge graph: allergic rhinitis, vasomotor rhinitis, common cold, conjunctivitis, urticaria, angioedema, etc.) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ but there are currently **0 clinical trials** and only **2 loosely related publi
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, triprolidine is a first-generation H1-receptor antagonist. Its efficacy in allergic rhinitis and related allergic conditions is established, and mechanistically it may be applicable to allergic urticaria.
 
-Histamine released from mast cells is the central mediator of urticaria, so blocking H1 receptors is a reasonable approach. Urticaria is already listed among triprolidine's original indications in the knowledge graph. The prediction is therefore mostly a restatement of an existing use rather than true repurposing.
+Histamine released from mast cells is the central mediator of urticaria, so blocking H1 receptors is a reasonable approach. The prediction is therefore mostly a restatement of an existing use rather than true repurposing.
 
 Other predicted indications are weaker. Cold urticaria is also histamine-mediated and plausible. Nasal cavity disease, pharyngitis and acute laryngopharyngitis likely reflect symptomatic relief of conditions close to existing indications. Recalcitrant atopic dermatitis and atopic IgE responsiveness have weak rationale, because pruritus in atopic dermatitis is largely non-histaminergic and triprolidine does not modulate IgE production.
 
@@ -76,7 +75,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The papers below are those retrieved for allergic urticaria and for the related cold urticaria prediction. All are indirect evidence.
+All are indirect evidence.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

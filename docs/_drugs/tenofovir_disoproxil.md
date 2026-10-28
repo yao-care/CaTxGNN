@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome . The best-supported predic… (evidence level L5). Approved use: Chronic hepatitis B virus infection"
+last_modified_at: 2026-10-28
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tenofovir Disoproxil
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Tenofovir Disoproxil: From Chronic Hepatitis B and HIV Infection to Simian Immunodeficiency Virus Infection
+## Tenofovir Disoproxil: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,11 +45,11 @@ The TxGNN model's top-ranked prediction is feline acquired immunodeficiency synd
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (the Canadian licence records contain no approved indication text) |
-| Predicted New Indication | Feline acquired immunodeficiency syndrome (rank 1; veterinary). The best-supported prediction is simian immunodeficiency virus infection (rank 2). |
-| TxGNN Prediction Score | 99.95% (both feline AIDS and SIV infection) |
-| Evidence Level | L4 (preclinical/animal studies only) |
-| Canada Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 (preclinical/animal studies only) |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -61,7 +61,7 @@ Feline immunodeficiency virus (FIV) and simian immunodeficiency virus (SIV) are 
 
 These results mainly support the existing human HIV indications as translational evidence. SIV infection and feline AIDS are not new human indications, so they are not true repurposing opportunities. The very high TxGNN scores largely reflect similarity to HIV.
 
-The other two predictions, a rare neurodevelopmental disorder (99.95%) and an obsolete familial combined hyperlipidemia term (99.60%), have no identifiable mechanistic link, no trials and no literature. They are most likely network-level artifacts rather than real biology.
+The other two predictions, a rare neurodevelopmental disorder (0.9995) and an obsolete familial combined hyperlipidemia term (0.9960), have no identifiable mechanistic link, no trials and no literature. They are most likely network-level artifacts rather than real biology.
 
 ## Clinical Trial Evidence
 

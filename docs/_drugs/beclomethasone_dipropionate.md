@@ -48,10 +48,10 @@ but currently there are **no registered clinical trials** and only **9 publicati
 |------|------|
 | Original Indication | Asthma, allergic rhinitis (including intrinsic and allergic asthma, vasomotor rhinitis, nasal polyps) |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -106,7 +106,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic plausibility is high and the TxGNN score is strong (99.41%). However, there are no registered clinical trials, and the literature consists of reviews, small or older studies, and safety or formulation work, with no controlled efficacy data for atopic eczema. Topical corticosteroids are already standard therapy, so a specific advantage of beclomethasone dipropionate has not been shown. The package insert safety review, which is needed for safety screening, is also still outstanding.
+The mechanistic plausibility is high and the TxGNN score is strong (0.9941). However, there are no registered clinical trials, and the literature consists of reviews, small or older studies, and safety or formulation work, with no controlled efficacy data for atopic eczema. Topical corticosteroids are already standard therapy, so a specific advantage of beclomethasone dipropionate has not been shown. The package insert safety review, which is needed for safety screening, is also still outstanding.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (blocking for safety screening)

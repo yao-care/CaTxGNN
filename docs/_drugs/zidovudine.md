@@ -4,7 +4,7 @@ title: Zidovudine
 parent: Model Prediction Only (L5)
 nav_order: 990
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This direction currently rests on **0 registered clinical trials** and **19 publ
 |------|------|
 | Original Indication | HIV infection; AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 (preclinical/veterinary studies only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 (preclinical/veterinary studies only) |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -130,7 +130,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.96%), but support is limited to animal and veterinary studies (L4). There are no registered clinical trials. The indication is veterinary and does not extend human use of the drug.
+The prediction score is very high (0.9996), but support is limited to animal and veterinary studies (L4). There are no registered clinical trials. The indication is veterinary and does not extend human use of the drug.
 
 Two other predictions for this drug have much stronger evidence: congenital HIV and AIDS-related complex. Both have Phase 3 trial support and were rated "Proceed with Guardrails". However, they fall within the drug's existing HIV/AIDS indication rather than being true repurposing.
 

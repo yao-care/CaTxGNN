@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Clomipramine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 213
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L5). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
@@ -14,7 +14,7 @@ predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of in
 # Clomipramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ with **8 clinical trials** and **20 publications** currently linked to this dire
 |------|------|
 | Original Indication | Obsessive-compulsive disorder |
 | Predicted New Indication | Anxiety disorder |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 (formal criteria met, but see the caveat below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

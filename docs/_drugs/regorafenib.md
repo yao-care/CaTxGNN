@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Regorafenib
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 800
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Regorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Metastatic colorectal cancer, hepatocellular carcinoma, GIST"
 monitor_inn: "Regorafenib"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma", "spindle cell liposarcoma", "renal cell carcinoma (disease)"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
+description: "Regorafenib: predicted new indication Liposarcoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Regorafenib: From Metastatic Colorectal Cancer and Hepatocellular Carcinoma to Liposarcoma
+## Regorafenib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The best-quality evidence is mixed: the randomised data suggest **no clear benef
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic colorectal cancer, hepatocellular carcinoma, GIST (the Canadian licence record has no indication text, so this comes from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 (as assigned in the compiled data; see the caveat below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (leaning toward Hold for liposarcoma specifically) |
 
 ---
@@ -129,13 +129,11 @@ Please refer to the package insert for full warnings and contraindications.
 
 | Rank | Predicted Indication | Score | Evidence Level | Suggested Decision |
 |---|---|---|---|---|
-| 2 | Ovarian myxoid liposarcoma | 99.68% | L5 | Hold |
-| 3 | Clear cell renal carcinoma | 99.47% | L2 | Research question (phase 2 in untreated metastatic RCC; avelumab combination under study) |
-| 4-6 | Unclassified RCC; Xp11.2/TFE3 RCC; RCC associated with neuroblastoma | 99.24% | L5 | Hold |
-| 7 | Childhood kidney cell carcinoma | 99.07% | L5 | Hold |
-| 8 | Vulva sarcoma | 99.06% | L5 | Hold |
-| 9 | Spindle cell liposarcoma | 98.85% | L5 | Hold |
-| 10 | Renal cell carcinoma (general) | 98.67% | L2 | Research question (completed single-arm phase 2, NCT00664326, n=49) |
+| 2 | Ovarian myxoid liposarcoma | 0.9968 | L5 | Hold |
+| 3 | Clear cell renal carcinoma | 0.9947 | L2 | Research question (phase 2 in untreated metastatic RCC; avelumab combination under study) |
+| 4-6 | Unclassified RCC; Xp11.2/TFE3 RCC; RCC associated with neuroblastoma | 0.9924 | L5 | Hold |
+| 7 | Childhood kidney cell carcinoma | 0.9907 | L5 | Hold |
+| 8 | Vulva sarcoma | 0.9906 | L5 | Hold |
 
 Renal cell carcinoma has the more coherent supporting data (single-arm phase 2 results, VEGFR/PDGFR biology), though no randomised evidence.
 

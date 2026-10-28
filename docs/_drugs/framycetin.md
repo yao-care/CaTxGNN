@@ -48,10 +48,10 @@ Framycetin is an aminoglycoside antibiotic marketed in Canada in several topical
 |------|------|
 | Original Indication | Not specified in the Canadian licence data compiled for this report |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,12 +68,12 @@ This link rests only on the TxGNN prediction. The high score is not corroborated
 
 | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|
-| Urinary tract infection | 99.42% | Biologically plausible class effect (other aminoglycosides are used), but poor systemic absorption means inadequate urinary levels |
-| Congenital prothrombin deficiency | 99.41% | No plausible mechanism; likely a knowledge-graph artifact |
-| Ureaplasma urethritis | 99.28% | Weak link; tetracyclines or macrolides are usual treatment |
-| Gonococcal urethritis | 99.28% | Class-level rationale only; not a recognized treatment |
-| Uterine inflammatory disease | 99.18% | Class-level rationale in polymicrobial infections; tissue levels doubtful |
-| Xanthogranulomatous pyelonephritis | 99.18% | Renal tissue penetration implausible; nephrotoxicity is a class concern |
+| Urinary tract infection | 0.9942 | Biologically plausible class effect (other aminoglycosides are used), but poor systemic absorption means inadequate urinary levels |
+| Congenital prothrombin deficiency | 0.9941 | No plausible mechanism; likely a TxGNN model (deep learning) artifact |
+| Ureaplasma urethritis | 0.9928 | Weak link; tetracyclines or macrolides are usual treatment |
+| Gonococcal urethritis | 0.9928 | Class-level rationale only; not a recognized treatment |
+| Uterine inflammatory disease | 0.9918 | Class-level rationale in polymicrobial infections; tissue levels doubtful |
+| Xanthogranulomatous pyelonephritis | 0.9918 | Renal tissue penetration implausible; nephrotoxicity is a class concern |
 
 ---
 
@@ -116,7 +116,7 @@ No drug interactions were found in the data compiled for this report. As a class
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score (99.66%), with no clinical trials or publications. The mechanism is speculative, and the available Canadian products are topical forms that do not match the likely route needed for a biliary or gut-liver indication.
+The prediction is supported only by the TxGNN score (0.9966), with no clinical trials or publications. The mechanism is speculative, and the available Canadian products are topical forms that do not match the likely route needed for a biliary or gut-liver indication.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a review of the gut-liver axis rationale

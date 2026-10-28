@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lansoprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 524
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Lansoprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Lansoprazole: From Acid-Related Gastric and Duodenal Disorders to Duodenogastric Reflux
+## Lansoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lansoprazole is a proton pump inhibitor originally used for acid-related conditions such as gastric ulcer, duodenal ulcer, gastroesophageal reflux disease (GERD) and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be useful for **duodenogastric reflux**, but there are currently **no registered clinical trials** and only **1 general review publication** supporting this direction, so this is a research question rather than an established use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (approved indication text for the Canadian licences is not available in the data compiled for this report) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9968 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -59,9 +58,9 @@ Detailed mechanism-of-action data for lansoprazole is not available in the data 
 
 Duodenogastric (bile) reflux is the backflow of duodenal contents into the stomach. Lowering gastric acidity may reduce mucosal injury and symptoms when refluxed contents are present, which links the condition to lansoprazole's approved uses.
 
-This benefit is likely to be symptomatic and indirect. Proton pump inhibitors do not reduce bile reflux itself or restore pyloric or duodenal motility. The high TxGNN score probably reflects closeness to existing gastrointestinal indications in the knowledge graph and is a computational prediction only.
+This benefit is likely to be symptomatic and indirect. Proton pump inhibitors do not reduce bile reflux itself or restore pyloric or duodenal motility. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is a computational prediction only.
 
-A second predicted indication, **duodenal obstruction** (score 99.68%), has no clinical trials or supporting literature. It is a mechanical or structural condition treated surgically or endoscopically, and acid suppression could at most help with secondary complications. It is not considered a credible repurposing target at present.
+A second predicted indication, **duodenal obstruction** (score 0.9968), has no clinical trials or supporting literature. It is a mechanical or structural condition treated surgically or endoscopically, and acid suppression could at most help with secondary complications. It is not considered a credible repurposing target at present.
 
 ## Clinical Trial Evidence
 
@@ -102,7 +101,6 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score and general proton pump inhibitor pharmacology, with no registered trials and only one non-specific review. Any benefit in duodenogastric reflux would likely be symptomatic and indirect.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, which are a blocking gap for safety screening

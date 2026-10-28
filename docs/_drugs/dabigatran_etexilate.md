@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dabigatran Etexilate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 240
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not specified in the data compiled for this report"
@@ -14,7 +14,7 @@ predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hy
 # Dabigatran Etexilate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Dabigatran etexilate is an oral direct thrombin inhibitor marketed in Canada as 
 |------|------|
 | Original Indication | Not specified in the data compiled for this report (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| TxGNN Prediction Score | 0.9982 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Dabigatran etexilate is an oral direct thrombin inhibitor marketed in Canada as 
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, dabigatran is a direct thrombin inhibitor. Thrombin and PAR signaling could plausibly contribute to liver inflammation and fibrosis, which is a possible bridge to sclerosing cholangitis. This is a hypothesis only and is not supported by the supplied evidence.
 
-The only linked publication (PMID 36906733) is a drug-interaction pharmacokinetic study of cilofexor, an FXR agonist in development for sclerosing cholangitis. It says nothing about dabigatran's efficacy. The high score of 99.82% should therefore be read as a model-derived association and not as confirmation.
+The only linked publication (PMID 36906733) is a drug-interaction pharmacokinetic study of cilofexor, an FXR agonist in development for sclerosing cholangitis. It says nothing about dabigatran's efficacy. The high score of 0.9982 should therefore be read as a model-derived association and not as confirmation.
 
 Other predicted indications are weaker still. Familial hyperlipidaemia (an obsolete disease term), hypoalphalipoproteinemia and homozygous familial hypercholesterolemia have no plausible link to thrombin inhibition in the data. Primary release disorder of platelets is a bleeding-type disorder, where an anticoagulant would be expected to worsen the problem and not treat it.
 

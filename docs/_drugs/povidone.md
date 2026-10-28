@@ -48,17 +48,17 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Dry eye syndrome, xerophthalmia |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, povidone is a hydrophilic polymer used as a lubricant and moisturizing agent in dry eye products, and its efficacy in dry eye has been established as a lubricating agent. Mechanistically, its humectant and film-forming properties might offer topical emollient or barrier support in skin disorders with impaired barrier function.
 
-This link is speculative. Congenital ichthyosiform erythroderma is a genetic keratinization disorder (for example involving TGM1, ALOXE3 or ALOX12B mutations), and povidone does not address this underlying biology. Systemic exposure from topical use is also unlikely to be relevant. The high TxGNN score (99.11%) is a model-based prediction with no clinical or literature corroboration, so it should be treated as a hypothesis rather than a finding.
+This link is speculative. Congenital ichthyosiform erythroderma is a genetic keratinization disorder (for example involving TGM1, ALOXE3 or ALOX12B mutations), and povidone does not address this underlying biology. Systemic exposure from topical use is also unlikely to be relevant. The high TxGNN score (0.9911) is a model-based prediction with no clinical or literature corroboration, so it should be treated as a hypothesis rather than a finding.
 
 ## Clinical Trial Evidence
 
@@ -80,7 +80,7 @@ All three products are currently valid single-ingredient authorizations.
 
 ## Safety Considerations
 
-- **Disease associations flagged in the knowledge graph (not label text)**: epilepsy, liver disease, gallbladder disease, respiratory failure, atrioventricular dissociation, atrioventricular block, heart block. These come from model knowledge-graph contraindication links, not from product labelling, and should be verified against official sources.
+- **Disease associations learned by the TxGNN model (deep learning), not label text**: epilepsy, liver disease, gallbladder disease, respiratory failure, atrioventricular dissociation, atrioventricular block, heart block. These come from contraindication associations the model learned between related diseases, not from product labelling, and should be verified against official sources.
 - **Drug Interactions**: No interaction records were found.
 
 Please refer to the package insert for further safety information.

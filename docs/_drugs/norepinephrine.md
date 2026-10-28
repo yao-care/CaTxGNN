@@ -6,9 +6,9 @@ nav_order: 665
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Hypotensive disorder, asthma, bronchitis, pulmonary emphysema…"
 monitor_inn: "NOREPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Norepinephrine
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Norepinephrine: From Asthma and Hypotensive Disorders to Obstructive Lung Disease
+## Norepinephrine: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Norepinephrine is an injectable adrenergic drug whose original indications in the knowledge graph include hypotensive disorder, asthma, bronchitis, emphysema and bronchiectasis.
+Norepinephrine is an injectable adrenergic drug whose original indications include hypotensive disorder, asthma, bronchitis, emphysema and bronchiectasis.
 The TxGNN model predicts it may be effective for **obstructive lung disease**, but the support is thin: **1 loosely related clinical trial** and **about 20 publications**, mostly reviews and physiology studies.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **obstructive lung disease**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypotensive disorder, asthma, bronchitis, pulmonary emphysema, bronchiectasis (from the knowledge graph; Canadian label indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---

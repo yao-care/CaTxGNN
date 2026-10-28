@@ -48,29 +48,29 @@ The prediction rests on model output alone.
 |------|------|
 | Original Indication | Hemophilia; symptomatic form of hemophilia in female carriers |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, moroctocog alfa is a recombinant factor VIII that replaces the missing clotting factor in hemophilia A, and its efficacy there is the basis for its marketed use.
 
-The predicted new indication is a primary platelet function defect, in which platelets fail to release their granule contents properly. Factor VIII activity in these patients is normally intact, so factor VIII replacement does not address the underlying defect. The very high TxGNN score (99.97%) most likely reflects shared bleeding-disorder associations in the knowledge graph rather than a true mechanistic rationale.
+The predicted new indication is a primary platelet function defect, in which platelets fail to release their granule contents properly. Factor VIII activity in these patients is normally intact, so factor VIII replacement does not address the underlying defect. The very high TxGNN score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions considered (all L5, all Hold):**
 
 | Predicted Indication | TxGNN Score | Mechanistic Plausibility |
 |------|------|------|
-| Pseudo-von Willebrand disease | 99.97% | Weak. Platelet GPIbα gain-of-function defect. Factor VIII is carried by VWF, so there is an indirect link only. |
-| Glanzmann thrombasthenia | 99.96% | Weak. Integrin αIIbβ3 defect. Standard therapy is platelet transfusion or recombinant factor VIIa. |
-| Acquired coagulation factor deficiency | 99.88% | Most plausible. Factor VIII could in principle treat an acquired deficiency, but inhibitory autoantibodies (acquired hemophilia A) often neutralize it, and the category also includes deficiencies of other factors. |
-| Scott syndrome | 99.86% | Weak. Defective platelet phosphatidylserine exposure with normal factor VIII levels. |
-| Bleeding diathesis due to a collagen receptor defect | 99.73% | Weak. Platelet-intrinsic defect. |
-| Hemorrhagic disorder due to a constitutional thrombocytopenia | 99.72% | Weak. Bleeding stems from low platelet count, not factor VIII deficiency. |
-| "Flood factor deficiency" | 99.11% | Cannot be assessed. The term is not a recognized standard name and the entity needs clarification. |
+| Pseudo-von Willebrand disease | 0.9997 | Weak. Platelet GPIbα gain-of-function defect. Factor VIII is carried by VWF, so there is an indirect link only. |
+| Glanzmann thrombasthenia | 0.9996 | Weak. Integrin αIIbβ3 defect. Standard therapy is platelet transfusion or recombinant factor VIIa. |
+| Acquired coagulation factor deficiency | 0.9988 | Most plausible. Factor VIII could in principle treat an acquired deficiency, but inhibitory autoantibodies (acquired hemophilia A) often neutralize it, and the category also includes deficiencies of other factors. |
+| Scott syndrome | 0.9986 | Weak. Defective platelet phosphatidylserine exposure with normal factor VIII levels. |
+| Bleeding diathesis due to a collagen receptor defect | 0.9973 | Weak. Platelet-intrinsic defect. |
+| Hemorrhagic disorder due to a constitutional thrombocytopenia | 0.9972 | Weak. Bleeding stems from low platelet count, not factor VIII deficiency. |
+| "Flood factor deficiency" | 0.9911 | Cannot be assessed. The term is not a recognized standard name and the entity needs clarification. |
 
 ## Clinical Trial Evidence
 
@@ -103,7 +103,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-based model score, with no clinical trials or publications. Primary platelet release disorder is a platelet-intrinsic defect with normal factor VIII activity, so there is no clear mechanistic reason for factor VIII replacement to help. Among the other predicted indications, acquired coagulation factor deficiency is the most plausible but still lacks any supporting evidence.
+The prediction is supported only by a TxGNN model (deep learning) score, with no clinical trials or publications. Primary platelet release disorder is a platelet-intrinsic defect with normal factor VIII activity, so there is no clear mechanistic reason for factor VIII replacement to help. Among the other predicted indications, acquired coagulation factor deficiency is the most plausible but still lacks any supporting evidence.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

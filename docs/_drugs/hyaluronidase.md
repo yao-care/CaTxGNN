@@ -49,10 +49,10 @@ This prediction rests on the model score alone.
 | Item | Content |
 |------|------|
 | Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 (model prediction only; the single related report is a complication case series, not supporting evidence) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

@@ -48,21 +48,21 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | HIV infection / AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, cobicistat is a CYP3A inhibitor used as a pharmacokinetic booster. It has no intrinsic antiviral activity. It raises blood levels of co-administered antiretrovirals that are CYP3A substrates. Its role in HIV treatment is therefore supportive, not directly antiviral.
 
-Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV, so a conceptual link to the approved HIV indication exists. The high score (99.92%) most likely reflects how close SIV and HIV sit in the knowledge graph, not an independent pharmacological signal. Any benefit would depend on pairing cobicistat with a suitable antiretroviral, and SIV is mainly a veterinary or preclinical-model indication rather than a human therapeutic target.
+Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV, so a conceptual link to the approved HIV indication exists. The high score (0.9992) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any benefit would depend on pairing cobicistat with a suitable antiretroviral, and SIV is mainly a veterinary or preclinical-model indication rather than a human therapeutic target.
 
 Two other predictions were also generated:
-- **Feline acquired immunodeficiency syndrome** (score 99.92%): This has the same score as SIV, which suggests a shared graph-neighbourhood artifact. It is veterinary, and any use would need species-specific pharmacokinetic validation.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.91%): No plausible link to CYP3A inhibition is evident. The score is likely a model artifact for a rare disease with sparse graph connectivity.
+- **Feline acquired immunodeficiency syndrome** (score 0.9992): This has the same score as SIV, which comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is veterinary, and any use would need species-specific pharmacokinetic validation.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9991): No plausible link to CYP3A inhibition is evident. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

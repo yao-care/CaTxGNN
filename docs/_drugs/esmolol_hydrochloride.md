@@ -8,6 +8,7 @@ nav_order: 353
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Esmolol Hydrochloride
@@ -51,8 +52,8 @@ No clinical trial or literature evidence was retrieved; a full repurposing evalu
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — Prediction pipeline did not produce output |
-| Canada / Taiwan Market Status | Not marketed (0 licenses found) |
-| Number of DINs | 0 |
+| Canada / Taiwan Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | **Hold** |
 
 ---

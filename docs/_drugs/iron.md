@@ -6,7 +6,7 @@ nav_order: 497
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Iron: predicted new indication Plummer-Vinson syndrome (evidence level L5). Approved use: Iron deficiency anemia"
+description: "Iron: predicted new indication vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Iron deficiency anemia"
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Iron: From Iron Deficiency Anemia to Plummer-Vinson Syndrome
+## Iron: From Iron Deficiency Anemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ This is a close extension of the existing indication rather than a truly new use
 |------|------|
 | Original Indication | Iron deficiency anemia (the Canadian licence records contain no indication text; this is taken from the original indications list: iron deficiency anemia, folic acid deficiency anemia, anemia of prematurity, hypochromic anemia, microcytic anemia, deficiency anemia) |
 | Predicted New Indication | Plummer-Vinson syndrome (the rank 1 prediction, vitamin B12- and folate-independent constitutional megaloblastic anemia, is mechanistically weak and has no evidence; see below) |
-| TxGNN Prediction Score | 99.89% (Plummer-Vinson syndrome); rank 1 prediction scored 99.89% |
-| Evidence Level | L4 (Plummer-Vinson syndrome) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| TxGNN Prediction Score | 0.9989 (Plummer-Vinson syndrome); rank 1 prediction scored 0.9989 |
+| Evidence Level | L5 (Plummer-Vinson syndrome) |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold for the rank 1 prediction; Proceed with Guardrails is not yet justified for any candidate. Plummer-Vinson syndrome is best treated as a research question. |
 
 ---
@@ -65,7 +65,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 **Plummer-Vinson syndrome** is defined by a triad of iron deficiency anemia, dysphagia and esophageal webs. Iron repletion is the established first-line treatment and often relieves dysphagia, sometimes before the blood abnormalities correct. Iron deficiency is thought to cause epithelial atrophy and dysfunction of the upper esophagus. The prediction therefore largely restates the approved use of iron in iron deficiency anemia.
 
 **Other predictions are much weaker:**
-- *Vitamin B12- and folate-independent constitutional megaloblastic anemia* (rank 1): this is a DNA synthesis disorder, not an iron supply problem. The link comes only from graph proximity to anemia terms. No trials or literature were found.
+- *Vitamin B12- and folate-independent constitutional megaloblastic anemia* (rank 1): this is a DNA synthesis disorder, not an iron supply problem. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature were found.
 - *Non-syndromic esophageal malformation*: structural congenital defects need surgery. No mechanism or evidence supports iron.
 - *Biotin metabolic disease*: the literature retrieved is general and does not test iron as a treatment.
 - *Vitamin deficiency disorder*: the trials mostly test iron combined with other vitamins and do not isolate a benefit of iron. The category overlaps with the approved use.

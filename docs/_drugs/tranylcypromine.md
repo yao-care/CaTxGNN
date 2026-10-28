@@ -4,17 +4,17 @@ title: Tranylcypromine
 parent: Model Prediction Only (L5)
 nav_order: 931
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "TRANYLCYPROMINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "dysthymic disorder", "agoraphobia", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
+description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tranylcypromine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tranylcypromine: From Depression to Benign Paroxysmal Torticollis of Infancy
+## Tranylcypromine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,28 +48,25 @@ The better-supported directions are depression-related and anxiety-related condi
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text available from Health Canada licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 For comparison, the other top-10 predictions:
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |---|---|---|---|---|
-| 1 | Benign paroxysmal torticollis of infancy | 99.67% | L5 | Hold |
-| 2 | Ohdo syndrome and variants | 99.66% | L5 | Hold |
-| 3 | Dysthymic disorder | 99.63% | L3 | Research Question |
-| 4 | Agoraphobia | 99.62% | L4 | Research Question |
-| 5 | Melancholia | 99.58% | L3 | Proceed with Guardrails |
-| 6 | Neurotic depression | 99.58% | L3 | Proceed with Guardrails |
-| 7 | Blepharophimosis – intellectual disability syndrome, Ohdo type | 99.50% | L5 | Hold |
-| 8 | Neurotic disorder | 99.50% | L3 | Research Question |
-| 9 | Ligneous conjunctivitis | 99.43% | L5 | Hold |
-| 10 | Keppen-Lubinsky syndrome | 99.38% | L5 | Hold |
+| 1 | Benign paroxysmal torticollis of infancy | 0.9967 | L5 | Hold |
+| 2 | Ohdo syndrome and variants | 0.9966 | L5 | Hold |
+| 4 | Agoraphobia | 0.9962 | L4 | Research Question |
+| 7 | Blepharophimosis – intellectual disability syndrome, Ohdo type | 0.9950 | L5 | Hold |
+| 8 | Neurotic disorder | 0.9950 | L5 | Research Question |
+| 9 | Ligneous conjunctivitis | 0.9943 | L5 | Hold |
+| 10 | Keppen-Lubinsky syndrome | 0.9938 | L5 | Hold |
 
 ---
 
@@ -139,7 +136,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold** (for the top-ranked prediction, benign paroxysmal torticollis of infancy)
 
 **Rationale:**
-- The top prediction has a very high model score (99.67%) but no trials, no literature and no plausible mechanistic link, and MAOIs raise infant safety concerns. The same applies to the rare developmental syndromes in the list.
+- The top prediction has a very high model score (0.9967) but no trials, no literature and no plausible mechanistic link, and MAOIs raise infant safety concerns. The same applies to the rare developmental syndromes in the list.
 - Melancholia and neurotic depression are rated Proceed with Guardrails and are largely on-label or near-label uses. They rest on reviews, meta-analyses and older or observational studies rather than a clearly identified Phase 3 RCT. Dysthymic disorder, agoraphobia and neurotic disorder are Research Questions.
 
 **To proceed, the following is needed:**

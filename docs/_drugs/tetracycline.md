@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tetracycline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 903
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
-description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Not stated in the Canadian licence data. The knowledge graph lists ur…"
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetracycline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Tetracycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+## Tetracycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **0 clinical trials** and only **1 publication** (a 1992
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence data. The knowledge graph lists urinary tract infection, bronchitis, acne, anthrax infection, gonorrhea, pharyngitis, conjunctivitis, pneumonia and others |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not currently available. Based on known inf
 
 Punctate keratitis can follow chlamydial follicular conjunctivitis, which is already within tetracycline's established uses. Tetracyclines also have antibacterial activity against *Chlamydia*, as well as anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects that could plausibly matter on the ocular surface.
 
-The high TxGNN score most likely reflects how close this disease sits to the existing conjunctivitis indications in the knowledge graph. It is not a sign of direct evidence for this use.
+The high score from the TxGNN model (deep learning) may reflect similarities the model learned between this disease and the existing conjunctivitis indications. It is not biological evidence and not a sign of direct evidence for this use.
 
 ---
 
@@ -123,9 +123,9 @@ The only evidence is a single 1992 case report, which is indirect, and there are
 
 | Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary | Recommendation |
 |------|------|------|------|------|
-| Chronic ethmoidal sinusitis | 99.15% | L4 | One 2006 in vitro susceptibility study of streptococci; no trials | Hold |
-| Chronic rhinosinusitis | 99.15% | L4 | A Cochrane review, a 2023 meta-analysis of doxycycline, and other class-level papers; no tetracycline-specific trials | Research Question |
-| Paranasal sinus neoplasm | 99.10% | L5 | Model prediction only | Hold |
+| Chronic ethmoidal sinusitis | 0.9915 | L5 | One 2006 in vitro susceptibility study of streptococci; no trials | Hold |
+| Chronic rhinosinusitis | 0.9915 | L5 | A Cochrane review, a 2023 meta-analysis of doxycycline, and other class-level papers; no tetracycline-specific trials | Research Question |
+| Paranasal sinus neoplasm | 0.9910 | L5 | Model prediction only | Hold |
 
 Chronic rhinosinusitis has the most supporting literature, but it is mostly about doxycycline and other class members rather than tetracycline itself.
 ## Disclaimer

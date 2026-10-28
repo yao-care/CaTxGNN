@@ -6,7 +6,7 @@ nav_order: 127
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
-description: "Brolucizumab: predicted new indication Mitochondrial oxidative phosphorylation disorder due to nuclear DNA a… (evidence level L5). Approved use: Macular degeneration"
+description: "Brolucizumab: predicted new indication mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (evidence level L5). Approved use: Macular degeneration"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
 ---
@@ -48,17 +48,17 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Macular degeneration |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, brolucizumab is a single-chain antibody fragment (scFv) that inhibits VEGF-A. It is given by intravitreal injection, and its efficacy in macular degeneration comes from reducing abnormal blood vessel growth and leakage in the retina.
 
-For the predicted indication, no mechanistic link is established. Primary mitochondrial oxidative phosphorylation disorders arise from nuclear DNA defects in respiratory chain subunits or assembly factors. VEGF-A inhibition does not address this pathology. The high score (0.997) is a graph-based prediction only, and because the annotated mechanism is missing, it cannot be cross-checked.
+For the predicted indication, no mechanistic link is established. Primary mitochondrial oxidative phosphorylation disorders arise from nuclear DNA defects in respiratory chain subunits or assembly factors. VEGF-A inhibition does not address this pathology. The high score (0.9967) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and because the annotated mechanism is missing, it cannot be cross-checked.
 
 Practical concerns also apply. Systemic VEGF blockade in a multisystem metabolic disease would raise safety questions, and intravitreal dosing is unlikely to reach relevant tissues beyond the eye.
 
@@ -66,9 +66,9 @@ Practical concerns also apply. Systemic VEGF blockade in a multisystem metabolic
 
 | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|
-| Esophageal varices without bleeding | 99.12% | Only an indirect theoretical link (VEGF-driven angiogenesis in portal hypertension). Systemic exposure from an intravitreal agent is doubtful, and anti-VEGF class bleeding and GI perforation risks are a concern. |
-| Esophageal varices with bleeding | 99.12% | Same theoretical rationale, but anti-VEGF agents carry hemorrhagic risk. Established standard care exists, and there is no rationale for use in the acute setting. |
-| Exocrine pancreatic insufficiency | 99.07% | No credible mechanistic link. The condition results from loss of pancreatic enzyme secretion, which VEGF-A inhibition does not restore. |
+| Esophageal varices without bleeding | 0.9912 | Only an indirect theoretical link (VEGF-driven angiogenesis in portal hypertension). Systemic exposure from an intravitreal agent is doubtful, and anti-VEGF class bleeding and GI perforation risks are a concern. |
+| Esophageal varices with bleeding | 0.9912 | Same theoretical rationale, but anti-VEGF agents carry hemorrhagic risk. Established standard care exists, and there is no rationale for use in the acute setting. |
+| Exocrine pancreatic insufficiency | 0.9907 | No credible mechanistic link. The condition results from loss of pancreatic enzyme secretion, which VEGF-A inhibition does not restore. |
 
 ## Clinical Trial Evidence
 
@@ -96,7 +96,7 @@ No drug interaction records were found. For full warnings and contraindications,
 **Decision: Hold**
 
 **Rationale:**
-All four predictions are supported only by the TxGNN graph score, with no clinical trials or publications. No credible mechanistic link exists for any of them, and the intravitreal route and class bleeding risks argue against repurposing.
+All four predictions are supported only by the TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence, with no clinical trials or publications. No credible mechanistic link exists for any of them, and the intravitreal route and class bleeding risks argue against repurposing.
 
 **To proceed, the following is needed:**
 - Health Canada product monograph warnings and contraindications (currently a blocking gap for safety screening)

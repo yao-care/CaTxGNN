@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Model Prediction Only (L5)
 nav_order: 679
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Bipolar disorder, manic bipolar affective disorder…"
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ The next two predictions, agoraphobia and dysthymic disorder, have limited indir
 |------|------|
 | Original Indication | Bipolar disorder, manic bipolar affective disorder, unipolar depression, endogenous depression, major depressive disorder, anxiety disorder, schizophrenia (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,7 +62,7 @@ The next two predictions, agoraphobia and dysthymic disorder, have limited indir
 
 Currently, detailed mechanism of action data is not available. Based on known information, olanzapine is an antipsychotic whose efficacy in schizophrenia and bipolar disorder is established. Its pharmacology is generally attributed to dopamine and serotonin receptor antagonism, but this could not be verified from the data compiled for this report.
 
-Benign paroxysmal torticollis of infancy is a rare, self-limiting pediatric episodic disorder. It is related to the migraine spectrum and to CACNA1A channelopathies. No established mechanistic link to olanzapine's receptor pharmacology was identified. The high score is probably driven by network proximity to related neurological or movement phenotypes in the knowledge graph rather than a true pharmacological rationale.
+Benign paroxysmal torticollis of infancy is a rare, self-limiting pediatric episodic disorder. It is related to the migraine spectrum and to CACNA1A channelopathies. No established mechanistic link to olanzapine's receptor pharmacology was identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related neurological or movement phenotypes, not biological evidence or a true pharmacological rationale.
 
 Because the condition is benign and resolves on its own in infants, the risk-benefit balance for an antipsychotic with metabolic and sedative adverse effects is unfavourable.
 
@@ -70,8 +70,7 @@ Because the condition is benign and resolves on its own in infants, the risk-ben
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Agoraphobia | 99.47% | L3 | Research question. Plausible link through panic disorder and anxiety, supported only by small uncontrolled studies. |
-| 3 | Dysthymic disorder | 99.28% | L3 | Research question. Overlaps with olanzapine's depression indications, but evidence is indirect. |
+| 2 | Agoraphobia | 0.9947 | L5 | Research question. Plausible link through panic disorder and anxiety, supported only by small uncontrolled studies. |
 
 ---
 
@@ -98,7 +97,6 @@ For reference, the literature found for the two next-ranked predictions is shown
 | [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Letter | Am J Psychiatry | Olanzapine and panic attacks |
 | [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Case report | Pharmacopsychiatry | Remission of panic disorder after olanzapine plus paroxetine |
 
-**Dysthymic disorder (rank 3)**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -144,7 +142,7 @@ The package insert warnings and contraindications from Health Canada were not av
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.54%), but there are no trials or publications for benign paroxysmal torticollis of infancy, and no plausible mechanistic link. The condition is self-limiting in infants, and olanzapine's metabolic and sedative risks make the risk-benefit balance unfavourable. Agoraphobia and dysthymic disorder are better-supported research questions (L3), but both rely on small, uncontrolled or indirect evidence.
+The TxGNN score is very high (0.9954), but there are no trials or publications for benign paroxysmal torticollis of infancy, and no plausible mechanistic link. The condition is self-limiting in infants, and olanzapine's metabolic and sedative risks make the risk-benefit balance unfavourable. Agoraphobia and dysthymic disorder are better-supported research questions (L3), but both rely on small, uncontrolled or indirect evidence.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, which currently block safety screening

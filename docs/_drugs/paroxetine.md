@@ -6,9 +6,9 @@ nav_order: 708
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Anxiety disorder, major depressive disorder…"
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
+description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paroxetine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
+## Paroxetine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,11 +45,11 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, major depressive disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia (from the knowledge-graph indication list; Canadian label text was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Ohdo syndrome and its variants (for example, the Say-Barber-Biesecker-Young-Simpson variant, associated with KAT6B variants) are rare neurodevelopmental disorders involving chromatin regulation, intellectual disability and characteristic facial features. No plausible pathway connecting serotonin reuptake inhibition to the underlying genetic defect has been identified from the available evidence.
 
-The high prediction score (0.991) reflects a model output only. Any mechanistic link would be speculative and would need independent validation.
+The high prediction score (0.9911) reflects a model output only. Any mechanistic link would be speculative and would need independent validation.
 
 ## Clinical Trial Evidence
 

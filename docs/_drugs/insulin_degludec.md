@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 481
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Insulin Degludec: predicted new indication Type 1 diabetes mellitus (evidence level L1). Approved use: Diabetes mellitus"
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
+description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Insulin Degludec: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Degludec: Autoimmune oophoritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin degludec is an ultra-long-acting basal insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, with **40 clinical trials** and **19 publications** currently supporting this direction.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, with **40 clinical trials** and **19 publications** currently supporting this direction.
 Note that type 1 diabetes falls within the drug's existing diabetes indication, so this prediction mainly confirms known use rather than opening a truly new therapeutic area.
 
 ---
@@ -48,12 +48,12 @@ Note that type 1 diabetes falls within the drug's existing diabetes indication, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (the Canadian licence entries carry no indication text) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 0.9923 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

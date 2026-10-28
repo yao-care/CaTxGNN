@@ -4,17 +4,17 @@ title: Salmeterol
 parent: High Evidence (L1-L2)
 nav_order: 835
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Pulmonary emphysema, intrinsic asthma…"
 monitor_inn: "SALMETEROL"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **7** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-## Salmeterol: From Asthma and COPD to Bronchitis
+## Salmeterol: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Salmeterol is a long-acting beta2-agonist (LABA) bronchodilator, originally used for pulmonary emphysema, intrinsic asthma and allergic asthma.
-The TxGNN model predicts it may be effective for **bronchitis** (score 99.92%), with **9 clinical trials** and **20 publications** compiled for this prediction.
+The TxGNN model predicts it may be effective for **bronchitis** (score 0.9992), with **9 clinical trials** and **20 publications** compiled for this prediction.
 Bronchitis here is essentially chronic bronchitis within COPD, which is already covered by existing salmeterol use, so this is better seen as an adjacent or on-label indication than as true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (Health Canada indication text is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -103,7 +103,7 @@ Twelve valid single-ingredient licences are on record in Canada. Only five are l
 
 ## Safety Considerations
 
-**Contraindication signals from the knowledge graph (not label text):** hypertension, long QT syndrome, familial long QT syndrome, epilepsy, hyperglycemia, herpes simplex virus keratitis, pituitary hormone deficiencies (including hypopituitarism and Kallmann syndrome), thymus gland disease and osteoporosis. These come from a model-derived knowledge graph and need confirmation against the Canadian product monograph.
+**Contraindication signals from the TxGNN model (deep learning), not label text:** hypertension, long QT syndrome, familial long QT syndrome, epilepsy, hyperglycemia, herpes simplex virus keratitis, pituitary hormone deficiencies (including hypopituitarism and Kallmann syndrome), thymus gland disease and osteoporosis. These come from the TxGNN model (deep learning), may reflect similarities the model learned between related diseases rather than biological evidence, and need confirmation against the Canadian product monograph.
 
 **Drug interactions:** 100 interactions were found. The main ones are:
 - **Major:** clarithromycin

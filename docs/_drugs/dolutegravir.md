@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dolutegravir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 296
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Dolutegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Dolutegravir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ but there are **0 registered clinical trials** and only **1 publication** (a vet
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,8 +67,8 @@ Feline immunodeficiency virus (FIV) is a lentivirus that causes progressive immu
 The very high TxGNN score reflects a network-based prediction, not clinical validation. The only supporting study is a 2023 preclinical report of a combination regimen (dolutegravir, tenofovir, emtricitabine) in FIV-infected cats, so dolutegravir's individual contribution is unclear. Because this is a veterinary indication and dolutegravir is already marketed for HIV, the repurposing value for human medicine is limited.
 
 Two other predictions were also generated, but they are weaker or of limited relevance:
-- **Simian immunodeficiency virus infection** (score 99.85%): Evidence is animal and preclinical only, including dolutegravir monotherapy in SIV-infected macaques. SIV is mainly a research model for HIV, not a new human indication.
-- **A rare neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.80%): No mechanistic link, trials or literature were found. This is likely a knowledge-graph artifact.
+- **Simian immunodeficiency virus infection** (score 0.9985): Evidence is animal and preclinical only, including dolutegravir monotherapy in SIV-infected macaques. SIV is mainly a research model for HIV, not a new human indication.
+- **A rare neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9980): No mechanistic link, trials or literature were found. This is likely a TxGNN model (deep learning) artifact.
 
 ---
 

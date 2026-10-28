@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infection, AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available from the data comp
 
 SIV and SHIV are lentiviruses closely related to HIV-1 and use the same reverse transcriptase-dependent replication cycle, so TAF is expected to be active against them. Macaque studies show protection when TAF is given alone or with emtricitabine as pre- or post-exposure prophylaxis. Delivery formats tested include oral dosing, vaginal implants and topical inserts.
 
-An important caveat: SIV/SHIV infection in macaques is a research model of HIV, and HIV is already an approved indication for TAF. The findings therefore reinforce the existing HIV indication rather than open a new clinical one. Two other predictions have even weaker support. Feline acquired immunodeficiency syndrome is a veterinary indication with no literature. A rare neurodevelopmental disorder has no plausible mechanistic link and is likely a knowledge-graph artifact.
+An important caveat: SIV/SHIV infection in macaques is a research model of HIV, and HIV is already an approved indication for TAF. The findings therefore reinforce the existing HIV indication rather than open a new clinical one. Two other predictions have even weaker support. Feline acquired immunodeficiency syndrome is a veterinary indication with no literature. A rare neurodevelopmental disorder has no plausible mechanistic link and is likely a TxGNN model (deep learning) artifact.
 
 ---
 

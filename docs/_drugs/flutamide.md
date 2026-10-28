@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Flutamide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 404
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Flutamide: predicted new indication Benign reproductive system neoplasm (evidence level L3). Approved use: Prostate cancer"
 monitor_inn: "FLUTAMIDE"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+description: "Flutamide: predicted new indication Fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flutamide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Flutamide: From Prostate Cancer to Benign Reproductive System Neoplasm
+## Flutamide: Fibroma of prostate
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Evidence for this direction is limited to small, older, mostly non-randomized or
 
 | Item | Content |
 |------|------|
-| Original Indication | Prostate cancer (the Health Canada licence record contains no indication text) |
-| Predicted New Indication | Benign reproductive system neoplasm (the top-ranked entry, prostate cancer/brain cancer susceptibility, is a label that overlaps with the original indication) |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Fibroma of prostate |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Androgen signalling drives the growth of benign prostatic tissue as well as prostate cancer. The retrieved literature includes a small study of flutamide in men with benign prostatic hyperplasia (BPH), examining prostate volume, PSA and testosterone response (PMID 1722793). Other studies describe the histological effects of combined endocrine therapy on normal and benign prostate (PMID 1989458, 11829828).
 
-The top-ranked prediction (prostate cancer/brain cancer susceptibility) is a genetic or phenotype label overlapping the approved indication. Its very high score reflects proximity in the knowledge graph rather than independent evidence. Several other high-scoring predictions (Brenner tumor, rare prostatic stromal tumors, HIV and related animal retroviral diseases) have no trials or literature and no clear mechanistic rationale. Fibroma of prostate, prostate leiomyoma and benign prostate phyllodes tumor are at best biologically conceivable. The benign-neoplasm entry is the one with the most relevant supporting data, but it is limited to BPH-type effects and does not establish clinical benefit across the broad category.
+Several high-scoring predictions (Brenner tumor, rare prostatic stromal tumors, HIV and related animal retroviral diseases) have no trials or literature and no clear mechanistic rationale. Fibroma of prostate, prostate leiomyoma and benign prostate phyllodes tumor are at best biologically conceivable. The benign-neoplasm entry is the one with the most relevant supporting data, but it is limited to BPH-type effects and does not establish clinical benefit across the broad category.
 
 ---
 
@@ -146,7 +146,7 @@ Please also refer to the package insert, as Canadian label warnings and contrain
 **Decision: Hold**
 
 **Rationale:**
-The predicted benign reproductive system neoplasm indication has no linked clinical trials, and the supporting literature is small, dated and mostly histological or preclinical. The very high TxGNN score reflects graph proximity to the approved prostate cancer indication rather than independent evidence. Flutamide's hepatotoxicity makes use in a benign condition hard to justify when safer alternatives exist.
+The predicted benign reproductive system neoplasm indication has no linked clinical trials, and the supporting literature is small, dated and mostly histological or preclinical. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Flutamide's hepatotoxicity makes use in a benign condition hard to justify when safer alternatives exist.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

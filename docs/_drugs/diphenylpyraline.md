@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Diphenylpyraline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 290
-evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-13
-description: "Diphenylpyraline: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Diphenylpyraline"
-predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-23
+description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
 # Diphenylpyraline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +33,40 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Diphenylpyraline: From Allergic Rhinitis to Allergic Urticaria
+## Diphenylpyraline: From Allergic Rhinitis to Nasal Cavity Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Diphenylpyraline is a first-generation antihistamine originally used for allergic and vasomotor rhinitis, the common cold, pharyngitis, allergic conjunctivitis, and urticaria.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but **no clinical trials and no publications** were found to support this prediction.
-Allergic urticaria falls close to an existing indication (urticaria), so this is closer to an on-label use than true repurposing.
-
----
+Diphenylpyraline is a first-generation antihistamine.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. The prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (the Canadian license records contain no indication text; the original indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Allergic rhinitis (relation recorded in the knowledge graph; the Canadian licence records contain no indication text) |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
+| Number of approvals | 2 licences (both single-ingredient products) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known drug class information, diphenylpyraline is a first-generation H1 antihistamine with anticholinergic activity. Blocking H1 receptors reduces the histamine-driven wheal and flare seen in urticaria, and the anticholinergic effect may reduce nasal secretions.
+Detailed mechanism of action data is not available. Based on known information, diphenylpyraline belongs to the first-generation H1-antihistamine class. These drugs block histamine H1 receptors and have anticholinergic effects that can reduce nasal secretions. This class pharmacology has not been verified from the data compiled for this report.
 
-The knowledge graph already lists urticaria and angioedema among the drug's original indications. Allergic urticaria is therefore essentially a subtype of an existing indication. The high score (0.996) is consistent with this overlap, but it mostly reflects near-label use rather than a new therapeutic direction.
-
-Two other predictions were also generated, both with model support only and no trials or literature:
-- **Acute laryngopharyngitis** (score 99.23%): Related to the labeled pharyngitis and common cold indications. Most cases are infectious, so antihistamines would give symptom relief at best.
-- **Nasal cavity disease** (score 99.15%): A broad category that overlaps with allergic and vasomotor rhinitis. It is too general to form a specific, testable hypothesis.
-
----
+Allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold are mostly nasal or upper airway conditions. "Nasal cavity disease" is a broad parent category. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not point to a new indication or a distinct disease subtype.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Canada Market Information
 
@@ -89,37 +75,28 @@ Currently no related literature available.
 | 00299561 | CREO-RECTAL ADULTES/ADULTS | Not specified | Not specified |
 | 00299596 | CREO-RECTAL ENFANTS/CHILDREN | Not specified | Not specified |
 
-Both products are valid single-ingredient licenses, and none are cancelled.
-
----
+Both licences are valid and for single-ingredient products. The product names suggest a rectal route, which may not suit nasal indications. The compiled data does not confirm the route, and route compatibility has not been assessed.
 
 ## Safety Considerations
 
-**Contraindications from the knowledge graph** (derived from drug-disease relationships in the knowledge graph, not from package insert text):
-- Hypertensive disorder / hypertension
-- Peptic ulcer disease
-- Benign prostatic hyperplasia
-- Ocular hypertension, angle-closure glaucoma, closed-angle glaucoma
-- Hyperthyroidism, Graves disease, thyrotoxicosis
-- Bladder neck obstruction
+- **Conditions recorded as contraindications in the knowledge graph** (these come from graph relations, not label text): hypertensive disorder, hypertension, peptic ulcer disease, benign prostatic hyperplasia, ocular hypertension, angle-closure glaucoma, closed-angle glaucoma, hyperthyroidism, Graves disease, thyrotoxicosis, bladder neck obstruction.
+- **Drug Interactions**: The interaction query returned no records.
 
-No drug interaction records were found. Please refer to the package insert for warnings and other safety information.
-
----
+Please refer to the package insert for label warnings and contraindications, as these were not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no clinical trials or publications for any of the three predicted indications. Allergic urticaria largely overlaps with an existing indication, so the prediction adds little new information. Safety screening cannot proceed because the Canadian package insert data are missing.
+The prediction is supported only by the model score. No trials or publications address this disease, so the evidence level is L5. "Nasal cavity disease" is a broad category that overlaps with conditions already recorded for the drug, so it is not a clearly new indication.
 
 **To proceed, the following is needed:**
-- Health Canada package insert (warnings, contraindications, approved indications) for both DINs
-- Mechanism of action data from DrugBank
-- Dosage form and route information for the Canadian products, so route compatibility can be assessed (the products appear to be rectal formulations)
-- A literature and trial search specific to diphenylpyraline in urticaria
-- Review of the knowledge-graph contraindications against the intended patient population
+- Health Canada package insert warnings, contraindications and approved indication text (a blocking gap for safety screening)
+- Mechanism of action data
+- A more specific disease target than the broad "nasal cavity disease" category
+- Confirmation of the dosage forms and routes of the marketed products, and their compatibility with nasal use
+- Any clinical or literature evidence that directly studies the predicted disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

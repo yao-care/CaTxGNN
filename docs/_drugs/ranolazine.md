@@ -46,10 +46,10 @@ Ranolazine is a drug marketed in Canada, and it is known to be used for chronic 
 |------|------|
 | Original Indication | Not stated in the Canadian license records compiled for this report (chronic angina is the commonly known use) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 NSIAD is a rare genetic disorder caused by gain-of-function mutations in the vasopressin V2 receptor gene (AVPR2). The receptor is constitutively active, which leads to unregulated water reabsorption in the kidney collecting duct. A direct link between ranolazine's sodium-channel activity and V2 receptor signalling has not been established. Any connection would be speculative, for example through indirect effects on renal ion transport or cAMP-mediated aquaporin-2 signalling.
 
-The very high score (0.996) should be read with caution. It may reflect the structure of the knowledge graph rather than true biological relevance. Because NSIAD is rare, the chance of finding trial data is also low.
+The very high score (0.9965) should be read with caution. It comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Because NSIAD is rare, the chance of finding trial data is also low.
 
 ## Clinical Trial Evidence
 

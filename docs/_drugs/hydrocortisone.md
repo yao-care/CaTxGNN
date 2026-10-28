@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 455
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L5). Approved use: Adrenal insufficiency / Addison disease…"
 monitor_inn: "HYDROCORTISONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Hydrocortisone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **1 clinical trial** (in which hydrocortisone was only the low-potency comp
 |------|------|
 | Original Indication | Adrenal insufficiency / Addison disease, Crohn disease and inflammatory bowel disease, autoimmune disease, acute lymphoblastic leukaemia (the data compiled for this report does not include approved indication text for the Canadian products) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 (as scored in the compiled data; see the note below, as the evidence is weaker than this label suggests) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 16 |
+| Canada Market Status | Marketed (valid licenses: 16 of 16) |
+| Number of DINs | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -99,7 +99,7 @@ In total, 16 single-ingredient authorisations are valid, covering systemic brand
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text)**: hypertension, epilepsy, gastric ulcer, kidney disease, liver disease, gallbladder disease, hyperglycaemia, measles, herpes simplex keratitis, anogenital HPV infection, common warts, and several pituitary or growth hormone deficiency disorders.
+- **Contraindications (from TxGNN model (deep learning) output, not label text; these may reflect similarities the model learned between related diseases, not biological evidence)**: hypertension, epilepsy, gastric ulcer, kidney disease, liver disease, gallbladder disease, hyperglycemia, measles, herpes simplex keratitis, anogenital HPV infection, common warts, and several pituitary or growth hormone deficiency disorders.
 - **Drug Interactions**: 100 interactions were identified. Examples include **Adalimumab (major)**, and moderate interactions with zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, ibuprofen, nifedipine, ethinylestradiol, aldesleukin, alemtuzumab, and certain live or inactivated vaccine antigens. Formoterol and salbutamol show minor interactions.
 
 Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for full safety information.

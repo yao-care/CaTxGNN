@@ -4,17 +4,17 @@ title: Cimetidine
 parent: Model Prediction Only (L5)
 nav_order: 195
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-13
-description: "Cimetidine: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Gastric ulcer, gastroesophageal reflux disease, duodenal ulcer…"
+indication_count: 4
 monitor_inn: "CIMETIDINE"
-predicted_indications: ["peptic ulcer perforation", "lymphoadenopathic mastocytosis with eosinophilia", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
+predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
+last_modified_at: 2026-10-27
+description: "Cimetidine: predicted new indication peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cimetidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Cimetidine: From Gastric Ulcer to Smouldering Systemic Mastocytosis
+## Cimetidine: H2-receptor antagonist (acid suppression) → peptic ulcer perforation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Cimetidine is a histamine H2-receptor antagonist originally used to treat gastric and duodenal ulcers, reflux disease and gastric hypersecretory conditions.
-The TxGNN model predicts it may be effective for **Smouldering systemic mastocytosis**,
-but **no clinical trials and no publications** were found for this specific indication, so the prediction rests on the model alone.
+Cimetidine is an acid-suppressing H2-receptor antagonist that has been marketed in Canada.
+The TxGNN model predicts it may be effective for **peptic ulcer perforation**, but there are **no registered clinical trials** and only **literature that is mostly indirect or case-level** (20 publications, mainly case reports and general ulcer papers) behind this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, gastroesophageal reflux disease, duodenal ulcer, Zollinger-Ellison syndrome and related conditions (the Canadian licence records contain no indication text, so this comes from the knowledge-graph indication list) |
-| Predicted New Indication | Smouldering systemic mastocytosis |
-| TxGNN Prediction Score | 99.80% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | peptic ulcer perforation |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cimetidine is known as a competitive H2-receptor antagonist. It blocks histamine on gastric parietal cells and reduces acid secretion, which is the basis of its ulcer and reflux uses.
+Detailed mechanism of action data is not currently available. Based on known information, cimetidine is an H2-receptor antagonist that reduces gastric acid secretion. Acid suppression addresses the underlying ulcer disease, and this is the likely reason the model links the drug to ulcer perforation.
 
-Systemic mastocytosis is already listed among cimetidine's original indications in the knowledge graph. In mast cell disease, excess histamine release drives gastric hypersecretion and gastrointestinal symptoms, and H2 blockade can control these. The high score most likely reflects this existing link and the shared mast cell and histamine biology, rather than new evidence specific to the smouldering subtype.
+However, perforation is an acute surgical emergency, not a condition that acid suppression alone treats. Several supplied reports describe perforation occurring while patients were on cimetidine (PMIDs 3967139, 6743974) or after it was withdrawn (PMID 922364). A hospital review found only a 10% fall in perforations after cimetidine became available, versus a 45% fall in elective ulcer operations (PMID 7082957). The score therefore most likely reflects the link to ulcer disease in general, not a demonstrated benefit for perforation. The evidence signals possible treatment failure rather than protection.
 
-Any benefit would be symptomatic, such as acid and GI symptom control. It would not modify the underlying disease.
+No cited study tests cimetidine as a treatment for perforated ulcer itself, so the evidence level is L5.
 
 ## Clinical Trial Evidence
 
@@ -68,53 +67,45 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8364140](https://pubmed.ncbi.nlm.nih.gov/8364140/) | 1993 | Review | Aliment Pharmacol Ther | Continuous H2-antagonist therapy reduces ulcer recurrence; relapse rates vary with study design |
+| [7082957](https://pubmed.ncbi.nlm.nih.gov/7082957/) | 1982 | Case report/Letter | Br J Surg | After cimetidine, elective ulcer surgery fell 45% but perforations fell only 10% |
+| [6743974](https://pubmed.ncbi.nlm.nih.gov/6743974/) | 1984 | Case report | Br J Surg | Nine duodenal ulcer perforations occurred during cimetidine therapy; all needed vagotomy and drainage |
+| [3967139](https://pubmed.ncbi.nlm.nih.gov/3967139/) | 1985 | Case report | Br J Surg | Report of perforation occurring on cimetidine |
+| [922364](https://pubmed.ncbi.nlm.nih.gov/922364/) | 1977 | Not classified | Br Med J | Perforation of peptic ulcer after withdrawal of cimetidine |
+| [6649737](https://pubmed.ncbi.nlm.nih.gov/6649737/) | 1983 | Not classified | Z Gastroenterol | Operations fell 35% after cimetidine; ulcer-complication operations fell less than elective ones |
+| [6861858](https://pubmed.ncbi.nlm.nih.gov/6861858/) | 1983 | Not classified | Eur J Clin Pharmacol | Ulcer-related discharges were about 10% lower once cimetidine became available |
+| [1975090](https://pubmed.ncbi.nlm.nih.gov/1975090/) | 1990 | Not classified | Minerva Chir | Overview of ulcer therapy and surgery before and after the cimetidine era |
+| [2573146](https://pubmed.ncbi.nlm.nih.gov/2573146/) | 1989 | Not classified | Scand J Gastroenterol Suppl | H2 antagonists protect mucosa against NSAID injury |
+| [6150640](https://pubmed.ncbi.nlm.nih.gov/6150640/) | 1984 | Not classified | Am J Med | Hospitalisations for duodenal ulcer fell, but the perforation rate did not change significantly |
 
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 00584215 | CIMETIDINE | Not specified | Not specified |
-| 00487872 | CIMETIDINE | Not specified | Not specified |
-
-Both licences are valid single-ingredient products.
+| 00584215 | CIMETIDINE | Not recorded | Not recorded |
+| 00487872 | CIMETIDINE | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph** (these are model-graph associations, not label text): liver disease, gallbladder disease, impaired renal function, and gastric cancer or neoplasm (including diffuse gastric adenocarcinoma, linitis plastica and gastric carcinoma).
-- **Drug Interactions**: 100 interactions were identified in total. Examples among those listed:
-  - Moderate: paclitaxel, fentanyl, acalabrutinib, lidocaine, acebutolol, dihydrocodeine, codeine, tramadol, nifedipine, alfentanil
-  - Minor: dolutegravir, zidovudine, acetaminophen, ketorolac, ibuprofen, ethinylestradiol, albendazole, ethanol, alendronic acid, cholecalciferol
+**Drug Interactions** (100 interactions were found in the interaction database; examples):
+- **Moderate**: paclitaxel, fentanyl, acalabrutinib, lidocaine, acebutolol, dihydrocodeine, codeine, tramadol, nifedipine, alfentanil
+- **Minor**: dolutegravir, zidovudine, acetaminophen, ketorolac, ibuprofen, ethinylestradiol, albendazole, ethanol, alendronic acid, cholecalciferol
 
-Please also refer to the package insert for warnings and contraindications.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for smouldering systemic mastocytosis has no supporting trials or publications (L5). It most likely echoes the existing systemic mastocytosis indication, and any benefit would be symptomatic only.
+No trial or publication directly shows that cimetidine treats peptic ulcer perforation. The available case reports suggest perforation can occur despite therapy, and perforation requires surgical management. The high score appears to reflect the general link to ulcer disease.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
-- Mechanism of action data (for example from DrugBank)
-- Clinical or observational evidence in smouldering systemic mastocytosis specifically
-- Review of the interactions with other drugs, and of the knowledge-graph contraindications, in this patient population
-
----
-
-### Other Predicted Indications (for reference)
-
-| Predicted Indication | TxGNN Score | Evidence Level | Note |
-|------|------|------|------|
-| Active peptic ulcer disease | 99.79% | L3 | Already an approved use, so not a repurposing opportunity. One placebo-controlled study (PMID 7034155) and several reviews. |
-| Gastrojejunal ulcer | 99.77% | L3 | Extension of the ulcer indication. Literature is general and not specific to this condition. |
-| Peptic ulcer perforation | 99.77% | L4 | Case reports of perforation during cimetidine therapy suggest no protection. Perforation is a surgical emergency. |
-| Lymphoadenopathic mastocytosis with eosinophilia | 99.76% | L5 | No evidence supplied. At best symptomatic control. |
-| Duodenogastric reflux | 99.49% | L4 | Only physiological studies, with no evidence of clinical benefit. |
-| Duodenal obstruction | 99.44% | L4 | A single case-level report (PMID 361048). Mechanical obstruction needs endoscopic or surgical management. |
-| Acne | 99.33% | L4 | Plausible anti-androgenic and immunomodulatory link, but only reviews and no controlled data. Classified as a research question. |
-| Abnormality of glucagon secretion | 99.14% | L5 | The only record is an unrelated Meckel's diverticulum imaging study. Unsupported. |
+- Package insert warnings and contraindications from Health Canada
+- Mechanism of action data
+- Controlled studies, if any, that examine cimetidine as an adjunct in perforated ulcer or in preventing perforation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

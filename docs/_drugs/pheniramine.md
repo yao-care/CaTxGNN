@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pheniramine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 727
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Pheniramine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pheniramine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pheniramine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Pheniramine: From Allergic Rhinitis to Allergic Urticaria
+## Pheniramine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pheniramine is a first-generation H1-antihistamine, originally used for allergic rhinitis, the common cold, conjunctivitis and urticaria.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but there are **0 registered clinical trials** and only **4 publications** (3 case reports and 1 review) supporting this direction.
-Allergic urticaria largely overlaps with its existing indications, so this is not a true repurposing candidate.
 
 ---
 
@@ -48,12 +46,12 @@ Allergic urticaria largely overlaps with its existing indications, so this is no
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, atopic/papillary/vernal conjunctivitis, urticaria, angioedema, among others (the Health Canada indication text was not available) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9928 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +60,9 @@ Allergic urticaria largely overlaps with its existing indications, so this is no
 
 Currently, detailed mechanism of action data is not available. Based on known information, pheniramine is a first-generation H1-receptor antagonist. Its efficacy in allergic and upper-airway conditions is established, and mechanistically it may be applicable to allergic urticaria through the same histamine H1 blockade.
 
-Urticaria and angioedema are already among pheniramine's original indications. The high TxGNN score (99.67%) most likely reflects this overlap rather than a new therapeutic direction. The retrieved literature gives no prospective efficacy evidence for pheniramine in allergic urticaria.
+Urticaria and angioedema are already among pheniramine's original indications. The retrieved literature gives no prospective efficacy evidence for pheniramine in allergic urticaria.
 
-Two other predictions show the same pattern. **Nasal cavity disease** (score 99.28%) and **acute laryngopharyngitis** (score 99.25%) both extend existing indications (rhinitis, common cold, pharyngitis). Neither has any trials or publications, so both rest on the model prediction and the mechanistic rationale alone (evidence level L5).
+Another prediction shows the same pattern. **Nasal cavity disease** (score 0.9928) extends existing indications (rhinitis, common cold, pharyngitis). It has no trials or publications, so it rests on the model prediction and the mechanistic rationale alone (evidence level L5).
 
 ---
 
@@ -129,7 +127,6 @@ Allergic urticaria largely overlaps with pheniramine's existing indications (urt
 - Health Canada package insert warnings and contraindications (the safety screening cannot proceed without them)
 - Mechanism of action data from DrugBank
 - Approved indication text and dosage forms for the 9 Canadian licences
-- Prospective or controlled efficacy data in allergic urticaria, or confirmation that this is already a labeled use, in which case it is not a repurposing candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

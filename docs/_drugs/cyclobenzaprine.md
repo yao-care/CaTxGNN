@@ -50,10 +50,10 @@ Most of the trials, however, test a sublingual formulation in fibromyalgia, so d
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the Canadian licence records contain no indication text). Cyclobenzaprine is generally known as a muscle relaxant for muscle spasm associated with acute, painful musculoskeletal conditions. |
 | Predicted New Indication | Myofascial pain syndrome |
-| TxGNN Prediction Score | 99.09% |
+| TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -62,7 +62,7 @@ Most of the trials, however, test a sublingual formulation in fibromyalgia, so d
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, cyclobenzaprine is a centrally acting muscle relaxant structurally related to tricyclic antidepressants. It is thought to act mainly in the brainstem to reduce tonic somatic motor activity. It also has 5-HT2 antagonist, antihistaminic and anticholinergic effects.
 
-Myofascial pain syndrome involves painful muscle trigger points and muscle tension. A drug that reduces muscle hypertonicity and spasm is therefore biologically plausible for this condition. The high TxGNN score (0.99) is consistent with this link, but it reflects network proximity in a knowledge graph and is not clinical validation.
+Myofascial pain syndrome involves painful muscle trigger points and muscle tension. A drug that reduces muscle hypertonicity and spasm is therefore biologically plausible for this condition. The high TxGNN score (0.9909) is consistent with this link, but it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not clinical validation.
 
 Important caveat: most of the Phase 3 trials listed are for TNX-102 SL, a low-dose sublingual cyclobenzaprine, and they appear to be in fibromyalgia, a related but different chronic pain condition. They support the drug's analgesic activity in a related setting, but they do not directly show benefit in myofascial pain.
 
@@ -139,7 +139,7 @@ For label warnings and contraindications, please refer to the package insert.
 
 ---
 
-*Note on other predictions:* neuralgia (score 99.08%) has no registered trials and only indirect literature (evidence level L4), and papillary conjunctivitis (score 99.08%) has no trials or literature (evidence level L5). Both are on Hold.
+*Note on other predictions:* neuralgia (score 0.9908) has no registered trials and only indirect literature (evidence level L4), and papillary conjunctivitis (score 0.9908) has no trials or literature (evidence level L5). Both are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

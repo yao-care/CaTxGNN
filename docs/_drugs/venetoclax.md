@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Venetoclax
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 970
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Venetoclax: predicted new indication CLL/SLL with immunoglobulin heavy chain variable-region gene somatic… (evidence level L4). Approved use: Acute lymphoblastic/lymphocytic leukemia"
+description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L4). Approved use: Acute lymphoblastic/lymphocytic leukemia"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-
 # Venetoclax
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Venetoclax: From Acute Lymphoblastic Leukemia and Richter Syndrome to IGHV-Mutated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+## Venetoclax: From Acute Lymphoblastic Leukemia and Richter Syndrome to Hodgkins lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ No clinical trials or publications are currently linked to this specific subtype
 |------|------|
 | Original Indication | Acute lymphoblastic/lymphocytic leukemia; Richter syndrome (Canadian label indication text was not available) |
 | Predicted New Indication | CLL/SLL with immunoglobulin heavy chain variable-region gene somatic hypermutation |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| TxGNN Prediction Score | 0.9951 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

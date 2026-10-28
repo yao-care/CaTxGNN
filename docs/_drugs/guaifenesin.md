@@ -4,17 +4,17 @@ title: Guaifenesin
 parent: Model Prediction Only (L5)
 nav_order: 444
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "GUAIFENESIN"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Guaifenesin: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
+## Guaifenesin: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ Evidence is very limited: **no registered clinical trials** and **1 publication*
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (from the knowledge graph; no approved indication text in the Canadian licence records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction with no clinical studies; only one indirect review) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -58,7 +58,7 @@ Evidence is very limited: **no registered clinical trials** and **1 publication*
 
 Detailed mechanism-of-action data is not available for this report. Based on known information, guaifenesin is an expectorant that thins and loosens airway mucus. Its use in rhinitis and nasopharyngitis has been established, and mechanistically it may help with mucus-related nasal symptoms.
 
-Nasal cavity disease is a broad category that includes the rhinitis conditions already listed as original indications. The very high TxGNN score (99.98%) probably reflects this overlap and is not an independent repurposing signal. In other words, the prediction is largely a restatement of existing uses rather than a new therapeutic discovery.
+Nasal cavity disease is a broad category that includes the rhinitis conditions already listed as original indications. The very high TxGNN score (0.9998) probably reflects this overlap and is not an independent repurposing signal. In other words, the prediction is largely a restatement of existing uses rather than a new therapeutic discovery.
 
 The only supporting publication is a 2002 article on respiratory allergies in voice users. It mentions that decongestants containing guaifenesin may be useful, which is indirect support only.
 

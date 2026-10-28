@@ -4,17 +4,17 @@ title: Capmatinib
 parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Capmatinib: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the compiled data (Health Canada indication text is…"
 monitor_inn: "Capmatinib"
-predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "heart disease", "Jeune syndrome situs inversus", "Pierre Robin syndrome associated with a chromosomal anomaly", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "interventricular septum aneurysm", "hyperthyroidism"]
+predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Capmatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 |------|------|
 | Original Indication | Not available in the compiled data (Health Canada indication text is empty) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -130,7 +130,6 @@ The prediction rests on a model score alone. There are no clinical trials, and t
 
 ### Other Predictions (for reference)
 
-Of the other nine predictions, only **heart disease** (score 98.64%, evidence level L4) has any supporting literature. A 2020 mouse study (PMID [32333917](https://pubmed.ncbi.nlm.nih.gov/32333917/)) suggested capmatinib may offset doxorubicin cardiotoxicity and cisplatin nephrotoxicity. This is indirect preclinical evidence in a drug-toxicity setting, not evidence for treating established heart disease. It is best treated as a research question. The remaining eight predictions (mostly rare congenital syndromes and hyperthyroidism) have no identifiable mechanistic rationale or supporting evidence and are likely knowledge-graph artifacts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

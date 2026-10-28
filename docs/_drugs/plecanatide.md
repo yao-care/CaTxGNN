@@ -6,9 +6,9 @@ nav_order: 745
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Plecanatide: predicted new indication Hypertrichosis (evidence level L5). Approved use: Not specified in the Canadian licence record (outside Canada…"
 monitor_inn: "Plecanatide"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "syndrome with a Dandy-Walker malformation as major feature", "idiopathic spontaneous coronary artery dissection", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "phaeochromocytoma"]
+description: "Plecanatide: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Plecanatide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Plecanatide: From Constipation Treatment to Hypertrichosis
+## Plecanatide: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the Canadian licence record (outside Canada, approved for chronic idiopathic constipation and IBS-C) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.998% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 
 Currently, detailed mechanism of action data is not available in the compiled record. Based on known pharmacology, plecanatide is a peptide agonist of guanylate cyclase-C (GUCY2C). It acts locally on intestinal epithelium, raising cGMP, and is minimally absorbed into the bloodstream.
 
-On review, the predicted link is weak. Hair follicle biology is not known to depend on GC-C signalling, and the drug's gut-restricted action makes a systemic effect on hair growth unlikely. The very high TxGNN score (99.998%) is a knowledge-graph prediction, probably reflecting graph proximity to related hair phenotypes rather than biology. No trials or literature back it up.
+On review, the predicted link is weak. Hair follicle biology is not known to depend on GC-C signalling, and the drug's gut-restricted action makes a systemic effect on hair growth unlikely. The very high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature back it up.
 
 The other top-10 predictions are similarly unsupported: Ambras-type hypertrichosis, odontal/periodontal malformation syndromes, hair shaft abnormalities, Dandy-Walker malformation syndromes, spontaneous coronary artery dissection, vascular disease, thoracic outlet syndromes (venous and arterial) and phaeochromocytoma. Most are genetic, developmental or mechanical conditions with no plausible GC-C mechanism. The cGMP pathway does influence vascular tone in general, but this is speculative for a minimally absorbed drug.
 
@@ -102,7 +102,7 @@ For other safety information (warnings and contraindications), please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a knowledge-graph score. There are no trials or publications, and the proposed mechanism is implausible given plecanatide's local intestinal action and minimal absorption. The 10 top-ranked predictions are all at Evidence Level L5.
+The prediction is supported only by a TxGNN model (deep learning) score. There are no trials or publications, and the proposed mechanism is implausible given plecanatide's local intestinal action and minimal absorption. The 10 top-ranked predictions are all at Evidence Level L5.
 
 **To proceed, the following is needed:**
 - Retrieval of the Health Canada package insert, to confirm approved indications, warnings and contraindications

@@ -50,10 +50,10 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 |------|------|
 | Original Indication | Asthma (including allergic and intrinsic asthma) and idiopathic urticaria |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

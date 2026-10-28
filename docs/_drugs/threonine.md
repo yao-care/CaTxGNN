@@ -50,9 +50,9 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Not stated in the licence records compiled for this report (products are amino acid parenteral nutrition formulations) |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,7 +62,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 Currently, detailed mechanism of action data is not available. Based on known information, threonine is an essential amino acid that the body cannot make itself. It is used in protein synthesis and in the production of mucins, the main components of the protective intestinal mucus layer. It is supplied in Canada as a component of multi-amino-acid parenteral nutrition products (for example CLINIMIX, TRAVASOL, PRIMENE, OLIMEL and SMOFKABIVEN).
 
-The link between this nutritional role and gastroparesis (delayed stomach emptying) is not established by the data compiled for this report. Gastroparesis is generally driven by problems such as loss of pacemaker cells in the stomach, damage to enteric nerves, or vagal and diabetic autonomic dysfunction. Any role for threonine in these processes would be speculative. The only support at present is the high TxGNN score of 99.32%, which comes from knowledge-graph pattern matching rather than direct biological or clinical evidence.
+The link between this nutritional role and gastroparesis (delayed stomach emptying) is not established by the data compiled for this report. Gastroparesis is generally driven by problems such as loss of pacemaker cells in the stomach, damage to enteric nerves, or vagal and diabetic autonomic dysfunction. Any role for threonine in these processes would be speculative. The only support at present is the high TxGNN score of 0.9932, which comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

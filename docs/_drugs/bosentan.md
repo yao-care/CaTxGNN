@@ -4,7 +4,7 @@ title: Bosentan
 parent: Moderate Evidence (L3-L4)
 nav_order: 121
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Bosentan: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Pulmonary arterial hypertension (also systemic sclerosis / scleroderm…"
 monitor_inn: "BOSENTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 # Bosentan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but t
 |------|------|
 | Original Indication | Pulmonary arterial hypertension (also systemic sclerosis / scleroderma) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

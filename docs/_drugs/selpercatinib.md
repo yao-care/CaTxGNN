@@ -50,10 +50,10 @@ The evidence is weak, and the supplied data suggest a possible safety signal rat
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.18% |
+| TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The evidence is weak, and the supplied data suggest a possible safety signal rat
 
 Currently, detailed mechanism of action data is not available. Based on known information, selpercatinib is a selective RET kinase inhibitor. The literature compiled for this report relates to RET fusion-positive non-small-cell lung cancer and RET-mutated medullary thyroid carcinoma. The official Canadian indication text is not available here.
 
-The prediction score is very high (0.99), but the data do not document any pathway linking RET inhibition to pulmonary vascular remodelling. Multi-kinase inhibitors have been explored in pulmonary arterial hypertension, but selective RET inhibition has no established rationale in this setting. Other kinase-inhibitor classes have been associated with vascular or hypertensive adverse effects, so a safety signal is more plausible than a therapeutic benefit. The score should be treated as a hypothesis-generating signal only.
+The prediction score is very high (0.9905), but the data do not document any pathway linking RET inhibition to pulmonary vascular remodelling. Multi-kinase inhibitors have been explored in pulmonary arterial hypertension, but selective RET inhibition has no established rationale in this setting. Other kinase-inhibitor classes have been associated with vascular or hypertensive adverse effects, so a safety signal is more plausible than a therapeutic benefit. The score should be treated as a hypothesis-generating signal only.
 
 ---
 

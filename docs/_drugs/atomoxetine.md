@@ -50,9 +50,9 @@ but there are **no registered clinical trials** and only a handful of relevant p
 |------|------|
 | Original Indication | Attention deficit hyperactivity disorder (ADHD), including the inattentive type |
 | Predicted New Indication | Specific developmental disorder |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

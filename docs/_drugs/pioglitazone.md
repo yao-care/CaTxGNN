@@ -48,30 +48,30 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 13 |
+| Canada Market Status | Marketed (valid licenses: 13 of 13) |
+| Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, pioglitazone is a thiazolidinedione that activates PPAR-gamma, improving insulin sensitivity and supporting pancreatic beta-cell function. Its efficacy in type 2 diabetes is well established.
 
-Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 mutations. INPPL1 encodes SHIP2, a phosphoinositide phosphatase that affects insulin/PI3K signaling. Any link to PPAR-gamma agonism is speculative. No clear mechanistic connection was identified, and the high score likely reflects relationships within the knowledge graph rather than biological or clinical evidence.
+Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 mutations. INPPL1 encodes SHIP2, a phosphoinositide phosphatase that affects insulin/PI3K signaling. Any link to PPAR-gamma agonism is speculative. No clear mechanistic connection was identified, and the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions reviewed** (all L5, all Hold, with no clinical trials or literature, except as noted):
 
 | Rank | Predicted Indication | Score | Comment |
 |------|------|------|------|
-| 2 | Classic stiff person syndrome | 99.50% | Possible immunomodulatory rationale; unproven |
-| 3 | Focal stiff limb syndrome | 99.50% | Same score and rationale as rank 2; likely a shared graph-based prediction |
-| 4 | Thiamine-responsive dysfunction syndrome | 99.48% | Glycemic overlap only; standard care is thiamine and insulin |
-| 5 | Drug-induced localized lipodystrophy | 99.30% | Adipose biology is relevant, but stopping the offending drug is the usual management |
-| 6 | Centrifugal lipodystrophy | 99.26% | Theoretical rationale only |
-| 7 | Pressure-induced localized lipoatrophy | 99.24% | Mechanical cause; usually resolves when the cause is removed |
-| 8 | Idiopathic localized lipodystrophy | 99.19% | Disease-class similarity only |
-| 9 | Pancreatic agenesis | 99.18% | Unlikely to work alone because pioglitazone needs endogenous insulin; 7 papers retrieved, all about type 2 diabetes |
+| 2 | Classic stiff person syndrome | 0.9950 | Possible immunomodulatory rationale; unproven |
+| 3 | Focal stiff limb syndrome | 0.9950 | Same score and rationale as rank 2; likely a shared prediction from the TxGNN model (deep learning) that may reflect similarities the model learned between related diseases, not biological evidence |
+| 4 | Thiamine-responsive dysfunction syndrome | 0.9948 | Glycemic overlap only; standard care is thiamine and insulin |
+| 5 | Drug-induced localized lipodystrophy | 0.9930 | Adipose biology is relevant, but stopping the offending drug is the usual management |
+| 6 | Centrifugal lipodystrophy | 0.9926 | Theoretical rationale only |
+| 7 | Pressure-induced localized lipoatrophy | 0.9924 | Mechanical cause; usually resolves when the cause is removed |
+| 8 | Idiopathic localized lipodystrophy | 0.9919 | Disease-class similarity only |
+| 9 | Pancreatic agenesis | 0.9918 | Unlikely to work alone because pioglitazone needs endogenous insulin; 7 papers retrieved, all about type 2 diabetes |
 
 ## Clinical Trial Evidence
 

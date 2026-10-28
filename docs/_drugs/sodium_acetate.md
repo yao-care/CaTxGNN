@@ -46,9 +46,9 @@ Sodium acetate is an electrolyte and alkalinizing agent. It is marketed in Canad
 |------|------|
 | Original Indication | Not stated in the Canadian license records compiled for this report (the drug is used as a sodium source and alkalinizing agent) |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -56,7 +56,7 @@ Sodium acetate is an electrolyte and alkalinizing agent. It is marketed in Canad
 
 Currently, detailed mechanism of action data is not available. Based on known information, sodium acetate is an electrolyte, a sodium source and an alkalinizing agent (acetate is metabolized to bicarbonate). It is used in fluid and electrolyte replacement and as a component of dialysis and irrigation solutions.
 
-Congenital prothrombin deficiency is a rare inherited coagulation disorder caused by reduced or abnormal prothrombin (factor II). Sodium acetate has no known effect on prothrombin synthesis or on the coagulation cascade. The very high TxGNN score (0.9998) appears to be an artifact of the knowledge-graph structure rather than a drug-specific signal, because no trial or publication supports it.
+Congenital prothrombin deficiency is a rare inherited coagulation disorder caused by reduced or abnormal prothrombin (factor II). Sodium acetate has no known effect on prothrombin synthesis or on the coagulation cascade. The very high TxGNN score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; no trial or publication supports it.
 
 Other top-ranked predictions (epiglottitis, gonococcal urethritis, Ureaplasma urethritis, xanthogranulomatous pyelonephritis, uterine inflammatory disease) also lack a mechanistic rationale. The only speculative link is for urinary tract infection, where acetate-derived urinary alkalinization might change urine pH. Alkalinization may even favor growth of some uropathogens. Literature found for dyspepsia and gastroparesis most likely reflects the use of 13C-sodium acetate as a tracer in gastric emptying breath tests, not a therapeutic effect.
 
@@ -96,7 +96,7 @@ Label-based warnings and contraindications were not available. Please refer to t
 
 **Rationale:**
 - The prediction has no supporting clinical trials or literature (evidence level L5).
-- Sodium acetate has no known effect on the coagulation cascade, so the high score is likely a graph artifact.
+- Sodium acetate has no known effect on the coagulation cascade; the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - Health Canada label warnings and contraindications are missing, which blocks safety screening.
 
 **To proceed, the following is needed:**

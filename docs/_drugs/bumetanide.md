@@ -48,10 +48,10 @@ but the evidence is thin: **0 clinical trials** and **5 publications**, none of 
 |------|------|
 | Original Indication | Congestive heart failure |
 | Predicted New Indication | Acute pulmonary heart disease |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Bumetanide is a loop diuretic. It blocks the Na-K-2Cl cotransporter (NKCC2) in t
 
 Acute pulmonary heart disease (acute cor pulmonale, for example after a massive pulmonary embolism) involves pressure overload and dilation of the right ventricle, with systemic venous congestion. Decongestive diuresis is therefore plausible as supportive care for right-sided volume overload. This is an extension of the existing heart failure use, not a new mechanism.
 
-There are important limits. Bumetanide does not treat the underlying cause, such as a blocked pulmonary vessel or high pulmonary vascular resistance. In a right ventricle that depends on preload, aggressive diuresis may lower cardiac output and cause harm. The very high TxGNN score most likely reflects the drug's established heart failure indication and its closeness to related cardiac conditions in the knowledge graph, not evidence specific to this disease.
+There are important limits. Bumetanide does not treat the underlying cause, such as a blocked pulmonary vessel or high pulmonary vascular resistance. In a right ventricle that depends on preload, aggressive diuresis may lower cardiac output and cause harm. The very high score of 0.9958 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

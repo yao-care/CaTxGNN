@@ -4,17 +4,17 @@ title: Caspofungin
 parent: Model Prediction Only (L5)
 nav_order: 162
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Caspofungin: predicted new indication Gastrin secretion abnormality (evidence level L5). Approved use: Esophageal candidiasis, candidemia"
 monitor_inn: "Caspofungin"
-predicted_indications: ["gastrin secretion abnormality", "punctate epithelial keratoconjunctivitis", "abnormality of glucagon secretion", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "exposure keratitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata"]
+predicted_indications: ["gastrin secretion abnormality"]
 ---
 
 # Caspofungin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **gastrin secretion abnormality
 |------|------|
 | Original Indication | Esophageal candidiasis, candidemia |
 | Predicted New Indication | Gastrin secretion abnormality |
-| TxGNN Prediction Score | 99.44% |
+| TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The relationship between the original and new indications is weak. Gastrin is a hormone regulating gastric acid secretion, and humans have no beta-(1,3)-D-glucan synthase pathway. The review of the data found no known mechanism linking caspofungin to gastrin regulation.
 
-The high TxGNN score (99.44%) therefore reflects network-based pattern matching in the knowledge graph rather than biological or clinical support. It should be treated as a hypothesis only.
+The high TxGNN score (0.9944) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 

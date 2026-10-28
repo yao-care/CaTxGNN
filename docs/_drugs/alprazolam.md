@@ -50,10 +50,10 @@ The strongest evidence in the data is for a different prediction, **agoraphobia*
 |------|------|
 | Original Indication | Anxiety disorder (anxiety, mixed anxiety and depressive disorder) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 13 |
+| Canada Market Status | Marketed (valid licenses: 13 of 13) |
+| Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -130,8 +130,8 @@ Please also refer to the package insert for label warnings and contraindications
 The TxGNN score for insomnia is very high, but the evidence is model prediction plus indirect literature, with no registered trials and no controlled study of alprazolam for insomnia. Dependence, tolerance, cognitive and fall risks weigh against repurposing for this use.
 
 Two other predictions:
-- **Agoraphobia** (score 99.56%, evidence level L2) has the strongest support. The data include several placebo-controlled studies of alprazolam in panic disorder with agoraphobia and a 2023 Cochrane network meta-analysis. This is better framed as a research question than a repurposing candidate: the controlled studies are older, discontinuation difficulties and dependence risk limit the benefit-risk balance, SSRIs/SNRIs and CBT are generally preferred first, and the indication overlaps with the existing anxiety label.
-- **Benign paroxysmal torticollis of infancy** (score 99.61%, evidence level L5) has no trials or literature and no plausible mechanistic rationale. Benzodiazepine use in infants raises serious safety concerns, so no further action is recommended.
+- **Agoraphobia** (score 0.9956, evidence level L2) has the strongest support. The data include several placebo-controlled studies of alprazolam in panic disorder with agoraphobia and a 2023 Cochrane network meta-analysis. This is better framed as a research question than a repurposing candidate: the controlled studies are older, discontinuation difficulties and dependence risk limit the benefit-risk balance, SSRIs/SNRIs and CBT are generally preferred first, and the indication overlaps with the existing anxiety label.
+- **Benign paroxysmal torticollis of infancy** (score 0.9961, evidence level L5) has no trials or literature and no plausible mechanistic rationale. Benzodiazepine use in infants raises serious safety concerns, so no further action is recommended.
 
 **To proceed, the following is needed:**
 - Randomised controlled trial evidence of alprazolam versus placebo or standard hypnotics in insomnia

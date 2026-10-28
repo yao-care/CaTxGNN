@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mupirocin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 634
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Mupirocin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L3). Approved use: Impetigo, bullous impetigo"
 monitor_inn: "Mupirocin"
-predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "cutaneous candidiasis", "vaginal discharge", "exposure keratitis", "leukoplakia of vagina", "non-human animal disease", "staphylococcal scalded skin syndrome", "bacterial vaginosis"]
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mupirocin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Mupirocin: From Impetigo to Staphylococcal Scalded Skin Syndrome
+## Mupirocin: Pleural empyema (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mupirocin is a topical antibacterial originally used to treat impetigo and bullous impetigo.
-Among the ten predicted new indications, the one with the most supporting evidence is **Staphylococcal Scalded Skin Syndrome (SSSS)**, backed by **12 publications** (mostly case series, cohort studies and epidemiology) and **no registered clinical trials**.
 The top-ranked TxGNN prediction, pleural empyema, has no supporting evidence at all, so this report focuses on SSSS as the most credible candidate.
 
 ---
@@ -48,12 +47,12 @@ The top-ranked TxGNN prediction, pleural empyema, has no supporting evidence at 
 
 | Item | Content |
 |------|------|
-| Original Indication | Impetigo, bullous impetigo (the Canadian licence records contain no approved indication text) |
-| Predicted New Indication | Staphylococcal scalded skin syndrome (selected as the best-supported of 10 predictions; the top-ranked prediction by score is pleural empyema) |
-| TxGNN Prediction Score | 95.57% (SSSS); pleural empyema, ranked first, scores 99.49% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural empyema (disease) |
+| TxGNN Prediction Score | 0.9949 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -121,7 +120,7 @@ Please refer to the Health Canada package insert for full warnings and contraind
 
 **Rationale:**
 - For SSSS, mupirocin has a plausible mechanism, shares the pathophysiology of its approved bullous impetigo indication, and has supporting retrospective and observational literature, including a study of mupirocin combined with intravenous antibiotics. There are no RCTs or registered trials, so it should be used only as a topical adjunct to systemic antibiotics.
-- The other nine predictions are not recommended for advancement. Pleural empyema, punctate epithelial keratoconjunctivitis, neurotrophic keratopathy, vaginal discharge, leukoplakia of vagina and non-human animal disease have only model predictions and no supporting studies (Hold). Cutaneous candidiasis and bacterial vaginosis have weak indirect evidence and are research questions only. Exposure keratitis has only in vitro data, with a corneal toxicity signal (Hold).
+- The other nine predictions are not recommended for advancement. Pleural empyema, punctate epithelial keratoconjunctivitis, neurotrophic keratopathy, vaginal discharge, leukoplakia of vagina and non-human animal disease have only model predictions and no supporting studies (Hold).
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, which are currently missing and block formal safety screening

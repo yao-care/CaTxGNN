@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but **no
 |------|------|
 | Original Indication | Not available in the compiled license data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

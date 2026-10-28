@@ -48,17 +48,17 @@ This is a computational prediction only.
 |------|------|
 | Original Indication | Not specified in the available data |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.21% |
+| TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Esculin is a coumarin glucoside (a derivative of esculetin) with reported antioxidant and anti-inflammatory properties. No original indication is listed in the data compiled for this report.
 
-Nothing in the available data connects these properties to the hormonal or hypothalamic-pituitary-ovarian pathways involved in amenorrhea. The only support for this prediction is the high TxGNN score (99.21%), which comes from a network-based computation. Any mechanistic link would be speculation and would need independent validation.
+Nothing in the available data connects these properties to the hormonal or hypothalamic-pituitary-ovarian pathways involved in amenorrhea. The only support for this prediction is the high TxGNN score (0.9921), which comes from a network-based computation. Any mechanistic link would be speculation and would need independent validation.
 
 ## Clinical Trial Evidence
 

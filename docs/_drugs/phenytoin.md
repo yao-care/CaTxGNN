@@ -4,17 +4,17 @@ title: Phenytoin
 parent: Model Prediction Only (L5)
 nav_order: 733
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "PHENYTOIN"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenytoin: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenytoin: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The more clinically credible direction among the predictions is **trigeminal neu
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (the product-level approved indication text was not available in the data compiled for this report; the original indication comes from knowledge-graph indication edges) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,11 @@ The more clinically credible direction among the predictions is **trigeminal neu
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, phenytoin is a voltage-gated sodium channel blocker that stabilizes hyperexcitable neuronal membranes and limits seizure spread. Its efficacy in epilepsy is well established.
 
-For the top-ranked prediction, **trigeminal nerve neoplasm**, there is no plausible mechanistic link between sodium channel blockade and tumour control. The two retrieved publications concern trigeminal neuralgia treatment and Sturge-Weber syndrome, not neoplasm. The high score most likely reflects graph proximity to trigeminal nerve disorders and neuralgia rather than an antineoplastic effect. This prediction should be treated as a probable model artifact.
+For the top-ranked prediction, **trigeminal nerve neoplasm**, there is no plausible mechanistic link between sodium channel blockade and tumor control. The two retrieved publications concern trigeminal neuralgia treatment and Sturge-Weber syndrome, not neoplasm. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a probable model artifact.
 
 Other high-scoring predictions fall into three groups:
-- **Reflex or special seizure types** (startle epilepsy, micturition-induced, audiogenic, thinking, orgasm-induced, eating and reading seizures): sodium channel blockade is plausible, but these overlap with existing epilepsy indications, so they are not true repurposing candidates. Direct evidence is sparse (a single case report for micturition/defecation seizures; animal studies for audiogenic seizures).
-- **Trigeminal neuralgia** (score 99.97%): this is the most credible new direction. Phenytoin shares the sodium-channel mechanism underlying carbamazepine's efficacy, and it appears as a second-line or acute option in the literature. Carbamazepine and oxcarbazepine remain first-line.
-- **Beta-ketothiolase deficiency**: no mechanistic link, no trials, no literature; likely a graph artifact.
+- **Trigeminal neuralgia** (score 0.9997): this is the most credible new direction. Phenytoin shares the sodium-channel mechanism underlying carbamazepine's efficacy, and it appears as a second-line or acute option in the literature. Carbamazepine and oxcarbazepine remain first-line.
+- **Beta-ketothiolase deficiency**: no mechanistic link, no trials, no literature; likely a model artifact. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -116,7 +115,7 @@ Eight valid single-ingredient authorizations are listed in total; only the first
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, trigeminal nerve neoplasm, rests on a very high model score but has no trials, no tumour-specific literature, and no plausible mechanistic link, so it appears to be a graph artifact. The seizure-type predictions overlap with existing epilepsy indications, and trigeminal neuralgia (L3) is the only direction with meaningful literature, though it remains a second-line option behind carbamazepine and oxcarbazepine.
+The top-ranked prediction, trigeminal nerve neoplasm, rests on a very high model score but has no trials, no tumor-specific literature, and no plausible mechanistic link, so it appears to be a model artifact. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Trigeminal neuralgia (L3) is the only direction with meaningful literature, though it remains a second-line option behind carbamazepine and oxcarbazepine.
 
 **To proceed, the following is needed:**
 - Re-focus the evaluation on trigeminal neuralgia as a research question, with a structured review of the evidence for phenytoin versus first-line agents

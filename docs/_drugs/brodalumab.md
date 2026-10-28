@@ -47,17 +47,17 @@ The TxGNN model's top-ranked prediction is **strongyloidiasis**, with **0 clinic
 |------|------|
 | Original Indication | Not available in the compiled data (the license record has no indication text) |
 | Predicted New Indication | Strongyloidiasis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, brodalumab is an IL-17 receptor A (IL-17RA) antagonist. It blocks signaling by IL-17 family cytokines.
 
-There is no clear mechanistic link to strongyloidiasis. IL-17 signaling contributes to antiparasitic and mucosal host defense, so blocking it could plausibly **increase** infection risk rather than reduce it. The high TxGNN score appears to be a graph-based artifact with no supporting biology, and it should not be treated as a therapeutic signal.
+There is no clear mechanistic link to strongyloidiasis. IL-17 signaling contributes to antiparasitic and mucosal host defense, so blocking it could plausibly **increase** infection risk rather than reduce it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should not be treated as a therapeutic signal.
 
 The other top-ranked predictions are weak too. Several are ocular or optic inflammatory conditions (eye disease, optic neuritis, neuroretinitis, episcleritis). Their rationale is only speculative Th17 involvement, and none has clinical trials. The one with some literature, "eye disease", is too broad to support a specific indication.
 
@@ -99,7 +99,7 @@ For warnings and contraindications from the label, please refer to the package i
 **Decision: Hold**
 
 **Rationale:**
-The strongyloidiasis prediction rests only on a graph-based score. It has no clinical trials or literature, and no plausible mechanism. The biology suggests blocking IL-17 could worsen infection risk. None of the other top-10 predictions has supportive therapeutic evidence either.
+The strongyloidiasis prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. It has no clinical trials or literature, and no plausible mechanism. The biology suggests blocking IL-17 could worsen infection risk. None of the other top-10 predictions has supportive therapeutic evidence either.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, which are required before any safety screening

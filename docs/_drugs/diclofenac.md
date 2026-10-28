@@ -48,9 +48,9 @@ Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) used for actinic ker
 |------|------|
 | Original Indication | Actinic keratosis; rheumatoid arthritis; osteoarthritis; ankylosing spondylitis (Health Canada indication text was not available) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.69% |
+| TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -60,7 +60,7 @@ Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) used for actinic ker
 
 Currently, detailed mechanism of action data is not available. Based on known information, diclofenac is an NSAID that reduces prostaglandin-driven inflammation and pain. Its efficacy in inflammatory joint disease and actinic keratosis is established, but it is not mechanistically expected to apply to hypotrichosis simplex of the scalp.
 
-Hypotrichosis simplex of the scalp is a rare inherited disorder of the hair follicle. A structural or genetic defect of this kind is not expected to respond to an anti-inflammatory drug, and no plausible link to diclofenac's mechanism has been identified. The very high score (99.69%) most likely reflects closeness between terms in the model's network rather than a biological rationale. Treat this prediction as a computational signal only, not as evidence of efficacy.
+Hypotrichosis simplex of the scalp is a rare inherited disorder of the hair follicle. A structural or genetic defect of this kind is not expected to respond to an anti-inflammatory drug, and no plausible link to diclofenac's mechanism has been identified. The very high score (0.9969) most likely reflects closeness between terms in the model's network rather than a biological rationale. Treat this prediction as a computational signal only, not as evidence of efficacy.
 
 A better-supported candidate appears further down the prediction list: **juvenile idiopathic arthritis** (see the Conclusion).
 
@@ -115,7 +115,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for hypotrichosis simplex of the scalp has no trial or literature support, no plausible mechanistic link, and an L5 evidence level. The drug's safety profile also includes cardiovascular, gastrointestinal, hepatic and renal cautions that would need strong evidence of benefit to justify. Among the other predictions, juvenile idiopathic arthritis (L3, score 99.25%) has small, dated studies of diclofenac, but these only suggest symptomatic benefit. NSAIDs are already a standard adjunct in that condition, so it is an established use rather than new repurposing.
+The prediction for hypotrichosis simplex of the scalp has no trial or literature support, no plausible mechanistic link, and an L5 evidence level. The drug's safety profile also includes cardiovascular, gastrointestinal, hepatic and renal cautions that would need strong evidence of benefit to justify. Among the other predictions, juvenile idiopathic arthritis (L3, score 0.9925) has small, dated studies of diclofenac, but these only suggest symptomatic benefit. NSAIDs are already a standard adjunct in that condition, so it is an established use rather than new repurposing.
 
 **To proceed, the following is needed:**
 - Mechanistic or preclinical data showing a plausible role for COX inhibition in the hair follicle disorder, if this indication is to be pursued

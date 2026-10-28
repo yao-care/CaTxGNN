@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Vancomycin is a glycopeptide antibiotic originally used for Gram-positive infections such as *Clostridium difficile* colitis, staphylococcal infections and endocarditis.
-The TxGNN model predicts it may be effective for **diffuse scleroderma**, but there are **0 clinical trials** and only **1 unrelated case report** behind this prediction, so it is best read as a graph-based artifact rather than a real lead.
+The TxGNN model (deep learning) predicts it may be effective for **diffuse scleroderma**, but there are **0 clinical trials** and only **1 unrelated case report** behind this prediction. The score may reflect similarities the model learned between related diseases, not biological evidence, so it is best not read as a real lead.
 
 ## Quick Overview
 
@@ -47,9 +47,9 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but th
 |------|------|
 | Original Indication | *Clostridium difficile* colitis, staphylococcal infections, endocarditis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but th
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, vancomycin is a glycopeptide antibiotic that inhibits bacterial cell wall synthesis. Its efficacy in Gram-positive infections is well established.
 
-That mechanism does not connect to diffuse scleroderma, which is an autoimmune fibrotic disease. The high TxGNN score appears to be an artifact of the knowledge graph. The only paper retrieved is a case report on erythroderma with sepsis and eosinophilia, which is not evidence for scleroderma.
+That mechanism does not connect to diffuse scleroderma, which is an autoimmune fibrotic disease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only paper retrieved is a case report on erythroderma with sepsis and eosinophilia, which is not evidence for scleroderma.
 
 ### Other Top-Ranked Predictions
 
@@ -109,7 +109,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The diffuse scleroderma prediction has no trials, no relevant literature and no plausible mechanism. It is a model-only (L5) signal that is likely a graph artifact. The only item with a credible mechanism is streptococcal pneumonia, which mostly extends existing use.
+The diffuse scleroderma prediction has no trials, no relevant literature and no plausible mechanism. It is a model-only (L5) signal from the TxGNN model (deep learning) that may reflect similarities the model learned between related diseases, not biological evidence. The only item with a credible mechanism is streptococcal pneumonia, which mostly extends existing use.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and Health Canada package insert warnings and contraindications

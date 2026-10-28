@@ -50,10 +50,10 @@ The evidence is directionally supportive but indirect, and the trial concerns po
 |------|------|
 | Original Indication | Not specified in the licence records compiled for this report |
 | Predicted New Indication | Pharyngitis |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -137,9 +137,9 @@ A total of 14 single-ingredient licences are valid. The product names suggest ey
 - A review of the knowledge-graph contraindication signals against product labels.
 
 **Other predicted indications (for reference):**
-- **Nasal cavity disease** (score 99.81%): L4, Hold. The evidence is preclinical and suggests olfactory toxicity rather than benefit.
-- **Acute laryngopharyngitis** (score 99.81%): L4, Research Question. One 2020 publication (PMID 33623304) covers radiation-induced oropharyngeal mucositis, which is indirect evidence.
-- **Congenital prothrombin deficiency** (score 99.16%): L5, Hold. There is no clinical evidence or plausible mechanism, and this is likely a knowledge-graph artifact.
+- **Nasal cavity disease** (score 0.9981): L4, Hold. The evidence is preclinical and suggests olfactory toxicity rather than benefit.
+- **Acute laryngopharyngitis** (score 0.9981): L4, Research Question. One 2020 publication (PMID 33623304) covers radiation-induced oropharyngeal mucositis, which is indirect evidence.
+- **Congenital prothrombin deficiency** (score 0.9916): L5, Hold. There is no clinical evidence or plausible mechanism, and this is likely a TxGNN model (deep learning) artifact.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

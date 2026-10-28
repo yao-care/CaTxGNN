@@ -50,10 +50,10 @@ Among the other predictions, only diabetic retinopathy has any related literatur
 |------|------|
 | Original Indication | Dry eye syndrome (xerophthalmia) |
 | Predicted New Indication | Penile fibromatosis |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,9 +64,9 @@ Lifitegrast is an LFA-1 (integrin alpha-L, ITGAL) antagonist. In laboratory assa
 
 Dry eye disease is driven partly by T-cell-mediated inflammation on the ocular surface. Fibromatoses such as Peyronie's disease involve fibroblast proliferation and chronic inflammation. A link through inflammation is therefore conceivable, but it is speculative. No preclinical or clinical data were found to support it.
 
-The same caution applies to the other top predictions, including palmar fibromatosis (Dupuytren's contracture), Ledderhose disease and infantile digital fibromatosis. They likely reflect one shared fibromatosis cluster in the knowledge graph, so they are not independent evidence. A further concern is that lifitegrast is a topical eye drop with deliberately low systemic exposure, so reaching tissues such as the penis, palm or foot is doubtful.
+The same caution applies to the other top predictions, including palmar fibromatosis (Dupuytren's contracture), Ledderhose disease and infantile digital fibromatosis. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so they are not independent evidence. A further concern is that lifitegrast is a topical eye drop with deliberately low systemic exposure, so reaching tissues such as the penis, palm or foot is doubtful.
 
-The most biologically plausible alternative is **diabetic retinopathy** (score 99.03%). ICAM-1/LFA-1-mediated leukocyte adhesion contributes to retinal inflammation and capillary leukostasis. Delivery to the back of the eye from an eye drop remains a major uncertainty.
+The most biologically plausible alternative is **diabetic retinopathy** (score 0.9903). ICAM-1/LFA-1-mediated leukocyte adhesion contributes to retinal inflammation and capillary leukostasis. Delivery to the back of the eye from an eye drop remains a major uncertainty.
 
 ---
 
@@ -110,7 +110,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for penile fibromatosis has a very high model score (99.59%) but no trials, no literature and no confirmed mechanistic link. Evidence is at the lowest level (L5). The topical ocular formulation, with minimal systemic exposure, makes reaching the diseased tissue doubtful.
+The prediction for penile fibromatosis has a very high model score (0.9959) but no trials, no literature and no confirmed mechanistic link. Evidence is at the lowest level (L5). The topical ocular formulation, with minimal systemic exposure, makes reaching the diseased tissue doubtful.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, which are currently missing and block safety screening

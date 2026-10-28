@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **hemoglobinopathy**, but **no 
 |------|------|
 | Original Indication | Hypertriglyceridemia |
 | Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.09% |
+| TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

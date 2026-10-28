@@ -49,10 +49,10 @@ The TxGNN model predicts it may be useful for **HIV infectious disease**. The su
 |------|------|
 | Original Indication | Autoimmune thrombocytopenia |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The most plausible link is symptomatic. Eltrombopag raises platelet counts in HIV-associated immune thrombocytopenia, including thrombocytopenia after immune reconstitution. It may also support blood-cell production in HIV-associated marrow failure such as aplastic anaemia. This is supportive-care benefit for HIV-related cytopenias, **not** antiviral activity.
 
-The very high TxGNN score (0.99) probably reflects the shared thrombocytopenia biology, not an effect on HIV itself. One 2020 screen of FDA-approved compounds (PMID 32977702) reported modulation of HIV-1 proviral transcription. It is preclinical and only hypothesis-generating.
+The very high TxGNN score (0.9926) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of an effect on HIV itself. One 2020 screen of FDA-approved compounds (PMID 32977702) reported modulation of HIV-1 proviral transcription. It is preclinical and only hypothesis-generating.
 
 ---
 

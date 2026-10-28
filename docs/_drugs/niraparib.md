@@ -50,10 +50,10 @@ The most evidence-backed signal among the top 10 predictions is for **Cystic Neo
 |------|------|
 | Original Indication | Malignant epithelial tumour of the ovary; primary peritoneal carcinoma (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Epiglottis neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The most evidence-backed signal among the top 10 predictions is for **Cystic Neo
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, niraparib is a PARP1/2 inhibitor. It acts through synthetic lethality in tumours with homologous recombination deficiency (HRD), and its efficacy in ovarian and peritoneal cancers is established.
 
-For epiglottis neoplasm, nothing in the compiled data supports this mechanism. The score of 99.99% comes from the knowledge-graph model alone. No trials, publications or similarity analysis with the original indications back it up. The prediction should therefore be treated as a hypothesis, not as evidence of benefit.
+For epiglottis neoplasm, nothing in the compiled data supports this mechanism. The score of 0.9999 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials, publications or similarity analysis with the original indications back it up. The prediction should therefore be treated as a hypothesis, not as evidence of benefit.
 
 The second-ranked prediction, cystic neoplasm, is more informative. This label is generic, and the supporting studies concern serous gynaecological carcinomas (endometrial serous carcinoma and high-grade serous ovarian carcinoma). These tumours share molecular features with ovarian cancer, such as chromosomal instability and frequent HRD. The link is therefore indirect and works through serous histology. The ovarian and peritoneal indications are already original indications, so the genuinely new signal is mainly endometrial serous carcinoma.
 
@@ -140,7 +140,7 @@ Warnings and contraindications from the Canadian package insert were not availab
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, epiglottis neoplasm, rests on a graph-based score alone, with no trials or publications. For the ten predictions reviewed, only cystic neoplasm has supporting studies, and these are indirect (serous endometrial carcinoma). Most of that evidence is early or inconclusive: one Phase 2 trial is still recruiting, one was terminated early, and one was withdrawn. The remaining eight predictions, including the benign lesions, have no evidence, and the toxicity of a PARP inhibitor is hard to justify for them.
+The top-ranked prediction, epiglottis neoplasm, rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence, with no trials or publications. For the ten predictions reviewed, only cystic neoplasm has supporting studies, and these are indirect (serous endometrial carcinoma). Most of that evidence is early or inconclusive: one Phase 2 trial is still recruiting, one was terminated early, and one was withdrawn. The remaining eight predictions, including the benign lesions, have no evidence, and the toxicity of a PARP inhibitor is hard to justify for them.
 
 **To proceed, the following is needed:**
 - Canadian package insert warnings and contraindications (a blocking gap for safety screening)

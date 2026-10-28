@@ -4,17 +4,17 @@ title: Diazoxide
 parent: Model Prediction Only (L5)
 nav_order: 277
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Diazoxide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hyperinsulinemic hypoglycemia (including pancreatic insulinoma and co…"
 monitor_inn: "DIAZOXIDE"
-predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "autosomal dominant hyperinsulinism due to Kir6.2 deficiency"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 ---
 
 # Diazoxide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Diazoxide: From Hyperinsulinemic Hypoglycemia to Alopecia
+## Diazoxide: From Hyperinsulinemic Hypoglycemia to Hypotrichosis Simplex of the Scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Evidence is therefore limited to preclinical and mechanistic support.
 |------|------|
 | Original Indication | Hyperinsulinemic hypoglycemia (including pancreatic insulinoma and congenital hyperinsulinism) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp (rank 1); alopecia (rank 4) has the most relevant supporting literature |
-| TxGNN Prediction Score | 99.96% (hypotrichosis simplex of the scalp); 99.91% (alopecia) |
+| TxGNN Prediction Score | 0.9996 (hypotrichosis simplex of the scalp); 0.9991 (alopecia) |
 | Evidence Level | L5 (hypotrichosis simplex of the scalp); L4 (alopecia) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +63,7 @@ This is the basis for the hair-related predictions. Minoxidil, a related vasodil
 The link is much weaker for other predicted conditions:
 - **Hypotrichosis simplex and congenital hypotrichosis milia:** These are genetic conditions, so stimulating growth may not address the underlying defect, and no supporting data exist.
 - **Diffuse alopecia areata:** This is autoimmune, and KATP-driven growth does not address the immune cause.
-- **Hypertrichosis and Ambras type hypertrichosis:** These involve excess hair. Diazoxide causes hypertrichosis, so these predictions likely reflect a drug side-effect association in the knowledge graph rather than a therapeutic relationship. They should not be pursued.
+- **Hypertrichosis and Ambras type hypertrichosis:** These involve excess hair. Diazoxide causes hypertrichosis, so these scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a therapeutic relationship. They should not be pursued.
 - **Autosomal dominant hyperinsulinism due to Kir6.2 deficiency:** This is close to the existing approved use, so it is closer to an on-label use than true repurposing. Efficacy depends on the variant, since dominant KCNJ11 variants are often unresponsive to diazoxide.
 
 ## Clinical Trial Evidence

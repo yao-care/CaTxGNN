@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Dalteparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency (Autosomal Recessive)
+## Dalteparin: Thrombophilia due to Protein C Deficiency, Autosomal Recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans (the Canadian licence records contain no approved indication text) |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -99,7 +99,7 @@ Dalteparin is marketed in Canada as FRAGMIN under 10 valid single-ingredient lic
 ## Safety Considerations
 
 **Contraindication signals from the knowledge graph (not label text):**
-These come from drug-disease links in the TxGNN knowledge graph and should be verified against the product monograph. They include:
+These come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They should be verified against the product monograph. They include:
 - Bleeding and coagulation disorders: hemophilia, blood coagulation disease, thrombocytopenia (including heparin-induced), Glanzmann thrombasthenia, qualitative platelet defect, antithrombin III deficiency
 - Haemorrhage risk: intracranial and intracerebral haemorrhage, placental abruption, active peptic ulcer disease, ulcerative colitis and inflammatory bowel disease
 - Other: liver failure, biliary tract disease, obstructive jaundice, osteoporosis, infective endocarditis, and retinal diseases (diabetic and hypertensive retinopathy, retinitis)
@@ -122,7 +122,7 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score (99.88%) and a plausible mechanism, but there are no trials or publications for this indication (L5). Package insert safety data and the mechanism of action are missing, so the safety review cannot proceed. Treat this as a research question rather than an actionable candidate.
+The prediction has a high model score (0.9988) and a plausible mechanism, but there are no trials or publications for this indication (L5). Package insert safety data and the mechanism of action are missing, so the safety review cannot proceed. Treat this as a research question rather than an actionable candidate.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap)

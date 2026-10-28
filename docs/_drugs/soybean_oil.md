@@ -48,17 +48,17 @@ but there are currently **no clinical trials and no publications** supporting th
 |------|------|
 | Original Indication | Not specified in the Health Canada licence data (the products are used as parenteral lipid emulsions) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 13 |
+| Canada Market Status | Marketed (valid licenses: 13 of 13) |
+| Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, soybean oil is a marketed lipid source used in parenteral nutrition emulsions and as a dietary oil. No established mechanistic link to amenorrhea has been identified.
 
-The TxGNN score (99.61%) is a knowledge-graph computation only. It is not backed by any clinical or literature evidence in the data compiled for this report. Soybean oil is not a recognised treatment for amenorrhea.
+The TxGNN score (0.9961) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any clinical or literature evidence in the data compiled for this report. Soybean oil is not a recognised treatment for amenorrhea.
 
 Some speculative, indirect pathways can be imagined:
 - **Energy deficit or malnutrition:** Functional hypothalamic amenorrhea is linked to low energy availability, and long-term parenteral nutrition addresses malnutrition. Any benefit would come from correcting nutritional status, not from a direct effect on menstrual function.

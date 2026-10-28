@@ -4,17 +4,17 @@ title: Treosulfan
 parent: Model Prediction Only (L5)
 nav_order: 938
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not available in the Canadian license data (the approved indication t…"
 monitor_inn: "Treosulfan"
-predicted_indications: ["diabetic cataract", "nuclear senile cataract", "cortical cataract", "mature cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "diabetic retinopathy", "senile cataract"]
+predicted_indications: ["diabetic cataract"]
+description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Treosulfan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Treosulfan: From Conditioning Before Stem Cell Transplantation to Diabetic Cataract
+## Treosulfan: Diabetic cataract
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is model output only, and the available data do not support a pla
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the Canadian license data (the approved indication text is empty). Based on general knowledge, conditioning before hematopoietic stem cell transplantation |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 99.01% |
+| TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,8 @@ The prediction is model output only, and the available data do not support a pla
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Treosulfan is generally understood to be a bifunctional alkylating agent. It is a prodrug that converts into epoxide species, which damage DNA and cause cytotoxicity, and it is used for conditioning before stem cell transplantation.
 
-Based on the data provided, **no mechanistic link supports this prediction**. Diabetic cataract mainly involves polyol pathway activation and oxidative stress in the lens. DNA alkylation and cytotoxicity have no recognized benefit for lens opacity, and alkylating agents may themselves carry ocular toxicity or cataract risk. The high score (0.990) most likely reflects graph-level similarity across cataract subtypes rather than biology.
+Based on the data provided, **no mechanistic link supports this prediction**. Diabetic cataract mainly involves polyol pathway activation and oxidative stress in the lens. DNA alkylation and cytotoxicity have no recognized benefit for lens opacity, and alkylating agents may themselves carry ocular toxicity or cataract risk. The high score (0.9901) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The other predicted indications show the same pattern. These are nuclear senile cataract, cortical cataract, mature cataract, tetanic cataract, craniostenosis cataract, immature cataract, type 2 diabetes–associated cataract, senile cataract, and diabetic retinopathy. All have scores of about 0.989–0.990, all are L5 with no trials or publications, and none has a plausible mechanism. For example:
-- Tetanic cataract is driven by low calcium, which treosulfan does not address.
-- Diabetic retinopathy is treated through VEGF, inflammation, and glycemic control, and treosulfan's myelosuppression would be a major concern.
-- Craniostenosis cataract is a congenital or syndromic condition in which cytotoxic exposure would be especially worrying.
 
 ---
 

@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Idarucizumab
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 468
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Idarucizumab: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not listed in the Health Canada licence data compiled for this report…"
-monitor_inn: "Idarucizumab"
-predicted_indications: ["hemoglobinopathy", "rheumatoid arthritis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyruvate kinase deficiency of red cells", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "bronchitis", "gout", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Idarucizumab: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Idarucizumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,59 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Idarucizumab: From Dabigatran Reversal to Hemoglobinopathy
+<!-- known-uses-page -->
+<!-- description: Idarucizumab: known uses and market status in Canada; currently no new candidate indication -->
+## Idarucizumab: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Idarucizumab, so there is currently no new predicted indication. The drug's own recorded uses are listed below.
 
-Idarucizumab is a humanized antibody fragment (Fab) that binds dabigatran and neutralizes its anticoagulant effect.
-The TxGNN model predicts it may be effective for **hemoglobinopathy**, but **no clinical trials and no supporting publications** exist for this prediction. It is a model-only signal with no identified biological rationale.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Health Canada licence data compiled for this report (the drug is known as a dabigatran reversal agent) |
-| Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 95.66% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 2 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| hemorrhage | licence in another country |
+| in life-threatening or uncontrolled bleeding | licence in another country |
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, idarucizumab is a Fab fragment that binds dabigatran with high affinity and neutralizes its anticoagulant activity. It is specific to that single drug.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Idarucizumab has no known effect on hemoglobin structure, globin synthesis, or red blood cell biology, so no plausible mechanistic link to hemoglobinopathy was found. The high TxGNN score appears to be an artifact of the knowledge graph rather than a biologically grounded signal.
-
-Other top predictions show the same pattern. They include rheumatoid arthritis, beta-thalassemia, pyruvate kinase deficiency, bronchitis, and gout. None has a mechanistic link or clinical support. The only publication retrieved (PMID 31381100, linked to the gout prediction) is a case report of dabigatran reversal in a patient with acute kidney injury. It does not show that idarucizumab treats gout.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for hemoglobinopathy.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02454343 | PRAXBIND | Not specified | Not specified |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 02454343 | PRAXBIND |  | Valid |
 
 ## Safety Considerations
 
@@ -93,18 +79,6 @@ Please refer to the package insert for safety information. No drug interactions 
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature, and no plausible mechanism. Idarucizumab is a dabigatran-specific antibody fragment with no known action on red cell or globin biology. The evidence level is L5.
-
-**To proceed, the following is needed:**
-- A credible biological rationale linking dabigatran-specific binding to hemoglobinopathy pathophysiology
-- Mechanism of action data
-- Health Canada package insert warnings and contraindications, to allow safety screening
-- Preclinical or mechanistic studies before any clinical consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

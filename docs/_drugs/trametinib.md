@@ -4,17 +4,17 @@ title: Trametinib
 parent: Model Prediction Only (L5)
 nav_order: 928
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
+description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trametinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trametinib: From Metastatic Melanoma to Choroideremia
+## Trametinib: Choroideremia (rank 1); the highest-evidence alternative is non-cutaneous melanoma (choroideremia)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trametinib is a MEK inhibitor originally used to treat metastatic melanoma.
 The TxGNN model's top-ranked prediction is **Choroideremia**, but this rests on a computational score alone, with **0 clinical trials** and **0 publications** supporting it.
-The better-supported predictions are melanoma subtypes, particularly **non-cutaneous melanoma**, which has **10 related clinical trials** (mostly combination or tumour-agnostic studies).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic melanoma (the Canadian licence records carry no indication text, so this comes from the TxGNN knowledge graph) |
-| Predicted New Indication | Choroideremia (rank 1); the highest-evidence alternative is non-cutaneous melanoma (rank 2) |
-| TxGNN Prediction Score | 99.31% (choroideremia); 99.30% (non-cutaneous melanoma) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Choroideremia (rank 1); the highest-evidence alternative is non-cutaneous melanoma (choroideremia) |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 (choroideremia); L2 (non-cutaneous melanoma) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold (choroideremia); the melanoma-subtype predictions are better framed as research questions |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +83,7 @@ Choroideremia has no registered clinical trials. The table below covers the tria
 | [NCT07440290](https://clinicaltrials.gov/study/NCT07440290) | Phase 2/3 | Recruiting | 30 | DETERMINE platform trial: dabrafenib + trametinib in BRAF V600-mutant cancers |
 | [NCT05275374](https://clinicaltrials.gov/study/NCT05275374) | Phase 1/2 | Not yet recruiting | 221 | XP-102 with trametinib in BRAF V600-mutant solid tumours; no data yet |
 
-Most of these trials test trametinib in combination or across tumour types, so they do not isolate its effect in non-cutaneous melanoma. The expanded access study NCT02416232 is no longer available and provides no efficacy evidence.
+Most of these trials test trametinib in combination or across tumour types, so they do not isolate its effect in non-cutaneous melanoma.
 
 ## Literature Evidence
 
@@ -150,7 +149,6 @@ Package insert warnings and contraindications were not available, so please refe
 
 **Rationale:**
 - Choroideremia is supported only by a model score, with no trials, no literature, and no plausible mechanistic link between MEK inhibition and CHM-related Rab prenylation defects.
-- Non-cutaneous melanoma has the strongest evidence among the predictions (L2, with several Phase 1/2 trials). However, these trials are mostly combination or tumour-agnostic, and the indication is close to the already approved melanoma use. It is best treated as a research question rather than a Go.
 - The remaining melanoma subtypes are supported only by case reports or general reviews, and several are mostly covered by the existing indication.
 
 **To proceed, the following is needed:**

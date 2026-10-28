@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Camphor
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 149
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Camphor: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the available licence data"
 monitor_inn: "Camphor"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
 ---
 
 # Camphor
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ A newer preclinical animal study (2026) offers the strongest, though still early
 |------|------|
 | Original Indication | Not stated in the available licence data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the compiled dr
 
 The evidence connecting camphor to headache is thin and partly contradictory. The retrieved publications are case-level reports of cluster headache linked to toothpastes containing camphor and eucalyptus essential oils. They suggest a possible *trigger* for headache rather than a treatment. A historical review of paediatric neuropsychopharmacology is also not evidence of efficacy.
 
-The most relevant signal is a 2026 preclinical study. It reports that natural (+)-camphor alleviated reserpine-induced migraine with local cerebral vasospasm in an animal model, possibly through the p38β MAPK/ATF2 pathway. This came up under a related prediction, "migraine with or without aura, susceptibility to" (TxGNN score 99.73%). It has not been tested in humans, and the full text has not been reviewed.
+The most relevant signal is a 2026 preclinical study. It reports that natural (+)-camphor alleviated reserpine-induced migraine with local cerebral vasospasm in an animal model, possibly through the p38β MAPK/ATF2 pathway. It has not been tested in humans, and the full text has not been reviewed.
 
 Other predictions (for example migraine with brainstem aura, Tourette syndrome, Raynaud disease and rare skin conditions) have no supporting evidence. The pulmonary hypertension hits are a false positive: "CAMPHOR" is the name of a quality-of-life questionnaire and has nothing to do with the compound.
 

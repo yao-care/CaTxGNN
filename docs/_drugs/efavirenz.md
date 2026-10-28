@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Efavirenz
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 314
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Efavirenz
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This prediction mostly reflects an animal model of HIV-1 therapy rather than a t
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 (preclinical and animal studies only; no clinical trials) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---

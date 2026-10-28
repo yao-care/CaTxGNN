@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Osilodrostat
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 689
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Osilodrostat: predicted new indication Familial generalized lentiginosis (evidence level L5). Approved use: Cushing disease due to pituitary adenoma"
+description: "Osilodrostat: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Osilodrostat"
-predicted_indications: ["familial generalized lentiginosis", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "gastrocutaneous syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "Moynahan syndrome", "rhabdoid tumor", "X-linked lymphoproliferative disease due to SH2D1A deficiency", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Osilodrostat
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Osilodrostat: From Cushing Disease to Familial Generalized Lentiginosis
+## Osilodrostat
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Osilodrostat was originally developed to treat Cushing disease and other forms of Cushing syndrome (cortisol excess).
-The TxGNN model predicts it may be effective for **familial generalized lentiginosis**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Cushing disease due to pituitary adenoma; ACTH-dependent Cushing syndrome; Cushing syndrome |
-| Predicted New Indication | Familial generalized lentiginosis |
-| TxGNN Prediction Score | 98.19% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, osilodrostat inhibits 11-beta-hydroxylase (CYP11B1), the enzyme that performs the final step of cortisol synthesis. This lowers cortisol, which is why it is used in Cushing syndrome.
-
-A link between this mechanism and familial generalized lentiginosis (a pigmentation disorder) is doubtful. Blocking cortisol production removes the negative feedback on the pituitary, so ACTH rises. ACTH acts on the melanocortin-1 receptor (MC1R) pathway, which drives skin pigmentation. That would tend to worsen pigmentation rather than improve it.
-
-The high TxGNN score most likely reflects proximity in the knowledge graph rather than a pharmacological rationale. The other top-ranked predictions (acromelanosis, café-au-lait syndrome, Moynahan syndrome, rhabdoid tumor, peripheral nerve schwannoma and others) also have no supporting evidence and no plausible mechanistic link.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 
 ## Canada Market Information
 
@@ -86,19 +62,6 @@ Currently no related literature available.
 
 Package insert warnings and contraindications were not available. Please refer to the package insert for these.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on a model score alone, with no clinical trials or literature. The known mechanism (cortisol lowering with a compensatory ACTH rise) runs counter to a benefit in pigmentation disorders. The remaining top-ranked predictions are similarly unsupported.
-
-**To proceed, the following is needed:**
-- Mechanism of action data from DrugBank to allow a proper mechanistic analysis
-- Health Canada package insert warnings and contraindications for safety screening
-- Preclinical or mechanistic evidence that cortisol synthesis inhibition affects melanocyte biology in this condition
-- Approved indication text and dosage forms for the two DINs
-- A review of whether the ACTH rise could aggravate pigmentation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

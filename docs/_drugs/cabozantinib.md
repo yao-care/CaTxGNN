@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Cabozantinib
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 144
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Cabozantinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Renal cell carcinoma (nonpapillary, clear cell)"
 monitor_inn: "Cabozantinib"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 # Cabozantinib
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,13 +47,13 @@ The TxGNN model predicts it may be effective for **liposarcoma**, but the suppor
 |------|------|
 | Original Indication | Renal cell carcinoma (nonpapillary, clear cell); medullary thyroid carcinoma |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold (treat as a research question) |
 
-The original indications come from the TxGNN knowledge graph, because the Canadian licence records compiled for this report contain no indication text.
+The original indications are not listed in the Canadian license records compiled for this report, because those records contain no indication text.
 
 ## Why is This Prediction Reasonable?
 
@@ -107,7 +107,7 @@ Warnings and contraindications from the Canadian package insert were not availab
 **Decision: Hold**
 
 **Rationale:**
-The only evidence for liposarcoma is a Phase 2 trial in soft tissue sarcoma overall (no results posted) and a Phase 1 safety study. Neither shows efficacy specific to liposarcoma. The package insert safety data are also missing, which blocks the safety screening step. The TxGNN score is high (99.83%), but the evidence supports further investigation rather than clinical adoption.
+The only evidence for liposarcoma is a Phase 2 trial in soft tissue sarcoma overall (no results posted) and a Phase 1 safety study. Neither shows efficacy specific to liposarcoma. The package insert safety data are also missing, which blocks the safety screening step. The TxGNN score is high (0.9983), but the evidence supports further investigation rather than clinical adoption.
 
 **To proceed, the following is needed:**
 - Results from NCT05836571, especially the liposarcoma subgroup
@@ -120,8 +120,8 @@ The only evidence for liposarcoma is a Phase 2 trial in soft tissue sarcoma over
 
 The same prediction list contains candidates with stronger evidence than liposarcoma:
 
-- **Unclassified renal cell carcinoma** (score 99.75%, L2, Proceed with Guardrails): Several Phase 2 trials (e.g., NCT04413123, NCT03635892, NCT03541902) and published Phase 2 results (PMID 35298296, 38782695) in non-clear cell RCC support activity. Unclassified RCC is a heterogeneous subgroup and no Phase 3 evidence exists.
-- **Renal carcinoma** (score 99.66%, L1, Proceed with Guardrails): This is the approved indication family. Phase 3 trials (METEOR, CheckMate 9ER, CONTACT-03, COSMIC-313) support benefit, so it is on-label use rather than true repurposing.
+- **Unclassified renal cell carcinoma** (L2, Proceed with Guardrails): Several Phase 2 trials (e.g., NCT04413123, NCT03635892, NCT03541902) and published Phase 2 results (PMID 35298296, 38782695) in non-clear cell RCC support activity. Unclassified RCC is a heterogeneous subgroup and no Phase 3 evidence exists.
+- **Renal carcinoma** (L1, Proceed with Guardrails): This is the approved indication family. Phase 3 trials (METEOR, CheckMate 9ER, CONTACT-03, COSMIC-313) support benefit, so it is on-label use rather than true repurposing.
 - **Low-evidence predictions** (ovarian myxoid liposarcoma, RCC associated with neuroblastoma, amyotrophic lateral sclerosis, polymicrogyria, angiolipoma): No trials or literature were found, and the recommendation is Hold.
 ## Disclaimer
 

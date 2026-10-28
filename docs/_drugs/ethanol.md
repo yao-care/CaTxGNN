@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ethanol
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 363
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Ethanol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
@@ -14,7 +14,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 # Ethanol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 |------|------|
 | Original Indication | Not available (no approved indication text in the Canadian license records) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L4 (preclinical and mechanistic studies only; they suggest a trigger role, not a therapeutic one) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,11 +61,11 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 Currently, detailed mechanism of action data is not available for ethanol, and no original indication could be extracted from the license records. The reasoning below relies only on the literature retrieved for the predicted indication.
 
-The very high model score (99.29%) appears to reflect network proximity to migraine biology (CGRP, TRPA1, GABA signalling) rather than a therapeutic effect. A preclinical mouse study (PMID 37101198) found that ethanol is metabolised to acetaldehyde, which acts through the CGRP receptor and TRPA1 in Schwann cells to cause periorbital mechanical allodynia. This is a pro-pain pathway relevant to migraine, but it suggests ethanol would **worsen** migraine rather than relieve it. A review of alcohol and migraine (PMID 36373782) and work on ATP-sensitive potassium channels in meningeal nociceptors (PMID 40785517) are consistent with this trigger role.
+The very high model score (0.9929) appears to reflect network proximity to migraine biology (CGRP, TRPA1, GABA signalling) rather than a therapeutic effect. A preclinical mouse study (PMID 37101198) found that ethanol is metabolised to acetaldehyde, which acts through the CGRP receptor and TRPA1 in Schwann cells to cause periorbital mechanical allodynia. This is a pro-pain pathway relevant to migraine, but it suggests ethanol would **worsen** migraine rather than relieve it. A review of alcohol and migraine (PMID 36373782) and work on ATP-sensitive potassium channels in meningeal nociceptors (PMID 40785517) are consistent with this trigger role.
 
 Genetic association studies (ADH2 genotype, GABA receptor and NOS3 polymorphisms) link alcohol metabolism and GABA/nitric oxide signalling to migraine risk. They are associational and do not support therapeutic use.
 
-The second-ranked prediction, **migraine with brainstem aura** (score 99.14%), appears to be inherited from the general migraine node. No retrieved paper addresses ethanol as a treatment for it, and several hits are false matches (palmitoylethanolamide, menthol and carisbamate are different compounds).
+The second-ranked prediction, **migraine with brainstem aura** (score 0.9914), appears to be inherited from the general migraine node. No retrieved paper addresses ethanol as a treatment for it, and several hits are false matches (palmitoylethanolamide, menthol and carisbamate are different compounds).
 
 ---
 

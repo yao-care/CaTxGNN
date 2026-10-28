@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Levocarnitine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 542
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Levocarnitine: predicted new indication Congestive heart failure (evidence level L2). Approved use: Not available"
+description: "Levocarnitine: predicted new indication autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L2). Approved use: Not available"
 monitor_inn: "LEVOCARNITINE"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["autosomal dominant familial hematuria-retinal arteriola
 # Levocarnitine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Levocarnitine: From Carnitine Deficiency Support to Congestive Heart Failure
+## Levocarnitine: From Carnitine Deficiency Support to autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ This report therefore focuses on heart failure, the new indication with the stro
 |------|------|
 | Original Indication | Not available (no approved indication text in the Canadian licence data) |
 | Predicted New Indication | Congestive heart failure (the rank 1 prediction, autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome, has no evidence and is not the focus of this report) |
-| TxGNN Prediction Score | 99.47% (heart failure); 99.94% for the rank 1 prediction |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| TxGNN Prediction Score | 0.9947 (heart failure); 0.9994 for the rank 1 prediction |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

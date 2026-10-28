@@ -6,9 +6,9 @@ nav_order: 959
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
+description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ursodeoxycholic Acid
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Ursodeoxycholic Acid: From Gallstone and Bile Duct Disorders to Homozygous Familial Hypercholesterolemia
+## Ursodeoxycholic Acid: Homozygous familial hypercholesterolemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 However, this link is plausible but unverified. Homozygous familial hypercholesterolemia is caused by defects in the LDL receptor pathway (LDLR, APOB, PCSK9 or LDLRAP1 variants). Bile acid modulation is unlikely to compensate for absent LDL receptor function, so any effect would probably be minor compared with established therapies such as statins, ezetimibe, PCSK9 inhibitors, lomitapide, evinacumab and LDL apheresis.
 
-The high graph score should be treated as a hypothesis-generating signal, not as support for clinical use.
+The high TxGNN model (deep learning) score may reflect similarities the model learned between related diseases, not biological evidence, and should be treated as a hypothesis-generating signal, not as support for clinical use.
 
 ## Clinical Trial Evidence
 

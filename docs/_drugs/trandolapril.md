@@ -4,17 +4,17 @@ title: Trandolapril
 parent: Model Prediction Only (L5)
 nav_order: 929
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-13
-description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 5
+last_modified_at: 2026-10-28
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trandolapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Trandolapril: From Hypertension to Malignant Hypertensive Renal Disease
+## Trandolapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -61,11 +61,10 @@ Currently, detailed mechanism of action data is not available in the data compil
 Malignant hypertensive renal disease is a severe form of hypertension with kidney involvement. Because it is closely related to the original indication, the prediction is biologically plausible. It is better understood as an extension of the existing hypertension use than as true repurposing into a new disease area.
 
 The other top-ranked predictions follow a similar pattern:
-- **Malignant renovascular hypertension** (score 99.92%): driven by renin-angiotensin activation, so ACE inhibition is plausible. Caution is needed in bilateral renal artery stenosis, where ACE inhibitors can precipitate acute kidney injury.
-- **Pulmonary hypertension (unclear multifactorial mechanism)** (99.92%): RAAS involvement in pulmonary vascular remodeling is only a theoretical rationale, and ACE inhibitors are not an established therapy for it.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.92%): only indirect preclinical support (see below).
-- **Braddock syndrome** (99.88%): no mechanistic rationale can be established from the available data.
-- **Chronic pulmonary heart disease** (99.19%): a single indirect rat study.
+- **Pulmonary hypertension (unclear multifactorial mechanism)** (0.9992): RAAS involvement in pulmonary vascular remodeling is only a theoretical rationale, and ACE inhibitors are not an established therapy for it.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (0.9992): only indirect preclinical support (see below).
+- **Braddock syndrome** (0.9988): no mechanistic rationale can be established from the available data.
+- **Chronic pulmonary heart disease** (0.9919): a single indirect rat study.
 
 ## Clinical Trial Evidence
 
@@ -99,7 +98,7 @@ Twenty single-ingredient licences are valid in Canada. Dosage form and approved 
 ## Safety Considerations
 
 **Contraindication-related diseases (from the knowledge graph, not label text):**
-Note that these are graph-derived associations and should be verified against the package insert. They include:
+Note that these are TxGNN model (deep learning) predictions; the scores may reflect similarities the model learned between related diseases, not biological evidence, and should be verified against the package insert. They include:
 - Angioedema (including hereditary, acquired, and RAAS-blocker-induced forms)
 - Kidney disease, renal artery obstruction, and liver disease
 - Neutropenia and agranulocytosis
@@ -123,7 +122,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (99.92%), but evidence is at L5, with no clinical trials or literature for malignant hypertensive renal disease. The indication is also close to the existing hypertension use, so the prediction adds little new. Official label warnings and contraindications are not yet available, so safety screening cannot proceed.
+The prediction score is high (0.9992), but evidence is at L5, with no clinical trials or literature for malignant hypertensive renal disease. The indication is also close to the existing hypertension use, so the prediction adds little new. Official label warnings and contraindications are not yet available, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (blocking gap)

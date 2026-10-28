@@ -4,17 +4,17 @@ title: Triamcinolone
 parent: Moderate Evidence (L3-L4)
 nav_order: 941
 evidence_level: L4
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Autoimmune disease"
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Triamcinolone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Triamcinolone: From Autoimmune and Inflammatory Conditions to Alopecia Mucinosa
+## Triamcinolone: Alopecia mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa** (follicul
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease; Crohn disease and inflammatory bowel disease; adrenocortical insufficiency (Addison disease); acute lymphoblastic leukaemia (the Canadian licence records contain no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia mucinosa |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 16 |
+| Canada Market Status | Marketed (valid licenses: 16 of 16) |
+| Number of DINs | 16 (valid: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -122,7 +122,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.99%), but there are no clinical trials, and the only literature is two case reports that do not test triamcinolone. The mechanistic link is plausible but unproven, and it rests on general corticosteroid use rather than disease-specific evidence.
+The prediction score is very high (0.9999), but there are no clinical trials, and the only literature is two case reports that do not test triamcinolone. The mechanistic link is plausible but unproven, and it rests on general corticosteroid use rather than disease-specific evidence.
 
 **To proceed, the following is needed:**
 - Case series or trials of intralesional or topical triamcinolone in follicular mucinosis

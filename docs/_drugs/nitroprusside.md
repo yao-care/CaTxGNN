@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitroprusside
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 661
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Nitroprusside: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the licence data compiled for this report"
 monitor_inn: "nitroprusside"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "hypotrichosis simplex of the scalp", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease"]
 ---
 
 # Nitroprusside
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The literature suggests nitroprusside and other NO donors **provoke** migraine-l
 |------|------|
 | Original Indication | Not available in the licence data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -118,7 +118,7 @@ Please refer to the package insert for warnings and contraindications.
 
 | Rank | Predicted Indication | Evidence Level | Note |
 |------|------|------|------|
-| 2 | Migraine with brainstem aura | L4 | Only indirect migraine physiology studies; no therapeutic rationale |
+| 2 | Migraine with brainstem aura | L5 | Only indirect migraine physiology studies; no therapeutic rationale |
 | 3–6 | Alopecia, congenital hypotrichosis milia, diffuse alopecia areata, hypotrichosis simplex of the scalp | L5 | No trials or literature; computational prediction only |
 | 7 | Migraine with or without aura, susceptibility to | L4 | Preclinical and mechanistic literature; supports NO-cGMP biology, not benefit |
 | 8 | Pulmonary hypertension | L3 | Most plausible mechanistically (pulmonary vasodilation); a small perioperative study compared inhaled nitroprusside with inhaled prostacyclin and NO; the single listed trial is not about pulmonary hypertension |

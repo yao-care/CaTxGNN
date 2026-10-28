@@ -3,8 +3,8 @@ layout: default
 title: Dasatinib
 parent: High Evidence (L1-L2)
 nav_order: 252
-evidence_level: L1
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Chronic myelogenous leukemia…"
 monitor_inn: "DASATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 # Dasatinib
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ The evidence is mostly preclinical or early-phase, and the clinical signal is no
 |------|------|
 | Original Indication | Chronic myelogenous leukemia, BCR-ABL1 positive (including blast phase) |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note below) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold (research question) |
 
@@ -138,7 +138,7 @@ The mechanism is plausible, since SRC/FAK signaling is relevant to Ewing sarcoma
 |------|------|------|
 | Myeloid leukemia | L1 | Proceed with Guardrails. Largely reflects the existing CML label. A reported Phase 3 trial in core-binding-factor AML is the new element, so restrict to molecularly defined subtypes. |
 | Liposarcoma | L4 | Hold. Preclinical SRC data only. |
-| Dermatofibrosarcoma protuberans | L4 | Hold. Plausible PDGFR mechanism, but imatinib is the established option. |
+| Dermatofibrosarcoma protuberans | L5 | Hold. Plausible PDGFR mechanism, but imatinib is the established option. |
 | Ovarian myxoid liposarcoma; ganglioneuroblastoma; gingival fibromatosis; and 3 others | L5 | Hold. Model prediction only. |
 ## Disclaimer
 

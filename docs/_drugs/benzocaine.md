@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Tinea pedis, dermatitis, pharyngitis, tinea corporis, tinea infection (from the knowledge base; the Canadian licences list no approved indication text) |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.38% |
+| TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -94,7 +94,7 @@ All three are valid single-ingredient products.
   - hyperparathyroidism and hypercalcemia
   - substance abuse/dependence
 
-  These edges come from a model knowledge graph and need verification against the official product labelling.
+  These predictions come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They need verification against the official product labeling.
 - **Ocular concerns (from the repurposing assessment):** possible corneal toxicity with repeated use, delayed epithelial healing, and contact sensitization.
 
 No drug interaction records were found.
@@ -106,7 +106,7 @@ For label-based warnings and contraindications, please refer to the package inse
 **Decision: Hold**
 
 **Rationale:**
-The only support is a high TxGNN score (99.38%). There are no clinical trials or publications, the mechanism data is incomplete, and the ocular safety concerns (corneal toxicity, sensitization) argue against the use. The evidence level is L5.
+The only support is a high TxGNN score (0.9938). There are no clinical trials or publications, the mechanism data is incomplete, and the ocular safety concerns (corneal toxicity, sensitization) argue against the use. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

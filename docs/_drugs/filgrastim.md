@@ -6,9 +6,9 @@ nav_order: 386
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Constitutional neutropenia, severe congenital neutropenia…"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
+description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Filgrastim
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Filgrastim: From Severe Congenital Neutropenia to Primary Release Disorder of Platelets
+## Filgrastim: Primary release disorder of platelets
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 
 | Item | Content |
 |------|------|
-| Original Indication | Constitutional neutropenia, severe congenital neutropenia, cyclic hematopoiesis, chronic familial neutropenia (from the knowledge graph; Canadian label text was not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 13 |
+| Canada Market Status | Marketed (valid licenses: 13 of 13) |
+| Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, filgrastim is a G-CSF that acts on the G-CSF receptor to stimulate the production, maturation and release of neutrophils.
 
-Primary release disorder of platelets is a qualitative platelet function defect, in which platelets fail to release their granule contents properly. G-CSF acts on the neutrophil lineage and would not be expected to correct this defect, so no direct mechanistic link is established. The high TxGNN score is best read as a statistical pattern from the knowledge graph, not as biological evidence.
+Primary release disorder of platelets is a qualitative platelet function defect, in which platelets fail to release their granule contents properly. G-CSF acts on the neutrophil lineage and would not be expected to correct this defect, so no direct mechanistic link is established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions have the same problem. They include pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, constitutional thrombocytopenia, collagen receptor defects, C1 inhibitor deficiency, serpinopathy and fetal/neonatal alloimmune thrombocytopenia. Each has a different underlying cause (platelet receptor defects, complement dysregulation, protein misfolding or maternal alloantibodies) that G-CSF does not address.
 

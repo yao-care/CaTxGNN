@@ -6,7 +6,7 @@ nav_order: 105
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Benzydamine: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not specified in the available licence data"
+description: "Benzydamine: predicted new indication benign prostatic hyperplasia (evidence level L5). Approved use: Not specified in the available licence data"
 monitor_inn: "Benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
 ---
@@ -48,10 +48,10 @@ Benzydamine is a non-steroidal anti-inflammatory agent with local anesthetic act
 |------|------|
 | Original Indication | Not specified in the available licence data |
 | Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Benzydamine is a non-steroidal anti-inflammatory agent with local anesthetic act
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, benzydamine is a non-steroidal anti-inflammatory agent with local anesthetic activity. Its reported actions include inhibition of pro-inflammatory cytokines (TNF-alpha, IL-1beta) and membrane-stabilizing effects. This description could not be confirmed from the supplied data.
 
-Chronic prostatic inflammation and lower urinary tract symptoms are thought to contribute to BPH. A plausible, but unverified, link therefore exists through anti-inflammatory and analgesic effects. No direct evidence shows that benzydamine affects prostate growth or urinary outflow obstruction. The score of 0.993 is a graph-based prediction only and should be treated as a hypothesis, not as evidence of efficacy.
+Chronic prostatic inflammation and lower urinary tract symptoms are thought to contribute to BPH. A plausible, but unverified, link therefore exists through anti-inflammatory and analgesic effects. No direct evidence shows that benzydamine affects prostate growth or urinary outflow obstruction. The score of 0.9926 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis, not as evidence of efficacy.
 
 ---
 
@@ -100,7 +100,7 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The only support for this indication is a graph-based model score. There are no clinical trials or publications, the mechanism of action data is missing, and the Canadian licence data lack indication text and dosage forms. Without these, the prediction cannot be meaningfully assessed. The Health Canada safety label data are also missing, which blocks progression to safety screening.
+The only support for this indication is a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, the mechanism of action data is missing, and the Canadian licence data lack indication text and dosage forms. Without these, the prediction cannot be meaningfully assessed. The Health Canada safety label data are also missing, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
 - Health Canada package insert (warnings, contraindications, approved indications, dosage forms)

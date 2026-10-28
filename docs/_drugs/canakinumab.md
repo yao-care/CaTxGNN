@@ -4,7 +4,7 @@ title: Canakinumab
 parent: Model Prediction Only (L5)
 nav_order: 150
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Canakinumab: predicted new indication Hepatic infarction (evidence level L5). Approved use: Gout, cryopyrin-associated periodic syndrome…"
 monitor_inn: "Canakinumab"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 # Canakinumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The TxGNN model predicts it may be effective for **hepatic infarction**.
 |------|------|
 | Original Indication | Gout, cryopyrin-associated periodic syndrome, systemic-onset juvenile idiopathic arthritis, juvenile idiopathic arthritis, mevalonate kinase deficiency, familial Mediterranean fever (the Canadian licence text is not available, so these come from the model's knowledge base) |
 | Predicted New Indication | Hepatic infarction |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

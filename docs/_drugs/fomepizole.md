@@ -46,17 +46,17 @@ Fomepizole is an alcohol dehydrogenase inhibitor, and the Canadian license recor
 |------|------|
 | Original Indication | Not stated in the Canadian license records (general pharmacological knowledge: methanol and ethylene glycol poisoning) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.28% |
+| TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, fomepizole is a competitive inhibitor of alcohol dehydrogenase. It is used to block the conversion of methanol and ethylene glycol into their toxic metabolites.
 
-A possible link to sclerosing cholangitis is that blocking alcohol dehydrogenase might change oxidative or aldehyde stress in the liver and bile ducts. This is speculative, and nothing in the compiled data supports it. The high score may reflect network proximity or shared gene associations in the knowledge graph rather than a true therapeutic mechanism. A high prediction score alone is not enough to conclude biological relevance.
+A possible link to sclerosing cholangitis is that blocking alcohol dehydrogenase might change oxidative or aldehyde stress in the liver and bile ducts. This is speculative, and nothing in the compiled data supports it. The high score (0.9928) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A high prediction score alone is not enough to conclude biological relevance.
 
 ## Clinical Trial Evidence
 

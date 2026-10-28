@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
+last_modified_at: 2026-10-28
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
+description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metformin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Metformin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+## Metformin: Focal stiff limb syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,11 +46,11 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (the Health Canada licence records contain no indication text, so this comes from the model's knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -61,10 +61,10 @@ Currently, detailed mechanism of action data is not available. Based on known in
 Focal stiff limb syndrome belongs to the stiff-person spectrum, which is autoimmune and involves impaired GABAergic signalling. The data compiled for this report provide no evidence connecting metformin to this pathway.
 
 Several cautions apply:
-- The classic stiff person syndrome has an identical score (99.45%), which suggests the model treats the two diseases as closely related rather than providing independent evidence.
-- Anti-GAD65 autoimmunity is associated with diabetes. This shared annotation may confound the graph-based prediction.
+- The classic stiff person syndrome has an identical score (0.9945), which suggests the model treats the two diseases as closely related rather than providing independent evidence.
+- Anti-GAD65 autoimmunity is associated with diabetes. This shared annotation may confound the TxGNN model (deep learning) prediction, which may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top predictions are also unsupported by evidence: classic stiff person syndrome (99.45%), opsismodysplasia (99.40%), thiamine-responsive dysfunction syndrome (99.40%), and drug-induced localized lipodystrophy (99.06%). All are L5 with a Hold recommendation.
+Other top predictions are also unsupported by evidence: classic stiff person syndrome (0.9945), opsismodysplasia (0.9940), thiamine-responsive dysfunction syndrome (0.9940), and drug-induced localized lipodystrophy (0.9906). All are L5 with a Hold recommendation.
 
 ## Clinical Trial Evidence
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Desogestrel
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 264
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L3). Approved use: Not available from the Canadian licence data compiled for this report…"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "
 # Desogestrel
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,10 +51,10 @@ The evidence is limited and mostly indirect, because the trial does not clearly 
 |------|------|
 | Original Indication | Not available from the Canadian licence data compiled for this report (desogestrel is a progestin used in oral contraceptives) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Hold |
 
 ---

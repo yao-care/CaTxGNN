@@ -4,17 +4,17 @@ title: Erdafitinib
 parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Erdafitinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Erdafitinib"
-predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia", "Mills syndrome"]
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Erdafitinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.38% |
+| TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, erdafitinib is a pan-FGFR (FGFR1-4) tyrosine kinase inhibitor.
 
-FGF/FGFR signaling has been implicated in pulmonary vascular remodeling and smooth muscle proliferation. This offers a plausible but unvalidated rationale for pulmonary hypertension. The TxGNN score is very high (0.994, rank 10,953), but it is a model prediction only.
+FGF/FGFR signaling has been implicated in pulmonary vascular remodeling and smooth muscle proliferation. This offers a plausible but unvalidated rationale for pulmonary hypertension. The TxGNN score is very high (0.9938, rank 10,953), but it is a model prediction only.
 
 Safety is a concern. FGFR inhibitors are known to cause hyperphosphatemia, ocular toxicity, and nail and skin effects. The net benefit in a cardiopulmonary population is unknown.
 

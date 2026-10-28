@@ -50,10 +50,10 @@ A second prediction, **liposarcoma**, has **0 clinical trials** and **1 preclini
 |------|------|
 | Original Indication | Chronic myelogenous leukemia, BCR-ABL1 positive |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.04% |
+| TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ A second prediction, **liposarcoma**, has **0 clinical trials** and **1 preclini
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ponatinib is a multi-targeted tyrosine kinase inhibitor (targeting BCR-ABL, FGFR, PDGFR, VEGFR, SRC and KIT). Its efficacy in BCR-ABL1-positive chronic myelogenous leukemia has been established, and mechanistically it may be applicable to conditions driven by kinase signaling.
 
-For **gingival fibromatosis**, the only support is the high TxGNN score (99.04%). Kinase signaling in fibroblast proliferation and extracellular matrix deposition could plausibly relate to fibrotic overgrowth, but this link is speculative and not backed by clinical or literature evidence. Gingival fibromatosis is a rare and mostly benign condition, and ponatinib's cardiovascular and vascular occlusive toxicity would be hard to justify for it.
+For **gingival fibromatosis**, the only support is the high TxGNN score (0.9904). Kinase signaling in fibroblast proliferation and extracellular matrix deposition could plausibly relate to fibrotic overgrowth, but this link is speculative and not backed by clinical or literature evidence. Gingival fibromatosis is a rare and mostly benign condition, and ponatinib's cardiovascular and vascular occlusive toxicity would be hard to justify for it.
 
-**Secondary prediction: liposarcoma** (score 99.00%). Ponatinib inhibits several receptor tyrosine kinases (FGFR, PDGFR, KIT, SRC, RET) that may drive sarcoma biology. One 2017 preclinical study identified druggable kinase targets in liposarcoma. From the available information, I cannot confirm that ponatinib itself was tested or found active, so this evidence is indirect and preclinical (L4).
+**Secondary prediction: liposarcoma** (score 0.9900). Ponatinib inhibits several receptor tyrosine kinases (FGFR, PDGFR, KIT, SRC, RET) that may drive sarcoma biology. One 2017 preclinical study identified druggable kinase targets in liposarcoma. From the available information, I cannot confirm that ponatinib itself was tested or found active, so this evidence is indirect and preclinical (L4).
 
 ---
 

@@ -48,10 +48,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis, idiopathic urticaria |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -94,7 +94,7 @@ Please refer to the package insert for warnings and label contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.85%), but there are no clinical trials or publications for this indication (Evidence Level L5). The disease mechanism of ocular rosacea is mostly not histamine-driven, so benefit is likely limited to symptom relief.
+The TxGNN score is very high (0.9985), but there are no clinical trials or publications for this indication (Evidence Level L5). The disease mechanism of ocular rosacea is mostly not histamine-driven, so benefit is likely limited to symptom relief.
 
 **To proceed, the following is needed:**
 - A systematic search of clinical trials and literature on antihistamines in ocular rosacea or blepharoconjunctivitis

@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **dermatofibrosarcoma protubera
 |------|------|
 | Original Indication | HER2-positive breast carcinoma |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.30% |
+| TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 A clear mechanistic link to DFSP is not evident. DFSP is typically driven by the COL1A1-PDGFB fusion, which causes constitutive PDGFRB activation. This is a different driver from EGFR/HER2, and the standard targeted therapy is imatinib, a PDGFR inhibitor. Any link for lapatinib would be indirect, for example shared downstream signaling (PI3K/AKT, MAPK) or a possible role for the EGFR pathway in resistance. This remains speculative.
 
-The very high score (0.993) likely reflects network proximity to other kinase inhibitors in the knowledge graph rather than a validated mechanism. The score should be read as a hypothesis-generating signal only.
+The very high score (0.9930) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The score should be read as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 

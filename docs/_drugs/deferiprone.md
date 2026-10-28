@@ -4,7 +4,7 @@ title: Deferiprone
 parent: Moderate Evidence (L3-L4)
 nav_order: 256
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Hemosiderosis, beta-thalassemia (several subtypes)…"
 monitor_inn: "DEFERIPRONE"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis",
 # Deferiprone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ but there are currently **0 registered clinical trials** and only **2 publicatio
 |------|------|
 | Original Indication | Hemosiderosis, beta-thalassemia (several subtypes), hemoglobinopathy (Health Canada indication text not available) |
 | Predicted New Indication | Hepatic porphyria |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

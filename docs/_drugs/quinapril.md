@@ -4,17 +4,17 @@ title: Quinapril
 parent: Model Prediction Only (L5)
 nav_order: 787
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-13
-description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quinapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Quinapril: From Hypertension to Malignant Hypertensive Renal Disease
+## Quinapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,10 +65,10 @@ Currently, detailed mechanism of action data is not available in the data compil
 Malignant hypertensive renal disease (hypertensive nephrosclerosis with severe hypertension) involves activation of the renin-angiotensin-aldosterone system (RAAS), so blocking ACE is mechanistically plausible. However, this prediction is largely an extension of the already approved hypertension indication rather than a distinct repurposing opportunity.
 
 The other predicted indications are weaker or less specific:
-- **Malignant renovascular hypertension** (score 99.86%): RAAS activation from renal hypoperfusion makes ACE inhibition coherent, but caution is needed in bilateral renal artery stenosis, where ACE inhibitors can precipitate acute renal failure. No trials or literature are available.
-- **Pulmonary hypertension, unclear multifactorial mechanism** (99.85%): Angiotensin II contributes to pulmonary vascular remodeling, but the heterogeneous causes weaken any specific link. Systemic vasodilators can also cause hypotension or worsen ventilation-perfusion matching.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (99.85%): This is the only prediction with literature, which consists of preclinical animal studies (L4).
-- **Braddock syndrome** (99.79%): No clear mechanistic rationale; the high score likely reflects graph-based associations rather than biological evidence.
+- **Malignant renovascular hypertension**: RAAS activation from renal hypoperfusion makes ACE inhibition coherent, but caution is needed in bilateral renal artery stenosis, where ACE inhibitors can precipitate acute renal failure. No trials or literature are available.
+- **Pulmonary hypertension, unclear multifactorial mechanism** (0.9985): Angiotensin II contributes to pulmonary vascular remodeling, but the heterogeneous causes weaken any specific link. Systemic vasodilators can also cause hypotension or worsen ventilation-perfusion matching.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (0.9985): This is the only prediction with literature, which consists of preclinical animal studies (L4).
+- **Braddock syndrome** (0.9979): No clear mechanistic rationale; the high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -120,7 +120,7 @@ Official package insert warnings were not available, so please refer to the pack
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (99.86%), with no clinical trials or literature. The mechanism is plausible, but it mostly overlaps with quinapril's existing hypertension indication, so it offers limited new repurposing value.
+The prediction is supported only by the model score (0.9986), with no clinical trials or literature. The mechanism is plausible, but it mostly overlaps with quinapril's existing hypertension indication, so it offers limited new repurposing value.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada (currently a blocking gap for safety screening)

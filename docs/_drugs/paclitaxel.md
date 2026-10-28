@@ -4,17 +4,17 @@ title: Paclitaxel
 parent: Model Prediction Only (L5)
 nav_order: 698
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Paclitaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paclitaxel: From Ovarian Cancer to Female Breast Carcinoma
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Paclitaxel is a taxane chemotherapy drug whose original indications in the knowledge graph centre on ovarian cancer and related ovarian tumours.
-The TxGNN model predicts it may be effective for **female breast carcinoma**, and the data compiled for this report list **40 clinical trials** and **19 publications** for this direction.
 Paclitaxel is already a standard-of-care taxane in breast cancer, so this is a confirmation of established use rather than a true repurposing discovery.
 
 ---
@@ -48,12 +46,12 @@ Paclitaxel is already a standard-of-care taxane in breast cancer, so this is a c
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the Canadian licence records contain no indication text; the original indication comes from the knowledge graph) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.995% |
-| Evidence Level | L2 (as scored in the data; Phase 3 trials exist in the list but are mostly combination studies) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 (as scored in the data; Phase 3 trials exist in the list but are mostly combination studies) |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -48,17 +48,17 @@ The top-ranked prediction therefore sits at the lowest evidence level (L5).
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.99985% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, travoprost is a prostaglandin F2-alpha analog applied to the eye. It lowers intraocular pressure in glaucoma and ocular hypertension, and its efficacy in those conditions is well established.
 
-For visceral calciphylaxis, no trials or publications connect travoprost to the disease. Any link would be speculative, for example prostaglandin receptor-mediated vasodilation or microvascular effects, and the data do not support it. The prediction score is very high (close to 1.0), but several other top-ranked predictions are also implausible. These include thoracic outlet syndromes, which are mechanical compression disorders. This suggests the score reflects knowledge-graph patterns and not a verified pharmacological rationale.
+For visceral calciphylaxis, no trials or publications connect travoprost to the disease. Any link would be speculative, for example prostaglandin receptor-mediated vasodilation or microvascular effects, and the data do not support it. The TxGNN model (deep learning) gives a prediction score of 1.0000, but several other top-ranked predictions are also implausible. These include thoracic outlet syndromes, which are mechanical compression disorders. This suggests the score may reflect similarities the model learned between related diseases, not biological evidence or a verified pharmacological rationale.
 
 The other nine top predictions are all vascular or related conditions, and none has clinical support. "Vascular disease" (rank 5) is the only one with retrieved studies, and those studies cover travoprost in glaucoma, not vascular disease. The single trial with a vascular readout (NCT00308945) measured retinal and choroidal blood flow in the eye. It did not treat a vascular disease.
 
@@ -106,7 +106,7 @@ No literature is available for visceral calciphylaxis. The most relevant items r
 | 02413167 | SANDOZ TRAVOPROST | Not specified | Not specified |
 | 02415305 | APO-TRAVOPROST-TIMOP PQ | Not specified | Not specified |
 
-A sixth authorization, DUOTRAV PQ (DIN 02278251), is also valid. All six are valid single-ingredient authorizations, and none is cancelled.
+A sixth authorization, DUOTRAV PQ (DIN 02278251), is also valid. The drug is marketed, and 6 of the 6 licenses are valid, with none cancelled.
 
 ## Safety Considerations
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 577
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis, endometrial carcinoma, postmenopausal osteoporosis…"
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Medroxyprogesterone Acetate: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Medroxyprogesterone Acetate: From Endometriosis to Amenorrhea
+## Medroxyprogesterone Acetate: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but the data co
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis, endometrial carcinoma, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (from the knowledge graph; no approved indication text is available from Canadian licences) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -138,7 +138,7 @@ Package insert warnings and contraindications were not available, so please refe
 **Other predicted indications (for reference):**
 - Fibrocystic breast disease (L3, Research Question): two small, dated clinical reports of MPA use, but HRT literature shows mixed breast safety signals, including increased mammographic density.
 - Benign mammary dysplasia, cervix endometriosis, endometriosis of the rectovaginal septum and vagina, endometriosis in cutaneous scar, apocrine adenosis, and blunt duct adenosis (Hold): little or no direct evidence. Several are subtypes of the existing endometriosis indication, or are breast lesions where progestin proliferation risk argues for caution.
-- Bilateral renal hypoplasia and renal hypoplasia (Hold, L5): no plausible mechanism; the predictions are likely knowledge-graph artifacts.
+- Bilateral renal hypoplasia and renal hypoplasia (Hold, L5): no plausible mechanism; the predictions are likely TxGNN model (deep learning) artifacts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

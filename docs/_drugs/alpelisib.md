@@ -4,17 +4,17 @@ title: Alpelisib
 parent: Model Prediction Only (L5)
 nav_order: 39
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Alpelisib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the Canadian license data"
 monitor_inn: "Alpelisib"
-predicted_indications: ["pulmonary hypertension", "migraine with or without aura, susceptibility to", "migraine disorder", "kyphoscoliotic heart disease", "rheumatoid arthritis", "leprosy", "migraine with brainstem aura", "thrombotic disease", "amyotrophic lateral sclerosis", "multiple endocrine neoplasia"]
+predicted_indications: ["pulmonary hypertension"]
 ---
 
 # Alpelisib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The prediction currently rests on the model score alone.
 |------|------|
 | Original Indication | Not available in the Canadian license data (trials in the evidence set are in HR+/HER2- PIK3CA-mutated advanced breast cancer and ovarian cancer) |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L4 (indirect and mechanistic only; no trials, one case report) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| TxGNN Prediction Score | 0.9903 |
+| Evidence Level | L5 (indirect and mechanistic only; no trials, one case report) |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 Mechanistically, PI3K/AKT/mTOR signalling has been implicated in pulmonary vascular remodelling, which is a feature of pulmonary hypertension. This gives a plausible biological rationale, but it is a hypothesis only. No study in the data compiled for this report tests alpelisib in pulmonary hypertension.
 
-The only publication is a case report of alpelisib-induced interstitial lung disease in a patient with advanced breast cancer. This is a pulmonary adverse event, so it raises a safety question for lung-related use rather than supporting benefit. The high TxGNN score (99.03%, rank 15,925) is a model prediction and does not substitute for clinical evidence.
+The only publication is a case report of alpelisib-induced interstitial lung disease in a patient with advanced breast cancer. This is a pulmonary adverse event, so it raises a safety question for lung-related use rather than supporting benefit. The high TxGNN score (0.9903, rank 15,925) is a model prediction and does not substitute for clinical evidence.
 
 ---
 

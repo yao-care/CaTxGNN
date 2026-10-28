@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dexmedetomidine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 270
-evidence_level: L2
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Dexmedetomidine: predicted new indication Headache disorder (evidence level L2). Approved use: Not available in the data compiled for this report (injectable sedati…"
@@ -14,7 +14,7 @@ predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "m
 # Dexmedetomidine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,13 +49,13 @@ The TxGNN model predicts it may be effective for **headache disorder**, the high
 |------|------|
 | Original Indication | Not available in the data compiled for this report (injectable sedative use inferred from product type only) |
 | Predicted New Indication | Headache disorder (the highest-evidence candidate; the top-scoring prediction by TxGNN rank is nephrogenic syndrome of inappropriate antidiuresis, which lacks any supporting evidence) |
-| TxGNN Prediction Score | 99.30% (headache disorder); for reference, the top-ranked prediction scored 99.60% |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| TxGNN Prediction Score | 0.9930 (headache disorder); for reference, the top-ranked prediction scored 0.9960 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
-**Note on candidate selection:** The five predictions, in TxGNN rank order, are nephrogenic syndrome of inappropriate antidiuresis (99.60%), migraine disorder (99.49%), migraine with brainstem aura (99.35%), headache disorder (99.30%) and trigeminal autonomic cephalalgia (99.09%). This report focuses on headache disorder because it is the only candidate with completed trials and published literature. The others are covered briefly in the conclusion.
+**Note on candidate selection:** The five predictions, in TxGNN rank order, are nephrogenic syndrome of inappropriate antidiuresis (0.9960), migraine disorder (0.9949), migraine with brainstem aura (0.9935), headache disorder (0.9930) and trigeminal autonomic cephalalgia (0.9909). This report focuses on headache disorder because it is the only candidate with completed trials and published literature. The others are covered briefly in the conclusion.
 
 ---
 

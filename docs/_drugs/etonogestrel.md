@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Etonogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report (…"
+last_modified_at: 2026-10-28
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
+description: "Etonogestrel: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Etonogestrel
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Etonogestrel: From Contraception to Amenorrhea
+## Etonogestrel: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction rests on the model alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license records compiled for this report (the products NEXPLANON, NUVARING and HALOETTE are hormonal contraceptives) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.84% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,13 +62,13 @@ The prediction rests on the model alone.
 
 Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on general pharmacology, etonogestrel is a progestin that suppresses ovulation and thins the endometrium.
 
-Amenorrhea is a well-known effect of the implant, usually seen as a bleeding-pattern outcome of use. So a biological link exists. However, this is an expected pharmacologic effect, not a therapeutic goal that has been tested. The high score likely reflects hormone-pathway similarity in the knowledge graph rather than evidence that the drug treats amenorrhea.
+Amenorrhea is a well-known effect of the implant, usually seen as a bleeding-pattern outcome of use. So a biological link exists. However, this is an expected pharmacologic effect, not a therapeutic goal that has been tested. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predicted indications are all L5 and none has any trials or relevant literature:
-- Breast fibrocystic disease (99.61%)
-- Blunt duct adenosis of breast (99.29%)
-- Apocrine adenosis of breast (99.29%)
-- Benign mammary dysplasia (99.21%)
+- Breast fibrocystic disease (0.9961)
+- Blunt duct adenosis of breast (0.9929)
+- Apocrine adenosis of breast (0.9929)
+- Benign mammary dysplasia (0.9921)
 
 These are benign breast conditions where progestins might oppose estrogen-driven proliferation. This rationale is theoretical only.
 

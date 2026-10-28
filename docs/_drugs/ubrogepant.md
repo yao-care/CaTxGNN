@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ubrogepant
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 957
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Ubrogepant: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
 monitor_inn: "UBROGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Ubrogepant: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ubrogepant
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Ubrogepant: From Migraine to Migraine with Brainstem Aura
+## Ubrogepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ubrogepant is an oral CGRP receptor antagonist (a "gepant"), originally used for the acute treatment of migraine with or without aura in adults.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**.
+The TxGNN model predicts it may be effective for **atrophoderma vermiculata**.
 No clinical trials are registered for this subtype, but **18 publications** on ubrogepant in general migraine populations provide indirect support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder; migraine with or without aura (from the knowledge graph, as no approved indication text is available for the Canadian licences) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9940 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -115,7 +115,7 @@ The mechanistic link to the approved migraine indication is plausible, but there
 - Approved indication text and dosage form for the Canadian DINs
 - A dedicated study or registry in this subtype, if the clinical need is confirmed
 
-**Other predictions (not recommended for follow-up):** Atrophoderma vermiculata (score 99.40%) and ulerythema ophryogenesis (score 99.23%) have no clinical trials, no literature and no clear mechanistic link to CGRP antagonism. Both remain at L5 (model prediction only) and are on Hold.
+**Other predictions (not recommended for follow-up):** Atrophoderma vermiculata (score 0.9940) and ulerythema ophryogenesis (score 0.9923) have no clinical trials, no literature and no clear mechanistic link to CGRP antagonism. Both remain at L5 (model prediction only) and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

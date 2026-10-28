@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 472
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Imiglucerase: predicted new indication Hurler syndrome (evidence level L4). Approved use: Gaucher disease"
 monitor_inn: "Imiglucerase"
-predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "lysosomal storage disease with skeletal involvement", "Wolman disease with hypolipoproteinemia and acanthocytosis", "Wolman disease", "proximal myopathy with extrapyramidal signs", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"]
+predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Imiglucerase: predicted new indication Hurler syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Imiglucerase: From Gaucher Disease to Hurler Syndrome
+## Imiglucerase: Hurler syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction appears to reflect similarity within the lysosomal storage diseas
 
 | Item | Content |
 |------|------|
-| Original Indication | Gaucher disease |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hurler syndrome |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -119,7 +119,7 @@ The other top-10 predictions are also supported by weak or no evidence (mostly L
 
 - Scheie syndrome has the same limitations as Hurler syndrome.
 - Cholesteryl ester storage disease and Wolman disease are caused by LIPA deficiency, for which sebelipase alfa is the appropriate ERT.
-- "Lysosomal storage disease with skeletal involvement" is supported by 16 publications, but they concern Gaucher disease itself, which is the already-approved indication. This is not a new repurposing signal.
+- This is not a new repurposing signal.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

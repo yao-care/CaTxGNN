@@ -4,7 +4,7 @@ title: Phenobarbital
 parent: Model Prediction Only (L5)
 nav_order: 728
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic and partial epilepsy)…"
 monitor_inn: "PHENOBARBITAL"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 # Phenobarbital
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,13 @@ The more credible repurposing directions are reflex-type seizure disorders (for 
 |------|------|
 | Original Indication | Epilepsy (including generalized tonic-clonic and partial epilepsy), migraine, Lennox-Gastaut syndrome |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
-*Note: Health Canada indication text was not available in the data compiled for this report, so the original indication is taken from the knowledge-graph indication list.*
+*Note: Health Canada indication text was not available in the data compiled for this report, so the original indication could not be stated here.*
 
 ---
 
@@ -64,7 +64,7 @@ The more credible repurposing directions are reflex-type seizure disorders (for 
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. From general pharmacology, phenobarbital is a barbiturate anticonvulsant that enhances GABA-A receptor-mediated inhibition. This is the basis of its use in epilepsy.
 
-**For trigeminal nerve neoplasm (the top-ranked prediction):** the prediction is not mechanistically credible. Phenobarbital has no known antineoplastic or tumour-directed effect. The high score most likely reflects proximity in the knowledge graph to seizure and neurological phenotypes rather than a real biological link. The only retrieved paper is about Sturge-Weber syndrome and does not concern this tumour.
+**For trigeminal nerve neoplasm (the top-ranked prediction):** the prediction is not mechanistically credible. Phenobarbital has no known antineoplastic or tumour-directed effect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only retrieved paper is about Sturge-Weber syndrome and does not concern this tumour.
 
 **For other predictions in the list:**
 - **Reflex and stimulus-triggered seizures** (micturition-induced, eating, startle, thinking, audiogenic, reading, and orgasm-induced seizures) are seizure disorders. A GABAergic anticonvulsant could plausibly help, but the evidence is indirect. It comes from general seizure literature, case reports, and animal models, and nothing shows phenobarbital efficacy in these specific syndromes.
@@ -159,7 +159,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction, trigeminal nerve neoplasm, has no clinical trials, no relevant literature, and no plausible antineoplastic mechanism. The score appears to reflect graph proximity to seizure phenotypes rather than a real effect. The evidence level is L5 (model prediction only).
+- The top-ranked prediction, trigeminal nerve neoplasm, has no clinical trials, no relevant literature, and no plausible antineoplastic mechanism. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The evidence level is L5 (model prediction only).
 - The reflex seizure predictions (micturition-induced, eating, startle, thinking, audiogenic and reading seizures) and trigeminal neuralgia are better framed as research questions (L4). They rest on indirect evidence and would extend an existing anticonvulsant use rather than open a new therapeutic area.
 
 **To proceed, the following is needed:**

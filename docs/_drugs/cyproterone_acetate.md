@@ -3,18 +3,18 @@ layout: default
 title: Cyproterone Acetate
 parent: Moderate Evidence (L3-L4)
 nav_order: 235
-evidence_level: L3
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L3). Approved use: Not stated in the Canadian licence data. Pharmacology data lists andr…"
 monitor_inn: "CYPROTERONE ACETATE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "migraine with or without aura, susceptibility to", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence is weak, and the literature suggests caution because hormonal expos
 |------|------|
 | Original Indication | Not stated in the Canadian licence data. Pharmacology data lists androgen-dependent conditions (prostate cancer, acne, hirsutism) and hormonal uses (menopausal hot flushes, combined oral contraceptives). |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 (no trials; indirect mechanistic literature only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -130,8 +130,8 @@ The prediction rests on a model score and indirect literature. No trial or paper
 |------|------|------|------|
 | Amenorrhea | L3 | One Phase 4 trial of ethinyl estradiol/CPA in hyperandrogenic irregular cycles (NCT01103518, status unknown); evidence is not specific to amenorrhea | Research Question |
 | Breast fibrocystic disease | L4 | Indirect and dated literature | Hold |
-| Thrombophilia | L3 | The literature shows CPA-containing contraceptives raise thrombotic risk, a harm signal | Hold |
-| Migraine with brainstem aura, migraine susceptibility | L4 | Literature is about vascular risk, a safety signal | Hold |
+| Thrombophilia | L5 | The literature shows CPA-containing contraceptives raise thrombotic risk, a harm signal | Hold |
+| Migraine with brainstem aura, migraine susceptibility | L5 | Literature is about vascular risk, a safety signal | Hold |
 | Prinzmetal angina, antithrombin deficiency type 2, heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis | L5 | Prediction only, with no clinical evidence; several are thrombosis-related, where CPA is a risk factor | Hold |
 ## Disclaimer
 

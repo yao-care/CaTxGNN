@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mepyramine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 591
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Mepyramine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis"
 monitor_inn: "Mepyramine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mepyramine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Mepyramine: From Allergic Rhinitis to Allergic Urticaria
+## Mepyramine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mepyramine is a first-generation antihistamine, originally used for allergic conditions such as allergic rhinitis, conjunctivitis, urticaria and angioedema.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **no registered clinical trials**. The **4 publications** found are indirect (preclinical studies and one veterinary study), so the evidence is weak. Urticaria is also already a labeled use, so this is largely an on-label indication rather than true repurposing.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are currently **no registered clinical trials**. The **4 publications** found are indirect (preclinical studies and one veterinary study), so the evidence is weak.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (the Canadian license records contain no indication text; the original indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9974 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,12 +61,9 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 
 Detailed mechanism of action data is not available in the compiled data. Based on known information, mepyramine is a first-generation histamine H1 receptor antagonist. Histamine is the central mediator of allergic urticaria, so blocking H1 receptors gives a strong mechanistic rationale.
 
-The knowledge graph already lists urticaria and angioedema among mepyramine's original indications. The prediction is therefore close to its existing uses and does not represent a distinct new therapeutic area.
 
 The other predicted indications are less well supported:
-- **Cold urticaria** (score 99.70%): a histamine-mediated physical urticaria, so H1 antagonism is plausible. Standard therapy typically uses second-generation antihistamines, and no mepyramine-specific evidence exists. Any benefit is presumed to be a class effect.
-- **Nasal cavity disease** (score 99.74%): a broad category. H1 blockade is relevant to allergic and vasomotor rhinitis, but non-allergic subtypes lack a clear histamine-driven mechanism.
-- **Acute laryngopharyngitis** (score 99.72%): a model prediction only. The condition is mostly infectious or irritant-driven, so any benefit is likely limited to symptom relief.
+- **Nasal cavity disease** (score 0.9974): a broad category. H1 blockade is relevant to allergic and vasomotor rhinitis, but non-allergic subtypes lack a clear histamine-driven mechanism.
 
 ---
 

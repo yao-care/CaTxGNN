@@ -4,17 +4,17 @@ title: Guaiacol
 parent: Model Prediction Only (L5)
 nav_order: 443
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-13
-description: "Guaiacol: predicted new indication Acute laryngopharyngitis (evidence level L5). Approved use: Pharyngitis, common cold, rhinitis, nasopharyngitis"
+indication_count: 1
 monitor_inn: "GUAIACOL"
-predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-23
+description: "Guaiacol: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, rhinitis, nasopharyngitis"
 ---
 
 # Guaiacol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,41 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Guaiacol: From Pharyngitis to Acute Laryngopharyngitis
+## Guaiacol: From Pharyngitis and Common Cold to Nasal Cavity Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Guaiacol was originally used for upper-respiratory conditions such as pharyngitis, the common cold, rhinitis and nasopharyngitis.
-The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+The TxGNN model predicts it may be useful for **nasal cavity disease**,
+but at present there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; no approved indication text is available for the Canadian products) |
-| Predicted New Indication | Acute laryngopharyngitis |
-| TxGNN Prediction Score | 99.57% |
+| Original Indication | Pharyngitis, common cold, rhinitis, nasopharyngitis (relations recorded in the knowledge graph; the Canadian licence records contain no indication text) |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
+| Number of approvals | 2 DINs |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, guaiacol is generally regarded as an expectorant with mild local antiseptic properties. This is general background and is not confirmed by the data compiled for this report. Its use in pharyngitis and nasopharyngitis is recorded in the knowledge graph, and mechanistically it may be applicable to acute laryngopharyngitis.
+Currently, detailed mechanism of action data is not available. Based on known information, guaiacol is a single-ingredient compound. Mechanistically it may be applicable to nasal cavity disease, but this cannot be confirmed from the data compiled for this report.
 
-Acute laryngopharyngitis is anatomically adjacent to the conditions guaiacol is already linked with, and shares symptoms such as throat irritation and mucus secretion. The prediction is therefore best seen as an extension of the existing indication rather than a new mechanism, and it adds little repurposing novelty.
+Guaiacol is traditionally described as an expectorant with mild antiseptic and local anesthetic properties, which could in principle relate to nasal conditions. The Canadian license records here carry no indication text. This reasoning is speculative and has no supporting study in the data compiled.
 
-A second prediction, **nasal cavity disease** (score 99.51%), also ranks highly. It is a broad category rather than a specific disease, and it likely reflects the existing link to rhinitis. It should be narrowed to specific nasal conditions before any further evaluation.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+The TxGNN score is very high (0.9951), but it is a computational prediction only.
 
 ## Canada Market Information
 
@@ -78,32 +71,28 @@ Currently no related literature available.
 
 ## Safety Considerations
 
-Package insert warnings and contraindications could not be obtained for this report. Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication relations** (not label text): the knowledge graph records contraindication relations with many conditions, including:
+  - Cardiovascular: hypertension, hypotensive disorder, coronary artery disease, myocardial infarction, coronary thrombosis
+  - Endocrine and metabolic: diabetes mellitus, diabetic ketoacidosis, hypothyroidism, myxedema, congenital hypothyroidism, adrenocortical insufficiency, Addison disease, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease
+  - Renal and urinary: kidney disease, anuria, pyoureter, benign prostatic hyperplasia
+  - Hepatic, biliary and gastrointestinal: liver disease, gallbladder disease, pancreatitis, peptic ulcer disease, inflammatory bowel disease
+  - Other: epilepsy, rhabdomyolysis, nodular fasciitis, hemoglobinopathy
 
-The drug knowledge graph links guaiacol to potential contraindications in the following conditions. This is model-derived information, not label text, and should be verified against the official labelling:
-
-- **Cardiovascular**: hypertension, hypotensive disorder, coronary artery disease, myocardial infarction, coronary thrombosis
-- **Renal and urinary**: kidney disease, pyoureter, anuria, benign prostatic hyperplasia
-- **Hepatic, biliary and gastrointestinal**: liver disease, gallbladder disease, pancreatitis, peptic ulcer disease, inflammatory bowel disease
-- **Endocrine and metabolic**: diabetes mellitus, diabetic ketoacidosis, adrenocortical insufficiency, Addison disease, hypothyroidism, myxedema, congenital hypothyroidism, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease
-- **Other**: epilepsy, rhabdomyolysis, nodular fasciitis, hemoglobinopathy
-
-No drug interaction records were found.
+Please refer to the package insert for label warnings, contraindications and drug interaction information. No interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but it is a computational prediction only (L5) with no supporting trials or literature. It also largely overlaps with guaiacol's existing upper-airway indications. The mechanism of action and the label-based safety information are both missing.
+The prediction score is high, but no clinical trial or publication directly studies guaiacol in nasal cavity disease, so the evidence level is L5. Mechanism data and label safety information are also missing.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Health Canada (currently blocking safety screening)
-- Mechanism of action data for guaiacol
-- Approved indication text and dosage forms for the two Canadian products
-- Clinical or literature evidence specific to acute laryngopharyngitis
-- A more specific definition of "nasal cavity disease" if that prediction is to be pursued
-- Review of the knowledge-graph contraindications against official labelling
+- Mechanism of action data for guaiacol (e.g., from DrugBank)
+- Health Canada package insert warnings, contraindications and approved indication text for both DINs
+- A literature and trial search for guaiacol in nasal cavity disease
+- Confirmation of route and formulation compatibility with the predicted indication
+- A safety review of the knowledge-graph contraindication relations before any further screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

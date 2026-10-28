@@ -4,17 +4,17 @@ title: Sulfasalazine
 parent: Model Prediction Only (L5)
 nav_order: 872
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Sulfasalazine: predicted new indication Osteoarthritis (evidence level L5). Approved use: Rheumatoid arthritis, ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "SULFASALAZINE"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "spondyloarthropathy, susceptibility to", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+description: "Sulfasalazine: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sulfasalazine: From Rheumatoid Arthritis and Ulcerative Colitis to Osteoarthritis
+## Sulfasalazine: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -41,7 +41,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 Sulfasalazine is an anti-inflammatory drug originally used for rheumatoid arthritis, ulcerative colitis, inflammatory bowel disease, juvenile arthritis and spondyloarthropathy.
 The TxGNN model predicts it may be effective for **osteoarthritis**, but there are **no registered clinical trials**, and the supporting evidence is mainly **preclinical studies and general rheumatology reviews** among 20 publications.
 
-Note: the top-ranked TxGNN prediction is brachydactyly-syndactyly syndrome (score 99.94%). It has no supporting trials or literature, and no plausible mechanistic link to sulfasalazine. This report therefore focuses on osteoarthritis, the highest-ranked prediction with meaningful supporting evidence.
+Note: the top-ranked TxGNN prediction is brachydactyly-syndactyly syndrome (score 0.9994). It has no supporting trials or literature, and no plausible mechanistic link to sulfasalazine. This report therefore focuses on osteoarthritis, the highest-ranked prediction with meaningful supporting evidence.
 
 ---
 
@@ -49,12 +49,12 @@ Note: the top-ranked TxGNN prediction is brachydactyly-syndactyly syndrome (scor
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, ulcerative colitis, inflammatory bowel disease, juvenile idiopathic arthritis, spondyloarthropathy (the Canadian licence records contain no indication text) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 (preclinical and mechanistic studies only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 (preclinical and mechanistic studies only) |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---

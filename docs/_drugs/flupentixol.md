@@ -48,17 +48,17 @@ but there are currently **no clinical trials and no publications** supporting th
 |------|------|
 | Original Indication | Schizophrenia (the Canadian licence records contain no approved indication text) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Flupentixol is known as a thioxanthene antipsychotic. Pharmacology records show it binds the dopamine D1, D2, D3 and D5 receptors, which underlies its use in schizophrenia.
 
-No plausible pathway linking dopamine receptor antagonism to inherited retinal dystrophy is documented. The very high TxGNN score (99.99%) reflects a knowledge-graph prediction only, and it should not be read as evidence of efficacy. Retinal dystrophies are typically genetic degenerative conditions, and there is no data suggesting an antipsychotic would alter their course.
+No plausible pathway linking dopamine receptor antagonism to inherited retinal dystrophy is documented. The very high TxGNN score (0.9999) reflects a TxGNN model (deep learning) prediction only, and it should not be read as evidence of efficacy. Retinal dystrophies are typically genetic degenerative conditions, and there is no data suggesting an antipsychotic would alter their course.
 
 Eight other predictions were also generated, including Charcot-Marie-Tooth disease type 1G, a congenital disorder of glycosylation, polymicrogyria, hydranencephaly, several forms of myopia, and atypical glycine encephalopathy. All are at the same L5, Hold level. The myopia predictions have only a speculative link through retinal dopamine signalling in eye growth, and a dopamine antagonist might act in the opposite direction to dopamine's proposed protective effect.
 
@@ -89,7 +89,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no clinical trials, no publications and no established mechanistic link to retinal dystrophy, so the evidence level is L5.
+The prediction rests only on a TxGNN model (deep learning) score. There are no clinical trials, no publications and no established mechanistic link to retinal dystrophy, so the evidence level is L5.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

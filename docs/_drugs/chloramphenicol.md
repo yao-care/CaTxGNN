@@ -50,10 +50,10 @@ Safety guardrails are needed because of its haematological toxicity.
 |------|------|
 | Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, meningococcal infection, streptococcal meningitis, otitis externa, infectious skin disease, rickettsial diseases, trypanosomiasis, Q fever (the Canadian licence has no indication text on file) |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -116,14 +116,14 @@ All other predictions are rated Hold; each has weak or no supporting evidence.
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Diffuse scleroderma | 99.65% | L5 | Literature is basic fibroblast biology; chloramphenicol is probably only a reporter-assay reagent, so there is no therapeutic evidence |
-| Postinfectious vasculitis | 99.58% | L5 | Prediction only; immune-mediated condition |
-| Post-bacterial disorder | 99.57% | L5 | One observational susceptibility-profiling study (NCT05106803), not testing chloramphenicol as treatment |
-| Post-infectious syndrome | 99.56% | L5 | Prediction only; no clear mechanistic link |
-| Infective urethral stricture | 99.52% | L4 | Only a 1964 unrelated case report; stricture needs mechanical or surgical management |
-| Chagas cardiomyopathy | 99.51% | L5 | Prediction only; no evidence against T. cruzi and bone marrow toxicity is a concern |
-| Infection-related haemolytic uraemic syndrome | 99.50% | L5 | Prediction only; antibiotics are generally discouraged in Shiga toxin-producing E. coli HUS and chloramphenicol is haematotoxic, so safety is doubtful |
-| Punctate epithelial keratoconjunctivitis | 99.17% | L4 | Only microsporidial case series; chloramphenicol is not expected to be active against microsporidia |
+| Diffuse scleroderma | 0.9965 | L5 | Literature is basic fibroblast biology; chloramphenicol is probably only a reporter-assay reagent, so there is no therapeutic evidence |
+| Postinfectious vasculitis | 0.9958 | L5 | Prediction only; immune-mediated condition |
+| Post-bacterial disorder | 0.9957 | L5 | One observational susceptibility-profiling study (NCT05106803), not testing chloramphenicol as treatment |
+| Post-infectious syndrome | 0.9956 | L5 | Prediction only; no clear mechanistic link |
+| Infective urethral stricture | 0.9952 | L5 | Only a 1964 unrelated case report; stricture needs mechanical or surgical management |
+| Chagas cardiomyopathy | 0.9951 | L5 | Prediction only; no evidence against T. cruzi and bone marrow toxicity is a concern |
+| Infection-related haemolytic uraemic syndrome | 0.9950 | L5 | Prediction only; antibiotics are generally discouraged in Shiga toxin-producing E. coli HUS and chloramphenicol is haematotoxic, so safety is doubtful |
+| Punctate epithelial keratoconjunctivitis | 0.9917 | L5 | Only microsporidial case series; chloramphenicol is not expected to be active against microsporidia |
 
 ---
 

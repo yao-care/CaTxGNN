@@ -50,10 +50,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Metastatic malignant neoplasm of the colon |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.13% |
+| TxGNN Prediction Score | 0.9913 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,9 +64,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 EGFR signaling takes part in osteoblast differentiation and bone remodeling, so EGFR blockade could change bone turnover. The direction of the effect is unclear: blockade could impair osteoblast function, or it could reduce osteoclast-supporting signals. Panitumumab is also known to cause hypomagnesemia and hypocalcemia, which could harm bone health rather than help it.
 
-The very high TxGNN score (99.13%) is a computational prediction only. No clinical trials or literature support or contradict it, and the predicted benefit is biologically unconvincing. It may be an artifact of proximity in the knowledge graph.
+The very high TxGNN score (0.9913) is a computational prediction only. No clinical trials or literature support or contradict it, and the predicted benefit is biologically unconvincing. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Second-ranked prediction:** Severe nonproliferative diabetic retinopathy (score 99.05%, Evidence Level L5, Hold). EGFR signaling has been linked to retinal angiogenesis, inflammation and vascular permeability, and crosstalk with the VEGF pathway gives a plausible but speculative link. However, panitumumab is a large systemic antibody with limited ocular penetration. It also carries ocular and skin toxicity (e.g., keratitis), so its safety profile in a chronic, non-oncologic diabetic population is unfavorable. No clinical evidence is available for this indication either.
+**Second-ranked prediction:** Severe nonproliferative diabetic retinopathy (score 0.9905, Evidence Level L5, Hold). EGFR signaling has been linked to retinal angiogenesis, inflammation and vascular permeability, and crosstalk with the VEGF pathway gives a plausible but speculative link. However, panitumumab is a large systemic antibody with limited ocular penetration. It also carries ocular and skin toxicity (e.g., keratitis), so its safety profile in a chronic, non-oncologic diabetic population is unfavorable. No clinical evidence is available for this indication either.
 
 ---
 

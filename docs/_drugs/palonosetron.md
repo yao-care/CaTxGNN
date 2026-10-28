@@ -4,17 +4,17 @@ title: Palonosetron
 parent: Moderate Evidence (L3-L4)
 nav_order: 702
 evidence_level: L4
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L4). Approved use: Not listed in the Canadian license data compiled for this report"
 monitor_inn: "PALONOSETRON"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Palonosetron is a 5-HT3 receptor antagonist (an antiemetic) with marketed produc
 |------|------|
 | Original Indication | Not listed in the Canadian license data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,9 +59,8 @@ Currently, detailed mechanism of action data is not available in the data compil
 This reasoning has important limits. The score reflects network proximity, not clinical proof. The only clinical literature reports palonosetron-induced migraine-type headache. Headache is a recognised adverse effect of the 5-HT3 antagonist class. Taken together, the available evidence suggests a possible adverse effect rather than a treatment benefit.
 
 The other predicted indications are weaker still:
-- **Migraine with brainstem aura** (score 99.67%, L5): derived from similarity to other migraine subtypes, with no specific evidence.
-- **Migraine with or without aura, susceptibility to** (score 99.44%, L4): a genetic susceptibility phenotype rather than a treatable condition. The associated literature concerns headache as a side effect and QT prolongation, not efficacy.
-- **Atrophoderma vermiculata** (score 99.13%, L5) and **ulerythema ophryogenesis** (score 99.07%, L5): rare skin disorders with no identified mechanistic link to 5-HT3 blockade. These appear to be graph-prediction artifacts.
+- **Migraine with brainstem aura** (score 0.9967, L5): derived from similarity to other migraine subtypes, with no specific evidence.
+- **Atrophoderma vermiculata** (score 0.9913, L5) and **ulerythema ophryogenesis** (score 0.9907, L5): rare skin disorders with no identified mechanistic link to 5-HT3 blockade. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

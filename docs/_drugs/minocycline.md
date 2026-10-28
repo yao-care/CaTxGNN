@@ -6,9 +6,9 @@ nav_order: 619
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not stated in the Canadian licence records"
 monitor_inn: "MINOCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Minocycline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+## Minocycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently there are **0 clinical trials** and **0 publications** in the data
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian licence records; the knowledge graph lists urinary tract infection, bronchitis, acne, gonorrhea, periodontitis, pharyngitis and others |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The plausible mechanisms below come from general knowledge of the drug, not from the data compiled for this report. They include anti-inflammatory activity (inhibition of matrix metalloproteinase-9 and reduced cytokine production) and antimicrobial activity against bacteria on the ocular surface. Tetracycline-class drugs are already used for ocular surface inflammation, which makes the prediction biologically plausible.
 
-This link cannot be verified from the supplied data. The second-ranked prediction, **exposure keratitis** (score 99.20%), is even more speculative. Its main cause is corneal drying from incomplete eyelid closure, and lubrication and protection are the primary management. Any benefit from minocycline would be secondary, through reduced inflammation or prevention of secondary infection.
+This link cannot be verified from the supplied data. The second-ranked prediction, **exposure keratitis** (score 0.9920), is even more speculative. Its main cause is corneal drying from incomplete eyelid closure, and lubrication and protection are the primary management. Any benefit from minocycline would be secondary, through reduced inflammation or prevention of secondary infection.
 
 ## Clinical Trial Evidence
 
@@ -93,7 +93,7 @@ Package insert warnings and contraindications for the Canadian products have not
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score (99.63%) but no supporting clinical trials or publications (evidence level L5). Mechanism of action data and Canadian label safety information are also missing, so the prediction cannot yet be assessed beyond the model output.
+The prediction has a high model score (0.9963) but no supporting clinical trials or publications (evidence level L5). Mechanism of action data and Canadian label safety information are also missing, so the prediction cannot yet be assessed beyond the model output.
 
 **To proceed, the following is needed:**
 - A systematic literature search on minocycline (oral or topical ocular) for punctate epithelial keratoconjunctivitis and related ocular surface inflammation

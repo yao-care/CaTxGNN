@@ -4,17 +4,17 @@ title: Fluorometholone
 parent: Model Prediction Only (L5)
 nav_order: 397
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Fluorometholone: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Uveitis, iritis/iridocyclitis, conjunctivitis (atopic, vernal…"
 monitor_inn: "FLUOROMETHOLONE"
-predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "lens-induced iridocyclitis", "glaucomatocyclitic crisis"]
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
 ---
 
 # Fluorometholone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the other predictions, the more biologically plausible ones are punctate e
 |------|------|
 | Original Indication | Uveitis, iritis/iridocyclitis, conjunctivitis (atopic, vernal, papillary), corneal ulcer and related ocular inflammation (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Postinfectious vasculitis |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

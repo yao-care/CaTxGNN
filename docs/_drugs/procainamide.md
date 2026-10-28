@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 772
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Procainamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not stated in the Canadian license data (the drug is known as an anti…"
+last_modified_at: 2026-10-28
 monitor_inn: "Procainamide"
 predicted_indications: ["Tourette syndrome", "hyperthyroidism", "Prinzmetal angina", "methemoglobinemia, alpha type", "methemoglobinemia", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "methemoglobin reductase deficiency", "rheumatoid arthritis"]
+description: "Procainamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Procainamide
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Procainamide: From Arrhythmia Treatment to Tourette Syndrome
+## Procainamide: Tourette syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Procainamide is an injectable antiarrhythmic (a class Ia sodium channel blocker) marketed in Canada as Procainamide Hydrochloride Injection USP.
-The TxGNN model predicts it may be effective for **Tourette syndrome**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
+The TxGNN model (deep learning) predicts it may be effective for **Tourette syndrome**, but this score may reflect similarities the model learned between related diseases, not biological evidence, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but this
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Canadian license data (the drug is known as an antiarrhythmic) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **Tourette syndrome**, but this
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Procainamide is generally known as a class Ia sodium channel blocker used for heart rhythm disorders. It has no known action on the dopaminergic or cortico-striatal circuitry implicated in Tourette syndrome.
 
-No plausible mechanistic bridge between the original use (arrhythmia) and the predicted use (a neurodevelopmental tic disorder) is evident. The high TxGNN score reflects a pattern in the knowledge graph, not supporting trials or literature. The prediction should be treated as a weak hypothesis only.
+No plausible mechanistic bridge between the original use (arrhythmia) and the predicted use (a neurodevelopmental tic disorder) is evident. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; no trials or literature support it. The prediction should be treated as a weak hypothesis only.
 
 ---
 
@@ -105,7 +105,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The Tourette syndrome prediction rests only on a graph score. There are no trials, no literature, and no plausible mechanism. The drug also carries significant cardiac, haematological and autoimmune safety concerns.
+The Tourette syndrome prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials, no literature, and no plausible mechanism. The drug also carries significant cardiac, hematological and autoimmune safety concerns.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings, contraindications, and approved indication text (a blocking gap for safety screening)
@@ -119,10 +119,10 @@ The Tourette syndrome prediction rests only on a graph score. There are no trial
 
 Other predictions in the data compiled for this report also have no clinical trials and no supporting evidence. All are rated Hold:
 
-- **Hyperthyroidism** (99.44%): L5. The retrieved papers address atrial fibrillation rate control and drug-induced vasculitis, not treatment of hyperthyroidism.
-- **Prinzmetal angina** (99.43%): L4. The papers cover arrhythmias complicating variant angina, and class Ia agents may provoke torsades de pointes.
-- **Rheumatoid arthritis** (99.12%): L4. The literature shows procainamide *inducing* autoimmunity (drug-induced lupus), which is a safety signal rather than support.
-- **Methemoglobinemia, alpha type** (99.40%), **methemoglobinemia** (99.33%), **methemoglobin reductase deficiency** (99.20%), **nephrogenic syndrome of inappropriate antidiuresis** (99.27%), **trichotillomania** (99.26%), and **resistance to thyroid hormone (THRB mutation)** (99.22%): L5, with no plausible mechanism or evidence.
+- **Hyperthyroidism** (0.9944): L5. The retrieved papers address atrial fibrillation rate control and drug-induced vasculitis, not treatment of hyperthyroidism.
+- **Prinzmetal angina** (0.9944): L4. The papers cover arrhythmias complicating variant angina, and class Ia agents may provoke torsades de pointes.
+- **Rheumatoid arthritis** (0.9912): L4. The literature shows procainamide *inducing* autoimmunity (drug-induced lupus), which is a safety signal rather than support.
+- **Methemoglobinemia, alpha type** (0.9940), **methemoglobinemia** (0.9933), **methemoglobin reductase deficiency** (0.9920), **nephrogenic syndrome of inappropriate antidiuresis** (0.9927), **trichotillomania** (0.9926), and **resistance to thyroid hormone (THRB mutation)** (0.9922): L5, with no plausible mechanism or evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

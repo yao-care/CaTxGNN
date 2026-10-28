@@ -6,9 +6,9 @@ nav_order: 331
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
+description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Entacapone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Entacapone: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+## Entacapone: PLA2G6-associated neurodegeneration
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but **no clinical trials and no publications** currently support this specific p
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease (the Canadian licence records contain no indication text, so this comes from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 8 |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
+| Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on what is known, entacapone is a catechol-O-methyltransferase (COMT) inhibitor used alongside levodopa. By slowing levodopa breakdown, it prolongs the levodopa effect in Parkinson disease.
 
-PLA2G6-associated neurodegeneration includes dystonia-parkinsonism presentations. This overlaps with the motor features of Parkinson disease, so symptomatic dopaminergic modulation is plausible. However, entacapone only extends the action of levodopa. It does not address the underlying lipid-metabolism and neurodegenerative pathology of this disease. The high score may partly reflect the closeness of the disease to parkinsonism in the knowledge graph rather than independent biological evidence.
+PLA2G6-associated neurodegeneration includes dystonia-parkinsonism presentations. This overlaps with the motor features of Parkinson disease, so symptomatic dopaminergic modulation is plausible. However, entacapone only extends the action of levodopa. It does not address the underlying lipid-metabolism and neurodegenerative pathology of this disease. The high score of 0.9976 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -100,16 +100,16 @@ Please refer to the package insert for official warnings and contraindications, 
 
 | Rank | Predicted Indication | Score | Evidence Level | Note |
 |---|---|---|---|---|
-| 1 | PLA2G6-associated neurodegeneration | 99.76% | L5 | Dystonia-parkinsonism overlap; no trials or literature |
-| 2 | Rasmussen subacute encephalitis | 99.73% | L5 | Immune-mediated; no clear mechanistic link |
-| 3 | Myelitis | 99.63% | L5 | No known mechanistic link |
-| 4 | Paralysis agitans, juvenile, of Hunt | 99.60% | L5 | Close to the original indication, but possibly an ontology-proximity effect |
-| 5 | Transaldolase deficiency | 99.43% | L5 | Metabolic disorder; no plausible link |
-| 6 | Lethal infantile mitochondrial myopathy | 99.28% | L5 | No mechanism; hepatic safety concern |
-| 7 | Lewy body dementia | 99.25% | L4 | Shared alpha-synuclein and dopaminergic pathology; preclinical studies only |
-| 8 | Fructose-1,6-bisphosphatase deficiency | 99.22% | L5 | No mechanistic link |
-| 9 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.06% | L5 | Structural developmental defect |
-| 10 | Progressive supranuclear palsy-corticobasal syndrome | 99.04% | L5 | Tauopathies respond poorly to levodopa-based therapy |
+| 1 | PLA2G6-associated neurodegeneration | 0.9976 | L5 | Dystonia-parkinsonism overlap; no trials or literature |
+| 2 | Rasmussen subacute encephalitis | 0.9973 | L5 | Immune-mediated; no clear mechanistic link |
+| 3 | Myelitis | 0.9963 | L5 | No known mechanistic link |
+| 4 | Paralysis agitans, juvenile, of Hunt | 0.9960 | L5 | Close to the original indication, but possibly an ontology-proximity effect |
+| 5 | Transaldolase deficiency | 0.9943 | L5 | Metabolic disorder; no plausible link |
+| 6 | Lethal infantile mitochondrial myopathy | 0.9928 | L5 | No mechanism; hepatic safety concern |
+| 7 | Lewy body dementia | 0.9925 | L5 | Shared alpha-synuclein and dopaminergic pathology; preclinical studies only |
+| 8 | Fructose-1,6-bisphosphatase deficiency | 0.9922 | L5 | No mechanistic link |
+| 9 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 0.9906 | L5 | Structural developmental defect |
+| 10 | Progressive supranuclear palsy-corticobasal syndrome | 0.9904 | L5 | Tauopathies respond poorly to levodopa-based therapy |
 
 Two lower-ranked predictions have a small amount of related material:
 

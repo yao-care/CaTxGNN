@@ -48,21 +48,21 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Parkinson disease (and related parkinsonian syndromes) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Safinamide is a reversible MAO-B inhibitor. It also blocks voltage-gated sodium channels and inhibits glutamate release. Together, these actions could plausibly relate to the excitotoxicity and seizure activity seen in Rasmussen encephalitis.
 
-However, the original indication (Parkinson disease) is a neurodegenerative movement disorder, whereas Rasmussen encephalitis is driven mainly by T-cell-mediated autoimmune inflammation of one cerebral hemisphere. Safinamide does not address this immune mechanism. The link therefore rests on the high TxGNN score (0.996) alone, with no supporting clinical or literature evidence.
+However, the original indication (Parkinson disease) is a neurodegenerative movement disorder, whereas Rasmussen encephalitis is driven mainly by T-cell-mediated autoimmune inflammation of one cerebral hemisphere. Safinamide does not address this immune mechanism. The link therefore rests on the high TxGNN score (0.9963) alone, with no supporting clinical or literature evidence.
 
 Other predictions for this drug are weaker or similarly unsupported:
-- **Myelitis** (score 99.46%): No established mechanistic rationale for treating spinal cord inflammation.
-- **PLA2G6-associated neurodegeneration** (score 99.22%): The parkinsonian phenotype overlaps with the approved indication, so symptomatic dopaminergic support is conceivable. This is the most plausible symptomatic rationale of the three, but it remains a hypothesis and would not alter the underlying disease.
+- **Myelitis** (score 0.9946): No established mechanistic rationale for treating spinal cord inflammation.
+- **PLA2G6-associated neurodegeneration** (score 0.9922): The parkinsonian phenotype overlaps with the approved indication, so symptomatic dopaminergic support is conceivable. This is the most plausible symptomatic rationale of the three, but it remains a hypothesis and would not alter the underlying disease.
 
 ## Clinical Trial Evidence
 

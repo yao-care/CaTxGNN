@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Clarithromycin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 202
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L4). Approved use: Bacterial infections, including infectious otitis media…"
@@ -14,7 +14,7 @@ predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome",
 # Clarithromycin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 |------|------|
 | Original Indication | Bacterial infections, including infectious otitis media, streptococcal infection, bacterial pneumonia, staphylococcal infection, maxillary sinusitis, Mycoplasma pneumoniae pneumonia (Canadian license indication text not available) |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.35% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9935 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 
 Currently, detailed mechanism of action data is not available. Based on known information, clarithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, ear and sinus infections is established, but no mechanism is known that would make it applicable to hyperamylasemia.
 
-The only retrieved publication describes a patient with *Mycobacterium abscessus* lung infection who also had primary macroamylasemia. Clarithromycin was most likely used to treat the infection, not the raised amylase. Macrolides have also occasionally been associated with pancreatic enzyme changes or pancreatitis, so a therapeutic role is not supported. The high score (0.993) is a computational prediction only and should not be read as clinical support.
+The only retrieved publication describes a patient with *Mycobacterium abscessus* lung infection who also had primary macroamylasemia. Clarithromycin was most likely used to treat the infection, not the raised amylase. Macrolides have also occasionally been associated with pancreatic enzyme changes or pancreatitis, so a therapeutic role is not supported. The high score (0.9935) is a computational prediction only and should not be read as clinical support.
 
 ---
 
@@ -113,7 +113,7 @@ The prediction rests on a model score alone. There are no registered trials, and
 - Mechanism of action data and a plausible biological link to hyperamylasemia
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Controlled or observational studies of clarithromycin's effect on amylase levels
-- Review of the other predicted indications. Punctate epithelial keratoconjunctivitis (score 99.1%, one 2024 observational study, Research Question) has a more plausible link through the anti-inflammatory effects of macrolides, but it still needs confirmation that clarithromycin itself was evaluated.
+- Review of the other predicted indications. Punctate epithelial keratoconjunctivitis (score 0.9911, one 2024 observational study, Research Question) has a more plausible link through the anti-inflammatory effects of macrolides, but it still needs confirmation that clarithromycin itself was evaluated.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Inclisiran
 parent: Model Prediction Only (L5)
 nav_order: 476
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Inclisiran: predicted new indication Potassium deficiency disease (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Inclisiran"
-predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **potassium deficiency disease*
 |------|------|
 | Original Indication | Not available in the compiled data (the Canadian licence record has no indication text) |
 | Predicted New Indication | Potassium deficiency disease |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **potassium deficiency disease*
 
 Detailed mechanism of action data is not available in the compiled data. Based on general knowledge, inclisiran is an siRNA that silences hepatic PCSK9 expression. This increases LDL-receptor recycling and lowers LDL-C.
 
-Review of the prediction finds **no plausible mechanistic link** between PCSK9 silencing and potassium homeostasis. The very high TxGNN score reflects a graph-based computational association, not biological or clinical support. No trial or literature data back it up.
+Review of the prediction finds **no plausible mechanistic link** between PCSK9 silencing and potassium homeostasis. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trial or literature data back it up.
 
 The other top-ranked predictions show the same pattern. These include esophageal disease, migraine disorders, atypical coarctation of the aorta, Raynaud disease and others. None has a clear mechanistic rationale, and none has supporting evidence.
 

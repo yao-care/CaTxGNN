@@ -6,9 +6,9 @@ nav_order: 744
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Pitolisant: predicted new indication Insomnia (evidence level L5). Approved use: Narcolepsy (with or without cataplexy). Health Canada indication text…"
 monitor_inn: "Pitolisant"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
+description: "Pitolisant: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pitolisant
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Pitolisant: From Narcolepsy to Insomnia
+## Pitolisant: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is mechanistically questionable, because pitolisant is a wake-pro
 
 | Item | Content |
 |------|------|
-| Original Indication | Narcolepsy (with or without cataplexy). Health Canada indication text was not available, so this is taken from the drug's known indications in the knowledge graph. |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 (no trials; mechanism and review-level literature only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 (no trials; mechanism and review-level literature only) |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction is mechanistically questionable, because pitolisant is a wake-pro
 
 Detailed mechanism of action data is not available in the compiled data. From the literature, pitolisant is a selective histamine H3 receptor antagonist/inverse agonist. By blocking the H3 autoreceptor, it increases histamine release in the brain and promotes wakefulness. That is why it works for excessive daytime sleepiness in narcolepsy.
 
-The relationship between the original and predicted indications is weak. Both are sleep-wake disorders, which is likely why the knowledge graph links them. However, they call for opposite pharmacological effects. Narcolepsy treatment needs more arousal, while insomnia treatment needs less. Enhancing histaminergic signalling would more plausibly worsen insomnia, and insomnia is a recognised side effect of pitolisant. The high score (0.997) is therefore most likely a graph-based association rather than a true therapeutic rationale. Any benefit would probably be limited to indirect situations, such as residual daytime sleepiness in related sleep disorders.
+The relationship between the original and predicted indications is weak. Both are sleep-wake disorders, which is likely why the TxGNN model (deep learning) links them. However, they call for opposite pharmacological effects. Narcolepsy treatment needs more arousal, while insomnia treatment needs less. Enhancing histaminergic signaling would more plausibly worsen insomnia, and insomnia is a recognized side effect of pitolisant. The high score (0.9971) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it is not a true therapeutic rationale. Any benefit would probably be limited to indirect situations, such as residual daytime sleepiness in related sleep disorders.
 
 ---
 
@@ -114,7 +114,7 @@ Please refer to the package insert for warnings and contraindications, which wer
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trial support and no insomnia-specific literature. Pitolisant's wake-promoting mechanism runs opposite to what insomnia treatment requires, and insomnia is a known side effect. The high model score appears to reflect a graph association rather than a therapeutic rationale.
+The prediction has no clinical trial support and no insomnia-specific literature. Pitolisant's wake-promoting mechanism runs opposite to what insomnia treatment requires, and insomnia is a known side effect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic rationale.
 
 **To proceed, the following is needed:**
 - A clear mechanistic argument for why H3 inverse agonism would help insomnia, or evidence that it would not worsen it
@@ -124,8 +124,8 @@ The prediction has no clinical trial support and no insomnia-specific literature
 - Review of the major interactions (bupropion, dolasetron) for any proposed use
 
 **Other predicted indications (for reference):**
-- **Attention deficit-hyperactivity disorder (score 99.36%, L4, research question):** H3 antagonism increases release of histamine, acetylcholine, norepinephrine and dopamine in the prefrontal cortex, which is a plausible basis for improving attention. Support is limited to preclinical and review-level literature, with no ADHD-specific pitolisant trials. Pediatric narcolepsy data show tolerability in children. This is a reasonable hypothesis worth a dedicated study.
-- **Faciodigitogenital syndrome (score 99.29%, L5, Hold):** This rare X-linked developmental disorder (caused by FGD1 mutations) has no plausible link to H3 receptor modulation. There are no trials or literature, so this is likely a prediction artifact.
+- **Attention deficit-hyperactivity disorder (score 0.9936, L4, research question):** H3 antagonism increases release of histamine, acetylcholine, norepinephrine and dopamine in the prefrontal cortex, which is a plausible basis for improving attention. Support is limited to preclinical and review-level literature, with no ADHD-specific pitolisant trials. Pediatric narcolepsy data show tolerability in children. This is a reasonable hypothesis worth a dedicated study.
+- **Faciodigitogenital syndrome (score 0.9929, L5, Hold):** This rare X-linked developmental disorder (caused by FGD1 mutations) has no plausible link to H3 receptor modulation. There are no trials or literature, so this is likely a prediction artifact.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

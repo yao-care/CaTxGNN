@@ -6,9 +6,9 @@ nav_order: 902
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-13
-description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "TETRACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
+description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetracaine
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Tetracaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Tetracaine: Acrodermatitis chronica atrophicans
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tetracaine is an ester local anaesthetic, originally associated with dermatitis in the knowledge graph used for this analysis and marketed in Canada mainly as a topical anaesthetic.
+Tetracaine is an ester local anesthetic, whose TxGNN model (deep learning) prediction for acrodermatitis chronica atrophicans may reflect similarities the model learned between related diseases, and it is marketed in Canada mainly as a topical anesthetic.
 The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, but **no clinical trials and no publications** currently support this prediction.
 The prediction rests on model output alone and should be treated as a hypothesis.
 
@@ -48,12 +48,12 @@ The prediction rests on model output alone and should be treated as a hypothesis
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 7 |
+| Canada Market Status | Marketed (valid licenses: 7 of 7) |
+| Number of DINs | 7 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction rests on model output alone and should be treated as a hypothesis
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, tetracaine is an ester local anaesthetic that blocks voltage-gated sodium channels, which reduces nerve conduction and produces local numbness.
 
-Acrodermatitis chronica atrophicans is a late-stage skin manifestation of *Borrelia* infection (Lyme disease). Sodium channel blockade does not act on this infection or on its skin atrophy. No credible mechanistic link could be established. The high score (rank 1,884 in the model's overall ranking) is best read as a knowledge-graph association, probably driven by the shared "skin disease" context with dermatitis, and not as evidence of therapeutic benefit.
+Acrodermatitis chronica atrophicans is a late-stage skin manifestation of *Borrelia* infection (Lyme disease). Sodium channel blockade does not act on this infection or on its skin atrophy. No credible mechanistic link could be established. The high score (rank 1,884 in the model's overall ranking) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, probably driven by the shared "skin disease" context with dermatitis, not biological evidence of therapeutic benefit.
 
 Other top-ranked predictions show the same pattern. These include neonatal dermatomyositis, amyopathic dermatomyositis, hydroa vacciniforme, bronchitis, childhood connective-tissue-disease-associated interstitial lung disease, and irritable bowel syndrome. At best, tetracaine could give symptomatic topical anaesthesia, which does not modify the disease.
 

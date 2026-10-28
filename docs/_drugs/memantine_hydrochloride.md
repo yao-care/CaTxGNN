@@ -8,6 +8,7 @@ nav_order: 584
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Memantine Hydrochloride
@@ -51,8 +52,8 @@ This report documents the identified gaps and outlines the remediation steps req
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — insufficient data to classify |
-| Canada Market Status | Not Marketed (0 DINs on record) |
-| Number of DINs | 0 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | **Hold** |
 
 ---

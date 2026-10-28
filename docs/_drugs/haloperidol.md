@@ -50,10 +50,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Psychotic disorders, schizophrenia and related conditions (schizophreniform and schizoaffective disorder), Tourette syndrome |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 9 |
+| Canada Market Status | Marketed (valid licenses: 9 of 9) |
+| Number of DINs | 9 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 Haloperidol is a dopamine D2 receptor antagonist. Detailed mechanism of action data was not available in the data compiled for this report, so this description rests on the drug's well-established pharmacology. Its efficacy in psychotic disorders, schizophrenia and Tourette syndrome is long established.
 
-For this prediction, **no mechanistic link could be identified**. Congenital disorders of glycosylation with defective fucosylation involve problems in fucose metabolism or transport (for example, GDP-fucose transport). Dopamine receptor blockade has no known connection to these pathways. The high score (0.999) reflects a pattern found by the model in a knowledge graph, not biological or clinical evidence. The similarity between the original and predicted indications has not been assessed.
+For this prediction, **no mechanistic link could be identified**. Congenital disorders of glycosylation with defective fucosylation involve problems in fucose metabolism or transport (for example, GDP-fucose transport). Dopamine receptor blockade has no known connection to these pathways. The high score (0.9991) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The similarity between the original and predicted indications has not been assessed.
 
 ---
 

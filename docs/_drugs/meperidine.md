@@ -50,10 +50,10 @@ The prediction rests only on a model score and should not be treated as clinical
 |------|------|
 | Original Indication | Not specified in the available data |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,9 +64,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 A plausible but unverified link is that the opioid system modulates the dopaminergic and cortico-striatal-thalamo-cortical circuits implicated in tics. This reasoning rests on general knowledge, not on the supplied dataset.
 
-There are significant concerns. Mu-opioid agonism carries risks of dependence and respiratory depression. Meperidine's active metabolite, normeperidine, is neurotoxic and can cause seizures. The model's high score reflects network proximity in a knowledge graph and cannot be regarded as evidence of therapeutic benefit.
+There are significant concerns. Mu-opioid agonism carries risks of dependence and respiratory depression. Meperidine's active metabolite, normeperidine, is neurotoxic and can cause seizures. The model's high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it cannot be regarded as evidence of therapeutic benefit.
 
-A second predicted indication, **trichotillomania** (score 99.39%, also L5, Hold), has no supporting trials or literature either. It is mechanistically questionable, because opioid antagonists such as naltrexone, not agonists, have been studied for this condition.
+A second predicted indication, **trichotillomania** (score 0.9939, also L5, Hold), has no supporting trials or literature either. It is mechanistically questionable, because opioid antagonists such as naltrexone, not agonists, have been studied for this condition.
 
 ---
 

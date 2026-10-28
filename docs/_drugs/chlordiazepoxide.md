@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlordiazepoxide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 182
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Chlordiazepoxide: predicted new indication Insomnia (evidence level L4). Approved use: Anxiety, alcohol withdrawal, mixed anxiety and depressive disorder"
 monitor_inn: "Chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "myofascial pain syndrome"]
+description: "Chlordiazepoxide: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chlordiazepoxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Chlordiazepoxide: From Anxiety and Alcohol Withdrawal to Insomnia
+## Chlordiazepoxide: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **insomnia**, but there are **n
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety, alcohol withdrawal, mixed anxiety and depressive disorder (from the knowledge graph; no approved indication text is available for the Canadian licences) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.998% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

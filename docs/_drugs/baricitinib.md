@@ -50,10 +50,10 @@ but **0 clinical trials** and **0 publications** currently support this predicti
 |------|------|
 | Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,9 +64,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The predicted condition is a rare congenital malformation syndrome involving eye defects (coloboma and microphthalmia) and skeletal shortening (rhizomelic dysplasia). Nothing in the compiled data connects JAK-STAT inhibition to the biology of this condition. Because it is a developmental disorder, an anti-inflammatory mechanism seems biologically implausible without further evidence.
 
-The very high TxGNN score (99.94%) is a computational prediction only. It is not backed by trials or literature, so it should be treated as a likely false positive until a plausible biological pathway is shown.
+The very high TxGNN score (0.9994) is a computational prediction only. It is not backed by trials or literature, so it should be treated as a likely false positive until a plausible biological pathway is shown.
 
-**Second predicted indication:** The model also ranks *brachydactyly-syndactyly syndrome* (score 99.94%, also Evidence Level L5, Hold). It likewise has no trials or literature, and it is a structural limb malformation with no demonstrated link to JAK inhibition.
+**Second predicted indication:** The model also ranks *brachydactyly-syndactyly syndrome* (score 0.9994, also Evidence Level L5, Hold). It likewise has no trials or literature, and it is a structural limb malformation with no demonstrated link to JAK inhibition.
 
 ---
 

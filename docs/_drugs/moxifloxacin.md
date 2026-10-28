@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: Model Prediction Only (L5)
 nav_order: 633
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia, peritonitis…"
 monitor_inn: "MOXIFLOXACIN"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
+description: "Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Moxifloxacin: From Bacterial Infections (Streptococcal Infection, Pneumonia, Plague) to Polyclonal Hyperviscosity Syndrome
+## Moxifloxacin: Polyclonal hyperviscosity syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Moxifloxacin is a fluoroquinolone antibiotic originally used for bacterial infections such as streptococcal infection, bacterial pneumonia, peritonitis, conjunctivitis and plague.
 The TxGNN model gives its top prediction as **Polyclonal Hyperviscosity Syndrome**, but **no clinical trials and no publications** support this prediction.
-The best-supported candidate among the ten predictions is **bubonic plague**, which has **5 publications** (preclinical studies plus one adverse-event case report) and no human trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Streptococcal infection, bacterial pneumonia, peritonitis, staphylococcal infection, conjunctivitis, plague (from the knowledge graph; no approved indication text is available for Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Moxifloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in bacterial infections is well established.
 
-For the top-ranked prediction, polyclonal hyperviscosity syndrome, no plausible mechanistic link was identified. An antibacterial has no known effect on serum viscosity or immunoglobulin levels, so the high score (99.98%) appears to be an artifact of the knowledge graph rather than a real signal. The same applies to most other top predictions, such as hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological disease, and hematopoietic and lymphoid neoplasm. All have no or only indirect evidence.
+For the top-ranked prediction, polyclonal hyperviscosity syndrome, no plausible mechanistic link was identified. An antibacterial has no known effect on serum viscosity or immunoglobulin levels, so the high score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to most other top predictions, such as hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological disease, and hematopoietic and lymphoid neoplasm. All have no or only indirect evidence.
 
-The one exception is **bubonic plague** (rank 10, score 99.41%). Moxifloxacin is active against *Yersinia pestis*, and plague and pneumonic plague are already among its original indications. Bubonic plague is therefore a close extension of an existing use, not a true new indication.
 
 ## Clinical Trial Evidence
 
@@ -74,7 +72,7 @@ No clinical trials are registered for the top-ranked prediction (polyclonal hype
 
 ## Literature Evidence
 
-No publications are available for the top-ranked prediction. The most relevant publications, linked to bubonic plague, are below.
+No publications are available for the top-ranked prediction.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -118,7 +116,7 @@ Safety is also relevant to some predictions. Fluoroquinolones carry a labelled r
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predictions, including polyclonal hyperviscosity syndrome, are supported only by model scores. They have no trials, no relevant literature and no plausible mechanism, so they look like graph artifacts. Bubonic plague is the only credible candidate, but it is essentially an extension of an existing indication and rests on preclinical data without human trials.
+The top-ranked predictions, including polyclonal hyperviscosity syndrome, are supported only by model scores. They have no trials, no relevant literature and no plausible mechanism, so the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, to complete the safety screening

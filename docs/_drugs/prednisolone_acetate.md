@@ -6,9 +6,9 @@ nav_order: 766
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Uveitis, iris and ciliary body disease, panuveitis, conjunctivitis…"
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
+description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prednisolone Acetate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Prednisolone Acetate: From Uveitis and Conjunctivitis to Conjunctival Folliculosis
+## Prednisolone Acetate: Conjunctival folliculosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The most evidence-supported candidate among the ten predictions is **vernal conj
 
 | Item | Content |
 |------|------|
-| Original Indication | Uveitis, iris and ciliary body disease, panuveitis, conjunctivitis, iridocyclitis, blepharoconjunctivitis (the Canadian licence records contain no indication text; these come from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Conjunctival folliculosis |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

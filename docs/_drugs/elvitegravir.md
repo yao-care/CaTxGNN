@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Elvitegravir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Elvitegravir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,17 +47,17 @@ The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency sy
 |------|------|
 | Original Indication | HIV infection, AIDS (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome (rank 1, no evidence); the best-supported prediction is SIV infection (rank 2) |
-| TxGNN Prediction Score | 99.89% (both feline AIDS and SIV infection) |
+| TxGNN Prediction Score | 0.9989 (both feline AIDS and SIV infection) |
 | Evidence Level | L5 for feline AIDS; L4 for SIV infection |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, elvitegravir is an HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome, and its efficacy in HIV infection is established.
 
-**Feline AIDS (rank 1).** The feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1 and also encodes an integrase enzyme, so activity is biologically plausible. However, there are no trials, no literature, and no laboratory data on FIV. The high score is a computational prediction, most likely driven by the disease's similarity to HIV/AIDS in the knowledge graph. Differences between the FIV and HIV-1 integrase sequences could reduce susceptibility, and this has not been tested.
+**Feline AIDS (rank 1).** The feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1 and also encodes an integrase enzyme, so activity is biologically plausible. However, there are no trials, no literature, and no laboratory data on FIV. The high score is a computational prediction from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the disease's similarity to HIV/AIDS, not biological evidence. Differences between the FIV and HIV-1 integrase sequences could reduce susceptibility, and this has not been tested.
 
 **SIV infection (rank 2).** SIV and HIV-1 integrases are closely related, and the preclinical literature shows that SIVmac239 is susceptible to integrase inhibitors and develops similar resistance mutations. Macaque studies of topical tenofovir alafenamide/elvitegravir inserts showed protection against SHIV (a simian/human hybrid virus). SIV infection is not a human clinical indication, so its realistic value is as a preclinical model for HIV prevention and treatment, which overlaps with elvitegravir's existing indication. The one prophylaxis study with elvitegravir in the rectal model showed only partial protection.
 

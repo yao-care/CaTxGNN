@@ -48,10 +48,10 @@ but evidence for this specific indication is limited: **4 early-phase clinical t
 |------|------|
 | Original Indication | Primary cutaneous T-cell lymphoma (the Canadian licence record contains no indication text) |
 | Predicted New Indication | Primary cutaneous B-cell lymphoma |
-| TxGNN Prediction Score | 99.21% |
-| Evidence Level | L3 (supportive evidence is indirect; no completed Phase 2/3 trial in this indication) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9921 |
+| Evidence Level | L5 (supportive evidence is indirect; no completed Phase 2/3 trial in this indication) |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?
@@ -117,7 +117,7 @@ The only support for primary cutaneous B-cell lymphoma is a high computational s
 
 ## Additional Note: Second Predicted Indication, Sezary Syndrome
 
-The second prediction, **Sezary syndrome** (score 99.07%), is a leukaemic variant of cutaneous T-cell lymphoma, vorinostat's original indication. It is therefore essentially an on-label or closely related use rather than true repurposing.
+The second prediction, **Sezary syndrome** (score 0.9907), is a leukaemic variant of cutaneous T-cell lymphoma, vorinostat's original indication. It is therefore essentially an on-label or closely related use rather than true repurposing.
 
 - **Evidence level:** L1, with a recommendation of **Proceed with Guardrails**.
 - **Key trials:**

@@ -4,17 +4,17 @@ title: Conjugated Estrogens
 parent: Moderate Evidence (L3-L4)
 nav_order: 225
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Conjugated Estrogens: predicted new indication Migraine disorder (evidence level L3). Approved use: Psychologic dyspareunia"
+indication_count: 9
+last_modified_at: 2026-10-28
 monitor_inn: "Conjugated estrogens"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "migraine with or without aura, susceptibility to", "thrombophilia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "thrombophilia"]
+description: "Conjugated Estrogens: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Conjugated Estrogens
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Conjugated Estrogens: From Psychologic Dyspareunia to Migraine Disorder
+## Conjugated Estrogens: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychologic dyspareunia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -131,12 +131,11 @@ The prediction score is high, but the supporting evidence is limited to reviews 
 
 The other predictions have weaker support or raise safety concerns:
 
-- **Migraine with or without aura, susceptibility to** (99.37%, L3): shares the migraine literature, with the same mixed results and stroke concern.
-- **Migraine with brainstem aura** (99.74%, L4): the literature addresses general migraine, not this subtype, and estrogen raises stroke concern with aura.
-- **Rheumatoid arthritis** (99.55%, L4): only one animal study of a conjugated estrogen and bazedoxifene combination; no human evidence.
+- **Migraine with brainstem aura** (0.9974, L4): the literature addresses general migraine, not this subtype, and estrogen raises stroke concern with aura.
+- **Rheumatoid arthritis** (0.9955, L4): only one animal study of a conjugated estrogen and bazedoxifene combination; no human evidence.
 - **Antithrombin deficiency type 2, factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency, thrombophilia**: these are prothrombotic conditions, and estrogen would be expected to increase thrombotic risk. The predictions likely reflect disease associations, not therapeutic benefit.
-- **Prinzmetal angina** (99.53%, L5): model prediction only, with no evidence.
-- **Hemoglobinopathy** (99.44%, L4): the only paper is an endocrine observation in thalassemia and does not support a therapeutic indication.
+- **Prinzmetal angina** (0.9954, L5): model prediction only, with no evidence.
+- **Hemoglobinopathy** (0.9944, L4): the only paper is an endocrine observation in thalassemia and does not support a therapeutic indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

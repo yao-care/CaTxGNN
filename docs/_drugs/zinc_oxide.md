@@ -6,9 +6,9 @@ nav_order: 992
 evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Tinea pedis, dermatitis, tinea corporis, cutaneous candidiasis…"
 monitor_inn: "ZINC OXIDE"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
+description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Oxide
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Zinc Oxide: From Skin Conditions to Acne
+## Zinc Oxide: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,11 +47,11 @@ The TxGNN model predicts it may be effective for **acne**, but there are **no re
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, dermatitis, tinea corporis, cutaneous candidiasis, hemorrhoids, burns (from the knowledge graph; no approved indication text is available for Canadian products) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

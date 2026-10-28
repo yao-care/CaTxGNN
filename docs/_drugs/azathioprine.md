@@ -4,17 +4,17 @@ title: Azathioprine
 parent: Model Prediction Only (L5)
 nav_order: 89
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Azathioprine: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "AZATHIOPRINE"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Azathioprine is an immunosuppressant originally used for rheumatoid arthritis.
 The TxGNN model's top-ranked prediction is **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental malformation syndrome, but there are **0 clinical trials** and **0 publications** supporting it, so this result is most likely a model artifact.
-The best-supported predictions further down the list are **inflammatory bowel disease** (22 trials, 20 publications) and **ulcerative colitis** (15 trials, 20 publications). These are already established clinical uses rather than new discoveries.
 
 ---
 
@@ -50,13 +49,13 @@ The best-supported predictions further down the list are **inflammatory bowel di
 |------|------|
 | Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
-*Note: The approved indication text was not available in the Canadian licence records. The original indication shown is taken from the knowledge-graph indication edge.*
+*Note: The approved indication text was not available in the Canadian licence records.*
 
 ---
 
@@ -64,14 +63,13 @@ The best-supported predictions further down the list are **inflammatory bowel di
 
 Detailed mechanism-of-action data is not currently available. Based on known information, azathioprine is a thiopurine immunosuppressant. It is converted to 6-mercaptopurine and then to thioguanine nucleotides, which inhibit purine synthesis and suppress lymphocyte function. Its efficacy in rheumatoid arthritis, an immune-mediated condition, is established.
 
-**For the top-ranked prediction, there is no identifiable mechanistic link.** Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare developmental malformation syndrome, and immunosuppression has no plausible relevance to its pathogenesis. The very high score (0.99999) most likely reflects a graph-embedding artifact. The next-ranked prediction, brachydactyly-syndactyly syndrome (a congenital limb malformation), has the same problem.
+**For the top-ranked prediction, there is no identifiable mechanistic link.** Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare developmental malformation syndrome, and immunosuppression has no plausible relevance to its pathogenesis. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The next-ranked prediction, brachydactyly-syndactyly syndrome (a congenital limb malformation), has the same problem.
 
 Other high-scoring predictions share this weakness:
 - **WHIM syndrome** and **chronic granulomatous disease variants**: these are immunodeficiencies. Azathioprine's myelosuppression and infection risk make the mechanistic direction likely unfavourable.
 - **Osteoarthritis**: it is mainly degenerative, and azathioprine's role in rheumatoid arthritis does not transfer to it.
 - **Acromesomelic dysplasia, Hunter-Thompson type**: this is a genetic skeletal dysplasia with no plausible link.
 
-**The only biologically plausible predictions are inflammatory bowel disease (IBD) and ulcerative colitis.** Thiopurine-mediated T-cell apoptosis reduces mucosal immune-mediated inflammation. Azathioprine is already widely used for steroid-sparing maintenance of remission in these conditions. They are therefore established uses, not novel repurposing findings.
 
 ---
 
@@ -145,7 +143,7 @@ Please refer to the package insert for the full official warnings and contraindi
 **Decision: Hold** (for the top-ranked prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 
 **Rationale:**
-The top prediction has a very high model score but no clinical trials, no literature, and no plausible mechanism. It is evidence level L5 and most likely a graph artifact. The same applies to the other developmental and skeletal syndromes in the top ten. For comparison, inflammatory bowel disease and ulcerative colitis are rated L1 with a "Proceed with Guardrails" recommendation. They are not novel findings, though, because azathioprine is already established in these conditions, and many of the supporting trials use azathioprine only as a comparator or combination partner, with several terminated early with small enrollment.
+The top prediction has a very high model score but no clinical trials, no literature, and no plausible mechanism. It is evidence level L5, and its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the other developmental and skeletal syndromes in the top ten.
 
 **To proceed, the following is needed:**
 - For the top prediction: independent biological evidence linking azathioprine to the disease mechanism, which is currently absent. Without it, no further development is recommended.

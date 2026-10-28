@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Alprostadil
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 41
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Alprostadil: predicted new indication Aortic malformation (evidence level L4). Approved use: Erectile dysfunction, psychologic dyspareunia, premature ejaculation…"
@@ -14,7 +14,7 @@ predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", 
 # Alprostadil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is largely an extension within its existing approved indication class rathe
 |------|------|
 | Original Indication | Erectile dysfunction, psychologic dyspareunia, premature ejaculation, tricuspid atresia, aortic coarctation, tetralogy of Fallot, and related congenital heart defects (Health Canada licence text is not available) |
 | Predicted New Indication | Aortic malformation |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

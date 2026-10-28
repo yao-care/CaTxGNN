@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 494
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ipratropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease (COPD), allergic rhinitis…"
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,28 +33,26 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Ipratropium: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Ipratropium: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ipratropium is an inhaled anticholinergic bronchodilator originally used for chronic obstructive pulmonary disease (COPD), rhinitis, bronchitis and related airway conditions.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **25 clinical trials** and **19 publications** compiled for this direction.
 This prediction largely overlaps with the existing COPD use, so it is closer to on-label use than true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease (COPD), allergic rhinitis, vasomotor rhinitis, bronchitis, emphysema |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 12 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 12 of 12) |
+| Number of DINs | 12 (valid: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
-Note: the original indications come from knowledge-graph indication links, because the Canadian licence records compiled for this report contain no indication text.
 
 ## Why is This Prediction Reasonable?
 
@@ -133,10 +131,10 @@ Several large, completed Phase 3 trials, including one with 1,118 COPD participa
 
 | Rank | Predicted Indication | Evidence Level | Recommendation | Note |
 |------|------|------|------|------|
-| 2 | Nasal cavity disease | L4 | Research Question | Consistent with the known rhinitis use, but the retrieved studies are indirect or preclinical |
-| 3 | Pharyngitis | L4 | Hold | No study tests ipratropium in pharyngitis |
+| 2 | Nasal cavity disease | L5 | Research Question | Consistent with the known rhinitis use, but the retrieved studies are indirect or preclinical |
+| 3 | Pharyngitis | L5 | Hold | No study tests ipratropium in pharyngitis |
 | 4 | Acute laryngopharyngitis | L5 | Hold | Prediction only |
-| 5 | Respiratory malformation | L4 | Hold | Evidence is indirect |
+| 5 | Respiratory malformation | L5 | Hold | Evidence is indirect |
 | 6 | Papillary conjunctivitis | L5 | Hold | Prediction only |
 | 7 | Rienhoff syndrome | L5 | Hold | Prediction only |
 | 8 | Tracheal disease | L4 | Hold | Preclinical and mechanistic work only |

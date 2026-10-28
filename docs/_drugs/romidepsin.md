@@ -6,9 +6,9 @@ nav_order: 821
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Romidepsin: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Primary cutaneous T-cell lymphoma…"
 monitor_inn: "ROMIDEPSIN"
 predicted_indications: ["dermatofibrosarcoma protuberans", "fibroblastic neoplasm", "kidney fibrosarcoma", "heart fibrosarcoma", "conventional fibrosarcoma", "familial rhabdoid tumor", "low grade fibromyxoid sarcoma", "liver fibrosarcoma", "liposarcoma", "uterine corpus perivascular epithelioid cell tumor"]
+description: "Romidepsin: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Romidepsin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Romidepsin: From Cutaneous T-Cell Lymphoma to Dermatofibrosarcoma Protuberans
+## Romidepsin: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **dermatofibrosarcoma protubera
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary cutaneous T-cell lymphoma, peripheral T-cell lymphoma and related T-cell and NK-cell lymphomas |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,7 +95,6 @@ Currently no related clinical trials registered for dermatofibrosarcoma protuber
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted epigenetic therapy (HDAC inhibitor), used as an antineoplastic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph links the drug to thrombocytopenia, neutropenia, leukopenia, anaemia and lymphopenia |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count with differential, liver and renal function, electrolytes (especially potassium), ECG |
 | Handling Protection | Follow institutional cytotoxic drug handling regulations |
@@ -119,7 +118,7 @@ Currently no related clinical trials registered for dermatofibrosarcoma protuber
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.92%), but it is not backed by any clinical trial or any study testing romidepsin in DFSP. The two retrieved papers are cell line establishment reports. The evidence is model prediction only (L5).
+The prediction score is very high (0.9992), but it is not backed by any clinical trial or any study testing romidepsin in DFSP. The two retrieved papers are cell line establishment reports. The evidence is model prediction only (L5).
 
 **To proceed, the following is needed:**
 - Preclinical testing of romidepsin in the available DFSP patient-derived cell lines, with attention to the COL1A1–PDGFB pathway

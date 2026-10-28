@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Glucagon
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 435
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not specified in the available licence data"
@@ -14,7 +14,7 @@ predicted_indications: ["irritable bowel syndrome"]
 # Glucagon
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Glucagon is a pancreatic peptide hormone that is marketed in Canada as the nasal
 |------|------|
 | Original Indication | Not specified in the available licence data |
 | Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L3 (indirect; no glucagon-specific trials) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

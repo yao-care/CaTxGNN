@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 |------|------|
 | Original Indication | HIV infection, AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,14 +61,14 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known drug class information, bictegravir belongs to the integrase strand transfer inhibitor (INSTI) class, and its efficacy in HIV infection is established.
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and also encodes an integrase enzyme. This gives a class-level mechanistic rationale for the prediction. However, no FIV-specific data on bictegravir binding, enzyme inhibition, or antiviral activity were available. The high score (0.998) is a computational prediction only, and the mechanistic link here is inferred from general drug class knowledge rather than from the supplied data.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and also encodes an integrase enzyme. This gives a class-level mechanistic rationale for the prediction. However, no FIV-specific data on bictegravir binding, enzyme inhibition, or antiviral activity were available. The high score (0.9982) is a computational prediction only, and the mechanistic link here is inferred from general drug class knowledge rather than from the supplied data.
 
 It is also worth noting that feline AIDS is a veterinary disease, so any development path would differ substantially from human drug repurposing.
 
 **Other predictions in the same output**
 
-- **Simian immunodeficiency virus (SIV) infection** (same score, 99.82%; evidence level L4): Preclinical work includes an in vitro study of bictegravir and cabotegravir against integrase inhibitor-resistant SIVmac239 and HIV-1 (PMID 28923862), a structural review of HIV/SIV intasomes (PMID 32506843), and a humanized mouse model for testing SIV and HIV antiviral strategies (PMID 39559349). SIV is not a human disease, so its value lies mainly in nonhuman primate research models and resistance profiling.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.76%; evidence level L5): No plausible mechanistic link is apparent. Viral integrase is not a target in human neurodevelopmental biology, and the score likely reflects a knowledge-graph artifact. No trials or literature support it.
+- **Simian immunodeficiency virus (SIV) infection** (same score, 0.9982; evidence level L4): Preclinical work includes an in vitro study of bictegravir and cabotegravir against integrase inhibitor-resistant SIVmac239 and HIV-1 (PMID 28923862), a structural review of HIV/SIV intasomes (PMID 32506843), and a humanized mouse model for testing SIV and HIV antiviral strategies (PMID 39559349). SIV is not a human disease, so its value lies mainly in nonhuman primate research models and resistance profiling.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9976; evidence level L5): No plausible mechanistic link is apparent. Viral integrase is not a target in human neurodevelopmental biology, and the score likely reflects a TxGNN model (deep learning) artifact. No trials or literature support it.
 
 ---
 

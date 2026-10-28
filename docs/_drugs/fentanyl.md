@@ -46,9 +46,9 @@ Fentanyl is a potent mu-opioid receptor agonist marketed in Canada in injectable
 |------|------|
 | Original Indication | Not available in the data compiled for this report (Canadian license records contain no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -56,9 +56,9 @@ Fentanyl is a potent mu-opioid receptor agonist marketed in Canada in injectable
 
 Detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is generally known as a mu-opioid receptor agonist used for pain relief and anaesthesia. Opioids can influence vasopressin release and produce antidiuretic effects, which may be the reason the model links fentanyl to antidiuresis-related conditions.
 
-However, nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2) in the kidney. It occurs independently of vasopressin secretion, so an opioid acting on vasopressin release has no clear therapeutic role. The prediction may be a network artifact, for example a link through shared water-balance nodes in the knowledge graph. Opioid-associated antidiuresis could also worsen hyponatraemia, which is a possible safety concern.
+However, nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2) in the kidney. It occurs independently of vasopressin secretion, so an opioid acting on vasopressin release has no clear therapeutic role. The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Opioid-associated antidiuresis could also worsen hyponatremia, which is a possible safety concern.
 
-**Second prediction: Tourette syndrome (score 99.05%, evidence level L5).** Tourette syndrome involves dysregulation of cortico-striato-thalamo-cortical circuits and dopamine signalling. The endogenous opioid system has been proposed to modulate tics, and a few small studies have explored opioid-system modulators. There are no supporting data for fentanyl itself, a potent, short-acting agonist with abuse liability, respiratory depression risk and tolerance. Any further consideration would need preclinical or mechanistic support and a favourable risk-benefit case.
+**Second prediction: Tourette syndrome (score 0.9905, evidence level L5).** Tourette syndrome involves dysregulation of cortico-striato-thalamo-cortical circuits and dopamine signalling. The endogenous opioid system has been proposed to modulate tics, and a few small studies have explored opioid-system modulators. There are no supporting data for fentanyl itself, a potent, short-acting agonist with abuse liability, respiratory depression risk and tolerance. Any further consideration would need preclinical or mechanistic support and a favourable risk-benefit case.
 
 ## Clinical Trial Evidence
 
@@ -100,7 +100,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-Both predictions (nephrogenic SIAD and Tourette syndrome) are supported only by graph-based scores, with no clinical trials or literature. The mechanistic link for nephrogenic SIAD is implausible, and fentanyl's safety profile (abuse liability, respiratory depression, tolerance, many interactions) raises the bar for any repurposing case.
+Both predictions (nephrogenic SIAD and Tourette syndrome) are supported only by TxGNN model (deep learning) scores, with no clinical trials or literature. The scores may reflect similarities the model learned between related diseases, not biological evidence. The mechanistic link for nephrogenic SIAD is implausible, and fentanyl's safety profile (abuse liability, respiratory depression, tolerance, many interactions) raises the bar for any repurposing case.
 
 **To proceed, the following is needed:**
 - Official Health Canada product monograph warnings, contraindications and approved indications. This is currently a blocking gap for safety screening.

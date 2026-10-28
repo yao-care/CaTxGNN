@@ -50,10 +50,10 @@ However, **no clinical trials and no publications** were found in the data compi
 |------|------|
 | Original Indication | Not stated in the Canadian license record (the single product is marketed as an eczema-care medicated cream) |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,7 +68,7 @@ Important caveats apply. There is no clobetasone-specific trial or publication i
 - **Sezary syndrome:** a leukemic, systemic CTCL variant that needs systemic therapy, so a topical steroid is unlikely to be disease-modifying.
 - **Primary cutaneous B-cell lymphoma and granulomatous slack skin disease:** these look like class-level or disease-group associations without supporting data.
 - **Crohn's colitis, adrenocortical insufficiency, nephrotic syndrome:** these reflect the glucocorticoid class. Clobetasone is a topical dermatological product, not suited to gastrointestinal delivery, systemic replacement or systemic exposure.
-- **Cystic teratoma and spinal cord dermoid cyst:** no plausible mechanism, and likely graph artifacts.
+- **Cystic teratoma and spinal cord dermoid cyst:** no plausible mechanism; the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

@@ -50,9 +50,9 @@ The top-ranked predictions are computational only. The most biologically plausib
 |------|------|
 | Original Indication | Otitis externa; external ear disease (the Canadian licence records list no indication text) |
 | Predicted New Indication | Post-bacterial disorder |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,11 +62,11 @@ The top-ranked predictions are computational only. The most biologically plausib
 
 Currently, detailed mechanism of action data is not available. Based on known information, acetic acid is a topical antiseptic and acidifier with antibacterial activity. Its use in otitis externa is consistent with lowering local pH and inhibiting microbial growth.
 
-For the top prediction, post-bacterial disorder, no plausible mechanism is apparent. Post-infectious conditions are typically immune-mediated rather than ongoing infections, so a topical antiseptic is unlikely to address them. The same holds for the other high-scoring predictions: postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infection-related hemolytic uremic syndrome and drug-induced osteoporosis. All have TxGNN scores above 99%, but they rest on graph-based prediction alone.
+For the top prediction, post-bacterial disorder, no plausible mechanism is apparent. Post-infectious conditions are typically immune-mediated rather than ongoing infections, so a topical antiseptic is unlikely to address them. The same holds for the other high-scoring predictions: postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infection-related hemolytic uremic syndrome and drug-induced osteoporosis. All have TxGNN scores of 0.9967 or higher, but the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Two lower-ranked candidates have a loose mechanistic rationale:
 - **Infective urethral stricture (rank 5):** dilute acetic acid is used as an irrigant in other settings, but the condition is fibrotic and structural, and no data support benefit.
-- **Tinea corporis (rank 9, score 99.25%):** acidification of the skin and disruption of fungal cell membranes could plausibly give antifungal activity. Historical reports describe dilute acetic acid for related dermatophyte infections (see below). This is the only candidate with an evidence level above L5 (L4), and it is best viewed as a research question rather than a validated indication.
+- **Tinea corporis (rank 9, score 0.9925):** acidification of the skin and disruption of fungal cell membranes could plausibly give antifungal activity. Historical reports describe dilute acetic acid for related dermatophyte infections (see below). This is the only candidate with an evidence level above L5 (L4), and it is best viewed as a research question rather than a validated indication.
 
 ---
 

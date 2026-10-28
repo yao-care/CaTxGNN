@@ -48,17 +48,17 @@ The 9 publications retrieved all concern HCV retreatment, resistance, pricing, o
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, voxilaprevir is an HCV NS3/4A protease inhibitor. It is marketed as part of the fixed-dose combination sofosbuvir/velpatasvir/voxilaprevir, which is used mainly to retreat patients who failed earlier direct-acting antiviral therapy.
 
-The mechanistic link to hepatitis B is weak. HBV has no NS3/4A protease counterpart. It replicates through a reverse transcriptase/polymerase and follows a different replication cycle. The high TxGNN score (99.84%) most likely reflects proximity between viral hepatitis nodes in the knowledge graph rather than true overlap in drug targets.
+The mechanistic link to hepatitis B is weak. HBV has no NS3/4A protease counterpart. It replicates through a reverse transcriptase/polymerase and follows a different replication cycle. The high score (0.9984) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions point the same way. Hepatitis A, hepatitis E, HIV, feline and simian immunodeficiency viruses, and chronic HBV use proteases or other targets unrelated to HCV NS3/4A. Omsk hemorrhagic fever and Kyasanur forest disease are caused by flaviviruses with an NS2B/NS3 protease. They offer only a speculative, family-level rationale, and no experimental evidence exists for them.
 
@@ -99,7 +99,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (Evidence Level L5). There are no HBV clinical trials or HBV-specific publications, and the mechanism does not support activity against HBV. Voxilaprevir targets the HCV NS3/4A protease, which HBV lacks. The high score likely reflects graph proximity between viral hepatitis nodes.
+The prediction rests on model output alone (Evidence Level L5). There are no HBV clinical trials or HBV-specific publications, and the mechanism does not support activity against HBV. Voxilaprevir targets the HCV NS3/4A protease, which HBV lacks. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) to support a formal mechanistic-link analysis

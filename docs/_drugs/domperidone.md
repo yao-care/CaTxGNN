@@ -46,10 +46,10 @@ Domperidone is a peripheral dopamine D2/D3 receptor antagonist used to manage dy
 |------|------|
 | Original Indication | Dyspepsia, heartburn, epigastric pain, nausea and vomiting (from pharmacology data; the Canadian licence records contain no indication text) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.08% |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 10 |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
+| Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,7 @@ Detailed mechanism-of-action data for domperidone is not available in the compil
 
 The link to the predicted indication is weak. NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2, e.g. R137C/R137L) or, in some cases, GNAS. These variants cause constitutive receptor activation, leading to water retention and hyponatraemia. Domperidone has no known direct action on the V2 receptor or its cAMP signalling. A possible indirect route is dopaminergic modulation of renal water handling or vasopressin release, but this is not established. Because the disease is driven by receptor-level constitutive activity, blocking upstream vasopressin release would not be expected to help.
 
-The high score probably reflects proximity within the knowledge graph (shared neighbouring drugs or genes) rather than a real pharmacological mechanism. The prediction should be treated as a hypothesis only.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 

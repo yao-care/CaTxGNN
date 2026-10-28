@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rizatriptan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 819
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Rizatriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
 monitor_inn: "RIZATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata"]
+description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rizatriptan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,24 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Rizatriptan: From Migraine to Migraine with Brainstem Aura
+## Rizatriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rizatriptan is a triptan originally used to treat migraine, including migraine with or without aura.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
+The TxGNN model predicts it may be effective for **atrophoderma vermiculata**,
 but there are currently **no registered clinical trials** and only **general migraine literature** (19 publications, none specific to brainstem aura) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (the Health Canada licence records compiled for this report contain no indication text, so the original indication is taken from the knowledge graph) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9919 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -58,7 +58,6 @@ but there are currently **no registered clinical trials** and only **general mig
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, rizatriptan is a selective 5-HT1B/1D receptor agonist (a triptan) with proven efficacy in acute migraine, and it may be mechanistically applicable to related migraine subtypes.
 
-Migraine with brainstem aura is a subtype of migraine with aura. The two share underlying biology, including trigeminovascular activation, CGRP release and cortical spreading depression. This close disease similarity is consistent with the very high TxGNN score.
 
 Two caveats apply. First, the literature found covers general migraine, migraine with aura, menstrual, vestibular and pediatric migraine, but not brainstem aura specifically. Second, triptans have historically carried cautionary labelling in hemiplegic and basilar-type migraine because of a theoretical vasoconstrictive risk. Safety in this subtype needs explicit review before any recommendation.
 

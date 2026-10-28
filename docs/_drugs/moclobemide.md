@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **agoraphobia**, with **no regi
 |------|------|
 | Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 5 |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
+| Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

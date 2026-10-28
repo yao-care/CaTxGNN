@@ -50,10 +50,10 @@ with **14 clinical trials** and **20 publications** currently supporting this di
 |------|------|
 | Original Indication | Asthma (other listed uses: bronchitis, pulmonary emphysema) |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -141,8 +141,8 @@ Multiple large Phase 3 trials and several randomized COPD studies support terbut
 ---
 
 *Other predictions with weaker support (not recommended for advancement):*
-- **Respiratory malformation** (score 99.52%, L4, Hold): beta-2 agonism might relieve accompanying bronchospasm but would not correct the malformation. Only one generic pharmacokinetic study was found.
-- **Rienhoff syndrome** (score 99.38%, L5, Hold): no trials or literature, and no plausible mechanistic link. This is a computational prediction only.
+- **Respiratory malformation** (score 0.9952, L4, Hold): beta-2 agonism might relieve accompanying bronchospasm but would not correct the malformation. Only one generic pharmacokinetic study was found.
+- **Rienhoff syndrome** (score 0.9938, L5, Hold): no trials or literature, and no plausible mechanistic link. This is a computational prediction only.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

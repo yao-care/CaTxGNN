@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 484
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Insulin Glulisine: predicted new indication Type 1 diabetes mellitus (evidence level L2). Approved use: Diabetes mellitus"
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Glulisine: predicted new indication Thiamine-responsive dysfunction syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Insulin Glulisine: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+## Insulin Glulisine: Thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Insulin glulisine is a rapid-acting insulin analogue, originally used to treat diabetes mellitus and diabetic ketoacidosis.
-The TxGNN model predicts it may be effective for **type 1 diabetes mellitus**, with **30 clinical trials** and **20 publications** currently supporting this direction.
 This is effectively an on-label use rather than true repurposing, so the prediction is best read as a confirmation of the drug's established role.
 
 ---
@@ -48,12 +47,12 @@ This is effectively an on-label use rather than true repurposing, so the predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus; diabetic ketoacidosis (from the knowledge graph, as no approved indication text is available for the Canadian licences) |
-| Predicted New Indication | Type 1 diabetes mellitus |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Thiamine-responsive dysfunction syndrome |
+| TxGNN Prediction Score | 0.9947 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -64,7 +63,7 @@ Detailed mechanism of action data is not available. Based on known information, 
 
 Type 1 diabetes is characterised by absolute insulin deficiency, so mealtime insulin replacement is mechanistically well suited. Insulin glulisine is already a core therapy for diabetes mellitus, which means the type 1 diabetes prediction is concordant with the known pharmacology and is an on-label use rather than a new repurposing direction.
 
-Several of the other lower-ranked predictions (for example stiff person syndrome, autoimmune oophoritis and thiamine-responsive dysfunction syndrome) most likely reflect comorbid diabetes rather than a disease-modifying effect. Predictions such as drug-induced localized lipodystrophy and pressure-induced localized lipoatrophy are probably graph artefacts, because injection-site lipodystrophy is a known adverse effect of insulin. None of these has any supporting clinical evidence.
+Several of the other lower-ranked predictions (for example classic stiff person syndrome and autoimmune oophoritis) most likely reflect comorbid diabetes rather than a disease-modifying effect. Scores for predictions such as drug-induced localized lipodystrophy and pressure-induced localized lipoatrophy come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, because injection-site lipodystrophy is a known adverse effect of insulin. None of these has any supporting clinical evidence.
 
 ---
 

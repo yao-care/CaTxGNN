@@ -4,17 +4,17 @@ title: Mitoxantrone
 parent: Model Prediction Only (L5)
 nav_order: 625
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Mitoxantrone: predicted new indication Head and neck cancer (evidence level L5). Approved use: Acute myeloid leukemia and related myeloid malignancies"
 monitor_inn: "MITOXANTRONE"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
+description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Mitoxantrone: From Acute Myeloid Leukemia to Head and Neck Cancer
+## Mitoxantrone: Upper aerodigestive tract neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **head and neck cancer**, the m
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute myeloid leukemia and related myeloid malignancies (from the knowledge graph; no approved indication text is available for the Canadian product) |
-| Predicted New Indication | Head and neck cancer (the highest-ranked prediction, upper aerodigestive tract neoplasm, has no linked trials and is covered under "Other Predicted Indications" below) |
-| TxGNN Prediction Score | 99.31% (head and neck cancer); 99.78% (upper aerodigestive tract neoplasm) |
-| Evidence Level | L2 (head and neck cancer); L4 for the broader upper aerodigestive tract category |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Upper aerodigestive tract neoplasm |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 (head and neck cancer); L4 for the broader upper aerodigestive tract category |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (head and neck cancer); Hold for the other predictions |
 
 ---
@@ -134,13 +134,12 @@ Package insert warnings and contraindications were not available. Please refer t
 
 | Predicted Indication | Score | Evidence Level | Summary |
 |------|------|------|------|
-| Upper aerodigestive tract neoplasm | 99.78% | L4 | No linked trials. Literature is indirect, consisting of reviews, pharmacokinetics, and small studies in nasopharyngeal and salivary gland cancers. |
-| Small cell lung carcinoma | 99.43% | L4 | No linked trials. Literature is preclinical or pharmacokinetic, and ABC transporter-mediated resistance is a concern. |
-| Primary pulmonary lymphoma | 99.41% | L4 | No dedicated trials. Only a small series of fludarabine plus mitoxantrone regimens in lung marginal zone lymphoma. |
-| Well-differentiated fetal adenocarcinoma of the lung | 99.37% | L5 | Model prediction only; no trials or literature. |
-| Pulmonary blastoma | 99.35% | L5 | Model prediction only; no trials or literature. |
-| Chronic myelogenous leukemia, BCR-ABL1 positive | 99.32% | L3 | Seven Phase II/III trials, mostly in acute leukemia. Small studies in blast crisis (for example, 26% complete remission with mitoxantrone plus high-dose cytarabine in 27 patients). Chronic-phase disease is managed with tyrosine kinase inhibitors, so any role would be limited to blast crisis or salvage. |
-| Bladder exstrophy-epispadias-cloacal exstrophy complex | 99.00% | L5 | A congenital malformation with no plausible antineoplastic mechanism, so this is likely a prediction artifact. |
+| Upper aerodigestive tract neoplasm | 0.9978 | L5 | No linked trials. Literature is indirect, consisting of reviews, pharmacokinetics, and small studies in nasopharyngeal and salivary gland cancers. |
+| Small cell lung carcinoma | 0.9943 | L4 | No linked trials. Literature is preclinical or pharmacokinetic, and ABC transporter-mediated resistance is a concern. |
+| Primary pulmonary lymphoma | 0.9941 | L4 | No dedicated trials. Only a small series of fludarabine plus mitoxantrone regimens in lung marginal zone lymphoma. |
+| Well-differentiated fetal adenocarcinoma of the lung | 0.9937 | L5 | Model prediction only; no trials or literature. |
+| Pulmonary blastoma | 0.9935 | L5 | Model prediction only; no trials or literature. |
+| Bladder exstrophy-epispadias-cloacal exstrophy complex | 0.9900 | L5 | A congenital malformation with no plausible antineoplastic mechanism, so this is likely a prediction artifact. |
 
 ---
 

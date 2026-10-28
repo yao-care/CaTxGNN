@@ -4,17 +4,17 @@ title: Celecoxib
 parent: Model Prediction Only (L5)
 nav_order: 172
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis…"
 monitor_inn: "CELECOXIB"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "inflammatory spondylopathy", "WHIM syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
 ---
 
 # Celecoxib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 |------|------|
 | Original Indication | Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis, juvenile idiopathic arthritis |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The predicted indication is a rare skeletal dysplasia caused by mutations in the CDMP1/GDF5 gene. Its biology involves bone and cartilage development, not prostaglandin-mediated inflammation. No plausible link between COX-2 inhibition and this condition has been established.
 
-The high score is therefore best read as a graph-based association, probably driven by shared connections to skeletal and joint disease. It is not evidence of a real therapeutic effect. The mechanistic rationale is weak.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not evidence of a real therapeutic effect. The mechanistic rationale is weak.
 
 ---
 
@@ -98,7 +98,7 @@ All 20 authorizations are single-ingredient products and currently valid. None a
 
 ## Safety Considerations
 
-- **Disease associations flagged as contraindicated or to be used with caution** (from knowledge-graph associations, not label text):
+- **Disease associations flagged as contraindicated or to be used with caution** (from disease associations in the data, not label text):
   - Cardiovascular: hypertension, congestive heart failure, myocardial infarction, stroke and cerebrovascular disorders, cardiovascular and heart disease
   - Gastrointestinal: peptic ulcer disease (including active ulcer), gallbladder disease
   - Kidney and liver: kidney disease, liver disease
@@ -127,7 +127,6 @@ The prediction has no supporting trials or publications. The target disease is a
 - Package insert warnings and contraindications for the Canadian products, to support a safety screen
 
 **Note on other predictions:**
-Among the other predictions for celecoxib, *inflammatory spondylopathy* (rank 9) has by far the strongest support (L1). That support includes completed Phase 3 and Phase 4 randomized trials in ankylosing spondylitis, such as NCT00648141 (n=458) and NCT02528201 (n=330), and a 2024 randomized trial of celecoxib added to anti-TNF therapy. This is largely an already-labeled indication, so it is not a true repurposing finding. If the goal is to prioritize candidates with real evidence, it deserves separate review, with cardiovascular and gastrointestinal risk managed.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

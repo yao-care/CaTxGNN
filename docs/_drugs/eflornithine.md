@@ -4,17 +4,17 @@ title: Eflornithine
 parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Eflornithine: predicted new indication Esotropia (evidence level L5). Approved use: Human African trypanosomiasis"
 monitor_inn: "Eflornithine"
-predicted_indications: ["esotropia", "neurotrophic keratopathy", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "trypanosomiasis, bovine", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "congenital prothrombin deficiency"]
+predicted_indications: ["esotropia", "neurotrophic keratopathy"]
 ---
 
 # Eflornithine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Eflornithine was originally used to treat human African trypanosomiasis (sleeping sickness) and is also marketed in Canada as a topical product (VANIQA).
-The TxGNN model predicts it may be effective for **esotropia** with a score of 99.85%, but **no clinical trials and no publications** currently support this prediction.
+The TxGNN model predicts it may be effective for **esotropia** with a score of 0.9985, but **no clinical trials and no publications** currently support this prediction.
 Of the ten predictions generated, only bovine trypanosomiasis has any supporting literature, and that literature is indirect.
 
 ## Quick Overview
@@ -48,10 +48,10 @@ Of the ten predictions generated, only bovine trypanosomiasis has any supporting
 |------|------|
 | Original Indication | Human African trypanosomiasis; trypanosomiasis |
 | Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,15 +64,7 @@ For esotropia, however, no clear mechanistic link was identified. No known pathw
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Neurotrophic keratopathy | 99.38% | L5 | Polyamines are involved in wound healing, but ODC inhibition would more plausibly impair epithelial repair |
-| Congenital analbuminemia | 98.89% | L5 | No plausible mechanism; likely a graph artifact |
-| Hyperamylasemia | 98.75% | L5 | No mechanistic connection |
-| Polyclonal hyperviscosity syndrome | 98.75% | L5 | No mechanistic link; same score as hyperamylasemia suggests a shared artifact |
-| Trypanosomiasis, bovine | 98.42% | L4 | Biologically the most plausible; related trypanosome species may share polyamine-pathway vulnerability, but species susceptibility differs |
-| Blood group incompatibility | 98.36% | L5 | No plausible mechanism |
-| Monoclonal gammopathy | 98.18% | L5 | Distant rationale from polyamine biology in proliferating cells; no direct evidence |
-| Premalignant hematological system disease | 98.10% | L5 | Speculative analogy to chemoprevention in other premalignant settings |
-| Congenital prothrombin deficiency | 98.02% | L5 | No corrective mechanism; likely a graph artifact |
+| Neurotrophic keratopathy | 0.9938 | L5 | Polyamines are involved in wound healing, but ODC inhibition would more plausibly impair epithelial repair |
 
 ## Clinical Trial Evidence
 

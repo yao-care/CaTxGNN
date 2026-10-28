@@ -48,9 +48,9 @@ Olmesartan is an angiotensin II receptor blocker marketed in Canada in single-in
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the Canadian license records contain no indication text) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -60,12 +60,12 @@ Olmesartan is an angiotensin II receptor blocker marketed in Canada in single-in
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, olmesartan is an angiotensin II type 1 (AT1) receptor blocker. Blocking this receptor may improve endothelial function and reduce vascular tone.
 
-For Prinzmetal angina, which is caused by coronary vasospasm, this is only a plausible indirect link. No trials or publications support it, and calcium channel blockers remain the standard of care. The high TxGNN score reflects a pattern in the knowledge graph, not clinical proof.
+For Prinzmetal angina, which is caused by coronary vasospasm, this is only a plausible indirect link. No trials or publications support it, and calcium channel blockers remain the standard of care. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 For context, the other top predictions vary widely in plausibility:
-- **Migraine disorder (score 99.64%, L3):** Some literature supports modulation of the renin-angiotensin system for migraine prevention, but the evidence is limited.
-- **Pulmonary hypertension (score 99.61%, L4):** Preclinical rat studies suggest olmesartan reduces pulmonary vascular remodelling. No human efficacy data are available.
-- **Hair-related conditions (hypotrichosis, alopecia, alopecia areata) and rare congenital conditions:** No mechanistic rationale is evident. These high scores are likely graph-based artifacts.
+- **Migraine disorder (score 0.9964, L3):** Some literature supports modulation of the renin-angiotensin system for migraine prevention, but the evidence is limited.
+- **Pulmonary hypertension (score 0.9961, L4):** Preclinical rat studies suggest olmesartan reduces pulmonary vascular remodelling. No human efficacy data are available.
+- **Hair-related conditions (hypotrichosis, alopecia, alopecia areata) and rare congenital conditions:** No mechanistic rationale is evident. These high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Open-angle glaucoma (L4):** Only an indirect review is available, with no olmesartan-specific data.
 
 ---

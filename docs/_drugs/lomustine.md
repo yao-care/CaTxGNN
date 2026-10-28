@@ -6,9 +6,9 @@ nav_order: 556
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L2). Approved use: Hodgkin lymphoma and brain tumours"
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer", "cerebral neuroblastoma", "pediatric cerebral ependymoblastoma", "pediatric infratentorial ependymoblastoma", "childhood brain germinoma", "cerebellopontine angle embryonal tumor", "lymph node cancer", "cerebral sarcoma"]
+description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lomustine
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Lomustine: From Hodgkin Lymphoma and Brain Tumours to Lymphosarcoma
+## Lomustine: Lymphosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **lymphosarcoma** (a non-Hodgki
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin lymphoma and brain tumours (from the knowledge-graph indication data; the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Lymphosarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -152,7 +152,7 @@ Many of the interactions are with other myelosuppressive or immunosuppressive ag
 **Decision: Hold**
 
 **Rationale:**
-- Lomustine is already used in Hodgkin lymphoma and has plausible activity in lymphoid malignancies, and the lymphosarcoma prediction scores very high (99.90%). However, the human evidence consists mainly of small, mostly older Phase 2 studies of multi-drug regimens. Enrollment ranged from 0 to 56 per trial. The effect of lomustine alone cannot be separated from its partner drugs, and much of the literature is veterinary. This supports further research but not a decision to proceed.
+- Lomustine is already used in Hodgkin lymphoma and has plausible activity in lymphoid malignancies, and the lymphosarcoma prediction scores very high (0.9990). However, the human evidence consists mainly of small, mostly older Phase 2 studies of multi-drug regimens. Enrollment ranged from 0 to 56 per trial. The effect of lomustine alone cannot be separated from its partner drugs, and much of the literature is veterinary. This supports further research but not a decision to proceed.
 - Safety review cannot be completed until the Canadian package insert is reviewed, and the high myelosuppression risk adds to the need for caution.
 
 **To proceed, the following is needed:**

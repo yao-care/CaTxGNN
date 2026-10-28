@@ -4,17 +4,17 @@ title: Phentolamine
 parent: Model Prediction Only (L5)
 nav_order: 730
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Phentolamine: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Pheochromocytoma, peripheral vascular disease…"
 monitor_inn: "Phentolamine"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "blue toe syndrome", "angiodysplasia of stomach", "hemangioendothelioma", "atheroembolism of kidney", "idiopathic spontaneous coronary artery dissection"]
+description: "Phentolamine: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phentolamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phentolamine: From Pheochromocytoma and Peripheral Vascular Disease to Visceral Calciphylaxis
+## Phentolamine: Visceral calciphylaxis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The evidence is model prediction only.
 
 | Item | Content |
 |------|------|
-| Original Indication | Pheochromocytoma, peripheral vascular disease, peripheral arterial disease, cerebral ischaemia (the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.995% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,7 +70,7 @@ Visceral calciphylaxis (calcific uremic arteriolopathy) involves microvascular o
 
 Currently no related clinical trials registered for visceral calciphylaxis.
 
-For context, the second-ranked prediction, "vascular disease", is a broad label that largely overlaps with phentolamine's existing indications. It returned the following trials, none of which tests phentolamine as a treatment for the predicted calciphylaxis indication. They are shown only as background:
+The following trials were returned, none of which tests phentolamine as a treatment for the predicted calciphylaxis indication. They are shown only as background:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

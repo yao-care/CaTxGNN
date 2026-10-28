@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Octinoxate
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 675
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-13
-description: "Octinoxate: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the licence records (marketed as a UV-B filter in sunsc…"
+description: "Octinoxate: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Octinoxate"
-predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "pseudoachondroplasia", "gout", "brachyolmia", "hepatic porphyria", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Octinoxate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Octinoxate: From Topical Sun Protection to Osteoarthritis
+## Octinoxate
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Octinoxate is a UV-B filter used in topical sunscreens and sun-protective cosmetic products.
-The TxGNN model predicts it may be effective for **osteoarthritis**,
-but **0 clinical trials** and **0 publications** currently support this direction, so the prediction rests on the computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records (marketed as a UV-B filter in sunscreen and cosmetic products) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 98.93% |
-| Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Octinoxate is a UV-B filter used in topical sunscreens and sun-protective products. Its role there is to absorb ultraviolet radiation at the skin surface, not to act on a pharmacological target.
-
-No mechanistic link to osteoarthritis has been established. Octinoxate is not known to act on cartilage, joint inflammation or related pathways, and systemic exposure from topical use is low. The high score (98.93%) is most likely a product of network similarity within the knowledge graph rather than a biologically grounded signal.
-
-The other top predictions point the same way: osteoarthritis susceptibility, rheumatoid arthritis, pseudoachondroplasia, gout, brachyolmia, hepatic porphyria, and several rare skeletal dysplasias. All have scores between 98.0% and 98.9%, none has any trial or literature support, and several are genetic conditions with no plausible link to a topical UV filter. The only superficially relevant one is hepatic porphyria, where photosensitivity might make a UV filter seem relevant, but acute hepatic porphyrias are mainly neurovisceral. Any hypothesis would need to be built from scratch, for example through in vitro tests of anti-inflammatory or nuclear receptor activity.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
 
 ## Canada Market Information
 
@@ -88,18 +64,6 @@ The remaining licences are also sun-protective or cosmetic products, such as lip
 
 Please refer to the package insert for safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is computational only, with no clinical trials, no literature and no plausible mechanism. Octinoxate is a topical UV filter with low systemic exposure, and nothing known about it suggests an effect on joint or cartilage disease. Evidence is at the weakest level (L5).
-
-**To proceed, the following is needed:**
-- Mechanism of action data for octinoxate, and any in vitro or preclinical evidence of anti-inflammatory or cartilage-related activity
-- Safety information from the Health Canada package insert, including warnings and contraindications
-- A route-compatibility assessment, since osteoarthritis would likely require systemic or intra-articular delivery, whereas octinoxate is only licensed as a topical product
-- At least some supporting clinical or observational literature before the prediction is reconsidered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

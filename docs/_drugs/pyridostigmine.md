@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 785
-evidence_level: L3
-indication_count: 7
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Pyridostigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L3). Approved use: Myasthenia gravis, adult-onset myasthenia gravis…"
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-## Pyridostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Pyridostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pyridostigmine is an acetylcholinesterase inhibitor originally used to treat myasthenia gravis and related neuromuscular junction disease.
-The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, which is essentially a subtype of the approved indication rather than a true new use.
+The TxGNN model predicts it may be effective for **autoimmune disease of peripheral nervous system**.
 Currently there are **no registered clinical trials** and **3 publications** (one review, one case report and one cohort study) supporting this direction.
 
 ---
@@ -48,12 +48,12 @@ Currently there are **no registered clinical trials** and **3 publications** (on
 
 | Item | Content |
 |------|------|
-| Original Indication | Myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease (the Canadian licence records contain no indication text) |
-| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune disease of peripheral nervous system |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

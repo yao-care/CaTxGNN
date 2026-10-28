@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: High Evidence (L1-L2)
 nav_order: 535
 evidence_level: L2
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm…"
 monitor_inn: "LENALIDOMIDE"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **6** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 </div>
 
-## Lenalidomide: From Plasma Cell Myeloma to Myeloid Leukemia
+## Lenalidomide: Myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ with **48 clinical trials** and **20 publications** currently supporting this di
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm, lymphosarcoma, myelodysplastic syndrome (from the knowledge graph; no approved indication text is available for the Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Proceed with Guardrails (as a research question) |
 
@@ -131,7 +131,6 @@ Lenalidomide is an immunomodulatory antineoplastic agent, not a conventional cyt
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Immunomodulatory / targeted (cereblon E3 ligase modulator) |
-| Myelosuppression Risk | High. The knowledge graph links it to thrombocytopenia, neutropenia and agranulocytosis |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Complete blood count with differential, renal function |
 | Handling Protection | Please refer to the package insert warnings and precautions |

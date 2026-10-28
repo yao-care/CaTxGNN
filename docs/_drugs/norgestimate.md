@@ -6,9 +6,9 @@ nav_order: 668
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne"
 monitor_inn: "NORGESTIMATE"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Norgestimate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Norgestimate: From Acne and Hormonal Indications to Elevated Plasma Zinc
+## Norgestimate: Zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be relevant to **elevated plasma zinc**, but **n
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne; postmenopausal osteoporosis; osteoporosis; atrophic vulva (obsolete term); postmenopausal atrophic vaginitis (knowledge-graph indications; no approved indication text is available from Health Canada records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not currently available for this drug. Norg
 
 No established mechanistic link to elevated plasma zinc could be identified from the data compiled for this report. Hormonal contraceptives have been discussed in the wider literature as altering circulating zinc and copper levels, but nothing in the compiled data supports this.
 
-The TxGNN score of 0.99 is a knowledge-graph model output and should not be read as clinical evidence. In addition, "elevated plasma zinc" is a laboratory finding rather than a disease with a clear therapeutic goal. It is unclear whether lowering zinc would be a meaningful treatment target.
+The TxGNN score of 0.9906 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical evidence. In addition, "elevated plasma zinc" is a laboratory finding rather than a disease with a clear therapeutic goal. It is unclear whether lowering zinc would be a meaningful treatment target.
 
 ---
 
@@ -95,7 +95,7 @@ Showing 5 of 6 valid single-ingredient authorizations. The sixth is TRI-CIRA LO 
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (knowledge-graph associations, not label text)**: The knowledge graph links norgestimate to contraindications in the following groups. These need verification against the official label.
+- **Contraindication-related conditions (TxGNN model associations, not label text)**: The TxGNN model (deep learning) links norgestimate to contraindications in the following groups. These links may reflect similarities the model learned between related diseases, not biological evidence. These need verification against the official label.
   - Cardiovascular and metabolic: hypertensive disorder, hypertension, diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hypertriglyceridemia
   - Liver, kidney and gallbladder: liver disease, gallbladder disease, kidney disease
   - Neurological and psychiatric: epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder

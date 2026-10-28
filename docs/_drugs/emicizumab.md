@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emicizumab
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 325
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Emicizumab: predicted new indication Acquired coagulation factor deficiency (evidence level L2). Approved use: Hemophilia"
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
+description: "Emicizumab: predicted new indication Pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Emicizumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Emicizumab: From Hemophilia to Acquired Coagulation Factor Deficiency
+## Emicizumab: Pseudo-von Willebrand disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,15 +47,15 @@ The TxGNN model predicts it may be effective for **acquired coagulation factor d
 
 | Item | Content |
 |------|------|
-| Original Indication | Hemophilia; symptomatic form of hemophilia in female carriers |
-| Predicted New Indication | Acquired coagulation factor deficiency (evidence is specific to acquired hemophilia A) |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pseudo-von Willebrand disease |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
-**Note on selection:** The TxGNN top-ranked prediction was pseudo-von Willebrand disease (99.99%). It has no supporting trials or literature and no clear mechanistic link, so it is rated L5 / Hold. This report focuses on acquired coagulation factor deficiency (rank 5), the prediction with the strongest evidence. Other predictions are summarised at the end.
+**Note on selection:** The TxGNN top-ranked prediction was pseudo-von Willebrand disease (0.9999). It has no supporting trials or literature and no clear mechanistic link, so it is rated L5 / Hold. This report focuses on acquired coagulation factor deficiency (rank 5), the prediction with the strongest evidence. Other predictions are summarised at the end.
 
 ---
 
@@ -138,15 +138,15 @@ Prospective phase 2 and phase 3 studies, a real-world cohort and consensus recom
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Pseudo-von Willebrand disease | 99.99% | L5 | Platelet-type disorder with no clear link to factor VIII mimicry; no evidence |
-| Primary release disorder of platelets | 99.99% | L5 | Emicizumab does not correct platelet secretion; speculative |
-| Glanzmann thrombasthenia | 99.98% | L4 | Only an indirect review of rFVIIa; no emicizumab-specific evidence |
-| Scott syndrome | 99.92% | L5 | Defective phospholipid exposure may limit efficacy; no plausible basis |
-| Bleeding diathesis due to a collagen receptor defect | 99.86% | L5 | Platelet receptor defect; weak link |
-| Hemorrhagic disorder due to constitutional thrombocytopenia | 99.85% | L5 | Theoretical only; no data |
-| Thrombotic thrombocytopenic purpura | 99.61% | L5 | **Safety concern:** the problem is thrombosis, and emicizumab promotes coagulation; likely a spurious association |
-| Fetal and neonatal alloimmune thrombocytopenia | 99.52% | L5 | Does not address the immune mechanism; no evidence |
-| "Flood factor deficiency" | 99.40% | L5 | Ambiguous name, possibly a data error; verify against the source ontology |
+| Pseudo-von Willebrand disease | 0.9999 | L5 | Platelet-type disorder with no clear link to factor VIII mimicry; no evidence |
+| Primary release disorder of platelets | 0.9999 | L5 | Emicizumab does not correct platelet secretion; speculative |
+| Glanzmann thrombasthenia | 0.9998 | L5 | Only an indirect review of rFVIIa; no emicizumab-specific evidence |
+| Scott syndrome | 0.9992 | L5 | Defective phospholipid exposure may limit efficacy; no plausible basis |
+| Bleeding diathesis due to a collagen receptor defect | 0.9986 | L5 | Platelet receptor defect; weak link |
+| Hemorrhagic disorder due to constitutional thrombocytopenia | 0.9985 | L5 | Theoretical only; no data |
+| Thrombotic thrombocytopenic purpura | 0.9961 | L5 | **Safety concern:** the problem is thrombosis, and emicizumab promotes coagulation; likely a spurious association |
+| Fetal and neonatal alloimmune thrombocytopenia | 0.9952 | L5 | Does not address the immune mechanism; no evidence |
+| "Flood factor deficiency" | 0.9940 | L5 | Ambiguous name, possibly a data error; verify against the source ontology |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

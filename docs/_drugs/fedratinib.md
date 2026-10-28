@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Primary myelofibrosis; myelofibrosis |
 | Predicted New Indication | Benign PEComa |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,15 +64,15 @@ Other top-ranked predictions are also without trial or literature support:
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Lymphangiomyoma | 99.83% | Related to LAM (TSC/mTOR-driven); no demonstrated JAK2 link |
-| 3 | Uterine corpus PEComa | 99.83% | PEComa family; no direct link |
-| 4 | Dermatofibrosarcoma protuberans | 99.80% | Driven by PDGFR signalling; imatinib is the established therapy |
-| 5 | Rhabdoid tumour | 99.78% | SMARCB1 loss; no link to JAK2/FLT3 |
-| 6 | Familial rhabdoid tumour | 99.77% | Hereditary form; likely network similarity |
-| 7 | Familial Mediterranean fever (autosomal recessive) | 99.75% | Speculative cytokine-signalling dampening; established therapies exist |
-| 8 | Acquired HLH associated with malignancy | 99.74% | JAK/STAT-driven cytokine storm; the more mechanistically plausible candidate |
-| 9 | Infection-associated hemophagocytic syndrome | 99.74% | Same rationale as rank 8 |
-| 10 | Lymphangioleiomyomatosis | 99.74% | mTORC1-driven; sirolimus is the established therapy |
+| 2 | Lymphangiomyoma | 0.9983 | Related to LAM (TSC/mTOR-driven); no demonstrated JAK2 link |
+| 3 | Uterine corpus PEComa | 0.9983 | PEComa family; no direct link |
+| 4 | Dermatofibrosarcoma protuberans | 0.9980 | Driven by PDGFR signalling; imatinib is the established therapy |
+| 5 | Rhabdoid tumour | 0.9978 | SMARCB1 loss; no link to JAK2/FLT3 |
+| 6 | Familial rhabdoid tumour | 0.9977 | Hereditary form; likely network similarity |
+| 7 | Familial Mediterranean fever (autosomal recessive) | 0.9975 | Speculative cytokine-signalling dampening; established therapies exist |
+| 8 | Acquired HLH associated with malignancy | 0.9974 | JAK/STAT-driven cytokine storm; the more mechanistically plausible candidate |
+| 9 | Infection-associated hemophagocytic syndrome | 0.9974 | Same rationale as rank 8 |
+| 10 | Lymphangioleiomyomatosis | 0.9974 | mTORC1-driven; sirolimus is the established therapy |
 
 Among these, the HLH indications have the most plausible biology, since JAK/STAT signalling mediates the cytokine storm.
 
@@ -113,7 +113,7 @@ Further safety information, including warnings and contraindications, should be 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a high TxGNN score (99.84%). No clinical trials or publications were found, and no mechanistic link between JAK2/FLT3 inhibition and the mTOR-driven biology of PEComa is established. Evidence level is L5.
+The prediction is supported only by a high TxGNN score (0.9984). No clinical trials or publications were found, and no mechanistic link between JAK2/FLT3 inhibition and the mTOR-driven biology of PEComa is established. Evidence level is L5.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

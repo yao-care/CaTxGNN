@@ -4,17 +4,17 @@ title: Enzalutamide
 parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Enzalutamide: predicted new indication Prostate cancer/brain cancer susceptibility (evidence level L5). Approved use: Prostate cancer"
 monitor_inn: "Enzalutamide"
-predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "benign neoplasm of prostate", "prostate phyllodes tumor"]
+predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+description: "Enzalutamide: predicted new indication Prostate leiomyoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Enzalutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+## Enzalutamide: Prostate leiomyoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Enzalutamide is an androgen receptor inhibitor, originally used to treat prostate cancer.
-The TxGNN model predicts it may be effective for **prostate cancer/brain cancer susceptibility**, a genetic susceptibility category that overlaps with the approved indication.
+The TxGNN model predicts it may be effective for **prostate leiomyoma**.
 No clinical trials or publications directly support this top-ranked prediction, so it rests on **model prediction only**. The strongest evidence in the data compiled for this report (**38 trials** and **20 publications** under "prostate neoplasm") concerns the already-approved prostate cancer indication, not a new use.
 
 ---
@@ -48,12 +48,12 @@ No clinical trials or publications directly support this top-ranked prediction, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Prostate cancer (the Canadian licence record has no indication text, so this comes from the knowledge graph: prostate cancer, familial prostate carcinoma, prostate carcinoma) |
-| Predicted New Indication | Prostate cancer/brain cancer susceptibility |
-| TxGNN Prediction Score | 99.71% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Prostate leiomyoma |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (model prediction only for the top-ranked indication) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,15 +62,14 @@ No clinical trials or publications directly support this top-ranked prediction, 
 
 Currently, detailed mechanism of action data is not available in the compiled data. From general pharmacology, enzalutamide is an androgen receptor (AR) inhibitor. It blocks ligand binding, nuclear translocation and DNA binding of the receptor, and this is the basis of its efficacy in prostate cancer.
 
-The predicted indication, "prostate cancer/brain cancer susceptibility," is a genetic susceptibility category that overlaps with the approved prostate cancer indication. This overlap probably explains the very high score (99.71%). No mechanistic evidence links androgen receptor inhibition to brain cancer, so the prediction should not be read as a new brain cancer use.
 
-The other top-ranked predictions are similar. Prostate leiomyoma, fibroma of prostate, benign prostate phyllodes tumor and prostate phyllodes tumor are rare prostatic tumors with no trials or publications. Brenner tumor is an ovarian tumor with no clear link to AR inhibition, and its score is likely a graph-propagation artifact. Benign neoplasm of prostate has a plausible AR-dependence rationale, but only prostate cancer literature supports it, and the anti-androgen toxicity profile makes benefit-risk unfavourable for benign disease without dedicated studies.
+The other top-ranked predictions are similar. Prostate leiomyoma, fibroma of prostate and benign prostate phyllodes tumor are rare prostatic tumors with no trials or publications. Brenner tumor is an ovarian tumor with no clear link to AR inhibition, and its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-The top-ranked prediction has no registered trials. The table below shows the most relevant trials from the closely related categories "male reproductive organ cancer" and "prostate neoplasm". All of them study **prostate cancer, the approved indication**, so they are not evidence for a new use.
+The top-ranked prediction has no registered trials. The table below shows the most relevant trials from the closely related category "prostate neoplasm". All of them study **prostate cancer, the approved indication**, so they are not evidence for a new use.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -138,7 +137,7 @@ The top-ranked prediction has no publications. The table below lists key publica
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (prostate cancer/brain cancer susceptibility) is supported by model score only, with no trials or publications, and no mechanism links androgen receptor inhibition to brain cancer. The strong Phase 3 evidence in the data concerns prostate cancer, the existing approved indication. It validates the model but is not a new repurposing opportunity.
+The top-ranked prediction (prostate leiomyoma) is supported by model score only, with no trials or publications. The strong Phase 3 evidence in the data concerns prostate cancer, the existing approved indication. It validates the model but is not a new repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

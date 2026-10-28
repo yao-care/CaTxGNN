@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ertapenem
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 347
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Bacterial pneumonia, streptococcal pneumonia…"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"
 # Ertapenem
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ A second prediction, **Staphylococcus aureus infection** (as a combination with 
 |------|------|
 | Original Indication | Bacterial pneumonia, streptococcal pneumonia, *Peptostreptococcus* infection (approved indication text for the Canadian licences is not available) |
 | Predicted New Indication | Bacterial arthritis |
-| TxGNN Prediction Score | 99.72% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ These pathogens are commonly involved in septic arthritis and bone and joint inf
 
 The evidence is indirect, however. It consists of case reports and uncontrolled series, such as septic arthritis treated successfully with ertapenem, and a retrospective cohort of 306 outpatients on long-term ertapenem in which bone and joint infections were among the indications.
 
-### Second Prediction: *Staphylococcus aureus* Infection (Score 99.28%)
+### Second Prediction: *Staphylococcus aureus* Infection (Score 0.9928)
 
 This prediction rests on the combination of ertapenem with cefazolin for methicillin-susceptible *S. aureus* (MSSA) bacteremia. Cefazolin binds PBP1, while ertapenem preferentially binds PBP2 and PBP3, which is the proposed basis for the synergy. Preclinical models and clinical series report rapid clearance of persistent MSSA bacteremia. Ertapenem alone is not a first-line anti-staphylococcal agent, so its value lies in salvage or early dual therapy. This indication has the evidence level L2 in the compiled data.
 

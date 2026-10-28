@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Zuclopenthixol: From Schizophrenia to Retinal Dystrophy
+## Zuclopenthixol: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Schizophrenia |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,20 +60,20 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 No plausible mechanistic link to retinal dystrophy has been established. Retinal dystrophies are genetically heterogeneous inherited disorders, and nothing in the available data connects dopamine antagonism to their disease pathways. Phenothiazine-class drugs are also known to carry a risk of retinal toxicity (pigmentary retinopathy), which argues against benefit rather than for it.
 
-The high TxGNN score (99.99%, rank 219) is a knowledge-graph prediction only. It should be treated as a hypothesis-generating signal, not as evidence of efficacy.
+The high TxGNN score (0.9999, rank 219) is a TxGNN model (deep learning) prediction only. It should be treated as a hypothesis-generating signal, not as evidence of efficacy.
 
 **Other predicted indications (all L5, all Hold):**
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Hydranencephaly | 99.99% | Congenital structural brain malformation; no rationale for a dopamine antagonist |
-| 3 | Congenital disorder of glycosylation with defective fucosylation | 99.99% | Enzymatic or metabolic defect unrelated to receptor antagonism |
-| 4 | Charcot-Marie-Tooth disease, demyelinating, type 1G | 99.99% | Antipsychotic neurological adverse effects could complicate this population |
-| 5 | Myopia, X-linked | 99.99% | Retinal dopamine is involved in eye growth, but antagonism is expected to act in the unfavourable direction |
-| 6 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.99% | Congenital malformation syndrome; no plausible corrective role |
-| 7 | Syndromic myopia | 99.99% | Same weak, unfavourable dopamine link as above |
-| 8 | Myopia 26, X-linked, female-limited | 99.99% | Same weak, unfavourable dopamine link as above |
-| 9 | Atypical glycine encephalopathy | 99.99% | Antipsychotics may lower the seizure threshold, a concern in this population |
+| 2 | Hydranencephaly | 0.9999 | Congenital structural brain malformation; no rationale for a dopamine antagonist |
+| 3 | Congenital disorder of glycosylation with defective fucosylation | 0.9999 | Enzymatic or metabolic defect unrelated to receptor antagonism |
+| 4 | Charcot-Marie-Tooth disease, demyelinating, type 1G | 0.9999 | Antipsychotic neurological adverse effects could complicate this population |
+| 5 | Myopia, X-linked | 0.9999 | Retinal dopamine is involved in eye growth, but antagonism is expected to act in the unfavourable direction |
+| 6 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 0.9999 | Congenital malformation syndrome; no plausible corrective role |
+| 7 | Syndromic myopia | 0.9999 | Same weak, unfavourable dopamine link as above |
+| 8 | Myopia 26, X-linked, female-limited | 0.9999 | Same weak, unfavourable dopamine link as above |
+| 9 | Atypical glycine encephalopathy | 0.9999 | Antipsychotics may lower the seizure threshold, a concern in this population |
 
 ## Clinical Trial Evidence
 

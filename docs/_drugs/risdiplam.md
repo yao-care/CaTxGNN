@@ -4,17 +4,17 @@ title: Risdiplam
 parent: Model Prediction Only (L5)
 nav_order: 814
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Spinal muscular atrophy"
 monitor_inn: "Risdiplam"
-predicted_indications: ["acne (disease)", "drug-induced osteoporosis", "zinc, elevated plasma", "common wart", "metastatic melanoma", "dermatitis", "non-cutaneous melanoma", "acrodermatitis chronica atrophicans", "epithelioid cell melanoma", "eyelid melanoma"]
+predicted_indications: ["acne (disease)"]
 ---
 
 # Risdiplam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,17 +46,17 @@ Risdiplam is an SMN2 splicing modifier that is marketed in Canada under the bran
 |------|------|
 | Original Indication | Spinal muscular atrophy (based on drug class knowledge; the Canadian licence records compiled for this report contain no indication text) |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, risdiplam is an SMN2 splicing modifier used in spinal muscular atrophy, where it increases production of functional SMN protein.
 
-No mechanistic pathway linking SMN2 splicing modulation to acne is supported by the available data. The score of 0.995 is a computational prediction only and has no clinical or literature backing. Acne is a skin condition, and the other top-ranked predictions for this drug also cluster around skin conditions (dermatitis, warts, several melanoma subtypes). This pattern may reflect a bias in the knowledge graph rather than true biological relevance. Any hypothesis would need independent preclinical validation first.
+No mechanistic pathway linking SMN2 splicing modulation to acne is supported by the available data. The score of 0.9945 is a computational prediction only and has no clinical or literature backing. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any hypothesis would need independent preclinical validation first.
 
 ## Clinical Trial Evidence
 
@@ -79,15 +79,6 @@ All of the following predictions are at evidence level L5, with no trials or pub
 
 | Rank | Predicted Indication | TxGNN Score |
 |------|------|------|
-| 2 | Drug-induced osteoporosis | 97.72% |
-| 3 | Zinc, elevated plasma | 97.32% |
-| 4 | Common wart | 97.21% |
-| 5 | Metastatic melanoma | 96.84% |
-| 6 | Dermatitis | 96.62% |
-| 7 | Non-cutaneous melanoma | 96.18% |
-| 8 | Acrodermatitis chronica atrophicans | 96.11% |
-| 9 | Epithelioid cell melanoma | 95.93% |
-| 10 | Eyelid melanoma | 95.88% |
 
 The melanoma predictions (ranks 5, 7, 9 and 10) are likely correlated rather than independent signals.
 

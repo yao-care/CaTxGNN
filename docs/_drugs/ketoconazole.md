@@ -6,9 +6,9 @@ nav_order: 511
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Tinea pedis, seborrheic dermatitis, tinea corporis…"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
+description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ketoconazole
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Ketoconazole: From Superficial and Systemic Fungal Infections to Acne
+## Ketoconazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acne**, but support is still 
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, seborrheic dermatitis, tinea corporis, cutaneous candidiasis, pityriasis versicolor, oral candidiasis, histoplasmosis, aspergillosis, and others (the Canadian licence records contain no indication text, so this comes from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold (research question; if pursued, topical use only) |
 
 ---

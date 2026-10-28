@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tizanidine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 919
-evidence_level: L5
-indication_count: 6
+evidence_level: L1
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Tizanidine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the available Canadian licence data"
 monitor_inn: "TIZANIDINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 ---
 
 # Tizanidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, with **2
 |------|------|
 | Original Indication | Not stated in the available Canadian licence data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L1 (conditional; see note below) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note: The L1 level is the pre-assigned grade for this prediction. Strictly by the stated rules (≥2 completed Phase 3 RCTs), the evidence is weaker: the only Phase 3 trial has UNKNOWN status and no verified results. A conservative reading would sit between L2 and L3.*
@@ -128,7 +128,7 @@ A directly matched Phase 3 placebo-controlled trial in migraine prevention exist
 - A safety plan covering sedation, hypotension, liver function and CYP1A2 interaction management
 - Approved-indication text and dosage forms for the Canadian products
 
-*Other predicted indications (migraine with brainstem aura, migraine susceptibility, Tourette syndrome, atrophoderma vermiculata, ulerythema ophryogenesis) have little or no supporting evidence. The migraine susceptibility entry is a genetic-risk label best handled through the main migraine indication, and the two dermatological predictions are probably knowledge-graph artifacts.*
+*Other predicted indications (migraine with brainstem aura, migraine susceptibility, Tourette syndrome, atrophoderma vermiculata, ulerythema ophryogenesis) have little or no supporting evidence. The migraine susceptibility entry is a genetic-risk label best handled through the main migraine indication, and the two dermatological predictions are probably TxGNN model (deep learning) artifacts.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -6,9 +6,9 @@ nav_order: 951
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Triptorelin: predicted new indication Precocious puberty (evidence level L1). Approved use: Not available"
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Triptorelin
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Triptorelin: From Hormone-Dependent Conditions to Precocious Puberty
+## Triptorelin: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,15 +46,15 @@ Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist marketed in Canad
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved indication text was provided in the Canadian licence data) |
-| Predicted New Indication | Precocious puberty |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
-Note: The top-ranked prediction by TxGNN score is hypertrichosis (99.997%). It is not recommended for follow-up, because its only supporting paper describes hypertrichosis as an adverse effect of a different drug (ciclosporin). This report focuses on precocious puberty, the prediction with the strongest evidence.
+Note: The top-ranked prediction by TxGNN score is hypertrichosis (1.0000). It is not recommended for follow-up, because its only supporting paper describes hypertrichosis as an adverse effect of a different drug (ciclosporin). This report focuses on precocious puberty, the prediction with the strongest evidence.
 
 ---
 
@@ -64,7 +64,7 @@ Detailed mechanism-of-action data is not available in the data compiled for this
 
 Central precocious puberty is driven by premature activation of the hypothalamic-pituitary-gonadal axis. Shutting down this axis with a GnRH agonist halts or slows pubertal progression, which is why GnRH agonists are the standard treatment. The link between triptorelin's mechanism and this condition is direct and well established. Several Phase 3 studies of the 1-, 3- and 6-month formulations support this.
 
-Other predictions are much weaker. Familial male-limited precocious puberty (testotoxicosis) is driven by gonadotropin-independent testosterone production, so GnRH agonists are generally ineffective alone. Triptorelin may only help as an add-on if secondary central puberty develops. Aromatase excess syndrome is similarly indirect. The remaining predictions (genetic hair disorders, malformation syndromes, allergic urticaria) have no plausible mechanistic link and no supporting evidence. Their high scores are likely artefacts of graph propagation.
+Other predictions are much weaker. Familial male-limited precocious puberty (testotoxicosis) is driven by gonadotropin-independent testosterone production, so GnRH agonists are generally ineffective alone. Triptorelin may only help as an add-on if secondary central puberty develops. Aromatase excess syndrome is similarly indirect. The remaining predictions (genetic hair disorders, malformation syndromes, allergic urticaria) have no plausible mechanistic link and no supporting evidence.
 
 ---
 

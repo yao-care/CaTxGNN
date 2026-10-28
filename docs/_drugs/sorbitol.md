@@ -50,10 +50,10 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 |------|------|
 | Original Indication | Not available (the Canadian licence records contain no approved indication text) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Sorbitol is known
 
 Malignant hyperthermia is a disorder of calcium regulation in skeletal muscle, typically linked to RYR1 or CACNA1S variants. It is triggered by volatile anaesthetics or succinylcholine, and the established treatment is dantrolene. No plausible pharmacological link between sorbitol and this pathway has been identified.
 
-The high score most likely reflects knowledge-graph proximity artefacts, such as shared associations with formulation excipients or other polyols. It should not be read as true pharmacological activity. Sorbitol is not a recognised treatment or preventive agent for malignant hyperthermia.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as true pharmacological activity. Sorbitol is not a recognized treatment or preventive agent for malignant hyperthermia.
 
 ---
 
@@ -112,7 +112,7 @@ The only support for this prediction is a high model score. There are no clinica
 - Mechanism of action data from DrugBank
 - Any preclinical or clinical evidence linking sorbitol to calcium regulation or thermoregulation in skeletal muscle
 - Route and formulation compatibility assessment, since current Canadian products are irrigation solutions
-- Review of whether the prediction is a knowledge-graph artefact before any further investment
+- Review of whether the prediction is a TxGNN model (deep learning) artefact before any further investment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

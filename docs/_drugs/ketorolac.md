@@ -50,10 +50,10 @@ with **17 clinical trials** and **18 publications** currently supporting this di
 |------|------|
 | Original Indication | Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis |
 | Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L1 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -132,8 +132,8 @@ The 14 valid single-ingredient licences are listed below (up to 5 shown). Approv
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
 |------|------|------|------|------|
-| Rosacea conjunctivitis | 99.40% | L5 | Hold | No trials or literature. Plausible because ketorolac is already used in related ocular inflammatory conditions, but this is a prediction only. |
-| Trigeminal autonomic cephalalgia | 99.39% | L4 | Hold | The only trial was withdrawn with no enrolment. These headaches (e.g., cluster headache) generally respond poorly to NSAIDs. |
+| Rosacea conjunctivitis | 0.9940 | L5 | Hold | No trials or literature. Plausible because ketorolac is already used in related ocular inflammatory conditions, but this is a prediction only. |
+| Trigeminal autonomic cephalalgia | 0.9939 | L4 | Hold | The only trial was withdrawn with no enrolment. These headaches (e.g., cluster headache) generally respond poorly to NSAIDs. |
 
 ---
 

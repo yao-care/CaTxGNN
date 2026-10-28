@@ -4,17 +4,17 @@ title: Ammonium Chloride
 parent: Model Prediction Only (L5)
 nav_order: 54
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-13
-description: "Ammonium Chloride: predicted new indication Acute laryngopharyngitis (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
+indication_count: 1
 monitor_inn: "AMMONIUM CHLORIDE"
-predicted_indications: ["acute laryngopharyngitis", "nasal cavity disease"]
+predicted_indications: ["nasal cavity disease"]
+last_modified_at: 2026-10-23
+description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
 # Ammonium Chloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Ammonium Chloride: From Pharyngitis and Common Cold to Acute Laryngopharyngitis
+## Ammonium Chloride: From Pharyngitis, Common Cold and Nasopharyngitis to Nasal Cavity Disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ammonium chloride was originally used for upper respiratory conditions such as pharyngitis, common cold and nasopharyngitis, and is traditionally used as an expectorant.
-The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but **no clinical trials and no publications** currently support this direction. It is a computational prediction only.
+Ammonium chloride is an ingredient in cough and cold syrups.
+The TxGNN model predicts it may be effective for **nasal cavity disease**,
+but at present there are **0 clinical trials** and **0 publications** supporting this direction, so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pharyngitis, common cold, nasopharyngitis (from the knowledge graph; Canadian licence records contain no indication text) |
-| Predicted New Indication | Acute laryngopharyngitis |
-| TxGNN Prediction Score | 99.94% |
+| Original Indication | Pharyngitis, common cold, nasopharyngitis (relations recorded in the knowledge graph; the Canadian licence records contain no indication text) |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is traditionally used as an expectorant that may loosen mucus in the upper airway. Its use in pharyngitis, common cold and nasopharyngitis is already recognised, and mechanistically it may be applicable to acute laryngopharyngitis. This mechanistic link cannot be verified with the data compiled for this report.
+Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is used in cough and cold syrups. Mechanistically, it may be applicable to nasal cavity disease through thinning of mucus and clearance of secretions.
 
-The predicted condition is closely related to the existing indications, since all of them are upper respiratory tract conditions. The high score may therefore reflect proximity to known indications in the knowledge graph. This looks more like an extension of the existing pharyngitis indication than true repurposing.
-
-A second prediction, **nasal cavity disease** (score 99.94%), is also at L5 with no trials or literature. The term is broad and overlaps with common cold and nasopharyngitis. A more specific sub-indication, such as rhinitis or sinusitis, should be defined before any further evaluation.
+This link is plausible but unverified. No clinical or mechanistic data were compiled to support it for nasal cavity disease specifically. The predicted indication is also broad. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -73,42 +72,40 @@ Currently no related literature available.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 02245592 | DAMYLIN WITH CODEINE SYRUP | Not stated | Not stated |
-| 00690074 | COUGH SYRUP | Not stated | Not stated |
-| 00535230 | CALMYLIN | Not stated | Not stated |
+| 02245592 | DAMYLIN WITH CODEINE SYRUP | Not listed | Not listed |
+| 00690074 | COUGH SYRUP | Not listed | Not listed |
+| 00535230 | CALMYLIN | Not listed | Not listed |
 
-All three are valid single-ingredient authorisations; none has been cancelled.
+All three are valid single-ingredient licences. The licence records compiled for this report contain no indication text.
 
 ## Safety Considerations
 
-**Drug Interactions** (21 interactions recorded in the interaction database; 20 are itemised in the data compiled for this report, and all of those are Minor or Moderate):
-- **Moderate**: amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine
-- **Minor**: ephedrine (including nasal), pseudoephedrine, tricyclic antidepressants (amitriptyline, clomipramine, desipramine, doxepin including topical, imipramine, nortriptyline, protriptyline, trimipramine), methadone, mexiletine, flecainide
+- **Contraindications (relations recorded in the knowledge graph, not label text)**: The knowledge graph links ammonium chloride to many conditions, including:
+  - Cardiovascular: hypertension, sudden cardiac arrest, heart conduction disease, myocardial ischemia, coronary artery disease, pulmonary edema
+  - Liver and kidney: liver failure, impaired renal function, anuria, nephrocalcinosis
+  - Metabolic and endocrine: hypercalcemia, phosphorus metabolism disease, adrenocortical insufficiency, Addison disease, hyperthyroidism, Graves disease, thyrotoxicosis
+  - Eye: angle-closure glaucoma, ocular hypertension
+  - Neuropsychiatric: epilepsy, insomnia, anxiety disorder, agoraphobia, obsessive-compulsive disorder
+  - Other: peptic ulcer disease, benign prostatic hyperplasia, bladder neck obstruction, necrotizing enterocolitis
+- **Drug Interactions**: 21 interactions were found.
+  - Moderate: amphetamine, benzphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine
+  - Minor (examples): ephedrine, pseudoephedrine, methadone, mexiletine, flecainide, and tricyclic antidepressants (amitriptyline, clomipramine, desipramine, doxepin, imipramine, nortriptyline, protriptyline, trimipramine)
 
-**Knowledge-graph contraindication signals** (from drug-disease links in the knowledge graph, not from label text, so they must be checked against the official label):
-- Cardiovascular: hypertension, hypertensive disorder, myocardial ischemia, coronary artery disease, sudden cardiac arrest, heart conduction disease, pulmonary edema
-- Renal, hepatic and metabolic: liver failure, impaired renal function, anuria, nephrocalcinosis, hypercalcemia, phosphorus metabolism disease, adrenocortical insufficiency, Addison disease
-- Endocrine: hyperthyroidism, Graves disease, thyrotoxicosis
-- Gastrointestinal: peptic ulcer disease, necrotizing enterocolitis
-- Eye: angle-closure and closed-angle glaucoma, ocular hypertension
-- Urological: benign prostatic hyperplasia, bladder neck obstruction
-- Neuropsychiatric: epilepsy, insomnia, anxiety disorder, agoraphobia, obsessive-compulsive disorder
-
-Several of these signals may relate to combination products, such as those containing codeine or decongestants, rather than to ammonium chloride alone. Package insert warnings and contraindications for the Canadian products have not been obtained. Please refer to the package insert for label safety information.
+Label warnings and contraindications from the Canadian package inserts were not available. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a high model score (L5), with no clinical trials, no literature and no verifiable mechanism. The predicted condition largely overlaps with the existing indications, so it adds little new value as repurposing.
+The TxGNN score is very high, but no clinical trials or publications address nasal cavity disease, so the evidence level is L5. The predicted indication is broad, and label safety data are missing.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example from DrugBank) to test the mechanistic link
-- Health Canada package insert warnings, contraindications and approved indication text for the three DINs, which is required before safety screening
-- A clear definition of the target indication, including a specific sub-indication in place of "nasal cavity disease"
-- Targeted literature and trial searches for ammonium chloride in acute laryngopharyngitis
-- Dosage form and route information to assess route compatibility
+- Health Canada package insert warnings and contraindications (to be downloaded and reviewed)
+- Mechanism of action data (for example, from DrugBank)
+- Indication text for the three Canadian licences
+- A literature and trial search specific to nasal cavity disease
+- Clarification of which specific nasal conditions are being targeted, and route and formulation compatibility
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **schizoid personality disorder
 |------|------|
 | Original Indication | Social phobia, phobic disorder, obsessive-compulsive disorder |
 | Predicted New Indication | Schizoid personality disorder |
-| TxGNN Prediction Score | 99.997% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **schizoid personality disorder
 
 Detailed mechanism of action data is not available in the data compiled for this report. Fluvoxamine is an SSRI, and serotonin reuptake inhibition is the established basis for its use in anxiety-spectrum conditions such as social phobia and OCD. Mechanistically, serotonergic modulation might influence some traits seen in personality disorders, such as social withdrawal and detachment.
 
-The relationship between the original and new indications is weak. Social phobia and OCD are anxiety-spectrum disorders with documented responses to SSRIs. Schizoid personality disorder is a long-standing pattern of detachment and restricted emotional expression, and no data compiled here show that fluvoxamine treats it. The very high model score (99.997%) is purely computational. The same score was assigned to several other personality disorders (schizotypal, histrionic, paranoid), which suggests the model is picking up a general class-level pattern rather than a disorder-specific signal.
+The relationship between the original and new indications is weak. Social phobia and OCD are anxiety-spectrum disorders with documented responses to SSRIs. Schizoid personality disorder is a long-standing pattern of detachment and restricted emotional expression, and no data compiled here show that fluvoxamine treats it. The very high model score (1.0000) is purely computational. The same score was assigned to several other personality disorders (schizotypal, histrionic, paranoid), which suggests the model is picking up a general class-level pattern rather than a disorder-specific signal.
 
 ---
 

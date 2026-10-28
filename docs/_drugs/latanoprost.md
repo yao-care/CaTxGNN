@@ -4,17 +4,17 @@ title: Latanoprost
 parent: Model Prediction Only (L5)
 nav_order: 528
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Latanoprost: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Latanoprost is a prostaglandin F2-alpha analogue originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
 but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on mechanistic reasoning alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; ocular hypertension |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L4 (mechanistic reasoning only; no trials or literature) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 17 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Visceral calciphylaxis |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 (mechanistic reasoning only; no trials or literature) |
+| Canada Market Status | Marketed (valid licenses: 17 of 17) |
+| Number of DINs | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -98,14 +97,13 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.88%), but there are no registered trials and no publications for primary hereditary glaucoma. The mechanistic link is plausible but weakened by the developmental drainage-angle abnormalities typical of congenital forms. At this stage it is a research question, not a candidate ready for development.
+The mechanistic link is plausible but weakened by the developmental drainage-angle abnormalities typical of congenital forms. At this stage it is a research question, not a candidate ready for development.
 
 **To proceed, the following is needed:**
 - A systematic literature search for prostaglandin analogues in primary congenital and juvenile glaucoma, including paediatric efficacy and safety data
 - Detailed mechanism-of-action data
 - Health Canada package insert warnings and contraindications, to complete safety screening
 - Product-level dosage form and approved indication details for the Canadian licences
-- Review of the knowledge-graph–flagged ocular conditions (uveitis, macular oedema, conjunctivitis) against label text
 - Severity classification of the drug interaction records
 - A dedicated assessment of the hair-growth predictions (hypotrichosis simplex of the scalp, congenital hypotrichosis milia) as a separate research question
 ## Disclaimer

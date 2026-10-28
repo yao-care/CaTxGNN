@@ -50,9 +50,9 @@ but there are currently **no registered clinical trials** and only **2 publicati
 |------|------|
 | Original Indication | Beta-thalassemia and related hemoglobinopathies (including hereditary persistence of fetal hemoglobin and beta-thalassemia intermedia) |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

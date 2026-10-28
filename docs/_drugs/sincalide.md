@@ -48,10 +48,10 @@ The prediction rests on computation alone.
 |------|------|
 | Original Indication | Not stated in the Health Canada license data compiled for this report (the drug's known pharmacology is gallbladder and pancreatic function diagnostics) |
 | Predicted New Indication | Malignant catarrh |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 No mechanistic link to the predicted indication has been identified. Malignant catarrh (malignant catarrhal fever) is a viral disease of ruminants, and no CCK-receptor-mediated pathway is known to bear on its pathogenesis. The prediction is purely computational, with no supporting trial or literature data.
 
-The same pattern holds for the other top-ranked predictions, which include infectious bovine rhinotracheitis, cytomegalovirus infection, thrombotic disease, hyperthyroidism, resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta, hyperthyroxinemia, homozygous familial hypercholesterolemia, Prinzmetal angina and amenorrhea. All of them have an L5 evidence level, no clinical trials, no literature and no plausible mechanism. The high scores likely reflect knowledge-graph connectivity rather than pharmacological relevance.
+The same pattern holds for the other top-ranked predictions, which include infectious bovine rhinotracheitis, cytomegalovirus infection, thrombotic disease, hyperthyroidism, resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta, hyperthyroxinemia, homozygous familial hypercholesterolemia, Prinzmetal angina and amenorrhea. All of them have an L5 evidence level, no clinical trials, no literature and no plausible mechanism. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

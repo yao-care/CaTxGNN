@@ -4,7 +4,7 @@ title: Bisoprolol
 parent: Model Prediction Only (L5)
 nav_order: 119
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Bisoprolol"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Bisoprolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,15 +62,14 @@ but **no clinical trials and no publications** currently support this direction,
 
 Detailed mechanism of action data is not available for this report. Based on known pharmacology, bisoprolol is a beta-1 selective blocker whose efficacy in hypertension is established. Beta-1 blockade lowers heart rate and cardiac output and reduces renin release from the kidney.
 
-Malignant hypertensive renal disease is a severe kidney complication of very high blood pressure. The link to the original indication is therefore plausible: the underlying problem is the same (raised blood pressure), and reduced renin release could in theory help. The high score likely reflects how close this disease sits to hypertension in the knowledge graph, not independent evidence.
+Malignant hypertensive renal disease is a severe kidney complication of very high blood pressure. The link to the original indication is therefore plausible: the underlying problem is the same (raised blood pressure), and reduced renin release could in theory help. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 There is an important caution. Malignant hypertension is normally treated in acute care with intravenous agents, not oral beta-blockers, so the practical role of bisoprolol would be limited to long-term maintenance at most.
 
 Other predictions in the same list were also reviewed:
-- **Malignant renovascular hypertension** (score 99.94%): a theoretical rationale through renin suppression, but no trials or literature.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.93%): 8 publications were retrieved, but they are preclinical or cardiac-focused and show no efficacy signal. Beta-blockers may impair right ventricular function in pulmonary hypertension.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.93%): no supporting evidence, and low biological plausibility.
-- **Braddock syndrome** (score 99.91%): a very rare condition with no mechanistic or clinical link to bisoprolol.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 0.9993): 8 publications were retrieved, but they are preclinical or cardiac-focused and show no efficacy signal. Beta-blockers may impair right ventricular function in pulmonary hypertension.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (score 0.9993): no supporting evidence, and low biological plausibility.
+- **Braddock syndrome** (score 0.9991): a very rare condition with no mechanistic or clinical link to bisoprolol.
 
 ---
 

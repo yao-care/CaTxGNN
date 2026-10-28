@@ -4,17 +4,17 @@ title: Nitrogen
 parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Congenital alveolar capillary dysplasia"
 monitor_inn: "Nitrogen"
-predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia", "benign neoplasm of adrenal gland", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)"]
+predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia"]
+description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nitrogen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nitrogen: From Congenital Alveolar Capillary Dysplasia to 16q24.1 Microdeletion Syndrome
+## Nitrogen: 16q24.1 microdeletion syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Congenital alveolar capillary dysplasia; persistent fetal circulation syndrome (from the knowledge graph; the Canadian licences carry no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | 16q24.1 microdeletion syndrome |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 16q24.1 microdeletion syndrome involves deletion of the FOXF1 region. This region is also implicated in congenital alveolar capillary dysplasia, so the lung blood vessel and air sac features of the two conditions overlap. This is the main reason the prediction is plausible.
 
-There are limits to this reasoning. The score is a graph-based inference only, and no trials or publications support it. Any benefit would at most ease pulmonary hypertension symptoms and would not change the underlying genetic disease.
+There are limits to this reasoning. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications support it. Any benefit would at most ease pulmonary hypertension symptoms and would not change the underlying genetic disease.
 
-Other top predictions (the rank 2-4 diseases are childhood interstitial lung disease, pulmonary capillaritis and congenital pulmonary lymphangiectasia) are also based on shared lung disease features. Predictions further down the list (adrenal neoplasm, dental malformation syndromes, Dandy-Walker syndrome, hair disorders) show no credible mechanistic link and look like graph artifacts.
+Other top predictions (primary interstitial lung disease specific to childhood at 0.9972, isolated pulmonary capillaritis at 0.9972 and congenital pulmonary lymphangiectasia at 0.9968) are also based on similarities the model learned between related lung diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

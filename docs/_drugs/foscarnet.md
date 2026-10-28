@@ -6,7 +6,7 @@ nav_order: 412
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
-description: "Foscarnet: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-c… (evidence level L5). Approved use: Not listed in the Canadian license data compiled for this…"
+description: "Foscarnet: predicted new indication autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not listed in the Canadian license data compiled for this…"
 monitor_inn: "Foscarnet"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "rheumatoid arthritis", "diabetic nephropathy"]
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **autosomal dominant familial h
 |------|------|
 | Original Indication | Not listed in the Canadian license data compiled for this report |
 | Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
-| TxGNN Prediction Score | 99.56% |
+| TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,13 +63,13 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 The predicted condition is an ultra-rare genetic disorder caused by COL4A1 mutations. It features tortuous retinal arteries, blood in the urine and joint contractures. It is a defect in collagen IV, not an infection. Foscarnet has no known action on this pathway, so **no plausible biological link was identified**.
 
-The high score most likely reflects proximity in the knowledge graph through shared retinal features (for example, CMV retinitis), not a true therapeutic rationale. The score should therefore be read with caution.
+The high score comes from the TxGNN model (deep learning) and most likely reflects similarities the model learned between related diseases through shared retinal features (for example, CMV retinitis), not biological evidence or a true therapeutic rationale. The score should therefore be read with caution.
 
 Other high-scoring predictions for this drug show a similar pattern:
 
-- **Brain small vessel disease 1 with or without ocular anomalies** (score 99.54%): also COL4A1-related, with the same lack of mechanistic link.
-- **Rheumatoid arthritis** (score 99.52%): the retrieved papers mainly concern CMV/EBV infections and leflunomide, an RA drug used off-label against CMV. Foscarnet does not treat RA itself.
-- **Diabetic nephropathy** (score 99.43%): foscarnet is itself nephrotoxic, so the safety direction is likely opposite to a therapeutic effect.
+- **Brain small vessel disease 1 with or without ocular anomalies** (score 0.9954): also COL4A1-related, with the same lack of mechanistic link.
+- **Rheumatoid arthritis** (score 0.9952): the retrieved papers mainly concern CMV/EBV infections and leflunomide, an RA drug used off-label against CMV. Foscarnet does not treat RA itself.
+- **Diabetic nephropathy** (score 0.9943): foscarnet is itself nephrotoxic, so the safety direction is likely opposite to a therapeutic effect.
 
 ---
 
@@ -134,7 +134,7 @@ The prediction rests on a model score alone (evidence level L5), with no clinica
 - Mechanism of action data from DrugBank
 - Original approved indication from the Canadian license (currently blank)
 - Preclinical or mechanistic evidence showing a plausible effect in COL4A1-related disease
-- A reassessment of whether the TxGNN score reflects true therapeutic potential or only retinal-phenotype overlap in the knowledge graph
+- A reassessment of whether the TxGNN score reflects true therapeutic potential or only similarities the model learned between related retinal-phenotype diseases, not biological evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

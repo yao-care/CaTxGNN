@@ -4,7 +4,7 @@ title: Telmisartan
 parent: Model Prediction Only (L5)
 nav_order: 885
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Hypertension"
 monitor_inn: "TELMISARTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 # Telmisartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Telmisartan is an angiotensin receptor blocker originally used to treat hypertension and to reduce stroke and cerebral infarction risk.
-The TxGNN model predicts it may be effective for **Prinzmetal angina** (top-ranked prediction, score 99.98%), but **no clinical trials or publications** currently support this specific prediction.
+The TxGNN model predicts it may be effective for **Prinzmetal angina** (top-ranked prediction, score 0.9998), but **no clinical trials or publications** currently support this specific prediction.
 Among the other top-10 predictions, the best-supported is **intracerebral hemorrhage** (a Phase 3 combination-therapy trial and a 2026 NEJM publication), followed by **cerebral artery occlusion** (mainly preclinical evidence).
 
 ---
@@ -50,9 +50,9 @@ Among the other top-10 predictions, the best-supported is **intracerebral hemorr
 |------|------|
 | Original Indication | Hypertension; stroke and cerebral infarction risk reduction (approved indication text is not available in the Canadian license records) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -66,8 +66,8 @@ This link is a hypothesis only. No trials or literature were found for Prinzmeta
 
 Other predictions in the top 10 show different levels of support:
 
-- **Intracerebral hemorrhage (score 99.93%, L2):** Blood pressure lowering is the main mechanism for preventing recurrent hemorrhage. Telmisartan is a component of the low-dose triple-pill strategy tested in TRIDENT. Its independent contribution cannot be separated from the combination.
-- **Cerebral artery occlusion (score 99.95%, L2 with caveats):** Rodent ischemia models show reduced infarct volume, oxidative stress and inflammation. Direct clinical evidence in acute occlusion is lacking.
+- **Intracerebral hemorrhage (score 0.9993, L2):** Blood pressure lowering is the main mechanism for preventing recurrent hemorrhage. Telmisartan is a component of the low-dose triple-pill strategy tested in TRIDENT. Its independent contribution cannot be separated from the combination.
+- **Cerebral artery occlusion (score 0.9995, L2 with caveats):** Rodent ischemia models show reduced infarct volume, oxidative stress and inflammation. Direct clinical evidence in acute occlusion is lacking.
 - **Brain stem infarction, malignant renovascular hypertension and malignant hypertensive renal disease:** These are largely restatements of, or subtypes of, existing indications, with no condition-specific evidence.
 - **Pulmonary hypertension (two entries) and the rare conditions ABri amyloidosis and Braddock syndrome:** Evidence is absent or only indirect.
 

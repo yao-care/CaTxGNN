@@ -4,17 +4,17 @@ title: Famotidine
 parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Famotidine: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Gastric ulcer, duodenal ulcer, gastroesophageal reflux disease…"
 monitor_inn: "FAMOTIDINE"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
+description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Famotidine: From Gastric Ulcer to Duodenogastric Reflux
+## Famotidine: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Famotidine is a histamine H2-receptor antagonist originally used for gastric and duodenal ulcers, gastroesophageal reflux disease, and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**, but the support is thin: **no registered clinical trials** and only **2 publications** are linked to this top-ranked prediction.
-Among the ten predictions, the best-supported one is peptic ulcer disease (8 clinical trials, 20 publications), but that is largely an existing labelled use rather than true repurposing.
 
 ---
 
@@ -48,12 +46,12 @@ Among the ten predictions, the best-supported one is peptic ulcer disease (8 cli
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, duodenal ulcer, gastroesophageal reflux disease, esophagitis, dyspepsia, Zollinger-Ellison syndrome (approved indication text for Canadian licences was not available) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 (preclinical or mechanism-level support only) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 18 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 (preclinical or mechanism-level support only) |
+| Canada Market Status | Marketed (valid licenses: 18 of 18) |
+| Number of DINs | 18 (valid: 18) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +60,6 @@ Among the ten predictions, the best-supported one is peptic ulcer disease (8 cli
 
 Detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, famotidine is an H2-receptor antagonist that reduces gastric acid secretion. Its efficacy in gastric and duodenal ulcers is well established.
 
-Duodenogastric reflux is the backflow of duodenal contents into the stomach. Lowering acid may reduce mucosal injury from the refluxed material, but famotidine does not directly address bile reflux, so the support is indirect. The model's high score likely reflects the close network proximity between this condition and famotidine's existing ulcer and reflux indications.
 
 Several other predictions follow the same pattern. Peptic ulcer disease, gastroduodenitis, and active peptic ulcer disease overlap with existing labelled uses. Duodenal obstruction, peptic ulcer perforation, abnormality of glucagon secretion, and acne have no clear mechanistic link or are mainly surgical or unsupported conditions.
 
@@ -70,7 +67,6 @@ Several other predictions follow the same pattern. Peptic ulcer disease, gastrod
 
 ## Clinical Trial Evidence
 
-There are currently no clinical trials registered for the top prediction, duodenogastric reflux. The table below shows the trials linked to the best-supported related prediction, peptic ulcer disease. In nearly all of them famotidine is the comparator rather than the investigated drug.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -87,7 +83,6 @@ There are currently no clinical trials registered for the top prediction, duoden
 
 ## Literature Evidence
 
-Publications for the top prediction, duodenogastric reflux:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -135,7 +130,6 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, duodenogastric reflux, has no registered trials and only two small, dated publications, and the mechanism is indirect because acid suppression does not treat bile reflux. The best-supported prediction, peptic ulcer disease (L1), mostly restates existing labelled uses and shows famotidine as comparator or inferior to PPIs, so it is not a true repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

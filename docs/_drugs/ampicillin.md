@@ -4,17 +4,17 @@ title: Ampicillin
 parent: Moderate Evidence (L3-L4)
 nav_order: 56
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Bacterial infections (urinary tract infection, otitis media…"
 monitor_inn: "AMPICILLIN"
-predicted_indications: ["laryngitis", "Ureaplasma urethritis", "gonococcal urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 ---
 
 # Ampicillin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Evidence is weak, and the recommended decision is **Hold**.
 |------|------|
 | Original Indication | Bacterial infections (urinary tract infection, otitis media, bacterial pneumonia, meningitis and others; the Health Canada indication text is not available) |
 | Predicted New Indication | Laryngitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 17 |
+| Canada Market Status | Marketed (valid licenses: 17 of 17) |
+| Number of DINs | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -113,7 +113,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.97%), but the supporting evidence for laryngitis is indirect: case reports, historical epiglottitis series and papers on other topics. Most laryngitis is viral and will not respond to ampicillin. Increasing *H. influenzae* resistance further limits its role. Evidence is L4.
+The TxGNN score is very high (0.9997), but the supporting evidence for laryngitis is indirect: case reports, historical epiglottitis series and papers on other topics. Most laryngitis is viral and will not respond to ampicillin. Increasing *H. influenzae* resistance further limits its role. Evidence is L4.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada (a blocking gap for safety screening)

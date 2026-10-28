@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Hydroquinone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 458
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L4). Approved use: Not stated in the Canadian license data"
@@ -14,7 +14,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 # Hydroquinone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, but t
 |------|------|
 | Original Indication | Not stated in the Canadian license data |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,9 +66,9 @@ Seborrheic keratosis is a benign proliferation of epidermal cells that is often 
 The only supporting publication is a prospective observational study of combination treatment for facial pigmentary disorders. It does not test hydroquinone for seborrheic keratosis directly.
 
 Other predictions in the list are weaker still:
-- **Vulvar inverted follicular keratosis** (score 99.64%): no trials or literature; likely reflects similarity to other keratosis entities in the knowledge graph.
-- **Exanthem** (score 99.42%): one Phase 4 trial of an herbal depigmenting system (hydroquinone used as a comparator) and a pregnancy skin-conditions review, both only tangential.
-- **Lichen disease** (score 99.07%): a pigmentary disorders review and a case report that responded to topical tacrolimus, not hydroquinone.
+- **Vulvar inverted follicular keratosis** (score 0.9964): no trials or literature; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+- **Exanthem** (score 0.9942): one Phase 4 trial of an herbal depigmenting system (hydroquinone used as a comparator) and a pregnancy skin-conditions review, both only tangential.
+- **Lichen disease** (score 0.9907): a pigmentary disorders review and a case report that responded to topical tacrolimus, not hydroquinone.
 
 ---
 
@@ -114,7 +114,7 @@ The high TxGNN score is a model prediction only. No clinical trials exist for se
 - Mechanism of action data from DrugBank
 - Direct clinical or preclinical evidence of hydroquinone in seborrheic keratosis
 - Assessment of whether a cosmetic pigment-lightening benefit is clinically meaningful for this indication
-- Review of the knowledge-graph-flagged conditions (e.g., skin atrophy, dermatitis) against the topical use case
+- Review of the conditions flagged by the TxGNN model (deep learning) (e.g., skin atrophy, dermatitis) against the topical use case
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

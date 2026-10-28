@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Moderate Evidence (L3-L4)
 nav_order: 763
 evidence_level: L4
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pravastatin: predicted new indication Homozygous familial hypercholesterolemia (evidence level L4). Approved use: Hyperlipidemia, hypertriglyceridemia, atherosclerosis…"
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-## Pravastatin: From Hyperlipidemia and Atherosclerotic Disease to Homozygous Familial Hypercholesterolemia
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pravastatin is a statin originally used for hyperlipidemia, atherosclerosis and stroke-related disorders.
-The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia**,
+The TxGNN model predicts it may be effective for **HIV infectious disease**,
 but the data compiled for this report contain **1 clinical trial** (which tests a different drug, alirocumab) and **12 publications** (mostly reviews on other lipid-lowering agents), so direct evidence for pravastatin is weak.
 
 ---
@@ -48,11 +48,11 @@ but the data compiled for this report contain **1 clinical trial** (which tests 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperlipidemia, hypertriglyceridemia, atherosclerosis, stroke and cerebrovascular disorders (the Canadian licence records contain no indication text, so this is taken from the knowledge-graph indications) |
-| Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | HIV infectious disease |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -62,7 +62,6 @@ but the data compiled for this report contain **1 clinical trial** (which tests 
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, pravastatin inhibits HMG-CoA reductase, which reduces cholesterol synthesis in the liver and upregulates hepatic LDL receptors, increasing LDL clearance from the blood.
 
-The prediction is plausible because pravastatin is already used for hyperlipidemia and is established in heterozygous familial hypercholesterolemia. Homozygous disease sits in the same disease family. However, homozygous FH involves severely reduced or absent LDL receptor function, and the statin mechanism depends on those receptors. Statin efficacy is therefore expected to be limited. One review in the data notes that statins are "not very effective" in homozygous familial hypercholesterolemia.
 
 This is also an extension of an existing lipid-lowering use rather than true repurposing.
 
@@ -131,7 +130,7 @@ The only trial listed tests alirocumab, not pravastatin, and the literature cons
 
 ---
 
-**Note on other predictions:** Familial hypercholesterolemia (heterozygous/general) has the strongest support, with pediatric pravastatin evidence including a randomized placebo-controlled study (PMID 8726243), a pharmacokinetic study (PMID 12891228) and a 20-year follow-up (PMID 31618540). It is graded L1 and "Proceed with Guardrails", though it is an extension of the existing lipid-lowering use rather than true repurposing. HIV-associated dyslipidemia (L2) is a research question with small trials. The remaining predictions have little or no supporting evidence.
+**Note on other predictions:** HIV-associated dyslipidemia (L2) is a research question with small trials. The remaining predictions have little or no supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

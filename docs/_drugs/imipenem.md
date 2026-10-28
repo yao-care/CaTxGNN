@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **diffuse scleroderma**, but this has
 |------|------|
 | Original Indication | Bacterial pneumonia, peritonitis, endocarditis, bacterial arthritis, endometritis (the Canadian licence records contain no indication text) |
 | Predicted New Indication | Diffuse scleroderma (rank 1); Staphylococcus aureus infection is the best-supported candidate (rank 9) |
-| TxGNN Prediction Score | 99.99% (diffuse scleroderma) |
+| TxGNN Prediction Score | 0.9999 (diffuse scleroderma) |
 | Evidence Level | L5 for diffuse scleroderma (model prediction only); L2 for Staphylococcus aureus infection |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold (diffuse scleroderma); Staphylococcus aureus infection is flagged as a research question |
 
 ---

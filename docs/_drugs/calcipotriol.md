@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, with 
 |------|------|
 | Original Indication | Not stated in the licence data (calcipotriol products are generally used for psoriasis) |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -102,7 +102,7 @@ A sixth authorization, DOVOBET OINTMENT (DIN 02244126), is also valid. All six a
 
 Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
 
-The following items come from a knowledge-graph analysis, not from label text:
+The following items come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and not from label text:
 
 - **Possible disease-level contraindication signals**: hypercalcemia and other calcium or phosphorus metabolism disorders (including nephrocalcinosis, calcinosis, calciphylaxis, hypervitaminosis), adrenocortical insufficiency/Addison disease, skin atrophy, telangiectasia and other capillary disorders, peripheral vascular disease, and certain ichthyoses and keratinizing disorders (e.g., Darier disease, guttate psoriasis).
 - **Drug Interactions**: 84 interactions were recorded, but severity levels are all "Unknown". Examples include corticosteroids (prednisone, prednisolone, hydrocortisone, triamcinolone), acetylsalicylic acid, doxycycline, simvastatin, metformin, and proton pump inhibitors (omeprazole, pantoprazole, lansoprazole, rabeprazole). Clinical significance needs to be verified.

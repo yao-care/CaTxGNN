@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pemetrexed
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 718
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Pemetrexed: predicted new indication Malignant peritoneal mesothelioma (evidence level L2). Approved use: Non-small cell lung cancer, lung cancer…"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Pemetrexed: From Non-Small Cell Lung Cancer and Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pemetrexed is an antifolate chemotherapy originally used for non-small cell lung cancer and malignant pleural mesothelioma.
-The TxGNN model predicts it may be effective for **malignant peritoneal mesothelioma**,
 with **7 clinical trials** and **20 publications** currently supporting this direction. Most of the evidence is early-phase trials, retrospective series and reviews.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung cancer, lung cancer, malignant pleural mesothelioma (the Canadian licence records contain no indication text) |
-| Predicted New Indication | Malignant peritoneal mesothelioma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 14 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural adenomatoid tumor |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 14 of 14) |
+| Number of DINs | 14 (valid: 14) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -111,7 +110,6 @@ Fourteen valid single-ingredient licences are on record in total. The five above
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: kidney disease, impaired renal function, pyoureter, thrombocytopenia, neutropenia, agranulocytosis, anaemia and macrocytic anaemia.
 - **Drug Interactions**: 100 interactions were found, and the 20 reviewed are all rated Moderate. They include:
   - H2 blockers: famotidine, ranitidine, cimetidine.
   - Metformin.
@@ -140,7 +138,7 @@ Pemetrexed-platinum is the established standard for pleural mesothelioma. It is 
 **Other predictions in the ranked list:**
 - **Established indications:** pleural mesothelioma, including its epithelioid, sarcomatoid and biphasic subtypes, is already labelled. Those results confirm the drug's activity rather than representing true repurposing.
 - **Research question:** pericardial mesothelioma has only case reports and one pooled review.
-- **Hold:** pleural adenomatoid tumour, well-differentiated papillary mesothelioma, lymphohistiocytoid mesothelioma and iminoglycinuria. These are benign or indolent conditions, or have no mechanistic or clinical support. The high scores likely reflect knowledge-graph proximity, and for iminoglycinuria pemetrexed's renal toxicity makes use inappropriate.
+- **Hold:** pleural adenomatoid tumour, well-differentiated papillary mesothelioma, lymphohistiocytoid mesothelioma and iminoglycinuria. These are benign or indolent conditions, or have no mechanistic or clinical support.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

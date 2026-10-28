@@ -4,9 +4,9 @@ title: Ceritinib
 parent: Model Prediction Only (L5)
 nav_order: 174
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ceritinib: predicted new indication Gingival fibromatosis (evidence level L5). Approved use: Non-small cell lung cancer (ALK-positive)"
+description: "Ceritinib: predicted new indication fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung cancer (ALK-positive)"
 monitor_inn: "CERITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "junctional epidermolysis bullosa"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Ceritinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ceritinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Ceritinib: From Non-Small Cell Lung Cancer to fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ceritinib is an oral ALK/ROS1 kinase inhibitor, originally used to treat ALK-positive non-small cell lung cancer.
-The TxGNN model predicts it may be effective for **gingival fibromatosis**, but this is a graph-based prediction only.
+The TxGNN model (deep learning) predicts it may be effective for **gingival fibromatosis**, but this is a model-based prediction only.
 There are **0 clinical trials** and **0 publications** supporting this specific indication, so the evidence is very weak.
 
 ## Quick Overview
@@ -48,17 +48,17 @@ There are **0 clinical trials** and **0 publications** supporting this specific 
 |------|------|
 | Original Indication | Non-small cell lung cancer (ALK-positive) |
 | Predicted New Indication | Gingival fibromatosis |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ceritinib is a kinase inhibitor targeting ALK and ROS1, and its efficacy in ALK-rearranged non-small cell lung cancer has been established.
 
-No mechanistic link has been identified between ALK/ROS1 inhibition and gingival fibromatosis, which is a benign overgrowth of gum tissue. The very high TxGNN score reflects a pattern in the knowledge graph rather than biological or clinical evidence. The prediction should be treated as a hypothesis only.
+No mechanistic link has been identified between ALK/ROS1 inhibition and gingival fibromatosis, which is a benign overgrowth of gum tissue. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The prediction should be treated as a hypothesis only.
 
 Other predicted indications in the top 10 fall into three groups:
 - **Lung tumours** (lung hilum carcinoma, pulmonary sulcus neoplasm): these are likely subsets of the already approved NSCLC indication rather than true new uses.
@@ -106,7 +106,7 @@ Literature also flags QT prolongation with tyrosine kinase inhibitors including 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-model score. There are no clinical trials or publications for gingival fibromatosis, and no plausible mechanistic link to ALK/ROS1 inhibition. Ceritinib also carries substantial safety and interaction burdens, which are hard to justify for a benign condition.
+The prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications for gingival fibromatosis, and no plausible mechanistic link to ALK/ROS1 inhibition. Ceritinib also carries substantial safety and interaction burdens, which are hard to justify for a benign condition.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a biological rationale connecting ALK/ROS1 signalling to gingival fibromatosis

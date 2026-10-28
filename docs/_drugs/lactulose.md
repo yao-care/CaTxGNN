@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Lactulose
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 518
-evidence_level: L3
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
 description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L3). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
@@ -14,7 +14,7 @@ predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructi
 # Lactulose
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,24 +50,24 @@ That prediction currently has **0 registered clinical trials** and **20 publicat
 |------|------|
 | Original Indication | Hepatic encephalopathy, hepatic coma, constipation (the Health Canada licence records contain no indication text) |
 | Predicted New Indication | Obstructive jaundice (the highest-ranked prediction, acute urate nephropathy, has no evidence and is not featured here) |
-| TxGNN Prediction Score | 99.53% (obstructive jaundice); 99.89% for acute urate nephropathy |
-| Evidence Level | L3 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 6 |
+| TxGNN Prediction Score | 0.9953 (obstructive jaundice); 0.9989 for acute urate nephropathy |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 6 of 6) |
+| Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold (research question only) |
 
 Other predictions and their evidence levels:
 
 | Predicted Indication | Score | Evidence Level |
 |------|------|------|
-| Acute urate nephropathy | 99.89% | L5 |
-| Nephrolithiasis | 99.78% | L5 |
-| Obstructive jaundice | 99.53% | L3 |
-| Bile duct disease | 99.47% | L3 |
-| Biliary tract disease | 99.38% | L4 |
-| Hyperphosphatemia | 99.37% | L5 |
-| Exercise-induced malignant hyperthermia | 99.14% | L5 |
-| Bile duct neoplasm | 99.12% | L4 |
+| Acute urate nephropathy | 0.9989 | L5 |
+| Nephrolithiasis | 0.9978 | L5 |
+| Obstructive jaundice | 0.9953 | L3 |
+| Bile duct disease | 0.9947 | L3 |
+| Biliary tract disease | 0.9938 | L5 |
+| Hyperphosphatemia | 0.9937 | L5 |
+| Exercise-induced malignant hyperthermia | 0.9914 | L5 |
+| Bile duct neoplasm | 0.9912 | L5 |
 
 ---
 
@@ -79,7 +79,7 @@ In obstructive jaundice, bile salts are absent from the gut. This promotes bacte
 
 Several cautions apply. Most of the evidence is old, and perioperative care for this condition has changed since. Only titles and short abstracts were available, so study designs and effect sizes could not be confirmed. A review (PMID 9145459) notes that kidney protection from lactulose has not been conclusively shown in clinical studies.
 
-The other predictions have little or no mechanistic support. For acute urate nephropathy and exercise-induced malignant hyperthermia, no link to lactulose's gut action is apparent, and the high scores likely reflect knowledge-graph artefacts.
+The other predictions have little or no mechanistic support. For acute urate nephropathy and exercise-induced malignant hyperthermia, no link to lactulose's gut action is apparent, and the high scores likely reflect TxGNN model (deep learning) artefacts.
 
 ---
 

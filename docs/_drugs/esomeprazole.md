@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Esomeprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 354
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Esomeprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Peptic ulcer disease (also gastroesophageal reflux disease…"
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Esomeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Esomeprazole: From Peptic Ulcer Disease to Duodenogastric Reflux
+## Esomeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Esomeprazole is a proton pump inhibitor (PPI) originally used for acid-related conditions such as peptic ulcer disease and gastroesophageal reflux disease.
-The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the evidence is thin: **0 clinical trials** and **1 publication**, a general review of PPIs that does not study this condition directly.
+The TxGNN model predicts it may be useful for **duodenal obstruction**, but the evidence is thin: **0 clinical trials** and **1 publication**, a general review of PPIs that does not study this condition directly.
 
 ---
 
@@ -47,11 +47,11 @@ The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease (also gastroesophageal reflux disease, esophagitis, Zollinger-Ellison syndrome) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9945 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on the known class mechanism, esomeprazole is a PPI. It blocks the H+/K+ ATPase (proton pump) in gastric parietal cells and so suppresses stomach acid. Its efficacy in acid-related disease is well established.
 
-Duodenogastric reflux is different from acid reflux. It is mainly driven by bile and pancreatic secretions flowing back into the stomach. Acid suppression may ease associated symptoms and mucosal irritation, but it does not address the underlying cause. The link between the original and new indications is therefore indirect and symptom-oriented. The high model score reflects network similarity to other upper gastrointestinal conditions, not proof of direct benefit.
+The high model score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

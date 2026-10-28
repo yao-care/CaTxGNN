@@ -4,17 +4,17 @@ title: Levomilnacipran
 parent: Model Prediction Only (L5)
 nav_order: 545
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-13
-description: "Levomilnacipran: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
+indication_count: 3
+last_modified_at: 2026-10-28
 monitor_inn: "LEVOMILNACIPRAN"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "melancholia", "neurotic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder"]
+description: "Levomilnacipran: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levomilnacipran
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Levomilnacipran: From Depressive Disorders to Benign Paroxysmal Torticollis of Infancy
+## Levomilnacipran: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,23 +45,23 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (per the knowledge graph; no approved-indication text is available from Canadian licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.53% |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, levomilnacipran is an SNRI. Its efficacy in major depressive disorder in adults is established, and it works by blocking reuptake of serotonin and norepinephrine.
 
-For the top-ranked prediction, the mechanistic link is weak. Benign paroxysmal torticollis of infancy is a paediatric, migraine-related disorder often associated with CACNA1A (calcium channel) variants. Nothing in the data connects reuptake inhibition to this condition, and levomilnacipran is approved only for adults. The high score (0.995) is therefore a computational signal only.
+For the top-ranked prediction, the mechanistic link is weak. Benign paroxysmal torticollis of infancy is a pediatric, migraine-related disorder often associated with CACNA1A (calcium channel) variants. Nothing in the data connects reuptake inhibition to this condition, and levomilnacipran is approved only for adults. The high score (0.9953) is therefore a computational signal only.
 
 Other predictions look more plausible mechanistically, but they largely overlap with existing indications:
-- **Agoraphobia** (99.53%): an anxiety-spectrum disorder where SNRIs/SSRIs have class-level use, but no levomilnacipran-specific evidence was found, and the original indications already include anxiety disorder.
-- **Dysthymic disorder** (99.24%), **melancholia** (99.20%), **neurotic depression** (99.20%) and **neurotic disorder** (99.19%): all closely related to the approved depressive indications. They reflect proximity to existing uses rather than a new mechanism.
+- **Agoraphobia** (0.9953): an anxiety-spectrum disorder where SNRIs/SSRIs have class-level use, but no levomilnacipran-specific evidence was found, and the original indications already include anxiety disorder.
+- They reflect proximity to existing uses rather than a new mechanism.
 
 ## Clinical Trial Evidence
 
@@ -71,7 +71,6 @@ Currently no related clinical trials registered for benign paroxysmal torticolli
 
 Currently no related literature available for benign paroxysmal torticollis of infancy.
 
-For context, the lower-ranked predictions "melancholia" and "neurotic depression" retrieved about 20 publications each. These are mostly general antidepressant reviews, safety analyses and levomilnacipran drug profiles, not studies specific to those conditions. Examples:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

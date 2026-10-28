@@ -50,10 +50,10 @@ but **no clinical trials and no publications** currently support this direction,
 |------|------|
 | Original Indication | Absence epilepsy |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). The receptor is constitutively active, so the body retains water even when vasopressin levels are low. No link between T-type calcium channel blockade and V2 receptor signalling is established, so the two conditions do not share an obvious mechanism.
 
-The very high TxGNN score (99.91%) comes from knowledge-graph patterns and is not backed by clinical or literature evidence. The idea would need independent mechanistic testing first, for example whether ethosuximide affects cAMP signalling or aquaporin-2 trafficking in collecting-duct cells.
+The very high TxGNN score (0.9991) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by clinical or literature evidence. The idea would need independent mechanistic testing first, for example whether ethosuximide affects cAMP signaling or aquaporin-2 trafficking in collecting-duct cells.
 
 ---
 

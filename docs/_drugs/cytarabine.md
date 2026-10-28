@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 |------|------|
 | Original Indication | Acute lymphoblastic leukemia and acute myeloid leukemia (including several AML subtypes). Health Canada indication text is not available in the data compiled for this report. |
 | Predicted New Indication | Small cell lung carcinoma |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 4 |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

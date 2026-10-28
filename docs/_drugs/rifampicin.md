@@ -48,10 +48,10 @@ The TxGNN model predicts it may be effective for **conjunctivitis**.
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

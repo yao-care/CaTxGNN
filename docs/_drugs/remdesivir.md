@@ -4,17 +4,17 @@ title: Remdesivir
 parent: Model Prediction Only (L5)
 nav_order: 801
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not stated in the Health Canada record"
 monitor_inn: "Remdesivir"
-predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia", "Prinzmetal angina", "leprosy", "antithrombin deficiency type 2", "cytomegalovirus infection"]
+predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 ---
 
 # Remdesivir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Remdesivir is a nucleotide analog antiviral, marketed in Canada as VEKLURY. The Health Canada record compiled for this report does not state its approved indication.
-The TxGNN model's top-ranked prediction is **multiple endocrine neoplasia** (score 99.5%), but there are **0 clinical trials** and **0 publications** supporting it. The prediction rests on the model alone.
+The TxGNN model's top-ranked prediction is **multiple endocrine neoplasia** (score 0.9950), but there are **0 clinical trials** and **0 publications** supporting it. The prediction rests on the model alone.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **multiple endocrine neoplasia** (sco
 |------|------|
 | Original Indication | Not stated in the Health Canada record |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,14 +61,12 @@ The TxGNN model's top-ranked prediction is **multiple endocrine neoplasia** (sco
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, remdesivir is a nucleotide analog prodrug that inhibits viral RNA-dependent RNA polymerase (RdRp). Its established use is in viral disease, with the literature centred on COVID-19.
 
-The predicted indication, multiple endocrine neoplasia, is a hereditary tumour syndrome (for example MEN1 or RET mutations) with no viral cause. **No mechanistic link could be identified.** The high score reflects graph-based proximity in the knowledge graph, not biological or clinical support.
+The predicted indication, multiple endocrine neoplasia, is a hereditary tumor syndrome (for example MEN1 or RET mutations) with no viral cause. **No mechanistic link could be identified.** The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions were also reviewed:
 
-- **HIV infectious disease** (score 99.3%, L4): This is the most evidence-rich prediction, but the retrieved literature is almost entirely about COVID-19. HIV replicates via reverse transcriptase and integrase, not RdRp, so direct activity is not established.
-- **Cytomegalovirus infection** (score 97.1%, L4): CMV is a DNA virus, so direct activity is not expected. The literature covers CMV co-infection or reactivation in COVID-19 patients, which is context only. It is a research question, not an efficacy signal.
+- **HIV infectious disease** (score 0.9932, L4): This is the most evidence-rich prediction, but the retrieved literature is almost entirely about COVID-19. HIV replicates via reverse transcriptase and integrase, not RdRp, so direct activity is not established.
 - **Feline AIDS and simian immunodeficiency virus infection**: These are animal diseases predicted through HIV similarity, with no evidence for remdesivir.
-- **Leprosy:** The literature describes a leprosy drug (clofazimine) used against coronavirus, which is the reverse of this prediction.
 - **Prinzmetal angina, homozygous familial hypercholesterolemia, antithrombin deficiency type 2 and a rare neurodevelopmental disorder:** There is no plausible mechanism and no evidence.
 
 ---
@@ -129,7 +127,7 @@ Please refer to the package insert for warnings and contraindications. Its conte
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, multiple endocrine neoplasia, has no clinical trials, no literature and no plausible mechanism, so it is supported only by a graph-based score. The other predictions are either veterinary or non-viral diseases with no supporting evidence, or relate to remdesivir only in the context of COVID-19. The CMV question (L4) is the only one worth considering, and then only as a clinical co-infection question.
+The top prediction, multiple endocrine neoplasia, has no clinical trials, no literature and no plausible mechanism, so it is supported only by a TxGNN model (deep learning) score. The other predictions are either veterinary or non-viral diseases with no supporting evidence, or relate to remdesivir only in the context of COVID-19.
 
 **To proceed, the following is needed:**
 - The Health Canada package insert, to establish the approved indication, warnings and contraindications

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Perindopril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 723
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perindopril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Perindopril: From Hypertension to Malignant Hypertensive Renal Disease
+## Perindopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,11 +48,11 @@ but **no clinical trials** and only **1 indirectly related publication** current
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); the Canadian licence records contain no indication text, so this comes from the knowledge-graph indication data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 
@@ -69,7 +69,7 @@ However, the only publication retrieved concerns solitary kidney function after 
 Other predicted indications are weaker still:
 - **Malignant renovascular hypertension:** mechanistically plausible, but no trials or literature were found. ACE inhibitors also carry a known risk of acute kidney injury in bilateral renal artery stenosis or a solitary stenotic kidney.
 - **Pulmonary hypertension (lung disease/hypoxia):** only animal studies, such as perindopril with amlodipine in hypoxic rats, offer indirect support. No human efficacy data were found.
-- **Pulmonary hypertension with unclear multifactorial mechanism and Braddock syndrome:** no trials or literature; these are graph-based predictions only.
+- **Pulmonary hypertension with unclear multifactorial mechanism and Braddock syndrome:** no trials or literature; these are predictions from the TxGNN model (deep learning) only, and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -116,7 +116,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.77%), and the ACE-inhibition mechanism is plausible for hypertension-related kidney injury. However, there are no clinical trials, and the single publication retrieved is not relevant to perindopril. The evidence is limited to model prediction and indirect reasoning. The kidney-related safety concerns also need careful assessment.
+The TxGNN score is high (0.9977), and the ACE-inhibition mechanism is plausible for hypertension-related kidney injury. However, there are no clinical trials, and the single publication retrieved is not relevant to perindopril. The evidence is limited to model prediction and indirect reasoning. The kidney-related safety concerns also need careful assessment.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

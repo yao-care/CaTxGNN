@@ -4,17 +4,17 @@ title: Nizatidine
 parent: Model Prediction Only (L5)
 nav_order: 663
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Nizatidine: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
+indication_count: 3
+last_modified_at: 2026-10-28
 monitor_inn: "NIZATIDINE"
 predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple endocrine neoplasia"]
+description: "Nizatidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nizatidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Nizatidine: From Gastric Ulcer to Active Peptic Ulcer Disease
+## Nizatidine: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nizatidine is an H2-receptor antagonist originally used for gastric ulcer, duodenal ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis and dyspepsia.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **0 registered clinical trials** and **20 publications** currently supporting this direction.
+The TxGNN model predicts it may be effective for **duodenal obstruction**, with **0 registered clinical trials** and **20 publications** currently supporting this direction.
 Note that this prediction largely confirms an existing use rather than a true new indication.
 
 ---
@@ -48,12 +48,12 @@ Note that this prediction largely confirms an existing use rather than a true ne
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia, duodenal ulcer (the Canadian licence record contains no indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L1 (based on published randomized placebo-controlled trials; study designs were not verified beyond titles and abstracts) |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 (based on published randomized placebo-controlled trials; study designs were not verified beyond titles and abstracts) |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,11 +62,11 @@ Note that this prediction largely confirms an existing use rather than a true ne
 
 Nizatidine blocks histamine H2 receptors on gastric parietal cells and so suppresses basal, nocturnal and stimulated gastric acid secretion. Detailed mechanism-of-action data were not available in the data compiled for this report, but this class effect is well described in the retrieved literature.
 
-Active peptic ulcer disease (duodenal and gastric) is acid-dependent and already falls within nizatidine's original indications. This is therefore a confirmation of an existing use, not a true repurposing candidate. The high TxGNN score reflects how close the disease sits to nizatidine's known indications in the knowledge graph.
+Scores from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
 Several lower-ranked predictions are weaker and mostly extrapolations from ulcer disease:
-- **Gastrojejunal ulcer** (99.94%): acid suppression is plausible for marginal ulcers, but no retrieved paper studies this condition, and proton pump inhibitors are generally preferred. Evidence level L4, a research question only.
-- **Gastroduodenitis** (99.58%): indirect support from NSAID-induced lesion prevention studies and an in vitro antioxidant study. Evidence level L3, a research question only.
+- Evidence level L4, a research question only.
+- **Gastroduodenitis** (0.9958): indirect support from NSAID-induced lesion prevention studies and an in vitro antioxidant study. Evidence level L3, a research question only.
 - **Peptic ulcer perforation, duodenal obstruction, duodenogastric reflux and multiple endocrine neoplasia**: no direct evidence and a weak mechanistic fit. Evidence level L5, hold.
 
 ---
@@ -120,7 +120,7 @@ Currently no related clinical trials registered.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-For active peptic ulcer disease, published randomized placebo-controlled and comparator trials support nizatidine, and it is already marketed in Canada (AXID). This is confirmation of an existing use, not a new indication. The other predicted indications lack direct evidence and should be treated as research questions or held.
+The predicted indications lack direct evidence and should be treated as research questions or held.
 
 **To proceed, the following is needed:**
 - The Canadian package insert (warnings, contraindications, approved indications and dosage form), which is a blocking gap for safety screening

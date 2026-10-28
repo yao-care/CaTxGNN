@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Aluminum Hydroxide
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 43
-evidence_level: L4
-indication_count: 4
-last_modified_at: 2026-10-13
-description: "Aluminum Hydroxide: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
-monitor_inn: "ALUMINUM HYDROXIDE"
-predicted_indications: ["gastroduodenitis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Aluminum Hydroxide: known uses and market status in Canada; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Aluminum Hydroxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,48 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Aluminum Hydroxide: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+<!-- known-uses-page -->
+<!-- description: Aluminum Hydroxide: known uses and market status in Canada; currently no new candidate indication -->
+## Aluminum Hydroxide: Known uses and market status in Canada
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model produced candidate indications for Aluminum Hydroxide, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. The known uses are listed below by the type of support they have.
 
-Aluminum hydroxide is an antacid originally used for acid-related stomach and oesophageal conditions such as gastric ulcer, peptic ulcer disease, reflux disease and dyspepsia.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this largely overlaps with its existing uses, and the **0 clinical trials** and **9 mostly indirect publications** found offer only limited support.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia, duodenal ulcer (the Canadian licence records contain no indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 4 |
+| Evidence level | Not applicable |
+| Market status in Canada | Marketed (valid licenses: 2 of 2) |
+| Number of DINs | 2 (valid: 2) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, aluminum hydroxide is an antacid that neutralises gastric acid and reduces pepsin activity. Its efficacy in acid-related upper gastrointestinal conditions is well established, and mechanistically it applies to active peptic ulcer disease.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-The predicted indication is essentially the same condition as the existing ones (peptic ulcer disease, gastric ulcer, duodenal ulcer). It is therefore not a true repurposing candidate. The high TxGNN score most likely reflects this existing relationship rather than a novel signal.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| gastroduodenitis | gastritis |
 
-The other predictions follow the same pattern:
-- **Gastroduodenitis** (99.59%): plausible through acid neutralisation and mucosal protection. The evidence is mostly historical (1947–1962) and overlaps with existing indications.
-- **Gastrojejunal ulcer** (99.54%): acid-dependent, so acid neutralisation is plausible. This has the largest evidence base, but it is extrapolated from general peptic ulcer studies.
-- **Peptic ulcer perforation** (99.54%): no supporting evidence. This is an acute surgical complication and an oral antacid has no plausible treatment role.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [3018068](https://pubmed.ncbi.nlm.nih.gov/3018068/) | 1986 | Clinical pharmacology study | J Clin Gastroenterol | Compared the post-meal buffering of sodium bicarbonate with aluminum-magnesium hydroxide in duodenal ulcer patients |
-| [3929601](https://pubmed.ncbi.nlm.nih.gov/3929601/) | 1985 | Mechanistic/In vitro | Am J Med | Sucralfate, which contains aluminum hydroxide moieties, inhibits peptic activity by raising pH and adsorbing pepsin |
-| [9334882](https://pubmed.ncbi.nlm.nih.gov/9334882/) | 1997 | Animal/Mechanistic | Jpn J Pharmacol | Aluminum hydroxide and sucralfate protected rat gastric cells from acid- and pepsin-induced damage |
-| [3104655](https://pubmed.ncbi.nlm.nih.gov/3104655/) | 1986 | Review | Klin Wochenschr | Aluminum hydroxide antacids prevent gross mucosal necrosis and haemorrhage caused by aspirin or ethanol, mainly in the deeper mucosa |
-| [6798099](https://pubmed.ncbi.nlm.nih.gov/6798099/) | 1981 | Review | J Clin Gastroenterol | Development of sucralfate, an aluminum salt designed to counteract acid and pepsin |
-| [7190055](https://pubmed.ncbi.nlm.nih.gov/7190055/) | 1980 | Review | Brain Res Bull | Restraint-ulcer animal model; the lesions respond to cimetidine and aluminum hydroxide |
-| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro product evaluation | Med Pharm Rep | Measured the acid-neutralising capacity of antacids marketed in Morocco |
-| [1526089](https://pubmed.ncbi.nlm.nih.gov/1526089/) | 1992 | RCT (not an aluminum hydroxide study) | Clin Pharmacol Ther | Nizatidine versus placebo in benign gastric ulcer; included only as background |
-
-The most relevant additional controlled evidence appears under the other predicted indications. For example, [PMID 324863](https://pubmed.ncbi.nlm.nih.gov/324863/) (1977, Gastroenterology) reviewed controlled trials of aluminum hydroxide gel for duodenal ulcer pain. Relief was significantly better than dummy gel in one hospital (79% vs 45%) but not in the replicate at another.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| active peptic ulcer disease |
+| gastrojejunal ulcer |
+| peptic ulcer perforation |
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00623709 | STOMAAX PLUS | Not listed | Not listed |
-| 00815527 | ALMAGEL PLUS SUS | Not listed | Not listed |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 00623709 | STOMAAX PLUS |  | Valid |
+| 00815527 | ALMAGEL PLUS SUS |  | Valid |
 
 ## Safety Considerations
 
@@ -101,19 +86,6 @@ Published reviews also describe phosphate depletion and bone demineralisation wi
 
 Please refer to the package insert for warnings and contraindications.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The predicted indication essentially duplicates the drug's existing acid-related indications, so it is not a genuine repurposing opportunity. No clinical trials are registered, and the literature is mostly indirect, historical or off-topic. The evidence level is L4.
-
-**To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data
-- Approved indication text for the two Canadian licences
-- A decision on whether a genuinely distinct indication, rather than a restatement of existing ones, is worth pursuing
-- Review of the major interactions (dolutegravir, sodium citrate) and the long-term phosphate and bone risks
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

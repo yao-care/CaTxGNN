@@ -4,17 +4,17 @@ title: Periciazine
 parent: Model Prediction Only (L5)
 nav_order: 722
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report (the UK-approved u…"
 monitor_inn: "PERICIAZINE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
 ---
 
 # Periciazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Periciazine is a phenothiazine-class antipsychotic marketed in Canada under the 
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the UK-approved use is schizophrenia and other psychoses, plus short-term adjunctive management of severe anxiety, psychomotor agitation, and dangerously impulsive behaviour) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 3 |
+| Canada Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of DINs | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,11 +66,10 @@ Other phenothiazines, such as chlorpromazine and prochlorperazine, are used for 
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
-| Migraine with brainstem aura | 99.84% | A migraine subtype. It shares the class-level rationale and adds no independent support. |
-| Atrophoderma vermiculata | 99.36% | A rare follicular atrophic skin disorder. No plausible mechanistic link was identified, and the score likely reflects knowledge-graph structure. |
-| Dysthymic disorder | 99.25% | Only a weak, indirect link through monoaminergic systems. Sedation and side-effect burden make a first-line role unlikely. |
-| Migraine with or without aura, susceptibility to | 99.22% | Describes genetic susceptibility rather than a treatable condition, so it is a poor drug target. |
-| Ulerythema ophryogenesis | 99.16% | A rare follicular atrophic skin disorder of the eyebrows. No mechanistic link was identified. |
+| Migraine with brainstem aura | 0.9984 | A migraine subtype. It shares the class-level rationale and adds no independent support. |
+| Atrophoderma vermiculata | 0.9936 | A rare follicular atrophic skin disorder. No plausible mechanistic link was identified. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| Dysthymic disorder | 0.9925 | Only a weak, indirect link through monoaminergic systems. Sedation and side-effect burden make a first-line role unlikely. |
+| Ulerythema ophryogenesis | 0.9916 | A rare follicular atrophic skin disorder of the eyebrows. No mechanistic link was identified. |
 
 ---
 

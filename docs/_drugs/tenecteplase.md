@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenecteplase
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 891
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Tenecteplase: predicted new indication Posterolateral myocardial infarction (evidence level L4). Approved use: Myocardial infarction, coronary thrombosis"
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase: predicted new indication Congenital coronary artery anomaly (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Tenecteplase: From Myocardial Infarction to Posterolateral Myocardial Infarction
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tenecteplase is a fibrin-specific clot-dissolving drug (thrombolytic), originally used to treat acute myocardial infarction and coronary thrombosis.
-The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**, but there are currently **0 registered clinical trials** and **0 publications** specific to this subtype.
 This is an anatomical subtype of an already-approved indication, so it is not true repurposing, and the evidence is indirect.
 
 ---
@@ -48,12 +47,12 @@ This is an anatomical subtype of an already-approved indication, so it is not tr
 
 | Item | Content |
 |------|------|
-| Original Indication | Myocardial infarction, coronary thrombosis (hemoglobinopathy is also listed in the knowledge graph) |
-| Predicted New Indication | Posterolateral myocardial infarction |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Canada Market Status | ✓ Marketed |
-| Number of DINs | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Congenital coronary artery anomaly |
+| TxGNN Prediction Score | 0.9961 |
+| Evidence Level | L5 |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of DINs | 1 (valid: 1) |
 | Recommended Decision | Hold (the other predicted indications are discussed below) |
 
 ---
@@ -80,7 +79,6 @@ Currently no related literature available for posterolateral myocardial infarcti
 
 Other predicted indications do have some literature, summarized below.
 
-**Septal myocardial infarction (rank 3, score 99.85%, L4)**: the three papers are indirect.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -88,7 +86,7 @@ Other predicted indications do have some literature, summarized below.
 | [18183355](https://pubmed.ncbi.nlm.nih.gov/18183355/) | 2009 | Case report | J Thromb Thrombolysis | Massive pulmonary embolism that mimicked septal MI on ECG and was treated with tenecteplase |
 | [42220791](https://pubmed.ncbi.nlm.nih.gov/42220791/) | 2026 | Case report | Cureus | Ventricular septal rupture after early pharmaco-invasive reperfusion with tenecteplase in anterior STEMI (a complication, not evidence of efficacy) |
 
-**Coronary stenosis (rank 5, score 99.53%, L3)**: the most relevant papers are below.
+**Coronary stenosis (rank 5, score 0.9953, L3)**: the most relevant papers are below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -126,9 +124,8 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-- Posterolateral myocardial infarction is a subtype of an indication tenecteplase already holds. The score is high (99.87%), but no subtype-specific trials or literature exist, and the evidence is L4 (mechanism-based only).
 - Posteroinferior and septal infarction are in the same position (L4). Coronary stenosis has some supportive intracoronary literature (L3), but it supports clot burden rather than treatment of fixed narrowing.
-- The remaining predictions are not credible. Congenital coronary anomaly, chromosome 16 partial deletion, beta-thalassemia, glucophosphate isomerase deficiency hemolytic anemia, hereditary pyropoikilocytosis and pyruvate kinase deficiency have no plausible thrombolytic mechanism, and the scores likely reflect graph artifacts. They should be held (L5).
+- The remaining predictions are not credible. Congenital coronary anomaly, chromosome 16 partial deletion, beta-thalassemia, glucophosphate isomerase deficiency hemolytic anemia, hereditary pyropoikilocytosis and pyruvate kinase deficiency have no plausible thrombolytic mechanism, and the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They should be held (L5).
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings, contraindications and approved indication text (currently missing and blocking safety screening)
