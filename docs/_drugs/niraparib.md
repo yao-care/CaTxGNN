@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Malignant epithelial tumour of the ovary"
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "pre-malignant neoplasm", "inner ear neoplasm", "schwannoma of jugular foramen"]

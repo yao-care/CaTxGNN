@@ -5,7 +5,7 @@ layout: default
 title: Lecanemab
 parent: Known Uses Only (No New Predictions)
 nav_order: 531
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Lecanemab: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Lecanemab"
 predicted_indications: []

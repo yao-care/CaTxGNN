@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 851
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Sincalide: predicted new indication Malignant catarrh (evidence level L5). Approved use: Not stated in the Health Canada license data compiled for this report…"
 monitor_inn: "Sincalide"
 predicted_indications: ["malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "thrombotic disease", "hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia", "homozygous familial hypercholesterolemia", "Prinzmetal angina", "amenorrhea (disease)"]

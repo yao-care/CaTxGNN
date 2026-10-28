@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 171
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Cefuroxime: predicted new indication Hyperamylasemia . The best-supported candidate is urinary tract infec… (evidence level L5). Approved use: Bacterial infections (otitis media…"
 monitor_inn: "CEFUROXIME"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]

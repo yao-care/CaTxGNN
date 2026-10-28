@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 948
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Trimebutine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not stated in the compiled Health Canada licence data"
 monitor_inn: "Trimebutine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]

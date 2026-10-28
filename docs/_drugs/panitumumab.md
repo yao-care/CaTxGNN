@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Panitumumab: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Metastatic malignant neoplasm of the colon"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]

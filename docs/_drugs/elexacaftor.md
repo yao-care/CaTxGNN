@@ -5,7 +5,7 @@ layout: default
 title: Elexacaftor
 parent: Known Uses Only (No New Predictions)
 nav_order: 320
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Elexacaftor: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Elexacaftor"
 predicted_indications: []

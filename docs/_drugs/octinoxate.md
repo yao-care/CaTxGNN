@@ -5,7 +5,7 @@ layout: default
 title: Octinoxate
 parent: Known Uses Only (No New Predictions)
 nav_order: 675
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Octinoxate: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Octinoxate"
 predicted_indications: []

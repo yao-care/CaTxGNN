@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Phentolamine"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "blue toe syndrome", "angiodysplasia of stomach", "hemangioendothelioma", "atheroembolism of kidney", "idiopathic spontaneous coronary artery dissection"]
 description: "Phentolamine: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"

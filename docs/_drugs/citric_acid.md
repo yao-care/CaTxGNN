@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 200
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L4). Approved use: Dyspepsia, headache disorder"
 monitor_inn: "CITRIC ACID"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 509
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Ivosidenib: predicted new indication Bulbar polio (evidence level L5). Approved use: Myeloid leukemia (including acute myeloid leukemia and related subtyp…"
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Flumethasone: predicted new indication Alopecia areata (evidence level L5). Approved use: Atopic dermatitis, contact dermatitis, seborrheic dermatitis…"
 monitor_inn: "Flumethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "primary cutaneous B-cell lymphoma", "alopecia universalis onychodystrophy vitiligo"]

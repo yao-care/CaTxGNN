@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Chromomycosis, coccidioidomycosis, aspergillosis, sporotrichosis…"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 469
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
 description: "Idelalisib: predicted new indication Mantle cell lymphoma (evidence level L3). Approved use: Not recorded in the local data"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]

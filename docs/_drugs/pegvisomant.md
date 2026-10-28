@@ -5,7 +5,7 @@ layout: default
 title: Pegvisomant
 parent: Known Uses Only (No New Predictions)
 nav_order: 716
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Pegvisomant: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Pegvisomant"
 predicted_indications: []

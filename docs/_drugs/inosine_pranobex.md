@@ -3,7 +3,7 @@ layout: default
 title: Inosine Pranobex
 parent: Known Uses Only (No New Predictions)
 nav_order: 479
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Inosine Pranobex: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0

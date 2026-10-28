@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 794
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: predicted new indication Immature cataract (evidence level L5). Approved use: Not recorded in the local data"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Gadodiamide: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not specified in the available licence data (gadodiamide is a diagnos…"
 monitor_inn: "Gadodiamide"
 predicted_indications: ["rheumatoid arthritis"]

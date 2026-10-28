@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Acute coronary syndrome, intracranial embolism…"
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]

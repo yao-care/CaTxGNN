@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 945
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Trifarotene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne (acne vulgaris)"
 monitor_inn: "Trifarotene"
 predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]

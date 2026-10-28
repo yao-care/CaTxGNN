@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 889
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Temsirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Mantle cell lymphoma, B-cell neoplasm…"
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]

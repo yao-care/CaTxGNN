@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 670
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Nusinersen: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---

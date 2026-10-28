@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "METHOTRIMEPRAZINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophrenia", "headache disorder", "schizophreniform disorder", "anaphylaxis"]

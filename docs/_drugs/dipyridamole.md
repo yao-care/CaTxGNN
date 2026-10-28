@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Dipyridamole: predicted new indication thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

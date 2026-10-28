@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 898
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Terconazole: predicted new indication Trichomonal vulvovaginitis (evidence level L5). Approved use: Vulvovaginal candidiasis"
 monitor_inn: "TERCONAZOLE"
 predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "vulvovaginitis", "postmenopausal atrophic vaginitis", "vaginitis (disease)", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]

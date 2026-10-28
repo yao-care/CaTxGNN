@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 702
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L4). Approved use: Not listed in the Canadian license data compiled for this report"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]

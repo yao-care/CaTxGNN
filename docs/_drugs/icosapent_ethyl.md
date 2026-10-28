@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Icosapent Ethyl: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Hypertriglyceridemia"
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]

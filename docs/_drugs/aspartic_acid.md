@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Aspartic Acid: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "Aspartic acid"
 predicted_indications: ["renal tubular acidosis"]

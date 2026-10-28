@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Ibutilide: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the Canadian licence data"
 monitor_inn: "Ibutilide"
 predicted_indications: ["rheumatoid arthritis", "nephrogenic syndrome of inappropriate antidiuresis"]

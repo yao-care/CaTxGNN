@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 685
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L2). Approved use: Asthma (including allergic and intrinsic asthma) and idiopathic urtic…"
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]

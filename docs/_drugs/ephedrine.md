@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 335
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"

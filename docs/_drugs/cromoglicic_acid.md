@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cromoglicic acid"
 predicted_indications: ["ulcerative proctosigmoiditis", "nocardiosis", "rosacea conjunctivitis", "cap polyposis", "cutaneous photosensitivity-lethal colitis syndrome", "undetermined colitis", "pneumocystosis", "osteoarthritis", "allergic urticaria", "neonatal inflammatory skin and bowel disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cromoglicic Acid: predicted new indication ulcerative proctosigmoiditis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

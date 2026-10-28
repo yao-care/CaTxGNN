@@ -5,7 +5,7 @@ layout: default
 title: Lutropin Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 569
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Lutropin Alfa: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Lutropin alfa"
 predicted_indications: []

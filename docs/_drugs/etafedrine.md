@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 358
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Etafedrine: predicted new indication Bronchitis (evidence level L5). Approved use: Not available"
 monitor_inn: "Etafedrine"
 predicted_indications: ["bronchitis"]

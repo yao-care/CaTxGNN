@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Citalopram: predicted new indication obsessive-compulsive disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 

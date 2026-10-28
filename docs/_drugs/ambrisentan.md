@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 45
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Ambrisentan: predicted new indication Pulmonary arteriovenous malformation (evidence level L4). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]

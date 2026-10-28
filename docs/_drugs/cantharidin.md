@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Cantharidin: predicted new indication amenorrhea (evidence level L5). Approved use: Not specified in the Canadian license data"
 monitor_inn: "CANTHARIDIN"
 predicted_indications: ["amenorrhea (disease)"]

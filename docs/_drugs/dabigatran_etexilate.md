@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "DABIGATRAN ETEXILATE"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]

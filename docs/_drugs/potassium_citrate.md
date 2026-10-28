@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Potassium Citrate: predicted new indication Nephrolithiasis (evidence level L2). Approved use: Potassium deficiency disease, renal tubular acidosis…"
 monitor_inn: "POTASSIUM CITRATE"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]

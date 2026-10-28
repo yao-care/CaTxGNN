@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Dexrazoxane: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "DEXRAZOXANE"
 predicted_indications: ["sclerosing cholangitis", "bronchitis", "paratyphoid fever", "conjunctivitis", "epiglottitis", "peritonitis", "laryngitis", "urinary tract infection (disease)", "pyelonephritis", "cystitis"]

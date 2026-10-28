@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Canakinumab: predicted new indication Hepatic infarction (evidence level L5). Approved use: Gout, cryopyrin-associated periodic syndrome…"
 monitor_inn: "Canakinumab"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]

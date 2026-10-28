@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L4). Approved use: Not specified in the licence data (product names such as \"Analgesic G…"
 monitor_inn: "NITROUS OXIDE"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]

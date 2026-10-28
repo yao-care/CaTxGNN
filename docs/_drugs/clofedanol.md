@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Clofedanol: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Clofedanol"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder"]

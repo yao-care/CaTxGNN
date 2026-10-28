@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Anti-Inhibitor Coagulant Complex: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "ANTI-INHIBITOR COAGULANT COMPLEX"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets"]

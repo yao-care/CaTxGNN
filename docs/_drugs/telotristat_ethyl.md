@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 886
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Telotristat Ethyl: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Diarrheal disease"
 monitor_inn: "Telotristat ethyl"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]

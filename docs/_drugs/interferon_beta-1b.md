@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Interferon Beta-1B: predicted new indication Hairy cell leukemia (evidence level L5). Approved use: Relapsing-remitting multiple sclerosis"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]

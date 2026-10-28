@@ -5,7 +5,7 @@ layout: default
 title: Tafasitamab
 parent: Known Uses Only (No New Predictions)
 nav_order: 879
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Tafasitamab: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Tafasitamab"
 predicted_indications: []

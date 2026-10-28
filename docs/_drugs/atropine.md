@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 82
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Atropine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]

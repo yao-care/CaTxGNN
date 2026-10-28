@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 510
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]

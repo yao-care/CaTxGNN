@@ -5,7 +5,7 @@ layout: default
 title: Icodextrin
 parent: Known Uses Only (No New Predictions)
 nav_order: 466
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Icodextrin: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Icodextrin"
 predicted_indications: []

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 8
 monitor_inn: "CORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Cortisone Acetate: predicted new indication alopecia areata (evidence level L4). Approved use: Not recorded in the local data"
 ---
 

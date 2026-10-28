@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 661
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Nitroprusside: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the licence data compiled for this report"
 monitor_inn: "nitroprusside"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease"]

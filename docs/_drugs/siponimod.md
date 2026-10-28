@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 852
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Siponimod: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not specified in the licence data compiled for this report"
 monitor_inn: "Siponimod"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]

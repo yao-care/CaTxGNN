@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Mechlorethamine: predicted new indication Lymph node cancer (evidence level L3). Approved use: Mycosis fungoides and variants, primary cutaneous T-cell lymphoma…"
 monitor_inn: "Mechlorethamine"
 predicted_indications: ["lymph node cancer", "relapsing-remitting multiple sclerosis", "follicular lymphoma"]

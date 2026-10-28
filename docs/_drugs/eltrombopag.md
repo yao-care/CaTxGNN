@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 323
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Autoimmune thrombocytopenia"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]

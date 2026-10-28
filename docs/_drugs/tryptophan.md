@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 954
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: No approved indication text is available in the Canadian licence reco…"
 monitor_inn: "TRYPTOPHAN"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]

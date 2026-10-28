@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 915
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Bronchitis, asthma, pulmonary emphysema"
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]

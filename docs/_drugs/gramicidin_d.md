@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Gramicidin D: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Conjunctivitis (acute contagious conjunctivitis…"
 monitor_inn: "Gramicidin D"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "tinea corporis", "parasitic eyelid infestation", "ulcerative blepharitis"]

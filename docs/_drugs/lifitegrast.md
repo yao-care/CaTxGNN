@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Lifitegrast: predicted new indication Penile fibromatosis (evidence level L5). Approved use: Dry eye syndrome (xerophthalmia)"
 monitor_inn: "LIFITEGRAST"
 predicted_indications: ["penile fibromatosis", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diatrizoate"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Diatrizoate: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available"
 ---
 

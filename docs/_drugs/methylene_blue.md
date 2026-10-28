@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Methemoglobinemia, sulfhemoglobinemia"
 monitor_inn: "METHYLENE BLUE"
 predicted_indications: ["bronchitis"]

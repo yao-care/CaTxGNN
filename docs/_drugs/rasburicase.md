@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 798
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Rasburicase: predicted new indication hypouricemia, renal (evidence level L5). Approved use: Hyperuricemia"
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]

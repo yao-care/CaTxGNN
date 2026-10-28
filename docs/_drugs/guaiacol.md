@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "GUAIACOL"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Guaiacol: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, rhinitis, nasopharyngitis"
 ---
 
