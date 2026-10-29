@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 928
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Trametinib: Choroideremia (rank 1); the highest-evidence alternative is non-cutaneous melanoma (choroideremia)
+## Trametinib: Choroideremia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ The TxGNN model's top-ranked prediction is **Choroideremia**, but this rests on 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Choroideremia (rank 1); the highest-evidence alternative is non-cutaneous melanoma (choroideremia) |
+| Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 (choroideremia); L2 (non-cutaneous melanoma) |
 | Canada Market Status | Marketed (valid licenses: 3 of 3) |

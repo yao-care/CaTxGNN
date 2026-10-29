@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 862
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "SONIDEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "cutaneous adenocystic carcinoma", "benign neoplasm of sweat gland", "eccrine carcinoma", "obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome"]
 description: "Sonidegib: predicted new indication Medulloblastoma with extensive nodularity (evidence level L5). Approved use: Not recorded in the local data"
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Sonidegib: Medulloblastoma with extensive nodularity (rank 1, no evidence); skin cancer (medulloblastoma with extensive nodularity)
+## Sonidegib: Medulloblastoma with extensive nodularity
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,7 +49,7 @@ It is supported by **6 clinical trials** and **20 publications**. The highest-sc
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Medulloblastoma with extensive nodularity (rank 1, no evidence); skin cancer (medulloblastoma with extensive nodularity) |
+| Predicted New Indication | Medulloblastoma with extensive nodularity |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 for medulloblastoma; L1 assigned for skin cancer, though the listed trials are Phase 2 only (see below) |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
