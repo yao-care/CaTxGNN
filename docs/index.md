@@ -7,6 +7,50 @@ title: CaTxGNN - Canada Drug Repurposing Predictions
 
 Drug repurposing predictions for Health Canada approved medications using the TxGNN deep learning model.
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## Canada: what this site covers
+
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [Health Canada](https://www.canada.ca/en/health-canada.html) (Canada).
+
+Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Highest evidence levels on this site
+
+| Medicine | Evidence level |
+|---|---|
+| [Acetylcysteine](/drugs/acetylcysteine/) | L1 |
+| [Bendamustine](/drugs/bendamustine/) | L1 |
+| [Bromfenac](/drugs/bromfenac/) | L1 |
+| [Busulfan](/drugs/busulfan/) | L1 |
+| [Lanadelumab](/drugs/lanadelumab/) | L1 |
+| [Rifabutin](/drugs/rifabutin/) | L1 |
+| [Solriamfetol](/drugs/solriamfetol/) | L1 |
+| [Triptorelin](/drugs/triptorelin/) | L1 |
+| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
+| [Peginterferon Alfa-2A](/drugs/peginterferon-alfa-2a/) | L1 |
+
+### Medicines covered only by this site among the 30 TxGNN sites
+
+| Medicine | Evidence level |
+|---|---|
+| [Etafedrine](/drugs/etafedrine/) | L3 |
+| [Butamben](/drugs/butamben/) | L5 |
+| [Carbon Monoxide](/drugs/carbon-monoxide/) | L5 |
+| [Gramicidin D](/drugs/gramicidin-d/) | L5 |
+| [Romidepsin](/drugs/romidepsin/) | L5 |
+| [Butalbital](/drugs/butalbital/) | L5 |
+| [Methotrimeprazine](/drugs/methotrimeprazine/) | L5 |
+| [Monopotassium Phosphate](/drugs/monopotassium-phosphate/) | L5 |
+| [Thyroid Porcine](/drugs/thyroid-porcine/) | L5 |
+| [Anti-Inhibitor Coagulant Complex](/drugs/anti-inhibitor-coagulant-complex/) | L5 |
+| [Oxtriphylline](/drugs/oxtriphylline/) | L5 |
+| [Dostarlimab](/drugs/dostarlimab/) | N/A |
+| [Efinaconazole](/drugs/efinaconazole/) | N/A |
+| [Lodoxamide](/drugs/lodoxamide/) | N/A |
+| [Piperonyl Butoxide](/drugs/piperonyl-butoxide/) | N/A |
+
+<!-- local-home:end -->
+
 ## Overview
 
 This system analyzes **{{ site.data.stats.total_drugs | default: "11,511" }}** Health Canada registered drugs to identify potential new therapeutic uses.
