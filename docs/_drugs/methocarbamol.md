@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 599
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methocarbamol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the licence records. Product names (e.g.…"
 monitor_inn: "METHOCARBAMOL"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "panuveitis (disease)", "anaphylaxis", "iris disease", "uveitis", "ventricular tachycardia", "food-dependent exercise-induced anaphylaxis", "conjunctivitis", "obsolete bundle branch block"]
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 16 of 16) |
-| Number of DINs | 16 (valid: 16) |
+| Canada Market Status | Marketed (valid licenses: 15 of 16) |
+| Number of DINs | 16 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---

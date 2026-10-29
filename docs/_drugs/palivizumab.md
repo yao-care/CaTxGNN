@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Respiratory syncytial virus infectious disease"
 monitor_inn: "Palivizumab"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **benign neoplasm of the tongue
 | Predicted New Indication | Benign neoplasm of tongue |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Approved but not marketed (approvals on record: 2) |
+| Number of DINs | 2 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

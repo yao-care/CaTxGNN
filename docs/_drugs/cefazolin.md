@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **infectious otitis media**, but *
 | Predicted New Indication | infectious otitis media |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 16 of 16) |
-| Number of DINs | 16 (valid: 16) |
+| Canada Market Status | Marketed (valid licenses: 15 of 16) |
+| Number of DINs | 16 (valid: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

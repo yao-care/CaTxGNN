@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Adenine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the available Health Canada records"
 monitor_inn: "Adenine"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (valid licenses: 1 of 2) |
+| Number of DINs | 2 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

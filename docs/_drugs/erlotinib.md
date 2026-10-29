@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -57,7 +57,7 @@ The recommended action is **Hold** — evaluation cannot proceed until Data Gaps
 | TxGNN Prediction Score | Not available |
 | Evidence Level | N/A |
 | Taiwan Market Status | ✗ Not Marketed |
-| Number of DINs | 10 (valid: 10) |
+| Number of DINs | 10 (valid: 7) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -90,7 +90,7 @@ No Taiwan regulatory authorizations are on record in this Evidence Pack.
 
 | Item | Detail |
 |------|--------|
-| Market Status | Marketed (valid licenses: 10 of 10) |
+| Market Status | Marketed (valid licenses: 7 of 10) |
 | Total DINs | 0 |
 
 > **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally. If a zero-DIN result is unexpected for the Taiwan context, please cross-check directly against the TFDA official database — this may reflect a data ingestion gap in the pipeline rather than actual non-availability in the market.

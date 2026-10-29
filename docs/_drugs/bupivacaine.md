@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** supporting this d
 | Predicted New Indication | acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 16 of 16) |
-| Number of DINs | 16 (valid: 16) |
+| Canada Market Status | Marketed (valid licenses: 15 of 16) |
+| Number of DINs | 16 (valid: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

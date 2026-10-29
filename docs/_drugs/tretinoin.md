@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 940
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Acne, acute promyelocytic leukemia, acquired keratosis…"
 monitor_inn: "TRETINOIN"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 relevant publications** su
 | Predicted New Indication | Rheumatoid nodulosis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (valid licenses: 9 of 10) |
+| Number of DINs | 10 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

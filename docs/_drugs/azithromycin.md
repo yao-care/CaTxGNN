@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Azithromycin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be relevant to **polyclonal hyperviscosity syndr
 | Predicted New Indication | polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (valid licenses on record: at least 19) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

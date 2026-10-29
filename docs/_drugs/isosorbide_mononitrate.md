@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Isosorbide Mononitrate: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the available licence records"
 monitor_inn: "Isosorbide mononitrate"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pulmonary arterial hypertension"]
@@ -50,8 +50,8 @@ Isosorbide mononitrate is a nitric oxide (NO)-releasing vasodilator that is mark
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (valid licenses: 3 of 4) |
+| Number of DINs | 4 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

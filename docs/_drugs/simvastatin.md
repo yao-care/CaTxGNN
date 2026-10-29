@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 850
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ This is closer to an on-label or closely related indication than a true repurpos
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (valid licenses on record: at least 19) |
 | Number of DINs | 20 |
 | Recommended Decision | Proceed with Guardrails |
 

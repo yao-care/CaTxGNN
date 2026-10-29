@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Disopyramide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not stated in the data compiled for this report (disopyramide is gene…"
 monitor_inn: "DISOPYRAMIDE"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
@@ -50,8 +50,8 @@ Disopyramide is a class Ia antiarrhythmic drug that is marketed in Canada (as RY
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Approved but not marketed (approvals on record: 1) |
+| Number of DINs | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

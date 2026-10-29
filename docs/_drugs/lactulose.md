@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L3). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
@@ -52,8 +52,8 @@ That prediction currently has **0 registered clinical trials** and **20 publicat
 | Predicted New Indication | Obstructive jaundice (the highest-ranked prediction, acute urate nephropathy, has no evidence and is not featured here) |
 | TxGNN Prediction Score | 0.9953 (obstructive jaundice); 0.9989 for acute urate nephropathy |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (valid licenses: 5 of 6) |
+| Number of DINs | 6 (valid: 5) |
 | Recommended Decision | Hold (research question only) |
 
 Other predictions and their evidence levels:

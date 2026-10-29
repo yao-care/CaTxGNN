@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 626
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **agoraphobia**, with **no regi
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (valid licenses: 4 of 5) |
+| Number of DINs | 5 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

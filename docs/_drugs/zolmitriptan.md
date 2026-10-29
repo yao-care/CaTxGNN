@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 996
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and **18 publications*
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 16 of 16) |
-| Number of DINs | 16 (valid: 16) |
+| Canada Market Status | Marketed (valid licenses: 15 of 16) |
+| Number of DINs | 16 (valid: 15) |
 | Recommended Decision | Hold |
 
 ---

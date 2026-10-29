@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 620
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection"]
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Support is limited: there are **no registered clinical trials** and **3 small ca
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (valid licenses: 9 of 10) |
+| Number of DINs | 10 (valid: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

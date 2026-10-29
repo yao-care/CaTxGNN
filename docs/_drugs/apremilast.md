@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 67
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Apremilast: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,8 +46,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Apremilast, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 4 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 11 of 11) |
-| Number of DINs | 11 (valid: 11) |
+| Market status in Canada | Marketed (valid licenses: 10 of 11) |
+| Number of DINs | 11 (valid: 10) |
 
 ## Known uses recorded for this drug
 
@@ -83,7 +83,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Apremilast, 
 | 02529084 | SANDOZ APREMILAST |  | Valid |
 | 02528967 | JAMP APREMILAST |  | Valid |
 | 02524120 | AURO-APREMILAST |  | Valid |
-| 02518910 | GLN-APREMILAST |  | Valid |
+| 02518910 | GLN-APREMILAST |  | DORMANT |
 
 ## Safety Considerations
 

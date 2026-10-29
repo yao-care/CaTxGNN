@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ There are **0 clinical trials** and **2 publications**, and neither publication 
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (valid licenses: 9 of 10) |
+| Number of DINs | 10 (valid: 9) |
 | Recommended Decision | Hold |
 
 ---

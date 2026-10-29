@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Andexanet Alfa: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** wi
 | Predicted New Indication | Glanzmann thrombasthenia |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Not marketed (licenses canceled: 1 of 1) |
+| Number of DINs | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

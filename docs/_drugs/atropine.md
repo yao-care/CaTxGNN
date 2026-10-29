@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 82
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Atropine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ This is a computational prediction only and does not yet amount to clinical evid
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
-| Canada Market Status | Marketed (valid licenses: 11 of 11) |
-| Number of DINs | 11 (valid: 11) |
+| Canada Market Status | Marketed (valid licenses: 10 of 11) |
+| Number of DINs | 11 (valid: 10) |
 | Recommended Decision | Hold |
 
 ---

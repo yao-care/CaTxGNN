@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "FROVATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Frovatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ There are currently **no registered clinical trials** and **18 publications** on
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (valid licenses: 5 of 6) |
+| Number of DINs | 6 (valid: 5) |
 | Recommended Decision | Hold |
 
 ---

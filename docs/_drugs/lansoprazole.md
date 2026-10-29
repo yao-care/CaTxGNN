@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,7 +48,7 @@ Lansoprazole is a proton pump inhibitor originally used for acid-related conditi
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (valid licenses on record: at least 19) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

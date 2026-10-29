@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluoxetine: predicted new indication Schizotypal personality disorder (evidence level L3). Approved use: Depressive disorders, anxiety disorders…"
 ---
 
@@ -52,7 +52,7 @@ Support is limited: **no registered clinical trials** and **10 publications**, o
 | Predicted New Indication | Schizotypal personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (valid licenses on record: at least 19) |
 | Number of DINs | At least 20 (the list may be partial) |
 | Recommended Decision | Hold |
 

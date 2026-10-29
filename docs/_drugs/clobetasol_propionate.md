@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clobetasol Propionate: predicted new indication Rank 1: Vulvar inverted follicular keratosis . Best-supported: Exanth… (evidence level L5). Approved use: Atopic eczema, dermatitis (contact, occupatio…"
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -53,8 +53,8 @@ The TxGNN model's top-ranked prediction is vulvar inverted follicular keratosis,
 | Predicted New Indication | Rank 1: Vulvar inverted follicular keratosis (no evidence). Best-supported: Exanthem (disease), rank 3 |
 | TxGNN Prediction Score | Rank 1: 0.9946. Exanthem: 0.9926 |
 | Evidence Level | Rank 1: L5. Exanthem: L1 as graded, but only indirectly relevant, so a more cautious reading is L3 |
-| Canada Market Status | Marketed (valid licenses: 20 of 20) |
-| Number of DINs | 20 (valid: 20) |
+| Canada Market Status | Marketed (valid licenses: 19 of 20) |
+| Number of DINs | 20 (valid: 19) |
 | Recommended Decision | Hold (rank 1). Exanthem: Proceed with Guardrails, as a research question only |
 
 ---

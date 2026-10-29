@@ -5,7 +5,7 @@ layout: default
 title: Hypromellose
 parent: Known Uses Only (No New Predictions)
 nav_order: 462
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Hypromellose: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Hypromellose"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (valid licenses: 8 of 9) |
+| Number of DINs | 9 (valid: 8) |
 
 ## Canada Market Information
 

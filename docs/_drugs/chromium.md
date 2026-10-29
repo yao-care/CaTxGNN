@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 190
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chromium: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,8 +46,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chromium, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Market status in Canada | Marketed (valid licenses: 5 of 6) |
+| Number of DINs | 6 (valid: 5) |
 
 ## Known uses recorded for this drug
 
@@ -74,7 +74,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chromium, so
 | 02091135 | MICRO +4 REGULAR STRENGTH |  | Valid |
 | 02552787 | MICRO+6 REGULAR |  | Valid |
 | 02507587 | MICRO+6 CONCENTRATE |  | Valid |
-| 02091100 | MICRO PLUS 6  (PEDIATRIC) |  | Valid |
+| 02091100 | MICRO PLUS 6  (PEDIATRIC) |  | CANCELLED POST MARKET |
 | 02497697 | ADDNUTRIV |  | Valid |
 
 ## Safety Considerations

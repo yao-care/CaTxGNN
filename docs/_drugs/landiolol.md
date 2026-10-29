@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 522
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Landiolol: predicted new indication Lingual-facial-buccal dyskinesia (evidence level L5). Approved use: Supraventricular tachycardia (atrial fibrillation and atrial flutter)…"
 monitor_inn: "Landiolol"
 predicted_indications: ["lingual-facial-buccal dyskinesia", "chronic tic disorder", "psychogenic movement disorders", "extrapyramidal and movement disease", "benign shuddering attacks", "primary orthostatic tremor"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **lingual-facial-buccal dyskine
 | Predicted New Indication | Lingual-facial-buccal dyskinesia |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Approved but not marketed (approvals on record: 1) |
+| Number of DINs | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

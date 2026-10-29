@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Pheniramine is a first-generation H1-antihistamine, originally used for allergic
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (valid licenses: 7 of 9) |
+| Number of DINs | 9 (valid: 7) |
 | Recommended Decision | Hold |
 
 ---

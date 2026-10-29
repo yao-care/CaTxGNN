@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 184
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chloroxylenol: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,8 +46,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 12 of 12) |
-| Number of DINs | 12 (valid: 12) |
+| Market status in Canada | Marketed (valid licenses: 10 of 12) |
+| Number of DINs | 12 (valid: 10) |
 
 ## Known uses recorded for this drug
 
@@ -80,8 +80,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | 00373435 | DETTOL |  | Valid |
 | 02314126 | PHENREX MVD |  | Valid |
 | 02440458 | PURKLENZ |  | Valid |
-| 01942271 | ABSORBINE JR EXTRA STRENGTH LINIMENT |  | Valid |
-| 01942301 | ABSORBINE JR LINIMENT |  | Valid |
+| 01942271 | ABSORBINE JR EXTRA STRENGTH LINIMENT |  | CANCELLED POST MARKET |
+| 01942301 | ABSORBINE JR LINIMENT |  | CANCELLED POST MARKET |
 
 ## Safety Considerations
 

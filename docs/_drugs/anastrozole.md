@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Anastrozole: predicted new indication Neuroblastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | Neuroblastoma |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 19 of 19) |
-| Number of DINs | 19 (valid: 19) |
+| Canada Market Status | Marketed (valid licenses: 18 of 19) |
+| Number of DINs | 19 (valid: 18) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

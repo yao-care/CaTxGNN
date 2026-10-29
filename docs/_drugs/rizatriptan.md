@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 819
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "RIZATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ but there are currently **no registered clinical trials** and only **general mig
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (valid licenses on record: at least 19) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

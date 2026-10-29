@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 249
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L4). Approved use: Not listed in the Canadian license data compiled for this report (the…"
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -50,8 +50,8 @@ This prediction is best viewed as a model-generated hypothesis with little direc
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (valid licenses: 2 of 3) |
+| Number of DINs | 3 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

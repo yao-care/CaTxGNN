@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **0 registered clinical trials** and only **indirect lit
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (valid licenses: 7 of 9) |
+| Number of DINs | 9 (valid: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

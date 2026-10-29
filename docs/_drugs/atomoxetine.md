@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 80
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L3). Approved use: Attention deficit hyperactivity disorder (ADHD)…"
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
@@ -52,7 +52,7 @@ but there are **no registered clinical trials** and only a handful of relevant p
 | Predicted New Indication | Specific developmental disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (valid licenses on record: at least 19) |
 | Number of DINs | 20 |
 | Recommended Decision | Hold |
 

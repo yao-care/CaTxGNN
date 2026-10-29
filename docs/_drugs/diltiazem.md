@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 285
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diltiazem: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses on record: at least 20) |
+| Market status in Canada | Marketed (valid licenses on record: at least 18) |
 | Number of DINs | at least 20 |
 
 ## Known uses among the model's candidates
@@ -72,7 +72,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 |------|------|------|------|
 | 02528061 | JAMP DILTIAZEM CD |  | Valid |
 | 02546450 | M-DILTIAZEM T |  | Valid |
-| 02271656 | TEVA-DILTIAZEM HCL ER |  | Valid |
+| 02271656 | TEVA-DILTIAZEM HCL ER |  | DORMANT |
 | 02370492 | TEVA-DILTIAZEM T |  | Valid |
 | 02256770 | TIAZAC XC |  | Valid |
 | 02256738 | TIAZAC XC |  | Valid |
@@ -83,7 +83,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 | 02231150 | TIAZAC |  | Valid |
 | 02540924 | PRO-DILTIAZEM CD |  | Valid |
 | 02231151 | TIAZAC |  | Valid |
-| 02271605 | TEVA-DILTIAZEM HCL ER |  | Valid |
+| 02271605 | TEVA-DILTIAZEM HCL ER |  | DORMANT |
 | 02516136 | DILTIAZEM T |  | Valid |
 | 02484080 | MAR-DILTIAZEM CD |  | Valid |
 | 02242541 | TEVA-DILTIAZEM CD |  | Valid |

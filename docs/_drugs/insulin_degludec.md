@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
 description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Note that type 1 diabetes falls within the drug's existing diabetes indication, 
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (valid licenses: 3 of 4) |
+| Number of DINs | 4 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

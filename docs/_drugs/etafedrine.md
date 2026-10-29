@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 358
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Etafedrine: predicted new indication Bronchitis (evidence level L5). Approved use: Not available"
 monitor_inn: "Etafedrine"
 predicted_indications: ["bronchitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **bronchitis**, with **0 regist
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L3 (low-quality; see note below) |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Approved but not marketed (approvals on record: 1) |
+| Number of DINs | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 *Evidence level note:* Neither publication tests etafedrine alone. Both evaluated fixed-dose combination products. Strictly under the level rules, this is closer to L5 or L4 for etafedrine itself. The L3 label is retained from the source scoring, and the evidence should be read as weak and indirect.

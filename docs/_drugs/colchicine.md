@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
 monitor_inn: "COLCHICINE"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria
 | Predicted New Indication | Plasmodium falciparum malaria |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (valid licenses: 4 of 5) |
+| Number of DINs | 5 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 869
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "STREPTOMYCIN"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
 description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be effective for **conjunctivitis**.
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Approved but not marketed (approvals on record: 1) |
+| Number of DINs | 1 (valid: 0) |
 | Recommended Decision | Hold |
 
 ---

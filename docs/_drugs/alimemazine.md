@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Alimemazine"
 predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Alimemazine: predicted new indication IgE responsiveness, atopic (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,8 +54,8 @@ The TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, 
 | Predicted New Indication | IgE responsiveness, atopic |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Not marketed (licenses canceled: 2 of 2) |
+| Number of DINs | 2 (valid: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

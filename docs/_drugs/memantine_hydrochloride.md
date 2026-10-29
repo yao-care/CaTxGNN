@@ -5,7 +5,7 @@ layout: default
 title: Memantine Hydrochloride
 parent: Known Uses Only (No New Predictions)
 nav_order: 584
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (valid licenses: 9 of 10) |
+| Number of DINs | 10 (valid: 9) |
 
 ---
 

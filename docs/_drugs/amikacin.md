@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Amikacin: predicted new indication Paratyphoid fever (evidence level L4). Approved use: Bacterial pneumonia, Pseudomonas aeruginosa infection…"
 monitor_inn: "AMIKACIN"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **paratyphoid fever**, but **no
 | Predicted New Indication | Paratyphoid fever |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (valid licenses: 4 of 5) |
+| Number of DINs | 5 (valid: 4) |
 | Recommended Decision | Hold |
 
 ---

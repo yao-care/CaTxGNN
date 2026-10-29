@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 513
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ketorolac: predicted new indication Headache disorder (evidence level L1). Approved use: Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis"
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -52,8 +52,8 @@ with **17 clinical trials** and **18 publications** currently supporting this di
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L1 |
-| Canada Market Status | Marketed (valid licenses: 14 of 14) |
-| Number of DINs | 14 (valid: 14) |
+| Canada Market Status | Marketed (valid licenses: 11 of 14) |
+| Number of DINs | 14 (valid: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

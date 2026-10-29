@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 741
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Piperonyl Butoxide: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,8 +46,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Piperonyl Bu
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Market status in Canada | Approved but not marketed (approvals on record: 1) |
+| Number of DINs | 1 (valid: 0) |
 
 ## Known uses recorded for this drug
 
@@ -72,7 +72,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Piperonyl Bu
 
 | Licence | Product | Dosage form | Status |
 |------|------|------|------|
-| 02125447 | R & C SHAMPOO WITH CONDITIONER |  | Valid |
+| 02125447 | R & C SHAMPOO WITH CONDITIONER |  | DORMANT |
 
 ## Safety Considerations
 
