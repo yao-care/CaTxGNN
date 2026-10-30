@@ -46,7 +46,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Apremilast, 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 4 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 10 of 11) |
+| Canada Market Status | Marketed (valid licenses: 10 of 11) |
 | Number of DINs | 11 (valid: 10) |
 
 ## Known uses recorded for this drug

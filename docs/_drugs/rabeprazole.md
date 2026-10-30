@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 788
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rabeprazole: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 8 of 8) |
+| Canada Market Status | Marketed (valid licenses: 8 of 8) |
 | Number of DINs | 8 (valid: 8) |
 
 ## Known uses among the model's candidates

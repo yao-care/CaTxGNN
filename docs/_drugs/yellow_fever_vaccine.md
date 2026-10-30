@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 987
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Yellow Fever Vaccine: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 1 of 1) |
+| Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |
 
 ## Known uses recorded for this drug

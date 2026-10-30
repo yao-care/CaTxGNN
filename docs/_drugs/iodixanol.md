@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iodixanol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the licence records"
 ---
 
@@ -49,7 +49,7 @@ Iodixanol is an iodinated, iso-osmolar radiographic contrast agent, marketed in 
 | TxGNN Prediction Score | 0.9907 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of Licences | 4 (valid: 4) |
+| Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -3,7 +3,7 @@ layout: default
 title: Abemaciclib
 parent: Known Uses Only (No New Predictions)
 nav_order: 13
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Abemaciclib: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 1 |
-| Market status in Canada | Marketed (valid licenses: 4 of 4) |
+| Canada Market Status | Marketed (valid licenses: 4 of 4) |
 | Number of DINs | 4 (valid: 4) |
 
 ## Known uses recorded for this drug

@@ -5,7 +5,7 @@ layout: default
 title: Eszopiclone
 parent: Known Uses Only (No New Predictions)
 nav_order: 357
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -43,7 +43,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Original Indication | Not recorded in the local data |
 | Canada Market Status | Marketed (valid licenses: 9 of 9) |
 | Taiwan Market Status | ✗ Not marketed |
-| Number of Licenses | 9 (valid: 9) |
+| Number of DINs | 9 (valid: 9) |
 
 ---
 

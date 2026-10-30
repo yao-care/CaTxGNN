@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 811
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Riociguat: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 10 of 10) |
+| Canada Market Status | Marketed (valid licenses: 10 of 10) |
 | Number of DINs | 10 (valid: 10) |
 
 ## Known uses recorded for this drug

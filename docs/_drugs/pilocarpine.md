@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 735
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pilocarpine: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model produced candidates for Pilocarpine, but every can
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 5 of 5) |
+| Canada Market Status | Marketed (valid licenses: 5 of 5) |
 | Number of DINs | 5 (valid: 5) |
 
 ## Known uses among the model's candidates

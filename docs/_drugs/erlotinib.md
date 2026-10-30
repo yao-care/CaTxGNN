@@ -90,7 +90,7 @@ No Taiwan regulatory authorizations are on record in this Evidence Pack.
 
 | Item | Detail |
 |------|--------|
-| Market Status | Marketed (valid licenses: 7 of 10) |
+| Canada Market Status | Marketed (valid licenses: 7 of 10) |
 | Total DINs | 0 |
 
 > **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally. If a zero-DIN result is unexpected for the Taiwan context, please cross-check directly against the TFDA official database — this may reflect a data ingestion gap in the pipeline rather than actual non-availability in the market.

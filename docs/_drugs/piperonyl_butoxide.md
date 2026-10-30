@@ -46,7 +46,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Piperonyl Bu
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
-| Market status in Canada | Approved but not marketed (approvals on record: 1) |
+| Canada Market Status | Approved but not marketed (approvals on record: 1) |
 | Number of DINs | 1 (valid: 0) |
 
 ## Known uses recorded for this drug

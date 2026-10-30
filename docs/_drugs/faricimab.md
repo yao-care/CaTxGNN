@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -50,7 +50,7 @@ Faricimab (DrugBank ID: DB15303) has **no original indication records** in this 
 | Predicted New Indications | No prediction results |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A (No prediction data) |
-| Market Status | Marketed (valid licenses: 2 of 2) |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
 | Number of DINs | 2 (valid: 2) |
 | Number of Regulatory Approvals | 0 |
 | Recommended Decision | **Hold** |

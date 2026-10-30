@@ -46,7 +46,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chromium, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 5 of 6) |
+| Canada Market Status | Marketed (valid licenses: 5 of 6) |
 | Number of DINs | 6 (valid: 5) |
 
 ## Known uses recorded for this drug

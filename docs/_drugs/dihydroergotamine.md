@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 284
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dihydroergotamine: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN model's candidates for Dihydroergotamine (score ≥ 0.99) are all know
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 2 of 2) |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
 | Number of DINs | 2 (valid: 2) |
 
 ## Known uses among the model's candidates

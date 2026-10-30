@@ -46,7 +46,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (valid licenses on record: at least 18) |
 | Number of DINs | at least 20 |
 
 ## Known uses among the model's candidates

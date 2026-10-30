@@ -5,7 +5,7 @@ layout: default
 title: Esmolol Hydrochloride
 parent: Known Uses Only (No New Predictions)
 nav_order: 353
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| Canada / Taiwan Market Status | Marketed (valid licenses: 2 of 2) |
+| Canada Market Status | Marketed (valid licenses: 2 of 2) |
 | Number of DINs | 2 (valid: 2) |
 
 ---

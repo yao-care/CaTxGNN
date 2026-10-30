@@ -46,7 +46,7 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Terifluno
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Market status in Canada | Marketed (valid licenses: 7 of 8) |
+| Canada Market Status | Marketed (valid licenses: 7 of 8) |
 | Number of DINs | 8 (valid: 7) |
 
 ## Known uses among the model's candidates
