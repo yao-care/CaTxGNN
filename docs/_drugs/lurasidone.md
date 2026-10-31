@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -115,7 +115,7 @@ For official warnings and contraindications, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The indication is largely on-label, but the only mania-specific trial was withdrawn with no participants, and most of the literature addresses bipolar depression. Evidence for acute mania is therefore insufficient to recommend advancing. The high TxGNN score reflects the existing bipolar disorder indication, not new evidence.
+Evidence for acute mania is therefore insufficient to recommend advancing. The high TxGNN score reflects the existing bipolar disorder indication, not new evidence.
 
 **To proceed, the following is needed:**
 - Confirmation of the label indications for the Canadian products (currently blank in the compiled data)

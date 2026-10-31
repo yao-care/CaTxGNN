@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-28
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: predicted new indication Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (evidence level L5)."

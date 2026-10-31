@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 768
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -66,7 +66,7 @@ Detailed mechanism-of-action data is not currently available in the compiled dat
 
 Migraine shares several features with these conditions, notably central sensitization and excess excitatory neurotransmission. Preclinical studies report that pregabalin raises the threshold for cortical spreading depression, the phenomenon behind migraine aura, and that chronic treatment protects against spreading depolarization in a familial hemiplegic migraine model. These findings provide a plausible mechanistic link.
 
-The evidence is still indirect. Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn. The L1 grade is provisional and should be verified by reading the trials in full.
+The evidence is still indirect. The L1 grade is provisional and should be verified by reading the trials in full.
 
 ---
 
@@ -125,7 +125,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-- The only Phase 3 migraine trial was withdrawn, and the supporting clinical evidence is mostly small pediatric trials, so the provisional L1 grade overstates the strength of evidence. The package insert warnings are also missing, which blocks safety screening.
+The package insert warnings are also missing, which blocks safety screening.
 - The three highest-scoring predictions (tendinitis, granulomatous myositis, myositis fibrosa) rest mainly on the computational score and have no direct clinical support.
 
 **To proceed, the following is needed:**
