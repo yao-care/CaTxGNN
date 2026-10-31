@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis…"
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
@@ -53,7 +53,7 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

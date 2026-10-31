@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including partial epilepsy and Lennox-Gastaut syndrome)"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -53,7 +53,7 @@ The second-ranked prediction, **trigeminal neuralgia**, is much better supported
 | TxGNN Prediction Score | 0.9997 (trigeminal nerve neoplasm); 0.9989 (trigeminal neuralgia) |
 | Evidence Level | L5 (trigeminal nerve neoplasm); L2 (trigeminal neuralgia) |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold (trigeminal nerve neoplasm); Proceed with Guardrails (trigeminal neuralgia) |
 
 The Canadian licence records compiled for this report contain no approved-indication text.

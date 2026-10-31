@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 846
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -53,7 +53,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

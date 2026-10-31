@@ -53,7 +53,7 @@ Currently **2 clinical trials** (one withdrawn Phase 3, one completed Phase 4 th
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (provisional; see note below) |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 **Note on the prediction list:** Six indications were predicted. Tendinitis (0.9971), idiopathic granulomatous myositis (0.9971) and myositis fibrosa (0.9971) score highest, but the data compiled for this report show little or no supporting evidence for them (evidence levels L4 and L5). Inclusion body myositis (0.9952) is also L5. Migraine disorder (0.9947) has the strongest clinical evidence, so this report focuses on it. Migraine with brainstem aura (0.9943) is supported only by preclinical work (L4).

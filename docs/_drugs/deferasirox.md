@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 255
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Beta-thalassemia and related hemoglobinopathies (including hereditary…"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -53,7 +53,7 @@ but there are currently **no registered clinical trials** and only **2 publicati
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L4 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

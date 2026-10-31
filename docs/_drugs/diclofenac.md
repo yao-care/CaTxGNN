@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Diclofenac: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Actinic keratosis"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -51,7 +51,7 @@ Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) used for actinic ker
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 18) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

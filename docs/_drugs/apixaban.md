@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 65
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Apixaban: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the Canadian licence data compiled for this report"
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
@@ -53,7 +53,7 @@ The prediction is essentially computational and is not supported by direct clini
 | TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L4 |
 | Canada Market Status | Marketed (valid licenses on record: at least 19) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

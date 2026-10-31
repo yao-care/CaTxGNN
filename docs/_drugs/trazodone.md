@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 936
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -53,7 +53,7 @@ but **no clinical trials are registered**, and support comes from **20 publicati
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

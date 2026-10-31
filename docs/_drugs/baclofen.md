@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -53,7 +53,7 @@ A second prediction, **nicotine dependence**, has **3 Phase 2 trials** and is no
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

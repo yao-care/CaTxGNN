@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L4). Approved use: Bacterial infections, including infectious otitis media…"
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

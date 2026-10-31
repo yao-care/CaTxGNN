@@ -5,7 +5,7 @@ layout: default
 title: D-Glucose
 parent: Known Uses Only (No New Predictions)
 nav_order: 239
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "D-Glucose: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "D-glucose"
 predicted_indications: []
@@ -44,7 +44,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|------|
 | Original Indication | Not recorded in the local data |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 
 ---
 

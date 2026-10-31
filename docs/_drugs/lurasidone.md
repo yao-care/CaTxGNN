@@ -49,7 +49,7 @@ Lurasidone is an atypical antipsychotic originally used to treat bipolar disorde
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 17) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

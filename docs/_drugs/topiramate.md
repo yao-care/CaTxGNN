@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 923
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -53,7 +53,7 @@ The model's other high-scoring predictions are mostly reflex-seizure subtypes of
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 18) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 The approved-indication text was not available in the Canadian license data compiled for this report.

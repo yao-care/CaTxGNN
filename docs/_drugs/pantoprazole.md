@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 704
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ This prediction largely overlaps with the drug's established use, so it is close
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 (by the strict rules: 1 completed Phase 3 RCT in this indication). Supporting trials for the closely related duodenal ulcer prediction would qualify as L1. |
 | Canada Market Status | Marketed (valid licenses on record: at least 19) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

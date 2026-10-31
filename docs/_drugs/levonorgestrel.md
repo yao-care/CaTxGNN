@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 546
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -53,7 +53,7 @@ The evidence is weak, and the available mechanistic reasoning points in the oppo
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

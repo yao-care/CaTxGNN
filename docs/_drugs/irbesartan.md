@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, diabetic nephropathy"
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -51,7 +51,7 @@ However, **no clinical trials or publications** currently support this specific 
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 17) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 Other high-scoring predictions: malignant renovascular hypertension (0.9931), pulmonary hypertension with unclear multifactorial mechanism (0.9925), and pulmonary hypertension owing to lung disease and/or hypoxia (0.9925). The last has preclinical literature (L4).

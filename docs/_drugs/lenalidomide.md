@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 535
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
@@ -53,7 +53,7 @@ with **48 clinical trials** and **20 publications** currently supporting this di
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L2 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails (as a research question) |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L4). Approved use: Alzheimer disease"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -51,7 +51,7 @@ but there are currently **no registered clinical trials**, and the support consi
 | TxGNN Prediction Score | 0.9927 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 17) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

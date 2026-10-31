@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 predicted_indications: []
 ---
 
@@ -53,7 +53,7 @@ All downstream evidence layers — clinical trials, literature, and safety data 
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no supporting studies available |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
-| Number of DINs | 0 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---

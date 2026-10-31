@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Diphenhydramine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis…"
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 19) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

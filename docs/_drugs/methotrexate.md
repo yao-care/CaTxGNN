@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukemia (other listed uses include non-Hodgkin l…"
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -53,7 +53,7 @@ So far there are **0 clinical trials** and **0 publications** supporting this sp
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 19) |
-| Number of DINs | 20 |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 The Canadian licence records compiled for this report contain no indication text. The original indication is therefore not stated on this page.
