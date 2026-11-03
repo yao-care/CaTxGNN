@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-description: "Alprazolam: predicted new indication Insomnia (insomnia (disease)) (insomnia (disease)) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Alprazolam: predicted new indication Insomnia (insomnia (disease)) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Alprazolam
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Alprazolam: Insomnia (insomnia (disease)) (insomnia (disease))
+## Alprazolam: Insomnia (insomnia (disease))
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,7 +47,7 @@ The prediction is therefore supported mainly by class-level pharmacology.
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Insomnia (insomnia (disease)) (insomnia (disease)) |
+| Predicted New Indication | Insomnia (insomnia (disease)) |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 13 of 13) |
