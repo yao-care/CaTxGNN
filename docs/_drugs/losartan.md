@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -119,6 +119,7 @@ The TxGNN score is very high (0.9973), and the mechanism is biologically plausib
 | 6 | Prinzmetal angina | 0.9945 | L5 | Hold | Prediction only; calcium channel blockers and nitrates are the mainstay |
 | 7 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9939 | L5 | Hold | Prediction only |
 | 8 | Brain small vessel disease 1 with or without ocular anomalies | 0.9937 | L5 | Research Question | Indirect evidence (TREAT-SVDs trial of blood-pressure-lowering agents, ARB reviews in Marfan syndrome, mouse studies); no trial matched to this disease |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

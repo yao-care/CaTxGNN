@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -122,6 +122,7 @@ The prediction score is very high (0.9993), but the evidence is model-only (L5):
 | 8 | Intracerebral haemorrhage | 0.9982 | L5 | Indirect animal data only; acute-setting safety unestablished |
 | 9 | ABri amyloidosis | 0.9979 | L5 | No mechanistic rationale found |
 | 10 | Cerebral artery occlusion | 0.9974 | L5 | One small human cerebral blood flow study (PMID 8797135) and mixed animal results; marked "Research Question" |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

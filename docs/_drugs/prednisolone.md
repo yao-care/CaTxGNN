@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 765
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, Crohn disease and inflammatory bowel disease…"
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -132,6 +132,7 @@ Evidence for alopecia areata includes a network meta-analysis, systematic review
 | Alopecia mucinosa | L5 | Hold | Only a cyclosporine case report; no prednisolone data |
 | Folliculitis decalvans | L4 | Hold | Only a triple-therapy case report |
 | Telogen effluvium, hereditary hypotrichosis with recurrent skin vesicles, alopecia antibody deficiency, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome, atrichia with papular lesions, prolapse of lacrimal gland | L5 | Hold | Computational prediction only, with no plausible mechanistic link |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

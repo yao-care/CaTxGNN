@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 777
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Propofol: predicted new indication Migraine disorder (evidence level L2). Approved use: Not stated in the licence data compiled for this report (propofol is…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -125,6 +125,7 @@ A completed Phase 2/3 trial in pediatric migraine, several randomized ED trials,
 | Prinzmetal angina | L5 | Hold | The literature consists of case reports of coronary spasm during anaesthesia, which is a possible safety signal and not a benefit. |
 | Nephrogenic syndrome of inappropriate antidiuresis | L5 | Hold | Computational prediction only, with no supporting studies. |
 | Tourette syndrome | L4 | Hold | Evidence covers only sedation during deep brain stimulation surgery. No therapeutic effect on tics is shown. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

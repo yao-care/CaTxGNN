@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 252
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Chronic myelogenous leukemia…"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -140,6 +140,7 @@ The mechanism is plausible, since SRC/FAK signaling is relevant to Ewing sarcoma
 | Liposarcoma | L4 | Hold. Preclinical SRC data only. |
 | Dermatofibrosarcoma protuberans | L5 | Hold. Plausible PDGFR mechanism, but imatinib is the established option. |
 | Ovarian myxoid liposarcoma; ganglioneuroblastoma; gingival fibromatosis; and 3 others | L5 | Hold. Model prediction only. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

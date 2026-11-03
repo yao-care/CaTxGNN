@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 666
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Norethindrone Enanthate: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model has no candidate indication with a score of 0.99 or higher for Norethindrone Enanthate, so there is currently no new predicted indication. No recorded uses are listed for this drug in the data used for this page. The groups below are shown for completeness.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
@@ -52,16 +53,19 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 ## Known uses recorded for this drug
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

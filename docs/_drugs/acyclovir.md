@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Acyclovir: predicted new indication Top-ranked: punctate epithelial keratoconjunctivitis (evidence level L3). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -169,6 +169,7 @@ Please refer to the package insert for key warnings and label contraindications.
 | Eosinophilic pustular folliculitis | L5 | Hold | No viral cause; no data |
 | Vulvovaginal candidiasis | L5 | Hold | Fungal cause; likely a co-occurrence artifact |
 | Papular urticaria | L5 | Hold | Insect bite hypersensitivity; no data |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

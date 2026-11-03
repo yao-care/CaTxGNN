@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 267
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Unipolar depression, major depressive disorder, anxiety disorder"
 monitor_inn: "DESVENLAFAXINE"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -134,6 +134,7 @@ The OCD prediction rests on a model score and a class-level serotonergic rationa
 | Agoraphobia | 0.9970 | L5 | Class-level rationale only; no desvenlafaxine data. |
 | Personality disorder cluster (histrionic, paranoid, schizoid, schizotypal) | 0.9984 | L5 | Identical scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
 | Ohdo syndrome; benign paroxysmal torticollis of infancy | 0.9974; 0.9974 | L5 | No plausible mechanism; likely model artifacts. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

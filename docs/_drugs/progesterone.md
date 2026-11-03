@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 775
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Progesterone: predicted new indication Amenorrhea (evidence level L2). Approved use: Endometriosis"
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
@@ -158,6 +158,7 @@ The other nine predictions have weaker support and are not recommended to advanc
 | Renal hypoplasia (disease) | L5 | Hold | Only an unrelated preclinical kidney cyst model |
 | Apocrine adenosis of breast | L5 | Hold | Lesions are mainly androgen receptor driven; no therapeutic evidence |
 | Blunt duct adenosis of breast | L5 | Hold | No trials or literature; computational prediction only |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

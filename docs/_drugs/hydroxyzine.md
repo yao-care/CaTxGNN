@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -141,6 +141,7 @@ The mechanism fits well and urticaria is already an original indication, but the
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
 | 2 | Rosacea conjunctivitis | 0.9970 | L5 | No trials or literature. Antihistamines are not standard therapy, so the link is speculative. Hold. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

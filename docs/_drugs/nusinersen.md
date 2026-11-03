@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 670
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Nusinersen: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model produced no candidate with a score of 0.99 or higher for Nusinersen, so there is currently no new predicted indication. The uses recorded for this drug are listed below. They are the drug's own recorded uses, not model candidates.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
@@ -52,17 +53,20 @@ The TxGNN deep-learning model produced no candidate with a score of 0.99 or high
 ## Known uses recorded for this drug
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | spinal muscular atrophy | licence in another country |
 | spinraza is indicated for the treatment of 5q spinal muscular atrophy | licence in another country |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |

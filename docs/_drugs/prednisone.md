@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 767
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -125,6 +125,7 @@ Alopecia areata is the strongest of the ten predictions. It has a plausible immu
 | 8 | Atrichia with papular lesions | L5 | Hold | Non-immune genetic disorder |
 | 9 | Tenosynovitis | L4 | Research Question | Glucocorticoids plausible in inflammatory forms; only case reports and series; infectious causes must be excluded |
 | 10 | Prolapse of lacrimal gland | L5 | Hold | Structural condition; likely a TxGNN model (deep learning) artifact |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

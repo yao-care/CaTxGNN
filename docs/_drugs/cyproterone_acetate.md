@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 235
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L3). Approved use: Not stated in the Canadian licence data. Pharmacology data lists andr…"
 monitor_inn: "CYPROTERONE ACETATE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -133,6 +133,7 @@ The prediction rests on a model score and indirect literature. No trial or paper
 | Thrombophilia | L5 | The literature shows CPA-containing contraceptives raise thrombotic risk, a harm signal | Hold |
 | Migraine with brainstem aura, migraine susceptibility | L5 | Literature is about vascular risk, a safety signal | Hold |
 | Prinzmetal angina, antithrombin deficiency type 2, heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis | L5 | Prediction only, with no clinical evidence; several are thrombosis-related, where CPA is a risk factor | Hold |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

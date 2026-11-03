@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 817
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -129,6 +129,7 @@ The TxGNN score is very high (0.9957), but there are no clinical trials, no stud
 | 2 | Gout | 0.9951 | L5 | No trials; the literature is about drug interactions and a case report, with no credible mechanism. Likely a network-proximity artifact. Hold. |
 | 3 | HIV infectious disease | 0.9917 | L4 | One unrelated Phase 2 VTE cohort study; the literature concerns safe co-prescribing. Ritonavir- or cobicistat-boosted antiretrovirals raise rivaroxaban exposure and bleeding risk. This is an interaction issue, not a repurposing signal. Hold. |
 | 4 | Brachydactyly-syndactyly syndrome | 0.9910 | L5 | No trials, no literature and no plausible mechanism. Hold. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
