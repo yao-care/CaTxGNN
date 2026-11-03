@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mefenamic Acid
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 578
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that blocks prostaglandin synthesis.
-The TxGNN model predicts it may be useful for **headache disorder**,
-with **no registered clinical trials** and **20 publications** in the data compiled for this report, most of which concern migraine rather than headache in general.
+Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that blocks prostaglandin synthesis. The TxGNN model predicts it may be effective for **headache disorder**, and the literature includes **3 small randomized double-blind trials in migraine** (a subtype of headache disorder) and several reviews and guidelines, but **no registered clinical trials** for the broad category. The evidence level is **L2**.
 
 ## Quick Overview
 
@@ -49,18 +47,16 @@ with **no registered clinical trials** and **20 publications** in the data compi
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9964 |
-| Evidence Level | L5 |
+| Evidence Level | L2 |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Mefenamic acid belongs to the NSAID class, which inhibits cyclooxygenase (COX) and reduces prostaglandin production. Prostaglandins contribute to pain signalling and neurogenic inflammation, so blocking them could plausibly ease headache.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on what is known about the drug class, mefenamic acid inhibits cyclooxygenase (COX) and so reduces prostaglandin synthesis. Prostaglandins contribute to vasodilation, sensitization of trigeminovascular pain fibres and neurogenic inflammation, which are processes involved in headache.
 
-The literature supports this mainly through migraine, a specific type of headache. Small, older double-blind trials tested mefenamic acid against acetaminophen and against propranolol and placebo in migraine, and a double-blind placebo-controlled study examined menstrual migraine. None of these studies examined headache disorder as a whole, and the data compiled for this report contain no trial that directly targets it. Because of this, the evidence level is L5 despite the related migraine findings.
-
-Long-term use carries a risk of enteropathy, and analgesic overuse can itself cause medication-overuse headache.
+Headache disorder is a broad category. The supporting studies are mostly in migraine, with the strongest signal in menstrually related migraine, where perimenstrual prostaglandin surges are a plausible driver. Three double-blind randomized trials support this: one against acetaminophen (1983, 40 patients), one against propranolol and placebo for prophylaxis (1986, 29 patients), and one against placebo in menstrual migraine (2000, 24 patients). These trials are small and old, there is no phase 3 programme, and no headache-specific trials are registered. Long-term use also carries a risk of enteropathy and medication-overuse headache.
 
 ## Clinical Trial Evidence
 
@@ -70,16 +66,16 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6347393](https://pubmed.ncbi.nlm.nih.gov/6347393/) | 1983 | RCT | Cephalalgia | Double-blind crossover of mefenamic acid vs acetaminophen in 40 migraine patients |
-| [3524092](https://pubmed.ncbi.nlm.nih.gov/3524092/) | 1986 | RCT | Acta Neurol Scand | Mefenamic acid vs propranolol vs placebo for migraine prophylaxis; fewer attacks than placebo in 17 completers |
-| [10799353](https://pubmed.ncbi.nlm.nih.gov/10799353/) | 2000 | RCT | Eur J Med Res | Double-blind placebo-controlled study in 24 women with menstrual migraine |
-| [22529203](https://pubmed.ncbi.nlm.nih.gov/22529203/) | 2012 | Guideline | Neurology | AAN/AHS evidence update on NSAIDs for episodic migraine prevention |
-| [18427072](https://pubmed.ncbi.nlm.nih.gov/18427072/) | 2008 | Review | Neurology | Evidence-based review of acute and short-term preventive treatment of menstrually related migraine |
-| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Review | Pathol Biol | Review of controlled NSAID studies in migraine, including mefenamic acid |
-| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | Review | Cephalalgia | Analgesics and NSAIDs in acute migraine attacks |
+| [10799353](https://pubmed.ncbi.nlm.nih.gov/10799353/) | 2000 | RCT | European Journal of Medical Research | Double-blind placebo-controlled study of mefenamic acid in acute menstrual migraine (24 patients, 2 cycles) |
+| [3524092](https://pubmed.ncbi.nlm.nih.gov/3524092/) | 1986 | RCT | Acta Neurologica Scandinavica | Mefenamic acid and propranolol both reduced attack frequency and total duration vs placebo in prophylaxis (29 patients, 17 completed) |
+| [6347393](https://pubmed.ncbi.nlm.nih.gov/6347393/) | 1983 | RCT | Cephalalgia | Double-blind crossover comparison of mefenamic acid 500 mg with paracetamol 500 mg in 40 migraine patients |
+| [22529203](https://pubmed.ncbi.nlm.nih.gov/22529203/) | 2012 | Guideline | Neurology | AAN/AHS evidence-based update on NSAIDs and complementary treatments for episodic migraine prevention |
+| [18427072](https://pubmed.ncbi.nlm.nih.gov/18427072/) | 2008 | Review | Neurology | Evidence-based review and meta-analysis of acute and short-term preventive treatment of menstrually related migraine |
 | [20836574](https://pubmed.ncbi.nlm.nih.gov/20836574/) | 2010 | Review | Drugs | Prevention and treatment of menstrual migraine |
-| [29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/) | 2017 | Case series | Medicine | Severe enteropathy with villous atrophy in prolonged mefenamic acid users (safety) |
-| [38812640](https://pubmed.ncbi.nlm.nih.gov/38812640/) | 2024 | Preclinical | Turk J Med Sci | Leaky gut and inflammation in a rat model of medication-overuse headache |
+| [1495823](https://pubmed.ncbi.nlm.nih.gov/1495823/) | 1992 | Review | Pathologie-biologie | Review of controlled NSAID studies in acute and prophylactic migraine treatment, including mefenamic acid |
+| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | Review | Cephalalgia | Analgesics and NSAIDs in acute migraine attacks, usually combined with an antiemetic |
+| [29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/) | 2017 | Case series | Medicine | Severe enteropathy with villous atrophy in prolonged mefenamic acid users (safety signal) |
+| [38812640](https://pubmed.ncbi.nlm.nih.gov/38812640/) | 2024 | Preclinical | Turkish Journal of Medical Sciences | Leaky gut and inflammatory biomarkers in a rat model of medication-overuse headache |
 
 ## Canada Market Information
 
@@ -89,23 +85,23 @@ Currently no related clinical trials registered.
 
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interactions were found in the interaction screen. Examples at moderate level include acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), metformin, chlorpropamide, aprepitant, mesalazine and balsalazide. Minor-level examples include famotidine, ranitidine and cimetidine.
-- **Literature safety signals**: Prolonged use has been linked to enteropathy with villous atrophy, and analgesic use in chronic headache has been associated with chronic renal disease. Overuse of NSAIDs can cause medication-overuse headache.
+- **Drug Interactions**: 100 interactions were found in the interaction database. Those listed here include moderate-level interactions with acetylsalicylic acid, metformin, chlorpropamide, and the corticosteroids hydrocortisone, dexamethasone, betamethasone, budesonide and triamcinolone. Other moderate interactions include aprepitant, mesalazine, balsalazide, and the potassium citrate and bicarbonate salts. Minor interactions include famotidine, ranitidine, cimetidine and dapagliflozin.
+- **Literature-based safety signals**: prolonged use has been linked to enteropathy with villous atrophy, and analgesic overuse has been linked to chronic renal disease and medication-overuse headache in headache patients.
 
-Please refer to the package insert for label warnings and contraindications.
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-No study in the data compiled for this report directly addresses headache disorder as a whole, and no clinical trial is registered. The supporting trials are small, old and focused on migraine, so the evidence level is L5 and the finding is best treated as a research question.
+Small randomized double-blind trials in migraine support efficacy, which gives an evidence level of L2. However, they are old, small and not specific to the broader headache disorder category, and long-term use carries gastrointestinal, renal and medication-overuse risks.
 
 **To proceed, the following is needed:**
-- Trials or analyses that target headache disorder directly, or a narrower predicted indication such as menstrual migraine
-- Current Health Canada package insert warnings and contraindications
-- Mechanism of action data
-- A long-term gastrointestinal, renal and medication-overuse safety plan
+- The Health Canada package insert, to confirm warnings and contraindications
+- Detailed mechanism-of-action data
+- Larger, modern controlled trials in a defined headache population (for example menstrually related migraine)
+- A plan to limit treatment duration and monitor gastrointestinal and renal safety
 
 ## Disclaimer
 

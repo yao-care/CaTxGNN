@@ -3,9 +3,9 @@
   "total_drugs": 932,
   "level_counts": {
     "L1": 19,
-    "L2": 38,
+    "L2": 39,
     "L3": 39,
-    "L4": 68,
+    "L4": 67,
     "L5": 716
   },
   "all_drugs": [
@@ -246,7 +246,7 @@
     {
       "name": "Amiodarone",
       "slug": "amiodarone",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -3216,7 +3216,7 @@
     {
       "name": "Mefenamic Acid",
       "slug": "mefenamic_acid",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 6
     },
     {
