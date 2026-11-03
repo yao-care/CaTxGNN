@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BUTAMBEN"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "acne keloid", "cauda equina syndrome", "hydroa vacciniforme, familial", "diabetic retinopathy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Butamben: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Butamben: Local anesthetic (sodium channel blocker) → Bronchitis (bronchitis)
-{: .text-alpha }
-
-Per the rules, the English name is written once without parentheses because the page language is English.
 
 ## Butamben: Local anesthetic (sodium channel blocker) → Bronchitis
 {: .text-alpha }

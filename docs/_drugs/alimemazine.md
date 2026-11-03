@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Alimemazine"
 predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Alimemazine: predicted new indication IgE responsiveness, atopic (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Alimemazine: H1-receptor antagonist (phenothiazine antihistamine) → IgE responsiveness, atopic (IgE responsiveness, atopic)
-{: .text-alpha }
-
-Per the hard rules, the English name is written once without parentheses if the page language is English. The page language is English, so the title is restated below.
 
 ## Alimemazine: H1-receptor antagonist (phenothiazine antihistamine) → IgE responsiveness, atopic
 {: .text-alpha }

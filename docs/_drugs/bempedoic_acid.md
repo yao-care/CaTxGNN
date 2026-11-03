@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Bempedoic acid"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Bempedoic Acid: predicted new indication hyperthyroidism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **9**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Bempedoic acid: ATP-citrate lyase inhibitor → hyperthyroidism (hyperthyroidism)
-{: .text-alpha }
-
-Note: the page language is English, so per the rules the name is written once, without parentheses.
 
 ## Bempedoic acid: ATP-citrate lyase inhibitor → hyperthyroidism
 {: .text-alpha }

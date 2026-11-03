@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AMCINONIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides", "primary cutaneous B-cell lymphoma", "2-hydroxyethyl methacrylate sensitization"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Amcinonide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **7**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Amcinonide: Topical potent corticosteroid → vulvar inverted follicular keratosis (vulvar inverted follicular keratosis)
-{: .text-alpha }
-
-Since the page language is English, the name should be written once without parentheses. The corrected title is:
 
 ## Amcinonide: Potent topical corticosteroid → vulvar inverted follicular keratosis
 {: .text-alpha }

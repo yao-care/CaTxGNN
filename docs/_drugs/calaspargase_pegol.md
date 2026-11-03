@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Calaspargase pegol"
 predicted_indications: ["insomnia (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Calaspargase Pegol: predicted new indication insomnia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **4**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Calaspargase pegol: PEGylated asparaginase (asparagine-depleting enzyme) → 失眠 (insomnia (disease))
-{: .text-alpha }
-
-Note: the page language is English, so the main prediction name is written once without a second parenthetical.
 
 ## Calaspargase pegol: PEGylated asparaginase (asparagine-depleting enzyme) → insomnia
 {: .text-alpha }

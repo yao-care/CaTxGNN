@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Bevacizumab: predicted new indication epiglottis neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Bevacizumab: anti-VEGF-A monoclonal antibody → epiglottis neoplasm (epiglottis neoplasm)
-{: .text-alpha }
-
-Wait — per the format rule, when the page language is English the name is written once without parentheses.
 
 ## Bevacizumab: anti-VEGF-A monoclonal antibody → epiglottis neoplasm
 {: .text-alpha }
