@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Bacterial pneumonia, streptococcal pneumonia…"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "ERTAPENEM"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+predicted_indications: ["bacterial arthritis"]
+description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,19 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Ertapenem: From Bacterial Pneumonia to Bacterial Arthritis
+## Ertapenem: Bacterial arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ertapenem is a broad-spectrum carbapenem antibiotic, originally used for bacterial pneumonia, streptococcal pneumonia, and *Peptostreptococcus* infections.
 The TxGNN model predicts it may be effective for **bacterial arthritis**, supported by **no registered clinical trials** and **10 publications**, mostly case reports and cohort studies.
-A second prediction, **Staphylococcus aureus infection** (as a combination with cefazolin), has stronger support, with **2 clinical trials** and **20 publications**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial pneumonia, streptococcal pneumonia, *Peptostreptococcus* infection (approved indication text for the Canadian licences is not available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
@@ -62,9 +61,6 @@ These pathogens are commonly involved in septic arthritis and bone and joint inf
 
 The evidence is indirect, however. It consists of case reports and uncontrolled series, such as septic arthritis treated successfully with ertapenem, and a retrospective cohort of 306 outpatients on long-term ertapenem in which bone and joint infections were among the indications.
 
-### Second Prediction: *Staphylococcus aureus* Infection (Score 0.9928)
-
-This prediction rests on the combination of ertapenem with cefazolin for methicillin-susceptible *S. aureus* (MSSA) bacteremia. Cefazolin binds PBP1, while ertapenem preferentially binds PBP2 and PBP3, which is the proposed basis for the synergy. Preclinical models and clinical series report rapid clearance of persistent MSSA bacteremia. Ertapenem alone is not a first-line anti-staphylococcal agent, so its value lies in salvage or early dual therapy. This indication has the evidence level L2 in the compiled data.
 
 ## Clinical Trial Evidence
 
@@ -92,16 +88,6 @@ For the second prediction, *Staphylococcus aureus* infection:
 | [37578166](https://pubmed.ncbi.nlm.nih.gov/37578166/) | 2023 | Case report with review | J Investig Med High Impact Case Rep | *Prevotella bivia* septic arthritis in an immunocompetent adult |
 | [38924836](https://pubmed.ncbi.nlm.nih.gov/38924836/) | 2024 | In vitro study | Diagn Microbiol Infect Dis | Auranofin restores ertapenem susceptibility in carbapenem-resistant *E. coli* |
 
-**Staphylococcus aureus infection (second prediction)**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31773134](https://pubmed.ncbi.nlm.nih.gov/31773134/) | 2020 | Cohort | Clin Infect Dis | Cefazolin plus ertapenem salvage cleared persistent MSSA bacteremia in 11 cases, 8 within 24 hours |
-| [38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/) | 2024 | Cohort | J Antimicrob Chemother | Carbapenem combination versus standard of care for persistent MSSA bacteremia |
-| [40448546](https://pubmed.ncbi.nlm.nih.gov/40448546/) | 2025 | Cohort | J Antimicrob Chemother | Impact of hypoalbuminemia in patients on ertapenem combination therapy for MSSA bacteremia |
-| [41759962](https://pubmed.ncbi.nlm.nih.gov/41759962/) | 2026 | Cohort | Infect Dis Now | Multicenter case series of ertapenem plus penicillin M or cefazolin for MSSA bacteremia |
-| [27572414](https://pubmed.ncbi.nlm.nih.gov/27572414/) | 2016 | Case series with in vitro data | Antimicrob Agents Chemother | Cefazolin plus ertapenem synergy in vitro and in a murine model; cleared persistent bacteremia |
-| [39230345](https://pubmed.ncbi.nlm.nih.gov/39230345/) | 2025 | Review | Am J Health Syst Pharm | Review of combination options for persistent MSSA bacteremia |
 
 ## Canada Market Information
 

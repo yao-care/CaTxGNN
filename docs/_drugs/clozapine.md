@@ -4,17 +4,17 @@ title: Clozapine
 parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "CLOZAPINE"
-predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
+description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Clozapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Clozapine: From an Unspecified Original Indication to Manic Bipolar Affective Disorder
+## Clozapine: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ The related **bipolar disorder** prediction has additional support: a completed 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report (no approved indication text was recorded for any Canadian licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 (one completed Phase 2 RCT; a systematic review and meta-analysis also exist) |

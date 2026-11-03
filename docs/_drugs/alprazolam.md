@@ -4,17 +4,17 @@ title: Alprazolam
 parent: Moderate Evidence (L3-L4)
 nav_order: 40
 evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Alprazolam: predicted new indication Insomnia (evidence level L4). Approved use: Anxiety disorder (anxiety, mixed anxiety and depressive disorder)"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "ALPRAZOLAM"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
+description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Alprazolam: From Anxiety Disorder to Insomnia
+## Alprazolam: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Alprazolam is a benzodiazepine originally used to treat anxiety disorders, including mixed anxiety and depressive disorder.
 The TxGNN model predicts it may be effective for **insomnia** (top-ranked prediction), but the data compiled for this report show **no registered clinical trials** and **18 publications**, mostly general or observational, supporting this direction.
-The strongest evidence in the data is for a different prediction, **agoraphobia** (with panic disorder), which is discussed in the conclusion.
 
 ---
 
@@ -48,8 +47,8 @@ The strongest evidence in the data is for a different prediction, **agoraphobia*
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder (anxiety, mixed anxiety and depressive disorder) |
-| Predicted New Indication | Insomnia |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L4 |
 | Canada Market Status | Marketed (valid licenses: 13 of 13) |
@@ -130,7 +129,7 @@ Please also refer to the package insert for label warnings and contraindications
 The TxGNN score for insomnia is very high, but the evidence is model prediction plus indirect literature, with no registered trials and no controlled study of alprazolam for insomnia. Dependence, tolerance, cognitive and fall risks weigh against repurposing for this use.
 
 Two other predictions:
-- **Agoraphobia** (score 0.9956, evidence level L2) has the strongest support. The data include several placebo-controlled studies of alprazolam in panic disorder with agoraphobia and a 2023 Cochrane network meta-analysis. This is better framed as a research question than a repurposing candidate: the controlled studies are older, discontinuation difficulties and dependence risk limit the benefit-risk balance, SSRIs/SNRIs and CBT are generally preferred first, and the indication overlaps with the existing anxiety label.
+- The data include several placebo-controlled studies of alprazolam in panic disorder with agoraphobia and a 2023 Cochrane network meta-analysis. This is better framed as a research question than a repurposing candidate: the controlled studies are older, discontinuation difficulties and dependence risk limit the benefit-risk balance, SSRIs/SNRIs and CBT are generally preferred first, and the indication overlaps with the existing anxiety label.
 - **Benign paroxysmal torticollis of infancy** (score 0.9961, evidence level L5) has no trials or literature and no plausible mechanistic rationale. Benzodiazepine use in infants raises serious safety concerns, so no further action is recommended.
 
 **To proceed, the following is needed:**

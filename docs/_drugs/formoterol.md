@@ -4,17 +4,17 @@ title: Formoterol
 parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -57,7 +57,6 @@ Other predictions, for comparison:
 
 | Predicted Indication | Score | Evidence Level | Decision |
 |------|------|------|------|
-| Bronchitis | 0.9992 | L5 | Research question (largely overlaps COPD use) |
 | Rienhoff syndrome | 0.9990 | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +72,6 @@ Detailed mechanism-of-action data is not available in the data compiled for this
 
 Respiratory malformation (the top-ranked prediction): currently no related clinical trials registered.
 
-The strongest trials come from the obstructive lung disease prediction (bronchitis and asthma overlap with these):
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -131,7 +129,7 @@ For full warnings and contraindications, please refer to the package insert.
 
 **Rationale:**
 - Respiratory malformation has no plausible mechanism, no trials and no relevant literature. Its high score looks like a model artifact.
-- The well-supported predictions (obstructive lung disease, bronchitis, asthma) are existing COPD and asthma uses, not novel repurposing. They can **Proceed with Guardrails** if the aim is to confirm or extend labelled use.
+- They can **Proceed with Guardrails** if the aim is to confirm or extend labelled use.
 
 **To proceed, the following is needed:**
 - Mechanism of action data

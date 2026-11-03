@@ -4,17 +4,17 @@ title: Progesterone
 parent: High Evidence (L1-L2)
 nav_order: 775
 evidence_level: L2
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-11-03
-description: "Progesterone: predicted new indication Amenorrhea (evidence level L2). Approved use: Endometriosis"
 monitor_inn: "PROGESTERONE"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 </div>
 
-## Progesterone: From Endometriosis to Amenorrhea
+## Progesterone: Breast fibrocystic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,9 +48,9 @@ Most of this evidence is indirect: the trials mainly test estrogen or combined h
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (the licence records compiled for this report contain no indication text) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 1.0000 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Breast fibrocystic disease |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 |
 | Canada Market Status | Marketed (valid licenses: 12 of 12) |
 | Number of DINs | 12 (valid: 12) |

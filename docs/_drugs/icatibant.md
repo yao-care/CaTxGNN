@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 465
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Icatibant: predicted new indication C1 inhibitor deficiency (evidence level L1). Approved use: Hereditary angioedema"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "ICATIBANT"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+description: "Icatibant: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-## Icatibant: From Hereditary Angioedema to C1 Inhibitor Deficiency
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Icatibant is a bradykinin B2 receptor antagonist originally used to treat hereditary angioedema (HAE), including HAE with C1 inhibitor deficiency.
-The TxGNN model predicts it may be effective for **C1 inhibitor deficiency**, but this is essentially an on-label confirmation rather than true repurposing.
 The prediction is supported by **11 clinical trials** and **20 publications**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hereditary angioedema; hereditary angioedema with C1 inhibitor deficiency |
-| Predicted New Indication | C1 inhibitor deficiency |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Serpinopathy with toxic serpin polymerization |
 | TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L1 |
+| Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 2 of 2) |
 | Number of DINs | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
@@ -58,7 +57,7 @@ The prediction is supported by **11 clinical trials** and **20 publications**.
 
 Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data nonetheless identify icatibant as a peptide antagonist acting on bradykinin receptors (B2 receptor, and also listed against the B1 receptor).
 
-C1 inhibitor deficiency leads to unregulated kallikrein-kinin activity and excess bradykinin, which drives angioedema attacks. By blocking the B2 receptor, icatibant directly targets this mediator. The predicted indication therefore matches the drug's existing use in hereditary angioedema with C1 inhibitor deficiency.
+C1 inhibitor deficiency leads to unregulated kallikrein-kinin activity and excess bradykinin, which drives angioedema attacks. By blocking the B2 receptor, icatibant directly targets this mediator.
 
 Literature also supports use in the acquired form of C1 inhibitor deficiency, which shares the bradykinin-mediated mechanism. However, the acquired-disease evidence consists mostly of reviews and small observational data (for example, an 8-patient real-world series).
 
@@ -110,7 +109,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several completed Phase 3 trials, including three randomized controlled studies, support icatibant in HAE with C1 inhibitor deficiency, and the drug is already marketed in Canada. The predicted indication largely overlaps with the approved one, so the main uncertainty lies in the acquired form of C1 inhibitor deficiency, where evidence is limited to reviews and small observational data.
+Several completed Phase 3 trials, including three randomized controlled studies, support icatibant in HAE with C1 inhibitor deficiency, and the drug is already marketed in Canada.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications, and the approved indication text for each DIN

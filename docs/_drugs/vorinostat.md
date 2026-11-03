@@ -4,17 +4,17 @@ title: Vorinostat
 parent: Model Prediction Only (L5)
 nav_order: 982
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
-description: "Vorinostat: predicted new indication Primary cutaneous B-cell lymphoma (evidence level L5). Approved use: Primary cutaneous T-cell lymphoma"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "VORINOSTAT"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome"]
+predicted_indications: ["primary cutaneous B-cell lymphoma"]
+description: "Vorinostat: predicted new indication Primary cutaneous B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vorinostat
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Vorinostat: From Primary Cutaneous T-Cell Lymphoma to Primary Cutaneous B-Cell Lymphoma
+## Vorinostat: Primary cutaneous B-cell lymphoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Vorinostat is an HDAC inhibitor originally used to treat primary cutaneous T-cell lymphoma.
 The TxGNN model predicts it may be effective for **primary cutaneous B-cell lymphoma**,
-but evidence for this specific indication is limited: **4 early-phase clinical trials** with indirect relevance and **1 preclinical publication** (in mantle cell lymphoma). A second prediction, Sezary syndrome, is closely related to the original indication and is covered at the end of this report.
+but evidence for this specific indication is limited: **4 early-phase clinical trials** with indirect relevance and **1 preclinical publication** (in mantle cell lymphoma).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary cutaneous T-cell lymphoma (the Canadian licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Primary cutaneous B-cell lymphoma |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 (supportive evidence is indirect; no completed Phase 2/3 trial in this indication) |
@@ -117,7 +117,7 @@ The only support for primary cutaneous B-cell lymphoma is a high computational s
 
 ## Additional Note: Second Predicted Indication, Sezary Syndrome
 
-The second prediction, **Sezary syndrome** (score 0.9907), is a leukaemic variant of cutaneous T-cell lymphoma, vorinostat's original indication. It is therefore essentially an on-label or closely related use rather than true repurposing.
+It is therefore essentially an on-label or closely related use rather than true repurposing.
 
 - **Evidence level:** L1, with a recommendation of **Proceed with Guardrails**.
 - **Key trials:**

@@ -4,17 +4,17 @@ title: Omalizumab
 parent: High Evidence (L1-L2)
 nav_order: 685
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L2). Approved use: Asthma (including allergic and intrinsic asthma) and idiopathic urtic…"
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -127,7 +127,6 @@ No trial tests omalizumab in bronchitis as the primary condition. The only relat
 
 **Other predictions in the data (for context):**
 - **Atopic eczema and dermatitis** (L2): Several small omalizumab trials exist, including a completed Phase 4 study in children, but results are mixed and guidelines favour IL-4/IL-13 blockers.
-- **Obstructive lung disease** (L1): This is largely an on-label overlap with allergic asthma. The genuinely new question is COPD with allergen sensitization, which a Phase 2 trial (NCT07059091) is testing and is still recruiting.
 - **Bronchial neoplasm and six other predictions** (acne keloid, acrodermatitis chronica atrophicans, familial hydroa vacciniforme, neonatal dermatomyositis, childhood connective-tissue-disease interstitial lung disease): These are model predictions only (L5), with no mechanistic or clinical support, so Hold.
 ## Disclaimer
 

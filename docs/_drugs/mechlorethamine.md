@@ -4,17 +4,17 @@ title: Mechlorethamine
 parent: Model Prediction Only (L5)
 nav_order: 576
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-28
-description: "Mechlorethamine: predicted new indication Lymph node cancer (evidence level L3). Approved use: Mycosis fungoides and variants, primary cutaneous T-cell lymphoma…"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Mechlorethamine"
-predicted_indications: ["lymph node cancer", "relapsing-remitting multiple sclerosis", "follicular lymphoma"]
+predicted_indications: ["relapsing-remitting multiple sclerosis", "follicular lymphoma"]
+description: "Mechlorethamine: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mechlorethamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Mechlorethamine: From Mycosis Fungoides and Lymphoma to Lymph Node Cancer
+## Mechlorethamine: Relapsing-remitting multiple sclerosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mechlorethamine is a nitrogen mustard alkylating agent, originally used for cutaneous T-cell lymphoma (mycosis fungoides), Hodgkin lymphoma, and non-Hodgkin lymphoma.
-The TxGNN model predicts it may be effective for **lymph node cancer**, but this largely restates its existing lymphoma uses rather than a true new indication.
 Support comes from **0 registered clinical trials** and **20 publications**, mostly older cohort studies, comparative studies, and reviews.
 
 ---
@@ -48,9 +47,9 @@ Support comes from **0 registered clinical trials** and **20 publications**, mos
 
 | Item | Content |
 |------|------|
-| Original Indication | Mycosis fungoides and variants, primary cutaneous T-cell lymphoma, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis |
-| Predicted New Indication | Lymph node cancer |
-| TxGNN Prediction Score | 0.9943 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Relapsing-remitting multiple sclerosis |
+| TxGNN Prediction Score | 0.9913 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |

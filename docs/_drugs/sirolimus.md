@@ -4,17 +4,17 @@ title: Sirolimus
 parent: High Evidence (L1-L2)
 nav_order: 853
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma (nonpapillary…"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "SIROLIMUS"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
+description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 </div>
 
-## Sirolimus: From Renal Cell Carcinoma and Lymphangioleiomyomatosis to Liposarcoma
+## Sirolimus: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Sirolimus is an mTOR inhibitor whose recorded original uses are renal cell carcinoma and lymphangioleiomyomatosis (LAM).
 The TxGNN model predicts it may be effective for **liposarcoma** (the top-ranked prediction), with **1 clinical trial** (a completed single-arm Phase 2) and **7 publications** compiled for this indication.
-Among the other predicted indications, the strongest support is for **lymphangiomyoma/LAM**, with **9 clinical trials** including two Phase 3 trials, and 20 publications. Because LAM is already one of the drug's original indications, that entry supports the drug's known use rather than a truly new one.
+Because LAM is already one of the drug's original indications, that entry supports the drug's known use rather than a truly new one.
 
 ---
 
@@ -48,7 +48,7 @@ Among the other predicted indications, the strongest support is for **lymphangio
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma (nonpapillary, clear cell) and lymphangioleiomyomatosis (the Canadian licence records contain no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 (one completed Phase 2 single-arm trial; no randomized control) |

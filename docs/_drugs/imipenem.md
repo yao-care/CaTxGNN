@@ -4,17 +4,17 @@ title: Imipenem
 parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Bacterial pneumonia, peritonitis, endocarditis, bacterial arthritis…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "IMIPENEM"
-predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
+description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imipenem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Imipenem: From Bacterial Pneumonia to Diffuse Scleroderma
+## Imipenem: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,9 +47,9 @@ The TxGNN model's top-ranked prediction is **diffuse scleroderma**, but this has
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial pneumonia, peritonitis, endocarditis, bacterial arthritis, endometritis (the Canadian licence records contain no indication text) |
-| Predicted New Indication | Diffuse scleroderma (rank 1); Staphylococcus aureus infection is the best-supported candidate (rank 9) |
-| TxGNN Prediction Score | 0.9999 (diffuse scleroderma) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Diffuse scleroderma |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 for diffuse scleroderma (model prediction only); L2 for Staphylococcus aureus infection |
 | Canada Market Status | Marketed (valid licenses: 2 of 2) |
 | Number of DINs | 2 (valid: 2) |
@@ -84,7 +84,6 @@ Only Staphylococcus aureus infection has registered trials. The other nine predi
 
 ## Literature Evidence
 
-Evidence for Staphylococcus aureus infection (the best-supported candidate):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -132,7 +131,6 @@ Please refer to the package insert for warnings and contraindications from the a
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for all predictions except Staphylococcus aureus infection, which is flagged as a research question)
 
 **Rationale:**
 - The top-ranked prediction, diffuse scleroderma, has no trials, no literature and no plausible mechanism, so the high score alone does not justify progression.

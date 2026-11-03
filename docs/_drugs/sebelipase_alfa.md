@@ -4,17 +4,17 @@ title: Sebelipase Alfa
 parent: Model Prediction Only (L5)
 nav_order: 837
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Sebelipase Alfa: predicted new indication Cholesteryl ester storage disease (evidence level L5). Approved use: Wolman disease"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Sebelipase alfa"
-predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "cholesteryl ester storage disease", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "Gaucher disease", "lysosomal storage disease with skeletal involvement", "autosomal ichthyosis syndrome with fatal disease course", "Tay-Sachs disease", "benign neoplasm of adrenal gland"]
+description: "Sebelipase Alfa: predicted new indication Scheie syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sebelipase Alfa
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Sebelipase alfa: From Lysosomal Acid Lipase Deficiency to Cholesteryl Ester Storage Disease
+## Sebelipase Alfa: Scheie syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,9 +47,9 @@ The TxGNN model's top-scoring prediction is Scheie syndrome, but it has no suppo
 
 | Item | Content |
 |------|------|
-| Original Indication | Wolman disease; lysosomal acid lipase deficiency; lysosomal lipid storage disorder |
-| Predicted New Indication | Cholesteryl ester storage disease (best-supported of the top 10 predictions; the top-ranked prediction, Scheie syndrome, has no evidence) |
-| TxGNN Prediction Score | 0.9972 (CESD); 0.9980 (Scheie syndrome, rank 1) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Scheie syndrome |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 (CESD) |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |

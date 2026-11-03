@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 232
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-11-03
-description: "Cyclophosphamide: predicted new indication Myeloid leukemia (evidence level L5). Approved use: Mycosis fungoides and other cutaneous T-cell lymphomas…"
 monitor_inn: "CYCLOPHOSPHAMIDE"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **4**
 
 </div>
 
-## Cyclophosphamide: From Lymphoma and Other Cancers to Myeloid Leukemia
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Cyclophosphamide is an alkylating chemotherapy drug originally used for lymphomas (including cutaneous T-cell lymphoma), plasma cell myeloma, neuroblastoma, breast cancer and retinoblastoma.
-The TxGNN model predicts it may be effective for **myeloid leukemia**, with **33 clinical trials** and **20 publications** currently supporting this direction. Most of this evidence comes from transplant conditioning and combination regimens, not from cyclophosphamide used alone.
+Most of this evidence comes from transplant conditioning and combination regimens, not from cyclophosphamide used alone.
 
 ---
 
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **myeloid leukemia**, with **33
 
 | Item | Content |
 |------|------|
-| Original Indication | Mycosis fungoides and other cutaneous T-cell lymphomas, plasma cell myeloma, neuroblastoma, lymphoma, breast carcinoma, retinoblastoma (the Canadian label text was not available in the data compiled for this report) |
-| Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 0.9947 |
-| Evidence Level | L1 (the prediction-level rating assigned in the data compiled for this report; see the note under Clinical Trial Evidence) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN Prediction Score | 0.9938 |
+| Evidence Level | L5 (the prediction-level rating assigned in the data compiled for this report; see the note under Clinical Trial Evidence) |
 | Canada Market Status | Marketed (valid licenses: 10 of 10) |
 | Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Proceed with Guardrails |
@@ -168,7 +168,6 @@ Cyclophosphamide is already marketed in Canada and is a long-standing backbone o
 |---|---|---|---|---|
 | 3 | Vertebral anomalies and variable endocrine and T-cell dysfunction | 0.9938 | L5 | Hold. No mechanistic rationale; immunosuppression could be harmful in a T-cell dysfunction syndrome. |
 | 4 | Retroperitoneal neoplasm | 0.9937 | L4 | Research Question. Indirect, histology-dependent link; case reports only. |
-| 5 | Lymph node cancer | 0.9931 | L1 | Proceed with Guardrails. Supported by large Phase 3 adjuvant breast cancer trials and the approved lymphoma indication; the category mixes lymphoma and node-positive breast cancer, so read the evidence by sub-disease. |
 
 ## Disclaimer
 

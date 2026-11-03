@@ -4,17 +4,17 @@ title: Triptorelin
 parent: High Evidence (L1-L2)
 nav_order: 951
 evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "TRIPTORELIN"
-predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Triptorelin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist marketed in Canada under the brand names Trelstar and Decapeptyl. The TxGNN model predicts it may be effective for **precocious puberty**, supported by **8 clinical trials** and **20 publications** in the data compiled for this report. Note that central precocious puberty is already an established use of triptorelin, so this result mostly confirms known use rather than revealing a truly new one.
+Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist marketed in Canada under the brand names Trelstar and Decapeptyl. Note that central precocious puberty is already an established use of triptorelin, so this result mostly confirms known use rather than revealing a truly new one.
 
 ---
 
@@ -54,7 +54,7 @@ Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist marketed in Canad
 | Number of DINs | 4 (valid: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
-Note: The top-ranked prediction by TxGNN score is hypertrichosis (1.0000). It is not recommended for follow-up, because its only supporting paper describes hypertrichosis as an adverse effect of a different drug (ciclosporin). This report focuses on precocious puberty, the prediction with the strongest evidence.
+Note: The top-ranked prediction by TxGNN score is hypertrichosis (1.0000). It is not recommended for follow-up, because its only supporting paper describes hypertrichosis as an adverse effect of a different drug (ciclosporin).
 
 ---
 

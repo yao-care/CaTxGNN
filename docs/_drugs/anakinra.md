@@ -4,17 +4,17 @@ title: Anakinra
 parent: Model Prediction Only (L5)
 nav_order: 59
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Anakinra: predicted new indication Extracutaneous mastocytoma . Best-supported candidate: autosomal rece… (evidence level L5). Approved use: Rheumatoid arthritis, cryopyrin-associated periodic syndro…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Anakinra"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
+description: "Anakinra: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Anakinra
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Anakinra: Extracutaneous Mastocytoma
+## Anakinra: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,9 +47,9 @@ The TxGNN model's top-ranked prediction is **extracutaneous mastocytoma**, but i
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, cryopyrin-associated periodic syndrome, CINCA syndrome (the Health Canada licence record has no indication text) |
-| Predicted New Indication | Extracutaneous mastocytoma (rank 1, no evidence). Best-supported candidate: autosomal recessive familial Mediterranean fever (rank 3) |
-| TxGNN Prediction Score | 0.9993 (extracutaneous mastocytoma); 0.9989 (FMF) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Extracutaneous mastocytoma |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (extracutaneous mastocytoma); L3 (FMF) |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |

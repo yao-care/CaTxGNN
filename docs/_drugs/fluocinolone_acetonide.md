@@ -4,17 +4,17 @@ title: Fluocinolone Acetonide
 parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-28
-description: "Fluocinolone Acetonide: predicted new indication Hypertrophic lichen planus (evidence level L5). Approved use: Inflammatory and itchy skin conditions (e.g., atopic eczema…"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "FLUOCINOLONE ACETONIDE"
-predicted_indications: ["hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides"]
+predicted_indications: ["lichen planus pemphigoides"]
+description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluocinolone Acetonide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Fluocinolone Acetonide: From Inflammatory Skin Diseases to Hypertrophic Lichen Planus
+## Fluocinolone Acetonide: Lichen planus pemphigoides
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Fluocinolone acetonide is a potent topical corticosteroid, originally used for inflammatory and itchy skin conditions such as eczema, dermatitis and discoid lupus erythematosus.
-The TxGNN model predicts it may be effective for **hypertrophic lichen planus** (score 0.9942),
-but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Inflammatory and itchy skin conditions (e.g., atopic eczema, contact dermatitis, seborrheic dermatitis, neurodermatitis, lichen disease, discoid lupus erythematosus) |
-| Predicted New Indication | Hypertrophic lichen planus |
-| TxGNN Prediction Score | 0.9942 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Lichen planus pemphigoides |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 3 of 3) |
 | Number of DINs | 3 (valid: 3) |
@@ -60,7 +58,7 @@ Currently, detailed mechanism of action data for this drug is not available in t
 
 Hypertrophic lichen planus is a T-cell-mediated inflammatory skin disease, and the drug's original indications already include "lichen disease". Glucocorticoid-driven suppression of inflammatory cytokines and T-cell activity is therefore a plausible mechanism. This link rests on general corticosteroid class pharmacology, not on drug-specific data.
 
-The model also gave similar scores (0.9934–0.9942) to three related lichen planus variants: lichen planus pigmentosus (0.9942), annular atrophic lichen planus (0.9942) and lichen planus pemphigoides (0.9934). These are reasonable from an anti-inflammatory standpoint, but each carries extra uncertainty. Pigmentary disease may respond less to a corticosteroid. In the atrophic variant, skin thinning from corticosteroids is a concern. Lichen planus pemphigoides is often managed with systemic therapy.
+These are reasonable from an anti-inflammatory standpoint, but each carries extra uncertainty. Pigmentary disease may respond less to a corticosteroid. In the atrophic variant, skin thinning from corticosteroids is a concern. Lichen planus pemphigoides is often managed with systemic therapy.
 
 ## Clinical Trial Evidence
 
@@ -89,7 +87,7 @@ Currently no related literature available.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (0.9942), and the mechanism is plausible given the drug's corticosteroid class and existing "lichen disease" indication. However, there are no clinical trials or publications, so the evidence level is L5 (model prediction only). Hypertrophic lichen planus is also a topical-use target in a setting where skin atrophy is a known risk.
+However, there are no clinical trials or publications, so the evidence level is L5 (model prediction only). Hypertrophic lichen planus is also a topical-use target in a setting where skin atrophy is a known risk.
 
 **To proceed, the following is needed:**
 - Literature and trial search on topical corticosteroids (including fluocinolone acetonide) in hypertrophic lichen planus

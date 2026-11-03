@@ -4,17 +4,17 @@ title: Magnesium Sulfate
 parent: Model Prediction Only (L5)
 nav_order: 571
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
-predicted_indications: ["toxemia of pregnancy", "thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-10-28
-description: "Magnesium Sulfate: predicted new indication Toxemia of pregnancy (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
+last_modified_at: 2026-11-03
+description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Magnesium Sulfate: Toxemia of pregnancy
+## Magnesium Sulfate: Thrombotic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Magnesium sulfate is a widely used injectable drug. The TxGNN model (deep learning) predicts toxemia of pregnancy as a possible new indication.
-The model predicts it may be effective for **toxemia of pregnancy**, which is essentially the same condition as pre-eclampsia. This is therefore closer to confirmation of a known use than to true repurposing.
+Magnesium sulfate is a widely used injectable drug.
+This is therefore closer to confirmation of a known use than to true repurposing.
 Roughly **30 clinical trials** and **20 publications** were compiled, including 2 completed Phase 2/3 randomized trials. These trials mainly address dosing and duration rather than whether the drug works.
 
 ---
@@ -49,8 +49,8 @@ Roughly **30 clinical trials** and **20 publications** were compiled, including 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Toxemia of pregnancy |
-| TxGNN Prediction Score | 1.0000 |
+| Predicted New Indication | Thrombotic disease |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 8 of 8) |
 | Number of DINs | 8 (valid: 8) |

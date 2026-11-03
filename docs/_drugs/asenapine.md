@@ -4,17 +4,17 @@ title: Asenapine
 parent: Model Prediction Only (L5)
 nav_order: 74
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Asenapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "ASENAPINE"
-predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "major affective disorder"]
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Asenapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Asenapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Asenapine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies (Top TxGNN Prediction)
+## Asenapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Asenapine is an atypical antipsychotic originally used for manic bipolar disorder and schizophrenia.
 The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but there are **no clinical trials and no publications** supporting it, so it is a computational prediction only.
-The only prediction with literature support is **major affective disorder** (rank 10), which largely overlaps with asenapine's existing approved use and is not a true repurposing finding (**20 publications**, no registered clinical trials).
 
 ---
 
@@ -48,8 +47,8 @@ The only prediction with literature support is **major affective disorder** (ran
 
 | Item | Content |
 |------|------|
-| Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (for the top prediction) |
 | Canada Market Status | Marketed (valid licenses: 2 of 2) |
@@ -58,7 +57,7 @@ The only prediction with literature support is **major affective disorder** (ran
 
 Note: The Canadian licence data compiled for this report contain no approved-indication text, so the original indication comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Among the other predictions, only **major affective disorder** (rank 10, score 0.9957) has literature support (evidence level L1, **Proceed with Guardrails**). It is an established use rather than a new one.
+It is an established use rather than a new one.
 
 ---
 
@@ -72,7 +71,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 - Congenital disorder of glycosylation, hydranencephaly, polymicrogyria, Charcot-Marie-Tooth type 1G and atypical glycine encephalopathy are structural, metabolic or inherited conditions that receptor antagonism is not expected to modify.
 - The myopia entries (syndromic myopia, X-linked myopia, myopia 26) are only loosely connected through dopamine signalling in eye growth. Asenapine is a dopamine antagonist, and no evidence supports this use.
 
-**Major affective disorder (rank 10):** This is the one prediction with a clear rationale. It includes bipolar disorder and mania, which are asenapine's approved uses. Blockade of dopamine D2 and serotonin 5-HT2A receptors, together with effects on other monoaminergic receptors, is the accepted basis for its antimanic effect. It is a confirmation of an existing indication, not a new discovery.
+It includes bipolar disorder and mania, which are asenapine's approved uses. Blockade of dopamine D2 and serotonin 5-HT2A receptors, together with effects on other monoaminergic receptors, is the accepted basis for its antimanic effect. It is a confirmation of an existing indication, not a new discovery.
 
 ---
 
@@ -84,7 +83,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The following publications relate to rank 10 (major affective disorder). No literature is available for the other nine predictions.
+No literature is available for the other nine predictions.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -146,7 +145,6 @@ Please refer to the package insert for the official warnings and contraindicatio
 
 **Rationale:**
 - The top predictions have only a computational score, with no mechanistic link, clinical trials or publications.
-- Major affective disorder (rank 10) is supported at L1/S3 (**Proceed with Guardrails**), but it is an existing labeled use rather than a repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Mechanism of action data

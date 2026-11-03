@@ -4,17 +4,17 @@ title: Haloperidol
 parent: Model Prediction Only (L5)
 nav_order: 447
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorders…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "HALOPERIDOL"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
+description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Haloperidol: From Psychotic Disorders to Congenital Disorder of Glycosylation with Defective Fucosylation
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,7 +48,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychotic disorders, schizophrenia and related conditions (schizophreniform and schizoaffective disorder), Tourette syndrome |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
@@ -115,7 +115,7 @@ Label-based warnings and contraindications were not available in the data compil
 The prediction has a very high model score but no trials, no literature and no plausible mechanistic link between D2 antagonism and fucosylation defects. Haloperidol also carries significant safety considerations, including QT prolongation and neurological and haematological risks. These are hard to justify without any supporting evidence in a rare metabolic disease.
 
 **Other predictions for this drug:**
-Of the ten predictions compiled, the strongest evidence is for **manic bipolar affective disorder** (Level L1, recommendation: Proceed with Guardrails). It is supported by a completed Phase 3 haloperidol- and placebo-controlled olanzapine trial ([NCT00129220](https://clinicaltrials.gov/study/NCT00129220), n=224) and by network meta-analyses. Mania is already close to established clinical practice, so this is more of a guideline-supported use than a novel repurposing. Haloperidol's effects on retinal ganglion cells in a retinitis pigmentosa rat model (L4, preclinical only) are the only other signal of note.
+It is supported by a completed Phase 3 haloperidol- and placebo-controlled olanzapine trial ([NCT00129220](https://clinicaltrials.gov/study/NCT00129220), n=224) and by network meta-analyses. Mania is already close to established clinical practice, so this is more of a guideline-supported use than a novel repurposing. Haloperidol's effects on retinal ganglion cells in a retinitis pigmentosa rat model (L4, preclinical only) are the only other signal of note.
 
 **To proceed with the glycosylation indication, the following is needed:**
 - Any mechanistic or preclinical evidence linking dopamine signalling to fucosylation pathways

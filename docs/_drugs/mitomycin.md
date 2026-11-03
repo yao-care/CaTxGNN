@@ -4,17 +4,17 @@ title: Mitomycin
 parent: Model Prediction Only (L5)
 nav_order: 624
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "MITOMYCIN"
-predicted_indications: ["osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "pancreatic carcinoma with mixed differentiation", "pancreatic intraductal papillary-mucinous carcinoma", "mixed ductal-endocrine carcinoma of pancreas", "pancreatic signet ring cell adenocarcinoma", "undifferentiated pancreatic carcinoma", "malignant exocrine pancreas neoplasm", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
+predicted_indications: ["osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 description: "Mitomycin: predicted new indication Osteoclastic giant cell tumor of pancreas (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mitomycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---

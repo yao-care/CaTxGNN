@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tiotropium
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 915
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Bronchitis, asthma, pulmonary emphysema"
+evidence_level: L5
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "TIOTROPIUM"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **5**
 
 </div>
 
-## Tiotropium: From Bronchitis and Asthma to Obstructive Lung Disease
+## Tiotropium: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tiotropium is an inhaled long-acting muscarinic antagonist originally used for airway diseases such as bronchitis, asthma and pulmonary emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **39 clinical trials** and **19 publications** compiled for this prediction.
 This prediction largely overlaps with tiotropium's existing approved uses (mainly COPD), so it mostly confirms the current label and is not a true new repurposing opportunity.
 
 ---
@@ -48,10 +47,10 @@ This prediction largely overlaps with tiotropium's existing approved uses (mainl
 
 | Item | Content |
 |------|------|
-| Original Indication | Bronchitis, asthma, pulmonary emphysema (the Canadian licence records contain no approved indication text) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 5 of 5) |
 | Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Proceed with Guardrails |

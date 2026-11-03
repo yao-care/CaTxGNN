@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Model Prediction Only (L5)
 nav_order: 70
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-10-28
-description: "Aripiprazole: predicted new indication major affective disorder (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+last_modified_at: 2026-11-03
+description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,20 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Aripiprazole: Dopamine D2/D3 and serotonin 5-HT1A partial agonist → major affective disorder
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Aripiprazole is an atypical antipsychotic that acts as a dopamine D2/D3 and serotonin 5-HT1A partial agonist.
-The TxGNN model predicts it may be effective for **major affective disorder**, and the data compiled for this report include **36 clinical trials** and **20 publications** on this direction, including several completed Phase 3 placebo-controlled trials of aripiprazole added to antidepressants in major depressive disorder.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | major affective disorder |
-| TxGNN Prediction Score | 0.9962 |
+| Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | at least 20 |

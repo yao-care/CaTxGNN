@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Model Prediction Only (L5)
 nav_order: 403
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "FLURBIPROFEN"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,6 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID) originally used for rheumatoid arthritis, osteoarthritis and other joint disorders.
 The TxGNN model ranks **acromesomelic dysplasia, Hunter-Thompson type** as its top predicted new indication, but **no clinical trials and no publications** support this prediction.
-Of the ten predictions reviewed, only ankylosing spondylitis (rank 8) has meaningful supporting literature, and that use is close to the drug's existing indications.
 
 ---
 
@@ -67,7 +66,7 @@ For the top prediction, **no plausible mechanism has been identified**. Acromeso
 The other predictions follow the same pattern:
 
 - **Weak or no mechanistic link:** Brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachyolmia-amelogenesis imperfecta syndrome, brachyolmia and pseudoachondroplasia are developmental genetic disorders that COX inhibition would not correct. Myosclerosis and hypermobility of the coccyx have only speculative symptomatic links.
-- **Plausible, but already near-label:** Ankylosing spondylitis is the one biologically sensible prediction, because NSAIDs are first-line symptomatic therapy for it. It sits close to flurbiprofen's existing arthropathy indications, so it is not a novel repurposing finding. Spondyloarthropathy susceptibility (rank 7) is a susceptibility phenotype rather than a treatable condition, and its link is indirect through ankylosing spondylitis.
+- It sits close to flurbiprofen's existing arthropathy indications, so it is not a novel repurposing finding.
 
 ---
 
@@ -81,7 +80,7 @@ Currently no related clinical trials registered for the top predicted indication
 
 Currently no related literature available for acromesomelic dysplasia, Hunter-Thompson type.
 
-For reference, the following is the strongest literature found for the best-supported alternative prediction, **ankylosing spondylitis**. These are older studies (1974–1986). The retrieved records do not fully confirm design or sample size beyond what is stated in the abstracts.
+These are older studies (1974–1986). The retrieved records do not fully confirm design or sample size beyond what is stated in the abstracts.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -131,7 +130,7 @@ The package insert warnings and contraindications were not available in the data
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has only a model score behind it. There are no trials or publications, and no mechanistic link between COX inhibition and GDF5/BMP-driven skeletal dysplasia. The 0.9999 score appears to be a TxGNN model (deep learning) artifact. All other predictions except ankylosing spondylitis are also L5 and Hold. Ankylosing spondylitis (L3, "Research Question") is supported by older comparative studies showing symptomatic relief only, not disease modification, and it is essentially an on-label-adjacent use.
+The top prediction has only a model score behind it. There are no trials or publications, and no mechanistic link between COX inhibition and GDF5/BMP-driven skeletal dysplasia. The 0.9999 score appears to be a TxGNN model (deep learning) artifact. Ankylosing spondylitis (L3, "Research Question") is supported by older comparative studies showing symptomatic relief only, not disease modification, and it is essentially an on-label-adjacent use.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada, which currently block safety screening.

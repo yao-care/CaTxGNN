@@ -4,17 +4,17 @@ title: Sertraline
 parent: Model Prediction Only (L5)
 nav_order: 846
 evidence_level: L5
-indication_count: 8
-last_modified_at: 2026-10-31
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "SERTRALINE"
-predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -65,7 +65,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 The model score is very high (0.9993), but the same score was given to three other personality disorders (paranoid, schizotypal, schizoid). This suggests the model is detecting a general "psychiatric disorder" association rather than anything specific to histrionic personality disorder. No trial or publication was retrieved for this condition. The prediction should therefore be treated as a hypothesis only.
 
 **Other predicted indications in the data.** Among the eight predictions compiled for this drug, **agoraphobia** has by far the strongest support:
-- It has a TxGNN score of 0.9954.
+- It has a TxGNN score of 0.9955.
 - It is backed by a double-blind multicentre sertraline trial and head-to-head trials against imipramine, alprazolam and paroxetine in panic disorder with or without agoraphobia.
 - It is also supported by network meta-analyses (including a Cochrane review and a BMJ review).
 - A sertraline Phase 4 trial in generalized social phobia with comorbidity (NCT00182533, 170 participants) was terminated.
@@ -122,7 +122,6 @@ The prediction for histrionic personality disorder rests solely on a model score
 - A targeted literature and trial search for histrionic personality disorder, which may show that no meaningful evidence exists
 - Mechanism of action data (MOA)
 - Health Canada package insert warnings and contraindications
-- Consideration of agoraphobia (or panic disorder with agoraphobia) as a better-supported candidate, evaluated as an indication clarification within the anxiety spectrum
 - If any personality disorder is pursued, a specific study design that separates effects on personality pathology from effects on comorbid depression or anxiety
 ## Disclaimer
 

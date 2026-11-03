@@ -4,17 +4,17 @@ title: Tipiracil
 parent: Model Prediction Only (L5)
 nav_order: 916
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Tipiracil: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Colorectal cancer (malignant colon neoplasm, colonic neoplasm…"
 monitor_inn: "Tipiracil"
-predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
 ---
 
 # Tipiracil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available in the data compil
 A villous adenoma of the cecum is anatomically and histologically related to colorectal neoplasia, which probably explains the high model score. However, it is a benign, premalignant lesion. There is no evidence that a cytotoxic combination would be appropriate for it, and the mechanism has not been documented for this indication. The prediction should be treated as a hypothesis only.
 
 Other top-ranked predictions show the same pattern:
-- **Rectosigmoid junction neoplasm**: likely falls within the already-approved colorectal cancer indication, so it is not a true repurposing opportunity.
 - **Benign lesions** (colon lipoma, leiomyoma, lymphangioma, cavernous hemangioma): no plausible link to the drug's mechanism.
 - **Cecum neuroendocrine tumor G1**: low proliferative index, so antimetabolite activity is unlikely to be effective.
 - **Colorectal gastrointestinal stromal tumor**: driven by KIT/PDGFRA mutations and generally resistant to conventional cytotoxic chemotherapy.

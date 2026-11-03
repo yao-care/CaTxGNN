@@ -4,17 +4,17 @@ title: Terconazole
 parent: Model Prediction Only (L5)
 nav_order: 898
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Terconazole: predicted new indication Trichomonal vulvovaginitis (evidence level L5). Approved use: Vulvovaginal candidiasis"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "TERCONAZOLE"
-predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "vulvovaginitis", "postmenopausal atrophic vaginitis", "vaginitis (disease)", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]
+predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]
+description: "Terconazole: predicted new indication Trichomonal vulvovaginitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Terconazole: From Vulvovaginal Candidiasis to Trichomonal Vulvovaginitis
+## Terconazole: Trichomonal vulvovaginitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,7 +47,7 @@ The TxGNN model's top-ranked prediction is **trichomonal vulvovaginitis**, but *
 
 | Item | Content |
 |------|------|
-| Original Indication | Vulvovaginal candidiasis (the approved indication text in the Canadian licence record is blank) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trichomonal vulvovaginitis |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (for the top prediction: model prediction only) |

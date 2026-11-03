@@ -4,17 +4,17 @@ title: Methotrimeprazine
 parent: Model Prediction Only (L5)
 nav_order: 601
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L4). Approved use: Not available"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "METHOTRIMEPRAZINE"
-predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophrenia", "headache disorder", "schizophreniform disorder", "anaphylaxis"]
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "headache disorder", "schizophreniform disorder", "anaphylaxis"]
+description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methotrimeprazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Methotrimeprazine: From an Antipsychotic/Sedative Phenothiazine to Manic Bipolar Affective Disorder
+## Methotrimeprazine: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,7 +49,7 @@ Of the other predictions, schizophrenia (one 1996 comparative trial) and headach
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved indication text in the Canadian license records) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
@@ -71,9 +71,8 @@ D2/5-HT2A blockade underlies the antimanic effect of antipsychotics, so the pred
 |------|------|------|------|
 | Tourette syndrome | 0.9980 | L5 | D2 antagonism is plausible, but no trials or literature |
 | Trichotillomania | 0.9978 | L5 | Computational prediction only |
-| Schizophrenia | 0.9936 | L3 | A 1996 randomized comparison with risperidone and haloperidol |
 | Headache disorder | 0.9919 | L5 | A 1991 RCT in severe migraine |
-| Schizophreniform disorder | 0.9916 | L5 | Indirect evidence extrapolated from schizophrenia and psychosis |
+| Schizophreniform disorder | 0.9916 | L5 | — |
 | Anaphylaxis | 0.9913 | L5 | Only a 1963 guinea-pig study; clinically unsuitable |
 
 ---
@@ -82,7 +81,6 @@ D2/5-HT2A blockade underlies the antimanic effect of antipsychotics, so the pred
 
 For the top-ranked prediction (manic bipolar affective disorder), currently no related clinical trials are registered.
 
-For context, the only registered trial found among the other predictions was for schizophrenia:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -108,7 +106,6 @@ For context, the only registered trial found among the other predictions was for
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [1952306](https://pubmed.ncbi.nlm.nih.gov/1952306/) | 1991 | RCT | Ann Emerg Med | Methotrimeprazine vs meperidine plus dimenhydrinate in severe migraine (headache disorder) |
-| [8834417](https://pubmed.ncbi.nlm.nih.gov/8834417/) | 1996 | Comparative clinical study | J Clin Psychopharmacol | 62 patients with acute schizophrenia: 20% PANSS improvement in 81% on risperidone, 60% on haloperidol and 52% on methotrimeprazine (p < 0.05) |
 | [10621810](https://pubmed.ncbi.nlm.nih.gov/10621810/) | 1999 | Review | Hospital Medicine | Levomepromazine in palliative care, with combined antipsychotic, anxiolytic and sedative actions |
 | [7541599](https://pubmed.ncbi.nlm.nih.gov/7541599/) | 1995 | Review | Acta Psychiatr Scand Suppl | Long-term treatment of mood disorders in schizophrenia |
 | [36165981](https://pubmed.ncbi.nlm.nih.gov/36165981/) | 2023 | Systematic review | J Appl Toxicol | Phenothiazine derivatives and autophagy (in vitro) |

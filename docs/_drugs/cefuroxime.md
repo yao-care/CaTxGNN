@@ -4,17 +4,17 @@ title: Cefuroxime
 parent: Model Prediction Only (L5)
 nav_order: 171
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Cefuroxime: predicted new indication Hyperamylasemia . The best-supported candidate is urinary tract infec… (evidence level L5). Approved use: Bacterial infections (otitis media…"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "CEFUROXIME"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "urinary tract infection (disease)", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cefuroxime
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Cefuroxime: From Bacterial Infections to Hyperamylasemia
+## Cefuroxime: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,9 +48,9 @@ That candidate largely extends cefuroxime's existing anti-infective use rather t
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (otitis media, streptococcal and staphylococcal infections, pneumonia, meningitis, gonorrhea, Lyme disease, among others) |
-| Predicted New Indication | Hyperamylasemia (rank 1 by score; no supporting evidence). The best-supported candidate is urinary tract infection (rank 6). |
-| TxGNN Prediction Score | 0.9976 (hyperamylasemia); 0.9962 (urinary tract infection) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hyperamylasemia |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (hyperamylasemia); L3 (urinary tract infection) |
 | Canada Market Status | Marketed (valid licenses: 9 of 9) |
 | Number of DINs | 9 (valid: 9) |

@@ -4,17 +4,17 @@ title: Potassium Citrate
 parent: Model Prediction Only (L5)
 nav_order: 757
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Potassium Citrate: predicted new indication Nephrolithiasis (evidence level L2). Approved use: Potassium deficiency disease, renal tubular acidosis…"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "POTASSIUM CITRATE"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "hypermanganesemia with dystonia", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Potassium Citrate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Potassium Citrate: From Potassium Deficiency and Renal Tubular Acidosis to Nephrolithiasis
+## Potassium Citrate: Familial visceral myopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Potassium citrate is an alkalinizing potassium salt originally used for potassium deficiency, renal tubular acidosis and acute urate nephropathy.
-The TxGNN model predicts it may be effective for **nephrolithiasis (kidney stones)**, the highest-ranked prediction with supporting clinical evidence, backed by **14 registered clinical trials** and **15 publications**.
 The finding mostly confirms an established use rather than a novel repurposing.
 
 ---
@@ -48,9 +47,9 @@ The finding mostly confirms an established use rather than a novel repurposing.
 
 | Item | Content |
 |------|------|
-| Original Indication | Potassium deficiency disease, renal tubular acidosis, acute urate nephropathy (the Canadian licence record has no approved indication text) |
-| Predicted New Indication | Nephrolithiasis (the top-ranked prediction, familial visceral myopathy, has no supporting evidence, so this report focuses on the highest-ranked prediction with evidence) |
-| TxGNN Prediction Score | 0.9975 (nephrolithiasis); 0.9995 for the top-ranked prediction, familial visceral myopathy |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Familial visceral myopathy |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |
@@ -68,7 +67,7 @@ Potassium citrate is already a guideline-supported standard therapy for hypocitr
 
 **Other predictions.** Most lower-ranked predictions have no supporting data and a weak or absent mechanistic rationale:
 - Familial visceral myopathy, mitochondrial oxidative phosphorylation disorder, Pendred syndrome, hypermanganesemia with dystonia, autosomal recessive nonsyndromic deafness and leukocyte adhesion deficiency are model predictions only (L5), with no trials or literature. They should be held.
-- Nephrolithiasis susceptibility caused by SLC26A1 is biologically coherent (a hyperoxaluria-related stone subtype), but has no subtype-specific data. It is a reasonable research question.
+- It is a reasonable research question.
 - Cystinosis (L4) and exocrine pancreatic insufficiency (L4) have only indirect evidence. Potassium citrate would act as supportive alkali/potassium replacement, or on a complication (oxalate kidney injury), not on the underlying disease.
 
 ---
@@ -142,7 +141,7 @@ Warnings and contraindications from the Canadian package insert were not availab
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for nephrolithiasis). Hold the other predictions; treat SLC26A1-related nephrolithiasis as a research question.
+**Decision: Proceed with Guardrails** (for nephrolithiasis).
 
 **Rationale:**
 - Nephrolithiasis has a plausible mechanism (urinary alkalinization and increased citrate), a Phase 2/3 trial, a Phase 3 comparison trial, a Phase 4 study, a meta-analysis and several reviews. It is best seen as confirmation of an established use rather than a new discovery.

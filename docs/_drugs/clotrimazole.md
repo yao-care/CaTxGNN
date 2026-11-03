@@ -4,17 +4,17 @@ title: Clotrimazole
 parent: Moderate Evidence (L3-L4)
 nav_order: 217
 evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-31
-description: "Clotrimazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Tinea pedis and other superficial fungal infections…"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
-predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
+description: "Clotrimazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Clotrimazole: From Superficial Fungal Infections to Acne
+## Clotrimazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,7 +47,7 @@ The TxGNN model predicts it may be effective for **acne**, but the evidence is t
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis and other superficial fungal infections, including cutaneous, oral and vulvovaginal candidiasis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |

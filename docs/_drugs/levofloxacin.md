@@ -4,17 +4,17 @@ title: Levofloxacin
 parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bacterial infections (streptococcal and staphylococcal infections…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LEVOFLOXACIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levofloxacin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+## Levofloxacin: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,7 +47,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (streptococcal and staphylococcal infections, bacterial pneumonia, sinusitis, conjunctivitis, pyelonephritis, anthrax) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |

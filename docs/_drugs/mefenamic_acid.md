@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: High Evidence (L1-L2)
 nav_order: 578
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not available"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "MEFENAMIC ACID"
-predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 </div>
 
-## Mefenamic Acid: From an Unspecified Original Indication to Rheumatoid Arthritis
+## Mefenamic Acid: Headache disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID) that is currently marketed in Canada, but the data compiled for this report do not list its approved indication.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**, with **no registered clinical trials** and **20 publications**, including several small, old, double-blind crossover trials that support symptom relief only.
 Migraine-related predictions (migraine disorder, headache disorder) have comparable or slightly stronger literature support and may be more practical research directions.
 
 ---
@@ -48,9 +47,9 @@ Migraine-related predictions (migraine disorder, headache disorder) have compara
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the Canadian licence record has no indication text) |
-| Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 0.9973 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Headache disorder |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |
