@@ -38,9 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Sertraline is an SSRI-type antidepressant, originally used for anxiety disorder, obsessive-compulsive disorder, post-traumatic stress disorder (PTSD) and social phobia.
-The TxGNN model predicts it may be effective for **histrionic personality disorder**,
-but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a model prediction only.
+Sertraline is an SSRI antidepressant that has been marketed in Canada for many years. The TxGNN model predicts it may be useful for **histrionic personality disorder**, but the data compiled for this report contain **no clinical trials and no publications** on this condition. The prediction is therefore supported by the model score alone.
 
 ---
 
@@ -60,17 +58,9 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sertraline is a serotonergic antidepressant. Its efficacy has been established in several anxiety-spectrum and obsessive-compulsive conditions: anxiety disorder, social phobia, PTSD, OCD and dysthymic disorder. Mechanistically, it may be applicable to personality disorders if they share anxiety, mood or impulsivity symptoms that respond to serotonergic modulation.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Sertraline belongs to the SSRI class, which raises serotonin availability in the brain. It is widely used for mood and anxiety-spectrum conditions. Mechanistically, it could plausibly affect emotional instability, anxiety or depressive symptoms that sometimes accompany personality disorders.
 
-The model score is very high (0.9993), but the same score was given to three other personality disorders (paranoid, schizotypal, schizoid). This suggests the model is detecting a general "psychiatric disorder" association rather than anything specific to histrionic personality disorder. No trial or publication was retrieved for this condition. The prediction should therefore be treated as a hypothesis only.
-
-**Other predicted indications in the data.** Among the eight predictions compiled for this drug, **agoraphobia** has by far the strongest support:
-- It has a TxGNN score of 0.9955.
-- It is backed by a double-blind multicentre sertraline trial and head-to-head trials against imipramine, alprazolam and paroxetine in panic disorder with or without agoraphobia.
-- It is also supported by network meta-analyses (including a Cochrane review and a BMJ review).
-- A sertraline Phase 4 trial in generalized social phobia with comorbidity (NCT00182533, 170 participants) was terminated.
-
-Because agoraphobia lies within the anxiety spectrum where sertraline is already used, it is better seen as an indication clarification than as true repurposing. For the other personality disorders (paranoid, schizotypal, schizoid, dependent, narcissistic), only indirect evidence exists, such as treating comorbid depression or anger attacks. Benign paroxysmal torticollis of infancy has no rationale at all.
+This link is theoretical. Histrionic personality disorder is defined by long-standing patterns of emotionality and attention-seeking, not by a single symptom that an antidepressant is known to treat. No study retrieved for this report examines sertraline in this disorder. Any benefit would most likely come from treating co-occurring depression or anxiety rather than the personality pathology itself. The model score is a hypothesis-generating signal only.
 
 ---
 
@@ -88,7 +78,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Sertraline is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. The records compiled for this report do not include dosage form or approved-indication text. Five examples:
+Sertraline is marketed in Canada, and all 20 licences in the local records are valid single-ingredient products. The table lists 5 of them. The local records do not give a dosage form or an approved-indication text for these licences.
 
 | DIN | Product Name |
 |---------|------|
@@ -98,16 +88,28 @@ Sertraline is marketed in Canada with 20 valid single-ingredient licences and no
 | 02240481 | TEVA-SERTRALINE |
 | 02244840 | PMS-SERTRALINE |
 
-The remaining licences cover generic products, such as AG-SERTRALINE, M-SERTRALINE, AURO-SERTRALINE, BIO-SERTRALINE, MINT-SERTRALINE, SERTRALINE-25 and SERTRALINE-100.
-
 ---
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from the knowledge graph, not label text):** epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, and serotonin syndrome.
-- **Drug interactions:** 100 interactions were identified in total. Those retrieved at Major severity are bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and phentermine. Many others are Moderate, including aspirin, morphine, clarithromycin, famotidine, loperamide, and several antidiabetic agents (chlorpropamide, glimepiride, insulin aspart).
+- **Drug Interactions**: 100 interactions were identified in the interaction screening. Several are rated Major and need particular attention when co-prescribing:
+  - Bupropion
+  - Lorcaserin
+  - Diethylpropion
+  - Phentermine
+  - Dolasetron
+  - Palonosetron
+  - Eliglustat
 
-Please refer to the package insert for label warnings and formal contraindications, which were not available in the data compiled for this report.
+  Moderate-level interactions include:
+  - Acetylsalicylic acid
+  - Morphine
+  - Clarithromycin
+  - Famotidine
+  - Loperamide
+  - Several antidiabetic agents (e.g., glimepiride, chlorpropamide, insulin aspart)
+
+Please refer to the Health Canada product monograph for the full warnings and contraindications.
 
 ---
 
@@ -116,13 +118,14 @@ Please refer to the package insert for label warnings and formal contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction for histrionic personality disorder rests solely on a model score. There are no clinical trials or publications, so the evidence level is L5. Sertraline's safety profile is well known from its existing uses, but nothing supports efficacy in this condition.
+The prediction score is high, but no clinical trial or publication in the compiled data studies sertraline in histrionic personality disorder. The mechanistic rationale is indirect, so the evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- A targeted literature and trial search for histrionic personality disorder, which may show that no meaningful evidence exists
-- Mechanism of action data (MOA)
-- Health Canada package insert warnings and contraindications
-- If any personality disorder is pursued, a specific study design that separates effects on personality pathology from effects on comorbid depression or anxiety
+- A literature and trial search specific to histrionic personality disorder, including any studies of SSRIs in cluster B personality disorders
+- Mechanism-of-action data and a clear hypothesis for which symptom domain sertraline would target
+- Warnings and contraindications from the Health Canada product monograph
+- A safety plan covering the Major drug interactions above and use in patients with co-occurring psychiatric conditions
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

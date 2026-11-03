@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clotrimazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 217
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Clotrimazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,10 +38,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Clotrimazole is an azole antifungal, originally used for skin and mucosal fungal infections such as tinea pedis (athlete's foot), cutaneous candidiasis and vulvovaginal candidiasis.
-The TxGNN model predicts it may be effective for **acne**, but the evidence is thin: **1 clinical trial** (suspended, combination product) and **no publications**.
-
----
+Clotrimazole is an azole antifungal that has been marketed in Canada for many years.
+The TxGNN model predicts it may be useful for **acne**, but the supporting evidence is thin: **1 clinical trial** (a suspended combination-product study) and **no publications**.
 
 ## Quick Overview
 
@@ -50,40 +48,32 @@ The TxGNN model predicts it may be effective for **acne**, but the evidence is t
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9986 |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Clotrimazole blocks fungal CYP51 (lanosterol 14-alpha-demethylase), an enzyme needed to make ergosterol. Without ergosterol the fungal cell membrane loses its integrity, and fungal growth is inhibited. Clotrimazole has also been reported to have anti-inflammatory and antimicrobial activity on the skin. Detailed mechanism-of-action data were not available in the data compiled for this report.
+Detailed mechanism-of-action data for clotrimazole is not available in the data compiled for this report. In general, clotrimazole inhibits fungal CYP51 (lanosterol 14-alpha-demethylase) and has reported antimicrobial and anti-inflammatory activity on the skin.
 
-The link to acne is plausible but indirect. Reducing Malassezia or Candida colonization, and calming inflammation around hair follicles, might help some acne-like lesions. Acne is mainly driven by sebum, follicular blockage, *Cutibacterium acnes* and inflammation, so an antifungal is not an obvious fit.
-
-The high score (0.9986) is a prediction from the TxGNN model (deep learning). It is not clinical evidence. The only related trial tested a fixed combination product, so no effect can be attributed to clotrimazole itself.
-
----
+A plausible link to acne is through reduced colonisation by yeasts such as Malassezia or Candida and lower follicular inflammation. This link is indirect. Acne is mainly a disorder of sebum production, follicular blockage, *Cutibacterium acnes* and inflammation, and an antifungal does not directly target these. The high score (0.9986) is a computational prediction only and is not evidence of clinical benefit.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspended | 80 | Compared a topical cream combining beclomethasone 0.025%, gentamicin 0.1% and clotrimazole 1% in patients with contaminated dermatosis. No results reported. The steroid and antibiotic components confound any clotrimazole-specific effect. |
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspended | 80 | Fixed-dose combination of beclomethasone 0.025% + gentamicin 0.1% + clotrimazole 1% cream in subjects with contaminated dermatosis showing bilateral symmetrical lesions. No results reported. |
 
----
+This trial tested a combination product, so any effect cannot be attributed to clotrimazole alone. The corticosteroid and antibiotic components confound the result. The trial is suspended, and the registry text does not clearly confirm that acne was the studied condition. For these reasons it is not counted as direct evidence for clotrimazole in acne.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
 
-Clotrimazole has 20 valid single-ingredient authorizations in Canada. The records compiled for this report do not include dosage form or approved indication text. The first five are listed below.
+Clotrimazole is marketed in Canada, and all 20 single-ingredient licences in the local data are valid. The records are partial, and the table below lists five of them. Dosage form and approved-indication text are not recorded in the local data.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -93,35 +83,26 @@ Clotrimazole has 20 valid single-ingredient authorizations in Canada. The record
 | 02462397 | Clotrimazole External Antifungal Cream | — | — |
 | 02264102 | Canesten Combi 1 Day | — | — |
 
----
-
 ## Safety Considerations
 
-- **Conditions linked to contraindication in the knowledge graph** (from drug-disease links, not package insert text): adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia, peripheral vascular disease, intermittent claudication and peripheral arterial disease. Several of these are relevant to long-term topical use, especially in combination with a corticosteroid.
-- **Drug Interactions**: The interaction query returned 100 records. Among those reviewed, the **Major** interactions were fentanyl, alfentanil, hydrocodone and amiodarone. Many **Moderate** interactions were also listed, including paclitaxel, abemaciclib, acalabrutinib, nifedipine, amlodipine, apixaban, alprazolam, aliskiren, alfuzosin, aprepitant, estradiol, levonorgestrel and norethisterone. Dolutegravir and amphotericin B are **Minor**. Because the Major interactions involve CYP3A4 substrates, any systemic or high-exposure use would need an interaction review.
+- **Drug Interactions**: 100 interactions are recorded. Major-level interactions include fentanyl, alfentanil, hydrocodone and amiodarone. Moderate-level examples include paclitaxel, abemaciclib, acalabrutinib, nifedipine, amlodipine, apixaban, alprazolam, estradiol, levonorgestrel and norethisterone.
 
-Please refer to the package insert for warnings and contraindications.
-
----
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The acne prediction rests on a high model score and one suspended combination-product trial with no results. Clotrimazole's antifungal mechanism has only an indirect link to acne. No publications support this direction.
-
-Two other predictions in the same analysis are worth noting:
-- **Vulvovaginitis (candidal)** has L1-level evidence, including several completed Phase 3 trials. It is effectively an existing indication rather than true repurposing, and it would qualify as Proceed with Guardrails. Guardrails would cover pregnancy exposure data, azole resistance and recurrent disease.
-- **Postmenopausal atrophic vaginitis** has no trials or literature and no mechanistic rationale, so it stays at Hold.
+The only related trial is a suspended study of a three-drug combination with no results, and no publications address clotrimazole in acne. The mechanistic link is indirect, so the prediction rests on the model score alone.
 
 **To proceed, the following is needed:**
-- Clotrimazole-only controlled trials in acne, since the existing trial is a combination product
-- Preclinical or mechanistic data linking clotrimazole to acne pathophysiology
-- Health Canada package insert warnings and contraindications
-- Detailed mechanism-of-action data from DrugBank
-- Dosage form and approved indication details for the Canadian products
-- A review of interaction risks and topical safety in the skin conditions of interest
+- Mechanism-of-action data for clotrimazole
+- Package insert warnings and contraindications from Health Canada
+- Preclinical or clinical studies of clotrimazole as a single agent in acne
+- Clarification of the condition studied in NCT01244256 and whether the trial will resume
+- Assessment of whether a topical formulation suits acne-prone skin
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

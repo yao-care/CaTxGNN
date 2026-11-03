@@ -38,8 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Icatibant is a bradykinin B2 receptor antagonist originally used to treat hereditary angioedema (HAE), including HAE with C1 inhibitor deficiency.
-The prediction is supported by **11 clinical trials** and **20 publications**.
+Icatibant is a bradykinin receptor antagonist that is marketed in Canada.
+The TxGNN model predicts it may be relevant for **serpinopathy with toxic serpin polymerization**, with a score of 0.9999.
+There are currently **no clinical trials and no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
@@ -51,45 +52,21 @@ The prediction is supported by **11 clinical trials** and **20 publications**.
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 2 of 2) |
 | Number of DINs | 2 (valid: 2) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data nonetheless identify icatibant as a peptide antagonist acting on bradykinin receptors (B2 receptor, and also listed against the B1 receptor).
+Detailed mechanism-of-action data is not available in the data compiled for this report. From pharmacology data, icatibant is a peptide that acts on the bradykinin B2 receptor (and is also listed against the B1 receptor), blocking bradykinin signalling.
 
-C1 inhibitor deficiency leads to unregulated kallikrein-kinin activity and excess bradykinin, which drives angioedema attacks. By blocking the B2 receptor, icatibant directly targets this mediator.
-
-Literature also supports use in the acquired form of C1 inhibitor deficiency, which shares the bradykinin-mediated mechanism. However, the acquired-disease evidence consists mostly of reviews and small observational data (for example, an 8-patient real-world series).
+The model's high score most likely reflects shared biology around SERPING1 (C1 inhibitor) and serpin disorders. However, toxic serpin polymerization is a protein-misfolding problem, not a bradykinin-driven process. A B2 receptor antagonist has no clear mechanism to address it. The prediction should be treated as a hypothesis from network-level similarity only, and no mechanistic rationale has been established.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Phase 3 | Completed | 84 | Randomized, double-blind, placebo-controlled study of subcutaneous icatibant for acute HAE attacks |
-| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Phase 3 | Completed | 85 | Randomized, double-blind comparison of icatibant vs oral tranexamic acid; primary endpoint was time to symptom relief |
-| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Phase 3 | Completed | 98 | Randomized, double-blind, placebo-controlled study of icatibant in acute HAE attacks |
-| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Phase 3 | Completed | 151 | Open-label study of self-administered icatibant: safety, local tolerability and efficacy |
-| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Phase 3 | Completed | 32 | Open-label pediatric study of pharmacokinetics, tolerability and safety |
-| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Phase 3 | Completed | 8 | Open-label study in Japanese patients with type I or II HAE |
-| [NCT01457430](https://clinicaltrials.gov/study/NCT01457430) | Phase 4 | Completed | 19 | Self-administration vs administration in a medical facility |
-| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | N/A | Completed | 179 | Japan post-marketing use survey of safety and efficacy |
-| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Phase 3 | Completed | 2 | Open-label study in Japanese children and adolescents (very small sample) |
-| [NCT05509569](https://clinicaltrials.gov/study/NCT05509569) | N/A | Completed | 32 | Japan pediatric post-marketing surveillance |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Clinical study review | Expert Rev Clin Immunol | Randomized, open-label and observational studies support icatibant's safety and efficacy in children over 2 years and adolescents with C1-INH-HAE |
-| [20030426](https://pubmed.ncbi.nlm.nih.gov/20030426/) | 2010 | Drug review | Drugs | Icatibant is a selective B2 antagonist; in FAST-1 the primary endpoint did not reach significance vs placebo, but other endpoints were favourable |
-| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observational | Allergy | Real-world experience in 8 patients with acquired C1-INH deficiency treated with icatibant 30 mg |
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Systematic review | Pneumonol Alergol Pol | Compared conestat alfa, human C1-INH and icatibant for acute attacks in adults with HAE |
-| [26106828](https://pubmed.ncbi.nlm.nih.gov/26106828/) | 2015 | Guideline/Consensus | Curr Opin Allergy Clin Immunol | Italian experience in diagnosis and treatment of C1-INH-HAE |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Review | J Investig Allergol Clin Immunol | Current and emerging therapies for C1-INH-HAE |
-| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Recommendations | Rev Med Interne | CREAK recommendations for acquired angioedema due to C1-INH deficiency |
-| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospective study | J Allergy Clin Immunol Pract | Bicenter retrospective study of acquired C1-INH deficiency; no licensed therapy |
-| [28687105](https://pubmed.ncbi.nlm.nih.gov/28687105/) | 2017 | Review | Immunol Allergy Clin North Am | Overview of acquired C1-INH deficiency |
-| [24925394](https://pubmed.ncbi.nlm.nih.gov/24925394/) | 2014 | Review | Chem Immunol Allergy | Bradykinin-mediated diseases, including angioedema from C1-INH deficiency |
+Currently no related literature available.
 
 ## Canada Market Information
 
@@ -98,26 +75,27 @@ Literature also supports use in the acquired form of C1 inhibitor deficiency, wh
 | 02425696 | FIRAZYR | Not specified | Not specified |
 | 02547562 | ICATIBANT INJECTION | Not specified | Not specified |
 
+Both licences are single-ingredient products and both are currently valid.
+
 ## Safety Considerations
 
-- **Drug Interactions**: 12 interaction records were found. Ten are moderate-level interactions with ACE inhibitors: benazepril, captopril, enalapril, perindopril, trandolapril, moexipril, lisinopril, quinapril, ramipril and fosinopril. The other two are pharmacology records showing icatibant acting on the bradykinin B1 and B2 receptors.
+- **Drug Interactions**: 10 moderate-level interactions were identified, all with ACE inhibitors: benazepril, captopril, enalapril, perindopril, trandolapril, moexipril, lisinopril, quinapril, ramipril and fosinopril.
 
-Please refer to the package insert for warnings and contraindications.
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Several completed Phase 3 trials, including three randomized controlled studies, support icatibant in HAE with C1 inhibitor deficiency, and the drug is already marketed in Canada.
+The score is very high, but there are no trials or publications, and no plausible mechanism links bradykinin B2 blockade to serpin polymerization. The prediction is not supported beyond the model output.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, and the approved indication text for each DIN
-- Detailed mechanism of action data
-- Prospective or larger controlled data for acquired C1 inhibitor deficiency
-- Review of concomitant ACE inhibitor use
+- A mechanistic hypothesis explaining how B2 receptor antagonism could affect toxic serpin polymerization
+- Preclinical data in relevant disease models
+- Package insert warnings and contraindications from Health Canada
+- Confirmed mechanism-of-action data
 
-**Other predictions:** The remaining six predictions (serpinopathy with toxic serpin polymerization, pseudo-von Willebrand disease, primary release disorder of platelets, immune-mediated necrotizing myopathy, antisynthetase syndrome and Glanzmann thrombasthenia) have no supporting trials or literature and no clear mechanistic link to B2 receptor antagonism. They are model predictions only and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

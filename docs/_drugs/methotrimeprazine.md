@@ -38,12 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Methotrimeprazine (levomepromazine) is a phenothiazine neuroleptic marketed in Canada, but the data compiled for this report do not list an approved indication text for it.
-The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, based on a very high prediction score.
-Direct support is thin: **no registered clinical trials** and **6 publications**, all of them 1960s clinical reports.
-Of the other predictions, schizophrenia (one 1996 comparative trial) and headache disorder (one 1991 RCT in severe migraine) have the most direct clinical evidence.
-
----
+Methotrimeprazine (levomepromazine) is a phenothiazine with antipsychotic, sedative and analgesic properties.
+The TxGNN model predicts it may be useful for **manic bipolar affective disorder**, but the supporting literature consists only of **6 publications**, all dated 1961–1964 and descriptive, with **no registered clinical trials**.
 
 ## Quick Overview
 
@@ -57,61 +53,30 @@ Of the other predictions, schizophrenia (one 1996 comparative trial) and headach
 | Number of DINs | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known pharmacology, methotrimeprazine is a phenothiazine antipsychotic that blocks dopamine D2, serotonin 5-HT2A, histamine H1, alpha-1 adrenergic and muscarinic receptors.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on its known pharmacology, methotrimeprazine is a phenothiazine antipsychotic that antagonizes dopamine D2, serotonin 5-HT2A, histamine H1, alpha-1 adrenergic and muscarinic receptors.
 
-D2/5-HT2A blockade underlies the antimanic effect of antipsychotics, so the prediction is mechanistically plausible. The available evidence is limited to 1960s uncontrolled or descriptive reports on controlling acutely disturbed patients. There are no modern trials in mania or bipolar disorder.
+D2/5-HT2A blockade underlies the antimanic effect of antipsychotics as a class, so the prediction is mechanistically plausible. Sedation from H1 and alpha-1 blockade may also help control agitation in acutely disturbed patients.
 
-**Other predicted indications (for context):**
-
-| Predicted Indication | Score | Evidence Level | Key Point |
-|------|------|------|------|
-| Tourette syndrome | 0.9980 | L5 | D2 antagonism is plausible, but no trials or literature |
-| Trichotillomania | 0.9978 | L5 | Computational prediction only |
-| Headache disorder | 0.9919 | L5 | A 1991 RCT in severe migraine |
-| Schizophreniform disorder | 0.9916 | L5 | — |
-| Anaphylaxis | 0.9913 | L5 | Only a 1963 guinea-pig study; clinically unsuitable |
-
----
+However, the evidence is thin. The available publications are 1960s uncontrolled or descriptive reports on managing acutely disturbed or restless patients, and none of them studies manic bipolar affective disorder directly. For that reason the evidence level is capped at L5 (model prediction with no direct study), despite the plausible mechanism.
 
 ## Clinical Trial Evidence
 
-For the top-ranked prediction (manic bipolar affective disorder), currently no related clinical trials are registered.
-
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02582736](https://clinicaltrials.gov/study/NCT02582736) | N/A | Completed | 725,489 | Retrospective cohort of atypical antipsychotics and hyperglycemic emergencies. Gives class-level safety context only, with no efficacy data for methotrimeprazine |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-**Manic bipolar affective disorder (all are clinical reports; abstracts not available):**
+None of these reports directly studies manic bipolar affective disorder; they are general psychiatric reports and are listed as indirect context.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14129294](https://pubmed.ncbi.nlm.nih.gov/14129294/) | 1964 | Clinical report | Am J Psychiatry | Methotrimeprazine for controlling acutely disturbed patients |
-| [14112288](https://pubmed.ncbi.nlm.nih.gov/14112288/) | 1963 | Clinical report | J Neuropsychiatry | Systematic studies with levomepromazine |
-| [14341892](https://pubmed.ncbi.nlm.nih.gov/14341892/) | 1964 | Clinical report | Zh Nevropatol Psikhiatr Korsakova | Evaluation in depressive conditions |
-| [14116226](https://pubmed.ncbi.nlm.nih.gov/14116226/) | 1964 | Pharmacological/clinical report | Compr Psychiatry | Potentiation of phenothiazine action by nylidrin |
-| [14161539](https://pubmed.ncbi.nlm.nih.gov/14161539/) | 1964 | Clinical report | L'Encephale | Treatment of neuroleptic syndromes |
-| [14182040](https://pubmed.ncbi.nlm.nih.gov/14182040/) | 1964 | Retrospective observational | Psychiatria et Neurologia | Drug therapy and rehospitalization in chronic psychoses (excluding manic-depressive psychoses) |
-
-**Most relevant literature for other predicted indications:**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [1952306](https://pubmed.ncbi.nlm.nih.gov/1952306/) | 1991 | RCT | Ann Emerg Med | Methotrimeprazine vs meperidine plus dimenhydrinate in severe migraine (headache disorder) |
-| [10621810](https://pubmed.ncbi.nlm.nih.gov/10621810/) | 1999 | Review | Hospital Medicine | Levomepromazine in palliative care, with combined antipsychotic, anxiolytic and sedative actions |
-| [7541599](https://pubmed.ncbi.nlm.nih.gov/7541599/) | 1995 | Review | Acta Psychiatr Scand Suppl | Long-term treatment of mood disorders in schizophrenia |
-| [36165981](https://pubmed.ncbi.nlm.nih.gov/36165981/) | 2023 | Systematic review | J Appl Toxicol | Phenothiazine derivatives and autophagy (in vitro) |
-| [14110740](https://pubmed.ncbi.nlm.nih.gov/14110740/) | 1963 | Preclinical animal study | Br J Pharmacol Chemother | Antihistamines, including methotrimeprazine, protect against anaphylactic microshock in guinea pigs |
-
----
+| [14129294](https://pubmed.ncbi.nlm.nih.gov/14129294/) | 1964 | Clinical report | Am J Psychiatry | Use of methotrimeprazine to control acutely disturbed patients |
+| [14112288](https://pubmed.ncbi.nlm.nih.gov/14112288/) | 1963 | Clinical report | J Neuropsychiatry | Systematic clinical studies with levomepromazine |
+| [14341892](https://pubmed.ncbi.nlm.nih.gov/14341892/) | 1964 | Clinical report | Zh Nevropatol Psikhiatr Im S S Korsakova | Evaluation of treatment in depressive conditions |
+| [14116226](https://pubmed.ncbi.nlm.nih.gov/14116226/) | 1964 | Pharmacological/clinical report | Compr Psychiatry | Potentiation of phenothiazine effects by nylidrin |
+| [14161539](https://pubmed.ncbi.nlm.nih.gov/14161539/) | 1964 | Clinical report | L'Encephale | Treatment of neuroleptic-induced syndromes |
+| [14182040](https://pubmed.ncbi.nlm.nih.gov/14182040/) | 1964 | Retrospective observational | Psychiatria et Neurologia | Effect of drug therapy on rehospitalization in chronic psychoses |
 
 ## Canada Market Information
 
@@ -123,40 +88,28 @@ For the top-ranked prediction (manic bipolar affective disorder), currently no r
 | 02238405 | METHOPRAZINE | Not listed | Not listed |
 | 02238404 | METHOPRAZINE | Not listed | Not listed |
 
-All 5 licenses are valid single-ingredient products.
-
----
+All five licences are single-ingredient products and currently valid.
 
 ## Safety Considerations
 
-- **Drug Interactions:** 100 interactions were identified. Examples include:
-  - **Major:** bupropion, potassium citrate
-  - **Moderate:** antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, canagliflozin, chlorpropamide, albiglutide), anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium), epinephrine, morphine, famotidine, loperamide, bisacodyl, lorcaserin, clarithromycin
-- **Disease-related cautions from the knowledge graph** (these come from a computational knowledge graph, not from label text):
-  - Cardiac: long QT syndrome, torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial infarction
-  - Blood: neutropenia, agranulocytosis, leukopenia, thrombocytopenia, anemia
-  - Blood pressure: orthostatic hypotension
-  - Neurological: epilepsy, basal ganglia disease
-  - Other: liver disease, hyperglycemia, benign prostatic hyperplasia, obesity
-- **Reported adverse effects in the literature:** corneal deposits and cataract with long-term use (case report), and agranulocytosis in phenothiazine therapy (case reports).
+- **Drug Interactions**: Interaction screening returned 100 entries. Major-level interactions include **bupropion** and **potassium citrate**. Moderate-level interactions include metformin, pioglitazone and other antidiabetic agents, epinephrine, morphine, atropine and other anticholinergics, famotidine, loperamide, clarithromycin and others. Combined use with sedatives, anticholinergics and glucose-lowering drugs needs careful review.
 
-Please also refer to the package insert for official warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN score is very high and the D2/5-HT2A mechanism is plausible. However, the evidence for mania or bipolar disorder rests only on dated 1960s clinical reports, with no registered trials, so it is classed L4.
-- Schizophrenia (L3) and headache disorder (L2, a 1991 RCT) have more direct data and could be explored as research questions, but the schizophrenia trial showed lower response than risperidone and haloperidol.
+The mechanism is plausible and the TxGNN score is high, but the only supporting literature is a handful of 1960s descriptive reports that do not directly study manic bipolar affective disorder, and no clinical trials exist. Modern antipsychotics and mood stabilizers already have much stronger evidence in this setting.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from Health Canada, and approved indication text for the five DINs
-- Detailed mechanism-of-action data
-- Modern controlled trials, or a systematic review of antipsychotics in acute mania, comparing methotrimeprazine with standard agents
-- A cardiac (QT) and hematological safety monitoring plan, given the TxGNN model (deep learning) signals, which may reflect similarities the model learned between related diseases, not biological evidence, and the agranulocytosis reports
+- Package insert warnings and contraindications from Health Canada
+- Detailed mechanism of action data
+- Controlled studies, or at least modern observational data, in acute mania
+- A comparison against current standard antimanic therapy
+- A safety review addressing sedation, hypotension, QT prolongation and blood dyscrasia risk, which is relevant to a phenothiazine
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

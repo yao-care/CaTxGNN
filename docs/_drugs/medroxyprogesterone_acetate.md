@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 577
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,10 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Medroxyprogesterone acetate (MPA) is a synthetic progestin originally used for endometriosis, endometrial cancer, and postmenopausal conditions such as osteoporosis and atrophic vaginitis.
-The TxGNN model predicts it may be effective for **amenorrhea**, but the data compiled for this report show **0 clinical trials** and **19 publications**, mostly older reviews on injectable contraception, so the evidence rests largely on the model prediction and general pharmacology.
-
----
+Medroxyprogesterone acetate is a synthetic progestin (progesterone-like hormone) marketed in Canada in several single-ingredient products.
+The TxGNN model predicts it may be useful for **breast fibrocystic disease**, with a score of **0.9995**.
+Support is limited: **no registered clinical trials** and **9 publications**, mostly older, small or indirect studies.
 
 ## Quick Overview
 
@@ -50,45 +49,36 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but the data co
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
-| Evidence Level | L5 |
+| Evidence Level | L3 |
 | Canada Market Status | Marketed (valid licenses: 8 of 8) |
 | Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, MPA is a synthetic progestin that induces secretory transformation of estrogen-primed endometrium and withdrawal bleeding. It is used clinically in progestin challenge tests and in the management of secondary amenorrhea.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Medroxyprogesterone acetate is a progestin, a class that acts on progesterone receptors.
 
-The original indications (endometriosis and endometrial disease) are also hormone-driven conditions in which progestin action on the endometrium is central. This overlap makes a role in menstrual disorders such as amenorrhea mechanistically plausible.
+Fibrocystic breast changes are considered hormone-responsive. One review describes the underlying physiology as estrogen predominance with relative progesterone deficiency, which drives connective tissue and epithelial overgrowth. A progestin could, in principle, counter this estrogen-driven proliferation.
 
-Caution is needed in reading the literature. The retrieved publications mainly describe amenorrhea and menstrual disturbance as *effects* of injectable contraception (Depo-Provera), not as a treatment target. They therefore support pharmacology and safety context rather than therapeutic efficacy.
-
----
+Two small, older clinical reports describe therapeutic use of medroxyprogesterone acetate in fibrocystic disease (one in adolescents, one in severe disease). However, studies of hormone replacement therapy show that combined estrogen-progestin regimens can increase mammographic breast density and epithelial proliferation. Safety signals for breast tissue are therefore mixed, and the evidence is dated and of low quality.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
-
-Of 19 retrieved publications, the most relevant are listed below. All are low-tier evidence (reviews, a survey, and older narrative articles).
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic review | Cochrane Database Syst Rev | Combination injectable contraceptives are highly effective but may be limited by bleeding pattern changes |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic review | Cochrane Database Syst Rev | Update of the review above on combination injectable contraceptives |
-| [6230212](https://pubmed.ncbi.nlm.nih.gov/6230212/) | 1983 | Survey | Contraception | Survey of 35 investigators on managing menstrual disturbances during DMPA and NET-EN use; counselling emphasised |
-| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Review | J Reprod Med | Counselling and side-effect management for women using DMPA contraception |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | Int J Fertil Menopausal Stud | Long-acting contraceptive options, including depot injectables |
-| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | Int J Gynaecol Obstet | Postpartum contraception timing in relation to postpartum amenorrhea |
-| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intell Clin Pharm | Drug-induced infertility via effects on the hypothalamic-pituitary-gonadal axis |
-| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Review | IARC Monogr | General monograph on MPA carcinogenic risk evaluation |
-
----
+| [12841885](https://pubmed.ncbi.nlm.nih.gov/12841885/) | 2003 | Clinical study | Climacteric | Compared five hormone replacement regimens in postmenopausal women with benign fibrocystic mastopathy |
+| [2978834](https://pubmed.ncbi.nlm.nih.gov/2978834/) | 1988 | Clinical study | Revista chilena de pediatria | Medroxyprogesterone acetate in adolescents with fibrocystic breast disease (no abstract available) |
+| [6241963](https://pubmed.ncbi.nlm.nih.gov/6241963/) | 1983 | Therapeutic trial | Revista chilena de obstetricia y ginecologia | Small therapeutic trial in severe fibrocystic breast disease (no abstract available) |
+| [10576236](https://pubmed.ncbi.nlm.nih.gov/10576236/) | 1999 | Clinical study | Int J Gynaecol Obstet | Mammographic and ultrasound changes, including new solid or cystic formations, during different HRT types |
+| [11379380](https://pubmed.ncbi.nlm.nih.gov/11379380/) | 2001 | Cohort/clinical study | Climacteric | Fine-needle cytology used to follow breast epithelial proliferation during HRT |
+| [11379377](https://pubmed.ncbi.nlm.nih.gov/11379377/) | 2001 | Clinical study | Climacteric | Effects of different HRT regimens on mammographic breast density |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Review | Am J Obstet Gynecol | Fibrocystic disease linked to estrogen predominance and progesterone deficiency; breast cancer risk raised two- to fourfold |
+| [3657597](https://pubmed.ncbi.nlm.nih.gov/3657597/) | 1987 | Review | Maturitas | Aetiology remains unclear; some progestogens, including this drug, caused myoepithelial hyperplasia in beagles, while oral contraceptives reduced incidence in women |
+| [8603031](https://pubmed.ncbi.nlm.nih.gov/8603031/) | 1996 | Preclinical/mechanistic | J Steroid Biochem Mol Biol | Androgen receptor-mediated growth control in breast and endometrial cancer cells (indirect) |
 
 ## Canada Market Information
 
@@ -100,45 +90,28 @@ Of 19 retrieved publications, the most relevant are listed below. All are low-ti
 | 02221284 | TEVA-MEDROXYPROGESTERONE | Not available | Not available |
 | 02523493 | DEPO-PROVERA | Not available | Not available |
 
-Eight valid single-ingredient licences are held in Canada; the five above are the main ones shown.
-
----
+All 8 single-ingredient licences are valid; the table lists the first five. Others include DEPO-PROVERA (02523493) and further TEVA-MEDROXYPROGESTERONE products.
 
 ## Safety Considerations
 
-**Contraindication signals from the knowledge graph** (drug-disease associations, not label text):
-- Cardiovascular and metabolic: hypertension, diabetes mellitus, diabetic ketoacidosis, hypertriglyceridemia
-- Hepatic and renal: liver failure, liver disease, gallbladder disease, kidney disease
-- Hormone-related and malignancy: female breast carcinoma, hypothyroidism
-- Bone and mineral: osteoporosis (including postmenopausal), hypercalcemia, nephrocalcinosis, humoral hypercalcemia of malignancy
-- Other: epilepsy, asthma, systemic lupus erythematosus, anxiety and dysthymic disorders, substance abuse/dependence
+- **Breast tissue signals**: Combined estrogen-progestin regimens have been associated with increased breast density and epithelial proliferation, and one review notes a two- to fourfold higher breast cancer risk in fibrocystic disease. This calls for caution.
+- **Drug Interactions**: 100 interactions were found. The main ones listed are of moderate severity, mostly with glucose-lowering drugs (acarbose, metformin, canagliflozin, dapagliflozin, empagliflozin, glimepiride, chlorpropamide, saxagliptin, alogliptin), GLP-1 agonists (liraglutide, semaglutide, dulaglutide, albiglutide), insulins (aspart, degludec, detemir), and also dexamethasone, aprepitant, and clarithromycin.
 
-**Drug interactions:** 100 interactions were recorded, all of those listed being Moderate level. The main groups are:
-- Antidiabetic agents (acarbose, metformin, glimepiride, chlorpropamide, SGLT2 inhibitors such as canagliflozin, dapagliflozin and empagliflozin, DPP-4 inhibitors such as alogliptin and saxagliptin, GLP-1 agonists such as liraglutide, semaglutide and dulaglutide, and insulins): glycaemic control may be affected
-- Others: aprepitant, dexamethasone, clarithromycin, pegvaliase
-
-Package insert warnings and contraindications were not available, so please refer to the Health Canada package insert for authoritative safety information.
-
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The prediction score is very high, but there are no registered clinical trials and the literature mainly covers menstrual disturbance as a side effect of injectable contraception, not as a therapeutic outcome. MPA's use in secondary amenorrhea is established pharmacology, so this is not a distinct repurposing opportunity, and the repurposing case rests on model prediction alone.
+The hormonal rationale is plausible, but the direct clinical evidence is only a few small, old, mostly uncontrolled reports. Breast safety signals with progestin exposure are mixed, and no registered trials exist.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings, contraindications, and approved indication text (currently missing and blocking safety screening)
-- Mechanism of action data from DrugBank
-- Confirmation of whether amenorrhea management is already covered by an existing Canadian label indication
-- Controlled clinical evidence for amenorrhea, or a review of the existing therapeutic guidance
-- A review of the metabolic and breast-related contraindication signals, together with the antidiabetic drug interactions, for the target population
+- Obtain and review the Canadian package insert warnings and contraindications
+- Mechanism of action data
+- A modern controlled clinical study specific to fibrocystic breast disease, with breast safety endpoints
+- Assessment of whether a suitable dose and route are available for this use
 
-**Other predicted indications (for reference):**
-- Fibrocystic breast disease (L3, Research Question): two small, dated clinical reports of MPA use, but HRT literature shows mixed breast safety signals, including increased mammographic density.
-- Benign mammary dysplasia, cervix endometriosis, endometriosis of the rectovaginal septum and vagina, endometriosis in cutaneous scar, apocrine adenosis, and blunt duct adenosis (Hold): little or no direct evidence. Several are subtypes of the existing endometriosis indication, or are breast lesions where progestin proliferation risk argues for caution.
-- Bilateral renal hypoplasia and renal hypoplasia (Hold, L5): no plausible mechanism; the predictions are likely TxGNN model (deep learning) artifacts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

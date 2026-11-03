@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: High Evidence (L1-L2)
+parent: Moderate Evidence (L3-L4)
 nav_order: 775
-evidence_level: L2
+evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L2). Approved use: Not recorded in the local data"
+description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Progesterone is a natural steroid hormone, originally used for endometriosis, endometrial conditions, and postmenopausal problems such as osteoporosis and atrophic vaginitis.
-The TxGNN model predicts it may be effective for **amenorrhea**, with **4 clinical trials** and **19 publications** currently supporting this direction.
-Most of this evidence is indirect: the trials mainly test estrogen or combined hormone replacement in hypoestrogenic young women, and the literature is mostly reviews.
+Progesterone is a natural female sex hormone (a progestogen) that is marketed in Canada in several single-ingredient products. The TxGNN model predicts it may be useful for **breast fibrocystic disease**, with a prediction score of **0.9998**.
+
+Support is thin: there are **0 registered clinical trials** and **20 publications**. These are mostly reviews, older endocrine studies and observational work, with no direct evidence that progesterone improves outcomes.
 
 ---
 
@@ -51,56 +51,49 @@ Most of this evidence is indirect: the trials mainly test estrogen or combined h
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9998 |
-| Evidence Level | L2 |
+| Evidence Level | L4 |
 | Canada Market Status | Marketed (valid licenses: 12 of 12) |
 | Number of DINs | 12 (valid: 12) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, progesterone is a natural progestogen that acts on progesterone receptors in the endometrium. It is already used for endometriosis and related endometrial conditions, and mechanistically may be applicable to amenorrhea.
+Detailed mechanism-of-action data for progesterone is not available in the data compiled for this report. The rationale below therefore rests on the published literature on the disease itself.
 
-In secondary amenorrhea, progesterone is used in progestin challenge testing and in cyclic regimens that induce withdrawal bleeding. It works on endometrial progesterone receptors to cause secretory transformation of an oestrogen-primed endometrium. Amenorrhea caused by low oestrogen or hypothalamic dysfunction (for example in athletes or in anorexia nervosa) involves disrupted hypothalamic-pituitary-ovarian signalling, and progesterone is an established clinical tool in this setting. Reviews on oral micronized progesterone in endocrinology and on amenorrhea evaluation support this use.
+Fibrocystic breast changes are the most common benign breast condition. They are thought to arise from excessive cell proliferation in response to the monthly shifts in estrogen and progesterone. One review (Vorherr, 1986) describes the pathophysiology as estrogen predominance with progesterone deficiency, driving hyperproliferation of connective tissue and then of epithelium. A study of 50 women with the condition and 40 controls examined the estradiol-to-progesterone (E2/P) ratio in the late luteal phase, supporting the idea that hormone balance matters.
 
-An important caveat is that the listed trials mainly study estrogen replacement, or estrogen combined with cyclic progesterone, in hypoestrogenic young women. They do not isolate progesterone as the treatment for amenorrhea itself, so the evidence is partly indirect.
+If relative progesterone deficiency contributes to the disease, supplementing progesterone is a plausible hypothesis. However, the evidence is mechanistic and descriptive. No interventional study of progesterone in this condition was found, so this remains a research question rather than a demonstrated benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00946192](https://clinicaltrials.gov/study/NCT00946192) | Phase 3 | Completed | 121 | Body composition and hormone changes in young athletes with and without menstrual loss; tests transdermal or oral estrogen versus none for bone density in estrogen-deficient athletes. Progesterone is probably not the isolated agent. |
-| [NCT00088153](https://clinicaltrials.gov/study/NCT00088153) | Phase 2/3 | Completed | 110 | Effects of anorexia nervosa on peak bone mass in adolescents; tests whether estrogen helps maintain bone development. Primary outcome is bone health, not resolution of amenorrhea. |
-| [NCT03740204](https://clinicaltrials.gov/study/NCT03740204) | Phase 2 | Active, not recruiting | 120 | Transdermal estradiol with cyclic progesterone versus placebo in hypoestrogenic young women with eating disorders; endpoints are cognitive flexibility and reward processing. |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Phase 2 | Completed | 29 | Cardiovascular risk markers and inflammation in young women with functional hypothalamic amenorrhea; endpoints are vascular and immunologic, and the sample is small. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-The data compiled for this report include 19 publications for this indication. The most relevant ones are listed below, with reviews prioritised.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38652231](https://pubmed.ncbi.nlm.nih.gov/38652231/) | 2024 | Review | Rev Endocr Metab Disord | Diagnostic and therapeutic use of oral micronized progesterone in endocrinology, including its role in controlling gonadotropin secretion and endometrial changes |
-| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Review | Rev Endocr Metab Disord | Endocrine background of hormonal treatments for endometriosis (oestrogen dependency and progesterone resistance) |
-| [33716979](https://pubmed.ncbi.nlm.nih.gov/33716979/) | 2021 | Review | Front Endocrinol | Etiology, symptoms, and treatment of premature ovarian insufficiency |
-| [32233689](https://pubmed.ncbi.nlm.nih.gov/32233689/) | 2020 | Review | Climacteric | Clinical management of vaginal bleeding in postmenopausal women |
-| [36653588](https://pubmed.ncbi.nlm.nih.gov/36653588/) | 2023 | Review | Reprod Sci | Methods to repair and regenerate injured endometrium; endometrial injury can cause amenorrhea |
-| [18756412](https://pubmed.ncbi.nlm.nih.gov/18756412/) | 2008 | Review | Semin Reprod Med | Intrauterine adhesions (Asherman's syndrome), which range from amenorrhea to normal menses |
-| [8629565](https://pubmed.ncbi.nlm.nih.gov/8629565/) | 1996 | Review | Am Fam Physician | Stepwise evaluation of amenorrhea |
-| [7457308](https://pubmed.ncbi.nlm.nih.gov/7457308/) | 1980 | Other | Am Fam Physician | Diagnostic work-up of amenorrhea, including withdrawal bleeding after a course of progesterone |
-| [28257537](https://pubmed.ncbi.nlm.nih.gov/28257537/) | 2017 | Other | South Med J | Primary ovarian insufficiency, secondary amenorrhea, and the need for hormone replacement |
-| [22283375](https://pubmed.ncbi.nlm.nih.gov/22283375/) | 2012 | Other | Gynecol Endocrinol | Neuroendocrine control of ovulation; hypothalamic failure leading to anovulation and amenorrhea |
-
-No randomized trial of progesterone alone for amenorrhea was found in the literature compiled for this report.
+| [28598826](https://pubmed.ncbi.nlm.nih.gov/28598826/) | 2017 | Randomized trial (metformin, not progesterone) | Breast Disease | Double-blind placebo-controlled trial of metformin in fibrocystic changes, chosen for its antiproliferative effect. It addresses the disease but not progesterone. |
+| [31168213](https://pubmed.ncbi.nlm.nih.gov/31168213/) | 2018 | Observational (50 cases vs 40 controls) | Acta Clinica Croatica | Examined the late-luteal estradiol/progesterone relationship in women with fibrocystic breast disease versus controls. |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Review | Am J Obstet Gynecol | Describes the disease as driven by estrogen predominance and progesterone deficiency. Notes a two- to fourfold increase in breast cancer risk. |
+| [6481706](https://pubmed.ncbi.nlm.nih.gov/6481706/) | 1984 | Review | J Reprod Med | Reviews how estrogen and progesterone relate to benign and malignant breast disease. Concludes that oral contraceptives may be slightly protective. |
+| [1936311](https://pubmed.ncbi.nlm.nih.gov/1936311/) | 1991 | Review | Fertil Steril | Earlier oral contraceptives appeared to protect against most benign breast disease. It is unclear whether current low-dose progestogen products do the same. |
+| [41438397](https://pubmed.ncbi.nlm.nih.gov/41438397/) | 2025 | Cross-sectional | Int J Reprod Biomed | Studied the association between fibrocystic breast disease and polycystic ovary syndrome phenotypes. |
+| [7788004](https://pubmed.ncbi.nlm.nih.gov/7788004/) | 1995 | Cohort | Eur J Endocrinol | Measured thyroid hormones in serum and breast cyst fluid of women with fibrocystic disease. |
+| [3902125](https://pubmed.ncbi.nlm.nih.gov/3902125/) | 1985 | Review | Breast Cancer Res Treat | Review of the epidemiology and endocrinology of benign breast disease. |
+| [34537861](https://pubmed.ncbi.nlm.nih.gov/34537861/) | 2022 | Pathology review | Virchows Arch | Reviews apocrine change in benign, atypical and malignant breast lesions. It is diagnostic in focus. |
+| [22103710](https://pubmed.ncbi.nlm.nih.gov/22103710/) | 2012 | Observational | Gynecol Endocrinol | Compared fibrocystic breast disease rates across PCOS phenotypes against hormonal and metabolic parameters. |
 
 ---
 
 ## Canada Market Information
+
+Progesterone has 12 valid single-ingredient licences in Canada. The approved indication text is not recorded in the local data. Five of the licences are shown below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -110,54 +103,34 @@ No randomized trial of progesterone alone for amenorrhea was found in the litera
 | 02241013 | Crinone | Not specified | Not specified |
 | 02166704 | Prometrium | Not specified | Not specified |
 
-Twelve single-ingredient licences are currently valid and none are cancelled. Only the first five are listed above. Others include ACT Progesterone Injection, PMS-Progesterone, Reddy-Progesterone, ACH-Progesterone, Teva-Progesterone, and Bijuva.
-
 ---
 
 ## Safety Considerations
 
-**Contraindication signals from the knowledge graph** (these are drug-disease links from the TxGNN knowledge graph, not label text):
-hypertension, liver failure and liver disease, kidney disease, gallbladder disease, epilepsy, anxiety and neurotic disorders, dysthymic disorder, porphyria, diabetes mellitus (including diabetic ketoacidosis), hyperglycemia, hypertriglyceridemia, hypothyroidism, osteoporosis, systemic lupus erythematosus, asthma, and substance abuse or dependence.
+- **Drug Interactions**: 100 interactions are recorded. The examples reviewed are all rated Moderate. They include:
+  - antidiabetic agents: acarbose, metformin, pioglitazone, glimepiride, repaglinide, chlorpropamide, alogliptin, saxagliptin, canagliflozin, dapagliflozin and empagliflozin
+  - GLP-1 agonists: semaglutide, liraglutide, dulaglutide and albiglutide
+  - insulins: insulin aspart, degludec and detemir
+  - others: aprepitant and clarithromycin
+- **Conditions flagged for caution**: The data compiled for this report links progesterone with caution in several conditions. These come from disease-level associations, not label text. They include hypertension, liver disease and liver failure, kidney disease, diabetes mellitus, epilepsy, asthma, porphyria, hypothyroidism, systemic lupus erythematosus and hypertriglyceridemia.
 
-**Drug Interactions:** 100 interactions were recorded; the 20 reviewed here are all rated Moderate. They are mainly with glucose-lowering drugs, so blood glucose monitoring is advisable when used together:
-- Antidiabetic agents: acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, chlorpropamide, dapagliflozin, saxagliptin, dulaglutide, empagliflozin, glimepiride, repaglinide, semaglutide, liraglutide, and insulins (aspart, degludec, detemir)
-- Others: aprepitant, clarithromycin
-
-Please refer to the package insert for label warnings and contraindications.
+Label warnings and contraindications were not captured, so please refer to the package insert for full safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Progesterone already has an established role in evaluating and managing secondary amenorrhea, and four registered trials (including one completed Phase 3 and one completed Phase 2/3) involve closely related populations. However, these trials mainly test estrogen-based regimens rather than progesterone alone, and the literature is mostly reviews, so the evidence is indirect.
+The hormonal rationale for breast fibrocystic disease is plausible and progesterone is widely marketed in Canada. However, the evidence is limited to reviews and observational or mechanistic studies. There are no registered trials and no direct interventional data for progesterone. The label safety information has also not yet been captured.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (MOA) for the formal record
-- Health Canada package insert warnings and contraindications, including approved indications and dosage forms, which are not available in the data compiled for this report
-- Trial or cohort data that isolate progesterone for amenorrhea, separating hypothalamic, ovarian, and structural causes
-- A review of the knowledge-graph contraindication signals (for example hypertension, liver disease, diabetes) against the target population
-- Confirmation that an available Canadian oral or injectable product suits the intended regimen
-
----
-
-## Other Predicted Indications (Brief Note)
-
-The other nine predictions have weaker support and are not recommended to advance now:
-
-| Predicted Indication | Evidence Level | Recommendation | Main Reason |
-|------|------|------|------|
-| Breast fibrocystic disease | L4 | Research Question | Plausible oestrogen/progesterone imbalance rationale; no clinical trials |
-| Benign mammary dysplasia | L5 | Research Question | Receptor and descriptive data only; some veterinary evidence |
-| Cervix endometriosis | L4 | Research Question | Extrapolated from general endometriosis; much of the literature concerns antiprogestins |
-| Endometriosis of rectovaginal septum and vagina | L4 | Research Question | One receptor immunohistochemistry study; no treatment data |
-| Endometriosis in cutaneous scar | L4 | Research Question | One case report; surgery is the usual management |
-| Renal hypoplasia, bilateral | L5 | Hold | No credible mechanistic link |
-| Renal hypoplasia (disease) | L5 | Hold | Only an unrelated preclinical kidney cyst model |
-| Apocrine adenosis of breast | L5 | Hold | Lesions are mainly androgen receptor driven; no therapeutic evidence |
-| Blunt duct adenosis of breast | L5 | Hold | No trials or literature; computational prediction only |
+- Controlled clinical evidence (a randomized trial or well-designed prospective study) of progesterone in this condition
+- Mechanism-of-action data for the drug
+- Health Canada package insert warnings and contraindications, reviewed for a benign-breast-disease population
+- Route and dosage form assessment (topical or oral) suited to breast symptoms
+- A review of the interaction profile, especially with antidiabetic therapy
 
 ## Disclaimer
 

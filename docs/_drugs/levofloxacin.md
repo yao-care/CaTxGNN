@@ -38,10 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Levofloxacin is a fluoroquinolone antibiotic, originally used for bacterial infections such as pneumonia, sinusitis, conjunctivitis and pyelonephritis.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but the evidence is very thin: **0 clinical trials** and **1 publication**, which is an outbreak report of a different (microsporidial) eye infection.
-
----
+Levofloxacin is a fluoroquinolone antibacterial marketed in Canada in multiple single-ingredient products.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but there are **0 clinical trials** and only **1 publication** (an outbreak report on a different, microsporidial cause of keratoconjunctivitis), so the prediction rests on model output alone.
 
 ## Quick Overview
 
@@ -55,33 +53,23 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Number of DINs | 17 (valid: 17) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this report. Levofloxacin belongs to the fluoroquinolone class of antibacterials, and its efficacy against bacterial infections, including bacterial conjunctivitis, is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Levofloxacin belongs to the fluoroquinolone class of antibacterials, which act by inhibiting bacterial DNA replication. The model likely scored this disease highly because of its similarity to other ocular infections and inflammatory eye conditions.
 
-The prediction most likely reflects the similarity between ocular infections: the model links a drug used for bacterial conjunctivitis to another inflammatory or infectious condition of the eye surface. The one paper retrieved describes a **microsporidial** keratoconjunctivitis outbreak. Fluoroquinolones have no established activity against microsporidia, so the mechanistic link is weak. The very high score appears to rest on network similarity, not on clinical data.
-
----
+The link is weak. The only retrieved paper describes an outbreak of microsporidial keratoconjunctivitis from contaminated swimming-pool water. Fluoroquinolones have no established activity against microsporidia, so that report does not support a benefit from levofloxacin. The high score reflects computational proximity, not clinical data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak report | American Journal of Ophthalmology | Outbreak of microsporidial keratoconjunctivitis linked to swimming-pool water contamination in Taiwan. It does not show levofloxacin benefit. |
-
----
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak report | American Journal of Ophthalmology | Outbreak of microsporidial keratoconjunctivitis linked to swimming-pool water contamination in Taiwan; no levofloxacin treatment data |
 
 ## Canada Market Information
-
-Levofloxacin has 17 valid single-ingredient authorizations in Canada. Dosage form and approved indication text were not available for these products. Five of the main authorizations:
 
 | DIN | Product Name |
 |---------|------|
@@ -91,29 +79,26 @@ Levofloxacin has 17 valid single-ingredient authorizations in Canada. Dosage for
 | 02315440 | TEVA-LEVOFLOXACIN |
 | 02325942 | APO-LEVOFLOXACIN |
 
----
+All 17 licences in the local records are valid single-ingredient products. Only five are listed here.
 
 ## Safety Considerations
 
-- **Disease associations flagged in the knowledge graph** (not label text; to be verified against the package insert): long QT syndrome, torsades de pointes, epilepsy, liver disease and drug-induced liver injury, tendinitis, peripheral neuropathy, myasthenia gravis, impaired renal function, diabetes mellitus and diabetic ketoacidosis, *Clostridium difficile* colitis, rhabdomyolysis, thrombocytopenia, leukopenia, pancytopenia, anemia, myocardial ischemia and coronary artery disease, potassium deficiency, and others.
-- **Drug Interactions**: 100 interactions were identified. Those shown include two **Major** ones, **tramadol** and **hydrocortisone**. Many are **Moderate**, for example abiraterone, acarbose, famotidine, formoterol, ketorolac, ibuprofen, ethinylestradiol, metformin, pioglitazone, alfuzosin and amifampridine. Minor ones include paclitaxel and aldesleukin.
+- **Drug Interactions**: Interaction screening returned 100 entries. Major-level interactions include tramadol and hydrocortisone. Many moderate-level interactions were also found, including with antidiabetic agents (acarbose, alogliptin, metformin, pioglitazone, albiglutide), NSAIDs (ibuprofen, ketorolac), famotidine, abiraterone, adenosine, alfuzosin, amifampridine, ethinylestradiol, formoterol and salbutamol.
 
-Please refer to the package insert for the official warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no supporting clinical trials. Its only publication concerns a microsporidial outbreak, a pathogen not expected to respond to fluoroquinolones. Evidence is at the model-prediction level (L5).
+No clinical trials exist, and the single retrieved publication concerns a microsporidial outbreak that levofloxacin is not expected to treat. The high TxGNN score is not backed by direct clinical evidence, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Clinical or preclinical evidence of levofloxacin activity against punctate epithelial keratoconjunctivitis, and identification of the causative pathogens (for example adenoviral versus bacterial)
-- Detailed mechanism of action data
-- Health Canada package insert warnings and contraindications, including ophthalmic formulation and route compatibility
-- Consideration of other predictions for this drug that have stronger support. Infection prophylaxis in newly diagnosed myeloma (monoclonal gammopathy) is backed by the phase 3 TEAMM RCT. Plague (septicemic plague) is backed by animal-model data that supported regulatory approval. Both are better candidates for further evaluation, with stewardship-based guardrails.
+- Clinical or preclinical studies of levofloxacin in punctate epithelial keratoconjunctivitis, including the ocular route and formulation
+- Mechanism of action data and an analysis of the likely causative organisms in this condition
+- Package insert warnings and contraindications from Health Canada
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -38,7 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Fluocinolone acetonide is a potent topical corticosteroid, originally used for inflammatory and itchy skin conditions such as eczema, dermatitis and discoid lupus erythematosus.
+Fluocinolone acetonide is a synthetic corticosteroid used in skin preparations for inflammatory and itchy skin conditions.
+The TxGNN model predicts it may be effective for **lichen planus pemphigoides**, but **no clinical trials and no publications** were found to support this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
@@ -54,11 +55,9 @@ Fluocinolone acetonide is a potent topical corticosteroid, originally used for i
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report. Based on known information, fluocinolone acetonide is a synthetic corticosteroid. Pharmacology data show that it acts on the glucocorticoid receptor (NR3C1). Its efficacy in inflammatory skin disease is established, and mechanistically it may be applicable to hypertrophic lichen planus.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that fluocinolone acetonide acts on the glucocorticoid receptor (NR3C1), the target through which corticosteroids suppress inflammation and immune activity.
 
-Hypertrophic lichen planus is a T-cell-mediated inflammatory skin disease, and the drug's original indications already include "lichen disease". Glucocorticoid-driven suppression of inflammatory cytokines and T-cell activity is therefore a plausible mechanism. This link rests on general corticosteroid class pharmacology, not on drug-specific data.
-
-These are reasonable from an anti-inflammatory standpoint, but each carries extra uncertainty. Pigmentary disease may respond less to a corticosteroid. In the atrophic variant, skin thinning from corticosteroids is a concern. Lichen planus pemphigoides is often managed with systemic therapy.
+Lichen planus pemphigoides combines features of lichen planus with subepidermal autoimmune blistering similar to pemphigoid. Corticosteroids are a mainstay of immunosuppressive treatment in pemphigoid-spectrum disease, which gives a plausible mechanistic link. However, management of this disease is often systemic rather than topical-only, so a topical product may not be sufficient for all patients. Route compatibility and similarity to the drug's existing uses have not yet been assessed.
 
 ## Clinical Trial Evidence
 
@@ -76,25 +75,28 @@ Currently no related literature available.
 | 00873292 | DERMA SMOOTHE/FS LIQ 0.01% | Not stated | Not stated |
 | 02459655 | OTIXAL | Not stated | Not stated |
 
+All three licences are single-ingredient products and currently valid.
+
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph (not label text):** herpes simplex infections (including herpes simplex keratitis), geniculate herpes zoster, fungal eye infection and mycotic corneal ulcer, ocular tuberculosis, glaucoma, adrenocortical insufficiency/Addison disease, skin atrophy, telangiectasis and related capillary disease, peripheral vascular and arterial disease, sunburn, dermatitis and atopic eczema.
-- **Drug Interactions:** 9 interacting drugs were listed, including dexamethasone, cetirizine, citalopram, valproic acid, acetaminophen, digoxin, levothyroxine, alendronic acid and clonazepam. The severity level is not specified for any of them.
-- Package insert warnings and contraindications from Health Canada were not available. Please refer to the package insert for full safety information.
+- **Drug Interactions**: An interaction screen returned 9 drug pairs, all with an unclassified severity level: dexamethasone, cetirizine, citalopram, valproic acid, acetaminophen, digoxin, levothyroxine, alendronic acid and clonazepam. The clinical significance of each has not been graded.
+
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-However, there are no clinical trials or publications, so the evidence level is L5 (model prediction only). Hypertrophic lichen planus is also a topical-use target in a setting where skin atrophy is a known risk.
+The only support for this prediction is a high model score (0.9934). There are no registered trials or publications on lichen planus pemphigoides, so the evidence level is L5. The corticosteroid mechanism is plausible, but it is not enough on its own to justify moving forward.
 
 **To proceed, the following is needed:**
-- Literature and trial search on topical corticosteroids (including fluocinolone acetonide) in hypertrophic lichen planus
-- Package insert warnings and contraindications from Health Canada
+- A systematic literature search for case reports or studies of corticosteroids in lichen planus pemphigoides
+- Health Canada package insert warnings and contraindications
 - Detailed mechanism of action data
-- Approved indications and dosage forms for the three Canadian products, to confirm route compatibility (skin vs. ear products)
-- Severity grading for the listed drug interactions
+- Assessment of whether topical routes are adequate, given that disease management is often systemic
+- Review of the drug interaction findings with graded severity
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

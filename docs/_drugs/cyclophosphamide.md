@@ -38,10 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Cyclophosphamide is an alkylating chemotherapy drug originally used for lymphomas (including cutaneous T-cell lymphoma), plasma cell myeloma, neuroblastoma, breast cancer and retinoblastoma.
-Most of this evidence comes from transplant conditioning and combination regimens, not from cyclophosphamide used alone.
-
----
+Cyclophosphamide is an alkylating chemotherapy and immunosuppressive agent that is marketed in Canada.
+The TxGNN model predicts it may be relevant to **vertebral anomalies and variable endocrine and T-cell dysfunction**, but the prediction is a computational output only: **no clinical trials** and **no publications** in the data compiled for this report address this condition.
 
 ## Quick Overview
 
@@ -50,64 +48,26 @@ Most of this evidence comes from transplant conditioning and combination regimen
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 0.9938 |
-| Evidence Level | L5 (the prediction-level rating assigned in the data compiled for this report; see the note under Clinical Trial Evidence) |
+| Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 10 of 10) |
 | Number of DINs | 10 (valid: 10) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cyclophosphamide is an alkylating prodrug. It is activated to phosphoramide mustard, which cross-links DNA and kills rapidly dividing cells. That gives it direct cytotoxicity against leukemic blasts.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Cyclophosphamide is a well-known cytotoxic and immunosuppressive agent used across many cancers and immune-mediated conditions.
 
-Its approved indications (lymphoma, myeloma, neuroblastoma) are also rapidly proliferating malignancies of blood and nervous-system origin. The same cytotoxic mechanism is therefore plausibly applicable to myeloid leukemia.
-
-Cyclophosphamide also provides lymphodepletion and immunosuppression. This is why it is widely used in conditioning before allogeneic stem cell transplant (for example busulfan-cyclophosphamide) and as post-transplant cyclophosphamide. The post-transplant use selectively depletes alloreactive T cells and reduces graft-versus-host disease (GVHD), which supports haploidentical and mismatched-donor transplants in myeloid malignancies.
-
----
+No mechanistic rationale for this prediction has been identified. The high TxGNN score is a computational result only. Cyclophosphamide suppresses T-cell function, which is not an obvious therapeutic fit for a congenital syndrome that already involves T-cell dysfunction, and it could be harmful in that setting. The prediction should be treated as a hypothesis with no supporting evidence at this time.
 
 ## Clinical Trial Evidence
 
-The data compiled for this report list 33 trials. The table shows the 10 most relevant, favouring those graded most relevant in the data. Cyclophosphamide is almost always one component of a regimen, so these trials do not isolate its individual effect.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00003187](https://clinicaltrials.gov/study/NCT00003187) | Phase 2/3 | Completed | 19 | Randomized comparison of conventional vs T-cell-depleted unrelated donor marrow transplant; conditioning commonly includes cyclophosphamide. Small study. |
-| [NCT00315705](https://clinicaltrials.gov/study/NCT00315705) | Phase 1/2 | Completed | 50 | Clofarabine + etoposide + cyclophosphamide in pediatric relapsed/refractory acute leukemias. |
-| [NCT04473911](https://clinicaltrials.gov/study/NCT04473911) | Phase 1 | Completed | 25 | Reduced-intensity haploidentical transplant with post-transplant cyclophosphamide and GVHD prevention (AML, ALL, MDS and others). |
-| [NCT00390793](https://clinicaltrials.gov/study/NCT00390793) | Phase 2 | Completed | 107 | Hyper-CVAD (contains cyclophosphamide) plus dasatinib in Ph+ ALL. Mostly lymphoid disease, so only partly relevant to myeloid leukemia. |
-| [NCT01350245](https://clinicaltrials.gov/study/NCT01350245) | Phase 2 | Completed | 28 | Two-step haploidentical transplant for hematologic malignancies in remission; mixed myeloid population. |
-| [NCT02441803](https://clinicaltrials.gov/study/NCT02441803) | Phase 2 | Completed | 11 | Allogeneic transplant as salvage for primary induction-failure AML. Very small; cyclophosphamide's contribution is hard to isolate. |
-| [NCT00309842](https://clinicaltrials.gov/study/NCT00309842) | Phase 2 | Completed | 213 | Cord blood transplant with cyclophosphamide/fludarabine/total body irradiation myeloablative conditioning. |
-| [NCT04904588](https://clinicaltrials.gov/study/NCT04904588) | Phase 2 | Active, not recruiting | 300 | HLA-mismatched unrelated donor transplant with post-transplant cyclophosphamide, tacrolimus and mycophenolate for GVHD prophylaxis. |
-| [NCT05515029](https://clinicaltrials.gov/study/NCT05515029) | Phase 3 | Active, not recruiting | 56 | Post-transplant cyclophosphamide with abatacept, vedolizumab and a calcineurin inhibitor in children and young adults. |
-| [NCT00939653](https://clinicaltrials.gov/study/NCT00939653) | Phase 2 | Terminated | 6 | Clofarabine + etoposide + cyclophosphamide in relapsed/refractory AML. Terminated early with very few patients. |
-
-**Note on the evidence level:** the L1 rating comes from the data compiled for this report. In practice, the trials listed above are mostly small Phase 1/2 studies or transplant studies in which cyclophosphamide is one part of the regimen. Only one Phase 3 trial (NCT05515029, 56 patients) appears, and it is still active. The strict criterion of two completed Phase 3 RCTs is therefore not clearly met for myeloid leukemia. Treat L1 with caution.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36357773](https://pubmed.ncbi.nlm.nih.gov/36357773/) | 2023 | Systematic review / network meta-analysis | Bone Marrow Transplant | Compared myeloablative conditioning regimens (including Bu/Cy) in adult AML in complete remission. |
-| [40434956](https://pubmed.ncbi.nlm.nih.gov/40434956/) | 2025 | Cohort | Future Oncol | Busulfan-cyclophosphamide vs fludarabine-busulfan for allogeneic transplant in AML. |
-| [38758817](https://pubmed.ncbi.nlm.nih.gov/38758817/) | 2024 | Registry study | Cancer | Post-transplant cyclophosphamide vs ATG vs combination for GVHD prevention in haploidentical transplant for AML. |
-| [38466265](https://pubmed.ncbi.nlm.nih.gov/38466265/) | 2024 | Cohort | Cytotherapy | Prognostic factors in haploidentical transplant with post-transplant cyclophosphamide for AML. |
-| [40905088](https://pubmed.ncbi.nlm.nih.gov/40905088/) | 2026 | Cohort | Haematologica | In 217 AML patients in remission, 2-year overall survival was 77% with myeloablative conditioning and post-transplant cyclophosphamide. |
-| [41046309](https://pubmed.ncbi.nlm.nih.gov/41046309/) | 2026 | Cohort | Bone Marrow Transplant | Single-unit cord blood vs haploidentical transplant with post-transplant cyclophosphamide in AML in first remission. |
-| [42373850](https://pubmed.ncbi.nlm.nih.gov/42373850/) | 2026 | Cohort | Bone Marrow Transplant | Haploidentical vs mismatched unrelated donor transplant with post-transplant cyclophosphamide in secondary AML. |
-| [25345651](https://pubmed.ncbi.nlm.nih.gov/25345651/) | 2015 | Cohort | Am J Hematol | Cyclophosphamide/fludarabine nonmyeloablative vs myeloablative transplant in 165 AML patients; survival outcomes did not differ in the analysis. |
-| [14662323](https://pubmed.ncbi.nlm.nih.gov/14662323/) | 2003 | Review | Exp Hematol | Busulfan-cyclophosphamide vs total body irradiation-cyclophosphamide conditioning in AML; results are conflicting. |
-| [35955881](https://pubmed.ncbi.nlm.nih.gov/35955881/) | 2022 | Cohort | Int J Mol Sci | Post-transplant cyclophosphamide after matched donor transplant in pediatric AML. |
-
----
+Currently no related literature available.
 
 ## Canada Market Information
-
-Ten single-ingredient authorizations are valid. The dosage form and approved indication text were not available in the data compiled for this report. The five main authorizations are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -117,57 +77,36 @@ Ten single-ingredient authorizations are valid. The dosage form and approved ind
 | 02241795 | Procytox Tab 25 mg | Tablet (per product name) | Not available |
 | 02241796 | Procytox Tab 50 mg | Tablet (per product name) | Not available |
 
----
+All 10 licences on record are valid single-ingredient products. The table above lists the first five.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, nitrogen mustard class) |
-| Myelosuppression Risk | High (leukopenia and neutropenia are expected; detailed toxicity data were not available in the data compiled for this report) |
-| Emetogenicity Classification | Moderate to high, depending on dose (general drug-class knowledge) |
-| Monitoring Items | CBC with differential, liver and renal function, urinalysis (bladder toxicity), electrolytes |
+| Myelosuppression Risk | High (leukopenia and neutropenia are expected; please refer to the package insert) |
+| Emetogenicity Classification | Moderate to high, dose-dependent |
+| Monitoring Items | Complete blood count with differential, liver and renal function, urinalysis for haematuria |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
-
-Please also refer to the package insert warnings and precautions.
-
----
 
 ## Safety Considerations
 
-- **Drug Interactions:** 100 interactions were identified. Those shown are mostly Moderate, with a few Minor. The main ones are:
-  - Amphotericin B products (conventional, lipid complex, cholesteryl sulfate, liposomal): Moderate
-  - Sulfonylurea and related antidiabetics (chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide), plus nateglinide, repaglinide, troglitazone: Moderate
-  - Bupropion, aprepitant, metronidazole, nitisinone: Moderate
-  - Levofloxacin, ondansetron: Minor
-- **Bladder toxicity:** the literature compiled for the retroperitoneal neoplasm prediction describes drug-induced bladder and urinary disorders, which is relevant to cyclophosphamide.
+- **Drug Interactions**: 100 interactions were recorded. Those listed include moderate-level interactions with amphotericin B products (including lipid complex, cholesteryl sulfate and liposomal forms), bupropion, aprepitant, metronidazole, nitisinone and troglitazone. Several sulfonylurea and related antidiabetic agents (chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide, nateglinide, repaglinide) are also listed as moderate. Levofloxacin and ondansetron are listed as minor.
 
-Package insert warnings and contraindications were not available in the data compiled for this report; please refer to the package insert for them.
-
----
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Cyclophosphamide is already marketed in Canada and is a long-standing backbone of transplant conditioning and post-transplant GVHD prophylaxis in myeloid leukemia. Many Phase 1–3 trials and cohort studies support this use, but cyclophosphamide is almost always combined with other agents and the trials are mostly small. Guardrails are therefore needed.
+No trials or publications study this condition, no mechanistic rationale has been identified, and cyclophosphamide's T-cell suppression could be harmful in a disorder involving T-cell dysfunction. The score alone is not sufficient to justify further development.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Confirmation of the evidence level for myeloid leukemia, ideally from randomized comparisons that isolate cyclophosphamide's contribution (for example post-transplant cyclophosphamide vs other GVHD prophylaxis)
-- Review of Canadian approved indication text and whether the label already covers leukemia
-- A safety monitoring plan (myelosuppression, bladder toxicity, the interactions listed above)
-
----
-
-### Other Predicted Indications (for reference)
-
-| Rank | Predicted Indication | Score | Evidence Level | Recommendation |
-|---|---|---|---|---|
-| 3 | Vertebral anomalies and variable endocrine and T-cell dysfunction | 0.9938 | L5 | Hold. No mechanistic rationale; immunosuppression could be harmful in a T-cell dysfunction syndrome. |
-| 4 | Retroperitoneal neoplasm | 0.9937 | L4 | Research Question. Indirect, histology-dependent link; case reports only. |
+- A plausible biological rationale linking cyclophosphamide to this condition
+- Mechanism-of-action data
+- Package insert warnings and contraindications, to complete safety screening
+- Any case-level or preclinical evidence in this specific disease before further consideration
 
 ## Disclaimer
 

@@ -38,10 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Fluvoxamine is a selective serotonin reuptake inhibitor (SSRI) originally used for social phobia and obsessive-compulsive disorder (OCD).
-The TxGNN model predicts it may be effective for **schizoid personality disorder**, but **no clinical trials** and only **1 publication** are linked to this prediction, and that publication is not a treatment study.
-
----
+Fluvoxamine is a selective serotonin reuptake inhibitor (SSRI) marketed in Canada. The TxGNN model predicts it may be effective for **schizoid personality disorder**, but this is a model prediction only: **no clinical trials** and **1 publication** (an observational study, not a treatment trial) are linked to it.
 
 ## Quick Overview
 
@@ -55,33 +52,25 @@ The TxGNN model predicts it may be effective for **schizoid personality disorder
 | Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fluvoxamine is an SSRI, and serotonin reuptake inhibition is the established basis for its use in anxiety-spectrum conditions such as social phobia and OCD. Mechanistically, serotonergic modulation might influence some traits seen in personality disorders, such as social withdrawal and detachment.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Fluvoxamine belongs to the SSRI class, which acts by blocking serotonin reuptake. Serotonergic modulation might plausibly influence some personality traits such as social withdrawal and emotional restriction.
 
-The relationship between the original and new indications is weak. Social phobia and OCD are anxiety-spectrum disorders with documented responses to SSRIs. Schizoid personality disorder is a long-standing pattern of detachment and restricted emotional expression, and no data compiled here show that fluvoxamine treats it. The very high model score (1.0000) is purely computational. The same score was assigned to several other personality disorders (schizotypal, histrionic, paranoid), which suggests the model is picking up a general class-level pattern rather than a disorder-specific signal.
+However, this is a hypothesis only. The one linked paper (PMID 10929788) studied personality disorders and traits in people with body dysmorphic disorder. Some of its participants took part in a fluvoxamine treatment study, but the paper did not test fluvoxamine as a treatment for schizoid personality disorder.
 
----
+Several other personality disorders received identical scores (schizotypal, histrionic, paranoid). This suggests the score reflects a shared pattern in the model rather than disorder-specific evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohort | Comprehensive Psychiatry | Assessed personality disorders and traits in 148 people with body dysmorphic disorder, 26 of whom took part in a fluvoxamine treatment study. It examined how common schizoid and other personality traits are in this group and did not test fluvoxamine as a treatment for schizoid personality disorder. |
-
----
+| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohort | Comprehensive Psychiatry | Assessed personality disorders and traits in 148 people with body dysmorphic disorder, 26 of whom were in a fluvoxamine treatment study. It describes personality features and does not test treatment of schizoid personality disorder. |
 
 ## Canada Market Information
-
-Fluvoxamine has 6 valid single-ingredient authorizations in Canada. The data compiled for this report do not include dosage form or approved-indication text for these products.
 
 | DIN | Product Name | Status |
 |---------|------|------|
@@ -91,43 +80,27 @@ Fluvoxamine has 6 valid single-ingredient authorizations in Canada. The data com
 | 02231330 | APO-FLUVOXAMINE | Valid |
 | 02255529 | TEVA-FLUVOXAMINE | Valid |
 
----
+All six single-ingredient licences in the data are valid; the five above are the main ones shown.
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the Health Canada package insert for these.
+- **Drug Interactions**: 100 interactions were found in the interaction databases. Major-level examples include alosetron, bupropion, diethylpropion and dolasetron. Moderate-level examples include clarithromycin, aspirin, morphine, aprepitant, pioglitazone and several corticosteroids (hydrocortisone, dexamethasone, budesonide, betamethasone, triamcinolone). Co-medication screening would be essential.
 
-- **Conditions flagged as contraindication-related (drug-disease knowledge graph, not label text)**: epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, and serotonin syndrome.
-- **Drug Interactions**: 100 interactions were identified. The ones flagged as **Major** include:
-  - Alosetron
-  - Diethylpropion
-  - Dolasetron
-  - Bupropion
-
-  Examples of **Moderate** interactions include:
-  - Acetylsalicylic acid
-  - Clarithromycin
-  - Morphine
-  - Pioglitazone
-  - Aprepitant
-  - Several corticosteroids (hydrocortisone, dexamethasone, budesonide, betamethasone, triamcinolone)
-
----
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. No clinical trials exist, and the single linked paper is an observational study that does not test fluvoxamine for this disorder. There is also no disorder-specific mechanistic rationale.
+The prediction rests on a model score alone. No trial or published study has tested fluvoxamine in schizoid personality disorder, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Any direct clinical evidence (case series, pilot trials) of fluvoxamine in schizoid personality disorder
-- Detailed mechanism of action data and a disorder-specific rationale
+- Direct clinical evidence (controlled or open-label studies) of fluvoxamine in schizoid personality disorder
+- Mechanism-of-action data linking serotonergic modulation to the core features of this disorder
 - Package insert warnings and contraindications from Health Canada
 - A co-medication screening plan, given the large number of drug interactions
 
-**Note on other predictions for this drug:** The same analysis ranked several other candidates with considerably stronger support: anxiety disorder, agoraphobia, and endogenous depression. For anxiety disorder, completed Phase 3 trials and network meta-analyses exist, though much of that evidence overlaps with already-labeled indications. For agoraphobia, placebo-controlled RCTs in panic disorder with agoraphobia exist. For endogenous depression, a Phase 2 trial of fluvoxamine in melancholia (NCT04160377, status unknown) is registered. These are better candidates for further evaluation than schizoid personality disorder.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

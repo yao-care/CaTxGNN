@@ -38,10 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Salbutamol is a short-acting bronchodilator, originally used to treat asthma and bronchial disease.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis** with a very high score, but **no clinical trials and no publications** were found to support this specific prediction. It is a model-only signal.
-
----
+Salbutamol is a short-acting beta-2 adrenergic agonist that is marketed in Canada in several inhaled and injectable products.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, with a score of 0.9999.
+However, **no clinical trials and no publications** were found for this disease, so the prediction currently rests on the model alone.
 
 ## Quick Overview
 
@@ -50,38 +49,26 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis** wi
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 15 of 15) |
 | Number of DINs | 15 (valid: 15) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, salbutamol is a beta-2 adrenergic agonist. Its efficacy in asthma and bronchial disease is well established, and it acts by relaxing airway smooth muscle.
+Detailed mechanism of action data is not available for this drug. Based on general pharmacology, salbutamol activates beta-2 adrenergic receptors. Preclinical work on beta-2 agonists has suggested anti-inflammatory and mast-cell-stabilizing effects in conjunctival tissue, which could in theory be relevant to an allergic eye condition such as papillary conjunctivitis.
 
-Papillary conjunctivitis is an allergic or inflammatory eye condition, so it is not obviously related to airway obstruction. The only mechanistic argument is indirect. Beta-2 agonists have shown mast-cell-stabilizing and anti-inflammatory effects in conjunctival tissue in preclinical settings, which could matter in allergic eye disease. The compiled data contains no study that tests this for papillary conjunctivitis, so the link remains speculative.
-
-The strength of the model score should not be read as clinical evidence. The prediction has not been checked against any human data.
-
----
+This link is speculative. No clinical trial or publication retrieved for this report studies salbutamol in papillary conjunctivitis, so the prediction cannot be considered supported beyond the model score. Because there is no direct study of this disease, the evidence level is L5.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Canada Market Information
-
-Salbutamol is widely marketed in Canada, with 15 valid single-ingredient licences and no cancelled ones. Dosage form and approved-indication text were not available in the compiled data. Five main authorizations:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -91,39 +78,27 @@ Salbutamol is widely marketed in Canada, with 15 valid single-ingredient licence
 | 02241497 | VENTOLIN HFA | Not listed | Not listed |
 | 02213486 | VENTOLIN RESPIRATOR SOLUTION | Not listed | Not listed |
 
-Other authorizations include an intravenous infusion solution (Ventolin I.V.) and combination-type inhalation products with ipratropium (Combivent Respimat and others). No ophthalmic salbutamol product appears in the list.
-
----
+All 15 licences in the local records are currently valid; the five above are shown as examples.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph disease associations, not label text):** hypertension and hypertensive disorders, long QT syndrome (including familial), epilepsy, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, metabolic acidosis, sudden cardiac arrest, heart conduction disease, myocardial ischemia and coronary artery disease, hyperthyroidism (Graves disease, thyrotoxicosis), angle-closure glaucoma and ocular hypertension, benign prostatic hyperplasia, and bladder neck obstruction.
-- **Drug Interactions:** 100 interactions were identified. Examples:
-  - **Moderate:** epinephrine, clarithromycin, cisapride, famotidine, isometheptene, diethylpropion, bisacodyl, castor oil.
-  - **Moderate (glucose-lowering drugs):** acarbose, alogliptin, albiglutide, acetohexamide, chlorpropamide, canagliflozin, dapagliflozin.
-  - **Minor (corticosteroids):** hydrocortisone, dexamethasone, betamethasone, budesonide, beclomethasone dipropionate.
-- **Eye-specific caution:** angle-closure glaucoma and ocular hypertension appear among the associated contraindications. This deserves particular attention for any ocular use.
+- **Drug Interactions**: 100 interactions were found in the interaction databases. Examples at moderate level include acarbose, epinephrine, famotidine, clarithromycin, cisapride, and several antidiabetic drugs (e.g., alogliptin, canagliflozin, dapagliflozin, chlorpropamide). Corticosteroids such as hydrocortisone, budesonide, and dexamethasone are listed at minor level.
 
-Please refer to the package insert for the full warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but there are no trials or publications for papillary conjunctivitis. The only mechanistic support is indirect preclinical data on conjunctival effects of beta-2 agonists. Glaucoma-related contraindications also raise an ocular safety question.
+The TxGNN score is very high, but there are no clinical trials or publications on salbutamol in papillary conjunctivitis. The only supporting idea is a general, preclinical anti-inflammatory effect of beta-2 agonists in the conjunctiva, which is not enough to justify moving forward.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (MOA) to support the proposed link.
-- Preclinical or early human studies of salbutamol in papillary conjunctivitis.
-- An ocular formulation and route assessment, since no ophthalmic product exists in the Canadian list.
-- Package insert warnings and contraindications from Health Canada, which are currently missing.
+- Preclinical or early clinical data directly studying salbutamol, or a topical ocular formulation, in papillary conjunctivitis
+- Mechanism of action data
+- Assessment of whether an ocular route of administration is feasible, since the current Canadian products are inhaled or injectable
+- Review of package insert warnings and contraindications, including cardiovascular and metabolic cautions
 
-**Other predictions in the same analysis have stronger support:**
-- **Obstructive lung disease (L1):** Phase 3 evidence exists for ipratropium/salbutamol in COPD (NCT02177253, n=1118). This is largely a label extension rather than true repurposing.
-- **Bronchitis/bronchiolitis (L2) and anaphylaxis (L3):** both are research questions. Evidence for bronchiolitis is weak or negative, and the anaphylaxis Phase 3 trial was terminated early with 24 participants.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

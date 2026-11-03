@@ -38,10 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Chloramphenicol is a broad-spectrum antibiotic originally used for systemic and local bacterial and rickettsial infections such as typhoid fever, meningococcal infection and otitis externa.
-Safety guardrails are needed because of its haematological toxicity.
-
----
+Chloramphenicol is an antibiotic with one valid single-ingredient licence in Canada.
+The TxGNN model predicts it may be effective for **diffuse scleroderma**, but the data compiled for this report contain **no clinical trials** and only **4 basic-research publications** on the disease biology, none of which tests chloramphenicol as a treatment.
 
 ## Quick Overview
 
@@ -53,39 +51,28 @@ Safety guardrails are needed because of its haematological toxicity.
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, chloramphenicol is a broad-spectrum bacteriostatic antibiotic that inhibits the 50S ribosomal subunit. Its efficacy in bacterial infections is established, and mechanistically it may be applicable to bacterial infections of the eye.
+Detailed mechanism of action data is not available for this drug. Chloramphenicol is a broad-spectrum antibacterial that acts on bacterial protein synthesis, so its known role is in treating infections.
 
-Topical chloramphenicol for bacterial conjunctivitis is already established clinical practice in some countries. The literature notes it is widely used in the UK for this purpose, but very rarely prescribed in the U.S. The new indication is therefore close to the original anti-infective uses (for example otitis externa and infectious skin disease), because it involves a superficial, locally accessible bacterial infection.
+Diffuse scleroderma (diffuse systemic sclerosis) is an autoimmune, fibrotic disease, not an infection. The four publications linked to this prediction study how skin fibroblasts from patients overproduce collagen (alpha1(I) procollagen gene activation, Smad3/Sp1/p300 and TGF-beta signaling). None of them shows an effect of chloramphenicol on the disease. Chloramphenicol is most likely mentioned in them as a laboratory reagent used in reporter assays, not as a therapy.
 
-The main caveat is that the prediction relates to topical eye use. The only Canadian licence in the data is an injectable succinate product, so a route and formulation gap exists. A long-running and still debated question is whether ocular chloramphenicol is linked to aplastic anaemia.
-
----
+There is therefore no plausible therapeutic mechanism supported by the available data. The high TxGNN score most likely reflects an association in the literature rather than a real treatment signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for conjunctivitis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Cochrane systematic review | Cochrane Database Syst Rev | Interventions to prevent ophthalmia neonatorum (neonatal conjunctivitis), including antibiotic prophylaxis |
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative clinical study | Curr Ther Res | Moxifloxacin compared with chloramphenicol for bacterial eye infections; chloramphenicol is used mainly topically because of its known toxicity |
-| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Review (safety) | Drug Saf | Reviews the controversial link between topical ocular chloramphenicol and aplastic anaemia |
-| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Commentary | Eye (Lond) | Discusses appropriate use of topical chloramphenicol |
-| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Commentary | Clin Exp Ophthalmol | Commentary on over-the-counter chloramphenicol |
-| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Review | Clin Pharmacokinet | Topical antibacterial treatment of ocular infections |
-
----
+| [8702443](https://pubmed.ncbi.nlm.nih.gov/8702443/) | 1996 | Basic research (in vitro) | Arthritis and Rheumatism | Transcriptional activation of the alpha1(I) procollagen gene in dermal fibroblasts from patients with diffuse systemic sclerosis; role of intronic sequences |
+| [9811061](https://pubmed.ncbi.nlm.nih.gov/9811061/) | 1998 | Basic research (in vitro) | Arthritis and Rheumatism | Promoter elements and transcription factors behind up-regulated alpha1(I) procollagen expression in systemic sclerosis |
+| [11229480](https://pubmed.ncbi.nlm.nih.gov/11229480/) | 2001 | Basic research (in vitro) | Arthritis and Rheumatism | Blocking TGF-beta signaling prevents up-regulated collagen synthesis in scleroderma fibroblasts |
+| [16319104](https://pubmed.ncbi.nlm.nih.gov/16319104/) | 2006 | Basic research (in vitro) | Rheumatology (Oxford) | Constitutively phosphorylated Smad3 interacts with Sp1 and p300 in scleroderma fibroblasts |
 
 ## Canada Market Information
 
@@ -93,50 +80,32 @@ Currently no related clinical trials registered for conjunctivitis.
 |---------|------|------|-----------|
 | 00312363 | CHLOROMYCETIN SUCCINATE INJECTION | Not specified | Not specified |
 
----
+## Cytotoxicity
+
+Chloramphenicol is an antibacterial, not an antineoplastic drug, so cytotoxic-drug classification does not apply.
 
 ## Safety Considerations
 
-- **Conditions flagged as contraindications in the knowledge graph** (not label text): kidney disease, liver disease, gallbladder disease, thrombocytopenia, peripheral neuropathy, optic neuritis, acute intermittent porphyria, paroxysmal nocturnal hemoglobinuria, and many blood disorders including anaemia, aplastic anaemia, agranulocytosis and neutropenia (including congenital forms). The concern is mainly haematological toxicity.
-- **Drug Interactions**: 100 interactions were found in total. Examples:
-  - **Major**: cisapride, naloxegol
-  - **Moderate**: sulfonylurea antidiabetics (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide), repaglinide, saxagliptin, simvastatin, rosuvastatin, aprepitant, budesonide, metronidazole, iron, eliglustat, nitisinone, naldemedine, balsalazide
+- **Drug Interactions**: 100 interactions were found in the interaction screening; the main ones listed here are examples.
+  - Major: cisapride, naloxegol
+  - Moderate: sulfonylurea antidiabetics (acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide), repaglinide, saxagliptin, rosuvastatin, simvastatin, aprepitant, metronidazole, budesonide, iron, eliglustat, naldemedine, nitisinone, balsalazide
+- **Conditions of concern**: Chloramphenicol is recorded as a concern in people with blood disorders (anemia, aplastic anemia, neutropenia, agranulocytosis, thrombocytopenia, paroxysmal nocturnal hemoglobinuria), kidney disease, liver disease, gallbladder disease, peripheral neuropathy, optic neuritis and acute intermittent porphyria. These come from drug-disease relation data, not from the label text.
 
-Please also refer to the package insert for the full warnings and contraindications.
-
----
-
-## Other Predicted Indications (Brief Overview)
-
-All other predictions are rated Hold; each has weak or no supporting evidence.
-
-| Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|
-| Diffuse scleroderma | 0.9965 | L5 | Literature is basic fibroblast biology; chloramphenicol is probably only a reporter-assay reagent, so there is no therapeutic evidence |
-| Postinfectious vasculitis | 0.9958 | L5 | Prediction only; immune-mediated condition |
-| Post-bacterial disorder | 0.9957 | L5 | One observational susceptibility-profiling study (NCT05106803), not testing chloramphenicol as treatment |
-| Post-infectious syndrome | 0.9956 | L5 | Prediction only; no clear mechanistic link |
-| Infective urethral stricture | 0.9952 | L5 | Only a 1964 unrelated case report; stricture needs mechanical or surgical management |
-| Chagas cardiomyopathy | 0.9951 | L5 | Prediction only; no evidence against T. cruzi and bone marrow toxicity is a concern |
-| Infection-related haemolytic uraemic syndrome | 0.9950 | L5 | Prediction only; antibiotics are generally discouraged in Shiga toxin-producing E. coli HUS and chloramphenicol is haematotoxic, so safety is doubtful |
-| Punctate epithelial keratoconjunctivitis | 0.9917 | L5 | Only microsporidial case series; chloramphenicol is not expected to be active against microsporidia |
-
----
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-That literature includes two randomised comparisons and comparative reviews, but it contains no registered trials and no Phase 3 RCTs, so the evidence level is L3. The long-debated aplastic anaemia concern and the many haematological contraindications call for strict guardrails. The other seven predictions should be held.
+The prediction is supported only by in vitro studies of scleroderma fibroblast biology, which do not test chloramphenicol. There are no clinical trials, no plausible therapeutic mechanism, and the drug's known bone marrow toxicity is a serious concern for a long-term disease. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism of action data
-- Confirmation of a topical ophthalmic formulation and route, since the only Canadian licence is an injectable
-- Dosage form and approved indication details for the Canadian licence
-- A structured safety assessment of the aplastic anaemia risk with topical ocular use
-- Higher-quality comparative trial evidence against current first-line ophthalmic antibiotics
+- Evidence that chloramphenicol has an actual effect on the fibrotic or immune pathways of diffuse scleroderma (for example, dedicated preclinical studies)
+- Mechanism of action data
+- Package insert warnings and contraindications from Health Canada
+- A risk-benefit assessment of hematologic toxicity for a chronic, non-infectious condition
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

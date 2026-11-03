@@ -38,8 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Ascorbic acid (vitamin C) is originally used to treat and prevent ascorbic acid deficiency and scurvy.
-The TxGNN model (deep learning) predicts it may be effective for **non-syndromic esophageal malformation**, but **no clinical trials and no publications** currently support this prediction. It rests on the model's score alone, which may reflect similarities the model learned between related diseases, not biological evidence.
+Ascorbic acid (vitamin C) is a water-soluble vitamin with antioxidant activity and a role as a cofactor in collagen synthesis. The TxGNN model predicts it may be relevant to **non-syndromic esophageal malformation**, with a score of 0.9996. **No clinical trials and no publications** currently support this prediction, so it is a model output only.
 
 ## Quick Overview
 
@@ -55,9 +54,9 @@ The TxGNN model (deep learning) predicts it may be effective for **non-syndromic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ascorbic acid is an essential vitamin that works as an antioxidant and as a cofactor for collagen-forming enzymes. Its efficacy in vitamin C deficiency and scurvy is well established.
+Detailed mechanism of action data is not available for this drug in the data compiled for this report. In general terms, ascorbic acid acts as an antioxidant and as a cofactor for the enzymes that stabilize collagen.
 
-No mechanistic link to the predicted indication can be identified. Non-syndromic esophageal malformation is a congenital structural defect, and it is not plausibly modifiable by an antioxidant or collagen-cofactor vitamin. The very high score (0.9996) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be read as a hypothesis-generating signal only.
+We could not identify a mechanistic link between these properties and non-syndromic esophageal malformation. This condition is a congenital structural defect of the esophagus, and it is not plausible that an antioxidant or collagen-cofactor vitamin would modify it. The very high score is a model-based prediction only. There are no trials or publications to support it, so the prediction should be treated as a hypothesis with no supporting evidence.
 
 ## Clinical Trial Evidence
 
@@ -69,8 +68,6 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Ascorbic acid is marketed in Canada under 13 valid single-ingredient authorizations, with no cancelled licences. The approved indication text, dosage form and manufacturer are not available for these products. Five main authorizations:
-
 | DIN | Product Name |
 |---------|------|
 | 00780634 | VITAMIN C |
@@ -79,29 +76,36 @@ Ascorbic acid is marketed in Canada under 13 valid single-ingredient authorizati
 | 02238890 | HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU EXTRA STRENGTH |
 | 02359499 | MOVIPREP |
 
-The remaining authorizations include multivitamin and pregnancy-vitamin products.
+Thirteen single-ingredient licences are on record, of which 11 are valid. Only the first five are listed here.
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available for this report. Please refer to the package insert for label safety information.
+**Drug Interactions**: 25 interactions were identified in total. Moderate-level interactions include:
+- Amphetamine
+- Aluminum hydroxide
+- Benzphetamine
+- Bortezomib
+- Deferoxamine
+- Dextroamphetamine
+- Lisdexamfetamine
+- Metamfetamine
 
-- **Drug Interactions**: 25 interactions are recorded. Moderate-level interactions include amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine, aluminum hydroxide, bortezomib and deferoxamine. Minor-level interactions include paclitaxel, cisplatin, doxorubicin, ethinylestradiol, pseudoephedrine, ephedrine, flecainide, fluphenazine, indinavir and mexiletine.
-- **Disease-level cautions from the knowledge graph** (not label text): kidney disease, primary hyperoxaluria, nephrocalcinosis, hereditary hemochromatosis, sickle cell anemia, diabetes mellitus, peptic ulcer disease, liver disease, hypercalcemia and epilepsy, among others.
+Minor-level interactions include paclitaxel, pseudoephedrine, ethinylestradiol, cisplatin, doxorubicin, ephedrine, flecainide, fluphenazine, indinavir and mexiletine.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications and no plausible mechanism. A congenital structural malformation is unlikely to respond to vitamin C. The high model score alone is not enough to justify further investment.
-
-For context, the same data set lists other predicted indications with more evidence, such as vitamin deficiency disorder (which is essentially on-label), injury, and perinatal disease (hypoxic-ischemic encephalopathy). If the goal is to find a worthwhile repurposing direction for ascorbic acid, those candidates should be evaluated instead.
+The prediction rests on a model score alone. There are no clinical trials or publications, and no plausible mechanism links ascorbic acid to a congenital structural malformation of the esophagus.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a documented biological rationale linking ascorbic acid to esophageal development
-- Any preclinical or clinical evidence in esophageal malformation
-- Health Canada package insert warnings and contraindications for safety screening
-- Review of why the model assigned this score, to rule out an artifact of similarities the model learned between related diseases
+- Any preclinical or clinical study that directly addresses this condition
+- A defined mechanistic hypothesis explaining how the drug could affect esophageal development
+- Detailed mechanism of action data and the package insert warnings and contraindications from Health Canada
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

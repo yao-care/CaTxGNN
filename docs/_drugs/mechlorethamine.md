@@ -38,10 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Mechlorethamine is a nitrogen mustard alkylating agent, originally used for cutaneous T-cell lymphoma (mycosis fungoides), Hodgkin lymphoma, and non-Hodgkin lymphoma.
-Support comes from **0 registered clinical trials** and **20 publications**, mostly older cohort studies, comparative studies, and reviews.
-
----
+Mechlorethamine is a cytotoxic alkylating agent that is marketed in Canada as a single-ingredient product.
+The TxGNN model predicts it may be effective for **relapsing-remitting multiple sclerosis**, with a score of 0.9913.
+However, **no clinical trials and no publications** in the data compiled for this report support this prediction, so it rests on the model output alone.
 
 ## Quick Overview
 
@@ -53,46 +52,23 @@ Support comes from **0 registered clinical trials** and **20 publications**, mos
 | Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 1 of 1) |
 | Number of DINs | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mechlorethamine is a nitrogen mustard alkylating agent. It cross-links DNA and induces apoptosis in rapidly dividing lymphoid cells.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Mechlorethamine belongs to the nitrogen mustard alkylating agents, which damage DNA and kill rapidly dividing cells, including lymphocytes.
 
-"Lymph node cancer" is a broad category that overlaps with mechlorethamine's existing lymphoma indications (Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, lymphosarcoma). The prediction is therefore better read as a restatement of established use than as true repurposing.
+A plausible but speculative rationale is that cytotoxic alkylators and other immunosuppressants (for example cyclophosphamide and mitoxantrone) deplete autoreactive lymphocytes, which are thought to drive relapsing-remitting multiple sclerosis. This reasoning has not been tested for mechlorethamine in the compiled data.
 
-Historical MOPP regimens (mechlorethamine, vincristine, procarbazine, prednisone) give supporting clinical data. Randomized comparisons of combination regimens exist, such as MOPP versus MOPP/ABVD in advanced Hodgkin disease.
-
-**Other predictions in this data set:**
-- **Follicular lymphoma** (score 0.9903, evidence level L4, "Research Question"): It is a B-cell non-Hodgkin lymphoma and plausibly falls within the labeled class. The literature is indirect, mostly bendamustine (a different alkylator) and aggressive-lymphoma regimens, with some off-topic results. No study directly tests mechlorethamine here, and modern anti-CD20-based regimens have superseded it.
-- **Relapsing-remitting multiple sclerosis** (score 0.9913, evidence level L5, "Hold"): Support is only the model score. Alkylating agents might deplete autoreactive lymphocytes, but there is no trial or literature evidence. Severe toxicity and many approved alternatives make a favourable benefit-risk balance unlikely. A topical gel would not plausibly affect CNS disease.
-
----
+There are also strong reasons for caution. Mechlorethamine is a vesicant and is associated with myelosuppression, gonadal toxicity and secondary malignancy. Many approved disease-modifying therapies already exist for this condition, so a favourable benefit-risk balance appears unlikely. The Canadian product is a topical gel with minimal systemic exposure, so it would not plausibly act on central nervous system disease.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [7509381](https://pubmed.ncbi.nlm.nih.gov/7509381/) | 1994 | RCT | J Clin Oncol | Randomized comparison of 8 courses of MOPP vs alternating MOPP/ABVD in stage IIIB/IV Hodgkin disease |
-| [3352775](https://pubmed.ncbi.nlm.nih.gov/3352775/) | 1988 | RCT/Comparative | NCI Monogr | EORTC H5 study: total nodal irradiation vs mantle irradiation plus MOPP in stage I–II Hodgkin disease |
-| [31894937](https://pubmed.ncbi.nlm.nih.gov/31894937/) | 2020 | Review | Am Fam Physician | Overview of lymphoma diagnosis and treatment |
-| [35393251](https://pubmed.ncbi.nlm.nih.gov/35393251/) | 2022 | Cohort | Clin Lymphoma Myeloma Leuk | Retrospective study of 0.016% chlormethine gel as maintenance in mycosis fungoides patients in remission |
-| [2462943](https://pubmed.ncbi.nlm.nih.gov/2462943/) | 1989 | Controlled trials summary | Blood | EORTC trials 1964–1987 in stage I–II Hodgkin disease, with treatment tailored to prognostic factors |
-| [2436740](https://pubmed.ncbi.nlm.nih.gov/2436740/) | 1987 | Cohort | Cancer | Children with Hodgkin disease treated with MOPP with or without radiotherapy |
-| [10717177](https://pubmed.ncbi.nlm.nih.gov/10717177/) | 1996 | Cohort/Review | Semin Radiat Oncol | Combined-modality treatment for poor-prognosis stage I–II Hodgkin disease |
-| [9923777](https://pubmed.ncbi.nlm.nih.gov/9923777/) | 1999 | Cohort | Arch Dermatol | Long-term outcomes in generalized patch/plaque (T2) mycosis fungoides |
-| [6809030](https://pubmed.ncbi.nlm.nih.gov/6809030/) | 1982 | Cohort | Br J Dermatol | 92 cutaneous T-cell lymphoma patients; treatment included topical mechlorethamine |
-| [2354411](https://pubmed.ncbi.nlm.nih.gov/2354411/) | 1990 | Retrospective series | Cancer | Lower-torso stage I–II Hodgkin disease treated with radiation with or without MOPP |
-
----
+Currently no related literature available.
 
 ## Canada Market Information
 
@@ -100,45 +76,37 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | 02516764 | LEDAGA | Not specified | Not specified |
 
----
-
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (nitrogen mustard alkylating agent) |
-| Myelosuppression Risk | High with systemic use (the knowledge graph flags blood-related conditions such as neutropenia, leukopenia, thrombocytopenia and anaemia as contraindications). Topical gel has minimal systemic exposure. |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential, liver and renal function; skin assessment for topical use |
-| Handling Protection | Must follow cytotoxic drug handling regulations. Systemic mechlorethamine is a vesicant. |
-
----
+| Myelosuppression Risk | High for systemic exposure; the topical gel has minimal systemic exposure |
+| Emetogenicity Classification | High with intravenous use; low with topical use |
+| Monitoring Items | Complete blood count with differential, liver and renal function, uric acid; skin assessment for topical use |
+| Handling Protection | Yes. It is a vesicant and must be handled according to cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-- **Contraindications (TxGNN model (deep learning) associations, not label text; they may reflect similarities the model learned between related diseases, not biological evidence)**: thrombocytopenia, anemia, leukopenia, agranulocytosis, neutropenia (including congenital forms), blood coagulation disease, hyperuricemia, and amyloidosis.
-- **Drug Interactions**: 100 interactions were identified; the main ones from the first 20 reviewed are listed below.
-  - **Major**: deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib
-  - **Moderate**: palifermin, strontium chloride Sr-89, mercaptopurine, roflumilast, chloramphenicol, zidovudine, azathioprine, aldesleukin, alefacept, alemtuzumab, anakinra, anthrax vaccine, and tetanus toxoid vaccine
-  - **Minor**: levofloxacin, warfarin
+- **Conditions of concern (contraindication relations from the data compiled for this report, not label text)**: thrombocytopenia, anemia, leukopenia, agranulocytosis, neutropenia (including congenital and idiopathic forms), blood coagulation disease, hyperuricemia and amyloidosis. These are consistent with the drug's bone marrow toxicity.
+- **Drug Interactions**: 100 interactions were found. Examples rated **Major** include deferiprone, samarium (153Sm) lexidronam, adalimumab and baricitinib. Examples rated **Moderate** include mercaptopurine, azathioprine, zidovudine, chloramphenicol, alemtuzumab, aldesleukin and anakinra. Live or inactivated vaccines (anthrax, tetanus toxoid) are also flagged as Moderate. Minor examples include levofloxacin and warfarin.
 
-  Many of these involve additive myelosuppression or immunosuppression, and vaccine interactions (reduced response or live-vaccine risk) matter.
-
----
+Please also refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The "lymph node cancer" prediction largely overlaps with mechlorethamine's established lymphoma uses, and historical MOPP-based trials and cohort studies support it. No clinical trials are registered, and the evidence is mostly old and sits at L3. For the other predictions, follicular lymphoma is a research question only, and relapsing-remitting multiple sclerosis should be put on hold.
+The prediction rests only on a high model score. No trials or publications address mechlorethamine in relapsing-remitting multiple sclerosis, and the drug's toxicity profile and the many established therapies make a favourable benefit-risk balance unlikely.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data
-- Approved indication text and dosage form for DIN 02516764
-- Confirmation of the route and formulation (topical vs systemic) relevant to the intended use
-- A safety monitoring plan covering myelosuppression, interacting drugs, and cytotoxic handling
+- Preclinical or mechanistic evidence that mechlorethamine acts on the pathology of multiple sclerosis
+- Detailed mechanism-of-action data
+- The Health Canada package insert warnings and contraindications
+- A route and exposure assessment, since the marketed topical gel is unlikely to reach the central nervous system
+- A benefit-risk comparison against currently approved disease-modifying therapies
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

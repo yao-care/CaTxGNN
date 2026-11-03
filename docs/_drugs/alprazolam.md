@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alprazolam
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 40
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Alprazolam: predicted new indication Insomnia (insomnia (disease)) (insomnia (disease)) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +33,55 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Alprazolam: Insomnia (disease)
+## Alprazolam: Insomnia (insomnia (disease)) (insomnia (disease))
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Alprazolam is a benzodiazepine originally used to treat anxiety disorders, including mixed anxiety and depressive disorder.
-The TxGNN model predicts it may be effective for **insomnia** (top-ranked prediction), but the data compiled for this report show **no registered clinical trials** and **18 publications**, mostly general or observational, supporting this direction.
-
----
+Alprazolam is a benzodiazepine that enhances GABA-A receptor activity, producing sedative and anxiolytic effects.
+The TxGNN model predicts it may be effective for **insomnia**, but **no clinical trials** and **no publications that directly study alprazolam for insomnia** are currently available.
+The prediction is therefore supported mainly by class-level pharmacology.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Insomnia (disease) |
+| Predicted New Indication | Insomnia (insomnia (disease)) (insomnia (disease)) |
 | TxGNN Prediction Score | 0.9981 |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 13 of 13) |
 | Number of DINs | 13 (valid: 13) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on class-level pharmacology, alprazolam is a benzodiazepine that enhances GABA-A receptor activity, producing sedative and anxiolytic effects. Its efficacy in anxiety disorders is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on class-level pharmacology, alprazolam is a benzodiazepine that enhances GABA-A receptor activity, which produces sedative and anxiolytic effects.
 
-Insomnia often co-occurs with anxiety, so a plausible link exists: the sedative-hypnotic properties that relieve anxiety could also help sleep. However, this link rests on class-level reasoning only. None of the supplied records shows a controlled trial of alprazolam for insomnia.
+Insomnia often co-occurs with anxiety, so a plausible link exists. However, this link rests on class-level reasoning rather than on direct study. The literature gathered is mostly general or observational (benzodiazepine utilization trends, a pharmacokinetics review, a survey of insomnia in COVID-19 survivors, zolpidem deprescribing, and an integrative therapy study that includes alprazolam). None of it is a controlled trial of alprazolam for insomnia.
 
-Benzodiazepines also carry risks of dependence, tolerance, falls and cognitive impairment, especially in older adults. These weigh against repurposing for a chronic condition such as insomnia.
-
----
+Benzodiazepines also carry risks of dependence, tolerance, falls and cognitive impairment, particularly in older adults, and these weigh against repurposing.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-None of the publications below is a controlled trial of alprazolam for insomnia. The most relevant items are listed.
+None of the publications below is a controlled study of alprazolam in insomnia. They are listed as the closest available context.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Retrospective/observational | Medicine | 116 patients with coronary heart disease and insomnia; alprazolam control group compared with Du Meridian moxibustion plus ear acupuncture |
-| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | Cross-sectional | Medicine | Survey of insomnia severity and influencing factors in COVID-19 survivors (indirect) |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharm | Tranquilizers in elderly patients with chronic diseases: dose, outcomes and adverse effects |
+| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Clinical study (retrospective) | Medicine | 116 patients with coronary heart disease and insomnia; Du Meridian moxibustion plus ear acupuncture compared with an alprazolam control group, assessing symptoms and neurotransmitter levels |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharm | Reviews tranquilizers in elderly patients with chronic diseases, looking at dose, outcomes and adverse effects |
 | [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Pharmacokinetics of anxiolytic drugs |
-| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Predictive model | Value Health Reg Issues | Benzodiazepine use trends and economic burden; long-term use linked to memory loss, dependence, falls |
-| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Preclinical (mouse) | Aging | Repeated alprazolam administration caused mitochondrial dysfunction and impaired hippocampus-dependent memory |
-| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Prescription pattern study | Sleep Med | Hypnotic prescription patterns in a managed-care population |
-| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Cohort | JHEP Rep | Deprescribing zolpidem reduced falls and fractures in cirrhosis (different drug; indirect) |
-| [7484706](https://pubmed.ncbi.nlm.nih.gov/7484706/) | 1995 | Review | Am Fam Physician | Panic disorder overview (indirect) |
-| [39295670](https://pubmed.ncbi.nlm.nih.gov/39295670/) | 2024 | Case report | Cureus | Homeopathic treatment of persistent insomnia with generalized anxiety disorder (indirect) |
-
----
+| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | Cross-sectional | Medicine | Insomnia and its influencing factors among COVID-19 survivors (not drug-specific) |
+| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Predictive model | Value Health Reg Issues | Benzodiazepine use trends and economic burden; long-term use linked to memory loss, dependence and falls |
+| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Prescription analysis | Sleep Med | Hypnotic prescription patterns in a managed-care population |
+| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Preclinical (mouse) | Aging | Repeated alprazolam administration caused mitochondrial dysfunction and impaired memory consolidation |
+| [35493764](https://pubmed.ncbi.nlm.nih.gov/35493764/) | 2022 | Cohort | JHEP Rep | Deprescribing zolpidem (a different drug) reduced falls and fractures in cirrhosis |
 
 ## Canada Market Information
-
-Alprazolam has 13 valid single-ingredient licences in Canada. Dosage form and approved indication text are not available in the compiled data.
 
 | DIN | Product Name |
 |---------|------|
@@ -104,40 +91,28 @@ Alprazolam has 13 valid single-ingredient licences in Canada. Dosage form and ap
 | 01913492 | TEVA-ALPRAZOLAM |
 | 01908189 | PRO-ALPRAZOLAM |
 
-Other authorisations include XANAX TS, additional XANAX, APO-ALPRAZ, PRO-ALPRAZOLAM and TEVA-ALPRAZOLAM strengths.
-
----
+All 13 licences are valid single-ingredient products.
 
 ## Safety Considerations
 
-- **Disease-level cautions (from the knowledge graph, not label text)**: Alprazolam is linked to contraindication or caution signals in kidney disease, liver disease, gallbladder disease, open-angle and angle-closure glaucoma, obesity, obstructive sleep apnea and other sleep apnea syndromes, congenital central hypoventilation syndrome, and substance-related disorders or substance abuse/dependence.
-- **Drug Interactions**: 100 interactions were identified. Examples:
-  - **Major**: morphine (including liposomal morphine), which carries additive central nervous system and respiratory depression risk
-  - **Moderate**: aprepitant, bupropion, cimetidine, clarithromycin, clotrimazole, dronabinol, eliglustat, glycerol phenylbutyrate, metoclopramide, miconazole
-  - **Minor**: antacids (aluminium hydroxide, calcium carbonate, magnesium salts, magaldrate) and corticosteroids (betamethasone, dexamethasone)
-- **Class-level concerns from the literature**: dependence, withdrawal difficulty on discontinuation, memory impairment, falls in older adults, and increased risk in patients with cirrhosis.
+- **Drug Interactions**: 100 interactions were found in the interaction data; the first 20 are listed in the data compiled for this report. The most serious is **Major** with morphine (including liposomal morphine), reflecting additive central nervous system and respiratory depression. **Moderate** interactions include aprepitant, bupropion, cimetidine, clarithromycin, clotrimazole, dronabinol, eliglustat, glycerol phenylbutyrate, metoclopramide and miconazole. Minor interactions include several antacids (aluminum, calcium and magnesium salts) and corticosteroids (betamethasone, dexamethasone).
+- Benzodiazepine class concerns noted in the literature include dependence, tolerance, falls and cognitive impairment, particularly in older adults.
 
-Please also refer to the package insert for label warnings and contraindications, which were not available in the compiled data.
-
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score for insomnia is very high, but the evidence is model prediction plus indirect literature, with no registered trials and no controlled study of alprazolam for insomnia. Dependence, tolerance, cognitive and fall risks weigh against repurposing for this use.
-
-Two other predictions:
-- The data include several placebo-controlled studies of alprazolam in panic disorder with agoraphobia and a 2023 Cochrane network meta-analysis. This is better framed as a research question than a repurposing candidate: the controlled studies are older, discontinuation difficulties and dependence risk limit the benefit-risk balance, SSRIs/SNRIs and CBT are generally preferred first, and the indication overlaps with the existing anxiety label.
-- **Benign paroxysmal torticollis of infancy** (score 0.9961, evidence level L5) has no trials or literature and no plausible mechanistic rationale. Benzodiazepine use in infants raises serious safety concerns, so no further action is recommended.
+The TxGNN score is high (0.9981), but no clinical trial or publication directly studies alprazolam for insomnia, so the evidence level is L5. The class-level link to anxiety-related sleep disturbance is plausible, yet dependence and cognitive risks weigh against repurposing without stronger evidence.
 
 **To proceed, the following is needed:**
-- Randomised controlled trial evidence of alprazolam versus placebo or standard hypnotics in insomnia
-- Mechanism of action data and Canadian package insert warnings and contraindications
-- Dosage form and approved indication text for the Canadian licences
-- A benefit-risk and dependence-mitigation plan (short-term use, taper schedule, older-adult safeguards)
-- For agoraphobia, a review of current guidelines and recent trials to judge any added value over the existing label
+- Controlled trials of alprazolam specifically in insomnia, with comparison against established hypnotics
+- Mechanism of action data
+- Health Canada package insert warnings and contraindications for safety screening
+- A risk-benefit assessment for dependence, falls and cognitive effects, especially in older adults
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
