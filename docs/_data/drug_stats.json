@@ -4,9 +4,9 @@
   "level_counts": {
     "L1": 12,
     "L2": 42,
-    "L3": 39,
+    "L3": 36,
     "L4": 62,
-    "L5": 725
+    "L5": 728
   },
   "all_drugs": [
     {
@@ -3480,7 +3480,7 @@
     {
       "name": "Modafinil",
       "slug": "modafinil",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 1
     },
     {
@@ -3822,7 +3822,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -4788,7 +4788,7 @@
     {
       "name": "Sirolimus",
       "slug": "sirolimus",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -5574,7 +5574,7 @@
     {
       "name": "Zinc Sulfate",
       "slug": "zinc_sulfate",
-      "level": "L3",
+      "level": "L2",
       "indication_count": 4
     },
     {

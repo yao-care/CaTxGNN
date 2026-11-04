@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zinc Sulfate
-parent: Moderate Evidence (L3-L4)
+parent: High Evidence (L1-L2)
 nav_order: 993
-evidence_level: L3
+evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
-description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L3). Approved use: Not specified in the licence records compiled for this report"
+last_modified_at: 2026-11-04
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
+description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Zinc Sulfate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **4** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,57 +33,45 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-## Zinc Sulfate: From Topical and Over-the-Counter Uses to Pharyngitis
+## Zinc Sulfate: Pharyngitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Zinc sulfate is a long-established ingredient in Canadian over-the-counter products, such as eye drops and haemorrhoid ointments and suppositories.
-The TxGNN model predicts it may be effective for **pharyngitis**, with **1 clinical trial** and **2 publications** currently supporting this direction.
-The evidence is directionally supportive but indirect, and the trial concerns postoperative sore throat rather than infectious pharyngitis.
-
----
+Zinc sulfate is a zinc salt found in a number of single-ingredient products marketed in Canada.
+The TxGNN model predicts it may be useful for **pharyngitis**, a prediction with a score of 0.9985.
+Supporting evidence is **1 clinical trial** and **2 publications**, and it is mixed: a randomized trial of zinc lozenges reduced postoperative sore throat, while a randomized trial in radiation-induced pharyngitis found no benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the licence records compiled for this report |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9985 |
-| Evidence Level | L3 |
+| Evidence Level | L2 |
 | Canada Market Status | Marketed (valid licenses: 14 of 14) |
 | Number of DINs | 14 (valid: 14) |
-| Recommended Decision | Hold |
-
----
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, zinc sulfate is a zinc salt used as an ingredient in several marketed Canadian products (eye drops, anorectal ointments and suppositories). Its use in these products is local rather than systemic.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Zinc is plausibly active in the throat through local mucosal effects: antiviral activity, anti-inflammatory action, and support of epithelial repair.
 
-Zinc is plausibly active in the throat through local mucosal effects: antiviral activity, anti-inflammatory action and support of epithelial repair. Pharyngitis involves mucosal inflammation and epithelial irritation, which is where these effects could matter.
-
-The TxGNN score is a computational prediction and does not replace clinical evidence. The available studies are small, address related but different conditions (postoperative and radiation-induced throat symptoms), and do not directly test infectious pharyngitis.
-
----
+A randomized, double-blinded, placebo-controlled trial of zinc lozenges (NCT02405832, n=87) reported fewer and milder cases of sore throat after intubation. This is a post-surgical, intubation-related sore throat rather than infectious pharyngitis, and the product was a lozenge rather than zinc sulfate, so the fit is partial. A randomized trial of zinc sulfate in head and neck cancer patients receiving radiotherapy (PMID 23720981) tested relief of radiation-induced mucositis and pharyngitis, and found no benefit. The very high TxGNN score is a computational prediction and does not replace clinical evidence.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02405832](https://clinicaltrials.gov/study/NCT02405832) | NA | Completed | 87 | Randomized, double-blinded, placebo-controlled study of preoperative zinc lozenges to reduce postoperative sore throat after intubation for general anaesthesia. The formulation is a lozenge, not zinc sulfate, and the condition is not infectious pharyngitis. |
-
----
+| [NCT02405832](https://clinicaltrials.gov/study/NCT02405832) | Not applicable | Completed | 87 | Zinc lozenges vs placebo before surgery; reduced incidence and severity of postoperative sore throat |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23720981](https://pubmed.ncbi.nlm.nih.gov/23720981/) | 2013 | RCT | J Med Assoc Thai | Randomized double-blind, placebo-controlled trial of zinc sulfate supplementation to reduce radiation-induced oral mucositis and pharyngitis in head and neck cancer patients. The abstract excerpt does not report results. |
-| [20123362](https://pubmed.ncbi.nlm.nih.gov/20123362/) | 2010 | Case report/Other | Oral Surg Oral Med Oral Pathol Oral Radiol Endod | Discusses long-lasting taste disturbance after tonsillectomy, with a possible role for zinc deficiency. Indirectly relevant. |
-
----
+| [23720981](https://pubmed.ncbi.nlm.nih.gov/23720981/) | 2013 | RCT | Journal of the Medical Association of Thailand | Zinc sulfate vs placebo for radiation-induced oral mucositis and pharyngitis in head and neck cancer; no benefit found |
+| [20123362](https://pubmed.ncbi.nlm.nih.gov/20123362/) | 2010 | Case report/Other | Oral Surg Oral Med Oral Pathol Oral Radiol Endod | Long-lasting taste disturbance after tonsillectomy; discusses a possible role of zinc deficiency |
 
 ## Canada Market Information
 
@@ -95,51 +83,27 @@ The TxGNN score is a computational prediction and does not replace clinical evid
 | 02387239 | JAMPZINC-HC | Not specified | Not specified |
 | 02128446 | ANODAN-HC OINTMENT | Not specified | Not specified |
 
-A total of 14 single-ingredient licences are valid. The product names suggest eye-allergy and anorectal (haemorrhoid) uses.
-
----
+All 14 licences are valid.
 
 ## Safety Considerations
 
-- **Knowledge-graph contraindication signals** (from drug-disease relationships in the TxGNN knowledge graph, not from label text). These include:
-  - Cardiovascular: hypertension, hypotension, heart disease.
-  - Renal and urinary: kidney disease, nephrolithiasis, nephrocalcinosis.
-  - Hepatic and gallbladder: liver disease, gallbladder disease.
-  - Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, hyperthyroidism, Graves disease, hyperparathyroidism, hypercalcaemia.
-  - Eye: angle-closure glaucoma.
-  - Other: anxiety and neurotic disorders, sarcoidosis, diarrhoeal disease.
+- **Drug Interactions**: 100 interactions were found in the interaction screen. Examples include moderate-level interactions with alendronic acid, risedronic acid, ibandronate, tetracycline and baloxavir marboxil. Many other listed interactions are minor, such as those with hydrocortisone, dexamethasone, betamethasone, triamcinolone, azathioprine and adalimumab.
 
-  These likely reflect the ingredients of combination products (for example hydrocortisone and decongestants) and need verification against the product labels.
-- **Drug Interactions**: 100 interactions were found. The ones listed here are mostly minor. Moderate interactions include:
-  - Alendronic acid
-  - Risedronic acid
-  - Ibandronate
-  - Tetracycline
-  - Baloxavir marboxil
-
-  Minor interactions include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone) and several immunosuppressants and biologics.
-- **Intranasal use**: For the "nasal cavity disease" prediction (rank 2), the literature points to intranasal zinc sulfate as an agent used to induce anosmia in animals. This is a potential olfactory toxicity signal. It is relevant to any zinc product that reaches the nasal mucosa.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-- The only trial is Phase NA, tests a lozenge in postoperative sore throat, and does not directly support zinc sulfate for infectious pharyngitis. Package insert warnings and contraindications are not yet available, so safety screening cannot proceed. The high TxGNN score alone is not enough to advance.
+A completed randomized placebo-controlled trial supports zinc in reducing postoperative sore throat, which places the evidence at L2. However, that setting differs from infectious pharyngitis, and the radiation-induced pharyngitis trial found no benefit. The high TxGNN score alone is not enough.
 
 **To proceed, the following is needed:**
-- Health Canada package insert data (warnings, contraindications, indications) for the 14 licensed products.
-- Mechanism of action data, for example from DrugBank.
-- Confirmation of the design, power and results of the 2013 RCT (PMID 23720981). If it is well powered and relevant, the evidence level could be upgraded to L2.
-- A decision on the route and formulation (for example lozenge or oral rinse), since no licensed Canadian product is currently identified for throat use.
-- A review of the knowledge-graph contraindication signals against product labels.
+- A trial in infectious pharyngitis using the intended zinc sulfate formulation and route
+- Confirmation of the design and results of the published trials
+- Mechanism-of-action data
+- Package insert warnings and contraindications from Health Canada
 
-**Other predicted indications (for reference):**
-- **Nasal cavity disease** (score 0.9981): L4, Hold. The evidence is preclinical and suggests olfactory toxicity rather than benefit.
-- **Acute laryngopharyngitis** (score 0.9981): L4, Research Question. One 2020 publication (PMID 33623304) covers radiation-induced oropharyngeal mucositis, which is indirect evidence.
-- **Congenital prothrombin deficiency** (score 0.9916): L5, Hold. There is no clinical evidence or plausible mechanism, and this is likely a TxGNN model (deep learning) artifact.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
