@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lenvatinib
-parent: High Evidence (L1-L2)
+parent: Moderate Evidence (L3-L4)
 nav_order: 536
-evidence_level: L2
+evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
-description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma and thyroid carcinoma"
+last_modified_at: 2026-11-04
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
+description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **5** 
+Evidence Level: **L3** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,59 +33,49 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 </div>
 
-## Lenvatinib: From Renal Cell Carcinoma and Thyroid Cancer to Liposarcoma
+## Lenvatinib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Lenvatinib is an oral multi-kinase inhibitor originally used to treat renal cell carcinoma and thyroid carcinoma.
-The TxGNN model predicts it may be effective for **liposarcoma**, with **1 completed clinical trial** (a single-arm Phase Ib/II study) and **4 publications** currently supporting this direction.
-The evidence is early and uncontrolled, so it points to a research question rather than a ready-to-adopt use.
-
----
+Lenvatinib is an oral multi-kinase inhibitor (VEGFR1-3, FGFR1-4, PDGFRα, RET, KIT) that suppresses tumour angiogenesis.
+The TxGNN model predicts it may be effective for **liposarcoma**,
+with **1 clinical trial** and **4 publications** in the data compiled for this report, including one single-arm Phase Ib/II study (evidence level **L3**).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and thyroid carcinoma (Canadian approved-indication text is not available in the data compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9951 |
-| Evidence Level | L2 |
+| Evidence Level | L3 |
 | Canada Market Status | Marketed (valid licenses: 8 of 8) |
 | Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. From the supporting analysis, lenvatinib is a multi-kinase inhibitor that blocks VEGFR1-3, FGFR1-4, PDGFRα, RET and KIT. This suppresses tumour angiogenesis, which is the basis of its activity in renal cell and thyroid cancers.
+Lenvatinib blocks several receptor tyrosine kinases involved in tumour blood-vessel growth and cell proliferation, including VEGFR1-3, FGFR1-4, PDGFRα, RET and KIT. Detailed mechanism-of-action data were not otherwise available in the data compiled for this report, so this description rests on the mechanistic summary of the prediction.
 
-Liposarcoma is a soft tissue sarcoma that relies on tumour blood supply, so anti-angiogenic therapy is a plausible approach. Dedifferentiated liposarcoma is typically CDK4/MDM2-amplified. Preclinical work on eribulin combinations and on CDK4 biology supports a combination rationale. In the completed Phase Ib/II LEADER study, lenvatinib was paired with eribulin, a microtubule-targeting chemotherapy. A case report also describes tumour shrinkage in a patient with dedifferentiated liposarcoma and lung metastasis.
+In liposarcoma, standard chemotherapy gives limited benefit in advanced disease. Dedifferentiated liposarcoma is typically CDK4/MDM2-amplified, and preclinical work on eribulin combinations and CDK4 biology supports a plausible combination rationale. Anti-angiogenic kinase inhibition added to the microtubule-targeting chemotherapy eribulin offers a complementary approach.
 
-Because the clinical signal comes from a combination, the contribution of lenvatinib alone cannot be isolated.
-
----
+A completed single-arm Phase Ib/II study of lenvatinib plus eribulin gives a direct clinical signal in liposarcoma and leiomyosarcoma. A case report of tumour shrinkage in dedifferentiated liposarcoma with lung metastasis adds anecdotal support. There is no randomized trial, so efficacy remains unconfirmed.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/2 | Completed | 30 | Single-arm study of lenvatinib plus eribulin in advanced adipocytic sarcoma and leiomyosarcoma, testing safety and efficacy |
-
----
+| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Phase 1/Phase 2 | Completed | 30 | Single-arm study (LEADER) of lenvatinib plus eribulin in inoperable or metastatic adipocytic sarcoma and leiomyosarcoma, testing safety and efficacy |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Phase Ib/II single-arm trial | Clin Cancer Res | LEADER study of lenvatinib plus eribulin in advanced liposarcoma and leiomyosarcoma, which have limited treatment options |
-| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclinical/biomarker study | Exp Hematol Oncol | CDK4 as a prognostic biomarker in soft tissue sarcoma, with synergy from CDK4 inhibition in dedifferentiated liposarcoma |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical study | Anticancer Res | Eribulin combined with mechanistically different anticancer agents showed broad antitumour activity |
-| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Case report | Case Rep Oncol | Marked tumour reduction in a dedifferentiated liposarcoma patient with lung metastasis given individualized treatment |
-
----
+| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Phase Ib/II single-arm trial | Clinical Cancer Research | LEADER study of lenvatinib plus eribulin in advanced liposarcoma and leiomyosarcoma, investigating safety and efficacy |
+| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclinical/biomarker study | Experimental Hematology & Oncology | CDK4 as a prognostic biomarker in soft tissue sarcoma; CDK4 inhibition shows synergy in dedifferentiated liposarcoma |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclinical study | Anticancer Research | Eribulin shows broad antitumour activity in combination with agents of differing mechanisms |
+| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Case report | Case Reports in Oncology | Marked tumour shrinkage in dedifferentiated liposarcoma with lung metastasis under individualized treatment |
 
 ## Canada Market Information
 
@@ -97,10 +87,6 @@ Because the clinical signal comes from a combination, the contribution of lenvat
 | 02468239 | LENVIMA | Not specified | Not specified |
 | 02484056 | LENVIMA | Not specified | Not specified |
 
-Eight single-ingredient authorizations are currently valid. The five above are shown, and none has been cancelled.
-
----
-
 ## Cytotoxicity
 
 | Item | Content |
@@ -108,31 +94,27 @@ Eight single-ingredient authorizations are currently valid. The five above are s
 | Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions; blood counts, liver and renal function are generally monitored with antineoplastic therapy |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screening returned 100 interacting drugs in total, and 20 are listed in the data compiled for this report. Two are rated **Major**: dolasetron and cisapride. Most of the rest are rated Moderate, including famotidine, loperamide, bisacodyl, clarithromycin, palonosetron, naltrexone, levofloxacin, and several laxatives such as lactulose, magnesium citrate and polyethylene glycol. Metronidazole is rated Minor. The Major pairings and the clarithromycin and levofloxacin pairings should be reviewed carefully.
-
-Warnings and contraindications from the Canadian package insert were not available. Please refer to the package insert for these.
-
----
+- **Drug Interactions**: 100 interactions were found in the interaction screen. Major-level interactions include **dolasetron** and **cisapride**. Moderate-level interactions include famotidine, loperamide, bisacodyl, clarithromycin, picosulfuric acid, palonosetron, naltrexone, levofloxacin and several laxatives. Metronidazole is listed as minor.
+- Lenvatinib carries pulmonary and bleeding risks. Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-A completed Phase Ib/II study of lenvatinib plus eribulin directly addresses liposarcoma, and the mechanism is plausible. However, the study is single-arm, uses a combination regimen, and has only 30 patients. This supports further research, not a change in practice.
+A completed single-arm Phase Ib/II study (NCT03526679; PMID 36129471) directly tests lenvatinib plus eribulin in advanced liposarcoma, giving a real clinical signal. There is no randomized trial, so the evidence level is L3 and the finding should be treated as hypothesis-supporting.
 
 **To proceed, the following is needed:**
-- Review the full LEADER results, especially liposarcoma-specific response rates and safety
-- Randomized or controlled data that isolate the contribution of lenvatinib
-- Mechanism of action data and Canadian package insert warnings and contraindications
-- A safety plan covering the interaction findings above
+- A randomized or controlled study in liposarcoma to confirm efficacy
+- Package insert warnings and contraindications from Health Canada
+- Detailed mechanism-of-action data
+- A monitoring plan for bleeding, pulmonary and cardiovascular risks and for the major drug interactions (dolasetron, cisapride)
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

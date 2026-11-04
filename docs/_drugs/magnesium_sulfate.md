@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Magnesium Sulfate
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 571
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-03
-description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the local data"
+last_modified_at: 2026-11-04
+description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Magnesium Sulfate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L3** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,11 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Magnesium sulfate is an injectable magnesium salt that is marketed in Canada under several licences.
-The TxGNN model predicts it may be useful for **thrombotic disease**.
-Support is limited: **one Phase 3 trial** in a specific thrombotic condition (thrombotic thrombocytopenic purpura) with an unknown status and no results, plus mostly animal and small human studies.
+Magnesium sulfate is an injectable magnesium product that is marketed in Canada under several licences.
+The TxGNN model predicts it may be effective for **thrombotic disease**.
+Support is limited to **1 Phase 3 trial (status unknown, no results)**, a small nonrandomized pilot study, and several older preclinical studies, so the evidence level is **L3**.
+
+---
 
 ## Quick Overview
 
@@ -49,37 +51,47 @@ Support is limited: **one Phase 3 trial** in a specific thrombotic condition (th
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9990 |
-| Evidence Level | L5 |
+| Evidence Level | L3 |
 | Canada Market Status | Marketed (valid licenses: 8 of 8) |
 | Number of DINs | 8 (valid: 8) |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on the retrieved literature, magnesium is a calcium antagonist that may reduce platelet aggregation and deposition. Animal studies show that magnesium sulfate reduced platelet deposition and thrombus formation after arterial injury. In one rat study it also impaired coagulation.
+Detailed mechanism-of-action data for magnesium sulfate are not available in the data compiled for this report. The mechanistic reasoning below therefore rests on published preclinical work rather than on an established label mechanism.
 
-This gives a plausible biological link to thrombosis, but the link rests mainly on preclinical work. The only registered trial studies thrombotic thrombocytopenic purpura (TTP), a specific microangiopathy caused by ADAMTS13 deficiency. It does not test thrombotic disease in general. The strength of the link is therefore uncertain, and the prediction should be treated as a research question rather than an actionable indication.
+In animal models, magnesium sulfate reduced platelet deposition and thrombus formation after arterial injury. In a rat carotid thrombosis model, infusion prevented or delayed clot formation and also impaired coagulation in vivo. The likely explanations are calcium antagonism and effects on platelet aggregation. These are plausible but unproven in humans.
+
+Human data are sparse. A small nonrandomized pilot study gave magnesium to patients undergoing coronary stent implantation, a setting where stent thrombosis is a concern. The only registered randomized trial studies thrombotic thrombocytopenic purpura (TTP), a specific thrombotic microangiopathy, so it does not cover thrombotic disease in general. That trial's status is unknown and no results are available.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03237819](https://clinicaltrials.gov/study/NCT03237819) | Phase 3 | Unknown | 74 | Multicentre randomized trial of magnesium sulfate in TTP in intensive care. No results available and status unverified. |
+| [NCT03237819](https://clinicaltrials.gov/study/NCT03237819) | Phase 3 | Unknown | 74 | Multicentre randomized trial of magnesium sulfate in TTP patients in intensive care (2018–2021). No results are available. |
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11816720](https://pubmed.ncbi.nlm.nih.gov/11816720/) | 2001 | Preclinical | Thrombosis and Haemostasis | IV magnesium prevented or delayed FeCl3-induced carotid thrombosis in rats, with impaired coagulation in vivo. |
-| [3441141](https://pubmed.ncbi.nlm.nih.gov/3441141/) | 1987 | Preclinical | Magnesium | Antithrombogenic effect at sites of endothelial damage after partial coronary and carotid constriction in dogs and rabbits. |
-| [7368083](https://pubmed.ncbi.nlm.nih.gov/7368083/) | 1980 | Preclinical | Surgery | Reduced platelet deposition in rabbit arteries after temporary clip occlusion. |
-| [14506544](https://pubmed.ncbi.nlm.nih.gov/14506544/) | 2003 | Pilot study (non-randomized) | J Cardiovasc Pharmacol Ther | Feasibility of magnesium administration in patients undergoing non-acute coronary intervention with stent implantation. |
-| [3724238](https://pubmed.ncbi.nlm.nih.gov/3724238/) | 1986 | Clinical study | Magnesium | In 15 patients with Prinzmetal's angina, magnesium terminated and prevented cold-induced vasoconstriction. This concerns vasospasm rather than thrombosis. |
-| [8024163](https://pubmed.ncbi.nlm.nih.gov/8024163/) | 1994 | Clinical study | Angiology | Magnesium infusion and noradrenaline levels in primary Raynaud's phenomenon (vascular, not thrombotic). |
-| [14168822](https://pubmed.ncbi.nlm.nih.gov/14168822/) | 1964 | Historical report | The Practitioner | Parenteral magnesium sulphate in arterial disease. No abstract available. |
-| [27749350](https://pubmed.ncbi.nlm.nih.gov/27749350/) | 2016 | Systematic review | Anesthesia & Analgesia | Review of interventions to reduce blood loss in spine surgery. Only tangentially related. |
+| [14506544](https://pubmed.ncbi.nlm.nih.gov/14506544/) | 2003 | Prospective, nonrandomized, open-label pilot | J Cardiovasc Pharmacol Ther | Tested the feasibility of giving magnesium to patients undergoing nonacute coronary stenting, after animal data suggested it inhibits acute stent thrombosis. |
+| [3441141](https://pubmed.ncbi.nlm.nih.gov/3441141/) | 1987 | Preclinical | Magnesium | Magnesium sulfate reduced thrombus formation at sites of arterial constriction and endothelial damage in dogs and rabbits. |
+| [11816720](https://pubmed.ncbi.nlm.nih.gov/11816720/) | 2001 | Preclinical | Thromb Haemost | In rats, magnesium infusion prevented or delayed FeCl3-induced carotid thrombus formation and impaired coagulation in vivo. |
+| [7368083](https://pubmed.ncbi.nlm.nih.gov/7368083/) | 1980 | Preclinical | Surgery | Magnesium sulfate reduced platelet and erythrocyte deposition after temporary arterial occlusion in rabbits. |
+| [14168822](https://pubmed.ncbi.nlm.nih.gov/14168822/) | 1964 | Clinical report | Practitioner | Historical report on parenteral magnesium sulphate in arterial disease. No abstract is available. |
+| [8024163](https://pubmed.ncbi.nlm.nih.gov/8024163/) | 1994 | Clinical study | Angiology | Magnesium sulfate infusion in 12 women with primary Raynaud's phenomenon and 12 controls. Plasma noradrenaline and neuropeptide Y were measured, a vascular rather than thrombotic outcome. |
+
+---
 
 ## Canada Market Information
+
+Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid single-ingredient products. Approved-indication text and dosage forms are not recorded in the local data. Five representative licences are listed below.
 
 | DIN | Product Name |
 |---------|------|
@@ -88,26 +100,29 @@ This gives a plausible biological link to thrombosis, but the link rests mainly 
 | 02542153 | Magnesium Sulfate in Water for Injection |
 | 00392618 | Magnesium Sulfate Injection USP |
 
-Eight licences are listed in total, all valid. Dosage form and indication text are not recorded in the local data.
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: 92 interactions are recorded. Major-level interactions include dolutegravir, amikacin and bictegravir. Moderate-level interactions include nifedipine, amlodipine, doxycycline, tetracycline, ciprofloxacin, cisatracurium, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), bisphosphonates (alendronic acid, risedronic acid, ibandronate), and vitamin D forms (cholecalciferol, calcifediol, calcitriol).
+- **Drug Interactions**: 92 potential interactions are recorded. Major-level interactions include dolutegravir, amikacin and bictegravir. Moderate-level interactions include nifedipine, amlodipine, doxycycline, tetracycline, ciprofloxacin, cisatracurium, several corticosteroids, and bisphosphonates such as alendronic acid and risedronic acid.
 
 Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No cited study directly addresses thrombotic disease as a whole. The only trial concerns TTP, has an unknown status and no results, and the rest of the evidence is largely animal studies or off-target. The model score is high (0.9990), but it is not backed by clinical evidence for this indication.
+The only randomized trial addresses TTP specifically, and its status is unknown with no results. The remaining support is one small nonrandomized pilot study and older animal studies. This supports a research question, not a clinical recommendation.
 
 **To proceed, the following is needed:**
-- Results or status confirmation for NCT03237819, and a decision on which thrombotic condition to target
-- Mechanism of action data and a defined thrombotic indication
-- Human efficacy data in the chosen thrombotic condition, including dose and route
-- Package insert warnings and contraindications, with a bleeding and interaction review given the recorded interactions
+- Results or an updated status for NCT03237819
+- Randomized human data in a defined thrombotic condition, such as stent thrombosis, with clinical thrombotic endpoints
+- Mechanism of action data for magnesium sulfate, to support the proposed antithrombotic effect
+- Review of the package insert warnings and contraindications, including the 92 recorded drug interactions, before any design of a new-use study
+- Assessment of bleeding risk when magnesium is combined with anticoagulants or antiplatelet agents
 
 ## Disclaimer
 

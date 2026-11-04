@@ -3,18 +3,18 @@ layout: default
 title: Citalopram
 parent: High Evidence (L1-L2)
 nav_order: 199
-evidence_level: L1
+evidence_level: L2
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-10-28
-description: "Citalopram: predicted new indication obsessive-compulsive disorder (evidence level L1). Approved use: Not recorded in the local data"
+last_modified_at: 2026-11-04
+description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Citalopram
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **5** 
+Evidence Level: **L2** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +33,60 @@ Evidence Level: **L1** | Predicted Indications: **5**
 
 </div>
 
-## Citalopram: Selective serotonin reuptake inhibitor (SSRI) → obsessive-compulsive disorder
+## Citalopram: Obsessive-compulsive disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in Canada under multiple generic and brand licences.
+Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in Canada under multiple licences.
 The TxGNN model predicts it may be effective for **obsessive-compulsive disorder**,
-with **4 clinical trials** and **16 publications** retrieved for this disease. Only part of this material tests citalopram directly: most trials involve SSRIs as a class or other treatments, and about eight publications are citalopram-specific, mostly small open-label or cohort studies.
+supported by **4 registered clinical trials** (only indirectly related to citalopram) and **16 publications**, including several citalopram-specific small studies. The evidence level is **L2**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | obsessive-compulsive disorder |
+| Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9974 |
-| Evidence Level | L1 |
+| Evidence Level | L2 |
 | Canada Market Status | Marketed (valid licenses on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacological knowledge, citalopram is a selective serotonin reuptake inhibitor. Serotonergic dysregulation in cortico-striato-thalamo-cortical circuits is considered central to the pathophysiology of obsessive-compulsive disorder (OCD), and SSRIs are first-line pharmacotherapy for it.
+Detailed mechanism-of-action data for citalopram is not available in the data compiled for this report. Based on general pharmacological knowledge, citalopram is a highly selective serotonin reuptake inhibitor. Serotonergic dysregulation in cortico-striato-thalamo-cortical circuits is central to the pathophysiology of obsessive-compulsive disorder (OCD), and SSRIs are first-line pharmacotherapy for it.
 
-Citalopram's established uses in depression and anxiety share this serotonergic mechanism, and OCD often co-occurs with those conditions. This makes the prediction mechanistically plausible.
-
-Note on the evidence level: the "L1" label is carried over from the compiled scoring, but it does not fit the strict definition well. The listed Phase 3 trial (NCT00074815) is a pediatric SRI partial-responder study that does not name citalopram, and no completed Phase 3 trial of citalopram in OCD is listed. A conservative reading would be lower than L1 for citalopram specifically, and the decision below reflects this.
+Depression and anxiety, which citalopram is used for, share this serotonergic mechanism and frequently co-occur with OCD. This makes the prediction mechanistically plausible. The supporting evidence is small: one randomized single-blind comparison of three SSRIs, plus several open-label studies. No placebo-controlled Phase 3 trial of citalopram in OCD was found in the data.
 
 ## Clinical Trial Evidence
 
+None of the registered trials tests citalopram specifically; they address SSRIs or related treatments in OCD more broadly.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02022709](https://clinicaltrials.gov/study/NCT02022709) | Phase 4 | Completed | 78 | Exposure and response prevention, SSRIs, and their combination in OCD; also looks for predictors of response. Citalopram not specified |
-| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | Completed | 124 | Adding cognitive behavioral therapy to serotonin reuptake inhibitor treatment in children with OCD who partly responded. Citalopram not specified |
-| [NCT00680602](https://clinicaltrials.gov/study/NCT00680602) | Phase 4 | Completed | 158 | Group cognitive behavioral therapy vs. fluoxetine in OCD; class-level context only |
-| [NCT02285699](https://clinicaltrials.gov/study/NCT02285699) | NA | Completed | 43 | Pilot study of gut microbiota in OCD before and after 12 weeks of SSRI treatment; does not test efficacy |
+| [NCT02022709](https://clinicaltrials.gov/study/NCT02022709) | Phase 4 | Completed | 78 | Exposure and response prevention, SSRIs, and their combination in OCD; also looks for predictors of response in a Chinese population |
+| [NCT00074815](https://clinicaltrials.gov/study/NCT00074815) | Phase 3 | Completed | 124 | Cognitive behavioural therapy added to serotonin reuptake inhibitor treatment in children with OCD who partially responded |
+| [NCT00680602](https://clinicaltrials.gov/study/NCT00680602) | Phase 4 | Completed | 158 | Group cognitive behavioural therapy versus fluoxetine in OCD; class-level context only |
+| [NCT02285699](https://clinicaltrials.gov/study/NCT02285699) | N/A | Completed | 43 | Gut microbiota in OCD versus healthy controls, before and after 12 weeks of SSRI treatment; not an efficacy study |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | Open-label randomized trial (n=16) | Eur Psychiatry | Citalopram alone vs. with clomipramine in treatment-resistant OCD |
-| [9241005](https://pubmed.ncbi.nlm.nih.gov/9241005/) | 1997 | Single-blind comparison | J Clin Psychopharmacol | Compared antiobsessional efficacy of fluvoxamine, paroxetine and citalopram in 30 patients |
-| [15089116](https://pubmed.ncbi.nlm.nih.gov/15089116/) | 2004 | Cohort | CNS Drugs | Preliminary look at citalopram concentrations and clinical response in OCD |
-| [9395151](https://pubmed.ncbi.nlm.nih.gov/9395151/) | 1997 | Open pilot study | Acta Psychiatr Scand | 24-week open pilot of citalopram in OCD |
-| [12839522](https://pubmed.ncbi.nlm.nih.gov/12839522/) | 2003 | Open-label cohort (n=15) | Psychiatry Clin Neurosci | Citalopram in children and adolescents with OCD; 8-week acute treatment |
-| [9466233](https://pubmed.ncbi.nlm.nih.gov/9466233/) | 1997 | Open trial (n=23) | J Child Adolesc Psychopharmacol | Y-BOCS/CY-BOCS scores fell from 30 to 21 after 10 weeks of citalopram |
-| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | Review | Int Clin Psychopharmacol | Reviews citalopram for OCD and the role of serotonin reuptake inhibitors |
-| [22305974](https://pubmed.ncbi.nlm.nih.gov/22305974/) | 2012 | Review | BMJ Clin Evid | Overview of OCD epidemiology, course and treatment |
-| [20712565](https://pubmed.ncbi.nlm.nih.gov/20712565/) | 2010 | Review | Curr Med Chem | Past, present and future drugs for OCD |
-| [12607204](https://pubmed.ncbi.nlm.nih.gov/12607204/) | 2000 | Review | World J Biol Psychiatry | Serotonin and other neurobiological factors in OCD treatment |
+| [9241005](https://pubmed.ncbi.nlm.nih.gov/9241005/) | 1997 | Single-blind comparison | J Clin Psychopharmacol | Compared the antiobsessional efficacy of fluvoxamine, paroxetine and citalopram in 30 patients with OCD |
+| [10572334](https://pubmed.ncbi.nlm.nih.gov/10572334/) | 1999 | Randomized open-label trial | Eur Psychiatry | Citalopram alone versus citalopram plus clomipramine in 16 patients with treatment-resistant OCD |
+| [9395151](https://pubmed.ncbi.nlm.nih.gov/9395151/) | 1997 | Open pilot study | Acta Psychiatr Scand | 24-week open pilot study of citalopram in OCD |
+| [12839522](https://pubmed.ncbi.nlm.nih.gov/12839522/) | 2003 | Open-label study | Psychiatry Clin Neurosci | 8-week open-label study of citalopram (mean 24 mg/day) in 15 children and adolescents with OCD |
+| [9466233](https://pubmed.ncbi.nlm.nih.gov/9466233/) | 1997 | Open trial | J Child Adolesc Psychopharmacol | Citalopram 10–40 mg daily in 23 children and adolescents; Y-BOCS/CY-BOCS scores fell significantly after 10 weeks |
+| [15089116](https://pubmed.ncbi.nlm.nih.gov/15089116/) | 2004 | Cohort | CNS Drugs | Preliminary study of the relationship between citalopram concentrations and clinical response in OCD |
+| [10471169](https://pubmed.ncbi.nlm.nih.gov/10471169/) | 1999 | Review | Int Clin Psychopharmacol | Review of citalopram for OCD, covering the link between serotonin reuptake inhibitors and OCD |
+| [20712565](https://pubmed.ncbi.nlm.nih.gov/20712565/) | 2010 | Review | Curr Med Chem | Past, present and future drugs for OCD, with SSRIs central to treatment |
 
 ## Canada Market Information
 
-Canada has at least 20 valid single-ingredient licences, and the record may be partial. No indication text or dosage form is recorded for them in the local data. Examples of products:
+Citalopram is marketed in Canada, with all 20 licences currently valid. The records may be partial. Main authorizations:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -100,22 +98,24 @@ Canada has at least 20 valid single-ingredient licences, and the record may be p
 
 ## Safety Considerations
 
-Package-insert warnings and contraindications are not available in the data compiled for this report; please refer to the package insert.
+- **Drug Interactions**: 100 interacting drugs were identified. Major-level interactions include bupropion, omeprazole, cimetidine, cisapride, clarithromycin, lorcaserin, dexfenfluramine, diethylpropion and dolasetron. Moderate-level examples include famotidine, loperamide, morphine and acetylsalicylic acid.
+- **Conditions of concern**: Citalopram is recorded as contraindicated or to be used with great caution in long QT syndrome, torsades de pointes, epilepsy, bipolar disorder, liver disease, heart disease, blood coagulation disorders, potassium deficiency, serotonin syndrome, neuroleptic malignant syndrome and inappropriate ADH secretion.
 
-- **Drug Interactions**: 100 interactions were found. Major-level examples include bupropion, omeprazole, cimetidine, cisapride, clarithromycin, lorcaserin, dexfenfluramine, diethylpropion and dolasetron. Moderate-level examples include famotidine, loperamide, morphine, acetylsalicylic acid and chlorpropamide.
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic rationale is strong and several small citalopram studies in OCD point the same way, but the trials listed do not test citalopram directly, and the evidence is mainly open-label or cohort-based. The high prediction score is not a substitute for controlled efficacy data.
+Citalopram is mechanistically plausible for OCD and has a very high TxGNN score (0.9974). Several small citalopram studies, including one single-blind comparison, show a signal (Level L2). However, no placebo-controlled Phase 3 trial exists, and the registered trials do not test citalopram specifically.
 
 **To proceed, the following is needed:**
-- A controlled trial, or a systematic review, of citalopram specifically in OCD
-- Package-insert warnings and contraindications from Health Canada
-- Mechanism-of-action data from a primary source
-- Review of the interaction profile (especially QT-prolonging and serotonergic combinations) and of cardiac and hepatic risk in the target population
+- A placebo-controlled randomized trial of citalopram in OCD
+- Package insert warnings and contraindications from Health Canada
+- Detailed mechanism-of-action data
+- A cardiac (QT) monitoring plan and a review of interacting medicines, given the QT-related conditions and major interactions listed above
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

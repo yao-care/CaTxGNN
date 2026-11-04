@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Atomoxetine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 80
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
-description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L3). Approved use: Attention deficit hyperactivity disorder (ADHD)…"
+last_modified_at: 2026-11-04
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
+description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Atomoxetine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,64 +33,53 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Atomoxetine: From Attention Deficit Hyperactivity Disorder to Specific Developmental Disorder
+## Atomoxetine: Specific developmental disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Atomoxetine is a selective norepinephrine reuptake inhibitor originally used to treat attention deficit hyperactivity disorder (ADHD).
-The TxGNN model predicts it may be effective for **specific developmental disorder**,
-but there are **no registered clinical trials** and only a handful of relevant publications, mostly about ADHD occurring alongside developmental conditions rather than the developmental disorder itself.
-
----
+Atomoxetine is a selective norepinephrine reuptake inhibitor, used as a non-stimulant treatment for attention deficit hyperactivity disorder (ADHD).
+The TxGNN model predicts it may be useful for **specific developmental disorder**, but no study in the data compiled for this report tests atomoxetine in this condition itself, so the evidence level is **L5**.
+The related literature (14 publications, no registered clinical trials) addresses ADHD, including ADHD in children with autism, rather than the predicted disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Attention deficit hyperactivity disorder (ADHD), including the inattentive type |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Specific developmental disorder |
 | TxGNN Prediction Score | 1.0000 |
-| Evidence Level | L3 |
+| Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses on record: at least 19) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, atomoxetine is a selective norepinephrine reuptake inhibitor. Its efficacy in ADHD is established, and noradrenergic modulation may plausibly affect attention and executive function.
+Detailed mechanism of action data is not available in the data compiled for this report. Atomoxetine is known as a selective norepinephrine reuptake inhibitor, which is how it is used in ADHD, and this mechanism could in principle be relevant to neurodevelopmental conditions.
 
-ADHD often co-occurs with specific developmental disorders such as learning disabilities and autism spectrum disorder. Published studies show atomoxetine can improve ADHD symptoms in these groups. For example, a meta-analysis of three randomized placebo-controlled trials (241 children) examined atomoxetine for ADHD symptoms in children with autism.
-
-However, this benefit reflects the existing ADHD indication. It does not show an independent effect on the developmental disorder itself. The very high TxGNN score most likely reflects the network closeness between ADHD and developmental disorders rather than new mechanistic evidence.
-
----
+ADHD often co-occurs with learning disabilities and autism spectrum conditions. The literature shows that atomoxetine can improve ADHD symptoms in these groups, for example a meta-analysis of three placebo-controlled trials in 241 children with autism. However, this reflects its effect on ADHD symptoms, not a distinct effect on the developmental disorder itself. The very high score most likely reflects the close network relationship between this condition and ADHD. The prediction should therefore be treated as a research question, not as demonstrated efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+None of these publications studies atomoxetine in a specific developmental disorder directly. They concern ADHD and its comorbidities.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39701638](https://pubmed.ncbi.nlm.nih.gov/39701638/) | 2025 | Network meta-analysis | The Lancet Psychiatry | Compares drug, psychological and neurostimulation treatments for adult ADHD |
-| [30653855](https://pubmed.ncbi.nlm.nih.gov/30653855/) | 2019 | Meta-analysis | Autism Research | Atomoxetine for ADHD in children with autism; three placebo-controlled RCTs, 241 children |
-| [27721971](https://pubmed.ncbi.nlm.nih.gov/27721971/) | 2016 | Review | Therapeutic Advances in Psychopharmacology | Efficacy of atomoxetine in ADHD with common comorbidities, including developmental disorders |
+| [39701638](https://pubmed.ncbi.nlm.nih.gov/39701638/) | 2025 | Network meta-analysis | The Lancet Psychiatry | Compares drug, psychological and neurostimulation interventions for adult ADHD |
+| [30653855](https://pubmed.ncbi.nlm.nih.gov/30653855/) | 2019 | Meta-analysis | Autism Research | Three placebo-controlled trials (241 children) of atomoxetine for ADHD symptoms in autism |
+| [27721971](https://pubmed.ncbi.nlm.nih.gov/27721971/) | 2016 | Review | Therapeutic Advances in Psychopharmacology | Efficacy of atomoxetine for ADHD with common comorbidities, including pervasive developmental disorders |
 | [35485452](https://pubmed.ncbi.nlm.nih.gov/35485452/) | 2022 | Cohort | Neuropsychopharmacology Reports | Factors associated with atomoxetine efficacy in adult ADHD |
 | [33012168](https://pubmed.ncbi.nlm.nih.gov/33012168/) | 2021 | Observational | Clinical EEG and Neuroscience | Quantitative EEG in childhood ADHD and learning disabilities |
-| [25545605](https://pubmed.ncbi.nlm.nih.gov/25545605/) | 2015 | Systematic review | Journal of Affective Disorders | Comorbidity in paediatric bipolar disorder, including treatment |
-| [42675180](https://pubmed.ncbi.nlm.nih.gov/42675180/) | 2026 | Biomarker study | Nature Biomedical Engineering | Structural connectivity deviations in youths with ADHD predict symptom and treatment outcomes |
-
----
+| [42675180](https://pubmed.ncbi.nlm.nih.gov/42675180/) | 2026 | Research article | Nature Biomedical Engineering | Structural connectivity deviations in youths with ADHD predict symptom and treatment outcomes |
 
 ## Canada Market Information
 
-Health Canada lists 20 valid single-ingredient licences. The data compiled for this report do not include dosage form or approved indication text. The five licences below are examples.
+Atomoxetine is marketed in Canada. The records contain no indication text, dosage form or manufacturer.
 
 | DIN | Product Name |
 |---------|------|
@@ -100,34 +89,24 @@ Health Canada lists 20 valid single-ingredient licences. The data compiled for t
 | 02362511 | TEVA-ATOMOXETINE |
 | 02471493 | AURO-ATOMOXETINE |
 
----
-
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph (not label text):**
-  - Cardiovascular and cerebrovascular: hypertension, orthostatic hypotension, coronary artery disease, myocardial infarction, stroke and cerebral infarction, heart conduction disease, sudden cardiac arrest
-  - Psychiatric: bipolar disorder, psychotic disorders
-  - Neurological: epilepsy
-  - Liver and bilirubin: liver disease, gallbladder disease, hyperbilirubinemia, Gilbert syndrome
-  - Eye: angle-closure glaucoma
-- **Drug Interactions:** The interaction screen returned 100 records. Major-level interactions include **cisapride** and **dolasetron**. Moderate-level interactions include bupropion, cimetidine, clarithromycin, epinephrine, ephedrine, famotidine and fenfluramine.
+- **Drug Interactions**: 100 interactions were found in the interaction database. Those listed include a major interaction with cisapride and dolasetron, and moderate interactions with bupropion, cimetidine, clarithromycin, epinephrine, ephedrine, fenfluramine and others.
 
-Please refer to the Health Canada package insert for official warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications, which are not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The prediction rests on a high model score and on literature about ADHD in people with developmental conditions. No trials exist, and no study shows benefit for the developmental disorder itself. The evidence is therefore best treated as a research question rather than a candidate for action.
+No study tests atomoxetine in a specific developmental disorder itself. The linked evidence concerns ADHD, so the evidence level is L5 and the high score is not supported by direct data.
 
 **To proceed, the following is needed:**
-- A clear definition of the target population and outcome (the "specific developmental disorder" label is broad), separate from the existing ADHD indication
-- Mechanism of action data, to support a mechanistic link
-- Package insert warnings and contraindications from Health Canada, so safety screening can be done
-- Controlled trials, or a systematic review, focused on outcomes in the developmental disorder rather than ADHD symptoms
+- Studies or trials that directly assess atomoxetine in the specific developmental disorder, with outcomes beyond ADHD symptoms
+- Mechanism of action data
+- Package insert warnings and contraindications from Health Canada
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -3,18 +3,18 @@ layout: default
 title: Hydrocortisone
 parent: High Evidence (L1-L2)
 nav_order: 455
-evidence_level: L1
+evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
-description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L5). Approved use: Adrenal insufficiency / Addison disease…"
+last_modified_at: 2026-11-04
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **9** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,57 +33,51 @@ Evidence Level: **L1** | Predicted Indications: **9**
 
 </div>
 
-## Hydrocortisone: From Adrenal Insufficiency and Inflammatory Conditions to Alopecia Areata
+## Hydrocortisone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Hydrocortisone is a glucocorticoid originally used for adrenal insufficiency (including Addison disease), autoimmune and inflammatory conditions such as Crohn disease, and certain leukaemias.
-The TxGNN model predicts it may be effective for **alopecia areata**,
-with **1 clinical trial** (in which hydrocortisone was only the low-potency comparator) and **20 publications** (mostly case reports, older cohorts and unrelated articles) currently linked to this direction.
+Hydrocortisone is a glucocorticoid with anti-inflammatory and immunosuppressive effects, and it is marketed in Canada in several systemic and topical products.
+The TxGNN model predicts it may be useful for **alopecia areata**, with **1 clinical trial** and **19 publications** retrieved for this direction.
+The only trial used hydrocortisone 1% cream as the low-potency comparator against clobetasol, so the evidence is at **Level L2** and does not by itself show that hydrocortisone is effective in this condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Adrenal insufficiency / Addison disease, Crohn disease and inflammatory bowel disease, autoimmune disease, acute lymphoblastic leukaemia (the data compiled for this report does not include approved indication text for the Canadian products) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L1 (as scored in the compiled data; see the note below, as the evidence is weaker than this label suggests) |
+| Evidence Level | L2 |
 | Canada Market Status | Marketed (valid licenses: 15 of 16) |
 | Number of DINs | 16 (valid: 15) |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, hydrocortisone is a glucocorticoid with anti-inflammatory and immunosuppressive effects, and its efficacy in adrenal insufficiency and inflammatory or autoimmune disease is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, hydrocortisone is a glucocorticoid with anti-inflammatory and immunosuppressive effects.
 
-Alopecia areata is a T-cell-mediated autoimmune disorder in which the immune system attacks hair follicles. Suppressing local immune activity is therefore mechanistically plausible. Topical and intralesional corticosteroids are already used in practice for this condition, and historical reports from the 1950s to 1970s describe intralesional hydrocortisone injections.
+Alopecia areata is a T-cell-mediated autoimmune disorder in which the immune system attacks hair follicles, causing patchy hair loss. Suppressing local immune activity is therefore mechanistically plausible. Topical and intralesional corticosteroids are already used in clinical practice for this condition, and several older case series (1950s–1970s) describe intralesional hydrocortisone injections.
 
-An important caveat: the only Phase 3 trial used hydrocortisone 1% cream as the low-potency comparator against clobetasol propionate 0.05%. It therefore mainly supports clobetasol's performance and does not demonstrate that hydrocortisone itself is effective. The "L1" label should be read with this in mind. In practice, the evidence for hydrocortisone specifically is closer to historical or indirect support.
+An important caveat: the available Phase 3 trial used hydrocortisone 1% only as the low-potency comparator against clobetasol. It mainly supports clobetasol's superiority and gives limited evidence of hydrocortisone's own efficacy.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomised trial in children with alopecia areata comparing clobetasol propionate 0.05% cream with hydrocortisone 1% cream (2002–2003). Hydrocortisone served as the low-potency active comparator, so the trial mainly addresses clobetasol's superiority. |
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomized trial in children with alopecia areata comparing clobetasol propionate 0.05% cream with hydrocortisone 1% cream. Hydrocortisone served as the active low-potency comparator. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | Clobetasol 0.05% vs hydrocortisone 1% for alopecia areata in children (publication of the Phase 3 trial above) |
-| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Cohort | Medical Times | Treatment of alopecia areata with cortisone, hydrocortisone and analogues |
-| [14158890](https://pubmed.ncbi.nlm.nih.gov/14158890/) | 1963 | Cohort | Actas Dermo-Sifiliograficas | Comparison of intralesional injection of different corticoids in alopecia areata |
-| [5989830](https://pubmed.ncbi.nlm.nih.gov/5989830/) | 1966 | Cohort | Vestnik Dermatologii i Venerologii | Intracutaneous hydrocortisone injections in alopecia areata and total alopecia |
-| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Review | J Med Soc New Jersey | Overview of alopecia areata and other common scalp problems |
-| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Case report | J Am Acad Dermatol | Four cases of congenital alopecia areata, treated with minoxidil and a range of topical agents |
-| [28094416](https://pubmed.ncbi.nlm.nih.gov/28094416/) | 2017 | Case report | Tierarztl Prax Ausg K | Canine alopecia areata in which topical tacrolimus and hydrocortisone aceponate were ineffective |
-| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Clinical report | Przeglad Dermatologiczny | Intralesional hydrocortisone acetate suspension injections in severe alopecia areata |
-| [14376206](https://pubmed.ncbi.nlm.nih.gov/14376206/) | 1955 | Clinical report | Actas Dermo-Sifiliograficas | First clinical tests of local hydrocortisone therapy for alopecia areata |
-| [24326563](https://pubmed.ncbi.nlm.nih.gov/24326563/) | 2013 | Preclinical | J Investig Dermatol Symp Proc | Parathyroid hormone agonists in a mouse model of alopecia areata (not hydrocortisone-specific) |
-
-Several other retrieved articles are tangential (for example, an anaphylaxis case with triamcinolone, a self-medication survey, and unrelated case reports) and are not listed here.
+| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | Clobetasol 0.05% vs hydrocortisone 1% for alopecia areata in children (the published report of the trial above). |
+| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Cohort | Medical Times | Treatment of alopecia areata with cortisone, hydrocortisone and analogs. |
+| [14158890](https://pubmed.ncbi.nlm.nih.gov/14158890/) | 1963 | Cohort | Actas Dermo-Sifiliográficas | Relative efficacy of local injection of different corticoids in alopecia areata. |
+| [5989830](https://pubmed.ncbi.nlm.nih.gov/5989830/) | 1966 | Cohort | Vestnik Dermatologii i Venerologii | Intracutaneous hydrocortisone injections in alopecia areata and total alopecia. |
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Case report | J Am Acad Dermatol | Four cases of congenital alopecia areata treated with topical agents including minoxidil. |
+| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Review | J Med Soc New Jersey | Overview of alopecia areata and other common scalp problems. |
 
 ## Canada Market Information
 
@@ -95,27 +89,25 @@ Several other retrieved articles are tangential (for example, an anaphylaxis cas
 | 02524465 | AURO-HYDROCORTISONE | Not specified | Not specified |
 | 01954210 | PRAMOX HC LOTION | Lotion (per product name) | Not specified |
 
-In total, 16 single-ingredient authorisations are valid, covering systemic brands (Solu-Cortef, Cortef), generics and several topical or rectal products (for example Pramox HC, Proctol, Teva-Proctosone, Vioform Hydrocortisone).
-
 ## Safety Considerations
 
-- **Contraindications (from TxGNN model (deep learning) output, not label text; these may reflect similarities the model learned between related diseases, not biological evidence)**: hypertension, epilepsy, gastric ulcer, kidney disease, liver disease, gallbladder disease, hyperglycemia, measles, herpes simplex keratitis, anogenital HPV infection, common warts, and several pituitary or growth hormone deficiency disorders.
-- **Drug Interactions**: 100 interactions were identified. Examples include **Adalimumab (major)**, and moderate interactions with zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, ibuprofen, nifedipine, ethinylestradiol, aldesleukin, alemtuzumab, and certain live or inactivated vaccine antigens. Formoterol and salbutamol show minor interactions.
+Please refer to the package insert for safety information.
 
-Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for full safety information.
+Drug interaction screening returned 100 records. Examples include a **Major** interaction with adalimumab, and **Moderate** interactions with drugs such as ibuprofen, ketorolac, nifedipine, isotretinoin, acarbose and zidovudine. Minor interactions include salbutamol and formoterol.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The TxGNN score is very high and the mechanism is plausible, but the only controlled trial used hydrocortisone as a weak comparator, so it does not demonstrate hydrocortisone's own efficacy in alopecia areata. Other supporting literature is mostly historical case series. Higher-potency corticosteroids such as clobetasol are already the more reasonable option in this setting. The other predicted indications (for example alopecia mucinosa, telogen effluvium, folliculitis decalvans) have little or no supporting evidence.
+A completed Phase 3 randomized trial and its publication directly study alopecia areata, and corticosteroids are an established approach. However, hydrocortisone was only the comparator, so the evidence for its own efficacy is limited (Level L2).
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings, contraindications and approved indication text (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A critical review of the 2014 RCT's data on the hydrocortisone arm, or a head-to-head or placebo-controlled trial of hydrocortisone in alopecia areata
-- Comparison with established corticosteroid options to define whether hydrocortisone offers any advantage (for example, in a specific population such as children or facial involvement)
+- A trial in which hydrocortisone is the test arm, ideally with a placebo or vehicle control
+- Package insert warnings and contraindications for the relevant formulations
+- Mechanism of action data
+- A review of the drug interaction profile, particularly with adalimumab and other immunomodulators
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

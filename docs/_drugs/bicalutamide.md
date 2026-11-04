@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bicalutamide
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 113
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-10-28
-description: "Bicalutamide: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
+last_modified_at: 2026-11-04
+description: "Bicalutamide: predicted new indication Hypertrichosis (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Bicalutamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Bicalutamide: Nonsteroidal androgen receptor antagonist → hypertrichosis (hypertrichosis (disease))
+## Bicalutamide: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Bicalutamide is a nonsteroidal androgen receptor antagonist marketed in Canada.
-The TxGNN model predicts it may be relevant to **hypertrichosis (disease)**, with a score of 0.9969.
-Currently there are **no registered clinical trials** and **1 publication** (a 2022 comment letter) linked to this direction, so the evidence is very thin.
+Bicalutamide is a nonsteroidal androgen receptor antagonist.
+The TxGNN model predicts it may be effective for **hypertrichosis**, with a score of **0.9969**.
+Currently there are **no registered clinical trials** and only **1 publication** (a 2022 comment letter on a retrospective review of 35 patients with minoxidil-induced hypertrichosis), so the evidence level is **L4**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | hypertrichosis (disease) |
+| Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9969 |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Canada Market Status | Marketed (valid licenses: 6 of 6) |
 | Number of DINs | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, bicalutamide is a nonsteroidal androgen receptor (AR) antagonist, meaning it blocks the signalling of androgen hormones in target tissues.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, bicalutamide is a nonsteroidal androgen receptor (AR) antagonist, which blocks androgen signalling in target tissues.
 
-Hair growth is partly androgen-sensitive, and minoxidil-induced hypertrichosis in women has been discussed as having an androgen-signalling component. Blocking the androgen receptor is therefore biologically plausible as a way to reduce unwanted hair growth.
-
-However, this link is indirect. The only supporting item is a comment letter on a retrospective review of bicalutamide in minoxidil-induced hypertrichosis. That comment is not primary clinical evidence, and the data compiled for this report contain no trial or study that directly tests bicalutamide for hypertrichosis. For this reason the evidence level is capped at L5, which means a model prediction without direct supporting studies.
+Hypertrichosis, particularly minoxidil-induced hypertrichosis in women, has an androgen-signalling component, so AR blockade is biologically plausible. The only supporting item is a comment on a retrospective review reporting that bicalutamide improved minoxidil-induced hypertrichosis in female pattern hair loss. This is indirect evidence: the review itself is not part of the data compiled, and a comment letter is not primary clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -70,7 +68,7 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Comment/Letter | Journal of the American Academy of Dermatology | Comment on a retrospective review of 35 patients on bicalutamide for minoxidil-induced hypertrichosis in female pattern hair loss; no abstract available, not primary clinical data |
+| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Comment/Letter | Journal of the American Academy of Dermatology | Comment on a retrospective review of 35 patients in which bicalutamide improved minoxidil-induced hypertrichosis in female pattern hair loss; no abstract available |
 
 ## Canada Market Information
 
@@ -82,19 +80,9 @@ Currently no related clinical trials registered.
 | 02325985 | ACH-BICALUTAMIDE | Not recorded | Not recorded |
 | 02275589 | PMS-BICALUTAMIDE | Not recorded | Not recorded |
 
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted hormonal therapy (androgen receptor antagonist); not a conventional cytotoxic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions; liver function is commonly monitored for this class |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interactions were found in the interaction data. Examples include major-level interactions with cisapride and dolasetron, and moderate-level interactions with clarithromycin, levofloxacin, aprepitant, granisetron, famotidine, loperamide and budesonide.
+- **Drug Interactions**: 100 interactions were found in the interaction databases. Examples include **Major** interactions with cisapride and dolasetron, and **Moderate** interactions with clarithromycin, levofloxacin, famotidine, loperamide, aprepitant, budesonide and granisetron, among others.
 
 Please refer to the package insert for warnings and contraindications.
 
@@ -103,13 +91,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no clinical trial and no primary study directly supports bicalutamide for hypertrichosis. The only cited item is a comment letter, and package insert safety data have not yet been obtained.
+The prediction score is high (0.9969), but the only human evidence is an indirect comment letter on a small retrospective review, with no registered trials. The evidence level is L4, which supports treating this as a research question rather than a candidate for clinical use.
 
 **To proceed, the following is needed:**
-- The original retrospective review of bicalutamide for minoxidil-induced hypertrichosis, and any prospective or controlled studies
-- Detailed mechanism of action data
-- Health Canada package insert warnings and contraindications, to complete safety screening
-- A safety plan covering liver function and the drug interactions listed above
+- Obtain the original retrospective review of 35 patients and assess its design, outcomes and safety data
+- A prospective, controlled study of bicalutamide in hypertrichosis, especially minoxidil-induced hypertrichosis
+- Detailed mechanism-of-action data
+- Package insert warnings and contraindications, to assess safety in the target population
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

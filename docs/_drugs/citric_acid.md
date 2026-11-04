@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Citric Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 200
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
-description: "Citric Acid: predicted new indication Stomach disease (evidence level L4). Approved use: Dyspepsia, headache disorder"
+last_modified_at: 2026-11-04
 monitor_inn: "CITRIC ACID"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
+description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Citric Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +33,51 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Citric Acid: From Dyspepsia to Stomach Disease
+## Citric Acid: Stomach disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Citric acid is a widely used organic acid, originally associated with the treatment of dyspepsia and headache disorder.
-The TxGNN model predicts it may be useful for **stomach disease**,
-but there are currently **no registered clinical trials** and only **indirect literature** (about 20 publications, none showing a therapeutic effect) behind this prediction.
-
----
+Citric acid is an organic acid with several marketed single-ingredient products in Canada, including anticoagulant solutions and bowel-preparation products.
+The TxGNN model predicts it may be relevant to **stomach disease**, with a score of 0.9974.
+No clinical trials are registered for this prediction, and no published study tests citric acid as a treatment for it, so the evidence level is **L5** (model prediction only).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Dyspepsia, headache disorder (the Canadian licence records contain no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Stomach disease |
 | TxGNN Prediction Score | 0.9974 |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Canada Market Status | Marketed (valid licenses: 10 of 10) |
 | Number of DINs | 10 (valid: 10) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, citric acid is a common acidulant, buffering agent and anticoagulant component (as in citrate-dextrose solutions) and is also found in bowel-preparation products. It is already linked to dyspepsia, a gastric condition, so a connection to broader stomach disease is plausible through shared gastric pathways such as acid-base balance, gastric pH and mucosal effects.
+Detailed mechanism-of-action data for citric acid are not available in the data compiled for this report. Citric acid is a weak organic acid that acts as a buffer and a calcium chelator. This chelation is the basis of its use in anticoagulant citrate solutions.
 
-The supporting literature is only indirect. The most relevant items show citric acid used as a test meal to improve the accuracy of the 13C-urea breath test for *Helicobacter pylori* (a diagnostic aid, not a treatment). Other papers cover diet in ulcer disease, *H. pylori* physiology, gastric acid secretion and metabolomics. None demonstrates that citric acid treats a stomach disease, so the prediction should be treated as a research question rather than an established opportunity.
+A plausible, but unproven, link to stomach disease is that citric acid influences gastric acidity and mucosal conditions. This is speculation and has not been tested in a therapeutic study.
 
-Other predicted indications (pharyngitis, acute laryngopharyngitis, postgastrectomy syndrome, nasal cavity disease, papillary conjunctivitis, blepharoconjunctivitis, rhinitis) have even weaker support. Most rest on the model score alone, and in the airway papers citric acid appears mainly as a cough-provoking agent or a taste-masking excipient.
-
----
+The retrieved publications do not close this gap. The closest are studies using a citric acid test meal to improve the accuracy of the 13C-urea breath test for *Helicobacter pylori*. That is a diagnostic adjunct, not a treatment. The remaining papers cover diet in ulcer disease, *H. pylori* physiology, gastric cancer biology and unrelated topics. The prediction therefore rests on the model score alone.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+No study directly tests citric acid as a treatment for stomach disease. The most relevant items are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31505905](https://pubmed.ncbi.nlm.nih.gov/31505905/) | 2019 | Clinical diagnostic study | Gut and Liver | Discusses whether a citric acid meal improves 13C-urea breath test accuracy for *H. pylori* in Asian populations (diagnostic use) |
-| [30970440](https://pubmed.ncbi.nlm.nih.gov/30970440/) | 2019 | Clinical study | Gut and Liver | Effect of citric acid on 13C-urea breath test accuracy after *H. pylori* eradication in a region with common atrophic gastritis |
+| [31505905](https://pubmed.ncbi.nlm.nih.gov/31505905/) | 2019 | Clinical diagnostic study | Gut and Liver | Discusses whether a citric acid meal improves the accuracy of the 13C-urea breath test in Asian populations (diagnostic use only) |
+| [30970440](https://pubmed.ncbi.nlm.nih.gov/30970440/) | 2019 | Clinical study | Gut and Liver | Effect of citric acid on 13C-urea breath test accuracy after *H. pylori* eradication in a region with a high prevalence of atrophic gastritis |
 | [15854177](https://pubmed.ncbi.nlm.nih.gov/15854177/) | 2005 | Mechanistic study | Aliment Pharmacol Ther | Compares citric, malic and ascorbic acid effects on intragastric urease activity |
 | [2072799](https://pubmed.ncbi.nlm.nih.gov/2072799/) | 1991 | Review | Med Clin North Am | Diet and nutrition in ulcer disease; restrictive diets are not supported |
-| [9889978](https://pubmed.ncbi.nlm.nih.gov/9889978/) | 1998 | Review | Adv Microb Physiol | Physiology and metabolism of *H. pylori* |
-| [35900644](https://pubmed.ncbi.nlm.nih.gov/35900644/) | 2022 | Cohort | Metabolomics | High serum citric acid and L-carnitine detectable before gastric cancer onset (biomarker finding) |
-| [7106518](https://pubmed.ncbi.nlm.nih.gov/7106518/) | 1982 | Cohort | Gastroenterology | Salivary secretion in reflux esophagitis |
-| [22313115](https://pubmed.ncbi.nlm.nih.gov/22313115/) | 2012 | Experimental | J Agric Food Chem | Beer bitter acids and mechanisms of gastric acid secretion |
-| [33168589](https://pubmed.ncbi.nlm.nih.gov/33168589/) | 2021 | Preclinical | Infect Immun | Gastric metabolomics shows loss of metabolites with *H. pylori* infection |
-| [39539553](https://pubmed.ncbi.nlm.nih.gov/39539553/) | 2024 | Review | Front Immunol | Role of cuproptosis in gastric cancer (not directly related) |
-
----
+| [9889978](https://pubmed.ncbi.nlm.nih.gov/9889978/) | 1998 | Review | Adv Microb Physiol | Physiology and metabolism of the gastric pathogen *H. pylori* |
+| [35900644](https://pubmed.ncbi.nlm.nih.gov/35900644/) | 2022 | Cohort | Metabolomics | Higher serum citric acid is detectable in Koreans before gastric cancer onset (biomarker finding) |
 
 ## Canada Market Information
 
@@ -101,43 +89,27 @@ Currently no related clinical trials registered.
 | 02254794 | PICO-SALAX | Not listed | Not listed |
 | 01935941 | Heparin Sodium in 5% Dextrose Injection, 25000 unit/500 mL | Not listed | Not listed |
 
-Ten valid single-ingredient licences exist in total; the five above are shown.
-
----
+All 10 licences on record are valid single-ingredient licences. Only five are shown here.
 
 ## Safety Considerations
 
-**Contraindications flagged in the knowledge graph** (these come from drug-disease relationships in the TxGNN knowledge graph, not from package insert text):
-- Cardiovascular and renal: hypertension, congestive heart failure, kidney disease, impaired renal function, anuria
-- Adrenal: adrenal insufficiency, Addison disease, congenital adrenal hyperplasia and related adrenal disorders
-- Gastrointestinal and hepatic: peptic ulcer disease, chronic diarrheal disease, liver disease, gallbladder disease
-- Haematological: thrombocytopenia, thrombocytopenic purpura, hemophilia, anemia
-- Metabolic: hypercalcemia, nephrocalcinosis, phosphorus metabolism disease, gout
-- Other: substance abuse/dependence
+- **Drug Interactions**: 15 interactions were identified. The one rated Major is aluminum hydroxide. The other 14 are rated Moderate and are mostly fluoroquinolone and related antibiotics, including ciprofloxacin, levofloxacin, moxifloxacin, ofloxacin, norfloxacin, enoxacin, gatifloxacin, gemifloxacin, lomefloxacin, sparfloxacin, trovafloxacin, grepafloxacin, nalidixic acid and cinoxacin.
 
-Note that peptic ulcer disease appears on this list, which deserves attention given the predicted stomach indication.
-
-**Drug Interactions** (15 recorded):
-- **Major:** aluminum hydroxide (citrate can increase aluminum absorption)
-- **Moderate:** quinolone antibiotics, including ciprofloxacin, levofloxacin, moxifloxacin, ofloxacin, norfloxacin, enoxacin, gatifloxacin, gemifloxacin, lomefloxacin, sparfloxacin, grepafloxacin, trovafloxacin, plus cinoxacin and nalidixic acid
-
-For package insert warnings, please refer to the product labelling.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (0.9974), but there are no clinical trials and the literature shows only diagnostic or mechanistic associations, not treatment benefit. Citric acid's roles in Canada are mainly anticoagulant solutions and bowel-preparation products, and the knowledge graph lists peptic ulcer disease as a contraindication, which conflicts with the predicted stomach indication.
+The prediction score is high (0.9974), but no clinical trial exists and no published study tests citric acid as a treatment for stomach disease. The evidence level is therefore L5. The retrieved literature is limited to diagnostic and background studies.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a defined therapeutic hypothesis (which stomach disease, and at what dose and route)
-- Package insert warnings and contraindications from Health Canada for the relevant products
-- Resolution of the peptic ulcer and gastric acid safety question
-- Preclinical or early clinical evidence of therapeutic benefit in a specific gastric condition
-- Review of the aluminum and quinolone interactions for any proposed use
+- Mechanism-of-action data for citric acid
+- Package insert warnings and contraindications from Health Canada
+- Preclinical or early clinical studies testing citric acid directly in a defined gastric condition
+- A safety review of the interaction with aluminum hydroxide and of the fluoroquinolone interactions
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
