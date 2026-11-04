@@ -1,6 +1,7 @@
 ---
 layout: home
 title: CaTxGNN - Canada Drug Repurposing Predictions
+description: "TxGNN drug repurposing reports for 932 medicines in Health Canada's Drug Product Database, with evidence levels L1–L5 from clinical trials and literature."
 ---
 
 # CaTxGNN
@@ -12,7 +13,30 @@ Drug repurposing predictions for Health Canada approved medications using the Tx
 
 This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [Health Canada](https://www.canada.ca/en/health-canada.html) (Canada).
 
-Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+### This site's local data
+
+| Item | Detail |
+|------|--------|
+| Dataset | Drug Product Database (DPD) full data extracts: marketed (`allfiles.zip`), inactive (`allfiles_ia.zip`), dormant (`allfiles_dr.zip`) and approved (`allfiles_ap.zip`) products |
+| Publisher | Health Canada |
+| Download | <https://www.canada.ca/content/dam/hc-sc/documents/services/drug-product-database/allfiles.zip> (the other three files use the same address with `_ia`, `_dr` and `_ap`) |
+| Product identifier | DIN |
+| Updates | Automatic weekly download (every Monday); each DIN takes the DPD status (Marketed, Approved, Dormant, Cancelled…); a DIN missing from the new files keeps its previous status |
+
+Details: [Data Sources]({{ '/sources/' | relative_url }}).
+
+Reports by evidence level:
+
+| Evidence level | Reports | Share |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+73 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
 
 ### Highest evidence levels on this site
 
@@ -22,12 +46,12 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 | [Bendamustine](/drugs/bendamustine/) | L1 |
 | [Bromfenac](/drugs/bromfenac/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
-| [Lanadelumab](/drugs/lanadelumab/) | L1 |
-| [Rifabutin](/drugs/rifabutin/) | L1 |
-| [Solriamfetol](/drugs/solriamfetol/) | L1 |
-| [Triptorelin](/drugs/triptorelin/) | L1 |
-| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
 | [Peginterferon Alfa-2A](/drugs/peginterferon-alfa-2a/) | L1 |
+| [Ribavirin](/drugs/ribavirin/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Ketorolac](/drugs/ketorolac/) | L1 |
 
 ### Medicines covered only by this site among the 30 TxGNN sites
 
@@ -39,8 +63,8 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 | [Gramicidin D](/drugs/gramicidin-d/) | L5 |
 | [Romidepsin](/drugs/romidepsin/) | L5 |
 | [Butalbital](/drugs/butalbital/) | L5 |
-| [Methotrimeprazine](/drugs/methotrimeprazine/) | L5 |
 | [Monopotassium Phosphate](/drugs/monopotassium-phosphate/) | L5 |
+| [Methotrimeprazine](/drugs/methotrimeprazine/) | L5 |
 | [Thyroid Porcine](/drugs/thyroid-porcine/) | L5 |
 | [Anti-Inhibitor Coagulant Complex](/drugs/anti-inhibitor-coagulant-complex/) | L5 |
 | [Oxtriphylline](/drugs/oxtriphylline/) | L5 |
@@ -53,15 +77,15 @@ Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {
 
 ## Overview
 
-This system analyzes **{{ site.data.stats.total_drugs | default: "11,511" }}** Health Canada registered drugs to identify potential new therapeutic uses.
+This system analyzes Health Canada registered drugs to identify potential new therapeutic uses.
 
 ## Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Drugs | {{ site.data.stats.total_drugs | default: "11,511" }} |
-| Mapped to DrugBank | {{ site.data.stats.mapped_drugs | default: "1,254" }} |
-| Mapping Rate | {{ site.data.stats.mapping_rate | default: "85.2%" }} |
+| Drug Reports | {{ site.data.drug_stats.total_drugs }} |
+| Mapped to DrugBank | 1,266 |
+| Mapping Rate | 86.7% |
 | Predicted New Indications (known uses excluded) | {{ site.data.site_stats.indications }} |
 
 ## FHIR API
@@ -91,15 +115,5 @@ This content is for **research purposes only**. Predictions are computational an
 
 ## About the Developer
 
-This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
-number 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-CaTxGNN is the Canada site of the company's "TxGNN Drug Repurposing" product line.
-The same system is deployed across 30 countries and regions, each named `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, and so on) at `{cc}txgnn.yao.care`.
-Product overview: <https://www.yao.care/medical/txgnn/>.
-
-The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
-in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
-model, covering national drug-registration data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
-electronic health record integration.
+This platform is developed and operated by **藥提醒科技有限公司** (yao.care). See the
+<a href="{{ '/about/' | relative_url }}">About</a> page for the full company and methodology background.
