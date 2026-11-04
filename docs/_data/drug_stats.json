@@ -3,10 +3,10 @@
   "total_drugs": 932,
   "level_counts": {
     "L1": 12,
-    "L2": 41,
+    "L2": 42,
     "L3": 39,
     "L4": 62,
-    "L5": 726
+    "L5": 725
   },
   "all_drugs": [
     {
@@ -1206,7 +1206,7 @@
     {
       "name": "Clozapine",
       "slug": "clozapine",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 9
     },
     {
