@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sacituzumab Govitecan: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Sacituzumab govitecan"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -50,8 +50,8 @@ Sacituzumab govitecan (marketed in Canada as TRODELVY) is a Trop-2-directed anti
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

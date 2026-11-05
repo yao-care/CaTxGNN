@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 954
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: No approved indication text is available in the Canadian licence reco…"
 monitor_inn: "TRYPTOPHAN"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses on record: at least 19) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -78,7 +78,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Health Canada records show 20 valid single-ingredient licences, with no cancelled licences. The records do not include dosage form or approved indication text. The main authorizations are:
+The records do not include dosage form or approved indication text. The main authorizations are:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

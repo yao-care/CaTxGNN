@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 80
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
 description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ The related literature (14 publications, no registered clinical trials) addresse
 | Predicted New Indication | Specific developmental disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 19) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; dormant: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

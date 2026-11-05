@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 637
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Nabilone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the Canadian licence data compiled for this report (…"
 monitor_inn: "Nabilone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
@@ -50,8 +50,8 @@ Nabilone is a synthetic cannabinoid that is marketed in Canada. The data compile
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 (for migraine disorder; the related headache disorder entry reaches L3) |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ---

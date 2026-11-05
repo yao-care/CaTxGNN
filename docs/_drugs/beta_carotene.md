@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 109
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Beta Carotene: predicted new indication Acne (disease) (evidence level L4). Approved use: Not available"
 monitor_inn: "Beta carotene"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "cortical cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "tetanic cataract", "immature cataract"]
@@ -52,8 +52,8 @@ The evidence is therefore weak, and the prediction is best treated as a research
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 2 of 4) |
-| Number of DINs | 4 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 4; dormant: 2) |
+| Number of DINs | 4 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

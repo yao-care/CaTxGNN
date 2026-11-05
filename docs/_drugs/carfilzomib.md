@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Carfilzomib: predicted new indication CMM7 (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This prediction has **no clinical trials and no publications** directly studying
 | Predicted New Indication | CMM7 (CMM7) |
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

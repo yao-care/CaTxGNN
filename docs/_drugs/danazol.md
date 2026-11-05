@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "DANAZOL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Danazol: predicted new indication Amenorrhea (amenorrhea (disease)) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The data compiled for this report show **no registered clinical trials** and **2
 | Predicted New Indication | Amenorrhea (amenorrhea (disease)) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

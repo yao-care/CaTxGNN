@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 510
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
@@ -50,8 +50,8 @@ with **9 clinical trials** and **20 publications** compiled, including a complet
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| Canada Market Status | Marketed (valid licenses: 7 of 7) |
-| Number of DINs | 7 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Only one Phase 3 trial (THINK, NCT03081416) is confirmed as completed, and the other Phase 3 trial is still recruiting. Strictly under the L1 rule (≥2 completed Phase 3 RCTs), a more conservative grading of L2 would be defensible. The L1 grade is retained from the scoring data compiled for this report.

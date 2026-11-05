@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 252
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Chronic myelogenous leukemia…"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -50,7 +50,7 @@ The evidence is mostly preclinical or early-phase, and the clinical signal is no
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 (as assigned in the compiled data; see the note below) |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold (research question) |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Monopotassium Phosphate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not stated in the Canadian licence data (the products are potassium p…"
 monitor_inn: "Monopotassium phosphate"
 predicted_indications: ["renal tubular acidosis", "acute urate nephropathy", "dyspepsia", "potassium deficiency disease", "nephrolithiasis", "calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
@@ -52,8 +52,8 @@ The prediction rests on the model alone and should be treated as a research ques
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ---

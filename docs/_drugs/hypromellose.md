@@ -5,7 +5,7 @@ layout: default
 title: Hypromellose
 parent: Known Uses Only (No New Predictions)
 nav_order: 462
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Hypromellose: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Hypromellose"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses: 8 of 9) |
-| Number of DINs | 9 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 9; cancelled: 1) |
+| Number of DINs | 9 (marketed: 8) |
 
 ## Canada Market Information
 
@@ -56,7 +56,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 00743445 | TEARS NATURALE II | Not listed | Not listed |
 | 02354535 | ARTIFICIAL TEARS | Not listed | Not listed |
 
-Nine valid single-ingredient licenses are on record in total; the table shows the first five. The product names indicate ophthalmic lubricant products.
+The product names indicate ophthalmic lubricant products.
 
 ## Safety Considerations
 

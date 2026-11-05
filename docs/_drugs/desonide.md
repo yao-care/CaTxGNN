@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "DESONIDE"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Desonide: predicted new indication polyp of vocal cord (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | polyp of vocal cord |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Hydroxocobalamin: predicted new indication Esophageal varices without bleeding (a second prediction… (evidence level L5). Approved use: Vitamin B12 deficiency, cyanide poisoning, pernicious anemia"
 monitor_inn: "HYDROXOCOBALAMIN"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
@@ -52,8 +52,8 @@ but **no clinical trials and no publications** currently support this direction,
 | Predicted New Indication | Esophageal varices without bleeding (a second prediction, esophageal varices with bleeding, has the same score) |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

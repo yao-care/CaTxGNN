@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 719
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Pemigatinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Pemigatinib"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
@@ -48,8 +48,8 @@ Pemigatinib is a selective FGFR1-3 kinase inhibitor marketed in Canada as PEMAZY
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

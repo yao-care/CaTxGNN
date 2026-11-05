@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 854
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report (…"
 monitor_inn: "SODIUM ACETATE"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -48,7 +48,7 @@ Sodium acetate is an electrolyte and alkalinizing agent. It is marketed in Canad
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

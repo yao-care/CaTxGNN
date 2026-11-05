@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be useful for **myofascial pain syndrome**, but 
 | Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

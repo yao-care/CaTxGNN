@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Asthma, bronchitis, anaphylaxis, hypotensive disorder…"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -50,7 +50,7 @@ This is largely an extension or reclassification of existing uses rather than a 
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (3 completed Phase 3 trials in asthma, though two are small paediatric studies and one is a safety extension) |
-| Canada Market Status | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 18; cancelled: 2) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -96,7 +96,7 @@ Fifteen trials were retrieved; the 10 most relevant are listed below.
 
 ## Canada Market Information
 
-Twenty single-ingredient licences are valid. Dosage form and approved indication text are not recorded for these licences. Five of the main authorizations are listed below.
+Dosage form and approved indication text are not recorded for these licences. Five of the main authorizations are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

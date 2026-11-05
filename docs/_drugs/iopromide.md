@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Iopromide"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Iopromide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available"
 ---
 
@@ -50,8 +50,8 @@ It is a TxGNN model (deep learning) result only, which may reflect similarities 
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

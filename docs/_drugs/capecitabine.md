@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Capecitabine: predicted new indication Gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). Approved use: Metastasis from malignant tumour of colon"
 ---
 
@@ -48,8 +48,8 @@ Capecitabine is an oral fluoropyrimidine chemotherapy drug. The TxGNN model pred
 | Predicted New Indication | Gastric adenocarcinoma and proximal polyposis of the stomach |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 11 of 11) |
-| Number of DINs | 11 (valid: 11) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 11) |
+| Number of DINs | 11 (marketed: 11) |
 | Number of approvals | 11 licences (all single-ingredient, all valid) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 912
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "TIAPROFENIC ACID"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
 description: "Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

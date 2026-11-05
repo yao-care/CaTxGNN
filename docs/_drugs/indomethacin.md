@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Inflammatory arthritis and related musculoskeletal conditions (bursit…"
 monitor_inn: "INDOMETHACIN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 7 of 7) |
-| Number of DINs | 7 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ---

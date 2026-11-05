@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Darolutamide: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not listed in the Canadian license data compiled for this report"
 monitor_inn: "Darolutamide"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
@@ -50,8 +50,8 @@ Darolutamide is a non-steroidal androgen receptor antagonist marketed in Canada 
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

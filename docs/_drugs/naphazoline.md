@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Temporary relief of eye redness (vasoconstrictor). The Canadian licen…"
 monitor_inn: "Naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 7 of 8) |
-| Number of DINs | 8 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 8; cancelled: 1) |
+| Number of DINs | 8 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,7 @@ For the open-angle glaucoma prediction (rank 8), one paper was retrieved, but it
 
 ## Canada Market Information
 
-All 8 authorizations are valid single-ingredient products. The compiled records do not include dosage form or approved indication text.
+The compiled records do not include dosage form or approved indication text.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

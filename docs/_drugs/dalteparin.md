@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dalteparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ---

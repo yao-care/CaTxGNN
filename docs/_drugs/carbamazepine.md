@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **trigeminal nerve neoplasm**, bu
 | Predicted New Indication | trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 11 of 11) |
-| Number of DINs | 11 (valid: 11) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 11) |
+| Number of DINs | 11 (marketed: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

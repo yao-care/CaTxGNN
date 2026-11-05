@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 183
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Chloroprocaine: predicted new indication Cauda equina syndrome (evidence level L4). Approved use: Not specified in the Canadian license record (local anesthesia by dru…"
 monitor_inn: "Chloroprocaine"
 predicted_indications: ["cauda equina syndrome"]
@@ -50,8 +50,8 @@ Chloroprocaine is a short-acting ester-type local anesthetic. The TxGNN model pr
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

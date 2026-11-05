@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 536
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **1 clinical trial** and **4 publications** in the data compiled for this r
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

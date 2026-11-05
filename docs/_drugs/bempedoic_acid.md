@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Bempedoic acid"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Bempedoic Acid: predicted new indication hyperthyroidism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ with **0 clinical trials** and **0 publications** currently supporting it.
 | Predicted New Indication | hyperthyroidism |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

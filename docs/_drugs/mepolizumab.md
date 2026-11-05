@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 590
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab: predicted new indication Thrombocytopenia due to immune destruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but the current evidence is very limited: **0 clinical trials** and **1 publicat
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

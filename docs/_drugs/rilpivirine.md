@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 808
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Rilpivirine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 (preclinical studies only) |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

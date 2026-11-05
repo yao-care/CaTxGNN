@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "LORLATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Lorlatinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Other predictions with some literature (for example lung hilum carcinoma and lun
 | Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

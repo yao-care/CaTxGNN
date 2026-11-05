@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -48,7 +48,7 @@ Fentanyl is a potent mu-opioid receptor agonist marketed in Canada in injectable
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

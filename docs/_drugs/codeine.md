@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Codeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "CODEINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 19) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -86,7 +86,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Twenty valid single-ingredient licences are on record. The records do not include dosage form or approved indication text. The five listed below are examples.
+The records do not include dosage form or approved indication text. The five listed below are examples.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

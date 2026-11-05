@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CEFOXITIN"
 predicted_indications: ["infectious otitis media", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Cefoxitin: predicted new indication infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Cefoxitin is a cephamycin-class injectable antibiotic that is marketed in Canada
 | Predicted New Indication | infectious otitis media |
 | TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

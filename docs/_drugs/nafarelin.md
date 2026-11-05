@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "NAFARELIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "pelvic organ prolapse", "syndrome with a Dandy-Walker malformation as major feature", "female genital tuberculosis", "physiological sexual disorder", "isolated genetic hair shaft abnormality", "dysplasia of cervix"]
 description: "Nafarelin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

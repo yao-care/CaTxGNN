@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 814
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Spinal muscular atrophy"
 monitor_inn: "Risdiplam"
 predicted_indications: ["acne (disease)"]
@@ -48,8 +48,8 @@ Risdiplam is an SMN2 splicing modifier that is marketed in Canada under the bran
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 700
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **retinal dystrophy (with or wi
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 11 of 11) |
-| Number of DINs | 11 (valid: 11) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 11) |
+| Number of DINs | 11 (marketed: 11) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 813
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriasis, parapsoriasis"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -52,8 +52,8 @@ The strongest evidence is a completed Phase 2 trial in atopic dermatitis, which 
 | Predicted New Indication | Dermatitis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---

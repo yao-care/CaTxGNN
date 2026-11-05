@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,14 +48,13 @@ Lurasidone is an atypical antipsychotic originally used to treat bipolar disorde
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 17) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 17; cancelled: 3) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data compiled for this report is not available. Lurasidone is known to be an atypical antipsychotic that antagonises D2, 5-HT2A and 5-HT7 receptors and is a partial agonist at 5-HT1A. This profile plausibly supports antimanic activity, but it should be confirmed against a primary source.
-
 
 The other eight predicted indications (for example hydranencephaly, several myopia subtypes and Charcot-Marie-Tooth disease type 1G) have similarly high TxGNN model (deep learning) scores (between 0.9992 and 0.9995), but no clinical trials or literature and no plausible mechanistic link. These scores may reflect similarities the model learned between related diseases, not biological evidence. They remain model predictions only and are not recommended for follow-up at this stage.
 
@@ -90,7 +89,7 @@ The other eight predicted indications (for example hydranencephaly, several myop
 | 02504529 | TARO-LURASIDONE | Not specified | Not specified |
 | 02505894 | PMS-LURASIDONE | Not specified | Not specified |
 
-These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada. The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products).
+The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products).
 
 ## Safety Considerations
 

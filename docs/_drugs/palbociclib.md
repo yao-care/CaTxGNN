@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: predicted new indication Top TxGNN rank: hyperthyroidism . Best-supported candidate: myeloid leukemia (hyperthyroidism) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The original indication below comes from background knowledge, because the Canad
 | Predicted New Indication | Top TxGNN rank: hyperthyroidism (no evidence). Best-supported candidate: myeloid leukemia (hyperthyroidism) |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | Hyperthyroidism L5; myeloid leukemia L3 |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hyperthyroidism: Hold. Myeloid leukemia: Proceed with Guardrails |
 
 **Note on ranking:** TxGNN scores are all very high (≥ 0.99) across the top 10 predictions and do not separate plausible from implausible ones. The evidence review is what distinguishes them. The table below shows how each prediction fared.

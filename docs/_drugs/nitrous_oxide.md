@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L4). Approved use: Not specified in the licence data (product names such as \"Analgesic G…"
 monitor_inn: "NITROUS OXIDE"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **benign prostatic hyperplasia 
 | Predicted New Indication | Benign prostatic hyperplasia (disease) |
 | TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

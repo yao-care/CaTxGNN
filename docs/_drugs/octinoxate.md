@@ -5,7 +5,7 @@ layout: default
 title: Octinoxate
 parent: Known Uses Only (No New Predictions)
 nav_order: 675
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Octinoxate: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Octinoxate"
 predicted_indications: []
@@ -43,12 +43,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses on record: at least 19) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; cancelled: 1) |
 | Number of DINs | at least 20 |
 
 ## Canada Market Information
 
-Octinoxate has 20 valid single-ingredient licences in Canada, with no cancelled licences. The licence records do not include dosage forms or approved indication text. The five main products are listed below.
+The licence records do not include dosage forms or approved indication text. The five main products are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

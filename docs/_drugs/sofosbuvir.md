@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 860
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Direct support is thin: one small, single-arm Phase 2 trial of ledipasvir/sofosb
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 237
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L4). Approved use: Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis…"
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -50,8 +50,8 @@ Currently there are **no registered clinical trials**, and the **19 publications
 | Predicted New Indication | Dry eye syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

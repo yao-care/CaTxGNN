@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ All downstream evidence layers — clinical trials, literature, and safety data 
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no supporting studies available |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -82,9 +82,9 @@ Currently no related literature available in this Evidence Pack.
 
 ## Canada Market Information
 
-Estradiol has no recorded Health Canada authorizations in this Evidence Pack (0 DINs). No product-level data is available for review.
+No product-level data is available for review.
 
-> Note: Estradiol-containing products are commercially available in Canada under various brand names. The absence of records here likely reflects a data collection gap rather than a true regulatory absence. Health Canada's Drug Product Database (DPD) should be consulted directly.
+> Note: Estradiol-containing products are commercially available in Canada under various brand names. Health Canada's Drug Product Database (DPD) should be consulted directly.
 
 ---
 

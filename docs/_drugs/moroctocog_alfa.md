@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Moroctocog Alfa: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Hemophilia"
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -50,8 +50,8 @@ The prediction rests on model output alone.
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

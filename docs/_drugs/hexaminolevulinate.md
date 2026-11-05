@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Hexaminolevulinate"
 predicted_indications: ["bronchitis"]
 description: "Hexaminolevulinate: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Note: the Canadian license data compiled for this report does not list an approv
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold (research question: supports diagnostic imaging, not therapy) |
 
 Note: the top-ranked TxGNN prediction is bronchitis (0.9906), but it has no clinical trials or literature (L5) and no plausible biological rationale.

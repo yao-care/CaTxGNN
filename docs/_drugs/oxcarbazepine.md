@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 693
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The strongest signal in this prediction set is not for visual epilepsy but for *
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

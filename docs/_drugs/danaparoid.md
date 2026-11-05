@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Danaparoid: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not available in the data compiled for this report (anticoagulant hep…"
 monitor_inn: "Danaparoid"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "Scott syndrome"]
@@ -50,8 +50,8 @@ Danaparoid (marketed in Canada as ORGARAN) is a heparinoid anticoagulant. The Tx
 | Predicted New Indication | Glanzmann thrombasthenia |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

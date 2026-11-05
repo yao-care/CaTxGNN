@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 253
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Daunorubicin: predicted new indication Hodgkin's lymphoma (evidence level L3). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
 monitor_inn: "DAUNORUBICIN"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -50,8 +50,8 @@ but the support is limited: **2 related clinical trials** (both multi-drug regim
 | Predicted New Indication | Hodgkin's lymphoma |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Gramicidin D: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Conjunctivitis (acute contagious conjunctivitis…"
 monitor_inn: "Gramicidin D"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "tinea corporis", "parasitic eyelid infestation", "ulcerative blepharitis"]
@@ -50,8 +50,8 @@ The more biologically plausible predictions in the list are **otitis externa** a
 | Predicted New Indication | Postinfectious vasculitis |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 19 of 19) |
-| Number of DINs | 19 (valid: 19) |
+| Canada Market Status | Marketed (marketed DINs: 19 of 19) |
+| Number of DINs | 19 (marketed: 19) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

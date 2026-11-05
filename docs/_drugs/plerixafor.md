@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: predicted new indication CMM7 (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Plerixafor is a CXCR4 antagonist, used in Canada to mobilise stem cells in patie
 | Predicted New Indication | CMM7 |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

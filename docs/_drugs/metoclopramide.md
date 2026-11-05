@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L4). Approved use: Gastroesophageal reflux disease"
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
@@ -52,8 +52,8 @@ but only **1 clinical trial** (indirect, on endoscopic visualization) and a body
 | Predicted New Indication | Gastric ulcer |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ---

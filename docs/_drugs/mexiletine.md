@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 612
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Mexiletine"
 predicted_indications: ["hypertrichosis (disease)", "nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "migraine disorder", "isolated genetic hair shaft abnormality", "pulmonary hypertension", "migraine with brainstem aura", "headache disorder"]
 description: "Mexiletine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Mexiletine is a class IB antiarrhythmic sodium channel blocker marketed in Canad
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (headache disorder, migraine disorder); L5 (hypertrichosis) |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold (headache: research question only, not ready for development) |
 
 ---

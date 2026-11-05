@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 956
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not specified in the Canadian license data"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -50,7 +50,7 @@ Tyrosine is an amino acid used as a nutrient component in parenteral nutrition p
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

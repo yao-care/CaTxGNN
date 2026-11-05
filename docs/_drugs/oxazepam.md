@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 692
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Oxazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "OXAZEPAM"
 predicted_indications: ["insomnia (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **insomnia**, with **no registe
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

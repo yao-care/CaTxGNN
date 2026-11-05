@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 115
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Bimatoprost: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
@@ -52,8 +52,8 @@ A different prediction in the same list, **alopecia**, has far stronger support 
 | Predicted New Indication | Malformation syndrome with odontal and/or periodontal component |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 ---

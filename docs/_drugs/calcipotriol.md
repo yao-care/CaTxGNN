@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 147
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the licence data (calcipotriol products are generally u…"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, with 
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---

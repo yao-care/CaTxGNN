@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Alprostadil: predicted new indication Aortic malformation (evidence level L4). Approved use: Erectile dysfunction, psychologic dyspareunia, premature ejaculation…"
 monitor_inn: "Alprostadil"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
@@ -52,8 +52,8 @@ This is largely an extension within its existing approved indication class rathe
 | Predicted New Indication | Aortic malformation |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -42,7 +42,6 @@ The `data-report` skill doesn't apply here — this task is generating a structu
 
 ## One-Sentence Summary
 
-Erlotinib (DB00530) is a small-molecule oncology agent known from public literature as an EGFR tyrosine kinase inhibitor, but its original indications are not populated in this Evidence Pack and it holds no current Taiwan regulatory approvals in the system.
 This Evidence Pack contains **no TxGNN-predicted new indications**, no mechanism of action data, and all safety fields are absent, making a standard repurposing assessment impossible at this stage.
 The recommended action is **Hold** — evaluation cannot proceed until Data Gaps DG001 (Blocking) and DG002 (High) are resolved and TxGNN predictions are generated.
 
@@ -56,8 +55,7 @@ The recommended action is **Hold** — evaluation cannot proceed until Data Gaps
 | Predicted New Indication | Not available — TxGNN output pending |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | N/A |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of DINs | 10 (valid: 7) |
+| Number of DINs | 10 (marketed: 7) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -86,11 +84,9 @@ Currently no related literature available — no predicted indication is availab
 
 ## Taiwan Market Information
 
-No Taiwan regulatory authorizations are on record in this Evidence Pack.
-
 | Item | Detail |
 |------|--------|
-| Canada Market Status | Marketed (valid licenses: 7 of 10) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 10; dormant: 3) |
 | Total DINs | 0 |
 
 > **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally. If a zero-DIN result is unexpected for the Taiwan context, please cross-check directly against the TFDA official database — this may reflect a data ingestion gap in the pipeline rather than actual non-availability in the market.
@@ -131,8 +127,6 @@ Two unresolved data gaps — DG001 (TFDA warnings/contraindications, **Blocking*
 - **[Blocking — DG001]** Download the TFDA package insert PDF for Erlotinib and parse it to populate `key_warnings` and `contraindications`
 - **[High — DG002]** Query the DrugBank API for Erlotinib (DB00530) to populate `original_moa` and pharmacological target data
 - **[Critical]** Re-run the TxGNN prediction pipeline for Erlotinib to generate `predicted_indications`; without this output, no repurposing report can be written
-- **[Verify]** Cross-check Taiwan regulatory status against the TFDA official database to confirm whether the 0-DIN result reflects a true non-registration or a pipeline ingestion failure
-- **[Nice to have]** Populate `original_indications` from DrugBank or TFDA records to enable indication-bridging analysis once predictions are available
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Fedratinib: predicted new indication Benign PEComa (evidence level L5). Approved use: Primary myelofibrosis"
 monitor_inn: "Fedratinib"
 predicted_indications: ["benign PEComa", "lymphangiomyoma", "uterine corpus perivascular epithelioid cell tumor", "dermatofibrosarcoma protuberans", "rhabdoid tumor", "familial rhabdoid tumor", "autosomal recessive familial Mediterranean fever", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection", "lymphangioleiomyomatosis"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Benign PEComa |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

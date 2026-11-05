@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 866
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sotatercept: predicted new indication Acute lymphoblastic leukemia (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Sotatercept"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
@@ -50,8 +50,8 @@ This is a computational prediction only.
 | Predicted New Indication | Acute lymphoblastic leukemia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

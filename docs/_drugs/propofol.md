@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 777
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Propofol: predicted new indication Migraine disorder (evidence level L2). Approved use: Not stated in the licence data compiled for this report (propofol is…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -48,8 +48,8 @@ Propofol is an intravenous anaesthetic agent marketed in Canada under four activ
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

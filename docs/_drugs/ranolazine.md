@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ranolazine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report (…"
 monitor_inn: "RANOLAZINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -48,8 +48,8 @@ Ranolazine is a drug marketed in Canada, and it is known to be used for chronic 
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

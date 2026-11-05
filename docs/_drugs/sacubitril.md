@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 831
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sacubitril: predicted new indication Diabetic nephropathy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -50,8 +50,8 @@ Sacubitril is a neprilysin inhibitor, marketed in Canada as a single-ingredient 
 | Predicted New Indication | Diabetic nephropathy (best-supported of the top 5 predictions; the top-ranked prediction is brain small vessel disease 1 with or without ocular anomalies) |
 | TxGNN Prediction Score | 0.9950 (diabetic nephropathy); top-ranked prediction: 0.9958 |
 | Evidence Level | L5 (preclinical and indirect/observational support plus one unreported Phase 4 trial) |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold (research question; see Conclusion) |
 
 ---

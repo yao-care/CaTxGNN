@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dinutuximab: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Neuroblastoma"
 monitor_inn: "DINUTUXIMAB"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "chronic myelogenous leukemia, BCR-ABL1 positive"]
@@ -52,8 +52,8 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

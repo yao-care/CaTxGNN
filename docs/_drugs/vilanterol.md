@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 974
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The data compiled for this report include **30 clinical trials** and **20 public
 | Predicted New Indication | Hyperlucent lung |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

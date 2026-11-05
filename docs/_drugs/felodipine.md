@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension owing 
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ---

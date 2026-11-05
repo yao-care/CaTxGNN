@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
@@ -50,8 +50,8 @@ but **no clinical trials** are registered for this indication, and the **20 publ
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 (no direct clinical studies; the data's preliminary grading was L4, but only indirect and mechanistic-adjacent literature exists) |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

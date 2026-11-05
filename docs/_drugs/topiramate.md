@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 923
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -52,7 +52,7 @@ The model's other high-scoring predictions are mostly reflex-seizure subtypes of
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 18; cancelled: 2) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -65,7 +65,6 @@ The approved-indication text was not available in the Canadian license data comp
 Currently, detailed mechanism of action data is not available in the compiled data. From the pharmacology generally described in the literature, topiramate reduces neuronal excitability by blocking voltage-gated sodium channels, enhancing GABA-A activity, antagonizing AMPA/kainate glutamate receptors, and weakly inhibiting carbonic anhydrase.
 
 **For the top prediction (trigeminal nerve neoplasm):** none of these mechanisms offers a plausible route to controlling a tumor. The high score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, topiramate might relieve symptoms such as trigeminal neuralgia, which is a different condition.
-
 
 ---
 
@@ -105,7 +104,7 @@ For context, the most relevant literature found for the second- and third-ranked
 | 02248862 | TEVA-TOPIRAMATE | Not listed | Not listed |
 | 02262991 | PMS-TOPIRAMATE | Not listed | Not listed |
 
-There are 20 valid single-ingredient licences in total, and none are cancelled. Other brands include JAMP, GLN, AURO, PRO, MINT, MYLAN and NRA topiramate products.
+Other brands include JAMP, GLN, AURO, PRO, MINT, MYLAN and NRA topiramate products.
 
 ---
 

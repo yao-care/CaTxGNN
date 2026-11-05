@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Evidence for this specific prediction is weak, and the benefit-risk balance is u
 | Predicted New Indication | Hypermobility of coccyx |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ---

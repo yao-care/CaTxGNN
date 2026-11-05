@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 454
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Hydrocodone: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "hydrocodone"
 predicted_indications: ["nasal cavity disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 1 of 2) |
-| Number of DINs | 2 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 2; dormant: 1) |
+| Number of DINs | 2 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

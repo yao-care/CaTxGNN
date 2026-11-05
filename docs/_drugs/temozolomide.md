@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Anaplastic astrocytoma, astrocytoma (excluding glioblastoma)…"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **cauda equina neoplasm**, but 
 | Predicted New Indication | Cauda equina neoplasm |
 | TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Number of approvals | At least 20 DINs (the list may be partial) |
 | Recommended Decision | Hold |

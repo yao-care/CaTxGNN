@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "L-Lysine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not specified in the available licence data (the products are amino a…"
 monitor_inn: "L-LYSINE"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be relevant for **gastroparesis**, but there are
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

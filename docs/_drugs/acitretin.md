@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 22
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available in the compiled data"
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -52,8 +52,8 @@ with **1 clinical trial** and **18 publications** currently touching on this dir
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

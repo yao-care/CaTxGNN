@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Vincristine: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -54,8 +54,8 @@ The table below covers the top-ranked prediction. The second-ranked prediction i
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Number of approvals | 2 (both single-ingredient licences) |
 | Recommended Decision | Hold |
 

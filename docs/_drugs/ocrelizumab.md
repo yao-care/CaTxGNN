@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 674
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ocrelizumab: predicted new indication HER2 positive breast carcinoma (evidence level L5). Approved use: Progressive multiple sclerosis"
 monitor_inn: "Ocrelizumab"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **no publications** that addre
 | Predicted New Indication | HER2-positive breast carcinoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

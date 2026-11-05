@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 686
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Omeprazole is a proton pump inhibitor originally used for gastric and duodenal u
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 11 of 14) |
-| Number of DINs | 14 (valid: 11) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 14; dormant: 1; cancelled: 2) |
+| Number of DINs | 14 (marketed: 11) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -59,7 +59,6 @@ Omeprazole is a proton pump inhibitor originally used for gastric and duodenal u
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, omeprazole is a proton pump inhibitor that suppresses gastric acid secretion. Its efficacy in acid-related disorders such as GERD, esophagitis and peptic ulcer is established.
-
 
 There are important limits. Omeprazole does not directly block bile reflux, and studies in Barrett's oesophagus show modest or inconsistent effects on duodenogastric reflux. Rat studies also suggest that acid blockade combined with duodenogastric reflux may promote mucosal growth and gastric carcinogenesis. This is a safety signal that must be resolved before any repurposing recommendation.
 
@@ -102,7 +101,7 @@ A second predicted indication, duodenal obstruction (score 0.9964), is not suppo
 | 02245058 | APO-OMEPRAZOLE | Not listed | Not listed |
 | 02296446 | SANDOZ OMEPRAZOLE | Not listed | Not listed |
 
-Fourteen single-ingredient licences are valid in Canada and none are cancelled. Only five are shown here.
+Only five are shown here.
 
 ---
 

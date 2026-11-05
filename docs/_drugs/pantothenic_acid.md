@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 705
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Pantothenic acid"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Among the other predicted indications, **folic acid deficiency anemia** and **ut
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 5) |
-| Number of DINs | 5 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 5; dormant: 2) |
+| Number of DINs | 5 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

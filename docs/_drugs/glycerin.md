@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 12 of 13) |
-| Number of DINs | 13 (valid: 12) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 13; cancelled: 1) |
+| Number of DINs | 13 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ---
@@ -110,7 +110,7 @@ For open-angle glaucoma, the strongest alternative candidate, the retrieved arti
 | 02438585 | VISINE FOR DRY EYE TIRED EYE RELIEF | Not specified | Not specified |
 | 02360837 | CLEAR EYES EXTRA STRENGTH REDNESS RELIEF | Not specified | Not specified |
 
-There are 13 valid single-ingredient licences in total. The listed products are mainly ophthalmic lubricants, not constipation products. The approved indication text is not available for any of them.
+The listed products are mainly ophthalmic lubricants, not constipation products. The approved indication text is not available for any of them.
 
 ---
 

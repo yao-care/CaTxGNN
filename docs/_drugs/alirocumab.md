@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Alirocumab: predicted new indication Ichthyosis, X-linked, without steroid sulfatase deficiency (evidence level L5). Approved use: Dyslipidemia and atherosclerotic disease (syndromic dyslipidemia…"
 monitor_inn: "Alirocumab"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Ichthyosis, X-linked, without steroid sulfatase deficiency |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

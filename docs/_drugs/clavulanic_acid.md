@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Clavulanic Acid: predicted new indication Gonococcal urethritis (evidence level L3). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "CLAVULANIC ACID"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -50,7 +50,7 @@ The top-ranked prediction by score, Ureaplasma urethritis, is not mechanisticall
 | Predicted New Indication | Gonococcal urethritis (best-supported candidate; the highest-scoring prediction is Ureaplasma urethritis) |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold (research question) |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "ALMOTRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Almotriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Almotriptan is a triptan-class medicine that acts on serotonin receptors. The Tx
 | Predicted New Indication | atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

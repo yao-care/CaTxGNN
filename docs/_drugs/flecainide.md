@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 388
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Atrial fibrillation"
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **stroke disorder**, but the supp
 | Predicted New Indication | Stroke disorder |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ---

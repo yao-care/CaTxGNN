@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 921
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The only top-10 prediction with solid trial support is polyarticular juvenile id
 | Predicted New Indication | Ankylosing spondylitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 15 of 15) |
-| Number of DINs | 15 (valid: 15) |
+| Canada Market Status | Marketed (marketed DINs: 15 of 15) |
+| Number of DINs | 15 (marketed: 15) |
 | Recommended Decision | Hold |
 
 ---

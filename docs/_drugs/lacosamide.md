@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Epilepsy (focal-onset seizures)…"
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
@@ -50,7 +50,7 @@ Support is limited: **0 registered clinical trials** and a small set of observat
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (observational studies only; no registered trials) |
-| Canada Market Status | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 18; dormant: 1; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -81,7 +81,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Lacosamide has 20 valid single-ingredient licences in Canada. Dosage form and approved-indication text were not available for these records. Five are shown below.
+Dosage form and approved-indication text were not available for these records. Five are shown below.
 
 | DIN | Product Name |
 |---------|------|

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 790
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Raltegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection, AIDS"
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

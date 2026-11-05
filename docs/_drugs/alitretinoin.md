@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Alitretinoin: predicted new indication Amenorrhea (evidence level L5). Approved use: Severe chronic hand eczema refractory to potent topical corticosteroi…"
 monitor_inn: "Alitretinoin"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)", "atypical coarctation of aorta", "pregnancy associated osteoporosis", "aortic malformation", "postmenopausal osteoporosis", "autosomal dominant neovascular inflammatory vitreoretinopathy", "breast fibrocystic disease", "benign mammary dysplasia", "Worth syndrome"]
@@ -52,8 +52,8 @@ This is a model-only prediction, and no mechanistic link has been identified.
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

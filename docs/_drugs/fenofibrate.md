@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia and hyperlipidaemia"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **cholesterol-ester transfer pr
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Number of approvals | 10 licences (all single-ingredient products) |
 | Recommended Decision | Hold |
 

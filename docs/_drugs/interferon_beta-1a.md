@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 487
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Interferon Beta-1A: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates that the TxGNN model produced for Interferon Beta-1A (score ≥ 0
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 
 ## Known uses among the model's candidates
 

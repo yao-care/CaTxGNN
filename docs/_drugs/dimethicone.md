@@ -5,7 +5,7 @@ layout: default
 title: Dimethicone
 parent: Known Uses Only (No New Predictions)
 nav_order: 287
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Dimethicone: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Dimethicone"
 predicted_indications: []
@@ -43,14 +43,14 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 18; dormant: 1; cancelled: 1) |
 | Number of DINs | at least 20 |
 
 ---
 
 ## Canada Market Information
 
-The licence data compiled for this report does not include dosage forms or approved indication text. Up to 5 of the 20 valid single-ingredient authorizations are listed.
+The licence data compiled for this report does not include dosage forms or approved indication text.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

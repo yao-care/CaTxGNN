@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the Canadian licence data compiled for this report"
 monitor_inn: "Framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -50,8 +50,8 @@ Framycetin is an aminoglycoside antibiotic marketed in Canada in several topical
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ---

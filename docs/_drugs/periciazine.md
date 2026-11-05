@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 722
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report (the UK-approved u…"
 monitor_inn: "PERICIAZINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
@@ -50,8 +50,8 @@ Periciazine is a phenothiazine-class antipsychotic marketed in Canada under the 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ---

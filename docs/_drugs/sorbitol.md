@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 864
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sorbitol: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not available"
 monitor_inn: "SORBITOL"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -52,8 +52,8 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

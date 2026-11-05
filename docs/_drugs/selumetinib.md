@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
 description: "Selumetinib: predicted new indication Familial generalized lentiginosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Selumetinib is a MEK1/2 inhibitor originally used for neurofibromatosis. The TxG
 | Predicted New Indication | Familial generalized lentiginosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (as assigned in the compiled data; note that no completed Phase 2/3 RCT exists, so this is generous) |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold (pending further evidence; see Conclusion) |
 
 ---

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 124
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Brinzolamide: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Brinzolamide, but every candidate that c
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 
 ## Known uses among the model's candidates
 

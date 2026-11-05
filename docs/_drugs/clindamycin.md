@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "CLINDAMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Clindamycin is a lincosamide antibiotic that blocks bacterial protein synthesis.
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 18; cancelled: 2) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -68,7 +68,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Health Canada records show 20 valid single-ingredient licences, and the list may be partial. No indication text, dosage form or manufacturer is recorded for these licences. Examples of listed products:
+No indication text, dosage form or manufacturer is recorded for these licences. Examples of listed products:
 
 | DIN | Product Name |
 |---------|------|

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ No evidence evaluation can be performed until the pipeline is re-run with correc
 | Predicted New Indication | No prediction generated (predicted_indications is empty) |
 | TxGNN Prediction Score | — |
 | Evidence Level | L5 (model prediction only) — pending pipeline completion |
-| Canada Market Status | Marketed (valid licenses: 2 of 3) |
-| Number of DINs | 3 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 3; dormant: 1) |
+| Number of DINs | 3 (marketed: 2) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -120,7 +120,6 @@ The TxGNN pipeline did not produce any repurposing candidates because the DrugBa
 - **[Blocking — DG001]** Retrieve and parse the TFDA/Health Canada product monograph (package insert) to populate `key_warnings` and `contraindications`
 - **[High — DG002]** Re-query DrugBank API and correctly populate `drugbank_id`, `original_indications`, and `original_moa` — the raw query succeeded (result\_count: 1) so this is a parsing issue, not a missing-data issue
 - **[Pipeline]** Re-run the TxGNN prediction model once `drugbank_id` and `original_indications` are populated; confirm that `predicted_indications` is non-empty before generating a new report
-- **[Regulatory]** Cross-check Health Canada's Drug Product Database (DPD) directly for any DINs associated with eribulin mesylate, as the current dataset shows zero DINs despite the drug having regulatory approvals in comparable jurisdictions (FDA, EMA)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

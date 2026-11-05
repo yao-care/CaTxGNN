@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Elosulfase Alfa: predicted new indication Scheie syndrome (evidence level L5). Approved use: Mucopolysaccharidosis (MPS IVA, Morquio A syndrome)"
 monitor_inn: "ELOSULFASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
@@ -52,8 +52,8 @@ The score reflects network proximity within the MPS disease family, not demonstr
 | Predicted New Indication | Scheie syndrome |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

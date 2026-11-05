@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "METOLAZONE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 relevant publications** su
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

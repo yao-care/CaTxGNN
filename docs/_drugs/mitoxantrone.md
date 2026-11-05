@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "MITOXANTRONE"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **head and neck cancer**, the m
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (head and neck cancer); L4 for the broader upper aerodigestive tract category |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Proceed with Guardrails (head and neck cancer); Hold for the other predictions |
 
 ---

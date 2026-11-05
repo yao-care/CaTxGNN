@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Fomepizole: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the Canadian license records"
 monitor_inn: "FOMEPIZOLE"
 predicted_indications: ["sclerosing cholangitis"]
@@ -48,8 +48,8 @@ Fomepizole is an alcohol dehydrogenase inhibitor, and the Canadian license recor
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

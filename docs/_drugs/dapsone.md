@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 1
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dapsone: predicted new indication pneumocystosis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The trials include several completed Phase 3 studies of dapsone in Pneumocystis 
 | Predicted New Indication | pneumocystosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

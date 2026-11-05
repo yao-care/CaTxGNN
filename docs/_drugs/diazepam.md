@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Support is limited: **no registered clinical trials** and **16 publications**, o
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

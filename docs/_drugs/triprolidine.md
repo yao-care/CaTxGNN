@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 950
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ but there are currently **0 clinical trials** and only **2 loosely related publi
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cetrorelix: predicted new indication hypertrichosis (evidence level L5). Approved use: Prevention of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "CETRORELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -50,8 +50,8 @@ This prediction is based on model output only.
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

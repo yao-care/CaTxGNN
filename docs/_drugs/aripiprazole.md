@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Aripiprazole is an atypical antipsychotic that acts as a dopamine D2/D3 and sero
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L3). Approved use: Not available from the Canadian licence data compiled for this report…"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -53,8 +53,8 @@ The evidence is limited and mostly indirect, because the trial does not clearly 
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 12 of 12) |
-| Number of DINs | 12 (valid: 12) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ---

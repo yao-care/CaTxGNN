@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 184
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Chloroxylenol: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Canada Market Status | Marketed (valid licenses: 10 of 12) |
-| Number of DINs | 12 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 12; cancelled: 2) |
+| Number of DINs | 12 (marketed: 10) |
 
 ## Known uses recorded for this drug
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 886
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Telotristat Ethyl: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Diarrheal disease"
 monitor_inn: "Telotristat ethyl"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
@@ -50,8 +50,8 @@ Telotristat ethyl was originally used to treat diarrheal disease. The TxGNN mode
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

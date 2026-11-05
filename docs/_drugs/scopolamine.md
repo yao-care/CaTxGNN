@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 836
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Motion sickness, irritable bowel syndrome, peptic ulcer disease…"
 monitor_inn: "Scopolamine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** currently support this direc
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

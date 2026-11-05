@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 740
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "PIPERACILLIN"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis** with a
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 16 of 16) |
-| Number of DINs | 16 (valid: 16) |
+| Canada Market Status | Marketed (marketed DINs: 16 of 16) |
+| Number of DINs | 16 (marketed: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

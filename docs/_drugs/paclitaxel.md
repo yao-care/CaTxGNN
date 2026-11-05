@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 698
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Paclitaxel is already a standard-of-care taxane in breast cancer, so this is a c
 | Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 (as scored in the data; Phase 3 trials exist in the list but are mostly combination studies) |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

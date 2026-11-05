@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Ioversol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available"
 ---
 
@@ -38,7 +38,6 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Ioversol is an iodinated contrast agent marketed in Canada under the brand name OPTIRAY, but the data compiled for this report contain no approved-indication text for it.
 The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials** and **no publication that studies ioversol itself in this disease** support the prediction.
 The one linked paper studies an embolization procedure with a different agent, so this is essentially a computational prediction.
 
@@ -53,7 +52,7 @@ The one linked paper studies an embolization procedure with a different agent, s
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
 | Canada Market Status | Approved but not marketed (approvals on record: 2) |
-| Number of DINs | 2 (valid: 0) |
+| Number of DINs | 2 (marketed: 0) |
 | Number of approvals | 2 (both single-ingredient products) |
 | Recommended Decision | Hold |
 

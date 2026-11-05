@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L4). Approved use: Not stated in the Canadian license data"
 monitor_inn: "HYDROQUINONE"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, but t
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

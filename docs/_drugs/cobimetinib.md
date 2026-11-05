@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cobimetinib: predicted new indication Amyotrophic lateral sclerosis (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "COBIMETINIB"
 predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **amyotrophic lateral sclerosis
 | Predicted New Indication | Amyotrophic lateral sclerosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

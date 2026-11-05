@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 915
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **respiratory malformation**, but
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

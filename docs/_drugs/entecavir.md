@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 332
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **chronic hepatitis C virus inf
 | Predicted New Indication | Chronic hepatitis C virus infection |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

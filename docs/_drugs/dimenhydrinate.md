@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L4). Approved use: Motion sickness"
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **allergic urticaria**, but the
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 20 of 20) |
-| Number of DINs | 20 (valid: 20) |
+| Canada Market Status | Marketed (marketed DINs: 20 of 20) |
+| Number of DINs | 20 (marketed: 20) |
 | Recommended Decision | Hold |
 
 The Canadian licence records compiled for this report contain no approved-indication text, so the original indications shown above could not be taken from those records. Any TxGNN model (deep learning) scores on this page come from the model itself and may reflect similarities the model learned between related diseases, not biological evidence.

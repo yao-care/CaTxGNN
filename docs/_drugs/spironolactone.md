@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 868
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypotrichosis simplex of the 
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 8 of 10) |
-| Number of DINs | 10 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 10; cancelled: 2) |
+| Number of DINs | 10 (marketed: 8) |
 | Recommended Decision | Hold |
 
 A second prediction, congenital hypotrichosis milia (score 0.9904), is also at L5 with no supporting studies and a Hold recommendation.
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Ten single-ingredient authorisations are valid, none cancelled. Dosage form and approved indication text are not available in the compiled data. The table lists five of them.
+Dosage form and approved indication text are not available in the compiled data. The table lists five of them.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

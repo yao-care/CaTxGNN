@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Avelumab: predicted new indication Human herpesvirus 8-related tumor (evidence level L5). Approved use: Cutaneous neuroendocrine carcinoma"
 monitor_inn: "Avelumab"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
@@ -50,8 +50,8 @@ but **no clinical trials or publications** were found in the data compiled for t
 | Predicted New Indication | Human herpesvirus 8-related tumor |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

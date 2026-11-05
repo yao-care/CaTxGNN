@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 895
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Teprotumumab: predicted new indication Monosomy X (evidence level L5). Approved use: Endocrine exophthalmos (thyroid eye disease)"
 monitor_inn: "Teprotumumab"
 predicted_indications: ["monosomy X", "esophageal varices without bleeding", "esophageal varices with bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this direction,
 | Predicted New Indication | Monosomy X |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

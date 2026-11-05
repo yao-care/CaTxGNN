@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 51
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the Canadian licence data"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -50,8 +50,8 @@ Aminophylline is a methylxanthine drug (an adenosine receptor antagonist and pho
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 660
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the Canadian licence data compiled for this report (nit…"
 monitor_inn: "NITROGLYCERIN"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -52,8 +52,8 @@ with **3 clinical trials** (none of them a completed Phase 2/3 RCT) and **20 pub
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 18 of 18) |
-| Number of DINs | 18 (valid: 18) |
+| Canada Market Status | Marketed (marketed DINs: 18 of 18) |
+| Number of DINs | 18 (marketed: 18) |
 | Recommended Decision | Proceed with Guardrails (as a research question) |
 
 ---

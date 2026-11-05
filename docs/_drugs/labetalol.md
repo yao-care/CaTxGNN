@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 515
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "Labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **no clinical trials** and **no publications specific to
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 11) |
-| Number of DINs | 11 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 11; cancelled: 1) |
+| Number of DINs | 11 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -81,7 +81,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature is available for the top predicted indication (malignant hypertensive renal disease).
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [7242419](https://pubmed.ncbi.nlm.nih.gov/7242419/) | 1981 | Case report | Med J Aust | A young man with malignant hypertension after hallucinogenic drug use had vasculitis that responded to prednisone. Minoxidil and labetalol were used for initial blood pressure control. This does not demonstrate labetalol efficacy for the condition. |
@@ -98,7 +97,7 @@ Currently no related literature is available for the top predicted indication (m
 | 02541505 | LABETALOL HYDROCHLORIDE INJECTION USP | Not specified | Not specified |
 | 02106272 | TRANDATE | Not specified | Not specified |
 
-Eleven valid single-ingredient licences are listed in total. The five above are shown as the main ones.
+The five above are shown as the main ones.
 
 ---
 

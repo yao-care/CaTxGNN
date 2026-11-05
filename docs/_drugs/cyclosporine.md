@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CYCLOSPORINE"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cyclosporine: predicted new indication granulomatous disease, chronic, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **0 clinical trials** and **1 publication** linked to this p
 | Predicted New Indication | granulomatous disease, chronic, autosomal recessive |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 14 of 14) |
-| Number of DINs | 14 (valid: 14) |
+| Canada Market Status | Marketed (marketed DINs: 14 of 14) |
+| Number of DINs | 14 (marketed: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

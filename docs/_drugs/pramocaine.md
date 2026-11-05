@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Dermatitis, exanthem, tinea infections, otitis externa, hemorrhoids…"
 monitor_inn: "Pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this direction,
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 12 of 12) |
-| Number of DINs | 12 (valid: 12) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

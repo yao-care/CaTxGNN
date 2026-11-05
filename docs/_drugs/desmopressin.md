@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 | Predicted New Indication | congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

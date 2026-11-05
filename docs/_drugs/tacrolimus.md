@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 876
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -52,7 +52,7 @@ with **2 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L2 (see note below) |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 803
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "RIBAVIRIN"
 predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "IgG4-related mesenteritis"]
 description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **15 clinical trials** and **20 publications** compiled for this direction.
 | Predicted New Indication | Chronic hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L1 (as assigned in the data; see the caveat below) |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 **Evidence level caveat:** The L1 label rests on the count of Phase 3 trials. Only one Phase 3 trial (NCT00114361) directly tests ribavirin in chronic hepatitis B, and it has no clear ribavirin-free comparator in the data provided. I therefore treat the evidence as weaker than a typical L1.

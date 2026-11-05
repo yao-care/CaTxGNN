@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Brivaracetam: predicted new indication beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials or publications in the data compiled for this report support 
 | Predicted New Indication | beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9914 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 14 of 14) |
-| Number of DINs | 14 (valid: 14) |
+| Canada Market Status | Marketed (marketed DINs: 14 of 14) |
+| Number of DINs | 14 (marketed: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

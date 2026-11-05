@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 309
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Note that the strongest-scoring evidence in the data compiled for this report po
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---

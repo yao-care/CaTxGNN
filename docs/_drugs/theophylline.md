@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **thrombotic disease**, but **n
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Number of approvals | 6 (single-ingredient licences) |
 | Recommended Decision | Hold |
 

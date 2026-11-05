@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 986
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Pharyngitis, common cold"
 monitor_inn: "Xylometazoline"
 predicted_indications: ["nasal cavity disease"]
@@ -50,8 +50,8 @@ with **no registered clinical trials** but **6 publications** currently supporti
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

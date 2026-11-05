@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Meperidine: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not specified in the available data"
 monitor_inn: "Meperidine"
 predicted_indications: ["Tourette syndrome", "trichotillomania"]
@@ -52,8 +52,8 @@ The prediction rests only on a model score and should not be treated as clinical
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

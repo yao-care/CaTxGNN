@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "METHOTRIMEPRAZINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "headache disorder", "schizophreniform disorder", "anaphylaxis"]
 description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **manic bipolar affective disorder
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

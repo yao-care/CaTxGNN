@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The linked **2 clinical trials** and the published literature concern GLP-1 and 
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

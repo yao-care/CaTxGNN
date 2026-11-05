@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ with **29 clinical trials** and **20 publications** compiled for this report, in
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| Canada Market Status | Marketed (valid licenses: 7 of 7) |
-| Number of DINs | 7 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

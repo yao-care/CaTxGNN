@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Pegvaliase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not listed in the Canadian license data (generally phenylketonuria)"
 monitor_inn: "Pegvaliase"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **diabetic retinopathy**, but t
 | Predicted New Indication | Diabetic retinopathy |
 | TxGNN Prediction Score | 0.9917 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

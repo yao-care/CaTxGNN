@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 870
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **no registered clinical trials** but **10 publications**, including **2 ra
 | Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

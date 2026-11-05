@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 871
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis…"
 monitor_inn: "SULFAMETHOXAZOLE"
 predicted_indications: ["acute contagious conjunctivitis"]
@@ -50,8 +50,8 @@ Evidence is limited to **0 clinical trials** and **1 publication** (a susceptibi
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 (the data compiled for this report rated it L4, but no efficacy or mechanism studies were found, so L5 is the better fit) |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

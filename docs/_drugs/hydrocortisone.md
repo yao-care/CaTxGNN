@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 455
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The only trial used hydrocortisone 1% cream as the low-potency comparator agains
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 15 of 16) |
-| Number of DINs | 16 (valid: 15) |
+| Canada Market Status | Marketed (marketed DINs: 15 of 16; dormant: 1) |
+| Number of DINs | 16 (marketed: 15) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

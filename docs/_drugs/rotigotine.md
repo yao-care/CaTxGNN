@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 826
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
 description: "Rotigotine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and only **3 publicati
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (preclinical/mechanistic literature only) |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

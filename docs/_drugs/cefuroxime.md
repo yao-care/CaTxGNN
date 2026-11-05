@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 171
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "CEFUROXIME"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction is a computational signal only.
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

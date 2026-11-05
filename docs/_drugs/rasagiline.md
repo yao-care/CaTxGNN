@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Rasagiline: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease (and related parkinsonian syndromes). The Canadian…"
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** were found in the data compi
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ---

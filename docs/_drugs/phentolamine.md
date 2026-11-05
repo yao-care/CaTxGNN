@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 730
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Phentolamine"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "blue toe syndrome", "angiodysplasia of stomach", "hemangioendothelioma", "atheroembolism of kidney", "idiopathic spontaneous coronary artery dissection"]
 description: "Phentolamine: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence is model prediction only.
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

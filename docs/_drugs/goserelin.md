@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 440
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **1 clinical trial** and **15 publications** currently associated with this
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 (as graded in the compiled data; the only trial is indirectly relevant and has unknown status, so this is a generous reading) |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

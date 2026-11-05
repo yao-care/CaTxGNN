@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: predicted new indication Primary pulmonary lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **primary pulmonary lymphoma**, bu
 | Predicted New Indication | Primary pulmonary lymphoma |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

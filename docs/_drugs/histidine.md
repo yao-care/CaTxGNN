@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Histidine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the licence data (the products are amino acid solutions…"
 monitor_inn: "HISTIDINE"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -50,7 +50,7 @@ Histidine is an essential amino acid used as a component of parenteral nutrition
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

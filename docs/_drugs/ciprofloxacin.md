@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "CIPROFLOXACIN"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ with **no registered clinical trials** and **2 publications** currently touching
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

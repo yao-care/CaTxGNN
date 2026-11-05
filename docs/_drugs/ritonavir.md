@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease / AIDS"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ The prediction is best viewed as a model-level extension of the existing HIV ind
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 7) |
-| Number of DINs | 7 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 7; cancelled: 1) |
+| Number of DINs | 7 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -96,8 +96,6 @@ Most of these studies involve combination regimens, and ritonavir-specific effec
 | 02524031 | PAXLOVID | Not specified | Not specified |
 | 02312301 | KALETRA | Not specified | Not specified |
 | 02285533 | KALETRA | Not specified | Not specified |
-
-Seven valid licences are on record (all single-ingredient entries); the five main ones are shown above.
 
 ## Safety Considerations
 

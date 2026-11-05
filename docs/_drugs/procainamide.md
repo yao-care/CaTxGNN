@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 772
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Procainamide"
 predicted_indications: ["Tourette syndrome", "hyperthyroidism", "Prinzmetal angina", "methemoglobinemia, alpha type", "methemoglobinemia", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "methemoglobin reductase deficiency", "rheumatoid arthritis"]
 description: "Procainamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model (deep learning) predicts it may be effective for **Tourette synd
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

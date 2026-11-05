@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 919
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "TIZANIDINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 description: "Tizanidine: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **migraine disorder**, supported b
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

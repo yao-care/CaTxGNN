@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 567
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Lurbinectedin: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Lurbinectedin"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "Mills syndrome"]
@@ -38,7 +38,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text.
 The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction, so it is a model-only hypothesis.
 
 ---
@@ -52,7 +51,7 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
 | Canada Market Status | Approved but not marketed (approvals on record: 1) |
-| Number of DINs | 1 (valid: 0) |
+| Number of DINs | 1 (marketed: 0) |
 | Recommended Decision | Hold |
 
 ---

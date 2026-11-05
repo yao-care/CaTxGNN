@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 238
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukemia and acute myeloid leukemia (including se…"
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 | Predicted New Indication | Small cell lung carcinoma |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 ---

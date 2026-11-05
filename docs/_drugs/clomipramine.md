@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 213
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L5). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -52,8 +52,8 @@ with **8 clinical trials** and **20 publications** currently linked to this dire
 | Predicted New Indication | Anxiety disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 (formal criteria met, but see the caveat below) |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

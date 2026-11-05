@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Degarelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "DEGARELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but **no cl
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

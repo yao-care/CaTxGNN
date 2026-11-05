@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Fluocinonide: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Inflammatory skin conditions (atopic dermatitis, contact dermatitis…"
 monitor_inn: "FLUOCINONIDE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"]
@@ -52,8 +52,8 @@ The prediction rests on the model score alone.
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 *Note: The Canadian licence records compiled for this report contain no approved-indication text. The original indications above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*

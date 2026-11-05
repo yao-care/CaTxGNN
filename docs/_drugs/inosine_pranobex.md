@@ -3,7 +3,7 @@ layout: default
 title: Inosine Pranobex
 parent: Known Uses Only (No New Predictions)
 nav_order: 479
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Inosine Pranobex: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Inosine Pran
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 
 ## Known uses recorded for this drug
 

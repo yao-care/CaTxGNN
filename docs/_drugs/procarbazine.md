@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 773
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Procarbazine: predicted new indication Follicular lymphoma (evidence level L3). Approved use: Hodgkin lymphoma (including classic Hodgkin lymphoma and related subt…"
 monitor_inn: "PROCARBAZINE"
 predicted_indications: ["follicular lymphoma", "neuroblastoma", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -50,8 +50,8 @@ with **2 related clinical trials** (neither directly testing procarbazine) and *
 | Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

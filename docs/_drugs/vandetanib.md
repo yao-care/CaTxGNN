@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 966
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: predicted new indication Renal cell carcinoma (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Four clinical trials (all Phase 1 or 2, two of them terminated early with very f
 | Predicted New Indication | Renal cell carcinoma (disease) |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

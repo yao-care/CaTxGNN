@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 96
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Beclomethasone Dipropionate: predicted new indication Atopic eczema (evidence level L3). Approved use: Asthma, allergic rhinitis (including intrinsic and allergic asthma…"
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
@@ -50,8 +50,8 @@ but currently there are **no registered clinical trials** and only **9 publicati
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

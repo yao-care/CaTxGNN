@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Mepivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (the product…"
 monitor_inn: "Mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
@@ -50,8 +50,8 @@ but **no clinical trials and no relevant publications** currently support this d
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 7 of 7) |
-| Number of DINs | 7 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

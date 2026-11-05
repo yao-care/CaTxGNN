@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 577
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Support is limited: **no registered clinical trials** and **9 publications**, mo
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

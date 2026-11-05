@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 997
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Because this predicted indication is essentially the same as the drug's establis
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 12 of 12) |
-| Number of DINs | 12 (valid: 12) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Esculin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not specified in the available data"
 monitor_inn: "ESCULIN"
 predicted_indications: ["amenorrhea (disease)"]
@@ -50,8 +50,8 @@ This is a computational prediction only.
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

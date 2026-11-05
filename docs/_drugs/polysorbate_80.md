@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 751
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Polysorbate 80: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "POLYSORBATE 80"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -50,8 +50,8 @@ but currently there are **no clinical trials and no publications** supporting th
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

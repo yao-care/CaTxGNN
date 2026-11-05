@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Givosiran: predicted new indication Early-onset familial noncirrhotic portal hypertension (evidence level L5). Approved use: Hepatic porphyria"
 monitor_inn: "GIVOSIRAN"
 predicted_indications: ["early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **early-onset familial noncirrh
 | Predicted New Indication | Early-onset familial noncirrhotic portal hypertension |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

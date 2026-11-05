@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Letrozole is an aromatase inhibitor that lowers estrogen production. The TxGNN m
 | Predicted New Indication | Nipple carcinoma |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 18 of 20) |
-| Number of DINs | 20 (valid: 18) |
+| Canada Market Status | Marketed (marketed DINs: 18 of 20; dormant: 2) |
+| Number of DINs | 20 (marketed: 18) |
 | Recommended Decision | Hold |
 
 ---

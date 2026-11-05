@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 913
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **2 clinical trials** (one large Phase 3 trial still ongoing) and **2 publi
 | Predicted New Indication | Intracranial arteriosclerosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (see note below) |
-| Canada Market Status | Marketed (valid licenses: 12 of 12) |
-| Number of DINs | 12 (valid: 12) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Hold (research question stage) |
 
 *Note on evidence level:* The only Phase 3 trial for this indication (CAPTIVA) is still active with no results, so there is no completed randomised trial. The L2 grade reflects the strongest available signal rather than a completed trial. Strictly applying the grading rules, the level is closer to L4 to L5 for this specific indication.

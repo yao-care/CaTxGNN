@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sodium Sulfate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the Canadian licence data compiled for this report (pro…"
 monitor_inn: "SODIUM SULFATE"
 predicted_indications: ["dyspepsia"]
@@ -50,8 +50,8 @@ Sodium sulfate is an osmotic saline laxative, marketed in Canada as a component 
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

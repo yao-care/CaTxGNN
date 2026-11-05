@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ but **no clinical trials and no publications** currently support this direction,
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 18; dormant: 1; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Health Canada lists 20 valid single-ingredient licences, with no cancelled ones. Dosage form and indication text were not available in the data compiled for this report. Five main authorizations are shown below.
+Dosage form and indication text were not available in the data compiled for this report. Five main authorizations are shown below.
 
 | DIN | Product Name |
 |---------|------|

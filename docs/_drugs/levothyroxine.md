@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism"
 ---
 
@@ -52,7 +52,7 @@ It is a model-only prediction and should be treated with caution.
 | Predicted New Indication | Renal hypodysplasia/aplasia |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Number of approvals | At least 20 licences (single-ingredient products); the list may be partial |
 | Recommended Decision | Hold |

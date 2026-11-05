@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 469
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
 description: "Idelalisib: predicted new indication Mantle cell lymphoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Support so far is limited to **5 early-phase clinical trials** and **20 publicat
 | Predicted New Indication | Mantle cell lymphoma |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L3 (no Phase 3 or randomized efficacy data in MCL; evidence consists of early-phase trials, reviews and preclinical work) |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

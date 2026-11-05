@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 839
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available"
 monitor_inn: "SELENIUM"
 predicted_indications: ["sclerosing cholangitis"]
@@ -52,8 +52,8 @@ This prediction rests on computational modelling alone and should be treated as 
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 5 of 6) |
-| Number of DINs | 6 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 6; cancelled: 1) |
+| Number of DINs | 6 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ---

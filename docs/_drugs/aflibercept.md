@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Aflibercept: predicted new indication esotropia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **esotropia**, but **no clinical 
 | Predicted New Indication | esotropia |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

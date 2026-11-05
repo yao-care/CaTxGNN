@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 8
 monitor_inn: "CORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cortisone Acetate: predicted new indication alopecia areata (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **alopecia areata**, but the su
 | Predicted New Indication | alopecia areata |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

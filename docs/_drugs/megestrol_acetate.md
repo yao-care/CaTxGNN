@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "MEGESTROL ACETATE"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 description: "Megestrol Acetate: predicted new indication Hereditary breast ovarian cancer syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ This prediction is essentially a restatement of the existing indication rather t
 | Predicted New Indication | Hereditary breast ovarian cancer syndrome |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

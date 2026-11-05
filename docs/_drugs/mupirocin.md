@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The top-ranked TxGNN prediction, pleural empyema, has no supporting evidence at 
 | Predicted New Indication | Pleural empyema (disease) |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ergometrine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "nephrogenic syndrome of inappropriate antidiuresis", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "migraine disorder", "migraine with brainstem aura", "leprosy", "pulmonary hypertension"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ergometrine: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
@@ -52,8 +52,8 @@ Among the ten predictions, only migraine disorder has indirectly related literat
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

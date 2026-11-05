@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 805
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "RIFABUTIN"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Rifabutin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Rifabutin is a rifamycin-class antimycobacterial agent. The TxGNN model predicts
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

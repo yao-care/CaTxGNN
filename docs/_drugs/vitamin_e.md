@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 981
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Cholestasis, benign recurrent intrahepatic cholestasis…"
 monitor_inn: "VITAMIN E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
@@ -50,8 +50,8 @@ However, there are **no registered clinical trials** and only **1 publication** 
 | Predicted New Indication | Inborn disorder of bilirubin metabolism |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 7) |
-| Number of DINs | 7 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 7; dormant: 2) |
+| Number of DINs | 7 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

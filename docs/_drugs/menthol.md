@@ -5,7 +5,7 @@ layout: default
 title: Menthol
 parent: Known Uses Only (No New Predictions)
 nav_order: 586
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 18; cancelled: 2) |
 | Number of DINs | at least 20 |
 
 ---

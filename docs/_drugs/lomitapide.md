@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "LOMITAPIDE"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide: predicted new indication Marcothrombocytopenia with mitral valve insufficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ However, there are **0 clinical trials** and **0 publications** for this predict
 | Predicted New Indication | Marcothrombocytopenia with mitral valve insufficiency |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ---

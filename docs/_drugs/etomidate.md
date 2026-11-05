@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Etomidate (DB00292) is an intravenous hypnotic agent most commonly used for anes
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No prediction generated; no supporting studies |
-| Canada Market Status | Marketed (valid licenses: 2 of 3) |
-| Number of DINs | 3 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 3; cancelled: 1) |
+| Number of DINs | 3 (marketed: 2) |
 | Recommended Decision | **Hold** |
 
 ---
@@ -74,7 +74,6 @@ The TxGNN pipeline produced no candidate repurposing indications for Etomidate i
 - **Re-run TxGNN prediction pipeline** for Etomidate (DB00292) and confirm whether the absence of predicted indications reflects a true model result or a pipeline failure
 - **Retrieve MOA from DrugBank** (DB00292) — currently listed as a blocking data gap (DG002); this is essential for mechanistic plausibility analysis
 - **Parse package insert PDF from Health Canada** — safety warnings and contraindications are currently unavailable (DG001, severity: Blocking), preventing S1 safety screening
-- **Clarify Canada regulatory status** — confirm whether any Etomidate products are approved under a DIN, as the current data shows zero licenses; Etomidate is marketed in several jurisdictions under brand names such as Amidate and requires verification against the Health Canada drug product database
 - **Resubmit Evidence Pack** once the above data sources have been ingested, to generate a complete v5 evaluation
 ## Disclaimer
 

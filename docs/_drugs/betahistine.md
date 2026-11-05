@@ -5,7 +5,7 @@ layout: default
 title: Betahistine
 parent: Known Uses Only (No New Predictions)
 nav_order: 110
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Betahistine: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Betahistine"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses: 17 of 19) |
-| Number of DINs | 19 (valid: 17) |
+| Canada Market Status | Marketed (marketed DINs: 17 of 19; dormant: 2) |
+| Number of DINs | 19 (marketed: 17) |
 
 ---
 

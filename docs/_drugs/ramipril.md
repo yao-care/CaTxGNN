@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ but **no clinical trials and no publications** specific to this indication are c
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 19) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -80,7 +80,7 @@ The other papers retrieved for that indication concern myocardial infarction, re
 
 ## Canada Market Information
 
-Ramipril is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. Dosage form and approved indication text are not available in the compiled data. Five of the licences are listed below.
+Dosage form and approved indication text are not available in the compiled data. Five of the licences are listed below.
 
 | DIN | Product Name |
 |---------|------|

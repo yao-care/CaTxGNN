@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Bromazepam: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled license data"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but **no
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 ---

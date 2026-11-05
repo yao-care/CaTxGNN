@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dextroamphetamine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome", "trichotillomania"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dextroamphetamine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The prediction rests on model output alone.
 | Predicted New Indication | faciodigitogenital syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

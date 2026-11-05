@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Cyanocobalamin: predicted new indication biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 | Predicted New Indication | biotin metabolic disease |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 8 of 10) |
-| Number of DINs | 10 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 10; dormant: 2) |
+| Number of DINs | 10 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

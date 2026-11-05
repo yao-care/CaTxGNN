@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 846
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Sertraline is an SSRI antidepressant that has been marketed in Canada for many y
 | Predicted New Indication | Histrionic personality disorder (disease) |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

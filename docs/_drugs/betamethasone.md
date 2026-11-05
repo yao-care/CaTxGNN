@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 111
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "BETAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Evidence is thin: **no clinical trials** and **1 publication**, a 1964 case seri
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

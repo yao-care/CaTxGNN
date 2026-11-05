@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dichlorobenzyl Alcohol: predicted new indication Bronchitis (evidence level L5). Approved use: Not stated in the Canadian licence records (products are marketed as…"
 monitor_inn: "DICHLOROBENZYL ALCOHOL"
 predicted_indications: ["bronchitis", "migraine disorder"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **bronchitis**, but there are *
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 230
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cyclobenzaprine: predicted new indication Myofascial pain syndrome (evidence level L3). Approved use: Not available in the data compiled for this report . Cyclobenzaprine…"
 monitor_inn: "Cyclobenzaprine"
 predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
@@ -52,8 +52,8 @@ Most of the trials, however, test a sublingual formulation in fibromyalgia, so d
 | Predicted New Indication | Myofascial pain syndrome |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---

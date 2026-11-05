@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 823
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome"
 monitor_inn: "ROPINIROLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -52,8 +52,8 @@ with **no registered clinical trials** but **8 publications** currently supporti
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Hold (research question stage) |
 
 ---

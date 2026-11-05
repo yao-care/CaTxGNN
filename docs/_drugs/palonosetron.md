@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 702
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L4). Approved use: Not listed in the Canadian license data compiled for this report"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -48,8 +48,8 @@ Palonosetron is a 5-HT3 receptor antagonist (an antiemetic) with marketed produc
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

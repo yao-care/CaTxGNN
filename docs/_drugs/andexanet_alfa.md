@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Andexanet Alfa: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
@@ -38,7 +38,6 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Andexanet alfa is a recombinant factor Xa (FXa) decoy protein marketed in Canada as ONDEXXYA. Its approved indication text is not available in the data compiled for this report, but it is known to be used to reverse FXa-inhibitor anticoagulation.
 The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this specific indication. The evidence rests on model prediction alone.
 
 ---
@@ -52,7 +51,7 @@ The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** wi
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
 | Canada Market Status | Not marketed (licenses canceled: 1 of 1) |
-| Number of DINs | 1 (valid: 0) |
+| Number of DINs | 1 (marketed: 0) |
 | Recommended Decision | Hold |
 
 ---

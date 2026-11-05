@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "Mechlorethamine"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "follicular lymphoma"]
 description: "Mechlorethamine: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ However, **no clinical trials and no publications** in the data compiled for thi
 | Predicted New Indication | Relapsing-remitting multiple sclerosis |
 | TxGNN Prediction Score | 0.9913 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

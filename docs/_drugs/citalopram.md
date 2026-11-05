@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ supported by **4 registered clinical trials** (only indirectly related to citalo
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 688
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Parkinsonian disorder / Parkinson disease"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
@@ -52,8 +52,8 @@ The best-supported lead among the seven predictions is **schizophrenia**, with *
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 *Note: No approved indication text is listed in the Canadian licence record, so the original indication is not available from that record.*

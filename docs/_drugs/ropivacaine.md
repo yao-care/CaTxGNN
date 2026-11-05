@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 824
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not available in the Canadian licence data compiled for this report"
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -50,8 +50,8 @@ with **2 clinical trials** and **3 publications** currently supporting this dire
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

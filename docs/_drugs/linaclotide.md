@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
 description: "Linaclotide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Linaclotide is a guanylate cyclase-C agonist originally used for irritable bowel
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

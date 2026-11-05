@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 description: "Hyaluronidase: predicted new indication Esotropia (evidence level L5)."
@@ -51,8 +51,8 @@ This prediction rests on the model score alone.
 | Predicted New Indication | Esotropia |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 (model prediction only; the single related report is a complication case series, not supporting evidence) |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ The TxGNN model predicts it may be relevant to **atrophoderma vermiculata**, wit
 | Predicted New Indication | atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

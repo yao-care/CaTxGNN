@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 820
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Rocuronium: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the licence data compiled for this report"
 monitor_inn: "Rocuronium"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
@@ -48,8 +48,8 @@ Rocuronium is a non-depolarizing neuromuscular blocker given by injection. It is
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

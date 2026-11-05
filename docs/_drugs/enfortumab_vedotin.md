@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
 description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top prediction is **leprosy**, but there are **0 clinical tria
 | Predicted New Indication | Leprosy (rank 1); HER2 positive breast carcinoma (rank 10) is the only prediction with trial evidence (leprosy) |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 (leprosy); L3 (HER2 positive breast carcinoma) |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

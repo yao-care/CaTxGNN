@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 900
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: predicted new indication Duodenal ulcer (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **duodenal ulcer**, but **no clinical
 | Predicted New Indication | Duodenal ulcer (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (duodenal ulcer); L4 (pregnancy-associated osteoporosis) |
-| Canada Market Status | Marketed (valid licenses: 3 of 4) |
-| Number of DINs | 4 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 4; cancelled: 1) |
+| Number of DINs | 4 (marketed: 3) |
 | Recommended Decision | Hold (duodenal ulcer); a research question for pregnancy-associated osteoporosis |
 
 ## Why is This Prediction Reasonable?
@@ -103,8 +103,6 @@ The tables below cover the two predictions that have meaningful literature.
 | 02486423 | TEVA-TERIPARATIDE INJECTION | Not listed | Not listed |
 | 02498804 | APO-TERIPARATIDE INJECTION | Not listed | Not listed |
 | 02495589 | OSNUVO | Not listed | Not listed |
-
-All four licences are valid single-ingredient products.
 
 ## Safety Considerations
 

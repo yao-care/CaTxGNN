@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Baricitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -52,8 +52,8 @@ but **0 clinical trials** and **0 publications** currently support this predicti
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 593
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the ten predicted indications, the strongest evidence is for **urinary tra
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 16 of 16) |
-| Number of DINs | 16 (valid: 16) |
+| Canada Market Status | Marketed (marketed DINs: 16 of 16) |
+| Number of DINs | 16 (marketed: 16) |
 | Recommended Decision | Hold |
 
 ---

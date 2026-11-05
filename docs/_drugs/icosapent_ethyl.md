@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Icosapent Ethyl: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Hypertriglyceridemia"
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hemoglobinopathy**, but **no 
 | Predicted New Indication | Hemoglobinopathy |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

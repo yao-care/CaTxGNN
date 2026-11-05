@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis (also vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -52,7 +52,7 @@ Currently there are **0 registered clinical trials** and **7 publications** (2 h
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

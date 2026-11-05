@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 944
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Triethylenetetramine"
 predicted_indications: ["thyroid gland undifferentiated (anaplastic) carcinoma", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatic porphyria"]
 description: "Triethylenetetramine: predicted new indication Thyroid gland undifferentiated (anaplastic) carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Thyroid gland undifferentiated (anaplastic) carcinoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

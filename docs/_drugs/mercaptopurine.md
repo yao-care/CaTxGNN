@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 592
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The data compiled for this report include **15 registered clinical trials** and 
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 952
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Trolamine Salicylate: predicted new indication Exostosis (evidence level L5). Approved use: Not stated in the licence records. Product names suggest topical pain…"
 monitor_inn: "TROLAMINE SALICYLATE"
 predicted_indications: ["exostosis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "inclusion body myositis", "exostoses, multiple,", "rheumatoid arthritis", "headache disorder", "gout"]
@@ -50,8 +50,8 @@ Trolamine salicylate is a topical salicylate marketed in Canada in creams and ru
 | Predicted New Indication | Exostosis |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 11 of 11) |
-| Number of DINs | 11 (valid: 11) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 11) |
+| Number of DINs | 11 (marketed: 11) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **2 clinical trials** and **9 publications** currently supporting this dire
 | Predicted New Indication | Pre-malignant neoplasm |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (as assigned in the compiled data; see the note in the conclusion) |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

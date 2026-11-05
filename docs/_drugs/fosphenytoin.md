@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Fosphenytoin"
 predicted_indications: ["conjunctivitis", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "manic bipolar affective disorder", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia"]
 description: "Fosphenytoin: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the other predicted indications, only manic bipolar affective disorder has
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

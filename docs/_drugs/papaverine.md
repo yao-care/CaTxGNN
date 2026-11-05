@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 706
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Papaverine: predicted new indication Ischemic disease (evidence level L4). Approved use: Peripheral vascular disease, intermittent claudication…"
 monitor_inn: "Papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "fibrocartilaginous embolism", "venous thromboembolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
@@ -52,8 +52,8 @@ but the support is thin: **1 clinical trial** (an observational registry, not a 
 | Predicted New Indication | Ischemic disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

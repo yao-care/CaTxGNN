@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AMCINONIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "hypertrophic lichen planus", "lichen planus pigmentosus", "annular atrophic lichen planus", "lichen planus pemphigoides", "primary cutaneous B-cell lymphoma", "2-hydroxyethyl methacrylate sensitization"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Amcinonide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** supporting this s
 | Predicted New Indication | vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No clinical trials or publications were found for this specific disease, so the 
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 12) |
-| Number of DINs | 12 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 12; dormant: 2) |
+| Number of DINs | 12 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

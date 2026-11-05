@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity disorder"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

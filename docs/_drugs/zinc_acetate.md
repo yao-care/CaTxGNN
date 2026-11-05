@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 991
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Zinc Acetate: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Dermatitis, rash, Wilson disease and other conditions"
 monitor_inn: "ZINC ACETATE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "urinary tract infection (disease)"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 614
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication 痤瘡 (acne (disease)) (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Currently there are **no registered clinical trials** and **4 publications** (on
 | Predicted New Indication | 痤瘡 (acne (disease)) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 9 of 10) |
-| Number of DINs | 10 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 10; cancelled: 1) |
+| Number of DINs | 10 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ---

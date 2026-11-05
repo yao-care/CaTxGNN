@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -52,8 +52,8 @@ Among the other predictions, **rheumatoid arthritis** has the most supporting ma
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 18 of 18) |
-| Number of DINs | 18 (valid: 18) |
+| Canada Market Status | Marketed (marketed DINs: 18 of 18) |
+| Number of DINs | 18 (marketed: 18) |
 | Recommended Decision | Hold |
 
 ---

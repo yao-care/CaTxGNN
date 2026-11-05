@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DEXPANTHENOL"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dexpanthenol: predicted new indication anorectal stricture (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials** and **no publications** that directly
 | Predicted New Indication | anorectal stricture |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

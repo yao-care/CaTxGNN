@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Primaquine"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The prediction is purely computational and no plausible biological rationale has
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

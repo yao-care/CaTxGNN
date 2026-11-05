@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 728
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic and partial epilepsy)…"
 monitor_inn: "PHENOBARBITAL"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -52,8 +52,8 @@ The more credible repurposing directions are reflex-type seizure disorders (for 
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 7 of 7) |
-| Number of DINs | 7 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 *Note: Health Canada indication text was not available in the data compiled for this report, so the original indication could not be stated here.*

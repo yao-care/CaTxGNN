@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 711
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Among the other predictions, **liposarcoma** has the most mature evidence (6 tri
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 456
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence level is **L2**.
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

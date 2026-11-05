@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Glecaprevir: predicted new indication HIV infectious disease (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "GLECAPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,8 +52,8 @@ The evidence therefore supports the drug's original HCV use, even in HIV-coinfec
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 (the Phase 3 trials are HCV studies in HIV-coinfected patients and do not test HIV treatment, so direct evidence for the new indication is lacking) |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

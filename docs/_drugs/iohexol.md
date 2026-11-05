@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
 description: "Iohexol: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The prediction appears to be a TxGNN model (deep learning) artifact rather than 
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ---

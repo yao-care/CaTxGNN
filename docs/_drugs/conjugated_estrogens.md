@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Conjugated estrogens"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "thrombophilia"]
 description: "Conjugated Estrogens: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts they may be relevant for **migraine disorder**, but **n
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

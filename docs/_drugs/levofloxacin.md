@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 17 of 17) |
-| Number of DINs | 17 (valid: 17) |
+| Canada Market Status | Marketed (marketed DINs: 17 of 17) |
+| Number of DINs | 17 (marketed: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -5,7 +5,7 @@ layout: default
 title: Patisiran
 parent: Known Uses Only (No New Predictions)
 nav_order: 710
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Patisiran: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Patisiran"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 
 ---
 

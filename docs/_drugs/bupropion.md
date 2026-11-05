@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The data compiled for this report include **6 clinical trials** (2 rated as high
 | Predicted New Indication | attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

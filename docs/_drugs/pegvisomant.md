@@ -5,7 +5,7 @@ layout: default
 title: Pegvisomant
 parent: Known Uses Only (No New Predictions)
 nav_order: 716
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Pegvisomant: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Pegvisomant"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 
 ## Canada Market Information
 

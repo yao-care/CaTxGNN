@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** retrieved for thi
 | Predicted New Indication | obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 8) |
-| Number of DINs | 8 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 8; dormant: 1; cancelled: 1) |
+| Number of DINs | 8 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,7 +73,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Eight single-ingredient licences are currently valid. The main authorizations are listed below. Approved indication text and dosage forms are not recorded in the local data.
+The main authorizations are listed below. Approved indication text and dosage forms are not recorded in the local data.
 
 | DIN | Product Name |
 |---------|------|

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 635
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -48,8 +48,8 @@ Mycophenolate mofetil (MMF) is an immunosuppressant marketed in Canada under man
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; note that the only Phase 2 HIV trial of MMF was withdrawn, so the supporting evidence is weaker than this label suggests) |
-| Canada Market Status | Marketed (valid licenses: 15 of 15) |
-| Number of DINs | 15 (valid: 15) |
+| Canada Market Status | Marketed (marketed DINs: 15 of 15) |
+| Number of DINs | 15 (marketed: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

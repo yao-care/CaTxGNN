@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CILASTATIN"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cilastatin: predicted new indication Staphylococcus aureus infection (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ However, the trial tests linezolid with or without a carbapenem, and the antibac
 | Predicted New Indication | Staphylococcus aureus infection |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

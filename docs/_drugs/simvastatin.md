@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 850
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ This is closer to an on-label or closely related indication than a true repurpos
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 19) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -61,7 +61,6 @@ This is closer to an on-label or closely related indication than a true repurpos
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, simvastatin is an HMG-CoA reductase inhibitor. It lowers hepatic cholesterol synthesis and upregulates LDL receptors, which increases clearance of LDL cholesterol.
-
 
 Predictions for brain stem infarction, CETP deficiency, ABri amyloidosis and a rare neurodevelopmental disorder rest on model output alone or on very weak evidence, and are on Hold. The HIV prediction is a safety-constrained research question, not an efficacy signal.
 
@@ -104,7 +103,7 @@ Note: Most trials test simvastatin in combination (mainly with ezetimibe) or as 
 
 ## Canada Market Information
 
-Simvastatin is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. Dosage form and approved-indication text were not available for these licences. Five of the 20 are listed below.
+Dosage form and approved-indication text were not available for these licences. Five of the 20 are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

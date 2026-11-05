@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 972
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 description: "Vernakalant: predicted new indication Stroke disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant for **stroke disorder**, but the sup
 | Predicted New Indication | Stroke disorder |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

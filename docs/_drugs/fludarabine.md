@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 390
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Fludarabine: predicted new indication Plasma cell myeloma (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Fludarabine"
 predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brain small vessel disease 1 with or without ocular anomalies", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "diabetic nephropathy"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **plasma cell myeloma**, with *
 | Predicted New Indication | Plasma cell myeloma |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 (conditioning and lymphodepletion use; mostly Phase 1–2 trials, with Phase 3 CAR-T trials in which fludarabine is only part of the lymphodepletion) |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

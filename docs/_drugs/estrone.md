@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Estrone: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne"
 monitor_inn: "ESTRONE"
 predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]
@@ -52,8 +52,8 @@ The prediction is purely computational and has no clinical corroboration.
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 *Note: The approved-indication text for the Canadian product is not available, so the original indication is taken from the indication records.*

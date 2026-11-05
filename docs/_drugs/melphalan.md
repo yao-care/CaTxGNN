@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**.
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 (as assessed in the data compiled for this report; see note below) |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* No trial for this indication is a randomized Phase 2/3 study. The strongest evidence is one completed Phase 2 study (n=64) of a multi-drug high-dose regimen. Under the stricter reading of the level rules, the evidence is closer to L3 to L4. The L2 label should be treated as an upper bound.

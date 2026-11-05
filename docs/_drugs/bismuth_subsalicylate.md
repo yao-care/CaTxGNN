@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BISMUTH SUBSALICYLATE"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "salmonellosis", "typhoid fever", "conjunctivitis", "relapsing fever", "acute contagious conjunctivitis", "gingivitis", "punctate epithelial keratoconjunctivitis", "otitis externa"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Bismuth Subsalicylate: predicted new indication Paratyphoid fever (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this specific p
 | Predicted New Indication | Paratyphoid fever |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 14 of 14) |
-| Number of DINs | 14 (valid: 14) |
+| Canada Market Status | Marketed (marketed DINs: 14 of 14) |
+| Number of DINs | 14 (marketed: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

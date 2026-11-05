@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not specified in the available license data (the products are markete…"
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -50,8 +50,8 @@ This is a model-only prediction with no supporting studies.
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 12 of 12) |
-| Number of DINs | 12 (valid: 12) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

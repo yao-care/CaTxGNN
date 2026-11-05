@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -52,7 +52,7 @@ The result is a model-based signal only, and it needs careful scrutiny before an
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 16) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 16; dormant: 3; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -94,7 +94,7 @@ For context, the second-ranked prediction, hypertrichosis, has four publications
 
 ## Canada Market Information
 
-Finasteride has 20 valid single-ingredient licenses in Canada, with no cancelled licenses. Dosage form and indication text are not available in the data compiled for this report. Main authorizations:
+Dosage form and indication text are not available in the data compiled for this report. Main authorizations:
 
 | DIN | Product Name |
 |---------|------|

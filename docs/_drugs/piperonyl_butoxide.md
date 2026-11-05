@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 741
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Piperonyl Butoxide: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -48,7 +48,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Piperonyl Bu
 | Known uses recorded for this drug | 3 |
 | Evidence level | Not applicable |
 | Canada Market Status | Approved but not marketed (approvals on record: 1) |
-| Number of DINs | 1 (valid: 0) |
+| Number of DINs | 1 (marketed: 0) |
 
 ## Known uses recorded for this drug
 

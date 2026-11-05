@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 648
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Nepafenac: predicted new indication Eye disease (evidence level L2). Approved use: Not specified in the Canadian licence records (marketed ophthalmic NS…"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **eye disease** (a broad label)
 | Predicted New Indication | Eye disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

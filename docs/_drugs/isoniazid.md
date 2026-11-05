@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "ISONIAZID"
 predicted_indications: ["conjunctivitis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but the sup
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ---

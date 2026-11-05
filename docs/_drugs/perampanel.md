@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Currently **0 clinical trials** and **20 publications** are linked to this predi
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 (indirect evidence only, via the parent epilepsy indication) |
-| Canada Market Status | Marketed (valid licenses: 12 of 12) |
-| Number of DINs | 12 (valid: 12) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ---

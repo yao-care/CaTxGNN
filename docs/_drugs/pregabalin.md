@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 768
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Currently **2 clinical trials** (one withdrawn Phase 3, one completed Phase 4 th
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (provisional; see note below) |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cerliponase Alfa: predicted new indication Scheie syndrome (evidence level L5). Approved use: Neuronal ceroid lipofuscinosis"
 monitor_inn: "Cerliponase alfa"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
@@ -50,8 +50,8 @@ The prediction rests on model output alone and has a weak mechanistic basis.
 | Predicted New Indication | Scheie syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

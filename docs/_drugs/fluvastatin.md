@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "FLUVASTATIN"
 predicted_indications: ["HIV infectious disease", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "fibroma of prostate"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Fluvastatin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Arteriosclerosis disorder, atherosclerosis…"
 ---
 
@@ -52,8 +52,8 @@ This is a model-driven research question rather than an established use.
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Number of approvals | 2 (both single-ingredient licences) |
 | Recommended Decision | Hold |
 

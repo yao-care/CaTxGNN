@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 856
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sodium Oxybate: predicted new indication Insomnia (evidence level L2). Approved use: Narcolepsy (narcolepsy with cataplexy, narcolepsy without cataplexy)"
 monitor_inn: "SODIUM OXYBATE"
 predicted_indications: ["insomnia (disease)", "obsolete neurogenic bladder (disease)", "sleep disorder, initiating and maintaining sleep", "cauda equina syndrome", "Wernicke-Korsakoff syndrome", "restless legs syndrome"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **insomnia**, with **3 register
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

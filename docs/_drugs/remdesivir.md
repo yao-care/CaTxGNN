@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 801
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Remdesivir: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not stated in the Health Canada record"
 monitor_inn: "Remdesivir"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **multiple endocrine neoplasia** (sco
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

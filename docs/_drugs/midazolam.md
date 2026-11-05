@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 615
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Midazolam: predicted new indication Insomnia (evidence level L2). Approved use: Anxiety"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -50,8 +50,8 @@ with **2 clinical trials** (neither a direct insomnia treatment trial) and **10 
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 14 of 14) |
-| Number of DINs | 14 (valid: 14) |
+| Canada Market Status | Marketed (marketed DINs: 14 of 14) |
+| Number of DINs | 14 (marketed: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

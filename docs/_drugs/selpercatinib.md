@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Selpercatinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ The evidence is weak, and the supplied data suggest a possible safety signal rat
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

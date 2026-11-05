@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 613
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Micafungin: predicted new indication Urinary tract infection (evidence level L3). Approved use: Esophageal candidiasis, candidemia, disseminated candidiasis"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **urinary tract infection** (ma
 | Predicted New Indication | Urinary tract infection |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 6 of 8) |
-| Number of DINs | 8 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 8; cancelled: 2) |
+| Number of DINs | 8 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---
@@ -99,8 +99,6 @@ Currently no related clinical trials registered.
 | 02311054 | MYCAMINE | Not specified | Not specified |
 | 02547236 | MICAFUNGIN SODIUM FOR INJECTION | Not specified | Not specified |
 | 02524961 | MICAFUNGIN SODIUM FOR INJECTION | Not specified | Not specified |
-
-Eight valid single-ingredient licences are on record in total; the first five are listed here.
 
 ---
 

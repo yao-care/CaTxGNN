@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Carbon Monoxide: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the licence data (product names suggest lung diffusion…"
 monitor_inn: "Carbon monoxide"
 predicted_indications: ["sclerosing cholangitis", "ventricular tachycardia", "obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia", "potassium deficiency disease", "neovascular glaucoma", "angle-closure glaucoma", "pulmonary hypertension", "traumatic glaucoma", "aqueous misdirection"]
@@ -52,8 +52,8 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 ---

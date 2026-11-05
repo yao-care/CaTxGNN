@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cabozantinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Renal cell carcinoma (nonpapillary, clear cell)"
 monitor_inn: "Cabozantinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **liposarcoma**, but the suppor
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold (treat as a research question) |
 
 The original indications are not listed in the Canadian license records compiled for this report, because those records contain no indication text.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DACTINOMYCIN"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Dactinomycin is a cytotoxic antineoplastic that intercalates into DNA and inhibi
 | Predicted New Indication | Relapsing-remitting multiple sclerosis |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 775
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Support is thin: there are **0 registered clinical trials** and **20 publication
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 12 of 12) |
-| Number of DINs | 12 (valid: 12) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ---

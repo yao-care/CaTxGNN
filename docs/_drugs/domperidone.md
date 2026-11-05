@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-05
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Dyspepsia, heartburn, epigastric pain, nausea and vomiting"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -48,8 +48,8 @@ Domperidone is a peripheral dopamine D2/D3 receptor antagonist used to manage dy
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 9 of 10) |
-| Number of DINs | 10 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 10; dormant: 1) |
+| Number of DINs | 10 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

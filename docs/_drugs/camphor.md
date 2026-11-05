@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Camphor: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the available licence data"
 monitor_inn: "Camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -52,8 +52,8 @@ A newer preclinical animal study (2026) offers the strongest, though still early
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ---

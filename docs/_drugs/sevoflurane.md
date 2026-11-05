@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Sevoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Health Canada licence data compiled for this report…"
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -50,8 +50,8 @@ Sevoflurane is a volatile (inhaled) anesthetic marketed in Canada under three li
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ---

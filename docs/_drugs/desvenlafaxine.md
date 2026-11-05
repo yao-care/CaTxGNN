@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 267
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Unipolar depression, major depressive disorder, anxiety disorder"
 monitor_inn: "DESVENLAFAXINE"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **obsessive-compulsive disorder
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 20 of 20) |
-| Number of DINs | 20 (valid: 20) |
+| Canada Market Status | Marketed (marketed DINs: 20 of 20) |
+| Number of DINs | 20 (marketed: 20) |
 | Recommended Decision | Hold |
 
 ---

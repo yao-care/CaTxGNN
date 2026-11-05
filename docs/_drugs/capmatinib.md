@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Capmatinib: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the compiled data (Health Canada indication text is…"
 monitor_inn: "Capmatinib"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 791
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Raltitrexed: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Colorectal cancer and malignant mesothelioma"
 monitor_inn: "Raltitrexed"
 predicted_indications: ["sclerosing cholangitis", "myelodysplastic syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "partial deletion of the long arm of chromosome 5"]
@@ -50,8 +50,8 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

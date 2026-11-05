@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ Levetiracetam is an antiseizure medication, originally used to treat partial epi
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 18) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 18; cancelled: 2) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -95,7 +95,6 @@ No clinical trials are registered for the other predicted indications.
 
 ## Literature Evidence
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [31774955](https://pubmed.ncbi.nlm.nih.gov/31774955/) | 2019 | RCT | N Engl J Med | Three anticonvulsants compared for benzodiazepine-refractory status epilepticus |
@@ -113,7 +112,7 @@ No clinical trials are registered for the other predicted indications.
 
 ## Canada Market Information
 
-There are 20 valid single-ingredient authorizations. Dosage form and approved indication text were not available. Five main authorizations:
+Dosage form and approved indication text were not available. Five main authorizations:
 
 | DIN | Product Name |
 |---------|------|

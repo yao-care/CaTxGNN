@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The data compiled for this report include **2 clinical trials** and **19 publica
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 7 of 7) |
-| Number of DINs | 7 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ---

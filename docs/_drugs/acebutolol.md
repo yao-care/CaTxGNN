@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Acebutolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension / hypertensive disorder"
 monitor_inn: "ACEBUTOLOL"
 predicted_indications: ["malignant hypertensive renal disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9910 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

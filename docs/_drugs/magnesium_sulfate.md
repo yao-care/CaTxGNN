@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Support is limited to **1 Phase 3 trial (status unknown, no results)**, a small 
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 8 of 8) |
-| Number of DINs | 8 (valid: 8) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 526
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase: predicted new indication Sanfilippo syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Much of this predicted indication overlaps with the existing approved use rather
 | Predicted New Indication | Sanfilippo syndrome |
 | TxGNN Prediction Score | 0.9922 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 436
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L5). Approved use: Not stated in the available license data (marketed in Canada as a com…"
 monitor_inn: "GLUTAMIC ACID"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -50,8 +50,8 @@ Glutamic acid is an amino acid that is marketed in Canada as a component of pare
 | Predicted New Indication | Postmenopausal osteoporosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L4 (preclinical and mechanistic data only; no clinical studies of glutamic acid itself) |
-| Canada Market Status | Marketed (valid licenses: 7 of 7) |
-| Number of DINs | 7 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ---

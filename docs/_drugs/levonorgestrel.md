@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 546
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ No clinical trials are registered, but one randomized placebo-controlled trial o
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

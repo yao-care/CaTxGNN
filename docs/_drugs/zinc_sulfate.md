@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 993
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
 description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ One trial of zinc lozenges addressed postoperative sore throat, a related but di
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 14 of 14) |
-| Number of DINs | 14 (valid: 14) |
+| Canada Market Status | Marketed (marketed DINs: 14 of 14) |
+| Number of DINs | 14 (marketed: 14) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Deoxycholic Acid: predicted new indication autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "DEOXYCHOLIC ACID"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy"]
@@ -49,8 +49,8 @@ The TxGNN model gives its highest-ranked predictions to two rare COL4A1-related 
 | Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (rank 1); diabetic nephropathy is the only prediction with literature (rank 3) |
 | TxGNN Prediction Score | 0.9949 (rank 1); 0.9932 for diabetic nephropathy (rank 3) |
 | Evidence Level | L5 for rank 1 (model prediction only); L4 for diabetic nephropathy |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

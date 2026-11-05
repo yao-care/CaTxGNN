@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Number of approvals | 2 licences (both single-ingredient products) |
 | Recommended Decision | Hold |
 

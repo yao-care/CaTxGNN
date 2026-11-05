@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 904
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Tetryzoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Tetryzoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, with 
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

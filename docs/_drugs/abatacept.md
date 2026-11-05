@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Abatacept: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Support is limited: **1 small open-label Phase 2 pilot trial (n=30)**, **1 open-
 | Predicted New Indication | Ankylosing spondylitis |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

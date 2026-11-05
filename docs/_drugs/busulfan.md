@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 138
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L5). Approved use: Not stated in the Canadian licence records compiled for this report"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
@@ -48,8 +48,8 @@ Busulfan is an alkylating chemotherapy agent marketed in Canada in three product
 | Predicted New Indication | Myelodysplastic syndrome |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L1 (at least two completed Phase 3 RCTs are listed, e.g. NCT00005866 and NCT00822393, and Phase 3 publications) |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

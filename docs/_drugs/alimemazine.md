@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Alimemazine"
 predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Alimemazine: predicted new indication IgE responsiveness, atopic (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Alimemazine is a phenothiazine-class antihistamine marketed in Canada.
 The TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
@@ -50,7 +49,7 @@ The TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, 
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
 | Canada Market Status | Not marketed (licenses canceled: 2 of 2) |
-| Number of DINs | 2 (valid: 0) |
+| Number of DINs | 2 (marketed: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

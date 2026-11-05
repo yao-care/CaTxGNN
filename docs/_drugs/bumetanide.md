@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 133
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "BUMETANIDE"
 predicted_indications: ["acute pulmonary heart disease"]
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Bumetanide is a loop diuretic used to relieve fluid overload in heart failure an
 | Predicted New Indication | Acute pulmonary heart disease |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

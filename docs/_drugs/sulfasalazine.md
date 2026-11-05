@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 872
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -53,8 +53,8 @@ Note: the top-ranked TxGNN prediction is brachydactyly-syndactyly syndrome (scor
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 (preclinical and mechanistic studies only) |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---

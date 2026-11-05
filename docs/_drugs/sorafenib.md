@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 863
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "SORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence level is **L5**: the one registered trial and the literature addres
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

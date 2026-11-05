@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide: predicted new indication Prostate leiomyoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ No clinical trials or publications directly support this top-ranked prediction, 
 | Predicted New Indication | Prostate leiomyoma |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (model prediction only for the top-ranked indication) |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

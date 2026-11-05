@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Norelgestromin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the Health Canada licence data compiled for this report…"
 monitor_inn: "NORELGESTROMIN"
 predicted_indications: ["amenorrhea (disease)"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

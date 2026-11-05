@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 556
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Evidence is at **Level L4**: the only study that addresses lymphosarcoma itself 
 | Predicted New Indication | Lymphosarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

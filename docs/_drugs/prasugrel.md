@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 762
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Prasugrel: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Acute coronary syndrome"
 monitor_inn: "Prasugrel"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Elagolix: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
 monitor_inn: "ELAGOLIX"
 predicted_indications: ["amenorrhea (disease)"]
@@ -52,8 +52,8 @@ Amenorrhea appears in that literature as an expected on-treatment effect of mens
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Besifloxacin: predicted new indication Bronchitis (evidence level L5). Approved use: Conjunctivitis"
 monitor_inn: "BESIFLOXACIN"
 predicted_indications: ["bronchitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa"]
@@ -52,8 +52,8 @@ This is a computational prediction only.
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

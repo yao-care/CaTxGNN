@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 852
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Siponimod: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not specified in the licence data compiled for this report"
 monitor_inn: "Siponimod"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
@@ -50,8 +50,8 @@ Siponimod is a selective S1P1/S5 receptor modulator marketed in Canada under the
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

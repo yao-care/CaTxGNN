@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cisatracurium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not specified in the Canadian license records"
 monitor_inn: "Cisatracurium"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this direction.
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

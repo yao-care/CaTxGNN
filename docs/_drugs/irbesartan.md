@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, diabetic nephropathy"
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -50,7 +50,7 @@ However, **no clinical trials or publications** currently support this specific 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 17) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 17; cancelled: 3) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -88,7 +88,7 @@ The table below covers the fourth-ranked prediction, pulmonary hypertension owin
 
 ## Canada Market Information
 
-Irbesartan is a marketed single-ingredient product with 20 valid licences (none cancelled). The data compiled for this report do not include dosage forms or approved indication text. Five representative authorisations:
+The data compiled for this report do not include dosage forms or approved indication text. Five representative authorisations:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

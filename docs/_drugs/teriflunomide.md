@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 899
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Teriflunomide: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Terifluno
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| Canada Market Status | Marketed (valid licenses: 7 of 8) |
-| Number of DINs | 8 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 8; cancelled: 1) |
+| Number of DINs | 8 (marketed: 7) |
 
 ## Known uses among the model's candidates
 

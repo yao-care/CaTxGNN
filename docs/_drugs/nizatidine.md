@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "NIZATIDINE"
 predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple endocrine neoplasia"]
 description: "Nizatidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Note that this prediction largely confirms an existing use rather than a true ne
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (based on published randomized placebo-controlled trials; study designs were not verified beyond titles and abstracts) |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

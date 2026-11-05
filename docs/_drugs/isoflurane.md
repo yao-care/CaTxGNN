@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Isoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Canadian license data (isoflurane is generally used…"
 monitor_inn: "ISOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -50,8 +50,8 @@ Isoflurane is an inhaled general anesthetic that is marketed in Canada. The TxGN
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

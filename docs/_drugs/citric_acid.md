@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "CITRIC ACID"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No clinical trials are registered for this prediction, and no published study te
 | Predicted New Indication | Stomach disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 10 of 10) |
-| Number of DINs | 10 (valid: 10) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

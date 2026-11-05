@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 821
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "ROMIDEPSIN"
 predicted_indications: ["dermatofibrosarcoma protuberans", "fibroblastic neoplasm", "kidney fibrosarcoma", "heart fibrosarcoma", "conventional fibrosarcoma", "familial rhabdoid tumor", "low grade fibromyxoid sarcoma", "liver fibrosarcoma", "liposarcoma", "uterine corpus perivascular epithelioid cell tumor"]
 description: "Romidepsin: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **dermatofibrosarcoma protubera
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

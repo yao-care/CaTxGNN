@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 976
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ No clinical trials are registered for this use. The supporting literature is **6
 | Predicted New Indication | Rhabdomyosarcoma (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ---

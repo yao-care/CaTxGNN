@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diatrizoate"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Diatrizoate: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Number of approvals | 1 licence (single-ingredient) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Metreleptin: predicted new indication Familial generalized lentiginosis (evidence level L5). Approved use: Berardinelli-Seip congenital lipodystrophy / congenital generalized l…"
 monitor_inn: "Metreleptin"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
@@ -50,8 +50,8 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Familial generalized lentiginosis |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

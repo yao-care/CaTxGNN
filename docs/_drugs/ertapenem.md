@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **bacterial arthritis**, suppor
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

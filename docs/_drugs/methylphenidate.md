@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-05
 description: "Methylphenidate: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD), narcolepsy"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked prediction is faciodigitogenital syndrome (score 1.
 | Predicted New Indication | Specific developmental disorder (rank 3; best-supported of the four candidates. The top-ranked candidate, faciodigitogenital syndrome, has no evidence.) |
 | TxGNN Prediction Score | 0.9999 for specific developmental disorder (1.0000 for the top-ranked faciodigitogenital syndrome) |
 | Evidence Level | L5 (preclinical/mechanistic studies and indirect literature; no trials) |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

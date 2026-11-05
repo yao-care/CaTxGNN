@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 672
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Obeticholic Acid: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "OBETICHOLIC ACID"
 predicted_indications: ["rheumatoid arthritis", "conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
@@ -48,8 +48,8 @@ Obeticholic acid is a farnesoid X receptor (FXR) agonist marketed in Canada as O
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 (preclinical only) |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

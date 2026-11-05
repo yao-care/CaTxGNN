@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 653
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Nintedanib"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but at present there are **0 clinical trials** and only **1 publication** (an in
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

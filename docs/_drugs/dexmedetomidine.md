@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Dexmedetomidine: predicted new indication Headache disorder (evidence level L2). Approved use: Not available in the data compiled for this report (injectable sedati…"
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **headache disorder**, the high
 | Predicted New Indication | Headache disorder (the highest-evidence candidate; the top-scoring prediction by TxGNN rank is nephrogenic syndrome of inappropriate antidiuresis, which lacks any supporting evidence) |
 | TxGNN Prediction Score | 0.9930 (headache disorder); for reference, the top-ranked prediction scored 0.9960 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on candidate selection:** The five predictions, in TxGNN rank order, are nephrogenic syndrome of inappropriate antidiuresis (0.9960), migraine disorder (0.9949), migraine with brainstem aura (0.9935), headache disorder (0.9930) and trigeminal autonomic cephalalgia (0.9909). This report focuses on headache disorder because it is the only candidate with completed trials and published literature. The others are covered briefly in the conclusion.

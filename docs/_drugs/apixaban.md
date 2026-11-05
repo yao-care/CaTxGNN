@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-05
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,7 +48,7 @@ Apixaban is a direct factor Xa inhibitor anticoagulant marketed in Canada by man
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 19) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; dormant: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

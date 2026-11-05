@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "FUSIDIC ACID"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are **0 clinical trials** and only **1 publication** (a case series on
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

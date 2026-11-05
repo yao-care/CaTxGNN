@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Vilazodone"
 predicted_indications: ["neurotic disorder", "obsessive-compulsive disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "Keppen-Lubinsky syndrome", "Ohdo syndrome and variants", "schizotypal personality disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Vilazodone: predicted new indication Neurotic disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **neurotic disorder**, but ther
 | Predicted New Indication | Neurotic disorder |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Number of approvals | 6 licences (all single-ingredient, all valid) |
 | Recommended Decision | Hold |
 

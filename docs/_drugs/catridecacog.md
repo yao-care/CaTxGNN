@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Catridecacog: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Factor XIII A-subunit deficiency"
 monitor_inn: "CATRIDECACOG"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ---

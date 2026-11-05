@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "POTASSIUM CITRATE"
 predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "hypermanganesemia with dystonia", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
 description: "Potassium Citrate: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ There are currently **no clinical trials** and **no publications** supporting th
 | Predicted New Indication | Familial visceral myopathy |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

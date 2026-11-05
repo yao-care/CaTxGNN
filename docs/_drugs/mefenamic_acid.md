@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 578
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "MEFENAMIC ACID"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that blocks pro
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

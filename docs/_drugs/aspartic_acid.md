@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Aspartic Acid: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "Aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **renal tubular acidosis**, but
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 7 of 7) |
-| Number of DINs | 7 (valid: 7) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

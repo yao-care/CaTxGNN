@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Calaspargase pegol"
 predicted_indications: ["insomnia (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 description: "Calaspargase Pegol: predicted new indication insomnia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The prediction is a model output only.
 | Predicted New Indication | insomnia |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

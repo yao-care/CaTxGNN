@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Fluorescein: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the available licence data"
 monitor_inn: "Fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -52,8 +52,8 @@ The literature retrieved for other top predictions describes fluorescein only as
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 3 of 3) |
-| Number of DINs | 3 (valid: 3) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ---

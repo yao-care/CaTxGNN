@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Human Immunoglobulin G: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Human immunoglobulin G"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
@@ -50,8 +50,8 @@ Human immunoglobulin G (IgG) is a plasma-derived antibody product marketed in Ca
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | Marketed (valid licenses: 16 of 16) |
-| Number of DINs | 16 (valid: 16) |
+| Canada Market Status | Marketed (marketed DINs: 16 of 16) |
+| Number of DINs | 16 (marketed: 16) |
 | Recommended Decision | Hold |
 
 ---

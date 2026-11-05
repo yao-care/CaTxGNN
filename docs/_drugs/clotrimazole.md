@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-05
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be useful for **acne**, but the supporting evide
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

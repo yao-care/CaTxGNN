@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Clofarabine: predicted new indication myeloid leukemia (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ with **43 clinical trials** and **20 publications** currently supporting this di
 | Predicted New Indication | myeloid leukemia |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

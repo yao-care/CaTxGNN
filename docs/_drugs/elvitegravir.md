@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Elvitegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection, AIDS"
 monitor_inn: "ELVITEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency sy
 | Predicted New Indication | Feline acquired immunodeficiency syndrome (rank 1, no evidence); the best-supported prediction is SIV infection (rank 2) |
 | TxGNN Prediction Score | 0.9989 (both feline AIDS and SIV infection) |
 | Evidence Level | L5 for feline AIDS; L4 for SIV infection |
-| Canada Market Status | Marketed (valid licenses: 2 of 2) |
-| Number of DINs | 2 (valid: 2) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

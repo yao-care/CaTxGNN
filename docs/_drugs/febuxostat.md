@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 377
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Hyperuricemia"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -52,8 +52,8 @@ The mechanistic reasoning argues against the prediction, so it is best treated a
 | Predicted New Indication | Hypouricemia, renal |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 6 of 6) |
-| Number of DINs | 6 (valid: 6) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ---

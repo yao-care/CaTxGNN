@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Captopril: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -52,8 +52,8 @@ but there are **no registered clinical trials** and only **1 publication** (a di
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 9 of 9) |
-| Number of DINs | 9 (valid: 9) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ---

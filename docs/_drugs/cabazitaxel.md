@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Cabazitaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not listed in the Canadian license data (literature describes metasta…"
 monitor_inn: "Cabazitaxel"
 predicted_indications: ["female breast carcinoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**. No
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (preclinical and mechanistic studies dominate; no registered trials in the compiled data) |
-| Canada Market Status | Marketed (valid licenses: 5 of 5) |
-| Number of DINs | 5 (valid: 5) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold (research question) |
 
 ## Why is This Prediction Reasonable?

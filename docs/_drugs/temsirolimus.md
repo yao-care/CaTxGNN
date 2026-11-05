@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 889
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Temsirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Mantle cell lymphoma, B-cell neoplasm…"
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
@@ -52,8 +52,8 @@ with **2 clinical trials** (both combination regimens in sarcoma populations) an
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold |
 
 *Note: The Canadian licence record has no approved-indication text, so the original indications above come from the indication data compiled for this report.*

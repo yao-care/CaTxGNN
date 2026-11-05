@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 511
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne**, but support is still 
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (valid licenses: 4 of 4) |
-| Number of DINs | 4 (valid: 4) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold (research question; if pursued, topical use only) |
 
 ---

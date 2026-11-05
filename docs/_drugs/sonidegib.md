@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 862
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-05
 monitor_inn: "SONIDEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "cutaneous adenocystic carcinoma", "benign neoplasm of sweat gland", "eccrine carcinoma", "obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome"]
 description: "Sonidegib: predicted new indication Medulloblastoma with extensive nodularity (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ It is supported by **6 clinical trials** and **20 publications**. The highest-sc
 | Predicted New Indication | Medulloblastoma with extensive nodularity |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 for medulloblastoma; L1 assigned for skin cancer, though the listed trials are Phase 2 only (see below) |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold for medulloblastoma; Proceed with Guardrails for skin cancer (advanced BCC) |
 
 > **Note on the evidence level:** The L1 definition requires at least 2 completed Phase 3 RCTs. The compiled data list only Phase 2 trials, so by strict application the skin cancer entry would be closer to L2. The label of L1 reflects the strength of the approval-supporting evidence for BCC and guideline endorsement.

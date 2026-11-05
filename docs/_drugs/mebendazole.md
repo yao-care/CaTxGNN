@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-scoring prediction is acne (0.9920), but it has no support
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

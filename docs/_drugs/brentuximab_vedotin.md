@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 122
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-05
 description: "Brentuximab Vedotin: predicted new indication Follicular lymphoma (evidence level L5). Approved use: Hodgkin lymphoma (classic Hodgkin lymphoma and related subtypes)"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -52,8 +52,8 @@ Of the ten predicted indications, **B-cell neoplasm** (mainly CD30-positive diff
 | Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 (by the compiled data's scoring; see note below) |
-| Canada Market Status | Marketed (valid licenses: 1 of 1) |
-| Number of DINs | 1 (valid: 1) |
+| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
+| Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Hold (research question only) |
 
 *Note: The L2 label rests on a single Phase 2 trial that is still recruiting with no results. No completed Phase 2 or 3 RCT exists for follicular lymphoma, so the practical strength of evidence is weaker than the label suggests.*
