@@ -204,6 +204,8 @@ M3X	en	Diphenylpyraline hydrochloride is an antihistamine, though no SAHPRA-regi
 M3X	en	No SAHPRA-registered products were identified for Bisoprolol Fumarate in the current evidence pack.	hit	ms=Marketed;valid=7;cancelled=0
 M3X	en	> No registered products were found to tabulate.	hit	ms=Marketed;valid=53;cancelled=7
 M3X	en	The absence of SAHPRA registration reflects the local regulatory status only.	hit	ms=Marketed;valid=37;cancelled=5
+M3X	en	The TxGNN pipeline returned zero predicted indications because the entry could not be resolved, which is a data matching failure.	miss	ms=Marketed;valid=5;cancelled=0
+M3X	en	A result of zero licences strongly suggests a data ingestion or mapping failure at source.	hit	ms=Marketed;valid=5;cancelled=0
 M3V	en-us	Disopyramide is a class Ia antiarrhythmic drug that is marketed in Canada (as RYTHMODAN).	hit	site=CaTxGNN;ms=Approved, not marketed;valid=0;not_marketed=1
 M3V	en-us	Lurbinectedin was formerly marketed in Canada as ZEPZELCA but is now dormant.	miss	site=CaTxGNN;ms=Approved, not marketed;valid=0;not_marketed=1
 M3V	en-us	All three licences are currently valid single-ingredient products.	miss	site=CaTxGNN;ms=Marketed;valid=2;not_marketed=1;cancelled=0
