@@ -20,21 +20,22 @@ Drug repurposing predictions for Canada Health Canada-approved drugs using the T
 | Item | Count |
 |------|------|
 | **Drug Reports** | 932 |
-| **Total Predictions** | 21,488,614 |
-| **Unique Drugs** | 1,254 |
+| **Total Predictions** | 21,875,687 |
+| **Unique Drugs** | 1,264 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 1,254 MK / 49,527 CUD |
+| **FHIR Resources** | 1,261 MK / 10,224 CUD |
 
 ### Evidence Level Distribution
 
 | Evidence Level | Report Count | Description |
 |---------|-------|------|
-| **L1** | 0 | Multiple Phase 3 RCTs |
-| **L2** | 0 | Single RCT or multiple Phase 2 |
-| **L3** | 0 | Observational studies |
-| **L4** | 0 | Preclinical / mechanistic studies |
-| **L5** | 1254 | Computational prediction only |
+| **L1** | 12 | Multiple Phase 3 RCTs |
+| **L2** | 41 | Single RCT or multiple Phase 2 |
+| **L3** | 36 | Observational studies |
+| **L4** | 62 | Preclinical / mechanistic studies |
+| **L5** | 729 | Computational prediction only |
+| **N/A** | 52 | Known uses only (no new prediction) |
 
 ### By Source
 
@@ -42,16 +43,16 @@ Drug repurposing predictions for Canada Health Canada-approved drugs using the T
 |------|------|
 | KG | 18,872,584 |
 | KG + DL | 2,519,926 |
-| DL | 96,104 |
+| DL | 483,177 |
 
 ### By Confidence
 
 | Confidence | Predictions |
 |------|------|
 | very_high | 117,954 |
-| high | 2,458,627 |
-| medium | 18,891,605 |
-| low | 20,428 |
+| high | 2,476,813 |
+| medium | 18,949,642 |
+| low | 331,278 |
 
 ---
 
@@ -82,8 +83,8 @@ PYTHONPATH=src python -m catxgnn.predict.txgnn_model
 
 | Metric | Value |
 |------|------|
-| Total DL Predictions | 2,526,968 |
-| Unique Drugs | 1,254 |
+| Total DL Predictions | 2,550,680 |
+| Unique Drugs | 1,264 |
 | Unique Indications | 17,081 |
 
 ### Score Interpretation
