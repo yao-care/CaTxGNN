@@ -566,7 +566,8 @@ MKT_CLAIM_EN = re.compile(r"\bmarketed in (Canada|the (US|U\.S\.|United States)|
                           r"\bmarketed (in [A-Z][a-z]+ )?(as|under the brand name)\b|\bon the (Canadian|US|U\.S\.) market\b", re.I)
 FORMER = re.compile(r"\b(formerly|previously|was once|no longer|used to be|had been|discontinued|dormant|cancel)", re.I)
 TW_LEFTOVER = re.compile(r"Taiwan (Market(ing)? Status|Approved Licen|regulatory|TFDA)|Market Status \(Taiwan\)|Licenses? \(Taiwan\)|"
-                         r"taiwan_regulatory|not in Taiwan TFDA|TFDA (query|records?|licen)|대만|台灣上市|臺灣上市", re.I)
+                         r"taiwan_regulatory|not in Taiwan TFDA|TFDA (query|records?|licen|official|package insert)|parse the TFDA|for the Taiwan context|"
+                         r"대만|台灣上市|臺灣上市", re.I)
 
 
 _KEEP = {}

@@ -82,14 +82,13 @@ Currently no related literature available — no predicted indication is availab
 
 ---
 
-## Taiwan Market Information
+## Canada Market Information
 
 | Item | Detail |
 |------|--------|
 | Canada Market Status | Marketed (marketed DINs: 7 of 10; dormant: 3) |
-| Total DINs | 0 |
 
-> **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally. If a zero-DIN result is unexpected for the Taiwan context, please cross-check directly against the TFDA official database — this may reflect a data ingestion gap in the pipeline rather than actual non-availability in the market.
+> **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally.
 
 ---
 
@@ -111,7 +110,7 @@ Erlotinib is an antineoplastic targeted therapy. This section is included becaus
 
 Please refer to the package insert for safety information.
 
-> Safety data has not yet been ingested into this Evidence Pack. Resolution requires downloading and parsing the TFDA package insert PDF (Data Gap DG001, Blocking severity) before any safety-based evaluation can be conducted.
+> Safety data has not yet been ingested into this Evidence Pack.
 
 ---
 
@@ -124,7 +123,6 @@ Two unresolved data gaps — DG001 (TFDA warnings/contraindications, **Blocking*
 
 **To proceed, the following is needed:**
 
-- **[Blocking — DG001]** Download the TFDA package insert PDF for Erlotinib and parse it to populate `key_warnings` and `contraindications`
 - **[High — DG002]** Query the DrugBank API for Erlotinib (DB00530) to populate `original_moa` and pharmacological target data
 - **[Critical]** Re-run the TxGNN prediction pipeline for Erlotinib to generate `predicted_indications`; without this output, no repurposing report can be written
 ## Disclaimer

@@ -18,5 +18,18 @@
    "sentence": "Its approved indication text is not available in the data compiled for this report, but it is known to be used to reverse FXa-inhibitor anticoagulation.",
    "reason": "前一句「marketed in Canada as ONDEXXYA」與 DPD（2026-08-21 Cancelled Post Market）矛盾已刪；本句以「Its」開頭接在摘要段首，失去指涉對象（不改寫，一併刪除）"
   }
+ ],
+ "erlotinib": [
+  {
+   "sentence": "| Total DINs | 0 |",
+   "reason": "Tw 模板殘留的張數列，與本站 DPD 事實（10 張 DIN，上市 7）矛盾；本站張數見概覽表"
+  }
+ ],
+ "eribulin_mesylate": [
+  {
+   "sentence": "Retrieve and parse the TFDA/Health Canada product monograph",
+   "keep": true,
+   "reason": "同時寫 Health Canada，是有效的下一步；只有「TFDA/」是模板殘留，不改寫、不刪"
+  }
  ]
 }

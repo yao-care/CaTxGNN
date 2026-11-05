@@ -109,7 +109,6 @@ The Evidence Pack for Estradiol (DB00783) is structurally incomplete — the `pr
 
 - **Run TxGNN prediction pipeline** to generate `predicted_indications` with disease targets and confidence scores
 - **Retrieve MOA data from DrugBank API** (DG002 — High severity) to enable mechanism-based reasoning
-- **Download and parse TFDA package insert PDF** for warnings and contraindications (DG001 — Blocking severity)
 - **Query Health Canada DPD** for Estradiol DIN records to populate the regulatory section
 - **Re-run evidence collection** (ClinicalTrials.gov, PubMed) once a target indication is identified
 ## Disclaimer

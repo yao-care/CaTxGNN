@@ -69,6 +69,12 @@ def process(site, lang, page, fc, manual):
         if in_managed or not l.strip() or l.startswith(("#", "{:", "<", "---")):
             continue
         if l.startswith("|"):
+            mrow = next((m for m in man if not m.get("keep") and m["sentence"] in l), None)
+            if mrow:
+                log.append((page.stem, "MANUAL", l.strip(), mrow["reason"]))
+                lines[i] = None
+                tdel.add(i)
+                continue
             if site != "TwTxGNN" and ck.TW_LEFTOVER.search(l) and not re.fullmatch(r"[\s|:\-]+", l):
                 log.append((page.stem, "M5", l.strip(), "TwTxGNN 模板殘留的台灣上市狀態列／taiwan_regulatory 欄位，與本站無關"))
                 lines[i] = None
