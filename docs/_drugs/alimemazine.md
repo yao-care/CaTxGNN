@@ -38,6 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
+Alimemazine is a phenothiazine-class antihistamine.
 The TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview

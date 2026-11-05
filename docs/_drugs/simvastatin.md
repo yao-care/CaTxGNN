@@ -103,7 +103,7 @@ Note: Most trials test simvastatin in combination (mainly with ezetimibe) or as 
 
 ## Canada Market Information
 
-Dosage form and approved-indication text were not available for these licences. Five of the 20 are listed below.
+Simvastatin is marketed in Canada. Dosage form and approved-indication text were not available for these licences. Five of the 20 are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

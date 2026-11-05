@@ -38,6 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
+Ioversol is an iodinated contrast agent, but the data compiled for this report contain no approved-indication text for it.
 The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials** and **no publication that studies ioversol itself in this disease** support the prediction.
 The one linked paper studies an embolization procedure with a different agent, so this is essentially a computational prediction.
 

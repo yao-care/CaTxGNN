@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-The TxGNN model predicts it may be effective for **Tourette syndrome**, with a very high model score. However, there are currently **no clinical trials and no publications** supporting this prediction, so it rests on computational inference alone.
+Disopyramide is a class Ia antiarrhythmic drug. The TxGNN model predicts it may be effective for **Tourette syndrome**, with a very high model score. However, there are currently **no clinical trials and no publications** supporting this prediction, so it rests on computational inference alone.
 
 ---
 

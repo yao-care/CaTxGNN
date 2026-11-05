@@ -136,7 +136,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several completed Phase 3 trials and multiple systematic reviews and meta-analyses support insulin detemir in type 1 diabetes, and the drug is marketed in Canada. This is an existing use, so the recommendation confirms current use and does not represent a new repurposing finding.
+Several completed Phase 3 trials and multiple systematic reviews and meta-analyses support insulin detemir in type 1 diabetes. This is an existing use, so the recommendation confirms current use and does not represent a new repurposing finding.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from Health Canada (the data compiled for this report does not include them)

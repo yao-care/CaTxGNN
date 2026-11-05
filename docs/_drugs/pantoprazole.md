@@ -132,7 +132,7 @@ Package insert warnings and contraindications from Health Canada have not been o
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Pantoprazole is already marketed in Canada with 20 valid authorizations, and its acid-suppressing mechanism directly fits ulcer healing. A completed Phase 3 RCT and head-to-head RCTs in duodenal ulcer support this. The label-level safety information has not yet been reviewed, which is why the decision carries guardrails.
+Pantoprazole is already marketed in Canada, and its acid-suppressing mechanism directly fits ulcer healing. A completed Phase 3 RCT and head-to-head RCTs in duodenal ulcer support this. The label-level safety information has not yet been reviewed, which is why the decision carries guardrails.
 
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)

@@ -80,7 +80,7 @@ The other papers retrieved for that indication concern myocardial infarction, re
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not available in the compiled data. Five of the licences are listed below.
+Ramipril is marketed in Canada. Dosage form and approved indication text are not available in the compiled data. Five of the licences are listed below.
 
 | DIN | Product Name |
 |---------|------|

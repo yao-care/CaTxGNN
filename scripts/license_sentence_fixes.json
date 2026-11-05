@@ -1,22 +1,9 @@
 {
- "pantoprazole": [
-  {
-   "sentence": "Pantoprazole is already marketed in Canada with 20 valid authorizations, and its acid-suppressing mechanism directly fits ulcer healing.",
-   "keep": true,
-   "reason": "張數與 DPD 不符（有效 19、註銷 1），但同一句含機轉理由；依規則不動療效／機轉內容，留待用戶決定"
-  }
- ],
  "insulin_detemir": [
   {
    "sentence": "Several completed Phase 3 trials and multiple systematic reviews and meta-analyses support insulin detemir in type 1 diabetes, and the drug is marketed in Canada.",
-   "keep": true,
-   "reason": "DPD：LEVEMIR PENFILL 02271842 Dormant（2026-07-24）、FLEXTOUCH 已註銷，「marketed in Canada」不對；但同一句含療效證據，依規則不刪，留待用戶決定"
-  }
- ],
- "andexanet_alfa": [
-  {
-   "sentence": "Its approved indication text is not available in the data compiled for this report, but it is known to be used to reverse FXa-inhibitor anticoagulation.",
-   "reason": "前一句「marketed in Canada as ONDEXXYA」與 DPD（2026-08-21 Cancelled Post Market）矛盾已刪；本句以「Its」開頭接在摘要段首，失去指涉對象（不改寫，一併刪除）"
+   "cut": ", and the drug is marketed in Canada",
+   "reason": "DPD：LEVEMIR PENFILL 02271842 Dormant（2026-07-24）、FLEXTOUCH 已註銷，「marketed in Canada」不對；同句含療效證據，用戶決定只刪錯的子句"
   }
  ],
  "erlotinib": [

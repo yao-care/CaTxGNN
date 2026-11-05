@@ -31,6 +31,37 @@ DEPENDENT = {
 }
 
 
+# 2026-11-05 用戶決定：同一句混有藥物身分、療效或機轉內容時，只刪跟事實矛盾的子句（原句文字照舊，只做刪除）
+_C = r"(?:Canada|the US|the U\.S\.|the United States|Denmark|Malaysia|Korea|España|Colombia|Dinamarca)"
+_TAIL = r"(?: (?:as|under the brand names?|under the names?|como|con el nombre(?: de)?|bajo el nombre(?: de)?) [^,;.()]*?)?(?: \([^)]*\))?(?= para | to | for | que | in the | en el |[,;.]|$)"
+CUTS = [re.compile(p, re.I) for p in (
+    r",? (?:that|which) (?:is|are) (?:currently |already |widely |also )?marketed in " + _C + _TAIL,
+    r",? and (?:the drug|it|the product) is (?:already |currently |also )?marketed in " + _C + _TAIL,
+    r"(?<=\w)(?<! is)(?<! are)(?<! be) marketed in " + _C + _TAIL,
+    r" with \d+ valid [^,;.()]*?(?:authori[sz]ations?|licen[cs]es?|DINs?)(?: \([^)]*\))?(?=[,;.]|$)",
+    r",? y (?:ya )?(?:está|se encuentra) comercializad[oa] en (?:España|Colombia)" + _TAIL,
+    r",? y (?:el fármaco|el medicamento|el producto) (?:ya )?(?:está|se encuentra) comercializad[oa] en (?:España|Colombia)" + _TAIL,
+    r",? (?:que )?(?:ya )?(?:está|se encuentra) comercializad[oa] en (?:España|Colombia)" + _TAIL,
+    r",? que se comercializa en (?:España|Colombia)" + _TAIL,
+    r",? (?:autorizad[oa]s? y )?comercializad[oa]s? en (?:España|Colombia)" + _TAIL,
+)]
+
+
+def clause_cut(site, lang, core, fc, rule):
+    """只刪矛盾子句（固定句型：關係子句、分詞片語、對等子句、「with N valid…」）；刪後仍矛盾或剩太短回 None"""
+    if rule not in ("M3", "M3a", "M3b", "M3c", "M3d"):
+        return None
+    for rx in CUTS:
+        m = rx.search(core)
+        if not m or m.start() < 8:
+            continue
+        cand = (core[:m.start()] + core[m.end():]).strip()
+        cand = re.sub(r"\s+([,.;:])", r"\1", cand)
+        if len(re.findall(r"\w+", cand)) >= 4 and not ck.m3_verdict(site, lang, cand, fc) and not ck.TW_LEFTOVER.search(cand):
+            return cand
+    return None
+
+
 def split_sentences(line):
     t = line
     for a, b in ABBR:
@@ -85,6 +116,11 @@ def process(site, lang, page, fc, manual):
         for s, sp in sents:
             core = re.sub(r"^\s*([-*>]\s*|\d+\.\s+)+", "", s.strip())
             why = None
+            cutm = next((m for m in man if m.get("cut") and m["sentence"] in s), None)
+            if cutm:
+                log.append((page.stem, "MANUAL（子句）", s.strip(), cutm["reason"] + f"；刪除片段：{cutm['cut']}"))
+                keep.append((s.replace(cutm["cut"], "", 1), sp)); changed = True; prev_del = False
+                continue
             if any(m.get("keep") and m["sentence"] in s for m in man):
                 keep.append((s, sp)); prev_del = False
                 continue
@@ -100,6 +136,12 @@ def process(site, lang, page, fc, manual):
             if not why and prev_del and dep and dep.search(core) and re.search(ck._LIC + r"|market|comerciali|시판|허가|dipasarkan|markedsfør|regist", core, re.I):
                 why = ("DEPENDENT", "緊接在被刪句後、以指代詞開頭；前句刪除後失去指涉對象（不改寫，一併刪除）")
             if why:
+                lead = s[:len(s) - len(s.lstrip())] + re.match(r"^\s*(([-*>]\s*|\d+\.\s+)*)", s.strip()).group(1)
+                cut = clause_cut(site, lang, core, fc, why[0]) if fc else None
+                if cut:
+                    log.append((page.stem, why[0] + "（子句）", s.strip(), why[1] + f"；只刪子句，保留：{cut}"))
+                    keep.append((lead + cut, sp)); changed = True; prev_del = False
+                    continue
                 log.append((page.stem, why[0], s.strip(), why[1]))
                 changed = prev_del = True
                 continue

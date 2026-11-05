@@ -88,7 +88,7 @@ The table below covers the fourth-ranked prediction, pulmonary hypertension owin
 
 ## Canada Market Information
 
-The data compiled for this report do not include dosage forms or approved indication text. Five representative authorisations:
+Irbesartan is a marketed single-ingredient product. The data compiled for this report do not include dosage forms or approved indication text. Five representative authorisations:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
