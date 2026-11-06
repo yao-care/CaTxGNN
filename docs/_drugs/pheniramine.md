@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,8 +96,6 @@ Dosage form and approved indication text were not available.
 | 00481408 | NAPHCON A | Not available | Not available |
 | 02456982 | NEOCITRAN EXTRA STRENGTH COLD & SINUS NIGHT - APPLE CINNAMON | Not available | Not available |
 | 02215403 | NEOCITRAN EXTRA STRENGTH COLD & SINUS NIGHT | Not available | Not available |
-
-Four more licences are valid: CALMYLIN ACE (02198630), NEOCITRAN COLD & SORE THROAT NIGHT (02246602), HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU EXTRA STRENGTH (02238890) and HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU REGULAR STRENGTH (02047349).
 
 ---
 
