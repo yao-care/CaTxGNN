@@ -108,7 +108,7 @@
       "name": "Acitretin",
       "evidence_level": "L3",
       "indication_count": 4,
-      "original_indication": "he TxGNN model predicts it may be effective for **acne (disease)**,",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/acitretin/"
@@ -148,7 +148,7 @@
       "name": "Adenine",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are **0 clinical trials** and only **1 publication** (a rat liver toxicity study unrelated to adenine as a...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/adenine/"
@@ -278,7 +278,7 @@
       "name": "Alpelisib",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and only **1 publication** (a case report of alpelisib-induced interstitial lung...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/alpelisib/"
@@ -488,7 +488,7 @@
       "name": "Andexanet Alfa",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "he TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this specific indication....",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/andexanet-alfa/"
@@ -518,7 +518,7 @@
       "name": "Anti-Inhibitor Coagulant Complex",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **Glanzmann thrombasthenia**,",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/anti-inhibitor-coagulant-complex/"
@@ -558,7 +558,7 @@
       "name": "Aprepitant",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis**.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/aprepitant/"
@@ -798,7 +798,7 @@
       "name": "Baclofen",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**, but there are **0 clinical trials** and only **9 publications** (none testing baclofen in ADHD)...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/baclofen/"
@@ -958,7 +958,7 @@
       "name": "Beta Carotene",
       "evidence_level": "L4",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **acne (disease)**, but there are **no registered clinical trials** and only **7 publications**, none of which tested beta carotene as an acne...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/beta-carotene/"
@@ -1108,7 +1108,7 @@
       "name": "Brodalumab",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model's top-ranked prediction is **strongyloidiasis**, with **0 clinical trials** and **0 publications** supporting it. This prediction is model-only and has no supporting biology.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/brodalumab/"
@@ -1128,7 +1128,7 @@
       "name": "Bromazepam",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on the computational...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/bromazepam/"
@@ -1258,7 +1258,7 @@
       "name": "Cabazitaxel",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **female breast carcinoma**. No clinical trials are registered in the compiled data, and **20 publications** were retrieved, of which one is a...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/cabazitaxel/"
@@ -1318,7 +1318,7 @@
       "name": "Calcipotriol",
       "evidence_level": "L3",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** and **4 publications** (small clinical studies and case reports) currently supporting...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/calcipotriol/"
@@ -1338,7 +1338,7 @@
       "name": "Camphor",
       "evidence_level": "L5",
       "indication_count": 9,
-      "original_indication": "he TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **3 publications** (case-level reports and a historical review), so the...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/camphor/"
@@ -1388,7 +1388,7 @@
       "name": "Capmatinib",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and only **1 general review article** behind this prediction, so it is currently a...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/capmatinib/"
@@ -1428,7 +1428,7 @@
       "name": "Carbon Monoxide",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **sclerosing cholangitis**.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/carbon-monoxide/"
@@ -2108,7 +2108,7 @@
       "name": "Cyclobenzaprine",
       "evidence_level": "L3",
       "indication_count": 3,
-      "original_indication": "he TxGNN model predicts it may be effective for **myofascial pain syndrome**, with **10 clinical trials** and **5 publications** listed for this direction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/cyclobenzaprine/"
@@ -2268,7 +2268,7 @@
       "name": "Dantrolene",
       "evidence_level": "L5",
       "indication_count": 7,
-      "original_indication": "he TxGNN model predicts it may be useful for **moderate multiminicore disease with hand involvement**, but **no clinical trials and no publications** currently support this direction. This is a model...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dantrolene/"
@@ -2378,7 +2378,7 @@
       "name": "Degarelix",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **hypertrichosis**, but **no clinical trials and no publications** currently support this prediction, so it rests on the TxGNN model (deep learning)...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/degarelix/"
@@ -2398,7 +2398,7 @@
       "name": "Deoxycholic Acid",
       "evidence_level": "L5",
       "indication_count": 3,
-      "original_indication": "he TxGNN model gives its highest-ranked predictions to two rare COL4A1-related vascular disorders, but these have no supporting studies. The most actionable lead is **diabetic nephropathy**, which...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/deoxycholic-acid/"
@@ -2518,7 +2518,7 @@
       "name": "Dexrazoxane",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **sclerosing cholangitis** with a very high score, yet **no clinical trials and no publications** currently support this prediction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dexrazoxane/"
@@ -2548,7 +2548,7 @@
       "name": "Diatrizoate",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **rheumatoid arthritis**, but there are **0 clinical trials** and only **1 publication**, and that publication uses diatrizoate as a laboratory reagent...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/diatrizoate/"
@@ -2608,7 +2608,7 @@
       "name": "Dienogest",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **amenorrhea**, with **no registered clinical trials** and **7 publications**, none of which directly tests this use.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dienogest/"
@@ -2718,7 +2718,7 @@
       "name": "Dobutamine",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **alopecia**, but there are **0 clinical trials** and only **1 publication** (a veterinary case report about minoxidil toxicity, not a test of...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/dobutamine/"
@@ -3058,7 +3058,7 @@
       "name": "Enfortumab Vedotin",
       "evidence_level": "L5",
       "indication_count": 9,
-      "original_indication": "he TxGNN model's top prediction is **leprosy**, but there are **0 clinical trials** and **0 publications** for it, and no plausible mechanistic link exists.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/enfortumab-vedotin/"
@@ -3178,7 +3178,7 @@
       "name": "Erdafitinib",
       "evidence_level": "L5",
       "indication_count": 6,
-      "original_indication": "he TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/erdafitinib/"
@@ -3198,7 +3198,7 @@
       "name": "Ergometrine",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model's top-ranked prediction is **hypertrichosis**, but **no clinical trials and no publications** support it, so this is a model-only (L5) signal.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ergometrine/"
@@ -3238,7 +3238,7 @@
       "name": "Esculin",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **amenorrhea**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/esculin/"
@@ -3308,7 +3308,7 @@
       "name": "Ethanol",
       "evidence_level": "L4",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and no publication showing that ethanol treats migraine. The available literature points the...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ethanol/"
@@ -3388,7 +3388,7 @@
       "name": "Exemestane",
       "evidence_level": "L5",
       "indication_count": 7,
-      "original_indication": "he TxGNN model (deep learning) predicts it may be effective for **antithrombin deficiency type 2**, but **no clinical trials and no publications** currently support this prediction. It is a model...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/exemestane/"
@@ -3538,7 +3538,7 @@
       "name": "Fludarabine",
       "evidence_level": "L2",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **plasma cell myeloma**, with **31 registered clinical trials** and **20 publications** in this direction. Nearly all of this evidence tests...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/fludarabine/"
@@ -3548,7 +3548,7 @@
       "name": "Fludrocortisone",
       "evidence_level": "L5",
       "indication_count": 8,
-      "original_indication": "he TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**, but **no clinical trials and no publications** currently support this prediction, so it should be treated as a...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/fludrocortisone/"
@@ -3748,7 +3748,7 @@
       "name": "Fosaprepitant",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but **no clinical trials and no publications** support this prediction, so it is a...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/fosaprepitant/"
@@ -3798,7 +3798,7 @@
       "name": "Fostamatinib",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "The high TxGNN score is a computational prediction. No trials or publications support it, so this should be treated as a research question rather than an actionable lead.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/fostamatinib/"
@@ -4168,7 +4168,7 @@
       "name": "Hyaluronidase",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **esotropia** (inward-turning eye misalignment), but there are **0 clinical trials** and **1 publication**, and that publication describes a surgical...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/hyaluronidase/"
@@ -4218,7 +4218,7 @@
       "name": "Hydroquinone",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "he TxGNN model predicts it may be effective for **seborrheic keratosis**, but the support is thin: **0 clinical trials** and **1 publication** (a prospective observational study) for this indication.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/hydroquinone/"
@@ -4268,7 +4268,7 @@
       "name": "Ibutilide",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **rheumatoid arthritis**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on the model alone.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ibutilide/"
@@ -4378,7 +4378,7 @@
       "name": "Inclisiran",
       "evidence_level": "L5",
       "indication_count": 9,
-      "original_indication": "he TxGNN model predicts it may be effective for **potassium deficiency disease**, but **no clinical trials and no publications** currently support this prediction, so it should be treated as a...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/inclisiran/"
@@ -4568,7 +4568,7 @@
       "name": "Irbesartan",
       "evidence_level": "L5",
       "indication_count": 3,
-      "original_indication": "The same logic applies to malignant renovascular hypertension, which is strongly angiotensin II-dependent. ARBs carry a recognised caution in bilateral renal artery stenosis because of the risk of...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/irbesartan/"
@@ -4638,7 +4638,7 @@
       "name": "Isosorbide Dinitrate",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model's top-ranked prediction is **alopecia**, but it has **0 clinical trials** and **0 publications**, so it rests on model prediction alone.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/isosorbide-dinitrate/"
@@ -4678,7 +4678,7 @@
       "name": "Ivabradine",
       "evidence_level": "L5",
       "indication_count": 6,
-      "original_indication": "he TxGNN model predicts it may be effective for **hypertrichosis**, with a score of 0.9979.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ivabradine/"
@@ -4698,7 +4698,7 @@
       "name": "Ivosidenib",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "Both are secondary myeloid neoplasms. They are essentially an extension of the existing AML label, since therapy-related AML is already among the original indications. A benefit is biologically...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ivosidenib/"
@@ -4708,7 +4708,7 @@
       "name": "Ketamine",
       "evidence_level": "L1",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **headache disorder**,",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ketamine/"
@@ -4778,7 +4778,7 @@
       "name": "Lactic Acid",
       "evidence_level": "L5",
       "indication_count": 5,
-      "original_indication": "he TxGNN model predicts it may be effective for **atypical coarctation of aorta**, with a very high score but **no clinical trials and no directly relevant publications** supporting this direction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/lactic-acid/"
@@ -4878,7 +4878,7 @@
       "name": "Larotrectinib",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)**, but only **1 clinical trial** (a broad, indirect basket trial) and **2 publications** are linked to this...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/larotrectinib/"
@@ -4888,7 +4888,7 @@
       "name": "Latanoprost",
       "evidence_level": "L5",
       "indication_count": 9,
-      "original_indication": "There is an important caveat. Congenital and paediatric glaucomas often involve developmental abnormalities of the eye's drainage angle (trabeculodysgenesis), which may reduce how well prostaglandin...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/latanoprost/"
@@ -5008,7 +5008,7 @@
       "name": "Levocarnitine",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model's top-ranked prediction is a rare vascular disorder with no supporting evidence. The best-supported prediction is **Congestive Heart Failure**, with **3 clinical trials** (including 1...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/levocarnitine/"
@@ -5298,7 +5298,7 @@
       "name": "Maraviroc",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **multiple endocrine neoplasia** (score 0.9982), yet there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/maraviroc/"
@@ -5388,7 +5388,7 @@
       "name": "Memantine",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "he TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a model prediction only.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/memantine/"
@@ -5398,7 +5398,7 @@
       "name": "Meperidine",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **Tourette syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/meperidine/"
@@ -5748,7 +5748,7 @@
       "name": "Misoprostol",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **amenorrhea**, but there are **no registered clinical trials**, and the **7 publications** retrieved mostly concern pregnancy termination and related...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/misoprostol/"
@@ -5878,7 +5878,7 @@
       "name": "Mycophenolic Acid",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **hemoglobinopathy**, supported by **1 clinical trial** (indirect relevance only) and **1 publication**.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/mycophenolic-acid/"
@@ -6428,7 +6428,7 @@
       "name": "Oxtriphylline",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/oxtriphylline/"
@@ -6928,7 +6928,7 @@
       "name": "Polatuzumab Vedotin",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **HER2-positive breast carcinoma**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/polatuzumab-vedotin/"
@@ -7458,7 +7458,7 @@
       "name": "Remdesivir",
       "evidence_level": "L5",
       "indication_count": 6,
-      "original_indication": "he TxGNN model's top-ranked prediction is **multiple endocrine neoplasia** (score 0.9950), but there are **0 clinical trials** and **0 publications** supporting it. The prediction rests on the model...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/remdesivir/"
@@ -7618,7 +7618,7 @@
       "name": "Rivaroxaban",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "A possible link to rheumatoid arthritis is the crosstalk between coagulation and inflammation. Factor Xa and thrombin signal through PAR receptors, and thrombin generation is altered in autoimmune...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/rivaroxaban/"
@@ -7828,7 +7828,7 @@
       "name": "Selenium",
       "evidence_level": "L4",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are currently **0 clinical trials** and only **5 loosely related publications**, none of which tests selenium as...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/selenium/"
@@ -7848,7 +7848,7 @@
       "name": "Selinexor",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are currently **no clinical trials** and **no publications** supporting this direction, so the prediction...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/selinexor/"
@@ -7858,7 +7858,7 @@
       "name": "Selpercatinib",
       "evidence_level": "L5",
       "indication_count": 3,
-      "original_indication": "he TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a model prediction only, with **0 registered clinical trials** and **3 publications**, none of which studies...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/selpercatinib/"
@@ -8088,7 +8088,7 @@
       "name": "Sotatercept",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "he TxGNN model predicts it may be effective for **acute lymphoblastic leukemia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/sotatercept/"
@@ -8468,7 +8468,7 @@
       "name": "Thiamine",
       "evidence_level": "L5",
       "indication_count": 3,
-      "original_indication": "he TxGNN model gives its highest prediction score to **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, with **0 clinical trials** and **0 publications** supporting...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/thiamine/"
@@ -8498,7 +8498,7 @@
       "name": "Thyrotropin Alfa",
       "evidence_level": "L5",
       "indication_count": 9,
-      "original_indication": "he TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and **0 publications** supporting this direction.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/thyrotropin-alfa/"
@@ -8528,7 +8528,7 @@
       "name": "Tildrakizumab",
       "evidence_level": "L5",
       "indication_count": 4,
-      "original_indication": "he TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but there are currently **no clinical trials and no publications** supporting this direction, so the...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tildrakizumab/"
@@ -8698,7 +8698,7 @@
       "name": "Trastuzumab Deruxtecan",
       "evidence_level": "L5",
       "indication_count": 1,
-      "original_indication": "he TxGNN model (deep learning) predicts it may be effective for **drug-induced osteoporosis**, but **no clinical trials and no publications** currently support this prediction. The score comes from...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/trastuzumab-deruxtecan/"
@@ -8838,7 +8838,7 @@
       "name": "Trimebutine",
       "evidence_level": "L3",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be useful for **migraine disorder**, mainly as an add-on to oral triptans.",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/trimebutine/"
@@ -8918,7 +8918,7 @@
       "name": "Tyrosine",
       "evidence_level": "L5",
       "indication_count": 10,
-      "original_indication": "Nothing in the data compiled for this report connects tyrosine to compressive injury of the lumbosacral nerve roots, which is the basis of cauda equina syndrome. The high TxGNN score reflects a model...",
+      "original_indication": "",
       "predicted_indication": "Predicted Indication",
       "txgnn_score": "",
       "url": "/drugs/tyrosine/"
@@ -8928,7 +8928,7 @@
       "name": "Ubrogepant",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "However, the supplied literature covers general migraine populations and does not specifically enrol patients with brainstem aura. The evidence is indirect. The very high TxGNN score largely reflects...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ubrogepant/"
@@ -9028,7 +9028,7 @@
       "name": "Vasopressin",
       "evidence_level": "L5",
       "indication_count": 2,
-      "original_indication": "he TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there are **0 clinical trials** and only **3 loosely related publications** (one review and two case reports...",
+      "original_indication": "",
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/vasopressin/"
