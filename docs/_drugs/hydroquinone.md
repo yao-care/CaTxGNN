@@ -6,7 +6,7 @@ nav_order: 458
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-05
-description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L4). Approved use: Not stated in the Canadian license data"
+description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L5). Approved use: Not stated in the Canadian license data"
 monitor_inn: "HYDROQUINONE"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
 ---

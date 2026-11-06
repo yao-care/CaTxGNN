@@ -6,7 +6,7 @@ nav_order: 358
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-11-05
-description: "Etafedrine: predicted new indication Bronchitis (evidence level L5). Approved use: Not available"
+description: "Etafedrine: predicted new indication Bronchitis (evidence level L3). Approved use: Not available"
 monitor_inn: "Etafedrine"
 predicted_indications: ["bronchitis"]
 ---

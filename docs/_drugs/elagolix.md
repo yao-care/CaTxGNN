@@ -6,7 +6,7 @@ nav_order: 318
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-05
-description: "Elagolix: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
+description: "Elagolix: predicted new indication Amenorrhea (evidence level L5). Approved use: Endometriosis (endometriosis of uterus)"
 monitor_inn: "ELAGOLIX"
 predicted_indications: ["amenorrhea (disease)"]
 ---

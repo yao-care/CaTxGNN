@@ -6,7 +6,7 @@ nav_order: 970
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-11-05
-description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L4). Approved use: Acute lymphoblastic/lymphocytic leukemia"
+description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Acute lymphoblastic/lymphocytic leukemia"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 ---

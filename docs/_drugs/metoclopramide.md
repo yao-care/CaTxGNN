@@ -6,7 +6,7 @@ nav_order: 607
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-05
-description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L4). Approved use: Gastroesophageal reflux disease"
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Gastroesophageal reflux disease"
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 ---

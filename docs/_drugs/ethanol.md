@@ -6,7 +6,7 @@ nav_order: 363
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-11-05
-description: "Ethanol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
+description: "Ethanol: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Ethanol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---

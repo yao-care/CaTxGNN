@@ -6,7 +6,7 @@ nav_order: 213
 evidence_level: L1
 indication_count: 8
 last_modified_at: 2026-11-05
-description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L5). Approved use: Obsessive-compulsive disorder"
+description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
 ---

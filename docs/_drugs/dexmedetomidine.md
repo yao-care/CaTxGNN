@@ -6,7 +6,7 @@ nav_order: 270
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-05
-description: "Dexmedetomidine: predicted new indication Headache disorder (evidence level L2). Approved use: Not available in the data compiled for this report (injectable sedati…"
+description: "Dexmedetomidine: predicted new indication Headache disorder (evidence level L5). Approved use: Not available in the data compiled for this report (injectable sedati…"
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---

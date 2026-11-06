@@ -6,7 +6,7 @@ nav_order: 960
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-11-05
-description: "Ustekinumab: predicted new indication Dermatitis (evidence level L5). Approved use: Psoriatic arthritis, psoriasis, parapsoriasis"
+description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriatic arthritis, psoriasis, parapsoriasis"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 ---

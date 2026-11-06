@@ -6,7 +6,7 @@ nav_order: 924
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-05
-description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L3). Approved use: Ovarian cancer (including several ovarian subtypes such as germ cell…"
+description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer (including several ovarian subtypes such as germ cell…"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 ---

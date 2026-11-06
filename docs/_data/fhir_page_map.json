@@ -1,0 +1,47 @@
+{
+  "_note": "FHIR MedicationKnowledge（DrugBank ID）→ 本站藥物頁的對照，只收本站沒有該 ID 的轉址頁或 front matter drugbank_id、靠其他站的 dbXXXXX 轉址頁／drugbank_id 指到同一網址 slug 才對到的資源（sources＝提供依據的站）。由母目錄 .claude/sync_fhir_levels.py 產生，scripts/check_seo_docs.py 用它檢查 FHIR 等級＝藥物頁頁首。",
+  "map": {
+    "db00245": {
+      "page": "benzatropine",
+      "sources": [
+        "AuTxGNN",
+        "NZTxGNN"
+      ]
+    },
+    "db00687": {
+      "page": "fludrocortisone",
+      "sources": [
+        "AuTxGNN",
+        "HkTxGNN"
+      ]
+    },
+    "db00790": {
+      "page": "perindopril",
+      "sources": [
+        "AuTxGNN",
+        "CHTxGNN",
+        "COTxGNN",
+        "ESTxGNN",
+        "ITTxGNN",
+        "NZTxGNN",
+        "ZaTxGNN"
+      ]
+    },
+    "db04890": {
+      "page": "bepotastine",
+      "sources": [
+        "InTxGNN",
+        "JpTxGNN"
+      ]
+    },
+    "db09462": {
+      "page": "glycerin",
+      "sources": [
+        "InTxGNN",
+        "KrTxGNN",
+        "SATxGNN",
+        "UsTxGNN"
+      ]
+    }
+  }
+}

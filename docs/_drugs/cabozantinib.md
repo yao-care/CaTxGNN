@@ -6,7 +6,7 @@ nav_order: 144
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-05
-description: "Cabozantinib: predicted new indication Liposarcoma (evidence level L3). Approved use: Renal cell carcinoma (nonpapillary, clear cell)"
+description: "Cabozantinib: predicted new indication Liposarcoma (evidence level L5). Approved use: Renal cell carcinoma (nonpapillary, clear cell)"
 monitor_inn: "Cabozantinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
 ---
