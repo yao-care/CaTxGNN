@@ -5,7 +5,7 @@ layout: default
 title: Lutropin Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 569
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Lutropin Alfa: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Lutropin alfa"
 predicted_indications: []
@@ -55,7 +55,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 02470659 | PERGOVERIS | Not listed | Not listed |
 | 02470667 | PERGOVERIS | Not listed | Not listed |
 
-All four authorizations are valid single-ingredient licenses; none is cancelled.
+All four authorizations are valid licenses; none is cancelled.
 
 ## Safety Considerations
 

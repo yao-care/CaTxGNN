@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected"]
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,7 +76,7 @@ Currently no related literature available.
 | 02238890 | HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU EXTRA STRENGTH |
 | 02359499 | MOVIPREP |
 
-Thirteen single-ingredient licences are on record, of which 11 are valid. Only the first five are listed here.
+Thirteen licences are on record, of which 11 are valid. Only the first five are listed here.
 
 ## Safety Considerations
 

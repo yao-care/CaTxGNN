@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,7 +78,7 @@ Currently no related literature available for PLA2G6-associated neurodegeneratio
 | 02305968 | STALEVO | Not listed | Not listed |
 | 02337835 | STALEVO | Not listed | Not listed |
 
-Eight valid single-ingredient licences are on record in total; the five above are shown. No licences have been cancelled.
+Eight valid licences are on record in total; the five above are shown. No licences have been cancelled.
 
 ## Safety Considerations
 

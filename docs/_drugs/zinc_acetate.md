@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 991
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Zinc Acetate: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Dermatitis, rash, Wilson disease and other conditions"
 monitor_inn: "ZINC ACETATE"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "bronchitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "urinary tract infection (disease)"]
@@ -86,7 +86,7 @@ Indirect literature exists only for lower-ranked predictions:
 | 02484838 | BENADRYL ITCH STOPPING CREAM | Not specified | Not specified |
 | 02478072 | CHILDREN'S BENADRYL BUG BITE RELIEF | Not specified | Not specified |
 
-All four licences are valid single-ingredient authorizations. The product names suggest topical itch and bug-bite products.
+All four licences are valid authorizations. The product names suggest topical itch and bug-bite products.
 
 ## Safety Considerations
 

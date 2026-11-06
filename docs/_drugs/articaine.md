@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not specified in the available license data (the products are markete…"
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -88,7 +88,7 @@ Currently no related literature available for gout.
 | 02248488 | 4% Astracaine Dental with Epinephrine Forte 1:100,000 (0.01 mg/mL) | Not listed | Not listed |
 | 02381338 | Posicaine SP | Not listed | Not listed |
 
-Twelve valid single-ingredient licenses exist in total; the five above are shown.
+Twelve valid licenses exist in total; the five above are shown.
 
 ## Safety Considerations
 

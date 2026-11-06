@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Monopotassium Phosphate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not stated in the Canadian licence data (the products are potassium p…"
 monitor_inn: "Monopotassium phosphate"
 predicted_indications: ["renal tubular acidosis", "acute urate nephropathy", "dyspepsia", "potassium deficiency disease", "nephrolithiasis", "calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
@@ -101,7 +101,7 @@ Currently no related literature available.
 | 00800007 | Tis-U-Sol Solution | Not specified | Not specified |
 | 01931679 | Isolyte S pH 7.4 (Multi-Electrolyte Injection) | Not specified | Not specified |
 
-All five licences are valid single-ingredient authorizations.
+All five licences are valid authorizations.
 
 ---
 

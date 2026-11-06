@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 952
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Trolamine Salicylate: predicted new indication Exostosis (evidence level L5). Approved use: Not stated in the licence records. Product names suggest topical pain…"
 monitor_inn: "TROLAMINE SALICYLATE"
 predicted_indications: ["exostosis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "inclusion body myositis", "exostoses, multiple,", "rheumatoid arthritis", "headache disorder", "gout"]
@@ -100,7 +100,7 @@ Currently no related literature available.
 | 02226022 | Myoflex Extra Strength | Not listed | Not listed |
 | 02358131 | Pain Relief Cream Regular Strength | Not listed | Not listed |
 
-These are 5 of 11 valid single-ingredient licences. The remaining six are Myoflex Maximum Strength, Pain Relief Cream Extra Strength, Flexacrème Pain Relief Rub, Myoflex Regular Strength, Pain Relief Rub Triethanolamine Salicylate Cream and Arthritis Pain Relief. No licences are cancelled.
+These are 5 of 11 valid licences. The remaining six are Myoflex Maximum Strength, Pain Relief Cream Extra Strength, Flexacrème Pain Relief Rub, Myoflex Regular Strength, Pain Relief Rub Triethanolamine Salicylate Cream and Arthritis Pain Relief. No licences are cancelled.
 
 ---
 

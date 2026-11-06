@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 981
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Cholestasis, benign recurrent intrahepatic cholestasis…"
 monitor_inn: "VITAMIN E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
@@ -82,7 +82,7 @@ Currently no related clinical trials registered.
 | 02552639 | PREGVIT FOLIC 5 | Not stated | Not stated |
 | 02535718 | PREGNANCY MULTIVITAMIN | Not stated | Not stated |
 
-All 7 licences are valid single-ingredient entries; the table lists the first 5. The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).
+All 7 licences are valid entries; the table lists the first 5. The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).
 
 ## Safety Considerations
 

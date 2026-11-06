@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 758
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Povidone: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "POVIDONE"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -76,7 +76,7 @@ Currently no related literature available.
 | 02301687 | CLEAR EYES TRIPLE ACTION RELIEF | Not specified | Not specified |
 | 02344319 | ADVANCED RELIEF EYE DROPS | Not specified | Not specified |
 
-All three products are currently valid single-ingredient authorizations.
+All three products are currently valid authorizations.
 
 ## Safety Considerations
 

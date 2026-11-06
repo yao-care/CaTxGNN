@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Cholecalciferol: predicted new indication Acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not stated in the licence records compiled for this report. The knowl…"
 ---
 
@@ -96,7 +96,7 @@ For reference, selected publications compiled for the rank 3 candidate, renal os
 
 ## Canada Market Information
 
-Twenty valid single-ingredient licences are recorded. The compiled data does not include dosage forms or approved indication text for any of them, so no approved indication can be stated here.
+Twenty valid licences are recorded. The compiled data does not include dosage forms or approved indication text for any of them, so no approved indication can be stated here.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

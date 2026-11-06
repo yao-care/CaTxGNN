@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
 description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,7 +75,7 @@ Currently no related literature available.
 | 00873292 | DERMA SMOOTHE/FS LIQ 0.01% | Not stated | Not stated |
 | 02459655 | OTIXAL | Not stated | Not stated |
 
-All three licences are single-ingredient products and currently valid.
+All three licences are currently valid.
 
 ## Safety Considerations
 

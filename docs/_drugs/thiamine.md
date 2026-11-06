@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,7 +72,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-All nine licences below are valid single-ingredient records. No approved indication text or dosage form is recorded for any of them.
+All nine licences below are valid records. No approved indication text or dosage form is recorded for any of them.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

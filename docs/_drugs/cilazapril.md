@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
@@ -85,7 +85,7 @@ Currently no related clinical trials registered.
 | 02283786 | MYLAN-CILAZAPRIL | Not specified | Not specified |
 | 02283778 | MYLAN-CILAZAPRIL | Not specified | Not specified |
 
-Eight valid single-ingredient authorizations are on record in total; the five above are shown. The others include APO-CILAZAPRIL (02291150), INHIBACE PLUS (02181479) and APO-CILAZAPRIL/HCTZ (02284987).
+Eight valid authorizations are on record in total; the five above are shown. The others include APO-CILAZAPRIL (02291150), INHIBACE PLUS (02181479) and APO-CILAZAPRIL/HCTZ (02284987).
 
 ## Safety Considerations
 

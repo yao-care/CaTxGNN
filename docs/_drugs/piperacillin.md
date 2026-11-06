@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 740
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "PIPERACILLIN"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -84,7 +84,7 @@ No randomized trials or studies of therapeutic benefit were found. The most rele
 
 ## Canada Market Information
 
-The 16 valid Canadian authorizations are all single-ingredient entries named "Piperacillin and Tazobactam for Injection". Dosage form, manufacturer and approved indication text are not available in the compiled data. The first five are listed below.
+The 16 valid Canadian authorizations are all entries named "Piperacillin and Tazobactam for Injection". Dosage form, manufacturer and approved indication text are not available in the compiled data. The first five are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

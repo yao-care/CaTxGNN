@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Clioquinol: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection…"
 ---
 
@@ -81,7 +81,7 @@ Currently no related literature available.
 | 00074454 | LOCACORTEN VIOFORM EARDROPS | Not stated | Not stated |
 | 00074500 | VIOFORM HYDROCORTISONE | Not stated | Not stated |
 
-All three licences are currently valid and are listed as single-ingredient records.
+All three licences are currently valid.
 
 ## Safety Considerations
 

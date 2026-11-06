@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 147
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the licence data (calcipotriol products are generally u…"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -94,7 +94,7 @@ Currently no related clinical trials registered.
 | 02427419 | TEVA-BETAMETHASONE/ CALCIPOTRIOL | Not specified | Not specified |
 | 02457393 | ENSTILAR | Not specified | Not specified |
 
-A sixth authorization, DOVOBET OINTMENT (DIN 02244126), is also valid. All six are single-ingredient-type licences with valid status.
+A sixth authorization, DOVOBET OINTMENT (DIN 02244126), is also valid. All six are licences with valid status.
 
 ---
 

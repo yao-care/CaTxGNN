@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,7 +91,7 @@ The 18 publications retrieved are mostly narrative reviews of B vitamins in gene
 | 02100606 | MULTI 12 | Not specified | Not specified |
 | 02242529 | MULTI-12/K1 PEDIATRIC | Not specified | Not specified |
 
-Nine valid single-ingredient licences are registered in total; the five main ones are shown above.
+Nine valid licences are registered in total; the five main ones are shown above.
 
 ## Safety Considerations
 

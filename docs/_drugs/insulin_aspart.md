@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,7 +104,7 @@ The data compiled for this report list 20 publications. The 10 most relevant are
 | 02460408 | FIASP | Not listed | Not listed |
 | 02245397 | NOVORAPID | Not listed | Not listed |
 
-Ten valid single-ingredient DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30). Only the first five are shown.
+Ten valid DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30). Only the first five are shown.
 
 ## Safety Considerations
 

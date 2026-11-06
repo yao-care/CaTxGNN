@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,7 +79,7 @@ Currently no related clinical trials registered.
 | 02315440 | TEVA-LEVOFLOXACIN |
 | 02325942 | APO-LEVOFLOXACIN |
 
-All 17 licences in the local records are valid single-ingredient products. Only five are listed here.
+All 17 licences in the local records are valid products. Only five are listed here.
 
 ## Safety Considerations
 

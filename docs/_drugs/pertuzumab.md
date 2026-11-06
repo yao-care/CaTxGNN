@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 725
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Pertuzumab"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: predicted new indication Ectomesenchymoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -55,7 +55,6 @@ Most of this evidence reflects use in the already-approved HER2-positive populat
 | Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
-
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on the rationale compiled, pertuzumab binds a specific region (subdomain II) of HER2 and prevents HER2 from pairing with HER3. This pairing normally drives the PI3K/AKT and MAPK growth signalling pathways, so blocking it dampens tumour growth signals.
@@ -94,7 +93,7 @@ An important caveat: the benefit applies to the HER2-positive subset of PR-posit
 | 02512912 | PHESGO | Not specified | Not specified |
 | 02405024 | PERJETA-HERCEPTIN | Not specified | Not specified |
 
-All four authorizations are valid single-ingredient licences. Dosage form and indication text were not available in the data compiled for this report.
+All four authorizations are valid licences. Dosage form and indication text were not available in the data compiled for this report.
 
 ## Cytotoxicity
 

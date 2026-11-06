@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "SODIUM CITRATE"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -112,7 +112,7 @@ These papers do not directly test sodium citrate as a treatment for the predicte
 | 02496755 | Regiocit | Not specified | Not specified |
 | 02469731 | Anticoagulant Citrate Dextrose Solution USP (ACD) Formula A | Not specified | Not specified |
 
-A total of 12 valid single-ingredient licences are on the Canadian market (none cancelled). The product names indicate that the marketed products are mainly anticoagulant, blood-processing and irrigating solutions rather than oral antacids.
+A total of 12 valid licences are on the Canadian market (none cancelled). The product names indicate that the marketed products are mainly anticoagulant, blood-processing and irrigating solutions rather than oral antacids.
 
 ---
 

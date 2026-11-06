@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 902
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "TETRACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
 description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,7 +90,7 @@ Currently no related literature available for acrodermatitis chronica atrophican
 | 02398028 | PLIAGLIS | Not specified | Not specified |
 | 01930699 | ZAP TOPICAL ANESTHETIC GEL | Not specified | Not specified |
 
-Seven valid single-ingredient licences are on record in total; the five main ones are shown above.
+Seven valid licences are on record in total; the five main ones are shown above.
 
 ---
 

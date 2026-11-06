@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Desloratadine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -87,7 +87,7 @@ Both studies are preclinical and offer only indirect support.
 
 ## Canada Market Information
 
-Health Canada lists 5 valid single-ingredient authorizations for desloratadine. The local records do not include approved-indication text or dosage-form details.
+Health Canada lists 5 valid authorizations for desloratadine. The local records do not include approved-indication text or dosage-form details.
 
 | DIN | Product Name |
 |---------|------|

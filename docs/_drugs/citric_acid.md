@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "CITRIC ACID"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,7 +89,7 @@ No study directly tests citric acid as a treatment for stomach disease. The most
 | 02254794 | PICO-SALAX | Not listed | Not listed |
 | 01935941 | Heparin Sodium in 5% Dextrose Injection, 25000 unit/500 mL | Not listed | Not listed |
 
-All 10 licences on record are valid single-ingredient licences. Only five are shown here.
+All 10 licences on record are valid licences. Only five are shown here.
 
 ## Safety Considerations
 

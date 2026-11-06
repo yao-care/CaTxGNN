@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Methemoglobinemia, sulfhemoglobinemia"
 monitor_inn: "METHYLENE BLUE"
 predicted_indications: ["bronchitis"]
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available. Based on general 
 
 No plausible mechanistic link to bronchitis is supported by the available data. The retrieved literature mentions methylene blue only as a diagnostic stain (for example, in bronchoscopy) or is unrelated (plant essential oils, biosensors, beta-blockers, an endocarditis case). The very high score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -98,7 +97,7 @@ The remaining retrieved papers (an electrochemical aptasensor, an Aloysia gratis
 | 00050466 | Methylene Bleu Liq 1% | Not specified | Not specified |
 | 00674354 | Collyre Bleu Laiter | Not specified | Not specified |
 
-All four licences are valid single-ingredient products.
+All four licences are valid products.
 
 ---
 

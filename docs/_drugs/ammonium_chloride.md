@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AMMONIUM CHLORIDE"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
@@ -76,7 +76,7 @@ Currently no related literature available.
 | 00690074 | COUGH SYRUP | Not listed | Not listed |
 | 00535230 | CALMYLIN | Not listed | Not listed |
 
-All three are valid single-ingredient licences. The licence records compiled for this report contain no indication text.
+All three are valid licences. The licence records compiled for this report contain no indication text.
 
 ## Safety Considerations
 

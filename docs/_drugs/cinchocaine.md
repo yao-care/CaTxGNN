@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
@@ -95,7 +95,7 @@ Currently no related literature available.
 | 02247322 | PROCTOL OINTMENT | Not specified | Not specified |
 | 02226383 | TEVA-PROCTOSONE | Not specified | Not specified |
 
-All three authorisations are valid single-ingredient products.
+All three authorisations are valid products.
 
 ---
 

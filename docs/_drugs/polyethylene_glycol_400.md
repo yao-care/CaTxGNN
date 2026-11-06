@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 749
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Polyethylene Glycol 400: predicted new indication Bronchitis (evidence level L5). Approved use: Constipation disorder, dry eye syndrome, xerophthalmia"
 monitor_inn: "POLYETHYLENE GLYCOL 400"
 predicted_indications: ["bronchitis", "congenital ichthyosiform erythroderma"]
@@ -78,7 +78,7 @@ Currently no related literature available.
 | 02518201 | RED EYE TRIPLE ACTION | Not specified | Not specified |
 | 02344319 | ADVANCED RELIEF EYE DROPS | Not specified | Not specified |
 
-All three licences are valid single-ingredient products, and all are eye-care products. This route differs from the airway route that bronchitis would require, and route compatibility has not been assessed.
+All three licences are valid products, and all are eye-care products. This route differs from the airway route that bronchitis would require, and route compatibility has not been assessed.
 
 ## Safety Considerations
 

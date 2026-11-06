@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -53,7 +53,6 @@ This prediction largely overlaps with the existing COPD use, so it is closer to 
 | Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
-
 ## Why is This Prediction Reasonable?
 
 Ipratropium is a muscarinic receptor antagonist. It blocks muscarinic receptors on airway smooth muscle, which reduces cholinergic (vagal) bronchoconstriction and mucus secretion. Detailed mechanism-of-action data was not available in the data compiled for this report, but the published reviews describe this as the established mechanism.
@@ -94,7 +93,7 @@ The compiled data contains 25 trials for this indication. The most relevant are 
 
 ## Canada Market Information
 
-Twelve single-ingredient licences are valid in Canada. Dosage form and approved-indication text were not available in the records compiled for this report. The main products are:
+Twelve licences are valid in Canada. Dosage form and approved-indication text were not available in the records compiled for this report. The main products are:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,7 +79,7 @@ Currently no related literature available.
 | 02352699 | RHINARIS NASAL GEL | Not specified | Not specified |
 | 00777838 | PEGLYTE POWDER | Not specified | Not specified |
 
-All four licences are valid single-ingredient products. Two are nasal products (RHINARIS), and PEGLYTE is a powder. None is a topical skin product.
+All four licences are valid products. Two are nasal products (RHINARIS), and PEGLYTE is a powder. None is a topical skin product.
 
 ## Safety Considerations
 

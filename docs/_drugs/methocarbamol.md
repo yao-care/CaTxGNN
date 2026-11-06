@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 599
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Methocarbamol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the licence records. Product names (e.g.…"
 monitor_inn: "METHOCARBAMOL"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "panuveitis (disease)", "anaphylaxis", "iris disease", "uveitis", "ventricular tachycardia", "food-dependent exercise-induced anaphylaxis", "conjunctivitis", "obsolete bundle branch block"]
@@ -89,7 +89,7 @@ Two publications were retrieved for the rank-4 prediction (anaphylaxis). Neither
 
 ## Canada Market Information
 
-All 16 licences are valid single-ingredient authorizations. Dosage form and approved indication text are not available in the data compiled for this report. The first five are listed below.
+All 16 licences are valid authorizations. Dosage form and approved indication text are not available in the data compiled for this report. The first five are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

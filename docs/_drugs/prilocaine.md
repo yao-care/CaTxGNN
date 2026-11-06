@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,7 +90,7 @@ Dosage form and approved-indication text are not recorded for these licences.
 | 00393746 | Prilocaine HCl 4% Epinephrine 1:200000 Injection |
 | 02057794 | EMLA Patch |
 
-All six are single-ingredient authorizations with valid status. None has been cancelled.
+All six are authorizations with valid status. None has been cancelled.
 
 ---
 

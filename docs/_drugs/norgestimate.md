@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "NORGESTIMATE"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,7 +89,7 @@ Currently no related literature available.
 | 02508087 | TRI-CIRA 21 | Not available | Not available |
 | 02486296 | TRI-JORDYNA 21 | Not available | Not available |
 
-Showing 5 of 6 valid single-ingredient authorizations. The sixth is TRI-CIRA LO 28 (DIN 02401975).
+Showing 5 of 6 valid authorizations. The sixth is TRI-CIRA LO 28 (DIN 02401975).
 
 ---
 

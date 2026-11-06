@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 436
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the available license data (marketed in Canada as a com…"
 monitor_inn: "GLUTAMIC ACID"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -102,7 +102,7 @@ No randomized trial of glutamic acid in postmenopausal osteoporosis was found. T
 | 02477947 | OLIMEL 7.6% | Not specified | Not specified |
 | 02352494 | PERIOLIMEL 2.5% E | Not specified | Not specified |
 
-Two further authorizations (OLIMEL 7.6% E, DIN 02477955, and OLIMEL 5.7% E, DIN 02352532) are also valid, bringing the total to 7 single-ingredient DINs.
+Two further authorizations (OLIMEL 7.6% E, DIN 02477955, and OLIMEL 5.7% E, DIN 02352532) are also valid, bringing the total to 7 DINs.
 
 ---
 

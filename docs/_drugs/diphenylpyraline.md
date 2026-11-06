@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 | 00299561 | CREO-RECTAL ADULTES/ADULTS | Not specified | Not specified |
 | 00299596 | CREO-RECTAL ENFANTS/CHILDREN | Not specified | Not specified |
 
-Both licences are valid and for single-ingredient products. The product names suggest a rectal route, which may not suit nasal indications. The compiled data does not confirm the route, and route compatibility has not been assessed.
+Both licences are valid. The product names suggest a rectal route, which may not suit nasal indications. The compiled data does not confirm the route, and route compatibility has not been assessed.
 
 ## Safety Considerations
 

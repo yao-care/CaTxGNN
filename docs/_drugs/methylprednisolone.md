@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,7 +82,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Methylprednisolone is currently marketed in Canada, and all recorded licences are valid single-ingredient products. The main authorizations are:
+Methylprednisolone is currently marketed in Canada, and all recorded licences are valid products. The main authorizations are:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

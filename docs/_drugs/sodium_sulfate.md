@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Sodium Sulfate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the Canadian licence data compiled for this report (pro…"
 monitor_inn: "SODIUM SULFATE"
 predicted_indications: ["dyspepsia"]
@@ -94,7 +94,7 @@ The papers below mention dyspepsia only in passing and all use DSS-induced anima
 | 02552612 | JAMPLYTE + BISACODYL | Not specified | Not specified |
 | 02326302 | BI-PEGLYTE | Not specified | Not specified |
 
-A sixth licence (MOVIPREP, DIN 02359499) is also valid. All six licences are single-ingredient, currently valid, and none are cancelled.
+A sixth licence (MOVIPREP, DIN 02359499) is also valid. All six licences are currently valid, and none are cancelled.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -60,13 +60,11 @@ Famotidine is a histamine H2-receptor antagonist originally used for gastric and
 
 Detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, famotidine is an H2-receptor antagonist that reduces gastric acid secretion. Its efficacy in gastric and duodenal ulcers is well established.
 
-
 Several other predictions follow the same pattern. Peptic ulcer disease, gastroduodenitis, and active peptic ulcer disease overlap with existing labelled uses. Duodenal obstruction, peptic ulcer perforation, abnormality of glucagon secretion, and acne have no clear mechanistic link or are mainly surgical or unsupported conditions.
 
 ---
 
 ## Clinical Trial Evidence
-
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -82,7 +80,6 @@ Several other predictions follow the same pattern. Peptic ulcer disease, gastrod
 ---
 
 ## Literature Evidence
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -112,7 +109,7 @@ Selected publications for the related peptic ulcer prediction:
 | 02273357 | MAXIMUM STRENGTH PEPCID AC | Not available | Not available |
 | 02243053 | PEPCID COMPLETE | Not available | Not available |
 
-Eighteen single-ingredient licences are valid in total, and none is cancelled. Only the first five are listed here.
+Eighteen licences are valid in total, and none is cancelled. Only the first five are listed here.
 
 ---
 

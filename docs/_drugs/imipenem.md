@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "IMIPENEM"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,7 +75,7 @@ Currently no related literature available.
 | 02351706 | TARO-IMIPENEM-CILASTATIN | Not recorded | Not recorded |
 | 02358344 | IMIPENEM AND CILASTATIN FOR INJECTION USP | Not recorded | Not recorded |
 
-Both licences are single-ingredient products and both are currently valid.
+Both licences are currently valid.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 904
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Tetryzoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Tetryzoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -61,7 +61,6 @@ That effect fits conditions of the nasal cavity, such as rhinitis and nasal cong
 
 This mechanistic link is inferred from the drug class, not from evidence supplied for this report. The high TxGNN score is a computational prediction only.
 
-
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
@@ -72,7 +71,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-All 10 licences are valid single-ingredient products. Dosage form and approved indication text are not available in the data compiled for this report.
+All 10 licences are valid products. Dosage form and approved indication text are not available in the data compiled for this report.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

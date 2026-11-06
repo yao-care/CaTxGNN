@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). Approved use: Not specified in the licence data (product names such as \"Analgesic G…"
 monitor_inn: "NITROUS OXIDE"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -93,7 +93,7 @@ The only real connection is procedural. Nitrous oxide is used to control anxiety
 | 00693596 | LIQUI-MED ANALGESIC GAS | Not specified | Not specified |
 | 02154757 | MEOPA | Not specified | Not specified |
 
-A sixth licence, ALNOX GAS (DIN 02071010), is also valid. All 6 licences are single-ingredient products.
+A sixth licence, ALNOX GAS (DIN 02071010), is also valid.
 
 ---
 

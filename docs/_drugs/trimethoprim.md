@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 949
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -90,7 +90,7 @@ For the closely related, already-established indication of conjunctivitis, the c
 | 00445266 | Sulfatrim Pediatric | Not specified | Not specified |
 | 02239234 | Sandoz Polytrimethoprim | Not specified | Not specified |
 
-Eight valid single-ingredient authorizations are listed in total; the five above are shown. None of the listed products is documented as an ophthalmic formulation in the compiled data.
+Eight valid authorizations are listed in total; the five above are shown. None of the listed products is documented as an ophthalmic formulation in the compiled data.
 
 ## Safety Considerations
 

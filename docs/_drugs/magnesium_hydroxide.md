@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Magnesium Hydroxide: predicted new indication Stomach disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 ---
 
@@ -85,7 +85,7 @@ None of the cited studies directly tests magnesium hydroxide alone for "stomach 
 
 ## Canada Market Information
 
-None of the four licence records includes approved-indication text or dosage form. All are listed as valid single-ingredient records.
+None of the four licence records includes approved-indication text or dosage form. All are listed as valid records.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Alteplase: predicted new indication heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,7 +72,7 @@ Currently no related literature available for heparin cofactor 2 deficiency.
 
 ## Canada Market Information
 
-Alteplase has three valid single-ingredient authorizations in Canada. The local data do not record dosage form or approved indication text for them.
+Alteplase has three valid authorizations in Canada. The local data do not record dosage form or approved indication text for them.
 
 | DIN | Product Name |
 |---------|------|

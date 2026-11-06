@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -78,7 +78,7 @@ Currently no related literature available.
 | 02512424 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP | – | – |
 | 01976168 | SENSORCAINE | – | – |
 
-All 16 licences are valid single-ingredient products; the five above are shown as examples.
+All 16 licences are valid products; the five above are shown as examples.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Chlorthalidone: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertension, congestive heart failure"
 monitor_inn: "CHLORTHALIDONE"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
@@ -80,7 +80,7 @@ Currently no related literature available for primary hereditary glaucoma.
 | 02523795 | JAMP CHLORTHALIDONE | Not specified | Not specified |
 | 02248763 | AA-ATENIDONE | Not specified | Not specified |
 
-Eight single-ingredient licences are currently valid, and none are cancelled. The other three valid licences are AA-ATENIDONE (02248764) and EDARBYCLOR (02397749 and 02397765).
+Eight licences are currently valid, and none are cancelled. The other three valid licences are AA-ATENIDONE (02248764) and EDARBYCLOR (02397749 and 02397765).
 
 ## Safety Considerations
 

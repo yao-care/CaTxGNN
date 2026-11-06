@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 867
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Soybean Oil: predicted new indication Amenorrhea (evidence level L5). Approved use: Not specified in the Health Canada licence data (the products are use…"
 monitor_inn: "SOYBEAN OIL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Health Canada lists 13 valid single-ingredient licences. The data compiled for this report do not include dosage forms or approved indication text for these products. The main ones are:
+Health Canada lists 13 valid licences. The data compiled for this report do not include dosage forms or approved indication text for these products. The main ones are:
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

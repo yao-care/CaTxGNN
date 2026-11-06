@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Lactic acid is marketed in Canada in three single-ingredient products (PRISMASOL and PRISMOCAL solutions), but the compiled data do not state an approved indication for them.
+Lactic acid is marketed in Canada in three products (PRISMASOL and PRISMOCAL solutions), but the compiled data do not state an approved indication for them.
 The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, with a very high score but **no clinical trials and no directly relevant publications** supporting this direction.
 The evidence is model prediction only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -56,7 +56,7 @@ The evidence is model prediction only. The score comes from the TxGNN model (dee
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Lactic acid is a naturally occurring metabolite. In Canada it is marketed in three single-ingredient products with the brand names PRISMOCAL and PRISMASOL, but the data compiled for this report do not describe their approved use.
+Currently, detailed mechanism of action data is not available. Lactic acid is a naturally occurring metabolite. In Canada it is marketed in three products with the brand names PRISMOCAL and PRISMASOL, but the data compiled for this report do not describe their approved use.
 
 On the biology, a plausible link to the predicted indication is hard to find. Atypical coarctation of the aorta is a structural congenital anomaly managed surgically or by catheter intervention. Lactic acid has no recognised mechanism that would correct such a defect. The very high TxGNN score (0.9959) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis-generating signal at best.
 

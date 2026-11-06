@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 683
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -72,7 +72,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Olopatadine has 10 valid single-ingredient authorizations in Canada and none are cancelled. Dosage form and approved indication text were not available for these products.
+Olopatadine has 10 valid authorizations in Canada and none are cancelled. Dosage form and approved indication text were not available for these products.
 
 | DIN | Product Name |
 |---------|------|

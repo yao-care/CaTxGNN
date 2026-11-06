@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 881
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -97,7 +97,7 @@ For the broader hair-loss area (alopecia, rank 9), two papers were retrieved. Ne
 | 02368242 | TEVA-TAMSULOSIN CR | Not specified | Not specified |
 | 02319217 | SANDOZ TAMSULOSIN | Not specified | Not specified |
 
-Five of the 10 valid single-ingredient authorisations are listed here.
+Five of the 10 valid authorisations are listed here.
 
 ---
 

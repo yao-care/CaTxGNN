@@ -5,7 +5,7 @@ layout: default
 title: Ivacaftor
 parent: Known Uses Only (No New Predictions)
 nav_order: 507
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Ivacaftor: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Ivacaftor"
 predicted_indications: []
@@ -48,7 +48,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-Ivacaftor is authorized in Canada under 15 valid single-ingredient licences. The licence records compiled for this report do not include dosage forms or approved indication text. Brand names are listed below (first 5 DINs).
+Ivacaftor is authorized in Canada under 15 valid licences. The licence records compiled for this report do not include dosage forms or approved indication text. Brand names are listed below (first 5 DINs).
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -66,7 +66,6 @@ The remaining 10 licences are for ORKAMBI (5), SYMDEKO (1), and TRIKAFTA (4).
 - **Major**: Aprepitant, Clarithromycin
 - **Moderate**: Hydrocortisone, Loperamide, Triamcinolone, Dexamethasone, Betamethasone, Budesonide, Chlorpropamide, Cimetidine, Cisapride, Clotrimazole, Eliglustat, Eluxadoline, Glimepiride, Glipizide, Glyburide, Acetohexamide
 - **Minor**: Fidaxomicin
-
 
 For warnings and contraindications, please refer to the package insert.
 

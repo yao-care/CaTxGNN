@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Dermatitis, exanthem, tinea infections, otitis externa, hemorrhoids…"
 monitor_inn: "Pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Twelve single-ingredient licences are currently valid in Canada. The data compiled for this report do not include dosage forms or approved-indication text, so those columns are left blank. The five main products are listed below.
+Twelve licences are currently valid in Canada. The data compiled for this report do not include dosage forms or approved-indication text, so those columns are left blank. The five main products are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

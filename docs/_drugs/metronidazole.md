@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -100,7 +100,7 @@ Clinical trials: currently no related clinical trials registered.
 | 02519755 | M-METRONIDAZOLE | Not specified | Not specified |
 | 00545066 | APO-METRONIDAZOLE TABLETS | Tablet | Not specified |
 
-Fifteen valid single-ingredient licences are listed in total; the table shows the first five. Others include injection, gel and combination-brand products such as NIDAGEL and PYLERA.
+Fifteen valid licences are listed in total; the table shows the first five. Others include injection, gel and combination-brand products such as NIDAGEL and PYLERA.
 
 ---
 

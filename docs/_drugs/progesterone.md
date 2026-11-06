@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 775
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -93,7 +93,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Progesterone has 12 valid single-ingredient licences in Canada. The approved indication text is not recorded in the local data. Five of the licences are shown below.
+Progesterone has 12 valid licences in Canada. The approved indication text is not recorded in the local data. Five of the licences are shown below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Malignant epithelial tumour of the ovary"
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "pre-malignant neoplasm", "inner ear neoplasm", "schwannoma of jugular foramen"]
@@ -111,7 +111,7 @@ These publications concern serous gynaecological cancers and PARP inhibitor biom
 | 02538555 | AKEEGA | Not specified | Not specified |
 | 02538563 | AKEEGA | Not specified | Not specified |
 
-All three licences are valid single-ingredient authorisations.
+All three licences are valid authorisations.
 
 ---
 

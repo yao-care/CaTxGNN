@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 940
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Acne, acute promyelocytic leukemia, acquired keratosis…"
 monitor_inn: "TRETINOIN"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -80,7 +80,7 @@ Currently no related literature available.
 | 02520036 | JAMP TRETINOIN | Not specified | Not specified |
 | 01926462 | VITAMIN A ACID | Not specified | Not specified |
 
-Ten valid single-ingredient licences are on record in total; the five above are shown.
+Ten valid licences are on record in total; the five above are shown.
 
 ## Cytotoxicity
 

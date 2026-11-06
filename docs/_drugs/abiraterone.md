@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 14
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Abiraterone: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -50,7 +50,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-Nineteen valid single-ingredient licenses exist. The records compiled for this report do not include dosage form or approved-indication text. The first five are listed below.
+Nineteen valid licenses exist. The records compiled for this report do not include dosage form or approved-indication text. The first five are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

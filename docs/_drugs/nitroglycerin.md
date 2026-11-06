@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 660
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the Canadian licence data compiled for this report (nit…"
 monitor_inn: "NITROGLYCERIN"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -97,7 +97,7 @@ The original indication could not be extracted from the licence data, so the lin
 
 ## Canada Market Information
 
-Eighteen valid single-ingredient licences are held in Canada. Dosage form and approved-indication text were not available in the licence data. The main products are listed below.
+Eighteen valid licences are held in Canada. Dosage form and approved-indication text were not available in the licence data. The main products are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 456
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -83,7 +83,7 @@ Alopecia areata is an autoimmune, T-cell-mediated attack on hair follicles, so a
 | 02238578 | FUCIDIN H | Not stated | Not stated |
 | 00505773 | ANUSOL-HC OINTMENT | Not stated | Not stated |
 
-Eight single-ingredient licences are valid in Canada; the five above are shown.
+Eight licences are valid in Canada; the five above are shown.
 
 ## Safety Considerations
 

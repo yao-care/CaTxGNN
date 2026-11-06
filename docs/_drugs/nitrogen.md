@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Nitrogen"
 predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia"]
 description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,7 +74,7 @@ Currently no related literature available for 16q24.1 microdeletion syndrome.
 
 ## Canada Market Information
 
-Dosage form and indication text are not listed for these licences. The first 5 of 14 valid single-ingredient licences are shown.
+Dosage form and indication text are not listed for these licences. The first 5 of 14 valid licences are shown.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

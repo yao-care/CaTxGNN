@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 752
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Polyvinyl Alcohol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "POLYVINYL ALCOHOL"
 predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing collodion baby", "lamellar ichthyosis", "bathing suit ichthyosis"]
@@ -78,7 +78,7 @@ Currently no related literature available.
 | 02247538 | MURINE | Not specified | Not specified |
 | 02301687 | CLEAR EYES TRIPLE ACTION RELIEF | Not specified | Not specified |
 
-All three products are valid single-ingredient authorizations.
+All three products are valid authorizations.
 
 ## Safety Considerations
 

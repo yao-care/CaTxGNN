@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 787
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,7 +101,7 @@ For reference, the only literature found among the predictions relates to rank 4
 | 02517469 | JAMP QUINAPRIL | Not specified | Not specified |
 | 02340577 | PMS-QUINAPRIL | Not specified | Not specified |
 
-These are 5 of 14 valid single-ingredient authorizations. The remainder include quinapril/hydrochlorothiazide products (APO-QUINAPRIL/HCTZ, AURO-QUINAPRIL HCTZ, JAMP QUINAPRIL / HCTZ).
+These are 5 of 14 valid authorizations. The remainder include quinapril/hydrochlorothiazide products (APO-QUINAPRIL/HCTZ, AURO-QUINAPRIL HCTZ, JAMP QUINAPRIL / HCTZ).
 
 ---
 

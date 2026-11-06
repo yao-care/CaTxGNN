@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -91,7 +91,7 @@ Human data are sparse. A small nonrandomized pilot study gave magnesium to patie
 
 ## Canada Market Information
 
-Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid single-ingredient products. Approved-indication text and dosage forms are not recorded in the local data. Five representative licences are listed below.
+Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid products. Approved-indication text and dosage forms are not recorded in the local data. Five representative licences are listed below.
 
 | DIN | Product Name |
 |---------|------|

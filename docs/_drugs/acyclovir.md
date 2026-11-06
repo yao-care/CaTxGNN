@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Acyclovir: predicted new indication Top-ranked: punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -105,7 +105,7 @@ Common wart publications (most relevant 10):
 
 ## Canada Market Information
 
-Acyclovir has 20 valid single-ingredient licences in Canada and none have been cancelled. The compiled data lack dosage form and approved indication text for each licence, so those columns are omitted. Main authorizations:
+Acyclovir has 20 valid licences in Canada and none have been cancelled. The compiled data lack dosage form and approved indication text for each licence, so those columns are omitted. Main authorizations:
 
 | DIN | Product Name |
 |---------|------|

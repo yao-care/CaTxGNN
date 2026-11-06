@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Carbon Monoxide: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the licence data (product names suggest lung diffusion…"
 monitor_inn: "Carbon monoxide"
 predicted_indications: ["sclerosing cholangitis", "ventricular tachycardia", "obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia", "potassium deficiency disease", "neovascular glaucoma", "angle-closure glaucoma", "pulmonary hypertension", "traumatic glaucoma", "aqueous misdirection"]
@@ -87,7 +87,7 @@ Currently no related literature available.
 | 02182238 | CO-NE-O2-N2 Mixture | Not stated | Not stated |
 | 00588075 | Lung Diffusion Test Mix NO NE CO | Not stated | Not stated |
 
-All four authorizations are valid single-ingredient licences.
+All four authorizations are valid licences.
 
 ---
 

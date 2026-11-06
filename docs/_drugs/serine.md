@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 845
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,7 +84,7 @@ For context, the second-ranked prediction (intestinal obstruction) and the sixth
 
 ## Canada Market Information
 
-Serine is marketed in Canada through 20 valid single-ingredient licences, mainly parenteral nutrition products. Dosage form and approved indication text are not available in the compiled data. The first five licences are listed below.
+Serine is marketed in Canada through 20 valid licences, mainly parenteral nutrition products. Dosage form and approved indication text are not available in the compiled data. The first five licences are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

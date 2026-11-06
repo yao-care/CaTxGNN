@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the Canadian licence data compiled for this report"
 monitor_inn: "Framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -99,7 +99,7 @@ Currently no related literature available.
 | 02226383 | TEVA-PROCTOSONE | Not listed | Not listed |
 | 02247882 | PROCTOL SUPPOSITORIES | Not listed | Not listed |
 
-All five licences are valid and single-ingredient. The product names suggest nasal, ointment and suppository forms.
+All five licences are valid. The product names suggest nasal, ointment and suppository forms.
 
 ---
 

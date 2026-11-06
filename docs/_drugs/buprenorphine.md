@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 135
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Buprenorphine: predicted new indication Acute intermittent porphyria (evidence level L4). Approved use: Opioid dependence, substance abuse/dependence, morphine dependence"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -100,7 +100,7 @@ Currently no related clinical trials registered.
 | 02341174 | BUTRANS 5 | Not specified | Not specified |
 | 02483092 | SUBLOCADE | Not specified | Not specified |
 
-All 18 licences are valid single-ingredient authorisations (also including SUBOXONE and generic buprenorphine/naloxone products).
+All 18 licences are valid authorisations (also including SUBOXONE and generic buprenorphine/naloxone products).
 
 ---
 

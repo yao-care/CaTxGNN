@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Gramicidin D: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Conjunctivitis (acute contagious conjunctivitis…"
 monitor_inn: "Gramicidin D"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "tinea corporis", "parasitic eyelid infestation", "ulcerative blepharitis"]
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Gramicidin D is marketed in Canada with 19 valid single-ingredient licenses, none cancelled. Dosage form and approved indication text were not available for these products. The five main authorizations are listed below.
+Gramicidin D is marketed in Canada with 19 valid licenses, none cancelled. Dosage form and approved indication text were not available for these products. The five main authorizations are listed below.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

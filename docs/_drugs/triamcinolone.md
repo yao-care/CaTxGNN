@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 941
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -84,7 +84,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Triamcinolone has 16 valid single-ingredient licences in Canada and none cancelled. The data compiled for this report do not include dosage forms or approved indication text. The five licences below are listed by product name only.
+Triamcinolone has 16 valid licences in Canada and none cancelled. The data compiled for this report do not include dosage forms or approved indication text. The five licences below are listed by product name only.
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|

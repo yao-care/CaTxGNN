@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 description: "Esculin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not specified in the available data"
 monitor_inn: "ESCULIN"
 predicted_indications: ["amenorrhea (disease)"]
@@ -76,7 +76,7 @@ Currently no related literature available.
 | 02247322 | PROCTOL OINTMENT | Not stated | Not stated |
 | 02226383 | TEVA-PROCTOSONE | Not stated | Not stated |
 
-All three products are valid single-ingredient authorisations. Their names suggest rectal or anorectal use, which is not obviously aligned with amenorrhea. Route compatibility has not yet been assessed.
+All three products are valid authorisations. Their names suggest rectal or anorectal use, which is not obviously aligned with amenorrhea. Route compatibility has not yet been assessed.
 
 ## Safety Considerations
 

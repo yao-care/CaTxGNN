@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 593
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-06
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
@@ -104,7 +104,7 @@ Currently no related clinical trials registered for bacterial arthritis.
 | 02421526 | Taro-Meropenem | Not listed | Not listed |
 | 02554151 | Vabomere (meropenem-vaborbactam) | Not listed | Not listed |
 
-All 16 authorizations are valid single-ingredient products; the table lists five of them.
+All 16 authorizations are valid products; the table lists five of them.
 
 ---
 
