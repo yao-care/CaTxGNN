@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-09
 description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Donepezil is a cholinesterase inhibitor marketed in Canada under many licences. 
 | Predicted New Indication | Psychogenic movement disorders |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; dormant: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

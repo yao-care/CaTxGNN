@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 666
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-09
 description: "Norethindrone Enanthate: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Canada Market Status | Marketed (marketed DINs: 18 of 18) |
-| Number of DINs | 18 (marketed: 18) |
+| Canada Market Status | Marketed (marketed DINs: 17 of 18; cancelled: 1) |
+| Number of DINs | 18 (marketed: 17) |
 
 ## Known uses recorded for this drug
 
@@ -82,7 +82,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | 02189054 | BREVICON 1/35 TABLETS (21-DAY PACK) |  | Valid |
 | 02309009 | ACTIVELLE LD |  | Valid |
 | 02189062 | BREVICON 1/35 TABLETS (28-DAY PACK) |  | Valid |
-| 02199297 | SELECT 1/35 (28-DAY) |  | Valid |
+| 02199297 | SELECT 1/35 (28-DAY) |  | CANCELLED POST MARKET |
 | 02187094 | BREVICON 0.5/35 TABLETS (28-DAY PACK) |  | Valid |
 | 02187116 | SYNPHASIC 28 TABLETS |  | Valid |
 | 02187086 | BREVICON 0.5/35 TABLETS (21-DAY PACK) |  | Valid |

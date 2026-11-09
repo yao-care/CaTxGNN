@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 732
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-09
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -50,7 +50,7 @@ but this is supported by **no registered clinical trials** and only **5 publicat
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (marketed DINs on record: at least 16; dormant: 1; cancelled: 3) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 15; dormant: 1; cancelled: 4) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 

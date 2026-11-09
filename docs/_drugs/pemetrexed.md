@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 718
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-09
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **7 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | Pleural adenomatoid tumor |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 13 of 14; dormant: 1) |
-| Number of DINs | 14 (marketed: 13) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 14; dormant: 3) |
+| Number of DINs | 14 (marketed: 11) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
