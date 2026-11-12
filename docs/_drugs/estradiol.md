@@ -94,7 +94,7 @@ No product-level data is available for review.
 
 <!-- review:begin ca-lic-20261105-estradiol-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The absence of records here likely reflects a data collection gap rather than a true regulatory absence. Health Canada's Drug Product Database (DPD) should be consulted directly." Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-05)**: Originally stated: "> Note: Estradiol-containing products are commercially available in Canada under various brand names. The absence of records here likely reflects a data collection gap rather than a true regulatory absence." Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-estradiol-2 -->
 
@@ -126,7 +126,7 @@ The Evidence Pack for Estradiol (DB00783) is structurally incomplete — the `pr
 
 <!-- review:begin ca-lic-20261105-estradiol-3 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "**Download and parse TFDA package insert PDF** for warnings and contraindications (DG001 — Blocking severity) / **Query Health Canada DPD** for Estradiol DIN records to populate the regulatory section" Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-05)**: Originally stated: "**Retrieve MOA data from DrugBank API** (DG002 — High severity) to enable mechanism-based reasoning / **Download and parse TFDA package insert PDF** for warnings and contraindications (DG001 — Blocking severity)" Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-estradiol-3 -->
 

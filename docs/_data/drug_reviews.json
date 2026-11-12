@@ -1008,8 +1008,8 @@
    "drug": "estradiol",
    "file": "estradiol.md",
    "action": "correct",
-   "claim": "The absence of records here likely reflects a data collection gap rather than a true regulatory absence. Health Canada's Drug Product Database (DPD) should be consulted directly.",
-   "replacement": "Health Canada's Drug Product Database (DPD) should be consulted directly.",
+   "claim": "> Note: Estradiol-containing products are commercially available in Canada under various brand names. The absence of records here likely reflects a data collection gap rather than a true regulatory absence.",
+   "replacement": "> Note: Estradiol-containing products are commercially available in Canada under various brand names.",
    "note": "Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：generic）",
    "sources": [
@@ -1028,8 +1028,8 @@
    "drug": "estradiol",
    "file": "estradiol.md",
    "action": "correct",
-   "claim": "- **Download and parse TFDA package insert PDF** for warnings and contraindications (DG001 — Blocking severity)\n- **Query Health Canada DPD** for Estradiol DIN records to populate the regulatory section",
-   "replacement": "- **Query Health Canada DPD** for Estradiol DIN records to populate the regulatory section",
+   "claim": "- **Retrieve MOA data from DrugBank API** (DG002 — High severity) to enable mechanism-based reasoning\n- **Download and parse TFDA package insert PDF** for warnings and contraindications (DG001 — Blocking severity)",
+   "replacement": "- **Retrieve MOA data from DrugBank API** (DG002 — High severity) to enable mechanism-based reasoning",
    "note": "Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
    "sources": [
@@ -1048,8 +1048,8 @@
    "drug": "etomidate",
    "file": "etomidate.md",
    "action": "correct",
-   "claim": "- **Clarify Canada regulatory status** — confirm whether any Etomidate products are approved under a DIN, as the current data shows zero licenses; Etomidate is marketed in several jurisdictions under brand names such as Amidate and requires verification against the Health Canada drug product database\n- **Resubmit Evidence Pack** once the above data sources have been ingested, to generate a complete v5 evaluation",
-   "replacement": "- **Resubmit Evidence Pack** once the above data sources have been ingested, to generate a complete v5 evaluation",
+   "claim": "- **Parse package insert PDF from Health Canada** — safety warnings and contraindications are currently unavailable (DG001, severity: Blocking), preventing S1 safety screening\n- **Clarify Canada regulatory status** — confirm whether any Etomidate products are approved under a DIN, as the current data shows zero licenses; Etomidate is marketed in several jurisdictions under brand names such as Amidate and requires verification against the Health Canada drug product database",
+   "replacement": "- **Parse package insert PDF from Health Canada** — safety warnings and contraindications are currently unavailable (DG001, severity: Blocking), preventing S1 safety screening",
    "note": "Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 3 DINs for this drug, 2 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：product）",
    "sources": [
@@ -2633,8 +2633,8 @@
    "drug": "pregabalin",
    "file": "pregabalin.md",
    "action": "correct",
-   "claim": "Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn. The L1 grade is provisional and should be verified by reading the trials in full.",
-   "replacement": "The L1 grade is provisional and should be verified by reading the trials in full.",
+   "claim": "The evidence is still indirect. Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn.",
+   "replacement": "The evidence is still indirect.",
    "note": "Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31).",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
    "sources": [

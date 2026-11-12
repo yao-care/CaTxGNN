@@ -70,7 +70,7 @@ The evidence is still indirect. The L1 grade is provisional and should be verifi
 
 <!-- review:begin ca-lic-20261031-pregabalin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn. The L1 grade is provisional and should be verified by reading the trials in full." Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-10-31)**: Originally stated: "The evidence is still indirect. Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn." Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261031-pregabalin-1 -->
 

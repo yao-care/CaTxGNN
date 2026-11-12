@@ -123,7 +123,12 @@ def in_para(a, b):
                 x1, x2, y1, y2 = i1 - k1, i2 + k2, j1 - k1, j2 + k2
                 if x1 < 0 or y1 < 0 or x2 > len(ta) or y2 > len(tb) or y2 == y1:
                     continue
-                cands.append((k1 + k2, (a[sa[x1][0]:sa[x2 - 1][1]] if x2 > x1 else "", b[sb[y1][0]:sb[y2 - 1][1]])))
+                ca0, ca1 = (sa[x1][0], sa[x2 - 1][1]) if x2 > x1 else (sa[x1][0], sa[x1][0]) if x1 < len(sa) else (len(a), len(a))
+                cb0, cb1 = sb[y1][0], sb[y2 - 1][1]
+                # 替換要剛好把 a 變成 b：claim 與 replacement 兩端緊鄰的字元要一樣（往後帶一句時，原句前的空格會留下、
+                # 句後的換行被吃掉，套用後清單少一個換行；2026-11-12 Eu brigatinib）
+                exact = a[ca0 - 1:ca0] == b[cb0 - 1:cb0] and a[ca1:ca1 + 1] == b[cb1:cb1 + 1]
+                cands.append(((0 if exact else 1, k1 + k2, k2), (a[ca0:ca1], b[cb0:cb1])))
         if not cands:
             continue  # 段落只剩這句又整句刪：由段落層級處理
         cands = [c for _, c in sorted(cands, key=lambda x: x[0])]
