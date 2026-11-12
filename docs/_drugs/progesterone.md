@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 775
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -95,6 +95,12 @@ Currently no related clinical trials registered.
 
 Progesterone has 12 valid licences in Canada. The approved indication text is not recorded in the local data. Five of the licences are shown below.
 
+<!-- review:begin ca-lic-20261106-progesterone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Progesterone has 12 valid single-ingredient licences in Canada." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-progesterone-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02531828 | Progesterone Injection, USP | Not specified | Not specified |
@@ -131,6 +137,18 @@ The hormonal rationale for breast fibrocystic disease is plausible and progester
 - Health Canada package insert warnings and contraindications, reviewed for a benign-breast-disease population
 - Route and dosage form assessment (topical or oral) suited to breast symptoms
 - A review of the interaction profile, especially with antidiabetic therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

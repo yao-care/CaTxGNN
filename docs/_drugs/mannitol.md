@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
 description: "Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
@@ -73,6 +73,12 @@ Currently no related clinical trials registered.
 
 Dosage form and approved indication text are not available for these products. The five main ones are:
 
+<!-- review:begin ca-lic-20261105-mannitol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Mannitol holds 10 valid single-ingredient authorizations in Canada. Dosage form and approved indication text are not available for these products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 10 DINs for this drug, 9 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-mannitol-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02243176 | Mannitol Injection, USP | Not available | Not available |
@@ -104,6 +110,19 @@ The prediction rests only on the model score. There are no clinical trials, and 
 - Mechanistic or preclinical evidence that osmotic diuresis improves water handling in AVPR2 gain-of-function disease
 - Approved indication text and dosage forms for the Canadian licences
 - Expert review of the safety risks, particularly fluid and electrolyte effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Mannitol holds 10 valid single-ingredient authorizations in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

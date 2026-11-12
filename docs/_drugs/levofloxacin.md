@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,12 @@ Currently no related clinical trials registered.
 
 All 17 licences in the local records are valid products. Only five are listed here.
 
+<!-- review:begin ca-lic-20261106-levofloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 17 licences in the local records are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-levofloxacin-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions**: Interaction screening returned 100 entries. Major-level interactions include tramadol and hydrocortisone. Many moderate-level interactions were also found, including with antidiabetic agents (acarbose, alogliptin, metformin, pioglitazone, albiglutide), NSAIDs (ibuprofen, ketorolac), famotidine, abiraterone, adenosine, alfuzosin, amifampridine, ethinylestradiol, formoterol and salbutamol.
@@ -98,6 +104,18 @@ No clinical trials exist, and the single retrieved publication concerns a micros
 - Clinical or preclinical studies of levofloxacin in punctate epithelial keratoconjunctivitis, including the ocular route and formulation
 - Mechanism of action data and an analysis of the likely causative organisms in this condition
 - Package insert warnings and contraindications from Health Canada
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

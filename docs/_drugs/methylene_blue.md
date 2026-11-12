@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Methemoglobinemia, sulfhemoglobinemia"
 monitor_inn: "METHYLENE BLUE"
 predicted_indications: ["bronchitis"]
@@ -99,6 +99,12 @@ The remaining retrieved papers (an electrochemical aptasensor, an Aloysia gratis
 
 All four licences are valid products.
 
+<!-- review:begin ca-lic-20261106-methylene_blue-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four licences are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-methylene_blue-1 -->
+
 ---
 
 ## Safety Considerations
@@ -122,6 +128,19 @@ The bronchitis prediction rests on a model score alone. There are no clinical tr
 - Canadian package insert warnings and contraindications, including approved indications and dosage forms
 - Route feasibility assessment (inhaled or systemic delivery has not been evaluated)
 - Consideration of the congenital methemoglobinemia predictions as a separate, better-supported line of work. Evidence there is limited to human case reports and veterinary studies of oral long-term use, and it is essentially an extension of existing use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

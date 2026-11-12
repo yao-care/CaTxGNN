@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chlorthalidone: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertension, congestive heart failure"
 monitor_inn: "CHLORTHALIDONE"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
@@ -82,6 +82,12 @@ Currently no related literature available for primary hereditary glaucoma.
 
 Eight licences are currently valid, and none are cancelled. The other three valid licences are AA-ATENIDONE (02248764) and EDARBYCLOR (02397749 and 02397765).
 
+<!-- review:begin ca-lic-20261106-chlorthalidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight single-ingredient licences are currently valid, and none are cancelled." Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 8 DINs for this drug, 8 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-chlorthalidone-1 -->
+
 ## Safety Considerations
 
 - **Contraindication-related conditions (from the TxGNN model (deep learning), not label text)**: liver failure, kidney disease, anuria, gout, type 2 diabetes mellitus, asthma, systemic lupus erythematosus, pancreatitis, peptic ulcer disease, myocardial infarction, hypercalcaemia, potassium deficiency, epilepsy, anxiety disorder, psoriasis and others. These may reflect similarities the model learned between related diseases, not biological evidence, and must be verified against the official Canadian product monograph.
@@ -102,6 +108,19 @@ The prediction rests only on a model score. There are no clinical trials or lite
 - Health Canada product monograph warnings and contraindications (a blocking gap for safety screening).
 - Preclinical or observational evidence on chlorthalidone and intraocular pressure or aqueous humour dynamics.
 - Consideration of reprioritising to better-supported candidates, such as malignant hypertensive renal disease, malignant renovascular hypertension or chronic pulmonary heart disease. The latter has only a 1967 case-level report and a 2017 background review.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "t single-ingredien" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

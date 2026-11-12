@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 77
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -87,6 +87,12 @@ Currently no related clinical trials registered.
 
 The table shows the first five.
 
+<!-- review:begin ca-lic-20261105-atazanavir-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eleven single-ingredient authorizations are valid in total, and none are cancelled. The table shows the first five." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 11 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-atazanavir-1 -->
+
 ## Safety Considerations
 
 **Contraindication-related conditions (from the knowledge graph, not label text):**
@@ -116,6 +122,19 @@ The top predictions are either the original HIV indication extended to animal vi
 - Approved indication text and dosage forms for the Canadian licences
 - If a perinatal HIV direction is pursued, a dedicated review of pregnancy safety and pharmacokinetic data
 - A decision on whether an animal-model virus is a relevant target at all, given its limited relevance to human drug repurposing
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eleven single-ingredient authorizations are valid in total, and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

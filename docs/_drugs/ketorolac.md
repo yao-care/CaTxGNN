@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 513
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Ketorolac: predicted new indication Headache disorder (evidence level L1). Approved use: Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis"
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -106,6 +106,12 @@ The 17 registered trials include several direct tests of ketorolac. The table li
 
 Approved indication text and dosage form were not available in the compiled data.
 
+<!-- review:begin ca-lic-20261105-ketorolac-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The 14 valid single-ingredient licences are listed below (up to 5 shown). Approved indication text and dosage form were not available in the compiled data." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 14 DINs for this drug, 11 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-ketorolac-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02369362 | ACUVAIL | Not available | Not available |
@@ -150,6 +156,19 @@ Several completed Phase 3/4 trials, meta-analyses and guidelines support parente
 - Approved indication text and dosage forms for the Canadian licences, to confirm which formulations (e.g., injection vs ophthalmic) match headache use
 - A screening protocol for renal function, GI bleeding risk and cardiovascular history, and a check of concomitant medications (e.g., lithium, aspirin)
 - Route compatibility assessment for the intended headache formulations (IV, IM, intranasal)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The 14 valid single-ingredient licences are listed below (up to 5 shown)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 902
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TETRACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
 description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,6 +92,12 @@ Currently no related literature available for acrodermatitis chronica atrophican
 
 Seven valid licences are on record in total; the five main ones are shown above.
 
+<!-- review:begin ca-lic-20261106-tetracaine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Seven valid single-ingredient licences are on record in total; the five main ones are shown above." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-tetracaine-1 -->
+
 ---
 
 ## Safety Considerations
@@ -117,6 +123,19 @@ The prediction is supported only by the model score. There are no trials or publ
 - Any preclinical or clinical evidence in the predicted disease
 - Assessment of route compatibility, since the marketed products are topical or ophthalmic and the indication may need a different route
 - Consideration of whether a symptom-control use (topical anaesthesia of skin lesions) is a more realistic goal than disease modification
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

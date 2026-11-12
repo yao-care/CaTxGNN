@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -75,6 +75,12 @@ Currently no related literature available.
 
 The main authorizations are listed below. Approved indication text and dosage forms are not recorded in the local data.
 
+<!-- review:begin ca-lic-20261105-calcitriol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eight single-ingredient licences are currently valid. The main authorizations are listed below." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 8 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-calcitriol-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 00481823 | ROCALTROL |
@@ -108,6 +114,19 @@ The score is very high, but the prediction has no supporting trials or publicati
 - Clinical or literature evidence directly studying calcitriol in that condition, including comparison against native vitamin D
 - Mechanism-of-action data
 - Package insert warnings and contraindications from Health Canada, to support a safety screen (hypercalcaemia and the interactions above)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eight single-ingredient licences are currently valid" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

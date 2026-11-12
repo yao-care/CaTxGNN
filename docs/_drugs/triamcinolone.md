@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 941
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -86,6 +86,12 @@ Currently no related clinical trials registered.
 
 Triamcinolone has 16 valid licences in Canada and none cancelled. The data compiled for this report do not include dosage forms or approved indication text. The five licences below are listed by product name only.
 
+<!-- review:begin ca-lic-20261106-triamcinolone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Triamcinolone has 16 valid single-ingredient licences in Canada and none cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-triamcinolone-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02437635 | APO-TRIAMCINOLONE AQ | Not specified | Not specified |
@@ -130,6 +136,19 @@ The prediction score is very high (0.9999), but there are no clinical trials, an
 - Dosage form and approved indication details for the Canadian licences, to confirm which routes are available (intralesional or topical)
 
 **Other predictions to consider:** among the other predicted indications, Quinquaud's folliculitis decalvans (evidence level L3, retrospective review of 23 patients and case-level reports) has somewhat stronger supporting evidence, though it also lacks triamcinolone-specific outcome data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

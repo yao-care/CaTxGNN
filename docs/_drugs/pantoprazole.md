@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 704
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,6 +105,12 @@ Further trials were retrieved for the closely related duodenal ulcer prediction:
 
 Dosage form and approved indication text are not available for these records. The first five are shown below.
 
+<!-- review:begin ca-lic-20261105-pantoprazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Health Canada lists 20 valid single-ingredient pantoprazole authorizations. Dosage form and approved indication text are not available for these records." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-pantoprazole-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02481588 | AG-PANTOPRAZOLE SODIUM | Not available | Not available |
@@ -134,12 +140,32 @@ Package insert warnings and contraindications from Health Canada have not been o
 **Rationale:**
 Pantoprazole is already marketed in Canada, and its acid-suppressing mechanism directly fits ulcer healing. A completed Phase 3 RCT and head-to-head RCTs in duodenal ulcer support this. The label-level safety information has not yet been reviewed, which is why the decision carries guardrails.
 
+<!-- review:begin ca-lic-20261105-pantoprazole-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Pantoprazole is already marketed in Canada with 20 valid authorizations, and its acid-suppressing mechanism directly fits ulcer healing." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-pantoprazole-2 -->
+
 **To proceed, the following is needed:**
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Approved indication text, dosage forms and routes for the Canadian authorizations
 - Detailed mechanism of action data from DrugBank
 - A safety plan for long-term use (bone health, vitamin B12 status) and for interacting drugs such as atazanavir and acalabrutinib
 - Evidence for the lower-ranked predictions (gastrojejunal ulcer, peptic ulcer perforation, duodenogastric reflux) before pursuing them. Duodenal obstruction should stay on hold, as there is no supporting evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Health Canada lists 20 valid single-ingredient pantoprazole authorizations" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "with 20 valid authorizations" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

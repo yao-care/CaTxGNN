@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,6 +82,12 @@ The other papers retrieved for that indication concern myocardial infarction, re
 
 Ramipril is marketed in Canada. Dosage form and approved indication text are not available in the compiled data. Five of the licences are listed below.
 
+<!-- review:begin ca-lic-20261105-ramipril-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Ramipril is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. Dosage form and approved indication text are not available in the compiled data." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-ramipril-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02221853 | ALTACE |
@@ -122,6 +128,18 @@ The prediction score is very high (0.9993), but the evidence is model-only (L5):
 | 8 | Intracerebral haemorrhage | 0.9982 | L5 | Indirect animal data only; acute-setting safety unestablished |
 | 9 | ABri amyloidosis | 0.9979 | L5 | No mechanistic rationale found |
 | 10 | Cerebral artery occlusion | 0.9974 | L5 | One small human cerebral blood flow study (PMID 8797135) and mixed animal results; marked "Research Question" |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 20 valid single-ingredient licences and no cancelled licences" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

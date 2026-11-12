@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). Approved use: Not specified in the licence data (product names such as \"Analgesic G…"
 monitor_inn: "NITROUS OXIDE"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -95,6 +95,12 @@ The only real connection is procedural. Nitrous oxide is used to control anxiety
 
 A sixth licence, ALNOX GAS (DIN 02071010), is also valid.
 
+<!-- review:begin ca-lic-20261106-nitrous_oxide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth licence, ALNOX GAS (DIN 02071010), is also valid. All 6 licences are single-ingredient products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 6 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-nitrous_oxide-1 -->
+
 ---
 
 ## Safety Considerations
@@ -124,6 +130,19 @@ The high TxGNN score is not supported by pharmacological rationale or direct cli
 - Detailed mechanism of action data
 - Clarification of the approved indications and dosage forms for the Canadian licences
 - A decision on whether the procedural-support use (anxiety and pain control during prostate procedures) is the real opportunity, since it is a different question from treating BPH
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All 6 licences are single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

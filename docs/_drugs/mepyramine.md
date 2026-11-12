@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Mepyramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,6 +94,12 @@ None of these studies tested mepyramine as a treatment for allergic urticaria in
 
 Both licenses are valid authorizations.
 
+<!-- review:begin ca-lic-20261106-mepyramine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licenses are valid single-ingredient authorizations." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-mepyramine-1 -->
+
 ---
 
 ## Safety Considerations
@@ -136,6 +142,19 @@ Please refer to the package insert for official warnings and contraindications.
 - Dosage form, manufacturer and indication details for the two Canadian products, which are combination-type brands (MIDOL)
 - Human clinical evidence for mepyramine in urticaria, or a clear decision that on-label use needs no repurposing study
 - A review of whether the knowledge-graph contraindications apply to the intended population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 613
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Micafungin: predicted new indication Urinary tract infection (evidence level L3). Approved use: Esophageal candidiasis, candidemia, disseminated candidiasis"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -112,6 +112,12 @@ Currently no related clinical trials registered.
   - Ribociclib
   - Sirolimus
 
+<!-- review:begin ca-lic-20261105-micafungin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eight valid single-ingredient licences are on record in total; the first five are listed here." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 8 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-micafungin-1 -->
+
 Package insert warnings and contraindications were not available; please refer to the package insert for full safety information.
 
 ---
@@ -130,6 +136,19 @@ The evidence consists mostly of small cohort studies, case series, and case repo
 - Further urinary pharmacokinetic data to confirm adequate drug levels at the infection site
 - Clarification of the kidney disease and pyoureter associations
 - Dosage form and approved indication details for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eight valid single-ingredient licences are on record in total; the first five are listed here" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

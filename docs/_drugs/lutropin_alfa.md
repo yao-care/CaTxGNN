@@ -5,7 +5,7 @@ layout: default
 title: Lutropin Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 569
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lutropin Alfa: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Lutropin alfa"
 predicted_indications: []
@@ -57,11 +57,29 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 All four authorizations are valid licenses; none is cancelled.
 
+<!-- review:begin ca-lic-20261106-lutropin_alfa-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four authorizations are valid single-ingredient licenses; none is cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-lutropin_alfa-1 -->
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
 This is a theoretical consideration only, with no supporting data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

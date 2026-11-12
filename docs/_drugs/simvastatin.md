@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 850
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,6 +105,12 @@ Note: Most trials test simvastatin in combination (mainly with ezetimibe) or as 
 
 Simvastatin is marketed in Canada. Dosage form and approved-indication text were not available for these licences. Five of the 20 are listed below.
 
+<!-- review:begin ca-lic-20261105-simvastatin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Simvastatin is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. Dosage form and approved-indication text were not available for these licences." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-simvastatin-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02375605 | JAMP-SIMVASTATIN | Not available | Not available |
@@ -140,6 +146,19 @@ Multiple completed Phase 3 trials, Cochrane reviews and current guidelines suppo
 - A DDI management plan, especially for CYP3A4 inhibitors, amiodarone, amlodipine and fibrates
 
 **Other predicted indications:** Hold brain stem infarction, CETP deficiency, CYP7A1 deficiency, ABri amyloidosis and the rare neurodevelopmental disorder, because they rest on model prediction or non-simvastatin evidence. Treat HIV-associated dyslipidemia as a safety-constrained research question, with pitavastatin or pravastatin generally preferred alongside interacting antiretrovirals.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 20 valid single-ingredient licences and no cancelled licences" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

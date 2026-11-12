@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,6 +75,12 @@ Currently no related literature available.
 
 Dosage form and approved indication text were not available for these products. Five main authorizations:
 
+<!-- review:begin ca-lic-20261105-latanoprost-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Latanoprost has 17 valid single-entry licences in Canada and no cancelled ones. Dosage form and approved indication text were not available for these products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 17 DINs for this drug, 16 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-latanoprost-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02231493 | XALATAN | Not specified | Not specified |
@@ -106,6 +112,19 @@ The mechanistic link is plausible but weakened by the developmental drainage-ang
 - Product-level dosage form and approved indication details for the Canadian licences
 - Severity classification of the drug interaction records
 - A dedicated assessment of the hair-growth predictions (hypotrichosis simplex of the scalp, congenital hypotrichosis milia) as a separate research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Latanoprost has 17 valid single-entry licences in Canada and no cancelled ones" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

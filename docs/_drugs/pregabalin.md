@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 768
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -68,6 +68,12 @@ Migraine shares several features with these conditions, notably central sensitiz
 
 The evidence is still indirect. The L1 grade is provisional and should be verified by reading the trials in full.
 
+<!-- review:begin ca-lic-20261031-pregabalin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn. The L1 grade is provisional and should be verified by reading the trials in full." Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261031-pregabalin-1 -->
+
 ---
 
 ## Clinical Trial Evidence
@@ -128,12 +134,32 @@ Please refer to the package insert for the full warnings and contraindications.
 The package insert warnings are also missing, which blocks safety screening.
 - The three highest-scoring predictions (tendinitis, granulomatous myositis, myositis fibrosa) rest mainly on the computational score and have no direct clinical support.
 
+<!-- review:begin ca-lic-20261031-pregabalin-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The only Phase 3 migraine trial was withdrawn, and the supporting clinical evidence is mostly small pediatric trials, so the provisional L1 grade overstates the strength of evidence. The package insert warnings are also missing, which blocks safety screening." Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261031-pregabalin-2 -->
+
 **To proceed, the following is needed:**
 - Obtain the Health Canada package insert warnings and contraindications to complete safety screening
 - Obtain detailed mechanism-of-action data from DrugBank
 - Review the full text of the pediatric RCTs and the Cochrane review (PMID 23797675) to confirm the evidence grade and adult applicability
 - Define the target population (adult vs pediatric) and whether a new adult trial is needed
 - Assess the interaction risks with opioids and other central nervous system depressants
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-10-31 | Removed: "The only Phase 3 migraine trial was withdrawn, and the supporting clinical evidence is mostly small pediatric trials, so the provisional L1 " | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

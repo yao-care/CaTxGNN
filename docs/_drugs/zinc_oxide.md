@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 992
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "ZINC OXIDE"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
 description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -87,6 +87,12 @@ Currently no related clinical trials registered.
 
 Dosage forms and approved indication texts are not available for these products. The main ones are:
 
+<!-- review:begin ca-lic-20261105-zinc_oxide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Zinc oxide has 20 valid single-ingredient authorizations in Canada. Dosage forms and approved indication texts are not available for these products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-zinc_oxide-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02239162 | ZINCOFAX | Not specified | Not specified |
@@ -120,6 +126,19 @@ The acne prediction has a high model score but no registered clinical trials, an
 - Mechanism of action data for zinc oxide (for example, from DrugBank)
 - Confirmation of whether the 2004 split-face study actually tested zinc oxide
 - Controlled clinical studies of topical zinc oxide in acne, with a defined formulation and concentration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Zinc oxide has 20 valid single-ingredient authorizations in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

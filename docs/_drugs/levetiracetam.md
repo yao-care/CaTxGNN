@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -114,6 +114,12 @@ No clinical trials are registered for the other predicted indications.
 
 Dosage form and approved indication text were not available. Five main authorizations:
 
+<!-- review:begin ca-lic-20261105-levetiracetam-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "There are 20 valid single-ingredient authorizations. Dosage form and approved indication text were not available." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-levetiracetam-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02504561 | JAMP LEVETIRACETAM TABLETS |
@@ -150,6 +156,19 @@ Package insert warnings and contraindications were not available. Please refer t
 - Confirmation of whether status epilepticus is already covered by the Canadian labelled indications, and the approved dosage forms and routes (particularly IV)
 - Dosing and monitoring guidance by age group and cause, following local guidelines
 - Direct human evidence for reflex-seizure predictions before further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "There are 20 valid single-ingredient authorizations" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

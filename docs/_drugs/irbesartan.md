@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, diabetic nephropathy"
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -90,6 +90,12 @@ The table below covers the fourth-ranked prediction, pulmonary hypertension owin
 
 Irbesartan is a marketed single-ingredient product. The data compiled for this report do not include dosage forms or approved indication text. Five representative authorisations:
 
+<!-- review:begin ca-lic-20261105-irbesartan-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Irbesartan is a marketed single-ingredient product with 20 valid licences (none cancelled). The data compiled for this report do not include dosage forms or approved indication text." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-irbesartan-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02237925 | AVAPRO | Not available | Not available |
@@ -143,6 +149,19 @@ The top prediction (malignant hypertensive renal disease) has a high score (0.99
 - A literature and trial search specific to malignant hypertensive nephrosclerosis and renovascular hypertension
 - A safety review for bilateral renal artery stenosis and hyperkalaemia risk
 - For the pulmonary hypertension prediction, direct clinical evidence beyond rodent and cardiac studies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "with 20 valid licences (none cancelled)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

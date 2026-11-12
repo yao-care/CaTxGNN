@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Magnesium Hydroxide: predicted new indication Stomach disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 ---
 
@@ -87,6 +87,12 @@ None of the cited studies directly tests magnesium hydroxide alone for "stomach 
 
 None of the four licence records includes approved-indication text or dosage form. All are listed as valid records.
 
+<!-- review:begin ca-lic-20261106-magnesium_hydroxide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All are listed as valid single-ingredient records." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-magnesium_hydroxide-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 00623709 | STOMAAX PLUS | Not listed | Not listed |
@@ -113,6 +119,19 @@ None of the four licence records includes approved-indication text or dosage for
 - A narrower, clinically defined target condition (for example gastritis) instead of the broad "stomach disease" label
 - Clinical studies of magnesium hydroxide alone, rather than combinations with aluminium hydroxide
 - A review of the DDI list, especially dolutegravir, and of the knowledge graph contraindications against the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

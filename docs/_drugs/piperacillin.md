@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 740
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "PIPERACILLIN"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -86,6 +86,12 @@ No randomized trials or studies of therapeutic benefit were found. The most rele
 
 The 16 valid Canadian authorizations are all entries named "Piperacillin and Tazobactam for Injection". Dosage form, manufacturer and approved indication text are not available in the compiled data. The first five are listed below.
 
+<!-- review:begin ca-lic-20261106-piperacillin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The 16 valid Canadian authorizations are all single-ingredient entries named "Piperacillin and Tazobactam for Injection"." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-piperacillin-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02402068 | Piperacillin and Tazobactam for Injection | Not available | Not available |
@@ -116,6 +122,19 @@ The prediction rests only on a network-based model score. There are no clinical 
 - Mechanism of action data and a testable biological hypothesis for rheumatoid arthritis
 - Preclinical evidence of any anti-inflammatory or immunomodulatory effect
 - Review of whether the high score reflects a model artifact, such as co-occurrence of infection in patients with rheumatoid arthritis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

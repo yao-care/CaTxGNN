@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -84,6 +84,12 @@ Currently no related clinical trials registered.
 
 The approved indication text is not recorded in the local data.
 
+<!-- review:begin ca-lic-20261105-cefazolin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The approved indication text is not recorded in the local data. Sixteen single-ingredient licences are valid; this table lists five of them." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 16 DINs for this drug, 15 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-cefazolin-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions**: The interaction check completed with 100 records. The first entries were rated Moderate for the aminoglycosides kanamycin, neomycin and streptomycin, and for picosulfuric acid. Other listed interactions (for example calcitriol, epinephrine, amphotericin B, mannitol, acetylsalicylic acid, amoxicillin, metformin and omeprazole) have an unknown severity level.
@@ -102,6 +108,19 @@ The prediction score is high, but there are no registered trials and no publishe
 - Comparison against guideline-recommended agents for otitis media
 - Package insert warnings and contraindications from Health Canada
 - Mechanism-of-action data from DrugBank
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Sixteen single-ingredient licences are valid; this table lists five of them" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

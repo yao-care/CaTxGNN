@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Monopotassium Phosphate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not stated in the Canadian licence data (the products are potassium p…"
 monitor_inn: "Monopotassium phosphate"
 predicted_indications: ["renal tubular acidosis", "acute urate nephropathy", "dyspepsia", "potassium deficiency disease", "nephrolithiasis", "calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
@@ -103,6 +103,12 @@ Currently no related literature available.
 
 All five licences are valid authorizations.
 
+<!-- review:begin ca-lic-20261106-monopotassium_phosphate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid single-ingredient authorizations." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-monopotassium_phosphate-1 -->
+
 ---
 
 ## Safety Considerations
@@ -131,6 +137,19 @@ The prediction is supported only by the model score, with no clinical trials or 
 - A literature and trial search specific to phosphate or potassium phosphate in renal tubular acidosis
 - Clarification of whether the acidifying effect is compatible with the target patients
 - If the question is pursued, consider potassium deficiency disease (potassium and phosphate co-depletion) as a better-grounded direction than renal tubular acidosis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cholecalciferol: predicted new indication Acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not stated in the licence records compiled for this report. The knowl…"
 ---
 
@@ -50,7 +50,7 @@ The best-supported candidate further down the list is **renal osteodystrophy** (
 | Predicted New Indication | Acromesomelic dysplasia, Campailla Martinelli type |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 17 of 20; dormant: 3) |
+| Canada Market Status | Marketed (marketed DINs: 17 of 20; dormant: 2; cancelled: 1) |
 | Number of DINs | 20 (marketed: 17) |
 | Recommended Decision | Hold |
 
@@ -96,7 +96,13 @@ For reference, selected publications compiled for the rank 3 candidate, renal os
 
 ## Canada Market Information
 
-Twenty valid licences are recorded. The compiled data does not include dosage forms or approved indication text for any of them, so no approved indication can be stated here.
+The compiled data does not include dosage forms or approved indication text for any of them, so no approved indication can be stated here.
+
+<!-- review:begin ca-lic-20261106-cholecalciferol-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "Twenty valid single-ingredient licences are recorded. The compiled data does not include dosage forms or approved indication text for any of them, so no approved indication can be stated here." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 20 DINs for this drug, 17 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-cholecalciferol-1 -->
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -129,6 +135,19 @@ The top-ranked prediction, acromesomelic dysplasia (Campailla Martinelli type), 
 - For acromesomelic dysplasia: preclinical or genetic evidence of a vitamin D-responsive pathway before any clinical consideration
 - For renal osteodystrophy: studies directly in this condition (for example with bone histology or fracture endpoints) and a hypercalcaemia/phosphate monitoring plan
 - Approved indication text and dosage forms for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Removed: "Twenty valid single-ingredient licences are recorded" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

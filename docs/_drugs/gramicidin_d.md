@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Gramicidin D: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Conjunctivitis (acute contagious conjunctivitis…"
 monitor_inn: "Gramicidin D"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "tinea corporis", "parasitic eyelid infestation", "ulcerative blepharitis"]
@@ -78,6 +78,12 @@ Currently no related literature available.
 
 Gramicidin D is marketed in Canada with 19 valid licenses, none cancelled. Dosage form and approved indication text were not available for these products. The five main authorizations are listed below.
 
+<!-- review:begin ca-lic-20261106-gramicidin_d-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Gramicidin D is marketed in Canada with 19 valid single-ingredient licenses, none cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-gramicidin_d-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02552418 | Soothe Antibiotic Drops | Not available | Not available |
@@ -105,6 +111,19 @@ The top-ranked prediction, postinfectious vasculitis, rests on a model score alo
 - Literature and trial searches for otitis externa and ulcerative blepharitis
 - Dosage form, route and approved indication details for the Canadian products
 - Route compatibility assessment for any new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

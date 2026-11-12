@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Diclofenac: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Actinic keratosis"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -82,6 +82,12 @@ Currently no related literature available.
 
 Dosage form and approved indication text were not available for these products. Five main authorizations are listed below.
 
+<!-- review:begin ca-lic-20261105-diclofenac-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Diclofenac has 20 valid single-ingredient authorizations in Canada and none are cancelled. Dosage form and approved indication text were not available for these products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-diclofenac-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 00632724 | VOLTAREN |
@@ -122,6 +128,19 @@ The prediction for hypotrichosis simplex of the scalp has no trial or literature
 - Detailed mechanism of action data (MOA)
 - Health Canada package insert warnings and contraindications, plus dosage form and indication text for each DIN
 - For juvenile idiopathic arthritis: a structured review of the paediatric diclofenac studies to confirm the benefit and the paediatric safety profile
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Diclofenac has 20 valid single-ingredient authorizations in Canada and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

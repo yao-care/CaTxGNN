@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,12 @@ Currently no related literature available for PLA2G6-associated neurodegeneratio
 
 Eight valid licences are on record in total; the five above are shown. No licences have been cancelled.
 
+<!-- review:begin ca-lic-20261106-entacapone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight valid single-ingredient licences are on record in total; the five above are shown." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-entacapone-1 -->
+
 ## Safety Considerations
 
 - **Contraindications flagged in the knowledge graph (not label text):** The graph links entacapone to contraindications in several groups.
@@ -131,6 +137,19 @@ The PLA2G6-associated neurodegeneration prediction has a high model score but no
 - Literature or case-level evidence of entacapone, or levodopa combinations, used in PLA2G6-associated dystonia-parkinsonism
 - A safety assessment for paediatric and hepatic risk in this population
 - A closer look at the Lewy body dementia direction, which has the most plausible biological link among the ten predictions, as a possible research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

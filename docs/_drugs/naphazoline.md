@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Temporary relief of eye redness (vasoconstrictor). The Canadian licen…"
 monitor_inn: "Naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -79,6 +79,12 @@ For the open-angle glaucoma prediction (rank 8), one paper was retrieved, but it
 
 The compiled records do not include dosage form or approved indication text.
 
+<!-- review:begin ca-lic-20261105-naphazoline-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 8 authorizations are valid single-ingredient products. The compiled records do not include dosage form or approved indication text." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 8 DINs for this drug, 7 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-naphazoline-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02248060 | CLEAR EYES | Not available | Not available |
@@ -109,6 +115,19 @@ The prediction rests on a model score alone (L5). There are no clinical trials o
 - Health Canada package insert warnings, contraindications, dosage forms and approved indications
 - Preclinical or mechanistic evidence that links alpha-adrenergic agonism to hair follicle biology
 - A review of whether the glaucoma-related predictions merit separate evaluation, given the angle-closure risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 8 authorizations are valid single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

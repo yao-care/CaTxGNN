@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,6 +78,12 @@ Currently no related literature available.
 
 Dosage form and indication text were not available in the data compiled for this report. Five main authorizations are shown below.
 
+<!-- review:begin ca-lic-20261105-metformin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Health Canada lists 20 valid single-ingredient licences, with no cancelled ones. Dosage form and indication text were not available in the data compiled for this report." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-metformin-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02099233 | GLUCOPHAGE |
@@ -111,6 +117,19 @@ The high TxGNN score is the only support. There are no clinical trials or public
 - Package insert warnings and contraindications from Health Canada, to allow safety screening
 - A check of whether the prediction is only a diabetes-annotation artefact
 - Route and formulation compatibility assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Health Canada lists 20 valid single-ingredient licences, with no cancelled ones" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

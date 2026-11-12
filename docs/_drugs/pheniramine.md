@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,6 +89,18 @@ None of these publications provides prospective efficacy evidence for pheniramin
 
 Dosage form and approved indication text were not available.
 
+<!-- review:begin ca-lic-20261105-pheniramine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All 9 licences below are valid single-ingredient products. Dosage form and approved indication text were not available." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 9 DINs for this drug, 7 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-pheniramine-1 -->
+
+<!-- review:begin ca-lic-20261106-pheniramine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Four more licences are valid: CALMYLIN ACE (02198630), NEOCITRAN COLD & SORE THROAT NIGHT (02246602), HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU EXTRA STRENGTH (02238890) and HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU REGULAR STRENGTH (02047349)." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 9 DINs for this drug, 7 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-pheniramine-2 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02242764 | VISINE FOR ALLERGY WITH ANTIHISTAMINE | Not available | Not available |
@@ -125,6 +137,20 @@ Allergic urticaria largely overlaps with pheniramine's existing indications (urt
 - Health Canada package insert warnings and contraindications (the safety screening cannot proceed without them)
 - Mechanism of action data from DrugBank
 - Approved indication text and dosage forms for the 9 Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All 9 licences below are valid single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-06 | Removed: "Four more licences are valid: CALMYLIN ACE (02198630), NEOCITRAN COLD & SORE THROAT NIGHT (02246602), HOT LEMON RELIEF FOR SYMPTOMS OF COLD " | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

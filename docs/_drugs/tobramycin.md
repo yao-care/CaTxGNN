@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 920
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -93,6 +93,12 @@ Currently no related clinical trials registered.
 
 Fourteen valid licences are listed in Canada. Dosage form, manufacturer, and approved-indication text are not available for any of them, so the table shows only the DIN and product name.
 
+<!-- review:begin ca-lic-20261106-tobramycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Fourteen valid single-ingredient licences are listed in Canada." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-tobramycin-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02230640 | Tobramycin Injection |
@@ -143,6 +149,19 @@ The prediction score is very high, but there are no clinical trials and no study
 **Otitis externa** has the most supporting literature of the alternatives. *Pseudomonas aeruginosa* and *S. aureus*, both within tobramycin's spectrum, are common causes, and tobramycin has been used in malignant external otitis. Most of the literature is observational or veterinary, so it is indirect evidence, and ototoxicity is a concern if the tympanic membrane is not intact.
 
 The remaining predictions (non-human animal disease, postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infection-related hemolytic uremic syndrome) have no trials or literature and are model predictions only (L5, Hold). Tobramycin's nephrotoxicity is an additional concern for hemolytic uremic syndrome.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

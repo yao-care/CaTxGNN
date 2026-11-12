@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -96,6 +96,12 @@ For context, the second-ranked prediction, hypertrichosis, has four publications
 
 Dosage form and indication text are not available in the data compiled for this report. Main authorizations:
 
+<!-- review:begin ca-lic-20261105-finasteride-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Finasteride has 20 valid single-ingredient licenses in Canada, with no cancelled licenses. Dosage form and indication text are not available in the data compiled for this report." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-finasteride-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02238213 | PROPECIA |
@@ -130,6 +136,19 @@ The prediction rests only on a high model score. There are no trials or publicat
 - Severity grading and clinical review of the drug interaction list
 - A targeted literature search for finasteride in congenital hypertrichosis
 - Consideration of hypertrichosis or other androgen-dependent hair conditions as better-supported alternatives, with the caveat that hirsutism evidence should not be extrapolated to hypertrichosis without a clear rationale
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Finasteride has 20 valid single-ingredient licenses in Canada, with no cancelled licenses" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

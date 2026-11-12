@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Esculin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not specified in the available data"
 monitor_inn: "ESCULIN"
 predicted_indications: ["amenorrhea (disease)"]
@@ -78,6 +78,12 @@ Currently no related literature available.
 
 All three products are valid authorisations. Their names suggest rectal or anorectal use, which is not obviously aligned with amenorrhea. Route compatibility has not yet been assessed.
 
+<!-- review:begin ca-lic-20261106-esculin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three products are valid single-ingredient authorisations." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-esculin-1 -->
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information. No drug-interaction records were found in the data compiled for this report.
@@ -95,6 +101,19 @@ The prediction rests only on a model score. There are no clinical trials, no pub
 - Approved indication text for the three Canadian products
 - A plausible biological link between esculin and the pathways involved in amenorrhea, supported by preclinical or literature evidence
 - An assessment of route and formulation compatibility with the proposed use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

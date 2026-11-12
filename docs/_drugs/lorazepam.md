@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -98,6 +98,12 @@ For reference, the most relevant publications for the next-ranked indication, **
 
 Dosage form and approved-indication text were not available in the data compiled for this report.
 
+<!-- review:begin ca-lic-20261105-lorazepam-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Lorazepam has 19 valid single-ingredient authorizations in Canada. Dosage form and approved-indication text were not available in the data compiled for this report." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 19 DINs for this drug, 17 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-lorazepam-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02041464 | ATIVAN | Not available | Not available |
@@ -143,6 +149,19 @@ The top-ranked prediction, trigeminal nerve neoplasm, has only a model score beh
 - Any preclinical or clinical evidence linking lorazepam to trigeminal nerve neoplasm, or a decision to re-focus on a better-supported indication
 - For insomnia, a risk-benefit review against current guidance on long-term benzodiazepine use
 - Indication text and dosage forms for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Lorazepam has 19 valid single-ingredient authorizations in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

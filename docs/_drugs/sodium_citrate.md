@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SODIUM CITRATE"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -114,6 +114,12 @@ These papers do not directly test sodium citrate as a treatment for the predicte
 
 A total of 12 valid licences are on the Canadian market (none cancelled). The product names indicate that the marketed products are mainly anticoagulant, blood-processing and irrigating solutions rather than oral antacids.
 
+<!-- review:begin ca-lic-20261106-sodium_citrate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A total of 12 valid single-ingredient licences are on the Canadian market (none cancelled)." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-sodium_citrate-1 -->
+
 ---
 
 ## Safety Considerations
@@ -144,6 +150,19 @@ The papillary conjunctivitis prediction has a high model score but no supporting
 - Health Canada product monograph warnings and contraindications (a blocking gap for safety screening)
 - Preclinical or clinical evidence in papillary conjunctivitis, or a re-prioritisation toward better-supported gastric predictions (stomach disease, gastroduodenitis)
 - A route and formulation assessment (ocular vs. oral or systemic) for the chosen indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

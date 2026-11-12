@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 834
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,6 +85,12 @@ Currently no related literature available.
 
 Two further single-ingredient licences are valid: CANTHARONE PLUS (00772011) and TARDAN SHP (00266493).
 
+<!-- review:begin ca-lic-20261105-salicylic_acid-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Two further single-ingredient licences are valid: CANTHARONE PLUS (00772011) and TARDAN SHP (00266493). None are cancelled." Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 7 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-salicylic_acid-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions**: One pharmacology-based entry was found, involving the acid-sensing ion channel ASIC3. It has no assigned severity level and does not represent a clinical drug-drug interaction.
@@ -105,6 +111,19 @@ The prediction for papillary conjunctivitis has a high model score (0.9988) but 
 - A literature and trial search specific to salicylates in allergic or papillary conjunctivitis
 - Assessment of ocular tolerability and suitable ophthalmic formulations and routes, since the current Canadian products do not appear to be ophthalmic
 - A comparison against established treatments for allergic conjunctivitis, and against NSAIDs if the spondyloarthropathy prediction is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "None are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -93,6 +93,12 @@ Human data are sparse. A small nonrandomized pilot study gave magnesium to patie
 
 Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid products. Approved-indication text and dosage forms are not recorded in the local data. Five representative licences are listed below.
 
+<!-- review:begin ca-lic-20261106-magnesium_sulfate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-magnesium_sulfate-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02139499 | Magnesium Sulfate Injection, USP |
@@ -123,6 +129,18 @@ The only randomized trial addresses TTP specifically, and its status is unknown 
 - Mechanism of action data for magnesium sulfate, to support the proposed antithrombotic effect
 - Review of the package insert warnings and contraindications, including the 92 recorded drug interactions, before any design of a new-use study
 - Assessment of bleeding risk when magnesium is combined with anticoagulants or antiplatelet agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

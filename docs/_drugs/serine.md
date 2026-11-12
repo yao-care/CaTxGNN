@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 845
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine: predicted new indication Familial visceral myopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,12 @@ For context, the second-ranked prediction (intestinal obstruction) and the sixth
 
 Serine is marketed in Canada through 20 valid licences, mainly parenteral nutrition products. Dosage form and approved indication text are not available in the compiled data. The first five licences are listed below.
 
+<!-- review:begin ca-lic-20261106-serine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Serine is marketed in Canada through 20 valid single-ingredient licences, mainly parenteral nutrition products." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-serine-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 00872296 | TRAVASOL | Not available | Not available |
@@ -123,6 +129,19 @@ The prediction rests on a model score alone. There are no clinical trials or rel
 - Health Canada package insert warnings and contraindications, so that safety screening can begin
 - Verification of the original indications (open-angle glaucoma, pulmonary tuberculosis), whose source has not been verified
 - Dosage form and approved indication details for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

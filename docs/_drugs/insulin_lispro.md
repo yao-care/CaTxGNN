@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus, type 1 diabetes mellitus…"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -105,6 +105,12 @@ No literature is available for the top predicted indication, autoimmune oophorit
 
 All 12 licences are valid products (none cancelled). Other products include HUMALOG cartridges and HUMALOG MIX 25 and MIX 50 formulations.
 
+<!-- review:begin ca-lic-20261106-insulin_lispro-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 12 licences are valid single-ingredient products (none cancelled)." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-insulin_lispro-1 -->
+
 ---
 
 ## Safety Considerations
@@ -139,6 +145,19 @@ The prediction for autoimmune oophoritis is based only on a computational score,
 - Evidence from clinical or preclinical studies showing direct benefit in autoimmune oophoritis, beyond managing coexisting diabetes
 - Approved-indication text and dosage-form details for the Canadian licences
 - Assessment of the route of administration for any new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

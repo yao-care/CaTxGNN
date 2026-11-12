@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -77,6 +77,12 @@ Currently no related literature available.
 
 Both licences are valid. The product names suggest a rectal route, which may not suit nasal indications. The compiled data does not confirm the route, and route compatibility has not been assessed.
 
+<!-- review:begin ca-lic-20261106-diphenylpyraline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are valid and for single-ingredient products." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-diphenylpyraline-1 -->
+
 ## Safety Considerations
 
 - **Conditions recorded as contraindications in the knowledge graph** (these come from graph relations, not label text): hypertensive disorder, hypertension, peptic ulcer disease, benign prostatic hyperplasia, ocular hypertension, angle-closure glaucoma, closed-angle glaucoma, hyperthyroidism, Graves disease, thyrotoxicosis, bladder neck obstruction.
@@ -97,6 +103,19 @@ The prediction is supported only by the model score. No trials or publications a
 - A more specific disease target than the broad "nasal cavity disease" category
 - Confirmation of the dosage forms and routes of the marketed products, and their compatibility with nasal use
 - Any clinical or literature evidence that directly studies the predicted disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and for single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
@@ -112,6 +112,12 @@ For open-angle glaucoma, the strongest alternative candidate, the retrieved arti
 
 The listed products are mainly ophthalmic lubricants, not constipation products. The approved indication text is not available for any of them.
 
+<!-- review:begin ca-lic-20261105-glycerin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "There are 13 valid single-ingredient licences in total. The listed products are mainly ophthalmic lubricants, not constipation products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 13 DINs for this drug, 12 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-glycerin-1 -->
+
 ---
 
 ## Safety Considerations
@@ -135,6 +141,19 @@ The predicted indication of cauda equina syndrome rests only on a score from the
 - Package insert warnings and contraindications from Health Canada, which are needed before any safety screening
 - Dosage form and approved indication details for the Canadian licences
 - Direct clinical or mechanistic evidence for the chosen indication. If the programme is redirected, open-angle glaucoma or constipation-predominant IBS are the more plausible candidates to investigate first.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "There are 13 valid single-ingredient licences in total" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

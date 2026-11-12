@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Alzheimer disease"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -78,6 +78,12 @@ Currently no related clinical trials registered.
 
 The first five are shown below.
 
+<!-- review:begin ca-lic-20261105-rivastigmine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "The compiled data list 20 valid single-ingredient licences, but dosage form and approved indication text are not recorded. The first five are shown below." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-rivastigmine-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02242118 | EXELON |
@@ -114,6 +120,19 @@ The prediction is biologically plausible and supported by one rabbit study, but 
 - Confirm the available routes and a topical ophthalmic formulation (none is currently listed)
 - Generate further preclinical data on efficacy and ocular tolerability, and compare with existing IOP-lowering agents
 - Assess the safety implications of the knowledge-graph contraindications and the bupropion interaction in glaucoma patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "The compiled data list 20 valid single-ingredient licences, but dosage form and approved indication text are not recorded" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

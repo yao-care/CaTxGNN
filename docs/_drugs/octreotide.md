@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,12 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the top predicted indication.
 
+<!-- review:begin ca-lic-20261105-octreotide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "These are 5 of the 14 valid single-ingredient authorizations. None are cancelled." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 14 DINs for this drug, 10 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-octreotide-1 -->
+
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
@@ -106,6 +112,19 @@ The prediction has a high model score but no trials or literature, and no plausi
 - Approved indication text and dosage forms for the Canadian licences
 - A biological rationale or preclinical evidence linking somatostatin signalling to the predicted skin condition
 - Review of other predictions with some biological plausibility, such as pituitary-related ACTH disorders, though current data are largely negative or indirect
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "These are 5 of the 14 valid single-ingredient authorizations. None are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,6 +91,12 @@ The other eight predicted indications (for example hydranencephaly, several myop
 
 The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products).
 
+<!-- review:begin ca-lic-20261105-lurasidone-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada. The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products)." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-lurasidone-2 -->
+
 ## Safety Considerations
 
 **Contraindication-related conditions** (drawn from the knowledge graph, not from label text): the drug is linked to caution or contraindication in conditions including:
@@ -116,12 +122,32 @@ For official warnings and contraindications, please refer to the package insert.
 **Rationale:**
 Evidence for acute mania is therefore insufficient to recommend advancing. The high TxGNN score reflects the existing bipolar disorder indication, not new evidence.
 
+<!-- review:begin ca-lic-20261031-lurasidone-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The indication is largely on-label, but the only mania-specific trial was withdrawn with no participants, and most of the literature addresses bipolar depression. Evidence for acute mania is therefore insufficient to recommend advancing." Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261031-lurasidone-1 -->
+
 **To proceed, the following is needed:**
 - Confirmation of the label indications for the Canadian products (currently blank in the compiled data)
 - Package insert warnings and contraindications from Health Canada, which are required before safety screening
 - Mechanism of action data from DrugBank
 - Mania-specific efficacy evidence, such as randomised trials in acute manic or mixed episodes
 - Review of the interaction profile (CYP3A4 inhibitors and inducers) and metabolic monitoring requirements
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The indication is largely on-label, but the only mania-specific trial was withdrawn with no participants, and most of the literature address" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

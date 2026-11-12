@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 82
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -104,6 +104,12 @@ None of the papers below tests atropine for migraine in patients. Several are on
 
 The data compiled for this report did not include dosage forms or approved indication text, so those columns are left blank.
 
+<!-- review:begin ca-lic-20261105-atropine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eleven valid single-ingredient licences are on record. The data compiled for this report did not include dosage forms or approved indication text, so those columns are left blank." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 11 DINs for this drug, 10 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-atropine-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02148358 | MINIMS ATROPINE SULPHATE | Not available | Not available |
@@ -139,6 +145,19 @@ The high TxGNN score is a computational prediction only. The supporting evidence
 - Approved indication text and dosage forms for the Canadian licences
 - Detailed mechanism-of-action data and a clearer account of whether muscarinic blockade would help or harm in migraine
 - Direct clinical evidence, such as a pilot or proof-of-concept study, with a review of the route and dose needed for migraine, since the current products are mainly injectable or ophthalmic
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eleven valid single-ingredient licences are on record" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

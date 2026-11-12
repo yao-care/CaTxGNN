@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -45,6 +45,12 @@ The `data-report` skill doesn't apply here — this task is generating a structu
 This Evidence Pack contains **no TxGNN-predicted new indications**, no mechanism of action data, and all safety fields are absent, making a standard repurposing assessment impossible at this stage.
 The recommended action is **Hold** — evaluation cannot proceed until Data Gaps DG001 (Blocking) and DG002 (High) are resolved and TxGNN predictions are generated.
 
+<!-- review:begin ca-lic-20261105-erlotinib-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Erlotinib (DB00530) is a small-molecule oncology agent known from public literature as an EGFR tyrosine kinase inhibitor, but its original indications are not populated in this Evidence Pack and it holds no current Taiwan regulatory approvals in the system. This Evidence Pack contains **no TxGNN-predicted new indications**, no mechanism of action data, and all safety fields are absent, making a standard repurposing assessment impossible at this stage." Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-erlotinib-1 -->
+
 ---
 
 ## Quick Overview
@@ -80,6 +86,12 @@ Currently no related clinical trials registered — no predicted indication is a
 
 Currently no related literature available — no predicted indication is available to search against.
 
+<!-- review:begin ca-lic-20261105-erlotinib-2 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "No Taiwan regulatory authorizations are on record in this Evidence Pack." Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-erlotinib-2 -->
+
 ---
 
 ## Canada Market Information
@@ -89,6 +101,12 @@ Currently no related literature available — no predicted indication is availab
 | Canada Market Status | Marketed (marketed DINs: 7 of 10; dormant: 3) |
 
 > **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally.
+
+<!-- review:begin ca-lic-20261105-erlotinib-4 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "> **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally. If a zero-DIN result is unexpected for the Taiwan context, please cross-check directly against the TFDA official database — this may reflect a data ingestion gap in the pipeline rather than actual non-availability in the market." Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-erlotinib-4 -->
 
 ---
 
@@ -112,6 +130,12 @@ Please refer to the package insert for safety information.
 
 > Safety data has not yet been ingested into this Evidence Pack.
 
+<!-- review:begin ca-lic-20261105-erlotinib-5 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "> Safety data has not yet been ingested into this Evidence Pack. Resolution requires downloading and parsing the TFDA package insert PDF (Data Gap DG001, Blocking severity) before any safety-based evaluation can be conducted." Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-erlotinib-5 -->
+
 ---
 
 ## Conclusion and Next Steps
@@ -125,6 +149,36 @@ Two unresolved data gaps — DG001 (TFDA warnings/contraindications, **Blocking*
 
 - **[High — DG002]** Query the DrugBank API for Erlotinib (DB00530) to populate `original_moa` and pharmacological target data
 - **[Critical]** Re-run the TxGNN prediction pipeline for Erlotinib to generate `predicted_indications`; without this output, no repurposing report can be written
+
+<!-- review:begin ca-lic-20261105-erlotinib-3 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**[Critical]** Re-run the TxGNN prediction pipeline for Erlotinib to generate `predicted_indications`; without this output, no repurposing report can be written / **[Verify]** Cross-check Taiwan regulatory status against the TFDA official database to confirm whether the 0-DIN result reflects a true non-registration or a pipeline ingestion failure / **[Nice to have]** Populate `original_indications` from DrugBank or TFDA records to enable indication-bridging analysis once predictions are available" Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-erlotinib-3 -->
+
+<!-- review:begin ca-lic-20261105-erlotinib-6 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**[Blocking — DG001]** Download the TFDA package insert PDF for Erlotinib and parse it to populate `key_warnings` and `contraindications` / **[High — DG002]** Query the DrugBank API for Erlotinib (DB00530) to populate `original_moa` and pharmacological target data" Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-erlotinib-6 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Erlotinib (DB00530) is a small-molecule oncology agent known from public literature as an EGFR tyrosine kinase inhibitor, but its original i" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "No Taiwan regulatory authorizations are on record in this Evidence Pack" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "**[Verify]** Cross-check Taiwan regulatory status against the TFDA official database to confirm whether the 0-DIN result reflects a true non" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "If a zero-DIN result is unexpected for the Taiwan context, please cross-check directly against the TFDA official database — this may reflect" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "Resolution requires downloading and parsing the TFDA package insert PDF (Data Gap DG001, Blocking severity) before any safety-based evaluati" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "**[Blocking — DG001]** Download the TFDA package insert PDF for Erlotinib and parse it to populate `key_warnings` and `contraindications`" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

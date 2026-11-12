@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 758
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Povidone: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "POVIDONE"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -78,6 +78,12 @@ Currently no related literature available.
 
 All three products are currently valid authorizations.
 
+<!-- review:begin ca-lic-20261106-povidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three products are currently valid single-ingredient authorizations." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-povidone-1 -->
+
 ## Safety Considerations
 
 - **Disease associations learned by the TxGNN model (deep learning), not label text**: epilepsy, liver disease, gallbladder disease, respiratory failure, atrioventricular dissociation, atrioventricular block, heart block. These come from contraindication associations the model learned between related diseases, not from product labelling, and should be verified against official sources.
@@ -98,6 +104,19 @@ The prediction rests on a model score alone, with no clinical trials or publicat
 - Literature and trial searches specific to povidone in ichthyosis or skin barrier disorders
 - Assessment of route and formulation compatibility (ophthalmic products versus topical dermatological use)
 - Preclinical or mechanistic evidence supporting benefit in keratinization disorders
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

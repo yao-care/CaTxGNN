@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukemia (other listed uses include non-Hodgkin l…"
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -86,6 +86,12 @@ Currently no related literature available.
 
 The records compiled for this report do not include dosage form or approved-indication text. The first five are shown below.
 
+<!-- review:begin ca-lic-20261105-methotrexate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Methotrexate has 20 valid single-ingredient authorizations in Canada and none have been cancelled. The records compiled for this report do not include dosage form or approved-indication text." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-methotrexate-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02099705 | Methotrexate Sodium Injection |
@@ -156,6 +162,19 @@ These may be better candidates to prioritise.
 - Package insert warnings and contraindications from Health Canada
 - Review of how this rare tumour is currently treated, to judge whether methotrexate adds anything to existing options
 - A safety monitoring plan, including dose, route and organ-function considerations for lung-tumour patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Methotrexate has 20 valid single-ingredient authorizations in Canada and none have been cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

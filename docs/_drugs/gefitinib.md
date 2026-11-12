@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa"]
 description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,6 +69,12 @@ Currently no related clinical trials registered for this predicted indication.
 
 Currently no related literature available for this predicted indication.
 
+<!-- review:begin ca-lic-20261105-gefitinib-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All five authorisations are valid single-ingredient products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 5 DINs for this drug, 3 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-gefitinib-1 -->
+
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
@@ -115,6 +121,19 @@ The prediction rests solely on a score from the TxGNN model (deep learning), whi
 - A targeted literature search on EGFR signalling in gingival fibroblasts/fibromatosis, and a trial registry search
 - An assessment of similarity to the original indication and of route compatibility
 - Consideration of higher-ranked alternatives with some supporting evidence only if they represent genuine repurposing. The lung-related entries largely restate the original lung cancer indication and are not true repurposing.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All five authorisations are valid single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

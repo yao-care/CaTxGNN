@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Asthma, bronchitis, anaphylaxis, hypotensive disorder…"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -98,6 +98,12 @@ Fifteen trials were retrieved; the 10 most relevant are listed below.
 
 Dosage form and approved indication text are not recorded for these licences. Five of the main authorizations are listed below.
 
+<!-- review:begin ca-lic-20261105-epinephrine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Twenty single-ingredient licences are valid. Dosage form and approved indication text are not recorded for these licences." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-epinephrine-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 00578657 | EPIPEN JR | Not available | Not available |
@@ -134,6 +140,19 @@ Package insert warnings and contraindications from Health Canada were not availa
 - Food-dependent exercise-induced anaphylaxis: L4, a subtype extension of the existing anaphylaxis indication supported by reviews only, with no dedicated trials. Treat as a research question.
 - Respiratory malformation: L3, Hold. The only trial concerns transient tachypnoea of the newborn, a functional condition, and the retrieved literature is largely off-topic.
 - Rienhoff syndrome: L5, Hold. There are no trials or literature, and the prediction is likely a TxGNN model (deep learning) artefact.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Twenty single-ingredient licences are valid" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

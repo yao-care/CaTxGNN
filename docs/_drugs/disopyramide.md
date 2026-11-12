@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Disopyramide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not stated in the data compiled for this report (disopyramide is gene…"
 monitor_inn: "DISOPYRAMIDE"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
@@ -39,6 +39,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Disopyramide is a class Ia antiarrhythmic drug. The TxGNN model predicts it may be effective for **Tourette syndrome**, with a very high model score. However, there are currently **no clinical trials and no publications** supporting this prediction, so it rests on computational inference alone.
+
+<!-- review:begin ca-lic-20261105-disopyramide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Disopyramide is a class Ia antiarrhythmic drug that is marketed in Canada (as RYTHMODAN). The TxGNN model predicts it may be effective for **Tourette syndrome**, with a very high model score." Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 1 DIN for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-disopyramide-1 -->
 
 ---
 
@@ -113,6 +119,19 @@ The prediction for Tourette syndrome is supported only by a model score. There a
 - Original approved indication text for the Canadian license
 - Direct preclinical or clinical evidence for any predicted indication, with priority on arrhythmia-related ones
 - A review of neonatal and paediatric safety if atrial flutter is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "that is marketed in Canada (as RYTHMODAN)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

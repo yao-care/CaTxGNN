@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 900
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: predicted new indication Duodenal ulcer (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,6 +90,12 @@ The tables below cover the two predictions that have meaningful literature.
 
 **Amenorrhea (rank 10)**
 
+<!-- review:begin ca-lic-20261105-teriparatide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four licences are valid single-ingredient products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 4 DINs for this drug, 3 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-teriparatide-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [41505334](https://pubmed.ncbi.nlm.nih.gov/41505334/) | 2026 | Systematic review / network meta-analysis of RCTs | J Clin Endocrinol Metab | Pharmacological interventions to improve bone density in functional hypothalamic amenorrhea; comparative efficacy was previously unclear |
@@ -134,6 +140,19 @@ Official package insert warnings and contraindications were not available for th
 - Confirmation of the study designs for pregnancy-associated osteoporosis, because the supplied abstracts are truncated.
 - A prospective or comparative study in pregnancy-associated osteoporosis, along with a lactation and subsequent-pregnancy safety assessment.
 - Verification of the disease identity for Worth syndrome, if that prediction is pursued.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four licences are valid single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

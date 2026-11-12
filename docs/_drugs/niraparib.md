@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Niraparib: predicted new indication Epiglottis neoplasm (evidence level L5). Approved use: Malignant epithelial tumour of the ovary"
 monitor_inn: "Niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "pre-malignant neoplasm", "inner ear neoplasm", "schwannoma of jugular foramen"]
@@ -113,6 +113,12 @@ These publications concern serous gynaecological cancers and PARP inhibitor biom
 
 All three licences are valid authorisations.
 
+<!-- review:begin ca-lic-20261106-niraparib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient authorisations." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-niraparib-1 -->
+
 ---
 
 ## Cytotoxicity
@@ -148,6 +154,19 @@ The top-ranked prediction, epiglottis neoplasm, rests on a TxGNN model (deep lea
 - Results from NCT04716686 (endometrial serous carcinoma) before considering this as a research direction
 - Any biological or clinical rationale for epiglottis neoplasm, such as HRD prevalence or preclinical data
 - Approved indication text and dosage forms for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

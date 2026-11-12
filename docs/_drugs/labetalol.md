@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 515
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "Labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -99,6 +99,12 @@ Currently no related literature is available for the top predicted indication (m
 
 The five above are shown as the main ones.
 
+<!-- review:begin ca-lic-20261105-labetalol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Eleven valid single-ingredient licences are listed in total. The five above are shown as the main ones." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 11 DINs for this drug, 10 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-labetalol-1 -->
+
 ---
 
 ## Safety Considerations
@@ -126,6 +132,19 @@ Please also refer to the Health Canada package insert for official warnings and 
 - Mechanism of action data (for example, from DrugBank)
 - Clinical or observational evidence of labetalol use in malignant hypertensive nephrosclerosis or renal outcomes
 - Approved indication text and dosage forms for the Canadian licences, to confirm how the new indication relates to existing labelling
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Eleven valid single-ingredient licences are listed in total" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

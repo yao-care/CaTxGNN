@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 683
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -74,6 +74,12 @@ Currently no related literature available.
 
 Olopatadine has 10 valid authorizations in Canada and none are cancelled. Dosage form and approved indication text were not available for these products.
 
+<!-- review:begin ca-lic-20261106-olopatadine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Olopatadine has 10 valid single-ingredient authorizations in Canada and none are cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-olopatadine-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02508605 | MINT-OLOPATADINE 0.2% |
@@ -104,6 +110,19 @@ The prediction is supported only by the TxGNN model score (Evidence Level L5). N
 - A systematic literature and trial search for olopatadine in ocular rosacea or blepharoconjunctivitis
 - Confirmation of the dosage forms, routes, and approved indications of the Canadian products, to check route compatibility with ocular use
 - Review of the 100 unrated interaction entries, with severity levels assigned
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

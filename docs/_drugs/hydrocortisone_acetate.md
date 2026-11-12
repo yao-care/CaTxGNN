@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 456
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -85,6 +85,12 @@ Alopecia areata is an autoimmune, T-cell-mediated attack on hair follicles, so a
 
 Eight licences are valid in Canada; the five above are shown.
 
+<!-- review:begin ca-lic-20261106-hydrocortisone_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight single-ingredient licences are valid in Canada; the five above are shown." Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 8 DINs for this drug, 8 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-hydrocortisone_acetate-1 -->
+
 ## Safety Considerations
 
 Contraindication signals recorded for this drug include hypertension, epilepsy, gastric ulcer, kidney disease, liver disease, hyperglycemia, measles, herpes simplex virus keratitis, and pituitary hormone deficiency conditions. These are not drawn from label text, so please refer to the package insert for authoritative safety information.
@@ -102,6 +108,18 @@ A completed randomized trial in alopecia areata included hydrocortisone 1% cream
 - Detailed mechanism of action data
 - Package insert warnings and contraindications review
 - Assessment of route and formulation suitability (current Canadian products are rectal and topical anorectal preparations)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "t single-ingredien" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

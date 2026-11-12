@@ -1,0 +1,3335 @@
+{
+ "_doc": "藥物頁人工查核紀錄（單一真實來源；2026-11-12 建，核心流程比照 TwTxGNN docs/_data/drug_reviews.json，欄位相同）。每筆＝一次查核：drug／file／claim（頁面原句）／replacement（更正後）／note（頁面上顯示的英文說明）／finding（內部查證結論）／sources（網址＋查閱日）／checked（查核日）／action（correct 更正｜annotate 加註｜rereview 待重審｜section 附來源段落｜rereview_result 重審結果｜header_level｜description_level）。由 scripts/apply_drug_reviews.py 套到 docs/_drugs/*.md；改寫頁面的程式結尾都會重套，scripts/check_seo_docs.py 第 17 項擋未套用的紀錄。原則：基本事實照主管機關資料更正；模型預測原文不刪不改寫，只加註；證據等級與決策只在重審結果為降級、升級或撤回時更新。2026-10-31～11-06 許可證修正時直接刪掉的矛盾子句（10-31 d8e822621、11-05 49c7cb708／dee6df88f／343992d0e（補回整句刪除時連帶刪掉的簡介）、11-06 5b78f0c9d／bfbb2d149），2026-11-12 由 scripts/reviews_from_edits.py 依 git 前後版本轉入（id 以 ca-lic- 開頭）；報告在 11 月經 AI 重產、原句已不在頁面的標 status=resolved_by_regeneration。同 id 重發時前版存進 history（retired、reason），不覆蓋丟棄。",
+ "schema_version": 1,
+ "records": [
+  {
+   "id": "ca-lic-20261106-abiraterone-1",
+   "drug": "abiraterone",
+   "file": "abiraterone.md",
+   "action": "correct",
+   "claim": "Nineteen valid single-ingredient licenses exist.",
+   "replacement": "Nineteen valid licenses exist.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 19 張（另核准未上市 0 張），其中單方有效 17 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-acyclovir-1",
+   "drug": "acyclovir",
+   "file": "acyclovir.md",
+   "action": "correct",
+   "claim": "Acyclovir has 20 valid single-ingredient licences in Canada and none have been cancelled.",
+   "replacement": "Acyclovir has 20 valid licences in Canada and none have been cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 20 張（另核准未上市 0 張），其中單方有效 19 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-alimemazine-1",
+   "drug": "alimemazine",
+   "file": "alimemazine.md",
+   "action": "correct",
+   "claim": "Alimemazine is a phenothiazine-class antihistamine marketed in Canada.\nThe TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone.",
+   "replacement": "Alimemazine is a phenothiazine-class antihistamine.\nThe TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone.",
+   "note": "Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 2 DINs for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：product）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"marketed in Canada\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）、343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-alteplase-1",
+   "drug": "alteplase",
+   "file": "alteplase.md",
+   "action": "correct",
+   "claim": "Alteplase has three valid single-ingredient authorizations in Canada.",
+   "replacement": "Alteplase has three valid authorizations in Canada.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-amiloride-1",
+   "drug": "amiloride",
+   "file": "amiloride.md",
+   "action": "correct",
+   "claim": "Two valid single-ingredient licences are on record.",
+   "replacement": "Two valid licences are on record.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 2 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-ammonium_chloride-1",
+   "drug": "ammonium_chloride",
+   "file": "ammonium_chloride.md",
+   "action": "correct",
+   "claim": "All three are valid single-ingredient licences.",
+   "replacement": "All three are valid licences.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-andexanet_alfa-1",
+   "drug": "andexanet_alfa",
+   "file": "andexanet_alfa.md",
+   "action": "correct",
+   "claim": "Andexanet alfa is a recombinant factor Xa (FXa) decoy protein marketed in Canada as ONDEXXYA. Its approved indication text is not available in the data compiled for this report, but it is known to be used to reverse FXa-inhibitor anticoagulation.\nThe TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this specific indication.",
+   "replacement": "Andexanet alfa is a recombinant factor Xa (FXa) decoy protein. Its approved indication text is not available in the data compiled for this report, but it is known to be used to reverse FXa-inhibitor anticoagulation.\nThe TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** with a very high score, but there are **0 clinical trials** and **0 publications** supporting this specific indication.",
+   "note": "Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 1 DIN for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：product）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"marketed in Canada as ONDEXXYA\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）、343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-articaine-1",
+   "drug": "articaine",
+   "file": "articaine.md",
+   "action": "correct",
+   "claim": "Twelve valid single-ingredient licenses exist in total; the five above are shown.",
+   "replacement": "Twelve valid licenses exist in total; the five above are shown.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 12 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-ascorbic_acid-1",
+   "drug": "ascorbic_acid",
+   "file": "ascorbic_acid.md",
+   "action": "correct",
+   "claim": "Thirteen single-ingredient licences are on record, of which 11 are valid.",
+   "replacement": "Thirteen licences are on record, of which 11 are valid.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 11 張（另核准未上市 2 張），其中單方有效 3 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-aspartic_acid-1",
+   "drug": "aspartic_acid",
+   "file": "aspartic_acid.md",
+   "action": "correct",
+   "claim": "Seven valid single-ingredient authorizations are listed in total; the five above are shown.",
+   "replacement": "Seven valid authorizations are listed in total; the five above are shown.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 7 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-atazanavir-1",
+   "drug": "atazanavir",
+   "file": "atazanavir.md",
+   "action": "correct",
+   "claim": "Eleven single-ingredient authorizations are valid in total, and none are cancelled. The table shows the first five.",
+   "replacement": "The table shows the first five.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 11 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Eleven single-ingredient authorizations are valid in total, and none are cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-atropine-1",
+   "drug": "atropine",
+   "file": "atropine.md",
+   "action": "correct",
+   "claim": "Eleven valid single-ingredient licences are on record. The data compiled for this report did not include dosage forms or approved indication text, so those columns are left blank.",
+   "replacement": "The data compiled for this report did not include dosage forms or approved indication text, so those columns are left blank.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 11 DINs for this drug, 10 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Eleven valid single-ingredient licences are on record\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-bacitracin-1",
+   "drug": "bacitracin",
+   "file": "bacitracin.md",
+   "action": "correct",
+   "claim": "All five listed authorizations are single-ingredient products with valid status.",
+   "replacement": "All five listed authorizations are products with valid status.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 5 張（另核准未上市 0 張），其中單方有效 3 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-benzocaine-1",
+   "drug": "benzocaine",
+   "file": "benzocaine.md",
+   "action": "correct",
+   "claim": "All three are valid single-ingredient products.",
+   "replacement": "All three are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261112-betamethasone-1",
+   "drug": "betamethasone",
+   "file": "betamethasone.md",
+   "action": "correct",
+   "claim": "Betamethasone is a corticosteroid with 20 valid single-ingredient licences in Canada, mostly topical brands.",
+   "replacement": "Betamethasone is a corticosteroid.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12).",
+   "finding": "DPD 2026-11-09：至少 19 張有效、1 張註銷（部分紀錄）；「20 張有效單方許可」與事實不符，只刪張數子句（「mostly topical brands」依附於被刪的張數，一併刪）（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "checked": "2026-11-12",
+   "summary": "Removed: \"with 20 valid single-ingredient licences in Canada, mostly topical brands\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2026-11-12（11-09 排程後跟新事實矛盾，checker M3）（2026-11-12）"
+  },
+  {
+   "id": "ca-lic-20261106-bupivacaine-1",
+   "drug": "bupivacaine",
+   "file": "bupivacaine.md",
+   "action": "correct",
+   "claim": "All 16 licences are valid single-ingredient products; the five above are shown as examples.",
+   "replacement": "All 16 licences are valid products; the five above are shown as examples.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 15 張（另核准未上市 1 張），其中單方有效 10 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-buprenorphine-1",
+   "drug": "buprenorphine",
+   "file": "buprenorphine.md",
+   "action": "correct",
+   "claim": "All 18 licences are valid single-ingredient authorisations (also including SUBOXONE and generic buprenorphine/naloxone products).",
+   "replacement": "All 18 licences are valid authorisations (also including SUBOXONE and generic buprenorphine/naloxone products).",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 18 張（另核准未上市 0 張），其中單方有效 6 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-bupropion-1",
+   "drug": "bupropion",
+   "file": "bupropion.md",
+   "action": "correct",
+   "claim": "All 10 single-ingredient licences in the data are valid.",
+   "replacement": "All 10 licences in the data are valid.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 10 張（另核准未上市 0 張），其中單方有效 9 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-cabotegravir-1",
+   "drug": "cabotegravir",
+   "file": "cabotegravir.md",
+   "action": "correct",
+   "claim": "All five licences are valid single-ingredient authorizations; none are cancelled.",
+   "replacement": "All five licences are valid authorizations; none are cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 5 張（另核准未上市 0 張），其中單方有效 3 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-calcipotriol-1",
+   "drug": "calcipotriol",
+   "file": "calcipotriol.md",
+   "action": "correct",
+   "claim": "All six are single-ingredient-type licences with valid status.",
+   "replacement": "All six are licences with valid status.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 6 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"e single-ingredient-typ\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-calcitriol-1",
+   "drug": "calcitriol",
+   "file": "calcitriol.md",
+   "action": "correct",
+   "claim": "Eight single-ingredient licences are currently valid. The main authorizations are listed below.",
+   "replacement": "The main authorizations are listed below.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 8 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Eight single-ingredient licences are currently valid\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-carbon_monoxide-1",
+   "drug": "carbon_monoxide",
+   "file": "carbon_monoxide.md",
+   "action": "correct",
+   "claim": "All four authorizations are valid single-ingredient licences.",
+   "replacement": "All four authorizations are valid licences.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 4 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-caspofungin-1",
+   "drug": "caspofungin",
+   "file": "caspofungin.md",
+   "action": "correct",
+   "claim": "Six valid single-ingredient authorizations are listed in Canada. The five main ones are shown below.",
+   "replacement": "The five main ones are shown below.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 6 DINs for this drug, 5 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Six valid single-ingredient authorizations are listed in Canada\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-cefazolin-1",
+   "drug": "cefazolin",
+   "file": "cefazolin.md",
+   "action": "correct",
+   "claim": "The approved indication text is not recorded in the local data. Sixteen single-ingredient licences are valid; this table lists five of them.",
+   "replacement": "The approved indication text is not recorded in the local data.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 16 DINs for this drug, 15 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Sixteen single-ingredient licences are valid; this table lists five of them\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-chlorthalidone-1",
+   "drug": "chlorthalidone",
+   "file": "chlorthalidone.md",
+   "action": "correct",
+   "claim": "Eight single-ingredient licences are currently valid, and none are cancelled.",
+   "replacement": "Eight licences are currently valid, and none are cancelled.",
+   "note": "Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 8 DINs for this drug, 8 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 8 張（另核准未上市 0 張），其中單方有效 4 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"t single-ingredien\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-cholecalciferol-1",
+   "drug": "cholecalciferol",
+   "file": "cholecalciferol.md",
+   "action": "correct",
+   "claim": "Twenty valid single-ingredient licences are recorded. The compiled data does not include dosage forms or approved indication text for any of them, so no approved indication can be stated here.",
+   "replacement": "The compiled data does not include dosage forms or approved indication text for any of them, so no approved indication can be stated here.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 20 DINs for this drug, 17 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 17 張（另核准未上市 3 張），其中單方有效 9 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "checked": "2026-11-12",
+   "summary": "Removed: \"Twenty valid single-ingredient licences are recorded\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）、2026-11-12（11-09 排程後跟新事實矛盾，checker M3）（2026-11-12）"
+  },
+  {
+   "id": "ca-lic-20261106-cilazapril-1",
+   "drug": "cilazapril",
+   "file": "cilazapril.md",
+   "action": "correct",
+   "claim": "Eight valid single-ingredient authorizations are on record in total; the five above are shown.",
+   "replacement": "Eight valid authorizations are on record in total; the five above are shown.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 8 張（另核准未上市 0 張），其中單方有效 6 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-cinchocaine-1",
+   "drug": "cinchocaine",
+   "file": "cinchocaine.md",
+   "action": "correct",
+   "claim": "All three authorisations are valid single-ingredient products.",
+   "replacement": "All three authorisations are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-citric_acid-1",
+   "drug": "citric_acid",
+   "file": "citric_acid.md",
+   "action": "correct",
+   "claim": "All 10 licences on record are valid single-ingredient licences.",
+   "replacement": "All 10 licences on record are valid licences.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 10 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-clindamycin-1",
+   "drug": "clindamycin",
+   "file": "clindamycin.md",
+   "action": "correct",
+   "claim": "Health Canada records show 20 valid single-ingredient licences, and the list may be partial. No indication text, dosage form or manufacturer is recorded for these licences.",
+   "replacement": "No indication text, dosage form or manufacturer is recorded for these licences.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Health Canada records show 20 valid single-ingredient licences, and the list may be partial\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-clioquinol-1",
+   "drug": "clioquinol",
+   "file": "clioquinol.md",
+   "action": "correct",
+   "claim": "All three licences are currently valid and are listed as single-ingredient records.",
+   "replacement": "All three licences are currently valid.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"and are listed as single-ingredient records\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-clobetasol_propionate-1",
+   "drug": "clobetasol_propionate",
+   "file": "clobetasol_propionate.md",
+   "action": "correct",
+   "claim": "Twenty valid single-ingredient licences are held; the first five are shown. Dosage form and approved indication text are not available in the data compiled for this report.",
+   "replacement": "Dosage form and approved indication text are not available in the data compiled for this report.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 20 DINs for this drug, 19 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Twenty valid single-ingredient licences are held; the first five are shown\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-codeine-1",
+   "drug": "codeine",
+   "file": "codeine.md",
+   "action": "correct",
+   "claim": "Twenty valid single-ingredient licences are on record. The records do not include dosage form or approved indication text.",
+   "replacement": "The records do not include dosage form or approved indication text.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Twenty valid single-ingredient licences are on record\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-desloratadine-1",
+   "drug": "desloratadine",
+   "file": "desloratadine.md",
+   "action": "correct",
+   "claim": "Health Canada lists 5 valid single-ingredient authorizations for desloratadine.",
+   "replacement": "Health Canada lists 5 valid authorizations for desloratadine.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 5 張（另核准未上市 0 張），其中單方有效 4 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-diclofenac-1",
+   "drug": "diclofenac",
+   "file": "diclofenac.md",
+   "action": "correct",
+   "claim": "Diclofenac has 20 valid single-ingredient authorizations in Canada and none are cancelled. Dosage form and approved indication text were not available for these products.",
+   "replacement": "Dosage form and approved indication text were not available for these products.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Diclofenac has 20 valid single-ingredient authorizations in Canada and none are cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-dimethicone-1",
+   "drug": "dimethicone",
+   "file": "dimethicone.md",
+   "action": "correct",
+   "claim": "The licence data compiled for this report does not include dosage forms or approved indication text. Up to 5 of the 20 valid single-ingredient authorizations are listed.",
+   "replacement": "The licence data compiled for this report does not include dosage forms or approved indication text.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Up to 5 of the 20 valid single-ingredient authorizations are listed\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-diphenylpyraline-1",
+   "drug": "diphenylpyraline",
+   "file": "diphenylpyraline.md",
+   "action": "correct",
+   "claim": "Both licences are valid and for single-ingredient products.",
+   "replacement": "Both licences are valid.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 2 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"and for single-ingredient products\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-disopyramide-1",
+   "drug": "disopyramide",
+   "file": "disopyramide.md",
+   "action": "correct",
+   "claim": "Disopyramide is a class Ia antiarrhythmic drug that is marketed in Canada (as RYTHMODAN). The TxGNN model predicts it may be effective for **Tourette syndrome**, with a very high model score.",
+   "replacement": "Disopyramide is a class Ia antiarrhythmic drug. The TxGNN model predicts it may be effective for **Tourette syndrome**, with a very high model score.",
+   "note": "Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 1 DIN for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：product）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"that is marketed in Canada (as RYTHMODAN)\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）、343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-dutasteride-1",
+   "drug": "dutasteride",
+   "file": "dutasteride.md",
+   "action": "correct",
+   "claim": "Dutasteride has 16 valid single-ingredient authorizations in Canada.",
+   "replacement": "Dutasteride has 16 valid authorizations in Canada.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 13 張（另核准未上市 3 張），其中單方有效 12 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-entacapone-1",
+   "drug": "entacapone",
+   "file": "entacapone.md",
+   "action": "correct",
+   "claim": "Eight valid single-ingredient licences are on record in total; the five above are shown.",
+   "replacement": "Eight valid licences are on record in total; the five above are shown.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 8 張（另核准未上市 0 張），其中單方有效 3 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-epinephrine-1",
+   "drug": "epinephrine",
+   "file": "epinephrine.md",
+   "action": "correct",
+   "claim": "Twenty single-ingredient licences are valid. Dosage form and approved indication text are not recorded for these licences.",
+   "replacement": "Dosage form and approved indication text are not recorded for these licences.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Twenty single-ingredient licences are valid\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-eribulin_mesylate-1",
+   "drug": "eribulin_mesylate",
+   "file": "eribulin_mesylate.md",
+   "action": "correct",
+   "claim": "- **[Pipeline]** Re-run the TxGNN prediction model once `drugbank_id` and `original_indications` are populated; confirm that `predicted_indications` is non-empty before generating a new report\n- **[Regulatory]** Cross-check Health Canada's Drug Product Database (DPD) directly for any DINs associated with eribulin mesylate, as the current dataset shows zero DINs despite the drug having regulatory approvals in comparable jurisdictions (FDA, EMA)",
+   "replacement": "- **[Pipeline]** Re-run the TxGNN prediction model once `drugbank_id` and `original_indications` are populated; confirm that `predicted_indications` is non-empty before generating a new report",
+   "note": "Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 3 DINs for this drug, 2 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：generic）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"**[Regulatory]** Cross-check Health Canada's Drug Product Database (DPD) directly for any DINs associated with eribulin mesylate, as the cur\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-erlotinib-1",
+   "drug": "erlotinib",
+   "file": "erlotinib.md",
+   "action": "correct",
+   "claim": "Erlotinib (DB00530) is a small-molecule oncology agent known from public literature as an EGFR tyrosine kinase inhibitor, but its original indications are not populated in this Evidence Pack and it holds no current Taiwan regulatory approvals in the system.\nThis Evidence Pack contains **no TxGNN-predicted new indications**, no mechanism of action data, and all safety fields are absent, making a standard repurposing assessment impossible at this stage.",
+   "replacement": "This Evidence Pack contains **no TxGNN-predicted new indications**, no mechanism of action data, and all safety fields are absent, making a standard repurposing assessment impossible at this stage.",
+   "note": "Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Erlotinib (DB00530) is a small-molecule oncology agent known from public literature as an EGFR tyrosine kinase inhibitor, but its original i\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-erlotinib-2",
+   "drug": "erlotinib",
+   "file": "erlotinib.md",
+   "action": "correct",
+   "claim": "No Taiwan regulatory authorizations are on record in this Evidence Pack.",
+   "replacement": "",
+   "note": "Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"No Taiwan regulatory authorizations are on record in this Evidence Pack\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）",
+   "anchor": "Currently no related literature available — no predicted indication is available to search against."
+  },
+  {
+   "id": "ca-lic-20261105-erlotinib-3",
+   "drug": "erlotinib",
+   "file": "erlotinib.md",
+   "action": "correct",
+   "claim": "- **[Critical]** Re-run the TxGNN prediction pipeline for Erlotinib to generate `predicted_indications`; without this output, no repurposing report can be written\n- **[Verify]** Cross-check Taiwan regulatory status against the TFDA official database to confirm whether the 0-DIN result reflects a true non-registration or a pipeline ingestion failure\n- **[Nice to have]** Populate `original_indications` from DrugBank or TFDA records to enable indication-bridging analysis once predictions are available",
+   "replacement": "- **[Critical]** Re-run the TxGNN prediction pipeline for Erlotinib to generate `predicted_indications`; without this output, no repurposing report can be written",
+   "note": "Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"**[Verify]** Cross-check Taiwan regulatory status against the TFDA official database to confirm whether the 0-DIN result reflects a true non\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-erlotinib-4",
+   "drug": "erlotinib",
+   "file": "erlotinib.md",
+   "action": "correct",
+   "claim": "> **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally. If a zero-DIN result is unexpected for the Taiwan context, please cross-check directly against the TFDA official database — this may reflect a data ingestion gap in the pipeline rather than actual non-availability in the market.",
+   "replacement": "> **Verification Note:** Erlotinib (Tarceva®) is approved and in clinical use across multiple jurisdictions internationally.",
+   "note": "Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"If a zero-DIN result is unexpected for the Taiwan context, please cross-check directly against the TFDA official database — this may reflect\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：dee6df88f（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-erlotinib-5",
+   "drug": "erlotinib",
+   "file": "erlotinib.md",
+   "action": "correct",
+   "claim": "> Safety data has not yet been ingested into this Evidence Pack. Resolution requires downloading and parsing the TFDA package insert PDF (Data Gap DG001, Blocking severity) before any safety-based evaluation can be conducted.",
+   "replacement": "> Safety data has not yet been ingested into this Evidence Pack.",
+   "note": "Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Resolution requires downloading and parsing the TFDA package insert PDF (Data Gap DG001, Blocking severity) before any safety-based evaluati\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：dee6df88f（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-erlotinib-6",
+   "drug": "erlotinib",
+   "file": "erlotinib.md",
+   "action": "correct",
+   "claim": "- **[Blocking — DG001]** Download the TFDA package insert PDF for Erlotinib and parse it to populate `key_warnings` and `contraindications`\n- **[High — DG002]** Query the DrugBank API for Erlotinib (DB00530) to populate `original_moa` and pharmacological target data",
+   "replacement": "- **[High — DG002]** Query the DrugBank API for Erlotinib (DB00530) to populate `original_moa` and pharmacological target data",
+   "note": "Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"**[Blocking — DG001]** Download the TFDA package insert PDF for Erlotinib and parse it to populate `key_warnings` and `contraindications`\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：dee6df88f（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-esculin-1",
+   "drug": "esculin",
+   "file": "esculin.md",
+   "action": "correct",
+   "claim": "All three products are valid single-ingredient authorisations.",
+   "replacement": "All three products are valid authorisations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-estradiol-1",
+   "drug": "estradiol",
+   "file": "estradiol.md",
+   "action": "correct",
+   "claim": "Estradiol has no recorded Health Canada authorizations in this Evidence Pack (0 DINs). No product-level data is available for review.",
+   "replacement": "No product-level data is available for review.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Estradiol has no recorded Health Canada authorizations in this Evidence Pack (0 DINs)\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-estradiol-2",
+   "drug": "estradiol",
+   "file": "estradiol.md",
+   "action": "correct",
+   "claim": "The absence of records here likely reflects a data collection gap rather than a true regulatory absence. Health Canada's Drug Product Database (DPD) should be consulted directly.",
+   "replacement": "Health Canada's Drug Product Database (DPD) should be consulted directly.",
+   "note": "Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：generic）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"The absence of records here likely reflects a data collection gap rather than a true regulatory absence\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-estradiol-3",
+   "drug": "estradiol",
+   "file": "estradiol.md",
+   "action": "correct",
+   "claim": "- **Download and parse TFDA package insert PDF** for warnings and contraindications (DG001 — Blocking severity)\n- **Query Health Canada DPD** for Estradiol DIN records to populate the regulatory section",
+   "replacement": "- **Query Health Canada DPD** for Estradiol DIN records to populate the regulatory section",
+   "note": "Removed: leftover template text about Taiwan's TFDA, which does not apply to this Canadian page.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：tw）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"**Download and parse TFDA package insert PDF** for warnings and contraindications (DG001 — Blocking severity)\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：dee6df88f（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-etomidate-1",
+   "drug": "etomidate",
+   "file": "etomidate.md",
+   "action": "correct",
+   "claim": "- **Clarify Canada regulatory status** — confirm whether any Etomidate products are approved under a DIN, as the current data shows zero licenses; Etomidate is marketed in several jurisdictions under brand names such as Amidate and requires verification against the Health Canada drug product database\n- **Resubmit Evidence Pack** once the above data sources have been ingested, to generate a complete v5 evaluation",
+   "replacement": "- **Resubmit Evidence Pack** once the above data sources have been ingested, to generate a complete v5 evaluation",
+   "note": "Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 3 DINs for this drug, 2 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：product）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"**Clarify Canada regulatory status** — confirm whether any Etomidate products are approved under a DIN, as the current data shows zero licen\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-famotidine-1",
+   "drug": "famotidine",
+   "file": "famotidine.md",
+   "action": "correct",
+   "claim": "Eighteen single-ingredient licences are valid in total, and none is cancelled.",
+   "replacement": "Eighteen licences are valid in total, and none is cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 18 張（另核准未上市 0 張），其中單方有效 17 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-finasteride-1",
+   "drug": "finasteride",
+   "file": "finasteride.md",
+   "action": "correct",
+   "claim": "Finasteride has 20 valid single-ingredient licenses in Canada, with no cancelled licenses. Dosage form and indication text are not available in the data compiled for this report.",
+   "replacement": "Dosage form and indication text are not available in the data compiled for this report.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Finasteride has 20 valid single-ingredient licenses in Canada, with no cancelled licenses\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-flumethasone-1",
+   "drug": "flumethasone",
+   "file": "flumethasone.md",
+   "action": "correct",
+   "claim": "Both products are valid single-ingredient authorizations; none are cancelled.",
+   "replacement": "Both products are valid authorizations; none are cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 2 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-fluocinolone_acetonide-1",
+   "drug": "fluocinolone_acetonide",
+   "file": "fluocinolone_acetonide.md",
+   "action": "correct",
+   "claim": "All three licences are single-ingredient products and currently valid.",
+   "replacement": "All three licences are currently valid.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 2 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient products and\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-fluorouracil-1",
+   "drug": "fluorouracil",
+   "file": "fluorouracil.md",
+   "action": "correct",
+   "claim": "All 7 licenses are single-ingredient products and currently valid.",
+   "replacement": "All 7 licenses are currently valid.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 7 張（另核准未上市 0 張），其中單方有效 6 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient products and\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-folic_acid-1",
+   "drug": "folic_acid",
+   "file": "folic_acid.md",
+   "action": "correct",
+   "claim": "Nine valid single-ingredient licences are registered in total; the five main ones are shown above.",
+   "replacement": "Nine valid licences are registered in total; the five main ones are shown above.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 7 張（另核准未上市 2 張），其中單方有效 3 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-framycetin-1",
+   "drug": "framycetin",
+   "file": "framycetin.md",
+   "action": "correct",
+   "claim": "All five licences are valid and single-ingredient.",
+   "replacement": "All five licences are valid.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 5 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"and single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-frovatriptan-1",
+   "drug": "frovatriptan",
+   "file": "frovatriptan.md",
+   "action": "correct",
+   "claim": "A sixth authorization (DIN 02535475, FROVATRIPTAN) is also valid. All six are single-ingredient products and none are cancelled.",
+   "replacement": "A sixth authorization (DIN 02535475, FROVATRIPTAN) is also valid.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 6 DINs for this drug, 5 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"All six are single-ingredient products and none are cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-gefitinib-1",
+   "drug": "gefitinib",
+   "file": "gefitinib.md",
+   "action": "correct",
+   "claim": "All five authorisations are valid single-ingredient products.",
+   "replacement": "",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 5 DINs for this drug, 3 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"All five authorisations are valid single-ingredient products\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）",
+   "anchor": "Currently no related literature available for this predicted indication."
+  },
+  {
+   "id": "ca-lic-20261106-glutamic_acid-1",
+   "drug": "glutamic_acid",
+   "file": "glutamic_acid.md",
+   "action": "correct",
+   "claim": "Two further authorizations (OLIMEL 7.6% E, DIN 02477955, and OLIMEL 5.7% E, DIN 02352532) are also valid, bringing the total to 7 single-ingredient DINs.",
+   "replacement": "Two further authorizations (OLIMEL 7.6% E, DIN 02477955, and OLIMEL 5.7% E, DIN 02352532) are also valid, bringing the total to 7 DINs.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 7 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-glycerin-1",
+   "drug": "glycerin",
+   "file": "glycerin.md",
+   "action": "correct",
+   "claim": "There are 13 valid single-ingredient licences in total. The listed products are mainly ophthalmic lubricants, not constipation products.",
+   "replacement": "The listed products are mainly ophthalmic lubricants, not constipation products.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 13 DINs for this drug, 12 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"There are 13 valid single-ingredient licences in total\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-gramicidin_d-1",
+   "drug": "gramicidin_d",
+   "file": "gramicidin_d.md",
+   "action": "correct",
+   "claim": "Gramicidin D is marketed in Canada with 19 valid single-ingredient licenses, none cancelled.",
+   "replacement": "Gramicidin D is marketed in Canada with 19 valid licenses, none cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 19 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-hyaluronidase-1",
+   "drug": "hyaluronidase",
+   "file": "hyaluronidase.md",
+   "action": "correct",
+   "claim": "All five authorizations are valid single-ingredient licenses.",
+   "replacement": "All five authorizations are valid licenses.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 5 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-hydrocortisone_acetate-1",
+   "drug": "hydrocortisone_acetate",
+   "file": "hydrocortisone_acetate.md",
+   "action": "correct",
+   "claim": "Eight single-ingredient licences are valid in Canada; the five above are shown.",
+   "replacement": "Eight licences are valid in Canada; the five above are shown.",
+   "note": "Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 8 DINs for this drug, 8 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 8 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"t single-ingredien\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-hypromellose-1",
+   "drug": "hypromellose",
+   "file": "hypromellose.md",
+   "action": "correct",
+   "claim": "Nine valid single-ingredient licenses are on record in total; the table shows the first five. The product names indicate ophthalmic lubricant products.",
+   "replacement": "The product names indicate ophthalmic lubricant products.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 9 DINs for this drug, 8 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Nine valid single-ingredient licenses are on record in total; the table shows the first five\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-imipenem-1",
+   "drug": "imipenem",
+   "file": "imipenem.md",
+   "action": "correct",
+   "claim": "Both licences are single-ingredient products and both are currently valid.",
+   "replacement": "Both licences are currently valid.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 2 DINs for this drug, 2 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 2 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"are single-ingredient products and both\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-insulin_aspart-1",
+   "drug": "insulin_aspart",
+   "file": "insulin_aspart.md",
+   "action": "correct",
+   "claim": "Ten valid single-ingredient DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30).",
+   "replacement": "Ten valid DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30).",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 9 張（另核准未上市 1 張），其中單方有效 8 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-insulin_detemir-1",
+   "drug": "insulin_detemir",
+   "file": "insulin_detemir.md",
+   "action": "correct",
+   "claim": "Several completed Phase 3 trials and multiple systematic reviews and meta-analyses support insulin detemir in type 1 diabetes, and the drug is marketed in Canada.",
+   "replacement": "Several completed Phase 3 trials and multiple systematic reviews and meta-analyses support insulin detemir in type 1 diabetes.",
+   "note": "Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 1 DIN for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "DPD：LEVEMIR PENFILL 02271842 Dormant（2026-07-24）、FLEXTOUCH 已註銷，「marketed in Canada」不對；同句含療效證據，用戶決定只刪錯的子句",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"and the drug is marketed in Canada\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-insulin_glargine-1",
+   "drug": "insulin_glargine",
+   "file": "insulin_glargine.md",
+   "action": "correct",
+   "claim": "Nine DINs are valid in total (all single-ingredient products).",
+   "replacement": "Nine DINs are valid in total.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 9 DINs for this drug, 9 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 9 張（另核准未上市 0 張），其中單方有效 8 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"(all single-ingredient products)\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-insulin_lispro-1",
+   "drug": "insulin_lispro",
+   "file": "insulin_lispro.md",
+   "action": "correct",
+   "claim": "All 12 licences are valid single-ingredient products (none cancelled).",
+   "replacement": "All 12 licences are valid products (none cancelled).",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 12 張（另核准未上市 0 張），其中單方有效 8 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-ioversol-1",
+   "drug": "ioversol",
+   "file": "ioversol.md",
+   "action": "correct",
+   "claim": "Ioversol is an iodinated contrast agent marketed in Canada under the brand name OPTIRAY, but the data compiled for this report contain no approved-indication text for it.\nThe TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials** and **no publication that studies ioversol itself in this disease** support the prediction.",
+   "replacement": "Ioversol is an iodinated contrast agent, but the data compiled for this report contain no approved-indication text for it.\nThe TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials** and **no publication that studies ioversol itself in this disease** support the prediction.",
+   "note": "Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 2 DINs for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：product）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"marketed in Canada under the brand name OPTIRAY\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）、343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-ipratropium-1",
+   "drug": "ipratropium",
+   "file": "ipratropium.md",
+   "action": "correct",
+   "claim": "Twelve single-ingredient licences are valid in Canada.",
+   "replacement": "Twelve licences are valid in Canada.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 12 張（另核准未上市 0 張），其中單方有效 9 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-irbesartan-1",
+   "drug": "irbesartan",
+   "file": "irbesartan.md",
+   "action": "correct",
+   "claim": "Irbesartan is a marketed single-ingredient product with 20 valid licences (none cancelled). The data compiled for this report do not include dosage forms or approved indication text.",
+   "replacement": "Irbesartan is a marketed single-ingredient product. The data compiled for this report do not include dosage forms or approved indication text.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"with 20 valid licences (none cancelled)\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）、343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-irinotecan-1",
+   "drug": "irinotecan",
+   "file": "irinotecan.md",
+   "action": "correct",
+   "claim": "Nine valid single-ingredient DINs are listed in total. Only the first five are shown here.",
+   "replacement": "Only the first five are shown here.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 9 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Nine valid single-ingredient DINs are listed in total\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-itraconazole-1",
+   "drug": "itraconazole",
+   "file": "itraconazole.md",
+   "action": "correct",
+   "claim": "All four authorisations are valid single-ingredient products.",
+   "replacement": "",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 4 DINs for this drug, 3 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"All four authorisations are valid single-ingredient products\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）",
+   "anchor": "The publications retrieved are mostly reviews and case series about opportunistic infections in immunocompromised patients. None demonstrates that itraconazole treats pneumocystosis. The table lists the most relevant ones."
+  },
+  {
+   "id": "ca-lic-20261106-ivacaftor-1",
+   "drug": "ivacaftor",
+   "file": "ivacaftor.md",
+   "action": "correct",
+   "claim": "Ivacaftor is authorized in Canada under 15 valid single-ingredient licences.",
+   "replacement": "Ivacaftor is authorized in Canada under 15 valid licences.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 15 張（另核准未上市 0 張），其中單方有效 5 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-ketorolac-1",
+   "drug": "ketorolac",
+   "file": "ketorolac.md",
+   "action": "correct",
+   "claim": "The 14 valid single-ingredient licences are listed below (up to 5 shown). Approved indication text and dosage form were not available in the compiled data.",
+   "replacement": "Approved indication text and dosage form were not available in the compiled data.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 14 DINs for this drug, 11 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"The 14 valid single-ingredient licences are listed below (up to 5 shown)\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-labetalol-1",
+   "drug": "labetalol",
+   "file": "labetalol.md",
+   "action": "correct",
+   "claim": "Eleven valid single-ingredient licences are listed in total. The five above are shown as the main ones.",
+   "replacement": "The five above are shown as the main ones.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 11 DINs for this drug, 10 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Eleven valid single-ingredient licences are listed in total\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-lacosamide-1",
+   "drug": "lacosamide",
+   "file": "lacosamide.md",
+   "action": "correct",
+   "claim": "Lacosamide has 20 valid single-ingredient licences in Canada. Dosage form and approved-indication text were not available for these records.",
+   "replacement": "Dosage form and approved-indication text were not available for these records.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Lacosamide has 20 valid single-ingredient licences in Canada\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-lactic_acid-1",
+   "drug": "lactic_acid",
+   "file": "lactic_acid.md",
+   "action": "correct",
+   "claim": "Lactic acid is marketed in Canada in three single-ingredient products (PRISMASOL and PRISMOCAL solutions), but the compiled data do not state an approved indication for them.",
+   "replacement": "Lactic acid is marketed in Canada in three products (PRISMASOL and PRISMOCAL solutions), but the compiled data do not state an approved indication for them.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-lactic_acid-2",
+   "drug": "lactic_acid",
+   "file": "lactic_acid.md",
+   "action": "correct",
+   "claim": "In Canada it is marketed in three single-ingredient products with the brand names PRISMOCAL and PRISMASOL, but the data compiled for this report do not describe their approved use.",
+   "replacement": "In Canada it is marketed in three products with the brand names PRISMOCAL and PRISMASOL, but the data compiled for this report do not describe their approved use.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-latanoprost-1",
+   "drug": "latanoprost",
+   "file": "latanoprost.md",
+   "action": "correct",
+   "claim": "Latanoprost has 17 valid single-entry licences in Canada and no cancelled ones. Dosage form and approved indication text were not available for these products.",
+   "replacement": "Dosage form and approved indication text were not available for these products.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 17 DINs for this drug, 16 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Latanoprost has 17 valid single-entry licences in Canada and no cancelled ones\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261112-leflunomide-1",
+   "drug": "leflunomide",
+   "file": "leflunomide.md",
+   "action": "correct",
+   "claim": "Leflunomide is marketed in Canada with 18 valid single-ingredient licences, none cancelled.",
+   "replacement": "Leflunomide is marketed in Canada.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 18 DINs for this drug, 16 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "DPD 2026-11-09：共 18 張、有效 16、註銷 2（02241889、02241888）；「18 張有效、沒有註銷」與事實不符，只刪張數子句（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "checked": "2026-11-12",
+   "summary": "Removed: \"with 18 valid single-ingredient licences, none cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2026-11-12（11-09 排程後跟新事實矛盾，checker M3）（2026-11-12）"
+  },
+  {
+   "id": "ca-lic-20261105-levetiracetam-1",
+   "drug": "levetiracetam",
+   "file": "levetiracetam.md",
+   "action": "correct",
+   "claim": "There are 20 valid single-ingredient authorizations. Dosage form and approved indication text were not available.",
+   "replacement": "Dosage form and approved indication text were not available.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"There are 20 valid single-ingredient authorizations\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-levofloxacin-1",
+   "drug": "levofloxacin",
+   "file": "levofloxacin.md",
+   "action": "correct",
+   "claim": "All 17 licences in the local records are valid single-ingredient products.",
+   "replacement": "All 17 licences in the local records are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 17 張（另核准未上市 0 張），其中單方有效 16 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-loperamide-1",
+   "drug": "loperamide",
+   "file": "loperamide.md",
+   "action": "correct",
+   "claim": "There are 14 valid single-ingredient licences in total. None is cancelled, and none is a combination product.",
+   "replacement": "There are 14 valid licences in total. None is cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 14 張（另核准未上市 0 張），其中單方有效 13 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient , and none is a combination product\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-lorazepam-1",
+   "drug": "lorazepam",
+   "file": "lorazepam.md",
+   "action": "correct",
+   "claim": "Lorazepam has 19 valid single-ingredient authorizations in Canada. Dosage form and approved-indication text were not available in the data compiled for this report.",
+   "replacement": "Dosage form and approved-indication text were not available in the data compiled for this report.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 19 DINs for this drug, 17 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Lorazepam has 19 valid single-ingredient authorizations in Canada\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261031-lurasidone-1",
+   "drug": "lurasidone",
+   "file": "lurasidone.md",
+   "action": "correct",
+   "claim": "The indication is largely on-label, but the only mania-specific trial was withdrawn with no participants, and most of the literature addresses bipolar depression. Evidence for acute mania is therefore insufficient to recommend advancing.",
+   "replacement": "Evidence for acute mania is therefore insufficient to recommend advancing.",
+   "note": "Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "checked": "2026-10-31",
+   "summary": "Removed: \"The indication is largely on-label, but the only mania-specific trial was withdrawn with no participants, and most of the literature address\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d8e822621（2026-10-31）"
+  },
+  {
+   "id": "ca-lic-20261105-lurasidone-2",
+   "drug": "lurasidone",
+   "file": "lurasidone.md",
+   "action": "correct",
+   "claim": "These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada. The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products).",
+   "replacement": "The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products).",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-lurbinectedin-1",
+   "drug": "lurbinectedin",
+   "file": "lurbinectedin.md",
+   "action": "correct",
+   "claim": "Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text.\nThe TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction, so it is a model-only hypothesis.",
+   "replacement": "The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction, so it is a model-only hypothesis.",
+   "note": "Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 1 DIN for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：product）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-lutropin_alfa-1",
+   "drug": "lutropin_alfa",
+   "file": "lutropin_alfa.md",
+   "action": "correct",
+   "claim": "All four authorizations are valid single-ingredient licenses; none is cancelled.",
+   "replacement": "All four authorizations are valid licenses; none is cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 4 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-magnesium_hydroxide-1",
+   "drug": "magnesium_hydroxide",
+   "file": "magnesium_hydroxide.md",
+   "action": "correct",
+   "claim": "All are listed as valid single-ingredient records.",
+   "replacement": "All are listed as valid records.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 4 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-magnesium_sulfate-1",
+   "drug": "magnesium_sulfate",
+   "file": "magnesium_sulfate.md",
+   "action": "correct",
+   "claim": "Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid single-ingredient products.",
+   "replacement": "Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 8 張（另核准未上市 0 張），其中單方有效 4 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-mannitol-1",
+   "drug": "mannitol",
+   "file": "mannitol.md",
+   "action": "correct",
+   "claim": "Mannitol holds 10 valid single-ingredient authorizations in Canada. Dosage form and approved indication text are not available for these products.",
+   "replacement": "Dosage form and approved indication text are not available for these products.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 10 DINs for this drug, 9 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Mannitol holds 10 valid single-ingredient authorizations in Canada\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-memantine-1",
+   "drug": "memantine",
+   "file": "memantine.md",
+   "action": "correct",
+   "claim": "Ten valid single-ingredient licenses are listed (none cancelled). The five main ones are below.",
+   "replacement": "The five main ones are below.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 10 DINs for this drug, 9 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Ten valid single-ingredient licenses are listed (none cancelled)\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-mepyramine-1",
+   "drug": "mepyramine",
+   "file": "mepyramine.md",
+   "action": "correct",
+   "claim": "Both licenses are valid single-ingredient authorizations.",
+   "replacement": "Both licenses are valid authorizations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 2 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-meropenem-1",
+   "drug": "meropenem",
+   "file": "meropenem.md",
+   "action": "correct",
+   "claim": "All 16 authorizations are valid single-ingredient products; the table lists five of them.",
+   "replacement": "All 16 authorizations are valid products; the table lists five of them.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 16 張（另核准未上市 0 張），其中單方有效 15 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-metformin-1",
+   "drug": "metformin",
+   "file": "metformin.md",
+   "action": "correct",
+   "claim": "Health Canada lists 20 valid single-ingredient licences, with no cancelled ones. Dosage form and indication text were not available in the data compiled for this report.",
+   "replacement": "Dosage form and indication text were not available in the data compiled for this report.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Health Canada lists 20 valid single-ingredient licences, with no cancelled ones\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-methocarbamol-1",
+   "drug": "methocarbamol",
+   "file": "methocarbamol.md",
+   "action": "correct",
+   "claim": "All 16 licences are valid single-ingredient authorizations.",
+   "replacement": "All 16 licences are valid authorizations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 15 張（另核准未上市 1 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-methotrexate-1",
+   "drug": "methotrexate",
+   "file": "methotrexate.md",
+   "action": "correct",
+   "claim": "Methotrexate has 20 valid single-ingredient authorizations in Canada and none have been cancelled. The records compiled for this report do not include dosage form or approved-indication text.",
+   "replacement": "The records compiled for this report do not include dosage form or approved-indication text.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Methotrexate has 20 valid single-ingredient authorizations in Canada and none have been cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-methylene_blue-1",
+   "drug": "methylene_blue",
+   "file": "methylene_blue.md",
+   "action": "correct",
+   "claim": "All four licences are valid single-ingredient products.",
+   "replacement": "All four licences are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 4 張（另核准未上市 0 張），其中單方有效 3 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-methylprednisolone-1",
+   "drug": "methylprednisolone",
+   "file": "methylprednisolone.md",
+   "action": "correct",
+   "claim": "Methylprednisolone is currently marketed in Canada, and all recorded licences are valid single-ingredient products.",
+   "replacement": "Methylprednisolone is currently marketed in Canada, and all recorded licences are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 14 張（另核准未上市 0 張），其中單方有效 13 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-metronidazole-1",
+   "drug": "metronidazole",
+   "file": "metronidazole.md",
+   "action": "correct",
+   "claim": "Fifteen valid single-ingredient licences are listed in total; the table shows the first five.",
+   "replacement": "Fifteen valid licences are listed in total; the table shows the first five.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 15 張（另核准未上市 0 張），其中單方有效 13 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-micafungin-1",
+   "drug": "micafungin",
+   "file": "micafungin.md",
+   "action": "correct",
+   "claim": "Eight valid single-ingredient licences are on record in total; the first five are listed here.",
+   "replacement": "",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 8 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Eight valid single-ingredient licences are on record in total; the first five are listed here\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）",
+   "anchor": "- **Disease associations from the knowledge graph** (not label text): kidney disease and pyoureter are linked to micafungin as contraindication-type associations. This deserves attention given the intended urinary tract use.\n- **Drug Interactions** (5 moderate-level interactions identified):\n  - Amphotericin B\n  - Nitisinone\n  - Everolimus\n  - Ribociclib\n  - Sirolimus"
+  },
+  {
+   "id": "ca-lic-20261106-monopotassium_phosphate-1",
+   "drug": "monopotassium_phosphate",
+   "file": "monopotassium_phosphate.md",
+   "action": "correct",
+   "claim": "All five licences are valid single-ingredient authorizations.",
+   "replacement": "All five licences are valid authorizations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 5 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-naphazoline-1",
+   "drug": "naphazoline",
+   "file": "naphazoline.md",
+   "action": "correct",
+   "claim": "All 8 authorizations are valid single-ingredient products. The compiled records do not include dosage form or approved indication text.",
+   "replacement": "The compiled records do not include dosage form or approved indication text.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 8 DINs for this drug, 7 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"All 8 authorizations are valid single-ingredient products\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-niraparib-1",
+   "drug": "niraparib",
+   "file": "niraparib.md",
+   "action": "correct",
+   "claim": "All three licences are valid single-ingredient authorisations.",
+   "replacement": "All three licences are valid authorisations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-nitrogen-1",
+   "drug": "nitrogen",
+   "file": "nitrogen.md",
+   "action": "correct",
+   "claim": "The first 5 of 14 valid single-ingredient licences are shown.",
+   "replacement": "The first 5 of 14 valid licences are shown.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 14 張（另核准未上市 0 張），其中單方有效 7 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-nitroglycerin-1",
+   "drug": "nitroglycerin",
+   "file": "nitroglycerin.md",
+   "action": "correct",
+   "claim": "Eighteen valid single-ingredient licences are held in Canada.",
+   "replacement": "Eighteen valid licences are held in Canada.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 18 張（另核准未上市 0 張），其中單方有效 16 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-nitrous_oxide-1",
+   "drug": "nitrous_oxide",
+   "file": "nitrous_oxide.md",
+   "action": "correct",
+   "claim": "A sixth licence, ALNOX GAS (DIN 02071010), is also valid. All 6 licences are single-ingredient products.",
+   "replacement": "A sixth licence, ALNOX GAS (DIN 02071010), is also valid.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 6 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 6 張（另核准未上市 0 張），其中單方有效 3 張；句子說全部是單方，與事實不符，刪掉「單方」後句子沒有內容，整句刪（2026-11-06 用戶決定：單方／複方說法只刪錯的詞或子句）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"All 6 licences are single-ingredient products\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-norgestimate-1",
+   "drug": "norgestimate",
+   "file": "norgestimate.md",
+   "action": "correct",
+   "claim": "Showing 5 of 6 valid single-ingredient authorizations.",
+   "replacement": "Showing 5 of 6 valid authorizations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 6 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-octinoxate-1",
+   "drug": "octinoxate",
+   "file": "octinoxate.md",
+   "action": "correct",
+   "claim": "Octinoxate has 20 valid single-ingredient licences in Canada, with no cancelled licences. The licence records do not include dosage forms or approved indication text.",
+   "replacement": "The licence records do not include dosage forms or approved indication text.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Octinoxate has 20 valid single-ingredient licences in Canada, with no cancelled licences\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-octreotide-1",
+   "drug": "octreotide",
+   "file": "octreotide.md",
+   "action": "correct",
+   "claim": "These are 5 of the 14 valid single-ingredient authorizations. None are cancelled.",
+   "replacement": "",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 14 DINs for this drug, 10 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"These are 5 of the 14 valid single-ingredient authorizations. None are cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）",
+   "anchor": "Currently no related literature available for the top predicted indication."
+  },
+  {
+   "id": "ca-lic-20261106-olopatadine-1",
+   "drug": "olopatadine",
+   "file": "olopatadine.md",
+   "action": "correct",
+   "claim": "Olopatadine has 10 valid single-ingredient authorizations in Canada and none are cancelled.",
+   "replacement": "Olopatadine has 10 valid authorizations in Canada and none are cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 10 張（另核准未上市 0 張），其中單方有效 9 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-omeprazole-1",
+   "drug": "omeprazole",
+   "file": "omeprazole.md",
+   "action": "correct",
+   "claim": "Fourteen single-ingredient licences are valid in Canada and none are cancelled. Only five are shown here.",
+   "replacement": "Only five are shown here.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 14 DINs for this drug, 11 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Fourteen single-ingredient licences are valid in Canada and none are cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-pantoprazole-1",
+   "drug": "pantoprazole",
+   "file": "pantoprazole.md",
+   "action": "correct",
+   "claim": "Health Canada lists 20 valid single-ingredient pantoprazole authorizations. Dosage form and approved indication text are not available for these records.",
+   "replacement": "Dosage form and approved indication text are not available for these records.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Health Canada lists 20 valid single-ingredient pantoprazole authorizations\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-pantoprazole-2",
+   "drug": "pantoprazole",
+   "file": "pantoprazole.md",
+   "action": "correct",
+   "claim": "Pantoprazole is already marketed in Canada with 20 valid authorizations, and its acid-suppressing mechanism directly fits ulcer healing.",
+   "replacement": "Pantoprazole is already marketed in Canada, and its acid-suppressing mechanism directly fits ulcer healing.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"with 20 valid authorizations\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-pantothenic_acid-1",
+   "drug": "pantothenic_acid",
+   "file": "pantothenic_acid.md",
+   "action": "correct",
+   "claim": "All five licences are valid single-ingredient entries, with none cancelled.",
+   "replacement": "All five licences are valid entries, with none cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 2 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-pertuzumab-1",
+   "drug": "pertuzumab",
+   "file": "pertuzumab.md",
+   "action": "correct",
+   "claim": "All four authorizations are valid single-ingredient licences.",
+   "replacement": "All four authorizations are valid licences.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 4 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-pheniramine-1",
+   "drug": "pheniramine",
+   "file": "pheniramine.md",
+   "action": "correct",
+   "claim": "All 9 licences below are valid single-ingredient products. Dosage form and approved indication text were not available.",
+   "replacement": "Dosage form and approved indication text were not available.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 9 DINs for this drug, 7 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"All 9 licences below are valid single-ingredient products\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-pheniramine-2",
+   "drug": "pheniramine",
+   "file": "pheniramine.md",
+   "action": "correct",
+   "claim": "Four more licences are valid: CALMYLIN ACE (02198630), NEOCITRAN COLD & SORE THROAT NIGHT (02246602), HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU EXTRA STRENGTH (02238890) and HOT LEMON RELIEF FOR SYMPTOMS OF COLD AND FLU REGULAR STRENGTH (02047349).",
+   "replacement": "",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 9 DINs for this drug, 7 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依 Health Canada DPD（2026-11-05 Release）本藥 DIN 9 張、有效 7 張，表列 5 張中有效 4 張，表外有效只有 3 張；句中點名的 NEOCITRAN COLD & SORE THROAT NIGHT（02246602）已註銷，「另 4 張有效」與事實不符；張數與清單交織，刪掉錯的部分只剩殘句，整句刪（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"Four more licences are valid: CALMYLIN ACE (02198630), NEOCITRAN COLD & SORE THROAT NIGHT (02246602), HOT LEMON RELIEF FOR SYMPTOMS OF COLD \"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：5b78f0c9d（2026-11-06）",
+   "anchor": "Dosage form and approved indication text were not available."
+  },
+  {
+   "id": "ca-lic-20261105-phenylephrine-1",
+   "drug": "phenylephrine",
+   "file": "phenylephrine.md",
+   "action": "correct",
+   "claim": "These are 5 of 20 valid single-ingredient licences. The others include over-the-counter cold and sinus products (for example Extra Strength Tylenol Sinus Daytime, Neocitran, Benylin, Dayquil/Nyquil) and Preparation H-PE Gel.",
+   "replacement": "The others include over-the-counter cold and sinus products (for example Extra Strength Tylenol Sinus Daytime, Neocitran, Benylin, Dayquil/Nyquil) and Preparation H-PE Gel.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"These are 5 of 20 valid single-ingredient licences\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-piperacillin-1",
+   "drug": "piperacillin",
+   "file": "piperacillin.md",
+   "action": "correct",
+   "claim": "The 16 valid Canadian authorizations are all single-ingredient entries named \"Piperacillin and Tazobactam for Injection\".",
+   "replacement": "The 16 valid Canadian authorizations are all entries named \"Piperacillin and Tazobactam for Injection\".",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 16 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-polyethylene_glycol-1",
+   "drug": "polyethylene_glycol",
+   "file": "polyethylene_glycol.md",
+   "action": "correct",
+   "claim": "All four licences are valid single-ingredient products.",
+   "replacement": "All four licences are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 4 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-polyethylene_glycol_400-1",
+   "drug": "polyethylene_glycol_400",
+   "file": "polyethylene_glycol_400.md",
+   "action": "correct",
+   "claim": "All three licences are valid single-ingredient products, and all are eye-care products.",
+   "replacement": "All three licences are valid products, and all are eye-care products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-polyvinyl_alcohol-1",
+   "drug": "polyvinyl_alcohol",
+   "file": "polyvinyl_alcohol.md",
+   "action": "correct",
+   "claim": "All three products are valid single-ingredient authorizations.",
+   "replacement": "All three products are valid authorizations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-povidone-1",
+   "drug": "povidone",
+   "file": "povidone.md",
+   "action": "correct",
+   "claim": "All three products are currently valid single-ingredient authorizations.",
+   "replacement": "All three products are currently valid authorizations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 3 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-pramocaine-1",
+   "drug": "pramocaine",
+   "file": "pramocaine.md",
+   "action": "correct",
+   "claim": "Twelve single-ingredient licences are currently valid in Canada.",
+   "replacement": "Twelve licences are currently valid in Canada.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 12 張（另核准未上市 0 張），其中單方有效 2 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261031-pregabalin-1",
+   "drug": "pregabalin",
+   "file": "pregabalin.md",
+   "action": "correct",
+   "claim": "Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn. The L1 grade is provisional and should be verified by reading the trials in full.",
+   "replacement": "The L1 grade is provisional and should be verified by reading the trials in full.",
+   "note": "Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "checked": "2026-10-31",
+   "summary": "Removed: \"Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d8e822621（2026-10-31）"
+  },
+  {
+   "id": "ca-lic-20261031-pregabalin-2",
+   "drug": "pregabalin",
+   "file": "pregabalin.md",
+   "action": "correct",
+   "claim": "- The only Phase 3 migraine trial was withdrawn, and the supporting clinical evidence is mostly small pediatric trials, so the provisional L1 grade overstates the strength of evidence. The package insert warnings are also missing, which blocks safety screening.",
+   "replacement": "The package insert warnings are also missing, which blocks safety screening.",
+   "note": "Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-10-31).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-10-31"
+    }
+   ],
+   "checked": "2026-10-31",
+   "summary": "Removed: \"The only Phase 3 migraine trial was withdrawn, and the supporting clinical evidence is mostly small pediatric trials, so the provisional L1 \"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d8e822621（2026-10-31）"
+  },
+  {
+   "id": "ca-lic-20261106-prilocaine-1",
+   "drug": "prilocaine",
+   "file": "prilocaine.md",
+   "action": "correct",
+   "claim": "All six are single-ingredient authorizations with valid status.",
+   "replacement": "All six are authorizations with valid status.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 6 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-progesterone-1",
+   "drug": "progesterone",
+   "file": "progesterone.md",
+   "action": "correct",
+   "claim": "Progesterone has 12 valid single-ingredient licences in Canada.",
+   "replacement": "Progesterone has 12 valid licences in Canada.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 12 張（另核准未上市 0 張），其中單方有效 11 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261112-pseudoephedrine-1",
+   "drug": "pseudoephedrine",
+   "file": "pseudoephedrine.md",
+   "action": "correct",
+   "claim": "Pseudoephedrine is marketed in Canada under 20 valid single-ingredient licences.",
+   "replacement": "Pseudoephedrine is marketed in Canada.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12).",
+   "finding": "DPD 2026-11-09：至少 19 張有效、1 張註銷（部分紀錄）；「20 張有效」與事實不符，只刪張數子句（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "checked": "2026-11-12",
+   "summary": "Removed: \"under 20 valid single-ingredient licences\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2026-11-12（11-09 排程後跟新事實矛盾，checker M3）（2026-11-12）"
+  },
+  {
+   "id": "ca-lic-20261106-quinapril-1",
+   "drug": "quinapril",
+   "file": "quinapril.md",
+   "action": "correct",
+   "claim": "These are 5 of 14 valid single-ingredient authorizations.",
+   "replacement": "These are 5 of 14 valid authorizations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 14 張（另核准未上市 0 張），其中單方有效 6 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-ramipril-1",
+   "drug": "ramipril",
+   "file": "ramipril.md",
+   "action": "correct",
+   "claim": "Ramipril is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. Dosage form and approved indication text are not available in the compiled data.",
+   "replacement": "Ramipril is marketed in Canada. Dosage form and approved indication text are not available in the compiled data.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"with 20 valid single-ingredient licences and no cancelled licences\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）、343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-ritonavir-1",
+   "drug": "ritonavir",
+   "file": "ritonavir.md",
+   "action": "correct",
+   "claim": "Seven valid licences are on record (all single-ingredient entries); the five main ones are shown above.",
+   "replacement": "",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 7 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Seven valid licences are on record (all single-ingredient entries); the five main ones are shown above\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）",
+   "anchor": "Most of these studies involve combination regimens, and ritonavir-specific effects cannot always be confirmed from the data provided."
+  },
+  {
+   "id": "ca-lic-20261105-rivastigmine-1",
+   "drug": "rivastigmine",
+   "file": "rivastigmine.md",
+   "action": "correct",
+   "claim": "The compiled data list 20 valid single-ingredient licences, but dosage form and approved indication text are not recorded. The first five are shown below.",
+   "replacement": "The first five are shown below.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"The compiled data list 20 valid single-ingredient licences, but dosage form and approved indication text are not recorded\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261105-salicylic_acid-1",
+   "drug": "salicylic_acid",
+   "file": "salicylic_acid.md",
+   "action": "correct",
+   "claim": "Two further single-ingredient licences are valid: CANTHARONE PLUS (00772011) and TARDAN SHP (00266493). None are cancelled.",
+   "replacement": "Two further single-ingredient licences are valid: CANTHARONE PLUS (00772011) and TARDAN SHP (00266493).",
+   "note": "Removed: it said the DINs were cancelled, discontinued, or not current, which did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 7 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"None are cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261112-sennosides-1",
+   "drug": "sennosides",
+   "file": "sennosides.md",
+   "action": "correct",
+   "claim": "All five licences are currently valid.",
+   "replacement": "",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 5 DINs for this drug, 4 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "DPD 2026-11-09：共 5 張、有效 4、註銷 1（02247390）；「5 張全部有效」與事實不符，整句（整段）刪（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "checked": "2026-11-12",
+   "summary": "Removed: \"All five licences are currently valid\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2026-11-12（11-09 排程後跟新事實矛盾，checker M3）（2026-11-12）",
+   "anchor": "Currently no related literature available."
+  },
+  {
+   "id": "ca-lic-20261106-serine-1",
+   "drug": "serine",
+   "file": "serine.md",
+   "action": "correct",
+   "claim": "Serine is marketed in Canada through 20 valid single-ingredient licences, mainly parenteral nutrition products.",
+   "replacement": "Serine is marketed in Canada through 20 valid licences, mainly parenteral nutrition products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 20 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-simvastatin-1",
+   "drug": "simvastatin",
+   "file": "simvastatin.md",
+   "action": "correct",
+   "claim": "Simvastatin is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. Dosage form and approved-indication text were not available for these licences.",
+   "replacement": "Simvastatin is marketed in Canada. Dosage form and approved-indication text were not available for these licences.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"with 20 valid single-ingredient licences and no cancelled licences\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）、343992d0e（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-sodium_citrate-1",
+   "drug": "sodium_citrate",
+   "file": "sodium_citrate.md",
+   "action": "correct",
+   "claim": "A total of 12 valid single-ingredient licences are on the Canadian market (none cancelled).",
+   "replacement": "A total of 12 valid licences are on the Canadian market (none cancelled).",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 11 張（另核准未上市 1 張），其中單方有效 3 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-sodium_sulfate-1",
+   "drug": "sodium_sulfate",
+   "file": "sodium_sulfate.md",
+   "action": "correct",
+   "claim": "All six licences are single-ingredient, currently valid, and none are cancelled.",
+   "replacement": "All six licences are currently valid, and none are cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 6 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-soybean_oil-1",
+   "drug": "soybean_oil",
+   "file": "soybean_oil.md",
+   "action": "correct",
+   "claim": "Health Canada lists 13 valid single-ingredient licences.",
+   "replacement": "Health Canada lists 13 valid licences.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 13 張（另核准未上市 0 張），其中單方有效 1 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-spironolactone-1",
+   "drug": "spironolactone",
+   "file": "spironolactone.md",
+   "action": "correct",
+   "claim": "Ten single-ingredient authorisations are valid, none cancelled. Dosage form and approved indication text are not available in the compiled data.",
+   "replacement": "Dosage form and approved indication text are not available in the compiled data.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 10 DINs for this drug, 8 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Ten single-ingredient authorisations are valid, none cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-tamsulosin-1",
+   "drug": "tamsulosin",
+   "file": "tamsulosin.md",
+   "action": "correct",
+   "claim": "Five of the 10 valid single-ingredient authorisations are listed here.",
+   "replacement": "Five of the 10 valid authorisations are listed here.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 10 張（另核准未上市 0 張），其中單方有效 9 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-teriparatide-1",
+   "drug": "teriparatide",
+   "file": "teriparatide.md",
+   "action": "correct",
+   "claim": "All four licences are valid single-ingredient products.",
+   "replacement": "",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 4 DINs for this drug, 3 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"All four licences are valid single-ingredient products\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）",
+   "anchor": "**Amenorrhea (rank 10)**"
+  },
+  {
+   "id": "ca-lic-20261106-tetracaine-1",
+   "drug": "tetracaine",
+   "file": "tetracaine.md",
+   "action": "correct",
+   "claim": "Seven valid single-ingredient licences are on record in total; the five main ones are shown above.",
+   "replacement": "Seven valid licences are on record in total; the five main ones are shown above.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 7 張（另核准未上市 0 張），其中單方有效 3 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-tetryzoline-1",
+   "drug": "tetryzoline",
+   "file": "tetryzoline.md",
+   "action": "correct",
+   "claim": "All 10 licences are valid single-ingredient products.",
+   "replacement": "All 10 licences are valid products.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 10 張（另核准未上市 0 張），其中單方有效 2 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-thiamine-1",
+   "drug": "thiamine",
+   "file": "thiamine.md",
+   "action": "correct",
+   "claim": "All nine licences below are valid single-ingredient records.",
+   "replacement": "All nine licences below are valid records.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 7 張（另核准未上市 2 張），其中單方有效 2 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-titanium_dioxide-1",
+   "drug": "titanium_dioxide",
+   "file": "titanium_dioxide.md",
+   "action": "correct",
+   "claim": "There are 20 valid single-ingredient licences in total. All are sunscreen or cosmetic-type products.",
+   "replacement": "All are sunscreen or cosmetic-type products.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"There are 20 valid single-ingredient licences in total\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-tobramycin-1",
+   "drug": "tobramycin",
+   "file": "tobramycin.md",
+   "action": "correct",
+   "claim": "Fourteen valid single-ingredient licences are listed in Canada.",
+   "replacement": "Fourteen valid licences are listed in Canada.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 14 張（另核准未上市 0 張），其中單方有效 12 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-topiramate-1",
+   "drug": "topiramate",
+   "file": "topiramate.md",
+   "action": "correct",
+   "claim": "There are 20 valid single-ingredient licences in total, and none are cancelled. Other brands include JAMP, GLN, AURO, PRO, MINT, MYLAN and NRA topiramate products.",
+   "replacement": "Other brands include JAMP, GLN, AURO, PRO, MINT, MYLAN and NRA topiramate products.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"There are 20 valid single-ingredient licences in total, and none are cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-trastuzumab-1",
+   "drug": "trastuzumab",
+   "file": "trastuzumab.md",
+   "action": "correct",
+   "claim": "Health Canada lists 15 valid single-ingredient licences.",
+   "replacement": "Health Canada lists 15 valid licences.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 15 張（另核准未上市 0 張），其中單方有效 11 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261112-travoprost-1",
+   "drug": "travoprost",
+   "file": "travoprost.md",
+   "action": "correct",
+   "claim": "The drug is marketed, and 6 of the 6 licenses are valid, with none cancelled.",
+   "replacement": "The drug is marketed.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 6 DINs for this drug, 5 marketed; the Quick Overview and the table under Canada Market Information show the current figures.",
+   "finding": "DPD 2026-11-09：共 6 張、有效 5、註銷 1（02457997）；「6 張全部有效、沒有註銷」與事實不符，只刪張數子句；DUOTRAV PQ（02278251）仍有效，前一句保留（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-12"
+    }
+   ],
+   "checked": "2026-11-12",
+   "summary": "Removed: \"and 6 of the 6 licenses are valid, with none cancelled\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2026-11-12（11-09 排程後跟新事實矛盾，checker M3）（2026-11-12）"
+  },
+  {
+   "id": "ca-lic-20261106-tretinoin-1",
+   "drug": "tretinoin",
+   "file": "tretinoin.md",
+   "action": "correct",
+   "claim": "Ten valid single-ingredient licences are on record in total; the five above are shown.",
+   "replacement": "Ten valid licences are on record in total; the five above are shown.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 9 張（另核准未上市 1 張），其中單方有效 8 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-triamcinolone-1",
+   "drug": "triamcinolone",
+   "file": "triamcinolone.md",
+   "action": "correct",
+   "claim": "Triamcinolone has 16 valid single-ingredient licences in Canada and none cancelled.",
+   "replacement": "Triamcinolone has 16 valid licences in Canada and none cancelled.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 16 張（另核准未上市 0 張），其中單方有效 12 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-trimethoprim-1",
+   "drug": "trimethoprim",
+   "file": "trimethoprim.md",
+   "action": "correct",
+   "claim": "Eight valid single-ingredient authorizations are listed in total; the five above are shown.",
+   "replacement": "Eight valid authorizations are listed in total; the five above are shown.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 8 張（另核准未上市 0 張），其中單方有效 2 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-trolamine_salicylate-1",
+   "drug": "trolamine_salicylate",
+   "file": "trolamine_salicylate.md",
+   "action": "correct",
+   "claim": "These are 5 of 11 valid single-ingredient licences.",
+   "replacement": "These are 5 of 11 valid licences.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 11 張（另核准未上市 0 張），其中單方有效 10 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-tryptophan-1",
+   "drug": "tryptophan",
+   "file": "tryptophan.md",
+   "action": "correct",
+   "claim": "Health Canada records show 20 valid single-ingredient licences, with no cancelled licences. The records do not include dosage form or approved indication text.",
+   "replacement": "The records do not include dosage form or approved indication text.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Health Canada records show 20 valid single-ingredient licences, with no cancelled licences\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  },
+  {
+   "id": "ca-lic-20261106-vitamin_e-1",
+   "drug": "vitamin_e",
+   "file": "vitamin_e.md",
+   "action": "correct",
+   "claim": "All 7 licences are valid single-ingredient entries; the table lists the first 5.",
+   "replacement": "All 7 licences are valid entries; the table lists the first 5.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 5 張（另核准未上市 2 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261106-zinc_acetate-1",
+   "drug": "zinc_acetate",
+   "file": "zinc_acetate.md",
+   "action": "correct",
+   "claim": "All four licences are valid single-ingredient authorizations.",
+   "replacement": "All four licences are valid authorizations.",
+   "note": "Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06).",
+   "finding": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 4 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-06"
+    }
+   ],
+   "checked": "2026-11-06",
+   "summary": "Removed: \"single-ingredient\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：bfbb2d149（2026-11-06）"
+  },
+  {
+   "id": "ca-lic-20261105-zinc_oxide-1",
+   "drug": "zinc_oxide",
+   "file": "zinc_oxide.md",
+   "action": "correct",
+   "claim": "Zinc oxide has 20 valid single-ingredient authorizations in Canada. Dosage forms and approved indication texts are not available for these products.",
+   "replacement": "Dosage forms and approved indication texts are not available for these products.",
+   "note": "Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：count）",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-05",
+   "summary": "Removed: \"Zinc oxide has 20 valid single-ingredient authorizations in Canada\"",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：49c7cb708（2026-11-05）"
+  }
+ ]
+}

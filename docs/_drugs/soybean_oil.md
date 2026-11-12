@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 867
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Soybean Oil: predicted new indication Amenorrhea (evidence level L5). Approved use: Not specified in the Health Canada licence data (the products are use…"
 monitor_inn: "SOYBEAN OIL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -79,6 +79,12 @@ Currently no related literature available.
 
 Health Canada lists 13 valid licences. The data compiled for this report do not include dosage forms or approved indication text for these products. The main ones are:
 
+<!-- review:begin ca-lic-20261106-soybean_oil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Health Canada lists 13 valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-soybean_oil-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02065673 | INTRALIPID 20% | Not available | Not available |
@@ -106,6 +112,19 @@ The prediction is supported only by a model score, with no clinical trials, no l
 - A systematic literature and trial search on lipid emulsions or essential fatty acids in amenorrhea, particularly functional hypothalamic amenorrhea and parenteral nutrition populations
 - Assessment of route compatibility, since the licensed products are all intravenous lipid emulsions
 - Mechanistic and preclinical support before any clinical consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

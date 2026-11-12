@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 567
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Lurbinectedin: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Lurbinectedin"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "cytomegalovirus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "malignant catarrh", "infectious bovine rhinotracheitis", "Mills syndrome"]
@@ -39,6 +39,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction, so it is a model-only hypothesis.
+
+<!-- review:begin ca-lic-20261105-lurbinectedin-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction, so it is a model-only hypothesis." Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 1 DIN for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-lurbinectedin-1 -->
 
 ---
 
@@ -117,6 +123,19 @@ The prediction rests on a model score alone (Evidence Level L5), with no clinica
 - Detailed mechanism of action data
 - Preclinical or clinical evidence in multiple endocrine neoplasia or related neuroendocrine tumours
 - A review of the Major drug interactions against likely co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 952
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Trolamine Salicylate: predicted new indication Exostosis (evidence level L5). Approved use: Not stated in the licence records. Product names suggest topical pain…"
 monitor_inn: "TROLAMINE SALICYLATE"
 predicted_indications: ["exostosis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "inclusion body myositis", "exostoses, multiple,", "rheumatoid arthritis", "headache disorder", "gout"]
@@ -102,6 +102,12 @@ Currently no related literature available.
 
 These are 5 of 11 valid licences. The remaining six are Myoflex Maximum Strength, Pain Relief Cream Extra Strength, Flexacrème Pain Relief Rub, Myoflex Regular Strength, Pain Relief Rub Triethanolamine Salicylate Cream and Arthritis Pain Relief. No licences are cancelled.
 
+<!-- review:begin ca-lic-20261106-trolamine_salicylate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "These are 5 of 11 valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-trolamine_salicylate-1 -->
+
 ---
 
 ## Safety Considerations
@@ -123,6 +129,19 @@ The prediction rests only on a model score. No trials or publications support it
 - A systematic literature and trial-registry search, prioritizing tendinitis as the most plausible candidate and, secondarily, localized joint pain in rheumatoid arthritis
 - Approved indication text and dosage forms for the Canadian licences
 - Assessment of route compatibility and similarity to the original indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

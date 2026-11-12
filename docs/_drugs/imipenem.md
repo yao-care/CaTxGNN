@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "IMIPENEM"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
@@ -77,6 +77,12 @@ Currently no related literature available.
 
 Both licences are currently valid.
 
+<!-- review:begin ca-lic-20261106-imipenem-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both licences are single-ingredient products and both are currently valid." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 2 DINs for this drug, 2 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-imipenem-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions:** 15 interactions were identified.
@@ -96,6 +102,18 @@ The score for diffuse scleroderma is high, but there are no clinical trials or p
 - Preclinical or mechanistic data showing a biological rationale for imipenem in diffuse scleroderma
 - Review of the Health Canada package insert for warnings and contraindications
 - Any clinical or observational studies directly addressing diffuse scleroderma, which could justify re-evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "are single-ingredient products and both" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

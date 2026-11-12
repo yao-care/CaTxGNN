@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 436
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the available license data (marketed in Canada as a com…"
 monitor_inn: "GLUTAMIC ACID"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -104,6 +104,12 @@ No randomized trial of glutamic acid in postmenopausal osteoporosis was found. T
 
 Two further authorizations (OLIMEL 7.6% E, DIN 02477955, and OLIMEL 5.7% E, DIN 02352532) are also valid, bringing the total to 7 DINs.
 
+<!-- review:begin ca-lic-20261106-glutamic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Two further authorizations (OLIMEL 7.6% E, DIN 02477955, and OLIMEL 5.7% E, DIN 02352532) are also valid, bringing the total to 7 single-ingredient DINs." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-glutamic_acid-1 -->
+
 ---
 
 ## Safety Considerations
@@ -129,6 +135,19 @@ The high TxGNN score is not backed by any clinical trial or human study of gluta
 - Preclinical bone studies (bone density, bone turnover markers, fracture endpoints) that test glutamic acid directly
 - A review of whether oral or parenteral dosing is feasible and how the bone-relevant exposure would be achieved, given that current Canadian products are parenteral nutrition solutions
 - A safety assessment for renal impairment, hypercalcemia-related conditions and cardiovascular disease, which the knowledge graph flags as contraindication signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 932
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -110,6 +110,12 @@ Trials for progesterone-receptor positive breast cancer (up to 10 shown, ordered
 
 Health Canada lists 15 valid licences. Dosage form and approved-indication text are not available in the data compiled for this report. Main authorizations (up to 5 shown):
 
+<!-- review:begin ca-lic-20261106-trastuzumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Health Canada lists 15 valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-trastuzumab-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02240692 | HERCEPTIN |
@@ -156,6 +162,19 @@ The strongest support is a completed Phase 3 adjuvant trial (n=3270) plus random
 - Health Canada package insert warnings and contraindications (currently a blocking data gap)
 - Detailed mechanism of action data from DrugBank
 - A second completed Phase 3 trial focused on the HR-positive/HER2-positive subgroup, if a separate indication claim is intended
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

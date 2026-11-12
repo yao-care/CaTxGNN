@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 732
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -88,6 +88,12 @@ Currently no related clinical trials registered.
 
 The others include over-the-counter cold and sinus products (for example Extra Strength Tylenol Sinus Daytime, Neocitran, Benylin, Dayquil/Nyquil) and Preparation H-PE Gel.
 
+<!-- review:begin ca-lic-20261105-phenylephrine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "These are 5 of 20 valid single-ingredient licences. The others include over-the-counter cold and sinus products (for example Extra Strength Tylenol Sinus Daytime, Neocitran, Benylin, Dayquil/Nyquil) and Preparation H-PE Gel." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-phenylephrine-1 -->
+
 ## Safety Considerations
 
 - **Contraindications suggested by the knowledge graph (not label text):** hypertension and hypertensive disorder, liver failure and liver disease, kidney disease, epilepsy, insomnia, COPD, peptic and gastric ulcer, porphyria, hypothyroidism, adrenocortical insufficiency (Addison disease), inflammatory bowel disease, pancreatitis, gallbladder disease, thrombocytopenia, and psychotic or other mental disorders.
@@ -115,6 +121,18 @@ The prediction score is very high, but the evidence is model-based plus a small,
 | Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
 |------|------|------|------|------|
 | Trigeminal autonomic cephalalgia | 0.9930 | L4 | Hold | The 12 publications describe phenylephrine only as a diagnostic eye-drop probe in pupillometry (cluster headache, SUNCT, Horner's syndrome). They do not show treatment benefit, and its pressor effects could be a concern in headache patients. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "These are 5 of 20 valid single-ingredient licences" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

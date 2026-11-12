@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 686
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -103,6 +103,12 @@ A second predicted indication, duodenal obstruction (score 0.9964), is not suppo
 
 Only five are shown here.
 
+<!-- review:begin ca-lic-20261105-omeprazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Fourteen single-ingredient licences are valid in Canada and none are cancelled. Only five are shown here." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 14 DINs for this drug, 11 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-omeprazole-1 -->
+
 ---
 
 ## Safety Considerations
@@ -127,6 +133,19 @@ Please also refer to the package insert for full warnings and contraindications.
 - Controlled human studies of omeprazole in duodenogastric reflux, with bile-reflux outcomes
 - Assessment of the long-term gastric carcinogenesis signal in humans
 - Review of the high-risk interactions (acalabrutinib, atazanavir) and the knowledge graph contraindication signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Fourteen single-ingredient licences are valid in Canada and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

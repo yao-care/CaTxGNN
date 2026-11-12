@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 918
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Titanium Dioxide: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: No approved indication text is recorded in the Canadian licence data…"
 monitor_inn: "Titanium dioxide"
 predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract"]
@@ -94,6 +94,12 @@ For context, the second-ranked prediction, diabetic retinopathy, returned 5 publ
 
 All are sunscreen or cosmetic-type products.
 
+<!-- review:begin ca-lic-20261105-titanium_dioxide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "There are 20 valid single-ingredient licences in total. All are sunscreen or cosmetic-type products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-titanium_dioxide-1 -->
+
 ---
 
 ## Safety Considerations
@@ -117,6 +123,19 @@ The prediction rests only on the model score. There are no clinical trials and n
 - Route and formulation feasibility, since current products are topical and not intended for systemic use
 - Package insert warnings and contraindications from Health Canada
 - A toxicology review of TiO₂ exposure, including nanoparticle oxidative stress concerns
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "There are 20 valid single-ingredient licences in total" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

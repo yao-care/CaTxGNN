@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 844
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the licence records compiled for this report (sennoside…"
 monitor_inn: "SENNOSIDES"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
@@ -48,7 +48,7 @@ Sennosides are stimulant laxatives marketed in Canada in several single-ingredie
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 4 of 5; dormant: 1) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 5; cancelled: 1) |
 | Number of DINs | 5 (marketed: 4) |
 | Recommended Decision | Hold |
 
@@ -68,6 +68,12 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin ca-lic-20261112-sennosides-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "All five licences are currently valid." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 5 DINs for this drug, 4 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261112-sennosides-1 -->
+
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
@@ -77,8 +83,6 @@ Currently no related literature available.
 | 02516209 | COLACE PLUS STIMULANT LAXATIVE | Not specified | Not specified |
 | 02247134 | SENNA LAXATIVE AND DOCUSATE SODIUM TABLETS | Not specified | Not specified |
 | 02246951 | SENNA S. TABLETS | Not specified | Not specified |
-
-All five licences are currently valid.
 
 ## Safety Considerations
 
@@ -97,6 +101,19 @@ The prediction has no supporting clinical trials or literature (Evidence Level L
 - Approved indication text, dosage forms and manufacturer details for each Canadian licence
 - Preclinical or mechanistic evidence showing that sennosides or their metabolites affect hair follicle biology
 - A check of whether other predicted indications have stronger supporting evidence, since none of the six top predictions currently has any trials or literature
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Removed: "All five licences are currently valid" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

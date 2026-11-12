@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Flumethasone: predicted new indication Alopecia areata (evidence level L5). Approved use: Atopic dermatitis, contact dermatitis, seborrheic dermatitis…"
 monitor_inn: "Flumethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "primary cutaneous B-cell lymphoma", "alopecia universalis onychodystrophy vitiligo"]
@@ -92,6 +92,12 @@ Currently no related literature available.
 
 Both products are valid authorizations; none are cancelled.
 
+<!-- review:begin ca-lic-20261106-flumethasone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both products are valid single-ingredient authorizations; none are cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-flumethasone-1 -->
+
 ---
 
 ## Safety Considerations
@@ -116,6 +122,19 @@ The prediction for alopecia areata has no supporting trials or publications, so 
 - A literature and trial search for flumethasone, or comparable potent topical corticosteroids, in alopecia areata
 - Confirmation of route and formulation compatibility with scalp or intralesional use
 - Review of the contraindication signals above, including the risk of skin atrophy with long-term scalp use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

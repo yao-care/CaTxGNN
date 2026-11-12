@@ -149,6 +149,11 @@
    "sentence": "Twenty valid single-ingredient licences are recorded.",
    "cut": "single-ingredient ",
    "reason": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 17 張（另核准未上市 3 張），其中單方有效 9 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）"
+  },
+  {
+   "sentence": "Twenty valid licences are recorded. The compiled data",
+   "cut": "Twenty valid licences are recorded.",
+   "reason": "DPD 2026-11-09：共 20 張、上市 17、休眠 2、註銷 1；「20 張有效」與事實不符，整句刪（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）"
   }
  ],
  "cilazapril": [
@@ -655,6 +660,41 @@
    "sentence": "All four licences are valid single-ingredient authorizations.",
    "cut": "single-ingredient ",
    "reason": "依 Health Canada DPD 的 active ingredients（修正後依成分數判單方／複方）本藥 DIN 有效 4 張（另核准未上市 0 張），其中單方有效 0 張；句子的單方／複方說法（全部單方、沒有複方或單方張數）與事實不符，只刪「單方」這個詞或子句，其餘保留（2026-11-06 用戶決定）"
+  }
+ ],
+ "betamethasone": [
+  {
+   "sentence": "Betamethasone is a corticosteroid with 20 valid single-ingredient licences in Canada, mostly topical brands.",
+   "cut": "Betamethasone is a corticosteroid with 20 valid single-ingredient licences in Canada, mostly topical brands.",
+   "reason": "DPD 2026-11-09：至少 19 張有效、1 張註銷（部分紀錄）；「20 張有效單方許可」與事實不符，只刪張數子句（「mostly topical brands」依附於被刪的張數，一併刪）（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）"
+  }
+ ],
+ "leflunomide": [
+  {
+   "sentence": "Leflunomide is marketed in Canada with 18 valid single-ingredient licences, none cancelled.",
+   "cut": "Leflunomide is marketed in Canada with 18 valid single-ingredient licences, none cancelled.",
+   "reason": "DPD 2026-11-09：共 18 張、有效 16、註銷 2（02241889、02241888）；「18 張有效、沒有註銷」與事實不符，只刪張數子句（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）"
+  }
+ ],
+ "pseudoephedrine": [
+  {
+   "sentence": "Pseudoephedrine is marketed in Canada under 20 valid single-ingredient licences.",
+   "cut": "Pseudoephedrine is marketed in Canada under 20 valid single-ingredient licences.",
+   "reason": "DPD 2026-11-09：至少 19 張有效、1 張註銷（部分紀錄）；「20 張有效」與事實不符，只刪張數子句（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）"
+  }
+ ],
+ "sennosides": [
+  {
+   "sentence": "All five licences are currently valid.",
+   "cut": "All five licences are currently valid.",
+   "reason": "DPD 2026-11-09：共 5 張、有效 4、註銷 1（02247390）；「5 張全部有效」與事實不符，整句（整段）刪（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）"
+  }
+ ],
+ "travoprost": [
+  {
+   "sentence": "The drug is marketed, and 6 of the 6 licenses are valid, with none cancelled.",
+   "cut": "The drug is marketed, and 6 of the 6 licenses are valid, with none cancelled.",
+   "reason": "DPD 2026-11-09：共 6 張、有效 5、註銷 1（02457997）；「6 張全部有效、沒有註銷」與事實不符，只刪張數子句；DUOTRAV PQ（02278251）仍有效，前一句保留（2026-11-12，11-09 排程後跟新事實矛盾的頁，改用本站查核機制修）"
   }
  ]
 }

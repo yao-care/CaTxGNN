@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cabotegravir: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the Canadian licence data compiled for this report (cab…"
 monitor_inn: "CABOTEGRAVIR"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
@@ -91,6 +91,12 @@ Currently no related literature available.
 
 All five licences are valid authorizations; none are cancelled.
 
+<!-- review:begin ca-lic-20261106-cabotegravir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid single-ingredient authorizations; none are cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-cabotegravir-1 -->
+
 ---
 
 ## Safety Considerations
@@ -121,6 +127,19 @@ The prediction rests only on a TxGNN score, with no clinical trials, no literatu
 - Approved indication text and dosage form details for the Canadian licences
 - Preclinical or early clinical evidence in rheumatoid arthritis
 - Route and formulation compatibility assessment (cabotegravir is available in oral and long-acting injectable products, which would need to fit the new indication)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

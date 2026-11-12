@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 14
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Abiraterone: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -52,6 +52,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Nineteen valid licenses exist. The records compiled for this report do not include dosage form or approved-indication text. The first five are listed below.
 
+<!-- review:begin ca-lic-20261106-abiraterone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Nineteen valid single-ingredient licenses exist." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-abiraterone-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02371065 | ZYTIGA | Not available | Not available |
@@ -84,6 +90,18 @@ Nineteen valid licenses exist. The records compiled for this report do not inclu
 For warnings and contraindications, please refer to the package insert for safety information.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

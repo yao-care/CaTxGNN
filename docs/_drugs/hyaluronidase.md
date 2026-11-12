@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 description: "Hyaluronidase: predicted new indication Esotropia (evidence level L5)."
@@ -93,6 +93,12 @@ Currently no related clinical trials registered.
 
 All five authorizations are valid licenses. Dosage form and approved indication text are not available in the data compiled for this report.
 
+<!-- review:begin ca-lic-20261106-hyaluronidase-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five authorizations are valid single-ingredient licenses." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-hyaluronidase-1 -->
+
 ---
 
 ## Safety Considerations
@@ -121,6 +127,19 @@ The prediction rests only on a model score. There are no clinical trials, and th
 - Approved indication and dosage form details for the five HYQVIA licenses.
 
 **Note on better-supported predictions for this drug:** Among its other predicted indications, **diabetic retinopathy** (TxGNN rank 6) has by far the strongest support. It has two completed Phase 3 trials of intravitreal ovine hyaluronidase for vitreous hemorrhage (NCT00198497, n=510; NCT00198510, n=750) and one completed Phase 2 study (NCT00198471, n=10) in non-proliferative disease. Trial results were not in the data compiled for this report, so a review of the actual outcomes is needed before any decision on that indication.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

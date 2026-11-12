@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 981
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Vitamin E: predicted new indication Inborn disorder of bilirubin metabolism (evidence level L5). Approved use: Cholestasis, benign recurrent intrahepatic cholestasis…"
 monitor_inn: "VITAMIN E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
@@ -84,6 +84,12 @@ Currently no related clinical trials registered.
 
 All 7 licences are valid entries; the table lists the first 5. The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).
 
+<!-- review:begin ca-lic-20261106-vitamin_e-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 7 licences are valid single-ingredient entries; the table lists the first 5." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-vitamin_e-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions**: 100 interactions were identified, and 20 are detailed here.
@@ -104,6 +110,19 @@ The prediction has no registered trials and a single, indirect publication. The 
 - Health Canada package insert warnings and contraindications, needed for safety screening
 - Targeted literature review or preclinical and clinical studies in inherited bilirubin disorders (for example Crigler-Najjar or Gilbert syndrome)
 - Review of the other predicted indications (such as drug-induced liver injury, which has only preclinical and indirect support) to see whether any offers a stronger starting point
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

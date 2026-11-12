@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 935
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -50,8 +50,8 @@ The top-ranked prediction therefore sits at the lowest evidence level (L5).
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
-| Number of DINs | 6 (marketed: 6) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 6; cancelled: 1) |
+| Number of DINs | 6 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -106,7 +106,13 @@ No literature is available for visceral calciphylaxis. The most relevant items r
 | 02413167 | SANDOZ TRAVOPROST | Not specified | Not specified |
 | 02415305 | APO-TRAVOPROST-TIMOP PQ | Not specified | Not specified |
 
-A sixth authorization, DUOTRAV PQ (DIN 02278251), is also valid. The drug is marketed, and 6 of the 6 licenses are valid, with none cancelled.
+A sixth authorization, DUOTRAV PQ (DIN 02278251), is also valid. The drug is marketed.
+
+<!-- review:begin ca-lic-20261112-travoprost-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "The drug is marketed, and 6 of the 6 licenses are valid, with none cancelled." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 6 DINs for this drug, 5 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261112-travoprost-1 -->
 
 ## Safety Considerations
 
@@ -130,6 +136,19 @@ The prediction for visceral calciphylaxis rests on the model score alone. No tri
 - Package insert warnings and contraindications from Health Canada, which are needed for safety screening
 - Assessment of route compatibility, since travoprost is an ophthalmic product and the predicted condition is systemic
 - Classification of the 49 drug interactions, which currently have unknown severity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Removed: "and 6 of the 6 licenses are valid, with none cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

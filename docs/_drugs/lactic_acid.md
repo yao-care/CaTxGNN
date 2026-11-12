@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -42,6 +42,12 @@ Lactic acid is marketed in Canada in three products (PRISMASOL and PRISMOCAL sol
 The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, with a very high score but **no clinical trials and no directly relevant publications** supporting this direction.
 The evidence is model prediction only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
+<!-- review:begin ca-lic-20261106-lactic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Lactic acid is marketed in Canada in three single-ingredient products (PRISMASOL and PRISMOCAL solutions), but the compiled data do not state an approved indication for them." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-lactic_acid-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -57,6 +63,12 @@ The evidence is model prediction only. The score comes from the TxGNN model (dee
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Lactic acid is a naturally occurring metabolite. In Canada it is marketed in three products with the brand names PRISMOCAL and PRISMASOL, but the data compiled for this report do not describe their approved use.
+
+<!-- review:begin ca-lic-20261106-lactic_acid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In Canada it is marketed in three single-ingredient products with the brand names PRISMOCAL and PRISMASOL, but the data compiled for this report do not describe their approved use." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-lactic_acid-2 -->
 
 On the biology, a plausible link to the predicted indication is hard to find. Atypical coarctation of the aorta is a structural congenital anomaly managed surgically or by catheter intervention. Lactic acid has no recognised mechanism that would correct such a defect. The very high TxGNN score (0.9959) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis-generating signal at best.
 
@@ -98,6 +110,20 @@ The prediction rests on a model score alone, with no trials, no relevant literat
 - Mechanism of action data for lactic acid
 - The approved indications and dosage forms for the three Canadian products
 - Any direct preclinical or clinical evidence that lactic acid affects the predicted disease. Without it, resources are better spent on other candidates.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

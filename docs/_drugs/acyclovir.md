@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acyclovir: predicted new indication Top-ranked: punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -107,6 +107,12 @@ Common wart publications (most relevant 10):
 
 Acyclovir has 20 valid licences in Canada and none have been cancelled. The compiled data lack dosage form and approved indication text for each licence, so those columns are omitted. Main authorizations:
 
+<!-- review:begin ca-lic-20261106-acyclovir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Acyclovir has 20 valid single-ingredient licences in Canada and none have been cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-acyclovir-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 00569771 | ZOVIRAX |
@@ -169,6 +175,18 @@ Please refer to the package insert for key warnings and label contraindications.
 | Eosinophilic pustular folliculitis | L5 | Hold | No viral cause; no data |
 | Vulvovaginal candidiasis | L5 | Hold | Fungal cause; likely a co-occurrence artifact |
 | Papular urticaria | L5 | Hold | Insect bite hypersensitivity; no data |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

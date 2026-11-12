@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, psoriatic arthritis"
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 18 of 18) |
-| Number of DINs | 18 (marketed: 18) |
+| Canada Market Status | Marketed (marketed DINs: 16 of 18; cancelled: 2) |
+| Number of DINs | 18 (marketed: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,7 +74,13 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Leflunomide is marketed in Canada with 18 valid single-ingredient licences, none cancelled. Dosage form and approved-indication text were not available in the data compiled for this report. Five of the licences are listed below.
+Leflunomide is marketed in Canada. Dosage form and approved-indication text were not available in the data compiled for this report. Five of the licences are listed below.
+
+<!-- review:begin ca-lic-20261112-leflunomide-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "Leflunomide is marketed in Canada with 18 valid single-ingredient licences, none cancelled." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 18 DINs for this drug, 16 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261112-leflunomide-1 -->
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -110,6 +116,19 @@ The prediction rests only on a computational score, with no clinical trials, no 
 - Package insert warnings and contraindications from Health Canada, and an assessment of teratogenicity risk in the target population
 - Dosage form and approved-indication details for the Canadian licences
 - A clear rationale for the target population, since the disease is congenital and the drug is teratogenic
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Removed: "with 18 valid single-ingredient licences, none cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

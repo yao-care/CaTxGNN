@@ -5,7 +5,7 @@ layout: default
 title: Ivacaftor
 parent: Known Uses Only (No New Predictions)
 nav_order: 507
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ivacaftor: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Ivacaftor"
 predicted_indications: []
@@ -50,6 +50,12 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Ivacaftor is authorized in Canada under 15 valid licences. The licence records compiled for this report do not include dosage forms or approved indication text. Brand names are listed below (first 5 DINs).
 
+<!-- review:begin ca-lic-20261106-ivacaftor-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ivacaftor is authorized in Canada under 15 valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-ivacaftor-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02442620 | KALYDECO | Not specified | Not specified |
@@ -68,6 +74,18 @@ The remaining 10 licences are for ORKAMBI (5), SYMDEKO (1), and TRIKAFTA (4).
 - **Minor**: Fidaxomicin
 
 For warnings and contraindications, please refer to the package insert.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

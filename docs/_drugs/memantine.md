@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -83,6 +83,12 @@ There are currently no registered clinical trials of memantine for pulmonary hyp
 
 The five main ones are below. The data compiled for this report do not include dosage forms or approved indication text for these products.
 
+<!-- review:begin ca-lic-20261105-memantine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Ten valid single-ingredient licenses are listed (none cancelled). The five main ones are below." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 10 DINs for this drug, 9 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-memantine-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02260638 | EBIXA |
@@ -118,6 +124,19 @@ By comparison, another predicted indication for memantine, **migraine disorder**
 - Mechanism of action data for memantine
 - Health Canada package insert warnings and contraindications, including the approved indication text for each license
 - Review of the knowledge-graph contraindication signals (liver, gallbladder and renal impairment) against the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Ten valid single-ingredient licenses are listed (none cancelled)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

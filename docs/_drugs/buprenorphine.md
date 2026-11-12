@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 135
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Buprenorphine: predicted new indication Acute intermittent porphyria (evidence level L4). Approved use: Opioid dependence, substance abuse/dependence, morphine dependence"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -102,6 +102,12 @@ Currently no related clinical trials registered.
 
 All 18 licences are valid authorisations (also including SUBOXONE and generic buprenorphine/naloxone products).
 
+<!-- review:begin ca-lic-20261106-buprenorphine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 18 licences are valid single-ingredient authorisations (also including SUBOXONE and generic buprenorphine/naloxone products)." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-buprenorphine-1 -->
+
 ---
 
 ## Safety Considerations
@@ -132,6 +138,19 @@ The prediction rests on a model score alone. The single publication is a periope
 - A dedicated assessment of buprenorphine's porphyrinogenic risk
 - Any mechanistic or clinical studies of opioids in acute intermittent porphyria, which currently do not exist in the data reviewed
 - Approved indication text and dosage forms for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 868
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -77,6 +77,12 @@ Currently no related literature available.
 
 Dosage form and approved indication text are not available in the compiled data. The table lists five of them.
 
+<!-- review:begin ca-lic-20261105-spironolactone-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Ten single-ingredient authorisations are valid, none cancelled. Dosage form and approved indication text are not available in the compiled data." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 10 DINs for this drug, 8 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-spironolactone-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02518821 | JAMP SPIRONOLACTONE | Not available | Not available |
@@ -108,6 +114,19 @@ The prediction rests on a model score alone, with no clinical trials or literatu
 - Preclinical or mechanistic evidence that mineralocorticoid or androgen receptor antagonism affects the *CDSN*, *APCDD1* or *RPL21* pathways
 - Any case reports or early-phase studies in hereditary hypotrichosis
 - Route compatibility assessment (oral spironolactone versus a possible topical approach for scalp conditions)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Ten single-ingredient authorisations are valid, none cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

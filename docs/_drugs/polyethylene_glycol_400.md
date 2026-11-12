@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 749
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Polyethylene Glycol 400: predicted new indication Bronchitis (evidence level L5). Approved use: Constipation disorder, dry eye syndrome, xerophthalmia"
 monitor_inn: "POLYETHYLENE GLYCOL 400"
 predicted_indications: ["bronchitis", "congenital ichthyosiform erythroderma"]
@@ -80,6 +80,12 @@ Currently no related literature available.
 
 All three licences are valid products, and all are eye-care products. This route differs from the airway route that bronchitis would require, and route compatibility has not been assessed.
 
+<!-- review:begin ca-lic-20261106-polyethylene_glycol_400-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are valid single-ingredient products, and all are eye-care products." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-polyethylene_glycol_400-1 -->
+
 ## Safety Considerations
 
 Package insert warnings and contraindications were not available for this report. Please refer to the package insert for safety information.
@@ -108,6 +114,19 @@ The prediction for bronchitis is supported only by a model score (Evidence Level
 - A literature and trial search on PEG 400 and airway mucus hydration or respiratory disease
 - An assessment of route compatibility, since current Canadian products are ophthalmic
 - Verification of the knowledge-graph contraindications against actual labelling
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

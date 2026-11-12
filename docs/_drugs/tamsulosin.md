@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 881
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -99,6 +99,12 @@ For the broader hair-loss area (alopecia, rank 9), two papers were retrieved. Ne
 
 Five of the 10 valid authorisations are listed here.
 
+<!-- review:begin ca-lic-20261106-tamsulosin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Five of the 10 valid single-ingredient authorisations are listed here." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-tamsulosin-1 -->
+
 ---
 
 ## Safety Considerations
@@ -134,6 +140,19 @@ The prediction rests only on a TxGNN model (deep learning) score, which may refl
 - Any preclinical or clinical signal for tamsulosin in hair or congenital disorders. Without it, the prediction should be deprioritised.
 - A review of any hair-related signals as possible adverse or off-target effects rather than therapeutic opportunities
 - If repurposing is still pursued, a more plausible candidate indication among the lower-ranked predictions, assessed on its own evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

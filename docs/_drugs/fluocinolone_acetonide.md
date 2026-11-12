@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
 description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data"
@@ -77,6 +77,12 @@ Currently no related literature available.
 
 All three licences are currently valid.
 
+<!-- review:begin ca-lic-20261106-fluocinolone_acetonide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are single-ingredient products and currently valid." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-fluocinolone_acetonide-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions**: An interaction screen returned 9 drug pairs, all with an unclassified severity level: dexamethasone, cetirizine, citalopram, valproic acid, acetaminophen, digoxin, levothyroxine, alendronic acid and clonazepam. The clinical significance of each has not been graded.
@@ -96,6 +102,18 @@ The only support for this prediction is a high model score (0.9934). There are n
 - Detailed mechanism of action data
 - Assessment of whether topical routes are adequate, given that disease management is often systemic
 - Review of the drug interaction findings with graded severity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient products and" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

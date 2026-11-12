@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 923
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -106,6 +106,12 @@ For context, the most relevant literature found for the second- and third-ranked
 
 Other brands include JAMP, GLN, AURO, PRO, MINT, MYLAN and NRA topiramate products.
 
+<!-- review:begin ca-lic-20261105-topiramate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "There are 20 valid single-ingredient licences in total, and none are cancelled. Other brands include JAMP, GLN, AURO, PRO, MINT, MYLAN and NRA topiramate products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-topiramate-1 -->
+
 ---
 
 ## Safety Considerations
@@ -135,6 +141,19 @@ Topiramate's known adverse effects reported in the retrieved literature include 
 - Indication-specific evidence for any seizure subtype of interest (for example, case series or trials in reflex epilepsies such as reading or audiogenic seizures)
 - Confirmation that the trigeminal nerve neoplasm prediction is not an artifact, such as a manual review of the similarities the TxGNN model (deep learning) learned between related diseases
 - Approved indication text and dosage forms for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "There are 20 valid single-ingredient licences in total, and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

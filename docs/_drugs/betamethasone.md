@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 111
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "BETAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
@@ -38,9 +38,15 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Betamethasone is a corticosteroid with 20 valid single-ingredient licences in Canada, mostly topical brands.
+Betamethasone is a corticosteroid.
 The TxGNN model predicts it may be useful for **alopecia mucinosa (alopecia mucinosa)**.
 Evidence is thin: **no clinical trials** and **1 publication**, a 1964 case series with a therapy review.
+
+<!-- review:begin ca-lic-20261112-betamethasone-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "Betamethasone is a corticosteroid with 20 valid single-ingredient licences in Canada, mostly topical brands." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261112-betamethasone-1 -->
 
 ## Quick Overview
 
@@ -50,7 +56,7 @@ Evidence is thin: **no clinical trials** and **1 publication**, a 1964 case seri
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -100,6 +106,18 @@ The prediction score is high, but the only evidence is a single 1964 case series
 - Mechanism of action data
 - Modern case series or controlled studies of corticosteroids in follicular mucinosis
 - Route and formulation compatibility assessment (topical versus intralesional)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Removed: "with 20 valid single-ingredient licences in Canada, mostly topical brands" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

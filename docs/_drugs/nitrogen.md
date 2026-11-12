@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Nitrogen"
 predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia"]
 description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -76,6 +76,12 @@ Currently no related literature available for 16q24.1 microdeletion syndrome.
 
 Dosage form and indication text are not listed for these licences. The first 5 of 14 valid licences are shown.
 
+<!-- review:begin ca-lic-20261106-nitrogen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The first 5 of 14 valid single-ingredient licences are shown." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-nitrogen-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 00572829 | NITROGEN 100% | Not listed | Not listed |
@@ -105,6 +111,19 @@ The prediction is model-only (L5), with no clinical trials or relevant literatur
 - Obtain Health Canada package insert warnings and contraindications, which are needed before safety screening.
 - Search for targeted clinical or case-level evidence in FOXF1-related lung disease.
 - Confirm route and dosage form compatibility.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

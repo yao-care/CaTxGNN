@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Ioversol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available"
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 Ioversol is an iodinated contrast agent, but the data compiled for this report contain no approved-indication text for it.
 The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials** and **no publication that studies ioversol itself in this disease** support the prediction.
 The one linked paper studies an embolization procedure with a different agent, so this is essentially a computational prediction.
+
+<!-- review:begin ca-lic-20261105-ioversol-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Ioversol is an iodinated contrast agent marketed in Canada under the brand name OPTIRAY, but the data compiled for this report contain no approved-indication text for it. The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials** and **no publication that studies ioversol itself in this disease** support the prediction." Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 2 DINs for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-ioversol-1 -->
 
 ---
 
@@ -119,6 +125,19 @@ The prediction rests on a model score alone. The only linked study used a differ
 - Mechanism of action data from DrugBank
 - Any study that directly tests ioversol in osteoarthritis, or a plausible mechanistic rationale
 - A review of the many Major-level drug interactions before any new use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "marketed in Canada under the brand name OPTIRAY" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

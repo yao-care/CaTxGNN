@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 940
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Acne, acute promyelocytic leukemia, acquired keratosis…"
 monitor_inn: "TRETINOIN"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -82,6 +82,12 @@ Currently no related literature available.
 
 Ten valid licences are on record in total; the five above are shown.
 
+<!-- review:begin ca-lic-20261106-tretinoin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ten valid single-ingredient licences are on record in total; the five above are shown." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-tretinoin-1 -->
+
 ## Cytotoxicity
 
 | Item | Content |
@@ -120,6 +126,19 @@ The prediction for rheumatoid nodulosis rests only on a high model score (0.9984
 - A systematic literature search targeted at tretinoin and rheumatoid disease
 - Route and formulation compatibility assessment (oral versus topical) for the proposed indication
 - Consideration of Quinquaud's folliculitis decalvans as a more biologically plausible alternative candidate
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

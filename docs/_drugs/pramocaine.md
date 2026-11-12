@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Dermatitis, exanthem, tinea infections, otitis externa, hemorrhoids…"
 monitor_inn: "Pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
@@ -77,6 +77,12 @@ Currently no related literature available.
 
 Twelve licences are currently valid in Canada. The data compiled for this report do not include dosage forms or approved-indication text, so those columns are left blank. The five main products are listed below.
 
+<!-- review:begin ca-lic-20261106-pramocaine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twelve single-ingredient licences are currently valid in Canada." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-pramocaine-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02484889 | Itch Relief Moisturizing Cream | Cream (from product name) | Not available |
@@ -117,6 +123,19 @@ The prediction is supported only by the TxGNN model score (L5), with no clinical
 - Preclinical ocular tolerability and corneal toxicity data
 - An assessment of whether a suitable ophthalmic formulation and route is feasible
 - Evidence that symptom relief, rather than treatment of underlying inflammation, would be clinically meaningful, compared with established options such as antihistamines and mast cell stabilizers
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 599
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methocarbamol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the licence records. Product names (e.g.…"
 monitor_inn: "METHOCARBAMOL"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "panuveitis (disease)", "anaphylaxis", "iris disease", "uveitis", "ventricular tachycardia", "food-dependent exercise-induced anaphylaxis", "conjunctivitis", "obsolete bundle branch block"]
@@ -91,6 +91,12 @@ Two publications were retrieved for the rank-4 prediction (anaphylaxis). Neither
 
 All 16 licences are valid authorizations. Dosage form and approved indication text are not available in the data compiled for this report. The first five are listed below.
 
+<!-- review:begin ca-lic-20261106-methocarbamol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 16 licences are valid single-ingredient authorizations." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-methocarbamol-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 01932187 | ROBAXIN 750 | Not available | Not available |
@@ -126,6 +132,19 @@ The prediction rests solely on a model score, with no trials or supporting publi
 - Approved indication text and dosage forms for the Canadian licences
 - Any clinical or preclinical evidence for the predicted indication, or a better-supported candidate from the list (for example, irritable bowel syndrome, where a spasm-related rationale is conceivable but still untested)
 - Reclassification of the obsolete "bundle branch block" term before any further review
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

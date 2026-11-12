@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BACITRACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,6 +80,12 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 All five listed authorizations are products with valid status.
 
+<!-- review:begin ca-lic-20261106-bacitracin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five listed authorizations are single-ingredient products with valid status." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-bacitracin-1 -->
+
 ## Safety Considerations
 
 Label-based warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
@@ -102,6 +108,19 @@ The prediction has no supporting trials or publications, and the likely causes o
 - Mechanism-of-action data
 - Literature or clinical evidence that directly addresses punctate epithelial keratoconjunctivitis, including how often a bacterial cause is involved
 - Confirmation that an ophthalmic formulation and route are available
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

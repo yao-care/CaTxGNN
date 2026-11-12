@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 949
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -92,6 +92,12 @@ For the closely related, already-established indication of conjunctivitis, the c
 
 Eight valid authorizations are listed in total; the five above are shown. None of the listed products is documented as an ophthalmic formulation in the compiled data.
 
+<!-- review:begin ca-lic-20261106-trimethoprim-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight valid single-ingredient authorizations are listed in total; the five above are shown." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-trimethoprim-1 -->
+
 ## Safety Considerations
 
 - **Contraindications and disease associations (from the knowledge graph, not label text):** inherited porphyria and other porphyrin metabolism disorders, kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, G6PD deficiency, glycogen storage disease, cystinuria, galactosemia, and folic acid deficiency anemia.
@@ -111,6 +117,19 @@ The TxGNN score is very high (0.9957), but this is a model prediction with no re
 - Clinical or observational evidence specific to punctate epithelial keratoconjunctivitis, including the proportion of cases with a bacterial cause
 - Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
 - Confirmation of the available routes and formulations (especially ophthalmic) and the approved indication text for the Canadian products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

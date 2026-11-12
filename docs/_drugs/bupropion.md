@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -98,6 +98,12 @@ These are the same catecholamine pathways targeted by established ADHD treatment
 
 All 10 licences in the data are valid. Dosage form and indication text are not recorded in the local data.
 
+<!-- review:begin ca-lic-20261106-bupropion-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 10 single-ingredient licences in the data are valid." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-bupropion-1 -->
+
 ## Safety Considerations
 
 - **Contraindication-type relations in the data**: Relations compiled for this report suggest caution in epilepsy, hypertension, liver disease and cirrhosis, kidney disease, myocardial infarction, psychotic and manic bipolar disorders, anorexia nervosa and bulimia nervosa, opiate and substance dependence, and central nervous system neoplasm. These are not taken from label text and should be checked against the package insert.
@@ -118,6 +124,19 @@ One completed Phase 3 placebo-controlled trial in adults with ADHD (NCT00048360)
 - Confirmed mechanism-of-action data
 - Local indication, dosage form and manufacturer details for the Canadian licences
 - A patient-selection and monitoring plan that excludes people with seizure disorders, eating disorders or uncontrolled hypertension
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

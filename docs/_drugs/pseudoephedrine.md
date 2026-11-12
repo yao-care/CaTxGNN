@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis (also vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -52,7 +52,7 @@ Currently there are **0 registered clinical trials** and **7 publications** (2 h
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 19; cancelled: 1) |
 | Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
@@ -91,7 +91,13 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Pseudoephedrine is marketed in Canada under 20 valid single-ingredient licences. Dosage form and approved indication text are not available in the data compiled for this report. The first 5 are listed below.
+Pseudoephedrine is marketed in Canada. Dosage form and approved indication text are not available in the data compiled for this report. The first 5 are listed below.
+
+<!-- review:begin ca-lic-20261112-pseudoephedrine-1 -->
+
+> **Review correction (2026-11-12)**: Originally stated: "Pseudoephedrine is marketed in Canada under 20 valid single-ingredient licences." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261112-pseudoephedrine-1 -->
 
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -125,6 +131,19 @@ Official warnings and contraindications from the Health Canada package insert we
 - Approved indication text and dosage forms for the Canadian products
 - A defined, specific nasal condition beyond the existing indications, ideally with human trial data
 - A cardiovascular and metabolic safety plan, given the knowledge-graph contraindications and the interactions with antidiabetic drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Removed: "under 20 valid single-ingredient licences" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

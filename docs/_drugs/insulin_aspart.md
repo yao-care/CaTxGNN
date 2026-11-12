@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -106,6 +106,12 @@ The data compiled for this report list 20 publications. The 10 most relevant are
 
 Ten valid DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30). Only the first five are shown.
 
+<!-- review:begin ca-lic-20261106-insulin_aspart-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ten valid single-ingredient DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30)." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-insulin_aspart-1 -->
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
@@ -124,6 +130,19 @@ Multiple completed Phase 3 trials and several systematic reviews support insulin
 - Detailed mechanism of action data from DrugBank
 - Approved indication text and dosage forms for each DIN
 - A review of the other predicted indications (e.g., autoimmune oophoritis, stiff person syndrome), which lack any clinical evidence and should stay on Hold
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

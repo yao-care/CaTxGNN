@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -111,6 +111,12 @@ Selected publications for the related peptic ulcer prediction:
 
 Eighteen licences are valid in total, and none is cancelled. Only the first five are listed here.
 
+<!-- review:begin ca-lic-20261106-famotidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eighteen single-ingredient licences are valid in total, and none is cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-famotidine-1 -->
+
 ---
 
 ## Safety Considerations
@@ -134,6 +140,19 @@ Package insert warnings and contraindications were not available, so please refe
 - Prospective controlled trials of famotidine in duodenogastric reflux, with outcomes beyond acid suppression
 - Approved indication text, dosage forms, and route information for the Canadian licences
 - A review of the knowledge-graph contraindication signals (renal, hepatic, and others) against the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

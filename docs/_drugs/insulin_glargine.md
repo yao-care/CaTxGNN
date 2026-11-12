@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,6 +105,12 @@ For reference, the only literature retrieved across the 10 predictions was for p
 
 Nine DINs are valid in total. The other four are LANTUS (02251930), BASAGLAR (02444844), SEMGLEE (02526441) and SOLIQUA (02478293).
 
+<!-- review:begin ca-lic-20261106-insulin_glargine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Nine DINs are valid in total (all single-ingredient products)." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 9 DINs for this drug, 9 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-insulin_glargine-1 -->
+
 ---
 
 ## Safety Considerations
@@ -133,6 +139,19 @@ The prediction rests on a high model score alone (0.9988), with no clinical tria
 - Mechanism of action data
 - Approved indication text, dosage forms and manufacturers for the Canadian licences
 - Clarification of whether any predicted use differs from standard diabetes replacement therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "(all single-ingredient products)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

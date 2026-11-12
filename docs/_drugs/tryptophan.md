@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 954
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: No approved indication text is available in the Canadian licence reco…"
 monitor_inn: "TRYPTOPHAN"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -80,6 +80,12 @@ Currently no related clinical trials registered.
 
 The records do not include dosage form or approved indication text. The main authorizations are:
 
+<!-- review:begin ca-lic-20261105-tryptophan-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Health Canada records show 20 valid single-ingredient licences, with no cancelled licences. The records do not include dosage form or approved indication text." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-tryptophan-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 00654531 | TRYPTAN | Not listed | Not listed |
@@ -127,6 +133,18 @@ The other predictions are weaker than restless legs syndrome and should stay on 
 | Methemoglobinemia, alpha type | 0.9918 | L5 | Prediction only |
 | Methemoglobin reductase deficiency | 0.9908 | L5 | Prediction only; standard therapy acts through different mechanisms |
 | Congenital prothrombin deficiency | 0.9901 | L5 | Prediction only; no plausible mechanism |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Health Canada records show 20 valid single-ingredient licences, with no cancelled licences" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clioquinol: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection…"
 ---
 
@@ -83,6 +83,12 @@ Currently no related literature available.
 
 All three licences are currently valid.
 
+<!-- review:begin ca-lic-20261106-clioquinol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three licences are currently valid and are listed as single-ingredient records." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-clioquinol-1 -->
+
 ## Safety Considerations
 
 Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
@@ -104,6 +110,19 @@ The prediction is biologically plausible within the dermatophyte class, but it i
 - Mechanism of action data for clioquinol (for example from DrugBank)
 - Literature or in vitro data on clioquinol activity against ectothrix and endothrix dermatophytes
 - Assessment of whether a topical route can adequately reach infected hair shafts, compared with systemic antifungal standard care
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and are listed as single-ingredient records" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Epilepsy (focal-onset seizures)…"
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
@@ -83,6 +83,12 @@ Currently no related clinical trials registered.
 
 Dosage form and approved-indication text were not available for these records. Five are shown below.
 
+<!-- review:begin ca-lic-20261105-lacosamide-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Lacosamide has 20 valid single-ingredient licences in Canada. Dosage form and approved-indication text were not available for these records." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-lacosamide-1 -->
+
 | DIN | Product Name |
 |---------|------|
 | 02357615 | VIMPAT |
@@ -115,6 +121,19 @@ The high TxGNN score is backed only by one small retrospective study, one open-l
 - Health Canada package insert warnings and contraindications.
 - A haematological and cardiac (ECG/conduction) monitoring plan, given the neutropenia case report and the cardiac signals from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence.
 - For prioritisation: in the same prediction list, **migraine disorder** has stronger support than this indication. It has four registered trials (three Phase 3 and one Phase 2) and a published double-blind RCT against propranolol (PMID 41863672). It may be a more evidence-ready candidate for this drug.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Lacosamide has 20 valid single-ingredient licences in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

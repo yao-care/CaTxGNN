@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Codeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "CODEINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
@@ -88,6 +88,12 @@ Currently no related clinical trials registered.
 
 The records do not include dosage form or approved indication text. The five listed below are examples.
 
+<!-- review:begin ca-lic-20261105-codeine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Twenty valid single-ingredient licences are on record. The records do not include dosage form or approved indication text." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-codeine-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 00593451 | TEVA-CODEINE | Not specified | Not specified |
@@ -121,6 +127,19 @@ The score is very high, but there are no clinical trials, and the only publicati
 - Evidence that codeine provides a therapeutic benefit in nasal cavity disease, such as controlled studies or mechanistic or preclinical data
 - A clearer definition of what "nasal cavity disease" means here, since it is a broad category, and a check of whether any benefit goes beyond symptomatic cough or cold relief
 - Review of opioid-specific risks (dependence, respiratory depression, and the genetic variability in codeine metabolism) against any proposed new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Twenty valid single-ingredient licences are on record" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

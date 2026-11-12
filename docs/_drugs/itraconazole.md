@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Fungal infections (esophageal candidiasis, candidemia, histoplasmosis…"
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -77,6 +77,12 @@ Currently no related clinical trials registered.
 
 The publications retrieved are mostly reviews and case series about opportunistic infections in immunocompromised patients. None demonstrates that itraconazole treats pneumocystosis. The table lists the most relevant ones.
 
+<!-- review:begin ca-lic-20261105-itraconazole-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "All four authorisations are valid single-ingredient products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 4 DINs for this drug, 3 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-itraconazole-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | Randomized, double-blind, placebo-controlled phase III trial | HIV Medicine | Itraconazole capsules tested for preventing deep fungal infections in HIV-infected, immunodeficient patients. This is general antifungal prophylaxis, not pneumocystosis-specific. |
@@ -140,6 +146,19 @@ Package insert warnings and contraindications were not available in the data com
 - Package insert warnings and contraindications from Health Canada, which are currently missing and block safety screening.
 - Mechanism-of-action data and approved-indication text for the Canadian licences.
 - A review of cardiac and hepatic risks and of the major drug interactions, if the project advances.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All four authorisations are valid single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

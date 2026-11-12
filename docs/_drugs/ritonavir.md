@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease / AIDS"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -87,6 +87,12 @@ No literature is available for feline AIDS. The table below lists the most relev
 
 Most of these studies involve combination regimens, and ritonavir-specific effects cannot always be confirmed from the data provided.
 
+<!-- review:begin ca-lic-20261105-ritonavir-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Seven valid licences are on record (all single-ingredient entries); the five main ones are shown above." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 7 DINs for this drug, 6 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-ritonavir-1 -->
+
 ## Canada Market Information
 
 | DIN | Product Name | Dosage Form | Approved Indication |
@@ -129,6 +135,19 @@ Please refer to the package insert for warnings and complete safety information.
 - Ritonavir-specific FIV protease inhibition or antiviral data, if the veterinary direction is of interest
 - Approved indication text and dosage forms for the Canadian licences
 - A decision on whether to pursue the human-relevant HIV/hepatitis C indications instead, since they are already established
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "Seven valid licences are on record (all single-ingredient entries); the five main ones are shown above" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

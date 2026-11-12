@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Alimemazine"
 predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 description: "Alimemazine: predicted new indication IgE responsiveness, atopic (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 Alimemazine is a phenothiazine-class antihistamine.
 The TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone.
+
+<!-- review:begin ca-lic-20261105-alimemazine-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "Alimemazine is a phenothiazine-class antihistamine marketed in Canada. The TxGNN model predicts it may be relevant for **IgE responsiveness, atopic**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone." Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 2 DINs for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-alimemazine-1 -->
 
 ## Quick Overview
 
@@ -93,6 +99,19 @@ The prediction score is high, but no trials or publications address this conditi
 - Clinical or preclinical studies directly examining alimemazine in this setting
 - Package insert warnings and contraindications from Health Canada for the safety review
 - Mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "marketed in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

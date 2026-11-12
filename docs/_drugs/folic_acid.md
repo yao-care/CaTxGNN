@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,6 +93,12 @@ The 18 publications retrieved are mostly narrative reviews of B vitamins in gene
 
 Nine valid licences are registered in total; the five main ones are shown above.
 
+<!-- review:begin ca-lic-20261106-folic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Nine valid single-ingredient licences are registered in total; the five main ones are shown above." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-folic_acid-1 -->
+
 ## Safety Considerations
 
 Package insert warnings and contraindications were not available. Please refer to the package insert for safety information.
@@ -117,6 +123,19 @@ The prediction rests on the model score alone (L5). There are no clinical trials
 - Clarification of which specific biotin metabolic disorders are meant (for example biotinidase or holocarboxylase synthetase deficiency) and whether folic acid has any role next to biotin
 - Review of the knowledge-graph contraindication signals against the official label
 - Approved indication text and dosage forms for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

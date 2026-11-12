@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 593
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
@@ -106,6 +106,12 @@ Currently no related clinical trials registered for bacterial arthritis.
 
 All 16 authorizations are valid products; the table lists five of them.
 
+<!-- review:begin ca-lic-20261106-meropenem-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 16 authorizations are valid single-ingredient products; the table lists five of them." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-meropenem-1 -->
+
 ---
 
 ## Safety Considerations
@@ -175,6 +181,19 @@ Meropenem is mostly the comparator in these trials, so arm-specific results shou
 - Detailed mechanism of action data
 - For urinary tract infection: meropenem-specific arm results from each trial, restriction to documented or suspected resistant pathogens, and carbapenem stewardship
 - For bacterial arthritis: comparative clinical data or bone and joint penetration studies before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

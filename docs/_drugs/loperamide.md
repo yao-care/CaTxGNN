@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -100,6 +100,12 @@ Literature exists only for two other predicted indications, and both raise safet
 
 There are 14 valid licences in total. None is cancelled.
 
+<!-- review:begin ca-lic-20261106-loperamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are 14 valid single-ingredient licences in total. None is cancelled, and none is a combination product." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-loperamide-1 -->
+
 ---
 
 ## Safety Considerations
@@ -124,6 +130,19 @@ The prediction rests only on a model score. It has no mechanistic link, no clini
 - Package insert warnings and contraindications from Health Canada, and mechanism of action data from DrugBank
 - A route and formulation assessment, since all current products are oral and an ocular use would need a new formulation
 - A review of whether the TxGNN model (deep learning) score reflects similarities the model learned between related diseases (for example, shared infection-related conditions), not biological evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient , and none is a combination product" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

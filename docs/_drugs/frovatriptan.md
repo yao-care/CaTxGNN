@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 monitor_inn: "FROVATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Frovatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -106,6 +106,12 @@ The publications below concern frovatriptan in migraine or migraine with aura ge
 
 A sixth authorization (DIN 02535475, FROVATRIPTAN) is also valid.
 
+<!-- review:begin ca-lic-20261105-frovatriptan-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "A sixth authorization (DIN 02535475, FROVATRIPTAN) is also valid. All six are single-ingredient products and none are cancelled." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 6 DINs for this drug, 5 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-frovatriptan-1 -->
+
 ---
 
 ## Safety Considerations
@@ -137,6 +143,19 @@ Frovatriptan is well established in migraine with or without aura, and the mecha
 - Detailed mechanism of action data from DrugBank
 - A focused literature review and safety assessment of triptan use in brainstem aura, including vertebrobasilar and cerebrovascular risk
 - Dosage form and route information for the Canadian products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "All six are single-ingredient products and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

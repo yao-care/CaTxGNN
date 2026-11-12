@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,6 +95,12 @@ The compiled data contains 25 trials for this indication. The most relevant are 
 
 Twelve licences are valid in Canada. Dosage form and approved-indication text were not available in the records compiled for this report. The main products are:
 
+<!-- review:begin ca-lic-20261106-ipratropium-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Twelve single-ingredient licences are valid in Canada." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-ipratropium-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 02247686 | ATROVENT HFA | Not available | Not available |
@@ -139,6 +145,18 @@ Several large, completed Phase 3 trials, including one with 1,118 COPD participa
 | 8 | Tracheal disease | L4 | Hold | Preclinical and mechanistic work only |
 | 9 | Anaphylaxis | L4 | Hold | Preclinical only, and one case report of anaphylaxis caused by ipratropium |
 | 10 | Food-dependent exercise-induced anaphylaxis | L5 | Hold | Prediction only |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

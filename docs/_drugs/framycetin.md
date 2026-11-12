@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the Canadian licence data compiled for this report"
 monitor_inn: "Framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -101,6 +101,12 @@ Currently no related literature available.
 
 All five licences are valid. The product names suggest nasal, ointment and suppository forms.
 
+<!-- review:begin ca-lic-20261106-framycetin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All five licences are valid and single-ingredient." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-framycetin-1 -->
+
 ---
 
 ## Safety Considerations
@@ -124,6 +130,19 @@ The prediction is supported only by the TxGNN score (0.9966), with no clinical t
 - Package insert warnings and contraindications from Health Canada, and the approved indications for each DIN
 - Route and formulation compatibility assessment (current products are topical, not oral)
 - Preclinical or pilot evidence before any clinical development
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

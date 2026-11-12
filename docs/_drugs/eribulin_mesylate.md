@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -120,6 +120,25 @@ The TxGNN pipeline did not produce any repurposing candidates because the DrugBa
 - **[Blocking — DG001]** Retrieve and parse the TFDA/Health Canada product monograph (package insert) to populate `key_warnings` and `contraindications`
 - **[High — DG002]** Re-query DrugBank API and correctly populate `drugbank_id`, `original_indications`, and `original_moa` — the raw query succeeded (result\_count: 1) so this is a parsing issue, not a missing-data issue
 - **[Pipeline]** Re-run the TxGNN prediction model once `drugbank_id` and `original_indications` are populated; confirm that `predicted_indications` is non-empty before generating a new report
+
+<!-- review:begin ca-lic-20261105-eribulin_mesylate-1 -->
+
+> **Review correction (2026-11-05)**: Originally stated: "**[Pipeline]** Re-run the TxGNN prediction model once `drugbank_id` and `original_indications` are populated; confirm that `predicted_indications` is non-empty before generating a new report / **[Regulatory]** Cross-check Health Canada's Drug Product Database (DPD) directly for any DINs associated with eribulin mesylate, as the current dataset shows zero DINs despite the drug having regulatory approvals in comparable jurisdictions (FDA, EMA)" Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 3 DINs for this drug, 2 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261105-eribulin_mesylate-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-05 | Removed: "**[Regulatory]** Cross-check Health Canada's Drug Product Database (DPD) directly for any DINs associated with eribulin mesylate, as the cur" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

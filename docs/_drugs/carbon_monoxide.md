@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Carbon Monoxide: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the licence data (product names suggest lung diffusion…"
 monitor_inn: "Carbon monoxide"
 predicted_indications: ["sclerosing cholangitis", "ventricular tachycardia", "obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia", "potassium deficiency disease", "neovascular glaucoma", "angle-closure glaucoma", "pulmonary hypertension", "traumatic glaucoma", "aqueous misdirection"]
@@ -89,6 +89,12 @@ Currently no related literature available.
 
 All four authorizations are valid licences.
 
+<!-- review:begin ca-lic-20261106-carbon_monoxide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four authorizations are valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-carbon_monoxide-1 -->
+
 ---
 
 ## Safety Considerations
@@ -113,6 +119,19 @@ The prediction has no supporting trials or publications, so the evidence level i
 - An assessment of route compatibility and a safe dosing strategy for the target tissue
 
 **Note on other predictions:** Among the top 10 predictions, **pulmonary hypertension** (rank 8, L3) has the most relevant evidence. This includes preclinical work showing carbon monoxide reversing established pulmonary hypertension, a phase 1 trial of inhaled carbon monoxide in neonatal pulmonary hypertension (NCT01818843, n=24, status unknown), and a withdrawn phase 1/2 trial in severe pulmonary arterial hypertension (NCT01523548, n=0). It may be a better candidate for follow-up as a research question. Several cardiac-rhythm predictions are contradicted by evidence that carbon monoxide is arrhythmogenic.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

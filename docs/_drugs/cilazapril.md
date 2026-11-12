@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
@@ -87,6 +87,12 @@ Currently no related clinical trials registered.
 
 Eight valid authorizations are on record in total; the five above are shown. The others include APO-CILAZAPRIL (02291150), INHIBACE PLUS (02181479) and APO-CILAZAPRIL/HCTZ (02284987).
 
+<!-- review:begin ca-lic-20261106-cilazapril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eight valid single-ingredient authorizations are on record in total; the five above are shown." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-cilazapril-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions**: The only interaction record is the pharmacological target relationship, which confirms cilazapril acts on angiotensin-converting enzyme (ACE). No drug-drug interaction details with severity levels are available.
@@ -111,6 +117,19 @@ The prediction score is high, but the evidence is limited to four animal or in v
 - Pulmonary hypertension with unclear multifactorial mechanism (score 0.9920): L5, no trials or literature; Hold.
 - Malignant renovascular hypertension (score 0.9912): L5, mechanistically plausible but largely overlaps the existing hypertension indication; carries a risk of acute renal failure in bilateral renal artery stenosis or solitary kidney; Hold.
 - Malignant hypertensive renal disease (score 0.9912): L5, prediction only, an extension of the existing indication; would need renal function and potassium monitoring; Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

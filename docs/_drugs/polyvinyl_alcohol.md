@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 752
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Polyvinyl Alcohol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "POLYVINYL ALCOHOL"
 predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing collodion baby", "lamellar ichthyosis", "bathing suit ichthyosis"]
@@ -80,6 +80,12 @@ Currently no related literature available.
 
 All three products are valid authorizations.
 
+<!-- review:begin ca-lic-20261106-polyvinyl_alcohol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three products are valid single-ingredient authorizations." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-polyvinyl_alcohol-1 -->
+
 ## Safety Considerations
 
 - **Contraindications (from the knowledge graph, not label text):** The TxGNN knowledge graph links the drug to the following conditions as contraindications. These should be confirmed against official labelling before any use:
@@ -107,6 +113,19 @@ The prediction has a very high model score but no trials, no publications and no
 - Approved indication text, dosage forms and routes for the three Canadian products, and a check of route compatibility (ophthalmic products versus the topical skin use required)
 - Preclinical or ex vivo skin barrier studies showing a benefit over standard emollients
 - A safety assessment of percutaneous absorption, especially in neonates with impaired skin barrier
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

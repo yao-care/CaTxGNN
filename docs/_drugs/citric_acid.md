@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "CITRIC ACID"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,6 +91,12 @@ No study directly tests citric acid as a treatment for stomach disease. The most
 
 All 10 licences on record are valid licences. Only five are shown here.
 
+<!-- review:begin ca-lic-20261106-citric_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All 10 licences on record are valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-citric_acid-1 -->
+
 ## Safety Considerations
 
 - **Drug Interactions**: 15 interactions were identified. The one rated Major is aluminum hydroxide. The other 14 are rated Moderate and are mostly fluoroquinolone and related antibiotics, including ciprofloxacin, levofloxacin, moxifloxacin, ofloxacin, norfloxacin, enoxacin, gatifloxacin, gemifloxacin, lomefloxacin, sparfloxacin, trovafloxacin, grepafloxacin, nalidixic acid and cinoxacin.
@@ -109,6 +115,18 @@ The prediction score is high (0.9974), but no clinical trial exists and no publi
 - Package insert warnings and contraindications from Health Canada
 - Preclinical or early clinical studies testing citric acid directly in a defined gastric condition
 - A safety review of the interaction with aluminum hydroxide and of the fluoroquinolone interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

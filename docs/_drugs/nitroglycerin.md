@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 660
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the Canadian licence data compiled for this report (nit…"
 monitor_inn: "NITROGLYCERIN"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -99,6 +99,12 @@ The original indication could not be extracted from the licence data, so the lin
 
 Eighteen valid licences are held in Canada. Dosage form and approved-indication text were not available in the licence data. The main products are listed below.
 
+<!-- review:begin ca-lic-20261106-nitroglycerin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Eighteen valid single-ingredient licences are held in Canada." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-nitroglycerin-1 -->
+
 | DIN | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | 00037621 | NITROSTAT | Not specified | Not specified |
@@ -144,6 +150,19 @@ The NO–cGMP mechanism is biologically plausible, and there are small hemodynam
 - Approved indication and dosage form details for the Canadian licences
 - Results from NCT04594629, and a larger controlled study of inhaled or nebulized nitroglycerin
 - A hypotension and hypoxemia monitoring plan for the inhaled route
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

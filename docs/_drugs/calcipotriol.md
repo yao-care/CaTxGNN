@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 147
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the licence data (calcipotriol products are generally u…"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -96,6 +96,12 @@ Currently no related clinical trials registered.
 
 A sixth authorization, DOVOBET OINTMENT (DIN 02244126), is also valid. All six are licences with valid status.
 
+<!-- review:begin ca-lic-20261106-calcipotriol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All six are single-ingredient-type licences with valid status." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261106-calcipotriol-1 -->
+
 ---
 
 ## Safety Considerations
@@ -124,6 +130,19 @@ The TxGNN score is very high, and the biological rationale is plausible. The sup
 - Review of the knowledge-graph contraindication signals and interaction severity against the official label
 
 **Other predicted indications (ranks 2–10):** All carry weak or no direct evidence and are on Hold. Vulvitis and vulvar neoplasm have only indirect or case-level support (via vulvar psoriasis and benign genital acanthomas, respectively). The rest (vulvar inverted follicular keratosis, vulvovaginitis, vulvar ulceration, vulvar squamous neoplasm, postmenopausal atrophic vaginitis, bone Paget disease, breast fibrocystic disease) are computational predictions only, and several raise mucosal-irritation or hypercalcemia concerns.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "e single-ingredient-typ" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
