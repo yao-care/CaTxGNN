@@ -92,6 +92,18 @@ medicines list), their licences and update frequency are listed on the
 
 ---
 
+## Open data access
+
+<p class="key-answer" data-question="Is there an open dataset of drug repurposing predictions I can download?">
+CaTxGNN does not distribute a single bulk-download file, but every predicted drug&ndash;indication
+pair is openly published as an individual report page with its prediction score, evidence level,
+and linked ClinicalTrials.gov / PubMed sources. The project's source code and data-processing
+pipeline are open on <a href="https://github.com/yao-care/CaTxGNN">GitHub</a>, and source licensing
+details are on the <a href="{{ '/sources/' | relative_url }}">Data Sources</a> page.
+</p>
+
+---
+
 ## Academic basis
 
 > Huang, K., et al. (2024). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
