@@ -7,9 +7,9 @@
   "title": "Canada TxGNN FHIR Server",
   "status": "active",
   "experimental": true,
-  "date": "2026-11-13",
+  "date": "2026-11-15",
   "publisher": "Yao.Care - CaTxGNN Project",
-  "description": "FHIR R4 API for Canada drug repurposing predictions based on TxGNN knowledge graph. Contains 1217 drugs and 10224 predicted indications.",
+  "description": "FHIR R4 API for Canada drug repurposing predictions based on TxGNN knowledge graph. Contains 930 drugs and 5089 predicted indications.",
   "kind": "instance",
   "fhirVersion": "4.0.1",
   "format": [
@@ -46,15 +46,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 1217
+          "valueInteger": 930
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 10224
+          "valueInteger": 5089
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-13"
+          "valueDate": "2026-11-15"
         }
       ]
     }
