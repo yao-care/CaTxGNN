@@ -24,7 +24,7 @@ Drug repurposing predictions for Canada Health Canada-approved drugs using the T
 | **Unique Drugs** | 1,264 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 1,217 MK / 10,224 CUD |
+| **FHIR Resources** | 930 MK / 5,089 CUD |
 
 ### Evidence Level Distribution
 
