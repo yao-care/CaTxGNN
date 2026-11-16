@@ -1,55 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/ethambutol-hydrochloride/
 sitemap: false
-layout: default
-title: Ethambutol Hydrochloride
-parent: Known Uses Only (No New Predictions)
-nav_order: 362
-last_modified_at: 2026-11-05
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# Ethambutol Hydrochloride
-{: .fs-9 }
-
-Evidence Level: **N/A** | Predicted Indications: **0** 
-{: .fs-6 .fw-300 }
-
----
-
-## Table of Contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-<div id="pharmacist" markdown="1">
-
-## Pharmacist Assessment Report
-
-</div>
-
-## Ethambutol Hydrochloride
-{: .text-alpha }
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
-| Number of DINs | 2 (marketed: 2) |
-
----
-
-## Disclaimer
-
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
-
----
-
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/ethambutol/">
+<meta http-equiv="refresh" content="0; url=/drugs/ethambutol/">
+<script>location="/drugs/ethambutol/"</script>
+<a href="/drugs/ethambutol/">/drugs/ethambutol/</a>
+</html>
