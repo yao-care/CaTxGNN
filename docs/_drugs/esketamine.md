@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "ESKETAMINE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
-description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Esketamine

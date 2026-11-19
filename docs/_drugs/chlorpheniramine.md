@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
 last_modified_at: 2026-11-05
-description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Chlorpheniramine: predicted new indication nasal cavity disease (evidence level L5). In Canada: at least 20 DINs"
 ---
 
 # Chlorpheniramine

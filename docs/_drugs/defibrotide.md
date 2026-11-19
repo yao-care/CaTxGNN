@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "DEFIBROTIDE"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "thrombotic thrombocytopenic purpura", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor V deficiency", "fetal and neonatal alloimmune thrombocytopenia", "thrombocytopenic purpura"]
 last_modified_at: 2026-11-05
-description: "Defibrotide: predicted new indication pseudo-von Willebrand disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Defibrotide: predicted new indication pseudo-von Willebrand disease (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Defibrotide

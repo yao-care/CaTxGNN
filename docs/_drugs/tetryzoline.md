@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Tetryzoline"
 predicted_indications: ["nasal cavity disease"]
-description: "Tetryzoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Tetryzoline: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 10 DINs (10 marketed)"
 ---
 
 # Tetryzoline

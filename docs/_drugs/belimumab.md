@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
 last_modified_at: 2026-11-05
-description: "Belimumab: predicted new indication primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
+description: "Belimumab: predicted new indication primary release disorder of platelets (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Belimumab

@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 last_modified_at: 2026-11-05
-description: "Darunavir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Darunavir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In Canada: 8 DINs (7 marketed, 1 dormant)"
 ---
 
 # Darunavir

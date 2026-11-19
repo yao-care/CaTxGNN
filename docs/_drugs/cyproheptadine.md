@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
 last_modified_at: 2026-11-05
-description: "Cyproheptadine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cyproheptadine: predicted new indication nasal cavity disease (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Cyproheptadine

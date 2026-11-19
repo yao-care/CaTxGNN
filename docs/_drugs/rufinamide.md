@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
-description: "Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). Approved use: Not recorded in the local data"
+description: "Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
 # Rufinamide

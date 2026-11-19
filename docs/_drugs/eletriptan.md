@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "ELETRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
-description: "Eletriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
+description: "Eletriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 14 DINs (14 marketed)"
 ---
 
 # Eletriptan

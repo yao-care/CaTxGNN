@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-05
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Fluvoxamine: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluvoxamine: predicted new indication Schizoid personality disorder (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
 # Fluvoxamine

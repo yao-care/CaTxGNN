@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-05
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
-description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). Approved use: Not recorded in the local data"
+description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). In Canada: 19 DINs (19 marketed)"
 ---
 
 # Methadone

@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Vilazodone"
 predicted_indications: ["neurotic disorder", "obsessive-compulsive disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "Keppen-Lubinsky syndrome", "Ohdo syndrome and variants", "schizotypal personality disorder"]
 last_modified_at: 2026-11-05
-description: "Vilazodone: predicted new indication Neurotic disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Vilazodone: predicted new indication Neurotic disorder (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
 # Vilazodone

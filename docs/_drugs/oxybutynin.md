@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
-description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). In Canada: 6 DINs (5 marketed, 1 dormant)"
 ---
 
 # Oxybutynin

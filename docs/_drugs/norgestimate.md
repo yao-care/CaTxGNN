@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "NORGESTIMATE"
 predicted_indications: ["zinc, elevated plasma"]
-description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
 # Norgestimate

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "Treosulfan"
 predicted_indications: ["diabetic cataract"]
-description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not recorded in the local data"
+description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Treosulfan

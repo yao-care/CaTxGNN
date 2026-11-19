@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
 last_modified_at: 2026-11-05
-description: "Aflibercept: predicted new indication esotropia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Aflibercept: predicted new indication esotropia (evidence level L5). In Canada: 10 DINs (10 marketed)"
 ---
 
 # Aflibercept

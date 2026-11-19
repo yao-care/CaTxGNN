@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In Canada: 14 DINs (11 marketed, 1 dormant)"
 ---
 
 # Omeprazole

@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "COLISTIN"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
 last_modified_at: 2026-11-05
-description: "Colistin: predicted new indication postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Colistin: predicted new indication postinfectious vasculitis (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Colistin

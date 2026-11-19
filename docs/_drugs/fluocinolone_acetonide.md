@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
-description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Fluocinolone Acetonide

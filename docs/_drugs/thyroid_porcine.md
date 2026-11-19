@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-05
 monitor_inn: "Thyroid, porcine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina"]
-description: "Thyroid Porcine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Thyroid Porcine: predicted new indication Migraine disorder (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Thyroid Porcine

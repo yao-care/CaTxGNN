@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "NOREPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
-description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Not recorded in the local data"
+description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). In Canada: 6 DINs (5 marketed, 1 dormant)"
 ---
 
 # Norepinephrine

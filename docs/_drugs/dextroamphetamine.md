@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Dextroamphetamine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome", "trichotillomania"]
 last_modified_at: 2026-11-05
-description: "Dextroamphetamine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Dextroamphetamine: predicted new indication faciodigitogenital syndrome (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
 # Dextroamphetamine

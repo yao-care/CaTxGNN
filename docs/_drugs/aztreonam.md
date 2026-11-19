@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "AZTREONAM"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
 last_modified_at: 2026-11-05
-description: "Aztreonam: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Aztreonam: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Aztreonam

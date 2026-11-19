@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
-description: "Iohexol: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Iohexol: predicted new indication Insomnia (disease) (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Iohexol

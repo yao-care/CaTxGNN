@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-05
 monitor_inn: "LOMITAPIDE"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
-description: "Lomitapide: predicted new indication Marcothrombocytopenia with mitral valve insufficiency (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lomitapide: predicted new indication Marcothrombocytopenia with mitral valve insufficiency (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Lomitapide

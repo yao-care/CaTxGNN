@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-09
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). In Canada: 14 DINs (11 marketed, 3 dormant)"
 ---
 
 # Pemetrexed

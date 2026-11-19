@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "CARBETOCIN"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
 last_modified_at: 2026-11-05
-description: "Carbetocin: predicted new indication isotretinoin-like syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Carbetocin: predicted new indication isotretinoin-like syndrome (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Carbetocin

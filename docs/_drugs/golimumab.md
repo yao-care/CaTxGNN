@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
+description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
 # Golimumab

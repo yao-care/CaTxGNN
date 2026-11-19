@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "PRALATREXATE"
 predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
-description: "Pralatrexate: predicted new indication Pleural adenomatoid tumor (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pralatrexate: predicted new indication Pleural adenomatoid tumor (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Pralatrexate

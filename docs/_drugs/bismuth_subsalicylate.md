@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "BISMUTH SUBSALICYLATE"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "salmonellosis", "typhoid fever", "conjunctivitis", "relapsing fever", "acute contagious conjunctivitis", "gingivitis", "punctate epithelial keratoconjunctivitis", "otitis externa"]
 last_modified_at: 2026-11-05
-description: "Bismuth Subsalicylate: predicted new indication Paratyphoid fever (evidence level L5). Approved use: Not recorded in the local data"
+description: "Bismuth Subsalicylate: predicted new indication Paratyphoid fever (evidence level L5). In Canada: 14 DINs (14 marketed)"
 ---
 
 # Bismuth Subsalicylate

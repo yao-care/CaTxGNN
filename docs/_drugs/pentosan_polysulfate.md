@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-05
 monitor_inn: "Pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
-description: "Pentosan Polysulfate: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pentosan Polysulfate: predicted new indication Primary release disorder of platelets (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Pentosan Polysulfate

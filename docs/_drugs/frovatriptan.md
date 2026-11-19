@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "FROVATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-description: "Frovatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
+description: "Frovatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 6 DINs (5 marketed)"
 ---
 
 # Frovatriptan

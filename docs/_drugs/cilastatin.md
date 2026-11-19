@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "CILASTATIN"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 last_modified_at: 2026-11-05
-description: "Cilastatin: predicted new indication Staphylococcus aureus infection (evidence level L3). Approved use: Not recorded in the local data"
+description: "Cilastatin: predicted new indication Staphylococcus aureus infection (evidence level L3). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Cilastatin

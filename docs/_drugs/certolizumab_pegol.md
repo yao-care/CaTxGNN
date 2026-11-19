@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 last_modified_at: 2026-11-05
-description: "Certolizumab Pegol: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
+description: "Certolizumab Pegol: predicted new indication hypermobility of coccyx (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Certolizumab Pegol

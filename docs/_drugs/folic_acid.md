@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "FOLIC ACID"
 predicted_indications: ["biotin metabolic disease"]
-description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). In Canada: 9 DINs (7 marketed, 2 dormant)"
 ---
 
 # Folic Acid

@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]
 last_modified_at: 2026-11-05
-description: "Decitabine: predicted new indication refractory cytopenia of childhood (evidence level L5). Approved use: Not recorded in the local data"
+description: "Decitabine: predicted new indication refractory cytopenia of childhood (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Decitabine

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-05
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
-description: "Vernakalant: predicted new indication Stroke disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Vernakalant: predicted new indication Stroke disorder (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Vernakalant

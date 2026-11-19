@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
-description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Glucagon

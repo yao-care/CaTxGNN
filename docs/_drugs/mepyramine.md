@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Mepyramine"
 predicted_indications: ["nasal cavity disease"]
-description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mepyramine: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Mepyramine

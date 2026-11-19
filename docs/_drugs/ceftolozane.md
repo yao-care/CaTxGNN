@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "CEFTOLOZANE"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
-description: "Ceftolozane: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ceftolozane: predicted new indication Ureaplasma urethritis (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Ceftolozane

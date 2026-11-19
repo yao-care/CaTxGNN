@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Amifampridine"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
 last_modified_at: 2026-11-05
-description: "Amifampridine: predicted new indication glaucoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Amifampridine: predicted new indication glaucoma (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Amifampridine

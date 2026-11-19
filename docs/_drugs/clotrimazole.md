@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Clotrimazole: predicted new indication Acne (disease) (evidence level L5). In Canada: at least 20 DINs"
 ---
 
 # Clotrimazole

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-05
 monitor_inn: "TREPROSTINIL"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
-description: "Treprostinil: predicted new indication Pulmonary arteriovenous malformation (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Treprostinil: predicted new indication Pulmonary arteriovenous malformation (disease) (evidence level L5). In Canada: 4 DINs (4 marketed)"
 ---
 
 # Treprostinil

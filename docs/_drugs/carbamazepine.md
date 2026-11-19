@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
 last_modified_at: 2026-11-05
-description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
+description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). In Canada: 11 DINs (11 marketed)"
 ---
 
 # Carbamazepine

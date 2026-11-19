@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CEFTRIAXONE"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
 last_modified_at: 2026-11-05
-description: "Ceftriaxone: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ceftriaxone: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In Canada: 13 DINs (13 marketed)"
 ---
 
 # Ceftriaxone

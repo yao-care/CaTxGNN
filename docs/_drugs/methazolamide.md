@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "METHAZOLAMIDE"
 predicted_indications: ["congestive heart failure", "acute pulmonary heart disease"]
-description: "Methazolamide: predicted new indication Congestive heart failure (evidence level L5). Approved use: Not recorded in the local data"
+description: "Methazolamide: predicted new indication Congestive heart failure (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Methazolamide

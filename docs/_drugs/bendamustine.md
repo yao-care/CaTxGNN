@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
 last_modified_at: 2026-11-09
-description: "Bendamustine: predicted new indication Mantle cell lymphoma (evidence level L1). Approved use: Not recorded in the local data"
+description: "Bendamustine: predicted new indication Mantle cell lymphoma (evidence level L1). In Canada: 11 DINs (9 marketed, 2 dormant)"
 ---
 
 # Bendamustine

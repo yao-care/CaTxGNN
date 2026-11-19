@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
-description: "Trametinib: predicted new indication Choroideremia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Trametinib: predicted new indication Choroideremia (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Trametinib

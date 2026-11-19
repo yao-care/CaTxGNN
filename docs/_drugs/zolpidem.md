@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
+description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Canada: 12 DINs (12 marketed)"
 ---
 
 # Zolpidem

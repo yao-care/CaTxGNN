@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Avapritinib"
 predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
 last_modified_at: 2026-11-05
-description: "Avapritinib: predicted new indication axial spondylometaphyseal dysplasia (evidence level L5). Approved use: Not recorded in the local data"
+description: "Avapritinib: predicted new indication axial spondylometaphyseal dysplasia (evidence level L5). In Canada: 4 DINs (4 marketed)"
 ---
 
 # Avapritinib

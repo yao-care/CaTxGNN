@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-05
 monitor_inn: "STREPTOMYCIN"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
-description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the local data"
+description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). In Canada: 1 DIN (0 marketed, 1 dormant)"
 ---
 
 # Streptomycin

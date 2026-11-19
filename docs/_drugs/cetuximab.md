@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Cetuximab"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "chondroid hamartoma", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "epiglottis neoplasm", "cystic neoplasm", "pre-malignant neoplasm"]
 last_modified_at: 2026-11-05
-description: "Cetuximab: predicted new indication bronchial adenomas/carcinoids childhood (evidence level L5). Approved use: Not recorded in the local data"
+description: "Cetuximab: predicted new indication bronchial adenomas/carcinoids childhood (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
 # Cetuximab

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-05
 monitor_inn: "METHOTRIMEPRAZINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "headache disorder", "schizophreniform disorder", "anaphylaxis"]
-description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
 # Methotrimeprazine

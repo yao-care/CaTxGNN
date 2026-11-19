@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "UBROGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-description: "Ubrogepant: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ubrogepant: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Ubrogepant

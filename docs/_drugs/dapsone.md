@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
 last_modified_at: 2026-11-05
-description: "Dapsone: predicted new indication pneumocystosis (evidence level L1). Approved use: Not recorded in the local data"
+description: "Dapsone: predicted new indication pneumocystosis (evidence level L1). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Dapsone

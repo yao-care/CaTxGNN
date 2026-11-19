@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-05
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-description: "Doxazosin: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
+description: "Doxazosin: predicted new indication Migraine disorder (evidence level L4). In Canada: 9 DINs (9 marketed)"
 ---
 
 # Doxazosin
